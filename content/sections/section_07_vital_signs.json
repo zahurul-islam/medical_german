@@ -1,0 +1,14 @@
+{"id":"section_07","phaseId":"phase1","order":7,"titleDe":"Zahlen und Vitalzeichen","title":{"en":"Numbers & Vital Signs","bn":"সংখ্যা এবং ভাইটাল সাইন","hi":"संख्या और वाइटल साइंस","ur":"نمبر اور وائٹل سائنز","tr":"Sayılar ve Vital Bulgular"},"level":"A1","estimatedMinutes":30,"vocabulary":[
+{"id":"v07_01","germanTerm":"Blutdruck","article":"der","plural":"-","translation":{"en":"Blood Pressure","bn":"রক্তচাপ","hi":"रक्तचाप","ur":"بلڈ پریشر","tr":"Tansiyon"}},
+{"id":"v07_02","germanTerm":"Puls","article":"der","plural":"Pulse","translation":{"en":"Pulse","bn":"পালস","hi":"नाड़ी","ur":"نبض","tr":"Nabız"}},
+{"id":"v07_03","germanTerm":"Temperatur","article":"die","plural":"Temperaturen","translation":{"en":"Temperature","bn":"তাপমাত্রা","hi":"तापमान","ur":"درجہ حرارت","tr":"Ateş"}},
+{"id":"v07_04","germanTerm":"Atemfrequenz","article":"die","plural":"-","translation":{"en":"Respiratory Rate","bn":"শ্বাসের হার","hi":"श्वसन दर","ur":"سانس کی شرح","tr":"Solunum hızı"}},
+{"id":"v07_05","germanTerm":"Sauerstoffsättigung","article":"die","plural":"-","translation":{"en":"Oxygen Saturation","bn":"অক্সিজেন স্যাচুরেশন","hi":"ऑक्सीजन संतृप्ति","ur":"آکسیجن سیچوریشن","tr":"Oksijen saturasyonu"}},
+{"id":"v07_06","germanTerm":"Herzfrequenz","article":"die","plural":"-","translation":{"en":"Heart Rate","bn":"হার্ট রেট","hi":"हृदय गति","ur":"دل کی دھڑکن","tr":"Kalp atım hızı"}},
+{"id":"v07_07","germanTerm":"systolisch","article":"-","plural":"-","translation":{"en":"Systolic","bn":"সিস্টোলিক","hi":"सिस्टोलिक","ur":"سسٹولک","tr":"Sistolik"}},
+{"id":"v07_08","germanTerm":"diastolisch","article":"-","plural":"-","translation":{"en":"Diastolic","bn":"ডায়াস্টোলিক","hi":"डायस्टोलिक","ur":"ڈائیسٹولک","tr":"Diyastolik"}}
+],"dialogues":[{"id":"d07_01","title":{"en":"Checking Vitals"},"lines":[
+{"speaker":"Schwester","germanText":"Der Blutdruck ist 120 zu 80.","translation":{"en":"Blood pressure is 120 over 80."}},
+{"speaker":"Arzt","germanText":"Und die Temperatur?","translation":{"en":"And the temperature?"}},
+{"speaker":"Schwester","germanText":"37,5 Grad.","translation":{"en":"37.5 degrees."}}
+]}],"exercises":[{"id":"e07_01","type":"multipleChoice","question":{"en":"What is 'Blutdruck'?"},"options":["Blood Pressure","Heart Rate","Temperature"],"correctAnswer":"Blood Pressure","points":10}]}

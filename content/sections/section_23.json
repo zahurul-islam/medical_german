@@ -1,0 +1,14 @@
+{"id":"section_23","phaseId":"phase2","order":23,"titleDe":"Verdauungssystem","title":{"en":"Gastrointestinal System","bn":"পাচনতন্ত্র","hi":"पाचन तंत्र","ur":"نظام ہاضمہ","tr":"Sindirim Sistemi"},"level":"B2","estimatedMinutes":40,"vocabulary":[
+{"id":"v23_01","germanTerm":"Gastritis","article":"die","plural":"Gastritiden","translation":{"en":"Gastritis","bn":"গ্যাস্ট্রাইটিস","hi":"गैस्ट्राइटिस","ur":"گیسٹرائٹس","tr":"Gastrit"}},
+{"id":"v23_02","germanTerm":"Appendizitis","article":"die","plural":"Appendizitiden","translation":{"en":"Appendicitis","bn":"অ্যাপেন্ডিসাইটিস","hi":"अपेंडिसाइटिस","ur":"اپینڈیسائٹس","tr":"Apandisit"}},
+{"id":"v23_03","germanTerm":"Cholezystitis","article":"die","plural":"Choleystitiden","translation":{"en":"Cholecystitis","bn":"কোলেসিস্টাইটিস","hi":"कोलेसिस्टाइटिस","ur":"کولیسسٹائٹس","tr":"Kolesistit"}},
+{"id":"v23_04","germanTerm":"Pankreatitis","article":"die","plural":"Pankreatitiden","translation":{"en":"Pancreatitis","bn":"প্যানক্রিয়াটাইটিস","hi":"पैन्क्रियाटाइटिस","ur":"لبلبے کی سوزش","tr":"Pankreatit"}},
+{"id":"v23_05","germanTerm":"Ulkus","article":"das","plural":"Ulzera","translation":{"en":"Ulcer","bn":"আলসার","hi":"अल्सर","ur":"السر","tr":"Ülser"}},
+{"id":"v23_06","germanTerm":"Gastroskopie","article":"die","plural":"Gastroskopien","translation":{"en":"Gastroscopy","bn":"গ্যাস্ট্রোস্কপি","hi":"गैस्ट्रोस्कोपी","ur":"گیسٹروسکوپی","tr":"Gastroskopi"}},
+{"id":"v23_07","germanTerm":"Koloskopie","article":"die","plural":"Koloskopien","translation":{"en":"Colonoscopy","bn":"কলোনোস্কপি","hi":"कोलोनोस्कोपी","ur":"کولونوسکوپی","tr":"Kolonoskopi"}},
+{"id":"v23_08","germanTerm":"Obstipation","article":"die","plural":"Obstipationen","translation":{"en":"Constipation","bn":"কোষ্ঠকাঠিন্য","hi":"कब्ज","ur":"قبض","tr":"Kabızlık"}}
+],"dialogues":[{"id":"d23_01","title":{"en":"Abdominal Pain"},"lines":[
+{"speaker":"Arzt","germanText":"Wo genau haben Sie Schmerzen?","translation":{"en":"Where exactly do you have pain?"}},
+{"speaker":"Patient","germanText":"Rechts unten im Bauch.","translation":{"en":"Right lower abdomen."}},
+{"speaker":"Arzt","germanText":"Wir müssen eine Appendizitis ausschließen.","translation":{"en":"We need to rule out appendicitis."}}
+]}],"exercises":[{"id":"e23_01","type":"multipleChoice","question":{"en":"What is 'Appendizitis'?"},"options":["Appendicitis","Gastritis","Ulcer"],"correctAnswer":"Appendicitis","points":10}]}

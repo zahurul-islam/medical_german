@@ -1,0 +1,13 @@
+{"id":"section_29","phaseId":"phase2","order":29,"titleDe":"Psychiatrie","title":{"en":"Psychiatry","bn":"মানসিক চিকিৎসা","hi":"मनोचिकित्सा","ur":"نفسیات","tr":"Psikiyatri"},"level":"B2","estimatedMinutes":40,"vocabulary":[
+{"id":"v29_01","germanTerm":"Depression","article":"die","plural":"Depressionen","translation":{"en":"Depression","bn":"বিষণ্নতা","hi":"अवसाद","ur":"ڈپریشن","tr":"Depresyon"}},
+{"id":"v29_02","germanTerm":"Angststörung","article":"die","plural":"Angststörungen","translation":{"en":"Anxiety Disorder","bn":"উদ্বেগজনিত ব্যাধি","hi":"चिंता विकार","ur":"اضطراب","tr":"Anksiyete bozukluğu"}},
+{"id":"v29_03","germanTerm":"Psychose","article":"die","plural":"Psychosen","translation":{"en":"Psychosis","bn":"সাইকোসিস","hi":"मनोविकृति","ur":"نفسیاتی مرض","tr":"Psikoz"}},
+{"id":"v29_04","germanTerm":"Suizidalität","article":"die","plural":"-","translation":{"en":"Suicidality","bn":"আত্মহত্যার প্রবণতা","hi":"आत्मघाती","ur":"خودکشی کا رجحان","tr":"İntihar eğilimi"}},
+{"id":"v29_05","germanTerm":"Stimmung","article":"die","plural":"Stimmungen","translation":{"en":"Mood","bn":"মেজাজ","hi":"मनोदशा","ur":"موڈ","tr":"Ruh hali"}},
+{"id":"v29_06","germanTerm":"Schlafstörung","article":"die","plural":"Schlafstörungen","translation":{"en":"Sleep Disorder","bn":"ঘুমের সমস্যা","hi":"नींद विकार","ur":"نیند کی خرابی","tr":"Uyku bozukluğu"}},
+{"id":"v29_07","germanTerm":"Therapie","article":"die","plural":"Therapien","translation":{"en":"Therapy","bn":"থেরাপি","hi":"चिकित्सा","ur":"تھراپی","tr":"Terapi"}}
+],"dialogues":[{"id":"d29_01","title":{"en":"Mental Health Assessment"},"lines":[
+{"speaker":"Arzt","germanText":"Wie ist Ihre Stimmung in letzter Zeit?","translation":{"en":"How has your mood been lately?"}},
+{"speaker":"Patient","germanText":"Ich fühle mich oft traurig und hoffnungslos.","translation":{"en":"I often feel sad and hopeless."}},
+{"speaker":"Arzt","germanText":"Haben Sie Gedanken, sich selbst zu verletzen?","translation":{"en":"Do you have thoughts of harming yourself?"}}
+]}],"exercises":[{"id":"e29_01","type":"multipleChoice","question":{"en":"What is 'Angststörung'?"},"options":["Anxiety Disorder","Depression","Psychosis"],"correctAnswer":"Anxiety Disorder","points":10}],"media":{"introVideoUrl":"video/sections/section_29/intro.mp4"}}

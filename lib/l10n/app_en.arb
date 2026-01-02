@@ -1,0 +1,110 @@
+{
+  "@@locale": "en",
+  "appName": "MedDeutsch",
+  "welcomeBack": "Welcome Back",
+  "signInToContinue": "Sign in to continue learning",
+  "email": "Email",
+  "password": "Password",
+  "signIn": "Sign In",
+  "signUp": "Sign Up",
+  "createAccount": "Create Account",
+  "forgotPassword": "Forgot Password?",
+  "orContinueWith": "or continue with",
+  "dontHaveAccount": "Don't have an account?",
+  "alreadyHaveAccount": "Already have an account?",
+  "fullName": "Full Name",
+  "confirmPassword": "Confirm Password",
+  "startJourney": "Start your medical German journey",
+  "home": "Home",
+  "learn": "Learn",
+  "practice": "Practice",
+  "progress": "Progress",
+  "settings": "Settings",
+  "continueLeaning": "Continue Learning",
+  "yourProgress": "Your Progress",
+  "sectionsCompleted": "{count} sections completed",
+  "@sectionsCompleted": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "level": "Level {level}",
+  "@level": {
+    "placeholders": {
+      "level": {"type": "String"}
+    }
+  },
+  "dayStreak": "Day Streak",
+  "points": "Points",
+  "learningPhases": "Learning Phases",
+  "phase1Title": "Foundation & Hospital Basics",
+  "phase1Desc": "Essential greetings, anatomy, and hospital navigation for beginners.",
+  "phase2Title": "Clinical Communication",
+  "phase2Desc": "Patient history, examinations, and medical system vocabulary.",
+  "phase3Title": "Professional Expertise & FSP",
+  "phase3Desc": "Advanced documentation, specialties, and exam preparation.",
+  "sections": "Sections",
+  "section": "Section",
+  "vocabulary": "Vocabulary",
+  "dialogue": "Dialogue",
+  "exercises": "Exercises",
+  "minutes": "{min} min",
+  "@minutes": {
+    "placeholders": {
+      "min": {"type": "int"}
+    }
+  },
+  "introduction": "Introduction",
+  "grammarFocus": "Grammar Focus",
+  "culturalNotes": "Cultural Notes",
+  "summary": "Summary",
+  "learningObjectives": "Learning Objectives",
+  "flashcards": "Flashcards",
+  "tapToSeeTranslation": "Tap to see translation",
+  "tapToSeeGerman": "Tap to see German",
+  "next": "Next",
+  "previous": "Previous",
+  "done": "Done",
+  "startPractice": "Start Practice",
+  "checkAnswer": "Check Answer",
+  "correct": "Correct!",
+  "incorrect": "Incorrect",
+  "explanation": "Explanation",
+  "tryAgain": "Try Again",
+  "questionsCompleted": "{current} of {total}",
+  "@questionsCompleted": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "greatJob": "Great Job!",
+  "keepPracticing": "Keep Practicing!",
+  "score": "You got {correct} out of {total} correct",
+  "@score": {
+    "placeholders": {
+      "correct": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "levelProgress": "Level Progress",
+  "recentActivity": "Recent Activity",
+  "sourceLanguage": "Source Language",
+  "darkMode": "Dark Mode",
+  "notifications": "Notifications",
+  "downloads": "Downloads",
+  "manageOfflineContent": "Manage offline content",
+  "helpFaq": "Help & FAQ",
+  "contactUs": "Contact Us",
+  "privacyPolicy": "Privacy Policy",
+  "termsOfService": "Terms of Service",
+  "signOut": "Sign Out",
+  "signOutConfirm": "Are you sure you want to sign out?",
+  "cancel": "Cancel",
+  "close": "Close",
+  "error": "Error",
+  "retry": "Retry",
+  "loading": "Loading...",
+  "noInternetConnection": "No internet connection",
+  "comingSoon": "Coming soon"
+}

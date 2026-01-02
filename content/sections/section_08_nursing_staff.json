@@ -1,0 +1,13 @@
+{"id":"section_08","phaseId":"phase1","order":8,"titleDe":"Das Pflegepersonal","title":{"en":"The Nursing Staff","bn":"নার্সিং স্টাফ","hi":"नर्सिंग स्टाफ","ur":"نرسنگ سٹاف","tr":"Hemşirelik Personeli"},"level":"A2","estimatedMinutes":25,"vocabulary":[
+{"id":"v08_01","germanTerm":"Krankenschwester","article":"die","plural":"Krankenschwestern","translation":{"en":"Nurse (female)","bn":"নার্স","hi":"नर्स","ur":"نرس","tr":"Hemşire"}},
+{"id":"v08_02","germanTerm":"Krankenpfleger","article":"der","plural":"Krankenpfleger","translation":{"en":"Nurse (male)","bn":"নার্স (পুরুষ)","hi":"नर्स (पुरुष)","ur":"نرس (مرد)","tr":"Hemşire (erkek)"}},
+{"id":"v08_03","germanTerm":"Pflegekraft","article":"die","plural":"Pflegekräfte","translation":{"en":"Caregiver","bn":"কেয়ারগিভার","hi":"देखभालकर्ता","ur":"نگہداشت کرنے والا","tr":"Bakıcı"}},
+{"id":"v08_04","germanTerm":"Stationsleitung","article":"die","plural":"Stationsleitungen","translation":{"en":"Ward Manager","bn":"ওয়ার্ড ম্যানেজার","hi":"वार्ड प्रबंधक","ur":"وارڈ منیجر","tr":"Servis sorumlusu"}},
+{"id":"v08_05","germanTerm":"Auszubildende","article":"der/die","plural":"Auszubildenden","translation":{"en":"Trainee","bn":"প্রশিক্ষণার্থী","hi":"प्रशिक्षु","ur":"ٹرینی","tr":"Stajyer"}},
+{"id":"v08_06","germanTerm":"Übergabe","article":"die","plural":"Übergaben","translation":{"en":"Handover","bn":"হ্যান্ডওভার","hi":"हैंडओवर","ur":"حوالگی","tr":"Devir teslim"}},
+{"id":"v08_07","germanTerm":"Dokumentation","article":"die","plural":"Dokumentationen","translation":{"en":"Documentation","bn":"ডকুমেন্টেশন","hi":"डॉक्यूमेंटेशन","ur":"دستاویزات","tr":"Dokümantasyon"}},
+{"id":"v08_08","germanTerm":"Medikamentengabe","article":"die","plural":"-","translation":{"en":"Medication Admin","bn":"ওষুধ প্রদান","hi":"दवा देना","ur":"دوا دینا","tr":"İlaç verme"}}
+],"dialogues":[{"id":"d08_01","title":{"en":"Asking Nurse for Help"},"lines":[
+{"speaker":"Arzt","germanText":"Könnten Sie bitte die Vitalzeichen messen?","translation":{"en":"Could you please measure the vital signs?"}},
+{"speaker":"Schwester","germanText":"Ja, natürlich. Sofort.","translation":{"en":"Yes, of course. Right away."}}
+]}],"exercises":[{"id":"e08_01","type":"multipleChoice","question":{"en":"What is 'Übergabe'?"},"options":["Handover","Medication","Break"],"correctAnswer":"Handover","points":10}]}

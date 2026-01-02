@@ -1,0 +1,38 @@
+{
+  "id": "section_02",
+  "phaseId": "phase1",
+  "order": 2,
+  "titleDe": "Der menschliche Körper I",
+  "title": {"en": "The Human Body I", "bn": "মানবদেহ I", "hi": "मानव शरीर I", "ur": "انسانی جسم I", "tr": "İnsan Vücudu I"},
+  "level": "A1",
+  "estimatedMinutes": 30,
+  "vocabulary": [
+    {"id": "v02_01", "germanTerm": "Kopf", "article": "der", "plural": "Köpfe", "translation": {"en": "Head", "bn": "মাথা", "hi": "सिर", "ur": "سر", "tr": "Baş"}},
+    {"id": "v02_02", "germanTerm": "Arm", "article": "der", "plural": "Arme", "translation": {"en": "Arm", "bn": "বাহু", "hi": "बांह", "ur": "بازو", "tr": "Kol"}},
+    {"id": "v02_03", "germanTerm": "Bein", "article": "das", "plural": "Beine", "translation": {"en": "Leg", "bn": "পা", "hi": "टांग", "ur": "ٹانگ", "tr": "Bacak"}},
+    {"id": "v02_04", "germanTerm": "Hand", "article": "die", "plural": "Hände", "translation": {"en": "Hand", "bn": "হাত", "hi": "हाथ", "ur": "ہاتھ", "tr": "El"}},
+    {"id": "v02_05", "germanTerm": "Fuß", "article": "der", "plural": "Füße", "translation": {"en": "Foot", "bn": "পা", "hi": "पैर", "ur": "پاؤں", "tr": "Ayak"}},
+    {"id": "v02_06", "germanTerm": "Finger", "article": "der", "plural": "Finger", "translation": {"en": "Finger", "bn": "আঙুল", "hi": "उंगली", "ur": "انگلی", "tr": "Parmak"}},
+    {"id": "v02_07", "germanTerm": "Auge", "article": "das", "plural": "Augen", "translation": {"en": "Eye", "bn": "চোখ", "hi": "आँख", "ur": "آنکھ", "tr": "Göz"}},
+    {"id": "v02_08", "germanTerm": "Ohr", "article": "das", "plural": "Ohren", "translation": {"en": "Ear", "bn": "কান", "hi": "कान", "ur": "کان", "tr": "Kulak"}},
+    {"id": "v02_09", "germanTerm": "Nase", "article": "die", "plural": "Nasen", "translation": {"en": "Nose", "bn": "নাক", "hi": "नाक", "ur": "ناک", "tr": "Burun"}},
+    {"id": "v02_10", "germanTerm": "Mund", "article": "der", "plural": "Münder", "translation": {"en": "Mouth", "bn": "মুখ", "hi": "मुंह", "ur": "منہ", "tr": "Ağız"}},
+    {"id": "v02_11", "germanTerm": "Hals", "article": "der", "plural": "Hälse", "translation": {"en": "Neck/Throat", "bn": "গলা", "hi": "गर्दन", "ur": "گردن", "tr": "Boyun"}},
+    {"id": "v02_12", "germanTerm": "Schulter", "article": "die", "plural": "Schultern", "translation": {"en": "Shoulder", "bn": "কাঁধ", "hi": "कंधा", "ur": "کندھا", "tr": "Omuz"}},
+    {"id": "v02_13", "germanTerm": "Rücken", "article": "der", "plural": "Rücken", "translation": {"en": "Back", "bn": "পিঠ", "hi": "पीठ", "ur": "پیٹھ", "tr": "Sırt"}},
+    {"id": "v02_14", "germanTerm": "Brust", "article": "die", "plural": "Brüste", "translation": {"en": "Chest", "bn": "বুক", "hi": "छाती", "ur": "سینہ", "tr": "Göğüs"}},
+    {"id": "v02_15", "germanTerm": "Bauch", "article": "der", "plural": "Bäuche", "translation": {"en": "Abdomen", "bn": "পেট", "hi": "पेट", "ur": "پیٹ", "tr": "Karın"}},
+    {"id": "v02_16", "germanTerm": "Knie", "article": "das", "plural": "Knie", "translation": {"en": "Knee", "bn": "হাঁটু", "hi": "घुटना", "ur": "گھٹنا", "tr": "Diz"}},
+    {"id": "v02_17", "germanTerm": "Haut", "article": "die", "plural": "-", "translation": {"en": "Skin", "bn": "ত্বক", "hi": "त्वचा", "ur": "جلد", "tr": "Cilt"}},
+    {"id": "v02_18", "germanTerm": "Ellbogen", "article": "der", "plural": "Ellbogen", "translation": {"en": "Elbow", "bn": "কনুই", "hi": "कोहनी", "ur": "کہنی", "tr": "Dirsek"}}
+  ],
+  "dialogues": [{"id": "d02_01", "title": {"en": "Physical Exam"}, "context": {"en": "Doctor examines patient with shoulder pain"}, "lines": [
+    {"speaker": "Dr. Müller", "germanText": "Zeigen Sie mir, wo es weh tut.", "translation": {"en": "Show me where it hurts."}},
+    {"speaker": "Patient", "germanText": "Hier, an der Schulter.", "translation": {"en": "Here, at the shoulder."}},
+    {"speaker": "Dr. Müller", "germanText": "Können Sie den Arm heben?", "translation": {"en": "Can you raise the arm?"}}
+  ]}],
+  "exercises": [
+    {"id": "e02_01", "type": "multipleChoice", "question": {"en": "What is 'der Kopf'?"}, "options": ["Head", "Hand", "Foot"], "correctAnswer": "Head", "points": 10},
+    {"id": "e02_02", "type": "multipleChoice", "question": {"en": "Which article for 'Hand'?"}, "options": ["der", "die", "das"], "correctAnswer": "die", "points": 10}
+  ]
+}

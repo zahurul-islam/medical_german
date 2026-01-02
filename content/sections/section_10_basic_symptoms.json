@@ -1,0 +1,17 @@
+{"id":"section_10","phaseId":"phase1","order":10,"titleDe":"Grundlegende Symptome","title":{"en":"Basic Symptoms","bn":"মৌলিক উপসর্গ","hi":"बुनियादी लक्षण","ur":"بنیادی علامات","tr":"Temel Belirtiler"},"level":"A2","estimatedMinutes":30,"vocabulary":[
+{"id":"v10_01","germanTerm":"Schmerzen","article":"die","plural":"-","translation":{"en":"Pain","bn":"ব্যথা","hi":"दर्द","ur":"درد","tr":"Ağrı"}},
+{"id":"v10_02","germanTerm":"Fieber","article":"das","plural":"-","translation":{"en":"Fever","bn":"জ্বর","hi":"बुखार","ur":"بخار","tr":"Ateş"}},
+{"id":"v10_03","germanTerm":"Husten","article":"der","plural":"-","translation":{"en":"Cough","bn":"কাশি","hi":"खांसी","ur":"کھانسی","tr":"Öksürük"}},
+{"id":"v10_04","germanTerm":"Übelkeit","article":"die","plural":"-","translation":{"en":"Nausea","bn":"বমি বমি ভাব","hi":"मतली","ur":"متلی","tr":"Mide bulantısı"}},
+{"id":"v10_05","germanTerm":"Erbrechen","article":"das","plural":"-","translation":{"en":"Vomiting","bn":"বমি","hi":"उल्टी","ur":"قے","tr":"Kusma"}},
+{"id":"v10_06","germanTerm":"Durchfall","article":"der","plural":"Durchfälle","translation":{"en":"Diarrhea","bn":"ডায়রিয়া","hi":"दस्त","ur":"دست","tr":"İshal"}},
+{"id":"v10_07","germanTerm":"Kopfschmerzen","article":"die","plural":"-","translation":{"en":"Headache","bn":"মাথাব্যথা","hi":"सिरदर्द","ur":"سر درد","tr":"Baş ağrısı"}},
+{"id":"v10_08","germanTerm":"Schwindel","article":"der","plural":"-","translation":{"en":"Dizziness","bn":"মাথা ঘোরা","hi":"चक्कर आना","ur":"چکر","tr":"Baş dönmesi"}},
+{"id":"v10_09","germanTerm":"Atemnot","article":"die","plural":"-","translation":{"en":"Shortness of Breath","bn":"শ্বাসকষ্ট","hi":"सांस की तकलीफ","ur":"سانس کی تکلیف","tr":"Nefes darlığı"}},
+{"id":"v10_10","germanTerm":"Müdigkeit","article":"die","plural":"-","translation":{"en":"Fatigue","bn":"ক্লান্তি","hi":"थकान","ur":"تھکاوٹ","tr":"Yorgunluk"}}
+],"dialogues":[{"id":"d10_01","title":{"en":"Patient Describes Symptoms"},"lines":[
+{"speaker":"Arzt","germanText":"Was für Beschwerden haben Sie?","translation":{"en":"What symptoms do you have?"}},
+{"speaker":"Patient","germanText":"Ich habe Fieber und Kopfschmerzen.","translation":{"en":"I have fever and headache."}},
+{"speaker":"Arzt","germanText":"Seit wann?","translation":{"en":"Since when?"}},
+{"speaker":"Patient","germanText":"Seit drei Tagen.","translation":{"en":"For three days."}}
+]}],"exercises":[{"id":"e10_01","type":"multipleChoice","question":{"en":"What is 'Fieber'?"},"options":["Fever","Cough","Pain"],"correctAnswer":"Fever","points":10}]}

@@ -1,0 +1,14 @@
+{"id":"section_20","phaseId":"phase2","order":20,"titleDe":"Radiologie-Vokabular","title":{"en":"Radiology Vocabulary","bn":"রেডিওলজি শব্দভাণ্ডার","hi":"रेडियोलॉजी शब्दावली","ur":"ریڈیولوجی الفاظ","tr":"Radyoloji Sözlüğü"},"level":"B1","estimatedMinutes":35,"vocabulary":[
+{"id":"v20_01","germanTerm":"Röntgen","article":"das","plural":"-","translation":{"en":"X-ray","bn":"এক্স-রে","hi":"एक्स-रे","ur":"ایکسرے","tr":"Röntgen"}},
+{"id":"v20_02","germanTerm":"Computertomographie","article":"die","plural":"Computertomographien","translation":{"en":"CT Scan","bn":"সিটি স্ক্যান","hi":"सीटी स्कैन","ur":"سی ٹی اسکین","tr":"BT Taraması"}},
+{"id":"v20_03","germanTerm":"Magnetresonanztomographie","article":"die","plural":"-","translation":{"en":"MRI","bn":"এমআরআই","hi":"एमआरआई","ur":"ایم آر آئی","tr":"MR"}},
+{"id":"v20_04","germanTerm":"Ultraschall","article":"der","plural":"Ultraschälle","translation":{"en":"Ultrasound","bn":"আল্ট্রাসাউন্ড","hi":"अल्ट्रासाउंड","ur":"الٹراساؤنڈ","tr":"Ultrason"}},
+{"id":"v20_05","germanTerm":"Befund","article":"der","plural":"Befunde","translation":{"en":"Finding/Report","bn":"রিপোর্ট","hi":"रिपोर्ट","ur":"رپورٹ","tr":"Bulgu"}},
+{"id":"v20_06","germanTerm":"Kontrastmittel","article":"das","plural":"Kontrastmittel","translation":{"en":"Contrast Agent","bn":"কনট্রাস্ট","hi":"कंट्रास्ट","ur":"کنٹراسٹ","tr":"Kontrast madde"}},
+{"id":"v20_07","germanTerm":"Aufnahme","article":"die","plural":"Aufnahmen","translation":{"en":"Image/Shot","bn":"ছবি","hi":"छवि","ur":"تصویر","tr":"Görüntü"}},
+{"id":"v20_08","germanTerm":"Fraktur","article":"die","plural":"Frakturen","translation":{"en":"Fracture","bn":"ফ্র্যাকচার","hi":"फ्रैक्चर","ur":"فریکچر","tr":"Kırık"}}
+],"dialogues":[{"id":"d20_01","title":{"en":"Ordering Imaging"},"lines":[
+{"speaker":"Arzt","germanText":"Wir brauchen ein CT vom Abdomen.","translation":{"en":"We need a CT of the abdomen."}},
+{"speaker":"Radiologe","germanText":"Mit oder ohne Kontrastmittel?","translation":{"en":"With or without contrast?"}},
+{"speaker":"Arzt","germanText":"Mit Kontrastmittel, bitte.","translation":{"en":"With contrast, please."}}
+]}],"exercises":[{"id":"e20_01","type":"multipleChoice","question":{"en":"What is 'Ultraschall'?"},"options":["Ultrasound","X-ray","MRI"],"correctAnswer":"Ultrasound","points":10}]}

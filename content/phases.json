@@ -1,0 +1,76 @@
+{
+  "phases": [
+    {
+      "id": "phase1",
+      "order": 1,
+      "level": "A1-A2",
+      "title": {
+        "de": "Grundlagen & Krankenhaus-Basics",
+        "en": "Foundation & Hospital Basics",
+        "bn": "ভিত্তি এবং হাসপাতালের মৌলিক বিষয়",
+        "hi": "नींव और अस्पताल की बुनियादी बातें",
+        "ur": "بنیاد اور ہسپتال کی بنیادی باتیں",
+        "tr": "Temel Bilgiler ve Hastane Temelleri"
+      },
+      "description": {
+        "en": "Essential greetings, anatomy vocabulary, hospital departments, and basic medical communication for beginners.",
+        "bn": "নতুনদের জন্য প্রয়োজনীয় অভিবাদন, শরীরের গঠন, হাসপাতাল বিভাগ এবং মৌলিক চিকিৎসা যোগাযোগ।",
+        "hi": "शुरुआती लोगों के लिए आवश्यक अभिवादन, शरीर रचना, अस्पताल विभाग और बुनियादी चिकित्सा संचार।",
+        "ur": "شروع کرنے والوں کے لیے ضروری سلام، جسمانی ساخت، ہسپتال کے شعبے اور بنیادی طبی مواصلات۔",
+        "tr": "Yeni başlayanlar için temel selamlaşmalar, anatomi kelime bilgisi, hastane bölümleri ve temel tıbbi iletişim."
+      },
+      "sectionCount": 12,
+      "colorHex": "#4CAF50",
+      "gradientStartHex": "#4CAF50",
+      "gradientEndHex": "#8BC34A"
+    },
+    {
+      "id": "phase2",
+      "order": 2,
+      "level": "B1-B2",
+      "title": {
+        "de": "Klinische Kommunikation",
+        "en": "Clinical Communication",
+        "bn": "ক্লিনিক্যাল যোগাযোগ",
+        "hi": "क्लिनिकल संचार",
+        "ur": "کلینیکل مواصلات",
+        "tr": "Klinik İletişim"
+      },
+      "description": {
+        "en": "Patient history taking, physical examinations, informed consent, and specialty-specific medical vocabulary.",
+        "bn": "রোগীর ইতিহাস নেওয়া, শারীরিক পরীক্ষা, সম্মতি এবং বিশেষজ্ঞতা-নির্দিষ্ট চিকিৎসা শব্দভাণ্ডার।",
+        "hi": "रोगी इतिहास लेना, शारीरिक परीक्षण, सूचित सहमति और विशेषता-विशिष्ट चिकित्सा शब्दावली।",
+        "ur": "مریض کی تاریخ لینا، جسمانی معائنے، باخبر رضامندی اور تخصص سے متعلق طبی الفاظ۔",
+        "tr": "Hasta geçmişi alma, fiziksel muayeneler, bilgilendirilmiş onam ve uzmanlık alanına özgü tıbbi kelime bilgisi."
+      },
+      "sectionCount": 17,
+      "colorHex": "#FFC107",
+      "gradientStartHex": "#FFC107",
+      "gradientEndHex": "#FF9800"
+    },
+    {
+      "id": "phase3",
+      "order": 3,
+      "level": "C1",
+      "title": {
+        "de": "Professionelle Expertise & FSP-Vorbereitung",
+        "en": "Professional Expertise & FSP Preparation",
+        "bn": "পেশাদার দক্ষতা এবং FSP প্রস্তুতি",
+        "hi": "पेशेवर विशेषज्ञता और FSP तैयारी",
+        "ur": "پیشہ ورانہ مہارت اور FSP کی تیاری",
+        "tr": "Profesyonel Uzmanlık ve FSP Hazırlığı"
+      },
+      "description": {
+        "en": "Medical documentation, discharge letters, case presentations, FSP exam simulation, and advanced specialties.",
+        "bn": "চিকিৎসা ডকুমেন্টেশন, ডিসচার্জ লেটার, কেস প্রেজেন্টেশন, FSP পরীক্ষা সিমুলেশন এবং উন্নত বিশেষত্ব।",
+        "hi": "चिकित्सा दस्तावेज़ीकरण, डिस्चार्ज पत्र, केस प्रस्तुतियाँ, FSP परीक्षा सिमुलेशन और उन्नत विशेषताएँ।",
+        "ur": "طبی دستاویزات، ڈسچارج لیٹرز، کیس پریزنٹیشنز، FSP امتحان سمولیشن اور اعلیٰ تخصصات۔",
+        "tr": "Tıbbi dokümantasyon, taburcu mektupları, vaka sunumları, FSP sınav simülasyonu ve ileri uzmanlıklar."
+      },
+      "sectionCount": 26,
+      "colorHex": "#E91E63",
+      "gradientStartHex": "#E91E63",
+      "gradientEndHex": "#F44336"
+    }
+  ]
+}

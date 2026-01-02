@@ -1,0 +1,15 @@
+{"id":"section_05","phaseId":"phase1","order":5,"titleDe":"Medizinische Geräte","title":{"en":"Medical Equipment","bn":"চিকিৎসা যন্ত্রপাতি","hi":"चिकित्सा उपकरण","ur":"طبی آلات","tr":"Tıbbi Cihazlar"},"level":"A1","estimatedMinutes":25,"vocabulary":[
+{"id":"v05_01","germanTerm":"Stethoskop","article":"das","plural":"Stethoskope","translation":{"en":"Stethoscope","bn":"স্টেথোস্কোপ","hi":"स्टेथोस्कोप","ur":"سٹیتھوسکوپ","tr":"Stetoskop"}},
+{"id":"v05_02","germanTerm":"Thermometer","article":"das","plural":"Thermometer","translation":{"en":"Thermometer","bn":"থার্মোমিটার","hi":"थर्मामीटर","ur":"تھرمامیٹر","tr":"Termometre"}},
+{"id":"v05_03","germanTerm":"Blutdruckmessgerät","article":"das","plural":"Blutdruckmessgeräte","translation":{"en":"Blood Pressure Monitor","bn":"ব্লাড প্রেশার মনিটর","hi":"ब्लड प्रेशर मॉनिटर","ur":"بلڈ پریشر مانیٹر","tr":"Tansiyon aleti"}},
+{"id":"v05_04","germanTerm":"Spritze","article":"die","plural":"Spritzen","translation":{"en":"Syringe","bn":"সিরিঞ্জ","hi":"सिरिंज","ur":"سرنج","tr":"Şırınga"}},
+{"id":"v05_05","germanTerm":"Infusion","article":"die","plural":"Infusionen","translation":{"en":"IV Drip","bn":"স্যালাইন","hi":"IV ड्रिप","ur":"ڈرپ","tr":"Serum"}},
+{"id":"v05_06","germanTerm":"Kanüle","article":"die","plural":"Kanülen","translation":{"en":"Cannula","bn":"ক্যানুলা","hi":"कैनुला","ur":"کینولا","tr":"Kanül"}},
+{"id":"v05_07","germanTerm":"Verband","article":"der","plural":"Verbände","translation":{"en":"Bandage","bn":"ব্যান্ডেজ","hi":"पट्टी","ur":"پٹی","tr":"Bandaj"}},
+{"id":"v05_08","germanTerm":"Skalpell","article":"das","plural":"Skalpelle","translation":{"en":"Scalpel","bn":"স্ক্যালপেল","hi":"स्केलपेल","ur":"چاقو","tr":"Bistüri"}},
+{"id":"v05_09","germanTerm":"Pflaster","article":"das","plural":"Pflaster","translation":{"en":"Plaster/Band-aid","bn":"প্লাস্টার","hi":"प्लास्टर","ur":"پلاسٹر","tr":"Yara bandı"}},
+{"id":"v05_10","germanTerm":"Beatmungsgerät","article":"das","plural":"Beatmungsgeräte","translation":{"en":"Ventilator","bn":"ভেন্টিলেটর","hi":"वेंटिलेटर","ur":"وینٹی لیٹر","tr":"Solunum cihazı"}}
+],"dialogues":[{"id":"d05_01","title":{"en":"Preparing for Procedure"},"lines":[
+{"speaker":"Arzt","germanText":"Ich brauche eine Spritze und Kanüle.","translation":{"en":"I need a syringe and cannula."}},
+{"speaker":"Schwester","germanText":"Hier, bitte.","translation":{"en":"Here you are."}}
+]}],"exercises":[{"id":"e05_01","type":"multipleChoice","question":{"en":"What is 'Stethoskop'?"},"options":["Stethoscope","Thermometer","Syringe"],"correctAnswer":"Stethoscope","points":10}]}

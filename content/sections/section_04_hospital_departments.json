@@ -1,0 +1,17 @@
+{"id":"section_04","phaseId":"phase1","order":4,"titleDe":"Krankenhausabteilungen","title":{"en":"Hospital Departments","bn":"হাসপাতাল বিভাগ","hi":"अस्पताल विभाग","ur":"ہسپتال کے شعبے","tr":"Hastane Bölümleri"},"level":"A1","estimatedMinutes":25,"vocabulary":[
+{"id":"v04_01","germanTerm":"Notaufnahme","article":"die","plural":"Notaufnahmen","translation":{"en":"Emergency Room","bn":"জরুরি বিভাগ","hi":"आपातकालीन कक्ष","ur":"ایمرجنسی","tr":"Acil servis"}},
+{"id":"v04_02","germanTerm":"Intensivstation","article":"die","plural":"Intensivstationen","translation":{"en":"ICU","bn":"আইসিইউ","hi":"आईसीयू","ur":"آئی سی یو","tr":"Yoğun bakım"}},
+{"id":"v04_03","germanTerm":"OP-Saal","article":"der","plural":"OP-Säle","translation":{"en":"Operating Room","bn":"অপারেশন থিয়েটার","hi":"ऑपरेशन थिएटर","ur":"آپریشن تھیٹر","tr":"Ameliyathane"}},
+{"id":"v04_04","germanTerm":"Station","article":"die","plural":"Stationen","translation":{"en":"Ward","bn":"ওয়ার্ড","hi":"वार्ड","ur":"وارڈ","tr":"Servis"}},
+{"id":"v04_05","germanTerm":"Ambulanz","article":"die","plural":"Ambulanzen","translation":{"en":"Outpatient Clinic","bn":"বহির্বিভাগ","hi":"बाह्य रोगी","ur":"او پی ڈی","tr":"Poliklinik"}},
+{"id":"v04_06","germanTerm":"Radiologie","article":"die","plural":"-","translation":{"en":"Radiology","bn":"রেডিওলজি","hi":"रेडियोलॉजी","ur":"ریڈیولوجی","tr":"Radyoloji"}},
+{"id":"v04_07","germanTerm":"Labor","article":"das","plural":"Labore","translation":{"en":"Laboratory","bn":"ল্যাবরেটরি","hi":"प्रयोगशाला","ur":"لیبارٹری","tr":"Laboratuvar"}},
+{"id":"v04_08","germanTerm":"Apotheke","article":"die","plural":"Apotheken","translation":{"en":"Pharmacy","bn":"ফার্মেসি","hi":"फार्मेसी","ur":"فارمیسی","tr":"Eczane"}},
+{"id":"v04_09","germanTerm":"Innere Medizin","article":"die","plural":"-","translation":{"en":"Internal Medicine","bn":"ইন্টারনাল মেডিসিন","hi":"आंतरिक चिकित्सा","ur":"اندرونی طب","tr":"Dahiliye"}},
+{"id":"v04_10","germanTerm":"Chirurgie","article":"die","plural":"-","translation":{"en":"Surgery Dept","bn":"সার্জারি","hi":"सर्जरी","ur":"سرجری","tr":"Cerrahi"}}
+],"dialogues":[{"id":"d04_01","title":{"en":"Finding a Department"},"lines":[
+{"speaker":"Arzt","germanText":"Der Patient muss auf die Intensivstation.","translation":{"en":"The patient needs to go to the ICU."}},
+{"speaker":"Schwester","germanText":"Ich rufe dort an.","translation":{"en":"I'll call there."}}
+]}],"exercises":[
+{"id":"e04_01","type":"multipleChoice","question":{"en":"What is 'Notaufnahme'?"},"options":["Emergency Room","ICU","Pharmacy"],"correctAnswer":"Emergency Room","points":10}
+]}

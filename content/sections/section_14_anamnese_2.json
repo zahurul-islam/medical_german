@@ -1,0 +1,11 @@
+{"id":"section_14","phaseId":"phase2","order":14,"titleDe":"Anamnese 2","title":{"en":"Patient History 2","bn":"রোগীর ইতিহাস 2","hi":"रोगी इतिहास 2","ur":"مریض کی تاریخ 2","tr":"Hasta Öyküsü 2"},"level":"B1","estimatedMinutes":35,"vocabulary":[
+{"id":"v14_01","germanTerm":"Anamnese","article":"die","plural":"Anamnesen","translation":{"en":"Medical History","bn":"চিকিৎসা ইতিহাস","hi":"चिकित्सा इतिहास","ur":"طبی تاریخ","tr":"Tıbbi öykü"}},
+{"id":"v14_02","germanTerm":"Hauptbeschwerde","article":"die","plural":"Hauptbeschwerden","translation":{"en":"Chief Complaint","bn":"প্রধান অভিযোগ","hi":"मुख्य शिकायत","ur":"اہم شکایت","tr":"Ana şikayet"}},
+{"id":"v14_03","germanTerm":"Vorerkrankungen","article":"die","plural":"-","translation":{"en":"Pre-existing Conditions","bn":"পূর্ববর্তী রোগ","hi":"पूर्व बीमारियां","ur":"پہلے کی بیماریاں","tr":"Mevcut hastalıklar"}},
+{"id":"v14_04","germanTerm":"Familienanamnese","article":"die","plural":"-","translation":{"en":"Family History","bn":"পারিবারিক ইতিহাস","hi":"पारिवारिक इतिहास","ur":"خاندانی تاریخ","tr":"Aile öyküsü"}},
+{"id":"v14_05","germanTerm":"Allergie","article":"die","plural":"Allergien","translation":{"en":"Allergy","bn":"এলার্জি","hi":"एलर्जी","ur":"الرجی","tr":"Alerji"}},
+{"id":"v14_06","germanTerm":"Operation","article":"die","plural":"Operationen","translation":{"en":"Surgery","bn":"অপারেশন","hi":"ऑपरेशन","ur":"آپریشن","tr":"Ameliyat"}}
+],"dialogues":[{"id":"d14_01","title":{"en":"Taking History"},"lines":[
+{"speaker":"Arzt","germanText":"Was führt Sie zu uns?","translation":{"en":"What brings you to us?"}},
+{"speaker":"Patient","germanText":"Ich habe seit einer Woche starke Bauchschmerzen.","translation":{"en":"I've had severe abdominal pain for a week."}}
+]}],"exercises":[{"id":"e14_01","type":"multipleChoice","question":{"en":"What is 'Anamnese'?"},"options":["Medical History","Diagnosis","Treatment"],"correctAnswer":"Medical History","points":10}]}

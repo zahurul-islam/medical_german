@@ -1,0 +1,12 @@
+{"id":"section_26","phaseId":"phase2","order":26,"titleDe":"Chirurgie-Grundlagen","title":{"en":"Surgery Basics","bn":"সার্জারি বেসিক","hi":"सर्जरी मूल बातें","ur":"سرجری کی بنیادی باتیں","tr":"Cerrahi Temelleri"},"level":"B2","estimatedMinutes":40,"vocabulary":[
+{"id":"v26_01","germanTerm":"Operation","article":"die","plural":"Operationen","translation":{"en":"Surgery/Operation","bn":"অপারেশন","hi":"ऑपरेशन","ur":"آپریشن","tr":"Ameliyat"}},
+{"id":"v26_02","germanTerm":"präoperativ","article":"-","plural":"-","translation":{"en":"Preoperative","bn":"অপারেশনের আগে","hi":"प्रीऑपरेटिव","ur":"آپریشن سے پہلے","tr":"Ameliyat öncesi"}},
+{"id":"v26_03","germanTerm":"postoperativ","article":"-","plural":"-","translation":{"en":"Postoperative","bn":"অপারেশনের পরে","hi":"पोस्टऑपरेटिव","ur":"آپریشن کے بعد","tr":"Ameliyat sonrası"}},
+{"id":"v26_04","germanTerm":"Wunde","article":"die","plural":"Wunden","translation":{"en":"Wound","bn":"ক্ষত","hi":"घाव","ur":"زخم","tr":"Yara"}},
+{"id":"v26_05","germanTerm":"Naht","article":"die","plural":"Nähte","translation":{"en":"Suture","bn":"সেলাই","hi":"टांके","ur":"ٹانکے","tr":"Dikiş"}},
+{"id":"v26_06","germanTerm":"Drainage","article":"die","plural":"Drainagen","translation":{"en":"Drain","bn":"ড্রেইন","hi":"ड्रेन","ur":"ڈرین","tr":"Dren"}},
+{"id":"v26_07","germanTerm":"Narkose","article":"die","plural":"Narkosen","translation":{"en":"Anesthesia","bn":"অ্যানেস্থেসিয়া","hi":"एनेस्थीसिया","ur":"بے ہوشی کی دوا","tr":"Anestezi"}}
+],"dialogues":[{"id":"d26_01","title":{"en":"Pre-op Discussion"},"lines":[
+{"speaker":"Arzt","germanText":"Die Operation findet morgen früh statt.","translation":{"en":"The surgery will take place tomorrow morning."}},
+{"speaker":"Patient","germanText":"Welche Risiken gibt es?","translation":{"en":"What risks are there?"}}
+]}],"exercises":[{"id":"e26_01","type":"multipleChoice","question":{"en":"What does 'präoperativ' mean?"},"options":["Preoperative","Postoperative","During surgery"],"correctAnswer":"Preoperative","points":10}],"media":{"introVideoUrl":"video/sections/section_26/intro.mp4"}}

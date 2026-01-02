@@ -1,0 +1,14 @@
+{"id":"section_12","phaseId":"phase1","order":12,"titleDe":"Notrufe","title":{"en":"Emergency Calls","bn":"জরুরি কল","hi":"आपातकालीन कॉल","ur":"ایمرجنسی کال","tr":"Acil Çağrılar"},"level":"A2","estimatedMinutes":25,"vocabulary":[
+{"id":"v12_01","germanTerm":"Notruf","article":"der","plural":"Notrufe","translation":{"en":"Emergency Call","bn":"জরুরি কল","hi":"आपातकालीन कॉल","ur":"ایمرجنسی کال","tr":"Acil çağrı"}},
+{"id":"v12_02","germanTerm":"Rettungswagen","article":"der","plural":"Rettungswagen","translation":{"en":"Ambulance","bn":"অ্যাম্বুলেন্স","hi":"एम्बुलेंस","ur":"ایمبولینس","tr":"Ambulans"}},
+{"id":"v12_03","germanTerm":"Notarzt","article":"der","plural":"Notärzte","translation":{"en":"Emergency Doctor","bn":"জরুরি ডাক্তার","hi":"आपातकालीन डॉक्टर","ur":"ایمرجنسی ڈاکٹر","tr":"Acil doktor"}},
+{"id":"v12_04","germanTerm":"Reanimation","article":"die","plural":"Reanimationen","translation":{"en":"Resuscitation/CPR","bn":"সিপিআর","hi":"सीपीआर","ur":"سی پی آر","tr":"Resüsitasyon"}},
+{"id":"v12_05","germanTerm":"Herzstillstand","article":"der","plural":"Herzstillstände","translation":{"en":"Cardiac Arrest","bn":"কার্ডিয়াক অ্যারেস্ট","hi":"कार्डियक अरेस्ट","ur":"کارڈیک اریسٹ","tr":"Kalp durması"}},
+{"id":"v12_06","germanTerm":"bewusstlos","article":"-","plural":"-","translation":{"en":"Unconscious","bn":"অচেতন","hi":"बेहोश","ur":"بے ہوش","tr":"Bilinçsiz"}},
+{"id":"v12_07","germanTerm":"Erstversorgung","article":"die","plural":"-","translation":{"en":"First Aid","bn":"প্রাথমিক চিকিৎসা","hi":"प्राथमिक उपचार","ur":"ابتدائی طبی امداد","tr":"İlk yardım"}},
+{"id":"v12_08","germanTerm":"dringend","article":"-","plural":"-","translation":{"en":"Urgent","bn":"জরুরি","hi":"तत्काल","ur":"فوری","tr":"Acil"}}
+],"dialogues":[{"id":"d12_01","title":{"en":"Emergency Call"},"lines":[
+{"speaker":"Arzt","germanText":"Wir brauchen sofort eine Reanimation!","translation":{"en":"We need resuscitation immediately!"}},
+{"speaker":"Schwester","germanText":"Der Patient ist bewusstlos.","translation":{"en":"The patient is unconscious."}},
+{"speaker":"Arzt","germanText":"Rufen Sie den Notarzt!","translation":{"en":"Call the emergency doctor!"}}
+]}],"exercises":[{"id":"e12_01","type":"multipleChoice","question":{"en":"What is 'Rettungswagen'?"},"options":["Ambulance","Doctor","Hospital"],"correctAnswer":"Ambulance","points":10}]}

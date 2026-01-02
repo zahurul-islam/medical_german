@@ -1,0 +1,14 @@
+{"id":"section_06","phaseId":"phase1","order":6,"titleDe":"Zeit und Dienstplan","title":{"en":"Time & Scheduling","bn":"সময় এবং সূচি","hi":"समय और शेड्यूल","ur":"وقت اور شیڈول","tr":"Zaman ve Program"},"level":"A1","estimatedMinutes":25,"vocabulary":[
+{"id":"v06_01","germanTerm":"Frühschicht","article":"die","plural":"Frühschichten","translation":{"en":"Early Shift","bn":"সকালের শিফট","hi":"सुबह की शिफ्ट","ur":"صبح کی شفٹ","tr":"Sabah nöbeti"}},
+{"id":"v06_02","germanTerm":"Spätschicht","article":"die","plural":"Spätschichten","translation":{"en":"Late Shift","bn":"বিকালের শিফট","hi":"शाम की शिफ्ट","ur":"شام کی شفٹ","tr":"Akşam nöbeti"}},
+{"id":"v06_03","germanTerm":"Nachtdienst","article":"der","plural":"Nachtdienste","translation":{"en":"Night Duty","bn":"রাতের ডিউটি","hi":"रात की ड्यूटी","ur":"رات کی ڈیوٹی","tr":"Gece nöbeti"}},
+{"id":"v06_04","germanTerm":"Bereitschaftsdienst","article":"der","plural":"Bereitschaftsdienste","translation":{"en":"On-call Duty","bn":"অন-কল ডিউটি","hi":"ऑन-कॉल ड्यूटी","ur":"آن کال ڈیوٹی","tr":"İcap nöbeti"}},
+{"id":"v06_05","germanTerm":"Termin","article":"der","plural":"Termine","translation":{"en":"Appointment","bn":"অ্যাপয়েন্টমেন্ট","hi":"अपॉइंटमेंट","ur":"اپائنٹمنٹ","tr":"Randevu"}},
+{"id":"v06_06","germanTerm":"Dienstplan","article":"der","plural":"Dienstpläne","translation":{"en":"Duty Roster","bn":"ডিউটি রোস্টার","hi":"ड्यूटी रोस्टर","ur":"ڈیوٹی روسٹر","tr":"Nöbet çizelgesi"}},
+{"id":"v06_07","germanTerm":"Uhrzeit","article":"die","plural":"Uhrzeiten","translation":{"en":"Time","bn":"সময়","hi":"समय","ur":"وقت","tr":"Saat"}},
+{"id":"v06_08","germanTerm":"Pause","article":"die","plural":"Pausen","translation":{"en":"Break","bn":"বিরতি","hi":"ब्रेक","ur":"وقفہ","tr":"Mola"}}
+],"dialogues":[{"id":"d06_01","title":{"en":"Shift Handover"},"lines":[
+{"speaker":"Arzt A","germanText":"Ich habe heute Nachtdienst.","translation":{"en":"I have night duty today."}},
+{"speaker":"Arzt B","germanText":"Wann beginnt Ihre Schicht?","translation":{"en":"When does your shift start?"}},
+{"speaker":"Arzt A","germanText":"Um zwanzig Uhr.","translation":{"en":"At 8 PM."}}
+]}],"exercises":[{"id":"e06_01","type":"multipleChoice","question":{"en":"What is 'Nachtdienst'?"},"options":["Night Duty","Day Shift","Break"],"correctAnswer":"Night Duty","points":10}]}

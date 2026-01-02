@@ -1,0 +1,14 @@
+{"id":"section_17","phaseId":"phase2","order":17,"titleDe":"Körperliche Untersuchung","title":{"en":"Physical Examination","bn":"শারীরিক পরীক্ষা","hi":"शारीरिक परीक्षण","ur":"جسمانی معائنہ","tr":"Fizik Muayene"},"level":"B1","estimatedMinutes":35,"vocabulary":[
+{"id":"v17_01","germanTerm":"Auskultation","article":"die","plural":"Auskultationen","translation":{"en":"Auscultation","bn":"শ্রবণ","hi":"श्रवण","ur":"سماعت","tr":"Oskültasyon"}},
+{"id":"v17_02","germanTerm":"Palpation","article":"die","plural":"Palpationen","translation":{"en":"Palpation","bn":"স্পর্শ পরীক্ষা","hi":"स्पर्शन","ur":"چھونا","tr":"Palpasyon"}},
+{"id":"v17_03","germanTerm":"Perkussion","article":"die","plural":"Perkussionen","translation":{"en":"Percussion","bn":"থাপড়","hi":"टक्कर","ur":"تھپکی","tr":"Perküsyon"}},
+{"id":"v17_04","germanTerm":"Inspektion","article":"die","plural":"Inspektionen","translation":{"en":"Inspection","bn":"পরিদর্শন","hi":"निरीक्षण","ur":"معائنہ","tr":"İnspeksiyon"}},
+{"id":"v17_05","germanTerm":"einatmen","article":"-","plural":"-","translation":{"en":"Breathe in","bn":"শ্বাস নিন","hi":"सांस लें","ur":"سانس لیں","tr":"Nefes alın"}},
+{"id":"v17_06","germanTerm":"ausatmen","article":"-","plural":"-","translation":{"en":"Breathe out","bn":"শ্বাস ছাড়ুন","hi":"सांस छोड़ें","ur":"سانس چھوڑیں","tr":"Nefes verin"}},
+{"id":"v17_07","germanTerm":"entspannen","article":"-","plural":"-","translation":{"en":"Relax","bn":"শিথিল হন","hi":"आराम करें","ur":"آرام کریں","tr":"Gevşeyin"}},
+{"id":"v17_08","germanTerm":"drücken","article":"-","plural":"-","translation":{"en":"Press","bn":"চাপ দিন","hi":"दबाएं","ur":"دبائیں","tr":"Basın"}}
+],"dialogues":[{"id":"d17_01","title":{"en":"Examining Patient"},"lines":[
+{"speaker":"Arzt","germanText":"Atmen Sie bitte tief ein.","translation":{"en":"Please breathe in deeply."}},
+{"speaker":"Patient","germanText":"So?","translation":{"en":"Like this?"}},
+{"speaker":"Arzt","germanText":"Ja, sehr gut. Und jetzt langsam ausatmen.","translation":{"en":"Yes, very good. Now breathe out slowly."}}
+]}],"exercises":[{"id":"e17_01","type":"multipleChoice","question":{"en":"What is 'Auskultation'?"},"options":["Listening with stethoscope","Pressing","Looking"],"correctAnswer":"Listening with stethoscope","points":10}]}

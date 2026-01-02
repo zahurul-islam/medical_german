@@ -1,0 +1,14 @@
+{"id":"section_16","phaseId":"phase2","order":16,"titleDe":"Schmerzanamnese","title":{"en":"Pain Assessment","bn":"ব্যথা মূল্যায়ন","hi":"दर्द मूल्यांकन","ur":"درد کا جائزہ","tr":"Ağrı Değerlendirmesi"},"level":"B1","estimatedMinutes":30,"vocabulary":[
+{"id":"v16_01","germanTerm":"stechend","article":"-","plural":"-","translation":{"en":"Stabbing","bn":"ছুরি মারার মতো","hi":"छुरा घोंपने जैसा","ur":"چبھنے والا","tr":"Saplanıcı"}},
+{"id":"v16_02","germanTerm":"brennend","article":"-","plural":"-","translation":{"en":"Burning","bn":"জ্বলুনি","hi":"जलन वाला","ur":"جلنے والا","tr":"Yanıcı"}},
+{"id":"v16_03","germanTerm":"dumpf","article":"-","plural":"-","translation":{"en":"Dull","bn":"নিস্তেজ","hi":"सुस्त","ur":"مدھم","tr":"Künt"}},
+{"id":"v16_04","germanTerm":"krampfartig","article":"-","plural":"-","translation":{"en":"Cramping","bn":"খিঁচুনি","hi":"ऐंठन","ur":"کھنچاؤ","tr":"Kramp şeklinde"}},
+{"id":"v16_05","germanTerm":"Schmerzskala","article":"die","plural":"Schmerzskalen","translation":{"en":"Pain Scale","bn":"ব্যথার স্কেল","hi":"दर्द स्केल","ur":"درد کا پیمانہ","tr":"Ağrı skalası"}},
+{"id":"v16_06","germanTerm":"ausstrahlen","article":"-","plural":"-","translation":{"en":"Radiating","bn":"ছড়িয়ে পড়া","hi":"फैलना","ur":"پھیلنا","tr":"Yayılan"}},
+{"id":"v16_07","germanTerm":"Dauerschmerz","article":"der","plural":"Dauerschmerzen","translation":{"en":"Constant Pain","bn":"অবিরাম ব্যথা","hi":"लगातार दर्द","ur":"مسلسل درد","tr":"Sürekli ağrı"}},
+{"id":"v16_08","germanTerm":"anfallsartig","article":"-","plural":"-","translation":{"en":"Episodic","bn":"মাঝে মাঝে","hi":"प्रासंगिक","ur":"وقفے وقفے","tr":"Aralıklı"}}
+],"dialogues":[{"id":"d16_01","title":{"en":"Assessing Pain"},"lines":[
+{"speaker":"Arzt","germanText":"Wie würden Sie den Schmerz beschreiben?","translation":{"en":"How would you describe the pain?"}},
+{"speaker":"Patient","germanText":"Es ist ein stechender Schmerz.","translation":{"en":"It's a stabbing pain."}},
+{"speaker":"Arzt","germanText":"Auf einer Skala von 1 bis 10?","translation":{"en":"On a scale of 1 to 10?"}}
+]}],"exercises":[{"id":"e16_01","type":"multipleChoice","question":{"en":"What does 'stechend' mean?"},"options":["Stabbing","Burning","Dull"],"correctAnswer":"Stabbing","points":10}]}

@@ -1,0 +1,12 @@
+{"id":"section_25","phaseId":"phase2","order":25,"titleDe":"Endokrinologie","title":{"en":"Endocrinology","bn":"এন্ডোক্রাইনোলজি","hi":"एंडोक्राइनोलॉजी","ur":"اینڈوکرائنولوجی","tr":"Endokrinoloji"},"level":"B2","estimatedMinutes":40,"vocabulary":[
+{"id":"v25_01","germanTerm":"Diabetes mellitus","article":"der","plural":"-","translation":{"en":"Diabetes","bn":"ডায়াবেটিস","hi":"मधुमेह","ur":"ذیابیطس","tr":"Diyabet"}},
+{"id":"v25_02","germanTerm":"Schilddrüse","article":"die","plural":"Schilddrüsen","translation":{"en":"Thyroid","bn":"থাইরয়েড","hi":"थायरॉयड","ur":"تھائیرائیڈ","tr":"Tiroid"}},
+{"id":"v25_03","germanTerm":"HbA1c","article":"das","plural":"-","translation":{"en":"HbA1c","bn":"HbA1c","hi":"HbA1c","ur":"HbA1c","tr":"HbA1c"}},
+{"id":"v25_04","germanTerm":"Insulin","article":"das","plural":"-","translation":{"en":"Insulin","bn":"ইনসুলিন","hi":"इंसुलिन","ur":"انسولین","tr":"İnsülin"}},
+{"id":"v25_05","germanTerm":"Blutzucker","article":"der","plural":"-","translation":{"en":"Blood Sugar","bn":"রক্তে শর্করা","hi":"रक्त शर्करा","ur":"خون میں شکر","tr":"Kan şekeri"}},
+{"id":"v25_06","germanTerm":"Hypothyreose","article":"die","plural":"Hypothyreosen","translation":{"en":"Hypothyroidism","bn":"হাইপোথাইরয়ডিজম","hi":"हाइपोथायरायडिज्म","ur":"ہائپوتھائیرائیڈزم","tr":"Hipotiroidi"}},
+{"id":"v25_07","germanTerm":"Hyperthyreose","article":"die","plural":"Hyperthyreosen","translation":{"en":"Hyperthyroidism","bn":"হাইপারথাইরয়ডিজম","hi":"हाइपरथायरायडिज्म","ur":"ہائپرتھائیرائیڈزم","tr":"Hipertiroidi"}}
+],"dialogues":[{"id":"d25_01","title":{"en":"Diabetes Management"},"lines":[
+{"speaker":"Arzt","germanText":"Ihr HbA1c ist zu hoch. Wir müssen die Therapie anpassen.","translation":{"en":"Your HbA1c is too high. We need to adjust the therapy."}},
+{"speaker":"Patient","germanText":"Muss ich mehr Insulin spritzen?","translation":{"en":"Do I need to inject more insulin?"}}
+]}],"exercises":[{"id":"e25_01","type":"multipleChoice","question":{"en":"What is 'Schilddrüse'?"},"options":["Thyroid","Pancreas","Liver"],"correctAnswer":"Thyroid","points":10}],"media":{"introVideoUrl":"video/sections/section_25/intro.mp4"}}

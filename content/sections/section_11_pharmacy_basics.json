@@ -1,0 +1,14 @@
+{"id":"section_11","phaseId":"phase1","order":11,"titleDe":"Apotheken-Grundlagen","title":{"en":"Pharmacy Basics","bn":"ফার্মেসি বেসিক","hi":"फार्मेसी मूल बातें","ur":"فارمیسی کی بنیادی باتیں","tr":"Eczane Temelleri"},"level":"A2","estimatedMinutes":25,"vocabulary":[
+{"id":"v11_01","germanTerm":"Antibiotikum","article":"das","plural":"Antibiotika","translation":{"en":"Antibiotic","bn":"অ্যান্টিবায়োটিক","hi":"एंटीबायोटिक","ur":"اینٹی بائیوٹک","tr":"Antibiyotik"}},
+{"id":"v11_02","germanTerm":"Schmerzmittel","article":"das","plural":"Schmerzmittel","translation":{"en":"Painkiller","bn":"পেইনকিলার","hi":"दर्द निवारक","ur":"درد کی دوا","tr":"Ağrı kesici"}},
+{"id":"v11_03","germanTerm":"Dosierung","article":"die","plural":"Dosierungen","translation":{"en":"Dosage","bn":"ডোজ","hi":"खुराक","ur":"خوراک","tr":"Dozaj"}},
+{"id":"v11_04","germanTerm":"Rezept","article":"das","plural":"Rezepte","translation":{"en":"Prescription","bn":"প্রেসক্রিপশন","hi":"नुस्खा","ur":"نسخہ","tr":"Reçete"}},
+{"id":"v11_05","germanTerm":"Tablette","article":"die","plural":"Tabletten","translation":{"en":"Tablet/Pill","bn":"ট্যাবলেট","hi":"गोली","ur":"گولی","tr":"Tablet"}},
+{"id":"v11_06","germanTerm":"Tropfen","article":"die","plural":"Tropfen","translation":{"en":"Drops","bn":"ড্রপ","hi":"बूंदें","ur":"قطرے","tr":"Damla"}},
+{"id":"v11_07","germanTerm":"Salbe","article":"die","plural":"Salben","translation":{"en":"Ointment","bn":"মলম","hi":"मरहम","ur":"مرہم","tr":"Merhem"}},
+{"id":"v11_08","germanTerm":"Nebenwirkung","article":"die","plural":"Nebenwirkungen","translation":{"en":"Side Effect","bn":"পার্শ্বপ্রতিক্রিয়া","hi":"दुष्प्रभाव","ur":"ضمنی اثر","tr":"Yan etki"}}
+],"dialogues":[{"id":"d11_01","title":{"en":"Prescribing Medication"},"lines":[
+{"speaker":"Arzt","germanText":"Ich verschreibe Ihnen ein Antibiotikum.","translation":{"en":"I'm prescribing you an antibiotic."}},
+{"speaker":"Patient","germanText":"Wie oft muss ich es nehmen?","translation":{"en":"How often do I need to take it?"}},
+{"speaker":"Arzt","germanText":"Dreimal täglich nach dem Essen.","translation":{"en":"Three times daily after meals."}}
+]}],"exercises":[{"id":"e11_01","type":"multipleChoice","question":{"en":"What is 'Rezept'?"},"options":["Prescription","Tablet","Side Effect"],"correctAnswer":"Prescription","points":10}]}

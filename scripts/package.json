@@ -1,0 +1,14 @@
+{
+    "name": "meddeutsch-content-uploader",
+    "version": "1.0.0",
+    "description": "Upload MedDeutsch content to Firebase",
+    "main": "upload_to_firebase.js",
+    "scripts": {
+        "upload": "node upload_to_firebase.js",
+        "generate-audio": "node generate_audio.js"
+    },
+    "dependencies": {
+        "@google-cloud/text-to-speech": "^6.4.0",
+        "firebase-admin": "^12.7.0"
+    }
+}

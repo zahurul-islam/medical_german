@@ -1,0 +1,12 @@
+{"id":"section_27","phaseId":"phase2","order":27,"titleDe":"Pädiatrie","title":{"en":"Pediatrics","bn":"শিশু চিকিৎসা","hi":"बाल रोग","ur":"اطفال کا علاج","tr":"Pediatri"},"level":"B2","estimatedMinutes":40,"vocabulary":[
+{"id":"v27_01","germanTerm":"Kind","article":"das","plural":"Kinder","translation":{"en":"Child","bn":"শিশু","hi":"बच्चा","ur":"بچہ","tr":"Çocuk"}},
+{"id":"v27_02","germanTerm":"Impfung","article":"die","plural":"Impfungen","translation":{"en":"Vaccination","bn":"টিকা","hi":"टीकाकरण","ur":"ٹیکہ","tr":"Aşı"}},
+{"id":"v27_03","germanTerm":"Vorsorgeuntersuchung","article":"die","plural":"Vorsorgeuntersuchungen","translation":{"en":"Check-up","bn":"নিয়মিত পরীক্ষা","hi":"जांच","ur":"چیک اپ","tr":"Muayene"}},
+{"id":"v27_04","germanTerm":"Entwicklung","article":"die","plural":"Entwicklungen","translation":{"en":"Development","bn":"বিকাশ","hi":"विकास","ur":"نشوونما","tr":"Gelişim"}},
+{"id":"v27_05","germanTerm":"Fieberkrampf","article":"der","plural":"Fieberkrämpfe","translation":{"en":"Febrile Seizure","bn":"জ্বরজনিত খিঁচুনি","hi":"ज्वर ऐंठन","ur":"بخار کا دورہ","tr":"Ateşli havale"}},
+{"id":"v27_06","germanTerm":"Stillen","article":"das","plural":"-","translation":{"en":"Breastfeeding","bn":"বুকের দুধ খাওয়ানো","hi":"स्तनपान","ur":"دودھ پلانا","tr":"Emzirme"}},
+{"id":"v27_07","germanTerm":"Wachstum","article":"das","plural":"-","translation":{"en":"Growth","bn":"বৃদ্ধি","hi":"वृद्धि","ur":"نمو","tr":"Büyüme"}}
+],"dialogues":[{"id":"d27_01","title":{"en":"Child Check-up"},"lines":[
+{"speaker":"Arzt","germanText":"Wie entwickelt sich Ihr Kind?","translation":{"en":"How is your child developing?"}},
+{"speaker":"Mutter","germanText":"Er kann schon laufen und sagt einige Wörter.","translation":{"en":"He can already walk and says a few words."}}
+]}],"exercises":[{"id":"e27_01","type":"multipleChoice","question":{"en":"What is 'Impfung'?"},"options":["Vaccination","Medicine","Check-up"],"correctAnswer":"Vaccination","points":10}],"media":{"introVideoUrl":"video/sections/section_27/intro.mp4"}}

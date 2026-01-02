@@ -1,0 +1,14 @@
+{"id":"section_21","phaseId":"phase2","order":21,"titleDe":"Herz-Kreislauf-System","title":{"en":"Cardiovascular System","bn":"কার্ডিওভাসকুলার সিস্টেম","hi":"हृदय प्रणाली","ur":"قلبی نظام","tr":"Kardiyovasküler Sistem"},"level":"B2","estimatedMinutes":40,"vocabulary":[
+{"id":"v21_01","germanTerm":"Herzinsuffizienz","article":"die","plural":"Herzinsuffizienzen","translation":{"en":"Heart Failure","bn":"হার্ট ফেইলিউর","hi":"हार्ट फेल्योर","ur":"دل کی ناکامی","tr":"Kalp yetmezliği"}},
+{"id":"v21_02","germanTerm":"Myokardinfarkt","article":"der","plural":"Myokardinfarkte","translation":{"en":"Heart Attack","bn":"হার্ট অ্যাটাক","hi":"हार्ट अटैक","ur":"دل کا دورہ","tr":"Kalp krizi"}},
+{"id":"v21_03","germanTerm":"Hypertonie","article":"die","plural":"Hypertonien","translation":{"en":"Hypertension","bn":"উচ্চ রক্তচাপ","hi":"उच्च रक्तचाप","ur":"ہائی بلڈ پریشر","tr":"Hipertansiyon"}},
+{"id":"v21_04","germanTerm":"Arrhythmie","article":"die","plural":"Arrhythmien","translation":{"en":"Arrhythmia","bn":"অ্যারিদমিয়া","hi":"अतालता","ur":"دل کی دھڑکن کی بے قاعدگی","tr":"Aritmi"}},
+{"id":"v21_05","germanTerm":"EKG","article":"das","plural":"EKGs","translation":{"en":"ECG/EKG","bn":"ইসিজি","hi":"ईसीजी","ur":"ای سی جی","tr":"EKG"}},
+{"id":"v21_06","germanTerm":"Angina pectoris","article":"die","plural":"-","translation":{"en":"Angina","bn":"এনজাইনা","hi":"एनजाइना","ur":"انجائنا","tr":"Anjin"}},
+{"id":"v21_07","germanTerm":"Koronararterien","article":"die","plural":"-","translation":{"en":"Coronary Arteries","bn":"করোনারি ধমনী","hi":"कोरोनरी धमनियां","ur":"کورونری شریانیں","tr":"Koroner arterler"}},
+{"id":"v21_08","germanTerm":"Stent","article":"der","plural":"Stents","translation":{"en":"Stent","bn":"স্টেন্ট","hi":"स्टेंट","ur":"سٹینٹ","tr":"Stent"}}
+],"dialogues":[{"id":"d21_01","title":{"en":"Cardiac Emergency"},"lines":[
+{"speaker":"Arzt","germanText":"Der Patient hat starke Brustschmerzen und Atemnot.","translation":{"en":"The patient has severe chest pain and shortness of breath."}},
+{"speaker":"Schwester","germanText":"EKG zeigt ST-Hebungen.","translation":{"en":"ECG shows ST elevations."}},
+{"speaker":"Arzt","germanText":"Verdacht auf Myokardinfarkt. Sofort Kardiologie rufen!","translation":{"en":"Suspected heart attack. Call cardiology immediately!"}}
+]}],"exercises":[{"id":"e21_01","type":"multipleChoice","question":{"en":"What is 'Myokardinfarkt'?"},"options":["Heart Attack","Stroke","Hypertension"],"correctAnswer":"Heart Attack","points":10}]}

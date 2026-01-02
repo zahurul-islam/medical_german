@@ -1,0 +1,14 @@
+{"id":"section_22","phaseId":"phase2","order":22,"titleDe":"Atmungssystem","title":{"en":"Respiratory System","bn":"শ্বাসতন্ত্র","hi":"श्वसन तंत्र","ur":"نظام تنفس","tr":"Solunum Sistemi"},"level":"B2","estimatedMinutes":40,"vocabulary":[
+{"id":"v22_01","germanTerm":"Pneumonie","article":"die","plural":"Pneumonien","translation":{"en":"Pneumonia","bn":"নিউমোনিয়া","hi":"निमोनिया","ur":"نمونیا","tr":"Zatürre"}},
+{"id":"v22_02","germanTerm":"Asthma","article":"das","plural":"-","translation":{"en":"Asthma","bn":"অ্যাজমা","hi":"अस्थमा","ur":"دمہ","tr":"Astım"}},
+{"id":"v22_03","germanTerm":"COPD","article":"die","plural":"-","translation":{"en":"COPD","bn":"সিওপিডি","hi":"सीओपीडी","ur":"سی او پی ڈی","tr":"KOAH"}},
+{"id":"v22_04","germanTerm":"Sauerstofftherapie","article":"die","plural":"-","translation":{"en":"Oxygen Therapy","bn":"অক্সিজেন থেরাপি","hi":"ऑक्सीजन थेरेपी","ur":"آکسیجن تھراپی","tr":"Oksijen tedavisi"}},
+{"id":"v22_05","germanTerm":"Bronchitis","article":"die","plural":"Bronchitiden","translation":{"en":"Bronchitis","bn":"ব্রঙ্কাইটিস","hi":"ब्रोंकाइटिस","ur":"برونکائٹس","tr":"Bronşit"}},
+{"id":"v22_06","germanTerm":"Lungenembolie","article":"die","plural":"Lungenembolien","translation":{"en":"Pulmonary Embolism","bn":"পালমোনারি এম্বোলিজম","hi":"फुफ्फुसीय अन्त:शल्यता","ur":"پلمونری ایمبولزم","tr":"Pulmoner emboli"}},
+{"id":"v22_07","germanTerm":"Pleuraerguss","article":"der","plural":"Pleuraergüsse","translation":{"en":"Pleural Effusion","bn":"প্লুরাল ইফিউশন","hi":"प्लूरल इफ्यूजन","ur":"پلیورل افیوژن","tr":"Plevral efüzyon"}},
+{"id":"v22_08","germanTerm":"Intubation","article":"die","plural":"Intubationen","translation":{"en":"Intubation","bn":"ইন্টিউবেশন","hi":"इंट्यूबेशन","ur":"انٹیوبیشن","tr":"Entübasyon"}}
+],"dialogues":[{"id":"d22_01","title":{"en":"Respiratory Distress"},"lines":[
+{"speaker":"Arzt","germanText":"Patient mit Atemnot und produktivem Husten.","translation":{"en":"Patient with dyspnea and productive cough."}},
+{"speaker":"Schwester","germanText":"Sauerstoffsättigung bei 88%.","translation":{"en":"Oxygen saturation at 88%."}},
+{"speaker":"Arzt","germanText":"Sauerstoff geben und Röntgen-Thorax anfordern.","translation":{"en":"Give oxygen and order chest X-ray."}}
+]}],"exercises":[{"id":"e22_01","type":"multipleChoice","question":{"en":"What is 'Pneumonie'?"},"options":["Pneumonia","Asthma","Bronchitis"],"correctAnswer":"Pneumonia","points":10}]}

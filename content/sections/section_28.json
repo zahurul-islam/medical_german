@@ -1,0 +1,11 @@
+{"id":"section_28","phaseId":"phase2","order":28,"titleDe":"Gynäkologie/Geburtshilfe","title":{"en":"OBGYN","bn":"স্ত্রীরোগ ও প্রসূতি","hi":"स्त्री रोग","ur":"نسائی امراض","tr":"Kadın Doğum"},"level":"B2","estimatedMinutes":40,"vocabulary":[
+{"id":"v28_01","germanTerm":"Schwangerschaft","article":"die","plural":"Schwangerschaften","translation":{"en":"Pregnancy","bn":"গর্ভাবস্থা","hi":"गर्भावस्था","ur":"حمل","tr":"Hamilelik"}},
+{"id":"v28_02","germanTerm":"Geburt","article":"die","plural":"Geburten","translation":{"en":"Birth/Delivery","bn":"প্রসব","hi":"प्रसव","ur":"پیدائش","tr":"Doğum"}},
+{"id":"v28_03","germanTerm":"Wehen","article":"die","plural":"-","translation":{"en":"Contractions","bn":"প্রসব বেদনা","hi":"प्रसव पीड़ा","ur":"درد زہ","tr":"Kasılmalar"}},
+{"id":"v28_04","germanTerm":"Kaiserschnitt","article":"der","plural":"Kaiserschnitte","translation":{"en":"C-Section","bn":"সিজারিয়ান","hi":"सीज़ेरियन","ur":"سیزیرین","tr":"Sezaryen"}},
+{"id":"v28_05","germanTerm":"Vorsorge","article":"die","plural":"Vorsorgen","translation":{"en":"Prenatal Care","bn":"প্রসবপূর্ব যত্ন","hi":"प्रसव पूर्व देखभाल","ur":"قبل از پیدائش نگہداشت","tr":"Doğum öncesi bakım"}},
+{"id":"v28_06","germanTerm":"Menstruation","article":"die","plural":"Menstruationen","translation":{"en":"Menstruation","bn":"মাসিক","hi":"मासिक धर्म","ur":"ماہواری","tr":"Adet"}}
+],"dialogues":[{"id":"d28_01","title":{"en":"Prenatal Visit"},"lines":[
+{"speaker":"Ärztin","germanText":"Wie verläuft die Schwangerschaft?","translation":{"en":"How is the pregnancy going?"}},
+{"speaker":"Patientin","germanText":"Mir ist morgens oft übel.","translation":{"en":"I often feel nauseous in the morning."}}
+]}],"exercises":[{"id":"e28_01","type":"multipleChoice","question":{"en":"What is 'Kaiserschnitt'?"},"options":["C-Section","Natural Birth","Check-up"],"correctAnswer":"C-Section","points":10}],"media":{"introVideoUrl":"video/sections/section_28/intro.mp4"}}

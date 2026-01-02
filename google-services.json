@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "149956547132",
+    "project_id": "german-med",
+    "storage_bucket": "german-med.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149956547132:android:283d2b0eecebec5fba2939",
+        "android_client_info": {
+          "package_name": "app.german.med"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149956547132-oh0rbe3aer37vc8aedlda7ph0bftf9dp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfvUkENmclZGQKp1S7etzbbr0uWLS6NoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149956547132-oh0rbe3aer37vc8aedlda7ph0bftf9dp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "149956547132-aea3amlfppuv9let4rapr7bvapqp7knf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.german.med"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

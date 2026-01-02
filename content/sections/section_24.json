@@ -1,0 +1,14 @@
+{"id":"section_24","phaseId":"phase2","order":24,"titleDe":"Neurologie-Grundlagen","title":{"en":"Neurology Basics","bn":"নিউরোলজি বেসিক","hi":"न्यूरोलॉजी मूल बातें","ur":"نیورولوجی کی بنیادی باتیں","tr":"Nöroloji Temelleri"},"level":"B2","estimatedMinutes":40,"vocabulary":[
+{"id":"v24_01","germanTerm":"Schlaganfall","article":"der","plural":"Schlaganfälle","translation":{"en":"Stroke","bn":"স্ট্রোক","hi":"स्ट्रोक","ur":"فالج","tr":"İnme"}},
+{"id":"v24_02","germanTerm":"Epilepsie","article":"die","plural":"Epilepsien","translation":{"en":"Epilepsy","bn":"মৃগী","hi":"मिर्गी","ur":"مرگی","tr":"Epilepsi"}},
+{"id":"v24_03","germanTerm":"Meningitis","article":"die","plural":"Meningitiden","translation":{"en":"Meningitis","bn":"মেনিনজাইটিস","hi":"मेनिन्जाइटिस","ur":"گردن توڑ بخار","tr":"Menenjit"}},
+{"id":"v24_04","germanTerm":"Lähmung","article":"die","plural":"Lähmungen","translation":{"en":"Paralysis","bn":"পক্ষাঘাত","hi":"पक्षाघात","ur":"فالج","tr":"Felç"}},
+{"id":"v24_05","germanTerm":"Bewusstseinsstörung","article":"die","plural":"Bewusstseinsstörungen","translation":{"en":"Altered Consciousness","bn":"চেতনা বিঘ্ন","hi":"चेतना में परिवर्तन","ur":"ہوش میں خلل","tr":"Bilinç bozukluğu"}},
+{"id":"v24_06","germanTerm":"Glasgow Coma Scale","article":"die","plural":"-","translation":{"en":"Glasgow Coma Scale","bn":"গ্লাসগো কোমা স্কেল","hi":"ग्लासगो कोमा स्केल","ur":"گلاسگو کوما اسکیل","tr":"Glasgow Koma Skalası"}},
+{"id":"v24_07","germanTerm":"Pupillenreaktion","article":"die","plural":"Pupillenreaktionen","translation":{"en":"Pupil Reaction","bn":"পিউপিল প্রতিক্রিয়া","hi":"पुतली प्रतिक्रिया","ur":"پتلی کا رد عمل","tr":"Pupil reaksiyonu"}},
+{"id":"v24_08","germanTerm":"Reflexe","article":"die","plural":"-","translation":{"en":"Reflexes","bn":"রিফ্লেক্স","hi":"प्रतिवर्त","ur":"ریفلیکس","tr":"Refleksler"}}
+],"dialogues":[{"id":"d24_01","title":{"en":"Stroke Assessment"},"lines":[
+{"speaker":"Schwester","germanText":"Patient mit plötzlicher Sprachstörung und Lähmung rechts.","translation":{"en":"Patient with sudden speech disorder and right-sided paralysis."}},
+{"speaker":"Arzt","germanText":"Verdacht auf Schlaganfall. Sofort CCT anfordern!","translation":{"en":"Suspected stroke. Order CT head immediately!"}},
+{"speaker":"Schwester","germanText":"Wann haben die Symptome begonnen?","translation":{"en":"When did the symptoms begin?"}}
+]}],"exercises":[{"id":"e24_01","type":"multipleChoice","question":{"en":"What is 'Schlaganfall'?"},"options":["Stroke","Epilepsy","Headache"],"correctAnswer":"Stroke","points":10}]}

@@ -1,0 +1,12 @@
+{"id":"section_18","phaseId":"phase2","order":18,"titleDe":"Aufklärung","title":{"en":"Informed Consent","bn":"সম্মতি","hi":"सूचित सहमति","ur":"باخبر رضامندی","tr":"Aydınlatılmış Onam"},"level":"B1","estimatedMinutes":30,"vocabulary":[
+{"id":"v18_01","germanTerm":"Aufklärung","article":"die","plural":"Aufklärungen","translation":{"en":"Informed Consent","bn":"সম্মতি","hi":"सहमति","ur":"رضامندی","tr":"Onam"}},
+{"id":"v18_02","germanTerm":"Einwilligung","article":"die","plural":"Einwilligungen","translation":{"en":"Consent","bn":"অনুমতি","hi":"अनुमति","ur":"اجازت","tr":"İzin"}},
+{"id":"v18_03","germanTerm":"Risiko","article":"das","plural":"Risiken","translation":{"en":"Risk","bn":"ঝুঁকি","hi":"जोखिम","ur":"خطرہ","tr":"Risk"}},
+{"id":"v18_04","germanTerm":"Komplikation","article":"die","plural":"Komplikationen","translation":{"en":"Complication","bn":"জটিলতা","hi":"जटिलता","ur":"پیچیدگی","tr":"Komplikasyon"}},
+{"id":"v18_05","germanTerm":"Unterschrift","article":"die","plural":"Unterschriften","translation":{"en":"Signature","bn":"স্বাক্ষর","hi":"हस्ताक्षर","ur":"دستخط","tr":"İmza"}},
+{"id":"v18_06","germanTerm":"Blutentnahme","article":"die","plural":"Blutentnahmen","translation":{"en":"Blood Draw","bn":"রক্ত নেওয়া","hi":"रक्त लेना","ur":"خون نکالنا","tr":"Kan alma"}}
+],"dialogues":[{"id":"d18_01","title":{"en":"Explaining Procedure"},"lines":[
+{"speaker":"Arzt","germanText":"Wir müssen Blut abnehmen.","translation":{"en":"We need to take blood."}},
+{"speaker":"Patient","germanText":"Gibt es Risiken?","translation":{"en":"Are there risks?"}},
+{"speaker":"Arzt","germanText":"Es kann zu einem kleinen Bluterguss kommen.","translation":{"en":"There may be a small bruise."}}
+]}],"exercises":[{"id":"e18_01","type":"multipleChoice","question":{"en":"What is 'Einwilligung'?"},"options":["Consent","Signature","Risk"],"correctAnswer":"Consent","points":10}]}

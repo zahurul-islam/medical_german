@@ -1,0 +1,21 @@
+{"id":"section_03","phaseId":"phase1","order":3,"titleDe":"Der menschliche Körper II","title":{"en":"The Human Body II - Internal Organs","bn":"মানবদেহ II","hi":"मानव शरीर II","ur":"انسانی جسم II","tr":"İnsan Vücudu II"},"level":"A1","estimatedMinutes":30,"vocabulary":[
+{"id":"v03_01","germanTerm":"Herz","article":"das","plural":"Herzen","translation":{"en":"Heart","bn":"হৃদয়","hi":"हृदय","ur":"دل","tr":"Kalp"}},
+{"id":"v03_02","germanTerm":"Lunge","article":"die","plural":"Lungen","translation":{"en":"Lung","bn":"ফুসফুস","hi":"फेफड़ा","ur":"پھیپھڑا","tr":"Akciğer"}},
+{"id":"v03_03","germanTerm":"Leber","article":"die","plural":"Lebern","translation":{"en":"Liver","bn":"যকৃত","hi":"यकृत","ur":"جگر","tr":"Karaciğer"}},
+{"id":"v03_04","germanTerm":"Niere","article":"die","plural":"Nieren","translation":{"en":"Kidney","bn":"কিডনি","hi":"गुर्दा","ur":"گردہ","tr":"Böbrek"}},
+{"id":"v03_05","germanTerm":"Magen","article":"der","plural":"Mägen","translation":{"en":"Stomach","bn":"পাকস্থলী","hi":"आमाशय","ur":"معدہ","tr":"Mide"}},
+{"id":"v03_06","germanTerm":"Darm","article":"der","plural":"Därme","translation":{"en":"Intestine","bn":"অন্ত্র","hi":"आंत","ur":"آنت","tr":"Bağırsak"}},
+{"id":"v03_07","germanTerm":"Gehirn","article":"das","plural":"Gehirne","translation":{"en":"Brain","bn":"মস্তিষ্ক","hi":"मस्तिष्क","ur":"دماغ","tr":"Beyin"}},
+{"id":"v03_08","germanTerm":"Blase","article":"die","plural":"Blasen","translation":{"en":"Bladder","bn":"মূত্রাশয়","hi":"मूत्राशय","ur":"مثانہ","tr":"Mesane"}},
+{"id":"v03_09","germanTerm":"Milz","article":"die","plural":"Milzen","translation":{"en":"Spleen","bn":"প্লীহা","hi":"तिल्ली","ur":"تلی","tr":"Dalak"}},
+{"id":"v03_10","germanTerm":"Bauchspeicheldrüse","article":"die","plural":"Bauchspeicheldrüsen","translation":{"en":"Pancreas","bn":"অগ্ন্যাশয়","hi":"अग्न्याशय","ur":"لبلبہ","tr":"Pankreas"}},
+{"id":"v03_11","germanTerm":"Gallenblase","article":"die","plural":"Gallenblasen","translation":{"en":"Gallbladder","bn":"পিত্তথলি","hi":"पित्ताशय","ur":"پتنا","tr":"Safra kesesi"}},
+{"id":"v03_12","germanTerm":"Speiseröhre","article":"die","plural":"Speiseröhren","translation":{"en":"Esophagus","bn":"খাদ্যনালী","hi":"अन्ननली","ur":"منہ نالی","tr":"Yemek borusu"}}
+],"dialogues":[{"id":"d03_01","title":{"en":"Explaining Ultrasound"},"lines":[
+{"speaker":"Arzt","germanText":"Wir machen einen Ultraschall von Leber und Nieren.","translation":{"en":"We'll do an ultrasound of liver and kidneys."}},
+{"speaker":"Patient","germanText":"Ist das schmerzhaft?","translation":{"en":"Is that painful?"}},
+{"speaker":"Arzt","germanText":"Nein, es tut nicht weh.","translation":{"en":"No, it doesn't hurt."}}
+]}],"exercises":[
+{"id":"e03_01","type":"multipleChoice","question":{"en":"What is 'das Herz'?"},"options":["Heart","Lung","Liver"],"correctAnswer":"Heart","points":10},
+{"id":"e03_02","type":"multipleChoice","question":{"en":"Which article for 'Lunge'?"},"options":["der","die","das"],"correctAnswer":"die","points":10}
+]}
