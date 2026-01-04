@@ -1,1 +1,1562 @@
-{"id":"section_46","phaseId":"phase3","order":46,"titleDe":"FSP-Simulation III","title":{"en":"FSP Simulation III","bn":"FSP Simulation III","hi":"FSP Simulation III","ur":"FSP Simulation III","tr":"FSP Simulation III"},"level":"C1","estimatedMinutes":45,"vocabulary":[{"id":"v46_01","germanTerm":"Fachwort","article":"das","plural":"Fachwörter","translation":{"en":"Specialist Term","bn":"বিশেষজ্ঞ শব্দ","hi":"विशेषज्ञ शब्द","ur":"ماہر اصطلاح","tr":"Uzman terimi"}}],"dialogues":[{"id":"d46_01","title":{"en":"FSP Simulation III Scenario"},"lines":[{"speaker":"Facharzt","germanText":"Clinical dialogue for FSP Simulation III.","translation":{"en":"Clinical dialogue for FSP Simulation III."}}]}],"exercises":[{"id":"e46_01","type":"multipleChoice","question":{"en":"Question about FSP Simulation III?"},"options":["A","B","C"],"correctAnswer":"A","points":15}],"media":{"introVideoUrl":"video/sections/section_46/intro.mp4","dialogueVideoUrl":"video/sections/section_46/dialogue.mp4"}}
+{
+    "id": "section_46",
+    "phaseId": "phase3",
+    "order": 46,
+    "titleDe": "FSP-Simulation III",
+    "title": {
+        "en": "FSP III - Doctor Talk: Doctor-to-Doctor Communication",
+        "bn": "এফএসপি III - ডাক্তারের আলোচনা: ডাক্তার-থেকে-ডাক্তারের যোগাযোগ",
+        "hi": "एफएसपी III - डॉक्टर की बातचीत: डॉक्टर-से-डॉक्टर संचार",
+        "ur": "ایف ایس پی III - ڈاکٹر کی بات چیت: ڈاکٹر سے ڈاکٹر کا رابطہ",
+        "tr": "FSP III - Doktor Konuşması: Doktordan Doktora İletişim"
+    },
+    "description": {
+        "en": "This section focuses on essential doctor-to-doctor communication scenarios in German medical settings, including consultations, handovers, case discussions, and recommendations.",
+        "bn": "এই বিভাগে জার্মান চিকিৎসা সেটিংসে অত্যাবশ্যকীয় ডাক্তার-থেকে-ডাক্তারের যোগাযোগের পরিস্থিতিগুলি অন্তর্ভুক্ত করা হয়েছে, যেমন পরামর্শ, হস্তান্তর, কেস আলোচনা এবং সুপারিশ।",
+        "hi": "यह अनुभाग जर्मन चिकित्सा सेटिंग्स में आवश्यक डॉक्टर-से-डॉक्टर संचार परिदृश्यों पर केंद्रित है, जिसमें परामर्श, हैंडओवर, केस चर्चा और सिफारिशें शामिल हैं।",
+        "ur": "یہ سیکشن جرمن طبی ترتیبات میں ضروری ڈاکٹر سے ڈاکٹر کے مواصلاتی منظرناموں پر توجہ مرکوز کرتا ہے، بشمول مشاورت، ہینڈ اوورز، کیس کی بات چیت اور سفارشات۔",
+        "tr": "Bu bölüm, Alman tıbbi ortamlarında konsültasyonlar, devir teslimler, vaka tartışmaları ve tavsiyeler dahil olmak üzere doktordan doktora iletişimin temel senaryolarına odaklanmaktadır."
+    },
+    "level": "C1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, you will learn the specific German phrases and terminology used in doctor-to-doctor communication. You will also practice role-playing common scenarios to improve your fluency and confidence.",
+            "bn": "এই বিভাগে, আপনি ডাক্তার-থেকে-ডাক্তারের যোগাযোগের ক্ষেত্রে ব্যবহৃত নির্দিষ্ট জার্মান শব্দ এবং পরিভাষা শিখবেন। আপনার সাবলীলতা এবং আত্মবিশ্বাস উন্নত করার জন্য আপনি সাধারণ পরিস্থিতিগুলির ভূমিকা-অভিনয়ও অনুশীলন করবেন।",
+            "hi": "इस खंड में, आप डॉक्टर-से-डॉक्टर संचार में उपयोग किए जाने वाले विशिष्ट जर्मन वाक्यांशों और शब्दावली को सीखेंगे। आप अपनी धाराप्रवाहता और आत्मविश्वास को बेहतर बनाने के लिए सामान्य परिदृश्यों का भूमिका निभाना भी अभ्यास करेंगे।",
+            "ur": "اس سیکشن میں، آپ ڈاکٹر سے ڈاکٹر کی بات چیت میں استعمال ہونے والے مخصوص جرمن فقرے اور اصطلاحات سیکھیں گے۔ آپ اپنی روانی اور اعتماد کو بہتر بنانے کے لیے عام منظرناموں میں کردار ادا کرنے کی مشق بھی کریں گے۔",
+            "tr": "Bu bölümde, doktordan doktora iletişimde kullanılan özel Almanca ifadeleri ve terminolojiyi öğreneceksiniz. Ayrıca akıcılığınızı ve güveninizi artırmak için yaygın senaryoları canlandırarak pratik yapacaksınız."
+        },
+        "grammarFocus": {
+            "en": [
+                "Modal verbs (können, müssen, sollen, dürfen, wollen) for expressing recommendations and obligations.",
+                "Subjunctive II (Konjunktiv II) for polite requests and hypothetical situations in consultations."
+            ],
+            "bn": [
+                "সুপারিশ এবং বাধ্যবাধকতা প্রকাশ করার জন্য মোডাল ক্রিয়া (können, müssen, sollen, dürfen, wollen)।",
+                "পরামর্শে বিনয়ী অনুরোধ এবং অনুমানমূলক পরিস্থিতির জন্য সাবজাংক্টিভ II (Konjunktiv II)।"
+            ],
+            "hi": [
+                "सिफारिशों और दायित्वों को व्यक्त करने के लिए मोडल क्रियाएं (können, müssen, sollen, dürfen, wollen)।",
+                "परामर्शों में विनम्र अनुरोधों और काल्पनिक स्थितियों के लिए सबजेक्टिव II (Konjunktiv II)।"
+            ],
+            "ur": [
+                "سفارشات اور ذمہ داریوں کے اظہار کے لئے ماڈل فعل (können, müssen, sollen, dürfen, wollen)۔",
+                "مشاورتوں میں شائستہ درخواستوں اور فرضی حالات کے لیے سبجیکٹیو II (Konjunktiv II)۔"
+            ],
+            "tr": [
+                "Tavsiyeleri ve zorunlulukları ifade etmek için modal fiiller (können, müssen, sollen, dürfen, wollen).",
+                "Konsültasyonlarda kibar istekler ve varsayımsal durumlar için Subjunctive II (Konjunktiv II)."
+            ]
+        },
+        "culturalNotes": {
+            "en": "German hospitals often have a hierarchical structure, and communication patterns reflect this, with senior doctors typically leading case discussions.",
+            "bn": "জার্মান হাসপাতালগুলিতে প্রায়শই একটি শ্রেণিবদ্ধ কাঠামো থাকে এবং যোগাযোগের ধরণগুলি এটি প্রতিফলিত করে, যেখানে সিনিয়র ডাক্তাররা সাধারণত কেস আলোচনার নেতৃত্ব দেন।",
+            "hi": "जर्मन अस्पतालों में अक्सर एक पदानुक्रमित संरचना होती है, और संचार पैटर्न इसे दर्शाते हैं, वरिष्ठ डॉक्टर आमतौर पर केस चर्चाओं का नेतृत्व करते हैं।",
+            "ur": "جرمن اسپتالوں میں اکثر درجہ بندی کا ڈھانچہ ہوتا ہے، اور مواصلاتی نمونے اس کی عکاسی کرتے ہیں، سینئر ڈاکٹر عام طور پر کیس کی بات چیت کی قیادت کرتے ہیں۔",
+            "tr": "Alman hastaneleri genellikle hiyerarşik bir yapıya sahiptir ve iletişim biçimleri bunu yansıtır; kıdemli doktorlar genellikle vaka tartışmalarına liderlik eder."
+        },
+        "summary": {
+            "en": "Mastering doctor-to-doctor communication in German is crucial for effective collaboration and patient care within the German healthcare system.",
+            "bn": "জার্মান স্বাস্থ্যসেবা ব্যবস্থায় কার্যকর সহযোগিতা এবং রোগীর যত্নের জন্য জার্মান ভাষায় ডাক্তার-থেকে-ডাক্তারের যোগাযোগ আয়ত্ত করা অত্যন্ত গুরুত্বপূর্ণ।",
+            "hi": "जर्मन स्वास्थ्य सेवा प्रणाली के भीतर प्रभावी सहयोग और रोगी की देखभाल के लिए जर्मन में डॉक्टर-से-डॉक्टर संचार में महारत हासिल करना महत्वपूर्ण है।",
+            "ur": "جرمن صحت کی دیکھ بھال کے نظام کے اندر مؤثر تعاون اور مریض کی دیکھ بھال کے لیے جرمن میں ڈاکٹر سے ڈاکٹر کے مواصلات میں مہارت حاصل کرنا بہت ضروری ہے۔",
+            "tr": "Alman sağlık sistemi içinde etkili işbirliği ve hasta bakımı için Almanca'da doktordan doktora iletişimde uzmanlaşmak çok önemlidir."
+        },
+        "learningObjectives": [
+            "Understand and use common German phrases for consultations, handovers, and case discussions.",
+            "Effectively communicate patient information in German to colleagues.",
+            "Formulate clear and concise recommendations using appropriate German grammar and vocabulary.",
+            "Participate confidently in German-language medical team meetings."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "die Anamnese",
+            "article": "die",
+            "plural": "die Anamnesen",
+            "pronunciation": "/ˌanaˈmneːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "medical history",
+                "bn": "চিকিৎসা ইতিহাস",
+                "hi": "चिकित्सा इतिहास",
+                "ur": "طبی تاریخ",
+                "tr": "tıbbi geçmiş"
+            },
+            "exampleSentence": "Die Anamnese wurde sorgfältig durch den Arzt erhoben.",
+            "exampleTranslation": {
+                "en": "The medical history was carefully taken by the doctor.",
+                "bn": "চিকিৎসা ইতিহাস ডাক্তারের দ্বারা যত্নসহকারে নেওয়া হয়েছে।",
+                "hi": "चिकित्सा इतिहास डॉक्टर द्वारा सावधानीपूर्वक लिया गया।",
+                "ur": "طبی تاریخ ڈاکٹر نے احتیاط سے لی۔",
+                "tr": "Tıbbi geçmiş doktor tarafından dikkatlice alındı."
+            },
+            "id": "v46_01"
+        },
+        {
+            "germanTerm": "das Konsil",
+            "article": "das",
+            "plural": "die Konsile/Konsilien",
+            "pronunciation": "/kɔnˈziːl/",
+            "category": "noun",
+            "translation": {
+                "en": "consultation",
+                "bn": "পরামর্শ",
+                "hi": "परामर्श",
+                "ur": "مشاورت",
+                "tr": "konsültasyon"
+            },
+            "exampleSentence": "Wir haben ein Konsil bei der Kardiologie angefordert.",
+            "exampleTranslation": {
+                "en": "We requested a consultation with cardiology.",
+                "bn": "আমরা হৃদরোগবিদ্যা বিভাগের সাথে একটি পরামর্শের জন্য অনুরোধ করেছি।",
+                "hi": "हमने कार्डियोलॉजी के साथ एक परामर्श का अनुरोध किया।",
+                "ur": "ہم نے کارڈیالوجی کے ساتھ مشاورت کی درخواست کی۔",
+                "tr": "Kardiyoloji ile konsültasyon talep ettik."
+            },
+            "id": "v46_02"
+        },
+        {
+            "germanTerm": "die Übergabe",
+            "article": "die",
+            "plural": "die Übergaben",
+            "pronunciation": "/ˈyːbɐˌɡaːbə/",
+            "category": "noun",
+            "translation": {
+                "en": "handover",
+                "bn": "হস্তান্তর",
+                "hi": "हस्तांतरण",
+                "ur": "منتقلی",
+                "tr": "devir"
+            },
+            "exampleSentence": "Die Übergabe findet täglich um 7 Uhr statt.",
+            "exampleTranslation": {
+                "en": "The handover takes place daily at 7 o'clock.",
+                "bn": "হস্তান্তর প্রতিদিন সকাল ৭টায় অনুষ্ঠিত হয়।",
+                "hi": "हस्तांतरण प्रतिदिन सुबह 7 बजे होता है।",
+                "ur": "منتقلی روزانہ 7 بجے ہوتی ہے۔",
+                "tr": "Devir teslim her gün saat 7'de gerçekleşir."
+            },
+            "id": "v46_03"
+        },
+        {
+            "germanTerm": "die Fallbesprechung",
+            "article": "die",
+            "plural": "die Fallbesprechungen",
+            "pronunciation": "/ˈfalbəˌʃprɛçʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "case discussion",
+                "bn": "কেস আলোচনা",
+                "hi": "केस चर्चा",
+                "ur": "کیس پر گفتگو",
+                "tr": "vaka tartışması"
+            },
+            "exampleSentence": "Die Fallbesprechung wird vom Oberarzt geleitet.",
+            "exampleTranslation": {
+                "en": "The case discussion is led by the senior physician.",
+                "bn": "কেস আলোচনা প্রধান চিকিৎসক দ্বারা পরিচালিত হয়।",
+                "hi": "केस चर्चा वरिष्ठ चिकित्सक द्वारा संचालित की जाती है।",
+                "ur": "کیس پر گفتگو سینئر ڈاکٹر کی طرف سے کی جاتی ہے۔",
+                "tr": "Vaka tartışması kıdemli doktor tarafından yönetilir."
+            },
+            "id": "v46_04"
+        },
+        {
+            "germanTerm": "die Empfehlung",
+            "article": "die",
+            "plural": "die Empfehlungen",
+            "pronunciation": "/ˌɛmpˈfeːlʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "recommendation",
+                "bn": "সুপারিশ",
+                "hi": "सिफारिश",
+                "ur": "سفارش",
+                "tr": "tavsiye"
+            },
+            "exampleSentence": "Ich habe eine klare Empfehlung für die Therapie.",
+            "exampleTranslation": {
+                "en": "I have a clear recommendation for the therapy.",
+                "bn": "আমার চিকিৎসার জন্য একটি স্পষ্ট সুপারিশ আছে।",
+                "hi": "मेरे पास चिकित्सा के लिए एक स्पष्ट सिफारिश है।",
+                "ur": "میرے پاس علاج کے لیے ایک واضح سفارش ہے۔",
+                "tr": "Tedavi için net bir tavsiyem var."
+            },
+            "id": "v46_05"
+        },
+        {
+            "germanTerm": "der Befund",
+            "article": "der",
+            "plural": "die Befunde",
+            "pronunciation": "/bəˈfʊnt/",
+            "category": "noun",
+            "translation": {
+                "en": "finding, result",
+                "bn": "ফলাফল",
+                "hi": "निष्कर्ष",
+                "ur": "نتیجہ",
+                "tr": "bulgu, sonuç"
+            },
+            "exampleSentence": "Die Befunde der Untersuchung sind unauffällig.",
+            "exampleTranslation": {
+                "en": "The results of the examination are unremarkable.",
+                "bn": "পরীক্ষার ফলাফলগুলি অস্বাভাবিক নয়।",
+                "hi": "परीक्षा के परिणाम सामान्य हैं।",
+                "ur": "امتحان کے نتائج غیر معمولی ہیں۔",
+                "tr": "Muayenenin sonuçları dikkate değer değil."
+            },
+            "id": "v46_06"
+        },
+        {
+            "germanTerm": "der Verlauf",
+            "article": "der",
+            "plural": "die Verläufe",
+            "pronunciation": "/fɛɐ̯ˈlaʊ̯f/",
+            "category": "noun",
+            "translation": {
+                "en": "course, progression",
+                "bn": "গতি",
+                "hi": "क्रम",
+                "ur": "طریقہ کار",
+                "tr": "seyir"
+            },
+            "exampleSentence": "Der Verlauf der Krankheit ist stabil.",
+            "exampleTranslation": {
+                "en": "The course of the disease is stable.",
+                "bn": "রোগের গতি স্থিতিশীল।",
+                "hi": "रोग का क्रम स्थिर है।",
+                "ur": "بیماری کا طریقہ کار مستحکم ہے۔",
+                "tr": "Hastalığın seyri stabil."
+            },
+            "id": "v46_07"
+        },
+        {
+            "germanTerm": "die Therapie",
+            "article": "die",
+            "plural": "die Therapien",
+            "pronunciation": "/teˈʁaːpi/",
+            "category": "noun",
+            "translation": {
+                "en": "therapy",
+                "bn": "থেরাপি",
+                "hi": "चिकित्सा",
+                "ur": "تھراپی",
+                "tr": "terapi"
+            },
+            "exampleSentence": "Die Therapie wird gut vertragen.",
+            "exampleTranslation": {
+                "en": "The therapy is well tolerated.",
+                "bn": "থেরাপিটি ভালোভাবে সহ্য করা হচ্ছে।",
+                "hi": "चिकित्सा अच्छी तरह से सहन की जा रही है।",
+                "ur": "تھراپی کو اچھی طرح سے برداشت کیا جا رہا ہے۔",
+                "tr": "Terapi iyi tolere ediliyor."
+            },
+            "id": "v46_08"
+        },
+        {
+            "germanTerm": "die Diagnose",
+            "article": "die",
+            "plural": "die Diagnosen",
+            "pronunciation": "/di̯aˈɡnoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "diagnosis",
+                "bn": "রোগ নির্ণয়",
+                "hi": "रोग निदान",
+                "ur": "تشخیص",
+                "tr": "teşhis"
+            },
+            "exampleSentence": "Die Diagnose wurde bestätigt.",
+            "exampleTranslation": {
+                "en": "The diagnosis was confirmed.",
+                "bn": "রোগ নির্ণয় নিশ্চিত করা হয়েছে।",
+                "hi": "रोग निदान की पुष्टि की गई।",
+                "ur": "تشخیص کی تصدیق ہو گئی ہے۔",
+                "tr": "Teşhis doğrulandı."
+            },
+            "id": "v46_09"
+        },
+        {
+            "germanTerm": "die Prognose",
+            "article": "die",
+            "plural": "die Prognosen",
+            "pronunciation": "/pʁoˈɡnoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "prognosis",
+                "bn": "পূর্বাভাস",
+                "hi": "पूर्वानुमान",
+                "ur": "پیش گوئی",
+                "tr": "prognoz"
+            },
+            "exampleSentence": "Die Prognose ist vorsichtig optimistisch.",
+            "exampleTranslation": {
+                "en": "The prognosis is cautiously optimistic.",
+                "bn": "পূর্বাভাস সতর্কতার সাথে আশাবাদী।",
+                "hi": "पूर्वानुमान सावधानीपूर्वक आशावादी है।",
+                "ur": "پیش گوئی احتیاط سے پر امید ہے۔",
+                "tr": "Prognoz ihtiyatlı bir şekilde iyimser."
+            },
+            "id": "v46_10"
+        },
+        {
+            "germanTerm": "die Komplikation",
+            "article": "die",
+            "plural": "die Komplikationen",
+            "pronunciation": "/kɔmplikaˈtsi̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "complication",
+                "bn": "জটিলতা",
+                "hi": "जटिलता",
+                "ur": "پیچیدگی",
+                "tr": "komplikasyon"
+            },
+            "exampleSentence": "Es gab keine Komplikationen während des Eingriffs.",
+            "exampleTranslation": {
+                "en": "There were no complications during the procedure.",
+                "bn": "অপারেশনের সময় কোনও জটিলতা ছিল না।",
+                "hi": "प्रक्रिया के दौरान कोई जटिलता नहीं थी।",
+                "ur": "عمل کے دوران کوئی پیچیدگی نہیں تھی۔",
+                "tr": "Prosedür sırasında herhangi bir komplikasyon olmadı."
+            },
+            "id": "v46_11"
+        },
+        {
+            "germanTerm": "der Facharzt",
+            "article": "der",
+            "plural": "die Fachärzte",
+            "pronunciation": "/ˈfaxˌʔaʁt͡st/",
+            "category": "noun",
+            "translation": {
+                "en": "specialist",
+                "bn": "বিশেষজ্ঞ চিকিৎসক",
+                "hi": "विशेषज्ञ चिकित्सक",
+                "ur": "ماہر ڈاکٹر",
+                "tr": "uzman doktor"
+            },
+            "exampleSentence": "Der Facharzt für Kardiologie wurde hinzugezogen.",
+            "exampleTranslation": {
+                "en": "The specialist in cardiology was consulted.",
+                "bn": "হৃদরোগবিদ্যা বিভাগের বিশেষজ্ঞ চিকিৎসকের পরামর্শ নেওয়া হয়েছিল।",
+                "hi": "हृदय रोग विभाग के विशेषज्ञ चिकित्सक से परामर्श किया गया।",
+                "ur": "امراض قلب کے ماہر ڈاکٹر سے مشورہ کیا گیا تھا۔",
+                "tr": "Kardiyoloji uzmanına danışıldı."
+            },
+            "id": "v46_12"
+        },
+        {
+            "germanTerm": "behandeln",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/bəˈhandl̩n/",
+            "category": "verb",
+            "translation": {
+                "en": "to treat",
+                "bn": "চিকিৎসা করা",
+                "hi": "इलाज करना",
+                "ur": "علاج کرنا",
+                "tr": "tedavi etmek"
+            },
+            "exampleSentence": "Wie sollen wir den Patienten behandeln?",
+            "exampleTranslation": {
+                "en": "How should we treat the patient?",
+                "bn": "আমাদের রোগীর কীভাবে চিকিৎসা করা উচিত?",
+                "hi": "हमें रोगी का इलाज कैसे करना चाहिए?",
+                "ur": "ہمیں مریض کا علاج کیسے کرنا چاہیے؟",
+                "tr": "Hastayı nasıl tedavi etmeliyiz?"
+            },
+            "id": "v46_13"
+        },
+        {
+            "germanTerm": "empfehlen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ɛmpˈfeːlən/",
+            "category": "verb",
+            "translation": {
+                "en": "to recommend",
+                "bn": "সুপারিশ করা",
+                "hi": "सिफारिश करना",
+                "ur": "سفارش کرنا",
+                "tr": "tavsiye etmek"
+            },
+            "exampleSentence": "Ich empfehle eine weitere Untersuchung.",
+            "exampleTranslation": {
+                "en": "I recommend a further examination.",
+                "bn": "আমি আরও একটি পরীক্ষার সুপারিশ করছি।",
+                "hi": "मैं एक और परीक्षा की सिफारिश करता हूं।",
+                "ur": "میں ایک اور امتحان کی سفارش کرتا ہوں۔",
+                "tr": "Başka bir muayene tavsiye ediyorum."
+            },
+            "id": "v46_14"
+        },
+        {
+            "germanTerm": "diskutieren",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/dɪskuˈtiːʁən/",
+            "category": "verb",
+            "translation": {
+                "en": "to discuss",
+                "bn": "আলোচনা করা",
+                "hi": "चर्चा करना",
+                "ur": "بحث کرنا",
+                "tr": "tartışmak"
+            },
+            "exampleSentence": "Wir müssen den Fall noch diskutieren.",
+            "exampleTranslation": {
+                "en": "We still need to discuss the case.",
+                "bn": "আমাদের এখনও এই কেসটি নিয়ে আলোচনা করতে হবে।",
+                "hi": "हमें अभी भी इस मामले पर चर्चा करने की आवश्यकता है।",
+                "ur": "ہمیں ابھی بھی اس معاملے پر تبادلہ خیال کرنے کی ضرورت ہے۔",
+                "tr": "Hala vakayı tartışmamız gerekiyor."
+            },
+            "id": "v46_15"
+        },
+        {
+            "germanTerm": "informieren",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ɪnfɔʁˈmiːʁən/",
+            "category": "verb",
+            "translation": {
+                "en": "to inform",
+                "bn": "জানানো",
+                "hi": "सूचित करना",
+                "ur": "اطلاع دینا",
+                "tr": "bilgilendirmek"
+            },
+            "exampleSentence": "Ich werde den Patienten informieren.",
+            "exampleTranslation": {
+                "en": "I will inform the patient.",
+                "bn": "আমি রোগীকে জানাব।",
+                "hi": "मैं रोगी को सूचित करूंगा।",
+                "ur": "میں مریض کو اطلاع دوں گا۔",
+                "tr": "Hastayı bilgilendireceğim."
+            },
+            "id": "v46_16"
+        },
+        {
+            "germanTerm": "dokumentieren",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/dokumɛnˈtiːʁən/",
+            "category": "verb",
+            "translation": {
+                "en": "to document",
+                "bn": "নথিভুক্ত করা",
+                "hi": "दस्तावेज़ बनाना",
+                "ur": "دستاویز کرنا",
+                "tr": "belgelemek"
+            },
+            "exampleSentence": "Wir müssen alles sorgfältig dokumentieren.",
+            "exampleTranslation": {
+                "en": "We must document everything carefully.",
+                "bn": "আমাদের সবকিছু সাবধানে নথিভুক্ত করতে হবে।",
+                "hi": "हमें सब कुछ सावधानीपूर्वक दस्तावेज़ बनाना होगा।",
+                "ur": "ہمیں ہر چیز کو احتیاط سے دستاویز کرنا ہوگا۔",
+                "tr": "Her şeyi dikkatlice belgelemeliyiz."
+            },
+            "id": "v46_17"
+        },
+        {
+            "germanTerm": "fraglich",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈfʁaːklɪç/",
+            "category": "adjective",
+            "translation": {
+                "en": "questionable, doubtful",
+                "bn": "সন্দেহজনক",
+                "hi": "संदिग्ध",
+                "ur": "مشکوک",
+                "tr": "şüpheli"
+            },
+            "exampleSentence": "Der Erfolg der Therapie ist fraglich.",
+            "exampleTranslation": {
+                "en": "The success of the therapy is questionable.",
+                "bn": "থেরাপির সাফল্য সন্দেহজনক।",
+                "hi": "चिकित्सा की सफलता संदिग्ध है।",
+                "ur": "تھراپی کی کامیابی مشکوک ہے۔",
+                "tr": "Terapinin başarısı şüpheli."
+            },
+            "id": "v46_18"
+        },
+        {
+            "germanTerm": "unauffällig",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˌʊnʔaʊ̯fˈfɛlɪç/",
+            "category": "adjective",
+            "translation": {
+                "en": "unremarkable, normal",
+                "bn": "স্বাভাবিক",
+                "hi": "सामान्य",
+                "ur": "غیر معمولی",
+                "tr": "olağan"
+            },
+            "exampleSentence": "Der Befund war unauffällig.",
+            "exampleTranslation": {
+                "en": "The finding was unremarkable.",
+                "bn": "ফলাফলটি স্বাভাবিক ছিল।",
+                "hi": "निष्कर्ष सामान्य था।",
+                "ur": "نتیجہ غیر معمولی تھا۔",
+                "tr": "Bulgu olağandı."
+            },
+            "id": "v46_19"
+        },
+        {
+            "germanTerm": "dringend",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈdʁɪŋənt/",
+            "category": "adjective",
+            "translation": {
+                "en": "urgent",
+                "bn": "জরুরী",
+                "hi": "तत्काल",
+                "ur": "فوری",
+                "tr": "acil"
+            },
+            "exampleSentence": "Ein Konsil ist dringend erforderlich.",
+            "exampleTranslation": {
+                "en": "A consultation is urgently required.",
+                "bn": "জরুরীভাবে একটি পরামর্শ প্রয়োজন।",
+                "hi": "तत्काल एक परामर्श की आवश्यकता है।",
+                "ur": "فوری طور پر مشاورت کی ضرورت ہے۔",
+                "tr": "Acil bir konsültasyona ihtiyaç var."
+            },
+            "id": "v46_20"
+        },
+        {
+            "germanTerm": "gegebenenfalls",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ɡəˈɡeːbənənˌfals/",
+            "category": "phrase",
+            "translation": {
+                "en": "if necessary, if applicable",
+                "bn": "প্রয়োজনে",
+                "hi": "यदि आवश्यक हो",
+                "ur": "اگر ضروری ہو",
+                "tr": "gerekirse"
+            },
+            "exampleSentence": "Gegebenenfalls muss eine Operation erfolgen.",
+            "exampleTranslation": {
+                "en": "If necessary, an operation must be performed.",
+                "bn": "প্রয়োজনে একটি অপারেশন করতে হবে।",
+                "hi": "यदि आवश्यक हो, तो एक ऑपरेशन करना होगा।",
+                "ur": "اگر ضروری ہو تو ایک آپریشن کرنا پڑے گا۔",
+                "tr": "Gerekirse bir ameliyat yapılmalı."
+            },
+            "id": "v46_21"
+        },
+        {
+            "germanTerm": "im Zweifelsfall",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ɪm ˈt͡svaɪ̯fl̩sˌfal/",
+            "category": "phrase",
+            "translation": {
+                "en": "in case of doubt",
+                "bn": "সন্দেহের ক্ষেত্রে",
+                "hi": "संदेह की स्थिति में",
+                "ur": "شک کی صورت میں",
+                "tr": "şüphe durumunda"
+            },
+            "exampleSentence": "Im Zweifelsfall sollte man ein Konsil einholen.",
+            "exampleTranslation": {
+                "en": "In case of doubt, you should seek a consultation.",
+                "bn": "সন্দেহের ক্ষেত্রে, আপনার একটি পরামর্শ নেওয়া উচিত।",
+                "hi": "संदेह की स्थिति में, आपको एक परामर्श लेना चाहिए।",
+                "ur": "شک کی صورت میں آپ کو ایک مشاورت حاصل کرنی چاہیے۔",
+                "tr": "Şüphe durumunda, bir konsültasyona başvurmalısınız."
+            },
+            "id": "v46_22"
+        },
+        {
+            "germanTerm": "die Rücksprache",
+            "article": "die",
+            "plural": "die Rücksprachen",
+            "pronunciation": "/ˈʁʏkʃpʁaːxə/",
+            "category": "noun",
+            "translation": {
+                "en": "consultation, discussion",
+                "bn": "আলোচনা",
+                "hi": "परामर्श",
+                "ur": "مشاورت",
+                "tr": "istişare"
+            },
+            "exampleSentence": "Ich halte Rücksprache mit dem Oberarzt.",
+            "exampleTranslation": {
+                "en": "I will consult with the senior physician.",
+                "bn": "আমি প্রধান চিকিৎসকের সাথে আলোচনা করব।",
+                "hi": "मैं वरिष्ठ चिकित्सक के साथ परामर्श करूंगा।",
+                "ur": "میں سینئر ڈاکٹر سے مشورہ کروں گا۔",
+                "tr": "Kıdemli doktor ile istişare edeceğim."
+            },
+            "id": "v46_23"
+        },
+        {
+            "germanTerm": "das Vorgehen",
+            "article": "das",
+            "plural": "die Vorgehen",
+            "pronunciation": "/ˈfoːɐ̯ˌɡeːən/",
+            "category": "noun",
+            "translation": {
+                "en": "procedure, approach",
+                "bn": "পদ্ধতি",
+                "hi": "प्रक्रिया",
+                "ur": "طریقہ کار",
+                "tr": "prosedür"
+            },
+            "exampleSentence": "Das weitere Vorgehen muss besprochen werden.",
+            "exampleTranslation": {
+                "en": "The further procedure needs to be discussed.",
+                "bn": "পরবর্তী পদ্ধতি নিয়ে আলোচনা করা দরকার।",
+                "hi": "आगे की प्रक्रिया पर चर्चा करने की आवश्यकता है।",
+                "ur": "مزید طریقہ کار پر بات کرنے کی ضرورت ہے۔",
+                "tr": "Sonraki prosedürün tartışılması gerekiyor."
+            },
+            "id": "v46_24"
+        },
+        {
+            "germanTerm": "die Differentialdiagnose",
+            "article": "die",
+            "plural": "die Differentialdiagnosen",
+            "pronunciation": "/ˌdɪfəʁɛnt͡si̯aːldi̯aˈɡnoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "differential diagnosis",
+                "bn": "পার্থক্যসূচক নির্ণয়",
+                "hi": "विभेदक निदान",
+                "ur": "امتیازی تشخیص",
+                "tr": "ayırıcı tanı"
+            },
+            "exampleSentence": "Welche Differentialdiagnosen ziehen Sie in Betracht?",
+            "exampleTranslation": {
+                "en": "Which differential diagnoses are you considering?",
+                "bn": "আপনি কোন পার্থক্যসূচক নির্ণয় বিবেচনা করছেন?",
+                "hi": "आप किन विभेदक निदानों पर विचार कर रहे हैं?",
+                "ur": "آپ کن امتیازی تشخیصوں پر غور کر رہے ہیں؟",
+                "tr": "Hangi ayırıcı tanıları düşünüyorsunuz?"
+            },
+            "id": "v46_25"
+        },
+        {
+            "germanTerm": "der Leitlinien entsprechend",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈlaɪ̯tliːni̯ən ɛntˈʃpʁɛçənt/",
+            "category": "phrase",
+            "translation": {
+                "en": "according to the guidelines",
+                "bn": "নির্দেশিকা অনুসারে",
+                "hi": "दिशानिर्देशों के अनुसार",
+                "ur": "رہنما خطوط کے مطابق",
+                "tr": "kılavuzlara göre"
+            },
+            "exampleSentence": "Die Therapie erfolgt leitlinien entsprechend.",
+            "exampleTranslation": {
+                "en": "The therapy is carried out according to the guidelines.",
+                "bn": "থেরাপি নির্দেশিকা অনুসারে পরিচালিত হয়।",
+                "hi": "चिकित्सा दिशानिर्देशों के अनुसार की जाती है।",
+                "ur": "تھراپی رہنما خطوط کے مطابق کی جاتی ہے۔",
+                "tr": "Tedavi kılavuzlara göre yapılmaktadır."
+            },
+            "id": "v46_26"
+        },
+        {
+            "germanTerm": "die Indikation",
+            "article": "die",
+            "plural": "die Indikationen",
+            "pronunciation": "/ˌɪndikaˈtsi̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "indication",
+                "bn": "ইঙ্গিত",
+                "hi": "संकेत",
+                "ur": "اشارہ",
+                "tr": "endikasyon"
+            },
+            "exampleSentence": "Gibt es eine klare Indikation für die Operation?",
+            "exampleTranslation": {
+                "en": "Is there a clear indication for the operation?",
+                "bn": "অপারেশনের জন্য কি একটি স্পষ্ট ইঙ্গিত আছে?",
+                "hi": "क्या ऑपरेशन के लिए एक स्पष्ट संकेत है?",
+                "ur": "کیا آپریشن کے لیے کوئی واضح اشارہ ہے؟",
+                "tr": "Ameliyat için net bir endikasyon var mı?"
+            },
+            "id": "v46_27"
+        },
+        {
+            "germanTerm": "die Kontraindikation",
+            "article": "die",
+            "plural": "die Kontraindikationen",
+            "pronunciation": "/ˌkɔntʁaʔɪndikaˈtsi̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "contraindication",
+                "bn": "বিপরীত নির্দেশনা",
+                "hi": "विपरीत संकेत",
+                "ur": "ممانعت",
+                "tr": "kontrendikasyon"
+            },
+            "exampleSentence": "Es gibt keine Kontraindikationen für das Medikament.",
+            "exampleTranslation": {
+                "en": "There are no contraindications for the medication.",
+                "bn": "ঔষধের জন্য কোনও বিপরীত নির্দেশনা নেই।",
+                "hi": "दवा के लिए कोई विपरीत संकेत नहीं हैं।",
+                "ur": "دوا کے لیے کوئی ممانعت نہیں ہے۔",
+                "tr": "İlaç için herhangi bir kontrendikasyon bulunmamaktadır."
+            },
+            "id": "v46_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Consultation Request: Cardiology",
+                "bn": "পরামর্শের অনুরোধ: কার্ডিওলজি",
+                "hi": "परामर्श अनुरोध: कार्डियोलॉजी",
+                "ur": "مشاورت کی درخواست: کارڈیالوجی",
+                "tr": "Konsültasyon İsteği: Kardiyoloji"
+            },
+            "context": {
+                "en": "Dr. Lehmann, an internal medicine resident, requests a cardiology consultation for a patient with chest pain and suspected myocardial infarction.",
+                "bn": "ডাঃ লেহম্যান, একজন অভ্যন্তরীণ মেডিসিনের আবাসিক, বুকের ব্যথা এবং সন্দেহজনক মায়োকার্ডিয়াল ইনফার্কশনের রোগীর জন্য কার্ডিওলজি পরামর্শের অনুরোধ করেছেন।",
+                "hi": "डॉ. लेहमन, एक आंतरिक चिकित्सा निवासी, छाती में दर्द और संदिग्ध मायोकार्डियल इंफार्क्शन वाले रोगी के लिए कार्डियोलॉजी परामर्श का अनुरोध करते हैं।",
+                "ur": "ڈاکٹر لیمن، ایک داخلی طب کے ریزیڈنٹ، سینے میں درد اور مشتبہ مایوکارڈیل انفارکشن کے مریض کے لیے کارڈیالوجی سے مشورہ کرنے کی درخواست کرتے ہیں۔",
+                "tr": "İç hastalıkları asistanı Dr. Lehmann, göğüs ağrısı ve miyokard enfarktüsünden şüphelenilen bir hasta için kardiyoloji konsültasyonu talep ediyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Morgen, Herr Professor Meier. Ich habe hier einen Patienten mit Verdacht auf einen Myokardinfarkt. Könnten Sie sich den Fall bitte mal ansehen?",
+                    "translation": {
+                        "en": "Good morning, Professor Meier. I have a patient here with suspected myocardial infarction. Could you please take a look at the case?",
+                        "bn": "শুভ সকাল, অধ্যাপক মিয়ের। আমার এখানে মায়োকার্ডিয়াল ইনফার্কশনের সন্দেহে একজন রোগী আছে। আপনি কি দয়া করে কেসটি দেখতে পারেন?",
+                        "hi": "शुभ प्रभात, प्रोफेसर मेयर। मेरे पास यहां मायोकार्डियल इंफार्क्शन के संदेह वाला एक मरीज है। क्या आप कृपया मामले को देख सकते हैं?",
+                        "ur": "صبح بخیر، پروفیسر مائر۔ میرے پاس یہاں مایوکارڈیل انفارکشن کے شبہے میں ایک مریض ہے۔ کیا آپ براہ کرم اس کیس کو دیکھ سکتے ہیں؟",
+                        "tr": "Günaydın Profesör Meier. Burada miyokard enfarktüsünden şüphelenilen bir hastam var. Lütfen davaya bir göz atabilir misiniz?"
+                    }
+                },
+                {
+                    "speaker": "Professor Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Morgen, Herr Lehmann. Welche Symptome hat der Patient und was zeigen das EKG und die Troponinwerte?",
+                    "translation": {
+                        "en": "Good morning, Mr. Lehmann. What symptoms does the patient have and what do the EKG and troponin levels show?",
+                        "bn": "শুভ সকাল, মিঃ লেহম্যান। রোগীর কী কী লক্ষণ রয়েছে এবং ইসিজি এবং ট্রোপোনিনের মাত্রা কী দেখায়?",
+                        "hi": "शुभ प्रभात, श्री लेहमन। रोगी में क्या लक्षण हैं और ईसीजी और ट्रोपोनिन स्तर क्या दिखाते हैं?",
+                        "ur": "صبح بخیر، مسٹر لیمن۔ مریض میں کیا علامات ہیں اور ای سی جی اور ٹراپونن کی سطح کیا دکھاتی ہے؟",
+                        "tr": "Günaydın Bay Lehmann. Hastanın hangi semptomları var ve EKG ve troponin seviyeleri ne gösteriyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Brustschmerzen seit drei Stunden, ST-Hebungen im EKG, und das Troponin ist deutlich erhöht.",
+                    "translation": {
+                        "en": "Chest pain for three hours, ST elevations on the EKG, and the troponin is significantly elevated.",
+                        "bn": "তিন ঘন্টা ধরে বুকে ব্যথা, ইসিজিতে এসটি এলিভেশন এবং ট্রপোনিন উল্লেখযোগ্যভাবে বেড়েছে।",
+                        "hi": "तीन घंटे से सीने में दर्द, ईसीजी पर एसटी एलिवेशन और ट्रोपोनिन काफी बढ़ गया है।",
+                        "ur": "تین گھنٹے سے سینے میں درد، ای سی جی پر ایس ٹی بلندی اور ٹراپونن نمایاں طور پر بڑھ گیا ہے۔",
+                        "tr": "Üç saattir göğüs ağrısı, EKG'de ST yükselmeleri ve troponin önemli ölçüde yükselmiş."
+                    }
+                },
+                {
+                    "speaker": "Professor Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Okay, dann sollten wir den Patienten sofort ins Herzkatheterlabor bringen. Bereiten Sie alles vor.",
+                    "translation": {
+                        "en": "Okay, then we should take the patient to the cardiac catheterization lab immediately. Prepare everything.",
+                        "bn": "ঠিক আছে, তাহলে আমাদের অবিলম্বে রোগীকে কার্ডিয়াক ক্যাথেটারাইজেশন ল্যাবে নিয়ে যাওয়া উচিত। সবকিছু প্রস্তুত করুন।",
+                        "hi": "ठीक है, तो हमें मरीज को तुरंत कार्डियक कैथीटेराइजेशन लैब में ले जाना चाहिए। सब कुछ तैयार करो।",
+                        "ur": "ٹھیک ہے، تو ہمیں مریض کو فوری طور پر کارڈیک کیتھیٹرائزیشن لیب میں لے جانا چاہیے۔ سب کچھ تیار کریں۔",
+                        "tr": "Tamam, o zaman hastayı hemen kardiyak kateterizasyon laboratuvarına götürmeliyiz. Her şeyi hazırlayın."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wird gemacht, Herr Professor!",
+                    "translation": {
+                        "en": "Will do, Professor!",
+                        "bn": "হবে, অধ্যাপক!",
+                        "hi": "कर देंगे, प्रोफेसर!",
+                        "ur": "ٹھیک ہے، پروفیسر!",
+                        "tr": "Yapılacak, Profesör!"
+                    }
+                }
+            ],
+            "id": "d46_01"
+        },
+        {
+            "title": {
+                "en": "Patient Handoff: Surgical Ward",
+                "bn": "রোগীর হস্তান্তর: সার্জিক্যাল ওয়ার্ড",
+                "hi": "रोगी हैंडऑफ: सर्जिकल वार्ड",
+                "ur": "مریض ہینڈ آف: سرجیکل وارڈ",
+                "tr": "Hasta Devri: Cerrahi Servisi"
+            },
+            "context": {
+                "en": "Dr. Schneider, a surgeon, hands off a patient recovering from appendectomy to Dr. Weber, who is taking over the night shift.",
+                "bn": "সার্জন ডাঃ স্নাইডার, অ্যাপেন্ডেক্টমি থেকে পুনরুদ্ধার করা একজন রোগীকে ডাঃ ওয়েবারের হাতে তুলে দেন, যিনি রাতের শিফটের দায়িত্ব নিচ্ছেন।",
+                "hi": "सर्जन डॉ. श्नाइडर, अपेंडिक्टमी से ठीक हो रहे एक मरीज को डॉ. वेबर को सौंपते हैं, जो रात की पाली ले रहे हैं।",
+                "ur": "سرجن ڈاکٹر شنائیڈر، اپینڈیکٹومی سے صحت یاب ہونے والے مریض کو ڈاکٹر ویبر کے حوالے کر دیتے ہیں، جو رات کی شفٹ لے رہے ہیں۔",
+                "tr": "Cerrah Dr. Schneider, apendektomi sonrası iyileşen bir hastayı gece vardiyasını devralan Dr. Weber'e devrediyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schneider",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "So, Herr Weber, hier ist Herr Müller, postoperativ nach Appendektomie. Die OP verlief komplikationslos.",
+                    "translation": {
+                        "en": "So, Mr. Weber, here is Mr. Müller, postoperative after appendectomy. The surgery was uneventful.",
+                        "bn": "সুতরাং, মিঃ ওয়েবার, এখানে মিঃ মুলার, অ্যাপেন্ডেক্টমির পরে পোস্টোপারেটিভ। সার্জারিটি নির্বিঘ্নে হয়েছে।",
+                        "hi": "तो, श्री वेबर, यहाँ श्री मुलर हैं, अपेंडिक्टमी के बाद पोस्टऑपरेटिव। सर्जरी बिना किसी घटना के हो गई।",
+                        "ur": "تو، مسٹر ویبر، یہاں مسٹر مولر ہیں، اپینڈیکٹومی کے بعد پوسٹ آپریٹو۔ سرجری بے قصور گزری۔",
+                        "tr": "Peki, Bay Weber, işte Bay Müller, apendektomi sonrası postoperatif. Ameliyat sorunsuz geçti."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Okay, danke. Hat er Schmerzen? Was bekommt er dagegen?",
+                    "translation": {
+                        "en": "Okay, thank you. Is he in pain? What is he getting for it?",
+                        "bn": "ঠিক আছে, ধন্যবাদ। তার কি ব্যথা আছে? এর জন্য সে কী পাচ্ছে?",
+                        "hi": "ठीक है, धन्यवाद। क्या उसे दर्द हो रहा है? इसके लिए उसे क्या मिल रहा है?",
+                        "ur": "ٹھیک ہے شکریہ کیا اسے درد ہو رہا ہے؟ اسے اس کے لیے کیا مل رہا ہے؟",
+                        "tr": "Tamam, teşekkürler. Ağrısı var mı? Ona ne veriliyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schneider",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Er hat leichte Schmerzen, bekommt Novalgin bei Bedarf. Die Drainage ist unauffällig.",
+                    "translation": {
+                        "en": "He has mild pain, gets Novalgin as needed. The drain is unremarkable.",
+                        "bn": "তার হালকা ব্যথা আছে, প্রয়োজনে নোভালগিন পায়। ড্রেনটি অসাধারণ।",
+                        "hi": "उसे हल्का दर्द है, जरूरत पड़ने पर नोवालगिन मिलता है। नाली सामान्य है।",
+                        "ur": "اسے ہلکا درد ہے، ضرورت پڑنے پر نووالگین ملتا ہے۔ ڈرین غیر معمولی ہے۔",
+                        "tr": "Hafif ağrısı var, gerektiğinde Novalgin alıyor. Drenaj olağan dışı değil."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Gut. Gibt es sonst noch etwas zu beachten?",
+                    "translation": {
+                        "en": "Good. Is there anything else to consider?",
+                        "bn": "ভালো। বিবেচনা করার মতো অন্য কিছু আছে?",
+                        "hi": "अच्छा। विचार करने के लिए और कुछ है?",
+                        "ur": "اچھا۔ کیا غور کرنے کے لیے کچھ اور ہے؟",
+                        "tr": "Güzel. Dikkate alınması gereken başka bir şey var mı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schneider",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Nein, soweit alles stabil. Achten Sie auf Fieber oder starke Schmerzen.",
+                    "translation": {
+                        "en": "No, everything is stable so far. Watch out for fever or severe pain.",
+                        "bn": "না, এখন পর্যন্ত সবকিছু স্থিতিশীল। জ্বর বা তীব্র ব্যথার দিকে নজর রাখুন।",
+                        "hi": "नहीं, अब तक सब कुछ स्थिर है। बुखार या तेज दर्द पर ध्यान दें।",
+                        "ur": "نہیں، اب تک سب کچھ مستحکم ہے۔ بخار یا شدید درد پر نظر رکھیں۔",
+                        "tr": "Hayır, şu ana kadar her şey stabil. Ateşe veya şiddetli ağrıya dikkat edin."
+                    }
+                }
+            ],
+            "id": "d46_02"
+        },
+        {
+            "title": {
+                "en": "Case Discussion: Oncology",
+                "bn": "কেস আলোচনা: অনকোলজি",
+                "hi": "केस चर्चा: ऑन्कोलॉजी",
+                "ur": "کیس بحث: آنکولوجی",
+                "tr": "Vaka Tartışması: Onkoloji"
+            },
+            "context": {
+                "en": "A group of doctors in the oncology department discusses the treatment plan for a patient with metastatic lung cancer.",
+                "bn": "অনকোলজি বিভাগের একদল ডাক্তার মেটাস্ট্যাটিক ফুসফুসের ক্যান্সারে আক্রান্ত রোগীর চিকিৎসার পরিকল্পনা নিয়ে আলোচনা করছেন।",
+                "hi": "ऑन्कोलॉजी विभाग में डॉक्टरों का एक समूह मेटास्टैटिक फेफड़ों के कैंसर वाले रोगी के लिए उपचार योजना पर चर्चा करता है।",
+                "ur": "آنکولوجی ڈیپارٹمنٹ میں ڈاکٹروں کا ایک گروپ میٹاسٹیٹک پھیپھڑوں کے کینسر میں مبتلا مریض کے لیے علاج کے منصوبے پر تبادلہ خیال کر رہا ہے۔",
+                "tr": "Onkoloji bölümündeki bir grup doktor, metastatik akciğer kanseri olan bir hasta için tedavi planını tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Tag, Kollegen. Wir besprechen heute den Fall von Frau Schmidt mit metastasiertem Lungenkrebs.",
+                    "translation": {
+                        "en": "Good day, colleagues. Today we are discussing the case of Mrs. Schmidt with metastatic lung cancer.",
+                        "bn": "শুভ দিন, সহকর্মীবৃন্দ। আজ আমরা মেটাস্ট্যাটিক ফুসফুসের ক্যান্সারে আক্রান্ত মিসেস শ্মিটের কেস নিয়ে আলোচনা করছি।",
+                        "hi": "शुभ दिन, सहयोगियों। आज हम मेटास्टैटिक फेफड़ों के कैंसर वाली श्रीमती श्मिट के मामले पर चर्चा कर रहे हैं।",
+                        "ur": "شب بخیر ساتھیو آج ہم میٹاسٹیٹک پھیپھڑوں کے کینسر میں مبتلا محترمہ شمٹ کے کیس پر تبادلہ خیال کر رہے ہیں۔",
+                        "tr": "İyi günler meslektaşlarım. Bugün metastatik akciğer kanseri olan Bayan Schmidt'in vakasını tartışıyoruz."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Die Bildgebung zeigt multiple Metastasen in Leber und Knochen.",
+                    "translation": {
+                        "en": "The imaging shows multiple metastases in the liver and bones.",
+                        "bn": "ইমেজিং লিভার এবং হাড়ে একাধিক মেটাস্টেসিস দেখায়।",
+                        "hi": "इमेजिंग से लीवर और हड्डियों में कई मेटास्टेसिस दिखाई देते हैं।",
+                        "ur": "امیجنگ جگر اور ہڈیوں میں متعدد میٹاسٹیسس دکھاتی ہے۔",
+                        "tr": "Görüntüleme, karaciğer ve kemiklerde çoklu metastazlar gösteriyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Was schlagen Sie als Therapie vor?",
+                    "translation": {
+                        "en": "What do you suggest as therapy?",
+                        "bn": "আপনি থেরাপি হিসাবে কী প্রস্তাব করেন?",
+                        "hi": "आप थेरेपी के रूप में क्या सुझाव देते हैं?",
+                        "ur": "آپ تھراپی کے طور پر کیا تجویز کرتے ہیں؟",
+                        "tr": "Terapi olarak ne önerirsiniz?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Braun",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ich würde eine Chemotherapie mit Carboplatin und Paclitaxel empfehlen.",
+                    "translation": {
+                        "en": "I would recommend chemotherapy with carboplatin and paclitaxel.",
+                        "bn": "আমি কার্বোপ্লাটিন এবং প্যাক্লিট্যাক্সেল দিয়ে কেমোথেরাপির সুপারিশ করব।",
+                        "hi": "मैं कार्बोप्लाटिन और पैक्लिटैक्सेल के साथ कीमोथेरेपी की सिफारिश करूंगा।",
+                        "ur": "میں کاربوپلاٹین اور پیکلیٹیکسل کے ساتھ کیموتھراپی کی سفارش کروں گا۔",
+                        "tr": "Karboplatin ve paklitaksel ile kemoterapi öneririm."
+                    }
+                },
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Einverstanden. Wir sollten auch eine palliative Behandlung in Betracht ziehen, um die Lebensqualität zu verbessern.",
+                    "translation": {
+                        "en": "Agreed. We should also consider palliative care to improve the quality of life.",
+                        "bn": "সম্মত। জীবনযাত্রার মান উন্নত করার জন্য আমাদের উপশমকারী যত্নের কথাও বিবেচনা করা উচিত।",
+                        "hi": "सहमत। हमें जीवन की गुणवत्ता में सुधार के लिए उपशामक देखभाल पर भी विचार करना चाहिए।",
+                        "ur": "متفق. ہمیں زندگی کے معیار کو بہتر بنانے کے لیے تسکین بخش نگہداشت پر بھی غور کرنا چاہیے۔",
+                        "tr": "Katılıyorum. Yaşam kalitesini iyileştirmek için palyatif bakımı da düşünmeliyiz."
+                    }
+                }
+            ],
+            "id": "d46_03"
+        },
+        {
+            "title": {
+                "en": "Recommendation for Further Treatment: Neurology",
+                "bn": "আরও চিকিৎসার জন্য সুপারিশ: নিউরোলজি",
+                "hi": "आगे के इलाज के लिए सिफारिश: न्यूरोलॉजी",
+                "ur": "مزید علاج کے لیے سفارش: نیورولوجی",
+                "tr": "Daha Fazla Tedavi İçin Tavsiye: Nöroloji"
+            },
+            "context": {
+                "en": "Dr. Fischer, a neurologist, discusses further treatment options for a patient with multiple sclerosis with Dr. Keller, the referring physician.",
+                "bn": "স্নায়ু বিশেষজ্ঞ ডাঃ ফিশার, একাধিক স্ক্লেরোসিসে আক্রান্ত রোগীর আরও চিকিৎসার বিকল্প নিয়ে আলোচনা করছেন ডাঃ কেলারের সাথে, যিনি রেফারকারী চিকিৎসক।",
+                "hi": "न्यूरोलॉजिस्ट डॉ. फिशर, मल्टीपल स्केलेरोसिस वाले एक मरीज के लिए आगे के उपचार विकल्पों पर डॉ. केलर के साथ चर्चा करते हैं, जो रेफर करने वाले चिकित्सक हैं।",
+                "ur": "نیورولوجسٹ ڈاکٹر فشر، ایک سے زیادہ سکلیروسیس کے مریض کے لیے مزید علاج کے اختیارات پر ڈاکٹر کیلر کے ساتھ بات کر رہے ہیں، جو حوالہ دینے والے معالج ہیں۔",
+                "tr": "Nörolog Dr. Fischer, multipl sklerozlu bir hasta için daha fazla tedavi seçeneklerini, sevk eden doktor olan Dr. Keller ile tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Fischer",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Tag, Herr Keller. Frau Weber hat multiple Sklerose. Wie geht es ihr aktuell?",
+                    "translation": {
+                        "en": "Good day, Mr. Keller. Mrs. Weber has multiple sclerosis. How is she doing currently?",
+                        "bn": "শুভ দিন, মিঃ কেলার। মিসেস ওয়েবারের মাল্টিপল স্ক্লেরোসিস আছে। বর্তমানে সে কেমন আছে?",
+                        "hi": "शुभ दिन, श्री केलर। श्रीमती वेबर को मल्टीपल स्केलेरोसिस है। वह फिलहाल कैसी हैं?",
+                        "ur": "شب بخیر، مسٹر کیلر۔ محترمہ ویبر کو ایک سے زیادہ سکلیروسیس ہے۔ وہ اس وقت کیسی ہیں؟",
+                        "tr": "İyi günler Bay Keller. Bayan Weber'in multipl sklerozu var. Şu anda nasıl?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Keller",
+                    "speakerRole": "Hausarzt",
+                    "germanText": "Sie klagt über zunehmende Fatigue und Koordinationsstörungen.",
+                    "translation": {
+                        "en": "She complains of increasing fatigue and coordination problems.",
+                        "bn": "তিনি ক্রমবর্ধমান ক্লান্তি এবং সমন্বয় সমস্যা সম্পর্কে অভিযোগ করেন।",
+                        "hi": "वह बढ़ती थकान और समन्वय समस्याओं की शिकायत करती है।",
+                        "ur": "وہ بڑھتی ہوئی تھکاوٹ اور رابطہ کاری کے مسائل کی شکایت کرتی ہے۔",
+                        "tr": "Artan yorgunluk ve koordinasyon sorunlarından şikayet ediyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Fischer",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ich würde eine Eskalation der immunmodulatorischen Therapie empfehlen. Was halten Sie von Natalizumab?",
+                    "translation": {
+                        "en": "I would recommend escalating the immunomodulatory therapy. What do you think of Natalizumab?",
+                        "bn": "আমি ইমিউনোমোডুলেটরি থেরাপি বাড়ানোর সুপারিশ করব। আপনি নাটালিজুমাব সম্পর্কে কী মনে করেন?",
+                        "hi": "मैं इम्युनोमोड्यूलेटरी थेरेपी को बढ़ाने की सलाह दूंगा। आप नेटालिज़ुमाब के बारे में क्या सोचते हैं?",
+                        "ur": "میں مدافعتی ماڈیولٹری تھراپی کو بڑھانے کی سفارش کروں گا۔ آپ Natalizumab کے بارے میں کیا سوچتے ہیں؟",
+                        "tr": "İmmünomodülatör tedaviyi artırmanızı öneririm. Natalizumab hakkında ne düşünüyorsunuz?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Keller",
+                    "speakerRole": "Hausarzt",
+                    "germanText": "Das klingt vernünftig. Wir müssen aber das PML-Risiko berücksichtigen.",
+                    "translation": {
+                        "en": "That sounds reasonable. But we have to consider the PML risk.",
+                        "bn": "এটা যুক্তিসঙ্গত শোনাচ্ছে। তবে আমাদের পিএমএল ঝুঁকি বিবেচনা করতে হবে।",
+                        "hi": "यह उचित लगता है। लेकिन हमें पीएमएल जोखिम पर विचार करना होगा।",
+                        "ur": "یہ معقول لگتا ہے۔ لیکن ہمیں PML خطرے پر غور کرنا ہوگا۔",
+                        "tr": "Mantıklı geliyor. Ancak PML riskini göz önünde bulundurmalıyız."
+                    }
+                },
+                {
+                    "speaker": "Dr. Fischer",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Selbstverständlich. Regelmäßige Kontrollen sind essentiell. Ich werde das mit Frau Weber besprechen.",
+                    "translation": {
+                        "en": "Of course. Regular check-ups are essential. I will discuss this with Mrs. Weber.",
+                        "bn": "অবশ্যই। নিয়মিত পরীক্ষা অপরিহার্য। আমি মিসেস ওয়েবারের সাথে এটি নিয়ে আলোচনা করব।",
+                        "hi": "बेशक। नियमित जांच आवश्यक है। मैं इस पर श्रीमती वेबर के साथ चर्चा करूंगा।",
+                        "ur": "بالکل۔ باقاعدگی سے چیک اپ ضروری ہے۔ میں اس پر محترمہ ویبر سے بات کروں گا۔",
+                        "tr": "Elbette. Düzenli kontroller şart. Bunu Bayan Weber ile görüşeceğim."
+                    }
+                }
+            ],
+            "id": "d46_04"
+        },
+        {
+            "title": {
+                "en": "Interdisciplinary Consultation: Internal Medicine & Nephrology",
+                "bn": "আন্তঃবিভাগীয় পরামর্শ: অভ্যন্তরীণ মেডিসিন এবং নেফ্রোলজি",
+                "hi": "अंतरविषयक परामर्श: आंतरिक चिकित्सा और नेफ्रोलॉजी",
+                "ur": "بین الضابطہ مشاورت: داخلی طب اور نیفرولوجی",
+                "tr": "Disiplinlerarası Konsültasyon: İç Hastalıkları ve Nefroloji"
+            },
+            "context": {
+                "en": "Dr. Richter from Internal Medicine seeks a consultation from Dr. Sommer, a nephrologist, regarding a patient with acute kidney injury.",
+                "bn": "অভ্যন্তরীণ মেডিসিন থেকে ডাঃ রিখটার, তীব্র কিডনি আঘাতের শিকার একজন রোগীর বিষয়ে নেফ্রোলজিস্ট ডাঃ সোমারের কাছ থেকে পরামর্শ চাইছেন।",
+                "hi": "आंतरिक चिकित्सा से डॉ. रिक्टर, तीव्र गुर्दे की चोट वाले एक मरीज के संबंध में नेफ्रोलॉजिस्ट डॉ. सोमर से परामर्श चाहते हैं।",
+                "ur": "اندرونی طب سے ڈاکٹر ریکٹر، گردے کی شدید چوٹ کے مریض کے حوالے سے نیفرولوجسٹ ڈاکٹر سومر سے مشورہ چاہتے ہیں۔",
+                "tr": "İç Hastalıklarından Dr. Richter, akut böbrek hasarı olan bir hasta hakkında nefroloji uzmanı Dr. Sommer'den konsültasyon talep ediyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Richter",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Frau Sommer, guten Tag. Wir haben hier eine Patientin mit akutem Nierenversagen. Kreatinin steigt rapide an.",
+                    "translation": {
+                        "en": "Mrs. Sommer, good day. We have a patient here with acute kidney injury. Creatinine is rising rapidly.",
+                        "bn": "মিসেস সোমার, শুভ দিন। আমাদের এখানে তীব্র কিডনি আঘাতের শিকার একজন রোগী আছে। ক্রিয়েটিনিন দ্রুত বাড়ছে।",
+                        "hi": "श्रीमती सोमर, शुभ दिन। हमारे पास यहाँ तीव्र गुर्दे की चोट वाली एक मरीज है। क्रिएटिनिन तेजी से बढ़ रहा है।",
+                        "ur": "محترمہ سومر، شب بخیر۔ ہمارے پاس یہاں گردے کی شدید چوٹ کا ایک مریض ہے۔ کریٹینائن تیزی سے بڑھ رہا ہے۔",
+                        "tr": "Bayan Sommer, iyi günler. Burada akut böbrek hasarı olan bir hastamız var. Kreatinin hızla yükseliyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Sommer",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Tag, Herr Richter. Wie ist die Anamnese? Gibt es Hinweise auf eine Prä- oder Postrenale Ursache?",
+                    "translation": {
+                        "en": "Good day, Mr. Richter. What is the patient history? Are there any indications of a pre- or post-renal cause?",
+                        "bn": "শুভ দিন, মিঃ রিখটার। রোগীর ইতিহাস কী? প্রি- বা পোস্ট-রেনাল কারণের কোনো ইঙ্গিত আছে কি?",
+                        "hi": "शुभ दिन, श्री रिक्टर। रोगी का इतिहास क्या है? क्या प्री- या पोस्ट-रीनल कारण के कोई संकेत हैं?",
+                        "ur": "شب بخیر، مسٹر ریکٹر۔ مریض کی تاریخ کیا ہے؟ کیا پہلے یا بعد از گردے کی وجہ کے کوئی اشارے ہیں؟",
+                        "tr": "İyi günler Bay Richter. Hasta öyküsü nedir? Böbrek öncesi veya sonrası bir nedene dair belirti var mı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Richter",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Die Patientin hatte vor kurzem eine Antibiotikatherapie wegen einer Pneumonie. Volumenmangel scheint ausgeschlossen.",
+                    "translation": {
+                        "en": "The patient recently had antibiotic therapy for pneumonia. Volume depletion seems unlikely.",
+                        "bn": "শ্বাসকষ্টের কারণে রোগীর সম্প্রতি অ্যান্টিবায়োটিক থেরাপি হয়েছে। ভলিউম হ্রাস অসম্ভব মনে হয়।",
+                        "hi": "रोगी को हाल ही में निमोनिया के लिए एंटीबायोटिक थेरेपी हुई थी। मात्रा में कमी असंभव लगती है।",
+                        "ur": "مریض کو حال ہی میں نمونیا کے لیے اینٹی بائیوٹک تھراپی ہوئی تھی۔ حجم میں کمی کا امکان نہیں لگتا ہے۔",
+                        "tr": "Hasta yakın zamanda zatürre nedeniyle antibiyotik tedavisi gördü. Hacim eksikliği pek olası görünmüyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Sommer",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Dann sollten wir eine Nierenbiopsie in Erwägung ziehen, um die Ursache abzuklären. Bereiten Sie das bitte vor.",
+                    "translation": {
+                        "en": "Then we should consider a kidney biopsy to clarify the cause. Please prepare that.",
+                        "bn": "তাহলে কারণ স্পষ্ট করার জন্য আমাদের কিডনি বায়োপসি বিবেচনা করা উচিত। দয়া করে এটি প্রস্তুত করুন।",
+                        "hi": "फिर हमें कारण स्पष्ट करने के लिए गुर्दे की बायोप्सी पर विचार करना चाहिए। कृपया इसे तैयार करें।",
+                        "ur": "تو پھر ہمیں وجہ واضح کرنے کے لیے گردے کی بایپسی پر غور کرنا چاہیے۔ براہ کرم اسے تیار کریں۔",
+                        "tr": "O zaman nedeni açıklığa kavuşturmak için böbrek biyopsisi düşünmeliyiz. Lütfen bunu hazırlayın."
+                    }
+                },
+                {
+                    "speaker": "Dr. Richter",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wird gemacht. Vielen Dank für Ihre Einschätzung.",
+                    "translation": {
+                        "en": "Will do. Thank you very much for your assessment.",
+                        "bn": "হবে। আপনার মূল্যায়নের জন্য আপনাকে অনেক ধন্যবাদ।",
+                        "hi": "हो जाएगा। आपके मूल्यांकन के लिए बहुत-बहुत धन्यवाद।",
+                        "ur": "کیا جائے گا۔ آپ کے جائزے کے لیے بہت بہت شکریہ۔",
+                        "tr": "Yapılacak. Değerlendirmeniz için çok teşekkür ederim."
+                    }
+                }
+            ],
+            "id": "d46_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das primäre Ziel eines Arzt-Arzt-Gesprächs?",
+                "en": "What is the primary goal of a doctor-to-doctor consultation?",
+                "bn": "একজন ডাক্তার-থেকে-ডাক্তার পরামর্শের প্রাথমিক লক্ষ্য কী?",
+                "hi": "डॉक्टर-से-डॉक्टर परामर्श का प्राथमिक लक्ष्य क्या है?",
+                "ur": "ڈاکٹر سے ڈاکٹر مشاورت کا بنیادی مقصد کیا ہے؟",
+                "tr": "Bir doktor-doktor konsültasyonunun temel amacı nedir?"
+            },
+            "options": [
+                "Die Weitergabe von Patienteninformationen zur Optimierung der Behandlung.",
+                "Die Erstellung einer Abrechnung für die erbrachten Leistungen.",
+                "Die Bestellung von benötigten Medikamenten für die Station.",
+                "Die Organisation des Dienstplans für das Pflegepersonal."
+            ],
+            "correctAnswer": "Die Weitergabe von Patienteninformationen zur Optimierung der Behandlung.",
+            "explanation": {
+                "en": "The primary goal is to share patient information to optimize treatment.",
+                "bn": "প্রাথমিক লক্ষ্য হল চিকিৎসার উন্নতিসাধনের জন্য রোগীর তথ্য আদানপ্রদান করা।",
+                "hi": "प्राथमिक लक्ष्य उपचार को अनुकूलित करने के लिए रोगी जानकारी साझा करना है।",
+                "ur": "بنیادی مقصد علاج کو بہتر بنانے کے لیے مریض کی معلومات کا اشتراک کرنا ہے۔",
+                "tr": "Temel amaç, tedaviyi optimize etmek için hasta bilgilerini paylaşmaktır."
+            },
+            "points": 10,
+            "id": "e46_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Information ist bei einer Patientenübergabe besonders wichtig?",
+                "en": "What information is particularly important during a patient handover?",
+                "bn": "রোগীর হস্তান্তর করার সময় কোন তথ্য বিশেষভাবে গুরুত্বপূর্ণ?",
+                "hi": "रोगी को सौंपते समय कौन सी जानकारी विशेष रूप से महत्वपूर्ण है?",
+                "ur": "مریض کی منتقلی کے دوران کون سی معلومات خاص طور پر اہم ہے؟",
+                "tr": "Hasta devri sırasında hangi bilgiler özellikle önemlidir?"
+            },
+            "options": [
+                "Die Lieblingsfarbe des Patienten.",
+                "Aktuelle Medikation, Allergien und wichtige Vorerkrankungen.",
+                "Das Fernsehprogramm, das der Patient bevorzugt.",
+                "Die Namen der Familienangehörigen des Patienten."
+            ],
+            "correctAnswer": "Aktuelle Medikation, Allergien und wichtige Vorerkrankungen.",
+            "explanation": {
+                "en": "Current medication, allergies, and significant pre-existing conditions are crucial for patient safety.",
+                "bn": "রোগীর নিরাপত্তার জন্য বর্তমান ওষুধ, অ্যালার্জি এবং গুরুত্বপূর্ণ পূর্ববর্তী অসুস্থতাগুলি অত্যন্ত গুরুত্বপূর্ণ।",
+                "hi": "रोगी सुरक्षा के लिए वर्तमान दवा, एलर्जी और महत्वपूर्ण पूर्व-मौजूदा स्थितियां महत्वपूर्ण हैं।",
+                "ur": "مریض کی حفاظت کے لیے موجودہ دوائیں، الرجی اور اہم پہلے سے موجود حالات بہت اہم ہیں۔",
+                "tr": "Hasta güvenliği için mevcut ilaçlar, alerjiler ve önemli önceden var olan durumlar çok önemlidir."
+            },
+            "points": 10,
+            "id": "e46_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was versteht man unter einer 'Fallbesprechung'?",
+                "en": "What is meant by a 'case discussion'?",
+                "bn": "'কেস আলোচনা' বলতে কী বোঝায়?",
+                "hi": "'केस चर्चा' से क्या तात्पर्य है?",
+                "ur": "'کیس ڈسکشن' سے کیا مراد ہے؟",
+                "tr": "'Vaka tartışması' ne anlama gelir?"
+            },
+            "options": [
+                "Eine interne Fortbildung zum Thema Abrechnung.",
+                "Eine Diskussion über einen spezifischen Patientenfall zur Optimierung der Diagnose und Therapie.",
+                "Eine Zusammenkunft zur Planung von Urlaubszeiten.",
+                "Ein Meeting zur Organisation des Stationsfestes."
+            ],
+            "correctAnswer": "Eine Diskussion über einen spezifischen Patientenfall zur Optimierung der Diagnose und Therapie.",
+            "explanation": {
+                "en": "A case discussion involves discussing a specific patient case to optimize diagnosis and therapy.",
+                "bn": "একটি কেস আলোচনায় রোগ নির্ণয় এবং থেরাপির উন্নতির জন্য একটি নির্দিষ্ট রোগীর কেস নিয়ে আলোচনা করা হয়।",
+                "hi": "एक केस चर्चा में निदान और थेरेपी को अनुकूलित करने के लिए एक विशिष्ट रोगी के मामले पर चर्चा करना शामिल है।",
+                "ur": "ایک کیس بحث میں تشخیص اور تھراپی کو بہتر بنانے کے لیے ایک مخصوص مریض کے کیس پر تبادلہ خیال کرنا شامل ہے۔",
+                "tr": "Bir vaka tartışması, tanı ve tedaviyi optimize etmek için belirli bir hasta vakasını tartışmayı içerir."
+            },
+            "points": 10,
+            "id": "e46_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Rolle spielt der Konsiliararzt im Konsil?",
+                "en": "What role does the consulting physician play in a consultation?",
+                "bn": "পরামর্শে পরামর্শক চিকিৎসক কী ভূমিকা পালন করেন?",
+                "hi": "परामर्श में परामर्शक चिकित्सक क्या भूमिका निभाता है?",
+                "ur": "مشاورت میں مشاورتی معالج کیا کردار ادا کرتا ہے؟",
+                "tr": "Konsültasyonda danışman doktor ne rol oynar?"
+            },
+            "options": [
+                "Die endgültige Entscheidung über die Therapie treffen.",
+                "Sein Fachwissen zur Diagnose und Behandlung des Patienten beitragen.",
+                "Die administrative Leitung des Krankenhauses übernehmen.",
+                "Die Pflege des Patienten übernehmen."
+            ],
+            "correctAnswer": "Sein Fachwissen zur Diagnose und Behandlung des Patienten beitragen.",
+            "explanation": {
+                "en": "The consulting physician contributes their expertise to the diagnosis and treatment of the patient.",
+                "bn": "পরামর্শক চিকিৎসক রোগীর রোগ নির্ণয় এবং চিকিৎসার জন্য তার দক্ষতা প্রদান করেন।",
+                "hi": "परामर्शक चिकित्सक रोगी के निदान और उपचार के लिए अपनी विशेषज्ञता का योगदान करते हैं।",
+                "ur": "مشاورتی معالج مریض کی تشخیص اور علاج کے لیے اپنی مہارت کا حصہ ڈالتے ہیں۔",
+                "tr": "Danışman doktor, hastanın tanı ve tedavisine uzmanlığını katmaktadır."
+            },
+            "points": 10,
+            "id": "e46_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Ziel einer 'Empfehlung' im medizinischen Kontext?",
+                "en": "What is the purpose of a 'recommendation' in a medical context?",
+                "bn": "চিকিৎসা প্রেক্ষাপটে একটি 'সুপারিশের' উদ্দেশ্য কী?",
+                "hi": "चिकित्सा संदर्भ में 'सिफारिश' का उद्देश्य क्या है?",
+                "ur": "طبی تناظر میں 'سفارش' کا مقصد کیا ہے؟",
+                "tr": "Tıbbi bağlamda 'tavsiyenin' amacı nedir?"
+            },
+            "options": [
+                "Den Patienten zu entlassen.",
+                "Eine spezielle Behandlung oder Diagnostik vorzuschlagen.",
+                "Die Arbeitszeiten des Pflegepersonals zu bestimmen.",
+                "Den Patienten in ein anderes Krankenhaus zu verlegen."
+            ],
+            "correctAnswer": "Eine spezielle Behandlung oder Diagnostik vorzuschlagen.",
+            "explanation": {
+                "en": "A recommendation aims to suggest a specific treatment or diagnostic procedure.",
+                "bn": "একটি সুপারিশের লক্ষ্য হল একটি নির্দিষ্ট চিকিৎসা বা ডায়াগনস্টিক পদ্ধতি প্রস্তাব করা।",
+                "hi": "एक सिफारिश का उद्देश्य एक विशिष्ट उपचार या नैदानिक ​​प्रक्रिया का सुझाव देना है।",
+                "ur": "ایک سفارش کا مقصد ایک مخصوص علاج یا تشخیصی طریقہ کار تجویز کرنا ہے۔",
+                "tr": "Bir tavsiyenin amacı belirli bir tedavi veya teşhis prosedürü önermektir."
+            },
+            "points": 10,
+            "id": "e46_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was sollte bei einer Übergabe NICHT vergessen werden?",
+                "en": "What should NOT be forgotten during a handover?",
+                "bn": "হস্তান্তরের সময় কী ভুলে যাওয়া উচিত নয়?",
+                "hi": "हस्तांतरण के दौरान क्या नहीं भूलना चाहिए?",
+                "ur": "منتقلی کے دوران کیا نہیں بھولنا چاہئے؟",
+                "tr": "Devir sırasında ne unutulmamalıdır?"
+            },
+            "options": [
+                "Subjektive Eindrücke des behandelnden Arztes zur Persönlichkeit des Patienten.",
+                "Aktuelle Laborwerte und Veränderungen im Zustand des Patienten.",
+                "Die Meinung des Arztes über das Aussehen des Patienten.",
+                "Persönliche Anekdoten über den Patienten."
+            ],
+            "correctAnswer": "Aktuelle Laborwerte und Veränderungen im Zustand des Patienten.",
+            "explanation": {
+                "en": "Current lab results and changes in the patient's condition are essential and must be communicated.",
+                "bn": "বর্তমান ল্যাব ফলাফল এবং রোগীর অবস্থার পরিবর্তন অপরিহার্য এবং যোগাযোগ করা উচিত।",
+                "hi": "वर्तमान लैब परिणाम और रोगी की स्थिति में परिवर्तन आवश्यक हैं और संचार किया जाना चाहिए।",
+                "ur": "موجودہ لیب کے نتائج اور مریض کی حالت میں تبدیلی ضروری ہے اور اس سے آگاہ کیا جانا چاہئے۔",
+                "tr": "Mevcut laboratuvar sonuçları ve hastanın durumundaki değişiklikler önemlidir ve iletilmelidir."
+            },
+            "points": 10,
+            "id": "e46_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wer nimmt typischerweise an einer Fallbesprechung teil?",
+                "en": "Who typically participates in a case discussion?",
+                "bn": "সাধারণত কেস আলোচনায় কারা অংশ নেয়?",
+                "hi": "मामले की चर्चा में आमतौर पर कौन भाग लेता है?",
+                "ur": "عمومی طور پر کیس کی بحث میں کون حصہ لیتا ہے؟",
+                "tr": "Genellikle bir vaka tartışmasına kimler katılır?"
+            },
+            "options": [
+                "Nur der Chefarzt der Abteilung.",
+                "Ein interdisziplinäres Team aus Ärzten, Pflegepersonal und Therapeuten.",
+                "Ausschließlich die Reinigungskräfte der Station.",
+                "Nur die Verwaltung des Krankenhauses."
+            ],
+            "correctAnswer": "Ein interdisziplinäres Team aus Ärzten, Pflegepersonal und Therapeuten.",
+            "explanation": {
+                "en": "An interdisciplinary team of doctors, nurses, and therapists typically participates in case discussions.",
+                "bn": "ডাক্তার, নার্স এবং থেরাপিস্টদের একটি আন্তঃবিষয়ক দল সাধারণত কেস আলোচনায় অংশ নেয়।",
+                "hi": "डॉक्टरों, नर्सों और थेरेपिस्टों की एक अंतःविषय टीम आमतौर पर केस चर्चाओं में भाग लेती है।",
+                "ur": "ڈاکٹروں، نرسوں اور معالجین کی ایک بین الضابطہ ٹیم عام طور پر کیس کی بحثوں میں حصہ لیتی ہے۔",
+                "tr": "Doktorlar, hemşireler ve terapistlerden oluşan disiplinler arası bir ekip genellikle vaka tartışmalarına katılır."
+            },
+            "points": 10,
+            "id": "e46_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Format ist für eine strukturierte Übergabe am besten geeignet?",
+                "en": "Which format is best suited for a structured handover?",
+                "bn": "একটি কাঠামোবদ্ধ হস্তান্তরের জন্য কোন বিন্যাসটি সবচেয়ে উপযুক্ত?",
+                "hi": "संरचित हस्तांतरण के लिए कौन सा प्रारूप सबसे उपयुक्त है?",
+                "ur": "ساختی منتقلی کے لئے کون سا فارمیٹ بہترین ہے؟",
+                "tr": "Yapılandırılmış bir devir için hangi format en uygundur?"
+            },
+            "options": [
+                "Ein freies Gespräch ohne festgelegte Punkte.",
+                "Ein standardisiertes Protokoll mit klaren Kategorien.",
+                "Ein kurzer Anruf, um die wichtigsten Informationen zu übermitteln.",
+                "Eine E-Mail mit einer kurzen Zusammenfassung."
+            ],
+            "correctAnswer": "Ein standardisiertes Protokoll mit klaren Kategorien.",
+            "explanation": {
+                "en": "A standardized protocol with clear categories ensures that all essential information is conveyed in a structured manner.",
+                "bn": "স্পষ্ট বিভাগগুলির সাথে একটি মানসম্মত প্রোটোকল নিশ্চিত করে যে সমস্ত প্রয়োজনীয় তথ্য একটি কাঠামোবদ্ধ পদ্ধতিতে জানানো হয়েছে।",
+                "hi": "स्पष्ट श्रेणियों वाला एक मानकीकृत प्रोटोकॉल सुनिश्चित करता है कि सभी आवश्यक जानकारी एक संरचित तरीके से बताई गई है।",
+                "ur": "واضح زمرے کے ساتھ ایک معیاری پروٹوکول اس بات کو یقینی بناتا ہے کہ تمام ضروری معلومات کو ایک ساختی انداز میں پہنچایا گیا ہے۔",
+                "tr": "Açık kategorilere sahip standartlaştırılmış bir protokol, tüm temel bilgilerin yapılandırılmış bir şekilde iletilmesini sağlar."
+            },
+            "points": 10,
+            "id": "e46_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist NICHT die Aufgabe eines Konsiliararztes?",
+                "en": "What is NOT the task of a consulting physician?",
+                "bn": "একজন পরামর্শক চিকিৎসকের কাজ কী নয়?",
+                "hi": "परामर्श करने वाले चिकित्सक का कार्य क्या नहीं है?",
+                "ur": "مشاورت کرنے والے معالج کا کام کیا نہیں ہے؟",
+                "tr": "Bir danışman doktorun görevi nedir?"
+            },
+            "options": [
+                "Eine Diagnose stellen.",
+                "Die Medikation des Patienten anordnen, ohne Rücksprache mit dem behandelnden Arzt.",
+                "Eine Therapie empfehlen.",
+                "Seine Expertise einbringen."
+            ],
+            "correctAnswer": "Die Medikation des Patienten anordnen, ohne Rücksprache mit dem behandelnden Arzt.",
+            "explanation": {
+                "en": "The consulting physician should not prescribe medication without consulting the treating physician.",
+                "bn": "পরামর্শক চিকিৎসকের উচিত রোগীর চিকিৎসকের সাথে পরামর্শ না করে ওষুধ নির্ধারণ করা উচিত নয়।",
+                "hi": "परामर्श करने वाले चिकित्सक को रोगी के चिकित्सक से परामर्श किए बिना दवा नहीं लिखनी चाहिए।",
+                "ur": "پرامش کرنے والے معالج کو مریض کے معالج سے مشورہ کیے بغیر دوا نہیں لکھنی چاہیے۔",
+                "tr": "Danışman doktor, hastanın doktoruna danışmadan ilaç yazmamalıdır."
+            },
+            "points": 10,
+            "id": "e46_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Information sollte bei einer Empfehlung für eine weitere Diagnostik enthalten sein?",
+                "en": "What information should be included in a recommendation for further diagnostics?",
+                "bn": "আরও ডায়াগনস্টিকের জন্য একটি সুপারিশে কোন তথ্য অন্তর্ভুক্ত করা উচিত?",
+                "hi": "आगे के निदान के लिए एक सिफारिश में कौन सी जानकारी शामिल की जानी चाहिए?",
+                "ur": "مزید تشخیص کے لیے سفارش میں کون سی معلومات شامل کی جانی چاہیے؟",
+                "tr": "Daha fazla tanı için bir tavsiyede hangi bilgiler yer almalıdır?"
+            },
+            "options": [
+                "Der Name des behandelnden Arztes.",
+                "Die Fragestellung und die Begründung für die Diagnostik.",
+                "Die Telefonnummer des Patienten.",
+                "Die private Adresse des Patienten."
+            ],
+            "correctAnswer": "Die Fragestellung und die Begründung für die Diagnostik.",
+            "explanation": {
+                "en": "The specific question and the justification for the diagnostic procedure should be included in the recommendation.",
+                "bn": "ডায়াগনস্টিক পদ্ধতির জন্য নির্দিষ্ট প্রশ্ন এবং ন্যায্যতা সুপারিশে অন্তর্ভুক্ত করা উচিত।",
+                "hi": "नैदानिक ​​प्रक्रिया के लिए विशिष्ट प्रश्न और औचित्य सिफारिश में शामिल किया जाना चाहिए।",
+                "ur": "تشخیصی طریقہ کار کے لیے مخصوص سوال اور جواز سفارش میں شامل کیا جانا چاہیے۔",
+                "tr": "Teşhis prosedürü için özel soru ve gerekçe tavsiyeye dahil edilmelidir."
+            },
+            "points": 10,
+            "id": "e46_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bei einer Übergabe ist es wichtig, die __________ des Patienten klar zu kommunizieren.",
+                "en": "During a handover, it is important to clearly communicate the patient's __________.",
+                "bn": "হস্তান্তরের সময় রোগীর __________ স্পষ্টভাবে জানাতে হবে।",
+                "hi": "हस्तांतरण के दौरान, रोगी के __________ को स्पष्ट रूप से बताना महत्वपूर्ण है।",
+                "ur": "منتقلی کے دوران، مریض کے __________ کو واضح طور پر بتانا ضروری ہے۔",
+                "tr": "Devir sırasında hastanın __________'sini açıkça iletmek önemlidir."
+            },
+            "correctAnswer": "Hauptprobleme",
+            "explanation": {
+                "en": "The patient's main problems need to be communicated clearly to ensure continuity of care.",
+                "bn": "যত্ন নিশ্চিত করার জন্য রোগীর প্রধান সমস্যাগুলি স্পষ্টভাবে জানানো দরকার।",
+                "hi": "देखभाल सुनिश्चित करने के लिए रोगी की मुख्य समस्याओं को स्पष्ट रूप से बताना आवश्यक है।",
+                "ur": "دیکھ بھال کو یقینی بنانے کے لیے مریض کے اہم مسائل کو واضح طور پر بتانا ضروری ہے۔",
+                "tr": "Bakımı sağlamak için hastanın ana sorunları açıkça iletilmelidir."
+            },
+            "points": 10,
+            "id": "e46_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein __________ dient dazu, die bestmögliche Therapie für einen Patienten zu finden.",
+                "en": "A __________ serves to find the best possible therapy for a patient.",
+                "bn": "একটি __________ রোগীর জন্য সর্বোত্তম সম্ভাব্য থেরাপি খুঁজে বের করার জন্য কাজ করে।",
+                "hi": "एक __________ रोगी के लिए सर्वोत्तम संभव थेरेपी खोजने का काम करता है।",
+                "ur": "ایک __________ مریض کے لیے بہترین ممکنہ تھراپی تلاش کرنے کا کام کرتا ہے۔",
+                "tr": "Bir __________ hasta için mümkün olan en iyi tedaviyi bulmaya hizmet eder."
+            },
+            "correctAnswer": "Konsil",
+            "explanation": {
+                "en": "A consultation (Konsil) serves to find the best possible therapy for a patient by involving other specialists.",
+                "bn": "অন্যান্য বিশেষজ্ঞদের জড়িত করে রোগীর জন্য সর্বোত্তম সম্ভাব্য থেরাপি খুঁজে বের করার জন্য একটি পরামর্শ (Konsil) কাজ করে।",
+                "hi": "अन्य विशेषज्ञों को शामिल करके रोगी के लिए सर्वोत्तम संभव थेरेपी खोजने के लिए एक परामर्श (Konsil) काम करता है।",
+                "ur": "دیگر ماہرین کو شامل کرکے مریض کے لیے بہترین ممکنہ تھراپی تلاش کرنے کے لیے ایک مشاورت (Konsil) کام کرتا ہے۔",
+                "tr": "Diğer uzmanları dahil ederek bir hasta için mümkün olan en iyi tedaviyi bulmaya bir konsültasyon (Konsil) hizmet eder."
+            },
+            "points": 10,
+            "id": "e46_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Vor einer Therapieänderung sollte eine __________ mit den beteiligten Ärzten stattfinden.",
+                "en": "Before a change in therapy, a __________ should take place with the involved doctors.",
+                "bn": "থেরাপিতে পরিবর্তনের আগে, জড়িত ডাক্তারদের সাথে একটি __________ হওয়া উচিত।",
+                "hi": "चिकित्सा में परिवर्तन से पहले, शामिल डॉक्टरों के साथ एक __________ होनी चाहिए।",
+                "ur": "تھراپی میں تبدیلی سے پہلے، شامل ڈاکٹروں کے ساتھ ایک __________ ہونی چاہیے۔",
+                "tr": "Tedavide bir değişiklikten önce, ilgili doktorlarla bir __________ yapılmalıdır."
+            },
+            "correctAnswer": "Fallbesprechung",
+            "explanation": {
+                "en": "A case discussion with the involved doctors is important before changing therapy to ensure a coordinated approach.",
+                "bn": "সমন্বিত পদ্ধতি নিশ্চিত করার জন্য থেরাপি পরিবর্তন করার আগে জড়িত ডাক্তারদের সাথে একটি কেস আলোচনা গুরুত্বপূর্ণ।",
+                "hi": "एक समन्वित दृष्टिकोण सुनिश्चित करने के लिए थेरेपी बदलने से पहले शामिल डॉक्टरों के साथ एक केस चर्चा महत्वपूर्ण है।",
+                "ur": "ایک مربوط نقطہ نظر کو یقینی بنانے کے لیے تھراپی تبدیل کرنے سے پہلے شامل ڈاکٹروں کے ساتھ ایک کیس بحث اہم ہے۔",
+                "tr": "Koordineli bir yaklaşım sağlamak için tedavi değiştirmeden önce ilgili doktorlarla bir vaka tartışması önemlidir."
+            },
+            "points": 10,
+            "id": "e46_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Eine klare __________ hilft dem weiterbehandelnden Arzt, die Therapie optimal fortzusetzen.",
+                "en": "A clear __________ helps the continuing treating physician to continue the therapy optimally.",
+                "bn": "একটি স্পষ্ট __________ পরবর্তী চিকিৎসা প্রদানকারী চিকিৎসককে সর্বোত্তমভাবে থেরাপি চালিয়ে যেতে সাহায্য করে।",
+                "hi": "एक स्पष्ट __________ निरंतर उपचार करने वाले चिकित्सक को चिकित्सा को बेहतर ढंग से जारी रखने में मदद करता है।",
+                "ur": "ایک واضح __________ جاری علاج کرنے والے معالج کو علاج کو بہترین طریقے سے جاری رکھنے میں مدد کرتا ہے۔",
+                "tr": "Açık bir __________ tedaviyi sürdüren doktorun tedaviye en iyi şekilde devam etmesine yardımcı olur."
+            },
+            "correctAnswer": "Empfehlung",
+            "explanation": {
+                "en": "A clear recommendation helps the continuing treating physician to continue the therapy optimally and know what to do.",
+                "bn": "একটি স্পষ্ট সুপারিশ পরবর্তী চিকিৎসা প্রদানকারী চিকিৎসককে সর্বোত্তমভাবে থেরাপি চালিয়ে যেতে এবং কী করতে হবে তা জানতে সাহায্য করে।",
+                "hi": "एक स्पष्ट सिफारिश निरंतर उपचार करने वाले चिकित्सक को चिकित्सा को बेहतर ढंग से जारी रखने और यह जानने में मदद करती है कि क्या करना है।",
+                "ur": "ایک واضح سفارش جاری علاج کرنے والے معالج کو علاج کو بہترین طریقے سے جاری رکھنے اور یہ جاننے میں مدد کرتی ہے کہ کیا کرنا ہے۔",
+                "tr": "Açık bir tavsiye, tedaviyi sürdüren doktorun tedaviye en iyi şekilde devam etmesine ve ne yapacağını bilmesine yardımcı olur."
+            },
+            "points": 10,
+            "id": "e46_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bei der Dokumentation eines Konsils muss der __________ des Konsiliararztes festgehalten werden.",
+                "en": "When documenting a consultation, the __________ of the consulting physician must be recorded.",
+                "bn": "একটি পরামর্শ নথিভুক্ত করার সময়, পরামর্শক চিকিৎসকের __________ রেকর্ড করতে হবে।",
+                "hi": "एक परामर्श का दस्तावेजीकरण करते समय, परामर्शक चिकित्सक का __________ रिकॉर्ड किया जाना चाहिए।",
+                "ur": "مشاورت کی دستاویز کرتے وقت، مشاورت کرنے والے معالج کا __________ ریکارڈ کیا جانا چاہیے۔",
+                "tr": "Bir konsültasyonu belgelendirirken, danışman doktorun __________ kaydedilmelidir."
+            },
+            "correctAnswer": "Name",
+            "explanation": {
+                "en": "When documenting a consultation, the name of the consulting physician must be recorded for accountability and clarity.",
+                "bn": "একটি পরামর্শ নথিভুক্ত করার সময়, জবাবদিহিতা এবং স্পষ্টতার জন্য পরামর্শক চিকিৎসকের নাম রেকর্ড করতে হবে।",
+                "hi": "एक परामर्श का दस्तावेजीकरण करते समय, जवाबदेही और स्पष्टता के लिए परामर्शक चिकित्सक का नाम रिकॉर्ड किया जाना चाहिए।",
+                "ur": "ایک مشاورت کی دستاویز کرتے وقت، جوابدہی اور وضاحت کے لیے مشاورت کرنے والے معالج کا نام ریکارڈ کیا جانا چاہیے۔",
+                "tr": "Bir konsültasyonu belgelendirirken, hesap verebilirlik ve netlik için danışman doktorun adı kaydedilmelidir."
+            },
+            "points": 10,
+            "id": "e46_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Bitte stellen Sie den Patienten im Konsil vor.",
+                "en": "Please introduce the patient during the consultation.",
+                "bn": "পরামর্শের সময় দয়া করে রোগীর পরিচয় দিন।",
+                "hi": "कृपया परामर्श के दौरान रोगी का परिचय दें।",
+                "ur": "براہ کرم مشاورت کے دوران مریض کا تعارف کرائیں۔",
+                "tr": "Lütfen konsültasyon sırasında hastayı tanıtın."
+            },
+            "correctAnswer": "Bitte stellen Sie den Patienten im Konsil vor.",
+            "explanation": {
+                "en": "This phrase requests the person to introduce the patient's case and background to the consulting physician.",
+                "bn": "এই বাক্যটি পরামর্শক চিকিৎসকের কাছে রোগীর কেস এবং পটভূমি পরিচয় করিয়ে দিতে অনুরোধ করে।",
+                "hi": "यह वाक्यांश परामर्शक चिकित्सक को रोगी के मामले और पृष्ठभूमि का परिचय देने का अनुरोध करता है।",
+                "ur": "یہ جملہ مشاورتی معالج کو مریض کے معاملے اور پس منظر سے تعارف کرانے کی درخواست کرتا ہے۔",
+                "tr": "Bu ifade, kişinin hastanın durumunu ve geçmişini danışman doktora tanıtmasını istemektedir."
+            },
+            "points": 10,
+            "id": "e46_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Welche Empfehlung haben Sie für die weitere Behandlung?",
+                "en": "What recommendation do you have for further treatment?",
+                "bn": "আরও চিকিৎসার জন্য আপনার কী সুপারিশ আছে?",
+                "hi": "आगे के इलाज के लिए आपकी क्या सिफारिश है?",
+                "ur": "مزید علاج کے لیے آپ کی کیا سفارش ہے؟",
+                "tr": "Daha fazla tedavi için ne gibi bir tavsiyeniz var?"
+            },
+            "correctAnswer": "Welche Empfehlung haben Sie für die weitere Behandlung?",
+            "explanation": {
+                "en": "This question asks for the consulting physician's recommendations regarding the patient's future treatment plan.",
+                "bn": "এই প্রশ্নটি রোগীর ভবিষ্যতের চিকিৎসার পরিকল্পনা সম্পর্কে পরামর্শক চিকিৎসকের সুপারিশ জানতে চায়।",
+                "hi": "यह प्रश्न रोगी की भविष्य की उपचार योजना के बारे में परामर्शक चिकित्सक की सिफारिशें पूछता है।",
+                "ur": "یہ سوال مریض کے مستقبل کے علاج کے منصوبے کے بارے میں مشاورتی معالج کی سفارشات پوچھتا ہے۔",
+                "tr": "Bu soru, hastanın gelecekteki tedavi planı ile ilgili olarak danışman doktorun tavsiyelerini sormaktadır."
+            },
+            "points": 10,
+            "id": "e46_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Übergabe findet täglich um 8:00 Uhr statt.",
+                "en": "The handover takes place daily at 8:00 AM.",
+                "bn": "হস্তান্তর প্রতিদিন সকাল ৮:০০ টায় অনুষ্ঠিত হয়।",
+                "hi": "हस्तांतरण प्रतिदिन सुबह 8:00 बजे होता है।",
+                "ur": "منتقلی روزانہ صبح 8:00 بجے ہوتی ہے۔",
+                "tr": "Devir işlemi her gün sabah 8:00'de gerçekleşir."
+            },
+            "correctAnswer": "Die Übergabe findet täglich um 8:00 Uhr statt.",
+            "explanation": {
+                "en": "This sentence indicates the time when patient information is transferred between medical staff.",
+                "bn": "এই বাক্যটি নির্দেশ করে যে কখন চিকিৎসা কর্মীদের মধ্যে রোগীর তথ্য স্থানান্তর করা হয়।",
+                "hi": "यह वाक्य उस समय को इंगित करता है जब चिकित्सा कर्मचारियों के बीच रोगी की जानकारी स्थानांतरित की जाती है।",
+                "ur": "یہ جملہ اس وقت کی نشاندہی کرتا ہے جب طبی عملے کے درمیان مریض کی معلومات منتقل کی جاتی ہے۔",
+                "tr": "Bu cümle, tıbbi personel arasında hasta bilgilerinin aktarıldığı zamanı belirtir."
+            },
+            "points": 10,
+            "id": "e46_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

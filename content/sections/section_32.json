@@ -1,1 +1,1605 @@
-{"id":"section_32","phaseId":"phase3","order":32,"titleDe":"Patientenvorstellung","title":{"en":"Case Presentation","bn":"Case Presentation","hi":"Case Presentation","ur":"Case Presentation","tr":"Case Presentation"},"level":"C1","estimatedMinutes":40,"vocabulary":[{"id":"v32_01","germanTerm":"Fachbegriff","article":"der","plural":"Fachbegriffe","translation":{"en":"Technical Term","bn":"টেকনিক্যাল টার্ম","hi":"तकनीकी शब्द","ur":"تکنیکی اصطلاح","tr":"Teknik terim"}}],"dialogues":[{"id":"d32_01","title":{"en":"Professional Scenario"},"lines":[{"speaker":"Oberarzt","germanText":"Professional dialogue for Case Presentation.","translation":{"en":"Professional dialogue for Case Presentation."}}]}],"exercises":[{"id":"e32_01","type":"multipleChoice","question":{"en":"Advanced question for Case Presentation?"},"options":["Option A","Option B","Option C"],"correctAnswer":"Option A","points":15}]}
+{
+    "id": "section_32",
+    "phaseId": "phase3",
+    "order": 32,
+    "titleDe": "Patientenvorstellung",
+    "title": {
+        "en": "Case Presentation: Anamnesis, Examination, Diagnosis",
+        "bn": "কেস উপস্থাপনা: অ্যানামনেসিস, পরীক্ষা, নির্ণয়",
+        "hi": "केस प्रस्तुति: एनामेनेसिस, परीक्षा, निदान",
+        "ur": "کیس پریزنٹیشن: انامنیسس، امتحان، تشخیص",
+        "tr": "Vaka Sunumu: Anamnez, Muayene, Teşhis",
+        "de": "Fallvorstellung: Anamnese, Untersuchung, Diagnose"
+    },
+    "description": {
+        "en": "This section covers the essential elements of a medical case presentation in German, including anamnesis, examination findings, and diagnosis.",
+        "bn": "এই বিভাগে জার্মান ভাষায় একটি মেডিকেল কেস উপস্থাপনার প্রয়োজনীয় উপাদানগুলি অন্তর্ভুক্ত রয়েছে, যার মধ্যে অ্যানামনেসিস, পরীক্ষার ফলাফল এবং নির্ণয় অন্তর্ভুক্ত।",
+        "hi": "इस खंड में जर्मन में एक मेडिकल केस प्रेजेंटेशन के आवश्यक तत्व शामिल हैं, जिसमें एनामेनेसिस, परीक्षा निष्कर्ष और निदान शामिल हैं।",
+        "ur": "اس حصے میں جرمن میں ایک طبی کیس پریزنٹیشن کے لازمی عناصر شامل ہیں، بشمول انامنیسس، امتحان کے نتائج، اور تشخیص۔",
+        "tr": "Bu bölüm, Almanca'da bir tıbbi vaka sunumunun temel unsurlarını kapsar; buna anamnez, muayene bulguları ve teşhis dahildir.",
+        "de": "Dieser Abschnitt behandelt die wesentlichen Elemente einer medizinischen Fallvorstellung auf Deutsch, einschließlich Anamnese, Untersuchungsbefunde und Diagnose."
+    },
+    "level": "C1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, we will learn how to present a patient case effectively in German medical settings. We'll focus on key vocabulary and structures used during rounds (Visite) and consultations.",
+            "bn": "এই বিভাগে, আমরা জার্মান মেডিকেল সেটিংসে কীভাবে কার্যকরভাবে রোগীর কেস উপস্থাপন করতে হয় তা শিখব। আমরা রাউন্ড (ভিসিট) এবং পরামর্শের সময় ব্যবহৃত মূল শব্দভাণ্ডার এবং কাঠামোগুলির উপর দৃষ্টি দেব।",
+            "hi": "इस खंड में, हम सीखेंगे कि जर्मन चिकित्सा सेटिंग्स में प्रभावी ढंग से रोगी के मामले को कैसे प्रस्तुत किया जाए। हम राउंड (विसिट) और परामर्श के दौरान उपयोग की जाने वाली प्रमुख शब्दावली और संरचनाओं पर ध्यान केंद्रित करेंगे।",
+            "ur": "اس حصے میں، ہم سیکھیں گے کہ جرمن طبی ترتیبات میں مؤثر طریقے سے مریض کے کیس کو کیسے پیش کیا جائے۔ ہم راؤنڈ (وزٹ) اور مشاورت کے دوران استعمال ہونے والی اہم الفاظ اور ڈھانچے پر توجہ مرکوز کریں گے۔",
+            "tr": "Bu bölümde, Almanca tıbbi ortamlarda bir hasta vakasını nasıl etkili bir şekilde sunacağımızı öğreneceğiz. Vizitler ve konsültasyonlar sırasında kullanılan temel kelime dağarcığına ve yapılara odaklanacağız.",
+            "de": "In diesem Abschnitt lernen wir, wie man einen Patientenfall in deutschen medizinischen Umgebungen effektiv präsentiert. Wir konzentrieren uns auf den Schlüsselwortschatz und die Strukturen, die während der Visite und Konsultationen verwendet werden."
+        },
+        "grammarFocus": {
+            "en": {
+                "point1": "Use of perfect tense (Perfekt) when relating patient history (Anamnese).",
+                "point2": "Formulation of diagnostic hypotheses using subjunctive mood (Konjunktiv II)."
+            },
+            "bn": {
+                "point1": "রোগীর ইতিহাস (অ্যানামনেসিস) সম্পর্কিত করার সময় পারফেক্ট টেন্সের (Perfekt) ব্যবহার।",
+                "point2": "সাবজাংটিভ মুড (Konjunktiv II) ব্যবহার করে ডায়াগনস্টিক হাইপোথিসিসের সূত্র।",
+                "point3": "রোগীর ইতিহাস (অ্যানামনেসিস) সম্পর্কিত করার সময় পারফেক্ট টেন্সের (Perfekt) ব্যবহার।"
+            },
+            "hi": {
+                "point1": "रोगी के इतिहास (एनामेनेसिस) को बताते समय परफेक्ट टेंस (Perfekt) का उपयोग।",
+                "point2": "सब्जेक्टिव मूड (Konjunktiv II) का उपयोग करके नैदानिक ​​परिकल्पनाओं का सूत्रीकरण।"
+            },
+            "ur": {
+                "point1": "مریض کی تاریخ (انامنیسس) سے متعلق کامل تناؤ (Perfekt) کا استعمال۔",
+                "point2": "سبجیکٹیو موڈ (Konjunktiv II) کا استعمال کرتے ہوئے تشخیصی مفروضوں کی تشکیل۔"
+            },
+            "tr": {
+                "point1": "Hasta öyküsünü (Anamnez) anlatırken geçmiş zamanın (Perfekt) kullanımı.",
+                "point2": "Teşhis hipotezlerinin subjontif kipinde (Konjunktiv II) formüle edilmesi."
+            },
+            "de": {
+                "point1": "Gebrauch des Perfekts bei der Wiedergabe der Anamnese.",
+                "point2": "Formulierung von diagnostischen Hypothesen im Konjunktiv II."
+            }
+        },
+        "culturalNotes": {
+            "en": "German medical culture emphasizes a detailed and structured presentation of patient information.",
+            "bn": "জার্মান মেডিকেল সংস্কৃতি রোগীর তথ্যের একটি বিস্তারিত এবং কাঠামোগত উপস্থাপনার উপর জোর দেয়।",
+            "hi": "जर्मन चिकित्सा संस्कृति रोगी की जानकारी की विस्तृत और संरचित प्रस्तुति पर जोर देती है।",
+            "ur": "جرمن طبی ثقافت مریض کی معلومات کی تفصیلی اور منظم پیشکش پر زور دیتی ہے۔",
+            "tr": "Alman tıbbi kültürü, hasta bilgilerinin ayrıntılı ve yapılandırılmış bir şekilde sunulmasına önem verir.",
+            "de": "Die deutsche medizinische Kultur legt Wert auf eine detaillierte und strukturierte Präsentation von Patienteninformationen."
+        },
+        "summary": {
+            "en": "This section provides a foundation for effectively presenting medical cases in German.",
+            "bn": "এই বিভাগটি জার্মান ভাষায় কার্যকরভাবে মেডিকেল কেস উপস্থাপনের ভিত্তি সরবরাহ করে।",
+            "hi": "यह खंड जर्मन में प्रभावी ढंग से चिकित्सा मामलों को पेश करने के लिए एक आधार प्रदान करता है।",
+            "ur": "یہ حصہ جرمن میں مؤثر طریقے سے طبی معاملات پیش کرنے کی بنیاد فراہم کرتا ہے۔",
+            "tr": "Bu bölüm, Almanca'da tıbbi vakaları etkili bir şekilde sunmak için bir temel sağlar.",
+            "de": "Dieser Abschnitt bietet eine Grundlage für die effektive Präsentation medizinischer Fälle auf Deutsch."
+        },
+        "learningObjectives": [
+            "Understand key vocabulary related to patient presentation.",
+            "Formulate questions to gather relevant patient history.",
+            "Describe examination findings using correct German medical terminology.",
+            "Present a coherent and structured case presentation in German."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "die Fallvorstellung",
+            "article": "die",
+            "plural": "die Fallvorstellungen",
+            "pronunciation": "/ˈfalˌfoːɐ̯ˌʃtɛlʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "Case Presentation",
+                "bn": "কেস উপস্থাপনা",
+                "hi": "केस प्रस्तुतीकरण",
+                "ur": "مقدمہ پیشکش",
+                "tr": "Vaka Sunumu"
+            },
+            "exampleSentence": "Die Fallvorstellung des Patienten erfolgte durch den Assistenzarzt.",
+            "exampleTranslation": {
+                "en": "The case presentation of the patient was given by the resident.",
+                "bn": "রোগীর কেস উপস্থাপনাটি রেসিডেন্ট দ্বারা দেওয়া হয়েছিল।",
+                "hi": "रोगी का केस प्रस्तुतीकरण निवासी चिकित्सक द्वारा किया गया था।",
+                "ur": "مریض کا معاملہ پریزنٹیشن ریذیڈنٹ نے پیش کیا۔",
+                "tr": "Hastanın vaka sunumu asistan doktor tarafından yapıldı."
+            },
+            "id": "v32_01"
+        },
+        {
+            "germanTerm": "die Patientenvorstellung",
+            "article": "die",
+            "plural": "die Patientenvorstellungen",
+            "pronunciation": "/paˈt͡si̯ɛntn̩ˌfoːɐ̯ˌʃtɛlʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "Patient Presentation",
+                "bn": "রোগী উপস্থাপনা",
+                "hi": "रोगी प्रस्तुतीकरण",
+                "ur": "مریض کی پیشکش",
+                "tr": "Hasta Sunumu"
+            },
+            "exampleSentence": "Die Patientenvorstellung beinhaltete eine detaillierte Anamnese.",
+            "exampleTranslation": {
+                "en": "The patient presentation included a detailed medical history.",
+                "bn": "রোগী উপস্থাপনা একটি বিস্তারিত চিকিৎসা ইতিহাস অন্তর্ভুক্ত করেছে।",
+                "hi": "रोगी प्रस्तुतीकरण में एक विस्तृत चिकित्सा इतिहास शामिल था।",
+                "ur": "مریض کی پیشکش میں طبی تاریخ کی تفصیل شامل تھی۔",
+                "tr": "Hasta sunumu detaylı bir tıbbi öykü içeriyordu."
+            },
+            "id": "v32_02"
+        },
+        {
+            "germanTerm": "die Visite",
+            "article": "die",
+            "plural": "die Visiten",
+            "pronunciation": "/viˈzɪtə/",
+            "category": "noun",
+            "translation": {
+                "en": "Ward Round",
+                "bn": "ওয়ার্ড রাউন্ড",
+                "hi": "वार्ड राउंड",
+                "ur": "وارڈ راؤنڈ",
+                "tr": "Vizit"
+            },
+            "exampleSentence": "Während der Visite wurden alle Patienten untersucht.",
+            "exampleTranslation": {
+                "en": "During the ward round, all patients were examined.",
+                "bn": "ওয়ার্ড রাউন্ডের সময়, সমস্ত রোগীদের পরীক্ষা করা হয়েছিল।",
+                "hi": "वार्ड राउंड के दौरान सभी रोगियों की जांच की गई।",
+                "ur": "وارڈ راؤنڈ کے دوران تمام مریضوں کا معائنہ کیا گیا۔",
+                "tr": "Vizit sırasında tüm hastalar muayene edildi."
+            },
+            "id": "v32_03"
+        },
+        {
+            "germanTerm": "die Anamnese",
+            "article": "die",
+            "plural": "die Anamnesen",
+            "pronunciation": "/anaˈmneːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "Medical History",
+                "bn": "চিকিৎসা ইতিহাস",
+                "hi": "चिकित्सा इतिहास",
+                "ur": "طبی تاریخ",
+                "tr": "Tıbbi Öykü"
+            },
+            "exampleSentence": "Die Anamnese wurde sorgfältig vom Arzt aufgenommen.",
+            "exampleTranslation": {
+                "en": "The medical history was carefully taken by the doctor.",
+                "bn": "চিকিৎসা ইতিহাসটি ডাক্তার দ্বারা যত্ন সহকারে নেওয়া হয়েছিল।",
+                "hi": "चिकित्सा इतिहास को डॉक्टर द्वारा ध्यान से लिया गया था।",
+                "ur": "طبی تاریخ ڈاکٹر نے احتیاط سے لی۔",
+                "tr": "Tıbbi öykü doktor tarafından dikkatlice alındı."
+            },
+            "id": "v32_04"
+        },
+        {
+            "germanTerm": "der Befund",
+            "article": "der",
+            "plural": "die Befunde",
+            "pronunciation": "/bəˈfʊnt/",
+            "category": "noun",
+            "translation": {
+                "en": "Finding",
+                "bn": "আবিষ্কার",
+                "hi": "निष्कर्ष",
+                "ur": "دریافت",
+                "tr": "Bulgu"
+            },
+            "exampleSentence": "Der radiologische Befund zeigte eine Fraktur.",
+            "exampleTranslation": {
+                "en": "The radiological finding showed a fracture.",
+                "bn": "রেডিওলজিক্যাল আবিষ্কারে একটি ফ্র্যাকচার দেখা গেছে।",
+                "hi": "रेडियोलॉजिकल निष्कर्ष में एक फ्रैक्चर दिखाया गया।",
+                "ur": "ریڈیولاجیکل دریافت میں ایک فریکچر دکھایا گیا ہے۔",
+                "tr": "Radyolojik bulgu bir kırık gösterdi."
+            },
+            "id": "v32_05"
+        },
+        {
+            "germanTerm": "die Diagnose",
+            "article": "die",
+            "plural": "die Diagnosen",
+            "pronunciation": "/di̯aˈɡnoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "Diagnosis",
+                "bn": "রোগ নির্ণয়",
+                "hi": "निदान",
+                "ur": "تشخیص",
+                "tr": "Teşhis"
+            },
+            "exampleSentence": "Nach den Untersuchungen wurde die Diagnose gestellt.",
+            "exampleTranslation": {
+                "en": "After the examinations, the diagnosis was made.",
+                "bn": "পরীক্ষার পরে, রোগ নির্ণয় করা হয়েছিল।",
+                "hi": "जाँच के बाद, निदान किया गया था।",
+                "ur": "امتحانات کے بعد تشخیص کیا گیا۔",
+                "tr": "Muayenelerden sonra teşhis konuldu."
+            },
+            "id": "v32_06"
+        },
+        {
+            "germanTerm": "der Patient",
+            "article": "der",
+            "plural": "die Patienten",
+            "pronunciation": "/paˈt͡si̯ɛnt/",
+            "category": "noun",
+            "translation": {
+                "en": "Patient",
+                "bn": "রোগী",
+                "hi": "रोगी",
+                "ur": "مریض",
+                "tr": "Hasta"
+            },
+            "exampleSentence": "Der Patient klagte über starke Schmerzen.",
+            "exampleTranslation": {
+                "en": "The patient complained of severe pain.",
+                "bn": "রোগী তীব্র ব্যথার অভিযোগ করেছেন।",
+                "hi": "रोगी ने तेज दर्द की शिकायत की।",
+                "ur": "مریض نے شدید درد کی شکایت کی۔",
+                "tr": "Hasta şiddetli ağrıdan şikayet etti."
+            },
+            "id": "v32_07"
+        },
+        {
+            "germanTerm": "symptomatisch",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/zʏmptoˈmaːtɪʃ/",
+            "category": "adjective",
+            "translation": {
+                "en": "Symptomatic",
+                "bn": "উপসর্গযুক্ত",
+                "hi": "लक्षण युक्त",
+                "ur": "علامتی",
+                "tr": "Semptomatik"
+            },
+            "exampleSentence": "Der Patient war symptomatisch für eine Grippe.",
+            "exampleTranslation": {
+                "en": "The patient was symptomatic for the flu.",
+                "bn": "রোগী ফ্লু-এর জন্য উপসর্গযুক্ত ছিল।",
+                "hi": "रोगी फ्लू के लिए लक्षण युक्त था।",
+                "ur": "مریض فلو کے لیے علامتی تھا۔",
+                "tr": "Hasta grip için semptomatikti."
+            },
+            "id": "v32_08"
+        },
+        {
+            "germanTerm": "der Verlauf",
+            "article": "der",
+            "plural": "die Verläufe",
+            "pronunciation": "/fɛɐ̯ˈlaʊ̯f/",
+            "category": "noun",
+            "translation": {
+                "en": "Course",
+                "bn": "গতিপথ",
+                "hi": "क्रम",
+                "ur": "دوران",
+                "tr": "Seyir"
+            },
+            "exampleSentence": "Der Verlauf der Krankheit war kompliziert.",
+            "exampleTranslation": {
+                "en": "The course of the disease was complicated.",
+                "bn": "রোগের গতিপথ জটিল ছিল।",
+                "hi": "रोग का क्रम जटिल था।",
+                "ur": "مرض کا دوران پیچیدہ تھا۔",
+                "tr": "Hastalığın seyri karmaşıktı."
+            },
+            "id": "v32_09"
+        },
+        {
+            "germanTerm": "das Symptom",
+            "article": "das",
+            "plural": "die Symptome",
+            "pronunciation": "/zʏmˈptoːm/",
+            "category": "noun",
+            "translation": {
+                "en": "Symptom",
+                "bn": "উপসর্গ",
+                "hi": "लक्षण",
+                "ur": "علامت",
+                "tr": "Semptom"
+            },
+            "exampleSentence": "Ein häufiges Symptom ist Fieber.",
+            "exampleTranslation": {
+                "en": "A common symptom is fever.",
+                "bn": "একটি সাধারণ উপসর্গ হল জ্বর।",
+                "hi": "एक सामान्य लक्षण बुखार है।",
+                "ur": "ایک عام علامت بخار ہے۔",
+                "tr": "Yaygın bir semptom ateştir."
+            },
+            "id": "v32_10"
+        },
+        {
+            "germanTerm": "die Therapie",
+            "article": "die",
+            "plural": "die Therapien",
+            "pronunciation": "/teˈʁaːpi/",
+            "category": "noun",
+            "translation": {
+                "en": "Therapy",
+                "bn": "থেরাপি",
+                "hi": "चिकित्सा",
+                "ur": "تھراپی",
+                "tr": "Terapi"
+            },
+            "exampleSentence": "Die Therapie zeigte gute Erfolge.",
+            "exampleTranslation": {
+                "en": "The therapy showed good results.",
+                "bn": "থেরাপি ভাল ফলাফল দেখিয়েছে।",
+                "hi": "चिकित्सा ने अच्छे परिणाम दिखाए।",
+                "ur": "تھراپی نے اچھے نتائج دکھائے۔",
+                "tr": "Terapi iyi sonuçlar gösterdi."
+            },
+            "id": "v32_11"
+        },
+        {
+            "germanTerm": "klinisch",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈkliːnɪʃ/",
+            "category": "adjective",
+            "translation": {
+                "en": "Clinical",
+                "bn": "ক্লিনিক্যাল",
+                "hi": "नैदानिक",
+                "ur": "کلینیکل",
+                "tr": "Klinik"
+            },
+            "exampleSentence": "Der klinische Zustand des Patienten ist stabil.",
+            "exampleTranslation": {
+                "en": "The clinical condition of the patient is stable.",
+                "bn": "রোগীর ক্লিনিকাল অবস্থা স্থিতিশীল।",
+                "hi": "रोगी की नैदानिक स्थिति स्थिर है।",
+                "ur": "مریض کی کلینیکل حالت مستحکم ہے۔",
+                "tr": "Hastanın klinik durumu stabil."
+            },
+            "id": "v32_12"
+        },
+        {
+            "germanTerm": "die Prognose",
+            "article": "die",
+            "plural": "die Prognosen",
+            "pronunciation": "/pʁoˈɡnoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "Prognosis",
+                "bn": "পূর্বাভাস",
+                "hi": "पूर्वानुमान",
+                "ur": "پیش گوئی",
+                "tr": "Prognoz"
+            },
+            "exampleSentence": "Die Prognose ist ungewiss.",
+            "exampleTranslation": {
+                "en": "The prognosis is uncertain.",
+                "bn": "পূর্বাভাস অনিশ্চিত।",
+                "hi": "पूर्वानुमान अनिश्चित है।",
+                "ur": "پیش گوئی غیر یقینی ہے۔",
+                "tr": "Prognoz belirsiz."
+            },
+            "id": "v32_13"
+        },
+        {
+            "germanTerm": "das Labor",
+            "article": "das",
+            "plural": "die Labore/Laboratorien",
+            "pronunciation": "/laˈboːɐ̯/",
+            "category": "noun",
+            "translation": {
+                "en": "Laboratory",
+                "bn": "পরীক্ষাগার",
+                "hi": "प्रयोगशाला",
+                "ur": "لیبارٹری",
+                "tr": "Laboratuvar"
+            },
+            "exampleSentence": "Die Laborwerte liegen noch nicht vor.",
+            "exampleTranslation": {
+                "en": "The lab results are not yet available.",
+                "bn": "ল্যাব পরীক্ষার ফলাফল এখনও পাওয়া যায়নি।",
+                "hi": "प्रयोगशाला के परिणाम अभी तक उपलब्ध नहीं हैं।",
+                "ur": "لیب کے نتائج ابھی تک دستیاب نہیں ہیں۔",
+                "tr": "Laboratuvar sonuçları henüz mevcut değil."
+            },
+            "id": "v32_14"
+        },
+        {
+            "germanTerm": "körperlich",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈkœʁpɐlɪç/",
+            "category": "adjective",
+            "translation": {
+                "en": "Physical",
+                "bn": "শারীরিক",
+                "hi": "शारीरिक",
+                "ur": "جسمانی",
+                "tr": "Fiziksel"
+            },
+            "exampleSentence": "Die körperliche Untersuchung war unauffällig.",
+            "exampleTranslation": {
+                "en": "The physical examination was unremarkable.",
+                "bn": "শারীরিক পরীক্ষা স্বাভাবিক ছিল।",
+                "hi": "शारीरिक जांच सामान्य थी।",
+                "ur": "جسمانی معائنہ غیر معمولی تھا۔",
+                "tr": "Fiziksel muayene olağan dışı değildi."
+            },
+            "id": "v32_15"
+        },
+        {
+            "germanTerm": "die Beschwerde",
+            "article": "die",
+            "plural": "die Beschwerden",
+            "pronunciation": "/bəˈʃveːɐ̯də/",
+            "category": "noun",
+            "translation": {
+                "en": "Complaint",
+                "bn": "অভিযোগ",
+                "hi": "शिकायत",
+                "ur": "شکایت",
+                "tr": "Şikayet"
+            },
+            "exampleSentence": "Der Patient nannte als Hauptbeschwerde Bauchschmerzen.",
+            "exampleTranslation": {
+                "en": "The patient cited abdominal pain as the main complaint.",
+                "bn": "রোগী পেটে ব্যথাই প্রধান অভিযোগ হিসাবে উল্লেখ করেছেন।",
+                "hi": "रोगी ने पेट दर्द को मुख्य शिकायत बताया।",
+                "ur": "مریض نے پیٹ میں درد کو بنیادی شکایت قرار دیا۔",
+                "tr": "Hasta ana şikayet olarak karın ağrısı olduğunu belirtti."
+            },
+            "id": "v32_16"
+        },
+        {
+            "germanTerm": "die Untersuchung",
+            "article": "die",
+            "plural": "die Untersuchungen",
+            "pronunciation": "/ʊntɐˈzuːxʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "Examination",
+                "bn": "পরীক্ষা",
+                "hi": "जांच",
+                "ur": "معائنہ",
+                "tr": "Muayene"
+            },
+            "exampleSentence": "Die Untersuchung ergab keine Auffälligkeiten.",
+            "exampleTranslation": {
+                "en": "The examination revealed no abnormalities.",
+                "bn": "পরীক্ষায় কোন অস্বাভাবিকতা প্রকাশ পায়নি।",
+                "hi": "जांच में कोई असामान्यता नहीं पाई गई।",
+                "ur": "معائنہ میں کوئی غیر معمولی چیز نہیں پائی گئی۔",
+                "tr": "Muayene herhangi bir anormallik ortaya çıkarmadı."
+            },
+            "id": "v32_17"
+        },
+        {
+            "germanTerm": "die Medikation",
+            "article": "die",
+            "plural": "die Medikationen",
+            "pronunciation": "/medikaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "Medication",
+                "bn": "ওষুধ",
+                "hi": "दवा",
+                "ur": "دوا",
+                "tr": "İlaç"
+            },
+            "exampleSentence": "Die Medikation des Patienten muss angepasst werden.",
+            "exampleTranslation": {
+                "en": "The patient's medication needs to be adjusted.",
+                "bn": "রোগীর ওষুধ সামঞ্জস্য করা দরকার।",
+                "hi": "रोगी की दवा को समायोजित करने की आवश्यकता है।",
+                "ur": "مریض کی دوا کو ایڈجسٹ کرنے کی ضرورت ہے۔",
+                "tr": "Hastanın ilacının ayarlanması gerekiyor."
+            },
+            "id": "v32_18"
+        },
+        {
+            "germanTerm": "anamnestisch",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/anaˈmnɛstɪʃ/",
+            "category": "adjective",
+            "translation": {
+                "en": "Anamnestic",
+                "bn": "অ্যানামনেস্টিক",
+                "hi": "अनामनेस्टिक",
+                "ur": "انامنسٹک",
+                "tr": "Anamnestik"
+            },
+            "exampleSentence": "Anamnestisch gab der Patient Rauchen an.",
+            "exampleTranslation": {
+                "en": "Anamnestically, the patient indicated smoking.",
+                "bn": "অ্যানামনেস্টিকভাবে, রোগী ধূমপান করার কথা জানিয়েছেন।",
+                "hi": "अनामनेस्टिक रूप से, रोगी ने धूम्रपान करने का संकेत दिया।",
+                "ur": "انامنسٹک طور پر، مریض نے تمباکو نوشی کا اشارہ کیا۔",
+                "tr": "Anamnestik olarak, hasta sigara içtiğini belirtti."
+            },
+            "id": "v32_19"
+        },
+        {
+            "germanTerm": "die Differenzialdiagnose",
+            "article": "die",
+            "plural": "die Differenzialdiagnosen",
+            "pronunciation": "/dɪfɛʁɛnt͡si̯aːlˈdi̯aɡnoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "Differential Diagnosis",
+                "bn": "ডিফারেনশিয়াল ডায়াগনোসিস",
+                "hi": "विभेदक निदान",
+                "ur": "تفریقی تشخیص",
+                "tr": "Ayırıcı Tanı"
+            },
+            "exampleSentence": "Die Differenzialdiagnose umfasst mehrere Erkrankungen.",
+            "exampleTranslation": {
+                "en": "The differential diagnosis includes several diseases.",
+                "bn": "ডিফারেনশিয়াল ডায়াগনোসিসে বেশ কয়েকটি রোগ অন্তর্ভুক্ত রয়েছে।",
+                "hi": "विभेदक निदान में कई रोग शामिल हैं।",
+                "ur": "تفریقی تشخیص میں کئی بیماریاں شامل ہیں۔",
+                "tr": "Ayırıcı tanı birkaç hastalığı içerir."
+            },
+            "id": "v32_20"
+        },
+        {
+            "germanTerm": "der Krankheitsverlauf",
+            "article": "der",
+            "plural": "die Krankheitsverläufe",
+            "pronunciation": "/ˈkʁaŋkhaɪ̯t͡sfɛɐ̯ˌlaʊ̯f/",
+            "category": "noun",
+            "translation": {
+                "en": "Disease Course",
+                "bn": "রোগের গতিপথ",
+                "hi": "रोग का क्रम",
+                "ur": "مرض کا دوران",
+                "tr": "Hastalık Seyri"
+            },
+            "exampleSentence": "Der Krankheitsverlauf war untypisch.",
+            "exampleTranslation": {
+                "en": "The disease course was atypical.",
+                "bn": "রোগের গতিপথ অস্বাভাবিক ছিল।",
+                "hi": "रोग का क्रम असामान्य था।",
+                "ur": "مرض کا دوران غیر معمولی تھا۔",
+                "tr": "Hastalık seyri atipikti."
+            },
+            "id": "v32_21"
+        },
+        {
+            "germanTerm": "die Komplikation",
+            "article": "die",
+            "plural": "die Komplikationen",
+            "pronunciation": "/kɔmplikaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "Complication",
+                "bn": "জটিলতা",
+                "hi": "जटिलता",
+                "ur": "پیچیدگی",
+                "tr": "Komplikasyon"
+            },
+            "exampleSentence": "Es kam zu einer Komplikation nach der Operation.",
+            "exampleTranslation": {
+                "en": "There was a complication after the surgery.",
+                "bn": "অস্ত্রোপচারের পরে একটি জটিলতা দেখা দিয়েছে।",
+                "hi": "सर्जरी के बाद एक जटिलता आई।",
+                "ur": "سرجری کے بعد ایک پیچیدگی پیدا ہوئی۔",
+                "tr": "Ameliyattan sonra bir komplikasyon oldu."
+            },
+            "id": "v32_22"
+        },
+        {
+            "germanTerm": "die Ätiologie",
+            "article": "die",
+            "plural": "die Ätiologien",
+            "pronunciation": "/ɛti̯oloˈɡiː/",
+            "category": "noun",
+            "translation": {
+                "en": "Etiology",
+                "bn": "ইটিওলজি",
+                "hi": "इटियोलॉजी",
+                "ur": "ایٹولوجی",
+                "tr": "Etiyoloji"
+            },
+            "exampleSentence": "Die Ätiologie der Erkrankung ist noch unklar.",
+            "exampleTranslation": {
+                "en": "The etiology of the disease is still unclear.",
+                "bn": "রোগের ইটিওলজি এখনও অস্পষ্ট।",
+                "hi": "रोग की इटियोलॉजी अभी भी अस्पष्ट है।",
+                "ur": "مرض کی ایٹولوجی ابھی تک غیر واضح ہے۔",
+                "tr": "Hastalığın etiyolojisi hala belirsiz."
+            },
+            "id": "v32_23"
+        },
+        {
+            "germanTerm": "subjektiv",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/zʊpjɛkˈtiːf/",
+            "category": "adjective",
+            "translation": {
+                "en": "Subjective",
+                "bn": "বিষয়ভিত্তিক",
+                "hi": "व्यक्तिपरक",
+                "ur": "ذاتی",
+                "tr": "Subjektif"
+            },
+            "exampleSentence": "Die Schmerzen sind subjektiv.",
+            "exampleTranslation": {
+                "en": "The pain is subjective.",
+                "bn": "ব্যথা বিষয়ভিত্তিক।",
+                "hi": "दर्द व्यक्तिपरक है।",
+                "ur": "درد ذاتی ہے۔",
+                "tr": "Ağrı subjektiftir."
+            },
+            "id": "v32_24"
+        },
+        {
+            "germanTerm": "objektiv",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ɔpjɛkˈtiːf/",
+            "category": "adjective",
+            "translation": {
+                "en": "Objective",
+                "bn": "উদ্দেশ্যমূলক",
+                "hi": "वस्तुनिष्ठ",
+                "ur": "معروضی",
+                "tr": "Objektif"
+            },
+            "exampleSentence": "Die objektiven Befunde sind eindeutig.",
+            "exampleTranslation": {
+                "en": "The objective findings are clear.",
+                "bn": "উদ্দেশ্যমূলক আবিষ্কার স্পষ্ট।",
+                "hi": "वस्तुनिष्ठ निष्कर्ष स्पष्ट हैं।",
+                "ur": "معروضی نتائج واضح ہیں۔",
+                "tr": "Objektif bulgular açık."
+            },
+            "id": "v32_25"
+        },
+        {
+            "germanTerm": "die Resistenz",
+            "article": "die",
+            "plural": "die Resistenzen",
+            "pronunciation": "/ʁezɪsˈtɛnt͡s/",
+            "category": "noun",
+            "translation": {
+                "en": "Resistance",
+                "bn": "প্রতিরোধ",
+                "hi": "प्रतिरोध",
+                "ur": "مزاحمت",
+                "tr": "Direnç"
+            },
+            "exampleSentence": "Es wurde eine Antibiotikaresistenz festgestellt.",
+            "exampleTranslation": {
+                "en": "Antibiotic resistance was found.",
+                "bn": "অ্যান্টিবায়োটিক প্রতিরোধের সনাক্ত করা হয়েছে।",
+                "hi": "एंटीबायोटिक प्रतिरोध पाया गया।",
+                "ur": "اینٹی بائیوٹک مزاحمت پائی گئی۔",
+                "tr": "Antibiyotik direnci bulundu."
+            },
+            "id": "v32_26"
+        },
+        {
+            "germanTerm": "das Medikament",
+            "article": "das",
+            "plural": "die Medikamente",
+            "pronunciation": "/medikaˈmɛnt/",
+            "category": "noun",
+            "translation": {
+                "en": "Medication",
+                "bn": "ওষুধ",
+                "hi": "दवा",
+                "ur": "دوا",
+                "tr": "İlaç"
+            },
+            "exampleSentence": "Welche Medikamente nimmt der Patient ein?",
+            "exampleTranslation": {
+                "en": "What medications is the patient taking?",
+                "bn": "রোগী কী ওষুধ খাচ্ছে?",
+                "hi": "रोगी कौन सी दवाएं ले रहा है?",
+                "ur": "مریض کون سی دوائیں لے رہا ہے؟",
+                "tr": "Hasta hangi ilaçları alıyor?"
+            },
+            "id": "v32_27"
+        },
+        {
+            "germanTerm": "der Risikofaktor",
+            "article": "der",
+            "plural": "die Risikofaktoren",
+            "pronunciation": "/ˈʁɪzikoˌfaktɔʁ/",
+            "category": "noun",
+            "translation": {
+                "en": "Risk Factor",
+                "bn": "ঝুঁকি कारक",
+                "hi": "जोखिम कारक",
+                "ur": "خطرے کا عنصر",
+                "tr": "Risk Faktörü"
+            },
+            "exampleSentence": "Rauchen ist ein bekannter Risikofaktor für Lungenkrebs.",
+            "exampleTranslation": {
+                "en": "Smoking is a known risk factor for lung cancer.",
+                "bn": "ধূমপান ফুসফুসের ক্যান্সারের জন্য একটি পরিচিত ঝুঁকি कारक।",
+                "hi": "धूम्रपान फेफड़ों के कैंसर के लिए एक ज्ञात जोखिम कारक है।",
+                "ur": "تمباکو نوشی پھیپھڑوں کے کینسر کے لیے ایک جانا پہچانا خطرے کا عنصر ہے۔",
+                "tr": "Sigara içmek akciğer kanseri için bilinen bir risk faktörüdür."
+            },
+            "id": "v32_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Case Presentation: Chest Pain",
+                "bn": "কেস উপস্থাপনা: বুকের ব্যথা",
+                "hi": "केस प्रस्तुति: छाती में दर्द",
+                "ur": "مقدمہ کی پیشکش: سینے میں درد",
+                "tr": "Vaka Sunumu: Göğüs Ağrısı"
+            },
+            "context": {
+                "en": "Internal Medicine Ward. Dr. Schmidt, a resident, presents a patient with chest pain to Dr. Weber, the attending physician.",
+                "bn": "অভ্যন্তরীণ মেডিসিন ওয়ার্ড। ডাঃ শ্মিট, একজন আবাসিক, বুকের ব্যথার একজন রোগীর বিবরণ ডাঃ ওয়েবারের কাছে উপস্থাপন করছেন, যিনি একজন অ্যাটেন্ডিং চিকিৎসক।",
+                "hi": "आंतरिक चिकित्सा वार्ड। डॉ. श्मिट, एक निवासी, छाती में दर्द वाले एक मरीज को डॉ. वेबर के सामने पेश करते हैं, जो उपस्थित चिकित्सक हैं।",
+                "ur": "اندرونی طب کا وارڈ۔ ڈاکٹر شمٹ، ایک ریزیڈنٹ، سینے میں درد والے مریض کو ڈاکٹر ویبر کے سامنے پیش کر رہے ہیں، جو حاضر ڈاکٹر ہیں۔",
+                "tr": "İç Hastalıkları servisi. Asistan doktor Schmidt, göğüs ağrısı olan bir hastayı uzman doktor Weber'e sunuyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Morgen, Frau Dr. Weber. Ich möchte Ihnen Herrn Müller vorstellen, 62 Jahre alt, mit seit zwei Tagen bestehenden retrosternalen Schmerzen.",
+                    "translation": {
+                        "en": "Good morning, Dr. Weber. I would like to present Mr. Müller, 62 years old, with retrosternal pain for two days.",
+                        "bn": "শুভ সকাল, ডাঃ ওয়েবার। আমি জনাব মুলার, ৬২ বছর বয়সী, যিনি গত দুই দিন ধরে রেট্রোস্টারনাল ব্যথা অনুভব করছেন, তার বিবরণ আপনার কাছে উপস্থাপন করতে চাই।",
+                        "hi": "सुप्रभात, डॉ. वेबर। मैं आपको श्री मुलर, 62 वर्ष, दो दिनों से रेट्रोस्टर्नल दर्द के साथ पेश करना चाहता हूं।",
+                        "ur": "صبح بخیر، ڈاکٹر ویبر۔ میں آپ کو مسٹر مولر، 62 سالہ، کو دو دنوں سے ریٹروسٹرنل درد کے ساتھ پیش کرنا چاہوں گا۔",
+                        "tr": "Günaydın, Dr. Weber. Size 62 yaşındaki ve iki gündür retrosternal ağrısı olan Bay Müller'i sunmak istiyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Morgen, Herr Dr. Schmidt. Was ergab die Anamnese und der Befund?",
+                    "translation": {
+                        "en": "Good morning, Dr. Schmidt. What did the history and findings reveal?",
+                        "bn": "শুভ সকাল, ডাঃ শ্মিট। রোগীর ইতিহাস এবং অনুসন্ধানে কি পাওয়া গেছে?",
+                        "hi": "सुप्रभात, डॉ. श्मिट। इतिहास और निष्कर्षों से क्या पता चला?",
+                        "ur": "صبح بخیر، ڈاکٹر شمٹ۔ تاریخ اور نتائج سے کیا معلوم ہوا؟",
+                        "tr": "Günaydın, Dr. Schmidt. Anamnez ve bulgular ne gösterdi?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Herr Müller berichtet über einen drückenden Schmerz, der in den linken Arm ausstrahlt. EKG zeigt ST-Hebungen in V1-V4.",
+                    "translation": {
+                        "en": "Mr. Müller reports a pressing pain radiating to the left arm. ECG shows ST elevations in V1-V4.",
+                        "bn": "জনাব মুলার বাম হাতে ছড়িয়ে যাওয়া একটি চাপযুক্ত ব্যথার কথা জানিয়েছেন। ইসিজি ভি১-ভি৪ এ এসটি এলিভেশন দেখাচ্ছে।",
+                        "hi": "श्री मुलर बाएं हाथ में विकीर्ण होने वाले एक दबाने वाले दर्द की रिपोर्ट करते हैं। ईसीजी V1-V4 में एसटी एलिवेशन दिखाता है।",
+                        "ur": "مسٹر مولر بائیں بازو میں پھیلنے والے دبانے والے درد کی اطلاع دیتے ہیں۔ ای سی جی V1-V4 میں ایس ٹی اونچائی دکھاتا ہے۔",
+                        "tr": "Bay Müller sol kola yayılan baskılayıcı bir ağrıdan bahsediyor. EKG'de V1-V4'te ST yükselmeleri görülüyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Verdachtsdiagnose?",
+                    "translation": {
+                        "en": "Suspected diagnosis?",
+                        "bn": "সন্দেহজনক রোগ নির্ণয়?",
+                        "hi": "संदिग्ध निदान?",
+                        "ur": "مشتبہ تشخیص؟",
+                        "tr": "Şüpheli teşhis?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Akuter Vorderwandinfarkt.",
+                    "translation": {
+                        "en": "Acute anterior myocardial infarction.",
+                        "bn": "তীব্র অ্যান্টিরিওর মায়োকার্ডিয়াল ইনফার্কশন।",
+                        "hi": "तीव्र पूर्वकाल मायोकार्डियल इंफार्क्शन।",
+                        "ur": "شدید اینٹیریئر مایوکارڈیل انفکشن۔",
+                        "tr": "Akut anterior miyokard enfarktüsü."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Sofort ins Herzkatheterlabor. Schwester, bitte alles vorbereiten.",
+                    "translation": {
+                        "en": "Immediately to the cardiac catheterization lab. Nurse, please prepare everything.",
+                        "bn": "অবিলম্বে কার্ডিয়াক ক্যাথেটারাইজেশন ল্যাবে নিয়ে যান। নার্স, সবকিছু প্রস্তুত করুন।",
+                        "hi": "तत्काल कार्डियक कैथीटेराइजेशन लैब में। नर्स, कृपया सब कुछ तैयार करें।",
+                        "ur": "فوری طور پر کارڈیک کیتھیٹرائزیشن لیب میں۔ نرس، براہ کرم سب کچھ تیار کریں۔",
+                        "tr": "Hemen kalp kateterizasyon laboratuvarına. Hemşire, lütfen her şeyi hazırlayın."
+                    }
+                }
+            ],
+            "id": "d32_01"
+        },
+        {
+            "title": {
+                "en": "Visite: Pneumonia",
+                "bn": "ভিজিট: নিউমোনিয়া",
+                "hi": "विजिट: निमोनिया",
+                "ur": "وزیٹ: نمونیا",
+                "tr": "Vizit: Pnömoni"
+            },
+            "context": {
+                "en": "Pulmonology Ward. Rounding on patients with pneumonia. Dr. Weber and Schwester Weber visit Patient Schmidt.",
+                "bn": "পালমোনোলজি ওয়ার্ড। নিউমোনিয়া আক্রান্ত রোগীদের রাউন্ড নেওয়া হচ্ছে। ডাঃ ওয়েবার এবং সিস্টার ওয়েবার রোগী শ্মিটকে দেখতে এসেছেন।",
+                "hi": "पल्मोनोलॉजी वार्ड। निमोनिया से पीड़ित मरीजों पर राउंडिंग। डॉ. वेबर और श्वेस्टर वेबर मरीज श्मिट से मिलने जाते हैं।",
+                "ur": "پلمونولوجی وارڈ۔ نمونیا کے مریضوں پر راؤنڈنگ۔ ڈاکٹر ویبر اور شویسٹر ویبر مریض شمٹ سے ملنے جاتے ہیں۔",
+                "tr": "Pulmonoloji servisi. Pnömoni hastalarında vizit. Dr. Weber ve Hemşire Weber, Hasta Schmidt'i ziyaret ediyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Morgen, Herr Schmidt. Wie fühlen Sie sich heute?",
+                    "translation": {
+                        "en": "Good morning, Mr. Schmidt. How are you feeling today?",
+                        "bn": "শুভ সকাল, জনাব শ্মিট। আজ আপনি কেমন অনুভব করছেন?",
+                        "hi": "सुप्रभात, श्री श्मिट। आज आप कैसा महसूस कर रहे हैं?",
+                        "ur": "صبح بخیر، مسٹر شمٹ۔ آج آپ کیسا محسوس کر رہے ہیں؟",
+                        "tr": "Günaydın, Bay Schmidt. Bugün nasılsınız?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Morgen, Frau Dr. Weber. Etwas besser, aber der Husten ist noch schlimm.",
+                    "translation": {
+                        "en": "Good morning, Dr. Weber. A little better, but the cough is still bad.",
+                        "bn": "শুভ সকাল, ডাঃ ওয়েবার। একটু ভালো, তবে কাশি এখনও খারাপ।",
+                        "hi": "सुप्रभात, डॉ. वेबर। थोड़ा बेहतर, लेकिन खांसी अभी भी खराब है।",
+                        "ur": "صبح بخیر، ڈاکٹر ویبر۔ تھوڑا بہتر، لیکن کھانسی اب بھی خراب ہے۔",
+                        "tr": "Günaydın, Dr. Weber. Biraz daha iyiyim, ama öksürük hala kötü."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Die Sauerstoffsättigung liegt bei 95% mit 2 Litern Sauerstoff.",
+                    "translation": {
+                        "en": "Oxygen saturation is 95% with 2 liters of oxygen.",
+                        "bn": "অক্সিজেন স্যাচুরেশন ২ লিটার অক্সিজেন সহ ৯৫%।",
+                        "hi": "ऑक्सीजन सैचुरेशन 2 लीटर ऑक्सीजन के साथ 95% है।",
+                        "ur": "آکسیجن سیچوریشن 2 لیٹر آکسیجن کے ساتھ 95 فیصد ہے۔",
+                        "tr": "Oksijen saturasyonu 2 litre oksijenle %95."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das Röntgenbild zeigt eine Besserung der Infiltrate. Wir können die Antibiotika oral umstellen.",
+                    "translation": {
+                        "en": "The X-ray shows an improvement in the infiltrates. We can switch the antibiotics to oral.",
+                        "bn": "এক্স-রে তে ইনফিলট্রেটগুলির উন্নতি দেখা যায়। আমরা অ্যান্টিবায়োটিকগুলি মুখে খাওয়ার জন্য পরিবর্তন করতে পারি।",
+                        "hi": "एक्स-रे में इन्फिल्ट्रेट में सुधार दिखता है। हम एंटीबायोटिक दवाओं को मौखिक रूप से बदल सकते हैं।",
+                        "ur": "ایکس رے میں انفیلٹریٹ میں بہتری دکھائی دیتی ہے۔ ہم اینٹی بائیوٹکس کو زبانی طور پر تبدیل کر سکتے ہیں۔",
+                        "tr": "Röntgen filmi infiltratlarda iyileşme gösteriyor. Antibiyotikleri oral yolla değiştirebiliriz."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Das ist gut zu hören. Vielen Dank!",
+                    "translation": {
+                        "en": "That's good to hear. Thank you very much!",
+                        "bn": "এটা শুনে ভালো লাগলো। আপনাকে অনেক ধন্যবাদ!",
+                        "hi": "यह सुनकर अच्छा लगा। आपका बहुत-बहुत धन्यवाद!",
+                        "ur": "یہ سن کر خوشی ہوئی۔ آپ کا بہت شکریہ!",
+                        "tr": "Bunu duymak güzel. Çok teşekkür ederim!"
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Gern geschehen. Schwester, bitte die Umstellung verordnen.",
+                    "translation": {
+                        "en": "You're welcome. Nurse, please prescribe the change.",
+                        "bn": "আপনাকে স্বাগতম। নার্স, দয়া করে পরিবর্তনটি লিখে দিন।",
+                        "hi": "आपका स्वागत है। नर्स, कृपया परिवर्तन निर्धारित करें।",
+                        "ur": "آپ کا استقبال ہے۔ نرس، براہ کرم تبدیلی تجویز کریں۔",
+                        "tr": "Rica ederim. Hemşire, lütfen değişikliği reçete edin."
+                    }
+                }
+            ],
+            "id": "d32_02"
+        },
+        {
+            "title": {
+                "en": "Anamnese: Abdominal Pain",
+                "bn": "অ্যানামনেসিস: পেটে ব্যথা",
+                "hi": "एनामेनेसिस: पेट दर्द",
+                "ur": "انامینسس: پیٹ میں درد",
+                "tr": "Anamnez: Karın Ağrısı"
+            },
+            "context": {
+                "en": "Emergency Room. Dr. Schmidt takes the history of Patient Klein who presents with abdominal pain.",
+                "bn": "জরুরী বিভাগ। ডাঃ শ্মিট পেটে ব্যথাসহ উপস্থিত রোগী ক্লেইনের ইতিহাস নিচ্ছেন।",
+                "hi": "आपातकालीन कक्ष। डॉ. श्मिट पेट दर्द के साथ पेश होने वाले मरीज क्लेन का इतिहास लेते हैं।",
+                "ur": "ایمرجنسی روم۔ ڈاکٹر شمٹ پیٹ میں درد کے ساتھ آنے والے مریض کلین کی تاریخ لیتے ہیں۔",
+                "tr": "Acil Servis. Dr. Schmidt, karın ağrısı şikayetiyle başvuran Hasta Klein'in anamnezini alıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Tag, Frau Klein. Was führt Sie heute zu uns?",
+                    "translation": {
+                        "en": "Good day, Ms. Klein. What brings you to us today?",
+                        "bn": "শুভ দিন, মিসেস ক্লেইন। আজ আপনাকে কী কারণে এখানে আসতে হয়েছে?",
+                        "hi": "शुभ दिन, सुश्री क्लेन। आज आपको यहाँ क्या लाया?",
+                        "ur": "شب بخیر، محترمہ کلین۔ آج آپ کو یہاں کیا لایا؟",
+                        "tr": "İyi günler, Bayan Klein. Sizi bugün buraya getiren nedir?"
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe seit gestern starke Bauchschmerzen, vor allem im Unterbauch.",
+                    "translation": {
+                        "en": "I have had severe abdominal pain since yesterday, especially in the lower abdomen.",
+                        "bn": "গতকাল থেকে আমার খুব পেটে ব্যথা, বিশেষ করে পেটের নিচের দিকে।",
+                        "hi": "मुझे कल से गंभीर पेट दर्द हो रहा है, खासकर निचले पेट में।",
+                        "ur": "مجھے کل سے شدید پیٹ میں درد ہو رہا ہے، خاص طور پر پیٹ کے نچلے حصے میں۔",
+                        "tr": "Dünden beri şiddetli karın ağrım var, özellikle alt karın bölgesinde."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Können Sie den Schmerz genauer beschreiben? Ist er stechend, krampfartig, dumpf?",
+                    "translation": {
+                        "en": "Can you describe the pain more precisely? Is it stabbing, cramping, dull?",
+                        "bn": "আপনি কি ব্যথাটিকে আরও স্পষ্টভাবে বর্ণনা করতে পারেন? এটা কি ছুরিকাঘাতের মতো, খিঁচুনিযুক্ত, নিস্তেজ?",
+                        "hi": "क्या आप दर्द को और अधिक सटीक रूप से बता सकते हैं? क्या यह छुरा घोंपने जैसा, ऐंठन वाला, सुस्त है?",
+                        "ur": "کیا آپ درد کو مزید وضاحت سے بیان کر سکتے ہیں؟ کیا یہ چبھنے والا، اینٹھن والا، بے حس ہے؟",
+                        "tr": "Ağrıyı daha ayrıntılı tarif edebilir misiniz? Keskin mi, kramp şeklinde mi, künt mü?"
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Eher krampfartig und wellenartig.",
+                    "translation": {
+                        "en": "More cramping and wave-like.",
+                        "bn": "বরং খিঁচুনিযুক্ত এবং তরঙ্গায়িত।",
+                        "hi": "बल्कि ऐंठन और लहर जैसी।",
+                        "ur": "بلکہ اینٹھن اور لہر جیسی۔",
+                        "tr": "Daha çok kramp şeklinde ve dalgalı."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Haben Sie Fieber, Übelkeit oder Erbrechen?",
+                    "translation": {
+                        "en": "Do you have a fever, nausea, or vomiting?",
+                        "bn": "আপনার কি জ্বর, বমি বমি ভাব বা বমি আছে?",
+                        "hi": "क्या आपको बुखार, मतली या उल्टी है?",
+                        "ur": "کیا آپ کو بخار، متلی یا الٹی ہے؟",
+                        "tr": "Ateşiniz, bulantınız veya kusmanız var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, etwas Übelkeit und gestern Abend einmalig Erbrechen.",
+                    "translation": {
+                        "en": "Yes, some nausea and vomiting once last night.",
+                        "bn": "হ্যাঁ, কিছুটা বমি বমি ভাব এবং গত রাতে একবার বমি হয়েছিল।",
+                        "hi": "हाँ, कुछ मतली और कल रात एक बार उल्टी हुई।",
+                        "ur": "ہاں، کچھ متلی اور کل رات ایک بار قے۔",
+                        "tr": "Evet, biraz bulantım var ve dün gece bir kez kustum."
+                    }
+                }
+            ],
+            "id": "d32_03"
+        },
+        {
+            "title": {
+                "en": "Befund: Neurological Examination",
+                "bn": "বেফুন্ড: স্নায়বিক পরীক্ষা",
+                "hi": "बेफंड: न्यूरोलॉजिकल परीक्षा",
+                "ur": "بی فنڈ: نیورولوجیکل امتحان",
+                "tr": "Bulgu: Nörolojik Muayene"
+            },
+            "context": {
+                "en": "Neurology Ward. Dr. Müller examines Patient Lehmann, who is suspected of having a stroke.",
+                "bn": "নিউরোলজি ওয়ার্ড। ডাঃ মুলার রোগী লেহমানের পরীক্ষা করছেন, যার স্ট্রোক হয়েছে বলে সন্দেহ করা হচ্ছে।",
+                "hi": "न्यूरोलॉजी वार्ड। डॉ. मुलर मरीज लेहमन की जांच करते हैं, जिन पर स्ट्रोक होने का संदेह है।",
+                "ur": "نیورولوجی وارڈ۔ ڈاکٹر مولر مریض لیہمن کا معائنہ کرتے ہیں، جن پر فالج ہونے کا شبہ ہے۔",
+                "tr": "Nöroloji servisi. Dr. Müller, inme şüphesi olan Hasta Lehmann'ı muayene ediyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Tag, Herr Lehmann. Ich bin Dr. Müller. Wir machen jetzt eine neurologische Untersuchung.",
+                    "translation": {
+                        "en": "Good day, Mr. Lehmann. I am Dr. Müller. We will now do a neurological examination.",
+                        "bn": "শুভ দিন, জনাব লেহমান। আমি ডাঃ মুলার। আমরা এখন একটি স্নায়বিক পরীক্ষা করব।",
+                        "hi": "शुभ दिन, श्री लेहमन। मैं डॉ. मुलर हूं। अब हम एक न्यूरोलॉजिकल परीक्षण करेंगे।",
+                        "ur": "شب بخیر، مسٹر لیہمن۔ میں ڈاکٹر مولر ہوں۔ اب ہم نیورولوجیکل امتحان کریں گے۔",
+                        "tr": "İyi günler, Bay Lehmann. Ben Dr. Müller. Şimdi nörolojik bir muayene yapacağız."
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Tag, Herr Doktor.",
+                    "translation": {
+                        "en": "Good day, Doctor.",
+                        "bn": "শুভ দিন, ডাক্তার।",
+                        "hi": "शुभ दिन, डॉक्टर।",
+                        "ur": "شب بخیر، ڈاکٹر۔",
+                        "tr": "İyi günler, doktor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Bitte lächeln Sie einmal. Zeigen Sie mir die Zähne.",
+                    "translation": {
+                        "en": "Please smile once. Show me your teeth.",
+                        "bn": "একবার হাসুন। আমাকে আপনার দাঁত দেখান।",
+                        "hi": "कृपया एक बार मुस्कुराओ। मुझे अपने दाँत दिखाओ।",
+                        "ur": "براہ کرم ایک بار مسکرائیں۔ مجھے اپنے دانت دکھائیں۔",
+                        "tr": "Lütfen bir kez gülümseyin. Dişlerinizi gösterin."
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "(versucht zu lächeln, Mundwinkel hängt rechts)",
+                    "translation": {
+                        "en": "(tries to smile, corner of mouth droops on the right)",
+                        "bn": "(হাসার চেষ্টা করে, মুখের কোণ ডান দিকে ঝুলে আছে)",
+                        "hi": "(मुस्कुराने की कोशिश करता है, मुँह का कोना दाईं ओर लटकता है)",
+                        "ur": "(مسکرانے کی کوشش کرتا ہے، منہ کا کونا دائیں طرف لٹکتا ہے)",
+                        "tr": "(Gülümsemeye çalışıyor, ağzının köşesi sağda sarkıyor)"
+                    }
+                },
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Kraft in der linken Hand ist reduziert. Reflexe sind seitengleich.",
+                    "translation": {
+                        "en": "Strength in the left hand is reduced. Reflexes are equal on both sides.",
+                        "bn": "বাম হাতের শক্তি হ্রাস পেয়েছে। রিফ্লেক্স উভয় দিকে সমান।",
+                        "hi": "बाएं हाथ में ताकत कम हो गई है। रिफ्लेक्स दोनों तरफ बराबर हैं।",
+                        "ur": "بائیں ہاتھ میں طاقت کم ہو گئی ہے۔ اضطراری عمل دونوں طرف برابر ہیں۔",
+                        "tr": "Sol eldeki güç azalmış durumda. Refleksler iki tarafta da eşit."
+                    }
+                },
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wir machen ein CT vom Kopf zur weiteren Diagnostik.",
+                    "translation": {
+                        "en": "We will do a CT scan of the head for further diagnostics.",
+                        "bn": "আরও রোগ নির্ণয়ের জন্য আমরা মাথার সিটি স্ক্যান করব।",
+                        "hi": "हम आगे निदान के लिए सिर का सीटी स्कैन करेंगे।",
+                        "ur": "ہم مزید تشخیص کے لیے سر کا سی ٹی اسکین کریں گے۔",
+                        "tr": "Daha fazla teşhis için kafatasının BT taramasını yapacağız."
+                    }
+                }
+            ],
+            "id": "d32_04"
+        },
+        {
+            "title": {
+                "en": "Diagnose: Diabetes Mellitus",
+                "bn": "রোগ নির্ণয়: ডায়াবেটিস মেলিটাস",
+                "hi": "निदान: मधुमेह मेलिटस",
+                "ur": "تشخیص: ذیابیطس mellitus",
+                "tr": "Teşhis: Diabetes Mellitus"
+            },
+            "context": {
+                "en": "Endocrinology Clinic. Dr. Schmidt informs Patient Bauer about his diabetes diagnosis.",
+                "bn": "এন্ডোক্রিনোলজি ক্লিনিক। ডাঃ শ্মিট রোগী বাউয়ারকে তার ডায়াবেটিস রোগ নির্ণয়ের বিষয়ে অবহিত করছেন।",
+                "hi": "एंडोक्रिनोलॉजी क्लिनिक। डॉ. श्मिट मरीज बाउर को उनकी मधुमेह निदान के बारे में सूचित करते हैं।",
+                "ur": "اینڈوکرائنولوجی کلینک۔ ڈاکٹر شمٹ مریض باؤر کو ان کی ذیابیطس کی تشخیص کے بارے میں آگاہ کر رہے ہیں۔",
+                "tr": "Endokrinoloji Kliniği. Dr. Schmidt, Hasta Bauer'i diyabet teşhisi hakkında bilgilendiriyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Herr Bauer, ich habe die Ergebnisse Ihrer Untersuchungen. Leider haben wir bei Ihnen Diabetes mellitus festgestellt.",
+                    "translation": {
+                        "en": "Mr. Bauer, I have the results of your tests. Unfortunately, we have diagnosed you with diabetes mellitus.",
+                        "bn": "জনাব বাউয়ার, আমার কাছে আপনার পরীক্ষার ফলাফল আছে। দুর্ভাগ্যবশত, আমরা আপনার ডায়াবেটিস মেলিটাস সনাক্ত করেছি।",
+                        "hi": "श्री बाउर, मेरे पास आपकी जांच के परिणाम हैं। दुर्भाग्य से, हमने आपको मधुमेह मेलिटस का निदान किया है।",
+                        "ur": "مسٹر باؤر، میرے پاس آپ کے ٹیسٹوں کے نتائج ہیں۔ بدقسمتی سے، ہم نے آپ کو ذیابیطس mellitus کی تشخیص کی ہے۔",
+                        "tr": "Bay Bauer, testlerinizin sonuçlarını aldım. Maalesef size diabetes mellitus teşhisi koyduk."
+                    }
+                },
+                {
+                    "speaker": "Patient Bauer",
+                    "speakerRole": "Patient",
+                    "germanText": "Diabetes? Das ist ja schrecklich! Was bedeutet das für mich?",
+                    "translation": {
+                        "en": "Diabetes? That's terrible! What does that mean for me?",
+                        "bn": "ডায়াবেটিস? এটা তো ভয়ানক! এর মানে আমার জন্য কী?",
+                        "hi": "मधुमेह? यह तो भयानक है! इसका मेरे लिए क्या मतलब है?",
+                        "ur": "ذیابیطس؟ یہ تو خوفناک ہے! اس کا میرے لیے کیا مطلب ہے؟",
+                        "tr": "Diyabet mi? Bu çok korkunç! Bu benim için ne anlama geliyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das bedeutet, dass Ihr Blutzucker zu hoch ist. Wir müssen ihn mit Medikamenten und einer Ernährungsumstellung senken.",
+                    "translation": {
+                        "en": "It means that your blood sugar is too high. We need to lower it with medication and a change in diet.",
+                        "bn": "এর মানে হল আপনার রক্তে শর্করার মাত্রা খুব বেশি। আমাদের ওষুধ এবং খাদ্যাভ্যাস পরিবর্তনের মাধ্যমে এটি কমাতে হবে।",
+                        "hi": "इसका मतलब है कि आपका रक्त शर्करा बहुत अधिक है। हमें इसे दवा और आहार में बदलाव के साथ कम करने की आवश्यकता है।",
+                        "ur": "اس کا مطلب ہے کہ آپ کے خون میں شکر کی سطح بہت زیادہ ہے۔ ہمیں اسے دوا اور غذا میں تبدیلی کے ساتھ کم کرنے کی ضرورت ہے۔",
+                        "tr": "Bu, kan şekerinizin çok yüksek olduğu anlamına geliyor. İlaç ve diyet değişikliği ile düşürmemiz gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Patient Bauer",
+                    "speakerRole": "Patient",
+                    "germanText": "Medikamente? Muss das sein? Ich hasse Tabletten.",
+                    "translation": {
+                        "en": "Medication? Is that necessary? I hate pills.",
+                        "bn": "ওষুধ? এটা কি জরুরি? আমি ট্যাবলেট ঘৃণা করি।",
+                        "hi": "दवा? क्या वह ज़रूरी है? मुझे गोलियों से नफरत है।",
+                        "ur": "دوا؟ کیا یہ ضروری ہے؟ مجھے گولیاں سے نفرت ہے۔",
+                        "tr": "İlaç mı? Bu gerekli mi? Haplardan nefret ederim."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Zunächst versuchen wir es mit Metformin. Und wir haben eine Ernährungsberaterin im Haus, die Ihnen helfen kann.",
+                    "translation": {
+                        "en": "First, we will try Metformin. And we have a nutritionist on staff who can help you.",
+                        "bn": "প্রথমত, আমরা মেটফর্মিন চেষ্টা করব। এবং আমাদের এখানে একজন পুষ্টিবিদ আছেন যিনি আপনাকে সাহায্য করতে পারেন।",
+                        "hi": "सबसे पहले, हम मेटफॉर्मिन की कोशिश करेंगे। और हमारे पास एक पोषण विशेषज्ञ है जो आपकी मदद कर सकता है।",
+                        "ur": "سب سے پہلے، ہم میٹفارمین کی کوشش کریں گے۔ اور ہمارے پاس ایک غذائیت کا ماہر ہے جو آپ کی مدد کر سکتا ہے۔",
+                        "tr": "İlk olarak, Metformin'i deneyeceğiz. Ve size yardımcı olabilecek bir diyetisyenimiz var."
+                    }
+                },
+                {
+                    "speaker": "Patient Bauer",
+                    "speakerRole": "Patient",
+                    "germanText": "Okay, gut. Dann hoffe ich, dass wir das in den Griff bekommen.",
+                    "translation": {
+                        "en": "Okay, good. Then I hope we can get it under control.",
+                        "bn": "ঠিক আছে, ভালো। তাহলে আমি আশা করি আমরা এটি নিয়ন্ত্রণে আনতে পারব।",
+                        "hi": "ठीक है, अच्छा। तो मुझे उम्मीद है कि हम इसे नियंत्रण में ला सकते हैं।",
+                        "ur": "ٹھیک ہے، اچھا۔ تو مجھے امید ہے کہ ہم اسے قابو میں کر سکتے ہیں۔",
+                        "tr": "Tamam, güzel. O zaman umarım kontrol altına alabiliriz."
+                    }
+                }
+            ],
+            "id": "d32_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist der erste Schritt bei einer Patientenanamnese?",
+                "en": "What is the first step in taking a patient history?",
+                "bn": "রোগীর ইতিহাস নেওয়ার প্রথম ধাপ কি?",
+                "hi": "रोगी का इतिहास लेने में पहला कदम क्या है?",
+                "ur": "مریض کی تاریخ لینے میں پہلا قدم کیا ہے؟",
+                "tr": "Hasta öyküsü alırken ilk adım nedir?"
+            },
+            "options": [
+                "Körperliche Untersuchung",
+                "Sozialanamnese",
+                "Patientenidentifikation",
+                "Medikamentenanamnese"
+            ],
+            "correctAnswer": "Patientenidentifikation",
+            "explanation": {
+                "en": "The first step is to identify the patient to ensure you are speaking with the correct individual and recording the information accurately.",
+                "bn": "প্রথম ধাপ হল রোগীকে সনাক্ত করা যাতে আপনি সঠিক ব্যক্তির সাথে কথা বলছেন এবং সঠিক তথ্য রেকর্ড করছেন।",
+                "hi": "पहला कदम रोगी की पहचान करना है ताकि आप सही व्यक्ति से बात कर रहे हों और जानकारी को सही ढंग से रिकॉर्ड कर रहे हों।",
+                "ur": "پہلا مرحلہ مریض کی شناخت کرنا ہے تاکہ یہ یقینی بنایا جا سکے کہ آپ صحیح فرد سے بات کر رہے ہیں اور معلومات کو درست طریقے سے ریکارڈ کر رہے ہیں۔",
+                "tr": "İlk adım, doğru kişiyle konuştuğunuzdan ve bilgileri doğru bir şekilde kaydettiğinizden emin olmak için hastayı tanımlamaktır."
+            },
+            "points": 10,
+            "id": "e32_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welcher Teil der Fallvorstellung beinhaltet die subjektiven Beschwerden des Patienten?",
+                "en": "Which part of the case presentation includes the patient's subjective complaints?",
+                "bn": "রোগীর উপস্থাপনার কোন অংশে রোগীর ব্যক্তিগত অভিযোগ অন্তর্ভুক্ত?",
+                "hi": "मामले की प्रस्तुति के किस भाग में रोगी की व्यक्तिपरक शिकायतें शामिल हैं?",
+                "ur": "کیس کی پیش کش کا کون سا حصہ مریض کی موضوعی شکایات پر مشتمل ہے؟",
+                "tr": "Vaka sunumunun hangi bölümü hastanın subjektif şikayetlerini içerir?"
+            },
+            "options": [
+                "Befund",
+                "Anamnese",
+                "Diagnose",
+                "Therapie"
+            ],
+            "correctAnswer": "Anamnese",
+            "explanation": {
+                "en": "The patient history (Anamnese) specifically addresses the subjective symptoms and complaints reported by the patient.",
+                "bn": "রোগীর ইতিহাস (Anamnese) বিশেষভাবে রোগীর দ্বারা রিপোর্ট করা ব্যক্তিগত উপসর্গ এবং অভিযোগগুলির ঠিকানা দেয়।",
+                "hi": "रोगी का इतिहास (एनामनेस) विशेष रूप से रोगी द्वारा बताई गई व्यक्तिपरक लक्षणों और शिकायतों को संबोधित करता है।",
+                "ur": "مریض کی تاریخ (اینامنیسی) خاص طور پر مریض کی طرف سے رپورٹ کردہ موضوعی علامات اور شکایات کو بتاتا ہے۔",
+                "tr": "Hasta öyküsü (Anamnese) özellikle hasta tarafından bildirilen subjektif semptomları ve şikayetleri ele alır."
+            },
+            "points": 10,
+            "id": "e32_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Visite' im medizinischen Kontext?",
+                "en": "What does 'Visite' mean in a medical context?",
+                "bn": "চিকিৎসা প্রসঙ্গে 'Visite' মানে কী?",
+                "hi": "चिकित्सा संदर्भ में 'विज़िट' का क्या अर्थ है?",
+                "ur": "طبی تناظر میں 'Visite' کا کیا مطلب ہے؟",
+                "tr": "Tıbbi bağlamda 'Visite' ne anlama gelir?"
+            },
+            "options": [
+                "Eine Operation",
+                "Eine Blutentnahme",
+                "Eine ärztliche Untersuchung",
+                "Eine Entlassung"
+            ],
+            "correctAnswer": "Eine ärztliche Untersuchung",
+            "explanation": {
+                "en": "'Visite' refers to the rounds made by doctors and other healthcare professionals to examine patients in a hospital or clinic.",
+                "bn": "'Visite' বলতে ডাক্তার এবং অন্যান্য স্বাস্থ্যসেবা পেশাদারদের একটি হাসপাতালে বা ক্লিনিকে রোগীদের পরীক্ষা করার জন্য রাউন্ড করা বোঝায়।",
+                "hi": "'विज़िट' से तात्पर्य अस्पताल या क्लिनिक में रोगियों की जांच के लिए डॉक्टरों और अन्य स्वास्थ्य सेवा पेशेवरों द्वारा किए गए चक्कर से है।",
+                "ur": "'Visite' سے مراد ڈاکٹروں اور دیگر صحت کی دیکھ بھال کرنے والے پیشہ ور افراد کی طرف سے ہسپتال یا کلینک میں مریضوں کی جانچ پڑتال کے لیے چکر لگانا ہے۔",
+                "tr": "'Visite', doktorların ve diğer sağlık profesyonellerinin bir hastanede veya klinikte hastaları muayene etmek için yaptıkları vizitleri ifade eder."
+            },
+            "points": 10,
+            "id": "e32_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was beinhaltet der 'Befund'?",
+                "en": "What does the 'Befund' include?",
+                "bn": "'Befund'-এর মধ্যে কী অন্তর্ভুক্ত?",
+                "hi": "'बेफंड' में क्या शामिल है?",
+                "ur": "'بیفنڈ' میں کیا شامل ہے؟",
+                "tr": "'Befund' neyi içerir?"
+            },
+            "options": [
+                "Subjektive Beschwerden",
+                "Objektive Untersuchungsergebnisse",
+                "Die Therapie",
+                "Die Prognose"
+            ],
+            "correctAnswer": "Objektive Untersuchungsergebnisse",
+            "explanation": {
+                "en": "The 'Befund' includes objective findings from physical examinations, laboratory tests, and imaging studies.",
+                "bn": "'Befund'-এর মধ্যে শারীরিক পরীক্ষা, ল্যাবরেটরি পরীক্ষা এবং ইমেজিং স্টাডি থেকে প্রাপ্ত বস্তুনিষ্ঠ ফলাফল অন্তর্ভুক্ত।",
+                "hi": "'बेफंड' में शारीरिक परीक्षाओं, प्रयोगशाला परीक्षणों और इमेजिंग अध्ययनों से प्राप्त वस्तुनिष्ठ निष्कर्ष शामिल हैं।",
+                "ur": "'بیفنڈ' میں جسمانی معائنہ، لیبارٹری ٹیسٹ اور امیجنگ اسٹڈیز سے حاصل کردہ معروضی نتائج شامل ہیں۔",
+                "tr": "'Befund', fiziksel muayeneler, laboratuvar testleri ve görüntüleme çalışmalarından elde edilen objektif bulguları içerir."
+            },
+            "points": 10,
+            "id": "e32_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Frage ist NICHT relevant für die Sozialanamnese?",
+                "en": "Which question is NOT relevant for the social history?",
+                "bn": "সামাজিক ইতিহাসের জন্য কোন প্রশ্নটি প্রাসঙ্গিক নয়?",
+                "hi": "सामाजिक इतिहास के लिए कौन सा प्रश्न प्रासंगिक नहीं है?",
+                "ur": "سماجی تاریخ کے لیے کون سا سوال متعلقہ نہیں ہے؟",
+                "tr": "Sosyal geçmiş için hangi soru alakalı değildir?"
+            },
+            "options": [
+                "Beruf",
+                "Familienstand",
+                "Allergien",
+                "Rauchgewohnheiten"
+            ],
+            "correctAnswer": "Allergien",
+            "explanation": {
+                "en": "Allergies are part of the medical history, not the social history. The social history focuses on lifestyle and environmental factors.",
+                "bn": "অ্যালার্জিগুলি মেডিকেল ইতিহাসের অংশ, সামাজিক ইতিহাসের নয়। সামাজিক ইতিহাস জীবনধারা এবং পরিবেশগত কারণগুলির উপর দৃষ্টি নিবদ্ধ করে।",
+                "hi": "एलर्जी चिकित्सा इतिहास का हिस्सा है, सामाजिक इतिहास का नहीं। सामाजिक इतिहास जीवनशैली और पर्यावरणीय कारकों पर केंद्रित है।",
+                "ur": "الرجی طبی تاریخ کا حصہ ہے، سماجی تاریخ کا نہیں۔ سماجی تاریخ طرز زندگی اور ماحولیاتی عوامل پر توجہ مرکوز کرتی ہے۔",
+                "tr": "Alerjiler, sosyal geçmişin değil, tıbbi geçmişin bir parçasıdır. Sosyal geçmiş yaşam tarzı ve çevresel faktörlere odaklanır."
+            },
+            "points": 10,
+            "id": "e32_05"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Der ___________ beinhaltet eine Zusammenfassung der wichtigsten Informationen über den Patienten.",
+                "en": "The ___________ includes a summary of the most important information about the patient.",
+                "bn": "___________ রোগীর সম্পর্কে সবচেয়ে গুরুত্বপূর্ণ তথ্যের একটি সংক্ষিপ্তসার অন্তর্ভুক্ত।",
+                "hi": "___________ में रोगी के बारे में सबसे महत्वपूर्ण जानकारी का सारांश शामिल है।",
+                "ur": "___________ میں مریض کے بارے میں سب سے اہم معلومات کا خلاصہ شامل ہے۔",
+                "tr": "___________ hasta hakkında en önemli bilgilerin bir özetini içerir."
+            },
+            "correctAnswer": "Arztbrief",
+            "explanation": {
+                "en": "The 'Arztbrief' (doctor's letter or discharge summary) provides a concise overview of the patient's case.",
+                "bn": "'Arztbrief' (ডাক্তারের চিঠি বা স্রাব সারসংক্ষেপ) রোগীর কেসের একটি সংক্ষিপ্ত বিবরণ প্রদান করে।",
+                "hi": "'अर्ज़्टब्रीफ' (डॉक्टर का पत्र या डिस्चार्ज सारांश) रोगी के मामले का संक्षिप्त विवरण प्रदान करता है।",
+                "ur": "'Arztbrief' (ڈاکٹر کا خط یا ڈسچارج سمری) مریض کے کیس کا ایک جامع جائزہ فراہم کرتا ہے۔",
+                "tr": "'Arztbrief' (doktor mektubu veya taburcu özeti) hastanın durumu hakkında özlü bir genel bakış sunar."
+            },
+            "points": 10,
+            "id": "e32_06"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die endgültige  ____________ wird nach Auswertung aller Befunde gestellt.",
+                "en": "The final ____________ is made after evaluating all the findings.",
+                "bn": "সমস্ত ফলাফল মূল্যায়ন করার পরে চূড়ান্ত ____________ তৈরি করা হয়।",
+                "hi": "सभी निष्कर्षों का मूल्यांकन करने के बाद अंतिम ____________ बनाया जाता है।",
+                "ur": "تمام نتائج کی جانچ کے بعد حتمی ____________ کیا جاتا ہے۔",
+                "tr": "Tüm bulguları değerlendirdikten sonra nihai ____________ yapılır."
+            },
+            "correctAnswer": "Diagnose",
+            "explanation": {
+                "en": "The 'Diagnose' (diagnosis) is determined after reviewing all available data.",
+                "bn": "'Diagnose' (রোগ নির্ণয়) সমস্ত উপলব্ধ ডেটা পর্যালোচনা করার পরে নির্ধারিত হয়।",
+                "hi": "'Diagnose' (निदान) सभी उपलब्ध डेटा की समीक्षा करने के बाद निर्धारित किया जाता है।",
+                "ur": "'Diagnose' (تشخیص) تمام دستیاب ڈیٹا کا جائزہ لینے کے بعد طے کیا جاتا ہے۔",
+                "tr": "'Diagnose' (teşhis) mevcut tüm verileri inceledikten sonra belirlenir."
+            },
+            "points": 10,
+            "id": "e32_07"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bei der _____________ erhebt man die Krankengeschichte des Patienten.",
+                "en": "During the _____________ the patient's medical history is taken.",
+                "bn": "_____________ চলাকালীন রোগীর চিকিৎসা ইতিহাস নেওয়া হয়।",
+                "hi": "_____________ के दौरान रोगी का चिकित्सा इतिहास लिया जाता है।",
+                "ur": "_____________ کے دوران مریض کی طبی تاریخ لی جاتی ہے۔",
+                "tr": "_____________ sırasında hastanın tıbbi geçmişi alınır."
+            },
+            "correctAnswer": "Anamnese",
+            "explanation": {
+                "en": "The 'Anamnese' (medical history) is the process of gathering information about the patient's past and present health conditions.",
+                "bn": "'Anamnese' (চিকিৎসা ইতিহাস) হল রোগীর অতীত এবং বর্তমান স্বাস্থ্য পরিস্থিতি সম্পর্কে তথ্য সংগ্রহের প্রক্রিয়া।",
+                "hi": "'एनाम्नेसे' (चिकित्सा इतिहास) रोगी की पिछली और वर्तमान स्वास्थ्य स्थितियों के बारे में जानकारी एकत्र करने की प्रक्रिया है।",
+                "ur": "'اینامنیسی' (طبی تاریخ) مریض کی ماضی اور حال کی صحت کی حالت کے بارے میں معلومات جمع کرنے کا عمل ہے۔",
+                "tr": "'Anamnese' (tıbbi geçmiş), hastanın geçmiş ve şimdiki sağlık durumları hakkında bilgi toplama sürecidir."
+            },
+            "points": 10,
+            "id": "e32_08"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Eine ausführliche ______________ ist wichtig für die korrekte Diagnose.",
+                "en": "A detailed ______________ is important for a correct diagnosis.",
+                "bn": "সঠিক রোগ নির্ণয়ের জন্য একটি বিস্তারিত ______________ গুরুত্বপূর্ণ।",
+                "hi": "सही निदान के लिए एक विस्तृत ______________ महत्वपूर्ण है।",
+                "ur": "درست تشخیص کے لیے ایک تفصیلی ______________ اہم ہے۔",
+                "tr": "Doğru bir teşhis için ayrıntılı bir ______________ önemlidir."
+            },
+            "correctAnswer": "Fallvorstellung",
+            "explanation": {
+                "en": "A detailed 'Fallvorstellung' (case presentation) is crucial for accurate diagnosis and treatment planning.",
+                "bn": "সঠিক রোগ নির্ণয় এবং চিকিৎসার পরিকল্পনার জন্য একটি বিস্তারিত 'Fallvorstellung' (কেস উপস্থাপনা) অত্যন্ত গুরুত্বপূর্ণ।",
+                "hi": "सटीक निदान और उपचार योजना के लिए एक विस्तृत 'Fallvorstellung' (केस प्रस्तुति) महत्वपूर्ण है।",
+                "ur": "درست تشخیص اور علاج کی منصوبہ بندی کے لیے ایک تفصیلی 'Fallvorstellung' (کیس پریزنٹیشن) اہم ہے۔",
+                "tr": "Doğru tanı ve tedavi planlaması için ayrıntılı bir 'Fallvorstellung' (vaka sunumu) çok önemlidir."
+            },
+            "points": 10,
+            "id": "e32_09"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Während der ______________ werden Patienten in der Klinik von Ärzten untersucht.",
+                "en": "During the ______________ patients are examined by doctors in the clinic.",
+                "bn": "______________ চলাকালীন ক্লিনিকে ডাক্তাররা রোগীদের পরীক্ষা করেন।",
+                "hi": "______________ के दौरान क्लिनिक में डॉक्टर मरीजों की जांच करते हैं।",
+                "ur": "______________ کے دوران کلینک میں ڈاکٹر مریضوں کا معائنہ کرتے ہیں۔",
+                "tr": "______________ sırasında klinikte doktorlar tarafından hastalar muayene edilir."
+            },
+            "correctAnswer": "Visite",
+            "explanation": {
+                "en": "During the 'Visite' (ward round), doctors examine patients in the clinic or hospital to monitor their progress and adjust treatment plans.",
+                "bn": "'Visite' (ওয়ার্ড রাউন্ড) চলাকালীন, ডাক্তাররা রোগীদের অগ্রগতি পর্যবেক্ষণ করতে এবং চিকিৎসার পরিকল্পনা সামঞ্জস্য করতে ক্লিনিকে বা হাসপাতালে রোগীদের পরীক্ষা করেন।",
+                "hi": "'विज़िट' (वार्ड राउंड) के दौरान, डॉक्टर रोगियों की प्रगति की निगरानी और उपचार योजनाओं को समायोजित करने के लिए क्लिनिक या अस्पताल में रोगियों की जांच करते हैं।",
+                "ur": "'Visite' (وارڈ راؤنڈ) کے دوران، ڈاکٹر مریضوں کی پیشرفت کی نگرانی اور علاج کے منصوبوں کو ایڈجسٹ کرنے کے لیے کلینک یا ہسپتال میں مریضوں کا معائنہ کرتے ہیں۔",
+                "tr": "'Visite' (vizit) sırasında doktorlar, hastaların ilerlemesini izlemek ve tedavi planlarını ayarlamak için klinikte veya hastanede hastaları muayene eder."
+            },
+            "points": 10,
+            "id": "e32_10"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Ziel einer 'Fallvorstellung'?",
+                "en": "What is the goal of a 'Fallvorstellung'?",
+                "bn": "'Fallvorstellung'-এর লক্ষ্য কী?",
+                "hi": "'Fallvorstellung' का लक्ष्य क्या है?",
+                "ur": "'Fallvorstellung' کا مقصد کیا ہے؟",
+                "tr": "'Fallvorstellung'ın amacı nedir?"
+            },
+            "options": [
+                "Die Diagnose geheim halten",
+                "Eine ausführliche Patientenpräsentation",
+                "Die Behandlung hinauszögern",
+                "Informationen zu verbergen"
+            ],
+            "correctAnswer": "Eine ausführliche Patientenpräsentation",
+            "explanation": {
+                "en": "The goal of a 'Fallvorstellung' is to provide a comprehensive and organized presentation of a patient's case.",
+                "bn": "'Fallvorstellung'-এর লক্ষ্য হল রোগীর কেসের একটি ব্যাপক এবং সংগঠিত উপস্থাপনা প্রদান করা।",
+                "hi": "'Fallvorstellung' का लक्ष्य रोगी के मामले की व्यापक और व्यवस्थित प्रस्तुति प्रदान करना है।",
+                "ur": "'Fallvorstellung' کا مقصد مریض کے کیس کی جامع اور منظم پیشکش فراہم کرنا ہے۔",
+                "tr": "'Fallvorstellung'ın amacı, bir hastanın vakasının kapsamlı ve organize bir sunumunu sağlamaktır."
+            },
+            "points": 10,
+            "id": "e32_11"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage über die 'Diagnose' ist korrekt?",
+                "en": "Which statement about the 'Diagnose' is correct?",
+                "bn": "'Diagnose' সম্পর্কে কোন উক্তিটি সঠিক?",
+                "hi": "'Diagnose' के बारे में कौन सा कथन सही है?",
+                "ur": "'Diagnose' کے بارے میں کون سا بیان درست ہے؟",
+                "tr": "'Diagnose' hakkında hangi ifade doğrudur?"
+            },
+            "options": [
+                "Sie basiert nur auf subjektiven Symptomen",
+                "Sie ist eine Vermutung",
+                "Sie ist eine wissenschaftlich fundierte Aussage",
+                "Sie ist irrelevant für die Behandlung"
+            ],
+            "correctAnswer": "Sie ist eine wissenschaftlich fundierte Aussage",
+            "explanation": {
+                "en": "The 'Diagnose' is a scientifically based statement about the patient's condition, derived from objective and subjective data.",
+                "bn": "'Diagnose' হল রোগীর অবস্থা সম্পর্কে একটি বিজ্ঞানভিত্তিক বিবৃতি, যা উদ্দেশ্যমূলক এবং ব্যক্তিগত ডেটা থেকে উদ্ভূত।",
+                "hi": "'Diagnose' रोगी की स्थिति के बारे में एक वैज्ञानिक रूप से आधारित कथन है, जो उद्देश्य और व्यक्तिपरक डेटा से प्राप्त होता है।",
+                "ur": "'Diagnose' مریض کی حالت کے بارے میں ایک سائنسی بنیاد پر بیان ہے، جو معروضی اور موضوعی ڈیٹا سے اخذ کیا گیا ہے۔",
+                "tr": "'Diagnose', objektif ve subjektif verilerden elde edilen, hastanın durumu hakkında bilimsel temelli bir ifadedir."
+            },
+            "points": 10,
+            "id": "e32_12"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Informationen sind in der 'Medikamentenanamnese' enthalten?",
+                "en": "What information is included in the 'Medikamentenanamnese'?",
+                "bn": "'Medikamentenanamnese'-এ কী তথ্য অন্তর্ভুক্ত?",
+                "hi": "'Medikamentenanamnese' में कौन सी जानकारी शामिल है?",
+                "ur": "'Medikamentenanamnese' میں کیا معلومات شامل ہیں؟",
+                "tr": "'Medikamentenanamnese'de hangi bilgiler yer alır?"
+            },
+            "options": [
+                "Nur aktuelle Medikamente",
+                "Nur frühere Medikamente",
+                "Alle aktuellen und früheren Medikamente, Dosierungen und Gründe",
+                "Nur rezeptfreie Medikamente"
+            ],
+            "correctAnswer": "Alle aktuellen und früheren Medikamente, Dosierungen und Gründe",
+            "explanation": {
+                "en": "The 'Medikamentenanamnese' includes a comprehensive list of all current and past medications, their dosages, and the reasons for their use.",
+                "bn": "'Medikamentenanamnese'-এ সমস্ত বর্তমান এবং অতীতের ওষুধের একটি বিস্তৃত তালিকা, তাদের ডোজ এবং ব্যবহারের কারণগুলি অন্তর্ভুক্ত।",
+                "hi": "'Medikamentenanamnese' में सभी वर्तमान और पिछली दवाओं, उनकी खुराक और उनके उपयोग के कारणों की एक व्यापक सूची शामिल है।",
+                "ur": "'Medikamentenanamnese' میں تمام موجودہ اور ماضی کی ادویات، ان کی خوراکیں اور ان کے استعمال کی وجوہات کی ایک جامع فہرست شامل ہے۔",
+                "tr": "'Medikamentenanamnese', tüm mevcut ve geçmiş ilaçların, dozajlarının ve kullanım nedenlerinin kapsamlı bir listesini içerir."
+            },
+            "points": 10,
+            "id": "e32_13"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Übersetzen Sie: 'Der Patient klagt über starke Bauchschmerzen.'",
+                "en": "Translate: 'The patient complains of severe abdominal pain.'",
+                "bn": "অনুবাদ করুন: 'রোগী তীব্র পেটে ব্যথার অভিযোগ করছেন।'",
+                "hi": "अनुवाद करें: 'रोगी को पेट में तेज दर्द की शिकायत है।'",
+                "ur": "ترجمہ کریں: 'مریض کو پیٹ میں شدید درد کی شکایت ہے۔'",
+                "tr": "Çeviriniz: 'Hasta şiddetli karın ağrısından şikayet ediyor.'"
+            },
+            "correctAnswer": "The patient complains of severe abdominal pain.",
+            "explanation": {
+                "en": "Direct translation of the German phrase.",
+                "bn": "জার্মান বাক্যাংশের সরাসরি অনুবাদ।",
+                "hi": "जर्मन वाक्यांश का सीधा अनुवाद।",
+                "ur": "جرمن جملے کا براہ راست ترجمہ۔",
+                "tr": "Almanca ifadenin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e32_14"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Übersetzen Sie: 'Der Befund zeigt eine Entzündung der Lunge.'",
+                "en": "Translate: 'The findings show an inflammation of the lung.'",
+                "bn": "অনুবাদ করুন: 'ফলাফল ফুসফুসের প্রদাহ দেখায়।'",
+                "hi": "अनुवाद करें: 'निष्कर्ष फेफड़ों की सूजन दिखाते हैं।'",
+                "ur": "ترجمہ کریں: 'نتائج پھیپھڑوں کی سوزش کو ظاہر کرتے ہیں۔'",
+                "tr": "Çeviriniz: 'Bulgular akciğerde bir iltihap olduğunu gösteriyor.'"
+            },
+            "correctAnswer": "The findings show an inflammation of the lung.",
+            "explanation": {
+                "en": "Direct translation of the German phrase.",
+                "bn": "জার্মান বাক্যাংশের সরাসরি অনুবাদ।",
+                "hi": "जर्मन वाक्यांश का सीधा अनुवाद।",
+                "ur": "جرمن جملے کا براہ راست ترجمہ۔",
+                "tr": "Almanca ifadenin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e32_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Übersetzen Sie: 'Die Diagnose lautet Diabetes mellitus Typ 2.'",
+                "en": "Translate: 'The diagnosis is type 2 diabetes mellitus.'",
+                "bn": "অনুবাদ করুন: 'রোগ নির্ণয় হল টাইপ 2 ডায়াবেটিস মেলিটাস।'",
+                "hi": "अनुवाद करें: 'निदान टाइप 2 मधुमेह मेलेटस है।'",
+                "ur": "ترجمہ کریں: 'تشخیص ٹائپ 2 ذیابیطس میلیتس ہے۔'",
+                "tr": "Çeviriniz: 'Teşhis, tip 2 diabetes mellitus'tur.'"
+            },
+            "correctAnswer": "The diagnosis is type 2 diabetes mellitus.",
+            "explanation": {
+                "en": "Direct translation of the German phrase.",
+                "bn": "জার্মান বাক্যাংশের সরাসরি অনুবাদ।",
+                "hi": "जर्मन वाक्यांश का सीधा अनुवाद।",
+                "ur": "جرمن جملے کا براہ راست ترجمہ۔",
+                "tr": "Almanca ifadenin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e32_16"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist NICHT Teil der 'Patientenvorstellung' bei einer Visite?",
+                "en": "What is NOT part of the 'Patientenvorstellung' during a ward round?",
+                "bn": "ওয়ার্ড রাউন্ডের সময় 'রোগীর উপস্থাপনা'-এর অংশ কী নয়?",
+                "hi": "वार्ड राउंड के दौरान 'रोगी प्रस्तुति' का हिस्सा क्या नहीं है?",
+                "ur": "وارڈ راؤنڈ کے دوران 'مریض کی پیش کش' کا حصہ کیا نہیں ہے؟",
+                "tr": "Vizit sırasında 'hasta sunumu'nun bir parçası olmayan nedir?"
+            },
+            "options": [
+                "Die aktuellen Beschwerden",
+                "Die Familienanamnese der letzten 5 Generationen",
+                "Die wichtigsten Befunde",
+                "Die geplante Therapie"
+            ],
+            "correctAnswer": "Die Familienanamnese der letzten 5 Generationen",
+            "explanation": {
+                "en": "A detailed family history spanning 5 generations is usually not part of a routine 'Patientenvorstellung'. Focus is on relevant information.",
+                "bn": "5 প্রজন্ম বিস্তৃত একটি বিস্তারিত পারিবারিক ইতিহাস সাধারণত রুটিন 'রোগীর উপস্থাপনা'-এর অংশ নয়। প্রাসঙ্গিক তথ্যের উপর মনোযোগ দেওয়া হয়।",
+                "hi": "5 पीढ़ियों तक फैला एक विस्तृत पारिवारिक इतिहास आमतौर पर एक नियमित 'रोगी प्रस्तुति' का हिस्सा नहीं होता है। प्रासंगिक जानकारी पर ध्यान केंद्रित किया जाता है।",
+                "ur": "5 نسلوں پر محیط ایک تفصیلی خاندانی تاریخ عام طور پر معمول کی 'مریض کی پیش کش' کا حصہ نہیں ہوتی ہے۔ توجہ متعلقہ معلومات پر ہوتی ہے۔",
+                "tr": "5 nesli kapsayan ayrıntılı bir aile öyküsü genellikle rutin bir 'hasta sunumu'nun parçası değildir. Odak noktası ilgili bilgilerdir."
+            },
+            "points": 10,
+            "id": "e32_17"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

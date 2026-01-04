@@ -1,14 +1,1602 @@
-{"id":"section_06","phaseId":"phase1","order":6,"titleDe":"Zeit und Dienstplan","title":{"en":"Time & Scheduling","bn":"সময় এবং সূচি","hi":"समय और शेड्यूल","ur":"وقت اور شیڈول","tr":"Zaman ve Program"},"level":"A1","estimatedMinutes":25,"vocabulary":[
-{"id":"v06_01","germanTerm":"Frühschicht","article":"die","plural":"Frühschichten","translation":{"en":"Early Shift","bn":"সকালের শিফট","hi":"सुबह की शिफ्ट","ur":"صبح کی شفٹ","tr":"Sabah nöbeti"}},
-{"id":"v06_02","germanTerm":"Spätschicht","article":"die","plural":"Spätschichten","translation":{"en":"Late Shift","bn":"বিকালের শিফট","hi":"शाम की शिफ्ट","ur":"شام کی شفٹ","tr":"Akşam nöbeti"}},
-{"id":"v06_03","germanTerm":"Nachtdienst","article":"der","plural":"Nachtdienste","translation":{"en":"Night Duty","bn":"রাতের ডিউটি","hi":"रात की ड्यूटी","ur":"رات کی ڈیوٹی","tr":"Gece nöbeti"}},
-{"id":"v06_04","germanTerm":"Bereitschaftsdienst","article":"der","plural":"Bereitschaftsdienste","translation":{"en":"On-call Duty","bn":"অন-কল ডিউটি","hi":"ऑन-कॉल ड्यूटी","ur":"آن کال ڈیوٹی","tr":"İcap nöbeti"}},
-{"id":"v06_05","germanTerm":"Termin","article":"der","plural":"Termine","translation":{"en":"Appointment","bn":"অ্যাপয়েন্টমেন্ট","hi":"अपॉइंटमेंट","ur":"اپائنٹمنٹ","tr":"Randevu"}},
-{"id":"v06_06","germanTerm":"Dienstplan","article":"der","plural":"Dienstpläne","translation":{"en":"Duty Roster","bn":"ডিউটি রোস্টার","hi":"ड्यूटी रोस्टर","ur":"ڈیوٹی روسٹر","tr":"Nöbet çizelgesi"}},
-{"id":"v06_07","germanTerm":"Uhrzeit","article":"die","plural":"Uhrzeiten","translation":{"en":"Time","bn":"সময়","hi":"समय","ur":"وقت","tr":"Saat"}},
-{"id":"v06_08","germanTerm":"Pause","article":"die","plural":"Pausen","translation":{"en":"Break","bn":"বিরতি","hi":"ब्रेक","ur":"وقفہ","tr":"Mola"}}
-],"dialogues":[{"id":"d06_01","title":{"en":"Shift Handover"},"lines":[
-{"speaker":"Arzt A","germanText":"Ich habe heute Nachtdienst.","translation":{"en":"I have night duty today."}},
-{"speaker":"Arzt B","germanText":"Wann beginnt Ihre Schicht?","translation":{"en":"When does your shift start?"}},
-{"speaker":"Arzt A","germanText":"Um zwanzig Uhr.","translation":{"en":"At 8 PM."}}
-]}],"exercises":[{"id":"e06_01","type":"multipleChoice","question":{"en":"What is 'Nachtdienst'?"},"options":["Night Duty","Day Shift","Break"],"correctAnswer":"Night Duty","points":10}]}
+{
+    "id": "section_06",
+    "phaseId": "phase1",
+    "order": 6,
+    "titleDe": "Zeit und Dienstplan",
+    "title": {
+        "en": "Time & Scheduling in German Healthcare",
+        "de": "Zeit & Planung im deutschen Gesundheitswesen",
+        "bn": "জার্মান স্বাস্থ্যসেবার সময় এবং সময়সূচী",
+        "hi": "जर्मन स्वास्थ्य सेवा में समय और समय-निर्धारण",
+        "ur": "جرمن صحت کی دیکھ بھال میں وقت اور شیڈولنگ",
+        "tr": "Alman Sağlık Hizmetlerinde Zaman ve Programlama"
+    },
+    "description": {
+        "en": "This section covers essential vocabulary and expressions related to time and scheduling within the German medical environment, including shifts, appointments, and weekdays.",
+        "de": "Dieser Abschnitt behandelt wichtige Vokabeln und Ausdrücke im Zusammenhang mit Zeit und Planung im deutschen medizinischen Umfeld, einschließlich Schichten, Termine und Wochentage.",
+        "bn": "এই বিভাগে জার্মান চিকিৎসা পরিবেশে সময় এবং সময়সূচী সম্পর্কিত প্রয়োজনীয় শব্দভাণ্ডার এবং অভিব্যক্তি অন্তর্ভুক্ত রয়েছে, যেমন শিফট, অ্যাপয়েন্টমেন্ট এবং সপ্তাহের দিন।",
+        "hi": "इस अनुभाग में जर्मन चिकित्सा वातावरण में समय और समय-निर्धारण से संबंधित आवश्यक शब्दावली और अभिव्यक्तियाँ शामिल हैं, जैसे शिफ्ट, अपॉइंटमेंट और सप्ताह के दिन।",
+        "ur": "اس حصے میں جرمن طبی ماحول میں وقت اور شیڈولنگ سے متعلق ضروری الفاظ اور تاثرات شامل ہیں، جیسے شفٹ، تقرری اور ہفتے کے دن۔",
+        "tr": "Bu bölüm, Alman tıbbi ortamında vardiyalar, randevular ve haftanın günleri dahil olmak üzere zaman ve programlama ile ilgili temel kelime ve ifadeleri kapsar."
+    },
+    "level": "A1",
+    "estimatedMinutes": 45,
+    "isPremium": false,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, you will learn how to discuss work schedules and appointments using common German medical terminology. Understanding these terms is crucial for effective communication in a German-speaking healthcare setting.",
+            "de": "In diesem Abschnitt lernen Sie, wie Sie Arbeitspläne und Termine mit gängiger deutscher medizinischer Terminologie besprechen. Das Verständnis dieser Begriffe ist entscheidend für eine effektive Kommunikation im deutschsprachigen Gesundheitswesen.",
+            "bn": "এই বিভাগে, আপনি সাধারণ জার্মান চিকিৎসা পরিভাষা ব্যবহার করে কাজের সময়সূচী এবং অ্যাপয়েন্টমেন্ট নিয়ে আলোচনা করতে শিখবেন। জার্মান-ভাষী স্বাস্থ্যসেবা সেটিংয়ে কার্যকর যোগাযোগের জন্য এই শব্দগুলি বোঝা অত্যন্ত গুরুত্বপূর্ণ।",
+            "hi": "इस अनुभाग में, आप सामान्य जर्मन चिकित्सा शब्दावली का उपयोग करके कार्य शेड्यूल और अपॉइंटमेंट पर चर्चा करना सीखेंगे। जर्मन भाषी स्वास्थ्य सेवा सेटिंग में प्रभावी संचार के लिए इन शब्दों को समझना महत्वपूर्ण है।",
+            "ur": "اس حصے میں، آپ عام جرمن طبی اصطلاحات کا استعمال کرتے ہوئے کام کے نظام الاوقات اور تقرریوں پر بات کرنا سیکھیں گے۔ جرمن بولنے والے صحت کی دیکھ بھال کے ماحول میں مؤثر مواصلات کے لیے ان اصطلاحات کو سمجھنا بہت ضروری ہے۔",
+            "tr": "Bu bölümde, yaygın Alman tıbbi terminolojisini kullanarak iş çizelgelerini ve randevuları nasıl tartışacağınızı öğreneceksiniz. Bu terimleri anlamak, Almanca konuşulan bir sağlık ortamında etkili iletişim için çok önemlidir."
+        },
+        "grammarFocus": {
+            "en": {
+                "bullet1": "Prepositions of time (e.g., *am*, *um*, *von...bis*).",
+                "bullet2": "Use of the accusative and dative cases with time expressions."
+            },
+            "de": {
+                "bullet1": "Präpositionen der Zeit (z.B. *am*, *um*, *von...bis*).",
+                "bullet2": "Verwendung des Akkusativs und Dativs bei Zeitangaben."
+            },
+            "bn": {
+                "bullet1": "সময়ের প্রস্তাবনা (যেমন, *am*, *um*, *von...bis*)।",
+                "bullet2": "সময়ের অভিব্যক্তি সহ অভিযুক্ত এবং ডেটিভ কেসের ব্যবহার।"
+            },
+            "hi": {
+                "bullet1": "समय के पूर्वसर्ग (जैसे, *am*, *um*, *von...bis*)।",
+                "bullet2": "समय अभिव्यक्तियों के साथ कर्मकारक और डैटिव मामलों का उपयोग।"
+            },
+            "ur": {
+                "bullet1": "وقت کے حروف جار (مثال کے طور پر، *am*, *um*, *von...bis*)।",
+                "bullet2": "وقت کے تاثرات کے ساتھ الزامی اور ڈیٹو کیسز کا استعمال۔"
+            },
+            "tr": {
+                "bullet1": "Zaman edatları (örn. *am*, *um*, *von...bis*).",
+                "bullet2": "Zaman ifadeleriyle akuzatif ve datif hallerin kullanımı."
+            }
+        },
+        "culturalNotes": {
+            "en": "German hospitals often have strict adherence to schedules and punctuality is highly valued.",
+            "de": "Deutsche Krankenhäuser legen oft Wert auf die strikte Einhaltung von Zeitplänen, und Pünktlichkeit wird sehr geschätzt.",
+            "bn": "জার্মান হাসপাতালগুলি প্রায়শই সময়সূচী কঠোরভাবে মেনে চলে এবং সময়ানুবর্তিতাকে অত্যন্ত মূল্যবান মনে করা হয়।",
+            "hi": "जर्मन अस्पताल अक्सर समय सारिणी का सख्ती से पालन करते हैं और समय की पाबंदी को अत्यधिक महत्व दिया जाता है।",
+            "ur": "جرمن اسپتال اکثر نظام الاوقات کی سختی سے پابندی کرتے ہیں اور وقت کی پابندی کو بہت اہمیت دی جاتی ہے۔",
+            "tr": "Alman hastaneleri genellikle programlara sıkı sıkıya bağlı kalır ve dakikliğe büyük değer verilir."
+        },
+        "summary": {
+            "en": "By mastering this vocabulary, you will be better equipped to communicate about scheduling and time-related matters in a German medical setting.",
+            "de": "Durch die Beherrschung dieses Vokabulars sind Sie besser gerüstet, um in einem deutschen medizinischen Umfeld über Terminplanung und zeitbezogene Angelegenheiten zu kommunizieren.",
+            "bn": "এই শব্দভাণ্ডার আয়ত্ত করে, আপনি একটি জার্মান চিকিৎসা সেটিংয়ে সময়সূচী এবং সময় সম্পর্কিত বিষয়গুলি সম্পর্কে যোগাযোগ করতে আরও ভালভাবে সজ্জিত হবেন।",
+            "hi": "इस शब्दावली में महारत हासिल करके, आप जर्मन चिकित्सा सेटिंग में शेड्यूलिंग और समय से संबंधित मामलों के बारे में संवाद करने के लिए बेहतर ढंग से सुसज्जित होंगे।",
+            "ur": "اس ذخیرہ الفاظ میں مہارت حاصل کرنے سے، آپ جرمن طبی ترتیب میں نظام الاوقات اور وقت سے متعلق معاملات کے بارے میں بات چیت کرنے کے لیے بہتر طور پر لیس ہوں گے۔",
+            "tr": "Bu kelime dağarcığına hakim olarak, bir Alman tıbbi ortamında programlama ve zamanla ilgili konularda iletişim kurmak için daha donanımlı olacaksınız."
+        },
+        "learningObjectives": [
+            "Identify and define common German terms for work shifts.",
+            "Describe appointment times and daily routines in German.",
+            "Utilize correct German grammar for time expressions.",
+            "Demonstrate awareness of cultural expectations related to time in German healthcare."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "Frühschicht",
+            "article": "die",
+            "plural": "Frühschichten",
+            "pronunciation": "ˈfʁyːˌʃɪçt",
+            "category": "noun",
+            "translation": {
+                "en": "early shift",
+                "bn": "ভোরের শিফট",
+                "hi": "सुबह की शिफ्ट",
+                "ur": "صبح کی شفٹ",
+                "tr": "erken vardiya"
+            },
+            "exampleSentence": "Ich habe heute Frühschicht und muss um 6 Uhr anfangen.",
+            "exampleTranslation": {
+                "en": "I have an early shift today and have to start at 6 am.",
+                "bn": "আজ আমার ভোরের শিফট, এবং আমাকে সকাল ৬টায় শুরু করতে হবে।",
+                "hi": "आज मेरी सुबह की शिफ्ट है और मुझे सुबह 6 बजे शुरू करना है।",
+                "ur": "آج میری صبح کی شفٹ ہے اور مجھے صبح 6 بجے شروع کرنا ہے۔",
+                "tr": "Bugün erken vardiyam var ve sabah 6'da başlamam gerekiyor."
+            },
+            "id": "v06_01"
+        },
+        {
+            "germanTerm": "Spätschicht",
+            "article": "die",
+            "plural": "Spätschichten",
+            "pronunciation": "ˈʃpɛːtˌʃɪçt",
+            "category": "noun",
+            "translation": {
+                "en": "late shift",
+                "bn": "রাতের শিফট",
+                "hi": "देर की शिफ्ट",
+                "ur": "دیر کی شفٹ",
+                "tr": "geç vardiya"
+            },
+            "exampleSentence": "Die Spätschicht beginnt um 14 Uhr.",
+            "exampleTranslation": {
+                "en": "The late shift starts at 2 pm.",
+                "bn": "রাতের শিফট দুপুর ২টায় শুরু হয়।",
+                "hi": "देर की शिफ्ट दोपहर 2 बजे शुरू होती है।",
+                "ur": "دیر کی شفٹ دوپہر 2 بجے شروع ہوتی ہے۔",
+                "tr": "Geç vardiya saat 14:00'da başlar."
+            },
+            "id": "v06_02"
+        },
+        {
+            "germanTerm": "Nachtdienst",
+            "article": "der",
+            "plural": "Nachtdienste",
+            "pronunciation": "ˈnaxtˌdiːnst",
+            "category": "noun",
+            "translation": {
+                "en": "night shift",
+                "bn": "রাতের ডিউটি",
+                "hi": "रात्रि ड्यूटी",
+                "ur": "رات کی ڈیوٹی",
+                "tr": "gece nöbeti"
+            },
+            "exampleSentence": "Nach dem Nachtdienst bin ich sehr müde.",
+            "exampleTranslation": {
+                "en": "I am very tired after the night shift.",
+                "bn": "রাতের ডিউটির পর আমি খুব ক্লান্ত।",
+                "hi": "रात्रि ड्यूटी के बाद मैं बहुत थका हुआ हूँ।",
+                "ur": "رات کی ڈیوٹی کے بعد میں بہت تھکا ہوا ہوں۔",
+                "tr": "Gece nöbetinden sonra çok yorgunum."
+            },
+            "id": "v06_03"
+        },
+        {
+            "germanTerm": "Bereitschaftsdienst",
+            "article": "der",
+            "plural": "Bereitschaftsdienste",
+            "pronunciation": "bəˈʁaɪ̯tʃaftsˌdiːnst",
+            "category": "noun",
+            "translation": {
+                "en": "on-call duty",
+                "bn": "অন-কল ডিউটি",
+                "hi": "ऑन-कॉल ड्यूटी",
+                "ur": "آن کال ڈیوٹی",
+                "tr": "nöbetçi hizmet"
+            },
+            "exampleSentence": "Ich habe dieses Wochenende Bereitschaftsdienst.",
+            "exampleTranslation": {
+                "en": "I have on-call duty this weekend.",
+                "bn": "এই সপ্তাহান্তে আমার অন-কল ডিউটি আছে।",
+                "hi": "मेरे पास इस सप्ताह के अंत में ऑन-कॉल ड्यूटी है।",
+                "ur": "میری اس ہفتے کے آخر میں آن کال ڈیوٹی ہے۔",
+                "tr": "Bu hafta sonu nöbetçi hizmetim var."
+            },
+            "id": "v06_04"
+        },
+        {
+            "germanTerm": "Termin",
+            "article": "der",
+            "plural": "Termine",
+            "pronunciation": "tɛʁˈmiːn",
+            "category": "noun",
+            "translation": {
+                "en": "appointment",
+                "bn": "অ্যাপয়েন্টমেন্ট",
+                "hi": "अपॉइंटमेंट",
+                "ur": "اپائنٹمنٹ",
+                "tr": "randevu"
+            },
+            "exampleSentence": "Der Patient hat einen Termin beim Arzt.",
+            "exampleTranslation": {
+                "en": "The patient has an appointment with the doctor.",
+                "bn": "রোগীর ডাক্তারের সাথে একটি অ্যাপয়েন্টমেন্ট আছে।",
+                "hi": "मरीज का डॉक्टर के साथ एक अपॉइंटमेंट है।",
+                "ur": "مریض کا ڈاکٹر کے ساتھ ایک اپائنٹمنٹ ہے۔",
+                "tr": "Hastanın doktorla randevusu var."
+            },
+            "id": "v06_05"
+        },
+        {
+            "germanTerm": "Uhrzeit",
+            "article": "die",
+            "plural": "Uhrzeiten",
+            "pronunciation": "ˈuːɐ̯ˌtsaɪ̯t",
+            "category": "noun",
+            "translation": {
+                "en": "time",
+                "bn": "সময়",
+                "hi": "समय",
+                "ur": "وقت",
+                "tr": "saat"
+            },
+            "exampleSentence": "Die Uhrzeit für die Operation ist 9 Uhr.",
+            "exampleTranslation": {
+                "en": "The time for the surgery is 9 am.",
+                "bn": "অপারেশনের সময় সকাল ৯টা।",
+                "hi": "सर्जरी का समय सुबह 9 बजे है।",
+                "ur": "سرجری کا وقت صبح 9 بجے ہے۔",
+                "tr": "Ameliyatın saati sabah 9."
+            },
+            "id": "v06_06"
+        },
+        {
+            "germanTerm": "Montag",
+            "article": "der",
+            "plural": "Montage",
+            "pronunciation": "ˈmoːntaːk",
+            "category": "noun",
+            "translation": {
+                "en": "Monday",
+                "bn": "সোমবার",
+                "hi": "सोमवार",
+                "ur": "پیر",
+                "tr": "Pazartesi"
+            },
+            "exampleSentence": "Am Montag ist Visite.",
+            "exampleTranslation": {
+                "en": "There is ward round on Monday.",
+                "bn": "সোমবারে ওয়ার্ড রাউন্ড আছে।",
+                "hi": "सोमवार को वार्ड राउंड है।",
+                "ur": "پیر کو وارڈ راؤنڈ ہے۔",
+                "tr": "Pazartesi günü vizit var."
+            },
+            "id": "v06_07"
+        },
+        {
+            "germanTerm": "Dienstag",
+            "article": "der",
+            "plural": "Dienstage",
+            "pronunciation": "ˈdiːnstaːk",
+            "category": "noun",
+            "translation": {
+                "en": "Tuesday",
+                "bn": "মঙ্গলবার",
+                "hi": "मंगलवार",
+                "ur": "منگل",
+                "tr": "Salı"
+            },
+            "exampleSentence": "Dienstag ist mein freier Tag.",
+            "exampleTranslation": {
+                "en": "Tuesday is my day off.",
+                "bn": "মঙ্গলবার আমার ছুটির দিন।",
+                "hi": "मंगलवार मेरा छुट्टी का दिन है।",
+                "ur": "منگل میرا چھٹی کا دن ہے۔",
+                "tr": "Salı benim izin günüm."
+            },
+            "id": "v06_08"
+        },
+        {
+            "germanTerm": "Mittwoch",
+            "article": "der",
+            "plural": "Mittwoche",
+            "pronunciation": "ˈmɪtvɔx",
+            "category": "noun",
+            "translation": {
+                "en": "Wednesday",
+                "bn": "বুধবার",
+                "hi": "बुधवार",
+                "ur": "بدھ",
+                "tr": "Çarşamba"
+            },
+            "exampleSentence": "Mittwoch haben wir Teambesprechung.",
+            "exampleTranslation": {
+                "en": "We have a team meeting on Wednesday.",
+                "bn": "আমাদের বুধবার দলীয় সভা আছে।",
+                "hi": "हमारी बुधवार को टीम की बैठक है।",
+                "ur": "ہماری بدھ کو ٹیم کی میٹنگ ہے۔",
+                "tr": "Çarşamba günü takım toplantımız var."
+            },
+            "id": "v06_09"
+        },
+        {
+            "germanTerm": "Donnerstag",
+            "article": "der",
+            "plural": "Donnerstage",
+            "pronunciation": "ˈdɔnɐstaːk",
+            "category": "noun",
+            "translation": {
+                "en": "Thursday",
+                "bn": "বৃহস্পতিবার",
+                "hi": "गुरुवार",
+                "ur": "جمعرات",
+                "tr": "Perşembe"
+            },
+            "exampleSentence": "Am Donnerstag ist der Chefarzt im Urlaub.",
+            "exampleTranslation": {
+                "en": "The head physician is on vacation on Thursday.",
+                "bn": "বৃহস্পতিবার প্রধান চিকিৎসক ছুটিতে আছেন।",
+                "hi": "गुरुवार को मुख्य चिकित्सक छुट्टी पर हैं।",
+                "ur": "جمعرات کو چیف معالج چھٹی پر ہیں۔",
+                "tr": "Başhekim Perşembe günü tatilde."
+            },
+            "id": "v06_10"
+        },
+        {
+            "germanTerm": "Freitag",
+            "article": "der",
+            "plural": "Freitage",
+            "pronunciation": "ˈfʁaɪ̯taːk",
+            "category": "noun",
+            "translation": {
+                "en": "Friday",
+                "bn": "শুক্রবার",
+                "hi": "शुक्रवार",
+                "ur": "جمعہ",
+                "tr": "Cuma"
+            },
+            "exampleSentence": "Freitag ist der letzte Tag der Arbeitswoche.",
+            "exampleTranslation": {
+                "en": "Friday is the last day of the work week.",
+                "bn": "শুক্রবার কর্ম সপ্তাহের শেষ দিন।",
+                "hi": "शुक्रवार कार्य सप्ताह का अंतिम दिन है।",
+                "ur": "جمعہ کام کے ہفتے کا آخری دن ہے۔",
+                "tr": "Cuma, çalışma haftasının son günüdür."
+            },
+            "id": "v06_11"
+        },
+        {
+            "germanTerm": "Samstag",
+            "article": "der",
+            "plural": "Samstage",
+            "pronunciation": "ˈzamstaːk",
+            "category": "noun",
+            "translation": {
+                "en": "Saturday",
+                "bn": "শনিবার",
+                "hi": "शनिवार",
+                "ur": "ہفتہ",
+                "tr": "Cumartesi"
+            },
+            "exampleSentence": "Samstag habe ich frei.",
+            "exampleTranslation": {
+                "en": "I have Saturday off.",
+                "bn": "শনিবার আমার ছুটি।",
+                "hi": "शनिवार को मेरी छुट्टी है।",
+                "ur": "ہفتہ کو میری چھٹی ہے۔",
+                "tr": "Cumartesi günü iznim var."
+            },
+            "id": "v06_12"
+        },
+        {
+            "germanTerm": "Sonntag",
+            "article": "der",
+            "plural": "Sonntage",
+            "pronunciation": "ˈzɔntaːk",
+            "category": "noun",
+            "translation": {
+                "en": "Sunday",
+                "bn": "রবিবার",
+                "hi": "रविवार",
+                "ur": "اتوار",
+                "tr": "Pazar"
+            },
+            "exampleSentence": "Sonntag ist Ruhetag.",
+            "exampleTranslation": {
+                "en": "Sunday is a day of rest.",
+                "bn": "রবিবার বিশ্রামের দিন।",
+                "hi": "रविवार आराम का दिन है।",
+                "ur": "اتوار آرام کا دن ہے۔",
+                "tr": "Pazar dinlenme günüdür."
+            },
+            "id": "v06_13"
+        },
+        {
+            "germanTerm": "Schichtplan",
+            "article": "der",
+            "plural": "Schichtpläne",
+            "pronunciation": "ˈʃɪçtˌplaːn",
+            "category": "noun",
+            "translation": {
+                "en": "shift schedule",
+                "bn": "শিফট পরিকল্পনা",
+                "hi": "शिफ्ट शेड्यूल",
+                "ur": "شفٹ شیڈول",
+                "tr": "vardiya çizelgesi"
+            },
+            "exampleSentence": "Der Schichtplan hängt am Schwarzen Brett.",
+            "exampleTranslation": {
+                "en": "The shift schedule is posted on the bulletin board.",
+                "bn": "শিফট পরিকল্পনাটি ব্ল্যাকবোর্ডে লাগানো আছে।",
+                "hi": "शिफ्ट शेड्यूल बुलेटिन बोर्ड पर लगा है।",
+                "ur": "شفٹ شیڈول بلٹین بورڈ پر لگا ہوا ہے۔",
+                "tr": "Vardiya çizelgesi panoya asılmıştır."
+            },
+            "id": "v06_14"
+        },
+        {
+            "germanTerm": "Dauer",
+            "article": "die",
+            "plural": "Dauern",
+            "pronunciation": "ˈdaʊ̯ɐ",
+            "category": "noun",
+            "translation": {
+                "en": "duration",
+                "bn": "সময়কাল",
+                "hi": "अवधि",
+                "ur": "مدت",
+                "tr": "süre"
+            },
+            "exampleSentence": "Die Dauer der Operation beträgt ca. 2 Stunden.",
+            "exampleTranslation": {
+                "en": "The duration of the surgery is about 2 hours.",
+                "bn": "অপারেশনের সময়কাল প্রায় ২ ঘন্টা।",
+                "hi": "सर्जरी की अवधि लगभग 2 घंटे है।",
+                "ur": "سرجری کی مدت تقریبا 2 گھنٹے ہے۔",
+                "tr": "Ameliyatın süresi yaklaşık 2 saattir."
+            },
+            "id": "v06_15"
+        },
+        {
+            "germanTerm": "pünktlich",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˈpʏŋktlɪç",
+            "category": "adjective",
+            "translation": {
+                "en": "punctual",
+                "bn": "সময়নিষ্ঠ",
+                "hi": "समय का पाबंद",
+                "ur": "وقت کا پابند",
+                "tr": "dakik"
+            },
+            "exampleSentence": "Seien Sie bitte pünktlich zum Termin.",
+            "exampleTranslation": {
+                "en": "Please be punctual for the appointment.",
+                "bn": "অনুগ্রহ করে অ্যাপয়েন্টমেন্টের জন্য সময়নিষ্ঠ হন।",
+                "hi": "कृपया अपॉइंटमेंट के लिए समय के पाबंद रहें।",
+                "ur": "برائے مہربانی اپائنٹمنٹ کے لیے وقت کے پابند رہیں۔",
+                "tr": "Lütfen randevuya zamanında gelin."
+            },
+            "id": "v06_16"
+        },
+        {
+            "germanTerm": "Verspätung",
+            "article": "die",
+            "plural": "Verspätungen",
+            "pronunciation": "fɛɐ̯ˈʃpɛːtʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "delay",
+                "bn": "দেরী",
+                "hi": "देरी",
+                "ur": "تاخیر",
+                "tr": "gecikme"
+            },
+            "exampleSentence": "Entschuldigung für die Verspätung.",
+            "exampleTranslation": {
+                "en": "Sorry for the delay.",
+                "bn": "দেরীর জন্য দুঃখিত।",
+                "hi": "देरी के लिए क्षमा करें।",
+                "ur": "تاخیر کے لیے معافی چاہتا ہوں۔",
+                "tr": "Gecikme için özür dilerim."
+            },
+            "id": "v06_17"
+        },
+        {
+            "germanTerm": "verschoben",
+            "article": null,
+            "plural": null,
+            "pronunciation": "fɛɐ̯ˈʃoːbn̩",
+            "category": "adjective",
+            "translation": {
+                "en": "postponed",
+                "bn": "স্থগিত",
+                "hi": "स्थगित",
+                "ur": "ملتوی",
+                "tr": "ertelenmiş"
+            },
+            "exampleSentence": "Der Termin wurde auf nächste Woche verschoben.",
+            "exampleTranslation": {
+                "en": "The appointment was postponed to next week.",
+                "bn": "অ্যাপয়েন্টমেন্টটি আগামী সপ্তাহে স্থগিত করা হয়েছে।",
+                "hi": "अपॉइंटमेंट अगले सप्ताह के लिए स्थगित कर दिया गया था।",
+                "ur": "اپائنٹمنٹ اگلے ہفتے تک ملتوی کر دیا گیا تھا۔",
+                "tr": "Randevu gelecek haftaya ertelendi."
+            },
+            "id": "v06_18"
+        },
+        {
+            "germanTerm": "vereinbaren",
+            "article": null,
+            "plural": null,
+            "pronunciation": "fɛɐ̯ˈʔaɪ̯nˌbaːʁən",
+            "category": "verb",
+            "translation": {
+                "en": "to arrange",
+                "bn": "ব্যবস্থা করা",
+                "hi": "व्यवस्थित करना",
+                "ur": "منظم کرنا",
+                "tr": "ayarlamak"
+            },
+            "exampleSentence": "Wir müssen einen neuen Termin vereinbaren.",
+            "exampleTranslation": {
+                "en": "We need to arrange a new appointment.",
+                "bn": "আমাদের একটি নতুন অ্যাপয়েন্টমেন্ট ব্যবস্থা করতে হবে।",
+                "hi": "हमें एक नया अपॉइंटमेंट व्यवस्थित करने की आवश्यकता है।",
+                "ur": "ہمیں ایک نیا اپائنٹمنٹ منظم کرنے کی ضرورت ہے۔",
+                "tr": "Yeni bir randevu ayarlamamız gerekiyor."
+            },
+            "id": "v06_19"
+        },
+        {
+            "germanTerm": "Wochenende",
+            "article": "das",
+            "plural": "Wochenenden",
+            "pronunciation": "ˈvɔxn̩ˌʔɛndə",
+            "category": "noun",
+            "translation": {
+                "en": "weekend",
+                "bn": "সপ্তাহান্ত",
+                "hi": "सप्ताहांत",
+                "ur": "ہفتہ وار اختتام",
+                "tr": "hafta sonu"
+            },
+            "exampleSentence": "Ich habe am Wochenende Bereitschaftsdienst.",
+            "exampleTranslation": {
+                "en": "I have on-call duty on the weekend.",
+                "bn": "সপ্তাহান্তে আমার অন-কল ডিউটি আছে।",
+                "hi": "मेरे पास सप्ताहांत पर ऑन-कॉल ड्यूटी है।",
+                "ur": "میرے پاس ہفتے کے آخر میں آن کال ڈیوٹی ہے۔",
+                "tr": "Hafta sonu nöbetçi hizmetim var."
+            },
+            "id": "v06_20"
+        },
+        {
+            "germanTerm": "planen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˈplaːnən",
+            "category": "verb",
+            "translation": {
+                "en": "to plan",
+                "bn": "পরিকল্পনা করা",
+                "hi": "योजना बनाना",
+                "ur": "منصوبہ بنانا",
+                "tr": "planlamak"
+            },
+            "exampleSentence": "Wir planen die Operation für nächste Woche.",
+            "exampleTranslation": {
+                "en": "We are planning the surgery for next week.",
+                "bn": "আমরা আগামী সপ্তাহের জন্য সার্জারি পরিকল্পনা করছি।",
+                "hi": "हम अगले सप्ताह के लिए सर्जरी की योजना बना रहे हैं।",
+                "ur": "ہم اگلے ہفتے کے لیے سرجری کی منصوبہ بندی کر رہے ہیں۔",
+                "tr": "Ameliyatı gelecek hafta için planlıyoruz."
+            },
+            "id": "v06_21"
+        },
+        {
+            "germanTerm": "Stunde",
+            "article": "die",
+            "plural": "Stunden",
+            "pronunciation": "ˈʃtʊndə",
+            "category": "noun",
+            "translation": {
+                "en": "hour",
+                "bn": "ঘণ্টা",
+                "hi": "घंटा",
+                "ur": "گھنٹہ",
+                "tr": "saat"
+            },
+            "exampleSentence": "Die Operation dauert eine Stunde.",
+            "exampleTranslation": {
+                "en": "The surgery takes one hour.",
+                "bn": "সার্জারিটি এক ঘন্টা লাগে।",
+                "hi": "सर्जरी में एक घंटा लगता है।",
+                "ur": "سرجری میں ایک گھنٹہ لگتا ہے۔",
+                "tr": "Ameliyat bir saat sürer."
+            },
+            "id": "v06_22"
+        },
+        {
+            "germanTerm": "Minute",
+            "article": "die",
+            "plural": "Minuten",
+            "pronunciation": "miˈnuːtə",
+            "category": "noun",
+            "translation": {
+                "en": "minute",
+                "bn": "মিনিট",
+                "hi": "मिनट",
+                "ur": "منٹ",
+                "tr": "dakika"
+            },
+            "exampleSentence": "Bitte warten Sie eine Minute.",
+            "exampleTranslation": {
+                "en": "Please wait a minute.",
+                "bn": "অনুগ্রহ করে এক মিনিট অপেক্ষা করুন।",
+                "hi": "कृपया एक मिनट प्रतीक्षा करें।",
+                "ur": "براہ کرم ایک منٹ انتظار کریں۔",
+                "tr": "Lütfen bir dakika bekleyin."
+            },
+            "id": "v06_23"
+        },
+        {
+            "germanTerm": "rechtzeitig",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˈʁɛçtˌtsaɪ̯tɪç",
+            "category": "adjective",
+            "translation": {
+                "en": "on time",
+                "bn": "সময় মতো",
+                "hi": "समय पर",
+                "ur": "وقت پر",
+                "tr": "zamanında"
+            },
+            "exampleSentence": "Der Patient muss rechtzeitig zur Untersuchung erscheinen.",
+            "exampleTranslation": {
+                "en": "The patient must appear on time for the examination.",
+                "bn": "রোগীকে পরীক্ষার জন্য সময় মতো উপস্থিত হতে হবে।",
+                "hi": "मरीज को परीक्षा के लिए समय पर उपस्थित होना चाहिए।",
+                "ur": "مریض کو امتحان کے لیے وقت پر حاضر ہونا چاہیے۔",
+                "tr": "Hasta muayeneye zamanında gelmelidir."
+            },
+            "id": "v06_24"
+        },
+        {
+            "germanTerm": "Absprache",
+            "article": "die",
+            "plural": "Absprachen",
+            "pronunciation": "ˈapˌʃpʁaːxə",
+            "category": "noun",
+            "translation": {
+                "en": "agreement",
+                "bn": "চুক্তি",
+                "hi": "समझौता",
+                "ur": "معاہدہ",
+                "tr": "anlaşma"
+            },
+            "exampleSentence": "Nach Absprache mit dem Arzt wird die Therapie geändert.",
+            "exampleTranslation": {
+                "en": "After agreement with the doctor, the therapy will be changed.",
+                "bn": "ডাক্তারের সাথে চুক্তির পরে, থেরাপি পরিবর্তন করা হবে।",
+                "hi": "डॉक्टर के साथ समझौते के बाद, थेरेपी बदल दी जाएगी।",
+                "ur": "ڈاکٹر کے ساتھ معاہدے کے بعد، تھراپی تبدیل کر دی جائے گی۔",
+                "tr": "Doktorla anlaşma sağlandıktan sonra terapi değiştirilecektir."
+            },
+            "id": "v06_25"
+        },
+        {
+            "germanTerm": "verzögern",
+            "article": null,
+            "plural": null,
+            "pronunciation": "fɛɐ̯ˈt͡søːɡɐn",
+            "category": "verb",
+            "translation": {
+                "en": "to delay",
+                "bn": "দেরী করা",
+                "hi": "देरी करना",
+                "ur": "تاخیر کرنا",
+                "tr": "geciktirmek"
+            },
+            "exampleSentence": "Das schlechte Wetter kann die Anreise verzögern.",
+            "exampleTranslation": {
+                "en": "The bad weather can delay the arrival.",
+                "bn": "খারাপ আবহাওয়া আগমনকে বিলম্বিত করতে পারে।",
+                "hi": "खराब मौसम आगमन में देरी कर सकता है।",
+                "ur": "خراب موسم آمد میں تاخیر کر سکتا ہے۔",
+                "tr": "Kötü hava koşulları gelişi geciktirebilir."
+            },
+            "id": "v06_26"
+        },
+        {
+            "germanTerm": "Kalender",
+            "article": "der",
+            "plural": "Kalender",
+            "pronunciation": "kaˈlɛndɐ",
+            "category": "noun",
+            "translation": {
+                "en": "calendar",
+                "bn": "ক্যালেন্ডার",
+                "hi": "कैलेंडर",
+                "ur": "کیلنڈر",
+                "tr": "takvim"
+            },
+            "exampleSentence": "Tragen Sie den Termin bitte in den Kalender ein.",
+            "exampleTranslation": {
+                "en": "Please enter the appointment in the calendar.",
+                "bn": "অনুগ্রহ করে ক্যালেন্ডারে অ্যাপয়েন্টমেন্টটি লিখুন।",
+                "hi": "कृपया कैलेंडर में अपॉइंटमेंट दर्ज करें।",
+                "ur": "برائے مہربانی کیلنڈر میں اپائنٹمنٹ درج کریں۔",
+                "tr": "Lütfen randevuyu takvime kaydedin."
+            },
+            "id": "v06_27"
+        },
+        {
+            "germanTerm": "abgesagt",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˈapɡəˌzaːkt",
+            "category": "adjective",
+            "translation": {
+                "en": "canceled",
+                "bn": "বাতিল",
+                "hi": "रद्द किया हुआ",
+                "ur": "منسوخ",
+                "tr": "iptal edilmiş"
+            },
+            "exampleSentence": "Der Termin wurde kurzfristig abgesagt.",
+            "exampleTranslation": {
+                "en": "The appointment was canceled at short notice.",
+                "bn": "অ্যাপয়েন্টমেন্টটি অল্প সময়ের নোটিশে বাতিল করা হয়েছে।",
+                "hi": "अपॉइंटमेंट को कम समय के नोटिस पर रद्द कर दिया गया था।",
+                "ur": "اپائنٹمنٹ کو کم وقت کے نوٹس پر منسوخ کر دیا گیا تھا۔",
+                "tr": "Randevu kısa sürede iptal edildi."
+            },
+            "id": "v06_28"
+        },
+        {
+            "germanTerm": "regulär",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ʁeɡuˈlɛːɐ̯",
+            "category": "adjective",
+            "translation": {
+                "en": "regular",
+                "bn": "নিয়মিত",
+                "hi": "नियमित",
+                "ur": "باقاعدہ",
+                "tr": "düzenli"
+            },
+            "exampleSentence": "Die Sprechstunde findet regulär statt.",
+            "exampleTranslation": {
+                "en": "The consultation takes place regularly.",
+                "bn": "পরামর্শ নিয়মিতভাবে অনুষ্ঠিত হয়।",
+                "hi": "परामर्श नियमित रूप से होता है।",
+                "ur": "مشاورت باقاعدگی سے ہوتی ہے۔",
+                "tr": "Danışma düzenli olarak gerçekleşir."
+            },
+            "id": "v06_29"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Scheduling the Week",
+                "bn": "সপ্তাহের সময়সূচী",
+                "hi": "सप्ताह का कार्यक्रम",
+                "ur": "ہفتہ وار شیڈول",
+                "tr": "Haftalık Program"
+            },
+            "context": {
+                "en": "Dr. Schmidt and Nurse Weber are discussing the upcoming week's schedule.",
+                "bn": "ডঃ শ্মিট এবং নার্স ওয়েবার আসন্ন সপ্তাহের সময়সূচী নিয়ে আলোচনা করছেন।",
+                "hi": "डॉ. श्मिट और नर्स वेबर आने वाले सप्ताह के कार्यक्रम पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر شمٹ اور نرس ویبر آنے والے ہفتے کے شیڈول پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Dr. Schmidt ve Hemşire Weber önümüzdeki haftanın programını konuşuyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Schwester Weber, wer hat nächste Woche Frühschicht?",
+                    "translation": {
+                        "en": "Nurse Weber, who has the early shift next week?",
+                        "bn": "নার্স ওয়েবার, আগামী সপ্তাহে কার আর্লি শিফট আছে?",
+                        "hi": "नर्स वेबर, अगले हफ्ते अर्ली शिफ्ट में कौन है?",
+                        "ur": "نرس ویبر، اگلے ہفتے ارلی شفٹ میں کون ہے؟",
+                        "tr": "Hemşire Weber, gelecek hafta erken vardiyada kim var?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich habe Montag und Dienstag Frühschicht. Frau Klein hat den Rest der Woche.",
+                    "translation": {
+                        "en": "I have the early shift on Monday and Tuesday. Mrs. Klein has the rest of the week.",
+                        "bn": "আমার সোমবার এবং মঙ্গলবার আর্লি শিফট আছে। মিসেস ক্লাইন বাকি সপ্তাহের জন্য আছেন।",
+                        "hi": "मेरी सोमवार और मंगलवार को अर्ली शिफ्ट है। श्रीमती क्लाइन के पास बाकी सप्ताह है।",
+                        "ur": "میری پیر اور منگل کو ارلی شفٹ ہے۔ مسز کلائن کے پاس باقی ہفتہ ہے۔",
+                        "tr": "Pazartesi ve Salı erken vardiyam var. Bayan Klein haftanın geri kalanında var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Und wer macht den Nachtdienst am Wochenende?",
+                    "translation": {
+                        "en": "And who is doing the night shift on the weekend?",
+                        "bn": "আর উইকএন্ডে নাইট শিফট কে করছে?",
+                        "hi": "और सप्ताहांत में रात्रि पाली कौन कर रहा है?",
+                        "ur": "اور ویک اینڈ پر نائٹ شفٹ کون کر رہا ہے؟",
+                        "tr": "Ve hafta sonu gece vardiyasını kim yapıyor?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Meier hat Bereitschaftsdienst am Samstag und Sonntag Nacht.",
+                    "translation": {
+                        "en": "Mr. Meier is on call on Saturday and Sunday night.",
+                        "bn": "মিঃ মিয়ের শনিবার এবং রবিবার রাতে অন কল আছেন।",
+                        "hi": "श्री मीर शनिवार और रविवार रात को ऑन कॉल हैं।",
+                        "ur": "مسٹر مئیر ہفتہ اور اتوار کی رات کو آن کال ہیں۔",
+                        "tr": "Bay Meier Cumartesi ve Pazar gecesi nöbetçi."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Gut, danke für die Information. Ich muss jetzt in die Visite.",
+                    "translation": {
+                        "en": "Good, thank you for the information. I have to go on rounds now.",
+                        "bn": "ভাল, তথ্যের জন্য ধন্যবাদ। আমাকে এখন রাউন্ডে যেতে হবে।",
+                        "hi": "ठीक है, जानकारी के लिए धन्यवाद। मुझे अब राउंड पर जाना है।",
+                        "ur": "ٹھیک ہے، معلومات کے لیے شکریہ۔ مجھے اب راؤنڈ پر جانا ہے۔",
+                        "tr": "Güzel, bilgi için teşekkürler. Şimdi viziteye gitmem gerekiyor."
+                    }
+                }
+            ],
+            "id": "d06_01"
+        },
+        {
+            "title": {
+                "en": "Rescheduling an Appointment",
+                "bn": "একটি অ্যাপয়েন্টমেন্ট পুনঃনির্ধারণ করা",
+                "hi": "एक अपॉइंटमेंट पुनर्निर्धारित करना",
+                "ur": "ایک ملاقات کو دوبارہ شیڈول کرنا",
+                "tr": "Bir Randevuyu Yeniden Planlama"
+            },
+            "context": {
+                "en": "Patient Müller is calling to reschedule his appointment.",
+                "bn": "রোগী মুলার তার অ্যাপয়েন্টমেন্টটি পুনরায় নির্ধারণ করার জন্য কল করছেন।",
+                "hi": "मरीज मुलर अपनी अपॉइंटमेंट को पुनर्निर्धारित करने के लिए कॉल कर रहे हैं।",
+                "ur": "مریض مولر اپنی ملاقات کو دوبارہ شیڈول کرنے کے لیے کال کر رہے ہیں۔",
+                "tr": "Hasta Müller randevusunu yeniden planlamak için arıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Tag, mein Name ist Müller. Ich habe einen Termin am Mittwoch um 10 Uhr, den ich verschieben müsste.",
+                    "translation": {
+                        "en": "Good day, my name is Müller. I have an appointment on Wednesday at 10 am that I need to reschedule.",
+                        "bn": "শুভ দিন, আমার নাম মুলার। বুধবার সকাল ১০টায় আমার একটি অ্যাপয়েন্টমেন্ট আছে, যা আমাকে পুনরায় নির্ধারণ করতে হবে।",
+                        "hi": "नमस्ते, मेरा नाम मुलर है। मेरा बुधवार को सुबह 10 बजे एक अपॉइंटमेंट है जिसे मुझे पुनर्निर्धारित करना होगा।",
+                        "ur": "ہیلو، میرا نام مولر ہے۔ میری بدھ کو صبح 10 بجے ایک ملاقات ہے جسے مجھے دوبارہ شیڈول کرنا پڑے گا۔",
+                        "tr": "İyi günler, benim adım Müller. Çarşamba günü saat 10'da yeniden planlamam gereken bir randevum var."
+                    }
+                },
+                {
+                    "speaker": "Sprechstundenhilfe",
+                    "speakerRole": "Arzthelferin",
+                    "germanText": "Einen Moment, bitte. Auf welchen Tag und welche Uhrzeit möchten Sie den Termin verschieben?",
+                    "translation": {
+                        "en": "One moment, please. To which day and what time would you like to reschedule the appointment?",
+                        "bn": "এক মুহূর্ত, দয়া করে। আপনি অ্যাপয়েন্টমেন্টটি কোন দিন এবং কোন সময়ে পুনরায় নির্ধারণ করতে চান?",
+                        "hi": "एक पल, कृपया। आप अपॉइंटमेंट को किस दिन और किस समय पुनर्निर्धारित करना चाहेंगे?",
+                        "ur": "ایک لمحہ، براہ کرم۔ آپ کس دن اور کس وقت اپوائنٹمنٹ دوبارہ شیڈول کرنا چاہیں گے؟",
+                        "tr": "Bir dakika lütfen. Randevuyu hangi gün ve saatte yeniden planlamak istersiniz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Wäre es am Donnerstag Nachmittag möglich?",
+                    "translation": {
+                        "en": "Would it be possible on Thursday afternoon?",
+                        "bn": "বৃহস্পতিবার বিকেলে কি সম্ভব হবে?",
+                        "hi": "क्या यह गुरुवार दोपहर को संभव होगा?",
+                        "ur": "کیا یہ جمعرات کی سہ پہر کو ممکن ہوگا؟",
+                        "tr": "Perşembe öğleden sonra mümkün mü?"
+                    }
+                },
+                {
+                    "speaker": "Sprechstundenhilfe",
+                    "speakerRole": "Arzthelferin",
+                    "germanText": "Lassen Sie mich nachsehen… Ja, am Donnerstag um 14 Uhr wäre noch ein Termin frei.",
+                    "translation": {
+                        "en": "Let me check… Yes, there would still be an appointment available on Thursday at 2 pm.",
+                        "bn": "আমাকে দেখতে দিন… হ্যাঁ, বৃহস্পতিবার দুপুর ২টায় এখনও একটি অ্যাপয়েন্টমেন্ট খালি থাকবে।",
+                        "hi": "मुझे देखने दो… हाँ, गुरुवार को दोपहर 2 बजे अभी भी एक अपॉइंटमेंट उपलब्ध होगा।",
+                        "ur": "مجھے دیکھنے دو… ہاں، جمعرات کو دوپہر 2 بجے ابھی بھی ایک اپوائنٹمنٹ دستیاب ہوگی۔",
+                        "tr": "Bir bakayım… Evet, Perşembe günü saat 14:00'te hala müsait bir randevu var."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Perfekt, das passt mir sehr gut. Vielen Dank!",
+                    "translation": {
+                        "en": "Perfect, that suits me very well. Thank you very much!",
+                        "bn": "পারফেক্ট, এটা আমার জন্য খুবই উপযুক্ত। আপনাকে অনেক ধন্যবাদ!",
+                        "hi": "उत्तम, यह मुझे बहुत अच्छी तरह से सूट करता है। आपका बहुत बहुत धन्यवाद!",
+                        "ur": "بالکل کامل، یہ مجھے بہت اچھی طرح سے سوٹ کرتا ہے۔ آپ کا بہت بہت شکریہ!",
+                        "tr": "Mükemmel, bu bana çok uyuyor. Çok teşekkür ederim!"
+                    }
+                }
+            ],
+            "id": "d06_02"
+        },
+        {
+            "title": {
+                "en": "Shifting Coverage",
+                "bn": "শিফটিং কভারেজ",
+                "hi": "शिफ्टिंग कवरेज",
+                "ur": "شفٹنگ کوریج",
+                "tr": "Vardiya Kapsamı"
+            },
+            "context": {
+                "en": "Dr. Hoffmann needs someone to cover his shift.",
+                "bn": "ডঃ হফম্যানকে তার শিফট কভার করার জন্য কাউকে দরকার।",
+                "hi": "डॉ. हॉफमैन को अपनी शिफ्ट कवर करने के लिए किसी की आवश्यकता है।",
+                "ur": "ڈاکٹر ہوفمین کو اپنی شفٹ کور کرنے کے لیے کسی کی ضرورت ہے۔",
+                "tr": "Dr. Hoffmann'ın vardiyasını devralacak birine ihtiyacı var."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Hoffmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Herr Kollege, ich bin am Freitag verhindert. Könnten Sie eventuell meine Spätschicht übernehmen?",
+                    "translation": {
+                        "en": "Dear colleague, I am unavailable on Friday. Could you possibly take over my late shift?",
+                        "bn": "প্রিয় সহকর্মী, আমি শুক্রবার উপলব্ধ নই। আপনি কি সম্ভবত আমার লেট শিফটটি নিতে পারবেন?",
+                        "hi": "प्रिय सहयोगी, मैं शुक्रवार को अनुपलब्ध हूँ। क्या आप संभवतः मेरी लेट शिफ्ट ले सकते हैं?",
+                        "ur": "عزیز ساتھی، میں جمعہ کو دستیاب نہیں ہوں۔ کیا آپ ممکنہ طور پر میری لیٹ شفٹ لے سکتے ہیں؟",
+                        "tr": "Değerli meslektaşım, Cuma günü müsait değilim. Mümkünse geç vardiyamı devralabilir misiniz?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Am Freitag? Lassen Sie mich kurz in meinen Dienstplan schauen… Ja, das würde gehen. Um wie viel Uhr beginnt Ihre Schicht?",
+                    "translation": {
+                        "en": "On Friday? Let me just check my schedule… Yes, that would work. What time does your shift start?",
+                        "bn": "শুক্রবার? আমাকে একটু আমার সময়সূচী দেখতে দিন… হ্যাঁ, এটা কাজ করবে। আপনার শিফট কয়টায় শুরু হয়?",
+                        "hi": "शुक्रवार को? मुझे बस अपनी समय सारणी देखने दो… हाँ, यह काम करेगा। आपकी पाली कितने बजे शुरू होती है?",
+                        "ur": "جمعہ کو؟ مجھے صرف اپنی ٹائم ٹیبل دیکھنے دو… ہاں، یہ کام کرے گا۔ آپ کی شفٹ کس وقت شروع ہوتی ہے؟",
+                        "tr": "Cuma günü mü? Hemen programıma bir bakayım… Evet, olabilir. Vardiyanız saat kaçta başlıyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Hoffmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Sie beginnt um 14 Uhr und endet um 22 Uhr.",
+                    "translation": {
+                        "en": "It starts at 2 pm and ends at 10 pm.",
+                        "bn": "এটি দুপুর ২টায় শুরু হয় এবং রাত ১০টায় শেষ হয়।",
+                        "hi": "यह दोपहर 2 बजे शुरू होती है और रात 10 बजे समाप्त होती है।",
+                        "ur": "یہ دوپہر 2 بجے شروع ہوتی ہے اور رات 10 بجے ختم ہوتی ہے۔",
+                        "tr": "Saat 14:00'te başlıyor ve 22:00'de bitiyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Kein Problem, ich übernehme die Schicht gerne. Dann tauschen wir unsere Dienste.",
+                    "translation": {
+                        "en": "No problem, I'll gladly take over the shift. Then we'll swap our services.",
+                        "bn": "কোন সমস্যা নেই, আমি আনন্দের সাথে শিফটটি নেব। তাহলে আমরা আমাদের পরিষেবাগুলি অদলবদল করব।",
+                        "hi": "कोई बात नहीं, मैं खुशी से शिफ्ट ले लूंगा। फिर हम अपनी सेवाओं की अदला-बदली करेंगे।",
+                        "ur": "کوئی مسئلہ نہیں، میں خوشی سے شفٹ لے لوں گا۔ پھر ہم اپنی خدمات کا تبادلہ کریں گے۔",
+                        "tr": "Sorun değil, vardiyayı memnuniyetle devralırım. O zaman hizmetlerimizi değiştireceğiz."
+                    }
+                },
+                {
+                    "speaker": "Dr. Hoffmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wunderbar, vielen Dank! Ich schulde Ihnen etwas.",
+                    "translation": {
+                        "en": "Wonderful, thank you very much! I owe you one.",
+                        "bn": "অপূর্ব, আপনাকে অনেক ধন্যবাদ! আমি আপনার কাছে ঋণী।",
+                        "hi": "अद्भुत, बहुत बहुत धन्यवाद! मैं आप पर ऋणी हूं।",
+                        "ur": "شاندار، بہت بہت شکریہ! میں آپ کا مقروض ہوں۔",
+                        "tr": "Harika, çok teşekkür ederim! Size bir borcum var."
+                    }
+                }
+            ],
+            "id": "d06_03"
+        },
+        {
+            "title": {
+                "en": "Discussing the Night Shift",
+                "bn": "রাতের শিফট নিয়ে আলোচনা",
+                "hi": "रात की पाली पर चर्चा",
+                "ur": "رات کی شفٹ پر تبادلہ خیال",
+                "tr": "Gece Vardiyasını Tartışmak"
+            },
+            "context": {
+                "en": "Nurse Schmidt and Nurse Lehmann are talking about the night shift.",
+                "bn": "নার্স শ্মিট এবং নার্স লেহম্যান রাতের শিফট নিয়ে কথা বলছেন।",
+                "hi": "नर्स श्मिट और नर्स लेहमन रात की पाली के बारे में बात कर रही हैं।",
+                "ur": "نرس شمٹ اور نرس لیمان رات کی شفٹ کے بارے میں بات کر رہی ہیں۔",
+                "tr": "Hemşire Schmidt ve Hemşire Lehmann gece vardiyası hakkında konuşuyorlar."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Schmidt",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Abend, Schwester Lehmann. Haben Sie gut in den Nachtdienst gefunden?",
+                    "translation": {
+                        "en": "Good evening, Nurse Lehmann. Did you have a good start to the night shift?",
+                        "bn": "শুভ সন্ধ্যা, নার্স লেহম্যান। রাতের শিফটে কি আপনার ভালো শুরু হয়েছে?",
+                        "hi": "शुभ संध्या, नर्स लेहमन। क्या आपने रात की पाली में अच्छी शुरुआत की?",
+                        "ur": "شب بخیر، نرس لیمان۔ کیا آپ نے رات کی شفٹ میں اچھی شروعات کی؟",
+                        "tr": "İyi akşamlar Hemşire Lehmann. Gece vardiyasına iyi başladınız mı?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Lehmann",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ja, danke. Es ist ruhig bis jetzt. Wie war Ihre Spätschicht?",
+                    "translation": {
+                        "en": "Yes, thank you. It's quiet so far. How was your late shift?",
+                        "bn": "হ্যাঁ, ধন্যবাদ। এখন পর্যন্ত শান্ত আছে। আপনার লেট শিফট কেমন ছিল?",
+                        "hi": "हाँ, धन्यवाद। यह अभी तक शांत है। आपकी लेट शिफ्ट कैसी थी?",
+                        "ur": "ہاں شکریہ۔ یہ ابھی تک خاموش ہے۔ آپ کی لیٹ شفٹ کیسی تھی؟",
+                        "tr": "Evet, teşekkür ederim. Şu ana kadar sessiz. Geç vardiyan nasıldı?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Schmidt",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Sehr anstrengend. Wir hatten viele Notfälle.",
+                    "translation": {
+                        "en": "Very exhausting. We had many emergencies.",
+                        "bn": "খুব ক্লান্তিকর। আমাদের অনেক জরুরি অবস্থা ছিল।",
+                        "hi": "बहुत थकाऊ। हमारे पास कई आपात स्थितियाँ थीं।",
+                        "ur": "بہت تھکا دینے والا۔ ہمارے پاس بہت سی ایمرجنسی تھیں۔",
+                        "tr": "Çok yorucuydu. Birçok acil durumumuz vardı."
+                    }
+                },
+                {
+                    "speaker": "Schwester Lehmann",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Oh je, das tut mir leid. Ich hoffe, es bleibt heute Nacht ruhig.",
+                    "translation": {
+                        "en": "Oh dear, I'm sorry to hear that. I hope it stays quiet tonight.",
+                        "bn": "ওহ প্রিয়, আমি দুঃখিত। আমি আশা করি আজ রাতে শান্ত থাকবে।",
+                        "hi": "ओह प्रिय, मुझे यह सुनकर दुख हुआ। मुझे उम्मीद है कि आज रात शांत रहेगा।",
+                        "ur": "اوہ پیارے، مجھے یہ سن کر افسوس ہوا۔ مجھے امید ہے کہ آج رات خاموش رہے گا۔",
+                        "tr": "Ah canım, duyduğuma üzüldüm. Umarım bu gece sessiz kalır."
+                    }
+                },
+                {
+                    "speaker": "Schwester Schmidt",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich auch. Ich bin froh, wenn meine Schicht vorbei ist. Gute Nacht!",
+                    "translation": {
+                        "en": "Me too. I'll be glad when my shift is over. Good night!",
+                        "bn": "আমিও। আমার শিফট শেষ হলে আমি খুশি হব। শুভ রাত্রি!",
+                        "hi": "मैं भी। मेरी शिफ्ट खत्म होने पर मैं खुश हो जाऊंगा। शुभ रात्रि!",
+                        "ur": "میں بھی۔ میری شفٹ ختم ہونے پر میں خوش ہو جاؤں گا۔ شب بخیر!",
+                        "tr": "Ben de. Vardiyam bittiğinde mutlu olacağım. İyi geceler!"
+                    }
+                }
+            ],
+            "id": "d06_04"
+        },
+        {
+            "title": {
+                "en": "Confirming a Doctor's Appointment",
+                "bn": "ডাক্তারের অ্যাপয়েন্টমেন্ট নিশ্চিত করা",
+                "hi": "डॉक्टर की अपॉइंटमेंट की पुष्टि करना",
+                "ur": "ڈاکٹر کی ملاقات کی تصدیق کرنا",
+                "tr": "Doktor Randevusunu Onaylamak"
+            },
+            "context": {
+                "en": "A patient is confirming a doctor's appointment over the phone.",
+                "bn": "একজন রোগী ফোনে ডাক্তারের অ্যাপয়েন্টমেন্ট নিশ্চিত করছেন।",
+                "hi": "एक मरीज फोन पर डॉक्टर की अपॉइंटमेंट की पुष्टि कर रहा है।",
+                "ur": "ایک مریض فون پر ڈاکٹر کی ملاقات کی تصدیق کر رہا ہے۔",
+                "tr": "Bir hasta telefonda doktor randevusunu onaylıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Sprechstundenhilfe",
+                    "speakerRole": "Arzthelferin",
+                    "germanText": "Praxis Dr. Meier, guten Tag.",
+                    "translation": {
+                        "en": "Dr. Meier's practice, good day.",
+                        "bn": "ডঃ মিয়ারের অনুশীলন, শুভ দিন।",
+                        "hi": "डॉ. मेयर का अभ्यास, शुभ दिन।",
+                        "ur": "ڈاکٹر میئر کی پریکٹس، شب بخیر۔",
+                        "tr": "Dr. Meier'in muayenehanesi, iyi günler."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Tag, hier ist Schmidt. Ich wollte nur meinen Termin am Dienstag um 11 Uhr bestätigen.",
+                    "translation": {
+                        "en": "Good day, this is Schmidt. I just wanted to confirm my appointment on Tuesday at 11 am.",
+                        "bn": "শুভ দিন, এখানে শ্মিট। আমি শুধু মঙ্গলবার সকাল ১১টায় আমার অ্যাপয়েন্টমেন্ট নিশ্চিত করতে চেয়েছিলাম।",
+                        "hi": "शुभ दिन, यह श्मिट है। मैं बस मंगलवार को सुबह 11 बजे अपनी अपॉइंटमेंट की पुष्टि करना चाहता था।",
+                        "ur": "شب بخیر، یہ شمٹ ہے۔ میں صرف منگل کو صبح 11 بجے اپنی ملاقات کی تصدیق کرنا چاہتا تھا۔",
+                        "tr": "İyi günler, ben Schmidt. Sadece Salı günü saat 11:00'deki randevumu onaylamak istedim."
+                    }
+                },
+                {
+                    "speaker": "Sprechstundenhilfe",
+                    "speakerRole": "Arzthelferin",
+                    "germanText": "Ja, Herr Schmidt, Ihr Termin am Dienstag, den 15. August, um 11 Uhr ist notiert.",
+                    "translation": {
+                        "en": "Yes, Mr. Schmidt, your appointment on Tuesday, August 15th, at 11 am is noted.",
+                        "bn": "হ্যাঁ, মিঃ শ্মিট, ১৫ আগস্ট মঙ্গলবার সকাল ১১টায় আপনার অ্যাপয়েন্টমেন্টটি নোট করা হয়েছে।",
+                        "hi": "हाँ, श्रीमान श्मिट, 15 अगस्त मंगलवार को सुबह 11 बजे आपकी अपॉइंटमेंट नोट की गई है।",
+                        "ur": "ہاں، مسٹر شمٹ، 15 اگست بروز منگل صبح 11 بجے آپ کی اپائنٹمنٹ نوٹ کر لی گئی ہے۔",
+                        "tr": "Evet, Bay Schmidt, 15 Ağustos Salı günü saat 11:00'deki randevunuz not edildi."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Wunderbar, danke für die Bestätigung.",
+                    "translation": {
+                        "en": "Wonderful, thank you for the confirmation.",
+                        "bn": "অপূর্ব, নিশ্চিতকরণের জন্য ধন্যবাদ।",
+                        "hi": "अद्भुत, पुष्टि के लिए धन्यवाद।",
+                        "ur": "شاندار، تصدیق کے لیے شکریہ۔",
+                        "tr": "Harika, onay için teşekkür ederim."
+                    }
+                },
+                {
+                    "speaker": "Sprechstundenhilfe",
+                    "speakerRole": "Arzthelferin",
+                    "germanText": "Gern geschehen, auf Wiedersehen!",
+                    "translation": {
+                        "en": "You're welcome, goodbye!",
+                        "bn": "আপনাকে স্বাগতম, বিদায়!",
+                        "hi": "आपका स्वागत है, अलविदा!",
+                        "ur": "آپ کا استقبال ہے، الوداع!",
+                        "tr": "Rica ederim, güle güle!"
+                    }
+                }
+            ],
+            "id": "d06_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Frühschicht'?",
+                "en": "What does 'Frühschicht' mean?",
+                "bn": "'Frühschicht' মানে কি?",
+                "hi": "'Frühschicht' का क्या मतलब है?",
+                "ur": "'Frühschicht' کا کیا مطلب ہے؟",
+                "tr": "'Frühschicht' ne anlama gelir?"
+            },
+            "options": [
+                "Late shift",
+                "Night shift",
+                "Early shift",
+                "On-call duty"
+            ],
+            "correctAnswer": "Early shift",
+            "explanation": {
+                "en": "'Früh' means early, so 'Frühschicht' is the early shift.",
+                "bn": "'Früh' মানে সকাল বা আগে, তাই 'Frühschicht' মানে সকালের শিফট।",
+                "hi": "'Früh' का मतलब है जल्दी, इसलिए 'Frühschicht' का मतलब है सुबह की शिफ्ट।",
+                "ur": "'Früh' کا مطلب ہے جلد، اس لیے 'Frühschicht' کا مطلب ہے صبح کی شفٹ۔",
+                "tr": "'Früh' erken anlamına gelir, bu nedenle 'Frühschicht' erken vardiya demektir."
+            },
+            "points": 10,
+            "id": "e06_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welcher Wochentag folgt auf 'Mittwoch'?",
+                "en": "Which day of the week follows 'Mittwoch'?",
+                "bn": "'Mittwoch' এর পরে সপ্তাহের কোন দিনটি আসে?",
+                "hi": "'Mittwoch' के बाद सप्ताह का कौन सा दिन आता है?",
+                "ur": "'Mittwoch' کے بعد ہفتے کا کون سا دن آتا ہے؟",
+                "tr": "'Mittwoch' gününden sonra hangi gün gelir?"
+            },
+            "options": [
+                "Freitag",
+                "Samstag",
+                "Donnerstag",
+                "Sonntag"
+            ],
+            "correctAnswer": "Donnerstag",
+            "explanation": {
+                "en": "'Mittwoch' is Wednesday, and 'Donnerstag' is Thursday.",
+                "bn": "'Mittwoch' হল বুধবার, এবং 'Donnerstag' হল বৃহস্পতিবার।",
+                "hi": "'Mittwoch' बुधवार है, और 'Donnerstag' गुरुवार है।",
+                "ur": "'Mittwoch' بدھ ہے، اور 'Donnerstag' جمعرات ہے۔",
+                "tr": "'Mittwoch' Çarşamba, 'Donnerstag' Perşembe demektir."
+            },
+            "points": 10,
+            "id": "e06_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein 'Termin'?",
+                "en": "What is a 'Termin'?",
+                "bn": "'Termin' কি?",
+                "hi": "'Termin' क्या है?",
+                "ur": "'Termin' کیا ہے؟",
+                "tr": "'Termin' nedir?"
+            },
+            "options": [
+                "A clock",
+                "An appointment",
+                "A break",
+                "A medication"
+            ],
+            "correctAnswer": "An appointment",
+            "explanation": {
+                "en": "A 'Termin' is a scheduled appointment.",
+                "bn": "একটি 'Termin' হল একটি নির্ধারিত অ্যাপয়েন্টমেন্ট।",
+                "hi": "एक 'Termin' एक निर्धारित अपॉइंटमेंट है।",
+                "ur": "ایک 'Termin' ایک مقررہ اپوائنٹمنٹ ہے۔",
+                "tr": "Bir 'Termin' planlanmış bir randevudur."
+            },
+            "points": 10,
+            "id": "e06_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Bereitschaftsdienst'?",
+                "en": "What does 'Bereitschaftsdienst' mean?",
+                "bn": "'Bereitschaftsdienst' মানে কি?",
+                "hi": "'Bereitschaftsdienst' का क्या मतलब है?",
+                "ur": "'Bereitschaftsdienst' کا کیا مطلب ہے؟",
+                "tr": "'Bereitschaftsdienst' ne anlama gelir?"
+            },
+            "options": [
+                "Night shift",
+                "On-call duty",
+                "Holiday",
+                "Sick leave"
+            ],
+            "correctAnswer": "On-call duty",
+            "explanation": {
+                "en": "'Bereitschaftsdienst' means being on call, ready to work if needed.",
+                "bn": "'Bereitschaftsdienst' মানে প্রয়োজনে কাজ করার জন্য প্রস্তুত থাকা।",
+                "hi": "'Bereitschaftsdienst' का मतलब है जरूरत पड़ने पर काम करने के लिए तैयार रहना।",
+                "ur": "'Bereitschaftsdienst' کا مطلب ہے ضرورت پڑنے پر کام کرنے کے لیے تیار رہنا۔",
+                "tr": "'Bereitschaftsdienst' gerektiğinde çalışmaya hazır olmak anlamına gelir."
+            },
+            "points": 10,
+            "id": "e06_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Uhrzeit ist '14:00 Uhr'?",
+                "en": "What time is '14:00 Uhr'?",
+                "bn": "'14:00 Uhr' কয়টা বাজে?",
+                "hi": "'14:00 Uhr' कितने बजे हैं?",
+                "ur": "'14:00 Uhr' کتنے بجے ہیں؟",
+                "tr": "'14:00 Uhr' saat kaçtır?"
+            },
+            "options": [
+                "2 AM",
+                "12 PM",
+                "2 PM",
+                "4 PM"
+            ],
+            "correctAnswer": "2 PM",
+            "explanation": {
+                "en": "'14:00 Uhr' is 2 PM in 24-hour time.",
+                "bn": "'14:00 Uhr' হল 24-ঘণ্টার সময়ে দুপুর 2টা।",
+                "hi": "'14:00 Uhr' 24 घंटे के समय में दोपहर 2 बजे है।",
+                "ur": "'14:00 Uhr' 24 گھنٹے کے وقت میں دوپہر 2 بجے ہے۔",
+                "tr": "'14:00 Uhr' 24 saatlik zaman diliminde öğleden sonra 2'dir."
+            },
+            "points": 10,
+            "id": "e06_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Schicht folgt normalerweise auf die 'Frühschicht'?",
+                "en": "Which shift usually follows the 'Frühschicht'?",
+                "bn": "'Frühschicht' এর পরে সাধারণত কোন শিফট আসে?",
+                "hi": "'Frühschicht' के बाद आमतौर पर कौन सी शिफ्ट आती है?",
+                "ur": "'Frühschicht' کے بعد عام طور پر کون سی شفٹ آتی ہے؟",
+                "tr": "'Frühschicht'ten sonra genellikle hangi vardiya gelir?"
+            },
+            "options": [
+                "Nachtdienst",
+                "Spätschicht",
+                "Bereitschaftsdienst",
+                "Freizeit"
+            ],
+            "correctAnswer": "Spätschicht",
+            "explanation": {
+                "en": "The 'Spätschicht' (late shift) typically follows the 'Frühschicht' (early shift).",
+                "bn": "'Spätschicht' (দেরী শিফট) সাধারণত 'Frühschicht' (সকালের শিফট) এর পরে আসে।",
+                "hi": "'Spätschicht' (देर की शिफ्ट) आमतौर पर 'Frühschicht' (सुबह की शिफ्ट) के बाद आती है।",
+                "ur": "'Spätschicht' (دیر کی شفٹ) عام طور پر 'Frühschicht' (صبح کی شفٹ) کے بعد آتی ہے۔",
+                "tr": "'Spätschicht' (geç vardiya) genellikle 'Frühschicht' (erken vardiya) 'dan sonra gelir."
+            },
+            "points": 10,
+            "id": "e06_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist die typische Arbeitszeit für den 'Nachtdienst'?",
+                "en": "What is the typical working time for the 'Nachtdienst'?",
+                "bn": "'Nachtdienst' এর জন্য সাধারণ কাজের সময় কি?",
+                "hi": "'Nachtdienst' के लिए सामान्य काम करने का समय क्या है?",
+                "ur": "'Nachtdienst' کے لیے عام کام کرنے کا وقت کیا ہے؟",
+                "tr": "'Nachtdienst' için tipik çalışma süresi nedir?"
+            },
+            "options": [
+                "6:00 - 14:00",
+                "14:00 - 22:00",
+                "22:00 - 6:00",
+                "9:00 - 17:00"
+            ],
+            "correctAnswer": "22:00 - 6:00",
+            "explanation": {
+                "en": "The 'Nachtdienst' (night shift) typically runs from 10 PM to 6 AM.",
+                "bn": "'Nachtdienst' (রাতের শিফট) সাধারণত রাত 10টা থেকে সকাল 6টা পর্যন্ত চলে।",
+                "hi": "'Nachtdienst' (रात की शिफ्ट) आमतौर पर रात 10 बजे से सुबह 6 बजे तक चलती है।",
+                "ur": "'Nachtdienst' (رات کی شفٹ) عام طور پر رات 10 بجے سے صبح 6 بجے تک چلتی ہے۔",
+                "tr": "'Nachtdienst' (gece vardiyası) genellikle akşam 10'dan sabah 6'ya kadar sürer."
+            },
+            "points": 10,
+            "id": "e06_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wie sagt man 'Tuesday' auf Deutsch?",
+                "en": "How do you say 'Tuesday' in German?",
+                "bn": "জার্মান ভাষায় 'Tuesday' কিভাবে বলবেন?",
+                "hi": "जर्मन में 'Tuesday' को क्या कहते हैं?",
+                "ur": "جرمن میں 'Tuesday' کو کیسے کہتے ہیں؟",
+                "tr": "Almanca'da 'Tuesday' nasıl denir?"
+            },
+            "options": [
+                "Montag",
+                "Dienstag",
+                "Mittwoch",
+                "Donnerstag"
+            ],
+            "correctAnswer": "Dienstag",
+            "explanation": {
+                "en": "'Dienstag' is the German word for Tuesday.",
+                "bn": "'Dienstag' হল মঙ্গলবার এর জার্মান শব্দ।",
+                "hi": "'Dienstag' मंगलवार के लिए जर्मन शब्द है।",
+                "ur": "'Dienstag' منگل کے لیے جرمن لفظ ہے۔",
+                "tr": "'Dienstag' Salı için Almanca kelimedir."
+            },
+            "points": 10,
+            "id": "e06_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Uhrzeit'?",
+                "en": "What does 'Uhrzeit' mean?",
+                "bn": "'Uhrzeit' মানে কি?",
+                "hi": "'Uhrzeit' का क्या मतलब है?",
+                "ur": "'Uhrzeit' کا کیا مطلب ہے؟",
+                "tr": "'Uhrzeit' ne anlama gelir?"
+            },
+            "options": [
+                "Date",
+                "Temperature",
+                "Time",
+                "Location"
+            ],
+            "correctAnswer": "Time",
+            "explanation": {
+                "en": "'Uhrzeit' refers to the time of day.",
+                "bn": "'Uhrzeit' দিনের সময় বোঝায়।",
+                "hi": "'Uhrzeit' दिन के समय को दर्शाता है।",
+                "ur": "'Uhrzeit' دن کے وقت کی نشاندہی کرتا ہے۔",
+                "tr": "'Uhrzeit' günün saatini ifade eder."
+            },
+            "points": 10,
+            "id": "e06_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wie sagt man 'Sunday' auf Deutsch?",
+                "en": "How do you say 'Sunday' in German?",
+                "bn": "জার্মান ভাষায় 'Sunday' কিভাবে বলবেন?",
+                "hi": "जर्मन में 'Sunday' को क्या कहते हैं?",
+                "ur": "جرمن میں 'Sunday' کو کیسے کہتے ہیں؟",
+                "tr": "Almanca'da 'Sunday' nasıl denir?"
+            },
+            "options": [
+                "Montag",
+                "Sonntag",
+                "Samstag",
+                "Freitag"
+            ],
+            "correctAnswer": "Sonntag",
+            "explanation": {
+                "en": "'Sonntag' is the German word for Sunday.",
+                "bn": "'Sonntag' হল রবিবার এর জার্মান শব্দ।",
+                "hi": "'Sonntag' रविवार के लिए जर्मन शब्द है।",
+                "ur": "'Sonntag' اتوار کے لیے جرمن لفظ ہے۔",
+                "tr": "'Sonntag' Pazar için Almanca kelimedir."
+            },
+            "points": 10,
+            "id": "e06_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ich habe einen _____ beim Arzt um 10:00 Uhr.",
+                "en": "I have an _____ with the doctor at 10:00 AM.",
+                "bn": "আমার সকাল ১০টায় ডাক্তারের সাথে একটি _____ আছে।",
+                "hi": "मेरा सुबह 10:00 बजे डॉक्टर के साथ एक _____ है।",
+                "ur": "میرا صبح 10:00 بجے ڈاکٹر کے ساتھ ایک _____ ہے۔",
+                "tr": "Saat 10:00'da doktorla _____ var."
+            },
+            "options": [],
+            "correctAnswer": "Termin",
+            "explanation": {
+                "en": "'Termin' means appointment.",
+                "bn": "'Termin' মানে অ্যাপয়েন্টমেন্ট।",
+                "hi": "'Termin' का अर्थ है अपॉइंटमेंट।",
+                "ur": "'Termin' کا مطلب ہے ملاقات۔",
+                "tr": "'Termin' randevu anlamına gelir."
+            },
+            "points": 10,
+            "id": "e06_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Nach der Spätschicht beginnt oft der _____.",
+                "en": "After the late shift, the _____ often begins.",
+                "bn": "দেরী শিফটের পরে, প্রায়শই _____ শুরু হয়।",
+                "hi": "देर की शिफ्ट के बाद, अक्सर _____ शुरू होता है।",
+                "ur": "دیر کی شفٹ کے بعد، اکثر _____ شروع ہوتا ہے۔",
+                "tr": "Geç vardiyadan sonra, genellikle _____ başlar."
+            },
+            "options": [],
+            "correctAnswer": "Nachtdienst",
+            "explanation": {
+                "en": "The night shift often follows the late shift.",
+                "bn": "রাতের শিফট প্রায়শই দেরীর শিফটের পরে শুরু হয়।",
+                "hi": "रात की शिफ्ट अक्सर देर की शिफ्ट के बाद शुरू होती है।",
+                "ur": "رات کی شفٹ اکثر دیر کی شفٹ کے بعد شروع ہوتی ہے۔",
+                "tr": "Gece vardiyası genellikle geç vardiyadan sonra başlar."
+            },
+            "points": 10,
+            "id": "e06_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Am _____ habe ich frei.",
+                "en": "I have a day off on _____.",
+                "bn": "আমার _____ তে ছুটি আছে।",
+                "hi": "मेरे पास _____ पर छुट्टी है।",
+                "ur": "میری _____ پر چھٹی ہے۔",
+                "tr": "_____ günü iznim var."
+            },
+            "options": [],
+            "correctAnswer": "Samstag",
+            "explanation": {
+                "en": "'Samstag' means Saturday.",
+                "bn": "'Samstag' মানে শনিবার।",
+                "hi": "'Samstag' का मतलब शनिवार है।",
+                "ur": "'Samstag' کا مطلب ہفتہ ہے۔",
+                "tr": "'Samstag' Cumartesi demektir."
+            },
+            "points": 10,
+            "id": "e06_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bitte geben Sie die _____ an.",
+                "en": "Please state the _____.",
+                "bn": "অনুগ্রহ করে _____ উল্লেখ করুন।",
+                "hi": "कृपया _____ बताएं।",
+                "ur": "براہ کرم _____ بتائیں۔",
+                "tr": "Lütfen _____ belirtin."
+            },
+            "options": [],
+            "correctAnswer": "Uhrzeit",
+            "explanation": {
+                "en": "'Uhrzeit' means time.",
+                "bn": "'Uhrzeit' মানে সময়।",
+                "hi": "'Uhrzeit' का मतलब समय है।",
+                "ur": "'Uhrzeit' کا مطلب وقت ہے۔",
+                "tr": "'Uhrzeit' zaman demektir."
+            },
+            "points": 10,
+            "id": "e06_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Im Notfall bin ich im _____ erreichbar.",
+                "en": "In case of emergency, I am available on _____.",
+                "bn": "জরুরী অবস্থায়, আমি _____ তে উপলব্ধ আছি।",
+                "hi": "आपातकाल में, मैं _____ पर उपलब्ध हूं।",
+                "ur": "ایمرجنسی کی صورت میں، میں _____ پر دستیاب ہوں۔",
+                "tr": "Acil bir durumda, _____ üzerinden ulaşılabilirim."
+            },
+            "options": [],
+            "correctAnswer": "Bereitschaftsdienst",
+            "explanation": {
+                "en": "'Bereitschaftsdienst' means on-call duty.",
+                "bn": "'Bereitschaftsdienst' মানে অন-কল ডিউটি।",
+                "hi": "'Bereitschaftsdienst' का मतलब ऑन-कॉल ड्यूटी है।",
+                "ur": "'Bereitschaftsdienst' کا مطلب آن کال ڈیوٹی ہے۔",
+                "tr": "'Bereitschaftsdienst' nöbetçi anlamına gelir."
+            },
+            "points": 10,
+            "id": "e06_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Ich habe heute Spätschicht.",
+                "en": "I have the late shift today.",
+                "bn": "আজ আমার দেরীর শিফট আছে।",
+                "hi": "आज मेरी देर की शिफ्ट है।",
+                "ur": "آج میری دیر کی شفٹ ہے۔",
+                "tr": "Bugün geç vardiyam var."
+            },
+            "options": [],
+            "correctAnswer": "I have the late shift today.",
+            "explanation": {
+                "en": "'Spätschicht' means late shift.",
+                "bn": "'Spätschicht' মানে দেরীর শিফট।",
+                "hi": "'Spätschicht' का मतलब देर की शिफ्ट है।",
+                "ur": "'Spätschicht' کا مطلب دیر کی شفٹ ہے۔",
+                "tr": "'Spätschicht' geç vardiya anlamına gelir."
+            },
+            "points": 10,
+            "id": "e06_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Der Termin ist am Montag um 15:00 Uhr.",
+                "en": "The appointment is on Monday at 3:00 PM.",
+                "bn": "অ্যাপয়েন্টমেন্টটি সোমবার দুপুর ৩টায়।",
+                "hi": "अपॉइंटमेंट सोमवार को दोपहर 3:00 बजे है।",
+                "ur": "اپوائنٹمنٹ پیر کو دوپہر 3:00 بجے ہے۔",
+                "tr": "Randevu Pazartesi günü saat 15:00'te."
+            },
+            "options": [],
+            "correctAnswer": "The appointment is on Monday at 3:00 PM.",
+            "explanation": {
+                "en": "'Termin' is appointment, 'Montag' is Monday, '15:00 Uhr' is 3:00 PM.",
+                "bn": "'Termin' হল অ্যাপয়েন্টমেন্ট, 'Montag' হল সোমবার, '15:00 Uhr' হল দুপুর ৩টা।",
+                "hi": "'Termin' अपॉइंटमेंट है, 'Montag' सोमवार है, '15:00 Uhr' दोपहर 3:00 बजे है।",
+                "ur": "'Termin' اپوائنٹمنٹ ہے، 'Montag' پیر ہے، '15:00 Uhr' دوپہر 3:00 بجے ہے۔",
+                "tr": "'Termin' randevu, 'Montag' Pazartesi, '15:00 Uhr' saat 15:00 demektir."
+            },
+            "points": 10,
+            "id": "e06_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Ich habe diese Woche keinen Bereitschaftsdienst.",
+                "en": "I have no on-call duty this week.",
+                "bn": "এই সপ্তাহে আমার কোন অন-কল ডিউটি নেই।",
+                "hi": "इस सप्ताह मेरी कोई ऑन-कॉल ड्यूटी नहीं है।",
+                "ur": "اس ہفتے میری کوئی آن کال ڈیوٹی نہیں ہے۔",
+                "tr": "Bu hafta nöbetçi değilim."
+            },
+            "options": [],
+            "correctAnswer": "I have no on-call duty this week.",
+            "explanation": {
+                "en": "'Bereitschaftsdienst' means on-call duty.",
+                "bn": "'Bereitschaftsdienst' মানে অন-কল ডিউটি।",
+                "hi": "'Bereitschaftsdienst' का मतलब ऑन-कॉल ड्यूटी है।",
+                "ur": "'Bereitschaftsdienst' کا مطلب آن کال ڈیوٹی ہے۔",
+                "tr": "'Bereitschaftsdienst' nöbetçi anlamına gelir."
+            },
+            "points": 10,
+            "id": "e06_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

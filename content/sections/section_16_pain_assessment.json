@@ -1,14 +1,1631 @@
-{"id":"section_16","phaseId":"phase2","order":16,"titleDe":"Schmerzanamnese","title":{"en":"Pain Assessment","bn":"ব্যথা মূল্যায়ন","hi":"दर्द मूल्यांकन","ur":"درد کا جائزہ","tr":"Ağrı Değerlendirmesi"},"level":"B1","estimatedMinutes":30,"vocabulary":[
-{"id":"v16_01","germanTerm":"stechend","article":"-","plural":"-","translation":{"en":"Stabbing","bn":"ছুরি মারার মতো","hi":"छुरा घोंपने जैसा","ur":"چبھنے والا","tr":"Saplanıcı"}},
-{"id":"v16_02","germanTerm":"brennend","article":"-","plural":"-","translation":{"en":"Burning","bn":"জ্বলুনি","hi":"जलन वाला","ur":"جلنے والا","tr":"Yanıcı"}},
-{"id":"v16_03","germanTerm":"dumpf","article":"-","plural":"-","translation":{"en":"Dull","bn":"নিস্তেজ","hi":"सुस्त","ur":"مدھم","tr":"Künt"}},
-{"id":"v16_04","germanTerm":"krampfartig","article":"-","plural":"-","translation":{"en":"Cramping","bn":"খিঁচুনি","hi":"ऐंठन","ur":"کھنچاؤ","tr":"Kramp şeklinde"}},
-{"id":"v16_05","germanTerm":"Schmerzskala","article":"die","plural":"Schmerzskalen","translation":{"en":"Pain Scale","bn":"ব্যথার স্কেল","hi":"दर्द स्केल","ur":"درد کا پیمانہ","tr":"Ağrı skalası"}},
-{"id":"v16_06","germanTerm":"ausstrahlen","article":"-","plural":"-","translation":{"en":"Radiating","bn":"ছড়িয়ে পড়া","hi":"फैलना","ur":"پھیلنا","tr":"Yayılan"}},
-{"id":"v16_07","germanTerm":"Dauerschmerz","article":"der","plural":"Dauerschmerzen","translation":{"en":"Constant Pain","bn":"অবিরাম ব্যথা","hi":"लगातार दर्द","ur":"مسلسل درد","tr":"Sürekli ağrı"}},
-{"id":"v16_08","germanTerm":"anfallsartig","article":"-","plural":"-","translation":{"en":"Episodic","bn":"মাঝে মাঝে","hi":"प्रासंगिक","ur":"وقفے وقفے","tr":"Aralıklı"}}
-],"dialogues":[{"id":"d16_01","title":{"en":"Assessing Pain"},"lines":[
-{"speaker":"Arzt","germanText":"Wie würden Sie den Schmerz beschreiben?","translation":{"en":"How would you describe the pain?"}},
-{"speaker":"Patient","germanText":"Es ist ein stechender Schmerz.","translation":{"en":"It's a stabbing pain."}},
-{"speaker":"Arzt","germanText":"Auf einer Skala von 1 bis 10?","translation":{"en":"On a scale of 1 to 10?"}}
-]}],"exercises":[{"id":"e16_01","type":"multipleChoice","question":{"en":"What does 'stechend' mean?"},"options":["Stabbing","Burning","Dull"],"correctAnswer":"Stabbing","points":10}]}
+{
+    "id": "section_16",
+    "phaseId": "phase2",
+    "order": 16,
+    "titleDe": "Schmerzanamnese",
+    "title": {
+        "en": "Pain Assessment: Scales, Characteristics, and Description",
+        "de": "Schmerzerfassung: Schmerzskalen, Charakteristika und Beschreibung",
+        "bn": "ব্যথা মূল্যায়ন: স্কেল, বৈশিষ্ট্য এবং বর্ণনা",
+        "hi": "दर्द का आकलन: स्केल, विशेषताएँ और विवरण",
+        "ur": "درد کا اندازہ: پیمانے، خصوصیات اور تفصیل",
+        "tr": "Ağrı Değerlendirmesi: Ölçekler, Özellikler ve Tanımlama"
+    },
+    "description": {
+        "en": "This section covers methods of pain assessment, including pain scales and descriptive terms for pain characteristics.",
+        "de": "Dieser Abschnitt behandelt Methoden zur Schmerzerfassung, einschließlich Schmerzskalen und beschreibende Begriffe für Schmerzcharakteristika.",
+        "bn": "এই বিভাগে ব্যথা মূল্যায়নের পদ্ধতি, ব্যথা স্কেল এবং ব্যথার বৈশিষ্ট্যের বর্ণনাকারী শব্দাবলী অন্তর্ভুক্ত রয়েছে।",
+        "hi": "इस खंड में दर्द के मूल्यांकन के तरीके शामिल हैं, जिनमें दर्द के पैमाने और दर्द की विशेषताओं के वर्णनात्मक शब्द शामिल हैं।",
+        "ur": "اس سیکشن میں درد کے جائزے کے طریقے شامل ہیں، بشمول درد کے پیمانے اور درد کی خصوصیات کے لیے وضاحتی اصطلاحات۔",
+        "tr": "Bu bölüm, ağrı ölçekleri ve ağrı özelliklerinin tanımlayıcı terimleri dahil olmak üzere ağrı değerlendirme yöntemlerini kapsar."
+    },
+    "level": "B1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, you will learn about different pain assessment scales used in German-speaking medical settings. We will also explore common German terms used to describe the quality and nature of pain.",
+            "de": "In diesem Abschnitt lernen Sie verschiedene Schmerzerfassungsskalen kennen, die im deutschsprachigen medizinischen Umfeld verwendet werden. Außerdem werden wir gängige deutsche Begriffe zur Beschreibung der Qualität und Art von Schmerzen untersuchen.",
+            "bn": "এই বিভাগে, আপনি জার্মান-ভাষী চিকিৎসা সেটিংসে ব্যবহৃত বিভিন্ন ব্যথা মূল্যায়ন স্কেল সম্পর্কে জানতে পারবেন। এছাড়াও আমরা ব্যথার গুণমান এবং প্রকৃতি বর্ণনা করতে ব্যবহৃত সাধারণ জার্মান শব্দগুলিও খুঁজে বের করব।",
+            "hi": "इस खंड में, आप जर्मन भाषी चिकित्सा सेटिंग्स में उपयोग किए जाने वाले विभिन्न दर्द मूल्यांकन पैमानों के बारे में जानेंगे। हम दर्द की गुणवत्ता और प्रकृति का वर्णन करने के लिए उपयोग किए जाने वाले सामान्य जर्मन शब्दों का भी पता लगाएंगे।",
+            "ur": "اس سیکشن میں، آپ جرمن بولنے والے طبی ماحول میں استعمال ہونے والے درد کی تشخیص کے مختلف پیمانوں کے بارے میں جانیں گے۔ ہم درد کے معیار اور نوعیت کو بیان کرنے کے لیے استعمال ہونے والے عام جرمن الفاظ کو بھی تلاش کریں گے۔",
+            "tr": "Bu bölümde, Almanca konuşulan tıbbi ortamlarda kullanılan farklı ağrı değerlendirme ölçekleri hakkında bilgi edineceksiniz. Ayrıca ağrının niteliğini ve doğasını tanımlamak için kullanılan yaygın Almanca terimleri de inceleyeceğiz."
+        },
+        "grammarFocus": {
+            "en": {
+                "one": "Understanding the correct usage of adjectives to describe pain (e.g., *stechend*, *brennend*) is crucial.",
+                "two": "Familiarizing yourself with the accusative and dative cases when asking about pain location (e.g., *Wo haben Sie Schmerzen?*)"
+            },
+            "de": {
+                "one": "Das Verständnis des korrekten Gebrauchs von Adjektiven zur Beschreibung von Schmerzen (z.B. *stechend*, *brennend*) ist entscheidend.",
+                "two": "Die Vertrautheit mit dem Akkusativ- und Dativfall bei der Frage nach dem Schmerzort (z.B. *Wo haben Sie Schmerzen?*)"
+            },
+            "bn": {
+                "one": "ব্যথা বর্ণনা করার জন্য বিশেষণগুলির সঠিক ব্যবহার বোঝা গুরুত্বপূর্ণ (যেমন, *stechend*, *brennend*)।",
+                "two": "ব্যথার অবস্থান সম্পর্কে জিজ্ঞাসা করার সময় accusative এবং dative কারকগুলির সাথে পরিচিত হওয়া (যেমন, *Wo haben Sie Schmerzen?*)"
+            },
+            "hi": {
+                "one": "दर्द का वर्णन करने के लिए विशेषणों का सही उपयोग समझना महत्वपूर्ण है (उदाहरण के लिए, *stechend*, *brennend*)।",
+                "two": "दर्द के स्थान के बारे में पूछते समय कर्म कारक और संप्रदान कारक से परिचित होना (उदाहरण के लिए, *Wo haben Sie Schmerzen?*)"
+            },
+            "ur": {
+                "one": "درد کو بیان کرنے کے لیے صفتوں کا صحیح استعمال سمجھنا بہت ضروری ہے (مثال کے طور پر، *stechend*, *brennend*)۔",
+                "two": "درد کے مقام کے بارے میں پوچھتے وقت مفعولی اور اضافی عوامل سے واقفیت (مثال کے طور پر، *Wo haben Sie Schmerzen?*)"
+            },
+            "tr": {
+                "one": "Ağrıyı tanımlamak için sıfatların doğru kullanımını anlamak (örneğin, *stechend*, *brennend*) çok önemlidir.",
+                "two": "Ağrının yeri hakkında soru sorarken belirtme ve yönelme hallerine aşina olmak (örneğin, *Wo haben Sie Schmerzen?*)"
+            }
+        },
+        "culturalNotes": {
+            "en": "In German hospitals, pain assessment is typically conducted at regular intervals, and patients are encouraged to actively communicate their pain levels to healthcare providers.",
+            "de": "In deutschen Krankenhäusern wird die Schmerzerfassung in der Regel in regelmäßigen Abständen durchgeführt, und Patienten werden ermutigt, ihre Schmerzniveaus aktiv an die Gesundheitsdienstleister zu kommunizieren.",
+            "bn": "জার্মান হাসপাতালগুলিতে, ব্যথা মূল্যায়ন সাধারণত নিয়মিত বিরতিতে পরিচালিত হয় এবং রোগীদের স্বাস্থ্যসেবা প্রদানকারীদের কাছে তাদের ব্যথার মাত্রা সক্রিয়ভাবে জানাতে উৎসাহিত করা হয়।",
+            "hi": "जर्मन अस्पतालों में, दर्द का आकलन आमतौर पर नियमित अंतराल पर किया जाता है, और रोगियों को स्वास्थ्य सेवा प्रदाताओं को अपने दर्द के स्तर को सक्रिय रूप से संवाद करने के लिए प्रोत्साहित किया जाता है।",
+            "ur": "جرمن ہسپتالوں میں، درد کا جائزہ عام طور پر باقاعدگی سے لیا جاتا ہے، اور مریضوں کو صحت کی دیکھ بھال کرنے والے فراہم کنندگان کو اپنے درد کی سطح کے بارے میں فعال طور پر بتانے کی ترغیب دی جاتی ہے۔",
+            "tr": "Alman hastanelerinde ağrı değerlendirmesi genellikle düzenli aralıklarla yapılır ve hastalar ağrı seviyelerini sağlık hizmeti sağlayıcılarına aktif olarak iletmeye teşvik edilir."
+        },
+        "summary": {
+            "en": "This section provides a foundational understanding of assessing pain using German medical terminology and relevant assessment tools.",
+            "de": "Dieser Abschnitt vermittelt ein grundlegendes Verständnis der Schmerzerfassung unter Verwendung deutscher medizinischer Terminologie und relevanter Bewertungsinstrumente.",
+            "bn": "এই বিভাগটি জার্মান চিকিৎসা পরিভাষা এবং প্রাসঙ্গিক মূল্যায়ন সরঞ্জাম ব্যবহার করে ব্যথা মূল্যায়নের একটি প্রাথমিক ধারণা প্রদান করে।",
+            "hi": "यह खंड जर्मन चिकित्सा शब्दावली और प्रासंगिक मूल्यांकन उपकरणों का उपयोग करके दर्द का आकलन करने की मूलभूत समझ प्रदान करता है।",
+            "ur": "یہ سیکشن جرمن طبی اصطلاحات اور متعلقہ تشخیصی ٹولز کا استعمال کرتے ہوئے درد کا جائزہ لینے کی بنیادی تفہیم فراہم کرتا ہے۔",
+            "tr": "Bu bölüm, Alman tıbbi terminolojisini ve ilgili değerlendirme araçlarını kullanarak ağrıyı değerlendirmeye dair temel bir anlayış sunar."
+        },
+        "learningObjectives": [
+            "Identify common pain scales used in German medical settings.",
+            "Translate and understand German terms used to describe pain characteristics (e.g., *stechend, brennend, dumpf*).",
+            "Accurately document pain assessments using appropriate German medical vocabulary.",
+            "Communicate effectively with German-speaking patients about their pain experience."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "die Schmerzskala",
+            "article": "die",
+            "plural": "die Schmerzskalen",
+            "pronunciation": "/ˈʃmɛʁt͡sˌskaːla/",
+            "category": "noun",
+            "translation": {
+                "en": "pain scale",
+                "bn": "ব্যথা স্কেল",
+                "hi": "दर्द स्केल",
+                "ur": "درد کا پیمانہ",
+                "tr": "ağrı ölçeği"
+            },
+            "exampleSentence": "Bitte beschreiben Sie Ihren Schmerz auf der Schmerzskala von 0 bis 10.",
+            "exampleTranslation": {
+                "en": "Please describe your pain on the pain scale from 0 to 10.",
+                "bn": "অনুগ্রহ করে 0 থেকে 10 এর মধ্যে আপনার ব্যথা স্কেলে বর্ণনা করুন।",
+                "hi": "कृपया 0 से 10 के दर्द स्केल पर अपने दर्द का वर्णन करें।",
+                "ur": "براہ کرم 0 سے 10 تک درد کے پیمانے پر اپنے درد کو بیان کریں۔",
+                "tr": "Lütfen ağrınızı 0 ile 10 arasındaki ağrı ölçeğinde tanımlayın."
+            },
+            "id": "v16_01"
+        },
+        {
+            "germanTerm": "die Visuelle Analogskala (VAS)",
+            "article": "die",
+            "plural": "die Visuellen Analogskalen",
+            "pronunciation": "/viˈzu̯ɛlə aˈnaːlɔkˌskaːla/",
+            "category": "noun",
+            "translation": {
+                "en": "Visual Analog Scale (VAS)",
+                "bn": "ভিজুয়াল অ্যানালগ স্কেল (ভিএএস)",
+                "hi": "विज़ुअल एनालॉग स्केल (वीएएस)",
+                "ur": "بصری اینالاگ پیمانہ (VAS)",
+                "tr": "Görsel Analog Ölçeği (VAS)"
+            },
+            "exampleSentence": "Wir verwenden die VAS, um die Schmerzintensität zu messen.",
+            "exampleTranslation": {
+                "en": "We use the VAS to measure the intensity of pain.",
+                "bn": "আমরা ব্যথার তীব্রতা মাপার জন্য VAS ব্যবহার করি।",
+                "hi": "हम दर्द की तीव्रता को मापने के लिए वीएएस का उपयोग करते हैं।",
+                "ur": "ہم درد کی شدت کو ماپنے کے لئے VAS استعمال کرتے ہیں۔",
+                "tr": "Ağrı yoğunluğunu ölçmek için VAS'ı kullanıyoruz."
+            },
+            "id": "v16_02"
+        },
+        {
+            "germanTerm": "stechend",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈʃtɛçənt/",
+            "category": "adjective",
+            "translation": {
+                "en": "stabbing",
+                "bn": "শূলবেদনা",
+                "hi": "चुभने वाला",
+                "ur": "چبھنے والا",
+                "tr": "saplanan"
+            },
+            "exampleSentence": "Der Patient beschreibt den Schmerz als stechend.",
+            "exampleTranslation": {
+                "en": "The patient describes the pain as stabbing.",
+                "bn": "রোগী ব্যথাকে শূলবেদনা হিসাবে বর্ণনা করেন।",
+                "hi": "रोगी दर्द को चुभने वाला बताता है।",
+                "ur": "مریض درد کو چبھنے والا بیان کرتا ہے۔",
+                "tr": "Hasta ağrıyı saplanan olarak tanımlıyor."
+            },
+            "id": "v16_03"
+        },
+        {
+            "germanTerm": "brennend",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈbʁɛnənt/",
+            "category": "adjective",
+            "translation": {
+                "en": "burning",
+                "bn": "জ্বলন্ত",
+                "hi": "जलनशील",
+                "ur": "جلنے والا",
+                "tr": "yanan"
+            },
+            "exampleSentence": "Sie klagt über einen brennenden Schmerz in der Brust.",
+            "exampleTranslation": {
+                "en": "She complains of a burning pain in her chest.",
+                "bn": "তিনি বুকে জ্বলন্ত ব্যথার অভিযোগ করছেন।",
+                "hi": "उसे सीने में जलनशील दर्द की शिकायत है।",
+                "ur": "اسے سینے میں جلنے والے درد کی شکایت ہے۔",
+                "tr": "Göğsünde yanan bir ağrıdan şikayet ediyor."
+            },
+            "id": "v16_04"
+        },
+        {
+            "germanTerm": "dumpf",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/dʊmpf/",
+            "category": "adjective",
+            "translation": {
+                "en": "dull",
+                "bn": "ডাল",
+                "hi": "मंद",
+                "ur": "مدھم",
+                "tr": "donuk"
+            },
+            "exampleSentence": "Er hat einen dumpfen Schmerz im Rücken.",
+            "exampleTranslation": {
+                "en": "He has a dull pain in his back.",
+                "bn": "তার পিঠে একটি ডাল ব্যথা আছে।",
+                "hi": "उसकी पीठ में हल्का दर्द है।",
+                "ur": "اس کی پیٹھ میں ہلکا درد ہے۔",
+                "tr": "Sırtında donuk bir ağrı var."
+            },
+            "id": "v16_05"
+        },
+        {
+            "germanTerm": "krampfartig",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈkʁampfˌʔaːɐ̯tɪç/",
+            "category": "adjective",
+            "translation": {
+                "en": "cramping",
+                "bn": "খিঁচুনি",
+                "hi": "ऐंठन वाला",
+                "ur": "اینٹھن والا",
+                "tr": "kramp şeklinde"
+            },
+            "exampleSentence": "Die Patientin beschreibt den Schmerz als krampfartig.",
+            "exampleTranslation": {
+                "en": "The patient describes the pain as cramping.",
+                "bn": "রোগী ব্যথাকে খিঁচুনি হিসাবে বর্ণনা করেন।",
+                "hi": "रोगी दर्द को ऐंठन वाला बताता है।",
+                "ur": "مریض درد کو اینٹھن والا بتاتا ہے۔",
+                "tr": "Hasta ağrıyı kramp şeklinde olarak tanımlıyor."
+            },
+            "id": "v16_06"
+        },
+        {
+            "germanTerm": "ausstrahlend",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈaʊ̯sˌʃtʁaːlənt/",
+            "category": "adjective",
+            "translation": {
+                "en": "radiating",
+                "bn": "ছড়িয়ে যাচ্ছে",
+                "hi": "विकिरण करने वाला",
+                "ur": "شعاعیں بکھیرنے والا",
+                "tr": "yayılan"
+            },
+            "exampleSentence": "Der Schmerz ist ausstrahlend in den Arm.",
+            "exampleTranslation": {
+                "en": "The pain is radiating into the arm.",
+                "bn": "ব্যথাটি হাতে ছড়িয়ে যাচ্ছে।",
+                "hi": "दर्द हाथ में फैल रहा है।",
+                "ur": "درد بازو میں پھیل رہا ہے۔",
+                "tr": "Ağrı kola yayılıyor."
+            },
+            "id": "v16_07"
+        },
+        {
+            "germanTerm": "die Schmerzqualität",
+            "article": "die",
+            "plural": "die Schmerzqualitäten",
+            "pronunciation": "/ˈʃmɛʁt͡skvalɪˌtɛːt/",
+            "category": "noun",
+            "translation": {
+                "en": "pain quality",
+                "bn": "ব্যথার গুণমান",
+                "hi": "दर्द की गुणवत्ता",
+                "ur": "درد کا معیار",
+                "tr": "ağrı kalitesi"
+            },
+            "exampleSentence": "Wie würden Sie die Schmerzqualität beschreiben?",
+            "exampleTranslation": {
+                "en": "How would you describe the quality of the pain?",
+                "bn": "আপনি ব্যথার গুণমান কিভাবে বর্ণনা করবেন?",
+                "hi": "आप दर्द की गुणवत्ता का वर्णन कैसे करेंगे?",
+                "ur": "آپ درد کے معیار کو کیسے بیان کریں گے؟",
+                "tr": "Ağrının kalitesini nasıl tanımlarsınız?"
+            },
+            "id": "v16_08"
+        },
+        {
+            "germanTerm": "die Schmerzintensität",
+            "article": "die",
+            "plural": "die Schmerzintensitäten",
+            "pronunciation": "/ˈʃmɛʁt͡sʔɪntɛnzɪˈtɛːt/",
+            "category": "noun",
+            "translation": {
+                "en": "pain intensity",
+                "bn": "ব্যথার তীব্রতা",
+                "hi": "दर्द की तीव्रता",
+                "ur": "درد کی شدت",
+                "tr": "ağrı yoğunluğu"
+            },
+            "exampleSentence": "Die Schmerzintensität beträgt 8 auf der Skala.",
+            "exampleTranslation": {
+                "en": "The pain intensity is 8 on the scale.",
+                "bn": "স্কেলে ব্যথার তীব্রতা 8।",
+                "hi": "स्केल पर दर्द की तीव्रता 8 है।",
+                "ur": "پیمانے پر درد کی شدت 8 ہے۔",
+                "tr": "Ölçekte ağrı yoğunluğu 8."
+            },
+            "id": "v16_09"
+        },
+        {
+            "germanTerm": "der Schmerzort",
+            "article": "der",
+            "plural": "die Schmerzorte",
+            "pronunciation": "/ˈʃmɛʁt͡sˌʔɔʁt/",
+            "category": "noun",
+            "translation": {
+                "en": "pain location",
+                "bn": "ব্যথার স্থান",
+                "hi": "दर्द का स्थान",
+                "ur": "درد کی جگہ",
+                "tr": "ağrı yeri"
+            },
+            "exampleSentence": "Wo genau ist der Schmerzort?",
+            "exampleTranslation": {
+                "en": "Where exactly is the pain location?",
+                "bn": "ঠিক কোথায় ব্যথার স্থান?",
+                "hi": "दर्द का स्थान बिल्कुल कहाँ है?",
+                "ur": "درد کی جگہ بالکل کہاں ہے؟",
+                "tr": "Ağrı yeri tam olarak nerede?"
+            },
+            "id": "v16_10"
+        },
+        {
+            "germanTerm": "die Schmerzdauer",
+            "article": "die",
+            "plural": "die Schmerzdauren",
+            "pronunciation": "/ˈʃmɛʁt͡sˌdaʊ̯ɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "pain duration",
+                "bn": "ব্যথার সময়কাল",
+                "hi": "दर्द की अवधि",
+                "ur": "درد کی مدت",
+                "tr": "ağrı süresi"
+            },
+            "exampleSentence": "Wie lange dauert der Schmerz schon an?",
+            "exampleTranslation": {
+                "en": "How long has the pain been going on?",
+                "bn": "ব্যথা কতক্ষণ ধরে চলছে?",
+                "hi": "दर्द कब से चल रहा है?",
+                "ur": "درد کب سے جاری ہے؟",
+                "tr": "Ağrı ne kadar süredir devam ediyor?"
+            },
+            "id": "v16_11"
+        },
+        {
+            "germanTerm": "die Schmerzanamnese",
+            "article": "die",
+            "plural": "die Schmerzanamnesen",
+            "pronunciation": "/ˈʃmɛʁt͡sʔanaˈmneːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "pain history",
+                "bn": "ব্যথার ইতিহাস",
+                "hi": "दर्द का इतिहास",
+                "ur": "درد کی تاریخ",
+                "tr": "ağrı geçmişi"
+            },
+            "exampleSentence": "Wir müssen eine gründliche Schmerzanamnese erheben.",
+            "exampleTranslation": {
+                "en": "We need to take a thorough pain history.",
+                "bn": "আমাদের একটি পুঙ্খানুপুঙ্খ ব্যথার ইতিহাস নিতে হবে।",
+                "hi": "हमें दर्द का गहन इतिहास लेना होगा।",
+                "ur": "ہمیں درد کی مکمل تاریخ لینی ہوگی۔",
+                "tr": "Kapsamlı bir ağrı geçmişi almamız gerekiyor."
+            },
+            "id": "v16_12"
+        },
+        {
+            "germanTerm": "der Schmerzcharakter",
+            "article": "der",
+            "plural": "die Schmerzcharaktere",
+            "pronunciation": "/ˈʃmɛʁt͡sˌkaʁaktɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "pain character",
+                "bn": "ব্যথার চরিত্র",
+                "hi": "दर्द का चरित्र",
+                "ur": "درد کی نوعیت",
+                "tr": "ağrı karakteri"
+            },
+            "exampleSentence": "Beschreiben Sie den Schmerzcharakter genauer.",
+            "exampleTranslation": {
+                "en": "Describe the pain character in more detail.",
+                "bn": "ব্যথার চরিত্র আরো বিস্তারিতভাবে বর্ণনা করুন।",
+                "hi": "दर्द के चरित्र का और विस्तार से वर्णन करें।",
+                "ur": "درد کی نوعیت کو مزید تفصیل سے بیان کریں۔",
+                "tr": "Ağrı karakterini daha detaylı tanımlayın."
+            },
+            "id": "v16_13"
+        },
+        {
+            "germanTerm": "die Schmerzlokalisation",
+            "article": "die",
+            "plural": "die Schmerzlokalisationen",
+            "pronunciation": "/ˈʃmɛʁt͡slokaˌlɪzaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "pain localization",
+                "bn": "ব্যথার স্থানীয়করণ",
+                "hi": "दर्द का स्थानीयकरण",
+                "ur": "درد کی جگہ کا تعین",
+                "tr": "ağrı lokalizasyonu"
+            },
+            "exampleSentence": "Die Schmerzlokalisation ist wichtig für die Diagnose.",
+            "exampleTranslation": {
+                "en": "Pain localization is important for the diagnosis.",
+                "bn": "রোগ নির্ণয়ের জন্য ব্যথার স্থানীয়করণ গুরুত্বপূর্ণ।",
+                "hi": "निदान के लिए दर्द का स्थानीयकरण महत्वपूर्ण है।",
+                "ur": "تشخیص کے لئے درد کی جگہ کا تعین ضروری ہے۔",
+                "tr": "Ağrı lokalizasyonu, teşhis için önemlidir."
+            },
+            "id": "v16_14"
+        },
+        {
+            "germanTerm": "der Schmerzauslöser",
+            "article": "der",
+            "plural": "die Schmerzauslöser",
+            "pronunciation": "/ˈʃmɛʁt͡sʔaʊ̯sˌløːzɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "pain trigger",
+                "bn": "ব্যথা ট্রিগার",
+                "hi": "दर्द ट्रिगर",
+                "ur": "درد کا محرک",
+                "tr": "ağrı tetikleyicisi"
+            },
+            "exampleSentence": "Gibt es einen bestimmten Schmerzauslöser?",
+            "exampleTranslation": {
+                "en": "Is there a specific pain trigger?",
+                "bn": "কোনো নির্দিষ্ট ব্যথা ট্রিগার আছে কি?",
+                "hi": "क्या कोई विशेष दर्द ट्रिगर है?",
+                "ur": "کیا درد کا کوئی خاص محرک ہے؟",
+                "tr": "Belirli bir ağrı tetikleyicisi var mı?"
+            },
+            "id": "v16_15"
+        },
+        {
+            "germanTerm": "die Schmerztherapie",
+            "article": "die",
+            "plural": "die Schmerztherapien",
+            "pronunciation": "/ˈʃmɛʁt͡steraˌpiː/",
+            "category": "noun",
+            "translation": {
+                "en": "pain therapy",
+                "bn": "ব্যথা থেরাপি",
+                "hi": "दर्द चिकित्सा",
+                "ur": "درد کا علاج",
+                "tr": "ağrı tedavisi"
+            },
+            "exampleSentence": "Die Schmerztherapie wird individuell angepasst.",
+            "exampleTranslation": {
+                "en": "Pain therapy is individually tailored.",
+                "bn": "ব্যথা থেরাপি পৃথকভাবে উপযোগী করা হয়।",
+                "hi": "दर्द चिकित्सा व्यक्तिगत रूप से अनुकूलित है।",
+                "ur": "درد کا علاج انفرادی طور پر موزوں ہے۔",
+                "tr": "Ağrı tedavisi kişiye özel olarak uyarlanır."
+            },
+            "id": "v16_16"
+        },
+        {
+            "germanTerm": "die Schmerzempfindung",
+            "article": "die",
+            "plural": "die Schmerzempfindungen",
+            "pronunciation": "/ˈʃmɛʁt͡sʔɛmpfɪndʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "pain sensation",
+                "bn": "ব্যথা সংবেদন",
+                "hi": "दर्द की अनुभूति",
+                "ur": "درد کا احساس",
+                "tr": "ağrı hissi"
+            },
+            "exampleSentence": "Wie würden Sie Ihre Schmerzempfindung beschreiben?",
+            "exampleTranslation": {
+                "en": "How would you describe your pain sensation?",
+                "bn": "আপনি আপনার ব্যথা সংবেদন কিভাবে বর্ণনা করবেন?",
+                "hi": "आप अपनी दर्द की अनुभूति का वर्णन कैसे करेंगे?",
+                "ur": "آپ اپنے درد کے احساس کو کیسے بیان کریں گے؟",
+                "tr": "Ağrı hissinizi nasıl tanımlarsınız?"
+            },
+            "id": "v16_17"
+        },
+        {
+            "germanTerm": "pochen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈpɔxn̩/",
+            "category": "verb",
+            "translation": {
+                "en": "to throb",
+                "bn": "ধড়ফড় করা",
+                "hi": "धड़कना",
+                "ur": "دھڑکنا",
+                "tr": "zonklamak"
+            },
+            "exampleSentence": "Der Schmerz pocht in meinem Kopf.",
+            "exampleTranslation": {
+                "en": "The pain throbs in my head.",
+                "bn": "আমার মাথায় ব্যথা ধড়ফড় করছে।",
+                "hi": "मेरे सिर में दर्द धड़क रहा है।",
+                "ur": "میرے سر میں درد دھڑک رہا ہے۔",
+                "tr": "Ağrı başımda zonkluyor."
+            },
+            "id": "v16_18"
+        },
+        {
+            "germanTerm": "die Schwellung",
+            "article": "die",
+            "plural": "die Schwellungen",
+            "pronunciation": "/ˈʃvɛlʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "swelling",
+                "bn": "ফোলা",
+                "hi": "सूजन",
+                "ur": "سوزش",
+                "tr": "şişlik"
+            },
+            "exampleSentence": "Es gibt eine deutliche Schwellung am Knöchel.",
+            "exampleTranslation": {
+                "en": "There is a significant swelling on the ankle.",
+                "bn": "গোড়ালিতে একটি উল্লেখযোগ্য ফোলা আছে।",
+                "hi": "टखने पर एक महत्वपूर्ण सूजन है।",
+                "ur": "ٹخنے پر نمایاں سوزش ہے۔",
+                "tr": "Ayak bileğinde önemli bir şişlik var."
+            },
+            "id": "v16_19"
+        },
+        {
+            "germanTerm": "die Rötung",
+            "article": "die",
+            "plural": "die Rötungen",
+            "pronunciation": "/ˈʁøːtʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "redness",
+                "bn": "লালভাব",
+                "hi": "लालिमा",
+                "ur": "سرخی",
+                "tr": "kızarıklık"
+            },
+            "exampleSentence": "Beachten Sie die Rötung um die Wunde.",
+            "exampleTranslation": {
+                "en": "Note the redness around the wound.",
+                "bn": "ক্ষতের চারপাশে লালভাব লক্ষ্য করুন।",
+                "hi": "घाव के आसपास की लाली पर ध्यान दें।",
+                "ur": "زخم کے گرد سرخی پر دھیان دیں۔",
+                "tr": "Yaradaki kızarıklığa dikkat edin."
+            },
+            "id": "v16_20"
+        },
+        {
+            "germanTerm": "die Bewegungseinschränkung",
+            "article": "die",
+            "plural": "die Bewegungseinschränkungen",
+            "pronunciation": "/bəˈveːɡʊŋsˌʔaɪnʃʁɛŋkʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "limitation of movement",
+                "bn": "আন্দোলনের সীমাবদ্ধতা",
+                "hi": "आंदोलन की सीमा",
+                "ur": "حرکت کی حد",
+                "tr": "hareket kısıtlılığı"
+            },
+            "exampleSentence": "Es besteht eine deutliche Bewegungseinschränkung im Knie.",
+            "exampleTranslation": {
+                "en": "There is a significant limitation of movement in the knee.",
+                "bn": "হাঁটুতে আন্দোলনের একটি উল্লেখযোগ্য সীমাবদ্ধতা রয়েছে।",
+                "hi": "घुटने में आंदोलन की एक महत्वपूर्ण सीमा है।",
+                "ur": "گھٹنے میں حرکت کی ایک اہم حد ہے۔",
+                "tr": "Dizde önemli bir hareket kısıtlılığı var."
+            },
+            "id": "v16_21"
+        },
+        {
+            "germanTerm": "die Berührungsempfindlichkeit",
+            "article": "die",
+            "plural": "die Berührungsempfindlichkeiten",
+            "pronunciation": "/bəˈʁʏːʁʊŋsʔɛmpfɪntlɪçkaɪ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "tenderness to touch",
+                "bn": "স্পর্শকাতরতা",
+                "hi": "स्पर्श संवेदनशीलता",
+                "ur": "لمس کی حساسیت",
+                "tr": "dokunmaya hassasiyet"
+            },
+            "exampleSentence": "Der Bereich ist sehr berührungsempfindlich.",
+            "exampleTranslation": {
+                "en": "The area is very tender to touch.",
+                "bn": "এলাকাটি স্পর্শকাতর।",
+                "hi": "यह क्षेत्र स्पर्श करने के लिए बहुत संवेदनशील है।",
+                "ur": "یہ علاقہ چھونے کے لئے بہت حساس ہے۔",
+                "tr": "Bölge dokunmaya karşı çok hassas."
+            },
+            "id": "v16_22"
+        },
+        {
+            "germanTerm": "die Schonhaltung",
+            "article": "die",
+            "plural": "die Schonhaltungen",
+            "pronunciation": "/ˈʃoːnˌhaltʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "antalgic posture",
+                "bn": "ব্যথানাশক ভঙ্গি",
+                "hi": "दर्दनाशक मुद्रा",
+                "ur": "درد کم کرنے والی حالت",
+                "tr": "ağrıyı hafifletici duruş"
+            },
+            "exampleSentence": "Der Patient nimmt eine Schonhaltung ein.",
+            "exampleTranslation": {
+                "en": "The patient adopts an antalgic posture.",
+                "bn": "রোগী একটি ব্যথানাশক ভঙ্গি গ্রহণ করে।",
+                "hi": "रोगी दर्दनाशक मुद्रा अपनाता है।",
+                "ur": "مریض درد کم کرنے والی حالت اختیار کرتا ہے۔",
+                "tr": "Hasta ağrıyı hafifletici bir duruş sergiliyor."
+            },
+            "id": "v16_23"
+        },
+        {
+            "germanTerm": "die Analgetika",
+            "article": "die",
+            "plural": "die Analgetika",
+            "pronunciation": "/analˈɡeːtika/",
+            "category": "noun",
+            "translation": {
+                "en": "analgesics",
+                "bn": "বেদনানাশক",
+                "hi": "एनाल्जेसिक",
+                "ur": "مسکن ادویات",
+                "tr": "ağrı kesiciler"
+            },
+            "exampleSentence": "Wir verabreichen Analgetika gegen die Schmerzen.",
+            "exampleTranslation": {
+                "en": "We administer analgesics for the pain.",
+                "bn": "আমরা ব্যথার জন্য ব্যথানাশক ঔষধ দিচ্ছি।",
+                "hi": "हम दर्द के लिए एनाल्जेसिक दवा दे रहे हैं।",
+                "ur": "ہم درد کے لیے مسکن ادویات دے رہے ہیں۔",
+                "tr": "Ağrı için ağrı kesici veriyoruz."
+            },
+            "id": "v16_24"
+        },
+        {
+            "germanTerm": "die Chronifizierung",
+            "article": "die",
+            "plural": "die Chronifizierungen",
+            "pronunciation": "/kʁoni̯fiˈtsiːʁʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "chronicization",
+                "bn": "দীর্ঘস্থায়ী হওয়া",
+                "hi": "पुराना होना",
+                "ur": "مزمن ہونا",
+                "tr": "kronikleşme"
+            },
+            "exampleSentence": "Wir müssen die Chronifizierung des Schmerzes verhindern.",
+            "exampleTranslation": {
+                "en": "We must prevent the chronicization of the pain.",
+                "bn": "আমাদের ব্যথার দীর্ঘস্থায়ী হওয়া প্রতিরোধ করতে হবে।",
+                "hi": "हमें दर्द को पुराना होने से रोकना होगा।",
+                "ur": "ہمیں درد کو مزمن ہونے سے روکنا ہوگا۔",
+                "tr": "Ağrının kronikleşmesini önlemeliyiz."
+            },
+            "id": "v16_25"
+        },
+        {
+            "germanTerm": "die Entzündung",
+            "article": "die",
+            "plural": "die Entzündungen",
+            "pronunciation": "/ɛntˈt͡sʏndʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "inflammation",
+                "bn": "প্রদাহ",
+                "hi": "सूजन",
+                "ur": "التهاب",
+                "tr": "iltihap"
+            },
+            "exampleSentence": "Die Schmerzen sind wahrscheinlich auf eine Entzündung zurückzuführen.",
+            "exampleTranslation": {
+                "en": "The pain is probably due to inflammation.",
+                "bn": "ব্যথা সম্ভবত প্রদাহের কারণে।",
+                "hi": "दर्द शायद सूजन के कारण है।",
+                "ur": "درد غالباً سوزش کی وجہ سے ہے۔",
+                "tr": "Ağrı muhtemelen iltihaplanmadan kaynaklanıyor."
+            },
+            "id": "v16_26"
+        },
+        {
+            "germanTerm": "der Druckschmerz",
+            "article": "der",
+            "plural": "die Druckschmerzen",
+            "pronunciation": "/ˈdʁʊkˌʃmɛʁt͡s/",
+            "category": "noun",
+            "translation": {
+                "en": "tenderness to pressure",
+                "bn": "চাপ সংবেদনশীলতা",
+                "hi": "दबाव संवेदनशीलता",
+                "ur": "دباؤ پر حساسیت",
+                "tr": "basınca duyarlılık"
+            },
+            "exampleSentence": "Es besteht ein starker Druckschmerz bei Palpation.",
+            "exampleTranslation": {
+                "en": "There is a strong tenderness to pressure on palpation.",
+                "bn": "পালপেশনে একটি শক্তিশালী চাপ সংবেদনশীলতা রয়েছে।",
+                "hi": "स्पर्श करने पर दबाव के प्रति एक मजबूत संवेदनशीलता है।",
+                "ur": "ٹٹولنے پر دباؤ کے لیے ایک مضبوط حساسیت ہے۔",
+                "tr": "Palpasyonda basınca karşı güçlü bir hassasiyet var."
+            },
+            "id": "v16_27"
+        },
+        {
+            "germanTerm": "die Schmerzlinderung",
+            "article": "die",
+            "plural": "die Schmerzlinderungen",
+            "pronunciation": "/ˈʃmɛʁt͡sˌlɪndəʁʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "pain relief",
+                "bn": "ব্যথা উপশম",
+                "hi": "दर्द से राहत",
+                "ur": "درد میں کمی",
+                "tr": "ağrı kesici"
+            },
+            "exampleSentence": "Die Therapie zielt auf eine Schmerzlinderung ab.",
+            "exampleTranslation": {
+                "en": "The therapy aims at pain relief.",
+                "bn": "থেরাপির লক্ষ্য ব্যথা উপশম করা।",
+                "hi": "चिकित्सा का लक्ष्य दर्द से राहत है।",
+                "ur": "تھراپی کا مقصد درد سے نجات دلانا ہے۔",
+                "tr": "Tedavi ağrıyı hafifletmeyi amaçlıyor."
+            },
+            "id": "v16_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Pain Assessment after Surgery",
+                "bn": "অস্ত্রোপচারের পর ব্যথা মূল্যায়ন",
+                "hi": "सर्जरी के बाद दर्द का आकलन",
+                "ur": "جراحی کے بعد درد کی تشخیص",
+                "tr": "Ameliyat Sonrası Ağrı Değerlendirmesi"
+            },
+            "context": {
+                "en": "A patient is recovering from abdominal surgery and is being assessed for pain levels.",
+                "bn": "একজন রোগী পেটের অস্ত্রোপচারের থেকে সেরে উঠছেন এবং ব্যথার মাত্রা মূল্যায়ন করা হচ্ছে।",
+                "hi": "एक मरीज पेट की सर्जरी से उबर रहा है और दर्द के स्तर का आकलन किया जा रहा है।",
+                "ur": "پیٹ کی سرجری سے صحت یاب ہونے والے مریض میں درد کی سطح کا اندازہ لگایا جا رہا ہے۔",
+                "tr": "Bir hasta karın ameliyatından iyileşiyor ve ağrı seviyeleri değerlendiriliyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Morgen, Herr Müller. Wie fühlen Sie sich heute Morgen?",
+                    "translation": {
+                        "en": "Good morning, Mr. Müller. How are you feeling this morning?",
+                        "bn": "শুভ সকাল, জনাব মুলার। আপনি আজ সকালে কেমন অনুভব করছেন?",
+                        "hi": "सुप्रभात, श्री मुलर। आप आज सुबह कैसा महसूस कर रहे हैं?",
+                        "ur": "صبح بخیر، مسٹر ملر۔ آپ آج صبح کیسا محسوس کر رہے ہیں؟",
+                        "tr": "Günaydın, Bay Müller. Bu sabah nasıl hissediyorsunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Es geht so. Ich habe immer noch Schmerzen im Bauch.",
+                    "translation": {
+                        "en": "So-so. I still have pain in my abdomen.",
+                        "bn": "মোটামুটি। আমার পেটে এখনও ব্যথা আছে।",
+                        "hi": "ठीक ठाक। मुझे अभी भी पेट में दर्द है।",
+                        "ur": "بس ٹھیک ہے۔ مجھے اب بھی اپنے پیٹ میں درد ہے۔",
+                        "tr": "Eh işte. Hala karnımda ağrı var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Können Sie mir den Schmerz genauer beschreiben? Ist er eher stechend, brennend oder dumpf?",
+                    "translation": {
+                        "en": "Can you describe the pain more precisely? Is it more stabbing, burning, or dull?",
+                        "bn": "আপনি কি ব্যথা আরও স্পষ্টভাবে বর্ণনা করতে পারেন? এটা কি ছুরিকাঘাতের মতো, জ্বলন্ত, নাকি ভোঁতা?",
+                        "hi": "क्या आप दर्द को और सटीक रूप से वर्णित कर सकते हैं? क्या यह अधिक चुभने वाला, जलने वाला या सुस्त है?",
+                        "ur": "کیا آپ درد کو مزید واضح طور پر بیان کر سکتے ہیں؟ کیا یہ زیادہ تیز، جلنے والا یا سست ہے؟",
+                        "tr": "Ağrıyı daha net tarif edebilir misiniz? Daha çok batıcı mı, yakıcı mı, yoksa künt mü?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Eher dumpf und ausstrahlend in den Rücken.",
+                    "translation": {
+                        "en": "More dull and radiating into my back.",
+                        "bn": "আরও ভোঁতা এবং আমার পিঠে ছড়িয়ে পড়ছে।",
+                        "hi": "अधिक सुस्त और मेरी पीठ में फैल रहा है।",
+                        "ur": "زیادہ سست اور میری پیٹھ میں پھیل رہا ہے۔",
+                        "tr": "Daha çok künt ve sırtıma doğru yayılıyor."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Auf der Schmerzskala von 0 bis 10, wobei 10 der stärkste Schmerz ist, wo würden Sie Ihren Schmerz einordnen?",
+                    "translation": {
+                        "en": "On the pain scale from 0 to 10, with 10 being the strongest pain, where would you rate your pain?",
+                        "bn": "0 থেকে 10 পর্যন্ত ব্যথার স্কেলে, যেখানে 10 সবচেয়ে তীব্র ব্যথা, আপনি আপনার ব্যথাকে কোথায় স্থান দেবেন?",
+                        "hi": "0 से 10 के दर्द पैमाने पर, 10 सबसे मजबूत दर्द है, आप अपने दर्द को कहां रेट करेंगे?",
+                        "ur": "0 سے 10 کے درد کے پیمانے پر، جہاں 10 سب سے شدید درد ہے، آپ اپنے درد کی درجہ بندی کہاں کریں گے؟",
+                        "tr": "0'dan 10'a kadar ağrı ölçeğinde, 10 en şiddetli ağrı olmak üzere, ağrınızı nerede derecelendirirsiniz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich würde sagen, eine 6.",
+                    "translation": {
+                        "en": "I would say a 6.",
+                        "bn": "আমি বলব 6।",
+                        "hi": "मैं कहूंगा 6।",
+                        "ur": "میں کہوں گا 6۔",
+                        "tr": "6 derdim."
+                    }
+                }
+            ],
+            "id": "d16_01"
+        },
+        {
+            "title": {
+                "en": "Migraine Assessment",
+                "bn": "মাইগ্রেনের মূল্যায়ন",
+                "hi": "माइग्रेन का आकलन",
+                "ur": "مائگرین کی تشخیص",
+                "tr": "Migren Değerlendirmesi"
+            },
+            "context": {
+                "en": "A patient presents with a severe headache and is being assessed for migraine symptoms.",
+                "bn": "একজন রোগী তীব্র মাথাব্যথা নিয়ে এসেছেন এবং মাইগ্রেনের লক্ষণগুলির জন্য মূল্যায়ন করা হচ্ছে।",
+                "hi": "एक मरीज गंभीर सिरदर्द के साथ प्रस्तुत करता है और माइग्रेन के लक्षणों के लिए मूल्यांकन किया जा रहा है।",
+                "ur": "ایک مریض شدید سر درد کے ساتھ آتا ہے اور مائگرین کی علامات کے لیے اس کا جائزہ لیا جا رہا ہے۔",
+                "tr": "Bir hasta şiddetli baş ağrısıyla başvuruyor ve migren semptomları açısından değerlendiriliyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Tag, Frau Schmidt. Was führt Sie heute zu uns?",
+                    "translation": {
+                        "en": "Good day, Mrs. Schmidt. What brings you in today?",
+                        "bn": "শুভ দিন, মিসেস শ্মিট। আজ আপনাকে কী এনেছে?",
+                        "hi": "शुभ दिन, श्रीमती श्मिट। आज आपको क्या लाया है?",
+                        "ur": "شب بخیر، مسز شمٹ۔ آج آپ کو یہاں کیا چیز لائی ہے؟",
+                        "tr": "İyi günler, Bayan Schmidt. Bugün sizi buraya getiren nedir?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe seit gestern Abend starke Kopfschmerzen, die sind stechend und einseitig.",
+                    "translation": {
+                        "en": "I've had a severe headache since yesterday evening, it's stabbing and on one side.",
+                        "bn": "গতকাল সন্ধ্যা থেকে আমার তীব্র মাথাব্যথা হচ্ছে, এটা ছুরিকাঘাতের মতো এবং একপাশে।",
+                        "hi": "मुझे कल शाम से गंभीर सिरदर्द हो रहा है, यह चुभने वाला और एक तरफ है।",
+                        "ur": "مجھے کل شام سے شدید سر درد ہو رہا ہے، یہ تیز ہے اور ایک طرف ہے۔",
+                        "tr": "Dün akşamdan beri şiddetli baş ağrım var, batıcı ve tek taraflı."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Haben Sie auch Übelkeit oder Lichtempfindlichkeit?",
+                    "translation": {
+                        "en": "Do you also have nausea or sensitivity to light?",
+                        "bn": "আপনার কি বমি বমি ভাব বা আলোর প্রতি সংবেদনশীলতাও আছে?",
+                        "hi": "क्या आपको मतली या प्रकाश के प्रति संवेदनशीलता भी है?",
+                        "ur": "کیا آپ کو متلی یا روشنی کے لیے حساسیت بھی ہے؟",
+                        "tr": "Mide bulantınız veya ışığa duyarlılığınız da var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, beides. Die Kopfschmerzen sind krampfartig.",
+                    "translation": {
+                        "en": "Yes, both. The headaches are spasmodic.",
+                        "bn": "হ্যাঁ, দুটোই। মাথাব্যথা খিঁচুনিযুক্ত।",
+                        "hi": "हां, दोनों। सिरदर्द स्पास्मोडिक हैं।",
+                        "ur": "ہاں، دونوں۔ سر درد شاذ و نادر ہی ہوتے ہیں۔",
+                        "tr": "Evet, ikisi de. Baş ağrıları kramp şeklinde."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Frau Schmidt, bitte geben Sie auf der VAS-Skala von 0 bis 10 an, wie stark Ihre Schmerzen sind.",
+                    "translation": {
+                        "en": "Mrs. Schmidt, please indicate on the VAS scale from 0 to 10 how severe your pain is.",
+                        "bn": "মিসেস শ্মিট, অনুগ্রহ করে 0 থেকে 10 পর্যন্ত VAS স্কেলে নির্দেশ করুন, আপনার ব্যথা কতটা তীব্র।",
+                        "hi": "श्रीमती श्मिट, कृपया वीएएस स्केल पर 0 से 10 तक बताएं कि आपका दर्द कितना गंभीर है।",
+                        "ur": "محترمہ شمٹ، براہ کرم 0 سے 10 تک VAS پیمانے پر اشارہ کریں کہ آپ کا درد کتنا شدید ہے۔",
+                        "tr": "Bayan Schmidt, lütfen 0'dan 10'a kadar VAS ölçeğinde ağrınızın ne kadar şiddetli olduğunu belirtin."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Eine 8, würde ich sagen.",
+                    "translation": {
+                        "en": "An 8, I would say.",
+                        "bn": "আমি বলব একটি 8।",
+                        "hi": "एक 8, मैं कहूंगा।",
+                        "ur": "ایک 8، میں کہوں گا۔",
+                        "tr": "8 derim."
+                    }
+                }
+            ],
+            "id": "d16_02"
+        },
+        {
+            "title": {
+                "en": "Back Pain Assessment",
+                "bn": "পিঠ ব্যথার মূল্যায়ন",
+                "hi": "पीठ दर्द का आकलन",
+                "ur": "پیٹھ میں درد کی تشخیص",
+                "tr": "Sırt Ağrısı Değerlendirmesi"
+            },
+            "context": {
+                "en": "A patient is complaining of lower back pain and is being assessed.",
+                "bn": "একজন রোগী পিঠের নিচের অংশে ব্যথার অভিযোগ করছেন এবং মূল্যায়ন করা হচ্ছে।",
+                "hi": "एक मरीज पीठ के निचले हिस्से में दर्द की शिकायत कर रहा है और उसका आकलन किया जा रहा है।",
+                "ur": "ایک مریض کمر کے نچلے حصے میں درد کی شکایت کر رہا ہے اور اس کا اندازہ لگایا جا رہا ہے۔",
+                "tr": "Bir hasta bel ağrısından şikayet ediyor ve değerlendiriliyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Meyer",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wo genau haben Sie Schmerzen im Rücken?",
+                    "translation": {
+                        "en": "Where exactly do you have pain in your back?",
+                        "bn": "আপনার পিঠে ঠিক কোথায় ব্যথা?",
+                        "hi": "आपको अपनी पीठ में ठीक कहाँ दर्द है?",
+                        "ur": "آپ کی کمر میں بالکل کہاں درد ہے؟",
+                        "tr": "Sırtınızda tam olarak nerede ağrınız var?"
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Im unteren Bereich, es ist eher dumpf und zieht ins Bein.",
+                    "translation": {
+                        "en": "In the lower area, it's more dull and radiates into my leg.",
+                        "bn": "পিঠের নিচের অংশে, এটা ভোঁতা এবং আমার পায়ে টানছে।",
+                        "hi": "निचले क्षेत्र में, यह अधिक सुस्त है और मेरे पैर में फैल रहा है।",
+                        "ur": "نچلے حصے میں، یہ زیادہ سست ہے اور میری ٹانگ میں پھیل رہا ہے۔",
+                        "tr": "Alt kısımda, daha çok künt ve bacağıma doğru çekiyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meyer",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ist der Schmerz brennend?",
+                    "translation": {
+                        "en": "Is the pain burning?",
+                        "bn": "ব্যথা কি জ্বলন্ত?",
+                        "hi": "क्या दर्द जल रहा है?",
+                        "ur": "کیا درد جل رہا ہے؟",
+                        "tr": "Ağrı yakıcı mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Nein, nicht brennend, eher ein dumpfer Druck.",
+                    "translation": {
+                        "en": "No, not burning, more of a dull pressure.",
+                        "bn": "না, জ্বলন্ত নয়, বরং ভোঁতা চাপ।",
+                        "hi": "नहीं, जल नहीं रहा है, अधिक सुस्त दबाव।",
+                        "ur": "نہیں، جل نہیں رہا، زیادہ سست دباؤ۔",
+                        "tr": "Hayır, yakıcı değil, daha çok künt bir baskı."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Weber, bitte nennen Sie Ihren Schmerz auf der Schmerzskala.",
+                    "translation": {
+                        "en": "Mr. Weber, please rate your pain on the pain scale.",
+                        "bn": "জনাব ওয়েবার, দয়া করে ব্যথার স্কেলে আপনার ব্যথা উল্লেখ করুন।",
+                        "hi": "श्री वेबर, कृपया दर्द पैमाने पर अपने दर्द को रेट करें।",
+                        "ur": "مسٹر ویبر، براہ کرم درد کے پیمانے پر اپنے درد کی درجہ بندی کریں۔",
+                        "tr": "Bay Weber, lütfen ağrı ölçeğinde ağrınızı belirtin."
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Eine 5, würde ich sagen.",
+                    "translation": {
+                        "en": "A 5, I would say.",
+                        "bn": "আমি বলব একটি 5।",
+                        "hi": "एक 5, मैं कहूंगा।",
+                        "ur": "میں کہوں گا 5۔",
+                        "tr": "5 derim."
+                    }
+                }
+            ],
+            "id": "d16_03"
+        },
+        {
+            "title": {
+                "en": "Assessment of Abdominal Cramps",
+                "bn": "পেটের খিঁচুনির মূল্যায়ন",
+                "hi": "पेट में ऐंठन का आकलन",
+                "ur": "پیٹ کے درد کا اندازہ",
+                "tr": "Karın Krampları Değerlendirmesi"
+            },
+            "context": {
+                "en": "A patient is experiencing abdominal cramps.",
+                "bn": "একজন রোগী পেটের খিঁচুনি অনুভব করছেন।",
+                "hi": "एक मरीज पेट में ऐंठन का अनुभव कर रहा है।",
+                "ur": "ایک مریض پیٹ میں درد محسوس کر رہا ہے۔",
+                "tr": "Bir hasta karın krampları yaşıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Wo genau haben Sie Schmerzen im Bauch?",
+                    "translation": {
+                        "en": "Where exactly do you have pain in your abdomen?",
+                        "bn": "আপনার পেটে ঠিক কোথায় ব্যথা?",
+                        "hi": "आपके पेट में ठीक कहाँ दर्द है?",
+                        "ur": "آپ کے پیٹ میں بالکل کہاں درد ہے؟",
+                        "tr": "Karnınızda tam olarak nerede ağrınız var?"
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Überall, es ist krampfartig.",
+                    "translation": {
+                        "en": "Everywhere, it's spasmodic.",
+                        "bn": "সব জায়গায়, এটা খিঁচুনিযুক্ত।",
+                        "hi": "हर जगह, यह स्पास्मोडिक है।",
+                        "ur": "ہر جگہ، یہ شاذ و نادر ہی ہے۔",
+                        "tr": "Her yerde, kramp şeklinde."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wann hat der Schmerz begonnen?",
+                    "translation": {
+                        "en": "When did the pain start?",
+                        "bn": "ব্যথা কখন শুরু হয়েছে?",
+                        "hi": "दर्द कब शुरू हुआ?",
+                        "ur": "درد کب شروع ہوا؟",
+                        "tr": "Ağrı ne zaman başladı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Vor etwa einer Stunde. Es kommt und geht in Wellen.",
+                    "translation": {
+                        "en": "About an hour ago. It comes and goes in waves.",
+                        "bn": "প্রায় এক ঘন্টা আগে। এটা ঢেউয়ের মতো আসে আর যায়।",
+                        "hi": "लगभग एक घंटे पहले। यह तरंगों में आता और जाता है।",
+                        "ur": "تقریباً ایک گھنٹہ پہلے۔ یہ لہروں میں آتا اور جاتا ہے۔",
+                        "tr": "Yaklaşık bir saat önce. Dalgalar halinde geliyor ve gidiyor."
+                    }
+                },
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Auf der VAS-Skala, wie stark ist der Schmerz?",
+                    "translation": {
+                        "en": "On the VAS scale, how strong is the pain?",
+                        "bn": "VAS স্কেলে, ব্যথা কতটা তীব্র?",
+                        "hi": "वीएएस पैमाने पर, दर्द कितना तेज है?",
+                        "ur": "VAS پیمانے پر، درد کتنا تیز ہے؟",
+                        "tr": "VAS ölçeğinde ağrı ne kadar şiddetli?"
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Manchmal eine 7, manchmal weniger.",
+                    "translation": {
+                        "en": "Sometimes a 7, sometimes less.",
+                        "bn": "মাঝে মাঝে একটি 7, মাঝে মাঝে কম।",
+                        "hi": "कभी-कभी 7, कभी-कभी कम।",
+                        "ur": "کبھی کبھی 7، کبھی کبھی کم۔",
+                        "tr": "Bazen 7, bazen daha az."
+                    }
+                }
+            ],
+            "id": "d16_04"
+        },
+        {
+            "title": {
+                "en": "Assessment of Chest Pain",
+                "bn": "বুকে ব্যথার মূল্যায়ন",
+                "hi": "सीने में दर्द का आकलन",
+                "ur": "سینے میں درد کی تشخیص",
+                "tr": "Göğüs Ağrısı Değerlendirmesi"
+            },
+            "context": {
+                "en": "A patient is experiencing chest pain and is being assessed.",
+                "bn": "একজন রোগী বুকে ব্যথা অনুভব করছেন এবং মূল্যায়ন করা হচ্ছে।",
+                "hi": "एक मरीज सीने में दर्द का अनुभव कर रहा है और उसका आकलन किया जा रहा है।",
+                "ur": "ایک مریض سینے میں درد کا سامنا کر رہا ہے اور اس کا اندازہ لگایا جا رہا ہے۔",
+                "tr": "Bir hasta göğüs ağrısı yaşıyor ve değerlendiriliyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Hoffmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Seit wann haben Sie die Schmerzen in der Brust?",
+                    "translation": {
+                        "en": "Since when have you had the pain in your chest?",
+                        "bn": "আপনার বুকে ব্যথা কখন থেকে হচ্ছে?",
+                        "hi": "आपको सीने में दर्द कब से हो रहा है?",
+                        "ur": "آپ کو کب سے سینے میں درد ہو رہا ہے؟",
+                        "tr": "Göğsünüzdeki ağrı ne zamandan beri var?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schulz",
+                    "speakerRole": "Patient",
+                    "germanText": "Seit etwa einer Stunde. Es ist ein brennender Schmerz hinter dem Brustbein.",
+                    "translation": {
+                        "en": "For about an hour. It's a burning pain behind the sternum.",
+                        "bn": "প্রায় এক ঘন্টা ধরে। এটা স্টার্নামের পিছনে জ্বলন্ত ব্যথা।",
+                        "hi": "लगभग एक घंटे से। यह उरोस्थि के पीछे एक जलनशील दर्द है।",
+                        "ur": "تقریباً ایک گھنٹہ سے۔ یہ سینے کی ہڈی کے پیچھے جلنے والا درد ہے۔",
+                        "tr": "Yaklaşık bir saattir. Göğüs kemiğinin arkasında yakıcı bir ağrı."
+                    }
+                },
+                {
+                    "speaker": "Dr. Hoffmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Strahlt der Schmerz irgendwohin aus?",
+                    "translation": {
+                        "en": "Does the pain radiate anywhere?",
+                        "bn": "ব্যথা কি কোথাও ছড়িয়ে পড়ে?",
+                        "hi": "क्या दर्द कहीं फैलता है?",
+                        "ur": "کیا درد کہیں پھیلتا ہے؟",
+                        "tr": "Ağrı bir yere yayılıyor mu?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schulz",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, in den linken Arm.",
+                    "translation": {
+                        "en": "Yes, into my left arm.",
+                        "bn": "হ্যাঁ, বাম হাতে।",
+                        "hi": "हाँ, मेरी बायीं बांह में।",
+                        "ur": "ہاں، میری بائیں بازو میں۔",
+                        "tr": "Evet, sol koluma."
+                    }
+                },
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Auf der Schmerzskala von 0 bis 10, wie würden Sie den Schmerz beschreiben?",
+                    "translation": {
+                        "en": "On the pain scale from 0 to 10, how would you describe the pain?",
+                        "bn": "0 থেকে 10 পর্যন্ত ব্যথার স্কেলে, আপনি ব্যথাটিকে কীভাবে বর্ণনা করবেন?",
+                        "hi": "0 से 10 के दर्द पैमाने पर, आप दर्द को कैसे वर्णित करेंगे?",
+                        "ur": "0 سے 10 کے درد کے پیمانے پر، آپ درد کو کیسے بیان کریں گے؟",
+                        "tr": "0'dan 10'a kadar ağrı ölçeğinde ağrıyı nasıl tanımlarsınız?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schulz",
+                    "speakerRole": "Patient",
+                    "germanText": "Eine 8.",
+                    "translation": {
+                        "en": "An 8.",
+                        "bn": "একটি 8।",
+                        "hi": "एक 8।",
+                        "ur": "ایک 8۔",
+                        "tr": "8."
+                    }
+                }
+            ],
+            "id": "d16_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Schmerzqualität wird typischerweise als 'stechend' beschrieben?",
+                "en": "Which pain quality is typically described as 'stechend'?",
+                "bn": "কোন ব্যথার বৈশিষ্ট্যটি সাধারণত 'stechend' হিসাবে বর্ণনা করা হয়?",
+                "hi": "किस दर्द की गुणवत्ता को आमतौर पर 'stechend' के रूप में वर्णित किया जाता है?",
+                "ur": "درد کی کون سی کیفیت عام طور پر 'stechend' کے طور پر بیان کی جاتی ہے؟",
+                "tr": "'Stechend' olarak tanımlanan ağrı kalitesi hangisidir?"
+            },
+            "options": [
+                "Pulsierend",
+                "Stechend",
+                "Dumpf",
+                "Brennend"
+            ],
+            "correctAnswer": "Stechend",
+            "explanation": {
+                "en": "'Stechend' directly translates to 'stabbing' or 'piercing' which is the pain quality being described.",
+                "bn": "'Stechend' সরাসরি 'আঘাত করা' বা 'ছিঁড়ে ফেলা'-এর অনুবাদ করে, যা ব্যথার বৈশিষ্ট্য বর্ণনা করছে।",
+                "hi": "'Stechend' का सीधा अनुवाद 'छुरा घोंपना' या 'भेदन' है, जो दर्द की गुणवत्ता का वर्णन करता है।",
+                "ur": "'Stechend' کا براہ راست ترجمہ 'وار کرنا' یا 'چھیدنا' ہے، جو درد کی کیفیت کی وضاحت کرتا ہے۔",
+                "tr": "'Stechend' doğrudan 'bıçaklama' veya 'delme' anlamına gelir ve bu da tarif edilen ağrı kalitesidir."
+            },
+            "points": 10,
+            "id": "e16_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'VAS' im Zusammenhang mit der Schmerzerfassung?",
+                "en": "What does 'VAS' mean in the context of pain assessment?",
+                "bn": "ব্যথা মূল্যায়নের প্রেক্ষাপটে 'VAS' মানে কী?",
+                "hi": "दर्द मूल्यांकन के संदर्भ में 'VAS' का क्या अर्थ है?",
+                "ur": "درد کی تشخیص کے تناظر میں 'VAS' کا کیا مطلب ہے؟",
+                "tr": "Ağrı değerlendirmesi bağlamında 'VAS' ne anlama gelir?"
+            },
+            "options": [
+                "Visuelle Analoge Skala",
+                "Vertebrale Arteriensklerose",
+                "Ventrikuläre Arrhythmie Symptome",
+                "Volumen Aktivierungs System"
+            ],
+            "correctAnswer": "Visuelle Analoge Skala",
+            "explanation": {
+                "en": "VAS stands for Visual Analogue Scale, a common tool used to measure pain intensity.",
+                "bn": "VAS মানে ভিজ্যুয়াল অ্যানালগ স্কেল, যা ব্যথার তীব্রতা মাপার জন্য ব্যবহৃত একটি সাধারণ সরঞ্জাম।",
+                "hi": "VAS का मतलब है विजुअल एनालॉग स्केल, एक सामान्य उपकरण जिसका उपयोग दर्द की तीव्रता को मापने के लिए किया जाता है।",
+                "ur": "VAS کا مطلب ہے ویژول اینالاگ اسکیل، ایک عام آلہ جو درد کی شدت کو ماپنے کے لیے استعمال کیا جاتا ہے۔",
+                "tr": "VAS, ağrı yoğunluğunu ölçmek için kullanılan yaygın bir araç olan Visual Analogue Scale'in kısaltmasıdır."
+            },
+            "points": 10,
+            "id": "e16_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Schmerzcharakteristik beschreibt ein 'brennendes' Gefühl?",
+                "en": "Which pain characteristic describes a 'brennendes' (burning) sensation?",
+                "bn": "কোন ব্যথার বৈশিষ্ট্য 'brennendes' (জ্বলন্ত) অনুভূতি বর্ণনা করে?",
+                "hi": "कौन सी दर्द विशेषता 'brennendes' (जलन) सनसनी का वर्णन करती है?",
+                "ur": "درد کی کون سی خصوصیت 'brennendes' (جلنے والی) سنسنی کو بیان کرتی ہے؟",
+                "tr": "Hangi ağrı özelliği 'brennendes' (yanma) hissini tanımlar?"
+            },
+            "options": [
+                "Ein dumpfer Schmerz",
+                "Ein stechender Schmerz",
+                "Ein brennender Schmerz",
+                "Ein krampfartiger Schmerz"
+            ],
+            "correctAnswer": "Ein brennender Schmerz",
+            "explanation": {
+                "en": "'Brennend' directly translates to 'burning', thus 'Ein brennender Schmerz' is the correct answer.",
+                "bn": "'Brennend' সরাসরি 'জ্বলন্ত' অনুবাদ করে, তাই 'Ein brennender Schmerz' হল সঠিক উত্তর।",
+                "hi": "'Brennend' सीधे 'जलन' का अनुवाद करता है, इस प्रकार 'Ein brennender Schmerz' सही उत्तर है।",
+                "ur": "'Brennend' براہ راست 'جلن' کا ترجمہ کرتا ہے، اس طرح 'Ein brennender Schmerz' درست جواب ہے۔",
+                "tr": "'Brennend' doğrudan 'yanma' anlamına gelir, bu nedenle 'Ein brennender Schmerz' doğru cevaptır."
+            },
+            "points": 10,
+            "id": "e16_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'dumpf' im Zusammenhang mit Schmerzen?",
+                "en": "What does 'dumpf' mean in the context of pain?",
+                "bn": "ব্যথার প্রেক্ষাপটে 'dumpf' মানে কী?",
+                "hi": "दर्द के संदर्भ में 'dumpf' का क्या अर्थ है?",
+                "ur": "درد کے تناظر میں 'dumpf' کا کیا مطلب ہے؟",
+                "tr": "Ağrı bağlamında 'dumpf' ne anlama gelir?"
+            },
+            "options": [
+                "Scharf",
+                "Matt",
+                "Dull",
+                "Hellig"
+            ],
+            "correctAnswer": "Dull",
+            "explanation": {
+                "en": "'Dumpf' translates to 'dull' in English, describing a dull, aching pain.",
+                "bn": "'Dumpf' ইংরেজি ভাষায় 'dull' অনুবাদ করে, যা একটি নিস্তেজ, ব্যথাযুক্ত ব্যথা বর্ণনা করে।",
+                "hi": "'Dumpf' का अनुवाद अंग्रेजी में 'dull' है, जो एक सुस्त, दर्दनाक दर्द का वर्णन करता है।",
+                "ur": "'Dumpf' انگریزی میں 'dull' کا ترجمہ کرتا ہے، جو ایک سست، دردناک درد کو بیان کرتا ہے۔",
+                "tr": "'Dumpf', İngilizce'de 'dull' anlamına gelir, donuk, ağrılı bir ağrıyı tanımlar."
+            },
+            "points": 10,
+            "id": "e16_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Schmerzqualität ist typisch für Muskelkrämpfe?",
+                "en": "Which pain quality is typical for muscle cramps?",
+                "bn": "পেশীর খিঁচুনির জন্য কোন ব্যথার বৈশিষ্ট্যটি স্বাভাবিক?",
+                "hi": "मांसपेशियों में ऐंठन के लिए कौन सी दर्द की गुणवत्ता विशिष्ट है?",
+                "ur": "پٹھوں کے درد کے لیے درد کی کون سی کیفیت عام ہے؟",
+                "tr": "Kas krampları için tipik olan ağrı kalitesi hangisidir?"
+            },
+            "options": [
+                "Stechend",
+                "Brennend",
+                "Krampfartig",
+                "Dumpf"
+            ],
+            "correctAnswer": "Krampfartig",
+            "explanation": {
+                "en": "'Krampfartig' directly translates to 'cramping', which is the pain associated with muscle cramps.",
+                "bn": "'Krampfartig' সরাসরি 'খিঁচুনি' অনুবাদ করে, যা পেশী খিঁচুনির সাথে যুক্ত ব্যথা।",
+                "hi": "'Krampfartig' सीधे 'ऐंठन' का अनुवाद करता है, जो मांसपेशियों में ऐंठन से जुड़ा दर्द है।",
+                "ur": "'Krampfartig' براہ راست 'اینٹھن' کا ترجمہ کرتا ہے، جو پٹھوں میں اینٹھن سے وابستہ درد ہے۔",
+                "tr": "'Krampfartig' doğrudan 'kramp' anlamına gelir ve bu da kas kramplarıyla ilişkili ağrıdır."
+            },
+            "points": 10,
+            "id": "e16_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'ausstrahlend' in Bezug auf Schmerzen?",
+                "en": "What does 'ausstrahlend' mean in relation to pain?",
+                "bn": "ব্যথার ক্ষেত্রে 'ausstrahlend' মানে কী?",
+                "hi": "दर्द के संबंध में 'ausstrahlend' का क्या अर्थ है?",
+                "ur": "درد کے حوالے سے 'ausstrahlend' کا کیا مطلب ہے؟",
+                "tr": "Ağrı ile ilgili olarak 'ausstrahlend' ne anlama gelir?"
+            },
+            "options": [
+                "Lokalisiert",
+                "Wandernd",
+                "Ausstrahlend",
+                "Konstant"
+            ],
+            "correctAnswer": "Ausstrahlend",
+            "explanation": {
+                "en": "'Ausstrahlend' means radiating, meaning the pain spreads from one area to another.",
+                "bn": "'Ausstrahlend' মানে বিকিরণ করা, অর্থাৎ ব্যথা এক এলাকা থেকে অন্য এলাকায় ছড়িয়ে যায়।",
+                "hi": "'Ausstrahlend' का अर्थ है विकिरण करना, जिसका अर्थ है कि दर्द एक क्षेत्र से दूसरे क्षेत्र में फैलता है।",
+                "ur": "'Ausstrahlend' کا مطلب ہے شعاع کرنا، یعنی درد ایک علاقے سے دوسرے علاقے میں پھیلتا ہے۔",
+                "tr": "'Ausstrahlend', yayılan anlamına gelir, yani ağrı bir alandan diğerine yayılır."
+            },
+            "points": 10,
+            "id": "e16_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Die ________ ist ein Instrument zur subjektiven Messung der Schmerzintensität.",
+                "en": "The ________ is an instrument for the subjective measurement of pain intensity.",
+                "bn": "________ হলো ব্যথার তীব্রতা বিষয়ভিত্তিক পরিমাপের একটি উপকরণ।",
+                "hi": "________ दर्द की तीव्रता के व्यक्तिपरक माप के लिए एक उपकरण है।",
+                "ur": "________ درد کی شدت کی موضوعی پیمائش کے لیے ایک آلہ ہے۔",
+                "tr": "________, ağrı yoğunluğunun öznel ölçümü için bir araçtır."
+            },
+            "options": [
+                "Blutdruckmessung",
+                "VAS",
+                "EKG",
+                "Röntgen"
+            ],
+            "correctAnswer": "VAS",
+            "explanation": {
+                "en": "The Visual Analogue Scale (VAS) is used for subjective pain intensity measurement.",
+                "bn": "ভিজ্যুয়াল অ্যানালগ স্কেল (VAS) বিষয়ভিত্তিক ব্যথার তীব্রতা পরিমাপের জন্য ব্যবহৃত হয়।",
+                "hi": "विजुअल एनालॉग स्केल (VAS) का उपयोग व्यक्तिपरक दर्द की तीव्रता माप के लिए किया जाता है।",
+                "ur": "ویژول اینالاگ اسکیل (VAS) موضوعی درد کی شدت کی پیمائش کے لیے استعمال کیا جاتا ہے۔",
+                "tr": "Visual Analogue Scale (VAS), öznel ağrı yoğunluğu ölçümü için kullanılır."
+            },
+            "points": 10,
+            "id": "e16_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Ein Patient beschreibt seinen Schmerz als 'dumpf'. Welche Aussage ist am wahrscheinlichsten?",
+                "en": "A patient describes their pain as 'dumpf'. Which statement is most likely?",
+                "bn": "একজন রোগী তার ব্যথাকে 'dumpf' হিসাবে বর্ণনা করেন। কোন বক্তব্যটি সম্ভবত?",
+                "hi": "एक मरीज अपने दर्द को 'dumpf' के रूप में वर्णित करता है। कौन सा कथन सबसे अधिक संभावित है?",
+                "ur": "ایک مریض اپنے درد کو 'dumpf' کے طور پر بیان کرتا ہے۔ کون سا بیان سب سے زیادہ ممکن ہے؟",
+                "tr": "Bir hasta ağrısını 'dumpf' olarak tanımlıyor. Hangi ifade en olasıdır?"
+            },
+            "options": [
+                "Der Schmerz ist scharf und plötzlich.",
+                "Der Schmerz ist anhaltend und drückend.",
+                "Der Schmerz kommt und geht in Wellen.",
+                "Der Schmerz ist stechend und lokalisiert."
+            ],
+            "correctAnswer": "Der Schmerz ist anhaltend und drückend.",
+            "explanation": {
+                "en": "'Dumpf' describes a dull, aching, and persistent pain, hence 'Der Schmerz ist anhaltend und drückend' is correct.",
+                "bn": "'Dumpf' একটি নিস্তেজ, ব্যথাযুক্ত এবং স্থায়ী ব্যথা বর্ণনা করে, তাই 'Der Schmerz ist anhaltend und drückend' সঠিক।",
+                "hi": "'Dumpf' एक सुस्त, दर्दनाक और लगातार दर्द का वर्णन करता है, इसलिए 'Der Schmerz ist anhaltend und drückend' सही है।",
+                "ur": "'Dumpf' ایک سست، دردناک اور مستقل درد کو بیان کرتا ہے، اس لیے 'Der Schmerz ist anhaltend und drückend' درست ہے۔",
+                "tr": "'Dumpf', donuk, ağrılı ve kalıcı bir ağrıyı tanımlar, bu nedenle 'Der Schmerz ist anhaltend und drückend' doğrudur."
+            },
+            "points": 10,
+            "id": "e16_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Ein Patient mit Nervenschmerzen beschreibt den Schmerz oft als...",
+                "en": "A patient with nerve pain often describes the pain as...",
+                "bn": "স্নায়ু ব্যথাযুক্ত একজন রোগী প্রায়শই ব্যথাকে বর্ণনা করেন...",
+                "hi": "तंत्रिका दर्द वाला एक मरीज अक्सर दर्द को इस प्रकार वर्णित करता है...",
+                "ur": "اعصابی درد والا مریض اکثر درد کو اس طرح بیان کرتا ہے...",
+                "tr": "Sinir ağrısı olan bir hasta genellikle ağrıyı şu şekilde tanımlar..."
+            },
+            "options": [
+                "Dumpf",
+                "Stechend oder brennend",
+                "Krampfartig",
+                "Pulsierend"
+            ],
+            "correctAnswer": "Stechend oder brennend",
+            "explanation": {
+                "en": "Nerve pain is often described as sharp, shooting, stabbing or burning.",
+                "bn": "স্নায়ু ব্যথা প্রায়শই ধারালো, শুটিং, আঘাত করা বা জ্বলন্ত হিসাবে বর্ণনা করা হয়।",
+                "hi": "तंत्रिका दर्द को अक्सर तेज, शूटिंग, छुरा घोंपने या जलन के रूप में वर्णित किया जाता है।",
+                "ur": "اعصابی درد کو اکثر تیز، شوٹنگ، وار یا جلن کے طور پر بیان کیا جاتا ہے۔",
+                "tr": "Sinir ağrısı genellikle keskin, batıcı, bıçaklayıcı veya yakıcı olarak tanımlanır."
+            },
+            "points": 10,
+            "id": "e16_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Skalen wird zur Schmerzerfassung bei Kindern eingesetzt?",
+                "en": "Which of the following scales is used for pain assessment in children?",
+                "bn": "শিশুদের মধ্যে ব্যথা মূল্যায়নের জন্য নিম্নলিখিত কোন স্কেল ব্যবহার করা হয়?",
+                "hi": "बच्चों में दर्द मूल्यांकन के लिए निम्नलिखित में से कौन सा पैमाना उपयोग किया जाता है?",
+                "ur": "بچوں میں درد کی تشخیص کے لیے درج ذیل میں سے کون سا پیمانہ استعمال کیا جاتا ہے؟",
+                "tr": "Çocuklarda ağrı değerlendirmesi için aşağıdaki ölçeklerden hangisi kullanılır?"
+            },
+            "options": [
+                "VAS",
+                "NRS",
+                "Wong-Baker Faces Pain Scale",
+                "Numeric Rating Scale (NRS)"
+            ],
+            "correctAnswer": "Wong-Baker Faces Pain Scale",
+            "explanation": {
+                "en": "The Wong-Baker Faces Pain Scale is commonly used to assess pain in children due to its visual representation of pain levels.",
+                "bn": "Wong-Baker Faces Pain Scale সাধারণত শিশুদের মধ্যে ব্যথার মাত্রা দৃশ্যমান উপস্থাপনার কারণে ব্যথা মূল্যায়ন করতে ব্যবহৃত হয়।",
+                "hi": "वोंग-बेकर फेसेस पेन स्केल आमतौर पर बच्चों में दर्द के स्तर के दृश्य प्रतिनिधित्व के कारण दर्द का आकलन करने के लिए उपयोग किया जाता है।",
+                "ur": "وقت کے ساتھ ساتھ درد کی سطح کی بصری نمائندگی کی وجہ سے وونگ بیکر فیس پین اسکیل عام طور پر بچوں میں درد کا اندازہ لگانے کے لیے استعمال کیا جاتا ہے۔",
+                "tr": "Wong-Baker Faces Ağrı Ölçeği, ağrı seviyelerinin görsel gösterimi nedeniyle çocuklarda ağrıyı değerlendirmek için yaygın olarak kullanılır."
+            },
+            "points": 10,
+            "id": "e16_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein ________ Schmerz wird oft als drückend und tief beschrieben.",
+                "en": "A ________ pain is often described as pressing and deep.",
+                "bn": "একটি ________ ব্যথা প্রায়শই চাপানো এবং গভীর হিসাবে বর্ণিত হয়।",
+                "hi": "एक ________ दर्द को अक्सर दबाने वाला और गहरा बताया जाता है।",
+                "ur": "ایک ________ درد کو اکثر دبانے والا اور گہرا بتایا جاتا ہے۔",
+                "tr": "Bir ________ ağrı genellikle bastırıcı ve derin olarak tanımlanır."
+            },
+            "correctAnswer": "dumpfer",
+            "explanation": {
+                "en": "'Dumpfer' describes a dull, deep pain that is often described as pressing.",
+                "bn": "'Dumpfer' একটি নিস্তেজ, গভীর ব্যথা বর্ণনা করে যা প্রায়শই চাপানো হিসাবে বর্ণিত হয়।",
+                "hi": "'Dumpfer' एक सुस्त, गहरा दर्द का वर्णन करता है जिसे अक्सर दबाने वाला बताया जाता है।",
+                "ur": "'Dumpfer' ایک سست، گہرے درد کو بیان کرتا ہے جسے اکثر دبانے والا بتایا جاتا ہے۔",
+                "tr": "'Dumpfer', genellikle bastırıcı olarak tanımlanan donuk, derin bir ağrıyı tanımlar."
+            },
+            "points": 10,
+            "id": "e16_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bei einem Herzinfarkt kann der Schmerz ________ in den linken Arm.",
+                "en": "In a heart attack, the pain can ________ into the left arm.",
+                "bn": "হার্ট অ্যাটাকের ক্ষেত্রে, ব্যথা বাম হাতে ________ হতে পারে।",
+                "hi": "हार्ट अटैक में, दर्द बाएं हाथ में ________ हो सकता है।",
+                "ur": "دل کے دورے میں، درد بائیں بازو میں ________ ہو سکتا ہے۔",
+                "tr": "Kalp krizinde, ağrı sol kola ________ yapabilir."
+            },
+            "correctAnswer": "ausstrahlen",
+            "explanation": {
+                "en": "'Ausstrahlen' means to radiate. Pain can radiate from the chest to the left arm during a heart attack.",
+                "bn": "'Ausstrahlen' মানে বিকিরণ করা। হার্ট অ্যাটাকের সময় ব্যথা বুক থেকে বাম হাতে বিকিরণ করতে পারে।",
+                "hi": "'Ausstrahlen' का अर्थ है विकीर्ण करना। हार्ट अटैक के दौरान दर्द छाती से बाएं हाथ में विकीर्ण हो सकता है।",
+                "ur": "'Ausstrahlen' کا مطلب ہے شعاع کرنا۔ ہارٹ اٹیک کے دوران درد سینے سے بائیں بازو تک پھیل سکتا ہے۔",
+                "tr": "'Ausstrahlen' yayılmak anlamına gelir. Kalp krizi sırasında ağrı göğüsten sol kola yayılabilir."
+            },
+            "points": 10,
+            "id": "e16_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Eine Schmerzskala hilft, den ________ des Schmerzes zu beurteilen.",
+                "en": "A pain scale helps to assess the ________ of the pain.",
+                "bn": "একটি ব্যথার স্কেল ব্যথার ________ মূল্যায়ন করতে সাহায্য করে।",
+                "hi": "एक दर्द पैमाना दर्द के ________ का आकलन करने में मदद करता है।",
+                "ur": "ایک درد پیمانہ درد کے ________ کا اندازہ لگانے میں مدد کرتا ہے۔",
+                "tr": "Bir ağrı ölçeği, ağrının ________ değerlendirilmesine yardımcı olur."
+            },
+            "correctAnswer": "Intensität",
+            "explanation": {
+                "en": "Pain scales are primarily used to assess the intensity of pain.",
+                "bn": "ব্যথার স্কেল প্রাথমিকভাবে ব্যথার তীব্রতা মূল্যায়ন করতে ব্যবহৃত হয়।",
+                "hi": "दर्द के पैमाने का उपयोग मुख्य रूप से दर्द की तीव्रता का आकलन करने के लिए किया जाता है।",
+                "ur": "درد کے پیمانے بنیادی طور پر درد کی شدت کا اندازہ لگانے کے لیے استعمال کیے جاتے ہیں۔",
+                "tr": "Ağrı ölçekleri öncelikle ağrının yoğunluğunu değerlendirmek için kullanılır."
+            },
+            "points": 10,
+            "id": "e16_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Chronische Schmerzen können als ________, brennend oder stechend beschrieben werden.",
+                "en": "Chronic pain can be described as ________, burning, or stabbing.",
+                "bn": "দীর্ঘস্থায়ী ব্যথাকে ________, জ্বলন্ত বা ছুরিকাঘাত হিসাবে বর্ণনা করা যেতে পারে।",
+                "hi": "क्रोनिक दर्द को ________, जलन या छुरा घोंपने के रूप में वर्णित किया जा सकता है।",
+                "ur": "دائمی درد کو ________، جلن یا وار کرنے کے طور پر بیان کیا جا سکتا ہے۔",
+                "tr": "Kronik ağrı ________, yanma veya bıçaklama olarak tanımlanabilir."
+            },
+            "correctAnswer": "dumpf",
+            "explanation": {
+                "en": "Chronic pain often has a combination of qualities including dull, burning and stabbing sensations.",
+                "bn": "দীর্ঘস্থায়ী ব্যথায় প্রায়শই নিস্তেজ, জ্বলন্ত এবং ছুরিকাঘাত অনুভূতির সংমিশ্রণ থাকে।",
+                "hi": "क्रोनिक दर्द में अक्सर सुस्त, जलन और छुरा घोंपने वाली संवेदनाओं सहित गुणों का संयोजन होता है।",
+                "ur": "دائمی درد میں اکثر سست، جلن اور وار کرنے والی حسیں شامل ہوتی ہیں۔",
+                "tr": "Kronik ağrı genellikle donuk, yanma ve bıçaklama hissi dahil olmak üzere niteliklerin bir kombinasyonuna sahiptir."
+            },
+            "points": 10,
+            "id": "e16_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "________ Schmerzen treten wellenartig auf und ab.",
+                "en": "________ pain occurs in waves, rising and falling.",
+                "bn": "________ ব্যথা ঢেউয়ের মতো আসে এবং যায়।",
+                "hi": "________ दर्द लहरों में होता है, उठता और गिरता है।",
+                "ur": "________ درد لہروں کی شکل میں ہوتا ہے، اٹھتا اور گرتا ہے۔",
+                "tr": "________ ağrı dalgalar halinde ortaya çıkar, yükselir ve alçalır."
+            },
+            "correctAnswer": "Krampfartige",
+            "explanation": {
+                "en": "Cramping pains are often described as occurring in waves.",
+                "bn": "খিঁচুনিপূর্ণ ব্যথা প্রায়শই ঢেউয়ের মতো অনুভূত হয়।",
+                "hi": "ऐंठन वाले दर्द को अक्सर लहरों में होने के रूप में वर्णित किया जाता है।",
+                "ur": "اینٹھن والے درد کو اکثر لہروں کی شکل میں ہونے کے طور پر بیان کیا جاتا ہے۔",
+                "tr": "Kramp ağrıları genellikle dalgalar halinde meydana geldiği şeklinde tanımlanır."
+            },
+            "points": 10,
+            "id": "e16_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Bitte beschreiben Sie Ihren Schmerz auf einer Skala von 0 bis 10.",
+                "en": "Please describe your pain on a scale from 0 to 10.",
+                "bn": "অনুগ্রহ করে 0 থেকে 10 স্কেলে আপনার ব্যথা বর্ণনা করুন।",
+                "hi": "कृपया 0 से 10 के पैमाने पर अपने दर्द का वर्णन करें।",
+                "ur": "براہ کرم اپنے درد کو 0 سے 10 کے پیمانے پر بیان کریں۔",
+                "tr": "Lütfen ağrınızı 0'dan 10'a kadar bir ölçekte tanımlayın."
+            },
+            "correctAnswer": "Please describe your pain on a scale from 0 to 10.",
+            "explanation": {
+                "en": "Direct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সরাসরি অনুবাদ।",
+                "hi": "जर्मन वाक्य का सीधा अनुवाद।",
+                "ur": "جرمن جملے کا براہ راست ترجمہ۔",
+                "tr": "Almanca cümlenin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e16_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Der Schmerz ist brennend und ausstrahlend in den Rücken.",
+                "en": "The pain is burning and radiating into the back.",
+                "bn": "ব্যথাটি জ্বলন্ত এবং পিছনের দিকে ছড়িয়ে যাচ্ছে।",
+                "hi": "दर्द जल रहा है और पीठ में फैल रहा है।",
+                "ur": "درد جل رہا ہے اور کمر میں پھیل رہا ہے۔",
+                "tr": "Ağrı yanıyor ve sırta yayılıyor."
+            },
+            "correctAnswer": "The pain is burning and radiating into the back.",
+            "explanation": {
+                "en": "Accurate translation of the German phrase describing the pain's characteristics.",
+                "bn": "ব্যথার বৈশিষ্ট্য বর্ণনা করে জার্মান বাক্যাংশের সঠিক অনুবাদ।",
+                "hi": "दर्द की विशेषताओं का वर्णन करने वाले जर्मन वाक्यांश का सटीक अनुवाद।",
+                "ur": "درد کی خصوصیات کو بیان کرنے والے جرمن فقرے کا درست ترجمہ۔",
+                "tr": "Ağrının özelliklerini tanımlayan Almanca ifadenin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e16_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Haben Sie krampfartige Schmerzen?",
+                "en": "Do you have cramping pains?",
+                "bn": "আপনার কি খিঁচুনিপূর্ণ ব্যথা আছে?",
+                "hi": "क्या आपको ऐंठन वाला दर्द है?",
+                "ur": "کیا آپ کو اینٹھن کا درد ہے؟",
+                "tr": "Kramp tarzı ağrılarınız var mı?"
+            },
+            "correctAnswer": "Do you have cramping pains?",
+            "explanation": {
+                "en": "Direct translation of the question.",
+                "bn": "প্রশ্নের সরাসরি অনুবাদ।",
+                "hi": "प्रश्न का सीधा अनुवाद।",
+                "ur": "سوال کا براہ راست ترجمہ۔",
+                "tr": "Sorunun doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e16_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

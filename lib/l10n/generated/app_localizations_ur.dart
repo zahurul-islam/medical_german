@@ -145,7 +145,7 @@ class AppLocalizationsUr extends AppLocalizations {
   String get summary => 'خلاصہ';
 
   @override
-  String get learningObjectives => 'Learning Objectives';
+  String get learningObjectives => 'سیکھنے کے مقاصد';
 
   @override
   String get flashcards => 'فلیش کارڈز';

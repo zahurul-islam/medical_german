@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>149956547132-aea3amlfppuv9let4rapr7bvapqp7knf.apps.googleusercontent.com</string>
+	<string>149956547132-171jjqiqi6fc9l2k1hlqiu1p5kpo47lg.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.149956547132-aea3amlfppuv9let4rapr7bvapqp7knf</string>
+	<string>com.googleusercontent.apps.149956547132-171jjqiqi6fc9l2k1hlqiu1p5kpo47lg</string>
 	<key>API_KEY</key>
 	<string>AIzaSyCxcvJAhcG8NW8P64hLmc8f0fv_IrPeHvA</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>app.german.med</string>
+	<string>app.deutsch.med</string>
 	<key>PROJECT_ID</key>
 	<string>german-med</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:149956547132:ios:48797eac0089633eba2939</string>
+	<string>1:149956547132:ios:3fcc0c2d88f9d48cba2939</string>
 </dict>
 </plist>

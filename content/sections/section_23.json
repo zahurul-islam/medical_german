@@ -1,14 +1,1602 @@
-{"id":"section_23","phaseId":"phase2","order":23,"titleDe":"Verdauungssystem","title":{"en":"Gastrointestinal System","bn":"পাচনতন্ত্র","hi":"पाचन तंत्र","ur":"نظام ہاضمہ","tr":"Sindirim Sistemi"},"level":"B2","estimatedMinutes":40,"vocabulary":[
-{"id":"v23_01","germanTerm":"Gastritis","article":"die","plural":"Gastritiden","translation":{"en":"Gastritis","bn":"গ্যাস্ট্রাইটিস","hi":"गैस्ट्राइटिस","ur":"گیسٹرائٹس","tr":"Gastrit"}},
-{"id":"v23_02","germanTerm":"Appendizitis","article":"die","plural":"Appendizitiden","translation":{"en":"Appendicitis","bn":"অ্যাপেন্ডিসাইটিস","hi":"अपेंडिसाइटिस","ur":"اپینڈیسائٹس","tr":"Apandisit"}},
-{"id":"v23_03","germanTerm":"Cholezystitis","article":"die","plural":"Choleystitiden","translation":{"en":"Cholecystitis","bn":"কোলেসিস্টাইটিস","hi":"कोलेसिस्टाइटिस","ur":"کولیسسٹائٹس","tr":"Kolesistit"}},
-{"id":"v23_04","germanTerm":"Pankreatitis","article":"die","plural":"Pankreatitiden","translation":{"en":"Pancreatitis","bn":"প্যানক্রিয়াটাইটিস","hi":"पैन्क्रियाटाइटिस","ur":"لبلبے کی سوزش","tr":"Pankreatit"}},
-{"id":"v23_05","germanTerm":"Ulkus","article":"das","plural":"Ulzera","translation":{"en":"Ulcer","bn":"আলসার","hi":"अल्सर","ur":"السر","tr":"Ülser"}},
-{"id":"v23_06","germanTerm":"Gastroskopie","article":"die","plural":"Gastroskopien","translation":{"en":"Gastroscopy","bn":"গ্যাস্ট্রোস্কপি","hi":"गैस्ट्रोस्कोपी","ur":"گیسٹروسکوپی","tr":"Gastroskopi"}},
-{"id":"v23_07","germanTerm":"Koloskopie","article":"die","plural":"Koloskopien","translation":{"en":"Colonoscopy","bn":"কলোনোস্কপি","hi":"कोलोनोस्कोपी","ur":"کولونوسکوپی","tr":"Kolonoskopi"}},
-{"id":"v23_08","germanTerm":"Obstipation","article":"die","plural":"Obstipationen","translation":{"en":"Constipation","bn":"কোষ্ঠকাঠিন্য","hi":"कब्ज","ur":"قبض","tr":"Kabızlık"}}
-],"dialogues":[{"id":"d23_01","title":{"en":"Abdominal Pain"},"lines":[
-{"speaker":"Arzt","germanText":"Wo genau haben Sie Schmerzen?","translation":{"en":"Where exactly do you have pain?"}},
-{"speaker":"Patient","germanText":"Rechts unten im Bauch.","translation":{"en":"Right lower abdomen."}},
-{"speaker":"Arzt","germanText":"Wir müssen eine Appendizitis ausschließen.","translation":{"en":"We need to rule out appendicitis."}}
-]}],"exercises":[{"id":"e23_01","type":"multipleChoice","question":{"en":"What is 'Appendizitis'?"},"options":["Appendicitis","Gastritis","Ulcer"],"correctAnswer":"Appendicitis","points":10}]}
+{
+    "id": "section_23",
+    "phaseId": "phase2",
+    "order": 23,
+    "titleDe": "Verdauungssystem",
+    "title": {
+        "en": "Gastrointestinal Disorders and Diagnostic Procedures",
+        "bn": "গ্যাস্ট্রোইনটেস্টাইনাল ডিসর্ডার ও ডায়াগনস্টিক প্রক্রিয়া",
+        "hi": "जठरांत्र संबंधी विकार और नैदानिक प्रक्रियाएं",
+        "ur": "معدیاتی مسائل اور تشخیصی طریقے",
+        "tr": "Gastrointestinal Rahatsızlıklar ve Tanı Prosedürleri",
+        "de": "Gastrointestinaltrakt: Gastritis, Appendizitis, Hepatitis, Kolitis, Obstipation, Ileus, Endoskopie"
+    },
+    "description": {
+        "en": "This section covers common gastrointestinal diseases, their German terminology, and related diagnostic procedures like endoscopy.",
+        "bn": "এই বিভাগে সাধারণ গ্যাস্ট্রোইনটেস্টাইনাল রোগ, তাদের জার্মান শব্দাবলী এবং এন্ডোস্কোপির মতো সম্পর্কিত ডায়াগনস্টিক প্রক্রিয়া অন্তর্ভুক্ত রয়েছে।",
+        "hi": "इस खंड में सामान्य जठरांत्र रोगों, उनके जर्मन शब्दावली और एंडोस्कोपी जैसी संबंधित नैदानिक प्रक्रियाओं को शामिल किया गया है।",
+        "ur": "اس سیکشن میں عام معدیاتی بیماریوں، ان کی جرمن اصطلاحات اور متعلقہ تشخیصی طریقوں جیسے اینڈوسکوپی شامل ہیں۔",
+        "tr": "Bu bölüm, yaygın gastrointestinal hastalıkları, Almanca terminolojilerini ve endoskopi gibi ilgili tanı prosedürlerini kapsar.",
+        "de": "Dieser Abschnitt behandelt häufige Magen-Darm-Erkrankungen, ihre deutsche Terminologie und zugehörige diagnostische Verfahren wie die Endoskopie."
+    },
+    "level": "B2",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, we will explore the German terminology for common gastrointestinal ailments and related diagnostic procedures. You will learn to describe symptoms, understand diagnoses, and discuss treatment options in German.",
+            "bn": "এই বিভাগে, আমরা সাধারণ গ্যাস্ট্রোইনটেস্টাইনাল অসুস্থতা এবং সম্পর্কিত ডায়াগনস্টিক পদ্ধতিগুলির জন্য জার্মান শব্দাবলী অন্বেষণ করব। আপনি জার্মান ভাষায় লক্ষণগুলি বর্ণনা করতে, রোগ নির্ণয় বুঝতে এবং চিকিত্সার বিকল্পগুলি নিয়ে আলোচনা করতে শিখবেন।",
+            "hi": "इस खंड में, हम सामान्य जठरांत्र संबंधी बीमारियों और संबंधित नैदानिक प्रक्रियाओं के लिए जर्मन शब्दावली का पता लगाएंगे। आप जर्मन में लक्षणों का वर्णन करना, निदान को समझना और उपचार विकल्पों पर चर्चा करना सीखेंगे।",
+            "ur": "اس سیکشن میں، ہم عام معدیاتی امراض اور متعلقہ تشخیصی طریقوں کے لیے جرمن اصطلاحات کا جائزہ لیں گے۔ آپ جرمن میں علامات بیان کرنا، تشخیص کو سمجھنا اور علاج کے اختیارات پر تبادلہ خیال کرنا سیکھیں گے۔",
+            "tr": "Bu bölümde, yaygın gastrointestinal rahatsızlıklar ve ilgili tanı prosedürleri için Almanca terminolojiyi keşfedeceğiz. Almanca semptomları tanımlamayı, teşhisleri anlamayı ve tedavi seçeneklerini tartışmayı öğreneceksiniz.",
+            "de": "In diesem Abschnitt werden wir die deutsche Terminologie für häufige gastrointestinale Beschwerden und zugehörige diagnostische Verfahren untersuchen. Sie lernen, Symptome zu beschreiben, Diagnosen zu verstehen und Behandlungsoptionen auf Deutsch zu diskutieren."
+        },
+        "grammarFocus": {
+            "en": {
+                "bullet1": "Focus on accusative and dative cases when describing the location of pain (e.g., 'Ich habe Schmerzen im Bauch' - in dem Bauch).",
+                "bullet2": "Practice using separable verbs when discussing treatment options (e.g., 'Ich werde Sie untersuchen' - to examine)."
+            },
+            "bn": {
+                "bullet1": "ব্যথা স্থানের বর্ণনায় অভিযুক্ত এবং ডেটিভ কেসগুলির উপর জোর দিন (যেমন, 'Ich habe Schmerzen im Bauch' - পেটে)।",
+                "bullet2": "চিকিত্সার বিকল্পগুলি নিয়ে আলোচনার সময় পৃথকযোগ্য ক্রিয়া ব্যবহার করার অনুশীলন করুন (যেমন, 'Ich werde Sie untersuchen' - পরীক্ষা করতে)।"
+            },
+            "hi": {
+                "bullet1": "दर्द के स्थान का वर्णन करते समय कर्म कारक और आपादान कारक पर ध्यान दें (उदाहरण के लिए, 'Ich habe Schmerzen im Bauch' - पेट में)।",
+                "bullet2": "उपचार के विकल्पों पर चर्चा करते समय वियोज्य क्रियाओं का उपयोग करने का अभ्यास करें (उदाहरण के लिए, 'Ich werde Sie untersuchen' - जांच करने के लिए)।"
+            },
+            "ur": {
+                "bullet1": "درد کی جگہ کو بیان کرتے وقت مفعولی اور اضافی معاملات پر توجہ مرکوز کریں (مثال کے طور پر، 'Ich habe Schmerzen im Bauch' - پیٹ میں)۔",
+                "bullet2": "علاج کے اختیارات پر تبادلہ خیال کرتے وقت الگ ہونے والے فعلوں کا استعمال کرنے کی مشق کریں (مثال کے طور پر، 'Ich werde Sie untersuchen' - معائنہ کرنے کے لیے)۔"
+            },
+            "tr": {
+                "bullet1": "Ağrının yerini tanımlarken belirtme ve yönelme hallerine odaklanın (örneğin, 'Ich habe Schmerzen im Bauch' - karında).",
+                "bullet2": "Tedavi seçeneklerini tartışırken ayrılabilen fiilleri kullanmayı alıştırma yapın (örneğin, 'Ich werde Sie untersuchen' - muayene etmek)."
+            },
+            "de": {
+                "bullet1": "Fokus auf Akkusativ und Dativ beim Beschreiben des Schmerzlokalisation (z.B. 'Ich habe Schmerzen im Bauch' - in dem Bauch).",
+                "bullet2": "Üben Sie die Verwendung trennbarer Verben bei der Diskussion von Behandlungsoptionen (z.B. 'Ich werde Sie untersuchen' - untersuchen)."
+            }
+        },
+        "culturalNotes": {
+            "en": "In German hospitals, it's common for doctors to explain diagnoses and treatment plans in detail, using technical terms but also ensuring the patient understands.",
+            "bn": "জার্মান হাসপাতালগুলিতে, ডাক্তারদের জন্য প্রযুক্তিগত শব্দ ব্যবহার করে রোগ নির্ণয় এবং চিকিত্সা পরিকল্পনা বিস্তারিতভাবে ব্যাখ্যা করা সাধারণ বিষয়, তবে রোগীরা যাতে বুঝতে পারে তা নিশ্চিত করা হয়।",
+            "hi": "जर्मन अस्पतालों में, डॉक्टरों के लिए तकनीकी शब्दों का उपयोग करते हुए निदान और उपचार योजनाओं को विस्तार से समझाना आम बात है, लेकिन यह सुनिश्चित करना भी कि रोगी समझें।",
+            "ur": "جرمن ہسپتالوں میں، ڈاکٹروں کے لیے تکنیکی اصطلاحات کا استعمال کرتے ہوئے تشخیص اور علاج کے منصوبوں کو تفصیل سے بیان کرنا عام بات ہے، لیکن یہ یقینی بنانا بھی کہ مریض سمجھیں۔",
+            "tr": "Alman hastanelerinde doktorların, teknik terimler kullanarak tanıları ve tedavi planlarını ayrıntılı olarak açıklaması yaygındır, ancak hastanın anladığından da emin olunur.",
+            "de": "In deutschen Krankenhäusern ist es üblich, dass Ärzte Diagnosen und Behandlungspläne detailliert erklären, wobei sie Fachbegriffe verwenden, aber auch sicherstellen, dass der Patient sie versteht."
+        },
+        "summary": {
+            "en": "This section equips you with essential German medical vocabulary for discussing common gastrointestinal conditions and diagnostic procedures.",
+            "bn": "এই বিভাগটি আপনাকে সাধারণ গ্যাস্ট্রোইনটেস্টাইনাল অবস্থা এবং ডায়াগনস্টিক পদ্ধতিগুলি নিয়ে আলোচনা করার জন্য প্রয়োজনীয় জার্মান চিকিৎসা শব্দভাণ্ডার সরবরাহ করে।",
+            "hi": "यह खंड आपको सामान्य जठरांत्र संबंधी स्थितियों और नैदानिक प्रक्रियाओं पर चर्चा करने के लिए आवश्यक जर्मन चिकित्सा शब्दावली से लैस करता है।",
+            "ur": "یہ سیکشن آپ کو عام معدیاتی حالات اور تشخیصی طریقوں پر تبادلہ خیال کرنے کے لیے ضروری جرمن طبی الفاظ سے لیس کرتا ہے۔",
+            "tr": "Bu bölüm sizi, yaygın gastrointestinal durumları ve tanı prosedürlerini tartışmak için gerekli Almanca tıbbi kelime dağarcığıyla donatır.",
+            "de": "Dieser Abschnitt vermittelt Ihnen das wesentliche deutsche medizinische Vokabular zur Besprechung häufiger gastrointestinaler Erkrankungen und diagnostischer Verfahren."
+        },
+        "learningObjectives": [
+            "Identify and define common gastrointestinal conditions in German.",
+            "Describe symptoms and diagnostic findings using appropriate German medical terminology.",
+            "Understand and explain the procedures involved in gastrointestinal endoscopy.",
+            "Discuss treatment options for common gastrointestinal diseases in German."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "die Gastritis",
+            "article": "die",
+            "plural": "die Gastritiden",
+            "pronunciation": "/ɡastʁiˈtiːs/",
+            "category": "noun",
+            "translation": {
+                "en": "gastritis",
+                "bn": "গ্যাস্ট্রাইটিস",
+                "hi": "जठरशोथ",
+                "ur": "معدے کی سوزش",
+                "tr": "gastrit"
+            },
+            "exampleSentence": "Die Patientin klagt über Übelkeit und Erbrechen im Rahmen einer Gastritis.",
+            "exampleTranslation": {
+                "en": "The patient complains of nausea and vomiting as part of gastritis.",
+                "bn": "রোগী গ্যাস্ট্রাইটিসের কারণে বমি বমি ভাব এবং বমির অভিযোগ করছেন।",
+                "hi": "मरीज गैस्ट्रिटिस के हिस्से के रूप में मतली और उल्टी की शिकायत कर रहा है।",
+                "ur": "مریض گیسٹرائٹس کے حصے کے طور پر متلی اور قے کی شکایت کر رہا ہے۔",
+                "tr": "Hasta gastrit nedeniyle mide bulantısı ve kusmadan şikayet ediyor."
+            },
+            "id": "v23_01"
+        },
+        {
+            "germanTerm": "die Appendizitis",
+            "article": "die",
+            "plural": "die Appendizitiden",
+            "pronunciation": "/apɛndiˈtsiːtɪs/",
+            "category": "noun",
+            "translation": {
+                "en": "appendicitis",
+                "bn": "অ্যাপেন্ডিসাইটিস",
+                "hi": "उपांत्रशोथ",
+                "ur": "اپینڈیسائٹس",
+                "tr": "apandisit"
+            },
+            "exampleSentence": "Bei der Untersuchung wurde eine akute Appendizitis diagnostiziert.",
+            "exampleTranslation": {
+                "en": "Acute appendicitis was diagnosed during the examination.",
+                "bn": "পরীক্ষায় তীব্র অ্যাপেন্ডিসাইটিস নির্ণয় করা হয়েছে।",
+                "hi": "जांच के दौरान तीव्र उपांत्रशोथ का निदान किया गया।",
+                "ur": "معائنے کے دوران شدید اپینڈیسائٹس کی تشخیص ہوئی۔",
+                "tr": "Muayene sırasında akut apandisit teşhisi konuldu."
+            },
+            "id": "v23_02"
+        },
+        {
+            "germanTerm": "die Hepatitis",
+            "article": "die",
+            "plural": "die Hepatitiden",
+            "pronunciation": "/hepaˈtiːtɪs/",
+            "category": "noun",
+            "translation": {
+                "en": "hepatitis",
+                "bn": "হেপাটাইটিস",
+                "hi": "यकृतशोथ",
+                "ur": "ہیپاٹائٹس",
+                "tr": "hepatit"
+            },
+            "exampleSentence": "Der Patient wurde positiv auf Hepatitis C getestet.",
+            "exampleTranslation": {
+                "en": "The patient tested positive for Hepatitis C.",
+                "bn": "রোগীর হেপাটাইটিস সি পজিটিভ ধরা পড়েছে।",
+                "hi": "मरीज को हेपेटाइटिस सी पॉजिटिव पाया गया।",
+                "ur": "مریض کا ہیپاٹائٹس سی مثبت آیا ہے۔",
+                "tr": "Hastanın Hepatit C testi pozitif çıktı."
+            },
+            "id": "v23_03"
+        },
+        {
+            "germanTerm": "die Kolitis",
+            "article": "die",
+            "plural": "die Kolitiden",
+            "pronunciation": "/koˈliːtɪs/",
+            "category": "noun",
+            "translation": {
+                "en": "colitis",
+                "bn": "কোলাইটিস",
+                "hi": "कोलाइटिस",
+                "ur": "قولون کا ورم",
+                "tr": "kolit"
+            },
+            "exampleSentence": "Die Kolitis ulcerosa verursachte starke Bauchschmerzen.",
+            "exampleTranslation": {
+                "en": "Ulcerative colitis caused severe abdominal pain.",
+                "bn": "আলসারেটিভ কোলাইটিসের কারণে তীব্র পেটে ব্যথা হচ্ছিল।",
+                "hi": "अल्सरेटिव कोलाइटिस के कारण पेट में तेज दर्द हो रहा था।",
+                "ur": "السریٹیو کولائٹس کی وجہ سے پیٹ میں شدید درد ہو رہا تھا۔",
+                "tr": "Ülseratif kolit şiddetli karın ağrısına neden oldu."
+            },
+            "id": "v23_04"
+        },
+        {
+            "germanTerm": "die Obstipation",
+            "article": "die",
+            "plural": "die Obstipationen",
+            "pronunciation": "/ɔpstipaˈtsi̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "constipation",
+                "bn": "কোষ্ঠকাঠিন্য",
+                "hi": "कब्ज़",
+                "ur": "قبض",
+                "tr": "kabızlık"
+            },
+            "exampleSentence": "Die Obstipation kann durch mangelnde Bewegung verursacht werden.",
+            "exampleTranslation": {
+                "en": "Constipation can be caused by lack of exercise.",
+                "bn": "অপর্যাপ্ত শারীরিক কার্যকলাপের কারণে কোষ্ঠকাঠিন্য হতে পারে।",
+                "hi": "कब्ज अपर्याप्त शारीरिक गतिविधि के कारण हो सकता है।",
+                "ur": "قبض ناکافی جسمانی سرگرمی کی وجہ سے ہو سکتا ہے۔",
+                "tr": "Kabızlık, yetersiz fiziksel aktivite nedeniyle ortaya çıkabilir."
+            },
+            "id": "v23_05"
+        },
+        {
+            "germanTerm": "der Ileus",
+            "article": "der",
+            "plural": "die Ileusse",
+            "pronunciation": "/iˈleːʊs/",
+            "category": "noun",
+            "translation": {
+                "en": "ileus",
+                "bn": "ইলিয়াস",
+                "hi": "इलियस",
+                "ur": "آنتوں کی رکاوٹ",
+                "tr": "ileus"
+            },
+            "exampleSentence": "Der Patient entwickelte nach der Operation einen Ileus.",
+            "exampleTranslation": {
+                "en": "The patient developed an ileus after the operation.",
+                "bn": "অস্ত্রোপচারের পর রোগীর একটি ইলিয়াস হয়েছে।",
+                "hi": "ऑपरेशन के बाद मरीज को इलियस हो गया।",
+                "ur": "آپریشن کے بعد مریض کو آنتوں میں رکاوٹ ہو گئی۔",
+                "tr": "Hasta ameliyat sonrası bir ileus geliştirdi."
+            },
+            "id": "v23_06"
+        },
+        {
+            "germanTerm": "die Endoskopie",
+            "article": "die",
+            "plural": "die Endoskopien",
+            "pronunciation": "/ɛndoˈskoːpi/",
+            "category": "noun",
+            "translation": {
+                "en": "endoscopy",
+                "bn": "এন্ডোস্কোপি",
+                "hi": "एंडोस्कोपी",
+                "ur": "دور بینی",
+                "tr": "endoskopi"
+            },
+            "exampleSentence": "Die Endoskopie ermöglicht die Beurteilung der Schleimhaut.",
+            "exampleTranslation": {
+                "en": "Endoscopy allows the assessment of the mucous membrane.",
+                "bn": "এন্ডোস্কোপি শ্লৈষ্মিক ঝিল্লি মূল্যায়ন করতে সক্ষম করে।",
+                "hi": "एंडोस्कोपी श्लेष्म झिल्ली के मूल्यांकन को सक्षम बनाती है।",
+                "ur": "دور بینی لعابی جھلی کی تشخیص کو ممکن بناتی ہے۔",
+                "tr": "Endoskopi, mukoza zarının değerlendirilmesini sağlar."
+            },
+            "id": "v23_07"
+        },
+        {
+            "germanTerm": "das Abdomen",
+            "article": "das",
+            "plural": "die Abdomen",
+            "pronunciation": "/apˈdoːmən/",
+            "category": "noun",
+            "translation": {
+                "en": "abdomen",
+                "bn": "পেট",
+                "hi": "पेट",
+                "ur": "پیٹ",
+                "tr": "karın"
+            },
+            "exampleSentence": "Der Patient klagt über Schmerzen im unteren Abdomen.",
+            "exampleTranslation": {
+                "en": "The patient complains of pain in the lower abdomen.",
+                "bn": "রোগী পেটের নিচের দিকে ব্যথার অভিযোগ করছেন।",
+                "hi": "मरीज पेट के निचले हिस्से में दर्द की शिकायत कर रहा है।",
+                "ur": "مریض پیٹ کے نچلے حصے میں درد کی شکایت کر رہا ہے۔",
+                "tr": "Hasta alt karın bölgesinde ağrıdan şikayet ediyor."
+            },
+            "id": "v23_08"
+        },
+        {
+            "germanTerm": "der Darm",
+            "article": "der",
+            "plural": "die Därme",
+            "pronunciation": "/daʁm/",
+            "category": "noun",
+            "translation": {
+                "en": "intestine",
+                "bn": "অন্ত্র",
+                "hi": "आंत",
+                "ur": "آنت",
+                "tr": "bağırsak"
+            },
+            "exampleSentence": "Eine Entzündung des Darms kann zu Durchfall führen.",
+            "exampleTranslation": {
+                "en": "Inflammation of the intestine can lead to diarrhea.",
+                "bn": "অন্ত্রের প্রদাহ ডায়রিয়া হতে পারে।",
+                "hi": "आंत की सूजन से दस्त हो सकते हैं।",
+                "ur": "آنت کی سوزش اسہال کا باعث بن سکتی ہے۔",
+                "tr": "Bağırsağın iltihaplanması ishale yol açabilir."
+            },
+            "id": "v23_09"
+        },
+        {
+            "germanTerm": "der Magen",
+            "article": "der",
+            "plural": "die Mägen",
+            "pronunciation": "/ˈmaːɡən/",
+            "category": "noun",
+            "translation": {
+                "en": "stomach",
+                "bn": "পাকস্থলী",
+                "hi": "पेट",
+                "ur": "معدہ",
+                "tr": "mide"
+            },
+            "exampleSentence": "Der Patient hat seit Tagen starke Schmerzen im Magen.",
+            "exampleTranslation": {
+                "en": "The patient has had severe stomach pain for days.",
+                "bn": "রোগীর কয়েকদিন ধরে পেটে খুব ব্যথা হচ্ছে।",
+                "hi": "मरीज को कई दिनों से पेट में तेज दर्द है।",
+                "ur": "مریض کو کئی دنوں سے پیٹ میں شدید درد ہے۔",
+                "tr": "Hastanın günlerdir şiddetli mide ağrısı var."
+            },
+            "id": "v23_10"
+        },
+        {
+            "germanTerm": "die Leber",
+            "article": "die",
+            "plural": "die Lebern",
+            "pronunciation": "/ˈleːbɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "liver",
+                "bn": "যকৃত",
+                "hi": "जिगर",
+                "ur": "جگر",
+                "tr": "karaciğer"
+            },
+            "exampleSentence": "Die Leberwerte des Patienten sind erhöht.",
+            "exampleTranslation": {
+                "en": "The patient's liver values are elevated.",
+                "bn": "রোগীর লিভারের মান বেড়ে গেছে।",
+                "hi": "मरीज के लीवर के मान बढ़ गए हैं।",
+                "ur": "مریض کے جگر کی قیمتیں بڑھ گئی ہیں۔",
+                "tr": "Hastanın karaciğer değerleri yükselmiştir."
+            },
+            "id": "v23_11"
+        },
+        {
+            "germanTerm": "die Galle",
+            "article": "die",
+            "plural": "die Gallen",
+            "pronunciation": "/ˈɡalə/",
+            "category": "noun",
+            "translation": {
+                "en": "bile",
+                "bn": "পিত্ত",
+                "hi": "पित्त",
+                "ur": "صفرا",
+                "tr": "safra"
+            },
+            "exampleSentence": "Die Galle wird in der Gallenblase gespeichert.",
+            "exampleTranslation": {
+                "en": "Bile is stored in the gallbladder.",
+                "bn": "পিত্তথলিতে পিত্ত জমা থাকে।",
+                "hi": "पित्त पित्ताशय में जमा होता है।",
+                "ur": "پتا میں صفرا جمع ہوتا ہے۔",
+                "tr": "Safra, safra kesesinde depolanır."
+            },
+            "id": "v23_12"
+        },
+        {
+            "germanTerm": "die Übelkeit",
+            "article": "die",
+            "plural": "no plural",
+            "pronunciation": "/ˈyːblɪçkaɪ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "nausea",
+                "bn": "বমি বমি ভাব",
+                "hi": "मतली",
+                "ur": "متلی",
+                "tr": "mide bulantısı"
+            },
+            "exampleSentence": "Die Übelkeit trat nach der Einnahme des Medikaments auf.",
+            "exampleTranslation": {
+                "en": "The nausea occurred after taking the medication.",
+                "bn": "ওষুধ খাওয়ার পরে বমি বমি ভাব দেখা দিয়েছে।",
+                "hi": "दवा लेने के बाद मतली हुई।",
+                "ur": "دوا لینے کے بعد متلی ہوئی۔",
+                "tr": "İlacı aldıktan sonra mide bulantısı oluştu."
+            },
+            "id": "v23_13"
+        },
+        {
+            "germanTerm": "das Erbrechen",
+            "article": "das",
+            "plural": "no plural",
+            "pronunciation": "/ɛɐ̯ˈbʁɛçən/",
+            "category": "noun",
+            "translation": {
+                "en": "vomiting",
+                "bn": "বমি",
+                "hi": "उल्टी",
+                "ur": "قے",
+                "tr": "kusma"
+            },
+            "exampleSentence": "Das Erbrechen war schwallartig und unverdaut.",
+            "exampleTranslation": {
+                "en": "The vomiting was projectile and undigested.",
+                "bn": "বমিটা প্রচণ্ড ছিল এবং হজম হয়নি।",
+                "hi": "उल्टी प्रक्षेप्य और बिना पची हुई थी।",
+                "ur": "قے پروجیکٹائل اور بغیر ہضم شدہ تھی۔",
+                "tr": "Kusma fışkırır gibiydi ve sindirilmemişti."
+            },
+            "id": "v23_14"
+        },
+        {
+            "germanTerm": "der Durchfall",
+            "article": "der",
+            "plural": "die Durchfälle",
+            "pronunciation": "/ˈdʊʁçfal/",
+            "category": "noun",
+            "translation": {
+                "en": "diarrhea",
+                "bn": "ডায়রিয়া",
+                "hi": "दस्त",
+                "ur": "اسہال",
+                "tr": "ishal"
+            },
+            "exampleSentence": "Der Durchfall trat plötzlich und heftig auf.",
+            "exampleTranslation": {
+                "en": "The diarrhea occurred suddenly and violently.",
+                "bn": "ডায়রিয়া হঠাৎ করে এবং মারাত্মকভাবে দেখা দিয়েছে।",
+                "hi": "दस्त अचानक और हिंसक रूप से हुआ।",
+                "ur": "اسہال اچانک اور شدت سے ہوا۔",
+                "tr": "İshal aniden ve şiddetli bir şekilde ortaya çıktı."
+            },
+            "id": "v23_15"
+        },
+        {
+            "germanTerm": "die Verstopfung",
+            "article": "die",
+            "plural": "die Verstopfungen",
+            "pronunciation": "/fɛɐ̯ˈʃtɔpfʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "constipation",
+                "bn": "কোষ্ঠকাঠিন্য",
+                "hi": "कब्ज़",
+                "ur": "قبض",
+                "tr": "kabızlık"
+            },
+            "exampleSentence": "Eine häufige Ursache für Verstopfung ist zu wenig Ballaststoffe.",
+            "exampleTranslation": {
+                "en": "A common cause of constipation is too little fiber.",
+                "bn": "কোষ্ঠকাঠিন্যের একটি সাধারণ কারণ হল খুব কম ফাইবার।",
+                "hi": "कब्ज का एक सामान्य कारण बहुत कम फाइबर है।",
+                "ur": "قبض کی ایک عام وجہ بہت کم فائبر ہے۔",
+                "tr": "Kabızlığın yaygın bir nedeni çok az liftir."
+            },
+            "id": "v23_16"
+        },
+        {
+            "germanTerm": "entzündlich",
+            "article": "no article",
+            "plural": "no plural",
+            "pronunciation": "/ɛntˈtsʏntlɪç/",
+            "category": "adjective",
+            "translation": {
+                "en": "inflammatory",
+                "bn": "প্রদাহজনক",
+                "hi": "सूजनकारी",
+                "ur": "التهابی",
+                "tr": "iltihaplı"
+            },
+            "exampleSentence": "Es handelt sich um eine entzündliche Darmerkrankung.",
+            "exampleTranslation": {
+                "en": "It is an inflammatory bowel disease.",
+                "bn": "এটি একটি প্রদাহজনক পেটের রোগ।",
+                "hi": "यह एक सूजनकारी आंत्र रोग है।",
+                "ur": "یہ ایک سوزشی آنتوں کی بیماری ہے۔",
+                "tr": "Bu iltihaplı bir bağırsak hastalığıdır."
+            },
+            "id": "v23_17"
+        },
+        {
+            "germanTerm": "chronisch",
+            "article": "no article",
+            "plural": "no plural",
+            "pronunciation": "/ˈkʁoːnɪʃ/",
+            "category": "adjective",
+            "translation": {
+                "en": "chronic",
+                "bn": "দীর্ঘস্থায়ী",
+                "hi": "पुराना",
+                "ur": "دائمی",
+                "tr": "kronik"
+            },
+            "exampleSentence": "Die Gastritis ist chronisch und schwer zu behandeln.",
+            "exampleTranslation": {
+                "en": "The gastritis is chronic and difficult to treat.",
+                "bn": "গ্যাস্ট্রাইটিস দীর্ঘস্থায়ী এবং চিকিৎসা করা কঠিন।",
+                "hi": "गैस्ट्रिटिस पुराना है और इसका इलाज करना मुश्किल है।",
+                "ur": "گیسٹرائٹس دائمی ہے اور اس کا علاج مشکل ہے۔",
+                "tr": "Gastrit kroniktir ve tedavisi zordur."
+            },
+            "id": "v23_18"
+        },
+        {
+            "germanTerm": "akut",
+            "article": "no article",
+            "plural": "no plural",
+            "pronunciation": "/aˈkuːt/",
+            "category": "adjective",
+            "translation": {
+                "en": "acute",
+                "bn": "তীব্র",
+                "hi": "तीव्र",
+                "ur": "شدید",
+                "tr": "akut"
+            },
+            "exampleSentence": "Der Patient leidet unter einer akuten Appendizitis.",
+            "exampleTranslation": {
+                "en": "The patient is suffering from acute appendicitis.",
+                "bn": "রোগী তীব্র অ্যাপেন্ডিসাইটিসে ভুগছেন।",
+                "hi": "मरीज तीव्र उपांत्रशोथ से पीड़ित है।",
+                "ur": "مریض شدید اپینڈیسائٹس میں مبتلا ہے۔",
+                "tr": "Hasta akut apandisitten muzdarip."
+            },
+            "id": "v23_19"
+        },
+        {
+            "germanTerm": "die Koloskopie",
+            "article": "die",
+            "plural": "die Koloskopien",
+            "pronunciation": "/koloskoˈpiː/",
+            "category": "noun",
+            "translation": {
+                "en": "colonoscopy",
+                "bn": "কলোনোস্কোপি",
+                "hi": "कोलोनोस्कोपी",
+                "ur": "قولون بینی",
+                "tr": "kolonoskopi"
+            },
+            "exampleSentence": "Die Koloskopie dient der Darmkrebsvorsorge.",
+            "exampleTranslation": {
+                "en": "Colonoscopy is used for colorectal cancer screening.",
+                "bn": "কলোনোস্কোপি কোলন ক্যান্সার স্ক্রিনিংয়ের জন্য ব্যবহৃত হয়।",
+                "hi": "कोलोनोस्कोपी का उपयोग कोलोरेक्टल कैंसर स्क्रीनिंग के लिए किया जाता है।",
+                "ur": "قولون بینی کا استعمال کولوریکٹل کینسر کی اسکریننگ کے لیے کیا جاتا ہے۔",
+                "tr": "Kolonoskopi, kolorektal kanser taraması için kullanılır."
+            },
+            "id": "v23_20"
+        },
+        {
+            "germanTerm": "die Biopsie",
+            "article": "die",
+            "plural": "die Biopsien",
+            "pronunciation": "/biˈɔpsi/",
+            "category": "noun",
+            "translation": {
+                "en": "biopsy",
+                "bn": "বায়োপসি",
+                "hi": "बायोप्सी",
+                "ur": "بایوپسی",
+                "tr": "biyopsi"
+            },
+            "exampleSentence": "Es wurde eine Biopsie aus dem Magen entnommen.",
+            "exampleTranslation": {
+                "en": "A biopsy was taken from the stomach.",
+                "bn": "পাকস্থলী থেকে একটি বায়োপসি নেওয়া হয়েছে।",
+                "hi": "पेट से एक बायोप्सी ली गई।",
+                "ur": "پیٹ سے بایوپسی لی گئی ہے۔",
+                "tr": "Mideden biyopsi alındı."
+            },
+            "id": "v23_21"
+        },
+        {
+            "germanTerm": "die Perforation",
+            "article": "die",
+            "plural": "die Perforationen",
+            "pronunciation": "/pɛʁfoʁaˈtsi̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "perforation",
+                "bn": "ছিদ্র",
+                "hi": "छिद्रण",
+                "ur": "سوراخ",
+                "tr": "perforasyon"
+            },
+            "exampleSentence": "Eine Perforation des Darms ist ein Notfall.",
+            "exampleTranslation": {
+                "en": "A perforation of the intestine is an emergency.",
+                "bn": "অন্ত্রের একটি ছিদ্র একটি জরুরি অবস্থা।",
+                "hi": "आंत में छिद्रण एक आपातकाल है।",
+                "ur": "آنت میں سوراخ ایک ایمرجنسی ہے۔",
+                "tr": "Bağırsak perforasyonu bir acil durumdur."
+            },
+            "id": "v23_22"
+        },
+        {
+            "germanTerm": "der Ulcus",
+            "article": "der",
+            "plural": "die Ulcera",
+            "pronunciation": "/ˈʊlkʊs/",
+            "category": "noun",
+            "translation": {
+                "en": "ulcer",
+                "bn": "আলসার",
+                "hi": "अल्सर",
+                "ur": "السر",
+                "tr": "ülser"
+            },
+            "exampleSentence": "Der Patient hat ein Ulcus duodeni.",
+            "exampleTranslation": {
+                "en": "The patient has a duodenal ulcer.",
+                "bn": "রোগীর ডুওডেনাল আলসার রয়েছে।",
+                "hi": "मरीज को ग्रहणी का अल्सर है।",
+                "ur": "مریض کو ڈیوڈینل السر ہے۔",
+                "tr": "Hastanın duodenal ülseri var."
+            },
+            "id": "v23_23"
+        },
+        {
+            "germanTerm": "operativ",
+            "article": "no article",
+            "plural": "no plural",
+            "pronunciation": "/opeʁaˈtiːf/",
+            "category": "adjective",
+            "translation": {
+                "en": "surgical",
+                "bn": "সার্জিক্যাল",
+                "hi": "शल्य चिकित्सा",
+                "ur": "جراحی",
+                "tr": "cerrahi"
+            },
+            "exampleSentence": "Die Appendizitis muss operativ behandelt werden.",
+            "exampleTranslation": {
+                "en": "Appendicitis must be treated surgically.",
+                "bn": "অ্যাপেন্ডিসাইটিসের চিকিৎসা সার্জিক্যালি করতে হবে।",
+                "hi": "उपांत्रशोथ का इलाज शल्य चिकित्सा द्वारा किया जाना चाहिए।",
+                "ur": "اپینڈیسائٹس کا علاج جراحی سے کرنا چاہیے۔",
+                "tr": "Apandisit cerrahi olarak tedavi edilmelidir."
+            },
+            "id": "v23_24"
+        },
+        {
+            "germanTerm": "konservativ",
+            "article": "no article",
+            "plural": "no plural",
+            "pronunciation": "/kɔnzɛʁvaˈtiːf/",
+            "category": "adjective",
+            "translation": {
+                "en": "conservative",
+                "bn": "রক্ষণশীল",
+                "hi": "रूढ़िवादी",
+                "ur": "قدامت پسند",
+                "tr": "konservatif"
+            },
+            "exampleSentence": "Die Therapie erfolgte konservativ mit Medikamenten.",
+            "exampleTranslation": {
+                "en": "The therapy was conservative with medication.",
+                "bn": "থেরাপিটি ওষুধের সাথে রক্ষণশীলভাবে করা হয়েছিল।",
+                "hi": "थेरेपी दवा के साथ रूढ़िवादी थी।",
+                "ur": "علاج دوا کے ساتھ قدامت پسند تھا۔",
+                "tr": "Tedavi ilaçlarla konservatif olarak yapıldı."
+            },
+            "id": "v23_25"
+        },
+        {
+            "germanTerm": "die Sonographie",
+            "article": "die",
+            "plural": "die Sonographien",
+            "pronunciation": "/zonoɡʁaˈfiː/",
+            "category": "noun",
+            "translation": {
+                "en": "sonography",
+                "bn": "সনোগ্রাফি",
+                "hi": "सोनोग्राफी",
+                "ur": "صوتی نگاری",
+                "tr": "sonografi"
+            },
+            "exampleSentence": "Die Sonographie des Abdomens zeigte keine Auffälligkeiten.",
+            "exampleTranslation": {
+                "en": "The sonography of the abdomen showed no abnormalities.",
+                "bn": "পেটের সনোগ্রাফিতে কোনো অস্বাভাবিকতা দেখা যায়নি।",
+                "hi": "पेट की सोनोग्राफी में कोई असामान्यता नहीं दिखी।",
+                "ur": "پیٹ کی صوتی نگاری میں کوئی بے ضابطگی نظر نہیں آئی۔",
+                "tr": "Karın sonografisinde herhangi bir anormallik görülmedi."
+            },
+            "id": "v23_26"
+        },
+        {
+            "germanTerm": "die Anamnese",
+            "article": "die",
+            "plural": "die Anamnesen",
+            "pronunciation": "/anaˈmneːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "medical history",
+                "bn": "চিকিৎসা ইতিহাস",
+                "hi": "चिकित्सा इतिहास",
+                "ur": "طبی تاریخ",
+                "tr": "tıbbi geçmiş"
+            },
+            "exampleSentence": "Die Anamnese ergab, dass der Patient bereits früher ähnliche Beschwerden hatte.",
+            "exampleTranslation": {
+                "en": "The medical history revealed that the patient had similar complaints earlier.",
+                "bn": "মেডিকেল ইতিহাসে জানা যায় যে রোগীর আগে একই ধরনের অভিযোগ ছিল।",
+                "hi": "मेडिकल इतिहास से पता चला कि मरीज को पहले भी इसी तरह की शिकायतें थीं।",
+                "ur": "طبی تاریخ سے پتہ چلتا ہے کہ مریض کو پہلے بھی ایسی ہی شکایات تھیں۔",
+                "tr": "Tıbbi geçmiş, hastanın daha önce de benzer şikayetleri olduğunu ortaya koydu."
+            },
+            "id": "v23_27"
+        },
+        {
+            "germanTerm": "die Diagnose",
+            "article": "die",
+            "plural": "die Diagnosen",
+            "pronunciation": "/diaˈɡnoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "diagnosis",
+                "bn": "রোগ নির্ণয়",
+                "hi": "निदान",
+                "ur": "تشخیص",
+                "tr": "teşhis"
+            },
+            "exampleSentence": "Die Diagnose wurde anhand der Symptome und Untersuchungsergebnisse gestellt.",
+            "exampleTranslation": {
+                "en": "The diagnosis was made based on the symptoms and examination results.",
+                "bn": "উপসর্গ এবং পরীক্ষার ফলাফলের ভিত্তিতে রোগ নির্ণয় করা হয়েছে।",
+                "hi": "लक्षणों और परीक्षा परिणामों के आधार पर निदान किया गया।",
+                "ur": "علامات اور جانچ کے نتائج کی بنیاد پر تشخیص کی گئی۔",
+                "tr": "Teşhis, semptomlara ve muayene sonuçlarına göre konuldu."
+            },
+            "id": "v23_28"
+        },
+        {
+            "germanTerm": "die Therapie",
+            "article": "die",
+            "plural": "die Therapien",
+            "pronunciation": "/teʁaˈpiː/",
+            "category": "noun",
+            "translation": {
+                "en": "therapy",
+                "bn": "থেরাপি",
+                "hi": "चिकित्सा",
+                "ur": "علاج",
+                "tr": "terapi"
+            },
+            "exampleSentence": "Die Therapie der Gastritis umfasst Medikamente und Ernährungsumstellung.",
+            "exampleTranslation": {
+                "en": "The therapy for gastritis includes medication and dietary changes.",
+                "bn": "গ্যাস্ট্রাইটিসের থেরাপির মধ্যে ওষুধ এবং খাদ্য পরিবর্তন অন্তর্ভুক্ত রয়েছে।",
+                "hi": "गैस्ट्रिटिस की चिकित्सा में दवा और आहार परिवर्तन शामिल हैं।",
+                "ur": "گیسٹرائٹس کے علاج میں دوا اور غذائی تبدیلیاں شامل ہیں۔",
+                "tr": "Gastrit tedavisi ilaç ve diyet değişikliklerini içerir."
+            },
+            "id": "v23_29"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Gastritis Examination",
+                "bn": "গ্যাস্ট্রাইটিস পরীক্ষা",
+                "hi": "जठरशोथ परीक्षा",
+                "ur": "گیسٹرائٹس امتحان",
+                "tr": "Gastrit Muayenesi"
+            },
+            "context": {
+                "en": "A patient presents with stomach pain and nausea. The doctor suspects gastritis.",
+                "bn": "একজন রোগী পেটে ব্যথা এবং বমি বমি ভাব নিয়ে এসেছেন। ডাক্তার গ্যাস্ট্রাইটিস সন্দেহ করছেন।",
+                "hi": "एक मरीज पेट दर्द और मतली के साथ प्रस्तुत करता है। डॉक्टर को गैस्ट्रिटिस का संदेह है।",
+                "ur": "ایک مریض پیٹ میں درد اور متلی کے ساتھ پیش ہوتا ہے۔ ڈاکٹر کو گیسٹرائٹس کا شبہ ہے۔",
+                "tr": "Bir hasta mide ağrısı ve bulantı ile başvuruyor. Doktor gastritten şüpheleniyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Morgen, Herr Müller. Was führt Sie zu uns?",
+                    "translation": {
+                        "en": "Good morning, Mr. Müller. What brings you to us?",
+                        "bn": "শুভ সকাল, মিঃ মুলার। আপনাকে এখানে কী এনেছে?",
+                        "hi": "शुभ प्रभात, श्री मुलर। आपको यहाँ क्या लाया?",
+                        "ur": "صبح بخیر، مسٹر ملر۔ آپ کو یہاں کیا لایا؟",
+                        "tr": "Günaydın, Bay Müller. Sizi buraya getiren nedir?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe starke Magenschmerzen und mir ist übel.",
+                    "translation": {
+                        "en": "I have severe stomach pain and I feel nauseous.",
+                        "bn": "আমার পেটে খুব ব্যথা এবং বমি বমি ভাব হচ্ছে।",
+                        "hi": "मुझे पेट में तेज दर्द है और मुझे मितली आ रही है।",
+                        "ur": "مجھے پیٹ میں شدید درد ہے اور مجھے متلی ہو رہی ہے۔",
+                        "tr": "Şiddetli mide ağrım var ve midem bulanıyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Seit wann haben Sie diese Beschwerden?",
+                    "translation": {
+                        "en": "How long have you had these symptoms?",
+                        "bn": "আপনার এই সমস্যাগুলো কতদিন ধরে হচ্ছে?",
+                        "hi": "आपको ये लक्षण कब से हैं?",
+                        "ur": "آپ کو یہ علامات کب سے ہیں؟",
+                        "tr": "Bu şikayetleriniz ne zamandır var?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Seit etwa zwei Tagen.",
+                    "translation": {
+                        "en": "For about two days.",
+                        "bn": "প্রায় দুই দিন ধরে।",
+                        "hi": "लगभग दो दिनों से।",
+                        "ur": "تقریباً دو دن سے۔",
+                        "tr": "Yaklaşık iki gündür."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich werde Sie untersuchen. Es könnte eine Gastritis sein.",
+                    "translation": {
+                        "en": "I will examine you. It could be gastritis.",
+                        "bn": "আমি আপনাকে পরীক্ষা করব। এটা গ্যাস্ট্রাইটিস হতে পারে।",
+                        "hi": "मैं आपकी जांच करूंगा। यह गैस्ट्रिटिस हो सकता है।",
+                        "ur": "میں آپ کا معائنہ کروں گا۔ یہ گیسٹرائٹس ہو سکتا ہے۔",
+                        "tr": "Sizi muayene edeceğim. Gastrit olabilir."
+                    }
+                }
+            ],
+            "id": "d23_01"
+        },
+        {
+            "title": {
+                "en": "Appendicitis Suspected",
+                "bn": "অ্যাপেন্ডিসাইটিস সন্দেহ",
+                "hi": "अपेंडिसाइटिस संदिग्ध",
+                "ur": "اپینڈیسائٹس کا شبہ",
+                "tr": "Apandisit Şüphesi"
+            },
+            "context": {
+                "en": "A patient arrives with severe right lower abdominal pain, possibly appendicitis.",
+                "bn": "একজন রোগী পেটের ডান দিকের নিচের অংশে তীব্র ব্যথা নিয়ে এসেছেন, সম্ভবত অ্যাপেন্ডিসাইটিস।",
+                "hi": "एक मरीज पेट के निचले दाहिने हिस्से में तेज दर्द के साथ आता है, संभवतः अपेंडिसाइटिस।",
+                "ur": "ایک مریض پیٹ کے نچلے دائیں حصے میں شدید درد کے ساتھ آتا ہے، ممکنہ طور پر اپینڈیسائٹس۔",
+                "tr": "Bir hasta şiddetli sağ alt karın ağrısı ile geliyor, muhtemelen apandisit."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Schmidt, wir haben einen Patienten mit starken Schmerzen im rechten Unterbauch.",
+                    "translation": {
+                        "en": "Mr. Schmidt, we have a patient with severe pain in the right lower abdomen.",
+                        "bn": "মিঃ শ্মিট, আমাদের একজন রোগী আছে যার পেটের ডান দিকের নিচের অংশে তীব্র ব্যথা রয়েছে।",
+                        "hi": "श्री श्मिट, हमारे पास पेट के निचले दाहिने हिस्से में तेज दर्द वाला एक मरीज है।",
+                        "ur": "مسٹر شمٹ، ہمارے پاس پیٹ کے نچلے دائیں حصے میں شدید درد والا ایک مریض ہے۔",
+                        "tr": "Bay Schmidt, sağ alt karın bölgesinde şiddetli ağrısı olan bir hastamız var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Appendizitis?",
+                    "translation": {
+                        "en": "Appendicitis?",
+                        "bn": "অ্যাপেন্ডিসাইটিস?",
+                        "hi": "अपेंडिसाइटिस?",
+                        "ur": "اپینڈیسائٹس؟",
+                        "tr": "Apandisit mi?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Möglicherweise. Er hat auch Fieber.",
+                    "translation": {
+                        "en": "Possibly. He also has a fever.",
+                        "bn": "সম্ভবত। তার জ্বরও আছে।",
+                        "hi": "संभवतः। उसे बुखार भी है।",
+                        "ur": "ممکنہ طور پر۔ اسے بخار بھی ہے۔",
+                        "tr": "Muhtemelen. Ateşi de var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich komme sofort.",
+                    "translation": {
+                        "en": "I'll be right there.",
+                        "bn": "আমি এখুনি আসছি।",
+                        "hi": "मैं अभी आ रहा हूँ।",
+                        "ur": "میں ابھی آ رہا ہوں۔",
+                        "tr": "Hemen geliyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Bitte Blutbild und Abdomen-Sono vorbereiten!",
+                    "translation": {
+                        "en": "Please prepare a blood count and abdominal ultrasound!",
+                        "bn": "অনুগ্রহ করে একটি রক্ত ​​গণনা এবং পেটের আল্ট্রাসাউন্ড প্রস্তুত করুন!",
+                        "hi": "कृपया रक्त गणना और पेट का अल्ट्रासाउंड तैयार करें!",
+                        "ur": "براہ کرم خون کی گنتی اور پیٹ کا الٹراساؤنڈ تیار کریں!",
+                        "tr": "Lütfen kan sayımı ve karın ultrasonunu hazırlayın!"
+                    }
+                }
+            ],
+            "id": "d23_02"
+        },
+        {
+            "title": {
+                "en": "Hepatitis Diagnosis",
+                "bn": "হেপাটাইটিস নির্ণয়",
+                "hi": "हेपेटाइटिस निदान",
+                "ur": "ہیپاٹائٹس تشخیص",
+                "tr": "Hepatit Teşhisi"
+            },
+            "context": {
+                "en": "The doctor is discussing a positive Hepatitis test result with the patient.",
+                "bn": "ডাক্তার রোগীর সাথে হেপাটাইটিসের একটি ইতিবাচক পরীক্ষার ফলাফল নিয়ে আলোচনা করছেন।",
+                "hi": "डॉक्टर मरीज के साथ हेपेटाइटिस के सकारात्मक परीक्षण परिणाम पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر مریض کے ساتھ ہیپاٹائٹس کے مثبت ٹیسٹ کے نتیجے پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Doktor, hasta ile pozitif Hepatit test sonucunu tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Herr Meier, Ihre Blutwerte sind da. Leider haben wir Hepatitis festgestellt.",
+                    "translation": {
+                        "en": "Mr. Meier, your blood results are in. Unfortunately, we have detected hepatitis.",
+                        "bn": "মিঃ মিয়ার, আপনার রক্তের ফলাফল এসেছে। দুর্ভাগ্যবশত, আমরা হেপাটাইটিস সনাক্ত করেছি।",
+                        "hi": "श्री मेयर, आपका रक्त परिणाम आ गया है। दुर्भाग्य से, हमने हेपेटाइटिस का पता लगाया है।",
+                        "ur": "مسٹر مئیر، آپ کے خون کے نتائج آ گئے ہیں۔ بدقسمتی سے، ہم نے ہیپاٹائٹس کا پتہ لگایا ہے۔",
+                        "tr": "Bay Meier, kan sonuçlarınız geldi. Maalesef hepatit tespit ettik."
+                    }
+                },
+                {
+                    "speaker": "Patient Meier",
+                    "speakerRole": "Patient",
+                    "germanText": "Hepatitis? Was bedeutet das?",
+                    "translation": {
+                        "en": "Hepatitis? What does that mean?",
+                        "bn": "হেপাটাইটিস? এর মানে কি?",
+                        "hi": "हेपेटाइटिस? इसका क्या मतलब है?",
+                        "ur": "ہیپاٹائٹس؟ اس کا کیا مطلب ہے؟",
+                        "tr": "Hepatit mi? Bu ne anlama geliyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Es ist eine Entzündung der Leber. Wir müssen den genauen Typ bestimmen.",
+                    "translation": {
+                        "en": "It is an inflammation of the liver. We need to determine the exact type.",
+                        "bn": "এটি লিভারের একটি প্রদাহ। আমাদের সঠিক প্রকার নির্ধারণ করতে হবে।",
+                        "hi": "यह लीवर की सूजन है। हमें सटीक प्रकार निर्धारित करने की आवश्यकता है।",
+                        "ur": "یہ جگر کی سوزش ہے۔ ہمیں صحیح قسم کا تعین کرنے کی ضرورت ہے۔",
+                        "tr": "Bu karaciğerin iltihaplanmasıdır. Kesin türü belirlememiz gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Patient Meier",
+                    "speakerRole": "Patient",
+                    "germanText": "Kann man das behandeln?",
+                    "translation": {
+                        "en": "Can it be treated?",
+                        "bn": "এটার চিকিৎসা করা যায়?",
+                        "hi": "क्या इसका इलाज किया जा सकता है?",
+                        "ur": "کیا اس کا علاج کیا جا سکتا ہے؟",
+                        "tr": "Tedavi edilebilir mi?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ja, viele Formen der Hepatitis sind gut behandelbar. Wir werden weitere Tests durchführen.",
+                    "translation": {
+                        "en": "Yes, many forms of hepatitis are treatable. We will perform further tests.",
+                        "bn": "হ্যাঁ, অনেক ধরনের হেপাটাইটিস ভালোভাবে চিকিৎসা করা যায়। আমরা আরও পরীক্ষা করব।",
+                        "hi": "हाँ, हेपेटाइटिस के कई रूपों का इलाज किया जा सकता है। हम और परीक्षण करेंगे।",
+                        "ur": "ہاں، ہیپاٹائٹس کی بہت سی اقسام قابل علاج ہیں۔ ہم مزید ٹیسٹ کریں گے۔",
+                        "tr": "Evet, hepatitin birçok türü tedavi edilebilir. Daha fazla test yapacağız."
+                    }
+                }
+            ],
+            "id": "d23_03"
+        },
+        {
+            "title": {
+                "en": "Colitis Flare-Up",
+                "bn": "কোলাইটিস বৃদ্ধি",
+                "hi": "कोलाइटिस भड़कना",
+                "ur": "کولائٹس کا بھڑکنا",
+                "tr": "Kolit Alevlenmesi"
+            },
+            "context": {
+                "en": "A patient with known colitis is admitted with a severe flare-up.",
+                "bn": "পরিচিত কোলাইটিস সহ একজন রোগীকে মারাত্মক বৃদ্ধি সহ ভর্তি করা হয়েছে।",
+                "hi": "ज्ञात कोलाइटिस वाला एक मरीज गंभीर भड़क के साथ भर्ती है।",
+                "ur": "معروف کولائٹس والا ایک مریض شدید بھڑک اٹھنے کے ساتھ داخل ہے۔",
+                "tr": "Bilinen koliti olan bir hasta şiddetli alevlenme ile yatırılıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Dr. Schmidt, Patient Berger mit bekannter Kolitis hat einen schweren Schub.",
+                    "translation": {
+                        "en": "Dr. Schmidt, patient Berger with known colitis has a severe flare-up.",
+                        "bn": "ডাঃ শ্মিট, পরিচিত কোলাইটিস সহ রোগী বার্গারের একটি মারাত্মক বৃদ্ধি হয়েছে।",
+                        "hi": "डॉ. श्मिट, ज्ञात कोलाइटिस वाले मरीज बर्गर को गंभीर भड़क उठी है।",
+                        "ur": "ڈاکٹر شمٹ، معروف کولائٹس والے مریض برگر کو شدید بھڑک اٹھا ہے۔",
+                        "tr": "Dr. Schmidt, bilinen koliti olan hasta Berger'in şiddetli bir alevlenmesi var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Welche Symptome hat er?",
+                    "translation": {
+                        "en": "What symptoms does he have?",
+                        "bn": "তার কী কী লক্ষণ রয়েছে?",
+                        "hi": "उसके क्या लक्षण हैं?",
+                        "ur": "اس کی کیا علامات ہیں؟",
+                        "tr": "Hangi belirtileri var?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Starke Bauchschmerzen, blutige Durchfälle, Fieber.",
+                    "translation": {
+                        "en": "Severe abdominal pain, bloody diarrhea, fever.",
+                        "bn": "তীব্র পেটে ব্যথা, রক্তাক্ত ডায়রিয়া, জ্বর।",
+                        "hi": "तेज पेट दर्द, खूनी दस्त, बुखार।",
+                        "ur": "شدید پیٹ میں درد، خونی اسہال، بخار۔",
+                        "tr": "Şiddetli karın ağrısı, kanlı ishal, ateş."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Okay, bitte Kortikosteroide vorbereiten. Ich komme sofort.",
+                    "translation": {
+                        "en": "Okay, please prepare corticosteroids. I'll be right there.",
+                        "bn": "ঠিক আছে, অনুগ্রহ করে কর্টিকোস্টেরয়েড প্রস্তুত করুন। আমি এখুনি আসছি।",
+                        "hi": "ठीक है, कृपया कॉर्टिकोस्टेरॉइड्स तैयार करें। मैं अभी आ रहा हूँ।",
+                        "ur": "ٹھیک ہے، براہ کرم corticosteroids تیار کریں۔ میں ابھی آ رہا ہوں۔",
+                        "tr": "Tamam, lütfen kortikosteroidleri hazırlayın. Hemen geliyorum."
+                    }
+                },
+                {
+                    "speaker": "Patient Berger",
+                    "speakerRole": "Patient",
+                    "germanText": "Die Schmerzen sind unerträglich!",
+                    "translation": {
+                        "en": "The pain is unbearable!",
+                        "bn": "ব্যথা অসহ্য!",
+                        "hi": "दर्द असहनीय है!",
+                        "ur": "درد ناقابل برداشت ہے!",
+                        "tr": "Ağrı dayanılmaz!"
+                    }
+                }
+            ],
+            "id": "d23_04"
+        },
+        {
+            "title": {
+                "en": "Suspected Ileus",
+                "bn": " suspected ileus",
+                "hi": "इलियस संदिग्ध",
+                "ur": "مشتبہ ileus",
+                "tr": "Şüpheli İleus"
+            },
+            "context": {
+                "en": "A patient complains of abdominal distension, vomiting, and inability to pass gas.",
+                "bn": "একজন রোগী পেটে ফোলাভাব, বমি এবং গ্যাস নিঃসরণে অক্ষমতার অভিযোগ করেছেন।",
+                "hi": "एक मरीज पेट में फैलाव, उल्टी और गैस पास करने में असमर्थता की शिकायत करता है।",
+                "ur": "ایک مریض پیٹ میں پھلاؤ، قے اور گیس پاس کرنے میں ناکامی کی شکایت کرتا ہے۔",
+                "tr": "Bir hasta karın şişliği, kusma ve gaz çıkaramama şikayetinde bulunuyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe starke Bauchschmerzen, mein Bauch ist aufgebläht und ich kann keinen Stuhlgang haben.",
+                    "translation": {
+                        "en": "I have severe abdominal pain, my stomach is bloated, and I can't have a bowel movement.",
+                        "bn": "আমার পেটে খুব ব্যথা, আমার পেট ফুলে গেছে এবং আমি মলত্যাগ করতে পারছি না।",
+                        "hi": "मुझे पेट में तेज दर्द है, मेरा पेट फूला हुआ है, और मैं मल त्याग नहीं कर पा रहा हूँ।",
+                        "ur": "مجھے پیٹ میں شدید درد ہے، میرا پیٹ پھولا ہوا ہے، اور میں پاخانہ نہیں کر پا رہا ہوں۔",
+                        "tr": "Şiddetli karın ağrım var, karnım şiş ve tuvalete çıkamıyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Haben Sie auch erbrochen?",
+                    "translation": {
+                        "en": "Have you also vomited?",
+                        "bn": "আপনি কি বমি করেছেন?",
+                        "hi": "क्या आपको उल्टी भी हुई है?",
+                        "ur": "کیا آپ نے قے بھی کی ہے؟",
+                        "tr": "Kustunuz mu?"
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, mehrmals.",
+                    "translation": {
+                        "en": "Yes, several times.",
+                        "bn": "হ্যাঁ, বেশ কয়েকবার।",
+                        "hi": "हाँ, कई बार।",
+                        "ur": "ہاں، کئی بار۔",
+                        "tr": "Evet, birkaç kez."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das klingt nach einem Ileus. Wir müssen ein Röntgenbild machen.",
+                    "translation": {
+                        "en": "That sounds like an ileus. We need to take an X-ray.",
+                        "bn": "এটা একটি ileus মত শোনাচ্ছে. আমাদের একটি এক্স-রে করতে হবে।",
+                        "hi": "यह इलियस जैसा लगता है। हमें एक एक्स-रे लेने की आवश्यकता है।",
+                        "ur": "یہ ileus کی طرح لگتا ہے۔ ہمیں ایکسرے لینے کی ضرورت ہے۔",
+                        "tr": "Bu bir ileus gibi geliyor. Bir röntgen çekmemiz gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich bereite alles vor, Herr Doktor.",
+                    "translation": {
+                        "en": "I'll prepare everything, Doctor.",
+                        "bn": "আমি সব প্রস্তুত করছি, ডাক্তার।",
+                        "hi": "मैं सब कुछ तैयार कर रहा हूँ, डॉक्टर।",
+                        "ur": "میں سب کچھ تیار کر رہا ہوں، ڈاکٹر۔",
+                        "tr": "Her şeyi hazırlıyorum, doktor."
+                    }
+                }
+            ],
+            "id": "d23_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Ursachen ist am wahrscheinlichsten für eine Gastritis?",
+                "en": "Which of the following causes is most likely for gastritis?",
+                "bn": "গ্যাস্ট্রাইটিসের জন্য নিম্নলিখিত কারণগুলির মধ্যে কোনটি সবচেয়ে বেশি সম্ভাব্য?",
+                "hi": "गैस्ट्रिटिस के लिए निम्नलिखित कारणों में से कौन सा सबसे संभावित है?",
+                "ur": "گیسٹرائٹس کے لیے درج ذیل میں سے کون سی وجہ سب سے زیادہ ممکن ہے؟",
+                "tr": "Gastrit için aşağıdaki nedenlerden hangisi en olasıdır?"
+            },
+            "options": [
+                "Bakterielle Infektion mit Helicobacter pylori",
+                "Übermäßiger Konsum von Ballaststoffen",
+                "Regelmäßige Einnahme von Vitamin C",
+                "Bewegungsmangel"
+            ],
+            "correctAnswer": "Bakterielle Infektion mit Helicobacter pylori",
+            "explanation": {
+                "en": "Helicobacter pylori infection is a common cause of gastritis.",
+                "bn": "Helicobacter pylori সংক্রমণ গ্যাস্ট্রিটিসের একটি সাধারণ কারণ।",
+                "hi": "हेलिकोबैक्टर पाइलोरी संक्रमण गैस्ट्रिटिस का एक सामान्य कारण है।",
+                "ur": "ہیلی کوبیکٹر پائلوری انفیکشن گیسٹرائٹس کی ایک عام وجہ ہے۔",
+                "tr": "Helikobakter pilori enfeksiyonu, gastritin yaygın bir nedenidir."
+            },
+            "points": 10,
+            "id": "e23_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das häufigste Symptom einer Appendizitis?",
+                "en": "What is the most common symptom of appendicitis?",
+                "bn": "অ্যাপেন্ডিসাইটিসের সবচেয়ে সাধারণ লক্ষণ কী?",
+                "hi": "एपेंडिसाइटिस का सबसे सामान्य लक्षण क्या है?",
+                "ur": "اپینڈیسائٹس کی سب سے عام علامت کیا ہے؟",
+                "tr": "Apandisitin en yaygın belirtisi nedir?"
+            },
+            "options": [
+                "Starke Schmerzen im rechten Unterbauch",
+                "Durchfall",
+                "Verstopfung",
+                "Erbrechen ohne Bauchschmerzen"
+            ],
+            "correctAnswer": "Starke Schmerzen im rechten Unterbauch",
+            "explanation": {
+                "en": "Severe pain in the right lower abdomen is the most common symptom.",
+                "bn": "ডান দিকের পেটের নীচে তীব্র ব্যথা সবচেয়ে সাধারণ লক্ষণ।",
+                "hi": "दाहिने निचले पेट में तेज दर्द सबसे सामान्य लक्षण है।",
+                "ur": "دائیں جانب پیٹ کے نچلے حصے میں شدید درد سب سے عام علامت ہے۔",
+                "tr": "Sağ alt karın bölgesinde şiddetli ağrı en yaygın belirtidir."
+            },
+            "points": 10,
+            "id": "e23_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Art von Hepatitis wird am häufigsten durch kontaminiertes Wasser oder Lebensmittel übertragen?",
+                "en": "Which type of hepatitis is most commonly transmitted through contaminated water or food?",
+                "bn": "দূষিত জল বা খাবারের মাধ্যমে কোন ধরণের হেপাটাইটিস সবচেয়ে বেশি ছড়ায়?",
+                "hi": "दूषित पानी या भोजन के माध्यम से किस प्रकार का हेपेटाइटिस सबसे अधिक फैलता है?",
+                "ur": "آلودہ پانی یا خوراک کے ذریعے کس قسم کا ہیپاٹائٹس سب سے زیادہ منتقل ہوتا ہے؟",
+                "tr": "Hepatit'in hangi türü en sık kontamine su veya yiyecekler yoluyla bulaşır?"
+            },
+            "options": [
+                "Hepatitis A",
+                "Hepatitis B",
+                "Hepatitis C",
+                "Hepatitis D"
+            ],
+            "correctAnswer": "Hepatitis A",
+            "explanation": {
+                "en": "Hepatitis A is typically transmitted through the fecal-oral route, often via contaminated food or water.",
+                "bn": "হেপাটাইটিস এ সাধারণত মল-মুখ পথের মাধ্যমে ছড়ায়, প্রায়শই দূষিত খাবার বা জলের মাধ্যমে।",
+                "hi": "हेपेटाइटिस ए आमतौर पर मल-मुख मार्ग के माध्यम से फैलता है, अक्सर दूषित भोजन या पानी के माध्यम से।",
+                "ur": "ہیپاٹائٹس اے عام طور پر فیکل-زبانی راستے سے پھیلتا ہے، اکثر آلودہ خوراک یا پانی کے ذریعے۔",
+                "tr": "Hepatit A tipik olarak fekal-oral yolla, genellikle kontamine yiyecek veya su yoluyla bulaşır."
+            },
+            "points": 10,
+            "id": "e23_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was versteht man unter einer Kolitis?",
+                "en": "What is meant by colitis?",
+                "bn": "কোলাইটিস বলতে কী বোঝায়?",
+                "hi": "कोलाइटिस से क्या तात्पर्य है?",
+                "ur": "کولائٹس سے کیا مراد ہے؟",
+                "tr": "Kolit ne anlama gelir?"
+            },
+            "options": [
+                "Entzündung des Dickdarms",
+                "Entzündung des Dünndarms",
+                "Entzündung der Speiseröhre",
+                "Entzündung des Magens"
+            ],
+            "correctAnswer": "Entzündung des Dickdarms",
+            "explanation": {
+                "en": "Colitis refers to the inflammation of the colon (large intestine).",
+                "bn": "কোলাইটিস বলতে কোলন (বৃহদন্ত্র)-এর প্রদাহ বোঝায়।",
+                "hi": "कोलाइटिस का तात्पर्य बृहदान्त्र (बड़ी आंत) की सूजन से है।",
+                "ur": "کولائٹس سے مراد بڑی آنت (قولون) کی سوزش ہے۔",
+                "tr": "Kolit, kolonun (kalın bağırsağın) iltihaplanması anlamına gelir."
+            },
+            "points": 10,
+            "id": "e23_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist eine typische Ursache für Obstipation?",
+                "en": "What is a typical cause of constipation?",
+                "bn": "কোষ্ঠকাঠিন্যের একটি সাধারণ কারণ কী?",
+                "hi": "कब्ज का एक विशिष्ट कारण क्या है?",
+                "ur": "قبض کی ایک عام وجہ کیا ہے؟",
+                "tr": "Kabızlığın tipik bir nedeni nedir?"
+            },
+            "options": [
+                "Zu geringe Ballaststoffaufnahme",
+                "Übermäßiger Konsum von Flüssigkeiten",
+                "Regelmäßige körperliche Aktivität",
+                "Stressabbau"
+            ],
+            "correctAnswer": "Zu geringe Ballaststoffaufnahme",
+            "explanation": {
+                "en": "Low fiber intake is a common cause of constipation.",
+                "bn": "কম ফাইবার গ্রহণ কোষ্ঠকাঠিন্যের একটি সাধারণ কারণ।",
+                "hi": "कम फाइबर का सेवन कब्ज का एक सामान्य कारण है।",
+                "ur": "فائبر کی کم مقدار قبض کی ایک عام وجہ ہے۔",
+                "tr": "Düşük lif alımı kabızlığın yaygın bir nedenidir."
+            },
+            "points": 10,
+            "id": "e23_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein Ileus?",
+                "en": "What is an ileus?",
+                "bn": "ইলিউস কী?",
+                "hi": "इलियस क्या है?",
+                "ur": "ایلیوس کیا ہے؟",
+                "tr": "İleus nedir?"
+            },
+            "options": [
+                "Darmverschluss",
+                "Magengeschwür",
+                "Leberentzündung",
+                "Niereninsuffizienz"
+            ],
+            "correctAnswer": "Darmverschluss",
+            "explanation": {
+                "en": "Ileus is a bowel obstruction.",
+                "bn": "ইলিউস হল একটি অন্ত্রের বাধা।",
+                "hi": "इलियस एक आंत्र रुकावट है।",
+                "ur": "ایلیوس آنتوں میں رکاوٹ ہے۔",
+                "tr": "İleus bir bağırsak tıkanıklığıdır."
+            },
+            "points": 10,
+            "id": "e23_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Organ wird typischerweise bei einer Koloskopie untersucht?",
+                "en": "Which organ is typically examined during a colonoscopy?",
+                "bn": "কলোনোস্কোপির সময় সাধারণত কোন অঙ্গ পরীক্ষা করা হয়?",
+                "hi": "कोलोनोस्कोपी के दौरान आमतौर पर किस अंग की जांच की जाती है?",
+                "ur": "کولوونوسکوپی کے دوران عام طور پر کس عضو کا معائنہ کیا جاتا ہے؟",
+                "tr": "Kolonoskopi sırasında tipik olarak hangi organ incelenir?"
+            },
+            "options": [
+                "Dickdarm",
+                "Dünndarm",
+                "Magen",
+                "Leber"
+            ],
+            "correctAnswer": "Dickdarm",
+            "explanation": {
+                "en": "A colonoscopy examines the large intestine (colon).",
+                "bn": "কলোনোস্কোপি বৃহদন্ত্র (কোলন) পরীক্ষা করে।",
+                "hi": "कोलोनोस्कोपी बड़ी आंत (कोलन) की जांच करता है।",
+                "ur": "کولوونوسکوپی بڑی آنت (قولون) کا معائنہ کرتا ہے۔",
+                "tr": "Kolonoskopi kalın bağırsağı (kolonu) inceler."
+            },
+            "points": 10,
+            "id": "e23_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage über eine Ösophagogastroduodenoskopie (ÖGD) ist richtig?",
+                "en": "Which statement about an esophagogastroduodenoscopy (EGD) is correct?",
+                "bn": "ইসোফাগোগ্যাস্ট্রোডুওডেনোস্কোপি (ইজিডি) সম্পর্কে কোন বক্তব্যটি সঠিক?",
+                "hi": "एसोफैगोगैस्ट्रोडोडोडेनोस्कोपी (ईजीडी) के बारे में कौन सा कथन सही है?",
+                "ur": "اسوفاگوگسٹروڈوڈینوسکوپی (ای جی ڈی) کے بارے میں کون سا بیان درست ہے؟",
+                "tr": "Özofagogastroduodenoskopi (ÖGD) hakkında hangi ifade doğrudur?"
+            },
+            "options": [
+                "Sie untersucht Speiseröhre, Magen und Zwölffingerdarm.",
+                "Sie untersucht nur den Dickdarm.",
+                "Sie wird nur bei Kindern durchgeführt.",
+                "Sie dient der Entfernung der Gallenblase."
+            ],
+            "correctAnswer": "Sie untersucht Speiseröhre, Magen und Zwölffingerdarm.",
+            "explanation": {
+                "en": "An EGD examines the esophagus, stomach, and duodenum.",
+                "bn": "একটি ইজিডি খাদ্যনালী, পাকস্থলী এবং ডিওডেনাম পরীক্ষা করে।",
+                "hi": "एक ईजीडी अन्नप्रणाली, पेट और ग्रहणी की जांच करता है।",
+                "ur": "ایک ای جی ڈی غذائی نالی، پیٹ اور گرہنی کی جانچ کرتا ہے۔",
+                "tr": "Bir ÖGD yemek borusunu, mideyi ve duodenumu inceler."
+            },
+            "points": 10,
+            "id": "e23_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Virus verursacht hauptsächlich Hepatitis B?",
+                "en": "Which virus primarily causes Hepatitis B?",
+                "bn": "কোন ভাইরাস প্রধানত হেপাটাইটিস বি ঘটায়?",
+                "hi": "कौन सा वायरस मुख्य रूप से हेपेटाइटिस बी का कारण बनता है?",
+                "ur": "کون سا وائرس بنیادی طور پر ہیپاٹائٹس بی کا سبب بنتا ہے؟",
+                "tr": "Hangi virüs esas olarak Hepatit B'ye neden olur?"
+            },
+            "options": [
+                "Hepatitis-B-Virus (HBV)",
+                "Hepatitis-A-Virus (HAV)",
+                "Hepatitis-C-Virus (HCV)",
+                "Epstein-Barr-Virus (EBV)"
+            ],
+            "correctAnswer": "Hepatitis-B-Virus (HBV)",
+            "explanation": {
+                "en": "Hepatitis B is primarily caused by the Hepatitis B virus (HBV).",
+                "bn": "হেপাটাইটিস বি প্রধানত হেপাটাইটিস বি ভাইরাস (HBV) দ্বারা সৃষ্ট।",
+                "hi": "हेपेटाइटिस बी मुख्य रूप से हेपेटाइटिस बी वायरस (एचबीवी) के कारण होता है।",
+                "ur": "ہیپاٹائٹس بی بنیادی طور پر ہیپاٹائٹس بی وائرس (ایچ بی وی) کی وجہ سے ہوتا ہے۔",
+                "tr": "Hepatit B'ye esas olarak Hepatit B virüsü (HBV) neden olur."
+            },
+            "points": 10,
+            "id": "e23_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein häufiges Symptom von Kolitis ulcerosa?",
+                "en": "What is a common symptom of ulcerative colitis?",
+                "bn": "আলসারেটিভ কোলাইটিসের একটি সাধারণ লক্ষণ কী?",
+                "hi": "अल्सरेटिव कोलाइटिस का एक सामान्य लक्षण क्या है?",
+                "ur": "السریٹو کولائٹس کی ایک عام علامت کیا ہے؟",
+                "tr": "Ülseratif kolitin yaygın bir belirtisi nedir?"
+            },
+            "options": [
+                "Blutiger Durchfall",
+                "Verstopfung",
+                "Appetitsteigerung",
+                "Gewichtszunahme"
+            ],
+            "correctAnswer": "Blutiger Durchfall",
+            "explanation": {
+                "en": "Bloody diarrhea is a common symptom of ulcerative colitis.",
+                "bn": "রক্তাক্ত ডায়রিয়া আলসারেটিভ কোলাইটিসের একটি সাধারণ লক্ষণ।",
+                "hi": "खूनी दस्त अल्सरेटिव कोलाइटिस का एक सामान्य लक्षण है।",
+                "ur": "خونی اسہال السریٹو کولائٹس کی ایک عام علامت ہے۔",
+                "tr": "Kanlı ishal, ülseratif kolitin yaygın bir belirtisidir."
+            },
+            "points": 10,
+            "id": "e23_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die Entzündung der Magenschleimhaut wird als ________ bezeichnet.",
+                "en": "The inflammation of the gastric mucosa is called ________.",
+                "bn": "পাকস্থলীর শ্লৈষ্মিক ঝিল্লির প্রদাহকে ________ বলা হয়।",
+                "hi": "गैस्ट्रिक म्यूकोसा की सूजन को ________ कहा जाता है।",
+                "ur": "معدے کی جھلی کی سوزش کو ________ کہا جاتا ہے۔",
+                "tr": "Gastrik mukozanın iltihaplanmasına ________ denir."
+            },
+            "options": [],
+            "correctAnswer": "Gastritis",
+            "explanation": {
+                "en": "Gastritis is the inflammation of the gastric mucosa.",
+                "bn": "গ্যাস্ট্রাইটিস হল পাকস্থলীর শ্লৈষ্মিক ঝিল্লির প্রদাহ।",
+                "hi": "गैस्ट्रिटिस गैस्ट्रिक म्यूकोसा की सूजन है।",
+                "ur": "گیسٹرائٹس معدے کی جھلی کی سوزش ہے۔",
+                "tr": "Gastrit, gastrik mukozanın iltihaplanmasıdır."
+            },
+            "points": 10,
+            "id": "e23_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Eine ________ ist eine Entzündung des Wurmfortsatzes.",
+                "en": "An ________ is an inflammation of the appendix.",
+                "bn": "একটি ________ হল অ্যাপেন্ডিক্সের প্রদাহ।",
+                "hi": "एक ________ अपेंडिक्स की सूजन है।",
+                "ur": "ایک ________ اپینڈکس کی سوزش ہے۔",
+                "tr": "Bir ________ apandisin iltihaplanmasıdır."
+            },
+            "options": [],
+            "correctAnswer": "Appendizitis",
+            "explanation": {
+                "en": "Appendicitis is the inflammation of the appendix.",
+                "bn": "অ্যাপেন্ডিসাইটিস হল অ্যাপেন্ডিক্সের প্রদাহ।",
+                "hi": "एपेंडिसाइटिस अपेंडिक्स की सूजन है।",
+                "ur": "اپینڈیسائٹس اپینڈکس کی سوزش ہے۔",
+                "tr": "Apandisit, apandisin iltihaplanmasıdır."
+            },
+            "points": 10,
+            "id": "e23_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "________ ist eine Entzündung der Leber.",
+                "en": "________ is an inflammation of the liver.",
+                "bn": "________ হল লিভারের প্রদাহ।",
+                "hi": "________ लीवर की सूजन है।",
+                "ur": "________ جگر کی سوزش ہے۔",
+                "tr": "________ karaciğerin iltihaplanmasıdır."
+            },
+            "options": [],
+            "correctAnswer": "Hepatitis",
+            "explanation": {
+                "en": "Hepatitis is the inflammation of the liver.",
+                "bn": "হেপাটাইটিস হল লিভারের প্রদাহ।",
+                "hi": "हेपेटाइटिस लीवर की सूजन है।",
+                "ur": "ہیپاٹائٹس جگر کی سوزش ہے۔",
+                "tr": "Hepatit, karaciğerin iltihaplanmasıdır."
+            },
+            "points": 10,
+            "id": "e23_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bei einer ________ wird ein Endoskop in den Dickdarm eingeführt.",
+                "en": "During a ________, an endoscope is inserted into the colon.",
+                "bn": "একটি ________ এর সময়, একটি এন্ডোস্কোপ কোলনে ঢোকানো হয়।",
+                "hi": "एक ________ के दौरान, एक एंडोस्कोप कोलन में डाला जाता है।",
+                "ur": "ایک ________ کے دوران، ایک اینڈوسکوپ کولون میں ڈالا جاتا ہے۔",
+                "tr": "Bir ________ sırasında, kolona bir endoskop yerleştirilir."
+            },
+            "options": [],
+            "correctAnswer": "Koloskopie",
+            "explanation": {
+                "en": "During a colonoscopy, an endoscope is inserted into the colon.",
+                "bn": "কলোনোস্কোপির সময়, একটি এন্ডোস্কোপ কোলনে ঢোকানো হয়।",
+                "hi": "कोलोनोस्कोपी के दौरान, एक एंडोस्कोप कोलन में डाला जाता है।",
+                "ur": "کولوونوسکوپی کے دوران، ایک اینڈوسکوپ کولون میں ڈالا جاتا ہے۔",
+                "tr": "Kolonoskopi sırasında, kolona bir endoskop yerleştirilir."
+            },
+            "points": 10,
+            "id": "e23_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "________ bezeichnet eine Verstopfung.",
+                "en": "________ refers to constipation.",
+                "bn": "________ কোষ্ঠকাঠিন্য বোঝায়।",
+                "hi": "________ कब्ज को संदर्भित करता है।",
+                "ur": "________ قبض کی طرف اشارہ کرتا ہے۔",
+                "tr": "________ kabızlığı ifade eder."
+            },
+            "options": [],
+            "correctAnswer": "Obstipation",
+            "explanation": {
+                "en": "Obstipation refers to constipation.",
+                "bn": "কোষ্ঠকাঠিন্য বোঝায়।",
+                "hi": "कब्ज को संदर्भित करता है।",
+                "ur": "________ قبض کی طرف اشارہ کرتا ہے۔",
+                "tr": "Kabızlığı ifade eder."
+            },
+            "points": 10,
+            "id": "e23_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Ich habe starke Bauchschmerzen und Übelkeit.",
+                "en": "I have severe abdominal pain and nausea.",
+                "bn": "আমার পেটে তীব্র ব্যথা এবং বমি বমি ভাব আছে।",
+                "hi": "मुझे पेट में तेज दर्द और मितली है।",
+                "ur": "مجھے پیٹ میں شدید درد اور متلی ہو رہی ہے۔",
+                "tr": "Şiddetli karın ağrım ve mide bulantım var."
+            },
+            "options": [],
+            "correctAnswer": "Ich habe starke Bauchschmerzen und Übelkeit.",
+            "explanation": {
+                "en": "Direct translation of the symptoms.",
+                "bn": "লক্ষণগুলোর সরাসরি অনুবাদ।",
+                "hi": "लक्षणों का सीधा अनुवाद।",
+                "ur": "علامات کا براہ راست ترجمہ۔",
+                "tr": "Belirtilerin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e23_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Der Arzt empfahl eine Endoskopie zur Abklärung.",
+                "en": "The doctor recommended an endoscopy for clarification.",
+                "bn": "ডাক্তার স্পষ্টকরণের জন্য একটি এন্ডোস্কোপি করার পরামর্শ দিয়েছেন।",
+                "hi": "डॉक्टर ने स्पष्टीकरण के लिए एंडोस्कोपी कराने की सलाह दी।",
+                "ur": "ڈاکٹر نے وضاحت کے لیے اینڈوسکوپی کرانے کا مشورہ دیا۔",
+                "tr": "Doktor, açıklama için bir endoskopi önerdi."
+            },
+            "options": [],
+            "correctAnswer": "Der Arzt empfahl eine Endoskopie zur Abklärung.",
+            "explanation": {
+                "en": "Direct translation of the doctor's recommendation.",
+                "bn": "ডাক্তারের পরামর্শের সরাসরি অনুবাদ।",
+                "hi": "डॉक्टर की सलाह का सीधा अनुवाद।",
+                "ur": "ڈاکٹر کی سفارش کا براہ راست ترجمہ۔",
+                "tr": "Doktorun tavsiyesinin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e23_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Ich habe seit drei Tagen keinen Stuhlgang gehabt.",
+                "en": "I haven't had a bowel movement in three days.",
+                "bn": "আমার তিন দিন ধরে মলত্যাগ হয়নি।",
+                "hi": "मुझे तीन दिनों से मल त्याग नहीं हुआ है।",
+                "ur": "مجھے تین دن سے پاخانہ نہیں آیا۔",
+                "tr": "Üç gündür bağırsak hareketim olmadı."
+            },
+            "options": [],
+            "correctAnswer": "Ich habe seit drei Tagen keinen Stuhlgang gehabt.",
+            "explanation": {
+                "en": "Direct translation of the patient's statement.",
+                "bn": "রোগীর বক্তব্যের সরাসরি অনুবাদ।",
+                "hi": "रोगी के बयान का सीधा अनुवाद।",
+                "ur": "مریض کے بیان کا براہ راست ترجمہ۔",
+                "tr": "Hastanın ifadesinin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e23_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

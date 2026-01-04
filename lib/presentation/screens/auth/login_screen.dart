@@ -5,7 +5,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import '../../../core/themes/app_colors.dart';
 import '../../../core/themes/app_text_styles.dart';
-import '../../../data/repositories/auth_repository.dart';
 import '../../providers/providers.dart';
 
 class LoginScreen extends ConsumerStatefulWidget {
@@ -44,8 +43,15 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
         email: _emailController.text.trim(),
         password: _passwordController.text,
       );
+
       if (mounted) {
-        context.go('/home');
+        // Check if user has accepted terms
+        final hasAcceptedTerms = await authRepo.hasAcceptedTerms();
+        if (!hasAcceptedTerms) {
+          context.go('/terms');
+        } else {
+          context.go('/home');
+        }
       }
     } catch (e) {
       setState(() {
@@ -66,9 +72,15 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
 
     try {
       final authRepo = ref.read(authRepositoryProvider);
-      await authRepo.signInWithGoogle();
+      final result = await authRepo.signInWithGoogle();
+
       if (mounted) {
-        context.go('/home');
+        // If new user or hasn't accepted terms, go to terms screen
+        if (result.isNewUser || !result.hasAcceptedTerms) {
+          context.go('/terms');
+        } else {
+          context.go('/home');
+        }
       }
     } catch (e) {
       setState(() {
@@ -89,9 +101,15 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
 
     try {
       final authRepo = ref.read(authRepositoryProvider);
-      await authRepo.signInWithApple();
+      final result = await authRepo.signInWithApple();
+
       if (mounted) {
-        context.go('/home');
+        // If new user or hasn't accepted terms, go to terms screen
+        if (result.isNewUser || !result.hasAcceptedTerms) {
+          context.go('/terms');
+        } else {
+          context.go('/home');
+        }
       }
     } catch (e) {
       setState(() {

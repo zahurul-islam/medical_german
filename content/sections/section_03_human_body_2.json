@@ -1,21 +1,1615 @@
-{"id":"section_03","phaseId":"phase1","order":3,"titleDe":"Der menschliche Körper II","title":{"en":"The Human Body II - Internal Organs","bn":"মানবদেহ II","hi":"मानव शरीर II","ur":"انسانی جسم II","tr":"İnsan Vücudu II"},"level":"A1","estimatedMinutes":30,"vocabulary":[
-{"id":"v03_01","germanTerm":"Herz","article":"das","plural":"Herzen","translation":{"en":"Heart","bn":"হৃদয়","hi":"हृदय","ur":"دل","tr":"Kalp"}},
-{"id":"v03_02","germanTerm":"Lunge","article":"die","plural":"Lungen","translation":{"en":"Lung","bn":"ফুসফুস","hi":"फेफड़ा","ur":"پھیپھڑا","tr":"Akciğer"}},
-{"id":"v03_03","germanTerm":"Leber","article":"die","plural":"Lebern","translation":{"en":"Liver","bn":"যকৃত","hi":"यकृत","ur":"جگر","tr":"Karaciğer"}},
-{"id":"v03_04","germanTerm":"Niere","article":"die","plural":"Nieren","translation":{"en":"Kidney","bn":"কিডনি","hi":"गुर्दा","ur":"گردہ","tr":"Böbrek"}},
-{"id":"v03_05","germanTerm":"Magen","article":"der","plural":"Mägen","translation":{"en":"Stomach","bn":"পাকস্থলী","hi":"आमाशय","ur":"معدہ","tr":"Mide"}},
-{"id":"v03_06","germanTerm":"Darm","article":"der","plural":"Därme","translation":{"en":"Intestine","bn":"অন্ত্র","hi":"आंत","ur":"آنت","tr":"Bağırsak"}},
-{"id":"v03_07","germanTerm":"Gehirn","article":"das","plural":"Gehirne","translation":{"en":"Brain","bn":"মস্তিষ্ক","hi":"मस्तिष्क","ur":"دماغ","tr":"Beyin"}},
-{"id":"v03_08","germanTerm":"Blase","article":"die","plural":"Blasen","translation":{"en":"Bladder","bn":"মূত্রাশয়","hi":"मूत्राशय","ur":"مثانہ","tr":"Mesane"}},
-{"id":"v03_09","germanTerm":"Milz","article":"die","plural":"Milzen","translation":{"en":"Spleen","bn":"প্লীহা","hi":"तिल्ली","ur":"تلی","tr":"Dalak"}},
-{"id":"v03_10","germanTerm":"Bauchspeicheldrüse","article":"die","plural":"Bauchspeicheldrüsen","translation":{"en":"Pancreas","bn":"অগ্ন্যাশয়","hi":"अग्न्याशय","ur":"لبلبہ","tr":"Pankreas"}},
-{"id":"v03_11","germanTerm":"Gallenblase","article":"die","plural":"Gallenblasen","translation":{"en":"Gallbladder","bn":"পিত্তথলি","hi":"पित्ताशय","ur":"پتنا","tr":"Safra kesesi"}},
-{"id":"v03_12","germanTerm":"Speiseröhre","article":"die","plural":"Speiseröhren","translation":{"en":"Esophagus","bn":"খাদ্যনালী","hi":"अन्ननली","ur":"منہ نالی","tr":"Yemek borusu"}}
-],"dialogues":[{"id":"d03_01","title":{"en":"Explaining Ultrasound"},"lines":[
-{"speaker":"Arzt","germanText":"Wir machen einen Ultraschall von Leber und Nieren.","translation":{"en":"We'll do an ultrasound of liver and kidneys."}},
-{"speaker":"Patient","germanText":"Ist das schmerzhaft?","translation":{"en":"Is that painful?"}},
-{"speaker":"Arzt","germanText":"Nein, es tut nicht weh.","translation":{"en":"No, it doesn't hurt."}}
-]}],"exercises":[
-{"id":"e03_01","type":"multipleChoice","question":{"en":"What is 'das Herz'?"},"options":["Heart","Lung","Liver"],"correctAnswer":"Heart","points":10},
-{"id":"e03_02","type":"multipleChoice","question":{"en":"Which article for 'Lunge'?"},"options":["der","die","das"],"correctAnswer":"die","points":10}
-]}
+{
+    "id": "section_03",
+    "phaseId": "phase1",
+    "order": 3,
+    "titleDe": "Der menschliche Körper II",
+    "title": {
+        "en": "Human Body II - Internal Organs: Heart, Lung, Liver, Kidney, Stomach, Intestine, Brain, Bladder",
+        "bn": "মানব শরীর II - অভ্যন্তরীণ অঙ্গ: হৃৎপিণ্ড, ফুসফুস, যকৃত, কিডনি, পাকস্থলী, অন্ত্র, মস্তিষ্ক, মূত্রাশয়",
+        "hi": "मानव शरीर II - आंतरिक अंग: हृदय, फेफड़े, यकृत, गुर्दे, पेट, आंत, मस्तिष्क, मूत्राशय",
+        "ur": "انسانی جسم II - اندرونی اعضاء: دل، پھیپھڑا، جگر، گردہ، معدہ، آنت، دماغ، مثانہ",
+        "tr": "İnsan Vücudu II - İç Organlar: Kalp, Akciğer, Karaciğer, Böbrek, Mide, Bağırsak, Beyin, Mesane",
+        "de": "Der menschliche Körper II - Innere Organe: Herz, Lunge, Leber, Niere, Magen, Darm, Gehirn, Blase"
+    },
+    "description": {
+        "en": "This section explores the anatomy and basic functions of major internal organs in the human body.",
+        "bn": "এই বিভাগে মানব দেহের প্রধান অভ্যন্তরীণ অঙ্গগুলির শারীরস্থান এবং মৌলিক কার্যাবলী অনুসন্ধান করা হবে।",
+        "hi": "यह खंड मानव शरीर में प्रमुख आंतरिक अंगों की शारीरिक रचना और बुनियादी कार्यों का पता लगाएगा।",
+        "ur": "یہ سیکشن انسانی جسم میں اہم اندرونی اعضاء کی اناٹومی اور بنیادی افعال کو تلاش کرے گا۔",
+        "tr": "Bu bölüm, insan vücudundaki temel iç organların anatomisini ve temel işlevlerini inceleyecektir.",
+        "de": "Dieser Abschnitt untersucht die Anatomie und die grundlegenden Funktionen wichtiger innerer Organe des menschlichen Körpers."
+    },
+    "level": "A1",
+    "estimatedMinutes": 45,
+    "isPremium": false,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, we will delve into the structure and function of essential internal organs. You will learn the German names for these organs and how they relate to medical terminology.",
+            "bn": "এই বিভাগে, আমরা প্রয়োজনীয় অভ্যন্তরীণ অঙ্গগুলির গঠন এবং কার্যাবলী নিয়ে আলোচনা করব। আপনি এই অঙ্গগুলির জার্মান নাম এবং সেগুলি কীভাবে চিকিৎসা পরিভাষার সাথে সম্পর্কিত তা শিখবেন।",
+            "hi": "इस खंड में, हम आवश्यक आंतरिक अंगों की संरचना और कार्य का पता लगाएंगे। आप इन अंगों के जर्मन नाम और वे चिकित्सा शब्दावली से कैसे संबंधित हैं, सीखेंगे।",
+            "ur": "اس حصے میں، ہم ضروری اندرونی اعضاء کی ساخت اور افعال کا جائزہ لیں گے۔ آپ ان اعضاء کے جرمن نام اور وہ طبی اصطلاحات سے کیسے تعلق رکھتے ہیں، سیکھیں گے۔",
+            "tr": "Bu bölümde, temel iç organların yapısını ve işlevini inceleyeceğiz. Bu organların Almanca adlarını ve bunların tıbbi terminoloji ile nasıl ilişkili olduğunu öğreneceksiniz.",
+            "de": "In diesem Abschnitt werden wir uns mit dem Aufbau und der Funktion wesentlicher innerer Organe befassen. Sie lernen die deutschen Bezeichnungen für diese Organe und wie sie mit der medizinischen Terminologie zusammenhängen."
+        },
+        "grammarFocus": {
+            "en": {
+                "point1": "Declension of nouns in the nominative and accusative cases when referring to body parts.",
+                "point2": "Use of possessive pronouns (mein, dein, sein, etc.) when describing symptoms or conditions related to specific organs."
+            },
+            "bn": {
+                "point1": "শরীরের অঙ্গগুলির উল্লেখ করার সময় নমিনেটিভ এবং অভিযুক্ত ক্ষেত্রে বিশেষ্যগুলির বিভক্তি।",
+                "point2": "নির্দিষ্ট অঙ্গগুলির সাথে সম্পর্কিত লক্ষণ বা অবস্থার বর্ণনা করার সময় স্বত্ববাচক সর্বনামের ব্যবহার (mein, dein, sein, ইত্যাদি)।"
+            },
+            "hi": {
+                "point1": "शरीर के अंगों का उल्लेख करते समय नाममात्र और आरोपण मामलों में संज्ञाओं का विभक्ति।",
+                "point2": "विशिष्ट अंगों से संबंधित लक्षणों या स्थितियों का वर्णन करते समय स्वामित्व वाले सर्वनामों (mein, dein, sein, आदि) का उपयोग।"
+            },
+            "ur": {
+                "point1": "جسم کے اعضاء کا ذکر کرتے وقت اسمی اور الزامی معاملات میں اسموں کا انحراف۔",
+                "point2": "مخصوص اعضاء سے متعلق علامات یا حالات بیان کرتے وقت ملکیتی ضمیروں کا استعمال (mein, dein, sein, وغیرہ)۔"
+            },
+            "tr": {
+                "point1": "Vücut parçalarına atıfta bulunurken ismin yalın ve belirtme hallerinde çekimi.",
+                "point2": "Belirli organlarla ilgili semptomları veya durumları tanımlarken iyelik zamirlerinin (mein, dein, sein, vb.) kullanımı."
+            },
+            "de": {
+                "point1": "Deklination von Substantiven im Nominativ und Akkusativ bei Bezug auf Körperteile.",
+                "point2": "Verwendung von Possessivpronomen (mein, dein, sein, usw.) bei der Beschreibung von Symptomen oder Zuständen, die sich auf bestimmte Organe beziehen."
+            }
+        },
+        "culturalNotes": {
+            "en": "In German hospitals, a thorough patient history (Anamnese) is crucial, with specific questions about organ-related symptoms and previous illnesses.",
+            "bn": "জার্মান হাসপাতালগুলিতে, পুঙ্খানুপুঙ্খ রোগীর ইতিহাস (Anamnese) অত্যন্ত গুরুত্বপূর্ণ, যেখানে অঙ্গ সম্পর্কিত লক্ষণ এবং পূর্ববর্তী অসুস্থতা সম্পর্কে নির্দিষ্ট প্রশ্ন থাকে।",
+            "hi": "जर्मन अस्पतालों में, एक संपूर्ण रोगी इतिहास (Anamnese) महत्वपूर्ण है, जिसमें अंग संबंधी लक्षणों और पिछली बीमारियों के बारे में विशिष्ट प्रश्न होते हैं।",
+            "ur": "جرمن اسپتالوں میں، ایک مکمل مریض کی تاریخ (Anamnese) بہت اہم ہے، جس میں اعضاء سے متعلق علامات اور پچھلی بیماریوں کے بارے میں مخصوص سوالات ہوتے ہیں۔",
+            "tr": "Alman hastanelerinde, organlarla ilgili semptomlar ve önceki hastalıklar hakkında özel sorular içeren kapsamlı bir hasta öyküsü (Anamnese) çok önemlidir.",
+            "de": "In deutschen Krankenhäusern ist eine gründliche Patientenanamnese (Anamnese) von entscheidender Bedeutung, mit spezifischen Fragen zu organspezifischen Symptomen und Vorerkrankungen."
+        },
+        "summary": {
+            "en": "This section provides a foundational understanding of key internal organs, equipping you with essential vocabulary and grammatical structures for Medical German.",
+            "bn": "এই বিভাগটি মূল অভ্যন্তরীণ অঙ্গগুলির একটি প্রাথমিক ধারণা প্রদান করে, যা আপনাকে মেডিকেল জার্মানের জন্য প্রয়োজনীয় শব্দভাণ্ডার এবং ব্যাকরণগত কাঠামো দিয়ে সজ্জিত করে।",
+            "hi": "यह खंड प्रमुख आंतरिक अंगों की एक मूलभूत समझ प्रदान करता है, जो आपको मेडिकल जर्मन के लिए आवश्यक शब्दावली और व्याकरणिक संरचनाओं से लैस करता है।",
+            "ur": "یہ سیکشن اہم اندرونی اعضاء کی بنیادی تفہیم فراہم کرتا ہے، جو آپ کو میڈیکل جرمن کے لیے ضروری الفاظ اور گرامر کے ڈھانچے سے لیس کرتا ہے۔",
+            "tr": "Bu bölüm, temel iç organlar hakkında temel bir anlayış sağlayarak, sizi Tıbbi Almanca için gerekli kelime bilgisi ve dilbilgisi yapılarıyla donatır.",
+            "de": "Dieser Abschnitt vermittelt ein grundlegendes Verständnis der wichtigsten inneren Organe und vermittelt Ihnen den wesentlichen Wortschatz und die grammatikalischen Strukturen für das medizinische Deutsch."
+        },
+        "learningObjectives": [
+            "Identify and name major internal organs in German.",
+            "Describe the basic function of each listed organ.",
+            "Apply relevant grammatical structures when discussing organ-related symptoms.",
+            "Understand the importance of a detailed patient history regarding internal organ function."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "das Herz",
+            "article": "das",
+            "plural": "die Herzen",
+            "pronunciation": "[hɛʁt͡s]",
+            "category": "noun",
+            "translation": {
+                "en": "heart",
+                "bn": "হৃদয়",
+                "hi": "दिल",
+                "ur": "دل",
+                "tr": "kalp"
+            },
+            "exampleSentence": "Der Patient klagt über Schmerzen in der Herzgegend.",
+            "exampleTranslation": {
+                "en": "The patient complains of pain in the heart area.",
+                "bn": "রোগী হৃদপিণ্ডের আশেপাশে ব্যথার অভিযোগ করছেন।",
+                "hi": "मरीज हृदय के आसपास दर्द की शिकायत कर रहा है।",
+                "ur": "مریض دل کے ارد گرد درد کی شکایت کر رہا ہے۔",
+                "tr": "Hasta kalp bölgesinde ağrıdan şikayet ediyor."
+            },
+            "id": "v03_01"
+        },
+        {
+            "germanTerm": "die Lunge",
+            "article": "die",
+            "plural": "die Lungen",
+            "pronunciation": "[ˈlʊŋə]",
+            "category": "noun",
+            "translation": {
+                "en": "lung",
+                "bn": "ফুসফুস",
+                "hi": "फेफड़ा",
+                "ur": "پھیپھڑا",
+                "tr": "akciğer"
+            },
+            "exampleSentence": "Die Röntgenaufnahme zeigt eine Verschattung der Lunge.",
+            "exampleTranslation": {
+                "en": "The X-ray shows a shadow on the lung.",
+                "bn": "এক্স-রে ফুসফুসে একটি ছায়া দেখাচ্ছে।",
+                "hi": "एक्स-रे में फेफड़े पर एक छाया दिखाई दे रही है।",
+                "ur": "ایکس رے پھیپھڑے پر ایک سایہ دکھا رہا ہے۔",
+                "tr": "Röntgen filmi akciğerde bir gölge gösteriyor."
+            },
+            "id": "v03_02"
+        },
+        {
+            "germanTerm": "die Leber",
+            "article": "die",
+            "plural": "die Lebern",
+            "pronunciation": "[ˈleːbɐ]",
+            "category": "noun",
+            "translation": {
+                "en": "liver",
+                "bn": "যকৃত",
+                "hi": "जिगर",
+                "ur": "جگر",
+                "tr": "karaciğer"
+            },
+            "exampleSentence": "Die Leberwerte des Patienten sind erhöht.",
+            "exampleTranslation": {
+                "en": "The patient's liver values are elevated.",
+                "bn": "রোগীর লিভারের মান বেড়ে গেছে।",
+                "hi": "मरीज के लीवर के मान बढ़ गए हैं।",
+                "ur": "مریض کے جگر کی اقدار بلند ہیں۔",
+                "tr": "Hastanın karaciğer değerleri yüksek."
+            },
+            "id": "v03_03"
+        },
+        {
+            "germanTerm": "die Niere",
+            "article": "die",
+            "plural": "die Nieren",
+            "pronunciation": "[ˈniːʁə]",
+            "category": "noun",
+            "translation": {
+                "en": "kidney",
+                "bn": "কিডনি",
+                "hi": "गुर्दा",
+                "ur": "گردہ",
+                "tr": "böbrek"
+            },
+            "exampleSentence": "Der Patient hat eine chronische Nierenerkrankung.",
+            "exampleTranslation": {
+                "en": "The patient has chronic kidney disease.",
+                "bn": "রোগীর দীর্ঘস্থায়ী কিডনি রোগ আছে।",
+                "hi": "मरीज को क्रोनिक किडनी रोग है।",
+                "ur": "مریض کو گردے کی دائمی بیماری ہے۔",
+                "tr": "Hastanın kronik böbrek hastalığı var."
+            },
+            "id": "v03_04"
+        },
+        {
+            "germanTerm": "der Magen",
+            "article": "der",
+            "plural": "die Mägen",
+            "pronunciation": "[ˈmaːɡən]",
+            "category": "noun",
+            "translation": {
+                "en": "stomach",
+                "bn": "পাকস্থলী",
+                "hi": "पेट",
+                "ur": "معدہ",
+                "tr": "mide"
+            },
+            "exampleSentence": "Er leidet unter Magenschmerzen und Übelkeit.",
+            "exampleTranslation": {
+                "en": "He suffers from stomach pain and nausea.",
+                "bn": "তিনি পেটে ব্যথা এবং বমি বমি ভাব ভুগছেন।",
+                "hi": "वह पेट दर्द और मतली से पीड़ित है।",
+                "ur": "وہ پیٹ درد اور متلی میں مبتلا ہے۔",
+                "tr": "Mide ağrısı ve mide bulantısından şikayet ediyor."
+            },
+            "id": "v03_05"
+        },
+        {
+            "germanTerm": "der Darm",
+            "article": "der",
+            "plural": "die Därme",
+            "pronunciation": "[daʁm]",
+            "category": "noun",
+            "translation": {
+                "en": "intestine",
+                "bn": "অন্ত্র",
+                "hi": "आंत",
+                "ur": "آنت",
+                "tr": "bağırsak"
+            },
+            "exampleSentence": "Die Darmspiegelung wird am nächsten Dienstag durchgeführt.",
+            "exampleTranslation": {
+                "en": "The colonoscopy will be performed next Tuesday.",
+                "bn": "কোলনস্কোপি আগামী মঙ্গলবার অনুষ্ঠিত হবে।",
+                "hi": "कोलोनोस्कोपी अगले मंगलवार को की जाएगी।",
+                "ur": "اگلے منگل کو کولونوسکوپی کی جائے گی۔",
+                "tr": "Kolonoskopi gelecek Salı yapılacak."
+            },
+            "id": "v03_06"
+        },
+        {
+            "germanTerm": "das Gehirn",
+            "article": "das",
+            "plural": "die Gehirne",
+            "pronunciation": "[ɡəˈhɪʁn]",
+            "category": "noun",
+            "translation": {
+                "en": "brain",
+                "bn": "মস্তিষ্ক",
+                "hi": "मस्तिष्क",
+                "ur": "دماغ",
+                "tr": "beyin"
+            },
+            "exampleSentence": "Ein Schlaganfall kann zu Schäden am Gehirn führen.",
+            "exampleTranslation": {
+                "en": "A stroke can lead to brain damage.",
+                "bn": "স্ট্রোক মস্তিষ্কের ক্ষতি করতে পারে।",
+                "hi": "स्ट्रोक मस्तिष्क क्षति का कारण बन सकता है।",
+                "ur": "فالج دماغ کو نقصان پہنچا سکتا ہے۔",
+                "tr": "Felç beyin hasarına yol açabilir."
+            },
+            "id": "v03_07"
+        },
+        {
+            "germanTerm": "die Blase",
+            "article": "die",
+            "plural": "die Blasen",
+            "pronunciation": "[ˈblaːzə]",
+            "category": "noun",
+            "translation": {
+                "en": "bladder",
+                "bn": "মূত্রাশয়",
+                "hi": "मूत्राशय",
+                "ur": "مثانہ",
+                "tr": "mesane"
+            },
+            "exampleSentence": "Der Patient hat eine Entzündung der Blase.",
+            "exampleTranslation": {
+                "en": "The patient has an inflammation of the bladder.",
+                "bn": "রোগীর মূত্রাশয়ের প্রদাহ আছে।",
+                "hi": "मरीज को मूत्राशय की सूजन है।",
+                "ur": "مریض کو مثانے کی سوزش ہے۔",
+                "tr": "Hastanın mesane iltihabı var."
+            },
+            "id": "v03_08"
+        },
+        {
+            "germanTerm": "die Aorta",
+            "article": "die",
+            "plural": "die Aorten",
+            "pronunciation": "[aˈɔʁta]",
+            "category": "noun",
+            "translation": {
+                "en": "aorta",
+                "bn": "মহাধমনী",
+                "hi": "महाधमनी",
+                "ur": "شاہ رگ",
+                "tr": "aort"
+            },
+            "exampleSentence": "Die Aorta ist die Hauptschlagader des Körpers.",
+            "exampleTranslation": {
+                "en": "The aorta is the main artery of the body.",
+                "bn": "মহাধমনী শরীরের প্রধান ধমনী।",
+                "hi": "महाधमनी शरीर की मुख्य धमनी है।",
+                "ur": "شاہ رگ جسم کی اہم شریان ہے۔",
+                "tr": "Aort vücudun ana atardamarıdır."
+            },
+            "id": "v03_09"
+        },
+        {
+            "germanTerm": "die Vene",
+            "article": "die",
+            "plural": "die Venen",
+            "pronunciation": "[ˈveːnə]",
+            "category": "noun",
+            "translation": {
+                "en": "vein",
+                "bn": "শিরা",
+                "hi": "शिरा",
+                "ur": "ورید",
+                "tr": "toplardamar"
+            },
+            "exampleSentence": "Der Arzt hat eine Vene punktiert, um Blut abzunehmen.",
+            "exampleTranslation": {
+                "en": "The doctor punctured a vein to draw blood.",
+                "bn": "ডাক্তার রক্ত নেওয়ার জন্য একটি শিরাতে ছিদ্র করেছেন।",
+                "hi": "डॉक्टर ने रक्त निकालने के लिए एक नस में छेद किया।",
+                "ur": "ڈاکٹر نے خون لینے کے لیے ایک رگ کو پنکچر کیا۔",
+                "tr": "Doktor kan almak için bir damarı deldi."
+            },
+            "id": "v03_10"
+        },
+        {
+            "germanTerm": "das Zwerchfell",
+            "article": "das",
+            "plural": "die Zwerchfelle",
+            "pronunciation": "[ˈt͡svɛʁçfɛl]",
+            "category": "noun",
+            "translation": {
+                "en": "diaphragm",
+                "bn": "ডায়াফ্রাম",
+                "hi": "डायाफ्राम",
+                "ur": "حجاب حاجز",
+                "tr": "diyafram"
+            },
+            "exampleSentence": "Das Zwerchfell spielt eine wichtige Rolle bei der Atmung.",
+            "exampleTranslation": {
+                "en": "The diaphragm plays an important role in breathing.",
+                "bn": "ডায়াফ্রাম শ্বাস প্রশ্বাসে গুরুত্বপূর্ণ ভূমিকা পালন করে।",
+                "hi": "डायाफ्राम सांस लेने में महत्वपूर्ण भूमिका निभाता है।",
+                "ur": "حجاب حاجز سانس لینے میں اہم کردار ادا کرتا ہے۔",
+                "tr": "Diyafram nefes almada önemli bir rol oynar."
+            },
+            "id": "v03_11"
+        },
+        {
+            "germanTerm": "die Gallenblase",
+            "article": "die",
+            "plural": "die Gallenblasen",
+            "pronunciation": "[ˈɡalənˌblaːzə]",
+            "category": "noun",
+            "translation": {
+                "en": "gallbladder",
+                "bn": "পিত্তথলি",
+                "hi": "पित्ताशय",
+                "ur": "پتہ",
+                "tr": "safra kesesi"
+            },
+            "exampleSentence": "Die Gallenblase wurde aufgrund von Gallensteinen entfernt.",
+            "exampleTranslation": {
+                "en": "The gallbladder was removed due to gallstones.",
+                "bn": "পিত্তথলিতে পাথর হওয়ার কারণে এটি অপসারণ করা হয়েছিল।",
+                "hi": "पित्ताशय की पथरी के कारण पित्ताशय हटा दिया गया।",
+                "ur": "پتہ پتھری کی وجہ سے نکال دیا گیا۔",
+                "tr": "Safra kesesi, safra taşları nedeniyle çıkarıldı."
+            },
+            "id": "v03_12"
+        },
+        {
+            "germanTerm": "die Bauchspeicheldrüse",
+            "article": "die",
+            "plural": "die Bauchspeicheldrüsen",
+            "pronunciation": "[ˈbaʊ̯xʃpaɪ̯çl̩ˌdʁyːzə]",
+            "category": "noun",
+            "translation": {
+                "en": "pancreas",
+                "bn": "অগ্ন্যাশয়",
+                "hi": "अग्न्याशय",
+                "ur": "لبلبہ",
+                "tr": "pankreas"
+            },
+            "exampleSentence": "Die Bauchspeicheldrüse produziert Insulin.",
+            "exampleTranslation": {
+                "en": "The pancreas produces insulin.",
+                "bn": "অগ্ন্যাশয় ইনসুলিন তৈরি করে।",
+                "hi": "अग्न्याशय इंसुलिन का उत्पादन करता है।",
+                "ur": "لبلبہ انسولین پیدا کرتا ہے۔",
+                "tr": "Pankreas insülin üretir."
+            },
+            "id": "v03_13"
+        },
+        {
+            "germanTerm": "die Milz",
+            "article": "die",
+            "plural": "die Milzen",
+            "pronunciation": "[miːlt͡s]",
+            "category": "noun",
+            "translation": {
+                "en": "spleen",
+                "bn": "প্লীহা",
+                "hi": "प्लीहा",
+                "ur": "تلی",
+                "tr": "dalak"
+            },
+            "exampleSentence": "Die Milz ist vergrößert.",
+            "exampleTranslation": {
+                "en": "The spleen is enlarged.",
+                "bn": "প্লীহা প্রসারিত।",
+                "hi": "प्लीहा बढ़ गया है।",
+                "ur": "تلی بڑھ گئی ہے۔",
+                "tr": "Dalak büyümüş."
+            },
+            "id": "v03_14"
+        },
+        {
+            "germanTerm": "der Dickdarm",
+            "article": "der",
+            "plural": "die Dickdärme",
+            "pronunciation": "[ˈdɪkˌdaʁm]",
+            "category": "noun",
+            "translation": {
+                "en": "large intestine",
+                "bn": "বৃহদন্ত্র",
+                "hi": "बड़ी आंत",
+                "ur": "بڑی آنت",
+                "tr": "kalın bağırsak"
+            },
+            "exampleSentence": "Im Dickdarm findet die Wasserresorption statt.",
+            "exampleTranslation": {
+                "en": "Water absorption takes place in the large intestine.",
+                "bn": "বৃহদন্ত্রে জল শোষিত হয়।",
+                "hi": "बड़ी आंत में पानी का अवशोषण होता है।",
+                "ur": "بڑی آنت میں پانی جذب ہوتا ہے۔",
+                "tr": "Kalın bağırsakta su emilimi gerçekleşir."
+            },
+            "id": "v03_15"
+        },
+        {
+            "germanTerm": "der Dünndarm",
+            "article": "der",
+            "plural": "die Dünndärme",
+            "pronunciation": "[ˈdʏnˌdaʁm]",
+            "category": "noun",
+            "translation": {
+                "en": "small intestine",
+                "bn": "ক্ষুদ্রান্ত্র",
+                "hi": "छोटी आंत",
+                "ur": "چھوٹی آنت",
+                "tr": "ince bağırsak"
+            },
+            "exampleSentence": "Der Dünndarm ist für die Nährstoffaufnahme verantwortlich.",
+            "exampleTranslation": {
+                "en": "The small intestine is responsible for nutrient absorption.",
+                "bn": "ক্ষুদ্রান্ত্র পুষ্টির শোষণের জন্য দায়ী।",
+                "hi": "छोटी आंत पोषक तत्वों के अवशोषण के लिए जिम्मेदार है।",
+                "ur": "چھوٹی آنت غذائی اجزاء کے جذب کے لیے ذمہ دار ہے۔",
+                "tr": "İnce bağırsak, besin emiliminden sorumludur."
+            },
+            "id": "v03_16"
+        },
+        {
+            "germanTerm": "die Speiseröhre",
+            "article": "die",
+            "plural": "die Speiseröhren",
+            "pronunciation": "[ˈʃpaɪ̯zəˌʁøːʁə]",
+            "category": "noun",
+            "translation": {
+                "en": "esophagus",
+                "bn": "গলবিল",
+                "hi": "अन्नप्रणाली",
+                "ur": "غذا کی نالی",
+                "tr": "yemek borusu"
+            },
+            "exampleSentence": "Der Patient hat Probleme beim Schlucken, möglicherweise aufgrund einer Verengung der Speiseröhre.",
+            "exampleTranslation": {
+                "en": "The patient has trouble swallowing, possibly due to a narrowing of the esophagus.",
+                "bn": "রোগীর গিলতে সমস্যা হচ্ছে, সম্ভবত খাদ্যনালীর সংকীর্ণতার কারণে।",
+                "hi": "मरीज को निगलने में परेशानी हो रही है, संभवतः अन्नप्रणाली के संकुचन के कारण।",
+                "ur": "مریض کو نگلنے میں دشواری ہو رہی ہے، ممکنہ طور پر غذا کی نالی کے تنگ ہونے کی وجہ سے۔",
+                "tr": "Hastanın yutkunma sorunları var, muhtemelen yemek borusunun daralmasından kaynaklanıyor."
+            },
+            "id": "v03_17"
+        },
+        {
+            "germanTerm": "die Schilddrüse",
+            "article": "die",
+            "plural": "die Schilddrüsen",
+            "pronunciation": "[ˈʃɪltˌdʁyːzə]",
+            "category": "noun",
+            "translation": {
+                "en": "thyroid gland",
+                "bn": "থাইরয়েড গ্রন্থি",
+                "hi": "थायराइड ग्रंथि",
+                "ur": "تائرائڈ غدود",
+                "tr": "tiroid bezi"
+            },
+            "exampleSentence": "Die Schilddrüse produziert Hormone, die den Stoffwechsel regulieren.",
+            "exampleTranslation": {
+                "en": "The thyroid gland produces hormones that regulate metabolism.",
+                "bn": "থাইরয়েড গ্রন্থি হরমোন তৈরি করে যা বিপাক নিয়ন্ত্রণ করে।",
+                "hi": "थायराइड ग्रंथि हार्मोन का उत्पादन करती है जो चयापचय को नियंत्रित करते हैं।",
+                "ur": "تائرائڈ غدود ہارمون تیار کرتا ہے جو میٹابولزم کو منظم کرتے ہیں۔",
+                "tr": "Tiroid bezi, metabolizmayı düzenleyen hormonlar üretir."
+            },
+            "id": "v03_18"
+        },
+        {
+            "germanTerm": "der Kehlkopf",
+            "article": "der",
+            "plural": "die Kehlköpfe",
+            "pronunciation": "[ˈkeːlˌkɔpf]",
+            "category": "noun",
+            "translation": {
+                "en": "larynx",
+                "bn": "স্বরযন্ত্র",
+                "hi": "स्वरयंत्र",
+                "ur": "حنجرہ",
+                "tr": "gırtlak"
+            },
+            "exampleSentence": "Der Kehlkopf ist für die Stimmbildung verantwortlich.",
+            "exampleTranslation": {
+                "en": "The larynx is responsible for voice production.",
+                "bn": "স্বরযন্ত্র কণ্ঠ উৎপাদনের জন্য দায়ী।",
+                "hi": "स्वरयंत्र आवाज उत्पादन के लिए जिम्मेदार है।",
+                "ur": "حنجرہ آواز پیدا کرنے کا ذمہ دار ہے۔",
+                "tr": "Gırtlak, ses üretiminden sorumludur."
+            },
+            "id": "v03_19"
+        },
+        {
+            "germanTerm": "das Rückenmark",
+            "article": "das",
+            "plural": "die Rückenmarke",
+            "pronunciation": "[ˈʁʏkn̩ˌmaʁk]",
+            "category": "noun",
+            "translation": {
+                "en": "spinal cord",
+                "bn": "মেরুরজ্জু",
+                "hi": "रीढ़ की हड्डी",
+                "ur": "ریڑھ کی ہڈی",
+                "tr": "omurilik"
+            },
+            "exampleSentence": "Eine Verletzung des Rückenmarks kann zu Lähmungen führen.",
+            "exampleTranslation": {
+                "en": "An injury to the spinal cord can lead to paralysis.",
+                "bn": "মেরুরজ্জুর আঘাত পক্ষাঘাত ঘটাতে পারে।",
+                "hi": "रीढ़ की हड्डी में चोट लगने से लकवा हो सकता है।",
+                "ur": "ریڑھ کی ہڈی کی چوٹ فالج کا باعث بن سکتی ہے۔",
+                "tr": "Omurilik yaralanması felce yol açabilir."
+            },
+            "id": "v03_20"
+        },
+        {
+            "germanTerm": "die Nebenniere",
+            "article": "die",
+            "plural": "die Nebennieren",
+            "pronunciation": "[ˈneːbn̩ˌniːʁə]",
+            "category": "noun",
+            "translation": {
+                "en": "adrenal gland",
+                "bn": "অ্যাড্রেনাল গ্রন্থি",
+                "hi": "अधिवृक्क ग्रंथि",
+                "ur": "ایڈرینل غدود",
+                "tr": "böbrek üstü bezi"
+            },
+            "exampleSentence": "Die Nebennieren produzieren Hormone wie Adrenalin und Kortisol.",
+            "exampleTranslation": {
+                "en": "The adrenal glands produce hormones such as adrenaline and cortisol.",
+                "bn": "অ্যাড্রেনাল গ্রন্থি অ্যাড্রেনালিন এবং কর্টিসলের মতো হরমোন তৈরি করে।",
+                "hi": "अधिवृक्क ग्रंथियां एड्रेनालाईन और कोर्टिसोल जैसे हार्मोन का उत्पादन करती हैं।",
+                "ur": "ایڈرینل غدود ایڈرینالین اور کورٹیسول جیسے ہارمون تیار کرتے ہیں۔",
+                "tr": "Böbrek üstü bezleri, adrenalin ve kortizol gibi hormonlar üretir."
+            },
+            "id": "v03_21"
+        },
+        {
+            "germanTerm": "das Herzfrequenz",
+            "article": "das",
+            "plural": "die Herzfrequenzen",
+            "pronunciation": "[ˈhɛʁt͡sfreˌkvɛnt͡s]",
+            "category": "noun",
+            "translation": {
+                "en": "heart rate",
+                "bn": "হৃদস্পন্দন",
+                "hi": "हृदय गति",
+                "ur": "دل کی دھڑکن",
+                "tr": "kalp atış hızı"
+            },
+            "exampleSentence": "Die Herzfrequenz des Patienten ist erhöht.",
+            "exampleTranslation": {
+                "en": "The patient's heart rate is elevated.",
+                "bn": "রোগীর হৃদস্পন্দন বেড়ে গেছে।",
+                "hi": "मरीज की हृदय गति बढ़ गई है।",
+                "ur": "مریض کی دل کی دھڑکن بڑھ گئی ہے۔",
+                "tr": "Hastanın kalp atış hızı yüksek."
+            },
+            "id": "v03_22"
+        },
+        {
+            "germanTerm": "das Atemvolumen",
+            "article": "das",
+            "plural": "die Atemvolumina",
+            "pronunciation": "[ˈaːtəmvoˌluːmən]",
+            "category": "noun",
+            "translation": {
+                "en": "tidal volume",
+                "bn": "জোয়ারের আয়তন",
+                "hi": "टाइडल वॉल्यूम",
+                "ur": "مد و جزر کا حجم",
+                "tr": "tidal hacim"
+            },
+            "exampleSentence": "Das Atemvolumen wurde während der Beatmung überwacht.",
+            "exampleTranslation": {
+                "en": "The tidal volume was monitored during ventilation.",
+                "bn": "वेंटિલેশনের সময় জোয়ারের পরিমাণ পর্যবেক্ষণ করা হয়েছিল।",
+                "hi": "वेंटिलेशन के दौरान टाइडल वॉल्यूम की निगरानी की गई।",
+                "ur": "وینٹیلیشن کے دوران جوار کے حجم کی نگرانی کی گئی۔",
+                "tr": "Ventilasyon sırasında tidal hacim izlendi."
+            },
+            "id": "v03_23"
+        },
+        {
+            "germanTerm": "die Peristaltik",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "[peʁɪstalˈtɪk]",
+            "category": "noun",
+            "translation": {
+                "en": "peristalsis",
+                "bn": "পেরিস্টালসিস",
+                "hi": "क्रमाकुंचन",
+                "ur": "حرکت دودیہ",
+                "tr": "peristaltizm"
+            },
+            "exampleSentence": "Die Peristaltik des Darms war verlangsamt.",
+            "exampleTranslation": {
+                "en": "The peristalsis of the intestine was slowed down.",
+                "bn": "অন্ত্রের পেরিস্টালসিস ধীর হয়ে গিয়েছিল।",
+                "hi": "आंत की क्रमाकुंचन धीमी हो गई थी।",
+                "ur": "آنت کی حرکت دودیہ سست ہو گئی تھی۔",
+                "tr": "Bağırsağın peristaltizmi yavaşlamıştı."
+            },
+            "id": "v03_24"
+        },
+        {
+            "germanTerm": "das Ventrikelsystem",
+            "article": "das",
+            "plural": "die Ventrikelsysteme",
+            "pronunciation": "[vɛnˈtriːkl̩zʏsˌteːm]",
+            "category": "noun",
+            "translation": {
+                "en": "ventricular system",
+                "bn": "ভেন্ট্রিকুলার সিস্টেম",
+                "hi": "वेंट्रिकुलर सिस्टम",
+                "ur": "وینٹریکولر سسٹم",
+                "tr": "ventriküler sistem"
+            },
+            "exampleSentence": "Das Ventrikelsystem des Gehirns war erweitert.",
+            "exampleTranslation": {
+                "en": "The ventricular system of the brain was dilated.",
+                "bn": "মস্তিষ্কের ভেন্ট্রিকুলার সিস্টেম প্রসারিত হয়েছিল।",
+                "hi": "मस्तिष्क का वेंट्रिकुलर सिस्टम विस्तारित था।",
+                "ur": "دماغ کا وینٹریکولر سسٹم پھیل گیا تھا۔",
+                "tr": "Beynin ventriküler sistemi genişlemişti."
+            },
+            "id": "v03_25"
+        },
+        {
+            "germanTerm": "die Harnleiter",
+            "article": "die",
+            "plural": "die Harnleiter",
+            "pronunciation": "[ˈhaʁnˌlaɪ̯tɐ]",
+            "category": "noun",
+            "translation": {
+                "en": "ureter",
+                "bn": "মূত্রনালী",
+                "hi": "मूत्रवाहिनी",
+                "ur": "نالی",
+                "tr": "üreter"
+            },
+            "exampleSentence": "Der Harnleiter war durch einen Stein verstopft.",
+            "exampleTranslation": {
+                "en": "The ureter was blocked by a stone.",
+                "bn": "একটি পাথরের কারণে মূত্রনালী বন্ধ হয়ে গিয়েছিল।",
+                "hi": "मूत्रवाहिनी एक पत्थर से अवरुद्ध हो गई थी।",
+                "ur": "نالی ایک پتھر سے بند ہو گئی تھی۔",
+                "tr": "Üreter bir taşla tıkanmıştı."
+            },
+            "id": "v03_26"
+        },
+        {
+            "germanTerm": "die Harnröhre",
+            "article": "die",
+            "plural": "die Harnröhren",
+            "pronunciation": "[ˈhaʁnˌʁøːʁə]",
+            "category": "noun",
+            "translation": {
+                "en": "urethra",
+                "bn": "মূত্রনালী",
+                "hi": "मूत्रमार्ग",
+                "ur": "پیشاب کی نالی",
+                "tr": "üretra"
+            },
+            "exampleSentence": "Der Patient hatte eine Entzündung der Harnröhre.",
+            "exampleTranslation": {
+                "en": "The patient had an inflammation of the urethra.",
+                "bn": "রোগীর মূত্রনালীর প্রদাহ ছিল।",
+                "hi": "मरीज को मूत्रमार्ग की सूजन थी।",
+                "ur": "مریض کو پیشاب کی نالی کی سوزش تھی۔",
+                "tr": "Hastanın üretrası iltihaplanmıştı."
+            },
+            "id": "v03_27"
+        },
+        {
+            "germanTerm": "das Pankreassekret",
+            "article": "das",
+            "plural": "kein Plural",
+            "pronunciation": "[ˈpaŋkʁeaszekreˈt]",
+            "category": "noun",
+            "translation": {
+                "en": "pancreatic secretion",
+                "bn": "অগ্ন্যাশয়ের নিঃসরণ",
+                "hi": "अग्नाशयी स्राव",
+                "ur": "لبلبے کا اخراج",
+                "tr": "pankreas salgısı"
+            },
+            "exampleSentence": "Die Menge des Pankreassekrets war vermindert.",
+            "exampleTranslation": {
+                "en": "The amount of pancreatic secretion was reduced.",
+                "bn": "অগ্ন্যাশয়ের নিঃসরণের পরিমাণ হ্রাস করা হয়েছিল।",
+                "hi": "अग्नाशयी स्राव की मात्रा कम हो गई थी।",
+                "ur": "لبلبے کے اخراج کی مقدار کم ہو گئی تھی۔",
+                "tr": "Pankreas salgısının miktarı azalmıştı."
+            },
+            "id": "v03_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Chest Pain and Heart Concerns",
+                "bn": "বুকে ব্যথা এবং হার্ট নিয়ে উদ্বেগ",
+                "hi": "सीने में दर्द और दिल की चिंताएँ",
+                "ur": "سینے میں درد اور دل کی پریشانی",
+                "tr": "Göğüs Ağrısı ve Kalp Endişeleri"
+            },
+            "context": {
+                "en": "Patient Müller complains of chest pain. Dr. Schmidt suspects a heart issue and discusses further tests with Nurse Weber.",
+                "bn": "রোগী মুলার বুকে ব্যথার অভিযোগ করছেন। ডঃ শ্মিট হৃদরোগের সন্দেহ করছেন এবং নার্স ওয়েবারের সাথে আরও পরীক্ষা নিয়ে আলোচনা করছেন।",
+                "hi": "रोगी मुलर सीने में दर्द की शिकायत करते हैं। डॉ. श्मिट को हृदय की समस्या का संदेह है और नर्स वेबर के साथ आगे के परीक्षणों पर चर्चा करते हैं।",
+                "ur": "مریض مولر سینے میں درد کی شکایت کر رہے ہیں۔ ڈاکٹر شمٹ کو دل کی بیماری کا شبہ ہے اور نرس ویبر کے ساتھ مزید ٹیسٹوں پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Hasta Müller göğüs ağrısından şikayet ediyor. Dr. Schmidt kalp rahatsızlığından şüpheleniyor ve Hemşire Weber ile daha fazla test yapılmasını tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Herr Doktor, ich habe seit gestern ein starkes Stechen in der Brust.",
+                    "translation": {
+                        "en": "Doctor, I've had a sharp pain in my chest since yesterday.",
+                        "bn": "ডাক্তার, গতকাল থেকে আমার বুকে তীব্র ব্যথা হচ্ছে।",
+                        "hi": "डॉक्टर, मुझे कल से सीने में तेज दर्द हो रहा है।",
+                        "ur": "ڈاکٹر، مجھے کل سے سینے میں تیز درد ہو رہا ہے۔",
+                        "tr": "Doktor, dün akşamdan beri göğsümde keskin bir ağrı var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich verstehe. Wir werden ein EKG machen, um Ihr Herz zu überprüfen. Schwester Weber, bitte bereiten Sie das vor.",
+                    "translation": {
+                        "en": "I understand. We will do an ECG to check your heart. Nurse Weber, please prepare that.",
+                        "bn": "আমি বুঝতে পারছি। আপনার হৃদয় পরীক্ষা করার জন্য আমরা একটি ইসিজি করব। নার্স ওয়েবার, দয়া করে এটির প্রস্তুতি নিন।",
+                        "hi": "मैं समझता हूँ। हम आपके दिल की जाँच के लिए एक ईसीजी करेंगे। नर्स वेबर, कृपया इसकी तैयारी करें।",
+                        "ur": "میں سمجھتا ہوں۔ ہم آپ کے دل کی جانچ کے لیے ایک ای سی جی کریں گے۔ نرس ویبر، براہ کرم اس کی تیاری کریں۔",
+                        "tr": "Anlıyorum. Kalbinizi kontrol etmek için bir EKG çekeceğiz. Hemşire Weber, lütfen hazırlayın."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ja, Herr Doktor. Ich kümmere mich sofort darum.",
+                    "translation": {
+                        "en": "Yes, Doctor. I'll take care of it right away.",
+                        "bn": "হ্যাঁ, ডাক্তার। আমি এখনই এটির ব্যবস্থা করছি।",
+                        "hi": "हाँ, डॉक्टर। मैं अभी इसका ध्यान रखती हूँ।",
+                        "ur": "ہاں، ڈاکٹر۔ میں ابھی اس کا انتظام کرتی ہوں۔",
+                        "tr": "Evet doktor. Hemen ilgileniyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Herr Müller, haben Sie noch andere Beschwerden?",
+                    "translation": {
+                        "en": "Mr. Müller, do you have any other complaints?",
+                        "bn": "মিঃ মুলার, আপনার অন্য কোনো অভিযোগ আছে?",
+                        "hi": "श्री मुलर, क्या आपको कोई और शिकायत है?",
+                        "ur": "مسٹر مولر، کیا آپ کو کوئی اور شکایت ہے؟",
+                        "tr": "Bay Müller, başka şikayetiniz var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, ich bin auch sehr kurzatmig.",
+                    "translation": {
+                        "en": "Yes, I am also very short of breath.",
+                        "bn": "হ্যাঁ, আমার শ্বাস নিতেও খুব কষ্ট হচ্ছে।",
+                        "hi": "हाँ, मुझे सांस लेने में भी बहुत तकलीफ हो रही है।",
+                        "ur": "ہاں، مجھے سانس لینے میں بھی بہت تکلیف ہو رہی ہے۔",
+                        "tr": "Evet, nefes darlığı da çekiyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das könnte auf eine Beteiligung der Lunge hindeuten. Wir werden das abklären.",
+                    "translation": {
+                        "en": "That could indicate involvement of the lungs. We will investigate that.",
+                        "bn": "এটি ফুসফুসের জড়িত থাকার ইঙ্গিত দিতে পারে। আমরা এটি তদন্ত করব।",
+                        "hi": "यह फेफड़ों की भागीदारी का संकेत दे सकता है। हम इसकी जांच करेंगे।",
+                        "ur": "یہ پھیپھڑوں کی شمولیت کی نشاندہی کر سکتا ہے۔ ہم اس کی تحقیقات کریں گے۔",
+                        "tr": "Bu akciğerlerin de işin içinde olduğunu gösterebilir. Bunu araştıracağız."
+                    }
+                }
+            ],
+            "id": "d03_01"
+        },
+        {
+            "title": {
+                "en": "Abdominal Pain and Liver Issues",
+                "bn": "পেটে ব্যথা এবং লিভারের সমস্যা",
+                "hi": "पेट दर्द और जिगर की समस्याएँ",
+                "ur": "پیٹ میں درد اور جگر کے مسائل",
+                "tr": "Karın Ağrısı ve Karaciğer Sorunları"
+            },
+            "context": {
+                "en": "Patient Klein complains of abdominal pain. Dr. Weber questions her about possible liver issues.",
+                "bn": "রোগী ক্লেইন পেটে ব্যথার অভিযোগ করছেন। ডঃ ওয়েবার তাকে লিভারের সমস্যা নিয়ে প্রশ্ন করছেন।",
+                "hi": "रोगी क्लेन पेट दर्द की शिकायत करती है। डॉ. वेबर उससे जिगर की समस्याओं के बारे में पूछताछ करती हैं।",
+                "ur": "مریض کلین پیٹ میں درد کی شکایت کر رہی ہیں۔ ڈاکٹر ویبر اس سے جگر کے مسائل کے بارے میں پوچھ گچھ کرتی ہیں۔",
+                "tr": "Hasta Klein karın ağrısından şikayet ediyor. Dr. Weber ona olası karaciğer sorunları hakkında sorular soruyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe seit Tagen starke Bauchschmerzen, besonders im rechten Oberbauch.",
+                    "translation": {
+                        "en": "I have had severe abdominal pain for days, especially in the upper right abdomen.",
+                        "bn": "কয়েক দিন ধরে আমার পেটে তীব্র ব্যথা হচ্ছে, বিশেষ করে পেটের উপরের ডান দিকে।",
+                        "hi": "मुझे कई दिनों से पेट में तेज दर्द हो रहा है, खासकर पेट के ऊपरी दाहिने हिस्से में।",
+                        "ur": "مجھے کئی دنوں سے پیٹ میں تیز درد ہو رہا ہے، خاص طور پر پیٹ کے اوپر دائیں جانب۔",
+                        "tr": "Günlerdir şiddetli karın ağrım var, özellikle sağ üst karın bölgemde."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Haben Sie auch Übelkeit oder Gelbsucht festgestellt?",
+                    "translation": {
+                        "en": "Have you also noticed nausea or jaundice?",
+                        "bn": "আপনি কি বমি বমি ভাব বা জন্ডিসও লক্ষ্য করেছেন?",
+                        "hi": "क्या आपने मतली या पीलिया भी देखा है?",
+                        "ur": "کیا آپ نے متلی یا یرقان بھی دیکھا ہے؟",
+                        "tr": "Mide bulantısı veya sarılık da fark ettiniz mi?"
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Etwas Übelkeit ja, aber keine Gelbsucht, soweit ich das beurteilen kann.",
+                    "translation": {
+                        "en": "Some nausea, yes, but no jaundice, as far as I can tell.",
+                        "bn": "কিছু বমি বমি ভাব হ্যাঁ, তবে জন্ডিস নেই, যতদূর আমি বলতে পারি।",
+                        "hi": "कुछ मतली, हाँ, लेकिन पीलिया नहीं, जहाँ तक मैं बता सकती हूँ।",
+                        "ur": "کچھ متلی، ہاں، لیکن یرقان نہیں، جہاں تک میں بتا سکتی ہوں۔",
+                        "tr": "Biraz mide bulantısı evet, ama sarılık yok, görebildiğim kadarıyla."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir werden Ihre Leberwerte im Blut untersuchen. Das ist wichtig.",
+                    "translation": {
+                        "en": "We will examine your liver values in the blood. That's important.",
+                        "bn": "আমরা আপনার রক্তের লিভারের মান পরীক্ষা করব। এটা গুরুত্বপূর্ণ।",
+                        "hi": "हम आपके रक्त में जिगर के मूल्यों की जांच करेंगे। यह महत्वपूर्ण है।",
+                        "ur": "ہم آپ کے خون میں جگر کی اقدار کی جانچ کریں گے۔ یہ اہم ہے۔",
+                        "tr": "Kanınızdaki karaciğer değerlerinizi inceleyeceğiz. Bu önemli."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich nehme Frau Klein gleich Blut ab.",
+                    "translation": {
+                        "en": "I'll draw blood from Mrs. Klein right away.",
+                        "bn": "আমি এখনই মিসেস ক্লেইনের রক্ত নেব।",
+                        "hi": "मैं अभी श्रीमती क्लेन से खून निकाल लूंगी।",
+                        "ur": "میں ابھی مسز کلین سے خون نکال لوں گی۔",
+                        "tr": "Hemen Bayan Klein'dan kan alacağım."
+                    }
+                }
+            ],
+            "id": "d03_02"
+        },
+        {
+            "title": {
+                "en": "Kidney Stones and Back Pain",
+                "bn": "কিডনিতে পাথর এবং পিঠে ব্যথা",
+                "hi": "गुर्दे की पथरी और पीठ दर्द",
+                "ur": "گردے کی پتھری اور کمر درد",
+                "tr": "Böbrek Taşları ve Sırt Ağrısı"
+            },
+            "context": {
+                "en": "Patient Baumann describes severe back pain. Dr. Schmidt suspects kidney stones.",
+                "bn": "রোগী বাউমান তীব্র পিঠে ব্যথার বর্ণনা দিচ্ছেন। ডঃ শ্মিট কিডনিতে পাথর সন্দেহ করছেন।",
+                "hi": "रोगी बॉमन गंभीर पीठ दर्द का वर्णन करते हैं। डॉ. श्मिट को गुर्दे की पथरी का संदेह है।",
+                "ur": "مریض بومن شدید کمر درد بیان کرتے ہیں۔ ڈاکٹر شمٹ کو گردے کی پتھری کا شبہ ہے۔",
+                "tr": "Hasta Baumann şiddetli sırt ağrısından bahsediyor. Dr. Schmidt böbrek taşlarından şüpheleniyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Baumann",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe unerträgliche Schmerzen im unteren Rücken, die in die Leistengegend ziehen.",
+                    "translation": {
+                        "en": "I have unbearable pain in my lower back that radiates to the groin area.",
+                        "bn": "আমার কোমরের নীচে অসহ্য ব্যথা হচ্ছে, যা কুঁচকির দিকে যাচ্ছে।",
+                        "hi": "मुझे मेरी पीठ के निचले हिस्से में असहनीय दर्द हो रहा है जो कमर क्षेत्र में जा रहा है।",
+                        "ur": "مجھے میری کمر کے نچلے حصے میں ناقابل برداشت درد ہو رہا ہے جو کمر کے علاقے میں جا رہا ہے۔",
+                        "tr": "Belimin alt kısmında kasıklara vuran dayanılmaz ağrılarım var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das klingt nach Nierenkolik. Haben Sie Schwierigkeiten beim Wasserlassen?",
+                    "translation": {
+                        "en": "That sounds like renal colic. Do you have difficulty urinating?",
+                        "bn": "এটা রেনাল কলিকের মতো শোনাচ্ছে। আপনার প্রস্রাব করতে অসুবিধা হচ্ছে?",
+                        "hi": "यह रीनल कोलिक जैसा लगता है। क्या आपको पेशाब करने में कठिनाई होती है?",
+                        "ur": "یہ گردے کی تکلیف کی طرح لگتا ہے۔ کیا آپ کو پیشاب کرنے میں دشواری ہوتی ہے؟",
+                        "tr": "Bu böbrek kolikine benziyor. İdrar yapmakta zorlanıyor musunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Baumann",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, es ist sehr schmerzhaft und ich muss ständig auf die Toilette, aber es kommt kaum etwas.",
+                    "translation": {
+                        "en": "Yes, it is very painful and I constantly have to go to the toilet, but hardly anything comes out.",
+                        "bn": "হ্যাঁ, এটা খুব বেদনাদায়ক এবং আমাকে ক্রমাগত টয়লেটে যেতে হয়, কিন্তু খুব কমই কিছু বের হয়।",
+                        "hi": "हाँ, यह बहुत दर्दनाक है और मुझे लगातार टॉयलेट जाना पड़ता है, लेकिन मुश्किल से कुछ निकलता है।",
+                        "ur": "ہاں، یہ بہت تکلیف دہ ہے اور مجھے مسلسل ٹوائلٹ جانا پڑتا ہے، لیکن بمشکل ہی کچھ نکلتا ہے۔",
+                        "tr": "Evet, çok acı verici ve sürekli tuvalete gitmem gerekiyor ama neredeyse hiçbir şey gelmiyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wir werden eine Ultraschalluntersuchung der Nieren machen, um nach Steinen zu suchen.",
+                    "translation": {
+                        "en": "We will do an ultrasound of the kidneys to look for stones.",
+                        "bn": "আমরা পাথর অনুসন্ধানের জন্য কিডনির একটি আল্ট্রাসাউন্ড করব।",
+                        "hi": "हम पत्थरों की तलाश के लिए गुर्दे का अल्ट्रासाउंड करेंगे।",
+                        "ur": "ہم پتھروں کی تلاش کے لیے گردوں کا الٹراساؤنڈ کریں گے۔",
+                        "tr": "Taş aramak için böbreklerin ultrasonunu çekeceğiz."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich bereite den Ultraschallraum vor.",
+                    "translation": {
+                        "en": "I'll prepare the ultrasound room.",
+                        "bn": "আমি আল্ট্রাসাউন্ড রুম প্রস্তুত করব।",
+                        "hi": "मैं अल्ट्रासाउंड कक्ष तैयार करूँगी।",
+                        "ur": "میں الٹراساؤنڈ کمرہ تیار کروں گی۔",
+                        "tr": "Ultrason odasını hazırlayacağım."
+                    }
+                }
+            ],
+            "id": "d03_03"
+        },
+        {
+            "title": {
+                "en": "Stomach Ache and Digestive Issues",
+                "bn": "পেট ব্যথা এবং হজমের সমস্যা",
+                "hi": "पेट दर्द और पाचन संबंधी समस्याएं",
+                "ur": "پیٹ میں درد اور ہاضمہ کے مسائل",
+                "tr": "Karın Ağrısı ve Sindirim Sorunları"
+            },
+            "context": {
+                "en": "Patient Schmidt complains of stomach problems. Dr. Weber inquires about her diet and bowel movements.",
+                "bn": "রোগী শ্মিট পেটের সমস্যার অভিযোগ করছেন। ডঃ ওয়েবার তার খাদ্য এবং মলত্যাগ সম্পর্কে জিজ্ঞাসা করছেন।",
+                "hi": "रोगी श्मिट पेट की समस्याओं की शिकायत करती हैं। डॉ. वेबर उनके आहार और मल त्याग के बारे में पूछताछ करती हैं।",
+                "ur": "مریض شمٹ پیٹ کے مسائل کی شکایت کر رہی ہیں۔ ڈاکٹر ویبر ان کی خوراک اور آنتوں کی حرکت کے بارے میں پوچھ گچھ کرتی ہیں۔",
+                "tr": "Hasta Schmidt mide sorunlarından şikayet ediyor. Dr. Weber, diyeti ve bağırsak hareketleri hakkında bilgi alıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe seit Wochen immer wieder Bauchkrämpfe und Durchfall.",
+                    "translation": {
+                        "en": "I have had recurring stomach cramps and diarrhea for weeks.",
+                        "bn": "কয়েক সপ্তাহ ধরে আমার বারবার পেটে খিল ধরা এবং ডায়রিয়া হচ্ছে।",
+                        "hi": "मुझे हफ्तों से बार-बार पेट में ऐंठन और दस्त हो रहे हैं।",
+                        "ur": "مجھے ہفتوں سے بار بار پیٹ میں درد اور اسہال ہو رہا ہے۔",
+                        "tr": "Haftalardır tekrar eden mide kramplarım ve ishalim var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Haben Sie etwas ungewöhnliches gegessen oder Stress gehabt?",
+                    "translation": {
+                        "en": "Have you eaten anything unusual or been under stress?",
+                        "bn": "আপনি কি অস্বাভাবিক কিছু খেয়েছেন বা চাপে ছিলেন?",
+                        "hi": "क्या आपने कुछ असामान्य खाया है या तनाव में रही हैं?",
+                        "ur": "کیا آپ نے کچھ غیر معمولی کھایا ہے یا تناؤ میں رہی ہیں؟",
+                        "tr": "Alışılmadık bir şey yedin mi veya stres altında mıydın?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Eigentlich nicht. Mein Stuhlgang ist auch sehr unregelmäßig. Manchmal Verstopfung, dann wieder Durchfall.",
+                    "translation": {
+                        "en": "Not really. My bowel movements are also very irregular. Sometimes constipation, then diarrhea again.",
+                        "bn": "আসলে না। আমার মলত্যাগও খুব অনিয়মিত। কখনও কোষ্ঠকাঠিন্য, আবার ডায়রিয়া।",
+                        "hi": "वास्तव में नहीं। मेरे मल त्याग भी बहुत अनियमित हैं। कभी कब्ज, तो फिर दस्त।",
+                        "ur": "دراصل نہیں۔ میرے پاخانے بھی بہت بے قاعدہ ہیں۔ کبھی قبض، تو کبھی اسہال۔",
+                        "tr": "Aslında hayır. Bağırsak hareketlerim de çok düzensiz. Bazen kabızlık, sonra tekrar ishal."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir sollten Ihren Darm genauer untersuchen. Eine Darmspiegelung könnte sinnvoll sein.",
+                    "translation": {
+                        "en": "We should examine your intestines more closely. A colonoscopy might be useful.",
+                        "bn": "আমাদের আপনার অন্ত্র আরও ঘনিষ্ঠভাবে পরীক্ষা করা উচিত। একটি কলোনোস্কোপি দরকারী হতে পারে।",
+                        "hi": "हमें आपकी आंतों की अधिक बारीकी से जांच करनी चाहिए। एक कोलोनोस्कोपी उपयोगी हो सकती है।",
+                        "ur": "ہمیں آپ کی آنتوں کا زیادہ گہرائی سے جائزہ لینا چاہیے۔ ایک کولونوسکوپی کارآمد ثابت ہو سکتی ہے۔",
+                        "tr": "Bağırsaklarınızı daha yakından incelemeliyiz. Kolonoskopi yararlı olabilir."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Oh, das klingt nicht angenehm.",
+                    "translation": {
+                        "en": "Oh, that doesn't sound pleasant.",
+                        "bn": "ওহ, এটা শুনতে ভালো লাগছে না।",
+                        "hi": "ओह, यह सुखद नहीं लगता है।",
+                        "ur": "اوہ، یہ خوشگوار نہیں لگتا ہے۔",
+                        "tr": "Ah, kulağa hoş gelmiyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Es ist wichtig, die Ursache zu finden. Keine Sorge, wir bereiten Sie gut darauf vor.",
+                    "translation": {
+                        "en": "It's important to find the cause. Don't worry, we'll prepare you well for it.",
+                        "bn": "কারণ খুঁজে বের করা গুরুত্বপূর্ণ। চিন্তা করবেন না, আমরা আপনাকে এটির জন্য ভালভাবে প্রস্তুত করব।",
+                        "hi": "कारण ढूंढना महत्वपूर्ण है। चिंता न करें, हम आपको इसके लिए अच्छी तरह से तैयार करेंगे।",
+                        "ur": "وجہ تلاش کرنا ضروری ہے۔ فکر نہ کرو، ہم آپ کو اس کے لیے اچھی طرح سے تیار کریں گے۔",
+                        "tr": "Nedeni bulmak önemlidir. Endişelenmeyin, sizi bunun için iyi hazırlayacağız."
+                    }
+                }
+            ],
+            "id": "d03_04"
+        },
+        {
+            "title": {
+                "en": "Confusion and Brain Scan",
+                "bn": "বিভ্রান্তি এবং মস্তিষ্কের স্ক্যান",
+                "hi": "भ्रम और मस्तिष्क स्कैन",
+                "ur": "الجھن اور دماغی اسکین",
+                "tr": "Bulanıklık ve Beyin Taraması"
+            },
+            "context": {
+                "en": "Patient Lehmann is confused. Dr. Schmidt orders a brain scan to rule out any neurological issues.",
+                "bn": "রোগী লেহমান বিভ্রান্ত। ডঃ শ্মিট কোনো স্নায়বিক সমস্যা বাতিল করার জন্য মস্তিষ্কের স্ক্যান করার নির্দেশ দিয়েছেন।",
+                "hi": "रोगी लेहमन भ्रमित हैं। डॉ. श्मिट किसी भी तंत्रिका संबंधी समस्या को दूर करने के लिए मस्तिष्क स्कैन का आदेश देते हैं।",
+                "ur": "مریض لیمن الجھن کا شکار ہیں۔ ڈاکٹر شمٹ کسی بھی عصبی مسائل کو ختم کرنے کے لیے دماغی اسکین کا حکم دیتے ہیں۔",
+                "tr": "Hasta Lehmann kafası karışık. Dr. Schmidt, herhangi bir nörolojik sorunu ekarte etmek için beyin taraması emri veriyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Lehmann wirkt desorientiert und kann sich kaum an den heutigen Tag erinnern.",
+                    "translation": {
+                        "en": "Mr. Lehmann seems disoriented and can hardly remember today's date.",
+                        "bn": "মিঃ লেহমানকে বিভ্রান্ত দেখাচ্ছে এবং আজকের তারিখটিও তার মনে নেই।",
+                        "hi": "श्री लेहमन भटके हुए लगते हैं और उन्हें आज की तारीख भी मुश्किल से याद है।",
+                        "ur": "مسٹر لیمن بھٹکے ہوئے نظر آتے ہیں اور انہیں آج کی تاریخ بھی مشکل سے یاد ہے۔",
+                        "tr": "Bay Lehmann kafası karışmış görünüyor ve bugünün tarihini bile zor hatırlıyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das ist besorgniserregend. Hat er irgendwelche Vorerkrankungen?",
+                    "translation": {
+                        "en": "That's worrying. Does he have any pre-existing conditions?",
+                        "bn": "এটা উদ্বেগের বিষয়। তার কোনো পূর্ববর্তী রোগ আছে?",
+                        "hi": "यह चिंताजनक है। क्या उन्हें कोई पूर्व-मौजूदा स्थितियाँ हैं?",
+                        "ur": "یہ تشویشناک ہے۔ کیا انہیں کوئی پہلے سے موجودہ حالات ہیں؟",
+                        "tr": "Bu endişe verici. Önceden var olan herhangi bir rahatsızlığı var mı?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Soweit ich weiß, nicht. Nur leichter Bluthochdruck.",
+                    "translation": {
+                        "en": "Not as far as I know. Only mild high blood pressure.",
+                        "bn": "যতদূর আমি জানি, না। শুধুমাত্র হালকা উচ্চ রক্তচাপ।",
+                        "hi": "जहाँ तक मुझे पता है, नहीं। केवल हल्का उच्च रक्तचाप।",
+                        "ur": "جہاں تک میں جانتا ہوں، نہیں۔ صرف ہلکا ہائی بلڈ پریشر۔",
+                        "tr": "Bildiğim kadarıyla hayır. Sadece hafif yüksek tansiyon."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wir brauchen ein CT des Gehirns. Schwester Weber, organisieren Sie das bitte schnellstmöglich.",
+                    "translation": {
+                        "en": "We need a CT scan of the brain. Nurse Weber, please organize that as soon as possible.",
+                        "bn": "আমাদের মস্তিষ্কের সিটি স্ক্যান দরকার। নার্স ওয়েবার, দয়া করে যত তাড়াতাড়ি সম্ভব এটির ব্যবস্থা করুন।",
+                        "hi": "हमें मस्तिष्क का सीटी स्कैन चाहिए। नर्स वेबर, कृपया इसे जल्द से जल्द व्यवस्थित करें।",
+                        "ur": "ہمیں دماغ کا سی ٹی سکین درکار ہے۔ نرس ویبر، براہ کرم اسے جلد از جلد ترتیب دیں۔",
+                        "tr": "Beynin BT taramasına ihtiyacımız var. Hemşire Weber, lütfen bunu en kısa sürede organize edin."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Verstanden, Herr Doktor. Ich kümmere mich darum.",
+                    "translation": {
+                        "en": "Understood, Doctor. I'll take care of it.",
+                        "bn": "বুঝেছি, ডাক্তার। আমি এটির ব্যবস্থা করব।",
+                        "hi": "समझ गया, डॉक्टर। मैं इसका ध्यान रखूँगी।",
+                        "ur": "سمجھ گیا، ڈاکٹر۔ میں اس کا خیال رکھوں گی۔",
+                        "tr": "Anlaşıldı doktor. Ben ilgilenirim."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wir müssen eine Ursache für die Verwirrtheit finden.",
+                    "translation": {
+                        "en": "We need to find a cause for the confusion.",
+                        "bn": "আমাদের বিভ্রান্তির কারণ খুঁজে বের করতে হবে।",
+                        "hi": "हमें भ्रम का कारण ढूंढना होगा।",
+                        "ur": "ہمیں الجھن کی وجہ تلاش کرنی ہوگی۔",
+                        "tr": "Kafa karışıklığının bir nedenini bulmalıyız."
+                    }
+                }
+            ],
+            "id": "d03_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Organ filtert das Blut und produziert Urin?",
+                "en": "Which organ filters the blood and produces urine?",
+                "bn": "কোন অঙ্গ রক্ত ​​ফিল্টার করে এবং প্রস্রাব তৈরি করে?",
+                "hi": "कौन सा अंग खून को फिल्टर करता है और मूत्र बनाता है?",
+                "ur": "کون سا عضو خون کو فلٹر کرتا ہے اور پیشاب بناتا ہے؟",
+                "tr": "Hangi organ kanı filtreler ve idrar üretir?"
+            },
+            "options": [
+                "Herz",
+                "Leber",
+                "Niere",
+                "Lunge"
+            ],
+            "correctAnswer": "Niere",
+            "explanation": {
+                "en": "The kidney (Niere) is responsible for filtering blood and producing urine.",
+                "bn": "বৃক্ক (Niere) রক্ত ​​ফিল্টার এবং প্রস্রাব তৈরি করার জন্য দায়ী।",
+                "hi": "गुर्दा (Niere) खून को फिल्टर करने और मूत्र बनाने के लिए जिम्मेदार है।",
+                "ur": "گردہ (Niere) خون کو فلٹر کرنے اور پیشاب بنانے کے لیے ذمہ دار ہے۔",
+                "tr": "Böbrek (Niere) kanı filtrelemek ve idrar üretmekle sorumludur."
+            },
+            "points": 10,
+            "id": "e03_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Organ ist für die Atmung verantwortlich?",
+                "en": "Which organ is responsible for respiration?",
+                "bn": "কোন অঙ্গ শ্বসন জন্য দায়ী?",
+                "hi": "कौन सा अंग श्वसन के लिए जिम्मेदार है?",
+                "ur": "کون سا عضو سانس لینے کا ذمہ دار ہے؟",
+                "tr": "Hangi organ solunumdan sorumludur?"
+            },
+            "options": [
+                "Magen",
+                "Lunge",
+                "Herz",
+                "Leber"
+            ],
+            "correctAnswer": "Lunge",
+            "explanation": {
+                "en": "The lung (Lunge) is the primary organ for respiration, exchanging oxygen and carbon dioxide.",
+                "bn": "ফুসফুস (Lunge) শ্বসনের প্রাথমিক অঙ্গ, অক্সিজেন এবং কার্বন ডাই অক্সাইড আদান প্রদান করে।",
+                "hi": "फेफड़ा (Lunge) श्वसन के लिए प्राथमिक अंग है, ऑक्सीजन और कार्बन डाइऑक्साइड का आदान-प्रदान करता है।",
+                "ur": "پھیپھڑا (Lunge) سانس لینے کا بنیادی عضو ہے، جو آکسیجن اور کاربن ڈائی آکسائیڈ کا تبادلہ کرتا ہے۔",
+                "tr": "Akciğer (Lunge) solunum için birincil organdır, oksijen ve karbondioksiti değiştirir."
+            },
+            "points": 10,
+            "id": "e03_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Organ pumpt Blut durch den Körper?",
+                "en": "Which organ pumps blood throughout the body?",
+                "bn": "কোন অঙ্গ সারা শরীরে রক্ত ​​পাম্প করে?",
+                "hi": "कौन सा अंग पूरे शरीर में खून पंप करता है?",
+                "ur": "کون سا عضو پورے جسم میں خون پمپ کرتا ہے؟",
+                "tr": "Hangi organ vücuda kan pompalar?"
+            },
+            "options": [
+                "Gehirn",
+                "Herz",
+                "Leber",
+                "Darm"
+            ],
+            "correctAnswer": "Herz",
+            "explanation": {
+                "en": "The heart (Herz) is responsible for pumping blood throughout the body.",
+                "bn": "হৃদপিণ্ড (Herz) সারা শরীরে রক্ত ​​পাম্প করার জন্য দায়ী।",
+                "hi": "हृदय (Herz) पूरे शरीर में खून पंप करने के लिए जिम्मेदार है।",
+                "ur": "دل (Herz) پورے جسم میں خون پمپ کرنے کے لیے ذمہ دار ہے۔",
+                "tr": "Kalp (Herz) vücuda kan pompalamakla sorumludur."
+            },
+            "points": 10,
+            "id": "e03_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Organ speichert und konzentriert Urin?",
+                "en": "Which organ stores and concentrates urine?",
+                "bn": "কোন অঙ্গ প্রস্রাব সঞ্চয় এবং ঘনীভূত করে?",
+                "hi": "कौन सा अंग मूत्र का भंडारण और सांद्रण करता है?",
+                "ur": "کون سا عضو پیشاب کو ذخیرہ اور مرتکز کرتا ہے؟",
+                "tr": "Hangi organ idrarı depolar ve konsantre eder?"
+            },
+            "options": [
+                "Magen",
+                "Darm",
+                "Blase",
+                "Leber"
+            ],
+            "correctAnswer": "Blase",
+            "explanation": {
+                "en": "The bladder (Blase) stores and concentrates urine before it is eliminated.",
+                "bn": "মূত্রাশয় (Blase) নিষ্কাশনের আগে প্রস্রাব সঞ্চয় এবং ঘনীভূত করে।",
+                "hi": "मूत्राशय (Blase) निष्कासन से पहले मूत्र का भंडारण और सांद्रण करता है।",
+                "ur": "مثانہ (Blase) خارج ہونے سے پہلے پیشاب کو ذخیرہ اور مرتکز کرتا ہے۔",
+                "tr": "Mesane (Blase) atılmadan önce idrarı depolar ve konsantre eder."
+            },
+            "points": 10,
+            "id": "e03_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Organ verarbeitet und speichert Nährstoffe?",
+                "en": "Which organ processes and stores nutrients?",
+                "bn": "কোন অঙ্গ পুষ্টি উপাদান প্রক্রিয়াকরণ এবং সঞ্চয় করে?",
+                "hi": "कौन सा अंग पोषक तत्वों को संसाधित और संग्रहीत करता है?",
+                "ur": "کون سا عضو غذائی اجزاء پر کارروائی اور ذخیرہ کرتا ہے؟",
+                "tr": "Hangi organ besinleri işler ve depolar?"
+            },
+            "options": [
+                "Niere",
+                "Lunge",
+                "Leber",
+                "Gehirn"
+            ],
+            "correctAnswer": "Leber",
+            "explanation": {
+                "en": "The liver (Leber) is responsible for processing and storing nutrients, as well as detoxifying substances.",
+                "bn": "যকৃত (Leber) পুষ্টি উপাদান প্রক্রিয়াকরণ এবং সঞ্চয় করার পাশাপাশি পদার্থগুলিকে বিষমুক্ত করার জন্য দায়ী।",
+                "hi": "जिगर (Leber) पोषक तत्वों को संसाधित करने और संग्रहीत करने के साथ-साथ पदार्थों को विषहरण करने के लिए जिम्मेदार है।",
+                "ur": "جگر (Leber) غذائی اجزاء پر کارروائی کرنے اور ذخیرہ کرنے کے ساتھ ساتھ زہریلے مادوں کو ختم کرنے کا ذمہ دار ہے۔",
+                "tr": "Karaciğer (Leber), besinleri işlemek ve depolamakla birlikte maddeleri detoksifiye etmekle sorumludur."
+            },
+            "points": 10,
+            "id": "e03_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Organ ist das Kontrollzentrum des Körpers?",
+                "en": "Which organ is the control center of the body?",
+                "bn": "শরীরের নিয়ন্ত্রণ কেন্দ্র কোনটি?",
+                "hi": "शरीर का नियंत्रण केंद्र कौन सा अंग है?",
+                "ur": "جسم کا کنٹرول سینٹر کون سا عضو ہے؟",
+                "tr": "Vücudun kontrol merkezi hangi organdır?"
+            },
+            "options": [
+                "Darm",
+                "Magen",
+                "Gehirn",
+                "Herz"
+            ],
+            "correctAnswer": "Gehirn",
+            "explanation": {
+                "en": "The brain (Gehirn) is the control center of the body, responsible for thought, memory, and movement.",
+                "bn": "মস্তিষ্ক (Gehirn) শরীরের নিয়ন্ত্রণ কেন্দ্র, এটি চিন্তা, স্মৃতি এবং আন্দোলনের জন্য দায়ী।",
+                "hi": "मस्तिष्क (Gehirn) शरीर का नियंत्रण केंद्र है, यह विचार, स्मृति और आंदोलन के लिए जिम्मेदार है।",
+                "ur": "دماغ (Gehirn) جسم کا کنٹرول سینٹر ہے، یہ سوچ، یادداشت اور حرکت کے لیے ذمہ دار ہے۔",
+                "tr": "Beyin (Gehirn), vücudun kontrol merkezidir, düşünce, hafıza ve hareketten sorumludur."
+            },
+            "points": 10,
+            "id": "e03_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "In welchem Organ beginnt die Verdauung hauptsächlich?",
+                "en": "In which organ does digestion mainly begin?",
+                "bn": "কোন অঙ্গে হজম প্রধানত শুরু হয়?",
+                "hi": "किस अंग में पाचन मुख्य रूप से शुरू होता है?",
+                "ur": "کس عضو میں ہضم بنیادی طور پر شروع ہوتا ہے؟",
+                "tr": "Sindirim esas olarak hangi organda başlar?"
+            },
+            "options": [
+                "Darm",
+                "Leber",
+                "Magen",
+                "Niere"
+            ],
+            "correctAnswer": "Magen",
+            "explanation": {
+                "en": "Digestion mainly begins in the stomach (Magen).",
+                "bn": "হজম প্রধানত পাকস্থলীতে (Magen) শুরু হয়।",
+                "hi": "पाचन मुख्य रूप से पेट (Magen) में शुरू होता है।",
+                "ur": "ہاضمہ بنیادی طور پر پیٹ (Magen) میں شروع ہوتا ہے۔",
+                "tr": "Sindirim esas olarak midede (Magen) başlar."
+            },
+            "points": 10,
+            "id": "e03_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Organ nimmt Nährstoffe aus der Nahrung auf?",
+                "en": "Which organ absorbs nutrients from food?",
+                "bn": "খাবার থেকে কোন অঙ্গ পুষ্টি উপাদান শোষণ করে?",
+                "hi": "भोजन से कौन सा अंग पोषक तत्वों को अवशोषित करता है?",
+                "ur": "کھانے سے کون سا عضو غذائی اجزاء کو جذب کرتا ہے؟",
+                "tr": "Hangi organ yiyeceklerden besinleri emer?"
+            },
+            "options": [
+                "Leber",
+                "Magen",
+                "Darm",
+                "Herz"
+            ],
+            "correctAnswer": "Darm",
+            "explanation": {
+                "en": "The intestine (Darm) absorbs nutrients from the digested food.",
+                "bn": "অন্ত্র (Darm) হজম হওয়া খাবার থেকে পুষ্টি উপাদান শোষণ করে।",
+                "hi": "आंत (Darm) पचे हुए भोजन से पोषक तत्वों को अवशोषित करती है।",
+                "ur": "آنت (Darm) ہضم شدہ کھانے سے غذائی اجزاء کو جذب کرتی ہے۔",
+                "tr": "Bağırsak (Darm) sindirilmiş yiyeceklerden besinleri emer."
+            },
+            "points": 10,
+            "id": "e03_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Strukturen ist KEIN Teil des Herzens?",
+                "en": "Which of the following structures is NOT a part of the heart?",
+                "bn": "নিচের কোন গঠনটি হৃদপিণ্ডের অংশ নয়?",
+                "hi": "निम्नलिखित में से कौन सी संरचना हृदय का हिस्सा नहीं है?",
+                "ur": "درج ذیل میں سے کون سا ڈھانچہ دل کا حصہ نہیں ہے؟",
+                "tr": "Aşağıdaki yapılardan hangisi kalbin bir parçası DEĞİLDİR?"
+            },
+            "options": [
+                "Vorhof",
+                "Ventrikel",
+                "Alveole",
+                "Herzklappe"
+            ],
+            "correctAnswer": "Alveole",
+            "explanation": {
+                "en": "Alveoli are part of the lungs, not the heart. Atrium (Vorhof), ventricle (Ventrikel), and heart valve (Herzklappe) are all parts of the heart.",
+                "bn": "অ্যালভিওলি ফুসফুসের অংশ, হৃদপিণ্ডের নয়। অ্যাট্রিয়াম (Vorhof), ভেন্ট্রিকল (Ventrikel), এবং হার্ট ভালভ (Herzklappe) সবই হৃদপিণ্ডের অংশ।",
+                "hi": "एल्वियोली फेफड़ों का हिस्सा हैं, हृदय का नहीं। अटरियम (Vorhof), वेंट्रिकल (Ventrikel), और हृदय वाल्व (Herzklappe) सभी हृदय के भाग हैं।",
+                "ur": "الویولی پھیپھڑوں کا حصہ ہیں، دل کا نہیں۔ ایٹریئم (Vorhof)، وینٹریکل (Ventrikel)، اور دل کا والو (Herzklappe) سب دل کے حصے ہیں۔",
+                "tr": "Alveoller akciğerlerin bir parçasıdır, kalbin değil. Atriyum (Vorhof), ventrikül (Ventrikel) ve kalp kapağı (Herzklappe) kalbin parçalarıdır."
+            },
+            "points": 10,
+            "id": "e03_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist die medizinische Bezeichnung für eine Entzündung der Leber?",
+                "en": "What is the medical term for inflammation of the liver?",
+                "bn": "লিভারের প্রদাহের চিকিৎসা পরিভাষা কী?",
+                "hi": "यकृत की सूजन के लिए चिकित्सा शब्द क्या है?",
+                "ur": "جگر کی سوزش کے لیے طبی اصطلاح کیا ہے؟",
+                "tr": "Karaciğer iltihabının tıbbi terimi nedir?"
+            },
+            "options": [
+                "Gastritis",
+                "Nephritis",
+                "Hepatitis",
+                "Bronchitis"
+            ],
+            "correctAnswer": "Hepatitis",
+            "explanation": {
+                "en": "Hepatitis is the medical term for inflammation of the liver.",
+                "bn": "হেপাটাইটিস হল লিভারের প্রদাহের চিকিৎসা পরিভাষা।",
+                "hi": "हेपेटाइटिस यकृत की सूजन के लिए चिकित्सा शब्द है।",
+                "ur": "ہیپاٹائٹس جگر کی سوزش کے لیے طبی اصطلاح ہے۔",
+                "tr": "Hepatit, karaciğer iltihabının tıbbi terimidir."
+            },
+            "points": 10,
+            "id": "e03_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die Hauptfunktion der ______ ist die Verarbeitung von Informationen.",
+                "en": "The main function of the ______ is to process information.",
+                "bn": "______-এর প্রধান কাজ তথ্য প্রক্রিয়াকরণ করা।",
+                "hi": "______ का मुख्य कार्य जानकारी संसाधित करना है।",
+                "ur": "______ کا بنیادی کام معلومات پر کارروائی کرنا ہے۔",
+                "tr": "______'nın ana işlevi bilgiyi işlemektir."
+            },
+            "options": [],
+            "correctAnswer": "Gehirn",
+            "explanation": {
+                "en": "The brain (Gehirn) is responsible for processing information.",
+                "bn": "মস্তিষ্ক (Gehirn) তথ্য প্রক্রিয়াকরণের জন্য দায়ী।",
+                "hi": "मस्तिष्क (Gehirn) जानकारी संसाधित करने के लिए जिम्मेदार है।",
+                "ur": "دماغ (Gehirn) معلومات پر کارروائی کرنے کے لیے ذمہ دار ہے۔",
+                "tr": "Beyin (Gehirn) bilgiyi işlemekle sorumludur."
+            },
+            "points": 10,
+            "id": "e03_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Der ______ ist ein muskuläres Organ, das Blut pumpt.",
+                "en": "The ______ is a muscular organ that pumps blood.",
+                "bn": "______ একটি পেশীবহুল অঙ্গ যা রক্ত পাম্প করে।",
+                "hi": "______ एक मांसपेशीय अंग है जो रक्त पंप करता है।",
+                "ur": "______ ایک پٹھوں کا عضو ہے جو خون پمپ کرتا ہے۔",
+                "tr": "______ kan pompalayan kaslı bir organdır."
+            },
+            "options": [],
+            "correctAnswer": "Herz",
+            "explanation": {
+                "en": "The heart (Herz) is a muscular organ that pumps blood.",
+                "bn": "হৃদপিণ্ড (Herz) একটি পেশীবহুল অঙ্গ যা রক্ত পাম্প করে।",
+                "hi": "हृदय (Herz) एक मांसपेशीय अंग है जो रक्त पंप करता है।",
+                "ur": "دل (Herz) ایک پٹھوں کا عضو ہے جو خون پمپ کرتا ہے۔",
+                "tr": "Kalp (Herz) kan pompalayan kaslı bir organdır."
+            },
+            "points": 10,
+            "id": "e03_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die ______ filtern das Blut und entfernen Abfallprodukte.",
+                "en": "The ______ filter the blood and remove waste products.",
+                "bn": "______ রক্ত ​​ফিল্টার করে এবং বর্জ্য পদার্থ অপসারণ করে।",
+                "hi": "______ खून को फिल्टर करते हैं और अपशिष्ट उत्पादों को हटाते हैं।",
+                "ur": "______ خون کو فلٹر کرتے ہیں اور فضلہ کی مصنوعات کو ہٹاتے ہیں۔",
+                "tr": "______ kanı filtreler ve atık ürünleri uzaklaştırır."
+            },
+            "options": [],
+            "correctAnswer": "Nieren",
+            "explanation": {
+                "en": "The kidneys (Nieren) filter the blood and remove waste products.",
+                "bn": "বৃক্ক (Nieren) রক্ত ​​ফিল্টার করে এবং বর্জ্য পদার্থ অপসারণ করে।",
+                "hi": "गुर्दे (Nieren) खून को फिल्टर करते हैं और अपशिष्ट उत्पादों को हटाते हैं।",
+                "ur": "گردے (Nieren) خون کو فلٹر کرتے ہیں اور فضلہ کی مصنوعات کو ہٹاتے ہیں۔",
+                "tr": "Böbrekler (Nieren) kanı filtreler ve atık ürünleri uzaklaştırır."
+            },
+            "points": 10,
+            "id": "e03_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Der ______ ist für die Produktion von Galle verantwortlich.",
+                "en": "The ______ is responsible for the production of bile.",
+                "bn": "______ পিত্ত উৎপাদনের জন্য দায়ী।",
+                "hi": "______ पित्त के उत्पादन के लिए जिम्मेदार है।",
+                "ur": "______ پت پیدا کرنے کا ذمہ دار ہے۔",
+                "tr": "______ safra üretiminden sorumludur."
+            },
+            "options": [],
+            "correctAnswer": "Leber",
+            "explanation": {
+                "en": "The liver (Leber) is responsible for the production of bile.",
+                "bn": "যকৃত (Leber) পিত্ত উৎপাদনের জন্য দায়ী।",
+                "hi": "जिगर (Leber) पित्त के उत्पादन के लिए जिम्मेदार है।",
+                "ur": "جگر (Leber) پت پیدا کرنے کا ذمہ دار ہے۔",
+                "tr": "Karaciğer (Leber) safra üretiminden sorumludur."
+            },
+            "points": 10,
+            "id": "e03_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "In der ______ findet die Aufnahme der meisten Nährstoffe statt.",
+                "en": "The absorption of most nutrients takes place in the ______.",
+                "bn": "অধিকাংশ পুষ্টির শোষণ ______-এ ঘটে।",
+                "hi": "अधिकांश पोषक तत्वों का अवशोषण ______ में होता है।",
+                "ur": "زیادہ تر غذائی اجزاء کا جذب ______ میں ہوتا ہے۔",
+                "tr": "Çoğu besinin emilimi ______'de gerçekleşir."
+            },
+            "options": [],
+            "correctAnswer": "Darm",
+            "explanation": {
+                "en": "The absorption of most nutrients takes place in the intestine (Darm).",
+                "bn": "অধিকাংশ পুষ্টির শোষণ অন্ত্রে (Darm) ঘটে।",
+                "hi": "अधिकांश पोषक तत्वों का अवशोषण आंत (Darm) में होता है।",
+                "ur": "زیادہ تر غذائی اجزاء کا جذب آنت (Darm) میں ہوتا ہے۔",
+                "tr": "Çoğu besinin emilimi bağırsakta (Darm) gerçekleşir."
+            },
+            "points": 10,
+            "id": "e03_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Leber ist ein wichtiges Organ für die Entgiftung des Körpers.",
+                "en": "The liver is an important organ for the detoxification of the body.",
+                "bn": "যকৃত শরীরের ডিটক্সিফিকেশনের জন্য একটি গুরুত্বপূর্ণ অঙ্গ।",
+                "hi": "यकृत शरीर के विषहरण के लिए एक महत्वपूर्ण अंग है।",
+                "ur": "جگر جسم کے زہریلے مادوں کو ختم کرنے کے لیے ایک اہم عضو ہے۔",
+                "tr": "Karaciğer, vücudun detoksifikasyonu için önemli bir organdır."
+            },
+            "options": [],
+            "correctAnswer": "The liver is an important organ for the detoxification of the body.",
+            "explanation": {
+                "en": "Correct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সঠিক অনুবাদ।",
+                "hi": "जर्मन वाक्य का सही अनुवाद।",
+                "ur": "جرمن جملے کا درست ترجمہ۔",
+                "tr": "Alman cümlenin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e03_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Lunge ermöglicht den Gasaustausch.",
+                "en": "The lungs facilitate gas exchange.",
+                "bn": "ফুসফুস গ্যাস বিনিময় সম্ভব করে।",
+                "hi": "फेफड़े गैस विनिमय को सक्षम करते हैं।",
+                "ur": "پھیپھڑے گیس کے تبادلے کو ممکن بناتے ہیں۔",
+                "tr": "Akciğerler gaz alışverişini sağlar."
+            },
+            "options": [],
+            "correctAnswer": "The lungs facilitate gas exchange.",
+            "explanation": {
+                "en": "Correct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সঠিক অনুবাদ।",
+                "hi": "जर्मन वाक्य का सही अनुवाद।",
+                "ur": "جرمن جملے کا درست ترجمہ۔",
+                "tr": "Alman cümlenin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e03_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Das Gehirn steuert viele Körperfunktionen.",
+                "en": "The brain controls many bodily functions.",
+                "bn": "মস্তিষ্ক শরীরের অনেক কার্যক্রম নিয়ন্ত্রণ করে।",
+                "hi": "मस्तिष्क शरीर के कई कार्यों को नियंत्रित करता है।",
+                "ur": "دماغ جسم کے بہت سے افعال کو کنٹرول کرتا ہے۔",
+                "tr": "Beyin birçok vücut fonksiyonunu kontrol eder."
+            },
+            "options": [],
+            "correctAnswer": "The brain controls many bodily functions.",
+            "explanation": {
+                "en": "Correct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সঠিক অনুবাদ।",
+                "hi": "जर्मन वाक्य का सही अनुवाद।",
+                "ur": "جرمن جملے کا درست ترجمہ۔",
+                "tr": "Alman cümlenin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e03_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

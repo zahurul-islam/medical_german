@@ -1,1 +1,1570 @@
-{"id":"section_54","phaseId":"phase3","order":54,"titleDe":"Palliativmedizin","title":{"en":"Palliative Care","bn":"Palliative Care","hi":"Palliative Care","ur":"Palliative Care","tr":"Palliative Care"},"level":"C1","estimatedMinutes":45,"vocabulary":[{"id":"v54_01","germanTerm":"Fachwort","article":"das","plural":"Fachwörter","translation":{"en":"Specialist Term","bn":"বিশেষজ্ঞ শব্দ","hi":"विशेषज्ञ शब्द","ur":"ماہر اصطلاح","tr":"Uzman terimi"}}],"dialogues":[{"id":"d54_01","title":{"en":"Palliative Care Scenario"},"lines":[{"speaker":"Facharzt","germanText":"Clinical dialogue for Palliative Care.","translation":{"en":"Clinical dialogue for Palliative Care."}}]}],"exercises":[{"id":"e54_01","type":"multipleChoice","question":{"en":"Question about Palliative Care?"},"options":["A","B","C"],"correctAnswer":"A","points":15}],"media":{"introVideoUrl":"video/sections/section_54/intro.mp4","dialogueVideoUrl":"video/sections/section_54/dialogue.mp4"}}
+{
+    "id": "section_54",
+    "phaseId": "phase3",
+    "order": 54,
+    "titleDe": "Palliativmedizin",
+    "title": {
+        "en": "Palliative Care: Pain Management, Symptom Control, and Quality of Life",
+        "bn": "উপশমকারী যত্ন: ব্যথা ব্যবস্থাপনা, উপসর্গ নিয়ন্ত্রণ এবং জীবনের মান",
+        "hi": "शामक देखभाल: दर्द प्रबंधन, लक्षण नियंत्रण और जीवन की गुणवत्ता",
+        "ur": "تسکین بخش نگہداشت: درد کا انتظام، علامات پر قابو اور معیار زندگی",
+        "tr": "Palyatif Bakım: Ağrı Yönetimi, Semptom Kontrolü ve Yaşam Kalitesi",
+        "de": "Palliativversorgung: Schmerztherapie, Symptomkontrolle und Lebensqualität"
+    },
+    "description": {
+        "en": "This section explores the principles of palliative care, focusing on pain management, symptom control, and improving the quality of life for patients with life-limiting illnesses.",
+        "bn": "এই বিভাগে উপশমকারী যত্নের নীতিগুলি অনুসন্ধান করা হয়েছে, যা ব্যথা ব্যবস্থাপনা, উপসর্গ নিয়ন্ত্রণ এবং জীবন সীমিতকারী অসুস্থতাযুক্ত রোগীদের জীবনের মান উন্নত করার উপর দৃষ্টি নিবদ্ধ করে।",
+        "hi": "यह अनुभाग प्रशामक देखभाल के सिद्धांतों का पता लगाता है, जिसमें दर्द प्रबंधन, लक्षण नियंत्रण और जीवन को सीमित करने वाली बीमारियों वाले रोगियों के जीवन की गुणवत्ता में सुधार पर ध्यान केंद्रित किया गया है।",
+        "ur": "یہ سیکشن تسکین بخش نگہداشت کے اصولوں کی کھوج کرتا ہے، درد کے انتظام، علامات پر قابو پانے اور زندگی کو محدود کرنے والی بیماریوں کے مریضوں کے معیار زندگی کو بہتر بنانے پر توجہ مرکوز کرتا ہے۔",
+        "tr": "Bu bölüm, palyatif bakımın prensiplerini araştırır; ağrı yönetimi, semptom kontrolü ve yaşamı tehdit eden hastalıkları olan hastaların yaşam kalitesini iyileştirmeye odaklanır.",
+        "de": "Dieser Abschnitt untersucht die Prinzipien der Palliativversorgung mit Fokus auf Schmerztherapie, Symptomkontrolle und die Verbesserung der Lebensqualität von Patienten mit lebenslimitierenden Erkrankungen."
+    },
+    "level": "C1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, you will learn about the core concepts of palliative care, including pain management strategies and symptom control techniques. We will also explore the importance of quality of life and the role of hospice care in Germany.",
+            "bn": "এই বিভাগে, আপনি উপশমকারী যত্নের মূল ধারণাগুলি সম্পর্কে শিখবেন, যার মধ্যে ব্যথা ব্যবস্থাপনার কৌশল এবং উপসর্গ নিয়ন্ত্রণের কৌশল অন্তর্ভুক্ত রয়েছে। আমরা জার্মানিতে জীবনের মান এবং হসপিস যত্নের ভূমিকাও অন্বেষণ করব।",
+            "hi": "इस खंड में, आप दर्द प्रबंधन रणनीतियों और लक्षण नियंत्रण तकनीकों सहित प्रशामक देखभाल की मूल अवधारणाओं के बारे में जानेंगे। हम जर्मनी में जीवन की गुणवत्ता और धर्मशाला देखभाल की भूमिका का भी पता लगाएंगे।",
+            "ur": "اس حصے میں، آپ درد کے انتظام کی حکمت عملیوں اور علامات پر قابو پانے کی تکنیکوں سمیت تسکین بخش نگہداشت کے بنیادی تصورات کے بارے میں جانیں گے۔ ہم جرمنی میں معیار زندگی اور ہاسپیس کیئر کے کردار کو بھی تلاش کریں گے۔",
+            "tr": "Bu bölümde, ağrı yönetimi stratejileri ve semptom kontrol teknikleri dahil olmak üzere palyatif bakımın temel kavramlarını öğreneceksiniz. Ayrıca Almanya'da yaşam kalitesinin önemini ve huzurevi bakımının rolünü de inceleyeceğiz.",
+            "de": "In diesem Abschnitt lernen Sie die Kernkonzepte der Palliativversorgung kennen, einschließlich Strategien zur Schmerztherapie und Techniken zur Symptomkontrolle. Wir werden auch die Bedeutung der Lebensqualität und die Rolle der Hospizversorgung in Deutschland untersuchen."
+        },
+        "grammarFocus": {
+            "en": [
+                "Understanding and using the correct German terms for pain assessment scales (e.g., VAS, NRS).",
+                "Practicing accurate and sensitive communication with patients and families using modal verbs (können, dürfen, sollen, müssen) when discussing treatment options."
+            ],
+            "bn": [
+                "ব্যথা মূল্যায়ন স্কেলের জন্য সঠিক জার্মান শব্দ বোঝা এবং ব্যবহার করা (যেমন, VAS, NRS)।",
+                "চিকিৎসা বিকল্প নিয়ে আলোচনা করার সময় মোডাল ক্রিয়া (können, dürfen, sollen, müssen) ব্যবহার করে রোগী এবং পরিবারের সাথে নির্ভুল এবং সংবেদনশীল যোগাযোগ অনুশীলন করা।"
+            ],
+            "hi": [
+                "दर्द मूल्यांकन तराजू (जैसे, VAS, NRS) के लिए सही जर्मन शब्दों को समझना और उपयोग करना।",
+                "उपचार विकल्पों पर चर्चा करते समय मोडल क्रियाओं (können, dürfen, sollen, müssen) का उपयोग करके रोगियों और परिवारों के साथ सटीक और संवेदनशील संचार का अभ्यास करना।"
+            ],
+            "ur": [
+                "درد کی تشخیص کے ترازو (مثلاً VAS, NRS) کے لیے درست جرمن الفاظ کو سمجھنا اور استعمال کرنا۔",
+                "علاج کے اختیارات پر بات کرتے وقت ماڈل فعل (können, dürfen, sollen, müssen) کا استعمال کرتے ہوئے مریضوں اور اہل خانہ کے ساتھ درست اور حساس مواصلات کی مشق کرنا۔"
+            ],
+            "tr": [
+                "Ağrı değerlendirme ölçekleri için doğru Almanca terimleri (örneğin, VAS, NRS) anlamak ve kullanmak.",
+                "Tedavi seçeneklerini tartışırken modal fiiller (können, dürfen, sollen, müssen) kullanarak hastalar ve ailelerle doğru ve hassas iletişim kurmak."
+            ],
+            "de": [
+                "Das Verständnis und die Verwendung der korrekten deutschen Begriffe für Schmerzskalen (z.B. VAS, NRS).",
+                "Das Üben einer genauen und einfühlsamen Kommunikation mit Patienten und Familien unter Verwendung von Modalverben (können, dürfen, sollen, müssen) bei der Diskussion von Behandlungsoptionen."
+            ]
+        },
+        "culturalNotes": {
+            "en": "In German hospitals, there is a strong emphasis on patient autonomy and informed consent regarding treatment options, especially in palliative care settings.",
+            "bn": "জার্মান হাসপাতালগুলিতে, রোগীর স্বায়ত্তশাসন এবং চিকিত্সার বিকল্পগুলির বিষয়ে সচেতন সম্মতির উপর একটি দৃঢ় জোর দেওয়া হয়, বিশেষ করে উপশমকারী যত্নের পরিস্থিতিতে।",
+            "hi": "जर्मन अस्पतालों में, विशेष रूप से प्रशामक देखभाल सेटिंग्स में, रोगी की स्वायत्तता और उपचार विकल्पों के बारे में सूचित सहमति पर एक मजबूत जोर दिया गया है।",
+            "ur": "جرمن اسپتالوں میں، مریض کی خود مختاری اور علاج کے اختیارات کے بارے میں باخبر رضامندی پر ایک مضبوط زور دیا جاتا ہے، خاص طور پر تسکین بخش نگہداشت کی ترتیبات میں۔",
+            "tr": "Alman hastanelerinde, özellikle palyatif bakım ortamlarında, hasta özerkliğine ve tedavi seçenekleri konusunda bilgilendirilmiş onama büyük önem verilmektedir.",
+            "de": "In deutschen Krankenhäusern wird grosser Wert auf die Autonomie des Patienten und die informierte Einwilligung in Bezug auf Behandlungsoptionen gelegt, insbesondere in der Palliativversorgung."
+        },
+        "summary": {
+            "en": "Understanding palliative care principles and effectively communicating with patients is crucial for providing comprehensive and compassionate care.",
+            "bn": "বিস্তৃত এবং সহানুভূতিশীল যত্ন প্রদানের জন্য উপশমকারী যত্নের নীতিগুলি বোঝা এবং রোগীদের সাথে কার্যকরভাবে যোগাযোগ করা অত্যন্ত গুরুত্বপূর্ণ।",
+            "hi": "व्यापक और दयालु देखभाल प्रदान करने के लिए प्रशामक देखभाल सिद्धांतों को समझना और रोगियों के साथ प्रभावी ढंग से संवाद करना महत्वपूर्ण है।",
+            "ur": "جامع اور ہمدردانہ نگہداشت فراہم کرنے کے لیے تسکین بخش نگہداشت کے اصولوں کو سمجھنا اور مریضوں کے ساتھ مؤثر طریقے سے بات چیت کرنا بہت ضروری ہے۔",
+            "tr": "Kapsamlı ve şefkatli bakım sağlamak için palyatif bakım prensiplerini anlamak ve hastalarla etkili bir şekilde iletişim kurmak çok önemlidir.",
+            "de": "Das Verständnis der Prinzipien der Palliativversorgung und die effektive Kommunikation mit den Patienten sind entscheidend für eine umfassende und mitfühlende Betreuung."
+        },
+        "learningObjectives": [
+            "Identify the key components of palliative care in the German healthcare system.",
+            "Apply appropriate German vocabulary related to pain assessment and symptom management.",
+            "Demonstrate culturally sensitive communication skills when discussing end-of-life care with patients and their families.",
+            "Compare and contrast palliative care and hospice care in the German context."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "Palliativmedizin",
+            "article": "die",
+            "plural": "Palliativmedizin",
+            "pronunciation": "/ˌpali̯atiːfmediˈtsiːn/",
+            "category": "noun",
+            "translation": {
+                "en": "Palliative medicine",
+                "bn": "উপশমকারী ঔষধ",
+                "hi": "शामक दवा",
+                "ur": "تسکین دہندہ دوا",
+                "tr": "Palyatif tıp"
+            },
+            "exampleSentence": "Die Palliativmedizin konzentriert sich auf die Verbesserung der Lebensqualität.",
+            "exampleTranslation": {
+                "en": "Palliative medicine focuses on improving the quality of life.",
+                "bn": "উপশমকারী ঔষধ জীবনের মান উন্নত করার উপর মনোযোগ দেয়।",
+                "hi": "शामक दवा जीवन की गुणवत्ता में सुधार पर ध्यान केंद्रित करती है।",
+                "ur": "تسکین دہندہ دوا زندگی کے معیار کو بہتر بنانے پر توجہ مرکوز کرتی ہے۔",
+                "tr": "Palyatif tıp yaşam kalitesini iyileştirmeye odaklanır."
+            },
+            "id": "v54_01"
+        },
+        {
+            "germanTerm": "Schmerztherapie",
+            "article": "die",
+            "plural": "Schmerztherapien",
+            "pronunciation": "/ˈʃmɛʁt͡sˌteːʁapiː/",
+            "category": "noun",
+            "translation": {
+                "en": "Pain therapy",
+                "bn": "ব্যথা থেরাপি",
+                "hi": "दर्द चिकित्सा",
+                "ur": "درد کا علاج",
+                "tr": "Ağrı terapisi"
+            },
+            "exampleSentence": "Die Schmerztherapie ist ein wichtiger Bestandteil der Palliativversorgung.",
+            "exampleTranslation": {
+                "en": "Pain therapy is an important part of palliative care.",
+                "bn": "ব্যথা থেরাপি উপশমকারী যত্নের একটি গুরুত্বপূর্ণ অংশ।",
+                "hi": "दर्द चिकित्सा उपशामक देखभाल का एक महत्वपूर्ण हिस्सा है।",
+                "ur": "درد کا علاج تسکین دہندہ نگہداشت کا ایک اہم حصہ ہے۔",
+                "tr": "Ağrı terapisi, palyatif bakımın önemli bir parçasıdır."
+            },
+            "id": "v54_02"
+        },
+        {
+            "germanTerm": "Symptomkontrolle",
+            "article": "die",
+            "plural": "Symptomkontrollen",
+            "pronunciation": "/zʏmˈptoːmkɔnˌtʁɔlə/",
+            "category": "noun",
+            "translation": {
+                "en": "Symptom control",
+                "bn": "লক্ষণ নিয়ন্ত্রণ",
+                "hi": "लक्षण नियंत्रण",
+                "ur": "علامات کا کنٹرول",
+                "tr": "Semptom kontrolü"
+            },
+            "exampleSentence": "Eine gute Symptomkontrolle kann die Lebensqualität erheblich verbessern.",
+            "exampleTranslation": {
+                "en": "Good symptom control can significantly improve the quality of life.",
+                "bn": "ভাল লক্ষণ নিয়ন্ত্রণ জীবনের মান উল্লেখযোগ্যভাবে উন্নত করতে পারে।",
+                "hi": "अच्छा लक्षण नियंत्रण जीवन की गुणवत्ता में काफी सुधार कर सकता है।",
+                "ur": "اچھی علامات کا کنٹرول زندگی کے معیار کو نمایاں طور پر بہتر بنا سکتا ہے۔",
+                "tr": "İyi semptom kontrolü yaşam kalitesini önemli ölçüde artırabilir."
+            },
+            "id": "v54_03"
+        },
+        {
+            "germanTerm": "Lebensqualität",
+            "article": "die",
+            "plural": "Lebensqualitäten",
+            "pronunciation": "/ˈleːbənskvalɪˌtɛːt/",
+            "category": "noun",
+            "translation": {
+                "en": "Quality of life",
+                "bn": "জীবনযাত্রার মান",
+                "hi": "जीवन की गुणवत्ता",
+                "ur": "زندگی کا معیار",
+                "tr": "Yaşam kalitesi"
+            },
+            "exampleSentence": "Die Verbesserung der Lebensqualität steht im Vordergrund der palliativen Versorgung.",
+            "exampleTranslation": {
+                "en": "Improving the quality of life is the focus of palliative care.",
+                "bn": "জীবনযাত্রার মান উন্নত করা উপশমকারী যত্নের মূল লক্ষ্য।",
+                "hi": "जीवन की गुणवत्ता में सुधार करना उपशामक देखभाल का मुख्य लक्ष्य है।",
+                "ur": "زندگی کے معیار کو بہتر بنانا تسکین دہندہ نگہداشت کا بنیادی مقصد ہے۔",
+                "tr": "Yaşam kalitesini iyileştirmek, palyatif bakımın temel amacıdır."
+            },
+            "id": "v54_04"
+        },
+        {
+            "germanTerm": "Hospiz",
+            "article": "das",
+            "plural": "Hospize",
+            "pronunciation": "/ˈhɔspiːt͡s/",
+            "category": "noun",
+            "translation": {
+                "en": "Hospice",
+                "bn": "হসপিস",
+                "hi": "धर्मशाला",
+                "ur": "حسپتال",
+                "tr": "Hospis"
+            },
+            "exampleSentence": "Der Patient wurde ins Hospiz überwiesen, um dort betreut zu werden.",
+            "exampleTranslation": {
+                "en": "The patient was transferred to the hospice to be cared for.",
+                "bn": "রোগীকে পরিচর্যা করার জন্য হসপিজে স্থানান্তর করা হয়েছে।",
+                "hi": "मरीज को देखभाल के लिए धर्मशाला में स्थानांतरित कर दिया गया है।",
+                "ur": "مریض کو دیکھ بھال کے لیے حسپتال منتقل کر دیا گیا ہے۔",
+                "tr": "Hasta bakımı için hospise nakledildi."
+            },
+            "id": "v54_05"
+        },
+        {
+            "germanTerm": "palliative Versorgung",
+            "article": "die",
+            "plural": "palliative Versorgungen",
+            "pronunciation": "/ˌpali̯atiːf fɛɐ̯ˈzɔʁɡʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "Palliative care",
+                "bn": "উপশমকারী যত্ন",
+                "hi": "उपशामक देखभाल",
+                "ur": "تسکین دہندہ دیکھ بھال",
+                "tr": "Palyatif bakım"
+            },
+            "exampleSentence": "Wir bieten palliative Versorgung für Patienten mit unheilbaren Krankheiten.",
+            "exampleTranslation": {
+                "en": "We offer palliative care for patients with incurable diseases.",
+                "bn": "আমরা দুরারোগ্য রোগে আক্রান্ত রোগীদের জন্য উপশমকারী যত্ন প্রদান করি।",
+                "hi": "हम लाइलाज बीमारियों वाले मरीजों के लिए उपशामक देखभाल प्रदान करते हैं।",
+                "ur": "ہم لاعلاج بیماریوں والے مریضوں کے لیے تسکین دہندہ دیکھ بھال فراہم کرتے ہیں۔",
+                "tr": "Tedavisi olmayan hastalıklara sahip hastalara palyatif bakım sunuyoruz."
+            },
+            "id": "v54_06"
+        },
+        {
+            "germanTerm": "Würde",
+            "article": "die",
+            "plural": "Würden",
+            "pronunciation": "/ˈvʏʁdə/",
+            "category": "noun",
+            "translation": {
+                "en": "Dignity",
+                "bn": "মর্যাদা",
+                "hi": "गरिमा",
+                "ur": "وقار",
+                "tr": "Haysiyet"
+            },
+            "exampleSentence": "Es ist wichtig, die Würde des Patienten bis zum Ende zu wahren.",
+            "exampleTranslation": {
+                "en": "It is important to preserve the patient's dignity until the end.",
+                "bn": "শেষ পর্যন্ত রোগীর মর্যাদা রক্ষা করা গুরুত্বপূর্ণ।",
+                "hi": "मरीज की गरिमा को अंत तक बनाए रखना महत्वपूर्ण है।",
+                "ur": "مریض کے وقار کو آخر تک برقرار رکھنا اہم ہے۔",
+                "tr": "Hastanın haysiyetini sonuna kadar korumak önemlidir."
+            },
+            "id": "v54_07"
+        },
+        {
+            "germanTerm": "Sterbebegleitung",
+            "article": "die",
+            "plural": "Sterbebegleitungen",
+            "pronunciation": "/ˈʃtɛʁbəbəˌɡlaɪ̯tʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "End-of-life care",
+                "bn": "জীবনাবসানের যত্ন",
+                "hi": "जीवन के अंत की देखभाल",
+                "ur": "زندگی کے خاتمے کی دیکھ بھال",
+                "tr": "Ömür sonu bakımı"
+            },
+            "exampleSentence": "Die Sterbebegleitung umfasst sowohl medizinische als auch psychologische Unterstützung.",
+            "exampleTranslation": {
+                "en": "End-of-life care includes both medical and psychological support.",
+                "bn": "জীবনাবসানের যত্নে চিকিৎসা এবং মনস্তাত্ত্বিক উভয় সমর্থন অন্তর্ভুক্ত।",
+                "hi": "जीवन के अंत की देखभाल में चिकित्सा और मनोवैज्ञानिक दोनों तरह का समर्थन शामिल है।",
+                "ur": "زندگی کے خاتمے کی دیکھ بھال میں طبی اور نفسیاتی دونوں طرح کی مدد شامل ہے۔",
+                "tr": "Ömür sonu bakımı hem tıbbi hem de psikolojik desteği içerir."
+            },
+            "id": "v54_08"
+        },
+        {
+            "germanTerm": "Atemnot",
+            "article": "die",
+            "plural": "Atemnöte",
+            "pronunciation": "/ˈaːtəmˌnoːt/",
+            "category": "noun",
+            "translation": {
+                "en": "Dyspnea",
+                "bn": "শ্বাসকষ্ট",
+                "hi": "सांस लेने में कठिनाई",
+                "ur": "سانس لینے میں دشواری",
+                "tr": "Dispne"
+            },
+            "exampleSentence": "Bei starker Atemnot erhält der Patient Sauerstoff.",
+            "exampleTranslation": {
+                "en": "The patient receives oxygen in case of severe dyspnea.",
+                "bn": "তীব্র শ্বাসকষ্ট হলে রোগীকে অক্সিজেন দেওয়া হয়।",
+                "hi": "गंभीर सांस लेने में कठिनाई होने पर मरीज को ऑक्सीजन दी जाती है।",
+                "ur": "سخت سانس لینے میں دشواری ہونے پر مریض کو آکسیجن دی جاتی ہے۔",
+                "tr": "Şiddetli dispne durumunda hastaya oksijen verilir."
+            },
+            "id": "v54_09"
+        },
+        {
+            "germanTerm": "Übelkeit",
+            "article": "die",
+            "plural": "Übelkeiten",
+            "pronunciation": "/ˈyːbl̩kaɪ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "Nausea",
+                "bn": "বমি বমি ভাব",
+                "hi": "मतली",
+                "ur": "متلی",
+                "tr": "Mide bulantısı"
+            },
+            "exampleSentence": "Gegen die Übelkeit verschreiben wir ein Antiemetikum.",
+            "exampleTranslation": {
+                "en": "We prescribe an antiemetic for the nausea.",
+                "bn": "বমি বমি ভাবের জন্য আমরা একটি অ্যান্টিমেটিক লিখে দিই।",
+                "hi": "हम मतली के लिए एक एंटीमेटिक लिखते हैं।",
+                "ur": "ہم متلی کے لیے ایک اینٹی میٹک لکھتے ہیں۔",
+                "tr": "Mide bulantısı için bir antiemetik yazıyoruz."
+            },
+            "id": "v54_10"
+        },
+        {
+            "germanTerm": "Erbrechen",
+            "article": "das",
+            "plural": "kein Plural",
+            "pronunciation": "/ɛɐ̯ˈbʁɛçən/",
+            "category": "noun",
+            "translation": {
+                "en": "Vomiting",
+                "bn": "বমি",
+                "hi": "उल्टी",
+                "ur": "الٹی",
+                "tr": "Kusma"
+            },
+            "exampleSentence": "Starkes Erbrechen kann zu Dehydration führen.",
+            "exampleTranslation": {
+                "en": "Severe vomiting can lead to dehydration.",
+                "bn": "তীব্র বমি ডিহাইড্রেশন হতে পারে।",
+                "hi": "तेज उल्टी से डिहाइड्रेशन हो सकता है।",
+                "ur": "تیز الٹی سے ڈی ہائیڈریشن ہو سکتا ہے۔",
+                "tr": "Şiddetli kusma dehidrasyona yol açabilir."
+            },
+            "id": "v54_11"
+        },
+        {
+            "germanTerm": "Appetitlosigkeit",
+            "article": "die",
+            "plural": "Appetitlosigkeiten",
+            "pronunciation": "/apəˈtiːtloːzɪçkaɪ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "Loss of appetite",
+                "bn": "ক্ষুধামান্দ্য",
+                "hi": "भूख में कमी",
+                "ur": "بھوک کی کمی",
+                "tr": "İştahsızlık"
+            },
+            "exampleSentence": "Die Appetitlosigkeit ist eine häufige Nebenwirkung der Chemotherapie.",
+            "exampleTranslation": {
+                "en": "Loss of appetite is a common side effect of chemotherapy.",
+                "bn": "ক্ষুধামান্দ্য কেমোথেরাপির একটি সাধারণ পার্শ্ব প্রতিক্রিয়া।",
+                "hi": "भूख में कमी कीमोथेरेपी का एक आम दुष्प्रभाव है।",
+                "ur": "بھوک کی کمی کیموتھراپی کا ایک عام ضمنی اثر ہے۔",
+                "tr": "İştahsızlık kemoterapinin yaygın bir yan etkisidir."
+            },
+            "id": "v54_12"
+        },
+        {
+            "germanTerm": "Obstipation",
+            "article": "die",
+            "plural": "Obstipationen",
+            "pronunciation": "/ɔpstiˈpaːt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "Constipation",
+                "bn": "কোষ্ঠকাঠিন্য",
+                "hi": "कब्ज",
+                "ur": "قبض",
+                "tr": "Kabızlık"
+            },
+            "exampleSentence": "Zur Behandlung der Obstipation erhält der Patient ein Laxativ.",
+            "exampleTranslation": {
+                "en": "The patient receives a laxative to treat the constipation.",
+                "bn": "কোষ্ঠকাঠিন্য নিরাময়ের জন্য রোগীকে একটি জোলাপ দেওয়া হয়।",
+                "hi": "कब्ज के इलाज के लिए मरीज को एक जुलाब मिलता है।",
+                "ur": "قبض کے علاج کے لیے مریض کو ایک جلاب ملتا ہے۔",
+                "tr": "Kabızlığı tedavi etmek için hastaya bir müshil verilir."
+            },
+            "id": "v54_13"
+        },
+        {
+            "germanTerm": "Dekubitus",
+            "article": "der",
+            "plural": "Dekubiti",
+            "pronunciation": "/dekuˈbiːtʊs/",
+            "category": "noun",
+            "translation": {
+                "en": "Pressure ulcer",
+                "bn": "প্রেশার আলসার",
+                "hi": "दबाव अल्सर",
+                "ur": "پریشر السر",
+                "tr": "Bası yarası"
+            },
+            "exampleSentence": "Ein Dekubitus kann durch regelmäßiges Umlagern vermieden werden.",
+            "exampleTranslation": {
+                "en": "A pressure ulcer can be avoided by regular repositioning.",
+                "bn": "নিয়মিত অবস্থানের পরিবর্তনের মাধ্যমে একটি প্রেশার আলসার এড়ানো যায়।",
+                "hi": "नियमित रूप से स्थिति बदलने से दबाव अल्सर से बचा जा सकता है।",
+                "ur": "باقاعدگی سے پوزیشن بدلنے سے پریشر السر سے بچا جا سکتا ہے۔",
+                "tr": "Düzenli olarak pozisyon değiştirerek bası yarasından kaçınılabilir."
+            },
+            "id": "v54_14"
+        },
+        {
+            "germanTerm": "Angst",
+            "article": "die",
+            "plural": "Ängste",
+            "pronunciation": "/aŋst/",
+            "category": "noun",
+            "translation": {
+                "en": "Anxiety",
+                "bn": "উদ্বেগ",
+                "hi": "चिंता",
+                "ur": "پریشانی",
+                "tr": "Kaygı"
+            },
+            "exampleSentence": "Bei Angstzuständen kann eine psychologische Beratung helfen.",
+            "exampleTranslation": {
+                "en": "Psychological counseling can help with anxiety.",
+                "bn": "উদ্বেগের ক্ষেত্রে মনস্তাত্ত্বিক পরামর্শ সাহায্য করতে পারে।",
+                "hi": "चिंता के मामले में मनोवैज्ञानिक परामर्श मदद कर सकता है।",
+                "ur": "پریشانی کی صورت میں نفسیاتی مشاورت مدد کر سکتی ہے۔",
+                "tr": "Kaygı durumunda psikolojik danışmanlık yardımcı olabilir."
+            },
+            "id": "v54_15"
+        },
+        {
+            "germanTerm": "Depression",
+            "article": "die",
+            "plural": "Depressionen",
+            "pronunciation": "/depʁɛˈsi̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "Depression",
+                "bn": "বিষণ্ণতা",
+                "hi": "अवसाद",
+                "ur": "ڈپریشن",
+                "tr": "Depresyon"
+            },
+            "exampleSentence": "Eine Depression ist eine häufige Begleiterscheinung schwerer Erkrankungen.",
+            "exampleTranslation": {
+                "en": "Depression is a common accompaniment of serious illnesses.",
+                "bn": "বিষণ্ণতা গুরুতর অসুস্থতার একটি সাধারণ অনুসঙ্গ।",
+                "hi": "अवसाद गंभीर बीमारियों का एक सामान्य साथ है।",
+                "ur": "ڈپریشن سنگین بیماریوں کا ایک عام ساتھی ہے۔",
+                "tr": "Depresyon, ciddi hastalıkların yaygın bir eşlikçisidir."
+            },
+            "id": "v54_16"
+        },
+        {
+            "germanTerm": "Schlafstörung",
+            "article": "die",
+            "plural": "Schlafstörungen",
+            "pronunciation": "/ˈʃlaːfˌʃtøːʁʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "Sleep disorder",
+                "bn": "ঘুমের ব্যাঘাত",
+                "hi": "नींद विकार",
+                "ur": "نیند کی خرابی",
+                "tr": "Uyku bozukluğu"
+            },
+            "exampleSentence": "Bei Schlafstörungen können pflanzliche Mittel helfen.",
+            "exampleTranslation": {
+                "en": "Herbal remedies can help with sleep disorders.",
+                "bn": "ঘুমের ব্যাঘাতের জন্য ভেষজ প্রতিকার সাহায্য করতে পারে।",
+                "hi": "नींद विकार के लिए हर्बल उपचार मदद कर सकते हैं।",
+                "ur": "نیند کی خرابی کے لیے جڑی بوٹیوں کے علاج مدد کر سکتے ہیں۔",
+                "tr": "Uyku bozuklukları için bitkisel ilaçlar yardımcı olabilir."
+            },
+            "id": "v54_17"
+        },
+        {
+            "germanTerm": "Ethik",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/ˈeːtɪk/",
+            "category": "noun",
+            "translation": {
+                "en": "Ethics",
+                "bn": "নীতিশাস্ত্র",
+                "hi": "नैतिकता",
+                "ur": "اخلاقیات",
+                "tr": "Etik"
+            },
+            "exampleSentence": "Die ethischen Aspekte der Palliativmedizin sind von großer Bedeutung.",
+            "exampleTranslation": {
+                "en": "The ethical aspects of palliative medicine are of great importance.",
+                "bn": "উপশমকারী ঔষধের নৈতিক দিকগুলি অত্যন্ত গুরুত্বপূর্ণ।",
+                "hi": "उपशामक दवा के नैतिक पहलू बहुत महत्वपूर्ण हैं।",
+                "ur": "تسکین دہندہ دوا کے اخلاقی پہلو بہت اہم ہیں۔",
+                "tr": "Palyatif tıbbın etik yönleri büyük önem taşımaktadır."
+            },
+            "id": "v54_18"
+        },
+        {
+            "germanTerm": "Patientenverfügung",
+            "article": "die",
+            "plural": "Patientenverfügungen",
+            "pronunciation": "/paˈt͡si̯ɛntənfɛɐ̯ˌfyːɡʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "Advance directive",
+                "bn": "অগ্রিম নির্দেশনা",
+                "hi": "अग्रिम निर्देश",
+                "ur": "پیشگی ہدایت",
+                "tr": "Vasiyetname"
+            },
+            "exampleSentence": "Wir respektieren die Patientenverfügung des Patienten.",
+            "exampleTranslation": {
+                "en": "We respect the patient's advance directive.",
+                "bn": "আমরা রোগীর অগ্রিম নির্দেশনাকে সম্মান করি।",
+                "hi": "हम मरीज के अग्रिम निर्देश का सम्मान करते हैं।",
+                "ur": "ہم مریض کی پیشگی ہدایت کا احترام کرتے ہیں۔",
+                "tr": "Hastanın vasiyetnamesine saygı duyuyoruz."
+            },
+            "id": "v54_19"
+        },
+        {
+            "germanTerm": "Anästhesist",
+            "article": "der",
+            "plural": "Anästhesisten",
+            "pronunciation": "/anɛsˈteːzɪst/",
+            "category": "noun",
+            "translation": {
+                "en": "Anesthesiologist",
+                "bn": "অবেদনবিদ",
+                "hi": "एनेस्थेसियोलॉजिस्ट",
+                "ur": "اینستھیزیولوجسٹ",
+                "tr": "Anestezi uzmanı"
+            },
+            "exampleSentence": "Der Anästhesist ist für die Schmerztherapie zuständig.",
+            "exampleTranslation": {
+                "en": "The anesthesiologist is responsible for pain therapy.",
+                "bn": "অবেদনবিদ ব্যথা থেরাপির জন্য দায়ী।",
+                "hi": "एनेस्थेसियोलॉजिस्ट दर्द चिकित्सा के लिए जिम्मेदार है।",
+                "ur": "اینستھیزیولوجسٹ درد کے علاج کے لیے ذمہ دار ہے۔",
+                "tr": "Anestezi uzmanı ağrı terapisinden sorumludur."
+            },
+            "id": "v54_20"
+        },
+        {
+            "germanTerm": "Psychologe",
+            "article": "der",
+            "plural": "Psychologen",
+            "pronunciation": "/psyçoˈloːɡə/",
+            "category": "noun",
+            "translation": {
+                "en": "Psychologist",
+                "bn": "মনোবিজ্ঞানী",
+                "hi": "मनोवैज्ञानिक",
+                "ur": "ماہر نفسیات",
+                "tr": "Psikolog"
+            },
+            "exampleSentence": "Der Psychologe bietet dem Patienten psychologische Unterstützung an.",
+            "exampleTranslation": {
+                "en": "The psychologist offers the patient psychological support.",
+                "bn": "মনোবিজ্ঞানী রোগীকে মনস্তাত্ত্বিক সমর্থন প্রদান করেন।",
+                "hi": "मनोवैज्ञानिक मरीज को मनोवैज्ञानिक समर्थन प्रदान करता है।",
+                "ur": "ماہر نفسیات مریض کو نفسیاتی مدد فراہم کرتا ہے۔",
+                "tr": "Psikolog hastaya psikolojik destek sunar."
+            },
+            "id": "v54_21"
+        },
+        {
+            "germanTerm": "Sozialarbeiter",
+            "article": "der",
+            "plural": "Sozialarbeiter",
+            "pronunciation": "/zoˈt͡si̯aːlʔaʁˌbaɪ̯tɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "Social worker",
+                "bn": "সমাজকর্মী",
+                "hi": "समाज सेवक",
+                "ur": "سماجی کارکن",
+                "tr": "Sosyal hizmet uzmanı"
+            },
+            "exampleSentence": "Der Sozialarbeiter berät die Familie des Patienten.",
+            "exampleTranslation": {
+                "en": "The social worker advises the patient's family.",
+                "bn": "সমাজকর্মী রোগীর পরিবারকে পরামর্শ দেন।",
+                "hi": "समाज सेवक मरीज के परिवार को सलाह देता है।",
+                "ur": "سماجی کارکن مریض کے خاندان کو مشورہ دیتا ہے۔",
+                "tr": "Sosyal hizmet uzmanı hastanın ailesine tavsiyelerde bulunur."
+            },
+            "id": "v54_22"
+        },
+        {
+            "germanTerm": "Freitod",
+            "article": "der",
+            "plural": "Freitode",
+            "pronunciation": "/ˈfʁaɪ̯ˌtoːt/",
+            "category": "noun",
+            "translation": {
+                "en": "Suicide",
+                "bn": "আত্মহত্যা",
+                "hi": "आत्महत्या",
+                "ur": "خودکشی",
+                "tr": "İntihar"
+            },
+            "exampleSentence": "Bei Suizidgefahr muss sofort gehandelt werden.",
+            "exampleTranslation": {
+                "en": "In case of suicide risk, immediate action must be taken.",
+                "bn": "আত্মহত্যার ঝুঁকির ক্ষেত্রে, অবিলম্বে পদক্ষেপ নেওয়া উচিত।",
+                "hi": "आत्महत्या के खतरे के मामले में, तत्काल कार्रवाई की जानी चाहिए।",
+                "ur": "خودکشی کے خطرے کی صورت میں، فوری کارروائی کی جانی چاہیے۔",
+                "tr": "İntihar riski durumunda derhal harekete geçilmelidir."
+            },
+            "id": "v54_23"
+        },
+        {
+            "germanTerm": "Belastung",
+            "article": "die",
+            "plural": "Belastungen",
+            "pronunciation": "/bəˈlastʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "Burden",
+                "bn": "বোঝা",
+                "hi": "बोझ",
+                "ur": "بوجھ",
+                "tr": "Yük"
+            },
+            "exampleSentence": "Die psychische Belastung der Angehörigen ist oft sehr hoch.",
+            "exampleTranslation": {
+                "en": "The psychological burden on the relatives is often very high.",
+                "bn": "আত্মীয়দের উপর মানসিক বোঝা প্রায়শই খুব বেশি থাকে।",
+                "hi": "रिश्तेदारों पर मनोवैज्ञानिक बोझ अक्सर बहुत अधिक होता है।",
+                "ur": "رشتہ داروں پر نفسیاتی بوجھ اکثر بہت زیادہ ہوتا ہے۔",
+                "tr": "Akrabaların üzerindeki psikolojik yük genellikle çok yüksektir."
+            },
+            "id": "v54_24"
+        },
+        {
+            "germanTerm": "Krankheitsverlauf",
+            "article": "der",
+            "plural": "Krankheitsverläufe",
+            "pronunciation": "/ˈkʁaŋkhaɪ̯t͡sfɛɐ̯ˌlaʊ̯f/",
+            "category": "noun",
+            "translation": {
+                "en": "Disease progression",
+                "bn": "রোগের অগ্রগতি",
+                "hi": "रोग की प्रगति",
+                "ur": "مرض کی پیش رفت",
+                "tr": "Hastalık ilerlemesi"
+            },
+            "exampleSentence": "Der Krankheitsverlauf kann durch die palliative Versorgung positiv beeinflusst werden.",
+            "exampleTranslation": {
+                "en": "The disease progression can be positively influenced by palliative care.",
+                "bn": "উপশমকারী যত্নের মাধ্যমে রোগের অগ্রগতি ইতিবাচকভাবে প্রভাবিত হতে পারে।",
+                "hi": "उपशामक देखभाल के माध्यम से रोग की प्रगति को सकारात्मक रूप से प्रभावित किया जा सकता है।",
+                "ur": "تسکین دہندہ دیکھ بھال کے ذریعے مرض کی پیش رفت کو مثبت طور پر متاثر کیا جا سکتا ہے۔",
+                "tr": "Hastalık ilerlemesi palyatif bakım ile olumlu yönde etkilenebilir."
+            },
+            "id": "v54_25"
+        },
+        {
+            "germanTerm": "Todesursache",
+            "article": "die",
+            "plural": "Todesursachen",
+            "pronunciation": "/ˈtoːdəsuːɐ̯ˌzaxə/",
+            "category": "noun",
+            "translation": {
+                "en": "Cause of death",
+                "bn": "মৃত্যুর কারণ",
+                "hi": "मृत्यु का कारण",
+                "ur": "موت کی وجہ",
+                "tr": "Ölüm nedeni"
+            },
+            "exampleSentence": "Die genaue Todesursache wird in der Patientenakte dokumentiert.",
+            "exampleTranslation": {
+                "en": "The exact cause of death is documented in the patient's file.",
+                "bn": "রোগীর ফাইলে মৃত্যুর সঠিক কারণ নথিভুক্ত করা হয়েছে।",
+                "hi": "मरीज की फाइल में मृत्यु का सटीक कारण दर्ज किया गया है।",
+                "ur": "مریض کی فائل میں موت کی صحیح وجہ درج کی گئی ہے۔",
+                "tr": "Ölümün kesin nedeni hasta dosyasında belgelenmiştir."
+            },
+            "id": "v54_26"
+        },
+        {
+            "germanTerm": "Trauer",
+            "article": "die",
+            "plural": "Trauer",
+            "pronunciation": "/ˈtʁaʊ̯ɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "Grief",
+                "bn": "শোক",
+                "hi": "शोक",
+                "ur": "غم",
+                "tr": "Yas"
+            },
+            "exampleSentence": "Die Trauer der Angehörigen wird von uns ernst genommen.",
+            "exampleTranslation": {
+                "en": "We take the grief of the relatives seriously.",
+                "bn": "আমরা আত্মীয়দের শোককে গুরুত্ব সহকারে নিই।",
+                "hi": "हम रिश्तेदारों के शोक को गंभीरता से लेते हैं।",
+                "ur": "ہم رشتہ داروں کے غم کو سنجیدگی سے لیتے ہیں۔",
+                "tr": "Akrabaların yasını ciddiye alıyoruz."
+            },
+            "id": "v54_27"
+        },
+        {
+            "germanTerm": "betreuen",
+            "article": "N/A",
+            "plural": "N/A",
+            "pronunciation": "/bəˈtʁɔɪ̯ən/",
+            "category": "verb",
+            "translation": {
+                "en": "To care for",
+                "bn": "যত্ন নেওয়া",
+                "hi": "देखभाल करना",
+                "ur": "دیکھ بھال کرنا",
+                "tr": "Bakmak"
+            },
+            "exampleSentence": "Wir betreuen Patienten in ihrer letzten Lebensphase.",
+            "exampleTranslation": {
+                "en": "We care for patients in their last phase of life.",
+                "bn": "আমরা রোগীদের তাদের জীবনের শেষ পর্যায়ে যত্ন নিই।",
+                "hi": "हम मरीजों की उनके जीवन के अंतिम चरण में देखभाल करते हैं।",
+                "ur": "ہم مریضوں کی ان کی زندگی کے آخری مرحلے میں دیکھ بھال کرتے ہیں۔",
+                "tr": "Hastaların hayatlarının son aşamasında onlara bakıyoruz."
+            },
+            "id": "v54_28"
+        },
+        {
+            "germanTerm": "lindern",
+            "article": "N/A",
+            "plural": "N/A",
+            "pronunciation": "/ˈlɪndɐn/",
+            "category": "verb",
+            "translation": {
+                "en": "To alleviate",
+                "bn": "লাঘব করা",
+                "hi": "कम करना",
+                "ur": "کم کرنا",
+                "tr": "Hafifletmek"
+            },
+            "exampleSentence": "Wir versuchen, die Schmerzen des Patienten zu lindern.",
+            "exampleTranslation": {
+                "en": "We try to alleviate the patient's pain.",
+                "bn": "আমরা রোগীর ব্যথা লাঘব করার চেষ্টা করি।",
+                "hi": "हम मरीज के दर्द को कम करने की कोशिश करते हैं।",
+                "ur": "ہم مریض کے درد کو کم کرنے کی کوشش کرتے ہیں۔",
+                "tr": "Hastanın ağrısını hafifletmeye çalışıyoruz."
+            },
+            "id": "v54_29"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Palliative Care Introduction",
+                "bn": "উপশমকারী পরিচর্যার ভূমিকা",
+                "hi": "उपशामक देखभाल परिचय",
+                "ur": "تسکین بخش نگہداشت کا تعارف",
+                "tr": "Palijatif Bakım Giriş"
+            },
+            "context": {
+                "en": "Dr. Schmidt explains palliative care to Patient Müller and his wife.",
+                "bn": "ডাক্তার শ্মিট রোগী মুলার এবং তার স্ত্রীকে উপশমকারী পরিচর্যা ব্যাখ্যা করছেন।",
+                "hi": "डॉक्टर श्मिट मरीज मुलर और उनकी पत्नी को उपशामक देखभाल समझाते हैं।",
+                "ur": "ڈاکٹر شمٹ مریض مولر اور ان کی اہلیہ کو تسکین بخش نگہداشت کی وضاحت کر رہے ہیں۔",
+                "tr": "Dr. Schmidt, hasta Müller ve eşine palyatif bakımı açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Herr Müller, wir haben alle Behandlungsmöglichkeiten ausgeschöpft. Nun konzentrieren wir uns auf die Palliativversorgung, um Ihre Lebensqualität zu verbessern.",
+                    "translation": {
+                        "en": "Mr. Müller, we have exhausted all treatment options. Now we are focusing on palliative care to improve your quality of life.",
+                        "bn": "মিঃ মুলার, আমরা চিকিৎসার সমস্ত বিকল্প শেষ করেছি। এখন আমরা আপনার জীবনযাত্রার মান উন্নত করার জন্য উপশমকারী পরিচর্যার উপর মনোযোগ দিচ্ছি।",
+                        "hi": "श्री मुलर, हमने सभी उपचार विकल्पों को समाप्त कर दिया है। अब हम आपके जीवन की गुणवत्ता में सुधार के लिए उपशामक देखभाल पर ध्यान केंद्रित कर रहे हैं।",
+                        "ur": "جناب مولر، ہم نے علاج کے تمام آپشنز ختم کر دیے ہیں۔ اب ہم آپ کے معیار زندگی کو بہتر بنانے کے لیے تسکین بخش نگہداشت پر توجہ مرکوز کر رہے ہیں۔",
+                        "tr": "Bay Müller, tüm tedavi seçeneklerini tükettik. Şimdi yaşam kalitenizi artırmak için palyatif bakıma odaklanıyoruz."
+                    }
+                },
+                {
+                    "speaker": "Frau Müller",
+                    "speakerRole": "Angehörige",
+                    "germanText": "Was bedeutet das genau, Herr Doktor? Heißt das, es gibt keine Hoffnung mehr?",
+                    "translation": {
+                        "en": "What does that mean exactly, Doctor? Does that mean there is no more hope?",
+                        "bn": "এর মানে ঠিক কী, ডাক্তার? এর মানে কি আর কোনো আশা নেই?",
+                        "hi": "इसका ठीक मतलब क्या है, डॉक्टर? क्या इसका मतलब है कि अब कोई उम्मीद नहीं है?",
+                        "ur": "اس کا کیا مطلب ہے ڈاکٹر؟ کیا اس کا مطلب ہے کہ اب کوئی امید نہیں ہے؟",
+                        "tr": "Bu tam olarak ne anlama geliyor Doktor? Bu, artık umut olmadığı anlamına mı geliyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Nein, Frau Müller. Es bedeutet, dass wir den Fokus von der Heilung auf die Linderung Ihrer Beschwerden verlegen. Wir kümmern uns um Schmerztherapie, Symptomkontrolle und Ihr Wohlbefinden.",
+                    "translation": {
+                        "en": "No, Mrs. Müller. It means that we are shifting the focus from curing to alleviating your symptoms. We take care of pain management, symptom control, and your well-being.",
+                        "bn": "না, মিসেস মুলার। এর মানে হল আমরা নিরাময়ের পরিবর্তে আপনার কষ্টের উপশমের দিকে মনোযোগ দিচ্ছি। আমরা ব্যথা উপশম, উপসর্গ নিয়ন্ত্রণ এবং আপনার সুস্থতার যত্ন নেব।",
+                        "hi": "नहीं, श्रीमती मुलर। इसका मतलब है कि हम इलाज से ध्यान हटाकर आपके लक्षणों को कम करने पर ध्यान केंद्रित कर रहे हैं। हम दर्द प्रबंधन, लक्षण नियंत्रण और आपकी भलाई का ख्याल रखते हैं।",
+                        "ur": "نہیں، محترمہ مولر۔ اس کا مطلب ہے کہ ہم علاج سے توجہ ہٹا کر آپ کی علامات کو کم کرنے پر توجہ مرکوز کر رہے ہیں۔ ہم درد کے انتظام، علامات کے کنٹرول اور آپ کی فلاح و بہبود کا خیال رکھتے ہیں۔",
+                        "tr": "Hayır, Bayan Müller. Bu, odağımızı iyileştirmekten belirtilerinizi hafifletmeye kaydırdığımız anlamına geliyor. Ağrı yönetimi, semptom kontrolü ve refahınızla ilgileniyoruz."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Also, es geht vor allem um Schmerzmittel?",
+                    "translation": {
+                        "en": "So, it's mainly about painkillers?",
+                        "bn": "তাহলে, এটা মূলত ব্যথানাশক ঔষধ সম্পর্কে?",
+                        "hi": "तो, यह मुख्य रूप से दर्द निवारक दवाओं के बारे में है?",
+                        "ur": "تو، کیا یہ بنیادی طور پر درد کم کرنے والی دوائیوں کے بارے میں ہے؟",
+                        "tr": "Yani, esas olarak ağrı kesicilerle mi ilgili?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Nicht nur. Es geht um ein ganzheitliches Konzept. Auch psychologische Unterstützung und spirituelle Begleitung können Teil der Palliativversorgung sein.",
+                    "translation": {
+                        "en": "Not only. It's about a holistic concept. Psychological support and spiritual guidance can also be part of palliative care.",
+                        "bn": "শুধু তাই নয়। এটি একটি সামগ্রিক ধারণা সম্পর্কে। মনস্তাত্ত্বিক সহায়তা এবং আধ্যাত্মিক নির্দেশনাও উপশমকারী পরিচর্যার অংশ হতে পারে।",
+                        "hi": "सिर्फ़ यही नहीं। यह एक समग्र अवधारणा के बारे में है। मनोवैज्ञानिक सहायता और आध्यात्मिक मार्गदर्शन भी उपशामक देखभाल का हिस्सा हो सकते हैं।",
+                        "ur": "صرف یہی نہیں. یہ ایک جامع تصور کے بارے میں ہے۔ نفسیاتی مدد اور روحانی رہنمائی بھی تسکین بخش نگہداشت کا حصہ ہو سکتی ہے۔",
+                        "tr": "Sadece değil. Bu bütünsel bir konseptle ilgili. Psikolojik destek ve manevi rehberlik de palyatif bakımın bir parçası olabilir."
+                    }
+                }
+            ],
+            "id": "d54_01"
+        },
+        {
+            "title": {
+                "en": "Hospice vs. Palliative Care",
+                "bn": "হসপিস বনাম উপশমকারী পরিচর্যা",
+                "hi": "हॉस्पिस बनाम उपशामक देखभाल",
+                "ur": "ہاسپیس بمقابلہ تسکین بخش نگہداشت",
+                "tr": "Hospis ve Palyatif Bakım"
+            },
+            "context": {
+                "en": "Nurse Weber explains the difference between hospice and palliative care to Patient Schneider.",
+                "bn": "নার্স ওয়েবার রোগী শ্নাইডারকে হসপিস এবং উপশমকারী পরিচর্যার মধ্যে পার্থক্য ব্যাখ্যা করছেন।",
+                "hi": "नर्स वेबर मरीज श्नाइडर को हॉस्पिस और उपशामक देखभाल के बीच अंतर समझाती हैं।",
+                "ur": "نرس ویبر مریض شنائیڈر کو ہاسپیس اور تسکین بخش نگہداشت کے درمیان فرق کی وضاحت کر رہی ہیں۔",
+                "tr": "Hemşire Weber, hasta Schneider'e hospis ve palyatif bakım arasındaki farkı açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Schneider, Sie fragen nach dem Unterschied zwischen Palliativversorgung und Hospiz. Palliativ kann schon früher im Krankheitsverlauf beginnen.",
+                    "translation": {
+                        "en": "Mr. Schneider, you are asking about the difference between palliative care and hospice. Palliative care can start earlier in the course of the illness.",
+                        "bn": "মিঃ শ্নাইডার, আপনি উপশমকারী পরিচর্যা এবং হসপিসের মধ্যে পার্থক্য সম্পর্কে জানতে চেয়েছেন। উপশমকারী পরিচর্যা রোগের শুরুতে শুরু হতে পারে।",
+                        "hi": "श्री श्नाइडर, आप उपशामक देखभाल और हॉस्पिस के बीच अंतर के बारे में पूछ रहे हैं। उपशामक देखभाल बीमारी के दौरान पहले शुरू हो सकती है।",
+                        "ur": "جناب شنائیڈر، آپ تسکین بخش نگہداشت اور ہاسپیس کے درمیان فرق کے بارے میں پوچھ رہے ہیں۔ تسکین بخش نگہداشت بیماری کے دوران پہلے شروع ہو سکتی ہے۔",
+                        "tr": "Bay Schneider, palyatif bakım ve hospis arasındaki farkı soruyorsunuz. Palyatif bakım, hastalığın seyrinde daha erken başlayabilir."
+                    }
+                },
+                {
+                    "speaker": "Patient Schneider",
+                    "speakerRole": "Patient",
+                    "germanText": "Und Hospiz dann erst, wenn es wirklich dem Ende zugeht?",
+                    "translation": {
+                        "en": "And hospice only when it's really coming to an end?",
+                        "bn": "এবং হসপিস তখনই যখন সত্যিই শেষ কাছাকাছি?",
+                        "hi": "और हॉस्पिस तभी जब यह वास्तव में अंत के करीब हो?",
+                        "ur": "اور ہاسپیس صرف اس وقت جب یہ واقعی اختتام کے قریب ہو؟",
+                        "tr": "Ve hospis ancak sonuna gerçekten yaklaşıldığında mı?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Genau. Hospiz ist für Menschen gedacht, bei denen keine kurative Behandlung mehr möglich ist und die eine begrenzte Lebenserwartung haben.",
+                    "translation": {
+                        "en": "Exactly. Hospice is intended for people for whom no curative treatment is possible anymore and who have a limited life expectancy.",
+                        "bn": "ঠিক। হসপিস उन लोगों के लिए है जिनके लिए अब कोई उपचारात्मक उपचार संभव नहीं है और जिनकी जीवन प्रत्याशा सीमित है।",
+                        "hi": "बिल्कुल। हॉस्पिस उन लोगों के लिए है जिनके लिए अब कोई उपचारात्मक उपचार संभव नहीं है और जिनकी जीवन प्रत्याशा सीमित है।",
+                        "ur": "بالکل۔ ہاسپیس ان لوگوں کے لیے ہے جن کے لیے اب کوئی علاج معالجہ ممکن نہیں ہے اور جن کی زندگی کی متوقع مدت محدود ہے۔",
+                        "tr": "Aynen öyle. Hospis, artık iyileştirici tedavinin mümkün olmadığı ve sınırlı bir yaşam beklentisi olan kişiler için tasarlanmıştır."
+                    }
+                },
+                {
+                    "speaker": "Patient Schneider",
+                    "speakerRole": "Patient",
+                    "germanText": "Verstehe. Also beides zielt auf Lebensqualität, aber Hospiz ist spezifischer.",
+                    "translation": {
+                        "en": "I understand. So both aim for quality of life, but hospice is more specific.",
+                        "bn": "বুঝলাম। সুতরাং উভয়ই জীবনের মানের উপর দৃষ্টি নিবদ্ধ করে, তবে হসপিস আরও নির্দিষ্ট।",
+                        "hi": "समझ गया। तो दोनों जीवन की गुणवत्ता के लिए लक्षित हैं, लेकिन हॉस्पिस अधिक विशिष्ट है।",
+                        "ur": "سمجھ گیا۔ تو دونوں زندگی کے معیار کو نشانہ بناتے ہیں، لیکن ہاسپیس زیادہ مخصوص ہے۔",
+                        "tr": "Anlıyorum. Yani her ikisi de yaşam kalitesini hedefliyor, ancak hospis daha spesifik."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Richtig. Und im Hospiz liegt der Fokus noch stärker auf der psychischen und spirituellen Begleitung der Patienten und Angehörigen.",
+                    "translation": {
+                        "en": "Correct. And in hospice, the focus is even more on the psychological and spiritual support of patients and relatives.",
+                        "bn": "সঠিক। এবং হসপিসে, রোগীদের এবং আত্মীয়দের মানসিক এবং আধ্যাত্মিক সহায়তার উপর আরও বেশি মনোযোগ দেওয়া হয়।",
+                        "hi": "सही। और हॉस्पिस में, रोगियों और रिश्तेदारों के मनोवैज्ञानिक और आध्यात्मिक समर्थन पर और भी अधिक ध्यान दिया जाता है।",
+                        "ur": "ٹھیک ہے۔ اور ہاسپیس میں مریضوں اور رشتہ داروں کی نفسیاتی اور روحانی مدد پر اور بھی زیادہ توجہ دی جاتی ہے۔",
+                        "tr": "Doğru. Ve hospiste, hastaların ve akrabaların psikolojik ve manevi desteğine daha da fazla odaklanılıyor."
+                    }
+                }
+            ],
+            "id": "d54_02"
+        },
+        {
+            "title": {
+                "en": "Pain Management Challenges",
+                "bn": "ব্যথা ব্যবস্থাপনার চ্যালেঞ্জ",
+                "hi": "दर्द प्रबंधन चुनौतियां",
+                "ur": "درد کے انتظام کے چیلنجز",
+                "tr": "Ağrı Yönetimi Zorlukları"
+            },
+            "context": {
+                "en": "Dr. Schmidt and Assistenzarzt Müller discuss pain management for a palliative care patient.",
+                "bn": "ডাক্তার শ্মিট এবং সহকারী চিকিৎসক মুলার একজন উপশমকারী পরিচর্যা রোগীর জন্য ব্যথা ব্যবস্থাপনা নিয়ে আলোচনা করছেন।",
+                "hi": "डॉक्टर श्मिट और सहायक चिकित्सक मुलर एक उपशामक देखभाल रोगी के लिए दर्द प्रबंधन पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر شمٹ اور اسسٹنٹ ڈاکٹر مولر ایک تسکین بخش نگہداشت کے مریض کے لیے درد کے انتظام پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Dr. Schmidt ve Asistan Doktor Müller, palyatif bakım hastası için ağrı yönetimi konusunu tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Herr Müller, bei Herrn Weber scheint die aktuelle Schmerztherapie nicht mehr ausreichend zu wirken.",
+                    "translation": {
+                        "en": "Mr. Müller, in Mr. Weber's case, the current pain therapy seems to be no longer effective enough.",
+                        "bn": "মিঃ মুলার, মিঃ ওয়েবারের ক্ষেত্রে, বর্তমান ব্যথা থেরাপি যথেষ্ট কার্যকর বলে মনে হচ্ছে না।",
+                        "hi": "श्री मुलर, श्री वेबर के मामले में, वर्तमान दर्द थेरेपी अब पर्याप्त प्रभावी नहीं लगती है।",
+                        "ur": "جناب مولر، مسٹر ویبر کے معاملے میں، موجودہ درد تھراپی اب کافی موثر نہیں لگتی ہے۔",
+                        "tr": "Bay Müller, Bay Weber'in durumunda, mevcut ağrı tedavisi artık yeterince etkili görünmüyor."
+                    }
+                },
+                {
+                    "speaker": "Assistenzarzt Müller",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wir haben bereits die Dosis der Opioide erhöht, aber die Schmerzen sind weiterhin stark.",
+                    "translation": {
+                        "en": "We have already increased the dose of opioids, but the pain is still severe.",
+                        "bn": "আমরা ইতিমধ্যে অপিওয়েডের ডোজ বাড়িয়েছি, তবে ব্যথা এখনও তীব্র।",
+                        "hi": "हमने पहले ही ओपिओइड की खुराक बढ़ा दी है, लेकिन दर्द अभी भी गंभीर है।",
+                        "ur": "ہم پہلے ہی اوپیئڈز کی خوراک بڑھا چکے ہیں، لیکن درد اب بھی شدید ہے۔",
+                        "tr": "Opioidlerin dozunu zaten artırdık, ancak ağrı hala şiddetli."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir sollten eine interdisziplinäre Schmerzkonferenz einberufen. Vielleicht hilft eine Nervenblockade oder eine andere adjuvante Therapie.",
+                    "translation": {
+                        "en": "We should convene an interdisciplinary pain conference. Perhaps a nerve block or another adjuvant therapy would help.",
+                        "bn": "আমাদের একটি আন্তঃবিষয়ক ব্যথা সম্মেলন আহ্বান করা উচিত। সম্ভবত একটি নার্ভ ব্লক বা অন্য কোনও সহায়ক থেরাপি সাহায্য করবে।",
+                        "hi": "हमें एक अंतःविषयक दर्द सम्मेलन बुलाना चाहिए। शायद एक तंत्रिका ब्लॉक या एक और सहायक चिकित्सा मदद करेगी।",
+                        "ur": "ہمیں ایک بین الضابطہ درد کانفرنس بلانی چاہیے۔ شاید ایک اعصابی بلاک یا کوئی اور معاون تھراپی مدد کرے گی۔",
+                        "tr": "Disiplinler arası bir ağrı konferansı toplamalıyız. Belki bir sinir bloğu veya başka bir adjuvan tedavi yardımcı olabilir."
+                    }
+                },
+                {
+                    "speaker": "Assistenzarzt Müller",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Gute Idee. Ich werde das veranlassen.",
+                    "translation": {
+                        "en": "Good idea. I will arrange that.",
+                        "bn": "ভাল ধারণা. আমি ব্যবস্থা করব।",
+                        "hi": "अच्छा विचार। मैं इसकी व्यवस्था करूंगा।",
+                        "ur": "اچھا خیال ہے۔ میں اس کا انتظام کروں گا۔",
+                        "tr": "İyi fikir. Bunu ayarlayacağım."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Und vergessen Sie nicht, auch die psychischen Belastungen des Patienten zu berücksichtigen. Angst und Depression können Schmerzen verstärken.",
+                    "translation": {
+                        "en": "And don't forget to consider the patient's psychological stress as well. Anxiety and depression can intensify pain.",
+                        "bn": "এবং রোগীর মানসিক চাপও বিবেচনা করতে ভুলবেন না। উদ্বেগ এবং বিষণ্নতা ব্যথা বাড়িয়ে তুলতে পারে।",
+                        "hi": "और रोगी के मनोवैज्ञानिक तनाव पर भी विचार करना न भूलें। चिंता और अवसाद दर्द को बढ़ा सकते हैं।",
+                        "ur": "اور مریض کے نفسیاتی دباؤ پر بھی غور کرنا نہ بھولیں۔ اضطراب اور ڈپریشن درد کو بڑھا سکتے ہیں۔",
+                        "tr": "Ve hastanın psikolojik stresini de dikkate almayı unutmayın. Anksiyete ve depresyon ağrıyı artırabilir."
+                    }
+                }
+            ],
+            "id": "d54_03"
+        },
+        {
+            "title": {
+                "en": "Symptom Control: Nausea",
+                "bn": "উপসর্গ নিয়ন্ত্রণ: বমি বমি ভাব",
+                "hi": "लक्षण नियंत्रण: मतली",
+                "ur": "علامات کا کنٹرول: متلی",
+                "tr": "Semptom Kontrolü: Mide Bulantısı"
+            },
+            "context": {
+                "en": "Nurse Weber discusses nausea control with Patient Lehmann.",
+                "bn": "নার্স ওয়েবার রোগী লেহমানের সাথে বমি বমি ভাব নিয়ন্ত্রণ নিয়ে আলোচনা করছেন।",
+                "hi": "नर्स वेबर मरीज लेहमान के साथ मतली नियंत्रण पर चर्चा कर रही हैं।",
+                "ur": "نرس ویبر مریض لیہمن کے ساتھ متلی کنٹرول پر تبادلہ خیال کر رہی ہیں۔",
+                "tr": "Hemşire Weber, hasta Lehmann ile mide bulantısı kontrolünü tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Lehmann, wie geht es Ihnen heute? Haben Sie noch mit Übelkeit zu kämpfen?",
+                    "translation": {
+                        "en": "Mr. Lehmann, how are you today? Are you still struggling with nausea?",
+                        "bn": "মিঃ লেহমান, আজ আপনি কেমন আছেন? আপনি কি এখনও বমি বমি ভাবের সাথে লড়াই করছেন?",
+                        "hi": "श्री लेहमान, आज आप कैसे हैं? क्या आप अभी भी मतली से जूझ रहे हैं?",
+                        "ur": "جناب لیہمن، آج آپ کیسے ہیں؟ کیا آپ ابھی بھی متلی سے لڑ رہے ہیں؟",
+                        "tr": "Bay Lehmann, bugün nasılsınız? Hala mide bulantısıyla mı mücadele ediyorsunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, leider. Es ist zwar besser geworden, aber noch nicht ganz weg.",
+                    "translation": {
+                        "en": "Yes, unfortunately. It has gotten better, but not completely gone yet.",
+                        "bn": "হ্যাঁ, দুর্ভাগ্যবশত। এটা ভালো হয়েছে, তবে এখনও পুরোপুরি যায়নি।",
+                        "hi": "हाँ, दुर्भाग्य से। यह बेहतर हो गया है, लेकिन अभी पूरी तरह से गया नहीं है।",
+                        "ur": "ہاں، بدقسمتی سے۔ یہ بہتر ہو گیا ہے، لیکن ابھی مکمل طور پر گیا نہیں ہے۔",
+                        "tr": "Evet, maalesef. Daha iyiye gitti, ama henüz tamamen geçmedi."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich kann Ihnen ein weiteres Medikament gegen Übelkeit geben. Oder vielleicht hilft auch Ingwertee?",
+                    "translation": {
+                        "en": "I can give you another medication for nausea. Or maybe ginger tea would also help?",
+                        "bn": "আমি আপনাকে বমি বমি ভাবের জন্য আরও একটি ওষুধ দিতে পারি। অথবা সম্ভবত আদা চা সাহায্য করতে পারে?",
+                        "hi": "मैं आपको मतली के लिए एक और दवा दे सकती हूं। या शायद अदरक की चाय भी मदद करेगी?",
+                        "ur": "میں آپ کو متلی کے لیے ایک اور دوا دے سکتی ہوں۔ یا شاید ادرک کی چائے بھی مدد کرے گی؟",
+                        "tr": "Size mide bulantısı için başka bir ilaç verebilirim. Ya da belki zencefil çayı da yardımcı olur?"
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Den Tee habe ich schon probiert, aber das Medikament wäre gut.",
+                    "translation": {
+                        "en": "I have already tried the tea, but the medication would be good.",
+                        "bn": "আমি ইতিমধ্যে চা চেষ্টা করেছি, তবে ওষুধটি ভাল হবে।",
+                        "hi": "मैंने पहले ही चाय की कोशिश कर ली है, लेकिन दवा अच्छी रहेगी।",
+                        "ur": "میں نے پہلے ہی چائے کی کوشش کر لی ہے، لیکن دوا اچھی رہے گی۔",
+                        "tr": "Çayı zaten denedim, ancak ilaç iyi olurdu."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "In Ordnung. Ich hole Ihnen gleich etwas. Und versuchen Sie, kleine, leichte Mahlzeiten zu essen.",
+                    "translation": {
+                        "en": "Alright. I'll get you something right away. And try to eat small, light meals.",
+                        "bn": "ঠিক আছে। আমি এখনই আপনার জন্য কিছু নিয়ে আসছি। এবং ছোট, হালকা খাবার খাওয়ার চেষ্টা করুন।",
+                        "hi": "ठीक है। मैं आपके लिए अभी कुछ लाती हूँ। और छोटे, हल्के भोजन खाने की कोशिश करें।",
+                        "ur": "ٹھیک ہے۔ میں آپ کے لیے ابھی کچھ لاتی ہوں۔ اور چھوٹے، ہلکے کھانے کھانے کی کوشش کریں۔",
+                        "tr": "Pekala. Hemen size bir şeyler getireceğim. Ve küçük, hafif öğünler yemeye çalışın."
+                    }
+                }
+            ],
+            "id": "d54_04"
+        },
+        {
+            "title": {
+                "en": "Maintaining Quality of Life",
+                "bn": "জীবনের মান বজায় রাখা",
+                "hi": "जीवन की गुणवत्ता बनाए रखना",
+                "ur": "زندگی کے معیار کو برقرار رکھنا",
+                "tr": "Yaşam Kalitesini Koruma"
+            },
+            "context": {
+                "en": "Dr. Müller discusses strategies for maintaining quality of life with Patient Klein.",
+                "bn": "ডাক্তার মুলার রোগী ক্লেইনের সাথে জীবনের মান বজায় রাখার কৌশল নিয়ে আলোচনা করছেন।",
+                "hi": "डॉक्टर मुलर मरीज क्लेन के साथ जीवन की गुणवत्ता बनाए रखने की रणनीतियों पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر مولر مریض کلین کے ساتھ زندگی کے معیار کو برقرار رکھنے کی حکمت عملیوں پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Dr. Müller, hasta Klein ile yaşam kalitesini koruma stratejilerini tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Herr Klein, wie fühlen Sie sich im Moment? Was ist Ihnen wichtig, um Ihre Lebensqualität so gut wie möglich zu erhalten?",
+                    "translation": {
+                        "en": "Mr. Klein, how are you feeling at the moment? What is important to you to maintain your quality of life as best as possible?",
+                        "bn": "মিঃ ক্লেইন, এই মুহূর্তে আপনি কেমন বোধ করছেন? আপনার জীবনের মান যতটা সম্ভব ভাল রাখতে আপনার কাছে কী গুরুত্বপূর্ণ?",
+                        "hi": "श्री क्लेन, आप इस समय कैसा महसूस कर रहे हैं? अपनी जीवन की गुणवत्ता को यथासंभव बनाए रखने के लिए आपके लिए क्या महत्वपूर्ण है?",
+                        "ur": "جناب کلین، آپ اس وقت کیسا محسوس کر رہے ہیں؟ اپنی زندگی کے معیار کو زیادہ سے زیادہ برقرار رکھنے کے لیے آپ کے لیے کیا اہم ہے؟",
+                        "tr": "Bay Klein, şu anda nasıl hissediyorsunuz? Yaşam kalitenizi olabildiğince iyi korumak için sizin için ne önemli?"
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich möchte so lange wie möglich aktiv bleiben und meine Familie sehen.",
+                    "translation": {
+                        "en": "I want to stay active as long as possible and see my family.",
+                        "bn": "আমি যতক্ষণ সম্ভব সক্রিয় থাকতে এবং আমার পরিবারকে দেখতে চাই।",
+                        "hi": "मैं यथासंभव सक्रिय रहना चाहता हूं और अपने परिवार को देखना चाहता हूं।",
+                        "ur": "میں جب تک ممکن ہو فعال رہنا چاہتا ہوں اور اپنے خاندان کو دیکھنا چاہتا ہوں۔",
+                        "tr": "Olabildiğince aktif kalmak ve ailemi görmek istiyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das ist verständlich. Wir können versuchen, Ihnen mit Physiotherapie und Ergotherapie zu helfen, aktiv zu bleiben. Und wir achten auf eine gute Schmerztherapie, damit Sie die Zeit mit Ihrer Familie genießen können.",
+                    "translation": {
+                        "en": "That's understandable. We can try to help you stay active with physiotherapy and occupational therapy. And we ensure good pain management so that you can enjoy the time with your family.",
+                        "bn": "এটা বোধগম্য। আমরা আপনাকে ফিজিওথেরাপি এবং অকুপেশনাল থেরাপির মাধ্যমে সক্রিয় থাকতে সাহায্য করার চেষ্টা করতে পারি। এবং আমরা ভাল ব্যথা থেরাপির দিকে খেয়াল রাখি যাতে আপনি আপনার পরিবারের সাথে সময় উপভোগ করতে পারেন।",
+                        "hi": "यह समझ में आता है। हम आपको फिजियोथेरेपी और व्यावसायिक चिकित्सा के साथ सक्रिय रहने में मदद करने की कोशिश कर सकते हैं। और हम अच्छे दर्द थेरेपी का ध्यान रखते हैं ताकि आप अपने परिवार के साथ समय का आनंद ले सकें।",
+                        "ur": "یہ سمجھ میں آتا ہے۔ ہم آپ کو فزیوتھراپی اور پیشہ ورانہ تھراپی کے ساتھ فعال رہنے میں مدد کرنے کی کوشش کر سکتے ہیں۔ اور ہم اچھے درد تھراپی کا خیال رکھتے ہیں تاکہ آپ اپنے خاندان کے ساتھ وقت کا لطف اٹھا سکیں۔",
+                        "tr": "Bu anlaşılabilir bir durum. Fizyoterapi ve mesleki terapi ile aktif kalmanıza yardımcı olmaya çalışabiliriz. Ve ailenizle vakit geçirmenin tadını çıkarabilmeniz için iyi bir ağrı tedavisine dikkat ediyoruz."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Das wäre sehr hilfreich. Vielen Dank.",
+                    "translation": {
+                        "en": "That would be very helpful. Thank you very much.",
+                        "bn": "সেটা খুব সহায়ক হবে। অনেক ধন্যবাদ।",
+                        "hi": "वह बहुत मददगार होगा। बहुत-बहुत धन्यवाद।",
+                        "ur": "وہ بہت مددگار ہوگا۔ آپ کا بہت بہت شکریہ۔",
+                        "tr": "Bu çok yardımcı olurdu. Çok teşekkür ederim."
+                    }
+                },
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Gern geschehen. Wir sind für Sie da. Wichtig ist auch, dass Sie uns mitteilen, wenn Sie sich überfordert fühlen oder andere Bedürfnisse haben.",
+                    "translation": {
+                        "en": "You're welcome. We are here for you. It is also important that you let us know if you feel overwhelmed or have other needs.",
+                        "bn": "স্বাগতম। আমরা আপনার জন্য এখানে আছি। আপনি যদি অভিভূত বোধ করেন বা অন্য কোনও প্রয়োজন হয় তবে আমাদের জানানোও গুরুত্বপূর্ণ।",
+                        "hi": "आपका स्वागत है। हम आपके लिए यहाँ हैं। यह भी महत्वपूर्ण है कि आप हमें बताएं कि क्या आप अभिभूत महसूस करते हैं या आपकी कोई अन्य आवश्यकताएं हैं।",
+                        "ur": "آپ کا استقبال ہے۔ ہم آپ کے لیے یہاں ہیں۔ یہ بھی اہم ہے کہ اگر آپ مغلوب محسوس کرتے ہیں یا آپ کو کوئی اور ضرورت ہے تو ہمیں بتائیں۔",
+                        "tr": "Rica ederim. Sizin için buradayız. Ayrıca bunalmış hissederseniz veya başka ihtiyaçlarınız olursa bize bildirmeniz de önemlidir."
+                    }
+                }
+            ],
+            "id": "d54_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Hauptziel der Palliativmedizin?",
+                "en": "What is the main goal of palliative care?",
+                "bn": "প্যালিয়েটিভ কেয়ারের প্রধান লক্ষ্য কী?",
+                "hi": "उपशामक देखभाल का मुख्य लक्ष्य क्या है?",
+                "ur": "تسکین دہندہ نگہداشت کا بنیادی مقصد کیا ہے؟",
+                "tr": "Palyatif bakımın temel amacı nedir?"
+            },
+            "options": [
+                "Heilung der Krankheit",
+                "Verlängerung des Lebens um jeden Preis",
+                "Linderung von Leiden und Verbesserung der Lebensqualität",
+                "Beschleunigung des Sterbeprozesses"
+            ],
+            "correctAnswer": "Linderung von Leiden und Verbesserung der Lebensqualität",
+            "explanation": {
+                "en": "Palliative care focuses on relieving suffering and improving quality of life for patients and their families facing life-limiting illnesses.",
+                "bn": "প্যালিয়েটিভ কেয়ারের মূল লক্ষ্য হল কষ্ট কমানো এবং জীবন সীমিতকারী রোগে আক্রান্ত রোগী ও তাদের পরিবারের জীবনযাত্রার মান উন্নত করা।",
+                "hi": "उपशामक देखभाल का मुख्य लक्ष्य जीवन-सीमित करने वाली बीमारियों का सामना कर रहे रोगियों और उनके परिवारों के लिए पीड़ा को कम करना और जीवन की गुणवत्ता में सुधार करना है।",
+                "ur": "تسکین دہندہ نگہداشت کا بنیادی مقصد تکلیف کو کم کرنا اور زندگی کو محدود کرنے والی بیماریوں کا سامنا کرنے والے مریضوں اور ان کے اہل خانہ کے لئے زندگی کے معیار کو بہتر بنانا ہے۔",
+                "tr": "Palyatif bakım, yaşamı tehdit eden hastalıklarla karşı karşıya olan hastaların ve ailelerinin acılarını hafifletmeye ve yaşam kalitesini artırmaya odaklanır."
+            },
+            "points": 10,
+            "id": "e54_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein typisches Symptom, das in der Palliativmedizin behandelt wird?",
+                "en": "What is a typical symptom treated in palliative care?",
+                "bn": "প্যালিয়েটিভ কেয়ারে চিকিত্সা করা একটি সাধারণ লক্ষণ কী?",
+                "hi": "उपशामक देखभाल में इलाज किया जाने वाला एक विशिष्ट लक्षण क्या है?",
+                "ur": "تسکین دہندہ نگہداشت میں علاج کی جانے والی ایک عام علامت کیا ہے؟",
+                "tr": "Palyatif bakımda tedavi edilen tipik bir semptom nedir?"
+            },
+            "options": [
+                "Grippale Infektion",
+                "Knochenbruch",
+                "Schmerzen",
+                "Blinddarmentzündung"
+            ],
+            "correctAnswer": "Schmerzen",
+            "explanation": {
+                "en": "Pain management is a core component of palliative care.",
+                "bn": "ব্যথা ব্যবস্থাপনা প্যালিয়েটিভ কেয়ারের একটি মূল উপাদান।",
+                "hi": "दर्द प्रबंधन उपशामक देखभाल का एक मुख्य घटक है।",
+                "ur": "درد کا انتظام تسکین دہندہ نگہداشت کا ایک بنیادی جزو ہے۔",
+                "tr": "Ağrı yönetimi, palyatif bakımın temel bir bileşenidir."
+            },
+            "points": 10,
+            "id": "e54_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet der Begriff 'Hospiz'?",
+                "en": "What does the term 'hospice' mean?",
+                "bn": "'হসপিস' শব্দটির অর্থ কী?",
+                "hi": "'हॉस्पिस' शब्द का अर्थ क्या है?",
+                "ur": "'ہاسپیس' کی اصطلاح کا کیا مطلب ہے؟",
+                "tr": "'Hospis' terimi ne anlama gelir?"
+            },
+            "options": [
+                "Ein Krankenhaus für Kinder",
+                "Eine Einrichtung für die Betreuung Sterbender",
+                "Eine Schule für Pflegekräfte",
+                "Ein Labor für medizinische Forschung"
+            ],
+            "correctAnswer": "Eine Einrichtung für die Betreuung Sterbender",
+            "explanation": {
+                "en": "A hospice provides care for people who are terminally ill, focusing on comfort and quality of life.",
+                "bn": "হসপিস এমন লোকদের যত্ন প্রদান করে যারা মারাত্মকভাবে অসুস্থ, আরাম এবং জীবনের মানের উপর দৃষ্টি নিবদ্ধ করে।",
+                "hi": "एक धर्मशाला उन लोगों की देखभाल करती है जो लाइलाज बीमारी से पीड़ित हैं, आराम और जीवन की गुणवत्ता पर ध्यान केंद्रित करते हैं।",
+                "ur": "ایک ہاسپیس ان لوگوں کی دیکھ بھال فراہم کرتا ہے جو لاعلاج بیمار ہیں، آرام اور زندگی کے معیار پر توجہ مرکوز کرتے ہیں۔",
+                "tr": "Hospis, ölümcül hastalığı olan kişilere bakım sağlar, konfor ve yaşam kalitesine odaklanır."
+            },
+            "points": 10,
+            "id": "e54_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage zur Lebensqualität ist in der Palliativmedizin richtig?",
+                "en": "Which statement about quality of life is correct in palliative care?",
+                "bn": "প্যালিয়েটিভ কেয়ারে জীবনের মান সম্পর্কে কোন বিবৃতিটি সঠিক?",
+                "hi": "उपशामक देखभाल में जीवन की गुणवत्ता के बारे में कौन सा कथन सही है?",
+                "ur": "تسکین دہندہ نگہداشت میں زندگی کے معیار کے بارے میں کون سا بیان درست ہے؟",
+                "tr": "Palyatif bakımda yaşam kalitesi ile ilgili hangi ifade doğrudur?"
+            },
+            "options": [
+                "Sie ist irrelevant.",
+                "Sie wird nur durch die medizinische Behandlung bestimmt.",
+                "Sie umfasst physisches, psychisches, soziales und spirituelles Wohlbefinden.",
+                "Sie ist nur für junge Patienten wichtig."
+            ],
+            "correctAnswer": "Sie umfasst physisches, psychisches, soziales und spirituelles Wohlbefinden.",
+            "explanation": {
+                "en": "Quality of life in palliative care encompasses physical, psychological, social, and spiritual well-being.",
+                "bn": "প্যালিয়েটিভ কেয়ারে জীবনের গুণমান শারীরিক, মানসিক, সামাজিক এবং আধ্যাত্মিক সুস্থতাকে অন্তর্ভুক্ত করে।",
+                "hi": "उपशामक देखभाल में जीवन की गुणवत्ता में शारीरिक, मानसिक, सामाजिक और आध्यात्मिक कल्याण शामिल है।",
+                "ur": "تسکین دہندہ نگہداشت میں زندگی کے معیار میں جسمانی، نفسیاتی، سماجی اور روحانی بہبود شامل ہے۔",
+                "tr": "Palyatif bakımda yaşam kalitesi, fiziksel, psikolojik, sosyal ve manevi iyiliği kapsar."
+            },
+            "points": 10,
+            "id": "e54_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was versteht man unter 'Symptomkontrolle' in der Palliativmedizin?",
+                "en": "What is meant by 'symptom control' in palliative care?",
+                "bn": "প্যালিয়েটিভ কেয়ারে 'লক্ষণ নিয়ন্ত্রণ' বলতে কী বোঝায়?",
+                "hi": "उपशामक देखभाल में 'लक्षण नियंत्रण' का क्या अर्थ है?",
+                "ur": "تسکین دہندہ نگہداشت میں 'علامت کنٹرول' سے کیا مراد ہے؟",
+                "tr": "Palyatif bakımda 'semptom kontrolü' ile ne kastedilmektedir?"
+            },
+            "options": [
+                "Die vollständige Heilung aller Symptome",
+                "Die Minimierung belastender Symptome, um die Lebensqualität zu verbessern",
+                "Die Ignorierung von Symptomen, um den Patienten nicht zu beunruhigen",
+                "Die Beschränkung auf die Behandlung der Grunderkrankung"
+            ],
+            "correctAnswer": "Die Minimierung belastender Symptome, um die Lebensqualität zu verbessern",
+            "explanation": {
+                "en": "Symptom control aims to minimize distressing symptoms to improve the patient's quality of life.",
+                "bn": "লক্ষণ নিয়ন্ত্রণের লক্ষ্য হল রোগীর জীবনযাত্রার মান উন্নত করার জন্য কষ্টকর লক্ষণগুলি হ্রাস করা।",
+                "hi": "लक्षण नियंत्रण का उद्देश्य रोगी के जीवन की गुणवत्ता में सुधार के लिए कष्टदायक लक्षणों को कम करना है।",
+                "ur": "علامت کنٹرول کا مقصد مریض کی زندگی کے معیار کو بہتر بنانے کے لیے تکلیف دہ علامات کو کم کرنا ہے۔",
+                "tr": "Semptom kontrolü, hastanın yaşam kalitesini artırmak için sıkıntı verici semptomları en aza indirmeyi amaçlar."
+            },
+            "points": 10,
+            "id": "e54_05"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bei der ______________ wird versucht, Schmerzen zu lindern.",
+                "en": "In ______________, attempts are made to alleviate pain.",
+                "bn": "______________ এ, ব্যথা উপশম করার চেষ্টা করা হয়।",
+                "hi": "______________ में, दर्द कम करने के प्रयास किए जाते हैं।",
+                "ur": "______________ میں، درد کو کم کرنے کی کوشش کی جاتی ہے۔",
+                "tr": "______________ içinde ağrıyı hafifletmeye çalışılır."
+            },
+            "options": [],
+            "correctAnswer": "Schmerztherapie",
+            "explanation": {
+                "en": "Schmerztherapie (pain therapy) specifically focuses on pain relief.",
+                "bn": "Schmerztherapie (ব্যথা থেরাপি) বিশেষভাবে ব্যথা উপশমের উপর দৃষ্টি নিবদ্ধ করে।",
+                "hi": "Schmerztherapie (दर्द चिकित्सा) विशेष रूप से दर्द से राहत पर केंद्रित है।",
+                "ur": "Schmerztherapie (درد کی تھراپی) خاص طور پر درد سے نجات پر مرکوز ہے۔",
+                "tr": "Schmerztherapie (ağrı tedavisi) özellikle ağrıyı hafifletmeye odaklanır."
+            },
+            "points": 10,
+            "id": "e54_06"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein ______________ ist eine Einrichtung, die sich auf die Betreuung von Menschen am Lebensende spezialisiert hat.",
+                "en": "A ______________ is a facility specializing in the care of people at the end of life.",
+                "bn": "একটি ______________ এমন একটি সুবিধা যা জীবনের শেষ পর্যায়ে থাকা লোকদের যত্নে বিশেষজ্ঞ।",
+                "hi": "एक ______________ एक ऐसी सुविधा है जो जीवन के अंत में लोगों की देखभाल करने में विशेषज्ञता रखती है।",
+                "ur": "______________ ایک سہولت ہے جو زندگی کے اختتام پر لوگوں کی دیکھ بھال میں مہارت رکھتی ہے۔",
+                "tr": "______________ yaşamının sonundaki insanlara bakım konusunda uzmanlaşmış bir tesistir."
+            },
+            "options": [],
+            "correctAnswer": "Hospiz",
+            "explanation": {
+                "en": "A hospice provides specialized care for individuals nearing the end of their lives.",
+                "bn": "হসপিস জীবনের শেষ প্রান্তে থাকা ব্যক্তিদের জন্য বিশেষ যত্ন প্রদান করে।",
+                "hi": "एक धर्मशाला अपने जीवन के अंत के करीब व्यक्तियों के लिए विशेष देखभाल प्रदान करती है।",
+                "ur": "ایک ہاسپیس اپنی زندگی کے اختتام کے قریب افراد کے لیے خصوصی نگہداشت فراہم کرتا ہے۔",
+                "tr": "Bir hospis, yaşamlarının sonuna yaklaşan bireylere özel bakım sağlar."
+            },
+            "points": 10,
+            "id": "e54_07"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Das Ziel der Palliativmedizin ist die Verbesserung der ______________ .",
+                "en": "The goal of palliative care is to improve ______________ .",
+                "bn": "প্যালিয়েটিভ কেয়ারের লক্ষ্য হল ______________ উন্নত করা।",
+                "hi": "उपशामक देखभाल का लक्ष्य ______________ में सुधार करना है।",
+                "ur": "تسکین دہندہ نگہداشت کا مقصد ______________ کو بہتر بنانا ہے۔",
+                "tr": "Palyatif bakımın amacı ______________ iyileştirmektir."
+            },
+            "options": [],
+            "correctAnswer": "Lebensqualität",
+            "explanation": {
+                "en": "Palliative care focuses on improving the quality of life for patients and their families.",
+                "bn": "প্যালিয়েটিভ কেয়ার রোগী এবং তাদের পরিবারের জীবনযাত্রার মান উন্নত করার উপর দৃষ্টি নিবদ্ধ করে।",
+                "hi": "उपशामक देखभाल रोगियों और उनके परिवारों के जीवन की गुणवत्ता में सुधार पर केंद्रित है।",
+                "ur": "تسکین دہندہ نگہداشت مریضوں اور ان کے اہل خانہ کے لیے زندگی کے معیار کو بہتر بنانے پر مرکوز ہے۔",
+                "tr": "Palyatif bakım, hastaların ve ailelerinin yaşam kalitesini iyileştirmeye odaklanır."
+            },
+            "points": 10,
+            "id": "e54_08"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "______________ umfasst die Behandlung von Beschwerden wie Übelkeit und Atemnot.",
+                "en": "______________ includes the treatment of complaints such as nausea and shortness of breath.",
+                "bn": "______________ বমি বমি ভাব এবং শ্বাসকষ্টের মতো অভিযোগের চিকিত্সা অন্তর্ভুক্ত।",
+                "hi": "______________ में मतली और सांस की तकलीफ जैसी शिकायतों का इलाज शामिल है।",
+                "ur": "______________ میں متلی اور سانس کی قلت جیسی شکایات کا علاج شامل ہے۔",
+                "tr": "______________ mide bulantısı ve nefes darlığı gibi şikayetlerin tedavisini içerir."
+            },
+            "options": [],
+            "correctAnswer": "Symptomkontrolle",
+            "explanation": {
+                "en": "Symptom control addresses various complaints like nausea and shortness of breath to enhance patient comfort.",
+                "bn": "লক্ষণ নিয়ন্ত্রণ রোগীর আরাম বাড়ানোর জন্য বমি বমি ভাব এবং শ্বাসকষ্টের মতো বিভিন্ন অভিযোগের সমাধান করে।",
+                "hi": "लक्षण नियंत्रण रोगी के आराम को बढ़ाने के लिए मतली और सांस की तकलीफ जैसी विभिन्न शिकायतों का समाधान करता है।",
+                "ur": "علامت کنٹرول مریض کے آرام کو بڑھانے کے لیے متلی اور سانس کی قلت جیسی مختلف شکایات کا حل پیش کرتا ہے۔",
+                "tr": "Semptom kontrolü, hasta konforunu artırmak için mide bulantısı ve nefes darlığı gibi çeşitli şikayetleri ele alır."
+            },
+            "points": 10,
+            "id": "e54_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wer gehört zum multidisziplinären Team in der Palliativversorgung?",
+                "en": "Who belongs to the multidisciplinary team in palliative care?",
+                "bn": "প্যালিয়েটিভ কেয়ারে মাল্টিডিসিপ্লিনারি টিমের সদস্য কারা?",
+                "hi": "उपशामक देखभाल में बहु-अनुशासनात्मक टीम का सदस्य कौन है?",
+                "ur": "تسکین دہندہ نگہداشت میں کثیر الشعبہ ٹیم کا رکن کون ہے؟",
+                "tr": "Palyatif bakımda multidisipliner ekibe kimler dahildir?"
+            },
+            "options": [
+                "Nur Ärzte",
+                "Nur Pflegekräfte",
+                "Ärzte, Pflegekräfte, Psychologen und Sozialarbeiter",
+                "Nur Apotheker"
+            ],
+            "correctAnswer": "Ärzte, Pflegekräfte, Psychologen und Sozialarbeiter",
+            "explanation": {
+                "en": "The multidisciplinary team in palliative care includes doctors, nurses, psychologists, and social workers to provide holistic support.",
+                "bn": "প্যালিয়েটিভ কেয়ারের মাল্টিডিসিপ্লিনারি টিমে ডাক্তার, নার্স, মনোবিজ্ঞানী এবং সমাজকর্মীরা সামগ্রিক সহায়তা প্রদানের জন্য অন্তর্ভুক্ত রয়েছেন।",
+                "hi": "उपशामक देखभाल में बहु-अनुशासनात्मक टीम में समग्र समर्थन प्रदान करने के लिए डॉक्टर, नर्स, मनोवैज्ञानिक और सामाजिक कार्यकर्ता शामिल हैं।",
+                "ur": "تسکین دہندہ نگہداشت میں کثیر الشعبہ ٹیم میں جامع مدد فراہم کرنے کے لیے ڈاکٹر، نرسیں، ماہر نفسیات اور سماجی کارکن شامل ہیں۔",
+                "tr": "Palyatif bakımda multidisipliner ekip, bütünsel destek sağlamak için doktorları, hemşireleri, psikologları ve sosyal hizmet uzmanlarını içerir."
+            },
+            "points": 10,
+            "id": "e54_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die __________ in einem Hospiz ist darauf ausgerichtet, den Patienten ein würdevolles Sterben zu ermöglichen.",
+                "en": "The __________ in a hospice is designed to allow patients to die with dignity.",
+                "bn": "হসপিসে __________ রোগীদের মর্যাদাপূর্ণ মৃত্যু নিশ্চিত করার জন্য ডিজাইন করা হয়েছে।",
+                "hi": "एक धर्मशाला में __________ मरीजों को गरिमा के साथ मरने की अनुमति देने के लिए डिज़ाइन किया गया है।",
+                "ur": "ایک ہاسپیس میں __________ مریضوں کو وقار کے ساتھ مرنے کی اجازت دینے کے لیے ڈیزائن کیا گیا ہے۔",
+                "tr": "Bir hastanedeki __________ hastaların onurlu bir şekilde ölmesine izin vermek için tasarlanmıştır."
+            },
+            "options": [],
+            "correctAnswer": "Betreuung",
+            "explanation": {
+                "en": "The care provided in a hospice aims to allow patients to die with dignity and comfort.",
+                "bn": "হসপিসে প্রদত্ত যত্ন রোগীদের সম্মান এবং স্বাচ্ছন্দ্যের সাথে মরতে দেওয়ার লক্ষ্যে তৈরি করা হয়েছে।",
+                "hi": "एक धर्मशाला में प्रदान की जाने वाली देखभाल का उद्देश्य मरीजों को सम्मान और आराम के साथ मरने की अनुमति देना है।",
+                "ur": "ایک ہاسپیس میں فراہم کی جانے والی دیکھ بھال کا مقصد مریضوں کو وقار اور آرام کے ساتھ مرنے کی اجازت دینا ہے۔",
+                "tr": "Bir hastanede sağlanan bakım, hastaların onur ve rahatlık içinde ölmesine izin vermeyi amaçlamaktadır."
+            },
+            "points": 10,
+            "id": "e54_11"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Palliative Care",
+                "en": "Palliative Care",
+                "bn": "প্যালিয়েটিভ কেয়ার",
+                "hi": "उपशामक देखभाल",
+                "ur": "تسکین دہندہ نگہداشت",
+                "tr": "Palyatif Bakım"
+            },
+            "options": [],
+            "correctAnswer": "Palliative Care",
+            "explanation": {
+                "en": "The English term for Palliative Care is Palliative Care.",
+                "bn": "প্যালিয়েটিভ কেয়ারের ইংরেজি শব্দ হলো প্যালিয়েটিভ কেয়ার।",
+                "hi": "Palliative Care के लिए अंग्रेजी शब्द Palliative Care है।",
+                "ur": "Palliative Care کے لیے انگریزی لفظ Palliative Care ہے۔",
+                "tr": "Palyatif Bakım için İngilizce terim Palyatif Bakımdır."
+            },
+            "points": 10,
+            "id": "e54_12"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Schmerztherapie",
+                "en": "Pain Therapy",
+                "bn": "ব্যথা থেরাপি",
+                "hi": "दर्द चिकित्सा",
+                "ur": "درد کی تھراپی",
+                "tr": "Ağrı Tedavisi"
+            },
+            "options": [],
+            "correctAnswer": "Pain Therapy",
+            "explanation": {
+                "en": "The English term for Schmerztherapie is Pain Therapy.",
+                "bn": "Schmerztherapie-এর ইংরেজি শব্দ হলো ব্যথা থেরাপি।",
+                "hi": "Schmerztherapie के लिए अंग्रेजी शब्द दर्द चिकित्सा है।",
+                "ur": "Schmerztherapie کے لیے انگریزی لفظ درد کی تھراپی ہے۔",
+                "tr": "Schmerztherapie için İngilizce terim Ağrı Tedavisidir."
+            },
+            "points": 10,
+            "id": "e54_13"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Lebensqualität",
+                "en": "Quality of Life",
+                "bn": "জীবনের মান",
+                "hi": "जीवन की गुणवत्ता",
+                "ur": "زندگی کا معیار",
+                "tr": "Yaşam Kalitesi"
+            },
+            "options": [],
+            "correctAnswer": "Quality of Life",
+            "explanation": {
+                "en": "The English term for Lebensqualität is Quality of Life.",
+                "bn": "Lebensqualität-এর ইংরেজি শব্দ হলো জীবনের মান।",
+                "hi": "Lebensqualität के लिए अंग्रेजी शब्द जीवन की गुणवत्ता है।",
+                "ur": "Lebensqualität کے لیے انگریزی لفظ زندگی کا معیار ہے۔",
+                "tr": "Lebensqualität için İngilizce terim Yaşam Kalitesidir."
+            },
+            "points": 10,
+            "id": "e54_14"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Maßnahmen gehört NICHT zur Symptomkontrolle in der Palliativmedizin?",
+                "en": "Which of the following measures does NOT belong to symptom control in palliative care?",
+                "bn": "প্যালিয়েটিভ কেয়ারে নিম্নলিখিত কোন পদক্ষেপটি লক্ষণ নিয়ন্ত্রণের অন্তর্ভুক্ত নয়?",
+                "hi": "उपशामक देखभाल में निम्नलिखित में से कौन सा उपाय लक्षण नियंत्रण में शामिल नहीं है?",
+                "ur": "تسکین دہندہ نگہداشت میں درج ذیل میں سے کون سا اقدام علامت کنٹرول میں شامل نہیں ہے؟",
+                "tr": "Aşağıdaki önlemlerden hangisi palyatif bakımda semptom kontrolüne dahil değildir?"
+            },
+            "options": [
+                "Schmerzbehandlung",
+                "Behandlung von Übelkeit",
+                "Psychologische Unterstützung",
+                "Aggressive Chemotherapie zur Krebsheilung"
+            ],
+            "correctAnswer": "Aggressive Chemotherapie zur Krebsheilung",
+            "explanation": {
+                "en": "Aggressive chemotherapy aimed at curing cancer is typically not part of palliative care, which focuses on symptom relief rather than cure.",
+                "bn": "ক্যান্সার নিরাময়ের লক্ষ্যে আক্রমনাত্মক কেমোথেরাপি সাধারণত প্যালিয়েটিভ কেয়ারের অংশ নয়, যা নিরাময়ের চেয়ে লক্ষণ উপশমের উপর দৃষ্টি নিবদ্ধ করে।",
+                "hi": "कैंसर को ठीक करने के उद्देश्य से आक्रामक कीमोथेरेपी आमतौर पर उपशामक देखभाल का हिस्सा नहीं है, जो इलाज के बजाय लक्षण राहत पर केंद्रित है।",
+                "ur": "کینسر کو ٹھیک کرنے کے مقصد سے جارحانہ کیموتھراپی عام طور پر تسکین دہندہ نگہداشت کا حصہ نہیں ہے، جو علاج کے بجائے علامت میں راحت پر مرکوز ہے۔",
+                "tr": "Kanseri iyileştirmeyi amaçlayan agresif kemoterapi, genellikle iyileşmekten ziyade semptomları hafifletmeye odaklanan palyatif bakımın bir parçası değildir."
+            },
+            "points": 10,
+            "id": "e54_15"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist die Rolle des Arztes in der Palliativmedizin?",
+                "en": "What is the role of the doctor in palliative care?",
+                "bn": "প্যালিয়েটিভ কেয়ারে ডাক্তারের ভূমিকা কী?",
+                "hi": "उपशामक देखभाल में डॉक्टर की भूमिका क्या है?",
+                "ur": "تسکین دہندہ نگہداشت میں ڈاکٹر کا کیا کردار ہے؟",
+                "tr": "Palyatif bakımda doktorun rolü nedir?"
+            },
+            "options": [
+                "Ausschließliche Fokussierung auf die Behandlung der Grunderkrankung",
+                "Entscheidungen treffen ohne Einbeziehung des Patienten",
+                "Koordination der Behandlung und Linderung von Symptomen",
+                "Die Vermeidung von Gesprächen über den Sterbeprozess"
+            ],
+            "correctAnswer": "Koordination der Behandlung und Linderung von Symptomen",
+            "explanation": {
+                "en": "The doctor's role in palliative care is to coordinate treatment, alleviate symptoms, and provide medical expertise.",
+                "bn": "প্যালিয়েটিভ কেয়ারে ডাক্তারের ভূমিকা হল চিকিত্সার সমন্বয় করা, লক্ষণগুলি হ্রাস করা এবং চিকিত্সা সংক্রান্ত দক্ষতা প্রদান করা।",
+                "hi": "उपशामक देखभाल में डॉक्टर की भूमिका उपचार का समन्वय करना, लक्षणों को कम करना और चिकित्सा विशेषज्ञता प्रदान करना है।",
+                "ur": "تسکین دہندہ نگہداشت میں ڈاکٹر کا کردار علاج کو مربوط کرنا، علامات کو کم کرنا اور طبی مہارت فراہم کرنا ہے۔",
+                "tr": "Palyatif bakımda doktorun rolü, tedaviyi koordine etmek, semptomları hafifletmek ve tıbbi uzmanlık sağlamaktır."
+            },
+            "points": 10,
+            "id": "e54_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Hospiz",
+                "en": "Hospice",
+                "bn": "হসপিস",
+                "hi": "धर्मशाला",
+                "ur": "ہاسپیس",
+                "tr": "Hospis"
+            },
+            "options": [],
+            "correctAnswer": "Hospice",
+            "explanation": {
+                "en": "The English translation for Hospiz is Hospice.",
+                "bn": "Hospiz-এর ইংরেজি অনুবাদ হলো Hospice।",
+                "hi": "Hospiz का अंग्रेजी अनुवाद Hospice है।",
+                "ur": "Hospiz کا انگریزی ترجمہ Hospice ہے۔",
+                "tr": "Hospiz'in İngilizce çevirisi Hospice'tir."
+            },
+            "points": 10,
+            "id": "e54_17"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

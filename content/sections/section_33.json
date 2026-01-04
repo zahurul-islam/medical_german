@@ -1,1 +1,1571 @@
-{"id":"section_33","phaseId":"phase3","order":33,"titleDe":"Kollegiale Kommunikation","title":{"en":"Colleague Communication","bn":"Colleague Communication","hi":"Colleague Communication","ur":"Colleague Communication","tr":"Colleague Communication"},"level":"C1","estimatedMinutes":40,"vocabulary":[{"id":"v33_01","germanTerm":"Fachbegriff","article":"der","plural":"Fachbegriffe","translation":{"en":"Technical Term","bn":"টেকনিক্যাল টার্ম","hi":"तकनीकी शब्द","ur":"تکنیکی اصطلاح","tr":"Teknik terim"}}],"dialogues":[{"id":"d33_01","title":{"en":"Professional Scenario"},"lines":[{"speaker":"Oberarzt","germanText":"Professional dialogue for Colleague Communication.","translation":{"en":"Professional dialogue for Colleague Communication."}}]}],"exercises":[{"id":"e33_01","type":"multipleChoice","question":{"en":"Advanced question for Colleague Communication?"},"options":["Option A","Option B","Option C"],"correctAnswer":"Option A","points":15}]}
+{
+    "id": "section_33",
+    "phaseId": "phase3",
+    "order": 33,
+    "titleDe": "Kollegiale Kommunikation",
+    "title": {
+        "en": "Colleague Communication: Handover, Shift, Consultation, Feedback, Meeting, Team Meeting",
+        "bn": "সহকর্মীর যোগাযোগ: হস্তান্তর, শিফট, পরামর্শ, প্রতিক্রিয়া, সভা, দলগত সভা",
+        "hi": "सहकर्मी संचार: हैंडओवर, शिफ्ट, परामर्श, प्रतिक्रिया, बैठक, टीम बैठक",
+        "ur": "ساتھی کی مواصلات: سپردگی، شفٹ، مشاورت، رائے، میٹنگ، ٹیم میٹنگ",
+        "tr": "Meslektaş İletişimi: Devir, Vardiya, Konsültasyon, Geri Bildirim, Toplantı, Ekip Toplantısı",
+        "de": "Kollegenkommunikation: Übergabe, Dienst, Konsil, Rücksprache, Besprechung, Teambesprechung"
+    },
+    "description": {
+        "en": "This section covers essential forms of communication among medical colleagues in German-speaking healthcare settings.",
+        "bn": "এই বিভাগে জার্মান-ভাষী স্বাস্থ্যসেবা সেটিংসে চিকিৎসা সহকর্মীদের মধ্যে যোগাযোগের প্রয়োজনীয় রূপগুলি আলোচনা করা হয়েছে।",
+        "hi": "यह खंड जर्मन भाषी स्वास्थ्य सेवा सेटिंग्स में चिकित्सा सहयोगियों के बीच संचार के आवश्यक रूपों को शामिल करता है।",
+        "ur": "یہ سیکشن جرمن بولنے والے صحت کی دیکھ بھال کے سیٹنگ میں طبی ساتھیوں کے درمیان مواصلات کی ضروری شکلوں کا احاطہ کرتا ہے۔",
+        "tr": "Bu bölüm, Almanca konuşulan sağlık hizmeti ortamlarındaki tıbbi meslektaşlar arasındaki temel iletişim biçimlerini kapsar.",
+        "de": "Dieser Abschnitt behandelt wesentliche Kommunikationsformen zwischen medizinischen Kollegen im deutschsprachigen Gesundheitswesen."
+    },
+    "level": "C1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, you will learn how to participate in common communication scenarios between medical colleagues. Specifically, you will gain proficiency in using the correct terminology and communicative strategies for handovers, shift reports, consultations, and team meetings.",
+            "bn": "এই বিভাগে, আপনি চিকিৎসা সহকর্মীদের মধ্যে সাধারণ যোগাযোগের পরিস্থিতিতে কীভাবে অংশ নিতে হয় তা শিখবেন। বিশেষভাবে, আপনি হস্তান্তর, শিফট রিপোর্ট, পরামর্শ এবং দলগত সভার জন্য সঠিক পরিভাষা এবং যোগাযোগ কৌশল ব্যবহারে দক্ষতা অর্জন করবেন।",
+            "hi": "इस खंड में, आप सीखेंगे कि चिकित्सा सहयोगियों के बीच सामान्य संचार परिदृश्यों में कैसे भाग लेना है। विशेष रूप से, आप हैंडओवर, शिफ्ट रिपोर्ट, परामर्श और टीम बैठकों के लिए सही शब्दावली और संचार रणनीतियों का उपयोग करने में दक्षता प्राप्त करेंगे।",
+            "ur": "اس سیکشن میں، آپ سیکھیں گے کہ طبی ساتھیوں کے درمیان عام مواصلاتی منظرناموں میں کیسے حصہ لینا ہے۔ خاص طور پر، آپ ہینڈ اوور، شفٹ رپورٹس، مشاورت، اور ٹیم میٹنگز کے لیے درست اصطلاحات اور مواصلاتی حکمت عملیوں کے استعمال میں مہارت حاصل کریں گے۔",
+            "tr": "Bu bölümde, tıbbi meslektaşlar arasındaki yaygın iletişim senaryolarına nasıl katılacağınızı öğreneceksiniz. Özellikle, devirler, vardiya raporları, konsültasyonlar ve ekip toplantıları için doğru terminoloji ve iletişim stratejilerini kullanma konusunda yetkinlik kazanacaksınız.",
+            "de": "In diesem Abschnitt lernen Sie, wie Sie an gängigen Kommunikationsszenarien zwischen medizinischen Kollegen teilnehmen. Insbesondere erlangen Sie Kenntnisse im Gebrauch der korrekten Terminologie und Kommunikationsstrategien für Übergaben, Schichtberichte, Konsile und Teambesprechungen."
+        },
+        "grammarFocus": {
+            "en": {
+                "1": "Use of specific verbs associated with communication, such as 'mitteilen', 'berichten', 'besprechen'.",
+                "2": "Correct usage of prepositions and cases to indicate the recipient or subject of communication (e.g., 'an den Kollegen berichten' - report to the colleague)."
+            },
+            "bn": {
+                "1": "'mitteilen', 'berichten', 'besprechen' এর মতো যোগাযোগের সাথে যুক্ত নির্দিষ্ট ক্রিয়াগুলির ব্যবহার।",
+                "2": "যোগাযোগের প্রাপক বা বিষয় নির্দেশ করতে উপসর্গ এবং কারকের সঠিক ব্যবহার (যেমন, 'an den Kollegen berichten' - সহকর্মীকে রিপোর্ট করুন)।"
+            },
+            "hi": {
+                "1": "संचार से जुड़े विशिष्ट क्रियाओं का उपयोग, जैसे 'mitteilen', 'berichten', 'besprechen'।",
+                "2": "संचार के प्राप्तकर्ता या विषय को इंगित करने के लिए पूर्वसर्गों और कारकों का सही उपयोग (उदाहरण के लिए, 'an den Kollegen berichten' - सहकर्मी को रिपोर्ट करें)।"
+            },
+            "ur": {
+                "1": "مواصلات سے منسلک مخصوص فعلوں کا استعمال، جیسے 'mitteilen', 'berichten', 'besprechen'۔",
+                "2": "مواصلات کے وصول کنندہ یا موضوع کی نشاندہی کرنے کے لیے سابقوں اور عوامل کا صحیح استعمال (مثال کے طور پر، 'an den Kollegen berichten' - ساتھی کو رپورٹ کریں)۔"
+            },
+            "tr": {
+                "1": "'mitteilen', 'berichten', 'besprechen' gibi iletişimle ilişkili özel fiillerin kullanımı.",
+                "2": "İletişimin alıcısını veya konusunu belirtmek için edatların ve durumların doğru kullanımı (örneğin, 'an den Kollegen berichten' - meslektaşa rapor vermek)."
+            },
+            "de": {
+                "1": "Verwendung spezifischer Verben im Zusammenhang mit Kommunikation, wie z.B. 'mitteilen', 'berichten', 'besprechen'.",
+                "2": "Korrekte Verwendung von Präpositionen und Fällen, um den Empfänger oder das Thema der Kommunikation anzugeben (z.B. 'an den Kollegen berichten')."
+            }
+        },
+        "culturalNotes": {
+            "en": "In German hospitals, precise and structured communication, particularly during handovers, is highly valued to ensure patient safety and continuity of care.",
+            "bn": "জার্মান হাসপাতালগুলিতে, রোগীর সুরক্ষা এবং যত্নের ধারাবাহিকতা নিশ্চিত করার জন্য সুনির্দিষ্ট এবং কাঠামোগত যোগাযোগ, বিশেষত হস্তান্তরকালে অত্যন্ত মূল্যবান।",
+            "hi": "जर्मन अस्पतालों में, रोगी सुरक्षा और देखभाल की निरंतरता सुनिश्चित करने के लिए सटीक और संरचित संचार, विशेष रूप से हैंडओवर के दौरान, अत्यधिक मूल्यवान है।",
+            "ur": "جرمن ہسپتالوں میں، مریض کی حفاظت اور دیکھ بھال کے تسلسل کو یقینی بنانے کے لیے درست اور منظم مواصلات، خاص طور پر ہینڈ اوور کے دوران، انتہائی قابل قدر ہے۔",
+            "tr": "Alman hastanelerinde, hasta güvenliğini ve bakımın devamlılığını sağlamak için, özellikle devirler sırasında kesin ve yapılandırılmış iletişim büyük önem taşır.",
+            "de": "In deutschen Krankenhäusern wird präzise und strukturierte Kommunikation, insbesondere bei Übergaben, sehr geschätzt, um die Patientensicherheit und Kontinuität der Versorgung zu gewährleisten."
+        },
+        "summary": {
+            "en": "Mastering these communication skills is crucial for effective collaboration and patient care in a German-speaking medical environment.",
+            "bn": "জার্মান-ভাষী চিকিৎসা পরিবেশে কার্যকর সহযোগিতা এবং রোগীর যত্নের জন্য এই যোগাযোগের দক্ষতা অর্জন করা অত্যন্ত গুরুত্বপূর্ণ।",
+            "hi": "जर्मन भाषी चिकित्सा वातावरण में प्रभावी सहयोग और रोगी देखभाल के लिए इन संचार कौशल में महारत हासिल करना महत्वपूर्ण है।",
+            "ur": "جرمن بولنے والے طبی ماحول میں مؤثر تعاون اور مریض کی دیکھ بھال کے لیے ان مواصلاتی مہارتوں میں مہارت حاصل کرنا بہت ضروری ہے۔",
+            "tr": "Bu iletişim becerilerinde uzmanlaşmak, Almanca konuşulan bir tıbbi ortamda etkili işbirliği ve hasta bakımı için çok önemlidir.",
+            "de": "Die Beherrschung dieser Kommunikationsfähigkeiten ist entscheidend für eine effektive Zusammenarbeit und Patientenversorgung im deutschsprachigen medizinischen Umfeld."
+        },
+        "learningObjectives": [
+            "Identify and use appropriate German terminology for different types of colleague communication in a medical setting.",
+            "Effectively participate in handover procedures, providing clear and concise patient information.",
+            "Understand the structure and expectations for shift reports, consultations, and team meetings.",
+            "Demonstrate cultural sensitivity in communication with German-speaking colleagues."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "Übergabe",
+            "article": "die",
+            "plural": "Übergaben",
+            "pronunciation": "ˈyːbɐˌɡeːbə",
+            "category": "noun",
+            "translation": {
+                "en": "handover, change of shift",
+                "bn": "হস্তান্তর, শিফটের পরিবর্তন",
+                "hi": "हस्तांतरण, शिफ्ट का परिवर्तन",
+                "ur": "حوالگی، شفٹ کی تبدیلی",
+                "tr": "devir, vardiya değişimi"
+            },
+            "exampleSentence": "Die Übergabe findet täglich um 7 Uhr statt.",
+            "exampleTranslation": {
+                "en": "The handover takes place daily at 7 o'clock.",
+                "bn": "হস্তান্তর প্রতিদিন সকাল ৭টায় অনুষ্ঠিত হয়।",
+                "hi": "हस्तांतरण प्रतिदिन सुबह 7 बजे होता है।",
+                "ur": "حوالگی روزانہ 7 بجے ہوتی ہے۔",
+                "tr": "Devir teslimi her gün saat 7'de gerçekleşir."
+            },
+            "id": "v33_01"
+        },
+        {
+            "germanTerm": "Dienst",
+            "article": "der",
+            "plural": "Dienste",
+            "pronunciation": "diːnst",
+            "category": "noun",
+            "translation": {
+                "en": "duty, shift",
+                "bn": "কর্তব্য, শিফট",
+                "hi": "ड्यूटी, शिफ्ट",
+                "ur": "ڈیوٹی، شفٹ",
+                "tr": "görev, vardiya"
+            },
+            "exampleSentence": "Ich habe heute Nacht Dienst.",
+            "exampleTranslation": {
+                "en": "I am on duty tonight.",
+                "bn": "আজ রাতে আমার ডিউটি আছে।",
+                "hi": "आज रात मेरी ड्यूटी है।",
+                "ur": "آج رات میری ڈیوٹی ہے۔",
+                "tr": "Bu gece nöbetteyim."
+            },
+            "id": "v33_02"
+        },
+        {
+            "germanTerm": "Konsil",
+            "article": "das",
+            "plural": "Konsile",
+            "pronunciation": "kɔnˈziːl",
+            "category": "noun",
+            "translation": {
+                "en": "consultation",
+                "bn": "পরামর্শ",
+                "hi": "परामर्श",
+                "ur": "مشاورت",
+                "tr": "konsültasyon"
+            },
+            "exampleSentence": "Wir brauchen ein Konsil vom Kardiologen.",
+            "exampleTranslation": {
+                "en": "We need a consultation from the cardiologist.",
+                "bn": "আমাদের কার্ডিওলজিস্টের কাছ থেকে একটি পরামর্শ প্রয়োজন।",
+                "hi": "हमें हृदय रोग विशेषज्ञ से परामर्श की आवश्यकता है।",
+                "ur": "ہمیں ماہر امراض قلب سے مشورے کی ضرورت ہے۔",
+                "tr": "Kardiyologdan konsültasyon almamız gerekiyor."
+            },
+            "id": "v33_03"
+        },
+        {
+            "germanTerm": "Rücksprache",
+            "article": "die",
+            "plural": "Rücksprachen",
+            "pronunciation": "ˈʁʏkʃpʁaːxə",
+            "category": "noun",
+            "translation": {
+                "en": "consultation, discussion",
+                "bn": "পরামর্শ, আলোচনা",
+                "hi": "परामर्श, चर्चा",
+                "ur": "مشاورت، گفتگو",
+                "tr": "istişare, görüşme"
+            },
+            "exampleSentence": "Bitte halten Sie Rücksprache mit dem Oberarzt.",
+            "exampleTranslation": {
+                "en": "Please consult with the senior physician.",
+                "bn": "সিনিয়র ডাক্তারের সাথে পরামর্শ করুন।",
+                "hi": "वरिष्ठ चिकित्सक से परामर्श करें।",
+                "ur": "سینئر ڈاکٹر سے مشورہ کریں۔",
+                "tr": "Lütfen başhekimle istişare edin."
+            },
+            "id": "v33_04"
+        },
+        {
+            "germanTerm": "Besprechung",
+            "article": "die",
+            "plural": "Besprechungen",
+            "pronunciation": "bəˈʃpʁɛçʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "meeting",
+                "bn": "সভা",
+                "hi": "बैठक",
+                "ur": "اجلاس",
+                "tr": "toplantı"
+            },
+            "exampleSentence": "Die tägliche Besprechung beginnt um 8 Uhr.",
+            "exampleTranslation": {
+                "en": "The daily meeting starts at 8 o'clock.",
+                "bn": "দৈনিক সভা সকাল ৮টায় শুরু হয়।",
+                "hi": "दैनिक बैठक सुबह 8 बजे शुरू होती है।",
+                "ur": "روزانہ اجلاس 8 بجے شروع ہوتا ہے۔",
+                "tr": "Günlük toplantı saat 8'de başlar."
+            },
+            "id": "v33_05"
+        },
+        {
+            "germanTerm": "Teambesprechung",
+            "article": "die",
+            "plural": "Teambesprechungen",
+            "pronunciation": "ˈtiːmˌbəʃpʁɛçʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "team meeting",
+                "bn": "দল বৈঠক",
+                "hi": "टीम बैठक",
+                "ur": "ٹیم میٹنگ",
+                "tr": "ekip toplantısı"
+            },
+            "exampleSentence": "Wir haben wöchentlich eine Teambesprechung.",
+            "exampleTranslation": {
+                "en": "We have a team meeting weekly.",
+                "bn": "আমাদের প্রতি সপ্তাহে একটি দল বৈঠক হয়।",
+                "hi": "हमारी साप्ताहिक टीम बैठक होती है।",
+                "ur": "ہماری ہفتہ وار ٹیم میٹنگ ہوتی ہے۔",
+                "tr": "Haftalık ekip toplantımız var."
+            },
+            "id": "v33_06"
+        },
+        {
+            "germanTerm": "Visite",
+            "article": "die",
+            "plural": "Visiten",
+            "pronunciation": "viˈziːtə",
+            "category": "noun",
+            "translation": {
+                "en": "ward round",
+                "bn": "ওয়ার্ড রাউন্ড",
+                "hi": "वार्ड राउंड",
+                "ur": "وارڈ راؤنڈ",
+                "tr": "vizit"
+            },
+            "exampleSentence": "Die Visite beginnt um 9 Uhr.",
+            "exampleTranslation": {
+                "en": "The ward round starts at 9 o'clock.",
+                "bn": "ওয়ার্ড রাউন্ড সকাল ৯টায় শুরু হয়।",
+                "hi": "वार्ड राउंड सुबह 9 बजे शुरू होता है।",
+                "ur": "وارڈ راؤنڈ 9 بجے شروع ہوتا ہے۔",
+                "tr": "Vizit saat 9'da başlıyor."
+            },
+            "id": "v33_07"
+        },
+        {
+            "germanTerm": "Kollege",
+            "article": "der",
+            "plural": "Kollegen",
+            "pronunciation": "kɔˈleːɡə",
+            "category": "noun",
+            "translation": {
+                "en": "colleague",
+                "bn": "সহকর্মী",
+                "hi": "सहकर्मी",
+                "ur": "ساتھی",
+                "tr": "meslektaş"
+            },
+            "exampleSentence": "Ich arbeite gut mit meinen Kollegen zusammen.",
+            "exampleTranslation": {
+                "en": "I work well with my colleagues.",
+                "bn": "আমি আমার সহকর্মীদের সাথে ভালোভাবে কাজ করি।",
+                "hi": "मैं अपने सहकर्मियों के साथ अच्छी तरह से काम करता हूं।",
+                "ur": "میں اپنے ساتھیوں کے ساتھ اچھی طرح کام کرتا ہوں۔",
+                "tr": "Meslektaşlarımla iyi çalışıyorum."
+            },
+            "id": "v33_08"
+        },
+        {
+            "germanTerm": "Oberarzt",
+            "article": "der",
+            "plural": "Oberärzte",
+            "pronunciation": "ˈoːbɐˌʔaːɐ̯t͡st",
+            "category": "noun",
+            "translation": {
+                "en": "senior physician, consultant",
+                "bn": "সিনিয়র চিকিৎসক, পরামর্শক",
+                "hi": "वरिष्ठ चिकित्सक, सलाहकार",
+                "ur": "سینئر طبیب، مشیر",
+                "tr": "başhekim, uzman doktor"
+            },
+            "exampleSentence": "Der Oberarzt hat die Entscheidung getroffen.",
+            "exampleTranslation": {
+                "en": "The senior physician made the decision.",
+                "bn": "সিনিয়র চিকিৎসক সিদ্ধান্ত নিয়েছেন।",
+                "hi": "वरिष्ठ चिकित्सक ने निर्णय लिया।",
+                "ur": "سینئر طبیب نے فیصلہ کیا۔",
+                "tr": "Başhekim kararı verdi."
+            },
+            "id": "v33_09"
+        },
+        {
+            "germanTerm": "Unterarzt",
+            "article": "der",
+            "plural": "Unterärzte",
+            "pronunciation": "ˈʊntɐˌʔaːɐ̯t͡st",
+            "category": "noun",
+            "translation": {
+                "en": "junior doctor, resident",
+                "bn": "জুনিয়র ডাক্তার, আবাসিক",
+                "hi": "जूनियर डॉक्टर, निवासी",
+                "ur": "جونیئر ڈاکٹر، رہائشی",
+                "tr": "asistan doktor"
+            },
+            "exampleSentence": "Der Unterarzt ist für die Blutentnahmen zuständig.",
+            "exampleTranslation": {
+                "en": "The junior doctor is responsible for blood draws.",
+                "bn": "জুনিয়র ডাক্তার রক্ত নেওয়ার জন্য দায়ী।",
+                "hi": "जूनियर डॉक्टर रक्त निकालने के लिए जिम्मेदार है।",
+                "ur": "جونیئر ڈاکٹر خون نکالنے کا ذمہ دار ہے۔",
+                "tr": "Asistan doktor kan almaktan sorumludur."
+            },
+            "id": "v33_10"
+        },
+        {
+            "germanTerm": "Pflegekraft",
+            "article": "die",
+            "plural": "Pflegekräfte",
+            "pronunciation": "ˈp͡fleːɡəˌkʁaft",
+            "category": "noun",
+            "translation": {
+                "en": "nurse, caregiver",
+                "bn": "নার্স, পরিচর্যাকারী",
+                "hi": "नर्स, देखभालकर्ता",
+                "ur": "نرس، دیکھ بھال کرنے والا",
+                "tr": "hemşire, bakıcı"
+            },
+            "exampleSentence": "Die Pflegekraft hat die Medikamente verabreicht.",
+            "exampleTranslation": {
+                "en": "The nurse administered the medication.",
+                "bn": "নার্স ওষুধ দিয়েছেন।",
+                "hi": "नर्स ने दवा दी।",
+                "ur": "نرس نے دوا دی۔",
+                "tr": "Hemşire ilacı uyguladı."
+            },
+            "id": "v33_11"
+        },
+        {
+            "germanTerm": "Gespräch",
+            "article": "das",
+            "plural": "Gespräche",
+            "pronunciation": "ɡəˈʃpʁɛːç",
+            "category": "noun",
+            "translation": {
+                "en": "conversation, discussion",
+                "bn": "কথোপকথন, আলোচনা",
+                "hi": "बातचीत, चर्चा",
+                "ur": "بات چیت، گفتگو",
+                "tr": "konuşma, tartışma"
+            },
+            "exampleSentence": "Wir hatten ein langes Gespräch über den Patienten.",
+            "exampleTranslation": {
+                "en": "We had a long conversation about the patient.",
+                "bn": "রোগী সম্পর্কে আমাদের একটি দীর্ঘ আলোচনা হয়েছিল।",
+                "hi": "हमारी रोगी के बारे में एक लंबी बातचीत हुई।",
+                "ur": "ہماری مریض کے بارے میں ایک لمبی گفتگو ہوئی۔",
+                "tr": "Hasta hakkında uzun bir konuşma yaptık."
+            },
+            "id": "v33_12"
+        },
+        {
+            "germanTerm": "Team",
+            "article": "das",
+            "plural": "Teams",
+            "pronunciation": "tiːm",
+            "category": "noun",
+            "translation": {
+                "en": "team",
+                "bn": "দল",
+                "hi": "टीम",
+                "ur": "ٹیم",
+                "tr": "takım"
+            },
+            "exampleSentence": "Wir sind ein starkes Team.",
+            "exampleTranslation": {
+                "en": "We are a strong team.",
+                "bn": "আমরা একটি শক্তিশালী দল।",
+                "hi": "हम एक मजबूत टीम हैं।",
+                "ur": "ہم ایک مضبوط ٹیم ہیں۔",
+                "tr": "Güçlü bir takımız."
+            },
+            "id": "v33_13"
+        },
+        {
+            "germanTerm": "Kommunikation",
+            "article": "die",
+            "plural": "Kommunikationen",
+            "pronunciation": "kɔmuni̯kaˈt͡si̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "communication",
+                "bn": "যোগাযোগ",
+                "hi": "संचार",
+                "ur": "مواصلات",
+                "tr": "iletişim"
+            },
+            "exampleSentence": "Gute Kommunikation ist wichtig im Krankenhaus.",
+            "exampleTranslation": {
+                "en": "Good communication is important in the hospital.",
+                "bn": "হাসপাতালে ভাল যোগাযোগ গুরুত্বপূর্ণ।",
+                "hi": "अस्पताल में अच्छा संचार महत्वपूर्ण है।",
+                "ur": "ہسپتال میں اچھی مواصلات اہم ہے۔",
+                "tr": "Hastanede iyi iletişim önemlidir."
+            },
+            "id": "v33_14"
+        },
+        {
+            "germanTerm": "Patientenakte",
+            "article": "die",
+            "plural": "Patientenakten",
+            "pronunciation": "paˈt͡si̯ɛntn̩ˌʔaktə",
+            "category": "noun",
+            "translation": {
+                "en": "patient file, medical record",
+                "bn": "রোগীর ফাইল, মেডিকেল রেকর্ড",
+                "hi": "रोगी फ़ाइल, मेडिकल रिकॉर्ड",
+                "ur": "مریض کی فائل، میڈیکل ریکارڈ",
+                "tr": "hasta dosyası, tıbbi kayıt"
+            },
+            "exampleSentence": "Die Informationen stehen in der Patientenakte.",
+            "exampleTranslation": {
+                "en": "The information is in the patient file.",
+                "bn": "তথ্য রোগীর ফাইলে আছে।",
+                "hi": "जानकारी रोगी फ़ाइल में है।",
+                "ur": "معلومات مریض کی فائل میں ہے۔",
+                "tr": "Bilgiler hasta dosyasında bulunmaktadır."
+            },
+            "id": "v33_15"
+        },
+        {
+            "germanTerm": "Anamnese",
+            "article": "die",
+            "plural": "Anamnesen",
+            "pronunciation": "anaˈmneːzə",
+            "category": "noun",
+            "translation": {
+                "en": "medical history",
+                "bn": "মেডিকেল ইতিহাস",
+                "hi": "चिकित्सा इतिहास",
+                "ur": "طبی تاریخ",
+                "tr": "anamnez, tıbbi geçmiş"
+            },
+            "exampleSentence": "Die Anamnese wurde sorgfältig aufgenommen.",
+            "exampleTranslation": {
+                "en": "The medical history was carefully taken.",
+                "bn": "মেডিকেল ইতিহাসটি যত্ন সহকারে নেওয়া হয়েছিল।",
+                "hi": "चिकित्सा इतिहास को सावधानीपूर्वक लिया गया था।",
+                "ur": "طبی تاریخ کو احتیاط سے لیا گیا تھا۔",
+                "tr": "Tıbbi geçmiş dikkatlice alındı."
+            },
+            "id": "v33_16"
+        },
+        {
+            "germanTerm": "Befund",
+            "article": "der",
+            "plural": "Befunde",
+            "pronunciation": "bəˈfʊnt",
+            "category": "noun",
+            "translation": {
+                "en": "finding, result",
+                "bn": "আবিষ্কার, ফলাফল",
+                "hi": "खोज, परिणाम",
+                "ur": "تلاش، نتیجہ",
+                "tr": "bulgu, sonuç"
+            },
+            "exampleSentence": "Der Befund ist unauffällig.",
+            "exampleTranslation": {
+                "en": "The finding is unremarkable.",
+                "bn": "আবিষ্কারটি অসাধারণ।",
+                "hi": "खोज असाधारण है।",
+                "ur": "تلاش غیر معمولی ہے۔",
+                "tr": "Bulgu olağan dışı değil."
+            },
+            "id": "v33_17"
+        },
+        {
+            "germanTerm": "Therapie",
+            "article": "die",
+            "plural": "Therapien",
+            "pronunciation": "teʁaˈpiː",
+            "category": "noun",
+            "translation": {
+                "en": "therapy",
+                "bn": "থেরাপি",
+                "hi": "थेरेपी",
+                "ur": "تھراپی",
+                "tr": "terapi"
+            },
+            "exampleSentence": "Die Therapie zeigt Wirkung.",
+            "exampleTranslation": {
+                "en": "The therapy is effective.",
+                "bn": "থেরাপি কার্যকর।",
+                "hi": "थेरेपी प्रभावी है।",
+                "ur": "تھراپی مؤثر ہے۔",
+                "tr": "Terapi etkili oluyor."
+            },
+            "id": "v33_18"
+        },
+        {
+            "germanTerm": "behandeln",
+            "article": null,
+            "plural": null,
+            "pronunciation": "bəˈhandl̩n",
+            "category": "verb",
+            "translation": {
+                "en": "to treat",
+                "bn": "চিকিৎসা করা",
+                "hi": "इलाज करना",
+                "ur": "علاج کرنا",
+                "tr": "tedavi etmek"
+            },
+            "exampleSentence": "Wir müssen den Patienten schnell behandeln.",
+            "exampleTranslation": {
+                "en": "We must treat the patient quickly.",
+                "bn": "আমাদের রোগীকে দ্রুত চিকিৎসা করতে হবে।",
+                "hi": "हमें मरीज का जल्दी इलाज करना चाहिए।",
+                "ur": "ہمیں مریض کا فوری علاج کرنا چاہیے۔",
+                "tr": "Hastayı hızlıca tedavi etmeliyiz."
+            },
+            "id": "v33_19"
+        },
+        {
+            "germanTerm": "informieren",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ɪnfɔʁˈmiːʁən",
+            "category": "verb",
+            "translation": {
+                "en": "to inform",
+                "bn": "জানানো",
+                "hi": "सूचित करना",
+                "ur": "اطلاع دینا",
+                "tr": "bilgilendirmek"
+            },
+            "exampleSentence": "Ich muss den Patienten über die Risiken informieren.",
+            "exampleTranslation": {
+                "en": "I must inform the patient about the risks.",
+                "bn": "আমাকে রোগীকে ঝুঁকি সম্পর্কে জানাতে হবে।",
+                "hi": "मुझे रोगी को जोखिमों के बारे में सूचित करना होगा।",
+                "ur": "مجھے مریض کو خطرات سے آگاہ کرنا ہوگا۔",
+                "tr": "Hastayı riskler hakkında bilgilendirmeliyim."
+            },
+            "id": "v33_20"
+        },
+        {
+            "germanTerm": "dokumentieren",
+            "article": null,
+            "plural": null,
+            "pronunciation": "dokumɛnˈtiːʁən",
+            "category": "verb",
+            "translation": {
+                "en": "to document",
+                "bn": "নথিভুক্ত করা",
+                "hi": "दस्तावेज़ बनाना",
+                "ur": "دستاویز بنانا",
+                "tr": "belgelemek"
+            },
+            "exampleSentence": "Wir müssen alles sorgfältig dokumentieren.",
+            "exampleTranslation": {
+                "en": "We must document everything carefully.",
+                "bn": "আমাদের সবকিছু সাবধানে নথিভুক্ত করতে হবে।",
+                "hi": "हमें सब कुछ सावधानी से दस्तावेज़ बनाना होगा।",
+                "ur": "ہمیں ہر چیز کو احتیاط سے دستاویزی شکل دینا ہوگی۔",
+                "tr": "Her şeyi dikkatlice belgelemeliyiz."
+            },
+            "id": "v33_21"
+        },
+        {
+            "germanTerm": "besprechen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "bəˈʃpʁɛçən",
+            "category": "verb",
+            "translation": {
+                "en": "to discuss",
+                "bn": "আলোচনা করা",
+                "hi": "चर्चा करना",
+                "ur": "بحث کرنا",
+                "tr": "görüşmek, tartışmak"
+            },
+            "exampleSentence": "Wir müssen den Fall mit dem Team besprechen.",
+            "exampleTranslation": {
+                "en": "We need to discuss the case with the team.",
+                "bn": "আমাদের দলের সাথে এই ঘটনাটি আলোচনা করতে হবে।",
+                "hi": "हमें टीम के साथ इस मामले पर चर्चा करने की आवश्यकता है।",
+                "ur": "ہمیں ٹیم کے ساتھ اس معاملے پر تبادلہ خیال کرنے کی ضرورت ہے۔",
+                "tr": "Bu vakayı ekiple görüşmemiz gerekiyor."
+            },
+            "id": "v33_22"
+        },
+        {
+            "germanTerm": "verantwortlich",
+            "article": null,
+            "plural": null,
+            "pronunciation": "fɛɐ̯ˈʔantvɔʁtlɪç",
+            "category": "adjective",
+            "translation": {
+                "en": "responsible",
+                "bn": "দায়ী",
+                "hi": "जिम्मेदार",
+                "ur": "ذمہ دار",
+                "tr": "sorumlu"
+            },
+            "exampleSentence": "Wer ist für diesen Patienten verantwortlich?",
+            "exampleTranslation": {
+                "en": "Who is responsible for this patient?",
+                "bn": "এই রোগীর জন্য কে দায়ী?",
+                "hi": "इस रोगी के लिए कौन जिम्मेदार है?",
+                "ur": "اس مریض کے لیے کون ذمہ دار ہے؟",
+                "tr": "Bu hastadan kim sorumlu?"
+            },
+            "id": "v33_23"
+        },
+        {
+            "germanTerm": "wichtig",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˈvɪçtɪç",
+            "category": "adjective",
+            "translation": {
+                "en": "important",
+                "bn": "গুরুত্বপূর্ণ",
+                "hi": "महत्वपूर्ण",
+                "ur": "اہم",
+                "tr": "önemli"
+            },
+            "exampleSentence": "Es ist wichtig, die Anweisungen zu befolgen.",
+            "exampleTranslation": {
+                "en": "It is important to follow the instructions.",
+                "bn": "নির্দেশাবলী অনুসরণ করা গুরুত্বপূর্ণ।",
+                "hi": "निर्देशों का पालन करना महत्वपूर्ण है।",
+                "ur": "ہدایات پر عمل کرنا اہم ہے۔",
+                "tr": "Talimatları takip etmek önemlidir."
+            },
+            "id": "v33_24"
+        },
+        {
+            "germanTerm": "gemeinsam",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ɡəˈmaɪ̯nzaːm",
+            "category": "adjective",
+            "translation": {
+                "en": "together, jointly",
+                "bn": "একসাথে, যৌথভাবে",
+                "hi": "एक साथ, संयुक्त रूप से",
+                "ur": "ایک ساتھ، مشترکہ طور پر",
+                "tr": "birlikte, ortaklaşa"
+            },
+            "exampleSentence": "Wir arbeiten gemeinsam an der Lösung.",
+            "exampleTranslation": {
+                "en": "We are working together on the solution.",
+                "bn": "আমরা একসাথে সমাধানের উপর কাজ করছি।",
+                "hi": "हम समाधान पर एक साथ काम कर रहे हैं।",
+                "ur": "ہم مل کر حل پر کام کر رہے ہیں۔",
+                "tr": "Çözüm üzerinde birlikte çalışıyoruz."
+            },
+            "id": "v33_25"
+        },
+        {
+            "germanTerm": "im Dienst sein",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ɪm diːnst zaɪ̯n",
+            "category": "phrase",
+            "translation": {
+                "en": "to be on duty",
+                "bn": "ডিউটিতে থাকা",
+                "hi": "ड्यूटी पर होना",
+                "ur": "ڈیوٹی پر ہونا",
+                "tr": "görevde olmak"
+            },
+            "exampleSentence": "Ich bin heute im Dienst.",
+            "exampleTranslation": {
+                "en": "I am on duty today.",
+                "bn": "আজ আমি ডিউটিতে আছি।",
+                "hi": "आज मैं ड्यूटी पर हूँ।",
+                "ur": "میں آج ڈیوٹی پر ہوں۔",
+                "tr": "Bugün görevdeyim."
+            },
+            "id": "v33_26"
+        },
+        {
+            "germanTerm": "sich austauschen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "zɪç ˈaʊ̯sˌtaʊ̯ʃən",
+            "category": "verb",
+            "translation": {
+                "en": "to exchange information, to share ideas",
+                "bn": "তথ্য বিনিময় করা, ধারণা ভাগ করা",
+                "hi": "जानकारी का आदान-प्रदान करना, विचारों को साझा करना",
+                "ur": "معلومات کا تبادلہ کرنا، خیالات کا اشتراک کرنا",
+                "tr": "bilgi alışverişinde bulunmak, fikir paylaşmak"
+            },
+            "exampleSentence": "Wir müssen uns regelmäßig austauschen.",
+            "exampleTranslation": {
+                "en": "We need to exchange information regularly.",
+                "bn": "আমাদের নিয়মিত তথ্য বিনিময় করতে হবে।",
+                "hi": "हमें नियमित रूप से जानकारी का आदान-प्रदान करने की आवश्यकता है।",
+                "ur": "ہمیں باقاعدگی سے معلومات کا تبادلہ کرنے کی ضرورت ہے۔",
+                "tr": "Düzenli olarak bilgi alışverişinde bulunmalıyız."
+            },
+            "id": "v33_27"
+        },
+        {
+            "germanTerm": "Kollegialität",
+            "article": "die",
+            "plural": null,
+            "pronunciation": "kɔleɡi̯aliˈtɛːt",
+            "category": "noun",
+            "translation": {
+                "en": "collegiality",
+                "bn": "বন্ধুত্বপূর্ণ সহযোগিতা",
+                "hi": "सहयोगिता",
+                "ur": "رفاقت",
+                "tr": "meslektaşlık"
+            },
+            "exampleSentence": "Kollegialität ist im Team sehr wichtig.",
+            "exampleTranslation": {
+                "en": "Collegiality is very important in the team.",
+                "bn": "দলের মধ্যে বন্ধুত্বপূর্ণ সহযোগিতা খুবই গুরুত্বপূর্ণ।",
+                "hi": "टीम में सहयोगिता बहुत महत्वपूर्ण है।",
+                "ur": "ٹیم میں رفاقت بہت اہم ہے۔",
+                "tr": "Ekipte meslektaşlık çok önemlidir."
+            },
+            "id": "v33_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Shift Handoff (Übergabe) after Night Shift",
+                "bn": "রাতের শিফটের পরে শিফট হস্তান্তর (Übergabe)",
+                "hi": "नाइट शिफ्ट के बाद शिफ्ट हैंडऑफ़ (Übergabe)",
+                "ur": "نائٹ شفٹ کے بعد شفٹ ہینڈ آف (Übergabe)",
+                "tr": "Gece Vardiyasından sonra Vardiya Devri (Übergabe)"
+            },
+            "context": {
+                "en": "Dr. Schmidt is handing over to Dr. Meier after the night shift in the ICU.",
+                "bn": "ডাঃ শ্মিট আইসিইউতে রাতের শিফটের পরে ডাঃ মিয়ারের কাছে হস্তান্তর করছেন।",
+                "hi": "डॉ. श्मिट आईसीयू में रात की शिफ्ट के बाद डॉ. मेयर को कार्यभार सौंप रहे हैं।",
+                "ur": "ڈاکٹر شمٹ آئی سی یو میں رات کی شفٹ کے بعد ڈاکٹر میئر کو چارج دے رہے ہیں۔",
+                "tr": "Dr. Schmidt, yoğun bakım ünitesindeki gece vardiyasından sonra Dr. Meier'e devrediyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Morgen, Herr Kollege. Hier ist die Übergabe. Patient Müller auf Station 3 hat seit 2 Stunden Fieber und benötigt Paracetamol.",
+                    "translation": {
+                        "en": "Good morning, colleague. Here's the handoff. Patient Müller in room 3 has had a fever for 2 hours and needs Paracetamol.",
+                        "bn": "শুভ সকাল, সহকর্মী। এখানে হস্তান্তর। ৩ নম্বর কক্ষে রোগী মুলারের ২ ঘণ্টা ধরে জ্বর রয়েছে এবং প্যারাসিটামল প্রয়োজন।",
+                        "hi": "शुभ प्रभात, सहकर्मी। यहाँ कार्यभार है। कमरा नंबर 3 में रोगी मुलर को 2 घंटे से बुखार है और उसे पेरासिटामोल की आवश्यकता है।",
+                        "ur": "صبح بخیر، ساتھی۔ یہ چارج ہے۔ کمرہ نمبر 3 میں مریض ملر کو 2 گھنٹے سے بخار ہے اور اسے پیراسیٹامول کی ضرورت ہے۔",
+                        "tr": "Günaydın meslektaşım. İşte devir. 3 numaralı odadaki Müller hastası 2 saattir ateşli ve Parasetamol'e ihtiyacı var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Verstanden. Gab es noch andere Auffälligkeiten?",
+                    "translation": {
+                        "en": "Understood. Were there any other abnormalities?",
+                        "bn": "বুঝেছি। অন্য কোনো অস্বাভাবিকতা ছিল?",
+                        "hi": "समझ गया। क्या कोई अन्य असामान्यताएं थीं?",
+                        "ur": "سمجھ گیا۔ کیا کوئی اور غیر معمولی چیزیں تھیں؟",
+                        "tr": "Anlaşıldı. Başka anormallikler var mıydı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ja, Frau Lehmann hat weiterhin Schmerzen trotz der Schmerzmittel. Ich habe eine Rücksprache mit dem Schmerzdienst angeordnet.",
+                    "translation": {
+                        "en": "Yes, Mrs. Lehmann still has pain despite the pain medication. I have ordered a consultation with the pain service.",
+                        "bn": "হ্যাঁ, মিসেস লেহমানের ব্যথানাশক ওষুধ সত্ত্বেও এখনও ব্যথা আছে। আমি ব্যথা পরিষেবা সঙ্গে একটি পরামর্শের ব্যবস্থা করেছি।",
+                        "hi": "हाँ, श्रीमती लेहमैन को दर्द निवारक दवा के बावजूद अभी भी दर्द है। मैंने दर्द सेवा के साथ एक परामर्श का आदेश दिया है।",
+                        "ur": "جی ہاں، محترمہ لیمان کو درد کی دوا کے باوجود ابھی بھی درد ہے۔ میں نے درد کی سروس کے ساتھ ایک مشاورت کا حکم دیا ہے۔",
+                        "tr": "Evet, Bayan Lehmann'ın ağrı kesici ilaca rağmen hala ağrısı var. Ağrı servisi ile bir konsültasyon ayarladım."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Gut gemacht. Danke für die Informationen. Einen schönen Tag noch!",
+                    "translation": {
+                        "en": "Well done. Thanks for the information. Have a good day!",
+                        "bn": "খুব ভালো। তথ্যের জন্য ধন্যবাদ। আপনার দিনটি শুভ হোক!",
+                        "hi": "बहुत अच्छा। जानकारी के लिए धन्यवाद। आपका दिन शुभ हो!",
+                        "ur": "بہت خوب۔ معلومات کے لیے شکریہ۔ آپ کا دن اچھا گزرے!",
+                        "tr": "Aferin. Bilgi için teşekkürler. İyi günler!"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Gern geschehen. Ihnen auch!",
+                    "translation": {
+                        "en": "You're welcome. You too!",
+                        "bn": "আপনাকে স্বাগতম। আপনাকেও!",
+                        "hi": "आपका स्वागत है। आपको भी!",
+                        "ur": "خوش آمدید۔ آپ کو بھی!",
+                        "tr": "Rica ederim. Size de!"
+                    }
+                }
+            ],
+            "id": "d33_01"
+        },
+        {
+            "title": {
+                "en": "Nurse-Doctor Consultation (Konsil) about Wound Care",
+                "bn": "ক্ষত পরিচর্যা সম্পর্কে নার্স-ডাক্তার পরামর্শ (Konsil)",
+                "hi": "घाव की देखभाल के बारे में नर्स-डॉक्टर परामर्श (Konsil)",
+                "ur": "زخم کی دیکھ بھال کے بارے میں نرس-ڈاکٹر مشاورت (Konsil)",
+                "tr": "Yara Bakımı Hakkında Hemşire-Doktor Konsültasyonu (Konsil)"
+            },
+            "context": {
+                "en": "Sister Weber is consulting Dr. Klein about a patient's difficult-to-heal wound.",
+                "bn": "সিস্টার ওয়েবার একজন রোগীর নিরাময় করা কঠিন ক্ষত সম্পর্কে ডাঃ ক্লিনের সাথে পরামর্শ করছেন।",
+                "hi": "सिस्टर वेबर एक रोगी के ठीक होने वाले मुश्किल घाव के बारे में डॉ. क्लेन से परामर्श कर रही हैं।",
+                "ur": "سسٹر ویبر ایک مریض کے ٹھیک ہونے والے مشکل زخم کے بارے میں ڈاکٹر کلین سے مشورہ کر رہی ہیں۔",
+                "tr": "Hemşire Weber, bir hastanın iyileşmesi zor olan yarası hakkında Dr. Klein'e danışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Tag, Herr Doktor Klein. Ich brauche einen Konsil bezüglich Herrn Scholz. Seine Wunde heilt trotz der Behandlung schlecht.",
+                    "translation": {
+                        "en": "Good day, Dr. Klein. I need a consultation regarding Mr. Scholz. His wound is healing poorly despite the treatment.",
+                        "bn": "শুভ দিন, ডাঃ ক্লেইন। জনাব শোলজ সম্পর্কে আমার একটি পরামর্শ দরকার। চিকিৎসার পরেও তার ক্ষত খারাপভাবে সারছে।",
+                        "hi": "नमस्ते, डॉ. क्लेन। मुझे श्री स्कोल्ज़ के बारे में एक परामर्श की आवश्यकता है। उपचार के बावजूद उनका घाव खराब तरीके से ठीक हो रहा है।",
+                        "ur": "شب بخیر، ڈاکٹر کلین۔ مجھے مسٹر شولز کے حوالے سے ایک مشاورت کی ضرورت ہے۔ علاج کے باوجود ان کا زخم بری طرح ٹھیک ہو رہا ہے۔",
+                        "tr": "İyi günler Dr. Klein. Bay Scholz ile ilgili bir konsültasyona ihtiyacım var. Tedaviye rağmen yarası kötü iyileşiyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Tag, Schwester Weber. Seit wann besteht das Problem denn?",
+                    "translation": {
+                        "en": "Good day, Sister Weber. Since when has this been a problem?",
+                        "bn": "শুভ দিন, সিস্টার ওয়েবার। এই সমস্যাটি কবে থেকে চলছে?",
+                        "hi": "नमस्ते, सिस्टर वेबर। यह समस्या कब से है?",
+                        "ur": "شب بخیر، سسٹر ویبر۔ یہ مسئلہ کب سے ہے؟",
+                        "tr": "İyi günler Hemşire Weber. Bu sorun ne zamandır var?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ungefähr eine Woche. Wir haben bereits verschiedene Verbände ausprobiert.",
+                    "translation": {
+                        "en": "About a week. We have already tried different dressings.",
+                        "bn": "প্রায় এক সপ্তাহ। আমরা ইতিমধ্যেই বিভিন্ন ড্রেসিং চেষ্টা করেছি।",
+                        "hi": "लगभग एक सप्ताह। हमने पहले ही विभिन्न ड्रेसिंग का प्रयास कर लिया है।",
+                        "ur": "تقریباً ایک ہفتہ۔ ہم پہلے ہی مختلف ڈریسنگز آزما چکے ہیں۔",
+                        "tr": "Yaklaşık bir haftadır. Zaten farklı pansumanlar denedik."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ich schaue mir das gleich an. Vielleicht brauchen wir eine andere Therapie.",
+                    "translation": {
+                        "en": "I'll take a look at it right away. Maybe we need a different therapy.",
+                        "bn": "আমি এখনই দেখছি। সম্ভবত আমাদের অন্য একটি থেরাপির প্রয়োজন।",
+                        "hi": "मैं इसे तुरंत देखूंगा। शायद हमें एक अलग थेरेपी की आवश्यकता है।",
+                        "ur": "میں اسے فوراً دیکھوں گا۔ شاید ہمیں ایک مختلف تھراپی کی ضرورت ہے۔",
+                        "tr": "Hemen bir bakacağım. Belki de farklı bir tedaviye ihtiyacımız var."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Vielen Dank, Herr Doktor.",
+                    "translation": {
+                        "en": "Thank you very much, Doctor.",
+                        "bn": "আপনাকে অনেক ধন্যবাদ, ডাক্তার।",
+                        "hi": "आपका बहुत-बहुत धन्यवाद, डॉक्टर।",
+                        "ur": "آپ کا بہت شکریہ، ڈاکٹر۔",
+                        "tr": "Çok teşekkürler Doktor."
+                    }
+                }
+            ],
+            "id": "d33_02"
+        },
+        {
+            "title": {
+                "en": "Doctor's Meeting (Besprechung) about Patient Management",
+                "bn": "রোগী ব্যবস্থাপনা সম্পর্কে ডাক্তারের সভা (Besprechung)",
+                "hi": "रोगी प्रबंधन के बारे में डॉक्टर की बैठक (Besprechung)",
+                "ur": "مریض کے انتظام کے بارے میں ڈاکٹر کی میٹنگ (Besprechung)",
+                "tr": "Hasta Yönetimi Hakkında Doktor Toplantısı (Besprechung)"
+            },
+            "context": {
+                "en": "A doctor's meeting to discuss the management of a complex patient case.",
+                "bn": "একটি জটিল রোগীর কেসের ব্যবস্থাপনা নিয়ে আলোচনার জন্য ডাক্তারের সভা।",
+                "hi": "एक जटिल रोगी मामले के प्रबंधन पर चर्चा करने के लिए एक डॉक्टर की बैठक।",
+                "ur": "ایک پیچیدہ مریض کیس کے انتظام پر تبادلہ خیال کرنے کے لیے ایک ڈاکٹر کی میٹنگ۔",
+                "tr": "Karmaşık bir hasta vakasının yönetimi hakkında görüşmek üzere bir doktor toplantısı."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Hoffmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Morgen, Kollegen. Sprechen wir über Herrn Weber. Seine Nierenwerte sind weiterhin schlecht.",
+                    "translation": {
+                        "en": "Good morning, colleagues. Let's talk about Mr. Weber. His kidney values are still poor.",
+                        "bn": "শুভ সকাল, সহকর্মীরা। আসুন মিস্টার ওয়েবার সম্পর্কে কথা বলি। তার কিডনির মান এখনও খারাপ।",
+                        "hi": "सुप्रभात, सहकर्मी। आइए श्री वेबर के बारे में बात करते हैं। उनके गुर्दे के मूल्य अभी भी खराब हैं।",
+                        "ur": "صبح بخیر، ساتھیو۔ آئیے مسٹر ویبر کے بارے میں بات کرتے ہیں۔ ان کی گردے کی قیمتیں اب بھی خراب ہیں۔",
+                        "tr": "Günaydın meslektaşlar. Bay Weber hakkında konuşalım. Böbrek değerleri hala kötü."
+                    }
+                },
+                {
+                    "speaker": "Dr. Bauer",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wir haben bereits einen Nephrologen hinzugezogen. Er empfiehlt eine Biopsie.",
+                    "translation": {
+                        "en": "We have already consulted a nephrologist. He recommends a biopsy.",
+                        "bn": "আমরা ইতিমধ্যেই একজন নেফ্রোলজিস্টের সাথে পরামর্শ করেছি। তিনি একটি বায়োপসি সুপারিশ করেন।",
+                        "hi": "हमने पहले ही एक नेफ्रोलॉजिस्ट से सलाह ली है। वह बायोप्सी की सिफारिश करते हैं।",
+                        "ur": "ہم نے پہلے ہی ایک نیفرولوجسٹ سے مشورہ کر لیا ہے۔ وہ بایپسی کی سفارش کرتے ہیں۔",
+                        "tr": "Zaten bir nefroloğa danıştık. Biyopsi öneriyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ist die Biopsie wirklich notwendig? Gibt es keine alternativen Diagnostikmethoden?",
+                    "translation": {
+                        "en": "Is the biopsy really necessary? Are there no alternative diagnostic methods?",
+                        "bn": "বায়োপসি কি সত্যিই প্রয়োজন? অন্য কোন বিকল্প ডায়াগনস্টিক পদ্ধতি নেই?",
+                        "hi": "क्या बायोप्सी वास्तव में आवश्यक है? क्या कोई वैकल्पिक नैदानिक ​​विधियाँ नहीं हैं?",
+                        "ur": "کیا بایپسی واقعی ضروری ہے؟ کیا کوئی متبادل تشخیصی طریقے نہیں ہیں؟",
+                        "tr": "Biyopsi gerçekten gerekli mi? Başka alternatif teşhis yöntemleri yok mu?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Hoffmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Der Nephrologe meint, die Biopsie ist der sicherste Weg, um die Ursache zu finden. Wir sollten das mit dem Patienten besprechen.",
+                    "translation": {
+                        "en": "The nephrologist thinks the biopsy is the safest way to find the cause. We should discuss this with the patient.",
+                        "bn": "নেফ্রোলজিস্ট মনে করেন বায়োপসি কারণ খুঁজে বের করার সবচেয়ে নিরাপদ উপায়। আমাদের এটি রোগীর সাথে আলোচনা করা উচিত।",
+                        "hi": "नेफ्रोलॉजिस्ट का मानना ​​है कि बायोप्सी कारण जानने का सबसे सुरक्षित तरीका है। हमें इस बारे में मरीज से बात करनी चाहिए।",
+                        "ur": "نیفرولوجسٹ کا خیال ہے کہ بایپسی وجہ معلوم کرنے کا سب سے محفوظ طریقہ ہے۔ ہمیں اس بارے میں مریض سے بات کرنی چاہیے۔",
+                        "tr": "Nefrolog, biyopsinin nedeni bulmanın en güvenli yolu olduğunu düşünüyor. Bunu hasta ile konuşmalıyız."
+                    }
+                },
+                {
+                    "speaker": "Dr. Bauer",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Einverstanden. Ich werde ein Aufklärungsgespräch mit Herrn Weber führen.",
+                    "translation": {
+                        "en": "Agreed. I will have an informative discussion with Mr. Weber.",
+                        "bn": "সম্মত। আমি জনাব ওয়েবারের সাথে একটি তথ্যপূর্ণ আলোচনা করব।",
+                        "hi": "सहमत। मैं श्री वेबर के साथ एक जानकारीपूर्ण चर्चा करूंगा।",
+                        "ur": "متفق ہوں۔ میں مسٹر ویبر کے ساتھ ایک معلوماتی بحث کروں گا۔",
+                        "tr": "Kabul ediyorum. Bay Weber ile bilgilendirici bir görüşme yapacağım."
+                    }
+                }
+            ],
+            "id": "d33_03"
+        },
+        {
+            "title": {
+                "en": "Team Meeting (Teambesprechung) after a Critical Incident",
+                "bn": "গুরুত্বপূর্ণ ঘটনার পরে দলের সভা (Teambesprechung)",
+                "hi": "एक महत्वपूर्ण घटना के बाद टीम की बैठक (Teambesprechung)",
+                "ur": "ایک اہم واقعے کے بعد ٹیم میٹنگ (Teambesprechung)",
+                "tr": "Kritik Bir Olaydan Sonra Takım Toplantısı (Teambesprechung)"
+            },
+            "context": {
+                "en": "A team meeting to debrief after a difficult resuscitation attempt.",
+                "bn": "একটি কঠিন রিসাসিটেশন চেষ্টার পরে ডিবিফিংয়ের জন্য একটি দলের সভা।",
+                "hi": "एक कठिन पुनर्जीवन प्रयास के बाद डीब्रीफिंग के लिए एक टीम की बैठक।",
+                "ur": "ایک مشکل ریسیسیٹیشن کوشش کے بعد ڈیبریفنگ کے لیے ایک ٹیم میٹنگ۔",
+                "tr": "Zorlu bir canlandırma girişiminden sonra brifing için bir ekip toplantısı."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Abend, alle. Ich möchte über den heutigen Reanimationsversuch bei Herrn Schulz sprechen.",
+                    "translation": {
+                        "en": "Good evening, everyone. I would like to talk about today's resuscitation attempt on Mr. Schulz.",
+                        "bn": "শুভ সন্ধ্যা, সবাই। আমি আজ জনাব শুলজের উপর রিসাসিটেশন প্রচেষ্টা নিয়ে কথা বলতে চাই।",
+                        "hi": "शुभ संध्या, सभी। मैं आज श्री शुल्ज़ पर पुनर्जीवन प्रयास के बारे में बात करना चाहूंगा।",
+                        "ur": "شب بخیر، سب۔ میں آج مسٹر شولز پر بحالی کی کوشش کے بارے میں بات کرنا چاہوں گا۔",
+                        "tr": "İyi akşamlar herkese. Bugün Bay Schulz üzerindeki canlandırma girişimi hakkında konuşmak istiyorum."
+                    }
+                },
+                {
+                    "speaker": "Schwester Meier",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Es war eine sehr stressige Situation.",
+                    "translation": {
+                        "en": "It was a very stressful situation.",
+                        "bn": "এটি একটি খুব চাপের পরিস্থিতি ছিল।",
+                        "hi": "यह एक बहुत तनावपूर्ण स्थिति थी।",
+                        "ur": "یہ ایک بہت دباؤ والی صورتحال تھی۔",
+                        "tr": "Çok stresli bir durumdu."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich stimme zu. Ich fühlte mich etwas überfordert.",
+                    "translation": {
+                        "en": "I agree. I felt a bit overwhelmed.",
+                        "bn": "আমি রাজি। আমি একটু অভিভূত বোধ করেছি।",
+                        "hi": "मैं सहमत हूँ। मैं थोड़ा अभिभूत महसूस कर रहा था।",
+                        "ur": "میں متفق ہوں۔ میں تھوڑا مغلوب محسوس کر رہا تھا۔",
+                        "tr": "Katılıyorum. Biraz bunalmış hissettim."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Was hätten wir besser machen können? Gibt es Verbesserungsvorschläge?",
+                    "translation": {
+                        "en": "What could we have done better? Are there any suggestions for improvement?",
+                        "bn": "আমরা আরও ভাল কী করতে পারতাম? উন্নতির জন্য কোনো পরামর্শ আছে?",
+                        "hi": "हम बेहतर क्या कर सकते थे? क्या सुधार के लिए कोई सुझाव हैं?",
+                        "ur": "ہم بہتر کیا کر سکتے تھے؟ کیا بہتری کے لیے کوئی تجاویز ہیں؟",
+                        "tr": "Daha iyisini nasıl yapabilirdik? İyileştirme için herhangi bir öneriniz var mı?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Meier",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Vielleicht könnten wir die Aufgabenverteilung im Voraus besser planen.",
+                    "translation": {
+                        "en": "Maybe we could plan the task distribution better in advance.",
+                        "bn": "হয়তো আমরা আগে থেকে কাজ বিতরণ আরও ভালভাবে পরিকল্পনা করতে পারতাম।",
+                        "hi": "शायद हम पहले से ही कार्य वितरण की बेहतर योजना बना सकते थे।",
+                        "ur": "شاید ہم پہلے سے ہی کام کی تقسیم کی بہتر منصوبہ بندی کر سکتے تھے۔",
+                        "tr": "Belki de görev dağılımını önceden daha iyi planlayabilirdik."
+                    }
+                }
+            ],
+            "id": "d33_04"
+        },
+        {
+            "title": {
+                "en": "Doctor's Callback (Rücksprache) with a Specialist",
+                "bn": "একজন বিশেষজ্ঞের সাথে ডাক্তারের কলব্যাক (Rücksprache)",
+                "hi": "एक विशेषज्ञ के साथ डॉक्टर का कॉलबैक (Rücksprache)",
+                "ur": "ایک ماہر کے ساتھ ڈاکٹر کا کال بیک (Rücksprache)",
+                "tr": "Bir Uzman ile Doktorun Geri Araması (Rücksprache)"
+            },
+            "context": {
+                "en": "Dr. Weber is calling back Dr. Fischer, a cardiologist, for advice on a patient with chest pain.",
+                "bn": "ডাঃ ওয়েবার বুকে ব্যথার রোগীর বিষয়ে পরামর্শের জন্য কার্ডিওলজিস্ট ডাঃ ফিশারকে কলব্যাক করছেন।",
+                "hi": "डॉ. वेबर सीने में दर्द वाले रोगी पर सलाह के लिए कार्डियोलॉजिस्ट डॉ. फिशर को वापस कॉल कर रहे हैं।",
+                "ur": "ڈاکٹر ویبر سینے میں درد والے مریض کے بارے میں مشورے کے لیے کارڈیالوجسٹ ڈاکٹر فشر کو واپس کال کر رہے ہیں۔",
+                "tr": "Dr. Weber, göğüs ağrısı olan bir hasta hakkında tavsiye almak için kardiyolog Dr. Fischer'i geri arıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Tag, Herr Doktor Fischer. Hier spricht Dr. Weber vom St. Josef Krankenhaus. Ich hätte eine Rücksprache bezüglich eines Patienten mit Brustschmerzen.",
+                    "translation": {
+                        "en": "Good day, Dr. Fischer. This is Dr. Weber from St. Josef Hospital. I would like to consult you about a patient with chest pain.",
+                        "bn": "শুভ দিন, ডাঃ ফিশার। আমি সেন্ট জোসেফ হাসপাতাল থেকে ডাঃ ওয়েবার বলছি। বুকে ব্যথার একজন রোগী সম্পর্কে আপনার সাথে পরামর্শ করতে চাই।",
+                        "hi": "शुभ दिन, डॉ. फिशर। यह सेंट जोसेफ अस्पताल से डॉ. वेबर बोल रहे हैं। मैं सीने में दर्द वाले एक मरीज के बारे में आपसे परामर्श करना चाहूंगा।",
+                        "ur": "شب بخیر، ڈاکٹر فشر۔ یہ سینٹ جوزف ہسپتال سے ڈاکٹر ویبر بول رہے ہیں۔ میں سینے میں درد والے مریض کے بارے میں آپ سے مشورہ کرنا چاہوں گا۔",
+                        "tr": "İyi günler Dr. Fischer. Ben St. Josef Hastanesi'nden Dr. Weber. Göğüs ağrısı olan bir hasta hakkında size danışmak istiyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Fischer",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Tag, Herr Weber. Was gibt es?",
+                    "translation": {
+                        "en": "Good day, Mr. Weber. What's up?",
+                        "bn": "শুভ দিন, মিঃ ওয়েবার। কি খবর?",
+                        "hi": "शुभ दिन, श्री वेबर। क्या हो रहा है?",
+                        "ur": "شب بخیر، مسٹر ویبر۔ کیا حال ہے؟",
+                        "tr": "İyi günler Bay Weber. Ne var ne yok?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Der Patient klagt über starke Brustschmerzen. Das EKG zeigt keine eindeutigen ST-Strecken-Hebungen.",
+                    "translation": {
+                        "en": "The patient complains of severe chest pain. The ECG does not show clear ST-segment elevations.",
+                        "bn": "রোগী তীব্র বুকে ব্যথার অভিযোগ করছেন। ইসিজি কোনো সুস্পষ্ট এসটি-সেগমেন্ট এলিভেশন দেখাচ্ছে না।",
+                        "hi": "रोगी गंभीर सीने में दर्द की शिकायत कर रहा है। ईसीजी स्पष्ट एसटी-सेगमेंट एलिवेशन नहीं दिखाता है।",
+                        "ur": "مریض شدید سینے میں درد کی شکایت کر رہا ہے۔ ای سی جی واضح ایس ٹی سیگمنٹ ایلیویشن نہیں دکھاتا ہے۔",
+                        "tr": "Hasta şiddetli göğüs ağrısından şikayet ediyor. EKG'de belirgin ST segment yükselmeleri görülmüyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Fischer",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Trotzdem würde ich eine sofortige Troponin-Messung empfehlen und den Patienten engmaschig überwachen.",
+                    "translation": {
+                        "en": "Nevertheless, I would recommend an immediate Troponin measurement and close monitoring of the patient.",
+                        "bn": "তা সত্ত্বেও, আমি অবিলম্বে ট্রপোনিন পরিমাপ এবং রোগীর নিবিড় পর্যবেক্ষণের সুপারিশ করব।",
+                        "hi": "फिर भी, मैं तत्काल ट्रोपोनिन माप और रोगी की करीबी निगरानी की सिफारिश करूंगा।",
+                        "ur": "اس کے باوجود، میں فوری طور پر ٹروپونن کی پیمائش اور مریض کی قریبی نگرانی کی سفارش کروں گا۔",
+                        "tr": "Yine de, acil bir Troponin ölçümü ve hastanın yakından izlenmesini tavsiye ederim."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Vielen Dank für Ihre Einschätzung, Herr Doktor Fischer. Das werde ich veranlassen.",
+                    "translation": {
+                        "en": "Thank you very much for your assessment, Dr. Fischer. I will arrange that.",
+                        "bn": "আপনার মূল্যায়নের জন্য আপনাকে অনেক ধন্যবাদ, ডাঃ ফিশার। আমি সেই ব্যবস্থা করব।",
+                        "hi": "आपके मूल्यांकन के लिए बहुत-बहुत धन्यवाद, डॉ. फिशर। मैं उसका प्रबंध करूँगा।",
+                        "ur": "آپ کے اندازے کے لیے بہت شکریہ، ڈاکٹر فشر۔ میں اس کا انتظام کروں گا۔",
+                        "tr": "Değerlendirmeniz için çok teşekkürler Dr. Fischer. Bunu ayarlayacağım."
+                    }
+                }
+            ],
+            "id": "d33_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet \"Übergabe\" im medizinischen Kontext?",
+                "en": "What does \"Übergabe\" mean in a medical context?",
+                "bn": "চিকিৎসা প্রসঙ্গে \"Übergabe\" মানে কি?",
+                "hi": "चिकित्सा संदर्भ में \"Übergabe\" का क्या अर्थ है?",
+                "ur": "طبی تناظر میں \"Übergabe\" کا کیا مطلب ہے؟",
+                "tr": "Tıbbi bağlamda \"Übergabe\" ne anlama gelir?"
+            },
+            "options": [
+                "Eine formelle Besprechung über die Behandlung eines Patienten.",
+                "Der Prozess der Informationsweitergabe über Patienten zwischen medizinischem Personal.",
+                "Eine Entschuldigung für einen Fehler.",
+                "Eine kurze Pause während der Arbeit."
+            ],
+            "correctAnswer": "Der Prozess der Informationsweitergabe über Patienten zwischen medizinischem Personal.",
+            "explanation": {
+                "en": "\"Übergabe\" refers to the handover process, where information about patients is passed between medical staff, ensuring continuity of care.",
+                "bn": "\"Übergabe\" বলতে হস্তান্তর প্রক্রিয়াকে বোঝায়, যেখানে রোগীর যত্ন নিশ্চিত করার জন্য চিকিৎসা কর্মীদের মধ্যে রোগীর তথ্য হস্তান্তর করা হয়।",
+                "hi": "\"Übergabe\" का अर्थ है हस्तांतरण प्रक्रिया, जहाँ रोगियों के बारे में जानकारी चिकित्सा कर्मचारियों के बीच पारित की जाती है, जिससे देखभाल की निरंतरता सुनिश्चित होती है।",
+                "ur": "\"Übergabe\" سے مراد منتقلی کا عمل ہے، جہاں مریضوں کے بارے میں معلومات طبی عملے کے درمیان منتقل کی جاتی ہیں، جس سے نگہداشت کا تسلسل یقینی ہوتا ہے۔",
+                "tr": "\"Übergabe\", hasta bakımı sürekliliğini sağlamak için tıbbi personel arasında hasta hakkında bilgilerin aktarıldığı devir sürecini ifade eder."
+            },
+            "points": 10,
+            "id": "e33_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Ziel eines \"Konsils\"?",
+                "en": "What is the goal of a \"Konsil\"?",
+                "bn": "\"Konsil\"-এর লক্ষ্য কী?",
+                "hi": "\"Konsil\" का लक्ष्य क्या है?",
+                "ur": "\"Konsil\" کا مقصد کیا ہے؟",
+                "tr": "\"Konsil\"in amacı nedir?"
+            },
+            "options": [
+                "Die Entlassung eines Patienten zu beschleunigen.",
+                "Eine Zweitmeinung von einem Spezialisten einzuholen.",
+                "Die Anzahl der Patienten auf der Station zu reduzieren.",
+                "Den behandelnden Arzt zu kritisieren."
+            ],
+            "correctAnswer": "Eine Zweitmeinung von einem Spezialisten einzuholen.",
+            "explanation": {
+                "en": "The goal of a \"Konsil\" is to seek a second opinion from a specialist to improve patient care.",
+                "bn": "\"Konsil\" এর উদ্দেশ্য হল রোগীর যত্নের উন্নতির জন্য একজন বিশেষজ্ঞের কাছ থেকে দ্বিতীয় মতামত নেওয়া।",
+                "hi": "\"Konsil\" का लक्ष्य रोगी की देखभाल में सुधार के लिए एक विशेषज्ञ से दूसरी राय लेना है।",
+                "ur": "\"Konsil\" کا مقصد مریض کی دیکھ بھال کو بہتر بنانے کے لیے کسی ماہر سے دوسری رائے لینا ہے۔",
+                "tr": "\"Konsil\"in amacı, hasta bakımını iyileştirmek için bir uzmandan ikinci bir görüş almaktır."
+            },
+            "points": 10,
+            "id": "e33_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet \"Rücksprache\" im Klinikalltag?",
+                "en": "What does \"Rücksprache\" mean in daily clinical practice?",
+                "bn": "দৈনন্দিন ক্লিনিক্যাল চর্চায় \"Rücksprache\" মানে কি?",
+                "hi": "दैनिक नैदानिक ​​अभ्यास में \"Rücksprache\" का क्या अर्थ है?",
+                "ur": "روزانہ کلینیکل پریکٹس میں \"Rücksprache\" کا کیا مطلب ہے؟",
+                "tr": "Günlük klinik uygulamada \"Rücksprache\" ne anlama gelir?"
+            },
+            "options": [
+                "Ein formelles Meeting mit der Krankenhausleitung.",
+                "Eine informelle Anfrage bei einem Kollegen um Rat oder Informationen.",
+                "Die offizielle Beschwerde über einen Kollegen.",
+                "Eine kurze Pause während der Arbeit."
+            ],
+            "correctAnswer": "Eine informelle Anfrage bei einem Kollegen um Rat oder Informationen.",
+            "explanation": {
+                "en": "\"Rücksprache\" means informally consulting a colleague for advice or information.",
+                "bn": "\"Rücksprache\" মানে পরামর্শ বা তথ্যের জন্য অনানুষ্ঠানিকভাবে একজন সহকর্মীর সাথে পরামর্শ করা।",
+                "hi": "\"Rücksprache\" का अर्थ है सलाह या जानकारी के लिए अनौपचारिक रूप से किसी सहकर्मी से परामर्श करना।",
+                "ur": "\"Rücksprache\" کا مطلب ہے مشورہ یا معلومات کے لیے غیر رسمی طور پر کسی ساتھی سے مشورہ کرنا۔",
+                "tr": "\"Rücksprache\", tavsiye veya bilgi almak için gayri resmi olarak bir meslektaşa danışmak anlamına gelir."
+            },
+            "points": 10,
+            "id": "e33_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Art von Informationen werden typischerweise bei einer \"Übergabe\" weitergegeben?",
+                "en": "What kind of information is typically passed on during an \"Übergabe\"?",
+                "bn": "একটি \"Übergabe\"-এর সময় সাধারণত কী ধরনের তথ্য দেওয়া হয়?",
+                "hi": "एक \"Übergabe\" के दौरान आमतौर पर किस प्रकार की जानकारी दी जाती है?",
+                "ur": "ایک \"Übergabe\" کے دوران عام طور پر کس قسم کی معلومات دی جاتی ہیں؟",
+                "tr": "Bir \"Übergabe\" sırasında tipik olarak ne tür bilgiler aktarılır?"
+            },
+            "options": [
+                "Persönliche Informationen über das Personal.",
+                "Diagnose, Therapie, Verlauf und Besonderheiten des Patienten.",
+                "Die Speisekarte der Kantine.",
+                "Die Wettervorhersage."
+            ],
+            "correctAnswer": "Diagnose, Therapie, Verlauf und Besonderheiten des Patienten.",
+            "explanation": {
+                "en": "Typically, the information passed on during an \"Übergabe\" includes the patient's diagnosis, therapy, progress, and any special considerations.",
+                "bn": "সাধারণত, একটি \"Übergabe\" এর সময় রোগীর রোগ নির্ণয়, থেরাপি, অগ্রগতি এবং কোনো বিশেষ বিবেচনার বিষয়গুলি অন্তর্ভুক্ত থাকে।",
+                "hi": "आम तौर पर, एक \"Übergabe\" के दौरान रोगी के निदान, थेरेपी, प्रगति और किसी भी विशेष विचारों सहित जानकारी दी जाती है।",
+                "ur": "عام طور پر، ایک \"Übergabe\" کے دوران مریض کی تشخیص، تھراپی، پیشرفت اور کسی بھی خاص خیالات سمیت معلومات دی جاتی ہیں۔",
+                "tr": "Tipik olarak, bir \"Übergabe\" sırasında hastanın teşhisi, tedavisi, ilerlemesi ve herhangi bir özel hususu dahil olmak üzere bilgiler aktarılır."
+            },
+            "points": 10,
+            "id": "e33_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist der Unterschied zwischen einer \"Besprechung\" und einer \"Teambesprechung\"?",
+                "en": "What is the difference between a \"Besprechung\" and a \"Teambesprechung\"?",
+                "bn": "একটি \"Besprechung\" এবং একটি \"Teambesprechung\"-এর মধ্যে পার্থক্য কী?",
+                "hi": "\"Besprechung\" और \"Teambesprechung\" में क्या अंतर है?",
+                "ur": "\"Besprechung\" اور \"Teambesprechung\" میں کیا فرق ہے؟",
+                "tr": "\"Besprechung\" ve \"Teambesprechung\" arasındaki fark nedir?"
+            },
+            "options": [
+                "Es gibt keinen Unterschied.",
+                "Eine Teambesprechung ist formeller als eine Besprechung.",
+                "Eine Teambesprechung betrifft spezifisch ein Team und dessen Aufgaben.",
+                "Eine Besprechung ist immer länger als eine Teambesprechung."
+            ],
+            "correctAnswer": "Eine Teambesprechung betrifft spezifisch ein Team und dessen Aufgaben.",
+            "explanation": {
+                "en": "A \"Teambesprechung\" specifically involves a team and its tasks, while a \"Besprechung\" can be more general.",
+                "bn": "একটি \"Teambesprechung\" বিশেষভাবে একটি দল এবং তার কাজগুলির সাথে জড়িত, যেখানে একটি \"Besprechung\" আরও সাধারণ হতে পারে।",
+                "hi": "एक \"Teambesprechung\" विशेष रूप से एक टीम और उसके कार्यों को शामिल करती है, जबकि एक \"Besprechung\" अधिक सामान्य हो सकती है।",
+                "ur": "ایک \"Teambesprechung\" خاص طور پر ایک ٹیم اور اس کے کاموں پر مشتمل ہوتی ہے، جبکہ ایک \"Besprechung\" زیادہ عام ہو سکتی ہے۔",
+                "tr": "Bir \"Teambesprechung\" özellikle bir ekibi ve görevlerini içerirken, bir \"Besprechung\" daha genel olabilir."
+            },
+            "points": 10,
+            "id": "e33_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage über den \"Dienst\" ist korrekt?",
+                "en": "Which statement about \"Dienst\" is correct?",
+                "bn": "\"Dienst\" -এর বিষয়ে কোন বিবৃতিটি সঠিক?",
+                "hi": "\"Dienst\" के बारे में कौन सा कथन सही है?",
+                "ur": "\"Dienst\" کے بارے میں کون سا بیان درست ہے؟",
+                "tr": "\"Dienst\" hakkında hangi ifade doğrudur?"
+            },
+            "options": [
+                "Er bezieht sich nur auf administrative Aufgaben.",
+                "Er bezieht sich auf die Arbeitszeit eines medizinischen Mitarbeiters.",
+                "Er bezieht sich auf eine private Unterhaltung.",
+                "Er bezieht sich auf eine Operation."
+            ],
+            "correctAnswer": "Er bezieht sich auf die Arbeitszeit eines medizinischen Mitarbeiters.",
+            "explanation": {
+                "en": "\"Dienst\" refers to the working hours or shift of a medical staff member.",
+                "bn": "\"Dienst\" একজন চিকিৎসা কর্মীর কাজের সময় বা শিফট বোঝায়।",
+                "hi": "\"Dienst\" एक चिकित्सा कर्मचारी के काम के घंटे या शिफ्ट को संदर्भित करता है।",
+                "ur": "\"Dienst\" ایک طبی عملے کے رکن کے کام کے اوقات یا شفٹ سے مراد ہے۔",
+                "tr": "\"Dienst\", bir sağlık personelinin çalışma saatlerini veya vardiyasını ifade eder."
+            },
+            "points": 10,
+            "id": "e33_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist bei einer \"Übergabe\" besonders wichtig, um Fehler zu vermeiden?",
+                "en": "What is particularly important during an \"Übergabe\" to avoid mistakes?",
+                "bn": "ভুল এড়াতে একটি \"Übergabe\"-এর সময় বিশেষভাবে কী গুরুত্বপূর্ণ?",
+                "hi": "गलतियों से बचने के लिए \"Übergabe\" के दौरान विशेष रूप से क्या महत्वपूर्ण है?",
+                "ur": "غلطیوں سے بچنے کے لیے \"Übergabe\" کے دوران خاص طور پر کیا اہم ہے؟",
+                "tr": "Hataları önlemek için bir \"Übergabe\" sırasında özellikle ne önemlidir?"
+            },
+            "options": [
+                "Schnell zu sprechen, um Zeit zu sparen.",
+                "Alle Informationen detailliert und verständlich zu vermitteln.",
+                "Die eigene Meinung über den Patienten auszudrücken.",
+                "Sich auf Gerüchte zu verlassen."
+            ],
+            "correctAnswer": "Alle Informationen detailliert und verständlich zu vermitteln.",
+            "explanation": {
+                "en": "It's particularly important to convey all information in a detailed and understandable way during an \"Übergabe\" to avoid mistakes.",
+                "bn": "ভুল এড়াতে একটি \"Übergabe\" এর সময় সমস্ত তথ্য বিস্তারিত এবং বোধগম্য উপায়ে জানানো বিশেষভাবে গুরুত্বপূর্ণ।",
+                "hi": "गलतियों से बचने के लिए \"Übergabe\" के दौरान सभी जानकारी विस्तृत और समझने योग्य तरीके से देना विशेष रूप से महत्वपूर्ण है।",
+                "ur": "غلطیوں سے بچنے کے لیے \"Übergabe\" کے دوران تمام معلومات کو تفصیلی اور قابل فہم انداز میں دینا خاص طور پر اہم ہے۔",
+                "tr": "Hataları önlemek için bir \"Übergabe\" sırasında tüm bilgileri ayrıntılı ve anlaşılır bir şekilde iletmek özellikle önemlidir."
+            },
+            "points": 10,
+            "id": "e33_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wann ist eine \"Rücksprache\" mit einem Oberarzt besonders wichtig?",
+                "en": "When is a \"Rücksprache\" with a senior physician particularly important?",
+                "bn": "কখন একজন সিনিয়র চিকিৎসকের সাথে \"Rücksprache\"- বিশেষভাবে গুরুত্বপূর্ণ?",
+                "hi": "एक वरिष्ठ चिकित्सक के साथ \"Rücksprache\" कब विशेष रूप से महत्वपूर्ण है?",
+                "ur": "سینئر طبیب کے ساتھ \"Rücksprache\" کب خاص طور پر اہم ہے؟",
+                "tr": "Bir kıdemli hekimle \"Rücksprache\" ne zaman özellikle önemlidir?"
+            },
+            "options": [
+                "Bei Routinefällen.",
+                "Bei unklaren Diagnosen oder schwierigen Behandlungsentscheidungen.",
+                "Wenn man sich langweilt.",
+                "Um einen Kollegen zu kritisieren."
+            ],
+            "correctAnswer": "Bei unklaren Diagnosen oder schwierigen Behandlungsentscheidungen.",
+            "explanation": {
+                "en": "A \"Rücksprache\" with a senior physician is particularly important in cases of unclear diagnoses or difficult treatment decisions.",
+                "bn": "অস্পষ্ট রোগ নির্ণয় বা কঠিন চিকিৎসার সিদ্ধান্তের ক্ষেত্রে একজন সিনিয়র চিকিৎসকের সাথে \"Rücksprache\" বিশেষভাবে গুরুত্বপূর্ণ।",
+                "hi": "अस्पष्ट निदान या कठिन उपचार निर्णयों के मामलों में एक वरिष्ठ चिकित्सक के साथ \"Rücksprache\" विशेष रूप से महत्वपूर्ण है।",
+                "ur": "غیر واضح تشخیص یا مشکل علاج کے فیصلوں کے معاملات میں ایک سینئر طبیب کے ساتھ \"Rücksprache\" خاص طور پر اہم ہے۔",
+                "tr": "Belirsiz teşhis veya zorlu tedavi kararları durumlarında bir kıdemli hekimle \"Rücksprache\" özellikle önemlidir."
+            },
+            "points": 10,
+            "id": "e33_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was sollte man während einer \"Teambesprechung\" vermeiden?",
+                "en": "What should be avoided during a \"Teambesprechung\"?",
+                "bn": "একটি \"Teambesprechung\"-এর সময় কী এড়ানো উচিত?",
+                "hi": "एक \"Teambesprechung\" के दौरान क्या नहीं करना चाहिए?",
+                "ur": "ایک \"Teambesprechung\" کے دوران کیا نہیں کرنا چاہیے؟",
+                "tr": "Bir \"Teambesprechung\" sırasında nelerden kaçınılmalıdır?"
+            },
+            "options": [
+                "Konstruktive Kritik zu äußern.",
+                "Sich auf das Wesentliche zu konzentrieren.",
+                "Persönliche Angriffe und Schuldzuweisungen.",
+                "Ideen einzubringen."
+            ],
+            "correctAnswer": "Persönliche Angriffe und Schuldzuweisungen.",
+            "explanation": {
+                "en": "Personal attacks and blaming should be avoided during a \"Teambesprechung\".",
+                "bn": "একটি \"Teambesprechung\" চলাকালীন ব্যক্তিগত আক্রমণ এবং দোষারোপ এড়ানো উচিত।",
+                "hi": "एक \"Teambesprechung\" के दौरान व्यक्तिगत हमलों और दोषारोपण से बचना चाहिए।",
+                "ur": "ایک \"Teambesprechung\" کے دوران ذاتی حملوں اور الزام تراشی سے گریز کرنا چاہیے۔",
+                "tr": "Bir \"Teambesprechung\" sırasında kişisel saldırılardan ve suçlamalardan kaçınılmalıdır."
+            },
+            "points": 10,
+            "id": "e33_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Rolle spielt die \"Kommunikation\" bei der \"Übergabe\"?",
+                "en": "What role does \"communication\" play in the \"Übergabe\"?",
+                "bn": "\"Übergabe\"-তে \"যোগাযোগ\" কী ভূমিকা পালন করে?",
+                "hi": "\"Übergabe\" में \"संचार\" क्या भूमिका निभाता है?",
+                "ur": "\"Übergabe\" میں \"مواصلات\" کیا کردار ادا کرتا ہے؟",
+                "tr": "\"Übergabe\"de \"iletişim\" ne rol oynar?"
+            },
+            "options": [
+                "Keine, die Übergabe erfolgt schriftlich.",
+                "Eine untergeordnete Rolle.",
+                "Eine zentrale Rolle zur Vermeidung von Missverständnissen.",
+                "Die Rolle ist irrelevant."
+            ],
+            "correctAnswer": "Eine zentrale Rolle zur Vermeidung von Missverständnissen.",
+            "explanation": {
+                "en": "Communication plays a central role in the \"Übergabe\" to avoid misunderstandings.",
+                "bn": "ভুল বোঝাবুঝি এড়াতে \"Übergabe\" তে যোগাযোগ একটি কেন্দ্রীয় ভূমিকা পালন করে।",
+                "hi": "गलतफहमी से बचने के लिए \"Übergabe\" में संचार एक केंद्रीय भूमिका निभाता है।",
+                "ur": "غلط فہمیوں سے بچنے کے لیے \"Übergabe\" میں مواصلات ایک مرکزی کردار ادا کرتا ہے۔",
+                "tr": "Yanlış anlaşılmaları önlemek için \"Übergabe\"de iletişim merkezi bir rol oynar."
+            },
+            "points": 10,
+            "id": "e33_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Während des _______ werden wichtige Informationen über den Patienten von einem Arzt zum nächsten weitergegeben.",
+                "en": "During the _______, important information about the patient is passed on from one doctor to the next.",
+                "bn": "_______-এর সময়, রোগীর সম্পর্কে গুরুত্বপূর্ণ তথ্য এক ডাক্তার থেকে অন্য ডাক্তারের কাছে স্থানান্তরিত করা হয়।",
+                "hi": "_______ के दौरान, रोगी के बारे में महत्वपूर्ण जानकारी एक डॉक्टर से दूसरे डॉक्टर को दी जाती है।",
+                "ur": "_______ کے دوران، مریض کے بارے میں اہم معلومات ایک ڈاکٹر سے دوسرے ڈاکٹر کو دی جاتی ہیں۔",
+                "tr": "_______ sırasında, hasta hakkında önemli bilgiler bir doktordan diğerine aktarılır."
+            },
+            "correctAnswer": "Übergabe",
+            "explanation": {
+                "en": "\"Übergabe\" is the handover where patient information is passed between medical staff.",
+                "bn": "\"Übergabe\" হল হস্তান্তর যেখানে চিকিৎসা কর্মীদের মধ্যে রোগীর তথ্য হস্তান্তর করা হয়।",
+                "hi": "\"Übergabe\" वह हस्तांतरण है जहाँ चिकित्सा कर्मचारियों के बीच रोगी की जानकारी स्थानांतरित की जाती है।",
+                "ur": "\"Übergabe\" وہ منتقلی ہے جہاں طبی عملے کے درمیان مریض کی معلومات منتقل کی جاتی ہیں۔",
+                "tr": "\"Übergabe\", hasta bilgilerinin tıbbi personel arasında aktarıldığı devirdir."
+            },
+            "points": 10,
+            "id": "e33_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein _______ dient dazu, die Meinung eines Spezialisten einzuholen.",
+                "en": "A _______ serves to obtain the opinion of a specialist.",
+                "bn": "একটি _______ একজন বিশেষজ্ঞের মতামত পেতে ব্যবহৃত হয়।",
+                "hi": "एक _______ एक विशेषज्ञ की राय प्राप्त करने के लिए कार्य करता है।",
+                "ur": "ایک _______ کسی ماہر کی رائے حاصل کرنے کے لیے کام کرتا ہے۔",
+                "tr": "Bir _______ bir uzmanın görüşünü almak için kullanılır."
+            },
+            "correctAnswer": "Konsil",
+            "explanation": {
+                "en": "A \"Konsil\" is a consultation with a specialist to get a second opinion.",
+                "bn": "একটি \"Konsil\" হল দ্বিতীয় মতামত পাওয়ার জন্য একজন বিশেষজ্ঞের সাথে পরামর্শ।",
+                "hi": "एक \"Konsil\" दूसरी राय प्राप्त करने के लिए एक विशेषज्ञ के साथ परामर्श है।",
+                "ur": "ایک \"Konsil\" دوسری رائے حاصل کرنے کے لیے ایک ماہر کے ساتھ مشاورت ہے۔",
+                "tr": "Bir \"Konsil\", ikinci bir görüş almak için bir uzmanla yapılan konsültasyondur."
+            },
+            "points": 10,
+            "id": "e33_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bei einer _______ wird ein Kollege um Rat gefragt.",
+                "en": "During a _______, a colleague is asked for advice.",
+                "bn": "একটি _______-এর সময়, একজন সহকর্মীর কাছে পরামর্শ চাওয়া হয়।",
+                "hi": "एक _______ के दौरान, एक सहकर्मी से सलाह मांगी जाती है।",
+                "ur": "ایک _______ کے دوران، ایک ساتھی سے مشورہ مانگا جاتا ہے۔",
+                "tr": "Bir _______ sırasında, bir meslektaştan tavsiye istenir."
+            },
+            "correctAnswer": "Rücksprache",
+            "explanation": {
+                "en": "During a \"Rücksprache\", a colleague is consulted for advice or information.",
+                "bn": "একটি \"Rücksprache\"-এর সময়, পরামর্শ বা তথ্যের জন্য একজন সহকর্মীর সাথে পরামর্শ করা হয়।",
+                "hi": "एक \"Rücksprache\" के दौरान, सलाह या जानकारी के लिए एक सहकर्मी से परामर्श किया जाता है।",
+                "ur": "ایک \"Rücksprache\" کے دوران، مشورہ یا معلومات کے لیے ایک ساتھی سے مشورہ کیا جاتا ہے۔",
+                "tr": "Bir \"Rücksprache\" sırasında, tavsiye veya bilgi için bir meslektaşa danışılır."
+            },
+            "points": 10,
+            "id": "e33_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Der _______ umfasst die regulären Arbeitszeiten des medizinischen Personals.",
+                "en": "The _______ encompasses the regular working hours of medical staff.",
+                "bn": "_______ চিকিৎসা কর্মীদের নিয়মিত কাজের সময় অন্তর্ভুক্ত করে।",
+                "hi": "_______ चिकित्सा कर्मचारियों के नियमित काम के घंटे शामिल हैं।",
+                "ur": "_______ طبی عملے کے باقاعدہ کام کے اوقات پر مشتمل ہے۔",
+                "tr": "_______, sağlık personelinin düzenli çalışma saatlerini kapsar."
+            },
+            "correctAnswer": "Dienst",
+            "explanation": {
+                "en": "\"Dienst\" refers to the duty hours or shift of a medical staff member.",
+                "bn": "\"Dienst\" একজন চিকিৎসা কর্মীর কর্তব্য ঘন্টা বা শিফট বোঝায়।",
+                "hi": "\"Dienst\" एक चिकित्सा कर्मचारी के कर्तव्य घंटे या शिफ्ट को संदर्भित करता है।",
+                "ur": "\"Dienst\" ایک طبی عملے کے رکن کے ڈیوٹی کے اوقات یا شفٹ سے مراد ہے۔",
+                "tr": "\"Dienst\", bir sağlık personelinin görev saatlerini veya vardiyasını ifade eder."
+            },
+            "points": 10,
+            "id": "e33_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "In einer _______ werden gemeinsame Themen und Herausforderungen diskutiert.",
+                "en": "In a _______, common themes and challenges are discussed.",
+                "bn": "একটি _______-এ, সাধারণ বিষয় এবং চ্যালেঞ্জ নিয়ে আলোচনা করা হয়।",
+                "hi": "एक _______ में, सामान्य विषयों और चुनौतियों पर चर्चा की जाती है।",
+                "ur": "ایک _______ میں، عام موضوعات اور چیلنجوں پر تبادلہ خیال کیا جاتا ہے۔",
+                "tr": "Bir _______'da, ortak temalar ve zorluklar tartışılır."
+            },
+            "correctAnswer": "Teambesprechung",
+            "explanation": {
+                "en": "A \"Teambesprechung\" is where a team discusses common issues and challenges.",
+                "bn": "একটি \"Teambesprechung\" হল যেখানে একটি দল সাধারণ সমস্যা এবং চ্যালেঞ্জ নিয়ে আলোচনা করে।",
+                "hi": "एक \"Teambesprechung\" वह है जहाँ एक टीम सामान्य मुद्दों और चुनौतियों पर चर्चा करती है।",
+                "ur": "ایک \"Teambesprechung\" وہ جگہ ہے جہاں ایک ٹیم عام مسائل اور چیلنجوں پر تبادلہ خیال کرتی ہے۔",
+                "tr": "Bir \"Teambesprechung\", bir ekibin ortak sorunları ve zorlukları tartıştığı yerdir."
+            },
+            "points": 10,
+            "id": "e33_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Ich brauche eine Rücksprache mit dem Oberarzt.",
+                "en": "I need to consult with the senior physician.",
+                "bn": "আমার সিনিয়র ডাক্তারের সাথে পরামর্শ করা দরকার।",
+                "hi": "मुझे वरिष्ठ चिकित्सक से परामर्श करने की आवश्यकता है।",
+                "ur": "مجھے سینئر ڈاکٹر سے مشورہ کرنے کی ضرورت ہے۔",
+                "tr": "Kıdemli doktorla görüşmem gerekiyor."
+            },
+            "correctAnswer": "I need to consult with the senior physician.",
+            "explanation": {
+                "en": "This sentence translates directly to needing to consult with the senior physician.",
+                "bn": "এই বাক্যটি সরাসরি সিনিয়র ডাক্তারের সাথে পরামর্শ করার প্রয়োজনের অনুবাদ করে।",
+                "hi": "यह वाक्य सीधे तौर पर वरिष्ठ चिकित्सक से परामर्श करने की आवश्यकता का अनुवाद करता है।",
+                "ur": "یہ جملہ براہ راست سینئر طبیب سے مشورہ کرنے کی ضرورت کا ترجمہ کرتا ہے۔",
+                "tr": "Bu cümle doğrudan kıdemli doktorla görüşme ihtiyacını tercüme eder."
+            },
+            "points": 10,
+            "id": "e33_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Übergabe findet um 14 Uhr statt.",
+                "en": "The handover takes place at 2 PM.",
+                "bn": "হস্তান্তর দুপুর ২টায় অনুষ্ঠিত হবে।",
+                "hi": "हस्तांतरण दोपहर 2 बजे होगा।",
+                "ur": "منتقلی دوپہر 2 بجے ہوگی۔",
+                "tr": "Devir teslimi saat 14:00'te gerçekleşecek."
+            },
+            "correctAnswer": "The handover takes place at 2 PM.",
+            "explanation": {
+                "en": "This sentence indicates the handover will happen at 2 PM.",
+                "bn": "এই বাক্যটি ইঙ্গিত করে যে হস্তান্তর দুপুর ২টায় হবে।",
+                "hi": "यह वाक्य इंगित करता है कि हस्तांतरण दोपहर 2 बजे होगा।",
+                "ur": "یہ جملہ اشارہ کرتا ہے کہ منتقلی دوپہر 2 بجے ہوگی۔",
+                "tr": "Bu cümle, devir tesliminin saat 14:00'te gerçekleşeceğini gösterir."
+            },
+            "points": 10,
+            "id": "e33_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Wir haben eine Teambesprechung am Montag.",
+                "en": "We have a team meeting on Monday.",
+                "bn": "আমাদের সোমবার একটি দলের সভা আছে।",
+                "hi": "हमारी सोमवार को एक टीम बैठक है।",
+                "ur": "ہماری پیر کے دن ایک ٹیم میٹنگ ہے۔",
+                "tr": "Pazartesi günü bir takım toplantımız var."
+            },
+            "correctAnswer": "We have a team meeting on Monday.",
+            "explanation": {
+                "en": "This sentence indicates the team has a meeting scheduled for Monday.",
+                "bn": "এই বাক্যটি ইঙ্গিত করে যে দলের সোমবার একটি সভা নির্ধারিত আছে।",
+                "hi": "यह वाक्य इंगित करता है कि टीम की सोमवार को एक बैठक निर्धारित है।",
+                "ur": "یہ جملہ اشارہ کرتا ہے کہ ٹیم کی پیر کے دن ایک میٹنگ طے شدہ ہے۔",
+                "tr": "Bu cümle, ekibin Pazartesi için planlanmış bir toplantısı olduğunu gösterir."
+            },
+            "points": 10,
+            "id": "e33_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

@@ -1,14 +1,1579 @@
-{"id":"section_07","phaseId":"phase1","order":7,"titleDe":"Zahlen und Vitalzeichen","title":{"en":"Numbers & Vital Signs","bn":"সংখ্যা এবং ভাইটাল সাইন","hi":"संख्या और वाइटल साइंस","ur":"نمبر اور وائٹل سائنز","tr":"Sayılar ve Vital Bulgular"},"level":"A1","estimatedMinutes":30,"vocabulary":[
-{"id":"v07_01","germanTerm":"Blutdruck","article":"der","plural":"-","translation":{"en":"Blood Pressure","bn":"রক্তচাপ","hi":"रक्तचाप","ur":"بلڈ پریشر","tr":"Tansiyon"}},
-{"id":"v07_02","germanTerm":"Puls","article":"der","plural":"Pulse","translation":{"en":"Pulse","bn":"পালস","hi":"नाड़ी","ur":"نبض","tr":"Nabız"}},
-{"id":"v07_03","germanTerm":"Temperatur","article":"die","plural":"Temperaturen","translation":{"en":"Temperature","bn":"তাপমাত্রা","hi":"तापमान","ur":"درجہ حرارت","tr":"Ateş"}},
-{"id":"v07_04","germanTerm":"Atemfrequenz","article":"die","plural":"-","translation":{"en":"Respiratory Rate","bn":"শ্বাসের হার","hi":"श्वसन दर","ur":"سانس کی شرح","tr":"Solunum hızı"}},
-{"id":"v07_05","germanTerm":"Sauerstoffsättigung","article":"die","plural":"-","translation":{"en":"Oxygen Saturation","bn":"অক্সিজেন স্যাচুরেশন","hi":"ऑक्सीजन संतृप्ति","ur":"آکسیجن سیچوریشن","tr":"Oksijen saturasyonu"}},
-{"id":"v07_06","germanTerm":"Herzfrequenz","article":"die","plural":"-","translation":{"en":"Heart Rate","bn":"হার্ট রেট","hi":"हृदय गति","ur":"دل کی دھڑکن","tr":"Kalp atım hızı"}},
-{"id":"v07_07","germanTerm":"systolisch","article":"-","plural":"-","translation":{"en":"Systolic","bn":"সিস্টোলিক","hi":"सिस्टोलिक","ur":"سسٹولک","tr":"Sistolik"}},
-{"id":"v07_08","germanTerm":"diastolisch","article":"-","plural":"-","translation":{"en":"Diastolic","bn":"ডায়াস্টোলিক","hi":"डायस्टोलिक","ur":"ڈائیسٹولک","tr":"Diyastolik"}}
-],"dialogues":[{"id":"d07_01","title":{"en":"Checking Vitals"},"lines":[
-{"speaker":"Schwester","germanText":"Der Blutdruck ist 120 zu 80.","translation":{"en":"Blood pressure is 120 over 80."}},
-{"speaker":"Arzt","germanText":"Und die Temperatur?","translation":{"en":"And the temperature?"}},
-{"speaker":"Schwester","germanText":"37,5 Grad.","translation":{"en":"37.5 degrees."}}
-]}],"exercises":[{"id":"e07_01","type":"multipleChoice","question":{"en":"What is 'Blutdruck'?"},"options":["Blood Pressure","Heart Rate","Temperature"],"correctAnswer":"Blood Pressure","points":10}]}
+{
+    "id": "section_07",
+    "phaseId": "phase1",
+    "order": 7,
+    "titleDe": "Zahlen und Vitalzeichen",
+    "title": {
+        "en": "Vital Signs & Numbers: Blood Pressure, Pulse, Temperature, Respiration Rate, Oxygen Saturation, Weight, Height, BMI",
+        "bn": "ভাইটাল সাইন ও সংখ্যা: রক্তচাপ, পালস, তাপমাত্রা, শ্বাস-প্রশ্বাস, অক্সিজেন স্যাচুরেশন, ওজন, উচ্চতা, বিএমআই",
+        "hi": "महत्वपूर्ण संकेत और संख्याएँ: रक्तचाप, नाड़ी, तापमान, श्वसन दर, ऑक्सीजन संतृप्ति, वजन, ऊंचाई, बीएमआई",
+        "ur": "اہم علامات اور اعداد و شمار: بلڈ پریشر، نبض، درجہ حرارت، سانس لینے کی شرح، آکسیجن کی سیرت، وزن، قد، بی ایم آئی",
+        "tr": "Hayati Belirtiler & Sayılar: Kan Basıncı, Nabız, Sıcaklık, Solunum Hızı, Oksijen Saturasyonu, Ağırlık, Boy, BMI",
+        "de": "Vitalparameter & Zahlen: Blutdruck, Puls, Temperatur, Atemfrequenz, Sauerstoffsättigung, Gewicht, Größe, BMI"
+    },
+    "description": {
+        "en": "This section covers the essential vital signs and numerical values used in medical assessments, along with their corresponding German terminology.",
+        "bn": "এই বিভাগে মেডিকেল মূল্যায়নে ব্যবহৃত প্রয়োজনীয় ভাইটাল সাইন এবং সংখ্যাসূচক মান এবং তাদের জার্মান শব্দাবলী অন্তর্ভুক্ত রয়েছে।",
+        "hi": "यह खंड चिकित्सा मूल्यांकन में उपयोग किए जाने वाले आवश्यक महत्वपूर्ण संकेतों और संख्यात्मक मूल्यों और उनकी संबंधित जर्मन शब्दावली को शामिल करता है।",
+        "ur": "اس سیکشن میں طبی تشخیص میں استعمال ہونے والے اہم علامات اور عددی اقدار اور ان کی جرمن اصطلاحات شامل ہیں۔",
+        "tr": "Bu bölüm, tıbbi değerlendirmelerde kullanılan temel vital belirtileri ve sayısal değerleri ve bunlara karşılık gelen Almanca terminolojiyi kapsar.",
+        "de": "Dieser Abschnitt behandelt die wesentlichen Vitalparameter und numerischen Werte, die bei medizinischen Beurteilungen verwendet werden, zusammen mit ihrer entsprechenden deutschen Terminologie."
+    },
+    "level": "A1",
+    "estimatedMinutes": 45,
+    "isPremium": false,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, you will learn how to accurately take and document vital signs using the correct German medical terminology. We will explore the vocabulary and grammar necessary for communicating patient data effectively.",
+            "bn": "এই বিভাগে, আপনি সঠিক জার্মান মেডিকেল পরিভাষা ব্যবহার করে কীভাবে সঠিকভাবে ভাইটাল সাইন নিতে এবং নথিভুক্ত করতে হয় তা শিখবেন। রোগীর ডেটা কার্যকরভাবে যোগাযোগ করার জন্য প্রয়োজনীয় শব্দভাণ্ডার এবং ব্যাকরণ আমরা অন্বেষণ করব।",
+            "hi": "इस खंड में, आप सीखेंगे कि सही जर्मन चिकित्सा शब्दावली का उपयोग करके महत्वपूर्ण संकेतों को सटीक रूप से कैसे लेना और दस्तावेज़ बनाना है। हम रोगी डेटा को प्रभावी ढंग से संप्रेषित करने के लिए आवश्यक शब्दावली और व्याकरण का पता लगाएंगे।",
+            "ur": "اس حصے میں، آپ سیکھیں گے کہ درست جرمن طبی اصطلاحات کا استعمال کرتے ہوئے اہم علامات کو درست طریقے سے کیسے لینا اور دستاویز کرنا ہے۔ ہم مریض کے ڈیٹا کو مؤثر طریقے سے بات چیت کرنے کے لیے ضروری الفاظ اور گرامر کو دریافت کریں گے۔",
+            "tr": "Bu bölümde, doğru Almanca tıbbi terminolojiyi kullanarak vital belirtileri doğru bir şekilde nasıl alacağınızı ve belgeleyeceğinizi öğreneceksiniz. Hasta verilerini etkili bir şekilde iletmek için gerekli kelime bilgisini ve dilbilgisini inceleyeceğiz.",
+            "de": "In diesem Abschnitt lernen Sie, wie Sie Vitalparameter mit der korrekten deutschen medizinischen Terminologie genau erfassen und dokumentieren. Wir werden den Wortschatz und die Grammatik untersuchen, die für eine effektive Kommunikation von Patientendaten erforderlich sind."
+        },
+        "grammarFocus": {
+            "en": {
+                "1": "Use of the accusative and dative cases with verbs related to measurement (e.g., 'den Blutdruck messen' - to measure the blood pressure).",
+                "2": "Understanding and using adjectives to describe the severity or state of vital signs (e.g., 'hoher Blutdruck' - high blood pressure)."
+            },
+            "bn": {
+                "1": "মাপ সম্পর্কিত ক্রিয়াগুলির সাথে অভিযুক্ত এবং ডেটিভ কেসগুলির ব্যবহার (যেমন, 'ডেন ব্লুটড্রুক মেসেন' - রক্তচাপ পরিমাপ করা)।",
+                "2": "ভাইটাল সাইনের তীব্রতা বা অবস্থা বর্ণনা করার জন্য বিশেষণ বোঝা এবং ব্যবহার করা (যেমন, 'হোহার ব্লুটড্রুক' - উচ্চ রক্তচাপ)।"
+            },
+            "hi": {
+                "1": "माप से संबंधित क्रियाओं के साथ अभियोगात्मक और डेटिव मामलों का उपयोग (उदाहरण के लिए, 'डेन ब्लूटड्रुक मेसेन' - रक्तचाप को मापना)।",
+                "2": "महत्वपूर्ण संकेतों की गंभीरता या स्थिति का वर्णन करने के लिए विशेषणों को समझना और उपयोग करना (उदाहरण के लिए, 'होहर ब्लूटड्रुक' - उच्च रक्तचाप)।"
+            },
+            "ur": {
+                "1": "پیمائش سے متعلق فعل کے ساتھ الزامی اور ڈیٹو کیسوں کا استعمال (مثال کے طور پر، 'ڈین بلڈڈروک میسن' - بلڈ پریشر کی پیمائش کرنا)۔",
+                "2": "اہم علامات کی شدت یا حالت کو بیان کرنے کے لیے صفتوں کو سمجھنا اور استعمال کرنا (مثال کے طور پر، 'ہوہر بلڈڈروک' - ہائی بلڈ پریشر)۔"
+            },
+            "tr": {
+                "1": "Ölçümle ilgili fiillerle suçlayıcı ve datif hallerin kullanımı (örneğin, 'den Blutdruck messen' - kan basıncını ölçmek).",
+                "2": "Vital belirtilerin şiddetini veya durumunu tanımlamak için sıfatları anlamak ve kullanmak (örneğin, 'hoher Blutdruck' - yüksek tansiyon)."
+            },
+            "de": {
+                "1": "Verwendung des Akkusativs und Dativs bei Verben im Zusammenhang mit Messungen (z.B. 'den Blutdruck messen').",
+                "2": "Verständnis und Verwendung von Adjektiven zur Beschreibung des Schweregrades oder Zustands von Vitalparametern (z.B. 'hoher Blutdruck')."
+            }
+        },
+        "culturalNotes": {
+            "en": "In German hospitals, nurses typically take vital signs with meticulous accuracy and document them thoroughly in the patient's chart. This precise documentation is crucial for diagnosis and treatment.",
+            "bn": "জার্মান হাসপাতালগুলিতে, নার্সরা সাধারণত অত্যন্ত নির্ভুলতার সাথে ভাইটাল সাইন গ্রহণ করেন এবং রোগীর চার্টে পুঙ্খানুপুঙ্খভাবে নথিভুক্ত করেন। এই সুনির্দিষ্ট ডকুমেন্টেশন রোগ নির্ণয় এবং চিকিৎসার জন্য অত্যন্ত গুরুত্বপূর্ণ।",
+            "hi": "जर्मन अस्पतालों में, नर्सें आमतौर पर अत्यंत सटीकता के साथ महत्वपूर्ण संकेतों को लेती हैं और रोगी के चार्ट में उन्हें अच्छी तरह से दस्तावेज़ित करती हैं। यह सटीक दस्तावेज़ निदान और उपचार के लिए महत्वपूर्ण है।",
+            "ur": "جرمن ہسپتالوں میں، نرسیں عام طور پر انتہائی درستگی کے ساتھ اہم علامات لیتی ہیں اور انہیں مریض کے چارٹ میں مکمل طور پر دستاویز کرتی ہیں۔ یہ درست دستاویز تشخیص اور علاج کے لیے بہت ضروری ہے۔",
+            "tr": "Alman hastanelerinde hemşireler genellikle vital belirtileri titiz bir doğrulukla alırlar ve bunları hastanın çizelgesinde iyice belgelendirirler. Bu kesin belgeleme, teşhis ve tedavi için çok önemlidir.",
+            "de": "In deutschen Krankenhäusern nehmen Pflegekräfte in der Regel Vitalparameter mit grosser Genauigkeit auf und dokumentieren diese sorgfältig in der Patientenakte. Diese präzise Dokumentation ist entscheidend für Diagnose und Behandlung."
+        },
+        "summary": {
+            "en": "This section provided the German terminology and grammatical considerations necessary for accurately communicating vital signs and numerical patient data in a medical setting.",
+            "bn": "এই বিভাগে মেডিকেল সেটিংয়ে সঠিকভাবে ভাইটাল সাইন এবং সংখ্যাসূচক রোগীর ডেটা যোগাযোগের জন্য প্রয়োজনীয় জার্মান পরিভাষা এবং ব্যাকরণগত বিবেচনাগুলি সরবরাহ করা হয়েছে।",
+            "hi": "इस खंड में चिकित्सा सेटिंग में महत्वपूर्ण संकेतों और संख्यात्मक रोगी डेटा को सटीक रूप से संप्रेषित करने के लिए आवश्यक जर्मन शब्दावली और व्याकरणिक विचार प्रदान किए गए हैं।",
+            "ur": "اس حصے میں طبی ترتیب میں اہم علامات اور عددی مریض کے ڈیٹا کو درست طریقے سے بات چیت کرنے کے لیے ضروری جرمن اصطلاحات اور گرائمیکل تحفظات فراہم کیے گئے ہیں۔",
+            "tr": "Bu bölüm, tıbbi bir ortamda vital belirtileri ve sayısal hasta verilerini doğru bir şekilde iletmek için gerekli Almanca terminolojiyi ve dilbilgisel hususları sağlamıştır.",
+            "de": "Dieser Abschnitt enthielt die deutsche Terminologie und die grammatikalischen Überlegungen, die für die genaue Übermittlung von Vitalparametern und numerischen Patientendaten in einem medizinischen Umfeld erforderlich sind."
+        },
+        "learningObjectives": [
+            "Learn the German terms for essential vital signs.",
+            "Practice taking and documenting vital signs using German medical terminology.",
+            "Understand the grammatical structures used when discussing vital signs in German.",
+            "Be able to communicate patient vital sign data effectively in German."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "der Blutdruck",
+            "article": "der",
+            "plural": "die Blutdrücke",
+            "pronunciation": "/ˈbluːtˌdʁʊk/",
+            "category": "noun",
+            "translation": {
+                "en": "blood pressure",
+                "bn": "রক্তচাপ",
+                "hi": "रक्तचाप",
+                "ur": "خون کا دباؤ",
+                "tr": "kan basıncı"
+            },
+            "exampleSentence": "Der Blutdruck des Patienten ist stabil bei 120 zu 80.",
+            "exampleTranslation": {
+                "en": "The patient's blood pressure is stable at 120 over 80.",
+                "bn": "রোগীর রক্তচাপ ১২০/৮০ এ স্থিতিশীল।",
+                "hi": "मरीज का रक्तचाप 120/80 पर स्थिर है।",
+                "ur": "مریض کا بلڈ پریشر 120/80 پر مستحکم ہے۔",
+                "tr": "Hastanın kan basıncı 120'ye 80'de stabil."
+            },
+            "id": "v07_01"
+        },
+        {
+            "germanTerm": "der Puls",
+            "article": "der",
+            "plural": "die Pulse",
+            "pronunciation": "/pʊls/",
+            "category": "noun",
+            "translation": {
+                "en": "pulse",
+                "bn": "নাড়ি",
+                "hi": "नाड़ी",
+                "ur": "نبض",
+                "tr": "nabız"
+            },
+            "exampleSentence": "Der Puls ist regelmäßig und liegt bei 72 Schlägen pro Minute.",
+            "exampleTranslation": {
+                "en": "The pulse is regular and is at 72 beats per minute.",
+                "bn": "নাড়ি নিয়মিত এবং মিনিটে ৭২ বার।",
+                "hi": "नाड़ी नियमित है और 72 धड़कन प्रति मिनट है।",
+                "ur": "نبض باقاعدہ ہے اور 72 دھڑکن فی منٹ ہے۔",
+                "tr": "Nabız düzenli ve dakikada 72 atım."
+            },
+            "id": "v07_02"
+        },
+        {
+            "germanTerm": "die Temperatur",
+            "article": "die",
+            "plural": "die Temperaturen",
+            "pronunciation": "/tɛmpaʁaˈtuːɐ̯/",
+            "category": "noun",
+            "translation": {
+                "en": "temperature",
+                "bn": "তাপমাত্রা",
+                "hi": "तापमान",
+                "ur": "درجہ حرارت",
+                "tr": "sıcaklık"
+            },
+            "exampleSentence": "Die Temperatur des Patienten beträgt 38,5 Grad Celsius.",
+            "exampleTranslation": {
+                "en": "The patient's temperature is 38.5 degrees Celsius.",
+                "bn": "রোগীর তাপমাত্রা ৩৮.৫ ডিগ্রি সেলসিয়াস।",
+                "hi": "मरीज का तापमान 38.5 डिग्री सेल्सियस है।",
+                "ur": "مریض کا درجہ حرارت 38.5 ڈگری سینٹی گریڈ ہے۔",
+                "tr": "Hastanın sıcaklığı 38.5 derece Santigrat."
+            },
+            "id": "v07_03"
+        },
+        {
+            "germanTerm": "die Atemfrequenz",
+            "article": "die",
+            "plural": "die Atemfrequenzen",
+            "pronunciation": "/ˈaːtəmˌfrekvɛnt͡s/",
+            "category": "noun",
+            "translation": {
+                "en": "respiratory rate",
+                "bn": "শ্বাস-প্রশ্বাসের হার",
+                "hi": "श्वसन दर",
+                "ur": "سانس لینے کی شرح",
+                "tr": "solunum hızı"
+            },
+            "exampleSentence": "Die Atemfrequenz ist erhöht, bei 24 Atemzügen pro Minute.",
+            "exampleTranslation": {
+                "en": "The respiratory rate is elevated, at 24 breaths per minute.",
+                "bn": "শ্বাস-প্রশ্বাসের হার বেড়েছে, মিনিটে ২৪ টি শ্বাস।",
+                "hi": "श्वसन दर बढ़ गई है, 24 सांस प्रति मिनट पर।",
+                "ur": "سانس لینے کی شرح بڑھ گئی ہے، 24 سانس فی منٹ پر۔",
+                "tr": "Solunum hızı yüksek, dakikada 24 nefes."
+            },
+            "id": "v07_04"
+        },
+        {
+            "germanTerm": "die Sauerstoffsättigung",
+            "article": "die",
+            "plural": "die Sauerstoffsättigungen",
+            "pronunciation": "/ˈzaʊ̯ɐʃtɔfˌzɛtɪɡʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "oxygen saturation",
+                "bn": "অক্সিজেন স্যাচুরেশন",
+                "hi": "ऑक्सीजन संतृप्ति",
+                "ur": "آکسیجن کی سیر",
+                "tr": "oksijen saturasyonu"
+            },
+            "exampleSentence": "Die Sauerstoffsättigung beträgt 95% unter Raumluft.",
+            "exampleTranslation": {
+                "en": "The oxygen saturation is 95% on room air.",
+                "bn": "অক্সিজেন স্যাচুরেশন রুমের বাতাসে ৯৫%।",
+                "hi": "ऑक्सीजन संतृप्ति कमरे की हवा पर 95% है।",
+                "ur": "آکسیجن کی سیر کمرے کی ہوا پر 95٪ ہے۔",
+                "tr": "Oksijen saturasyonu oda havasında %95."
+            },
+            "id": "v07_05"
+        },
+        {
+            "germanTerm": "das Gewicht",
+            "article": "das",
+            "plural": "die Gewichte",
+            "pronunciation": "/ɡəˈvɪçt/",
+            "category": "noun",
+            "translation": {
+                "en": "weight",
+                "bn": "ওজন",
+                "hi": "वजन",
+                "ur": "وزن",
+                "tr": "ağırlık"
+            },
+            "exampleSentence": "Das Gewicht des Patienten beträgt 75 Kilogramm.",
+            "exampleTranslation": {
+                "en": "The patient's weight is 75 kilograms.",
+                "bn": "রোগীর ওজন ৭৫ কিলোগ্রাম।",
+                "hi": "मरीज का वजन 75 किलोग्राम है।",
+                "ur": "مریض کا وزن 75 کلوگرام ہے۔",
+                "tr": "Hastanın ağırlığı 75 kilogram."
+            },
+            "id": "v07_06"
+        },
+        {
+            "germanTerm": "die Größe",
+            "article": "die",
+            "plural": "die Größen",
+            "pronunciation": "/ˈɡʁøːsə/",
+            "category": "noun",
+            "translation": {
+                "en": "height",
+                "bn": "উচ্চতা",
+                "hi": "ऊंचाई",
+                "ur": "قد",
+                "tr": "boy"
+            },
+            "exampleSentence": "Die Größe des Patienten ist 1,80 Meter.",
+            "exampleTranslation": {
+                "en": "The patient's height is 1.80 meters.",
+                "bn": "রোগীর উচ্চতা ১.৮০ মিটার।",
+                "hi": "मरीज की ऊंचाई 1.80 मीटर है।",
+                "ur": "مریض کا قد 1.80 میٹر ہے۔",
+                "tr": "Hastanın boyu 1.80 metre."
+            },
+            "id": "v07_07"
+        },
+        {
+            "germanTerm": "der BMI (Body-Mass-Index)",
+            "article": "der",
+            "plural": "die BMIs",
+            "pronunciation": "/ˌbeːʔɛmˈʔiː/",
+            "category": "noun",
+            "translation": {
+                "en": "BMI (Body Mass Index)",
+                "bn": "বিএমআই (বডি মাস ইনডেক্স)",
+                "hi": "बीएमआई (बॉडी मास इंडेक्स)",
+                "ur": "بی ایم آئی (باڈی ماس انڈیکس)",
+                "tr": "BMI (Vücut Kitle İndeksi)"
+            },
+            "exampleSentence": "Der BMI des Patienten liegt bei 25, was auf Übergewicht hindeutet.",
+            "exampleTranslation": {
+                "en": "The patient's BMI is 25, which indicates overweight.",
+                "bn": "রোগীর বিএমআই ২৫, যা অতিরিক্ত ওজনের ইঙ্গিত দেয়।",
+                "hi": "मरीज का बीएमआई 25 है, जो अधिक वजन का संकेत देता है।",
+                "ur": "مریض کا بی ایم آئی 25 ہے، جو زیادہ وزن کی نشاندہی کرتا ہے۔",
+                "tr": "Hastanın BMI'ı 25, bu da fazla kilolu olduğunu gösteriyor."
+            },
+            "id": "v07_08"
+        },
+        {
+            "germanTerm": "systolisch",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/zʏsˈtoːlɪʃ/",
+            "category": "adjective",
+            "translation": {
+                "en": "systolic",
+                "bn": "সিস্টোলিক",
+                "hi": "सिस्टोलिक",
+                "ur": "سسٹولک",
+                "tr": "sistolik"
+            },
+            "exampleSentence": "Der systolische Blutdruck liegt bei 140 mmHg.",
+            "exampleTranslation": {
+                "en": "The systolic blood pressure is 140 mmHg.",
+                "bn": "সিস্টোলিক রক্তচাপ ১৪০ mmHg।",
+                "hi": "सिस्टोलिक रक्तचाप 140 mmHg है।",
+                "ur": "سسٹولک بلڈ پریشر 140 mmHg ہے۔",
+                "tr": "Sistolik kan basıncı 140 mmHg."
+            },
+            "id": "v07_09"
+        },
+        {
+            "germanTerm": "diastolisch",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/di̯asˈtoːlɪʃ/",
+            "category": "adjective",
+            "translation": {
+                "en": "diastolic",
+                "bn": "ডায়াস্টোলিক",
+                "hi": "डायस्टोलिक",
+                "ur": "ڈائیسٹولک",
+                "tr": "diyastolik"
+            },
+            "exampleSentence": "Der diastolische Blutdruck beträgt 90 mmHg.",
+            "exampleTranslation": {
+                "en": "The diastolic blood pressure is 90 mmHg.",
+                "bn": "ডায়াস্টোলিক রক্তচাপ ৯০ mmHg।",
+                "hi": "डायस्टोलिक रक्तचाप 90 mmHg है।",
+                "ur": "ڈائیسٹولک بلڈ پریشر 90 mmHg ہے۔",
+                "tr": "Diyastolik kan basıncı 90 mmHg."
+            },
+            "id": "v07_10"
+        },
+        {
+            "germanTerm": "messen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈmɛsn̩/",
+            "category": "verb",
+            "translation": {
+                "en": "to measure",
+                "bn": "মাপ করা",
+                "hi": "मापना",
+                "ur": "ناپنا",
+                "tr": "ölçmek"
+            },
+            "exampleSentence": "Wir müssen den Blutdruck regelmäßig messen.",
+            "exampleTranslation": {
+                "en": "We need to measure the blood pressure regularly.",
+                "bn": "আমাদের নিয়মিত রক্তচাপ মাপতে হবে।",
+                "hi": "हमें नियमित रूप से रक्तचाप मापना होगा।",
+                "ur": "ہمیں باقاعدگی سے بلڈ پریشر ناپنا ہوگا۔",
+                "tr": "Kan basıncını düzenli olarak ölçmemiz gerekiyor."
+            },
+            "id": "v07_11"
+        },
+        {
+            "germanTerm": "die Messung",
+            "article": "die",
+            "plural": "die Messungen",
+            "pronunciation": "/ˈmɛsʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "measurement",
+                "bn": "মাপ",
+                "hi": "माप",
+                "ur": "پیمائش",
+                "tr": "ölçüm"
+            },
+            "exampleSentence": "Die Messung wurde dreimal wiederholt.",
+            "exampleTranslation": {
+                "en": "The measurement was repeated three times.",
+                "bn": "মাপটি তিনবার পুনরাবৃত্তি করা হয়েছিল।",
+                "hi": "माप को तीन बार दोहराया गया।",
+                "ur": "پیمائش کو تین بار دہرایا گیا۔",
+                "tr": "Ölçüm üç kez tekrarlandı."
+            },
+            "id": "v07_12"
+        },
+        {
+            "germanTerm": "erhöht",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ɛɐ̯ˈhøːt/",
+            "category": "adjective",
+            "translation": {
+                "en": "elevated",
+                "bn": "উন্নত",
+                "hi": "उन्नत",
+                "ur": "مرتفع",
+                "tr": "yüksek"
+            },
+            "exampleSentence": "Der Blutdruck ist leicht erhöht.",
+            "exampleTranslation": {
+                "en": "The blood pressure is slightly elevated.",
+                "bn": "রক্তচাপ সামান্য উন্নত।",
+                "hi": "रक्तचाप थोड़ा बढ़ गया है।",
+                "ur": "بلڈ پریشر قدرے زیادہ ہے۔",
+                "tr": "Kan basıncı biraz yüksek."
+            },
+            "id": "v07_13"
+        },
+        {
+            "germanTerm": "erniedrigt",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ɛɐ̯ˈniːdʁɪçt/",
+            "category": "adjective",
+            "translation": {
+                "en": "decreased",
+                "bn": "কমে যাওয়া",
+                "hi": "कम हो गया",
+                "ur": "کم ہو گیا",
+                "tr": "azalmış"
+            },
+            "exampleSentence": "Die Sauerstoffsättigung ist erniedrigt.",
+            "exampleTranslation": {
+                "en": "The oxygen saturation is decreased.",
+                "bn": "অক্সিজেন স্যাচুরেশন কমে গেছে।",
+                "hi": "ऑक्सीजन संतृप्ति कम हो गई है।",
+                "ur": "آکسیجن کی سیر کم ہو گئی ہے۔",
+                "tr": "Oksijen saturasyonu azalmış."
+            },
+            "id": "v07_14"
+        },
+        {
+            "germanTerm": "normal",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/nɔʁˈmaːl/",
+            "category": "adjective",
+            "translation": {
+                "en": "normal",
+                "bn": "স্বাভাবিক",
+                "hi": "सामान्य",
+                "ur": "معمول",
+                "tr": "normal"
+            },
+            "exampleSentence": "Alle Vitalzeichen sind normal.",
+            "exampleTranslation": {
+                "en": "All vital signs are normal.",
+                "bn": "সমস্ত গুরুত্বপূর্ণ লক্ষণ স্বাভাবিক।",
+                "hi": "सभी महत्वपूर्ण संकेत सामान्य हैं।",
+                "ur": "تمام اہم علامات نارمل ہیں۔",
+                "tr": "Tüm vital belirtiler normal."
+            },
+            "id": "v07_15"
+        },
+        {
+            "germanTerm": "der Schlag",
+            "article": "der",
+            "plural": "die Schläge",
+            "pronunciation": "/ʃlaːk/",
+            "category": "noun",
+            "translation": {
+                "en": "beat, pulse",
+                "bn": "স্পন্দন, পালস",
+                "hi": "धड़कन, नाड़ी",
+                "ur": "دھڑکن, نبض",
+                "tr": "vuruş, nabız"
+            },
+            "exampleSentence": "Der Puls beträgt 80 Schläge pro Minute.",
+            "exampleTranslation": {
+                "en": "The pulse is 80 beats per minute.",
+                "bn": "পালস মিনিটে ৮০ স্পন্দন।",
+                "hi": "नाड़ी 80 धड़कन प्रति मिनट है।",
+                "ur": "نبض 80 دھڑکن فی منٹ ہے۔",
+                "tr": "Nabız dakikada 80 vuruş."
+            },
+            "id": "v07_16"
+        },
+        {
+            "germanTerm": "die Minute",
+            "article": "die",
+            "plural": "die Minuten",
+            "pronunciation": "/miˈnuːtə/",
+            "category": "noun",
+            "translation": {
+                "en": "minute",
+                "bn": "মিনিট",
+                "hi": "मिनट",
+                "ur": "منٹ",
+                "tr": "dakika"
+            },
+            "exampleSentence": "Die Atemfrequenz wird pro Minute gemessen.",
+            "exampleTranslation": {
+                "en": "The respiratory rate is measured per minute.",
+                "bn": "শ্বাস-প্রশ্বাসের হার প্রতি মিনিটে মাপা হয়।",
+                "hi": "श्वसन दर प्रति मिनट मापा जाता है।",
+                "ur": "سانس لینے کی شرح فی منٹ ماپی جاتی ہے۔",
+                "tr": "Solunum hızı dakikada ölçülür."
+            },
+            "id": "v07_17"
+        },
+        {
+            "germanTerm": "liegen bei",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈliːɡən baɪ̯/",
+            "category": "phrase",
+            "translation": {
+                "en": "to be at",
+                "bn": "এ থাকা",
+                "hi": "पर होना",
+                "ur": "پر ہونا",
+                "tr": "de olmak"
+            },
+            "exampleSentence": "Der Blutdruck liegt bei 130 zu 85.",
+            "exampleTranslation": {
+                "en": "The blood pressure is at 130 over 85.",
+                "bn": "রক্তচাপ ১৩০/৮৫ এ আছে।",
+                "hi": "रक्तचाप 130/85 पर है।",
+                "ur": "بلڈ پریشر 130/85 پر ہے۔",
+                "tr": "Kan basıncı 130'a 85'te."
+            },
+            "id": "v07_18"
+        },
+        {
+            "germanTerm": "die Tabelle",
+            "article": "die",
+            "plural": "die Tabellen",
+            "pronunciation": "/taˈbɛlə/",
+            "category": "noun",
+            "translation": {
+                "en": "table, chart",
+                "bn": "সারণী",
+                "hi": "तालिका",
+                "ur": "ٹیبل",
+                "tr": "tablo"
+            },
+            "exampleSentence": "Schauen Sie in der Tabelle nach den Normalwerten.",
+            "exampleTranslation": {
+                "en": "Look up the normal values in the table.",
+                "bn": "স্বাভাবিক মানগুলির জন্য সারণীতে দেখুন।",
+                "hi": "सामान्य मूल्यों के लिए तालिका में देखें।",
+                "ur": "معمول کی اقدار کے لیے ٹیبل میں دیکھیں۔",
+                "tr": "Normal değerler için tabloya bakın."
+            },
+            "id": "v07_19"
+        },
+        {
+            "germanTerm": "die Abweichung",
+            "article": "die",
+            "plural": "die Abweichungen",
+            "pronunciation": "/ˈapvaɪ̯çʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "deviation",
+                "bn": "বিচ্যুতি",
+                "hi": "विचलन",
+                "ur": "انحراف",
+                "tr": "sapma"
+            },
+            "exampleSentence": "Es gibt eine leichte Abweichung vom Normalwert.",
+            "exampleTranslation": {
+                "en": "There is a slight deviation from the normal value.",
+                "bn": "স্বাভাবিক মান থেকে সামান্য বিচ্যুতি রয়েছে।",
+                "hi": "सामान्य मूल्य से थोड़ा विचलन है।",
+                "ur": "معمول کی قیمت سے تھوڑا سا انحراف ہے۔",
+                "tr": "Normal değerden hafif bir sapma var."
+            },
+            "id": "v07_20"
+        },
+        {
+            "germanTerm": "die Anamnese",
+            "article": "die",
+            "plural": "die Anamnesen",
+            "pronunciation": "/anaˈmneːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "medical history",
+                "bn": "চিকিৎসা ইতিহাস",
+                "hi": "चिकित्सा इतिहास",
+                "ur": "طبی تاریخ",
+                "tr": "tıbbi geçmiş"
+            },
+            "exampleSentence": "Die Vitalzeichen sind wichtig für die Anamnese.",
+            "exampleTranslation": {
+                "en": "Vital signs are important for the medical history.",
+                "bn": "গুরুত্বপূর্ণ লক্ষণগুলি চিকিৎসা ইতিহাসের জন্য গুরুত্বপূর্ণ।",
+                "hi": "महत्वपूर्ण संकेत चिकित्सा इतिहास के लिए महत्वपूर्ण हैं।",
+                "ur": "اہم علامات طبی تاریخ کے لیے اہم ہیں۔",
+                "tr": "Vital belirtiler tıbbi geçmiş için önemlidir."
+            },
+            "id": "v07_21"
+        },
+        {
+            "germanTerm": "die Diagnose",
+            "article": "die",
+            "plural": "die Diagnosen",
+            "pronunciation": "/diaˈɡnoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "diagnosis",
+                "bn": "রোগ নির্ণয়",
+                "hi": "निदान",
+                "ur": "تشخیص",
+                "tr": "teşhis"
+            },
+            "exampleSentence": "Die Vitalzeichen helfen bei der Diagnosefindung.",
+            "exampleTranslation": {
+                "en": "Vital signs help in making a diagnosis.",
+                "bn": "গুরুত্বপূর্ণ লক্ষণগুলি রোগ নির্ণয়ে সাহায্য করে।",
+                "hi": "महत्वपूर्ण संकेत निदान में मदद करते हैं।",
+                "ur": "اہم علامات تشخیص میں مدد کرتی ہیں۔",
+                "tr": "Vital belirtiler teşhis koymaya yardımcı olur."
+            },
+            "id": "v07_22"
+        },
+        {
+            "germanTerm": "die Therapie",
+            "article": "die",
+            "plural": "die Therapien",
+            "pronunciation": "/teʁaˈpiː/",
+            "category": "noun",
+            "translation": {
+                "en": "therapy",
+                "bn": "থেরাপি",
+                "hi": "थेरेपी",
+                "ur": "تھراپی",
+                "tr": "terapi"
+            },
+            "exampleSentence": "Die Therapie muss an die Vitalzeichen angepasst werden.",
+            "exampleTranslation": {
+                "en": "The therapy must be adjusted to the vital signs.",
+                "bn": "থেরাপিটি গুরুত্বপূর্ণ লক্ষণগুলির সাথে সামঞ্জস্য করা উচিত।",
+                "hi": "चिकित्सा को महत्वपूर्ण संकेतों के अनुसार समायोजित किया जाना चाहिए।",
+                "ur": "علاج کو اہم علامات کے مطابق ایڈجسٹ کرنا چاہیے۔",
+                "tr": "Terapi, vital belirtilere göre ayarlanmalıdır."
+            },
+            "id": "v07_23"
+        },
+        {
+            "germanTerm": "kontrollieren",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/kɔntʁoˈliːʁən/",
+            "category": "verb",
+            "translation": {
+                "en": "to check, to monitor",
+                "bn": "যাচাই করা, নিরীক্ষণ করা",
+                "hi": "जांच करना, निगरानी करना",
+                "ur": "جانچنا، نگرانی کرنا",
+                "tr": "kontrol etmek, izlemek"
+            },
+            "exampleSentence": "Wir müssen die Vitalzeichen regelmäßig kontrollieren.",
+            "exampleTranslation": {
+                "en": "We need to check the vital signs regularly.",
+                "bn": "আমাদের নিয়মিত গুরুত্বপূর্ণ লক্ষণগুলি যাচাই করতে হবে।",
+                "hi": "हमें नियमित रूप से महत्वपूर्ण संकेतों की जांच करनी होगी।",
+                "ur": "ہمیں باقاعدگی سے اہم علامات کی جانچ کرنی ہوگی۔",
+                "tr": "Vital belirtileri düzenli olarak kontrol etmemiz gerekiyor."
+            },
+            "id": "v07_24"
+        },
+        {
+            "germanTerm": "die Überwachung",
+            "article": "die",
+            "plural": "die Überwachungen",
+            "pronunciation": "/yːbɐˈvaχʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "monitoring",
+                "bn": "পর্যবেক্ষণ",
+                "hi": "निगरानी",
+                "ur": "نگرانی",
+                "tr": "izleme"
+            },
+            "exampleSentence": "Der Patient benötigt eine kontinuierliche Überwachung der Vitalzeichen.",
+            "exampleTranslation": {
+                "en": "The patient needs continuous monitoring of vital signs.",
+                "bn": "রোগীর গুরুত্বপূর্ণ লক্ষণগুলির ক্রমাগত পর্যবেক্ষণের প্রয়োজন।",
+                "hi": "मरीज को महत्वपूर्ण संकेतों की निरंतर निगरानी की आवश्यकता है।",
+                "ur": "مریض کو اہم علامات کی مسلسل نگرانی کی ضرورت ہے۔",
+                "tr": "Hastanın vital belirtilerinin sürekli izlenmesi gerekiyor."
+            },
+            "id": "v07_25"
+        },
+        {
+            "germanTerm": "der Zustand",
+            "article": "der",
+            "plural": "die Zustände",
+            "pronunciation": "/ˈt͡suːʃtant/",
+            "category": "noun",
+            "translation": {
+                "en": "condition",
+                "bn": "অবস্থা",
+                "hi": "हालत",
+                "ur": "حالت",
+                "tr": "durum"
+            },
+            "exampleSentence": "Der Zustand des Patienten hat sich stabilisiert.",
+            "exampleTranslation": {
+                "en": "The patient's condition has stabilized.",
+                "bn": "রোগীর অবস্থা স্থিতিশীল হয়েছে।",
+                "hi": "मरीज की हालत स्थिर हो गई है।",
+                "ur": "مریض کی حالت مستحکم ہو گئی ہے۔",
+                "tr": "Hastanın durumu stabil hale geldi."
+            },
+            "id": "v07_26"
+        },
+        {
+            "germanTerm": "dokumentieren",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˌdokumenˈtiːʁən/",
+            "category": "verb",
+            "translation": {
+                "en": "to document",
+                "bn": "নথিভুক্ত করা",
+                "hi": "दस्तावेज़ बनाना",
+                "ur": "دستاویز بنانا",
+                "tr": "belgelemek"
+            },
+            "exampleSentence": "Wir müssen alle Vitalzeichen sorgfältig dokumentieren.",
+            "exampleTranslation": {
+                "en": "We must carefully document all vital signs.",
+                "bn": "আমাদের সমস্ত গুরুত্বপূর্ণ লক্ষণগুলি সাবধানে নথিভুক্ত করতে হবে।",
+                "hi": "हमें सभी महत्वपूर्ण संकेतों को सावधानीपूर्वक दस्तावेज़ बनाना होगा।",
+                "ur": "ہمیں تمام اہم علامات کو احتیاط سے دستاویز بنانا ہوگا۔",
+                "tr": "Tüm vital belirtileri dikkatlice belgelemeliyiz."
+            },
+            "id": "v07_27"
+        },
+        {
+            "germanTerm": "die Einheit",
+            "article": "die",
+            "plural": "die Einheiten",
+            "pronunciation": "/ˈaɪ̯nhaɪ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "unit",
+                "bn": "ইউনিট",
+                "hi": "इकाई",
+                "ur": "اکائی",
+                "tr": "birim"
+            },
+            "exampleSentence": "Die Einheit für den Blutdruck ist mmHg.",
+            "exampleTranslation": {
+                "en": "The unit for blood pressure is mmHg.",
+                "bn": "রক্তচাপের একক mmHg।",
+                "hi": "रक्तचाप की इकाई mmHg है।",
+                "ur": "بلڈ پریشر کی اکائی mmHg ہے۔",
+                "tr": "Kan basıncının birimi mmHg'dir."
+            },
+            "id": "v07_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Initial Assessment: Vital Signs Check",
+                "bn": "প্রাথমিক মূল্যায়ন: অত্যাবশ্যকীয় লক্ষণ পরীক্ষা",
+                "hi": "प्रारंभिक मूल्यांकन: वाइटल साइंस जांच",
+                "ur": "ابتدائی جائزہ: اہم علامات کی جانچ",
+                "tr": "İlk Değerlendirme: Vital Bulgular Kontrolü"
+            },
+            "context": {
+                "en": "A patient arrives at the ER complaining of chest pain. The nurse takes initial vital signs.",
+                "bn": "একজন রোগী বুকে ব্যথার অভিযোগ নিয়ে জরুরি বিভাগে এসেছেন। নার্স প্রাথমিক অত্যাবশ্যকীয় লক্ষণগুলো নিয়েছেন।",
+                "hi": "एक मरीज़ सीने में दर्द की शिकायत लेकर आपातकालीन कक्ष में आता है। नर्स प्रारंभिक वाइटल साइंस लेती है।",
+                "ur": "ایک مریض سینے میں درد کی شکایت کے ساتھ ایمرجنسی روم میں آتا ہے۔ نرس ابتدائی اہم علامات لیتی ہے۔",
+                "tr": "Bir hasta göğüs ağrısı şikayetiyle acil servise gelir. Hemşire ilk vital bulguları alır."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Tag, Herr Müller. Was führt Sie ins Krankenhaus?",
+                    "translation": {
+                        "en": "Good day, Mr. Müller. What brings you to the hospital?",
+                        "bn": "শুভ দিন, জনাব মুলার। কী কারণে আপনি হাসপাতালে এসেছেন?",
+                        "hi": "शुभ दिन, श्री मुलर। आपको अस्पताल में क्या लाया?",
+                        "ur": "شب بخیر، مسٹر ملر۔ آپ کو ہسپتال کیا لایا؟",
+                        "tr": "İyi günler, Bay Müller. Sizi hastaneye getiren nedir?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe starke Brustschmerzen.",
+                    "translation": {
+                        "en": "I have severe chest pain.",
+                        "bn": "আমার বুকে খুব ব্যথা হচ্ছে।",
+                        "hi": "मुझे सीने में बहुत दर्द है।",
+                        "ur": "مجھے سینے میں شدید درد ہے۔",
+                        "tr": "Şiddetli göğüs ağrım var."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich messe Ihren Blutdruck, Puls und Sauerstoffsättigung. Ihr Blutdruck ist 160/100, Puls 95, Sauerstoffsättigung 92%.",
+                    "translation": {
+                        "en": "I'll measure your blood pressure, pulse, and oxygen saturation. Your blood pressure is 160/100, pulse 95, oxygen saturation 92%.",
+                        "bn": "আমি আপনার রক্তচাপ, পালস এবং অক্সিজেন স্যাচুরেশন মাপছি। আপনার রক্তচাপ ১৬০/১০০, পালস ৯৫, অক্সিজেন স্যাচুরেশন ৯২%।",
+                        "hi": "मैं आपका रक्तचाप, नाड़ी और ऑक्सीजन संतृप्ति माप रही हूँ। आपका रक्तचाप 160/100, नाड़ी 95, ऑक्सीजन संतृप्ति 92% है।",
+                        "ur": "میں آپ کا بلڈ پریشر، نبض اور آکسیجن کی سطح کی پیمائش کر رہی ہوں۔ آپ کا بلڈ پریشر 160/100، نبض 95، آکسیجن کی سطح 92 فیصد ہے۔",
+                        "tr": "Kan basıncınızı, nabzınızı ve oksijen saturasyonunuzu ölçeceğim. Kan basıncınız 160/100, nabzınız 95, oksijen saturasyonunuz %92."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ist das schlimm?",
+                    "translation": {
+                        "en": "Is that bad?",
+                        "bn": "এটা কি খারাপ?",
+                        "hi": "क्या यह बुरा है?",
+                        "ur": "کیا یہ برا ہے؟",
+                        "tr": "Bu kötü mü?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Wir werden das sofort dem Arzt melden. Bitte warten Sie hier.",
+                    "translation": {
+                        "en": "We will report that to the doctor immediately. Please wait here.",
+                        "bn": "আমরা অবিলম্বে ডাক্তারকে জানাব। অনুগ্রহ করে এখানে অপেক্ষা করুন।",
+                        "hi": "हम इसे तुरंत डॉक्टर को बताएंगे। कृपया यहाँ प्रतीक्षा करें।",
+                        "ur": "ہم فوری طور پر ڈاکٹر کو اطلاع دیں گے۔ براہ کرم یہاں انتظار کریں۔",
+                        "tr": "Hemen doktora bildireceğiz. Lütfen burada bekleyin."
+                    }
+                }
+            ],
+            "id": "d07_01"
+        },
+        {
+            "title": {
+                "en": "Post-Operative Check: Monitoring Temperature and Pain",
+                "bn": "অস্ত্রোপচারের পরে পরীক্ষা: তাপমাত্রা এবং ব্যথা পর্যবেক্ষণ",
+                "hi": "ऑपरेशन के बाद की जाँच: तापमान और दर्द की निगरानी",
+                "ur": "آپریشن کے بعد چیک اپ: درجہ حرارت اور درد کی نگرانی",
+                "tr": "Ameliyat Sonrası Kontrol: Ateş ve Ağrı Takibi"
+            },
+            "context": {
+                "en": "A patient is recovering after surgery. The nurse checks their temperature and asks about pain levels.",
+                "bn": "একজন রোগী অস্ত্রোপচারের পরে সুস্থ হচ্ছেন। নার্স তার তাপমাত্রা পরীক্ষা করেন এবং ব্যথার মাত্রা সম্পর্কে জিজ্ঞাসা করেন।",
+                "hi": "एक मरीज सर्जरी के बाद ठीक हो रहा है। नर्स उसका तापमान जाँचती है और दर्द के स्तर के बारे में पूछती है।",
+                "ur": "ایک مریض سرجری کے بعد صحت یاب ہو رہا ہے۔ نرس اس کا درجہ حرارت چیک کرتی ہے اور درد کی سطح کے بارے میں پوچھتی ہے۔",
+                "tr": "Bir hasta ameliyattan sonra iyileşiyor. Hemşire ateşi kontrol eder ve ağrı seviyelerini sorar."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Morgen, Frau Schmidt. Wie fühlen Sie sich heute?",
+                    "translation": {
+                        "en": "Good morning, Mrs. Schmidt. How are you feeling today?",
+                        "bn": "শুভ সকাল, মিসেস শ্মিট। আজ আপনি কেমন অনুভব করছেন?",
+                        "hi": "शुभ प्रभात, श्रीमती श्मिट। आज आप कैसा महसूस कर रही हैं?",
+                        "ur": "صبح بخیر، مسز شمٹ۔ آج آپ کیسا محسوس کر رہی ہیں؟",
+                        "tr": "Günaydın, Bayan Schmidt. Bugün nasılsınız?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Morgen. Es geht so. Ich habe noch Schmerzen.",
+                    "translation": {
+                        "en": "Good morning. So-so. I still have pain.",
+                        "bn": "শুভ সকাল। ভালোই। এখনও ব্যথা আছে।",
+                        "hi": "शुभ प्रभात। ठीक-ठाक। मुझे अभी भी दर्द है।",
+                        "ur": "صبح بخیر۔ ٹھیک ٹھاک ہوں۔ مجھے ابھی بھی درد ہے۔",
+                        "tr": "Günaydın. Eh işte. Hala ağrım var."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ihre Temperatur ist 37,8 Grad. Auf einer Skala von 1 bis 10, wie stark ist Ihr Schmerz?",
+                    "translation": {
+                        "en": "Your temperature is 37.8 degrees. On a scale of 1 to 10, how strong is your pain?",
+                        "bn": "আপনার তাপমাত্রা ৩৭.৮ ডিগ্রি। ১ থেকে ১০ স্কেলে আপনার ব্যথার মাত্রা কত?",
+                        "hi": "आपका तापमान 37.8 डिग्री है। 1 से 10 के पैमाने पर, आपका दर्द कितना मजबूत है?",
+                        "ur": "آپ کا درجہ حرارت 37.8 ڈگری ہے۔ 1 سے 10 کے پیمانے پر آپ کے درد کی شدت کتنی ہے؟",
+                        "tr": "Ateşiniz 37.8 derece. 1 ile 10 arasında bir ölçekte ağrınız ne kadar şiddetli?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "So ungefähr bei 6.",
+                    "translation": {
+                        "en": "About a 6.",
+                        "bn": "প্রায় ৬।",
+                        "hi": "लगभग 6।",
+                        "ur": "تقریباً 6۔",
+                        "tr": "Yaklaşık 6."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich werde dem Arzt Bescheid sagen. Er wird Ihnen etwas gegen die Schmerzen verschreiben.",
+                    "translation": {
+                        "en": "I will inform the doctor. He will prescribe something for the pain.",
+                        "bn": "আমি ডাক্তারকে জানাব। তিনি ব্যথার জন্য কিছু লিখে দেবেন।",
+                        "hi": "मैं डॉक्टर को सूचित करूँगी। वह दर्द के लिए कुछ लिखेंगे।",
+                        "ur": "میں ڈاکٹر کو مطلع کروں گی۔ وہ درد کے لیے کچھ لکھیں گے۔",
+                        "tr": "Doktora haber vereceğim. Size ağrı için bir şeyler yazacak."
+                    }
+                }
+            ],
+            "id": "d07_02"
+        },
+        {
+            "title": {
+                "en": "Doctor's Rounds: Discussing Patient's Progress",
+                "bn": "ডাক্তারের রাউন্ড: রোগীর অগ্রগতি নিয়ে আলোচনা",
+                "hi": "डॉक्टर का चक्कर: मरीज की प्रगति पर चर्चा",
+                "ur": "ڈاکٹر کا دورہ: مریض کی پیشرفت پر تبادلہ خیال",
+                "tr": "Doktor Viziti: Hastanın İlerlemesini Tartışma"
+            },
+            "context": {
+                "en": "The doctor is making rounds and discussing a patient's condition with the nurse.",
+                "bn": "ডাক্তার রাউন্ড দিচ্ছেন এবং নার্সের সাথে রোগীর অবস্থা নিয়ে আলোচনা করছেন।",
+                "hi": "डॉक्टर राउंड कर रहे हैं और नर्स के साथ मरीज की स्थिति पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر راؤنڈ کر رہے ہیں اور نرس کے ساتھ مریض کی حالت پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Doktor vizite çıkıyor ve hemşire ile hastanın durumunu tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Morgen, Schwester Weber. Wie geht es Herrn Klein?",
+                    "translation": {
+                        "en": "Good morning, Nurse Weber. How is Mr. Klein doing?",
+                        "bn": "শুভ সকাল, নার্স ওয়েবার। মিস্টার ক্লেইন কেমন আছেন?",
+                        "hi": "शुभ प्रभात, नर्स वेबर। मिस्टर क्लेन कैसे हैं?",
+                        "ur": "صبح بخیر، نرس ویبر۔ مسٹر کلین کیسے ہیں؟",
+                        "tr": "Günaydın, Hemşire Weber. Bay Klein nasıl?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Sein Blutdruck ist stabil bei 130/80, Puls 75. Die Atemfrequenz liegt bei 16, Sauerstoffsättigung bei 98%.",
+                    "translation": {
+                        "en": "His blood pressure is stable at 130/80, pulse 75. The respiratory rate is 16, oxygen saturation 98%.",
+                        "bn": "তার রক্তচাপ ১৩০/৮০ এ স্থিতিশীল, পালস ৭৫। শ্বাস প্রশ্বাসের হার ১৬, অক্সিজেন স্যাচুরেশন ৯৮%।",
+                        "hi": "उनका रक्तचाप 130/80 पर स्थिर है, नाड़ी 75 है। श्वसन दर 16 है, ऑक्सीजन संतृप्ति 98% है।",
+                        "ur": "ان کا بلڈ پریشر 130/80 پر مستحکم ہے، نبض 75 ہے۔ سانس لینے کی رفتار 16 ہے، آکسیجن کی سطح 98 فیصد ہے۔",
+                        "tr": "Kan basıncı 130/80'de stabil, nabzı 75. Solunum hızı 16, oksijen saturasyonu %98."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Gut. Hat er Fieber?",
+                    "translation": {
+                        "en": "Good. Does he have a fever?",
+                        "bn": "ভালো। তার কি জ্বর আছে?",
+                        "hi": "अच्छा। क्या उसे बुखार है?",
+                        "ur": "اچھی بات ہے۔ کیا اسے بخار ہے؟",
+                        "tr": "Güzel. Ateşi var mı?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Nein, seine Temperatur ist normal.",
+                    "translation": {
+                        "en": "No, his temperature is normal.",
+                        "bn": "না, তার তাপমাত্রা স্বাভাবিক।",
+                        "hi": "नहीं, उसका तापमान सामान्य है।",
+                        "ur": "نہیں، اس کا درجہ حرارت معمول پر ہے۔",
+                        "tr": "Hayır, ateşi normal."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ausgezeichnet. Wir können ihn vielleicht morgen entlassen.",
+                    "translation": {
+                        "en": "Excellent. We can probably discharge him tomorrow.",
+                        "bn": "চমৎকার। সম্ভবত আমরা তাকে কালকে ছাড়তে পারব।",
+                        "hi": "उत्कृष्ट। हम शायद उसे कल छुट्टी दे सकते हैं।",
+                        "ur": "بہترین۔ ہم شاید اسے کل فارغ کر سکتے ہیں۔",
+                        "tr": "Mükemmel. Muhtemelen yarın taburcu edebiliriz."
+                    }
+                }
+            ],
+            "id": "d07_03"
+        },
+        {
+            "title": {
+                "en": "Dietitian Consultation: Weight and BMI Calculation",
+                "bn": "ডায়েটিশিয়ানের পরামর্শ: ওজন এবং বিএমআই গণনা",
+                "hi": "आहार विशेषज्ञ परामर्श: वजन और बीएमआई गणना",
+                "ur": "غذائی ماہرین سے مشاورت: وزن اور بی ایم آئی کا حساب کتاب",
+                "tr": "Diyetisyen Konsültasyonu: Kilo ve BMI Hesaplaması"
+            },
+            "context": {
+                "en": "A patient is consulting with a dietitian about weight management.",
+                "bn": "একজন রোগী ওজন ব্যবস্থাপনা সম্পর্কে একজন ডায়েটিশিয়ানের সাথে পরামর্শ করছেন।",
+                "hi": "एक मरीज वजन प्रबंधन के बारे में एक आहार विशेषज्ञ से परामर्श कर रहा है।",
+                "ur": "ایک مریض وزن کے انتظام کے بارے میں ایک غذائی ماہر سے مشورہ کر رہا ہے۔",
+                "tr": "Bir hasta kilo yönetimi hakkında bir diyetisyene danışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Frau Meier",
+                    "speakerRole": "Diätassistentin",
+                    "germanText": "Guten Tag, Frau Braun. Wie groß sind Sie und wie viel wiegen Sie?",
+                    "translation": {
+                        "en": "Good day, Mrs. Braun. How tall are you and how much do you weigh?",
+                        "bn": "শুভ দিন, মিসেস ব্রাউন। আপনার উচ্চতা কত এবং আপনার ওজন কত?",
+                        "hi": "शुभ दिन, श्रीमती ब्रॉन। आपकी ऊंचाई कितनी है और आपका वजन कितना है?",
+                        "ur": "شب بخیر، مسز براؤن۔ آپ کی اونچائی کتنی ہے اور آپ کا وزن کتنا ہے؟",
+                        "tr": "İyi günler, Bayan Braun. Boyunuz kaç ve ne kadar kilolusunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Braun",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich bin 1,65 Meter groß und wiege 85 Kilo.",
+                    "translation": {
+                        "en": "I am 1.65 meters tall and weigh 85 kilos.",
+                        "bn": "আমার উচ্চতা ১.৬৫ মিটার এবং আমার ওজন ৮৫ কেজি।",
+                        "hi": "मेरी ऊंचाई 1.65 मीटर है और मेरा वजन 85 किलो है।",
+                        "ur": "میں 1.65 میٹر لمبا ہوں اور میرا وزن 85 کلو ہے۔",
+                        "tr": "1.65 metre boyundayım ve 85 kiloyum."
+                    }
+                },
+                {
+                    "speaker": "Frau Meier",
+                    "speakerRole": "Diätassistentin",
+                    "germanText": "Ihr BMI beträgt 31,2. Das ist Übergewicht. Wir sollten über eine Ernährungsumstellung sprechen.",
+                    "translation": {
+                        "en": "Your BMI is 31.2. That's overweight. We should talk about a change in diet.",
+                        "bn": "আপনার বিএমআই ৩১.২। এটা অতিরিক্ত ওজন। আমাদের খাদ্য পরিবর্তনের বিষয়ে কথা বলা উচিত।",
+                        "hi": "आपका बीएमआई 31.2 है। यह अधिक वजन है। हमें आहार परिवर्तन के बारे में बात करनी चाहिए।",
+                        "ur": "آپ کا بی ایم آئی 31.2 ہے۔ یہ زیادہ وزن ہے۔ ہمیں غذا میں تبدیلی کے بارے میں بات کرنی چاہیے۔",
+                        "tr": "BMI'niz 31.2. Bu fazla kilolu demek. Diyet değişikliği hakkında konuşmalıyız."
+                    }
+                },
+                {
+                    "speaker": "Patient Braun",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, das weiß ich. Ich habe schon einige Diäten versucht.",
+                    "translation": {
+                        "en": "Yes, I know. I've already tried several diets.",
+                        "bn": "হ্যাঁ, আমি জানি। আমি ইতিমধ্যে কয়েকটি ডায়েট চেষ্টা করেছি।",
+                        "hi": "हाँ, मुझे पता है। मैं पहले ही कई आहार आजमा चुका हूँ।",
+                        "ur": "ہاں، مجھے پتہ ہے۔ میں پہلے ہی کئی ڈائٹ آزمائی چکا ہوں۔",
+                        "tr": "Evet, biliyorum. Daha önce birkaç diyet denedim."
+                    }
+                },
+                {
+                    "speaker": "Frau Meier",
+                    "speakerRole": "Diätassistentin",
+                    "germanText": "Wir erstellen gemeinsam einen individuellen Ernährungsplan für Sie.",
+                    "translation": {
+                        "en": "Together, we will create an individual nutritional plan for you.",
+                        "bn": "আমরা একসাথে আপনার জন্য একটি ব্যক্তিগত পুষ্টি পরিকল্পনা তৈরি করব।",
+                        "hi": "हम साथ मिलकर आपके लिए एक व्यक्तिगत पोषण योजना बनाएंगे।",
+                        "ur": "ہم مل کر آپ کے لیے ایک انفرادی غذائی منصوبہ بنائیں گے۔",
+                        "tr": "Birlikte sizin için kişisel bir beslenme planı oluşturacağız."
+                    }
+                }
+            ],
+            "id": "d07_04"
+        },
+        {
+            "title": {
+                "en": "Pediatric Examination: Assessing Growth and Vital Signs",
+                "bn": "পেডিয়াট্রিক পরীক্ষা: বৃদ্ধি এবং অত্যাবশ্যকীয় লক্ষণ মূল্যায়ন",
+                "hi": "बाल चिकित्सा परीक्षा: विकास और महत्वपूर्ण लक्षणों का आकलन",
+                "ur": "بچوں کا معائنہ: نشوونما اور اہم علامات کا جائزہ",
+                "tr": "Pediatrik Muayene: Büyüme ve Vital Bulguların Değerlendirilmesi"
+            },
+            "context": {
+                "en": "A young child is having a routine check-up. The doctor assesses growth and vital signs.",
+                "bn": "একটি ছোট শিশুর নিয়মিত স্বাস্থ্য পরীক্ষা হচ্ছে। ডাক্তার বৃদ্ধি এবং অত্যাবশ্যকীয় লক্ষণ মূল্যায়ন করছেন।",
+                "hi": "एक छोटे बच्चे का नियमित जांच-अप हो रहा है। डॉक्टर विकास और महत्वपूर्ण लक्षणों का आकलन करते हैं।",
+                "ur": "ایک چھوٹے بچے کا معمول کا چیک اپ ہو رہا ہے۔ ڈاکٹر نشوونما اور اہم علامات کا جائزہ لیتا ہے۔",
+                "tr": "Küçük bir çocuk rutin kontrolden geçiyor. Doktor büyüme ve vital bulguları değerlendiriyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Tag! Wie geht es denn dem kleinen Tim?",
+                    "translation": {
+                        "en": "Good day! How is little Tim doing?",
+                        "bn": "শুভ দিন! ছোট টিম কেমন আছে?",
+                        "hi": "शुभ दिन! छोटे टिम कैसे हैं?",
+                        "ur": "شب بخیر! چھوٹا ٹم کیسا ہے؟",
+                        "tr": "İyi günler! Küçük Tim nasıl?"
+                    }
+                },
+                {
+                    "speaker": "Mutter Meier",
+                    "speakerRole": "Mutter",
+                    "germanText": "Guten Tag, Herr Doktor. Ihm geht es gut, danke.",
+                    "translation": {
+                        "en": "Good day, Doctor. He's doing well, thank you.",
+                        "bn": "শুভ দিন, ডাক্তার। সে ভালো আছে, ধন্যবাদ।",
+                        "hi": "शुभ दिन, डॉक्टर। वह ठीक है, धन्यवाद।",
+                        "ur": "شب بخیر، ڈاکٹر۔ وہ ٹھیک ہے، شکریہ۔",
+                        "tr": "İyi günler, Doktor. O iyi, teşekkürler."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wie groß ist Tim denn jetzt und wie viel wiegt er?",
+                    "translation": {
+                        "en": "How tall is Tim now and how much does he weigh?",
+                        "bn": "টিম এখন কত লম্বা এবং তার ওজন কত?",
+                        "hi": "टिम अब कितना लंबा है और उसका वजन कितना है?",
+                        "ur": "ٹم اب کتنا لمبا ہے اور اس کا وزن کتنا ہے؟",
+                        "tr": "Tim şimdi ne kadar uzun ve ne kadar kilolu?"
+                    }
+                },
+                {
+                    "speaker": "Mutter Meier",
+                    "speakerRole": "Mutter",
+                    "germanText": "Er ist 95 Zentimeter groß und wiegt 14 Kilo.",
+                    "translation": {
+                        "en": "He is 95 centimeters tall and weighs 14 kilos.",
+                        "bn": "তার উচ্চতা ৯৫ সেন্টিমিটার এবং ওজন ১৪ কেজি।",
+                        "hi": "वह 95 सेंटीमीटर लंबा है और उसका वजन 14 किलो है।",
+                        "ur": "وہ 95 سینٹی میٹر لمبا ہے اور اس کا وزن 14 کلو ہے۔",
+                        "tr": "95 santimetre boyunda ve 14 kilo."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Alles bestens. Herz und Lunge klingen auch gut.",
+                    "translation": {
+                        "en": "Everything is fine. Heart and lungs sound good too.",
+                        "bn": "সবকিছু ঠিক আছে। হৃদয় এবং ফুসফুসও ভালো শোনাচ্ছে।",
+                        "hi": "सब ठीक है। हृदय और फेफड़े भी अच्छे लग रहे हैं।",
+                        "ur": "سب کچھ ٹھیک ہے۔ دل اور پھیپھڑے بھی اچھے لگ رہے ہیں۔",
+                        "tr": "Her şey yolunda. Kalbi ve akciğerleri de iyi geliyor."
+                    }
+                }
+            ],
+            "id": "d07_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist der normale Blutdruckbereich für einen gesunden Erwachsenen?",
+                "en": "What is the normal blood pressure range for a healthy adult?",
+                "bn": "একজন সুস্থ প্রাপ্তবয়স্কের জন্য স্বাভাবিক রক্তচাপের পরিসীমা কত?",
+                "hi": "एक स्वस्थ वयस्क के लिए सामान्य रक्तचाप सीमा क्या है?",
+                "ur": "ایک صحت مند بالغ کے لیے نارمل بلڈ پریشر کی حد کیا ہے؟",
+                "tr": "Sağlıklı bir yetişkin için normal kan basıncı aralığı nedir?"
+            },
+            "options": [
+                "90/60 mmHg - 120/80 mmHg",
+                "140/90 mmHg - 160/100 mmHg",
+                "70/40 mmHg - 90/50 mmHg",
+                "160/100 mmHg - 180/120 mmHg"
+            ],
+            "correctAnswer": "90/60 mmHg - 120/80 mmHg",
+            "explanation": {
+                "en": "The normal blood pressure range for a healthy adult is typically between 90/60 mmHg and 120/80 mmHg.",
+                "bn": "একজন সুস্থ প্রাপ্তবয়স্কের জন্য স্বাভাবিক রক্তচাপের পরিসীমা সাধারণত 90/60 mmHg থেকে 120/80 mmHg এর মধ্যে থাকে।",
+                "hi": "एक स्वस्थ वयस्क के लिए सामान्य रक्तचाप सीमा आमतौर पर 90/60 mmHg और 120/80 mmHg के बीच होती है।",
+                "ur": "ایک صحت مند بالغ کے لیے نارمل بلڈ پریشر کی حد عموماً 90/60 mmHg سے 120/80 mmHg کے درمیان ہوتی ہے۔",
+                "tr": "Sağlıklı bir yetişkin için normal kan basıncı aralığı genellikle 90/60 mmHg ile 120/80 mmHg arasındadır."
+            },
+            "points": 10,
+            "id": "e07_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist die normale Atemfrequenz (Atemzüge pro Minute) für einen Erwachsenen in Ruhe?",
+                "en": "What is the normal respiratory rate (breaths per minute) for an adult at rest?",
+                "bn": "বিশ্রামে থাকা একজন প্রাপ্তবয়স্কের জন্য স্বাভাবিক শ্বাস-প্রশ্বাসের হার (প্রতি মিনিটে শ্বাস) কত?",
+                "hi": "विश्राम पर एक वयस्क के लिए सामान्य श्वसन दर (प्रति मिनट सांसें) क्या है?",
+                "ur": "آرام کرنے والے بالغ کے لیے عام سانس لینے کی شرح (فی منٹ سانسیں) کیا ہے؟",
+                "tr": "Dinlenmekte olan bir yetişkin için normal solunum hızı (dakikada nefes sayısı) nedir?"
+            },
+            "options": [
+                "12-20",
+                "25-30",
+                "8-10",
+                "30-40"
+            ],
+            "correctAnswer": "12-20",
+            "explanation": {
+                "en": "The normal respiratory rate for an adult at rest is typically between 12 and 20 breaths per minute.",
+                "bn": "বিশ্রামে থাকা একজন প্রাপ্তবয়স্কের জন্য স্বাভাবিক শ্বাস-প্রশ্বাসের হার সাধারণত প্রতি মিনিটে 12 থেকে 20 শ্বাসের মধ্যে থাকে।",
+                "hi": "विश्राम पर एक वयस्क के लिए सामान्य श्वसन दर आमतौर पर प्रति मिनट 12 से 20 सांसों के बीच होती है।",
+                "ur": "آرام کرنے والے بالغ کے لیے عام سانس لینے کی شرح عموماً فی منٹ 12 سے 20 سانسوں کے درمیان ہوتی ہے۔",
+                "tr": "Dinlenmekte olan bir yetişkin için normal solunum hızı genellikle dakikada 12 ile 20 nefes arasındadır."
+            },
+            "points": 10,
+            "id": "e07_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wie wird die Sauerstoffsättigung im Blut gemessen?",
+                "en": "How is blood oxygen saturation measured?",
+                "bn": "রক্তে অক্সিজেনের স্যাচুরেশন কীভাবে পরিমাপ করা হয়?",
+                "hi": "रक्त ऑक्सीजन संतृप्ति कैसे मापी जाती है?",
+                "ur": "خون میں آکسیجن کی سیچوریشن کیسے ماپی جاتی ہے؟",
+                "tr": "Kandaki oksijen doygunluğu nasıl ölçülür?"
+            },
+            "options": [
+                "Pulsoximetrie",
+                "Blutdruckmessung",
+                "EKG",
+                "Röntgen"
+            ],
+            "correctAnswer": "Pulsoximetrie",
+            "explanation": {
+                "en": "Blood oxygen saturation is typically measured using a pulse oximeter.",
+                "bn": "রক্তে অক্সিজেনের স্যাচুরেশন সাধারণত পালস অক্সিমিটার ব্যবহার করে পরিমাপ করা হয়।",
+                "hi": "रक्त ऑक्सीजन संतृप्ति आमतौर पर एक पल्स ऑक्सीमीटर का उपयोग करके मापी जाती है।",
+                "ur": "خون میں آکسیجن کی سیچوریشن عام طور پر پلس آکسیمیٹر کا استعمال کرتے ہوئے ماپی جاتی ہے۔",
+                "tr": "Kandaki oksijen doygunluğu genellikle bir pulse oksimetre kullanılarak ölçülür."
+            },
+            "points": 10,
+            "id": "e07_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was gilt als normale Körpertemperatur (oral gemessen) in Grad Celsius?",
+                "en": "What is considered a normal body temperature (orally measured) in degrees Celsius?",
+                "bn": "সেলসিয়াসে স্বাভাবিক শরীরের তাপমাত্রা (মুখ দিয়ে পরিমাপ করা) কত?",
+                "hi": "सेल्सियस में सामान्य शरीर का तापमान (मौखिक रूप से मापा गया) क्या माना जाता है?",
+                "ur": "سیلسیس میں جسم کا عام درجہ حرارت (زبانی طور پر ناپا گیا) کیا سمجھا جاتا ہے؟",
+                "tr": "Santigrat derece cinsinden normal vücut sıcaklığı (ağızdan ölçülen) nedir?"
+            },
+            "options": [
+                "36.5°C - 37.5°C",
+                "38°C - 39°C",
+                "35°C - 36°C",
+                "40°C - 41°C"
+            ],
+            "correctAnswer": "36.5°C - 37.5°C",
+            "explanation": {
+                "en": "A normal body temperature (orally measured) is generally considered to be between 36.5°C and 37.5°C.",
+                "bn": "সাধারণ শরীরের তাপমাত্রা (মুখ দিয়ে পরিমাপ করা) সাধারণত 36.5°C থেকে 37.5°C এর মধ্যে ধরা হয়।",
+                "hi": "सामान्य शरीर का तापमान (मौखिक रूप से मापा गया) आम तौर पर 36.5°C और 37.5°C के बीच माना जाता है।",
+                "ur": "عام جسم کا درجہ حرارت (زبانی طور پر ناپا گیا) عام طور پر 36.5°C اور 37.5°C کے درمیان سمجھا جاتا ہے۔",
+                "tr": "Normal vücut sıcaklığı (ağızdan ölçülen) genellikle 36.5°C ile 37.5°C arasında kabul edilir."
+            },
+            "points": 10,
+            "id": "e07_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was gibt der Body-Mass-Index (BMI) an?",
+                "en": "What does the Body Mass Index (BMI) indicate?",
+                "bn": "বডি মাস ইনডেক্স (বিএমআই) কী নির্দেশ করে?",
+                "hi": "बॉडी मास इंडेक्स (बीएमआई) क्या इंगित करता है?",
+                "ur": "باڈی ماس انڈیکس (بی ایم آئی) کیا ظاہر کرتا ہے؟",
+                "tr": "Vücut Kitle İndeksi (VKİ) neyi gösterir?"
+            },
+            "options": [
+                "Verhältnis von Gewicht zu Größe",
+                "Blutdruckwerte",
+                "Herzfrequenz",
+                "Sauerstoffsättigung"
+            ],
+            "correctAnswer": "Verhältnis von Gewicht zu Größe",
+            "explanation": {
+                "en": "The Body Mass Index (BMI) indicates the ratio of weight to height.",
+                "bn": "বডি মাস ইনডেক্স (বিএমআই) ওজন এবং উচ্চতার অনুপাত নির্দেশ করে।",
+                "hi": "बॉडी मास इंडेक्स (बीएमआई) वजन और ऊंचाई के अनुपात को इंगित करता है।",
+                "ur": "باڈی ماس انڈیکس (بی ایم آئی) وزن اور اونچائی کے تناسب کو ظاہر کرتا ہے۔",
+                "tr": "Vücut Kitle İndeksi (VKİ) ağırlık ve boy oranını gösterir."
+            },
+            "points": 10,
+            "id": "e07_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist die übliche Einheit für die Messung der Körpergröße?",
+                "en": "What is the common unit for measuring height?",
+                "bn": "উচ্চতা মাপার জন্য সাধারণ একক কী?",
+                "hi": "ऊंचाई मापने के लिए आम इकाई क्या है?",
+                "ur": "قد ناپنے کے لیے عام اکائی کیا ہے؟",
+                "tr": "Boy ölçmek için kullanılan yaygın birim nedir?"
+            },
+            "options": [
+                "Zentimeter (cm) oder Meter (m)",
+                "Kilogramm (kg)",
+                "Grad Celsius (°C)",
+                "Millimeter (mm)"
+            ],
+            "correctAnswer": "Zentimeter (cm) oder Meter (m)",
+            "explanation": {
+                "en": "Height is commonly measured in centimeters (cm) or meters (m).",
+                "bn": "উচ্চতা সাধারণত সেন্টিমিটার (সেমি) বা মিটারে (মি) মাপা হয়।",
+                "hi": "ऊंचाई आमतौर पर सेंटीमीटर (सेमी) या मीटर (मी) में मापी जाती है।",
+                "ur": "قد عموماً سینٹی میٹر (سینٹی میٹر) یا میٹر (ایم) میں ناپا جاتا ہے۔",
+                "tr": "Boy genellikle santimetre (cm) veya metre (m) cinsinden ölçülür."
+            },
+            "points": 10,
+            "id": "e07_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist die übliche Einheit für die Messung des Gewichts?",
+                "en": "What is the common unit for measuring weight?",
+                "bn": "ওজন মাপার জন্য সাধারণ একক কী?",
+                "hi": "वजन मापने के लिए आम इकाई क्या है?",
+                "ur": "وزن ناپنے کے لیے عام اکائی کیا ہے؟",
+                "tr": "Ağırlık ölçmek için kullanılan yaygın birim nedir?"
+            },
+            "options": [
+                "Kilogramm (kg)",
+                "Zentimeter (cm)",
+                "Liter (l)",
+                "Grad Celsius (°C)"
+            ],
+            "correctAnswer": "Kilogramm (kg)",
+            "explanation": {
+                "en": "Weight is commonly measured in kilograms (kg).",
+                "bn": "ওজন সাধারণত কিলোগ্রামে (কেজি) মাপা হয়।",
+                "hi": "वजन आमतौर पर किलोग्राम (किलोग्राम) में मापा जाता है।",
+                "ur": "وزن عموماً کلوگرام (کلوگرام) میں ناپا جاتا ہے۔",
+                "tr": "Ağırlık genellikle kilogram (kg) cinsinden ölçülür."
+            },
+            "points": 10,
+            "id": "e07_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Ein Patient hat einen Blutdruck von 150/95 mmHg. Was bedeutet das?",
+                "en": "A patient has a blood pressure of 150/95 mmHg. What does that mean?",
+                "bn": "একজন রোগীর রক্তচাপ 150/95 mmHg। এর মানে কী?",
+                "hi": "एक मरीज का रक्तचाप 150/95 mmHg है। इसका क्या मतलब है?",
+                "ur": "ایک مریض کا بلڈ پریشر 150/95 mmHg ہے۔ اس کا کیا مطلب ہے؟",
+                "tr": "Bir hastanın kan basıncı 150/95 mmHg. Bu ne anlama geliyor?"
+            },
+            "options": [
+                "Hypertonie (Bluthochdruck)",
+                "Hypotonie (niedriger Blutdruck)",
+                "Normaler Blutdruck",
+                "Die Temperatur ist zu hoch"
+            ],
+            "correctAnswer": "Hypertonie (Bluthochdruck)",
+            "explanation": {
+                "en": "A blood pressure of 150/95 mmHg indicates hypertension (high blood pressure).",
+                "bn": "150/95 mmHg এর রক্তচাপ উচ্চ রক্তচাপ (হাইপারটেনশন) নির্দেশ করে।",
+                "hi": "150/95 mmHg का रक्तचाप उच्च रक्तचाप (उच्च रक्तचाप) का संकेत देता है।",
+                "ur": "150/95 mmHg کا بلڈ پریشر ہائی بلڈ پریشر (ہائی بلڈ پریشر) کی نشاندہی کرتا ہے۔",
+                "tr": "150/95 mmHg'lik bir kan basıncı hipertansiyonu (yüksek tansiyon) gösterir."
+            },
+            "points": 10,
+            "id": "e07_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wie lautet die Formel zur Berechnung des BMI?",
+                "en": "What is the formula for calculating BMI?",
+                "bn": "বিএমআই গণনা করার সূত্র কী?",
+                "hi": "बीएमआई की गणना करने का सूत्र क्या है?",
+                "ur": "بی ایم آئی کا حساب لگانے کا فارمولا کیا ہے؟",
+                "tr": "VKİ'yi hesaplama formülü nedir?"
+            },
+            "options": [
+                "Gewicht (kg) / (Größe (m) * Größe (m))",
+                "Größe (m) / Gewicht (kg)",
+                "Gewicht (kg) * Größe (m)",
+                "Gewicht (kg) + Größe (m)"
+            ],
+            "correctAnswer": "Gewicht (kg) / (Größe (m) * Größe (m))",
+            "explanation": {
+                "en": "The formula for calculating BMI is weight (kg) divided by height (m) squared.",
+                "bn": "বিএমআই গণনা করার সূত্র হল ওজন (কেজি) কে উচ্চতা (মি) এর বর্গফল দিয়ে ভাগ করা।",
+                "hi": "बीएमआई की गणना करने का सूत्र वजन (किलोग्राम) को ऊंचाई (मीटर) के वर्ग से विभाजित करना है।",
+                "ur": "بی ایم آئی کا حساب لگانے کا فارمولا وزن (کلوگرام) کو اونچائی (میٹر) کے مربع سے تقسیم کرنا ہے۔",
+                "tr": "VKİ'yi hesaplama formülü ağırlık (kg) bölü boy (m) karedir."
+            },
+            "points": 10,
+            "id": "e07_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet eine niedrige Sauerstoffsättigung?",
+                "en": "What does a low oxygen saturation indicate?",
+                "bn": "নিম্ন অক্সিজেনের স্যাচুরেশন কী নির্দেশ করে?",
+                "hi": "कम ऑक्सीजन संतृप्ति क्या इंगित करती है?",
+                "ur": "کم آکسیجن سیچوریشن کیا ظاہر کرتی ہے؟",
+                "tr": "Düşük oksijen doygunluğu neyi gösterir?"
+            },
+            "options": [
+                "Hypoxämie",
+                "Hyperventilation",
+                "Bradykardie",
+                "Hypertonie"
+            ],
+            "correctAnswer": "Hypoxämie",
+            "explanation": {
+                "en": "A low oxygen saturation indicates hypoxemia.",
+                "bn": "নিম্ন অক্সিজেনের স্যাচুরেশন হাইপোক্সেমিয়া নির্দেশ করে।",
+                "hi": "कम ऑक्सीजन संतृप्ति हाइपोक्सिमिया का संकेत देती है।",
+                "ur": "کم آکسیجن سیچوریشن ہائپوکسیمیا کی نشاندہی کرتی ہے۔",
+                "tr": "Düşük oksijen doygunluğu hipoksemiyi gösterir."
+            },
+            "points": 10,
+            "id": "e07_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Der normale Ruhepuls eines Erwachsenen liegt zwischen _____ und _____ Schlägen pro Minute.",
+                "en": "The normal resting heart rate of an adult is between _____ and _____ beats per minute.",
+                "bn": "একজন প্রাপ্তবয়স্কের স্বাভাবিক বিশ্রামকালীন হৃদস্পন্দন প্রতি মিনিটে _____ এবং _____ স্পন্দনের মধ্যে থাকে।",
+                "hi": "एक वयस्क की सामान्य आराम करने वाली हृदय गति प्रति मिनट _____ और _____ धड़कनों के बीच होती है।",
+                "ur": "ایک بالغ کی عام آرام کرنے والی دل کی دھڑکن فی منٹ _____ اور _____ دھڑکنوں کے درمیان ہوتی ہے۔",
+                "tr": "Bir yetişkinin normal dinlenme kalp atış hızı dakikada _____ ile _____ atış arasındadır."
+            },
+            "options": [],
+            "correctAnswer": "60 und 100",
+            "explanation": {
+                "en": "The normal resting heart rate for adults is typically between 60 and 100 beats per minute.",
+                "bn": "প্রাপ্তবয়স্কদের জন্য স্বাভাবিক বিশ্রামকালীন হৃদস্পন্দন সাধারণত প্রতি মিনিটে 60 থেকে 100 স্পন্দনের মধ্যে থাকে।",
+                "hi": "वयस्कों के लिए सामान्य आराम करने वाली हृदय गति आमतौर पर प्रति मिनट 60 और 100 धड़कनों के बीच होती है।",
+                "ur": "بالغوں کے لیے عام آرام کرنے والی دل کی دھڑکن عموماً فی منٹ 60 اور 100 دھڑکنوں کے درمیان ہوتی ہے۔",
+                "tr": "Yetişkinler için normal dinlenme kalp atış hızı genellikle dakikada 60 ile 100 atış arasındadır."
+            },
+            "points": 10,
+            "id": "e07_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "_____ ist die medizinische Bezeichnung für Fieber.",
+                "en": "_____ is the medical term for fever.",
+                "bn": "_____ হলো জ্বরের চিকিৎসা পরিভাষা।",
+                "hi": "_____ बुखार के लिए चिकित्सा शब्द है।",
+                "ur": "_____ بخار کے لیے طبی اصطلاح ہے۔",
+                "tr": "_____ ateş için kullanılan tıbbi terimdir."
+            },
+            "options": [],
+            "correctAnswer": "Pyrexie",
+            "explanation": {
+                "en": "Pyrexia is the medical term for fever.",
+                "bn": "পাইরেক্সিয়া হলো জ্বরের চিকিৎসা পরিভাষা।",
+                "hi": "पायरेक्सिया बुखार के लिए चिकित्सा शब्द है।",
+                "ur": "پائریکسیا بخار کے لیے طبی اصطلاح ہے۔",
+                "tr": "Pireksi, ateş için kullanılan tıbbi terimdir."
+            },
+            "points": 10,
+            "id": "e07_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein BMI über 30 deutet auf _____ hin.",
+                "en": "A BMI over 30 indicates _____.",
+                "bn": "30-এর বেশি BMI _____ নির্দেশ করে।",
+                "hi": "30 से ऊपर का BMI _____ इंगित करता है।",
+                "ur": "30 سے اوپر کا BMI _____ کی نشاندہی کرتا ہے۔",
+                "tr": "30'un üzerinde bir VKİ _____ gösterir."
+            },
+            "options": [],
+            "correctAnswer": "Adipositas",
+            "explanation": {
+                "en": "A BMI over 30 indicates obesity.",
+                "bn": "30-এর বেশি BMI স্থূলতা নির্দেশ করে।",
+                "hi": "30 से ऊपर का BMI मोटापा इंगित करता है।",
+                "ur": "30 سے اوپر کا BMI موٹاپا کی نشاندہی کرتا ہے۔",
+                "tr": "30'un üzerinde bir VKİ obeziteyi gösterir."
+            },
+            "points": 10,
+            "id": "e07_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die normale Sauerstoffsättigung liegt in der Regel über _____ %.",
+                "en": "Normal oxygen saturation is usually above _____ %.",
+                "bn": "স্বাভাবিক অক্সিজেনের স্যাচুরেশন সাধারণত _____ % এর উপরে থাকে।",
+                "hi": "सामान्य ऑक्सीजन संतृप्ति आमतौर पर _____ % से ऊपर होती है।",
+                "ur": "نارمل آکسیجن سیچوریشن عام طور پر _____ % سے اوپر ہوتی ہے۔",
+                "tr": "Normal oksijen doygunluğu genellikle _____ %'nin üzerindedir."
+            },
+            "options": [],
+            "correctAnswer": "95",
+            "explanation": {
+                "en": "Normal oxygen saturation is usually above 95%.",
+                "bn": "স্বাভাবিক অক্সিজেনের স্যাচুরেশন সাধারণত 95% এর উপরে থাকে।",
+                "hi": "सामान्य ऑक्सीजन संतृप्ति आमतौर पर 95% से ऊपर होती है।",
+                "ur": "نارمل آکسیجن سیچوریشن عام طور پر 95% سے اوپر ہوتی ہے۔",
+                "tr": "Normal oksijen doygunluğu genellikle %95'in üzerindedir."
+            },
+            "points": 10,
+            "id": "e07_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein schneller Puls wird als _____ bezeichnet.",
+                "en": "A rapid pulse is referred to as _____.",
+                "bn": "একটি দ্রুত নাড়িকে _____ বলা হয়।",
+                "hi": "एक तेज नाड़ी को _____ कहा जाता है।",
+                "ur": "تیز نبض کو _____ کہا جاتا ہے۔",
+                "tr": "Hızlı bir nabız _____ olarak adlandırılır."
+            },
+            "options": [],
+            "correctAnswer": "Tachykardie",
+            "explanation": {
+                "en": "A rapid pulse is referred to as tachycardia.",
+                "bn": "একটি দ্রুত নাড়িকে ট্যাকিকার্ডিয়া বলা হয়।",
+                "hi": "एक तेज नाड़ी को टैचीकार्डिया कहा जाता है।",
+                "ur": "تیز نبض کو ٹیکیکارڈیا کہا جاتا ہے۔",
+                "tr": "Hızlı bir nabız taşikardi olarak adlandırılır."
+            },
+            "points": 10,
+            "id": "e07_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Messen Sie bitte den Blutdruck.",
+                "en": "Please measure the blood pressure.",
+                "bn": "অনুগ্রহ করে রক্তচাপ পরিমাপ করুন।",
+                "hi": "कृपया रक्तचाप मापें।",
+                "ur": "براہ کرم بلڈ پریشر کی پیمائش کریں۔",
+                "tr": "Lütfen tansiyonu ölçün."
+            },
+            "options": [],
+            "correctAnswer": "Please measure the blood pressure.",
+            "explanation": {
+                "en": "Correct translation of 'Messen Sie bitte den Blutdruck.'",
+                "bn": "'Messen Sie bitte den Blutdruck.' এর সঠিক অনুবাদ।",
+                "hi": "'Messen Sie bitte den Blutdruck.' का सही अनुवाद।",
+                "ur": "'Messen Sie bitte den Blutdruck.' کا صحیح ترجمہ۔",
+                "tr": "'Messen Sie bitte den Blutdruck.' ifadesinin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e07_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Der Patient hat 38,5 Grad Celsius Fieber.",
+                "en": "The patient has a fever of 38.5 degrees Celsius.",
+                "bn": "রোগীর ৩৮.৫ ডিগ্রি সেলসিয়াস জ্বর আছে।",
+                "hi": "रोगी को 38.5 डिग्री सेल्सियस बुखार है।",
+                "ur": "مریض کو 38.5 ڈگری سینٹی گریڈ بخار ہے۔",
+                "tr": "Hastanın 38.5 santigrat derece ateşi var."
+            },
+            "options": [],
+            "correctAnswer": "The patient has a fever of 38.5 degrees Celsius.",
+            "explanation": {
+                "en": "Correct translation of 'Der Patient hat 38,5 Grad Celsius Fieber.'",
+                "bn": "'Der Patient hat 38,5 Grad Celsius Fieber.' এর সঠিক অনুবাদ।",
+                "hi": "'Der Patient hat 38,5 Grad Celsius Fieber.' का सही अनुवाद।",
+                "ur": "'Der Patient hat 38,5 Grad Celsius Fieber.' کا صحیح ترجمہ۔",
+                "tr": "'Der Patient hat 38,5 Grad Celsius Fieber.' ifadesinin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e07_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Wie groß und schwer sind Sie?",
+                "en": "How tall and heavy are you?",
+                "bn": "আপনার উচ্চতা এবং ওজন কত?",
+                "hi": "आपकी ऊंचाई और वजन कितना है?",
+                "ur": "آپ کا قد اور وزن کتنا ہے؟",
+                "tr": "Boyunuz ve kilonuz ne kadar?"
+            },
+            "options": [],
+            "correctAnswer": "How tall and heavy are you?",
+            "explanation": {
+                "en": "Correct translation of 'Wie groß und schwer sind Sie?'",
+                "bn": "'Wie groß und schwer sind Sie?' এর সঠিক অনুবাদ।",
+                "hi": "'Wie groß und schwer sind Sie?' का सही अनुवाद।",
+                "ur": "'Wie groß und schwer sind Sie?' کا صحیح ترجمہ۔",
+                "tr": "'Wie groß und schwer sind Sie?' ifadesinin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e07_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

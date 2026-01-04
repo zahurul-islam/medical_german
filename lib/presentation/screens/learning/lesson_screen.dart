@@ -5,6 +5,7 @@ import 'package:go_router/go_router.dart';
 import '../../../core/themes/app_colors.dart';
 import '../../../core/themes/app_text_styles.dart';
 import '../../../data/models/models.dart';
+import '../../../l10n/generated/app_localizations.dart';
 import '../../providers/providers.dart';
 
 class LessonScreen extends ConsumerStatefulWidget {
@@ -39,6 +40,16 @@ class _LessonScreenState extends ConsumerState<LessonScreen>
 
     return Scaffold(
       appBar: AppBar(
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () {
+            if (Navigator.canPop(context)) {
+              Navigator.pop(context);
+            } else {
+              context.go('/phases');
+            }
+          },
+        ),
         title: sectionAsync.when(
           data: (section) => Text(section?.titleDe ?? 'Lesson'),
           loading: () => const Text('Loading...'),
@@ -98,6 +109,8 @@ class _TextContentTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+
     return SingleChildScrollView(
       padding: const EdgeInsets.all(20),
       child: Column(
@@ -145,7 +158,7 @@ class _TextContentTab extends StatelessWidget {
           // Introduction
           if (section.textContent != null) ...[
             _ContentSection(
-              title: 'Introduction',
+              title: l10n.introduction,
               content: section.textContent!.getIntroduction(language),
             ),
             const SizedBox(height: 24),
@@ -153,7 +166,7 @@ class _TextContentTab extends StatelessWidget {
             // Learning Objectives
             if (section.textContent!.learningObjectives.isNotEmpty) ...[
               Text(
-                'Learning Objectives',
+                l10n.learningObjectives,
                 style: AppTextStyles.heading4(),
               ),
               const SizedBox(height: 12),
@@ -163,7 +176,7 @@ class _TextContentTab extends StatelessWidget {
                   child: Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      const Icon(Icons.check_circle, 
+                      const Icon(Icons.check_circle,
                         color: AppColors.success, size: 20),
                       const SizedBox(width: 12),
                       Expanded(
@@ -178,14 +191,14 @@ class _TextContentTab extends StatelessWidget {
 
             // Grammar Focus
             _ContentSection(
-              title: 'Grammar Focus',
+              title: l10n.grammarFocus,
               content: section.textContent!.getGrammarFocus(language),
             ),
             const SizedBox(height: 24),
 
             // Cultural Notes
             _ContentSection(
-              title: 'Cultural Notes',
+              title: l10n.culturalNotes,
               content: section.textContent!.getCulturalNotes(language),
               icon: Icons.lightbulb_outline,
               iconColor: AppColors.accent,
@@ -194,7 +207,7 @@ class _TextContentTab extends StatelessWidget {
 
             // Summary
             _ContentSection(
-              title: 'Summary',
+              title: l10n.summary,
               content: section.textContent!.getSummary(language),
             ),
           ] else
@@ -203,11 +216,11 @@ class _TextContentTab extends StatelessWidget {
                 padding: const EdgeInsets.all(40),
                 child: Column(
                   children: [
-                    Icon(Icons.article_outlined, 
+                    Icon(Icons.article_outlined,
                       size: 64, color: AppColors.textHintLight),
                     const SizedBox(height: 16),
                     Text(
-                      'Content coming soon',
+                      l10n.comingSoon,
                       style: AppTextStyles.bodyLarge(color: AppColors.textSecondaryLight),
                     ),
                   ],
@@ -267,6 +280,7 @@ class _VocabularyTab extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppLocalizations.of(context)!;
     final vocabAsync = ref.watch(vocabularyProvider(sectionId));
 
     return vocabAsync.when(
@@ -279,7 +293,7 @@ class _VocabularyTab extends ConsumerWidget {
                 Icon(Icons.translate, size: 64, color: AppColors.textHintLight),
                 const SizedBox(height: 16),
                 Text(
-                  'Vocabulary coming soon',
+                  l10n.comingSoon,
                   style: AppTextStyles.bodyLarge(color: AppColors.textSecondaryLight),
                 ),
               ],
@@ -295,15 +309,15 @@ class _VocabularyTab extends ConsumerWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    '${vocabulary.length} words',
+                    '${vocabulary.length} ${l10n.vocabulary.toLowerCase()}',
                     style: AppTextStyles.bodyMedium(color: AppColors.textSecondaryLight),
                   ),
                   ElevatedButton.icon(
                     onPressed: () {
-                      context.go('/section/$sectionId/vocabulary');
+                      context.push('/section/$sectionId/vocabulary');
                     },
                     icon: const Icon(Icons.style, size: 18),
-                    label: const Text('Flashcards'),
+                    label: Text(l10n.flashcards),
                   ),
                 ],
               ),
@@ -322,7 +336,7 @@ class _VocabularyTab extends ConsumerWidget {
         );
       },
       loading: () => const Center(child: CircularProgressIndicator()),
-      error: (_, __) => const Center(child: Text('Error loading vocabulary')),
+      error: (_, __) => Center(child: Text(l10n.error)),
     );
   }
 }
@@ -419,6 +433,7 @@ class _DialogueTab extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppLocalizations.of(context)!;
     final dialoguesAsync = ref.watch(dialoguesProvider(sectionId));
 
     return dialoguesAsync.when(
@@ -431,7 +446,7 @@ class _DialogueTab extends ConsumerWidget {
                 Icon(Icons.chat_bubble_outline, size: 64, color: AppColors.textHintLight),
                 const SizedBox(height: 16),
                 Text(
-                  'Dialogues coming soon',
+                  l10n.comingSoon,
                   style: AppTextStyles.bodyLarge(color: AppColors.textSecondaryLight),
                 ),
               ],
@@ -449,7 +464,7 @@ class _DialogueTab extends ConsumerWidget {
         );
       },
       loading: () => const Center(child: CircularProgressIndicator()),
-      error: (_, __) => const Center(child: Text('Error loading dialogues')),
+      error: (_, __) => Center(child: Text(l10n.error)),
     );
   }
 }
@@ -601,6 +616,7 @@ class _ExerciseTab extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppLocalizations.of(context)!;
     final exercisesAsync = ref.watch(exercisesProvider(sectionId));
 
     return exercisesAsync.when(
@@ -613,7 +629,7 @@ class _ExerciseTab extends ConsumerWidget {
                 Icon(Icons.quiz_outlined, size: 64, color: AppColors.textHintLight),
                 const SizedBox(height: 16),
                 Text(
-                  'Exercises coming soon',
+                  l10n.comingSoon,
                   style: AppTextStyles.bodyLarge(color: AppColors.textSecondaryLight),
                 ),
               ],
@@ -641,22 +657,22 @@ class _ExerciseTab extends ConsumerWidget {
                 ),
                 const SizedBox(height: 24),
                 Text(
-                  '${exercises.length} Practice Questions',
+                  '${exercises.length} ${l10n.exercises}',
                   style: AppTextStyles.heading3(),
                 ),
                 const SizedBox(height: 8),
                 Text(
-                  'Test your knowledge with interactive exercises',
+                  l10n.practice,
                   style: AppTextStyles.bodyMedium(color: AppColors.textSecondaryLight),
                   textAlign: TextAlign.center,
                 ),
                 const SizedBox(height: 32),
                 ElevatedButton.icon(
                   onPressed: () {
-                    context.go('/section/$sectionId/exercises');
+                    context.push('/section/$sectionId/exercises');
                   },
                   icon: const Icon(Icons.play_arrow),
-                  label: const Text('Start Practice'),
+                  label: Text(l10n.startPractice),
                   style: ElevatedButton.styleFrom(
                     padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
                   ),
@@ -667,7 +683,7 @@ class _ExerciseTab extends ConsumerWidget {
         );
       },
       loading: () => const Center(child: CircularProgressIndicator()),
-      error: (_, __) => const Center(child: Text('Error loading exercises')),
+      error: (_, __) => Center(child: Text(l10n.error)),
     );
   }
 }

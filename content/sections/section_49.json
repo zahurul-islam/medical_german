@@ -1,1 +1,1571 @@
-{"id":"section_49","phaseId":"phase3","order":49,"titleDe":"Dermatologie","title":{"en":"Dermatology","bn":"Dermatology","hi":"Dermatology","ur":"Dermatology","tr":"Dermatology"},"level":"C1","estimatedMinutes":45,"vocabulary":[{"id":"v49_01","germanTerm":"Fachwort","article":"das","plural":"Fachwörter","translation":{"en":"Specialist Term","bn":"বিশেষজ্ঞ শব্দ","hi":"विशेषज्ञ शब्द","ur":"ماہر اصطلاح","tr":"Uzman terimi"}}],"dialogues":[{"id":"d49_01","title":{"en":"Dermatology Scenario"},"lines":[{"speaker":"Facharzt","germanText":"Clinical dialogue for Dermatology.","translation":{"en":"Clinical dialogue for Dermatology."}}]}],"exercises":[{"id":"e49_01","type":"multipleChoice","question":{"en":"Question about Dermatology?"},"options":["A","B","C"],"correctAnswer":"A","points":15}],"media":{"introVideoUrl":"video/sections/section_49/intro.mp4","dialogueVideoUrl":"video/sections/section_49/dialogue.mp4"}}
+{
+    "id": "section_49",
+    "phaseId": "phase3",
+    "order": 49,
+    "titleDe": "Dermatologie",
+    "title": {
+        "en": "Dermatology: Skin, Rash, Eczema, Dermatitis, Lesion, Biopsy, Wound Care",
+        "bn": "ডার্মাটোলজি: ত্বক, ফুসকুড়ি, একজিমা, ডার্মাটাইটিস, ক্ষত, বায়োপসি, ক্ষত পরিচর্যা",
+        "hi": "त्वचाविज्ञान: त्वचा, चकत्ते, एक्जिमा, जिल्द की सूजन, घाव, बायोप्सी, घाव की देखभाल",
+        "ur": "امراض جلد: جلد، دانے، ایکزیما، ڈرمیٹیٹائٹس، گھاو، بایپسی، زخم کی دیکھ بھال",
+        "tr": "Dermatoloji: Cilt, Kızarıklık, Egzama, Dermatit, Lezyon, Biyopsi, Yara Bakımı",
+        "de": "Dermatologie: Haut, Ausschlag, Ekzem, Dermatitis, Läsion, Biopsie, Wundversorgung"
+    },
+    "description": {
+        "en": "This section covers key dermatological terms and procedures, including skin conditions, diagnostic techniques, and wound management.",
+        "bn": "এই বিভাগে ত্বকীয় অবস্থা, রোগ নির্ণয় কৌশল, এবং ক্ষত ব্যবস্থাপনা সহ মূল চর্মরোগ সংক্রান্ত শব্দ এবং পদ্ধতি অন্তর্ভুক্ত রয়েছে।",
+        "hi": "इस अनुभाग में त्वचा की स्थिति, नैदानिक तकनीकों और घाव प्रबंधन सहित प्रमुख त्वचा संबंधी शब्द और प्रक्रियाएं शामिल हैं।",
+        "ur": "اس حصے میں جلد کی حالت، تشخیصی تکنیک، اور زخم کے انتظام سمیت اہم جلدی اصطلاحات اور طریقہ کار شامل ہیں۔",
+        "tr": "Bu bölüm, cilt rahatsızlıkları, tanı teknikleri ve yara bakımı dahil olmak üzere temel dermatolojik terimleri ve prosedürleri kapsar.",
+        "de": "Dieser Abschnitt behandelt wichtige dermatologische Begriffe und Verfahren, einschließlich Hauterkrankungen, diagnostische Techniken und Wundversorgung."
+    },
+    "level": "C1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, you will learn essential German medical terminology related to dermatology. We will focus on describing skin conditions, understanding diagnostic procedures, and discussing wound care techniques.",
+            "bn": "এই বিভাগে, আপনি চর্মরোগ সংক্রান্ত প্রয়োজনীয় জার্মান চিকিৎসা পরিভাষা শিখবেন। আমরা ত্বকের অবস্থা বর্ণনা, রোগ নির্ণয় পদ্ধতি বোঝা, এবং ক্ষত পরিচর্যা কৌশল নিয়ে আলোচনা করার উপর মনোযোগ দেব।",
+            "hi": "इस अनुभाग में, आप त्वचाविज्ञान से संबंधित आवश्यक जर्मन चिकित्सा शब्दावली सीखेंगे। हम त्वचा की स्थिति का वर्णन करने, नैदानिक प्रक्रियाओं को समझने और घाव की देखभाल तकनीकों पर चर्चा करने पर ध्यान केंद्रित करेंगे।",
+            "ur": "اس حصے میں، آپ جلد کی بیماریوں سے متعلق لازمی جرمن طبی اصطلاحات سیکھیں گے۔ ہم جلد کی حالتوں کی وضاحت کرنے، تشخیصی طریقہ کار کو سمجھنے اور زخم کی دیکھ بھال کی تکنیکوں پر تبادلہ خیال کرنے پر توجہ مرکوز کریں گے۔",
+            "tr": "Bu bölümde, dermatoloji ile ilgili temel Almanca tıbbi terminolojiyi öğreneceksiniz. Cilt rahatsızlıklarını tanımlamaya, tanı prosedürlerini anlamaya ve yara bakımı tekniklerini tartışmaya odaklanacağız.",
+            "de": "In diesem Abschnitt lernen Sie die wesentliche deutsche medizinische Terminologie im Zusammenhang mit der Dermatologie. Wir konzentrieren uns auf die Beschreibung von Hauterkrankungen, das Verständnis diagnostischer Verfahren und die Erörterung von Wundversorgungstechniken."
+        },
+        "grammarFocus": {
+            "en": {
+                "point1": "Declension of adjectives describing skin conditions (e.g., 'gerötete Haut' - reddened skin).",
+                "point2": "Use of reflexive verbs in describing patient symptoms (e.g., 'sich jucken' - to itch oneself)."
+            },
+            "bn": {
+                "point1": "ত্বকের অবস্থার বর্ণনা করতে বিশেষণগুলির কারক পরিবর্তন (যেমন, 'gerötete Haut' - লাল ত্বক)।",
+                "point2": "রোগীর লক্ষণ বর্ণনা করার জন্য আত্মবাচক ক্রিয়াপদের ব্যবহার (যেমন, 'sich jucken' - চুলকানো)।"
+            },
+            "hi": {
+                "point1": "त्वचा की स्थिति का वर्णन करने वाले विशेषणों का विभक्तिकरण (जैसे, 'gerötete Haut' - लाल त्वचा)।",
+                "point2": "रोगी के लक्षणों का वर्णन करने में रिफ्लेक्सिव क्रियाओं का उपयोग (जैसे, 'sich jucken' - खुजली करना)।"
+            },
+            "ur": {
+                "point1": "جلد کی حالتوں کو بیان کرنے والے صفتوں کی گردان (مثال کے طور پر، 'gerötete Haut' - لالی مائل جلد)۔",
+                "point2": "مریض کی علامات کو بیان کرنے میں انعکاسی فعل کا استعمال (مثال کے طور پر، 'sich jucken' - خارش کرنا)۔"
+            },
+            "tr": {
+                "point1": "Cilt rahatsızlıklarını tanımlayan sıfatların çekimi (örn. 'gerötete Haut' - kızarmış cilt).",
+                "point2": "Hasta semptomlarını tanımlamada refleksif fiillerin kullanımı (örn. 'sich jucken' - kaşınmak)."
+            },
+            "de": {
+                "point1": "Deklination von Adjektiven zur Beschreibung von Hauterkrankungen (z.B. 'gerötete Haut').",
+                "point2": "Verwendung von reflexiven Verben zur Beschreibung von Patientensymptomen (z.B. 'sich jucken')."
+            }
+        },
+        "culturalNotes": {
+            "en": "In German hospitals, detailed visual documentation of skin conditions is common practice, often using standardized scales and photography.",
+            "bn": "জার্মান হাসপাতালগুলিতে, ত্বকের অবস্থার বিস্তারিত ভিজ্যুয়াল ডকুমেন্টেশন একটি সাধারণ অভ্যাস, প্রায়শই মানসম্মত স্কেল এবং ফটোগ্রাফি ব্যবহার করে।",
+            "hi": "जर्मन अस्पतालों में, त्वचा की स्थिति का विस्तृत दृश्य प्रलेखन एक सामान्य अभ्यास है, अक्सर मानकीकृत तराजू और फोटोग्राफी का उपयोग किया जाता है।",
+            "ur": "جرمن اسپتالوں میں، جلد کی حالتوں کی تفصیلی بصری دستاویزات ایک عام عمل ہے، اکثر معیاری ترازو اور فوٹو گرافی کا استعمال کرتے ہوئے۔",
+            "tr": "Alman hastanelerinde, cilt rahatsızlıklarının ayrıntılı görsel dokümantasyonu yaygın bir uygulamadır, genellikle standart ölçekler ve fotoğrafçılık kullanılır.",
+            "de": "In deutschen Krankenhäusern ist die detaillierte visuelle Dokumentation von Hauterkrankungen üblich, oft unter Verwendung standardisierter Skalen und Fotografie."
+        },
+        "summary": {
+            "en": "This section provided a foundational understanding of German medical terminology related to common dermatological conditions and procedures.",
+            "bn": "এই বিভাগে সাধারণ চর্মরোগ সংক্রান্ত অবস্থা এবং পদ্ধতির সাথে সম্পর্কিত জার্মান চিকিৎসা পরিভাষার একটি মৌলিক ধারণা প্রদান করা হয়েছে।",
+            "hi": "इस अनुभाग में सामान्य त्वचा संबंधी स्थितियों और प्रक्रियाओं से संबंधित जर्मन चिकित्सा शब्दावली की एक मूलभूत समझ प्रदान की गई।",
+            "ur": "اس حصے میں عام جلد کی بیماریوں اور طریقہ کار سے متعلق جرمن طبی اصطلاحات کی بنیادی تفہیم فراہم کی گئی ہے۔",
+            "tr": "Bu bölüm, yaygın dermatolojik durumlar ve prosedürlerle ilgili Alman tıbbi terminolojisinin temel bir anlayışını sağlamıştır.",
+            "de": "Dieser Abschnitt vermittelte ein grundlegendes Verständnis der deutschen medizinischen Terminologie im Zusammenhang mit häufigen dermatologischen Erkrankungen und Verfahren."
+        },
+        "learningObjectives": [
+            "Recognize and define common German terms related to skin conditions (e.g., Haut, Ausschlag, Ekzem).",
+            "Describe the basic characteristics of different types of rashes and lesions in German.",
+            "Understand the procedures involved in a dermatological biopsy.",
+            "Explain the principles of wound care in German medical contexts."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "die Haut",
+            "article": "die",
+            "plural": "die Häute",
+            "pronunciation": "/haʊ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "skin",
+                "bn": "ত্বক (twak)",
+                "hi": "त्वचा (tvacha)",
+                "ur": "جلد (jild)",
+                "tr": "cilt"
+            },
+            "exampleSentence": "Die Haut des Patienten ist sehr trocken und gereizt.",
+            "exampleTranslation": {
+                "en": "The patient's skin is very dry and irritated.",
+                "bn": "রোগীর ত্বক খুব শুষ্ক এবং খিটখিটে।",
+                "hi": "मरीज की त्वचा बहुत रूखी और चिड़चिड़ी है।",
+                "ur": "مریض کی جلد بہت خشک اور خارش زدہ ہے۔",
+                "tr": "Hastanın cildi çok kuru ve tahriş olmuş."
+            },
+            "id": "v49_01"
+        },
+        {
+            "germanTerm": "der Ausschlag",
+            "article": "der",
+            "plural": "die Ausschläge",
+            "pronunciation": "/ˈaʊ̯sˌʃlaːk/",
+            "category": "noun",
+            "translation": {
+                "en": "rash",
+                "bn": "ফুসকুড়ি (phuskuṛi)",
+                "hi": "चकत्ते (chakatte)",
+                "ur": "دانے (daane)",
+                "tr": "döküntü"
+            },
+            "exampleSentence": "Der Patient klagt über einen juckenden Ausschlag am ganzen Körper.",
+            "exampleTranslation": {
+                "en": "The patient complains of an itchy rash all over the body.",
+                "bn": "রোগী সারা শরীরে একটি চুলকানি ফুসকুড়ি নিয়ে অভিযোগ করছে।",
+                "hi": "मरीज पूरे शरीर पर खुजलीदार चकत्ते की शिकायत कर रहा है।",
+                "ur": "مریض پورے جسم پر خارش والے دانے کی شکایت کر رہا ہے۔",
+                "tr": "Hasta tüm vücudunda kaşıntılı bir döküntüden şikayet ediyor."
+            },
+            "id": "v49_02"
+        },
+        {
+            "germanTerm": "das Ekzem",
+            "article": "das",
+            "plural": "die Ekzeme",
+            "pronunciation": "/ɛkˈtseːm/",
+            "category": "noun",
+            "translation": {
+                "en": "eczema",
+                "bn": "экজিма (ekjima)",
+                "hi": "एक्जिमा (eczema)",
+                "ur": "ایگزیما (eczema)",
+                "tr": "egzama"
+            },
+            "exampleSentence": "Das Ekzem ist besonders schlimm in den Armbeugen.",
+            "exampleTranslation": {
+                "en": "The eczema is particularly bad in the folds of the arms.",
+                "bn": "экজিма বিশেষ করে বাহুর ভাঁজে খারাপ।",
+                "hi": "एक्जिमा विशेष रूप से बांह के मोड़ों में बुरा है।",
+                "ur": "ایگزیما خاص طور پر بازو کے جوڑوں میں خراب ہے۔",
+                "tr": "Egzama özellikle kol kıvrımlarında kötü."
+            },
+            "id": "v49_03"
+        },
+        {
+            "germanTerm": "die Dermatitis",
+            "article": "die",
+            "plural": "die Dermatitiden",
+            "pronunciation": "/dɛʁmaˈtiːtɪs/",
+            "category": "noun",
+            "translation": {
+                "en": "dermatitis",
+                "bn": "ডার্মাটাইটিস (ḍārmāṭāiṭisa)",
+                "hi": "त्वचाशोथ (tvachaashoth)",
+                "ur": "ڈرمیٹائٹس (dermatitis)",
+                "tr": "dermatit"
+            },
+            "exampleSentence": "Die allergische Dermatitis wurde durch den Kontakt mit Nickel verursacht.",
+            "exampleTranslation": {
+                "en": "The allergic dermatitis was caused by contact with nickel.",
+                "bn": "অ্যালার্জিক ডার্মাটাইটিস নিকেল সংস্পর্শের কারণে হয়েছিল।",
+                "hi": "एलर्जी त्वचाशोथ निकल के संपर्क से हुआ था।",
+                "ur": "الرجی ڈرمیٹائٹس نکل سے رابطے کی وجہ سے ہوا تھا۔",
+                "tr": "Alerjik dermatit nikel ile temas sonucu oluştu."
+            },
+            "id": "v49_04"
+        },
+        {
+            "germanTerm": "die Läsion",
+            "article": "die",
+            "plural": "die Läsionen",
+            "pronunciation": "/leˈzi̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "lesion",
+                "bn": "ক্ষত (khata)",
+                "hi": "घाव (ghaav)",
+                "ur": "زخم (zakhm)",
+                "tr": "lezyon"
+            },
+            "exampleSentence": "Wir müssen die Läsion histologisch untersuchen lassen.",
+            "exampleTranslation": {
+                "en": "We need to have the lesion examined histologically.",
+                "bn": "আমাদের ক্ষতটি হিস্টোলজিকভাবে পরীক্ষা করাতে হবে।",
+                "hi": "हमें घाव की हिस्टोलॉजिकल जांच करानी होगी।",
+                "ur": "ہمیں زخم کا ہسٹولوجیکل معائنہ کرانا ہوگا۔",
+                "tr": "Lezyonu histolojik olarak inceletmemiz gerekiyor."
+            },
+            "id": "v49_05"
+        },
+        {
+            "germanTerm": "die Biopsie",
+            "article": "die",
+            "plural": "die Biopsien",
+            "pronunciation": "/biˈɔpsiː/",
+            "category": "noun",
+            "translation": {
+                "en": "biopsy",
+                "bn": "বায়োপসি (bāẏōpasi)",
+                "hi": "बायोप्सी (biopsy)",
+                "ur": "بایپسی (biopsy)",
+                "tr": "biyopsi"
+            },
+            "exampleSentence": "Die Biopsie wurde entnommen, um die Ursache des Hautausschlags zu klären.",
+            "exampleTranslation": {
+                "en": "The biopsy was taken to clarify the cause of the skin rash.",
+                "bn": "ত্বকের ফুসকুড়ির কারণ স্পষ্ট করার জন্য বায়োপসি নেওয়া হয়েছিল।",
+                "hi": "त्वचा के चकत्ते का कारण स्पष्ट करने के लिए बायोप्सी ली गई थी।",
+                "ur": "جلد پر دانے کی وجہ واضح کرنے کے لیے بایپسی لی گئی تھی۔",
+                "tr": "Ciltteki döküntünün nedenini açıklığa kavuşturmak için biyopsi alındı."
+            },
+            "id": "v49_06"
+        },
+        {
+            "germanTerm": "die Wundversorgung",
+            "article": "die",
+            "plural": "die Wundversorgungen",
+            "pronunciation": "/ˈvʊntfɛɐ̯ˌzɔʁɡʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "wound care",
+                "bn": "ক্ষত পরিচর্যা (khata poricaryā)",
+                "hi": "घाव की देखभाल (ghaav kee dekhabhaal)",
+                "ur": "زخم کی دیکھ بھال (zakhm ki dekh bhal)",
+                "tr": "yara bakımı"
+            },
+            "exampleSentence": "Eine sorgfältige Wundversorgung ist wichtig, um Infektionen zu vermeiden.",
+            "exampleTranslation": {
+                "en": "Careful wound care is important to avoid infections.",
+                "bn": "সংক্রমণ এড়াতে যত্ন সহকারে ক্ষত পরিচর্যা করা গুরুত্বপূর্ণ।",
+                "hi": "संक्रमण से बचने के लिए सावधानीपूर्वक घाव की देखभाल करना महत्वपूर्ण है।",
+                "ur": "انفیکشن سے بچنے کے لیے زخم کی احتیاط سے دیکھ بھال کرنا ضروری ہے۔",
+                "tr": "Enfeksiyonları önlemek için dikkatli yara bakımı önemlidir."
+            },
+            "id": "v49_07"
+        },
+        {
+            "germanTerm": "jucken",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈjʊkn̩/",
+            "category": "verb",
+            "translation": {
+                "en": "to itch",
+                "bn": "চুলকানো (culakāno)",
+                "hi": "खुजली करना (khujalee karana)",
+                "ur": "کھجلی کرنا (khujli karna)",
+                "tr": "kaşınmak"
+            },
+            "exampleSentence": "Die Haut juckt sehr stark.",
+            "exampleTranslation": {
+                "en": "The skin itches very badly.",
+                "bn": "ত্বক খুব খারাপভাবে চুলকাচ্ছে।",
+                "hi": "त्वचा बहुत बुरी तरह खुजली कर रही है।",
+                "ur": "جلد بہت بری طرح کھجلی کر رہی ہے۔",
+                "tr": "Cilt çok kötü kaşınıyor."
+            },
+            "id": "v49_08"
+        },
+        {
+            "germanTerm": "entzündet",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ɛntˈtsʏndət/",
+            "category": "adjective",
+            "translation": {
+                "en": "inflamed",
+                "bn": "প্রদাহযুক্ত (pradāhayukta)",
+                "hi": "सूजा हुआ (sooja hua)",
+                "ur": "سوجن والا (soojan wala)",
+                "tr": "iltihaplı"
+            },
+            "exampleSentence": "Die Wunde ist entzündet und eitert.",
+            "exampleTranslation": {
+                "en": "The wound is inflamed and suppurating.",
+                "bn": "ক্ষতটি প্রদাহযুক্ত এবং পুঁজরক্তপূর্ণ।",
+                "hi": "घाव सूजा हुआ है और मवाद आ रहा है।",
+                "ur": "زخم سوجن والا ہے اور اس میں سے پیپ بہہ رہی ہے۔",
+                "tr": "Yara iltihaplı ve cerahatli."
+            },
+            "id": "v49_09"
+        },
+        {
+            "germanTerm": "die Narbe",
+            "article": "die",
+            "plural": "die Narben",
+            "pronunciation": "/ˈnaʁbə/",
+            "category": "noun",
+            "translation": {
+                "en": "scar",
+                "bn": "দাগ (dāg)",
+                "hi": "निशान (nishaan)",
+                "ur": "نشان (nishan)",
+                "tr": "skar"
+            },
+            "exampleSentence": "Die Narbe ist nach der Operation zurückgeblieben.",
+            "exampleTranslation": {
+                "en": "The scar remained after the operation.",
+                "bn": "অপারেশনের পর দাগ রয়ে গেছে।",
+                "hi": "ऑपरेशन के बाद निशान रह गया है।",
+                "ur": "آپریشن کے بعد نشان باقی رہ گیا ہے۔",
+                "tr": "Ameliyattan sonra yara izi kaldı."
+            },
+            "id": "v49_10"
+        },
+        {
+            "germanTerm": "die Salbe",
+            "article": "die",
+            "plural": "die Salben",
+            "pronunciation": "/ˈzalbə/",
+            "category": "noun",
+            "translation": {
+                "en": "ointment",
+                "bn": "মলম (malam)",
+                "hi": "मलहम (malaham)",
+                "ur": "مرہم (marham)",
+                "tr": "merhem"
+            },
+            "exampleSentence": "Tragen Sie die Salbe zweimal täglich auf.",
+            "exampleTranslation": {
+                "en": "Apply the ointment twice a day.",
+                "bn": "মলমটি দিনে দুবার লাগান।",
+                "hi": "मलहम को दिन में दो बार लगाएं।",
+                "ur": "مرہم دن میں دو بار لگائیں۔",
+                "tr": "Merhemi günde iki kez uygulayın."
+            },
+            "id": "v49_11"
+        },
+        {
+            "germanTerm": "der Pilz",
+            "article": "der",
+            "plural": "die Pilze",
+            "pronunciation": "/pɪlt͡s/",
+            "category": "noun",
+            "translation": {
+                "en": "fungus",
+                "bn": "ছত্রাক (chatrāka)",
+                "hi": "कवक (kavak)",
+                "ur": "فنگس (fungus)",
+                "tr": "mantar"
+            },
+            "exampleSentence": "Es handelt sich um eine Pilzinfektion der Haut.",
+            "exampleTranslation": {
+                "en": "It is a fungal infection of the skin.",
+                "bn": "এটি ত্বকের একটি ছত্রাক সংক্রমণ।",
+                "hi": "यह त्वचा का एक कवक संक्रमण है।",
+                "ur": "یہ جلد کا ایک فنگل انفیکشن ہے۔",
+                "tr": "Bu ciltte bir mantar enfeksiyonudur."
+            },
+            "id": "v49_12"
+        },
+        {
+            "germanTerm": "die Pustel",
+            "article": "die",
+            "plural": "die Pusteln",
+            "pronunciation": "/ˈpʊstl̩/",
+            "category": "noun",
+            "translation": {
+                "en": "pustule",
+                "bn": "ফোস্কা (phōskā)",
+                "hi": "फुंसी (funsee)",
+                "ur": "پھوڑا (phorha)",
+                "tr": "püstül"
+            },
+            "exampleSentence": "Die Pusteln sind mit Eiter gefüllt.",
+            "exampleTranslation": {
+                "en": "The pustules are filled with pus.",
+                "bn": "ফোস্কাগুলো পুঁজ দিয়ে ভরা।",
+                "hi": "फुंसी पस से भरी हुई है।",
+                "ur": "پھوڑے پیپ سے بھرے ہوئے ہیں۔",
+                "tr": "Püstüller irinle dolu."
+            },
+            "id": "v49_13"
+        },
+        {
+            "germanTerm": "die Krätze",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/ˈkʁɛt͡sə/",
+            "category": "noun",
+            "translation": {
+                "en": "scabies",
+                "bn": "পাঁচড়া (pām̐caṛā)",
+                "hi": "खुजली (khujalee)",
+                "ur": "خارش (kharish)",
+                "tr": "uyuz"
+            },
+            "exampleSentence": "Der Patient hat sich mit Krätze infiziert.",
+            "exampleTranslation": {
+                "en": "The patient has been infected with scabies.",
+                "bn": "রোগী পাঁচড়ায় আক্রান্ত হয়েছে।",
+                "hi": "मरीज खुजली से संक्रमित हो गया है।",
+                "ur": "مریض خارش سے متاثر ہو گیا ہے۔",
+                "tr": "Hasta uyuz kaptı."
+            },
+            "id": "v49_14"
+        },
+        {
+            "germanTerm": "die Allergie",
+            "article": "die",
+            "plural": "die Allergien",
+            "pronunciation": "/aleʁˈɡiː/",
+            "category": "noun",
+            "translation": {
+                "en": "allergy",
+                "bn": "অ্যালার্জি (ælārji)",
+                "hi": "एलर्जी (elarjee)",
+                "ur": "الرجی (allergy)",
+                "tr": "alerji"
+            },
+            "exampleSentence": "Er hat eine Allergie gegen Pollen.",
+            "exampleTranslation": {
+                "en": "He has an allergy to pollen.",
+                "bn": "তার পরাগরেণু থেকে অ্যালার্জি আছে।",
+                "hi": "उसे पराग से एलर्जी है।",
+                "ur": "اسے پولن سے الرجی ہے۔",
+                "tr": "Polene alerjisi var."
+            },
+            "id": "v49_15"
+        },
+        {
+            "germanTerm": "das Melanom",
+            "article": "das",
+            "plural": "die Melanome",
+            "pronunciation": "/melaˈnoːm/",
+            "category": "noun",
+            "translation": {
+                "en": "melanoma",
+                "bn": "মেলানোমা (mēlanōmā)",
+                "hi": "मेलानोमा (melanoma)",
+                "ur": "میلانوما (melanoma)",
+                "tr": "melanom"
+            },
+            "exampleSentence": "Wir müssen abklären, ob es sich um ein Melanom handelt.",
+            "exampleTranslation": {
+                "en": "We need to clarify whether it is a melanoma.",
+                "bn": "আমাদের স্পষ্ট করতে হবে যে এটি মেলানোমা কিনা।",
+                "hi": "हमें स्पष्ट करने की आवश्यकता है कि क्या यह एक मेलानोमा है।",
+                "ur": "ہمیں یہ واضح کرنے کی ضرورت ہے کہ کیا یہ میلانوما ہے۔",
+                "tr": "Melanom olup olmadığını açıklığa kavuşturmamız gerekiyor."
+            },
+            "id": "v49_16"
+        },
+        {
+            "germanTerm": "die Akne",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/ˈakneː/",
+            "category": "noun",
+            "translation": {
+                "en": "acne",
+                "bn": "ব্রণ (braṇa)",
+                "hi": "मुँहासे (munhaase)",
+                "ur": "مہاسے (muhase)",
+                "tr": "akne"
+            },
+            "exampleSentence": "Die Akne ist durch die hormonelle Umstellung schlimmer geworden.",
+            "exampleTranslation": {
+                "en": "The acne has worsened due to the hormonal changes.",
+                "bn": "হরমোনের পরিবর্তনের কারণে ব্রণ আরও খারাপ হয়েছে।",
+                "hi": "हार्मोनल परिवर्तन के कारण मुंहासे और खराब हो गए हैं।",
+                "ur": "ہارمونل تبدیلیوں کی وجہ سے مہاسے مزید خراب ہو گئے ہیں۔",
+                "tr": "Hormonal değişiklikler nedeniyle akne kötüleşti."
+            },
+            "id": "v49_17"
+        },
+        {
+            "germanTerm": "die Warze",
+            "article": "die",
+            "plural": "die Warzen",
+            "pronunciation": "/ˈvaʁt͡sə/",
+            "category": "noun",
+            "translation": {
+                "en": "wart",
+                "bn": "warts",
+                "hi": "मस्सा (massa)",
+                "ur": "مسا (massa)",
+                "tr": "siğil"
+            },
+            "exampleSentence": "Die Warze wurde vereist und entfernt.",
+            "exampleTranslation": {
+                "en": "The wart was frozen and removed.",
+                "bn": "warts টি হিমায়িত করে সরানো হয়েছিল।",
+                "hi": "मस्सा जमा कर हटा दिया गया।",
+                "ur": "مسا کو منجمد کر کے ہٹا دیا گیا۔",
+                "tr": "Siğil dondurularak çıkarıldı."
+            },
+            "id": "v49_18"
+        },
+        {
+            "germanTerm": "trocken",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈtʁɔkn̩/",
+            "category": "adjective",
+            "translation": {
+                "en": "dry",
+                "bn": "শুকনো (śuknō)",
+                "hi": "सूखा (sookha)",
+                "ur": "خشک (khushk)",
+                "tr": "kuru"
+            },
+            "exampleSentence": "Die Haut ist sehr trocken und schuppig.",
+            "exampleTranslation": {
+                "en": "The skin is very dry and flaky.",
+                "bn": "ত্বক খুব শুকনো এবং খসখসে।",
+                "hi": "त्वचा बहुत सूखी और परतदार है।",
+                "ur": "جلد بہت خشک اور پرت دار ہے۔",
+                "tr": "Cilt çok kuru ve pullu."
+            },
+            "id": "v49_19"
+        },
+        {
+            "germanTerm": "sensibel",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/zɛnˈziːbl̩/",
+            "category": "adjective",
+            "translation": {
+                "en": "sensitive",
+                "bn": "সংবেদনশীল (sam̐bēdanaśīla)",
+                "hi": "संवेदनशील (sanvedanasheel)",
+                "ur": "حساس (hassas)",
+                "tr": "hassas"
+            },
+            "exampleSentence": "Diese Creme ist für sensible Haut geeignet.",
+            "exampleTranslation": {
+                "en": "This cream is suitable for sensitive skin.",
+                "bn": "এই ক্রিম সংবেদনশীল ত্বকের জন্য উপযুক্ত।",
+                "hi": "यह क्रीम संवेदनशील त्वचा के लिए उपयुक्त है।",
+                "ur": "یہ کریم حساس جلد کے لیے موزوں ہے۔",
+                "tr": "Bu krem hassas ciltler için uygundur."
+            },
+            "id": "v49_20"
+        },
+        {
+            "germanTerm": "chronisch",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈkʁoːnɪʃ/",
+            "category": "adjective",
+            "translation": {
+                "en": "chronic",
+                "bn": "দীর্ঘস্থায়ী (dīrghasthāẏī)",
+                "hi": "क्रोनिक (kronik)",
+                "ur": "دائمی (daimi)",
+                "tr": "kronik"
+            },
+            "exampleSentence": "Die Dermatitis ist chronisch und tritt immer wieder auf.",
+            "exampleTranslation": {
+                "en": "The dermatitis is chronic and recurs frequently.",
+                "bn": "ডার্মাটাইটিস দীর্ঘস্থায়ী এবং প্রায়শই পুনরাবৃত্তি হয়।",
+                "hi": "त्वचाशोथ पुरानी है और अक्सर पुनरावृत्ति होती है।",
+                "ur": "ڈرمیٹائٹس دائمی ہے اور اکثر بار بار ہوتی ہے۔",
+                "tr": "Dermatit kroniktir ve sık sık tekrarlar."
+            },
+            "id": "v49_21"
+        },
+        {
+            "germanTerm": "lokal",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/loˈkaːl/",
+            "category": "adjective",
+            "translation": {
+                "en": "local",
+                "bn": "স্থানীয় (sthānīẏa)",
+                "hi": "स्थानीय (sthaaneey)",
+                "ur": "مقامی (maqami)",
+                "tr": "lokal"
+            },
+            "exampleSentence": "Wir behandeln den Ausschlag lokal mit einer Creme.",
+            "exampleTranslation": {
+                "en": "We treat the rash locally with a cream.",
+                "bn": "আমরা স্থানীয়ভাবে একটি ক্রিম দিয়ে ফুসকুড়ি চিকিৎসা করি।",
+                "hi": "हम चकत्ते का स्थानीय रूप से एक क्रीम से इलाज करते हैं।",
+                "ur": "ہم مقامی طور پر ایک کریم کے ساتھ ددورا کا علاج کرتے ہیں۔",
+                "tr": "Döküntüyü lokal olarak bir kremle tedavi ediyoruz."
+            },
+            "id": "v49_22"
+        },
+        {
+            "germanTerm": "die Sonnenschutzcreme",
+            "article": "die",
+            "plural": "die Sonnenschutzcremes",
+            "pronunciation": "/ˈzɔnənʃʊt͡sˌkʁeːmə/",
+            "category": "noun",
+            "translation": {
+                "en": "sunscreen",
+                "bn": "সানস্ক্রিন (sānasakrina)",
+                "hi": "सनस्क्रीन (sanascreen)",
+                "ur": "سن سکرین (sun screen)",
+                "tr": "güneş kremi"
+            },
+            "exampleSentence": "Vergessen Sie nicht, Sonnenschutzcreme aufzutragen.",
+            "exampleTranslation": {
+                "en": "Don't forget to apply sunscreen.",
+                "bn": "সানস্ক্রিন লাগাতে ভুলবেন না।",
+                "hi": "सनस्क्रीन लगाना न भूलें।",
+                "ur": "سن سکرین لگانا مت بھولیں۔",
+                "tr": "Güneş kremi sürmeyi unutmayın."
+            },
+            "id": "v49_23"
+        },
+        {
+            "germanTerm": "die UV-Strahlung",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/uːˈfaʊ̯ˌʃtraːlʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "UV radiation",
+                "bn": "ইউভি বিকিরণ (iuvi bikiraṇa)",
+                "hi": "यूवी विकिरण (yoovee vikiran)",
+                "ur": "بالائے بنفشی شعاع (balaa-e-banafshi shuaa)",
+                "tr": "UV radyasyonu"
+            },
+            "exampleSentence": "UV-Strahlung kann Hautkrebs verursachen.",
+            "exampleTranslation": {
+                "en": "UV radiation can cause skin cancer.",
+                "bn": "ইউভি বিকিরণ ত্বকের ক্যান্সার সৃষ্টি করতে পারে।",
+                "hi": "यूवी विकिरण त्वचा कैंसर का कारण बन सकता है।",
+                "ur": "بالائے بنفشی شعاع جلد کے کینسر کا سبب بن سکتی ہے۔",
+                "tr": "UV radyasyonu cilt kanserine neden olabilir."
+            },
+            "id": "v49_24"
+        },
+        {
+            "germanTerm": "die Hautpflege",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/ˈhaʊ̯tˌp͡fleːɡə/",
+            "category": "noun",
+            "translation": {
+                "en": "skin care",
+                "bn": "ত্বকের যত্ন (twakēr yatna)",
+                "hi": "त्वचा की देखभाल (tvacha kee dekhabhaal)",
+                "ur": "جلد کی دیکھ بھال (jild ki dekh bhal)",
+                "tr": "cilt bakımı"
+            },
+            "exampleSentence": "Eine gute Hautpflege ist wichtig für ein gesundes Aussehen.",
+            "exampleTranslation": {
+                "en": "Good skin care is important for a healthy appearance.",
+                "bn": "সুস্থ চেহারার জন্য ভাল ত্বকের যত্ন নেওয়া গুরুত্বপূর্ণ।",
+                "hi": "स्वस्थ दिखने के लिए अच्छी त्वचा की देखभाल करना महत्वपूर्ण है।",
+                "ur": "صحت مند نظر آنے کے لیے جلد کی اچھی دیکھ بھال کرنا ضروری ہے۔",
+                "tr": "Sağlıklı bir görünüm için iyi cilt bakımı önemlidir."
+            },
+            "id": "v49_25"
+        },
+        {
+            "germanTerm": "der Hautarzt",
+            "article": "der",
+            "plural": "die Hautärzte",
+            "pronunciation": "/ˈhaʊ̯tˌʔaʁt͡st/",
+            "category": "noun",
+            "translation": {
+                "en": "dermatologist",
+                "bn": "চর্মরোগ বিশেষজ্ঞ (carmarōga biśēṣajña)",
+                "hi": "त्वचा विशेषज्ञ (tvacha visheshagy)",
+                "ur": "جلد کا ماہر (jild ka mahir)",
+                "tr": "dermatolog"
+            },
+            "exampleSentence": "Sie sollten einen Hautarzt aufsuchen, wenn der Ausschlag nicht besser wird.",
+            "exampleTranslation": {
+                "en": "You should see a dermatologist if the rash doesn't improve.",
+                "bn": "ফুসকুড়ি ভাল না হলে আপনার একজন চর্মরোগ বিশেষজ্ঞের পরামর্শ নেওয়া উচিত।",
+                "hi": "यदि चकत्ते में सुधार नहीं होता है तो आपको त्वचा विशेषज्ञ से मिलना चाहिए।",
+                "ur": "اگر ددورا بہتر نہیں ہوتا ہے تو آپ کو جلد کے ماہر سے رجوع کرنا چاہیے۔",
+                "tr": "Döküntü düzelmezse bir dermatoloğa görünmelisiniz."
+            },
+            "id": "v49_26"
+        },
+        {
+            "germanTerm": "die Verbrennung",
+            "article": "die",
+            "plural": "die Verbrennungen",
+            "pronunciation": "/fɛɐ̯ˈbʁɛnʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "burn",
+                "bn": "পোড়া (pōṛā)",
+                "hi": "जलन (jalan)",
+                "ur": "جلنا (jalna)",
+                "tr": "yanık"
+            },
+            "exampleSentence": "Es handelt sich um eine Verbrennung ersten Grades.",
+            "exampleTranslation": {
+                "en": "It is a first-degree burn.",
+                "bn": "এটি প্রথম ডিগ্রী পোড়া।",
+                "hi": "यह पहली डिग्री की जलन है।",
+                "ur": "یہ پہلی ڈگری کا جلنا ہے۔",
+                "tr": "Bu birinci derece yanık."
+            },
+            "id": "v49_27"
+        },
+        {
+            "germanTerm": "die Diagnose",
+            "article": "die",
+            "plural": "die Diagnosen",
+            "pronunciation": "/di̯aɡˈnoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "diagnosis",
+                "bn": "রোগ নির্ণয় (rōg nirṇōẏ)",
+                "hi": "निदान (nidaan)",
+                "ur": "تشخیص (tashkhees)",
+                "tr": "teşhis"
+            },
+            "exampleSentence": "Die Diagnose lautet Kontaktdermatitis.",
+            "exampleTranslation": {
+                "en": "The diagnosis is contact dermatitis.",
+                "bn": "রোগ নির্ণয় হল কন্টাক্ট ডার্মাটাইটিস।",
+                "hi": "निदान संपर्क जिल्द की सूजन है।",
+                "ur": "تشخیص رابطہ جلد کی سوزش ہے۔",
+                "tr": "Teşhis kontakt dermatit."
+            },
+            "id": "v49_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Eczema Consultation",
+                "bn": "একজিমা পরামর্শ",
+                "hi": "एक्जिमा परामर्श",
+                "ur": "ایگزیما مشاورت",
+                "tr": "Egzama Konsültasyonu"
+            },
+            "context": {
+                "en": "A patient with a persistent eczema patch is consulting a dermatologist.",
+                "bn": "একজন রোগী ক্রমাগত একজিমার প্যাচ নিয়ে একজন চর্মরোগ বিশেষজ্ঞের পরামর্শ নিচ্ছেন।",
+                "hi": "एक लगातार एक्जिमा पैच के साथ एक मरीज एक त्वचा विशेषज्ञ से परामर्श कर रहा है।",
+                "ur": "مسلسل ایگزیما پیچ کے ساتھ ایک مریض جلد کے ماہر سے مشورہ کر رہا ہے۔",
+                "tr": "Kalıcı bir egzama yaması olan bir hasta, bir dermatolog ile görüşüyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Tag, Herr Müller. Was führt Sie heute zu mir?",
+                    "translation": {
+                        "en": "Good day, Mr. Müller. What brings you to me today?",
+                        "bn": "শুভ দিন, মিঃ মুলার। আজ আপনাকে কী আমার কাছে নিয়ে এসেছে?",
+                        "hi": "शुभ दिन, श्रीमान मुलर। आपको आज मेरे पास क्या लाया?",
+                        "ur": "شب بخیر، مسٹر مولر۔ آج آپ کو کیا چیز یہاں لائی ہے؟",
+                        "tr": "İyi günler Bay Müller. Bugün sizi bana getiren nedir?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Tag, Herr Doktor. Ich habe seit Monaten diesen Ausschlag am Arm. Es juckt furchtbar.",
+                    "translation": {
+                        "en": "Good day, Doctor. I've had this rash on my arm for months. It itches terribly.",
+                        "bn": "শুভ দিন, ডাক্তার। আমার বাহুতে কয়েক মাস ধরে এই ফুসকুড়ি রয়েছে। এটি খুব চুলকায়।",
+                        "hi": "शुभ दिन, डॉक्टर। मुझे महीनों से मेरी बांह पर यह दाने हैं। यह बहुत खुजली करता है।",
+                        "ur": "شب بخیر، ڈاکٹر۔ میری بازو پر مہینوں سے یہ دانے ہیں۔ اس میں بہت خارش ہوتی ہے۔",
+                        "tr": "İyi günler Doktor. Aylardır kolumda bu kızarıklık var. Çok kaşınıyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das sieht nach einem Ekzem aus. Haben Sie schon etwas versucht?",
+                    "translation": {
+                        "en": "That looks like eczema. Have you tried anything yet?",
+                        "bn": "এটি একজিমার মতো দেখাচ্ছে। আপনি কি ইতিমধ্যে কিছু চেষ্টা করেছেন?",
+                        "hi": "यह एक्जिमा जैसा दिखता है। क्या आपने पहले कुछ आजमाया है?",
+                        "ur": "یہ ایگزیما کی طرح لگتا ہے۔ کیا آپ نے پہلے کچھ آزمایا ہے؟",
+                        "tr": "Bu egzamaya benziyor. Daha önce bir şey denediniz mi?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, eine Salbe aus der Apotheke, aber die hat nicht geholfen.",
+                    "translation": {
+                        "en": "Yes, an ointment from the pharmacy, but it didn't help.",
+                        "bn": "হ্যাঁ, ফার্মেসী থেকে একটি মলম, কিন্তু এটি সাহায্য করেনি।",
+                        "hi": "हां, फार्मेसी से एक मलहम, लेकिन इससे कोई मदद नहीं मिली।",
+                        "ur": "ہاں، فارمیسی سے ایک مرہم، لیکن اس سے کوئی مدد نہیں ملی۔",
+                        "tr": "Evet, eczaneden bir merhem, ama fayda etmedi."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ich werde Ihnen eine stärkere Creme verschreiben. Und wir sollten die Haut pflegen. Vermeiden Sie aggressive Seifen.",
+                    "translation": {
+                        "en": "I will prescribe you a stronger cream. And we should take care of the skin. Avoid harsh soaps.",
+                        "bn": "আমি আপনাকে একটি শক্তিশালী ক্রিম লিখে দেব। এবং আমাদের ত্বকের যত্ন নেওয়া উচিত। কঠোর সাবান এড়িয়ে চলুন।",
+                        "hi": "मैं आपको एक मजबूत क्रीम लिखूंगा। और हमें त्वचा की देखभाल करनी चाहिए। कठोर साबुन से बचें।",
+                        "ur": "میں آپ کو ایک مضبوط کریم لکھوں گا۔ اور ہمیں جلد کی دیکھ بھال کرنی چاہیے۔ سخت صابن سے پرہیز کریں۔",
+                        "tr": "Size daha güçlü bir krem yazacağım. Ve cilde bakmamız gerekiyor. Sert sabunlardan kaçının."
+                    }
+                }
+            ],
+            "id": "d49_01"
+        },
+        {
+            "title": {
+                "en": "Wound Care Post-Biopsy",
+                "bn": "বায়োপসি পরবর্তী ক্ষত পরিচর্যা",
+                "hi": "बायोप्सी के बाद घाव की देखभाल",
+                "ur": "بایوپسی کے بعد زخم کی دیکھ بھال",
+                "tr": "Biyopsi Sonrası Yara Bakımı"
+            },
+            "context": {
+                "en": "A nurse is instructing a patient on how to care for the biopsy site.",
+                "bn": "একজন নার্স রোগীকে বায়োপসি সাইটের যত্ন নেওয়ার নির্দেশ দিচ্ছেন।",
+                "hi": "एक नर्स एक मरीज को बायोप्सी साइट की देखभाल करने के बारे में निर्देश दे रही है।",
+                "ur": "ایک نرس مریض کو بایوپسی سائٹ کی دیکھ بھال کرنے کے بارے میں ہدایت دے رہی ہے۔",
+                "tr": "Bir hemşire, bir hastaya biyopsi bölgesinin nasıl bakım yapılacağını anlatıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Tag, Frau Schmidt. Hier sind die Anweisungen für die Wundversorgung nach der Biopsie.",
+                    "translation": {
+                        "en": "Good day, Mrs. Schmidt. Here are the instructions for wound care after the biopsy.",
+                        "bn": "শুভ দিন, মিসেস শ্মিট। বায়োপসির পরে ক্ষত পরিচর্যার জন্য এখানে নির্দেশাবলী রয়েছে।",
+                        "hi": "शुभ दिन, श्रीमती श्मिट। बायोप्सी के बाद घाव की देखभाल के लिए यहां निर्देश दिए गए हैं।",
+                        "ur": "شب بخیر، مسز شمٹ۔ بایوپسی کے بعد زخم کی دیکھ بھال کے لیے یہاں ہدایات ہیں۔",
+                        "tr": "İyi günler Bayan Schmidt. İşte biyopsiden sonra yara bakımı için talimatlar."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Vielen Dank, Schwester. Was muss ich beachten?",
+                    "translation": {
+                        "en": "Thank you, Nurse. What do I need to pay attention to?",
+                        "bn": "ধন্যবাদ, নার্স। আমাকে কী মনোযোগ দিতে হবে?",
+                        "hi": "धन्यवाद, नर्स। मुझे किस बात पर ध्यान देना होगा?",
+                        "ur": "شکریہ، نرس۔ مجھے کس چیز پر توجہ دینی ہوگی؟",
+                        "tr": "Teşekkürler Hemşire. Neye dikkat etmem gerekiyor?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Halten Sie die Stelle trocken und sauber. Wechseln Sie das Pflaster täglich.",
+                    "translation": {
+                        "en": "Keep the area dry and clean. Change the bandage daily.",
+                        "bn": "এলাকাটি শুকনো এবং পরিষ্কার রাখুন। প্রতিদিন ব্যান্ডেজ পরিবর্তন করুন।",
+                        "hi": "क्षेत्र को सूखा और साफ रखें। हर दिन पट्टी बदलें।",
+                        "ur": "علاقے کو خشک اور صاف رکھیں۔ ہر روز پٹی تبدیل کریں۔",
+                        "tr": "Bölgeyi kuru ve temiz tutun. Bandajı her gün değiştirin."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Und wann muss ich wiederkommen?",
+                    "translation": {
+                        "en": "And when do I have to come back?",
+                        "bn": "এবং আমাকে কখন আবার আসতে হবে?",
+                        "hi": "और मुझे कब वापस आना होगा?",
+                        "ur": "اور مجھے کب واپس آنا پڑے گا؟",
+                        "tr": "Ve ne zaman geri gelmem gerekiyor?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "In einer Woche zur Kontrolle. Wir entfernen dann auch die Fäden.",
+                    "translation": {
+                        "en": "In one week for a check-up. We will also remove the stitches then.",
+                        "bn": "এক সপ্তাহের মধ্যে একটি চেকের জন্য। তখন আমরা সেলাইও খুলে দেব।",
+                        "hi": "एक सप्ताह में जाँच के लिए। तब हम टांके भी हटा देंगे।",
+                        "ur": "ایک ہفتے میں چیک اپ کے لیے۔ تب ہم ٹانکے بھی نکال دیں گے۔",
+                        "tr": "Bir hafta sonra kontrole gelin. O zaman dikişleri de alacağız."
+                    }
+                }
+            ],
+            "id": "d49_02"
+        },
+        {
+            "title": {
+                "en": "Suspected Skin Cancer",
+                "bn": "সন্দেহজনক ত্বকের ক্যান্সার",
+                "hi": "संदिग्ध त्वचा कैंसर",
+                "ur": "مشکوک جلد کا کینسر",
+                "tr": "Şüpheli Cilt Kanseri"
+            },
+            "context": {
+                "en": "A doctor is examining a patient with a suspicious skin lesion.",
+                "bn": "একজন ডাক্তার একজন সন্দেহজনক ত্বকের ক্ষতযুক্ত রোগীকে পরীক্ষা করছেন।",
+                "hi": "एक डॉक्टर एक संदिग्ध त्वचा के घाव वाले रोगी की जांच कर रहा है।",
+                "ur": "ایک ڈاکٹر مشکوک جلد کے زخم والے مریض کا معائنہ کر رہا ہے۔",
+                "tr": "Bir doktor, şüpheli bir cilt lezyonu olan bir hastayı muayene ediyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich sehe hier diese Läsion, Frau Klein. Sie ist etwas unregelmäßig.",
+                    "translation": {
+                        "en": "I see this lesion here, Mrs. Klein. It is a bit irregular.",
+                        "bn": "আমি এখানে এই ক্ষতটি দেখছি, মিসেস ক্লেইন। এটি কিছুটা অনিয়মিত।",
+                        "hi": "मैं यहाँ यह घाव देख रहा हूँ, श्रीमती क्लेन। यह थोड़ा अनियमित है।",
+                        "ur": "میں یہاں یہ زخم دیکھ رہا ہوں، مسز کلین۔ یہ تھوڑا سا بے قاعدہ ہے۔",
+                        "tr": "Burada bu lezyonu görüyorum Bayan Klein. Biraz düzensiz."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Ist das etwas Schlimmes, Herr Doktor?",
+                    "translation": {
+                        "en": "Is that something bad, Doctor?",
+                        "bn": "এটি কি খারাপ কিছু, ডাক্তার?",
+                        "hi": "क्या यह कुछ बुरा है, डॉक्टर?",
+                        "ur": "کیا یہ کوئی بری چیز ہے، ڈاکٹر؟",
+                        "tr": "Bu kötü bir şey mi Doktor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Um sicher zu sein, schlagen wir eine Biopsie vor. Das ist eine kleine Gewebeprobe.",
+                    "translation": {
+                        "en": "To be sure, we suggest a biopsy. That's a small tissue sample.",
+                        "bn": "নিশ্চিত হওয়ার জন্য, আমরা একটি বায়োপসি করার পরামর্শ দিই। এটি একটি ছোট টিস্যুর নমুনা।",
+                        "hi": "निश्चित होने के लिए, हम एक बायोप्सी का सुझाव देते हैं। यह एक छोटा ऊतक का नमूना है।",
+                        "ur": "یقینی بنانے کے لیے، ہم بایوپسی تجویز کرتے ہیں۔ یہ ٹشو کا ایک چھوٹا سا نمونہ ہے۔",
+                        "tr": "Emin olmak için, biyopsi öneriyoruz. Bu küçük bir doku örneği."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Okay, wann kann das gemacht werden?",
+                    "translation": {
+                        "en": "Okay, when can that be done?",
+                        "bn": "ঠিক আছে, এটা কখন করা যেতে পারে?",
+                        "hi": "ठीक है, यह कब किया जा सकता है?",
+                        "ur": "ٹھیک ہے، یہ کب کیا جا سکتا ہے؟",
+                        "tr": "Tamam, bu ne zaman yapılabilir?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wir können das direkt im Anschluss machen. Schwester Weber bereitet alles vor.",
+                    "translation": {
+                        "en": "We can do that right after this. Nurse Weber will prepare everything.",
+                        "bn": "আমরা এটা সরাসরি এর পরে করতে পারি। সিস্টার ওয়েবার সবকিছু প্রস্তুত করবেন।",
+                        "hi": "हम इसे सीधे इसके बाद कर सकते हैं। सिस्टर वेबर सब कुछ तैयार करेंगी।",
+                        "ur": "ہم اسے براہ راست اس کے بعد کر سکتے ہیں۔ سسٹر ویبر سب کچھ تیار کریں گی۔",
+                        "tr": "Bunu hemen bundan sonra yapabiliriz. Hemşire Weber her şeyi hazırlayacak."
+                    }
+                }
+            ],
+            "id": "d49_03"
+        },
+        {
+            "title": {
+                "en": "Allergic Dermatitis",
+                "bn": "অ্যালার্জিক ডার্মাটাইটিস",
+                "hi": "एलर्जी संबंधी जिल्द की सूजन",
+                "ur": "الرجی والی ڈرمیٹیٹائٹس",
+                "tr": "Alerjik Dermatit"
+            },
+            "context": {
+                "en": "A patient is being diagnosed with allergic dermatitis.",
+                "bn": "একজন রোগীর অ্যালার্জিক ডার্মাটাইটিস ধরা পড়েছে।",
+                "hi": "एक मरीज को एलर्जी संबंधी जिल्द की सूजन का निदान किया जा रहा है।",
+                "ur": "ایک مریض کو الرجی والی ڈرمیٹیٹائٹس کی تشخیص ہو رہی ہے۔",
+                "tr": "Bir hastaya alerjik dermatit teşhisi konuluyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ihre Haut zeigt eindeutig eine allergische Dermatitis.",
+                    "translation": {
+                        "en": "Your skin clearly shows allergic dermatitis.",
+                        "bn": "আপনার ত্বক স্পষ্টভাবে অ্যালার্জিক ডার্মাটাইটিস দেখাচ্ছে।",
+                        "hi": "आपकी त्वचा स्पष्ट रूप से एलर्जी संबंधी जिल्द की सूजन दिखाती है।",
+                        "ur": "آپ کی جلد واضح طور پر الرجی والی ڈرمیٹیٹائٹس دکھاتی ہے۔",
+                        "tr": "Cildiniz açıkça alerjik dermatit gösteriyor."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Was bedeutet das, Herr Doktor?",
+                    "translation": {
+                        "en": "What does that mean, Doctor?",
+                        "bn": "এর মানে কী, ডাক্তার?",
+                        "hi": "इसका क्या मतलब है, डॉक्टर?",
+                        "ur": "اس کا کیا مطلب ہے، ڈاکٹر؟",
+                        "tr": "Bu ne anlama geliyor Doktor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Es bedeutet, dass Ihre Haut auf etwas allergisch reagiert. Haben Sie etwas Neues benutzt?",
+                    "translation": {
+                        "en": "It means that your skin is reacting allergically to something. Have you used anything new?",
+                        "bn": "এর মানে হল আপনার ত্বক কোনো কিছুর প্রতি অ্যালার্জি করছে। আপনি কি সম্প্রতি কিছু নতুন ব্যবহার করেছেন?",
+                        "hi": "इसका मतलब है कि आपकी त्वचा किसी चीज पर एलर्जी कर रही है। क्या आपने हाल ही में कुछ नया इस्तेमाल किया है?",
+                        "ur": "اس کا مطلب ہے کہ آپ کی جلد کسی چیز پر الرجی کر رہی ہے۔ کیا آپ نے حال ہی میں کچھ نیا استعمال کیا ہے؟",
+                        "tr": "Bu, cildinizin bir şeye alerjik reaksiyon gösterdiği anlamına gelir. Yeni bir şey kullandınız mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe eine neue Handseife gekauft.",
+                    "translation": {
+                        "en": "I bought a new hand soap.",
+                        "bn": "আমি একটি নতুন হাতের সাবান কিনেছি।",
+                        "hi": "मैंने एक नया हाथ धोने का साबुन खरीदा है।",
+                        "ur": "میں نے ہاتھ دھونے کا نیا صابن خریدا ہے۔",
+                        "tr": "Yeni bir el sabunu aldım."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das könnte die Ursache sein. Wir machen einen Allergietest, um das zu bestätigen. Und ich verschreibe Ihnen eine Cortison-Creme gegen den Ausschlag.",
+                    "translation": {
+                        "en": "That could be the cause. We'll do an allergy test to confirm that. And I'll prescribe you a cortisone cream for the rash.",
+                        "bn": "এটি কারণ হতে পারে। আমরা এটি নিশ্চিত করার জন্য একটি অ্যালার্জি পরীক্ষা করব। এবং আমি আপনাকে ফুসকুড়ির জন্য একটি কর্টিসোন ক্রিম লিখে দেব।",
+                        "hi": "वह कारण हो सकता है। हम इसकी पुष्टि के लिए एक एलर्जी परीक्षण करेंगे। और मैं आपको दाने के लिए एक कोर्टिसोन क्रीम लिखूंगा।",
+                        "ur": "یہ وجہ ہو سکتی ہے۔ ہم اس کی تصدیق کے لیے الرجی ٹیسٹ کریں گے۔ اور میں آپ کو ددورا کے لیے ایک کورٹیسون کریم لکھوں گا۔",
+                        "tr": "Bunun nedeni bu olabilir. Bunu doğrulamak için bir alerji testi yapacağız. Ve size kızarıklık için bir kortizonlu krem reçete edeceğim."
+                    }
+                }
+            ],
+            "id": "d49_04"
+        },
+        {
+            "title": {
+                "en": "Follow-up Appointment for Dermatitis",
+                "bn": "ডার্মাটাইটিসের জন্য ফলো-আপ অ্যাপয়েন্টমেন্ট",
+                "hi": "जिल्द की सूजन के लिए फॉलो-अप अपॉइंटमेंट",
+                "ur": "ڈرمیٹیٹائٹس کے لیے فالو اپ اپائنٹمنٹ",
+                "tr": "Dermatit için Takip Randevusu"
+            },
+            "context": {
+                "en": "A patient is having a follow-up appointment for dermatitis treatment.",
+                "bn": "একজন রোগী ডার্মাটাইটিসের চিকিৎসার জন্য ফলো-আপ অ্যাপয়েন্টমেন্ট নিচ্ছেন।",
+                "hi": "एक मरीज जिल्द की सूजन के इलाज के लिए फॉलो-अप अपॉइंटमेंट ले रहा है।",
+                "ur": "ایک مریض ڈرمیٹیٹائٹس کے علاج کے لیے فالو اپ اپائنٹمنٹ لے رہا ہے۔",
+                "tr": "Bir hasta, dermatit tedavisi için takip randevusu alıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Tag, Herr Doktor. Die Creme hat gut geholfen, aber der Ausschlag ist noch nicht ganz weg.",
+                    "translation": {
+                        "en": "Good day, Doctor. The cream helped a lot, but the rash is not completely gone yet.",
+                        "bn": "শুভ দিন, ডাক্তার। ক্রিমটি খুব সাহায্য করেছে, তবে ফুসকুড়ি এখনও পুরোপুরি যায়নি।",
+                        "hi": "शुभ दिन, डॉक्टर। क्रीम ने बहुत मदद की, लेकिन दाने अभी तक पूरी तरह से गायब नहीं हुए हैं।",
+                        "ur": "شب بخیر، ڈاکٹر۔ کریم نے بہت مدد کی، لیکن ددورا ابھی تک مکمل طور پر غائب نہیں ہوا ہے۔",
+                        "tr": "İyi günler Doktor. Krem çok yardımcı oldu, ancak kızarıklık henüz tamamen geçmedi."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schneider",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Zeigen Sie mal. Ja, es ist besser geworden. Wir verlängern die Behandlung mit der Creme noch etwas.",
+                    "translation": {
+                        "en": "Let me see. Yes, it has gotten better. We will extend the treatment with the cream a bit longer.",
+                        "bn": "আমাকে দেখতে দিন। হ্যাঁ, এটা ভালো হয়েছে। আমরা ক্রিমের সাথে চিকিৎসা আরও কিছুটা বাড়িয়ে দেব।",
+                        "hi": "मुझे देखने दो। हां, यह बेहतर हो गया है। हम क्रीम के साथ उपचार को थोड़ा और बढ़ाएंगे।",
+                        "ur": "مجھے دیکھنے دو۔ ہاں، یہ بہتر ہو گیا ہے۔ ہم کریم کے ساتھ علاج کو تھوڑا اور بڑھائیں گے۔",
+                        "tr": "Bir göreyim. Evet, düzelmiş. Kremli tedaviyi biraz daha uzatacağız."
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Okay. Gibt es noch etwas, was ich beachten sollte?",
+                    "translation": {
+                        "en": "Okay. Is there anything else I should pay attention to?",
+                        "bn": "ঠিক আছে। অন্য কিছু আছে যা আমার মনোযোগ দেওয়া উচিত?",
+                        "hi": "ठीक है। क्या मुझे किसी और बात पर ध्यान देना चाहिए?",
+                        "ur": "ٹھیک ہے۔ کیا مجھے کسی اور چیز پر توجہ دینی چاہیے؟",
+                        "tr": "Tamam. Dikkat etmem gereken başka bir şey var mı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schneider",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Vermeiden Sie weiterhin die neue Seife. Und cremen Sie die Haut regelmäßig ein.",
+                    "translation": {
+                        "en": "Continue to avoid the new soap. And moisturize your skin regularly.",
+                        "bn": "নতুন সাবান ব্যবহার করা এড়িয়ে চলুন। এবং নিয়মিত আপনার ত্বকে ময়েশ্চারাইজার লাগান।",
+                        "hi": "नया साबुन इस्तेमाल करना जारी रखें। और नियमित रूप से अपनी त्वचा को मॉइस्चराइज़ करें।",
+                        "ur": "نیا صابن استعمال کرنا جاری رکھیں۔ اور باقاعدگی سے اپنی جلد کو موئسچرائز کریں۔",
+                        "tr": "Yeni sabun kullanmaktan kaçınmaya devam edin. Ve cildinizi düzenli olarak nemlendirin."
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Alles klar, danke für die Beratung, Herr Doktor.",
+                    "translation": {
+                        "en": "Alright, thank you for the consultation, Doctor.",
+                        "bn": "ঠিক আছে, পরামর্শের জন্য ধন্যবাদ, ডাক্তার।",
+                        "hi": "ठीक है, परामर्श के लिए धन्यवाद, डॉक्टर।",
+                        "ur": "ٹھیک ہے، مشاورت کے لیے شکریہ، ڈاکٹر۔",
+                        "tr": "Peki, danışmanlık için teşekkür ederim Doktor."
+                    }
+                }
+            ],
+            "id": "d49_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Hauterkrankungen ist durch juckende, entzündete Haut gekennzeichnet?",
+                "en": "Which of the following skin conditions is characterized by itchy, inflamed skin?",
+                "bn": "নিচের কোন চর্মরোগটি চুলকানি, প্রদাহযুক্ত ত্বক দ্বারা চিহ্নিত করা হয়?",
+                "hi": "निम्नलिखित में से कौन सी त्वचा की स्थिति खुजली, सूजन वाली त्वचा की विशेषता है?",
+                "ur": "درج ذیل میں سے کون سی جلد کی حالت خارش والی، سوجن والی جلد کی خصوصیت ہے؟",
+                "tr": "Aşağıdaki cilt rahatsızlıklarından hangisi kaşıntılı, iltihaplı cilt ile karakterizedir?"
+            },
+            "options": [
+                "Akne",
+                "Ekzem",
+                "Psoriasis",
+                "Vitiligo"
+            ],
+            "correctAnswer": "Ekzem",
+            "explanation": {
+                "en": "Eczema is characterized by itchy, inflamed skin. Acne involves pimples, psoriasis involves scaly plaques, and vitiligo involves loss of skin pigment.",
+                "bn": "একজিমা চুলকানি, প্রদাহযুক্ত ত্বক দ্বারা চিহ্নিত করা হয়। ব্রণতে পিম্পল থাকে, সোরিয়াসিসে আঁশযুক্ত ফলক থাকে এবং ভিটিলিগোতে ত্বকের পিগমেন্ট হ্রাস পায়।",
+                "hi": "एक्जिमा खुजली, सूजन वाली त्वचा की विशेषता है। मुंहासों में पिंपल्स होते हैं, सोरायसिस में स्केली पट्टिकाएं होती हैं, और विटिलिगो में त्वचा के रंग का नुकसान होता है।",
+                "ur": "ایگزیما کی خصوصیت خارش والی، سوجن والی جلد ہے۔ مہاسے میں دانے ہوتے ہیں، چنبل میں چھلکے دار تختیاں ہوتی ہیں، اور وٹیلیگو میں جلد کے روغن کا نقصان ہوتا ہے۔",
+                "tr": "Egzama kaşıntılı, iltihaplı cilt ile karakterizedir. Aknede sivilceler, sedef hastalığında pullu plaklar ve vitiligoda cilt pigmenti kaybı vardır."
+            },
+            "points": 10,
+            "id": "e49_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist eine Läsion in der Dermatologie?",
+                "en": "What is a lesion in dermatology?",
+                "bn": "ডার্মাটোলজি-তে একটি ক্ষত কী?",
+                "hi": "त्वचा विज्ञान में घाव क्या है?",
+                "ur": "جلد کے علم میں زخم کیا ہے؟",
+                "tr": "Dermatolojide lezyon nedir?"
+            },
+            "options": [
+                "Eine normale Hautstelle",
+                "Eine veränderte oder beschädigte Hautstelle",
+                "Eine Hautcreme",
+                "Ein Hauttest"
+            ],
+            "correctAnswer": "Eine veränderte oder beschädigte Hautstelle",
+            "explanation": {
+                "en": "A lesion is an area of altered or damaged skin.",
+                "bn": "একটি ক্ষত হল পরিবর্তিত বা ক্ষতিগ্রস্ত ত্বকের একটি স্থান।",
+                "hi": "एक घाव परिवर्तित या क्षतिग्रस्त त्वचा का एक क्षेत्र है।",
+                "ur": "ایک زخم تبدیل شدہ یا خراب شدہ جلد کا ایک علاقہ ہے۔",
+                "tr": "Lezyon, değişmiş veya hasar görmüş bir cilt bölgesidir."
+            },
+            "points": 10,
+            "id": "e49_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Verfahren beinhaltet die Entnahme einer Hautprobe zur Untersuchung?",
+                "en": "Which procedure involves taking a skin sample for examination?",
+                "bn": "কোন পদ্ধতিতে পরীক্ষার জন্য ত্বকের নমুনা নেওয়া হয়?",
+                "hi": "कौन सी प्रक्रिया में जांच के लिए त्वचा का नमूना लेना शामिल है?",
+                "ur": "کون سے طریقہ کار میں جانچ کے لیے جلد کا نمونہ لینا شامل ہے؟",
+                "tr": "Hangi prosedürde inceleme için bir cilt örneği alınır?"
+            },
+            "options": [
+                "Dermabrasion",
+                "Biopsie",
+                "Kryotherapie",
+                "Laserbehandlung"
+            ],
+            "correctAnswer": "Biopsie",
+            "explanation": {
+                "en": "A biopsy involves taking a skin sample for examination under a microscope.",
+                "bn": "একটি বায়োপসিতে মাইক্রোস্কোপের নীচে পরীক্ষার জন্য ত্বকের নমুনা নেওয়া হয়।",
+                "hi": "बायोप्सी में माइक्रोस्कोप के नीचे जांच के लिए त्वचा का नमूना लेना शामिल है।",
+                "ur": "بایپسی میں خوردبین کے نیچے جانچ کے لیے جلد کا نمونہ لینا شامل ہے۔",
+                "tr": "Biyopsi, mikroskop altında inceleme için bir cilt örneği almayı içerir."
+            },
+            "points": 10,
+            "id": "e49_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Ausschlag' auf Englisch?",
+                "en": "What does 'Ausschlag' mean in English?",
+                "bn": "ইংরেজিতে 'Ausschlag' মানে কী?",
+                "hi": "अंग्रेजी में 'Ausschlag' का क्या अर्थ है?",
+                "ur": "انگریزی میں 'Ausschlag' کا کیا مطلب ہے؟",
+                "tr": "'Ausschlag'ın İngilizcesi nedir?"
+            },
+            "options": [
+                "Scar",
+                "Rash",
+                "Wound",
+                "Mole"
+            ],
+            "correctAnswer": "Rash",
+            "explanation": {
+                "en": "'Ausschlag' translates to 'rash' in English.",
+                "bn": "'Ausschlag' এর ইংরেজি অনুবাদ 'rash'।",
+                "hi": "'Ausschlag' का अंग्रेजी अनुवाद 'rash' है।",
+                "ur": "'Ausschlag' کا انگریزی ترجمہ 'rash' ہے۔",
+                "tr": "'Ausschlag'ın İngilizce karşılığı 'rash'tır."
+            },
+            "points": 10,
+            "id": "e49_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden ist eine Entzündung der Haut?",
+                "en": "Which of the following is an inflammation of the skin?",
+                "bn": "নিচের কোনটি ত্বকের প্রদাহ?",
+                "hi": "निम्नलिखित में से कौन सा त्वचा की सूजन है?",
+                "ur": "درج ذیل میں سے کون سا جلد کی سوزش ہے؟",
+                "tr": "Aşağıdakilerden hangisi cilt iltihabıdır?"
+            },
+            "options": [
+                "Alopecia",
+                "Dermatitis",
+                "Melanom",
+                "Urtikaria"
+            ],
+            "correctAnswer": "Dermatitis",
+            "explanation": {
+                "en": "Dermatitis is an inflammation of the skin.",
+                "bn": "ডার্মাটাইটিস হল ত্বকের প্রদাহ।",
+                "hi": "डर्मेटाइटिस त्वचा की सूजन है।",
+                "ur": "ڈرماٹائٹس جلد کی سوزش ہے۔",
+                "tr": "Dermatit, cilt iltihabıdır."
+            },
+            "points": 10,
+            "id": "e49_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Hauptziel der Wundversorgung?",
+                "en": "What is the main goal of wound care?",
+                "bn": "ক্ষত পরিচর্যার প্রধান লক্ষ্য কী?",
+                "hi": "घाव की देखभाल का मुख्य लक्ष्य क्या है?",
+                "ur": "زخم کی دیکھ بھال کا بنیادی مقصد کیا ہے؟",
+                "tr": "Yara bakımının temel amacı nedir?"
+            },
+            "options": [
+                "Schmerzlinderung",
+                "Infektionsprävention",
+                "Narbenbildung fördern",
+                "Hautverfärbung verhindern"
+            ],
+            "correctAnswer": "Infektionsprävention",
+            "explanation": {
+                "en": "The main goal of wound care is to prevent infection and promote healing.",
+                "bn": "ক্ষত পরিচর্যার প্রধান লক্ষ্য হল সংক্রমণ প্রতিরোধ করা এবং নিরাময়কে উৎসাহিত করা।",
+                "hi": "घाव की देखभाल का मुख्य लक्ष्य संक्रमण को रोकना और उपचार को बढ़ावा देना है।",
+                "ur": "زخم کی دیکھ بھال کا بنیادی مقصد انفیکشن کو روکنا اور شفا یابی کو فروغ دینا ہے۔",
+                "tr": "Yara bakımının temel amacı enfeksiyonu önlemek ve iyileşmeyi teşvik etmektir."
+            },
+            "points": 10,
+            "id": "e49_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welcher Begriff beschreibt eine chronisch-entzündliche Hauterkrankung, die oft mit Juckreiz verbunden ist?",
+                "en": "Which term describes a chronic inflammatory skin disease often associated with itching?",
+                "bn": "কোন শব্দটি একটি দীর্ঘস্থায়ী প্রদাহজনক চর্মরোগকে বর্ণনা করে যা প্রায়শই চুলকানির সাথে যুক্ত থাকে?",
+                "hi": "कौन सा शब्द एक पुरानी सूजन वाली त्वचा रोग का वर्णन करता है जो अक्सर खुजली से जुड़ा होता है?",
+                "ur": "کون سی اصطلاح ایک دائمی سوزش والی جلد کی بیماری کو بیان کرتی ہے جو اکثر خارش سے وابستہ ہوتی ہے؟",
+                "tr": "Hangi terim, genellikle kaşıntı ile ilişkili kronik inflamatuar bir cilt hastalığını tanımlar?"
+            },
+            "options": [
+                "Psoriasis",
+                "Ekzem",
+                "Akne",
+                "Rosazea"
+            ],
+            "correctAnswer": "Ekzem",
+            "explanation": {
+                "en": "Eczema is a chronic inflammatory skin disease often associated with itching.",
+                "bn": "একজিমা হল একটি দীর্ঘস্থায়ী প্রদাহজনক চর্মরোগ যা প্রায়শই চুলকানির সাথে যুক্ত থাকে।",
+                "hi": "एक्जिमा एक पुरानी सूजन वाली त्वचा रोग है जो अक्सर खुजली से जुड़ी होती है।",
+                "ur": "ایگزیما ایک دائمی سوزش والی جلد کی بیماری ہے جو اکثر خارش سے وابستہ ہوتی ہے۔",
+                "tr": "Egzama, genellikle kaşıntı ile ilişkili kronik inflamatuar bir cilt hastalığıdır."
+            },
+            "points": 10,
+            "id": "e49_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was versteht man unter dem Begriff 'Haut'?",
+                "en": "What is meant by the term 'Haut'?",
+                "bn": "'Haut' শব্দটির অর্থ কী?",
+                "hi": "'Haut' शब्द का क्या अर्थ है?",
+                "ur": "'Haut' کی اصطلاح سے کیا مراد ہے؟",
+                "tr": "'Haut' terimi ne anlama gelir?"
+            },
+            "options": [
+                "Haar",
+                "Nagel",
+                "Haut",
+                "Muskel"
+            ],
+            "correctAnswer": "Haut",
+            "explanation": {
+                "en": "'Haut' means 'skin' in German.",
+                "bn": "জার্মান ভাষায় 'Haut' মানে 'ত্বক'।",
+                "hi": "जर्मन में 'Haut' का अर्थ है 'त्वचा'।",
+                "ur": "جرمن میں 'Haut' کا مطلب ہے 'جلد'۔",
+                "tr": "Almanca'da 'Haut' 'cilt' anlamına gelir."
+            },
+            "points": 10,
+            "id": "e49_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist Kryotherapie in der Dermatologie?",
+                "en": "What is cryotherapy in dermatology?",
+                "bn": "ডার্মাটোলজিতে ক্রায়োথেরাপি কী?",
+                "hi": "त्वचा विज्ञान में क्रायोथेरेपी क्या है?",
+                "ur": "جلد کے علم میں کرائیو تھراپی کیا ہے؟",
+                "tr": "Dermatolojide kriyoterapi nedir?"
+            },
+            "options": [
+                "Behandlung mit Wärme",
+                "Behandlung mit Kälte",
+                "Behandlung mit UV-Licht",
+                "Behandlung mit Medikamenten"
+            ],
+            "correctAnswer": "Behandlung mit Kälte",
+            "explanation": {
+                "en": "Cryotherapy involves treatment with extreme cold.",
+                "bn": "ক্রায়োথেরাপিতে চরম ঠান্ডা দিয়ে চিকিৎসা করা হয়।",
+                "hi": "क्रायोथेरेपी में अत्यधिक ठंड के साथ उपचार शामिल है।",
+                "ur": "کرائیو تھراپی میں انتہائی سردی کے ساتھ علاج شامل ہے۔",
+                "tr": "Kriyoterapi, aşırı soğukla tedavi içerir."
+            },
+            "points": 10,
+            "id": "e49_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches der folgenden Symptome ist typisch für Ekzem?",
+                "en": "Which of the following symptoms is typical of eczema?",
+                "bn": "নিচের কোন উপসর্গটি একজিমার জন্য সাধারণ?",
+                "hi": "निम्नलिखित में से कौन सा लक्षण एक्जिमा के लिए विशिष्ट है?",
+                "ur": "درج ذیل میں سے کون سی علامت ایگزیما کے لیے عام ہے؟",
+                "tr": "Aşağıdaki belirtilerden hangisi egzama için tipiktir?"
+            },
+            "options": [
+                "Starker Juckreiz",
+                "Haarausfall",
+                "Gelbe Haut",
+                "Schmerzlose Knoten"
+            ],
+            "correctAnswer": "Starker Juckreiz",
+            "explanation": {
+                "en": "Severe itching is a typical symptom of eczema.",
+                "bn": "তীব্র চুলকানি একজিমার একটি সাধারণ উপসর্গ।",
+                "hi": "गंभीर खुजली एक्जिमा का एक सामान्य लक्षण है।",
+                "ur": "شدید خارش ایگزیما کی ایک عام علامت ہے۔",
+                "tr": "Şiddetli kaşıntı egzamanın tipik bir belirtisidir."
+            },
+            "points": 10,
+            "id": "e49_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein ____________ ist eine krankhafte Veränderung der Haut.",
+                "en": "A ____________ is a pathological change in the skin.",
+                "bn": "একটি ____________ হল ত্বকের একটি প্যাথলজিক্যাল পরিবর্তন।",
+                "hi": "एक ____________ त्वचा में एक रोग संबंधी परिवर्तन है।",
+                "ur": "ایک ____________ جلد میں ایک pathological تبدیلی ہے۔",
+                "tr": "Bir ____________ ciltte patolojik bir değişikliktir."
+            },
+            "correctAnswer": "Läsion",
+            "explanation": {
+                "en": "A lesion is a pathological change in the skin.",
+                "bn": "একটি ক্ষত হল ত্বকের একটি প্যাথলজিক্যাল পরিবর্তন।",
+                "hi": "एक घाव त्वचा में एक रोग संबंधी परिवर्तन है।",
+                "ur": "ایک زخم جلد میں ایک pathological تبدیلی ہے۔",
+                "tr": "Bir lezyon ciltte patolojik bir değişikliktir."
+            },
+            "points": 10,
+            "id": "e49_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die ________ dient als Barriere gegen äußere Einflüsse.",
+                "en": "The ________ serves as a barrier against external influences.",
+                "bn": "________ বাহ্যিক প্রভাব থেকে একটি বাধা হিসাবে কাজ করে।",
+                "hi": "________ बाहरी प्रभावों के खिलाफ एक बाधा के रूप में कार्य करता है।",
+                "ur": "________ بیرونی اثرات کے خلاف ایک رکاوٹ کے طور پر کام کرتا ہے۔",
+                "tr": "________ dış etkilere karşı bir bariyer görevi görür."
+            },
+            "correctAnswer": "Haut",
+            "explanation": {
+                "en": "The skin serves as a barrier against external influences.",
+                "bn": "ত্বক বাহ্যিক প্রভাব থেকে একটি বাধা হিসাবে কাজ করে।",
+                "hi": "त्वचा बाहरी प्रभावों के खिलाफ एक बाधा के रूप में कार्य करती है।",
+                "ur": "جلد بیرونی اثرات کے خلاف ایک رکاوٹ کے طور پر کام کرتی ہے۔",
+                "tr": "Cilt dış etkilere karşı bir bariyer görevi görür."
+            },
+            "points": 10,
+            "id": "e49_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bei Verdacht auf Hautkrebs wird oft eine ________ durchgeführt.",
+                "en": "If skin cancer is suspected, a ________ is often performed.",
+                "bn": "যদি ত্বকের ক্যান্সার সন্দেহ হয়, তবে প্রায়শই একটি ________ করা হয়।",
+                "hi": "अगर त्वचा के कैंसर का संदेह है, तो अक्सर एक ________ किया जाता है।",
+                "ur": "اگر جلد کے کینسر کا شبہ ہو تو اکثر ایک ________ کیا جاتا ہے۔",
+                "tr": "Cilt kanseri şüphesi varsa, genellikle bir ________ yapılır."
+            },
+            "correctAnswer": "Biopsie",
+            "explanation": {
+                "en": "If skin cancer is suspected, a biopsy is often performed to examine the tissue.",
+                "bn": "যদি ত্বকের ক্যান্সার সন্দেহ হয়, তবে টিস্যু পরীক্ষা করার জন্য প্রায়শই একটি বায়োপসি করা হয়।",
+                "hi": "अगर त्वचा के कैंसर का संदेह है, तो ऊतक की जांच के लिए अक्सर बायोप्सी की जाती है।",
+                "ur": "اگر جلد کے کینسر کا شبہ ہو تو، بافت کی جانچ کے لیے اکثر بایپسی کی جاتی ہے۔",
+                "tr": "Cilt kanseri şüphesi varsa, dokuyu incelemek için genellikle bir biyopsi yapılır."
+            },
+            "points": 10,
+            "id": "e49_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein juckender ________ kann ein Zeichen für eine allergische Reaktion sein.",
+                "en": "An itchy ________ can be a sign of an allergic reaction.",
+                "bn": "একটি চুলকানি ________ একটি অ্যালার্জি প্রতিক্রিয়ার লক্ষণ হতে পারে।",
+                "hi": "एक खुजलीदार ________ एक एलर्जी प्रतिक्रिया का संकेत हो सकता है।",
+                "ur": "ایک خارش والا ________ ایک الرجک رد عمل کی علامت ہو سکتا ہے۔",
+                "tr": "Kaşıntılı bir ________ alerjik bir reaksiyonun işareti olabilir."
+            },
+            "correctAnswer": "Ausschlag",
+            "explanation": {
+                "en": "An itchy rash can be a sign of an allergic reaction.",
+                "bn": "একটি চুলকানি ফুসকুড়ি একটি অ্যালার্জি প্রতিক্রিয়ার লক্ষণ হতে পারে।",
+                "hi": "एक खुजलीदार दाने एक एलर्जी प्रतिक्रिया का संकेत हो सकता है।",
+                "ur": "ایک خارش والی جلدی ایک الرجک رد عمل کی علامت ہو سکتی ہے۔",
+                "tr": "Kaşıntılı bir döküntü alerjik bir reaksiyonun işareti olabilir."
+            },
+            "points": 10,
+            "id": "e49_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bei der ____________ ist es wichtig, sterile Techniken zu verwenden, um Infektionen zu vermeiden.",
+                "en": "During ____________ it is important to use sterile techniques to avoid infections.",
+                "bn": "____________ এর সময় সংক্রমণ এড়াতে জীবাণুমুক্ত কৌশল ব্যবহার করা গুরুত্বপূর্ণ।",
+                "hi": "____________ के दौरान संक्रमण से बचने के लिए बाँझ तकनीकों का उपयोग करना महत्वपूर्ण है।",
+                "ur": "____________ کے دوران انفیکشن سے بچنے کے لیے جراثیم سے پاک تکنیکوں کا استعمال کرنا ضروری ہے۔",
+                "tr": "____________ sırasında enfeksiyonları önlemek için steril teknikler kullanmak önemlidir."
+            },
+            "correctAnswer": "Wundversorgung",
+            "explanation": {
+                "en": "During wound care, it is important to use sterile techniques to avoid infections.",
+                "bn": "ক্ষত পরিচর্যার সময় সংক্রমণ এড়াতে জীবাণুমুক্ত কৌশল ব্যবহার করা গুরুত্বপূর্ণ।",
+                "hi": "घाव की देखभाल के दौरान संक्रमण से बचने के लिए बाँझ तकनीकों का उपयोग करना महत्वपूर्ण है।",
+                "ur": "زخم کی دیکھ بھال کے دوران انفیکشن سے بچنے کے لیے جراثیم سے پاک تکنیکوں کا استعمال کرنا ضروری ہے۔",
+                "tr": "Yara bakımı sırasında enfeksiyonları önlemek için steril teknikler kullanmak önemlidir."
+            },
+            "points": 10,
+            "id": "e49_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Haut ist das größte Organ des Körpers.",
+                "en": "The skin is the largest organ of the body.",
+                "bn": "ত্বক শরীরের বৃহত্তম অঙ্গ।",
+                "hi": "त्वचा शरीर का सबसे बड़ा अंग है।",
+                "ur": "جلد جسم کا سب سے بڑا عضو ہے۔",
+                "tr": "Cilt vücudun en büyük organıdır."
+            },
+            "correctAnswer": "The skin is the largest organ of the body.",
+            "explanation": {
+                "en": "Correct translation of the sentence.",
+                "bn": "বাক্যটির সঠিক অনুবাদ।",
+                "hi": "वाक्य का सही अनुवाद।",
+                "ur": "جملے کا صحیح ترجمہ۔",
+                "tr": "Cümlenin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e49_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Das Ekzem verursacht starken Juckreiz.",
+                "en": "The eczema causes severe itching.",
+                "bn": "একজিমা তীব্র চুলকানি সৃষ্টি করে।",
+                "hi": "एक्जिमा से तेज खुजली होती है।",
+                "ur": "ایگزیما شدید خارش کا باعث بنتا ہے۔",
+                "tr": "Egzama şiddetli kaşıntıya neden olur."
+            },
+            "correctAnswer": "The eczema causes severe itching.",
+            "explanation": {
+                "en": "Correct translation of the sentence.",
+                "bn": "বাক্যটির সঠিক অনুবাদ।",
+                "hi": "वाक्य का सही अनुवाद।",
+                "ur": "جملے کا صحیح ترجمہ۔",
+                "tr": "Cümlenin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e49_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Biopsie wurde durchgeführt, um die Diagnose zu bestätigen.",
+                "en": "The biopsy was performed to confirm the diagnosis.",
+                "bn": "রোগ নির্ণয় নিশ্চিত করার জন্য বায়োপসি করা হয়েছিল।",
+                "hi": "निदान की पुष्टि के लिए बायोप्सी की गई थी।",
+                "ur": "تشخیص کی تصدیق کے لیے بایپسی کی گئی تھی۔",
+                "tr": "Tanıyı doğrulamak için biyopsi yapıldı."
+            },
+            "correctAnswer": "The biopsy was performed to confirm the diagnosis.",
+            "explanation": {
+                "en": "Correct translation of the sentence.",
+                "bn": "বাক্যটির সঠিক অনুবাদ।",
+                "hi": "वाक्य का सही अनुवाद।",
+                "ur": "جملے کا صحیح ترجمہ۔",
+                "tr": "Cümlenin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e49_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

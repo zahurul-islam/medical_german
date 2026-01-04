@@ -1,1 +1,1568 @@
-{"id":"section_50","phaseId":"phase3","order":50,"titleDe":"Augenheilkunde & HNO","title":{"en":"ENT & Ophthalmology","bn":"ENT & Ophthalmology","hi":"ENT & Ophthalmology","ur":"ENT & Ophthalmology","tr":"ENT & Ophthalmology"},"level":"C1","estimatedMinutes":45,"vocabulary":[{"id":"v50_01","germanTerm":"Fachwort","article":"das","plural":"Fachwörter","translation":{"en":"Specialist Term","bn":"বিশেষজ্ঞ শব্দ","hi":"विशेषज्ञ शब्द","ur":"ماہر اصطلاح","tr":"Uzman terimi"}}],"dialogues":[{"id":"d50_01","title":{"en":"ENT & Ophthalmology Scenario"},"lines":[{"speaker":"Facharzt","germanText":"Clinical dialogue for ENT & Ophthalmology.","translation":{"en":"Clinical dialogue for ENT & Ophthalmology."}}]}],"exercises":[{"id":"e50_01","type":"multipleChoice","question":{"en":"Question about ENT & Ophthalmology?"},"options":["A","B","C"],"correctAnswer":"A","points":15}],"media":{"introVideoUrl":"video/sections/section_50/intro.mp4","dialogueVideoUrl":"video/sections/section_50/dialogue.mp4"}}
+{
+    "id": "section_50",
+    "phaseId": "phase3",
+    "order": 50,
+    "titleDe": "Augenheilkunde & HNO",
+    "title": {
+        "en": "Ophthalmology & ENT: Eye, Ear, Nose, Throat",
+        "de": "Ophthalmologie & HNO: Auge, Ohr, Nase, Hals",
+        "bn": "চক্ষুবিদ্যা এবং ইএনটি: চোখ, কান, নাক, গলা",
+        "hi": "नेत्र विज्ञान और ईएनटी: आँख, कान, नाक, गला",
+        "ur": "طب العيون اور ای این ٹی: آنکھ، کان، ناک، گلا",
+        "tr": "Oftalmoloji & KBB: Göz, Kulak, Burun, Boğaz"
+    },
+    "description": {
+        "en": "This section covers essential Medical German terminology related to ophthalmology and ENT, including common conditions and procedures.",
+        "de": "Dieser Abschnitt behandelt wichtige medizinische Fachbegriffe des Deutschen im Bereich der Augenheilkunde und HNO, einschließlich häufiger Erkrankungen und Verfahren.",
+        "bn": "এই বিভাগে চক্ষুবিদ্যা এবং ইএনটি সম্পর্কিত প্রয়োজনীয় মেডিকেল জার্মান পরিভাষা, সাধারণ অবস্থা এবং পদ্ধতি সহ আলোচনা করা হয়েছে।",
+        "hi": "यह अनुभाग नेत्र विज्ञान और ईएनटी से संबंधित आवश्यक चिकित्सा जर्मन शब्दावली को शामिल करता है, जिसमें सामान्य स्थितियां और प्रक्रियाएं शामिल हैं।",
+        "ur": "یہ حصہ طب العین اور ای این ٹی سے متعلق ضروری طبی جرمن اصطلاحات کا احاطہ کرتا ہے، بشمول عام حالات اور طریقہ کار.",
+        "tr": "Bu bölüm, oftalmoloji ve KBB ile ilgili temel Almanca tıbbi terminolojiyi, yaygın durumları ve prosedürleri kapsar."
+    },
+    "level": "C1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, you will explore the key vocabulary for ophthalmology and ENT in Medical German. You will learn to discuss common ailments and procedures related to the eye, ear, nose, and throat.",
+            "de": "In diesem Abschnitt werden Sie das Schlüsselvokabular für Augenheilkunde und HNO in Medizinischem Deutsch kennenlernen. Sie lernen, häufige Beschwerden und Verfahren im Zusammenhang mit Auge, Ohr, Nase und Hals zu besprechen.",
+            "bn": "এই বিভাগে, আপনি মেডিকেল জার্মান ভাষায় চক্ষুবিদ্যা এবং ইএনটি-এর মূল শব্দভাণ্ডার অন্বেষণ করবেন। আপনি চোখ, কান, নাক এবং গলা সম্পর্কিত সাধারণ অসুস্থতা এবং পদ্ধতি নিয়ে আলোচনা করতে শিখবেন।",
+            "hi": "इस खंड में, आप मेडिकल जर्मन में नेत्र विज्ञान और ईएनटी के लिए महत्वपूर्ण शब्दावली का पता लगाएंगे। आप आंख, कान, नाक और गले से संबंधित सामान्य बीमारियों और प्रक्रियाओं पर चर्चा करना सीखेंगे।",
+            "ur": "اس حصے میں، آپ طبی جرمن میں طب العین اور ای این ٹی کے لیے کلیدی الفاظ کو دریافت کریں گے۔ آپ آنکھ، کان، ناک اور گلے سے متعلق عام بیماریوں اور طریقہ کار پر تبادلہ خیال کرنا سیکھیں گے۔",
+            "tr": "Bu bölümde, Tıbbi Almanca'da oftalmoloji ve KBB için temel kelime dağarcığını keşfedeceksiniz. Göz, kulak, burun ve boğaz ile ilgili yaygın rahatsızlıkları ve prosedürleri tartışmayı öğreneceksiniz."
+        },
+        "grammarFocus": {
+            "en": {
+                "bullet1": "Focus on the declension of nouns related to body parts (e.g., *das Auge*, *des Auges*).",
+                "bullet2": "Practice using prepositions with dative and accusative cases to describe locations and directions in the context of examinations (e.g., *im Ohr*, *zum Auge*)."
+            },
+            "de": {
+                "bullet1": "Fokus auf die Deklination von Substantiven im Zusammenhang mit Körperteilen (z.B. *das Auge*, *des Auges*).",
+                "bullet2": "Üben Sie die Verwendung von Präpositionen mit Dativ und Akkusativ, um Orte und Richtungen im Zusammenhang mit Untersuchungen zu beschreiben (z.B. *im Ohr*, *zum Auge*)."
+            },
+            "bn": {
+                "bullet1": "শরীরের অংশ সম্পর্কিত বিশেষ্যগুলির বচন পরিবর্তনের উপর মনোযোগ দিন (যেমন, *das Auge*, *des Auges*)।",
+                "bullet2": "পরীক্ষার প্রেক্ষাপটে অবস্থান এবং দিকনির্দেশনা বর্ণনা করতে dative এবং accusative case সহ preposition ব্যবহারের অনুশীলন করুন (যেমন, *im Ohr*, *zum Auge*)।"
+            },
+            "hi": {
+                "bullet1": "शरीर के अंगों से संबंधित संज्ञाओं के विभक्ति पर ध्यान दें (जैसे, *das Auge*, *des Auges*)।",
+                "bullet2": "परीक्षाओं के संदर्भ में स्थानों और दिशाओं का वर्णन करने के लिए डेटिव और अक्यूसेटिव मामलों के साथ पूर्वसर्गों का उपयोग करने का अभ्यास करें (जैसे, *im Ohr*, *zum Auge*)।"
+            },
+            "ur": {
+                "bullet1": "جسمانی حصوں سے متعلق اسم کی گردان پر توجہ مرکوز کریں (مثال کے طور پر، *das Auge*, *des Auges*).",
+                "bullet2": "امتحانات کے تناظر میں مقامات اور سمتوں کی وضاحت کرنے کے لیے ڈیٹِو اور اکیوزیو کیسز کے ساتھ حرفِ جار کے استعمال کی مشق کریں (مثال کے طور پر، *im Ohr*, *zum Auge*)."
+            },
+            "tr": {
+                "bullet1": "Vücut parçalarıyla ilgili isimlerin çekimine odaklanın (örneğin, *das Auge*, *des Auges*).",
+                "bullet2": "Muayeneler bağlamında konumları ve yönleri tanımlamak için dativ ve akuzatif halleriyle edatları kullanmayı alıştırma yapın (örneğin, *im Ohr*, *zum Auge*)."
+            }
+        },
+        "culturalNotes": {
+            "en": "In German hospitals, direct communication and detailed explanations about medical procedures are standard practice, promoting patient understanding and cooperation.",
+            "de": "In deutschen Krankenhäusern sind direkte Kommunikation und detaillierte Erklärungen zu medizinischen Eingriffen Standard, um das Verständnis und die Kooperation der Patienten zu fördern.",
+            "bn": "জার্মান হাসপাতালগুলিতে, রোগীর বোঝাপড়া এবং সহযোগিতা প্রচারের জন্য চিকিৎসা পদ্ধতি সম্পর্কে সরাসরি যোগাযোগ এবং বিস্তারিত ব্যাখ্যা একটি স্বাভাবিক অভ্যাস।",
+            "hi": "जर्मन अस्पतालों में, रोगी की समझ और सहयोग को बढ़ावा देने के लिए चिकित्सा प्रक्रियाओं के बारे में सीधा संचार और विस्तृत स्पष्टीकरण एक मानक अभ्यास है।",
+            "ur": "جرمن ہسپتالوں میں، مریض کی سمجھ اور تعاون کو فروغ دینے کے لیے طبی طریقہ کار کے بارے میں براہ راست رابطہ اور تفصیلی وضاحت ایک معیاری عمل ہے۔",
+            "tr": "Alman hastanelerinde, hasta anlayışını ve işbirliğini teşvik etmek için tıbbi prosedürler hakkında doğrudan iletişim ve ayrıntılı açıklamalar standart uygulamadır."
+        },
+        "summary": {
+            "en": "This section provides a solid foundation in Medical German vocabulary and grammar for understanding and discussing ophthalmology and ENT-related topics.",
+            "de": "Dieser Abschnitt bietet eine solide Grundlage in medizinisch-deutschem Vokabular und Grammatik zum Verständnis und zur Diskussion von Themen im Bereich Augenheilkunde und HNO.",
+            "bn": "এই বিভাগটি চক্ষুবিদ্যা এবং ইএনটি সম্পর্কিত বিষয়গুলি বোঝা এবং আলোচনা করার জন্য মেডিকেল জার্মান শব্দভাণ্ডার এবং ব্যাকরণে একটি দৃঢ় ভিত্তি সরবরাহ করে।",
+            "hi": "यह खंड नेत्र विज्ञान और ईएनटी से संबंधित विषयों को समझने और उन पर चर्चा करने के लिए चिकित्सा जर्मन शब्दावली और व्याकरण में एक ठोस आधार प्रदान करता है।",
+            "ur": "یہ حصہ طب العین اور ای این ٹی سے متعلق موضوعات کو سمجھنے اور ان پر تبادلہ خیال کرنے کے لیے طبی جرمن الفاظ اور گرامر میں ایک ٹھوس بنیاد فراہم کرتا ہے۔",
+            "tr": "Bu bölüm, oftalmoloji ve KBB ile ilgili konuları anlamak ve tartışmak için tıbbi Almanca kelime bilgisi ve dilbilgisinde sağlam bir temel sağlar."
+        },
+        "learningObjectives": [
+            "Learn essential Medical German vocabulary related to the eye, ear, nose, and throat.",
+            "Understand common medical conditions and procedures in ophthalmology and ENT.",
+            "Practice using correct grammatical structures to describe symptoms and treatments.",
+            "Develop cultural awareness of communication practices in German medical settings related to these specialties."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "das Auge",
+            "article": "das",
+            "plural": "die Augen",
+            "pronunciation": "/ˈaʊ̯ɡə/",
+            "category": "noun",
+            "translation": {
+                "en": "eye",
+                "bn": "চোখ (chokh)",
+                "hi": "आँख (aankh)",
+                "ur": "آنکھ (aankh)",
+                "tr": "göz"
+            },
+            "exampleSentence": "Der Patient klagt über Schmerzen im linken Auge.",
+            "exampleTranslation": {
+                "en": "The patient complains of pain in the left eye.",
+                "bn": "রোগী বাম চোখে ব্যথার অভিযোগ করছে। (rogi bam chokhe byathar obhijog korche)",
+                "hi": "रोगी बाईं आँख में दर्द की शिकायत कर रहा है। (rogi baeen aankh mein dard kee shikaayat kar raha hai)",
+                "ur": "مریض بائیں آنکھ میں درد کی شکایت کر رہا ہے۔ (mareez baeen aankh mein dard ki shikayat kar raha hai)",
+                "tr": "Hasta sol gözünde ağrıdan şikayet ediyor."
+            },
+            "id": "v50_01"
+        },
+        {
+            "germanTerm": "das Ohr",
+            "article": "das",
+            "plural": "die Ohren",
+            "pronunciation": "/oːɐ̯/",
+            "category": "noun",
+            "translation": {
+                "en": "ear",
+                "bn": "কান (kaan)",
+                "hi": "कान (kaan)",
+                "ur": "کان (kaan)",
+                "tr": "kulak"
+            },
+            "exampleSentence": "Er hat eine Entzündung im rechten Ohr.",
+            "exampleTranslation": {
+                "en": "He has an inflammation in the right ear.",
+                "bn": "তার ডান কানে প্রদাহ হয়েছে। (tar daan kane prodaho hoyeche)",
+                "hi": "उसे दाहिने कान में सूजन है। (use daahine kaan mein soojan hai)",
+                "ur": "اس کے دائیں کان میں سوزش ہے۔ (us ke daayen kaan mein soojish hai)",
+                "tr": "Sağ kulağında iltihap var."
+            },
+            "id": "v50_02"
+        },
+        {
+            "germanTerm": "die Nase",
+            "article": "die",
+            "plural": "die Nasen",
+            "pronunciation": "/ˈnaːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "nose",
+                "bn": "নাক (nak)",
+                "hi": "नाक (naak)",
+                "ur": "ناک (naak)",
+                "tr": "burun"
+            },
+            "exampleSentence": "Die Patientin hat Nasenbluten.",
+            "exampleTranslation": {
+                "en": "The patient has a nosebleed.",
+                "bn": "রোগীর নাক দিয়ে রক্ত ​​পড়ছে। (rogir nak diye rokto porche)",
+                "hi": "मरीज को नाक से खून बह रहा है। (mareej ko naak se khoon bah raha hai)",
+                "ur": "مریض کی ناک سے خون بہہ رہا ہے۔ (mareez kee naak se khoon bah raha hai)",
+                "tr": "Hastanın burnu kanıyor."
+            },
+            "id": "v50_03"
+        },
+        {
+            "germanTerm": "der Hals",
+            "article": "der",
+            "plural": "die Hälse",
+            "pronunciation": "/hals/",
+            "category": "noun",
+            "translation": {
+                "en": "throat",
+                "bn": "গলা (gola)",
+                "hi": "गला (gala)",
+                "ur": "گلا (gala)",
+                "tr": "boğaz"
+            },
+            "exampleSentence": "Der Patient hat starke Halsschmerzen.",
+            "exampleTranslation": {
+                "en": "The patient has severe throat pain.",
+                "bn": "রোগীর খুব গলা ব্যথা। (rogir khub gola byatha)",
+                "hi": "रोगी को गले में बहुत दर्द है। (rogi ko gale mein bahut dard hai)",
+                "ur": "مریض کو گلے میں بہت درد ہے۔ (mareez ko gale mein bahut dard hai)",
+                "tr": "Hastanın şiddetli boğaz ağrısı var."
+            },
+            "id": "v50_04"
+        },
+        {
+            "germanTerm": "der Sehtest",
+            "article": "der",
+            "plural": "die Sehtests",
+            "pronunciation": "/ˈzeːˌtɛst/",
+            "category": "noun",
+            "translation": {
+                "en": "vision test",
+                "bn": "দৃষ্টি পরীক্ষা (drishti porikkha)",
+                "hi": "दृष्टि परीक्षण (drishti pareekshan)",
+                "ur": "بصارت کا امتحان (basarat ka imtihan)",
+                "tr": "görme testi"
+            },
+            "exampleSentence": "Wir führen einen Sehtest durch, um Ihre Sehschärfe zu überprüfen.",
+            "exampleTranslation": {
+                "en": "We are conducting a vision test to check your visual acuity.",
+                "bn": "আপনার দৃষ্টিশক্তি পরীক্ষা করার জন্য আমরা একটি দৃষ্টি পরীক্ষা করছি। (apnar drishtishokti porikkha korar jonno amra ekta drishti porikkha korchi)",
+                "hi": "हम आपकी दृष्टि तीक्ष्णता की जांच करने के लिए एक दृष्टि परीक्षण कर रहे हैं। (ham aapakee drshti teekshnata kee jaanch karane ke lie ek drshti pareekshan kar rahe hain)",
+                "ur": "ہم آپ کی بصری تیزی کی جانچ کرنے کے لیے بصارت کا امتحان کر رہے ہیں۔ (ham aap kee basaree tezee kee jaanch karane ke lie basarat ka imtihan kar rahe hain)",
+                "tr": "Görüş keskinliğinizi kontrol etmek için bir görme testi yapıyoruz."
+            },
+            "id": "v50_05"
+        },
+        {
+            "germanTerm": "der Hörtest",
+            "article": "der",
+            "plural": "die Hörtests",
+            "pronunciation": "/ˈhøːɐ̯ˌtɛst/",
+            "category": "noun",
+            "translation": {
+                "en": "hearing test",
+                "bn": "শ্রবণ পরীক্ষা (shrobon porikkha)",
+                "hi": "श्रवण परीक्षण (shravan pareekshan)",
+                "ur": "سماعت کا امتحان (samaat ka imtihan)",
+                "tr": "işitme testi"
+            },
+            "exampleSentence": "Der Hörtest zeigt einen leichten Hörverlust.",
+            "exampleTranslation": {
+                "en": "The hearing test shows a slight hearing loss.",
+                "bn": "শ্রবণ পরীক্ষায় সামান্য শ্রবণশক্তি হ্রাসের লক্ষণ দেখা যাচ্ছে। (shrobon porikkay samanio shrobonshokti hraser lokkhon dekha jachche)",
+                "hi": "श्रवण परीक्षण में थोड़ा श्रवण हानि दिखाई दे रहा है। (shravan pareekshan mein thoda shravan haani dikhaee de raha hai)",
+                "ur": "سماعت کے امتحان میں ہلکی سی سماعت کا نقصان دکھائی دے رہا ہے۔ (samaat ke imtihan mein halke see samaat ka nuqsaan dikhaee de raha hai)",
+                "tr": "İşitme testi hafif bir işitme kaybı gösteriyor."
+            },
+            "id": "v50_06"
+        },
+        {
+            "germanTerm": "die Tonsillektomie",
+            "article": "die",
+            "plural": "die Tonsillektomien",
+            "pronunciation": "/tɔnzɪlɛktoˈmiː/",
+            "category": "noun",
+            "translation": {
+                "en": "tonsillectomy",
+                "bn": "টনসিল অপসারণ (tonsil opošaran)",
+                "hi": "टॉन्सिल्लेक्टॉमी (tonsillektomee)",
+                "ur": "ٹانسلیکٹومی (taansilektomee)",
+                "tr": "bademcik ameliyatı"
+            },
+            "exampleSentence": "Nach der Tonsillektomie muss der Patient sich schonen.",
+            "exampleTranslation": {
+                "en": "After the tonsillectomy, the patient needs to rest.",
+                "bn": "টনসিল অপসারণের পরে রোগীকে বিশ্রাম নিতে হবে। (tonsil opošaraner pore rogi ke bishram nite hobe)",
+                "hi": "टॉन्सिल्लेक्टॉमी के बाद, रोगी को आराम करने की आवश्यकता है। (tonsillektomee ke baad, rogi ko aaraam karane kee aavashyakata hai)",
+                "ur": "ٹانسلیکٹومی کے بعد، مریض کو آرام کرنے کی ضرورت ہے۔ (taansilektomee ke baad, mareez ko aaraam karane kee zaroorat hai)",
+                "tr": "Bademcik ameliyatından sonra hastanın dinlenmesi gerekiyor."
+            },
+            "id": "v50_07"
+        },
+        {
+            "germanTerm": "die Kataraktoperation",
+            "article": "die",
+            "plural": "die Kataraktoperationen",
+            "pronunciation": "/kataˈʁaktʔɔpəʁaˌt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "cataract surgery",
+                "bn": "ছানি অপারেশন (chhani operation)",
+                "hi": "मोतियाबिंद का ऑपरेशन (motiyaabind ka opareshan)",
+                "ur": "موتیابند کا آپریشن (motiyaaband ka opreshan)",
+                "tr": "katarakt ameliyatı"
+            },
+            "exampleSentence": "Die Kataraktoperation verlief ohne Komplikationen.",
+            "exampleTranslation": {
+                "en": "The cataract surgery was performed without complications.",
+                "bn": "ছানি অপারেশন কোনো জটিলতা ছাড়াই সম্পন্ন হয়েছে। (chhani operation kono jotilota charai somponno hoyeche)",
+                "hi": "मोतियाबिंद का ऑपरेशन बिना किसी जटिलता के किया गया। (motiyaabind ka opareshan bina kisee jatilata ke kiya gaya)",
+                "ur": "موتیابند کا آپریشن بغیر کسی پیچیدگی کے کیا گیا۔ (motiyaaband ka opreshan baghair kisee pecheedagee ke kiya gaya)",
+                "tr": "Katarakt ameliyatı komplikasyonsuz gerçekleşti."
+            },
+            "id": "v50_08"
+        },
+        {
+            "germanTerm": "die Bindehaut",
+            "article": "die",
+            "plural": "die Bindehäute",
+            "pronunciation": "/ˈbɪndəˌhaʊ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "conjunctiva",
+                "bn": "কনজাংটিভা (konjangtiva)",
+                "hi": "कंजंक्टिवा (kanjanktiva)",
+                "ur": "ملتحمہ (multahimah)",
+                "tr": "konjonktiva"
+            },
+            "exampleSentence": "Die Bindehaut ist gerötet und entzündet.",
+            "exampleTranslation": {
+                "en": "The conjunctiva is red and inflamed.",
+                "bn": "কনজাংটিভা লাল এবং প্রদাহযুক্ত। (konjangtiva lal ebong prodahojukto)",
+                "hi": "कंजंक्टिवा लाल और सूजन है। (kanjanktiva laal aur soojan hai)",
+                "ur": "ملتحمہ سرخ اور سوجن ہے۔ (multahimah surkh aur soojan hai)",
+                "tr": "Konjonktiva kızarık ve iltihaplı."
+            },
+            "id": "v50_09"
+        },
+        {
+            "germanTerm": "der Augendruck",
+            "article": "der",
+            "plural": "die Augendrücke",
+            "pronunciation": "/ˈaʊ̯ɡənˌdʁʊk/",
+            "category": "noun",
+            "translation": {
+                "en": "intraocular pressure",
+                "bn": "আন্তঃচক্ষুচাপ (antoh-chokkhuchap)",
+                "hi": "इंट्राओकुलर प्रेशर (intraokular preshar)",
+                "ur": "انٹراوکولر پریشر (intraokular preshar)",
+                "tr": "göz içi basıncı"
+            },
+            "exampleSentence": "Der Augendruck ist erhöht, was auf ein Glaukom hindeuten könnte.",
+            "exampleTranslation": {
+                "en": "The intraocular pressure is elevated, which could indicate glaucoma.",
+                "bn": "আন্তঃচক্ষুচাপ বেড়ে গেছে, যা গ্লুকোমার দিকে নির্দেশ করতে পারে। (antoh-chokkhuchap bere geche, ja glaucoma-r dike nirdesh korte pare)",
+                "hi": "इंट्राओकुलर प्रेशर बढ़ गया है, जो ग्लूकोमा का संकेत दे सकता है। (intraokular preshar badh gaya hai, jo glaucoma ka sanket de sakata hai)",
+                "ur": "انٹراوکولر پریشر بڑھ گیا ہے، جو گلوکوما کی نشاندہی کر سکتا ہے۔ (intraokular preshar badh gaya hai, jo glaucoma kee nishaandahi kar sakata hai)",
+                "tr": "Göz içi basıncı yüksek, bu da glokomu gösterebilir."
+            },
+            "id": "v50_10"
+        },
+        {
+            "germanTerm": "das Trommelfell",
+            "article": "das",
+            "plural": "die Trommelfelle",
+            "pronunciation": "/ˈtʁɔməlˌfɛl/",
+            "category": "noun",
+            "translation": {
+                "en": "eardrum",
+                "bn": "কানের পর্দা (kaner porda)",
+                "hi": "कान का पर्दा (kaan ka parda)",
+                "ur": "کان کا پردہ (kaan ka parda)",
+                "tr": "kulak zarı"
+            },
+            "exampleSentence": "Das Trommelfell ist perforiert.",
+            "exampleTranslation": {
+                "en": "The eardrum is perforated.",
+                "bn": "কানের পর্দা ছিদ্রযুক্ত। (kaner porda chiddrojukto)",
+                "hi": "कान का पर्दा छिद्रित है। (kaan ka parda chidrit hai)",
+                "ur": "کان کا پردہ چھیدا ہوا ہے۔ (kaan ka parda chheda hua hai)",
+                "tr": "Kulak zarı delinmiş."
+            },
+            "id": "v50_11"
+        },
+        {
+            "germanTerm": "die Nasennebenhöhle",
+            "article": "die",
+            "plural": "die Nasennebenhöhlen",
+            "pronunciation": "/ˈnaːzn̩ˌneːbn̩ˌhøːlə/",
+            "category": "noun",
+            "translation": {
+                "en": "paranasal sinus",
+                "bn": "প্যারানাসাল সাইনাস (pyaranasal sainas)",
+                "hi": "परानासल साइनस (paraanaasal saainas)",
+                "ur": "پاراناسل سائنس (paaraanaasal saainas)",
+                "tr": "paranazal sinüs"
+            },
+            "exampleSentence": "Die Nasennebenhöhlen sind entzündet.",
+            "exampleTranslation": {
+                "en": "The paranasal sinuses are inflamed.",
+                "bn": "প্যারানাসাল সাইনাসগুলো প্রদাহযুক্ত। (pyaranasal sainasgulo prodahojukto)",
+                "hi": "परानासल साइनस में सूजन है। (paraanaasal saainas mein soojan hai)",
+                "ur": "پاراناسل سائنس میں سوزش ہے۔ (paaraanaasal saainas mein soojish hai)",
+                "tr": "Paranazal sinüsler iltihaplı."
+            },
+            "id": "v50_12"
+        },
+        {
+            "germanTerm": "die Stimmbänder",
+            "article": "die",
+            "plural": "die Stimmbänder",
+            "pronunciation": "/ˈʃtɪmˌbɛndɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "vocal cords",
+                "bn": "স্বরনালী (shoronaalee)",
+                "hi": "स्वर रज्जु (svar rajju)",
+                "ur": "صوتی ڈوریں (soti dorein)",
+                "tr": "ses telleri"
+            },
+            "exampleSentence": "Die Stimmbänder sind durch Überlastung gereizt.",
+            "exampleTranslation": {
+                "en": "The vocal cords are irritated due to overuse.",
+                "bn": "অতিরিক্ত ব্যবহারের কারণে স্বরনালীগুলো তে উত্তেজনা সৃষ্টি হয়েছে। (atirikto byaboharer karone shoronaaligulo te uttejana srishti hoyeche)",
+                "hi": "अत्यधिक उपयोग के कारण स्वर रज्जु उत्तेजित हैं। (atyadhik upayog ke kaaran svar rajju uttejit hain)",
+                "ur": "زیادہ استعمال کی وجہ سے صوتی ڈوریں خارش زدہ ہیں۔ (ziyaada istemaal kee vajah se soti dorein khaarish zadah hain)",
+                "tr": "Ses telleri aşırı kullanımdan dolayı tahriş olmuş."
+            },
+            "id": "v50_13"
+        },
+        {
+            "germanTerm": "verschwommen sehen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/fɛɐ̯ˈʃvɔmən ˈzeːən/",
+            "category": "phrase",
+            "translation": {
+                "en": "to see blurry",
+                "bn": "অস্পষ্ট দেখা (oposhṭo dekha)",
+                "hi": "धुंधला दिखना (dhundhala dikhana)",
+                "ur": "دھندلا دیکھنا (dhundhala dekhna)",
+                "tr": "bulanık görmek"
+            },
+            "exampleSentence": "Der Patient klagt, dass er verschwommen sieht.",
+            "exampleTranslation": {
+                "en": "The patient complains that he sees blurry.",
+                "bn": "রোগী অভিযোগ করছে যে সে অস্পষ্ট দেখে। (rogi obhijog korche je se oposhṭo dekhe)",
+                "hi": "रोगी शिकायत कर रहा है कि उसे धुंधला दिखाई देता है। (rogi shikaayat kar raha hai ki use dhundhala dikhaee deta hai)",
+                "ur": "مریض شکایت کر رہا ہے کہ اسے دھندلا دکھائی دیتا ہے۔ (mareez shikaayat kar raha hai ki use dhundhala dikhaee deta hai)",
+                "tr": "Hasta bulanık gördüğünden şikayet ediyor."
+            },
+            "id": "v50_14"
+        },
+        {
+            "germanTerm": "das Gleichgewicht",
+            "article": "das",
+            "plural": "die Gleichgewichte",
+            "pronunciation": "/ˈɡlaɪ̯çɡəˌvɪçt/",
+            "category": "noun",
+            "translation": {
+                "en": "balance",
+                "bn": "ভারসাম্য (bharsamyo)",
+                "hi": "संतुलन (santulan)",
+                "ur": "توازن (tavaazun)",
+                "tr": "denge"
+            },
+            "exampleSentence": "Er hat Probleme mit dem Gleichgewicht.",
+            "exampleTranslation": {
+                "en": "He has problems with balance.",
+                "bn": "তার ভারসাম্য নিয়ে সমস্যা আছে। (tar bharsamyo niye somossa ache)",
+                "hi": "उसे संतुलन में समस्या है। (use santulan mein samasya hai)",
+                "ur": "اسے توازن میں مسئلہ ہے۔ (ise tavaazun mein maslah hai)",
+                "tr": "Denge sorunları var."
+            },
+            "id": "v50_15"
+        },
+        {
+            "germanTerm": "die Schwindeligkeit",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/ˈʃvɪndəlɪçkaɪ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "dizziness",
+                "bn": "মাথা ঘোরা (matha ghora)",
+                "hi": "चक्कर आना (chakkar aana)",
+                "ur": "چکر آنا (chakkar aana)",
+                "tr": "baş dönmesi"
+            },
+            "exampleSentence": "Die Schwindeligkeit tritt vor allem beim Aufstehen auf.",
+            "exampleTranslation": {
+                "en": "The dizziness occurs mainly when getting up.",
+                "bn": "মাথা ঘোরা বিশেষত ওঠার সময় দেখা যায়। (matha ghora bishesoto othar shomoy dekha jay)",
+                "hi": "चक्कर आना मुख्य रूप से उठने पर होता है। (chakkar aana mukhy roop se uthane par hota hai)",
+                "ur": "چکر آنا بنیادی طور پر اٹھنے پر ہوتا ہے۔ (chakkar aana buniyaadee taur par uthane par hota hai)",
+                "tr": "Baş dönmesi özellikle ayağa kalkarken ortaya çıkıyor."
+            },
+            "id": "v50_16"
+        },
+        {
+            "germanTerm": "der Tinnitus",
+            "article": "der",
+            "plural": "die Tinnitusse",
+            "pronunciation": "/tɪˈniːtʊs/",
+            "category": "noun",
+            "translation": {
+                "en": "tinnitus",
+                "bn": "টিনিটাস (tinitas)",
+                "hi": "टिनिटस (tinitas)",
+                "ur": "ٹنائٹس (tinaits)",
+                "tr": "kulak çınlaması"
+            },
+            "exampleSentence": "Der Patient leidet unter chronischem Tinnitus.",
+            "exampleTranslation": {
+                "en": "The patient suffers from chronic tinnitus.",
+                "bn": "রোগী দীর্ঘস্থায়ী টিনিটাসে ভুগছেন। (rogi dirghoshthayee tinitase bhugchen)",
+                "hi": "रोगी क्रोनिक टिनिटस से पीड़ित है। (rogi kronik tinitas se peedit hai)",
+                "ur": "مریض دائمی ٹنائٹس میں مبتلا ہے۔ (mareez daayamee tinaits mein mubtala hai)",
+                "tr": "Hasta kronik kulak çınlamasından muzdarip."
+            },
+            "id": "v50_17"
+        },
+        {
+            "germanTerm": "die Mandelentzündung",
+            "article": "die",
+            "plural": "die Mandelentzündungen",
+            "pronunciation": "/ˈmandl̩ʔɛntˌsʏndʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "tonsillitis",
+                "bn": "টনসিলাইটিস (tonsilaaitis)",
+                "hi": "टॉन्सिलाइटिस (tonsilaitis)",
+                "ur": "ٹونسلائٹس (tonsilaitis)",
+                "tr": "tonsillit"
+            },
+            "exampleSentence": "Die Patientin hat eine akute Mandelentzündung.",
+            "exampleTranslation": {
+                "en": "The patient has acute tonsillitis.",
+                "bn": "রোগীর তীব্র টনসিলাইটিস আছে। (rogir tibro tonsilaaitis ache)",
+                "hi": "मरीज को तीव्र टॉन्सिलाइटिस है। (mareej ko teevr tonsilaitis hai)",
+                "ur": "مریض کو شدید ٹونسلائٹس ہے۔ (mareez ko shadeed tonsilaitis hai)",
+                "tr": "Hastanın akut tonsilliti var."
+            },
+            "id": "v50_18"
+        },
+        {
+            "germanTerm": "die Heiserkeit",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/ˈhaɪ̯zɐkaɪ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "hoarseness",
+                "bn": "স্বরভঙ্গ (shorobhongo)",
+                "hi": "भारीपन (bhaaripan)",
+                "ur": "بھاری پن (bhari pan)",
+                "tr": "ses kısıklığı"
+            },
+            "exampleSentence": "Die Heiserkeit hält schon seit einer Woche an.",
+            "exampleTranslation": {
+                "en": "The hoarseness has been going on for a week.",
+                "bn": "স্বরভঙ্গ এক সপ্তাহ ধরে চলছে। (shorobhongo ek shoptaah dhore cholche)",
+                "hi": "भारीपन एक सप्ताह से चल रहा है। (bhaaripan ek saptaah se chal raha hai)",
+                "ur": "بھاری پن ایک ہفتے سے جاری ہے۔ (bhari pan ek hafte se jaaree hai)",
+                "tr": "Ses kısıklığı bir haftadır devam ediyor."
+            },
+            "id": "v50_19"
+        },
+        {
+            "germanTerm": "die Augentropfen",
+            "article": "die",
+            "plural": "die Augentropfen",
+            "pronunciation": "/ˈaʊ̯ɡənˌtʁɔp͡fən/",
+            "category": "noun",
+            "translation": {
+                "en": "eye drops",
+                "bn": "চোখের ড্রপ (chokher drop)",
+                "hi": "आँखों की बूंदें (aankhon kee boonden)",
+                "ur": "آنکھوں کے قطرے (aankhon ke qatre)",
+                "tr": "göz damlası"
+            },
+            "exampleSentence": "Sie müssen die Augentropfen dreimal täglich anwenden.",
+            "exampleTranslation": {
+                "en": "You have to use the eye drops three times a day.",
+                "bn": "আপনাকে দিনে তিনবার চোখের ড্রপ ব্যবহার করতে হবে। (apnake dine tinbar chokher drop byabohar korte hobe)",
+                "hi": "आपको दिन में तीन बार आंखों की बूंदें इस्तेमाल करनी होंगी। (aapako din mein teen baar aankhon kee boonden istemaal karanee hongee)",
+                "ur": "آپ کو دن میں تین بار آنکھوں کے قطرے استعمال کرنے ہوں گے۔ (aap ko din mein teen baar aankhon ke qatre istemaal karane honge)",
+                "tr": "Göz damlasını günde üç kez kullanmanız gerekiyor."
+            },
+            "id": "v50_20"
+        },
+        {
+            "germanTerm": "die Nasenspülung",
+            "article": "die",
+            "plural": "die Nasenspülungen",
+            "pronunciation": "/ˈnaːzn̩ˌʃpyːlʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "nasal rinse",
+                "bn": "নাকের জলীয় দ্রবণ দিয়ে ধোয়া (naker jolio drobōn diye dhoya)",
+                "hi": "नाक का पानी से धोना (naak ka paanee se dhona)",
+                "ur": "ناک کا پانی سے دھونا (naak ka paanee se dhona)",
+                "tr": "burun yıkama"
+            },
+            "exampleSentence": "Eine Nasenspülung kann bei einer Erkältung helfen.",
+            "exampleTranslation": {
+                "en": "A nasal rinse can help with a cold.",
+                "bn": "সর্দির সময় নাকের জলীয় দ্রবণ দিয়ে ধোয়া সাহায্য করতে পারে। (sordir shomoy naker jolio drobōn diye dhoya sahajjo korte pare)",
+                "hi": "सर्दी में नाक का पानी से धोना मदद कर सकता है। (sardee mein naak ka paanee se dhona madad kar sakata hai)",
+                "ur": "زکام میں ناک کا پانی سے دھونا مدد کر سکتا ہے۔ (zukaam mein naak ka paanee se dhona madad kar sakata hai)",
+                "tr": "Burun yıkama soğuk algınlığına yardımcı olabilir."
+            },
+            "id": "v50_21"
+        },
+        {
+            "germanTerm": "die Optometrie",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/ɔptoˌmetʁiˈ/",
+            "category": "noun",
+            "translation": {
+                "en": "optometry",
+                "bn": "দৃষ্টিমিতি (drishtimeeti)",
+                "hi": "ऑप्टोमेट्री (optometree)",
+                "ur": "آپٹومیٹری (aaptometree)",
+                "tr": "optometri"
+            },
+            "exampleSentence": "Die Optometrie ist ein wichtiger Teil der Augenheilkunde.",
+            "exampleTranslation": {
+                "en": "Optometry is an important part of ophthalmology.",
+                "bn": "দৃষ্টিমিতি চক্ষুরোগবিদ্যার একটি গুরুত্বপূর্ণ অংশ। (drishtimeeti chokkhurogbidyar ekti guruttopurno onsho)",
+                "hi": "ऑप्टोमेट्री नेत्र विज्ञान का एक महत्वपूर्ण हिस्सा है। (optometree netr vigyaan ka ek mahatvapoorn hissa hai)",
+                "ur": "آپٹومیٹری امراض چشم کا ایک اہم حصہ ہے۔ (aaptometree amraaz chashm ka ek aham hissa hai)",
+                "tr": "Optometri, oftalmolojinin önemli bir parçasıdır."
+            },
+            "id": "v50_22"
+        },
+        {
+            "germanTerm": "der HNO-Arzt",
+            "article": "der",
+            "plural": "die HNO-Ärzte",
+            "pronunciation": "/haː ʔɛn ˈoː ˈʔaʁt͡st/",
+            "category": "noun",
+            "translation": {
+                "en": "ENT doctor",
+                "bn": "নাক কান গলা ডাক্তার (nak kan gola daktar)",
+                "hi": "ईएनटी डॉक्टर (eeenatee doktar)",
+                "ur": "ای این ٹی ڈاکٹر (e e en tee daaktar)",
+                "tr": "KBB uzmanı"
+            },
+            "exampleSentence": "Sie sollten einen HNO-Arzt aufsuchen.",
+            "exampleTranslation": {
+                "en": "You should see an ENT doctor.",
+                "bn": "আপনার একজন নাক কান গলা ডাক্তারের সাথে দেখা করা উচিত। (apnar ekjon nak kan gola daktarer shathe dekha kora uchit)",
+                "hi": "आपको एक ईएनटी डॉक्टर से मिलना चाहिए। (aapako ek eeenatee doktar se milana chaahie)",
+                "ur": "آپ کو ایک ای این ٹی ڈاکٹر سے ملنا چاہیے۔ (aap ko ek e e en tee daaktar se milana chaahie)",
+                "tr": "Bir KBB uzmanına görünmelisiniz."
+            },
+            "id": "v50_23"
+        },
+        {
+            "germanTerm": "die Pupille",
+            "article": "die",
+            "plural": "die Pupillen",
+            "pronunciation": "/puˈpɪlə/",
+            "category": "noun",
+            "translation": {
+                "en": "pupil",
+                "bn": "তারা রন্ধ্র (tara rondhro)",
+                "hi": "पुतली (putalee)",
+                "ur": "پتلی (putalee)",
+                "tr": "göz bebeği"
+            },
+            "exampleSentence": "Die Pupille reagiert nicht auf Licht.",
+            "exampleTranslation": {
+                "en": "The pupil does not react to light.",
+                "bn": "তারা রন্ধ্র আলোতে প্রতিক্রিয়া করে না। (tara rondhro alote protikriya kore na)",
+                "hi": "पुतली प्रकाश पर प्रतिक्रिया नहीं करती है। (putalee prakaash par pratikriya nahin karatee hai)",
+                "ur": "پتلی روشنی پر ردعمل نہیں کرتی ہے۔ (putalee roshanee par radde amal nahin karatee hai)",
+                "tr": "Göz bebeği ışığa tepki vermiyor."
+            },
+            "id": "v50_24"
+        },
+        {
+            "germanTerm": "die Linse",
+            "article": "die",
+            "plural": "die Linsen",
+            "pronunciation": "/ˈlɪnzə/",
+            "category": "noun",
+            "translation": {
+                "en": "lens",
+                "bn": "লেন্স (lens)",
+                "hi": "लेंस (lens)",
+                "ur": "لینس (lens)",
+                "tr": "mercek"
+            },
+            "exampleSentence": "Die Linse ist getrübt.",
+            "exampleTranslation": {
+                "en": "The lens is clouded.",
+                "bn": "লেন্স ঘোলাটে। (lens gholate)",
+                "hi": "लेंस बादलदार है। (lens baadaladaar hai)",
+                "ur": "لینس ابر آلود ہے۔ (lens abr aalod hai)",
+                "tr": "Mercek bulanık."
+            },
+            "id": "v50_25"
+        },
+        {
+            "germanTerm": "die Retina",
+            "article": "die",
+            "plural": "die Retinas/Retinen",
+            "pronunciation": "/ˈʁeːtina/",
+            "category": "noun",
+            "translation": {
+                "en": "retina",
+                "bn": "রেটিনা (retina)",
+                "hi": "रेटिना (retina)",
+                "ur": "ریٹینا (retina)",
+                "tr": "retina"
+            },
+            "exampleSentence": "Es gibt eine Ablösung der Retina.",
+            "exampleTranslation": {
+                "en": "There is a retinal detachment.",
+                "bn": "রেটিনার বিচ্ছিন্নতা আছে। (retinar bichchinnata ache)",
+                "hi": "रेटिना का अलगाव है। (retina ka alagaav hai)",
+                "ur": "ریٹینا کی لاتعلقی ہے۔ (retina kee laataalluqee hai)",
+                "tr": "Retina dekolmanı var."
+            },
+            "id": "v50_26"
+        },
+        {
+            "germanTerm": "entzündet",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ɛntˈsʏndət/",
+            "category": "adjective",
+            "translation": {
+                "en": "inflamed",
+                "bn": "প্রদাহযুক্ত (prodahojukto)",
+                "hi": "सूजा हुआ (sooja hua)",
+                "ur": "سوجا ہوا (sooja hua)",
+                "tr": "iltihaplı"
+            },
+            "exampleSentence": "Das Ohr ist entzündet.",
+            "exampleTranslation": {
+                "en": "The ear is inflamed.",
+                "bn": "কানটি প্রদাহযুক্ত। (kaanti prodahojukto)",
+                "hi": "कान सूजा हुआ है। (kaan sooja hua hai)",
+                "ur": "کان سوجا ہوا ہے۔ (kaan sooja hua hai)",
+                "tr": "Kulak iltihaplı."
+            },
+            "id": "v50_27"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Eye Exam for Blurred Vision",
+                "bn": "দৃষ্টি ঝাপসা হওয়ার জন্য চোখের পরীক্ষা",
+                "hi": "धुंधली दृष्टि के लिए नेत्र परीक्षण",
+                "ur": "دھندلی بینائی کے لیے آنکھوں کا معائنہ",
+                "tr": "Bulanık Görme İçin Göz Muayenesi"
+            },
+            "context": {
+                "en": "A patient complains of blurred vision and is undergoing an eye exam.",
+                "bn": "একজন রোগী ঝাপসা দৃষ্টির অভিযোগ করেছেন এবং তার চোখের পরীক্ষা চলছে।",
+                "hi": "एक मरीज धुंधली दृष्टि की शिकायत करता है और उसकी आंखों की जांच हो रही है।",
+                "ur": "ایک مریض دھندلی بینائی کی شکایت کر رہا ہے اور اس کا آنکھوں کا معائنہ ہو رہا ہے۔",
+                "tr": "Bir hasta bulanık görmeden şikayet ediyor ve göz muayenesi oluyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Tag, Herr Doktor. Ich sehe seit ein paar Wochen verschwommen.",
+                    "translation": {
+                        "en": "Good day, Doctor. I've been having blurry vision for a few weeks.",
+                        "bn": "শুভ দিন, ডাক্তার। কয়েক সপ্তাহ ধরে আমার দৃষ্টি ঝাপসা লাগছে।",
+                        "hi": "शुभ दिन, डॉक्टर। मुझे कुछ हफ़्तों से धुंधला दिखाई दे रहा है।",
+                        "ur": "شب بخیر، ڈاکٹر۔ مجھے کچھ ہفتوں سے دھندلا دکھائی دے رہا ہے۔",
+                        "tr": "İyi günler Doktor. Birkaç haftadır bulanık görüyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Tag, Herr Müller. Dann machen wir doch mal einen Sehtest. Könnten Sie bitte diese Zeile lesen?",
+                    "translation": {
+                        "en": "Good day, Mr. Müller. Then let's do an eye test. Could you please read this line?",
+                        "bn": "শুভ দিন, মিঃ মুলার। তাহলে চলুন একটি চোখের পরীক্ষা করি। আপনি কি দয়া করে এই লাইনটি পড়তে পারবেন?",
+                        "hi": "शुभ दिन, श्री मुलर। तो चलिए एक नेत्र परीक्षण करते हैं। क्या आप कृपया इस पंक्ति को पढ़ सकते हैं?",
+                        "ur": "شب بخیر، مسٹر مولر۔ تو چلیے ایک آنکھوں کا معائنہ کرتے ہیں۔ کیا آپ براہ کرم یہ لائن پڑھ سکتے ہیں؟",
+                        "tr": "İyi günler, Bay Müller. O zaman bir göz testi yapalım. Lütfen bu satırı okuyabilir misiniz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Äh, E... P... T... schwer zu erkennen...",
+                    "translation": {
+                        "en": "Uh, E... P... T... difficult to recognize...",
+                        "bn": "উম, ই... পি... টি... চিনতে অসুবিধা হচ্ছে...",
+                        "hi": "उह, ई... पी... टी... पहचानने में मुश्किल...",
+                        "ur": "ام، ای... پی... ٹی... پہچاننا مشکل...",
+                        "tr": "Şey, E... P... T... tanımak zor..."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ich sehe, wir werden weitere Untersuchungen machen müssen, eventuell auch wegen eines Katarakts.",
+                    "translation": {
+                        "en": "I see, we will have to do further examinations, possibly also because of a cataract.",
+                        "bn": "আমি দেখছি, আমাদের আরও পরীক্ষা করতে হবে, সম্ভবত ছানি রোগের কারণেও হতে পারে।",
+                        "hi": "मुझे लगता है, हमें और परीक्षण करने होंगे, संभवतः मोतियाबिंद के कारण भी।",
+                        "ur": "مجھے لگتا ہے، ہمیں مزید معائنہ کرنا ہوں گے، ممکنہ طور پر موتیا بند کی وجہ سے بھی۔",
+                        "tr": "Görüyorum, daha fazla inceleme yapmamız gerekecek, muhtemelen katarakt nedeniyle de olabilir."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ein Katarakt? Oh je, ist das schlimm?",
+                    "translation": {
+                        "en": "A cataract? Oh dear, is that bad?",
+                        "bn": "ছানি? ওহ, এটা কি খারাপ?",
+                        "hi": "मोतियाबिंद? अरे यार, क्या यह बुरा है?",
+                        "ur": "موتیا بند؟ اوہ پیارے، کیا یہ برا ہے؟",
+                        "tr": "Katarakt mı? Aman tanrım, bu kötü mü?"
+                    }
+                }
+            ],
+            "id": "d50_01"
+        },
+        {
+            "title": {
+                "en": "Tonsillectomy Consultation",
+                "bn": "টনসিল অপসারণ পরামর্শ",
+                "hi": "टॉन्सिल्लेक्टॉमी परामर्श",
+                "ur": "ٹانسلیکٹومی مشاورت",
+                "tr": "Bademcik Ameliyatı Danışmanlığı"
+            },
+            "context": {
+                "en": "A teenager is consulting a doctor about recurrent tonsillitis and the possibility of a tonsillectomy.",
+                "bn": "একজন কিশোর বারবার টনসিলাইটিসের বিষয়ে এবং টনসিল অপসারণের সম্ভাবনা নিয়ে ডাক্তারের পরামর্শ নিচ্ছে।",
+                "hi": "एक किशोर बार-बार टॉन्सिलिटिस और टॉन्सिल्लेक्टॉमी की संभावना के बारे में डॉक्टर से सलाह ले रहा है।",
+                "ur": "ایک نوجوان بار بار ٹنسلائٹس اور ٹانسلیکٹومی کے امکان کے بارے میں ڈاکٹر سے مشورہ کر رہا ہے۔",
+                "tr": "Bir genç, tekrarlayan bademcik iltihabı ve bademcik ameliyatı olasılığı hakkında bir doktora danışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Anna",
+                    "speakerRole": "Patient",
+                    "germanText": "Hallo, Herr Doktor. Ich habe ständig Halsschmerzen und Mandelentzündung.",
+                    "translation": {
+                        "en": "Hello, Doctor. I constantly have sore throats and tonsillitis.",
+                        "bn": "হ্যালো, ডাক্তার। আমার ক্রমাগত গলা ব্যথা এবং টনসিলাইটিস হয়।",
+                        "hi": "नमस्ते, डॉक्टर। मुझे लगातार गले में खराश और टॉन्सिलिटिस होता है।",
+                        "ur": "ہیلو، ڈاکٹر۔ مجھے مسلسل گلے میں درد اور ٹنسلائٹس ہوتا ہے۔",
+                        "tr": "Merhaba Doktor. Sürekli boğaz ağrısı ve bademcik iltihabım var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Tag, Anna. Wie oft hatten Sie das denn schon in den letzten Monaten?",
+                    "translation": {
+                        "en": "Good day, Anna. How often have you had this in the last few months?",
+                        "bn": "শুভ দিন, আনা। গত কয়েক মাসে আপনার কতবার হয়েছে?",
+                        "hi": "शुभ दिन, अन्ना। पिछले कुछ महीनों में आपको यह कितनी बार हुआ है?",
+                        "ur": "شب بخیر، انا۔ پچھلے چند مہینوں میں آپ کو یہ کتنی بار ہوا ہے؟",
+                        "tr": "İyi günler, Anna. Son birkaç ayda bu ne sıklıkla oldu?"
+                    }
+                },
+                {
+                    "speaker": "Patient Anna",
+                    "speakerRole": "Patient",
+                    "germanText": "Mindestens einmal im Monat, manchmal öfter.",
+                    "translation": {
+                        "en": "At least once a month, sometimes more often.",
+                        "bn": "মাসে অন্তত একবার, কখনও কখনও আরও বেশি।",
+                        "hi": "महीने में कम से कम एक बार, कभी-कभी अधिक बार।",
+                        "ur": "مہینے میں کم از کم ایک بار، کبھی کبھی زیادہ بار۔",
+                        "tr": "Ayda en az bir kez, bazen daha sık."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich untersuche Sie kurz. Ihre Mandeln sind stark vergrößert und gerötet. Wir sollten eine Tonsillektomie in Betracht ziehen.",
+                    "translation": {
+                        "en": "I'll examine you briefly. Your tonsils are greatly enlarged and reddened. We should consider a tonsillectomy.",
+                        "bn": "আমি আপনাকে সংক্ষেপে পরীক্ষা করব। আপনার টনসিলগুলি খুব বড় এবং লাল হয়ে গেছে। আমাদের টনসিল অপসারণের কথা বিবেচনা করা উচিত।",
+                        "hi": "मैं आपकी संक्षेप में जांच करूंगा। आपके टॉन्सिल बहुत बढ़ गए हैं और लाल हो गए हैं। हमें टॉन्सिल्लेक्टॉमी पर विचार करना चाहिए।",
+                        "ur": "میں آپ کا مختصر معائنہ کروں گا۔ آپ کے ٹانسلز بہت بڑھ گئے ہیں اور سرخ ہو گئے ہیں۔ ہمیں ٹانسلیکٹومی پر غور کرنا چاہیے۔",
+                        "tr": "Sizi kısaca muayene edeceğim. Bademciklarınız çok büyümüş ve kızarmış. Bir bademcik ameliyatı düşünmeliyiz."
+                    }
+                },
+                {
+                    "speaker": "Patient Anna",
+                    "speakerRole": "Patient",
+                    "germanText": "Was bedeutet das genau und welche Risiken gibt es?",
+                    "translation": {
+                        "en": "What does that mean exactly and what are the risks?",
+                        "bn": "এর মানে ঠিক কী এবং ঝুঁকিগুলি কী কী?",
+                        "hi": "इसका ठीक मतलब क्या है और जोखिम क्या हैं?",
+                        "ur": "اس کا ٹھیک مطلب کیا ہے اور خطرات کیا ہیں؟",
+                        "tr": "Bu tam olarak ne anlama geliyor ve riskleri nelerdir?"
+                    }
+                }
+            ],
+            "id": "d50_02"
+        },
+        {
+            "title": {
+                "en": "Hearing Test Preparation",
+                "bn": "শ্রবণ পরীক্ষার প্রস্তুতি",
+                "hi": "श्रवण परीक्षण की तैयारी",
+                "ur": "سماعت کے ٹیسٹ کی تیاری",
+                "tr": "İşitme Testi Hazırlığı"
+            },
+            "context": {
+                "en": "A nurse is preparing a patient for a hearing test.",
+                "bn": "একজন নার্স একজন রোগীকে শ্রবণ পরীক্ষার জন্য প্রস্তুত করছেন।",
+                "hi": "एक नर्स एक मरीज को श्रवण परीक्षण के लिए तैयार कर रही है।",
+                "ur": "ایک نرس مریض کو سماعت کے ٹیسٹ کے لیے تیار کر رہی ہے۔",
+                "tr": "Bir hemşire bir hastayı işitme testine hazırlıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Morgen, Herr Lehmann. Ich bereite Sie jetzt für den Hörtest vor.",
+                    "translation": {
+                        "en": "Good morning, Mr. Lehmann. I'm now preparing you for the hearing test.",
+                        "bn": "শুভ সকাল, মিঃ লেহমান। আমি এখন আপনাকে শ্রবণ পরীক্ষার জন্য প্রস্তুত করছি।",
+                        "hi": "शुभ प्रभात, श्री लेहमैन। मैं अब आपको श्रवण परीक्षण के लिए तैयार कर रही हूं।",
+                        "ur": "شب بخیر، مسٹر لیمن۔ میں اب آپ کو سماعت کے ٹیسٹ کے لیے تیار کر رہی ہوں۔",
+                        "tr": "Günaydın Bay Lehmann. Şimdi sizi işitme testine hazırlıyorum."
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Morgen, Schwester. Was muss ich tun?",
+                    "translation": {
+                        "en": "Good morning, Sister. What do I have to do?",
+                        "bn": "শুভ সকাল, সিস্টার। আমাকে কী করতে হবে?",
+                        "hi": "शुभ प्रभात, सिस्टर। मुझे क्या करना होगा?",
+                        "ur": "شب بخیر، سسٹر۔ مجھے کیا کرنا ہے؟",
+                        "tr": "Günaydın Hemşire. Ne yapmam gerekiyor?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Sie bekommen Kopfhörer auf und müssen jedes Mal einen Knopf drücken, wenn Sie einen Ton hören, egal wie leise er ist.",
+                    "translation": {
+                        "en": "You'll put on headphones and have to press a button every time you hear a tone, no matter how quiet it is.",
+                        "bn": "আপনি হেডফোন পরবেন এবং যখনই আপনি একটি স্বর শুনতে পাবেন, তখনই একটি বোতাম টিপতে হবে, তা যতই ক্ষীণ হোক না কেন।",
+                        "hi": "आपको हेडफ़ोन पहनने होंगे और हर बार जब आप कोई स्वर सुनें तो एक बटन दबाना होगा, चाहे वह कितना भी धीमा हो।",
+                        "ur": "آپ ہیڈ فون لگائیں گے اور ہر بار جب آپ کوئی ٹون سنیں تو ایک بٹن دبانا ہوگا، چاہے وہ کتنا ہی خاموش ہو۔",
+                        "tr": "Kulaklık takacaksınız ve ne kadar sessiz olursa olsun, her bir ton duyduğunuzda bir düğmeye basmanız gerekecek."
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Verstanden. Und wie lange dauert das ungefähr?",
+                    "translation": {
+                        "en": "Understood. And how long will that take approximately?",
+                        "bn": "বুঝেছি। এবং এটি প্রায় কতক্ষণ চলবে?",
+                        "hi": "समझ गया। और इसमें लगभग कितना समय लगेगा?",
+                        "ur": "سمجھ گیا۔ اور اس میں تقریبا کتنا وقت لگے گا؟",
+                        "tr": "Anladım. Ve bu yaklaşık ne kadar sürer?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ungefähr 20 Minuten. Dr. Klein wird Sie dann abholen.",
+                    "translation": {
+                        "en": "Approximately 20 minutes. Dr. Klein will then pick you up.",
+                        "bn": "প্রায় ২০ মিনিট। ডঃ ক্লেইন তখন আপনাকে নিতে আসবেন।",
+                        "hi": "लगभग 20 मिनट। फिर डॉ. क्लेन आपको लेने आएंगे।",
+                        "ur": "تقریبا 20 منٹ۔ پھر ڈاکٹر کلین آپ کو لینے آئیں گے۔",
+                        "tr": "Yaklaşık 20 dakika. Dr. Klein daha sonra sizi alacak."
+                    }
+                }
+            ],
+            "id": "d50_03"
+        },
+        {
+            "title": {
+                "en": "Post-Cataract Surgery Check-up",
+                "bn": "ছানি অস্ত্রোপচারের পরে পরীক্ষা",
+                "hi": "मोतियाबिंद सर्जरी के बाद चेक-अप",
+                "ur": "موتیا بند کی سرجری کے بعد چیک اپ",
+                "tr": "Katarakt Ameliyatı Sonrası Kontrol"
+            },
+            "context": {
+                "en": "A patient is having a post-operative check-up after cataract surgery.",
+                "bn": "একজন রোগী ছানি অস্ত্রোপচারের পরে একটি পোস্ট-অপারেটিভ চেক-আপ করছেন।",
+                "hi": "एक मरीज मोतियाबिंद सर्जरी के बाद एक पोस्ट-ऑपरेटिव चेक-अप करा रहा है।",
+                "ur": "ایک مریض موتیا بند کی سرجری کے بعد ایک پوسٹ آپریٹو چیک اپ کروا رہا ہے۔",
+                "tr": "Bir hasta, katarakt ameliyatından sonra bir post-operatif kontrol yaptırıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Tag, Herr Doktor. Mein Auge fühlt sich viel besser an seit der Operation.",
+                    "translation": {
+                        "en": "Good day, Doctor. My eye feels much better since the operation.",
+                        "bn": "শুভ দিন, ডাক্তার। অপারেশনের পর থেকে আমার চোখ অনেক ভালো লাগছে।",
+                        "hi": "शुभ दिन, डॉक्टर। ऑपरेशन के बाद से मेरी आँख बहुत बेहतर महसूस कर रही है।",
+                        "ur": "شب بخیر، ڈاکٹر۔ میری آنکھ آپریشن کے بعد سے بہت بہتر محسوس کر رہی ہے۔",
+                        "tr": "İyi günler Doktor. Ameliyattan beri gözüm çok daha iyi hissediyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das freut mich zu hören, Herr Schmidt. Lassen Sie uns das mal anschauen. Die Heilung sieht gut aus.",
+                    "translation": {
+                        "en": "I'm glad to hear that, Mr. Schmidt. Let's take a look at it. The healing looks good.",
+                        "bn": "শুনে ভালো লাগলো, মিঃ শ্মিট। আসুন একবার দেখে নেওয়া যাক। নিরাময় ভালো দেখাচ্ছে।",
+                        "hi": "यह सुनकर खुशी हुई, श्री श्मिट। चलिए इस पर एक नज़र डालते हैं। उपचार अच्छा दिख रहा है।",
+                        "ur": "یہ سن کر خوشی ہوئی، مسٹر شمٹ۔ آئیے اس پر ایک نظر ڈالتے ہیں۔ شفا یابی اچھی لگ رہی ہے۔",
+                        "tr": "Bunu duyduğuma sevindim Bay Schmidt. Şöyle bir bakalım. İyileşme iyi görünüyor."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Wann kann ich wieder richtig sehen?",
+                    "translation": {
+                        "en": "When will I be able to see properly again?",
+                        "bn": "আমি আবার কখন ঠিকভাবে দেখতে পারব?",
+                        "hi": "मैं फिर से ठीक से कब देख पाऊंगा?",
+                        "ur": "میں دوبارہ ٹھیک سے کب دیکھ پاؤں گا؟",
+                        "tr": "Ne zaman tekrar düzgün görebileceğim?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das sollte in den nächsten Wochen deutlich besser werden. Benutzen Sie weiterhin die Augentropfen, wie verordnet.",
+                    "translation": {
+                        "en": "That should get significantly better in the next few weeks. Continue using the eye drops as prescribed.",
+                        "bn": "এটি আগামী কয়েক সপ্তাহে উল্লেখযোগ্যভাবে আরও ভাল হওয়া উচিত। নির্দেশিত হিসাবে চোখের ড্রপ ব্যবহার করা চালিয়ে যান।",
+                        "hi": "अगले कुछ हफ्तों में यह काफी बेहतर हो जाना चाहिए। निर्धारित अनुसार आई ड्रॉप का उपयोग जारी रखें।",
+                        "ur": "اگلے چند ہفتوں میں اس میں نمایاں بہتری آنی چاہیے۔ ہدایت کے مطابق آئی ڈراپس کا استعمال جاری رکھیں۔",
+                        "tr": "Bu önümüzdeki birkaç hafta içinde önemli ölçüde düzelmelidir. Göz damlalarını reçete edildiği gibi kullanmaya devam edin."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Alles klar, vielen Dank, Herr Doktor!",
+                    "translation": {
+                        "en": "All right, thank you very much, Doctor!",
+                        "bn": "ঠিক আছে, আপনাকে অনেক ধন্যবাদ, ডাক্তার!",
+                        "hi": "ठीक है, आपका बहुत-बहुत धन्यवाद, डॉक्टर!",
+                        "ur": "ٹھیک ہے، آپ کا بہت شکریہ، ڈاکٹر!",
+                        "tr": "Pekala, çok teşekkür ederim Doktor!"
+                    }
+                }
+            ],
+            "id": "d50_04"
+        },
+        {
+            "title": {
+                "en": "Nasal Congestion Consultation",
+                "bn": "নাকের বন্ধভাবের পরামর্শ",
+                "hi": "नाक बंद होने की परामर्श",
+                "ur": "ناک کی بندش کے بارے میں مشاورت",
+                "tr": "Burun Tıkanıklığı Danışmanlığı"
+            },
+            "context": {
+                "en": "A patient is seeking advice for persistent nasal congestion.",
+                "bn": "একজন রোগী ক্রমাগত নাকের বন্ধভাবের জন্য পরামর্শ চাইছেন।",
+                "hi": "एक मरीज लगातार नाक बंद होने के लिए सलाह मांग रहा है।",
+                "ur": "ایک مریض مسلسل ناک کی بندش کے لیے مشورہ مانگ رہا ہے۔",
+                "tr": "Bir hasta sürekli burun tıkanıklığı için tavsiye istiyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Tag, Doktor. Meine Nase ist ständig verstopft, besonders nachts.",
+                    "translation": {
+                        "en": "Good day, Doctor. My nose is constantly congested, especially at night.",
+                        "bn": "শুভ দিন, ডাক্তার। আমার নাক ক্রমাগত বন্ধ থাকে, বিশেষ করে রাতে।",
+                        "hi": "शुभ दिन, डॉक्टर। मेरी नाक लगातार बंद रहती है, खासकर रात में।",
+                        "ur": "شب بخیر، ڈاکٹر۔ میری ناک مسلسل بند رہتی ہے، خاص طور پر رات میں۔",
+                        "tr": "İyi günler Doktor. Burnum sürekli tıkalı, özellikle geceleri."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Tag, Herr Klein. Haben Sie auch andere Symptome wie Niesen oder Juckreiz?",
+                    "translation": {
+                        "en": "Good day, Mr. Klein. Do you also have other symptoms like sneezing or itching?",
+                        "bn": "শুভ দিন, মিঃ ক্লেইন। আপনার কি হাঁচি বা চুলকানির মতো অন্য কোনও লক্ষণও আছে?",
+                        "hi": "शुभ दिन, श्री क्लेन। क्या आपको छींकने या खुजली जैसे अन्य लक्षण भी हैं?",
+                        "ur": "شب بخیر، مسٹر کلین۔ کیا آپ کو چھینکنے یا خارش جیسی دیگر علامات بھی ہیں؟",
+                        "tr": "İyi günler Bay Klein. Hapşırma veya kaşıntı gibi başka belirtileriniz de var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, ab und zu muss ich auch niesen.",
+                    "translation": {
+                        "en": "Yes, I also have to sneeze every now and then.",
+                        "bn": "হ্যাঁ, মাঝে মাঝে আমার হাঁচিও আসে।",
+                        "hi": "हाँ, मुझे भी कभी-कभी छींकना पड़ता है।",
+                        "ur": "ہاں، مجھے بھی کبھی کبھار چھینکنا پڑتا ہے۔",
+                        "tr": "Evet, ara sıra hapşırmam da gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich werde Ihre Nase mal untersuchen. Es könnte eine Allergie oder eine Nasennebenhöhlenentzündung sein. ",
+                    "translation": {
+                        "en": "I'll examine your nose. It could be an allergy or sinusitis.",
+                        "bn": "আমি আপনার নাক পরীক্ষা করব। এটি একটি অ্যালার্জি বা সাইনোসাইটিস হতে পারে।",
+                        "hi": "मैं आपकी नाक की जांच करूंगा। यह एलर्जी या साइनसिसिस हो सकता है।",
+                        "ur": "میں آپ کی ناک کا معائنہ کروں گا۔ یہ الرجی یا سائنوسائٹس ہو سکتا ہے۔",
+                        "tr": "Burnunuzu muayene edeceğim. Alerji veya sinüzit olabilir."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Was kann ich dagegen tun?",
+                    "translation": {
+                        "en": "What can I do about it?",
+                        "bn": "আমি এর জন্য কি করতে পারি?",
+                        "hi": "मैं इसके बारे में क्या कर सकता हूँ?",
+                        "ur": "میں اس کے بارے میں کیا کر سکتا ہوں؟",
+                        "tr": "Buna karşı ne yapabilirim?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Zuerst werden wir die Ursache herausfinden. Dann können wir über die Behandlung sprechen.",
+                    "translation": {
+                        "en": "First, we will find out the cause. Then we can talk about the treatment.",
+                        "bn": "প্রথমে আমরা কারণ খুঁজে বের করব। তারপর আমরা চিকিৎসা নিয়ে কথা বলতে পারি।",
+                        "hi": "सबसे पहले, हम कारण का पता लगाएंगे। फिर हम उपचार के बारे में बात कर सकते हैं।",
+                        "ur": "سب سے پہلے، ہم وجہ معلوم کریں گے۔ پھر ہم علاج کے بارے میں بات کر سکتے ہیں۔",
+                        "tr": "Öncelikle nedeni bulacağız. Sonra tedavi hakkında konuşabiliriz."
+                    }
+                }
+            ],
+            "id": "d50_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Instrument wird verwendet, um den Augenhintergrund zu untersuchen?",
+                "en": "Which instrument is used to examine the fundus of the eye?",
+                "bn": "চোখের পিছনের অংশ পরীক্ষা করার জন্য কোন যন্ত্র ব্যবহার করা হয়?",
+                "hi": "आँख के पीछे के हिस्से की जांच करने के लिए किस उपकरण का उपयोग किया जाता है?",
+                "ur": "آنکھ کے پچھلے حصے کی جانچ کرنے کے لئے کون سا آلہ استعمال کیا جاتا ہے؟",
+                "tr": "Gözün arka kısmını incelemek için hangi alet kullanılır?"
+            },
+            "options": [
+                "Otoskop",
+                "Ophthalmoskop",
+                "Laryngoskop",
+                "Bronchoskop"
+            ],
+            "correctAnswer": "Ophthalmoskop",
+            "explanation": {
+                "en": "An ophthalmoscope is used to examine the fundus of the eye (retina, optic disc, and blood vessels).",
+                "bn": "অপথালমোস্কোপ চোখের পিছনের অংশ (রেটিনা, অপটিক ডিস্ক এবং রক্তনালী) পরীক্ষা করতে ব্যবহৃত হয়।",
+                "hi": "एक ओफ़्थाल्मोस्कोप का उपयोग आंख के फंडस (रेटिना, ऑप्टिक डिस्क और रक्त वाहिकाएं) की जांच के लिए किया जाता है।",
+                "ur": "ایک آپتھلموسکوپ آنکھ کے فنڈس (ریٹینا، آپٹک ڈسک اور خون کی نالیاں) کی جانچ کے لیے استعمال ہوتا ہے۔",
+                "tr": "Oftalmoskop, gözün fundusunu (retina, optik disk ve kan damarları) incelemek için kullanılır."
+            },
+            "points": 10,
+            "id": "e50_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist eine Kataraktoperation?",
+                "en": "What is a cataract surgery?",
+                "bn": "ছানি অপারেশন কি?",
+                "hi": "मोतियाबिंद की सर्जरी क्या है?",
+                "ur": "موتیابند کی سرجری کیا ہے؟",
+                "tr": "Katarakt ameliyatı nedir?"
+            },
+            "options": [
+                "Entfernung der Gallenblase",
+                "Entfernung der Linse",
+                "Entfernung des Trommelfells",
+                "Entfernung der Mandeln"
+            ],
+            "correctAnswer": "Entfernung der Linse",
+            "explanation": {
+                "en": "Cataract surgery involves removing the cloudy lens and replacing it with an artificial lens.",
+                "bn": "ছানি অপারেশন হল মেঘলা লেন্স অপসারণ করে একটি কৃত্রিম লেন্স প্রতিস্থাপন করা।",
+                "hi": "मोतियाबिंद की सर्जरी में धुंधली लेंस को हटाकर कृत्रिम लेंस लगाना शामिल है।",
+                "ur": "موتیابند کی سرجری میں دھندلی لینس کو ہٹا کر مصنوعی لینس لگانا شامل ہے۔",
+                "tr": "Katarakt ameliyatı, bulanık lensin çıkarılması ve yerine yapay bir lensin yerleştirilmesini içerir."
+            },
+            "points": 10,
+            "id": "e50_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welcher Test wird verwendet, um das Hörvermögen zu überprüfen?",
+                "en": "Which test is used to check hearing ability?",
+                "bn": "শ্রবণ ক্ষমতা পরীক্ষা করার জন্য কোন পরীক্ষা ব্যবহার করা হয়?",
+                "hi": "श्रवण क्षमता की जांच के लिए किस परीक्षण का उपयोग किया जाता है?",
+                "ur": "سماعت کی صلاحیت کو جانچنے کے لئے کون سا ٹیسٹ استعمال کیا جاتا ہے؟",
+                "tr": "Duyma yeteneğini kontrol etmek için hangi test kullanılır?"
+            },
+            "options": [
+                "Elektrokardiogramm",
+                "Audiometrie",
+                "Bronchoskopie",
+                "Koloskopie"
+            ],
+            "correctAnswer": "Audiometrie",
+            "explanation": {
+                "en": "Audiometry is a test used to measure hearing acuity.",
+                "bn": "অডিওমেট্রি হল শ্রবণ তীক্ষ্ণতা পরিমাপ করার জন্য ব্যবহৃত একটি পরীক্ষা।",
+                "hi": "ऑडियोमेट्री श्रवण तीक्ष्णता को मापने के लिए इस्तेमाल किया जाने वाला एक परीक्षण है।",
+                "ur": "آڈیو میٹری سماعت کی تیزی کو جانچنے کے لیے استعمال ہونے والا ایک ٹیسٹ ہے۔",
+                "tr": "Odyometri, işitme keskinliğini ölçmek için kullanılan bir testtir."
+            },
+            "points": 10,
+            "id": "e50_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist eine Tonsillektomie?",
+                "en": "What is a tonsillectomy?",
+                "bn": "টনসিলেকটমি কি?",
+                "hi": "टॉन्सिल्लेक्टोमी क्या है?",
+                "ur": "ٹانسلیکٹومی کیا ہے؟",
+                "tr": "Tonsillektomi nedir?"
+            },
+            "options": [
+                "Entfernung der Mandeln",
+                "Entfernung der Adenoide",
+                "Entfernung des Blinddarms",
+                "Entfernung der Gallenblase"
+            ],
+            "correctAnswer": "Entfernung der Mandeln",
+            "explanation": {
+                "en": "A tonsillectomy is the surgical removal of the tonsils.",
+                "bn": "টনসিলেকটমি হল টনসিলগুলির অস্ত্রোপচার অপসারণ।",
+                "hi": "टॉन्सिल्लेक्टोमी टॉन्सिल को शल्य चिकित्सा द्वारा हटाना है।",
+                "ur": "ٹانسلیکٹومی ٹانسلز کو جراحی سے ہٹانا ہے۔",
+                "tr": "Tonsillektomi, bademciklerin cerrahi olarak çıkarılmasıdır."
+            },
+            "points": 10,
+            "id": "e50_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Struktur im Ohr ist für das Gleichgewicht verantwortlich?",
+                "en": "Which structure in the ear is responsible for balance?",
+                "bn": "কানের কোন গঠন ভারসাম্যের জন্য দায়ী?",
+                "hi": "कान में कौन सी संरचना संतुलन के लिए जिम्मेदार है?",
+                "ur": "کان میں کون سی ساخت توازن کے لئے ذمہ دار ہے؟",
+                "tr": "Kulaktaki hangi yapı dengeden sorumludur?"
+            },
+            "options": [
+                "Cochlea",
+                "Tuba Eustachii",
+                "Bogengänge",
+                "Hammer"
+            ],
+            "correctAnswer": "Bogengänge",
+            "explanation": {
+                "en": "The semicircular canals in the inner ear are responsible for maintaining balance.",
+                "bn": "অভ্যন্তরীণ কানের অর্ধবৃত্তাকার নলগুলি ভারসাম্য বজায় রাখার জন্য দায়ী।",
+                "hi": "आंतरिक कान में अर्धवृत्ताकार नलिकाएँ संतुलन बनाए रखने के लिए जिम्मेदार होती हैं।",
+                "ur": "اندرونی کان میں نیم دائرہ دار نالیاں توازن برقرار رکھنے کے لیے ذمہ دار ہیں۔",
+                "tr": "İç kulaktaki yarım daire kanalları dengeyi korumaktan sorumludur."
+            },
+            "points": 10,
+            "id": "e50_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist die medizinische Bezeichnung für 'Tinnitus'?",
+                "en": "What is the medical term for 'Tinnitus'?",
+                "bn": "'টিনিটাস'-এর জন্য চিকিৎসা শব্দটি কী?",
+                "hi": "'टिनिटस' के लिए चिकित्सीय शब्द क्या है?",
+                "ur": "'ٹینیٹس' کے لیے طبی اصطلاح کیا ہے؟",
+                "tr": "'Tinnitus' için tıbbi terim nedir?"
+            },
+            "options": [
+                "Ohrenschmerzen",
+                "Ohrensausen",
+                "Schwindel",
+                "Hörverlust"
+            ],
+            "correctAnswer": "Ohrensausen",
+            "explanation": {
+                "en": "Tinnitus is the medical term for ringing or buzzing in the ears.",
+                "bn": "টিনিটাস হল কানে গুনগুন বা গুঞ্জন শব্দের চিকিৎসা শব্দ।",
+                "hi": "टिनिटस कानों में बजने या गूंजने की चिकित्सीय शब्द है।",
+                "ur": "ٹینیٹس کانوں میں بجنے یا گونجنے کی طبی اصطلاح ہے۔",
+                "tr": "Tinnitus, kulaklarda çınlama veya uğultu sesi için kullanılan tıbbi terimdir."
+            },
+            "points": 10,
+            "id": "e50_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche ist die häufigste Ursache für eine Rhinitis?",
+                "en": "What is the most common cause of Rhinitis?",
+                "bn": "রাইনাইটিসের সবচেয়ে সাধারণ কারণ কী?",
+                "hi": "राइनाइटिस का सबसे सामान्य कारण क्या है?",
+                "ur": "ناک کی سوزش کی سب سے عام وجہ کیا ہے؟",
+                "tr": "Rinitin en yaygın nedeni nedir?"
+            },
+            "options": [
+                "Bakterielle Infektion",
+                "Virale Infektion",
+                "Allergie",
+                "Pilzinfektion"
+            ],
+            "correctAnswer": "Virale Infektion",
+            "explanation": {
+                "en": "Viral infections, such as the common cold, are the most common cause of rhinitis.",
+                "bn": "ভাইরাল সংক্রমণ, যেমন সাধারণ সর্দি, রাইনাইটিসের সবচেয়ে সাধারণ কারণ।",
+                "hi": "वायरल संक्रमण, जैसे सामान्य सर्दी, राइनाइटिस का सबसे सामान्य कारण है।",
+                "ur": "وائرل انفیکشن، جیسے عام سردی، ناک کی سوزش کی سب سے عام وجہ ہے۔",
+                "tr": "Soğuk algınlığı gibi viral enfeksiyonlar, rinitin en yaygın nedenidir."
+            },
+            "points": 10,
+            "id": "e50_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welcher Nerv ist für den Geruchssinn verantwortlich?",
+                "en": "Which nerve is responsible for the sense of smell?",
+                "bn": "গন্ধের অনুভূতির জন্য কোন স্নায়ু দায়ী?",
+                "hi": "गंध की भावना के लिए कौन सी तंत्रिका जिम्मेदार है?",
+                "ur": "سونگھنے کے احساس کے لئے کون سا اعصاب ذمہ دار ہے؟",
+                "tr": "Koku duyusundan hangi sinir sorumludur?"
+            },
+            "options": [
+                "Nervus opticus",
+                "Nervus olfactorius",
+                "Nervus trigeminus",
+                "Nervus facialis"
+            ],
+            "correctAnswer": "Nervus olfactorius",
+            "explanation": {
+                "en": "The olfactory nerve is responsible for transmitting smell information to the brain.",
+                "bn": "ঘ্রাণ স্নায়ু মস্তিষ্কে গন্ধের তথ্য প্রেরণ করার জন্য দায়ী।",
+                "hi": "घ्राण तंत्रिका मस्तिष्क को गंध की जानकारी भेजने के लिए जिम्मेदार है।",
+                "ur": "شامّہ اعصاب دماغ کو سونگھنے کی معلومات بھیجنے کے لئے ذمہ دار ہے۔",
+                "tr": "Koku siniri, koku bilgilerini beyne iletmekten sorumludur."
+            },
+            "points": 10,
+            "id": "e50_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Medikament wird häufig bei Glaukom eingesetzt?",
+                "en": "Which medication is commonly used for glaucoma?",
+                "bn": "গ্লুকোমার জন্য সাধারণত কোন ওষুধ ব্যবহার করা হয়?",
+                "hi": "ग्लूकोमा के लिए आमतौर पर कौन सी दवा का उपयोग किया जाता है?",
+                "ur": "گلوکوما کے لئے عام طور پر کون سی دوا استعمال کی جاتی ہے؟",
+                "tr": "Glokom için yaygın olarak hangi ilaç kullanılır?"
+            },
+            "options": [
+                "Antibiotika",
+                "Antihistaminika",
+                "Betablocker",
+                "Schmerzmittel"
+            ],
+            "correctAnswer": "Betablocker",
+            "explanation": {
+                "en": "Beta-blockers are commonly used as eye drops to lower intraocular pressure in glaucoma.",
+                "bn": "বিটা-ব্লকারগুলি সাধারণত গ্লুকোমাতে ইন্ট্রাওকুলার চাপ কমাতে চোখের ড্রপ হিসাবে ব্যবহৃত হয়।",
+                "hi": "बीटा-ब्लॉकर्स आमतौर पर ग्लूकोमा में इंट्राओकुलर दबाव को कम करने के लिए आई ड्रॉप के रूप में उपयोग किए जाते हैं।",
+                "ur": "بیٹا بلاکرز عام طور پر گلوکوما میں انٹراوکولر پریشر کو کم کرنے کے لیے آئی ڈراپس کے طور پر استعمال ہوتے ہیں۔",
+                "tr": "Beta blokerler, glokomda göz içi basıncını düşürmek için genellikle göz damlası olarak kullanılır."
+            },
+            "points": 10,
+            "id": "e50_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Komplikation kann nach einer Tonsillektomie auftreten?",
+                "en": "Which complication can occur after a tonsillectomy?",
+                "bn": "টনসিলেকটমির পরে কোন জটিলতা দেখা দিতে পারে?",
+                "hi": "टॉन्सिल्लेक्टोमी के बाद कौन सी जटिलता हो सकती है?",
+                "ur": "ٹانسلیکٹومی کے بعد کون سی پیچیدگی ہو سکتی ہے؟",
+                "tr": "Tonsillektomiden sonra hangi komplikasyon ortaya çıkabilir?"
+            },
+            "options": [
+                "Hörverlust",
+                "Blutung",
+                "Sehstörungen",
+                "Haarausfall"
+            ],
+            "correctAnswer": "Blutung",
+            "explanation": {
+                "en": "Bleeding is a potential complication following a tonsillectomy.",
+                "bn": "টনসিলেকটমির পরে রক্তপাত একটি সম্ভাব্য জটিলতা।",
+                "hi": "टॉन्सिल्लेक्टोमी के बाद रक्तस्राव एक संभावित जटिलता है।",
+                "ur": "ٹانسلیکٹومی کے بعد خون بہنا ایک ممکنہ پیچیدگی ہے۔",
+                "tr": "Kanama, tonsillektomiyi takiben potansiyel bir komplikasyondur."
+            },
+            "points": 10,
+            "id": "e50_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die Entzündung der Bindehaut wird als _________ bezeichnet.",
+                "en": "The inflammation of the conjunctiva is called _________.",
+                "bn": "কনজাংটিভার প্রদাহকে _________ বলা হয়।",
+                "hi": "कंजंक्टिवा की सूजन को _________ कहा जाता है।",
+                "ur": "کنجیکٹیوا کی سوزش کو _________ کہا جاتا ہے۔",
+                "tr": "Konjonktiva iltihabına _________ denir."
+            },
+            "options": [],
+            "correctAnswer": "Konjunktivitis",
+            "explanation": {
+                "en": "Konjunktivitis is the medical term for inflammation of the conjunctiva.",
+                "bn": "কনজাংটিভাইটিস হল কনজাংটিভার প্রদাহের চিকিৎসা শব্দ।",
+                "hi": "कंजंक्टिवाइटिस कंजंक्टिवा की सूजन के लिए चिकित्सा शब्द है।",
+                "ur": "کنجیکٹیوائٹس کنجیکٹیوا کی سوزش کے لیے طبی اصطلاح ہے۔",
+                "tr": "Konjonktivit, konjonktiva iltihabının tıbbi adıdır."
+            },
+            "points": 10,
+            "id": "e50_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein _________ ist ein Spezialist für Augenheilkunde.",
+                "en": "An _________ is a specialist in ophthalmology.",
+                "bn": "একজন _________ চক্ষুবিদ্যা বিশেষজ্ঞ।",
+                "hi": "एक _________ नेत्र विज्ञान में विशेषज्ञ है।",
+                "ur": "ایک _________ طب العین میں ماہر ہے۔",
+                "tr": "Bir _________ oftalmoloji uzmanıdır."
+            },
+            "options": [],
+            "correctAnswer": "Ophthalmologe",
+            "explanation": {
+                "en": "An ophthalmologist is a medical doctor specializing in eye and vision care.",
+                "bn": "একজন চক্ষু বিশেষজ্ঞ হলেন একজন চিকিৎসক যিনি চোখ এবং দৃষ্টি যত্নে বিশেষজ্ঞ।",
+                "hi": "एक नेत्र रोग विशेषज्ञ एक चिकित्सक है जो आंख और दृष्टि देखभाल में विशेषज्ञता रखता है।",
+                "ur": "ایک ماہر امراض چشم ایک طبی ڈاکٹر ہے جو آنکھ اور بصارت کی دیکھ بھال میں مہارت رکھتا ہے۔",
+                "tr": "Bir oftalmolog, göz ve görme bakımı konusunda uzmanlaşmış bir tıp doktorudur."
+            },
+            "points": 10,
+            "id": "e50_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die _________ dient zur Messung des Augeninnendrucks.",
+                "en": "The _________ is used to measure intraocular pressure.",
+                "bn": "_________ চোখের অভ্যন্তরীণ চাপ পরিমাপ করতে ব্যবহৃত হয়।",
+                "hi": "_________ का उपयोग अंतःकोशिकीय दबाव को मापने के लिए किया जाता है।",
+                "ur": "_________ انٹراوکولر پریشر کی پیمائش کے لیے استعمال ہوتا ہے۔",
+                "tr": "_________ göz içi basıncını ölçmek için kullanılır."
+            },
+            "options": [],
+            "correctAnswer": "Tonometrie",
+            "explanation": {
+                "en": "Tonometry is the procedure to measure the intraocular pressure, important in glaucoma screening.",
+                "bn": "টোনোমেট্রি হল ইন্ট্রাওকুলার চাপ পরিমাপ করার পদ্ধতি, যা গ্লুকোমা স্ক্রিনিংয়ে গুরুত্বপূর্ণ।",
+                "hi": "टोनोमेट्री इंट्राओकुलर दबाव को मापने की प्रक्रिया है, जो ग्लूकोमा स्क्रीनिंग में महत्वपूर्ण है।",
+                "ur": "ٹونومیٹری انٹراوکولر پریشر کی پیمائش کرنے کا طریقہ کار ہے، جو گلوکوما اسکریننگ میں اہم ہے۔",
+                "tr": "Tonometri, glokom taramasında önemli olan göz içi basıncını ölçme işlemidir."
+            },
+            "points": 10,
+            "id": "e50_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Eine Verkrümmung der Hornhaut wird als _________ bezeichnet.",
+                "en": "A curvature of the cornea is called _________.",
+                "bn": "কর্নিয়ার বক্রতাকে _________ বলা হয়।",
+                "hi": "कॉर्निया के वक्रता को _________ कहा जाता है।",
+                "ur": "قرنیہ کے گھماؤ کو _________ کہا جاتا ہے۔",
+                "tr": "Kornea eğriliğine _________ denir."
+            },
+            "options": [],
+            "correctAnswer": "Astigmatismus",
+            "explanation": {
+                "en": "Astigmatism is a refractive error caused by an irregular curvature of the cornea or lens.",
+                "bn": "অ্যাস্টিগমাটিজম হল কর্নিয়া বা লেন্সের অনিয়মিত বক্রতার কারণে সৃষ্ট একটি প্রতিসরণ ত্রুটি।",
+                "hi": "एस्टिग्मैटिज्म कॉर्निया या लेंस के अनियमित वक्रता के कारण होने वाली एक अपवर्तक त्रुटि है।",
+                "ur": "آسٹیگماتزم قرنیہ یا لینس کی بے قاعدہ گھماؤ کی وجہ سے ہونے والی ایک ریفریکٹیو غلطی ہے۔",
+                "tr": "Astigmatizma, kornea veya lensin düzensiz eğriliğinden kaynaklanan bir kırılma kusurudur."
+            },
+            "points": 10,
+            "id": "e50_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die Entfernung der Adenoide wird als _________ bezeichnet.",
+                "en": "The removal of the adenoids is called _________.",
+                "bn": "অ্যাডিনয়েড অপসারণকে _________ বলা হয়।",
+                "hi": "एडीनोइड को हटाने को _________ कहा जाता है।",
+                "ur": "اڈنائڈ کو ہٹانے کو _________ کہا جاتا ہے۔",
+                "tr": "Adenoidlerin çıkarılmasına _________ denir."
+            },
+            "options": [],
+            "correctAnswer": "Adenotomie",
+            "explanation": {
+                "en": "Adenoidectomy is the surgical removal of the adenoids.",
+                "bn": "অ্যাডিনয়েডেক্টোমি হল অ্যাডিনয়েডগুলির অস্ত্রোপচার অপসারণ।",
+                "hi": "एडेनोइडेक्टॉमी एडेनोइड को शल्य चिकित्सा द्वारा हटाना है।",
+                "ur": "اڈنائڈیکٹومی اڈنائڈ کو جراحی سے ہٹانا ہے۔",
+                "tr": "Adenoidektomi, geniz etinin cerrahi olarak çıkarılmasıdır."
+            },
+            "points": 10,
+            "id": "e50_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Ich habe seit gestern Halsschmerzen.",
+                "en": "I have had a sore throat since yesterday.",
+                "bn": "আমার গতকাল থেকে গলা ব্যথা করছে।",
+                "hi": "मुझे कल से गले में खराश है।",
+                "ur": "مجھے کل سے گلے میں خراش ہے۔",
+                "tr": "Dünden beri boğazım ağrıyor."
+            },
+            "options": [],
+            "correctAnswer": "Ich habe seit gestern Halsschmerzen.",
+            "explanation": {
+                "en": "Direct translation.",
+                "bn": "সরাসরি অনুবাদ।",
+                "hi": "सीधा अनुवाद।",
+                "ur": "براہ راست ترجمہ۔",
+                "tr": "Doğrudan çeviri."
+            },
+            "points": 10,
+            "id": "e50_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Mein rechtes Ohr ist verstopft.",
+                "en": "My right ear is blocked.",
+                "bn": "আমার ডান কান বন্ধ হয়ে গেছে।",
+                "hi": "मेरा दाहिना कान बंद है।",
+                "ur": "میرا دایاں کان بند ہے۔",
+                "tr": "Sağ kulağım tıkalı."
+            },
+            "options": [],
+            "correctAnswer": "Mein rechtes Ohr ist verstopft.",
+            "explanation": {
+                "en": "Direct translation.",
+                "bn": "সরাসরি অনুবাদ।",
+                "hi": "सीधा अनुवाद।",
+                "ur": "براہ راست ترجمہ۔",
+                "tr": "Doğrudan çeviri."
+            },
+            "points": 10,
+            "id": "e50_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Ich sehe verschwommen.",
+                "en": "I have blurry vision.",
+                "bn": "আমি ঝাপসা দেখছি।",
+                "hi": "मुझे धुंधला दिखाई देता है।",
+                "ur": "مجھے دھندلا نظر آتا ہے۔",
+                "tr": "Bulanık görüyorum."
+            },
+            "options": [],
+            "correctAnswer": "Ich sehe verschwommen.",
+            "explanation": {
+                "en": "Direct translation.",
+                "bn": "সরাসরি অনুবাদ।",
+                "hi": "सीधा अनुवाद।",
+                "ur": "براہ راست ترجمہ۔",
+                "tr": "Doğrudan çeviri."
+            },
+            "points": 10,
+            "id": "e50_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

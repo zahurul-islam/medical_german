@@ -1,13 +1,1579 @@
-{"id":"section_08","phaseId":"phase1","order":8,"titleDe":"Das Pflegepersonal","title":{"en":"The Nursing Staff","bn":"নার্সিং স্টাফ","hi":"नर्सिंग स्टाफ","ur":"نرسنگ سٹاف","tr":"Hemşirelik Personeli"},"level":"A2","estimatedMinutes":25,"vocabulary":[
-{"id":"v08_01","germanTerm":"Krankenschwester","article":"die","plural":"Krankenschwestern","translation":{"en":"Nurse (female)","bn":"নার্স","hi":"नर्स","ur":"نرس","tr":"Hemşire"}},
-{"id":"v08_02","germanTerm":"Krankenpfleger","article":"der","plural":"Krankenpfleger","translation":{"en":"Nurse (male)","bn":"নার্স (পুরুষ)","hi":"नर्स (पुरुष)","ur":"نرس (مرد)","tr":"Hemşire (erkek)"}},
-{"id":"v08_03","germanTerm":"Pflegekraft","article":"die","plural":"Pflegekräfte","translation":{"en":"Caregiver","bn":"কেয়ারগিভার","hi":"देखभालकर्ता","ur":"نگہداشت کرنے والا","tr":"Bakıcı"}},
-{"id":"v08_04","germanTerm":"Stationsleitung","article":"die","plural":"Stationsleitungen","translation":{"en":"Ward Manager","bn":"ওয়ার্ড ম্যানেজার","hi":"वार्ड प्रबंधक","ur":"وارڈ منیجر","tr":"Servis sorumlusu"}},
-{"id":"v08_05","germanTerm":"Auszubildende","article":"der/die","plural":"Auszubildenden","translation":{"en":"Trainee","bn":"প্রশিক্ষণার্থী","hi":"प्रशिक्षु","ur":"ٹرینی","tr":"Stajyer"}},
-{"id":"v08_06","germanTerm":"Übergabe","article":"die","plural":"Übergaben","translation":{"en":"Handover","bn":"হ্যান্ডওভার","hi":"हैंडओवर","ur":"حوالگی","tr":"Devir teslim"}},
-{"id":"v08_07","germanTerm":"Dokumentation","article":"die","plural":"Dokumentationen","translation":{"en":"Documentation","bn":"ডকুমেন্টেশন","hi":"डॉक्यूमेंटेशन","ur":"دستاویزات","tr":"Dokümantasyon"}},
-{"id":"v08_08","germanTerm":"Medikamentengabe","article":"die","plural":"-","translation":{"en":"Medication Admin","bn":"ওষুধ প্রদান","hi":"दवा देना","ur":"دوا دینا","tr":"İlaç verme"}}
-],"dialogues":[{"id":"d08_01","title":{"en":"Asking Nurse for Help"},"lines":[
-{"speaker":"Arzt","germanText":"Könnten Sie bitte die Vitalzeichen messen?","translation":{"en":"Could you please measure the vital signs?"}},
-{"speaker":"Schwester","germanText":"Ja, natürlich. Sofort.","translation":{"en":"Yes, of course. Right away."}}
-]}],"exercises":[{"id":"e08_01","type":"multipleChoice","question":{"en":"What is 'Übergabe'?"},"options":["Handover","Medication","Break"],"correctAnswer":"Handover","points":10}]}
+{
+    "id": "section_08",
+    "phaseId": "phase1",
+    "order": 8,
+    "titleDe": "Das Pflegepersonal",
+    "title": {
+        "en": "Nursing Staff and Teamwork in German Healthcare",
+        "bn": "জার্মান স্বাস্থ্যসেবায় নার্সিং স্টাফ এবং দলবদ্ধ কাজ",
+        "hi": "जर्मन स्वास्थ्य सेवा में नर्सिंग स्टाफ और टीमवर्क",
+        "ur": "جرمن صحت کی دیکھ بھال میں نرسنگ اسٹاف اور ٹیم ورک",
+        "tr": "Alman Sağlık Hizmetlerinde Hemşirelik Personeli ve Ekip Çalışması",
+        "de": "Pflegepersonal und Teamwork in der deutschen Gesundheitsversorgung"
+    },
+    "description": {
+        "en": "This section explores the roles, responsibilities, and collaborative dynamics of nursing staff within the German healthcare system.",
+        "bn": "এই বিভাগে জার্মান স্বাস্থ্যসেবা ব্যবস্থায় নার্সিং কর্মীদের ভূমিকা, দায়িত্ব এবং সহযোগী গতিশীলতা অন্বেষণ করা হয়েছে।",
+        "hi": "यह खंड जर्मन स्वास्थ्य सेवा प्रणाली के भीतर नर्सिंग स्टाफ की भूमिकाओं, जिम्मेदारियों और सहयोगी गतिशीलता का पता लगाता है।",
+        "ur": "یہ سیکشن جرمن صحت کی دیکھ بھال کے نظام کے اندر نرسنگ اسٹاف کے کرداروں، ذمہ داریوں اور باہمی تعاون کی حرکیات کو تلاش کرتا ہے۔",
+        "tr": "Bu bölüm, Alman sağlık sistemindeki hemşirelik personelinin rollerini, sorumluluklarını ve işbirliğine dayalı dinamiklerini incelemektedir.",
+        "de": "Dieser Abschnitt untersucht die Rollen, Verantwortlichkeiten und die kollaborative Dynamik des Pflegepersonals im deutschen Gesundheitswesen."
+    },
+    "level": "A2",
+    "estimatedMinutes": 45,
+    "isPremium": false,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, we will learn the key vocabulary related to nursing staff in German, including various roles and levels of responsibility. We will also examine the importance of teamwork in a German hospital setting.",
+            "bn": "এই বিভাগে, আমরা জার্মান ভাষায় নার্সিং কর্মীদের সম্পর্কিত মূল শব্দভাণ্ডার শিখব, যার মধ্যে বিভিন্ন ভূমিকা এবং responsibilities অন্তর্ভুক্ত রয়েছে। জার্মান হাসপাতালের প্রেক্ষাপটে দলবদ্ধ কাজের গুরুত্বও আমরা পরীক্ষা করব।",
+            "hi": "इस खंड में, हम जर्मन में नर्सिंग स्टाफ से संबंधित प्रमुख शब्दावली सीखेंगे, जिसमें विभिन्न भूमिकाएँ और जिम्मेदारी के स्तर शामिल हैं। हम जर्मन अस्पताल की स्थापना में टीम वर्क के महत्व की भी जांच करेंगे।",
+            "ur": "اس سیکشن میں، ہم جرمن میں نرسنگ اسٹاف سے متعلق کلیدی الفاظ سیکھیں گے، بشمول مختلف کردار اور ذمہ داری کی سطحیں۔ ہم جرمن ہسپتال کی ترتیب میں ٹیم ورک کی اہمیت کا بھی جائزہ لیں گے۔",
+            "tr": "Bu bölümde, Almanca'da hemşirelik personeli ile ilgili temel kelimeleri öğreneceğiz, buna çeşitli roller ve sorumluluk düzeyleri dahildir. Ayrıca, Alman hastane ortamında ekip çalışmasının önemini de inceleyeceğiz.",
+            "de": "In diesem Abschnitt lernen wir das wichtige Vokabular im Zusammenhang mit Pflegepersonal im Deutschen, einschließlich verschiedener Rollen und Verantwortlichkeiten. Wir werden auch die Bedeutung von Teamwork in einem deutschen Krankenhausumfeld untersuchen."
+        },
+        "grammarFocus": {
+            "en": {
+                "one": "Focus on using proper articles (der, die, das) with nursing-related nouns.",
+                "two": "Practice sentence structures involving 'sich vorstellen' (to introduce oneself) in a professional setting."
+            },
+            "bn": {
+                "one": "নার্সিং সম্পর্কিত বিশেষ্যগুলির সাথে সঠিক আর্টিকেল (der, die, das) ব্যবহারের উপর মনোযোগ দিন।",
+                "two": "পেশাদার পরিবেশে 'sich vorstellen' (নিজের পরিচয় দেওয়া) জড়িত বাক্য গঠন অনুশীলন করুন।"
+            },
+            "hi": {
+                "one": "नर्सिंग से संबंधित संज्ञाओं के साथ उचित लेख (der, die, das) का उपयोग करने पर ध्यान दें।",
+                "two": "एक पेशेवर सेटिंग में 'सिच वॉर्स्टेलन' (खुद को पेश करने के लिए) शामिल वाक्य संरचनाओं का अभ्यास करें।"
+            },
+            "ur": {
+                "one": "نرسنگ سے متعلق اسموں کے ساتھ مناسب مضامین (der, die, das) استعمال کرنے پر توجہ دیں۔",
+                "two": "ایک پیشہ ورانہ ترتیب میں 'sich vorstellen' (اپنا تعارف کروانے کے لیے) شامل جملوں کی ساخت پر عمل کریں۔"
+            },
+            "tr": {
+                "one": "Hemşirelikle ilgili isimlerle uygun makaleler (der, die, das) kullanmaya odaklanın.",
+                "two": "Profesyonel bir ortamda 'sich vorstellen' (kendini tanıtmak) içeren cümle yapılarını uygulayın."
+            },
+            "de": {
+                "one": "Konzentrieren Sie sich auf die Verwendung der richtigen Artikel (der, die, das) bei Nomen im Zusammenhang mit der Pflege.",
+                "two": "Üben Sie Satzstrukturen mit 'sich vorstellen' (sich vorstellen) in einem professionellen Umfeld."
+            }
+        },
+        "culturalNotes": {
+            "en": "The German healthcare system places a high value on hierarchical structures and clear lines of communication within nursing teams.",
+            "bn": "জার্মান স্বাস্থ্যসেবা ব্যবস্থা নার্সিং টিমের মধ্যে শ্রেণিবদ্ধ কাঠামো এবং যোগাযোগের সুস্পষ্ট লাইনের উপর উচ্চ মূল্য দেয়।",
+            "hi": "जर्मन स्वास्थ्य सेवा प्रणाली नर्सिंग टीमों के भीतर पदानुक्रमित संरचनाओं और संचार की स्पष्ट लाइनों को उच्च महत्व देती है।",
+            "ur": "جرمن صحت کی دیکھ بھال کا نظام نرسنگ ٹیموں کے اندر درجہ بندی کے ڈھانچے اور مواصلات کی واضح لائنوں کو بہت اہمیت دیتا ہے۔",
+            "tr": "Alman sağlık sistemi, hemşirelik ekipleri içinde hiyerarşik yapılara ve net iletişim hatlarına büyük önem vermektedir.",
+            "de": "Das deutsche Gesundheitssystem legt großen Wert auf hierarchische Strukturen und klare Kommunikationswege innerhalb von Pflegeteams."
+        },
+        "summary": {
+            "en": "Understanding the roles and terminology related to nursing staff is essential for effective communication and collaboration within the German healthcare environment.",
+            "bn": "জার্মান স্বাস্থ্যসেবা পরিবেশে কার্যকর যোগাযোগ এবং সহযোগিতার জন্য নার্সিং কর্মীদের সম্পর্কিত ভূমিকা এবং পরিভাষা বোঝা অপরিহার্য।",
+            "hi": "जर्मन स्वास्थ्य सेवा के माहौल में प्रभावी संचार और सहयोग के लिए नर्सिंग स्टाफ से संबंधित भूमिकाओं और शब्दावली को समझना आवश्यक है।",
+            "ur": "جرمن صحت کی دیکھ بھال کے ماحول میں موثر مواصلات اور تعاون کے لیے نرسنگ اسٹاف سے متعلق کرداروں اور اصطلاحات کو سمجھنا ضروری ہے۔",
+            "tr": "Alman sağlık ortamında etkili iletişim ve işbirliği için hemşirelik personeli ile ilgili rolleri ve terminolojiyi anlamak çok önemlidir.",
+            "de": "Das Verständnis der Rollen und der Terminologie im Zusammenhang mit Pflegepersonal ist für eine effektive Kommunikation und Zusammenarbeit im deutschen Gesundheitswesen unerlässlich."
+        },
+        "learningObjectives": [
+            "Identify and define key German vocabulary related to nursing staff roles.",
+            "Describe the hierarchical structure within German nursing teams.",
+            "Utilize proper grammatical structures when discussing nursing responsibilities.",
+            "Apply cultural awareness when interacting with German nursing professionals."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "Pflegekraft",
+            "article": "die",
+            "plural": "Pflegekräfte",
+            "pronunciation": "ˈpfleːɡəˌkʁaft",
+            "category": "noun",
+            "translation": {
+                "en": "Nursing Staff",
+                "bn": "নার্সিং স্টাফ",
+                "hi": "नर्सिंग स्टाफ़",
+                "ur": "نرسنگ اسٹاف",
+                "tr": "Hemşirelik Personeli"
+            },
+            "exampleSentence": "Die Pflegekraft unterstützt den Patienten bei der Körperpflege.",
+            "exampleTranslation": {
+                "en": "The nursing staff supports the patient with personal hygiene.",
+                "bn": "নার্সিং স্টাফ রোগীর ব্যক্তিগত স্বাস্থ্যবিধিতে সহায়তা করে।",
+                "hi": "नर्सिंग स्टाफ़ रोगी को व्यक्तिगत स्वच्छता में मदद करता है।",
+                "ur": "نرسنگ سٹاف مریض کو ذاتی صفائی میں مدد کرتا ہے۔",
+                "tr": "Hemşirelik personeli hastaya kişisel hijyen konusunda yardımcı olur."
+            },
+            "id": "v08_01"
+        },
+        {
+            "germanTerm": "Krankenschwester",
+            "article": "die",
+            "plural": "Krankenschwestern",
+            "pronunciation": "ˈkʁaŋkənˌʃvɛstɐ",
+            "category": "noun",
+            "translation": {
+                "en": "Nurse",
+                "bn": "নার্স",
+                "hi": "नर्स",
+                "ur": "نرس",
+                "tr": "Hemşire"
+            },
+            "exampleSentence": "Die Krankenschwester misst den Blutdruck des Patienten.",
+            "exampleTranslation": {
+                "en": "The nurse measures the patient's blood pressure.",
+                "bn": "নার্স রোগীর রক্তচাপ মাপেন।",
+                "hi": "नर्स मरीज का रक्तचाप मापती है।",
+                "ur": "نرس مریض کا بلڈ پریشر ماپتی ہے۔",
+                "tr": "Hemşire hastanın tansiyonunu ölçer."
+            },
+            "id": "v08_02"
+        },
+        {
+            "germanTerm": "Pfleger",
+            "article": "der",
+            "plural": "Pfleger",
+            "pronunciation": "ˈpfleːɡɐ",
+            "category": "noun",
+            "translation": {
+                "en": "Male Nurse",
+                "bn": "পুরুষ নার্স",
+                "hi": "पुरुष नर्स",
+                "ur": "مرد نرس",
+                "tr": "Erkek Hemşire"
+            },
+            "exampleSentence": "Der Pfleger hilft dem Patienten beim Aufstehen aus dem Bett.",
+            "exampleTranslation": {
+                "en": "The male nurse helps the patient to get out of bed.",
+                "bn": "পুরুষ নার্স রোগীকে বিছানা থেকে উঠতে সাহায্য করে।",
+                "hi": "पुरुष नर्स मरीज को बिस्तर से उठने में मदद करता है।",
+                "ur": "مرد نرس مریض کو بستر سے اٹھنے میں مدد کرتا ہے۔",
+                "tr": "Erkek hemşire hastanın yataktan kalkmasına yardımcı olur."
+            },
+            "id": "v08_03"
+        },
+        {
+            "germanTerm": "Stationsleitung",
+            "article": "die",
+            "plural": "Stationsleitungen",
+            "pronunciation": "ʃtaˈt͡si̯oːnsˌlaɪ̯tʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "Ward Manager",
+                "bn": "ওয়ার্ড ম্যানেজার",
+                "hi": "वार्ड मैनेजर",
+                "ur": "وارڈ مینیجر",
+                "tr": "Servis Yöneticisi"
+            },
+            "exampleSentence": "Die Stationsleitung organisiert den Dienstplan des Pflegepersonals.",
+            "exampleTranslation": {
+                "en": "The ward manager organizes the duty roster of the nursing staff.",
+                "bn": "ওয়ার্ড ম্যানেজার নার্সিং কর্মীদের ডিউটি ​​রোস্টার আয়োজন করেন।",
+                "hi": "वार्ड मैनेजर नर्सिंग स्टाफ की ड्यूटी रोस्टर का आयोजन करता है।",
+                "ur": "وارڈ مینیجر نرسنگ سٹاف کی ڈیوٹی روسٹر کا اہتمام کرتا ہے۔",
+                "tr": "Servis yöneticisi hemşirelik personelinin görev çizelgesini düzenler."
+            },
+            "id": "v08_04"
+        },
+        {
+            "germanTerm": "Pflegedienstleitung",
+            "article": "die",
+            "plural": "Pflegedienstleitungen",
+            "pronunciation": "ˈpfleːɡəˌdiːnstˌlaɪ̯tʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "Head of Nursing",
+                "bn": "নার্সিং প্রধান",
+                "hi": "नर्सिंग प्रमुख",
+                "ur": "نرسنگ کے سربراہ",
+                "tr": "Hemşirelik Şefi"
+            },
+            "exampleSentence": "Die Pflegedienstleitung ist für die Qualität der Pflege verantwortlich.",
+            "exampleTranslation": {
+                "en": "The head of nursing is responsible for the quality of care.",
+                "bn": "নার্সিং প্রধান যত্নের মানের জন্য দায়ী।",
+                "hi": "नर्सिंग प्रमुख देखभाल की गुणवत्ता के लिए जिम्मेदार है।",
+                "ur": "نرسنگ کے سربراہ دیکھ بھال کے معیار کے ذمہ دار ہیں۔",
+                "tr": "Hemşirelik şefi bakım kalitesinden sorumludur."
+            },
+            "id": "v08_05"
+        },
+        {
+            "germanTerm": "Teamwork",
+            "article": "das",
+            "plural": "Teamworks",
+            "pronunciation": "ˈtiːmˌvœʁk",
+            "category": "noun",
+            "translation": {
+                "en": "Teamwork",
+                "bn": "দলবদ্ধভাবে কাজ",
+                "hi": "टीमवर्क",
+                "ur": "ٹیم ورک",
+                "tr": "Takım Çalışması"
+            },
+            "exampleSentence": "Teamwork ist essentiell für eine gute Patientenversorgung.",
+            "exampleTranslation": {
+                "en": "Teamwork is essential for good patient care.",
+                "bn": "ভাল রোগীর যত্নের জন্য দলবদ্ধভাবে কাজ করা অপরিহার্য।",
+                "hi": "अच्छी रोगी देखभाल के लिए टीमवर्क आवश्यक है।",
+                "ur": "اچھے مریضوں کی دیکھ بھال کے لیے ٹیم ورک ضروری ہے۔",
+                "tr": "İyi hasta bakımı için takım çalışması şarttır."
+            },
+            "id": "v08_06"
+        },
+        {
+            "germanTerm": "Schichtdienst",
+            "article": "der",
+            "plural": "Schichtdienste",
+            "pronunciation": "ˈʃɪçtˌdiːnst",
+            "category": "noun",
+            "translation": {
+                "en": "Shift Work",
+                "bn": "শিফট ডিউটি",
+                "hi": "शिफ्ट वर्क",
+                "ur": "شفٹ ورک",
+                "tr": "Vardiyalı Çalışma"
+            },
+            "exampleSentence": "Im Schichtdienst arbeiten die Pflegekräfte rund um die Uhr.",
+            "exampleTranslation": {
+                "en": "The nursing staff works around the clock in shifts.",
+                "bn": "নার্সিং কর্মীরা শিফটে চব্বিশ ঘন্টা কাজ করেন।",
+                "hi": "नर्सिंग स्टाफ शिफ्ट में चौबीसों घंटे काम करता है।",
+                "ur": "نرسنگ سٹاف شفٹوں میں چوبیس گھنٹے کام کرتا ہے۔",
+                "tr": "Hemşirelik personeli vardiyalı olarak gün boyunca çalışır."
+            },
+            "id": "v08_07"
+        },
+        {
+            "germanTerm": "Visite",
+            "article": "die",
+            "plural": "Visiten",
+            "pronunciation": "viˈzɪtə",
+            "category": "noun",
+            "translation": {
+                "en": "Doctor's Round",
+                "bn": "ডাক্তারের রাউন্ড",
+                "hi": "डॉक्टर का चक्कर",
+                "ur": "ڈاکٹر کا چکر",
+                "tr": "Doktor Viziti"
+            },
+            "exampleSentence": "Die Pflegekraft bereitet die Patienten für die Visite vor.",
+            "exampleTranslation": {
+                "en": "The nurse prepares the patients for the doctor's round.",
+                "bn": "নার্স ডাক্তারের রাউন্ডের জন্য রোগীদের প্রস্তুত করে।",
+                "hi": "नर्स डॉक्टर के चक्कर के लिए मरीजों को तैयार करती है।",
+                "ur": "نرس ڈاکٹر کے چکر کے لیے مریضوں کو تیار کرتی ہے۔",
+                "tr": "Hemşire doktor viziti için hastaları hazırlar."
+            },
+            "id": "v08_08"
+        },
+        {
+            "germanTerm": "Dokumentation",
+            "article": "die",
+            "plural": "Dokumentationen",
+            "pronunciation": "ˌdokumɛntaˈt͡si̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "Documentation",
+                "bn": "নথিভুক্তকরণ",
+                "hi": "प्रलेखन",
+                "ur": "دستاویزی",
+                "tr": "Belgeleme"
+            },
+            "exampleSentence": "Eine genaue Dokumentation ist für die Pflege unerlässlich.",
+            "exampleTranslation": {
+                "en": "Accurate documentation is essential for nursing.",
+                "bn": "সঠিক নথিভুক্তকরণ নার্সিংয়ের জন্য অপরিহার্য।",
+                "hi": "सटीक प्रलेखन नर्सिंग के लिए आवश्यक है।",
+                "ur": "درست دستاویزات نرسنگ کے لیے ضروری ہیں۔",
+                "tr": "Doğru belgeleme hemşirelik için esastır."
+            },
+            "id": "v08_09"
+        },
+        {
+            "germanTerm": "Übergabe",
+            "article": "die",
+            "plural": "Übergaben",
+            "pronunciation": "ˈyːbɐˌɡaːbə",
+            "category": "noun",
+            "translation": {
+                "en": "Handover",
+                "bn": "হস্তান্তর",
+                "hi": "हस्तांतरण",
+                "ur": "منتقلی",
+                "tr": "Devretme"
+            },
+            "exampleSentence": "Die Übergabe erfolgt am Ende jeder Schicht.",
+            "exampleTranslation": {
+                "en": "The handover takes place at the end of each shift.",
+                "bn": "প্রতিটি শিফটের শেষে হস্তান্তর অনুষ্ঠিত হয়।",
+                "hi": "प्रत्येक शिफ्ट के अंत में हस्तांतरण होता है।",
+                "ur": "ہر شفٹ کے اختتام پر منتقلی ہوتی ہے۔",
+                "tr": "Devretme her vardiyanın sonunda gerçekleşir."
+            },
+            "id": "v08_10"
+        },
+        {
+            "germanTerm": "Patientenversorgung",
+            "article": "die",
+            "plural": "Patientenversorgungen",
+            "pronunciation": "paˈt͡si̯ɛntənfɛɐ̯ˌzɔʁɡʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "Patient Care",
+                "bn": "রোগী যত্ন",
+                "hi": "रोगी की देखभाल",
+                "ur": "مریض کی دیکھ بھال",
+                "tr": "Hasta Bakımı"
+            },
+            "exampleSentence": "Die Patientenversorgung steht im Mittelpunkt der Arbeit.",
+            "exampleTranslation": {
+                "en": "Patient care is the focus of the work.",
+                "bn": "রোগীর যত্ন কাজের কেন্দ্রবিন্দু।",
+                "hi": "रोगी की देखभाल कार्य का केंद्र है।",
+                "ur": "مریض کی دیکھ بھال کام کا مرکز ہے۔",
+                "tr": "Hasta bakımı işin odak noktasıdır."
+            },
+            "id": "v08_11"
+        },
+        {
+            "germanTerm": "Hygiene",
+            "article": "die",
+            "plural": "Hygienen",
+            "pronunciation": "hyˈɡi̯eːnə",
+            "category": "noun",
+            "translation": {
+                "en": "Hygiene",
+                "bn": "স্বাস্থ্যবিধি",
+                "hi": "स्वच्छता",
+                "ur": "صفائی",
+                "tr": "Hijyen"
+            },
+            "exampleSentence": "Die Hygiene ist im Krankenhaus besonders wichtig.",
+            "exampleTranslation": {
+                "en": "Hygiene is especially important in the hospital.",
+                "bn": "হাসপাতালে স্বাস্থ্যবিধি বিশেষভাবে গুরুত্বপূর্ণ।",
+                "hi": "अस्पताल में स्वच्छता विशेष रूप से महत्वपूर्ण है।",
+                "ur": "ہسپتال میں صفائی خاص طور پر اہم ہے۔",
+                "tr": "Hastanedeki hijyen özellikle önemlidir."
+            },
+            "id": "v08_12"
+        },
+        {
+            "germanTerm": "Verband",
+            "article": "der",
+            "plural": "Verbände",
+            "pronunciation": "fɛɐ̯ˈbant",
+            "category": "noun",
+            "translation": {
+                "en": "Bandage",
+                "bn": "ব্যান্ডেজ",
+                "hi": "पट्टी",
+                "ur": "پٹی",
+                "tr": "Bandaj"
+            },
+            "exampleSentence": "Die Pflegekraft wechselt den Verband regelmäßig.",
+            "exampleTranslation": {
+                "en": "The nurse changes the bandage regularly.",
+                "bn": "নার্স নিয়মিত ব্যান্ডেজ পরিবর্তন করে।",
+                "hi": "नर्स नियमित रूप से पट्टी बदलती है।",
+                "ur": "نرس باقاعدگی سے پٹی تبدیل کرتی ہے۔",
+                "tr": "Hemşire bandajı düzenli olarak değiştirir."
+            },
+            "id": "v08_13"
+        },
+        {
+            "germanTerm": "Medikament",
+            "article": "das",
+            "plural": "Medikamente",
+            "pronunciation": "medikamɛnt",
+            "category": "noun",
+            "translation": {
+                "en": "Medication",
+                "bn": "ওষুধ",
+                "hi": "दवा",
+                "ur": "دوا",
+                "tr": "İlaç"
+            },
+            "exampleSentence": "Die Pflegekraft verabreicht die Medikamente nach Anweisung des Arztes.",
+            "exampleTranslation": {
+                "en": "The nurse administers the medication according to the doctor's instructions.",
+                "bn": "নার্স ডাক্তারের নির্দেশনা অনুযায়ী ওষুধ প্রয়োগ করেন।",
+                "hi": "नर्स डॉक्टर के निर्देशानुसार दवा देती है।",
+                "ur": "نرس ڈاکٹر کی ہدایت کے مطابق دوا دیتی ہے۔",
+                "tr": "Hemşire ilacı doktorun talimatlarına göre uygular."
+            },
+            "id": "v08_14"
+        },
+        {
+            "germanTerm": "Injektion",
+            "article": "die",
+            "plural": "Injektionen",
+            "pronunciation": "ɪnjɛkˈt͡si̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "Injection",
+                "bn": "ইনজেকশন",
+                "hi": "इंजेक्शन",
+                "ur": "انجکشن",
+                "tr": "Enjeksiyon"
+            },
+            "exampleSentence": "Die Pflegekraft gibt dem Patienten eine Injektion.",
+            "exampleTranslation": {
+                "en": "The nurse gives the patient an injection.",
+                "bn": "নার্স রোগীকে একটি ইনজেকশন দেন।",
+                "hi": "नर्स मरीज को इंजेक्शन लगाती है।",
+                "ur": "نرس مریض کو انجکشن لگاتی ہے۔",
+                "tr": "Hemşire hastaya bir enjeksiyon yapar."
+            },
+            "id": "v08_15"
+        },
+        {
+            "germanTerm": "Blutdruck",
+            "article": "der",
+            "plural": "Blutdrücke",
+            "pronunciation": "ˈbluːtˌdʁʊk",
+            "category": "noun",
+            "translation": {
+                "en": "Blood Pressure",
+                "bn": "রক্তচাপ",
+                "hi": "रक्तचाप",
+                "ur": "بلڈ پریشر",
+                "tr": "Kan Basıncı"
+            },
+            "exampleSentence": "Die Pflegekraft misst regelmäßig den Blutdruck des Patienten.",
+            "exampleTranslation": {
+                "en": "The nurse regularly measures the patient's blood pressure.",
+                "bn": "নার্স নিয়মিত রোগীর রক্তচাপ মাপেন।",
+                "hi": "नर्स नियमित रूप से मरीज का रक्तचाप मापती है।",
+                "ur": "نرس باقاعدگی سے مریض کا بلڈ پریشر ماپتی ہے۔",
+                "tr": "Hemşire düzenli olarak hastanın kan basıncını ölçer."
+            },
+            "id": "v08_16"
+        },
+        {
+            "germanTerm": "Puls",
+            "article": "der",
+            "plural": "Pulse",
+            "pronunciation": "pʊls",
+            "category": "noun",
+            "translation": {
+                "en": "Pulse",
+                "bn": "পালস",
+                "hi": "नाड़ी",
+                "ur": "نبض",
+                "tr": "Nabız"
+            },
+            "exampleSentence": "Die Pflegekraft kontrolliert den Puls des Patienten.",
+            "exampleTranslation": {
+                "en": "The nurse checks the patient's pulse.",
+                "bn": "নার্স রোগীর পালস পরীক্ষা করেন।",
+                "hi": "नर्स मरीज की नाड़ी की जांच करती है।",
+                "ur": "نرس مریض کی نبض کی جانچ کرتی ہے۔",
+                "tr": "Hemşire hastanın nabzını kontrol eder."
+            },
+            "id": "v08_17"
+        },
+        {
+            "germanTerm": "Atmung",
+            "article": "die",
+            "plural": "Atmungen",
+            "pronunciation": "ˈatmuŋ",
+            "category": "noun",
+            "translation": {
+                "en": "Respiration",
+                "bn": "শ্বাস-প্রশ্বাস",
+                "hi": "श्वास",
+                "ur": "سانس لینا",
+                "tr": "Solunum"
+            },
+            "exampleSentence": "Die Pflegekraft beobachtet die Atmung des Patienten.",
+            "exampleTranslation": {
+                "en": "The nurse observes the patient's breathing.",
+                "bn": "নার্স রোগীর শ্বাস-প্রশ্বাস পর্যবেক্ষণ করেন।",
+                "hi": "नर्स मरीज की सांस लेने की क्रिया का निरीक्षण करती है।",
+                "ur": "نرس مریض کی سانس لینے کا مشاہدہ کرتی ہے۔",
+                "tr": "Hemşire hastanın solunumunu gözlemler."
+            },
+            "id": "v08_18"
+        },
+        {
+            "germanTerm": "Lagerung",
+            "article": "die",
+            "plural": "Lagerungen",
+            "pronunciation": "ˈlaːɡərʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "Positioning",
+                "bn": "অবস্থান",
+                "hi": "पोजिशनिंग",
+                "ur": "پوزیشننگ",
+                "tr": "Pozisyon Verme"
+            },
+            "exampleSentence": "Die korrekte Lagerung des Patienten ist wichtig zur Dekubitusprophylaxe.",
+            "exampleTranslation": {
+                "en": "Correct positioning of the patient is important for pressure sore prevention.",
+                "bn": "ডিকিউবিটাস প্রোফিল্যাক্সিসের জন্য রোগীর সঠিক অবস্থান গুরুত্বপূর্ণ।",
+                "hi": "प्रेशर सोर की रोकथाम के लिए रोगी की सही पोजीशनिंग महत्वपूर्ण है।",
+                "ur": "پریشر سور کی روک تھام کے لیے مریض کی درست پوزیشننگ ضروری ہے۔",
+                "tr": "Bası yarası önleme için hastanın doğru pozisyonu önemlidir."
+            },
+            "id": "v08_19"
+        },
+        {
+            "germanTerm": "Dekubitus",
+            "article": "der",
+            "plural": "Dekubiti",
+            "pronunciation": "dekuˈbiːtʊs",
+            "category": "noun",
+            "translation": {
+                "en": "Pressure Ulcer",
+                "bn": "প্রেশার আলসার",
+                "hi": "प्रेशर अल्सर",
+                "ur": "پریشر السر",
+                "tr": "Bası Yarası"
+            },
+            "exampleSentence": "Ein Dekubitus kann durch falsche Lagerung entstehen.",
+            "exampleTranslation": {
+                "en": "A pressure ulcer can develop due to incorrect positioning.",
+                "bn": "ভুল অবস্থানের কারণে একটি প্রেশার আলসার তৈরি হতে পারে।",
+                "hi": "गलत पोजीशनिंग के कारण प्रेशर अल्सर विकसित हो सकता है।",
+                "ur": "غلط پوزیشننگ کی وجہ سے پریشر السر بن سکتا ہے۔",
+                "tr": "Yanlış pozisyonlama nedeniyle bası yarası oluşabilir."
+            },
+            "id": "v08_20"
+        },
+        {
+            "germanTerm": "Wundversorgung",
+            "article": "die",
+            "plural": "Wundversorgungen",
+            "pronunciation": "ˈvʊntfɛɐ̯ˌzɔʁɡʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "Wound Care",
+                "bn": "ক্ষত যত্ন",
+                "hi": "घाव की देखभाल",
+                "ur": "زخم کی دیکھ بھال",
+                "tr": "Yara Bakımı"
+            },
+            "exampleSentence": "Die Wundversorgung erfolgt nach ärztlicher Anweisung.",
+            "exampleTranslation": {
+                "en": "Wound care is carried out according to the doctor's instructions.",
+                "bn": "চিকিৎসকের নির্দেশনা অনুযায়ী ক্ষত যত্ন নেওয়া হয়।",
+                "hi": "घाव की देखभाल डॉक्टर के निर्देशों के अनुसार की जाती है।",
+                "ur": "ڈاکٹر کے ہدایات کے مطابق زخم کی دیکھ بھال کی جاتی ہے۔",
+                "tr": "Yara bakımı doktorun talimatlarına göre yapılır."
+            },
+            "id": "v08_21"
+        },
+        {
+            "germanTerm": "Katheter",
+            "article": "der",
+            "plural": "Katheter",
+            "pronunciation": "kaˈteːtɐ",
+            "category": "noun",
+            "translation": {
+                "en": "Catheter",
+                "bn": "ক্যাথেটার",
+                "hi": "कैथेटर",
+                "ur": "کیتھیٹر",
+                "tr": "Kateter"
+            },
+            "exampleSentence": "Die Pflegekraft legt dem Patienten einen Katheter.",
+            "exampleTranslation": {
+                "en": "The nurse inserts a catheter into the patient.",
+                "bn": "নার্স রোগীর মধ্যে একটি ক্যাথেটার ঢোকান।",
+                "hi": "नर्स मरीज में कैथेटर डालती है।",
+                "ur": "نرس مریض میں کیتھیٹر داخل کرتی ہے۔",
+                "tr": "Hemşire hastaya bir kateter takar."
+            },
+            "id": "v08_22"
+        },
+        {
+            "germanTerm": "Infusion",
+            "article": "die",
+            "plural": "Infusionen",
+            "pronunciation": "ɪnfuzi̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "Intravenous Infusion",
+                "bn": "শিরায় ইনফিউশন",
+                "hi": "अंतःशिरा जलसेक",
+                "ur": "وریدی انفیوژن",
+                "tr": "İntravenöz İnfüzyon"
+            },
+            "exampleSentence": "Die Infusion läuft über einen venösen Zugang.",
+            "exampleTranslation": {
+                "en": "The infusion runs through a venous access.",
+                "bn": "ইনফিউশন একটি শিরায় প্রবেশ পথের মাধ্যমে চলে।",
+                "hi": "जलसेक एक शिरापरक पहुंच के माध्यम से चलता है।",
+                "ur": "انفیوژن ایک وریدوی رسائی کے ذریعے چلتا ہے۔",
+                "tr": "İnfüzyon bir venöz erişim yoluyla çalışır."
+            },
+            "id": "v08_23"
+        },
+        {
+            "germanTerm": "Vitalzeichen",
+            "article": "die (pl.)",
+            "plural": "Vitalzeichen",
+            "pronunciation": "viˈtaːlˌzaɪ̯çən",
+            "category": "noun",
+            "translation": {
+                "en": "Vital Signs",
+                "bn": "ভাইটাল লক্ষণ",
+                "hi": "महत्वपूर्ण संकेत",
+                "ur": "اہم نشانات",
+                "tr": "Yaşamsal Belirtiler"
+            },
+            "exampleSentence": "Die Überwachung der Vitalzeichen ist ein wichtiger Bestandteil der Pflege.",
+            "exampleTranslation": {
+                "en": "Monitoring vital signs is an important part of nursing care.",
+                "bn": "ভাইটাল লক্ষণ পর্যবেক্ষণ করা নার্সিং যত্নের একটি গুরুত্বপূর্ণ অংশ।",
+                "hi": "महत्वपूर्ण संकेतों की निगरानी नर्सिंग देखभाल का एक महत्वपूर्ण हिस्सा है।",
+                "ur": "اہم نشانات کی نگرانی نرسنگ کیئر کا ایک اہم حصہ ہے۔",
+                "tr": "Yaşamsal belirtileri izlemek hemşirelik bakımının önemli bir parçasıdır."
+            },
+            "id": "v08_24"
+        },
+        {
+            "germanTerm": "Reanimation",
+            "article": "die",
+            "plural": "Reanimationen",
+            "pronunciation": "ʁeanimat͡si̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "Resuscitation",
+                "bn": "পুনর্জীবন",
+                "hi": "पुनर्जीवन",
+                "ur": "احیاء",
+                "tr": "Resüsitasyon"
+            },
+            "exampleSentence": "Bei einem Herzstillstand muss sofort mit der Reanimation begonnen werden.",
+            "exampleTranslation": {
+                "en": "In the event of cardiac arrest, resuscitation must be started immediately.",
+                "bn": "হৃদযন্ত্র বন্ধ হয়ে গেলে অবিলম্বে পুনর্জীবন শুরু করতে হবে।",
+                "hi": "कार्डियक अरेस्ट की स्थिति में, पुनर्जीवन तुरंत शुरू किया जाना चाहिए।",
+                "ur": "قلبی گرفتاری کی صورت میں، فوری طور پر بحالی شروع کرنی چاہیے۔",
+                "tr": "Kardiyak arrest durumunda, resüsitasyona hemen başlanmalıdır."
+            },
+            "id": "v08_25"
+        },
+        {
+            "germanTerm": "Schmerzmittel",
+            "article": "das",
+            "plural": "Schmerzmittel",
+            "pronunciation": "ˈʃmɛʁt͡sˌmɪtəl",
+            "category": "noun",
+            "translation": {
+                "en": "Painkiller",
+                "bn": "ব্যথানাশক",
+                "hi": "दर्द निवारक",
+                "ur": "درد کم کرنے والی دوا",
+                "tr": "Ağrı Kesici"
+            },
+            "exampleSentence": "Die Pflegekraft gibt dem Patienten ein Schmerzmittel gegen seine Schmerzen.",
+            "exampleTranslation": {
+                "en": "The nurse gives the patient a painkiller for his pain.",
+                "bn": "নার্স রোগীকে তার ব্যথার জন্য ব্যথানাশক দেন।",
+                "hi": "नर्स मरीज को उसके दर्द के लिए दर्द निवारक देती है।",
+                "ur": "نرس مریض کو اس کے درد کے لیے درد کم کرنے والی دوا دیتی ہے۔",
+                "tr": "Hemşire hastaya ağrısı için bir ağrı kesici verir."
+            },
+            "id": "v08_26"
+        },
+        {
+            "germanTerm": "Pflegeplanung",
+            "article": "die",
+            "plural": "Pflegeplanungen",
+            "pronunciation": "ˈpfleːɡəˌplaːnʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "Care Planning",
+                "bn": "যত্ন পরিকল্পনা",
+                "hi": "देखभाल योजना",
+                "ur": "نگہداشت کی منصوبہ بندی",
+                "tr": "Bakım Planlaması"
+            },
+            "exampleSentence": "Die Pflegeplanung wird individuell für jeden Patienten erstellt.",
+            "exampleTranslation": {
+                "en": "Care planning is created individually for each patient.",
+                "bn": "যত্ন পরিকল্পনা প্রতিটি রোগীর জন্য পৃথকভাবে তৈরি করা হয়।",
+                "hi": "देखभाल योजना प्रत्येक रोगी के लिए व्यक्तिगत रूप से बनाई जाती है।",
+                "ur": "نگہداشت کی منصوبہ بندی ہر مریض کے لیے انفرادی طور پر بنائی جاتی ہے۔",
+                "tr": "Bakım planlaması her hasta için ayrı ayrı oluşturulur."
+            },
+            "id": "v08_27"
+        },
+        {
+            "germanTerm": "Anamnese",
+            "article": "die",
+            "plural": "Anamnesen",
+            "pronunciation": "anaˈmneːzə",
+            "category": "noun",
+            "translation": {
+                "en": "Medical History",
+                "bn": "চিকিৎসা ইতিহাস",
+                "hi": "चिकित्सा इतिहास",
+                "ur": "طبی تاریخ",
+                "tr": "Tıbbi Geçmiş"
+            },
+            "exampleSentence": "Die Pflegekraft erhebt die Anamnese des Patienten.",
+            "exampleTranslation": {
+                "en": "The nurse takes the patient's medical history.",
+                "bn": "নার্স রোগীর চিকিৎসা ইতিহাস নেন।",
+                "hi": "नर्स मरीज का चिकित्सा इतिहास लेती है।",
+                "ur": "نرس مریض کی طبی تاریخ لیتی ہے۔",
+                "tr": "Hemşire hastanın tıbbi geçmişini alır."
+            },
+            "id": "v08_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Medication Administration",
+                "bn": "ওষুধ প্রশাসন",
+                "hi": "दवा प्रशासन",
+                "ur": "ادویات کی انتظامیہ",
+                "tr": "İlaç Uygulaması"
+            },
+            "context": {
+                "en": "A nurse is clarifying the medication schedule with a doctor regarding a patient.",
+                "bn": "একজন নার্স একজন রোগীর বিষয়ে ডাক্তারের সাথে ওষুধের সময়সূচী স্পষ্ট করছেন।",
+                "hi": "एक नर्स एक रोगी के बारे में एक डॉक्टर के साथ दवा कार्यक्रम को स्पष्ट कर रही है।",
+                "ur": "ایک نرس ایک مریض کے بارے میں ڈاکٹر کے ساتھ ادویات کے شیڈول کی وضاحت کر رہی ہے۔",
+                "tr": "Bir hemşire, bir hasta hakkında doktorla ilaç programını açıklığa kavuşturuyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Morgen, Herr Doktor Schmidt. Ich habe eine Frage zur Medikamentenverordnung für Herrn Müller.",
+                    "translation": {
+                        "en": "Good morning, Dr. Schmidt. I have a question about the medication order for Mr. Müller.",
+                        "bn": "শুভ সকাল, ডঃ শ্মিট। মিঃ মুলারের জন্য ওষুধের আদেশ সম্পর্কে আমার একটি প্রশ্ন আছে।",
+                        "hi": "शुभ प्रभात, डॉ. श्मिट। मेरे पास श्री मुलर के लिए दवा के आदेश के बारे में एक प्रश्न है।",
+                        "ur": "صبح بخیر، ڈاکٹر شمٹ۔ میرے پاس مسٹر مولر کے لیے دوا کے آرڈر کے بارے میں ایک سوال ہے۔",
+                        "tr": "Günaydın Doktor Schmidt. Bay Müller için ilaç siparişi hakkında bir sorum var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Morgen, Schwester Weber. Was gibt es denn?",
+                    "translation": {
+                        "en": "Good morning, Sister Weber. What's the matter?",
+                        "bn": "শুভ সকাল, সিস্টার ওয়েবার। কি হয়েছে?",
+                        "hi": "शुभ प्रभात, सिस्टर वेबर। क्या बात है?",
+                        "ur": "صبح بخیر، سسٹر ویبر۔ کیا مسئلہ ہے؟",
+                        "tr": "Günaydın Hemşire Weber. Sorun nedir?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Die Verordnung für das Schmerzmittel ist etwas unklar. Soll Herr Müller es bei Bedarf oder regelmäßig bekommen?",
+                    "translation": {
+                        "en": "The order for the pain medication is a bit unclear. Should Mr. Müller receive it as needed or regularly?",
+                        "bn": "ব্যথানাশক ওষুধের আদেশটি কিছুটা অস্পষ্ট। মিঃ মুলারকে কি প্রয়োজনে বা নিয়মিতভাবে এটি গ্রহণ করা উচিত?",
+                        "hi": "दर्द निवारक दवा का आदेश थोड़ा अस्पष्ट है। क्या श्री मुलर को यह आवश्यकतानुसार या नियमित रूप से प्राप्त होना चाहिए?",
+                        "ur": "درد کی دوا کا آرڈر تھوڑا مبہم ہے۔ کیا مسٹر مولر کو یہ ضرورت کے مطابق یا باقاعدگی سے ملنا چاہیے؟",
+                        "tr": "Ağrı kesici ilaç siparişi biraz belirsiz. Bay Müller ilacı gerektiğinde mi yoksa düzenli olarak mı almalı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Regelmäßig, alle 6 Stunden. Ich passe die Verordnung im System an.",
+                    "translation": {
+                        "en": "Regularly, every 6 hours. I'll adjust the order in the system.",
+                        "bn": "নিয়মিত, প্রতি ৬ ঘণ্টায়। আমি সিস্টেমে অর্ডারটি সামঞ্জস্য করব।",
+                        "hi": "नियमित रूप से, हर 6 घंटे में। मैं सिस्टम में ऑर्डर समायोजित करूंगा।",
+                        "ur": "باقاعدگی سے، ہر 6 گھنٹے میں۔ میں نظام میں آرڈر کو ایڈجسٹ کروں گا۔",
+                        "tr": "Düzenli olarak, her 6 saatte bir. Sistemdeki siparişi ayarlayacağım."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Vielen Dank, Herr Doktor. Das hilft sehr.",
+                    "translation": {
+                        "en": "Thank you very much, Dr. That helps a lot.",
+                        "bn": "আপনাকে অনেক ধন্যবাদ, ডঃ। এটি অনেক সাহায্য করে।",
+                        "hi": "आपका बहुत-बहुत धन्यवाद, डॉक्टर। इससे बहुत मदद मिलती है।",
+                        "ur": "آپ کا بہت شکریہ، ڈاکٹر۔ اس سے بہت مدد ملتی ہے۔",
+                        "tr": "Çok teşekkür ederim Doktor. Bu çok yardımcı oluyor."
+                    }
+                }
+            ],
+            "id": "d08_01"
+        },
+        {
+            "title": {
+                "en": "Patient Transfer",
+                "bn": "রোগী স্থানান্তর",
+                "hi": "रोगी स्थानांतरण",
+                "ur": "مریض کی منتقلی",
+                "tr": "Hasta Transferi"
+            },
+            "context": {
+                "en": "Nursing staff are discussing the transfer of a patient to another department.",
+                "bn": "নার্সিং কর্মীরা অন্য বিভাগে রোগীর স্থানান্তর নিয়ে আলোচনা করছেন।",
+                "hi": "नर्सिंग स्टाफ एक मरीज को दूसरे विभाग में स्थानांतरित करने पर चर्चा कर रहे हैं।",
+                "ur": "نرسنگ سٹاف ایک مریض کو دوسرے شعبے میں منتقل کرنے پر بات کر رہے ہیں۔",
+                "tr": "Hemşirelik personeli, bir hastanın başka bir bölüme transferini görüşüyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Stationsleitung Frau Meier",
+                    "speakerRole": "Stationsleitung",
+                    "germanText": "Schwester Julia, wir müssen Herrn Schmidt auf die Intensivstation verlegen. Sein Zustand hat sich verschlechtert.",
+                    "translation": {
+                        "en": "Sister Julia, we need to transfer Mr. Schmidt to the intensive care unit. His condition has deteriorated.",
+                        "bn": "সিস্টার জুলিয়া, আমাদের মিঃ শ্মিটকে নিবিড় পরিচর্যা ইউনিটে স্থানান্তর করতে হবে। তার অবস্থার অবনতি হয়েছে।",
+                        "hi": "सिस्टर जूलिया, हमें श्री श्मिट को गहन चिकित्सा इकाई में स्थानांतरित करने की आवश्यकता है। उनकी हालत बिगड़ गई है।",
+                        "ur": "سسٹر جولیا، ہمیں مسٹر شمٹ کو انتہائی نگہداشت یونٹ میں منتقل کرنے کی ضرورت ہے۔ ان کی حالت بگڑ گئی ہے۔",
+                        "tr": "Hemşire Julia, Bay Schmidt'i yoğun bakım ünitesine nakletmemiz gerekiyor. Durumu kötüleşti."
+                    }
+                },
+                {
+                    "speaker": "Schwester Julia",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Okay, Frau Meier. Ich bereite alles für den Transport vor. Brauchen wir zusätzliche Unterstützung?",
+                    "translation": {
+                        "en": "Okay, Ms. Meier. I'll prepare everything for transport. Do we need additional support?",
+                        "bn": "ঠিক আছে, মিসেস মিয়ার। আমি পরিবহণের জন্য সবকিছু প্রস্তুত করব। আমাদের কি অতিরিক্ত সহায়তার প্রয়োজন?",
+                        "hi": "ठीक है, सुश्री मेयर। मैं परिवहन के लिए सब कुछ तैयार कर लूंगी। क्या हमें अतिरिक्त सहायता की आवश्यकता है?",
+                        "ur": "ٹھیک ہے، محترمہ میئر۔ میں نقل و حمل کے لیے سب کچھ تیار کروں گی۔ کیا ہمیں اضافی مدد کی ضرورت ہے؟",
+                        "tr": "Tamam, Bayan Meier. Taşıma için her şeyi hazırlayacağım. Ek desteğe ihtiyacımız var mı?"
+                    }
+                },
+                {
+                    "speaker": "Stationsleitung Frau Meier",
+                    "speakerRole": "Stationsleitung",
+                    "germanText": "Ja, bitte holen Sie Pfleger Thomas dazu. Er kann beim Umlagern helfen.",
+                    "translation": {
+                        "en": "Yes, please get Nurse Thomas to help. He can help with repositioning.",
+                        "bn": "হ্যাঁ, দয়া করে নার্স থমাসকে ডেকে আনুন। তিনি পুনর্বিন্যাস করতে সাহায্য করতে পারেন।",
+                        "hi": "हाँ, कृपया नर्स थॉमस को मदद करने के लिए बुलाओ। वह पुन: स्थापित करने में मदद कर सकते हैं।",
+                        "ur": "ہاں، براہ کرم نرس تھامس کو مدد کے لیے بلائیں۔ وہ دوبارہ پوزیشن دینے میں مدد کر سکتے ہیں۔",
+                        "tr": "Evet, lütfen Hemşire Thomas'ı yardıma çağırın. Yeniden konumlandırmaya yardımcı olabilir."
+                    }
+                },
+                {
+                    "speaker": "Schwester Julia",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Alles klar, ich informiere Pfleger Thomas sofort.",
+                    "translation": {
+                        "en": "All right, I'll inform Nurse Thomas immediately.",
+                        "bn": "ঠিক আছে, আমি অবিলম্বে নার্স থমাসকে জানাব।",
+                        "hi": "ठीक है, मैं तुरंत नर्स थॉमस को सूचित कर दूँगी।",
+                        "ur": "ٹھیک ہے، میں فوری طور پر نرس تھامس کو مطلع کر دوں گی۔",
+                        "tr": "Tamam, Hemşire Thomas'ı hemen bilgilendireceğim."
+                    }
+                },
+                {
+                    "speaker": "Pfleger Thomas",
+                    "speakerRole": "Pfleger",
+                    "germanText": "Ich bin bereit. Was muss ich tun?",
+                    "translation": {
+                        "en": "I'm ready. What do I need to do?",
+                        "bn": "আমি প্রস্তুত. আমাকে কি করতে হবে?",
+                        "hi": "मैं तैयार हूँ। मुझे क्या करना होगा?",
+                        "ur": "میں تیار ہوں۔ مجھے کیا کرنے کی ضرورت ہے؟",
+                        "tr": "Hazırım. Ne yapmam gerekiyor?"
+                    }
+                }
+            ],
+            "id": "d08_02"
+        },
+        {
+            "title": {
+                "en": "Shift Handover",
+                "bn": "শিফট হস্তান্তর",
+                "hi": "शिफ्ट हैंडओवर",
+                "ur": "شفٹ ہینڈ اوور",
+                "tr": "Vardiya Devri"
+            },
+            "context": {
+                "en": "Nursing staff are handing over information about patients at the end of their shift.",
+                "bn": "নার্সিং কর্মীরা তাদের শিফট শেষে রোগীদের সম্পর্কে তথ্য হস্তান্তর করছেন।",
+                "hi": "नर्सिंग स्टाफ अपनी शिफ्ट के अंत में मरीजों के बारे में जानकारी सौंप रहे हैं।",
+                "ur": "نرسنگ سٹاف اپنی شفٹ کے اختتام پر مریضوں کے بارے میں معلومات سونپ رہے ہیں۔",
+                "tr": "Hemşirelik personeli, vardiyalarının sonunda hastalar hakkında bilgi aktarıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Lisa",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Abend, Schwester Anna. Hier ist die Übergabe. Bei Frau Weber ist die Wunde leicht gerötet.",
+                    "translation": {
+                        "en": "Good evening, Sister Anna. Here's the handover. Mrs. Weber's wound is slightly red.",
+                        "bn": "শুভ সন্ধ্যা, সিস্টার আনা। এই হল হস্তান্তর। মিসেস ওয়েবারের ক্ষত সামান্য লাল হয়ে গেছে।",
+                        "hi": "शुभ संध्या, सिस्टर अन्ना। यहाँ है हैंडओवर। श्रीमती वेबर का घाव थोड़ा लाल है।",
+                        "ur": "شب بخیر، سسٹر انا۔ یہ ہے ہینڈ اوور۔ محترمہ ویبر کا زخم قدرے سرخ ہے۔",
+                        "tr": "İyi akşamlar Hemşire Anna. İşte devir. Bayan Weber'in yarası hafifçe kızarmış."
+                    }
+                },
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Danke, Lisa. Haben Sie den Arzt informiert?",
+                    "translation": {
+                        "en": "Thank you, Lisa. Did you inform the doctor?",
+                        "bn": "ধন্যবাদ, লিসা। আপনি কি ডাক্তারকে জানিয়েছেন?",
+                        "hi": "धन्यवाद, लिसा। क्या आपने डॉक्टर को सूचित किया?",
+                        "ur": "شکریہ، لیزا۔ کیا آپ نے ڈاکٹر کو مطلع کیا؟",
+                        "tr": "Teşekkürler Lisa. Doktora haber verdin mi?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Lisa",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ja, er hat eine Salbe verordnet. Die muss zweimal täglich aufgetragen werden.",
+                    "translation": {
+                        "en": "Yes, he prescribed an ointment. It needs to be applied twice a day.",
+                        "bn": "হ্যাঁ, তিনি একটি মলম লিখে দিয়েছেন। এটি দিনে দুবার প্রয়োগ করতে হবে।",
+                        "hi": "हाँ, उन्होंने एक मलहम लिख दिया है। इसे दिन में दो बार लगाना होगा।",
+                        "ur": "ہاں، انہوں نے ایک مرہم تجویز کیا ہے۔ اسے دن میں دو بار لگانا ہوگا۔",
+                        "tr": "Evet, bir merhem yazdı. Günde iki kez uygulanması gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Gut, das werde ich beachten. Gibt es sonst noch etwas?",
+                    "translation": {
+                        "en": "Good, I will pay attention to that. Is there anything else?",
+                        "bn": "ভালো, আমি এটা লক্ষ্য রাখব। অন্য কিছু আছে?",
+                        "hi": "अच्छा, मैं उस पर ध्यान दूँगी। और कुछ है?",
+                        "ur": "اچھا، میں اس پر توجہ دوں گی۔ کیا اور کچھ ہے؟",
+                        "tr": "Güzel, ona dikkat edeceğim. Başka bir şey var mı?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Lisa",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Klein hat heute etwas weniger gegessen. Beobachten Sie das bitte.",
+                    "translation": {
+                        "en": "Mr. Klein ate a little less today. Please observe that.",
+                        "bn": "মিঃ ক্লেইন আজ একটু কম খেয়েছেন। অনুগ্রহ করে এটি লক্ষ্য করুন।",
+                        "hi": "श्री क्लेन ने आज थोड़ा कम खाया। कृपया इसे देखें।",
+                        "ur": "مسٹر کلین نے آج تھوڑا کم کھایا۔ براہ کرم اس کا مشاہدہ کریں۔",
+                        "tr": "Bay Klein bugün biraz daha az yedi. Lütfen bunu gözlemleyin."
+                    }
+                }
+            ],
+            "id": "d08_03"
+        },
+        {
+            "title": {
+                "en": "Teamwork during Emergency",
+                "bn": "জরুরী অবস্থার সময় দলবদ্ধভাবে কাজ করা",
+                "hi": "आपातकाल के दौरान टीम वर्क",
+                "ur": "ایمرجنسی کے دوران ٹیم ورک",
+                "tr": "Acil Durum Sırasında Takım Çalışması"
+            },
+            "context": {
+                "en": "A patient collapses, and the nursing staff and a doctor work together to provide immediate care.",
+                "bn": "একজন রোগী অজ্ঞান হয়ে পড়েন, এবং নার্সিং স্টাফ এবং একজন ডাক্তার একসাথে তাত্ক্ষণিক যত্ন প্রদানের জন্য কাজ করেন।",
+                "hi": "एक मरीज ढह जाता है, और नर्सिंग स्टाफ और एक डॉक्टर तत्काल देखभाल प्रदान करने के लिए मिलकर काम करते हैं।",
+                "ur": "ایک مریض گر جاتا ہے، اور نرسنگ سٹاف اور ایک ڈاکٹر فوری دیکھ بھال فراہم کرنے کے لیے مل کر کام کرتے ہیں۔",
+                "tr": "Bir hasta bayılır ve hemşirelik personeli ve bir doktor acil bakım sağlamak için birlikte çalışır."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Maria",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Berger ist kollabiert! Schnell, Hilfe!",
+                    "translation": {
+                        "en": "Mr. Berger has collapsed! Quickly, help!",
+                        "bn": "মিঃ বার্গার অজ্ঞান হয়ে গেছেন! তাড়াতাড়ি, সাহায্য!",
+                        "hi": "श्री बर्जर ढह गए हैं! जल्दी करो, मदद करो!",
+                        "ur": "مسٹر برجر گر گئے ہیں! جلدی کرو، مدد کرو!",
+                        "tr": "Bay Berger bayıldı! Çabuk, yardım edin!"
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Was ist passiert? Sauerstoff!",
+                    "translation": {
+                        "en": "What happened? Oxygen!",
+                        "bn": "কি হয়েছে? অক্সিজেন!",
+                        "hi": "क्या हुआ? ऑक्सीजन!",
+                        "ur": "کیا ہوا؟ آکسیجن!",
+                        "tr": "Ne oldu? Oksijen!"
+                    }
+                },
+                {
+                    "speaker": "Pfleger Kevin",
+                    "speakerRole": "Pfleger",
+                    "germanText": "Ich hole den Defibrillator!",
+                    "translation": {
+                        "en": "I'll get the defibrillator!",
+                        "bn": "আমি ডিফিব্রিলেটর আনছি!",
+                        "hi": "मैं डीफिब्रिलेटर लाता हूँ!",
+                        "ur": "میں ڈیفبریلیٹر لاتا ہوں!",
+                        "tr": "Defibrilatörü getireceğim!"
+                    }
+                },
+                {
+                    "speaker": "Schwester Maria",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Sein Puls ist schwach. Dr. Lehmann, was sollen wir tun?",
+                    "translation": {
+                        "en": "His pulse is weak. Dr. Lehmann, what should we do?",
+                        "bn": "তার নাড়ি দুর্বল। ডঃ লেহম্যান, আমাদের কী করা উচিত?",
+                        "hi": "उनकी नाड़ी कमजोर है। डॉ. लेहमैन, हमें क्या करना चाहिए?",
+                        "ur": "اس کی نبض کمزور ہے۔ ڈاکٹر لیمن، ہمیں کیا کرنا چاہیے؟",
+                        "tr": "Nabzı zayıf. Doktor Lehmann, ne yapmalıyız?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Beginnen Sie mit der Reanimation! Kevin, bereiten Sie die Intubation vor.",
+                    "translation": {
+                        "en": "Start resuscitation! Kevin, prepare for intubation.",
+                        "bn": "পুনরুজ্জীবন শুরু করুন! কেভিন, ইন্টুবেশনের জন্য প্রস্তুত হন।",
+                        "hi": "पुनर्जीवन शुरू करें! केविन, इंटुबैशन की तैयारी करें।",
+                        "ur": "دوبارہ زندگی شروع کریں! کیون، انٹیوبیشن کے لیے تیاری کریں۔",
+                        "tr": "Canlandırmaya başlayın! Kevin, entübasyona hazırlanın."
+                    }
+                }
+            ],
+            "id": "d08_04"
+        },
+        {
+            "title": {
+                "en": "Care Plan Discussion",
+                "bn": "যত্ন পরিকল্পনা আলোচনা",
+                "hi": "देखभाल योजना चर्चा",
+                "ur": "دیکھ بھال کے منصوبے پر تبادلہ خیال",
+                "tr": "Bakım Planı Tartışması"
+            },
+            "context": {
+                "en": "The nursing team and the head nurse are discussing the care plan for a long-term patient.",
+                "bn": "নার্সিং দল এবং প্রধান নার্স দীর্ঘমেয়াদী রোগীর যত্ন পরিকল্পনা নিয়ে আলোচনা করছেন।",
+                "hi": "नर्सिंग टीम और हेड नर्स एक दीर्घकालिक रोगी के लिए देखभाल योजना पर चर्चा कर रहे हैं।",
+                "ur": "نرسنگ ٹیم اور ہیڈ نرس ایک طویل مدتی مریض کے لیے نگہداشت کے منصوبے پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Hemşirelik ekibi ve baş hemşire, uzun vadeli bir hasta için bakım planını görüşüyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Pflegedienstleitung Frau Schulz",
+                    "speakerRole": "Pflegedienstleitung",
+                    "germanText": "Wir müssen den Pflegeplan für Frau Hartmann anpassen. Sie zeigt zunehmend Anzeichen von Depression.",
+                    "translation": {
+                        "en": "We need to adjust the care plan for Mrs. Hartmann. She is increasingly showing signs of depression.",
+                        "bn": "আমাদের মিসেস হার্টম্যানের যত্ন পরিকল্পনা সামঞ্জস্য করতে হবে। তিনি ক্রমবর্ধমানভাবে হতাশার লক্ষণ দেখাচ্ছেন।",
+                        "hi": "हमें श्रीमती हार्टमैन के लिए देखभाल योजना को समायोजित करने की आवश्यकता है। वह तेजी से अवसाद के लक्षण दिखा रही हैं।",
+                        "ur": "ہمیں محترمہ ہارٹ مین کے لیے نگہداشت کے منصوبے کو ایڈجسٹ کرنے کی ضرورت ہے۔ وہ تیزی سے ڈپریشن کی علامات ظاہر کر رہی ہیں۔",
+                        "tr": "Bayan Hartmann için bakım planını ayarlamamız gerekiyor. Giderek depresyon belirtileri gösteriyor."
+                    }
+                },
+                {
+                    "speaker": "Schwester Karin",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich habe bemerkt, dass sie sich oft zurückzieht und wenig isst.",
+                    "translation": {
+                        "en": "I've noticed that she often withdraws and eats very little.",
+                        "bn": "আমি দেখেছি যে তিনি প্রায়শই নিজেকে গুটিয়ে রাখেন এবং খুব কম খান।",
+                        "hi": "मैंने देखा है कि वह अक्सर पीछे हट जाती है और बहुत कम खाती है।",
+                        "ur": "میں نے دیکھا ہے کہ وہ اکثر پیچھے ہٹ جاتی ہے اور بہت کم کھاتی ہے۔",
+                        "tr": "Sık sık içine kapandığını ve çok az yediğini fark ettim."
+                    }
+                },
+                {
+                    "speaker": "Pfleger Michael",
+                    "speakerRole": "Pfleger",
+                    "germanText": "Könnten wir mehr soziale Aktivitäten in ihren Tagesablauf integrieren?",
+                    "translation": {
+                        "en": "Could we integrate more social activities into her daily routine?",
+                        "bn": "আমরা কি তার দৈনন্দিন রুটিনে আরও সামাজিক কার্যক্রম অন্তর্ভুক্ত করতে পারি?",
+                        "hi": "क्या हम उसकी दैनिक दिनचर्या में अधिक सामाजिक गतिविधियाँ शामिल कर सकते हैं?",
+                        "ur": "کیا ہم اس کے روزمرہ کے معمولات میں مزید سماجی سرگرمیاں شامل کر سکتے ہیں؟",
+                        "tr": "Günlük rutinine daha fazla sosyal aktivite dahil edebilir miyiz?"
+                    }
+                },
+                {
+                    "speaker": "Pflegedienstleitung Frau Schulz",
+                    "speakerRole": "Pflegedienstleitung",
+                    "germanText": "Das ist eine gute Idee. Und wir sollten den Arzt über die Veränderungen informieren. Eventuell braucht sie zusätzliche Unterstützung.",
+                    "translation": {
+                        "en": "That's a good idea. And we should inform the doctor about the changes. She may need additional support.",
+                        "bn": "এটি একটি ভাল ধারণা। এবং আমাদের ডাক্তারকে পরিবর্তন সম্পর্কে জানানো উচিত। তার সম্ভবত অতিরিক্ত সহায়তার প্রয়োজন।",
+                        "hi": "यह एक अच्छा विचार है। और हमें डॉक्टर को परिवर्तनों के बारे में सूचित करना चाहिए। उसे अतिरिक्त सहायता की आवश्यकता हो सकती है।",
+                        "ur": "یہ ایک اچھا خیال ہے۔ اور ہمیں ڈاکٹر کو تبدیلیوں کے بارے میں آگاہ کرنا چاہیے۔ اسے اضافی مدد کی ضرورت پڑ سکتی ہے۔",
+                        "tr": "Bu iyi bir fikir. Ve doktoru değişiklikler hakkında bilgilendirmeliyiz. Ek desteğe ihtiyacı olabilir."
+                    }
+                },
+                {
+                    "speaker": "Schwester Karin",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich werde das Gespräch mit dem Arzt suchen.",
+                    "translation": {
+                        "en": "I will seek the conversation with the doctor.",
+                        "bn": "আমি ডাক্তারের সাথে আলোচনা করব।",
+                        "hi": "मैं डॉक्टर से बातचीत करूँगी।",
+                        "ur": "میں ڈاکٹر سے گفتگو کروں گی۔",
+                        "tr": "Doktorla görüşeceğim."
+                    }
+                }
+            ],
+            "id": "d08_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Aufgaben gehört **nicht** zum Aufgabenbereich einer Pflegekraft?",
+                "en": "Which of the following tasks is **not** part of the scope of practice of a nurse?",
+                "bn": "নিচের কোন কাজটি একজন নার্সের কাজের অংশ **নয়**?",
+                "hi": "निम्नलिखित में से कौन सा कार्य नर्स के अभ्यास के दायरे का हिस्सा **नहीं** है?",
+                "ur": "درج ذیل میں سے کون سا کام ایک نرس کے دائرہ کار کا حصہ **نہیں** ہے؟",
+                "tr": "Aşağıdaki görevlerden hangisi bir hemşirenin uygulama alanına **dahil değildir**?"
+            },
+            "options": [
+                "Medikamente verabreichen",
+                "Blut abnehmen",
+                "Operationen durchführen",
+                "Patienten bei der Körperpflege unterstützen"
+            ],
+            "correctAnswer": "Operationen durchführen",
+            "explanation": {
+                "en": "Nurses do not perform surgeries; this is the responsibility of surgeons.",
+                "bn": "নার্সরা সার্জারি করেন না; এটি সার্জনদের দায়িত্ব।",
+                "hi": "नर्सें सर्जरी नहीं करती हैं; यह सर्जन की जिम्मेदारी है।",
+                "ur": "نرسیں سرجری نہیں کرتی ہیں۔ یہ سرجن کی ذمہ داری ہے۔",
+                "tr": "Hemşireler ameliyat yapmazlar; bu cerrahların sorumluluğundadır."
+            },
+            "points": 10,
+            "id": "e08_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist die Hauptaufgabe der Stationsleitung?",
+                "en": "What is the main task of the ward manager?",
+                "bn": "ওয়ার্ড ম্যানেজারের প্রধান কাজ কী?",
+                "hi": "वार्ड मैनेजर का मुख्य कार्य क्या है?",
+                "ur": "وارڈ مینیجر کا بنیادی کام کیا ہے؟",
+                "tr": "Servis yöneticisinin ana görevi nedir?"
+            },
+            "options": [
+                "Direkte Patientenpflege",
+                "Planung und Organisation des Stationsbetriebs",
+                "Reinigung der Patientenzimmer",
+                "Essensausgabe an Patienten"
+            ],
+            "correctAnswer": "Planung und Organisation des Stationsbetriebs",
+            "explanation": {
+                "en": "The ward manager is responsible for planning and organizing the operations of the ward.",
+                "bn": "ওয়ার্ড ম্যানেজার ওয়ার্ডের কার্যক্রম পরিকল্পনা ও সংগঠিত করার জন্য দায়ী।",
+                "hi": "वार्ड मैनेजर वार्ड के संचालन की योजना बनाने और व्यवस्थित करने के लिए जिम्मेदार है।",
+                "ur": "وارڈ مینیجر وارڈ کے آپریشنز کی منصوبہ بندی اور تنظیم کے لیے ذمہ دار ہے۔",
+                "tr": "Servis yöneticisi, servisin operasyonlarını planlamak ve organize etmekten sorumludur."
+            },
+            "points": 10,
+            "id": "e08_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Teamwork' im Pflegebereich?",
+                "en": "What does 'teamwork' mean in the nursing field?",
+                "bn": "নার্সিং ক্ষেত্রে 'টিমওয়ার্ক' মানে কী?",
+                "hi": "नर्सिंग क्षेत्र में 'टीमवर्क' का क्या अर्थ है?",
+                "ur": "نرسنگ کے شعبے میں 'ٹیم ورک' کا کیا مطلب ہے؟",
+                "tr": "Hemşirelik alanında 'ekip çalışması' ne anlama gelir?"
+            },
+            "options": [
+                "Jeder arbeitet isoliert für sich.",
+                "Die Zusammenarbeit verschiedener Berufsgruppen zum Wohle des Patienten.",
+                "Nur die Ärzte treffen alle Entscheidungen.",
+                "Die Pflegekräfte konkurrieren untereinander."
+            ],
+            "correctAnswer": "Die Zusammenarbeit verschiedener Berufsgruppen zum Wohle des Patienten.",
+            "explanation": {
+                "en": "Teamwork in nursing means the collaboration of different professional groups for the benefit of the patient.",
+                "bn": "নার্সিংয়ে টিমওয়ার্ক মানে রোগীর সুবিধার জন্য বিভিন্ন পেশাদার দলের সহযোগিতা।",
+                "hi": "नर्सिंग में टीमवर्क का मतलब है रोगी के लाभ के लिए विभिन्न व्यावसायिक समूहों का सहयोग।",
+                "ur": "نرسنگ میں ٹیم ورک کا مطلب ہے مریض کے فائدے کے لیے مختلف پیشہ ور گروہوں کا تعاون۔",
+                "tr": "Hemşirelikte ekip çalışması, hastanın yararına farklı meslek gruplarının işbirliği anlamına gelir."
+            },
+            "points": 10,
+            "id": "e08_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wer ist für die Organisation des gesamten Pflegedienstes verantwortlich?",
+                "en": "Who is responsible for organizing the entire nursing service?",
+                "bn": "পুরো নার্সিং পরিষেবা সংগঠিত করার জন্য কে দায়ী?",
+                "hi": "संपूर्ण नर्सिंग सेवा को व्यवस्थित करने के लिए कौन जिम्मेदार है?",
+                "ur": "مکمل نرسنگ سروس کو منظم کرنے کی ذمہ داری کس کی ہے؟",
+                "tr": "Tüm hemşirelik hizmetini organize etmekten kim sorumludur?"
+            },
+            "options": [
+                "Der Hausarzt",
+                "Die Pflegedienstleitung",
+                "Die Stationsleitung",
+                "Der Patient"
+            ],
+            "correctAnswer": "Die Pflegedienstleitung",
+            "explanation": {
+                "en": "The head of the nursing service (Pflegedienstleitung) is responsible for organizing the entire nursing service.",
+                "bn": "নার্সিং সার্ভিসের প্রধান (Pflegedienstleitung) পুরো নার্সিং পরিষেবা সংগঠিত করার জন্য দায়ী।",
+                "hi": "नर्सिंग सेवा के प्रमुख (Pflegedienstleitung) संपूर्ण नर्सिंग सेवा को व्यवस्थित करने के लिए जिम्मेदार हैं।",
+                "ur": "نرسنگ سروس کے سربراہ (Pflegedienstleitung) مکمل نرسنگ سروس کو منظم کرنے کے لیے ذمہ دار ہیں۔",
+                "tr": "Hemşirelik hizmetleri başkanı (Pflegedienstleitung), tüm hemşirelik hizmetini organize etmekten sorumludur."
+            },
+            "points": 10,
+            "id": "e08_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist eine wichtige Eigenschaft einer guten Pflegekraft?",
+                "en": "What is an important characteristic of a good nurse?",
+                "bn": "একজন ভালো নার্সের গুরুত্বপূর্ণ বৈশিষ্ট্য কী?",
+                "hi": "एक अच्छी नर्स की महत्वपूर्ण विशेषता क्या है?",
+                "ur": "ایک اچھے نرس کی اہم خصوصیت کیا ہے؟",
+                "tr": "İyi bir hemşirenin önemli bir özelliği nedir?"
+            },
+            "options": [
+                "Hohe Arroganz",
+                "Empathie",
+                "Desinteresse am Patienten",
+                "Mangelnde Kommunikationsfähigkeit"
+            ],
+            "correctAnswer": "Empathie",
+            "explanation": {
+                "en": "Empathy is a crucial characteristic of a good nurse, allowing them to understand and connect with patients.",
+                "bn": "সহানুভূতি একজন ভাল নার্সের একটি গুরুত্বপূর্ণ বৈশিষ্ট্য, যা তাদের রোগীদের বুঝতে এবং তাদের সাথে সংযোগ স্থাপন করতে সহায়তা করে।",
+                "hi": "सहानुभूति एक अच्छी नर्स की एक महत्वपूर्ण विशेषता है, जो उन्हें रोगियों को समझने और उनसे जुड़ने की अनुमति देती है।",
+                "ur": "ہمدردی ایک اچھے نرس کی ایک اہم خصوصیت ہے، جو انہیں مریضوں کو سمجھنے اور ان سے جڑنے کی اجازت دیتی ہے۔",
+                "tr": "Empati, iyi bir hemşirenin çok önemli bir özelliğidir ve hastaları anlamalarına ve onlarla bağ kurmalarına olanak tanır."
+            },
+            "points": 10,
+            "id": "e08_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage über die Aufgabenverteilung im Team ist richtig?",
+                "en": "Which statement about task allocation in the team is correct?",
+                "bn": "দলে কাজ বরাদ্দ সম্পর্কে কোন বক্তব্যটি সঠিক?",
+                "hi": "टीम में कार्य आवंटन के बारे में कौन सा कथन सही है?",
+                "ur": "ٹیم میں ٹاسک کی تقسیم کے بارے میں کون سا بیان درست ہے؟",
+                "tr": "Ekipte görev dağılımı hakkında hangi ifade doğrudur?"
+            },
+            "options": [
+                "Die Aufgabenverteilung erfolgt zufällig.",
+                "Die Aufgabenverteilung orientiert sich an den Kompetenzen und Qualifikationen der Teammitglieder.",
+                "Nur der Arzt verteilt die Aufgaben.",
+                "Die Aufgabenverteilung ist immer gleich, unabhängig vom Patienten."
+            ],
+            "correctAnswer": "Die Aufgabenverteilung orientiert sich an den Kompetenzen und Qualifikationen der Teammitglieder.",
+            "explanation": {
+                "en": "Task allocation should be based on the skills and qualifications of the team members to ensure efficiency and quality of care.",
+                "bn": "কাজের দক্ষতা এবং যত্নের গুণমান নিশ্চিত করার জন্য দলের সদস্যদের দক্ষতা এবং যোগ্যতার ভিত্তিতে কাজ বরাদ্দ করা উচিত।",
+                "hi": "दक्षता और देखभाल की गुणवत्ता सुनिश्चित करने के लिए टीम के सदस्यों के कौशल और योग्यताओं के आधार पर कार्य आवंटन किया जाना चाहिए।",
+                "ur": "ٹیم کے ممبروں کی مہارتوں اور قابلیتوں کی بنیاد پر ٹاسک کی تقسیم ہونی چاہیے تاکہ دیکھ بھال کی کارکردگی اور معیار کو یقینی بنایا جا سکے۔",
+                "tr": "Görev dağılımı, verimliliği ve bakım kalitesini sağlamak için ekip üyelerinin beceri ve niteliklerine göre yapılmalıdır."
+            },
+            "points": 10,
+            "id": "e08_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein 'Pfleger'?",
+                "en": "What is a 'Pfleger'?",
+                "bn": "একজন 'Pfleger' কী?",
+                "hi": "'Pfleger' क्या है?",
+                "ur": "'Pfleger' کیا ہے؟",
+                "tr": "'Pfleger' nedir?"
+            },
+            "options": [
+                "Ein Arzt",
+                "Ein männlicher Krankenpfleger",
+                "Ein Reinigungskraft im Krankenhaus",
+                "Ein Apotheker"
+            ],
+            "correctAnswer": "Ein männlicher Krankenpfleger",
+            "explanation": {
+                "en": "'Pfleger' is the German term for a male nurse.",
+                "bn": "'Pfleger' হল একজন পুরুষ নার্সের জন্য জার্মান শব্দ।",
+                "hi": "'Pfleger' एक पुरुष नर्स के लिए जर्मन शब्द है।",
+                "ur": "'Pfleger' ایک مرد نرس کے لیے جرمن لفظ ہے۔",
+                "tr": "'Pfleger', erkek hemşire için kullanılan Almanca terimdir."
+            },
+            "points": 10,
+            "id": "e08_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Art von Kommunikation ist wichtig im Team?",
+                "en": "What type of communication is important in a team?",
+                "bn": "একটি দলে কোন ধরনের যোগাযোগ গুরুত্বপূর্ণ?",
+                "hi": "एक टीम में किस प्रकार का संचार महत्वपूर्ण है?",
+                "ur": "ایک ٹیم میں کس قسم کی مواصلات اہم ہے؟",
+                "tr": "Bir ekipte ne tür bir iletişim önemlidir?"
+            },
+            "options": [
+                "Einseitige Kommunikation",
+                "Offene und ehrliche Kommunikation",
+                "Geheime Kommunikation",
+                "Aggressive Kommunikation"
+            ],
+            "correctAnswer": "Offene und ehrliche Kommunikation",
+            "explanation": {
+                "en": "Open and honest communication is crucial for effective teamwork and patient care.",
+                "bn": "কার্যকরী দলবদ্ধতা এবং রোগীর যত্নের জন্য উন্মুক্ত এবং সৎ যোগাযোগ অত্যন্ত গুরুত্বপূর্ণ।",
+                "hi": "प्रभावी टीम वर्क और रोगी देखभाल के लिए खुला और ईमानदार संचार महत्वपूर्ण है।",
+                "ur": "مؤثر ٹیم ورک اور مریض کی دیکھ بھال کے لیے کھلا اور ایماندارانہ مواصلات بہت اہم ہے۔",
+                "tr": "Etkili ekip çalışması ve hasta bakımı için açık ve dürüst iletişim çok önemlidir."
+            },
+            "points": 10,
+            "id": "e08_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wofür ist eine 'Krankenschwester' zuständig?",
+                "en": "What is a 'Krankenschwester' responsible for?",
+                "bn": "একজন 'Krankenschwester' কিসের জন্য দায়ী?",
+                "hi": "'Krankenschwester' किसके लिए जिम्मेदार है?",
+                "ur": "'Krankenschwester' کس چیز کے لیے ذمہ دار ہے؟",
+                "tr": "'Krankenschwester' neden sorumludur?"
+            },
+            "options": [
+                "Nur administrative Aufgaben",
+                "Umfassende Patientenversorgung, Medikamentenverabreichung, Dokumentation",
+                "Nur die Reinigung der Zimmer",
+                "Nur die Essensausgabe"
+            ],
+            "correctAnswer": "Umfassende Patientenversorgung, Medikamentenverabreichung, Dokumentation",
+            "explanation": {
+                "en": "A 'Krankenschwester' is responsible for comprehensive patient care, medication administration, and documentation.",
+                "bn": "একজন 'Krankenschwester' ব্যাপক রোগীর যত্ন, ওষুধ পরিচালনা এবং নথিপত্রের জন্য দায়ী।",
+                "hi": "एक 'Krankenschwester' व्यापक रोगी देखभाल, दवा प्रशासन और दस्तावेज़ीकरण के लिए जिम्मेदार है।",
+                "ur": "ایک 'Krankenschwester' جامع مریض کی دیکھ بھال، دوائیوں کی انتظامیہ اور دستاویزات کے لیے ذمہ دار ہے۔",
+                "tr": "'Krankenschwester', kapsamlı hasta bakımı, ilaç uygulaması ve belgeleme işlemlerinden sorumludur."
+            },
+            "points": 10,
+            "id": "e08_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Aussagen beschreibt am besten die Rolle einer 'Pflegekraft'?",
+                "en": "Which of the following statements best describes the role of a 'Pflegekraft'?",
+                "bn": "নিচের কোন বক্তব্যটি 'Pflegekraft'-এর ভূমিকা সবচেয়ে ভালোভাবে বর্ণনা করে?",
+                "hi": "निम्नलिखित में से कौन सा कथन 'Pflegekraft' की भूमिका का सबसे अच्छा वर्णन करता है?",
+                "ur": "درج ذیل میں سے کون سا بیان 'Pflegekraft' کے کردار کو بہترین طریقے سے بیان کرتا ہے؟",
+                "tr": "Aşağıdaki ifadelerden hangisi 'Pflegekraft' rolünü en iyi şekilde tanımlar?"
+            },
+            "options": [
+                "Eine Person, die nur ältere Menschen betreut",
+                "Eine Person, die kranke und pflegebedürftige Menschen betreut",
+                "Eine Person, die nur administrative Aufgaben in einem Krankenhaus übernimmt",
+                "Eine Person, die nur im Haushalt hilft"
+            ],
+            "correctAnswer": "Eine Person, die kranke und pflegebedürftige Menschen betreut",
+            "explanation": {
+                "en": "A 'Pflegekraft' is a person who cares for sick and care-dependent people.",
+                "bn": "একজন 'Pflegekraft' হলেন এমন একজন ব্যক্তি যিনি অসুস্থ এবং যত্নের উপর নির্ভরশীল মানুষের যত্ন নেন।",
+                "hi": "एक 'Pflegekraft' एक व्यक्ति है जो बीमार और देखभाल पर निर्भर लोगों की देखभाल करता है।",
+                "ur": "ایک 'Pflegekraft' وہ شخص ہے جو بیمار اور دیکھ بھال پر منحصر لوگوں کی دیکھ بھال کرتا ہے۔",
+                "tr": "'Pflegekraft', hasta ve bakıma muhtaç insanlara bakan kişidir."
+            },
+            "points": 10,
+            "id": "e08_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein wichtiger Aspekt der Teamarbeit ist die ______________ zwischen den Mitgliedern.",
+                "en": "An important aspect of teamwork is ______________ between the members.",
+                "bn": "টিমওয়ার্কের একটি গুরুত্বপূর্ণ দিক হল সদস্যদের মধ্যে ______________।",
+                "hi": "टीम वर्क का एक महत्वपूर्ण पहलू सदस्यों के बीच ______________ है।",
+                "ur": "ٹیم ورک کا ایک اہم پہلو ممبروں کے درمیان ______________ ہے۔",
+                "tr": "Ekip çalışmasının önemli bir yönü, üyeler arasındaki ______________."
+            },
+            "options": [],
+            "correctAnswer": "Kommunikation",
+            "explanation": {
+                "en": "Communication is essential for effective teamwork.",
+                "bn": "কার্যকরী দলবদ্ধতার জন্য যোগাযোগ অপরিহার্য।",
+                "hi": "प्रभावी टीम वर्क के लिए संचार आवश्यक है।",
+                "ur": "مؤثر ٹیم ورک کے لیے مواصلات ضروری ہے۔",
+                "tr": "Etkili ekip çalışması için iletişim çok önemlidir."
+            },
+            "points": 10,
+            "id": "e08_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die ______________ ist für die Einhaltung der Hygienestandards verantwortlich.",
+                "en": "The ______________ is responsible for compliance with hygiene standards.",
+                "bn": "______________ স্বাস্থ্যবিধি মান মেনে চলার জন্য দায়ী।",
+                "hi": "______________ स्वच्छता मानकों के अनुपालन के लिए जिम्मेदार है।",
+                "ur": "______________ حفظان صحت کے معیارات کی تعمیل کے لیے ذمہ دار ہے۔",
+                "tr": "______________ hijyen standartlarına uyumluluktan sorumludur."
+            },
+            "options": [],
+            "correctAnswer": "Pflegekraft",
+            "explanation": {
+                "en": "The nurse is responsible for compliance with hygiene standards.",
+                "bn": "নার্স স্বাস্থ্যবিধি মান মেনে চলার জন্য দায়ী।",
+                "hi": "नर्स स्वच्छता मानकों के अनुपालन के लिए जिम्मेदार है।",
+                "ur": "نرس حفظان صحت کے معیارات کی تعمیل کے لیے ذمہ دار ہے۔",
+                "tr": "Hemşire, hijyen standartlarına uyumluluktan sorumludur."
+            },
+            "points": 10,
+            "id": "e08_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die ______________ koordiniert die Einsätze der Pflegekräfte.",
+                "en": "The ______________ coordinates the deployment of nurses.",
+                "bn": "______________ নার্সদের মোতায়েন সমন্বয় করে।",
+                "hi": "______________ नर्सों की तैनाती का समन्वय करता है।",
+                "ur": "______________ نرسوں کی تعیناتی کو مربوط کرتا ہے۔",
+                "tr": "______________ hemşirelerin görevlendirmesini koordine eder."
+            },
+            "options": [],
+            "correctAnswer": "Pflegedienstleitung",
+            "explanation": {
+                "en": "The nursing service management coordinates the deployment of nurses.",
+                "bn": "নার্সিং পরিষেবা ব্যবস্থাপনা নার্সদের মোতায়েন সমন্বয় করে।",
+                "hi": "नर्सिंग सेवा प्रबंधन नर्सों की तैनाती का समन्वय करता है।",
+                "ur": "نرسنگ سروس مینجمنٹ نرسوں کی تعیناتی کو مربوط کرتا ہے۔",
+                "tr": "Hemşirelik hizmetleri yönetimi, hemşirelerin görevlendirmesini koordine eder."
+            },
+            "points": 10,
+            "id": "e08_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die ______________ ist erste Ansprechperson für Patienten und Angehörige auf der Station.",
+                "en": "The ______________ is the first point of contact for patients and relatives on the ward.",
+                "bn": "______________ ওয়ার্ডে রোগী এবং আত্মীয়দের জন্য প্রথম যোগাযোগের ব্যক্তি।",
+                "hi": "______________ वार्ड में रोगियों और रिश्तेदारों के लिए संपर्क का पहला बिंदु है।",
+                "ur": "______________ وارڈ میں مریضوں اور رشتہ داروں کے لیے رابطے کا پہلا نقطہ ہے۔",
+                "tr": "______________ servisdeki hasta ve yakınları için ilk iletişim noktasıdır."
+            },
+            "options": [],
+            "correctAnswer": "Stationsleitung",
+            "explanation": {
+                "en": "The ward manager is the first point of contact for patients and relatives on the ward.",
+                "bn": "ওয়ার্ড ম্যানেজার ওয়ার্ডে রোগী এবং আত্মীয়দের জন্য প্রথম যোগাযোগের ব্যক্তি।",
+                "hi": "वार्ड मैनेजर वार्ड में रोगियों और रिश्तेदारों के लिए संपर्क का पहला बिंदु है।",
+                "ur": "وارڈ مینیجر وارڈ میں مریضوں اور رشتہ داروں کے لیے رابطے کا پہلا نقطہ ہے۔",
+                "tr": "Servis yöneticisi, servisdeki hasta ve yakınları için ilk iletişim noktasıdır."
+            },
+            "points": 10,
+            "id": "e08_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Im Team ist es wichtig, ______________ zu geben und anzunehmen.",
+                "en": "In a team, it is important to give and receive ______________.",
+                "bn": "একটি দলে, ______________ দেওয়া এবং গ্রহণ করা গুরুত্বপূর্ণ।",
+                "hi": "एक टीम में, ______________ देना और प्राप्त करना महत्वपूर्ण है।",
+                "ur": "ایک ٹیم میں، ______________ دینا اور حاصل کرنا اہم ہے۔",
+                "tr": "Bir ekipte, ______________ vermek ve almak önemlidir."
+            },
+            "options": [],
+            "correctAnswer": "Feedback",
+            "explanation": {
+                "en": "Giving and receiving feedback is crucial for continuous improvement in a team.",
+                "bn": "দলে ক্রমাগত উন্নতির জন্য প্রতিক্রিয়া দেওয়া এবং গ্রহণ করা অত্যন্ত গুরুত্বপূর্ণ।",
+                "hi": "टीम में निरंतर सुधार के लिए प्रतिक्रिया देना और प्राप्त करना महत्वपूर्ण है।",
+                "ur": "ٹیم میں مسلسل بہتری کے لیے رائے دینا اور حاصل کرنا بہت ضروری ہے۔",
+                "tr": "Bir ekipte sürekli gelişim için geri bildirim vermek ve almak çok önemlidir."
+            },
+            "points": 10,
+            "id": "e08_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Wir arbeiten als Team, um die bestmögliche Patientenversorgung zu gewährleisten.",
+                "en": "We work as a team to ensure the best possible patient care.",
+                "bn": "আমরা সর্বোত্তম সম্ভাব্য রোগীর যত্ন নিশ্চিত করার জন্য একটি দল হিসাবে কাজ করি।",
+                "hi": "हम सर्वोत्तम संभव रोगी देखभाल सुनिश्चित करने के लिए एक टीम के रूप में काम करते हैं।",
+                "ur": "ہم بہترین ممکنہ مریض کی دیکھ بھال کو یقینی بنانے کے لیے ایک ٹیم کے طور پر کام کرتے ہیں۔",
+                "tr": "En iyi hasta bakımını sağlamak için bir ekip olarak çalışıyoruz."
+            },
+            "options": [],
+            "correctAnswer": "We work as a team to ensure the best possible patient care.",
+            "explanation": {
+                "en": "This is a straightforward translation of the German sentence.",
+                "bn": "এটি জার্মান বাক্যের একটি সরল অনুবাদ।",
+                "hi": "यह जर्मन वाक्य का एक सीधा अनुवाद है।",
+                "ur": "یہ جرمن جملے کا ایک سیدھا ترجمہ ہے۔",
+                "tr": "Bu, Almanca cümlenin basit bir çevirisidir."
+            },
+            "points": 10,
+            "id": "e08_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Stationsleitung ist für die Dienstplanung verantwortlich.",
+                "en": "The ward manager is responsible for the duty roster.",
+                "bn": "ওয়ার্ড ম্যানেজার ডিউটি ​​রোস্টারের জন্য দায়ী।",
+                "hi": "वार्ड मैनेजर ड्यूटी रोस्टर के लिए जिम्मेदार है।",
+                "ur": "وارڈ مینیجر ڈیوٹی روسٹر کے لیے ذمہ دار ہے۔",
+                "tr": "Servis yöneticisi görev çizelgesinden sorumludur."
+            },
+            "options": [],
+            "correctAnswer": "The ward manager is responsible for the duty roster.",
+            "explanation": {
+                "en": "This accurately translates the responsibilities of the Stationsleitung.",
+                "bn": "এটি সঠিকভাবে Stationsleitung এর দায়িত্বগুলি অনুবাদ করে।",
+                "hi": "यह Stationsleitung की जिम्मेदारियों का सटीक अनुवाद करता है।",
+                "ur": "یہ Stationsleitung کی ذمہ داریوں کا درست ترجمہ کرتا ہے۔",
+                "tr": "Bu, Stationsleitung'un sorumluluklarını doğru bir şekilde çevirir."
+            },
+            "points": 10,
+            "id": "e08_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Eine gute Kommunikation ist entscheidend für eine erfolgreiche Teamarbeit.",
+                "en": "Good communication is crucial for successful teamwork.",
+                "bn": "একটি সফল টিমওয়ার্কের জন্য ভাল যোগাযোগ অত্যন্ত গুরুত্বপূর্ণ।",
+                "hi": "एक सफल टीम वर्क के लिए अच्छा संचार महत्वपूर्ण है।",
+                "ur": "ایک کامیاب ٹیم ورک کے لیے اچھی مواصلات بہت اہم ہے۔",
+                "tr": "Başarılı bir ekip çalışması için iyi iletişim çok önemlidir."
+            },
+            "options": [],
+            "correctAnswer": "Good communication is crucial for successful teamwork.",
+            "explanation": {
+                "en": "This is a correct and concise translation of the German sentence.",
+                "bn": "এটি জার্মান বাক্যের একটি সঠিক এবং সংক্ষিপ্ত অনুবাদ।",
+                "hi": "यह जर्मन वाक्य का एक सही और संक्षिप्त अनुवाद है।",
+                "ur": "یہ جرمن جملے کا ایک درست اور مختصر ترجمہ ہے۔",
+                "tr": "Bu, Almanca cümlenin doğru ve özlü bir çevirisidir."
+            },
+            "points": 10,
+            "id": "e08_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

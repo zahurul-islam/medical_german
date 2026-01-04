@@ -34,48 +34,59 @@ async function uploadPhases() {
   }
 }
 
+async function uploadSection(file, sectionsDir) {
+  const sectionData = JSON.parse(fs.readFileSync(path.join(sectionsDir, file), 'utf8'));
+  const sectionId = sectionData.id;
+
+  // Extract subcollections
+  const vocabulary = sectionData.vocabulary || [];
+  const dialogues = sectionData.dialogues || [];
+  const exercises = sectionData.exercises || [];
+
+  // Remove subcollection data from main document
+  const sectionDoc = { ...sectionData };
+  delete sectionDoc.vocabulary;
+  delete sectionDoc.dialogues;
+  delete sectionDoc.exercises;
+
+  // Upload main section document
+  await db.collection('sections').doc(sectionId).set(sectionDoc);
+
+  // Upload vocabulary as subcollection (batch writes)
+  const vocabBatch = db.batch();
+  for (const vocab of vocabulary) {
+    vocabBatch.set(db.collection('sections').doc(sectionId).collection('vocabulary').doc(vocab.id), vocab);
+  }
+  await vocabBatch.commit();
+
+  // Upload dialogues as subcollection (batch writes)
+  const dialogueBatch = db.batch();
+  for (const dialogue of dialogues) {
+    dialogueBatch.set(db.collection('sections').doc(sectionId).collection('dialogues').doc(dialogue.id), dialogue);
+  }
+  await dialogueBatch.commit();
+
+  // Upload exercises as subcollection (batch writes)
+  const exerciseBatch = db.batch();
+  for (const exercise of exercises) {
+    exerciseBatch.set(db.collection('sections').doc(sectionId).collection('exercises').doc(exercise.id), exercise);
+  }
+  await exerciseBatch.commit();
+
+  console.log(`  ✓ Section: ${sectionId} (${vocabulary.length} vocab, ${dialogues.length} dialogues, ${exercises.length} exercises)`);
+}
+
 async function uploadSections() {
-  console.log('📦 Uploading sections...');
+  console.log('📦 Uploading sections in parallel...');
   const sectionsDir = '../content/sections';
   const files = fs.readdirSync(sectionsDir).filter(f => f.endsWith('.json'));
 
-  for (const file of files) {
-    const sectionData = JSON.parse(fs.readFileSync(path.join(sectionsDir, file), 'utf8'));
-    const sectionId = sectionData.id;
-
-    // Extract subcollections
-    const vocabulary = sectionData.vocabulary || [];
-    const dialogues = sectionData.dialogues || [];
-    const exercises = sectionData.exercises || [];
-
-    // Remove subcollection data from main document
-    const sectionDoc = { ...sectionData };
-    delete sectionDoc.vocabulary;
-    delete sectionDoc.dialogues;
-    delete sectionDoc.exercises;
-
-    // Upload main section document
-    await db.collection('sections').doc(sectionId).set(sectionDoc);
-
-    // Upload vocabulary as subcollection
-    for (const vocab of vocabulary) {
-      await db.collection('sections').doc(sectionId)
-        .collection('vocabulary').doc(vocab.id).set(vocab);
-    }
-
-    // Upload dialogues as subcollection
-    for (const dialogue of dialogues) {
-      await db.collection('sections').doc(sectionId)
-        .collection('dialogues').doc(dialogue.id).set(dialogue);
-    }
-
-    // Upload exercises as subcollection
-    for (const exercise of exercises) {
-      await db.collection('sections').doc(sectionId)
-        .collection('exercises').doc(exercise.id).set(exercise);
-    }
-
-    console.log(`  ✓ Section: ${sectionId} (${vocabulary.length} vocab, ${dialogues.length} dialogues, ${exercises.length} exercises)`);
+  // Process in batches of 10 to avoid overwhelming the database
+  const BATCH_SIZE = 10;
+  for (let i = 0; i < files.length; i += BATCH_SIZE) {
+    const batch = files.slice(i, i + BATCH_SIZE);
+    await Promise.all(batch.map(file => uploadSection(file, sectionsDir)));
+    console.log(`  ... Batch ${i / BATCH_SIZE + 1}/${Math.ceil(files.length / BATCH_SIZE)} complete`);
   }
 }
 

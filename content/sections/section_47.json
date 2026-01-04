@@ -1,1 +1,1579 @@
-{"id":"section_47","phaseId":"phase3","order":47,"titleDe":"Orthopädie","title":{"en":"Orthopedics","bn":"Orthopedics","hi":"Orthopedics","ur":"Orthopedics","tr":"Orthopedics"},"level":"C1","estimatedMinutes":45,"vocabulary":[{"id":"v47_01","germanTerm":"Fachwort","article":"das","plural":"Fachwörter","translation":{"en":"Specialist Term","bn":"বিশেষজ্ঞ শব্দ","hi":"विशेषज्ञ शब्द","ur":"ماہر اصطلاح","tr":"Uzman terimi"}}],"dialogues":[{"id":"d47_01","title":{"en":"Orthopedics Scenario"},"lines":[{"speaker":"Facharzt","germanText":"Clinical dialogue for Orthopedics.","translation":{"en":"Clinical dialogue for Orthopedics."}}]}],"exercises":[{"id":"e47_01","type":"multipleChoice","question":{"en":"Question about Orthopedics?"},"options":["A","B","C"],"correctAnswer":"A","points":15}],"media":{"introVideoUrl":"video/sections/section_47/intro.mp4","dialogueVideoUrl":"video/sections/section_47/dialogue.mp4"}}
+{
+    "id": "section_47",
+    "phaseId": "phase3",
+    "order": 47,
+    "titleDe": "Orthopädie",
+    "title": {
+        "en": "Orthopedics: Fractures, Joint Replacement, Prosthetics, Physiotherapy, Rehabilitation, Mobilization",
+        "bn": "অর্থোপেডিকস: ফাটল, জয়েন্ট প্রতিস্থাপন, প্রোস্টেটিকস, ফিজিওথেরাপি, পুনর্বাসন, সচলতা",
+        "hi": "ऑर्थोपेडिक्स: फ्रैक्चर, जोड़ प्रत्यारोपण, प्रोस्थेटिक्स, फिजियोथेरेपी, पुनर्वास, गतिशीलता",
+        "ur": "آرتھوپیڈکس: فریکچر، جوڑوں کی تبدیلی، مصنوعی اعضاء، فزیوتھراپی، بحالی، حرکت پذیری",
+        "tr": "Ortopedi: Kırıklar, Eklem Replasmanı, Protezler, Fizyoterapi, Rehabilitasyon, Mobilizasyon",
+        "de": "Orthopädie: Frakturen, Gelenkersatz, Prothesen, Physiotherapie, Rehabilitation, Mobilisation"
+    },
+    "description": {
+        "en": "This section covers common orthopedic conditions, treatments, and rehabilitation strategies.",
+        "bn": "এই বিভাগে সাধারণ অর্থোপেডিক অবস্থা, চিকিত্সা এবং পুনর্বাসন কৌশলগুলি অন্তর্ভুক্ত করা হয়েছে।",
+        "hi": "इस खंड में सामान्य ऑर्थोपेडिक स्थितियां, उपचार और पुनर्वास रणनीतियां शामिल हैं।",
+        "ur": "اس سیکشن میں عام آرتھوپیڈک حالات، علاج اور بحالی کی حکمت عملی شامل ہیں۔",
+        "tr": "Bu bölüm, yaygın ortopedik durumları, tedavileri ve rehabilitasyon stratejilerini kapsamaktadır.",
+        "de": "Dieser Abschnitt behandelt häufige orthopädische Erkrankungen, Behandlungen und Rehabilitationsstrategien."
+    },
+    "level": "C1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, we will explore the key vocabulary and medical terminology related to orthopedic conditions and treatments. You will learn how to communicate effectively with German-speaking patients and colleagues about fractures, joint replacements, and the rehabilitation process.",
+            "bn": "এই বিভাগে, আমরা অর্থোপেডিক অবস্থা এবং চিকিত্সা সম্পর্কিত মূল শব্দভাণ্ডার এবং চিকিৎসা পরিভাষা অন্বেষণ করব। আপনি ফ্র্যাকচার, জয়েন্ট প্রতিস্থাপন এবং পুনর্বাসন প্রক্রিয়া সম্পর্কে জার্মান-ভাষী রোগী এবং সহকর্মীদের সাথে কার্যকরভাবে যোগাযোগ করতে শিখবেন।",
+            "hi": "इस खंड में, हम ऑर्थोपेडिक स्थितियों और उपचारों से संबंधित प्रमुख शब्दावली और चिकित्सा शब्दावली का पता लगाएंगे। आप फ्रैक्चर, जोड़ प्रत्यारोपण और पुनर्वास प्रक्रिया के बारे में जर्मन भाषी रोगियों और सहकर्मियों के साथ प्रभावी ढंग से संवाद करना सीखेंगे।",
+            "ur": "اس سیکشن میں، ہم آرتھوپیڈک حالات اور علاج سے متعلق اہم الفاظ اور طبی اصطلاحات کا جائزہ لیں گے۔ آپ فریکچر، جوڑوں کی تبدیلی اور بحالی کے عمل کے بارے میں جرمن بولنے والے مریضوں اور ساتھیوں کے ساتھ مؤثر طریقے سے بات چیت کرنا سیکھیں گے۔",
+            "tr": "Bu bölümde, ortopedik durumlar ve tedavilerle ilgili temel kelime dağarcığını ve tıbbi terminolojiyi inceleyeceğiz. Kırıklar, eklem replasmanları ve rehabilitasyon süreci hakkında Almanca konuşan hastalar ve meslektaşlarınızla etkili bir şekilde nasıl iletişim kuracağınızı öğreneceksiniz.",
+            "de": "In diesem Abschnitt werden wir den wichtigsten Wortschatz und die medizinische Terminologie im Zusammenhang mit orthopädischen Erkrankungen und Behandlungen untersuchen. Sie lernen, wie Sie effektiv mit deutschsprachigen Patienten und Kollegen über Frakturen, Gelenkersatz und den Rehabilitationsprozess kommunizieren können."
+        },
+        "grammarFocus": {
+            "en": {
+                "one": "Use of dative case for body parts when indicating injury or location.",
+                "two": "Understanding the correct articles (der, die, das) for anatomical terms."
+            },
+            "bn": {
+                "one": "আঘাত বা অবস্থান নির্দেশ করার সময় শরীরের অংশের জন্য ডেটিভ কেস ব্যবহার।",
+                "two": "শারীরিক শব্দগুলোর জন্য সঠিক আর্টিকেল (der, die, das) বোঝা।"
+            },
+            "hi": {
+                "one": "चोट या स्थान का संकेत देते समय शरीर के अंगों के लिए डैटिव केस का उपयोग।",
+                "two": "शारीरिक शब्दों के लिए सही लेख (der, die, das) को समझना।"
+            },
+            "ur": {
+                "one": "جسم کے حصوں کے لئے ڈیٹیو کیس کا استعمال جب چوٹ یا جگہ کی نشاندہی کی جائے۔",
+                "two": "تشریحی اصطلاحات کے لئے درست مضامین (der, die, das) کو سمجھنا۔"
+            },
+            "tr": {
+                "one": "Yaralanma veya konum belirtirken vücut parçaları için datif halinin kullanımı.",
+                "two": "Anatomik terimler için doğru tanımlıkları (der, die, das) anlamak."
+            },
+            "de": {
+                "one": "Verwendung des Dativs für Körperteile bei Angabe von Verletzungen oder Position.",
+                "two": "Verständnis der korrekten Artikel (der, die, das) für anatomische Begriffe."
+            }
+        },
+        "culturalNotes": {
+            "en": "In Germany, physiotherapy and rehabilitation are often prescribed immediately following surgery to promote early mobilization and recovery.",
+            "bn": "জার্মানিতে, দ্রুত সচলতা এবং পুনরুদ্ধারের প্রচারের জন্য অস্ত্রোপচারের পরপরই ফিজিওথেরাপি এবং পুনর্বাসন প্রায়শই নির্ধারিত হয়।",
+            "hi": "जर्मनी में, शुरुआती गतिशीलता और रिकवरी को बढ़ावा देने के लिए सर्जरी के तुरंत बाद अक्सर फिजियोथेरेपी और पुनर्वास निर्धारित किया जाता है।",
+            "ur": "جرمنی میں، ابتدائی نقل و حرکت اور بحالی کو فروغ دینے کے لیے سرجری کے فوراً بعد اکثر فزیوتھراپی اور بحالی تجویز کی جاتی ہے۔",
+            "tr": "Almanya'da, erken mobilizasyonu ve iyileşmeyi teşvik etmek için ameliyattan hemen sonra genellikle fizyoterapi ve rehabilitasyon reçete edilir.",
+            "de": "In Deutschland werden Physiotherapie und Rehabilitation häufig unmittelbar nach der Operation verschrieben, um die frühe Mobilisierung und Genesung zu fördern."
+        },
+        "summary": {
+            "en": "This section provides a foundational understanding of orthopedic terminology and practices in German medical contexts.",
+            "bn": "এই বিভাগটি জার্মান চিকিৎসা প্রেক্ষাপটে অর্থোপেডিক পরিভাষা এবং অনুশীলনগুলির একটি মৌলিক ধারণা প্রদান করে।",
+            "hi": "यह खंड जर्मन चिकित्सा संदर्भों में ऑर्थोपेडिक शब्दावली और प्रथाओं की एक मूलभूत समझ प्रदान करता है।",
+            "ur": "یہ سیکشن جرمن طبی تناظر میں آرتھوپیڈک اصطلاحات اور طریقوں کی بنیادی تفہیم فراہم کرتا ہے۔",
+            "tr": "Bu bölüm, Alman tıbbi bağlamlarında ortopedik terminoloji ve uygulamaları hakkında temel bir anlayış sağlar.",
+            "de": "Dieser Abschnitt bietet ein grundlegendes Verständnis der orthopädischen Terminologie und Praktiken im deutschen medizinischen Kontext."
+        },
+        "learningObjectives": [
+            "Identify common orthopedic conditions and their German terminology.",
+            "Describe the steps involved in joint replacement and rehabilitation in German.",
+            "Understand the role of physiotherapy and mobilization in orthopedic recovery.",
+            "Communicate effectively with German-speaking patients about fractures and prosthetics."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "die Fraktur",
+            "article": "die",
+            "plural": "die Frakturen",
+            "pronunciation": "/fʁakˈtuːɐ̯/",
+            "category": "noun",
+            "translation": {
+                "en": "fracture",
+                "bn": "ফ্র্যাকচার",
+                "hi": "अस्थिभंग",
+                "ur": "فریکچر",
+                "tr": "kırık"
+            },
+            "exampleSentence": "Der Patient erlitt eine offene Fraktur des Unterschenkels.",
+            "exampleTranslation": {
+                "en": "The patient suffered an open fracture of the lower leg.",
+                "bn": "রোগীর পায়ে একটি খোলা ফ্র্যাকচার হয়েছে।",
+                "hi": "मरीज को निचले पैर में एक खुला अस्थिभंग हुआ।",
+                "ur": "مریض کو نچلی ٹانگ میں ایک کھلا فریکچر ہوا ہے۔",
+                "tr": "Hastanın alt bacağında açık bir kırık oluştu."
+            },
+            "id": "v47_01"
+        },
+        {
+            "germanTerm": "der Gelenkersatz",
+            "article": "der",
+            "plural": "die Gelenkersätze",
+            "pronunciation": "/ɡəˈlɛŋkʔɛɐ̯ˌzats/",
+            "category": "noun",
+            "translation": {
+                "en": "joint replacement",
+                "bn": "জয়েন্ট প্রতিস্থাপন",
+                "hi": "जोड़ प्रतिस्थापन",
+                "ur": "جوڑ کی تبدیلی",
+                "tr": "eklem replasmanı"
+            },
+            "exampleSentence": "Ein Gelenkersatz war aufgrund der fortgeschrittenen Arthrose notwendig.",
+            "exampleTranslation": {
+                "en": "A joint replacement was necessary due to advanced osteoarthritis.",
+                "bn": "উন্নত অস্টিওআর্থ্রাইটিসের কারণে একটি জয়েন্ট প্রতিস্থাপন প্রয়োজন ছিল।",
+                "hi": "उन्नत ऑस्टियोआर्थराइटिस के कारण एक जोड़ प्रतिस्थापन आवश्यक था।",
+                "ur": "اعلی درجے کے آسٹیوآرتھرائٹس کی وجہ سے جوڑ کی تبدیلی ضروری تھی۔",
+                "tr": "İleri osteoartrit nedeniyle eklem replasmanı gerekliydi."
+            },
+            "id": "v47_02"
+        },
+        {
+            "germanTerm": "die Prothese",
+            "article": "die",
+            "plural": "die Prothesen",
+            "pronunciation": "/pʁoˈteːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "prosthesis",
+                "bn": "কৃত্রিম অঙ্গ",
+                "hi": "कृत्रिम अंग",
+                "ur": "مصنوعی اعضاء",
+                "tr": "protez"
+            },
+            "exampleSentence": "Der Patient benötigt eine Unterschenkelprothese nach der Amputation.",
+            "exampleTranslation": {
+                "en": "The patient needs a lower leg prosthesis after the amputation.",
+                "bn": "রোগীর অঙ্গচ্ছেদের পরে একটি নীচের পায়ের কৃত্রিম অঙ্গ প্রয়োজন।",
+                "hi": "विच्छेदन के बाद मरीज को निचले पैर के कृत्रिम अंग की आवश्यकता है।",
+                "ur": "مریض کو قطع اعضا کے بعد نچلی ٹانگ کے مصنوعی اعضاء کی ضرورت ہے۔",
+                "tr": "Hastanın amputasyondan sonra alt bacak protezine ihtiyacı var."
+            },
+            "id": "v47_03"
+        },
+        {
+            "germanTerm": "die Physiotherapie",
+            "article": "die",
+            "plural": "die Physiotherapien",
+            "pronunciation": "/fizioˈteːʁapiː/",
+            "category": "noun",
+            "translation": {
+                "en": "physiotherapy",
+                "bn": "ফিজিওথেরাপি",
+                "hi": "फिजियोथेरेपी",
+                "ur": "فزیوتھراپی",
+                "tr": "fizyoterapi"
+            },
+            "exampleSentence": "Die Physiotherapie hilft dem Patienten, seine Beweglichkeit wiederzuerlangen.",
+            "exampleTranslation": {
+                "en": "Physiotherapy helps the patient regain his mobility.",
+                "bn": "ফিজিওথেরাপি রোগীকে তার চলনক্ষমতা পুনরুদ্ধার করতে সাহায্য করে।",
+                "hi": "फिजियोथेरेपी रोगी को उसकी गतिशीलता वापस पाने में मदद करती है।",
+                "ur": "فزیوتھراپی مریض کو اس کی نقل و حرکت دوبارہ حاصل کرنے میں مدد کرتی ہے۔",
+                "tr": "Fizyoterapi, hastanın hareketliliğini yeniden kazanmasına yardımcı olur."
+            },
+            "id": "v47_04"
+        },
+        {
+            "germanTerm": "die Rehabilitation",
+            "article": "die",
+            "plural": "die Rehabilitationen",
+            "pronunciation": "/ʁehabilitaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "rehabilitation",
+                "bn": "পুনর্বাসন",
+                "hi": "पुनर्वास",
+                "ur": "بحالی",
+                "tr": "rehabilitasyon"
+            },
+            "exampleSentence": "Nach der Operation beginnt der Patient mit der Rehabilitation.",
+            "exampleTranslation": {
+                "en": "After the operation, the patient begins with rehabilitation.",
+                "bn": "অপারেশনের পরে, রোগী পুনর্বাসন শুরু করে।",
+                "hi": "ऑपरेशन के बाद, मरीज पुनर्वास शुरू करता है।",
+                "ur": "آپریشن کے بعد، مریض بحالی شروع کرتا ہے۔",
+                "tr": "Ameliyattan sonra hasta rehabilitasyona başlar."
+            },
+            "id": "v47_05"
+        },
+        {
+            "germanTerm": "die Mobilisation",
+            "article": "die",
+            "plural": "die Mobilisationen",
+            "pronunciation": "/mobɪlizaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "mobilization",
+                "bn": "মোবিলাইজেশন",
+                "hi": "संचलन",
+                "ur": "تحریک",
+                "tr": "mobilizasyon"
+            },
+            "exampleSentence": "Die Mobilisation des Patienten erfolgt so früh wie möglich.",
+            "exampleTranslation": {
+                "en": "The mobilization of the patient takes place as early as possible.",
+                "bn": "রোগীর মোবিলাইজেশন যত তাড়াতাড়ি সম্ভব করা হয়।",
+                "hi": "रोगी का संचलन यथासंभव शीघ्र किया जाता है।",
+                "ur": "مریض کی تحریک جلد از جلد کی جاتی ہے۔",
+                "tr": "Hastanın mobilizasyonu mümkün olan en kısa sürede yapılır."
+            },
+            "id": "v47_06"
+        },
+        {
+            "germanTerm": "der Knochen",
+            "article": "der",
+            "plural": "die Knochen",
+            "pronunciation": "/ˈknɔxn̩/",
+            "category": "noun",
+            "translation": {
+                "en": "bone",
+                "bn": "হাড়",
+                "hi": "हड्डी",
+                "ur": "ہڈی",
+                "tr": "kemik"
+            },
+            "exampleSentence": "Der Knochen ist gebrochen.",
+            "exampleTranslation": {
+                "en": "The bone is broken.",
+                "bn": "হাড়টি ভেঙে গেছে।",
+                "hi": "हड्डी टूट गई है।",
+                "ur": "ہڈی ٹوٹ گئی ہے۔",
+                "tr": "Kemik kırıldı."
+            },
+            "id": "v47_07"
+        },
+        {
+            "germanTerm": "das Gelenk",
+            "article": "das",
+            "plural": "die Gelenke",
+            "pronunciation": "/ɡəˈlɛŋk/",
+            "category": "noun",
+            "translation": {
+                "en": "joint",
+                "bn": "জয়েন্ট",
+                "hi": "जोड़",
+                "ur": "جوڑ",
+                "tr": "eklem"
+            },
+            "exampleSentence": "Das Kniegelenk ist geschwollen.",
+            "exampleTranslation": {
+                "en": "The knee joint is swollen.",
+                "bn": "হাঁটুর জয়েন্ট ফুলে গেছে।",
+                "hi": "घुटने का जोड़ सूज गया है।",
+                "ur": "گھٹنے کا جوڑ سوج گیا ہے۔",
+                "tr": "Diz eklemi şişmiş."
+            },
+            "id": "v47_08"
+        },
+        {
+            "germanTerm": "der Muskel",
+            "article": "der",
+            "plural": "die Muskeln",
+            "pronunciation": "/ˈmʊskl̩/",
+            "category": "noun",
+            "translation": {
+                "en": "muscle",
+                "bn": "পেশী",
+                "hi": "मांसपेशी",
+                "ur": "پٹھا",
+                "tr": "kas"
+            },
+            "exampleSentence": "Der Muskel ist gezerrt.",
+            "exampleTranslation": {
+                "en": "The muscle is strained.",
+                "bn": "পেশী প্রসারিত হয়েছে।",
+                "hi": "मांसपेशी में खिंचाव है।",
+                "ur": "پٹھے میں تناؤ ہے۔",
+                "tr": "Kas gerildi."
+            },
+            "id": "v47_09"
+        },
+        {
+            "germanTerm": "die Sehne",
+            "article": "die",
+            "plural": "die Sehnen",
+            "pronunciation": "/ˈzeːnə/",
+            "category": "noun",
+            "translation": {
+                "en": "tendon",
+                "bn": "টেন্ডন",
+                "hi": "कण्डरा",
+                "ur": "وتر",
+                "tr": "tendon"
+            },
+            "exampleSentence": "Die Sehne ist gerissen.",
+            "exampleTranslation": {
+                "en": "The tendon is torn.",
+                "bn": "টেন্ডন ছিঁড়ে গেছে।",
+                "hi": "कण्डरा फट गई है।",
+                "ur": "وتر پھٹ گیا ہے۔",
+                "tr": "Tendon yırtıldı."
+            },
+            "id": "v47_10"
+        },
+        {
+            "germanTerm": "das Implantat",
+            "article": "das",
+            "plural": "die Implantate",
+            "pronunciation": "/ɪmplanˈtaːt/",
+            "category": "noun",
+            "translation": {
+                "en": "implant",
+                "bn": "ইমপ্লান্ট",
+                "hi": "प्रत्यारोपण",
+                "ur": "امپلانٹ",
+                "tr": "implant"
+            },
+            "exampleSentence": "Das Implantat wird während der Operation eingesetzt.",
+            "exampleTranslation": {
+                "en": "The implant is inserted during the operation.",
+                "bn": "অপারেশনের সময় ইমপ্লান্ট স্থাপন করা হয়।",
+                "hi": "ऑपरेशन के दौरान प्रत्यारोपण डाला जाता है।",
+                "ur": "آپریشن کے دوران امپلانٹ ڈالا جاتا ہے۔",
+                "tr": "İmplant operasyon sırasında yerleştirilir."
+            },
+            "id": "v47_11"
+        },
+        {
+            "germanTerm": "die Arthroskopie",
+            "article": "die",
+            "plural": "die Arthroskopien",
+            "pronunciation": "/ˌartʁoskopiː/",
+            "category": "noun",
+            "translation": {
+                "en": "arthroscopy",
+                "bn": "আর্থ্রোস্কোপি",
+                "hi": "आर्थ्रोस्कोपी",
+                "ur": "آرتھروسکوپی",
+                "tr": "artroskopi"
+            },
+            "exampleSentence": "Die Arthroskopie ermöglicht eine genaue Diagnose.",
+            "exampleTranslation": {
+                "en": "Arthroscopy enables an accurate diagnosis.",
+                "bn": "আর্থ্রোস্কোপি একটি নির্ভুল রোগ নির্ণয় করতে সাহায্য করে।",
+                "hi": "आर्थ्रोस्कोपी एक सटीक निदान को सक्षम करती है।",
+                "ur": "آرتھروسکوپی ایک درست تشخیص کو ممکن بناتی ہے۔",
+                "tr": "Artroskopi, doğru bir teşhis sağlar."
+            },
+            "id": "v47_12"
+        },
+        {
+            "germanTerm": "die konservative Therapie",
+            "article": "die",
+            "plural": "die konservativen Therapien",
+            "pronunciation": "/kɔnzɛʁvaˈtiːfə teˈʁaːpiː/",
+            "category": "noun",
+            "translation": {
+                "en": "conservative therapy",
+                "bn": "রক্ষণশীল থেরাপি",
+                "hi": "रूढ़िवादी चिकित्सा",
+                "ur": "قدامت پسند تھراپی",
+                "tr": "konservatif tedavi"
+            },
+            "exampleSentence": "Bei dieser Fraktur ist eine konservative Therapie ausreichend.",
+            "exampleTranslation": {
+                "en": "Conservative therapy is sufficient for this fracture.",
+                "bn": "এই ফ্র্যাকচারের জন্য রক্ষণশীল থেরাপি যথেষ্ট।",
+                "hi": "इस फ्रैक्चर के लिए रूढ़िवादी चिकित्सा पर्याप्त है।",
+                "ur": "اس فریکچر کے لیے قدامت پسند تھراپی کافی ہے۔",
+                "tr": "Bu kırık için konservatif tedavi yeterlidir."
+            },
+            "id": "v47_13"
+        },
+        {
+            "germanTerm": "das Röntgenbild",
+            "article": "das",
+            "plural": "die Röntgenbilder",
+            "pronunciation": "/ˈʁœntɡənˌbɪlt/",
+            "category": "noun",
+            "translation": {
+                "en": "X-ray",
+                "bn": "এক্স-রে",
+                "hi": "एक्स-रे",
+                "ur": "ایکس رے",
+                "tr": "röntgen"
+            },
+            "exampleSentence": "Auf dem Röntgenbild ist die Fraktur deutlich zu erkennen.",
+            "exampleTranslation": {
+                "en": "The fracture is clearly visible on the X-ray.",
+                "bn": "এক্স-রে তে ফ্র্যাকচার স্পষ্টভাবে দেখা যাচ্ছে।",
+                "hi": "एक्स-रे में फ्रैक्चर स्पष्ट रूप से दिखाई दे रहा है।",
+                "ur": "ایکس رے میں فریکچر واضح طور پر نظر آرہا ہے۔",
+                "tr": "Röntgende kırık açıkça görülebiliyor."
+            },
+            "id": "v47_14"
+        },
+        {
+            "germanTerm": "die Schiene",
+            "article": "die",
+            "plural": "die Schienen",
+            "pronunciation": "/ˈʃiːnə/",
+            "category": "noun",
+            "translation": {
+                "en": "splint",
+                "bn": "স্প্লিন্ট",
+                "hi": "खपची",
+                "ur": "چپٹی",
+                "tr": "atel"
+            },
+            "exampleSentence": "Der Arm wird mit einer Schiene ruhiggestellt.",
+            "exampleTranslation": {
+                "en": "The arm is immobilized with a splint.",
+                "bn": "হাত একটি স্প্লিন্ট দিয়ে স্থির করা হয়েছে।",
+                "hi": "हाथ को एक खपची से स्थिर किया जाता है।",
+                "ur": "بازو کو ایک چپٹی سے بے حرکت کر دیا گیا ہے۔",
+                "tr": "Kol bir atel ile sabitlenir."
+            },
+            "id": "v47_15"
+        },
+        {
+            "germanTerm": "der Rollstuhl",
+            "article": "der",
+            "plural": "die Rollstühle",
+            "pronunciation": "/ˈʁɔlʃtuːl/",
+            "category": "noun",
+            "translation": {
+                "en": "wheelchair",
+                "bn": "হুইলচেয়ার",
+                "hi": "पहिया कुर्सी",
+                "ur": "وہیل چیئر",
+                "tr": "tekerlekli sandalye"
+            },
+            "exampleSentence": "Der Patient ist vorübergehend auf einen Rollstuhl angewiesen.",
+            "exampleTranslation": {
+                "en": "The patient is temporarily dependent on a wheelchair.",
+                "bn": "রোগী সাময়িকভাবে হুইলচেয়ারে নির্ভরশীল।",
+                "hi": "मरीज अस्थायी रूप से पहिया कुर्सी पर निर्भर है।",
+                "ur": "مریض عارضی طور پر وہیل چیئر پر منحصر ہے۔",
+                "tr": "Hasta geçici olarak tekerlekli sandalyeye bağımlı."
+            },
+            "id": "v47_16"
+        },
+        {
+            "germanTerm": "belasten",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/bəˈlastən/",
+            "category": "verb",
+            "translation": {
+                "en": "to load, to put weight on",
+                "bn": "ভার দেওয়া",
+                "hi": "भार डालना",
+                "ur": "بوجھ ڈالنا",
+                "tr": "yüklemek, ağırlık vermek"
+            },
+            "exampleSentence": "Der Patient darf das Bein noch nicht voll belasten.",
+            "exampleTranslation": {
+                "en": "The patient is not yet allowed to put full weight on the leg.",
+                "bn": "রোগীকে এখনও পায়ে পুরো ভার দিতে দেওয়া হয় না।",
+                "hi": "रोगी को अभी तक पैर पर पूरा भार डालने की अनुमति नहीं है।",
+                "ur": "مریض کو ابھی تک ٹانگ پر پورا وزن ڈالنے کی اجازت نہیں ہے۔",
+                "tr": "Hastanın henüz bacağına tam ağırlık vermesine izin verilmiyor."
+            },
+            "id": "v47_17"
+        },
+        {
+            "germanTerm": "stabilisieren",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ʃtabiliˈziːʁən/",
+            "category": "verb",
+            "translation": {
+                "en": "to stabilize",
+                "bn": "স্থিতিশীল করা",
+                "hi": "स्थिर करना",
+                "ur": "مستحکم کرنا",
+                "tr": "dengelemek"
+            },
+            "exampleSentence": "Die Operation soll das Gelenk stabilisieren.",
+            "exampleTranslation": {
+                "en": "The operation is intended to stabilize the joint.",
+                "bn": "অপারেশনটি জয়েন্টকে স্থিতিশীল করার উদ্দেশ্যে করা হয়েছে।",
+                "hi": "ऑपरेशन का उद्देश्य जोड़ को स्थिर करना है।",
+                "ur": "آپریشن کا مقصد جوڑ کو مستحکم کرنا ہے۔",
+                "tr": "Ameliyat eklemi stabilize etmeyi amaçlamaktadır."
+            },
+            "id": "v47_18"
+        },
+        {
+            "germanTerm": "schmerzhaft",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈʃmɛʁt͡shaft/",
+            "category": "adjective",
+            "translation": {
+                "en": "painful",
+                "bn": "বেদনাদায়ক",
+                "hi": "दर्दनाक",
+                "ur": "دردناک",
+                "tr": "ağrılı"
+            },
+            "exampleSentence": "Die Bewegung ist sehr schmerzhaft für den Patienten.",
+            "exampleTranslation": {
+                "en": "The movement is very painful for the patient.",
+                "bn": "движението е болезнено за пациента.",
+                "hi": "आंदोलन मरीज के लिए बहुत दर्दनाक है.",
+                "ur": "حرکت مریض کے لیے بہت تکلیف دہ ہے۔",
+                "tr": "Hareket hasta için çok acı verici."
+            },
+            "id": "v47_19"
+        },
+        {
+            "germanTerm": "die Orthese",
+            "article": "die",
+            "plural": "die Orthesen",
+            "pronunciation": "/ɔʁˈteːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "orthosis",
+                "bn": "অর্থেসিস",
+                "hi": "ऑर्थोसिस",
+                "ur": "آرتھوسس",
+                "tr": "ortez"
+            },
+            "exampleSentence": "Die Orthese unterstützt das Gelenk.",
+            "exampleTranslation": {
+                "en": "The orthosis supports the joint.",
+                "bn": "অর্থেসিস জয়েন্টকে সমর্থন করে।",
+                "hi": "ऑर्थोसिस जोड़ का समर्थन करता है।",
+                "ur": "آرتھوسس جوڑ کو سہارا دیتا ہے۔",
+                "tr": "Ortez eklemi destekler."
+            },
+            "id": "v47_20"
+        },
+        {
+            "germanTerm": "die Heilung",
+            "article": "die",
+            "plural": "die Heilungen",
+            "pronunciation": "/ˈhaɪ̯lʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "healing",
+                "bn": "আরোগ্যলাভ",
+                "hi": "उपचार",
+                "ur": "شفایابی",
+                "tr": "iyileşme"
+            },
+            "exampleSentence": "Die Heilung der Fraktur dauert einige Wochen.",
+            "exampleTranslation": {
+                "en": "The healing of the fracture takes several weeks.",
+                "bn": "ফ্র্যাকচারের আরোগ্যলাভে কয়েক সপ্তাহ লাগে।",
+                "hi": "फ्रैक्चर के उपचार में कई सप्ताह लगते हैं।",
+                "ur": "فریکچر کی شفا یابی میں کئی ہفتے لگتے ہیں۔",
+                "tr": "Kırığın iyileşmesi birkaç hafta sürer."
+            },
+            "id": "v47_21"
+        },
+        {
+            "germanTerm": "die Belastbarkeit",
+            "article": "die",
+            "plural": "die Belastbarkeiten",
+            "pronunciation": "/bəˈlastbaːɐ̯kaɪ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "load capacity, resilience",
+                "bn": "ভারবহন ক্ষমতা",
+                "hi": "भार वहन क्षमता",
+                "ur": "بوجھ برداشت کرنے کی صلاحیت",
+                "tr": "yük kapasitesi, dayanıklılık"
+            },
+            "exampleSentence": "Die Belastbarkeit des Knochens muss wieder aufgebaut werden.",
+            "exampleTranslation": {
+                "en": "The load capacity of the bone must be rebuilt.",
+                "bn": "হাড়ের ভারবহন ক্ষমতা পুনরায় তৈরি করতে হবে।",
+                "hi": "हड्डी की भार वहन क्षमता को फिर से बनाना होगा।",
+                "ur": "ہڈی کی بوجھ برداشت کرنے کی صلاحیت کو دوبارہ بنانا ہوگا۔",
+                "tr": "Kemiğin yük kapasitesi yeniden inşa edilmelidir."
+            },
+            "id": "v47_22"
+        },
+        {
+            "germanTerm": "die Gangschulung",
+            "article": "die",
+            "plural": "die Gangschulungen",
+            "pronunciation": "/ˈɡaŋˌʃuːlʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "gait training",
+                "bn": "গাইট প্রশিক্ষণ",
+                "hi": "चाल प्रशिक्षण",
+                "ur": "چال کی تربیت",
+                "tr": "yürüyüş eğitimi"
+            },
+            "exampleSentence": "Die Gangschulung ist ein wichtiger Teil der Rehabilitation.",
+            "exampleTranslation": {
+                "en": "Gait training is an important part of rehabilitation.",
+                "bn": "গাইট প্রশিক্ষণ পুনর্বাসনের একটি গুরুত্বপূর্ণ অংশ।",
+                "hi": "चाल प्रशिक्षण पुनर्वास का एक महत्वपूर्ण हिस्सा है।",
+                "ur": "چال کی تربیت بحالی کا ایک اہم حصہ ہے۔",
+                "tr": "Yürüyüş eğitimi rehabilitasyonun önemli bir parçasıdır."
+            },
+            "id": "v47_23"
+        },
+        {
+            "germanTerm": "die Bewegungseinschränkung",
+            "article": "die",
+            "plural": "die Bewegungseinschränkungen",
+            "pronunciation": "/bəˈveːɡʊŋsˌʔaɪnʃʁɛŋkʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "limitation of movement",
+                "bn": "চলনের সীমাবদ্ধতা",
+                "hi": "आंदोलन की सीमा",
+                "ur": "حرکت کی حد",
+                "tr": "hareket kısıtlılığı"
+            },
+            "exampleSentence": "Der Patient klagt über eine Bewegungseinschränkung im Knie.",
+            "exampleTranslation": {
+                "en": "The patient complains of a limitation of movement in the knee.",
+                "bn": "রোগী হাঁটুতে চলনের সীমাবদ্ধতার অভিযোগ করছেন।",
+                "hi": "मरीज घुटने में आंदोलन की सीमा की शिकायत करता है।",
+                "ur": "مریض گھٹنے میں حرکت کی حد کی شکایت کرتا ہے۔",
+                "tr": "Hasta dizinde hareket kısıtlılığından şikayet ediyor."
+            },
+            "id": "v47_24"
+        },
+        {
+            "germanTerm": "die Fehlstellung",
+            "article": "die",
+            "plural": "die Fehlstellungen",
+            "pronunciation": "/ˈfeːlˌʃtɛlʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "malposition",
+                "bn": "ত্রুটিপূর্ণ অবস্থান",
+                "hi": "खराब स्थिति",
+                "ur": "غلط پوزیشن",
+                "tr": "yanlış pozisyon"
+            },
+            "exampleSentence": "Die Fehlstellung muss korrigiert werden.",
+            "exampleTranslation": {
+                "en": "The malposition must be corrected.",
+                "bn": "ত্রুটিপূর্ণ অবস্থান সংশোধন করতে হবে।",
+                "hi": "खराब स्थिति को ठीक करना होगा।",
+                "ur": "غلط پوزیشن کو درست کرنا ہوگا۔",
+                "tr": "Yanlış pozisyon düzeltilmelidir."
+            },
+            "id": "v47_25"
+        },
+        {
+            "germanTerm": "die Instabilität",
+            "article": "die",
+            "plural": "die Instabilitäten",
+            "pronunciation": "/ɪnʃtabiliˈtɛːt/",
+            "category": "noun",
+            "translation": {
+                "en": "instability",
+                "bn": "অস্থিরতা",
+                "hi": "अस्थिरता",
+                "ur": "عدم استحکام",
+                "tr": "istikrarsızlık"
+            },
+            "exampleSentence": "Das Gelenk zeigt eine deutliche Instabilität.",
+            "exampleTranslation": {
+                "en": "The joint shows a clear instability.",
+                "bn": "জয়েন্ট একটি স্পষ্ট অস্থিরতা দেখাচ্ছে।",
+                "hi": "जोड़ एक स्पष्ट अस्थिरता दिखाता है।",
+                "ur": "جوڑ واضح عدم استحکام دکھاتا ہے۔",
+                "tr": "Eklem belirgin bir istikrarsızlık gösteriyor."
+            },
+            "id": "v47_26"
+        },
+        {
+            "germanTerm": "die Komplikation",
+            "article": "die",
+            "plural": "die Komplikationen",
+            "pronunciation": "/kɔmplikaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "complication",
+                "bn": "জটিলতা",
+                "hi": "जटिलता",
+                "ur": "پیچیدگی",
+                "tr": "komplikasyon"
+            },
+            "exampleSentence": "Es kam zu einer Komplikation nach der Operation.",
+            "exampleTranslation": {
+                "en": "There was a complication after the operation.",
+                "bn": "অপারেশনের পরে একটি জটিলতা দেখা দিয়েছে।",
+                "hi": "ऑपरेशन के बाद एक जटिलता आई।",
+                "ur": "آپریشن کے بعد ایک پیچیدگی پیدا ہوئی۔",
+                "tr": "Ameliyattan sonra bir komplikasyon oldu."
+            },
+            "id": "v47_27"
+        },
+        {
+            "germanTerm": "die Schmerzlinderung",
+            "article": "die",
+            "plural": "die Schmerzlinderungen",
+            "pronunciation": "/ˈʃmɛɐ̯t͡sˌlɪndəʁʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "pain relief",
+                "bn": "ব্যথা উপশম",
+                "hi": "दर्द से राहत",
+                "ur": "درد سے نجات",
+                "tr": "ağrı kesici"
+            },
+            "exampleSentence": "Die Schmerzlinderung ist ein wichtiges Ziel der Behandlung.",
+            "exampleTranslation": {
+                "en": "Pain relief is an important goal of the treatment.",
+                "bn": "ব্যথা উপশম চিকিৎসার একটি গুরুত্বপূর্ণ লক্ষ্য।",
+                "hi": "दर्द से राहत इलाज का एक महत्वपूर्ण लक्ष्य है।",
+                "ur": "درد سے نجات علاج کا ایک اہم مقصد ہے۔",
+                "tr": "Ağrı kesici, tedavinin önemli bir hedefidir."
+            },
+            "id": "v47_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Admission for Femoral Neck Fracture",
+                "bn": "ফিমোরাল নেক ফ্র্যাকচারের জন্য ভর্তি",
+                "hi": "फीमर गर्दन फ्रैक्चर के लिए प्रवेश",
+                "ur": "فیمرل گردن کے فریکچر کے لیے داخلہ",
+                "tr": "Femur Boynu Kırığı İçin Yatış"
+            },
+            "context": {
+                "en": "A patient, Mr. Müller, is admitted with a suspected femoral neck fracture after a fall.",
+                "bn": "একজন রোগী, জনাব মুলার, পড়ে যাওয়ার পরে ফিমোরাল নেক ফ্র্যাকচার সন্দেহ করে ভর্তি হয়েছেন।",
+                "hi": "एक मरीज, श्री मुलर, गिरने के बाद संदिग्ध फीमर गर्दन फ्रैक्चर के साथ भर्ती हैं।",
+                "ur": "ایک مریض، مسٹر ملر، گرنے کے بعد مشکوک فیمرل گردن کے فریکچر کے ساتھ داخل ہیں۔",
+                "tr": "Hasta Bay Müller, düşme sonrası femur boynu kırığı şüphesiyle yatırılıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Tag, Herr Müller. Ich bin Schwester Weber. Erzählen Sie mir, was passiert ist.",
+                    "translation": {
+                        "en": "Good day, Mr. Müller. I'm Nurse Weber. Tell me what happened.",
+                        "bn": "শুভ দিন, জনাব মুলার। আমি নার্স ওয়েবার। আমাকে বলুন কি হয়েছে।",
+                        "hi": "शुभ दिन, श्री मुलर। मैं नर्स वेबर हूँ। मुझे बताओ क्या हुआ।",
+                        "ur": "شب بخیر، مسٹر ملر۔ میں نرس ویبر ہوں۔ مجھے بتائیں کیا ہوا ہے۔",
+                        "tr": "İyi günler Bay Müller. Ben Hemşire Weber. Bana ne olduğunu anlatın."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich bin gestürzt und habe starke Schmerzen in der Hüfte.",
+                    "translation": {
+                        "en": "I fell and have severe pain in my hip.",
+                        "bn": "আমি পড়ে গিয়েছিলাম এবং আমার নিতম্বে তীব্র ব্যথা আছে।",
+                        "hi": "मैं गिर गया और मेरे कूल्हे में तेज दर्द है।",
+                        "ur": "میں گر گیا اور میرے کولہے میں شدید درد ہے۔",
+                        "tr": "Düştüm ve kalçamda şiddetli ağrı var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Tag, Herr Müller. Ich bin Dr. Schmidt. Wir werden Sie untersuchen und Röntgenaufnahmen machen, um die Ursache Ihrer Schmerzen zu finden. Wahrscheinlich eine Fraktur.",
+                    "translation": {
+                        "en": "Good day, Mr. Müller. I'm Dr. Schmidt. We'll examine you and take X-rays to find the cause of your pain. Probably a fracture.",
+                        "bn": "শুভ দিন, জনাব মুলার। আমি ডাঃ শ্মিট। আমরা আপনাকে পরীক্ষা করব এবং আপনার ব্যথার কারণ খুঁজে বের করার জন্য এক্স-রে করব। সম্ভবত একটি ফ্র্যাকচার।",
+                        "hi": "शुभ दिन, श्री मुलर। मैं डॉ. श्मिट हूँ। हम आपकी जांच करेंगे और आपके दर्द का कारण जानने के लिए एक्स-रे करेंगे। शायद एक फ्रैक्चर।",
+                        "ur": "شب بخیر، مسٹر ملر۔ میں ڈاکٹر شمٹ ہوں۔ ہم آپ کا معائنہ کریں گے اور آپ کے درد کی وجہ معلوم کرنے کے لیے ایکسرے لیں گے۔ شاید ایک فریکچر۔",
+                        "tr": "İyi günler Bay Müller. Ben Dr. Schmidt. Sizi muayene edeceğiz ve ağrınızın nedenini bulmak için röntgen çekeceğiz. Muhtemelen bir kırık."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Was bedeutet das für mich?",
+                    "translation": {
+                        "en": "What does that mean for me?",
+                        "bn": "এর মানে আমার জন্য কি?",
+                        "hi": "इसका मतलब मेरे लिए क्या है?",
+                        "ur": "اس کا میرے لیے کیا مطلب ہے؟",
+                        "tr": "Bu benim için ne anlama geliyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das hängt von der Art der Fraktur ab. Es kann eine Operation notwendig sein.",
+                    "translation": {
+                        "en": "That depends on the type of fracture. Surgery may be necessary.",
+                        "bn": "এটা ফ্র্যাকচারের ধরনের উপর নির্ভর করে। অস্ত্রোপচারের প্রয়োজন হতে পারে।",
+                        "hi": "यह फ्रैक्चर के प्रकार पर निर्भर करता है। सर्जरी की आवश्यकता हो सकती है।",
+                        "ur": "اس کا انحصار فریکچر کی قسم پر ہے۔ سرجری کی ضرورت ہو سکتی ہے۔",
+                        "tr": "Bu, kırığın türüne bağlı. Ameliyat gerekebilir."
+                    }
+                }
+            ],
+            "id": "d47_01"
+        },
+        {
+            "title": {
+                "en": "Discussion Before Hip Replacement Surgery",
+                "bn": "হিপ রিপ্লেসমেন্ট সার্জারির আগে আলোচনা",
+                "hi": "हिप रिप्लेसमेंट सर्जरी से पहले चर्चा",
+                "ur": "ہپ ریپلیسمنٹ سرجری سے پہلے گفتگو",
+                "tr": "Kalça Protezi Ameliyatı Öncesi Görüşme"
+            },
+            "context": {
+                "en": "Dr. Weber discusses hip replacement surgery with a patient who has severe osteoarthritis.",
+                "bn": "ডাঃ ওয়েবার গুরুতর অস্টিওআর্থারাইটিস আছে এমন একজন রোগীর সাথে হিপ রিপ্লেসমেন্ট সার্জারি নিয়ে আলোচনা করছেন।",
+                "hi": "डॉ. वेबर गंभीर ऑस्टियोआर्थराइटिस वाले एक मरीज के साथ हिप रिप्लेसमेंट सर्जरी पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر ویبر شدید اوسٹیوآرتھرائٹس والے مریض کے ساتھ ہپ ریپلیسمنٹ سرجری پر بات کر رہے ہیں۔",
+                "tr": "Dr. Weber, şiddetli osteoartriti olan bir hasta ile kalça protezi ameliyatını görüşüyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Tag, Frau Schmidt. Wir haben Ihre Röntgenbilder angesehen. Eine Hüftgelenksersatzoperation ist die beste Option für Sie.",
+                    "translation": {
+                        "en": "Good day, Mrs. Schmidt. We've looked at your X-rays. A hip replacement surgery is the best option for you.",
+                        "bn": "শুভ দিন, মিসেস শ্মিট। আমরা আপনার এক্স-রে দেখেছি। আপনার জন্য হিপ রিপ্লেসমেন্ট সার্জারি সেরা বিকল্প।",
+                        "hi": "शुभ दिन, श्रीमती श्मिट। हमने आपकी एक्स-रे देखी हैं। आपके लिए हिप रिप्लेसमेंट सर्जरी सबसे अच्छा विकल्प है।",
+                        "ur": "شب بخیر، محترمہ شمٹ۔ ہم نے آپ کی ایکسرے دیکھی ہیں۔ آپ کے لیے ہپ ریپلیسمنٹ سرجری بہترین آپشن ہے۔",
+                        "tr": "İyi günler Bayan Schmidt. Röntgenlerinize baktık. Sizin için kalça protezi ameliyatı en iyi seçenek."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Was bedeutet das genau? Werde ich wieder normal laufen können?",
+                    "translation": {
+                        "en": "What does that exactly mean? Will I be able to walk normally again?",
+                        "bn": "এর মানে ঠিক কি? আমি কি আবার স্বাভাবিকভাবে হাঁটতে পারব?",
+                        "hi": "इसका ठीक मतलब क्या है? क्या मैं फिर से सामान्य रूप से चल पाऊँगी?",
+                        "ur": "اس کا بالکل کیا مطلب ہے؟ کیا میں دوبارہ معمول کے مطابق چل سکوں گی؟",
+                        "tr": "Bu tam olarak ne anlama geliyor? Tekrar normal yürüyebilecek miyim?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir setzen ein künstliches Hüftgelenk ein. Nach der Rehabilitation und Physiotherapie sollten Sie deutlich besser laufen können. Mobilisation ist sehr wichtig.",
+                    "translation": {
+                        "en": "We will insert an artificial hip joint. After rehabilitation and physiotherapy, you should be able to walk much better. Mobilization is very important.",
+                        "bn": "আমরা একটি কৃত্রিম হিপ জয়েন্ট স্থাপন করব। পুনর্বাসন এবং ফিজিওথেরাপি পরে, আপনি অনেক ভাল হাঁটতে সক্ষম হবেন। চলাচল খুব গুরুত্বপূর্ণ।",
+                        "hi": "हम एक कृत्रिम हिप जॉइंट लगाएंगे। पुनर्वास और फिजियोथेरेपी के बाद, आप बहुत बेहतर तरीके से चल पाएंगे। गतिशीलता बहुत महत्वपूर्ण है।",
+                        "ur": "ہم ایک مصنوعی ہپ جوائنٹ لگائیں گے۔ بحالی اور فزیوتھراپی کے بعد، آپ بہت بہتر طریقے سے چل سکیں گے۔ حرکت پذیری بہت اہم ہے۔",
+                        "tr": "Yapay bir kalça eklemi yerleştireceğiz. Rehabilitasyon ve fizyoterapiden sonra çok daha iyi yürüyebilmelisiniz. Mobilizasyon çok önemli."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Wie lange dauert die Rehabilitation?",
+                    "translation": {
+                        "en": "How long does the rehabilitation take?",
+                        "bn": "পুনর্বাসন কতদিন স্থায়ী হয়?",
+                        "hi": "पुनर्वास में कितना समय लगता है?",
+                        "ur": "بحالی میں کتنا وقت لگتا ہے؟",
+                        "tr": "Rehabilitasyon ne kadar sürer?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das ist individuell, aber rechnen Sie mit mehreren Wochen bis Monaten. Wichtig ist die aktive Teilnahme an der Physiotherapie.",
+                    "translation": {
+                        "en": "That is individual, but expect several weeks to months. Active participation in physiotherapy is important.",
+                        "bn": "এটি ব্যক্তিগত, তবে কয়েক সপ্তাহ থেকে কয়েক মাস পর্যন্ত লাগতে পারে। ফিজিওথেরাপিতে সক্রিয় অংশগ্রহণ গুরুত্বপূর্ণ।",
+                        "hi": "यह व्यक्तिगत है, लेकिन कई हफ्तों से महीनों तक लगने की उम्मीद है। फिजियोथेरेपी में सक्रिय भागीदारी महत्वपूर्ण है।",
+                        "ur": "یہ انفرادی ہے، لیکن کئی ہفتوں سے مہینوں تک لگنے کی توقع ہے۔ فزیوتھراپی میں فعال شرکت ضروری ہے۔",
+                        "tr": "Bu kişiye özeldir, ancak birkaç haftadan aylara kadar sürebilir. Fizyoterapiye aktif katılım önemlidir."
+                    }
+                }
+            ],
+            "id": "d47_02"
+        },
+        {
+            "title": {
+                "en": "Physiotherapy After Knee Replacement",
+                "bn": "হাঁটু প্রতিস্থাপনের পরে ফিজিওথেরাপি",
+                "hi": "घुटने के प्रतिस्थापन के बाद फिजियोथेरेपी",
+                "ur": "گھٹنے کی تبدیلی کے بعد فزیوتھراپی",
+                "tr": "Diz Protezi Sonrası Fizyoterapi"
+            },
+            "context": {
+                "en": "A physiotherapist, Frau Klein, is working with a patient, Herr Lehmann, after knee replacement surgery.",
+                "bn": "একজন ফিজিওথেরাপিস্ট, ফ্রাউ ক্লাইন, হাঁটু প্রতিস্থাপন সার্জারির পরে একজন রোগী, হের লেহমানের সাথে কাজ করছেন।",
+                "hi": "एक फिजियोथेरेपिस्ट, फ्राउ क्लाइन, घुटने के प्रतिस्थापन सर्जरी के बाद एक मरीज, हेर लेहमन के साथ काम कर रही हैं।",
+                "ur": "ایک فزیوتھراپسٹ، فراؤ کلین، گھٹنے کی تبدیلی کی سرجری کے بعد ایک مریض، ہیر لیمان کے ساتھ کام کر رہی ہیں۔",
+                "tr": "Fizyoterapist Frau Klein, diz protezi ameliyatı sonrası hasta Bay Lehmann ile çalışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Frau Klein",
+                    "speakerRole": "Physiotherapeutin",
+                    "germanText": "Guten Tag, Herr Lehmann. Wie fühlen Sie sich heute?",
+                    "translation": {
+                        "en": "Good day, Mr. Lehmann. How do you feel today?",
+                        "bn": "শুভ দিন, জনাব লেহমান। আজ কেমন লাগছে?",
+                        "hi": "शुभ दिन, श्री लेहमन। आज आपको कैसा लग रहा है?",
+                        "ur": "شب بخیر، مسٹر لیمان۔ آج آپ کیسا محسوس کر رہے ہیں؟",
+                        "tr": "İyi günler Bay Lehmann. Bugün nasılsınız?"
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Es ist noch etwas steif, aber besser als gestern.",
+                    "translation": {
+                        "en": "It's still a bit stiff, but better than yesterday.",
+                        "bn": "এটা এখনও একটু শক্ত, কিন্তু গতকালের চেয়ে ভালো।",
+                        "hi": "यह अभी भी थोड़ा कड़ा है, लेकिन कल से बेहतर है।",
+                        "ur": "یہ ابھی بھی تھوڑا سا سخت ہے، لیکن کل سے بہتر ہے۔",
+                        "tr": "Hala biraz sert, ama dünden iyi."
+                    }
+                },
+                {
+                    "speaker": "Frau Klein",
+                    "speakerRole": "Physiotherapeutin",
+                    "germanText": "Sehr gut. Heute üben wir die Mobilisation des Knies und leichte Kräftigungsübungen.",
+                    "translation": {
+                        "en": "Very good. Today we'll practice mobilizing the knee and light strengthening exercises.",
+                        "bn": "খুব ভালো। আজ আমরা হাঁটুর চলাচল এবং হালকা শক্তিশালী করার অনুশীলন করব।",
+                        "hi": "बहुत अच्छा। आज हम घुटने की गतिशीलता और हल्के मजबूत करने वाले व्यायामों का अभ्यास करेंगे।",
+                        "ur": "بہت خوب۔ آج ہم گھٹنے کی حرکت پذیری اور ہلکی مضبوطی کی مشقیں کریں گے۔",
+                        "tr": "Çok iyi. Bugün dizin mobilizasyonunu ve hafif kuvvetlendirme egzersizlerini çalışacağız."
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Kann ich auch schon etwas belasten?",
+                    "translation": {
+                        "en": "Can I put some weight on it already?",
+                        "bn": "আমি কি ইতিমধ্যে কিছু ওজন দিতে পারি?",
+                        "hi": "क्या मैं पहले से ही कुछ वजन डाल सकता हूँ?",
+                        "ur": "کیا میں پہلے سے ہی اس پر کچھ وزن ڈال سکتا ہوں؟",
+                        "tr": "Şimdiden biraz ağırlık verebilir miyim?"
+                    }
+                },
+                {
+                    "speaker": "Frau Klein",
+                    "speakerRole": "Physiotherapeutin",
+                    "germanText": "Ja, aber nur unter Anleitung und mit der entsprechenden Unterstützung. Langsam steigern wir die Belastung.",
+                    "translation": {
+                        "en": "Yes, but only under guidance and with the appropriate support. We will gradually increase the load.",
+                        "bn": "হ্যাঁ, তবে শুধুমাত্র নির্দেশনার অধীনে এবং যথাযথ সহায়তার সাথে। আমরা ধীরে ধীরে লোড বাড়াব।",
+                        "hi": "हाँ, लेकिन केवल मार्गदर्शन में और उचित समर्थन के साथ। हम धीरे-धीरे भार बढ़ाएंगे।",
+                        "ur": "ہاں، لیکن صرف رہنمائی میں اور مناسب مدد کے ساتھ۔ ہم آہستہ آہستہ بوجھ میں اضافہ کریں گے۔",
+                        "tr": "Evet, ancak sadece rehberlik altında ve uygun destekle. Yükü kademeli olarak artıracağız."
+                    }
+                }
+            ],
+            "id": "d47_03"
+        },
+        {
+            "title": {
+                "en": "Follow-up Appointment After Fracture Healing",
+                "bn": "ফ্র্যাকচার নিরাময়ের পরে ফলো-আপ অ্যাপয়েন্টমেন্ট",
+                "hi": "फ्रैक्चर ठीक होने के बाद फॉलो-अप अपॉइंटमेंट",
+                "ur": "فریکچر ٹھیک ہونے کے بعد فالو اپ اپائنٹمنٹ",
+                "tr": "Kırık İyileşmesi Sonrası Kontrol Randevusu"
+            },
+            "context": {
+                "en": "Dr. Meier checks on a patient, Frau Bauer, after her wrist fracture has healed.",
+                "bn": "ডাঃ মিয়ার, ফ্রাউ বাউয়ারের কব্জির ফ্র্যাকচার সেরে যাওয়ার পরে তাকে পরীক্ষা করছেন।",
+                "hi": "डॉ. मेयर, फ्राउ बाऊर की कलाई का फ्रैक्चर ठीक होने के बाद उसकी जाँच कर रहे हैं।",
+                "ur": "ڈاکٹر میئر، فراؤ باؤر کی کلائی کا فریکچر ٹھیک ہونے کے بعد اس کی جانچ کر رہے ہیں۔",
+                "tr": "Dr. Meier, bilek kırığı iyileşen hasta Frau Bauer'i kontrol ediyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Tag, Frau Bauer. Wie geht es Ihrem Handgelenk?",
+                    "translation": {
+                        "en": "Good day, Mrs. Bauer. How is your wrist doing?",
+                        "bn": "শুভ দিন, মিসেস বাউয়ার। আপনার কব্জি কেমন আছে?",
+                        "hi": "शुभ दिन, श्रीमती बाऊर। आपकी कलाई कैसी है?",
+                        "ur": "شب بخیر، محترمہ باؤر۔ آپ کی کلائی کیسی ہے؟",
+                        "tr": "İyi günler Bayan Bauer. Bileğiniz nasıl?"
+                    }
+                },
+                {
+                    "speaker": "Patient Bauer",
+                    "speakerRole": "Patient",
+                    "germanText": "Viel besser! Ich kann es fast wieder normal bewegen.",
+                    "translation": {
+                        "en": "Much better! I can almost move it normally again.",
+                        "bn": "অনেক ভালো! আমি প্রায় আবার স্বাভাবিকভাবে নড়াতে পারছি।",
+                        "hi": "बहुत बेहतर! मैं इसे लगभग फिर से सामान्य रूप से हिला सकती हूँ।",
+                        "ur": "بہت بہتر! میں اسے تقریباً دوبارہ معمول کے مطابق ہلا سکتی ہوں۔",
+                        "tr": "Çok daha iyi! Neredeyse tekrar normal hareket ettirebiliyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das freut mich zu hören. Die Röntgenaufnahme zeigt, dass der Knochen gut verheilt ist. Wir können jetzt mit der Rehabilitation abschließen.",
+                    "translation": {
+                        "en": "I'm glad to hear that. The X-ray shows that the bone has healed well. We can now conclude the rehabilitation.",
+                        "bn": "শুনে খুশি হলাম। এক্স-রে দেখাচ্ছে যে হাড় ভালোভাবে সেরে গেছে। আমরা এখন পুনর্বাসন শেষ করতে পারি।",
+                        "hi": "यह सुनकर खुशी हुई। एक्स-रे से पता चलता है कि हड्डी अच्छी तरह से ठीक हो गई है। अब हम पुनर्वास समाप्त कर सकते हैं।",
+                        "ur": "یہ سن کر خوشی ہوئی۔ ایکسرے سے پتہ چلتا ہے کہ ہڈی اچھی طرح سے ٹھیک ہو گئی ہے۔ اب ہم بحالی کو ختم کر سکتے ہیں۔",
+                        "tr": "Bunu duyduğuma sevindim. Röntgen, kemiğin iyi iyileştiğini gösteriyor. Artık rehabilitasyonu sonlandırabiliriz."
+                    }
+                },
+                {
+                    "speaker": "Patient Bauer",
+                    "speakerRole": "Patient",
+                    "germanText": "Brauche ich noch Physiotherapie?",
+                    "translation": {
+                        "en": "Do I still need physiotherapy?",
+                        "bn": "আমার কি এখনও ফিজিওথেরাপির প্রয়োজন?",
+                        "hi": "क्या मुझे अभी भी फिजियोथेरेपी की आवश्यकता है?",
+                        "ur": "کیا مجھے ابھی بھی فزیوتھراپی کی ضرورت ہے؟",
+                        "tr": "Hala fizyoterapiye ihtiyacım var mı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Nicht unbedingt, aber es kann helfen, die volle Beweglichkeit wiederherzustellen. Sprechen Sie mit Ihrem Physiotherapeuten.",
+                    "translation": {
+                        "en": "Not necessarily, but it can help restore full mobility. Talk to your physiotherapist.",
+                        "bn": "অগত্যা নয়, তবে এটি সম্পূর্ণ চলাচল পুনরুদ্ধার করতে সাহায্য করতে পারে। আপনার ফিজিওথেরাপিস্টের সাথে কথা বলুন।",
+                        "hi": "जरूरी नहीं, लेकिन यह पूरी गतिशीलता बहाल करने में मदद कर सकता है। अपने फिजियोथेरेपिस्ट से बात करें।",
+                        "ur": "ضروری نہیں، لیکن یہ مکمل حرکت پذیری کو بحال کرنے میں مدد کر سکتا ہے۔ اپنے فزیوتھراپسٹ سے بات کریں۔",
+                        "tr": "Şart değil, ancak tam hareketliliği geri kazanmaya yardımcı olabilir. Fizyoterapistinizle konuşun."
+                    }
+                }
+            ],
+            "id": "d47_04"
+        },
+        {
+            "title": {
+                "en": "Prosthesis Adjustment",
+                "bn": "কৃত্রিম অঙ্গ সামঞ্জস্য",
+                "hi": "कृत्रिम अंग समायोजन",
+                "ur": "مصنوعی اعضا کی ایڈجسٹمنٹ",
+                "tr": "Protez Ayarlaması"
+            },
+            "context": {
+                "en": "A patient, Herr Klein, is having his leg prosthesis adjusted by the orthopedic technician, Herr Schulz.",
+                "bn": "একজন রোগী, হের ক্লাইন, অর্থোপেডিক টেকনিশিয়ান, হের শুলজের দ্বারা তার পায়ের কৃত্রিম অঙ্গ সামঞ্জস্য করাচ্ছেন।",
+                "hi": "एक मरीज, हेर क्लेन, ऑर्थोपेडिक तकनीशियन, हेर शुल्ज़ द्वारा अपने पैर के कृत्रिम अंग को समायोजित करवा रहा है।",
+                "ur": "ایک مریض، ہیر کلین، اپنے ٹانگ کی مصنوعی اعضا کو آرتھوپیڈک ٹیکنیشن، ہیر شلز سے ایڈجسٹ کروا رہا ہے۔",
+                "tr": "Hasta Bay Klein, bacak protezini ortopedi teknisyeni Bay Schulz'a ayarlattırıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Herr Schulz",
+                    "speakerRole": "Orthopädietechniker",
+                    "germanText": "Guten Tag, Herr Klein. Wo drückt es denn?",
+                    "translation": {
+                        "en": "Good day, Mr. Klein. Where is it pressing?",
+                        "bn": "শুভ দিন, জনাব ক্লাইন। কোথায় চাপ দিচ্ছে?",
+                        "hi": "शुभ दिन, श्री क्लेन। यह कहाँ दबा रहा है?",
+                        "ur": "شب بخیر، مسٹر کلین۔ یہ کہاں دبا رہا ہے؟",
+                        "tr": "İyi günler Bay Klein. Neresi baskı yapıyor?"
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Am Stumpf, hier vorne. Und ich habe das Gefühl, dass sie etwas locker sitzt.",
+                    "translation": {
+                        "en": "On the stump, here in front. And I have the feeling that it's a bit loose.",
+                        "bn": "স্টাম্পে, এখানে সামনে। এবং আমার মনে হচ্ছে এটি কিছুটা আলগা।",
+                        "hi": "स्टंप पर, यहाँ सामने। और मुझे लगता है कि यह थोड़ा ढीला है।",
+                        "ur": "سٹمپ پر، یہاں سامنے۔ اور مجھے لگتا ہے کہ یہ تھوڑا سا ڈھیلا ہے۔",
+                        "tr": "Güdükte, şurada önde. Ve biraz gevşekmiş gibi hissediyorum."
+                    }
+                },
+                {
+                    "speaker": "Herr Schulz",
+                    "speakerRole": "Orthopädietechniker",
+                    "germanText": "Okay, ich schaue es mir an. Wir können die Passform etwas anpassen und eventuell einen Strumpf hinzufügen. Die richtige Mobilisation ist wichtig.",
+                    "translation": {
+                        "en": "Okay, I'll take a look. We can adjust the fit a little and maybe add a sock. Proper mobilization is important.",
+                        "bn": "ঠিক আছে, আমি দেখছি। আমরা ফিট কিছুটা সামঞ্জস্য করতে পারি এবং সম্ভবত একটি মোজা যোগ করতে পারি। সঠিক চলাচল গুরুত্বপূর্ণ।",
+                        "hi": "ठीक है, मैं देखता हूँ। हम फिट को थोड़ा समायोजित कर सकते हैं और शायद एक मोजा जोड़ सकते हैं। उचित गतिशीलता महत्वपूर्ण है।",
+                        "ur": "ٹھیک ہے، میں دیکھتا ہوں۔ ہم فٹ کو تھوڑا ایڈجسٹ کر سکتے ہیں اور شاید ایک جراب شامل کر سکتے ہیں۔ مناسب حرکت پذیری اہم ہے۔",
+                        "tr": "Tamam, bakacağım. Uyumunu biraz ayarlayabiliriz ve belki bir çorap ekleyebiliriz. Doğru mobilizasyon önemlidir."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Gut, das wäre toll. Es ist manchmal schwierig, lange Strecken zu gehen.",
+                    "translation": {
+                        "en": "Good, that would be great. It's sometimes difficult to walk long distances.",
+                        "bn": "ভালো, এটা দারুণ হবে। মাঝে মাঝে দীর্ঘ দূরত্ব হাঁটা কঠিন।",
+                        "hi": "अच्छा, यह बहुत अच्छा होगा। कभी-कभी लंबी दूरी तक चलना मुश्किल होता है।",
+                        "ur": "اچھا، یہ بہت اچھا ہوگا۔ کبھی کبھی لمبی دوری تک چلنا مشکل ہوتا ہے۔",
+                        "tr": "Güzel, harika olur. Bazen uzun mesafeler yürümek zor oluyor."
+                    }
+                },
+                {
+                    "speaker": "Herr Schulz",
+                    "speakerRole": "Orthopädietechniker",
+                    "germanText": "Wir finden eine Lösung. Geduld und konsequente Physiotherapie helfen auch.",
+                    "translation": {
+                        "en": "We'll find a solution. Patience and consistent physiotherapy also help.",
+                        "bn": "আমরা একটি সমাধান খুঁজে বের করব। ধৈর্য এবং ধারাবাহিক ফিজিওথেরাপিও সাহায্য করে।",
+                        "hi": "हम एक समाधान खोज लेंगे। धैर्य और लगातार फिजियोथेरेपी भी मदद करते हैं।",
+                        "ur": "ہم ایک حل تلاش کر لیں گے۔ صبر اور مسلسل فزیوتھراپی بھی مدد کرتے ہیں۔",
+                        "tr": "Bir çözüm bulacağız. Sabır ve tutarlı fizyoterapi de yardımcı olur."
+                    }
+                }
+            ],
+            "id": "d47_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage trifft am ehesten auf eine Femurfraktur zu?",
+                "en": "Which statement is most likely true about a femur fracture?",
+                "bn": "ফিমার ফ্র্যাকচার সম্পর্কে কোন বক্তব্যটি সবচেয়ে বেশি সত্য?",
+                "hi": "फीमर फ्रैक्चर के बारे में कौन सा कथन सबसे अधिक सत्य है?",
+                "ur": "فیمر فریکچر کے بارے میں کون سا بیان سب سے زیادہ درست ہے؟",
+                "tr": "Femur kırığı hakkında hangi ifade en doğru ihtimalle doğrudur?"
+            },
+            "options": [
+                "Es handelt sich um eine Fraktur des Unterarms.",
+                "Es handelt sich um eine Fraktur des Oberschenkelknochens.",
+                "Es handelt sich um eine Fraktur des Schienbeins.",
+                "Es handelt sich um eine Fraktur des Schlüsselbeins."
+            ],
+            "correctAnswer": "Es handelt sich um eine Fraktur des Oberschenkelknochens.",
+            "explanation": {
+                "en": "A femur fracture is a fracture of the thigh bone.",
+                "bn": "ফিমার ফ্র্যাকচার হল ঊরুর হাড়ের একটি ফ্র্যাকচার।",
+                "hi": "फीमर फ्रैक्चर जांघ की हड्डी का फ्रैक्चर है।",
+                "ur": "فیمر فریکچر ران کی ہڈی کا فریکچر ہے۔",
+                "tr": "Femur kırığı, uyluk kemiği kırığıdır."
+            },
+            "points": 10,
+            "id": "e47_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Ziel eines Gelenkersatzes?",
+                "en": "What is the goal of a joint replacement?",
+                "bn": "একটি জয়েন্ট প্রতিস্থাপনের লক্ষ্য কী?",
+                "hi": "जोड़ बदलने का लक्ष्य क्या है?",
+                "ur": "جوڑ کی تبدیلی کا مقصد کیا ہے؟",
+                "tr": "Eklem protezinin amacı nedir?"
+            },
+            "options": [
+                "Die vollständige Heilung einer Infektion.",
+                "Die Linderung von Schmerzen und die Verbesserung der Funktion.",
+                "Die Stärkung der Muskeln um das Gelenk.",
+                "Die Vermeidung jeglicher Bewegung des Gelenks."
+            ],
+            "correctAnswer": "Die Linderung von Schmerzen und die Verbesserung der Funktion.",
+            "explanation": {
+                "en": "The goal of a joint replacement is to relieve pain and improve function of the joint.",
+                "bn": "একটি জয়েন্ট প্রতিস্থাপনের লক্ষ্য হল ব্যথা উপশম করা এবং জয়েন্টের কার্যকারিতা উন্নত করা।",
+                "hi": "जोड़ बदलने का लक्ष्य दर्द से राहत दिलाना और जोड़ के कार्य में सुधार करना है।",
+                "ur": "جوڑ کی تبدیلی کا مقصد درد سے نجات دلانا اور جوڑ کے فعل کو بہتر بنانا ہے۔",
+                "tr": "Eklem protezinin amacı ağrıyı hafifletmek ve eklemin işlevini iyileştirmektir."
+            },
+            "points": 10,
+            "id": "e47_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Art von Prothese wird typischerweise bei einer Amputation unterhalb des Knies verwendet?",
+                "en": "What type of prosthesis is typically used for an amputation below the knee?",
+                "bn": "হাঁটুর নীচে অঙ্গচ্ছেদের জন্য সাধারণত কোন ধরণের প্রোস্টেসিস ব্যবহার করা হয়?",
+                "hi": "घुटने के नीचे विच्छेदन के लिए आमतौर पर किस प्रकार का कृत्रिम अंग प्रयोग किया जाता है?",
+                "ur": "گھٹنے کے نیچے قطع کرنے کے لئے عام طور پر کس قسم کا مصنوعی اعضاء استعمال کیا جاتا ہے؟",
+                "tr": "Diz altı ampütasyonu için tipik olarak ne tür bir protez kullanılır?"
+            },
+            "options": [
+                "Oberschenkelprothese",
+                "Unterschenkelprothese",
+                "Armprothese",
+                "Handprothese"
+            ],
+            "correctAnswer": "Unterschenkelprothese",
+            "explanation": {
+                "en": "A below-knee amputation typically uses a below-knee prosthesis (transtibial prosthesis).",
+                "bn": "হাঁটুর নিচের অঙ্গচ্ছেদে সাধারণত হাঁটুর নিচের প্রোস্টেসিস (ট্রান্সটিবিয়াল প্রোস্টেসিস) ব্যবহার করা হয়।",
+                "hi": "घुटने के नीचे के विच्छेदन में आमतौर पर घुटने के नीचे का कृत्रिम अंग (ट्रांसटिबियल प्रोस्थेसिस) प्रयोग किया जाता है।",
+                "ur": "گھٹنے کے نیچے کٹنے میں عام طور پر گھٹنے کے نیچے کا مصنوعی اعضاء (ٹرانسٹیبل مصنوعی اعضاء) استعمال کیا جاتا ہے۔",
+                "tr": "Diz altı ampütasyonunda tipik olarak diz altı protezi (transtibial protez) kullanılır."
+            },
+            "points": 10,
+            "id": "e47_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein wichtiger Bestandteil der Physiotherapie nach einer Knieoperation?",
+                "en": "What is an important component of physiotherapy after knee surgery?",
+                "bn": "হাঁটু অস্ত্রোপচারের পরে ফিজিওথেরাপি-র একটি গুরুত্বপূর্ণ উপাদান কী?",
+                "hi": "घुटने की सर्जरी के बाद फिजियोथेरेपी का एक महत्वपूर्ण घटक क्या है?",
+                "ur": "گھٹنے کی سرجری کے بعد فزیوتھراپی کا ایک اہم جزو کیا ہے؟",
+                "tr": "Diz ameliyatı sonrası fizyoterapinin önemli bir bileşeni nedir?"
+            },
+            "options": [
+                "Vermeidung jeglicher Bewegung",
+                "Frühe Mobilisation und Kräftigung der Muskulatur",
+                "Ausschließliche passive Bewegung",
+                "Lange Ruhezeiten ohne Übungen"
+            ],
+            "correctAnswer": "Frühe Mobilisation und Kräftigung der Muskulatur",
+            "explanation": {
+                "en": "Early mobilization and strengthening of the muscles are important components of physiotherapy after knee surgery.",
+                "bn": "হাঁটু অস্ত্রোপচারের পরে ফিজিওথেরাপির গুরুত্বপূর্ণ উপাদান হল প্রাথমিক সচলতা এবং পেশী শক্তিশালী করা।",
+                "hi": "घुटने की सर्जरी के बाद फिजियोथेरेपी के महत्वपूर्ण घटक जल्दी गतिशीलता और मांसपेशियों को मजबूत करना है।",
+                "ur": "گھٹنے کی سرجری کے بعد فزیوتھراپی کے اہم اجزاء جلد حرکت پذیری اور پٹھوں کو مضبوط بنانا ہے۔",
+                "tr": "Erken mobilizasyon ve kasların güçlendirilmesi, diz ameliyatı sonrası fizyoterapinin önemli bileşenleridir."
+            },
+            "points": 10,
+            "id": "e47_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was beinhaltet die Rehabilitation nach einer Hüftfraktur typischerweise?",
+                "en": "What does rehabilitation after a hip fracture typically involve?",
+                "bn": "হিপ ফ্র্যাকচারের পরে পুনর্বাসন সাধারণত কী জড়িত?",
+                "hi": "कूल्हे के फ्रैक्चर के बाद पुनर्वास में आमतौर पर क्या शामिल होता है?",
+                "ur": "کولہے کے فریکچر کے بعد بحالی میں عام طور پر کیا شامل ہوتا ہے؟",
+                "tr": "Kalça kırığı sonrası rehabilitasyon tipik olarak ne içerir?"
+            },
+            "options": [
+                "Ausschließliche Bettruhe",
+                "Krafttraining der oberen Extremitäten",
+                "Gehtraining und Wiederherstellung der Selbstständigkeit",
+                "Vermeidung jeglicher Belastung des betroffenen Beins"
+            ],
+            "correctAnswer": "Gehtraining und Wiederherstellung der Selbstständigkeit",
+            "explanation": {
+                "en": "Rehabilitation after a hip fracture typically involves gait training and regaining independence in daily activities.",
+                "bn": "হিপ ফ্র্যাকচারের পরে পুনর্বাসন সাধারণত হাঁটা প্রশিক্ষণ এবং দৈনন্দিন কাজকর্মের স্বাধীনতা পুনরুদ্ধার করা জড়িত।",
+                "hi": "कूल्हे के फ्रैक्चर के बाद पुनर्वास में आमतौर पर चाल प्रशिक्षण और दैनिक गतिविधियों में स्वतंत्रता हासिल करना शामिल होता है।",
+                "ur": "کولہے کے فریکچر کے بعد بحالی میں عام طور پر چال کی تربیت اور روزمرہ کی سرگرمیوں میں آزادی حاصل کرنا شامل ہوتا ہے۔",
+                "tr": "Kalça kırığı sonrası rehabilitasyon tipik olarak yürüme eğitimi ve günlük aktivitelerde bağımsızlığı yeniden kazanmayı içerir."
+            },
+            "points": 10,
+            "id": "e47_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was versteht man unter 'Mobilisation' im medizinischen Kontext?",
+                "en": "What is meant by 'mobilization' in a medical context?",
+                "bn": "চিকিৎসা প্রেক্ষাপটে 'মোবিলাইজেশন' বলতে কী বোঝায়?",
+                "hi": "चिकित्सा संदर्भ में 'मोबिलाइजेशन' से क्या तात्पर्य है?",
+                "ur": "طبی تناظر میں 'موبلائزیشن' سے کیا مراد ہے؟",
+                "tr": "Tıbbi bağlamda 'mobilizasyon' ile ne kastedilmektedir?"
+            },
+            "options": [
+                "Die Ruhigstellung eines Gelenks",
+                "Die Förderung der Beweglichkeit und Aktivität",
+                "Die Verabreichung von Medikamenten",
+                "Die Durchführung einer Operation"
+            ],
+            "correctAnswer": "Die Förderung der Beweglichkeit und Aktivität",
+            "explanation": {
+                "en": "Mobilization in a medical context refers to promoting mobility and activity.",
+                "bn": "চিকিৎসা প্রেক্ষাপটে মোবিলাইজেশন বলতে গতিশীলতা এবং কার্যকলাপ প্রচার করা বোঝায়।",
+                "hi": "चिकित्सा संदर्भ में मोबिलाइजेशन का तात्पर्य गतिशीलता और गतिविधि को बढ़ावा देना है।",
+                "ur": "طبی تناظر میں موبلائزیشن سے مراد نقل و حرکت اور سرگرمی کو فروغ دینا ہے۔",
+                "tr": "Tıbbi bağlamda mobilizasyon, hareketliliği ve aktiviteyi teşvik etmek anlamına gelir."
+            },
+            "points": 10,
+            "id": "e47_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches dieser Verfahren wird nicht typischerweise in der Rehabilitation nach einer Fraktur angewendet?",
+                "en": "Which of these procedures is not typically used in rehabilitation after a fracture?",
+                "bn": "ফ্র্যাকচারের পরে পুনর্বাসনে সাধারণত এই পদ্ধতিগুলির মধ্যে কোনটি ব্যবহৃত হয় না?",
+                "hi": "फ्रैक्चर के बाद पुनर्वास में आमतौर पर इनमें से कौन सी प्रक्रिया उपयोग नहीं की जाती है?",
+                "ur": "فریکچر کے بعد بحالی میں عام طور پر ان میں سے کون سا طریقہ کار استعمال نہیں کیا جاتا ہے؟",
+                "tr": "Bu prosedürlerden hangisi tipik olarak bir kırık sonrası rehabilitasyonda kullanılmaz?"
+            },
+            "options": [
+                "Manuelle Therapie",
+                "Elektrostimulation",
+                "Bluttransfusion",
+                "Ergotherapie"
+            ],
+            "correctAnswer": "Bluttransfusion",
+            "explanation": {
+                "en": "Blood transfusion is not typically used in rehabilitation after a fracture. The other options are common rehabilitation methods.",
+                "bn": "ফ্র্যাকচারের পরে পুনর্বাসনে সাধারণত রক্ত ​​সঞ্চালন ব্যবহৃত হয় না। অন্যান্য বিকল্পগুলি সাধারণ পুনর্বাসন পদ্ধতি।",
+                "hi": "फ्रैक्चर के बाद पुनर्वास में आमतौर पर रक्त संचारण का उपयोग नहीं किया जाता है। अन्य विकल्प सामान्य पुनर्वास विधियां हैं।",
+                "ur": "فریکچر کے بعد بحالی میں عام طور پر خون کی منتقلی استعمال نہیں کی جاتی ہے۔ دیگر آپشنز بحالی کے عام طریقے ہیں۔",
+                "tr": "Kan transfüzyonu tipik olarak bir kırık sonrası rehabilitasyonda kullanılmaz. Diğer seçenekler yaygın rehabilitasyon yöntemleridir."
+            },
+            "points": 10,
+            "id": "e47_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist eine häufige Komplikation nach einem Gelenkersatz?",
+                "en": "What is a common complication after a joint replacement?",
+                "bn": "জয়েন্ট প্রতিস্থাপনের পরে একটি সাধারণ জটিলতা কী?",
+                "hi": "जोड़ बदलने के बाद एक सामान्य जटिलता क्या है?",
+                "ur": "جوڑ کی تبدیلی کے بعد ایک عام پیچیدگی کیا ہے؟",
+                "tr": "Eklem protezi sonrası yaygın bir komplikasyon nedir?"
+            },
+            "options": [
+                "Verbesserung der Sehkraft",
+                "Infektion",
+                "Zunahme der Muskelmasse",
+                "Vollständige Schmerzfreiheit sofort nach der Operation"
+            ],
+            "correctAnswer": "Infektion",
+            "explanation": {
+                "en": "Infection is a common complication after a joint replacement.",
+                "bn": "জয়েন্ট প্রতিস্থাপনের পরে সংক্রমণ একটি সাধারণ জটিলতা।",
+                "hi": "जोड़ बदलने के बाद संक्रमण एक आम जटिलता है।",
+                "ur": "جوڑ کی تبدیلی کے بعد انفیکشن ایک عام پیچیدگی ہے۔",
+                "tr": "Enfeksiyon, eklem protezi sonrası yaygın bir komplikasyondur."
+            },
+            "points": 10,
+            "id": "e47_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage über die Belastbarkeit nach einer Fraktur ist richtig?",
+                "en": "Which statement about weight-bearing after a fracture is correct?",
+                "bn": "ফ্র্যাকচারের পরে ওজন বহন সম্পর্কে কোন বক্তব্যটি সঠিক?",
+                "hi": "फ्रैक्चर के बाद वजन वहन के बारे में कौन सा कथन सही है?",
+                "ur": "فریکچر کے بعد وزن اٹھانے کے بارے میں کون سا بیان درست ہے؟",
+                "tr": "Kırık sonrası ağırlık taşıma hakkında hangi ifade doğrudur?"
+            },
+            "options": [
+                "Volle Belastung ist sofort nach der Fraktur erlaubt.",
+                "Die Belastung wird individuell angepasst und langsam gesteigert.",
+                "Teilbelastung ist immer schädlich.",
+                "Es gibt keine Einschränkungen bei der Belastung."
+            ],
+            "correctAnswer": "Die Belastung wird individuell angepasst und langsam gesteigert.",
+            "explanation": {
+                "en": "Weight-bearing after a fracture is individually adjusted and slowly increased.",
+                "bn": "ফ্র্যাকচারের পরে ওজন বহন পৃথকভাবে সামঞ্জস্য করা হয় এবং ধীরে ধীরে বাড়ানো হয়।",
+                "hi": "फ्रैक्चर के बाद वजन वहन व्यक्तिगत रूप से समायोजित किया जाता है और धीरे-धीरे बढ़ाया जाता है।",
+                "ur": "فریکچر کے بعد وزن اٹھانا انفرادی طور پر ایڈجسٹ کیا جاتا ہے اور آہستہ آہستہ بڑھایا جاتا ہے۔",
+                "tr": "Kırık sonrası ağırlık taşıma kişiye özel olarak ayarlanır ve yavaş yavaş artırılır."
+            },
+            "points": 10,
+            "id": "e47_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Hauptziel der Ergotherapie in der Rehabilitation?",
+                "en": "What is the main goal of occupational therapy in rehabilitation?",
+                "bn": "পুনর্বাসনে পেশাগত থেরাপির মূল লক্ষ্য কী?",
+                "hi": "पुनर्वास में व्यावसायिक चिकित्सा का मुख्य लक्ष्य क्या है?",
+                "ur": "بحالی میں پیشہ ورانہ تھراپی کا بنیادی مقصد کیا ہے؟",
+                "tr": "Rehabilitasyonda ergoterapinin temel amacı nedir?"
+            },
+            "options": [
+                "Schmerzlinderung",
+                "Verbesserung der Alltagsaktivitäten",
+                "Steigerung der Muskelkraft",
+                "Förderung der Entspannung"
+            ],
+            "correctAnswer": "Verbesserung der Alltagsaktivitäten",
+            "explanation": {
+                "en": "The main goal of occupational therapy in rehabilitation is to improve activities of daily living.",
+                "bn": "পুনর্বাসনে পেশাগত থেরাপির মূল লক্ষ্য হল দৈনন্দিন জীবনের ক্রিয়াকলাপগুলির উন্নতি করা।",
+                "hi": "पुनर्वास में व्यावसायिक चिकित्सा का मुख्य लक्ष्य दैनिक जीवन की गतिविधियों में सुधार करना है।",
+                "ur": "بحالی میں پیشہ ورانہ تھراپی کا بنیادی مقصد روزمرہ کی زندگی کی سرگرمیوں کو بہتر بنانا ہے۔",
+                "tr": "Rehabilitasyonda ergoterapinin temel amacı günlük yaşam aktivitelerini iyileştirmektir."
+            },
+            "points": 10,
+            "id": "e47_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Eine __________ ist ein medizinischer Zustand, bei dem ein Knochen gebrochen ist.",
+                "en": "A __________ is a medical condition where a bone is broken.",
+                "bn": "একটি __________ একটি চিকিৎসা পরিস্থিতি যেখানে একটি হাড় ভেঙে গেছে।",
+                "hi": "एक __________ एक चिकित्सीय स्थिति है जहाँ एक हड्डी टूट गई है।",
+                "ur": "ایک __________ ایک طبی حالت ہے جہاں ایک ہڈی ٹوٹ گئی ہے۔",
+                "tr": "Bir __________ kemiğin kırıldığı tıbbi bir durumdur."
+            },
+            "options": [],
+            "correctAnswer": "Fraktur",
+            "explanation": {
+                "en": "A 'Fraktur' (fracture) is the medical term for a broken bone.",
+                "bn": "'ফ্র্যাকচার' (fraktur) হল ভাঙা হাড়ের চিকিৎসা শব্দ।",
+                "hi": "'फ्रैक्चर' (fraktur) टूटी हुई हड्डी के लिए चिकित्सा शब्द है।",
+                "ur": "'فریکچر' (fraktur) ٹوٹی ہوئی ہڈی کے لیے طبی اصطلاح ہے۔",
+                "tr": "'Fraktur' (kırık), kırık bir kemik için kullanılan tıbbi terimdir."
+            },
+            "points": 10,
+            "id": "e47_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Nach einer Operation kann die __________ helfen, die Beweglichkeit wiederzuerlangen.",
+                "en": "After surgery, __________ can help regain mobility.",
+                "bn": "অস্ত্রোপচারের পরে, __________ গতিশীলতা ফিরে পেতে সাহায্য করতে পারে।",
+                "hi": "सर्जरी के बाद, __________ गतिशीलता हासिल करने में मदद कर सकता है।",
+                "ur": "سرجری کے بعد، __________ نقل و حرکت حاصل کرنے میں مدد کر سکتا ہے۔",
+                "tr": "Ameliyattan sonra, __________ hareketliliği yeniden kazanmaya yardımcı olabilir."
+            },
+            "options": [],
+            "correctAnswer": "Physiotherapie",
+            "explanation": {
+                "en": "Physiotherapy is a key component of recovery after surgery and helps to regain mobility.",
+                "bn": "শারীরিক থেরাপি অস্ত্রোপচারের পরে পুনরুদ্ধারের একটি মূল উপাদান এবং গতিশীলতা ফিরে পেতে সহায়তা করে।",
+                "hi": "शारीरिक थेरेपी सर्जरी के बाद रिकवरी का एक प्रमुख घटक है और गतिशीलता हासिल करने में मदद करता है।",
+                "ur": "جسمانی تھراپی سرجری کے بعد صحت یابی کا ایک اہم جزو ہے اور نقل و حرکت حاصل کرنے میں مدد کرتا ہے۔",
+                "tr": "Fizyoterapi, ameliyattan sonra iyileşmenin önemli bir bileşenidir ve hareketliliği yeniden kazanmaya yardımcı olur."
+            },
+            "points": 10,
+            "id": "e47_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein __________ wird verwendet, um ein fehlendes Körperteil zu ersetzen.",
+                "en": "A __________ is used to replace a missing body part.",
+                "bn": "একটি __________ একটি অনুপস্থিত শরীরের অংশ প্রতিস্থাপন করতে ব্যবহৃত হয়।",
+                "hi": "एक __________ का उपयोग किसी लापता शरीर के अंग को बदलने के लिए किया जाता है।",
+                "ur": "ایک __________ کو جسم کے کسی لاپتہ حصے کو تبدیل کرنے کے لیے استعمال کیا جاتا ہے۔",
+                "tr": "Bir __________ kayıp bir vücut parçasını değiştirmek için kullanılır."
+            },
+            "options": [],
+            "correctAnswer": "Prothese",
+            "explanation": {
+                "en": "A 'Prothese' (prosthesis) is used to replace a missing body part.",
+                "bn": "একটি 'প্রোস্টেস' (prosthesis) একটি অনুপস্থিত শরীরের অংশ প্রতিস্থাপন করতে ব্যবহৃত হয়।",
+                "hi": "एक 'प्रोस्थेस' (prosthesis) का उपयोग किसी लापता शरीर के अंग को बदलने के लिए किया जाता है।",
+                "ur": "ایک 'پروتھس' (prosthesis) کو جسم کے کسی لاپتہ حصے کو تبدیل کرنے کے لیے استعمال کیا جاتا ہے۔",
+                "tr": "'Prothese' (protez), kayıp bir vücut parçasını değiştirmek için kullanılır."
+            },
+            "points": 10,
+            "id": "e47_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "__________ ist der Prozess der Wiederherstellung von Gesundheit und Funktion nach einer Verletzung oder Krankheit.",
+                "en": "__________ is the process of restoring health and function after an injury or illness.",
+                "bn": "__________ আঘাত বা অসুস্থতার পরে স্বাস্থ্য এবং কার্যকারিতা পুনরুদ্ধারের প্রক্রিয়া।",
+                "hi": "__________ चोट या बीमारी के बाद स्वास्थ्य और कार्य को बहाल करने की प्रक्रिया है।",
+                "ur": "__________ چوٹ یا بیماری کے بعد صحت اور فعل کو بحال کرنے کا عمل ہے۔",
+                "tr": "__________ bir yaralanma veya hastalıktan sonra sağlığı ve işlevi geri kazanma sürecidir."
+            },
+            "options": [],
+            "correctAnswer": "Rehabilitation",
+            "explanation": {
+                "en": "Rehabilitation is the process of restoring health and function after an injury or illness.",
+                "bn": "পুনর্বাসন হল আঘাত বা অসুস্থতার পরে স্বাস্থ্য এবং কার্যকারিতা পুনরুদ্ধারের প্রক্রিয়া।",
+                "hi": "पुनर्वास चोट या बीमारी के बाद स्वास्थ्य और कार्य को बहाल करने की प्रक्रिया है।",
+                "ur": "بحالی چوٹ یا بیماری کے بعد صحت اور فعل کو بحال کرنے کا عمل ہے۔",
+                "tr": "Rehabilitasyon, bir yaralanma veya hastalıktan sonra sağlığı ve işlevi geri kazanma sürecidir."
+            },
+            "points": 10,
+            "id": "e47_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Frühe __________ ist wichtig, um Komplikationen nach einer Operation zu vermeiden.",
+                "en": "Early __________ is important to avoid complications after surgery.",
+                "bn": "অস্ত্রোপচারের পরে জটিলতা এড়াতে প্রাথমিক __________ গুরুত্বপূর্ণ।",
+                "hi": "सर्जरी के बाद जटिलताओं से बचने के लिए प्रारंभिक __________ महत्वपूर्ण है।",
+                "ur": "سرجری کے بعد پیچیدگیوں سے بچنے کے لیے ابتدائی __________ اہم ہے۔",
+                "tr": "Ameliyattan sonra komplikasyonları önlemek için erken __________ önemlidir."
+            },
+            "options": [],
+            "correctAnswer": "Mobilisation",
+            "explanation": {
+                "en": "Early Mobilisation is important to avoid complications after surgery.",
+                "bn": "অস্ত্রোপচারের পরে জটিলতা এড়াতে প্রাথমিক মোবাইলেশন গুরুত্বপূর্ণ।",
+                "hi": "सर्जरी के बाद जटिलताओं से बचने के लिए प्रारंभिक गतिशीलता महत्वपूर्ण है।",
+                "ur": "سرجری کے بعد پیچیدگیوں سے بچنے کے لیے ابتدائی متحرک کاری اہم ہے۔",
+                "tr": "Ameliyattan sonra komplikasyonları önlemek için erken Mobilizasyon önemlidir."
+            },
+            "points": 10,
+            "id": "e47_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Der Patient hat eine Femurfraktur erlitten.",
+                "en": "The patient has suffered a femur fracture.",
+                "bn": "রোগী একটি ফিমার ফ্র্যাকচারে আক্রান্ত হয়েছে।",
+                "hi": "रोगी को फीमर फ्रैक्चर हो गया है।",
+                "ur": "مریض کو فیمر فریکچر ہوا ہے۔",
+                "tr": "Hasta femur kırığı geçirdi."
+            },
+            "options": [],
+            "correctAnswer": "The patient has suffered a femur fracture.",
+            "explanation": {
+                "en": "Correct literal translation.",
+                "bn": "সঠিক শাব্দিক অনুবাদ।",
+                "hi": "सही शाब्दिक अनुवाद।",
+                "ur": "درست لفظی ترجمہ۔",
+                "tr": "Doğru kelime anlamı çevirisi."
+            },
+            "points": 10,
+            "id": "e47_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Physiotherapie hilft ihm, seine Beweglichkeit wiederzuerlangen.",
+                "en": "Physiotherapy is helping him regain his mobility.",
+                "bn": "ফিজিওথেরাপি তাকে তার গতিশীলতা ফিরে পেতে সাহায্য করছে।",
+                "hi": "फिजियोथेरेपी उसे अपनी गतिशीलता वापस पाने में मदद कर रही है।",
+                "ur": "فزیوتھراپی اسے اپنی حرکت پذیری دوبارہ حاصل کرنے میں مدد کر رہی ہے۔",
+                "tr": "Fizyoterapi hareketliliğini yeniden kazanmasına yardımcı oluyor."
+            },
+            "options": [],
+            "correctAnswer": "Physiotherapy is helping him regain his mobility.",
+            "explanation": {
+                "en": "Correct literal translation.",
+                "bn": "সঠিক শাব্দিক অনুবাদ।",
+                "hi": "सही शाब्दिक अनुवाद।",
+                "ur": "درست لفظی ترجمہ۔",
+                "tr": "Doğru kelime anlamı çevirisi."
+            },
+            "points": 10,
+            "id": "e47_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Er benötigt eine Rehabilitation, um vollständig wiederhergestellt zu werden.",
+                "en": "He needs rehabilitation to fully recover.",
+                "bn": "পুরোপুরি সুস্থ হওয়ার জন্য তার পুনর্বাসন প্রয়োজন।",
+                "hi": "उन्हें पूरी तरह से ठीक होने के लिए पुनर्वास की आवश्यकता है।",
+                "ur": "اسے مکمل طور پر صحت یاب ہونے کے لیے بحالی کی ضرورت ہے۔",
+                "tr": "Tamamen iyileşmek için rehabilitasyona ihtiyacı var."
+            },
+            "options": [],
+            "correctAnswer": "He needs rehabilitation to fully recover.",
+            "explanation": {
+                "en": "Correct literal translation.",
+                "bn": "সঠিক শাব্দিক অনুবাদ।",
+                "hi": "सही शाब्दिक अनुवाद।",
+                "ur": "درست لفظی ترجمہ۔",
+                "tr": "Doğru kelime anlamı çevirisi."
+            },
+            "points": 10,
+            "id": "e47_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

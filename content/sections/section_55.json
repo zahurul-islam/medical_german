@@ -1,1 +1,1605 @@
-{"id":"section_55","phaseId":"phase3","order":55,"titleDe":"Medizinrecht","title":{"en":"Medical Jurisprudence","bn":"Medical Jurisprudence","hi":"Medical Jurisprudence","ur":"Medical Jurisprudence","tr":"Medical Jurisprudence"},"level":"C1","estimatedMinutes":45,"vocabulary":[{"id":"v55_01","germanTerm":"Fachwort","article":"das","plural":"Fachwörter","translation":{"en":"Specialist Term","bn":"বিশেষজ্ঞ শব্দ","hi":"विशेषज्ञ शब्द","ur":"ماہر اصطلاح","tr":"Uzman terimi"}}],"dialogues":[{"id":"d55_01","title":{"en":"Medical Jurisprudence Scenario"},"lines":[{"speaker":"Facharzt","germanText":"Clinical dialogue for Medical Jurisprudence.","translation":{"en":"Clinical dialogue for Medical Jurisprudence."}}]}],"exercises":[{"id":"e55_01","type":"multipleChoice","question":{"en":"Question about Medical Jurisprudence?"},"options":["A","B","C"],"correctAnswer":"A","points":15}],"media":{"introVideoUrl":"video/sections/section_55/intro.mp4","dialogueVideoUrl":"video/sections/section_55/dialogue.mp4"}}
+{
+    "id": "section_55",
+    "phaseId": "phase3",
+    "order": 55,
+    "titleDe": "Medizinrecht",
+    "title": {
+        "en": "Medical Law: Liability, Malpractice, Duty of Disclosure, Duty of Documentation, Confidentiality",
+        "bn": "চিকিৎসা আইন: দায়বদ্ধতা, ভুল চিকিৎসা, প্রকাশের বাধ্যবাধকতা, ডকুমেন্টেশন করার বাধ্যবাধকতা, গোপনীয়তা",
+        "hi": "चिकित्सा कानून: दायित्व, कुप्रथा, प्रकटीकरण का कर्तव्य, दस्तावेज़ीकरण का कर्तव्य, गोपनीयता",
+        "ur": "طبی قانون: ذمہ داری، غلط طبی عمل، انکشاف کا فرض، دستاویزی سازی کا فرض، رازداری",
+        "tr": "Tıbbi Hukuk: Sorumluluk, Hatalı Tedavi, Aydınlatma Yükümlülüğü, Belgeleme Yükümlülüğü, Gizlilik"
+    },
+    "description": {
+        "en": "This section explores the legal framework governing medical practice in Germany, focusing on liability, malpractice, informed consent, documentation, and patient confidentiality.",
+        "bn": "এই বিভাগে জার্মানির চিকিৎসা অনুশীলন পরিচালনা সংক্রান্ত আইনি কাঠামো, দায়বদ্ধতা, ভুল চিকিৎসা, অবহিত সম্মতি, ডকুমেন্টেশন এবং রোগীর গোপনীয়তার উপর দৃষ্টি নিবদ্ধ করা হয়েছে।",
+        "hi": "यह खंड जर्मनी में चिकित्सा अभ्यास को नियंत्रित करने वाले कानूनी ढांचे का पता लगाता है, जिसमें दायित्व, कुप्रथा, सूचित सहमति, दस्तावेज़ीकरण और रोगी की गोपनीयता पर ध्यान केंद्रित किया गया है।",
+        "ur": "یہ سیکشن جرمنی میں طبی مشق کو کنٹرول کرنے والے قانونی فریم ورک کو دریافت کرتا ہے، جس میں ذمہ داری، غلط طبی عمل، باخبر رضامندی، دستاویزی سازی اور مریض کی رازداری پر توجہ مرکوز کی گئی ہے۔",
+        "tr": "Bu bölüm, Almanya'daki tıbbi uygulamaları yöneten yasal çerçeveyi incelemekte, sorumluluk, hatalı tedavi, bilgilendirilmiş onay, belgeleme ve hasta gizliliğine odaklanmaktadır."
+    },
+    "level": "C1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, we will examine the core tenets of German medical law. You will learn about the legal responsibilities of medical professionals and the rights of patients within the German healthcare system.",
+            "bn": "এই বিভাগে, আমরা জার্মান চিকিৎসা আইনের মূল নীতিগুলি পরীক্ষা করব। আপনি জার্মান স্বাস্থ্যসেবা ব্যবস্থার মধ্যে চিকিৎসা পেশাদারদের আইনি দায়িত্ব এবং রোগীদের অধিকার সম্পর্কে জানতে পারবেন।",
+            "hi": "इस खंड में, हम जर्मन चिकित्सा कानून के मूल सिद्धांतों की जांच करेंगे। आप जर्मन स्वास्थ्य सेवा प्रणाली के भीतर चिकित्सा पेशेवरों की कानूनी जिम्मेदारियों और रोगियों के अधिकारों के बारे में जानेंगे।",
+            "ur": "اس حصے میں، ہم جرمن طبی قانون کے بنیادی اصولوں کا جائزہ لیں گے۔ آپ جرمن صحت کی دیکھ بھال کے نظام کے اندر طبی پیشہ ور افراد کی قانونی ذمہ داریوں اور مریضوں کے حقوق کے بارے میں جانیں گے۔",
+            "tr": "Bu bölümde, Alman tıbbi hukukunun temel ilkelerini inceleyeceğiz. Alman sağlık sistemi içindeki tıp uzmanlarının yasal sorumlulukları ve hastaların hakları hakkında bilgi edineceksiniz."
+        },
+        "grammarFocus": {
+            "en": [
+                "Focus on the correct usage of legal terminology and formal language in German.",
+                "Practice constructing complex sentences with subordinate clauses to express conditions, reasons, and consequences related to medical liability."
+            ],
+            "bn": [
+                "জার্মান ভাষায় আইনি পরিভাষা এবং আনুষ্ঠানিক ভাষার সঠিক ব্যবহারের উপর ফোকাস করুন।",
+                "চিকিৎসা দায়বদ্ধতা সম্পর্কিত শর্ত, কারণ এবং পরিণতি প্রকাশ করতে অধীনস্থ ধারাগুলির সাথে জটিল বাক্য তৈরি করার অনুশীলন করুন।"
+            ],
+            "hi": [
+                "जर्मन में कानूनी शब्दावली और औपचारिक भाषा के सही उपयोग पर ध्यान दें।",
+                "चिकित्सा दायित्व से संबंधित शर्तों, कारणों और परिणामों को व्यक्त करने के लिए अधीनस्थ खंडों के साथ जटिल वाक्य बनाने का अभ्यास करें।"
+            ],
+            "ur": [
+                "جرمن میں قانونی اصطلاحات اور رسمی زبان کے صحیح استعمال پر توجہ مرکوز کریں۔",
+                "طبی ذمہ داری سے متعلق شرائط، وجوہات اور نتائج کو ظاہر کرنے کے لیے ماتحت شقوں کے ساتھ پیچیدہ جملے بنانے کی مشق کریں۔"
+            ],
+            "tr": [
+                "Almanca'da yasal terminoloji ve resmi dilin doğru kullanımına odaklanın.",
+                "Tıbbi sorumlulukla ilgili koşulları, nedenleri ve sonuçları ifade etmek için yan cümlelerle karmaşık cümleler kurma alıştırması yapın."
+            ]
+        },
+        "culturalNotes": {
+            "en": "German hospitals and medical institutions place a strong emphasis on thorough documentation and adherence to legal guidelines, reflecting a commitment to patient safety and legal compliance.",
+            "bn": "জার্মান হাসপাতাল এবং চিকিৎসা প্রতিষ্ঠানগুলি রোগীর নিরাপত্তা এবং আইনি সম্মতির প্রতিশ্রুতি প্রতিফলিত করে পুঙ্খানুপুঙ্খ ডকুমেন্টেশন এবং আইনি নির্দেশিকা মেনে চলার উপর জোর দেয়।",
+            "hi": "जर्मन अस्पताल और चिकित्सा संस्थान रोगी सुरक्षा और कानूनी अनुपालन के प्रति प्रतिबद्धता को दर्शाते हुए, पूरी तरह से दस्तावेज़ीकरण और कानूनी दिशानिर्देशों के पालन पर जोर देते हैं।",
+            "ur": "جرمن ہسپتال اور طبی ادارے مریضوں کی حفاظت اور قانونی تعمیل کے عزم کی عکاسی کرتے ہوئے مکمل دستاویزی سازی اور قانونی رہنما خطوط پر عمل کرنے پر زور دیتے ہیں۔",
+            "tr": "Alman hastaneleri ve tıbbi kurumlar, hasta güvenliğine ve yasal uyumluluğa olan bağlılığı yansıtacak şekilde, eksiksiz belgeleme ve yasal yönergelere uymaya büyük önem vermektedir."
+        },
+        "summary": {
+            "en": "This section provides a foundational understanding of the legal landscape surrounding medical practice in Germany, essential for any healthcare professional working in the country.",
+            "bn": "এই বিভাগটি জার্মানিতে চিকিৎসা অনুশীলনকে ঘিরে থাকা আইনি দৃশ্যপটের একটি মৌলিক ধারণা প্রদান করে, যা দেশে কর্মরত যেকোনো স্বাস্থ্যসেবা পেশাদারের জন্য অপরিহার্য।",
+            "hi": "यह खंड जर्मनी में चिकित्सा अभ्यास के आसपास के कानूनी परिदृश्य की एक बुनियादी समझ प्रदान करता है, जो देश में काम करने वाले किसी भी स्वास्थ्य सेवा पेशेवर के लिए आवश्यक है।",
+            "ur": "یہ سیکشن جرمنی میں طبی مشق کے ارد گرد قانونی منظر نامے کی ایک بنیادی تفہیم فراہم کرتا ہے، جو ملک میں کام کرنے والے کسی بھی صحت کی دیکھ بھال کے پیشہ ور افراد کے لیے ضروری ہے۔",
+            "tr": "Bu bölüm, Almanya'daki tıbbi uygulamaları çevreleyen yasal ortamın temel bir anlayışını sunar ve bu ülkede çalışan herhangi bir sağlık uzmanı için gereklidir."
+        },
+        "learningObjectives": [
+            "Identify the key principles of medical liability in Germany.",
+            "Describe the requirements for informed consent and patient autonomy.",
+            "Explain the importance of accurate and complete medical documentation.",
+            "Recognize the legal ramifications of breaches of patient confidentiality."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "die Haftung",
+            "article": "die",
+            "plural": "die Haftungen",
+            "pronunciation": "ˈhaftʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "liability",
+                "bn": "দায়িত্ব",
+                "hi": "दायित्व",
+                "ur": "ذمہ داری",
+                "tr": "sorumluluk"
+            },
+            "exampleSentence": "Die Klinik übernimmt die Haftung für Schäden durch Behandlungsfehler.",
+            "exampleTranslation": {
+                "en": "The clinic assumes liability for damages caused by medical malpractice.",
+                "bn": "ক্লিনিক চিকিৎসার ত্রুটির কারণে ক্ষতির জন্য দায়বদ্ধ।",
+                "hi": "क्लिनिक चिकित्सा त्रुटियों के कारण होने वाले नुकसान के लिए दायित्व स्वीकार करता है।",
+                "ur": "کلینک طبی غلطیوں کی وجہ سے ہونے والے نقصانات کی ذمہ داری لیتا ہے۔",
+                "tr": "Klinik, tıbbi hatalardan kaynaklanan zararlar için sorumluluk üstlenir."
+            },
+            "id": "v55_01"
+        },
+        {
+            "germanTerm": "der Behandlungsfehler",
+            "article": "der",
+            "plural": "die Behandlungsfehler",
+            "pronunciation": "bəˈhandlʊŋsˌfeːlɐ",
+            "category": "noun",
+            "translation": {
+                "en": "medical malpractice",
+                "bn": "চিকিৎসা সংক্রান্ত ত্রুটি",
+                "hi": "चिकित्सा लापरवाही",
+                "ur": "طبی غفلت",
+                "tr": "tıbbi malpraktis"
+            },
+            "exampleSentence": "Ein Behandlungsfehler kann zu Schadensersatzforderungen führen.",
+            "exampleTranslation": {
+                "en": "Medical malpractice can lead to claims for damages.",
+                "bn": "চিকিৎসা সংক্রান্ত ত্রুটি ক্ষতিপূরণের দাবির দিকে পরিচালিত করতে পারে।",
+                "hi": "चिकित्सा लापरवाही क्षतिपूर्ति दावों को जन्म दे सकती है।",
+                "ur": "طبی غفلت نقصانات کے دعوؤں کا باعث بن سکتی ہے۔",
+                "tr": "Tıbbi malpraktis, tazminat taleplerine yol açabilir."
+            },
+            "id": "v55_02"
+        },
+        {
+            "germanTerm": "die Aufklärungspflicht",
+            "article": "die",
+            "plural": "die Aufklärungspflichten",
+            "pronunciation": "ˈaʊ̯fklɛːʁʊŋsˌpflɪçt",
+            "category": "noun",
+            "translation": {
+                "en": "duty of disclosure",
+                "bn": "প্রকাশের বাধ্যবাধকতা",
+                "hi": "प्रकटीकरण का कर्तव्य",
+                "ur": "افشاء کا فرض",
+                "tr": "açıklama yükümlülüğü"
+            },
+            "exampleSentence": "Der Arzt hat eine Aufklärungspflicht gegenüber dem Patienten.",
+            "exampleTranslation": {
+                "en": "The doctor has a duty of disclosure to the patient.",
+                "bn": "চিকিৎসকের রোগীর প্রতি প্রকাশের বাধ্যবাধকতা রয়েছে।",
+                "hi": "डॉक्टर का मरीज के प्रति प्रकटीकरण का कर्तव्य है।",
+                "ur": "ڈاکٹر پر مریض کے سامنے انکشاف کرنے کی ذمہ داری عائد ہوتی ہے۔",
+                "tr": "Doktorun hastaya açıklama yükümlülüğü vardır."
+            },
+            "id": "v55_03"
+        },
+        {
+            "germanTerm": "die Dokumentationspflicht",
+            "article": "die",
+            "plural": "die Dokumentationspflichten",
+            "pronunciation": "ˌdokʊmɛntaˈtsi̯oːnsˌpflɪçt",
+            "category": "noun",
+            "translation": {
+                "en": "duty of documentation",
+                "bn": "নথিভুক্তির বাধ্যবাধকতা",
+                "hi": "दस्तावेज़ीकरण का कर्तव्य",
+                "ur": "دستاویزیकरण کا فرض",
+                "tr": "belgeleme yükümlülüğü"
+            },
+            "exampleSentence": "Die Dokumentationspflicht ist im Krankenhaus sehr wichtig.",
+            "exampleTranslation": {
+                "en": "The duty of documentation is very important in the hospital.",
+                "bn": "হাসপাতালে নথিভুক্তির বাধ্যবাধকতা খুবই গুরুত্বপূর্ণ।",
+                "hi": "अस्पताल में दस्तावेज़ीकरण का कर्तव्य बहुत महत्वपूर्ण है।",
+                "ur": "ہسپتال میں دستاویزکاری کی ذمہ داری بہت اہم ہے۔",
+                "tr": "Belgeleme yükümlülüğü hastanede çok önemlidir."
+            },
+            "id": "v55_04"
+        },
+        {
+            "germanTerm": "die Schweigepflicht",
+            "article": "die",
+            "plural": "die Schweigepflichten",
+            "pronunciation": "ˈʃvaɪ̯ɡəˌpflɪçt",
+            "category": "noun",
+            "translation": {
+                "en": "duty of confidentiality",
+                "bn": "গোপনীয়তার বাধ্যবাধকতা",
+                "hi": "गोपनीयता का कर्तव्य",
+                "ur": "رازداری کا فرض",
+                "tr": "gizlilik yükümlülüğü"
+            },
+            "exampleSentence": "Die Schweigepflicht schützt die Privatsphäre des Patienten.",
+            "exampleTranslation": {
+                "en": "The duty of confidentiality protects the patient's privacy.",
+                "bn": "গোপনীয়তার বাধ্যবাধকতা রোগীর গোপনীয়তা রক্ষা করে।",
+                "hi": "गोपनीयता का कर्तव्य रोगी की गोपनीयता की रक्षा करता है।",
+                "ur": "رازداری کا فرض مریض کی رازداری کی حفاظت کرتا ہے۔",
+                "tr": "Gizlilik yükümlülüğü hastanın gizliliğini korur."
+            },
+            "id": "v55_05"
+        },
+        {
+            "germanTerm": "der Patient",
+            "article": "der",
+            "plural": "die Patienten",
+            "pronunciation": "paˈtsi̯ɛnt",
+            "category": "noun",
+            "translation": {
+                "en": "patient",
+                "bn": "রোগী",
+                "hi": "मरीज",
+                "ur": "مریض",
+                "tr": "hasta"
+            },
+            "exampleSentence": "Der Patient muss über die Risiken der Operation informiert werden.",
+            "exampleTranslation": {
+                "en": "The patient must be informed about the risks of the operation.",
+                "bn": "রোগীকে অপারেশনের ঝুঁকি সম্পর্কে অবহিত করতে হবে।",
+                "hi": "मरीज को ऑपरेशन के जोखिमों के बारे में सूचित किया जाना चाहिए।",
+                "ur": "مریض کو آپریشن کے خطرات سے آگاہ کرنا چاہیے۔",
+                "tr": "Hastaya operasyonun riskleri hakkında bilgi verilmelidir."
+            },
+            "id": "v55_06"
+        },
+        {
+            "germanTerm": "der Arzt",
+            "article": "der",
+            "plural": "die Ärzte",
+            "pronunciation": "aʁt͡st",
+            "category": "noun",
+            "translation": {
+                "en": "doctor",
+                "bn": "ডাক্তার",
+                "hi": "डॉक्टर",
+                "ur": "ڈاکٹر",
+                "tr": "doktor"
+            },
+            "exampleSentence": "Der Arzt ist für die Behandlung des Patienten verantwortlich.",
+            "exampleTranslation": {
+                "en": "The doctor is responsible for the treatment of the patient.",
+                "bn": "চিকিৎসক রোগীর চিকিৎসার জন্য দায়ী।",
+                "hi": "डॉक्टर मरीज के इलाज के लिए जिम्मेदार है।",
+                "ur": "ڈاکٹر مریض کے علاج کے لیے ذمہ دار ہے۔",
+                "tr": "Doktor hastanın tedavisinden sorumludur."
+            },
+            "id": "v55_07"
+        },
+        {
+            "germanTerm": "die Einwilligung",
+            "article": "die",
+            "plural": "die Einwilligungen",
+            "pronunciation": "ˈaɪ̯nvɪlɪɡʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "consent",
+                "bn": "সম্মতি",
+                "hi": "सहमति",
+                "ur": "رضامندی",
+                "tr": "onay"
+            },
+            "exampleSentence": "Für die Operation benötigt man die schriftliche Einwilligung des Patienten.",
+            "exampleTranslation": {
+                "en": "The written consent of the patient is required for the operation.",
+                "bn": "অপারেশনের জন্য রোগীর লিখিত সম্মতি প্রয়োজন।",
+                "hi": "ऑपरेशन के लिए मरीज की लिखित सहमति आवश्यक है।",
+                "ur": "آپریشن کے لیے مریض کی تحریری رضامندی درکار ہے۔",
+                "tr": "Operasyon için hastanın yazılı onayı gereklidir."
+            },
+            "id": "v55_08"
+        },
+        {
+            "germanTerm": "die Sorgfaltspflicht",
+            "article": "die",
+            "plural": "die Sorgfaltspflichten",
+            "pronunciation": "ˈzɔʁkfalt͡sˌpflɪçt",
+            "category": "noun",
+            "translation": {
+                "en": "duty of care",
+                "bn": "যত্ন নেওয়ার বাধ্যবাধকতা",
+                "hi": "देखभाल का कर्तव्य",
+                "ur": "نگہداشت کا فرض",
+                "tr": "özen gösterme yükümlülüğü"
+            },
+            "exampleSentence": "Der Arzt hat eine Sorgfaltspflicht gegenüber seinen Patienten.",
+            "exampleTranslation": {
+                "en": "The doctor has a duty of care towards his patients.",
+                "bn": "চিকিৎসকের তার রোগীদের প্রতি যত্ন নেওয়ার বাধ্যবাধকতা রয়েছে।",
+                "hi": "डॉक्टर का अपने रोगियों के प्रति देखभाल का कर्तव्य है।",
+                "ur": "ڈاکٹر پر اپنے مریضوں کی نگہداشت کرنے کی ذمہ داری عائد ہوتی ہے۔",
+                "tr": "Doktorun hastalarına karşı özen gösterme yükümlülüğü vardır."
+            },
+            "id": "v55_09"
+        },
+        {
+            "germanTerm": "der Schadenersatz",
+            "article": "der",
+            "plural": "die Schadenersätze",
+            "pronunciation": "ˈʃaːdn̩ʔɛɐ̯ˌzats",
+            "category": "noun",
+            "translation": {
+                "en": "compensation",
+                "bn": "ক্ষতিপূরণ",
+                "hi": "मुआवज़ा",
+                "ur": "معاوضہ",
+                "tr": "tazminat"
+            },
+            "exampleSentence": "Bei einem Behandlungsfehler kann der Patient Schadenersatz fordern.",
+            "exampleTranslation": {
+                "en": "In case of medical malpractice, the patient can claim compensation.",
+                "bn": "চিকিৎসা সংক্রান্ত ত্রুটির ক্ষেত্রে, রোগী ক্ষতিপূরণ দাবি করতে পারে।",
+                "hi": "चिकित्सा लापरवाही की स्थिति में, मरीज मुआवजे का दावा कर सकता है।",
+                "ur": "طبی غفلت کی صورت میں مریض معاوضے کا دعویٰ کر سکتا ہے۔",
+                "tr": "Tıbbi malpraktis durumunda, hasta tazminat talep edebilir."
+            },
+            "id": "v55_10"
+        },
+        {
+            "germanTerm": "das Patientenrecht",
+            "article": "das",
+            "plural": "die Patientenrechte",
+            "pronunciation": "paˈtsi̯ɛntənˌʁɛçt",
+            "category": "noun",
+            "translation": {
+                "en": "patient's right",
+                "bn": "রোগীর অধিকার",
+                "hi": "मरीज का अधिकार",
+                "ur": "مریض کا حق",
+                "tr": "hasta hakkı"
+            },
+            "exampleSentence": "Jeder Patient hat das Recht auf eine würdevolle Behandlung.",
+            "exampleTranslation": {
+                "en": "Every patient has the right to dignified treatment.",
+                "bn": "প্রত্যেক রোগীর মর্যাদাপূর্ণ চিকিৎসার অধিকার রয়েছে।",
+                "hi": "हर मरीज को गरिमापूर्ण उपचार का अधिकार है।",
+                "ur": "ہر مریض کو باعزت علاج کا حق حاصل ہے۔",
+                "tr": "Her hastanın onurlu tedavi görme hakkı vardır."
+            },
+            "id": "v55_11"
+        },
+        {
+            "germanTerm": "die Beweislast",
+            "article": "die",
+            "plural": "die Beweislasten",
+            "pronunciation": "bəˈvaɪ̯sˌlast",
+            "category": "noun",
+            "translation": {
+                "en": "burden of proof",
+                "bn": "প্রমাণের দায়িত্ব",
+                "hi": "सबूत का भार",
+                "ur": "ثبوت کا بوجھ",
+                "tr": "ispat yükümlülüğü"
+            },
+            "exampleSentence": "Bei einem Behandlungsfehler liegt die Beweislast oft beim Patienten.",
+            "exampleTranslation": {
+                "en": "In case of medical malpractice, the burden of proof often lies with the patient.",
+                "bn": "চিকিৎসা সংক্রান্ত ত্রুটির ক্ষেত্রে, প্রমাণের দায়িত্ব প্রায়শই রোগীর উপর বর্তায়।",
+                "hi": "चिकित्सा लापरवाही की स्थिति में, सबूत का भार अक्सर मरीज पर होता है।",
+                "ur": "طبی غفلت کی صورت میں، ثبوت کا بوجھ اکثر مریض پر ہوتا ہے۔",
+                "tr": "Tıbbi malpraktis durumunda, ispat yükümlülüğü genellikle hastaya aittir."
+            },
+            "id": "v55_12"
+        },
+        {
+            "germanTerm": "das Gutachten",
+            "article": "das",
+            "plural": "die Gutachten",
+            "pronunciation": "ˈɡuːtˌʔaxtən",
+            "category": "noun",
+            "translation": {
+                "en": "expert opinion",
+                "bn": "বিশেষজ্ঞ মতামত",
+                "hi": "विशेषज्ञ राय",
+                "ur": "ماہر کی رائے",
+                "tr": "uzman görüşü"
+            },
+            "exampleSentence": "Ein Gutachten kann helfen, einen Behandlungsfehler nachzuweisen.",
+            "exampleTranslation": {
+                "en": "An expert opinion can help to prove medical malpractice.",
+                "bn": "একটি বিশেষজ্ঞ মতামত চিকিৎসা সংক্রান্ত ত্রুটি প্রমাণ করতে সাহায্য করতে পারে।",
+                "hi": "एक विशेषज्ञ राय चिकित्सा लापरवाही को साबित करने में मदद कर सकती है।",
+                "ur": "ایک ماہر کی رائے طبی غفلت کو ثابت کرنے میں مدد کر سکتی ہے۔",
+                "tr": "Bir uzman görüşü, tıbbi malpraktisi kanıtlamaya yardımcı olabilir."
+            },
+            "id": "v55_13"
+        },
+        {
+            "germanTerm": "die Versicherung",
+            "article": "die",
+            "plural": "die Versicherungen",
+            "pronunciation": "fɛɐ̯ˈzɪçəʁʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "insurance",
+                "bn": "বীমা",
+                "hi": "बीमा",
+                "ur": "بیمہ",
+                "tr": "sigorta"
+            },
+            "exampleSentence": "Der Arzt hat eine Berufshaftpflichtversicherung.",
+            "exampleTranslation": {
+                "en": "The doctor has professional liability insurance.",
+                "bn": "চিকিৎসকের পেশাগত দায়বদ্ধতা বীমা রয়েছে।",
+                "hi": "डॉक्टर के पास पेशेवर देयता बीमा है।",
+                "ur": "ڈاکٹر کے پاس پیشہ ورانہ ذمہ داری کا بیمہ ہے۔",
+                "tr": "Doktorun mesleki sorumluluk sigortası vardır."
+            },
+            "id": "v55_14"
+        },
+        {
+            "germanTerm": "die Kausalität",
+            "article": "die",
+            "plural": "die Kausalitäten",
+            "pronunciation": "kaʊ̯zaliˈtɛːt",
+            "category": "noun",
+            "translation": {
+                "en": "causality",
+                "bn": "কারণতা",
+                "hi": "कारणता",
+                "ur": "سببیت",
+                "tr": "nedensellik"
+            },
+            "exampleSentence": "Die Kausalität zwischen Behandlung und Schaden muss nachgewiesen werden.",
+            "exampleTranslation": {
+                "en": "The causality between treatment and damage must be proven.",
+                "bn": "চিকিৎসা এবং ক্ষতির মধ্যে কারণতা প্রমাণ করতে হবে।",
+                "hi": "उपचार और क्षति के बीच कारणता साबित होनी चाहिए।",
+                "ur": "علاج اور نقصان کے درمیان سببیت ثابت ہونی چاہیے۔",
+                "tr": "Tedavi ve hasar arasındaki nedensellik kanıtlanmalıdır."
+            },
+            "id": "v55_15"
+        },
+        {
+            "germanTerm": "die Verjährung",
+            "article": "die",
+            "plural": "die Verjährungen",
+            "pronunciation": "fɛɐ̯ˈjɛːʁʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "statute of limitations",
+                "bn": "সীমাবদ্ধতার বিধি",
+                "hi": "परिसीमा का कानून",
+                "ur": "قانون تحدید میعاد",
+                "tr": "zaman aşımı"
+            },
+            "exampleSentence": "Ansprüche auf Schadenersatz können der Verjährung unterliegen.",
+            "exampleTranslation": {
+                "en": "Claims for damages may be subject to the statute of limitations.",
+                "bn": "ক্ষতিপূরণের দাবি সীমাবদ্ধতার বিধির অধীন হতে পারে।",
+                "hi": "क्षतिपूर्ति के दावे परिसीमा के कानून के अधीन हो सकते हैं।",
+                "ur": "نقصانات کے دعوے تحدید میعاد کے قانون سے مشروط ہو سکتے ہیں۔",
+                "tr": "Tazminat talepleri zaman aşımına tabi olabilir."
+            },
+            "id": "v55_16"
+        },
+        {
+            "germanTerm": "behandeln",
+            "article": null,
+            "plural": null,
+            "pronunciation": "bəˈhandl̩n",
+            "category": "verb",
+            "translation": {
+                "en": "to treat",
+                "bn": "চিকিৎসা করা",
+                "hi": "इलाज करना",
+                "ur": "علاج کرنا",
+                "tr": "tedavi etmek"
+            },
+            "exampleSentence": "Der Arzt behandelt den Patienten mit Medikamenten.",
+            "exampleTranslation": {
+                "en": "The doctor treats the patient with medication.",
+                "bn": "চিকিৎসক রোগীকে ওষুধ দিয়ে চিকিৎসা করেন।",
+                "hi": "डॉक्टर मरीज का दवाओं से इलाज करते हैं।",
+                "ur": "ڈاکٹر مریض کا دوائیوں سے علاج کرتے ہیں۔",
+                "tr": "Doktor hastayı ilaçlarla tedavi eder."
+            },
+            "id": "v55_17"
+        },
+        {
+            "germanTerm": "aufklären",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˈaʊ̯fˌklɛːʁən",
+            "category": "verb",
+            "translation": {
+                "en": "to inform, to explain",
+                "bn": "জানানো, ব্যাখ্যা করা",
+                "hi": "जानकारी देना, समझाना",
+                "ur": "آگاہ کرنا، وضاحت کرنا",
+                "tr": "bilgilendirmek, açıklamak"
+            },
+            "exampleSentence": "Der Arzt muss den Patienten über die Risiken der Operation aufklären.",
+            "exampleTranslation": {
+                "en": "The doctor must inform the patient about the risks of the operation.",
+                "bn": "চিকিৎসককে রোগীকে অপারেশনের ঝুঁকি সম্পর্কে জানাতে হবে।",
+                "hi": "डॉक्टर को मरीज को ऑपरेशन के जोखिमों के बारे में जानकारी देनी होगी।",
+                "ur": "ڈاکٹر کو مریض کو آپریشن کے خطرات سے آگاہ کرنا ہوگا۔",
+                "tr": "Doktor hastayı operasyonun riskleri hakkında bilgilendirmelidir."
+            },
+            "id": "v55_18"
+        },
+        {
+            "germanTerm": "dokumentieren",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˌdokʊmɛnˈtiːʁən",
+            "category": "verb",
+            "translation": {
+                "en": "to document",
+                "bn": "নথিভুক্ত করা",
+                "hi": "दस्तावेज़ बनाना",
+                "ur": "دستاویزی کرنا",
+                "tr": "belgelemek"
+            },
+            "exampleSentence": "Alle Behandlungen müssen sorgfältig dokumentiert werden.",
+            "exampleTranslation": {
+                "en": "All treatments must be carefully documented.",
+                "bn": "সমস্ত চিকিৎসা সাবধানে নথিভুক্ত করা উচিত।",
+                "hi": "सभी उपचारों को सावधानीपूर्वक दस्तावेज़ित किया जाना चाहिए।",
+                "ur": "تمام علاج کو احتیاط سے دستاویزی شکل دی جانی چاہیے۔",
+                "tr": "Tüm tedaviler dikkatlice belgelenmelidir."
+            },
+            "id": "v55_19"
+        },
+        {
+            "germanTerm": "haften",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˈhaftən",
+            "category": "verb",
+            "translation": {
+                "en": "to be liable",
+                "bn": "দায়ী থাকা",
+                "hi": "उत्तरदायी होना",
+                "ur": "ذمہ دار ہونا",
+                "tr": "sorumlu olmak"
+            },
+            "exampleSentence": "Der Arzt haftet für Fehler bei der Behandlung.",
+            "exampleTranslation": {
+                "en": "The doctor is liable for errors in the treatment.",
+                "bn": "চিকিৎসক চিকিৎসার ত্রুটির জন্য দায়ী।",
+                "hi": "डॉक्टर इलाज में त्रुटियों के लिए उत्तरदायी है।",
+                "ur": "ڈاکٹر علاج میں غلطیوں کے لیے ذمہ دار ہے۔",
+                "tr": "Doktor tedavideki hatalardan sorumludur."
+            },
+            "id": "v55_20"
+        },
+        {
+            "germanTerm": "verschweigen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "fɛɐ̯ˈʃvaɪ̯ɡən",
+            "category": "verb",
+            "translation": {
+                "en": "to keep secret, to conceal",
+                "bn": "গোপন রাখা",
+                "hi": "गुप्त रखना, छिपाना",
+                "ur": "خفیہ رکھنا، چھپانا",
+                "tr": "gizli tutmak, saklamak"
+            },
+            "exampleSentence": "Der Arzt darf keine Informationen über den Patienten verschweigen.",
+            "exampleTranslation": {
+                "en": "The doctor must not conceal any information about the patient.",
+                "bn": "চিকিৎসক রোগীর সম্পর্কে কোনও তথ্য গোপন করতে পারবেন না।",
+                "hi": "डॉक्टर को मरीज के बारे में कोई जानकारी नहीं छिपानी चाहिए।",
+                "ur": "ڈاکٹر کو مریض کے بارے میں کوئی معلومات نہیں چھپانی چاہیے۔",
+                "tr": "Doktor hastayla ilgili hiçbir bilgiyi saklamamalıdır."
+            },
+            "id": "v55_21"
+        },
+        {
+            "germanTerm": "schadensersatzpflichtig",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˈʃaːdn̩ʔɛɐ̯ˌzatsˌpflɪçtɪç",
+            "category": "adjective",
+            "translation": {
+                "en": "liable for damages",
+                "bn": "ক্ষতিপূরণ দিতে বাধ্য",
+                "hi": "क्षतिपूर्ति के लिए उत्तरदायी",
+                "ur": "نقصانات کے لیے ذمہ دار",
+                "tr": "tazminattan sorumlu"
+            },
+            "exampleSentence": "Der Arzt wurde schadensersatzpflichtig erklärt.",
+            "exampleTranslation": {
+                "en": "The doctor was declared liable for damages.",
+                "bn": "চিকিৎসককে ক্ষতিপূরণ দিতে বাধ্য ঘোষণা করা হয়েছে।",
+                "hi": "डॉक्टर को क्षतिपूर्ति के लिए उत्तरदायी घोषित किया गया।",
+                "ur": "ڈاکٹر کو نقصانات کے لیے ذمہ دار قرار دیا گیا ہے۔",
+                "tr": "Doktorun tazminattan sorumlu olduğuna karar verildi."
+            },
+            "id": "v55_22"
+        },
+        {
+            "germanTerm": "rechtskräftig",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˈʁɛçt͡sˌkʁɛftɪç",
+            "category": "adjective",
+            "translation": {
+                "en": "legally binding",
+                "bn": "আইনগতভাবে বাধ্যতামূলক",
+                "hi": "कानूनी रूप से बाध्यकारी",
+                "ur": "قانونی طور پر پابند",
+                "tr": "yasal olarak bağlayıcı"
+            },
+            "exampleSentence": "Das Urteil ist noch nicht rechtskräftig.",
+            "exampleTranslation": {
+                "en": "The judgment is not yet legally binding.",
+                "bn": "রায় এখনও আইনগতভাবে বাধ্যতামূলক নয়।",
+                "hi": "फैसला अभी तक कानूनी रूप से बाध्यकारी नहीं है।",
+                "ur": "فیصلہ ابھی تک قانونی طور پر پابند نہیں ہے۔",
+                "tr": "Karar henüz yasal olarak bağlayıcı değildir."
+            },
+            "id": "v55_23"
+        },
+        {
+            "germanTerm": "Einverständniserklärung",
+            "article": "die",
+            "plural": "die Einverständniserklärungen",
+            "pronunciation": "aɪ̯nˈfɛɐ̯ʃtɛntnɪsʔɛɐ̯ˌklɛːʁʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "declaration of consent",
+                "bn": "সম্মতির ঘোষণা",
+                "hi": "सहमति की घोषणा",
+                "ur": "رضامندی کا اعلان",
+                "tr": "onay beyanı"
+            },
+            "exampleSentence": "Die unterschriebene Einverständniserklärung wird zu den Akten genommen.",
+            "exampleTranslation": {
+                "en": "The signed declaration of consent will be filed.",
+                "bn": "স্বাক্ষরিত সম্মতির ঘোষণা নথিবদ্ধ করা হবে।",
+                "hi": "हस्ताक्षरित सहमति की घोषणा दायर की जाएगी।",
+                "ur": "دستخط شدہ رضامندی کا اعلان فائل کیا جائے گا۔",
+                "tr": "İmzalı onay beyanı dosyalanacaktır."
+            },
+            "id": "v55_24"
+        },
+        {
+            "germanTerm": "Patientenverfügung",
+            "article": "die",
+            "plural": "die Patientenverfügungen",
+            "pronunciation": "paˈtsi̯ɛntənfɛɐ̯ˌfyːɡʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "living will",
+                "bn": "জীবন্ত উইল",
+                "hi": "जीवित इच्छा",
+                "ur": "زندہ وصیت",
+                "tr": "yaşam vasiyeti"
+            },
+            "exampleSentence": "Die Patientenverfügung regelt die medizinische Behandlung im Notfall.",
+            "exampleTranslation": {
+                "en": "The living will regulates medical treatment in an emergency.",
+                "bn": "জীবন্ত উইল জরুরি অবস্থায় চিকিৎসা পদ্ধতি নিয়ন্ত্রণ করে।",
+                "hi": "जीवित इच्छा आपातकाल में चिकित्सा उपचार को नियंत्रित करती है।",
+                "ur": "زندہ وصیت ہنگامی صورتحال میں طبی علاج کو منظم کرتی ہے۔",
+                "tr": "Yaşam vasiyeti acil durumlarda tıbbi tedaviyi düzenler."
+            },
+            "id": "v55_25"
+        },
+        {
+            "germanTerm": "Ärztliche Schweigepflicht brechen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˈɛːɐ̯t͡stlɪçə ˈʃvaɪ̯ɡəˌpflɪçt ˈbʁɛçən",
+            "category": "phrase",
+            "translation": {
+                "en": "to breach medical confidentiality",
+                "bn": "চিকিৎসকের গোপনীয়তা ভঙ্গ করা",
+                "hi": "चिकित्सा गोपनीयता का उल्लंघन करना",
+                "ur": "طبی رازداری کی خلاف ورزی کرنا",
+                "tr": "tıbbi gizliliği ihlal etmek"
+            },
+            "exampleSentence": "Es ist illegal, die ärztliche Schweigepflicht zu brechen.",
+            "exampleTranslation": {
+                "en": "It is illegal to breach medical confidentiality.",
+                "bn": "চিকিৎসকের গোপনীয়তা ভঙ্গ করা অবৈধ।",
+                "hi": "चिकित्सा गोपनीयता का उल्लंघन करना अवैध है।",
+                "ur": "طبی رازداری کی خلاف ورزی کرنا غیر قانونی ہے۔",
+                "tr": "Tıbbi gizliliği ihlal etmek yasa dışıdır."
+            },
+            "id": "v55_26"
+        },
+        {
+            "germanTerm": "grobfahrlässig",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˈɡʁoːpfaːɐ̯ˌlɛsɪç",
+            "category": "adjective",
+            "translation": {
+                "en": "grossly negligent",
+                "bn": "মারাত্মকভাবে বেপরোয়া",
+                "hi": "घोर लापरवाह",
+                "ur": "سخت لاپروا",
+                "tr": "ağır ihmalkar"
+            },
+            "exampleSentence": "Grobfahrlässiges Handeln kann zu strafrechtlichen Konsequenzen führen.",
+            "exampleTranslation": {
+                "en": "Grossly negligent actions can lead to criminal consequences.",
+                "bn": "মারাত্মকভাবে বেপরোয়া কাজ ফৌজদারি পরিণতির দিকে পরিচালিত করতে পারে।",
+                "hi": "घोर लापरवाह कार्रवाई आपराधिक परिणामों की ओर ले जा सकती है।",
+                "ur": "سخت لاپروا کارروائی مجرمانہ نتائج کا باعث بن سکتی ہے۔",
+                "tr": "Ağır ihmalkar eylemler cezai sonuçlara yol açabilir."
+            },
+            "id": "v55_27"
+        },
+        {
+            "germanTerm": "Rechtsstreit",
+            "article": "der",
+            "plural": "die Rechtsstreite",
+            "pronunciation": "ˈʁɛçt͡sˌʃtʁaɪ̯t",
+            "category": "noun",
+            "translation": {
+                "en": "legal dispute",
+                "bn": "আইনি বিরোধ",
+                "hi": "कानूनी विवाद",
+                "ur": "قانونی تنازعہ",
+                "tr": "hukuki anlaşmazlık"
+            },
+            "exampleSentence": "Es kam zu einem Rechtsstreit wegen eines Behandlungsfehlers.",
+            "exampleTranslation": {
+                "en": "There was a legal dispute due to medical malpractice.",
+                "bn": "চিকিৎসা সংক্রান্ত ত্রুটির কারণে একটি আইনি বিরোধ হয়েছিল।",
+                "hi": "चिकित्सा लापरवाही के कारण एक कानूनी विवाद था।",
+                "ur": "طبی غفلت کی وجہ سے ایک قانونی تنازعہ تھا۔",
+                "tr": "Tıbbi malpraktis nedeniyle hukuki bir anlaşmazlık yaşandı."
+            },
+            "id": "v55_28"
+        },
+        {
+            "germanTerm": "medizinisch indiziert",
+            "article": null,
+            "plural": null,
+            "pronunciation": "meˈdiːt͡siːnɪʃ ɪnˈdiːt͡siːɐ̯t",
+            "category": "adjective",
+            "translation": {
+                "en": "medically indicated",
+                "bn": "চিকিৎসাগতভাবে নির্দেশিত",
+                "hi": "चिकित्सकीय रूप से संकेतित",
+                "ur": "طبی طور پر اشارہ کیا گیا",
+                "tr": "tıbben endike"
+            },
+            "exampleSentence": "Die Operation war medizinisch indiziert.",
+            "exampleTranslation": {
+                "en": "The operation was medically indicated.",
+                "bn": "অপারেশনটি চিকিৎসাগতভাবে নির্দেশিত ছিল।",
+                "hi": "ऑपरेशन चिकित्सकीय रूप से संकेतित था।",
+                "ur": "آپریشن طبی طور پر اشارہ کیا گیا تھا۔",
+                "tr": "Operasyon tıbben endikeydi."
+            },
+            "id": "v55_29"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Informed Consent After a Fall",
+                "bn": "পতনের পর অবহিত সম্মতি",
+                "hi": "गिरने के बाद सूचित सहमति",
+                "ur": "گرنے کے بعد باخبر رضامندی",
+                "tr": "Düştükten Sonra Bilgilendirilmiş Onam"
+            },
+            "context": {
+                "en": "A patient has fallen in the hospital. The doctor explains the situation and necessary examinations while addressing potential liability.",
+                "bn": "হাসপাতালে একজন রোগী পড়ে গিয়েছেন। ডাক্তার সম্ভাব্য দায়বদ্ধতা বিবেচনা করে পরিস্থিতি এবং প্রয়োজনীয় পরীক্ষাগুলি ব্যাখ্যা করছেন।",
+                "hi": "अस्पताल में एक मरीज गिर गया है। डॉक्टर संभावित दायित्व को संबोधित करते हुए स्थिति और आवश्यक परीक्षाओं के बारे में बताते हैं।",
+                "ur": "ہسپتال میں ایک مریض گر گیا ہے۔ ڈاکٹر ممکنہ ذمہ داری کو مدنظر رکھتے ہوئے صورتحال اور ضروری جانچوں کی وضاحت کر رہے ہیں۔",
+                "tr": "Hastanede bir hasta düşmüş. Doktor, olası sorumluluğu ele alırken durumu ve gerekli muayeneleri açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Herr Müller, Sie sind gestürzt. Wir müssen Sie untersuchen, um sicherzustellen, dass keine Verletzungen vorliegen. Ich muss Sie aufklären, dass wir dies sorgfältig dokumentieren müssen, um unserer Dokumentationspflicht nachzukommen.",
+                    "translation": {
+                        "en": "Mr. Müller, you fell. We need to examine you to make sure there are no injuries. I must inform you that we must carefully document this to fulfill our documentation duty.",
+                        "bn": "মিঃ মুলার, আপনি পড়ে গেছেন। কোনো আঘাত নেই কিনা তা নিশ্চিত করার জন্য আমাদের আপনাকে পরীক্ষা করতে হবে। আমি আপনাকে জানাতে বাধ্য যে আমাদের ডকুমেন্টেশন বাধ্যবাধকতা পূরণের জন্য এটি সাবধানে নথিভুক্ত করতে হবে।",
+                        "hi": "श्री मुलर, आप गिर गए। यह सुनिश्चित करने के लिए कि कोई चोट नहीं है, हमें आपकी जांच करनी होगी। मुझे आपको सूचित करना होगा कि हमें अपने दस्तावेज़ीकरण कर्तव्य को पूरा करने के लिए इसे सावधानीपूर्वक दस्तावेज़ित करना होगा।",
+                        "ur": "مسٹر مولر، آپ گر گئے ہیں۔ ہمیں اس بات کو یقینی بنانے کے لیے آپ کا معائنہ کرنا ہوگا کہ کوئی چوٹ نہیں ہے۔ مجھے آپ کو مطلع کرنا ہوگا کہ ہمیں اپنے دستاویزی فرض کو پورا کرنے کے لیے اسے احتیاط سے دستاویزی شکل دینی ہوگی۔",
+                        "tr": "Bay Müller, düştünüz. Herhangi bir yaralanma olmadığından emin olmak için sizi muayene etmemiz gerekiyor. Belgeleme görevimizi yerine getirmek için bunu dikkatlice belgelemeniz gerektiğini size bildirmeliyim."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Verstehe. Was passiert, wenn etwas gefunden wird? Wer ist verantwortlich, wenn der Sturz durch Fahrlässigkeit verursacht wurde?",
+                    "translation": {
+                        "en": "I understand. What happens if something is found? Who is responsible if the fall was caused by negligence?",
+                        "bn": "আমি বুঝতে পারছি। যদি কিছু পাওয়া যায় তাহলে কি হবে? অবহেলার কারণে পতন হলে কে দায়ী?",
+                        "hi": "मुझे समझ आ गया। यदि कुछ पाया जाता है तो क्या होता है? यदि लापरवाही के कारण गिरावट हुई तो कौन जिम्मेदार है?",
+                        "ur": "مجھے سمجھ آ گئی۔ اگر کچھ مل جاتا ہے تو کیا ہوتا ہے؟ اگر غفلت کی وجہ سے زوال آیا تو کون ذمہ دار ہے؟",
+                        "tr": "Anlıyorum. Bir şey bulunursa ne olur? Düşüşe ihmal neden olduysa kim sorumlu?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Sollte ein Behandlungsfehler vorliegen, der zu dem Sturz führte, greift unsere Haftpflichtversicherung. Wir klären Sie dann umfassend auf. Jetzt konzentrieren wir uns erstmal auf Ihre Gesundheit.",
+                    "translation": {
+                        "en": "If there is malpractice that led to the fall, our liability insurance will cover it. We will then fully inform you. Now let's focus on your health first.",
+                        "bn": "যদি কোনো চিকিৎসার ত্রুটি থাকে যার কারণে পতন ঘটেছে, তাহলে আমাদের দায় বীমা তা কভার করবে। তারপর আমরা আপনাকে সম্পূর্ণরূপে অবহিত করব। এখন প্রথমে আপনার স্বাস্থ্যের দিকে মনোযোগ দেওয়া যাক।",
+                        "hi": "अगर कोई चिकित्सीय त्रुटि है जिसके कारण गिरावट हुई, तो हमारा दायित्व बीमा इसे कवर करेगा। फिर हम आपको पूरी तरह से सूचित करेंगे। अब पहले आपके स्वास्थ्य पर ध्यान केंद्रित करते हैं।",
+                        "ur": "اگر کوئی طبی غلطی ہے جس کی وجہ سے زوال آیا تو ہمارا ذمہ داری انشورنس اس کا احاطہ کرے گا۔ پھر ہم آپ کو مکمل طور پر مطلع کریں گے۔ اب پہلے آپ کی صحت پر توجہ دیتے ہیں۔",
+                        "tr": "Düşüşe yol açan bir uygulama hatası varsa, sorumluluk sigortamız bunu karşılayacaktır. O zaman sizi tam olarak bilgilendireceğiz. Şimdi önce sağlığınıza odaklanalım."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich habe den Sturz bereits dokumentiert, Herr Müller. Die Aufklärungspflicht über weitere Schritte liegt nun bei Dr. Schmidt.",
+                    "translation": {
+                        "en": "I have already documented the fall, Mr. Müller. The duty to inform you about further steps now lies with Dr. Schmidt.",
+                        "bn": "আমি ইতিমধ্যেই পতন নথিভুক্ত করেছি, মিঃ মুলার। আরও পদক্ষেপ সম্পর্কে আপনাকে জানানোর দায়িত্ব এখন ডক্টর শ্মিটের উপর।",
+                        "hi": "मैंने पहले ही गिरावट का दस्तावेज़ बना लिया है, श्री मुलर। आगे के कदमों के बारे में आपको सूचित करने का कर्तव्य अब डॉ. श्मिट पर है।",
+                        "ur": "میں نے پہلے ہی زوال کو دستاویزی شکل دے دی ہے، مسٹر مولر۔ مزید اقدامات کے بارے میں آپ کو مطلع کرنے کا فرض اب ڈاکٹر شمٹ پر عائد ہوتا ہے۔",
+                        "tr": "Düşüşü zaten belgeledim Bay Müller. Daha fazla adım hakkında sizi bilgilendirme görevi şimdi Dr. Schmidt'e ait."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Gut, danke. Ich vertraue darauf, dass alles ordnungsgemäß dokumentiert wird.",
+                    "translation": {
+                        "en": "Good, thank you. I trust that everything will be properly documented.",
+                        "bn": "ভাল, ধন্যবাদ। আমি বিশ্বাস করি সবকিছু সঠিকভাবে নথিভুক্ত করা হবে।",
+                        "hi": "अच्छा, धन्यवाद। मुझे विश्वास है कि सब कुछ ठीक से प्रलेखित किया जाएगा।",
+                        "ur": "اچھا، شکریہ۔ مجھے یقین ہے کہ سب کچھ صحیح طریقے سے دستاویزی شکل دی جائے گی۔",
+                        "tr": "Güzel, teşekkür ederim. Her şeyin düzgün bir şekilde belgeleneceğine güveniyorum."
+                    }
+                }
+            ],
+            "id": "d55_01"
+        },
+        {
+            "title": {
+                "en": "Medication Error and Disclosure",
+                "bn": "ওষুধের ভুল এবং প্রকাশ",
+                "hi": "दवा त्रुटि और प्रकटीकरण",
+                "ur": "دوا کی غلطی اور انکشاف",
+                "tr": "İlaç Hatası ve Açıklama"
+            },
+            "context": {
+                "en": "A nurse mistakenly administered the wrong medication to a patient. The doctor discusses the incident with the nurse and the patient, focusing on transparency and legal obligations.",
+                "bn": "একজন নার্স ভুল করে একজন রোগীকে ভুল ওষুধ দিয়েছেন। ডাক্তার নার্স এবং রোগীর সাথে ঘটনাটি নিয়ে আলোচনা করেন, স্বচ্ছতা এবং আইনি বাধ্যবাধকতার উপর জোর দেন।",
+                "hi": "एक नर्स ने गलती से एक मरीज को गलत दवा दे दी। डॉक्टर नर्स और मरीज के साथ इस घटना पर चर्चा करते हैं, पारदर्शिता और कानूनी दायित्वों पर ध्यान केंद्रित करते हैं।",
+                "ur": "ایک نرس نے غلطی سے ایک مریض کو غلط دوا دے دی۔ ڈاکٹر نرس اور مریض کے ساتھ اس واقعے پر تبادلہ خیال کرتے ہیں، شفافیت اور قانونی ذمہ داریوں پر توجہ مرکوز کرتے ہیں۔",
+                "tr": "Bir hemşire yanlışlıkla bir hastaya yanlış ilaç verdi. Doktor, hemşire ve hasta ile olayı şeffaflık ve yasal yükümlülüklere odaklanarak tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Doktor, ich habe Frau Schmidt versehentlich das falsche Medikament gegeben. Es tut mir furchtbar leid!",
+                    "translation": {
+                        "en": "Doctor, I accidentally gave Mrs. Schmidt the wrong medication. I am terribly sorry!",
+                        "bn": "ডাক্তার, আমি ভুল করে মিসেস শ্মিটকে ভুল ওষুধ দিয়েছি। আমি খুব দুঃখিত!",
+                        "hi": "डॉक्टर, मैंने गलती से श्रीमती श्मिट को गलत दवा दे दी। मुझे बहुत खेद है!",
+                        "ur": "ڈاکٹر، میں نے غلطی سے مسز شمٹ کو غلط دوا دے دی۔ مجھے بہت افسوس ہے!",
+                        "tr": "Doktor, yanlışlıkla Bayan Schmidt'e yanlış ilacı verdim. Çok üzgünüm!"
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das ist ein Behandlungsfehler. Wir müssen das sofort melden und Frau Schmidt aufklären. Die Dokumentationspflicht ist jetzt besonders wichtig.",
+                    "translation": {
+                        "en": "That's a treatment error. We need to report this immediately and inform Mrs. Schmidt. The documentation duty is now particularly important.",
+                        "bn": "এটি একটি চিকিৎসার ত্রুটি। আমাদের অবিলম্বে এটি রিপোর্ট করতে হবে এবং মিসেস শ্মিটকে জানাতে হবে। ডকুমেন্টেশন বাধ্যবাধকতা এখন বিশেষভাবে গুরুত্বপূর্ণ।",
+                        "hi": "यह एक उपचार त्रुटि है। हमें इसे तुरंत रिपोर्ट करना होगा और श्रीमती श्मिट को सूचित करना होगा। दस्तावेज़ीकरण कर्तव्य अब विशेष रूप से महत्वपूर्ण है।",
+                        "ur": "یہ ایک علاج کی غلطی ہے۔ ہمیں فوری طور پر اس کی اطلاع دینی ہوگی اور مسز شمٹ کو مطلع کرنا ہوگا۔ دستاویزی فرض اب خاص طور پر اہم ہے۔",
+                        "tr": "Bu bir tedavi hatası. Bunu derhal bildirmemiz ve Bayan Schmidt'i bilgilendirmemiz gerekiyor. Belgeleme görevi şimdi özellikle önemli."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Frau Schmidt, es ist ein Fehler passiert. Schwester Weber hat Ihnen versehentlich das falsche Medikament gegeben. Wir werden Sie genau beobachten und die notwendigen Maßnahmen ergreifen.",
+                    "translation": {
+                        "en": "Mrs. Schmidt, a mistake happened. Sister Weber accidentally gave you the wrong medication. We will observe you closely and take the necessary measures.",
+                        "bn": "মিসেস শ্মিট, একটি ভুল হয়েছে। সিস্টার ওয়েবার ভুল করে আপনাকে ভুল ওষুধ দিয়েছেন। আমরা আপনাকে ঘনিষ্ঠভাবে পর্যবেক্ষণ করব এবং প্রয়োজনীয় ব্যবস্থা নেব।",
+                        "hi": "श्रीमती श्मिट, एक गलती हो गई। सिस्टर वेबर ने गलती से आपको गलत दवा दे दी। हम आपको बारीकी से देखेंगे और आवश्यक उपाय करेंगे।",
+                        "ur": "محترمہ شمٹ، ایک غلطی ہو گئی۔ سسٹر ویبر نے غلطی سے آپ کو غلط دوا دے دی۔ ہم آپ کو قریب سے دیکھیں گے اور ضروری اقدامات کریں گے۔",
+                        "tr": "Bayan Schmidt, bir hata oldu. Hemşire Weber yanlışlıkla size yanlış ilacı verdi. Sizi yakından izleyeceğiz ve gerekli önlemleri alacağız."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Ohje! Was bedeutet das für mich? Gibt es Konsequenzen?",
+                    "translation": {
+                        "en": "Oh dear! What does that mean for me? Are there consequences?",
+                        "bn": "ওহ প্রিয়! এর মানে আমার জন্য কী? কোন পরিণতি আছে?",
+                        "hi": "ओह प्रिय! इसका मेरे लिए क्या मतलब है? क्या कोई परिणाम हैं?",
+                        "ur": "اوہ عزیز! اس کا میرے لیے کیا مطلب ہے؟ کیا کوئی نتائج ہیں؟",
+                        "tr": "Aman Tanrım! Bu benim için ne anlama geliyor? Sonuçları var mı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wir werden Sie genau beobachten und alle möglichen Risiken minimieren. Wir sind haftbar für den Fehler und werden alle notwendigen Schritte unternehmen. Natürlich unterliegt alles der Schweigepflicht.",
+                    "translation": {
+                        "en": "We will observe you closely and minimize all possible risks. We are liable for the mistake and will take all necessary steps. Of course, everything is subject to confidentiality.",
+                        "bn": "আমরা আপনাকে ঘনিষ্ঠভাবে পর্যবেক্ষণ করব এবং সম্ভাব্য সমস্ত ঝুঁকি কমিয়ে আনব। আমরা ভুলের জন্য দায়ী এবং প্রয়োজনীয় সমস্ত পদক্ষেপ নেব। অবশ্যই, সবকিছু গোপনীয়তার অধীন।",
+                        "hi": "हम आपको बारीकी से देखेंगे और सभी संभावित जोखिमों को कम करेंगे। हम गलती के लिए उत्तरदायी हैं और सभी आवश्यक कदम उठाएंगे। बेशक, सब कुछ गोपनीयता के अधीन है।",
+                        "ur": "ہم آپ کو قریب سے دیکھیں گے اور تمام ممکنہ خطرات کو کم کریں گے۔ ہم غلطی کے ذمہ دار ہیں اور تمام ضروری اقدامات کریں گے۔ بلاشبہ، سب کچھ رازداری کے تابع ہے۔",
+                        "tr": "Sizi yakından izleyeceğiz ve olası tüm riskleri en aza indireceğiz. Hatadan sorumluyuz ve gerekli tüm adımları atacağız. Elbette her şey gizliliğe tabidir."
+                    }
+                }
+            ],
+            "id": "d55_02"
+        },
+        {
+            "title": {
+                "en": "Refusal of Treatment",
+                "bn": "চিকিৎসা প্রত্যাখ্যান",
+                "hi": "उपचार से इनकार",
+                "ur": "علاج سے انکار",
+                "tr": "Tedaviyi Reddetme"
+            },
+            "context": {
+                "en": "A patient refuses a recommended treatment. The doctor explains the potential consequences and the patient's right to self-determination.",
+                "bn": "একজন রোগী প্রস্তাবিত চিকিৎসা প্রত্যাখ্যান করেন। ডাক্তার সম্ভাব্য পরিণতি এবং রোগীর আত্ম-নিয়ন্ত্রণের অধিকার ব্যাখ্যা করেন।",
+                "hi": "एक मरीज अनुशंसित उपचार से इनकार करता है। डॉक्टर संभावित परिणामों और रोगी के आत्मनिर्णय के अधिकार की व्याख्या करते हैं।",
+                "ur": "ایک مریض تجویز کردہ علاج سے انکار کرتا ہے۔ ڈاکٹر ممکنہ نتائج اور مریض کے خود مختاری کے حق کی وضاحت کرتے ہیں۔",
+                "tr": "Bir hasta önerilen tedaviyi reddediyor. Doktor, potansiyel sonuçları ve hastanın kendi kaderini tayin etme hakkını açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Herr Klein, ich verstehe, dass Sie die Chemotherapie ablehnen. Ich muss Sie aber über die möglichen Konsequenzen aufklären. Ihre Entscheidung muss dokumentiert werden.",
+                    "translation": {
+                        "en": "Mr. Klein, I understand that you are refusing chemotherapy. However, I must inform you about the possible consequences. Your decision must be documented.",
+                        "bn": "মিঃ ক্লেইন, আমি বুঝতে পারছি যে আপনি কেমোথেরাপি প্রত্যাখ্যান করছেন। যাইহোক, আমি আপনাকে সম্ভাব্য পরিণতি সম্পর্কে জানাতে বাধ্য। আপনার সিদ্ধান্ত নথিভুক্ত করতে হবে।",
+                        "hi": "श्री क्लेन, मैं समझता हूं कि आप कीमोथेरेपी से इनकार कर रहे हैं। हालाँकि, मुझे आपको संभावित परिणामों के बारे में बताना होगा। आपके निर्णय को प्रलेखित किया जाना चाहिए।",
+                        "ur": "مسٹر کلین، میں سمجھتا ہوں کہ آپ کیموتھراپی سے انکار کر رہے ہیں۔ تاہم، مجھے آپ کو ممکنہ نتائج کے بارے میں بتانا ہوگا۔ آپ کے فیصلے کو دستاویزی شکل دی جانی چاہیے۔",
+                        "tr": "Bay Klein, kemoterapiyi reddettiğinizi anlıyorum. Ancak, sizi olası sonuçlar hakkında bilgilendirmem gerekiyor. Kararınız belgelenmelidir."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe mich entschieden. Ich möchte keine Chemotherapie. Das ist mein Recht, oder?",
+                    "translation": {
+                        "en": "I have made my decision. I don't want chemotherapy. That's my right, isn't it?",
+                        "bn": "আমি আমার সিদ্ধান্ত নিয়েছি। আমি কেমোথেরাপি চাই না। এটা আমার অধিকার, তাই না?",
+                        "hi": "मैंने अपना निर्णय ले लिया है। मैं कीमोथेरेपी नहीं चाहता। यह मेरा अधिकार है, है ना?",
+                        "ur": "میں نے اپنا فیصلہ کر لیا ہے۔ میں کیموتھراپی نہیں چاہتا۔ یہ میرا حق ہے، ہے نا؟",
+                        "tr": "Kararımı verdim. Kemoterapi istemiyorum. Bu benim hakkım, değil mi?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ja, das ist Ihr Recht auf Selbstbestimmung. Ich bin verpflichtet, Sie umfassend aufzuklären, aber Ihre Entscheidung respektieren wir. Ich werde alles dokumentieren, was wir besprochen haben.",
+                    "translation": {
+                        "en": "Yes, that is your right to self-determination. I am obliged to fully inform you, but we respect your decision. I will document everything we discussed.",
+                        "bn": "হ্যাঁ, এটি আপনার আত্ম-নিয়ন্ত্রণের অধিকার। আমি আপনাকে সম্পূর্ণরূপে জানাতে বাধ্য, তবে আমরা আপনার সিদ্ধান্তকে সম্মান করি। আমরা যা আলোচনা করেছি আমি সবকিছু নথিভুক্ত করব।",
+                        "hi": "हां, यह आत्मनिर्णय का आपका अधिकार है। मैं आपको पूरी तरह से सूचित करने के लिए बाध्य हूं, लेकिन हम आपके निर्णय का सम्मान करते हैं। हम जो कुछ भी चर्चा करेंगे उसे मैं प्रलेखित करूंगा।",
+                        "ur": "ہاں، یہ خود مختاری کا آپ کا حق ہے۔ میں آپ کو مکمل طور پر مطلع کرنے کا پابند ہوں، لیکن ہم آپ کے فیصلے کا احترام کرتے ہیں۔ ہم جس چیز پر بھی تبادلہ خیال کریں گے میں اسے دستاویزی شکل دوں گا۔",
+                        "tr": "Evet, bu kendi kaderini tayin etme hakkınız. Sizi tam olarak bilgilendirmekle yükümlüyüm, ancak kararınıza saygı duyuyoruz. Tartıştığımız her şeyi belgeleyeceğim."
+                    }
+                },
+                {
+                    "speaker": "Schwester Lisa",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich werde die Dokumentation im System entsprechend vermerken, Herr Klein. Bitte unterschreiben Sie noch hier, dass Sie aufgeklärt wurden und die Behandlung ablehnen.",
+                    "translation": {
+                        "en": "I will note the documentation accordingly in the system, Mr. Klein. Please sign here that you have been informed and refuse the treatment.",
+                        "bn": "আমি সিস্টেমে সেই অনুযায়ী ডকুমেন্টেশন নোট করব, মিঃ ক্লেইন। আপনি অবহিত হয়েছেন এবং চিকিৎসা প্রত্যাখ্যান করছেন এখানে স্বাক্ষর করুন।",
+                        "hi": "मैं सिस्टम में दस्तावेज़ीकरण को तदनुसार नोट करूँगा, श्री क्लेन। कृपया यहाँ हस्ताक्षर करें कि आपको सूचित किया गया है और आप उपचार से इनकार करते हैं।",
+                        "ur": "میں سسٹم میں دستاویزات کو اس کے مطابق نوٹ کروں گا، مسٹر کلین۔ براہ کرم یہاں دستخط کریں کہ آپ کو مطلع کیا گیا ہے اور آپ علاج سے انکار کرتے ہیں۔",
+                        "tr": "Belgeleri sistemde buna göre not edeceğim Bay Klein. Lütfen burada bilgilendirildiğinizi ve tedaviyi reddettiğinizi imzalayın."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "In Ordnung. Danke für die Aufklärung.",
+                    "translation": {
+                        "en": "Alright. Thank you for the clarification.",
+                        "bn": "ঠিক আছে। স্পষ্ট করার জন্য ধন্যবাদ।",
+                        "hi": "ठीक है। स्पष्टीकरण के लिए धन्यवाद।",
+                        "ur": "ٹھیک ہے۔ وضاحت کے لیے شکریہ۔",
+                        "tr": "Pekala. Açıklama için teşekkürler."
+                    }
+                }
+            ],
+            "id": "d55_03"
+        },
+        {
+            "title": {
+                "en": "Breach of Confidentiality",
+                "bn": "গোপনীয়তা লঙ্ঘন",
+                "hi": "गोपनीयता का उल्लंघन",
+                "ur": "رازداری کی خلاف ورزی",
+                "tr": "Gizliliğin İhlali"
+            },
+            "context": {
+                "en": "A doctor unintentionally reveals a patient's medical information to a third party. The consequences of the breach are discussed.",
+                "bn": "একজন ডাক্তার অনিচ্ছাকৃতভাবে তৃতীয় পক্ষের কাছে রোগীর চিকিৎসা সংক্রান্ত তথ্য প্রকাশ করেন। লঙ্ঘনের পরিণতি নিয়ে আলোচনা করা হয়।",
+                "hi": "एक डॉक्टर अनजाने में किसी तीसरे पक्ष को मरीज की चिकित्सा जानकारी का खुलासा करता है। उल्लंघन के परिणामों पर चर्चा की जाती है।",
+                "ur": "ایک ڈاکٹر غیر ارادی طور پر کسی تیسرے فریق کو مریض کی طبی معلومات ظاہر کرتا ہے۔ خلاف ورزی کے نتائج پر تبادلہ خیال کیا جاتا ہے۔",
+                "tr": "Bir doktor, bir hastanın tıbbi bilgilerini istemeden üçüncü bir tarafa açıklıyor. İhlalin sonuçları tartışılıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Frau Schulz, es tut mir leid. Ich habe versehentlich vor Ihrem Mann über Ihre Diagnose gesprochen. Das war ein Verstoß gegen die Schweigepflicht. ",
+                    "translation": {
+                        "en": "Mrs. Schulz, I am sorry. I accidentally talked about your diagnosis in front of your husband. That was a breach of confidentiality.",
+                        "bn": "মিসেস শুলজ, আমি দুঃখিত। আমি ভুল করে আপনার স্বামীর সামনে আপনার রোগ নির্ণয় সম্পর্কে কথা বলেছি। এটি গোপনীয়তার লঙ্ঘন ছিল।",
+                        "hi": "श्रीमती शुल्ज़, मुझे खेद है। मैंने गलती से आपके पति के सामने आपकी निदान के बारे में बात की। यह गोपनीयता का उल्लंघन था।",
+                        "ur": "محترمہ شولز، مجھے افسوس ہے۔ میں نے غلطی سے آپ کے شوہر کے سامنے آپ کی تشخیص کے بارے میں بات کی۔ یہ رازداری کی خلاف ورزی تھی۔",
+                        "tr": "Bayan Schulz, üzgünüm. Yanlışlıkla kocanızın önünde teşhisiniz hakkında konuştum. Bu bir gizlilik ihlaliydi."
+                    }
+                },
+                {
+                    "speaker": "Patient Schulz",
+                    "speakerRole": "Patient",
+                    "germanText": "Das ist nicht gut. Er wusste noch nichts davon. Was nun?",
+                    "translation": {
+                        "en": "That's not good. He didn't know anything about it yet. What now?",
+                        "bn": "এটা ভালো না। তিনি এখনও এ বিষয়ে কিছুই জানতেন না। এখন কি হবে?",
+                        "hi": "यह अच्छा नहीं है। वह अभी तक इसके बारे में कुछ नहीं जानता था। अब क्या?",
+                        "ur": "یہ اچھا نہیں ہے۔ وہ ابھی تک اس کے بارے میں کچھ نہیں جانتا تھا۔ اب کیا؟",
+                        "tr": "Bu iyi değil. Henüz bunun hakkında hiçbir şey bilmiyordu. Şimdi ne olacak?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Es tut mir wirklich leid. Ich kann den Vorfall nur bedauern. Wir können das Gespräch gemeinsam mit Ihrem Mann führen, wenn Sie das wünschen. Der Vorfall wird dokumentiert.",
+                    "translation": {
+                        "en": "I am really sorry. I can only regret the incident. We can have the conversation together with your husband if you wish. The incident will be documented.",
+                        "bn": "আমি সত্যিই দুঃখিত। আমি কেবল ঘটনার জন্য দুঃখ প্রকাশ করতে পারি। আপনি চাইলে আমরা আপনার স্বামীর সাথে একসাথে কথোপকথন করতে পারি। ঘটনাটি নথিভুক্ত করা হবে।",
+                        "hi": "मुझे वास्तव में खेद है। मैं केवल घटना पर अफसोस कर सकता हूं। यदि आप चाहें तो हम आपके पति के साथ मिलकर बातचीत कर सकते हैं। घटना को प्रलेखित किया जाएगा।",
+                        "ur": "مجھے واقعی افسوس ہے۔ میں صرف واقعے پر افسوس کر سکتا ہوں۔ اگر آپ چاہیں تو ہم آپ کے شوہر کے ساتھ مل کر بات چیت کر سکتے ہیں۔ واقعے کو دستاویزی شکل دی جائے گا۔",
+                        "tr": "Gerçekten üzgünüm. Sadece olaydan dolayı pişmanlık duyabilirim. İsterseniz kocanızla birlikte konuşmayı yapabiliriz. Olay belgelenecektir."
+                    }
+                },
+                {
+                    "speaker": "Schwester Karin",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Doktor, ich habe das im System entsprechend vermerkt. Die Schweigepflicht ist ein hohes Gut.",
+                    "translation": {
+                        "en": "Doctor, I have noted that accordingly in the system. Confidentiality is a valuable asset.",
+                        "bn": "ডাক্তার, আমি সিস্টেমে সেই অনুযায়ী নোট করেছি। গোপনীয়তা একটি মূল্যবান সম্পদ।",
+                        "hi": "डॉक्टर, मैंने सिस्टम में उसे तदनुसार नोट कर लिया है। गोपनीयता एक मूल्यवान संपत्ति है।",
+                        "ur": "ڈاکٹر، میں نے سسٹم میں اس کے مطابق نوٹ کر لیا ہے۔ رازداری ایک قیمتی اثاثہ ہے۔",
+                        "tr": "Doktor, bunu sistemde buna göre not ettim. Gizlilik değerli bir varlıktır."
+                    }
+                },
+                {
+                    "speaker": "Patient Schulz",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich brauche etwas Zeit, um das zu verarbeiten. Danke, Herr Doktor.",
+                    "translation": {
+                        "en": "I need some time to process this. Thank you, Doctor.",
+                        "bn": "এটি প্রক্রিয়াকরণের জন্য আমার কিছু সময় দরকার। ধন্যবাদ, ডাক্তার।",
+                        "hi": "मुझे इसे संसाधित करने के लिए कुछ समय चाहिए। धन्यवाद, डॉक्टर।",
+                        "ur": "مجھے اس پر کارروائی کرنے کے لیے کچھ وقت درکار ہے۔ شکریہ، ڈاکٹر۔",
+                        "tr": "Bunu sindirmek için biraz zamana ihtiyacım var. Teşekkürler Doktor."
+                    }
+                }
+            ],
+            "id": "d55_04"
+        },
+        {
+            "title": {
+                "en": "Incorrect Documentation Leading to Complications",
+                "bn": "জটিলতা সৃষ্টিকারী ভুল ডকুমেন্টেশন",
+                "hi": "जटिलताओं की ओर ले जाने वाला गलत दस्तावेजीकरण",
+                "ur": "پیچیدگیوں کا باعث بننے والی غلط دستاویزات",
+                "tr": "Komplikasyonlara Yol Açan Yanlış Belgeleme"
+            },
+            "context": {
+                "en": "Incorrect documentation of a patient's allergies leads to a complication after administering medication. The error and its consequences are discussed.",
+                "bn": "রোগীর অ্যালার্জিগুলির ভুল ডকুমেন্টেশনের কারণে ওষুধ দেওয়ার পরে জটিলতা দেখা দেয়। ত্রুটি এবং এর পরিণতি নিয়ে আলোচনা করা হয়।",
+                "hi": "एक मरीज की एलर्जी के गलत दस्तावेजीकरण के कारण दवा देने के बाद जटिलताएँ होती हैं। त्रुटि और उसके परिणामों पर चर्चा की जाती है।",
+                "ur": "مریض کی الرجی کی غلط دستاویزات کی وجہ سے دوا دینے کے بعد پیچیدگیاں پیدا ہوتی ہیں۔ غلطی اور اس کے نتائج پر تبادلہ خیال کیا جاتا ہے۔",
+                "tr": "Bir hastanın alerjilerinin yanlış belgelenmesi, ilaç uygulandıktan sonra bir komplikasyona yol açar. Hata ve sonuçları tartışılıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Braun",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Doktor, Herr Weber hat allergisch auf das Medikament reagiert! Ich dachte, es sei kein Problem, aber in der Akte stand nichts von einer Allergie.",
+                    "translation": {
+                        "en": "Doctor, Mr. Weber had an allergic reaction to the medication! I thought it was no problem, but there was nothing about an allergy in the file.",
+                        "bn": "ডাক্তার, মিঃ ওয়েবার ওষুধের প্রতি অ্যালার্জি প্রতিক্রিয়া দেখিয়েছেন! আমি ভেবেছিলাম এটি কোনও সমস্যা নয়, তবে ফাইলে অ্যালার্জি সম্পর্কে কিছুই লেখা ছিল না।",
+                        "hi": "डॉक्टर, श्री वेबर को दवा से एलर्जी की प्रतिक्रिया हुई! मैंने सोचा कि यह कोई समस्या नहीं है, लेकिन फ़ाइल में एलर्जी के बारे में कुछ भी नहीं था।",
+                        "ur": "ڈاکٹر، مسٹر ویبر کو دوا سے الرجک ردعمل ہوا! میں نے سوچا کہ یہ کوئی مسئلہ نہیں ہے، لیکن فائل میں الرجی کے بارے میں کچھ بھی نہیں تھا۔",
+                        "tr": "Doktor, Bay Weber ilaca alerjik reaksiyon gösterdi! Sorun olmadığını düşündüm ama dosyada alerji ile ilgili hiçbir şey yoktu."
+                    }
+                },
+                {
+                    "speaker": "Dr. Berger",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das ist ein schwerwiegender Fehler! Die Dokumentationspflicht wurde offenbar verletzt. Wir müssen das untersuchen und Herrn Weber umgehend behandeln.",
+                    "translation": {
+                        "en": "That's a serious error! The documentation duty has apparently been violated. We must investigate this and treat Mr. Weber immediately.",
+                        "bn": "এটি একটি গুরুতর ভুল! ডকুমেন্টেশন বাধ্যবাধকতা আপাতদৃষ্টিতে লঙ্ঘিত হয়েছে। আমাদের এটি তদন্ত করতে হবে এবং মিঃ ওয়েবারের অবিলম্বে চিকিৎসা করতে হবে।",
+                        "hi": "यह एक गंभीर त्रुटि है! दस्तावेज़ीकरण कर्तव्य का उल्लंघन स्पष्ट रूप से किया गया है। हमें इसकी जांच करनी चाहिए और श्री वेबर का तुरंत इलाज करना चाहिए।",
+                        "ur": "یہ ایک سنگین غلطی ہے! بظاہر دستاویزی فرض کی خلاف ورزی کی گئی ہے۔ ہمیں اس کی تحقیقات کرنی ہوں گی اور مسٹر ویبر کا فوری طور پر علاج کرنا ہوگا۔",
+                        "tr": "Bu ciddi bir hata! Belgeleme görevi görünüşe göre ihlal edildi. Bunu araştırmalı ve Bay Weber'i derhal tedavi etmeliyiz."
+                    }
+                },
+                {
+                    "speaker": "Dr. Berger",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Herr Weber, es tut mir leid, dass es zu dieser Komplikation gekommen ist. Wir werden alles tun, um Ihnen zu helfen. Wir werden eine umfassende Fehleranalyse durchführen.",
+                    "translation": {
+                        "en": "Mr. Weber, I am sorry that this complication has occurred. We will do everything we can to help you. We will conduct a comprehensive error analysis.",
+                        "bn": "মিঃ ওয়েবার, এই জটিলতা দেখা দেওয়ায় আমি দুঃখিত। আমরা আপনাকে সাহায্য করার জন্য সবকিছু করব। আমরা একটি ব্যাপক ত্রুটি বিশ্লেষণ পরিচালনা করব।",
+                        "hi": "श्री वेबर, मुझे खेद है कि यह जटिलता हुई है। हम आपकी मदद करने के लिए हर संभव प्रयास करेंगे। हम एक व्यापक त्रुटि विश्लेषण आयोजित करेंगे।",
+                        "ur": "مسٹر ویبر، مجھے افسوس ہے کہ یہ پیچیدگی پیش آئی ہے۔ ہم آپ کی مدد کے لیے ہر ممکن کوشش کریں گے۔ ہم ایک جامع غلطی کا تجزیہ کریں گے۔",
+                        "tr": "Bay Weber, bu komplikasyonun ortaya çıkmasından dolayı üzgünüm. Size yardımcı olmak için elimizden gelen her şeyi yapacağız. Kapsamlı bir hata analizi yapacağız."
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Das ist ja furchtbar! Ich hätte fast sterben können! Wer haftet dafür?",
+                    "translation": {
+                        "en": "This is terrible! I could have almost died! Who is liable for this?",
+                        "bn": "এটা ভয়ংকর! আমি প্রায় মরে যেতে পারতাম! এর জন্য কে দায়ী?",
+                        "hi": "यह भयानक है! मैं लगभग मर सकता था! इसके लिए कौन उत्तरदायी है?",
+                        "ur": "یہ خوفناک ہے! میں تقریباً مر سکتا تھا! اس کے لیے کون ذمہ دار ہے؟",
+                        "tr": "Bu korkunç! Neredeyse ölüyordum! Bundan kim sorumlu?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Berger",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wir prüfen den Fall sorgfältig. Es könnte sich um einen Behandlungsfehler handeln. Die Haftung wird geprüft. Zuerst aber kümmern wir uns um Ihre Gesundheit.",
+                    "translation": {
+                        "en": "We are carefully reviewing the case. It could be a case of malpractice. Liability will be checked. But first, we take care of your health.",
+                        "bn": "আমরা বিষয়টি সাবধানে পর্যালোচনা করছি। এটি চিকিৎসার ত্রুটি হতে পারে। দায়বদ্ধতা পরীক্ষা করা হবে। তবে প্রথমে, আমরা আপনার স্বাস্থ্যের যত্ন নিই।",
+                        "hi": "हम मामले की सावधानीपूर्वक समीक्षा कर रहे हैं। यह कदाचार का मामला हो सकता है। देयता की जाँच की जाएगी। लेकिन पहले, हम आपके स्वास्थ्य का ध्यान रखते हैं।",
+                        "ur": "ہم معاملے کا بغور جائزہ لے رہے ہیں۔ یہ بدعنوانی کا معاملہ ہو سکتا ہے۔ ذمہ داری کی جانچ کی جائے گی۔ لیکن پہلے ہم آپ کی صحت کا خیال رکھتے ہیں۔",
+                        "tr": "Davayı dikkatlice inceliyoruz. Bu bir uygulama hatası vakası olabilir. Sorumluluk kontrol edilecektir. Ama önce sağlığınıza dikkat ediyoruz."
+                    }
+                },
+                {
+                    "speaker": "Schwester Braun",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich habe den Fehler unverzüglich dokumentiert. Wir müssen unsere Prozesse überprüfen.",
+                    "translation": {
+                        "en": "I have documented the error immediately. We need to review our processes.",
+                        "bn": "আমি অবিলম্বে ত্রুটি নথিভুক্ত করেছি। আমাদের প্রক্রিয়া পর্যালোচনা করতে হবে।",
+                        "hi": "मैंने तुरंत त्रुटि का दस्तावेजीकरण कर लिया है। हमें अपनी प्रक्रियाओं की समीक्षा करने की आवश्यकता है।",
+                        "ur": "میں نے فوری طور پر غلطی کو دستاویزی شکل دے دی ہے۔ ہمیں اپنی کارروائیوں کا جائزہ لینے کی ضرورت ہے۔",
+                        "tr": "Hatayı derhal belgeledim. Süreçlerimizi gözden geçirmemiz gerekiyor."
+                    }
+                }
+            ],
+            "id": "d55_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage zur ärztlichen Aufklärungspflicht ist korrekt?",
+                "en": "Which statement about the doctor's duty of informed consent is correct?",
+                "bn": "চিকিৎসকের সম্মতির বাধ্যবাধকতা সম্পর্কে কোন বক্তব্যটি সঠিক?",
+                "hi": "डॉक्टर की सूचित सहमति के कर्तव्य के बारे में कौन सा कथन सही है?",
+                "ur": "ڈاکٹر کی باخبر رضامندی کے فرض کے بارے میں کون سا بیان درست ہے؟",
+                "tr": "Doktorun bilgilendirme yükümlülüğü ile ilgili hangi ifade doğrudur?"
+            },
+            "options": [
+                "Die Aufklärung muss immer schriftlich erfolgen.",
+                "Die Aufklärung kann unter bestimmten Umständen unterbleiben.",
+                "Die Aufklärungspflicht gilt nur bei invasiven Eingriffen.",
+                "Die Aufklärung ist erst bei volljährigen Patienten notwendig."
+            ],
+            "correctAnswer": "Die Aufklärung kann unter bestimmten Umständen unterbleiben.",
+            "explanation": {
+                "en": "Informed consent can be waived under certain circumstances, such as in emergency situations or if the patient explicitly waives their right to information.",
+                "bn": "জরুরী পরিস্থিতিতে বা রোগী যদি স্পষ্টভাবে তথ্যের অধিকার ত্যাগ করে তবে কিছু পরিস্থিতিতে অবহিত সম্মতি মওকুফ করা যেতে পারে।",
+                "hi": "कुछ परिस्थितियों में सूचित सहमति माफ की जा सकती है, जैसे कि आपातकालीन स्थितियों में या यदि रोगी स्पष्ट रूप से जानकारी के अपने अधिकार का त्याग करता है।",
+                "ur": "کچھ حالات میں باخبر رضامندی کو معاف کیا جا سکتا ہے، جیسے کہ ہنگامی صورتحال میں یا اگر مریض واضح طور پر معلومات کے اپنے حق سے دستبردار ہو جائے۔",
+                "tr": "Acil durumlarda veya hastanın açıkça bilgi alma hakkından vazgeçmesi gibi belirli durumlarda bilgilendirilmiş onamdan vazgeçilebilir."
+            },
+            "points": 10,
+            "id": "e55_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was versteht man unter einem Behandlungsfehler?",
+                "en": "What is understood by a medical error?",
+                "bn": "চিকিৎসা ত্রুটি বলতে কী বোঝায়?",
+                "hi": "चिकित्सा त्रुटि से क्या समझा जाता है?",
+                "ur": "طبی غلطی سے کیا مراد ہے؟",
+                "tr": "Tıbbi hata ile ne anlaşılır?"
+            },
+            "options": [
+                "Eine unerwartete Verschlechterung des Gesundheitszustandes.",
+                "Eine falsche Diagnose.",
+                "Ein Verstoß gegen die ärztlichen Sorgfaltspflichten.",
+                "Eine Komplikation nach einer Operation."
+            ],
+            "correctAnswer": "Ein Verstoß gegen die ärztlichen Sorgfaltspflichten.",
+            "explanation": {
+                "en": "A medical error is a violation of the doctor's duty of care, meaning they acted negligently or didn't meet the standard of care expected of a reasonably competent doctor.",
+                "bn": "একটি চিকিৎসা ত্রুটি হল ডাক্তারের যত্নের কর্তব্যের লঙ্ঘন, যার অর্থ তারা অবহেলার সাথে কাজ করেছেন বা একজন যুক্তিসঙ্গতভাবে সক্ষম ডাক্তারের কাছ থেকে প্রত্যাশিত যত্নের মান পূরণ করেননি।",
+                "hi": "एक चिकित्सा त्रुटि डॉक्टर के देखभाल के कर्तव्य का उल्लंघन है, जिसका अर्थ है कि उन्होंने लापरवाही से काम किया या एक उचित रूप से सक्षम डॉक्टर से अपेक्षित देखभाल के मानक को पूरा नहीं किया।",
+                "ur": "طبی غلطی ڈاکٹر کے نگہداشت کے فرض کی خلاف ورزی ہے، جس کا مطلب ہے کہ انہوں نے لاپرواہی سے کام لیا یا ایک مناسب طور پر قابل ڈاکٹر سے متوقع نگہداشت کے معیار پر پورا نہیں اترے۔",
+                "tr": "Tıbbi hata, doktorun özen yükümlülüğünün ihlalidir, yani ihmalkar davrandılar veya makul derecede yetkin bir doktordan beklenen bakım standardını karşılamadılar."
+            },
+            "points": 10,
+            "id": "e55_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist die Konsequenz einer Verletzung der ärztlichen Schweigepflicht?",
+                "en": "What is the consequence of violating medical confidentiality?",
+                "bn": "চিকিৎসা গোপনীয়তা লঙ্ঘনের পরিণতি কী?",
+                "hi": "चिकित्सा गोपनीयता का उल्लंघन करने का क्या परिणाम है?",
+                "ur": "طبی رازداری کی خلاف ورزی کا کیا نتیجہ ہے؟",
+                "tr": "Tıbbi gizliliğin ihlal edilmesinin sonucu nedir?"
+            },
+            "options": [
+                "Eine administrative Verwarnung.",
+                "Eine zivilrechtliche Klage und eine strafrechtliche Verfolgung.",
+                "Ein Verlust der Approbation.",
+                "Eine Geldbuße."
+            ],
+            "correctAnswer": "Eine zivilrechtliche Klage und eine strafrechtliche Verfolgung.",
+            "explanation": {
+                "en": "Violation of medical confidentiality can lead to both civil lawsuits (for damages) and criminal prosecution.",
+                "bn": "চিকিৎসা গোপনীয়তা লঙ্ঘন করলে দেওয়ানি মামলা (ক্ষতির জন্য) এবং ফৌজদারি উভয় প্রক্রিয়াই হতে পারে।",
+                "hi": "चिकित्सा गोपनीयता का उल्लंघन करने पर दीवानी मुकदमे (क्षतिपूर्ति के लिए) और आपराधिक अभियोजन दोनों हो सकते हैं।",
+                "ur": "طبی رازداری کی خلاف ورزی دیوانی مقدمات (نقصانات کے لیے) اور فوجداری دونوں قانونی چارہ جوئی کا باعث بن سکتی ہے۔",
+                "tr": "Tıbbi gizliliğin ihlali hem hukuk davalarına (tazminat için) hem de cezai kovuşturmaya yol açabilir."
+            },
+            "points": 10,
+            "id": "e55_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Pflichten umfasst die ärztliche Dokumentationspflicht?",
+                "en": "What duties does the doctor's duty of documentation include?",
+                "bn": "চিকিৎসকের ডকুমেন্টেশনের দায়িত্বে কী কী কর্তব্য অন্তর্ভুক্ত?",
+                "hi": "डॉक्टर के दस्तावेज़ीकरण के कर्तव्य में कौन से कर्तव्य शामिल हैं?",
+                "ur": "ڈاکٹر کے دستاویز کاری کے فرض میں کیا فرائض شامل ہیں؟",
+                "tr": "Doktorun belgeleme yükümlülüğü hangi görevleri içerir?"
+            },
+            "options": [
+                "Nur die Dokumentation der Diagnose.",
+                "Die Dokumentation aller wesentlichen Behandlungsschritte und Befunde.",
+                "Nur die Dokumentation der verordneten Medikamente.",
+                "Die Dokumentation aller Gespräche mit dem Patienten."
+            ],
+            "correctAnswer": "Die Dokumentation aller wesentlichen Behandlungsschritte und Befunde.",
+            "explanation": {
+                "en": "The doctor's duty of documentation includes documenting all essential treatment steps and findings, ensuring a comprehensive and accurate record of the patient's care.",
+                "bn": "চিকিৎসকের ডকুমেন্টেশনের দায়িত্বে রোগীর যত্নের একটি বিস্তৃত এবং নির্ভুল রেকর্ড নিশ্চিত করার জন্য সমস্ত প্রয়োজনীয় চিকিত্সা পদক্ষেপ এবং অনুসন্ধানের নথিভুক্তকরণ অন্তর্ভুক্ত।",
+                "hi": "डॉक्टर के दस्तावेज़ीकरण के कर्तव्य में रोगी की देखभाल का एक व्यापक और सटीक रिकॉर्ड सुनिश्चित करने के लिए सभी आवश्यक उपचार चरणों और निष्कर्षों का दस्तावेजीकरण शामिल है।",
+                "ur": "ڈاکٹر کے دستاویز کاری کے فرض میں مریض کی دیکھ بھال کا ایک جامع اور درست ریکارڈ یقینی بنانے کے لیے تمام ضروری علاج کے مراحل اور نتائج کی دستاویز کاری شامل ہے۔",
+                "tr": "Doktorun belgeleme yükümlülüğü, hastanın bakımının kapsamlı ve doğru bir kaydını sağlamak için tüm önemli tedavi adımlarının ve bulgularının belgelenmesini içerir."
+            },
+            "points": 10,
+            "id": "e55_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wer haftet in der Regel für einen Behandlungsfehler, der durch einen Assistenzarzt verursacht wurde?",
+                "en": "Who is generally liable for a medical error caused by a resident physician?",
+                "bn": "একজন আবাসিক চিকিৎসক দ্বারা সৃষ্ট চিকিৎসা ত্রুটির জন্য সাধারণত কে দায়ী?",
+                "hi": "एक निवासी चिकित्सक द्वारा की गई चिकित्सा त्रुटि के लिए आम तौर पर कौन उत्तरदायी है?",
+                "ur": "ایک ریزیڈنٹ فزیشن کی وجہ سے ہونے والی طبی غلطی کے لیے عام طور پر کون ذمہ دار ہے؟",
+                "tr": "Bir asistan hekimin neden olduğu tıbbi hatadan genellikle kim sorumludur?"
+            },
+            "options": [
+                "Nur der Assistenzarzt.",
+                "Nur der Chefarzt.",
+                "Der Assistenzarzt und der Chefarzt gemeinsam.",
+                "Der Krankenhausträger."
+            ],
+            "correctAnswer": "Der Assistenzarzt und der Chefarzt gemeinsam.",
+            "explanation": {
+                "en": "Both the resident physician (for their own negligence) and the supervising physician (for failure to adequately supervise) can be held liable.",
+                "bn": "উভয় আবাসিক চিকিৎসক (তাদের নিজের অবহেলার জন্য) এবং তত্ত্বাবধায়ক চিকিৎসক (যথাযথভাবে তত্ত্বাবধান করতে ব্যর্থ হওয়ার জন্য) দায়ী হতে পারেন।",
+                "hi": "दोनों निवासी चिकित्सक (अपनी लापरवाही के लिए) और पर्यवेक्षक चिकित्सक (पर्याप्त रूप से पर्यवेक्षण करने में विफलता के लिए) उत्तरदायी ठहराए जा सकते हैं।",
+                "ur": "دونوں ریزیڈنٹ فزیشن (اپنی لاپرواہی کے لیے) اور نگران معالج (مناسب طریقے سے نگرانی کرنے میں ناکامی کے لیے) کو ذمہ دار ٹھہرایا جا سکتا ہے۔",
+                "tr": "Hem asistan hekim (kendi ihmali için) hem de gözetmen hekim (yeterince gözetim yapamamaktan) sorumlu tutulabilir."
+            },
+            "points": 10,
+            "id": "e55_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'informed consent' auf Deutsch?",
+                "en": "What does 'informed consent' mean in German?",
+                "bn": "'Informed consent'-এর জার্মান অর্থ কী?",
+                "hi": "'Informed consent' का जर्मन में क्या अर्थ है?",
+                "ur": "جرمن میں 'Informed consent' کا کیا مطلب ہے؟",
+                "tr": "'Informed consent'ın Almancası nedir?"
+            },
+            "options": [
+                "Schweigepflicht",
+                "Aufklärungspflicht",
+                "Haftung",
+                "Dokumentationspflicht"
+            ],
+            "correctAnswer": "Aufklärungspflicht",
+            "explanation": {
+                "en": "'Informed consent' translates to 'Aufklärungspflicht' in German, which refers to the duty to inform the patient about the medical procedure, risks and alternatives.",
+                "bn": "'Informed consent' জার্মান ভাষায় 'Aufklärungspflicht'-এ অনুবাদ করে, যা রোগীর চিকিৎসা পদ্ধতি, ঝুঁকি এবং বিকল্প সম্পর্কে জানানোর বাধ্যবাধকতা বোঝায়।",
+                "hi": "'Informed consent' जर्मन में 'Aufklärungspflicht' में अनुवाद करता है, जो चिकित्सा प्रक्रिया, जोखिमों और विकल्पों के बारे में रोगी को सूचित करने के कर्तव्य को संदर्भित करता है।",
+                "ur": "'Informed consent' جرمن میں 'Aufklärungspflicht' میں ترجمہ کرتا ہے، جس سے مراد طبی طریقہ کار، خطرات اور متبادل کے بارے میں مریض کو آگاہ کرنے کا فرض ہے۔",
+                "tr": "'Informed consent' Almancada 'Aufklärungspflicht' anlamına gelir ve bu da hastayı tıbbi prosedür, riskler ve alternatifler hakkında bilgilendirme yükümlülüğünü ifade eder."
+            },
+            "points": 10,
+            "id": "e55_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Personen unterliegt NICHT der ärztlichen Schweigepflicht?",
+                "en": "Which of the following persons is NOT subject to medical confidentiality?",
+                "bn": "নিম্নলিখিত ব্যক্তিদের মধ্যে কে চিকিৎসা গোপনীয়তার অধীন নয়?",
+                "hi": "निम्नलिखित व्यक्तियों में से कौन चिकित्सा गोपनीयता के अधीन नहीं है?",
+                "ur": "درج ذیل میں سے کون سا شخص طبی رازداری کے تابع نہیں ہے؟",
+                "tr": "Aşağıdaki kişilerden hangisi tıbbi gizliliğe tabi değildir?"
+            },
+            "options": [
+                "Ein Arzt",
+                "Eine Krankenschwester",
+                "Ein Medizinischer Fachangestellter",
+                "Ein Journalist"
+            ],
+            "correctAnswer": "Ein Journalist",
+            "explanation": {
+                "en": "Journalists are not bound by medical confidentiality. Medical confidentiality applies to healthcare professionals.",
+                "bn": "সাংবাদিকরা চিকিৎসা গোপনীয়তার দ্বারা আবদ্ধ নন। চিকিৎসা গোপনীয়তা স্বাস্থ্যসেবা পেশাদারদের জন্য প্রযোজ্য।",
+                "hi": "पत्रकार चिकित्सा गोपनीयता से बाध्य नहीं हैं। चिकित्सा गोपनीयता स्वास्थ्य सेवा पेशेवरों पर लागू होती है।",
+                "ur": "صحافی طبی رازداری کے پابند نہیں ہیں۔ طبی رازداری صحت کی دیکھ بھال کے پیشہ ور افراد پر لاگو ہوتی ہے۔",
+                "tr": "Gazeteciler tıbbi gizliliğe tabi değildir. Tıbbi gizlilik sağlık profesyonelleri için geçerlidir."
+            },
+            "points": 10,
+            "id": "e55_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wann ist eine Offenbarung von Patientendaten trotz Schweigepflicht erlaubt?",
+                "en": "When is disclosure of patient data permitted despite confidentiality?",
+                "bn": "গোপনীয়তা সত্ত্বেও কখন রোগীর ডেটা প্রকাশ করার অনুমতি দেওয়া হয়?",
+                "hi": "गोपनीयता के बावजूद मरीज के डेटा का खुलासा कब किया जा सकता है?",
+                "ur": "رازداری کے باوجود مریض کے ڈیٹا کا انکشاف کب جائز ہے؟",
+                "tr": "Gizliliğe rağmen hasta verilerinin ifşasına ne zaman izin verilir?"
+            },
+            "options": [
+                "Wenn ein anderer Arzt die Daten anfordert.",
+                "Wenn der Patient selbst die Daten freigibt.",
+                "Wenn die Daten für Forschungszwecke verwendet werden sollen.",
+                "Wenn ein Familienmitglied die Daten anfordert."
+            ],
+            "correctAnswer": "Wenn der Patient selbst die Daten freigibt.",
+            "explanation": {
+                "en": "Patient data can be disclosed if the patient themselves explicitly releases the data (e.g., gives consent).",
+                "bn": "যদি রোগী নিজেই স্পষ্টভাবে ডেটা প্রকাশ করে (যেমন, সম্মতি দেয়) তাহলে রোগীর ডেটা প্রকাশ করা যেতে পারে।",
+                "hi": "यदि रोगी स्वयं स्पष्ट रूप से डेटा जारी करता है (उदाहरण के लिए, सहमति देता है) तो रोगी डेटा का खुलासा किया जा सकता है।",
+                "ur": "مریض کا ڈیٹا اس وقت ظاہر کیا جا سکتا ہے جب مریض خود واضح طور پر ڈیٹا جاری کرے (مثال کے طور پر، رضامندی دے)۔",
+                "tr": "Hastanın kendisi verileri açıkça serbest bırakırsa (örneğin, onay verirse) hasta verileri açıklanabilir."
+            },
+            "points": 10,
+            "id": "e55_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist der Unterschied zwischen 'Haftung' und 'Schuld' im medizinischen Kontext?",
+                "en": "What is the difference between 'liability' ('Haftung') and 'guilt' ('Schuld') in a medical context?",
+                "bn": "চিকিৎসা প্রেক্ষাপটে 'দায়িত্ব' ('Haftung') এবং 'অপরাধ' ('Schuld') এর মধ্যে পার্থক্য কী?",
+                "hi": "चिकित्सा संदर्भ में 'देयता' ('Haftung') और 'अपराध' ('Schuld') के बीच क्या अंतर है?",
+                "ur": "طبی تناظر میں 'ذمہ داری' ('Haftung') اور 'جرم' ('Schuld') کے درمیان کیا فرق ہے؟",
+                "tr": "Tıbbi bağlamda 'sorumluluk' ('Haftung') ve 'suç' ('Schuld') arasındaki fark nedir?"
+            },
+            "options": [
+                "Es gibt keinen Unterschied, beide bedeuten dasselbe.",
+                "Haftung bezieht sich auf finanzielle Verantwortung, Schuld auf moralische Verantwortung.",
+                "Haftung bezieht sich auf strafrechtliche Verantwortung, Schuld auf zivilrechtliche Verantwortung.",
+                "Haftung bezieht sich auf moralische Verantwortung, Schuld auf finanzielle Verantwortung."
+            ],
+            "correctAnswer": "Haftung bezieht sich auf finanzielle Verantwortung, Schuld auf moralische Verantwortung.",
+            "explanation": {
+                "en": "'Haftung' refers to financial or legal responsibility for damages or losses, while 'Schuld' refers to moral guilt or culpability.",
+                "bn": "'Haftung' বলতে ক্ষতি বা ক্ষতির জন্য আর্থিক বা আইনি দায় বোঝায়, যেখানে 'Schuld' বলতে নৈতিক অপরাধ বা দোষ বোঝায়।",
+                "hi": "'Haftung' का अर्थ नुकसान या नुकसान के लिए वित्तीय या कानूनी जिम्मेदारी है, जबकि 'Schuld' का अर्थ नैतिक अपराध या दोष है।",
+                "ur": "'Haftung' سے مراد نقصانات یا نقصانات کے لیے مالی یا قانونی ذمہ داری ہے، جب کہ 'Schuld' سے مراد اخلاقی جرم یا قصور ہے۔",
+                "tr": "'Haftung', hasar veya kayıplar için mali veya yasal sorumluluğu ifade ederken, 'Schuld' ahlaki suçluluk veya kabahati ifade eder."
+            },
+            "points": 10,
+            "id": "e55_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist eine 'Patientenverfügung'?",
+                "en": "What is an 'advance directive' ('Patientenverfügung')?",
+                "bn": "একটি 'অগ্রিম নির্দেশ' ('Patientenverfügung') কী?",
+                "hi": "'अग्रिम निर्देश' ('Patientenverfügung') क्या है?",
+                "ur": "'ایڈوانس ڈائریکٹیو' ('Patientenverfügung') کیا ہے؟",
+                "tr": "'Önceden verilmiş talimat' ('Patientenverfügung') nedir?"
+            },
+            "options": [
+                "Eine Anweisung des Arztes an das Krankenhaus.",
+                "Eine Erklärung des Patienten über seine Wünsche bezüglich medizinischer Behandlungen in der Zukunft.",
+                "Eine Vollmacht für einen Angehörigen.",
+                "Eine Liste der Medikamente, die der Patient einnimmt."
+            ],
+            "correctAnswer": "Eine Erklärung des Patienten über seine Wünsche bezüglich medizinischer Behandlungen in der Zukunft.",
+            "explanation": {
+                "en": "An advance directive ('Patientenverfügung') is a declaration by the patient about their wishes regarding medical treatments in the future, particularly if they are unable to express their wishes at that time.",
+                "bn": "একটি অগ্রিম নির্দেশ ('Patientenverfügung') হল ভবিষ্যতের চিকিৎসা সংক্রান্ত চিকিৎসা সম্পর্কে রোগীর ইচ্ছার ঘোষণা, বিশেষ করে যদি তারা সেই সময়ে তাদের ইচ্ছা প্রকাশ করতে অক্ষম হন।",
+                "hi": "एक अग्रिम निर्देश ('Patientenverfügung') भविष्य में चिकित्सा उपचार के बारे में रोगी की इच्छाओं की घोषणा है, खासकर यदि वे उस समय अपनी इच्छा व्यक्त करने में असमर्थ हैं।",
+                "ur": "ایک ایڈوانس ڈائریکٹیو ('Patientenverfügung') مستقبل میں طبی علاج کے بارے میں مریض کی خواہشات کا اعلان ہے، خاص طور پر اگر وہ اس وقت اپنی خواہشات کا اظہار کرنے سے قاصر ہیں۔",
+                "tr": "'Önceden verilmiş talimat' ('Patientenverfügung'), özellikle o sırada isteklerini ifade edememeleri durumunda, gelecekteki tıbbi tedavilerle ilgili hastanın isteklerinin bir beyanıdır."
+            },
+            "points": 10,
+            "id": "e55_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die Verletzung der ärztlichen Sorgfaltspflicht wird als ___________ bezeichnet.",
+                "en": "The violation of the doctor's duty of care is called ___________.",
+                "bn": "ডাক্তারের যত্নের কর্তব্যের লঙ্ঘনকে ___________ বলা হয়।",
+                "hi": "डॉक्टर के देखभाल के कर्तव्य के उल्लंघन को ___________ कहा जाता है।",
+                "ur": "ڈاکٹر کے نگہداشت کے فرض کی خلاف ورزی کو ___________ کہا جاتا ہے۔",
+                "tr": "Doktorun özen yükümlülüğünün ihlaline ___________ denir."
+            },
+            "options": [],
+            "correctAnswer": "Behandlungsfehler",
+            "explanation": {
+                "en": "The term for a violation of the doctor's duty of care is 'Behandlungsfehler', which translates to 'medical error' or 'malpractice'.",
+                "bn": "ডাক্তারের যত্নের কর্তব্যের লঙ্ঘনের শব্দ হল 'Behandlungsfehler', যার অর্থ 'চিকিৎসা ত্রুটি' বা 'অপরাধ'।",
+                "hi": "डॉक्टर के देखभाल के कर्तव्य के उल्लंघन शब्द 'Behandlungsfehler' है, जिसका अर्थ है 'चिकित्सा त्रुटि' या 'दुरुपयोग'।",
+                "ur": "ڈاکٹر کے نگہداشت کے فرض کی خلاف ورزی کے لیے اصطلاح 'Behandlungsfehler' ہے، جس کا ترجمہ 'طبی غلطی' یا 'غلط عمل' ہے۔",
+                "tr": "Doktorun özen yükümlülüğünün ihlali terimi 'Behandlungsfehler' olarak adlandırılır ve bu da 'tıbbi hata' veya 'ihmal' anlamına gelir."
+            },
+            "points": 10,
+            "id": "e55_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die Pflicht, alle wesentlichen Behandlungsschritte zu dokumentieren, nennt man ___________.",
+                "en": "The duty to document all essential treatment steps is called ___________.",
+                "bn": "সমস্ত প্রয়োজনীয় চিকিত্সা পদক্ষেপ নথিভুক্ত করার কর্তব্যকে ___________ বলা হয়।",
+                "hi": "सभी आवश्यक उपचार चरणों को दस्तावेज़ करने के कर्तव्य को ___________ कहा जाता है।",
+                "ur": "تمام ضروری علاج کے مراحل کو دستاویز کرنے کے فرض کو ___________ کہا جاتا ہے۔",
+                "tr": "Tüm önemli tedavi adımlarını belgeleme görevine ___________ denir."
+            },
+            "options": [],
+            "correctAnswer": "Dokumentationspflicht",
+            "explanation": {
+                "en": "The duty to document all essential treatment steps is called 'Dokumentationspflicht'.",
+                "bn": "সমস্ত প্রয়োজনীয় চিকিত্সা পদক্ষেপ নথিভুক্ত করার কর্তব্যকে 'Dokumentationspflicht' বলা হয়।",
+                "hi": "सभी आवश्यक उपचार चरणों को दस्तावेज़ करने के कर्तव्य को 'Dokumentationspflicht' कहा जाता है।",
+                "ur": "تمام ضروری علاج کے مراحل کو دستاویز کرنے کے فرض کو 'Dokumentationspflicht' کہا جاتا ہے۔",
+                "tr": "Tüm önemli tedavi adımlarını belgeleme görevine 'Dokumentationspflicht' denir."
+            },
+            "points": 10,
+            "id": "e55_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die rechtliche Verantwortung für einen Schaden nennt man __________.",
+                "en": "The legal responsibility for damage is called __________.",
+                "bn": "ক্ষতির জন্য আইনি দায়বদ্ধতাকে __________ বলা হয়।",
+                "hi": "क्षति के लिए कानूनी जिम्मेदारी को __________ कहा जाता है।",
+                "ur": "نقصان کی قانونی ذمہ داری کو __________ کہا جاتا ہے۔",
+                "tr": "Hasardan yasal sorumluluğa __________ denir."
+            },
+            "options": [],
+            "correctAnswer": "Haftung",
+            "explanation": {
+                "en": "The legal responsibility for damage is called 'Haftung'.",
+                "bn": "ক্ষতির জন্য আইনি দায়বদ্ধতাকে 'Haftung' বলা হয়।",
+                "hi": "क्षति के लिए कानूनी जिम्मेदारी को 'Haftung' कहा जाता है।",
+                "ur": "نقصان کی قانونی ذمہ داری کو 'Haftung' کہا جاتا ہے۔",
+                "tr": "Hasardan yasal sorumluluğa 'Haftung' denir."
+            },
+            "points": 10,
+            "id": "e55_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die Verpflichtung, Patientengeheimnisse zu wahren, ist die __________.",
+                "en": "The obligation to maintain patient secrets is the __________.",
+                "bn": "রোগীর গোপনীয়তা বজায় রাখার বাধ্যবাধকতা হল __________।",
+                "hi": "मरीज के रहस्यों को बनाए रखने का दायित्व __________ है।",
+                "ur": "مریض کے رازوں کو برقرار رکھنے کی ذمہ داری __________ ہے۔",
+                "tr": "Hasta sırlarını koruma yükümlülüğü __________."
+            },
+            "options": [],
+            "correctAnswer": "Schweigepflicht",
+            "explanation": {
+                "en": "The obligation to maintain patient secrets is the 'Schweigepflicht'.",
+                "bn": "রোগীর গোপনীয়তা বজায় রাখার বাধ্যবাধকতা হল 'Schweigepflicht'।",
+                "hi": "मरीज के रहस्यों को बनाए रखने का दायित्व 'Schweigepflicht' है।",
+                "ur": "مریض کے رازوں کو برقرار رکھنے کی ذمہ داری 'Schweigepflicht' ہے۔",
+                "tr": "Hasta sırlarını koruma yükümlülüğü 'Schweigepflicht'."
+            },
+            "points": 10,
+            "id": "e55_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die Verpflichtung, Patienten über Risiken und Alternativen aufzuklären, ist die __________.",
+                "en": "The obligation to inform patients about risks and alternatives is the __________.",
+                "bn": "ঝুঁকি এবং বিকল্প সম্পর্কে রোগীদের জানানোর বাধ্যবাধকতা হল __________।",
+                "hi": "जोखिमों और विकल्पों के बारे में रोगियों को सूचित करने का दायित्व __________ है।",
+                "ur": "خطرات اور متبادل کے بارے میں مریضوں کو آگاہ کرنے کی ذمہ داری __________ ہے۔",
+                "tr": "Hastaları riskler ve alternatifler hakkında bilgilendirme yükümlülüğü __________."
+            },
+            "options": [],
+            "correctAnswer": "Aufklärungspflicht",
+            "explanation": {
+                "en": "The obligation to inform patients about risks and alternatives is the 'Aufklärungspflicht'.",
+                "bn": "ঝুঁকি এবং বিকল্প সম্পর্কে রোগীদের জানানোর বাধ্যবাধকতা হল 'Aufklärungspflicht'।",
+                "hi": "जोखिमों और विकल्पों के बारे में रोगियों को सूचित करने का दायित्व 'Aufklärungspflicht' है।",
+                "ur": "خطرات اور متبادل کے بارے میں مریضوں کو آگاہ کرنے کی ذمہ داری 'Aufklärungspflicht' ہے۔",
+                "tr": "Hastaları riskler ve alternatifler hakkında bilgilendirme yükümlülüğü 'Aufklärungspflicht'."
+            },
+            "points": 10,
+            "id": "e55_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Der Arzt hat seine Aufklärungspflicht verletzt.",
+                "en": "The doctor violated his duty of informed consent.",
+                "bn": "ডাক্তার তার অবহিত সম্মতির বাধ্যবাধকতা লঙ্ঘন করেছেন।",
+                "hi": "डॉक्टर ने सूचित सहमति के अपने कर्तव्य का उल्लंघन किया।",
+                "ur": "ڈاکٹر نے باخبر رضامندی کے اپنے فرض کی خلاف ورزی کی۔",
+                "tr": "Doktor bilgilendirme yükümlülüğünü ihlal etti."
+            },
+            "options": [],
+            "correctAnswer": "The doctor violated his duty of informed consent.",
+            "explanation": {
+                "en": "The sentence translates directly to 'The doctor violated his duty of informed consent'.",
+                "bn": "বাক্যটি সরাসরি অনুবাদ করলে হয় 'ডাক্তার তার অবহিত সম্মতির বাধ্যবাধকতা লঙ্ঘন করেছেন' ।",
+                "hi": "वाक्य का सीधा अनुवाद है 'डॉक्टर ने सूचित सहमति के अपने कर्तव्य का उल्लंघन किया'।",
+                "ur": "جملے کا براہ راست ترجمہ ہے 'ڈاکٹر نے باخبر رضامندی کے اپنے فرض کی خلاف ورزی کی'۔",
+                "tr": "Cümle doğrudan 'Doktor bilgilendirme yükümlülüğünü ihlal etti' şeklinde çevrilir."
+            },
+            "points": 10,
+            "id": "e55_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Schweigepflicht gilt auch nach dem Tod des Patienten.",
+                "en": "The duty of confidentiality also applies after the patient's death.",
+                "bn": "রোগীর মৃত্যুর পরেও গোপনীয়তার দায়িত্ব প্রযোজ্য।",
+                "hi": "गोपनीयता का कर्तव्य मरीज की मृत्यु के बाद भी लागू होता है।",
+                "ur": "رازداری کا فرض مریض کی موت کے بعد بھی لاگو ہوتا ہے۔",
+                "tr": "Gizlilik yükümlülüğü hasta öldükten sonra da geçerlidir."
+            },
+            "options": [],
+            "correctAnswer": "The duty of confidentiality also applies after the patient's death.",
+            "explanation": {
+                "en": "The sentence translates directly to 'The duty of confidentiality also applies after the patient's death'.",
+                "bn": "বাক্যটি সরাসরি অনুবাদ করলে হয় 'রোগীর মৃত্যুর পরেও গোপনীয়তার দায়িত্ব প্রযোজ্য'।",
+                "hi": "वाक्य का सीधा अनुवाद है 'गोपनीयता का कर्तव्य मरीज की मृत्यु के बाद भी लागू होता है'।",
+                "ur": "جملے کا براہ راست ترجمہ ہے 'رازداری کا فرض مریض کی موت کے بعد بھی لاگو ہوتا ہے'۔",
+                "tr": "Cümle doğrudan 'Gizlilik yükümlülüğü hasta öldükten sonra da geçerlidir' şeklinde çevrilir."
+            },
+            "points": 10,
+            "id": "e55_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Ein Behandlungsfehler kann zu Schadensersatzansprüchen führen.",
+                "en": "A medical error can lead to claims for damages.",
+                "bn": "একটি চিকিৎসা ত্রুটি ক্ষতির জন্য দাবির দিকে পরিচালিত করতে পারে।",
+                "hi": "एक चिकित्सा त्रुटि क्षति के दावों को जन्म दे सकती है।",
+                "ur": "ایک طبی غلطی نقصانات کے دعووں کا باعث بن سکتی ہے۔",
+                "tr": "Tıbbi bir hata tazminat taleplerine yol açabilir."
+            },
+            "options": [],
+            "correctAnswer": "A medical error can lead to claims for damages.",
+            "explanation": {
+                "en": "The sentence translates directly to 'A medical error can lead to claims for damages'.",
+                "bn": "বাক্যটি সরাসরি অনুবাদ করলে হয় 'একটি চিকিৎসা ত্রুটি ক্ষতির জন্য দাবির দিকে পরিচালিত করতে পারে'।",
+                "hi": "वाक्य का सीधा अनुवाद है 'एक चिकित्सा त्रुटि क्षति के दावों को जन्म दे सकती है'।",
+                "ur": "جملے کا براہ راست ترجمہ ہے 'ایک طبی غلطی نقصانات کے دعووں کا باعث بن سکتی ہے'۔",
+                "tr": "Cümle doğrudan 'Tıbbi bir hata tazminat taleplerine yol açabilir' şeklinde çevrilir."
+            },
+            "points": 10,
+            "id": "e55_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

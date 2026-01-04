@@ -1,14 +1,1662 @@
-{"id":"section_20","phaseId":"phase2","order":20,"titleDe":"Radiologie-Vokabular","title":{"en":"Radiology Vocabulary","bn":"রেডিওলজি শব্দভাণ্ডার","hi":"रेडियोलॉजी शब्दावली","ur":"ریڈیولوجی الفاظ","tr":"Radyoloji Sözlüğü"},"level":"B1","estimatedMinutes":35,"vocabulary":[
-{"id":"v20_01","germanTerm":"Röntgen","article":"das","plural":"-","translation":{"en":"X-ray","bn":"এক্স-রে","hi":"एक्स-रे","ur":"ایکسرے","tr":"Röntgen"}},
-{"id":"v20_02","germanTerm":"Computertomographie","article":"die","plural":"Computertomographien","translation":{"en":"CT Scan","bn":"সিটি স্ক্যান","hi":"सीटी स्कैन","ur":"سی ٹی اسکین","tr":"BT Taraması"}},
-{"id":"v20_03","germanTerm":"Magnetresonanztomographie","article":"die","plural":"-","translation":{"en":"MRI","bn":"এমআরআই","hi":"एमआरआई","ur":"ایم آر آئی","tr":"MR"}},
-{"id":"v20_04","germanTerm":"Ultraschall","article":"der","plural":"Ultraschälle","translation":{"en":"Ultrasound","bn":"আল্ট্রাসাউন্ড","hi":"अल्ट्रासाउंड","ur":"الٹراساؤنڈ","tr":"Ultrason"}},
-{"id":"v20_05","germanTerm":"Befund","article":"der","plural":"Befunde","translation":{"en":"Finding/Report","bn":"রিপোর্ট","hi":"रिपोर्ट","ur":"رپورٹ","tr":"Bulgu"}},
-{"id":"v20_06","germanTerm":"Kontrastmittel","article":"das","plural":"Kontrastmittel","translation":{"en":"Contrast Agent","bn":"কনট্রাস্ট","hi":"कंट्रास्ट","ur":"کنٹراسٹ","tr":"Kontrast madde"}},
-{"id":"v20_07","germanTerm":"Aufnahme","article":"die","plural":"Aufnahmen","translation":{"en":"Image/Shot","bn":"ছবি","hi":"छवि","ur":"تصویر","tr":"Görüntü"}},
-{"id":"v20_08","germanTerm":"Fraktur","article":"die","plural":"Frakturen","translation":{"en":"Fracture","bn":"ফ্র্যাকচার","hi":"फ्रैक्चर","ur":"فریکچر","tr":"Kırık"}}
-],"dialogues":[{"id":"d20_01","title":{"en":"Ordering Imaging"},"lines":[
-{"speaker":"Arzt","germanText":"Wir brauchen ein CT vom Abdomen.","translation":{"en":"We need a CT of the abdomen."}},
-{"speaker":"Radiologe","germanText":"Mit oder ohne Kontrastmittel?","translation":{"en":"With or without contrast?"}},
-{"speaker":"Arzt","germanText":"Mit Kontrastmittel, bitte.","translation":{"en":"With contrast, please."}}
-]}],"exercises":[{"id":"e20_01","type":"multipleChoice","question":{"en":"What is 'Ultraschall'?"},"options":["Ultrasound","X-ray","MRI"],"correctAnswer":"Ultrasound","points":10}]}
+{
+    "id": "section_20",
+    "phaseId": "phase2",
+    "order": 20,
+    "titleDe": "Radiologie-Vokabular",
+    "title": {
+        "en": "Radiology: Imaging Techniques and Findings",
+        "de": "Radiologie: Bildgebende Verfahren und Befunde",
+        "bn": "রেডিওলজি: ইমেজিং কৌশল এবং ফলাফল",
+        "hi": "रेडियोलॉजी: इमेजिंग तकनीकें और निष्कर्ष",
+        "ur": "ریڈیالوجی: امیجنگ تکنیک اور نتائج",
+        "tr": "Radyoloji: Görüntüleme Teknikleri ve Bulgular"
+    },
+    "description": {
+        "en": "This section covers key imaging techniques used in radiology, including X-rays, CT scans, MRI, ultrasound, contrast agents, report writing, and image interpretation.",
+        "de": "Dieser Abschnitt behandelt wichtige bildgebende Verfahren in der Radiologie, einschließlich Röntgen, CT, MRT, Ultraschall, Kontrastmittel, Befunderstellung und Bildinterpretation.",
+        "bn": "এই বিভাগে রেডিওলজিতে ব্যবহৃত মূল ইমেজিং কৌশল, যেমন এক্স-রে, সিটি স্ক্যান, এমআরআই, আল্ট্রাসাউন্ড, কন্ট্রাস্ট এজেন্ট, রিপোর্ট লেখা এবং চিত্র ব্যাখ্যা অন্তর্ভুক্ত রয়েছে।",
+        "hi": "इस खंड में रेडियोलॉजी में उपयोग की जाने वाली प्रमुख इमेजिंग तकनीकें शामिल हैं, जिनमें एक्स-रे, सीटी स्कैन, एमआरआई, अल्ट्रासाउंड, कंट्रास्ट एजेंट, रिपोर्ट लेखन और छवि व्याख्या शामिल हैं।",
+        "ur": "اس حصے میں ریڈیالوجی میں استعمال ہونے والی اہم امیجنگ تکنیکیں شامل ہیں، جن میں ایکس رے، سی ٹی اسکین، ایم آر آئی، الٹراساؤنڈ، کنٹراسٹ ایجنٹ، رپورٹ لکھنا اور تصویری تشریح شامل ہیں۔",
+        "tr": "Bu bölüm, radyolojide kullanılan temel görüntüleme tekniklerini kapsar: Röntgen, BT taramaları, MRG, ultrason, kontrast maddeler, rapor yazma ve görüntü yorumlama."
+    },
+    "level": "B1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this module, we will explore various radiological imaging modalities and their applications in clinical diagnostics. You will learn how to understand and communicate about these techniques effectively in German within a medical context.",
+            "de": "In diesem Modul werden wir verschiedene radiologische Bildgebungsverfahren und ihre Anwendungen in der klinischen Diagnostik untersuchen. Sie werden lernen, wie man diese Techniken im medizinischen Kontext auf Deutsch versteht und effektiv darüber kommuniziert.",
+            "bn": "এই মডিউলে, আমরা বিভিন্ন রেডিওলজিক্যাল ইমেজিং পদ্ধতি এবং ক্লিনিকাল ডায়াগনস্টিক্সে তাদের প্রয়োগগুলি অন্বেষণ করব। আপনি শিখবেন কিভাবে একটি চিকিৎসা প্রেক্ষাপটে জার্মান ভাষায় এই কৌশলগুলি কার্যকরভাবে বুঝতে এবং যোগাযোগ করতে হয়।",
+            "hi": "इस मॉड्यूल में, हम विभिन्न रेडियोलॉजिकल इमेजिंग तौर-तरीकों और नैदानिक निदान में उनके अनुप्रयोगों का पता लगाएंगे। आप सीखेंगे कि चिकित्सा संदर्भ में जर्मन में इन तकनीकों को प्रभावी ढंग से कैसे समझा जाए और संवाद किया जाए।",
+            "ur": "اس ماڈیول میں، ہم مختلف ریڈیولاجیکل امیجنگ طریقوں اور طبی تشخیص میں ان کے استعمال کو دریافت کریں گے۔ آپ سیکھیں گے کہ طبی تناظر میں جرمن زبان میں ان تکنیکوں کو مؤثر طریقے سے کیسے سمجھنا اور ان کے بارے میں بات چیت کرنا ہے۔",
+            "tr": "Bu modülde, çeşitli radyolojik görüntüleme yöntemlerini ve bunların klinik teşhiste uygulamalarını inceleyeceğiz. Tıbbi bir bağlamda bu teknikleri Almanca olarak nasıl etkili bir şekilde anlayacağınızı ve iletişim kuracağınızı öğreneceksiniz."
+        },
+        "grammarFocus": {
+            "en": {
+                "bullet1": "Use of compound nouns (e.g., 'Röntgenaufnahme' for X-ray image)",
+                "bullet2": "Accusative and dative case when describing the location or direction of the imaging (e.g., 'im CT' vs. 'ins CT')"
+            },
+            "de": {
+                "bullet1": "Verwendung von zusammengesetzten Nomen (z.B. 'Röntgenaufnahme' für Röntgenbild)",
+                "bullet2": "Akkusativ und Dativ bei der Beschreibung des Ortes oder der Richtung der Bildgebung (z.B. 'im CT' vs. 'ins CT')"
+            },
+            "bn": {
+                "bullet1": "যৌগিক বিশেষ্য ব্যবহার (যেমন, এক্স-রে চিত্রের জন্য 'Röntgenaufnahme')",
+                "bullet2": "ইমেজিংয়ের অবস্থান বা দিক বর্ণনার সময় অভিযুক্ত এবং কর্ম কারক ব্যবহার (যেমন, 'CT-তে' বনাম 'সিটি-এর মধ্যে')"
+            },
+            "hi": {
+                "bullet1": "यौगिक संज्ञाओं का उपयोग (जैसे, एक्स-रे छवि के लिए 'Röntgenaufnahme')",
+                "bullet2": "इमेजिंग के स्थान या दिशा का वर्णन करते समय कर्म और संप्रदान कारक (जैसे, 'सीटी में' बनाम 'सीटी में')"
+            },
+            "ur": {
+                "bullet1": "مرکب اسموں کا استعمال (مثال کے طور پر، ایکس رے امیج کے لیے 'Röntgenaufnahme')",
+                "bullet2": "امیجنگ کے مقام یا سمت کو بیان کرتے وقت معطوف اور مفعولی حالت (مثال کے طور پر، 'CT میں' بمقابلہ 'CT میں')"
+            },
+            "tr": {
+                "bullet1": "Bileşik isimlerin kullanımı (örneğin, Röntgen görüntüsü için 'Röntgenaufnahme')",
+                "bullet2": "Görüntülemenin konumunu veya yönünü açıklarken belirtme ve yönelme halleri (örneğin, 'im CT' vs. 'ins CT')"
+            }
+        },
+        "culturalNotes": {
+            "en": "In German hospitals, the radiologist plays a crucial role in diagnosis, often consulting directly with other specialists to interpret imaging results and guide patient care.",
+            "de": "In deutschen Krankenhäusern spielt der Radiologe eine entscheidende Rolle bei der Diagnose, oft in direkter Absprache mit anderen Fachärzten, um Bildgebungsergebnisse zu interpretieren und die Patientenversorgung zu steuern.",
+            "bn": "জার্মান হাসপাতালগুলিতে, রেডিওলজিস্ট রোগ নির্ণয়ে একটি গুরুত্বপূর্ণ ভূমিকা পালন করে, প্রায়শই ইমেজিং ফলাফলগুলি ব্যাখ্যা করতে এবং রোগীর যত্ন নেওয়ার জন্য অন্যান্য বিশেষজ্ঞদের সাথে সরাসরি পরামর্শ করে।",
+            "hi": "जर्मन अस्पतालों में, रेडियोलॉजिस्ट निदान में एक महत्वपूर्ण भूमिका निभाता है, अक्सर इमेजिंग परिणामों की व्याख्या करने और रोगी की देखभाल का मार्गदर्शन करने के लिए अन्य विशेषज्ञों के साथ सीधे परामर्श करता है।",
+            "ur": "جرمن اسپتالوں میں، ریڈیولوجسٹ تشخیص میں ایک اہم کردار ادا کرتا ہے، اکثر امیجنگ کے نتائج کی تشریح کرنے اور مریض کی دیکھ بھال کی رہنمائی کے لیے دوسرے ماہرین سے براہ راست مشورہ کرتا ہے۔",
+            "tr": "Alman hastanelerinde, radyolog tanıda çok önemli bir rol oynar, genellikle görüntüleme sonuçlarını yorumlamak ve hasta bakımına rehberlik etmek için diğer uzmanlarla doğrudan konsültasyon yapar."
+        },
+        "summary": {
+            "en": "This section provides a foundational understanding of radiological imaging techniques and related German medical terminology.",
+            "de": "Dieser Abschnitt vermittelt ein grundlegendes Verständnis der radiologischen Bildgebungstechniken und der zugehörigen deutschen medizinischen Terminologie.",
+            "bn": "এই বিভাগটি রেডিওলজিক্যাল ইমেজিং কৌশল এবং সম্পর্কিত জার্মান চিকিৎসা পরিভাষা সম্পর্কে একটি প্রাথমিক ধারণা প্রদান করে।",
+            "hi": "यह खंड रेडियोलॉजिकल इमेजिंग तकनीकों और संबंधित जर्मन चिकित्सा शब्दावली की बुनियादी समझ प्रदान करता है।",
+            "ur": "یہ سیکشن ریڈیولاجیکل امیجنگ تکنیک اور متعلقہ جرمن طبی اصطلاحات کی بنیادی سمجھ فراہم کرتا ہے۔",
+            "tr": "Bu bölüm, radyolojik görüntüleme teknikleri ve ilgili Almanca tıbbi terminolojisi hakkında temel bir anlayış sağlar."
+        },
+        "learningObjectives": [
+            "Identify and describe common radiological imaging techniques.",
+            "Understand and use German medical terminology related to radiology.",
+            "Interpret basic radiological findings in German.",
+            "Communicate effectively with German-speaking medical professionals about imaging results."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "die Röntgenaufnahme",
+            "article": "die",
+            "plural": "die Röntgenaufnahmen",
+            "pronunciation": "/ˈʁœntɡənˌʔaʊ̯fnaːmə/",
+            "category": "noun",
+            "translation": {
+                "en": "X-ray",
+                "bn": "এক্স-রে",
+                "hi": "एक्स-रे",
+                "ur": "ایکس رے",
+                "tr": "Röntgen filmi"
+            },
+            "exampleSentence": "Die Röntgenaufnahme des Thorax zeigt eine leichte Infiltration.",
+            "exampleTranslation": {
+                "en": "The chest X-ray shows a slight infiltration.",
+                "bn": "বুকের এক্স-রে-তে সামান্য অনুপ্রবেশ দেখা যাচ্ছে।",
+                "hi": "छाती का एक्स-रे हल्का घुसपैठ दिखाता है।",
+                "ur": "سینے کی ایکس رے میں ہلکی دراندازی دکھائی دیتی ہے۔",
+                "tr": "Göğüs röntgeni hafif bir infiltrasyon gösteriyor."
+            },
+            "id": "v20_01"
+        },
+        {
+            "germanTerm": "die Computertomographie (CT)",
+            "article": "die",
+            "plural": "die Computertomographien (CTs)",
+            "pronunciation": "/kɔmˈpuːtɐtoˌmoːɡʁaˈfiː/",
+            "category": "noun",
+            "translation": {
+                "en": "Computed Tomography (CT)",
+                "bn": "কম্পিউটেড টমোগ্রাফি (সিটি)",
+                "hi": "कंप्यूटेड टोमोग्राफी (सीटी)",
+                "ur": "کمپیوٹر ٹوموگرافی (سی ٹی)",
+                "tr": "Bilgisayarlı Tomografi (BT)"
+            },
+            "exampleSentence": "Wir benötigen eine CT des Abdomens zur weiteren Abklärung.",
+            "exampleTranslation": {
+                "en": "We need a CT scan of the abdomen for further clarification.",
+                "bn": "আরও স্পষ্টকরণের জন্য আমাদের পেটের একটি সিটি স্ক্যান দরকার।",
+                "hi": "आगे स्पष्टीकरण के लिए हमें पेट के सीटी स्कैन की आवश्यकता है।",
+                "ur": "مزید وضاحت کے لیے ہمیں پیٹ کے سی ٹی اسکین کی ضرورت ہے۔",
+                "tr": "Daha fazla açıklama için karın bölgesinin BT taramasına ihtiyacımız var."
+            },
+            "id": "v20_02"
+        },
+        {
+            "germanTerm": "die Magnetresonanztomographie (MRT)",
+            "article": "die",
+            "plural": "die Magnetresonanztomographien (MRTs)",
+            "pronunciation": "/maɡˈneːtʁezɔˌnantstoːmoɡʁaˈfiː/",
+            "category": "noun",
+            "translation": {
+                "en": "Magnetic Resonance Imaging (MRI)",
+                "bn": "ম্যাগনেটিক রেজোন্যান্স ইমেজিং (এমআরআই)",
+                "hi": "चुंबकीय अनुनाद इमेजिंग (एमआरआई)",
+                "ur": "مقناطیسی گونج امیجنگ (ایم آر آئی)",
+                "tr": "Manyetik Rezonans Görüntüleme (MRG)"
+            },
+            "exampleSentence": "Die MRT des Knies zeigte einen Meniskusriss.",
+            "exampleTranslation": {
+                "en": "The MRI of the knee showed a meniscus tear.",
+                "bn": "হাঁটুর এমআরআইতে মেনিসকাসের অশ্রু দেখা গেছে।",
+                "hi": "घुटने के एमआरआई में मेनिस्कस का आंसू दिखाई दिया।",
+                "ur": "گھٹنے کے ایم آر آئی میں مینسکس کا آنسو دیکھا گیا۔",
+                "tr": "Dizin MRG'si menisküs yırtığı gösterdi."
+            },
+            "id": "v20_03"
+        },
+        {
+            "germanTerm": "der Ultraschall",
+            "article": "der",
+            "plural": "die Ultraschalle",
+            "pronunciation": "/ˈʊltʁaˌʃal/",
+            "category": "noun",
+            "translation": {
+                "en": "Ultrasound",
+                "bn": "আলট্রাসাউন্ড",
+                "hi": "अल्ट्रासाउंड",
+                "ur": "الٹراساؤنڈ",
+                "tr": "Ultrason"
+            },
+            "exampleSentence": "Der Ultraschall bestätigte die Schwangerschaft.",
+            "exampleTranslation": {
+                "en": "The ultrasound confirmed the pregnancy.",
+                "bn": "আলট্রাসাউন্ড গর্ভাবস্থা নিশ্চিত করেছে।",
+                "hi": "अल्ट्रासाउंड ने गर्भावस्था की पुष्टि की।",
+                "ur": "الٹراساؤنڈ نے حمل کی تصدیق کردی۔",
+                "tr": "Ultrason hamileliği doğruladı."
+            },
+            "id": "v20_04"
+        },
+        {
+            "germanTerm": "das Kontrastmittel",
+            "article": "das",
+            "plural": "die Kontrastmittel",
+            "pronunciation": "/kɔnˈtʁastˌmɪtl̩/",
+            "category": "noun",
+            "translation": {
+                "en": "Contrast medium",
+                "bn": "কন্ট্রাস্ট মাধ্যম",
+                "hi": "कंट्रास्ट माध्यम",
+                "ur": "کنٹراسٹ میڈیم",
+                "tr": "Kontrast madde"
+            },
+            "exampleSentence": "Wir müssen dem Patienten Kontrastmittel verabreichen.",
+            "exampleTranslation": {
+                "en": "We need to administer contrast medium to the patient.",
+                "bn": "আমাদের রোগীকে কন্ট্রাস্ট মাধ্যম দিতে হবে।",
+                "hi": "हमें रोगी को कंट्रास्ट माध्यम देना होगा।",
+                "ur": "ہمیں مریض کو کنٹراسٹ میڈیم دینا ہوگا۔",
+                "tr": "Hastaya kontrast madde uygulamamız gerekiyor."
+            },
+            "id": "v20_05"
+        },
+        {
+            "germanTerm": "der Befund",
+            "article": "der",
+            "plural": "die Befunde",
+            "pronunciation": "/bəˈfʊnt/",
+            "category": "noun",
+            "translation": {
+                "en": "Finding, Report",
+                "bn": "আবিষ্কার, রিপোর্ট",
+                "hi": "निष्कर्ष, रिपोर्ट",
+                "ur": "تلاش، رپورٹ",
+                "tr": "Bulgu, Rapor"
+            },
+            "exampleSentence": "Der radiologische Befund ist unauffällig.",
+            "exampleTranslation": {
+                "en": "The radiological finding is unremarkable.",
+                "bn": "রেডিওলজিক্যাল আবিষ্কারটি অসাধারণ।",
+                "hi": "रेडियोलॉजिकल निष्कर्ष उल्लेखनीय है।",
+                "ur": "ریڈیولاجیکل تلاش قابل ذکر ہے۔",
+                "tr": "Radyolojik bulgu dikkat çekici değil."
+            },
+            "id": "v20_06"
+        },
+        {
+            "germanTerm": "die Aufnahme",
+            "article": "die",
+            "plural": "die Aufnahmen",
+            "pronunciation": "/ˈaʊ̯fˌnaːmə/",
+            "category": "noun",
+            "translation": {
+                "en": "Image, Recording",
+                "bn": "ছবি, রেকর্ডিং",
+                "hi": "छवि, रिकॉर्डिंग",
+                "ur": "تصویر، ریکارڈنگ",
+                "tr": "Görüntü, Kayıt"
+            },
+            "exampleSentence": "Bitte fertigen Sie eine neue Aufnahme an.",
+            "exampleTranslation": {
+                "en": "Please take a new image.",
+                "bn": "অনুগ্রহ করে একটি নতুন ছবি তুলুন।",
+                "hi": "कृपया एक नई छवि लें।",
+                "ur": "براہ کرم ایک نئی تصویر لیں۔",
+                "tr": "Lütfen yeni bir görüntü alın."
+            },
+            "id": "v20_07"
+        },
+        {
+            "germanTerm": "röntgen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈʁœntɡən/",
+            "category": "verb",
+            "translation": {
+                "en": "to X-ray",
+                "bn": "এক্স-রে করা",
+                "hi": "एक्स-रे करना",
+                "ur": "ایکس رے کرنا",
+                "tr": "Röntgen çekmek"
+            },
+            "exampleSentence": "Wir müssen den Patienten röntgen, um die Diagnose zu sichern.",
+            "exampleTranslation": {
+                "en": "We need to X-ray the patient to confirm the diagnosis.",
+                "bn": "রোগ নির্ণয় নিশ্চিত করতে আমাদের রোগীকে এক্স-রে করতে হবে।",
+                "hi": "निदान की पुष्टि करने के लिए हमें रोगी का एक्स-रे करना होगा।",
+                "ur": "تشخیص کی تصدیق کے لیے ہمیں مریض کا ایکسرے کرنا ہوگا۔",
+                "tr": "Teşhisi doğrulamak için hastanın röntgenini çekmemiz gerekiyor."
+            },
+            "id": "v20_08"
+        },
+        {
+            "germanTerm": "die Strahlenbelastung",
+            "article": "die",
+            "plural": "die Strahlenbelastungen",
+            "pronunciation": "/ˈʃtʁaːlənbəˌlastʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "Radiation exposure",
+                "bn": "বিকিরণ এক্সপোজার",
+                "hi": "विकिरण जोखिम",
+                "ur": "تابکاری کی نمائش",
+                "tr": "Radyasyon maruziyeti"
+            },
+            "exampleSentence": "Die Strahlenbelastung sollte so gering wie möglich gehalten werden.",
+            "exampleTranslation": {
+                "en": "The radiation exposure should be kept as low as possible.",
+                "bn": "বিকিরণ এক্সপোজার যতটা সম্ভব কম রাখা উচিত।",
+                "hi": "विकिरण जोखिम जितना संभव हो उतना कम रखा जाना चाहिए।",
+                "ur": "تابکاری کی نمائش کو جتنا ممکن ہو کم رکھنا چاہیے۔",
+                "tr": "Radyasyon maruziyeti mümkün olduğunca düşük tutulmalıdır."
+            },
+            "id": "v20_09"
+        },
+        {
+            "germanTerm": "die Projektion",
+            "article": "die",
+            "plural": "die Projektionen",
+            "pronunciation": "/pʁoˈjɛktsi̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "Projection",
+                "bn": "প্রজেকশন",
+                "hi": "प्रोजेक्शन",
+                "ur": "پروجیکشن",
+                "tr": "Projeksiyon"
+            },
+            "exampleSentence": "Die Aufnahme wurde in anterior-posteriorer Projektion angefertigt.",
+            "exampleTranslation": {
+                "en": "The image was taken in an anterior-posterior projection.",
+                "bn": "ছবিটি সামনের-পশ্চাৎ প্রজেকশনে তোলা হয়েছিল।",
+                "hi": "छवि को पूर्वकाल-पश्च प्रक्षेपण में लिया गया था।",
+                "ur": "تصویر کو انٹیریئر-پوسٹریئر پروجیکشن میں لیا گیا تھا۔",
+                "tr": "Görüntü ön-arka projeksiyonda çekildi."
+            },
+            "id": "v20_10"
+        },
+        {
+            "germanTerm": "die Dosis",
+            "article": "die",
+            "plural": "die Dosen",
+            "pronunciation": "/ˈdoːzɪs/",
+            "category": "noun",
+            "translation": {
+                "en": "Dose",
+                "bn": "ডোজ",
+                "hi": "खुराक",
+                "ur": "خوراک",
+                "tr": "Doz"
+            },
+            "exampleSentence": "Die Dosis des Kontrastmittels muss angepasst werden.",
+            "exampleTranslation": {
+                "en": "The dose of the contrast medium needs to be adjusted.",
+                "bn": "কন্ট্রাস্ট মাধ্যমের ডোজ সামঞ্জস্য করতে হবে।",
+                "hi": "कंट्रास्ट माध्यम की खुराक को समायोजित करने की आवश्यकता है।",
+                "ur": "کنٹراسٹ میڈیم کی خوراک کو ایڈجسٹ کرنے کی ضرورت ہے۔",
+                "tr": "Kontrast maddenin dozu ayarlanmalıdır."
+            },
+            "id": "v20_11"
+        },
+        {
+            "germanTerm": "die Indikation",
+            "article": "die",
+            "plural": "die Indikationen",
+            "pronunciation": "/ɪndikaˈtsi̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "Indication",
+                "bn": "ইঙ্গিত",
+                "hi": "संकेत",
+                "ur": "اشارہ",
+                "tr": "Endikasyon"
+            },
+            "exampleSentence": "Es besteht eine klare Indikation für eine CT-Untersuchung.",
+            "exampleTranslation": {
+                "en": "There is a clear indication for a CT scan.",
+                "bn": "সিটি স্ক্যানের জন্য একটি স্পষ্ট ইঙ্গিত রয়েছে।",
+                "hi": "सीटी स्कैन के लिए एक स्पष्ट संकेत है।",
+                "ur": "سی ٹی اسکین کے لیے ایک واضح اشارہ موجود ہے۔",
+                "tr": "BT taraması için açık bir endikasyon var."
+            },
+            "id": "v20_12"
+        },
+        {
+            "germanTerm": "die Kontraindikation",
+            "article": "die",
+            "plural": "die Kontraindikationen",
+            "pronunciation": "/kɔntʁaɪndikaˈtsi̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "Contraindication",
+                "bn": "বৈপরীত্য",
+                "hi": "विपरीत संकेत",
+                "ur": "مخالف علامت",
+                "tr": "Kontrendikasyon"
+            },
+            "exampleSentence": "Es gibt eine Kontraindikation für die Gabe von Kontrastmittel.",
+            "exampleTranslation": {
+                "en": "There is a contraindication for the administration of contrast medium.",
+                "bn": "কন্ট্রাস্ট মাধ্যম দেওয়ার জন্য একটি contraindication আছে।",
+                "hi": "कंट्रास्ट माध्यम के प्रशासन के लिए एक contraindication है।",
+                "ur": "کنٹراسٹ میڈیم کے انتظام کے لیے ایک contraindication ہے۔",
+                "tr": "Kontrast madde uygulaması için bir kontrendikasyon vardır."
+            },
+            "id": "v20_13"
+        },
+        {
+            "germanTerm": "die Schicht",
+            "article": "die",
+            "plural": "die Schichten",
+            "pronunciation": "/ʃɪçt/",
+            "category": "noun",
+            "translation": {
+                "en": "Slice, Layer",
+                "bn": "স্লাইস, স্তর",
+                "hi": "स्लाइस, परत",
+                "ur": "سلائس، پرت",
+                "tr": "Dilim, Katman"
+            },
+            "exampleSentence": "Wir betrachten die Schichten der CT-Aufnahme genau.",
+            "exampleTranslation": {
+                "en": "We are carefully examining the slices of the CT scan.",
+                "bn": "আমরা সিটি স্ক্যানের স্লাইসগুলি সাবধানে পরীক্ষা করছি।",
+                "hi": "हम सीटी स्कैन के स्लाइस की सावधानीपूर्वक जांच कर रहे हैं।",
+                "ur": "ہم سی ٹی اسکین کے سلائسس کا احتیاط سے جائزہ لے رہے ہیں۔",
+                "tr": "BT taramasının dilimlerini dikkatlice inceliyoruz."
+            },
+            "id": "v20_14"
+        },
+        {
+            "germanTerm": "die Beurteilung",
+            "article": "die",
+            "plural": "die Beurteilungen",
+            "pronunciation": "/bəˈʔʊʁtaɪ̯lʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "Assessment",
+                "bn": "মূল্যায়ন",
+                "hi": "मूल्यांकन",
+                "ur": "تشخیص",
+                "tr": "Değerlendirme"
+            },
+            "exampleSentence": "Die Beurteilung der Röntgenbilder erfolgt durch den Radiologen.",
+            "exampleTranslation": {
+                "en": "The assessment of the X-rays is done by the radiologist.",
+                "bn": "এক্স-রে মূল্যায়ন রেডিওলজিস্ট দ্বারা করা হয়।",
+                "hi": "एक्स-रे का मूल्यांकन रेडियोलॉजिस्ट द्वारा किया जाता है।",
+                "ur": "ایکس رے کی تشخیص ریڈیولوجسٹ کے ذریعہ کی جاتی ہے۔",
+                "tr": "Röntgenlerin değerlendirilmesi radyolog tarafından yapılır."
+            },
+            "id": "v20_15"
+        },
+        {
+            "germanTerm": "auffällig",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈaʊ̯fˌfɛlɪç/",
+            "category": "adjective",
+            "translation": {
+                "en": "Unremarkable, noticeable",
+                "bn": "লক্ষ্যণীয়",
+                "hi": "ध्यान देने योग्य",
+                "ur": "قابل توجہ",
+                "tr": "Belirgin, dikkat çekici"
+            },
+            "exampleSentence": "Der Befund ist unauffällig, es gibt keine Auffälligkeiten.",
+            "exampleTranslation": {
+                "en": "The finding is unremarkable, there are no abnormalities.",
+                "bn": "আবিষ্কারটি অসাধারণ, কোনও অস্বাভাবিকতা নেই।",
+                "hi": "निष्कर्ष उल्लेखनीय है, कोई असामान्यता नहीं है।",
+                "ur": "تلاش قابل ذکر ہے، کوئی غیر معمولی چیز نہیں ہے۔",
+                "tr": "Bulgu dikkat çekici değil, herhangi bir anormallik yok."
+            },
+            "id": "v20_16"
+        },
+        {
+            "germanTerm": "die Diagnose",
+            "article": "die",
+            "plural": "die Diagnosen",
+            "pronunciation": "/di̯aˈɡnoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "Diagnosis",
+                "bn": "রোগ নির্ণয়",
+                "hi": "निदान",
+                "ur": "تشخیص",
+                "tr": "Teşhis"
+            },
+            "exampleSentence": "Die radiologische Untersuchung hilft bei der Diagnosestellung.",
+            "exampleTranslation": {
+                "en": "The radiological examination helps in making the diagnosis.",
+                "bn": "রেডিওলজিক্যাল পরীক্ষা রোগ নির্ণয় করতে সাহায্য করে।",
+                "hi": "रेडियोलॉजिकल परीक्षण निदान करने में मदद करता है।",
+                "ur": "ریڈیولاجیکل معائنہ تشخیص کرنے میں مدد کرتا ہے۔",
+                "tr": "Radyolojik muayene teşhis koymaya yardımcı olur."
+            },
+            "id": "v20_17"
+        },
+        {
+            "germanTerm": "die Therapie",
+            "article": "die",
+            "plural": "die Therapien",
+            "pronunciation": "/teˈʁaːpi/",
+            "category": "noun",
+            "translation": {
+                "en": "Therapy",
+                "bn": "থেরাপি",
+                "hi": "चिकित्सा",
+                "ur": "تھراپی",
+                "tr": "Tedavi"
+            },
+            "exampleSentence": "Die Therapie richtet sich nach dem radiologischen Befund.",
+            "exampleTranslation": {
+                "en": "The therapy depends on the radiological finding.",
+                "bn": "থেরাপি রেডিওলজিক্যাল আবিষ্কারের উপর নির্ভর করে।",
+                "hi": "चिकित्सा रेडियोलॉजिकल निष्कर्ष पर निर्भर करती है।",
+                "ur": "تھراپی ریڈیولاجیکل تلاش پر منحصر ہے۔",
+                "tr": "Tedavi radyolojik bulguya bağlıdır."
+            },
+            "id": "v20_18"
+        },
+        {
+            "germanTerm": "die Anatomie",
+            "article": "die",
+            "plural": "die Anatomien",
+            "pronunciation": "/anatoˈmiː/",
+            "category": "noun",
+            "translation": {
+                "en": "Anatomy",
+                "bn": "শারীরস্থান",
+                "hi": "शरीर रचना",
+                "ur": "تشریح",
+                "tr": "Anatomi"
+            },
+            "exampleSentence": "Gute Kenntnisse der Anatomie sind für die Radiologie unerlässlich.",
+            "exampleTranslation": {
+                "en": "Good knowledge of anatomy is essential for radiology.",
+                "bn": "শারীরস্থানের ভাল জ্ঞান রেডিওলজির জন্য অপরিহার্য।",
+                "hi": "शरीर रचना विज्ञान का अच्छा ज्ञान रेडियोलॉजी के लिए आवश्यक है।",
+                "ur": "تشریح کا اچھا علم ریڈیولوجی کے لیے ضروری ہے۔",
+                "tr": "Anatomi bilgisi radyoloji için şarttır."
+            },
+            "id": "v20_19"
+        },
+        {
+            "germanTerm": "die Pathologie",
+            "article": "die",
+            "plural": "die Pathologien",
+            "pronunciation": "/patoˈloːɡi/",
+            "category": "noun",
+            "translation": {
+                "en": "Pathology",
+                "bn": "প্যাথলজি",
+                "hi": "रोग विज्ञान",
+                "ur": "پیتھالوجی",
+                "tr": "Patoloji"
+            },
+            "exampleSentence": "Die Pathologie hilft bei der Abgrenzung von benignen und malignen Befunden.",
+            "exampleTranslation": {
+                "en": "Pathology helps in differentiating between benign and malignant findings.",
+                "bn": "প্যাথলজি সৌম্য এবং ম্যালিগন্যান্ট আবিষ্কারের মধ্যে পার্থক্য করতে সহায়তা করে।",
+                "hi": "पैथोलॉजी सौम्य और घातक निष्कर्षों के बीच अंतर करने में मदद करती है।",
+                "ur": "پیتھالوجی حمیدہ اور مہلک نتائج کے درمیان فرق کرنے میں مدد کرتی ہے۔",
+                "tr": "Patoloji, iyi huylu ve kötü huylu bulguları ayırt etmeye yardımcı olur."
+            },
+            "id": "v20_20"
+        },
+        {
+            "germanTerm": "die Aufnahmequalität",
+            "article": "die",
+            "plural": "die Aufnahmequalitäten",
+            "pronunciation": "/ˈaʊ̯fnaːməˌkvalɪˈtɛːt/",
+            "category": "noun",
+            "translation": {
+                "en": "Image quality",
+                "bn": "ছবির গুণমান",
+                "hi": "छवि गुणवत्ता",
+                "ur": "تصویر کا معیار",
+                "tr": "Görüntü kalitesi"
+            },
+            "exampleSentence": "Die Aufnahmequalität ist entscheidend für die Beurteilung.",
+            "exampleTranslation": {
+                "en": "The image quality is crucial for the assessment.",
+                "bn": "মূল্যায়নের জন্য ছবির গুণমান অত্যন্ত গুরুত্বপূর্ণ।",
+                "hi": "छवि गुणवत्ता मूल्यांकन के लिए महत्वपूर्ण है।",
+                "ur": "تشخیص کے لیے تصویر کا معیار بہت اہم ہے۔",
+                "tr": "Görüntü kalitesi değerlendirme için çok önemlidir."
+            },
+            "id": "v20_21"
+        },
+        {
+            "germanTerm": "die Strahlendosis",
+            "article": "die",
+            "plural": "die Strahlendosen",
+            "pronunciation": "/ˈʃtʁaːlənˌdoːzɪs/",
+            "category": "noun",
+            "translation": {
+                "en": "Radiation dose",
+                "bn": "বিকিরণ ডোজ",
+                "hi": "विकिरण खुराक",
+                "ur": "تابکاری کی خوراک",
+                "tr": "Radyasyon dozu"
+            },
+            "exampleSentence": "Die Strahlendosis wurde so niedrig wie möglich gehalten.",
+            "exampleTranslation": {
+                "en": "The radiation dose was kept as low as possible.",
+                "bn": "বিকিরণ ডোজ যতটা সম্ভব কম রাখা হয়েছিল।",
+                "hi": "विकिरण खुराक को जितना संभव हो उतना कम रखा गया था।",
+                "ur": "تابکاری کی خوراک کو جتنا ممکن ہو کم رکھا گیا تھا۔",
+                "tr": "Radyasyon dozu mümkün olduğunca düşük tutuldu."
+            },
+            "id": "v20_22"
+        },
+        {
+            "germanTerm": "radiologisch",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/radi̯oˈloːɡɪʃ/",
+            "category": "adjective",
+            "translation": {
+                "en": "Radiological",
+                "bn": "রেডিওলজিক্যাল",
+                "hi": "रेडियोलॉजिकल",
+                "ur": "ریڈیولاجیکل",
+                "tr": "Radyolojik"
+            },
+            "exampleSentence": "Die radiologische Untersuchung ergab keine Auffälligkeiten.",
+            "exampleTranslation": {
+                "en": "The radiological examination revealed no abnormalities.",
+                "bn": "রেডিওলজিক্যাল পরীক্ষায় কোনও অস্বাভাবিকতা পাওয়া যায়নি।",
+                "hi": "रेडियोलॉजिकल परीक्षा में कोई असामान्यता नहीं पाई गई।",
+                "ur": "ریڈیولاجیکل معائنے میں کوئی غیر معمولی چیز نہیں پائی گئی۔",
+                "tr": "Radyolojik muayene herhangi bir anormallik ortaya çıkarmadı."
+            },
+            "id": "v20_23"
+        },
+        {
+            "germanTerm": "darstellen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈdaːɐ̯ˌʃtɛlən/",
+            "category": "verb",
+            "translation": {
+                "en": "to represent, to depict",
+                "bn": "প্রতিনিধিত্ব করা, চিত্রিত করা",
+                "hi": "प्रतिनिधित्व करना, चित्रित करना",
+                "ur": "نمائندگی کرنا، تصویر کشی کرنا",
+                "tr": "Temsil etmek, tasvir etmek"
+            },
+            "exampleSentence": "Die Aufnahme stellt eine Fraktur des Femurs dar.",
+            "exampleTranslation": {
+                "en": "The image depicts a fracture of the femur.",
+                "bn": "ছবিটি ফিমারের একটি ফাটল চিত্রিত করে।",
+                "hi": "छवि ऊरु के फ्रैक्चर को दर्शाती है।",
+                "ur": "تصویر فیمر کے فریکچر کو ظاہر کرتی ہے۔",
+                "tr": "Görüntü femur kırığını tasvir ediyor."
+            },
+            "id": "v20_24"
+        },
+        {
+            "germanTerm": "der Radiologe",
+            "article": "der",
+            "plural": "die Radiologen",
+            "pronunciation": "/radi̯oˈloːɡə/",
+            "category": "noun",
+            "translation": {
+                "en": "Radiologist",
+                "bn": "রেডিওলজিস্ট",
+                "hi": "रेडियोलॉजिस्ट",
+                "ur": "ریڈیولوجسٹ",
+                "tr": "Radyolog"
+            },
+            "exampleSentence": "Der Radiologe befundet die Röntgenaufnahmen.",
+            "exampleTranslation": {
+                "en": "The radiologist interprets the X-rays.",
+                "bn": "রেডিওলজিস্ট এক্স-রেগুলির ব্যাখ্যা করেন।",
+                "hi": "रेडियोलॉजिस्ट एक्स-रे की व्याख्या करते हैं।",
+                "ur": "ریڈیولوجسٹ ایکسرے کی تشریح کرتے ہیں۔",
+                "tr": "Radyolog röntgenleri yorumlar."
+            },
+            "id": "v20_25"
+        },
+        {
+            "germanTerm": "die Sonographie",
+            "article": "die",
+            "plural": "die Sonographien",
+            "pronunciation": "/zonoɡʁaˈfiː/",
+            "category": "noun",
+            "translation": {
+                "en": "Sonography",
+                "bn": "সোনোগ্রাফি",
+                "hi": "सोनोग्राफी",
+                "ur": "سونگرافی",
+                "tr": "Sonografi"
+            },
+            "exampleSentence": "Die Sonographie ist eine nicht-invasive Untersuchungsmethode.",
+            "exampleTranslation": {
+                "en": "Sonography is a non-invasive examination method.",
+                "bn": "সোনোগ্রাফি একটি অ-আক্রমণাত্মক পরীক্ষার পদ্ধতি।",
+                "hi": "सोनोग्राफी एक गैर-आक्रामक परीक्षा विधि है।",
+                "ur": "سونگرافی ایک غیر ناگوار معائنہ کا طریقہ ہے۔",
+                "tr": "Sonografi, invaziv olmayan bir muayene yöntemidir."
+            },
+            "id": "v20_26"
+        },
+        {
+            "germanTerm": "verabreichen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/fɛɐ̯ˈʔapʁaɪ̯çən/",
+            "category": "verb",
+            "translation": {
+                "en": "to administer",
+                "bn": "প্রদান করা",
+                "hi": "प्रशासन करना",
+                "ur": "انتظام کرنا",
+                "tr": "Uygulamak, vermek"
+            },
+            "exampleSentence": "Wir verabreichen dem Patienten das Kontrastmittel intravenös.",
+            "exampleTranslation": {
+                "en": "We administer the contrast medium intravenously to the patient.",
+                "bn": "আমরা রোগীকে শিরায় কন্ট্রাস্ট মাধ্যম সরবরাহ করি।",
+                "hi": "हम रोगी को अंतःशिरा में कंट्रास्ट माध्यम प्रदान करते हैं।",
+                "ur": "ہم مریض کو نس کے ذریعے کنٹراسٹ میڈیم فراہم کرتے ہیں۔",
+                "tr": "Hastaya kontrast maddeyi intravenöz olarak veriyoruz."
+            },
+            "id": "v20_27"
+        },
+        {
+            "germanTerm": "die Zyste",
+            "article": "die",
+            "plural": "die Zysten",
+            "pronunciation": "/ˈt͡sʏstə/",
+            "category": "noun",
+            "translation": {
+                "en": "Cyst",
+                "bn": "সিস্ট",
+                "hi": "सिस्ट",
+                "ur": "سسٹ",
+                "tr": "Kist"
+            },
+            "exampleSentence": "Die Ultraschalluntersuchung zeigte eine Zyste in der Leber.",
+            "exampleTranslation": {
+                "en": "The ultrasound examination showed a cyst in the liver.",
+                "bn": "আলট্রাসাউন্ড পরীক্ষায় লিভারে একটি সিস্ট দেখা গেছে।",
+                "hi": "अल्ट्रासाउंड परीक्षा में लिवर में एक सिस्ट दिखाई दिया।",
+                "ur": "الٹراساؤنڈ معائنے میں جگر میں ایک سسٹ دکھائی دیا۔",
+                "tr": "Ultrason muayenesinde karaciğerde bir kist görüldü."
+            },
+            "id": "v20_28"
+        },
+        {
+            "germanTerm": "das Ödem",
+            "article": "das",
+            "plural": "die Ödeme",
+            "pronunciation": "/øˈdeːm/",
+            "category": "noun",
+            "translation": {
+                "en": "Edema",
+                "bn": "এডিমা",
+                "hi": "शोफ",
+                "ur": "ایڈیما",
+                "tr": "Ödem"
+            },
+            "exampleSentence": "Auf der Röntgenaufnahme ist ein Lungenödem erkennbar.",
+            "exampleTranslation": {
+                "en": "Pulmonary edema is visible on the X-ray.",
+                "bn": "এক্স-রেতে পালমোনারি এডিমা দৃশ্যমান।",
+                "hi": "एक्स-रे पर फुफ्फुसीय शोफ दिखाई देता है।",
+                "ur": "ایکس رے پر پلمونری ایڈیما نظر آتا ہے۔",
+                "tr": "Akciğer ödemi röntgende görülebilir."
+            },
+            "id": "v20_29"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "X-Ray for Possible Fracture",
+                "bn": "সম্ভাব্য ফ্র্যাকচারের জন্য এক্স-রে",
+                "hi": "संभावित फ्रैक्चर के लिए एक्स-रे",
+                "ur": "ممکنہ فریکچر کے لیے ایکس رے",
+                "tr": "Olası Kırık İçin Röntgen"
+            },
+            "context": {
+                "en": "A patient arrives in the emergency room with a suspected arm fracture. The doctor orders an X-ray.",
+                "bn": "একজন রোগী জরুরি বিভাগে একটি সম্ভাব্য হাতের ফ্র্যাকচার নিয়ে এসেছেন। ডাক্তার একটি এক্স-রে অর্ডার করেন।",
+                "hi": "एक मरीज आपातकालीन कक्ष में संभावित हाथ फ्रैक्चर के साथ आता है। डॉक्टर एक्स-रे का आदेश देते हैं।",
+                "ur": "ایک مریض بازو میں ممکنہ فریکچر کے ساتھ ایمرجنسی روم میں پہنچتا ہے۔ ڈاکٹر ایکسرے کا حکم دیتے ہیں۔",
+                "tr": "Bir hasta, olası bir kol kırığı şüphesiyle acil servise gelir. Doktor röntgen ister."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Tag, Herr Müller. Wir vermuten eine Fraktur. Wir müssen röntgen.",
+                    "translation": {
+                        "en": "Good day, Mr. Müller. We suspect a fracture. We need to do an X-ray.",
+                        "bn": "শুভ দিন, মিঃ মুলার। আমরা একটি ফ্র্যাকচার সন্দেহ করছি। আমাদের একটি এক্স-রে করতে হবে।",
+                        "hi": "सुप्रभात, श्री मुलर। हमें फ्रैक्चर का संदेह है। हमें एक्स-रे करना होगा।",
+                        "ur": "شب بخیر، مسٹر مولر۔ ہمیں ایک فریکچر کا شبہ ہے۔ ہمیں ایکسرے کرنا ہوگا۔",
+                        "tr": "İyi günler Bay Müller. Bir kırık olduğundan şüpheleniyoruz. Röntgen çekmemiz gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Okay, Herr Doktor. Was muss ich tun?",
+                    "translation": {
+                        "en": "Okay, Doctor. What do I need to do?",
+                        "bn": "ঠিক আছে, ডাক্তার। আমাকে কী করতে হবে?",
+                        "hi": "ठीक है, डॉक्टर। मुझे क्या करना होगा?",
+                        "ur": "ٹھیک ہے، ڈاکٹر۔ مجھے کیا کرنا ہوگا؟",
+                        "tr": "Tamam Doktor. Ne yapmam gerekiyor?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich bringe Sie zur Röntgenabteilung. Bitte Schmuck ablegen.",
+                    "translation": {
+                        "en": "I'll take you to the X-ray department. Please remove any jewelry.",
+                        "bn": "আমি আপনাকে এক্স-রে বিভাগে নিয়ে যাব। অনুগ্রহ করে কোনও গহনা সরিয়ে ফেলুন।",
+                        "hi": "मैं आपको एक्स-रे विभाग में ले जाऊंगा। कृपया कोई भी गहना हटा दें।",
+                        "ur": "میں آپ کو ایکس رے ڈپارٹمنٹ لے جاؤں گی۔ براہ کرم کوئی بھی زیورات ہٹا دیں۔",
+                        "tr": "Sizi röntgen bölümüne götüreceğim. Lütfen tüm takılarınızı çıkarın."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wir warten dann auf den Befund des Radiologen.",
+                    "translation": {
+                        "en": "Then we'll wait for the radiologist's report.",
+                        "bn": "তারপর আমরা রেডিওলজিস্টের রিপোর্টের জন্য অপেক্ষা করব।",
+                        "hi": "फिर हम रेडियोलॉजिस्ट की रिपोर्ट का इंतजार करेंगे।",
+                        "ur": "پھر ہم ریڈیولوجسٹ کی رپورٹ کا انتظار کریں گے۔",
+                        "tr": "Sonra radyoloğun raporunu bekleyeceğiz."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Wie lange dauert das ungefähr?",
+                    "translation": {
+                        "en": "How long will that take approximately?",
+                        "bn": "এতে প্রায় কতক্ষণ লাগবে?",
+                        "hi": "इसमें लगभग कितना समय लगेगा?",
+                        "ur": "اس میں تقریبا کتنا وقت لگے گا؟",
+                        "tr": "Bu yaklaşık ne kadar sürer?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Das kann bis zu einer Stunde dauern, Herr Müller.",
+                    "translation": {
+                        "en": "That can take up to an hour, Mr. Müller.",
+                        "bn": "এতে এক ঘন্টা পর্যন্ত সময় লাগতে পারে, মিঃ মুলার।",
+                        "hi": "इसमें एक घंटा तक लग सकता है, श्री मुलर।",
+                        "ur": "اس میں ایک گھنٹہ تک لگ سکتا ہے، مسٹر مولر۔",
+                        "tr": "Bu bir saate kadar sürebilir Bay Müller."
+                    }
+                }
+            ],
+            "id": "d20_01"
+        },
+        {
+            "title": {
+                "en": "CT Scan with Contrast for Abdominal Pain",
+                "bn": "পেটে ব্যথার জন্য কন্ট্রাস্ট সহ সিটি স্ক্যান",
+                "hi": "पेट दर्द के लिए कंट्रास्ट के साथ सीटी स्कैन",
+                "ur": "پیٹ درد کے لیے کنٹراسٹ کے ساتھ سی ٹی سکین",
+                "tr": "Karın Ağrısı İçin Kontrastlı BT Taraması"
+            },
+            "context": {
+                "en": "A patient is experiencing severe abdominal pain. A CT scan with contrast is ordered to investigate possible causes.",
+                "bn": "একজন রোগী তীব্র পেটে ব্যথায় ভুগছেন। সম্ভাব্য কারণগুলি অনুসন্ধানের জন্য কন্ট্রাস্ট সহ একটি সিটি স্ক্যান অর্ডার করা হয়েছে।",
+                "hi": "एक मरीज को गंभीर पेट दर्द हो रहा है। संभावित कारणों की जांच के लिए कंट्रास्ट के साथ एक सीटी स्कैन का आदेश दिया गया है।",
+                "ur": "ایک مریض شدید پیٹ درد کا تجربہ کر رہا ہے۔ ممکنہ وجوہات کی تحقیقات کے لیے کنٹراسٹ کے ساتھ سی ٹی سکین کا حکم دیا گیا ہے۔",
+                "tr": "Bir hasta şiddetli karın ağrısı çekiyor. Olası nedenleri araştırmak için kontrastlı bir BT taraması isteniyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Frau Schmidt, wir brauchen eine CT-Untersuchung mit Kontrastmittel wegen der Bauchschmerzen.",
+                    "translation": {
+                        "en": "Mrs. Schmidt, we need a CT scan with contrast for the abdominal pain.",
+                        "bn": "মিঃ শ্মিট, পেটে ব্যথার জন্য আমাদের কন্ট্রাস্ট সহ একটি সিটি স্ক্যানের প্রয়োজন।",
+                        "hi": "श्रीमती श्मिट, हमें पेट दर्द के लिए कंट्रास्ट के साथ एक सीटी स्कैन की आवश्यकता है।",
+                        "ur": "محترمہ شمٹ، ہمیں پیٹ کے درد کے لیے کنٹراسٹ کے ساتھ سی ٹی سکین کی ضرورت ہے۔",
+                        "tr": "Bayan Schmidt, karın ağrısı için kontrast madde ile BT taramasına ihtiyacımız var."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ist die Patientin nüchtern?",
+                    "translation": {
+                        "en": "Is the patient fasting?",
+                        "bn": "রোগী কি উপোস আছেন?",
+                        "hi": "क्या मरीज उपवास कर रहा है?",
+                        "ur": "کیا مریض روزہ دار ہے؟",
+                        "tr": "Hasta aç mı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ja, sie ist seit 6 Stunden nüchtern. Die Aufnahme ist vorbereitet.",
+                    "translation": {
+                        "en": "Yes, she has been fasting for 6 hours. The admission is prepared.",
+                        "bn": "হ্যাঁ, তিনি 6 ঘন্টা ধরে উপোস আছেন। ভর্তি প্রস্তুত।",
+                        "hi": "हाँ, वह 6 घंटे से उपवास कर रही है। प्रवेश तैयार है।",
+                        "ur": "ہاں، وہ 6 گھنٹے سے روزہ دار ہے۔ داخلہ تیار ہے۔",
+                        "tr": "Evet, 6 saattir aç. Kayıt hazır."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Was passiert bei der CT-Untersuchung?",
+                    "translation": {
+                        "en": "What happens during the CT scan?",
+                        "bn": "সিটি স্ক্যানে কী হয়?",
+                        "hi": "सीटी स्कैन के दौरान क्या होता है?",
+                        "ur": "سی ٹی سکین کے دوران کیا ہوتا ہے؟",
+                        "tr": "BT taraması sırasında ne olur?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Sie liegen auf einer Liege und wir machen Aufnahmen Ihres Bauchraums. Sie bekommen Kontrastmittel über die Vene.",
+                    "translation": {
+                        "en": "You lie on a couch and we take images of your abdomen. You will receive contrast agent through a vein.",
+                        "bn": "আপনি একটি খাটে শুয়ে থাকবেন এবং আমরা আপনার পেটের ছবি তুলব। আপনি শিরা মাধ্যমে কনট্রাস্ট এজেন্ট পাবেন।",
+                        "hi": "आप एक सोफे पर लेटें और हम आपके पेट की तस्वीरें लेते हैं। आपको एक नस के माध्यम से कंट्रास्ट एजेंट मिलेगा।",
+                        "ur": "آپ ایک کوچ پر لیٹیں اور ہم آپ کے پیٹ کی تصاویر لیں۔ آپ کو ایک رگ کے ذریعے کنٹراسٹ ایجنٹ ملے گا۔",
+                        "tr": "Bir sedyede yatacaksınız ve karnınızın görüntülerini alacağız. Bir damar yoluyla kontrast madde alacaksınız."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich werde Sie jetzt zur Radiologie bringen.",
+                    "translation": {
+                        "en": "I will take you to radiology now.",
+                        "bn": "আমি এখন আপনাকে রেডিওলজিতে নিয়ে যাব।",
+                        "hi": "मैं अब आपको रेडियोलॉजी में ले जाऊंगा।",
+                        "ur": "میں اب آپ کو ریڈیولوجی میں لے جاؤں گی۔",
+                        "tr": "Şimdi sizi radyolojiye götüreceğim."
+                    }
+                }
+            ],
+            "id": "d20_02"
+        },
+        {
+            "title": {
+                "en": "MRI for Knee Pain",
+                "bn": "হাঁটু ব্যথার জন্য এমআরআই",
+                "hi": "घुटने के दर्द के लिए एमआरआई",
+                "ur": "گھٹنے کے درد کے لیے ایم آر آئی",
+                "tr": "Diz Ağrısı İçin MR"
+            },
+            "context": {
+                "en": "A patient has been experiencing persistent knee pain. An MRI is ordered to evaluate the soft tissues and bones.",
+                "bn": "একজন রোগী ক্রমাগত হাঁটু ব্যথায় ভুগছেন। নরম টিস্যু এবং হাড় মূল্যায়ন করার জন্য একটি এমআরআই অর্ডার করা হয়েছে।",
+                "hi": "एक मरीज लगातार घुटने के दर्द का अनुभव कर रहा है। नरम ऊतकों और हड्डियों का मूल्यांकन करने के लिए एक एमआरआई का आदेश दिया गया है।",
+                "ur": "ایک مریض مسلسل گھٹنے کے درد کا تجربہ کر رہا ہے۔ نرم بافتوں اور ہڈیوں کا جائزہ لینے کے لیے ایک ایم آر آئی کا حکم دیا گیا ہے۔",
+                "tr": "Bir hasta sürekli diz ağrısı çekiyor. Yumuşak dokuları ve kemikleri değerlendirmek için bir MR istenir."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Morgen, Herr Schmidt. Wegen Ihrer Knieschmerzen möchten wir ein MRT machen.",
+                    "translation": {
+                        "en": "Good morning, Mr. Schmidt. We would like to do an MRI because of your knee pain.",
+                        "bn": "শুভ সকাল, মিঃ শ্মিট। আপনার হাঁটু ব্যথার কারণে আমরা একটি এমআরআই করতে চাই।",
+                        "hi": "शुभ प्रभात, श्री श्मिट। आपके घुटने के दर्द के कारण हम एक एमआरआई करना चाहेंगे।",
+                        "ur": "شب بخیر، مسٹر شمٹ۔ آپ کے گھٹنے کے درد کی وجہ سے ہم ایک ایم آر آئی کرنا چاہیں گے۔",
+                        "tr": "Günaydın Bay Schmidt. Diz ağrınız nedeniyle MR çekmek istiyoruz."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Was passiert da genau?",
+                    "translation": {
+                        "en": "What exactly happens there?",
+                        "bn": "সেখানে ঠিক কী হয়?",
+                        "hi": "वहाँ ठीक क्या होता है?",
+                        "ur": "وہاں بالکل کیا ہوتا ہے؟",
+                        "tr": "Orada tam olarak ne oluyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Sie liegen in einer Röhre, während wir Bilder Ihres Knies machen. Es ist etwas laut.",
+                    "translation": {
+                        "en": "You lie in a tube while we take pictures of your knee. It's a bit noisy.",
+                        "bn": "আমরা আপনার হাঁটুর ছবি তোলার সময় আপনি একটি টিউবে শুয়ে থাকবেন। এটি একটু গোলমালপূর্ণ।",
+                        "hi": "हम आपके घुटने की तस्वीरें लेते समय आप एक ट्यूब में लेटें। यह थोड़ा शोरगुल वाला है।",
+                        "ur": "ہم آپ کے گھٹنے کی تصاویر لیتے وقت آپ ایک ٹیوب میں لیٹتے ہیں۔ یہ تھوڑا شور والا ہے۔",
+                        "tr": "Dizinizin fotoğraflarını çekerken bir tüpün içinde yatacaksınız. Biraz gürültülü."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Haben Sie Metall im Körper, Herr Schmidt? Herzschrittmacher?",
+                    "translation": {
+                        "en": "Do you have metal in your body, Mr. Schmidt? Pacemaker?",
+                        "bn": "আপনার শরীরে ধাতু আছে, মিঃ শ্মিট? পেসমেকার?",
+                        "hi": "क्या आपके शरीर में धातु है, श्री श्मिट? पेसमेकर?",
+                        "ur": "کیا آپ کے جسم میں دھات ہے، مسٹر شمٹ؟ پیس میکر؟",
+                        "tr": "Vücudunuzda metal var mı Bay Schmidt? Kalp pili?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Nein, nichts dergleichen.",
+                    "translation": {
+                        "en": "No, nothing like that.",
+                        "bn": "না, সেরকম কিছু না।",
+                        "hi": "नहीं, ऐसा कुछ नहीं है।",
+                        "ur": "نہیں، ایسی کوئی بات نہیں۔",
+                        "tr": "Hayır, öyle bir şey yok."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Gut, dann können wir gleich beginnen. Ich melde Sie zur MRT an.",
+                    "translation": {
+                        "en": "Good, then we can start right away. I'll register you for the MRI.",
+                        "bn": "ভাল, তাহলে আমরা এখনই শুরু করতে পারি। আমি আপনাকে এমআরআই-এর জন্য নিবন্ধন করব।",
+                        "hi": "अच्छा, तो हम अभी शुरू कर सकते हैं। मैं आपको एमआरआई के लिए पंजीकृत कर दूंगा।",
+                        "ur": "اچھی بات ہے، تو ہم ابھی شروع کر سکتے ہیں۔ میں آپ کو ایم آر آئی کے لیے رجسٹر کروں گا۔",
+                        "tr": "Güzel, o zaman hemen başlayabiliriz. Sizi MR için kaydedeceğim."
+                    }
+                }
+            ],
+            "id": "d20_03"
+        },
+        {
+            "title": {
+                "en": "Ultrasound for Pregnancy Check",
+                "bn": "গর্ভাবস্থা পরীক্ষার জন্য আল্ট্রাসাউন্ড",
+                "hi": "गर्भावस्था जांच के लिए अल्ट्रासाउंड",
+                "ur": "حمل کی جانچ کے لیے الٹراساؤنڈ",
+                "tr": "Hamilelik Kontrolü İçin Ultrason"
+            },
+            "context": {
+                "en": "A pregnant woman comes for a routine ultrasound check.",
+                "bn": "একজন গর্ভবতী মহিলা নিয়মিত আল্ট্রাসাউন্ড পরীক্ষার জন্য এসেছেন।",
+                "hi": "एक गर्भवती महिला नियमित अल्ट्रासाउंड जांच के लिए आती है।",
+                "ur": "ایک حاملہ خاتون معمول کے الٹراساؤنڈ چیک کے لیے آتی ہے۔",
+                "tr": "Hamile bir kadın rutin ultrason kontrolü için gelir."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Tag, Frau Weber. Wir machen heute eine Ultraschalluntersuchung.",
+                    "translation": {
+                        "en": "Good day, Mrs. Weber. We are doing an ultrasound examination today.",
+                        "bn": "শুভ দিন, মিসেস ওয়েবার। আমরা আজ একটি আল্ট্রাসাউন্ড পরীক্ষা করছি।",
+                        "hi": "शुभ दिन, श्रीमती वेबर। हम आज एक अल्ट्रासाउंड परीक्षा कर रहे हैं।",
+                        "ur": "شب بخیر، مسز ویبر۔ ہم آج ایک الٹراساؤنڈ امتحان کر رہے ہیں۔",
+                        "tr": "İyi günler Bayan Weber. Bugün ultrason muayenesi yapacağız."
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich bin schon ganz aufgeregt.",
+                    "translation": {
+                        "en": "I'm already very excited.",
+                        "bn": "আমি ইতিমধ্যে খুব উত্তেজিত।",
+                        "hi": "मैं पहले से ही बहुत उत्साहित हूँ।",
+                        "ur": "میں پہلے سے ہی بہت پرجوش ہوں۔",
+                        "tr": "Zaten çok heyecanlıyım."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das ist verständlich. Legen Sie sich bitte hin. Ich trage Gel auf.",
+                    "translation": {
+                        "en": "That's understandable. Please lie down. I'll apply some gel.",
+                        "bn": "এটা বোধগম্য। দয়া করে শুয়ে পড়ুন। আমি কিছু জেল লাগাব।",
+                        "hi": "यह समझ में आता है। कृपया लेट जाओ। मैं कुछ जेल लगाऊंगा।",
+                        "ur": "یہ سمجھ میں آتا ہے۔ براہ کرم لیٹ جائیں۔ میں کچھ جیل لگاؤں گا۔",
+                        "tr": "Bu anlaşılabilir bir durum. Lütfen uzanın. Biraz jel süreceğim."
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Kann man schon etwas sehen?",
+                    "translation": {
+                        "en": "Can you see anything yet?",
+                        "bn": "আপনি কি এখনও কিছু দেখতে পাচ্ছেন?",
+                        "hi": "क्या आप अभी तक कुछ देख सकते हैं?",
+                        "ur": "کیا آپ ابھی تک کچھ دیکھ سکتے ہیں؟",
+                        "tr": "Şimdiden bir şeyler görebiliyor musunuz?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ja, hier ist das Herzchen. Es schlägt regelmäßig.",
+                    "translation": {
+                        "en": "Yes, here is the little heart. It's beating regularly.",
+                        "bn": "হ্যাঁ, এই যে ছোট্ট হৃদয়। এটি নিয়মিতভাবে স্পন্দিত হচ্ছে।",
+                        "hi": "हाँ, यहाँ छोटा सा दिल है। यह नियमित रूप से धड़क रहा है।",
+                        "ur": "ہاں، یہ رہا چھوٹا دل۔ یہ باقاعدگی سے دھڑک رہا ہے۔",
+                        "tr": "Evet, işte küçük kalp. Düzenli atıyor."
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Oh, wie schön!",
+                    "translation": {
+                        "en": "Oh, how wonderful!",
+                        "bn": "ওহ, কী সুন্দর!",
+                        "hi": "ओह, कितना अद्भुत!",
+                        "ur": "اوہ، کتنا حیرت انگیز!",
+                        "tr": "Ah, ne kadar güzel!"
+                    }
+                }
+            ],
+            "id": "d20_04"
+        },
+        {
+            "title": {
+                "en": "Discussion of Radiology Report after Chest X-Ray",
+                "bn": "বুকের এক্স-রে করার পর রেডিওলজি রিপোর্ট নিয়ে আলোচনা",
+                "hi": "छाती का एक्स-रे करने के बाद रेडियोलॉजी रिपोर्ट पर चर्चा",
+                "ur": "سینے کا ایکسرے کرنے کے بعد ریڈیولوجی رپورٹ پر تبادلہ خیال",
+                "tr": "Göğüs Röntgeninden Sonra Radyoloji Raporunun Tartışılması"
+            },
+            "context": {
+                "en": "The doctor and patient discuss the results of a recent chest X-ray.",
+                "bn": "ডাক্তার এবং রোগী বুকের এক্স-রে করার পর রিপোর্ট নিয়ে আলোচনা করছেন।",
+                "hi": "डॉक्टर और मरीज छाती का एक्स-रे करने के बाद रिपोर्ट पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر اور مریض سینے کا ایکسرے کرنے کے بعد رپورٹ پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Doktor ve hasta, yakın zamanda çekilen bir göğüs röntgeninin sonuçlarını tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Hoffmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Tag, Frau Schulz. Ihr Röntgenbefund ist da.",
+                    "translation": {
+                        "en": "Good day, Mrs. Schulz. Your X-ray report is here.",
+                        "bn": "শুভ দিন, মিসেস শুলজ। আপনার এক্স-রে রিপোর্ট এখানে।",
+                        "hi": "शुभ दिन, श्रीमती शुल्ज़। आपकी एक्स-रे रिपोर्ट यहाँ है।",
+                        "ur": "شب بخیر، مسز شولز۔ آپ کی ایکسرے رپورٹ یہاں ہے۔",
+                        "tr": "İyi günler Bayan Schulz. Röntgen raporunuz geldi."
+                    }
+                },
+                {
+                    "speaker": "Patient Schulz",
+                    "speakerRole": "Patient",
+                    "germanText": "Und, was steht drin?",
+                    "translation": {
+                        "en": "And, what does it say?",
+                        "bn": "এবং, এতে কী লেখা আছে?",
+                        "hi": "और, इसमें क्या लिखा है?",
+                        "ur": "اور، اس میں کیا لکھا ہے؟",
+                        "tr": "Peki, ne yazıyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Hoffmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Es gibt eine kleine Verschattung in der Lunge. Das könnte eine leichte Entzündung sein.",
+                    "translation": {
+                        "en": "There is a small opacity in the lung. It could be a slight inflammation.",
+                        "bn": "ফুসফুসে একটি ছোট অস্বচ্ছতা রয়েছে। এটি একটি সামান্য প্রদাহ হতে পারে।",
+                        "hi": "फेफड़े में एक छोटी सी अस्पष्टता है। यह थोड़ी सूजन हो सकती है।",
+                        "ur": "پھیپھڑوں میں ایک چھوٹی سی مبہمیت ہے۔ یہ تھوڑی سوزش ہو سکتی ہے۔",
+                        "tr": "Akciğerde küçük bir gölgelenme var. Hafif bir iltihap olabilir."
+                    }
+                },
+                {
+                    "speaker": "Patient Schulz",
+                    "speakerRole": "Patient",
+                    "germanText": "Muss ich mir Sorgen machen?",
+                    "translation": {
+                        "en": "Do I need to worry?",
+                        "bn": "আমার কি চিন্তা করতে হবে?",
+                        "hi": "क्या मुझे चिंता करने की ज़रूरत है?",
+                        "ur": "کیا مجھے پریشان ہونے کی ضرورت ہے؟",
+                        "tr": "Endişelenmeli miyim?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Hoffmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wir werden das weiter beobachten und gegebenenfalls behandeln. Ich verschreibe Ihnen ein Antibiotikum.",
+                    "translation": {
+                        "en": "We will continue to monitor this and treat it if necessary. I'll prescribe an antibiotic.",
+                        "bn": "আমরা এটি পর্যবেক্ষণ করা চালিয়ে যাব এবং প্রয়োজনে চিকিৎসা করব। আমি আপনাকে একটি অ্যান্টিবায়োটিক লিখে দেব।",
+                        "hi": "हम इसकी निगरानी जारी रखेंगे और यदि आवश्यक हो तो इसका इलाज करेंगे। मैं आपको एक एंटीबायोटिक लिखूंगा।",
+                        "ur": "ہم اس کی نگرانی جاری رکھیں گے اور اگر ضروری ہوا تو اس کا علاج کریں گے۔ میں آپ کو اینٹی بائیوٹک لکھوں گا۔",
+                        "tr": "Bunu izlemeye devam edeceğiz ve gerekirse tedavi edeceğiz. Size bir antibiyotik yazacağım."
+                    }
+                },
+                {
+                    "speaker": "Patient Schulz",
+                    "speakerRole": "Patient",
+                    "germanText": "Vielen Dank, Herr Doktor.",
+                    "translation": {
+                        "en": "Thank you very much, Doctor.",
+                        "bn": "আপনাকে অনেক ধন্যবাদ, ডাক্তার।",
+                        "hi": "बहुत-बहुत धन्यवाद, डॉक्टर।",
+                        "ur": "آپ کا بہت شکریہ، ڈاکٹر۔",
+                        "tr": "Çok teşekkür ederim Doktor."
+                    }
+                }
+            ],
+            "id": "d20_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage über Röntgenstrahlen ist korrekt?",
+                "en": "Which statement about X-rays is correct?",
+                "bn": "এক্স-রে সম্পর্কে কোন বক্তব্যটি সঠিক?",
+                "hi": "एक्स-रे के बारे में कौन सा कथन सही है?",
+                "ur": "ایکس رے کے بارے میں کون سا بیان درست ہے؟",
+                "tr": "Röntgen ışınları hakkında hangi ifade doğrudur?"
+            },
+            "options": [
+                "Sie sind Schallwellen.",
+                "Sie werden vom Körper vollständig absorbiert.",
+                "Sie sind eine Form elektromagnetischer Strahlung.",
+                "Sie sind völlig harmlos."
+            ],
+            "correctAnswer": "Sie sind eine Form elektromagnetischer Strahlung.",
+            "explanation": {
+                "en": "X-rays are a form of electromagnetic radiation with high energy and short wavelengths, enabling them to penetrate soft tissues.",
+                "bn": "এক্স-রে হলো উচ্চ শক্তি এবং ছোট তরঙ্গদৈর্ঘ্য সম্পন্ন একটি তড়িৎচুম্বকীয় বিকিরণ, যা নরম টিস্যু ভেদ করতে পারে।",
+                "hi": "एक्स-रे उच्च ऊर्जा और छोटी तरंग दैर्ध्य के साथ विद्युत चुम्बकीय विकिरण का एक रूप है, जो नरम ऊतकों में प्रवेश करने में सक्षम है।",
+                "ur": "ایکس رے اعلی توانائی اور کم طول موج کے ساتھ برقی مقناطیسی شعاعوں کی ایک شکل ہے، جو نرم بافتوں میں داخل ہونے کے قابل بناتی ہے۔",
+                "tr": "X ışınları, yumuşak dokulara nüfuz etmelerini sağlayan yüksek enerjiye ve kısa dalga boylarına sahip bir elektromanyetik radyasyon biçimidir."
+            },
+            "points": 10,
+            "id": "e20_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist der Hauptvorteil der Computertomographie (CT) gegenüber dem Röntgen?",
+                "en": "What is the main advantage of computed tomography (CT) over X-ray?",
+                "bn": "এক্স-রের চেয়ে কম্পিউটেড টমোগ্রাফি (সিটি)-এর প্রধান সুবিধা কী?",
+                "hi": "एक्स-रे पर कंप्यूटेड टोमोग्राफी (सीटी) का मुख्य लाभ क्या है?",
+                "ur": "ایکس رے پر کمپیوٹڈ ٹوموگرافی (سی ٹی) کا بنیادی فائدہ کیا ہے؟",
+                "tr": "Bilgisayarlı tomografinin (BT) röntgene göre temel avantajı nedir?"
+            },
+            "options": [
+                "Niedrigere Kosten",
+                "Schnellere Aufnahmezeit",
+                "Detailliertere 3D-Bilder",
+                "Keine Strahlenbelastung"
+            ],
+            "correctAnswer": "Detailliertere 3D-Bilder",
+            "explanation": {
+                "en": "CT provides detailed cross-sectional images of the body, creating 3D reconstructions, whereas X-ray produces 2D images.",
+                "bn": "সিটি শরীরের বিস্তারিত ক্রস-সেকশনাল ছবি সরবরাহ করে, যা 3D পুনর্গঠন তৈরি করে, যেখানে এক্স-রে 2D ছবি তৈরি করে।",
+                "hi": "सीटी शरीर की विस्तृत क्रॉस-सेक्शनल छवियां प्रदान करता है, जो 3 डी पुनर्निर्माण बनाता है, जबकि एक्स-रे 2 डी छवियां उत्पन्न करता है।",
+                "ur": "سی ٹی جسم کی تفصیلی کراس سیکشنل تصاویر فراہم کرتا ہے، جو 3D تعمیر نو پیدا کرتا ہے، جبکہ ایکس رے 2D تصاویر تیار کرتا ہے۔",
+                "tr": "BT, vücudun ayrıntılı kesitsel görüntülerini sağlayarak 3D rekonstrüksiyonlar oluştururken, röntgen 2D görüntüler üretir."
+            },
+            "points": 10,
+            "id": "e20_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage über Magnetresonanztomographie (MRT) ist richtig?",
+                "en": "Which statement about magnetic resonance imaging (MRI) is correct?",
+                "bn": "ম্যাগনেটিক রেজোন্যান্স ইমেজিং (এমআরআই) সম্পর্কে কোন বক্তব্যটি সঠিক?",
+                "hi": "चुंबकीय अनुनाद इमेजिंग (एमआरआई) के बारे में कौन सा कथन सही है?",
+                "ur": "مقناطیسی گونج امیجنگ (ایم آر آئی) کے بارے میں کون سا بیان درست ہے؟",
+                "tr": "Manyetik rezonans görüntüleme (MRG) hakkında hangi ifade doğrudur?"
+            },
+            "options": [
+                "Sie verwendet ionisierende Strahlung.",
+                "Sie ist besonders gut zur Darstellung von Knochen geeignet.",
+                "Sie nutzt starke Magnetfelder und Radiowellen.",
+                "Sie ist in der Regel die schnellste bildgebende Methode."
+            ],
+            "correctAnswer": "Sie nutzt starke Magnetfelder und Radiowellen.",
+            "explanation": {
+                "en": "MRI uses strong magnetic fields and radio waves to produce detailed images of the organs and tissues in the body.",
+                "bn": "এমআরআই শরীরের অঙ্গ এবং টিস্যুগুলির বিস্তারিত ছবি তৈরি করতে শক্তিশালী চৌম্বক ক্ষেত্র এবং রেডিও তরঙ্গ ব্যবহার করে।",
+                "hi": "एमआरआई शरीर के अंगों और ऊतकों की विस्तृत छवियां बनाने के लिए मजबूत चुंबकीय क्षेत्र और रेडियो तरंगों का उपयोग करता है।",
+                "ur": "ایم آر آئی جسم کے اعضاء اور بافتوں کی تفصیلی تصاویر بنانے کے لیے مضبوط مقناطیسی میدان اور ریڈیو لہروں کا استعمال کرتا ہے۔",
+                "tr": "MRG, vücuttaki organların ve dokuların ayrıntılı görüntülerini üretmek için güçlü manyetik alanlar ve radyo dalgaları kullanır."
+            },
+            "points": 10,
+            "id": "e20_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Prinzip des Ultraschalls?",
+                "en": "What is the principle of ultrasound?",
+                "bn": "আল্ট্রাসাউন্ডের মূলনীতি কী?",
+                "hi": "अल्ट्रासाउंड का सिद्धांत क्या है?",
+                "ur": "الٹراساؤنڈ کا اصول کیا ہے؟",
+                "tr": "Ultrasonun prensibi nedir?"
+            },
+            "options": [
+                "Die Messung der Absorption von Röntgenstrahlen.",
+                "Die Nutzung von Magnetfeldern.",
+                "Die Reflexion von Schallwellen an Gewebegrenzen.",
+                "Die Emission von radioaktiven Isotopen."
+            ],
+            "correctAnswer": "Die Reflexion von Schallwellen an Gewebegrenzen.",
+            "explanation": {
+                "en": "Ultrasound uses high-frequency sound waves that are reflected back from different tissues, creating an image based on these reflections.",
+                "bn": "আল্ট্রাসাউন্ড উচ্চ-ফ্রিকোয়েন্সি শব্দ তরঙ্গ ব্যবহার করে যা বিভিন্ন টিস্যু থেকে প্রতিফলিত হয়ে ফিরে আসে এবং এই প্রতিফলনগুলির উপর ভিত্তি করে একটি চিত্র তৈরি করে।",
+                "hi": "अल्ट्रासाउंड उच्च-आवृत्ति ध्वनि तरंगों का उपयोग करता है जो विभिन्न ऊतकों से वापस परावर्तित होती हैं, और इन परावर्तनों के आधार पर एक छवि बनाती हैं।",
+                "ur": "الٹراساؤنڈ اعلی تعدد والی آواز کی لہروں کا استعمال کرتا ہے جو مختلف بافتوں سے منعکس ہو کر واپس آتی ہیں، اور ان عکاسیوں کی بنیاد پر ایک تصویر بناتی ہے۔",
+                "tr": "Ultrason, farklı dokulardan geri yansıyan yüksek frekanslı ses dalgaları kullanır ve bu yansımalara dayalı bir görüntü oluşturur."
+            },
+            "points": 10,
+            "id": "e20_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wozu werden Kontrastmittel in der Radiologie eingesetzt?",
+                "en": "What are contrast agents used for in radiology?",
+                "bn": "রেডিওলজিতে কন্ট্রাস্ট এজেন্ট কীসের জন্য ব্যবহৃত হয়?",
+                "hi": "रेडियोलॉजी में कंट्रास्ट एजेंट किस लिए उपयोग किए जाते हैं?",
+                "ur": "ریڈیولاجی میں کنٹراسٹ ایجنٹ کس لیے استعمال ہوتے ہیں؟",
+                "tr": "Radyolojide kontrast maddeler ne için kullanılır?"
+            },
+            "options": [
+                "Um die Strahlenbelastung zu reduzieren.",
+                "Um die Bildqualität zu verbessern.",
+                "Um die Aufnahmezeit zu verkürzen.",
+                "Um die Kosten der Untersuchung zu senken."
+            ],
+            "correctAnswer": "Um die Bildqualität zu verbessern.",
+            "explanation": {
+                "en": "Contrast agents enhance the visibility of specific tissues or blood vessels, improving the image quality and diagnostic accuracy.",
+                "bn": "কন্ট্রাস্ট এজেন্টগুলি নির্দিষ্ট টিস্যু বা রক্তনালীগুলির দৃশ্যমানতা বাড়ায়, যা চিত্রের গুণমান এবং ডায়াগনস্টিক নির্ভুলতা উন্নত করে।",
+                "hi": "कंट्रास्ट एजेंट विशिष्ट ऊतकों या रक्त वाहिकाओं की दृश्यता को बढ़ाते हैं, जिससे छवि की गुणवत्ता और नैदानिक सटीकता में सुधार होता है।",
+                "ur": "کنٹراسٹ ایجنٹ مخصوص بافتوں یا خون کی نالیوں کی مرئیت کو بڑھاتے ہیں، جس سے تصویر کے معیار اور تشخیصی درستگی میں بہتری آتی ہے۔",
+                "tr": "Kontrast maddeler, belirli dokuların veya kan damarlarının görünürlüğünü artırarak görüntü kalitesini ve tanısal doğruluğu iyileştirir."
+            },
+            "points": 10,
+            "id": "e20_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet der Begriff 'Befund' in der Radiologie?",
+                "en": "What does the term 'Befund' mean in radiology?",
+                "bn": "রেডিওলজিতে 'Befund' শব্দটির অর্থ কী?",
+                "hi": "रेडियोलॉजी में 'Befund' शब्द का अर्थ क्या है?",
+                "ur": "ریڈیولاجی میں 'Befund' اصطلاح کا کیا مطلب ہے؟",
+                "tr": "Radyolojide 'Befund' terimi ne anlama gelir?"
+            },
+            "options": [
+                "Die Art der verwendeten Strahlung.",
+                "Die Vorbereitung des Patienten.",
+                "Die Interpretation und Beschreibung der radiologischen Bilder.",
+                "Die Kosten der Untersuchung."
+            ],
+            "correctAnswer": "Die Interpretation und Beschreibung der radiologischen Bilder.",
+            "explanation": {
+                "en": "'Befund' refers to the radiologist's written report interpreting the radiological images and providing a diagnosis.",
+                "bn": "'Befund' বলতে রেডিওলজিস্টের লিখিত প্রতিবেদনকে বোঝায় যা রেডিওলজিক্যাল চিত্রগুলির ব্যাখ্যা করে এবং একটি রোগ নির্ণয় প্রদান করে।",
+                "hi": "'Befund' रेडियोलॉजिस्ट की लिखित रिपोर्ट को संदर्भित करता है जो रेडियोलॉजिकल छवियों की व्याख्या करता है और एक निदान प्रदान करता है।",
+                "ur": "'Befund' ریڈیولاجسٹ کی تحریری رپورٹ کو کہتے ہیں جو ریڈیولاجیکل تصاویر کی تشریح کرتی ہے اور تشخیص فراہم کرتی ہے۔",
+                "tr": "'Befund', radyoloğun radyolojik görüntüleri yorumlayan ve bir tanı sağlayan yazılı raporunu ifade eder."
+            },
+            "points": 10,
+            "id": "e20_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist eine 'Aufnahme' im Kontext der Radiologie?",
+                "en": "What is an 'Aufnahme' in the context of radiology?",
+                "bn": "রেডিওলজির প্রেক্ষাপটে 'Aufnahme' কী?",
+                "hi": "रेडियोलॉजी के संदर्भ में 'Aufnahme' क्या है?",
+                "ur": "ریڈیولاجی کے تناظر میں 'Aufnahme' کیا ہے؟",
+                "tr": "Radyoloji bağlamında 'Aufnahme' nedir?"
+            },
+            "options": [
+                "Die Dosis der Strahlung.",
+                "Ein radiologisches Bild, z.B. ein Röntgenbild.",
+                "Die Dauer der Untersuchung.",
+                "Die verwendete Technik."
+            ],
+            "correctAnswer": "Ein radiologisches Bild, z.B. ein Röntgenbild.",
+            "explanation": {
+                "en": "'Aufnahme' refers to a radiological image, such as an X-ray, CT scan, or MRI image.",
+                "bn": "'Aufnahme' বলতে একটি রেডিওলজিক্যাল চিত্রকে বোঝায়, যেমন একটি এক্স-রে, সিটি স্ক্যান বা এমআরআই চিত্র।",
+                "hi": "'Aufnahme' एक रेडियोलॉजिकल छवि को संदर्भित करता है, जैसे कि एक्स-रे, सीटी स्कैन या एमआरआई छवि।",
+                "ur": "'Aufnahme' ایک ریڈیولاجیکل تصویر سے مراد ہے، جیسے کہ ایکسرے، سی ٹی اسکین یا ایم آر آئی تصویر۔",
+                "tr": "'Aufnahme', bir röntgen, BT taraması veya MRG görüntüsü gibi radyolojik bir görüntüyü ifade eder."
+            },
+            "points": 10,
+            "id": "e20_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Untersuchungen verwendet keine ionisierende Strahlung?",
+                "en": "Which of the following examinations does not use ionizing radiation?",
+                "bn": "নিচের কোন পরীক্ষাটিতে আয়নাইজিং রেডিয়েশন ব্যবহার করা হয় না?",
+                "hi": "निम्नलिखित में से किस परीक्षण में आयनकारी विकिरण का उपयोग नहीं किया जाता है?",
+                "ur": "درج ذیل میں سے کون سا امتحان آئنائزنگ ریڈی ایشن کا استعمال نہیں کرتا ہے؟",
+                "tr": "Aşağıdaki muayenelerden hangisi iyonlaştırıcı radyasyon kullanmaz?"
+            },
+            "options": [
+                "Röntgen",
+                "CT",
+                "MRT",
+                "Fluoroskopie"
+            ],
+            "correctAnswer": "MRT",
+            "explanation": {
+                "en": "MRI uses magnetic fields and radio waves instead of ionizing radiation.",
+                "bn": "এমআরআই আয়নাইজিং রেডিয়েশনের পরিবর্তে চৌম্বক ক্ষেত্র এবং রেডিও তরঙ্গ ব্যবহার করে।",
+                "hi": "एमआरआई आयनकारी विकिरण के बजाय चुंबकीय क्षेत्र और रेडियो तरंगों का उपयोग करता है।",
+                "ur": "ایم آر آئی آئنائزنگ ریڈی ایشن کے بجائے مقناطیسی میدان اور ریڈیو لہروں کا استعمال کرتا ہے۔",
+                "tr": "MRG, iyonlaştırıcı radyasyon yerine manyetik alanlar ve radyo dalgaları kullanır."
+            },
+            "points": 10,
+            "id": "e20_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Strukturen ist in der Röntgenaufnahme am dichtesten?",
+                "en": "Which of the following structures is densest in the X-ray image?",
+                "bn": "এক্স-রে ছবিতে নিচের কোন গঠনটি সবচেয়ে ঘন?",
+                "hi": "एक्स-रे छवि में निम्नलिखित में से कौन सी संरचना सबसे घनी है?",
+                "ur": "ایکس رے تصویر میں درج ذیل میں سے کون سا ڈھانچہ سب سے زیادہ گھنا ہے؟",
+                "tr": "Aşağıdaki yapılardan hangisi röntgen görüntüsünde en yoğundur?"
+            },
+            "options": [
+                "Lunge",
+                "Muskel",
+                "Knochen",
+                "Fett"
+            ],
+            "correctAnswer": "Knochen",
+            "explanation": {
+                "en": "Bones are the densest structures in the body and therefore appear the whitest on X-ray images.",
+                "bn": "হাড় শরীরের সবচেয়ে ঘন গঠন এবং তাই এক্স-রে ছবিতে সবচেয়ে সাদা দেখায়।",
+                "hi": "हड्डियाँ शरीर में सबसे घनी संरचनाएँ हैं और इसलिए एक्स-रे छवियों पर सबसे सफेद दिखाई देती हैं।",
+                "ur": "ہڈیاں جسم میں سب سے زیادہ گھنی ساختیں ہیں اور اس لیے ایکسرے تصاویر پر سب سے زیادہ سفید دکھائی دیتی ہیں۔",
+                "tr": "Kemikler vücuttaki en yoğun yapılardır ve bu nedenle röntgen görüntülerinde en beyaz görünürler."
+            },
+            "points": 10,
+            "id": "e20_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Bei welcher Untersuchungstechnik wird der Doppler-Effekt genutzt?",
+                "en": "Which examination technique uses the Doppler effect?",
+                "bn": "কোন পরীক্ষা পদ্ধতিতে ডপলার প্রভাব ব্যবহার করা হয়?",
+                "hi": "कौन सी परीक्षा तकनीक डॉप्लर प्रभाव का उपयोग करती है?",
+                "ur": "کون سا امتحانی طریقہ کار ڈوپلر اثر کا استعمال کرتا ہے؟",
+                "tr": "Hangi muayene tekniği Doppler etkisini kullanır?"
+            },
+            "options": [
+                "Röntgen",
+                "CT",
+                "MRT",
+                "Ultraschall"
+            ],
+            "correctAnswer": "Ultraschall",
+            "explanation": {
+                "en": "Doppler ultrasound uses the Doppler effect to measure the velocity of blood flow.",
+                "bn": "ডপলার আল্ট্রাসাউন্ড রক্ত প্রবাহের বেগ পরিমাপ করতে ডপলার প্রভাব ব্যবহার করে।",
+                "hi": "डॉपलर अल्ट्रासाउंड रक्त प्रवाह के वेग को मापने के लिए डॉप्लर प्रभाव का उपयोग करता है।",
+                "ur": "ڈوپلر الٹراساؤنڈ خون کے بہاؤ کی رفتار کی پیمائش کرنے کے لیے ڈوپلر اثر کا استعمال کرتا ہے۔",
+                "tr": "Doppler ultrason, kan akışının hızını ölçmek için Doppler etkisini kullanır."
+            },
+            "points": 10,
+            "id": "e20_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein ________ dient dazu, die Sichtbarkeit bestimmter Organe oder Gewebe bei bildgebenden Verfahren zu verbessern.",
+                "en": "A ________ is used to improve the visibility of specific organs or tissues in imaging procedures.",
+                "bn": "একটি ________ ইমেজিং পদ্ধতিতে নির্দিষ্ট অঙ্গ বা টিস্যুগুলির দৃশ্যমানতা উন্নত করতে ব্যবহৃত হয়।",
+                "hi": "एक ________ इमेजिंग प्रक्रियाओं में विशिष्ट अंगों या ऊतकों की दृश्यता में सुधार करने के लिए उपयोग किया जाता है।",
+                "ur": "ایک ________ امیجنگ کے طریقہ کار میں مخصوص اعضاء یا بافتوں کی مرئیت کو بہتر بنانے کے لیے استعمال کیا جاتا ہے۔",
+                "tr": "Bir ________ görüntüleme prosedürlerinde belirli organların veya dokuların görünürlüğünü iyileştirmek için kullanılır."
+            },
+            "options": [],
+            "correctAnswer": "Kontrastmittel",
+            "explanation": {
+                "en": "Contrast agents are administered to patients undergoing radiological examinations to enhance the visibility of specific structures.",
+                "bn": "কন্ট্রাস্ট এজেন্টগুলি রেডিওলজিক্যাল পরীক্ষায় অংশ নেওয়া রোগীদের নির্দিষ্ট কাঠামোর দৃশ্যমানতা বাড়ানোর জন্য দেওয়া হয়।",
+                "hi": "कंट्रास्ट एजेंट रेडियोलॉजिकल परीक्षाओं से गुजर रहे रोगियों को विशिष्ट संरचनाओं की दृश्यता बढ़ाने के लिए दिए जाते हैं।",
+                "ur": "کنٹراسٹ ایجنٹ ریڈیولاجیکل امتحانات سے گزرنے والے مریضوں کو مخصوص ڈھانچوں کی مرئیت بڑھانے کے لیے دیے جاتے ہیں۔",
+                "tr": "Kontrast maddeler, belirli yapıların görünürlüğünü artırmak için radyolojik muayenelerden geçen hastalara verilir."
+            },
+            "points": 10,
+            "id": "e20_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die _________ ist eine bildgebende Technik, die Röntgenstrahlen verwendet, um detaillierte Schnittbilder des Körpers zu erstellen.",
+                "en": "_________ is an imaging technique that uses X-rays to create detailed cross-sectional images of the body.",
+                "bn": "_________ একটি ইমেজিং কৌশল যা শরীরের বিস্তারিত ক্রস-সেকশনাল ছবি তৈরি করতে এক্স-রে ব্যবহার করে।",
+                "hi": "_________ एक इमेजिंग तकनीक है जो शरीर की विस्तृत क्रॉस-सेक्शनल छवियां बनाने के लिए एक्स-रे का उपयोग करती है।",
+                "ur": "_________ ایک امیجنگ تکنیک ہے جو جسم کی تفصیلی کراس سیکشنل تصاویر بنانے کے لیے ایکسرے کا استعمال کرتی ہے۔",
+                "tr": "_________ vücudun ayrıntılı kesitsel görüntülerini oluşturmak için röntgen ışınlarını kullanan bir görüntüleme tekniğidir."
+            },
+            "options": [],
+            "correctAnswer": "Computertomographie",
+            "explanation": {
+                "en": "Computed tomography (CT) uses X-rays to generate cross-sectional images of the body.",
+                "bn": "কম্পিউটেড টমোগ্রাফি (সিটি) শরীরের ক্রস-সেকশনাল ছবি তৈরি করতে এক্স-রে ব্যবহার করে।",
+                "hi": "कंप्यूटेड टोमोग्राफी (सीटी) शरीर की क्रॉस-सेक्शनल छवियां उत्पन्न करने के लिए एक्स-रे का उपयोग करती है।",
+                "ur": "کمپیوٹڈ ٹوموگرافی (سی ٹی) جسم کی کراس سیکشنل تصاویر بنانے کے لیے ایکسرے کا استعمال کرتی ہے۔",
+                "tr": "Bilgisayarlı tomografi (BT), vücudun kesitsel görüntülerini oluşturmak için röntgen ışınları kullanır."
+            },
+            "points": 10,
+            "id": "e20_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bei einer _________ werden Schallwellen verwendet, um Bilder von inneren Organen zu erzeugen.",
+                "en": "In an _________ sound waves are used to create images of internal organs.",
+                "bn": "একটি _________ এ অভ্যন্তরীণ অঙ্গগুলির ছবি তৈরি করতে শব্দ তরঙ্গ ব্যবহার করা হয়।",
+                "hi": "एक _________ में आंतरिक अंगों की छवियां बनाने के लिए ध्वनि तरंगों का उपयोग किया जाता है।",
+                "ur": "ایک _________ میں اندرونی اعضاء کی تصاویر بنانے کے لیے آواز کی لہریں استعمال کی جاتی ہیں۔",
+                "tr": "Bir _________ de iç organların görüntülerini oluşturmak için ses dalgaları kullanılır."
+            },
+            "options": [],
+            "correctAnswer": "Ultraschalluntersuchung",
+            "explanation": {
+                "en": "An ultrasound examination uses sound waves to create images of internal organs.",
+                "bn": "একটি আল্ট্রাসাউন্ড পরীক্ষায় অভ্যন্তরীণ অঙ্গগুলির ছবি তৈরি করতে শব্দ তরঙ্গ ব্যবহার করা হয়।",
+                "hi": "एक अल्ट्रासाउंड परीक्षा में आंतरिक अंगों की छवियां बनाने के लिए ध्वनि तरंगों का उपयोग किया जाता है।",
+                "ur": "ایک الٹراساؤنڈ امتحان میں اندرونی اعضاء کی تصاویر بنانے کے لیے آواز کی لہروں کا استعمال کیا جاتا ہے۔",
+                "tr": "Bir ultrason muayenesinde iç organların görüntülerini oluşturmak için ses dalgaları kullanılır."
+            },
+            "points": 10,
+            "id": "e20_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein _________ ist ein Bericht eines Radiologen, der die Ergebnisse einer radiologischen Untersuchung zusammenfasst.",
+                "en": "A _________ is a report by a radiologist that summarizes the findings of a radiological examination.",
+                "bn": "একটি _________ হলো একজন রেডিওলজিস্টের প্রতিবেদন যা একটি রেডিওলজিক্যাল পরীক্ষার ফলাফল সংক্ষিপ্ত করে।",
+                "hi": "एक _________ एक रेडियोलॉजिस्ट की रिपोर्ट है जो एक रेडियोलॉजिकल परीक्षा के निष्कर्षों को संक्षेप में प्रस्तुत करती है।",
+                "ur": "ایک _________ ایک ریڈیولاجسٹ کی رپورٹ ہے جو ریڈیولاجیکل امتحان کے نتائج کا خلاصہ کرتی ہے۔",
+                "tr": "Bir _________, bir radyolog tarafından radyolojik bir muayenenin bulgularını özetleyen bir rapordur."
+            },
+            "options": [],
+            "correctAnswer": "Befund",
+            "explanation": {
+                "en": "A Befund is a radiologist's report summarizing the findings of a radiological examination and providing a diagnosis.",
+                "bn": "একটি Befund হলো একজন রেডিওলজিস্টের প্রতিবেদন যা একটি রেডিওলজিক্যাল পরীক্ষার ফলাফল সংক্ষিপ্ত করে এবং রোগ নির্ণয় প্রদান করে।",
+                "hi": "एक Befund एक रेडियोलॉजिस्ट की रिपोर्ट है जो एक रेडियोलॉजिकल परीक्षा के निष्कर्षों को संक्षेप में प्रस्तुत करती है और निदान प्रदान करती है।",
+                "ur": "ایک Befund ایک ریڈیولاجسٹ کی رپورٹ ہے جو ایک ریڈیولاجیکل امتحان کے نتائج کا خلاصہ کرتی ہے اور تشخیص فراہم کرتی ہے۔",
+                "tr": "Bir Befund, bir radyoloğun radyolojik bir muayenenin bulgularını özetleyen ve bir tanı sağlayan rapordur."
+            },
+            "points": 10,
+            "id": "e20_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die Abkürzung ________ steht für Magnetresonanztomographie.",
+                "en": "The abbreviation ________ stands for Magnetic Resonance Imaging.",
+                "bn": "সংক্ষিপ্ত রূপ ________ ম্যাগনেটিক রেজোন্যান্স ইমেজিং এর জন্য দাঁড়িয়েছে।",
+                "hi": "संक्षिप्त रूप ________ मैग्नेटिक रेजोनेंस इमेजिंग के लिए खड़ा है।",
+                "ur": "مختصر نام ________ میگنیٹک ریزوننس امیجنگ کے لیے مخفف ہے۔",
+                "tr": "_________ kısaltması Manyetik Rezonans Görüntüleme anlamına gelir."
+            },
+            "options": [],
+            "correctAnswer": "MRT",
+            "explanation": {
+                "en": "The abbreviation MRI stands for Magnetic Resonance Imaging.",
+                "bn": "সংক্ষিপ্ত রূপ MRI ম্যাগনেটিক রেজোন্যান্স ইমেজিং এর জন্য দাঁড়িয়েছে।",
+                "hi": "संक्षिप्त रूप MRI मैग्नेटिक रेजोनेंस इमेजिंग के लिए खड़ा है।",
+                "ur": "مختصر نام MRI میگنیٹک ریزوننس امیجنگ کے لیے مخفف ہے۔",
+                "tr": "MRI kısaltması Manyetik Rezonans Görüntüleme anlamına gelir."
+            },
+            "points": 10,
+            "id": "e20_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Der Patient benötigt eine Röntgenaufnahme der Lunge.",
+                "en": "The patient needs an X-ray of the lungs.",
+                "bn": "রোগীর ফুসফুসের একটি এক্স-রে প্রয়োজন।",
+                "hi": "मरीज को फेफड़ों का एक्स-रे चाहिए।",
+                "ur": "مریض کو پھیپھڑوں کا ایکسرے درکار ہے۔",
+                "tr": "Hastanın akciğer röntgenine ihtiyacı var."
+            },
+            "options": [],
+            "correctAnswer": "The patient needs an X-ray of the lungs.",
+            "explanation": {
+                "en": "Correct translation of the sentence.",
+                "bn": "সঠিক অনুবাদ।",
+                "hi": "वाक्य का सही अनुवाद।",
+                "ur": "جملے کا درست ترجمہ۔",
+                "tr": "Cümlenin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e20_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Wir haben einen Befund für die Computertomographie des Abdomens.",
+                "en": "We have a report for the computed tomography of the abdomen.",
+                "bn": "আমাদের পেটের কম্পিউটেড টমোগ্রাফির একটি প্রতিবেদন আছে।",
+                "hi": "हमारे पास पेट की कंप्यूटेड टोमोग्राफी की एक रिपोर्ट है।",
+                "ur": "ہمارے پاس پیٹ کی کمپیوٹیڈ ٹوموگرافی کی ایک رپورٹ ہے۔",
+                "tr": "Karın bilgisayarlı tomografisi için bir raporumuz var."
+            },
+            "options": [],
+            "correctAnswer": "We have a report for the computed tomography of the abdomen.",
+            "explanation": {
+                "en": "Correct translation of the sentence.",
+                "bn": "সঠিক অনুবাদ।",
+                "hi": "वाक्य का सही अनुवाद।",
+                "ur": "جملے کا درست ترجمہ۔",
+                "tr": "Cümlenin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e20_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Das Ultraschallbild zeigt eine Zyste in der Leber.",
+                "en": "The ultrasound image shows a cyst in the liver.",
+                "bn": "আল্ট্রাসাউন্ড ছবিতে লিভারে একটি সিস্ট দেখা যাচ্ছে।",
+                "hi": "अल्ट्रासाउंड की छवि में यकृत में एक सिस्ट दिखाई दे रहा है।",
+                "ur": "الٹراساؤنڈ کی تصویر میں جگر میں ایک سسٹ نظر آرہا ہے۔",
+                "tr": "Ultrason görüntüsü karaciğerde bir kist gösteriyor."
+            },
+            "options": [],
+            "correctAnswer": "The ultrasound image shows a cyst in the liver.",
+            "explanation": {
+                "en": "Correct translation of the sentence.",
+                "bn": "সঠিক অনুবাদ।",
+                "hi": "वाक्य का सही अनुवाद।",
+                "ur": "جملے کا درست ترجمہ۔",
+                "tr": "Cümlenin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e20_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

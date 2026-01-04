@@ -79,6 +79,56 @@ class SectionModel {
       'media': media?.toMap(),
     };
   }
+
+  /// Factory to create SectionModel from local JSON file data
+  factory SectionModel.fromJson(Map<String, dynamic> json) {
+    return SectionModel(
+      id: json['id'] ?? '',
+      phaseId: json['phaseId'] ?? '',
+      order: json['order'] ?? 0,
+      titleDe: json['titleDe'] ?? '',
+      title: Map<String, String>.from(json['title'] ?? {}),
+      description: Map<String, String>.from(json['description'] ?? {}),
+      level: json['level'] ?? 'A1',
+      estimatedMinutes: json['estimatedMinutes'] ?? 30,
+      iconUrl: json['iconUrl'] ?? '',
+      thumbnailUrl: json['thumbnailUrl'] ?? '',
+      isPremium: json['isPremium'] ?? false,
+      textContent: json['textContent'] != null
+          ? SectionTextContent.fromMap(json['textContent'] as Map<String, dynamic>)
+          : null,
+      media: json['media'] != null
+          ? SectionMedia.fromMap(json['media'] as Map<String, dynamic>)
+          : null,
+    );
+  }
+
+  /// Create a copy of this section with updated fields from JSON data
+  SectionModel copyWithJsonData(Map<String, dynamic> jsonData) {
+    return SectionModel(
+      id: id,
+      phaseId: phaseId,
+      order: order,
+      titleDe: jsonData['titleDe'] ?? titleDe,
+      title: jsonData['title'] != null
+          ? Map<String, String>.from(jsonData['title'])
+          : title,
+      description: jsonData['description'] != null
+          ? Map<String, String>.from(jsonData['description'])
+          : description,
+      level: jsonData['level'] ?? level,
+      estimatedMinutes: jsonData['estimatedMinutes'] ?? estimatedMinutes,
+      iconUrl: jsonData['iconUrl'] ?? iconUrl,
+      thumbnailUrl: jsonData['thumbnailUrl'] ?? thumbnailUrl,
+      isPremium: jsonData['isPremium'] ?? isPremium,
+      textContent: jsonData['textContent'] != null
+          ? SectionTextContent.fromMap(jsonData['textContent'] as Map<String, dynamic>)
+          : textContent,
+      media: jsonData['media'] != null
+          ? SectionMedia.fromMap(jsonData['media'] as Map<String, dynamic>)
+          : media,
+    );
+  }
 }
 
 class SectionTextContent {
@@ -113,11 +163,39 @@ class SectionTextContent {
   }
 
   factory SectionTextContent.fromMap(Map<String, dynamic> map) {
+    // Helper to parse fields that may be simple strings or nested objects with bullets
+    Map<String, String> parseLocalizedField(dynamic field) {
+      if (field == null) return {};
+      final result = <String, String>{};
+      if (field is Map) {
+        for (final entry in field.entries) {
+          final key = entry.key.toString();
+          final value = entry.value;
+          if (value is String) {
+            result[key] = value;
+          } else if (value is Map) {
+            // Handle nested bullet structure: {bullet1: "...", bullet2: "..."}
+            final bullets = value.entries
+                .where((e) => e.key.toString().startsWith('bullet'))
+                .map((e) => '• ${e.value}')
+                .toList();
+            if (bullets.isNotEmpty) {
+              result[key] = bullets.join('\n');
+            } else {
+              // Fallback: join all values
+              result[key] = value.values.map((v) => v.toString()).join('\n');
+            }
+          }
+        }
+      }
+      return result;
+    }
+
     return SectionTextContent(
-      introduction: Map<String, String>.from(map['introduction'] ?? {}),
-      grammarFocus: Map<String, String>.from(map['grammarFocus'] ?? {}),
-      culturalNotes: Map<String, String>.from(map['culturalNotes'] ?? {}),
-      summary: Map<String, String>.from(map['summary'] ?? {}),
+      introduction: parseLocalizedField(map['introduction']),
+      grammarFocus: parseLocalizedField(map['grammarFocus']),
+      culturalNotes: parseLocalizedField(map['culturalNotes']),
+      summary: parseLocalizedField(map['summary']),
       learningObjectives: List<String>.from(map['learningObjectives'] ?? []),
     );
   }

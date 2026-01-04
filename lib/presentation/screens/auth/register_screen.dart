@@ -5,7 +5,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import '../../../core/themes/app_colors.dart';
 import '../../../core/themes/app_text_styles.dart';
-import '../../../data/repositories/auth_repository.dart';
 import '../../providers/providers.dart';
 
 class RegisterScreen extends ConsumerStatefulWidget {
@@ -17,7 +16,6 @@ class RegisterScreen extends ConsumerStatefulWidget {
 
 class _RegisterScreenState extends ConsumerState<RegisterScreen> {
   final _formKey = GlobalKey<FormState>();
-  final _nameController = TextEditingController();
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
   final _confirmPasswordController = TextEditingController();
@@ -28,7 +26,6 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
 
   @override
   void dispose() {
-    _nameController.dispose();
     _emailController.dispose();
     _passwordController.dispose();
     _confirmPasswordController.dispose();
@@ -46,15 +43,16 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
     try {
       final authRepo = ref.read(authRepositoryProvider);
       final sourceLanguage = ref.read(userLanguageProvider);
-      
+
       await authRepo.registerWithEmail(
         email: _emailController.text.trim(),
         password: _passwordController.text,
-        displayName: _nameController.text.trim(),
         sourceLanguage: sourceLanguage,
       );
+
+      // Navigate to email verification screen
       if (mounted) {
-        context.go('/home');
+        context.go('/verify-email', extra: _emailController.text.trim());
       }
     } catch (e) {
       setState(() {
@@ -75,9 +73,15 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
 
     try {
       final authRepo = ref.read(authRepositoryProvider);
-      await authRepo.signInWithGoogle();
+      final result = await authRepo.signInWithGoogle();
+
       if (mounted) {
-        context.go('/home');
+        // If new user or hasn't accepted terms, go to terms screen
+        if (result.isNewUser || !result.hasAcceptedTerms) {
+          context.go('/terms');
+        } else {
+          context.go('/home');
+        }
       }
     } catch (e) {
       setState(() {
@@ -98,9 +102,15 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
 
     try {
       final authRepo = ref.read(authRepositoryProvider);
-      await authRepo.signInWithApple();
+      final result = await authRepo.signInWithApple();
+
       if (mounted) {
-        context.go('/home');
+        // If new user or hasn't accepted terms, go to terms screen
+        if (result.isNewUser || !result.hasAcceptedTerms) {
+          context.go('/terms');
+        } else {
+          context.go('/home');
+        }
       }
     } catch (e) {
       setState(() {
@@ -173,25 +183,6 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
                 key: _formKey,
                 child: Column(
                   children: [
-                    // Name field
-                    TextFormField(
-                      controller: _nameController,
-                      textCapitalization: TextCapitalization.words,
-                      textInputAction: TextInputAction.next,
-                      decoration: const InputDecoration(
-                        labelText: 'Full Name',
-                        hintText: 'Enter your name',
-                        prefixIcon: Icon(Icons.person_outlined),
-                      ),
-                      validator: (value) {
-                        if (value == null || value.isEmpty) {
-                          return 'Please enter your name';
-                        }
-                        return null;
-                      },
-                    ),
-                    const SizedBox(height: 16),
-                    
                     // Email field
                     TextFormField(
                       controller: _emailController,

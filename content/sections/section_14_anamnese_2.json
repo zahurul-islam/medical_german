@@ -1,11 +1,1631 @@
-{"id":"section_14","phaseId":"phase2","order":14,"titleDe":"Anamnese 2","title":{"en":"Patient History 2","bn":"রোগীর ইতিহাস 2","hi":"रोगी इतिहास 2","ur":"مریض کی تاریخ 2","tr":"Hasta Öyküsü 2"},"level":"B1","estimatedMinutes":35,"vocabulary":[
-{"id":"v14_01","germanTerm":"Anamnese","article":"die","plural":"Anamnesen","translation":{"en":"Medical History","bn":"চিকিৎসা ইতিহাস","hi":"चिकित्सा इतिहास","ur":"طبی تاریخ","tr":"Tıbbi öykü"}},
-{"id":"v14_02","germanTerm":"Hauptbeschwerde","article":"die","plural":"Hauptbeschwerden","translation":{"en":"Chief Complaint","bn":"প্রধান অভিযোগ","hi":"मुख्य शिकायत","ur":"اہم شکایت","tr":"Ana şikayet"}},
-{"id":"v14_03","germanTerm":"Vorerkrankungen","article":"die","plural":"-","translation":{"en":"Pre-existing Conditions","bn":"পূর্ববর্তী রোগ","hi":"पूर्व बीमारियां","ur":"پہلے کی بیماریاں","tr":"Mevcut hastalıklar"}},
-{"id":"v14_04","germanTerm":"Familienanamnese","article":"die","plural":"-","translation":{"en":"Family History","bn":"পারিবারিক ইতিহাস","hi":"पारिवारिक इतिहास","ur":"خاندانی تاریخ","tr":"Aile öyküsü"}},
-{"id":"v14_05","germanTerm":"Allergie","article":"die","plural":"Allergien","translation":{"en":"Allergy","bn":"এলার্জি","hi":"एलर्जी","ur":"الرجی","tr":"Alerji"}},
-{"id":"v14_06","germanTerm":"Operation","article":"die","plural":"Operationen","translation":{"en":"Surgery","bn":"অপারেশন","hi":"ऑपरेशन","ur":"آپریشن","tr":"Ameliyat"}}
-],"dialogues":[{"id":"d14_01","title":{"en":"Taking History"},"lines":[
-{"speaker":"Arzt","germanText":"Was führt Sie zu uns?","translation":{"en":"What brings you to us?"}},
-{"speaker":"Patient","germanText":"Ich habe seit einer Woche starke Bauchschmerzen.","translation":{"en":"I've had severe abdominal pain for a week."}}
-]}],"exercises":[{"id":"e14_01","type":"multipleChoice","question":{"en":"What is 'Anamnese'?"},"options":["Medical History","Diagnosis","Treatment"],"correctAnswer":"Medical History","points":10}]}
+{
+    "id": "section_14",
+    "phaseId": "phase2",
+    "order": 14,
+    "titleDe": "Anamnese II",
+    "title": {
+        "en": "Anamnesis II - History: Family, Social, Lifestyle, Occupation, Smoking, Alcohol",
+        "de": "Anamnese II - Anamneseerhebung: Familienanamnese, Sozialanamnese, Lebensstil, Beruf, Rauchen, Alkohol",
+        "bn": "অ্যানামনেসিস II - ইতিহাস: পারিবারিক, সামাজিক, জীবনযাত্রা, পেশা, ধূমপান, অ্যালকোহল",
+        "hi": "एनामनेसिस II - इतिहास: पारिवारिक, सामाजिक, जीवनशैली, व्यवसाय, धूम्रपान, शराब",
+        "ur": "اینامنسس II - تاریخ: خاندانی، سماجی، طرز زندگی، پیشہ، تمباکو نوشی، الکحل",
+        "tr": "Anamnez II - Hikaye: Aile, Sosyal, Yaşam Tarzı, Meslek, Sigara, Alkol"
+    },
+    "description": {
+        "en": "This section focuses on obtaining detailed information about a patient's family history, social circumstances, lifestyle, occupation, and substance use to understand their overall health context.",
+        "de": "Dieser Abschnitt konzentriert sich auf die Erhebung detaillierter Informationen über die Familienanamnese, die sozialen Umstände, den Lebensstil, den Beruf und den Substanzkonsum eines Patienten, um seinen gesamten gesundheitlichen Kontext zu verstehen.",
+        "bn": "এই বিভাগটি রোগীর সামগ্রিক স্বাস্থ্য প্রেক্ষাপট বোঝার জন্য তার পারিবারিক ইতিহাস, সামাজিক পরিস্থিতি, জীবনযাত্রা, পেশা এবং মাদক ব্যবহারের বিষয়ে বিস্তারিত তথ্য সংগ্রহের উপর দৃষ্টি নিবদ্ধ করে।",
+        "hi": "यह खंड रोगी के समग्र स्वास्थ्य संदर्भ को समझने के लिए उसके पारिवारिक इतिहास, सामाजिक परिस्थितियों, जीवनशैली, व्यवसाय और पदार्थ उपयोग के बारे में विस्तृत जानकारी प्राप्त करने पर केंद्रित है।",
+        "ur": "یہ سیکشن مریض کے مجموعی صحت کے تناظر کو سمجھنے کے لیے اس کے خاندانی تاریخ، سماجی حالات، طرز زندگی، پیشہ اور مادہ کے استعمال کے بارے میں تفصیلی معلومات حاصل کرنے پر توجہ مرکوز کرتا ہے۔",
+        "tr": "Bu bölüm, hastanın genel sağlık bağlamını anlamak için aile geçmişi, sosyal koşulları, yaşam tarzı, mesleği ve madde kullanımı hakkında ayrıntılı bilgi edinmeye odaklanır."
+    },
+    "level": "B1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, we will delve into the crucial aspects of the patient's history, focusing on their family background, social environment, and lifestyle choices. Understanding these elements is paramount for a holistic assessment and tailored treatment plan.",
+            "de": "In diesem Abschnitt werden wir uns mit den wesentlichen Aspekten der Anamnese des Patienten befassen, wobei wir uns auf seinen familiären Hintergrund, sein soziales Umfeld und seine Lebensstilentscheidungen konzentrieren. Das Verständnis dieser Elemente ist für eine ganzheitliche Beurteilung und einen maßgeschneiderten Behandlungsplan von größter Bedeutung.",
+            "bn": "এই বিভাগে, আমরা রোগীর ইতিহাসের গুরুত্বপূর্ণ দিকগুলি নিয়ে আলোচনা করব, তাদের পারিবারিক পটভূমি, সামাজিক পরিবেশ এবং জীবনযাত্রার পছন্দের উপর মনোযোগ দেব। একটি সামগ্রিক মূল্যায়ন এবং উপযোগী চিকিৎসার পরিকল্পনার জন্য এই উপাদানগুলি বোঝা অত্যন্ত গুরুত্বপূর্ণ।",
+            "hi": "इस खंड में, हम रोगी के इतिहास के महत्वपूर्ण पहलुओं पर ध्यान केंद्रित करेंगे, उनके पारिवारिक पृष्ठभूमि, सामाजिक परिवेश और जीवनशैली विकल्पों पर ध्यान केंद्रित करेंगे। एक समग्र मूल्यांकन और अनुरूप उपचार योजना के लिए इन तत्वों को समझना अत्यंत महत्वपूर्ण है।",
+            "ur": "اس سیکشن میں، ہم مریض کی تاریخ کے اہم پہلوؤں پر توجہ مرکوز کریں گے، ان کے خاندانی پس منظر، سماجی ماحول اور طرز زندگی کے انتخاب پر توجہ مرکوز کریں گے۔ ایک جامع تشخیص اور موزوں علاج کے منصوبے کے لیے ان عناصر کو سمجھنا انتہائی ضروری ہے۔",
+            "tr": "Bu bölümde, hastanın aile geçmişi, sosyal çevresi ve yaşam tarzı seçimlerine odaklanarak, hastanın öyküsünün önemli yönlerini inceleyeceğiz. Bu unsurları anlamak, bütünsel bir değerlendirme ve kişiye özel bir tedavi planı için çok önemlidir."
+        },
+        "grammarFocus": {
+            "en": [
+                "Practice using specific vocabulary related to family history (e.g., *Herzinfarkt*, *Diabetes*) and social circumstances (e.g., *alleinlebend*, *verheiratet*).",
+                "Pay attention to the accusative and dative cases when asking about substance use (e.g., *Was rauchen Sie?*, *Wie viel Alkohol trinken Sie pro Tag?*)."
+            ],
+            "de": [
+                "Üben Sie die Verwendung spezifischer Vokabeln im Zusammenhang mit der Familienanamnese (z. B. *Herzinfarkt*, *Diabetes*) und den sozialen Umständen (z. B. *alleinlebend*, *verheiratet*).",
+                "Achten Sie auf den Akkusativ- und Dativfall, wenn Sie nach Substanzkonsum fragen (z. B. *Was rauchen Sie?*, *Wie viel Alkohol trinken Sie pro Tag?*)."
+            ],
+            "bn": [
+                "পারিবারিক ইতিহাস (যেমন, *Herzinfarkt*, *Diabetes*) এবং সামাজিক পরিস্থিতি (যেমন, *alleinlebend*, *verheiratet*) সম্পর্কিত নির্দিষ্ট শব্দভাণ্ডার ব্যবহার করার অনুশীলন করুন।",
+                "মাদক ব্যবহারের বিষয়ে জিজ্ঞাসা করার সময় accusative এবং dative case এর দিকে মনোযোগ দিন (যেমন, *Was rauchen Sie?*, *Wie viel Alkohol trinken Sie pro Tag?*)।"
+            ],
+            "hi": [
+                "पारिवारिक इतिहास (जैसे, *Herzinfarkt*, *Diabetes*) और सामाजिक परिस्थितियों (जैसे, *alleinlebend*, *verheiratet*) से संबंधित विशिष्ट शब्दावली का उपयोग करने का अभ्यास करें।",
+                "पदार्थ के उपयोग के बारे में पूछते समय कर्म कारक और संप्रदान कारक पर ध्यान दें (जैसे, *Was rauchen Sie?*, *Wie viel Alkohol trinken Sie pro Tag?*)।"
+            ],
+            "ur": [
+                "خاندانی تاریخ (جیسے، *Herzinfarkt*, *Diabetes*) اور سماجی حالات (جیسے، *alleinlebend*, *verheiratet*) سے متعلق مخصوص الفاظ کے استعمال کی مشق کریں۔",
+                "مادے کے استعمال کے بارے میں پوچھتے وقت accusative اور dative cases پر توجہ دیں (جیسے، *Was rauchen Sie?*, *Wie viel Alkohol trinken Sie pro Tag?*)।"
+            ],
+            "tr": [
+                "Aile geçmişi (örn. *Herzinfarkt*, *Diabetes*) ve sosyal durumlarla (örn. *alleinlebend*, *verheiratet*) ilgili belirli kelime dağarcığını kullanma alıştırması yapın.",
+                "Madde kullanımı hakkında soru sorarken belirtme ve yönelme hallerine dikkat edin (örn. *Was rauchen Sie?*, *Wie viel Alkohol trinken Sie pro Tag?*)."
+            ]
+        },
+        "culturalNotes": {
+            "en": "In German medical settings, patients are often very direct and may expect explicit and honest communication about their health risks and treatment options.",
+            "de": "In deutschen medizinischen Einrichtungen sind Patienten oft sehr direkt und erwarten eine explizite und ehrliche Kommunikation über ihre Gesundheitsrisiken und Behandlungsoptionen.",
+            "bn": "জার্মান চিকিৎসা ব্যবস্থায়, রোগীরা প্রায়শই খুব স্পষ্টবাদী হন এবং তাদের স্বাস্থ্য ঝুঁকি এবং চিকিৎসার বিকল্প সম্পর্কে স্পষ্ট এবং সৎ যোগাযোগের প্রত্যাশা করেন।",
+            "hi": "जर्मन चिकित्सा व्यवस्था में, रोगी अक्सर बहुत स्पष्टवादी होते हैं और अपने स्वास्थ्य जोखिमों और उपचार विकल्पों के बारे में स्पष्ट और ईमानदार संचार की उम्मीद करते हैं।",
+            "ur": "جرمن طبی ترتیبات میں، مریض اکثر بہت واضح ہوتے ہیں اور اپنی صحت کے خطرات اور علاج کے اختیارات کے بارے میں واضح اور ایماندارانہ مواصلات کی توقع کرتے ہیں۔",
+            "tr": "Alman tıbbi ortamlarında, hastalar genellikle çok açıktırlar ve sağlık riskleri ve tedavi seçenekleri hakkında açık ve dürüst iletişim beklerler."
+        },
+        "summary": {
+            "en": "Thoroughly documenting the patient's family, social, and lifestyle history is essential for building a comprehensive understanding of their health status and potential risks.",
+            "de": "Die sorgfältige Dokumentation der Familien-, Sozial- und Lebensstilanamnese des Patienten ist entscheidend, um ein umfassendes Verständnis seines Gesundheitszustands und potenzieller Risiken zu entwickeln.",
+            "bn": "রোগীর পারিবারিক, সামাজিক এবং জীবনযাত্রার ইতিহাস পুঙ্খানুপুঙ্খভাবে নথিভুক্ত করা তাদের স্বাস্থ্য স্থিতির এবং সম্ভাব্য ঝুঁকিগুলির একটি ব্যাপক ধারণা তৈরি করার জন্য অপরিহার্য।",
+            "hi": "रोगी के परिवार, सामाजिक और जीवनशैली इतिहास का पूरी तरह से दस्तावेजीकरण करना उनकी स्वास्थ्य स्थिति और संभावित जोखिमों की व्यापक समझ बनाने के लिए आवश्यक है।",
+            "ur": "مریض کے خاندانی، سماجی اور طرز زندگی کی تاریخ کو مکمل طور پر دستاویزی شکل دینا ان کی صحت کی صورتحال اور ممکنہ خطرات کی ایک جامع تفہیم پیدا کرنے کے لیے ضروری ہے۔",
+            "tr": "Hastanın aile, sosyal ve yaşam tarzı geçmişini eksiksiz bir şekilde belgelemek, sağlık durumu ve potansiyel riskleri hakkında kapsamlı bir anlayış oluşturmak için çok önemlidir."
+        },
+        "learningObjectives": [
+            "Learn to ask relevant questions about family history in German.",
+            "Understand the impact of social circumstances on patient health.",
+            "Be able to document lifestyle factors such as smoking and alcohol consumption accurately.",
+            "Improve communication skills with German-speaking patients regarding sensitive topics."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "die Familienanamnese",
+            "article": "die",
+            "plural": "die Familienanamnesen",
+            "pronunciation": "/famiːli̯ənʔanaˈmneːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "family history",
+                "bn": "পারিবারিক ইতিহাস",
+                "hi": "पारिवारिक इतिहास",
+                "ur": "خاندانی تاریخ",
+                "tr": "aile öyküsü"
+            },
+            "exampleSentence": "Die Familienanamnese ergab eine Prädisposition für Herzerkrankungen.",
+            "exampleTranslation": {
+                "en": "The family history revealed a predisposition to heart disease.",
+                "bn": "পারিবারিক ইতিহাসে হৃদরোগের প্রবণতা দেখা গেছে।",
+                "hi": "पारिवारिक इतिहास से हृदय रोग की आशंका का पता चला।",
+                "ur": "خاندانی تاریخ سے دل کی بیماری کا رجحان ظاہر ہوا۔",
+                "tr": "Aile öyküsü, kalp hastalıklarına yatkınlık olduğunu ortaya koydu."
+            },
+            "id": "v14_01"
+        },
+        {
+            "germanTerm": "die Sozialanamnese",
+            "article": "die",
+            "plural": "die Sozialanamnesen",
+            "pronunciation": "/zoˈt͡si̯aːlʔanaˈmneːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "social history",
+                "bn": "সামাজিক ইতিহাস",
+                "hi": "सामाजिक इतिहास",
+                "ur": "سماجی تاریخ",
+                "tr": "sosyal öykü"
+            },
+            "exampleSentence": "Die Sozialanamnese des Patienten ist relevant für seine Genesung.",
+            "exampleTranslation": {
+                "en": "The patient's social history is relevant to his recovery.",
+                "bn": "রোগীর সামাজিক ইতিহাস তার পুনরুদ্ধারের জন্য প্রাসঙ্গিক।",
+                "hi": "रोगी का सामाजिक इतिहास उसके ठीक होने के लिए प्रासंगिक है।",
+                "ur": "مریض کی سماجی تاریخ اس کی بحالی کے لیے اہم ہے۔",
+                "tr": "Hastanın sosyal öyküsü, iyileşmesi için önemlidir."
+            },
+            "id": "v14_02"
+        },
+        {
+            "germanTerm": "der Lebensstil",
+            "article": "der",
+            "plural": "die Lebensstile",
+            "pronunciation": "/ˈleːbn̩sˌʃtiːl/",
+            "category": "noun",
+            "translation": {
+                "en": "lifestyle",
+                "bn": "জীবনধারা",
+                "hi": "जीवनशैली",
+                "ur": "طرز زندگی",
+                "tr": "yaşam tarzı"
+            },
+            "exampleSentence": "Ein gesunder Lebensstil kann das Risiko für chronische Krankheiten senken.",
+            "exampleTranslation": {
+                "en": "A healthy lifestyle can reduce the risk of chronic diseases.",
+                "bn": "একটি স্বাস্থ্যকর জীবনধারা দীর্ঘস্থায়ী রোগের ঝুঁকি কমাতে পারে।",
+                "hi": "एक स्वस्थ जीवनशैली पुरानी बीमारियों के खतरे को कम कर सकती है।",
+                "ur": "ایک صحت مند طرز زندگی دائمی بیماریوں کے خطرے کو کم کر سکتا ہے۔",
+                "tr": "Sağlıklı bir yaşam tarzı kronik hastalık riskini azaltabilir."
+            },
+            "id": "v14_03"
+        },
+        {
+            "germanTerm": "der Beruf",
+            "article": "der",
+            "plural": "die Berufe",
+            "pronunciation": "/bəˈʁuːf/",
+            "category": "noun",
+            "translation": {
+                "en": "occupation",
+                "bn": "পেশা",
+                "hi": "व्यवसाय",
+                "ur": "پیشہ",
+                "tr": "meslek"
+            },
+            "exampleSentence": "Welchen Beruf üben Sie aus?",
+            "exampleTranslation": {
+                "en": "What is your occupation?",
+                "bn": "আপনি কি পেশা অনুশীলন করেন?",
+                "hi": "आप क्या व्यवसाय करते हैं?",
+                "ur": "آپ کا پیشہ کیا ہے؟",
+                "tr": "Mesleğiniz nedir?"
+            },
+            "id": "v14_04"
+        },
+        {
+            "germanTerm": "rauchen",
+            "article": "das Rauchen",
+            "plural": null,
+            "pronunciation": "/ˈʁaʊ̯xn̩/",
+            "category": "noun",
+            "translation": {
+                "en": "smoking",
+                "bn": "ধূমপান",
+                "hi": "धूम्रपान",
+                "ur": "تمباکو نوشی",
+                "tr": "sigara içmek"
+            },
+            "exampleSentence": "Rauchen ist ein Risikofaktor für Lungenkrebs.",
+            "exampleTranslation": {
+                "en": "Smoking is a risk factor for lung cancer.",
+                "bn": "ধূমপান ফুসফুসের ক্যান্সারের জন্য একটি ঝুঁকির কারণ।",
+                "hi": "धूम्रपान फेफड़ों के कैंसर के लिए एक जोखिम कारक है।",
+                "ur": "تمباکو نوشی پھیپھڑوں کے کینسر کا ایک خطرہ ہے۔",
+                "tr": "Sigara içmek, akciğer kanseri için bir risk faktörüdür."
+            },
+            "id": "v14_05"
+        },
+        {
+            "germanTerm": "der Alkohol",
+            "article": "der",
+            "plural": null,
+            "pronunciation": "/ˈalkoˌhoːl/",
+            "category": "noun",
+            "translation": {
+                "en": "alcohol",
+                "bn": "অ্যালকোহল",
+                "hi": "शराब",
+                "ur": "شراب",
+                "tr": "alkol"
+            },
+            "exampleSentence": "Der Patient gab einen hohen Alkoholkonsum an.",
+            "exampleTranslation": {
+                "en": "The patient reported high alcohol consumption.",
+                "bn": "রোগী অত্যধিক অ্যালকোহল গ্রহণের কথা জানিয়েছেন।",
+                "hi": "रोगी ने अधिक शराब के सेवन की जानकारी दी।",
+                "ur": "مریض نے زیادہ الکحل نوشی کی اطلاع دی۔",
+                "tr": "Hasta yüksek alkol tüketimi bildirdi."
+            },
+            "id": "v14_06"
+        },
+        {
+            "germanTerm": "die Allergie",
+            "article": "die",
+            "plural": "die Allergien",
+            "pronunciation": "/aleʁˈɡiː/",
+            "category": "noun",
+            "translation": {
+                "en": "allergy",
+                "bn": "অ্যালার্জি",
+                "hi": "एलर्जी",
+                "ur": "الرجی",
+                "tr": "alerji"
+            },
+            "exampleSentence": "Haben Sie Allergien?",
+            "exampleTranslation": {
+                "en": "Do you have any allergies?",
+                "bn": "আপনার কি কোনো অ্যালার্জি আছে?",
+                "hi": "क्या आपको कोई एलर्जी है?",
+                "ur": "کیا آپ کو کوئی الرجی ہے؟",
+                "tr": "Alerjiniz var mı?"
+            },
+            "id": "v14_07"
+        },
+        {
+            "germanTerm": "die Vorerkrankung",
+            "article": "die",
+            "plural": "die Vorerkrankungen",
+            "pronunciation": "/ˈfoːɐ̯ʔɛɐ̯ˌkʁaŋkʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "pre-existing condition",
+                "bn": "পূর্ব বিদ্যমান অবস্থা",
+                "hi": "पहले से मौजूद स्थिति",
+                "ur": "پہلے سے موجود حالت",
+                "tr": "mevcut durum"
+            },
+            "exampleSentence": "Welche Vorerkrankungen haben Sie?",
+            "exampleTranslation": {
+                "en": "What pre-existing conditions do you have?",
+                "bn": "আপনার পূর্ব বিদ্যমান অবস্থা কি কি?",
+                "hi": "आपकी पहले से मौजूद स्थितियाँ क्या हैं?",
+                "ur": "آپ کی پہلے سے موجود حالتیں کیا ہیں؟",
+                "tr": "Mevcut durumlarınız nelerdir?"
+            },
+            "id": "v14_08"
+        },
+        {
+            "germanTerm": "die Medikation",
+            "article": "die",
+            "plural": "die Medikationen",
+            "pronunciation": "/medikaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "medication",
+                "bn": "ঔষধ",
+                "hi": "दवा",
+                "ur": "دوا",
+                "tr": "ilaç"
+            },
+            "exampleSentence": "Bitte nennen Sie alle Medikamente, die Sie einnehmen.",
+            "exampleTranslation": {
+                "en": "Please name all the medications you are taking.",
+                "bn": "অনুগ্রহ করে আপনার গ্রহণ করা সমস্ত ওষুধের নাম বলুন।",
+                "hi": "कृपया उन सभी दवाओं के नाम बताएं जो आप ले रहे हैं।",
+                "ur": "برائے مہربانی وہ تمام ادویات بتائیں جو آپ لے رہے ہیں۔",
+                "tr": "Lütfen aldığınız tüm ilaçların adını söyleyin."
+            },
+            "id": "v14_09"
+        },
+        {
+            "germanTerm": "die Operation",
+            "article": "die",
+            "plural": "die Operationen",
+            "pronunciation": "/ˌɔpəʁaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "surgery",
+                "bn": "অপারেশন",
+                "hi": "सर्जरी",
+                "ur": "سرجری",
+                "tr": "ameliyat"
+            },
+            "exampleSentence": "Hatten Sie schon einmal eine Operation?",
+            "exampleTranslation": {
+                "en": "Have you ever had surgery?",
+                "bn": "আপনার আগে কখনও অপারেশন হয়েছে?",
+                "hi": "क्या आपकी कभी सर्जरी हुई है?",
+                "ur": "کیا آپ کی کبھی سرجری ہوئی ہے؟",
+                "tr": "Daha önce hiç ameliyat oldunuz mu?"
+            },
+            "id": "v14_10"
+        },
+        {
+            "germanTerm": "der Nikotinkonsum",
+            "article": "der",
+            "plural": "die Nikotinkonsume",
+            "pronunciation": "/nikoˈtiːnˌkɔnzʊm/",
+            "category": "noun",
+            "translation": {
+                "en": "nicotine consumption",
+                "bn": "নিকোটিন গ্রহণ",
+                "hi": "निकोटीन का सेवन",
+                "ur": "نیکوٹین کا استعمال",
+                "tr": "nikotin tüketimi"
+            },
+            "exampleSentence": "Wie hoch ist Ihr Nikotinkonsum pro Tag?",
+            "exampleTranslation": {
+                "en": "How much nicotine do you consume per day?",
+                "bn": "প্রতিদিন আপনার নিকোটিন গ্রহণের পরিমাণ কত?",
+                "hi": "प्रतिदिन आप कितना निकोटीन का सेवन करते हैं?",
+                "ur": "آپ روزانہ کتنا نیکوٹین استعمال کرتے ہیں؟",
+                "tr": "Günde ne kadar nikotin tüketiyorsunuz?"
+            },
+            "id": "v14_11"
+        },
+        {
+            "germanTerm": "der Alkoholkonsum",
+            "article": "der",
+            "plural": "die Alkoholkonsume",
+            "pronunciation": "/ˈalkohoːlˌkɔnzʊm/",
+            "category": "noun",
+            "translation": {
+                "en": "alcohol consumption",
+                "bn": "অ্যালকোহল গ্রহণ",
+                "hi": "शराब का सेवन",
+                "ur": "شراب کا استعمال",
+                "tr": "alkol tüketimi"
+            },
+            "exampleSentence": "Wir müssen Ihren Alkoholkonsum reduzieren.",
+            "exampleTranslation": {
+                "en": "We need to reduce your alcohol consumption.",
+                "bn": "আমাদের আপনার অ্যালকোহল গ্রহণ কমাতে হবে।",
+                "hi": "हमें आपकी शराब के सेवन को कम करने की आवश्यकता है।",
+                "ur": "ہمیں آپ کی شراب نوشی کو کم کرنے کی ضرورت ہے۔",
+                "tr": "Alkol tüketiminizi azaltmamız gerekiyor."
+            },
+            "id": "v14_12"
+        },
+        {
+            "germanTerm": "die Ernährung",
+            "article": "die",
+            "plural": "die Ernährungen",
+            "pronunciation": "/ɛɐ̯ˈnɛːʁʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "nutrition",
+                "bn": "পুষ্টি",
+                "hi": "पोषण",
+                "ur": "غذائیت",
+                "tr": "beslenme"
+            },
+            "exampleSentence": "Achten Sie auf eine ausgewogene Ernährung.",
+            "exampleTranslation": {
+                "en": "Pay attention to a balanced diet.",
+                "bn": "একটি সুষম খাদ্যের দিকে মনোযোগ দিন।",
+                "hi": "एक संतुलित आहार पर ध्यान दें।",
+                "ur": "متوازن غذا پر توجہ دیں۔",
+                "tr": "Dengeli bir diyete dikkat edin."
+            },
+            "id": "v14_13"
+        },
+        {
+            "germanTerm": "körperliche Aktivität",
+            "article": "die",
+            "plural": "die körperlichen Aktivitäten",
+            "pronunciation": "/ˈkœʁpɐlɪçə aktiviˈtɛːt/",
+            "category": "noun",
+            "translation": {
+                "en": "physical activity",
+                "bn": "শারীরিক কার্যকলাপ",
+                "hi": "शारीरिक गतिविधि",
+                "ur": "جسمانی سرگرمی",
+                "tr": "fiziksel aktivite"
+            },
+            "exampleSentence": "Regelmäßige körperliche Aktivität ist wichtig für die Gesundheit.",
+            "exampleTranslation": {
+                "en": "Regular physical activity is important for health.",
+                "bn": "নিয়মিত শারীরিক কার্যকলাপ স্বাস্থ্যের জন্য গুরুত্বপূর্ণ।",
+                "hi": "नियमित शारीरिक गतिविधि स्वास्थ्य के लिए महत्वपूर्ण है।",
+                "ur": "باقاعدہ جسمانی سرگرمی صحت کے لیے اہم ہے۔",
+                "tr": "Düzenli fiziksel aktivite sağlık için önemlidir."
+            },
+            "id": "v14_14"
+        },
+        {
+            "germanTerm": "die Freizeitaktivität",
+            "article": "die",
+            "plural": "die Freizeitaktivitäten",
+            "pronunciation": "/ˈfʁaɪ̯t͡saɪ̯tʔaktiˌviːtɛːt/",
+            "category": "noun",
+            "translation": {
+                "en": "leisure activity",
+                "bn": "অবসর বিনোদন",
+                "hi": "फ़ुर्सत की गतिविधि",
+                "ur": "تفریحی سرگرمی",
+                "tr": "boş zaman etkinliği"
+            },
+            "exampleSentence": "Welche Freizeitaktivitäten üben Sie aus?",
+            "exampleTranslation": {
+                "en": "What leisure activities do you do?",
+                "bn": "আপনি কি ধরনের অবসর বিনোদন করেন?",
+                "hi": "आप क्या अवकाश गतिविधियाँ करते हैं?",
+                "ur": "آپ کون سی تفریحی سرگرمیاں کرتے ہیں؟",
+                "tr": "Ne tür boş zaman etkinlikleri yapıyorsunuz?"
+            },
+            "id": "v14_15"
+        },
+        {
+            "germanTerm": "das soziale Umfeld",
+            "article": "das",
+            "plural": "die sozialen Umfelder",
+            "pronunciation": "/zoˈt͡si̯aːlə ˈʊmfɛlt/",
+            "category": "noun",
+            "translation": {
+                "en": "social environment",
+                "bn": "সামাজিক পরিবেশ",
+                "hi": "सामाजिक परिवेश",
+                "ur": "سماجی ماحول",
+                "tr": "sosyal çevre"
+            },
+            "exampleSentence": "Ein stabiles soziales Umfeld ist wichtig für das Wohlbefinden.",
+            "exampleTranslation": {
+                "en": "A stable social environment is important for well-being.",
+                "bn": "একটি স্থিতিশীল সামাজিক পরিবেশ সুস্থতার জন্য গুরুত্বপূর্ণ।",
+                "hi": "एक स्थिर सामाजिक परिवेश कल्याण के लिए महत्वपूर्ण है।",
+                "ur": "ایک مستحکم سماجی ماحول فلاح و بہبود کے لیے اہم ہے۔",
+                "tr": "İstikrarlı bir sosyal çevre, refah için önemlidir."
+            },
+            "id": "v14_16"
+        },
+        {
+            "germanTerm": "die psychische Belastung",
+            "article": "die",
+            "plural": "die psychischen Belastungen",
+            "pronunciation": "/ˈpsyːçɪʃə bəˈlastʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "psychological stress",
+                "bn": "মানসিক চাপ",
+                "hi": "मानसिक तनाव",
+                "ur": "نفسیاتی دباؤ",
+                "tr": "psikolojik stres"
+            },
+            "exampleSentence": "Haben Sie momentan psychische Belastungen?",
+            "exampleTranslation": {
+                "en": "Are you currently experiencing psychological stress?",
+                "bn": "আপনি কি বর্তমানে মানসিক চাপের সম্মুখীন হচ্ছেন?",
+                "hi": "क्या आप वर्तमान में मानसिक तनाव का अनुभव कर रहे हैं?",
+                "ur": "کیا آپ اس وقت نفسیاتی دباؤ کا شکار ہیں؟",
+                "tr": "Şu anda psikolojik stres yaşıyor musunuz?"
+            },
+            "id": "v14_17"
+        },
+        {
+            "germanTerm": "der Schlafrhythmus",
+            "article": "der",
+            "plural": "die Schlafrhythmen",
+            "pronunciation": "/ˈʃlaːfˌʁʏtmʊs/",
+            "category": "noun",
+            "translation": {
+                "en": "sleep rhythm",
+                "bn": "ঘুমের ছন্দ",
+                "hi": "नींद की लय",
+                "ur": "سونے کی تال",
+                "tr": "uyku ritmi"
+            },
+            "exampleSentence": "Ist Ihr Schlafrhythmus regelmäßig?",
+            "exampleTranslation": {
+                "en": "Is your sleep rhythm regular?",
+                "bn": "আপনার ঘুমের ছন্দ কি নিয়মিত?",
+                "hi": "क्या आपकी नींद की लय नियमित है?",
+                "ur": "کیا آپ کی نیند کی تال باقاعدہ ہے؟",
+                "tr": "Uyku ritminiz düzenli mi?"
+            },
+            "id": "v14_18"
+        },
+        {
+            "germanTerm": "die Schlafstörung",
+            "article": "die",
+            "plural": "die Schlafstörungen",
+            "pronunciation": "/ˈʃlaːfˌʃtøːʁʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "sleep disorder",
+                "bn": "ঘুমের সমস্যা",
+                "hi": "नींद विकार",
+                "ur": "سونے کی خرابی",
+                "tr": "uyku bozukluğu"
+            },
+            "exampleSentence": "Leiden Sie unter Schlafstörungen?",
+            "exampleTranslation": {
+                "en": "Do you suffer from sleep disorders?",
+                "bn": "আপনি কি ঘুমের সমস্যায় ভুগছেন?",
+                "hi": "क्या आप नींद संबंधी विकारों से पीड़ित हैं?",
+                "ur": "کیا آپ سونے کی خرابیوں کا شکار ہیں؟",
+                "tr": "Uyku bozukluklarından muzdarip misiniz?"
+            },
+            "id": "v14_19"
+        },
+        {
+            "germanTerm": "die Substanzabhängigkeit",
+            "article": "die",
+            "plural": "die Substanzabhängigkeiten",
+            "pronunciation": "/zʊpˈstantsʔapˌhɛŋɪçkaɪ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "substance dependence",
+                "bn": "পদার্থ নির্ভরতা",
+                "hi": "पदार्थ निर्भरता",
+                "ur": "مادے پر انحصار",
+                "tr": "madde bağımlılığı"
+            },
+            "exampleSentence": "Es besteht der Verdacht auf eine Substanzabhängigkeit.",
+            "exampleTranslation": {
+                "en": "There is a suspicion of substance dependence.",
+                "bn": "পদার্থ নির্ভরতার সন্দেহ রয়েছে।",
+                "hi": "पदार्थ निर्भरता का संदेह है।",
+                "ur": "مادے پر انحصار کا شبہ ہے۔",
+                "tr": "Madde bağımlılığından şüpheleniliyor."
+            },
+            "id": "v14_20"
+        },
+        {
+            "germanTerm": "die Drogenanamnese",
+            "article": "die",
+            "plural": "die Drogenanamnesen",
+            "pronunciation": "/ˈdʁoːɡənʔanaˈmneːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "drug history",
+                "bn": "ড্রাগ ইতিহাস",
+                "hi": "दवा का इतिहास",
+                "ur": "منشیات کی تاریخ",
+                "tr": "ilaç geçmişi"
+            },
+            "exampleSentence": "Die Drogenanamnese ist wichtig, um die Ursache der Symptome zu finden.",
+            "exampleTranslation": {
+                "en": "The drug history is important to find the cause of the symptoms.",
+                "bn": "লক্ষণগুলির কারণ খুঁজে বের করার জন্য ড্রাগ ইতিহাস গুরুত্বপূর্ণ।",
+                "hi": "लक्षणों का कारण जानने के लिए दवा का इतिहास महत्वपूर्ण है।",
+                "ur": "علامات کی وجہ جاننے کے لیے منشیات کی تاریخ اہم ہے۔",
+                "tr": "Semptomların nedenini bulmak için ilaç geçmişi önemlidir."
+            },
+            "id": "v14_21"
+        },
+        {
+            "germanTerm": "der Stress",
+            "article": "der",
+            "plural": null,
+            "pronunciation": "/ʃtʁɛs/",
+            "category": "noun",
+            "translation": {
+                "en": "stress",
+                "bn": "চাপ",
+                "hi": "तनाव",
+                "ur": "تناؤ",
+                "tr": "stres"
+            },
+            "exampleSentence": "Vermeiden Sie Stress, um Ihre Gesundheit zu verbessern.",
+            "exampleTranslation": {
+                "en": "Avoid stress to improve your health.",
+                "bn": "আপনার স্বাস্থ্য উন্নত করতে চাপ এড়িয়ে চলুন।",
+                "hi": "अपने स्वास्थ्य को बेहतर बनाने के लिए तनाव से बचें।",
+                "ur": "اپنی صحت کو بہتر بنانے کے لیے تناؤ سے بچیں۔",
+                "tr": "Sağlığınızı iyileştirmek için stresten kaçının."
+            },
+            "id": "v14_22"
+        },
+        {
+            "germanTerm": "die Arbeitssituation",
+            "article": "die",
+            "plural": "die Arbeitssituationen",
+            "pronunciation": "/ˈaʁbaɪ̯t͡sˌzɪtu̯aˌt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "work situation",
+                "bn": "কাজের পরিস্থিতি",
+                "hi": "काम की स्थिति",
+                "ur": "کام کی صورتحال",
+                "tr": "iş durumu"
+            },
+            "exampleSentence": "Wie ist Ihre aktuelle Arbeitssituation?",
+            "exampleTranslation": {
+                "en": "What is your current work situation?",
+                "bn": "আপনার বর্তমান কাজের পরিস্থিতি কেমন?",
+                "hi": "आपकी वर्तमान कार्य स्थिति क्या है?",
+                "ur": "آپ کی موجودہ کام کی صورتحال کیا ہے؟",
+                "tr": "Mevcut iş durumunuz nedir?"
+            },
+            "id": "v14_23"
+        },
+        {
+            "germanTerm": "die Wohnsituation",
+            "article": "die",
+            "plural": "die Wohnsituationen",
+            "pronunciation": "/ˈvoːnˌzɪtu̯aˌt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "living situation",
+                "bn": "বাসস্থানের পরিস্থিতি",
+                "hi": "रहने की स्थिति",
+                "ur": "رہنے کی صورتحال",
+                "tr": "yaşam durumu"
+            },
+            "exampleSentence": "Die Wohnsituation kann einen Einfluss auf die Gesundheit haben.",
+            "exampleTranslation": {
+                "en": "The living situation can have an impact on health.",
+                "bn": "বাসস্থানের পরিস্থিতি স্বাস্থ্যের উপর প্রভাব ফেলতে পারে।",
+                "hi": "रहने की स्थिति स्वास्थ्य पर प्रभाव डाल सकती है।",
+                "ur": "رہنے کی صورتحال صحت پر اثر انداز ہو سکتی ہے۔",
+                "tr": "Yaşam durumu sağlığı etkileyebilir."
+            },
+            "id": "v14_24"
+        },
+        {
+            "germanTerm": "die finanzielle Situation",
+            "article": "die",
+            "plural": "die finanziellen Situationen",
+            "pronunciation": "/fɪnanˈt͡si̯ɛlə zɪtu̯aˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "financial situation",
+                "bn": "আর্থিক অবস্থা",
+                "hi": "आर्थिक स्थिति",
+                "ur": "مالی صورتحال",
+                "tr": "mali durum"
+            },
+            "exampleSentence": "Ist Ihre finanzielle Situation stabil?",
+            "exampleTranslation": {
+                "en": "Is your financial situation stable?",
+                "bn": "আপনার আর্থিক অবস্থা কি স্থিতিশীল?",
+                "hi": "क्या आपकी आर्थिक स्थिति स्थिर है?",
+                "ur": "کیا آپ کی مالی صورتحال مستحکم ہے؟",
+                "tr": "Mali durumunuz istikrarlı mı?"
+            },
+            "id": "v14_25"
+        },
+        {
+            "germanTerm": "die Familienstand",
+            "article": "der",
+            "plural": "die Familienstände",
+            "pronunciation": "/famiːli̯ənˈʃtant/",
+            "category": "noun",
+            "translation": {
+                "en": "marital status",
+                "bn": "বৈবাহিক অবস্থা",
+                "hi": "वैवाहिक स्थिति",
+                "ur": "ازدواجی حیثیت",
+                "tr": "medeni hal"
+            },
+            "exampleSentence": "Was ist Ihr Familienstand?",
+            "exampleTranslation": {
+                "en": "What is your marital status?",
+                "bn": "আপনার বৈবাহিক অবস্থা কি?",
+                "hi": "आपकी वैवाहिक स्थिति क्या है?",
+                "ur": "آپ کی ازدواجی حیثیت کیا ہے؟",
+                "tr": "Medeni haliniz nedir?"
+            },
+            "id": "v14_26"
+        },
+        {
+            "germanTerm": "das Übergewicht",
+            "article": "das",
+            "plural": null,
+            "pronunciation": "/ˈyːbɐɡəˌvɪçt/",
+            "category": "noun",
+            "translation": {
+                "en": "overweight",
+                "bn": "অতিরিক্ত ওজন",
+                "hi": "अधिक वजन",
+                "ur": "زیادہ وزن",
+                "tr": "fazla kilo"
+            },
+            "exampleSentence": "Übergewicht kann zu gesundheitlichen Problemen führen.",
+            "exampleTranslation": {
+                "en": "Being overweight can lead to health problems.",
+                "bn": "অতিরিক্ত ওজন স্বাস্থ্য সমস্যা হতে পারে।",
+                "hi": "अधिक वजन स्वास्थ्य समस्याओं का कारण बन सकता है।",
+                "ur": "زیادہ وزن صحت کے مسائل کا باعث بن سکتا ہے۔",
+                "tr": "Fazla kilo sağlık sorunlarına yol açabilir."
+            },
+            "id": "v14_27"
+        },
+        {
+            "germanTerm": "der BMI (Body-Mass-Index)",
+            "article": "der",
+            "plural": "die BMIs",
+            "pronunciation": "/beː ʔɛm ʔiː/",
+            "category": "noun",
+            "translation": {
+                "en": "BMI (Body Mass Index)",
+                "bn": "বিএমআই (বডি মাস ইনডেক্স)",
+                "hi": "बीएमआई (बॉडी मास इंडेक्स)",
+                "ur": "بی ایم آئی (باڈی ماس انڈیکس)",
+                "tr": "BMI (Vücut Kitle İndeksi)"
+            },
+            "exampleSentence": "Ihr BMI deutet auf Übergewicht hin.",
+            "exampleTranslation": {
+                "en": "Your BMI indicates that you are overweight.",
+                "bn": "আপনার বিএমআই অতিরিক্ত ওজন নির্দেশ করে।",
+                "hi": "आपका बीएमआई बताता है कि आपका वजन अधिक है।",
+                "ur": "آپ کا بی ایم آئی بتاتا ہے کہ آپ کا وزن زیادہ ہے۔",
+                "tr": "BMI'niz fazla kilolu olduğunuzu gösteriyor."
+            },
+            "id": "v14_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Family History and Lifestyle",
+                "bn": "পারিবারিক ইতিহাস এবং জীবনধারা",
+                "hi": "पारिवारिक इतिहास और जीवनशैली",
+                "ur": "خاندانی تاریخ اور طرز زندگی",
+                "tr": "Aile Geçmişi ve Yaşam Tarzı"
+            },
+            "context": {
+                "en": "Dr. Schmidt takes the family history and lifestyle of Mr. Müller.",
+                "bn": "ডঃ শ্মিট জনাব মুলারের পারিবারিক ইতিহাস এবং জীবনধারা নিচ্ছেন।",
+                "hi": "डॉ. श्मिट श्री मुलर के पारिवारिक इतिहास और जीवनशैली के बारे में जानकारी ले रहे हैं।",
+                "ur": "ڈاکٹر شمٹ مسٹر ملر کی خاندانی تاریخ اور طرز زندگی کے بارے میں معلومات لے رہے ہیں۔",
+                "tr": "Dr. Schmidt, Bay Müller'in aile geçmişini ve yaşam tarzını alıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Herr Müller, gibt es in Ihrer Familie bekannte Vorerkrankungen, wie Herzkrankheiten, Diabetes oder Krebs?",
+                    "translation": {
+                        "en": "Mr. Müller, are there any known pre-existing conditions in your family, such as heart disease, diabetes, or cancer?",
+                        "bn": "জনাব মুলার, আপনার পরিবারে কি কোনো পরিচিত পূর্বরোগ আছে, যেমন হৃদরোগ, ডায়াবেটিস বা ক্যান্সার?",
+                        "hi": "श्री मुलर, क्या आपके परिवार में कोई ज्ञात पूर्व रोग हैं, जैसे हृदय रोग, मधुमेह या कैंसर?",
+                        "ur": "مسٹر ملر، کیا آپ کے خاندان میں کوئی معروف پہلے سے موجود حالات ہیں، جیسے دل کی بیماری، ذیابیطس، یا کینسر؟",
+                        "tr": "Bay Müller, ailenizde kalp hastalığı, diyabet veya kanser gibi bilinen önceden var olan durumlar var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Mein Vater hatte Diabetes und meine Mutter Bluthochdruck.",
+                    "translation": {
+                        "en": "My father had diabetes and my mother had high blood pressure.",
+                        "bn": "আমার বাবার ডায়াবেটিস ছিল এবং মায়ের উচ্চ রক্তচাপ ছিল।",
+                        "hi": "मेरे पिता को मधुमेह था और मेरी माँ को उच्च रक्तचाप था।",
+                        "ur": "میرے والد کو ذیابیطس تھی اور میری والدہ کو ہائی بلڈ پریشر تھا۔",
+                        "tr": "Babamın diyabeti ve annemin yüksek tansiyonu vardı."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Okay. Und wie sieht es mit Ihrem Lebensstil aus? Rauchen Sie?",
+                    "translation": {
+                        "en": "Okay. And what about your lifestyle? Do you smoke?",
+                        "bn": "ঠিক আছে। এবং আপনার জীবনধারা কেমন? আপনি কি ধূমপান করেন?",
+                        "hi": "ठीक है। और आपकी जीवनशैली कैसी है? क्या आप धूम्रपान करते हैं?",
+                        "ur": "ٹھیک ہے. اور آپ کی طرز زندگی کے بارے میں کیا خیال ہے؟ کیا آپ سگریٹ نوشی کرتے ہیں؟",
+                        "tr": "Tamam. Peki ya yaşam tarzınız? Sigara içiyor musunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, leider. Ungefähr eine Schachtel pro Tag.",
+                    "translation": {
+                        "en": "Yes, unfortunately. About a pack a day.",
+                        "bn": "হ্যাঁ, দুর্ভাগ্যবশত। প্রায় প্রতিদিন একটি প্যাকেট।",
+                        "hi": "हाँ, दुर्भाग्य से। लगभग एक पैकेट प्रतिदिन।",
+                        "ur": "ہاں، بدقسمتی سے۔ تقریبا ایک پیکٹ روزانہ۔",
+                        "tr": "Evet, maalesef. Günde yaklaşık bir paket."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Und Alkohol?",
+                    "translation": {
+                        "en": "And alcohol?",
+                        "bn": "এবং অ্যালকোহল?",
+                        "hi": "और शराब?",
+                        "ur": "اور شراب؟",
+                        "tr": "Peki alkol?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Gelegentlich ein Glas Wein zum Abendessen.",
+                    "translation": {
+                        "en": "Occasionally a glass of wine with dinner.",
+                        "bn": "মাঝে মাঝে রাতের খাবারের সাথে এক গ্লাস ওয়াইন।",
+                        "hi": "कभी-कभी रात के खाने के साथ एक गिलास शराब।",
+                        "ur": "کبھی کبھار رات کے کھانے کے ساتھ ایک گلاس شراب۔",
+                        "tr": "Ara sıra akşam yemeğinde bir kadeh şarap."
+                    }
+                }
+            ],
+            "id": "d14_01"
+        },
+        {
+            "title": {
+                "en": "Social History and Profession",
+                "bn": "সামাজিক ইতিহাস এবং পেশা",
+                "hi": "सामाजिक इतिहास और पेशा",
+                "ur": "سماجی تاریخ اور پیشہ",
+                "tr": "Sosyal Geçmiş ve Meslek"
+            },
+            "context": {
+                "en": "Sister Weber asks about the patient's social situation and profession.",
+                "bn": "সিস্টার ওয়েবার রোগীর সামাজিক পরিস্থিতি এবং পেশা সম্পর্কে জিজ্ঞাসা করছেন।",
+                "hi": "सिस्टर वेबर रोगी की सामाजिक स्थिति और पेशे के बारे में पूछ रही हैं।",
+                "ur": "سسٹر ویبر مریض کی سماجی صورتحال اور پیشہ کے بارے میں پوچھ رہی ہیں۔",
+                "tr": "Hemşire Weber hastanın sosyal durumu ve mesleği hakkında sorular soruyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Schmidt, wie sieht Ihre soziale Situation aus? Leben Sie alleine?",
+                    "translation": {
+                        "en": "Mr. Schmidt, what is your social situation like? Do you live alone?",
+                        "bn": "জনাব শ্মিট, আপনার সামাজিক পরিস্থিতি কেমন? আপনি কি একা থাকেন?",
+                        "hi": "श्री श्मिट, आपकी सामाजिक स्थिति कैसी है? क्या आप अकेले रहते हैं?",
+                        "ur": "مسٹر شمٹ، آپ کی سماجی صورتحال کیسی ہے؟ کیا آپ اکیلے رہتے ہیں؟",
+                        "tr": "Bay Schmidt, sosyal durumunuz nasıl? Yalnız mı yaşıyorsunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Nein, ich wohne mit meiner Frau zusammen.",
+                    "translation": {
+                        "en": "No, I live with my wife.",
+                        "bn": "না, আমি আমার স্ত্রীর সাথে থাকি।",
+                        "hi": "नहीं, मैं अपनी पत्नी के साथ रहता हूँ।",
+                        "ur": "نہیں، میں اپنی بیوی کے ساتھ رہتا ہوں۔",
+                        "tr": "Hayır, eşimle birlikte yaşıyorum."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Das ist gut zu hören. Und was arbeiten Sie?",
+                    "translation": {
+                        "en": "That's good to hear. And what do you do for work?",
+                        "bn": "শুনে ভালো লাগলো। আর আপনি কি কাজ করেন?",
+                        "hi": "यह सुनकर अच्छा लगा। और आप क्या काम करते हैं?",
+                        "ur": "یہ سن کر اچھا لگا۔ اور آپ کیا کام کرتے ہیں؟",
+                        "tr": "Bunu duymak güzel. Ne işle meşgulsunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich bin Lehrer an einer Realschule.",
+                    "translation": {
+                        "en": "I am a teacher at a secondary school.",
+                        "bn": "আমি একটি রিয়ালশুলে শিক্ষক।",
+                        "hi": "मैं एक माध्यमिक विद्यालय में शिक्षक हूँ।",
+                        "ur": "میں ایک سیکنڈری اسکول میں ٹیچر ہوں۔",
+                        "tr": "Bir ortaokulda öğretmenim."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ist Ihre Arbeit sehr stressig?",
+                    "translation": {
+                        "en": "Is your work very stressful?",
+                        "bn": "আপনার কাজ কি খুব চাপযুক্ত?",
+                        "hi": "क्या आपका काम बहुत तनावपूर्ण है?",
+                        "ur": "کیا آپ کا کام بہت دباؤ والا ہے؟",
+                        "tr": "İşiniz çok stresli mi?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Manchmal schon, besonders vor Prüfungen.",
+                    "translation": {
+                        "en": "Sometimes, especially before exams.",
+                        "bn": "মাঝে মাঝে, বিশেষ করে পরীক্ষার আগে।",
+                        "hi": "कभी-कभी, खासकर परीक्षाओं से पहले।",
+                        "ur": "کبھی کبھی، خاص طور پر امتحانات سے پہلے۔",
+                        "tr": "Bazen, özellikle sınavlardan önce."
+                    }
+                }
+            ],
+            "id": "d14_02"
+        },
+        {
+            "title": {
+                "en": "Family History and Smoking Habits",
+                "bn": "পারিবারিক ইতিহাস এবং ধূমপানের অভ্যাস",
+                "hi": "पारिवारिक इतिहास और धूम्रपान की आदतें",
+                "ur": "خاندانی تاریخ اور تمباکو نوشی کی عادتیں",
+                "tr": "Aile Geçmişi ve Sigara Alışkanlıkları"
+            },
+            "context": {
+                "en": "Dr. Lehmann inquires about the family history and smoking habits of Mrs. Weber.",
+                "bn": "ডঃ লেহম্যান মিসেস ওয়েবারের পারিবারিক ইতিহাস এবং ধূমপানের অভ্যাস সম্পর্কে জিজ্ঞাসা করছেন।",
+                "hi": "डॉ. लेहमन श्रीमती वेबर के पारिवारिक इतिहास और धूम्रपान की आदतों के बारे में पूछताछ कर रहे हैं।",
+                "ur": "ڈاکٹر لیمن محترمہ ویبر کی خاندانی تاریخ اور تمباکو نوشی کی عادات کے بارے میں پوچھ رہے ہیں۔",
+                "tr": "Dr. Lehmann, Bayan Weber'in aile geçmişi ve sigara alışkanlıkları hakkında bilgi alıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Frau Weber, gab es in Ihrer Familie Fälle von Lungenkrankheiten?",
+                    "translation": {
+                        "en": "Mrs. Weber, were there any cases of lung diseases in your family?",
+                        "bn": "মিসেস ওয়েবার, আপনার পরিবারে কি ফুসফুসের রোগের কোনো ঘটনা ছিল?",
+                        "hi": "श्रीमती वेबर, क्या आपके परिवार में फेफड़ों की बीमारियों के कोई मामले थे?",
+                        "ur": "محترمہ ویبر، کیا آپ کے خاندان میں پھیپھڑوں کی بیماریوں کے کوئی واقعات تھے؟",
+                        "tr": "Bayan Weber, ailenizde akciğer hastalıkları vakaları var mıydı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, mein Opa hatte COPD.",
+                    "translation": {
+                        "en": "Yes, my grandfather had COPD.",
+                        "bn": "হ্যাঁ, আমার দাদার সিওপিডি ছিল।",
+                        "hi": "हाँ, मेरे दादाजी को सीओपीडी था।",
+                        "ur": "ہاں، میرے دادا کو سی او پی ڈی تھا۔",
+                        "tr": "Evet, büyükbabamın KOAH'ı vardı."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Verstanden. Und rauchen Sie?",
+                    "translation": {
+                        "en": "Understood. And do you smoke?",
+                        "bn": "বুঝেছি। আর আপনি কি ধূমপান করেন?",
+                        "hi": "समझ गया। और क्या आप धूम्रपान करती हैं?",
+                        "ur": "سمجھ گیا۔ اور کیا آپ تمباکو نوشی کرتی ہیں؟",
+                        "tr": "Anlaşıldı. Peki siz sigara içiyor musunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, seit ungefähr 15 Jahren.",
+                    "translation": {
+                        "en": "Yes, for about 15 years.",
+                        "bn": "হ্যাঁ, প্রায় ১৫ বছর ধরে।",
+                        "hi": "हाँ, लगभग 15 वर्षों से।",
+                        "ur": "ہاں، تقریبا 15 سالوں سے۔",
+                        "tr": "Evet, yaklaşık 15 yıldır."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wie viele Zigaretten rauchen Sie täglich?",
+                    "translation": {
+                        "en": "How many cigarettes do you smoke daily?",
+                        "bn": "আপনি প্রতিদিন কয়টি সিগারেট খান?",
+                        "hi": "आप प्रतिदिन कितनी सिगरेट पीती हैं?",
+                        "ur": "آپ روزانہ کتنے سگریٹ نوشی کرتی ہیں؟",
+                        "tr": "Günde kaç sigara içiyorsunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Ungefähr 10 bis 15.",
+                    "translation": {
+                        "en": "About 10 to 15.",
+                        "bn": "প্রায় ১০ থেকে ১৫টি।",
+                        "hi": "लगभग 10 से 15।",
+                        "ur": "تقریبا 10 سے 15۔",
+                        "tr": "Yaklaşık 10 ila 15."
+                    }
+                }
+            ],
+            "id": "d14_03"
+        },
+        {
+            "title": {
+                "en": "Alcohol Consumption and Family History",
+                "bn": "অ্যালকোহল গ্রহণ এবং পারিবারিক ইতিহাস",
+                "hi": "शराब का सेवन और पारिवारिक इतिहास",
+                "ur": "شراب نوشی اور خاندانی تاریخ",
+                "tr": "Alkol Tüketimi ve Aile Geçmişi"
+            },
+            "context": {
+                "en": "Sister Müller questions Mr. Klein about his alcohol consumption and family history.",
+                "bn": "সিস্টার মুলার জনাব ক্লেইনকে তার অ্যালকোহল গ্রহণ এবং পারিবারিক ইতিহাস সম্পর্কে জিজ্ঞাসা করছেন।",
+                "hi": "सिस्टर मुलर श्री क्लेन से उनके शराब के सेवन और पारिवारिक इतिहास के बारे में पूछताछ कर रही हैं।",
+                "ur": "سسٹر ملر مسٹر کلین سے ان کی شراب نوشی اور خاندانی تاریخ کے بارے میں پوچھ رہی ہیں۔",
+                "tr": "Hemşire Müller, Bay Klein'a alkol tüketimi ve aile geçmişi hakkında sorular soruyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Müller",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Klein, wie oft trinken Sie Alkohol?",
+                    "translation": {
+                        "en": "Mr. Klein, how often do you drink alcohol?",
+                        "bn": "জনাব ক্লেইন, আপনি কত ঘন ঘন অ্যালকোহল পান করেন?",
+                        "hi": "श्री क्लेन, आप कितनी बार शराब पीते हैं?",
+                        "ur": "مسٹر کلین، آپ کتنی بار شراب پیتے ہیں؟",
+                        "tr": "Bay Klein, ne sıklıkla alkol tüketirsiniz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Nur gelegentlich, vielleicht einmal pro Woche ein Bier.",
+                    "translation": {
+                        "en": "Only occasionally, maybe a beer once a week.",
+                        "bn": "মাঝে মাঝে, হয়তো সপ্তাহে একবার একটি বিয়ার।",
+                        "hi": "केवल कभी-कभी, शायद सप्ताह में एक बार एक बीयर।",
+                        "ur": "صرف کبھی کبھار، شاید ہفتے میں ایک بار ایک بیئر۔",
+                        "tr": "Sadece ara sıra, belki haftada bir bira."
+                    }
+                },
+                {
+                    "speaker": "Schwester Müller",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Gibt es in Ihrer Familie Alkoholprobleme?",
+                    "translation": {
+                        "en": "Are there any alcohol problems in your family?",
+                        "bn": "আপনার পরিবারে কি অ্যালকোহলের সমস্যা আছে?",
+                        "hi": "क्या आपके परिवार में शराब की कोई समस्या है?",
+                        "ur": "کیا آپ کے خاندان میں شراب نوشی کی کوئی پریشانی ہے؟",
+                        "tr": "Ailenizde alkol sorunları var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Nein, nicht dass ich wüsste.",
+                    "translation": {
+                        "en": "No, not that I know of.",
+                        "bn": "না, যতদূর আমি জানি।",
+                        "hi": "नहीं, जहाँ तक मुझे पता है।",
+                        "ur": "نہیں، جہاں تک میں جانتا ہوں۔",
+                        "tr": "Hayır, bildiğim kadarıyla yok."
+                    }
+                },
+                {
+                    "speaker": "Schwester Müller",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Okay, gut. Gab es Fälle von Lebererkrankungen?",
+                    "translation": {
+                        "en": "Okay, good. Were there any cases of liver diseases?",
+                        "bn": "ঠিক আছে, ভালো। যকৃতের রোগের কোনো ঘটনা ছিল?",
+                        "hi": "ठीक है, अच्छा। क्या यकृत रोगों के कोई मामले थे?",
+                        "ur": "ٹھیک ہے، اچھا۔ کیا جگر کی بیماریوں کے کوئی واقعات تھے؟",
+                        "tr": "Tamam, güzel. Karaciğer hastalıkları vakaları var mıydı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Nein, auch das nicht.",
+                    "translation": {
+                        "en": "No, not that either.",
+                        "bn": "না, সেটাও না।",
+                        "hi": "नहीं, वह भी नहीं।",
+                        "ur": "نہیں، وہ بھی نہیں۔",
+                        "tr": "Hayır, o da yok."
+                    }
+                }
+            ],
+            "id": "d14_04"
+        },
+        {
+            "title": {
+                "en": "Work Environment and Stress Levels",
+                "bn": "কাজের পরিবেশ এবং চাপের মাত্রা",
+                "hi": "कार्य वातावरण और तनाव का स्तर",
+                "ur": "کام کا ماحول اور تناؤ کی سطح",
+                "tr": "Çalışma Ortamı ve Stres Düzeyleri"
+            },
+            "context": {
+                "en": "Dr. Gruber discusses Mrs. Schmidt's work environment and stress levels.",
+                "bn": "ডঃ গ্রুবার মিসেস শ্মিটের কাজের পরিবেশ এবং চাপের মাত্রা নিয়ে আলোচনা করছেন।",
+                "hi": "डॉ. ग्रुबर श्रीमती श्मिट के कार्य वातावरण और तनाव के स्तर पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر گروبر محترمہ شمٹ کے کام کے ماحول اور تناؤ کی سطح پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Dr. Gruber, Bayan Schmidt'in çalışma ortamı ve stres düzeylerini tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Gruber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Frau Schmidt, können Sie mir etwas über Ihre Arbeit erzählen? Ist sie körperlich anstrengend oder eher sitzend?",
+                    "translation": {
+                        "en": "Mrs. Schmidt, can you tell me something about your work? Is it physically strenuous or more sedentary?",
+                        "bn": "মিসেস শ্মিট, আপনি কি আমাকে আপনার কাজ সম্পর্কে কিছু বলতে পারেন? এটি কি শারীরিকভাবে ক্লান্তিকর নাকি বেশি আসীন?",
+                        "hi": "श्रीमती श्मिट, क्या आप मुझे अपने काम के बारे में कुछ बता सकती हैं? क्या यह शारीरिक रूप से थकाऊ है या अधिक गतिहीन?",
+                        "ur": "محترمہ شمٹ، کیا آپ مجھے اپنے کام کے بارے میں کچھ بتا سکتی ہیں؟ کیا یہ جسمانی طور پر تھکا دینے والا ہے یا زیادہ بیٹھا ہوا ہے؟",
+                        "tr": "Bayan Schmidt, bana işiniz hakkında biraz bilgi verebilir misiniz? Fiziksel olarak yorucu mu, yoksa daha çok oturarak mı çalışıyorsunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich arbeite im Büro, also ist es eher sitzend. Aber ich versuche, in meiner Freizeit aktiv zu sein.",
+                    "translation": {
+                        "en": "I work in an office, so it's more sedentary. But I try to be active in my free time.",
+                        "bn": "আমি অফিসে কাজ করি, তাই এটি বেশি আসীন। তবে আমি আমার অবসর সময়ে সক্রিয় থাকার চেষ্টা করি।",
+                        "hi": "मैं एक कार्यालय में काम करती हूँ, इसलिए यह अधिक गतिहीन है। लेकिन मैं अपने खाली समय में सक्रिय रहने की कोशिश करती हूँ।",
+                        "ur": "میں ایک دفتر میں کام کرتی ہوں، اس لیے یہ زیادہ بیٹھا ہوا ہے۔ لیکن میں اپنے فارغ وقت میں فعال رہنے کی کوشش کرتی ہوں۔",
+                        "tr": "Ofiste çalışıyorum, bu yüzden daha çok oturarak çalışıyorum. Ama boş zamanlarımda aktif olmaya çalışıyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Gruber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das ist gut. Und wie ist das Stressniveau bei der Arbeit?",
+                    "translation": {
+                        "en": "That's good. And what is the stress level at work?",
+                        "bn": "এটা ভালো। আর কর্মক্ষেত্রে চাপের মাত্রা কেমন?",
+                        "hi": "यह अच्छा है। और काम पर तनाव का स्तर क्या है?",
+                        "ur": "یہ اچھا ہے. اور کام پر تناؤ کی سطح کیا ہے؟",
+                        "tr": "Bu iyi. Peki işte stres seviyesi nasıl?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Es gibt stressige Phasen, aber insgesamt ist es okay.",
+                    "translation": {
+                        "en": "There are stressful phases, but overall it's okay.",
+                        "bn": "চাপযুক্ত পর্যায় আছে, তবে সামগ্রিকভাবে ঠিক আছে।",
+                        "hi": "तनावपूर्ण चरण हैं, लेकिन कुल मिलाकर यह ठीक है।",
+                        "ur": "تناؤ کے مراحل ہیں، لیکن مجموعی طور پر یہ ٹھیک ہے۔",
+                        "tr": "Stresli dönemler var, ancak genel olarak iyi."
+                    }
+                },
+                {
+                    "speaker": "Dr. Gruber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Nehmen Sie Medikamente ein, um mit dem Stress umzugehen?",
+                    "translation": {
+                        "en": "Do you take any medication to cope with the stress?",
+                        "bn": "আপনি কি চাপ মোকাবেলা করার জন্য কোনো ওষুধ খান?",
+                        "hi": "क्या आप तनाव से निपटने के लिए कोई दवा लेते हैं?",
+                        "ur": "کیا آپ تناؤ سے نمٹنے کے لیے کوئی دوا لیتے ہیں؟",
+                        "tr": "Stresle başa çıkmak için herhangi bir ilaç alıyor musunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Nein, bisher nicht.",
+                    "translation": {
+                        "en": "No, not so far.",
+                        "bn": "না, এখনও পর্যন্ত না।",
+                        "hi": "नहीं, अभी तक तो नहीं।",
+                        "ur": "نہیں، ابھی تک تو نہیں۔",
+                        "tr": "Hayır, şimdiye kadar değil."
+                    }
+                }
+            ],
+            "id": "d14_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Familienanamnese'?",
+                "en": "What does 'Familienanamnese' mean?",
+                "bn": "'ফ্যামিলি আনামনেসিস' মানে কি?",
+                "hi": "'पारिवारिक इतिहास' का क्या अर्थ है?",
+                "ur": "'خاندانی تاریخ' کا کیا مطلب ہے؟",
+                "tr": "'Aile anamnezi' ne anlama gelir?"
+            },
+            "options": [
+                "Patientenmedikation",
+                "Familiengeschichte bezüglich Krankheiten",
+                "Aktuelle Beschwerden",
+                "Vorherige Operationen"
+            ],
+            "correctAnswer": "Familiengeschichte bezüglich Krankheiten",
+            "explanation": {
+                "en": "Family history refers to the patient's family's medical history, including diseases and conditions that may be hereditary.",
+                "bn": "ফ্যামিলি হিস্টরি বলতে রোগীর পরিবারের চিকিৎসা ইতিহাস বোঝায়, যার মধ্যে বংশগত রোগ এবং অবস্থা অন্তর্ভুক্ত থাকতে পারে।",
+                "hi": "पारिवारिक इतिहास का अर्थ है रोगी के परिवार का चिकित्सा इतिहास, जिसमें वंशानुगत रोग और स्थितियाँ शामिल हो सकती हैं।",
+                "ur": "خاندانی تاریخ سے مراد مریض کے خاندان کی طبی تاریخ ہے، بشمول موروثی امراض اور حالات۔",
+                "tr": "Aile hikayesi, hastanın ailesinin tıbbi geçmişini ifade eder, kalıtsal olabilecek hastalıklar ve durumlar dahil."
+            },
+            "points": 10,
+            "id": "e14_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was erfasst die 'Sozialanamnese'?",
+                "en": "What does the 'Sozialanamnese' cover?",
+                "bn": "'সোশ্যাল আনামনেসিস' কি কভার করে?",
+                "hi": "'सामाजिक इतिहास' क्या कवर करता है?",
+                "ur": "'معاشرتی تاریخ' میں کیا شامل ہے؟",
+                "tr": "'Sosyal anamnez' neleri kapsar?"
+            },
+            "options": [
+                "Laborwerte",
+                "Die sozialen Umstände des Patienten",
+                "Allergien",
+                "Medikamentenunverträglichkeiten"
+            ],
+            "correctAnswer": "Die sozialen Umstände des Patienten",
+            "explanation": {
+                "en": "The Sozialanamnese covers the patient's social circumstances, including living situation, education, and social support.",
+                "bn": "সোশ্যাল আনামনেসিস রোগীর সামাজিক পরিস্থিতি, যেমন বসবাসের পরিস্থিতি, শিক্ষা এবং সামাজিক সমর্থন কভার করে।",
+                "hi": "सामाजिक इतिहास में रोगी की सामाजिक परिस्थितियाँ शामिल हैं, जिसमें रहने की स्थिति, शिक्षा और सामाजिक समर्थन शामिल हैं।",
+                "ur": "معاشرتی تاریخ میں مریض کے معاشرتی حالات شامل ہیں، بشمول رہائش کی صورتحال، تعلیم اور سماجی مدد۔",
+                "tr": "Sosyal anamnez, hastanın yaşam koşulları, eğitim ve sosyal destek gibi sosyal durumlarını kapsar."
+            },
+            "points": 10,
+            "id": "e14_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein wichtiger Aspekt des 'Lebensstils' in der Anamnese?",
+                "en": "What is an important aspect of 'lifestyle' in the medical history?",
+                "bn": "মেডিকেল ইতিহাসে 'জীবনযাত্রা'র একটি গুরুত্বপূর্ণ দিক কী?",
+                "hi": "चिकित्सा इतिहास में 'जीवनशैली' का एक महत्वपूर्ण पहलू क्या है?",
+                "ur": "طبی تاریخ میں 'طرز زندگی' کا ایک اہم پہلو کیا ہے؟",
+                "tr": "Tıbbi öyküde 'yaşam tarzı'nın önemli bir yönü nedir?"
+            },
+            "options": [
+                "Blutdruck",
+                "Ernährung und Bewegung",
+                "Körpergröße",
+                "Augenfarbe"
+            ],
+            "correctAnswer": "Ernährung und Bewegung",
+            "explanation": {
+                "en": "Diet and exercise are important aspects of lifestyle that can significantly impact health.",
+                "bn": "খাদ্য এবং ব্যায়াম জীবনযাত্রার গুরুত্বপূর্ণ দিক যা স্বাস্থ্যের উপর উল্লেখযোগ্য প্রভাব ফেলতে পারে।",
+                "hi": "आहार और व्यायाम जीवनशैली के महत्वपूर्ण पहलू हैं जो स्वास्थ्य पर महत्वपूर्ण प्रभाव डाल सकते हैं।",
+                "ur": "غذا اور ورزش طرز زندگی کے اہم پہلو ہیں جو صحت پر نمایاں اثر ڈال سکتے ہیں۔",
+                "tr": "Beslenme ve egzersiz, sağlığı önemli ölçüde etkileyebilecek yaşam tarzının önemli yönleridir."
+            },
+            "points": 10,
+            "id": "e14_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Beruf' im Kontext der Anamnese?",
+                "en": "What does 'Beruf' (occupation) mean in the context of the medical history?",
+                "bn": "মেডিকেল ইতিহাসের প্রেক্ষাপটে 'বেরুফ' (পেশা) মানে কী?",
+                "hi": "चिकित्सा इतिहास के संदर्भ में 'बेरूफ़' (व्यवसाय) का क्या अर्थ है?",
+                "ur": "طبی تاریخ کے تناظر میں 'بروف' (پیشہ) کا کیا مطلب ہے؟",
+                "tr": "Tıbbi öykü bağlamında 'Beruf' (meslek) ne anlama gelir?"
+            },
+            "options": [
+                "Der Name des Patienten",
+                "Der ausgeübte Beruf des Patienten",
+                "Die Hobbys des Patienten",
+                "Die Adresse des Patienten"
+            ],
+            "correctAnswer": "Der ausgeübte Beruf des Patienten",
+            "explanation": {
+                "en": "'Beruf' refers to the patient's occupation, which can influence their health.",
+                "bn": "'বেরুফ' মানে রোগীর পেশা, যা তাদের স্বাস্থ্যকে প্রভাবিত করতে পারে।",
+                "hi": "'बेरूफ़' का अर्थ है रोगी का व्यवसाय, जो उनके स्वास्थ्य को प्रभावित कर सकता है।",
+                "ur": "'بروف' سے مراد مریض کا پیشہ ہے، جو اس کی صحت پر اثر انداز ہو سکتا ہے۔",
+                "tr": "'Beruf', hastanın sağlığını etkileyebilecek mesleğini ifade eder."
+            },
+            "points": 10,
+            "id": "e14_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Frage ist relevant bezüglich des 'Rauchens'?",
+                "en": "Which question is relevant regarding 'smoking'?",
+                "bn": "'ধূমপান' সম্পর্কিত কোন প্রশ্নটি প্রাসঙ্গিক?",
+                "hi": "'धूम्रपान' के संबंध में कौन सा प्रश्न प्रासंगिक है?",
+                "ur": "'تمباکو نوشی' کے حوالے سے کون سا سوال متعلقہ ہے؟",
+                "tr": "'Sigara içme' ile ilgili hangi soru önemlidir?"
+            },
+            "options": [
+                "Haben Sie blaue Augen?",
+                "Rauchen Sie?",
+                "Sind Sie Allergiker?",
+                "Haben Sie Fieber?"
+            ],
+            "correctAnswer": "Rauchen Sie?",
+            "explanation": {
+                "en": "Asking if the patient smokes is crucial to assess potential health risks associated with smoking.",
+                "bn": "রোগী ধূমপান করেন কিনা জিজ্ঞাসা করা ধূমপানের সাথে সম্পর্কিত সম্ভাব্য স্বাস্থ্য ঝুঁকি মূল্যায়ন করার জন্য অত্যন্ত গুরুত্বপূর্ণ।",
+                "hi": "धूम्रपान से जुड़े संभावित स्वास्थ्य जोखिमों का आकलन करने के लिए यह पूछना महत्वपूर्ण है कि क्या रोगी धूम्रपान करता है।",
+                "ur": "دھوئیں سے وابستہ صحت کے ممکنہ خطرات کا اندازہ لگانے کے لیے یہ پوچھنا ضروری ہے کہ کیا مریض تمباکو نوشی کرتا ہے۔",
+                "tr": "Hastanın sigara içip içmediğini sormak, sigara içmeyle ilişkili potansiyel sağlık risklerini değerlendirmek için çok önemlidir."
+            },
+            "points": 10,
+            "id": "e14_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist wichtig bei der Erhebung des 'Alkoholkonsums'?",
+                "en": "What is important when assessing 'alcohol consumption'?",
+                "bn": "'অ্যালকোহল গ্রহণ' মূল্যায়ন করার সময় কী গুরুত্বপূর্ণ?",
+                "hi": "'शराब के सेवन' का आकलन करते समय क्या महत्वपूर्ण है?",
+                "ur": "'شراب نوشی' کا اندازہ کرتے وقت کیا اہم ہے؟",
+                "tr": "'Alkol tüketimi' değerlendirilirken ne önemlidir?"
+            },
+            "options": [
+                "Die Lieblingsfarbe des Patienten",
+                "Die Menge und Häufigkeit des Alkoholkonsums",
+                "Die Anzahl der Kinder des Patienten",
+                "Das Alter des Patienten"
+            ],
+            "correctAnswer": "Die Menge und Häufigkeit des Alkoholkonsums",
+            "explanation": {
+                "en": "It's important to know the amount and frequency of alcohol consumption to assess potential health risks.",
+                "bn": "সম্ভাব্য স্বাস্থ্য ঝুঁকি মূল্যায়ন করার জন্য অ্যালকোহল গ্রহণের পরিমাণ এবং ফ্রিকোয়েন্সি জানা গুরুত্বপূর্ণ।",
+                "hi": "संभावित स्वास्थ्य जोखिमों का आकलन करने के लिए शराब के सेवन की मात्रा और आवृत्ति जानना महत्वपूर्ण है।",
+                "ur": "صحت کے ممکنہ خطرات کا اندازہ لگانے کے لیے شراب نوشی کی مقدار اور تعدد جاننا ضروری ہے۔",
+                "tr": "Potansiyel sağlık risklerini değerlendirmek için alkol tüketiminin miktarı ve sıklığını bilmek önemlidir."
+            },
+            "points": 10,
+            "id": "e14_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Fragen ist NICHT Teil der Familienanamnese?",
+                "en": "Which of the following questions is NOT part of the family history?",
+                "bn": "নিচের কোন প্রশ্নটি পারিবারিক ইতিহাসের অংশ নয়?",
+                "hi": "निम्नलिखित में से कौन सा प्रश्न पारिवारिक इतिहास का हिस्सा नहीं है?",
+                "ur": "درج ذیل میں سے کون سا سوال خاندانی تاریخ کا حصہ نہیں ہے؟",
+                "tr": "Aşağıdaki sorulardan hangisi aile öyküsünün bir parçası değildir?"
+            },
+            "options": [
+                "Gibt es in Ihrer Familie Fälle von Diabetes?",
+                "Hatten Ihre Eltern oder Geschwister Herzkrankheiten?",
+                "Sind Sie gegen Tetanus geimpft?",
+                "Leiden Ihre Großeltern an Krebs?"
+            ],
+            "correctAnswer": "Sind Sie gegen Tetanus geimpft?",
+            "explanation": {
+                "en": "Tetanus vaccination status is part of the patient's medical history, not family history.",
+                "bn": "ধনুষ্টঙ্কার টিকা রোগীর চিকিৎসা ইতিহাসের অংশ, পারিবারিক ইতিহাসের নয়।",
+                "hi": "टेटनस का टीका रोगी के चिकित्सा इतिहास का हिस्सा है, न कि पारिवारिक इतिहास का।",
+                "ur": "ٹیتانوس کی ویکسین مریض کی طبی تاریخ کا حصہ ہے، خاندانی تاریخ کا نہیں۔",
+                "tr": "Tetanoz aşısı, hastanın tıbbi geçmişinin bir parçasıdır, aile geçmişinin değil."
+            },
+            "points": 10,
+            "id": "e14_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein wichtiger Aspekt der Sozialanamnese in Bezug auf Suchtmittel?",
+                "en": "What is an important aspect of the social history in relation to substance abuse?",
+                "bn": "মাদকদ্রব্যের অপব্যবহারের ক্ষেত্রে সামাজিক ইতিহাসের একটি গুরুত্বপূর্ণ দিক কী?",
+                "hi": "नशीली दवाओं के दुरुपयोग के संबंध में सामाजिक इतिहास का एक महत्वपूर्ण पहलू क्या है?",
+                "ur": "منشیات کے غلط استعمال کے سلسلے میں سماجی تاریخ کا ایک اہم پہلو کیا ہے؟",
+                "tr": "Madde bağımlılığı ile ilgili sosyal öykünün önemli bir yönü nedir?"
+            },
+            "options": [
+                "Die Anzahl der Geschwister",
+                "Der Kontakt zu Drogen oder Alkohol in der sozialen Umgebung",
+                "Die Lieblingsmusik",
+                "Die Größe des Wohnzimmers"
+            ],
+            "correctAnswer": "Der Kontakt zu Drogen oder Alkohol in der sozialen Umgebung",
+            "explanation": {
+                "en": "Exposure to drugs or alcohol in the social environment can influence the risk of substance abuse.",
+                "bn": "সামাজিক পরিবেশে মাদক বা অ্যালকোহলের সংস্পর্শ মাদকদ্রব্যের অপব্যবহারের ঝুঁকিকে প্রভাবিত করতে পারে।",
+                "hi": "सामाजिक वातावरण में ड्रग्स या अल्कोहल के संपर्क में आने से नशीली दवाओं के दुरुपयोग का खतरा बढ़ सकता है।",
+                "ur": "سماجی ماحول میں منشیات یا الکحل کا سامنے آنا منشیات کے غلط استعمال کے خطرے کو متاثر کر سکتا ہے۔",
+                "tr": "Sosyal çevrede uyuşturucu veya alkole maruz kalmak, madde bağımlılığı riskini etkileyebilir."
+            },
+            "points": 10,
+            "id": "e14_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Frage zielt direkt auf den Nikotinkonsum ab?",
+                "en": "Which question directly targets nicotine consumption?",
+                "bn": "কোন প্রশ্ন সরাসরি নিকোটিন গ্রহণকে লক্ষ্য করে?",
+                "hi": "कौन सा प्रश्न सीधे निकोटीन के सेवन को लक्षित करता है?",
+                "ur": "کون سا سوال براہ راست نیکوٹین کے استعمال کو نشانہ بناتا ہے؟",
+                "tr": "Hangi soru doğrudan nikotin tüketimini hedefler?"
+            },
+            "options": [
+                "Trinken Sie regelmäßig Kaffee?",
+                "Wie viele Zigaretten rauchen Sie täglich?",
+                "Haben Sie Haustiere?",
+                "Essen Sie viel Obst?"
+            ],
+            "correctAnswer": "Wie viele Zigaretten rauchen Sie täglich?",
+            "explanation": {
+                "en": "This question directly asks about the amount of cigarettes smoked daily, providing information about nicotine consumption.",
+                "bn": "এই প্রশ্নটি সরাসরি প্রতিদিন ধূমপান করা সিগারেটের পরিমাণ সম্পর্কে জিজ্ঞাসা করে, যা নিকোটিন গ্রহণের বিষয়ে তথ্য সরবরাহ করে।",
+                "hi": "यह प्रश्न सीधे प्रतिदिन धूम्रपान की जाने वाली सिगरेट की मात्रा के बारे में पूछता है, जो निकोटीन के सेवन के बारे में जानकारी प्रदान करता है।",
+                "ur": "یہ سوال براہ راست روزانہ سگریٹ نوشی کی مقدار کے بارے میں پوچھتا ہے، جو نیکوٹین کے استعمال کے بارے میں معلومات فراہم کرتا ہے۔",
+                "tr": "Bu soru doğrudan günlük içilen sigara sayısını sorarak nikotin tüketimi hakkında bilgi sağlar."
+            },
+            "points": 10,
+            "id": "e14_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist KEIN typischer Bestandteil der Sozialanamnese?",
+                "en": "What is NOT a typical component of the social history?",
+                "bn": "সামাজিক ইতিহাসের একটি সাধারণ উপাদান কী নয়?",
+                "hi": "सामाजिक इतिहास का एक विशिष्ट घटक क्या नहीं है?",
+                "ur": "سماجی تاریخ کا ایک عام جزو کیا نہیں ہے؟",
+                "tr": "Sosyal öykünün tipik bir bileşeni nedir?"
+            },
+            "options": [
+                "Wohnsituation",
+                "Bildung",
+                "Blutgruppe",
+                "Beruf"
+            ],
+            "correctAnswer": "Blutgruppe",
+            "explanation": {
+                "en": "Blood group is part of the medical history but not the social history.",
+                "bn": "রক্তের গ্রুপ চিকিৎসা ইতিহাসের অংশ, সামাজিক ইতিহাসের নয়।",
+                "hi": "रक्त समूह चिकित्सा इतिहास का हिस्सा है लेकिन सामाजिक इतिहास का नहीं।",
+                "ur": "خون کا گروپ طبی تاریخ کا حصہ ہے لیکن سماجی تاریخ کا نہیں۔",
+                "tr": "Kan grubu tıbbi geçmişin bir parçasıdır, sosyal geçmişin değil."
+            },
+            "points": 10,
+            "id": "e14_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die __________ erfasst Informationen über die Krankheiten der Familienmitglieder.",
+                "en": "The __________ collects information about the diseases of family members.",
+                "bn": "__________ পরিবারের সদস্যদের রোগ সম্পর্কে তথ্য সংগ্রহ করে।",
+                "hi": "__________ परिवार के सदस्यों के रोगों के बारे में जानकारी एकत्र करता है।",
+                "ur": "__________ خاندان کے افراد کی بیماریوں کے بارے میں معلومات جمع کرتا ہے۔",
+                "tr": "__________ aile üyelerinin hastalıkları hakkında bilgi toplar."
+            },
+            "correctAnswer": "Familienanamnese",
+            "explanation": {
+                "en": "The Familienanamnese (family history) collects information about the diseases of family members.",
+                "bn": "ফ্যামিলিয়েনামনেসিস (পারিবারিক ইতিহাস) পরিবারের সদস্যদের রোগ সম্পর্কে তথ্য সংগ্রহ করে।",
+                "hi": "फैमिलियनामेनेसिस (पारिवारिक इतिहास) परिवार के सदस्यों के रोगों के बारे में जानकारी एकत्र करता है।",
+                "ur": "فیملینامینسیس (خاندانی تاریخ) خاندان کے افراد کی بیماریوں کے بارے میں معلومات جمع کرتا ہے۔",
+                "tr": "Familienanamnese (aile öyküsü) aile üyelerinin hastalıkları hakkında bilgi toplar."
+            },
+            "points": 10,
+            "id": "e14_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Informationen über den _________ des Patienten sind wichtig, um Risikofaktoren zu erkennen.",
+                "en": "Information about the patient's _________ is important to identify risk factors.",
+                "bn": "ঝুঁকি কারণ চিহ্নিত করতে রোগীর _________ সম্পর্কে তথ্য গুরুত্বপূর্ণ।",
+                "hi": "जोखिम कारकों की पहचान करने के लिए रोगी के _________ के बारे में जानकारी महत्वपूर्ण है।",
+                "ur": "خطرناک عوامل کی شناخت کے لیے مریض کے _________ کے بارے میں معلومات اہم ہیں۔",
+                "tr": "Risk faktörlerini belirlemek için hastanın _________ hakkındaki bilgiler önemlidir."
+            },
+            "correctAnswer": "Lebensstil",
+            "explanation": {
+                "en": "Information about the patient's lifestyle is important to identify risk factors.",
+                "bn": "ঝুঁকি কারণ চিহ্নিত করতে রোগীর জীবনযাত্রা সম্পর্কে তথ্য গুরুত্বপূর্ণ।",
+                "hi": "जोखिम कारकों की पहचान करने के लिए रोगी की जीवनशैली के बारे में जानकारी महत्वपूर्ण है।",
+                "ur": "خطرناک عوامل کی شناخت کے لیے مریض کے طرز زندگی کے بارے میں معلومات اہم ہیں۔",
+                "tr": "Risk faktörlerini belirlemek için hastanın yaşam tarzı hakkındaki bilgiler önemlidir."
+            },
+            "points": 10,
+            "id": "e14_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die Frage nach dem _________ des Patienten ist Teil der Sozialanamnese.",
+                "en": "Asking about the patient's _________ is part of the social history.",
+                "bn": "রোগীর _________ সম্পর্কে জিজ্ঞাসা করা সামাজিক ইতিহাসের অংশ।",
+                "hi": "रोगी के _________ के बारे में पूछना सामाजिक इतिहास का हिस्सा है।",
+                "ur": "مریض کے _________ کے بارے میں پوچھنا سماجی تاریخ کا حصہ ہے۔",
+                "tr": "Hastanın _________ hakkında soru sormak sosyal öykünün bir parçasıdır."
+            },
+            "correctAnswer": "Beruf",
+            "explanation": {
+                "en": "Asking about the patient's occupation (Beruf) is part of the social history.",
+                "bn": "রোগীর পেশা সম্পর্কে জিজ্ঞাসা করা সামাজিক ইতিহাসের অংশ।",
+                "hi": "रोगी के व्यवसाय के बारे में पूछना सामाजिक इतिहास का हिस्सा है।",
+                "ur": "مریض کے پیشے کے بارے میں پوچھنا سماجی تاریخ کا حصہ ہے۔",
+                "tr": "Hastanın mesleği hakkında soru sormak sosyal öykünün bir parçasıdır."
+            },
+            "points": 10,
+            "id": "e14_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Das Erfassen des _________ ist wichtig, um das Risiko für Herz-Kreislauf-Erkrankungen zu beurteilen.",
+                "en": "Recording _________ is important to assess the risk of cardiovascular diseases.",
+                "bn": "হৃদরোগের ঝুঁকি মূল্যায়ন করার জন্য _________ রেকর্ড করা গুরুত্বপূর্ণ।",
+                "hi": "हृदय रोगों के जोखिम का आकलन करने के लिए _________ रिकॉर्ड करना महत्वपूर्ण है।",
+                "ur": "قلبی امراض کے خطرے کا اندازہ لگانے کے لیے _________ ریکارڈ کرنا اہم ہے۔",
+                "tr": "Kardiyovasküler hastalık riskini değerlendirmek için _________ kaydetmek önemlidir."
+            },
+            "correctAnswer": "Rauchens",
+            "explanation": {
+                "en": "Recording smoking habits (Rauchens) is important to assess the risk of cardiovascular diseases.",
+                "bn": "ধূমপানের অভ্যাস (Rauchens) হৃদরোগের ঝুঁকি মূল্যায়ন করার জন্য রেকর্ড করা গুরুত্বপূর্ণ।",
+                "hi": "धूम्रपान की आदतों (Rauchens) को हृदय रोगों के जोखिम का आकलन करने के लिए रिकॉर्ड करना महत्वपूर्ण है।",
+                "ur": "تمباکو نوشی کی عادتوں (Rauchens) کو قلبی امراض کے خطرے کا اندازہ لگانے کے لیے ریکارڈ کرنا اہم ہے۔",
+                "tr": "Sigara içme alışkanlıklarını (Rauchens) kardiyovasküler hastalık riskini değerlendirmek için kaydetmek önemlidir."
+            },
+            "points": 10,
+            "id": "e14_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die Menge an _________ pro Woche ist ein wichtiger Faktor bei der Anamnese.",
+                "en": "The amount of _________ per week is an important factor in the medical history.",
+                "bn": "প্রতি সপ্তাহে _________ এর পরিমাণ মেডিকেল ইতিহাসে একটি গুরুত্বপূর্ণ বিষয়।",
+                "hi": "प्रति सप्ताह _________ की मात्रा चिकित्सा इतिहास में एक महत्वपूर्ण कारक है।",
+                "ur": "فی ہفتہ _________ کی مقدار طبی تاریخ میں ایک اہم عنصر ہے۔",
+                "tr": "Haftada _________ miktarı tıbbi öyküde önemli bir faktördür."
+            },
+            "correctAnswer": "Alkohol",
+            "explanation": {
+                "en": "The amount of alcohol per week is an important factor in the medical history.",
+                "bn": "প্রতি সপ্তাহে অ্যালকোহলের পরিমাণ মেডিকেল ইতিহাসে একটি গুরুত্বপূর্ণ বিষয়।",
+                "hi": "प्रति सप्ताह अल्कोहल की मात्रा चिकित्सा इतिहास में एक महत्वपूर्ण कारक है।",
+                "ur": "فی ہفتہ الکحل کی مقدار طبی تاریخ میں ایک اہم عنصر ہے۔",
+                "tr": "Haftada alkol miktarı tıbbi öyküde önemli bir faktördür."
+            },
+            "points": 10,
+            "id": "e14_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Er hat in seiner Familie eine Vorgeschichte von Herzerkrankungen.",
+                "en": "He has a family history of heart disease.",
+                "bn": "তার পরিবারে হৃদরোগের ইতিহাস রয়েছে।",
+                "hi": "उसके परिवार में हृदय रोग का इतिहास है।",
+                "ur": "اس کے خاندان میں دل کی بیماری کی تاریخ ہے۔",
+                "tr": "Ailesinde kalp hastalığı öyküsü var."
+            },
+            "correctAnswer": "He has a family history of heart disease.",
+            "explanation": {
+                "en": "This translation accurately conveys the meaning of the German sentence.",
+                "bn": "এই অনুবাদটি জার্মান বাক্যটির অর্থ সঠিকভাবে প্রকাশ করে।",
+                "hi": "यह अनुवाद जर्मन वाक्य के अर्थ को सटीक रूप से व्यक्त करता है।",
+                "ur": "یہ ترجمہ جرمن جملے کے معنی کو درست طور پر بیان کرتا ہے۔",
+                "tr": "Bu çeviri, Almanca cümlenin anlamını doğru bir şekilde ifade etmektedir."
+            },
+            "points": 10,
+            "id": "e14_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Sie arbeitet als Krankenschwester im Schichtdienst.",
+                "en": "She works as a nurse in shifts.",
+                "bn": "তিনি শিফটে নার্স হিসাবে কাজ করেন।",
+                "hi": "वह शिफ्ट में नर्स के रूप में काम करती है।",
+                "ur": "وہ شفٹوں میں ایک نرس کے طور پر کام کرتی ہے۔",
+                "tr": "Vardiyalı hemşire olarak çalışıyor."
+            },
+            "correctAnswer": "She works as a nurse in shifts.",
+            "explanation": {
+                "en": "This translation accurately conveys the meaning of the German sentence.",
+                "bn": "এই অনুবাদটি জার্মান বাক্যটির অর্থ সঠিকভাবে প্রকাশ করে।",
+                "hi": "यह अनुवाद जर्मन वाक्य के अर्थ को सटीक रूप से व्यक्त करता है।",
+                "ur": "یہ ترجمہ جرمن جملے کے معنی کو درست طور پر بیان کرتا ہے۔",
+                "tr": "Bu çeviri, Almanca cümlenin anlamını doğru bir şekilde ifade etmektedir."
+            },
+            "points": 10,
+            "id": "e14_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Er trinkt regelmäßig ein Glas Wein zum Abendessen.",
+                "en": "He regularly drinks a glass of wine with dinner.",
+                "bn": "তিনি নিয়মিত রাতের খাবারের সাথে এক গ্লাস ওয়াইন পান করেন।",
+                "hi": "वह नियमित रूप से रात के खाने के साथ एक गिलास वाइन पीते हैं।",
+                "ur": "وہ باقاعدگی سے رات کے کھانے کے ساتھ ایک گلاس شراب پیتا ہے۔",
+                "tr": "Akşam yemeğinde düzenli olarak bir kadeh şarap içiyor."
+            },
+            "correctAnswer": "He regularly drinks a glass of wine with dinner.",
+            "explanation": {
+                "en": "This translation accurately conveys the meaning of the German sentence.",
+                "bn": "এই অনুবাদটি জার্মান বাক্যটির অর্থ সঠিকভাবে প্রকাশ করে।",
+                "hi": "यह अनुवाद जर्मन वाक्य के अर्थ को सटीक रूप से व्यक्त करता है।",
+                "ur": "یہ ترجمہ جرمن جملے کے معنی کو درست طور پر بیان کرتا ہے۔",
+                "tr": "Bu çeviri, Almanca cümlenin anlamını doğru bir şekilde ifade etmektedir."
+            },
+            "points": 10,
+            "id": "e14_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

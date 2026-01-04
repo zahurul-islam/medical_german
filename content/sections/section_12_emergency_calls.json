@@ -1,14 +1,1607 @@
-{"id":"section_12","phaseId":"phase1","order":12,"titleDe":"Notrufe","title":{"en":"Emergency Calls","bn":"জরুরি কল","hi":"आपातकालीन कॉल","ur":"ایمرجنسی کال","tr":"Acil Çağrılar"},"level":"A2","estimatedMinutes":25,"vocabulary":[
-{"id":"v12_01","germanTerm":"Notruf","article":"der","plural":"Notrufe","translation":{"en":"Emergency Call","bn":"জরুরি কল","hi":"आपातकालीन कॉल","ur":"ایمرجنسی کال","tr":"Acil çağrı"}},
-{"id":"v12_02","germanTerm":"Rettungswagen","article":"der","plural":"Rettungswagen","translation":{"en":"Ambulance","bn":"অ্যাম্বুলেন্স","hi":"एम्बुलेंस","ur":"ایمبولینس","tr":"Ambulans"}},
-{"id":"v12_03","germanTerm":"Notarzt","article":"der","plural":"Notärzte","translation":{"en":"Emergency Doctor","bn":"জরুরি ডাক্তার","hi":"आपातकालीन डॉक्टर","ur":"ایمرجنسی ڈاکٹر","tr":"Acil doktor"}},
-{"id":"v12_04","germanTerm":"Reanimation","article":"die","plural":"Reanimationen","translation":{"en":"Resuscitation/CPR","bn":"সিপিআর","hi":"सीपीआर","ur":"سی پی آر","tr":"Resüsitasyon"}},
-{"id":"v12_05","germanTerm":"Herzstillstand","article":"der","plural":"Herzstillstände","translation":{"en":"Cardiac Arrest","bn":"কার্ডিয়াক অ্যারেস্ট","hi":"कार्डियक अरेस्ट","ur":"کارڈیک اریسٹ","tr":"Kalp durması"}},
-{"id":"v12_06","germanTerm":"bewusstlos","article":"-","plural":"-","translation":{"en":"Unconscious","bn":"অচেতন","hi":"बेहोश","ur":"بے ہوش","tr":"Bilinçsiz"}},
-{"id":"v12_07","germanTerm":"Erstversorgung","article":"die","plural":"-","translation":{"en":"First Aid","bn":"প্রাথমিক চিকিৎসা","hi":"प्राथमिक उपचार","ur":"ابتدائی طبی امداد","tr":"İlk yardım"}},
-{"id":"v12_08","germanTerm":"dringend","article":"-","plural":"-","translation":{"en":"Urgent","bn":"জরুরি","hi":"तत्काल","ur":"فوری","tr":"Acil"}}
-],"dialogues":[{"id":"d12_01","title":{"en":"Emergency Call"},"lines":[
-{"speaker":"Arzt","germanText":"Wir brauchen sofort eine Reanimation!","translation":{"en":"We need resuscitation immediately!"}},
-{"speaker":"Schwester","germanText":"Der Patient ist bewusstlos.","translation":{"en":"The patient is unconscious."}},
-{"speaker":"Arzt","germanText":"Rufen Sie den Notarzt!","translation":{"en":"Call the emergency doctor!"}}
-]}],"exercises":[{"id":"e12_01","type":"multipleChoice","question":{"en":"What is 'Rettungswagen'?"},"options":["Ambulance","Doctor","Hospital"],"correctAnswer":"Ambulance","points":10}]}
+{
+    "id": "section_12",
+    "phaseId": "phase1",
+    "order": 12,
+    "titleDe": "Notrufe",
+    "title": {
+        "en": "Emergency Medical Response: A Comprehensive Guide",
+        "bn": "জরুরী চিকিৎসা প্রতিক্রিয়া: একটি ব্যাপক নির্দেশিকা",
+        "hi": "आपातकालीन चिकित्सा प्रतिक्रिया: एक व्यापक मार्गदर्शिका",
+        "ur": "ایمرجنسی طبی ردعمل: ایک جامع گائیڈ",
+        "tr": "Acil Tıbbi Müdahale: Kapsamlı Bir Rehber",
+        "de": "Medizinische Notfallversorgung: Eine umfassende Anleitung"
+    },
+    "description": {
+        "en": "This section covers essential vocabulary and procedures for responding to medical emergencies in German-speaking environments.",
+        "bn": "এই বিভাগে জার্মানভাষী পরিবেশে চিকিৎসা বিষয়ক জরুরি পরিস্থিতিতে প্রতিক্রিয়া জানানোর জন্য প্রয়োজনীয় শব্দভাণ্ডার এবং পদ্ধতি অন্তর্ভুক্ত রয়েছে।",
+        "hi": "यह खंड जर्मन भाषी वातावरण में चिकित्सा आपात स्थितियों के प्रति प्रतिक्रिया देने के लिए आवश्यक शब्दावली और प्रक्रियाओं को शामिल करता है।",
+        "ur": "اس سیکشن میں جرمن بولنے والے ماحول میں طبی ایمرجنسیوں کے جواب دینے کے لیے ضروری الفاظ اور طریقہ کار شامل ہیں۔",
+        "tr": "Bu bölüm, Almanca konuşulan ortamlarda tıbbi acil durumlara müdahale için temel kelime bilgisini ve prosedürleri kapsar.",
+        "de": "Dieser Abschnitt behandelt das wesentliche Vokabular und die Verfahren zur Reaktion auf medizinische Notfälle in deutschsprachigen Umgebungen."
+    },
+    "level": "A2",
+    "estimatedMinutes": 45,
+    "isPremium": false,
+    "textContent": {
+        "introduction": {
+            "en": "This section will introduce you to the vocabulary and phrases necessary to understand and respond to medical emergencies. You will learn how to communicate effectively in situations involving 'Notruf,' 'Reanimation,' 'Notfall,' 'Rettungswagen,' 'Erste Hilfe,' and 'lebensbedrohlich.'",
+            "bn": "এই বিভাগে আপনি চিকিৎসা বিষয়ক জরুরি অবস্থা বুঝতে এবং প্রতিক্রিয়া জানাতে প্রয়োজনীয় শব্দভাণ্ডার এবং বাক্যাংশগুলির সাথে পরিচিত হবেন। আপনি 'Notruf', 'Reanimation', 'Notfall', 'Rettungswagen', 'Erste Hilfe', এবং 'lebensbedrohlich' জড়িত পরিস্থিতিতে কীভাবে কার্যকরভাবে যোগাযোগ করতে হয় তা শিখবেন।",
+            "hi": "यह खंड आपको चिकित्सा आपात स्थितियों को समझने और प्रतिक्रिया देने के लिए आवश्यक शब्दावली और वाक्यांशों से परिचित कराएगा। आप सीखेंगे कि 'Notruf,' 'Reanimation,' 'Notfall,' 'Rettungswagen,' 'Erste Hilfe,' और 'lebensbedrohlich' से जुड़ी स्थितियों में प्रभावी ढंग से कैसे संवाद करें।",
+            "ur": "یہ سیکشن آپ کو طبی ایمرجنسیوں کو سمجھنے اور جواب دینے کے لیے ضروری الفاظ اور جملوں سے متعارف کرائے گا۔ آپ سیکھیں گے کہ 'Notruf,' 'Reanimation,' 'Notfall,' 'Rettungswagen,' 'Erste Hilfe,' اور 'lebensbedrohlich' سے متعلق حالات میں مؤثر طریقے سے کیسے بات چیت کی جائے۔",
+            "tr": "Bu bölüm, tıbbi acil durumları anlamak ve bunlara müdahale etmek için gerekli kelime dağarcığı ve ifadelerle sizi tanıştıracaktır. 'Notruf,' 'Reanimation,' 'Notfall,' 'Rettungswagen,' 'Erste Hilfe' ve 'lebensbedrohlich' içeren durumlarda nasıl etkili bir şekilde iletişim kuracağınızı öğreneceksiniz.",
+            "de": "Dieser Abschnitt führt Sie in das Vokabular und die Phrasen ein, die notwendig sind, um medizinische Notfälle zu verstehen und darauf zu reagieren. Sie lernen, wie Sie in Situationen mit 'Notruf', 'Reanimation', 'Notfall', 'Rettungswagen', 'Erste Hilfe' und 'lebensbedrohlich' effektiv kommunizieren."
+        },
+        "grammarFocus": {
+            "en": {
+                "point1": "Understanding and using the accusative and dative cases in the context of giving instructions (e.g., 'Ich gebe dem Patienten Wasser.' - I give the patient water.)",
+                "point2": "Formation of imperative sentences for giving clear and concise instructions in emergency situations (e.g., 'Rufen Sie den Notarzt!' - Call the emergency doctor!)"
+            },
+            "bn": {
+                "point1": "নির্দেশাবলী প্রদানের প্রেক্ষাপটে accusative এবং dative case বোঝা এবং ব্যবহার করা (যেমন, 'Ich gebe dem Patienten Wasser.' - আমি রোগীকে জল দিচ্ছি)।",
+                "point2": "জরুরী পরিস্থিতিতে স্পষ্ট এবং সংক্ষিপ্ত নির্দেশাবলী দেওয়ার জন্য imperative বাক্য গঠন করা (যেমন, 'Rufen Sie den Notarzt!' - জরুরি ডাক্তারকে কল করুন!)"
+            },
+            "hi": {
+                "point1": "निर्देश देने के संदर्भ में accusative और dative केस को समझना और उपयोग करना (उदाहरण के लिए, 'Ich gebe dem Patienten Wasser।' - मैं रोगी को पानी देता हूँ)।",
+                "point2": "आपातकालीन स्थितियों में स्पष्ट और संक्षिप्त निर्देश देने के लिए अनिवार्य वाक्यों का निर्माण (उदाहरण के लिए, 'Rufen Sie den Notarzt!' - आपातकालीन चिकित्सक को बुलाओ!)"
+            },
+            "ur": {
+                "point1": "ہدایات دینے کے تناظر میں accusative اور dative کیس کو سمجھنا اور استعمال کرنا (مثال کے طور پر، 'Ich gebe dem Patienten Wasser.' - میں مریض کو پانی دیتا ہوں)۔",
+                "point2": "ایمرجنسی حالات میں واضح اور مختصر ہدایات دینے کے لیے لازم جملوں کی تشکیل (مثال کے طور پر، 'Rufen Sie den Notarzt!' - ایمرجنسی ڈاکٹر کو کال کریں!)"
+            },
+            "tr": {
+                "point1": "Talimat verme bağlamında belirtme ve yönelme hallerini anlamak ve kullanmak (örneğin, 'Ich gebe dem Patienten Wasser.' - Hastaya su veriyorum.)",
+                "point2": "Acil durumlarda net ve öz talimatlar vermek için emir cümlelerinin oluşturulması (örneğin, 'Rufen Sie den Notarzt!' - Acil doktoru arayın!)"
+            },
+            "de": {
+                "point1": "Verständnis und Anwendung des Akkusativs und Dativs im Kontext der Anweisungsgebung (z.B. 'Ich gebe dem Patienten Wasser.' - Ich gebe dem Patienten Wasser.)",
+                "point2": "Bildung von Imperativsätzen zur klaren und prägnanten Anweisung in Notsituationen (z.B. 'Rufen Sie den Notarzt!' - Rufen Sie den Notarzt!)"
+            }
+        },
+        "culturalNotes": {
+            "en": "In Germany, calling the emergency number (112) connects you directly to trained dispatchers who will assess the situation and dispatch the appropriate emergency services.",
+            "bn": "জার্মানিতে, জরুরি নম্বরে (112) কল করলে আপনি সরাসরি প্রশিক্ষিত প্রেরণকারীদের সাথে সংযুক্ত হবেন যারা পরিস্থিতি মূল্যায়ন করবে এবং উপযুক্ত জরুরি পরিষেবা প্রেরণ করবে।",
+            "hi": "जर्मनी में, आपातकालीन नंबर (112) पर कॉल करने पर आप सीधे प्रशिक्षित प्रेषकों से जुड़ जाते हैं जो स्थिति का आकलन करेंगे और उचित आपातकालीन सेवाएं भेजेंगे।",
+            "ur": "جرمنی میں، ایمرجنسی نمبر (112) پر کال کرنے سے آپ براہ راست تربیت یافتہ ڈسپیچرز سے جڑ جاتے ہیں جو صورتحال کا جائزہ لیں گے اور مناسب ایمرجنسی سروسز بھیجیں گے۔",
+            "tr": "Almanya'da, acil durum numarasını (112) aradığınızda, doğrudan durumu değerlendirecek ve uygun acil servisleri gönderecek eğitimli görevlilerle bağlantı kurarsınız.",
+            "de": "In Deutschland verbindet Sie der Notruf (112) direkt mit geschulten Disponenten, die die Situation beurteilen und die entsprechenden Rettungsdienste entsenden."
+        },
+        "summary": {
+            "en": "By mastering the vocabulary and grammar presented in this section, you will be better prepared to handle medical emergencies and communicate effectively in German.",
+            "bn": "এই বিভাগে উপস্থাপিত শব্দভাণ্ডার এবং ব্যাকরণ আয়ত্ত করে, আপনি চিকিৎসা বিষয়ক জরুরি পরিস্থিতি মোকাবেলা করতে এবং জার্মান ভাষায় কার্যকরভাবে যোগাযোগ করতে আরও ভালভাবে প্রস্তুত হবেন।",
+            "hi": "इस खंड में प्रस्तुत शब्दावली और व्याकरण में महारत हासिल करके, आप चिकित्सा आपात स्थितियों को संभालने और जर्मन में प्रभावी ढंग से संवाद करने के लिए बेहतर ढंग से तैयार होंगे।",
+            "ur": "اس سیکشن میں پیش کردہ الفاظ اور گرامر میں مہارت حاصل کرکے، آپ طبی ایمرجنسیوں سے نمٹنے اور جرمن میں مؤثر طریقے سے بات چیت کرنے کے لیے بہتر طور پر تیار ہوں گے۔",
+            "tr": "Bu bölümde sunulan kelime bilgisini ve dilbilgisini öğrenerek, tıbbi acil durumlarla başa çıkmaya ve Almanca etkili bir şekilde iletişim kurmaya daha iyi hazırlanacaksınız.",
+            "de": "Durch die Beherrschung des in diesem Abschnitt vorgestellten Vokabulars und der Grammatik sind Sie besser auf medizinische Notfälle vorbereitet und können effektiv auf Deutsch kommunizieren."
+        },
+        "learningObjectives": [
+            "Learn essential vocabulary related to medical emergencies in German.",
+            "Understand how to describe a medical emergency situation in German.",
+            "Practice giving clear instructions in German during an emergency.",
+            "Recognize and respond appropriately to common medical emergencies in a German-speaking context."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "der Notruf",
+            "article": "der",
+            "plural": "die Notrufe",
+            "pronunciation": "ˈnoːtˌruːf",
+            "category": "noun",
+            "translation": {
+                "en": "emergency call",
+                "bn": "জরুরী কল",
+                "hi": "आपातकालीन कॉल",
+                "ur": "ایمرجنسی کال",
+                "tr": "acil çağrı"
+            },
+            "exampleSentence": "Wählen Sie den Notruf 112 bei einem medizinischen Notfall.",
+            "exampleTranslation": {
+                "en": "Dial 112 for a medical emergency.",
+                "bn": "মেডিকেল জরুরী অবস্থার জন্য 112 ডায়াল করুন।",
+                "hi": "चिकित्सा आपातकाल के लिए 112 डायल करें।",
+                "ur": "طبی ایمرجنسی کے لیے 112 ڈائل کریں۔",
+                "tr": "Tıbbi acil durum için 112'yi arayın."
+            },
+            "id": "v12_01"
+        },
+        {
+            "germanTerm": "die Reanimation",
+            "article": "die",
+            "plural": "die Reanimationen",
+            "pronunciation": "ʁe.ani.maˈt͡si̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "resuscitation",
+                "bn": "পুনরুজ্জীবন",
+                "hi": "पुनर्जीवन",
+                "ur": "احیاء",
+                "tr": "canlandırma"
+            },
+            "exampleSentence": "Die Reanimation wurde sofort eingeleitet.",
+            "exampleTranslation": {
+                "en": "Resuscitation was initiated immediately.",
+                "bn": "অবিলম্বে পুনরুজ্জীবন শুরু করা হয়েছিল।",
+                "hi": "तत्काल पुनर्जीवन शुरू किया गया।",
+                "ur": "فوری طور پر بحالی شروع کردی گئی۔",
+                "tr": "Canlandırmaya hemen başlandı."
+            },
+            "id": "v12_02"
+        },
+        {
+            "germanTerm": "der Notfall",
+            "article": "der",
+            "plural": "die Notfälle",
+            "pronunciation": "ˈnoːtˌfal",
+            "category": "noun",
+            "translation": {
+                "en": "emergency",
+                "bn": "জরুরী অবস্থা",
+                "hi": "आपातकाल",
+                "ur": "ایمرجنسی",
+                "tr": "acil durum"
+            },
+            "exampleSentence": "Im Notfall muss schnell gehandelt werden.",
+            "exampleTranslation": {
+                "en": "In an emergency, quick action is necessary.",
+                "bn": "জরুরী অবস্থায় দ্রুত ব্যবস্থা নিতে হবে।",
+                "hi": "आपातकाल में, त्वरित कार्रवाई आवश्यक है।",
+                "ur": "ایمرجنسی کی صورت میں، فوری کارروائی ضروری ہے۔",
+                "tr": "Acil bir durumda, hızlı hareket etmek gerekir."
+            },
+            "id": "v12_03"
+        },
+        {
+            "germanTerm": "der Rettungswagen",
+            "article": "der",
+            "plural": "die Rettungswagen",
+            "pronunciation": "ˈʁɛtʊŋsˌvaːɡən",
+            "category": "noun",
+            "translation": {
+                "en": "ambulance",
+                "bn": "অ্যাম্বুলেন্স",
+                "hi": "एम्बुलेंस",
+                "ur": "ایمبولینس",
+                "tr": "ambulans"
+            },
+            "exampleSentence": "Der Rettungswagen ist auf dem Weg zum Unfallort.",
+            "exampleTranslation": {
+                "en": "The ambulance is on its way to the scene of the accident.",
+                "bn": "অ্যাম্বুলেন্সটি দুর্ঘটনার স্থানে যাচ্ছে।",
+                "hi": "एम्बुलेंस दुर्घटनास्थल की ओर जा रही है।",
+                "ur": "ایمبولینس حادثے کی جگہ پر جا رہی ہے۔",
+                "tr": "Ambulans kaza yerine doğru yola çıktı."
+            },
+            "id": "v12_04"
+        },
+        {
+            "germanTerm": "die Erste Hilfe",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "ˈɛʁstə ˈhɪlfə",
+            "category": "noun",
+            "translation": {
+                "en": "first aid",
+                "bn": "প্রাথমিক চিকিৎসা",
+                "hi": "प्राथमिक चिकित्सा",
+                "ur": "ابتدائی طبی امداد",
+                "tr": "ilk yardım"
+            },
+            "exampleSentence": "Es ist wichtig, Erste Hilfe leisten zu können.",
+            "exampleTranslation": {
+                "en": "It is important to be able to provide first aid.",
+                "bn": "প্রাথমিক চিকিৎসা দিতে সক্ষম হওয়া গুরুত্বপূর্ণ।",
+                "hi": "प्राथमिक चिकित्सा प्रदान करने में सक्षम होना महत्वपूर्ण है।",
+                "ur": "ابتدائی طبی امداد فراہم کرنے کے قابل ہونا ضروری ہے۔",
+                "tr": "İlk yardım sağlayabilmek önemlidir."
+            },
+            "id": "v12_05"
+        },
+        {
+            "germanTerm": "lebensbedrohlich",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˈleːbənsbəˌdroːlɪç",
+            "category": "adjective",
+            "translation": {
+                "en": "life-threatening",
+                "bn": "জীবননাশী",
+                "hi": "जानलेवा",
+                "ur": "جان لیوا",
+                "tr": "hayatı tehdit edici"
+            },
+            "exampleSentence": "Der Patient befindet sich in einem lebensbedrohlichen Zustand.",
+            "exampleTranslation": {
+                "en": "The patient is in a life-threatening condition.",
+                "bn": "রোগী জীবননাশী অবস্থায় আছেন।",
+                "hi": "रोगी जानलेवा स्थिति में है।",
+                "ur": "مریض جان لیوا حالت میں ہے۔",
+                "tr": "Hasta hayatı tehdit eden bir durumda."
+            },
+            "id": "v12_06"
+        },
+        {
+            "germanTerm": "die Notaufnahme",
+            "article": "die",
+            "plural": "die Notaufnahmen",
+            "pronunciation": "ˈnoːtˌʔaʊ̯fˌnaːmə",
+            "category": "noun",
+            "translation": {
+                "en": "emergency room",
+                "bn": "জরুরী বিভাগ",
+                "hi": "आपातकालीन कक्ष",
+                "ur": "ایمرجنسی روم",
+                "tr": "acil servis"
+            },
+            "exampleSentence": "Der Patient wurde in die Notaufnahme gebracht.",
+            "exampleTranslation": {
+                "en": "The patient was taken to the emergency room.",
+                "bn": "রোগীকে জরুরী বিভাগে নিয়ে যাওয়া হয়েছিল।",
+                "hi": "रोगी को आपातकालीन कक्ष में ले जाया गया।",
+                "ur": "مریض کو ایمرجنسی روم میں لے جایا گیا۔",
+                "tr": "Hasta acil servise götürüldü."
+            },
+            "id": "v12_07"
+        },
+        {
+            "germanTerm": "der Notarzt",
+            "article": "der",
+            "plural": "die Notärzte",
+            "pronunciation": "ˈnoːtˌʔaʁt͡st",
+            "category": "noun",
+            "translation": {
+                "en": "emergency physician",
+                "bn": "জরুরী ডাক্তার",
+                "hi": "आपातकालीन चिकित्सक",
+                "ur": "ایمرجنسی طبیب",
+                "tr": "acil doktoru"
+            },
+            "exampleSentence": "Der Notarzt wurde zum Einsatzort gerufen.",
+            "exampleTranslation": {
+                "en": "The emergency physician was called to the scene.",
+                "bn": "জরুরী ডাক্তারকে ঘটনাস্থলে ডাকা হয়েছিল।",
+                "hi": "आपातकालीन चिकित्सक को घटनास्थल पर बुलाया गया।",
+                "ur": "ایمرجنسی طبیب کو جائے وقوعہ پر بلایا گیا۔",
+                "tr": "Acil doktoru olay yerine çağrıldı."
+            },
+            "id": "v12_08"
+        },
+        {
+            "germanTerm": "die Notfallsanitäter",
+            "article": "die",
+            "plural": "die Notfallsanitäter",
+            "pronunciation": "ˈnoːtˌfalszaˌniːtɛtɐ",
+            "category": "noun",
+            "translation": {
+                "en": "paramedics",
+                "bn": "প্যারামেডিকস",
+                "hi": "पैरामेडिक्स",
+                "ur": "پیرا میڈیکس",
+                "tr": "paramedikler"
+            },
+            "exampleSentence": "Die Notfallsanitäter stabilisierten den Patienten.",
+            "exampleTranslation": {
+                "en": "The paramedics stabilized the patient.",
+                "bn": "প্যারামেডিকস রোগী স্থিতিশীল করেছেন।",
+                "hi": "पैरामेडिक्स ने रोगी को स्थिर किया।",
+                "ur": "پیرا میڈیکس نے مریض کو مستحکم کیا۔",
+                "tr": "Paramedikler hastayı stabilize etti."
+            },
+            "id": "v12_09"
+        },
+        {
+            "germanTerm": "die Bewusstlosigkeit",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "bəˈvʊstloːzɪçkaɪ̯t",
+            "category": "noun",
+            "translation": {
+                "en": "unconsciousness",
+                "bn": "অজ্ঞান",
+                "hi": "बेहोशी",
+                "ur": "بے ہوشی",
+                "tr": "bilinç kaybı"
+            },
+            "exampleSentence": "Der Patient erlitt eine Bewusstlosigkeit.",
+            "exampleTranslation": {
+                "en": "The patient suffered a loss of consciousness.",
+                "bn": "রোগী অজ্ঞান হয়ে গিয়েছিলেন।",
+                "hi": "रोगी को बेहोशी आ गई।",
+                "ur": "مریض بے ہوش ہو گیا۔",
+                "tr": "Hasta bilinç kaybı yaşadı."
+            },
+            "id": "v12_10"
+        },
+        {
+            "germanTerm": "der Herzstillstand",
+            "article": "der",
+            "plural": "die Herzstillstände",
+            "pronunciation": "ˈhɛʁt͡sˌʃtɪlʃtant",
+            "category": "noun",
+            "translation": {
+                "en": "cardiac arrest",
+                "bn": "হৃদরোগ",
+                "hi": "हृदय गति रुकना",
+                "ur": "قلبی گرفتاری",
+                "tr": "kalp durması"
+            },
+            "exampleSentence": "Bei einem Herzstillstand ist schnelles Handeln entscheidend.",
+            "exampleTranslation": {
+                "en": "In the event of cardiac arrest, quick action is crucial.",
+                "bn": "হৃদরোগের ক্ষেত্রে দ্রুত ব্যবস্থা নেওয়া অত্যন্ত গুরুত্বপূর্ণ।",
+                "hi": "कार्डियक अरेस्ट की स्थिति में, त्वरित कार्रवाई महत्वपूर्ण है।",
+                "ur": "قلبی گرفتاری کی صورت میں، فوری کارروائی بہت ضروری ہے۔",
+                "tr": "Kalp durması durumunda, hızlı hareket etmek çok önemlidir."
+            },
+            "id": "v12_11"
+        },
+        {
+            "germanTerm": "die Atemnot",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "ˈaːtəmˌnoːt",
+            "category": "noun",
+            "translation": {
+                "en": "shortness of breath",
+                "bn": "শ্বাসকষ্ট",
+                "hi": "सांस लेने में तकलीफ",
+                "ur": "سانس کی قلت",
+                "tr": "nefes darlığı"
+            },
+            "exampleSentence": "Der Patient klagte über starke Atemnot.",
+            "exampleTranslation": {
+                "en": "The patient complained of severe shortness of breath.",
+                "bn": "রোগী মারাত্মক শ্বাসকষ্টের অভিযোগ করেছেন।",
+                "hi": "रोगी ने सांस लेने में गंभीर तकलीफ की शिकायत की।",
+                "ur": "مریض نے شدید سانس کی قلت کی شکایت کی۔",
+                "tr": "Hasta şiddetli nefes darlığından şikayet etti."
+            },
+            "id": "v12_12"
+        },
+        {
+            "germanTerm": "die Verletzung",
+            "article": "die",
+            "plural": "die Verletzungen",
+            "pronunciation": "fɛɐ̯ˈlɛt͡sʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "injury",
+                "bn": "আঘাত",
+                "hi": "चोट",
+                "ur": "چوٹ",
+                "tr": "yaralanma"
+            },
+            "exampleSentence": "Die Verletzung des Patienten wurde versorgt.",
+            "exampleTranslation": {
+                "en": "The patient's injury was treated.",
+                "bn": "রোগীর আঘাতের চিকিৎসা করা হয়েছিল।",
+                "hi": "रोगी की चोट का इलाज किया गया।",
+                "ur": "مریض کی چوٹ کا علاج کیا گیا۔",
+                "tr": "Hastanın yaralanması tedavi edildi."
+            },
+            "id": "v12_13"
+        },
+        {
+            "germanTerm": "der Schock",
+            "article": "der",
+            "plural": "die Schocks",
+            "pronunciation": "ʃɔk",
+            "category": "noun",
+            "translation": {
+                "en": "shock",
+                "bn": "শক",
+                "hi": "सदमा",
+                "ur": "صدمہ",
+                "tr": "şok"
+            },
+            "exampleSentence": "Der Patient erlitt einen Schock nach dem Unfall.",
+            "exampleTranslation": {
+                "en": "The patient suffered shock after the accident.",
+                "bn": "দুর্ঘটনার পরে রোগী শক পেয়েছিলেন।",
+                "hi": "दुर्घटना के बाद रोगी सदमे में था।",
+                "ur": "حادثے کے بعد مریض صدمے میں تھا۔",
+                "tr": "Hasta kazadan sonra şok yaşadı."
+            },
+            "id": "v12_14"
+        },
+        {
+            "germanTerm": "der Blutdruck",
+            "article": "der",
+            "plural": "die Blutdrücke",
+            "pronunciation": "ˈbluːtˌdʁʊk",
+            "category": "noun",
+            "translation": {
+                "en": "blood pressure",
+                "bn": "রক্তচাপ",
+                "hi": "रक्तचाप",
+                "ur": "بلڈ پریشر",
+                "tr": "kan basıncı"
+            },
+            "exampleSentence": "Der Blutdruck des Patienten ist sehr niedrig.",
+            "exampleTranslation": {
+                "en": "The patient's blood pressure is very low.",
+                "bn": "রোগীর রক্তচাপ খুব কম।",
+                "hi": "रोगी का रक्तचाप बहुत कम है।",
+                "ur": "مریض کا بلڈ پریشر بہت کم ہے۔",
+                "tr": "Hastanın kan basıncı çok düşük."
+            },
+            "id": "v12_15"
+        },
+        {
+            "germanTerm": "die Wunde",
+            "article": "die",
+            "plural": "die Wunden",
+            "pronunciation": "ˈvʊndə",
+            "category": "noun",
+            "translation": {
+                "en": "wound",
+                "bn": "ক্ষত",
+                "hi": "घाव",
+                "ur": "زخم",
+                "tr": "yara"
+            },
+            "exampleSentence": "Die Wunde muss desinfiziert werden.",
+            "exampleTranslation": {
+                "en": "The wound must be disinfected.",
+                "bn": "ক্ষতটি জীবাণুমুক্ত করতে হবে।",
+                "hi": "घाव को कीटाणुरहित करना होगा।",
+                "ur": "زخم کو جراثیم کشی کرنا ہوگی۔",
+                "tr": "Yaranın dezenfekte edilmesi gerekiyor."
+            },
+            "id": "v12_16"
+        },
+        {
+            "germanTerm": "der Sauerstoff",
+            "article": "der",
+            "plural": "kein Plural",
+            "pronunciation": "ˈzaʊ̯ɐˌʃtɔf",
+            "category": "noun",
+            "translation": {
+                "en": "oxygen",
+                "bn": "অক্সিজেন",
+                "hi": "ऑक्सीजन",
+                "ur": "آکسیجن",
+                "tr": "oksijen"
+            },
+            "exampleSentence": "Der Patient benötigt Sauerstoff.",
+            "exampleTranslation": {
+                "en": "The patient needs oxygen.",
+                "bn": "রোগীর অক্সিজেন প্রয়োজন।",
+                "hi": "रोगी को ऑक्सीजन की जरूरत है।",
+                "ur": "مریض کو آکسیجن کی ضرورت ہے۔",
+                "tr": "Hastanın oksijene ihtiyacı var."
+            },
+            "id": "v12_17"
+        },
+        {
+            "germanTerm": "die Einweisung",
+            "article": "die",
+            "plural": "die Einweisungen",
+            "pronunciation": "ˈaɪ̯nˌvaɪ̯zʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "referral",
+                "bn": "রেফারেল",
+                "hi": "रेफरल",
+                "ur": "حوالہ",
+                "tr": "sevk"
+            },
+            "exampleSentence": "Der Patient erhielt eine Einweisung ins Krankenhaus.",
+            "exampleTranslation": {
+                "en": "The patient received a referral to the hospital.",
+                "bn": "রোগী হাসপাতালে ভর্তির জন্য একটি রেফারেল পেয়েছেন।",
+                "hi": "रोगी को अस्पताल में भर्ती होने के लिए एक रेफरल मिला।",
+                "ur": "مریض کو ہسپتال میں داخلے کے لیے ایک ریفرل ملا۔",
+                "tr": "Hasta hastaneye sevk aldı."
+            },
+            "id": "v12_18"
+        },
+        {
+            "germanTerm": "die Diagnose",
+            "article": "die",
+            "plural": "die Diagnosen",
+            "pronunciation": "di̯aˈɡnoːzə",
+            "category": "noun",
+            "translation": {
+                "en": "diagnosis",
+                "bn": "রোগ নির্ণয়",
+                "hi": "निदान",
+                "ur": "تشخیص",
+                "tr": "teşhis"
+            },
+            "exampleSentence": "Die Diagnose lautet Herzinfarkt.",
+            "exampleTranslation": {
+                "en": "The diagnosis is heart attack.",
+                "bn": "রোগ নির্ণয় হল হার্ট অ্যাটাক।",
+                "hi": "निदान हृदयघात है।",
+                "ur": "تشخیص ہارٹ اٹیک ہے۔",
+                "tr": "Teşhis kalp krizi."
+            },
+            "id": "v12_19"
+        },
+        {
+            "germanTerm": "der Kreislauf",
+            "article": "der",
+            "plural": "die Kreisläufe",
+            "pronunciation": "ˈkʁaɪ̯sˌlaʊ̯f",
+            "category": "noun",
+            "translation": {
+                "en": "circulation",
+                "bn": "সঞ্চালন",
+                "hi": "परिसंचरण",
+                "ur": "گردش",
+                "tr": "dolaşım"
+            },
+            "exampleSentence": "Der Kreislauf des Patienten ist instabil.",
+            "exampleTranslation": {
+                "en": "The patient's circulation is unstable.",
+                "bn": "রোগীর সঞ্চালন অস্থির।",
+                "hi": "रोगी का परिसंचरण अस्थिर है।",
+                "ur": "مریض کی گردش غیر مستحکم ہے۔",
+                "tr": "Hastanın dolaşımı istikrarsız."
+            },
+            "id": "v12_20"
+        },
+        {
+            "germanTerm": "die Intubation",
+            "article": "die",
+            "plural": "die Intubationen",
+            "pronunciation": "ɪntubaˈt͡si̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "intubation",
+                "bn": "ইনটিউবেশন",
+                "hi": "इंट्यूबेशन",
+                "ur": "انٹیوبیشن",
+                "tr": "entübasyon"
+            },
+            "exampleSentence": "Der Patient musste intubiert werden.",
+            "exampleTranslation": {
+                "en": "The patient had to be intubated.",
+                "bn": "রোগীকে ইনটিউবেট করতে হয়েছিল।",
+                "hi": "रोगी को इंटुबैट करना पड़ा।",
+                "ur": "مریض کو انٹیوبیٹ کرنا پڑا۔",
+                "tr": "Hastaya entübe edilmesi gerekti."
+            },
+            "id": "v12_21"
+        },
+        {
+            "germanTerm": "stabilisieren",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ʃtabiliˈziːʁən",
+            "category": "verb",
+            "translation": {
+                "en": "to stabilize",
+                "bn": "স্থিতিশীল করা",
+                "hi": "स्थिर करना",
+                "ur": "مستحکم کرنا",
+                "tr": "stabilize etmek"
+            },
+            "exampleSentence": "Wir müssen den Patienten stabilisieren.",
+            "exampleTranslation": {
+                "en": "We need to stabilize the patient.",
+                "bn": "আমাদের রোগীকে স্থিতিশীল করতে হবে।",
+                "hi": "हमें रोगी को स्थिर करना होगा।",
+                "ur": "ہمیں مریض کو مستحکم کرنا ہوگا۔",
+                "tr": "Hastayı stabilize etmemiz gerekiyor."
+            },
+            "id": "v12_22"
+        },
+        {
+            "germanTerm": "die Überwachung",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "yːbɐˈvaχʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "monitoring",
+                "bn": "পর্যবেক্ষণ",
+                "hi": "निगरानी",
+                "ur": "نگرانی",
+                "tr": "izleme"
+            },
+            "exampleSentence": "Der Patient befindet sich unter ständiger Überwachung.",
+            "exampleTranslation": {
+                "en": "The patient is under constant monitoring.",
+                "bn": "রোগী ক্রমাগত পর্যবেক্ষণে আছেন।",
+                "hi": "रोगी लगातार निगरानी में है।",
+                "ur": "مریض مسلسل نگرانی میں ہے۔",
+                "tr": "Hasta sürekli gözetim altında."
+            },
+            "id": "v12_23"
+        },
+        {
+            "germanTerm": "das Trauma",
+            "article": "das",
+            "plural": "die Traumata",
+            "pronunciation": "ˈtʁaʊ̯ma",
+            "category": "noun",
+            "translation": {
+                "en": "trauma",
+                "bn": "আঘাত",
+                "hi": "आघात",
+                "ur": "صدمہ",
+                "tr": "travma"
+            },
+            "exampleSentence": "Der Patient hat ein schweres Trauma erlitten.",
+            "exampleTranslation": {
+                "en": "The patient suffered a severe trauma.",
+                "bn": "রোগী একটি গুরুতর আঘাত পেয়েছেন।",
+                "hi": "रोगी को एक गंभीर आघात लगा है।",
+                "ur": "مریض کو شدید صدمہ پہنچا ہے۔",
+                "tr": "Hasta ağır bir travma geçirdi."
+            },
+            "id": "v12_24"
+        },
+        {
+            "germanTerm": "die Beatmung",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "bəˈʔaːtmʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "ventilation",
+                "bn": "বায়ুচলাচল",
+                "hi": "वेंटिलेशन",
+                "ur": "وینٹیلیشن",
+                "tr": "havalandırma"
+            },
+            "exampleSentence": "Der Patient benötigt künstliche Beatmung.",
+            "exampleTranslation": {
+                "en": "The patient requires artificial ventilation.",
+                "bn": "রোগীর কৃত্রিম বায়ুচলাচল প্রয়োজন।",
+                "hi": "रोगी को कृत्रिम वेंटिलेशन की आवश्यकता है।",
+                "ur": "مریض کو مصنوعی وینٹیلیشن کی ضرورت ہے۔",
+                "tr": "Hastanın yapay havalandırmaya ihtiyacı var."
+            },
+            "id": "v12_25"
+        },
+        {
+            "germanTerm": "die Infusion",
+            "article": "die",
+            "plural": "die Infusionen",
+            "pronunciation": "ɪnfuˈzi̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "infusion",
+                "bn": "ইনফিউশন",
+                "hi": "इन्फ्यूजन",
+                "ur": "انفیوژن",
+                "tr": "infüzyon"
+            },
+            "exampleSentence": "Der Patient erhält eine Infusion.",
+            "exampleTranslation": {
+                "en": "The patient is receiving an infusion.",
+                "bn": "রোগী একটি ইনফিউশন গ্রহণ করছেন।",
+                "hi": "रोगी को एक इन्फ्यूजन मिल रहा है।",
+                "ur": "مریض کو انفیوژن مل رہا ہے۔",
+                "tr": "Hasta bir infüzyon alıyor."
+            },
+            "id": "v12_26"
+        },
+        {
+            "germanTerm": "das Medikament",
+            "article": "das",
+            "plural": "die Medikamente",
+            "pronunciation": "mediˈkaːmɛnt",
+            "category": "noun",
+            "translation": {
+                "en": "medication",
+                "bn": "ওষুধ",
+                "hi": "दवाई",
+                "ur": "دوا",
+                "tr": "ilaç"
+            },
+            "exampleSentence": "Das Medikament wurde intravenös verabreicht.",
+            "exampleTranslation": {
+                "en": "The medication was administered intravenously.",
+                "bn": "ওষুধটি শিরায় দেওয়া হয়েছিল।",
+                "hi": "दवाई अंतःशिरा में दी गई थी।",
+                "ur": "دوا نسوں کے ذریعے دی گئی تھی۔",
+                "tr": "İlaç intravenöz olarak uygulandı."
+            },
+            "id": "v12_27"
+        },
+        {
+            "germanTerm": "die Anamnese",
+            "article": "die",
+            "plural": "die Anamnesen",
+            "pronunciation": "anaˈmneːzə",
+            "category": "noun",
+            "translation": {
+                "en": "medical history",
+                "bn": "চিকিৎসা ইতিহাস",
+                "hi": "चिकित्सा इतिहास",
+                "ur": "طبی تاریخ",
+                "tr": "tıbbi geçmiş"
+            },
+            "exampleSentence": "Die Anamnese wurde sorgfältig aufgenommen.",
+            "exampleTranslation": {
+                "en": "The medical history was carefully taken.",
+                "bn": "চিকিৎসা ইতিহাস সাবধানে নেওয়া হয়েছিল।",
+                "hi": "चिकित्सा इतिहास सावधानीपूर्वक लिया गया।",
+                "ur": "طبی تاریخ احتیاط سے لی گئی۔",
+                "tr": "Tıbbi geçmiş dikkatlice alındı."
+            },
+            "id": "v12_28"
+        },
+        {
+            "germanTerm": "die Untersuchung",
+            "article": "die",
+            "plural": "die Untersuchungen",
+            "pronunciation": "ʊntɐˈzuːχʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "examination",
+                "bn": "পরীক্ষা",
+                "hi": "जांच",
+                "ur": "معائنہ",
+                "tr": "muayene"
+            },
+            "exampleSentence": "Der Patient wird gründlich untersucht.",
+            "exampleTranslation": {
+                "en": "The patient is being thoroughly examined.",
+                "bn": "রোগীর ভালো করে পরীক্ষা করা হচ্ছে।",
+                "hi": "रोगी की अच्छी तरह से जांच की जा रही है।",
+                "ur": "مریض کا اچھی طرح سے معائنہ کیا جا رہا ہے۔",
+                "tr": "Hasta iyice muayene ediliyor."
+            },
+            "id": "v12_29"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Cardiac Arrest in the Waiting Room",
+                "bn": "অপেক্ষমান কক্ষে হৃদরোগ",
+                "hi": "प्रतीक्षा कक्ष में हृदयघात",
+                "ur": "انتظار گاہ میں دل کا دورہ",
+                "tr": "Bekleme Odasında Kalp Durması"
+            },
+            "context": {
+                "en": "Patient collapses in the waiting room, exhibiting signs of cardiac arrest.",
+                "bn": "অপেক্ষমান কক্ষে রোগী পড়ে গিয়ে হৃদরোগের লক্ষণ দেখাচ্ছে।",
+                "hi": "प्रतीक्षा कक्ष में मरीज गिर गया, हृदयघात के लक्षण दिख रहे हैं।",
+                "ur": "انتظار گاہ میں مریض گر گیا، دل کا دورہ پڑنے کی علامات ظاہر ہو رہی ہیں۔",
+                "tr": "Hasta bekleme odasında çöktü, kalp durması belirtileri gösteriyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Notfall! Patient Müller ist zusammengebrochen! Kein Puls!",
+                    "translation": {
+                        "en": "Emergency! Patient Müller has collapsed! No pulse!",
+                        "bn": "জরুরি! রোগী মুলার পড়ে গিয়েছেন! পালস নেই!",
+                        "hi": "आपातकाल! मरीज मुलर गिर गए! कोई नाड़ी नहीं!",
+                        "ur": "ایمرجنسی! مریض مولر گر گئے! کوئی نبض نہیں!",
+                        "tr": "Acil durum! Hasta Müller çöktü! Nabız yok!"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Reanimationswagen holen! Ich beginne mit der Herzdruckmassage. Ist ein Notruf abgesetzt?",
+                    "translation": {
+                        "en": "Get the resuscitation trolley! I'll start chest compressions. Has an emergency call been made?",
+                        "bn": "পুনরুজ্জীবন গাড়ি আনুন! আমি বুকের চাপ দেওয়া শুরু করব। জরুরি কল করা হয়েছে?",
+                        "hi": "पुनर्जीवन गाड़ी लाओ! मैं छाती को दबाना शुरू करूँगा। क्या आपातकालीन कॉल की गई है?",
+                        "ur": "احیاء کی ٹرالی لے آؤ! میں سینے کو دبانا شروع کروں گا۔ کیا ایمرجنسی کال کی گئی ہے؟",
+                        "tr": "Resüsitasyon arabasını getirin! Göğüs kompresyonlarına başlayacağım. Acil çağrı yapıldı mı?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ja, der Notruf ist abgesetzt. Der Rettungswagen ist unterwegs.",
+                    "translation": {
+                        "en": "Yes, the emergency call has been made. The ambulance is on its way.",
+                        "bn": "হ্যাঁ, জরুরি কল করা হয়েছে। অ্যাম্বুলেন্স আসছে।",
+                        "hi": "हाँ, आपातकालीन कॉल की गई है। एम्बुलेंस रास्ते में है।",
+                        "ur": "ہاں، ایمرجنسی کال کی گئی ہے۔ ایمبولینس راستے میں ہے۔",
+                        "tr": "Evet, acil çağrı yapıldı. Ambulans yolda."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Adrenalin spritzen! Wir müssen ihn reanimieren. Lebensbedrohlicher Zustand.",
+                    "translation": {
+                        "en": "Inject adrenaline! We have to resuscitate him. Life-threatening condition.",
+                        "bn": "এড্রেনালিন ইনজেক্ট করুন! আমাদের তাকে পুনরুজ্জীবিত করতে হবে। জীবন-হুমকি পরিস্থিতি।",
+                        "hi": "एड्रेनालाईन इंजेक्ट करें! हमें उसे पुनर्जीवित करना होगा। जानलेवा स्थिति।",
+                        "ur": "ایڈرینالین انجیکٹ کریں! ہمیں اسے بحال کرنا ہوگا۔ جان لیوا صورتحال۔",
+                        "tr": "Adrenalin enjekte edin! Onu canlandırmamız gerekiyor. Hayatı tehdit eden durum."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Adrenalin ist gespritzt. EKG zeigt Asystolie.",
+                    "translation": {
+                        "en": "Adrenaline injected. ECG shows asystole.",
+                        "bn": "এড্রেনালিন ইনজেক্ট করা হয়েছে। ইসিজি অ্যাসিস্তোলি দেখাচ্ছে।",
+                        "hi": "एड्रेनालाईन इंजेक्ट किया गया। ईसीजी एसिस्टोल दिखा रहा है।",
+                        "ur": "ایڈرینالین انجیکٹ کیا گیا ہے۔ ای سی جی ایسسٹول دکھا رہا ہے۔",
+                        "tr": "Adrenalin enjekte edildi. EKG asistol gösteriyor."
+                    }
+                }
+            ],
+            "id": "d12_01"
+        },
+        {
+            "title": {
+                "en": "Accident on the Highway",
+                "bn": "হাইওয়েতে দুর্ঘটনা",
+                "hi": "राजमार्ग पर दुर्घटना",
+                "ur": "شاہراہ پر حادثہ",
+                "tr": "Otoyolda Kaza"
+            },
+            "context": {
+                "en": "The emergency call center receives information about a serious car accident on the highway.",
+                "bn": "জরুরি কল সেন্টার হাইওয়েতে একটি গুরুতর গাড়ি দুর্ঘটনার খবর পায়।",
+                "hi": "आपातकालीन कॉल सेंटर को राजमार्ग पर एक गंभीर कार दुर्घटना की सूचना मिलती है।",
+                "ur": "ایمرجنسی کال سینٹر کو شاہراہ پر ایک سنگین کار حادثے کی اطلاع ملتی ہے۔",
+                "tr": "Acil çağrı merkezi, otoyolda ciddi bir araba kazası hakkında bilgi alır."
+            },
+            "lines": [
+                {
+                    "speaker": "Disponent",
+                    "speakerRole": "Notrufzentrale",
+                    "germanText": "Notrufzentrale, was ist passiert?",
+                    "translation": {
+                        "en": "Emergency call center, what happened?",
+                        "bn": "জরুরি কল সেন্টার, কী হয়েছে?",
+                        "hi": "आपातकालीन कॉल सेंटर, क्या हुआ?",
+                        "ur": "ایمرجنسی کال سینٹر، کیا ہوا؟",
+                        "tr": "Acil çağrı merkezi, ne oldu?"
+                    }
+                },
+                {
+                    "speaker": "Anrufer",
+                    "speakerRole": "Anrufer",
+                    "germanText": "Schwerer Autounfall auf der A5! Mehrere Verletzte, einer ist bewusstlos!",
+                    "translation": {
+                        "en": "Serious car accident on the A5! Several injured, one is unconscious!",
+                        "bn": "এ৫-এ গুরুতর গাড়ি দুর্ঘটনা! অনেকে আহত, একজন অজ্ঞান!",
+                        "hi": "ए5 पर गंभीर कार दुर्घटना! कई घायल, एक बेहोश!",
+                        "ur": "اے 5 پر سنگین کار حادثہ! کئی زخمی، ایک بے ہوش!",
+                        "tr": "A5'te ciddi bir araba kazası! Birkaç yaralı, biri bilinçsiz!"
+                    }
+                },
+                {
+                    "speaker": "Disponent",
+                    "speakerRole": "Notrufzentrale",
+                    "germanText": "Rettungswagen und Notarzt sind alarmiert. Können Sie Erste Hilfe leisten?",
+                    "translation": {
+                        "en": "Ambulance and emergency doctor are alerted. Can you provide first aid?",
+                        "bn": "অ্যাম্বুলেন্স এবং জরুরি ডাক্তারকে জানানো হয়েছে। আপনি কি প্রাথমিক চিকিৎসা দিতে পারবেন?",
+                        "hi": "एम्बुलेंस और आपातकालीन चिकित्सक को सूचित किया गया है। क्या आप प्राथमिक चिकित्सा प्रदान कर सकते हैं?",
+                        "ur": "ایمبولینس اور ایمرجنسی ڈاکٹر کو مطلع کیا گیا ہے۔ کیا آپ ابتدائی طبی امداد فراہم کر سکتے ہیں؟",
+                        "tr": "Ambulans ve acil doktor uyarıldı. İlk yardım sağlayabilir misiniz?"
+                    }
+                },
+                {
+                    "speaker": "Anrufer",
+                    "speakerRole": "Anrufer",
+                    "germanText": "Ich versuche, aber ich bin kein Sanitäter. Die Situation ist lebensbedrohlich!",
+                    "translation": {
+                        "en": "I'm trying, but I'm not a paramedic. The situation is life-threatening!",
+                        "bn": "আমি চেষ্টা করছি, কিন্তু আমি প্যারামেডিক নই। পরিস্থিতি জীবন-হুমকি!",
+                        "hi": "मैं कोशिश कर रहा हूँ, लेकिन मैं पैरामेडिक नहीं हूँ। स्थिति जानलेवा है!",
+                        "ur": "میں کوشش کر رہا ہوں، لیکن میں پیرامیڈک نہیں ہوں۔ صورتحال جان لیوا ہے!",
+                        "tr": "Deniyorum ama ben bir paramedik değilim. Durum hayatı tehdit ediyor!"
+                    }
+                },
+                {
+                    "speaker": "Disponent",
+                    "speakerRole": "Notrufzentrale",
+                    "germanText": "Der Rettungswagen ist in wenigen Minuten da. Halten Sie durch!",
+                    "translation": {
+                        "en": "The ambulance will be there in a few minutes. Hold on!",
+                        "bn": "অ্যাম্বুলেন্স কয়েক মিনিটের মধ্যে এসে যাবে। ধরে থাকুন!",
+                        "hi": "एम्बुलेंस कुछ ही मिनटों में वहाँ होगी। हिम्मत रखिए!",
+                        "ur": "ایمبولینس چند منٹوں میں وہاں ہوگی۔ ہمت رکھیں!",
+                        "tr": "Ambulans birkaç dakika içinde orada olacak. Dayan!"
+                    }
+                }
+            ],
+            "id": "d12_02"
+        },
+        {
+            "title": {
+                "en": "Stroke Suspected",
+                "bn": "স্ট্রোক সন্দেহ",
+                "hi": "स्ट्रोक का संदेह",
+                "ur": "سٹروک کا شبہ",
+                "tr": "Felç Şüphesi"
+            },
+            "context": {
+                "en": "A patient presents to the emergency room with symptoms suggestive of a stroke.",
+                "bn": "একজন রোগী স্ট্রোকের লক্ষণ নিয়ে জরুরি বিভাগে এসেছেন।",
+                "hi": "एक मरीज स्ट्रोक के लक्षणों के साथ आपातकालीन कक्ष में आता है।",
+                "ur": "ایک مریض اسٹروک کی علامات کے ساتھ ایمرجنسی روم میں آتا ہے۔",
+                "tr": "Bir hasta felç belirtileri göstererek acil servise başvurur."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Meier",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Dr. Klein, wir haben einen Patienten mit Verdacht auf Schlaganfall. Sprachstörung und Halbseitenlähmung.",
+                    "translation": {
+                        "en": "Dr. Klein, we have a patient suspected of having a stroke. Speech disorder and hemiparesis.",
+                        "bn": "ডাঃ ক্লেইন, আমাদের একজন স্ট্রোক সন্দেহজনক রোগী আছে। কথা বলতে অসুবিধা এবং শরীরের একপাশ দুর্বল।",
+                        "hi": "डॉ. क्लेन, हमारे पास एक स्ट्रोक संदिग्ध मरीज है। भाषण विकार और हेमिपेरेसिस।",
+                        "ur": "ڈاکٹر کلین، ہمارے پاس اسٹروک کے مشتبہ مریض ہیں۔ تقریر میں خرابی اور ہیمیپیریسس۔",
+                        "tr": "Dr. Klein, felç şüphesi olan bir hastamız var. Konuşma bozukluğu ve hemiparezi."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Sofortige Diagnostik! Notfall-CT! Ist der Rettungswagen informiert?",
+                    "translation": {
+                        "en": "Immediate diagnostics! Emergency CT scan! Is the ambulance informed?",
+                        "bn": "অবিলম্বে রোগ নির্ণয়! জরুরি সিটি স্ক্যান! অ্যাম্বুলেন্সকে খবর দেওয়া হয়েছে?",
+                        "hi": "तत्काल निदान! आपातकालीन सीटी स्कैन! क्या एम्बुलेंस को सूचित किया गया है?",
+                        "ur": "فوری تشخیص! ایمرجنسی سی ٹی سکین! کیا ایمبولینس کو مطلع کیا گیا ہے؟",
+                        "tr": "Hemen teşhis! Acil BT taraması! Ambulansa bilgi verildi mi?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Meier",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Der Patient kam selbst. Wir haben sofort einen Notruf vorbereitet, falls sich der Zustand verschlechtert.",
+                    "translation": {
+                        "en": "The patient came by himself. We immediately prepared an emergency call in case the condition worsens.",
+                        "bn": "রোগী নিজে এসেছেন। অবস্থা খারাপ হলে আমরা তাৎক্ষণিকভাবে জরুরি কল করার প্রস্তুতি নিয়েছি।",
+                        "hi": "मरीज खुद आया था। हमने स्थिति बिगड़ने पर तुरंत आपातकालीन कॉल की तैयारी की है।",
+                        "ur": "مریض خود آیا تھا۔ ہم نے حالت خراب ہونے کی صورت میں فوری طور پر ایمرجنسی کال کی تیاری کی ہے۔",
+                        "tr": "Hasta kendi başına geldi. Durumun kötüleşmesi durumunda hemen acil çağrı hazırladık."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Zeit ist Gehirn! Wir müssen schnell handeln. Jeder Moment ist lebensbedrohlich für sein Gehirn.",
+                    "translation": {
+                        "en": "Time is brain! We must act quickly. Every moment is life-threatening for his brain.",
+                        "bn": "সময়ই মস্তিষ্ক! আমাদের দ্রুত কাজ করতে হবে। প্রতিটি মুহূর্ত তার মস্তিষ্কের জন্য জীবন-হুমকি।",
+                        "hi": "समय ही मस्तिष्क है! हमें जल्दी काम करना होगा। हर पल उसके मस्तिष्क के लिए जानलेवा है।",
+                        "ur": "وقت دماغ ہے! ہمیں جلدی کام کرنا ہوگا۔ ہر لمحہ اس کے دماغ کے لیے جان لیوا ہے۔",
+                        "tr": "Zaman beyindir! Hızlı hareket etmeliyiz. Her an beyni için hayatı tehdit ediyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Blutdruck messen und dokumentieren! Sofortige Thrombolyse vorbereiten, falls indiziert.",
+                    "translation": {
+                        "en": "Measure and document blood pressure! Prepare immediate thrombolysis if indicated.",
+                        "bn": "রক্তচাপ মাপুন এবং নথিভুক্ত করুন! নির্দেশিত হলে অবিলম্বে থ্রম্বোলাইসিস প্রস্তুত করুন।",
+                        "hi": "ब्लड प्रेशर मापें और दस्तावेज़ करें! यदि संकेत दिया गया है तो तत्काल थ्रोम्बोलाइसिस तैयार करें।",
+                        "ur": "بلڈ پریشر کی پیمائش کریں اور دستاویز کریں! اگر اشارہ کیا گیا ہے تو فوری طور پر تھرومبولیزیز تیار کریں۔",
+                        "tr": "Kan basıncını ölçün ve belgeleyin! Gerekirse hemen trombolizi hazırlayın."
+                    }
+                }
+            ],
+            "id": "d12_03"
+        },
+        {
+            "title": {
+                "en": "Allergic Reaction",
+                "bn": "অ্যালার্জিক প্রতিক্রিয়া",
+                "hi": "एलर्जी प्रतिक्रिया",
+                "ur": "الرجی رد عمل",
+                "tr": "Alerjik Reaksiyon"
+            },
+            "context": {
+                "en": "A patient experiences a severe allergic reaction after receiving medication.",
+                "bn": "ওষুধ গ্রহণের পরে একজন রোগীর গুরুতর অ্যালার্জিক প্রতিক্রিয়া দেখা দেয়।",
+                "hi": "दवा लेने के बाद एक मरीज को गंभीर एलर्जी प्रतिक्रिया होती है।",
+                "ur": "دوا لینے کے بعد ایک مریض کو شدید الرجی رد عمل ہوتا ہے۔",
+                "tr": "Bir hasta ilaç aldıktan sonra şiddetli bir alerjik reaksiyon gösterir."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich… ich bekomme keine Luft! Es kribbelt überall!",
+                    "translation": {
+                        "en": "I... I can't breathe! It's tingling everywhere!",
+                        "bn": "আমি... আমি শ্বাস নিতে পারছি না! সব জায়গায় ঝিনঝিন করছে!",
+                        "hi": "मैं... मैं सांस नहीं ले पा रहा हूँ! हर जगह झुनझुनी हो रही है!",
+                        "ur": "میں... میں سانس نہیں لے پا رہا ہوں! ہر جگہ جھنجھلاہٹ ہو رہی ہے!",
+                        "tr": "Ben... Nefes alamıyorum! Her yerde karıncalanma var!"
+                    }
+                },
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Dr. Weber! Patient Schmidt hat eine schwere allergische Reaktion! Notfall!",
+                    "translation": {
+                        "en": "Dr. Weber! Patient Schmidt is having a severe allergic reaction! Emergency!",
+                        "bn": "ডাঃ ওয়েবার! রোগী শ্মিটের গুরুতর অ্যালার্জিক প্রতিক্রিয়া হচ্ছে! জরুরি!",
+                        "hi": "डॉ. वेबर! मरीज श्मिट को गंभीर एलर्जी प्रतिक्रिया हो रही है! आपातकाल!",
+                        "ur": "ڈاکٹر ویبر! مریض شمٹ کو شدید الرجی رد عمل ہو رہا ہے! ایمرجنسی!",
+                        "tr": "Dr. Weber! Hasta Schmidt'in şiddetli bir alerjik reaksiyonu var! Acil durum!"
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Adrenalin sofort! Und Sauerstoff! Ist der Notruf abgesetzt?",
+                    "translation": {
+                        "en": "Adrenaline immediately! And oxygen! Has the emergency call been made?",
+                        "bn": "অবিলম্বে এড্রেনালিন! এবং অক্সিজেন! জরুরি কল করা হয়েছে?",
+                        "hi": "तुरंत एड्रेनालाईन! और ऑक्सीजन! क्या आपातकालीन कॉल की गई है?",
+                        "ur": "فوری طور پر ایڈرینالین! اور آکسیجن! کیا ایمرجنسی کال کی گئی ہے؟",
+                        "tr": "Hemen adrenalin! Ve oksijen! Acil çağrı yapıldı mı?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ja, der Notruf ist abgesetzt. Der Rettungswagen ist informiert.",
+                    "translation": {
+                        "en": "Yes, the emergency call has been made. The ambulance is informed.",
+                        "bn": "হ্যাঁ, জরুরি কল করা হয়েছে। অ্যাম্বুলেন্সকে জানানো হয়েছে।",
+                        "hi": "हाँ, आपातकालीन कॉल की गई है। एम्बुलेंस को सूचित किया गया है।",
+                        "ur": "ہاں، ایمرجنسی کال کی گئی ہے۔ ایمبولینس کو مطلع کیا گیا ہے۔",
+                        "tr": "Evet, acil çağrı yapıldı. Ambulansa bilgi verildi."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Blutdruck fällt! Wir müssen den Kreislauf stabilisieren. Lebensbedrohlich!",
+                    "translation": {
+                        "en": "Blood pressure is dropping! We need to stabilize the circulation. Life-threatening!",
+                        "bn": "রক্তচাপ কমছে! আমাদের রক্ত ​​সঞ্চালন স্থিতিশীল করতে হবে। জীবন-হুমকি!",
+                        "hi": "ब्लड प्रेशर गिर रहा है! हमें परिसंचरण को स्थिर करना होगा। जानलेवा!",
+                        "ur": "بلڈ پریشر گر رہا ہے! ہمیں گردش کو مستحکم کرنا ہوگا۔ جان لیوا!",
+                        "tr": "Kan basıncı düşüyor! Dolaşımı stabilize etmeliyiz. Hayatı tehdit ediyor!"
+                    }
+                }
+            ],
+            "id": "d12_04"
+        },
+        {
+            "title": {
+                "en": "Severe Chest Pain",
+                "bn": "গুরুতর বুকে ব্যথা",
+                "hi": "गंभीर सीने में दर्द",
+                "ur": "شدید سینے میں درد",
+                "tr": "Şiddetli Göğüs Ağrısı"
+            },
+            "context": {
+                "en": "A patient arrives at the emergency room complaining of severe chest pain.",
+                "bn": "একজন রোগী গুরুতর বুকে ব্যথার অভিযোগ নিয়ে জরুরি বিভাগে এসেছেন।",
+                "hi": "एक मरीज गंभीर सीने में दर्द की शिकायत करते हुए आपातकालीन कक्ष में आता है।",
+                "ur": "ایک مریض شدید سینے میں درد کی شکایت کرتے ہوئے ایمرجنسی روم میں آتا ہے۔",
+                "tr": "Bir hasta şiddetli göğüs ağrısı şikayetiyle acil servise gelir."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Baumann",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe starke Schmerzen in der Brust! Es ist ein Druckgefühl!",
+                    "translation": {
+                        "en": "I have severe pain in my chest! It's a feeling of pressure!",
+                        "bn": "আমার বুকে খুব ব্যথা! এটা চাপের অনুভূতি!",
+                        "hi": "मेरे सीने में बहुत दर्द है! यह दबाव की भावना है!",
+                        "ur": "میرے سینے میں بہت درد ہے! یہ دباؤ کا احساس ہے!",
+                        "tr": "Göğsümde şiddetli bir ağrı var! Bir baskı hissi!"
+                    }
+                },
+                {
+                    "speaker": "Schwester Lisa",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Wir rufen sofort den Arzt! Legen Sie sich hin!",
+                    "translation": {
+                        "en": "We'll call the doctor immediately! Lie down!",
+                        "bn": "আমরা অবিলম্বে ডাক্তারকে ডাকছি! শুয়ে পড়ুন!",
+                        "hi": "हम तुरंत डॉक्टर को बुला रहे हैं! लेट जाइए!",
+                        "ur": "ہم فوری طور پر ڈاکٹر کو بلا رہے ہیں! لیٹ جائیں!",
+                        "tr": "Hemen doktoru arayacağız! Uzanın!"
+                    }
+                },
+                {
+                    "speaker": "Dr. Hartmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "EKG schreiben! Sauerstoff geben! Ist ein Notruf vorbereitet?",
+                    "translation": {
+                        "en": "Take an ECG! Give oxygen! Is an emergency call prepared?",
+                        "bn": "ইসিজি করুন! অক্সিজেন দিন! জরুরি কল প্রস্তুত আছে?",
+                        "hi": "ईसीजी लिखें! ऑक्सीजन दें! क्या आपातकालीन कॉल तैयार है?",
+                        "ur": "ای سی جی لکھیں! آکسیجن دیں! کیا ایمرجنسی کال تیار ہے؟",
+                        "tr": "EKG çekin! Oksijen verin! Acil çağrı hazır mı?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Lisa",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "EKG läuft. Notruf wäre sofort möglich. Sauerstoffgabe läuft.",
+                    "translation": {
+                        "en": "ECG is running. Emergency call would be possible immediately. Oxygen is being administered.",
+                        "bn": "ইসিজি চলছে। জরুরি কল অবিলম্বে করা যাবে। অক্সিজেন দেওয়া হচ্ছে।",
+                        "hi": "ईसीजी चल रहा है। आपातकालीन कॉल तुरंत संभव होगी। ऑक्सीजन दी जा रही है।",
+                        "ur": "ای سی جی چل رہی ہے۔ ایمرجنسی کال فوری طور پر ممکن ہوگی۔ آکسیجن دی جا رہی ہے۔",
+                        "tr": "EKG çalışıyor. Acil çağrı hemen mümkün olacak. Oksijen veriliyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Hartmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Nitrospray unter die Zunge! Möglicherweise Herzinfarkt! Lebensbedrohlich!",
+                    "translation": {
+                        "en": "Nitrospray under the tongue! Possible heart attack! Life-threatening!",
+                        "bn": "জিভের নিচে নাইট্রোস্প্রে! সম্ভবত হার্ট অ্যাটাক! জীবন-হুমকি!",
+                        "hi": "जीभ के नीचे नाइट्रोस्प्रे! संभावित दिल का दौरा! जानलेवा!",
+                        "ur": "زبان کے نیچے نائٹروسپری! ممکنہ دل کا دورہ! جان لیوا!",
+                        "tr": "Dil altına nitrosprey! Muhtemel kalp krizi! Hayatı tehdit ediyor!"
+                    }
+                }
+            ],
+            "id": "d12_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist die Notrufnummer in Deutschland für medizinische Notfälle?",
+                "en": "What is the emergency number in Germany for medical emergencies?",
+                "bn": "জার্মানিতে চিকিৎসার জরুরি অবস্থার জন্য জরুরি নম্বরটি কী?",
+                "hi": "जर्मनी में चिकित्सा आपात स्थिति के लिए आपातकालीन नंबर क्या है?",
+                "ur": "جرمنی میں طبی ایمرجنسی کے لیے ایمرجنسی نمبر کیا ہے؟",
+                "tr": "Almanya'da tıbbi acil durumlar için acil durum numarası nedir?"
+            },
+            "options": [
+                "110",
+                "112",
+                "118",
+                "115"
+            ],
+            "correctAnswer": "112",
+            "explanation": {
+                "en": "112 is the European emergency number and is also used in Germany for medical emergencies and fire.",
+                "bn": "১১১ ইউরোপীয় জরুরি নম্বর এবং এটি জার্মানির চিকিৎসা সংক্রান্ত জরুরি অবস্থা এবং আগুনের জন্যও ব্যবহৃত হয়।",
+                "hi": "112 यूरोपीय आपातकालीन नंबर है और जर्मनी में चिकित्सा आपात स्थिति और आग के लिए भी उपयोग किया जाता है।",
+                "ur": "112 یورپی ایمرجنسی نمبر ہے اور جرمنی میں طبی ایمرجنسی اور آگ کے لیے بھی استعمال ہوتا ہے۔",
+                "tr": "112 Avrupa acil durum numarasıdır ve Almanya'da tıbbi acil durumlar ve yangın için de kullanılır."
+            },
+            "points": 10,
+            "id": "e12_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'lebensbedrohlich'?",
+                "en": "What does 'lebensbedrohlich' mean?",
+                "bn": "'জীবনহানিকর' মানে কী?",
+                "hi": "'जीवन के लिए खतरा' का क्या मतलब है?",
+                "ur": "'جان لیوا' کا کیا مطلب ہے؟",
+                "tr": "'Lebensbedrohlich' ne anlama gelir?",
+                "ar": "'تهديد للحياة' ماذا يعني؟"
+            },
+            "options": [
+                "Trivial",
+                "Life-threatening",
+                "Uncomfortable",
+                "Inconvenient"
+            ],
+            "correctAnswer": "Life-threatening",
+            "explanation": {
+                "en": "'Lebensbedrohlich' directly translates to 'life-threatening' in English.",
+                "bn": "'জীবনহানিকর' সরাসরি ইংরেজিতে 'জীবন হানিকর' এ অনুবাদিত হয়।",
+                "hi": "'जीवन के लिए खतरा' सीधे तौर पर अंग्रेजी में 'जीवन के लिए खतरा' में अनुवादित होता है।",
+                "ur": "'جان لیوا' براہ راست انگریزی میں 'جان کے لیے خطرہ' میں ترجمہ ہوتا ہے۔",
+                "tr": "'Lebensbedrohlich' doğrudan İngilizce'ye 'hayatı tehdit edici' olarak çevrilir."
+            },
+            "points": 10,
+            "id": "e12_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Maßnahmen gehört zur Ersten Hilfe?",
+                "en": "Which of the following actions is part of First Aid?",
+                "bn": "নিম্নলিখিত ক্রিয়াগুলির মধ্যে কোনটি প্রাথমিক চিকিৎসার অংশ?",
+                "hi": "निम्नलिखित कार्यों में से कौन सा प्राथमिक चिकित्सा का हिस्सा है?",
+                "ur": "درج ذیل اعمال میں سے کون سا ابتدائی طبی امداد کا حصہ ہے؟",
+                "tr": "Aşağıdaki eylemlerden hangisi İlk Yardım'ın bir parçasıdır?"
+            },
+            "options": [
+                "Diagnose stellen",
+                "Medikamente verschreiben",
+                "Wunde versorgen",
+                "Operation durchführen"
+            ],
+            "correctAnswer": "Wunde versorgen",
+            "explanation": {
+                "en": "Providing wound care is a basic and essential part of first aid. The others are not.",
+                "bn": "ক্ষতের যত্ন প্রদান করা প্রাথমিক চিকিৎসার একটি মৌলিক এবং অপরিহার্য অংশ। অন্যগুলো নয়।",
+                "hi": "घाव की देखभाल प्रदान करना प्राथमिक चिकित्सा का एक बुनियादी और आवश्यक हिस्सा है। अन्य नहीं हैं।",
+                "ur": "زخم کی دیکھ بھال فراہم کرنا ابتدائی طبی امداد کا ایک بنیادی اور ضروری حصہ ہے۔ باقی نہیں ہیں۔",
+                "tr": "Yara bakımı sağlamak, ilk yardımın temel ve vazgeçilmez bir parçasıdır. Diğerleri değil."
+            },
+            "points": 10,
+            "id": "e12_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein 'Notfall'?",
+                "en": "What is a 'Notfall'?",
+                "bn": "একটি 'জরুরি অবস্থা' কী?",
+                "hi": "'आपातकाल' क्या है?",
+                "ur": "'ایمرجنسی' کیا ہے؟",
+                "tr": "'Notfall' nedir?",
+                "ar": "'حالة طوارئ' ما هي؟"
+            },
+            "options": [
+                "Routineuntersuchung",
+                "Dringende Situation",
+                "Normaler Alltag",
+                "Geplante Behandlung"
+            ],
+            "correctAnswer": "Dringende Situation",
+            "explanation": {
+                "en": "A 'Notfall' is an urgent situation that requires immediate attention.",
+                "bn": "একটি 'জরুরি অবস্থা' একটি জরুরি পরিস্থিতি যা অবিলম্বে মনোযোগ প্রয়োজন।",
+                "hi": "एक 'आपातकाल' एक जरूरी स्थिति है जिस पर तत्काल ध्यान देने की आवश्यकता है।",
+                "ur": "ایک 'ایمرجنسی' ایک فوری صورتحال ہے جس پر فوری توجہ کی ضرورت ہے۔",
+                "tr": "'Notfall', acil müdahale gerektiren acil bir durumdur."
+            },
+            "points": 10,
+            "id": "e12_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist die Hauptaufgabe des Rettungswagens?",
+                "en": "What is the main task of the ambulance?",
+                "bn": "অ্যাম্বুলেন্সের প্রধান কাজ কী?",
+                "hi": "एम्बुलेंस का मुख्य कार्य क्या है?",
+                "ur": "ایمبولینس کا بنیادی کام کیا ہے؟",
+                "tr": "Ambulansın ana görevi nedir?"
+            },
+            "options": [
+                "Patientenbesuche",
+                "Krankentransporte",
+                "Einkaufen gehen",
+                "Post austragen"
+            ],
+            "correctAnswer": "Krankentransporte",
+            "explanation": {
+                "en": "The main task of an ambulance is to transport sick or injured people to a hospital or medical facility.",
+                "bn": "অ্যাম্বুলেন্সের প্রধান কাজ হল অসুস্থ বা আহত ব্যক্তিদের হাসপাতাল বা চিকিৎসা কেন্দ্রে পরিবহন করা।",
+                "hi": "एम्बुलेंस का मुख्य कार्य बीमार या घायल लोगों को अस्पताल या चिकित्सा सुविधा में पहुंचाना है।",
+                "ur": "ایمبولینس کا بنیادی کام بیمار یا زخمی لوگوں کو ہسپتال یا طبی سہولت تک پہنچانا ہے۔",
+                "tr": "Ambulansın ana görevi hasta veya yaralı kişileri hastaneye veya tıbbi bir merkeze taşımaktır."
+            },
+            "points": 10,
+            "id": "e12_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet Reanimation?",
+                "en": "What does Reanimation mean?",
+                "bn": "পুনরুজ্জীবন মানে কি?",
+                "hi": "पुनर्जीवन का क्या अर्थ है?",
+                "ur": "احیاء کا مطلب کیا ہے؟",
+                "tr": "Reanimasyon ne anlama gelir?"
+            },
+            "options": [
+                "Entspannung",
+                "Wiederbelebung",
+                "Schlaf",
+                "Sport"
+            ],
+            "correctAnswer": "Wiederbelebung",
+            "explanation": {
+                "en": "Reanimation means resuscitation or revival, especially from apparent death or unconsciousness.",
+                "bn": "পুনরুজ্জীবন মানে পুনরুজ্জীবন বা পুনর্জাগরণ, বিশেষ করে আপাত মৃত্যু বা অজ্ঞানতা থেকে।",
+                "hi": "पुनर्जीवन का अर्थ है पुनर्जीवन या पुनरुत्थान, विशेष रूप से स्पष्ट मृत्यु या बेहोशी से।",
+                "ur": "احیاء کا مطلب ہے دوبارہ زندگی یا بحالی، خاص طور پر ظاہری موت یا بے ہوشی سے۔",
+                "tr": "Reanimasyon, özellikle belirgin ölüm veya bilinç kaybından sonra yeniden canlandırma veya hayata döndürme anlamına gelir."
+            },
+            "points": 10,
+            "id": "e12_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Reihenfolge ist bei der Reanimation wichtig?",
+                "en": "Which sequence is important during resuscitation?",
+                "bn": "পুনরুজ্জীবনের সময় কোন ক্রম গুরুত্বপূর্ণ?",
+                "hi": "पुनर्जीवन के दौरान कौन सा क्रम महत्वपूर्ण है?",
+                "ur": "احیاء کے دوران کون سا تسلسل اہم ہے؟",
+                "tr": "Resüsitasyon sırasında hangi sıra önemlidir?",
+                "ar": "ما هو التسلسل المهم أثناء الإنعاش؟"
+            },
+            "options": [
+                "Beatmung, Kompressionen, Notruf",
+                "Notruf, Kompressionen, Beatmung",
+                "Kompressionen, Beatmung, Notruf",
+                "Notruf, Beatmung, Kompressionen"
+            ],
+            "correctAnswer": "Notruf, Kompressionen, Beatmung",
+            "explanation": {
+                "en": "The correct sequence is to call for help first (Notruf), then start chest compressions (Kompressionen) and then provide rescue breaths (Beatmung).",
+                "bn": "সঠিক ক্রম হল প্রথমে সাহায্যের জন্য কল করা (নটরুফ), তারপর বুকের সংকোচন শুরু করা (কম্প্রেসশনেন) এবং তারপর শ্বাস দেওয়া (বিটমুং)।",
+                "hi": "सही क्रम है पहले मदद के लिए कॉल करना (नॉट्रूफ), फिर छाती को दबाना (कोम्प्रेशनन) और फिर सांस देना (बीटमुंग)।",
+                "ur": "صحیح ترتیب یہ ہے کہ پہلے مدد کے لیے کال کریں (نوٹروف)، پھر سینے کو دبانا شروع کریں (کمپریشنین) اور پھر سانس دیں (بیٹمنگ)۔",
+                "tr": "Doğru sıra önce yardım çağırmak (Notruf), ardından göğüs kompresyonlarına başlamak (Kompressionen) ve ardından solunum sağlamaktır (Beatmung)."
+            },
+            "points": 10,
+            "id": "e12_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Notruf absetzen'?",
+                "en": "What does 'Notruf absetzen' mean?",
+                "bn": "'জরুরি কল করা' মানে কী?",
+                "hi": "'इमरजेंसी कॉल करना' का क्या मतलब है?",
+                "ur": "'ایمرجنسی کال کرنا' کا کیا مطلب ہے؟",
+                "tr": "'Notruf absetzen' ne anlama gelir?",
+                "ar": "'إجراء مكالمة طوارئ' ماذا يعني؟"
+            },
+            "options": [
+                "To ignore the emergency",
+                "To make an emergency call",
+                "To cancel the emergency",
+                "To delay the emergency"
+            ],
+            "correctAnswer": "To make an emergency call",
+            "explanation": {
+                "en": "'Notruf absetzen' means to make an emergency call to request help.",
+                "bn": "'জরুরি কল করা' মানে সাহায্যের জন্য অনুরোধ জানাতে একটি জরুরি কল করা।",
+                "hi": "'इमरजेंसी कॉल करना' का मतलब है मदद के लिए अनुरोध करने के लिए एक आपातकालीन कॉल करना।",
+                "ur": "'ایمرجنسی کال کرنا' کا مطلب ہے مدد کے لیے درخواست کرنے کے لیے ایک ایمرجنسی کال کرنا۔",
+                "tr": "'Notruf absetzen', yardım istemek için acil bir çağrı yapmak anlamına gelir."
+            },
+            "points": 10,
+            "id": "e12_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was sollte man bei einem Notruf angeben?",
+                "en": "What information should you provide when making an emergency call?",
+                "bn": "জরুরি কল করার সময় আপনাকে কী তথ্য সরবরাহ করা উচিত?",
+                "hi": "आपातकालीन कॉल करते समय आपको क्या जानकारी देनी चाहिए?",
+                "ur": "ایمرجنسی کال کرتے وقت آپ کو کیا معلومات فراہم کرنی چاہئیں؟",
+                "tr": "Acil bir çağrı yaparken hangi bilgileri vermelisiniz?"
+            },
+            "options": [
+                "Nur den Namen",
+                "Namen und Adresse",
+                "Was, Wo, Wer, Wie viele",
+                "Die Farbe des Autos"
+            ],
+            "correctAnswer": "Was, Wo, Wer, Wie viele",
+            "explanation": {
+                "en": "Important information for an emergency call: What happened, where did it happen, who is affected, and how many people are affected.",
+                "bn": "জরুরি কলের জন্য গুরুত্বপূর্ণ তথ্য: কী ঘটেছে, কোথায় ঘটেছে, কে আক্রান্ত হয়েছে এবং কতজন লোক আক্রান্ত হয়েছে।",
+                "hi": "आपातकालीन कॉल के लिए महत्वपूर्ण जानकारी: क्या हुआ, कहाँ हुआ, कौन प्रभावित हुआ और कितने लोग प्रभावित हुए।",
+                "ur": "ایمرجنسی کال کے لیے اہم معلومات: کیا ہوا، کہاں ہوا، کون متاثر ہوا اور کتنے لوگ متاثر ہوئے۔",
+                "tr": "Acil bir çağrı için önemli bilgiler: Ne oldu, nerede oldu, kimler etkilendi ve kaç kişi etkilendi."
+            },
+            "points": 10,
+            "id": "e12_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wann sollte man mit der Reanimation beginnen?",
+                "en": "When should you start resuscitation?",
+                "bn": "কখন পুনরুজ্জীবন শুরু করা উচিত?",
+                "hi": "आपको पुनर्जीवन कब शुरू करना चाहिए?",
+                "ur": "آپ کو احیاء کب شروع کرنا چاہیے؟",
+                "tr": "Ne zaman resüsitasyona başlamalısınız?",
+                "ar": "متى يجب أن تبدأ الإنعاش؟"
+            },
+            "options": [
+                "Wenn der Patient schläft",
+                "Wenn der Patient atmet",
+                "Wenn der Patient nicht atmet oder keinen Puls hat",
+                "Wenn der Patient hustet"
+            ],
+            "correctAnswer": "Wenn der Patient nicht atmet oder keinen Puls hat",
+            "explanation": {
+                "en": "Resuscitation should be started immediately if the patient is not breathing or has no pulse.",
+                "bn": "যদি রোগী শ্বাস না নেয় বা পালস না থাকে তবে সঙ্গে সঙ্গে পুনরুজ্জীবন শুরু করা উচিত।",
+                "hi": "यदि रोगी सांस नहीं ले रहा है या नाड़ी नहीं है तो पुनर्जीवन तुरंत शुरू किया जाना चाहिए।",
+                "ur": "اگر مریض سانس نہیں لے رہا ہے یا نبض نہیں ہے تو فوری طور پر احیاء شروع کیا جانا چاہیے۔",
+                "tr": "Hasta nefes almıyorsa veya nabzı yoksa derhal resüsitasyona başlanmalıdır."
+            },
+            "points": 10,
+            "id": "e12_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bei einem Herzinfarkt ist ein schneller __________ wichtig, um das Leben des Patienten zu retten.",
+                "en": "In the event of a heart attack, a quick __________ is important to save the patient's life.",
+                "bn": "হৃদরোগের ক্ষেত্রে, রোগীর জীবন বাঁচাতে দ্রুত __________ গুরুত্বপূর্ণ।",
+                "hi": "दिल के दौरे की स्थिति में, रोगी के जीवन को बचाने के लिए एक त्वरित __________ महत्वपूर्ण है।",
+                "ur": "دل کے دورے کی صورت میں، مریض کی جان بچانے کے لیے ایک فوری __________ ضروری ہے۔",
+                "tr": "Kalp krizi durumunda, hastanın hayatını kurtarmak için hızlı bir __________ önemlidir."
+            },
+            "options": [],
+            "correctAnswer": "Notruf",
+            "explanation": {
+                "en": "Calling the emergency number (Notruf) quickly is crucial for the patient's survival in the event of a heart attack.",
+                "bn": "হৃদরোগের ক্ষেত্রে রোগীর জীবন বাঁচাতে দ্রুত জরুরি নম্বরে (নটরুফ) কল করা জরুরি।",
+                "hi": "दिल का दौरा पड़ने की स्थिति में रोगी के जीवन को बचाने के लिए आपातकालीन नंबर (नॉट्रूफ) पर जल्दी कॉल करना महत्वपूर्ण है।",
+                "ur": "دل کا دورہ پڑنے کی صورت میں مریض کی جان بچانے کے لیے فوری طور پر ایمرجنسی نمبر (نوٹروف) پر کال کرنا ضروری ہے۔",
+                "tr": "Kalp krizi durumunda hastanın hayatını kurtarmak için acil durum numarasını (Notruf) hızlıca aramak çok önemlidir."
+            },
+            "points": 10,
+            "id": "e12_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die __________ beinhaltet Maßnahmen wie das Anlegen eines Druckverbandes.",
+                "en": "The __________ includes measures such as applying a pressure bandage.",
+                "bn": "__________ এর মধ্যে একটি চাপ ব্যান্ডেজ প্রয়োগ করার মতো ব্যবস্থা অন্তর্ভুক্ত রয়েছে।",
+                "hi": "__________ में दबाव पट्टी लगाने जैसे उपाय शामिल हैं।",
+                "ur": "__________ میں دباؤ کی پٹی لگانے جیسے اقدامات شامل ہیں۔",
+                "tr": "__________ bir basınç bandajı uygulamak gibi önlemleri içerir."
+            },
+            "options": [],
+            "correctAnswer": "Erste Hilfe",
+            "explanation": {
+                "en": "First Aid includes measures such as applying a pressure bandage.",
+                "bn": "প্রাথমিক চিকিৎসার মধ্যে একটি চাপ ব্যান্ডেজ প্রয়োগ করার মতো ব্যবস্থা অন্তর্ভুক্ত রয়েছে।",
+                "hi": "प्राथमिक चिकित्सा में दबाव पट्टी लगाने जैसे उपाय शामिल हैं।",
+                "ur": "ابتدائی طبی امداد میں دباؤ کی پٹی لگانے جیسے اقدامات شامل ہیں۔",
+                "tr": "İlk Yardım, bir basınç bandajı uygulamak gibi önlemleri içerir."
+            },
+            "points": 10,
+            "id": "e12_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Der __________ bringt den Patienten schnellstmöglich ins Krankenhaus.",
+                "en": "The __________ takes the patient to the hospital as quickly as possible.",
+                "bn": "__________ যত তাড়াতাড়ি সম্ভব রোগীকে হাসপাতালে নিয়ে যায়।",
+                "hi": "__________ रोगी को जितनी जल्दी हो सके अस्पताल ले जाता है।",
+                "ur": "__________ مریض کو جلد از جلد ہسپتال لے جاتا ہے۔",
+                "tr": "__________ hastayı mümkün olan en kısa sürede hastaneye götürür."
+            },
+            "options": [],
+            "correctAnswer": "Rettungswagen",
+            "explanation": {
+                "en": "The ambulance (Rettungswagen) takes the patient to the hospital as quickly as possible.",
+                "bn": "অ্যাম্বুলেন্স (Rettungswagen) যত তাড়াতাড়ি সম্ভব রোগীকে হাসপাতালে নিয়ে যায়।",
+                "hi": "एम्बुलेंस (Rettungswagen) रोगी को जितनी जल्दी हो सके अस्पताल ले जाता है।",
+                "ur": "ایمبولینس (Rettungswagen) مریض کو جلد از جلد ہسپتال لے جاتا ہے۔",
+                "tr": "Ambulans (Rettungswagen) hastayı mümkün olan en kısa sürede hastaneye götürür."
+            },
+            "points": 10,
+            "id": "e12_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein Zustand, der __________, erfordert sofortige medizinische Hilfe.",
+                "en": "A condition that is __________, requires immediate medical attention.",
+                "bn": "একটি অবস্থা যা __________, অবিলম্বে চিকিৎসার মনোযোগ প্রয়োজন।",
+                "hi": "एक स्थिति जो __________, तत्काल चिकित्सा ध्यान देने की आवश्यकता है।",
+                "ur": "ایک حالت جو __________, فوری طبی توجہ کی ضرورت ہوتی ہے۔",
+                "tr": "__________ olan bir durum, acil tıbbi müdahale gerektirir."
+            },
+            "options": [],
+            "correctAnswer": "lebensbedrohlich",
+            "explanation": {
+                "en": "A condition that is life-threatening (lebensbedrohlich), requires immediate medical attention.",
+                "bn": "একটি অবস্থা যা জীবনহানিকর (lebensbedrohlich), অবিলম্বে চিকিৎসার মনোযোগ প্রয়োজন।",
+                "hi": "एक स्थिति जो जीवन के लिए खतरा (lebensbedrohlich) है, तत्काल चिकित्सा ध्यान देने की आवश्यकता है।",
+                "ur": "ایک حالت جو جان لیوا (lebensbedrohlich) ہے، فوری طبی توجہ کی ضرورت ہوتی ہے۔",
+                "tr": "Hayatı tehdit eden (lebensbedrohlich) bir durum, acil tıbbi müdahale gerektirir."
+            },
+            "points": 10,
+            "id": "e12_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bei einer __________, muss man sofort handeln.",
+                "en": "In an __________, you must act immediately.",
+                "bn": "একটি __________ তে, আপনাকে অবিলম্বে কাজ করতে হবে।",
+                "hi": "एक __________ में, आपको तुरंत कार्रवाई करनी चाहिए।",
+                "ur": "ایک __________ میں، آپ کو فوری طور پر کارروائی کرنی چاہیے۔",
+                "tr": "Bir __________ durumunda, derhal harekete geçmelisiniz."
+            },
+            "options": [],
+            "correctAnswer": "Notfall",
+            "explanation": {
+                "en": "In an emergency (Notfall), you must act immediately.",
+                "bn": "একটি জরুরি অবস্থায় (Notfall), আপনাকে অবিলম্বে কাজ করতে হবে।",
+                "hi": "एक आपातकाल में (Notfall), आपको तुरंत कार्रवाई करनी चाहिए।",
+                "ur": "ایک ایمرجنسی میں (Notfall)، آپ کو فوری طور پر کارروائی کرنی چاہیے۔",
+                "tr": "Bir acil durumda (Notfall), derhal harekete geçmelisiniz."
+            },
+            "points": 10,
+            "id": "e12_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Rufen Sie den Notruf!",
+                "en": "Call the emergency number!",
+                "bn": "জরুরি নম্বরে কল করুন!",
+                "hi": "आपातकालीन नंबर पर कॉल करें!",
+                "ur": "ایمرجنسی نمبر پر کال کریں!",
+                "tr": "Acil numarayı arayın!"
+            },
+            "options": [],
+            "correctAnswer": "Call the emergency number!",
+            "explanation": {
+                "en": "The direct translation of 'Rufen Sie den Notruf!' is 'Call the emergency number!'",
+                "bn": "'Rufen Sie den Notruf!' এর সরাসরি অনুবাদ হল 'জরুরি নম্বরে কল করুন!'",
+                "hi": "'Rufen Sie den Notruf!' का सीधा अनुवाद है 'आपातकालीन नंबर पर कॉल करें!'",
+                "ur": "'Rufen Sie den Notruf!' کا براہ راست ترجمہ ہے 'ایمرجنسی نمبر پر کال کریں!'",
+                "tr": "'Rufen Sie den Notruf!' ifadesinin doğrudan çevirisi 'Acil numarayı arayın!' şeklindedir."
+            },
+            "points": 10,
+            "id": "e12_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Beginnen Sie sofort mit der Reanimation!",
+                "en": "Start resuscitation immediately!",
+                "bn": "অবিলম্বে পুনরুজ্জীবন শুরু করুন!",
+                "hi": "तत्काल पुनर्जीवन शुरू करें!",
+                "ur": "فوری طور پر احیاء شروع کریں!",
+                "tr": "Hemen resüsitasyona başlayın!"
+            },
+            "options": [],
+            "correctAnswer": "Start resuscitation immediately!",
+            "explanation": {
+                "en": "The correct translation for 'Beginnen Sie sofort mit der Reanimation!' is 'Start resuscitation immediately!'",
+                "bn": "'Beginnen Sie sofort mit der Reanimation!' এর সঠিক অনুবাদ হল 'অবিলম্বে পুনরুজ্জীবন শুরু করুন!'",
+                "hi": "'Beginnen Sie sofort mit der Reanimation!' का सही अनुवाद है 'तत्काल पुनर्जीवन शुरू करें!'",
+                "ur": "'Beginnen Sie sofort mit der Reanimation!' کا صحیح ترجمہ ہے 'فوری طور پر احیاء شروع کریں!'",
+                "tr": "'Beginnen Sie sofort mit der Reanimation!' ifadesinin doğru çevirisi 'Hemen resüsitasyona başlayın!' şeklindedir."
+            },
+            "points": 10,
+            "id": "e12_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Situation ist lebensbedrohlich.",
+                "en": "The situation is life-threatening.",
+                "bn": "পরিস্থিতি জীবন-হুমকি স্বরূপ।",
+                "hi": "स्थिति जानलेवा है।",
+                "ur": "صورتحال جان لیوا ہے۔",
+                "tr": "Durum hayatı tehdit ediyor."
+            },
+            "options": [],
+            "correctAnswer": "The situation is life-threatening.",
+            "explanation": {
+                "en": "The correct translation of 'Die Situation ist lebensbedrohlich.' is 'The situation is life-threatening.'",
+                "bn": "'Die Situation ist lebensbedrohlich.' এর সঠিক অনুবাদ হল 'পরিস্থিতি জীবন-হুমকি স্বরূপ।'",
+                "hi": "'Die Situation ist lebensbedrohlich.' का सही अनुवाद है 'स्थिति जानलेवा है।'",
+                "ur": "'Die Situation ist lebensbedrohlich.' کا صحیح ترجمہ ہے 'صورتحال جان لیوا ہے۔'",
+                "tr": "'Die Situation ist lebensbedrohlich.' ifadesinin doğru çevirisi 'Durum hayatı tehdit ediyor.' şeklindedir."
+            },
+            "points": 10,
+            "id": "e12_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

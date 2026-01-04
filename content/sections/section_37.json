@@ -1,1 +1,1556 @@
-{"id":"section_37","phaseId":"phase3","order":37,"titleDe":"Deutsches Gesundheitssystem","title":{"en":"German Health System","bn":"German Health System","hi":"German Health System","ur":"German Health System","tr":"German Health System"},"level":"C1","estimatedMinutes":40,"vocabulary":[{"id":"v37_01","germanTerm":"Fachbegriff","article":"der","plural":"Fachbegriffe","translation":{"en":"Technical Term","bn":"টেকনিক্যাল টার্ম","hi":"तकनीकी शब्द","ur":"تکنیکی اصطلاح","tr":"Teknik terim"}}],"dialogues":[{"id":"d37_01","title":{"en":"Professional Scenario"},"lines":[{"speaker":"Oberarzt","germanText":"Professional dialogue for German Health System.","translation":{"en":"Professional dialogue for German Health System."}}]}],"exercises":[{"id":"e37_01","type":"multipleChoice","question":{"en":"Advanced question for German Health System?"},"options":["Option A","Option B","Option C"],"correctAnswer":"Option A","points":15}]}
+{
+    "id": "section_37",
+    "phaseId": "phase3",
+    "order": 37,
+    "titleDe": "Deutsches Gesundheitssystem",
+    "title": {
+        "en": "German Health System: An Overview",
+        "de": "Das deutsche Gesundheitssystem: Ein Überblick",
+        "bn": "জার্মান স্বাস্থ্য ব্যবস্থা: একটি সংক্ষিপ্ত বিবরণ",
+        "hi": "जर्मन स्वास्थ्य प्रणाली: एक अवलोकन",
+        "ur": "جرمن صحت کا نظام: ایک جائزہ",
+        "tr": "Alman Sağlık Sistemi: Bir Genel Bakış"
+    },
+    "description": {
+        "en": "This section explores the structure and key components of the German health system, including Krankenkasse, GKV, PKV, Kassenärztliche Vereinigung, Facharzt, and Hausarzt.",
+        "de": "Dieser Abschnitt untersucht die Struktur und die wichtigsten Bestandteile des deutschen Gesundheitssystems, einschließlich Krankenkasse, GKV, PKV, Kassenärztliche Vereinigung, Facharzt und Hausarzt.",
+        "bn": "এই বিভাগে ক্রাঙ্কেনকাসে, জিকেভি, পিকেভি, কাসেনার্জটলিচে ভেরেইনিগুং, ফাচারজট এবং হাউসজার্ট সহ জার্মান স্বাস্থ্য ব্যবস্থার কাঠামো এবং মূল উপাদানগুলি অন্বেষণ করা হয়েছে।",
+        "hi": "यह खंड जर्मन स्वास्थ्य प्रणाली की संरचना और प्रमुख घटकों का पता लगाता है, जिसमें क्रैंकेंकासे, जीकेवी, पीकेवी, कसेनर्ज्टलिचे वेरेनिगुंग, फचरज्ट और हौसर्ज्ट शामिल हैं।",
+        "ur": "یہ سیکشن جرمن صحت کے نظام کے ڈھانچے اور اہم اجزاء کو دریافت کرتا ہے، بشمول کرینکینکیس، جی کے وی، پی کے وی، کسنیرزٹلیچے وریینیگنگ، فچارجٹ، اور ہاؤسارجٹ۔",
+        "tr": "Bu bölüm, Krankenkasse, GKV, PKV, Kassenärztliche Vereinigung, Facharzt ve Hausarzt dahil olmak üzere Alman sağlık sisteminin yapısını ve temel bileşenlerini incelemektedir."
+    },
+    "level": "C1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, we will delve into the intricacies of the German healthcare landscape. You will learn about the different types of health insurance and the roles of various medical professionals within the system.",
+            "de": "In diesem Abschnitt werden wir uns mit den Feinheiten der deutschen Gesundheitslandschaft befassen. Sie lernen die verschiedenen Arten der Krankenversicherung und die Rollen verschiedener medizinischer Fachkräfte innerhalb des Systems kennen.",
+            "bn": "এই বিভাগে, আমরা জার্মান স্বাস্থ্যসেবার জটিলতাগুলি অনুসন্ধান করব। আপনি বিভিন্ন ধরণের স্বাস্থ্য বীমা এবং সিস্টেমের মধ্যে বিভিন্ন মেডিকেল পেশাদারদের ভূমিকা সম্পর্কে জানতে পারবেন।",
+            "hi": "इस खंड में, हम जर्मन स्वास्थ्य सेवा परिदृश्य की जटिलताओं पर प्रकाश डालेंगे। आप विभिन्न प्रकार के स्वास्थ्य बीमा और सिस्टम के भीतर विभिन्न चिकित्सा पेशेवरों की भूमिकाओं के बारे में जानेंगे।",
+            "ur": "اس حصے میں، ہم جرمن صحت کی دیکھ بھال کے منظر نامے کی پیچیدگیوں پر روشنی ڈالیں گے۔ آپ مختلف قسم کی صحت کی انشورنس اور نظام کے اندر مختلف طبی پیشہ ور افراد کے کردار کے بارے میں جانیں گے۔",
+            "tr": "Bu bölümde, Alman sağlık sisteminin inceliklerine dalacağız. Farklı sağlık sigortası türlerini ve sistem içindeki çeşitli tıp uzmanlarının rollerini öğreneceksiniz."
+        },
+        "grammarFocus": {
+            "en": [
+                "Understanding the use of the genitive case with prepositions related to health insurance (e.g., \"auf Kosten der Krankenkasse\")",
+                "Practice using relative clauses to describe different types of doctors and their specializations (e.g., \"Der Facharzt, der auf Kardiologie spezialisiert ist...\")"
+            ],
+            "de": [
+                "Das Verständnis der Verwendung des Genitivs mit Präpositionen im Zusammenhang mit der Krankenversicherung (z. B. \"auf Kosten der Krankenkasse\")",
+                "Üben Sie die Verwendung von Relativsätzen, um verschiedene Arten von Ärzten und deren Spezialisierungen zu beschreiben (z. B. \"Der Facharzt, der auf Kardiologie spezialisiert ist...\")"
+            ],
+            "bn": [
+                "স্বাস্থ্য বীমা সম্পর্কিত প্রস্তাবনাগুলির সাথে জেনেটিভ কেসের ব্যবহার বোঝা (\"auf Kosten der Krankenkasse\" এর মতো)",
+                "বিভিন্ন ধরণের ডাক্তার এবং তাদের বিশেষত্ব বর্ণনা করার জন্য আপেক্ষিক ধারা ব্যবহার করার অনুশীলন করুন (\"Der Facharzt, der auf Kardiologie spezialisiert ist...\")"
+            ],
+            "hi": [
+                "स्वास्थ्य बीमा से संबंधित पूर्वसर्गों के साथ जेनिटिव केस के उपयोग को समझना (जैसे, \"auf Kosten der Krankenkasse\")",
+                "विभिन्न प्रकार के डॉक्टरों और उनकी विशिष्टताओं का वर्णन करने के लिए सापेक्ष खंडों का उपयोग करने का अभ्यास करें (\"Der Facharzt, der auf Kardiologie spezialisiert ist...\")"
+            ],
+            "ur": [
+                "صحت کی انشورنس سے متعلق پیشگیوں کے ساتھ جینیاتی کیس کے استعمال کو سمجھنا (مثال کے طور پر، \"auf Kosten der Krankenkasse\")",
+                "مختلف قسم کے ڈاکٹروں اور ان کی خصوصیات کو بیان کرنے کے لیے متعلقہ شقوں کا استعمال کرنے کی مشق کریں (\"Der Facharzt, der auf Kardiologie spezialisiert ist...\")"
+            ],
+            "tr": [
+                "Sağlık sigortasıyla ilgili edatlarla genitif halinin kullanımını anlamak (örn. \"auf Kosten der Krankenkasse\")",
+                "Farklı doktor türlerini ve uzmanlık alanlarını tanımlamak için göreceli cümleleri kullanma pratiği yapmak (örn. \"Der Facharzt, der auf Kardiologie spezialisiert ist...\")"
+            ]
+        },
+        "culturalNotes": {
+            "en": "In Germany, it is common to have a designated Hausarzt (general practitioner) who serves as the first point of contact for most medical issues and refers patients to specialists if needed.",
+            "de": "In Deutschland ist es üblich, einen Hausarzt zu haben, der als erster Ansprechpartner für die meisten medizinischen Probleme dient und Patienten bei Bedarf an Fachärzte überweist.",
+            "bn": "জার্মানিতে, একজন মনোনীত হাউসজার্ট (সাধারণ অনুশীলনকারী) থাকা সাধারণ ব্যাপার, যিনি বেশিরভাগ চিকিৎসা সমস্যার জন্য প্রথম যোগাযোগের কেন্দ্র হিসাবে কাজ করেন এবং প্রয়োজনে রোগীদের বিশেষজ্ঞদের কাছে পাঠান।",
+            "hi": "जर्मनी में, एक नामित हौसर्ज्ट (सामान्य व्यवसायी) होना आम बात है जो अधिकांश चिकित्सा समस्याओं के लिए संपर्क का पहला बिंदु है और जरूरत पड़ने पर रोगियों को विशेषज्ञों के पास भेजता है।",
+            "ur": "جرمنی میں، ایک نامزد ہاؤسارجٹ (عمومی پریکٹیشنر) کا ہونا عام بات ہے جو زیادہ تر طبی مسائل کے لیے رابطے کا پہلا نقطہ ہے اور ضرورت پڑنے پر مریضوں کو ماہرین کے پاس بھیجتا ہے۔",
+            "tr": "Almanya'da, çoğu tıbbi sorun için ilk temas noktası olarak hizmet veren ve gerektiğinde hastaları uzmanlara yönlendiren bir Hausarzt'a (genel pratisyen) sahip olmak yaygındır."
+        },
+        "summary": {
+            "en": "This section provides a foundational understanding of the German healthcare system's organization and key players.",
+            "de": "Dieser Abschnitt vermittelt ein grundlegendes Verständnis der Organisation und der wichtigsten Akteure des deutschen Gesundheitssystems.",
+            "bn": "এই বিভাগটি জার্মান স্বাস্থ্য ব্যবস্থার সংগঠন এবং মূল খেলোয়াড়দের একটি প্রাথমিক ধারণা প্রদান করে।",
+            "hi": "यह खंड जर्मन स्वास्थ्य प्रणाली के संगठन और प्रमुख खिलाड़ियों की मूलभूत समझ प्रदान करता है।",
+            "ur": "یہ سیکشن جرمن صحت کے نظام کی تنظیم اور اہم کھلاڑیوں کی بنیادی تفہیم فراہم کرتا ہے۔",
+            "tr": "Bu bölüm, Alman sağlık sisteminin organizasyonu ve temel aktörleri hakkında temel bir anlayış sağlamaktadır."
+        },
+        "learningObjectives": [
+            "Identify the key components of the German healthcare system.",
+            "Differentiate between GKV (public health insurance) and PKV (private health insurance).",
+            "Explain the roles of Kassenärztliche Vereinigung, Facharzt, and Hausarzt.",
+            "Understand the process of accessing medical care in Germany."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "die Krankenkasse",
+            "article": "die",
+            "plural": "die Krankenkassen",
+            "pronunciation": "/ˈkʁaŋkənˌkasə/",
+            "category": "noun",
+            "translation": {
+                "en": "health insurance fund",
+                "bn": "স্বাস্থ্য বীমা তহবিল",
+                "hi": "स्वास्थ्य बीमा निधि",
+                "ur": "صحت بیمہ فنڈ",
+                "tr": "sağlık sigortası fonu"
+            },
+            "exampleSentence": "Die Krankenkasse übernimmt die Kosten für die Behandlung.",
+            "exampleTranslation": {
+                "en": "The health insurance fund covers the costs of the treatment.",
+                "bn": "স্বাস্থ্য বীমা তহবিল চিকিৎসার খরচ বহন করে।",
+                "hi": "स्वास्थ्य बीमा निधि उपचार का खर्च वहन करती है।",
+                "ur": "صحت بیمہ فنڈ علاج کے اخراجات برداشت کرتا ہے۔",
+                "tr": "Sağlık sigortası fonu, tedavinin masraflarını karşılar."
+            },
+            "id": "v37_01"
+        },
+        {
+            "germanTerm": "die Gesetzliche Krankenversicherung (GKV)",
+            "article": "die",
+            "plural": "die Gesetzlichen Krankenversicherungen",
+            "pronunciation": "/ɡəˈzɛtslɪçə ˈkʁaŋkənfɛɐ̯ˈzɪçəʁʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "statutory health insurance",
+                "bn": "বিধিবদ্ধ স্বাস্থ্য বীমা",
+                "hi": "सांविधिक स्वास्थ्य बीमा",
+                "ur": "قانونی صحت بیمہ",
+                "tr": "yasal sağlık sigortası"
+            },
+            "exampleSentence": "Die meisten Patienten in Deutschland sind in der GKV versichert.",
+            "exampleTranslation": {
+                "en": "Most patients in Germany are insured by the statutory health insurance.",
+                "bn": "জার্মানির বেশিরভাগ রোগী বিধিবদ্ধ স্বাস্থ্য বীমা দ্বারা বীমাকৃত।",
+                "hi": "जर्मनी में अधिकांश रोगी सांविधिक स्वास्थ्य बीमा द्वारा बीमाकृत हैं।",
+                "ur": "جرمنی میں زیادہ تر مریض قانونی صحت بیمہ کے ذریعے بیمہ شدہ ہیں۔",
+                "tr": "Almanya'daki hastaların çoğu yasal sağlık sigortası ile sigortalıdır."
+            },
+            "id": "v37_02"
+        },
+        {
+            "germanTerm": "die Private Krankenversicherung (PKV)",
+            "article": "die",
+            "plural": "die Privaten Krankenversicherungen",
+            "pronunciation": "/pʁiˈvaːtə ˈkʁaŋkənfɛɐ̯ˈzɪçəʁʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "private health insurance",
+                "bn": "ব্যক্তিগত স্বাস্থ্য বীমা",
+                "hi": "निजी स्वास्थ्य बीमा",
+                "ur": "نجی صحت بیمہ",
+                "tr": "özel sağlık sigortası"
+            },
+            "exampleSentence": "Die PKV bietet oft umfangreichere Leistungen als die GKV.",
+            "exampleTranslation": {
+                "en": "Private health insurance often offers more comprehensive benefits than statutory health insurance.",
+                "bn": "ব্যক্তিগত স্বাস্থ্য বীমা প্রায়শই বিধিবদ্ধ স্বাস্থ্য বীমা থেকে বেশি বিস্তৃত সুবিধা প্রদান করে।",
+                "hi": "निजी स्वास्थ्य बीमा अक्सर सांविधिक स्वास्थ्य बीमा से अधिक व्यापक लाभ प्रदान करता है।",
+                "ur": "نجی صحت بیمہ اکثر قانونی صحت بیمہ سے زیادہ جامع فوائد پیش کرتا ہے۔",
+                "tr": "Özel sağlık sigortası genellikle yasal sağlık sigortasından daha kapsamlı faydalar sunar."
+            },
+            "id": "v37_03"
+        },
+        {
+            "germanTerm": "die Kassenärztliche Vereinigung (KV)",
+            "article": "die",
+            "plural": "die Kassenärztlichen Vereinigungen",
+            "pronunciation": "/ˈkasənˌʔɛʁtslɪçə fɛɐ̯ˈʔaɪnɪɡʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "association of statutory health insurance physicians",
+                "bn": "বিধিবদ্ধ স্বাস্থ্য বীমা চিকিৎসকদের সমিতি",
+                "hi": "वैधानिक स्वास्थ्य बीमा चिकित्सकों का संघ",
+                "ur": "قانونی صحت بیمہ کے معالجین کی ایسوسی ایشن",
+                "tr": "yasal sağlık sigortası hekimleri birliği"
+            },
+            "exampleSentence": "Die Kassenärztliche Vereinigung regelt die ambulante Versorgung.",
+            "exampleTranslation": {
+                "en": "The association of statutory health insurance physicians regulates outpatient care.",
+                "bn": "বিধিবদ্ধ স্বাস্থ্য বীমা চিকিৎসকদের সমিতি বহির্বিভাগের পরিচর্যা নিয়ন্ত্রণ করে।",
+                "hi": "वैधानिक स्वास्थ्य बीमा चिकित्सकों का संघ बाह्य रोगी देखभाल को नियंत्रित करता है।",
+                "ur": "قانونی صحت بیمہ کے معالجین کی ایسوسی ایشن بیرونی مریضوں کی دیکھ بھال کو کنٹرول کرتی ہے۔",
+                "tr": "Yasal sağlık sigortası hekimleri birliği, ayakta tedavi hizmetlerini düzenler."
+            },
+            "id": "v37_04"
+        },
+        {
+            "germanTerm": "der Facharzt",
+            "article": "der",
+            "plural": "die Fachärzte",
+            "pronunciation": "/ˈfaxˌʔaʁt͡st/",
+            "category": "noun",
+            "translation": {
+                "en": "specialist",
+                "bn": "বিশেষজ্ঞ",
+                "hi": "विशेषज्ञ",
+                "ur": "ماہر",
+                "tr": "uzman doktor"
+            },
+            "exampleSentence": "Der Patient wurde an einen Facharzt für Kardiologie überwiesen.",
+            "exampleTranslation": {
+                "en": "The patient was referred to a specialist in cardiology.",
+                "bn": "রোগীকে হৃদরোগ বিশেষজ্ঞের কাছে পাঠানো হয়েছে।",
+                "hi": "रोगी को हृदय रोग विशेषज्ञ के पास भेजा गया था।",
+                "ur": "مریض کو امراض قلب کے ماہر کے پاس بھیجا گیا تھا۔",
+                "tr": "Hasta, kardiyoloji uzmanına sevk edildi."
+            },
+            "id": "v37_05"
+        },
+        {
+            "germanTerm": "der Hausarzt",
+            "article": "der",
+            "plural": "die Hausärzte",
+            "pronunciation": "/ˈhaʊ̯sˌʔaʁt͡st/",
+            "category": "noun",
+            "translation": {
+                "en": "general practitioner (GP)",
+                "bn": "সাধারণ অনুশীলনকারী (জিপি)",
+                "hi": "सामान्य चिकित्सक (जीपी)",
+                "ur": "جنرل پریکٹیشنر (جی پی)",
+                "tr": "aile hekimi"
+            },
+            "exampleSentence": "Der Hausarzt ist oft die erste Anlaufstelle für Patienten.",
+            "exampleTranslation": {
+                "en": "The GP is often the first point of contact for patients.",
+                "bn": "জিপি প্রায়শই রোগীদের জন্য প্রথম যোগাযোগের স্থান।",
+                "hi": "जीपी अक्सर रोगियों के लिए संपर्क का पहला बिंदु होता है।",
+                "ur": "جی پی اکثر مریضوں کے لیے رابطے کا پہلا نقطہ ہوتا ہے۔",
+                "tr": "Aile hekimi, genellikle hastalar için ilk temas noktasıdır."
+            },
+            "id": "v37_06"
+        },
+        {
+            "germanTerm": "die Versichertenkarte",
+            "article": "die",
+            "plural": "die Versichertenkarten",
+            "pronunciation": "/fɛɐ̯ˈzɪçəʁtn̩ˌkaʁtə/",
+            "category": "noun",
+            "translation": {
+                "en": "health insurance card",
+                "bn": "স্বাস্থ্য বীমা কার্ড",
+                "hi": "स्वास्थ्य बीमा कार्ड",
+                "ur": "صحت بیمہ کارڈ",
+                "tr": "sağlık sigortası kartı"
+            },
+            "exampleSentence": "Bitte legen Sie Ihre Versichertenkarte vor.",
+            "exampleTranslation": {
+                "en": "Please present your health insurance card.",
+                "bn": "অনুগ্রহ করে আপনার স্বাস্থ্য বীমা কার্ড পেশ করুন।",
+                "hi": "कृपया अपना स्वास्थ्य बीमा कार्ड प्रस्तुत करें।",
+                "ur": "براہ کرم اپنا صحت بیمہ کارڈ پیش کریں۔",
+                "tr": "Lütfen sağlık sigortası kartınızı gösterin."
+            },
+            "id": "v37_07"
+        },
+        {
+            "germanTerm": "der Beitrag",
+            "article": "der",
+            "plural": "die Beiträge",
+            "pronunciation": "/ˈbaɪ̯ˌtʁaːk/",
+            "category": "noun",
+            "translation": {
+                "en": "contribution, premium",
+                "bn": "অবদান, প্রিমিয়াম",
+                "hi": "योगदान, प्रीमियम",
+                "ur": "اعانت، پریمیم",
+                "tr": "katkı, prim"
+            },
+            "exampleSentence": "Der monatliche Beitrag zur Krankenkasse beträgt 300 Euro.",
+            "exampleTranslation": {
+                "en": "The monthly contribution to the health insurance fund is 300 euros.",
+                "bn": "স্বাস্থ্য বীমা তহবিলে মাসিক অবদান ৩০০ ইউরো।",
+                "hi": "स्वास्थ्य बीमा निधि में मासिक योगदान 300 यूरो है।",
+                "ur": "صحت بیمہ فنڈ میں ماہانہ شراکت 300 یورو ہے۔",
+                "tr": "Sağlık sigortası fonuna aylık katkı 300 Euro'dur."
+            },
+            "id": "v37_08"
+        },
+        {
+            "germanTerm": "die Zuzahlung",
+            "article": "die",
+            "plural": "die Zuzahlungen",
+            "pronunciation": "/ˈt͡suːˌt͡saːlʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "co-payment",
+                "bn": "সহ-পেমেন্ট",
+                "hi": "सह-भुगतान",
+                "ur": "شریک ادائیگی",
+                "tr": "katılım payı"
+            },
+            "exampleSentence": "Für Medikamente fällt oft eine Zuzahlung an.",
+            "exampleTranslation": {
+                "en": "There is often a co-payment for medication.",
+                "bn": "ওষুধের জন্য প্রায়শই একটি সহ-পেমেন্ট প্রয়োজন হয়।",
+                "hi": "दवा के लिए अक्सर सह-भुगतान की आवश्यकता होती है।",
+                "ur": "دوا کے لیے اکثر شریک ادائیگی کی ضرورت ہوتی ہے۔",
+                "tr": "İlaçlar için genellikle bir katılım payı ödenir."
+            },
+            "id": "v37_09"
+        },
+        {
+            "germanTerm": "der Leistungskatalog",
+            "article": "der",
+            "plural": "die Leistungskataloge",
+            "pronunciation": "/ˈlaɪ̯stʊŋskaˌtaːloːk/",
+            "category": "noun",
+            "translation": {
+                "en": "benefits catalog",
+                "bn": "সুবিধা ক্যাটালগ",
+                "hi": "लाभ सूची",
+                "ur": "فوائد کی فہرست",
+                "tr": "fayda kataloğu"
+            },
+            "exampleSentence": "Der Leistungskatalog der GKV ist gesetzlich festgelegt.",
+            "exampleTranslation": {
+                "en": "The benefits catalog of the statutory health insurance is legally defined.",
+                "bn": "বিধিবদ্ধ স্বাস্থ্য বীমার সুবিধা ক্যাটালগ আইনত সংজ্ঞায়িত।",
+                "hi": "सांविधिक स्वास्थ्य बीमा की लाभ सूची कानूनी रूप से परिभाषित है।",
+                "ur": "قانونی صحت بیمہ کی فوائد کی فہرست قانونی طور پر متعین ہے۔",
+                "tr": "Yasal sağlık sigortasının fayda kataloğu yasal olarak tanımlanmıştır."
+            },
+            "id": "v37_10"
+        },
+        {
+            "germanTerm": "die Praxisgebühr",
+            "article": "die",
+            "plural": "die Praxisgebühren",
+            "pronunciation": "/ˈpʁaksɪsɡəˌbyːɐ̯/",
+            "category": "noun",
+            "translation": {
+                "en": "practice fee (abolished in 2013)",
+                "bn": "অনুশীলন ফি (2013 সালে বিলুপ্ত)",
+                "hi": "अभ्यास शुल्क (2013 में समाप्त)",
+                "ur": "پریکٹس فیس (2013 میں ختم کر دی گئی)",
+                "tr": "muayene ücreti (2013'te kaldırıldı)"
+            },
+            "exampleSentence": "Die Praxisgebühr wurde im Jahr 2013 abgeschafft.",
+            "exampleTranslation": {
+                "en": "The practice fee was abolished in 2013.",
+                "bn": "2013 সালে অনুশীলন ফি বাতিল করা হয়েছিল।",
+                "hi": "अभ्यास शुल्क 2013 में समाप्त कर दिया गया था।",
+                "ur": "پریکٹس فیس 2013 میں ختم کر دی گئی تھی۔",
+                "tr": "Muayene ücreti 2013 yılında kaldırıldı."
+            },
+            "id": "v37_11"
+        },
+        {
+            "germanTerm": "der Kostenerstattung",
+            "article": "der",
+            "plural": "die Kostenerstattungen",
+            "pronunciation": "/ˈkɔstənˌʔɛɐ̯ʃtatʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "reimbursement of costs",
+                "bn": "খরচ পরিশোধ",
+                "hi": "लागत प्रतिपूर्ति",
+                "ur": "اخراجات کی واپسی",
+                "tr": "masraf iadesi"
+            },
+            "exampleSentence": "Bei der PKV erfolgt die Abrechnung oft über Kostenerstattung.",
+            "exampleTranslation": {
+                "en": "With private health insurance, billing often occurs through reimbursement of costs.",
+                "bn": "ব্যক্তিগত স্বাস্থ্য বীমাতে, বিলিং প্রায়শই খরচ পরিশোধের মাধ্যমে ঘটে।",
+                "hi": "निजी स्वास्थ्य बीमा के साथ, बिलिंग अक्सर लागत की प्रतिपूर्ति के माध्यम से होती है।",
+                "ur": "نجی صحت بیمہ کے ساتھ، بلنگ اکثر اخراجات کی واپسی کے ذریعے ہوتی ہے۔",
+                "tr": "Özel sağlık sigortasında, faturalandırma genellikle masraf iadesi yoluyla gerçekleşir."
+            },
+            "id": "v37_12"
+        },
+        {
+            "germanTerm": "die Abrechnung",
+            "article": "die",
+            "plural": "die Abrechnungen",
+            "pronunciation": "/ˈapˌʁɛçnʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "billing",
+                "bn": "বিলিং",
+                "hi": "बिलिंग",
+                "ur": "بلنگ",
+                "tr": "faturalandırma"
+            },
+            "exampleSentence": "Die Abrechnung erfolgt direkt mit der Krankenkasse.",
+            "exampleTranslation": {
+                "en": "The billing is done directly with the health insurance fund.",
+                "bn": "বিলিং সরাসরি স্বাস্থ্য বীমা তহবিলের সাথে করা হয়।",
+                "hi": "बिलिंग सीधे स्वास्थ्य बीमा निधि के साथ की जाती है।",
+                "ur": "بلنگ براہ راست صحت بیمہ فنڈ کے ساتھ کی جاتی ہے۔",
+                "tr": "Faturalandırma doğrudan sağlık sigortası fonu ile yapılır."
+            },
+            "id": "v37_13"
+        },
+        {
+            "germanTerm": "die Versorgung",
+            "article": "die",
+            "plural": "die Versorgungen",
+            "pronunciation": "/fɛɐ̯ˈzɔʁɡʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "care, provision",
+                "bn": "যত্ন, বিধান",
+                "hi": "देखभाल, प्रावधान",
+                "ur": "دیکھ بھال، فراہمی",
+                "tr": "bakım, temin"
+            },
+            "exampleSentence": "Die medizinische Versorgung ist in Deutschland sehr gut.",
+            "exampleTranslation": {
+                "en": "Medical care is very good in Germany.",
+                "bn": "জার্মানিতে চিকিৎসা সেবা খুবই ভালো।",
+                "hi": "जर्मनी में चिकित्सा देखभाल बहुत अच्छी है।",
+                "ur": "جرمنی میں طبی دیکھ بھال بہت اچھی ہے۔",
+                "tr": "Almanya'da tıbbi bakım çok iyidir."
+            },
+            "id": "v37_14"
+        },
+        {
+            "germanTerm": "ambulant",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/amˈbʊlant/",
+            "category": "adjective",
+            "translation": {
+                "en": "outpatient",
+                "bn": "বহির্বিভাগ",
+                "hi": "बाह्य रोगी",
+                "ur": "بیرونی مریض",
+                "tr": "ayakta tedavi"
+            },
+            "exampleSentence": "Die Behandlung erfolgt ambulant.",
+            "exampleTranslation": {
+                "en": "The treatment is provided on an outpatient basis.",
+                "bn": "বহির্বিভাগে চিকিৎসা প্রদান করা হয়।",
+                "hi": "बाह्य रोगी आधार पर उपचार प्रदान किया जाता है।",
+                "ur": "بیرونی مریض کی بنیاد پر علاج فراہم کیا جاتا ہے۔",
+                "tr": "Tedavi ayakta tedavi bazında sağlanır."
+            },
+            "id": "v37_15"
+        },
+        {
+            "germanTerm": "stationär",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ʃtat͡si̯oˈnɛːɐ̯/",
+            "category": "adjective",
+            "translation": {
+                "en": "inpatient",
+                "bn": "অন্তর্বিভাগ",
+                "hi": "अस्पताल में भर्ती",
+                "ur": "اندرون مریض",
+                "tr": "yatarak tedavi"
+            },
+            "exampleSentence": "Der Patient muss stationär aufgenommen werden.",
+            "exampleTranslation": {
+                "en": "The patient needs to be admitted as an inpatient.",
+                "bn": "রোগীকে অন্তর্বিভাগে ভর্তি করতে হবে।",
+                "hi": "रोगी को अस्पताल में भर्ती करने की आवश्यकता है।",
+                "ur": "مریض کو اسپتال میں داخل کرنے کی ضرورت ہے۔",
+                "tr": "Hastanın yatırılarak tedavi edilmesi gerekiyor."
+            },
+            "id": "v37_16"
+        },
+        {
+            "germanTerm": "die Überweisung",
+            "article": "die",
+            "plural": "die Überweisungen",
+            "pronunciation": "/yːbɐˈvaɪ̯zʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "referral",
+                "bn": "সুপারিশ",
+                "hi": "सिफारिश",
+                "ur": "حوالہ",
+                "tr": "sevk"
+            },
+            "exampleSentence": "Für den Facharzt benötigt man eine Überweisung vom Hausarzt.",
+            "exampleTranslation": {
+                "en": "You need a referral from the GP to see a specialist.",
+                "bn": "বিশেষজ্ঞের সাথে দেখা করার জন্য জিপির কাছ থেকে সুপারিশ প্রয়োজন।",
+                "hi": "विशेषज्ञ से मिलने के लिए आपको जीपी से रेफरल की आवश्यकता है।",
+                "ur": "ماہر سے ملنے کے لیے آپ کو جی پی سے حوالہ کی ضرورت ہے۔",
+                "tr": "Bir uzmanla görüşmek için aile hekiminden sevk almanız gerekir."
+            },
+            "id": "v37_17"
+        },
+        {
+            "germanTerm": "die Selbstbeteiligung",
+            "article": "die",
+            "plural": "die Selbstbeteiligungen",
+            "pronunciation": "/ˈzɛlpstbəˌtaɪ̯lɪɡʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "deductible",
+                "bn": "কাটা",
+                "hi": "कटौती योग्य",
+                "ur": "قابل کٹوتی",
+                "tr": "muafiyet"
+            },
+            "exampleSentence": "Bei der PKV kann man eine Selbstbeteiligung vereinbaren.",
+            "exampleTranslation": {
+                "en": "With private health insurance, you can agree on a deductible.",
+                "bn": "ব্যক্তিগত স্বাস্থ্য বীমাতে, আপনি একটি কাটার বিষয়ে সম্মত হতে পারেন।",
+                "hi": "निजी स्वास्थ्य बीमा के साथ, आप कटौती योग्य राशि पर सहमत हो सकते हैं।",
+                "ur": "نجی صحت بیمہ کے ساتھ، آپ کٹوتی کی رقم پر متفق ہو سکتے ہیں۔",
+                "tr": "Özel sağlık sigortasında, bir muafiyet üzerinde anlaşabilirsiniz."
+            },
+            "id": "v37_18"
+        },
+        {
+            "germanTerm": "die Gesundheitsreform",
+            "article": "die",
+            "plural": "die Gesundheitsreformen",
+            "pronunciation": "/ɡəˈzʊnthaɪ̯t͡sʁəˌfɔʁm/",
+            "category": "noun",
+            "translation": {
+                "en": "health care reform",
+                "bn": "স্বাস্থ্যসেবা সংস্কার",
+                "hi": "स्वास्थ्य सेवा सुधार",
+                "ur": "صحت کی دیکھ بھال کی اصلاح",
+                "tr": "sağlık reformu"
+            },
+            "exampleSentence": "Die Gesundheitsreform hat viele Änderungen mit sich gebracht.",
+            "exampleTranslation": {
+                "en": "The health care reform has brought about many changes.",
+                "bn": "স্বাস্থ্যসেবা সংস্কার অনেক পরিবর্তন এনেছে।",
+                "hi": "स्वास्थ्य सेवा सुधार ने कई बदलाव लाए हैं।",
+                "ur": "صحت کی دیکھ بھال کی اصلاحات نے بہت سی تبدیلیاں لائی ہیں۔",
+                "tr": "Sağlık reformu birçok değişiklik getirdi."
+            },
+            "id": "v37_19"
+        },
+        {
+            "germanTerm": "die Patientenrechte",
+            "article": "die",
+            "plural": "die Patientenrechte",
+            "pronunciation": "/paˈt͡si̯ɛntn̩ˌʁɛçtə/",
+            "category": "noun",
+            "translation": {
+                "en": "patients' rights",
+                "bn": "রোগীদের অধিকার",
+                "hi": "मरीजों के अधिकार",
+                "ur": "مریضوں کے حقوق",
+                "tr": "hasta hakları"
+            },
+            "exampleSentence": "Die Patientenrechte sind gesetzlich geschützt.",
+            "exampleTranslation": {
+                "en": "Patients' rights are protected by law.",
+                "bn": "রোগীদের অধিকার আইন দ্বারা সুরক্ষিত।",
+                "hi": "मरीजों के अधिकार कानून द्वारा संरक्षित हैं।",
+                "ur": "مریضوں کے حقوق قانون کے ذریعے محفوظ ہیں۔",
+                "tr": "Hasta hakları yasalarla korunmaktadır."
+            },
+            "id": "v37_20"
+        },
+        {
+            "germanTerm": "die Schweigepflicht",
+            "article": "die",
+            "plural": "die Schweigepflichten",
+            "pronunciation": "/ˈʃvaɪ̯ɡəˌpflɪçt/",
+            "category": "noun",
+            "translation": {
+                "en": "confidentiality, doctor-patient confidentiality",
+                "bn": "গোপনীয়তা, ডাক্তার-রোগী গোপনীয়তা",
+                "hi": "गोपनीयता, डॉक्टर-रोगी गोपनीयता",
+                "ur": "رازداری، ڈاکٹر مریض رازداری",
+                "tr": "gizlilik, doktor-hasta gizliliği"
+            },
+            "exampleSentence": "Der Arzt unterliegt der Schweigepflicht.",
+            "exampleTranslation": {
+                "en": "The doctor is bound by confidentiality.",
+                "bn": "ডাক্তার গোপনীয়তা দ্বারা আবদ্ধ।",
+                "hi": "डॉक्टर गोपनीयता से बंधे हैं।",
+                "ur": "ڈاکٹر رازداری کے پابند ہیں۔",
+                "tr": "Doktor gizlilik ile yükümlüdür."
+            },
+            "id": "v37_21"
+        },
+        {
+            "germanTerm": "die Telemedizin",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/telemediˈt͡siːn/",
+            "category": "noun",
+            "translation": {
+                "en": "telemedicine",
+                "bn": "টেলিমেডিসিন",
+                "hi": "टेलीमेडिसिन",
+                "ur": "ٹیلی میڈیسن",
+                "tr": "teletıp"
+            },
+            "exampleSentence": "Telemedizinische Angebote werden immer wichtiger.",
+            "exampleTranslation": {
+                "en": "Telemedicine services are becoming increasingly important.",
+                "bn": "টেলিমেডিসিন পরিষেবাগুলি ক্রমশ গুরুত্বপূর্ণ হয়ে উঠছে।",
+                "hi": "टेलीमेडिसिन सेवाएं तेजी से महत्वपूर्ण होती जा रही हैं।",
+                "ur": "ٹیلی میڈیسن خدمات تیزی سے اہم ہوتی جا رہی ہیں۔",
+                "tr": "Teletıp hizmetleri giderek daha önemli hale geliyor."
+            },
+            "id": "v37_22"
+        },
+        {
+            "germanTerm": "der Notdienst",
+            "article": "der",
+            "plural": "die Notdienste",
+            "pronunciation": "/ˈnoːtˌdiːnst/",
+            "category": "noun",
+            "translation": {
+                "en": "emergency service",
+                "bn": "জরুরী পরিষেবা",
+                "hi": "आपातकालीन सेवा",
+                "ur": "ایمرجنسی سروس",
+                "tr": "acil servis"
+            },
+            "exampleSentence": "Der Notdienst ist rund um die Uhr erreichbar.",
+            "exampleTranslation": {
+                "en": "The emergency service is available around the clock.",
+                "bn": "জরুরী পরিষেবা চব্বিশ ঘন্টা উপলব্ধ।",
+                "hi": "आपातकालीन सेवा चौबीसों घंटे उपलब्ध है।",
+                "ur": "ایمرجنسی سروس چوبیس گھنٹے دستیاب ہے۔",
+                "tr": "Acil servis günün her saati ulaşılabilir durumda."
+            },
+            "id": "v37_23"
+        },
+        {
+            "germanTerm": "die Patientenakte",
+            "article": "die",
+            "plural": "die Patientenakten",
+            "pronunciation": "/paˈt͡si̯ɛntn̩ˌʔaktə/",
+            "category": "noun",
+            "translation": {
+                "en": "patient record",
+                "bn": "রোগীর রেকর্ড",
+                "hi": "मरीज का रिकॉर्ड",
+                "ur": "مریض کا ریکارڈ",
+                "tr": "hasta kaydı"
+            },
+            "exampleSentence": "Die Patientenakte enthält alle wichtigen Informationen.",
+            "exampleTranslation": {
+                "en": "The patient record contains all important information.",
+                "bn": "রোগীর রেকর্ডে সমস্ত গুরুত্বপূর্ণ তথ্য রয়েছে।",
+                "hi": "मरीज के रिकॉर्ड में सभी महत्वपूर्ण जानकारी होती है।",
+                "ur": "مریض کے ریکارڈ میں تمام اہم معلومات ہوتی ہیں۔",
+                "tr": "Hasta kaydı tüm önemli bilgileri içerir."
+            },
+            "id": "v37_24"
+        },
+        {
+            "germanTerm": "sich versichern",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/zɪç fɛɐ̯ˈzɪçɐn/",
+            "category": "verb",
+            "translation": {
+                "en": "to insure oneself",
+                "bn": "নিজেকে বীমা করা",
+                "hi": "खुद को बीमा कराना",
+                "ur": "خود کو بیمہ کرانا",
+                "tr": "sigortalanmak"
+            },
+            "exampleSentence": "Man muss sich krankenversichern.",
+            "exampleTranslation": {
+                "en": "You have to get health insurance.",
+                "bn": "আপনাকে স্বাস্থ্য বীমা করাতে হবে।",
+                "hi": "आपको स्वास्थ्य बीमा कराना होगा।",
+                "ur": "آپ کو صحت بیمہ کرانا ہوگا۔",
+                "tr": "Sağlık sigortası yaptırmak zorundasınız."
+            },
+            "id": "v37_25"
+        },
+        {
+            "germanTerm": "behandeln",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/bəˈhandl̩n/",
+            "category": "verb",
+            "translation": {
+                "en": "to treat",
+                "bn": "চিকিৎসা করা",
+                "hi": "इलाज करना",
+                "ur": "علاج کرنا",
+                "tr": "tedavi etmek"
+            },
+            "exampleSentence": "Der Arzt wird den Patienten behandeln.",
+            "exampleTranslation": {
+                "en": "The doctor will treat the patient.",
+                "bn": "ডাক্তার রোগীকে চিকিৎসা করবেন।",
+                "hi": "डॉक्टर मरीज का इलाज करेंगे।",
+                "ur": "ڈاکٹر مریض کا علاج کریں گے۔",
+                "tr": "Doktor hastayı tedavi edecek."
+            },
+            "id": "v37_26"
+        },
+        {
+            "germanTerm": "die Richtlinie",
+            "article": "die",
+            "plural": "die Richtlinien",
+            "pronunciation": "/ˈʁɪçtˌliːni̯ə/",
+            "category": "noun",
+            "translation": {
+                "en": "guideline",
+                "bn": "নির্দেশিকা",
+                "hi": "दिशा-निर्देश",
+                "ur": "رہنمائی",
+                "tr": "rehber"
+            },
+            "exampleSentence": "Die Ärzte müssen sich an die Richtlinien halten.",
+            "exampleTranslation": {
+                "en": "Doctors must adhere to the guidelines.",
+                "bn": "ডাক্তারদের নির্দেশিকা মেনে চলতে হবে।",
+                "hi": "डॉक्टरों को दिशानिर्देशों का पालन करना चाहिए।",
+                "ur": "ڈاکٹروں کو رہنما خطوط پر عمل کرنا چاہیے۔",
+                "tr": "Doktorlar rehberlere uymalıdır."
+            },
+            "id": "v37_27"
+        },
+        {
+            "germanTerm": "die Kassenzulassung",
+            "article": "die",
+            "plural": "die Kassenzulassungen",
+            "pronunciation": "/ˈkasənˌt͡suːˌlasʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "license to treat publicly insured patients",
+                "bn": "প্রকাশ্যে বীমাকৃত রোগীদের চিকিৎসার লাইসেন্স",
+                "hi": "सार्वजनिक रूप से बीमाकृत रोगियों के इलाज का लाइसेंस",
+                "ur": "عوامی طور پر بیمہ شدہ مریضوں کے علاج کا لائسنس",
+                "tr": "kamu sigortalı hastaları tedavi etme lisansı"
+            },
+            "exampleSentence": "Der Arzt hat eine Kassenzulassung.",
+            "exampleTranslation": {
+                "en": "The doctor has a license to treat publicly insured patients.",
+                "bn": "ডাক্তারের প্রকাশ্যে বীমাকৃত রোগীদের চিকিৎসার লাইসেন্স আছে।",
+                "hi": "डॉक्टर के पास सार्वजनिक रूप से बीमाकृत रोगियों के इलाज का लाइसेंस है।",
+                "ur": "ڈاکٹر کے پاس عوامی طور پر بیمہ شدہ مریضوں کے علاج کا لائسنس ہے۔",
+                "tr": "Doktorun kamu sigortalı hastaları tedavi etme lisansı var."
+            },
+            "id": "v37_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Initial Consultation and Insurance Information",
+                "bn": "প্রাথমিক পরামর্শ এবং বীমা তথ্য",
+                "hi": "प्रारंभिक परामर्श और बीमा जानकारी",
+                "ur": "ابتدائی مشاورت اور بیمہ کی معلومات",
+                "tr": "İlk Muayene ve Sigorta Bilgileri"
+            },
+            "context": {
+                "en": "A new patient arrives at the hospital for their first consultation. The receptionist asks about their insurance.",
+                "bn": "একজন নতুন রোগী তাদের প্রথম পরামর্শের জন্য হাসপাতালে এসেছেন। অভ্যর্থনাকারী তাদের বীমা সম্পর্কে জিজ্ঞাসা করেন।",
+                "hi": "एक नया मरीज़ अपनी पहली परामर्श के लिए अस्पताल पहुँचता है। रिसेप्शनिस्ट उनकी बीमा के बारे में पूछता है।",
+                "ur": "ایک نیا مریض اپنی پہلی مشاورت کے لیے اسپتال پہنچتا ہے۔ استقبالیہ ان کی بیمہ کے بارے میں پوچھتا ہے۔",
+                "tr": "Yeni bir hasta ilk muayenesi için hastaneye gelir. Resepsiyonist sigortası hakkında bilgi ister."
+            },
+            "lines": [
+                {
+                    "speaker": "Empfangsdame Meier",
+                    "speakerRole": "Rezeptionistin",
+                    "germanText": "Guten Tag, Herr Müller. Haben Sie Ihre Versichertenkarte dabei?",
+                    "translation": {
+                        "en": "Good day, Mr. Müller. Do you have your health insurance card with you?",
+                        "bn": "শুভ দিন, মিঃ মুলার। আপনার স্বাস্থ্য বীমা কার্ড কি আপনার সাথে আছে?",
+                        "hi": "शुभ दिन, श्रीमान मुलर। क्या आपके पास अपना स्वास्थ्य बीमा कार्ड है?",
+                        "ur": "شب بخیر، مسٹر مولر۔ کیا آپ کے پاس اپنا صحت بیمہ کارڈ ہے؟",
+                        "tr": "İyi günler, Bay Müller. Sağlık sigortası kartınız yanınızda mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, hier ist sie. Ich bin bei der AOK versichert.",
+                    "translation": {
+                        "en": "Yes, here it is. I'm insured with AOK.",
+                        "bn": "হ্যাঁ, এই নিন। আমি AOK এর সাথে বিমা করা আছি।",
+                        "hi": "हाँ, ये रहा। मेरा AOK के साथ बीमा है।",
+                        "ur": "جی ہاں، یہ رہا۔ میں AOK کے ساتھ بیمہ شدہ ہوں۔",
+                        "tr": "Evet, işte burada. AOK ile sigortalıyım."
+                    }
+                },
+                {
+                    "speaker": "Empfangsdame Meier",
+                    "speakerRole": "Rezeptionistin",
+                    "germanText": "Alles klar. Dann sind Sie GKV-versichert. Einen Moment bitte, ich lege Ihre Daten an.",
+                    "translation": {
+                        "en": "Alright. So you're insured with statutory health insurance (GKV). One moment, please, I'll enter your data.",
+                        "bn": "ঠিক আছে। তাহলে আপনি বিধিবদ্ধ স্বাস্থ্য বীমা (GKV) এর সাথে বীমা করা আছেন। একটু অপেক্ষা করুন, আমি আপনার ডেটা প্রবেশ করাব।",
+                        "hi": "ठीक है। तो आपका वैधानिक स्वास्थ्य बीमा (GKV) के साथ बीमा है। एक क्षण रुकिए, मैं आपका डेटा दर्ज करूंगा।",
+                        "ur": "ٹھیک ہے۔ تو آپ قانونی صحت بیمہ (GKV) کے ساتھ بیمہ شدہ ہیں۔ ایک لمحہ ٹھہریں، میں آپ کا ڈیٹا درج کروں گا۔",
+                        "tr": "Pekala. Yani yasal sağlık sigortası (GKV) ile sigortalısınız. Bir dakika lütfen, verilerinizi gireceğim."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Vielen Dank.",
+                    "translation": {
+                        "en": "Thank you.",
+                        "bn": "ধন্যবাদ।",
+                        "hi": "धन्यवाद।",
+                        "ur": "شکریہ۔",
+                        "tr": "Teşekkür ederim."
+                    }
+                },
+                {
+                    "speaker": "Empfangsdame Meier",
+                    "speakerRole": "Rezeptionistin",
+                    "germanText": "Bitte nehmen Sie im Wartebereich Platz. Dr. Schmidt ruft Sie gleich auf.",
+                    "translation": {
+                        "en": "Please take a seat in the waiting area. Dr. Schmidt will call you in shortly.",
+                        "bn": "অনুগ্রহ করে অপেক্ষারত স্থানে বসুন। ডঃ শ্মিট আপনাকে শীঘ্রই ডাকবেন।",
+                        "hi": "कृपया प्रतीक्षा क्षेत्र में बैठें। डॉ. श्मिट आपको शीघ्र ही बुलाएंगे।",
+                        "ur": "براہ کرم انتظار گاہ میں بیٹھ جائیں۔ ڈاکٹر شمٹ آپ کو جلد ہی بلائیں گے۔",
+                        "tr": "Lütfen bekleme alanında oturun. Dr. Schmidt sizi birazdan çağıracak."
+                    }
+                }
+            ],
+            "id": "d37_01"
+        },
+        {
+            "title": {
+                "en": "Referral to a Specialist",
+                "bn": "বিশেষজ্ঞের কাছে রেফারেল",
+                "hi": "विशेषज्ञ को रेफरल",
+                "ur": "ماہر کو حوالہ",
+                "tr": "Uzmana Sevki"
+            },
+            "context": {
+                "en": "A patient is visiting their family doctor (Hausarzt) and needs a referral to a specialist (Facharzt).",
+                "bn": "একজন রোগী তার পারিবারিক ডাক্তারের (Hausarzt) সাথে দেখা করছেন এবং একজন বিশেষজ্ঞের (Facharzt) কাছে রেফারেলের প্রয়োজন।",
+                "hi": "एक मरीज़ अपने पारिवारिक डॉक्टर (Hausarzt) के पास जा रहा है और उसे एक विशेषज्ञ (Facharzt) को रेफरल की आवश्यकता है।",
+                "ur": "ایک مریض اپنے خاندانی ڈاکٹر (Hausarzt) کے پاس جا رہا ہے اور اسے ایک ماہر (Facharzt) کو حوالہ دینے کی ضرورت ہے۔",
+                "tr": "Bir hasta aile doktorunu (Hausarzt) ziyaret ediyor ve bir uzmana (Facharzt) sevk edilmeye ihtiyacı var."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Tag, Herr Doktor. Ich habe seit Wochen starke Rückenschmerzen.",
+                    "translation": {
+                        "en": "Good day, Doctor. I've had severe back pain for weeks.",
+                        "bn": "শুভ দিন, ডাক্তার। আমার কয়েক সপ্তাহ ধরে তীব্র পিঠে ব্যথা হচ্ছে।",
+                        "hi": "शुभ दिन, डॉक्टर। मुझे हफ़्तों से पीठ में तेज़ दर्द हो रहा है।",
+                        "ur": "شب بخیر، ڈاکٹر۔ مجھے ہفتوں سے کمر میں شدید درد ہو رہا ہے۔",
+                        "tr": "İyi günler, Doktor. Haftalardır şiddetli sırt ağrım var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Hausarzt",
+                    "germanText": "Guten Tag, Herr Klein. Das tut mir leid zu hören. Ich werde Sie untersuchen. Es könnte sein, dass Sie einen Facharzt benötigen.",
+                    "translation": {
+                        "en": "Good day, Mr. Klein. I'm sorry to hear that. I'll examine you. It could be that you need a specialist.",
+                        "bn": "শুভ দিন, মিঃ ক্লেইন। শুনে দুঃখিত হলাম। আমি আপনাকে পরীক্ষা করব। সম্ভবত আপনার একজন বিশেষজ্ঞের প্রয়োজন হতে পারে।",
+                        "hi": "शुभ दिन, श्रीमान क्लाइन। मुझे यह सुनकर दुख हुआ। मैं आपकी जांच करूंगा। ऐसा हो सकता है कि आपको एक विशेषज्ञ की आवश्यकता हो।",
+                        "ur": "شب بخیر، مسٹر کلین۔ مجھے یہ سن کر افسوس ہوا۔ میں آپ کا معائنہ کروں گا۔ ہو سکتا ہے کہ آپ کو کسی ماہر کی ضرورت ہو۔",
+                        "tr": "İyi günler, Bay Klein. Bunu duyduğuma üzüldüm. Sizi muayene edeceğim. Belki bir uzmana ihtiyacınız olabilir."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Hausarzt",
+                    "germanText": "Ich schreibe Ihnen eine Überweisung zum Orthopäden. Gehen Sie damit zur Kassenärztlichen Vereinigung, wenn Sie Schwierigkeiten haben, einen Termin zu finden.",
+                    "translation": {
+                        "en": "I'll write you a referral to an orthopedist. Take it to the Kassenärztliche Vereinigung if you have trouble finding an appointment.",
+                        "bn": "আমি আপনাকে একজন অর্থোপেডিস্টের কাছে রেফারেল লিখে দেব। যদি আপনার অ্যাপয়েন্টমেন্ট খুঁজে পেতে অসুবিধা হয় তবে এটি কাসেনারজ্টলিচে ভেরেইনগং-এ নিয়ে যান।",
+                        "hi": "मैं आपको एक ऑर्थोपेडिस्ट को एक रेफरल लिखूंगा। यदि आपको अपॉइंटमेंट खोजने में कठिनाई हो रही है तो इसे कसेनारज़्टलिचे वेरेइनिगंग में ले जाएं।",
+                        "ur": "میں آپ کو ایک آرتھوپیڈسٹ کے لیے ایک حوالہ لکھوں گا۔ اگر آپ کو اپائنٹمنٹ تلاش کرنے میں پریشانی ہو تو اسے کیسینارزٹلیچے ویریینیگنگ میں لے جائیں۔",
+                        "tr": "Size bir ortopediste sevk yazacağım. Randevu bulmakta zorlanırsanız, Kassenärztliche Vereinigung'a götürün."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Was ist die Kassenärztliche Vereinigung?",
+                    "translation": {
+                        "en": "What is the Kassenärztliche Vereinigung?",
+                        "bn": "কাসেনারজ্টলিচে ভেরেইনগং কী?",
+                        "hi": "कसेनारज़्टलिचे वेरेइनिगंग क्या है?",
+                        "ur": "کیسینارزٹلیچے ویریینیگنگ کیا ہے؟",
+                        "tr": "Kassenärztliche Vereinigung nedir?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Hausarzt",
+                    "germanText": "Das ist eine Organisation, die hilft, Patienten an Fachärzte zu vermitteln, besonders wenn es lange Wartezeiten gibt.",
+                    "translation": {
+                        "en": "It's an organization that helps to refer patients to specialists, especially when there are long waiting times.",
+                        "bn": "এটি এমন একটি সংস্থা যা রোগীদের বিশেষজ্ঞদের কাছে রেফার করতে সহায়তা করে, বিশেষ করে যখন দীর্ঘ অপেক্ষার সময় থাকে।",
+                        "hi": "यह एक संगठन है जो रोगियों को विशेषज्ञों के पास रेफर करने में मदद करता है, खासकर जब प्रतीक्षा समय लंबा होता है।",
+                        "ur": "یہ ایک تنظیم ہے جو مریضوں کو ماہرین کے پاس بھیجنے میں مدد کرتی ہے، خاص طور پر جب انتظار کے اوقات طویل ہوں۔",
+                        "tr": "Bu, özellikle uzun bekleme süreleri olduğunda, hastaları uzmanlara yönlendirmeye yardımcı olan bir kuruluştur."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Vielen Dank, Herr Doktor!",
+                    "translation": {
+                        "en": "Thank you very much, Doctor!",
+                        "bn": "আপনাকে অনেক ধন্যবাদ, ডাক্তার!",
+                        "hi": "बहुत बहुत धन्यवाद, डॉक्टर!",
+                        "ur": "بہت شکریہ، ڈاکٹر!",
+                        "tr": "Çok teşekkür ederim, Doktor!"
+                    }
+                }
+            ],
+            "id": "d37_02"
+        },
+        {
+            "title": {
+                "en": "Private vs. Statutory Health Insurance",
+                "bn": "ব্যক্তিগত বনাম বিধিবদ্ধ স্বাস্থ্য বীমা",
+                "hi": "निजी बनाम वैधानिक स्वास्थ्य बीमा",
+                "ur": "نجی بمقابلہ قانونی صحت بیمہ",
+                "tr": "Özel ve Yasal Sağlık Sigortası"
+            },
+            "context": {
+                "en": "A doctor discusses insurance options with a patient.",
+                "bn": "একজন ডাক্তার একজন রোগীর সাথে বীমা বিকল্প নিয়ে আলোচনা করছেন।",
+                "hi": "एक डॉक्टर एक मरीज के साथ बीमा विकल्पों पर चर्चा कर रहा है।",
+                "ur": "ایک ڈاکٹر ایک مریض کے ساتھ بیمہ کے اختیارات پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Bir doktor, bir hasta ile sigorta seçeneklerini tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Sommer",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Frau Weber, sind Sie gesetzlich oder privat versichert?",
+                    "translation": {
+                        "en": "Mrs. Weber, are you insured with statutory or private health insurance?",
+                        "bn": "মিসেস ওয়েবার, আপনার বিধিবদ্ধ বা ব্যক্তিগত স্বাস্থ্য বীমা আছে?",
+                        "hi": "श्रीमती वेबर, क्या आप वैधानिक या निजी स्वास्थ्य बीमा से बीमाकृत हैं?",
+                        "ur": "محترمہ ویبر، کیا آپ قانونی یا نجی صحت بیمہ سے بیمہ شدہ ہیں؟",
+                        "tr": "Bayan Weber, yasal mı yoksa özel sağlık sigortası ile mi sigortalısınız?"
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich bin privat versichert, bei der Debeka.",
+                    "translation": {
+                        "en": "I have private insurance, with Debeka.",
+                        "bn": "আমার ব্যক্তিগত বীমা আছে, Debeka এর সাথে।",
+                        "hi": "मेरे पास Debeka के साथ निजी बीमा है।",
+                        "ur": "میرے پاس ڈیبیکا کے ساتھ نجی بیمہ ہے۔",
+                        "tr": "Debeka ile özel sigortam var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Sommer",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Gut. Das bedeutet, dass Sie die Rechnung direkt von uns erhalten und diese dann bei Ihrer PKV einreichen.",
+                    "translation": {
+                        "en": "Good. That means you'll receive the bill directly from us and then submit it to your private health insurance (PKV).",
+                        "bn": "ভাল। এর মানে হল আপনি সরাসরি আমাদের কাছ থেকে বিল পাবেন এবং তারপর এটি আপনার ব্যক্তিগত স্বাস্থ্য বীমা (PKV) এ জমা দেবেন।",
+                        "hi": "अच्छा। इसका मतलब है कि आपको बिल सीधे हमसे मिलेगा और फिर आप इसे अपनी निजी स्वास्थ्य बीमा (PKV) में जमा करेंगे।",
+                        "ur": "اچھا۔ اس کا مطلب ہے کہ آپ کو بل براہ راست ہم سے ملے گا اور پھر آپ اسے اپنے نجی صحت بیمہ (PKV) میں جمع کرائیں گے۔",
+                        "tr": "Güzel. Bu, faturayı doğrudan bizden alacağınız ve ardından özel sağlık sigortanıza (PKV) göndereceğiniz anlamına gelir."
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Verstehe. Und was wäre der Unterschied, wenn ich GKV-versichert wäre?",
+                    "translation": {
+                        "en": "I see. And what would be the difference if I had statutory health insurance (GKV)?",
+                        "bn": "আমি দেখছি। আর যদি আমার বিধিবদ্ধ স্বাস্থ্য বীমা (GKV) থাকত তাহলে পার্থক্য কী হত?",
+                        "hi": "मैं समझती हूँ। और अगर मेरे पास वैधानिक स्वास्थ्य बीमा (GKV) होता तो क्या अंतर होता?",
+                        "ur": "میں سمجھتی ہوں۔ اور اگر میرے پاس قانونی صحت بیمہ (GKV) ہوتا تو کیا فرق ہوتا؟",
+                        "tr": "Anlıyorum. Ve yasal sağlık sigortam (GKV) olsaydı farkı ne olurdu?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Sommer",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Dann würden wir direkt mit Ihrer Krankenkasse abrechnen.",
+                    "translation": {
+                        "en": "Then we would bill your health insurance company directly.",
+                        "bn": "তাহলে আমরা সরাসরি আপনার স্বাস্থ্য বীমা কোম্পানির সাথে বিল করব।",
+                        "hi": "तो हम सीधे आपकी स्वास्थ्य बीमा कंपनी को बिल भेजेंगे।",
+                        "ur": "پھر ہم براہ راست آپ کی صحت بیمہ کمپنی کو بل بھیجیں گے۔",
+                        "tr": "O zaman doğrudan sağlık sigortası şirketinize fatura keseceğiz."
+                    }
+                }
+            ],
+            "id": "d37_03"
+        },
+        {
+            "title": {
+                "en": "Understanding Co-payments",
+                "bn": "সহ-অর্থ প্রদানের বোঝা",
+                "hi": "सह-भुगतान को समझना",
+                "ur": "شریک ادائیگیوں کو سمجھنا",
+                "tr": "Katılım Paylarını Anlamak"
+            },
+            "context": {
+                "en": "A patient is confused about co-payments for prescriptions.",
+                "bn": "একজন রোগী প্রেসক্রিপশনের জন্য সহ-অর্থ প্রদান সম্পর্কে বিভ্রান্ত।",
+                "hi": "एक मरीज पर्चे के लिए सह-भुगतान के बारे में भ्रमित है।",
+                "ur": "ایک مریض نسخوں کے لیے شریک ادائیگیوں کے بارے میں الجھن میں ہے۔",
+                "tr": "Bir hasta reçeteler için katılım payları konusunda kafası karışmış durumda."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Schwester, warum musste ich in der Apotheke für das Medikament zuzahlen? Ich bin doch versichert!",
+                    "translation": {
+                        "en": "Nurse, why did I have to pay extra for the medication at the pharmacy? I'm insured!",
+                        "bn": "নার্স, কেন আমাকে ফার্মেসিতে ওষুধের জন্য অতিরিক্ত অর্থ দিতে হয়েছিল? আমি তো বীমা করা!",
+                        "hi": "नर्स, मुझे फार्मेसी में दवा के लिए अतिरिक्त भुगतान क्यों करना पड़ा? मेरा बीमा है!",
+                        "ur": "نرس، مجھے فارمیسی میں دوا کے لیے اضافی ادائیگی کیوں کرنی پڑی؟ میرا بیمہ ہے!",
+                        "tr": "Hemşire, eczanede ilaç için neden ek ödeme yapmak zorunda kaldım? Sigortalıyım!"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Das ist die Zuzahlung. Bei rezeptpflichtigen Medikamenten müssen Sie einen Teil selbst bezahlen, das ist gesetzlich festgelegt.",
+                    "translation": {
+                        "en": "That's the co-payment. For prescription medications, you have to pay part of it yourself, that's legally stipulated.",
+                        "bn": "এটা হল সহ-অর্থ প্রদান। প্রেসক্রিপশনযুক্ত ওষুধের জন্য, আপনাকে এর একটি অংশ নিজেকে দিতে হবে, এটি আইনত নির্ধারিত।",
+                        "hi": "यह सह-भुगतान है। पर्चे वाली दवाओं के लिए, आपको इसका एक हिस्सा स्वयं देना होगा, यह कानूनी रूप से निर्धारित है।",
+                        "ur": "یہ شریک ادائیگی ہے۔ نسخہ والی ادویات کے لیے، آپ کو اس کا ایک حصہ خود ادا کرنا ہوگا، یہ قانونی طور پر طے شدہ ہے۔",
+                        "tr": "Bu katılım payı. Reçeteli ilaçlar için, bir kısmını kendiniz ödemek zorundasınız, bu yasal olarak belirtilmiştir."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Ah, verstehe. Und wie hoch ist diese Zuzahlung?",
+                    "translation": {
+                        "en": "Ah, I understand. And how much is this co-payment?",
+                        "bn": "আহ, আমি বুঝতে পারছি। আর এই সহ-অর্থ প্রদান কত?",
+                        "hi": "आह, मैं समझ गया। और यह सह-भुगतान कितना है?",
+                        "ur": "آہ، میں سمجھ گیا۔ اور یہ شریک ادائیگی کتنی ہے؟",
+                        "tr": "Ah, anlıyorum. Peki bu katılım payı ne kadar?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Das hängt vom Preis des Medikaments ab, aber es gibt eine Obergrenze. Informieren Sie sich am besten bei Ihrer Krankenkasse.",
+                    "translation": {
+                        "en": "That depends on the price of the medication, but there's a ceiling. It's best to inquire with your health insurance company.",
+                        "bn": "এটি ওষুধের দামের উপর নির্ভর করে, তবে একটি সর্বোচ্চ সীমা রয়েছে। আপনার স্বাস্থ্য বীমা কোম্পানির সাথে জিজ্ঞাসা করাই ভাল।",
+                        "hi": "यह दवा की कीमत पर निर्भर करता है, लेकिन एक ऊपरी सीमा है। अपनी स्वास्थ्य बीमा कंपनी से पूछताछ करना सबसे अच्छा है।",
+                        "ur": "یہ دوا کی قیمت پر منحصر ہے، لیکن ایک اوپری حد ہے۔ اپنی صحت بیمہ کمپنی سے دریافت کرنا بہترین ہے۔",
+                        "tr": "Bu ilacın fiyatına bağlıdır, ancak bir tavanı vardır. Sağlık sigortası şirketinizle görüşmeniz en iyisidir."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Danke für die Information!",
+                    "translation": {
+                        "en": "Thanks for the information!",
+                        "bn": "তথ্যের জন্য ধন্যবাদ!",
+                        "hi": "जानकारी के लिए धन्यवाद!",
+                        "ur": "معلومات کے لیے شکریہ!",
+                        "tr": "Bilgi için teşekkürler!"
+                    }
+                }
+            ],
+            "id": "d37_04"
+        },
+        {
+            "title": {
+                "en": "Emergency Room Visit",
+                "bn": "জরুরী বিভাগে পরিদর্শন",
+                "hi": "आपातकालीन कक्ष का दौरा",
+                "ur": "ایمرجنسی روم کا دورہ",
+                "tr": "Acil Servis Ziyareti"
+            },
+            "context": {
+                "en": "A patient arrives at the emergency room and explains their symptoms.",
+                "bn": "একজন রোগী জরুরি বিভাগে এসে তার উপসর্গগুলি ব্যাখ্যা করছেন।",
+                "hi": "एक मरीज आपातकालीन विभाग में आता है और अपने लक्षणों की व्याख्या करता है।",
+                "ur": "ایک مریض ایمرجنسی ڈیپارٹمنٹ میں آتا ہے اور اپنی علامات کی وضاحت کرتا ہے۔",
+                "tr": "Bir hasta acil servise gelir ve semptomlarını açıklar."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Bauer",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe starke Brustschmerzen und Atemnot!",
+                    "translation": {
+                        "en": "I have severe chest pain and shortness of breath!",
+                        "bn": "আমার তীব্র বুকে ব্যথা এবং শ্বাসকষ্ট হচ্ছে!",
+                        "hi": "मुझे छाती में तेज दर्द और सांस लेने में तकलीफ है!",
+                        "ur": "مجھے سینے میں شدید درد اور سانس لینے میں دشواری ہو رہی ہے!",
+                        "tr": "Şiddetli göğüs ağrım ve nefes darlığım var!"
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wir kümmern uns sofort darum. Sind Sie GKV oder PKV versichert?",
+                    "translation": {
+                        "en": "We'll take care of it right away. Are you insured with statutory or private health insurance?",
+                        "bn": "আমরা অবিলম্বে এটির যত্ন নেব। আপনার বিধিবদ্ধ বা ব্যক্তিগত স্বাস্থ্য বীমা আছে?",
+                        "hi": "हम तुरंत इसकी देखभाल करेंगे। क्या आप वैधानिक या निजी स्वास्थ्य बीमा से बीमाकृत हैं?",
+                        "ur": "ہم فوری طور پر اس کی دیکھ بھال کریں گے۔ کیا آپ قانونی یا نجی صحت بیمہ سے بیمہ شدہ ہیں؟",
+                        "tr": "Hemen ilgileniyoruz. Yasal mı yoksa özel sağlık sigortası ile mi sigortalısınız?"
+                    }
+                },
+                {
+                    "speaker": "Patient Bauer",
+                    "speakerRole": "Patient",
+                    "germanText": "GKV, Techniker Krankenkasse.",
+                    "translation": {
+                        "en": "Statutory, Techniker Krankenkasse.",
+                        "bn": "বিধিবদ্ধ, টেকনিকের ক্র্যাঙ্কেনকাসে।",
+                        "hi": "वैधानिक, टेक्निकर क्रैंकेंकसे।",
+                        "ur": "قانونی، ٹیکنیکر کرینکینکاسے۔",
+                        "tr": "Yasal, Techniker Krankenkasse."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Gut, Schwester, EKG und Blutbild bitte sofort!",
+                    "translation": {
+                        "en": "Good, Nurse, ECG and blood test immediately, please!",
+                        "bn": "ভাল, নার্স, ইসিজি এবং রক্ত পরীক্ষা অবিলম্বে করুন!",
+                        "hi": "अच्छा, नर्स, ईसीजी और रक्त परीक्षण तुरंत करें, कृपया!",
+                        "ur": "اچھا، نرس، ای سی جی اور خون کا ٹیسٹ فوری طور پر کریں، براہ کرم!",
+                        "tr": "Güzel, Hemşire, EKG ve kan testi hemen, lütfen!"
+                    }
+                },
+                {
+                    "speaker": "Schwester Braun",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Sofort, Herr Doktor!",
+                    "translation": {
+                        "en": "Right away, Doctor!",
+                        "bn": "অবিলম্বে, ডাক্তার!",
+                        "hi": "तुरंत, डॉक्टर!",
+                        "ur": "فوری طور پر، ڈاکٹر!",
+                        "tr": "Hemen, Doktor!"
+                    }
+                }
+            ],
+            "id": "d37_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist der Hauptunterschied zwischen der Gesetzlichen Krankenversicherung (GKV) und der Privaten Krankenversicherung (PKV)?",
+                "en": "What is the main difference between Statutory Health Insurance (GKV) and Private Health Insurance (PKV)?",
+                "bn": "বিধিবদ্ধ স্বাস্থ্য বীমা (GKV) এবং বেসরকারী স্বাস্থ্য বীমা (PKV) এর মধ্যে প্রধান পার্থক্য কী?",
+                "hi": "वैधानिक स्वास्थ्य बीमा (GKV) और निजी स्वास्थ्य बीमा (PKV) के बीच मुख्य अंतर क्या है?",
+                "ur": "قانونی صحت انشورنس (GKV) اور نجی صحت انشورنس (PKV) کے درمیان بنیادی فرق کیا ہے؟",
+                "tr": "Yasal Sağlık Sigortası (GKV) ile Özel Sağlık Sigortası (PKV) arasındaki temel fark nedir?"
+            },
+            "options": [
+                "Die GKV ist für alle Bürger obligatorisch, während die PKV freiwillig ist.",
+                "Die PKV bietet einen einheitlichen Leistungskatalog für alle Versicherten, während die GKV individuelle Leistungen bietet.",
+                "Die GKV ist günstiger als die PKV.",
+                "In der PKV zahlt man einkommensabhängige Beiträge, in der GKV nicht."
+            ],
+            "correctAnswer": "Die GKV ist für alle Bürger obligatorisch, während die PKV freiwillig ist.",
+            "explanation": {
+                "en": "GKV is mandatory for most citizens, while PKV is voluntary and often depends on income and employment status.",
+                "bn": "GKV বেশিরভাগ নাগরিকের জন্য বাধ্যতামূলক, যেখানে PKV স্বেচ্ছাসেবী এবং প্রায়শই আয় এবং কর্মসংস্থান স্থিতির উপর নির্ভর করে।",
+                "hi": "GKV अधिकांश नागरिकों के लिए अनिवार्य है, जबकि PKV स्वैच्छिक है और अक्सर आय और रोजगार की स्थिति पर निर्भर करता है।",
+                "ur": "GKV زیادہ تر شہریوں کے لیے لازمی ہے، جبکہ PKV رضاکارانہ ہے اور اکثر آمدنی اور ملازمت کی حیثیت پر منحصر ہے۔",
+                "tr": "GKV çoğu vatandaş için zorunludur, PKV ise gönüllüdür ve genellikle gelir ve istihdam durumuna bağlıdır."
+            },
+            "points": 10,
+            "id": "e37_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aufgabe hat die Kassenärztliche Vereinigung (KV)?",
+                "en": "What is the task of the Kassenärztliche Vereinigung (KV)?",
+                "bn": "ক্যাসেনেরজ্টলিচে ভেরিনিগুং (KV) এর কাজ কী?",
+                "hi": "केसेनर्ज्टलिचे वेरिनिगुंग (KV) का कार्य क्या है?",
+                "ur": "کیسین آرٹزلیچ ویرینیگونگ (KV) کا کام کیا ہے؟",
+                "tr": "Kassenärztliche Vereinigung'un (KV) görevi nedir?"
+            },
+            "options": [
+                "Die Vertretung der Interessen der gesetzlich versicherten Patienten.",
+                "Die Organisation der ärztlichen Versorgung der GKV-Versicherten.",
+                "Die Festlegung der Beiträge für die PKV.",
+                "Die Zulassung von Apotheken."
+            ],
+            "correctAnswer": "Die Organisation der ärztlichen Versorgung der GKV-Versicherten.",
+            "explanation": {
+                "en": "The KV is responsible for ensuring the medical care of GKV-insured patients.",
+                "bn": "KV GKV-বিমাকৃত রোগীদের চিকিৎসা সেবা নিশ্চিত করার জন্য দায়ী।",
+                "hi": "KV GKV-बीमाकृत रोगियों की चिकित्सा देखभाल सुनिश्चित करने के लिए जिम्मेदार है।",
+                "ur": "KV GKV-انشورنس شدہ مریضوں کی طبی دیکھ بھال کو یقینی بنانے کے لیے ذمہ دار ہے۔",
+                "tr": "KV, GKV sigortalı hastaların tıbbi bakımını sağlamaktan sorumludur."
+            },
+            "points": 10,
+            "id": "e37_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wer ist in der Regel die erste Anlaufstelle für Patienten im deutschen Gesundheitssystem?",
+                "en": "Who is usually the first point of contact for patients in the German healthcare system?",
+                "bn": "জার্মান স্বাস্থ্যসেবা ব্যবস্থায় রোগীদের জন্য সাধারণত প্রথম যোগাযোগের স্থান কোনটি?",
+                "hi": "जर्मन स्वास्थ्य सेवा प्रणाली में रोगियों के लिए आमतौर पर पहला संपर्क बिंदु कौन होता है?",
+                "ur": "جرمن صحت کی دیکھ بھال کے نظام میں مریضوں کے لیے عام طور پر پہلا رابطہ نقطہ کون ہے؟",
+                "tr": "Alman sağlık sisteminde hastalar için genellikle ilk temas noktası kimdir?",
+                "options": [
+                    "Der Facharzt",
+                    "Der Hausarzt",
+                    "Das Krankenhaus",
+                    "Die Apotheke"
+                ]
+            },
+            "correctAnswer": "Der Hausarzt",
+            "explanation": {
+                "en": "The general practitioner (Hausarzt) is typically the first point of contact for medical concerns.",
+                "bn": "সাধারণত, জেনারেল প্র্যাকটিশনার (Hausarzt) চিকিৎসা উদ্বেগের জন্য প্রথম যোগাযোগের স্থান।",
+                "hi": "आम तौर पर, जनरल प्रैक्टिशनर (Hausarzt) चिकित्सा चिंताओं के लिए पहला संपर्क बिंदु होता है।",
+                "ur": "عام طور پر، جنرل پریکٹیشنر (Hausarzt) طبی خدشات کے لیے پہلا رابطہ نقطہ ہوتا ہے۔",
+                "tr": "Genellikle, pratisyen hekim (Hausarzt) tıbbi endişeler için ilk temas noktasıdır."
+            },
+            "points": 10,
+            "id": "e37_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet der Begriff 'Facharzt'?",
+                "en": "What does the term 'Facharzt' mean?",
+                "bn": "'Facharzt' শব্দের অর্থ কী?",
+                "hi": "'Facharzt' शब्द का अर्थ क्या है?",
+                "ur": "'Facharzt' اصطلاح کا کیا مطلب ہے؟",
+                "tr": "'Facharzt' terimi ne anlama gelir?",
+                "options": [
+                    "Ein Arzt ohne Spezialisierung.",
+                    "Ein Arzt mit einer abgeschlossenen Spezialisierung.",
+                    "Ein Arzt, der nur Privatpatienten behandelt.",
+                    "Ein Arzt, der im Krankenhaus arbeitet."
+                ]
+            },
+            "correctAnswer": "Ein Arzt mit einer abgeschlossenen Spezialisierung.",
+            "explanation": {
+                "en": "A 'Facharzt' is a doctor with a completed specialization, e.g., cardiologist, neurologist.",
+                "bn": "একটি 'Facharzt' হলেন একজন ডাক্তার যিনি একটি বিশেষীকরণ সম্পন্ন করেছেন, যেমন কার্ডিওলজিস্ট, নিউরোলজিস্ট।",
+                "hi": "एक 'Facharzt' एक डॉक्टर है जिसने एक विशेषज्ञता पूरी कर ली है, जैसे कार्डियोलॉजिस्ट, न्यूरोलॉजिस्ट।",
+                "ur": "ایک 'Facharzt' ایک ڈاکٹر ہے جس نے ایک خصوصیت مکمل کر لی ہے، جیسے کارڈیالوجسٹ، نیورولوجسٹ۔",
+                "tr": "'Facharzt', örneğin kardiyolog, nörolog gibi bir uzmanlık alanını tamamlamış bir doktordur."
+            },
+            "points": 10,
+            "id": "e37_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage trifft auf die Beiträge zur GKV zu?",
+                "en": "Which statement applies to the contributions to the GKV?",
+                "bn": "GKV-এর অবদানের ক্ষেত্রে কোন বক্তব্যটি প্রযোজ্য?",
+                "hi": "GKV में योगदान के संबंध में कौन सा कथन लागू होता है?",
+                "ur": "GKV میں شراکت کے بارے میں کون سا بیان لاگو ہوتا ہے؟",
+                "tr": "GKV'ye yapılan katkılar için hangi ifade geçerlidir?",
+                "options": [
+                    "Sie sind einkommensunabhängig.",
+                    "Sie werden ausschließlich vom Arbeitgeber gezahlt.",
+                    "Sie werden von Arbeitgeber und Arbeitnehmer geteilt.",
+                    "Sie sind für Rentner höher."
+                ]
+            },
+            "correctAnswer": "Sie werden von Arbeitgeber und Arbeitnehmer geteilt.",
+            "explanation": {
+                "en": "GKV contributions are shared between the employer and the employee.",
+                "bn": "GKV-এর অবদান নিয়োগকর্তা এবং কর্মচারী উভয়ের মধ্যে ভাগ করা হয়।",
+                "hi": "GKV का योगदान नियोक्ता और कर्मचारी दोनों के बीच साझा किया जाता है।",
+                "ur": "GKV کا تعاون آجر اور ملازم دونوں کے درمیان بانٹا جاتا ہے۔",
+                "tr": "GKV katkıları işveren ve çalışan arasında paylaşılır."
+            },
+            "points": 10,
+            "id": "e37_05"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein Patient mit GKV-Versicherung benötigt in der Regel eine _______________ vom Hausarzt, um einen Facharzt aufsuchen zu können.",
+                "en": "A patient with GKV insurance usually needs a _______________ from the general practitioner to be able to see a specialist.",
+                "bn": "GKV বীমাযুক্ত রোগীর সাধারণত একজন বিশেষজ্ঞের সাথে দেখা করার জন্য জেনারেল প্র্যাকটিশনার থেকে একটি _______________ প্রয়োজন।",
+                "hi": "GKV बीमा वाले रोगी को आमतौर पर एक विशेषज्ञ से मिलने के लिए जनरल प्रैक्टिशनर से _______________ की आवश्यकता होती है।",
+                "ur": "GKV انشورنس والے مریض کو عام طور پر ایک ماہر سے ملنے کے لیے جنرل پریکٹیشنر سے _______________ کی ضرورت ہوتی ہے۔",
+                "tr": "GKV sigortası olan bir hastanın genellikle bir uzmanla görüşebilmesi için pratisyen hekimden _______________ ihtiyacı vardır."
+            },
+            "correctAnswer": "Überweisung",
+            "explanation": {
+                "en": "Generally, a referral (Überweisung) from the general practitioner is needed to see a specialist with GKV insurance.",
+                "bn": "সাধারণত, GKV বীমার সাথে একজন বিশেষজ্ঞের সাথে দেখা করার জন্য জেনারেল প্র্যাকটিশনার থেকে একটি রেফারেল (Überweisung) প্রয়োজন।",
+                "hi": "आम तौर पर, GKV बीमा के साथ एक विशेषज्ञ से मिलने के लिए जनरल प्रैक्टिशनर से एक रेफरल (Überweisung) की आवश्यकता होती है।",
+                "ur": "عام طور پر، GKV انشورنس کے ساتھ ایک ماہر سے ملنے کے لیے جنرل پریکٹیشنر سے ایک ریفرل (Überweisung) کی ضرورت ہوتی ہے۔",
+                "tr": "Genellikle, GKV sigortası ile bir uzmanla görüşmek için pratisyen hekimden bir sevk (Überweisung) gerekir."
+            },
+            "points": 10,
+            "id": "e37_06"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die _______________ ist eine Körperschaft des öffentlichen Rechts und vertritt die Interessen der GKV-Versicherten.",
+                "en": "The _______________ is a public corporation and represents the interests of GKV-insured persons.",
+                "bn": "_______________ একটি পাবলিক কর্পোরেশন এবং GKV-বিমাকৃত ব্যক্তিদের স্বার্থের প্রতিনিধিত্ব করে।",
+                "hi": "_______________ एक सार्वजनिक निगम है और GKV-बीमाकृत व्यक्तियों के हितों का प्रतिनिधित्व करता है।",
+                "ur": "_______________ ایک عوامی کارپوریشن ہے اور GKV بیمہ شدہ افراد کے مفادات کی نمائندگی کرتا ہے۔",
+                "tr": "_______________ bir kamu kuruluşudur ve GKV sigortalı kişilerin çıkarlarını temsil eder."
+            },
+            "correctAnswer": "Krankenkasse",
+            "explanation": {
+                "en": "The Krankenkasse (health insurance fund) is a public corporation that represents the interests of GKV-insured individuals.",
+                "bn": "ক্র্যাঙ্কেনকাসে (স্বাস্থ্য বীমা তহবিল) একটি পাবলিক কর্পোরেশন যা GKV-বিমাকৃত ব্যক্তিদের স্বার্থের প্রতিনিধিত্ব করে।",
+                "hi": "क्रैंकनकासे (स्वास्थ्य बीमा निधि) एक सार्वजनिक निगम है जो GKV-बीमाकृत व्यक्तियों के हितों का प्रतिनिधित्व करता है।",
+                "ur": "کرینکنکاس (صحت بیمہ فنڈ) ایک عوامی کارپوریشن ہے جو GKV بیمہ شدہ افراد کے مفادات کی نمائندگی کرتا ہے۔",
+                "tr": "Krankenkasse (sağlık sigortası fonu), GKV sigortalı bireylerin çıkarlarını temsil eden bir kamu kuruluşudur."
+            },
+            "points": 10,
+            "id": "e37_07"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Im Gegensatz zur GKV werden die Beiträge zur PKV nicht prozentual vom _______________ berechnet.",
+                "en": "Unlike the GKV, the contributions to the PKV are not calculated as a percentage of _______________. ",
+                "bn": "GKV-এর বিপরীতে, PKV-এর অবদান _______________ শতাংশ হিসাবে গণনা করা হয় না।",
+                "hi": "GKV के विपरीत, PKV में योगदान _______________ के प्रतिशत के रूप में नहीं गिना जाता है।",
+                "ur": "GKV کے برعکس، PKV میں شراکت _______________ کے فیصد کے طور پر شمار نہیں کی جاتی ہے۔",
+                "tr": "GKV'den farklı olarak, PKV'ye yapılan katkılar _______________ yüzdesi olarak hesaplanmaz."
+            },
+            "correctAnswer": "Einkommen",
+            "explanation": {
+                "en": "Unlike the GKV, PKV contributions are not calculated as a percentage of income but based on risk factors.",
+                "bn": "GKV-এর বিপরীতে, PKV-এর অবদান আয়ের শতাংশ হিসাবে গণনা করা হয় না বরং ঝুঁকির কারণগুলির উপর ভিত্তি করে গণনা করা হয়।",
+                "hi": "GKV के विपरीत, PKV में योगदान आय के प्रतिशत के रूप में नहीं गिना जाता है बल्कि जोखिम कारकों के आधार पर गिना जाता है।",
+                "ur": "GKV کے برعکس، PKV میں شراکت آمدنی کے فیصد کے طور پر شمار نہیں کی جاتی ہے بلکہ خطرے کے عوامل کی بنیاد پر شمار کی جاتی ہے۔",
+                "tr": "GKV'den farklı olarak, PKV katkıları gelir yüzdesi olarak değil, risk faktörlerine göre hesaplanır."
+            },
+            "points": 10,
+            "id": "e37_08"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die _______________ stellt sicher, dass jeder Arzt, der GKV-Patienten behandelt, die gleichen Bedingungen hat.",
+                "en": "The _______________ ensures that every doctor who treats GKV patients has the same conditions.",
+                "bn": "_______________ নিশ্চিত করে যে প্রতিটি ডাক্তার যিনি GKV রোগীদের চিকিৎসা করেন তার একই শর্ত রয়েছে।",
+                "hi": "_______________ सुनिश्चित करता है कि प्रत्येक चिकित्सक जो GKV रोगियों का इलाज करता है उसके पास समान स्थितियाँ हैं।",
+                "ur": "_______________ اس بات کو یقینی بناتا ہے کہ ہر وہ ڈاکٹر جو GKV کے مریضوں کا علاج کرتا ہے اس کے پاس وہی شرائط ہیں۔",
+                "tr": "_______________, GKV hastalarına bakan her doktorun aynı koşullara sahip olmasını sağlar."
+            },
+            "correctAnswer": "Kassenärztliche Vereinigung",
+            "explanation": {
+                "en": "The Kassenärztliche Vereinigung ensures that every doctor treating GKV patients has equal conditions.",
+                "bn": "ক্যাসেনেরজ্টলিচে ভেরিনিগুং নিশ্চিত করে যে প্রতিটি ডাক্তার যিনি GKV রোগীদের চিকিৎসা করেন তার সমান শর্ত রয়েছে।",
+                "hi": "केसेनर्ज्टलिचे वेरिनिगुंग सुनिश्चित करता है कि प्रत्येक चिकित्सक जो GKV रोगियों का इलाज करता है उसके पास समान स्थितियाँ हैं।",
+                "ur": "کیسین آرٹزلیچ ویرینیگونگ اس بات کو یقینی بناتا ہے کہ ہر وہ ڈاکٹر جو GKV کے مریضوں کا علاج کرتا ہے اس کے پاس وہی شرائط ہیں۔",
+                "tr": "Kassenärztliche Vereinigung, GKV hastalarına bakan her doktorun eşit koşullara sahip olmasını sağlar."
+            },
+            "points": 10,
+            "id": "e37_09"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein _______________ ist spezialisiert auf ein bestimmtes medizinisches Fachgebiet, z.B. Kardiologie oder Neurologie.",
+                "en": "A _______________ specializes in a specific medical field, e.g., cardiology or neurology.",
+                "bn": "একটি _______________ একটি নির্দিষ্ট চিকিৎসা ক্ষেত্রে বিশেষজ্ঞ, যেমন কার্ডিওলজি বা নিউরোলজি।",
+                "hi": "एक _______________ एक विशिष्ट चिकित्सा क्षेत्र में माहिर है, उदाहरण के लिए, कार्डियोलॉजी या न्यूरोलॉजी।",
+                "ur": "ایک _______________ ایک مخصوص طبی میدان میں مہارت رکھتا ہے، مثال کے طور پر، کارڈیالوجی یا نیورولوجی۔",
+                "tr": "Bir _______________ belirli bir tıp alanında uzmanlaşmıştır, örneğin kardiyoloji veya nöroloji."
+            },
+            "correctAnswer": "Facharzt",
+            "explanation": {
+                "en": "A Facharzt is specialized in a specific medical field, for example, cardiology or neurology.",
+                "bn": "একজন Facharzt একটি নির্দিষ্ট চিকিৎসা ক্ষেত্রে বিশেষজ্ঞ, উদাহরণস্বরূপ, কার্ডিওলজি বা নিউরোলজি।",
+                "hi": "एक Facharzt एक विशिष्ट चिकित्सा क्षेत्र में माहिर है, उदाहरण के लिए, कार्डियोलॉजी या न्यूरोलॉजी।",
+                "ur": "ایک Facharzt ایک مخصوص طبی میدان میں مہارت رکھتا ہے، مثال کے طور پر، کارڈیالوجی یا نیورولوجی۔",
+                "tr": "Bir Facharzt belirli bir tıp alanında uzmanlaşmıştır, örneğin kardiyoloji veya nöroloji."
+            },
+            "points": 10,
+            "id": "e37_10"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Leistungen ist typischerweise in der GKV enthalten?",
+                "en": "Which of the following services is typically included in the GKV?",
+                "bn": "নিম্নলিখিত পরিষেবাগুলির মধ্যে কোনটি সাধারণত GKV-তে অন্তর্ভুক্ত?",
+                "hi": "निम्नलिखित सेवाओं में से कौन सी सेवाएँ आमतौर पर GKV में शामिल होती हैं?",
+                "ur": "درج ذیل خدمات میں سے کون سی خدمات عام طور پر GKV میں شامل ہوتی ہیں؟",
+                "tr": "Aşağıdaki hizmetlerden hangisi genellikle GKV'ye dahildir?",
+                "options": [
+                    "Zahnärztliche Behandlungen mit hochwertigen Materialien ohne Zuzahlung",
+                    "Kostenübernahme für alternative Heilmethoden ohne Einschränkungen",
+                    "Standardmäßige medizinische Versorgung und Behandlung.",
+                    "Unterbringung im Einzelzimmer im Krankenhaus."
+                ]
+            },
+            "correctAnswer": "Standardmäßige medizinische Versorgung und Behandlung.",
+            "explanation": {
+                "en": "The GKV typically includes standard medical care and treatment.",
+                "bn": "GKV সাধারণত স্ট্যান্ডার্ড চিকিৎসা সেবা এবং চিকিত্সা অন্তর্ভুক্ত করে।",
+                "hi": "GKV आमतौर पर मानक चिकित्सा देखभाल और उपचार शामिल करता है।",
+                "ur": "GKV عام طور پر معیاری طبی دیکھ بھال اور علاج شامل کرتا ہے۔",
+                "tr": "GKV genellikle standart tıbbi bakım ve tedaviyi içerir."
+            },
+            "points": 10,
+            "id": "e37_11"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Der Hausarzt ist die erste Anlaufstelle für Patienten.",
+                "en": "The general practitioner is the first point of contact for patients.",
+                "bn": "জেনারেল প্র্যাকটিশনার হলেন রোগীদের জন্য প্রথম যোগাযোগের স্থান।",
+                "hi": "सामान्य चिकित्सक रोगियों के लिए संपर्क का पहला बिंदु है।",
+                "ur": "جنرل پریکٹیشنر مریضوں کے لیے رابطہ کا پہلا نقطہ ہے۔",
+                "tr": "Pratisyen hekim hastalar için ilk temas noktasıdır."
+            },
+            "correctAnswer": "The general practitioner is the first point of contact for patients.",
+            "explanation": {
+                "en": "Correct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সঠিক অনুবাদ।",
+                "hi": "जर्मन वाक्य का सही अनुवाद।",
+                "ur": "جرمن جملے کا درست ترجمہ۔",
+                "tr": "Almanca cümlenin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e37_12"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die private Krankenversicherung bietet oft erweiterte Leistungen.",
+                "en": "Private health insurance often offers extended benefits.",
+                "bn": "বেসরকারী স্বাস্থ্য বীমা প্রায়শই বর্ধিত সুবিধা প্রদান করে।",
+                "hi": "निजी स्वास्थ्य बीमा अक्सर विस्तारित लाभ प्रदान करता है।",
+                "ur": "نجی صحت بیمہ اکثر توسیع شدہ فوائد فراہم کرتا ہے۔",
+                "tr": "Özel sağlık sigortası genellikle genişletilmiş avantajlar sunar."
+            },
+            "correctAnswer": "Private health insurance often offers extended benefits.",
+            "explanation": {
+                "en": "Correct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সঠিক অনুবাদ।",
+                "hi": "जर्मन वाक्य का सही अनुवाद।",
+                "ur": "جرمن جملے کا درست ترجمہ۔",
+                "tr": "Almanca cümlenin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e37_13"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Kassenärztliche Vereinigung regelt die Versorgung der GKV-Patienten.",
+                "en": "The Kassenärztliche Vereinigung regulates the care of GKV patients.",
+                "bn": "ক্যাসেনেরজ্টলিচে ভেরিনিগুং GKV রোগীদের যত্ন নিয়ন্ত্রণ করে।",
+                "hi": "केसेनर्ज्टलिचे वेरिनिगुंग GKV रोगियों की देखभाल को नियंत्रित करता है।",
+                "ur": "کیسین آرٹزلیچ ویرینیگونگ GKV کے مریضوں کی دیکھ بھال کو منظم کرتا ہے۔",
+                "tr": "Kassenärztliche Vereinigung, GKV hastalarının bakımını düzenler."
+            },
+            "correctAnswer": "The Kassenärztliche Vereinigung regulates the care of GKV patients.",
+            "explanation": {
+                "en": "Correct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সঠিক অনুবাদ।",
+                "hi": "जर्मन वाक्य का सही अनुवाद।",
+                "ur": "جرمن جملے کا درست ترجمہ۔",
+                "tr": "Almanca cümlenin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e37_14"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wer kann sich in Deutschland privat krankenversichern?",
+                "en": "Who can take out private health insurance in Germany?",
+                "bn": "জার্মানিতে কে বেসরকারী স্বাস্থ্য বীমা নিতে পারে?",
+                "hi": "जर्मनी में निजी स्वास्थ्य बीमा कौन ले सकता है?",
+                "ur": "جرمنی میں نجی صحت بیمہ کون لے سکتا ہے؟",
+                "tr": "Almanya'da kimler özel sağlık sigortası yaptırabilir?",
+                "options": [
+                    "Alle Bürger, unabhängig vom Einkommen",
+                    "Nur Beamte und Selbstständige, sowie Angestellte mit hohem Einkommen",
+                    "Nur Rentner",
+                    "Nur Studenten"
+                ]
+            },
+            "correctAnswer": "Nur Beamte und Selbstständige, sowie Angestellte mit hohem Einkommen",
+            "explanation": {
+                "en": "Generally, civil servants, self-employed individuals, and employees with a high income are eligible for private health insurance in Germany.",
+                "bn": "সাধারণত, সরকারি কর্মচারী, স্ব-নিযুক্ত ব্যক্তি এবং উচ্চ আয়ের কর্মচারীরা জার্মানিতে বেসরকারী স্বাস্থ্য বীমার জন্য যোগ্য।",
+                "hi": "आम तौर पर, सरकारी कर्मचारी, स्व-नियोजित व्यक्ति और उच्च आय वाले कर्मचारी जर्मनी में निजी स्वास्थ्य बीमा के लिए पात्र हैं।",
+                "ur": "عام طور پر، سرکاری ملازمین، خود ملازمت کرنے والے افراد، اور زیادہ آمدنی والے ملازمین جرمنی میں نجی صحت بیمہ کے لیے اہل ہیں۔",
+                "tr": "Genellikle, memurlar, serbest çalışanlar ve yüksek gelirli çalışanlar Almanya'da özel sağlık sigortası yaptırmaya hak kazanırlar."
+            },
+            "points": 10,
+            "id": "e37_15"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein Vorteil der PKV gegenüber der GKV?",
+                "en": "What is an advantage of PKV over GKV?",
+                "bn": "GKV-এর চেয়ে PKV-এর সুবিধা কী?",
+                "hi": "GKV की तुलना में PKV का क्या फायदा है?",
+                "ur": "GKV کے مقابلے میں PKV کا کیا فائدہ ہے؟",
+                "tr": "GKV'ye göre PKV'nin avantajı nedir?",
+                "options": [
+                    "Geringere Beiträge",
+                    "Gleiche Beiträge für alle Versicherten",
+                    "Schnellere Terminvergabe und erweiterte Leistungen",
+                    "Automatische Aufnahme aller Bürger"
+                ]
+            },
+            "correctAnswer": "Schnellere Terminvergabe und erweiterte Leistungen",
+            "explanation": {
+                "en": "PKV often offers faster appointment scheduling and extended benefits compared to GKV.",
+                "bn": "GKV-এর তুলনায় PKV প্রায়শই দ্রুত অ্যাপয়েন্টমেন্টের সময়সূচী এবং বর্ধিত সুবিধা প্রদান করে।",
+                "hi": "GKV की तुलना में PKV अक्सर तेज़ अपॉइंटमेंट शेड्यूलिंग और विस्तारित लाभ प्रदान करता है।",
+                "ur": "GKV کے مقابلے میں PKV اکثر تیز تر ملاقات کا شیڈولنگ اور توسیع شدہ فوائد فراہم کرتا ہے۔",
+                "tr": "PKV, GKV'ye kıyasla genellikle daha hızlı randevu planlaması ve genişletilmiş avantajlar sunar."
+            },
+            "points": 10,
+            "id": "e37_16"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Organisation legt die Vergütung für Ärzte fest, die GKV-Patienten behandeln?",
+                "en": "Which organization determines the reimbursement for doctors who treat GKV patients?",
+                "bn": "কোন সংস্থা GKV রোগীদের চিকিত্সা করেন এমন ডাক্তারদের জন্য পারিশ্রমিক নির্ধারণ করে?",
+                "hi": "कौन सा संगठन GKV रोगियों का इलाज करने वाले डॉक्टरों के लिए प्रतिपूर्ति निर्धारित करता है?",
+                "ur": "کون سی تنظیم GKV مریضوں کا علاج کرنے والے ڈاکٹروں کے لیے معاوضہ کا تعین کرتی ہے؟",
+                "tr": "GKV hastalarına bakan doktorlar için geri ödemeyi hangi kuruluş belirler?",
+                "options": [
+                    "Die Bundesregierung",
+                    "Die Krankenkassen",
+                    "Die Kassenärztliche Vereinigung",
+                    "Die Deutsche Ärztekammer"
+                ]
+            },
+            "correctAnswer": "Die Kassenärztliche Vereinigung",
+            "explanation": {
+                "en": "The Kassenärztliche Vereinigung (KV) negotiates and determines the reimbursement rates for doctors treating GKV patients.",
+                "bn": "ক্যাসেনেরজ্টলিচে ভেরিনিগুং (KV) GKV রোগীদের চিকিত্সা করেন এমন ডাক্তারদের জন্য পারিশ্রমিক হার নিয়ে আলোচনা করে এবং নির্ধারণ করে।",
+                "hi": "केसेनर्ज्टलिचे वेरिनिगुंग (KV) GKV रोगियों का इलाज करने वाले डॉक्टरों के लिए प्रतिपूर्ति दरों पर बातचीत और निर्धारण करता है।",
+                "ur": "کیسین آرٹزلیچ ویرینیگونگ (KV) GKV مریضوں کا علاج کرنے والے ڈاکٹروں کے لیے معاوضے کی شرحوں پر بات چیت اور تعین کرتا ہے۔",
+                "tr": "Kassenärztliche Vereinigung (KV), GKV hastalarını tedavi eden doktorlar için geri ödeme oranlarını müzakere eder ve belirler."
+            },
+            "points": 10,
+            "id": "e37_17"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

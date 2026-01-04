@@ -1,38 +1,1638 @@
 {
-  "id": "section_02",
-  "phaseId": "phase1",
-  "order": 2,
-  "titleDe": "Der menschliche Körper I",
-  "title": {"en": "The Human Body I", "bn": "মানবদেহ I", "hi": "मानव शरीर I", "ur": "انسانی جسم I", "tr": "İnsan Vücudu I"},
-  "level": "A1",
-  "estimatedMinutes": 30,
-  "vocabulary": [
-    {"id": "v02_01", "germanTerm": "Kopf", "article": "der", "plural": "Köpfe", "translation": {"en": "Head", "bn": "মাথা", "hi": "सिर", "ur": "سر", "tr": "Baş"}},
-    {"id": "v02_02", "germanTerm": "Arm", "article": "der", "plural": "Arme", "translation": {"en": "Arm", "bn": "বাহু", "hi": "बांह", "ur": "بازو", "tr": "Kol"}},
-    {"id": "v02_03", "germanTerm": "Bein", "article": "das", "plural": "Beine", "translation": {"en": "Leg", "bn": "পা", "hi": "टांग", "ur": "ٹانگ", "tr": "Bacak"}},
-    {"id": "v02_04", "germanTerm": "Hand", "article": "die", "plural": "Hände", "translation": {"en": "Hand", "bn": "হাত", "hi": "हाथ", "ur": "ہاتھ", "tr": "El"}},
-    {"id": "v02_05", "germanTerm": "Fuß", "article": "der", "plural": "Füße", "translation": {"en": "Foot", "bn": "পা", "hi": "पैर", "ur": "پاؤں", "tr": "Ayak"}},
-    {"id": "v02_06", "germanTerm": "Finger", "article": "der", "plural": "Finger", "translation": {"en": "Finger", "bn": "আঙুল", "hi": "उंगली", "ur": "انگلی", "tr": "Parmak"}},
-    {"id": "v02_07", "germanTerm": "Auge", "article": "das", "plural": "Augen", "translation": {"en": "Eye", "bn": "চোখ", "hi": "आँख", "ur": "آنکھ", "tr": "Göz"}},
-    {"id": "v02_08", "germanTerm": "Ohr", "article": "das", "plural": "Ohren", "translation": {"en": "Ear", "bn": "কান", "hi": "कान", "ur": "کان", "tr": "Kulak"}},
-    {"id": "v02_09", "germanTerm": "Nase", "article": "die", "plural": "Nasen", "translation": {"en": "Nose", "bn": "নাক", "hi": "नाक", "ur": "ناک", "tr": "Burun"}},
-    {"id": "v02_10", "germanTerm": "Mund", "article": "der", "plural": "Münder", "translation": {"en": "Mouth", "bn": "মুখ", "hi": "मुंह", "ur": "منہ", "tr": "Ağız"}},
-    {"id": "v02_11", "germanTerm": "Hals", "article": "der", "plural": "Hälse", "translation": {"en": "Neck/Throat", "bn": "গলা", "hi": "गर्दन", "ur": "گردن", "tr": "Boyun"}},
-    {"id": "v02_12", "germanTerm": "Schulter", "article": "die", "plural": "Schultern", "translation": {"en": "Shoulder", "bn": "কাঁধ", "hi": "कंधा", "ur": "کندھا", "tr": "Omuz"}},
-    {"id": "v02_13", "germanTerm": "Rücken", "article": "der", "plural": "Rücken", "translation": {"en": "Back", "bn": "পিঠ", "hi": "पीठ", "ur": "پیٹھ", "tr": "Sırt"}},
-    {"id": "v02_14", "germanTerm": "Brust", "article": "die", "plural": "Brüste", "translation": {"en": "Chest", "bn": "বুক", "hi": "छाती", "ur": "سینہ", "tr": "Göğüs"}},
-    {"id": "v02_15", "germanTerm": "Bauch", "article": "der", "plural": "Bäuche", "translation": {"en": "Abdomen", "bn": "পেট", "hi": "पेट", "ur": "پیٹ", "tr": "Karın"}},
-    {"id": "v02_16", "germanTerm": "Knie", "article": "das", "plural": "Knie", "translation": {"en": "Knee", "bn": "হাঁটু", "hi": "घुटना", "ur": "گھٹنا", "tr": "Diz"}},
-    {"id": "v02_17", "germanTerm": "Haut", "article": "die", "plural": "-", "translation": {"en": "Skin", "bn": "ত্বক", "hi": "त्वचा", "ur": "جلد", "tr": "Cilt"}},
-    {"id": "v02_18", "germanTerm": "Ellbogen", "article": "der", "plural": "Ellbogen", "translation": {"en": "Elbow", "bn": "কনুই", "hi": "कोहनी", "ur": "کہنی", "tr": "Dirsek"}}
-  ],
-  "dialogues": [{"id": "d02_01", "title": {"en": "Physical Exam"}, "context": {"en": "Doctor examines patient with shoulder pain"}, "lines": [
-    {"speaker": "Dr. Müller", "germanText": "Zeigen Sie mir, wo es weh tut.", "translation": {"en": "Show me where it hurts."}},
-    {"speaker": "Patient", "germanText": "Hier, an der Schulter.", "translation": {"en": "Here, at the shoulder."}},
-    {"speaker": "Dr. Müller", "germanText": "Können Sie den Arm heben?", "translation": {"en": "Can you raise the arm?"}}
-  ]}],
-  "exercises": [
-    {"id": "e02_01", "type": "multipleChoice", "question": {"en": "What is 'der Kopf'?"}, "options": ["Head", "Hand", "Foot"], "correctAnswer": "Head", "points": 10},
-    {"id": "e02_02", "type": "multipleChoice", "question": {"en": "Which article for 'Hand'?"}, "options": ["der", "die", "das"], "correctAnswer": "die", "points": 10}
-  ]
+    "id": "section_02",
+    "phaseId": "phase1",
+    "order": 2,
+    "titleDe": "Der menschliche Körper I",
+    "title": {
+        "en": "Human Body I - External Anatomy",
+        "de": "Menschlicher Körper I - Äußere Anatomie",
+        "bn": "মানব শরীর I - বাহ্যিক অঙ্গসংস্থান",
+        "hi": "मानव शरीर I - बाहरी शरीर रचना",
+        "ur": "انسانی جسم I - بیرونی ساخت",
+        "tr": "İnsan Vücudu I - Dış Anatomi"
+    },
+    "description": {
+        "en": "This section covers the external anatomical features of the human body, including the head, face, and limbs.",
+        "de": "Dieser Abschnitt behandelt die äußeren anatomischen Merkmale des menschlichen Körpers, einschließlich Kopf, Gesicht und Gliedmaßen.",
+        "bn": "এই বিভাগে মানব শরীরের বাহ্যিক শারীরবৃত্তীয় বৈশিষ্ট্যগুলি আলোচনা করা হয়েছে, যার মধ্যে মাথা, মুখ এবং অঙ্গ-প্রত্যঙ্গ অন্তর্ভুক্ত।",
+        "hi": "इस अनुभाग में मानव शरीर की बाहरी शारीरिक विशेषताओं को शामिल किया गया है, जिसमें सिर, चेहरा और अंग शामिल हैं।",
+        "ur": "اس حصے میں انسانی جسم کی بیرونی جسمانی خصوصیات کا احاطہ کیا گیا ہے، بشمول سر، چہرہ اور اعضاء۔",
+        "tr": "Bu bölüm, insan vücudunun baş, yüz ve uzuvlar dahil olmak üzere dış anatomik özelliklerini kapsar."
+    },
+    "level": "A1",
+    "estimatedMinutes": 45,
+    "isPremium": false,
+    "textContent": {
+        "introduction": {
+            "en": "This section will introduce the basic external anatomy of the human body. Students will learn the German terms for key body parts and their locations.",
+            "de": "Dieser Abschnitt führt in die grundlegende äußere Anatomie des menschlichen Körpers ein. Die Studierenden lernen die deutschen Begriffe für wichtige Körperteile und deren Lage.",
+            "bn": "এই বিভাগে মানব শরীরের মৌলিক বাহ্যিক অঙ্গসংস্থানবিদ্যা পরিচয় করানো হবে। শিক্ষার্থীরা শরীরের গুরুত্বপূর্ণ অংশের জার্মান শব্দ এবং তাদের অবস্থান শিখবে।",
+            "hi": "यह अनुभाग मानव शरीर की मूल बाहरी शरीर रचना विज्ञान का परिचय देगा। छात्र शरीर के महत्वपूर्ण हिस्सों के लिए जर्मन शब्द और उनकी स्थिति सीखेंगे।",
+            "ur": "یہ حصہ انسانی جسم کی بنیادی بیرونی ساخت کا تعارف کرائے گا۔ طلباء جسم کے اہم حصوں کے لیے جرمن الفاظ اور ان کے مقامات سیکھیں گے۔",
+            "tr": "Bu bölüm, insan vücudunun temel dış anatomisine giriş yapacaktır. Öğrenciler, vücudun önemli kısımları için Almanca terimleri ve bunların yerlerini öğreneceklerdir."
+        },
+        "grammarFocus": {
+            "en": {
+                "bullet1": "Nominative and accusative case usage with body part nouns.",
+                "bullet2": "Use of prepositions to describe location on the body (an, auf, in)."
+            },
+            "de": {
+                "bullet1": "Verwendung von Nominativ und Akkusativ bei Körperteil-Nomen.",
+                "bullet2": "Verwendung von Präpositionen zur Beschreibung der Lage am Körper (an, auf, in)."
+            },
+            "bn": {
+                "bullet1": "শরীরের অংশের বিশেষ্যগুলির সাথে কর্তৃকারক এবং কর্ম কারকের ব্যবহার।",
+                "bullet2": "শরীরের অবস্থান বর্ণনা করার জন্য প্রিপোজিশনের ব্যবহার (an, auf, in)।"
+            },
+            "hi": {
+                "bullet1": "शरीर के अंग संज्ञाओं के साथ कर्ता कारक और कर्म कारक का उपयोग।",
+                "bullet2": "शरीर पर स्थान का वर्णन करने के लिए पूर्वसर्गों का उपयोग (an, auf, in)।"
+            },
+            "ur": {
+                "bullet1": "جسم کے حصوں کے اسم کے ساتھ فاعلی اور مفعولی حالتوں کا استعمال۔",
+                "bullet2": "جسم پر جگہ بیان کرنے کے لیے حروف جار کا استعمال (an, auf, in)۔"
+            },
+            "tr": {
+                "bullet1": "Vücut parçası isimleriyle nominatif ve akuzatif durumlarının kullanımı.",
+                "bullet2": "Vücuttaki konumu tanımlamak için edatların kullanımı (an, auf, in)."
+            }
+        },
+        "culturalNotes": {
+            "en": "In German hospitals, direct eye contact and clear communication are valued during physical examinations.",
+            "de": "In deutschen Krankenhäusern werden direkter Blickkontakt und klare Kommunikation bei körperlichen Untersuchungen geschätzt.",
+            "bn": "জার্মান হাসপাতালগুলিতে, শারীরিক পরীক্ষার সময় সরাসরি চোখের যোগাযোগ এবং স্পষ্ট যোগাযোগকে মূল্যবান মনে করা হয়।",
+            "hi": "जर्मन अस्पतालों में, शारीरिक परीक्षाओं के दौरान सीधे आंखों के संपर्क और स्पष्ट संचार को महत्व दिया जाता है।",
+            "ur": "جرمن ہسپتالوں میں جسمانی معائنہ کے دوران براہ راست آنکھ سے رابطہ اور واضح مواصلات کو اہمیت دی جاتی ہے۔",
+            "tr": "Alman hastanelerinde, fiziksel muayeneler sırasında doğrudan göz teması ve net iletişim önemlidir."
+        },
+        "summary": {
+            "en": "This section provided an overview of the key external anatomical features of the human body using German terminology.",
+            "de": "Dieser Abschnitt gab einen Überblick über die wichtigsten äußeren anatomischen Merkmale des menschlichen Körpers unter Verwendung deutscher Terminologie.",
+            "bn": "এই বিভাগে জার্মান পরিভাষা ব্যবহার করে মানব শরীরের মূল বাহ্যিক শারীরবৃত্তীয় বৈশিষ্ট্যগুলির একটি সংক্ষিপ্ত বিবরণ দেওয়া হয়েছে।",
+            "hi": "इस खंड में जर्मन शब्दावली का उपयोग करके मानव शरीर की प्रमुख बाहरी शारीरिक विशेषताओं का एक संक्षिप्त विवरण दिया गया है।",
+            "ur": "اس حصے میں جرمن اصطلاحات کا استعمال کرتے ہوئے انسانی جسم کی اہم بیرونی جسمانی خصوصیات کا ایک مختصر جائزہ پیش کیا گیا ہے۔",
+            "tr": "Bu bölüm, Almanca terminoloji kullanarak insan vücudunun temel dış anatomik özelliklerine genel bir bakış sağlamıştır."
+        },
+        "learningObjectives": [
+            "Identify and name key external body parts in German.",
+            "Describe the location of external body parts using appropriate prepositions.",
+            "Pronounce German anatomical terms correctly.",
+            "Understand basic cultural expectations during physical examinations in German-speaking medical settings."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "der Kopf",
+            "article": "der",
+            "plural": "die Köpfe",
+            "pronunciation": "kɔpf",
+            "category": "noun",
+            "translation": {
+                "en": "head",
+                "bn": "মাথা",
+                "hi": "सिर",
+                "ur": "سر",
+                "tr": "kafa"
+            },
+            "exampleSentence": "Der Patient klagt über starke Kopfschmerzen.",
+            "exampleTranslation": {
+                "en": "The patient complains of severe headache.",
+                "bn": "রোগী তীব্র মাথা ব্যথার অভিযোগ করছেন।",
+                "hi": "रोगी को तेज सिरदर्द की शिकायत है।",
+                "ur": "مریض شدید سر درد کی شکایت کر رہا ہے۔",
+                "tr": "Hasta şiddetli baş ağrısından şikayet ediyor."
+            },
+            "id": "v02_01"
+        },
+        {
+            "germanTerm": "das Gesicht",
+            "article": "das",
+            "plural": "die Gesichter",
+            "pronunciation": "ɡəˈzɪçt",
+            "category": "noun",
+            "translation": {
+                "en": "face",
+                "bn": "মুখ",
+                "hi": "चेहरा",
+                "ur": "چہرہ",
+                "tr": "yüz"
+            },
+            "exampleSentence": "Sein Gesicht ist blass und ausdruckslos.",
+            "exampleTranslation": {
+                "en": "His face is pale and expressionless.",
+                "bn": "তার মুখ ফ্যাকাশে এবং অভিব্যক্তিহীন।",
+                "hi": "उसका चेहरा पीला और भावहीन है।",
+                "ur": "اُس کا چہرہ پیلا اور بے تاثر ہے۔",
+                "tr": "Yüzü solgun ve ifadesiz."
+            },
+            "id": "v02_02"
+        },
+        {
+            "germanTerm": "das Auge",
+            "article": "das",
+            "plural": "die Augen",
+            "pronunciation": "ˈaʊ̯ɡə",
+            "category": "noun",
+            "translation": {
+                "en": "eye",
+                "bn": "চোখ",
+                "hi": "आँख",
+                "ur": "آنکھ",
+                "tr": "göz"
+            },
+            "exampleSentence": "Das linke Auge ist gerötet und geschwollen.",
+            "exampleTranslation": {
+                "en": "The left eye is red and swollen.",
+                "bn": "বাম চোখটি লাল এবং ফোলা।",
+                "hi": "बांई आँख लाल और सूजी हुई है।",
+                "ur": "بائیں آنکھ سرخ اور سوجی ہوئی ہے۔",
+                "tr": "Sol gözü kızarmış ve şişmiş."
+            },
+            "id": "v02_03"
+        },
+        {
+            "germanTerm": "das Ohr",
+            "article": "das",
+            "plural": "die Ohren",
+            "pronunciation": "oːɐ̯",
+            "category": "noun",
+            "translation": {
+                "en": "ear",
+                "bn": "কান",
+                "hi": "कान",
+                "ur": "کان",
+                "tr": "kulak"
+            },
+            "exampleSentence": "Er klagt über Schmerzen im rechten Ohr.",
+            "exampleTranslation": {
+                "en": "He complains of pain in the right ear.",
+                "bn": "তিনি ডান কানে ব্যথার অভিযোগ করছেন।",
+                "hi": "वह दाहिने कान में दर्द की शिकायत कर रहा है।",
+                "ur": "وہ دائیں کان میں درد کی شکایت کر رہا ہے۔",
+                "tr": "Sağ kulağında ağrıdan şikayet ediyor."
+            },
+            "id": "v02_04"
+        },
+        {
+            "germanTerm": "die Nase",
+            "article": "die",
+            "plural": "die Nasen",
+            "pronunciation": "ˈnaːzə",
+            "category": "noun",
+            "translation": {
+                "en": "nose",
+                "bn": "নাক",
+                "hi": "नाक",
+                "ur": "ناک",
+                "tr": "burun"
+            },
+            "exampleSentence": "Die Nase des Patienten blutet stark.",
+            "exampleTranslation": {
+                "en": "The patient's nose is bleeding heavily.",
+                "bn": "রোগীর নাক থেকে প্রচুর রক্তক্ষরণ হচ্ছে।",
+                "hi": "रोगी की नाक से खून बह रहा है।",
+                "ur": "مریض کی ناک سے بہت خون بہہ رہا ہے۔",
+                "tr": "Hastanın burnu çok kanıyor."
+            },
+            "id": "v02_05"
+        },
+        {
+            "germanTerm": "der Mund",
+            "article": "der",
+            "plural": "die Münder",
+            "pronunciation": "mʊnt",
+            "category": "noun",
+            "translation": {
+                "en": "mouth",
+                "bn": "মুখ",
+                "hi": "मुंह",
+                "ur": "منہ",
+                "tr": "ağız"
+            },
+            "exampleSentence": "Öffnen Sie bitte den Mund weit.",
+            "exampleTranslation": {
+                "en": "Please open your mouth wide.",
+                "bn": "অনুগ্রহ করে আপনার মুখটি খুলুন।",
+                "hi": "कृपया अपना मुंह चौड़ा खोलें।",
+                "ur": "مہربانی فرما کر اپنا منہ کھولیں۔",
+                "tr": "Lütfen ağzınızı geniş açın."
+            },
+            "id": "v02_06"
+        },
+        {
+            "germanTerm": "der Arm",
+            "article": "der",
+            "plural": "die Arme",
+            "pronunciation": "aʁm",
+            "category": "noun",
+            "translation": {
+                "en": "arm",
+                "bn": "বাহু",
+                "hi": "बांह",
+                "ur": "بازو",
+                "tr": "kol"
+            },
+            "exampleSentence": "Der rechte Arm ist gebrochen.",
+            "exampleTranslation": {
+                "en": "The right arm is broken.",
+                "bn": "ডান বাহুটি ভেঙে গেছে।",
+                "hi": "दाहिनी बांह टूट गई है।",
+                "ur": "دایاں بازو ٹوٹ گیا ہے۔",
+                "tr": "Sağ kol kırık."
+            },
+            "id": "v02_07"
+        },
+        {
+            "germanTerm": "die Hand",
+            "article": "die",
+            "plural": "die Hände",
+            "pronunciation": "hant",
+            "category": "noun",
+            "translation": {
+                "en": "hand",
+                "bn": "হাত",
+                "hi": "हाथ",
+                "ur": "ہاتھ",
+                "tr": "el"
+            },
+            "exampleSentence": "Die Hände des Patienten sind kalt und feucht.",
+            "exampleTranslation": {
+                "en": "The patient's hands are cold and clammy.",
+                "bn": "রোগীর হাত ঠান্ডা এবং ভেজা।",
+                "hi": "रोगी के हाथ ठंडे और गीले हैं।",
+                "ur": "مریض کے ہاتھ ٹھنڈے اور پسینے والے ہیں۔",
+                "tr": "Hastanın elleri soğuk ve nemli."
+            },
+            "id": "v02_08"
+        },
+        {
+            "germanTerm": "der Finger",
+            "article": "der",
+            "plural": "die Finger",
+            "pronunciation": "ˈfɪŋɐ",
+            "category": "noun",
+            "translation": {
+                "en": "finger",
+                "bn": "আঙুল",
+                "hi": "उंगली",
+                "ur": "انگلی",
+                "tr": "parmak"
+            },
+            "exampleSentence": "Er hat sich in den Finger geschnitten.",
+            "exampleTranslation": {
+                "en": "He cut his finger.",
+                "bn": "তিনি তার আঙুল কেটেছেন।",
+                "hi": "उसने अपनी उंगली काट ली।",
+                "ur": "اس نے اپنی انگلی کاٹ لی۔",
+                "tr": "Parmağını kesti."
+            },
+            "id": "v02_09"
+        },
+        {
+            "germanTerm": "das Bein",
+            "article": "das",
+            "plural": "die Beine",
+            "pronunciation": "baɪ̯n",
+            "category": "noun",
+            "translation": {
+                "en": "leg",
+                "bn": "পা",
+                "hi": "पैर",
+                "ur": "ٹانگ",
+                "tr": "bacak"
+            },
+            "exampleSentence": "Das linke Bein ist geschwollen.",
+            "exampleTranslation": {
+                "en": "The left leg is swollen.",
+                "bn": "বাম পা ফুলে গেছে।",
+                "hi": "बायां पैर सूजा हुआ है।",
+                "ur": "بایاں پاؤں سوجا ہوا ہے۔",
+                "tr": "Sol bacak şişmiş."
+            },
+            "id": "v02_10"
+        },
+        {
+            "germanTerm": "der Fuß",
+            "article": "der",
+            "plural": "die Füße",
+            "pronunciation": "fuːs",
+            "category": "noun",
+            "translation": {
+                "en": "foot",
+                "bn": "পা",
+                "hi": "पैर",
+                "ur": "پاؤں",
+                "tr": "ayak"
+            },
+            "exampleSentence": "Er hat sich den Fuß verstaucht.",
+            "exampleTranslation": {
+                "en": "He sprained his foot.",
+                "bn": "তিনি তার পা মচকেছেন।",
+                "hi": "उसने अपने पैर में मोच आ गई।",
+                "ur": "اس کے پاؤں میں موچ آ گئی ہے۔",
+                "tr": "Ayağını burktu."
+            },
+            "id": "v02_11"
+        },
+        {
+            "germanTerm": "die Haut",
+            "article": "die",
+            "plural": "die Häute",
+            "pronunciation": "haʊ̯t",
+            "category": "noun",
+            "translation": {
+                "en": "skin",
+                "bn": "ত্বক",
+                "hi": "त्वचा",
+                "ur": "جلد",
+                "tr": "cilt"
+            },
+            "exampleSentence": "Die Haut ist trocken und juckt.",
+            "exampleTranslation": {
+                "en": "The skin is dry and itchy.",
+                "bn": "ত্বক শুষ্ক এবং চুলকানি আছে।",
+                "hi": "त्वचा रूखी है और खुजली है।",
+                "ur": "جلد خشک اور خارش دار ہے۔",
+                "tr": "Cilt kuru ve kaşıntılı."
+            },
+            "id": "v02_12"
+        },
+        {
+            "germanTerm": "die Stirn",
+            "article": "die",
+            "plural": "die Stirnen",
+            "pronunciation": "ʃtɪʁn",
+            "category": "noun",
+            "translation": {
+                "en": "forehead",
+                "bn": "কপাল",
+                "hi": "माथा",
+                "ur": "پیشانی",
+                "tr": "alın"
+            },
+            "exampleSentence": "Der Patient hat eine kalte Stirn.",
+            "exampleTranslation": {
+                "en": "The patient has a cold forehead.",
+                "bn": "রোগীর কপাল ঠান্ডা।",
+                "hi": "रोगी का माथा ठंडा है।",
+                "ur": "مریض کی پیشانی ٹھنڈی ہے۔",
+                "tr": "Hastanın alnı soğuk."
+            },
+            "id": "v02_13"
+        },
+        {
+            "germanTerm": "die Wange",
+            "article": "die",
+            "plural": "die Wangen",
+            "pronunciation": "ˈvaŋə",
+            "category": "noun",
+            "translation": {
+                "en": "cheek",
+                "bn": "গাল",
+                "hi": "गाल",
+                "ur": "گال",
+                "tr": "yanak"
+            },
+            "exampleSentence": "Die Wangen sind gerötet.",
+            "exampleTranslation": {
+                "en": "The cheeks are flushed.",
+                "bn": "গাল লাল হয়ে গেছে।",
+                "hi": "गाल लाल हो गए हैं।",
+                "ur": "گال لال ہو گئے ہیں۔",
+                "tr": "Yanaklar kızarmış."
+            },
+            "id": "v02_14"
+        },
+        {
+            "germanTerm": "das Kinn",
+            "article": "das",
+            "plural": "die Kinne",
+            "pronunciation": "kɪn",
+            "category": "noun",
+            "translation": {
+                "en": "chin",
+                "bn": "চিবুক",
+                "hi": "ठोड़ी",
+                "ur": "ٹھوڑی",
+                "tr": "çene"
+            },
+            "exampleSentence": "Er hat ein spitzes Kinn.",
+            "exampleTranslation": {
+                "en": "He has a pointed chin.",
+                "bn": "তার একটি তীক্ষ্ণ চিবুক আছে।",
+                "hi": "उसकी नुकीली ठुड्डी है।",
+                "ur": "اس کی نوک دار ٹھوڑی ہے۔",
+                "tr": "Sivri bir çenesi var."
+            },
+            "id": "v02_15"
+        },
+        {
+            "germanTerm": "die Lippe",
+            "article": "die",
+            "plural": "die Lippen",
+            "pronunciation": "ˈlɪpə",
+            "category": "noun",
+            "translation": {
+                "en": "lip",
+                "bn": "ঠোঁট",
+                "hi": "होंठ",
+                "ur": "ہونٹ",
+                "tr": "dudak"
+            },
+            "exampleSentence": "Seine Lippen sind trocken und rissig.",
+            "exampleTranslation": {
+                "en": "His lips are dry and cracked.",
+                "bn": "তার ঠোঁট শুকনো এবং ফাটা।",
+                "hi": "उसके होंठ सूखे और फटे हुए हैं।",
+                "ur": "اُس کے ہونٹ خشک اور پھٹے ہوئے ہیں۔",
+                "tr": "Dudakları kuru ve çatlak."
+            },
+            "id": "v02_16"
+        },
+        {
+            "germanTerm": "die Zunge",
+            "article": "die",
+            "plural": "die Zungen",
+            "pronunciation": "ˈtsʊŋə",
+            "category": "noun",
+            "translation": {
+                "en": "tongue",
+                "bn": "জিহ্বা",
+                "hi": "जीभ",
+                "ur": "زبان",
+                "tr": "dil"
+            },
+            "exampleSentence": "Die Zunge ist belegt.",
+            "exampleTranslation": {
+                "en": "The tongue is coated.",
+                "bn": "জিহ্বা আবৃত।",
+                "hi": "जीभ लेपित है।",
+                "ur": "زبان ڈھکی ہوئی ہے۔",
+                "tr": "Dil paslı."
+            },
+            "id": "v02_17"
+        },
+        {
+            "germanTerm": "der Ellbogen",
+            "article": "der",
+            "plural": "die Ellbogen",
+            "pronunciation": "ˈɛlbənˌboːɡən",
+            "category": "noun",
+            "translation": {
+                "en": "elbow",
+                "bn": "কনুই",
+                "hi": "कोहनी",
+                "ur": "کہنی",
+                "tr": "dirsek"
+            },
+            "exampleSentence": "Der Ellbogen ist geschwollen und schmerzhaft.",
+            "exampleTranslation": {
+                "en": "The elbow is swollen and painful.",
+                "bn": "কনুই ফুলে গেছে এবং বেদনাদায়ক।",
+                "hi": "कोहनी सूजी हुई और दर्दनाक है।",
+                "ur": "کہنی سوجی ہوئی اور تکلیف دہ ہے۔",
+                "tr": "Dirsek şiş ve ağrılı."
+            },
+            "id": "v02_18"
+        },
+        {
+            "germanTerm": "das Handgelenk",
+            "article": "das",
+            "plural": "die Handgelenke",
+            "pronunciation": "ˈhantˌɡəlɛŋk",
+            "category": "noun",
+            "translation": {
+                "en": "wrist",
+                "bn": "কব্জি",
+                "hi": "कलाई",
+                "ur": "کلائی",
+                "tr": "bilek"
+            },
+            "exampleSentence": "Das Handgelenk ist stabilisiert.",
+            "exampleTranslation": {
+                "en": "The wrist is stabilized.",
+                "bn": "কব্জি স্থিতিশীল করা হয়েছে।",
+                "hi": "कलाई स्थिर है।",
+                "ur": "کلائی مستحکم ہے۔",
+                "tr": "Bilek sabitlendi."
+            },
+            "id": "v02_19"
+        },
+        {
+            "germanTerm": "der Fingernagel",
+            "article": "der",
+            "plural": "die Fingernägel",
+            "pronunciation": "ˈfɪŋɐˌneːɡəl",
+            "category": "noun",
+            "translation": {
+                "en": "fingernail",
+                "bn": "নখের",
+                "hi": "नाखून",
+                "ur": "ناخن",
+                "tr": "tırnak"
+            },
+            "exampleSentence": "Die Fingernägel sind brüchig.",
+            "exampleTranslation": {
+                "en": "The fingernails are brittle.",
+                "bn": "নখ ভঙ্গুর।",
+                "hi": "नाखून भंगुर हैं।",
+                "ur": "ناخن ٹوٹنے والے ہیں۔",
+                "tr": "Tırnaklar kırılgan."
+            },
+            "id": "v02_20"
+        },
+        {
+            "germanTerm": "das Knie",
+            "article": "das",
+            "plural": "die Knie",
+            "pronunciation": "kniː",
+            "category": "noun",
+            "translation": {
+                "en": "knee",
+                "bn": "হাঁটু",
+                "hi": "घुटना",
+                "ur": "گھٹنا",
+                "tr": "diz"
+            },
+            "exampleSentence": "Das Knie ist stark geschwollen.",
+            "exampleTranslation": {
+                "en": "The knee is severely swollen.",
+                "bn": "হাঁটু মারাত্মকভাবে ফুলে গেছে।",
+                "hi": "घुटना बुरी तरह सूज गया है।",
+                "ur": "گھٹنا بری طرح سوج گیا ہے۔",
+                "tr": "Diz çok şişmiş."
+            },
+            "id": "v02_21"
+        },
+        {
+            "germanTerm": "der Knöchel",
+            "article": "der",
+            "plural": "die Knöchel",
+            "pronunciation": "ˈknœçəl",
+            "category": "noun",
+            "translation": {
+                "en": "ankle",
+                "bn": "গোড়ালি",
+                "hi": "टखना",
+                "ur": "ٹخنہ",
+                "tr": "ayak bileği"
+            },
+            "exampleSentence": "Der Knöchel ist verstaucht.",
+            "exampleTranslation": {
+                "en": "The ankle is sprained.",
+                "bn": "গোড়ালি মচকে গেছে।",
+                "hi": "टखना मुड़ गया है।",
+                "ur": "ٹخنے میں موچ آ گئی ہے۔",
+                "tr": "Ayak bileği burkuldu."
+            },
+            "id": "v02_22"
+        },
+        {
+            "germanTerm": "der Zeh",
+            "article": "der",
+            "plural": "die Zehen",
+            "pronunciation": "tseː",
+            "category": "noun",
+            "translation": {
+                "en": "toe",
+                "bn": "পায়ের আঙ্গুল",
+                "hi": "पैर की उंगली",
+                "ur": "پیر کی انگلی",
+                "tr": "ayak parmağı"
+            },
+            "exampleSentence": "Er hat sich den Zeh gebrochen.",
+            "exampleTranslation": {
+                "en": "He broke his toe.",
+                "bn": "তিনি তার পায়ের আঙ্গুল ভেঙেছেন।",
+                "hi": "उसने अपना पैर का अंगूठा तोड़ लिया।",
+                "ur": "اُس نے اپنے پیر کی انگلی توڑ لی۔",
+                "tr": "Ayak parmağını kırdı."
+            },
+            "id": "v02_23"
+        },
+        {
+            "germanTerm": "die Ferse",
+            "article": "die",
+            "plural": "die Fersen",
+            "pronunciation": "ˈfɛʁzə",
+            "category": "noun",
+            "translation": {
+                "en": "heel",
+                "bn": "গোড়ালি",
+                "hi": "एड़ी",
+                "ur": "ایڑی",
+                "tr": "topuk"
+            },
+            "exampleSentence": "Er hat Schmerzen in der Ferse.",
+            "exampleTranslation": {
+                "en": "He has pain in the heel.",
+                "bn": "তার গোড়ালিতে ব্যথা আছে।",
+                "hi": "उसे एड़ी में दर्द है।",
+                "ur": "اسے ایڑی میں درد ہے۔",
+                "tr": "Topuğunda ağrısı var."
+            },
+            "id": "v02_24"
+        },
+        {
+            "germanTerm": "das Haar",
+            "article": "das",
+            "plural": "die Haare",
+            "pronunciation": "haːɐ̯",
+            "category": "noun",
+            "translation": {
+                "en": "hair",
+                "bn": "চুল",
+                "hi": "बाल",
+                "ur": "بال",
+                "tr": "saç"
+            },
+            "exampleSentence": "Das Haar ist dünn und brüchig.",
+            "exampleTranslation": {
+                "en": "The hair is thin and brittle.",
+                "bn": "চুল পাতলা এবং ভঙ্গুর।",
+                "hi": "बाल पतले और भंगुर हैं।",
+                "ur": "بال پتلے اور ٹوٹنے والے ہیں۔",
+                "tr": "Saç ince ve kırılgan."
+            },
+            "id": "v02_25"
+        },
+        {
+            "germanTerm": "die Augenbraue",
+            "article": "die",
+            "plural": "die Augenbrauen",
+            "pronunciation": "ˈaʊ̯ɡn̩ˌbʁaʊ̯ə",
+            "category": "noun",
+            "translation": {
+                "en": "eyebrow",
+                "bn": "ভ্রু",
+                "hi": "भौंह",
+                "ur": "ابرو",
+                "tr": "kaş"
+            },
+            "exampleSentence": "Die Augenbrauen sind dicht und buschig.",
+            "exampleTranslation": {
+                "en": "The eyebrows are thick and bushy.",
+                "bn": "ভ্রু ঘন এবং ঝোপযুক্ত।",
+                "hi": "भौंहें घनी और झाड़ीदार हैं।",
+                "ur": "ابرو گھنے اور جھاڑی دار ہیں۔",
+                "tr": "Kaşlar kalın ve gür."
+            },
+            "id": "v02_26"
+        },
+        {
+            "germanTerm": "das Augenlid",
+            "article": "das",
+            "plural": "die Augenlider",
+            "pronunciation": "ˈaʊ̯ɡn̩ˌliːt",
+            "category": "noun",
+            "translation": {
+                "en": "eyelid",
+                "bn": "চোখের পাতা",
+                "hi": "पलक",
+                "ur": "پلک",
+                "tr": "göz kapağı"
+            },
+            "exampleSentence": "Das Augenlid ist geschwollen.",
+            "exampleTranslation": {
+                "en": "The eyelid is swollen.",
+                "bn": "চোখের পাতা ফুলে গেছে।",
+                "hi": "पलक सूजी हुई है।",
+                "ur": "پلک سوجی ہوئی ہے۔",
+                "tr": "Göz kapağı şişmiş."
+            },
+            "id": "v02_27"
+        },
+        {
+            "germanTerm": "die Pupille",
+            "article": "die",
+            "plural": "die Pupillen",
+            "pronunciation": "puˈpɪlə",
+            "category": "noun",
+            "translation": {
+                "en": "pupil",
+                "bn": "তারা",
+                "hi": "पुतली",
+                "ur": "پتلی",
+                "tr": "göz bebeği"
+            },
+            "exampleSentence": "Die Pupillen reagieren träge auf Licht.",
+            "exampleTranslation": {
+                "en": "The pupils react sluggishly to light.",
+                "bn": "তারা আলোর প্রতি ধীরে ধীরে প্রতিক্রিয়া জানায়।",
+                "hi": "पुतलियाँ प्रकाश के प्रति सुस्ती से प्रतिक्रिया करती हैं।",
+                "ur": "پتلیاں روشنی کے لیے سست ردعمل کا مظاہرہ کرتی ہیں۔",
+                "tr": "Göz bebekleri ışığa yavaş tepki veriyor."
+            },
+            "id": "v02_28"
+        },
+        {
+            "germanTerm": "die Narbe",
+            "article": "die",
+            "plural": "die Narben",
+            "pronunciation": "ˈnaʁbə",
+            "category": "noun",
+            "translation": {
+                "en": "scar",
+                "bn": "দাগ",
+                "hi": "निशान",
+                "ur": "نشان",
+                "tr": "yara izi"
+            },
+            "exampleSentence": "Die Narbe ist gut verheilt.",
+            "exampleTranslation": {
+                "en": "The scar has healed well.",
+                "bn": "দাগটি ভালোভাবে সেরে গেছে।",
+                "hi": "निशान अच्छी तरह से ठीक हो गया है।",
+                "ur": "نشان اچھی طرح ٹھیک ہو گیا ہے۔",
+                "tr": "Yara izi iyi iyileşmiş."
+            },
+            "id": "v02_29"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Head Injury Assessment",
+                "bn": "মাথার আঘাত মূল্যায়ন",
+                "hi": "सिर की चोट का आकलन",
+                "ur": "سر کی چوٹ کا جائزہ",
+                "tr": "Kafa Yaralanması Değerlendirmesi"
+            },
+            "context": {
+                "en": "A patient presents with a head injury after a fall. The doctor is examining the patient's head and face.",
+                "bn": "একজন রোগী পড়ে গিয়ে মাথায় আঘাত পেয়েছেন। ডাক্তার রোগীর মাথা ও মুখ পরীক্ষা করছেন।",
+                "hi": "एक मरीज गिरने के बाद सिर में चोट के साथ आया है। डॉक्टर मरीज के सिर और चेहरे की जांच कर रहे हैं।",
+                "ur": "ایک مریض گرنے کے بعد سر کی چوٹ کے ساتھ آیا ہے۔ ڈاکٹر مریض کے سر اور چہرے کا معائنہ کر رہے ہیں۔",
+                "tr": "Bir hasta düşme sonucu kafa travması ile başvuruyor. Doktor hastanın başını ve yüzünü muayene ediyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Tag, Herr Müller. Wo genau haben Sie Schmerzen am Kopf?",
+                    "translation": {
+                        "en": "Good day, Mr. Müller. Where exactly do you have pain on your head?",
+                        "bn": "শুভ দিন, মিঃ মুলার। আপনার মাথার কোথায় ঠিক ব্যাথা করছে?",
+                        "hi": "शुभ दिन, श्रीमान मुलर। आपके सिर में दर्द कहाँ हो रहा है?",
+                        "ur": "شب بخیر، مسٹر مولر۔ آپ کے سر میں درد کہاں ہو رہا ہے؟",
+                        "tr": "İyi günler Bay Müller. Başınızda tam olarak nerede ağrınız var?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Hier, direkt über dem Auge und an der Stirn.",
+                    "translation": {
+                        "en": "Here, directly above the eye and on the forehead.",
+                        "bn": "এখানে, সরাসরি চোখের উপরে এবং কপালে।",
+                        "hi": "यहाँ, सीधे आँख के ऊपर और माथे पर।",
+                        "ur": "یہاں، براہ راست آنکھ کے اوپر اور پیشانی پر۔",
+                        "tr": "Burada, doğrudan gözün üzerinde ve alnımda."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich taste das mal ab. Tut das weh, wenn ich hier drücke?",
+                    "translation": {
+                        "en": "I'll feel around. Does it hurt when I press here?",
+                        "bn": "আমি একটু অনুভব করব। এখানে চাপ দিলে কি ব্যাথা করে?",
+                        "hi": "मैं इसे महसूस करूँगा। क्या यहाँ दबाने पर दर्द होता है?",
+                        "ur": "میں اسے محسوس کروں گا۔ کیا یہاں دبانے پر درد ہوتا ہے؟",
+                        "tr": "Şimdi yoklayacağım. Buraya bastırdığımda acıyor mu?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, sehr.",
+                    "translation": {
+                        "en": "Yes, very much.",
+                        "bn": "হ্যাঁ, খুব।",
+                        "hi": "हाँ, बहुत।",
+                        "ur": "ہاں، بہت زیادہ۔",
+                        "tr": "Evet, çok."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich sehe auch eine kleine Schwellung. Wir machen ein CT vom Kopf.",
+                    "translation": {
+                        "en": "I also see a small swelling. We'll do a CT scan of the head.",
+                        "bn": "আমি একটি ছোট ফোলাও দেখছি। আমরা মাথার সিটি স্ক্যান করব।",
+                        "hi": "मुझे एक छोटी सी सूजन भी दिख रही है। हम सिर का सीटी स्कैन करेंगे।",
+                        "ur": "مجھے ایک چھوٹی سی سوجن بھی نظر آرہی ہے۔ ہم سر کا سی ٹی سکین کریں گے۔",
+                        "tr": "Ayrıca küçük bir şişlik de görüyorum. Başın BT taramasını yapacağız."
+                    }
+                }
+            ],
+            "id": "d02_01"
+        },
+        {
+            "title": {
+                "en": "Ear Infection Examination",
+                "bn": "কানের সংক্রমণ পরীক্ষা",
+                "hi": "कान के संक्रमण की जाँच",
+                "ur": "کان کے انفیکشن کا معائنہ",
+                "tr": "Kulak Enfeksiyonu Muayenesi"
+            },
+            "context": {
+                "en": "A child is complaining of ear pain. The doctor is examining the child's ear.",
+                "bn": "একটি শিশু কানের ব্যথার অভিযোগ করছে। ডাক্তার শিশুটির কান পরীক্ষা করছেন।",
+                "hi": "एक बच्चा कान दर्द की शिकायत कर रहा है। डॉक्टर बच्चे के कान की जाँच कर रहे हैं।",
+                "ur": "ایک بچہ کان میں درد کی شکایت کر رہا ہے۔ ڈاکٹر بچے کے کان کا معائنہ کر رہے ہیں۔",
+                "tr": "Bir çocuk kulak ağrısından şikayet ediyor. Doktor çocuğun kulağını muayene ediyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Hallo, Lisa. Wo tut es denn weh?",
+                    "translation": {
+                        "en": "Hello, Lisa. Where does it hurt?",
+                        "bn": "হ্যালো, লিসা। কোথায় ব্যাথা করছে?",
+                        "hi": "हेलो, लिसा। दर्द कहाँ हो रहा है?",
+                        "ur": "ہیلو، لیزا۔ درد کہاں ہو رہا ہے؟",
+                        "tr": "Merhaba Lisa. Neresi ağrıyor?"
+                    }
+                },
+                {
+                    "speaker": "Lisa",
+                    "speakerRole": "Patient",
+                    "germanText": "Mein Ohr tut weh.",
+                    "translation": {
+                        "en": "My ear hurts.",
+                        "bn": "আমার কান ব্যাথা করছে।",
+                        "hi": "मेरे कान में दर्द हो रहा है।",
+                        "ur": "میرے کان میں درد ہو رہا ہے۔",
+                        "tr": "Kulağım ağrıyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Zeig mal. Oh, das Ohr ist rot. Hast du auch Fieber?",
+                    "translation": {
+                        "en": "Show me. Oh, the ear is red. Do you also have a fever?",
+                        "bn": "দেখাও তো। ওহ, কান লাল হয়ে গেছে। তোমার কি জ্বরও আছে?",
+                        "hi": "मुझे दिखाओ। ओह, कान लाल हो गया है। क्या आपको बुखार भी है?",
+                        "ur": "مجھے دکھاو۔ اوہ، کان سرخ ہو گیا ہے۔ کیا تمہیں بخار بھی ہے؟",
+                        "tr": "Göster bakalım. Oh, kulak kızarmış. Ateşin de var mı?"
+                    }
+                },
+                {
+                    "speaker": "Mutter von Lisa",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, gestern Abend hatte sie 38,5 Grad.",
+                    "translation": {
+                        "en": "Yes, yesterday evening she had 38.5 degrees.",
+                        "bn": "হ্যাঁ, গতকাল সন্ধ্যায় তার ৩৮.৫ ডিগ্রি ছিল।",
+                        "hi": "हाँ, कल शाम उसे 38.5 डिग्री था।",
+                        "ur": "ہاں، کل شام اسے 38.5 ڈگری تھا۔",
+                        "tr": "Evet, dün akşam 38.5 dereceydi."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das sieht nach einer Mittelohrentzündung aus. Ich verschreibe Antibiotika.",
+                    "translation": {
+                        "en": "That looks like a middle ear infection. I'll prescribe antibiotics.",
+                        "bn": "এটা মধ্যকর্ণের সংক্রমণ মনে হচ্ছে। আমি অ্যান্টিবায়োটিক লিখে দেব।",
+                        "hi": "यह मध्य कान का संक्रमण लगता है। मैं एंटीबायोटिक्स लिखूंगा।",
+                        "ur": "یہ درمیانی کان کا انفیکشن لگتا ہے۔ میں اینٹی بائیوٹکس لکھوں گا۔",
+                        "tr": "Orta kulak enfeksiyonuna benziyor. Antibiyotik yazacağım."
+                    }
+                }
+            ],
+            "id": "d02_02"
+        },
+        {
+            "title": {
+                "en": "Skin Rash Diagnosis",
+                "bn": "ত্বকের ফুসকুড়ি নির্ণয়",
+                "hi": "त्वचा के चकत्ते का निदान",
+                "ur": "جلد کے دانے کی تشخیص",
+                "tr": "Cilt Döküntüsü Tanısı"
+            },
+            "context": {
+                "en": "A patient is complaining of a skin rash on their arm. The doctor is examining the rash.",
+                "bn": "একজন রোগী তার হাতে ত্বকের ফুসকুড়ির অভিযোগ করছেন। ডাক্তার ফুসকুড়ি পরীক্ষা করছেন।",
+                "hi": "एक मरीज अपनी बांह पर त्वचा के चकत्ते की शिकायत कर रहा है। डॉक्टर चकत्ते की जाँच कर रहे हैं।",
+                "ur": "ایک مریض اپنی بازو پر جلد کے دانے کی شکایت کر رہا ہے۔ ڈاکٹر دانے کی جانچ کر رہے ہیں۔",
+                "tr": "Bir hasta kolunda cilt döküntüsünden şikayet ediyor. Doktor döküntüyü inceliyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Schneider",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe diesen Ausschlag am Arm. Er juckt sehr.",
+                    "translation": {
+                        "en": "I have this rash on my arm. It itches a lot.",
+                        "bn": "আমার হাতে এই ফুসকুড়ি হয়েছে। এটা খুব চুলকাচ্ছে।",
+                        "hi": "मेरी बांह पर ये चकत्ते हैं। इसमें बहुत खुजली होती है।",
+                        "ur": "میری بازو پر یہ دانے ہیں۔ اس میں بہت خارش ہوتی ہے۔",
+                        "tr": "Kolumda bu döküntü var. Çok kaşınıyor."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Seit wann haben Sie den Ausschlag?",
+                    "translation": {
+                        "en": "Since when have you had the rash?",
+                        "bn": "কবে থেকে আপনার এই ফুসকুড়ি হয়েছে?",
+                        "hi": "आपको चकत्ते कब से हैं?",
+                        "ur": "آپ کو دانے کب سے ہیں؟",
+                        "tr": "Döküntünüz ne zamandır var?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schneider",
+                    "speakerRole": "Patient",
+                    "germanText": "Seit ungefähr drei Tagen.",
+                    "translation": {
+                        "en": "For about three days.",
+                        "bn": "প্রায় তিন দিন ধরে।",
+                        "hi": "लगभग तीन दिनों से।",
+                        "ur": "تقریباً تین دنوں سے۔",
+                        "tr": "Yaklaşık üç gündür."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich sehe, es sind kleine rote Punkte. Haben Sie neue Waschmittel benutzt?",
+                    "translation": {
+                        "en": "I see, there are small red dots. Have you used new detergent?",
+                        "bn": "আমি দেখছি, ছোট লাল বিন্দু আছে। আপনি কি নতুন ডিটারজেন্ট ব্যবহার করেছেন?",
+                        "hi": "मैं देखता हूँ, छोटे लाल धब्बे हैं। क्या आपने नया डिटर्जेंट इस्तेमाल किया है?",
+                        "ur": "میں دیکھ رہا ہوں، چھوٹے سرخ دھبے ہیں۔ کیا آپ نے نیا ڈٹرجنٹ استعمال کیا ہے؟",
+                        "tr": "Görüyorum, küçük kırmızı noktalar var. Yeni deterjan mı kullandınız?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schneider",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, das ist möglich. Ich probiere ein neues Waschmittel.",
+                    "translation": {
+                        "en": "Yes, that's possible. I'm trying a new detergent.",
+                        "bn": "হ্যাঁ, তা হতে পারে। আমি একটি নতুন ডিটারজেন্ট ব্যবহার করছি।",
+                        "hi": "हाँ, यह संभव है। मैं एक नया डिटर्जेंट आज़मा रहा हूँ।",
+                        "ur": "ہاں، یہ ممکن ہے۔ میں ایک نیا ڈٹرجنٹ آزما رہا ہوں۔",
+                        "tr": "Evet, mümkün. Yeni bir deterjan deniyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das ist wahrscheinlich eine allergische Reaktion. Ich verschreibe Ihnen eine Creme.",
+                    "translation": {
+                        "en": "That's probably an allergic reaction. I'll prescribe you a cream.",
+                        "bn": "সম্ভবত এটি একটি অ্যালার্জি প্রতিক্রিয়া। আমি আপনাকে একটি ক্রিম লিখে দেব।",
+                        "hi": "शायद यह एक एलर्जी प्रतिक्रिया है। मैं आपको एक क्रीम लिख दूंगा।",
+                        "ur": "شاید یہ ایک الرجی ردعمل ہے۔ میں آپ کو ایک کریم لکھ دوں گا۔",
+                        "tr": "Muhtemelen alerjik bir reaksiyon. Size bir krem reçete edeceğim."
+                    }
+                }
+            ],
+            "id": "d02_03"
+        },
+        {
+            "title": {
+                "en": "Foot Injury After Sport",
+                "bn": "খেলার পরে পায়ের আঘাত",
+                "hi": "खेल के बाद पैर में चोट",
+                "ur": "کھیل کے بعد پاؤں میں چوٹ",
+                "tr": "Spordan Sonra Ayak Yaralanması"
+            },
+            "context": {
+                "en": "A patient injured his foot during a football match. The doctor is examining the foot.",
+                "bn": "ফুটবল খেলার সময় এক রোগী তার পায়ে আঘাত পেয়েছেন। ডাক্তার পা পরীক্ষা করছেন।",
+                "hi": "एक मरीज को फुटबॉल मैच के दौरान पैर में चोट लग गई। डॉक्टर पैर की जाँच कर रहे हैं।",
+                "ur": "ایک مریض فٹ بال میچ کے دوران اپنے پاؤں پر زخمی ہو گیا ہے۔ ڈاکٹر پاؤں کی جانچ کر رہے ہیں۔",
+                "tr": "Bir hasta futbol maçı sırasında ayağından yaralandı. Doktor ayağı inceliyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe mir beim Fußballspielen den Fuß verstaucht.",
+                    "translation": {
+                        "en": "I sprained my foot while playing football.",
+                        "bn": "ফুটবল খেলার সময় আমি আমার পা মচকে গেছি।",
+                        "hi": "मुझे फुटबॉल खेलते समय पैर में मोच आ गई।",
+                        "ur": "فٹ بال کھیلتے ہوئے میرے پاؤں میں موچ آ گئی ہے۔",
+                        "tr": "Futbol oynarken ayağımı burktum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Zeigen Sie mal. Wo genau schmerzt es?",
+                    "translation": {
+                        "en": "Show me. Where exactly does it hurt?",
+                        "bn": "দেখাও তো। কোথায় ঠিক ব্যাথা করছে?",
+                        "hi": "मुझे दिखाओ। दर्द ठीक कहाँ हो रहा है?",
+                        "ur": "مجھے دکھاو۔ درد ٹھیک کہاں ہو رہا ہے؟",
+                        "tr": "Göster bakalım. Tam olarak nerede ağrıyor?"
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Hier, am Knöchel.",
+                    "translation": {
+                        "en": "Here, on the ankle.",
+                        "bn": "এখানে, গোড়ালিতে।",
+                        "hi": "यहाँ, टखने पर।",
+                        "ur": "یہاں، ٹخنے پر۔",
+                        "tr": "Burada, ayak bileğinde."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das ist geschwollen. Können Sie den Fuß bewegen?",
+                    "translation": {
+                        "en": "That's swollen. Can you move your foot?",
+                        "bn": "এটা ফুলে গেছে। আপনি কি পা নাড়াতে পারেন?",
+                        "hi": "यह सूज गया है। क्या आप अपना पैर हिला सकते हैं?",
+                        "ur": "یہ سوج گیا ہے۔ کیا آپ اپنا پاؤں ہلا سکتے ہیں؟",
+                        "tr": "Şişmiş. Ayağınızı hareket ettirebiliyor musunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Nur unter Schmerzen.",
+                    "translation": {
+                        "en": "Only with pain.",
+                        "bn": "শুধুমাত্র ব্যথার সাথে।",
+                        "hi": "केवल दर्द के साथ।",
+                        "ur": "صرف درد کے ساتھ۔",
+                        "tr": "Sadece acıyla."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wir machen ein Röntgenbild, um einen Bruch auszuschließen.",
+                    "translation": {
+                        "en": "We'll take an X-ray to rule out a fracture.",
+                        "bn": "আমরা ফাটল বাতিল করার জন্য একটি এক্স-রে করব।",
+                        "hi": "हम फ्रैक्चर को खारिज करने के लिए एक एक्स-रे करेंगे।",
+                        "ur": "ہم فریکچر کو مسترد کرنے کے لیے ایک ایکس رے کریں گے۔",
+                        "tr": "Kırığı ekarte etmek için röntgen çekeceğiz."
+                    }
+                }
+            ],
+            "id": "d02_04"
+        },
+        {
+            "title": {
+                "en": "Hand Wound Care",
+                "bn": "হাতের ক্ষত পরিচর্যা",
+                "hi": "हाथ के घाव की देखभाल",
+                "ur": "ہاتھ کے زخم کی دیکھ بھال",
+                "tr": "El Yarası Bakımı"
+            },
+            "context": {
+                "en": "A patient has a cut on their hand. The nurse is cleaning and dressing the wound.",
+                "bn": "একজন রোগীর হাতে একটি কাটা আছে। নার্স ক্ষতটি পরিষ্কার করে ড্রেসিং করছেন।",
+                "hi": "एक मरीज के हाथ में कट है। नर्स घाव को साफ और ड्रेसिंग कर रही है।",
+                "ur": "ایک مریض کے ہاتھ پر ایک کٹ ہے۔ نرس زخم کو صاف اور ڈریسنگ کر رہی ہے۔",
+                "tr": "Bir hastanın elinde kesik var. Hemşire yarayı temizleyip pansuman yapıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Becker",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe mich mit einem Messer in den Finger geschnitten.",
+                    "translation": {
+                        "en": "I cut my finger with a knife.",
+                        "bn": "আমি ছুরি দিয়ে আমার আঙ্গুল কেটে ফেলেছি।",
+                        "hi": "मैंने चाकू से अपनी उंगली काट ली।",
+                        "ur": "میں نے چاقو سے اپنی انگلی کاٹ لی۔",
+                        "tr": "Bıçağımla parmağımı kestim."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Das sieht tief aus. Wir müssen das desinfizieren.",
+                    "translation": {
+                        "en": "That looks deep. We need to disinfect it.",
+                        "bn": "এটা গভীর দেখাচ্ছে। আমাদের এটি জীবাণুমুক্ত করতে হবে।",
+                        "hi": "यह गहरा लग रहा है। हमें इसे कीटाणुरहित करने की आवश्यकता है।",
+                        "ur": "یہ گہرا لگ رہا ہے۔ ہمیں اسے جراثیم کشی کرنے کی ضرورت ہے۔",
+                        "tr": "Derin görünüyor. Dezenfekte etmemiz gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Patient Becker",
+                    "speakerRole": "Patient",
+                    "germanText": "Tut das weh?",
+                    "translation": {
+                        "en": "Does that hurt?",
+                        "bn": "এটা কি ব্যাথা করবে?",
+                        "hi": "क्या इससे दर्द होगा?",
+                        "ur": "کیا اس سے درد ہوگا؟",
+                        "tr": "Acıtacak mı?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Es brennt vielleicht kurz. Aber es muss sauber sein.",
+                    "translation": {
+                        "en": "It might sting briefly. But it has to be clean.",
+                        "bn": "এটি সম্ভবত অল্প সময়ের জন্য জ্বলবে। তবে এটি পরিষ্কার হওয়া দরকার।",
+                        "hi": "यह शायद थोड़े समय के लिए चुभेगा। लेकिन यह साफ होना चाहिए।",
+                        "ur": "یہ شاید تھوڑی دیر کے لیے ڈنگ مارے گا۔ لیکن یہ صاف ہونا چاہیے۔",
+                        "tr": "Belki kısa bir süre yanabilir. Ama temiz olması gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "So, jetzt ein Pflaster. Wenn es sich entzündet, kommen Sie wieder.",
+                    "translation": {
+                        "en": "So, now a bandage. If it becomes inflamed, come back.",
+                        "bn": "ঠিক আছে, এখন একটি ব্যান্ডেজ। যদি এটি প্রদাহ হয় তবে আবার আসবেন।",
+                        "hi": "तो, अब एक पट्टी। अगर इसमें सूजन हो जाती है, तो वापस आएं।",
+                        "ur": "تو، اب ایک پٹی۔ اگر اس میں سوزش ہو جاتی ہے، تو واپس آئیں۔",
+                        "tr": "İşte, şimdi bir bandaj. Eğer iltihaplanırsa, tekrar gelin."
+                    }
+                },
+                {
+                    "speaker": "Patient Becker",
+                    "speakerRole": "Patient",
+                    "germanText": "Vielen Dank!",
+                    "translation": {
+                        "en": "Thank you very much!",
+                        "bn": "অসংখ্য ধন্যবাদ!",
+                        "hi": "बहुत बहुत धन्यवाद!",
+                        "ur": "بہت بہت شکریہ!",
+                        "tr": "Çok teşekkür ederim!"
+                    }
+                }
+            ],
+            "id": "d02_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welcher Teil des Gesichts befindet sich über den Augen?",
+                "en": "Which part of the face is located above the eyes?",
+                "bn": "চোখের উপরে মুখের কোন অংশটি অবস্থিত?",
+                "hi": "आँखों के ऊपर चेहरे का कौन सा भाग स्थित है?",
+                "ur": "آنکھوں کے اوپر چہرے کا کون سا حصہ واقع ہے؟",
+                "tr": "Yüzün hangi kısmı gözlerin üzerinde bulunur?"
+            },
+            "options": [
+                "Wange",
+                "Stirn",
+                "Kinn",
+                "Nase"
+            ],
+            "correctAnswer": "Stirn",
+            "explanation": {
+                "en": "The forehead (Stirn) is located above the eyes.",
+                "bn": "কপাল (Stirn) চোখের উপরে অবস্থিত।",
+                "hi": "माथा (Stirn) आंखों के ऊपर स्थित है।",
+                "ur": "پیشانی (Stirn) آنکھوں کے اوپر واقع ہے۔",
+                "tr": "Alın (Stirn) gözlerin üzerinde bulunur."
+            },
+            "points": 10,
+            "id": "e02_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wie nennt man den Teil des Arms zwischen Schulter und Ellbogen?",
+                "en": "What is the part of the arm between the shoulder and elbow called?",
+                "bn": "কাঁধ এবং কনুইয়ের মধ্যে হাতের অংশটিকে কী বলা হয়?",
+                "hi": "कंधे और कोहनी के बीच हाथ के भाग को क्या कहा जाता है?",
+                "ur": "کندھے اور کہنی کے درمیان بازو کے حصے کو کیا کہا جاتا ہے؟",
+                "tr": "Omuz ve dirsek arasındaki kol kısmına ne denir?"
+            },
+            "options": [
+                "Hand",
+                "Unterarm",
+                "Oberarm",
+                "Ellbogen"
+            ],
+            "correctAnswer": "Oberarm",
+            "explanation": {
+                "en": "The upper arm (Oberarm) is the part of the arm between the shoulder and elbow.",
+                "bn": "উপরের বাহু (Oberarm) কাঁধ এবং কনুইয়ের মধ্যে হাতের অংশ।",
+                "hi": "ऊपरी बांह (Oberarm) कंधे और कोहनी के बीच हाथ का हिस्सा है।",
+                "ur": "اوپری بازو (Oberarm) کندھے اور کہنی کے درمیان بازو کا حصہ ہے۔",
+                "tr": "Üst kol (Oberarm) omuz ve dirsek arasındaki kol kısmıdır."
+            },
+            "points": 10,
+            "id": "e02_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Organ ermöglicht das Hören?",
+                "en": "Which organ enables hearing?",
+                "bn": "কোন অঙ্গ শোনার জন্য সক্ষম?",
+                "hi": "कौन सा अंग सुनने में सक्षम बनाता है?",
+                "ur": "کون سا عضو سننے کے قابل بناتا ہے؟",
+                "tr": "Hangi organ duymayı sağlar?"
+            },
+            "options": [
+                "Auge",
+                "Nase",
+                "Ohr",
+                "Mund"
+            ],
+            "correctAnswer": "Ohr",
+            "explanation": {
+                "en": "The ear (Ohr) enables hearing.",
+                "bn": "কান (Ohr) শোনার জন্য সক্ষম।",
+                "hi": "कान (Ohr) सुनने में सक्षम बनाता है।",
+                "ur": "کان (Ohr) سننے کے قابل بناتا ہے۔",
+                "tr": "Kulak (Ohr) duymayı sağlar."
+            },
+            "points": 10,
+            "id": "e02_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wie nennt man die äußere Schicht des Körpers?",
+                "en": "What is the outer layer of the body called?",
+                "bn": "শরীরের বাইরের স্তরটিকে কী বলা হয়?",
+                "hi": "शरीर की बाहरी परत को क्या कहा जाता है?",
+                "ur": "جسم کی بیرونی تہہ کو کیا کہا جاتا ہے؟",
+                "tr": "Vücudun dış tabakasına ne denir?"
+            },
+            "options": [
+                "Muskel",
+                "Knochen",
+                "Haut",
+                "Nerv"
+            ],
+            "correctAnswer": "Haut",
+            "explanation": {
+                "en": "The outer layer of the body is called skin (Haut).",
+                "bn": "শরীরের বাইরের স্তরটিকে ত্বক (Haut) বলা হয়।",
+                "hi": "शरीर की बाहरी परत को त्वचा (Haut) कहा जाता है।",
+                "ur": "جسم کی بیرونی تہہ کو جلد (Haut) کہا جاتا ہے۔",
+                "tr": "Vücudun dış tabakasına cilt (Haut) denir."
+            },
+            "points": 10,
+            "id": "e02_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was befindet sich am Ende des Arms?",
+                "en": "What is located at the end of the arm?",
+                "bn": "বাহুর শেষে কি অবস্থিত?",
+                "hi": "बांह के अंत में क्या स्थित है?",
+                "ur": "بازو کے آخر میں کیا واقع ہے؟",
+                "tr": "Kolun ucunda ne bulunur?"
+            },
+            "options": [
+                "Fuß",
+                "Hand",
+                "Knie",
+                "Ellbogen"
+            ],
+            "correctAnswer": "Hand",
+            "explanation": {
+                "en": "The hand (Hand) is located at the end of the arm.",
+                "bn": "হাত (Hand) বাহুর শেষে অবস্থিত।",
+                "hi": "हाथ (Hand) बांह के अंत में स्थित है।",
+                "ur": "ہاتھ (Hand) بازو کے آخر میں واقع ہے۔",
+                "tr": "El (Hand) kolun ucunda bulunur."
+            },
+            "points": 10,
+            "id": "e02_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Körperteil benutzt man zum Riechen?",
+                "en": "Which body part is used for smelling?",
+                "bn": "গন্ধ নেওয়ার জন্য শরীরের কোন অংশ ব্যবহার করা হয়?",
+                "hi": "गंध लेने के लिए शरीर का कौन सा भाग उपयोग किया जाता है?",
+                "ur": "سونگھنے کے لیے جسم کا کون سا حصہ استعمال ہوتا ہے؟",
+                "tr": "Koklamak için hangi vücut kısmı kullanılır?"
+            },
+            "options": [
+                "Mund",
+                "Nase",
+                "Auge",
+                "Ohr"
+            ],
+            "correctAnswer": "Nase",
+            "explanation": {
+                "en": "The nose (Nase) is used for smelling.",
+                "bn": "নাক (Nase) গন্ধ নেওয়ার জন্য ব্যবহৃত হয়।",
+                "hi": "नाक (Nase) गंध लेने के लिए उपयोग किया जाता है।",
+                "ur": "ناک (Nase) سونگھنے کے لیے استعمال ہوتی ہے۔",
+                "tr": "Burun (Nase) koklamak için kullanılır."
+            },
+            "points": 10,
+            "id": "e02_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wie heißt der Teil des Beins zwischen Knie und Fuß?",
+                "en": "What is the part of the leg between the knee and foot called?",
+                "bn": "হাঁটু এবং পায়ের মধ্যে পায়ের অংশটিকে কী বলা হয়?",
+                "hi": "घुटने और पैर के बीच पैर के भाग को क्या कहा जाता है?",
+                "ur": "گھٹنے اور پاؤں کے درمیان ٹانگ کے حصے کو کیا کہا جاتا ہے؟",
+                "tr": "Diz ve ayak arasındaki bacak kısmına ne denir?"
+            },
+            "options": [
+                "Oberschenkel",
+                "Fuß",
+                "Unterschenkel",
+                "Knie"
+            ],
+            "correctAnswer": "Unterschenkel",
+            "explanation": {
+                "en": "The lower leg (Unterschenkel) is the part of the leg between the knee and foot.",
+                "bn": "নিম্ন পা (Unterschenkel) হাঁটু এবং পায়ের মধ্যে পায়ের অংশ।",
+                "hi": "निचला पैर (Unterschenkel) घुटने और पैर के बीच पैर का हिस्सा है।",
+                "ur": "نیچلا حصہ (Unterschenkel) گھٹنے اور پاؤں کے درمیان ٹانگ کا حصہ ہے۔",
+                "tr": "Alt bacak (Unterschenkel) diz ve ayak arasındaki bacak kısmıdır."
+            },
+            "points": 10,
+            "id": "e02_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Mit welchem Körperteil schmecken wir?",
+                "en": "Which body part do we use to taste?",
+                "bn": "আমরা কোন শরীরের অংশ দিয়ে স্বাদ গ্রহণ করি?",
+                "hi": "हम किस शरीर के भाग से स्वाद लेते हैं?",
+                "ur": "ہم جسم کے کس حصے سے ذائقہ لیتے ہیں؟",
+                "tr": "Hangi vücut kısmıyla tad alırız?"
+            },
+            "options": [
+                "Nase",
+                "Auge",
+                "Ohr",
+                "Mund"
+            ],
+            "correctAnswer": "Mund",
+            "explanation": {
+                "en": "We use the mouth (Mund) to taste.",
+                "bn": "আমরা মুখ (Mund) দিয়ে স্বাদ গ্রহণ করি।",
+                "hi": "हम मुंह (Mund) से स्वाद लेते हैं।",
+                "ur": "ہم منہ (Mund) سے ذائقہ لیتے ہیں۔",
+                "tr": "Ağız (Mund) ile tad alırız."
+            },
+            "points": 10,
+            "id": "e02_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wie nennt man die Fortsätze an der Hand?",
+                "en": "What are the extensions on the hand called?",
+                "bn": "হাতের প্রসারণগুলিকে কী বলা হয়?",
+                "hi": "हाथ पर विस्तार को क्या कहा जाता है?",
+                "ur": "ہاتھ پر پھیلاؤ کو کیا کہا جاتا ہے؟",
+                "tr": "Eldeki uzantılara ne denir?"
+            },
+            "options": [
+                "Zehen",
+                "Finger",
+                "Arme",
+                "Füße"
+            ],
+            "correctAnswer": "Finger",
+            "explanation": {
+                "en": "The extensions on the hand are called fingers (Finger).",
+                "bn": "হাতের প্রসারণগুলিকে আঙ্গুল (Finger) বলা হয়।",
+                "hi": "हाथ पर विस्तार को उंगलियां (Finger) कहा जाता है।",
+                "ur": "ہاتھ پر پھیلاؤ کو انگلیاں (Finger) کہا جاتا ہے۔",
+                "tr": "Eldeki uzantılara parmaklar (Finger) denir."
+            },
+            "points": 10,
+            "id": "e02_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Sinnesorgan ermöglicht uns das Sehen?",
+                "en": "Which sensory organ enables us to see?",
+                "bn": "কোন সংবেদী অঙ্গ আমাদেরকে দেখতে সক্ষম করে?",
+                "hi": "कौन सा संवेदी अंग हमें देखने में सक्षम बनाता है?",
+                "ur": "کون سا حسی عضو ہمیں دیکھنے کے قابل بناتا ہے؟",
+                "tr": "Hangi duyu organı görmemizi sağlar?"
+            },
+            "options": [
+                "Ohr",
+                "Nase",
+                "Auge",
+                "Mund"
+            ],
+            "correctAnswer": "Auge",
+            "explanation": {
+                "en": "The eye (Auge) enables us to see.",
+                "bn": "চোখ (Auge) আমাদেরকে দেখতে সক্ষম করে।",
+                "hi": "आंख (Auge) हमें देखने में सक्षम बनाती है।",
+                "ur": "آنکھ (Auge) ہمیں دیکھنے کے قابل بناتی ہے۔",
+                "tr": "Göz (Auge) görmemizi sağlar."
+            },
+            "points": 10,
+            "id": "e02_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Der Teil des Gesichts unterhalb des Mundes wird ______ genannt.",
+                "en": "The part of the face below the mouth is called ______.",
+                "bn": "মুখের নীচে মুখের অংশটিকে ______ বলা হয়।",
+                "hi": "मुंह के नीचे चेहरे के भाग को ______ कहा जाता है।",
+                "ur": "منہ کے نیچے چہرے کے حصے کو ______ کہا جاتا ہے۔",
+                "tr": "Ağzın altındaki yüz kısmına ______ denir."
+            },
+            "options": [],
+            "correctAnswer": "Kinn",
+            "explanation": {
+                "en": "The part of the face below the mouth is called the chin (Kinn).",
+                "bn": "মুখের নীচে মুখের অংশটিকে চিবুক (Kinn) বলা হয়।",
+                "hi": "मुंह के नीचे चेहरे के भाग को ठोड़ी (Kinn) कहा जाता है।",
+                "ur": "منہ کے نیچے چہرے کے حصے کو ٹھوڑی (Kinn) کہا جاتا ہے۔",
+                "tr": "Ağzın altındaki yüz kısmına çene (Kinn) denir."
+            },
+            "points": 10,
+            "id": "e02_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die ______ bedeckt den gesamten Körper.",
+                "en": "The ______ covers the entire body.",
+                "bn": "______ পুরো শরীর ঢেকে রাখে।",
+                "hi": "______ पूरे शरीर को ढकता है।",
+                "ur": "______ پورے جسم کو ڈھانپتا ہے۔",
+                "tr": "______ tüm vücudu kaplar."
+            },
+            "options": [],
+            "correctAnswer": "Haut",
+            "explanation": {
+                "en": "The skin (Haut) covers the entire body.",
+                "bn": "ত্বক (Haut) পুরো শরীর ঢেকে রাখে।",
+                "hi": "त्वचा (Haut) पूरे शरीर को ढकता है।",
+                "ur": "جلد (Haut) پورے جسم کو ڈھانپتی ہے۔",
+                "tr": "Cilt (Haut) tüm vücudu kaplar."
+            },
+            "points": 10,
+            "id": "e02_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Man benutzt die ______ zum Gehen und Stehen.",
+                "en": "You use the ______ for walking and standing.",
+                "bn": "আপনি হাঁটা এবং দাঁড়ানোর জন্য ______ ব্যবহার করেন।",
+                "hi": "आप चलने और खड़े रहने के लिए ______ का उपयोग करते हैं।",
+                "ur": "آپ چلنے اور کھڑے ہونے کے لیے ______ کا استعمال کرتے ہیں۔",
+                "tr": "Yürümek ve ayakta durmak için ______ kullanırsınız."
+            },
+            "options": [],
+            "correctAnswer": "Beine",
+            "explanation": {
+                "en": "You use the legs (Beine) for walking and standing.",
+                "bn": "আপনি হাঁটা এবং দাঁড়ানোর জন্য পা (Beine) ব্যবহার করেন।",
+                "hi": "आप चलने और खड़े रहने के लिए पैर (Beine) का उपयोग करते हैं।",
+                "ur": "آپ چلنے اور کھڑے ہونے کے لیے ٹانگیں (Beine) استعمال کرتے ہیں۔",
+                "tr": "Yürümek ve ayakta durmak için bacaklar (Beine) kullanırsınız."
+            },
+            "points": 10,
+            "id": "e02_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die Öffnung im Gesicht, die zum Sprechen und Essen verwendet wird, ist der ______.",
+                "en": "The opening in the face used for speaking and eating is the ______.",
+                "bn": "কথা বলা এবং খাওয়ার জন্য ব্যবহৃত মুখের ভেতরের অংশটি হল ______।",
+                "hi": "बोलने और खाने के लिए इस्तेमाल किया जाने वाला चेहरे में छेद ______ है।",
+                "ur": "بولنے اور کھانے کے لیے استعمال ہونے والا چہرے میں سوراخ ______ ہے۔",
+                "tr": "Konuşmak ve yemek yemek için kullanılan yüzdeki açıklık ______'dir."
+            },
+            "options": [],
+            "correctAnswer": "Mund",
+            "explanation": {
+                "en": "The opening in the face used for speaking and eating is the mouth (Mund).",
+                "bn": "কথা বলা এবং খাওয়ার জন্য ব্যবহৃত মুখের ভেতরের অংশটি হল মুখ (Mund)।",
+                "hi": "बोलने और खाने के लिए इस्तेमाल किया जाने वाला चेहरे में छेद मुंह (Mund) है।",
+                "ur": "بولنے اور کھانے کے لیے استعمال ہونے والا چہرے میں سوراخ منہ (Mund) ہے۔",
+                "tr": "Konuşmak ve yemek yemek için kullanılan yüzdeki açıklık ağızdır (Mund)."
+            },
+            "points": 10,
+            "id": "e02_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein einzelner Finger wird auch als ______ bezeichnet.",
+                "en": "A single finger is also referred to as a ______.",
+                "bn": "একটি একক আঙুলকে ______ হিসাবেও উল্লেখ করা হয়।",
+                "hi": "एक अकेली उंगली को ______ भी कहा जाता है।",
+                "ur": "ایک واحد انگلی کو ______ بھی کہا جاتا ہے۔",
+                "tr": "Tek bir parmak da ______ olarak adlandırılır."
+            },
+            "options": [],
+            "correctAnswer": "Zehe",
+            "explanation": {
+                "en": "A single finger is also referred to as a toe (Zehe).",
+                "bn": "একটি একক আঙুলকে পায়ের আঙুল (Zehe) হিসাবেও উল্লেখ করা হয়।",
+                "hi": "एक अकेली उंगली को पैर की अंगुली (Zehe) भी कहा जाता है।",
+                "ur": "ایک واحد انگلی کو پاؤں کی انگلی (Zehe) بھی کہا جاتا ہے۔",
+                "tr": "Tek bir parmak da ayak parmağı (Zehe) olarak adlandırılır."
+            },
+            "points": 10,
+            "id": "e02_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Übersetzen Sie: 'I have a headache.'",
+                "en": "Translate: 'I have a headache.'",
+                "bn": "অনুবাদ করুন: 'I have a headache.'",
+                "hi": "अनुवाद करें: 'I have a headache.'",
+                "ur": "ترجمہ کریں: 'I have a headache.'",
+                "tr": "Çeviri: 'I have a headache.'"
+            },
+            "options": [],
+            "correctAnswer": "Ich habe Kopfschmerzen.",
+            "explanation": {
+                "en": "'Ich habe Kopfschmerzen' is the correct translation of 'I have a headache'.",
+                "bn": "'Ich habe Kopfschmerzen' হল 'I have a headache'-এর সঠিক অনুবাদ।",
+                "hi": "'Ich habe Kopfschmerzen' 'I have a headache' का सही अनुवाद है।",
+                "ur": "'Ich habe Kopfschmerzen' 'I have a headache' کا صحیح ترجمہ ہے۔",
+                "tr": "'Ich habe Kopfschmerzen', 'I have a headache' ifadesinin doğru çevirisidir."
+            },
+            "points": 10,
+            "id": "e02_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Übersetzen Sie: 'My leg hurts.'",
+                "en": "Translate: 'My leg hurts.'",
+                "bn": "অনুবাদ করুন: 'My leg hurts.'",
+                "hi": "अनुवाद करें: 'My leg hurts.'",
+                "ur": "ترجمہ کریں: 'My leg hurts.'",
+                "tr": "Çeviri: 'My leg hurts.'"
+            },
+            "options": [],
+            "correctAnswer": "Mein Bein tut weh.",
+            "explanation": {
+                "en": "'Mein Bein tut weh' is the correct translation of 'My leg hurts'.",
+                "bn": "'Mein Bein tut weh' হল 'My leg hurts'-এর সঠিক অনুবাদ।",
+                "hi": "'Mein Bein tut weh' 'My leg hurts' का सही अनुवाद है।",
+                "ur": "'Mein Bein tut weh' 'My leg hurts' کا صحیح ترجمہ ہے۔",
+                "tr": "'Mein Bein tut weh', 'My leg hurts' ifadesinin doğru çevirisidir."
+            },
+            "points": 10,
+            "id": "e02_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Übersetzen Sie: 'She has beautiful eyes.'",
+                "en": "Translate: 'She has beautiful eyes.'",
+                "bn": "অনুবাদ করুন: 'She has beautiful eyes.'",
+                "hi": "अनुवाद करें: 'She has beautiful eyes.'",
+                "ur": "ترجمہ کریں: 'She has beautiful eyes.'",
+                "tr": "Çeviri: 'She has beautiful eyes.'"
+            },
+            "options": [],
+            "correctAnswer": "Sie hat schöne Augen.",
+            "explanation": {
+                "en": "'Sie hat schöne Augen' is the correct translation of 'She has beautiful eyes'.",
+                "bn": "'Sie hat schöne Augen' হল 'She has beautiful eyes'-এর সঠিক অনুবাদ।",
+                "hi": "'Sie hat schöne Augen' 'She has beautiful eyes' का सही अनुवाद है।",
+                "ur": "'Sie hat schöne Augen' 'She has beautiful eyes' کا صحیح ترجمہ ہے۔",
+                "tr": "'Sie hat schöne Augen', 'She has beautiful eyes' ifadesinin doğru çevirisidir."
+            },
+            "points": 10,
+            "id": "e02_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
 }

@@ -1,12 +1,1571 @@
-{"id":"section_25","phaseId":"phase2","order":25,"titleDe":"Endokrinologie","title":{"en":"Endocrinology","bn":"এন্ডোক্রাইনোলজি","hi":"एंडोक्राइनोलॉजी","ur":"اینڈوکرائنولوجی","tr":"Endokrinoloji"},"level":"B2","estimatedMinutes":40,"vocabulary":[
-{"id":"v25_01","germanTerm":"Diabetes mellitus","article":"der","plural":"-","translation":{"en":"Diabetes","bn":"ডায়াবেটিস","hi":"मधुमेह","ur":"ذیابیطس","tr":"Diyabet"}},
-{"id":"v25_02","germanTerm":"Schilddrüse","article":"die","plural":"Schilddrüsen","translation":{"en":"Thyroid","bn":"থাইরয়েড","hi":"थायरॉयड","ur":"تھائیرائیڈ","tr":"Tiroid"}},
-{"id":"v25_03","germanTerm":"HbA1c","article":"das","plural":"-","translation":{"en":"HbA1c","bn":"HbA1c","hi":"HbA1c","ur":"HbA1c","tr":"HbA1c"}},
-{"id":"v25_04","germanTerm":"Insulin","article":"das","plural":"-","translation":{"en":"Insulin","bn":"ইনসুলিন","hi":"इंसुलिन","ur":"انسولین","tr":"İnsülin"}},
-{"id":"v25_05","germanTerm":"Blutzucker","article":"der","plural":"-","translation":{"en":"Blood Sugar","bn":"রক্তে শর্করা","hi":"रक्त शर्करा","ur":"خون میں شکر","tr":"Kan şekeri"}},
-{"id":"v25_06","germanTerm":"Hypothyreose","article":"die","plural":"Hypothyreosen","translation":{"en":"Hypothyroidism","bn":"হাইপোথাইরয়ডিজম","hi":"हाइपोथायरायडिज्म","ur":"ہائپوتھائیرائیڈزم","tr":"Hipotiroidi"}},
-{"id":"v25_07","germanTerm":"Hyperthyreose","article":"die","plural":"Hyperthyreosen","translation":{"en":"Hyperthyroidism","bn":"হাইপারথাইরয়ডিজম","hi":"हाइपरथायरायडिज्म","ur":"ہائپرتھائیرائیڈزم","tr":"Hipertiroidi"}}
-],"dialogues":[{"id":"d25_01","title":{"en":"Diabetes Management"},"lines":[
-{"speaker":"Arzt","germanText":"Ihr HbA1c ist zu hoch. Wir müssen die Therapie anpassen.","translation":{"en":"Your HbA1c is too high. We need to adjust the therapy."}},
-{"speaker":"Patient","germanText":"Muss ich mehr Insulin spritzen?","translation":{"en":"Do I need to inject more insulin?"}}
-]}],"exercises":[{"id":"e25_01","type":"multipleChoice","question":{"en":"What is 'Schilddrüse'?"},"options":["Thyroid","Pancreas","Liver"],"correctAnswer":"Thyroid","points":10}],"media":{"introVideoUrl":"video/sections/section_25/intro.mp4"}}
+{
+    "id": "section_25",
+    "phaseId": "phase2",
+    "order": 25,
+    "titleDe": "Endokrinologie",
+    "title": {
+        "en": "Endocrinology: Diabetes Mellitus & Thyroid Disorders",
+        "de": "Endokrinologie: Diabetes mellitus & Schilddrüsenerkrankungen",
+        "bn": "এন্ডোক্রিনোলজি: ডায়াবেটিস মেলিটাস ও থাইরয়েড রোগ",
+        "hi": "एंडोक्रिनोलॉजी: डायबिटीज मेलिटस और थायरॉयड विकार",
+        "ur": "اینڈوکرائنولوجی: ذیابیطس mellitus اور تھائرائڈ کے امراض",
+        "tr": "Endokrinoloji: Diabetes Mellitus ve Tiroid Bozuklukları"
+    },
+    "description": {
+        "en": "This section explores the endocrine system, focusing on diabetes mellitus, thyroid disorders (hyperthyroidism, hypothyroidism), HbA1c, and insulin.",
+        "de": "Dieser Abschnitt untersucht das endokrine System mit Fokus auf Diabetes mellitus, Schilddrüsenerkrankungen (Hyperthyreose, Hypothyreose), HbA1c und Insulin.",
+        "bn": "এই বিভাগে ডায়াবেটিস মেলিটাস, থাইরয়েড রোগ (হাইপারথাইরয়েডিজম, হাইপোথাইরয়েডিজম), HbA1c এবং ইনসুলিনের উপর ফোকাস করে এন্ডোক্রাইন সিস্টেম নিয়ে আলোচনা করা হয়েছে।",
+        "hi": "यह खंड मधुमेह मेलिटस, थायरॉयड विकारों (हाइपरथायरायडिज्म, हाइपोथायरायडिज्म), एचबीए1सी और इंसुलिन पर ध्यान केंद्रित करते हुए अंतःस्रावी तंत्र की पड़ताल करता है।",
+        "ur": "یہ سیکشن ذیابیطس mellitus، تھائرائڈ کے امراض (hyperthyroidism, hypothyroidism)، HbA1c، اور انسولین پر توجہ مرکوز کرتے ہوئے اینڈوکرائن سسٹم کو تلاش کرتا ہے۔",
+        "tr": "Bu bölüm, diabetes mellitus, tiroid bozuklukları (hipertiroidizm, hipotiroidizm), HbA1c ve insüline odaklanarak endokrin sistemi inceler."
+    },
+    "level": "B2",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, you will learn the German terminology related to diabetes mellitus, thyroid disorders, and their treatment. You'll also develop your ability to discuss these conditions with German-speaking patients.",
+            "de": "In diesem Abschnitt lernen Sie die deutsche Terminologie im Zusammenhang mit Diabetes mellitus, Schilddrüsenerkrankungen und deren Behandlung kennen. Sie werden auch Ihre Fähigkeit entwickeln, diese Erkrankungen mit deutschsprachigen Patienten zu besprechen.",
+            "bn": "এই বিভাগে, আপনি ডায়াবেটিস মেলিটাস, থাইরয়েড রোগ এবং তাদের চিকিত্সা সম্পর্কিত জার্মান শব্দভাণ্ডার শিখবেন। এছাড়াও জার্মান-ভাষী রোগীদের সাথে এই অবস্থাগুলো নিয়ে আলোচনা করার আপনার ক্ষমতা বিকাশ করবেন।",
+            "hi": "इस खंड में, आप मधुमेह मेलिटस, थायरॉयड विकारों और उनके उपचार से संबंधित जर्मन शब्दावली सीखेंगे। आप जर्मन भाषी रोगियों के साथ इन स्थितियों पर चर्चा करने की अपनी क्षमता भी विकसित करेंगे।",
+            "ur": "اس سیکشن میں، آپ ذیابیطس mellitus، تھائرائڈ کے امراض، اور ان کے علاج سے متعلق جرمن اصطلاحات سیکھیں گے۔ آپ جرمن بولنے والے مریضوں کے ساتھ ان حالات پر تبادلہ خیال کرنے کی اپنی صلاحیت کو بھی فروغ دیں گے۔",
+            "tr": "Bu bölümde, diabetes mellitus, tiroid bozuklukları ve tedavileri ile ilgili Almanca terminolojiyi öğreneceksiniz. Ayrıca bu durumları Almanca konuşan hastalarla tartışma yeteneğinizi de geliştireceksiniz."
+        },
+        "grammarFocus": {
+            "en": {
+                "bullet1": "Use of dative and accusative cases with prepositions related to medication dosage (e.g., 'mit Insulin' - with insulin).",
+                "bullet2": "Understanding adjective endings when describing symptoms (e.g., 'hoher Blutzucker' - high blood sugar)."
+            },
+            "de": {
+                "bullet1": "Verwendung von Dativ und Akkusativ bei Präpositionen im Zusammenhang mit der Medikamentendosierung (z.B. 'mit Insulin').",
+                "bullet2": "Verständnis der Adjektivendungen bei der Beschreibung von Symptomen (z.B. 'hoher Blutzucker')."
+            },
+            "bn": {
+                "bullet1": "মেডিকেশন ডোজ সম্পর্কিত প্রিপোজিশনের সাথে ডেটিভ এবং অ্যাকুজেটিভ কেসের ব্যবহার (যেমন, 'mit Insulin' - ইনসুলিনের সাথে)।",
+                "bullet2": "লক্ষণ বর্ণনা করার সময় বিশেষণ শেষ হওয়ার নিয়ম বোঝা (যেমন, 'hoher Blutzucker' - উচ্চ রক্তে চিনি)।"
+            },
+            "hi": {
+                "bullet1": "दवा की खुराक से संबंधित पूर्वसर्गों के साथ कर्म कारक और संप्रदान कारक का उपयोग (जैसे, 'mit Insulin' - इंसुलिन के साथ)।",
+                "bullet2": "लक्षणों का वर्णन करते समय विशेषण अंत को समझना (जैसे, 'hoher Blutzucker' - उच्च रक्त शर्करा)।"
+            },
+            "ur": {
+                "bullet1": "دوا کی خوراک سے متعلق حروف جار کے ساتھ مفعولی اور اضافی حالت کا استعمال (مثال کے طور پر، 'mit Insulin' - انسولین کے ساتھ)۔",
+                "bullet2": "علامات کو بیان کرتے وقت صفت کے خاتمے کو سمجھنا (مثال کے طور پر، 'hoher Blutzucker' - ہائی بلڈ شوگر)۔"
+            },
+            "tr": {
+                "bullet1": "İlaç dozu ile ilgili edatlarda datif ve akuzatif hallerin kullanımı (örneğin, 'mit Insulin' - insülin ile).",
+                "bullet2": "Semptomları tarif ederken sıfat tamlamalarının sonlarını anlamak (örneğin, 'hoher Blutzucker' - yüksek kan şekeri)."
+            }
+        },
+        "culturalNotes": {
+            "en": "In German hospitals, patient education regarding diabetes management is highly emphasized, with structured programs often available.",
+            "de": "In deutschen Krankenhäusern wird die Patientenaufklärung zum Diabetesmanagement stark betont, wobei oft strukturierte Programme verfügbar sind.",
+            "bn": "জার্মান হাসপাতালগুলিতে, ডায়াবেটিস ব্যবস্থাপনার বিষয়ে রোগীর শিক্ষাকে বিশেষভাবে গুরুত্ব দেওয়া হয়, প্রায়শই কাঠামোগত প্রোগ্রাম উপলব্ধ থাকে।",
+            "hi": "जर्मन अस्पतालों में, मधुमेह प्रबंधन के संबंध में रोगी शिक्षा पर अत्यधिक जोर दिया जाता है, जिसमें अक्सर संरचित कार्यक्रम उपलब्ध होते हैं।",
+            "ur": "جرمن ہسپتالوں میں، ذیابیطس کے انتظام کے حوالے سے مریضوں کی تعلیم پر بہت زیادہ زور دیا جاتا ہے، جہاں اکثر منظم پروگرام دستیاب ہوتے ہیں۔",
+            "tr": "Alman hastanelerinde, diyabet yönetimi ile ilgili hasta eğitimine büyük önem verilmekte ve genellikle yapılandırılmış programlar mevcuttur."
+        },
+        "summary": {
+            "en": "This section provided key German medical terminology and contextual understanding related to common endocrine disorders.",
+            "de": "Dieser Abschnitt vermittelte wichtige deutsche medizinische Terminologie und Kontextverständnis im Zusammenhang mit häufigen endokrinen Erkrankungen.",
+            "bn": "এই বিভাগে সাধারণ এন্ডোক্রাইন রোগ সম্পর্কিত মূল জার্মান চিকিৎসা পরিভাষা এবং প্রাসঙ্গিক ধারণা প্রদান করা হয়েছে।",
+            "hi": "इस खंड में सामान्य अंतःस्रावी विकारों से संबंधित मुख्य जर्मन चिकित्सा शब्दावली और प्रासंगिक समझ प्रदान की गई।",
+            "ur": "اس سیکشن میں عام endocrine امراض سے متعلق کلیدی جرمن طبی اصطلاحات اور متعلقہ تفہیم فراہم کی گئی ہے۔",
+            "tr": "Bu bölüm, yaygın endokrin bozukluklarla ilgili temel Almanca tıbbi terminoloji ve bağlamsal anlayış sağlamıştır."
+        },
+        "learningObjectives": [
+            "Recognize German medical terms for diabetes mellitus and related conditions.",
+            "Describe the function of the thyroid gland in German.",
+            "Explain the concept and significance of HbA1c to a patient in German.",
+            "Discuss insulin treatment options with patients using appropriate German vocabulary."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "Diabetes mellitus",
+            "article": "der",
+            "plural": "Diabetes mellitus (pl. usually avoided)",
+            "pronunciation": "/di̯aˈbeːtəs mɛˈlɪtʊs/",
+            "category": "noun",
+            "translation": {
+                "en": "Diabetes mellitus",
+                "bn": "ডায়াবেটিস মেলিটাস",
+                "hi": "मधुमेह",
+                "ur": "ذیابیطس mellitus",
+                "tr": "Diabetes mellitus"
+            },
+            "exampleSentence": "Der Patient hat seit fünf Jahren Diabetes mellitus Typ 2.",
+            "exampleTranslation": {
+                "en": "The patient has had type 2 diabetes mellitus for five years.",
+                "bn": "রোগীর পাঁচ বছর ধরে টাইপ 2 ডায়াবেটিস মেলিটাস আছে।",
+                "hi": "रोगी को पांच साल से टाइप 2 मधुमेह है।",
+                "ur": "مریض کو پانچ سال سے ذیابیطس mellitus قسم 2 ہے۔",
+                "tr": "Hastanın beş yıldır tip 2 diabetes mellitus'u var."
+            },
+            "id": "v25_01"
+        },
+        {
+            "germanTerm": "Schilddrüse",
+            "article": "die",
+            "plural": "Schilddrüsen",
+            "pronunciation": "/ˈʃɪltˌdʁyːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "Thyroid gland",
+                "bn": "থাইরয়েড গ্রন্থি",
+                "hi": "थाइरोइड ग्रंथि",
+                "ur": "تائرواڈ گلینڈ",
+                "tr": "Tiroid bezi"
+            },
+            "exampleSentence": "Die Schilddrüse des Patienten ist vergrößert.",
+            "exampleTranslation": {
+                "en": "The patient's thyroid gland is enlarged.",
+                "bn": "রোগীর থাইরয়েড গ্রন্থি বড় হয়ে গেছে।",
+                "hi": "रोगी की थाइरोइड ग्रंथि बढ़ गई है।",
+                "ur": "مریض کا تائرواڈ گلینڈ بڑھا ہوا ہے۔",
+                "tr": "Hastanın tiroid bezi büyümüş."
+            },
+            "id": "v25_02"
+        },
+        {
+            "germanTerm": "Hyperthyreose",
+            "article": "die",
+            "plural": "Hyperthyreosen",
+            "pronunciation": "/hypɐtʏʁeˈoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "Hyperthyroidism",
+                "bn": "হাইপারথাইরয়েডিজম",
+                "hi": "हाइपरथायरायडिज्म",
+                "ur": "ہائپر تھائیرائڈزم",
+                "tr": "Hipertiroidizm"
+            },
+            "exampleSentence": "Bei der Patientin wurde eine Hyperthyreose diagnostiziert.",
+            "exampleTranslation": {
+                "en": "The patient was diagnosed with hyperthyroidism.",
+                "bn": "রোগীকে হাইপারথাইরয়েডিজম ধরা পড়েছে।",
+                "hi": "रोगी को हाइपरथायरायडिज्म का निदान किया गया।",
+                "ur": "مریضہ کو ہائپر تھائیرائڈزم کی تشخیص ہوئی ہے۔",
+                "tr": "Hastaya hipertiroidizm teşhisi kondu."
+            },
+            "id": "v25_03"
+        },
+        {
+            "germanTerm": "Hypothyreose",
+            "article": "die",
+            "plural": "Hypothyreosen",
+            "pronunciation": "/hypotʏʁeˈoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "Hypothyroidism",
+                "bn": "হাইপোথাইরয়েডিজম",
+                "hi": "हाइपोथायरायडिज्म",
+                "ur": "ہائپو تھائیرائڈزم",
+                "tr": "Hipotiroidizm"
+            },
+            "exampleSentence": "Die Hypothyreose wird mit L-Thyroxin behandelt.",
+            "exampleTranslation": {
+                "en": "Hypothyroidism is treated with L-thyroxine.",
+                "bn": "হাইপোথাইরয়েডিজম এল-থাইরক্সিন দিয়ে চিকিৎসা করা হয়।",
+                "hi": "हाइपोथायरायडिज्म का इलाज एल-थायरोक्सिन से किया जाता है।",
+                "ur": "ہائپو تھائیرائڈزم کا علاج ایل-تھائروکسین سے کیا جاتا ہے۔",
+                "tr": "Hipotiroidizm L-tiroksin ile tedavi edilir."
+            },
+            "id": "v25_04"
+        },
+        {
+            "germanTerm": "HbA1c",
+            "article": "der",
+            "plural": "HbA1c-Werte",
+            "pronunciation": "/ˌhaːbeːʔat͡sˈeːʔɛns/",
+            "category": "noun",
+            "translation": {
+                "en": "HbA1c",
+                "bn": "HbA1c",
+                "hi": "एचबीए1सी",
+                "ur": "ایچ بی اے 1 سی",
+                "tr": "HbA1c"
+            },
+            "exampleSentence": "Der HbA1c-Wert des Patienten liegt bei 7,5 %.",
+            "exampleTranslation": {
+                "en": "The patient's HbA1c value is 7.5%.",
+                "bn": "রোগীর HbA1c-এর মান 7.5%।",
+                "hi": "रोगी का एचबीए1सी मान 7.5% है।",
+                "ur": "مریض کی HbA1c قدر 7.5 فیصد ہے۔",
+                "tr": "Hastanın HbA1c değeri %7.5'tir."
+            },
+            "id": "v25_05"
+        },
+        {
+            "germanTerm": "Insulin",
+            "article": "das",
+            "plural": "Insuline",
+            "pronunciation": "/ɪnzuˈliːn/",
+            "category": "noun",
+            "translation": {
+                "en": "Insulin",
+                "bn": "ইনসুলিন",
+                "hi": "इंसुलिन",
+                "ur": "انسولین",
+                "tr": "İnsülin"
+            },
+            "exampleSentence": "Der Patient benötigt Insulin zur Blutzuckerkontrolle.",
+            "exampleTranslation": {
+                "en": "The patient needs insulin to control blood sugar.",
+                "bn": "রোগীর রক্তের শর্করা নিয়ন্ত্রণের জন্য ইনসুলিনের প্রয়োজন।",
+                "hi": "रोगी को रक्त शर्करा को नियंत्रित करने के लिए इंसुलिन की आवश्यकता है।",
+                "ur": "مریض کو خون میں شکر کو قابو کرنے کے لیے انسولین کی ضرورت ہے۔",
+                "tr": "Hastanın kan şekerini kontrol etmek için insüline ihtiyacı var."
+            },
+            "id": "v25_06"
+        },
+        {
+            "germanTerm": "Glukose",
+            "article": "die",
+            "plural": "Glukosen",
+            "pronunciation": "/ɡluˈkoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "Glucose",
+                "bn": "গ্লুকোজ",
+                "hi": "ग्लूकोज",
+                "ur": "گلوکوز",
+                "tr": "Glikoz"
+            },
+            "exampleSentence": "Die intravenöse Glukosegabe erfolgte problemlos.",
+            "exampleTranslation": {
+                "en": "The intravenous glucose administration went smoothly.",
+                "bn": "শিরায় গ্লুকোজ দেওয়া মসৃণভাবে সম্পন্ন হয়েছে।",
+                "hi": "अंतःशिरा ग्लूकोज प्रशासन सुचारू रूप से चला।",
+                "ur": "وریدی گلوکوز انتظامی آسانی سے ہو گیا۔",
+                "tr": "İntravenöz glikoz uygulaması sorunsuz gerçekleşti."
+            },
+            "id": "v25_07"
+        },
+        {
+            "germanTerm": "Blutzucker",
+            "article": "der",
+            "plural": "Blutzucker",
+            "pronunciation": "/ˈbluːtˌtsʊkɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "Blood sugar",
+                "bn": "রক্তের শর্করা",
+                "hi": "रक्त शर्करा",
+                "ur": "خون میں شوگر",
+                "tr": "Kan şekeri"
+            },
+            "exampleSentence": "Der Blutzucker sollte regelmäßig gemessen werden.",
+            "exampleTranslation": {
+                "en": "Blood sugar should be measured regularly.",
+                "bn": "রক্তের শর্করা নিয়মিত পরিমাপ করা উচিত।",
+                "hi": "रक्त शर्करा को नियमित रूप से मापा जाना चाहिए।",
+                "ur": "خون میں شکر کو باقاعدگی سے ماپا جانا چاہیے۔",
+                "tr": "Kan şekeri düzenli olarak ölçülmelidir."
+            },
+            "id": "v25_08"
+        },
+        {
+            "germanTerm": "Insulinresistenz",
+            "article": "die",
+            "plural": "Insulinresistenzen",
+            "pronunciation": "/ɪnzuliːnʁezɪsˈtɛnt͡s/",
+            "category": "noun",
+            "translation": {
+                "en": "Insulin resistance",
+                "bn": "ইনসুলিন প্রতিরোধ",
+                "hi": "इंसुलिन प्रतिरोध",
+                "ur": "انسولین مزاحمت",
+                "tr": "İnsülin direnci"
+            },
+            "exampleSentence": "Adipositas kann zu Insulinresistenz führen.",
+            "exampleTranslation": {
+                "en": "Obesity can lead to insulin resistance.",
+                "bn": "স্থূলতা ইনসুলিন প্রতিরোধের কারণ হতে পারে।",
+                "hi": "मोटापा इंसुलिन प्रतिरोध का कारण बन सकता है।",
+                "ur": "موٹاپا انسولین مزاحمت کا باعث بن سکتا ہے۔",
+                "tr": "Obezite insülin direncine yol açabilir."
+            },
+            "id": "v25_09"
+        },
+        {
+            "germanTerm": "Autoimmunerkrankung",
+            "article": "die",
+            "plural": "Autoimmunerkrankungen",
+            "pronunciation": "/aʊ̯toɪ̯muːnʔɛɐ̯ˈkʁaŋkʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "Autoimmune disease",
+                "bn": "অটোইমিউন রোগ",
+                "hi": "ऑटोइम्यून बीमारी",
+                "ur": "خودکار مدافعتی بیماری",
+                "tr": "Otoimmün hastalık"
+            },
+            "exampleSentence": "Hashimoto-Thyreoiditis ist eine Autoimmunerkrankung der Schilddrüse.",
+            "exampleTranslation": {
+                "en": "Hashimoto's thyroiditis is an autoimmune disease of the thyroid gland.",
+                "bn": "Hashimoto-এর থাইরয়েডাইটিস হলো থাইরয়েড গ্রন্থির একটি অটোইমিউন রোগ।",
+                "hi": "हाशिमोटो का थायरॉयडिटिस थायरॉयड ग्रंथि की एक ऑटोइम्यून बीमारी है।",
+                "ur": "Hashimoto کی تھائیرائیڈائٹس تھائرواڈ گلینڈ کی ایک خودکار مدافعتی بیماری ہے۔",
+                "tr": "Hashimoto tiroiditi, tiroid bezinin otoimmün bir hastalığıdır."
+            },
+            "id": "v25_10"
+        },
+        {
+            "germanTerm": "Schilddrüsenhormone",
+            "article": "die (pl.)",
+            "plural": "Schilddrüsenhormone",
+            "pronunciation": "/ˈʃɪltˌdʁyːzn̩hɔʁˈmoːnə/",
+            "category": "noun",
+            "translation": {
+                "en": "Thyroid hormones",
+                "bn": "থাইরয়েড হরমোন",
+                "hi": "थायराइड हार्मोन",
+                "ur": "تائرواڈ ہارمونز",
+                "tr": "Tiroid hormonları"
+            },
+            "exampleSentence": "Die Schilddrüsenhormone T3 und T4 werden im Labor bestimmt.",
+            "exampleTranslation": {
+                "en": "The thyroid hormones T3 and T4 are determined in the laboratory.",
+                "bn": "থাইরয়েড হরমোন T3 এবং T4 ল্যাবে নির্ধারণ করা হয়।",
+                "hi": "थायराइड हार्मोन टी3 और टी4 प्रयोगशाला में निर्धारित किए जाते हैं।",
+                "ur": "تائرواڈ ہارمونز T3 اور T4 لیبارٹری میں متعین کیے جاتے ہیں۔",
+                "tr": "Tiroid hormonları T3 ve T4 laboratuvarda belirlenir."
+            },
+            "id": "v25_11"
+        },
+        {
+            "germanTerm": "TSH (Thyreoidea-stimulierendes Hormon)",
+            "article": "das",
+            "plural": "TSH-Werte",
+            "pronunciation": "/teːʔɛsˈhaː/",
+            "category": "noun",
+            "translation": {
+                "en": "TSH (Thyroid-stimulating hormone)",
+                "bn": "TSH (থাইরয়েড-উত্তেজক হরমোন)",
+                "hi": "टीएसएच (थायराइड-उत्तेजक हार्मोन)",
+                "ur": "ٹی ایس ایچ (تائرواڈ کو متحرک کرنے والا ہارمون)",
+                "tr": "TSH (Tiroid uyarıcı hormon)"
+            },
+            "exampleSentence": "Ein erhöhter TSH-Wert kann auf eine Hypothyreose hinweisen.",
+            "exampleTranslation": {
+                "en": "An elevated TSH level may indicate hypothyroidism.",
+                "bn": "একটি উচ্চ TSH মাত্রা হাইপোথাইরয়েডিজম নির্দেশ করতে পারে।",
+                "hi": "एक ऊंचा टीएसएच स्तर हाइपोथायरायडिज्म का संकेत दे सकता है।",
+                "ur": "ٹی ایس ایچ کی بلند سطح ہائپو تھائیرائڈزم کی نشاندہی کر سکتی ہے۔",
+                "tr": "Yüksek bir TSH seviyesi hipotiroidizme işaret edebilir."
+            },
+            "id": "v25_12"
+        },
+        {
+            "germanTerm": "endokrin",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ɛndokˈʁiːn/",
+            "category": "adjective",
+            "translation": {
+                "en": "Endocrine",
+                "bn": "অন্তঃস্রাবী",
+                "hi": "अंतःस्रावी",
+                "ur": "انڈوکرائن",
+                "tr": "Endokrin"
+            },
+            "exampleSentence": "Die endokrinen Organe produzieren Hormone.",
+            "exampleTranslation": {
+                "en": "The endocrine organs produce hormones.",
+                "bn": "অন্তঃস্রাবী অঙ্গগুলি হরমোন তৈরি করে।",
+                "hi": "अंतःस्रावी अंग हार्मोन का उत्पादन करते हैं।",
+                "ur": "انڈوکرائن اعضاء ہارمونز پیدا کرتے ہیں۔",
+                "tr": "Endokrin organlar hormon üretir."
+            },
+            "id": "v25_13"
+        },
+        {
+            "germanTerm": "peripher",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/peʁiˈfeːɐ̯/",
+            "category": "adjective",
+            "translation": {
+                "en": "Peripheral",
+                "bn": "পেরিফেরাল",
+                "hi": "परिधीय",
+                "ur": "پیریفرل",
+                "tr": "Periferik"
+            },
+            "exampleSentence": "Bei Diabetes kann es zu peripheren Neuropathien kommen.",
+            "exampleTranslation": {
+                "en": "Peripheral neuropathies can occur in diabetes.",
+                "bn": "ডায়াবেটিসে পেরিফেরাল নিউরোপ্যাথি হতে পারে।",
+                "hi": "मधुमेह में परिधीय न्यूरोपैथी हो सकती है।",
+                "ur": "ذیابیطس میں پیریفرل نیوروپیتھی ہو سکتی ہے۔",
+                "tr": "Diyabette periferik nöropatiler oluşabilir."
+            },
+            "id": "v25_14"
+        },
+        {
+            "germanTerm": "Nüchternblutzucker",
+            "article": "der",
+            "plural": "Nüchternblutzucker",
+            "pronunciation": "/ˈnʏçtɐnˌbluːtˌtsʊkɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "Fasting blood sugar",
+                "bn": "ফাস্টিং ব্লাড সুগার",
+                "hi": "उपवास रक्त शर्करा",
+                "ur": "روزے کے خون میں شوگر",
+                "tr": "Açlık kan şekeri"
+            },
+            "exampleSentence": "Der Nüchternblutzucker war heute morgen erhöht.",
+            "exampleTranslation": {
+                "en": "The fasting blood sugar was elevated this morning.",
+                "bn": "আজ সকালে ফাস্টিং ব্লাড সুগার বেশি ছিল।",
+                "hi": "आज सुबह उपवास रक्त शर्करा बढ़ा हुआ था।",
+                "ur": "آج صبح روزے کے خون میں شوگر بڑھی ہوئی تھی۔",
+                "tr": "Açlık kan şekeri bu sabah yüksekti."
+            },
+            "id": "v25_15"
+        },
+        {
+            "germanTerm": "Glukosetoleranztest",
+            "article": "der",
+            "plural": "Glukosetoleranztests",
+            "pronunciation": "/ɡluˈkoːzətoləˈʁant͡sˌtɛst/",
+            "category": "noun",
+            "translation": {
+                "en": "Glucose tolerance test",
+                "bn": "গ্লুকোজ টলারেন্স পরীক্ষা",
+                "hi": "ग्लूकोज सहनशीलता परीक्षण",
+                "ur": "گلوکوز رواداری ٹیسٹ",
+                "tr": "Glikoz tolerans testi"
+            },
+            "exampleSentence": "Ein Glukosetoleranztest wurde durchgeführt, um einen Diabetes auszuschließen.",
+            "exampleTranslation": {
+                "en": "A glucose tolerance test was performed to rule out diabetes.",
+                "bn": "ডায়াবেটিস বাতিল করার জন্য একটি গ্লুকোজ টলারেন্স পরীক্ষা করা হয়েছিল।",
+                "hi": "मधुमेह को खारिज करने के लिए एक ग्लूकोज सहनशीलता परीक्षण किया गया था।",
+                "ur": "ذیابیطس کو خارج کرنے کے لیے گلوکوز رواداری ٹیسٹ کیا گیا تھا۔",
+                "tr": "Diyabeti ekarte etmek için bir glikoz tolerans testi yapıldı."
+            },
+            "id": "v25_16"
+        },
+        {
+            "germanTerm": "Polyneuropathie",
+            "article": "die",
+            "plural": "Polyneuropathien",
+            "pronunciation": "/ˌpoliːnɔɪ̯ʁopaˈtiː/",
+            "category": "noun",
+            "translation": {
+                "en": "Polyneuropathy",
+                "bn": "পলিনুরোপ্যাথি",
+                "hi": "पॉलीन्यूरोपैथी",
+                "ur": "پولی نیوروپیتھی",
+                "tr": "Polinöropati"
+            },
+            "exampleSentence": "Die Polyneuropathie verursacht Schmerzen und Taubheit in den Füßen.",
+            "exampleTranslation": {
+                "en": "The polyneuropathy causes pain and numbness in the feet.",
+                "bn": "পলিনুরোপ্যাথি পায়ের মধ্যে ব্যথা এবং অসাড়তা সৃষ্টি করে।",
+                "hi": "पॉलीन्यूरोपैथी पैरों में दर्द और सुन्नता का कारण बनती है।",
+                "ur": "پولی نیوروپیتھی پاؤں میں درد اور بے حسی کا سبب بنتی ہے۔",
+                "tr": "Polinöropati ayaklarda ağrı ve uyuşmaya neden olur."
+            },
+            "id": "v25_17"
+        },
+        {
+            "germanTerm": "Retinopathie",
+            "article": "die",
+            "plural": "Retinopathien",
+            "pronunciation": "/ʁetinopaˈtiː/",
+            "category": "noun",
+            "translation": {
+                "en": "Retinopathy",
+                "bn": "রেটিনোপ্যাথি",
+                "hi": "रेटिनोपैथी",
+                "ur": "ریٹینوپیتھی",
+                "tr": "Retinopati"
+            },
+            "exampleSentence": "Die diabetische Retinopathie muss regelmäßig kontrolliert werden.",
+            "exampleTranslation": {
+                "en": "Diabetic retinopathy must be checked regularly.",
+                "bn": "ডায়াবেটিক রেটিনোপ্যাথি নিয়মিত পরীক্ষা করা উচিত।",
+                "hi": "मधुमेह रेटिनोपैथी की नियमित रूप से जांच की जानी चाहिए।",
+                "ur": "ذیابیطس ریٹینوپیتھی کو باقاعدگی سے چیک کرنا چاہیے۔",
+                "tr": "Diyabetik retinopati düzenli olarak kontrol edilmelidir."
+            },
+            "id": "v25_18"
+        },
+        {
+            "germanTerm": "Nephropathie",
+            "article": "die",
+            "plural": "Nephropathien",
+            "pronunciation": "/nɛfʁopaˈtiː/",
+            "category": "noun",
+            "translation": {
+                "en": "Nephropathy",
+                "bn": "নেফ্রোপ্যাথি",
+                "hi": "नेफ्रोपैथी",
+                "ur": "نیفروپیتھی",
+                "tr": "Nefropati"
+            },
+            "exampleSentence": "Die diabetische Nephropathie kann zu Nierenversagen führen.",
+            "exampleTranslation": {
+                "en": "Diabetic nephropathy can lead to kidney failure.",
+                "bn": "ডায়াবেটিক নেফ্রোপ্যাথি কিডনি ফেইলিউর হতে পারে।",
+                "hi": "मधुमेह नेफ्रोपैथी गुर्दे की विफलता का कारण बन सकती है।",
+                "ur": "ذیابیطس نیفروپیتھی گردے کی ناکامی کا سبب بن سکتی ہے۔",
+                "tr": "Diyabetik nefropati böbrek yetmezliğine yol açabilir."
+            },
+            "id": "v25_19"
+        },
+        {
+            "germanTerm": "Fussulkus",
+            "article": "das",
+            "plural": "Fussulkus",
+            "pronunciation": "/ˈfuːsˌʔʊlkʊs/",
+            "category": "noun",
+            "translation": {
+                "en": "Foot ulcer",
+                "bn": "পায়ের আলসার",
+                "hi": "पैर का अल्सर",
+                "ur": "پاؤں کا السر",
+                "tr": "Ayak ülseri"
+            },
+            "exampleSentence": "Der Patient hat ein diabetisches Fussulkus am linken Fuß.",
+            "exampleTranslation": {
+                "en": "The patient has a diabetic foot ulcer on his left foot.",
+                "bn": "রোগীর বাম পায়ে একটি ডায়াবেটিক পায়ের আলসার আছে।",
+                "hi": "रोगी के बाएं पैर पर एक मधुमेह पैर का अल्सर है।",
+                "ur": "مریض کے بائیں پاؤں پر ذیابیطس پاؤں کا السر ہے۔",
+                "tr": "Hastanın sol ayağında diyabetik ayak ülseri var."
+            },
+            "id": "v25_20"
+        },
+        {
+            "germanTerm": "Diät",
+            "article": "die",
+            "plural": "Diäten",
+            "pronunciation": "/diˈɛːt/",
+            "category": "noun",
+            "translation": {
+                "en": "Diet",
+                "bn": "খাদ্য",
+                "hi": "आहार",
+                "ur": "غذا",
+                "tr": "Diyet"
+            },
+            "exampleSentence": "Eine ausgewogene Diät ist wichtig für Diabetiker.",
+            "exampleTranslation": {
+                "en": "A balanced diet is important for diabetics.",
+                "bn": "ডায়াবেটিস রোগীদের জন্য একটি সুষম খাদ্য গুরুত্বপূর্ণ।",
+                "hi": "मधुमेह रोगियों के लिए एक संतुलित आहार महत्वपूर्ण है।",
+                "ur": "ذیابیطس کے مریضوں کے لیے متوازن غذا اہم ہے۔",
+                "tr": "Dengeli bir diyet diyabetliler için önemlidir."
+            },
+            "id": "v25_21"
+        },
+        {
+            "germanTerm": "Bewegung",
+            "article": "die",
+            "plural": "Bewegungen",
+            "pronunciation": "/bəˈveːɡʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "Exercise",
+                "bn": "ব্যায়াম",
+                "hi": "व्यायाम",
+                "ur": "ورزش",
+                "tr": "Egzersiz"
+            },
+            "exampleSentence": "Regelmäßige Bewegung hilft bei der Blutzuckerkontrolle.",
+            "exampleTranslation": {
+                "en": "Regular exercise helps control blood sugar.",
+                "bn": "নিয়মিত ব্যায়াম রক্তের শর্করা নিয়ন্ত্রণে সাহায্য করে।",
+                "hi": "नियमित व्यायाम रक्त शर्करा को नियंत्रित करने में मदद करता है।",
+                "ur": "باقاعدہ ورزش خون میں شکر کو قابو کرنے میں مدد کرتی ہے۔",
+                "tr": "Düzenli egzersiz kan şekerini kontrol etmeye yardımcı olur."
+            },
+            "id": "v25_22"
+        },
+        {
+            "germanTerm": "Thyreostatika",
+            "article": "die (pl.)",
+            "plural": "Thyreostatika",
+            "pronunciation": "/tyʁe̯oˈstaːtika/",
+            "category": "noun",
+            "translation": {
+                "en": "Thyreostatics",
+                "bn": "থাইরোস্ট্যাটিক্স",
+                "hi": "थायरोस्टैटिक्स",
+                "ur": "تھائروسٹیٹکس",
+                "tr": "Tirostatikler"
+            },
+            "exampleSentence": "Bei Hyperthyreose werden Thyreostatika eingesetzt.",
+            "exampleTranslation": {
+                "en": "Thyreostatics are used in hyperthyroidism.",
+                "bn": "হাইপারথাইরয়েডিজমের ক্ষেত্রে থাইরোস্ট্যাটিক্স ব্যবহার করা হয়।",
+                "hi": "हाइपरथायरायडिज्म में थायरोस्टैटिक्स का उपयोग किया जाता है।",
+                "ur": "ہائپر تھائیرائڈزم میں تھائروسٹیٹکس استعمال کیے جاتے ہیں۔",
+                "tr": "Hipertiroidizmde tirostatikler kullanılır."
+            },
+            "id": "v25_23"
+        },
+        {
+            "germanTerm": "L-Thyroxin",
+            "article": "das",
+            "plural": "L-Thyroxine",
+            "pronunciation": "/ɛl tyˈʁɔksiːn/",
+            "category": "noun",
+            "translation": {
+                "en": "L-Thyroxine",
+                "bn": "এল-থাইরক্সিন",
+                "hi": "एल-थायरोक्सिन",
+                "ur": "ایل-تھائروکسین",
+                "tr": "L-tiroksin"
+            },
+            "exampleSentence": "Die Patientin nimmt täglich L-Thyroxin ein.",
+            "exampleTranslation": {
+                "en": "The patient takes L-thyroxine daily.",
+                "bn": "রোগী প্রতিদিন এল-থাইরক্সিন গ্রহণ করেন।",
+                "hi": "रोगी प्रतिदिन एल-थायरोक्सिन लेता है।",
+                "ur": "مریض روزانہ ایل-تھائروکسین لیتا ہے۔",
+                "tr": "Hasta her gün L-tiroksin alır."
+            },
+            "id": "v25_24"
+        },
+        {
+            "germanTerm": "Struma",
+            "article": "die",
+            "plural": "Strumen",
+            "pronunciation": "/ˈʃtʁuːma/",
+            "category": "noun",
+            "translation": {
+                "en": "Goiter",
+                "bn": "গলগণ্ড",
+                "hi": "घेंघा",
+                "ur": "گلہڑ",
+                "tr": "Guatr"
+            },
+            "exampleSentence": "Die Struma wird operativ entfernt.",
+            "exampleTranslation": {
+                "en": "The goiter is surgically removed.",
+                "bn": "গলগণ্ড অস্ত্রোপচারের মাধ্যমে সরানো হয়েছে।",
+                "hi": "घेंघा को शल्य चिकित्सा द्वारा हटाया जाता है।",
+                "ur": "گلہڑ کو جراحی سے ہٹا دیا جاتا ہے۔",
+                "tr": "Guatr cerrahi olarak çıkarılır."
+            },
+            "id": "v25_25"
+        },
+        {
+            "germanTerm": "Ernährungsberatung",
+            "article": "die",
+            "plural": "Ernährungsberatungen",
+            "pronunciation": "/ɛɐ̯ˈnɛːʁʊŋsbəˌʁaːtʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "Nutritional counseling",
+                "bn": "পুষ্টি পরামর্শ",
+                "hi": "पोषण परामर्श",
+                "ur": "غذائی مشاورت",
+                "tr": "Beslenme danışmanlığı"
+            },
+            "exampleSentence": "Der Patient erhält eine Ernährungsberatung zur Diabetes-Therapie.",
+            "exampleTranslation": {
+                "en": "The patient receives nutritional counseling for diabetes therapy.",
+                "bn": "রোগী ডায়াবেটিস চিকিৎসার জন্য পুষ্টি পরামর্শ গ্রহণ করেন।",
+                "hi": "रोगी को मधुमेह चिकित्सा के लिए पोषण परामर्श मिलता है।",
+                "ur": "مریض کو ذیابیطس کے علاج کے لیے غذائی مشاورت ملتی ہے۔",
+                "tr": "Hasta, diyabet tedavisi için beslenme danışmanlığı alır."
+            },
+            "id": "v25_26"
+        },
+        {
+            "germanTerm": "Mikroangiopathie",
+            "article": "die",
+            "plural": "Mikroangiopathien",
+            "pronunciation": "/mikʁoʔangiopaˈtiː/",
+            "category": "noun",
+            "translation": {
+                "en": "Microangiopathy",
+                "bn": "মাইক্রোএঞ্জিওপ্যাথি",
+                "hi": "माइक्रोएंजियोपैथी",
+                "ur": "مائیکروانجیوپیتھی",
+                "tr": "Mikroanjiyopati"
+            },
+            "exampleSentence": "Die Mikroangiopathie kann zu Organschäden führen.",
+            "exampleTranslation": {
+                "en": "Microangiopathy can lead to organ damage.",
+                "bn": "মাইক্রোএঞ্জিওপ্যাথি অঙ্গের ক্ষতি করতে পারে।",
+                "hi": "माइक्रोएंजियोपैथी से अंगों को नुकसान हो सकता है।",
+                "ur": "مائیکروانجیوپیتھی اعضاء کو نقصان پہنچا سکتی ہے۔",
+                "tr": "Mikroanjiyopati organ hasarına yol açabilir."
+            },
+            "id": "v25_27"
+        },
+        {
+            "germanTerm": "Makroangiopathie",
+            "article": "die",
+            "plural": "Makroangiopathien",
+            "pronunciation": "/makʁoʔangiopaˈtiː/",
+            "category": "noun",
+            "translation": {
+                "en": "Macroangiopathy",
+                "bn": "ম্যাক্রোএঞ্জিওপ্যাথি",
+                "hi": "मैक्रोएंजियोपैथी",
+                "ur": "میکروانجیوپیتھی",
+                "tr": "Makroanjiyopati"
+            },
+            "exampleSentence": "Die Makroangiopathie betrifft größere Blutgefäße.",
+            "exampleTranslation": {
+                "en": "Macroangiopathy affects larger blood vessels.",
+                "bn": "ম্যাক্রোএঞ্জিওপ্যাথি বৃহত্তর রক্তনালীগুলিকে প্রভাবিত করে।",
+                "hi": "मैक्रोएंजियोपैथी बड़ी रक्त वाहिकाओं को प्रभावित करती है।",
+                "ur": "میکروانجیوپیتھی بڑی خون کی نالیوں کو متاثر کرتی ہے۔",
+                "tr": "Makroanjiyopati daha büyük kan damarlarını etkiler."
+            },
+            "id": "v25_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Diabetes Mellitus Consultation",
+                "bn": "ডায়াবেটিস মেলিটাস পরামর্শ",
+                "hi": "मधुमेह मेलिटस परामर्श",
+                "ur": "ذیابیطس میلیتس مشاورت",
+                "tr": "Diabetes Mellitus Konsültasyonu"
+            },
+            "context": {
+                "en": "Dr. Schmidt discusses diabetes management with Patient Müller after reviewing his HbA1c results.",
+                "bn": "ডক্টর শ্মিট জনাব মুলারের এইচবিএ১সি ফলাফলের পর্যালোচনা করার পর তার সাথে ডায়াবেটিস ব্যবস্থাপনা নিয়ে আলোচনা করছেন।",
+                "hi": "डॉक्टर श्मिट श्री मुलर के एचबीए1सी परिणामों की समीक्षा करने के बाद उनके साथ मधुमेह प्रबंधन पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر شمٹ مسٹر مولر کے ایچ بی اے 1 سی نتائج کا جائزہ لینے کے بعد ان کے ساتھ ذیابیطس کے انتظام پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Dr. Schmidt, Bay Müller'in HbA1c sonuçlarını inceledikten sonra diyabet yönetimi hakkında konuşuyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Tag, Herr Müller. Ihr HbA1c-Wert ist leider etwas hoch, bei 7,8%.",
+                    "translation": {
+                        "en": "Good day, Mr. Müller. Unfortunately, your HbA1c level is a bit high, at 7.8%.",
+                        "bn": "শুভ দিন, জনাব মুলার। দুর্ভাগ্যবশত, আপনার HbA1c এর মাত্রা একটু বেশি, ৭.৮%।",
+                        "hi": "शुभ दिन, श्री मुलर। दुर्भाग्य से, आपका HbA1c स्तर थोड़ा अधिक है, 7.8% पर।",
+                        "ur": "شب بخیر، مسٹر مولر۔ بدقسمتی سے، آپ کا ایچ بی اے 1 سی لیول تھوڑا زیادہ ہے، 7.8٪ پر۔",
+                        "tr": "İyi günler Bay Müller. Maalesef HbA1c değeriniz biraz yüksek, %7.8."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Oh, das ist nicht gut. Ich habe versucht, mich an meine Diät zu halten.",
+                    "translation": {
+                        "en": "Oh, that's not good. I've been trying to stick to my diet.",
+                        "bn": "ওহ, এটা ভালো না। আমি আমার খাদ্যতালিকা মেনে চলার চেষ্টা করেছি।",
+                        "hi": "ओह, यह अच्छा नहीं है। मैं अपने आहार का पालन करने की कोशिश कर रहा हूँ।",
+                        "ur": "اوہ، یہ اچھا نہیں ہے۔ میں اپنی خوراک پر عمل کرنے کی کوشش کر رہا ہوں۔",
+                        "tr": "Ah, bu iyi değil. Diyetimi uygulamaya çalışıyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir sollten Ihre Insulindosis anpassen. Erhöhen wir sie um 2 Einheiten vor dem Abendessen.",
+                    "translation": {
+                        "en": "We should adjust your insulin dosage. Let's increase it by 2 units before dinner.",
+                        "bn": "আমাদের আপনার ইনসুলিনের মাত্রা সামঞ্জস্য করা উচিত। রাতের খাবারের আগে ২ ইউনিট বাড়ানো যাক।",
+                        "hi": "हमें आपकी इंसुलिन की खुराक को समायोजित करना चाहिए। चलो रात के खाने से पहले इसे 2 यूनिट बढ़ाते हैं।",
+                        "ur": "ہمیں آپ کی انسولین کی خوراک کو ایڈجسٹ کرنا چاہئے۔ آئیے رات کے کھانے سے پہلے اسے 2 یونٹ بڑھاتے ہیں۔",
+                        "tr": "İnsülin dozunuzu ayarlamalıyız. Akşam yemeğinden önce 2 ünite artıralım."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Okay, das kann ich machen. Gibt es noch etwas, worauf ich achten sollte?",
+                    "translation": {
+                        "en": "Okay, I can do that. Is there anything else I should pay attention to?",
+                        "bn": "ঠিক আছে, আমি এটা করতে পারি। আর কিছু কি আছে যা আমার খেয়াল রাখা উচিত?",
+                        "hi": "ठीक है, मैं ऐसा कर सकता हूँ। क्या कुछ और है जिस पर मुझे ध्यान देना चाहिए?",
+                        "ur": "ٹھیک ہے، میں یہ کر سکتا ہوں۔ کیا کوئی اور چیز ہے جس پر مجھے توجہ دینی چاہیے؟",
+                        "tr": "Tamam, bunu yapabilirim. Dikkat etmem gereken başka bir şey var mı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Regelmäßige Bewegung und Blutzuckerkontrollen sind wichtig. Wir sehen uns in drei Monaten wieder.",
+                    "translation": {
+                        "en": "Regular exercise and blood sugar monitoring are important. We'll see each other again in three months.",
+                        "bn": "নিয়মিত ব্যায়াম এবং রক্তে শর্করার নিরীক্ষণ গুরুত্বপূর্ণ। আমরা তিন মাস পর আবার দেখা করব।",
+                        "hi": "नियमित व्यायाम और रक्त शर्करा की निगरानी महत्वपूर्ण है। हम तीन महीने में फिर मिलेंगे।",
+                        "ur": "باقاعدگی سے ورزش اور خون میں شوگر کی نگرانی ضروری ہے۔ ہم تین مہینوں میں دوبارہ ملیں گے۔",
+                        "tr": "Düzenli egzersiz ve kan şekeri takibi önemlidir. Üç ay sonra tekrar görüşeceğiz."
+                    }
+                }
+            ],
+            "id": "d25_01"
+        },
+        {
+            "title": {
+                "en": "Thyroid Ultrasound Request",
+                "bn": "থাইরয়েড আল্ট্রাসাউন্ড অনুরোধ",
+                "hi": "थायराइड अल्ट्रासाउंड अनुरोध",
+                "ur": "تائرواڈ الٹراساؤنڈ کی درخواست",
+                "tr": "Tiroid Ultrason İsteği"
+            },
+            "context": {
+                "en": "Dr. Weber asks Nurse Schmidt to schedule a thyroid ultrasound for a patient with suspected hypothyroidism.",
+                "bn": "ডক্টর ওয়েবার সিস্টার শ্মিটকে সন্দেহজনক হাইপোথাইরয়েডিজম আছে এমন একজন রোগীর জন্য থাইরয়েড আল্ট্রাসাউন্ডের সময় নির্ধারণ করতে বলেছেন।",
+                "hi": "डॉक्टर वेबर सिस्टर श्मिट से संदिग्ध हाइपोथायरायडिज्म वाले रोगी के लिए थायराइड अल्ट्रासाउंड का समय निर्धारित करने के लिए कहते हैं।",
+                "ur": "ڈاکٹر ویبر نرس شمٹ سے مشتبہ ہائپوتھائیرائڈزم والے مریض کے لئے تھائرائڈ الٹراساؤنڈ کا وقت طے کرنے کے لئے کہتے ہیں۔",
+                "tr": "Dr. Weber, Hemşire Schmidt'ten hipotiroidizm şüphesi olan bir hasta için tiroid ultrasonu ayarlamasını istiyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Schwester Schmidt, bitte vereinbaren Sie einen Schilddrüsen-Ultraschall für Frau Lehmann.",
+                    "translation": {
+                        "en": "Nurse Schmidt, please schedule a thyroid ultrasound for Mrs. Lehmann.",
+                        "bn": "সিস্টার শ্মিট, অনুগ্রহ করে মিসেস লেহমানের জন্য একটি থাইরয়েড আল্ট্রাসাউন্ডের সময় নির্ধারণ করুন।",
+                        "hi": "सिस्टर श्मिट, कृपया श्रीमती लेहमैन के लिए एक थायराइड अल्ट्रासाउंड का समय निर्धारित करें।",
+                        "ur": "نرس شمٹ، براہ کرم محترمہ لیمن کے لئے تھائرائڈ الٹراساؤنڈ کا وقت طے کریں۔",
+                        "tr": "Hemşire Schmidt, lütfen Bayan Lehmann için bir tiroid ultrasonu ayarlayın."
+                    }
+                },
+                {
+                    "speaker": "Schwester Schmidt",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Jawohl, Herr Doktor. Gibt es eine spezifische Fragestellung?",
+                    "translation": {
+                        "en": "Yes, Doctor. Is there a specific question?",
+                        "bn": "হ্যাঁ, ডাক্তার। কোনো বিশেষ প্রশ্ন আছে?",
+                        "hi": "हाँ, डॉक्टर। क्या कोई विशिष्ट प्रश्न है?",
+                        "ur": "جی ہاں، ڈاکٹر۔ کیا کوئی خاص سوال ہے؟",
+                        "tr": "Evet Doktor. Belirli bir soru var mı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Hypothyreose wird vermutet, wir brauchen die Schilddrüsengröße und eventuelle Knoten.",
+                    "translation": {
+                        "en": "Hypothyroidism is suspected, we need the thyroid size and any nodules.",
+                        "bn": "হাইপোথাইরয়েডিজম সন্দেহ করা হচ্ছে, আমাদের থাইরয়েডের আকার এবং কোনো নোডুল দরকার।",
+                        "hi": "हाइपोथायरायडिज्म संदिग्ध है, हमें थायराइड का आकार और कोई भी नोड्यूल चाहिए।",
+                        "ur": "ہائپوتھائیرائڈزم کا شبہ ہے، ہمیں تائرواڈ کا سائز اور کوئی بھی نوڈولس درکار ہیں۔",
+                        "tr": "Hipotiroidizm şüphesi var, tiroid boyutuna ve herhangi bir nodüle ihtiyacımız var."
+                    }
+                },
+                {
+                    "speaker": "Schwester Schmidt",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Verstanden. Ich kümmere mich darum.",
+                    "translation": {
+                        "en": "Understood. I'll take care of it.",
+                        "bn": "বুঝেছি। আমি এটির ব্যবস্থা করব।",
+                        "hi": "समझ गया। मैं इसका ख्याल रखूंगा।",
+                        "ur": "سمجھ گیا۔ میں اس کا خیال رکھوں گا۔",
+                        "tr": "Anlaşıldı. Ben hallederim."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Danke, Schwester Schmidt.",
+                    "translation": {
+                        "en": "Thank you, Nurse Schmidt.",
+                        "bn": "ধন্যবাদ, সিস্টার শ্মিট।",
+                        "hi": "धन्यवाद, सिस्टर श्मिट।",
+                        "ur": "شکریہ، نرس شمٹ۔",
+                        "tr": "Teşekkürler Hemşire Schmidt."
+                    }
+                }
+            ],
+            "id": "d25_02"
+        },
+        {
+            "title": {
+                "en": "Hyperthyroidism Diagnosis Discussion",
+                "bn": "হাইপারথাইরয়েডিজম নির্ণয় আলোচনা",
+                "hi": "हाइपरथायरायडिज्म निदान चर्चा",
+                "ur": "ہائپر تھائیرائڈزم تشخیص پر تبادلہ خیال",
+                "tr": "Hipertiroidizm Tanı Tartışması"
+            },
+            "context": {
+                "en": "Dr. Schmidt informs Patient Weber about her hyperthyroidism diagnosis and treatment options.",
+                "bn": "ডক্টর শ্মিট জনাব ওয়েবারকে তার হাইপারথাইরয়েডিজম নির্ণয় এবং চিকিৎসার বিকল্প সম্পর্কে জানাচ্ছেন।",
+                "hi": "डॉक्टर श्मिट श्री वेबर को उनके हाइपरथायरायडिज्म निदान और उपचार के विकल्पों के बारे में जानकारी दे रहे हैं।",
+                "ur": "ڈاکٹر شمٹ مسٹر ویبر کو ان کی ہائپر تھائیرائڈزم تشخیص اور علاج کے اختیارات کے بارے میں معلومات دے رہے ہیں۔",
+                "tr": "Dr. Schmidt, Bay Weber'e hipertiroidizm teşhisi ve tedavi seçenekleri hakkında bilgi veriyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Frau Weber, die Blutwerte bestätigen eine Hyperthyreose, also eine Schilddrüsenüberfunktion.",
+                    "translation": {
+                        "en": "Mrs. Weber, the blood tests confirm hyperthyroidism, meaning an overactive thyroid.",
+                        "bn": "মিসেস ওয়েবার, রক্ত পরীক্ষাগুলি হাইপারথাইরয়েডিজম নিশ্চিত করে, মানে থাইরয়েডের অতিসক্রিয়তা।",
+                        "hi": "श्रीमती वेबर, रक्त परीक्षण हाइपरथायरायडिज्म की पुष्टि करते हैं, जिसका अर्थ है अतिसक्रिय थायराइड।",
+                        "ur": "محترمہ ویبر، خون کے ٹیسٹ ہائپر تھائیرائڈزم کی تصدیق کرتے ہیں، جس کا مطلب ہے ایک اوور ایکٹو تائرواڈ۔",
+                        "tr": "Bayan Weber, kan testleri hipertiroidizmi doğruluyor, yani aşırı aktif bir tiroidiniz var."
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Was bedeutet das für mich?",
+                    "translation": {
+                        "en": "What does that mean for me?",
+                        "bn": "এর মানে আমার জন্য কী?",
+                        "hi": "इसका मेरे लिए क्या मतलब है?",
+                        "ur": "اس کا میرے لئے کیا مطلب ہے؟",
+                        "tr": "Bu benim için ne anlama geliyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Sie haben verschiedene Symptome, wie Herzrasen und Gewichtsverlust. Wir können das mit Medikamenten behandeln.",
+                    "translation": {
+                        "en": "You have various symptoms, such as rapid heartbeat and weight loss. We can treat this with medication.",
+                        "bn": "আপনার বিভিন্ন উপসর্গ আছে, যেমন দ্রুত হৃদস্পন্দন এবং ওজন হ্রাস। আমরা ওষুধ দিয়ে এর চিকিৎসা করতে পারি।",
+                        "hi": "आपके कई लक्षण हैं, जैसे कि तेजी से दिल धड़कना और वजन कम होना। हम इसे दवा से ठीक कर सकते हैं।",
+                        "ur": "آپ میں مختلف علامات ہیں، جیسے تیز دھڑکن اور وزن میں کمی۔ ہم اس کا علاج دوا سے کر سکتے ہیں۔",
+                        "tr": "Hızlı kalp atışı ve kilo kaybı gibi çeşitli belirtileriniz var. Bunu ilaçlarla tedavi edebiliriz."
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Welche Medikamente wären das?",
+                    "translation": {
+                        "en": "Which medications would that be?",
+                        "bn": "কী ওষুধ হবে?",
+                        "hi": "कौन सी दवाएं होंगी?",
+                        "ur": "وہ کونسی دوائیں ہوں گی؟",
+                        "tr": "Bu hangi ilaçlar olur?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Thyreostatika, um die Hormonproduktion zu senken. Wir besprechen die Details beim nächsten Termin.",
+                    "translation": {
+                        "en": "Thyreostatics, to lower hormone production. We'll discuss the details at the next appointment.",
+                        "bn": "হরমোন উৎপাদন কমাতে থাইরোস্ট্যাটিকস। আমরা পরবর্তী সাক্ষাতে বিস্তারিত আলোচনা করব।",
+                        "hi": "हार्मोन उत्पादन को कम करने के लिए थाइरोस्टैटिक्स। हम अगली नियुक्ति में विवरण पर चर्चा करेंगे।",
+                        "ur": "تھائیروسٹیٹکس، ہارمون کی پیداوار کو کم کرنے کے لئے۔ ہم اگلی ملاقات میں تفصیلات پر تبادلہ خیال کریں گے۔",
+                        "tr": "Hormon üretimini düşürmek için tiyrostatikler. Ayrıntıları bir sonraki randevuda görüşeceğiz."
+                    }
+                }
+            ],
+            "id": "d25_03"
+        },
+        {
+            "title": {
+                "en": "Insulin Injection Training",
+                "bn": "ইনসুলিন ইনজেকশন প্রশিক্ষণ",
+                "hi": "इंसुलिन इंजेक्शन प्रशिक्षण",
+                "ur": "انسولین انجیکشن کی تربیت",
+                "tr": "İnsülin Enjeksiyon Eğitimi"
+            },
+            "context": {
+                "en": "Nurse Weber teaches Patient Schmidt how to properly administer insulin injections.",
+                "bn": "সিস্টার ওয়েবার জনাব শ্মিটকে সঠিকভাবে ইনসুলিন ইনজেকশন দিতে শেখাচ্ছেন।",
+                "hi": "सिस्टर वेबर श्री श्मिट को ठीक से इंसुलिन इंजेक्शन देना सिखा रही हैं।",
+                "ur": "نرس ویبر مسٹر شمٹ کو صحیح طریقے سے انسولین انجیکشن لگانا سکھا رہی ہیں۔",
+                "tr": "Hemşire Weber, Bay Schmidt'e insülin enjeksiyonlarının nasıl doğru şekilde uygulanacağını öğretiyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Schmidt, heute zeige ich Ihnen, wie Sie Ihr Insulin richtig spritzen.",
+                    "translation": {
+                        "en": "Mr. Schmidt, today I'll show you how to properly inject your insulin.",
+                        "bn": "জনাব শ্মিট, আজ আমি আপনাকে দেখাব কিভাবে সঠিকভাবে আপনার ইনসুলিন ইনজেকশন দিতে হয়।",
+                        "hi": "श्री श्मिट, आज मैं आपको दिखाऊंगा कि ठीक से अपना इंसुलिन कैसे इंजेक्ट करें।",
+                        "ur": "مسٹر شمٹ، آج میں آپ کو دکھاؤں گا کہ اپنے انسولین کو صحیح طریقے سے کیسے انجیکٹ کریں۔",
+                        "tr": "Bay Schmidt, bugün size insülininizi nasıl doğru şekilde enjekte edeceğinizi göstereceğim."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich bin etwas nervös, ich habe das noch nie gemacht.",
+                    "translation": {
+                        "en": "I'm a bit nervous, I've never done this before.",
+                        "bn": "আমি একটু নার্ভাস, আমি এটা আগে কখনো করিনি।",
+                        "hi": "मैं थोड़ा घबराया हुआ हूँ, मैंने यह पहले कभी नहीं किया।",
+                        "ur": "میں تھوڑا گھبرایا ہوا ہوں، میں نے یہ پہلے کبھی نہیں کیا۔",
+                        "tr": "Biraz gerginim, bunu daha önce hiç yapmadım."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Keine Sorge, das ist einfacher als es aussieht. Hier ist die Spritze, und hier der Insulinpen.",
+                    "translation": {
+                        "en": "Don't worry, it's easier than it looks. Here's the syringe, and here's the insulin pen.",
+                        "bn": "চিন্তা করবেন না, এটা দেখতে যতটা কঠিন তার চেয়ে সহজ। এই সিরিঞ্জ, এবং এই ইনসুলিন পেন।",
+                        "hi": "चिंता न करें, यह जितना दिखता है उससे आसान है। यहाँ सिरिंज है, और यहाँ इंसुलिन पेन है।",
+                        "ur": "پریشان نہ ہوں، یہ جتنا لگتا ہے اس سے آسان ہے۔ یہ سرنج ہے، اور یہ انسولین قلم ہے۔",
+                        "tr": "Endişelenmeyin, göründüğünden daha kolay. İşte şırınga ve işte insülin kalemi."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Okay, und wo spritze ich das am besten?",
+                    "translation": {
+                        "en": "Okay, and where is the best place to inject it?",
+                        "bn": "ঠিক আছে, এবং এটা ইনজেকশন করার জন্য সেরা জায়গা কোথায়?",
+                        "hi": "ठीक है, और इसे इंजेक्ट करने के लिए सबसे अच्छी जगह कहाँ है?",
+                        "ur": "ٹھیک ہے، اور اسے انجیکٹ کرنے کے لیے بہترین جگہ کہاں ہے؟",
+                        "tr": "Tamam, ve bunu en iyi nereye enjekte ederim?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Am besten in den Bauch oder Oberschenkel. Wir zeigen Ihnen die richtige Technik.",
+                    "translation": {
+                        "en": "The best place is in the abdomen or thigh. We'll show you the correct technique.",
+                        "bn": "পেট বা উরুতে ইনজেকশন করা ভাল। আমরা আপনাকে সঠিক কৌশল দেখাব।",
+                        "hi": "पेट या जांघ में इंजेक्ट करना सबसे अच्छा है। हम आपको सही तकनीक दिखाएंगे।",
+                        "ur": "پیٹ یا ران میں انجیکٹ کرنا سب سے اچھا ہے۔ ہم آپ کو صحیح تکنیک دکھائیں گے۔",
+                        "tr": "En iyi yer karın veya uyluktur. Size doğru tekniği göstereceğiz."
+                    }
+                }
+            ],
+            "id": "d25_04"
+        },
+        {
+            "title": {
+                "en": "Hypothyroidism Medication Adjustment",
+                "bn": "হাইপোথাইরয়েডিজম ঔষধ সমন্বয়",
+                "hi": "हाइपोथायरायडिज्म दवा समायोजन",
+                "ur": "ہائپوتھائیرائڈزم دوا کی ایڈجسٹمنٹ",
+                "tr": "Hipotiroidizm İlaç Ayarlaması"
+            },
+            "context": {
+                "en": "Dr. Weber discusses adjusting Patient Lehmann's levothyroxine dosage for her hypothyroidism.",
+                "bn": "ডক্টর ওয়েবার মিসেস লেহমানের হাইপোথাইরয়েডিজমের জন্য লেভোথাইরক্সিনের মাত্রা সমন্বয় নিয়ে আলোচনা করছেন।",
+                "hi": "डॉक्टर वेबर श्रीमती लेहमैन के हाइपोथायरायडिज्म के लिए लेवोथायरोक्सिन की खुराक को समायोजित करने पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر ویبر محترمہ لیمن کے ہائپوتھائیرائڈزم کے لیے لیووتھائروکسین کی خوراک کو ایڈجسٹ کرنے پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Dr. Weber, Bayan Lehmann'ın hipotiroidizmi için levotiroksin dozajını ayarlamayı tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Frau Lehmann, Ihre Schilddrüsenwerte sind noch nicht optimal eingestellt.",
+                    "translation": {
+                        "en": "Mrs. Lehmann, your thyroid levels are not yet optimally adjusted.",
+                        "bn": "মিসেস লেহমান, আপনার থাইরয়েডের মাত্রা এখনও অনুকূলভাবে সমন্বিত হয়নি।",
+                        "hi": "श्रीमती लेहमैन, आपके थायराइड का स्तर अभी तक इष्टतम रूप से समायोजित नहीं हुआ है।",
+                        "ur": "محترمہ لیمن، آپ کے تائرواڈ کی سطحیں ابھی تک بہترین طور پر ایڈجسٹ نہیں کی گئی ہیں۔",
+                        "tr": "Bayan Lehmann, tiroid seviyeleriniz henüz optimum şekilde ayarlanmadı."
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich fühle mich auch noch müde und habe zugenommen.",
+                    "translation": {
+                        "en": "I still feel tired and have gained weight.",
+                        "bn": "আমি এখনও ক্লান্ত বোধ করি এবং ওজন বেড়েছে।",
+                        "hi": "मुझे अभी भी थकान महसूस होती है और वजन बढ़ गया है।",
+                        "ur": "میں اب بھی تھکا ہوا محسوس کرتی ہوں اور وزن بڑھ گیا ہے۔",
+                        "tr": "Hala yorgun hissediyorum ve kilo aldım."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wir erhöhen Ihre Levothyroxindosis um 25 Mikrogramm täglich.",
+                    "translation": {
+                        "en": "We'll increase your levothyroxine dosage by 25 micrograms daily.",
+                        "bn": "আমরা প্রতিদিন আপনার লেভোথাইরক্সিনের মাত্রা ২৫ মাইক্রোগ্রাম করে বাড়িয়ে দেব।",
+                        "hi": "हम आपकी लेवोथायरोक्सिन की खुराक को प्रतिदिन 25 माइक्रोग्राम बढ़ाएंगे।",
+                        "ur": "ہم آپ کی لیووتھائروکسین کی خوراک کو روزانہ 25 مائیکروگرام تک بڑھائیں گے۔",
+                        "tr": "Levotiroksin dozunuzu günlük 25 mikrogram artıracağız."
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Okay, wann sollte ich zur nächsten Blutkontrolle kommen?",
+                    "translation": {
+                        "en": "Okay, when should I come for the next blood test?",
+                        "bn": "ঠিক আছে, আমার পরবর্তী রক্ত পরীক্ষার জন্য কখন আসা উচিত?",
+                        "hi": "ठीक है, मुझे अगले रक्त परीक्षण के लिए कब आना चाहिए?",
+                        "ur": "ٹھیک ہے، مجھے اگلے خون کے ٹیسٹ کے لیے کب آنا چاہیے؟",
+                        "tr": "Tamam, bir sonraki kan testi için ne zaman gelmeliyim?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "In sechs Wochen. Bitte kommen Sie nüchtern.",
+                    "translation": {
+                        "en": "In six weeks. Please come fasting.",
+                        "bn": "ছয় সপ্তাহে। অনুগ্রহ করে খালি পেটে আসবেন।",
+                        "hi": "छह सप्ताह में। कृपया उपवास करके आएं।",
+                        "ur": "چھ ہفتوں میں۔ براہ کرم خالی پیٹ آئیں۔",
+                        "tr": "Altı hafta sonra. Lütfen aç karnına gelin."
+                    }
+                }
+            ],
+            "id": "d25_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Hormon wird bei Typ-1-Diabetes nicht mehr ausreichend produziert?",
+                "en": "Which hormone is no longer sufficiently produced in type 1 diabetes?",
+                "bn": "টাইপ 1 ডায়াবেটিসে কোন হরমোন পর্যাপ্ত পরিমাণে তৈরি হয় না?",
+                "hi": "टाइप 1 मधुमेह में कौन सा हार्मोन पर्याप्त मात्रा में नहीं बनता है?",
+                "ur": "ٹائپ 1 ذیابیطس میں کون سا ہارمون مناسب مقدار میں پیدا نہیں ہوتا ہے؟",
+                "tr": "Tip 1 diyabette hangi hormon yeterince üretilmez?"
+            },
+            "options": [
+                "Glukagon",
+                "Insulin",
+                "Thyroxin",
+                "Cortisol"
+            ],
+            "correctAnswer": "Insulin",
+            "explanation": {
+                "en": "In type 1 diabetes, the body's immune system destroys the insulin-producing cells in the pancreas.  Therefore, insulin is not produced sufficiently.",
+                "bn": "টাইপ 1 ডায়াবেটিসে, শরীরের রোগ প্রতিরোধক সিস্টেম অগ্ন্যাশয়ের ইনসুলিন উৎপাদনকারী কোষগুলিকে ধ্বংস করে। তাই, ইনসুলিন পর্যাপ্ত পরিমাণে তৈরি হয় না।",
+                "hi": "टाइप 1 मधुमेह में, शरीर की प्रतिरक्षा प्रणाली अग्न्याशय में इंसुलिन-उत्पादक कोशिकाओं को नष्ट कर देती है। इसलिए, इंसुलिन पर्याप्त मात्रा में नहीं बनता है।",
+                "ur": "ٹائپ 1 ذیابیطس میں، جسم کا مدافعتی نظام لبلبے میں انسولین پیدا کرنے والے خلیوں کو تباہ کر دیتا ہے۔ لہذا، انسولین مناسب مقدار میں پیدا نہیں ہوتا ہے۔",
+                "tr": "Tip 1 diyabette, vücudun bağışıklık sistemi pankreastaki insülin üreten hücreleri yok eder. Bu nedenle, insülin yeterince üretilmez."
+            },
+            "points": 10,
+            "id": "e25_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist der HbA1c-Wert?",
+                "en": "What is the HbA1c value?",
+                "bn": "HbA1c মানটি কী?",
+                "hi": "HbA1c मान क्या है?",
+                "ur": "HbA1c قدر کیا ہے؟",
+                "tr": "HbA1c değeri nedir?"
+            },
+            "options": [
+                "Ein Maß für den aktuellen Blutzuckerspiegel",
+                "Ein Maß für den durchschnittlichen Blutzuckerspiegel der letzten 2-3 Monate",
+                "Ein Maß für den Insulinspiegel",
+                "Ein Maß für den Cholesterinspiegel"
+            ],
+            "correctAnswer": "Ein Maß für den durchschnittlichen Blutzuckerspiegel der letzten 2-3 Monate",
+            "explanation": {
+                "en": "HbA1c measures the average blood sugar level over the past 2-3 months. It reflects the percentage of hemoglobin in red blood cells that has glucose attached to it.",
+                "bn": "HbA1c গত ২-৩ মাসের গড় রক্তের শর্করার মাত্রা পরিমাপ করে। এটি লোহিত রক্তকণিকার হিমোগ্লোবিনের শতাংশকে প্রতিফলিত করে যার সাথে গ্লুকোজ যুক্ত থাকে।",
+                "hi": "HbA1c पिछले 2-3 महीनों में औसत रक्त शर्करा के स्तर को मापता है। यह लाल रक्त कोशिकाओं में हीमोग्लोबिन के प्रतिशत को दर्शाता है जिससे ग्लूकोज जुड़ा होता है।",
+                "ur": "HbA1c پچھلے 2-3 مہینوں میں اوسط خون میں شوگر کی سطح کی پیمائش کرتا ہے۔ یہ خون کے سرخ خلیوں میں ہیموگلوبن کی فیصد کی عکاسی کرتا ہے جس سے گلوکوز منسلک ہوتا ہے۔",
+                "tr": "HbA1c, son 2-3 aydaki ortalama kan şekeri seviyesini ölçer. Kırmızı kan hücrelerindeki hemoglobine bağlı glikoz yüzdesini yansıtır."
+            },
+            "points": 10,
+            "id": "e25_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Organ ist von der Hashimoto-Thyreoiditis betroffen?",
+                "en": "Which organ is affected by Hashimoto's thyroiditis?",
+                "bn": "হাশিমোটো থাইরয়েডাইটিস দ্বারা কোন অঙ্গ প্রভাবিত হয়?",
+                "hi": "हाशिमोटो थायरॉइडिटिस से कौन सा अंग प्रभावित होता है?",
+                "ur": "ہاشیموٹو تھائرائیڈائٹس سے کون سا عضو متاثر ہوتا ہے؟",
+                "tr": "Haşimoto tiroiditinden hangi organ etkilenir?"
+            },
+            "options": [
+                "Leber",
+                "Niere",
+                "Schilddrüse",
+                "Pankreas"
+            ],
+            "correctAnswer": "Schilddrüse",
+            "explanation": {
+                "en": "Hashimoto's thyroiditis is an autoimmune disease that affects the thyroid gland, leading to hypothyroidism.",
+                "bn": "হাশিমোটো থাইরয়েডাইটিস একটি অটোইমিউন রোগ যা থাইরয়েড গ্রন্থিকে প্রভাবিত করে, যা হাইপোথাইরয়েডিজম সৃষ্টি করে।",
+                "hi": "हाशिमोटो थायरॉइडिटिस एक ऑटोइम्यून बीमारी है जो थायरॉयड ग्रंथि को प्रभावित करती है, जिससे हाइपोथायरायडिज्म होता है।",
+                "ur": "ہاشیموٹو تھائرائیڈائٹس ایک آٹومیمون بیماری ہے جو تھائیرائڈ گلینڈ کو متاثر کرتی ہے، جس کی وجہ سے ہائپوتھائرائیڈزم ہوتا ہے۔",
+                "tr": "Haşimoto tiroiditi, tiroid bezini etkileyen ve hipotiroidizme yol açan bir otoimmün hastalıktır."
+            },
+            "points": 10,
+            "id": "e25_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist eine typische Folge einer Hyperthyreose?",
+                "en": "What is a typical consequence of hyperthyroidism?",
+                "bn": "হাইপারথাইরয়েডিজমের একটি সাধারণ পরিণতি কী?",
+                "hi": "हाइपरथायरायडिज्म का एक विशिष्ट परिणाम क्या है?",
+                "ur": "ہائپر تھائیرائڈزم کا ایک عام نتیجہ کیا ہے؟",
+                "tr": "Hipertiroidizmin tipik bir sonucu nedir?"
+            },
+            "options": [
+                "Gewichtszunahme",
+                "Verlangsamter Herzschlag",
+                "Gewichtsverlust",
+                "Müdigkeit"
+            ],
+            "correctAnswer": "Gewichtsverlust",
+            "explanation": {
+                "en": "Hyperthyroidism, characterized by an overactive thyroid gland, typically leads to weight loss despite increased appetite.",
+                "bn": "হাইপারথাইরয়েডিজম, যা একটি অতিসক্রিয় থাইরয়েড গ্রন্থি দ্বারা চিহ্নিত করা হয়, সাধারণত ক্ষুধা বৃদ্ধি সত্ত্বেও ওজন হ্রাস করে।",
+                "hi": "हाइपरथायरायडिज्म, जो एक अतिसक्रिय थायरॉयड ग्रंथि द्वारा विशेषता है, आमतौर पर भूख में वृद्धि के बावजूद वजन घटाने की ओर जाता है।",
+                "ur": "ہائپر تھائیرائڈزم، جس کی خصوصیت ایک اوور ایکٹیو تھائیرائڈ گلینڈ ہے، عام طور پر بھوک میں اضافے کے باوجود وزن میں کمی کا باعث بنتا ہے۔",
+                "tr": "Hipertiroidizm, aşırı aktif bir tiroid bezi ile karakterizedir, tipik olarak iştah artışına rağmen kilo kaybına yol açar."
+            },
+            "points": 10,
+            "id": "e25_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage über Insulin ist richtig?",
+                "en": "Which statement about insulin is correct?",
+                "bn": "ইনসুলিন সম্পর্কে কোন বক্তব্যটি সঠিক?",
+                "hi": "इंसुलिन के बारे में कौन सा कथन सही है?",
+                "ur": "انسولین کے بارے میں کون سا بیان درست ہے؟",
+                "tr": "İnsülin hakkında hangi ifade doğrudur?"
+            },
+            "options": [
+                "Es erhöht den Blutzuckerspiegel.",
+                "Es senkt den Blutzuckerspiegel.",
+                "Es wird von der Leber produziert.",
+                "Es wird von den Nieren produziert."
+            ],
+            "correctAnswer": "Es senkt den Blutzuckerspiegel.",
+            "explanation": {
+                "en": "Insulin's primary function is to lower blood sugar levels by facilitating the uptake of glucose into cells.",
+                "bn": "ইনসুলিনের প্রাথমিক কাজ হল কোষগুলিতে গ্লুকোজ গ্রহণকে সহজতর করে রক্তের শর্করার মাত্রা কমানো।",
+                "hi": "इंसुलिन का प्राथमिक कार्य कोशिकाओं में ग्लूकोज के अवशोषण को सुविधाजनक बनाकर रक्त शर्करा के स्तर को कम करना है।",
+                "ur": "انسولین کا بنیادی کام خلیوں میں گلوکوز کے جذب کو آسان بنا کر خون میں شوگر کی سطح کو کم کرنا ہے۔",
+                "tr": "İnsülinin temel işlevi, hücrelere glikoz alımını kolaylaştırarak kan şekeri seviyelerini düşürmektir."
+            },
+            "points": 10,
+            "id": "e25_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist eine typische Ursache für Hypothyreose?",
+                "en": "What is a typical cause of hypothyroidism?",
+                "bn": "হাইপোথাইরয়েডিজমের একটি সাধারণ কারণ কী?",
+                "hi": "हाइपोथायरायडिज्म का एक सामान्य कारण क्या है?",
+                "ur": "ہائپوتھائیرائیڈزم کی ایک عام وجہ کیا ہے؟",
+                "tr": "Hipotiroidizmin tipik bir nedeni nedir?"
+            },
+            "options": [
+                "Überproduktion von Schilddrüsenhormonen",
+                "Jodmangel",
+                "Überfunktion der Nebenniere",
+                "Diabetes mellitus"
+            ],
+            "correctAnswer": "Jodmangel",
+            "explanation": {
+                "en": "Iodine deficiency is a common cause of hypothyroidism worldwide, as iodine is essential for the production of thyroid hormones.",
+                "bn": "আয়োডিনের অভাব বিশ্বব্যাপী হাইপোথাইরয়েডিজমের একটি সাধারণ কারণ, কারণ থাইরয়েড হরমোন উৎপাদনের জন্য আয়োডিন অপরিহার্য।",
+                "hi": "आयोडीन की कमी दुनिया भर में हाइपोथायरायडिज्म का एक सामान्य कारण है, क्योंकि थायराइड हार्मोन के उत्पादन के लिए आयोडीन आवश्यक है।",
+                "ur": "آیوڈین کی کمی دنیا بھر میں ہائپوتھائیرائیڈزم کی ایک عام وجہ ہے، کیونکہ تھائرائیڈ ہارمون کی پیداوار کے لیے آیوڈین ضروری ہے۔",
+                "tr": "İyot eksikliği, tiroid hormonlarının üretimi için iyot gerekli olduğundan dünya çapında hipotiroidizmin yaygın bir nedenidir."
+            },
+            "points": 10,
+            "id": "e25_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Komplikationen ist am wahrscheinlichsten bei schlecht eingestelltem Diabetes mellitus zu erwarten?",
+                "en": "Which of the following complications is most likely to be expected with poorly controlled diabetes mellitus?",
+                "bn": "দুর্বলভাবে নিয়ন্ত্রিত ডায়াবেটিস মেলিটাসের ক্ষেত্রে নিম্নলিখিত জটিলতাগুলির মধ্যে কোনটি হওয়ার সম্ভাবনা সবচেয়ে বেশি?",
+                "hi": "खराब तरीके से नियंत्रित मधुमेह मेलिटस के साथ निम्नलिखित जटिलताओं में से किसकी होने की सबसे अधिक संभावना है?",
+                "ur": "ناقص کنٹرول والے ذیابیطس mellitus کے ساتھ درج ذیل پیچیدگیوں میں سے کس کے ہونے کا زیادہ امکان ہے؟",
+                "tr": "Kötü kontrollü diabetes mellitus ile aşağıdaki komplikasyonlardan hangisinin ortaya çıkması daha olasıdır?"
+            },
+            "options": [
+                "Erhöhte Knochendichte",
+                "Verbesserte Sehschärfe",
+                "Nierenschäden (Nephropathie)",
+                "Gesteigerte Muskelmasse"
+            ],
+            "correctAnswer": "Nierenschäden (Nephropathie)",
+            "explanation": {
+                "en": "Poorly controlled diabetes mellitus can lead to nephropathy, a type of kidney damage caused by high blood sugar levels.",
+                "bn": "দুর্বলভাবে নিয়ন্ত্রিত ডায়াবেটিস মেলিটাস নেফ্রোপ্যাথি হতে পারে, যা উচ্চ রক্তে শর্করার মাত্রার কারণে কিডনির এক ধরনের ক্ষতি।",
+                "hi": "खराब तरीके से नियंत्रित मधुमेह मेलिटस नेफ्रोपैथी का कारण बन सकता है, जो उच्च रक्त शर्करा के स्तर के कारण होने वाले गुर्दे की क्षति का एक प्रकार है।",
+                "ur": "ناقص کنٹرول والا ذیابیطس میلیتس نیفروپیتھی کا باعث بن سکتا ہے، جو کہ خون میں شوگر کی اعلی سطح کی وجہ سے گردے کے نقصان کی ایک قسم ہے۔",
+                "tr": "Kötü kontrollü diabetes mellitus, yüksek kan şekeri seviyelerinin neden olduğu bir tür böbrek hasarı olan nefropatiye yol açabilir."
+            },
+            "points": 10,
+            "id": "e25_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist die Funktion des Schilddrüsenhormons Thyroxin (T4)?",
+                "en": "What is the function of the thyroid hormone thyroxine (T4)?",
+                "bn": "থাইরয়েড হরমোন থাইরক্সিনের (T4) কাজ কী?",
+                "hi": "थायराइड हार्मोन थायरोक्सिन (T4) का कार्य क्या है?",
+                "ur": "تھائرائڈ ہارمون تھائروکسین (T4) کا کیا کام ہے؟",
+                "tr": "Tiroid hormonu tiroksinin (T4) işlevi nedir?"
+            },
+            "options": [
+                "Senkung des Blutzuckerspiegels",
+                "Regulation des Stoffwechsels",
+                "Erhöhung des Blutdrucks",
+                "Förderung des Knochenwachstums"
+            ],
+            "correctAnswer": "Regulation des Stoffwechsels",
+            "explanation": {
+                "en": "Thyroxine (T4) is a thyroid hormone that plays a crucial role in regulating metabolism throughout the body.",
+                "bn": "থাইরক্সিন (T4) একটি থাইরয়েড হরমোন যা সারা শরীরে বিপাক নিয়ন্ত্রণে গুরুত্বপূর্ণ ভূমিকা পালন করে।",
+                "hi": "थायरोक्सिन (T4) एक थायरॉयड हार्मोन है जो पूरे शरीर में चयापचय को विनियमित करने में महत्वपूर्ण भूमिका निभाता है।",
+                "ur": "تھائروکسین (T4) ایک تھائرائڈ ہارمون ہے جو پورے جسم میں میٹابولزم کو منظم کرنے میں اہم کردار ادا کرتا ہے۔",
+                "tr": "Tiroksin (T4), vücuttaki metabolizmayı düzenlemede önemli bir rol oynayan bir tiroid hormonudur."
+            },
+            "points": 10,
+            "id": "e25_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage zum Glukagon ist richtig?",
+                "en": "Which statement about glucagon is correct?",
+                "bn": "গ্লুকাগন সম্পর্কে কোন বক্তব্যটি সঠিক?",
+                "hi": "ग्लूकागन के बारे में कौन सा कथन सही है?",
+                "ur": "گلوکاگون کے بارے میں کون سا بیان درست ہے؟",
+                "tr": "Glukagon hakkında hangi ifade doğrudur?"
+            },
+            "options": [
+                "Es wird von der Bauchspeicheldrüse produziert und senkt den Blutzuckerspiegel.",
+                "Es wird von der Bauchspeicheldrüse produziert und erhöht den Blutzuckerspiegel.",
+                "Es wird von der Leber produziert und senkt den Blutzuckerspiegel.",
+                "Es wird von der Leber produziert und erhöht den Blutzuckerspiegel."
+            ],
+            "correctAnswer": "Es wird von der Bauchspeicheldrüse produziert und erhöht den Blutzuckerspiegel.",
+            "explanation": {
+                "en": "Glucagon, produced by the pancreas, raises blood sugar levels by stimulating the liver to release stored glucose.",
+                "bn": "গ্লুকাগন, অগ্ন্যাশয় দ্বারা উৎপাদিত, লিভারকে সঞ্চিত গ্লুকোজ নিঃসরণে উদ্দীপিত করে রক্তের শর্করার মাত্রা বাড়ায়।",
+                "hi": "ग्लूकागन, अग्न्याशय द्वारा निर्मित, जिगर को संग्रहीत ग्लूकोज जारी करने के लिए उत्तेजित करके रक्त शर्करा के स्तर को बढ़ाता है।",
+                "ur": "گلوکاگون، لبلبے کے ذریعہ تیار کیا جاتا ہے، جگر کو ذخیرہ شدہ گلوکوز جاری کرنے کے لیے متحرک کرکے خون میں شوگر کی سطح کو بڑھاتا ہے۔",
+                "tr": "Pankreas tarafından üretilen glukagon, karaciğeri depolanmış glikozu salgılaması için uyararak kan şekeri seviyelerini yükseltir."
+            },
+            "points": 10,
+            "id": "e25_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Untersuchung dient zur Diagnose eines Diabetes mellitus?",
+                "en": "Which examination is used to diagnose diabetes mellitus?",
+                "bn": "ডায়াবেটিস মেলিটাস নির্ণয়ের জন্য কোন পরীক্ষা ব্যবহৃত হয়?",
+                "hi": "मधुमेह मेलिटस के निदान के लिए कौन सी परीक्षा का उपयोग किया जाता है?",
+                "ur": "ذیابیطس میلیتس کی تشخیص کے لیے کون سا معائنہ استعمال کیا جاتا ہے؟",
+                "tr": "Diabetes mellitus teşhisi için hangi muayene kullanılır?"
+            },
+            "options": [
+                "Elektrokardiogramm (EKG)",
+                "Blutbild",
+                "Oraler Glukosetoleranztest (oGTT)",
+                "Magnetresonanztomographie (MRT)"
+            ],
+            "correctAnswer": "Oraler Glukosetoleranztest (oGTT)",
+            "explanation": {
+                "en": "The oral glucose tolerance test (oGTT) is used to diagnose diabetes mellitus by measuring how well the body processes glucose after consuming a sugary drink.",
+                "bn": "ওরাল গ্লুকোজ টলারেন্স টেস্ট (oGTT) একটি চিনিযুক্ত পানীয় খাওয়ার পরে শরীর কীভাবে গ্লুকোজ প্রক্রিয়া করে তা পরিমাপ করে ডায়াবেটিস মেলিটাস নির্ণয়ের জন্য ব্যবহৃত হয়।",
+                "hi": "ओरल ग्लूकोज टॉलरेंस टेस्ट (ओजीटीटी) एक शर्करा युक्त पेय का सेवन करने के बाद शरीर ग्लूकोज को कितनी अच्छी तरह संसाधित करता है, यह मापकर मधुमेह मेलिटस का निदान करने के लिए उपयोग किया जाता है।",
+                "ur": "زبانی گلوکوز رواداری ٹیسٹ (او جی ٹی ٹی) ایک میٹھا مشروب کھانے کے بعد جسم گلوکوز پر کتنی اچھی طرح عمل کرتا ہے اس کی پیمائش کرکے ذیابیطس میلیتس کی تشخیص کے لیے استعمال کیا جاتا ہے۔",
+                "tr": "Oral glikoz tolerans testi (OGTT), şekerli bir içecek tükettikten sonra vücudun glikozu ne kadar iyi işlediğini ölçerek diabetes mellitus teşhisi için kullanılır."
+            },
+            "points": 10,
+            "id": "e25_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die Behandlung von Typ-2-Diabetes umfasst oft eine Umstellung der ____________ und regelmäßige Bewegung.",
+                "en": "The treatment of type 2 diabetes often includes a change in ____________ and regular exercise.",
+                "bn": "টাইপ 2 ডায়াবেটিসের চিকিৎসায় প্রায়শই ____________ পরিবর্তন এবং নিয়মিত ব্যায়াম অন্তর্ভুক্ত থাকে।",
+                "hi": "टाइप 2 मधुमेह के उपचार में अक्सर ____________ में बदलाव और नियमित व्यायाम शामिल होता है।",
+                "ur": "ٹائپ 2 ذیابیطس کے علاج میں اکثر ____________ میں تبدیلی اور باقاعدگی سے ورزش شامل ہوتی ہے۔",
+                "tr": "Tip 2 diyabetin tedavisi genellikle ____________ değişikliğini ve düzenli egzersizi içerir."
+            },
+            "correctAnswer": "Ernährung",
+            "explanation": {
+                "en": "Dietary changes are a cornerstone of type 2 diabetes management, helping to control blood sugar levels.",
+                "bn": "ডায়েটারি পরিবর্তনগুলি টাইপ 2 ডায়াবেটিস ব্যবস্থাপনার ভিত্তি, যা রক্তের শর্করার মাত্রা নিয়ন্ত্রণে সহায়তা করে।",
+                "hi": "आहार परिवर्तन टाइप 2 मधुमेह प्रबंधन की आधारशिला है, जो रक्त शर्करा के स्तर को नियंत्रित करने में मदद करता है।",
+                "ur": "غذائی تبدیلیوں ٹائپ 2 ذیابیطس کے انتظام کا سنگ بنیاد ہیں، جو خون میں شوگر کی سطح کو کنٹرول کرنے میں مدد کرتی ہیں۔",
+                "tr": "Diyet değişiklikleri, kan şekeri seviyelerini kontrol etmeye yardımcı olarak tip 2 diyabet yönetiminin temel taşlarından biridir."
+            },
+            "points": 10,
+            "id": "e25_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bei einer Hyperthyreose produziert die Schilddrüse zu viel ____________.",
+                "en": "In hyperthyroidism, the thyroid gland produces too much ____________.",
+                "bn": "হাইপারথাইরয়েডিজমে, থাইরয়েড গ্রন্থি খুব বেশি ____________ তৈরি করে।",
+                "hi": "हाइपरथायरायडिज्म में, थायरॉयड ग्रंथि बहुत अधिक ____________ का उत्पादन करती है।",
+                "ur": "ہائپر تھائیرائیڈزم میں، تھائیرائیڈ گلینڈ بہت زیادہ ____________ پیدا کرتا ہے۔",
+                "tr": "Hipertiroidizmde tiroid bezi çok fazla ____________ üretir."
+            },
+            "correctAnswer": "Schilddrüsenhormone",
+            "explanation": {
+                "en": "Hyperthyroidism is characterized by the overproduction of thyroid hormones, leading to an accelerated metabolism.",
+                "bn": "হাইপারথাইরয়েডিজম থাইরয়েড হরমোনের অতিরিক্ত উৎপাদন দ্বারা চিহ্নিত করা হয়, যা দ্রুত বিপাকের দিকে পরিচালিত করে।",
+                "hi": "हाइपरथायरायडिज्म थायरॉयड हार्मोन के अतिउत्पादन द्वारा विशेषता है, जिससे चयापचय तेज होता है।",
+                "ur": "ہائپر تھائیرائیڈزم تھائرائیڈ ہارمون کی زیادہ پیداوار کی خصوصیت رکھتا ہے، جو میٹابولزم کو تیز کرنے کا باعث بنتا ہے۔",
+                "tr": "Hipertiroidizm, tiroid hormonlarının aşırı üretimi ile karakterizedir ve bu da hızlandırılmış bir metabolizmaya yol açar."
+            },
+            "points": 10,
+            "id": "e25_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein Symptom einer Hypothyreose kann ____________ sein.",
+                "en": "A symptom of hypothyroidism can be ____________.",
+                "bn": "হাইপোথাইরয়েডিজমের একটি লক্ষণ ____________ হতে পারে।",
+                "hi": "हाइपोथायरायडिज्म का एक लक्षण ____________ हो सकता है।",
+                "ur": "ہائپوتھائیرائیڈزم کی ایک علامت ____________ ہو سکتی ہے۔",
+                "tr": "Hipotiroidizmin bir semptomu ____________ olabilir."
+            },
+            "correctAnswer": "Müdigkeit",
+            "explanation": {
+                "en": "Fatigue is a common symptom of hypothyroidism due to the reduced production of thyroid hormones, which are essential for energy metabolism.",
+                "bn": "ক্লান্তি হাইপোথাইরয়েডিজমের একটি সাধারণ লক্ষণ থাইরয়েড হরমোনের উৎপাদন হ্রাসের কারণে, যা শক্তি বিপাকের জন্য অপরিহার্য।",
+                "hi": "थकान हाइपोथायरायडिज्म का एक सामान्य लक्षण है थायराइड हार्मोन के उत्पादन में कमी के कारण, जो ऊर्जा चयापचय के लिए आवश्यक हैं।",
+                "ur": "تھکاوٹ ہائپوتھائیرائیڈزم کی ایک عام علامت ہے تھائرائیڈ ہارمون کی پیداوار میں کمی کی وجہ سے، جو توانائی کے میٹابولزم کے لیے ضروری ہیں۔",
+                "tr": "Yorgunluk, enerji metabolizması için gerekli olan tiroid hormonlarının üretiminin azalması nedeniyle hipotiroidizmin yaygın bir belirtisidir."
+            },
+            "points": 10,
+            "id": "e25_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "____________ ist ein Hormon, das den Blutzuckerspiegel senkt.",
+                "en": "____________ is a hormone that lowers blood sugar levels.",
+                "bn": "____________ একটি হরমোন যা রক্তের শর্করার মাত্রা কমায়।",
+                "hi": "____________ एक हार्मोन है जो रक्त शर्करा के स्तर को कम करता है।",
+                "ur": "____________ ایک ہارمون ہے جو خون میں شوگر کی سطح کو کم کرتا ہے۔",
+                "tr": "____________ kan şekeri seviyesini düşüren bir hormondur."
+            },
+            "correctAnswer": "Insulin",
+            "explanation": {
+                "en": "Insulin is a hormone produced by the pancreas that helps glucose from the blood enter cells, lowering blood sugar levels.",
+                "bn": "ইনসুলিন একটি হরমোন যা অগ্ন্যাশয় দ্বারা উৎপাদিত হয় যা রক্ত থেকে গ্লুকোজকে কোষে প্রবেশ করতে সাহায্য করে, যা রক্তের শর্করার মাত্রা কমিয়ে দেয়।",
+                "hi": "इंसुलिन एक हार्मोन है जो अग्न्याशय द्वारा निर्मित होता है जो रक्त से ग्लूकोज को कोशिकाओं में प्रवेश करने में मदद करता है, जिससे रक्त शर्करा का स्तर कम होता है।",
+                "ur": "انسولین ایک ہارمون ہے جو لبلبے کے ذریعہ تیار کیا جاتا ہے جو خون سے گلوکوز کو خلیوں میں داخل ہونے میں مدد کرتا ہے، جس سے خون میں شوگر کی سطح کم ہوتی ہے۔",
+                "tr": "İnsülin, pankreas tarafından üretilen ve kandaki glikozun hücrelere girmesine yardımcı olan bir hormondur ve bu da kan şekeri seviyelerini düşürür."
+            },
+            "points": 10,
+            "id": "e25_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Regelmäßige ____________ können helfen, den Blutzuckerspiegel bei Diabetes mellitus zu kontrollieren.",
+                "en": "Regular ____________ can help control blood sugar levels in diabetes mellitus.",
+                "bn": "নিয়মিত ____________ ডায়াবেটিস মেলিটাসে রক্তের শর্করার মাত্রা নিয়ন্ত্রণে সাহায্য করতে পারে।",
+                "hi": "नियमित ____________ मधुमेह मेलिटस में रक्त शर्करा के स्तर को नियंत्रित करने में मदद कर सकता है।",
+                "ur": "باقاعدہ ____________ ذیابیطس میلیتس میں خون میں شوگر کی سطح کو کنٹرول کرنے میں مدد کر سکتا ہے۔",
+                "tr": "Düzenli ____________ diabetes mellitus'ta kan şekeri seviyelerini kontrol etmeye yardımcı olabilir."
+            },
+            "correctAnswer": "Bewegung",
+            "explanation": {
+                "en": "Regular exercise can improve insulin sensitivity and help control blood sugar levels in individuals with diabetes mellitus.",
+                "bn": "নিয়মিত ব্যায়াম ইনসুলিন সংবেদনশীলতা উন্নত করতে এবং ডায়াবেটিস মেলিটাসে আক্রান্ত ব্যক্তিদের রক্তের শর্করার মাত্রা নিয়ন্ত্রণে সহায়তা করতে পারে।",
+                "hi": "नियमित व्यायाम इंसुलिन संवेदनशीलता में सुधार कर सकता है और मधुमेह मेलिटस वाले व्यक्तियों में रक्त शर्करा के स्तर को नियंत्रित करने में मदद कर सकता है।",
+                "ur": "باقاعدگی سے ورزش انسولین کی حساسیت کو بہتر بنا سکتی ہے اور ذیابیطس میلیتس میں مبتلا افراد میں خون میں شوگر کی سطح کو کنٹرول کرنے میں مدد کر سکتی ہے۔",
+                "tr": "Düzenli egzersiz, insülin duyarlılığını artırabilir ve diabetes mellituslu bireylerde kan şekeri seviyelerini kontrol etmeye yardımcı olabilir."
+            },
+            "points": 10,
+            "id": "e25_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Ich habe Diabetes mellitus Typ 2.",
+                "en": "I have type 2 diabetes.",
+                "bn": "আমার টাইপ 2 ডায়াবেটিস আছে।",
+                "hi": "मुझे टाइप 2 मधुमेह है।",
+                "ur": "مجھے ٹائپ 2 ذیابیطس ہے۔",
+                "tr": "Tip 2 diyabetim var."
+            },
+            "correctAnswer": "I have type 2 diabetes.",
+            "explanation": {
+                "en": "This is a direct translation of the German sentence.",
+                "bn": "এটি জার্মান বাক্যের সরাসরি অনুবাদ।",
+                "hi": "यह जर्मन वाक्य का सीधा अनुवाद है।",
+                "ur": "یہ جرمن جملے کا براہ راست ترجمہ ہے۔",
+                "tr": "Bu, Almanca cümlenin doğrudan çevirisidir."
+            },
+            "points": 10,
+            "id": "e25_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Schilddrüse ist zu klein.",
+                "en": "The thyroid gland is too small.",
+                "bn": "থাইরয়েড গ্রন্থিটি খুব ছোট।",
+                "hi": "थायरॉयड ग्रंथि बहुत छोटी है।",
+                "ur": "تھائرائڈ گلینڈ بہت چھوٹا ہے۔",
+                "tr": "Tiroid bezi çok küçük."
+            },
+            "correctAnswer": "The thyroid gland is too small.",
+            "explanation": {
+                "en": "This is a direct translation of the German sentence.",
+                "bn": "এটি জার্মান বাক্যের সরাসরি অনুবাদ।",
+                "hi": "यह जर्मन वाक्य का सीधा अनुवाद है।",
+                "ur": "یہ جرمن جملے کا براہ راست ترجمہ ہے۔",
+                "tr": "Bu, Almanca cümlenin doğrudan çevirisidir."
+            },
+            "points": 10,
+            "id": "e25_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Ich benötige Insulin.",
+                "en": "I need insulin.",
+                "bn": "আমার ইনসুলিন দরকার।",
+                "hi": "मुझे इंसुलिन की आवश्यकता है।",
+                "ur": "مجھے انسولین کی ضرورت ہے۔",
+                "tr": "İnsüline ihtiyacım var."
+            },
+            "correctAnswer": "I need insulin.",
+            "explanation": {
+                "en": "This is a direct translation of the German sentence.",
+                "bn": "এটি জার্মান বাক্যের সরাসরি অনুবাদ।",
+                "hi": "यह जर्मन वाक्य का सीधा अनुवाद है।",
+                "ur": "یہ جرمن جملے کا براہ راست ترجمہ ہے۔",
+                "tr": "Bu, Almanca cümlenin doğrudan çevirisidir."
+            },
+            "points": 10,
+            "id": "e25_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

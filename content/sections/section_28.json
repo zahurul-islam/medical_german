@@ -1,11 +1,1631 @@
-{"id":"section_28","phaseId":"phase2","order":28,"titleDe":"Gynäkologie/Geburtshilfe","title":{"en":"OBGYN","bn":"স্ত্রীরোগ ও প্রসূতি","hi":"स्त्री रोग","ur":"نسائی امراض","tr":"Kadın Doğum"},"level":"B2","estimatedMinutes":40,"vocabulary":[
-{"id":"v28_01","germanTerm":"Schwangerschaft","article":"die","plural":"Schwangerschaften","translation":{"en":"Pregnancy","bn":"গর্ভাবস্থা","hi":"गर्भावस्था","ur":"حمل","tr":"Hamilelik"}},
-{"id":"v28_02","germanTerm":"Geburt","article":"die","plural":"Geburten","translation":{"en":"Birth/Delivery","bn":"প্রসব","hi":"प्रसव","ur":"پیدائش","tr":"Doğum"}},
-{"id":"v28_03","germanTerm":"Wehen","article":"die","plural":"-","translation":{"en":"Contractions","bn":"প্রসব বেদনা","hi":"प्रसव पीड़ा","ur":"درد زہ","tr":"Kasılmalar"}},
-{"id":"v28_04","germanTerm":"Kaiserschnitt","article":"der","plural":"Kaiserschnitte","translation":{"en":"C-Section","bn":"সিজারিয়ান","hi":"सीज़ेरियन","ur":"سیزیرین","tr":"Sezaryen"}},
-{"id":"v28_05","germanTerm":"Vorsorge","article":"die","plural":"Vorsorgen","translation":{"en":"Prenatal Care","bn":"প্রসবপূর্ব যত্ন","hi":"प्रसव पूर्व देखभाल","ur":"قبل از پیدائش نگہداشت","tr":"Doğum öncesi bakım"}},
-{"id":"v28_06","germanTerm":"Menstruation","article":"die","plural":"Menstruationen","translation":{"en":"Menstruation","bn":"মাসিক","hi":"मासिक धर्म","ur":"ماہواری","tr":"Adet"}}
-],"dialogues":[{"id":"d28_01","title":{"en":"Prenatal Visit"},"lines":[
-{"speaker":"Ärztin","germanText":"Wie verläuft die Schwangerschaft?","translation":{"en":"How is the pregnancy going?"}},
-{"speaker":"Patientin","germanText":"Mir ist morgens oft übel.","translation":{"en":"I often feel nauseous in the morning."}}
-]}],"exercises":[{"id":"e28_01","type":"multipleChoice","question":{"en":"What is 'Kaiserschnitt'?"},"options":["C-Section","Natural Birth","Check-up"],"correctAnswer":"C-Section","points":10}],"media":{"introVideoUrl":"video/sections/section_28/intro.mp4"}}
+{
+    "id": "section_28",
+    "phaseId": "phase2",
+    "order": 28,
+    "titleDe": "Gynäkologie/Geburtshilfe",
+    "title": {
+        "en": "OBGYN: Women's Health, Preventative Care, Ultrasound, Routine Check-up, Blood Pressure, Consultation",
+        "bn": "OBGYN: মহিলাদের স্বাস্থ্য, প্রতিরোধমূলক যত্ন, আল্ট্রাসাউন্ড, রুটিন চেক-আপ, রক্তচাপ, পরামর্শ",
+        "hi": "स्त्री रोग विशेषज्ञ: महिला स्वास्थ्य, निवारक देखभाल, अल्ट्रासाउंड, नियमित जांच, रक्तचाप, परामर्श",
+        "ur": "گائنی: خواتین کی صحت، احتیاطی نگہداشت، الٹراساؤنڈ، معمول کا چیک اپ، بلڈ پریشر، مشاورت",
+        "tr": "Kadın Hastalıkları ve Doğum: Kadın Sağlığı, Koruyucu Bakım, Ultrason, Rutin Kontrol, Kan Basıncı, Danışmanlık",
+        "de": "Gynäkologie: Frauenheilkunde, Vorsorgeuntersuchung, Ultraschall, Routinekontrolle, Blutdruck, Beratung"
+    },
+    "description": {
+        "en": "This section focuses on essential German medical terminology related to obstetrics and gynecology, covering preventative care, examinations, and common procedures.",
+        "bn": "এই বিভাগে প্রসূতি ও স্ত্রীরোগবিদ্যা সম্পর্কিত প্রয়োজনীয় জার্মান চিকিৎসা পরিভাষা, প্রতিরোধমূলক যত্ন, পরীক্ষা এবং সাধারণ পদ্ধতিগুলি অন্তর্ভুক্ত করা হয়েছে।",
+        "hi": "यह अनुभाग प्रसूति एवं स्त्री रोग से संबंधित आवश्यक जर्मन चिकित्सा शब्दावली पर केंद्रित है, जिसमें निवारक देखभाल, परीक्षाएं और सामान्य प्रक्रियाएं शामिल हैं।",
+        "ur": "اس حصے میں زچگی اور امراض نسواں سے متعلق ضروری جرمن طبی اصطلاحات پر توجہ مرکوز کی گئی ہے، جس میں احتیاطی نگہداشت، امتحانات اور عام طریقہ کار شامل ہیں۔",
+        "tr": "Bu bölüm, kadın hastalıkları ve doğum ile ilgili temel Almanca tıbbi terminolojiye, koruyucu bakıma, muayenelere ve yaygın prosedürlere odaklanmaktadır.",
+        "de": "Dieser Abschnitt konzentriert sich auf die wesentliche deutsche medizinische Terminologie im Zusammenhang mit Geburtshilfe und Gynäkologie und deckt Vorsorge, Untersuchungen und gängige Verfahren ab."
+    },
+    "level": "B2",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, you will learn key German terms related to OBGYN, enabling you to communicate effectively with patients and medical professionals in this field. You will also explore the standard procedures and preventative measures commonly practiced in German-speaking medical settings.",
+            "bn": "এই বিভাগে, আপনি OBGYN সম্পর্কিত মূল জার্মান শব্দগুলি শিখবেন, যা আপনাকে এই ক্ষেত্রে রোগী এবং চিকিৎসা পেশাদারদের সাথে কার্যকরভাবে যোগাযোগ করতে সক্ষম করবে। আপনি জার্মান-ভাষী চিকিৎসা সেটিংসে সাধারণত প্রচলিত স্ট্যান্ডার্ড পদ্ধতি এবং প্রতিরোধমূলক ব্যবস্থাগুলিও অন্বেষণ করবেন।",
+            "hi": "इस अनुभाग में, आप OBGYN से संबंधित मुख्य जर्मन शब्द सीखेंगे, जिससे आप इस क्षेत्र में रोगियों और चिकित्सा पेशेवरों के साथ प्रभावी ढंग से संवाद कर सकेंगे। आप जर्मन भाषी चिकित्सा सेटिंग्स में आमतौर पर प्रचलित मानक प्रक्रियाओं और निवारक उपायों का भी पता लगाएंगे।",
+            "ur": "اس حصے میں، آپ OBGYN سے متعلق اہم جرمن اصطلاحات سیکھیں گے، جو آپ کو اس شعبے میں مریضوں اور طبی پیشہ ور افراد کے ساتھ مؤثر طریقے سے بات چیت کرنے کے قابل بنائے گی۔ آپ جرمن بولنے والے طبی ترتیبات میں عام طور پر رائج معیاری طریقہ کار اور احتیاطی تدابیر بھی دریافت کریں گے۔",
+            "tr": "Bu bölümde, kadın hastalıkları ve doğum ile ilgili temel Almanca terimleri öğrenecek ve bu alandaki hastalar ve sağlık profesyonelleri ile etkili bir şekilde iletişim kurabileceksiniz. Ayrıca Almanca konuşulan tıbbi ortamlarda yaygın olarak uygulanan standart prosedürleri ve önleyici önlemleri de keşfedeceksiniz.",
+            "de": "In diesem Abschnitt lernen Sie wichtige deutsche Begriffe im Zusammenhang mit der Gynäkologie, die es Ihnen ermöglichen, effektiv mit Patienten und medizinischem Fachpersonal in diesem Bereich zu kommunizieren. Sie werden auch die Standardverfahren und Vorsorgemaßnahmen erkunden, die in deutschsprachigen medizinischen Einrichtungen üblich sind."
+        },
+        "grammarFocus": {
+            "en": [
+                "Understanding the use of accusative and dative cases with prepositions related to body parts and medical procedures.",
+                "Focus on the correct word order in sentences describing medical findings and recommendations (e.g., subject-verb-object)."
+            ],
+            "bn": [
+                "শরীরের অংশ এবং চিকিৎসা পদ্ধতির সাথে সম্পর্কিত প্রিপোজিশনের সাথে অভিযুক্ত এবং ডেটিভ কেসের ব্যবহার বোঝা।",
+                "চিকিৎসা সংক্রান্ত তথ্য এবং সুপারিশগুলি বর্ণনা করার বাক্যগুলিতে সঠিক শব্দ ক্রমের উপর ফোকাস (যেমন, কর্তা-ক্রিয়া-কর্ম)।"
+            ],
+            "hi": [
+                "शरीर के अंगों और चिकित्सा प्रक्रियाओं से संबंधित पूर्वसर्गों के साथ कर्म कारक और संप्रदान कारक के उपयोग को समझना।",
+                "चिकित्सा निष्कर्षों और सिफारिशों का वर्णन करने वाले वाक्यों में सही शब्द क्रम पर ध्यान दें (जैसे, कर्ता-क्रिया-कर्म)।"
+            ],
+            "ur": [
+                "جسمانی اعضاء اور طبی طریقہ کار سے متعلق حرف جار کے ساتھ مفعول بہ اور مفعول لہ کے استعمال کو سمجھنا۔",
+                "طبی نتائج اور سفارشات کو بیان کرنے والے جملوں میں صحیح لفظ آرڈر پر توجہ مرکوز کرنا (مثال کے طور پر، فائل-فعل-مفعول)۔"
+            ],
+            "tr": [
+                "Vücut kısımları ve tıbbi prosedürlerle ilgili edatlarla akuzatif ve datif hallerinin kullanımını anlamak.",
+                "Tıbbi bulguları ve tavsiyeleri açıklayan cümlelerde doğru kelime sırasına odaklanmak (örn. özne-fiil-nesne)."
+            ],
+            "de": [
+                "Das Verständnis der Verwendung von Akkusativ und Dativ mit Präpositionen im Zusammenhang mit Körperteilen und medizinischen Eingriffen.",
+                "Fokus auf die korrekte Wortstellung in Sätzen, die medizinische Befunde und Empfehlungen beschreiben (z. B. Subjekt-Verb-Objekt)."
+            ]
+        },
+        "culturalNotes": {
+            "en": "In Germany, preventative care (Vorsorge) is highly valued, and women are strongly encouraged to attend regular OBGYN appointments.",
+            "bn": "জার্মানিতে, প্রতিরোধমূলক যত্নকে (Vorsorge) অত্যন্ত মূল্যবান মনে করা হয় এবং মহিলাদের নিয়মিত OBGYN অ্যাপয়েন্টমেন্টে অংশ নিতে উৎসাহিত করা হয়।",
+            "hi": "जर्मनी में, निवारक देखभाल (Vorsorge) को बहुत महत्व दिया जाता है, और महिलाओं को नियमित रूप से OBGYN अपॉइंटमेंट में भाग लेने के लिए दृढ़ता से प्रोत्साहित किया जाता है।",
+            "ur": "جرمنی میں، احتیاطی نگہداشت (Vorsorge) کو بہت اہمیت دی جاتی ہے، اور خواتین کو باقاعدگی سے OBGYN ملاقاتوں میں شرکت کرنے کی سختی سے حوصلہ افزائی کی جاتی ہے۔",
+            "tr": "Almanya'da, koruyucu bakıma (Vorsorge) büyük değer verilir ve kadınlar düzenli olarak kadın hastalıkları ve doğum randevularına katılmaya teşvik edilir.",
+            "de": "In Deutschland wird der Vorsorge (Vorsorge) ein hoher Stellenwert beigemessen, und Frauen werden dringend gebeten, regelmäßig gynäkologische Termine wahrzunehmen."
+        },
+        "summary": {
+            "en": "This section has provided a foundation in German medical terminology essential for understanding and discussing women's health and related procedures.",
+            "bn": "এই বিভাগে মহিলাদের স্বাস্থ্য এবং সম্পর্কিত পদ্ধতিগুলি বোঝা এবং আলোচনা করার জন্য প্রয়োজনীয় জার্মান চিকিৎসা পরিভাষায় একটি ভিত্তি প্রদান করা হয়েছে।",
+            "hi": "इस अनुभाग में महिलाओं के स्वास्थ्य और संबंधित प्रक्रियाओं को समझने और चर्चा करने के लिए आवश्यक जर्मन चिकित्सा शब्दावली में एक आधार प्रदान किया गया है।",
+            "ur": "اس حصے میں خواتین کی صحت اور متعلقہ طریقہ کار کو سمجھنے اور ان پر تبادلہ خیال کرنے کے لیے ضروری جرمن طبی اصطلاحات کی بنیاد فراہم کی گئی ہے۔",
+            "tr": "Bu bölüm, kadın sağlığı ve ilgili prosedürleri anlamak ve tartışmak için gerekli olan Almanca tıbbi terminolojide bir temel sağlamıştır.",
+            "de": "Dieser Abschnitt hat eine Grundlage in der deutschen medizinischen Terminologie geschaffen, die für das Verständnis und die Diskussion der Frauengesundheit und verwandter Verfahren unerlässlich ist."
+        },
+        "learningObjectives": [
+            "Recognize and understand key German medical terms related to OBGYN.",
+            "Describe common OBGYN procedures and examinations in German.",
+            "Apply grammatical concepts such as case usage in medical contexts.",
+            "Understand cultural aspects of women's healthcare in German-speaking countries."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "die Frauenheilkunde",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "ˈfʁaʊ̯ənhaɪ̯lkʊndə",
+            "category": "noun",
+            "translation": {
+                "en": "Gynecology",
+                "bn": "স্ত্রী রোগবিদ্যা",
+                "hi": "स्त्री रोग विज्ञान",
+                "ur": "امراضِ نسواں",
+                "tr": "Kadın Hastalıkları"
+            },
+            "exampleSentence": "Die Frauenheilkunde umfasst die Behandlung von Erkrankungen der weiblichen Geschlechtsorgane.",
+            "exampleTranslation": {
+                "en": "Gynecology includes the treatment of diseases of the female reproductive organs.",
+                "bn": "স্ত্রী রোগবিদ্যা মহিলা প্রজনন অঙ্গের রোগের চিকিৎসা অন্তর্ভুক্ত করে।",
+                "hi": "स्त्री रोग विज्ञान में महिला प्रजनन अंगों की बीमारियों का इलाज शामिल है।",
+                "ur": "امراضِ نسواں میں خواتین کے تولیدی اعضاء کی بیماریوں کا علاج شامل ہے۔",
+                "tr": "Kadın hastalıkları, kadın üreme organlarının hastalıklarının tedavisini içerir."
+            },
+            "id": "v28_01"
+        },
+        {
+            "germanTerm": "die Vorsorgeuntersuchung",
+            "article": "die",
+            "plural": "die Vorsorgeuntersuchungen",
+            "pronunciation": "ˈfoːɐ̯zɔʁɡəˌʊntɐˌzuːxʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "Preventive Examination",
+                "bn": "প্রতিরোধমূলক পরীক্ষা",
+                "hi": "निवारक जांच",
+                "ur": "احتیاطی معائنہ",
+                "tr": "Önleyici Muayene"
+            },
+            "exampleSentence": "Die jährliche Vorsorgeuntersuchung ist wichtig für die Früherkennung von Krankheiten.",
+            "exampleTranslation": {
+                "en": "The annual preventive examination is important for the early detection of diseases.",
+                "bn": "রোগের প্রাথমিক সনাক্তকরণের জন্য বার্ষিক প্রতিরোধমূলক পরীক্ষা গুরুত্বপূর্ণ।",
+                "hi": "रोगों का शीघ्र पता लगाने के लिए वार्षिक निवारक जांच महत्वपूर्ण है।",
+                "ur": "بیماریوں کی جلد تشخیص کے لیے سالانہ احتیاطی معائنہ اہم ہے۔",
+                "tr": "Yıllık önleyici muayene, hastalıkların erken teşhisi için önemlidir."
+            },
+            "id": "v28_02"
+        },
+        {
+            "germanTerm": "der Ultraschall",
+            "article": "der",
+            "plural": "die Ultraschalle",
+            "pronunciation": "ˈʊltʁaʃal",
+            "category": "noun",
+            "translation": {
+                "en": "Ultrasound",
+                "bn": "আল্ট্রাসাউন্ড",
+                "hi": "अल्ट्रासाउंड",
+                "ur": "الٹراساؤنڈ",
+                "tr": "Ultrason"
+            },
+            "exampleSentence": "Mit dem Ultraschall können wir das Baby im Mutterleib sehen.",
+            "exampleTranslation": {
+                "en": "With the ultrasound, we can see the baby in the womb.",
+                "bn": "আল্ট্রাসাউন্ডের মাধ্যমে আমরা মায়ের পেটে বাচ্চা দেখতে পারি।",
+                "hi": "अल्ट्रासाउंड से हम माँ के गर्भ में बच्चे को देख सकते हैं।",
+                "ur": "الٹراساؤنڈ کے ذریعے ہم ماں کے پیٹ میں بچے کو دیکھ سکتے ہیں۔",
+                "tr": "Ultrason ile anne karnındaki bebeği görebiliriz."
+            },
+            "id": "v28_03"
+        },
+        {
+            "germanTerm": "die Routinekontrolle",
+            "article": "die",
+            "plural": "die Routinekontrollen",
+            "pronunciation": "ʁuˈtiːnəˌkɔntʁɔlə",
+            "category": "noun",
+            "translation": {
+                "en": "Routine Check-up",
+                "bn": "রুটিন চেক-আপ",
+                "hi": "नियमित जांच",
+                "ur": "معمول کا چیک اپ",
+                "tr": "Rutin Kontrol"
+            },
+            "exampleSentence": "Die Patientin kommt zur Routinekontrolle in die Praxis.",
+            "exampleTranslation": {
+                "en": "The patient comes to the practice for a routine check-up.",
+                "bn": "রোগী রুটিন চেক-আপের জন্য ক্লিনিকে আসেন।",
+                "hi": "मरीज नियमित जांच के लिए क्लिनिक में आता है।",
+                "ur": "مریض معمول کے چیک اپ کے لیے کلینک آتی ہے۔",
+                "tr": "Hasta rutin kontrol için kliniğe geliyor."
+            },
+            "id": "v28_04"
+        },
+        {
+            "germanTerm": "der Blutdruck",
+            "article": "der",
+            "plural": "die Blutdrücke",
+            "pronunciation": "ˈbluːtˌdʁʊk",
+            "category": "noun",
+            "translation": {
+                "en": "Blood Pressure",
+                "bn": "রক্তচাপ",
+                "hi": "रक्तचाप",
+                "ur": "بلڈ پریشر",
+                "tr": "Kan Basıncı"
+            },
+            "exampleSentence": "Der Blutdruck der Patientin ist leicht erhöht.",
+            "exampleTranslation": {
+                "en": "The patient's blood pressure is slightly elevated.",
+                "bn": "রোগীর রক্তচাপ সামান্য বৃদ্ধি পেয়েছে।",
+                "hi": "मरीज का रक्तचाप थोड़ा बढ़ा हुआ है।",
+                "ur": "مریض کا بلڈ پریشر قدرے بڑھا ہوا ہے۔",
+                "tr": "Hastanın kan basıncı biraz yüksek."
+            },
+            "id": "v28_05"
+        },
+        {
+            "germanTerm": "die Beratung",
+            "article": "die",
+            "plural": "die Beratungen",
+            "pronunciation": "bəˈʁaːtʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "Consultation",
+                "bn": "পরামর্শ",
+                "hi": "परामर्श",
+                "ur": "مشاورت",
+                "tr": "Danışma"
+            },
+            "exampleSentence": "Die Patientin wünscht eine Beratung zur Verhütung.",
+            "exampleTranslation": {
+                "en": "The patient wants a consultation on contraception.",
+                "bn": "রোগী গর্ভনিরোধক বিষয়ে পরামর্শ চান।",
+                "hi": "मरीज गर्भनिरोधक पर परामर्श चाहती है।",
+                "ur": "مریض مانع حمل پر مشاورت چاہتی ہے۔",
+                "tr": "Hasta doğum kontrolü konusunda danışmanlık istiyor."
+            },
+            "id": "v28_06"
+        },
+        {
+            "germanTerm": "die Schwangerschaft",
+            "article": "die",
+            "plural": "die Schwangerschaften",
+            "pronunciation": "ˈʃvaŋɐʃaft",
+            "category": "noun",
+            "translation": {
+                "en": "Pregnancy",
+                "bn": "গর্ভাবস্থা",
+                "hi": "गर्भावस्था",
+                "ur": "حمل",
+                "tr": "Hamilelik"
+            },
+            "exampleSentence": "Die Schwangerschaft verläuft komplikationslos.",
+            "exampleTranslation": {
+                "en": "The pregnancy is progressing without complications.",
+                "bn": "গর্ভাবস্থা জটিলতা ছাড়াই চলছে।",
+                "hi": "गर्भावस्था बिना किसी जटिलता के आगे बढ़ रही है।",
+                "ur": "حمل بغیر کسی پیچیدگی کے آگے بڑھ رہا ہے۔",
+                "tr": "Hamilelik komplikasyonsuz ilerliyor."
+            },
+            "id": "v28_07"
+        },
+        {
+            "germanTerm": "die Geburt",
+            "article": "die",
+            "plural": "die Geburten",
+            "pronunciation": "ɡəˈbuːɐ̯t",
+            "category": "noun",
+            "translation": {
+                "en": "Birth",
+                "bn": "জন্ম",
+                "hi": "जन्म",
+                "ur": "پیدائش",
+                "tr": "Doğum"
+            },
+            "exampleSentence": "Die Geburt verlief spontan und ohne Komplikationen.",
+            "exampleTranslation": {
+                "en": "The birth was spontaneous and without complications.",
+                "bn": "জন্ম স্বতঃস্ফূর্ত ছিল এবং কোনও জটিলতা ছিল না।",
+                "hi": "जन्म सहज था और बिना किसी जटिलता के हुआ।",
+                "ur": "پیدائش خود بخود ہوئی اور بغیر کسی پیچیدگی کے۔",
+                "tr": "Doğum kendiliğinden ve komplikasyonsuz gerçekleşti."
+            },
+            "id": "v28_08"
+        },
+        {
+            "germanTerm": "die Entbindung",
+            "article": "die",
+            "plural": "die Entbindungen",
+            "pronunciation": "ɛntˈbɪndʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "Childbirth",
+                "bn": "প্রসব",
+                "hi": "प्रसव",
+                "ur": "زچگی",
+                "tr": "Doğum"
+            },
+            "exampleSentence": "Die Entbindung erfolgte per Kaiserschnitt.",
+            "exampleTranslation": {
+                "en": "The childbirth was performed by cesarean section.",
+                "bn": "প্রসব সিজারিয়ান সেকশনের মাধ্যমে করা হয়েছিল।",
+                "hi": "प्रसव सिजेरियन सेक्शन द्वारा किया गया था।",
+                "ur": "زچگی سی سیکشن کے ذریعے کی گئی۔",
+                "tr": "Doğum sezaryen ile yapıldı."
+            },
+            "id": "v28_09"
+        },
+        {
+            "germanTerm": "der Muttermund",
+            "article": "der",
+            "plural": "die Muttermünder",
+            "pronunciation": "ˈmʊtɐˌmʊnt",
+            "category": "noun",
+            "translation": {
+                "en": "Cervix",
+                "bn": "জরায়ু মুখ",
+                "hi": "गर्भाशय ग्रीवा",
+                "ur": "سرویکس",
+                "tr": "Serviks"
+            },
+            "exampleSentence": "Der Muttermund ist während der Geburt vollständig geöffnet.",
+            "exampleTranslation": {
+                "en": "The cervix is fully dilated during birth.",
+                "bn": "জন্মের সময় জরায়ু মুখ সম্পূর্ণরূপে খোলা থাকে।",
+                "hi": "जन्म के दौरान गर्भाशय ग्रीवा पूरी तरह से खुली होती है।",
+                "ur": "پیدائش کے دوران سرویکس پوری طرح سے کھلا ہوتا ہے۔",
+                "tr": "Doğum sırasında serviks tamamen açılır."
+            },
+            "id": "v28_10"
+        },
+        {
+            "germanTerm": "die Wehe",
+            "article": "die",
+            "plural": "die Wehen",
+            "pronunciation": "ˈveːə",
+            "category": "noun",
+            "translation": {
+                "en": "Contraction",
+                "bn": "বেদনা",
+                "hi": "संकुचन",
+                "ur": "سکڑاؤ",
+                "tr": "Kasılma"
+            },
+            "exampleSentence": "Die Wehen werden immer stärker und regelmäßiger.",
+            "exampleTranslation": {
+                "en": "The contractions are getting stronger and more regular.",
+                "bn": "বেদনাগুলি আরও শক্তিশালী এবং নিয়মিত হচ্ছে।",
+                "hi": "संकुचन मजबूत और अधिक नियमित हो रहे हैं।",
+                "ur": "سکڑاؤ مضبوط اور زیادہ باقاعدہ ہو رہے ہیں۔",
+                "tr": "Kasılmalar giderek güçleniyor ve düzenli hale geliyor."
+            },
+            "id": "v28_11"
+        },
+        {
+            "germanTerm": "das Fruchtwasser",
+            "article": "das",
+            "plural": "kein Plural",
+            "pronunciation": "ˈfʁʊxtˌvasɐ",
+            "category": "noun",
+            "translation": {
+                "en": "Amniotic Fluid",
+                "bn": "অ্যামনিওটিক ফ্লুইড",
+                "hi": "अम्निओटिक द्रव",
+                "ur": "ایمنیوٹک سیال",
+                "tr": "Amniyotik Sıvı"
+            },
+            "exampleSentence": "Das Fruchtwasser ist klar.",
+            "exampleTranslation": {
+                "en": "The amniotic fluid is clear.",
+                "bn": "অ্যামনিওটিক ফ্লুইড পরিষ্কার।",
+                "hi": "अम्निओटिक द्रव स्पष्ट है।",
+                "ur": "ایمنیوٹک سیال صاف ہے۔",
+                "tr": "Amniyotik sıvı berrak."
+            },
+            "id": "v28_12"
+        },
+        {
+            "germanTerm": "die Plazenta",
+            "article": "die",
+            "plural": "die Plazenten",
+            "pronunciation": "plaˈtsɛnta",
+            "category": "noun",
+            "translation": {
+                "en": "Placenta",
+                "bn": "প্লাসেন্টা",
+                "hi": "प्लेसेंटा",
+                "ur": "پلاسنٹا",
+                "tr": "Plasenta"
+            },
+            "exampleSentence": "Die Plazenta hat sich nach der Geburt gelöst.",
+            "exampleTranslation": {
+                "en": "The placenta has separated after birth.",
+                "bn": "জন্মের পরে প্লাসেন্টা আলাদা হয়ে গেছে।",
+                "hi": "जन्म के बाद प्लेसेंटा अलग हो गया है।",
+                "ur": "پیدائش کے بعد پلاسنٹا الگ ہو گیا ہے۔",
+                "tr": "Plasenta doğumdan sonra ayrıldı."
+            },
+            "id": "v28_13"
+        },
+        {
+            "germanTerm": "das Wochenbett",
+            "article": "das",
+            "plural": "kein Plural",
+            "pronunciation": "ˈvɔxn̩ˌbɛt",
+            "category": "noun",
+            "translation": {
+                "en": "Puerperium",
+                "bn": "প্রসবোত্তর সময়",
+                "hi": "प्रसवोत्तर अवधि",
+                "ur": "نفاس",
+                "tr": "Lohusalık"
+            },
+            "exampleSentence": "Die Frau befindet sich im Wochenbett.",
+            "exampleTranslation": {
+                "en": "The woman is in the puerperium.",
+                "bn": "মহিলা প্রসবোত্তর সময়কালে আছেন।",
+                "hi": "महिला प्रसवोत्तर अवधि में है।",
+                "ur": "خاتون نفاس میں ہے۔",
+                "tr": "Kadın lohusalık döneminde."
+            },
+            "id": "v28_14"
+        },
+        {
+            "germanTerm": "stillen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˈʃtɪlən",
+            "category": "verb",
+            "translation": {
+                "en": "Breastfeed",
+                "bn": "স্তন্যপান করানো",
+                "hi": "स्तनपान कराना",
+                "ur": "دودھ پلانا",
+                "tr": "Emzirmek"
+            },
+            "exampleSentence": "Die Mutter stillt ihr Baby.",
+            "exampleTranslation": {
+                "en": "The mother is breastfeeding her baby.",
+                "bn": "মা তার শিশুকে স্তন্যপান করাচ্ছেন।",
+                "hi": "माँ अपने बच्चे को स्तनपान करा रही है।",
+                "ur": "ماں اپنے بچے کو دودھ پلا رہی ہے۔",
+                "tr": "Anne bebeğini emziriyor."
+            },
+            "id": "v28_15"
+        },
+        {
+            "germanTerm": "die Brust",
+            "article": "die",
+            "plural": "die Brüste",
+            "pronunciation": "bʁʊst",
+            "category": "noun",
+            "translation": {
+                "en": "Breast",
+                "bn": "স্তন",
+                "hi": "स्तन",
+                "ur": "چھاتی",
+                "tr": "Göğüs"
+            },
+            "exampleSentence": "Die Untersuchung der Brust ist Teil der Vorsorgeuntersuchung.",
+            "exampleTranslation": {
+                "en": "Examination of the breast is part of the preventive examination.",
+                "bn": "স্তন পরীক্ষা প্রতিরোধমূলক পরীক্ষার অংশ।",
+                "hi": "स्तन की जांच निवारक परीक्षा का हिस्सा है।",
+                "ur": "چھاتی کا معائنہ احتیاطی معائنے کا حصہ ہے۔",
+                "tr": "Göğüs muayenesi, önleyici muayenenin bir parçasıdır."
+            },
+            "id": "v28_16"
+        },
+        {
+            "germanTerm": "die Gebärmutter",
+            "article": "die",
+            "plural": "die Gebärmütter",
+            "pronunciation": "ɡəˈbɛːɐ̯ˌmʊtɐ",
+            "category": "noun",
+            "translation": {
+                "en": "Uterus",
+                "bn": "জরায়ু",
+                "hi": "गर्भाशय",
+                "ur": "رحم",
+                "tr": "Rahim"
+            },
+            "exampleSentence": "Die Gebärmutter ist nach der Schwangerschaft wieder kleiner geworden.",
+            "exampleTranslation": {
+                "en": "The uterus has become smaller again after pregnancy.",
+                "bn": "গর্ভাবস্থার পরে জরায়ু আবার ছোট হয়ে গেছে।",
+                "hi": "गर्भावस्था के बाद गर्भाशय फिर से छोटा हो गया है।",
+                "ur": "حمل کے بعد رحم پھر سے چھوٹا ہو گیا ہے۔",
+                "tr": "Hamilelikten sonra rahim tekrar küçüldü."
+            },
+            "id": "v28_17"
+        },
+        {
+            "germanTerm": "das Ovar",
+            "article": "das",
+            "plural": "die Ovarien",
+            "pronunciation": "oˈvaːɐ̯",
+            "category": "noun",
+            "translation": {
+                "en": "Ovary",
+                "bn": "ডিম্বাশয়",
+                "hi": "अंडाशय",
+                "ur": "بیضہ دانی",
+                "tr": "Yumurtalık"
+            },
+            "exampleSentence": "Am Ovar wurde eine Zyste festgestellt.",
+            "exampleTranslation": {
+                "en": "A cyst was found on the ovary.",
+                "bn": "ডিম্বাশয়ে একটি সিস্ট পাওয়া গেছে।",
+                "hi": "अंडाशय पर एक सिस्ट पाया गया।",
+                "ur": "بیضہ دانی پر ایک سسٹ ملا ہے۔",
+                "tr": "Yumurtalıkta bir kist bulundu."
+            },
+            "id": "v28_18"
+        },
+        {
+            "germanTerm": "die Eileiter",
+            "article": "die",
+            "plural": "die Eileiter",
+            "pronunciation": "ˈaɪ̯ˌlaɪ̯tɐ",
+            "category": "noun",
+            "translation": {
+                "en": "Fallopian Tubes",
+                "bn": "ফ্যালোপিয়ান টিউব",
+                "hi": "फैलोपियन ट्यूब",
+                "ur": "فیلوپین ٹیوبیں",
+                "tr": "Fallop Tüpleri"
+            },
+            "exampleSentence": "Die Eileiter sind durchgängig.",
+            "exampleTranslation": {
+                "en": "The fallopian tubes are patent.",
+                "bn": "ফ্যালোপিয়ান টিউবগুলি খোলা আছে।",
+                "hi": "फैलोपियन ट्यूब पेटेंट हैं।",
+                "ur": "فیلوپین ٹیوبیں کھلی ہیں۔",
+                "tr": "Fallop tüpleri açık."
+            },
+            "id": "v28_19"
+        },
+        {
+            "germanTerm": "die Menstruation",
+            "article": "die",
+            "plural": "die Menstruationen",
+            "pronunciation": "mɛnstruaˈtsi̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "Menstruation",
+                "bn": "মাসিক",
+                "hi": "मासिक धर्म",
+                "ur": "حیض",
+                "tr": "Adet"
+            },
+            "exampleSentence": "Die Menstruation ist unregelmäßig.",
+            "exampleTranslation": {
+                "en": "The menstruation is irregular.",
+                "bn": "মাসিক অনিয়মিত।",
+                "hi": "मासिक धर्म अनियमित है।",
+                "ur": "حیض بے قاعدہ ہے۔",
+                "tr": "Adet düzensiz."
+            },
+            "id": "v28_20"
+        },
+        {
+            "germanTerm": "die Wechseljahre",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "ˈvɛksl̩ˌjaːʁə",
+            "category": "noun",
+            "translation": {
+                "en": "Menopause",
+                "bn": "মেনোপজ",
+                "hi": "रजोनिवृत्ति",
+                "ur": "مینوپاز",
+                "tr": "Menopoz"
+            },
+            "exampleSentence": "Die Patientin befindet sich in den Wechseljahren.",
+            "exampleTranslation": {
+                "en": "The patient is in menopause.",
+                "bn": "রোগী মেনোপজে আছেন।",
+                "hi": "मरीज रजोनिवृत्ति में है।",
+                "ur": "مریض مینوپاز میں ہے۔",
+                "tr": "Hasta menopozda."
+            },
+            "id": "v28_21"
+        },
+        {
+            "germanTerm": "die Hormontherapie",
+            "article": "die",
+            "plural": "die Hormontherapien",
+            "pronunciation": "hɔʁˈmoːnˌteːʁapiː",
+            "category": "noun",
+            "translation": {
+                "en": "Hormone Therapy",
+                "bn": "হরমোন থেরাপি",
+                "hi": "हार्मोन थेरेपी",
+                "ur": "ہارمون تھراپی",
+                "tr": "Hormon Terapisi"
+            },
+            "exampleSentence": "Die Hormontherapie kann die Beschwerden in den Wechseljahren lindern.",
+            "exampleTranslation": {
+                "en": "Hormone therapy can relieve the symptoms of menopause.",
+                "bn": "হরমোন থেরাপি মেনোপজের লক্ষণগুলি উপশম করতে পারে।",
+                "hi": "हार्मोन थेरेपी रजोनिवृत्ति के लक्षणों को कम कर सकती है।",
+                "ur": "ہارمون تھراپی مینوپاز کی علامات کو کم کر سکتی ہے۔",
+                "tr": "Hormon terapisi menopozun semptomlarını hafifletebilir."
+            },
+            "id": "v28_22"
+        },
+        {
+            "germanTerm": "die Zyste",
+            "article": "die",
+            "plural": "die Zysten",
+            "pronunciation": "ˈtsʏstə",
+            "category": "noun",
+            "translation": {
+                "en": "Cyst",
+                "bn": "সিস্ট",
+                "hi": "सिस्ट",
+                "ur": "رسولی",
+                "tr": "Kist"
+            },
+            "exampleSentence": "Die Zyste ist gutartig.",
+            "exampleTranslation": {
+                "en": "The cyst is benign.",
+                "bn": "সিস্টটি সৌম্য।",
+                "hi": "सिस्ट सौम्य है।",
+                "ur": "رسولی حمیدہ ہے۔",
+                "tr": "Kist iyi huylu."
+            },
+            "id": "v28_23"
+        },
+        {
+            "germanTerm": "das Myom",
+            "article": "das",
+            "plural": "die Myome",
+            "pronunciation": "myˈoːm",
+            "category": "noun",
+            "translation": {
+                "en": "Myoma",
+                "bn": "মায়োমা",
+                "hi": "मायोमा",
+                "ur": "مایوما",
+                "tr": "Miyom"
+            },
+            "exampleSentence": "Das Myom muss operativ entfernt werden.",
+            "exampleTranslation": {
+                "en": "The myoma must be surgically removed.",
+                "bn": "মায়োমা অস্ত্রোপচার করে অপসারণ করতে হবে।",
+                "hi": "मायोमा को शल्य चिकित्सा द्वारा हटाना होगा।",
+                "ur": "مایوما کو جراحی سے ہٹانا ہوگا۔",
+                "tr": "Miyom cerrahi olarak çıkarılmalıdır."
+            },
+            "id": "v28_24"
+        },
+        {
+            "germanTerm": "die Endometriose",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "ˌɛndoˌmetʁiˈoːzə",
+            "category": "noun",
+            "translation": {
+                "en": "Endometriosis",
+                "bn": "এন্ডোমেট্রিওসিস",
+                "hi": "एंडोमेट्रियोसिस",
+                "ur": "اینڈومیٹریوسس",
+                "tr": "Endometriozis"
+            },
+            "exampleSentence": "Die Patientin leidet unter Endometriose.",
+            "exampleTranslation": {
+                "en": "The patient suffers from endometriosis.",
+                "bn": "রোগী এন্ডোমেট্রিওসিসে ভুগছেন।",
+                "hi": "मरीज एंडोमेट्रियोसिस से पीड़ित है।",
+                "ur": "مریض اینڈومیٹریوسس میں مبتلا ہے۔",
+                "tr": "Hasta endometriozis hastası."
+            },
+            "id": "v28_25"
+        },
+        {
+            "germanTerm": "der Scheidenpilz",
+            "article": "der",
+            "plural": "die Scheidenpilze",
+            "pronunciation": "ˈʃaɪ̯dənˌpɪlts",
+            "category": "noun",
+            "translation": {
+                "en": "Vaginal Yeast Infection",
+                "bn": "যোনি ছত্রাক সংক্রমণ",
+                "hi": "योनि खमीर संक्रमण",
+                "ur": "اندام نہانی میں خمیری انفیکشن",
+                "tr": "Vajinal Mantar Enfeksiyonu"
+            },
+            "exampleSentence": "Die Patientin hat einen Scheidenpilz.",
+            "exampleTranslation": {
+                "en": "The patient has a vaginal yeast infection.",
+                "bn": "রোগীর যোনি ছত্রাক সংক্রমণ হয়েছে।",
+                "hi": "मरीज को योनि खमीर संक्रमण है।",
+                "ur": "مریض کو اندام نہانی میں خمیری انفیکشن ہے۔",
+                "tr": "Hastanın vajinal mantar enfeksiyonu var."
+            },
+            "id": "v28_26"
+        },
+        {
+            "germanTerm": "die Verhütung",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "fɛɐ̯ˈhyːtʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "Contraception",
+                "bn": "গর্ভনিরোধ",
+                "hi": "गर्भनिरोध",
+                "ur": "مانع حمل",
+                "tr": "Doğum Kontrolü"
+            },
+            "exampleSentence": "Welche Verhütungsmethode ist für Sie am besten geeignet?",
+            "exampleTranslation": {
+                "en": "Which contraception method is best suited for you?",
+                "bn": "কোন গর্ভনিরোধক পদ্ধতি আপনার জন্য সবচেয়ে উপযুক্ত?",
+                "hi": "आपके लिए कौन सी गर्भनिरोधक विधि सबसे उपयुक्त है?",
+                "ur": "آپ کے لیے مانع حمل کا کون سا طریقہ سب سے مناسب ہے؟",
+                "tr": "Sizin için hangi doğum kontrol yöntemi en uygun?"
+            },
+            "id": "v28_27"
+        },
+        {
+            "germanTerm": "die Sterilisation",
+            "article": "die",
+            "plural": "die Sterilisationen",
+            "pronunciation": "ˌʃteːʁili̯zaˈtsi̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "Sterilization",
+                "bn": "বন্ধ্যাকরণ",
+                "hi": "नसबंदी",
+                "ur": "نس بندی",
+                "tr": "Sterilizasyon"
+            },
+            "exampleSentence": "Die Patientin wünscht eine Sterilisation.",
+            "exampleTranslation": {
+                "en": "The patient wants sterilization.",
+                "bn": "রোগী বন্ধ্যাকরণ চান।",
+                "hi": "मरीज नसबंदी चाहता है।",
+                "ur": "مریض نس بندی چاہتا ہے۔",
+                "tr": "Hasta sterilizasyon istiyor."
+            },
+            "id": "v28_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Routine Checkup",
+                "bn": "নিয়মিত পরীক্ষা",
+                "hi": "नियमित जांच",
+                "ur": "معمول معائنہ",
+                "tr": "Rutin Kontrol"
+            },
+            "context": {
+                "en": "Patient Müller is having her routine checkup at the OBGYN.",
+                "bn": "রোগী মুলার স্ত্রীরোগ বিশেষজ্ঞের কাছে তার নিয়মিত স্বাস্থ্য পরীক্ষা করাচ্ছেন।",
+                "hi": "मरीज मुलर स्त्री रोग विशेषज्ञ के पास अपनी नियमित जांच करवा रही हैं।",
+                "ur": "مریض مولر شعبہ امراض نسواں میں اپنا معمول کا چیک اپ کروا رہی ہیں۔",
+                "tr": "Hasta Müller, kadın hastalıkları ve doğum bölümünde rutin kontrolünü yaptırıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Morgen, Frau Müller. Wie geht es Ihnen heute?",
+                    "translation": {
+                        "en": "Good morning, Mrs. Müller. How are you doing today?",
+                        "bn": "শুভ সকাল, মিসেস মুলার। আপনি আজ কেমন আছেন?",
+                        "hi": "सुप्रभात, श्रीमती मुलर। आज आप कैसी हैं?",
+                        "ur": "صبح بخیر، محترمہ مولر۔ آپ آج کیسی ہیں؟",
+                        "tr": "Günaydın, Bayan Müller. Bugün nasılsınız?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Morgen, Herr Dr. Schmidt. Mir geht es gut, danke. Nur ein bisschen nervös wegen der Routinekontrolle.",
+                    "translation": {
+                        "en": "Good morning, Dr. Schmidt. I'm fine, thank you. Just a little nervous about the routine checkup.",
+                        "bn": "শুভ সকাল, ডঃ শ্মিট। আমি ভালো আছি, ধন্যবাদ। শুধু নিয়মিত স্বাস্থ্য পরীক্ষা নিয়ে একটু চিন্তিত।",
+                        "hi": "सुप्रभात, डॉ. श्मिट। मैं ठीक हूँ, धन्यवाद। बस नियमित जांच के बारे में थोड़ी घबराहट हो रही है।",
+                        "ur": "صبح بخیر، ڈاکٹر شمٹ۔ میں ٹھیک ہوں، شکریہ۔ بس معمول کے چیک اپ کے بارے میں تھوڑی گھبراہٹ ہے۔",
+                        "tr": "Günaydın, Dr. Schmidt. İyiyim, teşekkür ederim. Sadece rutin kontrol için biraz gerginim."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Kein Grund zur Sorge. Wir machen heute eine Vorsorgeuntersuchung und einen Ultraschall. Dann messen wir noch Ihren Blutdruck.",
+                    "translation": {
+                        "en": "No need to worry. Today, we'll do a checkup and an ultrasound. Then we'll measure your blood pressure.",
+                        "bn": "চিন্তার কোন কারণ নেই। আজ, আমরা একটি স্বাস্থ্য পরীক্ষা এবং একটি আল্ট্রাসাউন্ড করব। তারপর আমরা আপনার রক্তচাপ মাপব।",
+                        "hi": "चिंता करने की कोई जरूरत नहीं है। आज, हम एक जांच और एक अल्ट्रासाउंड करेंगे। फिर हम आपका रक्तचाप मापेंगे।",
+                        "ur": "پریشان ہونے کی کوئی ضرورت نہیں ہے۔ آج، ہم ایک چیک اپ اور ایک الٹراساؤنڈ کریں گے۔ پھر ہم آپ کا بلڈ پریشر ناپیں گے۔",
+                        "tr": "Endişelenmenize gerek yok. Bugün, bir kontrol ve bir ultrason yapacağız. Sonra da kan basıncınızı ölçeceğiz."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich messe schon mal Ihren Blutdruck, Frau Müller.",
+                    "translation": {
+                        "en": "I'll measure your blood pressure now, Mrs. Müller.",
+                        "bn": "আমি এখনই আপনার রক্তচাপ মাপব, মিসেস মুলার।",
+                        "hi": "मैं अभी आपका रक्तचाप मापता हूँ, श्रीमती मुलर।",
+                        "ur": "میں ابھی آپ کا بلڈ پریشر ماپتا ہوں، محترمہ مولر۔",
+                        "tr": "Şimdi kan basıncınızı ölçeceğim, Bayan Müller."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "In Ordnung, Schwester Weber.",
+                    "translation": {
+                        "en": "Okay, Sister Weber.",
+                        "bn": "ঠিক আছে, সিস্টার ওয়েবার।",
+                        "hi": "ठीक है, सिस्टर वेबर।",
+                        "ur": "ٹھیک ہے، سسٹر ویبر۔",
+                        "tr": "Tamam, Hemşire Weber."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ihr Blutdruck ist etwas hoch. Nach dem Ultraschall besprechen wir das noch.",
+                    "translation": {
+                        "en": "Your blood pressure is a little high. We'll discuss that after the ultrasound.",
+                        "bn": "আপনার রক্তচাপ একটু বেশি। আল্ট্রাসাউন্ডের পর আমরা এটা নিয়ে আলোচনা করব।",
+                        "hi": "आपका रक्तचाप थोड़ा अधिक है। हम अल्ट्रासाउंड के बाद इस पर चर्चा करेंगे।",
+                        "ur": "آپ کا بلڈ پریشر تھوڑا زیادہ ہے۔ ہم الٹراساؤنڈ کے بعد اس پر تبادلہ خیال کریں گے۔",
+                        "tr": "Kan basıncınız biraz yüksek. Ultrason sonrasında bunu görüşeceğiz."
+                    }
+                }
+            ],
+            "id": "d28_01"
+        },
+        {
+            "title": {
+                "en": "Discussing Ultrasound Results",
+                "bn": "আল্ট্রাসাউন্ডের ফলাফল নিয়ে আলোচনা",
+                "hi": "अल्ट्रासाउंड के नतीजों पर चर्चा",
+                "ur": "الٹراساؤنڈ کے نتائج پر تبادلہ خیال",
+                "tr": "Ultrason Sonuçlarını Tartışmak"
+            },
+            "context": {
+                "en": "Dr. Schmidt is discussing the ultrasound results with Patient Klein.",
+                "bn": "ডঃ শ্মিট রোগী ক্লাইনের সাথে আল্ট্রাসাউন্ডের ফলাফল নিয়ে আলোচনা করছেন।",
+                "hi": "डॉ. श्मिट मरीज क्लेन के साथ अल्ट्रासाउंड के नतीजे पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر شمٹ مریض کلائن کے ساتھ الٹراساؤنڈ کے نتائج پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Dr. Schmidt, Hasta Klein ile ultrason sonuçlarını tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "So, Frau Klein, der Ultraschall sieht gut aus. Alles im grünen Bereich.",
+                    "translation": {
+                        "en": "So, Mrs. Klein, the ultrasound looks good. Everything is fine.",
+                        "bn": "সুতরাং, মিসেস ক্লাইন, আল্ট্রাসাউন্ড ভালো দেখাচ্ছে। সবকিছু ঠিক আছে।",
+                        "hi": "तो, श्रीमती क्लेन, अल्ट्रासाउंड अच्छा दिख रहा है। सब कुछ ठीक है।",
+                        "ur": "تو، محترمہ کلائن، الٹراساؤنڈ اچھا لگ رہا ہے۔ سب ٹھیک ہے۔",
+                        "tr": "Peki, Bayan Klein, ultrason iyi görünüyor. Her şey yolunda."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Das ist beruhigend zu hören. Ich hatte etwas Angst.",
+                    "translation": {
+                        "en": "That's reassuring to hear. I was a bit worried.",
+                        "bn": "এটা শুনে শান্তি লাগছে। আমি একটু চিন্তিত ছিলাম।",
+                        "hi": "यह सुनकर राहत मिली। मैं थोड़ी चिंतित थी।",
+                        "ur": "یہ سن کر تسلی ہوئی۔ میں تھوڑی پریشان تھی۔",
+                        "tr": "Bunu duymak rahatlatıcı. Biraz endişeliydim."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Verständlich. Aber es gibt keinen Grund zur Sorge. Wie geht es Ihnen ansonsten?",
+                    "translation": {
+                        "en": "Understandable. But there's no reason to worry. How are you doing otherwise?",
+                        "bn": "বোঝা যায়। কিন্তু চিন্তার কোন কারণ নেই। আপনি অন্য দিকে কেমন আছেন?",
+                        "hi": "समझ में आता है। लेकिन चिंता करने की कोई जरूरत नहीं है। आप अन्यथा कैसी हैं?",
+                        "ur": "سمجھ میں آتا ہے۔ لیکن پریشان ہونے کی کوئی وجہ نہیں ہے۔ آپ بصورت دیگر کیسی ہیں؟",
+                        "tr": "Anlaşılabilir. Ama endişelenmenize gerek yok. Başka nasıl gidiyor?"
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Mir ist manchmal etwas schwindelig.",
+                    "translation": {
+                        "en": "I sometimes feel a little dizzy.",
+                        "bn": "মাঝে মাঝে আমার একটু মাথা ঘোরে।",
+                        "hi": "मुझे कभी-कभी थोड़ा चक्कर आता है।",
+                        "ur": "مجھے کبھی کبھی تھوڑا چکر آتا ہے۔",
+                        "tr": "Bazen biraz başım dönüyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das sollten wir im Auge behalten. Wir machen noch ein paar Blutuntersuchungen.",
+                    "translation": {
+                        "en": "We should keep an eye on that. We'll do a few blood tests.",
+                        "bn": "আমাদের এটা নজরে রাখা উচিত। আমরা কিছু রক্ত পরীক্ষা করব।",
+                        "hi": "हमें इस पर नज़र रखनी चाहिए। हम कुछ रक्त परीक्षण करेंगे।",
+                        "ur": "ہمیں اس پر نظر رکھنی چاہیے۔ ہم کچھ خون کے ٹیسٹ کریں گے۔",
+                        "tr": "Bunu takip etmeliyiz. Birkaç kan testi yapacağız."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Alles klar, Herr Doktor.",
+                    "translation": {
+                        "en": "Alright, Doctor.",
+                        "bn": "ঠিক আছে, ডাক্তার।",
+                        "hi": "ठीक है, डॉक्टर।",
+                        "ur": "ٹھیک ہے، ڈاکٹر۔",
+                        "tr": "Pekala, Doktor."
+                    }
+                }
+            ],
+            "id": "d28_02"
+        },
+        {
+            "title": {
+                "en": "First Appointment - Pregnancy",
+                "bn": "প্রথম অ্যাপয়েন্টমেন্ট - গর্ভাবস্থা",
+                "hi": "पहला अपॉइंटमेंट - गर्भावस्था",
+                "ur": "پہلی ملاقات - حمل",
+                "tr": "İlk Randevu - Hamilelik"
+            },
+            "context": {
+                "en": "A young woman, Patient Lehmann, is having her first appointment after discovering she's pregnant.",
+                "bn": "একজন যুবতী মহিলা, রোগী লেহমান, গর্ভবতী হওয়ার পরে তার প্রথম অ্যাপয়েন্টমেন্ট করছেন।",
+                "hi": "एक युवा महिला, मरीज लेहमैन, गर्भवती होने के बाद अपनी पहली अपॉइंटमेंट ले रही है।",
+                "ur": "ایک نوجوان خاتون، مریض لیمان، حاملہ ہونے کے بعد اپنی پہلی ملاقات کر رہی ہے۔",
+                "tr": "Genç bir kadın olan Hasta Lehmann, hamile olduğunu öğrendikten sonra ilk randevusuna geliyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Herzlichen Glückwunsch zur Schwangerschaft, Frau Lehmann!",
+                    "translation": {
+                        "en": "Congratulations on your pregnancy, Mrs. Lehmann!",
+                        "bn": "আপনার গর্ভাবস্থার জন্য অভিনন্দন, মিসেস লেহমান!",
+                        "hi": "आपकी गर्भावस्था पर बधाई, श्रीमती लेहमैन!",
+                        "ur": "آپ کی حمل پر مبارک ہو، محترمہ لیمان!",
+                        "tr": "Hamileliğiniz için tebrikler, Bayan Lehmann!"
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Vielen Dank, Herr Dr. Meier. Ich bin sehr aufgeregt.",
+                    "translation": {
+                        "en": "Thank you very much, Dr. Meier. I'm very excited.",
+                        "bn": "আপনাকে অনেক ধন্যবাদ, ডঃ মিয়ার। আমি খুব উত্তেজিত।",
+                        "hi": "बहुत-बहुत धन्यवाद, डॉ. मेयर। मैं बहुत उत्साहित हूँ।",
+                        "ur": "بہت شکریہ، ڈاکٹر میئر۔ میں بہت پرجوش ہوں۔",
+                        "tr": "Çok teşekkür ederim, Dr. Meier. Çok heyecanlıyım."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Bei der heutigen Vorsorgeuntersuchung werden wir einige Fragen stellen und einen Ultraschall machen.",
+                    "translation": {
+                        "en": "During today's checkup, we'll ask some questions and do an ultrasound.",
+                        "bn": "আজকের স্বাস্থ্য পরীক্ষায়, আমরা কিছু প্রশ্ন করব এবং একটি আল্ট্রাসাউন্ড করব।",
+                        "hi": "आज की जांच के दौरान, हम कुछ सवाल पूछेंगे और एक अल्ट्रासाउंड करेंगे।",
+                        "ur": "آج کے چیک اپ کے دوران، ہم کچھ سوالات پوچھیں گے اور ایک الٹراساؤنڈ کریں گے۔",
+                        "tr": "Bugünkü kontrolde, bazı sorular soracağız ve bir ultrason yapacağız."
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Okay, das klingt gut. Gibt es etwas, worauf ich achten muss?",
+                    "translation": {
+                        "en": "Okay, that sounds good. Is there anything I need to pay attention to?",
+                        "bn": "ঠিক আছে, এটা ভাল শোনাচ্ছে। এমন কিছু আছে যা আমার মনোযোগ দেওয়া দরকার?",
+                        "hi": "ठीक है, यह अच्छा लगता है। क्या कुछ ऐसा है जिस पर मुझे ध्यान देने की आवश्यकता है?",
+                        "ur": "ٹھیک ہے، یہ اچھا لگتا ہے۔ کیا کوئی ایسی چیز ہے جس پر مجھے توجہ دینے کی ضرورت ہے؟",
+                        "tr": "Tamam, kulağa hoş geliyor. Dikkat etmem gereken bir şey var mı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wir werden Ihnen eine umfassende Beratung geben. Zunächst ist eine gesunde Ernährung wichtig.",
+                    "translation": {
+                        "en": "We will give you comprehensive advice. First, a healthy diet is important.",
+                        "bn": "আমরা আপনাকে একটি ব্যাপক পরামর্শ দেব। প্রথমে, একটি স্বাস্থ্যকর খাদ্য গুরুত্বপূর্ণ।",
+                        "hi": "हम आपको व्यापक सलाह देंगे। सबसे पहले, एक स्वस्थ आहार महत्वपूर्ण है।",
+                        "ur": "ہم آپ کو جامع مشورہ دیں گے۔ سب سے پہلے، ایک صحت مند غذا اہم ہے۔",
+                        "tr": "Size kapsamlı bir tavsiye vereceğiz. İlk olarak, sağlıklı bir beslenme önemlidir."
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Gut, dann werde ich darauf achten.",
+                    "translation": {
+                        "en": "Good, then I'll pay attention to that.",
+                        "bn": "ভাল, তাহলে আমি এটাতে মনোযোগ দেব।",
+                        "hi": "अच्छा, तो मैं उस पर ध्यान दूंगा।",
+                        "ur": "ٹھیک ہے، تو میں اس پر توجہ دوں گا۔",
+                        "tr": "Güzel, o zaman ona dikkat edeceğim."
+                    }
+                }
+            ],
+            "id": "d28_03"
+        },
+        {
+            "title": {
+                "en": "High Blood Pressure Concerns",
+                "bn": "উচ্চ রক্তচাপের উদ্বেগ",
+                "hi": "उच्च रक्तचाप की चिंताएँ",
+                "ur": "ہائی بلڈ پریشر کے خدشات",
+                "tr": "Yüksek Tansiyon Endişeleri"
+            },
+            "context": {
+                "en": "Patient Schmidt is concerned about her high blood pressure during pregnancy.",
+                "bn": "রোগী শ্মিট গর্ভাবস্থায় তার উচ্চ রক্তচাপ নিয়ে চিন্তিত।",
+                "hi": "मरीज श्मिट अपनी गर्भावस्था के दौरान अपने उच्च रक्तचाप को लेकर चिंतित हैं।",
+                "ur": "مریض شمٹ اپنی حمل کے دوران اپنے ہائی بلڈ پریشر کے بارے میں فکر مند ہیں۔",
+                "tr": "Hasta Schmidt, hamileliği sırasında yüksek tansiyonu hakkında endişeli."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Herr Doktor, mein Blutdruck ist immer noch so hoch. Ist das gefährlich für das Baby?",
+                    "translation": {
+                        "en": "Doctor, my blood pressure is still so high. Is that dangerous for the baby?",
+                        "bn": "ডাক্তার, আমার রক্তচাপ এখনও এত বেশি। এটা কি শিশুর জন্য বিপজ্জনক?",
+                        "hi": "डॉक्टर, मेरा रक्तचाप अभी भी इतना अधिक है। क्या यह बच्चे के लिए खतरनाक है?",
+                        "ur": "ڈاکٹر، میرا بلڈ پریشر اب بھی اتنا زیادہ ہے۔ کیا یہ بچے کے لیے خطرناک ہے؟",
+                        "tr": "Doktor, tansiyonum hala çok yüksek. Bu bebek için tehlikeli mi?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir beobachten das sehr genau, Frau Schmidt. Es kann Risiken geben, aber wir tun alles, um sie zu minimieren.",
+                    "translation": {
+                        "en": "We are monitoring that very closely, Mrs. Schmidt. There can be risks, but we are doing everything to minimize them.",
+                        "bn": "আমরা এটা খুব কাছ থেকে পর্যবেক্ষণ করছি, মিসেস শ্মিট। ঝুঁকি থাকতে পারে, কিন্তু আমরা সেগুলো কমাতে সবকিছু করছি।",
+                        "hi": "हम उस पर बहुत बारीकी से निगरानी रख रहे हैं, श्रीमती श्मिट। जोखिम हो सकते हैं, लेकिन हम उन्हें कम करने के लिए सब कुछ कर रहे हैं।",
+                        "ur": "ہم اس پر بہت باریکی سے نگرانی کر رہے ہیں، محترمہ شمٹ۔ خطرات ہو سکتے ہیں، لیکن ہم انہیں کم کرنے کے لیے ہر ممکن کوشش کر رہے ہیں۔",
+                        "tr": "Bunu çok yakından takip ediyoruz, Bayan Schmidt. Riskler olabilir, ancak bunları en aza indirmek için elimizden geleni yapıyoruz."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Was kann ich denn tun?",
+                    "translation": {
+                        "en": "What can I do?",
+                        "bn": "আমি কী করতে পারি?",
+                        "hi": "मैं क्या कर सकती हूँ?",
+                        "ur": "میں کیا کر سکتی ہوں؟",
+                        "tr": "Ne yapabilirim?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ruhe bewahren, sich gesund ernähren und regelmäßig zu den Kontrollen kommen. Wir passen gegebenenfalls die Medikation an.",
+                    "translation": {
+                        "en": "Stay calm, eat a healthy diet, and come to your checkups regularly. We will adjust the medication if necessary.",
+                        "bn": "শান্ত থাকুন, স্বাস্থ্যকর খাবার খান এবং নিয়মিত স্বাস্থ্য পরীক্ষার জন্য আসুন। প্রয়োজন হলে আমরা ওষুধ পরিবর্তন করব।",
+                        "hi": "शांत रहें, स्वस्थ आहार खाएं और नियमित रूप से अपनी जांच के लिए आएं। यदि आवश्यक हो तो हम दवा को समायोजित करेंगे।",
+                        "ur": "پرسکون رہیں، صحت مند غذا کھائیں، اور باقاعدگی سے اپنی چیک اپ کے لیے آئیں۔ اگر ضروری ہو تو ہم دوائی کو ایڈجسٹ کریں گے۔",
+                        "tr": "Sakin olun, sağlıklı beslenin ve düzenli olarak kontrollerinize gelin. Gerekirse ilaçları ayarlayacağız."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Vielen Dank, Herr Doktor. Das beruhigt mich etwas.",
+                    "translation": {
+                        "en": "Thank you, Doctor. That calms me down a bit.",
+                        "bn": "ধন্যবাদ, ডাক্তার। এটা আমাকে কিছুটা শান্ত করে।",
+                        "hi": "धन्यवाद, डॉक्टर। यह मुझे थोड़ा शांत करता है।",
+                        "ur": "شکریہ، ڈاکٹر۔ اس سے مجھے تھوڑا سکون ملا۔",
+                        "tr": "Teşekkür ederim, Doktor. Bu beni biraz rahatlatıyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Gern geschehen. Wir sind für Sie da.",
+                    "translation": {
+                        "en": "You're welcome. We're here for you.",
+                        "bn": "আপনাকে স্বাগতম। আমরা আপনার জন্য এখানে আছি।",
+                        "hi": "आपका स्वागत है। हम आपके लिए यहाँ हैं।",
+                        "ur": "خوش آمدید۔ ہم آپ کے لیے یہاں ہیں۔",
+                        "tr": "Rica ederim. Sizin için buradayız."
+                    }
+                }
+            ],
+            "id": "d28_04"
+        },
+        {
+            "title": {
+                "en": "Discussion about Family Planning",
+                "bn": "পরিবার পরিকল্পনা নিয়ে আলোচনা",
+                "hi": "परिवार नियोजन पर चर्चा",
+                "ur": "خاندانی منصوبہ بندی پر تبادلہ خیال",
+                "tr": "Aile Planlaması Hakkında Tartışma"
+            },
+            "context": {
+                "en": "Patient Baumann is seeking advice about family planning after the birth of her second child.",
+                "bn": "রোগী বাউমান তার দ্বিতীয় সন্তানের জন্মের পর পরিবার পরিকল্পনা নিয়ে পরামর্শ চাইছেন।",
+                "hi": "मरीज बॉमन अपने दूसरे बच्चे के जन्म के बाद परिवार नियोजन के बारे में सलाह मांग रही हैं।",
+                "ur": "مریض باؤمن اپنے دوسرے بچے کی پیدائش کے بعد خاندانی منصوبہ بندی کے بارے میں مشورہ مانگ رہی ہیں۔",
+                "tr": "Hasta Baumann, ikinci çocuğunun doğumundan sonra aile planlaması hakkında tavsiye almak istiyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Baumann",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Tag, Herr Doktor. Ich möchte gerne über Familienplanung sprechen.",
+                    "translation": {
+                        "en": "Good day, Doctor. I would like to talk about family planning.",
+                        "bn": "শুভ দিন, ডাক্তার। আমি পরিবার পরিকল্পনা নিয়ে কথা বলতে চাই।",
+                        "hi": "शुभ दिन, डॉक्टर। मैं परिवार नियोजन के बारे में बात करना चाहूंगी।",
+                        "ur": "شب بخیر، ڈاکٹر۔ میں خاندانی منصوبہ بندی کے بارے میں بات کرنا چاہوں گی۔",
+                        "tr": "İyi günler, Doktor. Aile planlaması hakkında konuşmak istiyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Tag, Frau Baumann. Gerne. Was sind Ihre Überlegungen?",
+                    "translation": {
+                        "en": "Good day, Mrs. Baumann. Gladly. What are your considerations?",
+                        "bn": "শুভ দিন, মিসেস বাউমান। অবশ্যই। আপনার বিবেচনাগুলি কী কী?",
+                        "hi": "शुभ दिन, श्रीमती बॉमन। खुशी से। आपकी क्या चिंताएँ हैं?",
+                        "ur": "شب بخیر، محترمہ باؤمن۔ بخوشی۔ آپ کی کیا considerations ہیں؟",
+                        "tr": "İyi günler, Bayan Baumann. Memnuniyetle. Düşünceleriniz nelerdir?"
+                    }
+                },
+                {
+                    "speaker": "Patient Baumann",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe jetzt zwei Kinder und möchte keine weiteren. Welche Verhütungsmethoden sind empfehlenswert?",
+                    "translation": {
+                        "en": "I have two children now and don't want any more. Which contraceptive methods are recommended?",
+                        "bn": "আমার এখন দুটি সন্তান আছে এবং আমি আর চাই না। কোন গর্ভনিরোধক পদ্ধতিগুলি সুপারিশ করা হয়?",
+                        "hi": "मेरे अब दो बच्चे हैं और मैं और नहीं चाहती। कौन सी गर्भनिरोधक विधियाँ अनुशंसित हैं?",
+                        "ur": "میرے اب دو بچے ہیں اور میں مزید نہیں چاہتی۔ کون سے مانع حمل طریقے تجویز کیے جاتے ہیں؟",
+                        "tr": "Şu anda iki çocuğum var ve daha fazla istemiyorum. Hangi doğum kontrol yöntemleri önerilir?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Es gibt verschiedene Optionen: die Pille, die Spirale, oder eine Sterilisation. Wir können die Vor- und Nachteile jeder Methode besprechen.",
+                    "translation": {
+                        "en": "There are several options: the pill, the IUD, or sterilization. We can discuss the advantages and disadvantages of each method.",
+                        "bn": "বিভিন্ন বিকল্প আছে: পিল, কপার টি, অথবা নির্বীজন। আমরা প্রতিটি পদ্ধতির সুবিধা এবং অসুবিধা নিয়ে আলোচনা করতে পারি।",
+                        "hi": "कई विकल्प हैं: गोली, आईयूडी, या नसबंदी। हम प्रत्येक विधि के फायदे और नुकसान पर चर्चा कर सकते हैं।",
+                        "ur": "متعدد اختیارات ہیں: گولی، آئی یو ڈی، یا نس بندی۔ ہم ہر طریقہ کے فوائد اور نقصانات پر تبادلہ خیال کر سکتے ہیں۔",
+                        "tr": "Birkaç seçenek var: hap, spiral veya sterilizasyon. Her yöntemin avantajlarını ve dezavantajlarını tartışabiliriz."
+                    }
+                },
+                {
+                    "speaker": "Patient Baumann",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich denke über die Spirale nach. Wie lange hält die und ist sie schmerzhaft beim Einsetzen?",
+                    "translation": {
+                        "en": "I'm thinking about the IUD. How long does it last and is it painful to insert?",
+                        "bn": "আমি কপার টি নিয়ে ভাবছি। এটা কতদিন স্থায়ী হয় এবং এটা ঢোকানোর সময় কি ব্যথা করে?",
+                        "hi": "मैं आईयूडी के बारे में सोच रही हूँ। यह कितने समय तक चलता है और क्या इसे डालने में दर्द होता है?",
+                        "ur": "میں آئی یو ڈی کے بارے میں سوچ رہی ہوں۔ یہ کب تک چلتا ہے اور کیا اسے داخل کرنے میں تکلیف ہوتی ہے؟",
+                        "tr": "Spirali düşünüyorum. Ne kadar süre dayanır ve takarken acıtır mı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Die Spirale kann bis zu fünf Jahre halten. Das Einsetzen kann etwas unangenehm sein, aber wir können Ihnen Schmerzmittel geben.",
+                    "translation": {
+                        "en": "The IUD can last up to five years. The insertion can be a little uncomfortable, but we can give you painkillers.",
+                        "bn": "কপার টি পাঁচ বছর পর্যন্ত স্থায়ী হতে পারে। ঢোকানোর সময় একটু অস্বস্তি হতে পারে, তবে আমরা আপনাকে ব্যথানাশক দিতে পারি।",
+                        "hi": "आईयूडी पाँच साल तक चल सकता है। डालने में थोड़ी असुविधा हो सकती है, लेकिन हम आपको दर्द निवारक दे सकते हैं।",
+                        "ur": "آئی یو ڈی پانچ سال تک چل سکتا ہے۔ داخل کرنے میں تھوڑی سی تکلیف ہو سکتی ہے، لیکن ہم آپ کو درد کم کرنے والی دوا دے سکتے ہیں۔",
+                        "tr": "Spiral beş yıla kadar dayanabilir. Takarken biraz rahatsızlık olabilir, ancak size ağrı kesici verebiliriz."
+                    }
+                }
+            ],
+            "id": "d28_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Untersuchungen ist typischerweise Teil der Vorsorgeuntersuchung in der Schwangerschaft?",
+                "en": "Which of the following examinations is typically part of prenatal care during pregnancy?",
+                "bn": "গর্ভাবস্থায় প্রসবপূর্ব যত্নের অংশ হিসাবে নিম্নলিখিত পরীক্ষাগুলির মধ্যে কোনটি সাধারণত অন্তর্ভুক্ত?",
+                "hi": "गर्भावस्था के दौरान प्रसवपूर्व देखभाल के हिस्से के रूप में निम्नलिखित में से कौन सी परीक्षा आम तौर पर शामिल है?",
+                "ur": "حمل کے دوران قبل از پیدائش کی دیکھ بھال کے حصے کے طور پر مندرجہ ذیل میں سے کون سا امتحان عام طور پر شامل ہے؟",
+                "tr": "Aşağıdaki muayenelerden hangisi tipik olarak hamilelikte doğum öncesi bakımın bir parçasıdır?"
+            },
+            "options": [
+                "Koloskopie",
+                "Mammographie",
+                "Ultraschall",
+                "Gastroskopie"
+            ],
+            "correctAnswer": "Ultraschall",
+            "explanation": {
+                "en": "Ultrasound is a common imaging technique used during pregnancy to monitor the baby's development.",
+                "bn": "আলট্রাসনোগ্রাফি গর্ভাবস্থায় শিশুর বিকাশের নিরীক্ষণের জন্য ব্যবহৃত একটি সাধারণ ইমেজিং কৌশল।",
+                "hi": "अल्ट्रासोनोग्राफी गर्भावस्था के दौरान बच्चे के विकास की निगरानी के लिए इस्तेमाल की जाने वाली एक सामान्य इमेजिंग तकनीक है।",
+                "ur": "الٹراساؤنڈ حمل کے دوران بچے کی نشوونما کی نگرانی کے لیے استعمال کی جانے والی ایک عام امیجنگ تکنیک ہے۔",
+                "tr": "Ultrason, hamilelik sırasında bebeğin gelişimini izlemek için kullanılan yaygın bir görüntüleme tekniğidir."
+            },
+            "points": 10,
+            "id": "e28_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Ziel einer Routinekontrolle beim Frauenarzt?",
+                "en": "What is the purpose of a routine check-up with the gynecologist?",
+                "bn": "স্ত্রীরোগ বিশেষজ্ঞের সাথে রুটিন চেক-আপের উদ্দেশ্য কী?",
+                "hi": "स्त्री रोग विशेषज्ञ के साथ नियमित जांच का उद्देश्य क्या है?",
+                "ur": "گائناکالوجسٹ کے ساتھ معمول کی جانچ پڑتال کا مقصد کیا ہے؟",
+                "tr": "Jinekolog ile yapılan rutin kontrolün amacı nedir?"
+            },
+            "options": [
+                "Diagnose von Knochenbrüchen",
+                "Früherkennung von Krebs",
+                "Behandlung von Erkältungen",
+                "Überprüfung der Sehschärfe"
+            ],
+            "correctAnswer": "Früherkennung von Krebs",
+            "explanation": {
+                "en": "Routine check-ups aim to detect cancer early, when treatment is most effective.",
+                "bn": "রুটিন চেক-আপের লক্ষ্য হল তাড়াতাড়ি ক্যান্সার সনাক্ত করা, যখন চিকিৎসা সবচেয়ে কার্যকর।",
+                "hi": "नियमित जांच का उद्देश्य कैंसर का जल्द पता लगाना है, जब उपचार सबसे प्रभावी होता है।",
+                "ur": "معمول کی جانچ پڑتال کا مقصد کینسر کا جلد پتہ لگانا ہے، جب علاج سب سے زیادہ موثر ہوتا ہے۔",
+                "tr": "Rutin kontrollerin amacı, tedavinin en etkili olduğu erken dönemde kanseri tespit etmektir."
+            },
+            "points": 10,
+            "id": "e28_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wie wird der Blutdruck gemessen?",
+                "en": "How is blood pressure measured?",
+                "bn": "কীভাবে রক্তচাপ মাপা হয়?",
+                "hi": "ब्लड प्रेशर कैसे मापा जाता है?",
+                "ur": "بلڈ پریشر کیسے ماپا جاتا ہے؟",
+                "tr": "Kan basıncı nasıl ölçülür?"
+            },
+            "options": [
+                "Mit einem Stethoskop",
+                "Mit einem Thermometer",
+                "Mit einem Blutdruckmessgerät",
+                "Mit einem EEG"
+            ],
+            "correctAnswer": "Mit einem Blutdruckmessgerät",
+            "explanation": {
+                "en": "Blood pressure is measured using a sphygmomanometer, also known as a blood pressure monitor.",
+                "bn": "রক্তচাপ একটি স্ফিগমোম্যানোমিটার ব্যবহার করে মাপা হয়, যা রক্তচাপ মনিটর নামেও পরিচিত।",
+                "hi": "ब्लड प्रेशर स्फिग्मोमैनोमीटर का उपयोग करके मापा जाता है, जिसे ब्लड प्रेशर मॉनिटर के रूप में भी जाना जाता है।",
+                "ur": "بلڈ پریشر اسفیگمومومیٹر کا استعمال کرتے ہوئے ماپا جاتا ہے، جسے بلڈ پریشر مانیٹر کے نام سے بھی جانا جاتا ہے۔",
+                "tr": "Kan basıncı, tansiyon aleti olarak da bilinen bir sfigmomanometre kullanılarak ölçülür."
+            },
+            "points": 10,
+            "id": "e28_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Beratung' im Kontext der Frauenheilkunde?",
+                "en": "What does 'Beratung' mean in the context of gynecology?",
+                "bn": "স্ত্রীরোগবিদ্যার প্রেক্ষাপটে 'Beratung' মানে কী?",
+                "hi": "स्त्री रोग विज्ञान के संदर्भ में 'Beratung' का क्या अर्थ है?",
+                "ur": "امراض نسواں کے تناظر میں 'Beratung' کا کیا مطلب ہے؟",
+                "tr": "Jinekoloji bağlamında 'Beratung' ne anlama gelir?"
+            },
+            "options": [
+                "Operation",
+                "Medikation",
+                "Aufklärung und Information",
+                "Blutentnahme"
+            ],
+            "correctAnswer": "Aufklärung und Information",
+            "explanation": {
+                "en": "'Beratung' refers to providing information and education to patients about their health and treatment options.",
+                "bn": "'Beratung' বলতে রোগীদের তাদের স্বাস্থ্য এবং চিকিৎসার বিকল্প সম্পর্কে তথ্য এবং শিক্ষা প্রদান করা বোঝায়।",
+                "hi": "'Beratung' रोगियों को उनके स्वास्थ्य और उपचार विकल्पों के बारे में जानकारी और शिक्षा प्रदान करने को संदर्भित करता है।",
+                "ur": "'Beratung' سے مراد مریضوں کو ان کی صحت اور علاج کے اختیارات کے بارے میں معلومات اور تعلیم فراہم کرنا ہے۔",
+                "tr": "'Beratung', hastalara sağlıkları ve tedavi seçenekleri hakkında bilgi ve eğitim sağlamayı ifade eder."
+            },
+            "points": 10,
+            "id": "e28_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage über Ultraschall in der Schwangerschaft ist richtig?",
+                "en": "Which statement about ultrasound during pregnancy is correct?",
+                "bn": "গর্ভাবস্থায় আল্ট্রাসাউন্ড সম্পর্কে কোন বক্তব্যটি সঠিক?",
+                "hi": "गर्भावस्था के दौरान अल्ट्रासाउंड के बारे में कौन सा कथन सही है?",
+                "ur": "حمل کے دوران الٹراساؤنڈ کے بارے میں کون سا بیان درست ہے؟",
+                "tr": "Hamilelik sırasında ultrason hakkında hangi ifade doğrudur?"
+            },
+            "options": [
+                "Es verwendet radioaktive Strahlung.",
+                "Es ist immer schmerzhaft.",
+                "Es ist in der Regel sicher für Mutter und Kind.",
+                "Es kann nur im ersten Trimester durchgeführt werden."
+            ],
+            "correctAnswer": "Es ist in der Regel sicher für Mutter und Kind.",
+            "explanation": {
+                "en": "Ultrasound is generally considered safe for both the mother and the developing fetus as it uses sound waves.",
+                "bn": "আল্ট্রাসাউন্ড সাধারণত মা এবং বিকাশোন্মুখ ভ্রূণ উভয়ের জন্যই নিরাপদ বলে বিবেচিত হয় কারণ এটি শব্দ তরঙ্গ ব্যবহার করে।",
+                "hi": "अल्ट्रासाउंड को आमतौर पर मां और विकासशील भ्रूण दोनों के लिए सुरक्षित माना जाता है क्योंकि यह ध्वनि तरंगों का उपयोग करता है।",
+                "ur": "الٹراساؤنڈ کو عام طور پر ماں اور بڑھتے ہوئے جنین دونوں کے لیے محفوظ سمجھا جاتا ہے کیونکہ یہ صوتی لہروں کا استعمال کرتا ہے۔",
+                "tr": "Ultrason, ses dalgalarını kullandığı için genellikle hem anne hem de gelişmekte olan fetüs için güvenli kabul edilir."
+            },
+            "points": 10,
+            "id": "e28_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wozu dient die Mammographie?",
+                "en": "What is mammography used for?",
+                "bn": "ম্যামোগ্রাফি কীসের জন্য ব্যবহৃত হয়?",
+                "hi": "मैमोग्राफी किसके लिए प्रयोग किया जाता है?",
+                "ur": "میموگرافی کس لیے استعمال ہوتی ہے؟",
+                "tr": "Mamografi ne için kullanılır?"
+            },
+            "options": [
+                "Blutdruckmessung",
+                "Knochendichtemessung",
+                "Brustkrebsvorsorge",
+                "Herzuntersuchung"
+            ],
+            "correctAnswer": "Brustkrebsvorsorge",
+            "explanation": {
+                "en": "Mammography is used for breast cancer screening.",
+                "bn": "ম্যামোগ্রাফি স্তন ক্যান্সার স্ক্রিনিংয়ের জন্য ব্যবহৃত হয়।",
+                "hi": "मैमोग्राफी स्तन कैंसर स्क्रीनिंग के लिए प्रयोग किया जाता है।",
+                "ur": "میموگرافی چھاتی کے کینسر کی اسکریننگ کے لیے استعمال ہوتی ہے۔",
+                "tr": "Mamografi meme kanseri taraması için kullanılır."
+            },
+            "points": 10,
+            "id": "e28_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was wird bei einer gynäkologischen Untersuchung beurteilt?",
+                "en": "What is assessed during a gynecological examination?",
+                "bn": "একটি স্ত্রীরোগ সংক্রান্ত পরীক্ষায় কী মূল্যায়ন করা হয়?",
+                "hi": "स्त्रीरोग संबंधी जांच के दौरान क्या मूल्यांकन किया जाता है?",
+                "ur": "امراض نسواں کے معائنے کے دوران کیا تشخیص کی جاتی ہے؟",
+                "tr": "Jinekolojik muayenede ne değerlendirilir?"
+            },
+            "options": [
+                "Herzfunktion",
+                "Lungenfunktion",
+                "Zustand der Geschlechtsorgane",
+                "Sehvermögen"
+            ],
+            "correctAnswer": "Zustand der Geschlechtsorgane",
+            "explanation": {
+                "en": "A gynecological examination assesses the health of the female reproductive organs.",
+                "bn": "একটি স্ত্রীরোগ সংক্রান্ত পরীক্ষা মহিলা প্রজনন অঙ্গগুলির স্বাস্থ্য মূল্যায়ন করে।",
+                "hi": "एक स्त्रीरोग संबंधी परीक्षा महिला प्रजनन अंगों के स्वास्थ्य का आकलन करती है।",
+                "ur": "ایک امراض نسواں کا معائنہ خواتین کے تولیدی اعضاء کی صحت کا جائزہ لیتا ہے۔",
+                "tr": "Jinekolojik muayene kadın üreme organlarının sağlığını değerlendirir."
+            },
+            "points": 10,
+            "id": "e28_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wie oft sollte eine Frau zur Vorsorgeuntersuchung gehen?",
+                "en": "How often should a woman go for a check-up?",
+                "bn": "একজন মহিলার কত ঘন ঘন স্বাস্থ্য পরীক্ষার জন্য যাওয়া উচিত?",
+                "hi": "एक महिला को कितनी बार जांच के लिए जाना चाहिए?",
+                "ur": "ایک عورت کو کتنی بار چیک اپ کے لیے جانا چاہیے؟",
+                "tr": "Bir kadın ne sıklıkla kontrole gitmelidir?"
+            },
+            "options": [
+                "Alle 5 Jahre",
+                "Einmal im Leben",
+                "Jährlich oder nach Empfehlung des Arztes",
+                "Nur bei Beschwerden"
+            ],
+            "correctAnswer": "Jährlich oder nach Empfehlung des Arztes",
+            "explanation": {
+                "en": "Check-ups should be done annually or as recommended by the doctor.",
+                "bn": "চিকিৎসা পরীক্ষা বার্ষিক বা ডাক্তারের পরামর্শ অনুযায়ী করা উচিত।",
+                "hi": "चिकित्सा परीक्षा वार्षिक या डॉक्टर की सलाह के अनुसार की जानी चाहिए।",
+                "ur": "طبی معائنہ سالانہ یا ڈاکٹر کے مشورے کے مطابق کیا جانا چاہیے۔",
+                "tr": "Tıbbi muayene yıllık veya doktorun tavsiyesi üzerine yapılmalıdır."
+            },
+            "points": 10,
+            "id": "e28_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein typischer Inhalt der 'Beratung' nach einer Ultraschalluntersuchung?",
+                "en": "What is a typical content of 'Beratung' after an ultrasound examination?",
+                "bn": "আল্ট্রাসাউন্ড পরীক্ষার পরে 'Beratung'-এর একটি সাধারণ বিষয়বস্তু কী?",
+                "hi": "अल्ट्रासाउंड परीक्षा के बाद 'Beratung' की एक विशिष्ट सामग्री क्या है?",
+                "ur": "الٹراساؤنڈ امتحان کے بعد 'Beratung' کا ایک عام مواد کیا ہے؟",
+                "tr": "Ultrason muayenesinden sonra 'Beratung'ın tipik bir içeriği nedir?"
+            },
+            "options": [
+                "Ergebnisse der Untersuchung und weitere Schritte",
+                "Rezept für Schmerzmittel",
+                "Überweisung zum Zahnarzt",
+                "Anleitung zum Kochen"
+            ],
+            "correctAnswer": "Ergebnisse der Untersuchung und weitere Schritte",
+            "explanation": {
+                "en": "The 'Beratung' includes discussion of the examination results and any further steps needed.",
+                "bn": "'Beratung'-এ পরীক্ষার ফলাফল এবং প্রয়োজনীয় আরও পদক্ষেপগুলির আলোচনা অন্তর্ভুক্ত।",
+                "hi": "'Beratung' में परीक्षा के परिणामों और आवश्यक किसी भी आगे के कदमों की चर्चा शामिल है।",
+                "ur": "'Beratung' میں امتحان کے نتائج اور ضروری کسی بھی مزید اقدامات پر تبادلہ خیال شامل ہے۔",
+                "tr": "'Beratung', muayene sonuçlarının ve gerekli diğer adımların tartışılmasını içerir."
+            },
+            "points": 10,
+            "id": "e28_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welcher dieser Werte ist Teil einer Routine-Blutdruckmessung?",
+                "en": "Which of these values is part of a routine blood pressure measurement?",
+                "bn": "এই মানগুলির মধ্যে কোনটি একটি রুটিন রক্তচাপ পরিমাপের অংশ?",
+                "hi": "इन मूल्यों में से कौन सा एक नियमित रक्तचाप माप का हिस्सा है?",
+                "ur": "ان اقدار میں سے کون سا معمول کے بلڈ پریشر کی پیمائش کا حصہ ہے؟",
+                "tr": "Bu değerlerden hangisi rutin bir kan basıncı ölçümünün parçasıdır?"
+            },
+            "options": [
+                "Körpertemperatur",
+                "Puls",
+                "Systolischer und diastolischer Druck",
+                "Blutzucker"
+            ],
+            "correctAnswer": "Systolischer und diastolischer Druck",
+            "explanation": {
+                "en": "A blood pressure measurement includes the systolic and diastolic pressure.",
+                "bn": "একটি রক্তচাপ পরিমাপে সিস্টোলিক এবং ডায়াস্টোলিক চাপ অন্তর্ভুক্ত।",
+                "hi": "एक रक्तचाप माप में सिस्टोलिक और डायस्टोलिक दबाव शामिल होता है।",
+                "ur": "بلڈ پریشر کی پیمائش میں سسٹولک اور ڈیاسٹولک پریشر شامل ہوتا ہے۔",
+                "tr": "Bir kan basıncı ölçümü, sistolik ve diyastolik basıncı içerir."
+            },
+            "points": 10,
+            "id": "e28_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Der Arzt führte eine ________ durch, um den Zustand der Gebärmutter zu überprüfen.",
+                "en": "The doctor performed a ________ to check the condition of the uterus.",
+                "bn": "জরায়ুর অবস্থা পরীক্ষা করার জন্য ডাক্তার একটি ________ করেছিলেন।",
+                "hi": "गर्भाशय की स्थिति की जांच के लिए डॉक्टर ने ________ किया।",
+                "ur": "ڈاکٹر نے رحم کی حالت جانچنے کے لیے ________ کیا۔",
+                "tr": "Doktor, rahmin durumunu kontrol etmek için bir ________ yaptı."
+            },
+            "correctAnswer": "Ultraschalluntersuchung",
+            "explanation": {
+                "en": "Ultrasound examination is used to check the uterus.",
+                "bn": "আল্ট্রাসাউন্ড পরীক্ষা জরায়ু পরীক্ষা করতে ব্যবহৃত হয়।",
+                "hi": "गर्भाशय की जांच के लिए अल्ट्रासाउंड परीक्षा का उपयोग किया जाता है।",
+                "ur": "رحم کی جانچ کے لیے الٹراساؤنڈ امتحان کا استعمال کیا جاتا ہے۔",
+                "tr": "Ultrason muayenesi, rahmi kontrol etmek için kullanılır."
+            },
+            "points": 10,
+            "id": "e28_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein erhöhter ________ kann auf Stress oder andere gesundheitliche Probleme hinweisen.",
+                "en": "Elevated ________ can indicate stress or other health problems.",
+                "bn": "উচ্চ ________ চাপ বা অন্যান্য স্বাস্থ্য সমস্যার ইঙ্গিত দিতে পারে।",
+                "hi": "उच्च ________ तनाव या अन्य स्वास्थ्य समस्याओं का संकेत दे सकता है।",
+                "ur": "بلند ________ تناؤ یا صحت کے دیگر مسائل کی نشاندہی کر سکتا ہے۔",
+                "tr": "Yüksek ________ stres veya diğer sağlık sorunlarına işaret edebilir."
+            },
+            "correctAnswer": "Blutdruck",
+            "explanation": {
+                "en": "Elevated blood pressure can indicate stress or other health issues.",
+                "bn": "উচ্চ রক্তচাপ চাপ বা অন্যান্য স্বাস্থ্য সমস্যার ইঙ্গিত দিতে পারে।",
+                "hi": "उच्च रक्तचाप तनाव या अन्य स्वास्थ्य समस्याओं का संकेत दे सकता है।",
+                "ur": "بلند فشار خون تناؤ یا صحت کے دیگر مسائل کی نشاندہی کر سکتا ہے۔",
+                "tr": "Yüksek tansiyon stres veya diğer sağlık sorunlarına işaret edebilir."
+            },
+            "points": 10,
+            "id": "e28_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die ________ dient zur Früherkennung von Brustkrebs.",
+                "en": "The ________ serves for early detection of breast cancer.",
+                "bn": "________ স্তন ক্যান্সার সনাক্তকরণের জন্য ব্যবহৃত হয়।",
+                "hi": "________ स्तन कैंसर का जल्द पता लगाने के लिए प्रयोग किया जाता है।",
+                "ur": "________ چھاتی کے کینسر کا جلد پتہ لگانے کے لیے استعمال کیا جاتا ہے۔",
+                "tr": "________ meme kanserinin erken teşhisi için kullanılır."
+            },
+            "correctAnswer": "Mammographie",
+            "explanation": {
+                "en": "Mammography is used for the early detection of breast cancer.",
+                "bn": "ম্যামোগ্রাফি স্তন ক্যান্সারের প্রাথমিক সনাক্তকরণের জন্য ব্যবহৃত হয়।",
+                "hi": "मैमोग्राफी स्तन कैंसर के प्रारंभिक पता लगाने के लिए प्रयोग किया जाता है।",
+                "ur": "میموگرافی چھاتی کے کینسر کی جلد تشخیص کے لیے استعمال ہوتی ہے۔",
+                "tr": "Mamografi, meme kanserinin erken teşhisi için kullanılır."
+            },
+            "points": 10,
+            "id": "e28_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Im Rahmen der ________ erhalten Patientinnen Informationen zu Verhütungsmethoden.",
+                "en": "Within the ________, patients receive information on contraceptive methods.",
+                "bn": "________ এর অংশ হিসাবে, রোগীরা গর্ভনিরোধক পদ্ধতি সম্পর্কে তথ্য পান।",
+                "hi": "________ के भाग के रूप में, रोगियों को गर्भनिरोधक विधियों के बारे में जानकारी मिलती है।",
+                "ur": "________ کے حصے کے طور پر، مریضوں کو مانع حمل طریقوں کے بارے میں معلومات ملتی ہیں۔",
+                "tr": "________ kapsamında, hastalara doğum kontrol yöntemleri hakkında bilgi verilir."
+            },
+            "correctAnswer": "Beratung",
+            "explanation": {
+                "en": "During 'Beratung', patients receive information about contraception.",
+                "bn": "'Beratung'-এর সময়, রোগীরা গর্ভনিরোধক সম্পর্কে তথ্য পান।",
+                "hi": "'Beratung' के दौरान, रोगियों को गर्भनिरोध के बारे में जानकारी मिलती है।",
+                "ur": "'Beratung' کے دوران، مریضوں کو حمل سے بچاؤ کے بارے میں معلومات ملتی ہیں۔",
+                "tr": "'Beratung' sırasında hastalara doğum kontrolü hakkında bilgi verilir."
+            },
+            "points": 10,
+            "id": "e28_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die regelmäßige ________ hilft, gesundheitliche Probleme frühzeitig zu erkennen.",
+                "en": "Regular ________ helps to detect health problems early.",
+                "bn": "নিয়মিত ________ স্বাস্থ্য সমস্যাগুলি দ্রুত সনাক্ত করতে সহায়তা করে।",
+                "hi": "नियमित ________ स्वास्थ्य समस्याओं का जल्द पता लगाने में मदद करता है।",
+                "ur": "باقاعدگی سے ________ صحت کے مسائل کو جلد پتہ لگانے میں مدد کرتا ہے۔",
+                "tr": "Düzenli ________ sağlık sorunlarını erken tespit etmeye yardımcı olur."
+            },
+            "correctAnswer": "Vorsorgeuntersuchung",
+            "explanation": {
+                "en": "Regular check-ups help detect health problems early.",
+                "bn": "নিয়মিত স্বাস্থ্য পরীক্ষা স্বাস্থ্য সমস্যাগুলি দ্রুত সনাক্ত করতে সহায়তা করে।",
+                "hi": "नियमित स्वास्थ्य जांच स्वास्थ्य समस्याओं का जल्द पता लगाने में मदद करती है।",
+                "ur": "باقاعدگی سے صحت کا معائنہ صحت کے مسائل کو جلد پتہ لگانے میں مدد کرتا ہے۔",
+                "tr": "Düzenli sağlık kontrolleri, sağlık sorunlarını erken tespit etmeye yardımcı olur."
+            },
+            "points": 10,
+            "id": "e28_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Ich habe einen Termin zur Routinekontrolle beim Frauenarzt.",
+                "en": "I have an appointment for a routine check-up with the gynecologist.",
+                "bn": "আমার স্ত্রীরোগ বিশেষজ্ঞের সাথে একটি রুটিন চেক-আপের অ্যাপয়েন্টমেন্ট আছে।",
+                "hi": "मेरा स्त्री रोग विशेषज्ञ के साथ नियमित जांच के लिए अपॉइंटमेंट है।",
+                "ur": "میری گائناکالوجسٹ کے ساتھ معمول کے چیک اپ کے لیے ملاقات ہے۔",
+                "tr": "Jinekolog ile rutin kontrol için randevum var."
+            },
+            "correctAnswer": "I have an appointment for a routine check-up with the gynecologist.",
+            "explanation": {
+                "en": "Accurate translation of the sentence.",
+                "bn": "বাক্যের সঠিক অনুবাদ।",
+                "hi": "वाक्य का सटीक अनुवाद।",
+                "ur": "جملے کا درست ترجمہ۔",
+                "tr": "Cümlenin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e28_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Der Blutdruck ist etwas erhöht, wir sollten ihn im Auge behalten.",
+                "en": "The blood pressure is slightly elevated, we should keep an eye on it.",
+                "bn": "রক্তচাপ সামান্য বেড়েছে, আমাদের এটির দিকে নজর রাখা উচিত।",
+                "hi": "रक्तचाप थोड़ा बढ़ा हुआ है, हमें इस पर नजर रखनी चाहिए।",
+                "ur": "بلڈ پریشر قدرے بڑھا ہوا ہے، ہمیں اس پر نظر رکھنی چاہیے۔",
+                "tr": "Kan basıncı biraz yüksek, takip etmeliyiz."
+            },
+            "correctAnswer": "The blood pressure is slightly elevated, we should keep an eye on it.",
+            "explanation": {
+                "en": "Accurate translation of the sentence.",
+                "bn": "বাক্যের সঠিক অনুবাদ।",
+                "hi": "वाक्य का सटीक अनुवाद।",
+                "ur": "جملے کا درست ترجمہ۔",
+                "tr": "Cümlenin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e28_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Ultraschalluntersuchung zeigt, dass alles in Ordnung ist.",
+                "en": "The ultrasound shows that everything is fine.",
+                "bn": "আল্ট্রাসাউন্ডে দেখা যাচ্ছে যে সবকিছু ঠিক আছে।",
+                "hi": "अल्ट्रासाउंड से पता चलता है कि सब कुछ ठीक है।",
+                "ur": "الٹراساؤنڈ سے پتہ چلتا ہے کہ سب کچھ ٹھیک ہے۔",
+                "tr": "Ultrason, her şeyin yolunda olduğunu gösteriyor."
+            },
+            "correctAnswer": "The ultrasound shows that everything is fine.",
+            "explanation": {
+                "en": "Accurate translation of the sentence.",
+                "bn": "বাক্যের সঠিক অনুবাদ।",
+                "hi": "वाक्य का सटीक अनुवाद।",
+                "ur": "جملے کا درست ترجمہ۔",
+                "tr": "Cümlenin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e28_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

@@ -4,226 +4,286 @@
     "order": 1,
     "titleDe": "Begrüßungen und Anreden",
     "title": {
-        "en": "Greetings & Titles",
-        "bn": "অভিবাদন এবং সম্বোধন",
-        "hi": "अभिवादन और संबोधन",
-        "ur": "سلام اور خطاب",
-        "tr": "Selamlaşmalar ve Unvanlar"
+        "en": "Greetings & Titles in Medical German",
+        "bn": "মেডিকেল জার্মানিতে অভিবাদন ও শিরোনাম",
+        "hi": "मेडिकल जर्मन में अभिवादन और शीर्षक",
+        "ur": "طبی جرمن میں آداب اور القاب",
+        "tr": "Tıbbi Almanca'da Selamlaşma ve Unvanlar"
     },
     "description": {
-        "en": "Learn to address colleagues properly with formal titles and greetings in German hospitals.",
-        "bn": "জার্মান হাসপাতালে সহকর্মীদের সঠিকভাবে আনুষ্ঠানিক শিরোনাম এবং অভিবাদন দিয়ে সম্বোধন করতে শিখুন।",
-        "hi": "जर्मन अस्पतालों में सहकर्मियों को औपचारिक उपाधियों और अभिवादन के साथ सही तरीके से संबोधित करना सीखें।",
-        "ur": "جرمن ہسپتالوں میں ساتھیوں کو رسمی خطابات اور سلام کے ساتھ صحیح طریقے سے مخاطب کرنا سیکھیں۔",
-        "tr": "Alman hastanelerinde meslektaşlarınıza resmi unvanlar ve selamlaşmalarla doğru şekilde hitap etmeyi öğrenin."
+        "en": "Learn formal greetings, medical titles, Sie/du forms, and hospital hierarchy in the context of Medical German.",
+        "bn": "মেডিকেল জার্মানির প্রেক্ষাপটে আনুষ্ঠানিক অভিবাদন, চিকিৎসা বিষয়ক পদবি, Sie/du ফর্ম এবং হাসপাতালের শ্রেণিবিন্যাস শিখুন।",
+        "hi": "मेडिकल जर्मन के संदर्भ में औपचारिक अभिवादन, चिकित्सा शीर्षक, Sie/du रूप और अस्पताल पदानुक्रम सीखें।",
+        "ur": "طبی جرمن کے تناظر میں رسمی آداب، طبی عنوانات، Sie/du فارم اور ہسپتال کے درجہ بندی سیکھیں۔",
+        "tr": "Tıbbi Almanca bağlamında resmi selamlaşmaları, tıbbi unvanları, Sie/du formlarını ve hastane hiyerarşisini öğrenin."
     },
     "level": "A1",
-    "estimatedMinutes": 25,
+    "estimatedMinutes": 45,
     "isPremium": false,
     "textContent": {
         "introduction": {
-            "en": "Welcome to your first lesson in Medical German! In German hospitals, proper forms of address are essential for professional communication. This lesson covers the formal and informal ways to greet colleagues, patients, and superiors. German medical hierarchy uses specific titles that you must master to communicate effectively.",
-            "bn": "মেডিকেল জার্মান-এ আপনার প্রথম পাঠে স্বাগতম! জার্মান হাসপাতালে, পেশাদার যোগাযোগের জন্য সঠিক সম্বোধন অপরিহার্য।",
-            "hi": "मेडिकल जर्मन में आपके पहले पाठ में आपका स्वागत है! जर्मन अस्पतालों में, पेशेवर संचार के लिए उचित संबोधन आवश्यक है।",
-            "ur": "میڈیکل جرمن میں آپ کے پہلے سبق میں خوش آمدید! جرمن ہسپتالوں میں، پیشہ ورانہ مواصلات کے لیے مناسب خطاب ضروری ہے۔",
-            "tr": "Tıbbi Almanca'daki ilk dersinize hoş geldiniz! Alman hastanelerinde, profesyonel iletişim için uygun hitap şekilleri önemlidir."
+            "en": "This section introduces formal greetings and titles used in German medical settings. You will also learn about the appropriate use of 'Sie' and 'du' forms and understand the hospital hierarchy, including roles like 'Oberarzt' and 'Chefarzt'.",
+            "bn": "এই বিভাগে জার্মান চিকিৎসা ব্যবস্থায় ব্যবহৃত আনুষ্ঠানিক অভিবাদন এবং শিরোনামগুলির সাথে পরিচয় করানো হবে। এছাড়াও আপনি 'Sie' এবং 'du' ফর্মের সঠিক ব্যবহার শিখবেন এবং 'Oberarzt' এবং 'Chefarzt'-এর মতো পদ সহ হাসপাতালের শ্রেণিবিন্যাস বুঝতে পারবেন।",
+            "hi": "यह अनुभाग जर्मन चिकित्सा सेटिंग्स में उपयोग किए जाने वाले औपचारिक अभिवादन और शीर्षकों का परिचय देता है। आप 'Sie' और 'du' रूपों का उचित उपयोग भी सीखेंगे और 'Oberarzt' और 'Chefarzt' जैसी भूमिकाओं सहित अस्पताल के पदानुक्रम को समझेंगे।",
+            "ur": "یہ سیکشن جرمن طبی ترتیبات میں استعمال ہونے والے رسمی آداب اور القاب متعارف کراتا ہے۔ آپ 'Sie' اور 'du' فارمز کا مناسب استعمال بھی سیکھیں گے اور 'Oberarzt' اور 'Chefarzt' جیسے کرداروں سمیت ہسپتال کے درجہ بندی کو سمجھیں گے۔",
+            "tr": "Bu bölüm, Alman tıbbi ortamlarında kullanılan resmi selamlaşmaları ve unvanları tanıtacaktır. Ayrıca 'Sie' ve 'du' formlarının uygun kullanımını öğrenecek ve 'Oberarzt' ve 'Chefarzt' gibi rolleri içeren hastane hiyerarşisini anlayacaksınız."
         },
         "grammarFocus": {
-            "en": "In German, you must distinguish between 'Sie' (formal you) and 'du' (informal you). In hospitals, always use 'Sie' with patients and superiors. The verb conjugation changes: 'Wie geht es Ihnen?' (How are you? - formal) vs 'Wie geht es dir?' (informal). Titles like 'Herr' and 'Frau' precede the professional title: 'Frau Doktor Müller' or 'Herr Oberarzt'.",
-            "bn": "জার্মান ভাষায়, আপনাকে 'Sie' (আনুষ্ঠানিক আপনি) এবং 'du' (অনানুষ্ঠানিক তুমি) এর মধ্যে পার্থক্য করতে হবে।",
-            "hi": "जर्मन में, आपको 'Sie' (औपचारिक आप) और 'du' (अनौपचारिक तुम) के बीच अंतर करना होगा।",
-            "ur": "جرمن میں، آپ کو 'Sie' (رسمی آپ) اور 'du' (غیر رسمی تم) میں فرق کرنا ہوگا۔",
-            "tr": "Almanca'da 'Sie' (resmi siz) ve 'du' (gayri resmi sen) arasında ayrım yapmalısınız."
+            "en": {
+                "bullet1": "Understanding the declension of titles with names (e.g., 'Herr Doktor Müller').",
+                "bullet2": "Proper usage of 'Sie' (formal) and 'du' (informal) pronouns and verb conjugations."
+            },
+            "bn": {
+                "bullet1": "নামের সাথে পদবিগুলির বিভক্তি বোঝা (যেমন, 'Herr Doktor Müller)।",
+                "bullet2": "'Sie' (আনুষ্ঠানিক) এবং 'du' (অনানুষ্ঠানিক) সর্বনাম এবং ক্রিয়ার संयुग्मनগুলির সঠিক ব্যবহার।"
+            },
+            "hi": {
+                "bullet1": "नामों के साथ शीर्षकों के विभक्ति को समझना (जैसे, 'Herr Doktor Müller')।",
+                "bullet2": "'Sie' (औपचारिक) और 'du' (अनौपचारिक) सर्वनामों और क्रिया संयुग्मों का उचित उपयोग।"
+            },
+            "ur": {
+                "bullet1": "ناموں کے ساتھ القاب کی حالت کو سمجھنا (مثال کے طور پر، 'Herr Doktor Müller')۔",
+                "bullet2": "'Sie' (رسمی) اور 'du' (غیر رسمی) ضمیروں اور فعل کے تصریف کا مناسب استعمال۔"
+            },
+            "tr": {
+                "bullet1": "İsimlerle birlikte unvanların çekimini anlamak (örneğin, 'Herr Doktor Müller').",
+                "bullet2": "'Sie' (resmi) ve 'du' (gayri resmi) zamirlerinin ve fiil çekimlerinin doğru kullanımı."
+            }
         },
         "culturalNotes": {
-            "en": "German medical culture values hierarchy. Always address senior physicians by their title (Chefarzt, Oberarzt) rather than just their name. When entering a ward or meeting room, greeting everyone with 'Guten Morgen' or 'Guten Tag' is expected. Handshakes are common when meeting colleagues for the first time each day.",
-            "bn": "জার্মান চিকিৎসা সংস্কৃতি শ্রেণিবিন্যাসকে মূল্য দেয়। সর্বদা সিনিয়র চিকিৎসকদের তাদের শিরোনাম দ্বারা সম্বোধন করুন।",
-            "hi": "जर्मन चिकित्सा संस्कृति पदानुक्रम को महत्व देती है। हमेशा वरिष्ठ चिकित्सकों को उनकी उपाधि से संबोधित करें।",
-            "ur": "جرمن طبی ثقافت درجہ بندی کو اہمیت دیتی ہے۔ ہمیشہ سینئر ڈاکٹروں کو ان کے خطاب سے مخاطب کریں۔",
-            "tr": "Alman tıp kültürü hiyerarşiye değer verir. Kıdemli hekimlere her zaman unvanlarıyla hitap edin."
+            "en": "In German hospitals, addressing superiors with 'Sie' and their title (e.g., 'Herr Professor') is crucial, and informality ('du') is generally only used after explicit permission.",
+            "bn": "জার্মান হাসপাতালগুলিতে, 'Sie' এবং তাদের পদবি (যেমন, 'Herr Professor') দিয়ে ঊর্ধ্বতনদের সম্বোধন করা অত্যন্ত গুরুত্বপূর্ণ, এবং অনানুষ্ঠানিকতা ('du') সাধারণত সুস্পষ্ট অনুমতির পরেই ব্যবহৃত হয়।",
+            "hi": "जर्मन अस्पतालों में, 'Sie' और उनके शीर्षक (जैसे, 'Herr Professor') के साथ वरिष्ठों को संबोधित करना महत्वपूर्ण है, और अनौपचारिकता ('du') आम तौर पर केवल स्पष्ट अनुमति के बाद ही उपयोग की जाती है।",
+            "ur": "جرمن ہسپتالوں میں، 'Sie' اور ان کے لقب (مثال کے طور پر، 'Herr Professor') کے ساتھ اعلیٰ عہدیداروں سے خطاب کرنا بہت اہم ہے، اور غیر رسمی پن ('du') عام طور پر صرف واضح اجازت کے بعد ہی استعمال کیا جاتا ہے۔",
+            "tr": "Alman hastanelerinde, üstlere 'Sie' ve unvanlarıyla (örneğin, 'Herr Professor') hitap etmek çok önemlidir ve samimiyet ('du') genellikle yalnızca açık izinden sonra kullanılır."
         },
         "summary": {
-            "en": "You've learned the essential German greetings and titles used in hospital settings. Remember to use 'Sie' for formal situations, address doctors by their titles, and greet colleagues appropriately throughout the day.",
-            "bn": "আপনি হাসপাতালে ব্যবহৃত প্রয়োজনীয় জার্মান অভিবাদন এবং শিরোনাম শিখেছেন।",
-            "hi": "आपने अस्पताल सेटिंग में उपयोग किए जाने वाले आवश्यक जर्मन अभिवादन और उपाधियाँ सीखी हैं।",
-            "ur": "آپ نے ہسپتال کی ترتیبات میں استعمال ہونے والے ضروری جرمن سلام اور خطابات سیکھے ہیں۔",
-            "tr": "Hastane ortamlarında kullanılan temel Almanca selamlaşmaları ve unvanları öğrendiniz."
+            "en": "This section provides a foundational understanding of greetings, titles, and hospital hierarchy crucial for effective communication in a German medical environment.",
+            "bn": "এই বিভাগে জার্মান চিকিৎসা পরিবেশে কার্যকর যোগাযোগের জন্য অভিবাদন, উপাধি এবং হাসপাতালের শ্রেণিবিন্যাসের একটি প্রাথমিক ধারণা প্রদান করা হয়েছে।",
+            "hi": "यह खंड जर्मन चिकित्सा वातावरण में प्रभावी संचार के लिए अभिवादन, उपाधियों और अस्पताल के पदानुक्रम की एक बुनियादी समझ प्रदान करता है।",
+            "ur": "یہ سیکشن جرمن طبی ماحول میں موثر مواصلات کے لیے آداب، القاب اور ہسپتال کے درجہ بندی کی بنیادی تفہیم فراہم کرتا ہے۔",
+            "tr": "Bu bölüm, Alman tıbbi ortamında etkili iletişim için çok önemli olan selamlaşma, unvan ve hastane hiyerarşisi hakkında temel bir anlayış sağlar."
         },
         "learningObjectives": [
-            "Use formal and informal greetings appropriately",
-            "Address medical staff by their correct titles",
-            "Distinguish between Sie and du forms",
-            "Navigate the hospital hierarchy in conversation"
+            "Identify and use formal greetings appropriately in German medical settings.",
+            "Distinguish between and correctly apply 'Sie' and 'du' forms.",
+            "Recognize common medical titles (e.g., Oberarzt, Chefarzt) and understand their significance.",
+            "Comprehend the basic hierarchy of a German hospital and address colleagues respectfully."
         ]
     },
     "vocabulary": [
         {
-            "id": "v01_01",
-            "germanTerm": "Oberarzt",
-            "article": "der",
-            "plural": "Oberärzte",
-            "pronunciation": "/ˈoːbɐˌʔaʁt͡st/",
-            "category": "noun",
-            "translation": {
-                "en": "Senior Physician / Attending Doctor",
-                "bn": "সিনিয়র চিকিৎসক",
-                "hi": "वरिष्ठ चिकित्सक",
-                "ur": "سینئر ڈاکٹر",
-                "tr": "Başhekim / Kıdemli Doktor"
-            },
-            "exampleSentence": "Guten Morgen, Herr Oberarzt!",
-            "exampleTranslation": {
-                "en": "Good morning, Senior Physician!",
-                "bn": "সুপ্রভাত, সিনিয়র চিকিৎসক!",
-                "hi": "सुप्रभात, वरिष्ठ चिकित्सक!",
-                "ur": "صبح بخیر، سینئر ڈاکٹر!",
-                "tr": "Günaydın, Başhekim!"
-            }
-        },
-        {
-            "id": "v01_02",
-            "germanTerm": "Chefarzt",
-            "article": "der",
-            "plural": "Chefärzte",
-            "pronunciation": "/ˈʃɛfˌʔaʁt͡st/",
-            "category": "noun",
-            "translation": {
-                "en": "Chief Physician / Head of Department",
-                "bn": "প্রধান চিকিৎসক / বিভাগীয় প্রধান",
-                "hi": "मुख्य चिकित्सक / विभाग प्रमुख",
-                "ur": "چیف ڈاکٹر / شعبہ کا سربراہ",
-                "tr": "Baş Hekim / Bölüm Başkanı"
-            },
-            "exampleSentence": "Der Chefarzt macht heute die Visite.",
-            "exampleTranslation": {
-                "en": "The chief physician is doing rounds today.",
-                "bn": "প্রধান চিকিৎসক আজ রাউন্ড করছেন।",
-                "hi": "मुख्य चिकित्सक आज राउंड कर रहे हैं।",
-                "ur": "چیف ڈاکٹر آج راؤنڈ کر رہے ہیں۔",
-                "tr": "Baş hekim bugün vizite yapıyor."
-            }
-        },
-        {
-            "id": "v01_03",
-            "germanTerm": "Kollegin",
-            "article": "die",
-            "plural": "Kolleginnen",
-            "pronunciation": "/kɔˈleːɡɪn/",
-            "category": "noun",
-            "translation": {
-                "en": "Female Colleague",
-                "bn": "মহিলা সহকর্মী",
-                "hi": "महिला सहकर्मी",
-                "ur": "خاتون ساتھی",
-                "tr": "Kadın Meslektaş"
-            },
-            "exampleSentence": "Guten Tag, Frau Kollegin!",
-            "exampleTranslation": {
-                "en": "Good day, colleague!",
-                "bn": "শুভ দিন, সহকর্মী!",
-                "hi": "शुभ दिन, सहकर्मी!",
-                "ur": "اچھا دن، ساتھی!",
-                "tr": "İyi günler, meslektaş!"
-            }
-        },
-        {
-            "id": "v01_04",
-            "germanTerm": "Guten Morgen",
-            "article": "",
-            "plural": "",
-            "pronunciation": "/ˈɡuːtn̩ ˈmɔʁɡn̩/",
+            "germanTerm": "Guten Tag",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˈɡuːtn̩ ˈtaːk",
             "category": "phrase",
             "translation": {
-                "en": "Good morning",
-                "bn": "সুপ্রভাত",
-                "hi": "सुप्रभात",
-                "ur": "صبح بخیر",
-                "tr": "Günaydın"
+                "en": "Good day",
+                "bn": "শুভ দিন",
+                "hi": "शुभ दिन",
+                "ur": "شب بخیر",
+                "tr": "İyi günler"
             },
-            "exampleSentence": "Guten Morgen! Wie geht es Ihnen?",
+            "exampleSentence": "Guten Tag, Herr Doktor Müller, wie geht es Ihnen heute?",
             "exampleTranslation": {
-                "en": "Good morning! How are you?",
-                "bn": "সুপ্রভাত! আপনি কেমন আছেন?",
-                "hi": "सुप्रभात! आप कैसे हैं?",
-                "ur": "صبح بخیر! آپ کیسے ہیں؟",
-                "tr": "Günaydın! Nasılsınız?"
-            }
+                "en": "Good day, Dr. Müller, how are you today?",
+                "bn": "শুভ দিন, ডক্টর মুলার, আজ আপনি কেমন আছেন?",
+                "hi": "शुभ दिन, डॉक्टर मुलर, आज आप कैसे हैं?",
+                "ur": "شب بخیر، ڈاکٹر مولر، آج آپ کیسے ہیں؟",
+                "tr": "İyi günler, Dr. Müller, bugün nasılsınız?"
+            },
+            "id": "v01_01"
         },
         {
-            "id": "v01_05",
-            "germanTerm": "Visite",
-            "article": "die",
-            "plural": "Visiten",
-            "pronunciation": "/viˈziːtə/",
-            "category": "noun",
+            "germanTerm": "Sehr geehrte/r Frau/Herr...",
+            "article": null,
+            "plural": null,
+            "pronunciation": "zeːɐ̯ ɡəˈʔeːɐ̯tə/r fraʊ/hɛɐ̯",
+            "category": "phrase",
             "translation": {
-                "en": "Ward Round",
-                "bn": "ওয়ার্ড রাউন্ড",
-                "hi": "वार्ड राउंड",
-                "ur": "وارڈ راؤنڈ",
-                "tr": "Vizit"
+                "en": "Dear Mrs./Mr....",
+                "bn": "প্রিয় শ্রীমতি/জনাব...",
+                "hi": "प्रिय श्रीमती/श्रीमान...",
+                "ur": "محترمہ/جناب...",
+                "tr": "Sayın Bayan/Bay..."
             },
-            "exampleSentence": "Die Visite beginnt um acht Uhr.",
+            "exampleSentence": "Sehr geehrte Frau Schmidt, ich schreibe Ihnen bezüglich des Patienten.",
             "exampleTranslation": {
-                "en": "The ward round starts at eight o'clock.",
-                "bn": "ওয়ার্ড রাউন্ড আটটায় শুরু হয়।",
-                "hi": "वार्ड राउंड आठ बजे शुरू होता है।",
-                "ur": "وارڈ راؤنڈ آٹھ بجے شروع ہوتا ہے۔",
-                "tr": "Vizit saat sekizde başlıyor."
-            }
+                "en": "Dear Mrs. Schmidt, I am writing to you regarding the patient.",
+                "bn": "প্রিয় শ্রীমতি শ্মিট, আমি আপনাকে রোগীর বিষয়ে লিখছি।",
+                "hi": "प्रिय श्रीमती श्मिट, मैं आपको मरीज के बारे में लिख रहा हूँ।",
+                "ur": "محترمہ شمت، میں آپ کو مریض کے بارے میں لکھ رہا ہوں۔",
+                "tr": "Sayın Bayan Schmidt, size hasta hakkında yazıyorum."
+            },
+            "id": "v01_02"
         },
         {
-            "id": "v01_06",
-            "germanTerm": "Assistenzarzt",
+            "germanTerm": "der Chefarzt",
             "article": "der",
-            "plural": "Assistenzärzte",
-            "pronunciation": "/asɪsˈtɛnt͡sˌʔaʁt͡st/",
+            "plural": "die Chefärzte",
+            "pronunciation": "ˈʃɛfˌʔaʁt͡st",
             "category": "noun",
             "translation": {
-                "en": "Resident Doctor / Junior Doctor",
-                "bn": "রেসিডেন্ট ডাক্তার",
-                "hi": "रेजिडेंट डॉक्टर",
-                "ur": "ریزیڈنٹ ڈاکٹر",
+                "en": "Chief Physician",
+                "bn": "প্রধান চিকিৎসক",
+                "hi": "प्रमुख चिकित्सक",
+                "ur": "چیف فزیشن",
+                "tr": "Başhekim"
+            },
+            "exampleSentence": "Der Chefarzt hat die Operation genehmigt.",
+            "exampleTranslation": {
+                "en": "The chief physician approved the operation.",
+                "bn": "প্রধান চিকিৎসক অপারেশনটি অনুমোদন করেছেন।",
+                "hi": "प्रमुख चिकित्सक ने ऑपरेशन को मंजूरी दे दी।",
+                "ur": "چیف فزیشن نے آپریشن کی منظوری دے دی۔",
+                "tr": "Başhekim ameliyatı onayladı."
+            },
+            "id": "v01_03"
+        },
+        {
+            "germanTerm": "der Oberarzt",
+            "article": "der",
+            "plural": "die Oberärzte",
+            "pronunciation": "ˈoːbɐˌʔaʁt͡st",
+            "category": "noun",
+            "translation": {
+                "en": "Senior Physician",
+                "bn": "সিনিয়র চিকিৎসক",
+                "hi": "वरिष्ठ चिकित्सक",
+                "ur": "سینئر فزیشن",
+                "tr": "Kıdemli Hekim"
+            },
+            "exampleSentence": "Der Oberarzt leitet die Visite.",
+            "exampleTranslation": {
+                "en": "The senior physician leads the rounds.",
+                "bn": "সিনিয়র চিকিৎসক রাউন্ড পরিচালনা করেন।",
+                "hi": "वरिष्ठ चिकित्सक राउंड का नेतृत्व करते हैं।",
+                "ur": "سینئر فزیشن راؤنڈ کی قیادت کرتے ہیں۔",
+                "tr": "Kıdemli hekim viziteyi yönetir."
+            },
+            "id": "v01_04"
+        },
+        {
+            "germanTerm": "der Assistenzarzt",
+            "article": "der",
+            "plural": "die Assistenzärzte",
+            "pronunciation": "asɪsˈtɛnt͡sˌʔaʁt͡st",
+            "category": "noun",
+            "translation": {
+                "en": "Resident Physician",
+                "bn": "সহকারী চিকিৎসক",
+                "hi": "सहायक चिकित्सक",
+                "ur": "اسسٹنٹ فزیشن",
                 "tr": "Asistan Doktor"
             },
-            "exampleSentence": "Ich bin Assistenzarzt in der Inneren Medizin.",
+            "exampleSentence": "Der Assistenzarzt hat die Blutentnahme durchgeführt.",
             "exampleTranslation": {
-                "en": "I am a resident in Internal Medicine.",
-                "bn": "আমি ইন্টার্নাল মেডিসিনে রেসিডেন্ট।",
-                "hi": "मैं इंटरनल मेडिसिन में रेजिडेंट हूं।",
-                "ur": "میں انٹرنل میڈیسن میں ریزیڈنٹ ہوں۔",
-                "tr": "Ben İç Hastalıkları'nda asistan doktorum."
-            }
-        },
-        {
-            "id": "v01_07",
-            "germanTerm": "Auf Wiedersehen",
-            "article": "",
-            "plural": "",
-            "pronunciation": "/aʊ̯f ˈviːdɐˌzeːən/",
-            "category": "phrase",
-            "translation": {
-                "en": "Goodbye",
-                "bn": "বিদায়",
-                "hi": "अलविदा",
-                "ur": "خدا حافظ",
-                "tr": "Hoşçakalın"
+                "en": "The resident physician performed the blood draw.",
+                "bn": "সহকারী চিকিৎসক রক্ত ​​সংগ্রহ করেছেন।",
+                "hi": "सहायक चिकित्सक ने रक्त निकाला।",
+                "ur": "اسسٹنٹ فزیشن نے خون نکالا۔",
+                "tr": "Asistan doktor kan aldı."
             },
-            "exampleSentence": "Auf Wiedersehen, Herr Doktor!",
-            "exampleTranslation": {
-                "en": "Goodbye, Doctor!",
-                "bn": "বিদায়, ডাক্তার!",
-                "hi": "अलविदा, डॉक्टर!",
-                "ur": "خدا حافظ، ڈاکٹر!",
-                "tr": "Hoşçakalın, Doktor!"
-            }
+            "id": "v01_05"
         },
         {
-            "id": "v01_08",
-            "germanTerm": "Krankenhaus",
+            "germanTerm": "der Facharzt",
+            "article": "der",
+            "plural": "die Fachärzte",
+            "pronunciation": "ˈfaxˌʔaʁt͡st",
+            "category": "noun",
+            "translation": {
+                "en": "Specialist Physician",
+                "bn": "বিশেষজ্ঞ চিকিৎসক",
+                "hi": "विशेषज्ञ चिकित्सक",
+                "ur": "ماہر طبیب",
+                "tr": "Uzman Doktor"
+            },
+            "exampleSentence": "Der Facharzt für Kardiologie wurde konsultiert.",
+            "exampleTranslation": {
+                "en": "The specialist physician for cardiology was consulted.",
+                "bn": "কার্ডিওলজির বিশেষজ্ঞ চিকিৎসকের সাথে পরামর্শ করা হয়েছে।",
+                "hi": "कार्डियोलॉजी के विशेषज्ञ चिकित्सक से परामर्श किया गया।",
+                "ur": "کارڈیالوجی کے ماہر طبیب سے مشورہ کیا گیا.",
+                "tr": "Kardiyoloji uzmanı doktora danışıldı."
+            },
+            "id": "v01_06"
+        },
+        {
+            "germanTerm": "die Krankenschwester",
+            "article": "die",
+            "plural": "die Krankenschwestern",
+            "pronunciation": "ˈkʁaŋkn̩ˌʃvɛstɐ",
+            "category": "noun",
+            "translation": {
+                "en": "Nurse",
+                "bn": "নার্স",
+                "hi": "नर्स",
+                "ur": "نرس",
+                "tr": "Hemşire"
+            },
+            "exampleSentence": "Die Krankenschwester misst den Blutdruck.",
+            "exampleTranslation": {
+                "en": "The nurse measures the blood pressure.",
+                "bn": "নার্স রক্তচাপ পরিমাপ করেন।",
+                "hi": "नर्स रक्तचाप मापती है।",
+                "ur": "نرس بلڈ پریشر کی پیمائش کرتی ہے۔",
+                "tr": "Hemşire tansiyonu ölçer."
+            },
+            "id": "v01_07"
+        },
+        {
+            "germanTerm": "der Pfleger",
+            "article": "der",
+            "plural": "die Pfleger",
+            "pronunciation": "ˈp͡fleːɡɐ",
+            "category": "noun",
+            "translation": {
+                "en": "Male Nurse/Caregiver",
+                "bn": "পুরুষ সেবক/যত্নশীল",
+                "hi": "पुरुष नर्स/देखभाल करने वाला",
+                "ur": "مرد نرس/دیکھ بھال کرنے والا",
+                "tr": "Erkek Hemşire/Bakıcı"
+            },
+            "exampleSentence": "Der Pfleger hilft dem Patienten beim Aufstehen.",
+            "exampleTranslation": {
+                "en": "The caregiver helps the patient to get up.",
+                "bn": "পুরুষ সেবক রোগীকে উঠতে সাহায্য করেন।",
+                "hi": "देखभाल करने वाला रोगी को उठने में मदद करता है।",
+                "ur": "دیکھ بھال کرنے والا مریض کو اٹھنے میں مدد کرتا ہے۔",
+                "tr": "Bakıcı hastanın kalkmasına yardım eder."
+            },
+            "id": "v01_08"
+        },
+        {
+            "germanTerm": "die Klinik",
+            "article": "die",
+            "plural": "die Kliniken",
+            "pronunciation": "kliˈniːk",
+            "category": "noun",
+            "translation": {
+                "en": "Clinic/Hospital",
+                "bn": "ক্লিনিক/হাসপাতাল",
+                "hi": "क्लिनिक/अस्पताल",
+                "ur": "کلینک/ہسپتال",
+                "tr": "Klinik/Hastane"
+            },
+            "exampleSentence": "Der Patient wurde in die Klinik eingeliefert.",
+            "exampleTranslation": {
+                "en": "The patient was admitted to the hospital.",
+                "bn": "রোগীকে হাসপাতালে ভর্তি করা হয়েছে।",
+                "hi": "मरीज को अस्पताल में भर्ती कराया गया।",
+                "ur": "مریض کو ہسپتال میں داخل کرایا گیا.",
+                "tr": "Hasta hastaneye yatırıldı."
+            },
+            "id": "v01_09"
+        },
+        {
+            "germanTerm": "das Krankenhaus",
             "article": "das",
-            "plural": "Krankenhäuser",
-            "pronunciation": "/ˈkʁaŋkn̩ˌhaʊ̯s/",
+            "plural": "die Krankenhäuser",
+            "pronunciation": "ˈkʁaŋkn̩ˌhaʊ̯s",
             "category": "noun",
             "translation": {
                 "en": "Hospital",
@@ -232,184 +292,1250 @@
                 "ur": "ہسپتال",
                 "tr": "Hastane"
             },
-            "exampleSentence": "Ich arbeite im Krankenhaus.",
+            "exampleSentence": "Das Krankenhaus hat viele Fachabteilungen.",
             "exampleTranslation": {
-                "en": "I work in the hospital.",
-                "bn": "আমি হাসপাতালে কাজ করি।",
-                "hi": "मैं अस्पताल में काम करता हूं।",
-                "ur": "میں ہسپتال میں کام کرتا ہوں۔",
-                "tr": "Ben hastanede çalışıyorum."
-            }
+                "en": "The hospital has many specialist departments.",
+                "bn": "হাসপাতালে অনেক বিশেষজ্ঞ বিভাগ আছে।",
+                "hi": "अस्पताल में कई विशेषज्ञ विभाग हैं।",
+                "ur": "ہسپتال میں بہت سے ماہر شعبے ہیں۔",
+                "tr": "Hastanenin birçok uzmanlık bölümü var."
+            },
+            "id": "v01_10"
+        },
+        {
+            "germanTerm": "die Abteilung",
+            "article": "die",
+            "plural": "die Abteilungen",
+            "pronunciation": "apˈtaɪ̯lʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "Department",
+                "bn": "বিভাগ",
+                "hi": "विभाग",
+                "ur": "شعبہ",
+                "tr": "Bölüm"
+            },
+            "exampleSentence": "Ich arbeite in der Abteilung für Innere Medizin.",
+            "exampleTranslation": {
+                "en": "I work in the department of internal medicine.",
+                "bn": "আমি অভ্যন্তরীণ চিকিৎসা বিভাগে কাজ করি।",
+                "hi": "मैं आंतरिक चिकित्सा विभाग में काम करता हूँ।",
+                "ur": "میں داخلی طب کے شعبے میں کام کرتا ہوں۔",
+                "tr": "İç hastalıkları bölümünde çalışıyorum."
+            },
+            "id": "v01_11"
+        },
+        {
+            "germanTerm": "die Station",
+            "article": "die",
+            "plural": "die Stationen",
+            "pronunciation": "ʃtaˈt͡si̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "Ward",
+                "bn": "ওয়ার্ড",
+                "hi": "वार्ड",
+                "ur": "وارڈ",
+                "tr": "Koğuş"
+            },
+            "exampleSentence": "Der Patient liegt auf Station 3.",
+            "exampleTranslation": {
+                "en": "The patient is on ward 3.",
+                "bn": "রোগীটি ৩ নম্বর ওয়ার্ডে আছে।",
+                "hi": "मरीज वार्ड 3 में है।",
+                "ur": "مریض وارڈ 3 میں ہے۔",
+                "tr": "Hasta 3. koğuşta yatıyor."
+            },
+            "id": "v01_12"
+        },
+        {
+            "germanTerm": "die Visite",
+            "article": "die",
+            "plural": "die Visiten",
+            "pronunciation": "viˈziːtə",
+            "category": "noun",
+            "translation": {
+                "en": "Rounds",
+                "bn": "রাউন্ড",
+                "hi": "राउन्ड",
+                "ur": "راؤنڈ",
+                "tr": "Vizit"
+            },
+            "exampleSentence": "Die Visite beginnt um 9 Uhr.",
+            "exampleTranslation": {
+                "en": "The rounds start at 9 o'clock.",
+                "bn": "রাউন্ড সকাল ৯টায় শুরু হয়।",
+                "hi": "राउन्ड सुबह 9 बजे शुरू होता है।",
+                "ur": "راؤنڈ صبح 9 بجے شروع ہوتا ہے۔",
+                "tr": "Vizit saat 9'da başlıyor."
+            },
+            "id": "v01_13"
+        },
+        {
+            "germanTerm": "die Kollegin",
+            "article": "die",
+            "plural": "die Kolleginnen",
+            "pronunciation": "kɔˈleːɡɪn",
+            "category": "noun",
+            "translation": {
+                "en": "Female Colleague",
+                "bn": "মহিলা সহকর্মী",
+                "hi": "महिला सहकर्मी",
+                "ur": "خاتون ساتھی",
+                "tr": "Kadın Meslektaş"
+            },
+            "exampleSentence": "Meine Kollegin ist sehr erfahren.",
+            "exampleTranslation": {
+                "en": "My female colleague is very experienced.",
+                "bn": "আমার মহিলা সহকর্মী খুব অভিজ্ঞ।",
+                "hi": "मेरी महिला सहकर्मी बहुत अनुभवी हैं।",
+                "ur": "میری خاتون ساتھی بہت تجربہ کار ہیں۔",
+                "tr": "Kadın meslektaşım çok deneyimli."
+            },
+            "id": "v01_14"
+        },
+        {
+            "germanTerm": "der Kollege",
+            "article": "der",
+            "plural": "die Kollegen",
+            "pronunciation": "kɔˈleːɡə",
+            "category": "noun",
+            "translation": {
+                "en": "Male Colleague",
+                "bn": "পুরুষ সহকর্মী",
+                "hi": "पुरुष सहकर्मी",
+                "ur": "مرد ساتھی",
+                "tr": "Erkek Meslektaş"
+            },
+            "exampleSentence": "Mein Kollege hat mir geholfen.",
+            "exampleTranslation": {
+                "en": "My male colleague helped me.",
+                "bn": "আমার পুরুষ সহকর্মী আমাকে সাহায্য করেছেন।",
+                "hi": "मेरे पुरुष सहकर्मी ने मेरी मदद की।",
+                "ur": "میرے مرد ساتھی نے میری مدد کی۔",
+                "tr": "Erkek meslektaşım bana yardım etti."
+            },
+            "id": "v01_15"
+        },
+        {
+            "germanTerm": "das Team",
+            "article": "das",
+            "plural": "die Teams",
+            "pronunciation": "tiːm",
+            "category": "noun",
+            "translation": {
+                "en": "Team",
+                "bn": "দল",
+                "hi": "टीम",
+                "ur": "ٹیم",
+                "tr": "Takım"
+            },
+            "exampleSentence": "Wir sind ein gutes Team.",
+            "exampleTranslation": {
+                "en": "We are a good team.",
+                "bn": "আমরা একটি ভালো দল।",
+                "hi": "हम एक अच्छी टीम हैं।",
+                "ur": "ہم ایک اچھی ٹیم ہیں۔",
+                "tr": "Biz iyi bir takımız."
+            },
+            "id": "v01_16"
+        },
+        {
+            "germanTerm": "die Hierarchie",
+            "article": "die",
+            "plural": "die Hierarchien",
+            "pronunciation": "hi̯ɛˈʁaʁçiː",
+            "category": "noun",
+            "translation": {
+                "en": "Hierarchy",
+                "bn": "ক্রমোচ্চতা",
+                "hi": "पदक्रम",
+                "ur": "درجہ بندی",
+                "tr": "Hiyerarşi"
+            },
+            "exampleSentence": "Die Hierarchie im Krankenhaus ist sehr wichtig.",
+            "exampleTranslation": {
+                "en": "The hierarchy in the hospital is very important.",
+                "bn": "হাসপাতালে ক্রমোচ্চতা খুবই গুরুত্বপূর্ণ।",
+                "hi": "अस्पताल में पदक्रम बहुत महत्वपूर्ण है।",
+                "ur": "ہسپتال میں درجہ بندی بہت اہم ہے۔",
+                "tr": "Hastanede hiyerarşi çok önemlidir."
+            },
+            "id": "v01_17"
+        },
+        {
+            "germanTerm": "Sie",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ziː",
+            "category": "pronoun",
+            "translation": {
+                "en": "Formal you",
+                "bn": "আপনি (সম্মানসূচক)",
+                "hi": "आप (आदरपूर्वक)",
+                "ur": "آپ (ادب کے ساتھ)",
+                "tr": "Siz (resmi)"
+            },
+            "exampleSentence": "Wie geht es Ihnen, Herr Professor?",
+            "exampleTranslation": {
+                "en": "How are you, Mr. Professor?",
+                "bn": "কেমন আছেন, অধ্যাপক সাহেব?",
+                "hi": "आप कैसे हैं, प्रोफेसर साहब?",
+                "ur": "آپ کیسے ہیں، پروفیسر صاحب؟",
+                "tr": "Nasılsınız, Profesör Bey?"
+            },
+            "id": "v01_18"
+        },
+        {
+            "germanTerm": "du",
+            "article": null,
+            "plural": null,
+            "pronunciation": "duː",
+            "category": "pronoun",
+            "translation": {
+                "en": "Informal you",
+                "bn": "তুমি (অনানুষ্ঠানিক)",
+                "hi": "तुम (अनौपचारिक)",
+                "ur": "تم (غیر رسمی)",
+                "tr": "Sen (gayri resmi)"
+            },
+            "exampleSentence": "Kannst du mir bitte helfen?",
+            "exampleTranslation": {
+                "en": "Can you please help me?",
+                "bn": "তুমি কি আমাকে একটু সাহায্য করতে পারবে?",
+                "hi": "क्या तुम मेरी मदद कर सकते हो?",
+                "ur": "کیا تم میری مدد کر سکتے ہو؟",
+                "tr": "Bana yardım edebilir misin?"
+            },
+            "id": "v01_19"
+        },
+        {
+            "germanTerm": "sich vorstellen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "zɪç ˈfɔːɐ̯ˌʃtɛlən",
+            "category": "verb",
+            "translation": {
+                "en": "to introduce oneself",
+                "bn": "নিজের পরিচয় দেওয়া",
+                "hi": "अपना परिचय देना",
+                "ur": "اپنا تعارف کروانا",
+                "tr": "Kendini tanıtmak"
+            },
+            "exampleSentence": "Darf ich mich vorstellen? Ich bin Dr. Meier.",
+            "exampleTranslation": {
+                "en": "May I introduce myself? I am Dr. Meier.",
+                "bn": "আমি কি নিজের পরিচয় দিতে পারি? আমি ডক্টর মায়ার।",
+                "hi": "क्या मैं अपना परिचय दे सकता हूँ? मैं डॉ. मेयर हूँ।",
+                "ur": "کیا میں اپنا تعارف کروا سکتا ہوں؟ میں ڈاکٹر میئر ہوں۔",
+                "tr": "Kendimi tanıtabilir miyim? Ben Dr. Meier."
+            },
+            "id": "v01_20"
+        },
+        {
+            "germanTerm": "der Titel",
+            "article": "der",
+            "plural": "die Titel",
+            "pronunciation": "ˈtiːtl̩",
+            "category": "noun",
+            "translation": {
+                "en": "Title",
+                "bn": "উপাধি",
+                "hi": "उपाधि",
+                "ur": "خطاب",
+                "tr": "Unvan"
+            },
+            "exampleSentence": "Er trägt den Titel 'Professor'.",
+            "exampleTranslation": {
+                "en": "He holds the title 'Professor'.",
+                "bn": "তিনি 'অধ্যাপক' উপাধি ধারণ করেন।",
+                "hi": "वह 'प्रोफेसर' की उपाधि धारण करते हैं।",
+                "ur": "وہ 'پروفیسر' کا خطاب رکھتے ہیں۔",
+                "tr": "O 'Profesör' unvanını taşıyor."
+            },
+            "id": "v01_21"
+        },
+        {
+            "germanTerm": "die Anrede",
+            "article": "die",
+            "plural": "die Anreden",
+            "pronunciation": "ˈanˌʁeːdə",
+            "category": "noun",
+            "translation": {
+                "en": "Form of address",
+                "bn": "সম্বোধন",
+                "hi": "संबोधन का रूप",
+                "ur": "خطاب کا طریقہ",
+                "tr": "Hitap Şekli"
+            },
+            "exampleSentence": "Die korrekte Anrede ist 'Herr Doktor'.",
+            "exampleTranslation": {
+                "en": "The correct form of address is 'Mr. Doctor'.",
+                "bn": "সঠিক সম্বোধন হল 'ডক্টর সাহেব'।",
+                "hi": "संबोधन का सही रूप 'डॉक्टर साहब' है।",
+                "ur": "خطاب کا صحیح طریقہ 'ڈاکٹر صاحب' ہے۔",
+                "tr": "Doğru hitap şekli 'Doktor Bey'dir."
+            },
+            "id": "v01_22"
+        },
+        {
+            "germanTerm": "angenehm",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˈanˌɡəneːm",
+            "category": "adjective",
+            "translation": {
+                "en": "Pleasant",
+                "bn": "আনন্দদায়ক",
+                "hi": "सुखद",
+                "ur": "خوشگوار",
+                "tr": "Hoş"
+            },
+            "exampleSentence": "Angenehm, Sie kennenzulernen.",
+            "exampleTranslation": {
+                "en": "Pleasant to meet you.",
+                "bn": "আপনার সাথে পরিচিত হয়ে আনন্দিত হলাম।",
+                "hi": "आपसे मिलकर खुशी हुई।",
+                "ur": "آپ سے مل کر خوشی ہوئی۔",
+                "tr": "Tanıştığıma memnun oldum."
+            },
+            "id": "v01_23"
+        },
+        {
+            "germanTerm": "auf Wiedersehen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "aʊ̯f ˈviːdɐˌzeːən",
+            "category": "phrase",
+            "translation": {
+                "en": "Goodbye",
+                "bn": "বিদায়",
+                "hi": "अलविदा",
+                "ur": "الوداع",
+                "tr": "Güle güle"
+            },
+            "exampleSentence": "Auf Wiedersehen, bis morgen!",
+            "exampleTranslation": {
+                "en": "Goodbye, see you tomorrow!",
+                "bn": "বিদায়, কাল দেখা হবে!",
+                "hi": "अलविदा, कल मिलते हैं!",
+                "ur": "الوداع، کل ملتے ہیں!",
+                "tr": "Güle güle, yarın görüşürüz!"
+            },
+            "id": "v01_24"
+        },
+        {
+            "germanTerm": "die Visitenkarte",
+            "article": "die",
+            "plural": "die Visitenkarten",
+            "pronunciation": "viˈzɪtn̩ˌkaʁtə",
+            "category": "noun",
+            "translation": {
+                "en": "Business card",
+                "bn": "ভিজিটিং কার্ড",
+                "hi": "विज़िटिंग कार्ड",
+                "ur": "وزٹنگ کارڈ",
+                "tr": "Kartvizit"
+            },
+            "exampleSentence": "Hier ist meine Visitenkarte.",
+            "exampleTranslation": {
+                "en": "Here is my business card.",
+                "bn": "এই নিন আমার ভিজিটিং কার্ড।",
+                "hi": "ये रहा मेरा विज़िटिंग कार्ड।",
+                "ur": "یہ رہا میرا وزٹنگ کارڈ۔",
+                "tr": "İşte kartvizitim."
+            },
+            "id": "v01_25"
+        },
+        {
+            "germanTerm": "das Arbeitsklima",
+            "article": "das",
+            "plural": "die Arbeitsklimata/Arbeitsklimen",
+            "pronunciation": "ˈaʁbaɪ̯t͡sˌkliːma",
+            "category": "noun",
+            "translation": {
+                "en": "Work atmosphere",
+                "bn": "কর্মপরিবেশ",
+                "hi": "कार्य वातावरण",
+                "ur": "کام کا ماحول",
+                "tr": "Çalışma ortamı"
+            },
+            "exampleSentence": "Das Arbeitsklima im Team ist sehr gut.",
+            "exampleTranslation": {
+                "en": "The work atmosphere in the team is very good.",
+                "bn": "দলের কর্মপরিবেশ খুব ভালো।",
+                "hi": "टीम में कार्य वातावरण बहुत अच्छा है।",
+                "ur": "ٹیم میں کام کا ماحول بہت اچھا ہے۔",
+                "tr": "Takımdaki çalışma ortamı çok iyi."
+            },
+            "id": "v01_26"
+        },
+        {
+            "germanTerm": "die Verantwortung",
+            "article": "die",
+            "plural": "die Verantwortungen",
+            "pronunciation": "fɛɐ̯ˈʔantvɔʁtʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "Responsibility",
+                "bn": "দায়িত্ব",
+                "hi": "जिम्मेदारी",
+                "ur": "ذمہ داری",
+                "tr": "Sorumluluk"
+            },
+            "exampleSentence": "Als Arzt trägt man eine große Verantwortung.",
+            "exampleTranslation": {
+                "en": "As a doctor, you bear a great responsibility.",
+                "bn": "একজন ডাক্তার হিসেবে, আপনাকে অনেক বড় দায়িত্ব নিতে হয়।",
+                "hi": "एक डॉक्टर के रूप में, आप पर एक बड़ी जिम्मेदारी होती है।",
+                "ur": "ایک ڈاکٹر کی حیثیت سے، آپ پر ایک بڑی ذمہ داری عائد ہوتی ہے۔",
+                "tr": "Bir doktor olarak, büyük bir sorumluluk taşırsınız."
+            },
+            "id": "v01_27"
+        },
+        {
+            "germanTerm": "die Weiterbildung",
+            "article": "die",
+            "plural": "die Weiterbildungen",
+            "pronunciation": "ˈvaɪ̯tɐˌbɪldʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "Further education",
+                "bn": "উচ্চশিক্ষা",
+                "hi": "आगे की शिक्षा",
+                "ur": "مزید تعلیم",
+                "tr": "İleri eğitim"
+            },
+            "exampleSentence": "Die Weiterbildung ist für Ärzte sehr wichtig.",
+            "exampleTranslation": {
+                "en": "Further education is very important for doctors.",
+                "bn": "ডাক্তারদের জন্য উচ্চশিক্ষা খুবই গুরুত্বপূর্ণ।",
+                "hi": "डॉक्टरों के लिए आगे की शिक्षा बहुत महत्वपूर्ण है।",
+                "ur": "ڈاکٹروں کے لیے مزید تعلیم بہت اہم ہے۔",
+                "tr": "İleri eğitim doktorlar için çok önemlidir."
+            },
+            "id": "v01_28"
+        },
+        {
+            "germanTerm": "der Dienstplan",
+            "article": "der",
+            "plural": "die Dienstpläne",
+            "pronunciation": "ˈdiːnstˌplaːn",
+            "category": "noun",
+            "translation": {
+                "en": "Duty roster",
+                "bn": "কর্তব্য তালিকা",
+                "hi": "ड्यूटी रोस्टर",
+                "ur": "ڈیوٹی روسٹر",
+                "tr": "Nöbet çizelgesi"
+            },
+            "exampleSentence": "Bitte schauen Sie in den Dienstplan.",
+            "exampleTranslation": {
+                "en": "Please check the duty roster.",
+                "bn": "অনুগ্রহ করে কর্তব্য তালিকা দেখুন।",
+                "hi": "कृपया ड्यूटी रोस्टर देखें।",
+                "ur": "برائے مہربانی ڈیوٹی روسٹر دیکھیں۔",
+                "tr": "Lütfen nöbet çizelgesine bakın."
+            },
+            "id": "v01_29"
         }
     ],
     "dialogues": [
         {
-            "id": "d01_01",
             "title": {
-                "en": "Morning Greeting on the Ward",
-                "bn": "ওয়ার্ডে সকালের অভিবাদন",
-                "hi": "वार्ड में सुबह का अभिवादन",
-                "ur": "وارڈ میں صبح کا سلام",
-                "tr": "Serviste Sabah Selamlaşması"
+                "en": "Greetings at the Morning Round",
+                "bn": "সকালের রাউন্ডে অভিবাদন",
+                "hi": "सुबह के दौर में अभिवादन",
+                "ur": "صبح کے راؤنڈ میں استقبالیہ",
+                "tr": "Sabah Vizitinde Selamlaşma"
             },
             "context": {
-                "en": "Dr. Kumar arrives at the ward and greets the nursing staff and senior physician.",
-                "bn": "ডাঃ কুমার ওয়ার্ডে পৌঁছে নার্সিং স্টাফ এবং সিনিয়র চিকিৎসককে অভিবাদন জানান।",
-                "hi": "डॉ. कुमार वार्ड में आते हैं और नर्सिंग स्टाफ और वरिष्ठ चिकित्सक को बधाई देते हैं।",
-                "ur": "ڈاکٹر کمار وارڈ میں آتے ہیں اور نرسنگ سٹاف اور سینئر ڈاکٹر کو سلام کرتے ہیں۔",
-                "tr": "Dr. Kumar servise gelir ve hemşirelik personelini ve kıdemli hekimi selamlar."
+                "en": "Dr. Schmidt, an assistant doctor, greets Dr. Weber, the senior physician, and Sister Weber during the morning round.",
+                "bn": "সহকারী ডাক্তার শ্মিট, প্রবীণ চিকিৎসক ওয়েবার এবং সিস্টার ওয়েবারকে সকালের রাউন্ডে অভিবাদন জানাচ্ছেন।",
+                "hi": "सहायक डॉक्टर श्मिट, वरिष्ठ चिकित्सक वेबर और सिस्टर वेबर को सुबह के दौर में अभिवादन करते हैं।",
+                "ur": "اسسٹنٹ ڈاکٹر شمٹ، سینئر ڈاکٹر ویبر اور سسٹر ویبر کو صبح کے راؤنڈ میں استقبال کر رہے ہیں۔",
+                "tr": "Asistan Doktor Schmidt, sabah viziti sırasında kıdemli doktor Weber ve Hemşire Weber'i selamlıyor."
             },
             "lines": [
                 {
-                    "speaker": "Dr. Kumar",
+                    "speaker": "Dr. Schmidt",
                     "speakerRole": "Assistenzarzt",
-                    "germanText": "Guten Morgen, Frau Kollegin!",
+                    "germanText": "Guten Morgen, Herr Oberarzt Weber, guten Morgen, Schwester Weber.",
                     "translation": {
-                        "en": "Good morning, colleague!",
-                        "bn": "সুপ্রভাত, সহকর্মী!",
-                        "hi": "सुप्रभात, सहकर्मी!",
-                        "ur": "صبح بخیر، ساتھی!",
-                        "tr": "Günaydın, meslektaş!"
+                        "en": "Good morning, Mr. Senior Physician Weber, good morning, Sister Weber.",
+                        "bn": "শুভ সকাল, জনাব সিনিয়র ফিজিশিয়ান ওয়েবার, শুভ সকাল, সিস্টার ওয়েবার।",
+                        "hi": "शुभ प्रभात, श्रीमान वरिष्ठ चिकित्सक वेबर, शुभ प्रभात, सिस्टर वेबर।",
+                        "ur": "صبح بخیر، جناب سینئر فزیشن ویبر، صبح بخیر، سسٹر ویبر۔",
+                        "tr": "Günaydın, Sayın Kıdemli Doktor Weber, günaydın, Hemşire Weber."
+                    }
+                },
+                {
+                    "speaker": "Oberarzt Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Morgen, Herr Schmidt. Sind Sie bereit für die Visite?",
+                    "translation": {
+                        "en": "Good morning, Mr. Schmidt. Are you ready for the round?",
+                        "bn": "শুভ সকাল, জনাব শ্মিট। আপনি কি রাউন্ডের জন্য প্রস্তুত?",
+                        "hi": "शुभ प्रभात, श्रीमान श्मिट। क्या आप दौर के लिए तैयार हैं?",
+                        "ur": "صبح بخیر، جناب شمٹ۔ کیا آپ راؤنڈ کے لیے تیار ہیں؟",
+                        "tr": "Günaydın, Bay Schmidt. Vizite hazır mısınız?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ja, Herr Oberarzt. Ich habe alle Patientenakten vorbereitet.",
+                    "translation": {
+                        "en": "Yes, Mr. Senior Physician. I have prepared all the patient files.",
+                        "bn": "হ্যাঁ, জনাব সিনিয়র ফিজিশিয়ান। আমি সমস্ত রোগীর ফাইল প্রস্তুত করেছি।",
+                        "hi": "हाँ, श्रीमान वरिष्ठ चिकित्सक। मैंने सभी रोगी फ़ाइलें तैयार कर ली हैं।",
+                        "ur": "جی ہاں، جناب سینئر فزیشن۔ میں نے تمام مریضوں کی فائلیں تیار کر لی ہیں۔",
+                        "tr": "Evet, Sayın Kıdemli Doktor. Tüm hasta dosyalarını hazırladım."
                     }
                 },
                 {
                     "speaker": "Schwester Weber",
                     "speakerRole": "Krankenschwester",
-                    "germanText": "Guten Morgen, Herr Doktor Kumar! Wie geht es Ihnen?",
+                    "germanText": "Guten Morgen, Herr Schmidt. Ich habe die Medikamente bereitgestellt.",
                     "translation": {
-                        "en": "Good morning, Doctor Kumar! How are you?",
-                        "bn": "সুপ্রভাত, ডাক্তার কুমার! আপনি কেমন আছেন?",
-                        "hi": "सुप्रभात, डॉक्टर कुमार! आप कैसे हैं?",
-                        "ur": "صبح بخیر، ڈاکٹر کمار! آپ کیسے ہیں؟",
-                        "tr": "Günaydın, Doktor Kumar! Nasılsınız?"
+                        "en": "Good morning, Mr. Schmidt. I have prepared the medications.",
+                        "bn": "শুভ সকাল, জনাব শ্মিট। আমি ওষুধ প্রস্তুত করেছি।",
+                        "hi": "शुभ प्रभात, श्रीमान श्मिट। मैंने दवाएँ तैयार कर ली हैं।",
+                        "ur": "صبح بخیر، جناب شمٹ۔ میں نے دوائیں تیار کر لی ہیں۔",
+                        "tr": "Günaydın, Bay Schmidt. İlaçları hazırladım."
                     }
                 },
                 {
-                    "speaker": "Dr. Kumar",
-                    "speakerRole": "Assistenzarzt",
-                    "germanText": "Danke, gut. Ist der Oberarzt schon da?",
+                    "speaker": "Oberarzt Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ausgezeichnet. Dann können wir ja beginnen.",
                     "translation": {
-                        "en": "Fine, thank you. Is the senior physician here yet?",
-                        "bn": "ধন্যবাদ, ভালো। সিনিয়র চিকিৎসক কি এসেছেন?",
-                        "hi": "धन्यवाद, ठीक हूं। क्या वरिष्ठ चिकित्सक आ गए हैं?",
-                        "ur": "شکریہ، ٹھیک ہوں۔ کیا سینئر ڈاکٹر آ گئے ہیں؟",
-                        "tr": "Teşekkürler, iyiyim. Kıdemli hekim geldi mi?"
-                    }
-                },
-                {
-                    "speaker": "Schwester Weber",
-                    "speakerRole": "Krankenschwester",
-                    "germanText": "Ja, Herr Oberarzt Müller ist in der Besprechung.",
-                    "translation": {
-                        "en": "Yes, Senior Physician Müller is in the meeting.",
-                        "bn": "হ্যাঁ, সিনিয়র চিকিৎসক মুলার মিটিং-এ আছেন।",
-                        "hi": "हां, वरिष्ठ चिकित्सक मुलर मीटिंग में हैं।",
-                        "ur": "جی ہاں، سینئر ڈاکٹر مولر میٹنگ میں ہیں۔",
-                        "tr": "Evet, Kıdemli Hekim Müller toplantıda."
-                    }
-                },
-                {
-                    "speaker": "Dr. Kumar",
-                    "speakerRole": "Assistenzarzt",
-                    "germanText": "Vielen Dank. Wann beginnt die Visite?",
-                    "translation": {
-                        "en": "Thank you very much. When does the ward round start?",
-                        "bn": "অনেক ধন্যবাদ। ওয়ার্ড রাউন্ড কখন শুরু হয়?",
-                        "hi": "बहुत धन्यवाद। वार्ड राउंड कब शुरू होता है?",
-                        "ur": "بہت شکریہ۔ وارڈ راؤنڈ کب شروع ہوتا ہے؟",
-                        "tr": "Çok teşekkür ederim. Vizit ne zaman başlıyor?"
-                    }
-                },
-                {
-                    "speaker": "Schwester Weber",
-                    "speakerRole": "Krankenschwester",
-                    "germanText": "Um acht Uhr dreißig.",
-                    "translation": {
-                        "en": "At eight thirty.",
-                        "bn": "সাড়ে আটটায়।",
-                        "hi": "साढ़े आठ बजे।",
-                        "ur": "ساڑھے آٹھ بجے۔",
-                        "tr": "Sekiz buçukta."
+                        "en": "Excellent. Then we can begin.",
+                        "bn": "চমৎকার। তাহলে আমরা শুরু করতে পারি।",
+                        "hi": "उत्कृष्ट। तो हम शुरू कर सकते हैं।",
+                        "ur": "بہترین۔ تو ہم شروع کر سکتے ہیں۔",
+                        "tr": "Mükemmel. O zaman başlayabiliriz."
                     }
                 }
-            ]
+            ],
+            "id": "d01_01"
+        },
+        {
+            "title": {
+                "en": "Introducing a Colleague",
+                "bn": "একজন সহকর্মীর সাথে পরিচয় করিয়ে দেওয়া",
+                "hi": "एक सहकर्मी का परिचय",
+                "ur": "ایک ساتھی کا تعارف",
+                "tr": "Bir Meslektaşı Tanıtmak"
+            },
+            "context": {
+                "en": "Dr. Klein, the chief physician, introduces Dr. Meier to Dr. Schmidt.",
+                "bn": "প্রধান চিকিৎসক ক্লেইন, ডঃ মিয়ারের সাথে ডঃ শ্মিট এর পরিচয় করিয়ে দিচ্ছেন।",
+                "hi": "मुख्य चिकित्सक क्लाइन, डॉ. मेयर से डॉ. श्मिट का परिचय कराते हैं।",
+                "ur": "چیف فزیشن کلین، ڈاکٹر مائر کو ڈاکٹر شمٹ سے متعارف کروا رہے ہیں۔",
+                "tr": "Başhekim Klein, Dr. Meier'i Dr. Schmidt ile tanıştırıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Chefarzt Klein",
+                    "speakerRole": "Chefarzt",
+                    "germanText": "Herr Schmidt, darf ich Ihnen Herrn Dr. Meier vorstellen? Er ist unser neuer Oberarzt auf der Kardiologie.",
+                    "translation": {
+                        "en": "Mr. Schmidt, may I introduce you to Dr. Meier? He is our new senior physician in cardiology.",
+                        "bn": "জনাব শ্মিট, আমি কি আপনাকে ডঃ মিয়ারের সাথে পরিচয় করিয়ে দিতে পারি? তিনি আমাদের কার্ডিওলজির নতুন সিনিয়র ফিজিশিয়ান।",
+                        "hi": "श्रीमान श्मिट, क्या मैं आपका परिचय डॉ. मेयर से करा सकता हूँ? वह कार्डियोलॉजी में हमारे नए वरिष्ठ चिकित्सक हैं।",
+                        "ur": "جناب شمٹ، کیا میں آپ کو ڈاکٹر مائر سے متعارف کروا سکتا ہوں؟ وہ کارڈیالوجی میں ہمارے نئے سینئر فزیشن ہیں۔",
+                        "tr": "Bay Schmidt, sizi Dr. Meier ile tanıştırabilir miyim? Kardiyoloji bölümündeki yeni kıdemli doktorumuz."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Sehr angenehm, Herr Dr. Meier. Herzlich willkommen im Team!",
+                    "translation": {
+                        "en": "Very pleased to meet you, Dr. Meier. Welcome to the team!",
+                        "bn": "আপনার সাথে পরিচিত হয়ে খুব ভালো লাগলো, ডঃ মিয়ার। দলে আপনাকে স্বাগতম!",
+                        "hi": "आपसे मिलकर बहुत खुशी हुई, डॉ. मेयर। टीम में आपका स्वागत है!",
+                        "ur": "آپ سے مل کر بہت خوشی ہوئی، ڈاکٹر مائر۔ ٹیم میں آپ کا استقبال ہے!",
+                        "tr": "Memnun oldum, Dr. Meier. Takıma hoş geldiniz!"
+                    }
+                },
+                {
+                    "speaker": "Oberarzt Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Freut mich auch, Herr Schmidt. Ich freue mich auf die Zusammenarbeit.",
+                    "translation": {
+                        "en": "The pleasure is mine, Mr. Schmidt. I look forward to working together.",
+                        "bn": "আমারও খুব ভালো লাগলো, জনাব শ্মিট। আমি একসাথে কাজ করার জন্য উন্মুখ।",
+                        "hi": "मुझे भी खुशी हुई, श्रीमान श्मिट। मैं एक साथ काम करने के लिए उत्सुक हूँ।",
+                        "ur": "مجھے بھی خوشی ہوئی، جناب شمٹ۔ میں ایک ساتھ کام کرنے کا منتظر ہوں۔",
+                        "tr": "Ben de memnun oldum, Bay Schmidt. Birlikte çalışmayı dört gözle bekliyorum."
+                    }
+                },
+                {
+                    "speaker": "Chefarzt Klein",
+                    "speakerRole": "Chefarzt",
+                    "germanText": "Dann wünsche ich Ihnen beiden einen guten Start in den Tag.",
+                    "translation": {
+                        "en": "Then I wish you both a good start to the day.",
+                        "bn": "তাহলে আমি আপনাদের দুজনের একটি শুভ দিনের শুরু কামনা করি।",
+                        "hi": "तो मैं आप दोनों को दिन की अच्छी शुरुआत की शुभकामनाएं देता हूँ।",
+                        "ur": "تو میں آپ دونوں کو دن کی اچھی شروعات کی خواہش کرتا ہوں۔",
+                        "tr": "O zaman ikinize de güne iyi bir başlangıçlar dilerim."
+                    }
+                }
+            ],
+            "id": "d01_02"
+        },
+        {
+            "title": {
+                "en": "Talking to a Patient (Formal)",
+                "bn": "রোগীর সাথে কথা বলা (আনুষ্ঠানিকভাবে)",
+                "hi": "रोगी से बात करना (औपचारिक रूप से)",
+                "ur": "مریض سے بات کرنا (رسمی طور پر)",
+                "tr": "Bir Hastayla Konuşmak (Resmi)"
+            },
+            "context": {
+                "en": "Dr. Schmidt addresses Mr. Müller, a patient, using the formal 'Sie'.",
+                "bn": "ডঃ শ্মিট মিস্টার মুলার নামক একজন রোগীর সাথে 'Sie' ব্যবহার করে আনুষ্ঠানিকভাবে কথা বলছেন।",
+                "hi": "डॉ. श्मिट श्रीमान मुलर नामक एक रोगी से 'Sie' का उपयोग करके औपचारिक रूप से बात कर रहे हैं।",
+                "ur": "ڈاکٹر شمٹ مسٹر ملر نامی ایک مریض سے 'Sie' کا استعمال کرتے ہوئے رسمی طور پر بات کر رہے ہیں۔",
+                "tr": "Dr. Schmidt, Bay Müller adlı bir hastaya 'Sie' kullanarak resmi olarak hitap ediyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Tag, Herr Müller. Ich bin Herr Schmidt, einer der Assistenzärzte hier.",
+                    "translation": {
+                        "en": "Good day, Mr. Müller. I am Mr. Schmidt, one of the assistant doctors here.",
+                        "bn": "শুভ দিন, মিস্টার মুলার। আমি মিস্টার শ্মিট, এখানকার একজন সহকারী ডাক্তার।",
+                        "hi": "शुभ दिन, श्रीमान मुलर। मैं श्रीमान श्मिट, यहाँ के सहायक डॉक्टरों में से एक हूँ।",
+                        "ur": "شب بخیر، مسٹر ملر۔ میں مسٹر شمٹ، یہاں کے معاون ڈاکٹروں میں سے ایک ہوں۔",
+                        "tr": "İyi günler, Bay Müller. Ben Bay Schmidt, buradaki asistan doktorlardan biriyim."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Tag, Herr Schmidt.",
+                    "translation": {
+                        "en": "Good day, Mr. Schmidt.",
+                        "bn": "শুভ দিন, জনাব শ্মিট।",
+                        "hi": "शुभ दिन, श्रीमान श्मिट।",
+                        "ur": "شب بخیر، جناب شمٹ۔",
+                        "tr": "İyi günler, Bay Schmidt."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wie geht es Ihnen heute?",
+                    "translation": {
+                        "en": "How are you feeling today?",
+                        "bn": "আজ আপনি কেমন অনুভব করছেন?",
+                        "hi": "आज आप कैसा महसूस कर रहे हैं?",
+                        "ur": "آج آپ کیسا محسوس کر رہے ہیں؟",
+                        "tr": "Bugün nasılsınız?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Es geht so. Die Schmerzen sind noch da.",
+                    "translation": {
+                        "en": "So-so. The pain is still there.",
+                        "bn": "মোটামুটি। ব্যথা এখনও আছে।",
+                        "hi": "ठीक-ठाक। दर्द अभी भी है।",
+                        "ur": "ٹھیک ٹھاک۔ درد ابھی بھی ہے۔",
+                        "tr": "İdare eder. Ağrılarım hala var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich werde das gleich mit dem Oberarzt besprechen. Wir kümmern uns darum.",
+                    "translation": {
+                        "en": "I will discuss this with the senior physician right away. We will take care of it.",
+                        "bn": "আমি এখনই সিনিয়র ফিজিশিয়ানের সাথে এটি নিয়ে আলোচনা করব। আমরা এটির খেয়াল রাখব।",
+                        "hi": "मैं तुरंत वरिष्ठ चिकित्सक के साथ इस पर चर्चा करूंगा। हम इसका ध्यान रखेंगे।",
+                        "ur": "میں فوری طور پر سینئر فزیشن کے ساتھ اس پر بات کروں گا۔ ہم اس کا خیال رکھیں گے۔",
+                        "tr": "Hemen kıdemli doktor ile görüşeceğim. Biz ilgileneceğiz."
+                    }
+                }
+            ],
+            "id": "d01_03"
+        },
+        {
+            "title": {
+                "en": "Asking to Use 'Du'",
+                "bn": "'Du' ব্যবহার করার জন্য জিজ্ঞাসা করা",
+                "hi": "'डु' का उपयोग करने के लिए पूछना",
+                "ur": "'ڈو' استعمال کرنے کے لیے پوچھنا",
+                "tr": "'Du' Kullanmak İçin İzin İstemek"
+            },
+            "context": {
+                "en": "Dr. Lehmann and Dr. Schulz, who have known each other for a long time, discuss switching to the informal 'du'.",
+                "bn": "ডঃ লেহমান এবং ডঃ শুলজ, যারা দীর্ঘদিন ধরে একে অপরের সাথে পরিচিত, তারা অনানুষ্ঠানিক 'du' তে স্যুইচ করা নিয়ে আলোচনা করছেন।",
+                "hi": "डॉ. लेहमान और डॉ. शुल्ज़, जो लंबे समय से एक दूसरे को जानते हैं, अनौपचारिक 'डु' पर स्विच करने पर चर्चा करते हैं।",
+                "ur": "ڈاکٹر لیمن اور ڈاکٹر شلز، جو ایک دوسرے کو کافی عرصے سے جانتے ہیں، غیر رسمی 'ڈو' پر سوئچ کرنے پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Dr. Lehmann ve Dr. Schulz, uzun zamandır birbirlerini tanıdıkları için, gayri resmi 'du'ya geçmeyi tartışıyorlar."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Hör mal, Schulz, wir kennen uns doch schon so lange. Dürfen wir uns nicht endlich duzen?",
+                    "translation": {
+                        "en": "Listen, Schulz, we've known each other for so long. Can't we finally use 'du' with each other?",
+                        "bn": "শোনো, শুলজ, আমরা তো একে অপরের সাথে অনেক দিন ধরে পরিচিত। আমরা কি অবশেষে একে অপরের সাথে 'du' ব্যবহার করতে পারি না?",
+                        "hi": "सुनो, शुल्ज़, हम एक दूसरे को इतने लंबे समय से जानते हैं। क्या हम आखिरकार एक दूसरे के साथ 'डु' का उपयोग नहीं कर सकते?",
+                        "ur": "سنو، شلز، ہم ایک دوسرے کو اتنے عرصے سے جانتے ہیں۔ کیا ہم آخر کار ایک دوسرے کے ساتھ 'ڈو' استعمال نہیں کر سکتے؟",
+                        "tr": "Bak Schulz, birbirimizi çok uzun zamandır tanıyoruz. Artık birbirimize 'du' diyemez miyiz?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schulz",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Da hast du Recht, Lehmann. Gerne! Also, hallo Lehmann.",
+                    "translation": {
+                        "en": "You're right, Lehmann. Gladly! So, hello Lehmann.",
+                        "bn": "তুমি ঠিক বলেছ, লেহমান। সানন্দে! তাহলে, হ্যালো লেহমান।",
+                        "hi": "तुम सही कह रहे हो, लेहमान। खुशी से! तो, नमस्ते लेहमान।",
+                        "ur": "تم ٹھیک کہہ رہے ہو، لیمن۔ خوشی سے! تو، ہیلو لیمن۔",
+                        "tr": "Haklısın, Lehmann. Memnun olurum! O zaman, merhaba Lehmann."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Hallo Schulz! Das ist doch viel angenehmer, oder?",
+                    "translation": {
+                        "en": "Hello Schulz! That's much nicer, isn't it?",
+                        "bn": "হ্যালো শুলজ! এটা অনেক বেশি ভালো, তাই না?",
+                        "hi": "हेलो शुल्ज़! यह बहुत अच्छा है, है ना?",
+                        "ur": "ہیلو شلز! یہ بہت اچھا ہے، ہے نا؟",
+                        "tr": "Merhaba Schulz! Bu çok daha güzel, değil mi?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schulz",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Absolut. Find ich auch. Aber vielleicht sollten wir das vor dem Chefarzt noch vermeiden.",
+                    "translation": {
+                        "en": "Absolutely. I think so too. But perhaps we should avoid that in front of the chief physician.",
+                        "bn": "অবশ্যই। আমিও তাই মনে করি। তবে সম্ভবত আমাদের প্রধান চিকিৎসকের সামনে এটি এড়ানো উচিত।",
+                        "hi": "बिल्कुल। मुझे भी ऐसा लगता है। लेकिन शायद हमें मुख्य चिकित्सक के सामने इससे बचना चाहिए।",
+                        "ur": "بالکل۔ میں بھی ایسا سوچتا ہوں۔ لیکن شاید ہمیں چیف فزیشن کے سامنے اس سے بچنا چاہیے۔",
+                        "tr": "Kesinlikle. Bence de öyle. Ama belki de başhekimin önünde bundan kaçınmalıyız."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guter Punkt. Diskretion ist wichtig.",
+                    "translation": {
+                        "en": "Good point. Discretion is important.",
+                        "bn": "ভালো কথা। বিচক্ষণতা গুরুত্বপূর্ণ।",
+                        "hi": "अच्छी बात है। विवेक महत्वपूर्ण है।",
+                        "ur": "اچھی بات ہے۔ صوابدید اہم ہے۔",
+                        "tr": "İyi nokta. Gizlilik önemlidir."
+                    }
+                }
+            ],
+            "id": "d01_04"
+        },
+        {
+            "title": {
+                "en": "Nurse's Greeting and Addressing",
+                "bn": "নার্সের অভিবাদন এবং সম্বোধন",
+                "hi": "नर्स का अभिवादन और संबोधन",
+                "ur": "نرس کا استقبالیہ اور خطاب",
+                "tr": "Hemşirenin Selamı ve Hitap Şekli"
+            },
+            "context": {
+                "en": "Nurse Anna greets Dr. Meyer in the hallway and discusses patient care.",
+                "bn": "নার্স আনা করিডোরে ডঃ মেয়ারকে অভিবাদন জানান এবং রোগীর যত্ন নিয়ে আলোচনা করেন।",
+                "hi": "नर्स अन्ना गलियारे में डॉ. मेयर को अभिवादन करती हैं और रोगी की देखभाल पर चर्चा करती हैं।",
+                "ur": "نرس اینا راہداری میں ڈاکٹر میئر کو استقبال کرتی ہیں اور مریض کی دیکھ بھال پر تبادلہ خیال کرتی ہیں۔",
+                "tr": "Hemşire Anna koridorda Dr. Meyer'i selamlar ve hasta bakımı hakkında konuşur."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Morgen, Herr Dr. Meyer. Wie geht es Ihnen heute?",
+                    "translation": {
+                        "en": "Good morning, Dr. Meyer. How are you today?",
+                        "bn": "শুভ সকাল, ডঃ মিয়ার। আজ আপনি কেমন আছেন?",
+                        "hi": "शुभ प्रभात, डॉ. मेयर। आज आप कैसे हैं?",
+                        "ur": "صبح بخیر، ڈاکٹر میئر۔ آج آپ کیسے ہیں؟",
+                        "tr": "Günaydın, Dr. Meyer. Bugün nasılsınız?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Meyer",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Morgen, Schwester Anna. Mir geht es gut, danke. Was gibt es Neues?",
+                    "translation": {
+                        "en": "Good morning, Sister Anna. I'm fine, thank you. What's new?",
+                        "bn": "শুভ সকাল, সিস্টার আনা। আমি ভালো আছি, ধন্যবাদ। নতুন কি খবর আছে?",
+                        "hi": "शुभ प्रभात, सिस्टर अन्ना। मैं ठीक हूँ, धन्यवाद। क्या खबर है?",
+                        "ur": "صبح بخیر، سسٹر اینا۔ میں ٹھیک ہوں، شکریہ۔ کیا خبر ہے؟",
+                        "tr": "Günaydın, Hemşire Anna. Ben iyiyim, teşekkürler. Ne var ne yok?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Schmidt hat starke Schmerzen. Er braucht dringend eine Schmerzmedikation.",
+                    "translation": {
+                        "en": "Mr. Schmidt is in severe pain. He urgently needs pain medication.",
+                        "bn": "মিঃ শ্মিটের খুব ব্যথা হচ্ছে। তার জরুরিভাবে ব্যথানাশক ওষুধের প্রয়োজন।",
+                        "hi": "श्रीमान श्मिट को बहुत दर्द हो रहा है। उसे तुरंत दर्द निवारक दवा की आवश्यकता है।",
+                        "ur": "مسٹر شمٹ کو بہت درد ہو رہا ہے۔ اسے فوری طور پر درد کش ادویات کی ضرورت ہے۔",
+                        "tr": "Bay Schmidt'in şiddetli ağrıları var. Acilen ağrı kesiciye ihtiyacı var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meyer",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich kümmere mich sofort darum. Danke für die Information, Schwester Anna.",
+                    "translation": {
+                        "en": "I'll take care of it immediately. Thank you for the information, Sister Anna.",
+                        "bn": "আমি অবিলম্বে এটির খেয়াল রাখব। তথ্যের জন্য ধন্যবাদ, সিস্টার আনা।",
+                        "hi": "मैं तुरंत इसका ध्यान रखूँगा। जानकारी के लिए धन्यवाद, सिस्टर अन्ना।",
+                        "ur": "میں فوری طور پر اس کا خیال رکھوں گا۔ معلومات کے لیے شکریہ، سسٹر اینا۔",
+                        "tr": "Hemen ilgileneceğim. Bilgi için teşekkürler, Hemşire Anna."
+                    }
+                },
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Gern geschehen, Herr Dr. Meyer.",
+                    "translation": {
+                        "en": "You're welcome, Dr. Meyer.",
+                        "bn": "আপনাকে স্বাগতম, ডঃ মেয়ার।",
+                        "hi": "आपका स्वागत है, डॉ. मेयर।",
+                        "ur": "آپ کا استقبال ہے، ڈاکٹر میئر۔",
+                        "tr": "Rica ederim, Dr. Meyer."
+                    }
+                }
+            ],
+            "id": "d01_05"
         }
     ],
     "exercises": [
         {
-            "id": "e01_01",
             "type": "multipleChoice",
             "question": {
-                "de": "Wie begrüßen Sie den Chefarzt am Morgen?",
-                "en": "How do you greet the Chief Physician in the morning?",
-                "bn": "সকালে আপনি প্রধান চিকিৎসককে কীভাবে অভিবাদন জানাবেন?",
-                "hi": "सुबह आप मुख्य चिकित्सक को कैसे बधाई देंगे?",
-                "ur": "صبح آپ چیف ڈاکٹر کو کیسے سلام کریں گے؟",
-                "tr": "Sabah Baş Hekimi nasıl selamlarsınız?"
+                "de": "Wie begrüßen Sie formell einen Oberarzt in einem Krankenhaus?",
+                "en": "How do you formally greet a senior physician in a hospital?",
+                "bn": "আপনি একটি হাসপাতালে একজন সিনিয়র ফিজিশিয়ানকে আনুষ্ঠানিকভাবে কিভাবে সম্বোধন করবেন?",
+                "hi": "आप अस्पताल में एक वरिष्ठ चिकित्सक को औपचारिक रूप से कैसे अभिवादन करेंगे?",
+                "ur": "آپ ہسپتال میں ایک سینئر فزیشن کو باضابطہ طور پر کیسے سلام کریں گے؟",
+                "tr": "Bir hastanede kıdemli bir doktoru resmi olarak nasıl selamlarsınız?"
             },
             "options": [
-                "Guten Morgen, Herr Chefarzt!",
-                "Hallo, Chef!",
-                "Hi, Doktor!",
-                "Morgen!"
+                "Hallo!",
+                "Guten Tag, Herr Oberarzt!",
+                "Servus!",
+                "Na, alles klar?"
             ],
-            "correctAnswer": "Guten Morgen, Herr Chefarzt!",
+            "correctAnswer": "Guten Tag, Herr Oberarzt!",
             "explanation": {
-                "en": "In German hospitals, you should always use formal greetings with superiors. 'Guten Morgen, Herr Chefarzt!' is the proper formal greeting for a Chief Physician.",
-                "bn": "জার্মান হাসপাতালে, উর্ধ্বতনদের সাথে সর্বদা আনুষ্ঠানিক অভিবাদন ব্যবহার করা উচিত।",
-                "hi": "जर्मन अस्पतालों में, वरिष्ठों के साथ हमेशा औपचारिक अभिवादन का उपयोग करना चाहिए।",
-                "ur": "جرمن ہسپتالوں میں، بڑوں کے ساتھ ہمیشہ رسمی سلام استعمال کرنا چاہیے۔",
-                "tr": "Alman hastanelerinde, üstlerinize her zaman resmi selamlama kullanmalısınız."
+                "en": "'Guten Tag, Herr Oberarzt!' is the most formal and respectful greeting for a senior physician.",
+                "bn": "'Guten Tag, Herr Oberarzt!' একজন সিনিয়র ফিজিশিয়ানের জন্য সবচেয়ে আনুষ্ঠানিক এবং সম্মানজনক সম্ভাষণ।",
+                "hi": "'गुटेन टैग, हेर ओबरर्ज़्ट!' एक वरिष्ठ चिकित्सक के लिए सबसे औपचारिक और सम्मानजनक अभिवादन है।",
+                "ur": "'گوتن ٹیگ، ہیر اوبرارزٹ!' ایک سینئر معالج کے لیے سب سے زیادہ رسمی اور احترام پر مبنی سلام ہے۔",
+                "tr": "'Guten Tag, Herr Oberarzt!' kıdemli bir doktor için en resmi ve saygılı selamlamadır."
             },
-            "points": 10
+            "points": 10,
+            "id": "e01_01"
         },
         {
-            "id": "e01_02",
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Anrede ist formell: 'Sie' oder 'du'?",
+                "en": "Which form of address is formal: 'Sie' or 'du'?",
+                "bn": "কোন সম্বোধনটি আনুষ্ঠানিক: ' Sie' নাকি 'du'?",
+                "hi": "संबोधन का कौन सा रूप औपचारिक है: ' Sie' या 'du'?",
+                "ur": "خطاب کا کون سا روپ رسمی ہے: ' Sie' یا 'du'؟",
+                "tr": "Hangi hitap şekli resmi: 'Sie' mi 'du' mu?"
+            },
+            "options": [
+                "du",
+                "Sie",
+                "Beide sind gleich.",
+                "Keine von beiden."
+            ],
+            "correctAnswer": "Sie",
+            "explanation": {
+                "en": "'Sie' is the formal form of 'you' in German.",
+                "bn": "'Sie' জার্মান ভাষায় 'আপনি' এর আনুষ্ঠানিক রূপ।",
+                "hi": "'Sie' जर्मन में 'आप' का औपचारिक रूप है।",
+                "ur": "'Sie' جرمن میں 'آپ' کی رسمی شکل ہے۔",
+                "tr": "'Sie', Almanca'da 'siz' anlamında kullanılan resmi formdur."
+            },
+            "points": 10,
+            "id": "e01_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist die höchste Position in der Krankenhaus Hierarchie?",
+                "en": "What is the highest position in the hospital hierarchy?",
+                "bn": "হাসপাতালের শ্রেণীবিন্যাসে সর্বোচ্চ পদ কোনটি?",
+                "hi": "अस्पताल पदानुक्रम में सर्वोच्च पद क्या है?",
+                "ur": "ہسپتال کے درجہ بندی میں سب سے بڑا عہدہ کیا ہے؟",
+                "tr": "Hastane hiyerarşisinde en yüksek pozisyon nedir?"
+            },
+            "options": [
+                "Oberarzt",
+                "Assistenzarzt",
+                "Chefarzt",
+                "Krankenpfleger"
+            ],
+            "correctAnswer": "Chefarzt",
+            "explanation": {
+                "en": "The 'Chefarzt' is the head physician and holds the highest position.",
+                "bn": "'Chefarzt' হলেন প্রধান চিকিৎসক এবং সর্বোচ্চ পদে অধিষ্ঠিত।",
+                "hi": "'Chefarzt' प्रमुख चिकित्सक हैं और सर्वोच्च पद पर हैं।",
+                "ur": "'Chefarzt' سربراہ معالج ہیں اور سب سے اعلی عہدے پر فائز ہیں۔",
+                "tr": "'Chefarzt' başhekimdir ve en yüksek pozisyonda bulunur."
+            },
+            "points": 10,
+            "id": "e01_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wie würden Sie eine Kollegin formell begrüßen?",
+                "en": "How would you formally greet a female colleague?",
+                "bn": "আপনি কিভাবে একজন মহিলা সহকর্মীকে আনুষ্ঠানিকভাবে সম্ভাষণ করবেন?",
+                "hi": "आप एक महिला सहकर्मी का औपचारिक रूप से अभिवादन कैसे करेंगे?",
+                "ur": "آپ کسی خاتون ساتھی کو رسمی طور پر کیسے سلام کریں گے؟",
+                "tr": "Bir kadın meslektaşınızı nasıl resmi olarak selamlarsınız?"
+            },
+            "options": [
+                "Hallo!",
+                "Guten Tag, Frau Doktor!",
+                "Hey!",
+                "Was geht ab?"
+            ],
+            "correctAnswer": "Guten Tag, Frau Doktor!",
+            "explanation": {
+                "en": "'Guten Tag, Frau Doktor!' is a formal greeting suitable for a female colleague, especially if she is a doctor.",
+                "bn": "'Guten Tag, Frau Doktor!' একজন মহিলা সহকর্মীর জন্য উপযুক্ত একটি আনুষ্ঠানিক অভিবাদন, বিশেষ করে যদি তিনি একজন ডাক্তার হন।",
+                "hi": "'गुटेन टैग, फ्राउ डॉक्टर!' एक महिला सहकर्मी के लिए उपयुक्त एक औपचारिक अभिवादन है, खासकर यदि वह एक डॉक्टर है।",
+                "ur": "'گوتن ٹیگ، فراو ڈاکٹر!' ایک خاتون ساتھی کے لیے ایک رسمی سلام ہے، خاص طور پر اگر وہ ڈاکٹر ہوں۔",
+                "tr": "'Guten Tag, Frau Doktor!', özellikle doktor olan bir kadın meslektaş için uygun resmi bir selamlamadır."
+            },
+            "points": 10,
+            "id": "e01_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Oberarzt'?",
+                "en": "What does 'Oberarzt' mean?",
+                "bn": "'Oberarzt' মানে কি?",
+                "hi": "'Oberarzt' का क्या मतलब है?",
+                "ur": "'Oberarzt' کا کیا مطلب ہے؟",
+                "tr": "'Oberarzt' ne anlama gelir?"
+            },
+            "options": [
+                "Head Nurse",
+                "Resident Doctor",
+                "Senior Physician",
+                "Intern"
+            ],
+            "correctAnswer": "Senior Physician",
+            "explanation": {
+                "en": "'Oberarzt' translates to 'Senior Physician'.",
+                "bn": "'Oberarzt' মানে 'সিনিয়র ফিজিশিয়ান'।",
+                "hi": "'Oberarzt' का अर्थ है 'सीनियर फिजिशियन'।",
+                "ur": "'Oberarzt' کا مطلب ہے 'سینئر فزیشن'۔",
+                "tr": "'Oberarzt', 'Kıdemli Doktor' anlamına gelir."
+            },
+            "points": 10,
+            "id": "e01_05"
+        },
+        {
             "type": "fillBlank",
             "question": {
-                "de": "Ergänzen Sie: 'Guten Tag, _____ Kollegin!'",
-                "en": "Fill in: 'Guten Tag, _____ Kollegin!' (for female colleague)",
-                "bn": "পূরণ করুন: 'Guten Tag, _____ Kollegin!'",
-                "hi": "भरें: 'Guten Tag, _____ Kollegin!'",
-                "ur": "پُر کریں: 'Guten Tag, _____ Kollegin!'",
-                "tr": "Doldurun: 'Guten Tag, _____ Kollegin!'"
+                "de": "Guten ________, Herr Schmidt!",
+                "en": "Good ________, Mr. Schmidt!",
+                "bn": "শুভ ________, মিস্টার স্মিথ!",
+                "hi": "शुभ ________, श्रीमान श्मिट!",
+                "ur": "شب بخیر ________، مسٹر شمٹ!",
+                "tr": "İyi ________, Bay Schmidt!"
             },
-            "correctAnswer": "Frau",
+            "correctAnswer": "Tag",
             "explanation": {
-                "en": "'Frau' is used before 'Kollegin' (female colleague) as a polite form of address. The complete greeting is 'Guten Tag, Frau Kollegin!'",
-                "bn": "'Frau' মহিলা সহকর্মীর আগে শিষ্ট সম্বোধন হিসেবে ব্যবহৃত হয়।",
-                "hi": "'Frau' महिला सहकर्मी के पहले विनम्र संबोधन के रूप में प्रयोग किया जाता है।",
-                "ur": "'Frau' خاتون ساتھی سے پہلے شائستہ خطاب کے طور پر استعمال ہوتا ہے۔",
-                "tr": "'Frau', kadın meslektaştan önce kibar bir hitap şekli olarak kullanılır."
+                "en": "'Tag' (day) is used for 'Good day'.",
+                "bn": "'Tag' (দিন) 'শুভ দিন' এর জন্য ব্যবহৃত হয়।",
+                "hi": "'Tag' (दिन) 'शुभ दिन' के लिए प्रयोग किया जाता है।",
+                "ur": "'Tag' (دن) 'شب بخیر' کے لیے استعمال ہوتا ہے۔",
+                "tr": "'Tag' (gün), 'İyi günler' için kullanılır."
             },
-            "points": 10
+            "points": 10,
+            "id": "e01_06"
         },
         {
-            "id": "e01_03",
+            "type": "fillBlank",
+            "question": {
+                "de": "Ich bin Ihre ________, Frau Müller.",
+                "en": "I am your ________, Mrs. Müller.",
+                "bn": "আমি আপনার ________, মিসেস মুলার।",
+                "hi": "मैं आपकी ________ हूँ, श्रीमती मुलर।",
+                "ur": "میں آپ کی ________ ہوں، محترمہ مولر۔",
+                "tr": "Ben sizin ________'nizim, Bayan Müller."
+            },
+            "correctAnswer": "Kollegin",
+            "explanation": {
+                "en": "'Kollegin' means 'colleague' (female).",
+                "bn": "'Kollegin' মানে 'মহিলা সহকর্মী'।",
+                "hi": "'Kollegin' का अर्थ है 'महिला सहकर्मी'।",
+                "ur": "'Kollegin' کا مطلب ہے 'خاتون ساتھی'۔",
+                "tr": "'Kollegin', 'kadın meslektaş' anlamına gelir."
+            },
+            "points": 10,
+            "id": "e01_07"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Der ________ ist der Leiter der Abteilung.",
+                "en": "The ________ is the head of the department.",
+                "bn": "________ বিভাগের প্রধান।",
+                "hi": "________ विभाग के प्रमुख हैं।",
+                "ur": "________ شعبہ کے سربراہ ہیں۔",
+                "tr": "________ bölümün başıdır."
+            },
+            "correctAnswer": "Chefarzt",
+            "explanation": {
+                "en": "'Chefarzt' is the head of the department.",
+                "bn": "'Chefarzt' বিভাগের প্রধান।",
+                "hi": "'Chefarzt' विभाग के प्रमुख हैं।",
+                "ur": "'Chefarzt' شعبہ کے سربراہ ہیں۔",
+                "tr": "'Chefarzt' bölümün başıdır."
+            },
+            "points": 10,
+            "id": "e01_08"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Sollte ich den Arzt mit 'du' oder '________' ansprechen?",
+                "en": "Should I address the doctor with 'du' or '________'?",
+                "bn": "ডাক্তারকে 'du' নাকি '________' বলে সম্বোধন করা উচিত?",
+                "hi": "क्या मुझे डॉक्टर को 'du' या '________' से संबोधित करना चाहिए?",
+                "ur": "کیا مجھے ڈاکٹر کو 'du' یا '________' سے خطاب کرنا چاہیے؟",
+                "tr": "Doktora 'du' mu yoksa '________' mi diye hitap etmeliyim?"
+            },
+            "correctAnswer": "Sie",
+            "explanation": {
+                "en": "In formal settings, you should use 'Sie'.",
+                "bn": "আনুষ্ঠানিক সেটিংসে, আপনার 'Sie' ব্যবহার করা উচিত।",
+                "hi": "औपचारिक सेटिंग्स में, आपको 'Sie' का उपयोग करना चाहिए।",
+                "ur": "رسمی ترتیبات میں، آپ کو 'Sie' استعمال کرنا چاہیے۔",
+                "tr": "Resmi ortamlarda 'Sie' kullanmalısınız."
+            },
+            "points": 10,
+            "id": "e01_09"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die ________ ist für die Patientenversorgung zuständig.",
+                "en": "The ________ is responsible for patient care.",
+                "bn": "________ রোগীর যত্নের জন্য দায়ী।",
+                "hi": "________ रोगी की देखभाल के लिए जिम्मेदार है।",
+                "ur": "________ مریض کی دیکھ بھال کے ذمہ دار ہیں۔",
+                "tr": "________ hasta bakımından sorumludur."
+            },
+            "correctAnswer": "Krankenschwester",
+            "explanation": {
+                "en": "'Krankenschwester' means 'nurse'.",
+                "bn": "'Krankenschwester' মানে 'নার্স'।",
+                "hi": "'Krankenschwester' का अर्थ है 'नर्स'।",
+                "ur": "'Krankenschwester' کا مطلب ہے 'نرس'۔",
+                "tr": "'Krankenschwester', 'hemşire' anlamına gelir."
+            },
+            "points": 10,
+            "id": "e01_10"
+        },
+        {
             "type": "multipleChoice",
             "question": {
-                "de": "Was ist 'die Visite' auf Englisch?",
-                "en": "What is 'die Visite' in English?",
-                "bn": "'die Visite' ইংরেজিতে কী?",
-                "hi": "'die Visite' अंग्रेजी में क्या है?",
-                "ur": "'die Visite' انگریزی میں کیا ہے؟",
-                "tr": "'die Visite' İngilizce'de nedir?"
+                "de": "Welche der folgenden Optionen ist eine informelle Begrüßung?",
+                "en": "Which of the following options is an informal greeting?",
+                "bn": "নিচের কোন অপশনটি একটি অনানুষ্ঠানিক অভিবাদন?",
+                "hi": "निम्नलिखित में से कौन सा विकल्प एक अनौपचारिक अभिवादन है?",
+                "ur": "درج ذیل میں سے کون سا آپشن ایک غیر رسمی سلام ہے؟",
+                "tr": "Aşağıdaki seçeneklerden hangisi gayri resmi bir selamlamadır?"
             },
             "options": [
-                "Ward round",
-                "Visitor",
-                "Vision test",
-                "Visit card"
+                "Guten Morgen",
+                "Guten Tag",
+                "Hallo",
+                "Sehr geehrte Frau Doktor"
             ],
-            "correctAnswer": "Ward round",
+            "correctAnswer": "Hallo",
             "explanation": {
-                "en": "'Die Visite' refers to the ward round, when doctors visit patients on the ward to review their condition and treatment.",
-                "bn": "'Die Visite' ওয়ার্ড রাউন্ডকে বোঝায়, যখন ডাক্তাররা রোগীদের দেখতে যান।",
-                "hi": "'Die Visite' वार्ड राउंड को संदर्भित करता है, जब डॉक्टर मरीजों से मिलने जाते हैं।",
-                "ur": "'Die Visite' وارڈ راؤنڈ کی طرف اشارہ کرتا ہے، جب ڈاکٹر مریضوں سے ملنے جاتے ہیں۔",
-                "tr": "'Die Visite', doktorların hastaları ziyaret ettiği vizit turunu ifade eder."
+                "en": "'Hallo' is a common informal greeting.",
+                "bn": "'Hallo' একটি সাধারণ অনানুষ্ঠানিক অভিবাদন।",
+                "hi": "'Hallo' एक सामान्य अनौपचारिक अभिवादन है।",
+                "ur": "'Hallo' ایک عام غیر رسمی سلام ہے۔",
+                "tr": "'Hallo', yaygın bir gayri resmi selamlamadır."
             },
-            "points": 10
+            "points": 10,
+            "id": "e01_11"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Guten Abend, Herr Professor!",
+                "en": "Good evening, Mr. Professor!",
+                "bn": "শুভ সন্ধ্যা, অধ্যাপক মহাশয়!",
+                "hi": "शुभ संध्या, प्रोफेसर महोदय!",
+                "ur": "شب بخیر، پروفیسر صاحب!",
+                "tr": "İyi akşamlar, Profesör Bey!"
+            },
+            "correctAnswer": "Good evening, Mr. Professor!",
+            "explanation": {
+                "en": "Direct translation.",
+                "bn": "সরাসরি অনুবাদ।",
+                "hi": "सीधा अनुवाद।",
+                "ur": "براہ راست ترجمہ۔",
+                "tr": "Doğrudan çeviri."
+            },
+            "points": 10,
+            "id": "e01_12"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Darf ich Sie mit 'du' anreden?",
+                "en": "May I address you with 'du'?",
+                "bn": "আমি কি আপনাকে 'du' বলে সম্বোধন করতে পারি?",
+                "hi": "क्या मैं आपको 'du' से संबोधित कर सकता हूँ?",
+                "ur": "کیا میں آپ کو 'du' سے مخاطب کر سکتا ہوں؟",
+                "tr": "Size 'du' diye hitap edebilir miyim?"
+            },
+            "correctAnswer": "May I address you with 'du'?",
+            "explanation": {
+                "en": "Direct translation.",
+                "bn": "সরাসরি অনুবাদ।",
+                "hi": "सीधा अनुवाद।",
+                "ur": "براہ راست ترجمہ۔",
+                "tr": "Doğrudan çeviri."
+            },
+            "points": 10,
+            "id": "e01_13"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Sie sind der Chefarzt, richtig?",
+                "en": "You are the head physician, right?",
+                "bn": "আপনি প্রধান চিকিৎসক, তাই তো?",
+                "hi": "आप मुख्य चिकित्सक हैं, है ना?",
+                "ur": "آپ سربراہ معالج ہیں، ہے نا؟",
+                "tr": "Siz başhekimsiniz, değil mi?"
+            },
+            "correctAnswer": "You are the head physician, right?",
+            "explanation": {
+                "en": "Direct translation.",
+                "bn": "সরাসরি অনুবাদ।",
+                "hi": "सीधा अनुवाद।",
+                "ur": "براہ راست ترجمہ۔",
+                "tr": "Doğrudan çeviri."
+            },
+            "points": 10,
+            "id": "e01_14"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welcher Titel ist höher: Oberarzt oder Assistenzarzt?",
+                "en": "Which title is higher: Oberarzt or Assistenzarzt?",
+                "bn": "কোন শিরোনামটি বেশি: ওবারারজ্ট নাকি অ্যাসিস্টেনজারজ্ট?",
+                "hi": "कौन सा शीर्षक अधिक है: ओबरर्ज़्ट या असिस्टेंज़रज़्ट?",
+                "ur": "کون سا عنوان زیادہ ہے: اوبرارزٹ یا اسسٹینزارزٹ؟",
+                "tr": "Hangi unvan daha yüksek: Oberarzt mı yoksa Assistenzarzt mı?"
+            },
+            "options": [
+                "Assistenzarzt",
+                "Beide sind gleich",
+                "Oberarzt",
+                "Hängt von der Klinik ab."
+            ],
+            "correctAnswer": "Oberarzt",
+            "explanation": {
+                "en": "Oberarzt is a senior physician, thus higher in rank.",
+                "bn": "ওবারারজ্ট একজন সিনিয়র ফিজিশিয়ান, তাই পদমর্যাদায় উচ্চতর।",
+                "hi": "ओबरर्ज़्ट एक वरिष्ठ चिकित्सक हैं, इसलिए पद में उच्च हैं।",
+                "ur": "اوبرارزٹ ایک سینئر فزیشن ہیں، اس لیے عہدے میں اعلیٰ ہیں۔",
+                "tr": "Oberarzt kıdemli bir doktordur, bu nedenle rütbesi daha yüksektir."
+            },
+            "points": 10,
+            "id": "e01_15"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wenn man sich lange kennt, kann man...?",
+                "en": "If you have known each other for a long time, can you...?",
+                "bn": "যদি আপনি দীর্ঘকাল ধরে একে অপরকে চেনেন, তাহলে আপনি...?",
+                "hi": "यदि आप एक दूसरे को लंबे समय से जानते हैं, तो क्या आप...?",
+                "ur": "اگر آپ ایک دوسرے کو طویل عرصے سے جانتے ہیں، تو کیا آپ...؟",
+                "tr": "Uzun zamandır birbirinizi tanıyorsanız...?"
+            },
+            "options": [
+                "Immer 'Sie' sagen.",
+                "Immer 'du' sagen.",
+                "Formell bleiben.",
+                "Auf 'du' umsteigen."
+            ],
+            "correctAnswer": "Auf 'du' umsteigen.",
+            "explanation": {
+                "en": "Switch to 'du' (informal 'you') after mutual agreement.",
+                "bn": "পারস্পরিক সম্মতিতে 'du' (অআনুষ্ঠানিক 'আপনি') ব্যবহার করতে পারেন।",
+                "hi": "आपसी सहमति के बाद 'du' (अनौपचारिक 'आप') पर स्विच कर सकते हैं।",
+                "ur": "باہمی رضامندی کے بعد 'du' (غیر رسمی 'آپ') پر سوئچ کر سکتے ہیں۔",
+                "tr": "Karşılıklı anlaşmadan sonra 'du'ya (gayri resmi 'sen') geçebilirsiniz."
+            },
+            "points": 10,
+            "id": "e01_16"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Ein Assistenzarzt ist...",
+                "en": "An Assistenzarzt is a...",
+                "bn": "একজন অ্যাসিস্টেনজারজ্ট একজন...",
+                "hi": "एक असिस्टेंज़रज़्ट एक...",
+                "ur": "ایک اسسٹینزرٹ ایک...",
+                "tr": "Bir Assistenzarzt bir..."
+            },
+            "options": [
+                "Der Chefarzt",
+                "Ein Auszubildender Arzt",
+                "Ein Oberarzt",
+                "Ein Krankenpfleger"
+            ],
+            "correctAnswer": "Ein Auszubildender Arzt",
+            "explanation": {
+                "en": "An Assistenzarzt is a doctor in training.",
+                "bn": "একজন অ্যাসিস্টেনজারজ্ট একজন প্রশিক্ষণরত ডাক্তার।",
+                "hi": "एक असिस्टेंज़रज़्ट एक प्रशिक्षणरत डॉक्टर हैं।",
+                "ur": "ایک اسسٹینزرٹ ایک تربیت یافتہ ڈاکٹر ہیں۔",
+                "tr": "Bir Assistenzarzt, eğitim gören bir doktordur."
+            },
+            "points": 10,
+            "id": "e01_17"
         }
     ],
     "media": {

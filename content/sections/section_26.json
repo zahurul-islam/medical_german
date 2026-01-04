@@ -1,12 +1,1557 @@
-{"id":"section_26","phaseId":"phase2","order":26,"titleDe":"Chirurgie-Grundlagen","title":{"en":"Surgery Basics","bn":"সার্জারি বেসিক","hi":"सर्जरी मूल बातें","ur":"سرجری کی بنیادی باتیں","tr":"Cerrahi Temelleri"},"level":"B2","estimatedMinutes":40,"vocabulary":[
-{"id":"v26_01","germanTerm":"Operation","article":"die","plural":"Operationen","translation":{"en":"Surgery/Operation","bn":"অপারেশন","hi":"ऑपरेशन","ur":"آپریشن","tr":"Ameliyat"}},
-{"id":"v26_02","germanTerm":"präoperativ","article":"-","plural":"-","translation":{"en":"Preoperative","bn":"অপারেশনের আগে","hi":"प्रीऑपरेटिव","ur":"آپریشن سے پہلے","tr":"Ameliyat öncesi"}},
-{"id":"v26_03","germanTerm":"postoperativ","article":"-","plural":"-","translation":{"en":"Postoperative","bn":"অপারেশনের পরে","hi":"पोस्टऑपरेटिव","ur":"آپریشن کے بعد","tr":"Ameliyat sonrası"}},
-{"id":"v26_04","germanTerm":"Wunde","article":"die","plural":"Wunden","translation":{"en":"Wound","bn":"ক্ষত","hi":"घाव","ur":"زخم","tr":"Yara"}},
-{"id":"v26_05","germanTerm":"Naht","article":"die","plural":"Nähte","translation":{"en":"Suture","bn":"সেলাই","hi":"टांके","ur":"ٹانکے","tr":"Dikiş"}},
-{"id":"v26_06","germanTerm":"Drainage","article":"die","plural":"Drainagen","translation":{"en":"Drain","bn":"ড্রেইন","hi":"ड्रेन","ur":"ڈرین","tr":"Dren"}},
-{"id":"v26_07","germanTerm":"Narkose","article":"die","plural":"Narkosen","translation":{"en":"Anesthesia","bn":"অ্যানেস্থেসিয়া","hi":"एनेस्थीसिया","ur":"بے ہوشی کی دوا","tr":"Anestezi"}}
-],"dialogues":[{"id":"d26_01","title":{"en":"Pre-op Discussion"},"lines":[
-{"speaker":"Arzt","germanText":"Die Operation findet morgen früh statt.","translation":{"en":"The surgery will take place tomorrow morning."}},
-{"speaker":"Patient","germanText":"Welche Risiken gibt es?","translation":{"en":"What risks are there?"}}
-]}],"exercises":[{"id":"e26_01","type":"multipleChoice","question":{"en":"What does 'präoperativ' mean?"},"options":["Preoperative","Postoperative","During surgery"],"correctAnswer":"Preoperative","points":10}],"media":{"introVideoUrl":"video/sections/section_26/intro.mp4"}}
+{
+    "id": "section_26",
+    "phaseId": "phase2",
+    "order": 26,
+    "titleDe": "Chirurgie-Grundlagen",
+    "title": {
+        "en": "Surgery Basics",
+        "bn": "[Surgery Basics_BN]",
+        "hi": "[Surgery Basics_HI]",
+        "ur": "[Surgery Basics_UR]",
+        "tr": "[Surgery Basics_TR]"
+    },
+    "description": {
+        "en": "Learn essential pre-operative, post-operative care, wound management vocabulary and phrases for medical professionals.",
+        "bn": "[DESCRIPTION_BN]",
+        "hi": "[DESCRIPTION_HI]",
+        "ur": "[DESCRIPTION_UR]",
+        "tr": "[DESCRIPTION_TR]"
+    },
+    "level": "B2",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "[INTRODUCTION about pre-operative, post-operative care, wound management]",
+            "bn": "[INTRODUCTION_BN]",
+            "hi": "[INTRODUCTION_HI]",
+            "ur": "[INTRODUCTION_UR]",
+            "tr": "[INTRODUCTION_TR]"
+        },
+        "grammarFocus": {
+            "en": "[GRAMMAR_FOCUS_EN]",
+            "bn": "[GRAMMAR_FOCUS_BN]",
+            "hi": "[GRAMMAR_FOCUS_HI]",
+            "ur": "[GRAMMAR_FOCUS_UR]",
+            "tr": "[GRAMMAR_FOCUS_TR]"
+        },
+        "culturalNotes": {
+            "en": "[CULTURAL_NOTES_EN]",
+            "bn": "[CULTURAL_NOTES_BN]",
+            "hi": "[CULTURAL_NOTES_HI]",
+            "ur": "[CULTURAL_NOTES_UR]",
+            "tr": "[CULTURAL_NOTES_TR]"
+        },
+        "summary": {
+            "en": "[SUMMARY_EN]",
+            "bn": "[SUMMARY_BN]",
+            "hi": "[SUMMARY_HI]",
+            "ur": "[SUMMARY_UR]",
+            "tr": "[SUMMARY_TR]"
+        },
+        "learningObjectives": [
+            "Master key vocabulary for pre-operative, post-operative care, wound management",
+            "Apply terms in realistic hospital dialogues",
+            "Practice with FSP-style exercises",
+            "Build confidence in medical German communication"
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "Operation",
+            "article": "die",
+            "plural": "Operationen",
+            "pronunciation": "/ˌɔpəˈʁaːt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "operation, surgery",
+                "bn": "অপারেশন, সার্জারি",
+                "hi": "ऑपरेशन, सर्जरी",
+                "ur": "آپریشن, سرجری",
+                "tr": "ameliyat"
+            },
+            "exampleSentence": "Die Operation verlief erfolgreich.",
+            "exampleTranslation": {
+                "en": "The operation was successful.",
+                "bn": "অপারেশন সফল হয়েছে।",
+                "hi": "ऑपरेशन सफल रहा।",
+                "ur": "آپریشن کامیاب رہا۔",
+                "tr": "Ameliyat başarılı geçti."
+            },
+            "id": "v26_01"
+        },
+        {
+            "germanTerm": "präoperativ",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/pʁɛˈʔɔpəʁaˌtiːf/",
+            "category": "adjective",
+            "translation": {
+                "en": "preoperative",
+                "bn": "প্রিঅপারেটিভ",
+                "hi": "प्रीऑपरेटिव",
+                "ur": "قبل از آپریشن",
+                "tr": "preoperatif"
+            },
+            "exampleSentence": "Die präoperative Untersuchung ist notwendig.",
+            "exampleTranslation": {
+                "en": "The preoperative examination is necessary.",
+                "bn": "প্রিঅপারেটিভ পরীক্ষা প্রয়োজনীয়।",
+                "hi": "प्रीऑपरेटिव जांच आवश्यक है।",
+                "ur": "آپریشن سے پہلے کی جانچ ضروری ہے۔",
+                "tr": "Preoperatif muayene gereklidir."
+            },
+            "id": "v26_02"
+        },
+        {
+            "germanTerm": "postoperativ",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/pɔstʔɔpəʁaˈtiːf/",
+            "category": "adjective",
+            "translation": {
+                "en": "postoperative",
+                "bn": "পোস্টঅপারেটিভ",
+                "hi": "पोस्टऑपरेटिव",
+                "ur": "بعد از آپریشن",
+                "tr": "postoperatif"
+            },
+            "exampleSentence": "Die postoperative Schmerztherapie ist wichtig.",
+            "exampleTranslation": {
+                "en": "Postoperative pain management is important.",
+                "bn": "পোস্টঅপারেটিভ ব্যথা ব্যবস্থাপনা গুরুত্বপূর্ণ।",
+                "hi": "पोस्टऑपरेटिव दर्द प्रबंधन महत्वपूर्ण है।",
+                "ur": "آپریشن کے بعد درد کا انتظام ضروری ہے۔",
+                "tr": "Postoperatif ağrı yönetimi önemlidir."
+            },
+            "id": "v26_03"
+        },
+        {
+            "germanTerm": "Wundversorgung",
+            "article": "die",
+            "plural": "Wundversorgungen",
+            "pronunciation": "/ˈvʊntfɛɐ̯ˌzɔʁɡʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "wound care",
+                "bn": "ক্ষত পরিচর্যা",
+                "hi": "घाव की देखभाल",
+                "ur": "زخم کی دیکھ بھال",
+                "tr": "yara bakımı"
+            },
+            "exampleSentence": "Die Wundversorgung erfolgt täglich.",
+            "exampleTranslation": {
+                "en": "The wound care is done daily.",
+                "bn": "ক্ষত পরিচর্যা প্রতিদিন করা হয়।",
+                "hi": "घाव की देखभाल रोजाना की जाती है।",
+                "ur": "زخم کی دیکھ بھال روزانہ کی جاتی ہے۔",
+                "tr": "Yara bakımı günlük olarak yapılır."
+            },
+            "id": "v26_04"
+        },
+        {
+            "germanTerm": "Naht",
+            "article": "die",
+            "plural": "Nähte",
+            "pronunciation": "/naːt/",
+            "category": "noun",
+            "translation": {
+                "en": "suture, stitch",
+                "bn": "সেলাই",
+                "hi": "टांका",
+                "ur": "سلائی",
+                "tr": "dikiş"
+            },
+            "exampleSentence": "Die Naht muss entfernt werden.",
+            "exampleTranslation": {
+                "en": "The suture must be removed.",
+                "bn": "সেলাই অপসারণ করতে হবে।",
+                "hi": "टांका निकालना होगा।",
+                "ur": "سلائی ہٹانی ہوگی۔",
+                "tr": "Dikiş alınmalıdır."
+            },
+            "id": "v26_05"
+        },
+        {
+            "germanTerm": "Drainage",
+            "article": "die",
+            "plural": "Drainagen",
+            "pronunciation": "/dʁɛˈnaːʒə/",
+            "category": "noun",
+            "translation": {
+                "en": "drainage",
+                "bn": "নিকাশী",
+                "hi": "निकास",
+                "ur": "نکاسی آب",
+                "tr": "drenaj"
+            },
+            "exampleSentence": "Die Drainage wird überwacht.",
+            "exampleTranslation": {
+                "en": "The drainage is being monitored.",
+                "bn": "নিকাশী পর্যবেক্ষণ করা হচ্ছে।",
+                "hi": "निकास की निगरानी की जा रही है।",
+                "ur": "نکاسی آب کی نگرانی کی جا رہی ہے۔",
+                "tr": "Drenaj izleniyor."
+            },
+            "id": "v26_06"
+        },
+        {
+            "germanTerm": "Verband",
+            "article": "der",
+            "plural": "Verbände",
+            "pronunciation": "/fɛɐ̯ˈbant/",
+            "category": "noun",
+            "translation": {
+                "en": "bandage, dressing",
+                "bn": "ব্যান্ডেজ",
+                "hi": "पट्टी",
+                "ur": "پٹی",
+                "tr": "bandaj"
+            },
+            "exampleSentence": "Der Verband muss gewechselt werden.",
+            "exampleTranslation": {
+                "en": "The bandage needs to be changed.",
+                "bn": "ব্যান্ডেজ পরিবর্তন করতে হবে।",
+                "hi": "पट्टी बदलने की जरूरत है।",
+                "ur": "پٹی بدلنی ہوگی۔",
+                "tr": "Bandajın değiştirilmesi gerekiyor."
+            },
+            "id": "v26_07"
+        },
+        {
+            "germanTerm": "Skalpell",
+            "article": "das",
+            "plural": "Skalpelle",
+            "pronunciation": "/skalˈpɛl/",
+            "category": "noun",
+            "translation": {
+                "en": "scalpel",
+                "bn": "সার্জিক্যাল ছুরি",
+                "hi": "सर्जिकल छुरी",
+                "ur": "استرا",
+                "tr": "neşter"
+            },
+            "exampleSentence": "Bitte reichen Sie mir das Skalpell.",
+            "exampleTranslation": {
+                "en": "Please hand me the scalpel.",
+                "bn": "অনুগ্রহ করে আমাকে সার্জিক্যাল ছুরি দিন।",
+                "hi": "कृपया मुझे सर्जिकल छुरी दे दीजिए।",
+                "ur": "براہ کرم مجھے استرا دیں۔",
+                "tr": "Lütfen neşteri uzatır mısınız?"
+            },
+            "id": "v26_08"
+        },
+        {
+            "germanTerm": "Narkose",
+            "article": "die",
+            "plural": "Narkosen",
+            "pronunciation": "/naʁˈkoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "anesthesia",
+                "bn": "অ্যানেস্থেসিয়া",
+                "hi": "एनेस्थीसिया",
+                "ur": "بے ہوشی",
+                "tr": "anestezi"
+            },
+            "exampleSentence": "Der Patient wird in Narkose versetzt.",
+            "exampleTranslation": {
+                "en": "The patient is being put under anesthesia.",
+                "bn": "রোগীকে অ্যানেস্থেসিয়া দেওয়া হচ্ছে।",
+                "hi": "रोगी को एनेस्थीसिया दिया जा रहा है।",
+                "ur": "مریض کو بے ہوش کیا جا رہا ہے۔",
+                "tr": "Hastaya anestezi uygulanıyor."
+            },
+            "id": "v26_09"
+        },
+        {
+            "germanTerm": "OP-Saal",
+            "article": "der",
+            "plural": "OP-Säle",
+            "pronunciation": "/oːˈpeːˌzaːl/",
+            "category": "noun",
+            "translation": {
+                "en": "operating room",
+                "bn": "অপারেশন কক্ষ",
+                "hi": "ऑपरेशन कक्ष",
+                "ur": "آپریشن تھیٹر",
+                "tr": "ameliyathane"
+            },
+            "exampleSentence": "Der Patient wird in den OP-Saal gebracht.",
+            "exampleTranslation": {
+                "en": "The patient is being taken to the operating room.",
+                "bn": "রোগীকে অপারেশন কক্ষে নিয়ে যাওয়া হচ্ছে।",
+                "hi": "रोगी को ऑपरेशन कक्ष में ले जाया जा रहा है।",
+                "ur": "مریض کو آپریشن تھیٹر میں لے جایا جا رہا ہے۔",
+                "tr": "Hasta ameliyathaneye götürülüyor."
+            },
+            "id": "v26_10"
+        },
+        {
+            "germanTerm": "Instrument",
+            "article": "das",
+            "plural": "Instrumente",
+            "pronunciation": "/ɪnstruˈmɛnt/",
+            "category": "noun",
+            "translation": {
+                "en": "instrument",
+                "bn": "যন্ত্র",
+                "hi": "उपकरण",
+                "ur": "آلہ",
+                "tr": "alet"
+            },
+            "exampleSentence": "Alle Instrumente müssen steril sein.",
+            "exampleTranslation": {
+                "en": "All instruments must be sterile.",
+                "bn": "সমস্ত যন্ত্র জীবাণুমুক্ত হতে হবে।",
+                "hi": "सभी उपकरण बाँझ होने चाहिए।",
+                "ur": "تمام آلات جراثیم سے پاک ہونے چاہئیں۔",
+                "tr": "Tüm aletler steril olmalıdır."
+            },
+            "id": "v26_11"
+        },
+        {
+            "germanTerm": "Abszess",
+            "article": "der",
+            "plural": "Abszesse",
+            "pronunciation": "/apˈsɛs/",
+            "category": "noun",
+            "translation": {
+                "en": "abscess",
+                "bn": "ফোঁড়া",
+                "hi": "फोड़ा",
+                "ur": "پھوڑا",
+                "tr": "apse"
+            },
+            "exampleSentence": "Der Abszess muss drainiert werden.",
+            "exampleTranslation": {
+                "en": "The abscess needs to be drained.",
+                "bn": "ফোঁড়া নিষ্কাশন করা দরকার।",
+                "hi": "फोड़े को निकालना होगा।",
+                "ur": "پھوڑے کو نکالنے کی ضرورت ہے۔",
+                "tr": "Apsenin boşaltılması gerekiyor."
+            },
+            "id": "v26_12"
+        },
+        {
+            "germanTerm": "Blutung",
+            "article": "die",
+            "plural": "Blutungen",
+            "pronunciation": "/ˈbluːtʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "bleeding",
+                "bn": "রক্তপাত",
+                "hi": "खून बहना",
+                "ur": "خون بہنا",
+                "tr": "kanama"
+            },
+            "exampleSentence": "Die Blutung muss gestillt werden.",
+            "exampleTranslation": {
+                "en": "The bleeding must be stopped.",
+                "bn": "রক্তপাত বন্ধ করতে হবে।",
+                "hi": "खून बहना रोकना होगा।",
+                "ur": "خون بہنا روکنا ہوگا۔",
+                "tr": "Kanamanın durdurulması gerekiyor."
+            },
+            "id": "v26_13"
+        },
+        {
+            "germanTerm": "Infektion",
+            "article": "die",
+            "plural": "Infektionen",
+            "pronunciation": "/ɪnfɛkˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "infection",
+                "bn": "সংক্রমণ",
+                "hi": "संक्रमण",
+                "ur": "انفیکشن",
+                "tr": "enfeksiyon"
+            },
+            "exampleSentence": "Eine Infektion muss verhindert werden.",
+            "exampleTranslation": {
+                "en": "An infection must be prevented.",
+                "bn": "সংক্রমণ প্রতিরোধ করতে হবে।",
+                "hi": "संक्रमण को रोकना होगा।",
+                "ur": "انفیکشن سے بچنا ہوگا۔",
+                "tr": "Enfeksiyon önlenmelidir."
+            },
+            "id": "v26_14"
+        },
+        {
+            "germanTerm": "Sterilisation",
+            "article": "die",
+            "plural": "Sterilisationen",
+            "pronunciation": "/ˌʃteːʁili̯zaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "sterilization",
+                "bn": "জীবাণুমুক্তকরণ",
+                "hi": "नसबंदी",
+                "ur": "نس بندی",
+                "tr": "sterilizasyon"
+            },
+            "exampleSentence": "Die Sterilisation der Instrumente ist wichtig.",
+            "exampleTranslation": {
+                "en": "Sterilization of the instruments is important.",
+                "bn": "যন্ত্রের জীবাণুমুক্তকরণ গুরুত্বপূর্ণ।",
+                "hi": "उपकरणों की नसबंदी महत्वपूर्ण है।",
+                "ur": "آلات کی نسبندی اہم ہے۔",
+                "tr": "Aletlerin sterilizasyonu önemlidir."
+            },
+            "id": "v26_15"
+        },
+        {
+            "germanTerm": "Anästhesist",
+            "article": "der/die",
+            "plural": "Anästhesisten",
+            "pronunciation": "/anɛsˈteːzɪst/",
+            "category": "noun",
+            "translation": {
+                "en": "anesthesiologist",
+                "bn": "অ্যানেস্থেসিওলজিস্ট",
+                "hi": "एनेस्थेसियोलॉजिस्ट",
+                "ur": "ماہر بے ہوشی",
+                "tr": "anestezist"
+            },
+            "exampleSentence": "Der Anästhesist überwacht den Patienten.",
+            "exampleTranslation": {
+                "en": "The anesthesiologist monitors the patient.",
+                "bn": "অ্যানেস্থেসিওলজিস্ট রোগীকে পর্যবেক্ষণ করেন।",
+                "hi": "एनेस्थेसियोलॉजिस्ट रोगी की निगरानी करते हैं।",
+                "ur": "ماہر بے ہوشی مریض کی نگرانی کرتے ہیں۔",
+                "tr": "Anestezist hastayı izler."
+            },
+            "id": "v26_16"
+        },
+        {
+            "germanTerm": "chirurgisch",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/kɪˈʁʊʁɡɪʃ/",
+            "category": "adjective",
+            "translation": {
+                "en": "surgical",
+                "bn": "সার্জিক্যাল",
+                "hi": "सर्जिकल",
+                "ur": "جراحی",
+                "tr": "cerrahi"
+            },
+            "exampleSentence": "Die chirurgische Intervention ist notwendig.",
+            "exampleTranslation": {
+                "en": "Surgical intervention is necessary.",
+                "bn": "সার্জিক্যাল হস্তক্ষেপ প্রয়োজনীয়।",
+                "hi": "सर्जिकल हस्तक्षेप आवश्यक है।",
+                "ur": "جراحی مداخلت ضروری ہے۔",
+                "tr": "Cerrahi müdahale gereklidir."
+            },
+            "id": "v26_17"
+        },
+        {
+            "germanTerm": "Resektion",
+            "article": "die",
+            "plural": "Resektionen",
+            "pronunciation": "/ʁezɛkˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "resection",
+                "bn": "ছেদন",
+                "hi": "उच्छेदन",
+                "ur": "کٹاؤ",
+                "tr": "rezeksiyon"
+            },
+            "exampleSentence": "Die Resektion des Tumors war erfolgreich.",
+            "exampleTranslation": {
+                "en": "The resection of the tumor was successful.",
+                "bn": "টিউমার ছেদন সফল হয়েছে।",
+                "hi": "ट्यूमर का उच्छेदन सफल रहा।",
+                "ur": "ٹیومر کا کٹاؤ کامیاب رہا۔",
+                "tr": "Tümörün rezeksiyonu başarılı oldu."
+            },
+            "id": "v26_18"
+        },
+        {
+            "germanTerm": "Inzision",
+            "article": "die",
+            "plural": "Inzisionen",
+            "pronunciation": "/ɪnt͡siˈzi̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "incision",
+                "bn": "ছেদন",
+                "hi": "चीरा",
+                "ur": "چیرا",
+                "tr": "kesi"
+            },
+            "exampleSentence": "Die Inzision wurde mit einem Skalpell durchgeführt.",
+            "exampleTranslation": {
+                "en": "The incision was performed with a scalpel.",
+                "bn": "ছেদন একটি সার্জিক্যাল ছুরি দিয়ে করা হয়েছিল।",
+                "hi": "चीरा सर्जिकल छुरी से किया गया था।",
+                "ur": "چیرا استرا سے لگایا گیا تھا۔",
+                "tr": "Kesi neşter ile yapıldı."
+            },
+            "id": "v26_19"
+        },
+        {
+            "germanTerm": "Hauttransplantation",
+            "article": "die",
+            "plural": "Hauttransplantationen",
+            "pronunciation": "/ˈhaʊ̯tˌtʁansplantaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "skin graft",
+                "bn": "ত্বকের গ্রাফটিং",
+                "hi": "त्वचा ग्राफ्ट",
+                "ur": "جلد کی پیوند کاری",
+                "tr": "cilt grefti"
+            },
+            "exampleSentence": "Eine Hauttransplantation war notwendig.",
+            "exampleTranslation": {
+                "en": "A skin graft was necessary.",
+                "bn": "ত্বকের গ্রাফটিং দরকার ছিল।",
+                "hi": "त्वचा ग्राफ्ट आवश्यक था।",
+                "ur": "جلد کی پیوند کاری ضروری تھی۔",
+                "tr": "Cilt grefti gerekliydi."
+            },
+            "id": "v26_20"
+        },
+        {
+            "germanTerm": "Verwachsung",
+            "article": "die",
+            "plural": "Verwachsungen",
+            "pronunciation": "/fɛɐ̯ˈvaksʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "adhesion",
+                "bn": "সংযুক্তি",
+                "hi": "आसंजन",
+                "ur": "چپکنا",
+                "tr": "yapışıklık"
+            },
+            "exampleSentence": "Es wurden Verwachsungen gelöst.",
+            "exampleTranslation": {
+                "en": "Adhesions were released.",
+                "bn": "সংযুক্তি মুক্ত করা হয়েছে।",
+                "hi": "आसंजन जारी किए गए।",
+                "ur": "چپکنے کو جاری کیا گیا ہے۔",
+                "tr": "Yapışıklıklar serbest bırakıldı."
+            },
+            "id": "v26_21"
+        },
+        {
+            "germanTerm": "Komplikation",
+            "article": "die",
+            "plural": "Komplikationen",
+            "pronunciation": "/kɔmplikaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "complication",
+                "bn": "জটিলতা",
+                "hi": "जटिलता",
+                "ur": "پیچیدگی",
+                "tr": "komplikasyon"
+            },
+            "exampleSentence": "Es gab keine Komplikationen während der Operation.",
+            "exampleTranslation": {
+                "en": "There were no complications during the operation.",
+                "bn": "অপারেশনের সময় কোনও জটিলতা ছিল না।",
+                "hi": "ऑपरेशन के दौरान कोई जटिलता नहीं थी।",
+                "ur": "آپریشن کے دوران کوئی پیچیدگی نہیں تھی۔",
+                "tr": "Ameliyat sırasında herhangi bir komplikasyon olmadı."
+            },
+            "id": "v26_22"
+        },
+        {
+            "germanTerm": "Operationsbericht",
+            "article": "der",
+            "plural": "Operationsberichte",
+            "pronunciation": "/ɔpəˈʁaːt͡si̯oːnsbəˌʁɪçt/",
+            "category": "noun",
+            "translation": {
+                "en": "operative report",
+                "bn": "অপারেশন প্রতিবেদন",
+                "hi": "ऑपरेटिव रिपोर्ट",
+                "ur": "آپریٹو رپورٹ",
+                "tr": "ameliyat raporu"
+            },
+            "exampleSentence": "Der Operationsbericht muss vollständig ausgefüllt werden.",
+            "exampleTranslation": {
+                "en": "The operative report must be completely filled out.",
+                "bn": "অপারেশন প্রতিবেদনটি সম্পূর্ণরূপে পূরণ করতে হবে।",
+                "hi": "ऑपरेटिव रिपोर्ट पूरी तरह से भरी जानी चाहिए।",
+                "ur": "آپریٹو رپورٹ مکمل طور پر پُر کی جانی چاہیے۔",
+                "tr": "Ameliyat raporu tamamen doldurulmalıdır."
+            },
+            "id": "v26_23"
+        },
+        {
+            "germanTerm": "Schmerzmittel",
+            "article": "das",
+            "plural": "Schmerzmittel",
+            "pronunciation": "/ˈʃmɛʁt͡sˌmɪtəl/",
+            "category": "noun",
+            "translation": {
+                "en": "painkiller, analgesic",
+                "bn": "ব্যথানাশক",
+                "hi": "दर्द निवारक",
+                "ur": "درد کم کرنے والی دوا",
+                "tr": "ağrı kesici"
+            },
+            "exampleSentence": "Der Patient erhält Schmerzmittel nach der Operation.",
+            "exampleTranslation": {
+                "en": "The patient receives painkillers after the operation.",
+                "bn": "অপারেশনের পরে রোগীকে ব্যথানাশক ওষুধ দেওয়া হয়।",
+                "hi": "ऑपरेशन के बाद रोगी को दर्द निवारक दवा दी जाती है।",
+                "ur": "آپریشن کے بعد مریض کو درد کم کرنے والی دوا دی جاتی ہے۔",
+                "tr": "Hasta ameliyattan sonra ağrı kesici alır."
+            },
+            "id": "v26_24"
+        },
+        {
+            "germanTerm": "Narbenbildung",
+            "article": "die",
+            "plural": null,
+            "pronunciation": "/ˈnaʁbn̩ˌbɪldʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "scarring",
+                "bn": "স্কার গঠন",
+                "hi": "निशान बनना",
+                "ur": "داغ بننا",
+                "tr": "yara izi oluşumu"
+            },
+            "exampleSentence": "Die Narbenbildung ist minimal.",
+            "exampleTranslation": {
+                "en": "The scarring is minimal.",
+                "bn": "স্কার গঠন সর্বনিম্ন।",
+                "hi": "निशान बनना कम से कम है।",
+                "ur": "داغ بننا کم سے کم ہے۔",
+                "tr": "Yara izi oluşumu minimaldir."
+            },
+            "id": "v26_25"
+        },
+        {
+            "germanTerm": "Wundheilung",
+            "article": "die",
+            "plural": null,
+            "pronunciation": "/ˈvʊntˌhaɪ̯lʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "wound healing",
+                "bn": "ক্ষত নিরাময়",
+                "hi": "घाव भरना",
+                "ur": "زخم کا بھرنا",
+                "tr": "yara iyileşmesi"
+            },
+            "exampleSentence": "Die Wundheilung verläuft gut.",
+            "exampleTranslation": {
+                "en": "The wound healing is progressing well.",
+                "bn": "ক্ষত নিরাময় ভাল চলছে।",
+                "hi": "घाव भरना अच्छी तरह से चल रहा है।",
+                "ur": "زخم کا بھرنا اچھی طرح سے جاری ہے۔",
+                "tr": "Yara iyileşmesi iyi gidiyor."
+            },
+            "id": "v26_26"
+        },
+        {
+            "germanTerm": "Fremdkörper",
+            "article": "der",
+            "plural": "Fremdkörper",
+            "pronunciation": "/ˈfʁɛmtˌkœʁpɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "foreign body",
+                "bn": "বিদেশী বস্তু",
+                "hi": "विदेशी निकाय",
+                "ur": "بیرونی جسم",
+                "tr": "yabancı cisim"
+            },
+            "exampleSentence": "Der Fremdkörper muss entfernt werden.",
+            "exampleTranslation": {
+                "en": "The foreign body must be removed.",
+                "bn": "বিদেশী বস্তুটি অপসারণ করতে হবে।",
+                "hi": "विदेशी निकाय को हटाना होगा।",
+                "ur": "بیرونی جسم کو ہٹانا ہوگا۔",
+                "tr": "Yabancı cisim çıkarılmalıdır."
+            },
+            "id": "v26_27"
+        },
+        {
+            "germanTerm": "OP-Vorbereitung",
+            "article": "die",
+            "plural": "OP-Vorbereitungen",
+            "pronunciation": "/ˈoːpeːˌfoːɐ̯bəˌʁaɪ̯tʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "surgical preparation",
+                "bn": "সার্জিক্যাল প্রস্তুতি",
+                "hi": "सर्जिकल तैयारी",
+                "ur": "جراحی کی تیاری",
+                "tr": "ameliyat hazırlığı"
+            },
+            "exampleSentence": "Die OP-Vorbereitung ist abgeschlossen.",
+            "exampleTranslation": {
+                "en": "The surgical preparation is complete.",
+                "bn": "সার্জিক্যাল প্রস্তুতি সম্পন্ন হয়েছে।",
+                "hi": "सर्जिकल तैयारी पूरी हो चुकी है।",
+                "ur": "جراحی کی تیاری مکمل ہو چکی ہے۔",
+                "tr": "Ameliyat hazırlığı tamamlandı."
+            },
+            "id": "v26_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Pre-operative Explanation",
+                "bn": "প্রাক-অপারেটিভ ব্যাখ্যা",
+                "hi": "पूर्व-ऑपरेटिव स्पष्टीकरण",
+                "ur": "قبل از آپریشن وضاحت",
+                "tr": "Ameliyat Öncesi Açıklama"
+            },
+            "context": {
+                "en": "Dr. Schmidt explains the surgery to Patient Müller pre-operatively.",
+                "bn": "ডাক্তার শ্মিট রোগী মুলারকে অস্ত্রোপচারের আগে ব্যাখ্যা করছেন।",
+                "hi": "डॉक्टर श्मिट रोगी मुलर को सर्जरी से पहले समझा रहे हैं।",
+                "ur": "ڈاکٹر شمٹ مریض مولر کو آپریشن سے پہلے سمجھا رہے ہیں۔",
+                "tr": "Dr. Schmidt, ameliyat öncesinde hasta Müller'e ameliyatı açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Morgen, Herr Müller. Ich möchte Ihnen noch einmal den Ablauf der Operation erklären.",
+                    "translation": {
+                        "en": "Good morning, Mr. Müller. I would like to explain the procedure of the operation to you again.",
+                        "bn": "শুভ সকাল, জনাব মুলার। আমি আপনাকে আবার অপারেশনের পদ্ধতিটি ব্যাখ্যা করতে চাই।",
+                        "hi": "शुभ प्रभात, श्री मुलर। मैं आपको एक बार फिर ऑपरेशन की प्रक्रिया समझाना चाहता हूँ।",
+                        "ur": "صبح بخیر، مسٹر مولر۔ میں آپ کو ایک بار پھر آپریشن کا طریقہ کار سمجھانا چاہتا ہوں۔",
+                        "tr": "Günaydın, Bay Müller. Size ameliyatın işleyişini bir kez daha açıklamak istiyorum."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Morgen, Herr Doktor. Ja, bitte. Ich bin etwas nervös.",
+                    "translation": {
+                        "en": "Good morning, Doctor. Yes, please. I'm a little nervous.",
+                        "bn": "শুভ সকাল, ডাক্তার। হ্যাঁ, অনুগ্রহ করে। আমি একটু বিচলিত।",
+                        "hi": "शुभ प्रभात, डॉक्टर। हाँ, कृपया। मैं थोड़ा घबराया हुआ हूँ।",
+                        "ur": "صبح بخیر، ڈاکٹر۔ ہاں، براہ کرم۔ میں تھوڑا گھبرایا ہوا ہوں۔",
+                        "tr": "Günaydın Doktor. Evet, lütfen. Biraz gerginim."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Keine Sorge. Wir werden eine Drainage legen, um Wundflüssigkeit abzuleiten. Danach wird die Wunde vernäht.",
+                    "translation": {
+                        "en": "Don't worry. We will place a drain to remove wound fluid. Then the wound will be sutured.",
+                        "bn": "চিন্তা করবেন না। আমরা ক্ষতের তরল অপসারণের জন্য একটি ড্রেন স্থাপন করব। তারপরে ক্ষত সেলাই করা হবে।",
+                        "hi": "चिंता मत करो। हम घाव के तरल पदार्थ को निकालने के लिए एक नाली लगाएंगे। फिर घाव को टांका लगाया जाएगा।",
+                        "ur": "فکر مت کرو۔ ہم زخم کے سیال کو نکالنے کے لیے ایک ڈرین لگائیں گے۔ پھر زخم کو ٹانکا جائے گا۔",
+                        "tr": "Endişelenmeyin. Yara sıvısını boşaltmak için bir dren yerleştireceğiz. Daha sonra yara dikilecek."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Eine Drainage? Wie lange bleibt die drin?",
+                    "translation": {
+                        "en": "A drain? How long will it stay in?",
+                        "bn": "একটি ড্রেন? এটি কতক্ষণ থাকবে?",
+                        "hi": "एक नाली? यह कब तक अंदर रहेगा?",
+                        "ur": "ایک ڈرین؟ یہ کتنی دیر تک اندر رہے گا؟",
+                        "tr": "Bir dren mi? Ne kadar süre içeride kalacak?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das hängt davon ab, wie viel Flüssigkeit abläuft. Normalerweise ein paar Tage.",
+                    "translation": {
+                        "en": "That depends on how much fluid drains. Usually a few days.",
+                        "bn": "এটি নির্ভর করে কতটা তরল নিষ্কাশিত হয় তার উপর। সাধারণত কয়েক দিন।",
+                        "hi": "यह इस बात पर निर्भर करता है कि कितना तरल निकलता है। आमतौर पर कुछ दिन।",
+                        "ur": "یہ اس بات پر منحصر ہے کہ کتنا سیال نکلتا ہے۔ عام طور پر کچھ دن۔",
+                        "tr": "Bu, ne kadar sıvı boşaldığına bağlı. Genellikle birkaç gün."
+                    }
+                }
+            ],
+            "id": "d26_01"
+        },
+        {
+            "title": {
+                "en": "Post-operative Wound Care",
+                "bn": "অস্ত্রোপচার পরবর্তী ক্ষত পরিচর্যা",
+                "hi": "ऑपरेशन के बाद घाव की देखभाल",
+                "ur": "آپریشن کے بعد زخم کی دیکھ بھال",
+                "tr": "Ameliyat Sonrası Yara Bakımı"
+            },
+            "context": {
+                "en": "Schwester Weber explains wound care to Patient Schmidt post-operatively.",
+                "bn": "সিস্টার ওয়েবার রোগী শ্মিটকে অস্ত্রোপচারের পরে ক্ষত পরিচর্যা ব্যাখ্যা করছেন।",
+                "hi": "सिस्टर वेबर रोगी श्मिट को ऑपरेशन के बाद घाव की देखभाल समझा रही हैं।",
+                "ur": "سسٹر ویبر مریض شمٹ کو آپریشن کے بعد زخم کی دیکھ بھال سمجھا رہی ہیں۔",
+                "tr": "Hemşire Weber, ameliyat sonrası hasta Schmidt'e yara bakımını açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Tag, Herr Schmidt. Ich zeige Ihnen, wie Sie den Verband wechseln müssen.",
+                    "translation": {
+                        "en": "Good day, Mr. Schmidt. I will show you how to change the dressing.",
+                        "bn": "শুভ দিন, জনাব শ্মিট। আমি আপনাকে দেখাবো কিভাবে ড্রেসিং পরিবর্তন করতে হয়।",
+                        "hi": "शुभ दिन, श्री श्मिट। मैं आपको दिखाऊंगा कि ड्रेसिंग कैसे बदलें।",
+                        "ur": "شب بخیر، مسٹر شمٹ۔ میں آپ کو دکھاؤں گا کہ ڈریسنگ کیسے بدلیں۔",
+                        "tr": "İyi günler, Bay Schmidt. Size pansumanı nasıl değiştireceğinizi göstereceğim."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Okay, danke. Wie oft muss ich das machen?",
+                    "translation": {
+                        "en": "Okay, thank you. How often do I have to do that?",
+                        "bn": "ঠিক আছে, ধন্যবাদ। আমাকে কতবার এটা করতে হবে?",
+                        "hi": "ठीक है, धन्यवाद। मुझे यह कितनी बार करना होगा?",
+                        "ur": "ٹھیک ہے، شکریہ۔ مجھے یہ کتنی بار کرنا پڑے گا؟",
+                        "tr": "Tamam, teşekkür ederim. Bunu ne sıklıkla yapmam gerekiyor?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Am besten jeden Tag. Achten Sie auf Anzeichen einer Infektion, wie Rötung oder Schwellung.",
+                    "translation": {
+                        "en": "Ideally, every day. Watch out for signs of infection, such as redness or swelling.",
+                        "bn": "আদর্শভাবে, প্রতিদিন। সংক্রমণের লক্ষণগুলির দিকে নজর রাখুন, যেমন লালভাব বা ফোলাভাব।",
+                        "hi": "आदर्श रूप से, हर दिन। संक्रमण के लक्षणों पर ध्यान दें, जैसे कि लालिमा या सूजन।",
+                        "ur": "مثالی طور پر، ہر روز۔ انفیکشن کی علامات پر نظر رکھیں، جیسے لالی یا سوجن۔",
+                        "tr": "İdeal olarak, her gün. Kızarıklık veya şişlik gibi enfeksiyon belirtilerine dikkat edin."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Verstanden. Was ist mit der Naht? Wann werden die Fäden gezogen?",
+                    "translation": {
+                        "en": "Understood. What about the suture? When will the stitches be removed?",
+                        "bn": "বুঝেছি। সেলাই সম্পর্কে কি? কখন সেলাই খোলা হবে?",
+                        "hi": "समझ गया। टांके के बारे में क्या? टांके कब निकाले जाएंगे?",
+                        "ur": "سمجھ گیا۔ ٹانکے کے بارے میں کیا خیال ہے؟ ٹانکے کب نکالے جائیں گے؟",
+                        "tr": "Anladım. Dikişler ne olacak? Dikişler ne zaman alınacak?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Die Fäden werden in etwa 10 Tagen gezogen. Dazu kommen Sie dann wieder in die Ambulanz.",
+                    "translation": {
+                        "en": "The stitches will be removed in about 10 days. You then come back to the outpatient clinic.",
+                        "bn": "সেলাই প্রায় 10 দিনের মধ্যে খোলা হবে। এর জন্য আপনাকে আবার বহির্বিভাগীয় ক্লিনিকে আসতে হবে।",
+                        "hi": "टांके लगभग 10 दिनों में निकाल दिए जाएंगे। इसके लिए आप फिर से बाह्य रोगी विभाग में आएं।",
+                        "ur": "ٹانکے تقریباً 10 دنوں میں نکال دیے جائیں گے۔ اس کے لیے آپ دوبارہ آؤٹ پیشنٹ کلینک میں آئیں۔",
+                        "tr": "Dikişler yaklaşık 10 gün içinde alınacak. O zaman polikliniğe geri gelirsiniz."
+                    }
+                }
+            ],
+            "id": "d26_02"
+        },
+        {
+            "title": {
+                "en": "Drainage Management",
+                "bn": "ড্রেনেজ ব্যবস্থাপনা",
+                "hi": "ड्रेनेज प्रबंधन",
+                "ur": "نکاسی آب کا انتظام",
+                "tr": "Drenaj Yönetimi"
+            },
+            "context": {
+                "en": "Dr. Meier discusses the drainage with Nurse Klein.",
+                "bn": "ডাক্তার মায়ার নার্স ক্লেইনের সাথে ড্রেনেজ নিয়ে আলোচনা করছেন।",
+                "hi": "डॉक्टर मेयर नर्स क्लाइन के साथ ड्रेनेज पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر میئر نرس کلین کے ساتھ نکاسی آب پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Dr. Meier, Hemşire Klein ile drenajı tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Schwester Klein, wie viel Sekret kam heute aus der Drainage bei Herrn Weber?",
+                    "translation": {
+                        "en": "Nurse Klein, how much secretion came out of Mr. Weber's drain today?",
+                        "bn": "নার্স ক্লেইন, আজ জনাব ওয়েবারের ড্রেন থেকে কতটা নিঃসরণ হয়েছে?",
+                        "hi": "नर्स क्लाइन, आज श्री वेबर के ड्रेन से कितना स्राव निकला?",
+                        "ur": "نرس کلین، آج مسٹر ویبر کے ڈرین سے کتنا سراو نکلا؟",
+                        "tr": "Hemşire Klein, Bay Weber'in drenajından bugün ne kadar salgı geldi?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Klein",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Es waren etwa 50 ml, Herr Doktor. Gestern waren es noch 80 ml.",
+                    "translation": {
+                        "en": "It was about 50 ml, Doctor. Yesterday it was still 80 ml.",
+                        "bn": "এটা প্রায় 50 মিলি ছিল, ডাক্তার। গতকালও 80 মিলি ছিল।",
+                        "hi": "यह लगभग 50 मिली था, डॉक्टर। कल यह अभी भी 80 मिली था।",
+                        "ur": "یہ تقریباً 50 ملی لیٹر تھا، ڈاکٹر۔ کل یہ اب بھی 80 ملی لیٹر تھا۔",
+                        "tr": "Yaklaşık 50 ml idi Doktor. Dün hala 80 ml idi."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Gut, dann können wir die Drainage wahrscheinlich bald ziehen. Beobachten Sie es weiter.",
+                    "translation": {
+                        "en": "Good, then we can probably remove the drain soon. Keep observing it.",
+                        "bn": "ভাল, তাহলে আমরা সম্ভবত শীঘ্রই ড্রেনটি সরাতে পারি। এটি পর্যবেক্ষণ করতে থাকুন।",
+                        "hi": "अच्छा, तो हम शायद जल्द ही ड्रेन को हटा सकते हैं। इसे देखते रहें।",
+                        "ur": "اچھا، تو ہم شاید جلد ہی ڈرین کو ہٹا سکتے ہیں۔ اسے دیکھتے رہیں۔",
+                        "tr": "Güzel, o zaman muhtemelen yakında dreni çıkarabiliriz. Gözlemlemeye devam edin."
+                    }
+                },
+                {
+                    "speaker": "Schwester Klein",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Wird gemacht. Soll ich den Verband erneuern?",
+                    "translation": {
+                        "en": "Will do. Should I renew the dressing?",
+                        "bn": "করা হবে। আমি কি ড্রেসিং নবায়ন করব?",
+                        "hi": "किया जाएगा। क्या मुझे ड्रेसिंग को नवीनीकृत करना चाहिए?",
+                        "ur": "کیا جائے گا۔ کیا مجھے ڈریسنگ کی تجدید کرنی چاہیے؟",
+                        "tr": "Yapılacak. Pansumanı yenilemeli miyim?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ja, bitte. Und dokumentieren Sie alles sorgfältig.",
+                    "translation": {
+                        "en": "Yes, please. And document everything carefully.",
+                        "bn": "হ্যাঁ, অনুগ্রহ করে। এবং সবকিছু সাবধানে নথিভুক্ত করুন।",
+                        "hi": "हाँ, कृपया। और सब कुछ सावधानी से दस्तावेज़ करें।",
+                        "ur": "ہاں، براہ کرم۔ اور ہر چیز کو احتیاط سے دستاویز کریں۔",
+                        "tr": "Evet, lütfen. Ve her şeyi dikkatlice belgelendirin."
+                    }
+                }
+            ],
+            "id": "d26_03"
+        },
+        {
+            "title": {
+                "en": "Dealing with Post-operative Pain",
+                "bn": "অস্ত্রোপচার পরবর্তী ব্যথা মোকাবেলা",
+                "hi": "ऑपरेशन के बाद दर्द से निपटना",
+                "ur": "آپریشن کے بعد درد سے نمٹنا",
+                "tr": "Ameliyat Sonrası Ağrıyla Başa Çıkma"
+            },
+            "context": {
+                "en": "Patient Bauer complains about pain to Dr. Lehmann.",
+                "bn": "রোগী বাউয়ার ডাক্তার লেহম্যানের কাছে ব্যথার অভিযোগ করছেন।",
+                "hi": "रोगी बाउर डॉक्टर लेहमन से दर्द की शिकायत कर रहे हैं।",
+                "ur": "مریض باؤر ڈاکٹر لیہمن سے درد کی شکایت کر رہے ہیں۔",
+                "tr": "Hasta Bauer, Dr. Lehmann'a ağrıdan şikayet ediyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Bauer",
+                    "speakerRole": "Patient",
+                    "germanText": "Herr Doktor, ich habe starke Schmerzen in der Wunde.",
+                    "translation": {
+                        "en": "Doctor, I have severe pain in the wound.",
+                        "bn": "ডাক্তার, আমার ক্ষতে তীব্র ব্যথা হচ্ছে।",
+                        "hi": "डॉक्टर, मुझे घाव में तेज दर्द है।",
+                        "ur": "ڈاکٹر، مجھے زخم میں شدید درد ہو رہا ہے۔",
+                        "tr": "Doktor, yaramda şiddetli ağrı var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das ist normal nach der Operation. Haben Sie schon Schmerzmittel bekommen?",
+                    "translation": {
+                        "en": "That's normal after the operation. Have you already received painkillers?",
+                        "bn": "অপারেশনের পরে এটা স্বাভাবিক। আপনি কি ইতিমধ্যে ব্যথানাশক ঔষধ পেয়েছেন?",
+                        "hi": "यह ऑपरेशन के बाद सामान्य है। क्या आपको पहले से ही दर्द निवारक दवा मिली है?",
+                        "ur": "یہ آپریشن کے بعد معمول کی بات ہے۔ کیا آپ کو پہلے ہی درد کش دوا مل چکی ہے؟",
+                        "tr": "Bu ameliyattan sonra normal. Zaten ağrı kesici aldınız mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Bauer",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, aber es hilft nicht wirklich.",
+                    "translation": {
+                        "en": "Yes, but it doesn't really help.",
+                        "bn": "হ্যাঁ, তবে এটি সত্যিই সাহায্য করে না।",
+                        "hi": "हाँ, लेकिन इससे वास्तव में मदद नहीं मिलती।",
+                        "ur": "ہاں، لیکن اس سے واقعی مدد نہیں ملتی۔",
+                        "tr": "Evet, ama pek yardımcı olmuyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Okay, ich werde Ihnen etwas Stärkeres verschreiben. Schwester, bitte kümmern Sie sich darum.",
+                    "translation": {
+                        "en": "Okay, I will prescribe something stronger. Nurse, please take care of it.",
+                        "bn": "ঠিক আছে, আমি আপনাকে আরও শক্তিশালী কিছু লিখে দেব। সিস্টার, দয়া করে এটির যত্ন নিন।",
+                        "hi": "ठीक है, मैं आपको कुछ मजबूत लिख दूंगा। सिस्टर, कृपया इसका ध्यान रखें।",
+                        "ur": "ٹھیک ہے، میں آپ کو کچھ مضبوط لکھ دوں گا۔ نرس، براہ کرم اس کا خیال رکھیں۔",
+                        "tr": "Tamam, size daha güçlü bir şey yazacağım. Hemşire, lütfen ilgilenin."
+                    }
+                },
+                {
+                    "speaker": "Patient Bauer",
+                    "speakerRole": "Patient",
+                    "germanText": "Vielen Dank, Herr Doktor.",
+                    "translation": {
+                        "en": "Thank you very much, Doctor.",
+                        "bn": "আপনাকে অনেক ধন্যবাদ, ডাক্তার।",
+                        "hi": "आपका बहुत बहुत धन्यवाद, डॉक्टर।",
+                        "ur": "آپ کا بہت بہت شکریہ، ڈاکٹر۔",
+                        "tr": "Çok teşekkür ederim Doktor."
+                    }
+                }
+            ],
+            "id": "d26_04"
+        },
+        {
+            "title": {
+                "en": "Discussion about Operation Details",
+                "bn": "অপারেশনের বিবরণ নিয়ে আলোচনা",
+                "hi": "ऑपरेशन के विवरण के बारे में चर्चा",
+                "ur": "آپریشن کی تفصیلات کے بارے میں تبادلہ خیال",
+                "tr": "Ameliyat Detayları Hakkında Tartışma"
+            },
+            "context": {
+                "en": "Dr. Gruber and Dr. Klein discuss the surgery they just performed.",
+                "bn": "ডাক্তার গ্রুবার এবং ডাক্তার ক্লেইন তারা যে অস্ত্রোপচার করেছেন তা নিয়ে আলোচনা করছেন।",
+                "hi": "डॉक्टर ग्रुबर और डॉक्टर क्लाइन उस सर्जरी पर चर्चा कर रहे हैं जो उन्होंने अभी की है।",
+                "ur": "ڈاکٹر گروبر اور ڈاکٹر کلین اس سرجری پر تبادلہ خیال کر رہے ہیں جو انہوں نے ابھی کی ہے۔",
+                "tr": "Dr. Gruber ve Dr. Klein az önce yaptıkları ameliyatı tartışıyorlar."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Gruber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "So, Dr. Klein, die Operation ist gut verlaufen.",
+                    "translation": {
+                        "en": "So, Dr. Klein, the operation went well.",
+                        "bn": "তাহলে, ডাক্তার ক্লেইন, অপারেশনটি ভালোভাবে হয়েছে।",
+                        "hi": "तो, डॉक्टर क्लाइन, ऑपरेशन अच्छे से हो गया।",
+                        "ur": "تو، ڈاکٹر کلین، آپریشن اچھے طریقے سے ہو گیا۔",
+                        "tr": "Peki, Dr. Klein, ameliyat iyi geçti."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ja, die Naht ist gut gelungen und die Drainage liegt auch gut.",
+                    "translation": {
+                        "en": "Yes, the suture was successful and the drain is also well placed.",
+                        "bn": "হ্যাঁ, সেলাই সফল হয়েছে এবং ড্রেনটিও ভালোভাবে স্থাপন করা হয়েছে।",
+                        "hi": "हाँ, टांका सफल रहा और नाली भी अच्छी तरह से लगाई गई है।",
+                        "ur": "ہاں، ٹانکا کامیاب رہا اور نالی بھی اچھی طرح سے لگائی گئی ہے۔",
+                        "tr": "Evet, dikiş başarılıydı ve dren de iyi yerleştirilmiş."
+                    }
+                },
+                {
+                    "speaker": "Dr. Gruber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Sehr gut. Wichtig ist jetzt eine gute Wundversorgung.",
+                    "translation": {
+                        "en": "Very good. Good wound care is important now.",
+                        "bn": "খুব ভালো. এখন ভালো ক্ষত পরিচর্যা জরুরি।",
+                        "hi": "बहुत अच्छा। अब अच्छे घाव की देखभाल महत्वपूर्ण है।",
+                        "ur": "بہت اچھا۔ اب اچھے زخم کی دیکھ بھال ضروری ہے۔",
+                        "tr": "Çok iyi. Şimdi iyi yara bakımı önemli."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ja, das werde ich im Auge behalten. Wann ziehen wir die Drainage?",
+                    "translation": {
+                        "en": "Yes, I will keep that in mind. When do we remove the drain?",
+                        "bn": "হ্যাঁ, আমি এটা মনে রাখব। আমরা ড্রেন কখন সরাব?",
+                        "hi": "हाँ, मैं इसे ध्यान में रखूंगा। हम ड्रेन कब हटाएंगे?",
+                        "ur": "ہاں، میں اسے ذہن میں رکھوں گا۔ ہم ڈرین کب ہٹائیں گے؟",
+                        "tr": "Evet, bunu aklımda tutacağım. Dreni ne zaman çıkaracağız?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Gruber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wenn nur noch wenig Sekret kommt. Wir beobachten das ein paar Tage.",
+                    "translation": {
+                        "en": "When there is only a little secretion coming out. We will observe it for a few days.",
+                        "bn": "যখন সামান্য নিঃসরণ হবে। আমরা কয়েক দিন ধরে এটি পর্যবেক্ষণ করব।",
+                        "hi": "जब केवल थोड़ा सा स्राव हो रहा हो। हम इसे कुछ दिनों तक देखेंगे।",
+                        "ur": "جب صرف تھوڑا سا سراو نکل رہا ہو۔ ہم اسے کچھ دنوں تک دیکھیں گے۔",
+                        "tr": "Sadece biraz salgı geldiğinde. Birkaç gün boyunca gözlemleyeceğiz."
+                    }
+                }
+            ],
+            "id": "d26_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'präoperativ'?",
+                "en": "What does 'präoperativ' mean?",
+                "bn": "'প্রিওপারেটিভ' মানে কী?",
+                "hi": "'प्रीऑपरेटिव' का क्या अर्थ है?",
+                "ur": "'پری آپریٹو' کا کیا مطلب ہے؟",
+                "tr": "'Preoperatif' ne anlama gelir?"
+            },
+            "options": [
+                "Nach der Operation",
+                "Während der Operation",
+                "Vor der Operation",
+                "Die Operation selbst"
+            ],
+            "correctAnswer": "Vor der Operation",
+            "explanation": {
+                "en": "'Präoperativ' means 'before the operation'.",
+                "bn": "'প্রিওপারেটিভ' মানে 'অপারেশনের আগে'।",
+                "hi": "'प्रीऑपरेटिव' का मतलब 'ऑपरेशन से पहले' होता है।",
+                "ur": "'پری آپریٹو' کا مطلب 'آپریشن سے پہلے' ہے۔",
+                "tr": "'Preoperatif', 'ameliyattan önce' anlamına gelir."
+            },
+            "points": 10,
+            "id": "e26_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Art von Nahtmaterial wird vom Körper abgebaut?",
+                "en": "Which type of suture material is absorbed by the body?",
+                "bn": "কোন ধরণের স্যাচার উপাদান শরীর দ্বারা শোষিত হয়?",
+                "hi": "किस प्रकार का सिवनी सामग्री शरीर द्वारा अवशोषित किया जाता है?",
+                "ur": "کس قسم کا سیون مواد جسم جذب کر لیتا ہے؟",
+                "tr": "Hangi tür dikiş malzemesi vücut tarafından emilir?"
+            },
+            "options": [
+                "Seide",
+                "Nylon",
+                "Resorbierbares Nahtmaterial",
+                "Edelstahl"
+            ],
+            "correctAnswer": "Resorbierbares Nahtmaterial",
+            "explanation": {
+                "en": "Resorbable suture material is designed to be absorbed by the body.",
+                "bn": "রেজরবযোগ্য স্যাচার উপাদান শরীর দ্বারা শোষিত হওয়ার জন্য ডিজাইন করা হয়েছে।",
+                "hi": "रेज़ॉर्बबल सिवनी सामग्री शरीर द्वारा अवशोषित होने के लिए डिज़ाइन की गई है।",
+                "ur": "ریزروبل سیون مواد جسم کے ذریعے جذب ہونے کے لیے ڈیزائن کیا گیا ہے۔",
+                "tr": "Emilebilir sütür malzemesi, vücut tarafından emilmek üzere tasarlanmıştır."
+            },
+            "points": 10,
+            "id": "e26_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist der Zweck einer Drainage nach einer Operation?",
+                "en": "What is the purpose of a drainage after surgery?",
+                "bn": "অপারেশনের পরে একটি ড্রেনেজের উদ্দেশ্য কী?",
+                "hi": "सर्जरी के बाद ड्रेनेज का उद्देश्य क्या है?",
+                "ur": "سرجری کے بعد ڈرینیج کا مقصد کیا ہے؟",
+                "tr": "Ameliyattan sonra drenajın amacı nedir?"
+            },
+            "options": [
+                "Schmerzlinderung",
+                "Infektionsprävention",
+                "Ableitung von Flüssigkeiten",
+                "Förderung der Durchblutung"
+            ],
+            "correctAnswer": "Ableitung von Flüssigkeiten",
+            "explanation": {
+                "en": "A drainage is used to remove fluids (blood, pus, etc.) from the surgical site.",
+                "bn": "একটি ড্রেনেজ অস্ত্রোপচারের স্থান থেকে তরল (রক্ত, পুঁজ ইত্যাদি) অপসারণ করতে ব্যবহৃত হয়।",
+                "hi": "एक ड्रेनेज का उपयोग सर्जिकल साइट से तरल पदार्थ (रक्त, मवाद, आदि) को निकालने के लिए किया जाता है।",
+                "ur": "ایک ڈرینیج سرجیکل سائٹ سے سیال (خون، پیپ، وغیرہ) کو ہٹانے کے لیے استعمال کیا جاتا ہے۔",
+                "tr": "Drenaj, cerrahi bölgeden sıvıları (kan, irin, vb.) uzaklaştırmak için kullanılır."
+            },
+            "points": 10,
+            "id": "e26_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'postoperativ'?",
+                "en": "What does 'postoperativ' mean?",
+                "bn": "'পোস্টঅপারেটিভ' মানে কী?",
+                "hi": "'पोस्टऑपरेटिव' का क्या अर्थ है?",
+                "ur": "'پوسٹ آپریٹو' کا کیا مطلب ہے؟",
+                "tr": "'Postoperatif' ne anlama gelir?",
+                "ar": "ماذا تعني 'بوستوبراتيف'؟"
+            },
+            "options": [
+                "Während der Operation",
+                "Nach der Operation",
+                "Vor der Operation",
+                "Eine bestimmte Operationstechnik"
+            ],
+            "correctAnswer": "Nach der Operation",
+            "explanation": {
+                "en": "'Postoperativ' means 'after the operation'.",
+                "bn": "'পোস্টঅপারেটিভ' মানে 'অপারেশনের পরে'।",
+                "hi": "'पोस्टऑपरेटिव' का अर्थ है 'ऑपरेशन के बाद'।",
+                "ur": "'پوسٹ آپریٹو' کا مطلب ہے 'آپریشن کے بعد'۔",
+                "tr": "'Postoperatif', 'ameliyattan sonra' anlamına gelir."
+            },
+            "points": 10,
+            "id": "e26_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Material wird häufig für einen Wundverband verwendet?",
+                "en": "Which material is commonly used for a wound dressing?",
+                "bn": "ক্ষত ড্রেসিংয়ের জন্য সাধারণত কোন উপাদান ব্যবহৃত হয়?",
+                "hi": "घाव की ड्रेसिंग के लिए आमतौर पर कौन सी सामग्री का उपयोग किया जाता है?",
+                "ur": "زخم کی ڈریسنگ کے لیے عام طور پر کون سا مواد استعمال ہوتا ہے؟",
+                "tr": "Yara pansumanı için yaygın olarak hangi malzeme kullanılır?"
+            },
+            "options": [
+                "Aluminiumfolie",
+                "Plastikfolie",
+                "Sterile Gaze",
+                "Zeitungspapier"
+            ],
+            "correctAnswer": "Sterile Gaze",
+            "explanation": {
+                "en": "Sterile gauze is used to protect the wound from infection and absorb fluids.",
+                "bn": "জীবাণুমুক্ত গজ সংক্রমণ থেকে ক্ষত রক্ষা করতে এবং তরল শোষণ করতে ব্যবহৃত হয়।",
+                "hi": "बाँझ धुंध का उपयोग संक्रमण से घाव को बचाने और तरल पदार्थ को अवशोषित करने के लिए किया जाता है।",
+                "ur": "جراثیم سے پاک گوز زخم کو انفیکشن سے بچانے اور سیال کو جذب کرنے کے لیے استعمال ہوتا ہے۔",
+                "tr": "Steril gazlı bez, yarayı enfeksiyondan korumak ve sıvıları emmek için kullanılır."
+            },
+            "points": 10,
+            "id": "e26_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist eine Laparotomie?",
+                "en": "What is a laparotomy?",
+                "bn": "ল্যাপারোটমি কী?",
+                "hi": "लैपरोटॉमी क्या है?",
+                "ur": "لیپروٹومی کیا ہے؟",
+                "tr": "Laparotomi nedir?"
+            },
+            "options": [
+                "Eine Operation am Herzen",
+                "Ein Schnitt in den Bauchraum",
+                "Eine Operation am Gehirn",
+                "Eine Operation am Auge"
+            ],
+            "correctAnswer": "Ein Schnitt in den Bauchraum",
+            "explanation": {
+                "en": "A laparotomy is a surgical incision into the abdominal cavity.",
+                "bn": "ল্যাপারোটমি হল পেটের গহ্বরে একটি অস্ত্রোপচার ছেদ।",
+                "hi": "लैपरोटॉमी पेट की गुहा में एक सर्जिकल चीरा है।",
+                "ur": "لیپروٹومی پیٹ کی گہا میں ایک جراحی چیرا ہے۔",
+                "tr": "Laparotomi, karın boşluğuna yapılan cerrahi bir kesidir."
+            },
+            "points": 10,
+            "id": "e26_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welchen Zweck hat ein Verband?",
+                "en": "What is the purpose of a bandage?",
+                "bn": "একটি ব্যান্ডেজের উদ্দেশ্য কী?",
+                "hi": "पट्टी का उद्देश्य क्या है?",
+                "ur": "پٹی کا مقصد کیا ہے؟",
+                "tr": "Bandajın amacı nedir?"
+            },
+            "options": [
+                "Um die Blutzirkulation zu fördern",
+                "Um eine Wunde zu schützen und zu stabilisieren",
+                "Um Schmerzen zu lindern",
+                "Um die Haut zu reinigen"
+            ],
+            "correctAnswer": "Um eine Wunde zu schützen und zu stabilisieren",
+            "explanation": {
+                "en": "A bandage protects and stabilizes a wound, preventing further injury and infection.",
+                "bn": "একটি ব্যান্ডেজ একটি ক্ষত রক্ষা করে এবং স্থিতিশীল করে, আরও আঘাত এবং সংক্রমণ প্রতিরোধ করে।",
+                "hi": "एक पट्टी घाव को सुरक्षित और स्थिर करती है, जिससे आगे की चोट और संक्रमण को रोका जा सकता है।",
+                "ur": "ایک پٹی زخم کی حفاظت اور اسے مستحکم کرتی ہے، مزید چوٹ اور انفیکشن کو روکتی ہے۔",
+                "tr": "Bir bandaj, bir yarayı korur ve stabilize eder, daha fazla yaralanmayı ve enfeksiyonu önler."
+            },
+            "points": 10,
+            "id": "e26_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage über die Wundversorgung ist richtig?",
+                "en": "Which statement about wound care is correct?",
+                "bn": "ক্ষত পরিচর্যা সম্পর্কে কোন বক্তব্যটি সঠিক?",
+                "hi": "घाव की देखभाल के बारे में कौन सा कथन सही है?",
+                "ur": "زخم کی دیکھ بھال کے بارے میں کون سا بیان درست ہے؟",
+                "tr": "Yara bakımı hakkında hangi ifade doğrudur?"
+            },
+            "options": [
+                "Eine Wunde sollte immer trocken gehalten werden.",
+                "Eine Wunde sollte regelmäßig desinfiziert werden.",
+                "Eine Wunde sollte nicht verbunden werden, um die Heilung zu beschleunigen.",
+                "Eine saubere, feuchte Wundumgebung fördert die Heilung."
+            ],
+            "correctAnswer": "Eine saubere, feuchte Wundumgebung fördert die Heilung.",
+            "explanation": {
+                "en": "A clean, moist wound environment promotes healing. Dry wounds can delay the healing process.",
+                "bn": "একটি পরিষ্কার, আর্দ্র ক্ষত পরিবেশ নিরাময়কে উৎসাহিত করে। শুষ্ক ক্ষত নিরাময় প্রক্রিয়া বিলম্বিত করতে পারে।",
+                "hi": "एक साफ, नम घाव का वातावरण उपचार को बढ़ावा देता है। सूखे घाव उपचार प्रक्रिया में देरी कर सकते हैं।",
+                "ur": "ایک صاف، نم زخم کا ماحول شفا یابی کو فروغ دیتا ہے۔ خشک زخم شفا یابی کے عمل میں تاخیر کر سکتے ہیں۔",
+                "tr": "Temiz, nemli bir yara ortamı iyileşmeyi destekler. Kuru yaralar iyileşme sürecini geciktirebilir."
+            },
+            "points": 10,
+            "id": "e26_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was versteht man unter 'Nahtinsuffizienz'?",
+                "en": "What is meant by 'Nahtinsuffizienz'?",
+                "bn": "'নাট ইনসাফিজিয়েন্স' বলতে কী বোঝায়?",
+                "hi": "'नाट इनसफिशिएंज़ी' का क्या मतलब है?",
+                "ur": "'ناٹ ان سفیشیئنز' سے کیا مراد ہے؟",
+                "tr": "'Nahtinsuffizienz' ne anlama gelir?",
+                "ar": "ماذا يُقصد بـ 'ناخت إنسوفيتسينتس'؟"
+            },
+            "options": [
+                "Eine zu feste Naht",
+                "Das Aufgehen einer Naht",
+                "Eine Naht mit zu vielen Stichen",
+                "Eine Naht, die gut verheilt ist"
+            ],
+            "correctAnswer": "Das Aufgehen einer Naht",
+            "explanation": {
+                "en": "'Nahtinsuffizienz' refers to the breakdown or dehiscence of a suture line.",
+                "bn": "'নাট ইনসাফিজিয়েন্স' একটি স্যাচার লাইনের ভাঙ্গন বা বিচ্ছিন্নতাকে বোঝায়।",
+                "hi": "'नाट इनसफिशिएंज़ी' एक सिवनी लाइन के टूटने या डिहिसेन्स को संदर्भित करता है।",
+                "ur": "'ناٹ ان سفیشیئنز' ایک سیون لائن کے ٹوٹنے یا ڈیہیسنس سے مراد ہے۔",
+                "tr": "'Nahtinsuffizienz', bir sütür hattının bozulması veya ayrılması anlamına gelir."
+            },
+            "points": 10,
+            "id": "e26_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Massnahmen gehört zur präoperativen Vorbereitung?",
+                "en": "Which of the following measures belongs to the preoperative preparation?",
+                "bn": "নিম্নলিখিত ব্যবস্থাগুলির মধ্যে কোনটি প্রিঅপারেটিভ প্রস্তুতির অন্তর্গত?",
+                "hi": "निम्नलिखित उपायों में से कौन सा प्रीऑपरेटिव तैयारी का हिस्सा है?",
+                "ur": "درج ذیل اقدامات میں سے کون سا پری آپریٹو تیاری کا حصہ ہے؟",
+                "tr": "Aşağıdaki önlemlerden hangisi preoperatif hazırlığa aittir?"
+            },
+            "options": [
+                "Postoperative Schmerztherapie",
+                "Entfernung von Hautklammern",
+                "Anamnese und körperliche Untersuchung",
+                "Verbandswechsel"
+            ],
+            "correctAnswer": "Anamnese und körperliche Untersuchung",
+            "explanation": {
+                "en": "Taking a patient's history and performing a physical examination are essential components of preoperative preparation.",
+                "bn": "রোগীর ইতিহাস নেওয়া এবং শারীরিক পরীক্ষা করা প্রিঅপারেটিভ প্রস্তুতির প্রয়োজনীয় উপাদান।",
+                "hi": "रोगी का इतिहास लेना और शारीरिक परीक्षा करना प्रीऑपरेटिव तैयारी के आवश्यक घटक हैं।",
+                "ur": "مریض کی تاریخ لینا اور جسمانی معائنہ کرنا پری آپریٹو تیاری کے ضروری اجزا ہیں۔",
+                "tr": "Hastanın tıbbi geçmişini almak ve fiziksel muayene yapmak, preoperatif hazırlığın temel unsurlarıdır."
+            },
+            "points": 10,
+            "id": "e26_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die Entfernung von Nähten wird als __________ bezeichnet.",
+                "en": "The removal of sutures is called __________.",
+                "bn": "স্যাচার অপসারণকে __________ বলা হয়।",
+                "hi": "टांके हटाने को __________ कहा जाता है।",
+                "ur": "ٹانکے ہٹانے کو __________ کہا جاتا ہے۔",
+                "tr": "Dikişlerin alınmasına __________ denir."
+            },
+            "options": [],
+            "correctAnswer": "Fadenentfernung",
+            "explanation": {
+                "en": "The removal of sutures is formally known as 'Fadenentfernung' in German.",
+                "bn": "স্যাচার অপসারণকে জার্মান ভাষায় আনুষ্ঠানিকভাবে 'ফ্যাডেনেন্টফারনং' বলা হয়।",
+                "hi": "टांके हटाने को जर्मन में औपचारिक रूप से 'फाडेनेंटफरनंग' कहा जाता है।",
+                "ur": "ٹانکے ہٹانے کو جرمن میں رسمی طور پر 'فاڈیننٹفرننگ' کہا جاتا ہے۔",
+                "tr": "Dikişlerin alınması, Almanca'da resmen 'Fadenentfernung' olarak adlandırılır."
+            },
+            "points": 10,
+            "id": "e26_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein __________ wird verwendet, um Flüssigkeiten aus einer Wunde abzuleiten.",
+                "en": "A __________ is used to drain fluids from a wound.",
+                "bn": "ক্ষত থেকে তরল নিষ্কাশন করতে একটি __________ ব্যবহৃত হয়।",
+                "hi": "घाव से तरल पदार्थ निकालने के लिए एक __________ का उपयोग किया जाता है।",
+                "ur": "زخم سے سیال نکالنے کے لیے ایک __________ استعمال کیا جاتا ہے۔",
+                "tr": "Bir yaradan sıvıları boşaltmak için bir __________ kullanılır."
+            },
+            "options": [],
+            "correctAnswer": "Drain",
+            "explanation": {
+                "en": "A 'Drain' is the correct term for a device used to remove fluids from a wound.",
+                "bn": "একটি 'ড্রেন' হল ক্ষত থেকে তরল অপসারণ করতে ব্যবহৃত ডিভাইসের সঠিক শব্দ।",
+                "hi": "एक 'ड्रेन' घाव से तरल पदार्थ निकालने के लिए इस्तेमाल किए जाने वाले उपकरण के लिए सही शब्द है।",
+                "ur": "ایک 'ڈرین' زخم سے سیال نکالنے کے لیے استعمال ہونے والے آلے کے لیے صحیح لفظ ہے۔",
+                "tr": "Bir yaradan sıvıları çıkarmak için kullanılan cihaza 'Dren' denir."
+            },
+            "points": 10,
+            "id": "e26_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die Reinigung einer Wunde ist ein wichtiger Teil der __________.",
+                "en": "Cleaning a wound is an important part of __________.",
+                "bn": "ক্ষত পরিষ্কার করা __________ এর একটি গুরুত্বপূর্ণ অংশ।",
+                "hi": "घाव की सफाई __________ का एक महत्वपूर्ण हिस्सा है।",
+                "ur": "زخم کی صفائی __________ کا ایک اہم حصہ ہے۔",
+                "tr": "Yaranın temizlenmesi __________ 'nın önemli bir parçasıdır."
+            },
+            "options": [],
+            "correctAnswer": "Wundversorgung",
+            "explanation": {
+                "en": "Wound care includes cleaning, disinfection, and dressing changes.",
+                "bn": "ক্ষত পরিচর্যা পরিষ্কার, জীবাণুমুক্তকরণ এবং ড্রেসিং পরিবর্তন অন্তর্ভুক্ত করে।",
+                "hi": "घाव की देखभाल में सफाई, कीटाणुशोधन और ड्रेसिंग परिवर्तन शामिल हैं।",
+                "ur": "زخم کی دیکھ بھال میں صفائی، جراثیم کشی اور ڈریسنگ کی تبدیلیاں شامل ہیں۔",
+                "tr": "Yara bakımı temizlik, dezenfeksiyon ve pansuman değişikliklerini içerir."
+            },
+            "points": 10,
+            "id": "e26_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein steriler __________ wird verwendet, um eine Wunde abzudecken.",
+                "en": "A sterile __________ is used to cover a wound.",
+                "bn": "একটি জীবাণুমুক্ত __________ ক্ষত ঢেকে রাখার জন্য ব্যবহৃত হয়।",
+                "hi": "एक बाँझ __________ घाव को ढंकने के लिए प्रयोग किया जाता है।",
+                "ur": "ایک جراثیم سے پاک __________ زخم کو ڈھانپنے کے لیے استعمال ہوتا ہے۔",
+                "tr": "Steril bir __________ yarayı kapatmak için kullanılır."
+            },
+            "options": [],
+            "correctAnswer": "Verband",
+            "explanation": {
+                "en": "A sterile dressing (Verband) is essential for protecting a wound from infection.",
+                "bn": "সংক্রমণ থেকে ক্ষত রক্ষা করার জন্য একটি জীবাণুমুক্ত ড্রেসিং (ভার্বান্ড) অপরিহার্য।",
+                "hi": "संक्रमण से घाव को बचाने के लिए एक बाँझ ड्रेसिंग (वर्बैंड) आवश्यक है।",
+                "ur": "انفیکشن سے زخم کو بچانے کے لیے ایک جراثیم سے پاک ڈریسنگ (وربینڈ) ضروری ہے۔",
+                "tr": "Enfeksiyondan bir yarayı korumak için steril bir pansuman (Verband) gereklidir."
+            },
+            "points": 10,
+            "id": "e26_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Das Verschliessen einer Wunde mit Fäden nennt man __________.",
+                "en": "Closing a wound with sutures is called __________.",
+                "bn": "স্যাচার দিয়ে ক্ষত বন্ধ করাকে __________ বলা হয়।",
+                "hi": "टांके के साथ घाव बंद करने को __________ कहा जाता है।",
+                "ur": "ٹانکے کے ساتھ زخم بند کرنے کو __________ کہا جاتا ہے۔",
+                "tr": "Dikişlerle bir yarayı kapatmaya __________ denir."
+            },
+            "options": [],
+            "correctAnswer": "Naht",
+            "explanation": {
+                "en": "The German term for closing a wound with sutures is 'Naht'.",
+                "bn": "স্যাচার দিয়ে ক্ষত বন্ধ করার জার্মান শব্দ হল 'নাট'।",
+                "hi": "टांके के साथ घाव बंद करने के लिए जर्मन शब्द 'नाट' है।",
+                "ur": "ٹانکے کے ساتھ زخم بند کرنے کے لیے جرمن لفظ 'ناٹ' ہے۔",
+                "tr": "Dikişlerle bir yarayı kapatmak için kullanılan Almanca terim 'Naht'tır."
+            },
+            "points": 10,
+            "id": "e26_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Wunde muss täglich versorgt werden.",
+                "en": "The wound must be cared for daily.",
+                "bn": "ক্ষতটির প্রতিদিন যত্ন নিতে হবে।",
+                "hi": "घाव की देखभाल प्रतिदिन करनी चाहिए।",
+                "ur": "زخم کی روزانہ دیکھ بھال کرنی چاہیے۔",
+                "tr": "Yaraya her gün bakılmalıdır."
+            },
+            "options": [],
+            "correctAnswer": "The wound must be cared for daily.",
+            "explanation": {
+                "en": "This is a direct translation of the German sentence.",
+                "bn": "এটি জার্মান বাক্যের সরাসরি অনুবাদ।",
+                "hi": "यह जर्मन वाक्य का सीधा अनुवाद है।",
+                "ur": "یہ جرمن جملے کا براہ راست ترجمہ ہے۔",
+                "tr": "Bu, Almanca cümlenin doğrudan çevirisidir."
+            },
+            "points": 10,
+            "id": "e26_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Bitte legen Sie einen sterilen Verband an.",
+                "en": "Please apply a sterile dressing.",
+                "bn": "দয়া করে একটি জীবাণুমুক্ত ড্রেসিং লাগান।",
+                "hi": "कृपया एक बाँझ पट्टी लगाएं।",
+                "ur": "براہ کرم ایک جراثیم سے پاک پٹی لگائیں۔",
+                "tr": "Lütfen steril bir pansuman uygulayın."
+            },
+            "options": [],
+            "correctAnswer": "Please apply a sterile dressing.",
+            "explanation": {
+                "en": "This is the accurate English translation.",
+                "bn": "এটি সঠিক ইংরেজি অনুবাদ।",
+                "hi": "यह सटीक अंग्रेजी अनुवाद है।",
+                "ur": "یہ درست انگریزی ترجمہ ہے۔",
+                "tr": "Bu doğru İngilizce çevirisidir."
+            },
+            "points": 10,
+            "id": "e26_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Drainage wird morgen entfernt.",
+                "en": "The drain will be removed tomorrow.",
+                "bn": "ড্রেনটি আগামীকাল সরানো হবে।",
+                "hi": "कल नाली हटा दी जाएगी।",
+                "ur": "کل ڈرین ہٹا دیا جائے گا۔",
+                "tr": "Dren yarın çıkarılacak."
+            },
+            "options": [],
+            "correctAnswer": "The drain will be removed tomorrow.",
+            "explanation": {
+                "en": "This is the correct English translation of the given German sentence.",
+                "bn": "এটি প্রদত্ত জার্মান বাক্যের সঠিক ইংরেজি অনুবাদ।",
+                "hi": "यह दिए गए जर्मन वाक्य का सही अंग्रेजी अनुवाद है।",
+                "ur": "یہ دیئے گئے جرمن جملے کا صحیح انگریزی ترجمہ ہے۔",
+                "tr": "Bu, verilen Almanca cümlenin doğru İngilizce çevirisidir."
+            },
+            "points": 10,
+            "id": "e26_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

@@ -1,13 +1,1570 @@
-{"id":"section_29","phaseId":"phase2","order":29,"titleDe":"Psychiatrie","title":{"en":"Psychiatry","bn":"মানসিক চিকিৎসা","hi":"मनोचिकित्सा","ur":"نفسیات","tr":"Psikiyatri"},"level":"B2","estimatedMinutes":40,"vocabulary":[
-{"id":"v29_01","germanTerm":"Depression","article":"die","plural":"Depressionen","translation":{"en":"Depression","bn":"বিষণ্নতা","hi":"अवसाद","ur":"ڈپریشن","tr":"Depresyon"}},
-{"id":"v29_02","germanTerm":"Angststörung","article":"die","plural":"Angststörungen","translation":{"en":"Anxiety Disorder","bn":"উদ্বেগজনিত ব্যাধি","hi":"चिंता विकार","ur":"اضطراب","tr":"Anksiyete bozukluğu"}},
-{"id":"v29_03","germanTerm":"Psychose","article":"die","plural":"Psychosen","translation":{"en":"Psychosis","bn":"সাইকোসিস","hi":"मनोविकृति","ur":"نفسیاتی مرض","tr":"Psikoz"}},
-{"id":"v29_04","germanTerm":"Suizidalität","article":"die","plural":"-","translation":{"en":"Suicidality","bn":"আত্মহত্যার প্রবণতা","hi":"आत्मघाती","ur":"خودکشی کا رجحان","tr":"İntihar eğilimi"}},
-{"id":"v29_05","germanTerm":"Stimmung","article":"die","plural":"Stimmungen","translation":{"en":"Mood","bn":"মেজাজ","hi":"मनोदशा","ur":"موڈ","tr":"Ruh hali"}},
-{"id":"v29_06","germanTerm":"Schlafstörung","article":"die","plural":"Schlafstörungen","translation":{"en":"Sleep Disorder","bn":"ঘুমের সমস্যা","hi":"नींद विकार","ur":"نیند کی خرابی","tr":"Uyku bozukluğu"}},
-{"id":"v29_07","germanTerm":"Therapie","article":"die","plural":"Therapien","translation":{"en":"Therapy","bn":"থেরাপি","hi":"चिकित्सा","ur":"تھراپی","tr":"Terapi"}}
-],"dialogues":[{"id":"d29_01","title":{"en":"Mental Health Assessment"},"lines":[
-{"speaker":"Arzt","germanText":"Wie ist Ihre Stimmung in letzter Zeit?","translation":{"en":"How has your mood been lately?"}},
-{"speaker":"Patient","germanText":"Ich fühle mich oft traurig und hoffnungslos.","translation":{"en":"I often feel sad and hopeless."}},
-{"speaker":"Arzt","germanText":"Haben Sie Gedanken, sich selbst zu verletzen?","translation":{"en":"Do you have thoughts of harming yourself?"}}
-]}],"exercises":[{"id":"e29_01","type":"multipleChoice","question":{"en":"What is 'Angststörung'?"},"options":["Anxiety Disorder","Depression","Psychosis"],"correctAnswer":"Anxiety Disorder","points":10}],"media":{"introVideoUrl":"video/sections/section_29/intro.mp4"}}
+{
+    "id": "section_29",
+    "phaseId": "phase2",
+    "order": 29,
+    "titleDe": "Psychiatrie",
+    "title": {
+        "en": "Psychiatry: Depression, Anxiety Disorders, Psychosis, Suicide, Therapy, Medication, Admission",
+        "bn": "মানসিক রোগবিদ্যা: বিষণ্ণতা, উদ্বেগজনিত ব্যাধি, সাইকোসিস, আত্মহত্যা, থেরাপি, ওষুধ, ভর্তি",
+        "hi": "मनोरोग: अवसाद, चिंता विकार, मनोविकृति, आत्महत्या, थेरेपी, दवा, दाखिला",
+        "ur": "نفسیات: ڈپریشن، اضطرابی امراض، سائیکوسِس، خودکشی، تھراپی، ادویات، داخلہ",
+        "tr": "Psikiyatri: Depresyon, Anksiyete Bozuklukları, Psikoz, İntihar, Terapi, İlaç Tedavisi, Yatış"
+    },
+    "description": {
+        "en": "This section covers common psychiatric disorders, their treatment options, and the process of hospital admission within the German healthcare system.",
+        "bn": "এই বিভাগে সাধারণ মানসিক রোগ, তাদের চিকিৎসার বিকল্প এবং জার্মান স্বাস্থ্যসেবা ব্যবস্থায় হাসপাতালে ভর্তির প্রক্রিয়া অন্তর্ভুক্ত রয়েছে।",
+        "hi": "इस खंड में सामान्य मनोरोग विकार, उनके उपचार विकल्प और जर्मन स्वास्थ्य सेवा प्रणाली के भीतर अस्पताल में भर्ती होने की प्रक्रिया शामिल है।",
+        "ur": "اس سیکشن میں عام نفسیاتی عوارض، ان کے علاج کے اختیارات، اور جرمن صحت کی دیکھ بھال کے نظام کے اندر اسپتال میں داخلے کے عمل کا احاطہ کیا گیا ہے۔",
+        "tr": "Bu bölüm, yaygın psikiyatrik bozuklukları, tedavi seçeneklerini ve Alman sağlık sistemi içindeki hastaneye yatış sürecini kapsamaktadır."
+    },
+    "level": "B2",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, you will learn about key psychiatric conditions like depression, anxiety, and psychosis. You will also explore German terminology related to suicide, therapy, medication, and hospital admissions for psychiatric care.",
+            "bn": "এই বিভাগে, আপনি বিষণ্ণতা, উদ্বেগ এবং সাইকোসিসের মতো প্রধান মানসিক অবস্থা সম্পর্কে জানতে পারবেন। এছাড়াও আপনি আত্মহত্যা, থেরাপি, ওষুধ এবং মানসিক যত্নের জন্য হাসপাতালে ভর্তির সাথে সম্পর্কিত জার্মান শব্দভাণ্ডার অন্বেষণ করবেন।",
+            "hi": "इस खंड में, आप अवसाद, चिंता और मनोविकृति जैसी प्रमुख मनोरोग स्थितियों के बारे में जानेंगे। आप आत्महत्या, थेरेपी, दवा और मनोरोग देखभाल के लिए अस्पताल में प्रवेश से संबंधित जर्मन शब्दावली का भी पता लगाएंगे।",
+            "ur": "اس سیکشن میں، آپ ڈپریشن، اضطراب اور سائیکوسس جیسی اہم نفسیاتی حالتوں کے بارے میں جانیں گے۔ آپ خودکشی، تھراپی، ادویات اور نفسیاتی نگہداشت کے لیے اسپتال میں داخلے سے متعلق جرمن اصطلاحات کو بھی دریافت کریں گے۔",
+            "tr": "Bu bölümde, depresyon, anksiyete ve psikoz gibi temel psikiyatrik durumları öğreneceksiniz. Ayrıca intihar, terapi, ilaç tedavisi ve psikiyatrik bakım için hastaneye yatış ile ilgili Almanca terminolojiyi de keşfedeceksiniz."
+        },
+        "grammarFocus": {
+            "en": {
+                "bullet1": "Understanding the declension of adjectives describing psychiatric symptoms (e.g., 'depressive Verstimmung' – depressive mood).",
+                "bullet2": "Using modal verbs to express necessity or obligation related to treatment (e.g., 'Der Patient muss Medikamente einnehmen' – The patient must take medication)."
+            },
+            "bn": {
+                "bullet1": "মানসিক রোগের লক্ষণ বর্ণনা করার জন্য বিশেষণগুলোর কারক বোঝা (যেমন, 'depressive Verstimmung' - বিষণ্ণ মেজাজ)।",
+                "bullet2": "চিকিৎসার সাথে সম্পর্কিত প্রয়োজনীয়তা বা বাধ্যবাধকতা প্রকাশ করার জন্য মোডাল ক্রিয়া ব্যবহার করা (যেমন, 'Der Patient muss Medikamente einnehmen' - রোগীকে ওষুধ খেতে হবে)।"
+            },
+            "hi": {
+                "bullet1": "मनोरोग लक्षणों का वर्णन करने वाले विशेषणों का विभक्ति समझना (जैसे, 'depressive Verstimmung' - उदास मनोदशा)।",
+                "bullet2": "उपचार से संबंधित आवश्यकता या बाध्यता व्यक्त करने के लिए मोडल क्रियाओं का उपयोग करना (जैसे, 'Der Patient muss Medikamente einnehmen' - रोगी को दवा लेनी होगी)।"
+            },
+            "ur": {
+                "bullet1": "نفسیاتی علامات کو بیان کرنے والے صفات کی گردان کو سمجھنا (مثال کے طور پر، 'depressive Verstimmung' - افسردہ مزاج)۔",
+                "bullet2": "علاج سے متعلق ضرورت یا ذمہ داری کے اظہار کے لیے موڈل فعل کا استعمال کرنا (مثال کے طور پر، 'Der Patient muss Medikamente einnehmen' - مریض کو دوا لینی ہوگی)۔"
+            },
+            "tr": {
+                "bullet1": "Psikiyatrik semptomları tanımlayan sıfatların çekimini anlamak (örn., 'depressive Verstimmung' – depresif ruh hali).",
+                "bullet2": "Tedavi ile ilgili gerekliliği veya zorunluluğu ifade etmek için modal fiilleri kullanmak (örn., 'Der Patient muss Medikamente einnehmen' – Hastanın ilaç alması gerekiyor)."
+            }
+        },
+        "culturalNotes": {
+            "en": "In Germany, psychiatric care is often integrated with general healthcare, and patients have strong rights regarding their treatment and confidentiality.",
+            "bn": "জার্মানিতে, মানসিক স্বাস্থ্যসেবা প্রায়শই সাধারণ স্বাস্থ্যসেবার সাথে সমন্বিত, এবং রোগীদের তাদের চিকিৎসা এবং গোপনীয়তা সম্পর্কিত শক্তিশালী অধিকার রয়েছে।",
+            "hi": "जर्मनी में, मनोरोग देखभाल अक्सर सामान्य स्वास्थ्य सेवा के साथ एकीकृत होती है, और रोगियों को उनके उपचार और गोपनीयता के बारे में मजबूत अधिकार होते हैं।",
+            "ur": "جرمنی میں، نفسیاتی نگہداشت اکثر عام صحت کی دیکھ بھال کے ساتھ مربوط ہوتی ہے، اور مریضوں کو ان کے علاج اور رازداری کے بارے میں مضبوط حقوق حاصل ہوتے ہیں۔",
+            "tr": "Almanya'da psikiyatrik bakım genellikle genel sağlık hizmetlerine entegre edilmiştir ve hastaların tedavileri ve gizlilikleri konusunda güçlü hakları vardır."
+        },
+        "summary": {
+            "en": "This section provided an overview of key psychiatric conditions and related vocabulary necessary for medical professionals practicing in a German-speaking environment.",
+            "bn": "এই বিভাগে জার্মান-ভাষী পরিবেশে অনুশীলন করা চিকিৎসা পেশাদারদের জন্য প্রয়োজনীয় মূল মানসিক অবস্থা এবং সম্পর্কিত শব্দভাণ্ডারের একটি সংক্ষিপ্ত বিবরণ দেওয়া হয়েছে।",
+            "hi": "इस खंड में जर्मन भाषी वातावरण में अभ्यास करने वाले चिकित्सा पेशेवरों के लिए आवश्यक प्रमुख मनोरोग स्थितियों और संबंधित शब्दावली का संक्षिप्त विवरण दिया गया है।",
+            "ur": "اس سیکشن میں جرمن بولنے والے ماحول میں مشق کرنے والے طبی پیشہ ور افراد کے لیے ضروری کلیدی نفسیاتی حالتوں اور متعلقہ الفاظ کا ایک مختصر جائزہ فراہم کیا گیا ہے۔",
+            "tr": "Bu bölüm, Almanca konuşulan bir ortamda çalışan tıp uzmanları için gerekli olan temel psikiyatrik durumların ve ilgili kelime dağarcığının bir özetini sunmuştur."
+        },
+        "learningObjectives": [
+            "Recognize and define common psychiatric disorders in German.",
+            "Understand German medical terminology related to therapy, medication, and hospital admission.",
+            "Apply relevant grammar structures to describe psychiatric conditions and treatment options.",
+            "Explain key aspects of German medical culture related to psychiatric care."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "die Depression",
+            "article": "die",
+            "plural": "die Depressionen",
+            "pronunciation": "/deːpʁeˈsi̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "depression",
+                "bn": "বিষণ্ণতা",
+                "hi": "अवसाद",
+                "ur": "ڈپریشن",
+                "tr": "depresyon"
+            },
+            "exampleSentence": "Der Patient leidet unter einer schweren Depression.",
+            "exampleTranslation": {
+                "en": "The patient suffers from severe depression.",
+                "bn": "রোগী মারাত্মক বিষণ্ণতায় ভুগছেন।",
+                "hi": "मरीज गंभीर अवसाद से पीड़ित है।",
+                "ur": "مریض شدید ڈپریشن میں مبتلا ہے۔",
+                "tr": "Hasta şiddetli depresyondan muzdarip."
+            },
+            "id": "v29_01"
+        },
+        {
+            "germanTerm": "die Angststörung",
+            "article": "die",
+            "plural": "die Angststörungen",
+            "pronunciation": "/ˈaŋstˌʃtøːʁʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "anxiety disorder",
+                "bn": "উদ্বেগজনিত ব্যাধি",
+                "hi": "चिंता विकार",
+                "ur": "اضطراب کی خرابی",
+                "tr": "anksiyete bozukluğu"
+            },
+            "exampleSentence": "Sie wurde wegen einer generalisierten Angststörung behandelt.",
+            "exampleTranslation": {
+                "en": "She was treated for generalized anxiety disorder.",
+                "bn": "তাকে সাধারণ উদ্বেগজনিত ব্যাধির জন্য চিকিৎসা করা হয়েছিল।",
+                "hi": "उसका सामान्यीकृत चिंता विकार के लिए इलाज किया गया था।",
+                "ur": "اسے عام اضطراب کی خرابی کے لیے علاج کیا گیا تھا۔",
+                "tr": "Genelleşmiş anksiyete bozukluğu için tedavi gördü."
+            },
+            "id": "v29_02"
+        },
+        {
+            "germanTerm": "die Psychose",
+            "article": "die",
+            "plural": "die Psychosen",
+            "pronunciation": "/psyˈçoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "psychosis",
+                "bn": "সাইকোসিস",
+                "hi": "मनोविकृति",
+                "ur": "ذہنی بیماری",
+                "tr": "psikoz"
+            },
+            "exampleSentence": "Die Psychose manifestierte sich durch Halluzinationen und Wahnvorstellungen.",
+            "exampleTranslation": {
+                "en": "The psychosis manifested as hallucinations and delusions.",
+                "bn": "সাইকোসিস হ্যালুসিনেশন এবং বিভ্রমের মাধ্যমে প্রকাশিত হয়েছিল।",
+                "hi": "मनोविकृति मतिभ्रम और भ्रम के रूप में प्रकट हुई।",
+                "ur": "ذہنی بیماری ہالوسینیشن اور وہم کے طور پر ظاہر ہوئی۔",
+                "tr": "Psikoz, halüsinasyonlar ve sanrılar şeklinde kendini gösterdi."
+            },
+            "id": "v29_03"
+        },
+        {
+            "germanTerm": "der Suizid",
+            "article": "der",
+            "plural": "die Suizide",
+            "pronunciation": "/zu̯iˈt͡siːt/",
+            "category": "noun",
+            "translation": {
+                "en": "suicide",
+                "bn": "আত্মহত্যা",
+                "hi": "आत्महत्या",
+                "ur": "خودکشی",
+                "tr": "intihar"
+            },
+            "exampleSentence": "Es besteht Suizidgefahr, daher muss er überwacht werden.",
+            "exampleTranslation": {
+                "en": "There is a risk of suicide, so he needs to be monitored.",
+                "bn": "আত্মহত্যার ঝুঁকি রয়েছে, তাই তাকে নজরে রাখতে হবে।",
+                "hi": "आत्महत्या का खतरा है, इसलिए उसे निगरानी में रखने की जरूरत है।",
+                "ur": "خودکشی کا خطرہ ہے، اس لیے اسے زیر نگرانی رکھنے کی ضرورت ہے۔",
+                "tr": "İntihar riski var, bu yüzden izlenmesi gerekiyor."
+            },
+            "id": "v29_04"
+        },
+        {
+            "germanTerm": "die Therapie",
+            "article": "die",
+            "plural": "die Therapien",
+            "pronunciation": "/teˈʁaːpi/",
+            "category": "noun",
+            "translation": {
+                "en": "therapy",
+                "bn": "থেরাপি",
+                "hi": "थेरेपी",
+                "ur": "تھراپی",
+                "tr": "terapi"
+            },
+            "exampleSentence": "Die Therapie zeigt erste Erfolge.",
+            "exampleTranslation": {
+                "en": "The therapy is showing initial success.",
+                "bn": "থেরাপিতে প্রাথমিক সাফল্য দেখা যাচ্ছে।",
+                "hi": "थेरेपी शुरुआती सफलता दिखा रही है।",
+                "ur": "تھراپی ابتدائی کامیابی دکھا رہی ہے۔",
+                "tr": "Terapi ilk başarıları gösteriyor."
+            },
+            "id": "v29_05"
+        },
+        {
+            "germanTerm": "die Medikation",
+            "article": "die",
+            "plural": "die Medikationen",
+            "pronunciation": "/medikaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "medication",
+                "bn": "ওষুধ",
+                "hi": "दवा",
+                "ur": "ادویات",
+                "tr": "ilaç"
+            },
+            "exampleSentence": "Die Medikation muss regelmäßig eingenommen werden.",
+            "exampleTranslation": {
+                "en": "The medication must be taken regularly.",
+                "bn": "ওষুধ নিয়মিত সেবন করতে হবে।",
+                "hi": "दवा नियमित रूप से लेनी होगी।",
+                "ur": "ادویات کو باقاعدگی سے لینا ضروری ہے۔",
+                "tr": "İlaç düzenli olarak alınmalıdır."
+            },
+            "id": "v29_06"
+        },
+        {
+            "germanTerm": "die Einweisung",
+            "article": "die",
+            "plural": "die Einweisungen",
+            "pronunciation": "/ˈaɪ̯nˌvaɪ̯zʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "admission",
+                "bn": "ভর্তি",
+                "hi": "प्रवेश",
+                "ur": "داخلہ",
+                "tr": "kabul"
+            },
+            "exampleSentence": "Die Einweisung erfolgte aufgrund akuter Suizidgefahr.",
+            "exampleTranslation": {
+                "en": "The admission was due to acute risk of suicide.",
+                "bn": "তীব্র আত্মহত্যার ঝুঁকির কারণে ভর্তি করা হয়েছিল।",
+                "hi": "तीव्र आत्महत्या के जोखिम के कारण प्रवेश किया गया था।",
+                "ur": "شدید خودکشی کے خطرے کی وجہ سے داخلہ ہوا تھا۔",
+                "tr": "Akut intihar riski nedeniyle kabul edildi."
+            },
+            "id": "v29_07"
+        },
+        {
+            "germanTerm": "der Psychiater",
+            "article": "der",
+            "plural": "die Psychiater",
+            "pronunciation": "/p͡syˈçiaːtɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "psychiatrist",
+                "bn": "মানসিক রোগ বিশেষজ্ঞ",
+                "hi": "मनोचिकित्सक",
+                "ur": "نفسیاتی ماہر",
+                "tr": "psikiyatrist"
+            },
+            "exampleSentence": "Der Psychiater führte ein ausführliches Gespräch mit dem Patienten.",
+            "exampleTranslation": {
+                "en": "The psychiatrist had a detailed conversation with the patient.",
+                "bn": "মানসিক রোগ বিশেষজ্ঞ রোগীর সাথে বিস্তারিত আলোচনা করেছেন।",
+                "hi": "मनोचिकित्सक ने मरीज के साथ विस्तृत बातचीत की।",
+                "ur": "نفسیاتی ماہر نے مریض کے ساتھ تفصیلی گفتگو کی۔",
+                "tr": "Psikiyatrist hasta ile detaylı bir görüşme yaptı."
+            },
+            "id": "v29_08"
+        },
+        {
+            "germanTerm": "psychisch",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈp͡syːʃɪʃ/",
+            "category": "adjective",
+            "translation": {
+                "en": "mental",
+                "bn": "মানসিক",
+                "hi": "मानसिक",
+                "ur": "ذہنی",
+                "tr": "ruhsal"
+            },
+            "exampleSentence": "Er hat psychische Probleme.",
+            "exampleTranslation": {
+                "en": "He has mental problems.",
+                "bn": "তার মানসিক সমস্যা আছে।",
+                "hi": "उसे मानसिक समस्याएँ हैं।",
+                "ur": "اسے ذہنی مسائل ہیں۔",
+                "tr": "Zihinsel sorunları var."
+            },
+            "id": "v29_09"
+        },
+        {
+            "germanTerm": "die Angst",
+            "article": "die",
+            "plural": "die Ängste",
+            "pronunciation": "/aŋst/",
+            "category": "noun",
+            "translation": {
+                "en": "fear/anxiety",
+                "bn": "ভয়/উদ্বেগ",
+                "hi": "डर/चिंता",
+                "ur": "خوف/اضطراب",
+                "tr": "korku/endişe"
+            },
+            "exampleSentence": "Sie hat Angst vor Menschenmengen.",
+            "exampleTranslation": {
+                "en": "She is afraid of crowds.",
+                "bn": "সে জনসমাগমকে ভয় পায়।",
+                "hi": "उसे भीड़ से डर लगता है।",
+                "ur": "وہ ہجوم سے ڈرتی ہے۔",
+                "tr": "Kalabalıklardan korkuyor."
+            },
+            "id": "v29_10"
+        },
+        {
+            "germanTerm": "die Manie",
+            "article": "die",
+            "plural": "die Manien",
+            "pronunciation": "/maˈniːə/",
+            "category": "noun",
+            "translation": {
+                "en": "mania",
+                "bn": "ম্যানিয়া",
+                "hi": "उन्माद",
+                "ur": "جنون",
+                "tr": "mani"
+            },
+            "exampleSentence": "Während der Manie ist er sehr aktiv und euphorisch.",
+            "exampleTranslation": {
+                "en": "During mania, he is very active and euphoric.",
+                "bn": "ম্যানিয়ার সময়, তিনি খুব সক্রিয় এবং উচ্ছ্বসিত থাকেন।",
+                "hi": "उन्माद के दौरान, वह बहुत सक्रिय और उत्साहित है।",
+                "ur": "جنون کے دوران، وہ بہت فعال اور خوش مزاج ہوتا ہے۔",
+                "tr": "Mani sırasında çok aktif ve coşkulu."
+            },
+            "id": "v29_11"
+        },
+        {
+            "germanTerm": "bipolar",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/biˈpoːlaːɐ̯/",
+            "category": "adjective",
+            "translation": {
+                "en": "bipolar",
+                "bn": "বাইপোলার",
+                "hi": "द्विध्रुवी",
+                "ur": "دو قطبی",
+                "tr": "bipolar"
+            },
+            "exampleSentence": "Die Patientin hat eine bipolare Störung.",
+            "exampleTranslation": {
+                "en": "The patient has bipolar disorder.",
+                "bn": "রোগীর বাইপোলার ব্যাধি রয়েছে।",
+                "hi": "मरीज को द्विध्रुवी विकार है।",
+                "ur": "مریض کو دو قطبی خرابی ہے۔",
+                "tr": "Hastada bipolar bozukluk var."
+            },
+            "id": "v29_12"
+        },
+        {
+            "germanTerm": "die Halluzination",
+            "article": "die",
+            "plural": "die Halluzinationen",
+            "pronunciation": "/halut͡sinaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "hallucination",
+                "bn": "অলীক কল্পনা",
+                "hi": "मतिभ्रम",
+                "ur": "ہلوسینیشن",
+                "tr": "halüsinasyon"
+            },
+            "exampleSentence": "Er leidet unter akustischen Halluzinationen.",
+            "exampleTranslation": {
+                "en": "He suffers from auditory hallucinations.",
+                "bn": "তিনি শ্রবণীয় অলীক কল্পনার শিকার।",
+                "hi": "वह श्रवण मतिभ्रम से पीड़ित है।",
+                "ur": "وہ سمعی ہلوسینیشن میں مبتلا ہے۔",
+                "tr": "İşitsel halüsinasyonlardan muzdarip."
+            },
+            "id": "v29_13"
+        },
+        {
+            "germanTerm": "die Wahnvorstellung",
+            "article": "die",
+            "plural": "die Wahnvorstellungen",
+            "pronunciation": "/ˈvaːnˌfɔɐ̯ˌʃtɛlʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "delusion",
+                "bn": "বিভ্রম",
+                "hi": "भ्रम",
+                "ur": "وہم",
+                "tr": "sanrı"
+            },
+            "exampleSentence": "Sie hat Wahnvorstellungen, verfolgt zu werden.",
+            "exampleTranslation": {
+                "en": "She has delusions of being persecuted.",
+                "bn": "তার মনে হয় তাকে অনুসরণ করা হচ্ছে।",
+                "hi": "उसे लगता है कि उसका पीछा किया जा रहा है।",
+                "ur": "اسے وہم ہے کہ اس کا پیچھا کیا جا رہا ہے۔",
+                "tr": "Takip edildiği sanrıları var."
+            },
+            "id": "v29_14"
+        },
+        {
+            "germanTerm": "der Rückfall",
+            "article": "der",
+            "plural": "die Rückfälle",
+            "pronunciation": "/ˈʁʏkˌfal/",
+            "category": "noun",
+            "translation": {
+                "en": "relapse",
+                "bn": "পুনরায় আক্রমণ",
+                "hi": "पतन",
+                "ur": "دوبارہ ہونا",
+                "tr": "nüks"
+            },
+            "exampleSentence": "Er hatte einen Rückfall und musste erneut behandelt werden.",
+            "exampleTranslation": {
+                "en": "He had a relapse and had to be treated again.",
+                "bn": "তার পুনরায় আক্রমণ হয়েছিল এবং তাকে আবার চিকিৎসা করাতে হয়েছিল।",
+                "hi": "उसका पतन हो गया और उसे फिर से इलाज कराना पड़ा।",
+                "ur": "اسے دوبارہ حملہ ہوا اور اسے دوبارہ علاج کرانا پڑا۔",
+                "tr": "Nüks etti ve tekrar tedavi edilmesi gerekti."
+            },
+            "id": "v29_15"
+        },
+        {
+            "germanTerm": "die Rehabilitation",
+            "article": "die",
+            "plural": "die Rehabilitationen",
+            "pronunciation": "/ˌʁeːhabilitaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "rehabilitation",
+                "bn": "পুনর্বাসন",
+                "hi": "पुनर्वास",
+                "ur": "بحالی",
+                "tr": "rehabilitasyon"
+            },
+            "exampleSentence": "Nach dem Klinikaufenthalt folgte eine Rehabilitation.",
+            "exampleTranslation": {
+                "en": "Rehabilitation followed after the hospital stay.",
+                "bn": "হাসপাতালে থাকার পর পুনর্বাসন অনুসরণ করা হয়েছিল।",
+                "hi": "अस्पताल में रहने के बाद पुनर्वास किया गया।",
+                "ur": "ہسپتال میں قیام کے بعد بحالی کی گئی۔",
+                "tr": "Hastane yatışından sonra rehabilitasyon takip etti."
+            },
+            "id": "v29_16"
+        },
+        {
+            "germanTerm": "das Antidepressivum",
+            "article": "das",
+            "plural": "die Antidepressiva",
+            "pronunciation": "/antidepʁeˈsiːvʊm/",
+            "category": "noun",
+            "translation": {
+                "en": "antidepressant",
+                "bn": "অ্যান্টিডিপ্রেসেন্ট",
+                "hi": "अवसादरोधी",
+                "ur": "اینٹی ڈپریسنٹ",
+                "tr": "antidepresan"
+            },
+            "exampleSentence": "Das Antidepressivum wirkt stimmungsaufhellend.",
+            "exampleTranslation": {
+                "en": "The antidepressant has a mood-lifting effect.",
+                "bn": "অ্যান্টিডিপ্রেসেন্ট মেজাজ উন্নত করে।",
+                "hi": "अवसादरोधी दवा मनोदशा को बेहतर बनाती है।",
+                "ur": "اینٹی ڈپریسنٹ موڈ کو بہتر بناتا ہے۔",
+                "tr": "Antidepresan ruh halini iyileştirici etkiye sahiptir."
+            },
+            "id": "v29_17"
+        },
+        {
+            "germanTerm": "das Neuroleptikum",
+            "article": "das",
+            "plural": "die Neuroleptika",
+            "pronunciation": "/nɔɪ̯ʁolepˈtɪkʊm/",
+            "category": "noun",
+            "translation": {
+                "en": "neuroleptic",
+                "bn": "নিউরোলেপটিক",
+                "hi": "न्यूरोलेप्टिक",
+                "ur": "نیورولیپٹک",
+                "tr": "nöroleptik"
+            },
+            "exampleSentence": "Neuroleptika werden zur Behandlung von Psychosen eingesetzt.",
+            "exampleTranslation": {
+                "en": "Neuroleptics are used to treat psychoses.",
+                "bn": "সাইকোসিসের চিকিৎসার জন্য নিউরোলেপটিক ব্যবহার করা হয়।",
+                "hi": "मनोविकृति के इलाज के लिए न्यूरोलेप्टिक का उपयोग किया जाता है।",
+                "ur": "ذہنی امراض کے علاج کے لیے نیورولیپٹک ادویات استعمال کی جاتی ہیں۔",
+                "tr": "Nöroleptikler psikozları tedavi etmek için kullanılır."
+            },
+            "id": "v29_18"
+        },
+        {
+            "germanTerm": "die Zwangsstörung",
+            "article": "die",
+            "plural": "die Zwangsstörungen",
+            "pronunciation": "/ˈt͡svaŋsˌʃtøːʁʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "obsessive-compulsive disorder (OCD)",
+                "bn": "অবসেসিভ-কম্পালসিভ ডিসঅর্ডার (ওসিডি)",
+                "hi": "जुनूनी-बाध्यकारी विकार (ओसीडी)",
+                "ur": "وسواس قهری خرابی (او سی ڈی)",
+                "tr": "obsesif-kompulsif bozukluk (OKB)"
+            },
+            "exampleSentence": "Sie leidet unter einer schweren Zwangsstörung mit Waschzwang.",
+            "exampleTranslation": {
+                "en": "She suffers from severe obsessive-compulsive disorder with compulsive washing.",
+                "bn": "তিনি ধোয়া বাধ্যতামূলকতা সহ একটি মারাত্মক অবসেসিভ-কম্পালসিভ ডিসঅর্ডারে ভুগছেন।",
+                "hi": "वह बाध्यकारी धोने के साथ गंभीर जुनूनी-बाध्यकारी विकार से पीड़ित है।",
+                "ur": "وہ جبری دھونے کے ساتھ شدید وسواس قهری خرابی کا شکار ہے۔",
+                "tr": "Takıntılı yıkama ile şiddetli obsesif-kompulsif bozukluktan muzdarip."
+            },
+            "id": "v29_19"
+        },
+        {
+            "germanTerm": "soziale Phobie",
+            "article": "die",
+            "plural": "die sozialen Phobien",
+            "pronunciation": "/zoˈt͡si̯aːlə foˈbiː/",
+            "category": "noun",
+            "translation": {
+                "en": "social phobia",
+                "bn": "সামাজিক ফোবিয়া",
+                "hi": "सामाजिक भय",
+                "ur": "سماجی خوف",
+                "tr": "sosyal fobi"
+            },
+            "exampleSentence": "Die soziale Phobie beeinträchtigt ihr Leben stark.",
+            "exampleTranslation": {
+                "en": "Social phobia significantly impairs her life.",
+                "bn": "সামাজিক ফোবিয়া তার জীবনকে মারাত্মকভাবে ব্যাহত করে।",
+                "hi": "सामाजिक भय उसके जीवन को महत्वपूर्ण रूप से बाधित करता है।",
+                "ur": "سماجی خوف اس کی زندگی کو نمایاں طور پر متاثر کرتا ہے۔",
+                "tr": "Sosyal fobi hayatını önemli ölçüde etkiliyor."
+            },
+            "id": "v29_20"
+        },
+        {
+            "germanTerm": "die Panikattacke",
+            "article": "die",
+            "plural": "die Panikattacken",
+            "pronunciation": "/ˈpaːnɪkʔaˌtaktə/",
+            "category": "noun",
+            "translation": {
+                "en": "panic attack",
+                "bn": "আতঙ্ক আক্রমণ",
+                "hi": "पैनिक अटैक",
+                "ur": "گھبراہٹ کا حملہ",
+                "tr": "panik atak"
+            },
+            "exampleSentence": "Sie hatte eine Panikattacke im Wartezimmer.",
+            "exampleTranslation": {
+                "en": "She had a panic attack in the waiting room.",
+                "bn": "ওয়েটিং রুমে তার একটি আতঙ্ক আক্রমণ হয়েছিল।",
+                "hi": "उसे प्रतीक्षालय में एक पैनिक अटैक आया।",
+                "ur": "اسے ویٹنگ روم میں گھبراہٹ کا حملہ ہوا۔",
+                "tr": "Bekleme odasında panik atak geçirdi."
+            },
+            "id": "v29_21"
+        },
+        {
+            "germanTerm": "der Trauma",
+            "article": "das",
+            "plural": "die Traumata",
+            "pronunciation": "/ˈtʁaʊ̯ma/",
+            "category": "noun",
+            "translation": {
+                "en": "trauma",
+                "bn": "আঘাত",
+                "hi": "आघात",
+                "ur": "صدمہ",
+                "tr": "travma"
+            },
+            "exampleSentence": "Das Trauma muss verarbeitet werden.",
+            "exampleTranslation": {
+                "en": "The trauma needs to be processed.",
+                "bn": "আঘাত নিরাময় করা দরকার।",
+                "hi": "आघात को संसाधित करने की आवश्यकता है।",
+                "ur": "صدمے کو حل کرنے کی ضرورت ہے۔",
+                "tr": "Travmanın işlenmesi gerekiyor."
+            },
+            "id": "v29_22"
+        },
+        {
+            "germanTerm": "das Gespräch",
+            "article": "das",
+            "plural": "die Gespräche",
+            "pronunciation": "/ɡəˈʃpʁɛːç/",
+            "category": "noun",
+            "translation": {
+                "en": "conversation/talk",
+                "bn": "কথোপকথন/আলোচনা",
+                "hi": "बातचीत",
+                "ur": "بات چیت",
+                "tr": "konuşma"
+            },
+            "exampleSentence": "Wir führen ein therapeutisches Gespräch.",
+            "exampleTranslation": {
+                "en": "We are having a therapeutic conversation.",
+                "bn": "আমরা একটি থেরাপিউটিক আলোচনা করছি।",
+                "hi": "हम एक चिकित्सीय बातचीत कर रहे हैं।",
+                "ur": "ہم ایک علاج معالجے کی بات چیت کر رہے ہیں۔",
+                "tr": "Terapötik bir konuşma yapıyoruz."
+            },
+            "id": "v29_23"
+        },
+        {
+            "germanTerm": "die Selbstverletzung",
+            "article": "die",
+            "plural": "die Selbstverletzungen",
+            "pronunciation": "/ˈzɛlpstfɛɐ̯ˌlɛt͡sʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "self-harm",
+                "bn": "আত্ম-ক্ষতি",
+                "hi": "आत्म-नुकसान",
+                "ur": "خود کو نقصان پہنچانا",
+                "tr": "kendine zarar verme"
+            },
+            "exampleSentence": "Sie zeigt Anzeichen von Selbstverletzung.",
+            "exampleTranslation": {
+                "en": "She shows signs of self-harm.",
+                "bn": "তিনি আত্ম-ক্ষতির লক্ষণ দেখাচ্ছেন।",
+                "hi": "वह आत्म-नुकसान के लक्षण दिखा रही है।",
+                "ur": "وہ خود کو نقصان پہنچانے کے آثار دکھا رہی ہے۔",
+                "tr": "Kendine zarar verme belirtileri gösteriyor."
+            },
+            "id": "v29_24"
+        },
+        {
+            "germanTerm": "der Auslöser",
+            "article": "der",
+            "plural": "die Auslöser",
+            "pronunciation": "/ˈaʊ̯sˌløːzɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "trigger",
+                "bn": "ট্রিগার",
+                "hi": "ट्रिगर",
+                "ur": "ٹرگر",
+                "tr": "tetikleyici"
+            },
+            "exampleSentence": "Stress kann ein Auslöser für die Angststörung sein.",
+            "exampleTranslation": {
+                "en": "Stress can be a trigger for anxiety disorder.",
+                "bn": "মানসিক চাপ উদ্বেগজনিত ব্যাধির জন্য একটি ট্রিগার হতে পারে।",
+                "hi": "तनाव चिंता विकार के लिए एक ट्रिगर हो सकता है।",
+                "ur": "تناؤ اضطراب کی خرابی کا سبب بن سکتا ہے۔",
+                "tr": "Stres, anksiyete bozukluğu için bir tetikleyici olabilir."
+            },
+            "id": "v29_25"
+        },
+        {
+            "germanTerm": "die Resilienz",
+            "article": "die",
+            "plural": "die Resilienzen",
+            "pronunciation": "/ʁeziˈli̯ɛnt͡s/",
+            "category": "noun",
+            "translation": {
+                "en": "resilience",
+                "bn": "স্থিতিস্থাপকতা",
+                "hi": "लचीलापन",
+                "ur": "لچک",
+                "tr": "dayanıklılık"
+            },
+            "exampleSentence": "Resilienz hilft, schwierige Lebenssituationen zu bewältigen.",
+            "exampleTranslation": {
+                "en": "Resilience helps to cope with difficult life situations.",
+                "bn": "স্থিতিস্থাপকতা কঠিন জীবনের পরিস্থিতি মোকাবেলা করতে সহায়তা করে।",
+                "hi": "लचीलापन कठिन जीवन स्थितियों से निपटने में मदद करता है।",
+                "ur": "لچک مشکل زندگی کے حالات سے نمٹنے میں مدد کرتی ہے۔",
+                "tr": "Dayanıklılık, zorlu yaşam durumlarıyla başa çıkmaya yardımcı olur."
+            },
+            "id": "v29_26"
+        },
+        {
+            "germanTerm": "chronisch",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈkʁoːnɪʃ/",
+            "category": "adjective",
+            "translation": {
+                "en": "chronic",
+                "bn": "দীর্ঘস্থায়ী",
+                "hi": "पुराना",
+                "ur": "دائمی",
+                "tr": "kronik"
+            },
+            "exampleSentence": "Es handelt sich um eine chronische Depression.",
+            "exampleTranslation": {
+                "en": "It is a chronic depression.",
+                "bn": "এটি একটি দীর্ঘস্থায়ী বিষণ্ণতা।",
+                "hi": "यह एक पुरानी अवसाद है।",
+                "ur": "یہ ایک دائمی ڈپریشن ہے۔",
+                "tr": "Kronik bir depresyon vakasıdır."
+            },
+            "id": "v29_27"
+        },
+        {
+            "germanTerm": "die Verhaltensweise",
+            "article": "die",
+            "plural": "die Verhaltensweisen",
+            "pronunciation": "/fɛɐ̯ˈhaltənsˌvaɪ̯zə/",
+            "category": "noun",
+            "translation": {
+                "en": "behavior",
+                "bn": "আচরণ",
+                "hi": "व्यवहार",
+                "ur": "رویّہ",
+                "tr": "davranış"
+            },
+            "exampleSentence": "Auffällige Verhaltensweisen wurden beobachtet.",
+            "exampleTranslation": {
+                "en": "Noticeable behaviors were observed.",
+                "bn": "নজরকাড়া আচরণ পরিলক্ষিত হয়েছে।",
+                "hi": "ध्यान देने योग्य व्यवहार देखे गए।",
+                "ur": "قابل ذکر رویے دیکھے گئے۔",
+                "tr": "Dikkate değer davranışlar gözlemlendi."
+            },
+            "id": "v29_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Depression Diagnosis",
+                "bn": "বিষণ্ণতা নির্ণয়",
+                "hi": "अवसाद निदान",
+                "ur": "افسردگی کی تشخیص",
+                "tr": "Depresyon Teşhisi"
+            },
+            "context": {
+                "en": "Dr. Schmidt interviews Mr. Müller about his persistent sadness and lack of energy.",
+                "bn": "ডঃ শ্মিট মিঃ মুলারকে তার অবিরাম দুঃখ এবং শক্তির অভাব সম্পর্কে সাক্ষাৎকার নিচ্ছেন।",
+                "hi": "डॉ. श्मिट श्री मूलर से उनकी लगातार उदासी और ऊर्जा की कमी के बारे में साक्षात्कार कर रहे हैं।",
+                "ur": "ڈاکٹر شمٹ مسٹر ملر سے ان کی مسلسل اداسی اور توانائی کی کمی کے بارے میں پوچھ گچھ کر رہے ہیں۔",
+                "tr": "Dr. Schmidt, Bay Müller ile sürekli üzüntüsü ve enerji eksikliği hakkında görüşüyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Tag, Herr Müller. Seit wann fühlen Sie sich denn so niedergeschlagen?",
+                    "translation": {
+                        "en": "Good day, Mr. Müller. Since when have you been feeling so down?",
+                        "bn": "শুভ দিন, মিঃ মুলার। আপনি কবে থেকে এত খারাপ বোধ করছেন?",
+                        "hi": "शुभ दिन, श्री मूलर। आप कब से इतना नीचे महसूस कर रहे हैं?",
+                        "ur": "شب بخیر، مسٹر ملر۔ آپ کب سے اتنا مایوس محسوس کر رہے ہیں؟",
+                        "tr": "İyi günler, Bay Müller. Ne zamandır bu kadar keyifsiz hissediyorsunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ungefähr seit drei Monaten. Ich habe keine Energie und kann mich zu nichts aufraffen.",
+                    "translation": {
+                        "en": "For about three months. I have no energy and can't bring myself to do anything.",
+                        "bn": "প্রায় তিন মাস ধরে। আমার কোনো শক্তি নেই এবং আমি নিজেকে কিছু করতে রাজি করাতে পারছি না।",
+                        "hi": "लगभग तीन महीने से। मेरे पास कोई ऊर्जा नहीं है और मैं खुद को कुछ करने के लिए नहीं ला सकता।",
+                        "ur": "تقریباً تین مہینے سے۔ میرے پاس کوئی توانائی نہیں ہے اور میں خود کو کچھ کرنے پر مجبور نہیں کر سکتا۔",
+                        "tr": "Yaklaşık üç aydır. Hiç enerjim yok ve kendimi hiçbir şey yapmaya zorlayamıyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Haben Sie auch Schlafstörungen oder Appetitverlust?",
+                    "translation": {
+                        "en": "Do you also have sleep problems or loss of appetite?",
+                        "bn": "আপনার কি ঘুমের সমস্যা বা ক্ষুধা হ্রাস আছে?",
+                        "hi": "क्या आपको नींद की समस्या या भूख में कमी भी है?",
+                        "ur": "کیا آپ کو نیند کی پریشانی یا بھوک میں کمی بھی ہے؟",
+                        "tr": "Uyku sorunlarınız veya iştah kaybınız da var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, beides. Ich schlafe schlecht und habe keinen Hunger.",
+                    "translation": {
+                        "en": "Yes, both. I sleep poorly and have no appetite.",
+                        "bn": "হ্যাঁ, দুটোই। আমি খারাপ ঘুমাই এবং আমার কোনো ক্ষুধা নেই।",
+                        "hi": "हाँ, दोनों। मैं बुरी तरह सोता हूँ और मुझे भूख नहीं लगती।",
+                        "ur": "ہاں، دونوں۔ میں بری طرح سوتا ہوں اور مجھے بھوک نہیں لگتی۔",
+                        "tr": "Evet, ikisi de. Kötü uyuyorum ve iştahım yok."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das klingt nach einer Depression. Wir sollten weitere Untersuchungen durchführen.",
+                    "translation": {
+                        "en": "That sounds like depression. We should do further investigations.",
+                        "bn": "এটা শুনে বিষণ্ণতা মনে হচ্ছে। আমাদের আরও তদন্ত করা উচিত।",
+                        "hi": "यह अवसाद जैसा लगता है। हमें आगे की जांच करनी चाहिए।",
+                        "ur": "یہ ڈپریشن کی طرح لگتا ہے۔ ہمیں مزید تحقیقات کرنی چاہیے۔",
+                        "tr": "Bu depresyona benziyor. Daha fazla araştırma yapmalıyız."
+                    }
+                }
+            ],
+            "id": "d29_01"
+        },
+        {
+            "title": {
+                "en": "Anxiety Disorder Treatment",
+                "bn": "উদ্বেগজনিত ব্যাধির চিকিৎসা",
+                "hi": "चिंता विकार उपचार",
+                "ur": "اضطرابی بیماری کا علاج",
+                "tr": "Kaygı Bozukluğu Tedavisi"
+            },
+            "context": {
+                "en": "Nurse Weber explains the medication to Mrs. Schmidt for her anxiety disorder.",
+                "bn": "নার্স ওয়েবার মিসেস শ্মিটকে তার উদ্বেগজনিত ব্যাধির জন্য ওষুধটি ব্যাখ্যা করছেন।",
+                "hi": "नर्स वेबर श्रीमती श्मिट को उनकी चिंता विकार के लिए दवा समझा रही हैं।",
+                "ur": "نرس ویبر مسز شمٹ کو ان کی اضطرابی بیماری کے لیے دوا کی وضاحت کر رہی ہیں۔",
+                "tr": "Hemşire Weber, Bayan Schmidt'e kaygı bozukluğu için ilacını açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Morgen, Frau Schmidt. Hier sind Ihre Medikamente gegen die Angst.",
+                    "translation": {
+                        "en": "Good morning, Mrs. Schmidt. Here is your medication for anxiety.",
+                        "bn": "শুভ সকাল, মিসেস শ্মিট। এখানে আপনার উদ্বেগের জন্য ওষুধ রয়েছে।",
+                        "hi": "शुभ प्रभात, श्रीमती श्मिट। यहाँ आपकी चिंता के लिए दवा है।",
+                        "ur": "شب بخیر، مسز شمٹ۔ یہ آپ کی بے چینی کی دوا ہے۔",
+                        "tr": "Günaydın, Bayan Schmidt. İşte kaygı için ilacınız."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Vielen Dank, Schwester Weber. Wann soll ich sie einnehmen?",
+                    "translation": {
+                        "en": "Thank you, Nurse Weber. When should I take them?",
+                        "bn": "ধন্যবাদ, নার্স ওয়েবার। আমি কখন এটি গ্রহণ করব?",
+                        "hi": "धन्यवाद, नर्स वेबर। मुझे इसे कब लेना चाहिए?",
+                        "ur": "شکریہ، نرس ویبر۔ مجھے انہیں کب لینا چاہیے؟",
+                        "tr": "Teşekkür ederim, Hemşire Weber. Onları ne zaman almalıyım?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Einmal morgens und einmal abends, wie der Arzt es verordnet hat.",
+                    "translation": {
+                        "en": "Once in the morning and once in the evening, as the doctor prescribed.",
+                        "bn": "ডাক্তার যেভাবে নির্দেশ দিয়েছেন, সেইভাবে একবার সকালে এবং একবার সন্ধ্যায়।",
+                        "hi": "एक बार सुबह और एक बार शाम को, जैसा कि डॉक्टर ने निर्धारित किया है।",
+                        "ur": "صبح میں ایک بار اور شام میں ایک بار، جیسا کہ ڈاکٹر نے تجویز کیا ہے۔",
+                        "tr": "Doktorun yazdığı gibi sabah bir kez ve akşam bir kez."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Und was, wenn ich Nebenwirkungen habe?",
+                    "translation": {
+                        "en": "And what if I have side effects?",
+                        "bn": "আর যদি আমার পার্শ্ব প্রতিক্রিয়া হয়?",
+                        "hi": "और क्या होगा अगर मुझे दुष्प्रभाव होते हैं?",
+                        "ur": "اور کیا ہوگا اگر مجھے ضمنی اثرات ہوں؟",
+                        "tr": "Ve eğer yan etkilerim olursa ne olacak?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Dann melden Sie sich bitte umgehend bei uns oder Ihrem Arzt.",
+                    "translation": {
+                        "en": "Then please contact us or your doctor immediately.",
+                        "bn": "তাহলে অনুগ্রহ করে অবিলম্বে আমাদের বা আপনার ডাক্তারের সাথে যোগাযোগ করুন।",
+                        "hi": "तो कृपया तुरंत हमसे या अपने डॉक्टर से संपर्क करें।",
+                        "ur": "تو براہ کرم فوری طور پر ہم سے یا اپنے ڈاکٹر سے رابطہ کریں۔",
+                        "tr": "O zaman lütfen hemen bizimle veya doktorunuzla iletişime geçin."
+                    }
+                }
+            ],
+            "id": "d29_02"
+        },
+        {
+            "title": {
+                "en": "Psychosis and Hallucinations",
+                "bn": "মনোরোগ এবং অলীকতা",
+                "hi": "मनोविकृति और मतिभ्रम",
+                "ur": "ذہنی پریشانی اور واہمہ",
+                "tr": "Psikoz ve Halüsinasyonlar"
+            },
+            "context": {
+                "en": "Dr. Lehmann talks to a patient experiencing psychosis and hallucinations.",
+                "bn": "ডঃ লেহম্যান একজন রোগীর সাথে কথা বলছেন যিনি মনোরোগ এবং অলীকতা অনুভব করছেন।",
+                "hi": "डॉ. लेहमैन एक ऐसे मरीज से बात कर रहे हैं जो मनोविकृति और मतिभ्रम का अनुभव कर रहा है।",
+                "ur": "ڈاکٹر لیمان ایک ایسے مریض سے بات کر رہے ہیں جو ذہنی پریشانی اور واہمہ کا سامنا کر رہا ہے۔",
+                "tr": "Dr. Lehmann, psikoz ve halüsinasyonlar yaşayan bir hastayla konuşuyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Herr Schmidt, können Sie mir sagen, was Sie gerade sehen oder hören?",
+                    "translation": {
+                        "en": "Mr. Schmidt, can you tell me what you are currently seeing or hearing?",
+                        "bn": "মিঃ শ্মিট, আপনি কি আমাকে বলতে পারেন আপনি বর্তমানে কী দেখছেন বা শুনছেন?",
+                        "hi": "श्री श्मिट, क्या आप मुझे बता सकते हैं कि आप वर्तमान में क्या देख या सुन रहे हैं?",
+                        "ur": "مسٹر شمٹ، کیا آپ مجھے بتا سکتے ہیں کہ آپ فی الحال کیا دیکھ یا سن رہے ہیں؟",
+                        "tr": "Bay Schmidt, şu anda ne gördüğünüzü veya duyduğunuzu bana söyleyebilir misiniz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich sehe Menschen, die nicht da sind. Und ich höre Stimmen, die mich bedrohen.",
+                    "translation": {
+                        "en": "I see people who aren't there. And I hear voices that threaten me.",
+                        "bn": "আমি এমন লোকদের দেখি যারা সেখানে নেই। আর আমি এমন কণ্ঠস্বর শুনি যা আমাকে হুমকি দেয়।",
+                        "hi": "मैं ऐसे लोगों को देखता हूं जो वहां नहीं हैं। और मैं ऐसी आवाजें सुनता हूं जो मुझे धमकी देती हैं।",
+                        "ur": "میں ان لوگوں کو دیکھتا ہوں جو وہاں نہیں ہیں۔ اور میں ایسی آوازیں سنتا ہوں جو مجھے دھمکی دیتی ہیں۔",
+                        "tr": "Orada olmayan insanları görüyorum. Ve beni tehdit eden sesler duyuyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das sind Halluzinationen. Wir müssen Ihre Medikation anpassen.",
+                    "translation": {
+                        "en": "Those are hallucinations. We need to adjust your medication.",
+                        "bn": "এগুলো অলীকতা। আমাদের আপনার ওষুধ সামঞ্জস্য করতে হবে।",
+                        "hi": "ये मतिभ्रम हैं। हमें आपकी दवा को समायोजित करने की आवश्यकता है।",
+                        "ur": "یہ واہمے ہیں۔ ہمیں آپ کی دوا کو ایڈجسٹ کرنے کی ضرورت ہے۔",
+                        "tr": "Bunlar halüsinasyonlar. İlacınızı ayarlamamız gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Wird es dann besser?",
+                    "translation": {
+                        "en": "Will it get better then?",
+                        "bn": "তাহলে কি ভালো হবে?",
+                        "hi": "तो क्या यह बेहतर हो जाएगा?",
+                        "ur": "تو کیا یہ بہتر ہو جائے گا؟",
+                        "tr": "O zaman daha iyi olacak mı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir hoffen es. Es kann etwas dauern, bis wir die richtige Dosis finden.",
+                    "translation": {
+                        "en": "We hope so. It may take some time to find the right dose.",
+                        "bn": "আমরা আশা করি। সঠিক ডোজ খুঁজে পেতে কিছু সময় লাগতে পারে।",
+                        "hi": "हम आशा करते हैं। सही खुराक खोजने में कुछ समय लग सकता है।",
+                        "ur": "ہمیں امید ہے۔ صحیح خوراک تلاش کرنے میں کچھ وقت لگ سکتا ہے۔",
+                        "tr": "Umarız öyle olur. Doğru dozu bulmak biraz zaman alabilir."
+                    }
+                }
+            ],
+            "id": "d29_03"
+        },
+        {
+            "title": {
+                "en": "Suicide Risk Assessment",
+                "bn": "আত্মহত্যার ঝুঁকি মূল্যায়ন",
+                "hi": "आत्महत्या जोखिम मूल्यांकन",
+                "ur": "خودکشی کے خطرے کا جائزہ",
+                "tr": "İntihar Riski Değerlendirmesi"
+            },
+            "context": {
+                "en": "Dr. Meier questions a patient about suicidal thoughts after a previous suicide attempt.",
+                "bn": "ডঃ মেইয়ার একজন রোগীকে পূর্ববর্তী আত্মহত্যার চেষ্টার পরে আত্মহত্যার চিন্তা সম্পর্কে জিজ্ঞাসাবাদ করছেন।",
+                "hi": "डॉ. मेयर एक मरीज से पिछली आत्महत्या के प्रयास के बाद आत्महत्या के विचारों के बारे में सवाल कर रहे हैं।",
+                "ur": "ڈاکٹر میئر ایک مریض سے خودکشی کی سابقہ کوشش کے بعد خودکشی کے خیالات کے بارے میں پوچھ گچھ کر رہے ہیں۔",
+                "tr": "Dr. Meier, önceki bir intihar girişiminden sonra bir hastayı intihar düşünceleri hakkında sorguluyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Frau Weber, haben Sie in den letzten Tagen an Suizid gedacht?",
+                    "translation": {
+                        "en": "Mrs. Weber, have you thought about suicide in the last few days?",
+                        "bn": "মিসেস ওয়েবার, আপনি কি গত কয়েক দিনে আত্মহত্যা করার কথা ভেবেছেন?",
+                        "hi": "श्रीमती वेबर, क्या आपने पिछले कुछ दिनों में आत्महत्या के बारे में सोचा है?",
+                        "ur": "محترمہ ویبر، کیا آپ نے گزشتہ چند دنوں میں خودکشی کے بارے میں سوچا ہے؟",
+                        "tr": "Bayan Weber, son birkaç gündür intiharı düşündünüz mü?"
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, leider schon. Es ist schwer auszuhalten.",
+                    "translation": {
+                        "en": "Yes, unfortunately. It's hard to bear.",
+                        "bn": "হ্যাঁ, দুর্ভাগ্যবশত। এটা সহ্য করা কঠিন।",
+                        "hi": "हाँ, दुर्भाग्य से। इसे सहना मुश्किल है।",
+                        "ur": "ہاں، بدقسمتی سے۔ اسے برداشت کرنا مشکل ہے۔",
+                        "tr": "Evet, maalesef. Katlanmak zor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Haben Sie konkrete Pläne, wie Sie es tun würden?",
+                    "translation": {
+                        "en": "Do you have concrete plans on how you would do it?",
+                        "bn": "আপনার কি এটি করার বিষয়ে কোনো নির্দিষ্ট পরিকল্পনা আছে?",
+                        "hi": "क्या आपके पास इसे करने के बारे में कोई ठोस योजना है?",
+                        "ur": "کیا آپ کے پاس اسے کرنے کے بارے میں کوئی ٹھوس منصوبہ ہے؟",
+                        "tr": "Bunu nasıl yapacağınıza dair somut planlarınız var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich denke darüber nach, aber ich habe noch nichts vorbereitet.",
+                    "translation": {
+                        "en": "I think about it, but I haven't prepared anything yet.",
+                        "bn": "আমি এটি নিয়ে ভাবছি, তবে আমি এখনও কিছু প্রস্তুত করিনি।",
+                        "hi": "मैं इसके बारे में सोचती हूँ, लेकिन मैंने अभी तक कुछ भी तैयार नहीं किया है।",
+                        "ur": "میں اس کے بارے میں سوچتی ہوں، لیکن میں نے ابھی تک کچھ بھی تیار نہیں کیا ہے۔",
+                        "tr": "Bunu düşünüyorum ama henüz hiçbir şey hazırlamadım."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wir müssen Sie engmaschig überwachen. Wir werden die Medikation anpassen und weitere Gespräche führen.",
+                    "translation": {
+                        "en": "We need to monitor you closely. We will adjust the medication and have more conversations.",
+                        "bn": "আমাদের আপনাকে নিবিড়ভাবে পর্যবেক্ষণ করতে হবে। আমরা ওষুধ সামঞ্জস্য করব এবং আরও আলোচনা করব।",
+                        "hi": "हमें आपको बारीकी से निगरानी करने की आवश्यकता है। हम दवा को समायोजित करेंगे और और बातचीत करेंगे।",
+                        "ur": "ہمیں آپ کی قریبی نگرانی کرنے کی ضرورت ہے۔ ہم دوا کو ایڈجسٹ کریں گے اور مزید گفتگو کریں گے۔",
+                        "tr": "Sizi yakından izlememiz gerekiyor. İlacı ayarlayacağız ve daha fazla görüşme yapacağız."
+                    }
+                }
+            ],
+            "id": "d29_04"
+        },
+        {
+            "title": {
+                "en": "Hospitalization and Consent",
+                "bn": "হাসপাতালে ভর্তি এবং সম্মতি",
+                "hi": "अस्पताल में भर्ती और सहमति",
+                "ur": "ہسپتال میں داخلہ اور رضامندی",
+                "tr": "Hastaneye Yatış ve Onay"
+            },
+            "context": {
+                "en": "Dr. Klein explains the need for hospitalization to Mr. Braun due to his severe mental state.",
+                "bn": "ডঃ ক্লেইন মিঃ ব্রাউনকে তার গুরুতর মানসিক অবস্থার কারণে হাসপাতালে ভর্তির প্রয়োজনীয়তা ব্যাখ্যা করছেন।",
+                "hi": "डॉ. क्लेन श्री ब्राउन को उनकी गंभीर मानसिक स्थिति के कारण अस्पताल में भर्ती होने की आवश्यकता समझा रहे हैं।",
+                "ur": "ڈاکٹر کلین مسٹر براؤن کو ان کی شدید ذہنی حالت کی وجہ سے اسپتال میں داخلے کی ضرورت کی وضاحت کر رہے ہیں۔",
+                "tr": "Dr. Klein, Bay Braun'a ciddi zihinsel durumu nedeniyle hastaneye yatış ihtiyacını açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Herr Braun, aufgrund Ihres Zustands müssen wir Sie stationär aufnehmen.",
+                    "translation": {
+                        "en": "Mr. Braun, due to your condition, we need to admit you to the hospital.",
+                        "bn": "মিঃ ব্রাউন, আপনার অবস্থার কারণে, আমাদের আপনাকে হাসপাতালে ভর্তি করতে হবে।",
+                        "hi": "श्री ब्राउन, आपकी स्थिति के कारण, हमें आपको अस्पताल में भर्ती करने की आवश्यकता है।",
+                        "ur": "مسٹر براؤن، آپ کی حالت کی وجہ سے، ہمیں آپ کو اسپتال میں داخل کرنے کی ضرورت ہے۔",
+                        "tr": "Bay Braun, durumunuz nedeniyle sizi hastaneye yatırmamız gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Patient Braun",
+                    "speakerRole": "Patient",
+                    "germanText": "Was bedeutet das?",
+                    "translation": {
+                        "en": "What does that mean?",
+                        "bn": "এর মানে কী?",
+                        "hi": "इसका क्या मतलब है?",
+                        "ur": "اس کا کیا مطلب ہے؟",
+                        "tr": "Bu ne anlama geliyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Dass Sie hier bleiben und wir Sie intensiv behandeln und beobachten können.",
+                    "translation": {
+                        "en": "That you stay here and we can treat and observe you intensively.",
+                        "bn": "যে আপনি এখানে থাকবেন এবং আমরা আপনাকে নিবিড়ভাবে চিকিৎসা এবং পর্যবেক্ষণ করতে পারব।",
+                        "hi": "कि आप यहां रहें और हम आपका गहन उपचार और अवलोकन कर सकें।",
+                        "ur": "کہ آپ یہاں رہیں اور ہم آپ کا گہری علاج اور مشاہدہ کر سکیں۔",
+                        "tr": "Burada kalmanız ve sizi yoğun bir şekilde tedavi edip gözlemleyebilmemiz anlamına geliyor."
+                    }
+                },
+                {
+                    "speaker": "Patient Braun",
+                    "speakerRole": "Patient",
+                    "germanText": "Muss das sein? Ich will nicht hierbleiben.",
+                    "translation": {
+                        "en": "Is that necessary? I don't want to stay here.",
+                        "bn": "এটা কি দরকার? আমি এখানে থাকতে চাই না।",
+                        "hi": "क्या यह जरूरी है? मैं यहाँ नहीं रहना चाहता।",
+                        "ur": "کیا یہ ضروری ہے؟ میں یہاں نہیں رہنا چاہتا۔",
+                        "tr": "Bu gerekli mi? Burada kalmak istemiyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ich verstehe das, aber es ist wichtig für Ihre Sicherheit und Genesung. Wir brauchen Ihr Einverständnis.",
+                    "translation": {
+                        "en": "I understand that, but it's important for your safety and recovery. We need your consent.",
+                        "bn": "আমি বুঝতে পারছি, তবে এটি আপনার সুরক্ষা এবং পুনরুদ্ধারের জন্য গুরুত্বপূর্ণ। আমাদের আপনার সম্মতি দরকার।",
+                        "hi": "मैं समझता हूँ, लेकिन यह आपकी सुरक्षा और रिकवरी के लिए महत्वपूर्ण है। हमें आपकी सहमति चाहिए।",
+                        "ur": "میں سمجھتا ہوں، لیکن یہ آپ کی حفاظت اور بحالی کے لیے اہم ہے۔ ہمیں آپ کی رضامندی کی ضرورت ہے۔",
+                        "tr": "Bunu anlıyorum, ancak bu sizin güvenliğiniz ve iyileşmeniz için önemli. Onayınıza ihtiyacımız var."
+                    }
+                }
+            ],
+            "id": "d29_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches der folgenden Symptome ist am wenigsten typisch für eine Depression?",
+                "en": "Which of the following symptoms is least typical of depression?",
+                "bn": "নিম্নলিখিত উপসর্গগুলির মধ্যে কোনটি বিষণ্ণতার জন্য সবচেয়ে কম বৈশিষ্ট্যযুক্ত?",
+                "hi": "निम्नलिखित में से कौन सा लक्षण डिप्रेशन के लिए सबसे कम विशिष्ट है?",
+                "ur": "درج ذیل میں سے کونسی علامت ڈپریشن کے لیے سب سے کم مخصوص ہے؟",
+                "tr": "Aşağıdaki belirtilerden hangisi depresyon için en az tipiktir?"
+            },
+            "options": [
+                "Anhedonie (Freudlosigkeit)",
+                "Schlafstörungen",
+                "Gesteigerter Appetit",
+                "Konzentrationsschwierigkeiten"
+            ],
+            "correctAnswer": "Gesteigerter Appetit",
+            "explanation": {
+                "en": "While some individuals with depression may experience increased appetite, decreased appetite is a more common symptom.",
+                "bn": "কিছু বিষণ্ণ ব্যক্তি ক্ষুধা বৃদ্ধি অনুভব করতে পারে, তবে ক্ষুধা হ্রাস একটি সাধারণ উপসর্গ।",
+                "hi": "हालांकि डिप्रेशन से पीड़ित कुछ व्यक्तियों में भूख बढ़ सकती है, लेकिन भूख कम लगना एक अधिक सामान्य लक्षण है।",
+                "ur": "اگرچہ ڈپریشن میں مبتلا کچھ افراد بھوک میں اضافہ محسوس کر سکتے ہیں، لیکن بھوک میں کمی ایک زیادہ عام علامت ہے۔",
+                "tr": "Depresyondaki bazı kişilerde iştah artışı görülebilse de, iştah azalması daha yaygın bir belirtidir."
+            },
+            "points": 10,
+            "id": "e29_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein typisches Symptom einer generalisierten Angststörung?",
+                "en": "What is a typical symptom of generalized anxiety disorder?",
+                "bn": "সাধারণীকৃত উদ্বেগ রোগের একটি সাধারণ লক্ষণ কী?",
+                "hi": "सामान्यीकृत चिंता विकार का एक विशिष्ट लक्षण क्या है?",
+                "ur": "عمومی اضطراب کی خرابی کی ایک عام علامت کیا ہے؟",
+                "tr": "Yaygın anksiyete bozukluğunun tipik bir belirtisi nedir?"
+            },
+            "options": [
+                "Panikattacken in Menschenmengen",
+                "Übermäßige Sorgen um alltägliche Dinge",
+                "Vermeidung sozialer Situationen",
+                "Zwangsrituale"
+            ],
+            "correctAnswer": "Übermäßige Sorgen um alltägliche Dinge",
+            "explanation": {
+                "en": "Excessive worry about everyday things is a hallmark symptom of generalized anxiety disorder.",
+                "bn": "দৈনন্দিন জিনিস নিয়ে অতিরিক্ত উদ্বেগ হল সাধারণীকৃত উদ্বেগ রোগের একটি প্রধান লক্ষণ।",
+                "hi": "रोजमर्रा की चीजों के बारे में अत्यधिक चिंता सामान्यीकृत चिंता विकार का एक प्रमुख लक्षण है।",
+                "ur": "روزمرہ کی چیزوں کے بارے میں ضرورت سے زیادہ فکر کرنا عمومی اضطراب کی خرابی کی ایک اہم علامت ہے۔",
+                "tr": "Günlük şeyler hakkında aşırı endişe, yaygın anksiyete bozukluğunun belirgin bir belirtisidir."
+            },
+            "points": 10,
+            "id": "e29_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage trifft auf eine Psychose am ehesten zu?",
+                "en": "Which statement is most likely to be true of a psychosis?",
+                "bn": "সাইকোসিস সম্পর্কে কোন বক্তব্যটি সবচেয়ে সত্য হওয়ার সম্ভাবনা?",
+                "hi": "मनोविकृति के बारे में कौन सा कथन सबसे अधिक सच होने की संभावना है?",
+                "ur": "ذہنی بیماری کے بارے میں کون سا بیان سب سے زیادہ درست ہونے کا امکان ہے؟",
+                "tr": "Bir psikoz hakkında hangi ifade en olasıdır?"
+            },
+            "options": [
+                "Es handelt sich um eine vorübergehende Angstattacke.",
+                "Es ist gekennzeichnet durch Realitätsverlust.",
+                "Es führt zu einer starken depressiven Episode.",
+                "Es ist eine Form von Autismus."
+            ],
+            "correctAnswer": "Es ist gekennzeichnet durch Realitätsverlust.",
+            "explanation": {
+                "en": "Psychosis involves a loss of contact with reality, often including hallucinations and delusions.",
+                "bn": "সাইকোসিসের মধ্যে বাস্তবতার সাথে সংযোগ হ্রাস জড়িত, প্রায়শই হ্যালুসিনেশন এবং বিভ্রম সহ।",
+                "hi": "मनोविकृति में वास्तविकता के साथ संपर्क का नुकसान शामिल है, अक्सर मतिभ्रम और भ्रम शामिल होते हैं।",
+                "ur": "ذہنی بیماری میں حقیقت کے ساتھ رابطے کا نقصان شامل ہے، اکثر فریب اور فریب شامل ہوتے ہیں۔",
+                "tr": "Psikoz, genellikle halüsinasyonlar ve sanrılar dahil olmak üzere gerçeklikle temasın kaybını içerir."
+            },
+            "points": 10,
+            "id": "e29_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein wichtiger Faktor bei der Suizidprävention?",
+                "en": "What is an important factor in suicide prevention?",
+                "bn": "আত্মহত্যা প্রতিরোধে গুরুত্বপূর্ণ কারণ কী?",
+                "hi": "आत्महत्या की रोकथाम में एक महत्वपूर्ण कारक क्या है?",
+                "ur": "خودکشی کی روک تھام میں ایک اہم عنصر کیا ہے؟",
+                "tr": "İntiharı önlemede önemli bir faktör nedir?"
+            },
+            "options": [
+                "Isolation des Betroffenen",
+                "Ignorieren der Warnzeichen",
+                "Offenes Gespräch über Suizidgedanken",
+                "Verschweigen der Suizidgedanken vor den Angehörigen"
+            ],
+            "correctAnswer": "Offenes Gespräch über Suizidgedanken",
+            "explanation": {
+                "en": "Openly talking about suicidal thoughts can help identify and address underlying issues and connect the individual with resources.",
+                "bn": "আত্মহত্যার চিন্তা নিয়ে খোলামেলা কথা বলা অন্তর্নিহিত সমস্যাগুলি সনাক্ত করতে এবং সমাধান করতে এবং ব্যক্তিকে সংস্থানগুলির সাথে সংযোগ করতে সহায়তা করতে পারে।",
+                "hi": "आत्महत्या के विचारों के बारे में खुलकर बात करने से अंतर्निहित मुद्दों की पहचान करने और उन्हें संबोधित करने और व्यक्ति को संसाधनों से जोड़ने में मदद मिल सकती है।",
+                "ur": "خودکشی کے خیالات کے بارے میں کھل کر بات کرنا بنیادی مسائل کی نشاندہی کرنے اور ان سے نمٹنے اور فرد کو وسائل سے جوڑنے میں مدد کر سکتا ہے۔",
+                "tr": "İntihar düşünceleri hakkında açıkça konuşmak, altta yatan sorunları belirlemeye ve ele almaya ve bireyi kaynaklarla bağlantı kurmaya yardımcı olabilir."
+            },
+            "points": 10,
+            "id": "e29_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Therapieform wird häufig bei Depressionen eingesetzt?",
+                "en": "Which form of therapy is commonly used for depression?",
+                "bn": "বিষণ্ণতার জন্য সাধারণত কোন ধরনের থেরাপি ব্যবহার করা হয়?",
+                "hi": "डिप्रेशन के लिए आमतौर पर किस प्रकार की थेरेपी का उपयोग किया जाता है?",
+                "ur": "ڈپریشن کے لیے عام طور پر کس قسم کی تھراپی استعمال کی جاتی ہے؟",
+                "tr": "Depresyon için yaygın olarak hangi terapi türü kullanılır?"
+            },
+            "options": [
+                "Psychoanalyse",
+                "Kognitive Verhaltenstherapie (KVT)",
+                "Hypnose",
+                "Familienaufstellung"
+            ],
+            "correctAnswer": "Kognitive Verhaltenstherapie (KVT)",
+            "explanation": {
+                "en": "Cognitive Behavioral Therapy (CBT) is a widely used and effective treatment for depression.",
+                "bn": "কগনিটিভ বিহেভিয়ারাল থেরাপি (সিবিটি) বিষণ্ণতার জন্য বহুল ব্যবহৃত এবং কার্যকর চিকিৎসা।",
+                "hi": "संज्ञानात्मक व्यवहार थेरेपी (सीबीटी) डिप्रेशन के लिए व्यापक रूप से इस्तेमाल किया जाने वाला और प्रभावी उपचार है।",
+                "ur": "علمی رویے کی تھراپی (سی بی ٹی) ڈپریشن کے لیے بڑے پیمانے پر استعمال ہونے والا اور موثر علاج ہے۔",
+                "tr": "Bilişsel Davranışçı Terapi (BDT), depresyon için yaygın olarak kullanılan ve etkili bir tedavidir."
+            },
+            "points": 10,
+            "id": "e29_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Medikamentengruppe wird häufig zur Behandlung von Depressionen eingesetzt?",
+                "en": "Which group of medications is often used to treat depression?",
+                "bn": "বিষণ্ণতার চিকিৎসার জন্য প্রায়শই কোন ওষুধ ব্যবহার করা হয়?",
+                "hi": "डिप्रेशन के इलाज के लिए अक्सर किस दवा समूह का उपयोग किया जाता है?",
+                "ur": "ڈپریشن کے علاج کے لیے اکثر کس دوا کا گروپ استعمال کیا جاتا ہے؟",
+                "tr": "Depresyonu tedavi etmek için genellikle hangi ilaç grubu kullanılır?"
+            },
+            "options": [
+                "Antibiotika",
+                "Antidepressiva",
+                "Antihistaminika",
+                "Antiepileptika"
+            ],
+            "correctAnswer": "Antidepressiva",
+            "explanation": {
+                "en": "Antidepressants are specifically designed to treat depression by affecting neurotransmitters in the brain.",
+                "bn": "এন্টিডিপ্রেসেন্টস বিশেষভাবে মস্তিষ্কের নিউরোট্রান্সমিটারকে প্রভাবিত করে বিষণ্ণতার চিকিৎসার জন্য তৈরি করা হয়েছে।",
+                "hi": "एंटीडिप्रेसेंट विशेष रूप से मस्तिष्क में न्यूरोट्रांसमीटर को प्रभावित करके डिप्रेशन के इलाज के लिए डिज़ाइन किए गए हैं।",
+                "ur": "اینٹی ڈپریسنٹس خاص طور پر دماغ میں نیورو ٹرانسمیٹر کو متاثر کرکے ڈپریشن کے علاج کے لیے بنائے گئے ہیں۔",
+                "tr": "Antidepresanlar, beyindeki nörotransmiterleri etkileyerek depresyonu tedavi etmek için özel olarak tasarlanmıştır."
+            },
+            "points": 10,
+            "id": "e29_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Unter welchen Umständen ist eine Zwangseinweisung eines Patienten gerechtfertigt?",
+                "en": "Under what circumstances is involuntary commitment of a patient justified?",
+                "bn": "কোন পরিস্থিতিতে একজন রোগীর অনিচ্ছাকৃত ভর্তি করা ন্যায়সঙ্গত?",
+                "hi": "किन परिस्थितियों में किसी मरीज की अनैच्छिक प्रतिबद्धता उचित है?",
+                "ur": "کن حالات میں کسی مریض کا جبری داخلہ جائز ہے؟",
+                "tr": "Hangi koşullar altında bir hastanın istem dışı yatırılması haklıdır?"
+            },
+            "options": [
+                "Bei leichter Stimmungsschwankung",
+                "Bei akuter Selbst- oder Fremdgefährdung",
+                "Bei Ablehnung einer ambulanten Therapie",
+                "Bei Vorliegen einer leichten Angststörung"
+            ],
+            "correctAnswer": "Bei akuter Selbst- oder Fremdgefährdung",
+            "explanation": {
+                "en": "Involuntary commitment is justified when a patient poses an imminent danger to themselves or others.",
+                "bn": "অনিচ্ছাকৃত ভর্তি তখন ন্যায়সঙ্গত যখন একজন রোগী নিজের বা অন্যের জন্য আসন্ন বিপদ ডেকে আনে।",
+                "hi": "अनिवार्य प्रतिबद्धता तब उचित है जब कोई मरीज खुद या दूसरों के लिए आसन्न खतरा पैदा करता है।",
+                "ur": "جبری داخلہ اس وقت جائز ہے جب کوئی مریض خود یا دوسروں کے لیے فوری خطرہ ہو۔",
+                "tr": "İstem dışı yatırma, bir hastanın kendisine veya başkalarına yakın bir tehlike oluşturduğu durumlarda haklıdır."
+            },
+            "points": 10,
+            "id": "e29_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welcher Begriff beschreibt den Verlust des Interesses oder der Freude an Aktivitäten?",
+                "en": "Which term describes the loss of interest or pleasure in activities?",
+                "bn": "কোন শব্দটি কার্যকলাপে আগ্রহ বা আনন্দ হারানোর বর্ণনা করে?",
+                "hi": "गतिविधियों में रुचि या आनंद की हानि का वर्णन किस शब्द से किया जाता है?",
+                "ur": "کون سی اصطلاح سرگرمیوں میں دلچسپی یا خوشی کے نقصان کو بیان کرتی ہے؟",
+                "tr": "Hangi terim, etkinliklere olan ilgi veya zevk kaybını tanımlar?"
+            },
+            "options": [
+                "Anhedonie",
+                "Apathie",
+                "Agitation",
+                "Akathisie"
+            ],
+            "correctAnswer": "Anhedonie",
+            "explanation": {
+                "en": "Anhedonia specifically refers to the loss of pleasure or interest in activities that were once enjoyable.",
+                "bn": "অ্যানহেডোনিয়া বিশেষভাবে সেই ক্রিয়াকলাপগুলিতে আনন্দ বা আগ্রহ হারানোর কথা উল্লেখ করে যা একসময় উপভোগ্য ছিল।",
+                "hi": "एनेडोनिया विशेष रूप से उन गतिविधियों में खुशी या रुचि के नुकसान को संदर्भित करता है जो कभी सुखद थीं।",
+                "ur": "اینہیڈونیا خاص طور پر ان سرگرمیوں میں خوشی یا دلچسپی کے نقصان سے مراد ہے جو کبھی لطف اندوز ہوتی تھیں۔",
+                "tr": "Anhedoni, özellikle bir zamanlar keyifli olan etkinliklerde zevk veya ilgi kaybını ifade eder."
+            },
+            "points": 10,
+            "id": "e29_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was versteht man unter 'Sozialphobie'?",
+                "en": "What is meant by 'social phobia'?",
+                "bn": "'সামাজিক ফোবিয়া' বলতে কী বোঝায়?",
+                "hi": "'सामाजिक भय' से क्या तात्पर्य है?",
+                "ur": "'سماجی خوف' سے کیا مراد ہے؟",
+                "tr": "'Sosyal fobi'den ne anlaşılır?",
+                "correctAnswer": "Angst vor sozialen Situationen"
+            },
+            "options": [
+                "Angst vor großen Höhen",
+                "Angst vor sozialen Situationen",
+                "Angst vor Spinnen",
+                "Angst vor Dunkelheit"
+            ],
+            "explanation": {
+                "en": "Social phobia (or social anxiety disorder) is characterized by a fear of social situations in which the person is exposed to possible scrutiny by others.",
+                "bn": "সামাজিক ফোবিয়া (বা সামাজিক উদ্বেগ ব্যাধি) সামাজিক পরিস্থিতির ভয় দ্বারা চিহ্নিত করা হয় যেখানে ব্যক্তি অন্যদের দ্বারা সম্ভাব্য যাচাই-বাছাইয়ের শিকার হয়।",
+                "hi": "सामाजिक भय (या सामाजिक चिंता विकार) सामाजिक स्थितियों के डर से विशेषता है जिसमें व्यक्ति दूसरों द्वारा संभावित जांच के संपर्क में है।",
+                "ur": "سماجی خوف (یا سماجی اضطراب کی خرابی) سماجی حالات کے خوف سے منسوب ہے جس میں شخص دوسروں کی طرف سے ممکنہ جانچ پڑتال کے سامنے آتا ہے۔",
+                "tr": "Sosyal fobi (veya sosyal anksiyete bozukluğu), kişinin başkaları tarafından olası incelemeye maruz kaldığı sosyal durumlardan korku ile karakterizedir."
+            },
+            "points": 10,
+            "id": "e29_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage über Benzodiazepine trifft am ehesten zu?",
+                "en": "Which statement about benzodiazepines is most likely to be true?",
+                "bn": "বেনজোডিয়াজেপাইন সম্পর্কে কোন বক্তব্যটি সবচেয়ে সত্য হওয়ার সম্ভাবনা?",
+                "hi": "बेंजोडायजेपाइन के बारे में कौन सा कथन सबसे अधिक सच होने की संभावना है?",
+                "ur": "بینزوڈیزپائن کے بارے میں کون سا بیان سب سے زیادہ درست ہونے کا امکان ہے؟",
+                "tr": "Benzodiazepinler hakkında hangi ifade en olasıdır?"
+            },
+            "options": [
+                "Sie werden hauptsächlich zur Behandlung von Psychosen eingesetzt.",
+                "Sie können bei längerer Anwendung abhängig machen.",
+                "Sie haben keine Nebenwirkungen.",
+                "Sie verbessern die kognitiven Fähigkeiten."
+            ],
+            "correctAnswer": "Sie können bei längerer Anwendung abhängig machen.",
+            "explanation": {
+                "en": "Benzodiazepines can be addictive if used for prolonged periods.",
+                "bn": "বেনজোডিয়াজেপাইন দীর্ঘ সময় ধরে ব্যবহার করলে আসক্তি হতে পারে।",
+                "hi": "बेंजोडायजेपाइन का लंबे समय तक उपयोग करने पर यह नशे की लत हो सकती है।",
+                "ur": "بینزوڈیزپائن کو طویل عرصے تک استعمال کرنے سے نشہ آور ہو سکتا ہے۔",
+                "tr": "Benzodiazepinler uzun süre kullanıldığında bağımlılık yapabilir."
+            },
+            "points": 10,
+            "id": "e29_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Eine häufige Nebenwirkung von Antidepressiva ist ________.",
+                "en": "A common side effect of antidepressants is ________.",
+                "bn": "এন্টিডিপ্রেসেন্টগুলির একটি সাধারণ পার্শ্ব প্রতিক্রিয়া হল ________।",
+                "hi": "एंटीडिप्रेसेंट का एक सामान्य दुष्प्रभाव ________ है।",
+                "ur": "اینٹی ڈپریسنٹس کا ایک عام ضمنی اثر ________ ہے۔",
+                "tr": "Antidepresanların yaygın bir yan etkisi ________'dır."
+            },
+            "options": [],
+            "correctAnswer": "Müdigkeit",
+            "explanation": {
+                "en": "Fatigue is a common side effect of many antidepressants.",
+                "bn": "ক্লান্তি অনেক এন্টিডিপ্রেসেন্টের একটি সাধারণ পার্শ্ব প্রতিক্রিয়া।",
+                "hi": "थकान कई एंटीडिप्रेसेंट का एक सामान्य दुष्प्रभाव है।",
+                "ur": "تھکاوٹ بہت سے اینٹی ڈپریسنٹس کا ایک عام ضمنی اثر ہے۔",
+                "tr": "Yorgunluk, birçok antidepresanın yaygın bir yan etkisidir."
+            },
+            "points": 10,
+            "id": "e29_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Patienten mit ________ können Stimmen hören, die nicht vorhanden sind.",
+                "en": "Patients with ________ may hear voices that are not there.",
+                "bn": "________ আক্রান্ত রোগীরা এমন কণ্ঠস্বর শুনতে পারেন যা সেখানে নেই।",
+                "hi": "________ से पीड़ित रोगी ऐसी आवाजें सुन सकते हैं जो वहां नहीं हैं।",
+                "ur": "________ میں مبتلا مریض ایسی آوازیں سن سکتے ہیں جو وہاں نہیں ہیں۔",
+                "tr": "________ hastaları orada olmayan sesler duyabilirler."
+            },
+            "options": [],
+            "correctAnswer": "Psychose",
+            "explanation": {
+                "en": "Auditory hallucinations (hearing voices) are a common symptom of psychosis.",
+                "bn": "শ্রবণীয় হ্যালুসিনেশন (কণ্ঠস্বর শোনা) সাইকোসিসের একটি সাধারণ লক্ষণ।",
+                "hi": "श्रवण मतिभ्रम (आवाजें सुनना) मनोविकृति का एक सामान्य लक्षण है।",
+                "ur": "شنوائی وہم (آوازیں سننا) ذہنی بیماری کی ایک عام علامت ہے۔",
+                "tr": "İşitsel halüsinasyonlar (sesler duymak) psikozun yaygın bir belirtisidir."
+            },
+            "points": 10,
+            "id": "e29_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die ________ Therapie hilft Patienten, ihre negativen Denkmuster zu erkennen und zu verändern.",
+                "en": "________ therapy helps patients recognize and change their negative thinking patterns.",
+                "bn": "________ থেরাপি রোগীদের তাদের নেতিবাচক চিন্তাভাবনাগুলি সনাক্ত করতে এবং পরিবর্তন করতে সহায়তা করে।",
+                "hi": "________ थेरेपी रोगियों को उनके नकारात्मक विचारों के पैटर्न को पहचानने और बदलने में मदद करती है।",
+                "ur": "________ تھراپی مریضوں کو ان کے منفی سوچ کے نمونوں کو پہچاننے اور تبدیل کرنے میں مدد کرتی ہے۔",
+                "tr": "________ terapisi, hastaların olumsuz düşünce kalıplarını tanımalarına ve değiştirmelerine yardımcı olur."
+            },
+            "options": [],
+            "correctAnswer": "Kognitive",
+            "explanation": {
+                "en": "Cognitive therapy focuses on identifying and modifying negative thought patterns.",
+                "bn": "কগনিটিভ থেরাপি নেতিবাচক চিন্তাভাবনাগুলি সনাক্তকরণ এবং পরিবর্তনের উপর দৃষ্টি নিবদ্ধ করে।",
+                "hi": "संज्ञानात्मक चिकित्सा नकारात्मक विचारों के पैटर्न की पहचान करने और संशोधित करने पर केंद्रित है।",
+                "ur": "علمی تھراپی منفی خیالات کے نمونوں کی شناخت اور ان میں ترمیم کرنے پر مرکوز ہے۔",
+                "tr": "Bilişsel terapi, olumsuz düşünce kalıplarını tanımlamaya ve değiştirmeye odaklanır."
+            },
+            "points": 10,
+            "id": "e29_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein ________ ist eine plötzliche Episode intensiver Angst, die mit körperlichen Symptomen einhergeht.",
+                "en": "A ________ is a sudden episode of intense anxiety accompanied by physical symptoms.",
+                "bn": "________ হল তীব্র উদ্বেগের একটি আকস্মিক পর্ব যা শারীরিক উপসর্গের সাথে থাকে।",
+                "hi": "________ तीव्र चिंता का एक अचानक एपिसोड है जो शारीरिक लक्षणों के साथ होता है।",
+                "ur": "________ شدید اضطراب کی ایک اچانک قسط ہے جس کے ساتھ جسمانی علامات بھی ہوتی ہیں۔",
+                "tr": "________, fiziksel semptomların eşlik ettiği ani bir yoğun anksiyete epizodudur."
+            },
+            "options": [],
+            "correctAnswer": "Panikattacke",
+            "explanation": {
+                "en": "A panic attack is defined as a sudden episode of intense fear or discomfort that reaches a peak within minutes and includes physical symptoms.",
+                "bn": "প্যানিক অ্যাটাককে তীব্র ভয় বা অস্বস্তির আকস্মিক পর্ব হিসাবে সংজ্ঞায়িত করা হয় যা কয়েক মিনিটের মধ্যে শীর্ষে পৌঁছে যায় এবং এতে শারীরিক উপসর্গ অন্তর্ভুক্ত থাকে।",
+                "hi": "पैनिक अटैक को तीव्र भय या परेशानी के अचानक एपिसोड के रूप में परिभाषित किया गया है जो मिनटों के भीतर चरम पर पहुंच जाता है और इसमें शारीरिक लक्षण शामिल होते हैं।",
+                "ur": "گھبراہٹ کے حملے کی تعریف شدید خوف یا تکلیف کی اچانک قسط کے طور پر کی جاتی ہے جو منٹوں میں اپنی انتہا کو پہنچ جاتی ہے اور اس میں جسمانی علامات شامل ہوتی ہیں۔",
+                "tr": "Panik atak, dakikalar içinde zirveye ulaşan ve fiziksel semptomları içeren ani bir yoğun korku veya rahatsızlık epizodu olarak tanımlanır."
+            },
+            "points": 10,
+            "id": "e29_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bei Verdacht auf Suizidgefahr ist es wichtig, professionelle ________ zu suchen.",
+                "en": "If suicide risk is suspected, it is important to seek professional ________.",
+                "bn": "আত্মহত্যার ঝুঁকির সন্দেহ হলে, পেশাদার ________ সন্ধান করা গুরুত্বপূর্ণ।",
+                "hi": "यदि आत्महत्या के जोखिम का संदेह है, तो पेशेवर ________ की तलाश करना महत्वपूर्ण है।",
+                "ur": "اگر خودکشی کے خطرے کا شبہ ہے تو، پیشہ ورانہ ________ حاصل کرنا ضروری ہے۔",
+                "tr": "İntihar riski şüpheleniliyorsa, profesyonel ________ aramak önemlidir."
+            },
+            "options": [],
+            "correctAnswer": "Hilfe",
+            "explanation": {
+                "en": "Seeking professional help is crucial when suicide risk is suspected.",
+                "bn": "আত্মহত্যার ঝুঁকির সন্দেহ হলে পেশাদার সাহায্য চাওয়া অত্যন্ত জরুরি।",
+                "hi": "आत्महत्या के जोखिम का संदेह होने पर पेशेवर मदद लेना महत्वपूर्ण है।",
+                "ur": "خودکشی کے خطرے کا شبہ ہونے پر پیشہ ورانہ مدد حاصل کرنا بہت ضروری ہے۔",
+                "tr": "İntihar riski şüphesi varsa profesyonel yardım almak çok önemlidir."
+            },
+            "points": 10,
+            "id": "e29_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Ich fühle mich seit Wochen niedergeschlagen und habe keine Energie.",
+                "en": "I have been feeling down and have no energy for weeks.",
+                "bn": "আমি কয়েক সপ্তাহ ধরে হতাশ বোধ করছি এবং কোনো শক্তি নেই।",
+                "hi": "मैं हफ्तों से उदास महसूस कर रहा हूँ और मेरे पास कोई ऊर्जा नहीं है।",
+                "ur": "میں ہفتوں سے افسردہ محسوس کر رہا ہوں اور میرے پاس کوئی توانائی نہیں ہے۔",
+                "tr": "Haftalardır kendimi kötü hissediyorum ve hiç enerjim yok."
+            },
+            "options": [],
+            "correctAnswer": "I have been feeling down and have no energy for weeks.",
+            "explanation": {
+                "en": "Accurate translation reflecting the meaning of the German sentence.",
+                "bn": "জার্মান বাক্যের অর্থ প্রতিফলিত করে সঠিক অনুবাদ।",
+                "hi": "जर्मन वाक्य के अर्थ को दर्शाने वाला सटीक अनुवाद।",
+                "ur": "جرمن جملے کے معنی کی عکاسی کرنے والا درست ترجمہ۔",
+                "tr": "Almanca cümlenin anlamını yansıtan doğru çeviri."
+            },
+            "points": 10,
+            "id": "e29_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Therapie hat mir geholfen, meine Ängste besser zu verstehen.",
+                "en": "Therapy has helped me to better understand my anxieties.",
+                "bn": "থেরাপি আমাকে আমার উদ্বেগগুলি আরও ভালভাবে বুঝতে সাহায্য করেছে।",
+                "hi": "थेरेपी ने मुझे अपनी चिंताओं को बेहतर ढंग से समझने में मदद की है।",
+                "ur": "تھراپی نے مجھے اپنی پریشانیوں کو بہتر طور پر سمجھنے میں مدد کی ہے۔",
+                "tr": "Terapi, kaygılarımı daha iyi anlamama yardımcı oldu."
+            },
+            "options": [],
+            "correctAnswer": "Therapy has helped me to better understand my anxieties.",
+            "explanation": {
+                "en": "Accurate translation reflecting the meaning of the German sentence.",
+                "bn": "জার্মান বাক্যের অর্থ প্রতিফলিত করে সঠিক অনুবাদ।",
+                "hi": "जर्मन वाक्य के अर्थ को दर्शाने वाला सटीक अनुवाद।",
+                "ur": "جرمن جملے کے معنی کی عکاسی کرنے والا درست ترجمہ۔",
+                "tr": "Almanca cümlenin anlamını yansıtan doğru çeviri."
+            },
+            "points": 10,
+            "id": "e29_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Ich habe seit Tagen nicht geschlafen und fühle mich sehr unruhig.",
+                "en": "I haven't slept for days and feel very restless.",
+                "bn": "আমি কয়েকদিন ধরে ঘুমাইনি এবং খুব অস্থির বোধ করছি।",
+                "hi": "मैं कई दिनों से नहीं सोया हूँ और बहुत बेचैन महसूस कर रहा हूँ।",
+                "ur": "میں کئی دنوں سے نہیں سویا اور بہت بے چین محسوس کر رہا ہوں۔",
+                "tr": "Günlerdir uyumadım ve çok huzursuz hissediyorum."
+            },
+            "options": [],
+            "correctAnswer": "I haven't slept for days and feel very restless.",
+            "explanation": {
+                "en": "Accurate translation reflecting the meaning of the German sentence.",
+                "bn": "জার্মান বাক্যের অর্থ প্রতিফলিত করে সঠিক অনুবাদ।",
+                "hi": "जर्मन वाक्य के अर्थ को दर्शाने वाला सटीक अनुवाद।",
+                "ur": "جرمن جملے کے معنی کی عکاسی کرنے والا درست ترجمہ۔",
+                "tr": "Almanca cümlenin anlamını yansıtan doğru çeviri."
+            },
+            "points": 10,
+            "id": "e29_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

@@ -1,1 +1,1561 @@
-{"id":"section_30","phaseId":"phase3","order":30,"titleDe":"Arztbrief I","title":{"en":"Discharge Letter I","bn":"Discharge Letter I","hi":"Discharge Letter I","ur":"Discharge Letter I","tr":"Discharge Letter I"},"level":"C1","estimatedMinutes":40,"vocabulary":[{"id":"v30_01","germanTerm":"Fachbegriff","article":"der","plural":"Fachbegriffe","translation":{"en":"Technical Term","bn":"টেকনিক্যাল টার্ম","hi":"तकनीकी शब्द","ur":"تکنیکی اصطلاح","tr":"Teknik terim"}}],"dialogues":[{"id":"d30_01","title":{"en":"Professional Scenario"},"lines":[{"speaker":"Oberarzt","germanText":"Professional dialogue for Discharge Letter I.","translation":{"en":"Professional dialogue for Discharge Letter I."}}]}],"exercises":[{"id":"e30_01","type":"multipleChoice","question":{"en":"Advanced question for Discharge Letter I?"},"options":["Option A","Option B","Option C"],"correctAnswer":"Option A","points":15}]}
+{
+    "id": "section_30",
+    "phaseId": "phase3",
+    "order": 30,
+    "titleDe": "Arztbrief I",
+    "title": {
+        "en": "Discharge Letter I: Structure and Key Elements",
+        "bn": "ছাড়পত্র I: কাঠামো এবং মূল উপাদান",
+        "hi": "डिस्चार्ज लेटर I: संरचना और मुख्य तत्व",
+        "ur": "ڈسچارج لیٹر I: ساخت اور اہم عناصر",
+        "tr": "Taburcu Mektubu I: Yapı ve Anahtar Unsurlar",
+        "de": "Arztbrief I: Struktur und Schlüsselelemente"
+    },
+    "description": {
+        "en": "This section introduces the structure and key components of a German discharge letter, including diagnosis, medical history, findings, therapy, and procedures.",
+        "bn": "এই বিভাগে একটি জার্মান ছাড়পত্রের কাঠামো এবং মূল উপাদানগুলি প্রবর্তন করা হয়েছে, যার মধ্যে রোগ নির্ণয়, চিকিৎসা ইতিহাস, ফলাফল, থেরাপি এবং পদ্ধতি অন্তর্ভুক্ত।",
+        "hi": "यह अनुभाग जर्मन डिस्चार्ज लेटर की संरचना और प्रमुख घटकों का परिचय देता है, जिसमें निदान, चिकित्सा इतिहास, निष्कर्ष, चिकित्सा और प्रक्रियाएं शामिल हैं।",
+        "ur": "یہ سیکشن جرمن ڈسچارج لیٹر کی ساخت اور اہم اجزاء متعارف کرواتا ہے، بشمول تشخیص، طبی تاریخ، نتائج، تھراپی اور طریقہ کار۔",
+        "tr": "Bu bölüm, tanı, tıbbi geçmiş, bulgular, tedavi ve prosedürler dahil olmak üzere bir Alman taburcu mektubunun yapısını ve temel bileşenlerini tanıtmaktadır.",
+        "de": "Dieser Abschnitt führt in die Struktur und die wesentlichen Bestandteile eines deutschen Arztbriefes ein, einschließlich Diagnose, Anamnese, Befund, Therapie und Prozedere."
+    },
+    "level": "C1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "Welcome to the first part of our discharge letter module. Here, we will explore the essential building blocks of a German discharge letter, understanding the significance of each section.",
+            "bn": "আমাদের ছাড়পত্র মডিউলের প্রথম অংশে আপনাকে স্বাগতম। এখানে, আমরা একটি জার্মান ছাড়পত্রের অপরিহার্য ভিত্তিগুলি অন্বেষণ করব, প্রতিটি বিভাগের তাৎপর্য উপলব্ধি করব।",
+            "hi": "हमारे डिस्चार्ज लेटर मॉड्यूल के पहले भाग में आपका स्वागत है। यहाँ, हम एक जर्मन डिस्चार्ज लेटर के आवश्यक निर्माण खंडों का पता लगाएंगे, प्रत्येक अनुभाग के महत्व को समझेंगे।",
+            "ur": "ہمارے ڈسچارج لیٹر ماڈیول کے پہلے حصے میں خوش آمدید۔ یہاں، ہم ایک جرمن ڈسچارج لیٹر کے ضروری بلڈنگ بلاکس کو دریافت کریں گے، ہر سیکشن کی اہمیت کو سمجھیں گے۔",
+            "tr": "Taburcu mektubu modülümüzün ilk bölümüne hoş geldiniz. Burada, bir Alman taburcu mektubunun temel yapı taşlarını keşfedecek ve her bölümün önemini anlayacağız.",
+            "de": "Willkommen zum ersten Teil unseres Arztbrief-Moduls. Hier werden wir die wesentlichen Bausteine eines deutschen Arztbriefes erkunden und die Bedeutung jedes Abschnitts verstehen."
+        },
+        "grammarFocus": {
+            "en": "Focus on noun declension in nominative and accusative cases when referring to diagnoses and treatments. Pay attention to the correct use of prepositions with medical terms.",
+            "bn": "রোগ নির্ণয় এবং চিকিৎসার উল্লেখ করার সময় নমিনেটিভ এবং অ্যাকুসেটিভ ক্ষেত্রে বিশেষ্য পদসমূহের বিভক্তির উপর মনোযোগ দিন। চিকিৎসা পরিভাষাগুলোর সাথে সঠিক প্রিপোজিশন ব্যবহারের দিকে মনোযোগ দিন।",
+            "hi": "निदान और उपचारों का उल्लेख करते समय नाममात्र और अभियोगात्मक मामलों में संज्ञा अपकर्ष पर ध्यान दें। चिकित्सा शब्दों के साथ पूर्वसर्गों के सही उपयोग पर ध्यान दें।",
+            "ur": "تشخیص اور علاج کا ذکر کرتے وقت اسمی اور الزامی معاملات میں اسم کے خاتمے پر توجہ دیں۔ طبی اصطلاحات کے ساتھ حروفِ اضافت کے درست استعمال پر توجہ دیں۔",
+            "tr": "Tanı ve tedavilere atıfta bulunurken, ismin ismin halleri olan yalın ve belirtme hallerine odaklanın. Tıbbi terimlerle birlikte edatların doğru kullanımına dikkat edin.",
+            "de": "Fokus auf die Deklination von Nomen im Nominativ und Akkusativ bei Bezug auf Diagnosen und Behandlungen. Achten Sie auf die korrekte Verwendung von Präpositionen mit medizinischen Begriffen."
+        },
+        "culturalNotes": {
+            "en": "German discharge letters are generally very thorough and detailed, reflecting the emphasis on precision and documentation in German medicine.",
+            "bn": "জার্মান ছাড়পত্রগুলি সাধারণত খুব পুঙ্খানুপুঙ্খ এবং বিস্তারিত হয়, যা জার্মান চিকিৎসায় যথার্থতা এবং নথিপত্রের উপর জোর দেওয়ার প্রতিফলন ঘটায়।",
+            "hi": "जर्मन डिस्चार्ज लेटर आम तौर पर बहुत विस्तृत और विस्तृत होते हैं, जो जर्मन चिकित्सा में सटीकता और दस्तावेज़ पर जोर देने को दर्शाते हैं।",
+            "ur": "جرمن ڈسچارج لیٹر عام طور پر بہت مکمل اور تفصیلی ہوتے ہیں، جو جرمن طب میں درستگی اور دستاویزات پر زور دینے کی عکاسی کرتے ہیں۔",
+            "tr": "Alman taburcu mektupları genellikle çok kapsamlı ve ayrıntılıdır ve Alman tıbbında hassasiyet ve belgeleme vurgusunu yansıtır.",
+            "de": "Deutsche Arztbriefe sind im Allgemeinen sehr gründlich und detailliert, was die Betonung auf Präzision und Dokumentation in der deutschen Medizin widerspiegelt."
+        },
+        "summary": {
+            "en": "This section provides a foundation for understanding the structure and terminology used in German discharge letters.",
+            "bn": "এই বিভাগটি জার্মান ছাড়পত্রে ব্যবহৃত কাঠামো এবং পরিভাষা বোঝার জন্য একটি ভিত্তি প্রদান করে।",
+            "hi": "यह अनुभाग जर्मन डिस्चार्ज लेटर में उपयोग की जाने वाली संरचना और शब्दावली को समझने के लिए एक आधार प्रदान करता है।",
+            "ur": "یہ سیکشن جرمن ڈسچارج لیٹر میں استعمال ہونے والی ساخت اور اصطلاحات کو سمجھنے کے لیے ایک بنیاد فراہم کرتا ہے۔",
+            "tr": "Bu bölüm, Alman taburcu mektuplarında kullanılan yapıyı ve terminolojiyi anlamak için bir temel sağlar.",
+            "de": "Dieser Abschnitt bietet eine Grundlage für das Verständnis der Struktur und Terminologie, die in deutschen Arztbriefen verwendet wird."
+        },
+        "learningObjectives": [
+            "Identify the key sections of a German discharge letter.",
+            "Recognize common medical terminology used in each section.",
+            "Translate basic information from a discharge letter into English.",
+            "Understand the cultural context of German discharge letters."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "Arztbrief",
+            "article": "der",
+            "plural": "Arztbriefe",
+            "pronunciation": "ˈaːɐ̯t͡sˌbʁiːf",
+            "category": "noun",
+            "translation": {
+                "en": "discharge letter, medical report",
+                "bn": "ডিসচার্জ লেটার, মেডিকেল রিপোর্ট",
+                "hi": "डिस्चार्ज लेटर, मेडिकल रिपोर्ट",
+                "ur": "ڈسچارج لیٹر، میڈیکل رپورٹ",
+                "tr": "taburcu mektubu, tıbbi rapor"
+            },
+            "exampleSentence": "Der Arztbrief wurde dem Patienten bei der Entlassung ausgehändigt.",
+            "exampleTranslation": {
+                "en": "The discharge letter was handed over to the patient upon discharge.",
+                "bn": "রোগীকে ডিসচার্জের সময় ডিসচার্জ লেটার হস্তান্তর করা হয়েছিল।",
+                "hi": "मरीज को छुट्टी के समय डिस्चार्ज लेटर सौंपा गया था।",
+                "ur": "مریض کو ڈسچارج کے وقت ڈسچارج لیٹر سونپا گیا تھا۔",
+                "tr": "Taburcu mektubu, taburcu sırasında hastaya teslim edildi."
+            },
+            "id": "v30_01"
+        },
+        {
+            "germanTerm": "Diagnose",
+            "article": "die",
+            "plural": "Diagnosen",
+            "pronunciation": "di̯aˈɡnoːzə",
+            "category": "noun",
+            "translation": {
+                "en": "diagnosis",
+                "bn": "রোগ নির্ণয়",
+                "hi": "निदान",
+                "ur": "تشخیص",
+                "tr": "teşhis"
+            },
+            "exampleSentence": "Die Diagnose wurde durch verschiedene Untersuchungen bestätigt.",
+            "exampleTranslation": {
+                "en": "The diagnosis was confirmed by various examinations.",
+                "bn": "বিভিন্ন পরীক্ষার মাধ্যমে রোগ নির্ণয় নিশ্চিত করা হয়েছে।",
+                "hi": "विभिन्न जांचों के माध्यम से निदान की पुष्टि की गई।",
+                "ur": "مختلف جانچوں کے ذریعہ تشخیص کی تصدیق ہوگئی ہے۔",
+                "tr": "Teşhis çeşitli muayenelerle doğrulandı."
+            },
+            "id": "v30_02"
+        },
+        {
+            "germanTerm": "Anamnese",
+            "article": "die",
+            "plural": "Anamnesen",
+            "pronunciation": "anaˈmneːzə",
+            "category": "noun",
+            "translation": {
+                "en": "medical history",
+                "bn": "চিকিৎসা ইতিহাস",
+                "hi": "चिकित्सा इतिहास",
+                "ur": "طبی تاریخ",
+                "tr": "tıbbi geçmiş"
+            },
+            "exampleSentence": "Die Anamnese wurde sorgfältig vom Arzt aufgenommen.",
+            "exampleTranslation": {
+                "en": "The medical history was carefully taken by the doctor.",
+                "bn": "চিকিৎসক রোগীর চিকিৎসা ইতিহাস যত্ন সহকারে নিয়েছেন।",
+                "hi": "डॉक्टर द्वारा चिकित्सकीय इतिहास को सावधानीपूर्वक दर्ज किया गया।",
+                "ur": "ڈاکٹر نے طبی تاریخ کو احتیاط سے ریکارڈ کیا تھا۔",
+                "tr": "Tıbbi geçmiş doktor tarafından dikkatlice alındı."
+            },
+            "id": "v30_03"
+        },
+        {
+            "germanTerm": "Befund",
+            "article": "der",
+            "plural": "Befunde",
+            "pronunciation": "bəˈfʊnt",
+            "category": "noun",
+            "translation": {
+                "en": "finding, result",
+                "bn": "ফলাফল, নির্ণয়",
+                "hi": "परिणाम, निष्कर्ष",
+                "ur": "نتیجہ، دریافت",
+                "tr": "bulgu, sonuç"
+            },
+            "exampleSentence": "Der radiologische Befund zeigte eine Fraktur des Femurs.",
+            "exampleTranslation": {
+                "en": "The radiological finding showed a fracture of the femur.",
+                "bn": "রেডিওলজিক্যাল ফলাফলে ফিমারের ফাটল দেখা গেছে।",
+                "hi": "रेडियोलॉजिकल निष्कर्ष में फीमर का फ्रैक्चर दिखाया गया।",
+                "ur": "ریڈیولوجیکل نتائج میں فیمر کا فریکچر دکھایا گیا ہے۔",
+                "tr": "Radyolojik bulgu femurda bir kırık gösterdi."
+            },
+            "id": "v30_04"
+        },
+        {
+            "germanTerm": "Therapie",
+            "article": "die",
+            "plural": "Therapien",
+            "pronunciation": "teˈʁaːpiː",
+            "category": "noun",
+            "translation": {
+                "en": "therapy, treatment",
+                "bn": "থেরাপি, চিকিৎসা",
+                "hi": "थेरेपी, उपचार",
+                "ur": "تھراپی، علاج",
+                "tr": "terapi, tedavi"
+            },
+            "exampleSentence": "Die Therapie mit Antibiotika wurde erfolgreich abgeschlossen.",
+            "exampleTranslation": {
+                "en": "The therapy with antibiotics was successfully completed.",
+                "bn": "অ্যান্টিবায়োটিক দিয়ে থেরাপি সফলভাবে সম্পন্ন হয়েছে।",
+                "hi": "एंटीबायोटिक दवाओं के साथ थेरेपी सफलतापूर्वक पूरी हो गई।",
+                "ur": "اینٹی بائیوٹکس کے ساتھ تھراپی کامیابی کے ساتھ مکمل ہوگئی۔",
+                "tr": "Antibiyotiklerle tedavi başarıyla tamamlandı."
+            },
+            "id": "v30_05"
+        },
+        {
+            "germanTerm": "Prozedere",
+            "article": "das",
+            "plural": "Prozeduren",
+            "pronunciation": "pʁoˈt͡seːdəʁə",
+            "category": "noun",
+            "translation": {
+                "en": "procedure",
+                "bn": "পদ্ধতি",
+                "hi": "प्रक्रिया",
+                "ur": "طریقہ کار",
+                "tr": "prosedür"
+            },
+            "exampleSentence": "Das Prozedere für die Entlassung wurde erklärt.",
+            "exampleTranslation": {
+                "en": "The procedure for discharge was explained.",
+                "bn": "ডিসচার্জের পদ্ধতি ব্যাখ্যা করা হয়েছিল।",
+                "hi": "डिस्चार्ज के लिए प्रक्रिया समझाई गई थी।",
+                "ur": "ڈسچارج کے لیے طریقہ کار واضح کیا گیا تھا۔",
+                "tr": "Taburcu prosedürü açıklandı."
+            },
+            "id": "v30_06"
+        },
+        {
+            "germanTerm": "Entlassung",
+            "article": "die",
+            "plural": "Entlassungen",
+            "pronunciation": "ɛntˈlasʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "discharge",
+                "bn": "ডিসচার্জ",
+                "hi": "छुट्टी",
+                "ur": "ڈسچارج",
+                "tr": "taburcu"
+            },
+            "exampleSentence": "Die Entlassung des Patienten erfolgte planmäßig.",
+            "exampleTranslation": {
+                "en": "The patient's discharge took place as planned.",
+                "bn": "রোগীর ডিসচার্জ পরিকল্পনা অনুযায়ী হয়েছে।",
+                "hi": "मरीज की छुट्टी योजना के अनुसार हुई।",
+                "ur": "مریض کا ڈسچارج منصوبے کے مطابق ہوا۔",
+                "tr": "Hastanın taburcu işlemi planlandığı gibi gerçekleşti."
+            },
+            "id": "v30_07"
+        },
+        {
+            "germanTerm": "Medikation",
+            "article": "die",
+            "plural": "Medikationen",
+            "pronunciation": "medikaˈt͡si̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "medication",
+                "bn": "ঔষধ",
+                "hi": "दवाई",
+                "ur": "دوا",
+                "tr": "ilaç"
+            },
+            "exampleSentence": "Die Medikation des Patienten wurde im Arztbrief dokumentiert.",
+            "exampleTranslation": {
+                "en": "The patient's medication was documented in the discharge letter.",
+                "bn": "রোগীর ঔষধ ডিসচার্জ লেটারে নথিভুক্ত করা হয়েছে।",
+                "hi": "मरीज की दवा को डिस्चार्ज लेटर में प्रलेखित किया गया है।",
+                "ur": "مریض کی دوا کو ڈسچارج لیٹر میں دستاویز کیا گیا ہے۔",
+                "tr": "Hastanın ilaçları taburcu mektubunda belgelendi."
+            },
+            "id": "v30_08"
+        },
+        {
+            "germanTerm": "Empfehlung",
+            "article": "die",
+            "plural": "Empfehlungen",
+            "pronunciation": "ɛmˈpfeːlʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "recommendation",
+                "bn": "সুপারিশ",
+                "hi": "सिफारिश",
+                "ur": "سفارش",
+                "tr": "tavsiye"
+            },
+            "exampleSentence": "Der Arzt gab dem Patienten eine Empfehlung für eine Physiotherapie.",
+            "exampleTranslation": {
+                "en": "The doctor gave the patient a recommendation for physiotherapy.",
+                "bn": "ডাক্তার রোগীকে ফিজিওথেরাপি করার জন্য একটি সুপারিশ দিয়েছেন।",
+                "hi": "डॉक्टर ने मरीज को फिजियोथेरेपी के लिए एक सिफारिश दी।",
+                "ur": "ڈاکٹر نے مریض کو فزیوتھراپی کے لیے ایک سفارش دی۔",
+                "tr": "Doktor hastaya fizyoterapi için bir tavsiye verdi."
+            },
+            "id": "v30_09"
+        },
+        {
+            "germanTerm": "weiterhin",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˈvaɪ̯tɐˌhɪn",
+            "category": "adverb",
+            "translation": {
+                "en": "furthermore, still",
+                "bn": "অধিকন্তু, এখনও",
+                "hi": "इसके अलावा, अभी भी",
+                "ur": "مزید برآں، ابھی تک",
+                "tr": "ayrıca, hala"
+            },
+            "exampleSentence": "Der Patient sollte weiterhin seine Medikamente einnehmen.",
+            "exampleTranslation": {
+                "en": "The patient should still take his medication.",
+                "bn": "রোগীর এখনও তার ওষুধ গ্রহণ করা উচিত।",
+                "hi": "मरीज को अभी भी अपनी दवा लेनी चाहिए।",
+                "ur": "مریض کو ابھی بھی اپنی دوا لینی چاہیے۔",
+                "tr": "Hasta hala ilaçlarını almalıdır."
+            },
+            "id": "v30_10"
+        },
+        {
+            "germanTerm": "Klinik",
+            "article": "die",
+            "plural": "Kliniken",
+            "pronunciation": "ˈkliːnɪk",
+            "category": "noun",
+            "translation": {
+                "en": "clinic, hospital",
+                "bn": "ক্লিনিক, হাসপাতাল",
+                "hi": "क्लिनिक, अस्पताल",
+                "ur": "کلینک، ہسپتال",
+                "tr": "klinik, hastane"
+            },
+            "exampleSentence": "Der Patient wurde in der Klinik behandelt.",
+            "exampleTranslation": {
+                "en": "The patient was treated in the clinic.",
+                "bn": "রোগীকে ক্লিনিকে চিকিৎসা করা হয়েছিল।",
+                "hi": "मरीज का क्लिनिक में इलाज किया गया था।",
+                "ur": "مریض کا کلینک میں علاج کیا گیا تھا۔",
+                "tr": "Hasta klinikte tedavi edildi."
+            },
+            "id": "v30_11"
+        },
+        {
+            "germanTerm": "stationär",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ʃtat͡si̯oˈnɛːɐ̯",
+            "category": "adjective",
+            "translation": {
+                "en": "inpatient",
+                "bn": "আভ্যন্তরীণ রোগী",
+                "hi": "अस्पताल में भर्ती",
+                "ur": "داخلی مریض",
+                "tr": "yatan hasta"
+            },
+            "exampleSentence": "Der Patient wurde stationär aufgenommen.",
+            "exampleTranslation": {
+                "en": "The patient was admitted as an inpatient.",
+                "bn": "রোগীকে অভ্যন্তরীণ রোগী হিসেবে ভর্তি করা হয়েছিল।",
+                "hi": "मरीज को अस्पताल में भर्ती कराया गया था।",
+                "ur": "مریض کو داخلی مریض کے طور پر داخل کرایا گیا تھا۔",
+                "tr": "Hasta yatan hasta olarak kabul edildi."
+            },
+            "id": "v30_12"
+        },
+        {
+            "germanTerm": "ambulant",
+            "article": null,
+            "plural": null,
+            "pronunciation": "amˈbʊlant",
+            "category": "adjective",
+            "translation": {
+                "en": "outpatient",
+                "bn": "বহির্বিভাগের রোগী",
+                "hi": "बाह्य रोगी",
+                "ur": "بیرونی مریض",
+                "tr": "ayaktan hasta"
+            },
+            "exampleSentence": "Die Behandlung erfolgte ambulant.",
+            "exampleTranslation": {
+                "en": "The treatment was carried out on an outpatient basis.",
+                "bn": "চিকিৎসা বহির্বিভাগে করা হয়েছিল।",
+                "hi": "उपचार बाह्य रोगी के आधार पर किया गया था।",
+                "ur": "علاج بیرونی مریض کی بنیاد پر کیا گیا تھا۔",
+                "tr": "Tedavi ayaktan hasta bazında gerçekleştirildi."
+            },
+            "id": "v30_13"
+        },
+        {
+            "germanTerm": "Komplikation",
+            "article": "die",
+            "plural": "Komplikationen",
+            "pronunciation": "kɔmplikaˈt͡si̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "complication",
+                "bn": "জটিলতা",
+                "hi": "जटिलता",
+                "ur": "پیچیدگی",
+                "tr": "komplikasyon"
+            },
+            "exampleSentence": "Es traten keine Komplikationen während des Eingriffs auf.",
+            "exampleTranslation": {
+                "en": "No complications occurred during the procedure.",
+                "bn": "প্রক্রিয়া চলাকালীন কোন জটিলতা দেখা যায়নি।",
+                "hi": "प्रक्रिया के दौरान कोई जटिलता नहीं हुई।",
+                "ur": "عمل کے دوران کوئی پیچیدگی نہیں ہوئی۔",
+                "tr": "Prosedür sırasında herhangi bir komplikasyon oluşmadı."
+            },
+            "id": "v30_14"
+        },
+        {
+            "germanTerm": "Visite",
+            "article": "die",
+            "plural": "Visiten",
+            "pronunciation": "viˈzɪtə",
+            "category": "noun",
+            "translation": {
+                "en": "ward round",
+                "bn": "ওয়ার্ড রাউন্ড",
+                "hi": "वार्ड राउंड",
+                "ur": "وارڈ راؤنڈ",
+                "tr": "vizit"
+            },
+            "exampleSentence": "Die Visite fand jeden Morgen statt.",
+            "exampleTranslation": {
+                "en": "The ward round took place every morning.",
+                "bn": "প্রতি সকালে ওয়ার্ড রাউন্ড অনুষ্ঠিত হত।",
+                "hi": "हर सुबह वार्ड राउंड होता था।",
+                "ur": "ہر صبح وارڈ راؤنڈ ہوتا تھا۔",
+                "tr": "Vizit her sabah gerçekleşti."
+            },
+            "id": "v30_15"
+        },
+        {
+            "germanTerm": "Medikament",
+            "article": "das",
+            "plural": "Medikamente",
+            "pronunciation": "medikaˈmɛnt",
+            "category": "noun",
+            "translation": {
+                "en": "medication, drug",
+                "bn": "ঔষধ",
+                "hi": "दवा",
+                "ur": "دوا",
+                "tr": "ilaç"
+            },
+            "exampleSentence": "Der Patient erhielt das Medikament dreimal täglich.",
+            "exampleTranslation": {
+                "en": "The patient received the medication three times a day.",
+                "bn": "রোগী দিনে তিনবার ঔষধ পেয়েছেন।",
+                "hi": "मरीज को दिन में तीन बार दवा मिली।",
+                "ur": "مریض کو دن میں تین بار دوا ملی۔",
+                "tr": "Hasta ilacı günde üç kez aldı."
+            },
+            "id": "v30_16"
+        },
+        {
+            "germanTerm": "Dosierung",
+            "article": "die",
+            "plural": "Dosierungen",
+            "pronunciation": "doˈziːʁʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "dosage",
+                "bn": "মাত্রা",
+                "hi": "खुराक",
+                "ur": "خوراک",
+                "tr": "dozaj"
+            },
+            "exampleSentence": "Die Dosierung des Medikaments muss genau eingehalten werden.",
+            "exampleTranslation": {
+                "en": "The dosage of the medication must be strictly adhered to.",
+                "bn": "ঔষধের মাত্রা সঠিকভাবে মেনে চলতে হবে।",
+                "hi": "दवा की खुराक का सख्ती से पालन किया जाना चाहिए।",
+                "ur": "دوا کی خوراک کی سختی سے پابندی کرنی چاہیے۔",
+                "tr": "İlacın dozu kesinlikle uyulmalıdır."
+            },
+            "id": "v30_17"
+        },
+        {
+            "germanTerm": "Nebenwirkung",
+            "article": "die",
+            "plural": "Nebenwirkungen",
+            "pronunciation": "ˈneːbn̩ˌvɪʁkʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "side effect",
+                "bn": "পার্শ্বপ্রতিক্রিয়া",
+                "hi": "दुष्प्रभाव",
+                "ur": "ضمنی اثر",
+                "tr": "yan etki"
+            },
+            "exampleSentence": "Der Patient klagte über Nebenwirkungen des Medikaments.",
+            "exampleTranslation": {
+                "en": "The patient complained about side effects of the medication.",
+                "bn": "রোগী ঔষধের পার্শ্বপ্রতিক্রিয়া সম্পর্কে অভিযোগ করেছেন।",
+                "hi": "मरीज ने दवा के दुष्प्रभावों के बारे में शिकायत की।",
+                "ur": "مریض نے دوا کے ضمنی اثرات کے بارے میں شکایت کی۔",
+                "tr": "Hasta ilacın yan etkilerinden şikayet etti."
+            },
+            "id": "v30_18"
+        },
+        {
+            "germanTerm": "Prognose",
+            "article": "die",
+            "plural": "Prognosen",
+            "pronunciation": "pʁoˈɡnoːzə",
+            "category": "noun",
+            "translation": {
+                "en": "prognosis",
+                "bn": "পূর্বাভাস",
+                "hi": "पूर्वानुमान",
+                "ur": "تشخیص",
+                "tr": "prognoz"
+            },
+            "exampleSentence": "Die Prognose für den Patienten ist gut.",
+            "exampleTranslation": {
+                "en": "The prognosis for the patient is good.",
+                "bn": "রোগীর জন্য পূর্বাভাস ভালো।",
+                "hi": "मरीज के लिए पूर्वानुमान अच्छा है।",
+                "ur": "مریض کے لیے تشخیص اچھی ہے۔",
+                "tr": "Hasta için prognoz iyi."
+            },
+            "id": "v30_19"
+        },
+        {
+            "germanTerm": "Kontrolle",
+            "article": "die",
+            "plural": "Kontrollen",
+            "pronunciation": "kɔnˈtʁɔlə",
+            "category": "noun",
+            "translation": {
+                "en": "check-up, control",
+                "bn": "চেক-আপ, নিয়ন্ত্রণ",
+                "hi": "जाँच, नियंत्रण",
+                "ur": "چیک اپ، کنٹرول",
+                "tr": "kontrol"
+            },
+            "exampleSentence": "Der Patient sollte zur regelmäßigen Kontrolle kommen.",
+            "exampleTranslation": {
+                "en": "The patient should come for regular check-ups.",
+                "bn": "রোগীর নিয়মিত চেক-আপের জন্য আসা উচিত।",
+                "hi": "मरीज को नियमित जांच के लिए आना चाहिए।",
+                "ur": "مریض کو باقاعدگی سے چیک اپ کے لیے آنا چاہیے۔",
+                "tr": "Hasta düzenli kontrollere gelmelidir."
+            },
+            "id": "v30_20"
+        },
+        {
+            "germanTerm": "körperlich",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˈkœʁpɐlɪç",
+            "category": "adjective",
+            "translation": {
+                "en": "physical",
+                "bn": "শারীরিক",
+                "hi": "शारीरिक",
+                "ur": "جسمانی",
+                "tr": "fiziksel"
+            },
+            "exampleSentence": "Der Patient wurde körperlich untersucht.",
+            "exampleTranslation": {
+                "en": "The patient was physically examined.",
+                "bn": "রোগীর শারীরিক পরীক্ষা করা হয়েছিল।",
+                "hi": "मरीज की शारीरिक जांच की गई।",
+                "ur": "مریض کا جسمانی معائنہ کیا گیا تھا۔",
+                "tr": "Hasta fiziksel olarak muayene edildi."
+            },
+            "id": "v30_21"
+        },
+        {
+            "germanTerm": "psychisch",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˈpsyːʃɪʃ",
+            "category": "adjective",
+            "translation": {
+                "en": "psychological, mental",
+                "bn": "মানসিক",
+                "hi": "मनोवैज्ञानिक, मानसिक",
+                "ur": "نفسیاتی، ذہنی",
+                "tr": "psikolojik, zihinsel"
+            },
+            "exampleSentence": "Der Patient benötigte psychische Unterstützung.",
+            "exampleTranslation": {
+                "en": "The patient needed psychological support.",
+                "bn": "রোগীর মানসিক সহায়তার প্রয়োজন ছিল।",
+                "hi": "मरीज को मनोवैज्ञानिक समर्थन की आवश्यकता थी।",
+                "ur": "مریض کو نفسیاتی مدد کی ضرورت تھی۔",
+                "tr": "Hastanın psikolojik desteğe ihtiyacı vardı."
+            },
+            "id": "v30_22"
+        },
+        {
+            "germanTerm": "Einweisung",
+            "article": "die",
+            "plural": "Einweisungen",
+            "pronunciation": "ˈaɪ̯nˌvaɪ̯zʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "referral, admission",
+                "bn": "রেফারেল, ভর্তি",
+                "hi": "रेफरल, प्रवेश",
+                "ur": "ریفرل، داخلہ",
+                "tr": "sevk, kabul"
+            },
+            "exampleSentence": "Der Arzt schrieb eine Einweisung ins Krankenhaus.",
+            "exampleTranslation": {
+                "en": "The doctor wrote a referral to the hospital.",
+                "bn": "ডাক্তার হাসপাতালে ভর্তির জন্য একটি রেফারেল লিখেছেন।",
+                "hi": "डॉक्टर ने अस्पताल में भर्ती होने के लिए एक रेफरल लिखा।",
+                "ur": "ڈاکٹر نے اسپتال میں داخلے کے لیے ایک ریفرل لکھا۔",
+                "tr": "Doktor hastaneye sevk yazdı."
+            },
+            "id": "v30_23"
+        },
+        {
+            "germanTerm": "Laborwerte",
+            "article": "die",
+            "plural": "Laborwerte",
+            "pronunciation": "laˈboːɐ̯ˌveːɐ̯tə",
+            "category": "noun",
+            "translation": {
+                "en": "lab results",
+                "bn": "ল্যাব ফলাফল",
+                "hi": "प्रयोगशाला परिणाम",
+                "ur": "لیب کے نتائج",
+                "tr": "laboratuvar sonuçları"
+            },
+            "exampleSentence": "Die Laborwerte waren im Arztbrief aufgeführt.",
+            "exampleTranslation": {
+                "en": "The lab results were listed in the discharge letter.",
+                "bn": "ল্যাব ফলাফল ডিসচার্জ লেটারে তালিকাভুক্ত করা হয়েছে।",
+                "hi": "प्रयोगशाला के परिणाम डिस्चार्ज लेटर में सूचीबद्ध थे।",
+                "ur": "لیب کے نتائج ڈسچارج لیٹر میں درج تھے۔",
+                "tr": "Laboratuvar sonuçları taburcu mektubunda listelenmiştir."
+            },
+            "id": "v30_24"
+        },
+        {
+            "germanTerm": "Herzinsuffizienz",
+            "article": "die",
+            "plural": "Herzinsuffizienzen",
+            "pronunciation": "ˈhɛʁt͡sʔɪnzʊfiˈt͡si̯ɛnt͡s",
+            "category": "noun",
+            "translation": {
+                "en": "heart failure",
+                "bn": "হার্ট ফেইলিউর",
+                "hi": "हार्ट फेलियर",
+                "ur": "دل کا ناکام ہونا",
+                "tr": "kalp yetmezliği"
+            },
+            "exampleSentence": "Der Patient leidet an Herzinsuffizienz.",
+            "exampleTranslation": {
+                "en": "The patient suffers from heart failure.",
+                "bn": "রোগী হার্ট ফেইলিউরে ভুগছেন।",
+                "hi": "मरीज हार्ट फेलियर से पीड़ित है।",
+                "ur": "مریض دل کی ناکامی میں مبتلا ہے۔",
+                "tr": "Hasta kalp yetmezliğinden muzdarip."
+            },
+            "id": "v30_25"
+        },
+        {
+            "germanTerm": "verschreiben",
+            "article": null,
+            "plural": null,
+            "pronunciation": "fɛɐ̯ˈʃʁaɪ̯bn̩",
+            "category": "verb",
+            "translation": {
+                "en": "to prescribe",
+                "bn": "প্রেসক্রাইব করা",
+                "hi": "निर्धारित करना",
+                "ur": "تجویز کرنا",
+                "tr": "reçete etmek"
+            },
+            "exampleSentence": "Der Arzt verschrieb dem Patienten ein neues Medikament.",
+            "exampleTranslation": {
+                "en": "The doctor prescribed a new medication to the patient.",
+                "bn": "ডাক্তার রোগীকে একটি নতুন ওষুধ প্রেসক্রাইব করেছেন।",
+                "hi": "डॉक्टर ने मरीज को एक नई दवा निर्धारित की।",
+                "ur": "ڈاکٹر نے مریض کو ایک نئی دوا تجویز کی۔",
+                "tr": "Doktor hastaya yeni bir ilaç reçete etti."
+            },
+            "id": "v30_26"
+        },
+        {
+            "germanTerm": "Abschlussbericht",
+            "article": "der",
+            "plural": "Abschlussberichte",
+            "pronunciation": "ˈapʃlʊsˌbəʁɪçt",
+            "category": "noun",
+            "translation": {
+                "en": "final report",
+                "bn": "চূড়ান্ত প্রতিবেদন",
+                "hi": "अंतिम रिपोर्ट",
+                "ur": "آخری رپورٹ",
+                "tr": "nihai rapor"
+            },
+            "exampleSentence": "Der Abschlussbericht fasst den gesamten Krankenhausaufenthalt zusammen.",
+            "exampleTranslation": {
+                "en": "The final report summarizes the entire hospital stay.",
+                "bn": "চূড়ান্ত প্রতিবেদনটি পুরো হাসপাতালে থাকার সময়কালের সারসংক্ষেপ করে।",
+                "hi": "अंतिम रिपोर्ट पूरे अस्पताल में रहने की अवधि का सारांश प्रस्तुत करती है।",
+                "ur": "آخری رپورٹ پورے ہسپتال میں قیام کا خلاصہ کرتی ہے۔",
+                "tr": "Nihai rapor, tüm hastanede kalış süresini özetlemektedir."
+            },
+            "id": "v30_27"
+        },
+        {
+            "germanTerm": "Entlassungsmanagement",
+            "article": "das",
+            "plural": "Entlassungsmanagements",
+            "pronunciation": "ɛntˈlasʊŋsˌmanəd͡ʒmənt",
+            "category": "noun",
+            "translation": {
+                "en": "discharge management",
+                "bn": "ডিসচার্জ ব্যবস্থাপনা",
+                "hi": "डिस्चार्ज प्रबंधन",
+                "ur": "ڈسچارج مینجمنٹ",
+                "tr": "taburcu yönetimi"
+            },
+            "exampleSentence": "Das Entlassungsmanagement hat den Übergang nach Hause organisiert.",
+            "exampleTranslation": {
+                "en": "The discharge management organized the transition home.",
+                "bn": "ডিসচার্জ ব্যবস্থাপনা বাড়িতে স্থানান্তরটি আয়োজন করেছে।",
+                "hi": "डिस्चार्ज प्रबंधन ने घर पर परिवर्तन का आयोजन किया।",
+                "ur": "ڈسچارج مینجمنٹ نے گھر میں منتقلی کا اہتمام کیا۔",
+                "tr": "Taburcu yönetimi eve geçişi organize etti."
+            },
+            "id": "v30_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Discharge Letter Discussion: Patient Müller",
+                "bn": "ছাড়পত্র আলোচনা: রোগী মুলার",
+                "hi": "डिस्चार्ज पत्र चर्चा: रोगी मुलर",
+                "ur": "ڈسچارج خط بحث: مریض ملر",
+                "tr": "Taburcu Mektubu Tartışması: Hasta Müller"
+            },
+            "context": {
+                "en": "Dr. Schmidt, the assistant doctor, discusses Patient Müller's discharge letter with Dr. Weber, the senior physician, before finalizing it.",
+                "bn": "সহকারী ডাক্তার স্মিথ, সিনিয়র ডাক্তার ওয়েবারের সাথে রোগী মুলারের ছাড়পত্র নিয়ে আলোচনা করছেন, চূড়ান্ত করার আগে।",
+                "hi": "सहायक डॉक्टर श्मिट वरिष्ठ चिकित्सक डॉक्टर वेबर के साथ रोगी मुलर के डिस्चार्ज पत्र पर अंतिम रूप देने से पहले चर्चा करते हैं।",
+                "ur": "اسسٹنٹ ڈاکٹر شمٹ سینئر ڈاکٹر ویبر کے ساتھ مریض مولر کے ڈسچارج خط پر حتمی شکل دینے سے پہلے تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Yardımcı doktor Schmidt, kıdemli doktor Weber ile Hasta Müller'in taburcu mektubunu son haline getirmeden önce tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Morgen, Frau Dr. Weber. Hier ist der Entlassungsbrief für Herrn Müller. Diagnose: Pneumonie. Anamnese und Befund sind im Brief dokumentiert.",
+                    "translation": {
+                        "en": "Good morning, Dr. Weber. Here is the discharge letter for Mr. Müller. Diagnosis: Pneumonia. Anamnesis and findings are documented in the letter.",
+                        "bn": "শুভ সকাল, ডাক্তার ওয়েবার। এই হল মি. মুলারের ছাড়পত্র। রোগনির্ণয়: নিউমোনিয়া। পূর্ববর্তী ইতিহাস এবং ফলাফল চিঠিতে নথিভুক্ত করা হয়েছে।",
+                        "hi": "शुभ प्रभात, डॉक्टर वेबर। ये श्री मुलर के लिए डिस्चार्ज पत्र है। निदान: निमोनिया। इतिहास और निष्कर्ष पत्र में दर्ज हैं।",
+                        "ur": "صبح بخیر، ڈاکٹر ویبر۔ یہ مسٹر مولر کے لیے ڈسچارج خط ہے۔ تشخیص: نمونیا۔ ہسٹری اور نتائج خط میں درج ہیں۔",
+                        "tr": "Günaydın Doktor Weber. İşte Bay Müller'in taburcu mektubu. Teşhis: Zatürre. Anamnez ve bulgular mektupta belgelenmiştir."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Haben Sie die Therapie deutlich aufgeführt? Welche Medikamente soll er zu Hause weiternehmen?",
+                    "translation": {
+                        "en": "Did you clearly state the therapy? Which medications should he continue taking at home?",
+                        "bn": "আপনি কি থেরাপি স্পষ্টভাবে উল্লেখ করেছেন? কোন ওষুধগুলি তাকে বাড়িতে গ্রহণ করতে হবে?",
+                        "hi": "क्या आपने थेरेपी को स्पष्ट रूप से बताया है? उसे घर पर कौन सी दवाइयाँ लेनी जारी रखनी चाहिए?",
+                        "ur": "کیا آپ نے تھراپی کو واضح طور پر بتایا ہے؟ اسے گھر پر کون سی دوائیں لینا جاری رکھنا چاہیے؟",
+                        "tr": "Tedaviyi açıkça belirttiniz mi? Evde hangi ilaçları almaya devam etmeli?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ja, die Therapie mit Antibiotika und Schmerzmitteln ist detailliert beschrieben, inklusive Dosierung und Dauer.",
+                    "translation": {
+                        "en": "Yes, the therapy with antibiotics and painkillers is described in detail, including dosage and duration.",
+                        "bn": "হ্যাঁ, অ্যান্টিবায়োটিক এবং ব্যথানাশক ওষুধের থেরাপি বিস্তারিতভাবে বর্ণনা করা হয়েছে, ডোজ এবং সময়কাল সহ।",
+                        "hi": "हां, एंटीबायोटिक दवाओं और दर्द निवारक दवाओं के साथ चिकित्सा का विस्तृत वर्णन है, जिसमें खुराक और अवधि शामिल है।",
+                        "ur": "ہاں، اینٹی بائیوٹکس اور درد کم کرنے والی ادویات کے ساتھ تھراپی کو تفصیل سے بیان کیا گیا ہے، بشمول خوراک اور دورانیہ۔",
+                        "tr": "Evet, antibiyotikler ve ağrı kesicilerle tedavi, dozaj ve süre dahil olmak üzere ayrıntılı olarak açıklanmıştır."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Gut. Und das Procedere für die Nachsorge beim Hausarzt?",
+                    "translation": {
+                        "en": "Good. And the procedure for follow-up care with the family doctor?",
+                        "bn": "ভালো। এবং পারিবারিক ডাক্তারের সাথে ফলো-আপ যত্নের পদ্ধতি?",
+                        "hi": "अच्छा। और परिवार के डॉक्टर के साथ फॉलो-अप देखभाल की प्रक्रिया?",
+                        "ur": "اچھا۔ اور فیملی ڈاکٹر کے ساتھ فالو اپ کیئر کا طریقہ کار؟",
+                        "tr": "Güzel. Ve aile doktoru ile takip bakımı için prosedür?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Er soll sich in einer Woche beim Hausarzt vorstellen zur Kontrolle.",
+                    "translation": {
+                        "en": "He should see his family doctor for a check-up in one week.",
+                        "bn": "তাকে এক সপ্তাহের মধ্যে চেক-আপের জন্য তার পারিবারিক ডাক্তারের সাথে দেখা করা উচিত।",
+                        "hi": "उन्हें एक सप्ताह में चेक-अप के लिए अपने परिवार के डॉक्टर से मिलना चाहिए।",
+                        "ur": "انہیں ایک ہفتے میں چیک اپ کے لیے اپنے فیملی ڈاکٹر سے ملنا چاہیے۔",
+                        "tr": "Bir hafta içinde kontrol için aile doktoruna görünmelidir."
+                    }
+                }
+            ],
+            "id": "d30_01"
+        },
+        {
+            "title": {
+                "en": "Discharge Information: Patient Schneider",
+                "bn": "ছাড়পত্রের তথ্য: রোগী স্নাইডার",
+                "hi": "डिस्चार्ज जानकारी: रोगी श्नाइडर",
+                "ur": "ڈسچارج معلومات: مریض شنائیڈر",
+                "tr": "Taburcu Bilgileri: Hasta Schneider"
+            },
+            "context": {
+                "en": "Nurse Weber explains the discharge letter to Patient Schneider before his departure.",
+                "bn": "নার্স ওয়েবার, রোগী স্নাইডারকে তার প্রস্থানের আগে ছাড়পত্রের বিষয়বস্তু ব্যাখ্যা করছেন।",
+                "hi": "नर्स वेबर, रोगी श्नाइडर को उसकी रवानगी से पहले डिस्चार्ज पत्र समझा रही हैं।",
+                "ur": "نرس ویبر، مریض شنائیڈر کو اس کے روانگی سے پہلے ڈسچارج خط کی وضاحت کر رہی ہیں۔",
+                "tr": "Hemşire Weber, hasta Schneider'e ayrılmadan önce taburcu mektubunu açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Tag, Herr Schneider. Hier ist Ihr Entlassungsbrief. Bitte lesen Sie ihn sorgfältig durch.",
+                    "translation": {
+                        "en": "Good day, Mr. Schneider. Here is your discharge letter. Please read it carefully.",
+                        "bn": "শুভ দিন, মি. স্নাইডার। এই হল আপনার ছাড়পত্র। অনুগ্রহ করে এটি মনোযোগ সহকারে পড়ুন।",
+                        "hi": "शुभ दिन, श्री श्नाइडर। ये रहा आपका डिस्चार्ज पत्र। कृपया इसे ध्यान से पढ़ें।",
+                        "ur": "شب بخیر، مسٹر شنائیڈر۔ یہ آپ کا ڈسچارج خط ہے۔ براہ کرم اسے غور سے پڑھیں۔",
+                        "tr": "İyi günler Bay Schneider. İşte taburcu mektubunuz. Lütfen dikkatlice okuyun."
+                    }
+                },
+                {
+                    "speaker": "Patient Schneider",
+                    "speakerRole": "Patient",
+                    "germanText": "Vielen Dank. Was steht denn Wichtiges drin?",
+                    "translation": {
+                        "en": "Thank you very much. What important information is in it?",
+                        "bn": "অনেক ধন্যবাদ। এর মধ্যে গুরুত্বপূর্ণ কী লেখা আছে?",
+                        "hi": "बहुत धन्यवाद। इसमें महत्वपूर्ण जानकारी क्या है?",
+                        "ur": "بہت شکریہ۔ اس میں اہم معلومات کیا ہیں؟",
+                        "tr": "Çok teşekkür ederim. İçinde ne gibi önemli bilgiler var?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ihre Diagnose, die durchgeführte Therapie und das weitere Procedere, inklusive der Medikamente, die Sie einnehmen sollen.",
+                    "translation": {
+                        "en": "Your diagnosis, the therapy performed, and the further procedure, including the medications you should take.",
+                        "bn": "আপনার রোগনির্ণয়, যে থেরাপি করা হয়েছে, এবং পরবর্তী পদক্ষেপ, আপনি যে ওষুধগুলি খাবেন সেই সহ।",
+                        "hi": "आपका निदान, की गई थेरेपी, और आगे की प्रक्रिया, जिसमें आपके द्वारा ली जाने वाली दवाएं शामिल हैं।",
+                        "ur": "آپ کی تشخیص، کی گئی تھراپی، اور مزید طریقہ کار، بشمول وہ دوائیں جو آپ کو لینی چاہئیں۔",
+                        "tr": "Teşhisiniz, uygulanan tedavi ve almanız gereken ilaçlar da dahil olmak üzere daha sonraki prosedür."
+                    }
+                },
+                {
+                    "speaker": "Patient Schneider",
+                    "speakerRole": "Patient",
+                    "germanText": "Verstehe. Und wann muss ich zum Hausarzt?",
+                    "translation": {
+                        "en": "I understand. And when do I have to see my family doctor?",
+                        "bn": "বুঝেছি। এবং আমাকে কখন আমার পারিবারিক ডাক্তারের সাথে দেখা করতে হবে?",
+                        "hi": "समझ गया। और मुझे अपने परिवार के डॉक्टर से कब मिलना है?",
+                        "ur": "سمجھ گیا۔ اور مجھے اپنے فیملی ڈاکٹر سے کب ملنا ہے؟",
+                        "tr": "Anlıyorum. Ve aile doktoruma ne zaman gitmem gerekiyor?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Das steht auch im Brief. Normalerweise innerhalb von einer Woche zur Nachsorge.",
+                    "translation": {
+                        "en": "That's also in the letter. Usually within one week for follow-up care.",
+                        "bn": "সেটিও চিঠিতে লেখা আছে। সাধারণত এক সপ্তাহের মধ্যে ফলো-আপ যত্নের জন্য।",
+                        "hi": "वह भी पत्र में लिखा है। आमतौर पर एक सप्ताह के भीतर फॉलो-अप देखभाल के लिए।",
+                        "ur": "وہ بھی خط میں لکھا ہے۔ عام طور پر ایک ہفتے کے اندر فالو اپ کیئر کے لیے۔",
+                        "tr": "O da mektupta yazıyor. Genellikle bir hafta içinde takip bakımı için."
+                    }
+                }
+            ],
+            "id": "d30_02"
+        },
+        {
+            "title": {
+                "en": "Entlassungsbrief for Frau Klein: Medication",
+                "bn": "ফ্রাউ ক্লাইনের জন্য ছাড়পত্র: ওষুধ",
+                "hi": "फ्राउ क्लाइन के लिए डिस्चार्ज पत्र: दवा",
+                "ur": "فراؤ کلین کے لیے ڈسچارج خط: دوا",
+                "tr": "Frau Klein için Taburcu Mektubu: İlaç"
+            },
+            "context": {
+                "en": "Dr. Schmidt dictates the medication section of Frau Klein's discharge letter to Nurse Schmidt.",
+                "bn": "ডাক্তার স্মিথ, নার্স স্মিথকে ফ্রাউ ক্লাইনের ছাড়পত্রের ওষুধের অংশটি বলে লিখিয়ে দিচ্ছেন।",
+                "hi": "डॉक्टर श्मिट, नर्स श्मिट को फ्राउ क्लाइन के डिस्चार्ज पत्र के दवा अनुभाग को निर्देशित करते हैं।",
+                "ur": "ڈاکٹر شمٹ، نرس شمٹ کو فراؤ کلین کے ڈسچارج خط کے دوا کے حصے کی ہدایت کر رہے ہیں۔",
+                "tr": "Doktor Schmidt, hemşire Schmidt'e Frau Klein'in taburcu mektubunun ilaç bölümünü dikte ediyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Schwester Schmidt, bitte notieren Sie: Therapie: Frau Klein erhält weiterhin Ramipril 5mg einmal täglich...",
+                    "translation": {
+                        "en": "Nurse Schmidt, please note: Therapy: Mrs. Klein continues to receive Ramipril 5mg once daily...",
+                        "bn": "নার্স স্মিথ, অনুগ্রহ করে লিখুন: থেরাপি: মিসেস ক্লাইন প্রতিদিন একবার করে ৫ মিলিগ্রাম র‌্যামিপ্রিল গ্রহণ করতে থাকবেন...",
+                        "hi": "नर्स श्मिट, कृपया ध्यान दें: थेरेपी: श्रीमती क्लाइन प्रतिदिन एक बार 5 मिलीग्राम रामिप्रिल लेना जारी रखती हैं...",
+                        "ur": "نرس شمٹ، براہ کرم نوٹ کریں: تھراپی: محترمہ کلین روزانہ ایک بار 5 ملی گرام رامیپریل لیتی رہیں...",
+                        "tr": "Hemşire Schmidt, lütfen not alın: Tedavi: Bayan Klein günde bir kez 5 mg Ramipril almaya devam ediyor..."
+                    }
+                },
+                {
+                    "speaker": "Schwester Schmidt",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ramipril 5mg, einmal täglich. Verstanden.",
+                    "translation": {
+                        "en": "Ramipril 5mg, once daily. Understood.",
+                        "bn": "র‌্যামিপ্রিল ৫ মিলিগ্রাম, প্রতিদিন একবার। বুঝেছি।",
+                        "hi": "रामिप्रिल 5 मिलीग्राम, प्रतिदिन एक बार। समझ गया।",
+                        "ur": "رامیپریل 5 ملی گرام، روزانہ ایک بار۔ سمجھ گیا۔",
+                        "tr": "Ramipril 5mg, günde bir kez. Anlaşıldı."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "…und Metoprolol 50mg zweimal täglich. Bei Bedarf Paracetamol bis zu 3x täglich 500mg.",
+                    "translation": {
+                        "en": "...and Metoprolol 50mg twice daily. If needed, Paracetamol up to 3x daily 500mg.",
+                        "bn": "...এবং মেটোপ্রোলল ৫০ মিলিগ্রাম দিনে দুবার। প্রয়োজনে, প্যারাসিটামল দিনে ৩ বার পর্যন্ত ৫০০ মিলিগ্রাম।",
+                        "hi": "...और मेटोप्रोलोल 50 मिलीग्राम दिन में दो बार। जरूरत पड़ने पर, पैरासिटामोल दिन में 3 बार तक 500 मिलीग्राम।",
+                        "ur": "...اور میٹوپٹرول 50 ملی گرام دن میں دو بار۔ ضرورت پڑنے پر، پیراسیٹامول دن میں 3 بار تک 500 ملی گرام۔",
+                        "tr": "...ve Metoprolol 50mg günde iki kez. Gerekirse, günde 3 defaya kadar Paracetamol 500mg."
+                    }
+                },
+                {
+                    "speaker": "Schwester Schmidt",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Metoprolol 50mg zweimal, Paracetamol bei Bedarf. Ist notiert.",
+                    "translation": {
+                        "en": "Metoprolol 50mg twice, Paracetamol as needed. Noted.",
+                        "bn": "মেটোপ্রোলল ৫০ মিলিগ্রাম দুবার, প্যারাসিটামল প্রয়োজনে। লেখা হল।",
+                        "hi": "मेटोप्रोलोल 50 मिलीग्राम दो बार, पैरासिटामोल जरूरत पड़ने पर। नोट किया गया।",
+                        "ur": "میٹوپٹرول 50 ملی گرام دو بار، پیراسیٹامول ضرورت پڑنے پر۔ نوٹ کر لیا۔",
+                        "tr": "Metoprolol 50mg iki kez, Paracetamol gerektiğinde. Not edildi."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Gut, danke. Bitte auch den Hinweis auf die regelmäßige Blutdruckkontrolle nicht vergessen.",
+                    "translation": {
+                        "en": "Good, thank you. Please don't forget to mention the regular blood pressure check.",
+                        "bn": "ভাল, ধন্যবাদ। নিয়মিত রক্তচাপ পরীক্ষা উল্লেখ করতে ভুলবেন না।",
+                        "hi": "अच्छा, धन्यवाद। कृपया नियमित रक्तचाप की जांच का उल्लेख करना न भूलें।",
+                        "ur": "اچھا، شکریہ۔ براہ کرم باقاعدگی سے بلڈ پریشر کی جانچ کا ذکر کرنا نہ بھولیں۔",
+                        "tr": "Güzel, teşekkürler. Lütfen düzenli kan basıncı kontrolünden bahsetmeyi unutmayın."
+                    }
+                }
+            ],
+            "id": "d30_03"
+        },
+        {
+            "title": {
+                "en": "Anamnesis and Befund: Herr Bauer",
+                "bn": "অ্যানামনেসিস এবং বেফুন্ড: মি. বাউয়ার",
+                "hi": "अनाम्नेसिस और बेफंड: श्री बावर",
+                "ur": "اینامنسس اور بیفنڈ: مسٹر باؤر",
+                "tr": "Anamnez ve Bulgular: Bay Bauer"
+            },
+            "context": {
+                "en": "Dr. Weber reviews the anamnesis and findings section of Herr Bauer's discharge letter with Dr. Schmidt.",
+                "bn": "ডাক্তার ওয়েবার, ডাক্তার স্মিথের সাথে মি. বাউয়ারের ছাড়পত্রের অ্যানামনেসিস এবং ফলাফলের অংশটি পর্যালোচনা করছেন।",
+                "hi": "डॉक्टर वेबर, डॉक्टर श्मिट के साथ श्री बावर के डिस्चार्ज पत्र के अनाम्नेसिस और निष्कर्ष अनुभाग की समीक्षा कर रही हैं।",
+                "ur": "ڈاکٹر ویبر، ڈاکٹر شمٹ کے ساتھ مسٹر باؤر کے ڈسچارج خط کے اینامنسس اور نتائج کے سیکشن کا جائزہ لے رہی ہیں۔",
+                "tr": "Doktor Weber, Doktor Schmidt ile Bay Bauer'in taburcu mektubunun anamnez ve bulgular bölümünü inceliyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Dr. Schmidt, bei Herrn Bauer, ist die Anamnese vollständig? Vorerkrankungen, Allergien?",
+                    "translation": {
+                        "en": "Dr. Schmidt, for Mr. Bauer, is the anamnesis complete? Pre-existing conditions, allergies?",
+                        "bn": "ডাক্তার স্মিথ, মি. বাউয়ারের ক্ষেত্রে, অ্যানামনেসিস কি সম্পূর্ণ? আগের রোগ, অ্যালার্জি?",
+                        "hi": "डॉक्टर श्मिट, श्री बावर के लिए, क्या अनाम्नेसिस पूरी है? पहले से मौजूद स्थितियां, एलर्जी?",
+                        "ur": "ڈاکٹر شمٹ، مسٹر باؤر کے لیے، کیا اینامنسس مکمل ہے؟ پہلے سے موجود حالات، الرجی؟",
+                        "tr": "Doktor Schmidt, Bay Bauer için anamnez tamam mı? Önceden var olan koşullar, alerjiler?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ja, alle bekannten Allergien sind dokumentiert. Hypertonie und Diabetes mellitus Typ 2 sind ebenfalls erwähnt.",
+                    "translation": {
+                        "en": "Yes, all known allergies are documented. Hypertension and diabetes mellitus type 2 are also mentioned.",
+                        "bn": "হ্যাঁ, সমস্ত পরিচিত অ্যালার্জি নথিভুক্ত করা হয়েছে। উচ্চ রক্তচাপ এবং ডায়াবেটিস মেলিটাস টাইপ ২-ও উল্লেখ করা হয়েছে।",
+                        "hi": "हां, सभी ज्ञात एलर्जी दर्ज की गई हैं। उच्च रक्तचाप और मधुमेह मेलेटस टाइप 2 का भी उल्लेख किया गया है।",
+                        "ur": "ہاں، تمام معلوم الرجیوں کو دستاویزی شکل دی گئی ہے۔ ہائی بلڈ پریشر اور ذیابیطس mellitus قسم 2 کا بھی ذکر کیا گیا ہے۔",
+                        "tr": "Evet, bilinen tüm alerjiler belgelenmiştir. Hipertansiyon ve diabetes mellitus tip 2'den de bahsedilmiştir."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Und der Befund? Wurden alle relevanten Untersuchungen durchgeführt?",
+                    "translation": {
+                        "en": "And the findings? Were all relevant examinations performed?",
+                        "bn": "এবং ফলাফল? সমস্ত প্রাসঙ্গিক পরীক্ষা করা হয়েছে?",
+                        "hi": "और निष्कर्ष? क्या सभी प्रासंगिक परीक्षाएं की गईं?",
+                        "ur": "اور نتائج؟ کیا تمام متعلقہ امتحانات کیے گئے؟",
+                        "tr": "Ve bulgular? Tüm ilgili muayeneler yapıldı mı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "EKG, Blutuntersuchung, Röntgenaufnahme der Lunge – alles im Entlassungsbrief dokumentiert.",
+                    "translation": {
+                        "en": "ECG, blood test, chest X-ray - all documented in the discharge letter.",
+                        "bn": "ইসিজি, রক্ত পরীক্ষা, ফুসফুসের এক্স-রে - সবকিছু ছাড়পত্রে নথিভুক্ত করা হয়েছে।",
+                        "hi": "ईसीजी, रक्त परीक्षण, छाती का एक्स-रे - सब कुछ डिस्चार्ज पत्र में दर्ज है।",
+                        "ur": "ای سی جی، خون کا معائنہ، سینے کا ایکسرے - سب کچھ ڈسچارج خط میں درج ہے۔",
+                        "tr": "EKG, kan testi, akciğer röntgeni - hepsi taburcu mektubunda belgelenmiştir."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Sehr gut. Dann können wir den Brief so freigeben.",
+                    "translation": {
+                        "en": "Very good. Then we can release the letter as it is.",
+                        "bn": "খুব ভালো। তাহলে আমরা চিঠিটি যেমন আছে তেমন ছেড়ে দিতে পারি।",
+                        "hi": "बहुत अच्छा। फिर हम पत्र को जैसा है वैसा ही जारी कर सकते हैं।",
+                        "ur": "بہت خوب۔ پھر ہم خط کو جیسا ہے ویسا ہی جاری کر سکتے ہیں۔",
+                        "tr": "Çok iyi. O zaman mektubu olduğu gibi yayınlayabiliriz."
+                    }
+                }
+            ],
+            "id": "d30_04"
+        },
+        {
+            "title": {
+                "en": "Procedere after Discharge: Patient Lehmann",
+                "bn": "ছাড়ের পরে করণীয়: রোগী লেহমান",
+                "hi": "डिस्चार्ज के बाद प्रक्रिया: रोगी लेहमान",
+                "ur": "ڈسچارج کے بعد طریقہ کار: مریض لیہمن",
+                "tr": "Taburcu Sonrası Prosedür: Hasta Lehmann"
+            },
+            "context": {
+                "en": "Dr. Schmidt explains the follow-up procedures to Patient Lehmann before his discharge.",
+                "bn": "ডাক্তার স্মিথ, রোগী লেহমানকে তার ছাড়ের আগে ফলো-আপ পদ্ধতিগুলো ব্যাখ্যা করছেন।",
+                "hi": "डॉक्टर श्मिट, रोगी लेहमान को उसकी छुट्टी से पहले फॉलो-अप प्रक्रियाएं समझा रहे हैं।",
+                "ur": "ڈاکٹر شمٹ، مریض لیہمن کو اس کے ڈسچارج سے پہلے فالو اپ کے طریقہ کار کی وضاحت کر رہے ہیں۔",
+                "tr": "Doktor Schmidt, hasta Lehmann'a taburcu olmadan önce takip prosedürlerini açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Herr Lehmann, im Entlassungsbrief steht alles drin. Wichtig ist das Procedere danach.",
+                    "translation": {
+                        "en": "Mr. Lehmann, everything is in the discharge letter. The important thing is the procedure afterwards.",
+                        "bn": "মি. লেহমান, ছাড়পত্রে সবকিছু লেখা আছে। গুরুত্বপূর্ণ হল এরপরের পদ্ধতি।",
+                        "hi": "श्री लेहमान, सब कुछ डिस्चार्ज पत्र में है। महत्वपूर्ण बात उसके बाद की प्रक्रिया है।",
+                        "ur": "مسٹر لیہمن، سب کچھ ڈسچارج خط میں ہے۔ اہم بات اس کے بعد کا طریقہ کار ہے۔",
+                        "tr": "Bay Lehmann, her şey taburcu mektubunda yazıyor. Önemli olan bundan sonraki prosedür."
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Was genau muss ich denn machen?",
+                    "translation": {
+                        "en": "What exactly do I have to do?",
+                        "bn": "আমাকে ঠিক কী করতে হবে?",
+                        "hi": "मुझे ठीक क्या करना है?",
+                        "ur": "مجھے ٹھیک کیا کرنا ہے؟",
+                        "tr": "Tam olarak ne yapmam gerekiyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Sie müssen in einer Woche Ihren Hausarzt aufsuchen zur Nachsorge. Und die Medikamente wie verschrieben einnehmen.",
+                    "translation": {
+                        "en": "You must see your family doctor for follow-up care in one week. And take the medications as prescribed.",
+                        "bn": "আপনাকে এক সপ্তাহের মধ্যে ফলো-আপ যত্নের জন্য আপনার পারিবারিক ডাক্তারের সাথে দেখা করতে হবে। এবং নির্ধারিত ওষুধগুলি গ্রহণ করতে হবে।",
+                        "hi": "आपको एक सप्ताह में फॉलो-अप देखभाल के लिए अपने परिवार के डॉक्टर से मिलना होगा। और निर्धारित दवाएं लें।",
+                        "ur": "آپ کو ایک ہفتے میں فالو اپ کیئر کے لیے اپنے فیملی ڈاکٹر سے ملنا ہوگا۔ اور مقرر کردہ دوائیں لیں۔",
+                        "tr": "Bir hafta içinde takip bakımı için aile doktorunuza görünmelisiniz. Ve ilaçları reçeteye göre alın."
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Also die Tabletten weiternehmen, die ich schon im Krankenhaus bekommen habe?",
+                    "translation": {
+                        "en": "So, continue taking the pills that I already received in the hospital?",
+                        "bn": "তাহলে, যে ট্যাবলেটগুলি আমি ইতিমধ্যেই হাসপাতালে পেয়েছি, সেগুলো চালিয়ে যেতে হবে?",
+                        "hi": "तो, जो गोलियाँ मुझे पहले से ही अस्पताल में मिली हैं, उन्हें जारी रखना होगा?",
+                        "ur": "تو، وہ گولیاں لینا جاری رکھیں جو مجھے پہلے ہی ہسپتال میں ملی ہیں؟",
+                        "tr": "Yani, hastanede zaten aldığım hapları almaya devam mı edeceğim?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Genau. Die Dosierung steht im Brief. Wenn Sie Fragen haben, fragen Sie Ihren Hausarzt.",
+                    "translation": {
+                        "en": "Exactly. The dosage is in the letter. If you have any questions, ask your family doctor.",
+                        "bn": "ঠিক তাই। ডোজটি চিঠিতে লেখা আছে। যদি আপনার কোন প্রশ্ন থাকে, তাহলে আপনার পারিবারিক ডাক্তারকে জিজ্ঞাসা করুন।",
+                        "hi": "ठीक है। खुराक पत्र में है। यदि आपके कोई प्रश्न हैं, तो अपने परिवार के डॉक्टर से पूछें।",
+                        "ur": "بالکل۔ خوراک خط میں ہے۔ اگر آپ کے کوئی سوالات ہیں، تو اپنے فیملی ڈاکٹر سے پوچھیں۔",
+                        "tr": "Aynen öyle. Dozaj mektupta yazıyor. Herhangi bir sorunuz olursa aile doktorunuza sorun."
+                    }
+                }
+            ],
+            "id": "d30_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welcher Abschnitt des Arztbriefes beschreibt die Krankengeschichte des Patienten?",
+                "en": "Which section of the discharge letter describes the patient's medical history?",
+                "bn": "ডিসচার্জ লেটারের কোন অংশে রোগীর চিকিৎসা ইতিহাস বর্ণনা করা হয়েছে?",
+                "hi": "डिस्चार्ज लेटर का कौन सा भाग रोगी के चिकित्सा इतिहास का वर्णन करता है?",
+                "ur": "ڈسچارج لیٹر کا کون سا حصہ مریض کی طبی تاریخ بیان کرتا ہے؟",
+                "tr": "Taburcu mektubunun hangi bölümü hastanın tıbbi geçmişini açıklar?"
+            },
+            "options": [
+                "Befund",
+                "Anamnese",
+                "Therapie",
+                "Procedere"
+            ],
+            "correctAnswer": "Anamnese",
+            "explanation": {
+                "en": "The 'Anamnese' section details the patient's medical history, including past illnesses, allergies, and medications.",
+                "bn": "'অ্যানামনেসিস' বিভাগে রোগীর অতীতের অসুস্থতা, অ্যালার্জি এবং ওষুধ সহ চিকিৎসার ইতিহাস বিস্তারিতভাবে উল্লেখ করা হয়।",
+                "hi": "'एनामनेसिस' अनुभाग में रोगी के चिकित्सा इतिहास, जिसमें पिछली बीमारियाँ, एलर्जी और दवाएँ शामिल हैं, का विवरण होता है।",
+                "ur": "'اینامینسس' سیکشن میں مریض کی طبی تاریخ، بشمول ماضی کی بیماریاں، الرجی اور دوائیں، کی تفصیلات شامل ہیں۔",
+                "tr": "'Anamnez' bölümü, hastanın geçmiş hastalıkları, alerjileri ve ilaçları dahil olmak üzere tıbbi geçmişini ayrıntılarıyla anlatır."
+            },
+            "points": 10,
+            "id": "e30_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Procedere' im Kontext eines Arztbriefes?",
+                "en": "What does 'Procedere' mean in the context of a discharge letter?",
+                "bn": "ডিসচার্জ লেটারের প্রেক্ষাপটে 'Procedere' মানে কী?",
+                "hi": "डिस्चार्ज लेटर के संदर्भ में 'प्रोसीडर' का क्या अर्थ है?",
+                "ur": "ڈسچارج لیٹر کے تناظر میں 'Procedere' کا کیا مطلب ہے؟",
+                "tr": "Taburcu mektubu bağlamında 'Procedere' ne anlama gelir?"
+            },
+            "options": [
+                "Diagnose",
+                "Befund",
+                "Weiteres Vorgehen",
+                "Allergie"
+            ],
+            "correctAnswer": "Weiteres Vorgehen",
+            "explanation": {
+                "en": "'Procedere' refers to the recommended further course of action for the patient after discharge.",
+                "bn": "'Procedere' মানে হলো রোগীকে ডিসচার্জ করার পরে তার জন্য প্রস্তাবিত পরবর্তী পদক্ষেপ।",
+                "hi": "'प्रोसीडर' का अर्थ है मरीज को छुट्टी देने के बाद उसके लिए अनुशंसित आगे की कार्रवाई।",
+                "ur": "'Procedere' سے مراد مریض کو فارغ کرنے کے بعد اس کے لیے تجویز کردہ مزید کارروائی ہے۔",
+                "tr": "'Procedere', hastanın taburcu olduktan sonra yapılması önerilen sonraki eylemleri ifade eder."
+            },
+            "points": 10,
+            "id": "e30_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Information ist typischerweise im Abschnitt 'Befund' enthalten?",
+                "en": "What information is typically included in the 'Befund' section?",
+                "bn": "'Befund' বিভাগে সাধারণত কী তথ্য অন্তর্ভুক্ত থাকে?",
+                "hi": "'बेफुंड' अनुभाग में आमतौर पर क्या जानकारी शामिल होती है?",
+                "ur": "'بیفونڈ' سیکشن میں عام طور پر کیا معلومات شامل ہوتی ہے؟",
+                "tr": "'Befund' bölümünde tipik olarak hangi bilgiler yer alır?"
+            },
+            "options": [
+                "Medikation",
+                "Körperliche Untersuchungsergebnisse",
+                "Sozialanamnese",
+                "Familienanamnese"
+            ],
+            "correctAnswer": "Körperliche Untersuchungsergebnisse",
+            "explanation": {
+                "en": "The 'Befund' section contains the findings of the physical examination and diagnostic tests.",
+                "bn": "'Befund' বিভাগে শারীরিক পরীক্ষা এবং ডায়াগনস্টিক পরীক্ষার ফলাফল থাকে।",
+                "hi": "'बेफुंड' अनुभाग में शारीरिक परीक्षा और नैदानिक ​​परीक्षणों के निष्कर्ष शामिल हैं।",
+                "ur": "'بیفونڈ' سیکشن میں جسمانی معائنہ اور تشخیصی ٹیسٹوں کے نتائج شامل ہیں۔",
+                "tr": "'Befund' bölümü, fiziksel muayene ve tanı testlerinin bulgularını içerir."
+            },
+            "points": 10,
+            "id": "e30_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welcher Teil des Arztbriefes enthält die abschließende Beurteilung des Krankheitszustandes?",
+                "en": "Which part of the discharge letter contains the final assessment of the medical condition?",
+                "bn": "ডিসচার্জ লেটারের কোন অংশে রোগীর স্বাস্থ্য পরিস্থিতির চূড়ান্ত মূল্যায়ন করা হয়েছে?",
+                "hi": "डिस्चार्ज लेटर के किस भाग में चिकित्सा स्थिति का अंतिम मूल्यांकन होता है?",
+                "ur": "ڈسچارج لیٹر کے کس حصے میں طبی حالت کا حتمی جائزہ ہوتا ہے؟",
+                "tr": "Taburcu mektubunun hangi bölümü tıbbi durumun nihai değerlendirmesini içerir?"
+            },
+            "options": [
+                "Anamnese",
+                "Therapie",
+                "Diagnose",
+                "Procedere"
+            ],
+            "correctAnswer": "Diagnose",
+            "explanation": {
+                "en": "The 'Diagnose' section provides the final assessment of the patient's medical condition.",
+                "bn": "'ডায়াগনোসিস' বিভাগে রোগীর স্বাস্থ্য পরিস্থিতির চূড়ান্ত মূল্যায়ন প্রদান করা হয়েছে।",
+                "hi": "'डायग्नोसिस' अनुभाग रोगी की चिकित्सा स्थिति का अंतिम मूल्यांकन प्रदान करता है।",
+                "ur": "'تشخیص' سیکشن مریض کی طبی حالت کا حتمی جائزہ فراہم کرتا ہے۔",
+                "tr": "'Tanı' bölümü, hastanın tıbbi durumunun nihai değerlendirmesini sağlar."
+            },
+            "points": 10,
+            "id": "e30_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was beschreibt der Abschnitt 'Therapie' im Arztbrief?",
+                "en": "What does the 'Therapie' section describe in the discharge letter?",
+                "bn": "ডিসচার্জ লেটারে 'Therapie' বিভাগটি কী বর্ণনা করে?",
+                "hi": "डिस्चार्ज लेटर में 'थेरेपी' अनुभाग क्या वर्णन करता है?",
+                "ur": "ڈسچارج لیٹر میں 'تھراپی' سیکشن کیا بیان کرتا ہے؟",
+                "tr": "Taburcu mektubundaki 'Therapie' bölümü neyi açıklar?"
+            },
+            "options": [
+                "Die durchgeführten Behandlungen",
+                "Die Familienanamnese",
+                "Die Sozialanamnese",
+                "Die Allergien"
+            ],
+            "correctAnswer": "Die durchgeführten Behandlungen",
+            "explanation": {
+                "en": "The 'Therapie' section describes the treatments that were performed on the patient during their stay.",
+                "bn": "'Therapie' বিভাগে রোগীর থাকার সময়কালে তার উপর করা চিকিৎসাগুলি বর্ণনা করা হয়েছে।",
+                "hi": "'थेरेपी' अनुभाग में उन उपचारों का वर्णन है जो रोगी के रहने के दौरान उन पर किए गए थे।",
+                "ur": "'تھراپی' سیکشن میں ان علاجوں کو بیان کیا گیا ہے جو مریض کے قیام کے دوران ان پر کیے گئے تھے۔",
+                "tr": "'Therapie' bölümü, hastanın yatışı sırasında uygulanan tedavileri açıklar."
+            },
+            "points": 10,
+            "id": "e30_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein 'Arztbrief'?",
+                "en": "What is an 'Arztbrief'?",
+                "bn": "'Arztbrief' কী?",
+                "hi": "'अर्ज़टब्रीफ' क्या है?",
+                "ur": "'Arztbrief' کیا ہے؟",
+                "tr": "'Arztbrief' nedir?"
+            },
+            "options": [
+                "Ein Formular für Patienteninformationen",
+                "Ein Brief zwischen Ärzten zur Patientenübergabe",
+                "Eine Rechnung für medizinische Leistungen",
+                "Eine Einverständniserklärung"
+            ],
+            "correctAnswer": "Ein Brief zwischen Ärzten zur Patientenübergabe",
+            "explanation": {
+                "en": "An 'Arztbrief' is a letter between doctors to facilitate patient handover and provide information about their treatment.",
+                "bn": "একজন রোগীর হস্তান্তর সহজতর করতে এবং তাদের চিকিৎসা সম্পর্কে তথ্য সরবরাহ করতে ডাক্তারদের মধ্যে একটি চিঠি হলো 'Arztbrief'।",
+                "hi": "एक 'अर्ज़टब्रीफ' रोगियों को सौंपने और उनके उपचार के बारे में जानकारी प्रदान करने के लिए डॉक्टरों के बीच एक पत्र है।",
+                "ur": "ایک 'Arztbrief' مریضوں کو سونپنے اور ان کے علاج کے بارے میں معلومات فراہم کرنے کے لیے ڈاکٹروں کے درمیان ایک خط ہے۔",
+                "tr": "'Arztbrief', hasta devrini kolaylaştırmak ve tedavileri hakkında bilgi sağlamak için doktorlar arasında bir mektuptur."
+            },
+            "points": 10,
+            "id": "e30_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches dieser Elemente ist KEIN typischer Bestandteil eines Arztbriefes?",
+                "en": "Which of these elements is NOT a typical component of a discharge letter?",
+                "bn": "এই উপাদানগুলির মধ্যে কোনটি ডিসচার্জ লেটারের একটি সাধারণ অংশ নয়?",
+                "hi": "इन तत्वों में से कौन सा डिस्चार्ज लेटर का एक विशिष्ट घटक नहीं है?",
+                "ur": "ان عناصر میں سے کون سا ڈسچارج لیٹر کا ایک عام جزو نہیں ہے؟",
+                "tr": "Bu unsurlardan hangisi bir taburcu mektubunun tipik bir bileşeni DEĞİLDİR?"
+            },
+            "options": [
+                "Anamnese",
+                "Befund",
+                "Patientenwunschliste",
+                "Therapie"
+            ],
+            "correctAnswer": "Patientenwunschliste",
+            "explanation": {
+                "en": "While a discharge letter contains Anamnese, Befund and Therapie, a 'Patientenwunschliste' (patient's wish list) is not a typical component.",
+                "bn": "ডিসচার্জ লেটারে Anamnese, Befund এবং Therapie থাকলেও, 'Patientenwunschliste' (রোগীর ইচ্ছার তালিকা) একটি সাধারণ উপাদান নয়।",
+                "hi": "जबकि डिस्चार्ज लेटर में Anamnese, Befund और Therapie शामिल हैं, 'Patientenwunschliste' (मरीज की इच्छा सूची) एक सामान्य घटक नहीं है।",
+                "ur": "جبکہ ڈسچارج لیٹر میں Anamnese, Befund اور Therapie شامل ہیں، 'Patientenwunschliste' (مریض کی خواہش کی فہرست) ایک عام جزو نہیں ہے۔",
+                "tr": "Bir taburcu mektubu Anamnese, Befund ve Therapie içerirken, 'Patientenwunschliste' (hastanın istek listesi) tipik bir bileşen değildir."
+            },
+            "points": 10,
+            "id": "e30_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet die Abkürzung 'p.o.' im Zusammenhang mit der Therapie?",
+                "en": "What does the abbreviation 'p.o.' mean in the context of therapy?",
+                "bn": "থেরাপির প্রেক্ষাপটে 'p.o.' এর অর্থ কী?",
+                "hi": "थेरेपी के संदर्भ में 'पी.ओ.' का क्या अर्थ है?",
+                "ur": "تھراپی کے تناظر میں 'پی او' کا کیا مطلب ہے؟",
+                "tr": "Tedavi bağlamında 'p.o.' kısaltması ne anlama gelir?"
+            },
+            "options": [
+                "parenteral",
+                "per os",
+                "post operationem",
+                "pro ordine"
+            ],
+            "correctAnswer": "per os",
+            "explanation": {
+                "en": "'p.o.' stands for 'per os', meaning the medication is to be taken orally.",
+                "bn": "'p.o.' মানে হলো 'per os', যার অর্থ ওষুধটি মুখ দিয়ে খেতে হবে।",
+                "hi": "'पी.ओ.' का अर्थ है 'प्रति ओएस', जिसका अर्थ है दवा मौखिक रूप से लेनी है।",
+                "ur": "'پی او' کا مطلب ہے 'فی اوس' جس کا مطلب ہے دوا زبانی طور پر لینی ہے۔",
+                "tr": "'p.o.', 'per os' anlamına gelir, yani ilacın ağızdan alınması gerekir."
+            },
+            "points": 10,
+            "id": "e30_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wozu dient ein Entlassungsbrief hauptsächlich?",
+                "en": "What is the main purpose of a discharge letter?",
+                "bn": "ডিসচার্জ লেটারের মূল উদ্দেশ্য কী?",
+                "hi": "डिस्चार्ज लेटर का मुख्य उद्देश्य क्या है?",
+                "ur": "ڈسچارج لیٹر کا بنیادی مقصد کیا ہے؟",
+                "tr": "Taburcu mektubunun temel amacı nedir?"
+            },
+            "options": [
+                "Den Patienten zu belasten",
+                "Informationen für die Weiterbehandlung zu geben",
+                "Die Krankenhausrechnung zu erklären",
+                "Eine Zusammenfassung der Menüauswahl des Patienten"
+            ],
+            "correctAnswer": "Informationen für die Weiterbehandlung zu geben",
+            "explanation": {
+                "en": "The main purpose of a discharge letter is to provide information for further treatment and care of the patient after they leave the hospital.",
+                "bn": "ডিসচার্জ লেটারের মূল উদ্দেশ্য হলো হাসপাতাল ছাড়ার পরে রোগীর আরও চিকিৎসা এবং যত্নের জন্য তথ্য সরবরাহ করা।",
+                "hi": "डिस्चार्ज लेटर का मुख्य उद्देश्य अस्पताल छोड़ने के बाद रोगी की आगे की चिकित्सा और देखभाल के लिए जानकारी प्रदान करना है।",
+                "ur": "ڈسچارج لیٹر کا بنیادی مقصد ہسپتال چھوڑنے کے بعد مریض کی مزید طبی امداد اور دیکھ بھال کے لیے معلومات فراہم کرنا ہے۔",
+                "tr": "Taburcu mektubunun temel amacı, hastanın hastaneden ayrıldıktan sonraki tedavi ve bakımı için bilgi sağlamaktır."
+            },
+            "points": 10,
+            "id": "e30_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'rezidivierend' im Kontext einer Diagnose?",
+                "en": "What does 'rezidivierend' mean in the context of a diagnosis?",
+                "bn": "রোগ নির্ণয়ের প্রেক্ষাপটে 'rezidivierend' মানে কী?",
+                "hi": "निदान के संदर्भ में 'रेज़िडिविएरेन्ड' का क्या अर्थ है?",
+                "ur": "تشخیص کے تناظر میں 'rezidivierend' کا کیا مطلب ہے؟",
+                "tr": "Bir tanı bağlamında 'rezidivierend' ne anlama gelir?"
+            },
+            "options": [
+                "Neu auftretend",
+                "Chronisch",
+                "Wiederkehrend",
+                "Akut"
+            ],
+            "correctAnswer": "Wiederkehrend",
+            "explanation": {
+                "en": "'Rezidivierend' means recurring or relapsing.",
+                "bn": "'Rezidivierend' মানে পুনরাবৃত্তি বা ফিরে আসা।",
+                "hi": "'रेज़िडिविएरेन्ड' का अर्थ है बार-बार होना या फिर से होना।",
+                "ur": "'Rezidivierend' کا مطلب ہے بار بار ہونا یا دوبارہ ہونا۔",
+                "tr": "'Rezidivierend', tekrarlayan veya nükseden anlamına gelir."
+            },
+            "points": 10,
+            "id": "e30_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die _____________ enthält Informationen über frühere Erkrankungen des Patienten.",
+                "en": "The _____________ contains information about the patient's past illnesses.",
+                "bn": "_____________ এ রোগীর অতীতের অসুস্থতা সম্পর্কে তথ্য রয়েছে।",
+                "hi": "_____________ में रोगी की पिछली बीमारियों के बारे में जानकारी होती है।",
+                "ur": "_____________ میں مریض کی ماضی کی بیماریوں کے بارے میں معلومات ہوتی ہے۔",
+                "tr": "_____________ hastanın geçmiş hastalıkları hakkında bilgi içerir."
+            },
+            "options": [],
+            "correctAnswer": "Anamnese",
+            "explanation": {
+                "en": "The Anamnese contains information about the patient's past illnesses and medical history.",
+                "bn": "অ্যানামনেসিসে রোগীর অতীতের অসুস্থতা এবং চিকিৎসার ইতিহাস সম্পর্কে তথ্য রয়েছে।",
+                "hi": "एनामनेसिस में रोगी की पिछली बीमारियों और चिकित्सा इतिहास के बारे में जानकारी होती है।",
+                "ur": "اینامینسس میں مریض کی ماضی کی بیماریوں اور طبی تاریخ کے بارے میں معلومات ہوتی ہے۔",
+                "tr": "Anamnez, hastanın geçmiş hastalıkları ve tıbbi geçmişi hakkında bilgi içerir."
+            },
+            "points": 10,
+            "id": "e30_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Der Abschnitt _____________ beschreibt die Ergebnisse der körperlichen Untersuchung.",
+                "en": "The _____________ section describes the results of the physical examination.",
+                "bn": "_____________ বিভাগে শারীরিক পরীক্ষার ফলাফল বর্ণনা করা হয়েছে।",
+                "hi": "_____________ अनुभाग में शारीरिक परीक्षा के परिणाम वर्णित हैं।",
+                "ur": "_____________ سیکشن میں جسمانی معائنے کے نتائج بیان کیے گئے ہیں۔",
+                "tr": "_____________ bölümü fiziksel muayenenin sonuçlarını açıklar."
+            },
+            "options": [],
+            "correctAnswer": "Befund",
+            "explanation": {
+                "en": "The Befund section of the discharge letter describes the findings of the physical examination.",
+                "bn": "ডিসচার্জ লেটারের Befund বিভাগে শারীরিক পরীক্ষার ফলাফল বর্ণনা করা হয়েছে।",
+                "hi": "डिस्चार्ज लेटर के बेफुंड अनुभाग में शारीरिक परीक्षा के निष्कर्षों का वर्णन है।",
+                "ur": "ڈسچارج لیٹر کے بیفونڈ سیکشن میں جسمانی معائنے کے نتائج بیان کیے گئے ہیں۔",
+                "tr": "Taburcu mektubunun Befund bölümü, fiziksel muayenenin bulgularını açıklar."
+            },
+            "points": 10,
+            "id": "e30_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die erfolgte Behandlung wird im Abschnitt _____________ dokumentiert.",
+                "en": "The treatment provided is documented in the _____________ section.",
+                "bn": "প্রদত্ত চিকিৎসা _____________ বিভাগে নথিভুক্ত করা হয়েছে।",
+                "hi": "प्रदान किया गया उपचार _____________ अनुभाग में प्रलेखित है।",
+                "ur": "فراہم کردہ علاج _____________ سیکشن میں دستاویزی ہے۔",
+                "tr": "Sağlanan tedavi _____________ bölümünde belgelenmiştir."
+            },
+            "options": [],
+            "correctAnswer": "Therapie",
+            "explanation": {
+                "en": "The 'Therapie' section of the discharge letter documents the treatment that was provided to the patient.",
+                "bn": "ডিসচার্জ লেটারের 'Therapie' বিভাগে রোগীকে যে চিকিৎসা প্রদান করা হয়েছিল তা নথিভুক্ত করা হয়েছে।",
+                "hi": "डिस्चार्ज लेटर के 'थेरेपी' अनुभाग में रोगी को दिए गए उपचार को प्रलेखित किया गया है।",
+                "ur": "ڈسچارج لیٹر کے 'تھراپی' سیکشن میں مریض کو فراہم کی جانے والی طبی امداد کو دستاویزی شکل دی گئی ہے۔",
+                "tr": "Taburcu mektubunun 'Therapie' bölümünde hastaya sağlanan tedavi belgelenmiştir."
+            },
+            "points": 10,
+            "id": "e30_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Der _____________ ist die zusammenfassende Beurteilung der Erkrankung.",
+                "en": "The _____________ is the summary assessment of the disease.",
+                "bn": "_____________ হল রোগের সংক্ষিপ্ত মূল্যায়ন।",
+                "hi": "_____________ रोग का संक्षिप्त मूल्यांकन है।",
+                "ur": "_____________ بیماری کا خلاصہ جائزہ ہے۔",
+                "tr": "_____________ hastalığın özet değerlendirmesidir."
+            },
+            "options": [],
+            "correctAnswer": "Diagnose",
+            "explanation": {
+                "en": "The Diagnose is the summary assessment of the disease or condition.",
+                "bn": "ডায়াগনোসিস হল রোগ বা অবস্থার সংক্ষিপ্ত মূল্যায়ন।",
+                "hi": "डायग्नोसिस रोग या स्थिति का संक्षिप्त मूल्यांकन है।",
+                "ur": "تشخیص بیماری یا حالت کا خلاصہ جائزہ ہے۔",
+                "tr": "Tanı, hastalık veya durumun özet değerlendirmesidir."
+            },
+            "points": 10,
+            "id": "e30_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Empfehlungen für die weitere Behandlung stehen im Abschnitt _____________.",
+                "en": "Recommendations for further treatment are in the _____________ section.",
+                "bn": "আরও চিকিৎসার জন্য সুপারিশ _____________ বিভাগে রয়েছে।",
+                "hi": "आगे के इलाज के लिए सिफारिशें _____________ अनुभाग में हैं।",
+                "ur": "مزید علاج کے لیے سفارشات _____________ سیکشن میں ہیں۔",
+                "tr": "Daha fazla tedavi için öneriler _____________ bölümündedir."
+            },
+            "options": [],
+            "correctAnswer": "Procedere",
+            "explanation": {
+                "en": "Recommendations for further treatment and follow-up care are found in the 'Procedere' section.",
+                "bn": "আরও চিকিৎসা এবং ফলো-আপ যত্নের জন্য সুপারিশ 'Procedere' বিভাগে পাওয়া যায়।",
+                "hi": "आगे के इलाज और अनुवर्ती देखभाल के लिए सिफारिशें 'प्रोसीडर' अनुभाग में पाई जाती हैं।",
+                "ur": "مزید علاج اور فالو اپ نگہداشت کے لیے سفارشات 'Procedere' سیکشن میں پائی جاتی ہیں۔",
+                "tr": "Daha fazla tedavi ve takip bakımı için öneriler 'Procedere' bölümünde bulunur."
+            },
+            "points": 10,
+            "id": "e30_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Übersetzen Sie: 'The patient was discharged in stable condition.'",
+                "en": "Translate: 'The patient was discharged in stable condition.'",
+                "bn": "অনুবাদ করুন: 'The patient was discharged in stable condition.'",
+                "hi": "अनुवाद करें: 'The patient was discharged in stable condition.'",
+                "ur": "ترجمہ کریں: 'The patient was discharged in stable condition.'",
+                "tr": "Çeviri: 'The patient was discharged in stable condition.'"
+            },
+            "options": [],
+            "correctAnswer": "Der Patient wurde in stabilem Zustand entlassen.",
+            "explanation": {
+                "en": "This is the direct translation of the English sentence into German.",
+                "bn": "এটি ইংরেজি বাক্যটির সরাসরি জার্মান অনুবাদ।",
+                "hi": "यह अंग्रेजी वाक्य का जर्मन में सीधा अनुवाद है।",
+                "ur": "یہ انگریزی جملے کا جرمن میں براہ راست ترجمہ ہے۔",
+                "tr": "Bu, İngilizce cümlenin Almancaya doğrudan çevirisidir."
+            },
+            "points": 10,
+            "id": "e30_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Übersetzen Sie: 'Continue medication as prescribed.'",
+                "en": "Translate: 'Continue medication as prescribed.'",
+                "bn": "অনুবাদ করুন: 'Continue medication as prescribed.'",
+                "hi": "अनुवाद करें: 'Continue medication as prescribed.'",
+                "ur": "ترجمہ کریں: 'Continue medication as prescribed.'",
+                "tr": "Çeviri: 'Continue medication as prescribed.'"
+            },
+            "options": [],
+            "correctAnswer": "Medikation wie verordnet fortsetzen.",
+            "explanation": {
+                "en": "This is the accurate translation, reflecting the meaning of the instruction.",
+                "bn": "এটি সঠিক অনুবাদ, যা নির্দেশের অর্থ প্রতিফলিত করে।",
+                "hi": "यह सटीक अनुवाद है, जो निर्देश के अर्थ को दर्शाता है।",
+                "ur": "یہ درست ترجمہ ہے، جو ہدایت کے معنی کی عکاسی کرتا ہے۔",
+                "tr": "Bu, talimatın anlamını yansıtan doğru çeviridir."
+            },
+            "points": 10,
+            "id": "e30_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Übersetzen Sie: 'Follow-up appointment in two weeks.'",
+                "en": "Translate: 'Follow-up appointment in two weeks.'",
+                "bn": "অনুবাদ করুন: 'Follow-up appointment in two weeks.'",
+                "hi": "अनुवाद करें: 'Follow-up appointment in two weeks.'",
+                "ur": "ترجمہ کریں: 'Follow-up appointment in two weeks.'",
+                "tr": "Çeviri: 'Follow-up appointment in two weeks.'"
+            },
+            "options": [],
+            "correctAnswer": "Kontrolltermin in zwei Wochen.",
+            "explanation": {
+                "en": "This is a concise and accurate translation of the given phrase.",
+                "bn": "এটি প্রদত্ত বাক্যাংশের একটি সংক্ষিপ্ত এবং নির্ভুল অনুবাদ।",
+                "hi": "यह दिए गए वाक्यांश का एक संक्षिप्त और सटीक अनुवाद है।",
+                "ur": "یہ دیے گئے فقرے کا ایک مختصر اور درست ترجمہ ہے۔",
+                "tr": "Bu, verilen ifadenin öz ve doğru bir çevirisidir."
+            },
+            "points": 10,
+            "id": "e30_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

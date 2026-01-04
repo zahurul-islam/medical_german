@@ -1,1 +1,1602 @@
-{"id":"section_34","phaseId":"phase3","order":34,"titleDe":"Medizinische Dokumentation","title":{"en":"Medical Documentation","bn":"Medical Documentation","hi":"Medical Documentation","ur":"Medical Documentation","tr":"Medical Documentation"},"level":"C1","estimatedMinutes":40,"vocabulary":[{"id":"v34_01","germanTerm":"Fachbegriff","article":"der","plural":"Fachbegriffe","translation":{"en":"Technical Term","bn":"টেকনিক্যাল টার্ম","hi":"तकनीकी शब्द","ur":"تکنیکی اصطلاح","tr":"Teknik terim"}}],"dialogues":[{"id":"d34_01","title":{"en":"Professional Scenario"},"lines":[{"speaker":"Oberarzt","germanText":"Professional dialogue for Medical Documentation.","translation":{"en":"Professional dialogue for Medical Documentation."}}]}],"exercises":[{"id":"e34_01","type":"multipleChoice","question":{"en":"Advanced question for Medical Documentation?"},"options":["Option A","Option B","Option C"],"correctAnswer":"Option A","points":15}]}
+{
+    "id": "section_34",
+    "phaseId": "phase3",
+    "order": 34,
+    "titleDe": "Medizinische Dokumentation",
+    "title": {
+        "en": "Medical Documentation: Records, Progress Notes, and Signatures",
+        "de": "Medizinische Dokumentation: Akten, Verläufe und Unterschriften",
+        "bn": "মেডিকেল ডকুমেন্টেশন: রেকর্ড, প্রগ্রেস নোট এবং স্বাক্ষর",
+        "hi": "चिकित्सा दस्तावेज़: रिकॉर्ड, प्रगति नोट्स और हस्ताक्षर",
+        "ur": "طبی دستاویزات: ریکارڈ، پیش رفت کے نوٹس اور دستخط",
+        "tr": "Tıbbi Dokümantasyon: Kayıtlar, İlerleme Notları ve İmzalar"
+    },
+    "description": {
+        "en": "This section covers essential German medical terminology related to patient documentation, including records, progress notes, care reports, charts, and signatures.",
+        "de": "Dieser Abschnitt behandelt wichtige deutsche medizinische Terminologie im Zusammenhang mit der Patientendokumentation, einschließlich Akten, Verlaufsdokumentationen, Pflegeberichten, Kurven und Unterschriften.",
+        "bn": "এই বিভাগে রোগীর ডকুমেন্টেশনের সাথে সম্পর্কিত প্রয়োজনীয় জার্মান চিকিৎসা পরিভাষা অন্তর্ভুক্ত রয়েছে, যার মধ্যে রেকর্ড, প্রগ্রেস নোট, কেয়ার রিপোর্ট, চার্ট এবং স্বাক্ষর অন্তর্ভুক্ত রয়েছে।",
+        "hi": "इस खंड में रोगी दस्तावेज़ीकरण से संबंधित आवश्यक जर्मन चिकित्सा शब्दावली शामिल है, जिसमें रिकॉर्ड, प्रगति नोट्स, देखभाल रिपोर्ट, चार्ट और हस्ताक्षर शामिल हैं।",
+        "ur": "اس سیکشن میں مریض کے دستاویزات سے متعلق لازمی جرمن طبی اصطلاحات شامل ہیں، بشمول ریکارڈ، پیش رفت کے نوٹس، نگہداشت کی رپورٹس، چارٹس، اور دستخط۔",
+        "tr": "Bu bölüm, kayıtlar, ilerleme notları, bakım raporları, çizelgeler ve imzalar dahil olmak üzere hasta dokümantasyonu ile ilgili temel Almanca tıbbi terminolojiyi kapsar."
+    },
+    "level": "C1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this module, you will learn key German terms for documenting patient information in medical settings. We will explore the nuances of 'Akte', 'Verlauf', 'Pflegebericht', 'Kurve', and the importance of 'Unterschrift'.",
+            "de": "In diesem Modul lernen Sie wichtige deutsche Begriffe zur Dokumentation von Patienteninformationen im medizinischen Bereich. Wir werden die Nuancen von 'Akte', 'Verlauf', 'Pflegebericht', 'Kurve' und die Bedeutung der 'Unterschrift' untersuchen.",
+            "bn": "এই মডিউলে, আপনি চিকিৎসা সেটিংসে রোগীর তথ্য নথিভুক্ত করার জন্য গুরুত্বপূর্ণ জার্মান শব্দ শিখবেন। আমরা 'Akte', 'Verlauf', 'Pflegebericht', 'Kurve' এবং 'Unterschrift'-এর গুরুত্ব নিয়ে আলোচনা করব।",
+            "hi": "इस मॉड्यूल में, आप चिकित्सा सेटिंग्स में रोगी की जानकारी का दस्तावेजीकरण करने के लिए महत्वपूर्ण जर्मन शब्द सीखेंगे। हम 'Akte', 'Verlauf', 'Pflegebericht', 'Kurve' और 'Unterschrift' के महत्व का पता लगाएंगे।",
+            "ur": "اس ماڈیول میں، آپ طبی ترتیبات میں مریض کی معلومات کو دستاویز کرنے کے لیے اہم جرمن اصطلاحات سیکھیں گے۔ ہم 'Akte'، 'Verlauf'، 'Pflegebericht'، 'Kurve' اور 'Unterschrift' کی اہمیت کو دریافت کریں گے۔",
+            "tr": "Bu modülde, tıbbi ortamlarda hasta bilgilerini belgeleme için önemli Almanca terimleri öğreneceksiniz. 'Akte', 'Verlauf', 'Pflegebericht', 'Kurve' kavramlarının nüanslarını ve 'Unterschrift'in önemini inceleyeceğiz."
+        },
+        "grammarFocus": {
+            "en": [
+                "Pay attention to the gender of nouns, as it affects article usage (der, die, das) in documentation.",
+                "Practice using accusative and dative cases with prepositions related to locations in a patient's chart (e.g., 'im Verlauf', 'in der Akte')."
+            ],
+            "de": [
+                "Achten Sie auf das Genus der Substantive, da dies den Artikelgebrauch (der, die, das) in der Dokumentation beeinflusst.",
+                "Üben Sie die Verwendung von Akkusativ und Dativ mit Präpositionen, die sich auf Orte in der Patientenakte beziehen (z.B. 'im Verlauf', 'in der Akte')."
+            ],
+            "bn": [
+                "বিশেষ্যের লিঙ্গের দিকে মনোযোগ দিন, কারণ এটি ডকুমেন্টেশনে নিবন্ধের ব্যবহারকে প্রভাবিত করে (der, die, das)।",
+                "রোগীর চার্টে অবস্থানের সাথে সম্পর্কিত প্রিপোজিশনের সাথে আকুসেটিভ এবং ডেটিভ কেস ব্যবহার করে অনুশীলন করুন (যেমন, 'im Verlauf', 'in der Akte')।"
+            ],
+            "hi": [
+                "संज्ञा के लिंग पर ध्यान दें, क्योंकि यह प्रलेखन में लेख उपयोग (der, die, das) को प्रभावित करता है।",
+                "रोगी के चार्ट में स्थानों से संबंधित पूर्वसर्गीय के साथ कर्मकारक और संप्रदान कारक का उपयोग करने का अभ्यास करें (जैसे, 'im Verlauf', 'in der Akte')।"
+            ],
+            "ur": [
+                "اسموں کی جنس پر توجہ دیں، کیونکہ یہ دستاویزات میں مضمون کے استعمال (der, die, das) کو متاثر کرتا ہے۔",
+                "مریض کے چارٹ میں مقامات سے متعلق حروفِ اضافت کے ساتھ الزامی اور اضافی صورتوں کا استعمال کرنے کی مشق کریں (مثال کے طور پر، 'im Verlauf'، 'in der Akte')۔"
+            ],
+            "tr": [
+                "İsimlerin cinsiyetine dikkat edin, çünkü bu, dokümantasyonda makale kullanımını (der, die, das) etkiler.",
+                "Bir hastanın çizelgesindeki konumlarla ilgili edatlarla belirtme ve yönelme hallerini kullanmayı uygulayın (örneğin, 'im Verlauf', 'in der Akte')."
+            ]
+        },
+        "culturalNotes": {
+            "en": "German medical documentation is known for its thoroughness and precision, often requiring detailed records of all patient interactions and treatments.",
+            "de": "Die deutsche medizinische Dokumentation ist für ihre Gründlichkeit und Präzision bekannt und erfordert häufig detaillierte Aufzeichnungen aller Patienteninteraktionen und Behandlungen.",
+            "bn": "জার্মান চিকিৎসা ডকুমেন্টেশন তার সম্পূর্ণতা এবং নির্ভুলতার জন্য পরিচিত, প্রায়শই রোগীর সমস্ত মিথস্ক্রিয়া এবং চিকিত্সার বিস্তারিত রেকর্ডের প্রয়োজন হয়।",
+            "hi": "जर्मन चिकित्सा दस्तावेज़ीकरण अपनी पूर्णता और सटीकता के लिए जाना जाता है, जिसके लिए अक्सर रोगी की सभी बातचीत और उपचारों के विस्तृत रिकॉर्ड की आवश्यकता होती है।",
+            "ur": "جرمن طبی دستاویزات اپنی مکمل اور درستگی کے لیے جانی جاتی ہیں، جس کے لیے اکثر مریض کے تمام تعاملات اور علاج کے تفصیلی ریکارڈ کی ضرورت ہوتی ہے۔",
+            "tr": "Alman tıbbi dokümantasyonu, eksiksizliği ve hassasiyeti ile bilinir ve genellikle tüm hasta etkileşimlerinin ve tedavilerinin ayrıntılı kayıtlarını gerektirir."
+        },
+        "summary": {
+            "en": "This section provided you with essential vocabulary and cultural insights for understanding medical documentation practices in German-speaking healthcare settings.",
+            "de": "Dieser Abschnitt hat Ihnen wichtige Vokabeln und kulturelle Einblicke zum Verständnis der medizinischen Dokumentationspraktiken in deutschsprachigen Gesundheitseinrichtungen vermittelt.",
+            "bn": "এই বিভাগটি আপনাকে জার্মান-ভাষী স্বাস্থ্যসেবা সেটিংসে চিকিৎসা ডকুমেন্টেশন অনুশীলনগুলি বোঝার জন্য প্রয়োজনীয় শব্দভাণ্ডার এবং সাংস্কৃতিক অন্তর্দৃষ্টি সরবরাহ করেছে।",
+            "hi": "इस अनुभाग ने आपको जर्मन भाषी स्वास्थ्य सेवा सेटिंग्स में चिकित्सा प्रलेखन प्रथाओं को समझने के लिए आवश्यक शब्दावली और सांस्कृतिक अंतर्दृष्टि प्रदान की।",
+            "ur": "اس حصے نے آپ کو جرمن بولنے والے صحت کی دیکھ بھال کے ماحول میں طبی دستاویزات کے طریقوں کو سمجھنے کے لیے ضروری الفاظ اور ثقافتی بصیرت فراہم کی ہے۔",
+            "tr": "Bu bölüm size Almanca konuşulan sağlık hizmeti ortamlarında tıbbi dokümantasyon uygulamalarını anlamak için gerekli kelime dağarcığını ve kültürel bilgileri sağlamıştır."
+        },
+        "learningObjectives": [
+            "Identify and define key German terms related to medical documentation.",
+            "Understand the structure and components of a typical German patient record.",
+            "Recognize the importance of accurate and thorough documentation in German healthcare.",
+            "Apply German medical vocabulary to describe common documentation tasks."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "Dokumentation",
+            "article": "die",
+            "plural": "Dokumentationen",
+            "pronunciation": "/ˌdokumɛntaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "Documentation",
+                "bn": "নথিপত্র",
+                "hi": "दस्तावेज़ीकरण",
+                "ur": "دستاویزی عمل",
+                "tr": "Belgeleme"
+            },
+            "exampleSentence": "Die korrekte Dokumentation ist für die Patientenversorgung entscheidend.",
+            "exampleTranslation": {
+                "en": "Correct documentation is crucial for patient care.",
+                "bn": "সঠিক নথিপত্র রোগীর যত্নের জন্য অত্যন্ত গুরুত্বপূর্ণ।",
+                "hi": "सही दस्तावेज़ीकरण रोगी की देखभाल के लिए महत्वपूर्ण है।",
+                "ur": "صحیح دستاویزی عمل مریض کی دیکھ بھال کے لیے اہم ہے۔",
+                "tr": "Doğru belgeleme hasta bakımı için çok önemlidir."
+            },
+            "id": "v34_01"
+        },
+        {
+            "germanTerm": "Akte",
+            "article": "die",
+            "plural": "Akten",
+            "pronunciation": "/ˈaktə/",
+            "category": "noun",
+            "translation": {
+                "en": "File, Record",
+                "bn": "ফাইল, রেকর্ড",
+                "hi": "फ़ाइल, रिकॉर्ड",
+                "ur": "فائل، ریکارڈ",
+                "tr": "Dosya, Kayıt"
+            },
+            "exampleSentence": "Die Patientenakte muss vollständig geführt werden.",
+            "exampleTranslation": {
+                "en": "The patient file must be kept complete.",
+                "bn": "রোগীর ফাইলটি সম্পূর্ণভাবে বজায় রাখতে হবে।",
+                "hi": "रोगी की फ़ाइल पूरी रखनी होगी।",
+                "ur": "مریض کی فائل کو مکمل رکھنا ضروری ہے۔",
+                "tr": "Hasta dosyası eksiksiz tutulmalıdır."
+            },
+            "id": "v34_02"
+        },
+        {
+            "germanTerm": "Verlauf",
+            "article": "der",
+            "plural": "Verläufe",
+            "pronunciation": "/fɛɐ̯ˈlaʊ̯f/",
+            "category": "noun",
+            "translation": {
+                "en": "Course, Progression",
+                "bn": "গতিপথ, অগ্রগতি",
+                "hi": "क्रम, प्रगति",
+                "ur": "دورانیہ، پیش رفت",
+                "tr": "Seyir, Gelişim"
+            },
+            "exampleSentence": "Der Krankheitsverlauf war unerwartet.",
+            "exampleTranslation": {
+                "en": "The course of the disease was unexpected.",
+                "bn": "রোগের গতিপথ অপ্রত্যাশিত ছিল।",
+                "hi": "रोग का क्रम अप्रत्याशित था।",
+                "ur": "مرض کا دورانیہ غیر متوقع تھا۔",
+                "tr": "Hastalığın seyri beklenmedikti."
+            },
+            "id": "v34_03"
+        },
+        {
+            "germanTerm": "Pflegebericht",
+            "article": "der",
+            "plural": "Pflegeberichte",
+            "pronunciation": "/ˈp͡fleːɡəbəˌʁɪçt/",
+            "category": "noun",
+            "translation": {
+                "en": "Nursing report",
+                "bn": "নার্সিং রিপোর্ট",
+                "hi": "नर्सिंग रिपोर्ट",
+                "ur": "نرسنگ رپورٹ",
+                "tr": "Hemşirelik raporu"
+            },
+            "exampleSentence": "Der Pflegebericht enthält wichtige Informationen über den Patienten.",
+            "exampleTranslation": {
+                "en": "The nursing report contains important information about the patient.",
+                "bn": "নার্সিং রিপোর্টে রোগীর গুরুত্বপূর্ণ তথ্য রয়েছে।",
+                "hi": "नर्सिंग रिपोर्ट में रोगी के बारे में महत्वपूर्ण जानकारी है।",
+                "ur": "نرسنگ رپورٹ میں مریض کے بارے میں اہم معلومات موجود ہیں۔",
+                "tr": "Hemşirelik raporu hastayla ilgili önemli bilgiler içerir."
+            },
+            "id": "v34_04"
+        },
+        {
+            "germanTerm": "Kurve",
+            "article": "die",
+            "plural": "Kurven",
+            "pronunciation": "/ˈkʊʁvə/",
+            "category": "noun",
+            "translation": {
+                "en": "Graph, Chart",
+                "bn": "গ্রাফ, চার্ট",
+                "hi": "ग्राफ, चार्ट",
+                "ur": "گراف، چارٹ",
+                "tr": "Grafik, Çizelge"
+            },
+            "exampleSentence": "Die Vitalwerte werden in einer Kurve dargestellt.",
+            "exampleTranslation": {
+                "en": "The vital signs are shown in a graph.",
+                "bn": "গুরুত্বপূর্ণ লক্ষণগুলি একটি গ্রাফে দেখানো হয়েছে।",
+                "hi": "महत्वपूर्ण संकेत एक ग्राफ में दिखाए गए हैं।",
+                "ur": "اہم علامات ایک گراف میں دکھائی گئی ہیں۔",
+                "tr": "Yaşamsal belirtiler bir grafikte gösterilir."
+            },
+            "id": "v34_05"
+        },
+        {
+            "germanTerm": "Unterschrift",
+            "article": "die",
+            "plural": "Unterschriften",
+            "pronunciation": "/ˈʊntɐˌʃʁɪft/",
+            "category": "noun",
+            "translation": {
+                "en": "Signature",
+                "bn": "স্বাক্ষর",
+                "hi": "हस्ताक्षर",
+                "ur": "دستخط",
+                "tr": "İmza"
+            },
+            "exampleSentence": "Die Einverständniserklärung benötigt Ihre Unterschrift.",
+            "exampleTranslation": {
+                "en": "The consent form requires your signature.",
+                "bn": "সম্মতিপত্রে আপনার স্বাক্ষর প্রয়োজন।",
+                "hi": "सहमति प्रपत्र पर आपके हस्ताक्षर की आवश्यकता है।",
+                "ur": "رضامندی فارم پر آپ کے دستخط کی ضرورت ہے۔",
+                "tr": "Onay formu imzanızı gerektirir."
+            },
+            "id": "v34_06"
+        },
+        {
+            "germanTerm": "anamnestisch",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/anaˈmnɛstɪʃ/",
+            "category": "adjective",
+            "translation": {
+                "en": "anamnestic (related to medical history)",
+                "bn": "অ্যানামনেস্টিক (চিকিৎসা ইতিহাস সম্পর্কিত)",
+                "hi": "अनाम्नेस्टिक (चिकित्सा इतिहास से संबंधित)",
+                "ur": "انامنیسٹک (طبی تاریخ سے متعلق)",
+                "tr": "anamnestik (tıbbi geçmişle ilgili)"
+            },
+            "exampleSentence": "Die Informationen sind anamnestisch wichtig.",
+            "exampleTranslation": {
+                "en": "The information is anamnestically important.",
+                "bn": "তথ্যটি অ্যানামনেস্টিকভাবে গুরুত্বপূর্ণ।",
+                "hi": "जानकारी अनाम्नेस्टिक रूप से महत्वपूर्ण है।",
+                "ur": "معلومات انامنیسٹک طور پر اہم ہے۔",
+                "tr": "Bilgi anamnestik olarak önemlidir."
+            },
+            "id": "v34_07"
+        },
+        {
+            "germanTerm": "dokumentieren",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/dokumɛnˈtiːʁən/",
+            "category": "verb",
+            "translation": {
+                "en": "to document",
+                "bn": "নথিভুক্ত করা",
+                "hi": "दस्तावेज़ बनाना",
+                "ur": "دستاویز کرنا",
+                "tr": "belgelemek"
+            },
+            "exampleSentence": "Der Arzt muss alle Behandlungen dokumentieren.",
+            "exampleTranslation": {
+                "en": "The doctor must document all treatments.",
+                "bn": "ডাক্তারকে সমস্ত চিকিৎসা নথিভুক্ত করতে হবে।",
+                "hi": "डॉक्टर को सभी उपचारों को दस्तावेज़ बनाना होगा।",
+                "ur": "ڈاکٹر کو تمام علاج کو دستاویز کرنا ہوگا۔",
+                "tr": "Doktor tüm tedavileri belgelemelidir."
+            },
+            "id": "v34_08"
+        },
+        {
+            "germanTerm": "Entlassungsbericht",
+            "article": "der",
+            "plural": "Entlassungsberichte",
+            "pronunciation": "/ɛntˈlasʊŋsbəˌʁɪçt/",
+            "category": "noun",
+            "translation": {
+                "en": "Discharge report",
+                "bn": "ডিসচার্জ রিপোর্ট",
+                "hi": "डिस्चार्ज रिपोर्ट",
+                "ur": "ڈسچارج رپورٹ",
+                "tr": "Taburcu raporu"
+            },
+            "exampleSentence": "Der Entlassungsbericht wird dem Hausarzt zugesandt.",
+            "exampleTranslation": {
+                "en": "The discharge report is sent to the family doctor.",
+                "bn": "ডিসচার্জ রিপোর্টটি পারিবারিক ডাক্তারের কাছে পাঠানো হয়।",
+                "hi": "डिस्चार्ज रिपोर्ट परिवार के डॉक्टर को भेजी जाती है।",
+                "ur": "ڈسچارج رپورٹ فیملی ڈاکٹر کو بھیجی جاتی ہے۔",
+                "tr": "Taburcu raporu aile hekimine gönderilir."
+            },
+            "id": "v34_09"
+        },
+        {
+            "germanTerm": "Befund",
+            "article": "der",
+            "plural": "Befunde",
+            "pronunciation": "/bəˈfʊnt/",
+            "category": "noun",
+            "translation": {
+                "en": "Finding, Result",
+                "bn": "আবিষ্কার, ফলাফল",
+                "hi": "खोज, परिणाम",
+                "ur": "نتیجہ، دریافت",
+                "tr": "Bulgu, Sonuç"
+            },
+            "exampleSentence": "Der radiologische Befund ist unauffällig.",
+            "exampleTranslation": {
+                "en": "The radiological finding is unremarkable.",
+                "bn": "রেডিওলজিক্যাল ফলাফল স্বাভাবিক।",
+                "hi": "रेडियोलॉजिकल निष्कर्ष अप्रभावी है।",
+                "ur": "ریڈیولوجیکل نتیجہ غیر معمولی ہے۔",
+                "tr": "Radyolojik bulgu dikkat çekici değil."
+            },
+            "id": "v34_10"
+        },
+        {
+            "germanTerm": "Visite",
+            "article": "die",
+            "plural": "Visiten",
+            "pronunciation": "/viˈziːtə/",
+            "category": "noun",
+            "translation": {
+                "en": "Ward round",
+                "bn": "ওয়ার্ড রাউন্ড",
+                "hi": "वार्ड राउंड",
+                "ur": "وارڈ کا دورہ",
+                "tr": "Vizit"
+            },
+            "exampleSentence": "Die Visite findet täglich um 9 Uhr statt.",
+            "exampleTranslation": {
+                "en": "The ward round takes place daily at 9 a.m.",
+                "bn": "ওয়ার্ড রাউন্ড প্রতিদিন সকাল ৯টায় অনুষ্ঠিত হয়।",
+                "hi": "वार्ड राउंड प्रतिदिन सुबह 9 बजे होता है।",
+                "ur": "وارڈ کا دورہ روزانہ صبح 9 بجے ہوتا ہے۔",
+                "tr": "Vizit her gün sabah 9'da yapılır."
+            },
+            "id": "v34_11"
+        },
+        {
+            "germanTerm": "Patientenprotokoll",
+            "article": "das",
+            "plural": "Patientenprotokolle",
+            "pronunciation": "/paˈt͡si̯ɛntənprotoˌkɔl/",
+            "category": "noun",
+            "translation": {
+                "en": "Patient record",
+                "bn": "রোগীর রেকর্ড",
+                "hi": "रोगी रिकॉर्ड",
+                "ur": "مریض کا ریکارڈ",
+                "tr": "Hasta kaydı"
+            },
+            "exampleSentence": "Das Patientenprotokoll enthält alle relevanten Daten.",
+            "exampleTranslation": {
+                "en": "The patient record contains all relevant data.",
+                "bn": "রোগীর রেকর্ডে সমস্ত প্রাসঙ্গিক ডেটা রয়েছে।",
+                "hi": "रोगी रिकॉर्ड में सभी प्रासंगिक डेटा शामिल हैं।",
+                "ur": "مریض کے ریکارڈ میں تمام متعلقہ ڈیٹا شامل ہیں۔",
+                "tr": "Hasta kaydı tüm ilgili verileri içerir."
+            },
+            "id": "v34_12"
+        },
+        {
+            "germanTerm": "Anamnese",
+            "article": "die",
+            "plural": "Anamnesen",
+            "pronunciation": "/anaˈmneːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "Medical history",
+                "bn": "চিকিৎসা ইতিহাস",
+                "hi": "चिकित्सा इतिहास",
+                "ur": "طبی تاریخ",
+                "tr": "Tıbbi geçmiş"
+            },
+            "exampleSentence": "Die Anamnese ist ein wichtiger Bestandteil der Diagnose.",
+            "exampleTranslation": {
+                "en": "The medical history is an important part of the diagnosis.",
+                "bn": "চিকিৎসা ইতিহাস রোগ নির্ণয়ের একটি গুরুত্বপূর্ণ অংশ।",
+                "hi": "चिकित्सा इतिहास निदान का एक महत्वपूर्ण हिस्सा है।",
+                "ur": "طبی تاریخ تشخیص کا ایک اہم حصہ ہے۔",
+                "tr": "Tıbbi geçmiş teşhisin önemli bir parçasıdır."
+            },
+            "id": "v34_13"
+        },
+        {
+            "germanTerm": "akribisch",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/aˈkʁiːbɪʃ/",
+            "category": "adjective",
+            "translation": {
+                "en": "Meticulous",
+                "bn": "খুঁটিনাটিপূর্ণ",
+                "hi": "बारीक",
+                "ur": "باریک",
+                "tr": "Titiz"
+            },
+            "exampleSentence": "Die Dokumentation muss akribisch erfolgen.",
+            "exampleTranslation": {
+                "en": "The documentation must be meticulous.",
+                "bn": "নথিপত্র খুঁটিনাটিপূর্ণ হতে হবে।",
+                "hi": "दस्तावेज़ीकरण बारीक होना चाहिए।",
+                "ur": "دستاویزی عمل باریک ہونا چاہیے۔",
+                "tr": "Belgeleme titizlikle yapılmalıdır."
+            },
+            "id": "v34_14"
+        },
+        {
+            "germanTerm": "Handschrift",
+            "article": "die",
+            "plural": "Handschriften",
+            "pronunciation": "/ˈhantˌʃʁɪft/",
+            "category": "noun",
+            "translation": {
+                "en": "Handwriting",
+                "bn": "হাতের লেখা",
+                "hi": "हस्तलेख",
+                "ur": "خوش خطی",
+                "tr": "El yazısı"
+            },
+            "exampleSentence": "Die Handschrift des Arztes ist schwer lesbar.",
+            "exampleTranslation": {
+                "en": "The doctor's handwriting is difficult to read.",
+                "bn": "ডাক্তারের হাতের লেখা পড়া কঠিন।",
+                "hi": "डॉक्टर का हस्तलेख पढ़ना मुश्किल है।",
+                "ur": "ڈاکٹر کی خوش خطی پڑھنا مشکل ہے۔",
+                "tr": "Doktorun el yazısı okumak zordur."
+            },
+            "id": "v34_15"
+        },
+        {
+            "germanTerm": "Formular",
+            "article": "das",
+            "plural": "Formulare",
+            "pronunciation": "/fɔʁmuˈlaːɐ̯/",
+            "category": "noun",
+            "translation": {
+                "en": "Form",
+                "bn": "ফর্ম",
+                "hi": "प्रपत्र",
+                "ur": "فارم",
+                "tr": "Form"
+            },
+            "exampleSentence": "Bitte füllen Sie das Formular vollständig aus.",
+            "exampleTranslation": {
+                "en": "Please fill out the form completely.",
+                "bn": "অনুগ্রহ করে ফর্মটি সম্পূর্ণরূপে পূরণ করুন।",
+                "hi": "कृपया फॉर्म को पूरी तरह से भरें।",
+                "ur": "برائے مہربانی فارم کو مکمل طور پر بھریں۔",
+                "tr": "Lütfen formu tamamen doldurun."
+            },
+            "id": "v34_16"
+        },
+        {
+            "germanTerm": "konsultieren",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/kɔnzʊlˈtiːʁən/",
+            "category": "verb",
+            "translation": {
+                "en": "to consult",
+                "bn": "পরামর্শ করা",
+                "hi": "परामर्श करना",
+                "ur": "مشورہ کرنا",
+                "tr": "danışmak"
+            },
+            "exampleSentence": "Wir müssen den Spezialisten konsultieren.",
+            "exampleTranslation": {
+                "en": "We need to consult the specialist.",
+                "bn": "আমাদের বিশেষজ্ঞের সাথে পরামর্শ করতে হবে।",
+                "hi": "हमें विशेषज्ञ से परामर्श करना होगा।",
+                "ur": "ہمیں ماہر سے مشورہ کرنا ہوگا۔",
+                "tr": "Uzmana danışmamız gerekiyor."
+            },
+            "id": "v34_17"
+        },
+        {
+            "germanTerm": "archivieren",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/aʁçiˈviːʁən/",
+            "category": "verb",
+            "translation": {
+                "en": "to archive",
+                "bn": "সংরক্ষণ করা",
+                "hi": "अभिलेख करना",
+                "ur": "محفوظ کرنا",
+                "tr": "arşivlemek"
+            },
+            "exampleSentence": "Die Akten werden elektronisch archiviert.",
+            "exampleTranslation": {
+                "en": "The files are archived electronically.",
+                "bn": "ফাইলগুলি বৈদ্যুতিনভাবে সংরক্ষণ করা হয়।",
+                "hi": "फ़ाइलें इलेक्ट्रॉनिक रूप से संग्रहीत की जाती हैं।",
+                "ur": "فائلیں الیکٹرانک طور پر محفوظ کی جاتی ہیں۔",
+                "tr": "Dosyalar elektronik olarak arşivlenir."
+            },
+            "id": "v34_18"
+        },
+        {
+            "germanTerm": "Schweigepflicht",
+            "article": "die",
+            "plural": "Schweigepflichten",
+            "pronunciation": "/ˈʃvaɪ̯ɡəˌp͡flɪçt/",
+            "category": "noun",
+            "translation": {
+                "en": "Confidentiality",
+                "bn": "গোপনীয়তা",
+                "hi": "गोपनीयता",
+                "ur": "رازداری",
+                "tr": "Gizlilik"
+            },
+            "exampleSentence": "Ärzte unterliegen der Schweigepflicht.",
+            "exampleTranslation": {
+                "en": "Doctors are subject to confidentiality.",
+                "bn": "চিকিৎসকরা গোপনীয়তার অধীন।",
+                "hi": "डॉक्टर गोपनीयता के अधीन हैं।",
+                "ur": "ڈاکٹر رازداری کے پابند ہیں۔",
+                "tr": "Doktorlar gizliliğe tabidir."
+            },
+            "id": "v34_19"
+        },
+        {
+            "germanTerm": "Medikationsplan",
+            "article": "der",
+            "plural": "Medikationspläne",
+            "pronunciation": "/medikaˈt͡si̯oːnsˌplaːn/",
+            "category": "noun",
+            "translation": {
+                "en": "Medication plan",
+                "bn": "ঔষধ পরিকল্পনা",
+                "hi": "दवा योजना",
+                "ur": "ادویات کا منصوبہ",
+                "tr": "İlaç planı"
+            },
+            "exampleSentence": "Der Patient benötigt einen aktuellen Medikationsplan.",
+            "exampleTranslation": {
+                "en": "The patient needs an up-to-date medication plan.",
+                "bn": "রোগীর একটি আপ-টু-ডেট ঔষধ পরিকল্পনা প্রয়োজন।",
+                "hi": "रोगी को एक अद्यतित दवा योजना की आवश्यकता है।",
+                "ur": "مریض کو ایک جدید ادویات کا منصوبہ درکار ہے۔",
+                "tr": "Hastanın güncel bir ilaç planına ihtiyacı var."
+            },
+            "id": "v34_20"
+        },
+        {
+            "germanTerm": "Einverständniserklärung",
+            "article": "die",
+            "plural": "Einverständniserklärungen",
+            "pronunciation": "/ˈaɪ̯nfɛɐ̯ˌʃtɛntnɪsʔɛɐ̯ˌklɛːʁʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "Consent form",
+                "bn": "সম্মতিপত্র",
+                "hi": "सहमति प्रपत्र",
+                "ur": "رضامندی کا فارم",
+                "tr": "Onay formu"
+            },
+            "exampleSentence": "Vor der Operation ist eine Einverständniserklärung notwendig.",
+            "exampleTranslation": {
+                "en": "A consent form is necessary before the operation.",
+                "bn": "অপারেশনের আগে একটি সম্মতিপত্র প্রয়োজন।",
+                "hi": "ऑपरेशन से पहले एक सहमति प्रपत्र आवश्यक है।",
+                "ur": "آپریشن سے پہلے ایک رضامندی کا فارم ضروری ہے۔",
+                "tr": "Ameliyattan önce bir onay formu gereklidir."
+            },
+            "id": "v34_21"
+        },
+        {
+            "germanTerm": "Diagnose",
+            "article": "die",
+            "plural": "Diagnosen",
+            "pronunciation": "/diaɡˈnoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "Diagnosis",
+                "bn": "রোগ নির্ণয়",
+                "hi": "निदान",
+                "ur": "تشخیص",
+                "tr": "Teşhis"
+            },
+            "exampleSentence": "Die Diagnose wurde durch weitere Untersuchungen bestätigt.",
+            "exampleTranslation": {
+                "en": "The diagnosis was confirmed by further tests.",
+                "bn": "আরও পরীক্ষার মাধ্যমে রোগ নির্ণয় নিশ্চিত করা হয়েছে।",
+                "hi": "आगे की जांच से निदान की पुष्टि हुई।",
+                "ur": "مزید جانچ سے تشخیص کی تصدیق ہوگئی۔",
+                "tr": "Teşhis daha fazla testle doğrulandı."
+            },
+            "id": "v34_22"
+        },
+        {
+            "germanTerm": "Therapieplan",
+            "article": "der",
+            "plural": "Therapiepläne",
+            "pronunciation": "/teʁaˈpiːˌplaːn/",
+            "category": "noun",
+            "translation": {
+                "en": "Therapy plan",
+                "bn": "থেরাপি পরিকল্পনা",
+                "hi": "चिकित्सा योजना",
+                "ur": "تھراپی منصوبہ",
+                "tr": "Terapi planı"
+            },
+            "exampleSentence": "Der Therapieplan wird individuell angepasst.",
+            "exampleTranslation": {
+                "en": "The therapy plan is individually adapted.",
+                "bn": "থেরাপি পরিকল্পনা স্বতন্ত্রভাবে অভিযোজিত করা হয়।",
+                "hi": "चिकित्सा योजना व्यक्तिगत रूप से अनुकूलित है।",
+                "ur": "تھراپی منصوبہ انفرادی طور پر تیار کیا گیا ہے۔",
+                "tr": "Terapi planı bireysel olarak uyarlanmıştır."
+            },
+            "id": "v34_23"
+        },
+        {
+            "germanTerm": "protokollieren",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/pʁotokoˈliːʁən/",
+            "category": "verb",
+            "translation": {
+                "en": "to record",
+                "bn": "রেকর্ড করা",
+                "hi": "रिकॉर्ड करना",
+                "ur": "ریکارڈ کرنا",
+                "tr": "kaydetmek"
+            },
+            "exampleSentence": "Alle Ereignisse müssen genau protokolliert werden.",
+            "exampleTranslation": {
+                "en": "All events must be accurately recorded.",
+                "bn": "সমস্ত ঘটনা সঠিকভাবে রেকর্ড করা উচিত।",
+                "hi": "सभी घटनाओं को सटीक रूप से रिकॉर्ड किया जाना चाहिए।",
+                "ur": "تمام واقعات کو درست طور پر ریکارڈ کیا جانا چاہئے۔",
+                "tr": "Tüm olaylar doğru bir şekilde kaydedilmelidir."
+            },
+            "id": "v34_24"
+        },
+        {
+            "germanTerm": "Revisionssicher",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ʁeviˈzi̯oːnsˌzɪçɐ/",
+            "category": "adjective",
+            "translation": {
+                "en": "Audit-proof",
+                "bn": "নিরীক্ষা-প্রমাণ",
+                "hi": "लेखा परीक्षा-प्रमाण",
+                "ur": "آڈٹ پروف",
+                "tr": "Denetime dayanıklı"
+            },
+            "exampleSentence": "Die Daten müssen revisionssicher gespeichert werden.",
+            "exampleTranslation": {
+                "en": "The data must be stored in an audit-proof manner.",
+                "bn": "ডেটা নিরীক্ষা-প্রমাণ পদ্ধতিতে সংরক্ষণ করতে হবে।",
+                "hi": "डेटा को लेखा परीक्षा-प्रमाण तरीके से संग्रहीत किया जाना चाहिए।",
+                "ur": "ڈیٹا کو آڈٹ پروف طریقے سے محفوظ کیا جانا چاہئے۔",
+                "tr": "Veriler denetime dayanıklı bir şekilde saklanmalıdır."
+            },
+            "id": "v34_25"
+        },
+        {
+            "germanTerm": "Zugriff",
+            "article": "der",
+            "plural": "Zugriffe",
+            "pronunciation": "/ˈt͡sʊɡʁɪf/",
+            "category": "noun",
+            "translation": {
+                "en": "Access",
+                "bn": "অ্যাক্সেস",
+                "hi": "पहुँच",
+                "ur": "رسائی",
+                "tr": "Erişim"
+            },
+            "exampleSentence": "Nur autorisierte Personen haben Zugriff auf die Daten.",
+            "exampleTranslation": {
+                "en": "Only authorized persons have access to the data.",
+                "bn": "শুধুমাত্র অনুমোদিত ব্যক্তিদের ডেটাতে অ্যাক্সেস রয়েছে।",
+                "hi": "केवल अधिकृत व्यक्तियों को डेटा तक पहुंच है।",
+                "ur": "صرف مجاز افراد کو ڈیٹا تک رسائی حاصل ہے۔",
+                "tr": "Yalnızca yetkili kişilerin verilere erişimi vardır."
+            },
+            "id": "v34_26"
+        },
+        {
+            "germanTerm": "Fallakte",
+            "article": "die",
+            "plural": "Fallakten",
+            "pronunciation": "/ˈfalˌʔaktə/",
+            "category": "noun",
+            "translation": {
+                "en": "Case file",
+                "bn": "কেস ফাইল",
+                "hi": "केस फ़ाइल",
+                "ur": "کیس فائل",
+                "tr": "Vaka dosyası"
+            },
+            "exampleSentence": "Die Fallakte enthält alle relevanten Informationen zu dem Patienten.",
+            "exampleTranslation": {
+                "en": "The case file contains all relevant information about the patient.",
+                "bn": "কেস ফাইলে রোগীর সম্পর্কিত সমস্ত প্রাসঙ্গিক তথ্য রয়েছে।",
+                "hi": "केस फ़ाइल में रोगी के बारे में सभी प्रासंगिक जानकारी शामिल है।",
+                "ur": "کیس فائل میں مریض کے بارے میں تمام متعلقہ معلومات شامل ہیں۔",
+                "tr": "Vaka dosyası hastayla ilgili tüm ilgili bilgileri içerir."
+            },
+            "id": "v34_27"
+        },
+        {
+            "germanTerm": "verfügen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/fɛɐ̯ˈfyːɡən/",
+            "category": "verb",
+            "translation": {
+                "en": "to order, to prescribe",
+                "bn": "আদেশ দেওয়া, নির্দেশ দেওয়া",
+                "hi": "आदेश देना, निर्धारित करना",
+                "ur": "حکم دینا، تجویز کرنا",
+                "tr": "emretmek, reçete yazmak"
+            },
+            "exampleSentence": "Der Arzt kann Medikamente verfügen.",
+            "exampleTranslation": {
+                "en": "The doctor can prescribe medications.",
+                "bn": "ডাক্তার ওষুধ নির্দেশ করতে পারেন।",
+                "hi": "डॉक्टर दवाएं लिख सकते हैं।",
+                "ur": "ڈاکٹر ادویات تجویز کر سکتے ہیں۔",
+                "tr": "Doktor ilaç yazabilir."
+            },
+            "id": "v34_28"
+        },
+        {
+            "germanTerm": "elektronisch",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/elɛkˈtʁoːnɪʃ/",
+            "category": "adjective",
+            "translation": {
+                "en": "electronic",
+                "bn": "বৈদ্যুতিন",
+                "hi": "इलेक्ट्रॉनिक",
+                "ur": "الیکٹرانک",
+                "tr": "elektronik"
+            },
+            "exampleSentence": "Die Dokumentation erfolgt elektronisch.",
+            "exampleTranslation": {
+                "en": "The documentation is done electronically.",
+                "bn": "নথিপত্র বৈদ্যুতিনভাবে সম্পন্ন করা হয়।",
+                "hi": "दस्तावेज़ीकरण इलेक्ट्रॉनिक रूप से किया जाता है।",
+                "ur": "دستاویزی عمل الیکٹرانک طور پر کیا جاتا ہے۔",
+                "tr": "Belgeleme elektronik olarak yapılır."
+            },
+            "id": "v34_29"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Patient Admission Documentation",
+                "bn": "রোগী ভর্তির ডকুমেন্টেশন",
+                "hi": "रोगी प्रवेश दस्तावेज़",
+                "ur": "مریض کے داخلے کی دستاویزات",
+                "tr": "Hasta Kabul Belgelemesi"
+            },
+            "context": {
+                "en": "A new patient is admitted. The doctor and nurse discuss the initial documentation.",
+                "bn": "একজন নতুন রোগী ভর্তি হয়েছেন। ডাক্তার এবং নার্স প্রাথমিক ডকুমেন্টেশন নিয়ে আলোচনা করেন।",
+                "hi": "एक नया रोगी भर्ती है। डॉक्टर और नर्स प्रारंभिक दस्तावेज़ीकरण पर चर्चा करते हैं।",
+                "ur": "ایک نیا مریض داخل ہوا ہے۔ ڈاکٹر اور نرس ابتدائی دستاویزات پر بات کر رہے ہیں۔",
+                "tr": "Yeni bir hasta kabul edildi. Doktor ve hemşire ilk belgeleme hakkında konuşuyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Schwester Weber, haben Sie die Akte für Herrn Müller schon angelegt?",
+                    "translation": {
+                        "en": "Sister Weber, have you already created the file for Mr. Müller?",
+                        "bn": "সিস্টার ওয়েবার, আপনি কি ইতিমধ্যে মিঃ মুলারের জন্য ফাইল তৈরি করেছেন?",
+                        "hi": "सिस्टर वेबर, क्या आपने पहले ही मिस्टर मुलर के लिए फ़ाइल बना ली है?",
+                        "ur": "سسٹر ویبر، کیا آپ نے پہلے ہی مسٹر مولر کے لیے فائل بنا لی ہے؟",
+                        "tr": "Hemşire Weber, Bay Müller için dosyayı zaten oluşturdunuz mu?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ja, Herr Dr. Schmidt. Die Stammdaten sind erfasst und der Pflegebericht beginnt.",
+                    "translation": {
+                        "en": "Yes, Dr. Schmidt. The master data has been recorded, and the nursing report is starting.",
+                        "bn": "হ্যাঁ, ডঃ শ্মিট। প্রাথমিক ডেটা রেকর্ড করা হয়েছে, এবং নার্সিং রিপোর্ট শুরু হচ্ছে।",
+                        "hi": "हाँ, डॉ. श्मिट। मास्टर डेटा रिकॉर्ड हो गया है, और नर्सिंग रिपोर्ट शुरू हो रही है।",
+                        "ur": "جی ہاں، ڈاکٹر شمٹ۔ بنیادی ڈیٹا ریکارڈ کیا گیا ہے، اور نرسنگ رپورٹ شروع ہو رہی ہے۔",
+                        "tr": "Evet, Dr. Schmidt. Ana veriler kaydedildi ve hemşirelik raporu başlıyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Gut. Bitte achten Sie besonders auf die Allergien und die aktuelle Medikation. Alles in der Akte dokumentieren.",
+                    "translation": {
+                        "en": "Good. Please pay particular attention to the allergies and current medication. Document everything in the file.",
+                        "bn": "ভাল। দয়া করে অ্যালার্জি এবং বর্তমান ওষুধের দিকে বিশেষ মনোযোগ দিন। ফাইলের মধ্যে সবকিছু নথিভুক্ত করুন।",
+                        "hi": "अच्छा। कृपया एलर्जी और वर्तमान दवा पर विशेष ध्यान दें। फाइल में सब कुछ दर्ज करें।",
+                        "ur": "اچھی بات ہے۔ براہ کرم الرجی اور موجودہ ادویات پر خاص توجہ دیں۔ فائل میں سب کچھ دستاویز کریں۔",
+                        "tr": "Güzel. Lütfen alerjilere ve mevcut ilaçlara özellikle dikkat edin. Her şeyi dosyada belgeleyin."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Selbstverständlich. Ich trage alles in den Pflegebericht ein.",
+                    "translation": {
+                        "en": "Of course. I will enter everything in the nursing report.",
+                        "bn": "অবশ্যই। আমি নার্সিং রিপোর্টে সবকিছু লিখব।",
+                        "hi": "बेशक। मैं नर्सिंग रिपोर्ट में सब कुछ दर्ज करूंगा।",
+                        "ur": "یقینا۔ میں نرسنگ رپورٹ میں سب کچھ درج کروں گا۔",
+                        "tr": "Elbette. Her şeyi hemşirelik raporuna gireceğim."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Perfekt. Ich werde dann den ärztlichen Verlauf dokumentieren.",
+                    "translation": {
+                        "en": "Perfect. Then I will document the medical history.",
+                        "bn": "পারফেক্ট। তাহলে আমি চিকিৎসার ইতিহাস নথিভুক্ত করব।",
+                        "hi": "उत्तम। फिर मैं चिकित्सा इतिहास का दस्तावेजीकरण करूंगा।",
+                        "ur": "بالکل درست۔ پھر میں طبی تاریخ کو دستاویزی شکل دوں گا۔",
+                        "tr": "Mükemmel. O zaman tıbbi geçmişi belgeleyeceğim."
+                    }
+                }
+            ],
+            "id": "d34_01"
+        },
+        {
+            "title": {
+                "en": "Documenting Vital Signs",
+                "bn": "ভাইটাল সাইনস ডকুমেন্ট করা",
+                "hi": "महत्वपूर्ण संकेतों का दस्तावेजीकरण",
+                "ur": "اہم علامات کی دستاویز کاری",
+                "tr": "Yaşamsal Belirtileri Belgeleme"
+            },
+            "context": {
+                "en": "A nurse is documenting the patient's vital signs in the chart.",
+                "bn": "একজন নার্স রোগীর ভাইটাল সাইনস চার্টে নথিভুক্ত করছেন।",
+                "hi": "एक नर्स रोगी के महत्वपूर्ण संकेतों को चार्ट में दर्ज कर रही है।",
+                "ur": "ایک نرس مریض کے اہم علامات کو چارٹ میں درج کر رہی ہے۔",
+                "tr": "Bir hemşire, hastanın hayati belirtilerini çizelgede belgeliyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Meier",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "So, Herr Klein, ich messe jetzt Ihre Vitalzeichen. Bitte entspannen Sie sich.",
+                    "translation": {
+                        "en": "So, Mr. Klein, I will now measure your vital signs. Please relax.",
+                        "bn": "আচ্ছা, মিঃ ক্লেইন, আমি এখন আপনার ভাইটাল সাইনস মাপব। দয়া করে রিল্যাক্স করুন।",
+                        "hi": "तो, श्री क्लेन, अब मैं आपके महत्वपूर्ण संकेत मापूँगा। कृपया आराम करें।",
+                        "ur": "تو، مسٹر کلین، اب میں آپ کے اہم علامات کی پیمائش کروں گا۔ براہ کرم آرام کریں۔",
+                        "tr": "Peki, Bay Klein, şimdi hayati belirtilerinizi ölçeceğim. Lütfen rahatlayın."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Alles klar, Schwester.",
+                    "translation": {
+                        "en": "Alright, Sister.",
+                        "bn": "ঠিক আছে, সিস্টার।",
+                        "hi": "ठीक है, सिस्टर।",
+                        "ur": "ٹھیک ہے، سسٹر۔",
+                        "tr": "Pekala, Hemşire."
+                    }
+                },
+                {
+                    "speaker": "Schwester Meier",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ihr Blutdruck ist etwas erhöht. Ich werde das in der Kurve notieren.",
+                    "translation": {
+                        "en": "Your blood pressure is slightly elevated. I will note that in the chart.",
+                        "bn": "আপনার রক্তচাপ সামান্য বেড়েছে। আমি এটা চার্টে নোট করব।",
+                        "hi": "आपका रक्तचाप थोड़ा बढ़ा हुआ है। मैं इसे चार्ट में नोट करूँगा।",
+                        "ur": "آپ کا بلڈ پریشر قدرے بڑھا ہوا ہے۔ میں اسے چارٹ میں نوٹ کروں گا۔",
+                        "tr": "Kan basıncınız biraz yüksek. Bunu grafiğe not edeceğim."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Ist das schlimm?",
+                    "translation": {
+                        "en": "Is that bad?",
+                        "bn": "এটা কি খারাপ?",
+                        "hi": "क्या यह बुरा है?",
+                        "ur": "کیا یہ برا ہے؟",
+                        "tr": "Bu kötü mü?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Meier",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Nicht unbedingt, aber wir behalten das im Auge. Ich werde den Arzt informieren und es im Verlauf dokumentieren.",
+                    "translation": {
+                        "en": "Not necessarily, but we'll keep an eye on it. I will inform the doctor and document it in the progress report.",
+                        "bn": "অগত্যা নয়, তবে আমরা এটির দিকে নজর রাখব। আমি ডাক্তারকে জানাব এবং অগ্রগতি প্রতিবেদনে এটি নথিভুক্ত করব।",
+                        "hi": "ज़रूरी नहीं है, लेकिन हम इस पर नज़र रखेंगे। मैं डॉक्टर को सूचित करूँगा और इसे प्रगति रिपोर्ट में दर्ज करूँगा।",
+                        "ur": "ضروری نہیں ہے، لیکن ہم اس پر نظر رکھیں گے۔ میں ڈاکٹر کو مطلع کروں گا اور اسے پیش رفت رپورٹ میں دستاویز کروں گا۔",
+                        "tr": "Şart değil ama gözümüzü üzerinde tutacağız. Doktoru bilgilendireceğim ve ilerleme raporunda belgeleyeceğim."
+                    }
+                }
+            ],
+            "id": "d34_02"
+        },
+        {
+            "title": {
+                "en": "Medication Administration Documentation",
+                "bn": "ওষুধ প্রশাসনের ডকুমেন্টেশন",
+                "hi": "दवा प्रशासन दस्तावेज़",
+                "ur": "ادویات کی انتظامیہ کی دستاویزات",
+                "tr": "İlaç Uygulama Belgelemesi"
+            },
+            "context": {
+                "en": "A nurse is about to administer medication and documents it afterwards.",
+                "bn": "একজন নার্স ওষুধ দিতে যাচ্ছেন এবং পরে এটি নথিভুক্ত করছেন।",
+                "hi": "एक नर्स दवा देने वाली है और बाद में इसे दर्ज करती है।",
+                "ur": "ایک نرس دوا دینے والی ہے اور بعد میں اسے درج کرتی ہے۔",
+                "tr": "Bir hemşire ilaç uygulamak üzere ve daha sonra bunu belgeliyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Lisa",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Morgen, Frau Schmidt. Hier ist Ihre Tablette. Bitte nehmen Sie diese mit etwas Wasser ein.",
+                    "translation": {
+                        "en": "Good morning, Mrs. Schmidt. Here is your tablet. Please take it with some water.",
+                        "bn": "শুভ সকাল, মিসেস শ্মিট। এখানে আপনার ট্যাবলেট। দয়া করে এটি কিছুটা জলের সাথে নিন।",
+                        "hi": "शुभ प्रभात, श्रीमती श्मिट। यहाँ आपकी गोली है। कृपया इसे थोड़े पानी के साथ लें।",
+                        "ur": "صبح بخیر، محترمہ شمٹ۔ یہاں آپ کی گولی ہے۔ براہ کرم اسے تھوڑے سے پانی کے ساتھ لیں۔",
+                        "tr": "Günaydın, Bayan Schmidt. İşte tabletiniz. Lütfen biraz su ile alın."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Danke, Schwester.",
+                    "translation": {
+                        "en": "Thank you, Sister.",
+                        "bn": "ধন্যবাদ, সিস্টার।",
+                        "hi": "धन्यवाद, सिस्टर।",
+                        "ur": "شکریہ، سسٹر۔",
+                        "tr": "Teşekkürler, Hemşire."
+                    }
+                },
+                {
+                    "speaker": "Schwester Lisa",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "(Notiert im Medikamentenplan) Tablette verabreicht. Uhrzeit: 9:00. Unterschrift: Lisa.",
+                    "translation": {
+                        "en": "(Noted in the medication plan) Tablet administered. Time: 9:00. Signature: Lisa.",
+                        "bn": "(ওষুধের পরিকল্পনায় উল্লেখ করা হয়েছে) ট্যাবলেট দেওয়া হয়েছে। সময়: 9:00। স্বাক্ষর: লিসা।",
+                        "hi": "(दवा योजना में उल्लेखित) टैबलेट दी गई। समय: 9:00। हस्ताक्षर: लिसा।",
+                        "ur": "(ادویات کے منصوبے میں ذکر کیا گیا) ٹیبلٹ دی گئی۔ وقت: 9:00۔ دستخط: لیزا۔",
+                        "tr": "(İlaç planında belirtildi) Tablet uygulandı. Saat: 9:00. İmza: Lisa."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Ist das wichtig, alles so genau zu dokumentieren?",
+                    "translation": {
+                        "en": "Is it important to document everything so precisely?",
+                        "bn": "এত সঠিকভাবে সবকিছু নথিভুক্ত করা কি গুরুত্বপূর্ণ?",
+                        "hi": "क्या सब कुछ इतनी सटीक रूप से दर्ज करना महत्वपूर्ण है?",
+                        "ur": "کیا ہر چیز کو اتنی درستگی سے دستاویزی شکل دینا اہم ہے؟",
+                        "tr": "Her şeyi bu kadar kesin bir şekilde belgelemek önemli mi?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Lisa",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ja, Frau Schmidt. Das ist sehr wichtig für Ihre Sicherheit und die korrekte Behandlung. So können wir den Verlauf genau verfolgen.",
+                    "translation": {
+                        "en": "Yes, Mrs. Schmidt. That is very important for your safety and proper treatment. This way, we can accurately track the progress.",
+                        "bn": "হ্যাঁ, মিসেস শ্মিট। এটি আপনার সুরক্ষা এবং সঠিক চিকিত্সার জন্য খুব গুরুত্বপূর্ণ। এইভাবে, আমরা সঠিকভাবে অগ্রগতি ট্র্যাক করতে পারি।",
+                        "hi": "हाँ, श्रीमती श्मिट। यह आपकी सुरक्षा और उचित उपचार के लिए बहुत महत्वपूर्ण है। इस तरह, हम सटीक रूप से प्रगति को ट्रैक कर सकते हैं।",
+                        "ur": "جی ہاں، محترمہ شمٹ۔ یہ آپ کی حفاظت اور مناسب علاج کے لیے بہت اہم ہے۔ اس طرح، ہم درست طریقے سے پیش رفت کو ٹریک کر سکتے ہیں۔",
+                        "tr": "Evet, Bayan Schmidt. Bu, güvenliğiniz ve doğru tedavi için çok önemlidir. Bu şekilde, ilerlemeyi doğru bir şekilde takip edebiliriz."
+                    }
+                }
+            ],
+            "id": "d34_03"
+        },
+        {
+            "title": {
+                "en": "Doctor Reviewing Patient File",
+                "bn": "ডাক্তার রোগীর ফাইল পর্যালোচনা করছেন",
+                "hi": "डॉक्टर रोगी की फ़ाइल की समीक्षा कर रहे हैं",
+                "ur": "ڈاکٹر مریض کی فائل کا جائزہ لے رہے ہیں",
+                "tr": "Doktor Hasta Dosyasını İnceliyor"
+            },
+            "context": {
+                "en": "A doctor is reviewing a patient's file before making rounds.",
+                "bn": "একজন ডাক্তার রাউন্ড দেওয়ার আগে রোগীর ফাইল পর্যালোচনা করছেন।",
+                "hi": "एक डॉक्टर राउंड करने से पहले रोगी की फ़ाइल की समीक्षा कर रहा है।",
+                "ur": "ایک ڈاکٹر راؤنڈ کرنے سے پہلے مریض کی فائل کا جائزہ لے رہا ہے۔",
+                "tr": "Bir doktor vizite çıkmadan önce hasta dosyasını inceliyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Mal sehen, was steht im Verlauf von Herrn Becker…Ah, die Entzündungswerte sind gesunken.",
+                    "translation": {
+                        "en": "Let's see what the progress report says about Mr. Becker…Ah, the inflammation values have decreased.",
+                        "bn": "দেখা যাক মিঃ বেকারের অগ্রগতি প্রতিবেদনে কী লেখা আছে...আহ, প্রদাহের মান কমে গেছে।",
+                        "hi": "देखते हैं कि श्री बेकर की प्रगति रिपोर्ट में क्या लिखा है...आह, सूजन के मान कम हो गए हैं।",
+                        "ur": "آئیے دیکھتے ہیں کہ مسٹر بیکر کی پیش رفت رپورٹ میں کیا لکھا ہے...آہ، سوزش کی اقدار کم ہو گئی ہیں۔",
+                        "tr": "Bakalım Bay Becker'in ilerleme raporunda ne yazıyor... Ah, iltihap değerleri düşmüş."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Schwester Petra, haben Sie den Pflegebericht aktualisiert?",
+                    "translation": {
+                        "en": "Sister Petra, have you updated the nursing report?",
+                        "bn": "সিস্টার পেট্রা, আপনি কি নার্সিং রিপোর্ট আপডেট করেছেন?",
+                        "hi": "सिस्टर पेट्रा, क्या आपने नर्सिंग रिपोर्ट अपडेट कर दी है?",
+                        "ur": "سسٹر پیٹرا، کیا آپ نے نرسنگ رپورٹ کو اپ ڈیٹ کر دیا ہے؟",
+                        "tr": "Hemşire Petra, hemşirelik raporunu güncellediniz mi?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Petra",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ja, Herr Dr. Weber. Er hat gut geschlafen und keine Schmerzen gehabt. Alles dokumentiert.",
+                    "translation": {
+                        "en": "Yes, Dr. Weber. He slept well and had no pain. Everything is documented.",
+                        "bn": "হ্যাঁ, ডঃ ওয়েবার। তিনি ভাল ঘুমিয়েছেন এবং কোনও ব্যথা হয়নি। সবকিছু নথিভুক্ত করা হয়েছে।",
+                        "hi": "हाँ, डॉ. वेबर। वह अच्छी तरह सोया और उसे कोई दर्द नहीं हुआ। सब कुछ प्रलेखित है।",
+                        "ur": "جی ہاں، ڈاکٹر ویبر۔ وہ اچھی طرح سویا اور اسے کوئی درد نہیں ہوا۔ سب کچھ دستاویزی شکل میں ہے۔",
+                        "tr": "Evet, Dr. Weber. İyi uyudu ve ağrısı olmadı. Her şey belgelendi."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Sehr gut. Dann können wir die Dosis des Schmerzmittels reduzieren. Ich schreibe das in die Akte und verordne es.",
+                    "translation": {
+                        "en": "Very good. Then we can reduce the dose of the painkiller. I'll write that in the file and prescribe it.",
+                        "bn": "খুব ভাল। তাহলে আমরা ব্যথানাশক ওষুধের ডোজ কমাতে পারি। আমি এটা ফাইলে লিখব এবং প্রেসক্রাইব করব।",
+                        "hi": "बहुत अच्छा। तो हम दर्द निवारक की खुराक कम कर सकते हैं। मैं इसे फ़ाइल में लिखूंगा और निर्धारित करूंगा।",
+                        "ur": "بہت اچھا۔ تو ہم درد کش دوا کی خوراک کم کر سکتے ہیں۔ میں اسے فائل میں لکھوں گا اور تجویز کروں گا۔",
+                        "tr": "Çok iyi. O zaman ağrı kesicinin dozunu azaltabiliriz. Bunu dosyaya yazacağım ve reçete edeceğim."
+                    }
+                },
+                {
+                    "speaker": "Schwester Petra",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Wunderbar, Herr Dr. Weber. Ich werde die Kurve entsprechend anpassen, sobald die Anordnung in der Akte ist.",
+                    "translation": {
+                        "en": "Wonderful, Dr. Weber. I will adjust the chart accordingly as soon as the order is in the file.",
+                        "bn": "চমৎকার, ডঃ ওয়েবার। আদেশটি ফাইলে আসার সাথে সাথেই আমি সেই অনুযায়ী চার্টটি সামঞ্জস্য করব।",
+                        "hi": "बहुत बढ़िया, डॉ. वेबर। आदेश फ़ाइल में आते ही मैं चार्ट को तदनुसार समायोजित कर दूँगी।",
+                        "ur": "بہت خوب، ڈاکٹر ویبر۔ جیسے ہی آرڈر فائل میں آئے گا میں چارٹ کو اس کے مطابق ایڈجسٹ کر دوں گی۔",
+                        "tr": "Harika, Dr. Weber. Sipariş dosyaya girer girmez grafiği buna göre ayarlayacağım."
+                    }
+                }
+            ],
+            "id": "d34_04"
+        },
+        {
+            "title": {
+                "en": "Discharge Documentation",
+                "bn": "ডিসচার্জ ডকুমেন্টেশন",
+                "hi": "डिस्चार्ज दस्तावेज़",
+                "ur": "ڈسچارج کی دستاویزات",
+                "tr": "Taburcu Belgelemesi"
+            },
+            "context": {
+                "en": "A patient is being discharged, and the final documentation is being completed.",
+                "bn": "একজন রোগীকে ডিসচার্জ করা হচ্ছে, এবং চূড়ান্ত ডকুমেন্টেশন সম্পন্ন করা হচ্ছে।",
+                "hi": "एक रोगी को छुट्टी दी जा रही है, और अंतिम दस्तावेज़ीकरण पूरा किया जा रहा है।",
+                "ur": "ایک مریض کو فارغ کیا جا رہا ہے، اور حتمی دستاویزات مکمل کی جا رہی ہیں۔",
+                "tr": "Bir hasta taburcu ediliyor ve son belgeleme tamamlanıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Frau Lehmann, hier ist Ihr Entlassungsbericht. Bitte lesen Sie ihn sorgfältig durch.",
+                    "translation": {
+                        "en": "Mrs. Lehmann, here is your discharge report. Please read it carefully.",
+                        "bn": "মিসেস লেহমান, এখানে আপনার ডিসচার্জ রিপোর্ট। দয়া করে এটি মনোযোগ সহকারে পড়ুন।",
+                        "hi": "श्रीमती लेहमन, यह आपकी डिस्चार्ज रिपोर्ट है। कृपया इसे ध्यान से पढ़ें।",
+                        "ur": "محترمہ لیمان، یہاں آپ کی ڈسچارج رپورٹ ہے۔ براہ کرم اسے غور سے پڑھیں۔",
+                        "tr": "Bayan Lehmann, işte taburcu raporunuz. Lütfen dikkatlice okuyun."
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Vielen Dank, Herr Dr. Klein.",
+                    "translation": {
+                        "en": "Thank you very much, Dr. Klein.",
+                        "bn": "আপনাকে অনেক ধন্যবাদ, ডঃ ক্লেইন।",
+                        "hi": "आपका बहुत-बहुत धन्यवाद, डॉ. क्लेन।",
+                        "ur": "آپ کا بہت بہت شکریہ، ڈاکٹر کلین۔",
+                        "tr": "Çok teşekkür ederim, Dr. Klein."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Haben Sie noch Fragen zu Ihrer Medikation oder den weiteren Schritten? Die Akte wird dann archiviert.",
+                    "translation": {
+                        "en": "Do you have any questions about your medication or further steps? The file will then be archived.",
+                        "bn": "আপনার ওষুধ বা আরও পদক্ষেপ সম্পর্কে আপনার কোনও প্রশ্ন আছে? তারপর ফাইলটি সংরক্ষণ করা হবে।",
+                        "hi": "क्या आपके पास अपनी दवा या आगे के कदमों के बारे में कोई प्रश्न हैं? फिर फ़ाइल को संग्रहित किया जाएगा।",
+                        "ur": "کیا آپ کے پاس آپ کی دوا یا مزید اقدامات کے بارے میں کوئی سوالات ہیں؟ پھر فائل کو محفوظ کیا جائے گا۔",
+                        "tr": "İlaçlarınız veya sonraki adımlar hakkında herhangi bir sorunuz var mı? Dosya daha sonra arşivlendirilecek."
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Nein, ich glaube, alles ist klar. Vielen Dank für alles.",
+                    "translation": {
+                        "en": "No, I think everything is clear. Thank you for everything.",
+                        "bn": "না, আমি মনে করি সবকিছু পরিষ্কার। সবকিছুর জন্য ধন্যবাদ।",
+                        "hi": "नहीं, मुझे लगता है कि सब कुछ स्पष्ट है। सब कुछ के लिए धन्यवाद।",
+                        "ur": "نہیں، مجھے لگتا ہے کہ سب کچھ واضح ہے۔ ہر چیز کے لیے آپ کا شکریہ۔",
+                        "tr": "Hayır, sanırım her şey açık. Her şey için teşekkürler."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Gern geschehen. Wir wünschen Ihnen alles Gute! Bitte vergessen Sie nicht, den Erhalt des Entlassungsberichts mit Ihrer Unterschrift zu bestätigen.",
+                    "translation": {
+                        "en": "You're welcome. We wish you all the best! Please don't forget to confirm receipt of the discharge report with your signature.",
+                        "bn": "আপনাকে স্বাগতম। আমরা আপনার জন্য শুভকামনা জানাই! আপনার স্বাক্ষর সহ ডিসচার্জ রিপোর্টের প্রাপ্তি নিশ্চিত করতে ভুলবেন না।",
+                        "hi": "आपका स्वागत है। हम आपके लिए शुभकामनाएं देते हैं! कृपया अपने हस्ताक्षर के साथ डिस्चार्ज रिपोर्ट की प्राप्ति की पुष्टि करना न भूलें।",
+                        "ur": "آپ کا استقبال ہے۔ ہم آپ کے لیے نیک خواہشات کا اظہار کرتے ہیں! براہ کرم اپنے دستخط کے ساتھ ڈسچارج رپورٹ کی وصولی کی تصدیق کرنا نہ بھولیں۔",
+                        "tr": "Rica ederim. Size en iyisini diliyoruz! Lütfen taburcu raporunu aldığınızı imzanızla onaylamayı unutmayın."
+                    }
+                }
+            ],
+            "id": "d34_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist der 'Pflegebericht'?",
+                "en": "What is the 'Pflegebericht'?",
+                "bn": "'Pflegebericht' মানে কি?",
+                "hi": "'Pflegebericht' क्या है?",
+                "ur": "'Pflegebericht' کیا ہے؟",
+                "tr": "'Pflegebericht' nedir?"
+            },
+            "options": [
+                "Ein Dokument, das die medizinische Geschichte des Patienten zusammenfasst.",
+                "Ein Dokument, das die durchgeführte Pflege und Beobachtungen beschreibt.",
+                "Ein Diagramm, das die Vitalfunktionen des Patienten anzeigt.",
+                "Ein Formular zur Einwilligung des Patienten."
+            ],
+            "correctAnswer": "Ein Dokument, das die durchgeführte Pflege und Beobachtungen beschreibt.",
+            "explanation": {
+                "en": "The 'Pflegebericht' is a document detailing the care provided to the patient and any observations made.",
+                "bn": "'Pflegebericht' হল একটি নথি যা রোগীকে দেওয়া যত্ন এবং করা পর্যবেক্ষণগুলির বিবরণ দেয়।",
+                "hi": "'Pflegebericht' एक दस्तावेज है जो रोगी को प्रदान की गई देखभाल और किए गए अवलोकनों का विवरण देता है।",
+                "ur": "'Pflegebericht' ایک دستاویز ہے جو مریض کو فراہم کی جانے والی دیکھ بھال اور کی جانے والی مشاہدات کی تفصیلات بتاتا ہے۔",
+                "tr": "'Pflegebericht', hastaya sağlanan bakımı ve yapılan gözlemleri detaylandıran bir belgedir."
+            },
+            "points": 10,
+            "id": "e34_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist der Zweck der 'Dokumentation' im medizinischen Bereich?",
+                "en": "What is the purpose of 'Dokumentation' in the medical field?",
+                "bn": "চিকিৎসা ক্ষেত্রে 'Dokumentation' এর উদ্দেশ্য কী?",
+                "hi": "चिकित्सा क्षेत्र में 'Dokumentation' का उद्देश्य क्या है?",
+                "ur": "طبی میدان میں 'Dokumentation' کا مقصد کیا ہے؟",
+                "tr": "Tıp alanında 'Dokumentation'ın amacı nedir?"
+            },
+            "options": [
+                "Nur zur Abrechnung mit den Krankenkassen.",
+                "Zur Verbesserung der Kommunikation zwischen den Behandelnden und zur Gewährleistung der Kontinuität der Behandlung.",
+                "Um Patienteninformationen geheim zu halten.",
+                "Um medizinische Forschung zu erleichtern."
+            ],
+            "correctAnswer": "Zur Verbesserung der Kommunikation zwischen den Behandelnden und zur Gewährleistung der Kontinuität der Behandlung.",
+            "explanation": {
+                "en": "Documentation is crucial for communication between healthcare professionals and ensuring continuity of care.",
+                "bn": "স্বাস্থ্যসেবা পেশাদারদের মধ্যে যোগাযোগের উন্নতি এবং যত্নের ধারাবাহিকতা নিশ্চিত করার জন্য ডকুমেন্টেশন অত্যন্ত গুরুত্বপূর্ণ।",
+                "hi": "स्वास्थ्य सेवा पेशेवरों के बीच संचार में सुधार और देखभाल की निरंतरता सुनिश्चित करने के लिए दस्तावेज़ीकरण महत्वपूर्ण है।",
+                "ur": "صحت کی دیکھ بھال کے پیشہ ور افراد کے درمیان مواصلات کو بہتر بنانے اور دیکھ بھال کے تسلسل کو یقینی بنانے کے لیے دستاویزات بہت اہم ہیں۔",
+                "tr": "Dokümantasyon, sağlık profesyonelleri arasındaki iletişimi geliştirmek ve bakımın sürekliliğini sağlamak için çok önemlidir."
+            },
+            "points": 10,
+            "id": "e34_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was beinhaltet typischerweise eine 'Akte'?",
+                "en": "What does an 'Akte' typically contain?",
+                "bn": "একটি 'Akte' সাধারণত কি ধারণ করে?",
+                "hi": "एक 'Akte' में आम तौर पर क्या शामिल होता है?",
+                "ur": "ایک 'Akte' میں عام طور پر کیا شامل ہوتا ہے؟",
+                "tr": "Bir 'Akte' genellikle ne içerir?"
+            },
+            "options": [
+                "Nur die persönlichen Daten des Patienten.",
+                "Sämtliche medizinische Informationen des Patienten, wie Diagnosen, Behandlungen und Befunde.",
+                "Nur die Rechnungen des Patienten.",
+                "Nur die Allergien des Patienten."
+            ],
+            "correctAnswer": "Sämtliche medizinische Informationen des Patienten, wie Diagnosen, Behandlungen und Befunde.",
+            "explanation": {
+                "en": "An 'Akte' contains all the patient's medical information including diagnoses, treatments, and findings.",
+                "bn": "একটি 'Akte' রোগীর সমস্ত চিকিৎসা তথ্য ধারণ করে যার মধ্যে রোগ নির্ণয়, চিকিৎসা এবং ফলাফল অন্তর্ভুক্ত।",
+                "hi": "एक 'Akte' में रोगी की सभी चिकित्सा जानकारी होती है जिसमें निदान, उपचार और निष्कर्ष शामिल हैं।",
+                "ur": "ایک 'Akte' میں مریض کی تمام طبی معلومات ہوتی ہیں جن میں تشخیص، علاج اور نتائج شامل ہیں۔",
+                "tr": "Bir 'Akte', tanı, tedavi ve bulgular dahil olmak üzere hastanın tüm tıbbi bilgilerini içerir."
+            },
+            "points": 10,
+            "id": "e34_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist eine 'Kurve' im medizinischen Kontext?",
+                "en": "What is a 'Kurve' in a medical context?",
+                "bn": "চিকিৎসা প্রেক্ষাপটে 'Kurve' কি?",
+                "hi": "चिकित्सा संदर्भ में 'Kurve' क्या है?",
+                "ur": "طبی تناظر میں 'Kurve' کیا ہے؟",
+                "tr": "Tıbbi bağlamda 'Kurve' nedir?"
+            },
+            "options": [
+                "Eine Liste der Medikamente.",
+                "Ein grafische Darstellung von Vitalfunktionen über die Zeit.",
+                "Eine Zusammenfassung des Krankenhausaufenthalts.",
+                "Ein Terminplan für Untersuchungen."
+            ],
+            "correctAnswer": "Ein grafische Darstellung von Vitalfunktionen über die Zeit.",
+            "explanation": {
+                "en": "A 'Kurve' is a graphical representation of vital signs over time, like temperature, pulse, and blood pressure.",
+                "bn": "একটি 'Kurve' হল সময়ের সাথে সাথে গুরুত্বপূর্ণ লক্ষণগুলির গ্রাফিকাল উপস্থাপনা, যেমন তাপমাত্রা, নাড়ি এবং রক্তচাপ।",
+                "hi": "एक 'Kurve' समय के साथ महत्वपूर्ण संकेतों का ग्राफिकल प्रतिनिधित्व है, जैसे तापमान, नाड़ी और रक्तचाप।",
+                "ur": "ایک 'Kurve' وقت کے ساتھ اہم علامات کی گرافیکل نمائندگی ہے، جیسے درجہ حرارت، نبض اور بلڈ پریشر۔",
+                "tr": "Bir 'Kurve', zamanla sıcaklık, nabız ve tansiyon gibi hayati belirtilerin grafiksel bir temsilidir."
+            },
+            "points": 10,
+            "id": "e34_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Warum ist die 'Unterschrift' in der medizinischen Dokumentation wichtig?",
+                "en": "Why is the 'Unterschrift' important in medical documentation?",
+                "bn": "চিকিৎসা নথিতে 'Unterschrift' কেন গুরুত্বপূর্ণ?",
+                "hi": "चिकित्सा दस्तावेज़ में 'Unterschrift' क्यों महत्वपूर्ण है?",
+                "ur": "طبی دستاویزات میں 'Unterschrift' کیوں اہم ہے؟",
+                "tr": "Tıbbi dokümantasyonda 'Unterschrift' neden önemlidir?"
+            },
+            "options": [
+                "Sie dient nur zur Dekoration des Dokuments.",
+                "Sie bestätigt die Richtigkeit und Verantwortlichkeit des Dokuments.",
+                "Sie dient als Passwort für den Zugriff auf die Akte.",
+                "Sie ist unwichtig, da die Dokumentation elektronisch erfolgt."
+            ],
+            "correctAnswer": "Sie bestätigt die Richtigkeit und Verantwortlichkeit des Dokuments.",
+            "explanation": {
+                "en": "The 'Unterschrift' confirms the accuracy and accountability of the document.",
+                "bn": "'Unterschrift' নথির নির্ভুলতা এবং জবাবদিহিতা নিশ্চিত করে।",
+                "hi": "'Unterschrift' दस्तावेज़ की सटीकता और जवाबदेही की पुष्टि करता है।",
+                "ur": "'Unterschrift' دستاویز کی درستگی اور جوابدہی کی تصدیق کرتا ہے۔",
+                "tr": "'Unterschrift', belgenin doğruluğunu ve hesap verebilirliğini onaylar."
+            },
+            "points": 10,
+            "id": "e34_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was versteht man unter 'Verlauf' in der medizinischen Dokumentation?",
+                "en": "What is meant by 'Verlauf' in medical documentation?",
+                "bn": "চিকিৎসা নথিতে 'Verlauf' বলতে কী বোঝায়?",
+                "hi": "चिकित्सा दस्तावेज़ में 'Verlauf' का क्या अर्थ है?",
+                "ur": "طبی دستاویزات میں 'Verlauf' سے کیا مراد ہے؟",
+                "tr": "Tıbbi dokümantasyonda 'Verlauf' ne anlama gelir?"
+            },
+            "options": [
+                "Die Anzahl der Patienten in einem Krankenhaus.",
+                "Die Entwicklung der Krankheit oder des Zustandes des Patienten über die Zeit.",
+                "Die Liste der Ärzte, die den Patienten behandelt haben.",
+                "Der Name des Krankenhauses."
+            ],
+            "correctAnswer": "Die Entwicklung der Krankheit oder des Zustandes des Patienten über die Zeit.",
+            "explanation": {
+                "en": "'Verlauf' refers to the progression of the patient's illness or condition over time.",
+                "bn": "'Verlauf' বলতে সময়ের সাথে সাথে রোগীর অসুস্থতা বা অবস্থার অগ্রগতি বোঝায়।",
+                "hi": "'Verlauf' का अर्थ है समय के साथ रोगी की बीमारी या स्थिति की प्रगति।",
+                "ur": "'Verlauf' سے مراد وقت کے ساتھ ساتھ مریض کی بیماری یا حالت کی پیشرفت ہے۔",
+                "tr": "'Verlauf', hastanın hastalığının veya durumunun zaman içindeki ilerlemesini ifade eder."
+            },
+            "points": 10,
+            "id": "e34_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage über elektronische Patientenakten (ePA) ist korrekt?",
+                "en": "Which statement about electronic patient records (ePA) is correct?",
+                "bn": "বৈদ্যুতিন রোগীর রেকর্ড (ePA) সম্পর্কে কোন বিবৃতিটি সঠিক?",
+                "hi": "इलेक्ट्रॉनिक रोगी रिकॉर्ड (ePA) के बारे में कौन सा कथन सही है?",
+                "ur": "الیکٹرانک مریض کے ریکارڈ (ePA) کے بارے میں کون سا بیان درست ہے؟",
+                "tr": "Elektronik hasta kayıtları (ePA) hakkında hangi ifade doğrudur?"
+            },
+            "options": [
+                "ePAs sind weniger sicher als Papierakten.",
+                "ePAs ermöglichen einen schnelleren und einfacheren Zugriff auf Patienteninformationen.",
+                "ePAs werden ausschließlich von Krankenhäusern verwendet.",
+                "ePAs enthalten keine medizinischen Informationen."
+            ],
+            "correctAnswer": "ePAs ermöglichen einen schnelleren und einfacheren Zugriff auf Patienteninformationen.",
+            "explanation": {
+                "en": "Electronic patient records allow for faster and easier access to patient information.",
+                "bn": "বৈদ্যুতিন রোগীর রেকর্ড রোগীর তথ্যে দ্রুত এবং সহজে প্রবেশাধিকার করতে দেয়।",
+                "hi": "इलेक्ट्रॉनिक रोगी रिकॉर्ड रोगी की जानकारी तक त्वरित और आसान पहुंच की अनुमति देते हैं।",
+                "ur": "الیکٹرانک مریض کے ریکارڈ مریض کی معلومات تک فوری اور آسان رسائی کی اجازت دیتے ہیں۔",
+                "tr": "Elektronik hasta kayıtları, hasta bilgilerine daha hızlı ve kolay erişim sağlar."
+            },
+            "points": 10,
+            "id": "e34_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was sollte im 'Pflegebericht' dokumentiert werden?",
+                "en": "What should be documented in the 'Pflegebericht'?",
+                "bn": "'Pflegebericht'-এ কী নথিভুক্ত করা উচিত?",
+                "hi": "'Pflegebericht' में क्या दस्तावेज़ित किया जाना चाहिए?",
+                "ur": "'Pflegebericht' میں کیا دستاویز کیا جانا چاہیے؟",
+                "tr": "'Pflegebericht'te ne belgelenmelidir?"
+            },
+            "options": [
+                "Nur die Namen der beteiligten Ärzte.",
+                "Alle durchgeführten Pflegemaßnahmen, Beobachtungen und Veränderungen des Patientenzustands.",
+                "Die private Adresse des Patienten.",
+                "Die Kosten der Behandlung."
+            ],
+            "correctAnswer": "Alle durchgeführten Pflegemaßnahmen, Beobachtungen und Veränderungen des Patientenzustands.",
+            "explanation": {
+                "en": "The 'Pflegebericht' should document all care measures taken, observations made, and changes in the patient's condition.",
+                "bn": "'Pflegebericht'-এ রোগীর অবস্থার সমস্ত নেওয়া পরিচর্যা ব্যবস্থা, পর্যবেক্ষণ এবং পরিবর্তন নথিভুক্ত করা উচিত।",
+                "hi": "'Pflegebericht' में रोगी की स्थिति में उठाए गए सभी देखभाल उपाय, अवलोकन और परिवर्तन दस्तावेज़ित किए जाने चाहिए।",
+                "ur": "'Pflegebericht' میں مریض کی حالت میں اٹھائے گئے تمام نگہداشت کے اقدامات، مشاہدات اور تبدیلیاں دستاویز کی جانی چاہئیں۔",
+                "tr": "'Pflegebericht', hastanın durumunda alınan tüm bakım önlemlerini, yapılan gözlemleri ve değişiklikleri belgelendirmelidir."
+            },
+            "points": 10,
+            "id": "e34_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein wichtiger Aspekt bei der Dokumentation?",
+                "en": "What is an important aspect of documentation?",
+                "bn": "নথিপত্রের একটি গুরুত্বপূর্ণ দিক কী?",
+                "hi": "दस्तावेज़ का एक महत्वपूर्ण पहलू क्या है?",
+                "ur": "دستاویزات کا ایک اہم پہلو کیا ہے؟",
+                "tr": "Dokümantasyonun önemli bir yönü nedir?"
+            },
+            "options": [
+                "Nur die positiven Aspekte zu dokumentieren.",
+                "Objektivität und Genauigkeit.",
+                "Informationen zu erfinden, um den Bericht interessanter zu gestalten.",
+                "Subjektive Meinungen zu äußern."
+            ],
+            "correctAnswer": "Objektivität und Genauigkeit.",
+            "explanation": {
+                "en": "Objectivity and accuracy are essential for good documentation.",
+                "bn": "ভাল নথিপত্রের জন্য বস্তুনিষ্ঠতা এবং নির্ভুলতা অপরিহার্য।",
+                "hi": "अच्छे दस्तावेज़ के लिए वस्तुनिष्ठता और सटीकता आवश्यक है।",
+                "ur": "اچھے دستاویزات کے لیے معروضیت اور درستگی ضروری ہے۔",
+                "tr": "İyi bir dokümantasyon için nesnellik ve doğruluk esastır."
+            },
+            "points": 10,
+            "id": "e34_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Informationen sind KEINE Bestandteile einer Patientenakte?",
+                "en": "Which information is NOT part of a patient file?",
+                "bn": "কোন তথ্য রোগীর ফাইলের অংশ নয়?",
+                "hi": "कौन सी जानकारी रोगी फ़ाइल का हिस्सा नहीं है?",
+                "ur": "مریض کی فائل کا حصہ کون سی معلومات نہیں ہے؟",
+                "tr": "Hangi bilgiler hasta dosyasının bir parçası değildir?"
+            },
+            "options": [
+                "Vorerkrankungen",
+                "Befunde von Untersuchungen",
+                "Bankverbindung des Patienten",
+                "Medikation"
+            ],
+            "correctAnswer": "Bankverbindung des Patienten",
+            "explanation": {
+                "en": "The patient's bank details are not part of the patient file.",
+                "bn": "রোগীর ব্যাংক বিবরণ রোগীর ফাইলের অংশ নয়।",
+                "hi": "रोगी का बैंक विवरण रोगी फ़ाइल का हिस्सा नहीं है।",
+                "ur": "مریض کی بینک تفصیلات مریض کی فائل کا حصہ نہیں ہیں۔",
+                "tr": "Hastanın banka bilgileri hasta dosyasının bir parçası değildir."
+            },
+            "points": 10,
+            "id": "e34_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die _________ dokumentiert die Vitalzeichen des Patienten über einen bestimmten Zeitraum.",
+                "en": "The _________ documents the patient's vital signs over a specific period.",
+                "bn": "_________ একটি নির্দিষ্ট সময়ের মধ্যে রোগীর অত্যাবশ্যকীয় লক্ষণগুলি নথিভুক্ত করে।",
+                "hi": "_________ एक विशिष्ट अवधि में रोगी के महत्वपूर्ण संकेतों का दस्तावेजीकरण करता है।",
+                "ur": "_________ ایک مخصوص مدت کے دوران مریض کی اہم علامات کو دستاویز کرتا ہے۔",
+                "tr": "_________ hastanın hayati belirtilerini belirli bir süre boyunca belgeler."
+            },
+            "options": [],
+            "correctAnswer": "Kurve",
+            "explanation": {
+                "en": "The 'Kurve' (chart) is used to track vital signs.",
+                "bn": "ভাইটাল লক্ষণগুলি ট্র্যাক করতে 'Kurve' (চার্ট) ব্যবহৃত হয়।",
+                "hi": "महत्वपूर्ण संकेतों को ट्रैक करने के लिए 'Kurve' (चार्ट) का उपयोग किया जाता है।",
+                "ur": "اہم علامات کو ٹریک کرنے کے لیے 'Kurve' (چارٹ) استعمال کیا جاتا ہے۔",
+                "tr": "Hayati belirtileri izlemek için 'Kurve' (çizelge) kullanılır."
+            },
+            "points": 10,
+            "id": "e34_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Jeder Eintrag in der Patientenakte muss mit einer __________ versehen sein.",
+                "en": "Every entry in the patient record must be provided with a __________.",
+                "bn": "রোগীর রেকর্ডে প্রতিটি এন্ট্রিতে একটি __________ থাকতে হবে।",
+                "hi": "रोगी के रिकॉर्ड में प्रत्येक प्रविष्टि में एक __________ होना चाहिए।",
+                "ur": "مریض کے ریکارڈ میں ہر اندراج میں __________ ہونا چاہیے۔",
+                "tr": "Hasta kaydındaki her giriş __________ ile sağlanmalıdır."
+            },
+            "options": [],
+            "correctAnswer": "Unterschrift",
+            "explanation": {
+                "en": "The 'Unterschrift' (signature) confirms the validity of the entry.",
+                "bn": "'Unterschrift' (স্বাক্ষর) এন্ট্রির বৈধতা নিশ্চিত করে।",
+                "hi": "'Unterschrift' (हस्ताक्षर) प्रविष्टि की वैधता की पुष्टि करता है।",
+                "ur": "'Unterschrift' (دستخط) اندراج کی درستگی کی تصدیق کرتا ہے۔",
+                "tr": "'Unterschrift' (imza) girişin geçerliliğini onaylar."
+            },
+            "points": 10,
+            "id": "e34_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Der _________ gibt Auskunft über den Behandlungsfortschritt des Patienten.",
+                "en": "The _________ provides information about the patient's treatment progress.",
+                "bn": "_________ রোগীর চিকিৎসার অগ্রগতি সম্পর্কে তথ্য প্রদান করে।",
+                "hi": "_________ रोगी की उपचार प्रगति के बारे में जानकारी प्रदान करता है।",
+                "ur": "_________ مریض کی علاج کی پیشرفت کے بارے میں معلومات فراہم کرتا ہے۔",
+                "tr": "_________ hastanın tedavi ilerlemesi hakkında bilgi verir."
+            },
+            "options": [],
+            "correctAnswer": "Verlauf",
+            "explanation": {
+                "en": "The 'Verlauf' (progress) describes the development of the patient's condition.",
+                "bn": "'Verlauf' (অগ্রগতি) রোগীর অবস্থার বিকাশ বর্ণনা করে।",
+                "hi": "'Verlauf' (प्रगति) रोगी की स्थिति के विकास का वर्णन करता है।",
+                "ur": "'Verlauf' (پیش رفت) مریض کی حالت کی ترقی کو بیان کرتا ہے۔",
+                "tr": "'Verlauf' (ilerleme) hastanın durumunun gelişimini açıklar."
+            },
+            "points": 10,
+            "id": "e34_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die gesamte medizinische _________ eines Patienten wird in der Akte aufbewahrt.",
+                "en": "The entire medical _________ of a patient is kept in the file.",
+                "bn": "একজন রোগীর সম্পূর্ণ চিকিৎসা _________ ফাইলে রাখা হয়।",
+                "hi": "एक रोगी की पूरी चिकित्सा _________ फ़ाइल में रखी जाती है।",
+                "ur": "مریض کی پوری طبی _________ فائل میں رکھی جاتی ہے۔",
+                "tr": "Bir hastanın tüm tıbbi _________ dosyada saklanır."
+            },
+            "options": [],
+            "correctAnswer": "Dokumentation",
+            "explanation": {
+                "en": "The entire medical 'Dokumentation' is kept in the file.",
+                "bn": "সম্পূর্ণ চিকিৎসা 'Dokumentation' ফাইলে রাখা হয়।",
+                "hi": "पूरी चिकित्सा 'Dokumentation' फ़ाइल में रखी जाती है।",
+                "ur": "پوری طبی 'Dokumentation' فائل میں رکھی جاتی ہے۔",
+                "tr": "Tüm tıbbi 'Dokumentation' dosyada saklanır."
+            },
+            "points": 10,
+            "id": "e34_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Der _________ wird von Pflegekräften verfasst, um die erbrachte Pflege zu dokumentieren.",
+                "en": "The _________ is written by nurses to document the care provided.",
+                "bn": "প্রদানকৃত যত্ন নথিভুক্ত করার জন্য নার্সদের দ্বারা _________ লেখা হয়।",
+                "hi": "प्रदान की गई देखभाल को दस्तावेज़ित करने के लिए नर्सों द्वारा _________ लिखा जाता है।",
+                "ur": "فراہم کی جانے والی دیکھ بھال کو دستاویز کرنے کے لیے نرسوں کے ذریعے _________ لکھا جاتا ہے۔",
+                "tr": "Sağlanan bakımı belgelemek için hemşireler tarafından _________ yazılır."
+            },
+            "options": [],
+            "correctAnswer": "Pflegebericht",
+            "explanation": {
+                "en": "The 'Pflegebericht' (nursing report) is used by nurses.",
+                "bn": "'Pflegebericht' (নার্সিং রিপোর্ট) নার্সদের দ্বারা ব্যবহৃত হয়।",
+                "hi": "'Pflegebericht' (नर्सिंग रिपोर्ट) नर्सों द्वारा उपयोग किया जाता है।",
+                "ur": "'Pflegebericht' (نرسنگ رپورٹ) نرسوں کے ذریعہ استعمال کیا جاتا ہے۔",
+                "tr": "'Pflegebericht' (hemşirelik raporu) hemşireler tarafından kullanılır."
+            },
+            "points": 10,
+            "id": "e34_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Dokumentation muss vollständig und leserlich sein.",
+                "en": "The documentation must be complete and legible.",
+                "bn": "নথিপত্র সম্পূর্ণ এবং পাঠযোগ্য হতে হবে।",
+                "hi": "दस्तावेज़ पूरा और सुपाठ्य होना चाहिए।",
+                "ur": "دستاویزات مکمل اور واضح ہونی چاہئیں۔",
+                "tr": "Belgeleme eksiksiz ve okunaklı olmalıdır."
+            },
+            "options": [],
+            "correctAnswer": "The documentation must be complete and legible.",
+            "explanation": {
+                "en": "Direct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সরাসরি অনুবাদ।",
+                "hi": "जर्मन वाक्य का सीधा अनुवाद।",
+                "ur": "جرمن جملے کا براہ راست ترجمہ۔",
+                "tr": "Almanca cümlenin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e34_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Bitte unterschreiben Sie hier die Einverständniserklärung.",
+                "en": "Please sign the consent form here.",
+                "bn": "অনুগ্রহ করে এখানে সম্মতির ফর্মে স্বাক্ষর করুন।",
+                "hi": "कृपया सहमति पत्र पर यहाँ हस्ताक्षर करें।",
+                "ur": "برائے مہربانی یہاں رضامندی فارم پر دستخط کریں۔",
+                "tr": "Lütfen buraya onay formunu imzalayın."
+            },
+            "options": [],
+            "correctAnswer": "Please sign the consent form here.",
+            "explanation": {
+                "en": "Direct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সরাসরি অনুবাদ।",
+                "hi": "जर्मन वाक्य का सीधा अनुवाद।",
+                "ur": "جرمن جملے کا براہ راست ترجمہ۔",
+                "tr": "Almanca cümlenin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e34_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Der Pflegebericht enthält detaillierte Informationen über die Medikamentenverabreichung.",
+                "en": "The nursing report contains detailed information about the medication administration.",
+                "bn": "নার্সিং রিপোর্টে ওষুধ প্রশাসনের বিষয়ে বিস্তারিত তথ্য রয়েছে।",
+                "hi": "नर्सिंग रिपोर्ट में दवा प्रशासन के बारे में विस्तृत जानकारी है।",
+                "ur": "نرسنگ رپورٹ میں دوا کی انتظامیہ کے بارے میں تفصیلی معلومات موجود ہیں۔",
+                "tr": "Hemşirelik raporu, ilaç uygulaması hakkında ayrıntılı bilgiler içerir."
+            },
+            "options": [],
+            "correctAnswer": "The nursing report contains detailed information about the medication administration.",
+            "explanation": {
+                "en": "Direct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সরাসরি অনুবাদ।",
+                "hi": "जर्मन वाक्य का सीधा अनुवाद।",
+                "ur": "جرمن جملے کا براہ راست ترجمہ۔",
+                "tr": "Almanca cümlenin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e34_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

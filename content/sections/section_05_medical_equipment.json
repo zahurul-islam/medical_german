@@ -1,15 +1,1594 @@
-{"id":"section_05","phaseId":"phase1","order":5,"titleDe":"Medizinische Geräte","title":{"en":"Medical Equipment","bn":"চিকিৎসা যন্ত্রপাতি","hi":"चिकित्सा उपकरण","ur":"طبی آلات","tr":"Tıbbi Cihazlar"},"level":"A1","estimatedMinutes":25,"vocabulary":[
-{"id":"v05_01","germanTerm":"Stethoskop","article":"das","plural":"Stethoskope","translation":{"en":"Stethoscope","bn":"স্টেথোস্কোপ","hi":"स्टेथोस्कोप","ur":"سٹیتھوسکوپ","tr":"Stetoskop"}},
-{"id":"v05_02","germanTerm":"Thermometer","article":"das","plural":"Thermometer","translation":{"en":"Thermometer","bn":"থার্মোমিটার","hi":"थर्मामीटर","ur":"تھرمامیٹر","tr":"Termometre"}},
-{"id":"v05_03","germanTerm":"Blutdruckmessgerät","article":"das","plural":"Blutdruckmessgeräte","translation":{"en":"Blood Pressure Monitor","bn":"ব্লাড প্রেশার মনিটর","hi":"ब्लड प्रेशर मॉनिटर","ur":"بلڈ پریشر مانیٹر","tr":"Tansiyon aleti"}},
-{"id":"v05_04","germanTerm":"Spritze","article":"die","plural":"Spritzen","translation":{"en":"Syringe","bn":"সিরিঞ্জ","hi":"सिरिंज","ur":"سرنج","tr":"Şırınga"}},
-{"id":"v05_05","germanTerm":"Infusion","article":"die","plural":"Infusionen","translation":{"en":"IV Drip","bn":"স্যালাইন","hi":"IV ड्रिप","ur":"ڈرپ","tr":"Serum"}},
-{"id":"v05_06","germanTerm":"Kanüle","article":"die","plural":"Kanülen","translation":{"en":"Cannula","bn":"ক্যানুলা","hi":"कैनुला","ur":"کینولا","tr":"Kanül"}},
-{"id":"v05_07","germanTerm":"Verband","article":"der","plural":"Verbände","translation":{"en":"Bandage","bn":"ব্যান্ডেজ","hi":"पट्टी","ur":"پٹی","tr":"Bandaj"}},
-{"id":"v05_08","germanTerm":"Skalpell","article":"das","plural":"Skalpelle","translation":{"en":"Scalpel","bn":"স্ক্যালপেল","hi":"स्केलपेल","ur":"چاقو","tr":"Bistüri"}},
-{"id":"v05_09","germanTerm":"Pflaster","article":"das","plural":"Pflaster","translation":{"en":"Plaster/Band-aid","bn":"প্লাস্টার","hi":"प्लास्टर","ur":"پلاسٹر","tr":"Yara bandı"}},
-{"id":"v05_10","germanTerm":"Beatmungsgerät","article":"das","plural":"Beatmungsgeräte","translation":{"en":"Ventilator","bn":"ভেন্টিলেটর","hi":"वेंटिलेटर","ur":"وینٹی لیٹر","tr":"Solunum cihazı"}}
-],"dialogues":[{"id":"d05_01","title":{"en":"Preparing for Procedure"},"lines":[
-{"speaker":"Arzt","germanText":"Ich brauche eine Spritze und Kanüle.","translation":{"en":"I need a syringe and cannula."}},
-{"speaker":"Schwester","germanText":"Hier, bitte.","translation":{"en":"Here you are."}}
-]}],"exercises":[{"id":"e05_01","type":"multipleChoice","question":{"en":"What is 'Stethoskop'?"},"options":["Stethoscope","Thermometer","Syringe"],"correctAnswer":"Stethoscope","points":10}]}
+{
+    "id": "section_05",
+    "phaseId": "phase1",
+    "order": 5,
+    "titleDe": "Medizinische Geräte",
+    "title": {
+        "en": "Medical Equipment: Stethoscope, Thermometer, Blood Pressure Monitor, Syringe, Infusion, Catheter, Scalpel, Clamp",
+        "bn": "মেডিকেল সরঞ্জাম: স্টেথোস্কোপ, থার্মোমিটার, ব্লাড প্রেসার মনিটর, সিরিঞ্জ, ইনফিউশন, ক্যাথেটার, স্ক্যাল্পেল, ক্ল্যাম্প",
+        "hi": "चिकित्सा उपकरण: स्टेथोस्कोप, थर्मामीटर, रक्तचाप मॉनिटर, सिरिंज, इन्फ्यूजन, कैथेटर, स्केलपेल, क्लैम्प",
+        "ur": "طبی آلات: سٹیٹوسکوپ، تھرمامیٹر، بلڈ پریشر مانیٹر، سرنج، انفیوژن، کیتھیٹر، سکلپل، کلیمپ",
+        "tr": "Tıbbi Ekipman: Steteskop, Termometre, Kan Basıncı Ölçer, Şırınga, İnfüzyon, Kateter, Bisturi, Kıskaç",
+        "de": "Medizinische Geräte: Stethoskop, Thermometer, Blutdruckmessgerät, Spritze, Infusion, Katheter, Skalpell, Klemme"
+    },
+    "description": {
+        "en": "This section introduces essential medical equipment and their German terminology.",
+        "bn": "এই বিভাগে প্রয়োজনীয় চিকিৎসা সরঞ্জাম এবং তাদের জার্মান পরিভাষা উপস্থাপন করা হয়েছে।",
+        "hi": "यह अनुभाग आवश्यक चिकित्सा उपकरणों और उनकी जर्मन शब्दावली का परिचय देता है।",
+        "ur": "یہ سیکشن ضروری طبی آلات اور ان کی جرمن اصطلاحات متعارف کراتا ہے۔",
+        "tr": "Bu bölüm, temel tıbbi ekipmanları ve bunların Almanca terminolojisini tanıtmaktadır.",
+        "de": "Dieser Abschnitt stellt wichtige medizinische Geräte und ihre deutsche Terminologie vor."
+    },
+    "level": "A1",
+    "estimatedMinutes": 45,
+    "isPremium": false,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, you will learn the names of common medical equipment in German. This knowledge is crucial for effective communication in a German-speaking medical environment.",
+            "bn": "এই বিভাগে, আপনি জার্মান ভাষায় সাধারণ চিকিৎসা সরঞ্জামের নাম শিখবেন। জার্মান-ভাষী চিকিৎসা পরিবেশে কার্যকর যোগাযোগের জন্য এই জ্ঞান অত্যন্ত গুরুত্বপূর্ণ।",
+            "hi": "इस अनुभाग में, आप जर्मन में सामान्य चिकित्सा उपकरणों के नाम सीखेंगे। जर्मन भाषी चिकित्सा वातावरण में प्रभावी संचार के लिए यह ज्ञान महत्वपूर्ण है।",
+            "ur": "اس سیکشن میں، آپ جرمن میں عام طبی آلات کے نام سیکھیں گے۔ جرمن بولنے والے طبی ماحول میں مؤثر مواصلات کے لیے یہ علم بہت ضروری ہے۔",
+            "tr": "Bu bölümde, Almanca'da yaygın tıbbi ekipmanların isimlerini öğreneceksiniz. Bu bilgi, Almanca konuşulan bir tıbbi ortamda etkili iletişim için çok önemlidir.",
+            "de": "In diesem Abschnitt lernen Sie die Namen gängiger medizinischer Geräte auf Deutsch. Dieses Wissen ist entscheidend für eine effektive Kommunikation im deutschsprachigen medizinischen Umfeld."
+        },
+        "grammarFocus": {
+            "en": [
+                "Article usage with medical nouns (der, die, das).",
+                "Accusative and dative cases with prepositions in a medical context (e.g., 'mit dem Stethoskop')."
+            ],
+            "bn": [
+                "চিকিৎসা সংক্রান্ত বিশেষ্যগুলির সাথে আর্টিকেল ব্যবহার (der, die, das)।",
+                "চিকিৎসা প্রেক্ষাপটে উপসর্গ সহ accusative এবং dative কারক (যেমন, 'mit dem Stethoskop')।"
+            ],
+            "hi": [
+                "चिकित्सा संज्ञाओं के साथ लेख का उपयोग (der, die, das)।",
+                "चिकित्सा संदर्भ में पूर्वसर्गों के साथ कर्म कारक और संप्रदान कारक (जैसे, 'mit dem Stethoskop')।"
+            ],
+            "ur": [
+                "طبی اسموں کے ساتھ آرٹیکل کا استعمال (der, die, das)۔",
+                "طبی سیاق و سباق میں حرفِ جار کے ساتھ مفعولی اور اضافی حالتیں (مثال کے طور پر، 'mit dem Stethoskop')۔"
+            ],
+            "tr": [
+                "Tıbbi isimlerle kullanılan artikeller (der, die, das).",
+                "Tıbbi bağlamda edatlarla birlikte akuzatif ve datif halleri (örn., 'mit dem Stethoskop')."
+            ],
+            "de": [
+                "Artikelgebrauch bei medizinischen Nomen (der, die, das).",
+                "Akkusativ- und Dativfälle mit Präpositionen im medizinischen Kontext (z.B. 'mit dem Stethoskop')."
+            ]
+        },
+        "culturalNotes": {
+            "en": "German hospitals are known for their high standards of hygiene and advanced medical technology.",
+            "bn": "জার্মান হাসপাতালগুলি তাদের উচ্চ মানের স্বাস্থ্যবিধি এবং উন্নত চিকিৎসা প্রযুক্তির জন্য পরিচিত।",
+            "hi": "जर्मन अस्पताल स्वच्छता और उन्नत चिकित्सा प्रौद्योगिकी के उच्च मानकों के लिए जाने जाते हैं।",
+            "ur": "جرمن ہسپتال حفظان صحت اور جدید طبی ٹیکنالوجی کے اعلیٰ معیار کے لیے جانے جاتے ہیں۔",
+            "tr": "Alman hastaneleri yüksek hijyen standartları ve gelişmiş tıbbi teknolojileri ile bilinir.",
+            "de": "Deutsche Krankenhäuser sind bekannt für ihre hohen Hygienestandards und fortschrittliche Medizintechnik."
+        },
+        "summary": {
+            "en": "This section covered essential German vocabulary related to common medical equipment used in healthcare settings.",
+            "bn": "এই বিভাগে স্বাস্থ্যসেবা সেটিংগুলিতে ব্যবহৃত সাধারণ চিকিৎসা সরঞ্জাম সম্পর্কিত প্রয়োজনীয় জার্মান শব্দভাণ্ডার আলোচনা করা হয়েছে।",
+            "hi": "इस अनुभाग में स्वास्थ्य सेवा सेटिंग्स में उपयोग किए जाने वाले सामान्य चिकित्सा उपकरणों से संबंधित आवश्यक जर्मन शब्दावली को शामिल किया गया है।",
+            "ur": "اس سیکشن میں صحت کی دیکھ بھال کے مراکز میں استعمال ہونے والے عام طبی آلات سے متعلق ضروری جرمن الفاظ کا احاطہ کیا گیا ہے۔",
+            "tr": "Bu bölümde, sağlık hizmeti ortamlarında kullanılan yaygın tıbbi ekipmanlarla ilgili temel Almanca kelime dağarcığı ele alınmıştır.",
+            "de": "Dieser Abschnitt behandelte grundlegende deutsche Vokabeln im Zusammenhang mit gängigen medizinischen Geräten, die im Gesundheitswesen verwendet werden."
+        },
+        "learningObjectives": [
+            "Identify common medical equipment by their German names.",
+            "Use the correct articles (der, die, das) with medical nouns.",
+            "Understand basic phrases involving medical equipment in a clinical setting.",
+            "Recognize cultural differences in the use of medical equipment."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "Stethoskop",
+            "article": "das",
+            "plural": "die Stethoskope",
+            "pronunciation": "/ˌsteːtoˈskoːp/",
+            "category": "noun",
+            "translation": {
+                "en": "Stethoscope",
+                "bn": "স্টেথোস্কোপ",
+                "hi": "स्टेथोस्कोप",
+                "ur": "سٹیٹوسکوپ",
+                "tr": "Stetoskop"
+            },
+            "exampleSentence": "Der Arzt hörte die Lunge des Patienten mit dem Stethoskop ab.",
+            "exampleTranslation": {
+                "en": "The doctor listened to the patient's lungs with the stethoscope.",
+                "bn": "ডাক্তার স্টেথোস্কোপ দিয়ে রোগীর ফুসফুস পরীক্ষা করলেন।",
+                "hi": "डॉक्टर ने स्टेथोस्कोप से मरीज के फेफड़ों की जांच की।",
+                "ur": "ڈاکٹر نے سٹیٹوسکوپ سے مریض کے پھیپھڑوں کی جانچ کی۔",
+                "tr": "Doktor hastanın akciğerlerini stetoskopla dinledi."
+            },
+            "id": "v05_01"
+        },
+        {
+            "germanTerm": "Thermometer",
+            "article": "das",
+            "plural": "die Thermometer",
+            "pronunciation": "/tɛʁˈmoːmeːtɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "Thermometer",
+                "bn": "থার্মোমিটার",
+                "hi": "थर्मामीटर",
+                "ur": "تھرما میٹر",
+                "tr": "Termometre"
+            },
+            "exampleSentence": "Bitte messen Sie die Temperatur des Kindes mit dem Thermometer.",
+            "exampleTranslation": {
+                "en": "Please measure the child's temperature with the thermometer.",
+                "bn": "দয়া করে থার্মোমিটার দিয়ে শিশুর তাপমাত্রা মাপুন।",
+                "hi": "कृपया थर्मामीटर से बच्चे का तापमान मापें।",
+                "ur": "براہ کرم تھرما میٹر سے بچے کا درجہ حرارت ماپیں۔",
+                "tr": "Lütfen çocuğun ateşini termometre ile ölçün."
+            },
+            "id": "v05_02"
+        },
+        {
+            "germanTerm": "Blutdruckmessgerät",
+            "article": "das",
+            "plural": "die Blutdruckmessgeräte",
+            "pronunciation": "/ˈbluːtdʁʊkmɛsˌɡeːʁɛt/",
+            "category": "noun",
+            "translation": {
+                "en": "Blood pressure monitor",
+                "bn": "রক্তচাপ মাপার যন্ত্র",
+                "hi": "ब्लड प्रेशर मॉनिटर",
+                "ur": "بلڈ پریشر مانیٹر",
+                "tr": "Tansiyon ölçme aleti"
+            },
+            "exampleSentence": "Wir überprüfen Ihren Blutdruck mit dem Blutdruckmessgerät.",
+            "exampleTranslation": {
+                "en": "We will check your blood pressure with the blood pressure monitor.",
+                "bn": "আমরা রক্তচাপ মাপার যন্ত্র দিয়ে আপনার রক্তচাপ পরীক্ষা করব।",
+                "hi": "हम ब्लड प्रेशर मॉनिटर से आपका ब्लड प्रेशर जांचेंगे।",
+                "ur": "ہم بلڈ پریشر مانیٹر سے آپ کا بلڈ پریشر چیک کریں گے۔",
+                "tr": "Tansiyonunuzu tansiyon ölçme aletiyle kontrol edeceğiz."
+            },
+            "id": "v05_03"
+        },
+        {
+            "germanTerm": "Spritze",
+            "article": "die",
+            "plural": "die Spritzen",
+            "pronunciation": "/ˈʃpʁɪtsə/",
+            "category": "noun",
+            "translation": {
+                "en": "Syringe",
+                "bn": "সিরিঞ্জ",
+                "hi": "सीरिंज",
+                "ur": "سرنج",
+                "tr": "Şırınga"
+            },
+            "exampleSentence": "Die Krankenschwester bereitet die Spritze für die Impfung vor.",
+            "exampleTranslation": {
+                "en": "The nurse prepares the syringe for the vaccination.",
+                "bn": "নার্স ভ্যাকসিনের জন্য সিরিঞ্জ প্রস্তুত করছেন।",
+                "hi": "नर्स टीकाकरण के लिए सीरिंज तैयार कर रही है।",
+                "ur": "نرس ویکسینیشن کے لیے سرنج تیار کر رہی ہے۔",
+                "tr": "Hemşire aşı için şırıngayı hazırlıyor."
+            },
+            "id": "v05_04"
+        },
+        {
+            "germanTerm": "Infusion",
+            "article": "die",
+            "plural": "die Infusionen",
+            "pronunciation": "/ɪnfuˈzi̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "Infusion",
+                "bn": "ইনফিউশন",
+                "hi": "इन्फ्यूजन",
+                "ur": "انفیوژن",
+                "tr": "İnfüzyon"
+            },
+            "exampleSentence": "Der Patient erhält eine Infusion mit Elektrolyten.",
+            "exampleTranslation": {
+                "en": "The patient is receiving an infusion of electrolytes.",
+                "bn": "রোগী ইলেক্ট্রোলাইটের একটি ইনফিউশন গ্রহণ করছেন।",
+                "hi": "मरीज को इलेक्ट्रोलाइट्स का इन्फ्यूजन मिल रहा है।",
+                "ur": "مریض کو الیکٹرولائٹس کا انفیوژن مل رہا ہے۔",
+                "tr": "Hastaya elektrolit infüzyonu yapılıyor."
+            },
+            "id": "v05_05"
+        },
+        {
+            "germanTerm": "Katheter",
+            "article": "der",
+            "plural": "die Katheter",
+            "pronunciation": "/kaˈteːtɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "Catheter",
+                "bn": "ক্যাথেটার",
+                "hi": "कैथेटर",
+                "ur": "کیتھیٹر",
+                "tr": "Kateter"
+            },
+            "exampleSentence": "Der Arzt legt einen Blasenkatheter.",
+            "exampleTranslation": {
+                "en": "The doctor inserts a urinary catheter.",
+                "bn": "ডাক্তার একটি মূত্রনালী ক্যাথেটার ঢোকান।",
+                "hi": "डॉक्टर एक मूत्र कैथेटर डालते हैं।",
+                "ur": "ڈاکٹر پیشاب کی نالی میں کیتھیٹر ڈالتے ہیں۔",
+                "tr": "Doktor idrar kateteri takıyor."
+            },
+            "id": "v05_06"
+        },
+        {
+            "germanTerm": "Skalpell",
+            "article": "das",
+            "plural": "die Skalpelle",
+            "pronunciation": "/skalˈpɛl/",
+            "category": "noun",
+            "translation": {
+                "en": "Scalpel",
+                "bn": "সার্জিক্যাল ছুরি",
+                "hi": "सर्जिकल चाकू",
+                "ur": "سرجیکل چھری",
+                "tr": "Neşter"
+            },
+            "exampleSentence": "Der Chirurg führte den Schnitt mit dem Skalpell durch.",
+            "exampleTranslation": {
+                "en": "The surgeon made the incision with the scalpel.",
+                "bn": "সার্জন সার্জিক্যাল ছুরি দিয়ে ছেদন করেন।",
+                "hi": "सर्जन ने सर्जिकल चाकू से चीरा लगाया।",
+                "ur": "سرجن نے سرجیکل چھری سے چیرا لگایا۔",
+                "tr": "Cerrah neşter ile kesi yaptı."
+            },
+            "id": "v05_07"
+        },
+        {
+            "germanTerm": "Klemme",
+            "article": "die",
+            "plural": "die Klemmen",
+            "pronunciation": "/ˈklɛmə/",
+            "category": "noun",
+            "translation": {
+                "en": "Clamp",
+                "bn": "ক্ল্যাম্প",
+                "hi": "क्लैंप",
+                "ur": "کلیمپ",
+                "tr": "Kıskaç"
+            },
+            "exampleSentence": "Der Arzt fixierte das Blutgefäß mit einer Klemme.",
+            "exampleTranslation": {
+                "en": "The doctor fixed the blood vessel with a clamp.",
+                "bn": "ডাক্তার একটি ক্ল্যাম্প দিয়ে রক্তনালী স্থির করেন।",
+                "hi": "डॉक्टर ने एक क्लैंप से रक्त वाहिका को ठीक किया।",
+                "ur": "ڈاکٹر نے ایک کلیمپ سے خون کی رگ کو ٹھیک کیا۔",
+                "tr": "Doktor kan damarını bir kıskaç ile sabitledi."
+            },
+            "id": "v05_08"
+        },
+        {
+            "germanTerm": "Mundschutz",
+            "article": "der",
+            "plural": "die Mundschutze",
+            "pronunciation": "/ˈmʊntʃʊts/",
+            "category": "noun",
+            "translation": {
+                "en": "Face mask",
+                "bn": "মুখোশ",
+                "hi": "फेस मास्क",
+                "ur": "چہرے کا ماسک",
+                "tr": "Yüz maskesi"
+            },
+            "exampleSentence": "Das medizinische Personal trägt einen Mundschutz, um sich zu schützen.",
+            "exampleTranslation": {
+                "en": "Medical staff wear a face mask to protect themselves.",
+                "bn": "মেডিকেল কর্মীরা নিজেদের সুরক্ষার জন্য একটি মুখোশ পরেন।",
+                "hi": "चिकित्सा कर्मचारी खुद को बचाने के लिए एक फेस मास्क पहनते हैं।",
+                "ur": "طبی عملہ خود کو بچانے کے لیے چہرے کا ماسک پہنتا ہے۔",
+                "tr": "Sağlık personeli kendilerini korumak için yüz maskesi takar."
+            },
+            "id": "v05_09"
+        },
+        {
+            "germanTerm": "Handschuhe",
+            "article": "die",
+            "plural": "die Handschuhe",
+            "pronunciation": "/ˈhantʃuːə/",
+            "category": "noun",
+            "translation": {
+                "en": "Gloves",
+                "bn": "গ্লাভস",
+                "hi": "दस्ताने",
+                "ur": "دستانے",
+                "tr": "Eldivenler"
+            },
+            "exampleSentence": "Vor der Untersuchung zieht der Arzt sterile Handschuhe an.",
+            "exampleTranslation": {
+                "en": "Before the examination, the doctor puts on sterile gloves.",
+                "bn": "পরীক্ষার আগে ডাক্তার জীবাণুমুক্ত গ্লাভস পরেন।",
+                "hi": "परीक्षा से पहले डॉक्टर स्टेरलाइज्ड दस्ताने पहनते हैं।",
+                "ur": "امتحان سے پہلے ڈاکٹر جراثیم سے پاک دستانے پہنتے ہیں۔",
+                "tr": "Doktor muayeneden önce steril eldivenler giyer."
+            },
+            "id": "v05_10"
+        },
+        {
+            "germanTerm": "Sauerstoffmaske",
+            "article": "die",
+            "plural": "die Sauerstoffmasken",
+            "pronunciation": "/ˈzaʊɐʃtɔfˌmaskə/",
+            "category": "noun",
+            "translation": {
+                "en": "Oxygen mask",
+                "bn": "অক্সিজেন মাস্ক",
+                "hi": "ऑक्सीजन मास्क",
+                "ur": "آکسیجن ماسک",
+                "tr": "Oksijen maskesi"
+            },
+            "exampleSentence": "Der Patient atmet mit einer Sauerstoffmaske.",
+            "exampleTranslation": {
+                "en": "The patient is breathing with an oxygen mask.",
+                "bn": "রোগী অক্সিজেন মাস্ক দিয়ে শ্বাস নিচ্ছেন।",
+                "hi": "मरीज ऑक्सीजन मास्क से सांस ले रहा है।",
+                "ur": "مریض آکسیجن ماسک سے سانس لے رہا ہے۔",
+                "tr": "Hasta oksijen maskesiyle nefes alıyor."
+            },
+            "id": "v05_11"
+        },
+        {
+            "germanTerm": "Beatmungsgerät",
+            "article": "das",
+            "plural": "die Beatmungsgeräte",
+            "pronunciation": "/bəˈʔaːtmʊŋsɡəˌʁɛːt/",
+            "category": "noun",
+            "translation": {
+                "en": "Ventilator",
+                "bn": "ভেন্টিলেটর",
+                "hi": "वेंटिलेटर",
+                "ur": "وینٹیلیٹر",
+                "tr": "Ventilatör"
+            },
+            "exampleSentence": "Der Patient wird mit einem Beatmungsgerät beatmet.",
+            "exampleTranslation": {
+                "en": "The patient is being ventilated with a ventilator.",
+                "bn": "রোগীকে ভেন্টিলেটর দিয়ে শ্বাস প্রশ্বাস করানো হচ্ছে।",
+                "hi": "मरीज को वेंटिलेटर से सांस दिलाई जा रही है।",
+                "ur": "مریض کو وینٹیلیٹر سے سانس دلوائی جا رہی ہے۔",
+                "tr": "Hasta ventilatör ile solutuluyor."
+            },
+            "id": "v05_12"
+        },
+        {
+            "germanTerm": "Defibrillator",
+            "article": "der",
+            "plural": "die Defibrillatoren",
+            "pronunciation": "/defibrɪlaˈtoːɐ̯/",
+            "category": "noun",
+            "translation": {
+                "en": "Defibrillator",
+                "bn": "ডিফিব্রিলেটর",
+                "hi": "डिफाइब्रिलेटर",
+                "ur": "ڈیفبریلیٹر",
+                "tr": "Defibrilatör"
+            },
+            "exampleSentence": "Der Defibrillator wurde eingesetzt, um das Herz wieder in Gang zu bringen.",
+            "exampleTranslation": {
+                "en": "The defibrillator was used to restart the heart.",
+                "bn": "হৃদয়কে পুনরায় চালু করার জন্য ডিফ্রিব্রিলেটর ব্যবহার করা হয়েছিল।",
+                "hi": "दिल को फिर से शुरू करने के लिए डिफाइब्रिलेटर का इस्तेमाल किया गया था।",
+                "ur": "دل کو دوبارہ شروع کرنے کے لیے ڈیفبریلیٹر کا استعمال کیا گیا تھا۔",
+                "tr": "Kalbi yeniden başlatmak için defibrilatör kullanıldı."
+            },
+            "id": "v05_13"
+        },
+        {
+            "germanTerm": "EKG-Gerät",
+            "article": "das",
+            "plural": "die EKG-Geräte",
+            "pronunciation": "/eːkaːˈɡeːˌɡeːʁɛt/",
+            "category": "noun",
+            "translation": {
+                "en": "ECG machine",
+                "bn": "ইসিজি মেশিন",
+                "hi": "ईसीजी मशीन",
+                "ur": "ای سی جی مشین",
+                "tr": "EKG cihazı"
+            },
+            "exampleSentence": "Das EKG-Gerät zeichnet die Herzaktivität auf.",
+            "exampleTranslation": {
+                "en": "The ECG machine records the heart activity.",
+                "bn": "ইসিজি মেশিন হৃদরোগের কার্যকলাপ রেকর্ড করে।",
+                "hi": "ईसीजी मशीन हृदय की गतिविधि को रिकॉर्ड करती है।",
+                "ur": "ای سی جی مشین دل کی سرگرمی ریکارڈ کرتی ہے۔",
+                "tr": "EKG cihazı kalp aktivitesini kaydeder."
+            },
+            "id": "v05_14"
+        },
+        {
+            "germanTerm": "Ultraschallgerät",
+            "article": "das",
+            "plural": "die Ultraschallgeräte",
+            "pronunciation": "/ˈʊltʁaʃalˌɡeːʁɛt/",
+            "category": "noun",
+            "translation": {
+                "en": "Ultrasound machine",
+                "bn": "আলট্রাসাউন্ড মেশিন",
+                "hi": "अल्ट्रासाउंड मशीन",
+                "ur": "الٹراساؤنڈ مشین",
+                "tr": "Ultrason cihazı"
+            },
+            "exampleSentence": "Mit dem Ultraschallgerät kann man das Baby im Bauch sehen.",
+            "exampleTranslation": {
+                "en": "With the ultrasound machine, you can see the baby in the womb.",
+                "bn": "আলট্রাসাউন্ড মেশিনের সাহায্যে পেটের মধ্যে বাচ্চাকে দেখা যায়।",
+                "hi": "अल्ट्रासाउंड मशीन से पेट में बच्चे को देखा जा सकता है।",
+                "ur": "الٹراساؤنڈ مشین سے پیٹ میں بچے کو دیکھا جا سکتا ہے۔",
+                "tr": "Ultrason cihazı ile anne karnındaki bebek görülebilir."
+            },
+            "id": "v05_15"
+        },
+        {
+            "germanTerm": "Röntgengerät",
+            "article": "das",
+            "plural": "die Röntgengeräte",
+            "pronunciation": "/ˈʁœntɡənˌɡeːʁɛt/",
+            "category": "noun",
+            "translation": {
+                "en": "X-ray machine",
+                "bn": "এক্স-রে মেশিন",
+                "hi": "एक्स-रे मशीन",
+                "ur": "ایکس رے مشین",
+                "tr": "Röntgen cihazı"
+            },
+            "exampleSentence": "Der Arzt hat ein Röntgenbild der Lunge angeordnet.",
+            "exampleTranslation": {
+                "en": "The doctor ordered an X-ray of the lungs.",
+                "bn": "ডাক্তার ফুসফুসের একটি এক্স-রে করার নির্দেশ দিয়েছেন।",
+                "hi": "डॉक्टर ने फेफड़ों का एक्स-रे करने का आदेश दिया।",
+                "ur": "ڈاکٹر نے پھیپھڑوں کا ایکسرے کرنے کا حکم دیا۔",
+                "tr": "Doktor akciğerlerin röntgenini istedi."
+            },
+            "id": "v05_16"
+        },
+        {
+            "germanTerm": "MRT-Gerät",
+            "article": "das",
+            "plural": "die MRT-Geräte",
+            "pronunciation": "/ɛmʔɛʁˈteːˌɡeːʁɛt/",
+            "category": "noun",
+            "translation": {
+                "en": "MRI machine",
+                "bn": "এমআরআই মেশিন",
+                "hi": "एमआरआई मशीन",
+                "ur": "ایم آر آئی مشین",
+                "tr": "MR cihazı"
+            },
+            "exampleSentence": "Das MRT-Gerät macht detaillierte Bilder vom Körperinneren.",
+            "exampleTranslation": {
+                "en": "The MRI machine takes detailed images of the inside of the body.",
+                "bn": "এমআরআই মেশিন শরীরের ভিতরের বিস্তারিত ছবি তোলে।",
+                "hi": "एमआरआई मशीन शरीर के अंदर की विस्तृत तस्वीरें लेती है।",
+                "ur": "ایم آر آئی مشین جسم کے اندر کی تفصیلی تصاویر لیتی ہے۔",
+                "tr": "MR cihazı vücudun iç kısmının detaylı görüntülerini alır."
+            },
+            "id": "v05_17"
+        },
+        {
+            "germanTerm": "EKG-Elektroden",
+            "article": "die",
+            "plural": "die EKG-Elektroden",
+            "pronunciation": "/eːkaːˈɡeːʔelɛkˌtroːdən/",
+            "category": "noun",
+            "translation": {
+                "en": "ECG electrodes",
+                "bn": "ইসিজি ইলেক্ট্রোড",
+                "hi": "ईसीजी इलेक्ट्रोड",
+                "ur": "ای سی جی الیکٹروڈ",
+                "tr": "EKG elektrotları"
+            },
+            "exampleSentence": "Die EKG-Elektroden werden auf der Brust des Patienten angebracht.",
+            "exampleTranslation": {
+                "en": "The ECG electrodes are attached to the patient's chest.",
+                "bn": "ইসিজি ইলেক্ট্রোডগুলি রোগীর বুকের উপর লাগানো হয়।",
+                "hi": "ईसीजी इलेक्ट्रोड मरीज की छाती पर लगाए जाते हैं।",
+                "ur": "ای سی جی الیکٹروڈ مریض کی چھاتی پر لگائے جاتے ہیں۔",
+                "tr": "EKG elektrotları hastanın göğsüne takılır."
+            },
+            "id": "v05_18"
+        },
+        {
+            "germanTerm": "Infusionsständer",
+            "article": "der",
+            "plural": "die Infusionsständer",
+            "pronunciation": "/ɪnfuˈzi̯oːnsˌʃtɛndɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "IV stand",
+                "bn": "ইনফিউশন স্ট্যান্ড",
+                "hi": "आईवी स्टैंड",
+                "ur": "آئی وی اسٹینڈ",
+                "tr": "İV sehpası"
+            },
+            "exampleSentence": "Die Infusion hängt am Infusionsständer.",
+            "exampleTranslation": {
+                "en": "The infusion is hanging on the IV stand.",
+                "bn": "ইনফিউশনটি ইনফিউশন স্ট্যান্ডে ঝুলছে।",
+                "hi": "इनफ्यूजन आईवी स्टैंड पर लटका हुआ है।",
+                "ur": "انفیوژن آئی وی اسٹینڈ پر لٹکا ہوا ہے۔",
+                "tr": "İnfüzyon İV sehpasına asılıdır."
+            },
+            "id": "v05_19"
+        },
+        {
+            "germanTerm": "Absauggerät",
+            "article": "das",
+            "plural": "die Absauggeräte",
+            "pronunciation": "/ˈapzaʊ̯kˌɡeːʁɛt/",
+            "category": "noun",
+            "translation": {
+                "en": "Suction device",
+                "bn": "শোষণ ডিভাইস",
+                "hi": "सक्शन उपकरण",
+                "ur": "سکشن ڈیوائس",
+                "tr": "Vakum cihazı"
+            },
+            "exampleSentence": "Mit dem Absauggerät wird Schleim aus den Atemwegen entfernt.",
+            "exampleTranslation": {
+                "en": "The suction device removes mucus from the airways.",
+                "bn": "শোষণ ডিভাইস শ্বাসনালী থেকে শ্লেষ্মা অপসারণ করে।",
+                "hi": "सक्शन उपकरण वायुमार्ग से बलगम को हटाता है।",
+                "ur": "سکشن ڈیوائس ایئرویز سے بلغم کو ہٹاتا ہے۔",
+                "tr": "Vakum cihazı hava yollarından mukusu temizler."
+            },
+            "id": "v05_20"
+        },
+        {
+            "germanTerm": "Rollstuhl",
+            "article": "der",
+            "plural": "die Rollstühle",
+            "pronunciation": "/ˈʁɔlʃtuːl/",
+            "category": "noun",
+            "translation": {
+                "en": "Wheelchair",
+                "bn": "হুইলচেয়ার",
+                "hi": "व्हीलचेयर",
+                "ur": "وہیل چیئر",
+                "tr": "Tekerlekli sandalye"
+            },
+            "exampleSentence": "Der Patient wird im Rollstuhl transportiert.",
+            "exampleTranslation": {
+                "en": "The patient is transported in a wheelchair.",
+                "bn": "রোগীকে হুইলচেয়ারে পরিবহন করা হচ্ছে।",
+                "hi": "मरीज को व्हीलचेयर में ले जाया जा रहा है।",
+                "ur": "مریض کو وہیل چیئر میں لے جایا جا رہا ہے۔",
+                "tr": "Hasta tekerlekli sandalyede taşınıyor."
+            },
+            "id": "v05_21"
+        },
+        {
+            "germanTerm": "Blutdruckmanschette",
+            "article": "die",
+            "plural": "die Blutdruckmanschetten",
+            "pronunciation": "/ˈbluːtdʁʊkˌmanʃɛtə/",
+            "category": "noun",
+            "translation": {
+                "en": "Blood pressure cuff",
+                "bn": "রক্তচাপ কাফ",
+                "hi": "ब्लड प्रेशर कफ",
+                "ur": "بلڈ پریشر کف",
+                "tr": "Tansiyon manşonu"
+            },
+            "exampleSentence": "Die Blutdruckmanschette wird um den Arm gelegt.",
+            "exampleTranslation": {
+                "en": "The blood pressure cuff is placed around the arm.",
+                "bn": "রক্তচাপ কাফটি বাহুর চারপাশে রাখা হয়।",
+                "hi": "ब्लड प्रेशर कफ को हाथ के चारों ओर रखा जाता है।",
+                "ur": "بلڈ پریشر کف بازو کے گرد رکھا جاتا ہے۔",
+                "tr": "Tansiyon manşonu kolun etrafına yerleştirilir."
+            },
+            "id": "v05_22"
+        },
+        {
+            "germanTerm": "Sauerstoffflasche",
+            "article": "die",
+            "plural": "die Sauerstoffflaschen",
+            "pronunciation": "/ˈzaʊɐʃtɔfˌflaʃə/",
+            "category": "noun",
+            "translation": {
+                "en": "Oxygen cylinder",
+                "bn": "অক্সিজেন সিলিন্ডার",
+                "hi": "ऑक्सीजन सिलेंडर",
+                "ur": "آکسیجن سلنڈر",
+                "tr": "Oksijen tüpü"
+            },
+            "exampleSentence": "Die Sauerstoffflasche ist mit Sauerstoff gefüllt.",
+            "exampleTranslation": {
+                "en": "The oxygen cylinder is filled with oxygen.",
+                "bn": "অক্সিজেন সিলিন্ডারটি অক্সিজেন দিয়ে ভরা।",
+                "hi": "ऑक्सीजन सिलेंडर ऑक्सीजन से भरा हुआ है।",
+                "ur": "آکسیجن سلنڈر آکسیجن سے بھرا ہوا ہے۔",
+                "tr": "Oksijen tüpü oksijenle doludur."
+            },
+            "id": "v05_23"
+        },
+        {
+            "germanTerm": "Gipsverband",
+            "article": "der",
+            "plural": "die Gipsverbände",
+            "pronunciation": "/ˈɡɪpsfɛʁˌbant/",
+            "category": "noun",
+            "translation": {
+                "en": "Plaster cast",
+                "bn": "প্লাস্টার কাস্ট",
+                "hi": "प्लास्टर कास्ट",
+                "ur": "پلاسٹر کاسٹ",
+                "tr": "Alçı"
+            },
+            "exampleSentence": "Der gebrochene Arm wurde mit einem Gipsverband fixiert.",
+            "exampleTranslation": {
+                "en": "The broken arm was fixed with a plaster cast.",
+                "bn": "ভাঙা হাতটি প্লাস্টার কাস্ট দিয়ে ঠিক করা হয়েছে।",
+                "hi": "टूटे हुए हाथ को प्लास्टर कास्ट से ठीक किया गया।",
+                "ur": "ٹوٹے ہوئے بازو کو پلاسٹر کاسٹ سے ٹھیک کیا گیا ہے۔",
+                "tr": "Kırık kol alçı ile sabitlendi."
+            },
+            "id": "v05_24"
+        },
+        {
+            "germanTerm": "Verbandsmaterial",
+            "article": "das",
+            "plural": "die Verbandsmaterialien",
+            "pronunciation": "/fɛʁˈbantsmaˌteːʁi̯aːl/",
+            "category": "noun",
+            "translation": {
+                "en": "Bandaging material",
+                "bn": "ব্যান্ডেজিং উপাদান",
+                "hi": "पट्टी बांधने की सामग्री",
+                "ur": "پٹی باندھنے کا مواد",
+                "tr": "Sargı malzemesi"
+            },
+            "exampleSentence": "Wir benötigen mehr Verbandsmaterial für die Wundversorgung.",
+            "exampleTranslation": {
+                "en": "We need more bandaging material for wound care.",
+                "bn": "ক্ষত পরিচর্যার জন্য আমাদের আরও ব্যান্ডেজিং উপাদানের প্রয়োজন।",
+                "hi": "हमें घाव की देखभाल के लिए अधिक पट्टी बांधने की सामग्री की आवश्यकता है।",
+                "ur": "ہمیں زخم کی دیکھ بھال کے لیے مزید پٹی باندھنے کے مواد کی ضرورت ہے۔",
+                "tr": "Yara bakımı için daha fazla sargı malzemesine ihtiyacımız var."
+            },
+            "id": "v05_25"
+        },
+        {
+            "germanTerm": "Infusionspumpe",
+            "article": "die",
+            "plural": "die Infusionspumpen",
+            "pronunciation": "/ɪnfuˈzi̯oːnsˌpʊmpə/",
+            "category": "noun",
+            "translation": {
+                "en": "Infusion pump",
+                "bn": "ইনফিউশন পাম্প",
+                "hi": "इन्फ्यूजन पंप",
+                "ur": "انفیوژن پمپ",
+                "tr": "İnfüzyon pompası"
+            },
+            "exampleSentence": "Die Infusionspumpe reguliert die Infusionsgeschwindigkeit.",
+            "exampleTranslation": {
+                "en": "The infusion pump regulates the infusion rate.",
+                "bn": "ইনফিউশন পাম্প ইনফিউশনের গতি নিয়ন্ত্রণ করে।",
+                "hi": "इन्फ्यूजन पंप इन्फ्यूजन दर को नियंत्रित करता है।",
+                "ur": "انفیوژن پمپ انفیوژن کی شرح کو کنٹرول کرتا ہے۔",
+                "tr": "İnfüzyon pompası, infüzyon hızını düzenler."
+            },
+            "id": "v05_26"
+        },
+        {
+            "germanTerm": "Becken",
+            "article": "das",
+            "plural": "die Becken",
+            "pronunciation": "/ˈbɛkn̩/",
+            "category": "noun",
+            "translation": {
+                "en": "Basin",
+                "bn": "বেসিন",
+                "hi": "बेसिन",
+                "ur": "طشتری",
+                "tr": "Leğen"
+            },
+            "exampleSentence": "Bitte das Becken unter den Patienten legen.",
+            "exampleTranslation": {
+                "en": "Please put the basin under the patient.",
+                "bn": "দয়া করে বেসিনটি রোগীর নিচে রাখুন।",
+                "hi": "कृपया बेसिन को मरीज के नीचे रखें।",
+                "ur": "براہ کرم بیسن کو مریض کے نیچے رکھیں۔",
+                "tr": "Lütfen leğeni hastanın altına koyun."
+            },
+            "id": "v05_27"
+        },
+        {
+            "germanTerm": "Bett",
+            "article": "das",
+            "plural": "die Betten",
+            "pronunciation": "/bɛt/",
+            "category": "noun",
+            "translation": {
+                "en": "Bed",
+                "bn": "বিছানা",
+                "hi": "बिस्तर",
+                "ur": "بستر",
+                "tr": "Yatak"
+            },
+            "exampleSentence": "Der Patient liegt im Bett.",
+            "exampleTranslation": {
+                "en": "The patient is lying in bed.",
+                "bn": "রোগী বিছানায় শুয়ে আছে।",
+                "hi": "मरीज बिस्तर पर लेटा है।",
+                "ur": "مریض بستر پر لیٹا ہے۔",
+                "tr": "Hasta yatakta yatıyor."
+            },
+            "id": "v05_28"
+        },
+        {
+            "germanTerm": "Pinzette",
+            "article": "die",
+            "plural": "die Pinzetten",
+            "pronunciation": "/pɪnˈtsɛtə/",
+            "category": "noun",
+            "translation": {
+                "en": "Tweezers",
+                "bn": "চিমটা",
+                "hi": "चिमटी",
+                "ur": "چِمٹی",
+                "tr": "Cımbız"
+            },
+            "exampleSentence": "Mit der Pinzette werden die Fremdkörper entfernt.",
+            "exampleTranslation": {
+                "en": "The tweezers are used to remove foreign bodies.",
+                "bn": "চিমটা দিয়ে বিদেশী বস্তু সরানো হয়।",
+                "hi": "चिमटी से विदेशी वस्तुओं को हटाया जाता है।",
+                "ur": "چِمٹی سے بیرونی اشیاء کو ہٹایا جاتا ہے۔",
+                "tr": "Cımbız ile yabancı cisimler çıkarılır."
+            },
+            "id": "v05_29"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Routine Check-up",
+                "bn": "নিয়মিত স্বাস্থ্য পরীক্ষা",
+                "hi": "नियमित जांच",
+                "ur": "معمول چیک اپ",
+                "tr": "Rutin Kontrol"
+            },
+            "context": {
+                "en": "A nurse is taking a patient's vital signs during a routine check-up.",
+                "bn": "একজন নার্স নিয়মিত স্বাস্থ্য পরীক্ষার সময় রোগীর অত্যাবশ্যকীয় লক্ষণ নিচ্ছেন।",
+                "hi": "एक नर्स नियमित जांच के दौरान एक मरीज के महत्वपूर्ण लक्षण ले रही है।",
+                "ur": "ایک نرس معمول کے چیک اپ کے دوران مریض کی اہم علامات لے رہی ہے۔",
+                "tr": "Bir hemşire rutin kontrol sırasında bir hastanın hayati belirtilerini alıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Morgen, Herr Müller. Ich messe kurz Ihren Blutdruck mit dem Blutdruckmessgerät und Ihre Temperatur mit dem Thermometer.",
+                    "translation": {
+                        "en": "Good morning, Mr. Müller. I will briefly measure your blood pressure with the blood pressure monitor and your temperature with the thermometer.",
+                        "bn": "শুভ সকাল, মিঃ মুলার। আমি সংক্ষেপে রক্তচাপ মাপার যন্ত্র দিয়ে আপনার রক্তচাপ এবং থার্মোমিটার দিয়ে আপনার তাপমাত্রা মাপব।",
+                        "hi": "शुभ प्रभात, श्री मुलर। मैं संक्षेप में रक्तचाप मापने की मशीन से आपका रक्तचाप और थर्मामीटर से आपका तापमान मापूँगी।",
+                        "ur": "صبح بخیر مسٹر مولر۔ میں مختصراً بلڈ پریشر مانیٹر سے آپ کا بلڈ پریشر اور تھرمامیٹر سے آپ کا درجہ حرارت ماپوں گی۔",
+                        "tr": "Günaydın, Bay Müller. Kısaca tansiyonunuzu tansiyon aletiyle ve sıcaklığınızı termometre ile ölçeceğim."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Morgen, Schwester Weber. Kein Problem.",
+                    "translation": {
+                        "en": "Good morning, Sister Weber. No problem.",
+                        "bn": "শুভ সকাল, সিস্টার ওয়েবার। কোনো সমস্যা নেই।",
+                        "hi": "शुभ प्रभात, सिस्टर वेबर। कोई समस्या नहीं।",
+                        "ur": "صبح بخیر سسٹر ویبر۔ کوئی مسئلہ نہیں.",
+                        "tr": "Günaydın, Hemşire Weber. Sorun değil."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ihr Blutdruck ist etwas erhöht. Ich höre auch kurz Ihre Lunge mit dem Stethoskop ab.",
+                    "translation": {
+                        "en": "Your blood pressure is slightly elevated. I will also briefly listen to your lungs with the stethoscope.",
+                        "bn": "আপনার রক্তচাপ সামান্য বেড়েছে। আমি স্টেথোস্কোপ দিয়ে আপনার ফুসফুসও সংক্ষেপে শুনব।",
+                        "hi": "आपका रक्तचाप थोड़ा बढ़ा हुआ है। मैं स्टेथोस्कोप से आपके फेफड़ों को भी संक्षेप में सुनूँगी।",
+                        "ur": "آپ کا بلڈ پریشر قدرے بڑھا ہوا ہے۔ میں سٹیٹوسکوپ سے آپ کے پھیپھڑوں کو بھی مختصراً سنوں گی۔",
+                        "tr": "Tansiyonunuz biraz yüksek. Ayrıca steteskopla akciğerlerinizi kısaca dinleyeceğim."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Alles in Ordnung?",
+                    "translation": {
+                        "en": "Is everything alright?",
+                        "bn": "সবকিছু ঠিক আছে তো?",
+                        "hi": "सब ठीक तो है?",
+                        "ur": "سب ٹھیک ہے؟",
+                        "tr": "Her şey yolunda mı?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich werde das dem Arzt mitteilen. Er wird Sie dann untersuchen.",
+                    "translation": {
+                        "en": "I will inform the doctor about this. He will then examine you.",
+                        "bn": "আমি এ বিষয়ে ডাক্তারকে জানাব। তারপর তিনি আপনাকে পরীক্ষা করবেন।",
+                        "hi": "मैं इस बारे में डॉक्टर को बताऊंगी। फिर वह आपकी जांच करेंगे।",
+                        "ur": "میں اس بارے میں ڈاکٹر کو آگاہ کروں گی۔ پھر وہ آپ کا معائنہ کریں گے۔",
+                        "tr": "Doktora bildireceğim. Sonra sizi muayene edecek."
+                    }
+                }
+            ],
+            "id": "d05_01"
+        },
+        {
+            "title": {
+                "en": "Administering Medication",
+                "bn": "ওষুধ প্রয়োগ করা",
+                "hi": "दवा देना",
+                "ur": "دوا دینا",
+                "tr": "İlaç Uygulama"
+            },
+            "context": {
+                "en": "A nurse is preparing to administer medication to a patient via injection.",
+                "bn": "একজন নার্স ইনজেকশনের মাধ্যমে রোগীকে ওষুধ দেওয়ার প্রস্তুতি নিচ্ছেন।",
+                "hi": "एक नर्स इंजेक्शन के माध्यम से एक मरीज को दवा देने की तैयारी कर रही है।",
+                "ur": "ایک نرس انجکشن کے ذریعے مریض کو دوا دینے کی تیاری کر رہی ہے۔",
+                "tr": "Bir hemşire, bir hastaya enjeksiyon yoluyla ilaç uygulamaya hazırlanıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Tag, Frau Schmidt. Ich muss Ihnen jetzt das Schmerzmittel mit der Spritze verabreichen.",
+                    "translation": {
+                        "en": "Good afternoon, Mrs. Schmidt. I now have to administer the painkiller to you with the syringe.",
+                        "bn": "শুভ অপরাহ্ন, মিসেস শ্মিট। আমাকে এখন সিরিঞ্জ দিয়ে আপনাকে ব্যথানাশক ওষুধ দিতে হবে।",
+                        "hi": "शुभ दोपहर, श्रीमती श्मिट। मुझे अब सिरिंज से आपको दर्द निवारक दवा देनी होगी।",
+                        "ur": "شب بخیر محترمہ شمٹ۔ اب مجھے سرنج کے ذریعے آپ کو درد کم کرنے والی دوا دینی ہے۔",
+                        "tr": "Tünaydın, Bayan Schmidt. Şimdi size şırınga ile ağrı kesiciyi uygulamam gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Okay, ist das sehr schmerzhaft?",
+                    "translation": {
+                        "en": "Okay, is it very painful?",
+                        "bn": "ঠিক আছে, এটা কি খুব বেদনাদায়ক?",
+                        "hi": "ठीक है, क्या यह बहुत दर्दनाक है?",
+                        "ur": "ٹھیک ہے، کیا یہ بہت تکلیف دہ ہے؟",
+                        "tr": "Tamam, çok acı verici mi?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Es ist nur ein kurzer Pieks. Ich desinfiziere die Stelle kurz und dann geht es los.",
+                    "translation": {
+                        "en": "It's just a quick prick. I'll disinfect the area briefly and then we'll start.",
+                        "bn": "এটা শুধু একটি দ্রুত খোঁচা। আমি সংক্ষেপে জায়গাটি জীবাণুমুক্ত করব এবং তারপর শুরু করব।",
+                        "hi": "यह सिर्फ एक त्वरित चुटकी है। मैं संक्षेप में क्षेत्र को कीटाणुरहित करूँगा और फिर हम शुरू करेंगे।",
+                        "ur": "یہ صرف ایک فوری چٹکی ہے۔ میں مختصراً علاقے کو جراثیم سے پاک کروں گا اور پھر ہم شروع کریں گے۔",
+                        "tr": "Sadece kısa bir batma. Bölgeyi kısaca dezenfekte edeceğim ve sonra başlayacağız."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Gut, danke.",
+                    "translation": {
+                        "en": "Good, thank you.",
+                        "bn": "ভাল, ধন্যবাদ।",
+                        "hi": "अच्छा, धन्यवाद।",
+                        "ur": "اچها، شکریہ۔",
+                        "tr": "İyi, teşekkürler."
+                    }
+                },
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "So, fertig. Brauchen Sie noch etwas?",
+                    "translation": {
+                        "en": "So, finished. Do you need anything else?",
+                        "bn": "সুতরাং, শেষ। আপনার আর কিছু দরকার?",
+                        "hi": "तो, खत्म। क्या आपको कुछ और चाहिए?",
+                        "ur": "تو، ختم ہوا۔ کیا آپ کو کچھ اور چاہیے؟",
+                        "tr": "İşte, bitti. Başka bir şeye ihtiyacın var mı?"
+                    }
+                }
+            ],
+            "id": "d05_02"
+        },
+        {
+            "title": {
+                "en": "Preparing an Infusion",
+                "bn": "ইনফিউশন প্রস্তুত করা",
+                "hi": "इन्फ्यूजन तैयार करना",
+                "ur": "انفیوژن تیار کرنا",
+                "tr": "İnfüzyon Hazırlama"
+            },
+            "context": {
+                "en": "A doctor is instructing a nurse on how to prepare an infusion.",
+                "bn": "একজন ডাক্তার একজন নার্সকে কীভাবে ইনফিউশন প্রস্তুত করতে হয় সে সম্পর্কে নির্দেশনা দিচ্ছেন।",
+                "hi": "एक डॉक्टर एक नर्स को इन्फ्यूजन तैयार करने के बारे में निर्देश दे रहा है।",
+                "ur": "ایک ڈاکٹر ایک نرس کو انفیوژن تیار کرنے کے بارے میں ہدایت دے رہا ہے۔",
+                "tr": "Bir doktor, bir hemşireye infüzyonun nasıl hazırlanacağını anlatıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Schwester, bereiten Sie bitte eine Infusion mit Kochsalzlösung vor. Wir benötigen sie für Herrn Weber.",
+                    "translation": {
+                        "en": "Nurse, please prepare an infusion with saline solution. We need it for Mr. Weber.",
+                        "bn": "নার্স, দয়া করে স্যালাইন দ্রবণ দিয়ে একটি ইনফিউশন প্রস্তুত করুন। আমাদের এটি মিঃ ওয়েবারের জন্য দরকার।",
+                        "hi": "नर्स, कृपया खारा घोल से एक इन्फ्यूजन तैयार करें। हमें यह श्री वेबर के लिए चाहिए।",
+                        "ur": "نرس، براہ کرم نمکین محلول سے انفیوژن تیار کریں۔ ہمیں یہ مسٹر ویبر کے لیے چاہیے۔",
+                        "tr": "Hemşire, lütfen tuzlu su çözeltisi ile bir infüzyon hazırlayın. Bay Weber için ona ihtiyacımız var."
+                    }
+                },
+                {
+                    "speaker": "Schwester Maria",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Sofort, Herr Doktor. Benötigen wir auch eine Spritze, um Medikamente hinzuzufügen?",
+                    "translation": {
+                        "en": "Immediately, Doctor. Do we also need a syringe to add medication?",
+                        "bn": "অবিলম্বে, ডাক্তার। ওষুধ যোগ করার জন্য আমাদের কি সিরিঞ্জেরও প্রয়োজন?",
+                        "hi": "तुरंत, डॉक्टर। क्या हमें दवा जोड़ने के लिए एक सिरिंज की भी आवश्यकता है?",
+                        "ur": "فوری طور پر، ڈاکٹر۔ کیا ہمیں دوا شامل کرنے کے لیے ایک سرنج کی بھی ضرورت ہے؟",
+                        "tr": "Hemen, Doktor. İlaç eklemek için bir şırıngaya da ihtiyacımız var mı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ja, ziehen Sie bitte 2 ml des Antibiotikums auf eine Spritze und fügen Sie es der Infusion hinzu. Achten Sie auf die korrekte Dosierung!",
+                    "translation": {
+                        "en": "Yes, please draw up 2 ml of the antibiotic into a syringe and add it to the infusion. Pay attention to the correct dosage!",
+                        "bn": "হ্যাঁ, দয়া করে 2 মিলি অ্যান্টিবায়োটিক একটি সিরিঞ্জে টেনে নিন এবং এটি ইনফিউশনে যোগ করুন। সঠিক মাত্রার দিকে মনোযোগ দিন!",
+                        "hi": "हाँ, कृपया एक सिरिंज में 2 मिलीलीटर एंटीबायोटिक लें और इसे इन्फ्यूजन में जोड़ें। सही खुराक पर ध्यान दें!",
+                        "ur": "ہاں، براہ کرم ایک سرنج میں 2 ملی لیٹر اینٹی بایوٹک لیں اور اسے انفیوژن میں شامل کریں۔ صحیح خوراک پر توجہ دیں!",
+                        "tr": "Evet, lütfen bir şırıngaya 2 ml antibiyotik çekin ve infüzyona ekleyin. Doğru doza dikkat edin!"
+                    }
+                },
+                {
+                    "speaker": "Schwester Maria",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Verstanden. Ich werde die Infusion vorbereiten und die Dosierung überprüfen.",
+                    "translation": {
+                        "en": "Understood. I will prepare the infusion and check the dosage.",
+                        "bn": "বুঝেছি। আমি ইনফিউশন প্রস্তুত করব এবং ডোজটি পরীক্ষা করব।",
+                        "hi": "समझ गया। मैं इन्फ्यूजन तैयार करूँगा और खुराक की जाँच करूँगा।",
+                        "ur": "سمجھ گیا۔ میں انفیوژن تیار کروں گا اور خوراک کی جانچ کروں گا۔",
+                        "tr": "Anlaşıldı. İnfüzyonu hazırlayacağım ve dozu kontrol edeceğim."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Sehr gut. Dann können wir sie gleich anbringen.",
+                    "translation": {
+                        "en": "Very good. Then we can attach it right away.",
+                        "bn": "খুব ভালো. তাহলে আমরা এটি এখনই সংযুক্ত করতে পারি।",
+                        "hi": "बहुत अच्छा। तो हम इसे तुरंत संलग्न कर सकते हैं।",
+                        "ur": "بہت خوب۔ تو ہم اسے فوراً جوڑ سکتے ہیں۔",
+                        "tr": "Çok iyi. O zaman hemen takabiliriz."
+                    }
+                }
+            ],
+            "id": "d05_03"
+        },
+        {
+            "title": {
+                "en": "Inserting a Catheter",
+                "bn": "ক্যাথেটার প্রবেশ করানো",
+                "hi": "कैथेटर डालना",
+                "ur": "کیتھیٹر داخل کرنا",
+                "tr": "Kateter Takma"
+            },
+            "context": {
+                "en": "A doctor is explaining the procedure of inserting a catheter to a patient.",
+                "bn": "একজন ডাক্তার রোগীকে ক্যাথেটার প্রবেশ করানোর পদ্ধতি ব্যাখ্যা করছেন।",
+                "hi": "एक डॉक्टर एक मरीज को कैथेटर डालने की प्रक्रिया समझा रहा है।",
+                "ur": "ایک ڈاکٹر مریض کو کیتھیٹر ڈالنے کا طریقہ کار بتا رہا ہے۔",
+                "tr": "Bir doktor, bir hastaya kateter takma prosedürünü açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Tag, Herr Klein. Wir müssen Ihnen einen Katheter legen, um Ihre Blase zu entleeren.",
+                    "translation": {
+                        "en": "Good afternoon, Mr. Klein. We need to insert a catheter to empty your bladder.",
+                        "bn": "শুভ অপরাহ্ন, মিঃ ক্লেইন। আপনার মূত্রাশয় খালি করার জন্য আমাদের একটি ক্যাথেটার ঢোকাতে হবে।",
+                        "hi": "शुभ दोपहर, श्री क्लेन। हमें आपके मूत्राशय को खाली करने के लिए एक कैथेटर डालना होगा।",
+                        "ur": "شب بخیر مسٹر کلائن۔ ہمیں آپ کے مثانے کو خالی کرنے کے لیے ایک کیتھیٹر داخل کرنا ہوگا۔",
+                        "tr": "Tünaydın, Bay Klein. Mesanenizi boşaltmak için bir kateter takmamız gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Ein Katheter? Ist das schmerzhaft?",
+                    "translation": {
+                        "en": "A catheter? Is that painful?",
+                        "bn": "একটি ক্যাথেটার? এটা কি বেদনাদায়ক?",
+                        "hi": "एक कैथेटर? क्या यह दर्दनाक है?",
+                        "ur": "ایک کیتھیٹر؟ کیا یہ تکلیف دہ ہے؟",
+                        "tr": "Bir kateter mi? Bu acı verici mi?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Es kann etwas unangenehm sein, aber wir verwenden Gleitgel, um es so angenehm wie möglich zu machen. Schwester, bitte bereiten Sie den Katheter vor.",
+                    "translation": {
+                        "en": "It can be a little uncomfortable, but we use lubricating gel to make it as comfortable as possible. Nurse, please prepare the catheter.",
+                        "bn": "এটি কিছুটা অস্বস্তিকর হতে পারে, তবে আমরা এটিকে যতটা সম্ভব আরামদায়ক করার জন্য লুব্রিকেটিং জেল ব্যবহার করি। নার্স, দয়া করে ক্যাথেটারটি প্রস্তুত করুন।",
+                        "hi": "यह थोड़ा असहज हो सकता है, लेकिन हम इसे यथासंभव आरामदायक बनाने के लिए चिकनाई वाला जेल इस्तेमाल करते हैं। नर्स, कृपया कैथेटर तैयार करें।",
+                        "ur": "یہ تھوڑا سا تکلیف دہ ہو سکتا ہے، لیکن ہم اسے زیادہ سے زیادہ آرام دہ بنانے کے لیے چکنائی والا جیل استعمال کرتے ہیں۔ نرس، براہ کرم کیتھیٹر تیار کریں۔",
+                        "tr": "Biraz rahatsız edici olabilir, ancak mümkün olduğunca rahat hale getirmek için kayganlaştırıcı jel kullanıyoruz. Hemşire, lütfen kateteri hazırlayın."
+                    }
+                },
+                {
+                    "speaker": "Schwester Lisa",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ja, Herr Doktor. Ich habe den Katheter und das Gleitgel vorbereitet.",
+                    "translation": {
+                        "en": "Yes, Doctor. I have prepared the catheter and the lubricating gel.",
+                        "bn": "হ্যাঁ, ডাক্তার। আমি ক্যাথেটার এবং লুব্রিকেটিং জেল প্রস্তুত করেছি।",
+                        "hi": "हाँ, डॉक्टर। मैंने कैथेटर और चिकनाई वाला जेल तैयार कर लिया है।",
+                        "ur": "ہاں، ڈاکٹر۔ میں نے کیتھیٹر اور چکنائی والا جیل تیار کر لیا ہے۔",
+                        "tr": "Evet, Doktor. Kateteri ve kayganlaştırıcı jeli hazırladım."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Gut, dann können wir beginnen. Versuchen Sie, sich zu entspannen, Herr Klein.",
+                    "translation": {
+                        "en": "Good, then we can begin. Try to relax, Mr. Klein.",
+                        "bn": "ভাল, তাহলে আমরা শুরু করতে পারি। মিঃ ক্লেইন, শিথিল করার চেষ্টা করুন।",
+                        "hi": "अच्छा, तो हम शुरू कर सकते हैं। श्री क्लेन, आराम करने की कोशिश करें।",
+                        "ur": "اچھا، تو ہم شروع کر سکتے ہیں۔ مسٹر کلائن، آرام کرنے کی کوشش کریں۔",
+                        "tr": "İyi, o zaman başlayabiliriz. Bay Klein, rahatlamaya çalışın."
+                    }
+                }
+            ],
+            "id": "d05_04"
+        },
+        {
+            "title": {
+                "en": "Preparing for Surgery",
+                "bn": "অস্ত্রোপচারের জন্য প্রস্তুতি",
+                "hi": "सर्जरी की तैयारी",
+                "ur": "سرجری کی تیاری",
+                "tr": "Ameliyata Hazırlık"
+            },
+            "context": {
+                "en": "A surgeon and a nurse are preparing the surgical instruments before an operation.",
+                "bn": "একজন সার্জন এবং একজন নার্স অপারেশনের আগে অস্ত্রোপচারের সরঞ্জাম প্রস্তুত করছেন।",
+                "hi": "एक सर्जन और एक नर्स ऑपरेशन से पहले सर्जिकल उपकरण तैयार कर रहे हैं।",
+                "ur": "ایک سرجن اور ایک نرس آپریشن سے پہلے جراحی کے اوزار تیار کر رہے ہیں۔",
+                "tr": "Bir cerrah ve bir hemşire ameliyattan önce cerrahi aletleri hazırlıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Hartmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Schwester Karin, sind Skalpell, Klemmen und Tupfer bereit?",
+                    "translation": {
+                        "en": "Nurse Karin, are the scalpel, clamps, and swabs ready?",
+                        "bn": "নার্স কারিন, স্ক্যাল্পেল, ক্ল্যাম্প এবং সোয়াব কি প্রস্তুত?",
+                        "hi": "नर्स कैरिन, क्या स्केलपेल, क्लैंप और स्वाब तैयार हैं?",
+                        "ur": "نرس کیرن، کیا سکپل، کلیمپ اور جھاڑو تیار ہیں؟",
+                        "tr": "Hemşire Karin, neşter, kıskaçlar ve pamuklu çubuklar hazır mı?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Karin",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ja, Herr Doktor. Alle Instrumente sind steril verpackt und bereit.",
+                    "translation": {
+                        "en": "Yes, Doctor. All instruments are sterilely packaged and ready.",
+                        "bn": "হ্যাঁ, ডাক্তার। সমস্ত সরঞ্জাম জীবাণুমুক্তভাবে প্যাকেজ করা এবং প্রস্তুত।",
+                        "hi": "हाँ, डॉक्टर। सभी उपकरण बाँझ रूप से पैक किए गए हैं और तैयार हैं।",
+                        "ur": "ہاں، ڈاکٹر۔ تمام اوزار جراثیم سے پاک پیک کیے گئے ہیں اور تیار ہیں۔",
+                        "tr": "Evet, Doktor. Tüm aletler steril bir şekilde paketlenmiş ve hazır."
+                    }
+                },
+                {
+                    "speaker": "Dr. Hartmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Sehr gut. Bitte überprüfen Sie noch einmal die Funktionstüchtigkeit der Klemmen.",
+                    "translation": {
+                        "en": "Very good. Please check the functionality of the clamps again.",
+                        "bn": "খুব ভালো। ক্ল্যাম্পগুলির কার্যকারিতা আবার পরীক্ষা করুন।",
+                        "hi": "बहुत अच्छा। कृपया क्लैंप की कार्यक्षमता को फिर से जांचें।",
+                        "ur": "بہت خوب۔ براہ کرم کلیمپ کی فعالیت کو دوبارہ چیک کریں۔",
+                        "tr": "Çok iyi. Lütfen kelepçelerin işlevselliğini tekrar kontrol edin."
+                    }
+                },
+                {
+                    "speaker": "Schwester Karin",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Erledigt, Herr Doktor. Sie funktionieren einwandfrei.",
+                    "translation": {
+                        "en": "Done, Doctor. They function perfectly.",
+                        "bn": "হয়ে গেছে, ডাক্তার। তারা পুরোপুরি কাজ করে।",
+                        "hi": "हो गया, डॉक्टर। वे पूरी तरह से काम करते हैं।",
+                        "ur": "ہو گیا، ڈاکٹر۔ وہ بالکل ٹھیک کام کرتے ہیں۔",
+                        "tr": "Tamamlandı, Doktor. Mükemmel çalışıyorlar."
+                    }
+                },
+                {
+                    "speaker": "Dr. Hartmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ausgezeichnet. Dann können wir beginnen.",
+                    "translation": {
+                        "en": "Excellent. Then we can begin.",
+                        "bn": "চমৎকার। তাহলে আমরা শুরু করতে পারি।",
+                        "hi": "उत्कृष्ट। तो हम शुरू कर सकते हैं।",
+                        "ur": "بہترین۔ تو ہم شروع کر سکتے ہیں۔",
+                        "tr": "Mükemmel. O zaman başlayabiliriz."
+                    }
+                }
+            ],
+            "id": "d05_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Instrument wird verwendet, um Herztöne abzuhören?",
+                "en": "Which instrument is used to listen to heart sounds?",
+                "bn": "হৃদস্পন্দন শোনার জন্য কোন যন্ত্র ব্যবহার করা হয়?",
+                "hi": "हृदय की ध्वनियाँ सुनने के लिए किस उपकरण का उपयोग किया जाता है?",
+                "ur": "دل کی آوازیں سننے کے لیے کون سا آلہ استعمال ہوتا ہے؟",
+                "tr": "Kalp seslerini dinlemek için hangi alet kullanılır?"
+            },
+            "options": [
+                "Thermometer",
+                "Blutdruckmessgerät",
+                "Stethoskop",
+                "Spritze"
+            ],
+            "correctAnswer": "Stethoskop",
+            "explanation": {
+                "en": "A stethoscope is used to listen to heart and lung sounds.",
+                "bn": "স্টেথোস্কোপ হার্ট এবং ফুসফুসের শব্দ শোনার জন্য ব্যবহৃত হয়।",
+                "hi": "स्टेथोस्कोप का उपयोग हृदय और फेफड़ों की आवाज़ें सुनने के लिए किया जाता है।",
+                "ur": "اسٹیٹوسکوپ دل اور پھیپھڑوں کی آوازیں سننے کے لیے استعمال ہوتا ہے۔",
+                "tr": "Stetoskop kalp ve akciğer seslerini dinlemek için kullanılır."
+            },
+            "points": 10,
+            "id": "e05_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Womit misst man die Körpertemperatur?",
+                "en": "What is used to measure body temperature?",
+                "bn": "শারীরিক তাপমাত্রা মাপার জন্য কি ব্যবহার করা হয়?",
+                "hi": "शरीर का तापमान मापने के लिए क्या उपयोग किया जाता है?",
+                "ur": "جسم کا درجہ حرارت ناپنے کے لیے کیا استعمال ہوتا ہے؟",
+                "tr": "Vücut sıcaklığını ölçmek için ne kullanılır?"
+            },
+            "options": [
+                "Katheter",
+                "Thermometer",
+                "Skalpell",
+                "Klemme"
+            ],
+            "correctAnswer": "Thermometer",
+            "explanation": {
+                "en": "A thermometer is used to measure body temperature.",
+                "bn": "থার্মোমিটার শরীরের তাপমাত্রা মাপার জন্য ব্যবহৃত হয়।",
+                "hi": "शरीर का तापमान मापने के लिए थर्मामीटर का उपयोग किया जाता है।",
+                "ur": "جسم کا درجہ حرارت ناپنے کے لیے تھرمامیٹر استعمال ہوتا ہے۔",
+                "tr": "Vücut sıcaklığını ölçmek için termometre kullanılır."
+            },
+            "points": 10,
+            "id": "e05_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Gerät misst den systolischen und diastolischen Wert?",
+                "en": "Which device measures the systolic and diastolic value?",
+                "bn": "কোন ডিভাইসটি সিস্টোলিক এবং ডায়াস্টোলিক মান পরিমাপ করে?",
+                "hi": "कौन सा उपकरण सिस्टोलिक और डायस्टोलिक मान को मापता है?",
+                "ur": "کون سا آلہ سسٹولک اور ڈیاسٹولک ویلیو کی پیمائش کرتا ہے؟",
+                "tr": "Hangi cihaz sistolik ve diyastolik değeri ölçer?"
+            },
+            "options": [
+                "Spritze",
+                "Infusion",
+                "Blutdruckmessgerät",
+                "Katheter"
+            ],
+            "correctAnswer": "Blutdruckmessgerät",
+            "explanation": {
+                "en": "A blood pressure monitor measures systolic and diastolic blood pressure.",
+                "bn": "একটি রক্তচাপ মনিটর সিস্টোলিক এবং ডায়াস্টোলিক রক্তচাপ পরিমাপ করে।",
+                "hi": "एक रक्तचाप मॉनिटर सिस्टोलिक और डायस्टोलिक रक्तचाप को मापता है।",
+                "ur": "بلڈ پریشر مانیٹر سسٹولک اور ڈیاسٹولک بلڈ پریشر کی پیمائش کرتا ہے۔",
+                "tr": "Bir tansiyon aleti sistolik ve diyastolik tansiyonu ölçer."
+            },
+            "points": 10,
+            "id": "e05_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wozu dient eine Spritze hauptsächlich?",
+                "en": "What is a syringe mainly used for?",
+                "bn": "একটি সিরিঞ্জ প্রধানত কি জন্য ব্যবহৃত হয়?",
+                "hi": "एक सिरिंज मुख्य रूप से किस लिए उपयोग की जाती है?",
+                "ur": "ایک سرنج بنیادی طور پر کس لیے استعمال ہوتی ہے؟",
+                "tr": "Bir şırınga esas olarak ne için kullanılır?"
+            },
+            "options": [
+                "Um Flüssigkeiten zu verabreichen oder zu entnehmen",
+                "Um zu schneiden",
+                "Um zu klemmen",
+                "Um zu messen"
+            ],
+            "correctAnswer": "Um Flüssigkeiten zu verabreichen oder zu entnehmen",
+            "explanation": {
+                "en": "A syringe is mainly used to administer or withdraw fluids.",
+                "bn": "একটি সিরিঞ্জ প্রধানত তরল পদার্থ প্রয়োগ বা নিষ্কাশনের জন্য ব্যবহৃত হয়।",
+                "hi": "एक सिरिंज मुख्य रूप से तरल पदार्थ देने या निकालने के लिए उपयोग की जाती है।",
+                "ur": "ایک سرنج بنیادی طور پر مائع دینے یا نکالنے کے لیے استعمال ہوتی ہے۔",
+                "tr": "Bir şırınga esas olarak sıvıları vermek veya çekmek için kullanılır."
+            },
+            "points": 10,
+            "id": "e05_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was wird intravenös verabreicht?",
+                "en": "What is administered intravenously?",
+                "bn": "শিরায় কী প্রয়োগ করা হয়?",
+                "hi": "अंतःशिरा में क्या दिया जाता है?",
+                "ur": "ورید میں کیا لگایا جاتا ہے؟",
+                "tr": "İntravenöz olarak ne verilir?"
+            },
+            "options": [
+                "Skalpell",
+                "Infusion",
+                "Katheter",
+                "Klemme"
+            ],
+            "correctAnswer": "Infusion",
+            "explanation": {
+                "en": "An infusion is administered intravenously.",
+                "bn": "একটি ইনফিউশন শিরায় প্রয়োগ করা হয়।",
+                "hi": "एक इन्फ्यूजन अंतःशिरा में दिया जाता है।",
+                "ur": "ایک انفیوژن ورید میں لگایا جاتا ہے۔",
+                "tr": "Bir infüzyon intravenöz olarak verilir."
+            },
+            "points": 10,
+            "id": "e05_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Instrument wird verwendet, um Körperöffnungen zu sondieren oder Flüssigkeiten abzuleiten?",
+                "en": "Which instrument is used to probe body openings or drain fluids?",
+                "bn": "শরীরের গর্ত পরীক্ষা করতে বা তরল নিষ্কাশন করতে কোন যন্ত্র ব্যবহার করা হয়?",
+                "hi": "शरीर के छिद्रों की जांच करने या तरल पदार्थ निकालने के लिए किस उपकरण का उपयोग किया जाता है?",
+                "ur": "جسم کے سوراخوں کی جانچ کرنے یا سیال نکالنے کے لیے کون سا آلہ استعمال ہوتا ہے؟",
+                "tr": "Vücut açıklıklarını yoklamak veya sıvıları boşaltmak için hangi alet kullanılır?"
+            },
+            "options": [
+                "Skalpell",
+                "Klemme",
+                "Katheter",
+                "Stethoskop"
+            ],
+            "correctAnswer": "Katheter",
+            "explanation": {
+                "en": "A catheter is used to probe body openings or drain fluids.",
+                "bn": "একটি ক্যাথেটার শরীরের গর্ত পরীক্ষা করতে বা তরল নিষ্কাশন করতে ব্যবহৃত হয়।",
+                "hi": "एक कैथेटर शरीर के छिद्रों की जांच करने या तरल पदार्थ निकालने के लिए उपयोग किया जाता है।",
+                "ur": "ایک کیتھیٹر جسم کے سوراخوں کی جانچ کرنے یا سیال نکالنے کے لیے استعمال ہوتا ہے۔",
+                "tr": "Bir kateter vücut açıklıklarını yoklamak veya sıvıları boşaltmak için kullanılır."
+            },
+            "points": 10,
+            "id": "e05_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wozu dient ein Skalpell?",
+                "en": "What is a scalpel used for?",
+                "bn": "একটি স্কাল্পেল কি জন্য ব্যবহৃত হয়?",
+                "hi": "एक स्केलपेल का उपयोग किस लिए किया जाता है?",
+                "ur": "ایک سکیلپل کس لیے استعمال ہوتا ہے؟",
+                "tr": "Neşter ne için kullanılır?"
+            },
+            "options": [
+                "Um zu klemmen",
+                "Um zu schneiden",
+                "Um zu messen",
+                "Um abzuhören"
+            ],
+            "correctAnswer": "Um zu schneiden",
+            "explanation": {
+                "en": "A scalpel is used for cutting.",
+                "bn": "একটি স্কাল্পেল কাটার জন্য ব্যবহৃত হয়।",
+                "hi": "एक स्केलपेल काटने के लिए उपयोग किया जाता है।",
+                "ur": "ایک سکیلپل کاٹنے کے لیے استعمال ہوتا ہے۔",
+                "tr": "Neşter kesmek için kullanılır."
+            },
+            "points": 10,
+            "id": "e05_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Instrument wird verwendet, um Blutgefäße abzuklemmen?",
+                "en": "Which instrument is used to clamp blood vessels?",
+                "bn": "রক্তনালী আটকানোর জন্য কোন যন্ত্র ব্যবহার করা হয়?",
+                "hi": "रक्त वाहिकाओं को जकड़ने के लिए किस उपकरण का उपयोग किया जाता है?",
+                "ur": "خون کی نالیوں کو جکڑنے کے لیے کون سا آلہ استعمال ہوتا ہے؟",
+                "tr": "Kan damarlarını sıkıştırmak için hangi alet kullanılır?"
+            },
+            "options": [
+                "Skalpell",
+                "Spritze",
+                "Klemme",
+                "Thermometer"
+            ],
+            "correctAnswer": "Klemme",
+            "explanation": {
+                "en": "A clamp is used to clamp blood vessels.",
+                "bn": "একটি ক্ল্যাম্প রক্তনালী আটকানোর জন্য ব্যবহৃত হয়।",
+                "hi": "एक क्लैंप रक्त वाहिकाओं को जकड़ने के लिए उपयोग किया जाता है।",
+                "ur": "ایک کلیمپ خون کی نالیوں کو جکڑنے کے لیے استعمال ہوتا ہے۔",
+                "tr": "Bir kıskaç kan damarlarını sıkıştırmak için kullanılır."
+            },
+            "points": 10,
+            "id": "e05_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was wird durch eine Infusion in den Körper geleitet?",
+                "en": "What is passed into the body through an infusion?",
+                "bn": "ইনফিউশনের মাধ্যমে শরীরে কী প্রবেশ করানো হয়?",
+                "hi": "इन्फ्यूजन के माध्यम से शरीर में क्या प्रवेश कराया जाता है?",
+                "ur": "انفیوژن کے ذریعے جسم میں کیا داخل کیا جاتا ہے؟",
+                "tr": "İnfüzyon yoluyla vücuda ne geçirilir?"
+            },
+            "options": [
+                "Luft",
+                "Medikamente oder Flüssigkeiten",
+                "Blut",
+                "Nahrung"
+            ],
+            "correctAnswer": "Medikamente oder Flüssigkeiten",
+            "explanation": {
+                "en": "Medications or fluids are passed into the body through an infusion.",
+                "bn": "ইনফিউশনের মাধ্যমে শরীরে ওষুধ বা তরল প্রবেশ করানো হয়।",
+                "hi": "इन्फ्यूजन के माध्यम से शरीर में दवाएं या तरल पदार्थ प्रवेश कराए जाते हैं।",
+                "ur": "انفیوژن کے ذریعے جسم میں دوائیں یا مائع داخل کیے جاتے ہیں۔",
+                "tr": "İnfüzyon yoluyla vücuda ilaçlar veya sıvılar geçirilir."
+            },
+            "points": 10,
+            "id": "e05_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wo wird ein Katheter typischerweise eingeführt?",
+                "en": "Where is a catheter typically inserted?",
+                "bn": "একটি ক্যাথেটার সাধারণত কোথায় ঢোকানো হয়?",
+                "hi": "एक कैथेटर आमतौर पर कहाँ डाला जाता है?",
+                "ur": "ایک کیتھیٹر عام طور پر کہاں ڈالا جاتا ہے؟",
+                "tr": "Bir kateter tipik olarak nereye yerleştirilir?"
+            },
+            "options": [
+                "In eine Vene",
+                "In eine Arterie",
+                "In eine Körperöffnung",
+                "In eine Muskel"
+            ],
+            "correctAnswer": "In eine Körperöffnung",
+            "explanation": {
+                "en": "A catheter is typically inserted into a body opening.",
+                "bn": "একটি ক্যাথেটার সাধারণত শরীরের গর্তে ঢোকানো হয়।",
+                "hi": "एक कैथेटर आमतौर पर शरीर के छिद्र में डाला जाता है।",
+                "ur": "ایک کیتھیٹر عام طور پر جسم کے سوراخ میں ڈالا جاتا ہے۔",
+                "tr": "Bir kateter tipik olarak vücut açıklığına yerleştirilir."
+            },
+            "points": 10,
+            "id": "e05_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Mit einem __________ kann man den Blutdruck messen.",
+                "en": "You can measure blood pressure with a __________.",
+                "bn": "আপনি একটি __________ দিয়ে রক্তচাপ পরিমাপ করতে পারেন।",
+                "hi": "आप __________ से रक्तचाप माप सकते हैं।",
+                "ur": "آپ ایک __________ سے بلڈ پریشر ناپ سکتے ہیں۔",
+                "tr": "Bir __________ ile tansiyonu ölçebilirsiniz."
+            },
+            "correctAnswer": "Blutdruckmessgerät",
+            "explanation": {
+                "en": "A blood pressure monitor is used to measure blood pressure.",
+                "bn": "একটি রক্তচাপ মনিটর রক্তচাপ পরিমাপ করতে ব্যবহৃত হয়।",
+                "hi": "एक रक्तचाप मॉनिटर रक्तचाप मापने के लिए उपयोग किया जाता है।",
+                "ur": "ایک بلڈ پریشر مانیٹر بلڈ پریشر ناپنے کے لیے استعمال ہوتا ہے۔",
+                "tr": "Bir tansiyon aleti tansiyonu ölçmek için kullanılır."
+            },
+            "points": 10,
+            "id": "e05_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein __________ wird verwendet, um Medikamente zu injizieren.",
+                "en": "A __________ is used to inject medications.",
+                "bn": "একটি __________ ওষুধ ইনজেকশন করার জন্য ব্যবহৃত হয়।",
+                "hi": "एक __________ का उपयोग दवाएं इंजेक्ट करने के लिए किया जाता है।",
+                "ur": "ایک __________ ادویات انجیکٹ کرنے کے لیے استعمال ہوتا ہے۔",
+                "tr": "Bir __________ ilaçları enjekte etmek için kullanılır."
+            },
+            "correctAnswer": "Spritze",
+            "explanation": {
+                "en": "A syringe is used to inject medications.",
+                "bn": "একটি সিরিঞ্জ ওষুধ ইনজেকশন করার জন্য ব্যবহৃত হয়।",
+                "hi": "एक सिरिंज दवाएं इंजेक्ट करने के लिए उपयोग की जाती है।",
+                "ur": "ایک سرنج ادویات انجیکٹ کرنے کے لیے استعمال ہوتی ہے۔",
+                "tr": "Bir şırınga ilaçları enjekte etmek için kullanılır."
+            },
+            "points": 10,
+            "id": "e05_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein __________ wird verwendet, um einen Schnitt zu machen.",
+                "en": "A __________ is used to make an incision.",
+                "bn": "একটি __________ একটি চেরা তৈরি করতে ব্যবহৃত হয়।",
+                "hi": "एक __________ का उपयोग एक चीरा बनाने के लिए किया जाता है।",
+                "ur": "ایک __________ ایک چیرا بنانے کے لیے استعمال ہوتا ہے۔",
+                "tr": "Bir __________ kesi yapmak için kullanılır."
+            },
+            "correctAnswer": "Skalpell",
+            "explanation": {
+                "en": "A scalpel is used to make an incision.",
+                "bn": "একটি স্কাল্পেল একটি চেরা তৈরি করতে ব্যবহৃত হয়।",
+                "hi": "एक स्केलपेल एक चीरा बनाने के लिए उपयोग किया जाता है।",
+                "ur": "ایک سکیلپل ایک چیرا بنانے کے لیے استعمال ہوتا ہے۔",
+                "tr": "Bir neşter kesi yapmak için kullanılır."
+            },
+            "points": 10,
+            "id": "e05_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Mit einem __________ hört der Arzt das Herz ab.",
+                "en": "The doctor listens to the heart with a __________.",
+                "bn": "ডাক্তার __________ দিয়ে হৃৎপিণ্ড শোনেন।",
+                "hi": "डॉक्टर __________ से दिल को सुनते हैं।",
+                "ur": "ڈاکٹر __________ سے دل سنتے ہیں۔",
+                "tr": "Doktor __________ ile kalbi dinler."
+            },
+            "correctAnswer": "Stethoskop",
+            "explanation": {
+                "en": "The doctor uses a stethoscope to listen to the heart.",
+                "bn": "ডাক্তার হৃৎপিণ্ড শোনার জন্য একটি স্টেথোস্কোপ ব্যবহার করেন।",
+                "hi": "डॉक्टर दिल को सुनने के लिए एक स्टेथोस्कोप का उपयोग करते हैं।",
+                "ur": "ڈاکٹر دل سننے کے لیے ایک اسٹیٹوسکوپ استعمال کرتے ہیں۔",
+                "tr": "Doktor kalbi dinlemek için bir stetoskop kullanır."
+            },
+            "points": 10,
+            "id": "e05_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Eine __________ wird verwendet, um Blutgefäße zu verschließen.",
+                "en": "A __________ is used to occlude blood vessels.",
+                "bn": "একটি __________ রক্তনালী বন্ধ করতে ব্যবহৃত হয়।",
+                "hi": "एक __________ रक्त वाहिकाओं को बंद करने के लिए उपयोग किया जाता है।",
+                "ur": "ایک __________ خون کی نالیوں کو بند کرنے کے لیے استعمال ہوتا ہے۔",
+                "tr": "Bir __________ kan damarlarını kapatmak için kullanılır."
+            },
+            "correctAnswer": "Klemme",
+            "explanation": {
+                "en": "A clamp is used to occlude blood vessels.",
+                "bn": "একটি ক্ল্যাম্প রক্তনালী বন্ধ করতে ব্যবহৃত হয়।",
+                "hi": "एक क्लैंप रक्त वाहिकाओं को बंद करने के लिए उपयोग किया जाता है।",
+                "ur": "ایک کلیمپ خون کی نالیوں کو بند کرنے کے لیے استعمال ہوتا ہے۔",
+                "tr": "Bir kıskaç kan damarlarını kapatmak için kullanılır."
+            },
+            "points": 10,
+            "id": "e05_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Der Patient benötigt eine Infusion.",
+                "en": "The patient needs an infusion.",
+                "bn": "রোগীর একটি ইনফিউশন প্রয়োজন।",
+                "hi": "मरीज को एक इन्फ्यूजन की जरूरत है।",
+                "ur": "مریض کو ایک انفیوژن کی ضرورت ہے۔",
+                "tr": "Hastanın bir infüzyona ihtiyacı var."
+            },
+            "correctAnswer": "The patient needs an infusion.",
+            "explanation": {
+                "en": "Direct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সরাসরি অনুবাদ।",
+                "hi": "जर्मन वाक्य का सीधा अनुवाद।",
+                "ur": "جرمن جملے کا براہ راست ترجمہ۔",
+                "tr": "Almanca cümlenin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e05_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Bitte messen Sie den Blutdruck.",
+                "en": "Please measure the blood pressure.",
+                "bn": "অনুগ্রহ করে রক্তচাপ পরিমাপ করুন।",
+                "hi": "कृपया रक्तचाप मापें।",
+                "ur": "برائے مہربانی بلڈ پریشر ناپیں۔",
+                "tr": "Lütfen tansiyonu ölçün."
+            },
+            "correctAnswer": "Please measure the blood pressure.",
+            "explanation": {
+                "en": "Direct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সরাসরি অনুবাদ।",
+                "hi": "जर्मन वाक्य का सीधा अनुवाद।",
+                "ur": "جرمن جملے کا براہ راست ترجمہ۔",
+                "tr": "Almanca cümlenin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e05_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Das Skalpell ist steril.",
+                "en": "The scalpel is sterile.",
+                "bn": "স্কাল্পেলটি জীবাণুমুক্ত।",
+                "hi": "स्केलपेल बाँझ है।",
+                "ur": "سکیلپل جراثیم سے پاک ہے۔",
+                "tr": "Neşter sterildir."
+            },
+            "correctAnswer": "The scalpel is sterile.",
+            "explanation": {
+                "en": "Direct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সরাসরি অনুবাদ।",
+                "hi": "जर्मन वाक्य का सीधा अनुवाद।",
+                "ur": "جرمن جملے کا براہ راست ترجمہ۔",
+                "tr": "Almanca cümlenin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e05_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

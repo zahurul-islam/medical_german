@@ -147,7 +147,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get summary => 'सारांश';
 
   @override
-  String get learningObjectives => 'Learning Objectives';
+  String get learningObjectives => 'सीखने के उद्देश्य';
 
   @override
   String get flashcards => 'फ्लैशकार्ड';

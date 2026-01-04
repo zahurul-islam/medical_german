@@ -1,1 +1,1553 @@
-{"id":"section_43","phaseId":"phase3","order":43,"titleDe":"Work-Life-Balance","title":{"en":"Work-Life Balance","bn":"Work-Life Balance","hi":"Work-Life Balance","ur":"Work-Life Balance","tr":"Work-Life Balance"},"level":"C1","estimatedMinutes":40,"vocabulary":[{"id":"v43_01","germanTerm":"Fachbegriff","article":"der","plural":"Fachbegriffe","translation":{"en":"Technical Term","bn":"টেকনিক্যাল টার্ম","hi":"तकनीकी शब्द","ur":"تکنیکی اصطلاح","tr":"Teknik terim"}}],"dialogues":[{"id":"d43_01","title":{"en":"Professional Scenario"},"lines":[{"speaker":"Oberarzt","germanText":"Professional dialogue for Work-Life Balance.","translation":{"en":"Professional dialogue for Work-Life Balance."}}]}],"exercises":[{"id":"e43_01","type":"multipleChoice","question":{"en":"Advanced question for Work-Life Balance?"},"options":["Option A","Option B","Option C"],"correctAnswer":"Option A","points":15}]}
+{
+    "id": "section_43",
+    "phaseId": "phase3",
+    "order": 43,
+    "titleDe": "Work-Life-Balance",
+    "title": {
+        "en": "Work-Life Balance in Medical Training: Continuing Education, Specialization, Working Hours, Overtime, Vacation",
+        "de": "Work-Life-Balance in der medizinischen Ausbildung: Weiterbildung, Facharztausbildung, Arbeitszeit, Überstunden, Urlaub",
+        "bn": "মেডিকেল ট্রেনিং-এ কাজের চাপ এবং ব্যক্তিগত জীবনের ভারসাম্য: আরও শিক্ষা, বিশেষজ্ঞ হওয়ার প্রশিক্ষণ, কাজের সময়, অতিরিক্ত কাজ, ছুটি",
+        "hi": "चिकित्सा प्रशिक्षण में कार्य-जीवन संतुलन: सतत शिक्षा, विशेषज्ञता प्रशिक्षण, काम के घंटे, ओवरटाइम, छुट्टी",
+        "ur": "طبی تربیت میں کام کی زندگی کا توازن: مزید تعلیم، مہارت کا تربیتی پروگرام، کام کے اوقات، اوور ٹائم، تعطیلات",
+        "tr": "Tıp Eğitiminde İş-Yaşam Dengesi: Sürekli Eğitim, Uzmanlık Eğitimi, Çalışma Saatleri, Fazla Mesai, Tatil"
+    },
+    "description": {
+        "en": "This section explores the challenges and strategies for achieving work-life balance during medical training in Germany, including aspects of continuing education, specialist training, working hours, overtime, and vacation.",
+        "de": "Dieser Abschnitt untersucht die Herausforderungen und Strategien zur Erreichung der Work-Life-Balance während der medizinischen Ausbildung in Deutschland, einschließlich Aspekten der Weiterbildung, Facharztausbildung, Arbeitszeit, Überstunden und Urlaub.",
+        "bn": "এই বিভাগে জার্মানির মেডিকেল ট্রেনিংয়ের সময় কাজের চাপ এবং ব্যক্তিগত জীবনের ভারসাম্য রক্ষার চ্যালেঞ্জ এবং কৌশলগুলি আলোচনা করা হয়েছে, যার মধ্যে আরও শিক্ষা, বিশেষজ্ঞ হওয়ার প্রশিক্ষণ, কাজের সময়, অতিরিক্ত কাজ এবং ছুটির মতো বিষয়গুলি অন্তর্ভুক্ত।",
+        "hi": "यह अनुभाग जर्मनी में चिकित्सा प्रशिक्षण के दौरान कार्य-जीवन संतुलन प्राप्त करने की चुनौतियों और रणनीतियों का पता लगाता है, जिसमें सतत शिक्षा, विशेषज्ञता प्रशिक्षण, काम के घंटे, ओवरटाइम और छुट्टी के पहलू शामिल हैं।",
+        "ur": "یہ سیکشن جرمنی میں طبی تربیت کے دوران کام کی زندگی کا توازن حاصل کرنے کے چیلنجوں اور حکمت عملیوں کی کھوج کرتا ہے، جس میں مزید تعلیم، مہارت کا تربیتی پروگرام، کام کے اوقات، اوور ٹائم، اور تعطیلات کے پہلو شامل ہیں۔",
+        "tr": "Bu bölüm, Almanya'daki tıp eğitimi sırasında iş-yaşam dengesini sağlamaya yönelik zorlukları ve stratejileri, sürekli eğitim, uzmanlık eğitimi, çalışma saatleri, fazla mesai ve tatil gibi hususları incelemektedir."
+    },
+    "level": "C1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, we will delve into the practical aspects of maintaining work-life balance during the demanding years of medical training. We will also explore how German medical institutions are addressing the need for better work-life integration for their doctors.",
+            "de": "In diesem Abschnitt werden wir uns mit den praktischen Aspekten der Aufrechterhaltung der Work-Life-Balance während der anspruchsvollen Jahre der medizinischen Ausbildung befassen. Wir werden auch untersuchen, wie deutsche medizinische Einrichtungen auf die Notwendigkeit einer besseren Integration von Beruf und Privatleben für ihre Ärzte eingehen.",
+            "bn": "এই বিভাগে, আমরা মেডিকেল ট্রেনিংয়ের কঠিন বছরগুলিতে কাজের চাপ এবং ব্যক্তিগত জীবনের ভারসাম্য বজায় রাখার বাস্তব দিকগুলি নিয়ে আলোচনা করব। আমরা জার্মান মেডিকেল প্রতিষ্ঠানগুলি কীভাবে তাদের ডাক্তারদের জন্য আরও ভালভাবে কাজের চাপ এবং ব্যক্তিগত জীবনের সমন্বয়ের প্রয়োজনীয়তা মোকাবিলা করছে তাও দেখব।",
+            "hi": "इस खंड में, हम चिकित्सा प्रशिक्षण के मांगलिक वर्षों के दौरान कार्य-जीवन संतुलन बनाए रखने के व्यावहारिक पहलुओं पर गहराई से विचार करेंगे। हम यह भी पता लगाएंगे कि जर्मन चिकित्सा संस्थान अपने डॉक्टरों के लिए बेहतर कार्य-जीवन एकीकरण की आवश्यकता को कैसे संबोधित कर रहे हैं।",
+            "ur": "اس سیکشن میں، ہم طبی تربیت کے مطالباتی سالوں کے دوران کام کی زندگی کا توازن برقرار رکھنے کے عملی پہلوؤں پر گہرائی سے غور کریں گے۔ ہم یہ بھی دریافت کریں گے کہ جرمن طبی ادارے اپنے ڈاکٹروں کے لئے کام کی زندگی کے بہتر انضمام کی ضرورت کو کس طرح حل کر رہے ہیں۔",
+            "tr": "Bu bölümde, tıp eğitiminin zorlu yıllarında iş-yaşam dengesini korumanın pratik yönlerini inceleyeceğiz. Ayrıca Alman tıp kurumlarının doktorları için daha iyi bir iş-yaşam entegrasyonu ihtiyacını nasıl ele aldığını da keşfedeceğiz."
+        },
+        "grammarFocus": {
+            "en": "- Use of modal verbs (müssen, sollen, können) to express obligations and possibilities related to working hours and vacation requests.\n- Formation of compound nouns related to work and leisure (z.B., Arbeitszeitmodell, Freizeitaktivitäten).",
+            "de": "- Verwendung von Modalverben (müssen, sollen, können), um Verpflichtungen und Möglichkeiten im Zusammenhang mit Arbeitszeit und Urlaubsanträgen auszudrücken.\n- Bildung von zusammengesetzten Nomen im Zusammenhang mit Arbeit und Freizeit (z. B. Arbeitszeitmodell, Freizeitaktivitäten).",
+            "bn": "- কাজের সময় এবং ছুটির অনুরোধ সম্পর্কিত বাধ্যবাধকতা এবং সম্ভাবনা প্রকাশ করতে মোডাল ক্রিয়াগুলির (müssen, sollen, können) ব্যবহার।\n- কাজ এবং অবসর সম্পর্কিত যৌগিক বিশেষ্য গঠন (যেমন, Arbeitszeitmodell, Freizeitaktivitäten)।",
+            "hi": "- काम के घंटे और छुट्टी के अनुरोधों से संबंधित दायित्वों और संभावनाओं को व्यक्त करने के लिए मोडल क्रियाओं (müssen, sollen, können) का उपयोग।\n- काम और अवकाश से संबंधित यौगिक संज्ञाओं का निर्माण (जैसे, Arbeitszeitmodell, Freizeitaktivitäten)।",
+            "ur": "- کام کے اوقات اور چھٹی کی درخواستوں سے متعلق ذمہ داریوں اور امکانات کو ظاہر کرنے کے لئے موڈل فعل (müssen, sollen, können) کا استعمال۔\n- کام اور تفریح سے متعلق جامع اسم کی تشکیل (جیسے، Arbeitszeitmodell, Freizeitaktivitäten)۔",
+            "tr": "- Çalışma saatleri ve izin talepleriyle ilgili yükümlülükleri ve olasılıkları ifade etmek için modal fiillerin (müssen, sollen, können) kullanımı.\n- İş ve boş zamanla ilgili birleşik isimlerin oluşturulması (örn. Arbeitszeitmodell, Freizeitaktivitäten)."
+        },
+        "culturalNotes": {
+            "en": "German hospitals are increasingly recognizing the importance of work-life balance and are implementing strategies such as flexible working hours and childcare support, although the extent of implementation can vary significantly between institutions.",
+            "de": "Deutsche Krankenhäuser erkennen zunehmend die Bedeutung der Work-Life-Balance und implementieren Strategien wie flexible Arbeitszeiten und Kinderbetreuung, obwohl der Umfang der Umsetzung zwischen den Institutionen stark variieren kann.",
+            "bn": "জার্মান হাসপাতালগুলি কাজের চাপ এবং ব্যক্তিগত জীবনের ভারসাম্যের গুরুত্ব ক্রমশ উপলব্ধি করছে এবং নমনীয় কাজের সময় এবং শিশু যত্নের সহায়তার মতো কৌশলগুলি বাস্তবায়ন করছে, যদিও বাস্তবায়নের মাত্রা প্রতিষ্ঠান ভেদে যথেষ্ট ভিন্ন হতে পারে।",
+            "hi": "जर्मन अस्पताल तेजी से कार्य-जीवन संतुलन के महत्व को पहचान रहे हैं और लचीले काम के घंटे और चाइल्डकैअर समर्थन जैसी रणनीतियों को लागू कर रहे हैं, हालांकि कार्यान्वयन की सीमा संस्थानों के बीच काफी भिन्न हो सकती है।",
+            "ur": "جرمن ہسپتال کام کی زندگی کے توازن کی اہمیت کو تیزی سے پہچان رہے ہیں اور لچکدار کام کے اوقات اور بچوں کی دیکھ بھال کی حمایت جیسی حکمت عملیوں کو نافذ کر رہے ہیں، حالانکہ عمل درآمد کی حد اداروں کے درمیان نمایاں طور پر مختلف ہوسکتی ہے۔",
+            "tr": "Alman hastaneleri iş-yaşam dengesinin önemini giderek daha fazla fark etmekte ve esnek çalışma saatleri ve çocuk bakım desteği gibi stratejiler uygulamaktadır, ancak uygulamanın kapsamı kurumlar arasında önemli ölçüde değişiklik gösterebilir."
+        },
+        "summary": {
+            "en": "Understanding the nuances of work-life balance is crucial for successful medical training and a sustainable career in Germany.",
+            "de": "Das Verständnis der Nuancen der Work-Life-Balance ist entscheidend für eine erfolgreiche medizinische Ausbildung und eine nachhaltige Karriere in Deutschland.",
+            "bn": "কাজের চাপ এবং ব্যক্তিগত জীবনের ভারসাম্যের সূক্ষ্মতা বোঝা জার্মানির সফল মেডিকেল ট্রেনিং এবং একটি টেকসই ক্যারিয়ারের জন্য অত্যন্ত গুরুত্বপূর্ণ।",
+            "hi": "कार्य-जीवन संतुलन की बारीकियों को समझना जर्मनी में सफल चिकित्सा प्रशिक्षण और एक स्थायी कैरियर के लिए महत्वपूर्ण है।",
+            "ur": "کام کی زندگی کے توازن کی باریکیوں کو سمجھنا جرمنی میں کامیاب طبی تربیت اور ایک پائیدار کیریئر کے لئے بہت ضروری ہے۔",
+            "tr": "İş-yaşam dengesinin nüanslarını anlamak, Almanya'da başarılı bir tıp eğitimi ve sürdürülebilir bir kariyer için çok önemlidir."
+        },
+        "learningObjectives": [
+            "Describe common challenges to work-life balance during medical residency in Germany.",
+            "Explain strategies for managing time effectively and preventing burnout.",
+            "Identify relevant legal regulations regarding working hours, overtime, and vacation for medical professionals in Germany.",
+            "Discuss the role of German hospitals in promoting a healthy work-life balance for their employees."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "Work-Life-Balance",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈvœrkˌlaɪfˌbæləns/",
+            "category": "noun",
+            "translation": {
+                "en": "work-life balance",
+                "bn": "কর্ম-জীবন ভারসাম্য",
+                "hi": "कार्य-जीवन संतुलन",
+                "ur": "کام اور زندگی میں توازن",
+                "tr": "iş-yaşam dengesi"
+            },
+            "exampleSentence": "Eine gute Work-Life-Balance ist wichtig für die Gesundheit der Ärzte.",
+            "exampleTranslation": {
+                "en": "A good work-life balance is important for the health of doctors.",
+                "bn": "ডাক্তারদের স্বাস্থ্যের জন্য একটি ভাল কর্ম-জীবন ভারসাম্য গুরুত্বপূর্ণ।",
+                "hi": "डॉक्टरों के स्वास्थ्य के लिए एक अच्छा कार्य-जीवन संतुलन महत्वपूर्ण है।",
+                "ur": "ڈاکٹروں کی صحت کے لیے ایک اچھا کام اور زندگی میں توازن ضروری ہے۔",
+                "tr": "Doktorların sağlığı için iyi bir iş-yaşam dengesi önemlidir."
+            },
+            "id": "v43_01"
+        },
+        {
+            "germanTerm": "Weiterbildung",
+            "article": "die",
+            "plural": "Weiterbildungen",
+            "pronunciation": "/ˈvaɪ̯tɐˌbɪldʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "further education, professional development",
+                "bn": "উচ্চশিক্ষা, পেশাদার উন্নয়ন",
+                "hi": "आगे की शिक्षा, व्यावसायिक विकास",
+                "ur": "اعلیٰ تعلیم، پیشہ ورانہ ترقی",
+                "tr": "ileri eğitim, mesleki gelişim"
+            },
+            "exampleSentence": "Die Weiterbildung im Bereich der Kardiologie ist sehr anspruchsvoll.",
+            "exampleTranslation": {
+                "en": "Further education in the field of cardiology is very demanding.",
+                "bn": "কার্ডিওলজি ক্ষেত্রে উচ্চশিক্ষা খুব চাহিদাযুক্ত।",
+                "hi": "हृदय रोग के क्षेत्र में आगे की शिक्षा बहुत मांगलिक है।",
+                "ur": "کارڈیالوجی کے میدان میں اعلیٰ تعلیم بہت مشکل ہے۔",
+                "tr": "Kardiyoloji alanında ileri eğitim çok zorludur."
+            },
+            "id": "v43_02"
+        },
+        {
+            "germanTerm": "Facharzausbildung",
+            "article": "die",
+            "plural": "Facharzausbildungen",
+            "pronunciation": "/ˈfaxʔaːɐ̯tsˌʔaʊ̯sˌbɪldʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "specialist medical training",
+                "bn": "বিশেষজ্ঞ মেডিকেল প্রশিক্ষণ",
+                "hi": "विशेषज्ञ चिकित्सा प्रशिक्षण",
+                "ur": "ماہر طبی تربیت",
+                "tr": "uzmanlık eğitimi"
+            },
+            "exampleSentence": "Die Facharztausbildung dauert in der Regel fünf bis sechs Jahre.",
+            "exampleTranslation": {
+                "en": "Specialist medical training usually lasts five to six years.",
+                "bn": "বিশেষজ্ঞ মেডিকেল প্রশিক্ষণ সাধারণত পাঁচ থেকে ছয় বছর স্থায়ী হয়।",
+                "hi": "विशेषज्ञ चिकित्सा प्रशिक्षण आमतौर पर पांच से छह साल तक चलता है।",
+                "ur": "ماہر طبی تربیت عام طور پر پانچ سے چھ سال تک جاری رہتی ہے۔",
+                "tr": "Uzmanlık eğitimi genellikle beş ila altı yıl sürer."
+            },
+            "id": "v43_03"
+        },
+        {
+            "germanTerm": "Arbeitszeit",
+            "article": "die",
+            "plural": "Arbeitszeiten",
+            "pronunciation": "/ˈaʁbaɪ̯t͡sˌt͡saɪ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "working hours",
+                "bn": "কাজের সময়",
+                "hi": "काम करने के घंटे",
+                "ur": "کام کے اوقات",
+                "tr": "çalışma saatleri"
+            },
+            "exampleSentence": "Die Arbeitszeit im Krankenhaus ist oft sehr unregelmäßig.",
+            "exampleTranslation": {
+                "en": "Working hours in the hospital are often very irregular.",
+                "bn": "হাসপাতালে কাজের সময় প্রায়শই খুব অনিয়মিত।",
+                "hi": "अस्पताल में काम करने के घंटे अक्सर बहुत अनियमित होते हैं।",
+                "ur": "ہسپتال میں کام کے اوقات اکثر بہت بے قاعدہ ہوتے ہیں۔",
+                "tr": "Hastanede çalışma saatleri genellikle çok düzensizdir."
+            },
+            "id": "v43_04"
+        },
+        {
+            "germanTerm": "Überstunden",
+            "article": "die",
+            "plural": "Überstunden",
+            "pronunciation": "/ˈyːbɐˌʃtʊndn̩/",
+            "category": "noun",
+            "translation": {
+                "en": "overtime",
+                "bn": "অতিরিক্ত সময়",
+                "hi": "अतिरिक्त समय",
+                "ur": "اضافی وقت",
+                "tr": "fazla mesai"
+            },
+            "exampleSentence": "Ärzte machen oft viele Überstunden.",
+            "exampleTranslation": {
+                "en": "Doctors often work a lot of overtime.",
+                "bn": "ডাক্তাররা প্রায়শই অনেক অতিরিক্ত সময় কাজ করেন।",
+                "hi": "डॉक्टर अक्सर बहुत अधिक अतिरिक्त समय काम करते हैं।",
+                "ur": "ڈاکٹر اکثر بہت زیادہ اضافی وقت کام کرتے ہیں۔",
+                "tr": "Doktorlar genellikle çok fazla fazla mesai yaparlar."
+            },
+            "id": "v43_05"
+        },
+        {
+            "germanTerm": "Urlaub",
+            "article": "der",
+            "plural": "Urlaube",
+            "pronunciation": "/ˈuːɐ̯laʊ̯p/",
+            "category": "noun",
+            "translation": {
+                "en": "vacation, holiday",
+                "bn": "ছুটি",
+                "hi": "छुट्टी",
+                "ur": "چھٹی",
+                "tr": "tatil"
+            },
+            "exampleSentence": "Ich brauche dringend Urlaub, um mich zu erholen.",
+            "exampleTranslation": {
+                "en": "I urgently need a vacation to recover.",
+                "bn": "আমার পুনরুদ্ধারের জন্য জরুরিভাবে একটি ছুটি দরকার।",
+                "hi": "मुझे ठीक होने के लिए तत्काल छुट्टी चाहिए।",
+                "ur": "مجھے صحت یاب ہونے کے لیے فوری طور پر چھٹی کی ضرورت ہے۔",
+                "tr": "Dinlenmek için acilen bir tatile ihtiyacım var."
+            },
+            "id": "v43_06"
+        },
+        {
+            "germanTerm": "Belastung",
+            "article": "die",
+            "plural": "Belastungen",
+            "pronunciation": "/bəˈlastʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "burden, stress",
+                "bn": "বোঝা, চাপ",
+                "hi": "बोझ, तनाव",
+                "ur": "بوجھ، تناؤ",
+                "tr": "yük, stres"
+            },
+            "exampleSentence": "Die psychische Belastung im Beruf ist hoch.",
+            "exampleTranslation": {
+                "en": "The psychological burden in the profession is high.",
+                "bn": "পেশায় মানসিক চাপ বেশি।",
+                "hi": "पेशे में मनोवैज्ञानिक बोझ अधिक है।",
+                "ur": "پیشہ میں نفسیاتی بوجھ زیادہ ہے۔",
+                "tr": "Meslekteki psikolojik yük yüksektir."
+            },
+            "id": "v43_07"
+        },
+        {
+            "germanTerm": "Stress",
+            "article": "der",
+            "plural": "Stresse",
+            "pronunciation": "/ʃtʁɛs/",
+            "category": "noun",
+            "translation": {
+                "en": "stress",
+                "bn": "চাপ",
+                "hi": "तनाव",
+                "ur": "تناؤ",
+                "tr": "stres"
+            },
+            "exampleSentence": "Chronischer Stress kann zu Burnout führen.",
+            "exampleTranslation": {
+                "en": "Chronic stress can lead to burnout.",
+                "bn": "দীর্ঘস্থায়ী চাপ বার্নআউটের দিকে পরিচালিত করতে পারে।",
+                "hi": "पुराना तनाव बर्नआउट का कारण बन सकता है।",
+                "ur": "دائمی تناؤ برن آؤٹ کا باعث بن سکتا ہے۔",
+                "tr": "Kronik stres tükenmeye yol açabilir."
+            },
+            "id": "v43_08"
+        },
+        {
+            "germanTerm": "Burnout",
+            "article": "das",
+            "plural": "Burnouts",
+            "pronunciation": "/ˈbœːɐ̯nˌʔaʊ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "burnout",
+                "bn": "ক্লান্তি",
+                "hi": "बर्नआउट",
+                "ur": "تھکاوٹ",
+                "tr": "tükenmişlik"
+            },
+            "exampleSentence": "Viele Ärzte leiden unter Burnout-Syndrom.",
+            "exampleTranslation": {
+                "en": "Many doctors suffer from burnout syndrome.",
+                "bn": "অনেক ডাক্তার বার্নআউট সিন্ড্রোমে ভুগছেন।",
+                "hi": "कई डॉक्टर बर्नआउट सिंड्रोम से पीड़ित हैं।",
+                "ur": "بہت سے ڈاکٹر برن آؤٹ سنڈروم کا شکار ہیں۔",
+                "tr": "Birçok doktor tükenmişlik sendromundan muzdariptir."
+            },
+            "id": "v43_09"
+        },
+        {
+            "germanTerm": "Entspannung",
+            "article": "die",
+            "plural": "Entspannungen",
+            "pronunciation": "/ɛntˈʃpanʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "relaxation",
+                "bn": "বিশ্রাম",
+                "hi": "आराम",
+                "ur": "آرام",
+                "tr": "rahatlama"
+            },
+            "exampleSentence": "Regelmäßige Entspannung ist wichtig für die Gesundheit.",
+            "exampleTranslation": {
+                "en": "Regular relaxation is important for health.",
+                "bn": "নিয়মিত বিশ্রাম স্বাস্থ্যের জন্য গুরুত্বপূর্ণ।",
+                "hi": "नियमित आराम स्वास्थ्य के लिए महत्वपूर्ण है।",
+                "ur": "باقاعدہ آرام صحت کے لیے اہم ہے۔",
+                "tr": "Düzenli rahatlama sağlık için önemlidir."
+            },
+            "id": "v43_10"
+        },
+        {
+            "germanTerm": "Freizeit",
+            "article": "die",
+            "plural": "Freizeiten",
+            "pronunciation": "/ˈfʁaɪ̯ˌt͡saɪ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "leisure time, free time",
+                "bn": "অবসর সময়",
+                "hi": "फुरसत का समय",
+                "ur": "فارغ وقت",
+                "tr": "boş zaman"
+            },
+            "exampleSentence": "Ich verbringe meine Freizeit gerne mit meiner Familie.",
+            "exampleTranslation": {
+                "en": "I like to spend my free time with my family.",
+                "bn": "আমি আমার অবসর সময় পরিবারের সাথে কাটাতে পছন্দ করি।",
+                "hi": "मुझे अपना खाली समय अपने परिवार के साथ बिताना अच्छा लगता है।",
+                "ur": "میں اپنا فارغ وقت اپنے اہل خانہ کے ساتھ گزارنا پسند کرتا ہوں۔",
+                "tr": "Boş zamanımı ailemle geçirmeyi severim."
+            },
+            "id": "v43_11"
+        },
+        {
+            "germanTerm": "Schichtdienst",
+            "article": "der",
+            "plural": "Schichtdienste",
+            "pronunciation": "/ˈʃɪçtˌdiːnst/",
+            "category": "noun",
+            "translation": {
+                "en": "shift work",
+                "bn": "পালা করে কাজ করা",
+                "hi": "शिफ्ट में काम करना",
+                "ur": "شفٹوں میں کام کرنا",
+                "tr": "vardiyalı çalışma"
+            },
+            "exampleSentence": "Der Schichtdienst kann sehr belastend sein.",
+            "exampleTranslation": {
+                "en": "Shift work can be very stressful.",
+                "bn": "পালা করে কাজ করা খুব চাপযুক্ত হতে পারে।",
+                "hi": "शिफ्ट में काम करना बहुत तनावपूर्ण हो सकता है।",
+                "ur": "شفٹوں میں کام کرنا بہت تناؤ کا باعث بن سکتا ہے۔",
+                "tr": "Vardiyalı çalışma çok stresli olabilir."
+            },
+            "id": "v43_12"
+        },
+        {
+            "germanTerm": "Nachtdienst",
+            "article": "der",
+            "plural": "Nachtdienste",
+            "pronunciation": "/ˈnaxtˌdiːnst/",
+            "category": "noun",
+            "translation": {
+                "en": "night shift",
+                "bn": "রাতের শিফট",
+                "hi": "रात्रि पाली",
+                "ur": "رات کی شفٹ",
+                "tr": "gece vardiyası"
+            },
+            "exampleSentence": "Der Nachtdienst ist besonders anstrengend.",
+            "exampleTranslation": {
+                "en": "The night shift is particularly tiring.",
+                "bn": "রাতের শিফট বিশেষভাবে ক্লান্তিকর।",
+                "hi": "रात्रि पाली विशेष रूप से थकाऊ है।",
+                "ur": "رات کی شفٹ خاص طور پر تھکا دینے والی ہوتی ہے۔",
+                "tr": "Gece vardiyası özellikle yorucudur."
+            },
+            "id": "v43_13"
+        },
+        {
+            "germanTerm": "Rufbereitschaft",
+            "article": "die",
+            "plural": "Rufbereitschaften",
+            "pronunciation": "/ˈʁuːfˌbəʁaɪ̯tʃaft/",
+            "category": "noun",
+            "translation": {
+                "en": "on-call duty",
+                "bn": "অন-কল ডিউটি",
+                "hi": "ऑन-कॉल ड्यूटी",
+                "ur": "آن کال ڈیوٹی",
+                "tr": "nöbet görevi"
+            },
+            "exampleSentence": "Ich habe heute Rufbereitschaft.",
+            "exampleTranslation": {
+                "en": "I'm on call today.",
+                "bn": "আজ আমার অন-কল ডিউটি আছে।",
+                "hi": "आज मेरी ऑन-कॉल ड्यूटी है।",
+                "ur": "آج میری آن کال ڈیوٹی ہے۔",
+                "tr": "Bugün nöbetim var."
+            },
+            "id": "v43_14"
+        },
+        {
+            "germanTerm": "Freizeitausgleich",
+            "article": "der",
+            "plural": "Freizeitausgleiche",
+            "pronunciation": "/ˈfʁaɪ̯ˌt͡saɪ̯tˌʔaʊ̯sˌɡlaɪ̯ç/",
+            "category": "noun",
+            "translation": {
+                "en": "time off in lieu",
+                "bn": "বদলি ছুটি",
+                "hi": "बदली छुट्टी",
+                "ur": "متبادل چھٹی",
+                "tr": "izin telafisi"
+            },
+            "exampleSentence": "Ich bekomme Freizeitausgleich für die Überstunden.",
+            "exampleTranslation": {
+                "en": "I get time off in lieu for the overtime.",
+                "bn": "আমি অতিরিক্ত সময়ের জন্য বদলি ছুটি পাই।",
+                "hi": "मुझे ओवरटाइम के लिए बदली छुट्टी मिलती है।",
+                "ur": "مجھے اضافی وقت کے لیے متبادل چھٹی ملتی ہے۔",
+                "tr": "Fazla mesai için izin telafisi alıyorum."
+            },
+            "id": "v43_15"
+        },
+        {
+            "germanTerm": "Vereinbarkeit",
+            "article": "die",
+            "plural": "Vereinbarkeiten",
+            "pronunciation": "/fɛɐ̯ˈʔaɪ̯nbaːɐ̯kaɪ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "compatibility, balance",
+                "bn": "সামঞ্জস্য, ভারসাম্য",
+                "hi": "अनुकूलता, संतुलन",
+                "ur": "مطابقت، توازن",
+                "tr": "uyumluluk, denge"
+            },
+            "exampleSentence": "Die Vereinbarkeit von Familie und Beruf ist oft schwierig.",
+            "exampleTranslation": {
+                "en": "Balancing family and career is often difficult.",
+                "bn": "পরিবার এবং কর্মজীবনের সামঞ্জস্য প্রায়শই কঠিন।",
+                "hi": "परिवार और करियर में संतुलन अक्सर मुश्किल होता है।",
+                "ur": "خاندان اور کیریئر میں توازن اکثر مشکل ہوتا ہے۔",
+                "tr": "Aile ve kariyerin uyumu genellikle zordur."
+            },
+            "id": "v43_16"
+        },
+        {
+            "germanTerm": "Ressourcen",
+            "article": "die",
+            "plural": "Ressourcen",
+            "pronunciation": "/ʁeˈsʊʁsn̩/",
+            "category": "noun",
+            "translation": {
+                "en": "resources",
+                "bn": "সম্পদ",
+                "hi": "संसाधन",
+                "ur": "وسائل",
+                "tr": "kaynaklar"
+            },
+            "exampleSentence": "Wir müssen die Ressourcen besser nutzen.",
+            "exampleTranslation": {
+                "en": "We need to make better use of resources.",
+                "bn": "আমাদের সম্পদগুলি আরও ভালভাবে ব্যবহার করতে হবে।",
+                "hi": "हमें संसाधनों का बेहतर उपयोग करने की आवश्यकता है।",
+                "ur": "ہمیں وسائل کو بہتر طریقے سے استعمال کرنے کی ضرورت ہے۔",
+                "tr": "Kaynakları daha iyi kullanmamız gerekiyor."
+            },
+            "id": "v43_17"
+        },
+        {
+            "germanTerm": "Psychohygiene",
+            "article": "die",
+            "plural": null,
+            "pronunciation": "/psyçoˈhyɡi̯eːnə/",
+            "category": "noun",
+            "translation": {
+                "en": "mental hygiene",
+                "bn": "মানসিক স্বাস্থ্যবিধি",
+                "hi": "मानसिक स्वच्छता",
+                "ur": "ذہنی حفظان صحت",
+                "tr": "ruh sağlığı"
+            },
+            "exampleSentence": "Psychohygiene ist für Ärzte sehr wichtig.",
+            "exampleTranslation": {
+                "en": "Mental hygiene is very important for doctors.",
+                "bn": "মানসিক স্বাস্থ্যবিধি ডাক্তারদের জন্য খুবই গুরুত্বপূর্ণ।",
+                "hi": "मानसिक स्वच्छता डॉक्टरों के लिए बहुत महत्वपूर्ण है।",
+                "ur": "ڈاکٹروں کے لیے ذہنی حفظان صحت بہت ضروری ہے۔",
+                "tr": "Ruh sağlığı doktorlar için çok önemlidir."
+            },
+            "id": "v43_18"
+        },
+        {
+            "germanTerm": "Stressbewältigung",
+            "article": "die",
+            "plural": "Stressbewältigungen",
+            "pronunciation": "/ˈʃtʁɛs.bəˌvɛltɪɡʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "stress management",
+                "bn": "চাপ ব্যবস্থাপনা",
+                "hi": "तनाव प्रबंधन",
+                "ur": "تناؤ کا انتظام",
+                "tr": "stres yönetimi"
+            },
+            "exampleSentence": "Stressbewältigung kann durch Sport oder Meditation erfolgen.",
+            "exampleTranslation": {
+                "en": "Stress management can be achieved through sport or meditation.",
+                "bn": "খেলাধুলা বা ধ্যানের মাধ্যমে চাপ ব্যবস্থাপনা করা যেতে পারে।",
+                "hi": "खेल या ध्यान के माध्यम से तनाव प्रबंधन किया जा सकता है।",
+                "ur": "کھیل یا مراقبہ کے ذریعے تناؤ کا انتظام کیا جا سکتا ہے۔",
+                "tr": "Stres yönetimi spor veya meditasyon yoluyla sağlanabilir."
+            },
+            "id": "v43_19"
+        },
+        {
+            "germanTerm": "Unterstützung",
+            "article": "die",
+            "plural": "Unterstützungen",
+            "pronunciation": "/ʊntɐˈʃtʏt͡sʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "support",
+                "bn": "সমর্থন",
+                "hi": "समर्थन",
+                "ur": "حمایت",
+                "tr": "destek"
+            },
+            "exampleSentence": "Ärzte brauchen Unterstützung von Kollegen und Vorgesetzten.",
+            "exampleTranslation": {
+                "en": "Doctors need support from colleagues and supervisors.",
+                "bn": "ডাক্তারদের সহকর্মী এবং তত্ত্বাবধায়কদের কাছ থেকে সমর্থন প্রয়োজন।",
+                "hi": "डॉक्टरों को सहयोगियों और पर्यवेक्षकों से समर्थन की आवश्यकता होती है।",
+                "ur": "ڈاکٹروں کو ساتھیوں اور نگرانوں کی مدد کی ضرورت ہوتی ہے۔",
+                "tr": "Doktorların meslektaşlarından ve amirlerinden desteğe ihtiyacı vardır."
+            },
+            "id": "v43_20"
+        },
+        {
+            "germanTerm": "Mentoring",
+            "article": "das",
+            "plural": "Mentorings",
+            "pronunciation": "/ˈmɛntoːʁɪŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "mentoring",
+                "bn": "পরামর্শ",
+                "hi": "मार्गदर्शन",
+                "ur": "رہنمائی",
+                "tr": "mentorluk"
+            },
+            "exampleSentence": "Mentoring kann jungen Ärzten helfen, sich zu entwickeln.",
+            "exampleTranslation": {
+                "en": "Mentoring can help young doctors develop.",
+                "bn": "পরামর্শ তরুণ ডাক্তারদের বিকাশে সহায়তা করতে পারে।",
+                "hi": "मार्गदर्शन युवा डॉक्टरों को विकसित होने में मदद कर सकता है।",
+                "ur": "رہنمائی نوجوان ڈاکٹروں کو ترقی کرنے میں مدد کر سکتی ہے۔",
+                "tr": "Mentorluk genç doktorların gelişmesine yardımcı olabilir."
+            },
+            "id": "v43_21"
+        },
+        {
+            "germanTerm": "Teamarbeit",
+            "article": "die",
+            "plural": null,
+            "pronunciation": "/ˈteːmˌʔaʁbaɪ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "teamwork",
+                "bn": "দলবদ্ধভাবে কাজ করা",
+                "hi": "टीम वर्क",
+                "ur": "ٹیم ورک",
+                "tr": "takım çalışması"
+            },
+            "exampleSentence": "Teamarbeit ist im Krankenhaus unerlässlich.",
+            "exampleTranslation": {
+                "en": "Teamwork is essential in the hospital.",
+                "bn": "হাসপাতালে দলবদ্ধভাবে কাজ করা অপরিহার্য।",
+                "hi": "अस्पताल में टीम वर्क आवश्यक है।",
+                "ur": "ہسپتال میں ٹیم ورک ضروری ہے۔",
+                "tr": "Hastanede takım çalışması şarttır."
+            },
+            "id": "v43_22"
+        },
+        {
+            "germanTerm": "Workload",
+            "article": "der",
+            "plural": "Workloads",
+            "pronunciation": "/ˈvœʁkˌloʊd/",
+            "category": "noun",
+            "translation": {
+                "en": "workload",
+                "bn": "কাজের চাপ",
+                "hi": "कार्यभार",
+                "ur": "کام کا بوجھ",
+                "tr": "iş yükü"
+            },
+            "exampleSentence": "Der hohe Workload führt oft zu Stress.",
+            "exampleTranslation": {
+                "en": "The high workload often leads to stress.",
+                "bn": "উচ্চ কাজের চাপ প্রায়শই চাপের দিকে পরিচালিত করে।",
+                "hi": "उच्च कार्यभार अक्सर तनाव की ओर ले जाता है।",
+                "ur": "کام کا زیادہ بوجھ اکثر تناؤ کا باعث بنتا ہے۔",
+                "tr": "Yüksek iş yükü genellikle strese yol açar."
+            },
+            "id": "v43_23"
+        },
+        {
+            "germanTerm": "Sabbatical",
+            "article": "das",
+            "plural": "Sabbaticals",
+            "pronunciation": "/zaˈbatɪkl/",
+            "category": "noun",
+            "translation": {
+                "en": "sabbatical",
+                "bn": "সব্বাটিকাল",
+                "hi": "सबैटिकल",
+                "ur": "سبیٹیکل",
+                "tr": "izin dönemi"
+            },
+            "exampleSentence": "Viele Ärzte nehmen sich ein Sabbatical, um sich zu erholen.",
+            "exampleTranslation": {
+                "en": "Many doctors take a sabbatical to recover.",
+                "bn": "অনেক ডাক্তার পুনরুদ্ধারের জন্য একটি সব্বাটিকাল নেন।",
+                "hi": "कई डॉक्टर ठीक होने के लिए सबैटिकल लेते हैं।",
+                "ur": "بہت سے ڈاکٹر صحت یاب ہونے کے لیے سبیٹیکل لیتے ہیں۔",
+                "tr": "Birçok doktor dinlenmek için bir izin dönemi alır."
+            },
+            "id": "v43_24"
+        },
+        {
+            "germanTerm": "Fortbildung",
+            "article": "die",
+            "plural": "Fortbildungen",
+            "pronunciation": "/ˈfɔʁtˌbɪldʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "continuing education",
+                "bn": "চলমান শিক্ষা",
+                "hi": "निरंतर शिक्षा",
+                "ur": "جاری تعلیم",
+                "tr": "sürekli eğitim"
+            },
+            "exampleSentence": "Die Fortbildung ist für Ärzte verpflichtend.",
+            "exampleTranslation": {
+                "en": "Continuing education is mandatory for doctors.",
+                "bn": "ডাক্তারদের জন্য চলমান শিক্ষা বাধ্যতামূলক।",
+                "hi": "डॉक्टरों के लिए निरंतर शिक्षा अनिवार्य है।",
+                "ur": "ڈاکٹروں کے لیے جاری تعلیم لازمی ہے۔",
+                "tr": "Sürekli eğitim doktorlar için zorunludur."
+            },
+            "id": "v43_25"
+        },
+        {
+            "germanTerm": "flexible Arbeitszeiten",
+            "article": "die",
+            "plural": null,
+            "pronunciation": "/flɛˈksɪblə ˈaʁbaɪ̯t͡sˌt͡saɪ̯tn̩/",
+            "category": "phrase",
+            "translation": {
+                "en": "flexible working hours",
+                "bn": "নমনীয় কাজের সময়",
+                "hi": "लचीले काम के घंटे",
+                "ur": "لچکدار کام کے اوقات",
+                "tr": "esnek çalışma saatleri"
+            },
+            "exampleSentence": "Flexible Arbeitszeiten können die Work-Life-Balance verbessern.",
+            "exampleTranslation": {
+                "en": "Flexible working hours can improve work-life balance.",
+                "bn": "নমনীয় কাজের সময় কর্ম-জীবন ভারসাম্য উন্নত করতে পারে।",
+                "hi": "लचीले काम के घंटे कार्य-जीवन संतुलन को बेहतर बना सकते हैं।",
+                "ur": "لچکدار کام کے اوقات کام اور زندگی میں توازن کو بہتر بنا سکتے ہیں۔",
+                "tr": "Esnek çalışma saatleri iş-yaşam dengesini iyileştirebilir."
+            },
+            "id": "v43_26"
+        },
+        {
+            "germanTerm": "Selbstfürsorge",
+            "article": "die",
+            "plural": null,
+            "pronunciation": "/ˈzɛlpstˌfyːɐ̯ˌzɔʁɡə/",
+            "category": "noun",
+            "translation": {
+                "en": "self-care",
+                "bn": "আত্ম-যত্ন",
+                "hi": "आत्म-देखभाल",
+                "ur": "خود کی دیکھ بھال",
+                "tr": "öz bakım"
+            },
+            "exampleSentence": "Selbstfürsorge ist wichtig, um Burnout vorzubeugen.",
+            "exampleTranslation": {
+                "en": "Self-care is important to prevent burnout.",
+                "bn": "বার্নআউট প্রতিরোধ করার জন্য আত্ম-যত্ন গুরুত্বপূর্ণ।",
+                "hi": "बर्नआउट को रोकने के लिए आत्म-देखभाल महत्वपूर्ण है।",
+                "ur": "برن آؤٹ کو روکنے کے لیے خود کی دیکھ بھال ضروری ہے۔",
+                "tr": "Tükenmişliği önlemek için öz bakım önemlidir."
+            },
+            "id": "v43_27"
+        },
+        {
+            "germanTerm": "Work-Life-Integration",
+            "article": "die",
+            "plural": null,
+            "pronunciation": "/ˈvœʁkˌlaɪfˌɪnteɡʁaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "work-life integration",
+                "bn": "কর্ম-জীবন একীকরণ",
+                "hi": "कार्य-जीवन एकीकरण",
+                "ur": "کام اور زندگی کا انضمام",
+                "tr": "iş-yaşam entegrasyonu"
+            },
+            "exampleSentence": "Work-Life-Integration bedeutet, dass Arbeit und Privatleben sich gegenseitig ergänzen.",
+            "exampleTranslation": {
+                "en": "Work-life integration means that work and private life complement each other.",
+                "bn": "কর্ম-জীবন একীকরণ মানে কাজ এবং ব্যক্তিগত জীবন একে অপরের পরিপূরক।",
+                "hi": "कार्य-जीवन एकीकरण का मतलब है कि काम और निजी जीवन एक दूसरे के पूरक हैं।",
+                "ur": "کام اور زندگی کا انضمام کا مطلب ہے کہ کام اور نجی زندگی ایک دوسرے کو مکمل کرتے ہیں۔",
+                "tr": "İş-yaşam entegrasyonu, iş ve özel hayatın birbirini tamamladığı anlamına gelir."
+            },
+            "id": "v43_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Work-Life Balance Discussion",
+                "bn": "কর্মজীবন এবং ব্যক্তিগত জীবনের ভারসাম্য আলোচনা",
+                "hi": "कार्य-जीवन संतुलन चर्चा",
+                "ur": "کام اور زندگی میں توازن پر گفتگو",
+                "tr": "İş-Yaşam Dengesi Tartışması"
+            },
+            "context": {
+                "en": "Dr. Schmidt and Schwester Weber are discussing the challenges of Facharztausbildung and its impact on personal time.",
+                "bn": "ডঃ শ্মিট এবং সিস্টার ওয়েবার বিশেষজ্ঞ হওয়ার প্রশিক্ষণের চ্যালেঞ্জ এবং ব্যক্তিগত সময়ের উপর এর প্রভাব নিয়ে আলোচনা করছেন।",
+                "hi": "डॉ. श्मिट और सिस्टर वेबर विशेषज्ञ बनने के प्रशिक्षण की चुनौतियों और व्यक्तिगत समय पर इसके प्रभाव पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر شمٹ اور سسٹر ویبر ماہر بننے کی تربیت کے چیلنجز اور ذاتی وقت پر اس کے اثرات پر گفتگو کر رہے ہیں۔",
+                "tr": "Dr. Schmidt ve Schwester Weber, uzmanlık eğitiminin zorluklarını ve kişisel zaman üzerindeki etkisini tartışıyorlar."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Schwester Weber, diese Facharztausbildung ist wirklich anstrengend. Kaum Freizeit.",
+                    "translation": {
+                        "en": "Sister Weber, this specialist training is really exhausting. Barely any free time.",
+                        "bn": "সিস্টার ওয়েবার, এই বিশেষজ্ঞ প্রশিক্ষণ সত্যিই ক্লান্তিকর। তেমন কোনো অবসর নেই।",
+                        "hi": "सिस्टर वेबर, यह विशेषज्ञ प्रशिक्षण वास्तव में थकाऊ है। मुश्किल से कोई खाली समय।",
+                        "ur": "سسٹر ویبر، یہ ماہر بننے کی تربیت واقعی تھکا دینے والی ہے۔ بمشکل ہی کوئی فارغ وقت ہے۔",
+                        "tr": "Schwester Weber, bu uzmanlık eğitimi gerçekten yorucu. Neredeyse hiç boş zaman yok."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Das stimmt, Herr Doktor. Viele Überstunden und wenig Planungssicherheit.",
+                    "translation": {
+                        "en": "That's right, Doctor. Lots of overtime and little planning security.",
+                        "bn": "ঠিক বলেছেন, ডাক্তার। অনেক বেশি ওভারটাইম এবং পরিকল্পনার নিরাপত্তা কম।",
+                        "hi": "सही कह रहे हैं, डॉक्टर। बहुत अधिक ओवरटाइम और योजना सुरक्षा कम।",
+                        "ur": "بالکل ٹھیک کہہ رہے ہیں، ڈاکٹر۔ بہت زیادہ اوورٹائم اور منصوبہ بندی کی حفاظت کم ہے۔",
+                        "tr": "Haklısınız, Doktor. Çok fazla fazla mesai ve az planlama güvenliği."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich überlege, ob eine Weiterbildung im Ausland eine Option wäre. Vielleicht bessere Arbeitsbedingungen.",
+                    "translation": {
+                        "en": "I'm wondering if further training abroad would be an option. Maybe better working conditions.",
+                        "bn": "আমি ভাবছি বিদেশে আরও প্রশিক্ষণ নেওয়া একটা বিকল্প হতে পারে কিনা। হয়ত ভালো কাজের পরিবেশ পাব।",
+                        "hi": "मैं सोच रहा हूँ कि क्या विदेश में आगे का प्रशिक्षण एक विकल्प होगा। शायद बेहतर काम करने की स्थिति हो।",
+                        "ur": "میں سوچ رہا ہوں کہ کیا بیرون ملک مزید تربیت ایک آپشن ہوگا۔ شاید کام کرنے کے بہتر حالات ہوں۔",
+                        "tr": "Yurt dışında daha fazla eğitim almanın bir seçenek olup olmadığını merak ediyorum. Belki daha iyi çalışma koşulları olur."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Das ist eine gute Idee. Aber vergessen Sie nicht den bürokratischen Aufwand.",
+                    "translation": {
+                        "en": "That's a good idea. But don't forget the bureaucratic effort.",
+                        "bn": "এটা একটা ভালো ধারণা। তবে আমলাতান্ত্রিক ঝামেলা ভুলবেন না।",
+                        "hi": "यह एक अच्छा विचार है। लेकिन नौकरशाही प्रयासों को न भूलें।",
+                        "ur": "یہ ایک اچھا خیال ہے۔ لیکن بیوروکریٹک کوششوں کو مت بھولیں۔",
+                        "tr": "Bu iyi bir fikir. Ama bürokratik çabayı unutmayın."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Stimmt. Ich muss mir das gut überlegen. Mein Urlaub ist auch schon wieder gestrichen worden.",
+                    "translation": {
+                        "en": "That's right. I have to think about that carefully. My vacation has also been cancelled again.",
+                        "bn": "ঠিক বলেছেন। আমাকে এটা ভালোভাবে ভাবতে হবে। আমার ছুটিও আবার বাতিল করা হয়েছে।",
+                        "hi": "सही कहा। मुझे इस बारे में सावधानी से सोचना होगा। मेरी छुट्टी भी फिर से रद्द कर दी गई है।",
+                        "ur": "بالکل ٹھیک۔ مجھے اس بارے میں احتیاط سے سوچنا ہوگا۔ میری چھٹی بھی پھر سے منسوخ کردی گئی ہے۔",
+                        "tr": "Doğru. Bunu dikkatlice düşünmeliyim. İznim de tekrar iptal edildi."
+                    }
+                }
+            ],
+            "id": "d43_01"
+        },
+        {
+            "title": {
+                "en": "Requesting Urlaub",
+                "bn": "ছুটির আবেদন",
+                "hi": "छुट्टी के लिए अनुरोध",
+                "ur": "چھٹی کے لیے درخواست",
+                "tr": "İzin İsteği"
+            },
+            "context": {
+                "en": "Assistenzarzt Müller is asking Oberarzt Dr. Klein for vacation time.",
+                "bn": "সহকারী ডাক্তার মুলার, প্রধান ডাক্তার ক্লেইনের কাছে ছুটির জন্য আবেদন করছেন।",
+                "hi": "सहायक डॉक्टर मुलर, मुख्य डॉक्टर क्लेन से छुट्टी के लिए आवेदन कर रहे हैं।",
+                "ur": "اسسٹنٹ ڈاکٹر ملر، چیف ڈاکٹر کلین سے چھٹی کے لیے درخواست کر رہے ہیں۔",
+                "tr": "Yardımcı Doktor Müller, Baş Doktor Klein'dan izin istiyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Herr Dr. Klein, ich wollte fragen, ob ich vom 15. bis 29. August Urlaub nehmen könnte?",
+                    "translation": {
+                        "en": "Dr. Klein, I wanted to ask if I could take vacation from August 15th to 29th?",
+                        "bn": "ডঃ ক্লেইন, আমি জানতে চেয়েছিলাম যে আমি ১৫ থেকে ২৯শে আগস্ট পর্যন্ত ছুটি নিতে পারবো কিনা?",
+                        "hi": "डॉ. क्लेन, मैं पूछना चाहता था कि क्या मैं 15 से 29 अगस्त तक छुट्टी ले सकता हूँ?",
+                        "ur": "ڈاکٹر کلین، میں پوچھنا چاہتا تھا کہ کیا میں 15 سے 29 اگست تک چھٹی لے سکتا ہوں؟",
+                        "tr": "Dr. Klein, 15 Ağustos'tan 29 Ağustos'a kadar izin alıp alamayacağımı sormak istedim?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Lassen Sie mich kurz schauen. August ist kritisch. Wer vertritt Sie?",
+                    "translation": {
+                        "en": "Let me take a quick look. August is critical. Who will cover for you?",
+                        "bn": "একটু দেখতে দিন। আগস্ট মাসটা গুরুত্বপূর্ণ। আপনার পরিবর্তে কে কাজ করবে?",
+                        "hi": "मुझे एक बार देखने दीजिये। अगस्त महत्वपूर्ण है। आपकी जगह कौन काम करेगा?",
+                        "ur": "مجھے ایک بار دیکھنے دیں۔ اگست اہم ہے۔ آپ کی جگہ کون کام کرے گا؟",
+                        "tr": "Bir bakayım. Ağustos kritik. Yerine kim bakacak?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich habe mit Frau Dr. Sommer gesprochen. Sie wäre bereit, mich zu vertreten.",
+                    "translation": {
+                        "en": "I spoke with Dr. Sommer. She would be willing to cover for me.",
+                        "bn": "আমি ডঃ সমারের সাথে কথা বলেছি। তিনি আমার পরিবর্তে কাজ করতে রাজি আছেন।",
+                        "hi": "मैंने डॉ. सोमर से बात की। वह मेरी जगह काम करने के लिए तैयार होंगी।",
+                        "ur": "میں نے ڈاکٹر سومر سے بات کی۔ وہ میری جگہ کام کرنے کے لیے تیار ہوں گی۔",
+                        "tr": "Dr. Sommer ile konuştum. Yerime bakmaya istekli olur."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Gut, dann ist das kein Problem. Stellen Sie einen Urlaubsantrag.",
+                    "translation": {
+                        "en": "Good, then that's no problem. Submit a vacation request.",
+                        "bn": "ভালো, তাহলে কোনো সমস্যা নেই। ছুটির আবেদন জমা দিন।",
+                        "hi": "अच्छा, तो कोई समस्या नहीं है। छुट्टी का आवेदन जमा करें।",
+                        "ur": "اچھا، تو کوئی مسئلہ نہیں ہے۔ چھٹی کی درخواست جمع کریں۔",
+                        "tr": "Güzel, o zaman sorun yok. İzin talebinde bulunun."
+                    }
+                },
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Vielen Dank, Herr Dr. Klein!",
+                    "translation": {
+                        "en": "Thank you very much, Dr. Klein!",
+                        "bn": "আপনাকে অনেক ধন্যবাদ, ডঃ ক্লেইন!",
+                        "hi": "आपका बहुत-बहुत धन्यवाद, डॉ. क्लेन!",
+                        "ur": "آپ کا بہت بہت شکریہ، ڈاکٹر کلین!",
+                        "tr": "Çok teşekkür ederim, Dr. Klein!"
+                    }
+                }
+            ],
+            "id": "d43_02"
+        },
+        {
+            "title": {
+                "en": "Overtime Compensation",
+                "bn": "অতিরিক্ত সময়ের কাজের ক্ষতিপূরণ",
+                "hi": "अतिरिक्त समय का मुआवजा",
+                "ur": "اضافی وقت کا معاوضہ",
+                "tr": "Fazla Mesai Tazminatı"
+            },
+            "context": {
+                "en": "Dr. Weber discusses overtime compensation with the hospital administration representative.",
+                "bn": "ডঃ ওয়েবার হাসপাতালের প্রশাসনিক প্রতিনিধির সাথে অতিরিক্ত সময়ের কাজের ক্ষতিপূরণ নিয়ে আলোচনা করছেন।",
+                "hi": "डॉ. वेबर अस्पताल के प्रशासनिक प्रतिनिधि के साथ अतिरिक्त समय के मुआवजे पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر ویبر اسپتال کے انتظامی نمائندے کے ساتھ اضافی وقت کے معاوضے پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Dr. Weber, hastane yönetimi temsilcisi ile fazla mesai tazminatını görüşüyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Tag, ich wollte mich nach der Auszahlung meiner Überstunden erkundigen.",
+                    "translation": {
+                        "en": "Good day, I wanted to inquire about the payment of my overtime hours.",
+                        "bn": "শুভ দিন, আমি আমার অতিরিক্ত সময়ের কাজের অর্থ পরিশোধের ব্যাপারে জানতে চেয়েছিলাম।",
+                        "hi": "नमस्ते, मैं अपने अतिरिक्त समय के घंटों के भुगतान के बारे में पूछताछ करना चाहता था।",
+                        "ur": "شب بخیر، میں اپنے اضافی وقت کے گھنٹوں کی ادائیگی کے بارے میں دریافت کرنا چاہتا تھا۔",
+                        "tr": "İyi günler, fazla mesai saatlerimin ödemesi hakkında bilgi almak istedim."
+                    }
+                },
+                {
+                    "speaker": "Verwaltungsmitarbeiter",
+                    "speakerRole": "Verwaltungsmitarbeiter",
+                    "germanText": "Guten Tag, Dr. Weber. Haben Sie Ihre Stunden korrekt eingetragen?",
+                    "translation": {
+                        "en": "Good day, Dr. Weber. Have you correctly entered your hours?",
+                        "bn": "শুভ দিন, ডঃ ওয়েবার। আপনি কি আপনার কাজের সময় সঠিকভাবে নথিভুক্ত করেছেন?",
+                        "hi": "नमस्ते, डॉ. वेबर। क्या आपने अपने घंटे सही ढंग से दर्ज किए हैं?",
+                        "ur": "شب بخیر، ڈاکٹر ویبر۔ کیا آپ نے اپنے گھنٹے صحیح طریقے سے درج کیے ہیں؟",
+                        "tr": "İyi günler, Dr. Weber. Saatlerinizi doğru bir şekilde girdiniz mi?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ja, das habe ich. Vor drei Wochen. Ich habe noch keine Rückmeldung bekommen.",
+                    "translation": {
+                        "en": "Yes, I did. Three weeks ago. I haven't received any feedback yet.",
+                        "bn": "হ্যাঁ, আমি করেছি। তিন সপ্তাহ আগে। আমি এখনও কোনো প্রতিক্রিয়া পাইনি।",
+                        "hi": "हाँ, मैंने किया था। तीन हफ्ते पहले। मुझे अभी तक कोई प्रतिक्रिया नहीं मिली है।",
+                        "ur": "ہاں، میں نے کیا۔ تین ہفتے پہلے۔ مجھے ابھی تک کوئی رائے نہیں ملی ہے۔",
+                        "tr": "Evet, yaptım. Üç hafta önce. Henüz bir geri bildirim almadım."
+                    }
+                },
+                {
+                    "speaker": "Verwaltungsmitarbeiter",
+                    "speakerRole": "Verwaltungsmitarbeiter",
+                    "germanText": "Ich prüfe das. Es kann manchmal etwas dauern. Haben Sie Geduld.",
+                    "translation": {
+                        "en": "I'll check that. It can sometimes take a little while. Please be patient.",
+                        "bn": "আমি এটা দেখছি। মাঝে মাঝে একটু সময় লাগে। ধৈর্য ধরুন।",
+                        "hi": "मैं इसकी जाँच करूँगा। इसमें कभी-कभी थोड़ा समय लग सकता है। कृपया धैर्य रखें।",
+                        "ur": "میں اس کی جانچ کروں گا۔ اس میں کبھی کبھی تھوڑا وقت لگ سکتا ہے۔ براہ کرم صبر کریں۔",
+                        "tr": "Kontrol edeceğim. Bazen biraz zaman alabilir. Lütfen sabırlı olun."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Vielen Dank. Ich bin im Moment etwas knapp bei Kasse.",
+                    "translation": {
+                        "en": "Thank you very much. I'm a little short on cash at the moment.",
+                        "bn": "আপনাকে অনেক ধন্যবাদ। এই মুহূর্তে আমার হাতে একটু কম টাকা আছে।",
+                        "hi": "आपका बहुत-बहुत धन्यवाद। इस समय मेरे पास नकदी थोड़ी कम है।",
+                        "ur": "آپ کا بہت بہت شکریہ۔ اس وقت میرے پاس نقد رقم تھوڑی کم ہے۔",
+                        "tr": "Çok teşekkür ederim. Şu anda biraz nakit sıkıntısı çekiyorum."
+                    }
+                }
+            ],
+            "id": "d43_03"
+        },
+        {
+            "title": {
+                "en": "Weiterbildung Opportunities",
+                "bn": "উচ্চশিক্ষার সুযোগ",
+                "hi": "उच्च शिक्षा के अवसर",
+                "ur": "اعلی تعلیم کے مواقع",
+                "tr": "İleri Eğitim Fırsatları"
+            },
+            "context": {
+                "en": "Two doctors are discussing further education opportunities and their impact on career progression.",
+                "bn": "দুইজন ডাক্তার উচ্চশিক্ষার সুযোগ এবং তাদের কর্মজীবনের অগ্রগতির উপর এর প্রভাব নিয়ে আলোচনা করছেন।",
+                "hi": "दो डॉक्टर आगे की शिक्षा के अवसरों और उनके करियर की प्रगति पर प्रभाव पर चर्चा कर रहे हैं।",
+                "ur": "دو ڈاکٹر آگے کی تعلیم کے مواقع اور ان کے کیریئر کی ترقی پر اثرات پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "İki doktor, ileri eğitim fırsatlarını ve bunların kariyer ilerlemesi üzerindeki etkilerini tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Hoffmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Dr. Schulz, haben Sie sich schon für die neue Weiterbildung in interventioneller Kardiologie angemeldet?",
+                    "translation": {
+                        "en": "Dr. Schulz, have you already registered for the new further training in interventional cardiology?",
+                        "bn": "ডঃ শুলজ, আপনি কি ইতিমধ্যেই ইন্টারভেনশনাল কার্ডিওলজিতে নতুন উচ্চশিক্ষার জন্য নিবন্ধন করেছেন?",
+                        "hi": "डॉ. शुल्ज़, क्या आपने पहले से ही इंटरवेंशनल कार्डियोलॉजी में नई आगे की शिक्षा के लिए पंजीकरण करा लिया है?",
+                        "ur": "ڈاکٹر شلز، کیا آپ نے پہلے ہی انٹروینشنل کارڈیالوجی میں نئی آگے کی تعلیم کے لیے رجسٹریشن کرا لی ہے؟",
+                        "tr": "Dr. Schulz, girişimsel kardiyoloji alanındaki yeni ileri eğitim için zaten kayıt oldunuz mu?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schulz",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Noch nicht. Lohnt sich das denn wirklich? So viel zusätzliche Arbeit.",
+                    "translation": {
+                        "en": "Not yet. Is it really worth it? So much extra work.",
+                        "bn": "এখনও না। এটা কি সত্যিই মূল্যবান? এত বেশি অতিরিক্ত কাজ।",
+                        "hi": "अभी तक नहीं। क्या यह वास्तव में सार्थक है? इतना अधिक अतिरिक्त काम।",
+                        "ur": "ابھی تک نہیں۔ کیا یہ واقعی قابل قدر ہے؟ بہت زیادہ اضافی کام۔",
+                        "tr": "Henüz değil. Gerçekten buna değer mi? Çok fazla ek iş."
+                    }
+                },
+                {
+                    "speaker": "Dr. Hoffmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Definitiv. Es öffnet Ihnen Türen für eine spätere Karriere als Oberarzt oder Chefarzt.",
+                    "translation": {
+                        "en": "Definitely. It opens doors for a later career as senior physician or chief physician.",
+                        "bn": "অবশ্যই। এটা আপনাকে পরবর্তীতে প্রধান চিকিৎসক বা চিফ ফিজিশিয়ান হিসাবে ক্যারিয়ারের দরজা খুলে দেবে।",
+                        "hi": "निश्चित रूप से। यह आपके लिए बाद में वरिष्ठ चिकित्सक या मुख्य चिकित्सक के रूप में करियर के द्वार खोलता है।",
+                        "ur": "یقینی طور پر۔ یہ آپ کے لیے بعد میں سینئر معالج یا چیف فزیشن کے طور پر کیریئر کے دروازے کھولتا ہے۔",
+                        "tr": "Kesinlikle. Bu, daha sonra kıdemli doktor veya başhekim olarak bir kariyerin kapılarını açar."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schulz",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das stimmt. Aber die Arbeitszeit ist jetzt schon enorm. Ich brauche auch mal Urlaub.",
+                    "translation": {
+                        "en": "That's true. But the working hours are already enormous. I also need a vacation sometimes.",
+                        "bn": "এটা সত্যি। তবে কাজের সময় এখন অনেক বেশি। আমারও মাঝে মাঝে ছুটির প্রয়োজন।",
+                        "hi": "यह सच है। लेकिन काम करने के घंटे पहले से ही बहुत अधिक हैं। मुझे भी कभी-कभी छुट्टी चाहिए।",
+                        "ur": "یہ سچ ہے۔ لیکن کام کے اوقات پہلے سے ہی بہت زیادہ ہیں۔ مجھے بھی کبھی کبھار چھٹی کی ضرورت ہوتی ہے۔",
+                        "tr": "Bu doğru. Ancak çalışma saatleri zaten çok fazla. Bazen benim de tatile ihtiyacım var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Hoffmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das verstehe ich. Aber Investition in die Weiterbildung zahlt sich aus. Denken Sie darüber nach.",
+                    "translation": {
+                        "en": "I understand that. But investing in further education pays off. Think about it.",
+                        "bn": "আমি সেটা বুঝতে পারছি। তবে উচ্চশিক্ষায় বিনিয়োগ করা ফলপ্রসূ হবে। এটা নিয়ে ভাবুন।",
+                        "hi": "मैं समझता हूँ। लेकिन आगे की शिक्षा में निवेश करना फायदेमंद होता है। इसके बारे में सोचो।",
+                        "ur": "میں سمجھتا ہوں۔ لیکن آگے کی تعلیم میں سرمایہ کاری کرنا فائدہ مند ہے۔ اس کے بارے میں سوچو۔",
+                        "tr": "Bunu anlıyorum. Ancak ileri eğitime yatırım yapmak karşılığını verir. Bunu düşünün."
+                    }
+                }
+            ],
+            "id": "d43_04"
+        },
+        {
+            "title": {
+                "en": "Balancing Work and Family",
+                "bn": "কাজ এবং পরিবারের মধ্যে ভারসাম্য",
+                "hi": "काम और परिवार के बीच संतुलन",
+                "ur": "کام اور خاندان کے درمیان توازن",
+                "tr": "İş ve Aile Arasında Denge"
+            },
+            "context": {
+                "en": "A doctor and nurse discuss the difficulties of balancing work demands with family responsibilities.",
+                "bn": "একজন ডাক্তার এবং নার্স, কাজের চাহিদা এবং পরিবারের দায়িত্বের মধ্যে ভারসাম্য রক্ষার অসুবিধা নিয়ে আলোচনা করছেন।",
+                "hi": "एक डॉक्टर और नर्स, काम की माँगों और परिवार की ज़िम्मेदारियों के बीच संतुलन बनाए रखने की कठिनाइयों पर चर्चा कर रहे हैं।",
+                "ur": "ایک ڈاکٹر اور نرس، کام کی ضروریات اور خاندانی ذمہ داریوں کے درمیان توازن برقرار رکھنے کی مشکلات پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Bir doktor ve hemşire, iş talepleri ile aile sorumluluklarını dengelemenin zorluklarını tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Schwester Anna, ich bin total erschöpft. Die Kinder sehen mich kaum noch.",
+                    "translation": {
+                        "en": "Sister Anna, I'm completely exhausted. The children barely see me anymore.",
+                        "bn": "সিস্টার আন্না, আমি সম্পূর্ণ ক্লান্ত। বাচ্চারা আমাকে খুব কমই দেখে।",
+                        "hi": "सिस्टर अन्ना, मैं पूरी तरह से थक गया हूँ। बच्चे मुझे मुश्किल से ही देखते हैं।",
+                        "ur": "سسٹر اینا، میں پوری طرح سے تھک گیا ہوں۔ بچے مجھے مشکل سے ہی دیکھتے ہیں۔",
+                        "tr": "Hemşire Anna, tamamen bitkinim. Çocuklar beni neredeyse hiç görmüyor."
+                    }
+                },
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Das kenne ich gut. Schichtdienst und Familie ist eine Herausforderung.",
+                    "translation": {
+                        "en": "I know that well. Shift work and family is a challenge.",
+                        "bn": "আমি এটা ভালো করেই জানি। শিফটে কাজ এবং পরিবার একটা চ্যালেঞ্জ।",
+                        "hi": "मैं इसे अच्छी तरह से जानता हूँ। शिफ्ट वर्क और परिवार एक चुनौती है।",
+                        "ur": "میں اسے اچھی طرح سے جانتا ہوں۔ شفٹ ورک اور خاندان ایک چیلنج ہے۔",
+                        "tr": "Bunu iyi biliyorum. Vardiyalı çalışma ve aile bir meydan okuma."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich überlege, ob ich auf Teilzeit umsteigen soll. Aber das wäre finanziell schwierig.",
+                    "translation": {
+                        "en": "I'm thinking about switching to part-time. But that would be financially difficult.",
+                        "bn": "আমি ভাবছি খণ্ডকালীন কাজে যোগ দেব কিনা। কিন্তু এটা আর্থিকভাবে কঠিন হবে।",
+                        "hi": "मैं पार्ट-टाइम में स्विच करने के बारे में सोच रहा हूँ। लेकिन यह आर्थिक रूप से कठिन होगा।",
+                        "ur": "میں پارٹ ٹائم میں سوئچ کرنے کے بارے میں سوچ رہا ہوں۔ لیکن یہ مالی طور پر مشکل ہوگا۔",
+                        "tr": "Yarı zamanlı çalışmaya geçmeyi düşünüyorum. Ama bu mali açıdan zor olurdu."
+                    }
+                },
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Viele Mütter hier haben Teilzeitmodelle. Sprechen Sie mit Ihrem Chef.",
+                    "translation": {
+                        "en": "Many mothers here have part-time models. Talk to your boss.",
+                        "bn": "এখানে অনেক মায়েরাই খণ্ডকালীন মডেলে কাজ করেন। আপনার বসের সাথে কথা বলুন।",
+                        "hi": "यहाँ कई माताओं के पास पार्ट-टाइम मॉडल हैं। अपने बॉस से बात करें।",
+                        "ur": "یہاں بہت سی ماؤں کے پاس پارٹ ٹائم ماڈل ہیں۔ اپنے باس سے بات کریں۔",
+                        "tr": "Buradaki birçok annenin yarı zamanlı modelleri var. Patronunuzla konuşun."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das ist eine gute Idee. Vielleicht gibt es eine Lösung. Danke, Schwester Anna.",
+                    "translation": {
+                        "en": "That's a good idea. Maybe there is a solution. Thank you, Sister Anna.",
+                        "bn": "এটা একটা ভালো বুদ্ধি। হয়ত একটা সমাধান আছে। ধন্যবাদ, সিস্টার আন্না।",
+                        "hi": "यह एक अच्छा विचार है। शायद कोई समाधान है। धन्यवाद, सिस्टर अन्ना।",
+                        "ur": "یہ ایک اچھا خیال ہے۔ شاید کوئی حل ہے۔ شکریہ، سسٹر اینا۔",
+                        "tr": "Bu iyi bir fikir. Belki bir çözüm vardır. Teşekkürler, Hemşire Anna."
+                    }
+                }
+            ],
+            "id": "d43_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein wichtiger Aspekt der Work-Life-Balance für Ärzte in Weiterbildung?",
+                "en": "What is an important aspect of work-life balance for doctors in further training?",
+                "bn": "Weiterbildung-এ থাকা ডাক্তারদের জন্য work-life balance-এর একটি গুরুত্বপূর্ণ দিক কী?",
+                "hi": "Weiterbildung में डॉक्टरों के लिए Work-Life Balance का एक महत्वपूर्ण पहलू क्या है?",
+                "ur": "Weiterbildung میں ڈاکٹروں کے لیے Work-Life Balance کا ایک اہم پہلو کیا ہے؟",
+                "tr": "Weiterbildung sürecindeki doktorlar için iş-yaşam dengesinin önemli bir yönü nedir?"
+            },
+            "options": [
+                "Regelmäßige Überstunden ohne Ausgleich",
+                "Eine gute Vereinbarkeit von Arbeit und Freizeit",
+                "Vernachlässigung der persönlichen Gesundheit",
+                "Isolation von Freunden und Familie"
+            ],
+            "correctAnswer": "Eine gute Vereinbarkeit von Arbeit und Freizeit",
+            "explanation": {
+                "en": "Work-life balance emphasizes the importance of harmonizing professional and personal life.",
+                "bn": "Work-life balance পেশাগত এবং ব্যক্তিগত জীবনের মধ্যে সমন্বয় সাধনের গুরুত্বের উপর জোর দেয়।",
+                "hi": "Work-life Balance पेशेवर और व्यक्तिगत जीवन को सामंजस्यपूर्ण बनाने के महत्व पर जोर देता है।",
+                "ur": "Work-life Balance پیشہ ورانہ اور ذاتی زندگی کو ہم آہنگ بنانے کی اہمیت پر زور دیتا ہے۔",
+                "tr": "İş-yaşam dengesi, profesyonel ve kişisel hayatı uyumlu hale getirmenin önemini vurgular."
+            },
+            "points": 10,
+            "id": "e43_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage trifft auf die Facharztausbildung in Deutschland zu?",
+                "en": "Which statement applies to specialist training in Germany?",
+                "bn": "জার্মানিতে বিশেষজ্ঞ প্রশিক্ষণের ক্ষেত্রে কোন উক্তিটি প্রযোজ্য?",
+                "hi": "जर्मनी में विशेषज्ञ प्रशिक्षण के लिए कौन सा कथन लागू होता है?",
+                "ur": "جرمنی میں ماہر تربیت کے لیے کون سا بیان لاگو ہوتا ہے؟",
+                "tr": "Almanya'da uzmanlık eğitimi için hangi ifade geçerlidir?"
+            },
+            "options": [
+                "Sie ist sehr kurz und unkompliziert.",
+                "Sie erfordert eine lange Ausbildungszeit und ist strukturiert.",
+                "Sie ist freiwillig und ohne Kontrolle.",
+                "Sie wird nur im Ausland anerkannt."
+            ],
+            "correctAnswer": "Sie erfordert eine lange Ausbildungszeit und ist strukturiert.",
+            "explanation": {
+                "en": "Specialist training in Germany is a structured, lengthy process required to become a specialist physician.",
+                "bn": "জার্মানিতে বিশেষজ্ঞ প্রশিক্ষণ একটি কাঠামোগত, দীর্ঘ প্রক্রিয়া যা বিশেষজ্ঞ চিকিৎসক হওয়ার জন্য প্রয়োজনীয়।",
+                "hi": "जर्मनी में विशेषज्ञ प्रशिक्षण एक संरचित, लंबी प्रक्रिया है जो विशेषज्ञ चिकित्सक बनने के लिए आवश्यक है।",
+                "ur": "جرمنی میں ماہر تربیت ایک منظم، طویل عمل ہے جو ماہر معالج بننے کے لیے ضروری ہے۔",
+                "tr": "Almanya'da uzmanlık eğitimi, uzman doktor olmak için gerekli olan yapılandırılmış, uzun bir süreçtir."
+            },
+            "points": 10,
+            "id": "e43_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Ziel von Arbeitszeitmodellen im Krankenhaus?",
+                "en": "What is the goal of working time models in hospitals?",
+                "bn": "হাসপাতালে কাজের সময় মডেলগুলির লক্ষ্য কী?",
+                "hi": "अस्पतालों में काम के घंटे के मॉडल का लक्ष्य क्या है?",
+                "ur": "ہسپتالوں میں کام کے اوقات کے ماڈل کا مقصد کیا ہے؟",
+                "tr": "Hastanelerde çalışma süresi modellerinin amacı nedir?"
+            },
+            "options": [
+                "Maximierung der Überstunden",
+                "Minimierung des Urlaubsanspruchs",
+                "Optimierung der Patientenversorgung und der Mitarbeiterzufriedenheit",
+                "Reduzierung der Personalkosten auf Kosten der Qualität"
+            ],
+            "correctAnswer": "Optimierung der Patientenversorgung und der Mitarbeiterzufriedenheit",
+            "explanation": {
+                "en": "Working time models aim to balance patient care needs with the well-being and satisfaction of the staff.",
+                "bn": "কাজের সময় মডেলগুলির লক্ষ্য হল রোগীর যত্নের চাহিদা এবং কর্মীদের সুস্থতা ও সন্তুষ্টির মধ্যে ভারসাম্য বজায় রাখা।",
+                "hi": "काम के घंटे के मॉडल का लक्ष्य रोगी देखभाल की जरूरतों और कर्मचारियों की भलाई और संतुष्टि के बीच संतुलन बनाना है।",
+                "ur": "کام کے اوقات کے ماڈل کا مقصد مریض کی دیکھ بھال کی ضروریات اور عملے کی فلاح و بہبود اور اطمینان کے درمیان توازن برقرار رکھنا ہے۔",
+                "tr": "Çalışma süresi modellerinin amacı, hasta bakım ihtiyaçları ile personelin refahı ve memnuniyeti arasında denge kurmaktır."
+            },
+            "points": 10,
+            "id": "e43_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wie werden Überstunden in der Regel im deutschen Gesundheitswesen behandelt?",
+                "en": "How are overtime hours usually handled in the German healthcare system?",
+                "bn": "জার্মান স্বাস্থ্যসেবা ব্যবস্থায় সাধারণত অতিরিক্ত কাজের সময় কীভাবে পরিচালনা করা হয়?",
+                "hi": "जर्मन स्वास्थ्य सेवा प्रणाली में आमतौर पर ओवरटाइम घंटे कैसे संभाले जाते हैं?",
+                "ur": "جرمن صحت کی دیکھ بھال کے نظام میں عام طور پر اوورٹائم گھنٹوں کو کیسے سنبھالا جاتا ہے؟",
+                "tr": "Alman sağlık sisteminde fazla mesai saatleri genellikle nasıl ele alınır?"
+            },
+            "options": [
+                "Sie werden immer ignoriert.",
+                "Sie werden entweder ausbezahlt oder durch Freizeit ausgeglichen.",
+                "Sie werden nur dem Chefarzt gutgeschrieben.",
+                "Sie sind immer obligatorisch und unbezahlt."
+            ],
+            "correctAnswer": "Sie werden entweder ausbezahlt oder durch Freizeit ausgeglichen.",
+            "explanation": {
+                "en": "Overtime hours are typically compensated either through additional pay or time off in lieu.",
+                "bn": "অতিরিক্ত কাজের সময় সাধারণত অতিরিক্ত বেতন বা বিকল্প ছুটি প্রদানের মাধ্যমে ক্ষতিপূরণ করা হয়।",
+                "hi": "अतिरिक्त काम के घंटे आमतौर पर अतिरिक्त वेतन या समय ऑफ इन लियू के माध्यम से मुआवजा दिया जाता है।",
+                "ur": "اضافی کام کے گھنٹوں کا عام طور پر اضافی تنخواہ یا وقت آف ان لیو کے ذریعے معاوضہ دیا جاتا ہے۔",
+                "tr": "Fazla mesai saatleri genellikle ek ödeme veya izin yoluyla telafi edilir."
+            },
+            "points": 10,
+            "id": "e43_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist bei der Urlaubsplanung während der Facharztausbildung zu beachten?",
+                "en": "What should be considered when planning vacation during specialist training?",
+                "bn": "বিশেষজ্ঞ প্রশিক্ষণের সময় ছুটির পরিকল্পনা করার সময় কী বিবেচনা করা উচিত?",
+                "hi": "विशेषज्ञ प्रशिक्षण के दौरान छुट्टी की योजना बनाते समय क्या विचार किया जाना चाहिए?",
+                "ur": "ماہر تربیت کے دوران چھٹی کی منصوبہ بندی کرتے وقت کیا غور کرنا چاہیے؟",
+                "tr": "Uzmanlık eğitimi sırasında tatil planlarken nelere dikkat edilmelidir?"
+            },
+            "options": [
+                "Urlaub kann jederzeit ohne Rücksprache genommen werden.",
+                "Die Bedürfnisse der Patienten und des Teams müssen berücksichtigt werden.",
+                "Der Urlaubsanspruch verfällt am Ende des Jahres automatisch.",
+                "Es gibt keinen Urlaubsanspruch während der Ausbildung."
+            ],
+            "correctAnswer": "Die Bedürfnisse der Patienten und des Teams müssen berücksichtigt werden.",
+            "explanation": {
+                "en": "Vacation planning should consider the needs of the patients and the team to ensure adequate coverage and patient care.",
+                "bn": "ছুটির পরিকল্পনা করার সময় রোগীর চাহিদা এবং দলের সদস্যদের কথা বিবেচনা করা উচিত, যাতে পর্যাপ্ত কভারেজ এবং রোগীর যত্ন নিশ্চিত করা যায়।",
+                "hi": "छुट्टी की योजना बनाते समय रोगी की ज़रूरतों और टीम के सदस्यों को ध्यान में रखा जाना चाहिए, ताकि पर्याप्त कवरेज और रोगी की देखभाल सुनिश्चित की जा सके।",
+                "ur": "چھٹی کی منصوبہ بندی کرتے وقت مریض کی ضروریات اور ٹیم کے ارکان کو مدنظر رکھنا چاہیے، تاکہ مناسب کوریج اور مریض کی دیکھ بھال کو یقینی بنایا جا سکے۔",
+                "tr": "Tatil planlarken, yeterli kapsama ve hasta bakımı sağlamak için hastaların ve ekibin ihtiyaçları dikkate alınmalıdır."
+            },
+            "points": 10,
+            "id": "e43_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Maßnahmen kann zur Verbesserung der Work-Life-Balance beitragen?",
+                "en": "Which of the following measures can contribute to improving work-life balance?",
+                "bn": "নিম্নলিখিত কোন পদক্ষেপগুলি work-life balance উন্নত করতে সাহায্য করতে পারে?",
+                "hi": "निम्नलिखित में से कौन सा उपाय Work-Life Balance को बेहतर बनाने में मदद कर सकता है?",
+                "ur": "درج ذیل میں سے کون سا اقدام Work-Life Balance کو بہتر بنانے میں مدد کر سکتا ہے؟",
+                "tr": "Aşağıdaki önlemlerden hangisi iş-yaşam dengesini iyileştirmeye katkıda bulunabilir?"
+            },
+            "options": [
+                "Regelmäßige Arbeit bis zur Erschöpfung",
+                "Klare Kommunikation und Aufgabenverteilung im Team",
+                "Ignorieren persönlicher Bedürfnisse",
+                "Vermeidung von Pausen"
+            ],
+            "correctAnswer": "Klare Kommunikation und Aufgabenverteilung im Team",
+            "explanation": {
+                "en": "Clear communication and fair task distribution reduces stress and workload, improving work-life balance.",
+                "bn": "স্পষ্ট যোগাযোগ এবং ন্যায্য কাজের বিতরণ স্ট্রেস এবং কাজের চাপ কমিয়ে work-life balance উন্নত করে।",
+                "hi": "स्पष्ट संचार और उचित कार्य वितरण तनाव और कार्यभार को कम करता है, जिससे Work-Life Balance बेहतर होता है।",
+                "ur": "واضح مواصلات اور مناسب کام کی تقسیم تناؤ اور کام کے بوجھ کو کم کرتی ہے، جس سے Work-Life Balance بہتر ہوتا ہے۔",
+                "tr": "Açık iletişim ve adil iş dağılımı stresi ve iş yükünü azaltır, iş-yaşam dengesini iyileştirir."
+            },
+            "points": 10,
+            "id": "e43_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein wichtiger Unterschied zwischen Weiterbildung und Facharztausbildung?",
+                "en": "What is an important difference between further education (Weiterbildung) and specialist training (Facharzausbildung)?",
+                "bn": "Weiterbildung (অধিক শিক্ষা) এবং Facharztausbildung (বিশেষজ্ঞ প্রশিক্ষণ) এর মধ্যে একটি গুরুত্বপূর্ণ পার্থক্য কী?",
+                "hi": "Weiterbildung (आगे की शिक्षा) और Facharztausbildung (विशेषज्ञ प्रशिक्षण) के बीच एक महत्वपूर्ण अंतर क्या है?",
+                "ur": "Weiterbildung (مزید تعلیم) اور Facharztausbildung (ماہر تربیت) کے درمیان ایک اہم فرق کیا ہے؟",
+                "tr": "Weiterbildung (ileri eğitim) ve Facharztausbildung (uzmanlık eğitimi) arasındaki önemli bir fark nedir?"
+            },
+            "options": [
+                "Es gibt keinen Unterschied.",
+                "Weiterbildung ist freiwillig, Facharztausbildung ist verpflichtend, um Facharzt zu werden.",
+                "Facharzausbildung ist freiwillig, Weiterbildung ist verpflichtend.",
+                "Beide sind gleichwertig und austauschbar."
+            ],
+            "correctAnswer": "Weiterbildung ist freiwillig, Facharztausbildung ist verpflichtend, um Facharzt zu werden.",
+            "explanation": {
+                "en": "Specialist training is mandatory to become a specialist, while further education is often optional.",
+                "bn": "বিশেষজ্ঞ হওয়ার জন্য বিশেষজ্ঞ প্রশিক্ষণ বাধ্যতামূলক, যেখানে আরও শিক্ষা প্রায়শই ঐচ্ছিক।",
+                "hi": "विशेषज्ञ बनने के लिए विशेषज्ञ प्रशिक्षण अनिवार्य है, जबकि आगे की शिक्षा अक्सर वैकल्पिक होती है।",
+                "ur": "ماہر بننے کے لیے ماہر تربیت لازمی ہے، جبکہ مزید تعلیم اکثر اختیاری ہوتی ہے۔",
+                "tr": "Uzman olmak için uzmanlık eğitimi zorunludur, ileri eğitim ise genellikle isteğe bağlıdır."
+            },
+            "points": 10,
+            "id": "e43_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Aussagen beschreibt am besten die Rolle des Mentors in der Facharztausbildung?",
+                "en": "Which of the following statements best describes the role of the mentor in specialist training?",
+                "bn": "বিশেষজ্ঞ প্রশিক্ষণে একজন মেন্টরের ভূমিকা নিম্নলিখিত কোন উক্তিটি সবচেয়ে ভালভাবে বর্ণনা করে?",
+                "hi": "विशेषज्ञ प्रशिक्षण में एक संरक्षक की भूमिका को निम्नलिखित में से कौन सा कथन सबसे अच्छा वर्णन करता है?",
+                "ur": "ماہر تربیت میں ایک سرپرست کے کردار کو درج ذیل میں سے کون سا بیان بہترین طور پر بیان کرتا ہے؟",
+                "tr": "Aşağıdaki ifadelerden hangisi uzmanlık eğitiminde bir mentörün rolünü en iyi şekilde tanımlar?"
+            },
+            "options": [
+                "Ein Mentor ist ausschließlich für die administrative Betreuung zuständig.",
+                "Ein Mentor bietet fachliche Beratung, Unterstützung und Feedback.",
+                "Ein Mentor übernimmt die Rolle des direkten Vorgesetzten.",
+                "Ein Mentor hat keine Bedeutung für den Erfolg der Ausbildung."
+            ],
+            "correctAnswer": "Ein Mentor bietet fachliche Beratung, Unterstützung und Feedback.",
+            "explanation": {
+                "en": "A mentor provides expert advice, support, and feedback to help the trainee succeed.",
+                "bn": "একজন মেন্টর প্রশিক্ষণার্থীকে সফল হতে সাহায্য করার জন্য বিশেষজ্ঞ পরামর্শ, সহায়তা এবং প্রতিক্রিয়া প্রদান করেন।",
+                "hi": "एक संरक्षक प्रशिक्षु को सफल होने में मदद करने के लिए विशेषज्ञ सलाह, समर्थन और प्रतिक्रिया प्रदान करता है।",
+                "ur": "ایک سرپرست تربیتی کو کامیاب ہونے میں مدد کرنے کے لیے ماہر مشورہ، مدد اور رائے فراہم کرتا ہے۔",
+                "tr": "Bir mentör, stajyerin başarılı olmasına yardımcı olmak için uzman tavsiyesi, destek ve geri bildirim sağlar."
+            },
+            "points": 10,
+            "id": "e43_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet der Begriff 'Workload' im medizinischen Kontext?",
+                "en": "What does the term 'workload' mean in the medical context?",
+                "bn": "চিকিৎসা প্রেক্ষাপটে 'workload' শব্দটির অর্থ কী?",
+                "hi": "चिकित्सा संदर्भ में 'Workload' शब्द का अर्थ क्या है?",
+                "ur": "طبی تناظر میں 'Workload' لفظ کا کیا مطلب ہے؟",
+                "tr": "Tıbbi bağlamda 'iş yükü' terimi ne anlama gelir?"
+            },
+            "options": [
+                "Die Anzahl der Kollegen im Team.",
+                "Die Menge an Arbeit, die ein Arzt zu bewältigen hat.",
+                "Die Höhe des Gehalts.",
+                "Die Länge der Mittagspause."
+            ],
+            "correctAnswer": "Die Menge an Arbeit, die ein Arzt zu bewältigen hat.",
+            "explanation": {
+                "en": "Workload refers to the amount of work a doctor has to manage, including patients, tasks, and responsibilities.",
+                "bn": "Workload বলতে একজন ডাক্তারকে যে পরিমাণ কাজ পরিচালনা করতে হয়, যেমন রোগী, কাজ এবং দায়িত্ব অন্তর্ভুক্ত।",
+                "hi": "Workload का मतलब है कि एक डॉक्टर को मरीजों, कार्यों और जिम्मेदारियों सहित जो काम संभालना होता है।",
+                "ur": "Workload کا مطلب ہے کہ ایک ڈاکٹر کو مریضوں، کاموں اور ذمہ داریوں سمیت جو کام سنبھالنا ہوتا ہے۔",
+                "tr": "İş yükü, bir doktorun hastalar, görevler ve sorumluluklar dahil olmak üzere yönetmek zorunda olduğu iş miktarını ifade eder."
+            },
+            "points": 10,
+            "id": "e43_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Institution ist in Deutschland für die Anerkennung der Facharztausbildung zuständig?",
+                "en": "Which institution in Germany is responsible for the recognition of specialist training?",
+                "bn": "জার্মানিতে কোন প্রতিষ্ঠান বিশেষজ্ঞ প্রশিক্ষণের স্বীকৃতি দেওয়ার জন্য দায়ী?",
+                "hi": "जर्मनी में कौन सा संस्थान विशेषज्ञ प्रशिक्षण की मान्यता के लिए जिम्मेदार है?",
+                "ur": "جرمنی میں کون سا ادارہ ماہر تربیت کی منظوری کے لیے ذمہ دار ہے؟",
+                "tr": "Almanya'da uzmanlık eğitiminin tanınmasından hangi kurum sorumludur?"
+            },
+            "options": [
+                "Das Bundeskanzleramt",
+                "Die Landesärztekammern",
+                "Das Gesundheitsministerium",
+                "Die Universitäten"
+            ],
+            "correctAnswer": "Die Landesärztekammern",
+            "explanation": {
+                "en": "The state medical associations (Landesärztekammern) are responsible for recognizing specialist training.",
+                "bn": "রাজ্য মেডিকেল অ্যাসোসিয়েশন (Landesärztekammern) বিশেষজ্ঞ প্রশিক্ষণকে স্বীকৃতি দেওয়ার জন্য দায়ী।",
+                "hi": "राज्य चिकित्सा संघ (Landesärztekammern) विशेषज्ञ प्रशिक्षण को मान्यता देने के लिए जिम्मेदार हैं।",
+                "ur": "ریاستی میڈیکل ایسوسی ایشنز (Landesärztekammern) ماہر تربیت کو تسلیم کرنے کے ذمہ دار ہیں۔",
+                "tr": "Eyalet tıp dernekleri (Landesärztekammern) uzmanlık eğitimini tanımaktan sorumludur."
+            },
+            "points": 10,
+            "id": "e43_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein wichtiger Bestandteil der Facharztausbildung ist das __________, in dem man praktische Erfahrungen sammelt.",
+                "en": "An important component of specialist training is the __________, where you gain practical experience.",
+                "bn": "বিশেষজ্ঞ প্রশিক্ষণের একটি গুরুত্বপূর্ণ উপাদান হল __________, যেখানে আপনি ব্যবহারিক অভিজ্ঞতা অর্জন করেন।",
+                "hi": "विशेषज्ञ प्रशिक्षण का एक महत्वपूर्ण घटक __________ है, जहाँ आपको व्यावहारिक अनुभव प्राप्त होता है।",
+                "ur": "ماہر تربیت کا ایک اہم جزو __________ ہے، جہاں آپ عملی تجربہ حاصل کرتے ہیں۔",
+                "tr": "Uzmanlık eğitiminin önemli bir bileşeni, pratik deneyim kazandığınız __________ 'dir."
+            },
+            "correctAnswer": "Rotationsmodell",
+            "explanation": {
+                "en": "The rotations allow trainees to experience different departments and areas of expertise.",
+                "bn": "ঘূর্ণন প্রশিক্ষণার্থীদের বিভিন্ন বিভাগ এবং দক্ষতার ক্ষেত্রগুলি অনুভব করতে দেয়।",
+                "hi": "रोटेशन प्रशिक्षुओं को विभिन्न विभागों और विशेषज्ञता के क्षेत्रों का अनुभव करने की अनुमति देते हैं।",
+                "ur": "گردشیں تربیتیوں کو مختلف محکموں اور مہارت کے شعبوں کا تجربہ کرنے کی اجازت دیتی ہیں۔",
+                "tr": "Rotasyonlar, stajyerlerin farklı departmanları ve uzmanlık alanlarını deneyimlemelerine olanak tanır."
+            },
+            "points": 10,
+            "id": "e43_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Um die Work-Life-Balance zu verbessern, ist es wichtig, ___________ zu setzen und diese zu respektieren.",
+                "en": "To improve work-life balance, it is important to set ___________ and respect them.",
+                "bn": "Work-life balance উন্নত করার জন্য, ___________ নির্ধারণ করা এবং সেগুলি সম্মান করা গুরুত্বপূর্ণ।",
+                "hi": "Work-Life Balance को बेहतर बनाने के लिए, ___________ स्थापित करना और उनका सम्मान करना महत्वपूर्ण है।",
+                "ur": "Work-Life Balance کو بہتر بنانے کے لیے، ___________ قائم کرنا اور ان کا احترام کرنا اہم ہے۔",
+                "tr": "İş-yaşam dengesini iyileştirmek için ___________ belirlemek ve bunlara saygı duymak önemlidir."
+            },
+            "correctAnswer": "Grenzen",
+            "explanation": {
+                "en": "Setting boundaries between work and personal life is crucial for maintaining a healthy balance.",
+                "bn": "কাজ এবং ব্যক্তিগত জীবনের মধ্যে সীমারেখা নির্ধারণ করা একটি স্বাস্থ্যকর ভারসাম্য বজায় রাখার জন্য অত্যন্ত গুরুত্বপূর্ণ।",
+                "hi": "काम और व्यक्तिगत जीवन के बीच सीमाएँ निर्धारित करना एक स्वस्थ संतुलन बनाए रखने के लिए अत्यंत महत्वपूर्ण है।",
+                "ur": "کام اور ذاتی زندگی کے درمیان حدود طے کرنا ایک صحت مند توازن برقرار رکھنے کے لیے انتہائی اہم ہے۔",
+                "tr": "İş ve kişisel yaşam arasında sınırlar belirlemek, sağlıklı bir denge sağlamak için çok önemlidir."
+            },
+            "points": 10,
+            "id": "e43_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "__________ sind zusätzliche Arbeitsstunden, die über die reguläre Arbeitszeit hinausgehen.",
+                "en": "__________ are additional working hours that go beyond the regular working hours.",
+                "bn": "__________ হল অতিরিক্ত কাজের ঘন্টা যা নিয়মিত কাজের সময়ের বাইরে যায়।",
+                "hi": "__________ अतिरिक्त काम के घंटे हैं जो नियमित काम के घंटे से अधिक हैं।",
+                "ur": "__________ اضافی کام کے گھنٹے ہیں جو باقاعدہ کام کے اوقات سے آگے جاتے ہیں۔",
+                "tr": "__________ normal çalışma saatlerinin ötesine geçen ek çalışma saatleridir."
+            },
+            "correctAnswer": "Überstunden",
+            "explanation": {
+                "en": "Overtime refers to work hours exceeding the regular agreed-upon working time.",
+                "bn": "Overtime বলতে নিয়মিত সম্মত কাজের সময়ের বেশি কাজের সময়কে বোঝায়।",
+                "hi": "Overtime का मतलब है नियमित रूप से सहमत काम के समय से अधिक काम के घंटे।",
+                "ur": "Overtime سے مراد کام کے گھنٹے ہیں جو باقاعدہ متفقہ کام کے وقت سے زیادہ ہوں۔",
+                "tr": "Fazla mesai, normalde üzerinde anlaşılan çalışma süresini aşan çalışma saatlerini ifade eder."
+            },
+            "points": 10,
+            "id": "e43_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Der gesetzliche __________ dient zur Erholung und Regeneration von Arbeitnehmern.",
+                "en": "The statutory __________ serves for the recovery and regeneration of employees.",
+                "bn": "আইনগত __________ কর্মীদের পুনরুদ্ধার এবং পুনর্জন্মের জন্য কাজ করে।",
+                "hi": "वैधानिक __________ कर्मचारियों की वसूली और पुनर्जन्म के लिए कार्य करता है।",
+                "ur": "قانونی __________ ملازمین کی بحالی اور تخلیق نو کے لیے کام کرتا ہے۔",
+                "tr": "Yasal __________ çalışanların iyileşmesi ve yenilenmesi için hizmet eder."
+            },
+            "correctAnswer": "Urlaub",
+            "explanation": {
+                "en": "Vacation time is designed to allow employees to rest and recharge.",
+                "bn": "ছুটির সময় কর্মীদের বিশ্রাম এবং রিচার্জ করার জন্য ডিজাইন করা হয়েছে।",
+                "hi": "छुट्टी का समय कर्मचारियों को आराम करने और पुनर्भरण करने की अनुमति देने के लिए डिज़ाइन किया गया है।",
+                "ur": "چھٹی کا وقت ملازمین کو آرام کرنے اور ری چارج کرنے کی اجازت دینے کے لیے ڈیزائن کیا گیا ہے۔",
+                "tr": "Tatil zamanı, çalışanların dinlenmelerine ve yeniden şarj olmalarına olanak sağlamak için tasarlanmıştır."
+            },
+            "points": 10,
+            "id": "e43_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "__________ beinhaltet die kontinuierliche Entwicklung von Fähigkeiten und Kenntnissen im medizinischen Bereich.",
+                "en": "__________ involves the continuous development of skills and knowledge in the medical field.",
+                "bn": "__________ चिकित्सा क्षेत्रে দক্ষতা এবং জ্ঞানের ক্রমাগত উন্নয়ন জড়িত।",
+                "hi": "__________ में चिकित्सा क्षेत्र में कौशल और ज्ञान का निरंतर विकास शामिल है।",
+                "ur": "__________ میں طبی شعبے میں مہارتوں اور علم کی مسلسل ترقی شامل ہے۔",
+                "tr": "__________ tıp alanında becerilerin ve bilginin sürekli gelişimini içerir."
+            },
+            "correctAnswer": "Weiterbildung",
+            "explanation": {
+                "en": "Further education is about continuous learning and professional development.",
+                "bn": "Weiterbildung হল ক্রমাগত শেখা এবং পেশাদারিত্বের বিকাশ।",
+                "hi": "Weiterbildung निरंतर सीखने और व्यावसायिक विकास के बारे में है।",
+                "ur": "Weiterbildung مسلسل سیکھنے اور پیشہ ورانہ ترقی کے بارے میں ہے۔",
+                "tr": "Weiterbildung sürekli öğrenme ve mesleki gelişim ile ilgilidir."
+            },
+            "points": 10,
+            "id": "e43_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Sprechen Sie mit Ihrem Vorgesetzten über Ihre Überlastung, um gemeinsam Lösungen zu finden.",
+                "en": "Talk to your supervisor about your workload to find solutions together.",
+                "bn": "একসাথে সমাধান খুঁজে বের করার জন্য আপনার কাজের চাপ সম্পর্কে আপনার তত্ত্বাবধায়কের সাথে কথা বলুন।",
+                "hi": "समाधान खोजने के लिए अपने काम के बोझ के बारे में अपने पर्यवेक्षक से बात करें।",
+                "ur": "حل تلاش کرنے کے لیے اپنے کام کے بوجھ کے بارے میں اپنے سپروائزر سے بات کریں۔",
+                "tr": "Birlikte çözümler bulmak için iş yükünüz hakkında amirinizle konuşun."
+            },
+            "correctAnswer": "Talk to your supervisor about your workload to find solutions together.",
+            "explanation": {
+                "en": "This emphasizes open communication to address workload concerns.",
+                "bn": "এটি কাজের চাপ সংক্রান্ত উদ্বেগ মোকাবেলার জন্য উন্মুক্ত যোগাযোগের উপর জোর দেয়।",
+                "hi": "यह काम के बोझ संबंधी चिंताओं को दूर करने के लिए खुले संचार पर जोर देता है।",
+                "ur": "یہ کام کے بوجھ سے متعلق خدشات کو دور کرنے کے لیے کھلی مواصلات پر زور دیتا ہے۔",
+                "tr": "Bu, iş yükü endişelerini gidermek için açık iletişimi vurgular."
+            },
+            "points": 10,
+            "id": "e43_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Nehmen Sie sich regelmäßig Zeit für Hobbys und Entspannung, um Stress abzubauen.",
+                "en": "Regularly take time for hobbies and relaxation to reduce stress.",
+                "bn": "নিয়মিতভাবে শখের জন্য এবং বিশ্রাম নেওয়ার জন্য সময় বের করুন যাতে মানসিক চাপ কমে।",
+                "hi": "तनाव कम करने के लिए नियमित रूप से शौक और आराम के लिए समय निकालें।",
+                "ur": "تناؤ کم کرنے کے لیے باقاعدگی سے مشاغل اور آرام کے لیے وقت نکالیں۔",
+                "tr": "Stresi azaltmak için düzenli olarak hobiler ve dinlenmeye zaman ayırın."
+            },
+            "correctAnswer": "Regularly take time for hobbies and relaxation to reduce stress.",
+            "explanation": {
+                "en": "This highlights the importance of personal time for stress management.",
+                "bn": "এটি মানসিক চাপ ব্যবস্থাপনার জন্য ব্যক্তিগত সময়ের গুরুত্ব তুলে ধরে।",
+                "hi": "यह तनाव प्रबंधन के लिए व्यक्तिगत समय के महत्व पर प्रकाश डालता है।",
+                "ur": "یہ تناؤ کے انتظام کے لیے ذاتی وقت کی اہمیت کو اجاگر کرتا ہے۔",
+                "tr": "Bu, stres yönetimi için kişisel zamanın önemini vurgular."
+            },
+            "points": 10,
+            "id": "e43_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Es ist wichtig, die eigenen Grenzen zu kennen und Überlastung frühzeitig anzusprechen.",
+                "en": "It's important to know your own limits and address overload early on.",
+                "bn": "নিজের সীমা জানা এবং অতিরিক্ত কাজের চাপের বিষয়ে আগেভাগে কথা বলা গুরুত্বপূর্ণ।",
+                "hi": "अपनी सीमाओं को जानना और शुरुआती समय में ही ओवरलोडिंग के बारे में बात करना महत्वपूर्ण है।",
+                "ur": "اپنی حدود کو جاننا اور ابتدائی وقت میں ہی اوورلوڈنگ کے بارے میں بات کرنا اہم ہے۔",
+                "tr": "Kendi sınırlarınızı bilmek ve aşırı yüklenmeyi erken ele almak önemlidir."
+            },
+            "correctAnswer": "It's important to know your own limits and address overload early on.",
+            "explanation": {
+                "en": "Knowing and communicating your limits prevents burnout and promotes well-being.",
+                "bn": "আপনার সীমা জানা এবং যোগাযোগ করা বার্নআউট প্রতিরোধ করে এবং সুস্থতাকে উৎসাহিত করে।",
+                "hi": "अपनी सीमाओं को जानना और संवाद करना बर्नआउट को रोकता है और कल्याण को बढ़ावा देता है।",
+                "ur": "اپنی حدود کو جاننا اور بات چیت کرنا برن آؤٹ کو روکتا ہے اور فلاح و بہبود کو فروغ دیتا ہے۔",
+                "tr": "Sınırlarınızı bilmek ve iletişim kurmak tükenmeyi önler ve refahı teşvik eder."
+            },
+            "points": 10,
+            "id": "e43_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

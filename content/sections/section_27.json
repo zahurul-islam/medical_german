@@ -1,12 +1,1626 @@
-{"id":"section_27","phaseId":"phase2","order":27,"titleDe":"Pädiatrie","title":{"en":"Pediatrics","bn":"শিশু চিকিৎসা","hi":"बाल रोग","ur":"اطفال کا علاج","tr":"Pediatri"},"level":"B2","estimatedMinutes":40,"vocabulary":[
-{"id":"v27_01","germanTerm":"Kind","article":"das","plural":"Kinder","translation":{"en":"Child","bn":"শিশু","hi":"बच्चा","ur":"بچہ","tr":"Çocuk"}},
-{"id":"v27_02","germanTerm":"Impfung","article":"die","plural":"Impfungen","translation":{"en":"Vaccination","bn":"টিকা","hi":"टीकाकरण","ur":"ٹیکہ","tr":"Aşı"}},
-{"id":"v27_03","germanTerm":"Vorsorgeuntersuchung","article":"die","plural":"Vorsorgeuntersuchungen","translation":{"en":"Check-up","bn":"নিয়মিত পরীক্ষা","hi":"जांच","ur":"چیک اپ","tr":"Muayene"}},
-{"id":"v27_04","germanTerm":"Entwicklung","article":"die","plural":"Entwicklungen","translation":{"en":"Development","bn":"বিকাশ","hi":"विकास","ur":"نشوونما","tr":"Gelişim"}},
-{"id":"v27_05","germanTerm":"Fieberkrampf","article":"der","plural":"Fieberkrämpfe","translation":{"en":"Febrile Seizure","bn":"জ্বরজনিত খিঁচুনি","hi":"ज्वर ऐंठन","ur":"بخار کا دورہ","tr":"Ateşli havale"}},
-{"id":"v27_06","germanTerm":"Stillen","article":"das","plural":"-","translation":{"en":"Breastfeeding","bn":"বুকের দুধ খাওয়ানো","hi":"स्तनपान","ur":"دودھ پلانا","tr":"Emzirme"}},
-{"id":"v27_07","germanTerm":"Wachstum","article":"das","plural":"-","translation":{"en":"Growth","bn":"বৃদ্ধি","hi":"वृद्धि","ur":"نمو","tr":"Büyüme"}}
-],"dialogues":[{"id":"d27_01","title":{"en":"Child Check-up"},"lines":[
-{"speaker":"Arzt","germanText":"Wie entwickelt sich Ihr Kind?","translation":{"en":"How is your child developing?"}},
-{"speaker":"Mutter","germanText":"Er kann schon laufen und sagt einige Wörter.","translation":{"en":"He can already walk and says a few words."}}
-]}],"exercises":[{"id":"e27_01","type":"multipleChoice","question":{"en":"What is 'Impfung'?"},"options":["Vaccination","Medicine","Check-up"],"correctAnswer":"Vaccination","points":10}],"media":{"introVideoUrl":"video/sections/section_27/intro.mp4"}}
+{
+    "id": "section_27",
+    "phaseId": "phase2",
+    "order": 27,
+    "titleDe": "Pädiatrie",
+    "title": {
+        "en": "Pediatrics: Child Health and Development",
+        "de": "Pädiatrie: Kindergesundheit und Entwicklung",
+        "bn": "পেডিয়াট্রিক্স: শিশু স্বাস্থ্য এবং বিকাশ",
+        "hi": "बालरोग: बाल स्वास्थ्य और विकास",
+        "ur": "طب اطفال: بچوں کی صحت اور نشوونما",
+        "tr": "Pediatri: Çocuk Sağlığı ve Gelişimi"
+    },
+    "description": {
+        "en": "This section covers essential aspects of pediatric care, including child development, vaccinations, preventive care, and growth monitoring.",
+        "de": "Dieser Abschnitt behandelt wesentliche Aspekte der pädiatrischen Versorgung, einschließlich kindlicher Entwicklung, Impfungen, Vorsorgeuntersuchungen und Wachstumsüberwachung.",
+        "bn": "এই বিভাগে শিশু স্বাস্থ্যসেবার অত্যাবশ্যকীয় দিকগুলি অন্তর্ভুক্ত করা হয়েছে, যেমন শিশুর বিকাশ, টিকা, প্রতিরোধমূলক যত্ন এবং বৃদ্ধি পর্যবেক্ষণ।",
+        "hi": "इस खंड में बाल चिकित्सा देखभाल के आवश्यक पहलू शामिल हैं, जिनमें बाल विकास, टीकाकरण, निवारक देखभाल और विकास निगरानी शामिल हैं।",
+        "ur": "اس سیکشن میں بچوں کی دیکھ بھال کے ضروری پہلوؤں کا احاطہ کیا گیا ہے، بشمول بچوں کی نشوونما، ویکسینیشن، احتیاطی دیکھ بھال، اور نشوونما کی نگرانی۔",
+        "tr": "Bu bölüm, çocuk gelişimi, aşılar, önleyici bakım ve büyüme takibi dahil olmak üzere pediatrik bakımın temel yönlerini kapsar."
+    },
+    "level": "B2",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "Welcome to the pediatrics section! Here, we will explore the German approach to child health, covering everything from routine check-ups to vaccinations. You'll learn essential vocabulary and grammar necessary to communicate effectively with pediatric patients and their families.",
+            "de": "Willkommen im Abschnitt Pädiatrie! Hier werden wir den deutschen Ansatz zur Kindergesundheit untersuchen, von Routineuntersuchungen bis hin zu Impfungen. Sie erlernen wichtige Vokabeln und Grammatik, um effektiv mit pädiatrischen Patienten und ihren Familien zu kommunizieren.",
+            "bn": "পেডিয়াট্রিক্স বিভাগে স্বাগতম! এখানে, আমরা শিশুদের স্বাস্থ্যসেবার জার্মান পদ্ধতি অন্বেষণ করব, রুটিন চেক-আপ থেকে শুরু করে টিকা পর্যন্ত সবকিছু অন্তর্ভুক্ত করে। শিশু রোগীদের এবং তাদের পরিবারের সাথে কার্যকরভাবে যোগাযোগের জন্য আপনার প্রয়োজনীয় শব্দভাণ্ডার এবং ব্যাকরণ শিখবেন।",
+            "hi": "बालरोग खंड में आपका स्वागत है! यहां, हम बाल स्वास्थ्य के जर्मन दृष्टिकोण का पता लगाएंगे, जिसमें नियमित जांच से लेकर टीकाकरण तक सब कुछ शामिल है। आप बाल चिकित्सा रोगियों और उनके परिवारों के साथ प्रभावी ढंग से संवाद करने के लिए आवश्यक शब्दावली और व्याकरण सीखेंगे।",
+            "ur": "طب اطفال کے سیکشن میں خوش آمدید! یہاں، ہم بچوں کی صحت کے جرمن نقطہ نظر کو دریافت کریں گے، جس میں معمول کے چیک اپ سے لے کر ویکسینیشن تک سب کچھ شامل ہے۔ آپ بچوں کے مریضوں اور ان کے اہل خانہ کے ساتھ مؤثر طریقے سے بات چیت کرنے کے لیے ضروری الفاظ اور گرامر سیکھیں گے۔",
+            "tr": "Pediatri bölümüne hoş geldiniz! Burada, rutin kontrollerden aşılara kadar çocuk sağlığına Alman yaklaşımını inceleyeceğiz. Pediatrik hastalar ve aileleriyle etkili bir şekilde iletişim kurmak için gerekli temel kelime dağarcığını ve dilbilgisini öğreneceksiniz."
+        },
+        "grammarFocus": {
+            "en": {
+                "1": "Use of accusative and dative cases with prepositions related to body parts (e.g., 'am Kopf', 'im Bauch').",
+                "2": "Adjective endings after definite and indefinite articles when describing symptoms and conditions (e.g., 'der kleine Junge', 'ein krankes Kind')."
+            },
+            "de": {
+                "1": "Verwendung von Akkusativ und Dativ mit Präpositionen, die sich auf Körperteile beziehen (z.B. 'am Kopf', 'im Bauch').",
+                "2": "Adjektivendungen nach bestimmten und unbestimmten Artikeln bei der Beschreibung von Symptomen und Zuständen (z.B. 'der kleine Junge', 'ein krankes Kind')."
+            },
+            "bn": {
+                "1": "দেহের অঙ্গগুলির সাথে সম্পর্কিত উপসর্গগুলির সাথে accusative এবং dative case-এর ব্যবহার (যেমন, 'am Kopf', 'im Bauch').",
+                "2": "লক্ষণ এবং শর্তাবলী বর্ণনা করার সময় নির্দিষ্ট এবং অনির্দিষ্ট নিবন্ধগুলির পরে বিশেষণগুলির সমাপ্তি (যেমন, 'der kleine Junge', 'ein krankes Kind')."
+            },
+            "hi": {
+                "1": "शरीर के अंगों से संबंधित उपसर्गों के साथ accusative और dative case का उपयोग (उदाहरण के लिए, 'am Kopf', 'im Bauch').",
+                "2": "लक्षणों और स्थितियों का वर्णन करते समय निश्चित और अनिश्चित लेखों के बाद विशेषणों की समाप्ति (उदाहरण के लिए, 'der kleine Junge', 'ein krankes Kind')."
+            },
+            "ur": {
+                "1": "جسمانی اعضاء سے متعلق سابقوں کے ساتھ accusative اور dative case کا استعمال (مثال کے طور پر، 'am Kopf', 'im Bauch').",
+                "2": "علامات اور حالات کی وضاحت کرتے وقت مخصوص اور غیر متعین مضامین کے بعد اسم صفت کا اختتام (مثال کے طور پر، 'der kleine Junge', 'ein krankes Kind')."
+            },
+            "tr": {
+                "1": "Vücut bölümleriyle ilgili edatlarla birlikte akuzatif ve datif hallerin kullanımı (örn. 'am Kopf', 'im Bauch').",
+                "2": "Semptomları ve durumları tarif ederken belirli ve belirsiz artikellerden sonra sıfatların sonları (örn. 'der kleine Junge', 'ein krankes Kind')."
+            }
+        },
+        "culturalNotes": {
+            "en": "In Germany, regular 'U-Untersuchungen' (well-child check-ups) are mandatory and documented in a yellow booklet ('Gelbes Heft'), emphasizing preventative care from birth.",
+            "de": "In Deutschland sind regelmäßige 'U-Untersuchungen' (Vorsorgeuntersuchungen für Kinder) obligatorisch und werden in einem gelben Heft ('Gelbes Heft') dokumentiert, wodurch die präventive Betreuung von Geburt an betont wird.",
+            "bn": "জার্মানিতে, নিয়মিত 'U-Untersuchungen' (শিশুদের স্বাস্থ্য পরীক্ষা) বাধ্যতামূলক এবং একটি হলুদ পুস্তিকায় ('Gelbes Heft') নথিভুক্ত করা হয়, যা জন্ম থেকে প্রতিরোধমূলক যত্নের উপর জোর দেয়।",
+            "hi": "जर्मनी में, नियमित 'U-Untersuchungen' (बच्चों के स्वास्थ्य परीक्षण) अनिवार्य हैं और एक पीले पुस्तिका ('Gelbes Heft') में प्रलेखित हैं, जो जन्म से निवारक देखभाल पर जोर देती हैं।",
+            "ur": "جرمنی میں، باقاعدگی سے 'U-Untersuchungen' (بچوں کے صحت کے ٹیسٹ) لازمی ہیں اور ایک پیلے رنگ کے کتابچے ('Gelbes Heft') میں دستاویز کیے جاتے ہیں، جو پیدائش سے قبل احتیاطی تدابیر پر زور دیتے ہیں۔",
+            "tr": "Almanya'da, düzenli 'U-Untersuchungen' (çocuk sağlığı kontrolleri) zorunludur ve doğumdan itibaren önleyici bakımı vurgulayan sarı bir kitapçıkta ('Gelbes Heft') belgelenir."
+        },
+        "summary": {
+            "en": "This section provided a comprehensive overview of pediatric care in Germany, focusing on development, preventative measures, and communication with young patients.",
+            "de": "Dieser Abschnitt bot einen umfassenden Überblick über die pädiatrische Versorgung in Deutschland mit Schwerpunkt auf Entwicklung, Präventionsmaßnahmen und Kommunikation mit jungen Patienten.",
+            "bn": "এই বিভাগে জার্মানিতে পেডিয়াট্রিক যত্নের একটি বিস্তৃত বিবরণ প্রদান করা হয়েছে, যা উন্নয়ন, প্রতিরোধমূলক ব্যবস্থা এবং অল্প বয়স্ক রোগীদের সাথে যোগাযোগের উপর দৃষ্টি নিবদ্ধ করে।",
+            "hi": "इस खंड में जर्मनी में बाल चिकित्सा देखभाल का एक व्यापक अवलोकन प्रदान किया गया है, जो विकास, निवारक उपायों और युवा रोगियों के साथ संचार पर केंद्रित है।",
+            "ur": "اس سیکشن میں جرمنی میں بچوں کی دیکھ بھال کا ایک جامع جائزہ فراہم کیا گیا ہے، جو ترقی، احتیاطی تدابیر اور نوجوان مریضوں کے ساتھ بات چیت پر مرکوز ہے۔",
+            "tr": "Bu bölüm, Almanya'daki pediatrik bakımın gelişim, önleyici tedbirler ve genç hastalarla iletişim konularına odaklanan kapsamlı bir genel bakışını sunmuştur."
+        },
+        "learningObjectives": [
+            "Identify key vocabulary related to pediatric examinations and treatments.",
+            "Describe common childhood illnesses and symptoms in German.",
+            "Explain the German vaccination schedule and its importance.",
+            "Discuss the role of preventative care (Vorsorge) in pediatric medicine."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "der Kinderarzt",
+            "article": "der",
+            "plural": "die Kinderärzte",
+            "pronunciation": "ˈkɪndɐˌʔaʁt͡st",
+            "category": "noun",
+            "translation": {
+                "en": "pediatrician",
+                "bn": "শিশুচিকিৎসক",
+                "hi": "बालरोग विशेषज्ञ",
+                "ur": "ماہر اطفال",
+                "tr": "çocuk doktoru"
+            },
+            "exampleSentence": "Der Kinderarzt empfahl eine Impfung gegen Masern.",
+            "exampleTranslation": {
+                "en": "The pediatrician recommended a measles vaccination.",
+                "bn": "শিশুচিকিৎসক হামের টিকা দেওয়ার পরামর্শ দিয়েছেন।",
+                "hi": "बालरोग विशेषज्ञ ने खसरा के खिलाफ टीकाकरण की सिफारिश की।",
+                "ur": "ماہر اطفال نے خسرہ کے خلاف ویکسینیشن تجویز کی۔",
+                "tr": "Çocuk doktoru kızamık aşısı önerdi."
+            },
+            "id": "v27_01"
+        },
+        {
+            "germanTerm": "die Entwicklung",
+            "article": "die",
+            "plural": "die Entwicklungen",
+            "pronunciation": "ɛntˈvɪklʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "development",
+                "bn": "বিকাশ",
+                "hi": "विकास",
+                "ur": "ترقی",
+                "tr": "gelişim"
+            },
+            "exampleSentence": "Die Entwicklung des Kindes wird regelmäßig überwacht.",
+            "exampleTranslation": {
+                "en": "The child's development is regularly monitored.",
+                "bn": "শিশুর বিকাশ নিয়মিত পর্যবেক্ষণ করা হয়।",
+                "hi": "बच्चे का विकास नियमित रूप से निगरानी की जाती है।",
+                "ur": "بچے کی نشوونما کی باقاعدگی سے نگرانی کی جاتی ہے۔",
+                "tr": "Çocuğun gelişimi düzenli olarak izlenir."
+            },
+            "id": "v27_02"
+        },
+        {
+            "germanTerm": "der Impfkalender",
+            "article": "der",
+            "plural": "die Impfkalender",
+            "pronunciation": "ˈɪmpfkaˌlɛndɐ",
+            "category": "noun",
+            "translation": {
+                "en": "vaccination schedule",
+                "bn": "টিকা সময়সূচী",
+                "hi": "टीकाकरण अनुसूची",
+                "ur": "ویکسینیشن شیڈول",
+                "tr": "aşı takvimi"
+            },
+            "exampleSentence": "Wir halten uns an den empfohlenen Impfkalender.",
+            "exampleTranslation": {
+                "en": "We adhere to the recommended vaccination schedule.",
+                "bn": "আমরা প্রস্তাবিত টিকা সময়সূচী মেনে চলি।",
+                "hi": "हम अनुशंसित टीकाकरण अनुसूची का पालन करते हैं।",
+                "ur": "ہم تجویز کردہ ویکسینیشن شیڈول پر عمل کرتے ہیں۔",
+                "tr": "Önerilen aşı takvimine uyuyoruz."
+            },
+            "id": "v27_03"
+        },
+        {
+            "germanTerm": "die Vorsorge",
+            "article": "die",
+            "plural": "die Vorsorgen",
+            "pronunciation": "ˈfoːɐ̯ˌzɔʁɡə",
+            "category": "noun",
+            "translation": {
+                "en": "preventive care",
+                "bn": "প্রতিরোধমূলক যত্ন",
+                "hi": "निवारक देखभाल",
+                "ur": "احتیاطی نگہداشت",
+                "tr": "koruyucu bakım"
+            },
+            "exampleSentence": "Die Vorsorgeuntersuchungen sind wichtig für die Gesundheit des Kindes.",
+            "exampleTranslation": {
+                "en": "Preventive check-ups are important for the child's health.",
+                "bn": "শিশুর স্বাস্থ্যের জন্য প্রতিরোধমূলক পরীক্ষা গুরুত্বপূর্ণ।",
+                "hi": "बच्चे के स्वास्थ्य के लिए निवारक जांच महत्वपूर्ण हैं।",
+                "ur": "بچے کی صحت کے لیے احتیاطی جانچ ضروری ہے۔",
+                "tr": "Koruyucu muayeneler çocuğun sağlığı için önemlidir."
+            },
+            "id": "v27_04"
+        },
+        {
+            "germanTerm": "die U-Untersuchung",
+            "article": "die",
+            "plural": "die U-Untersuchungen",
+            "pronunciation": "ˈuːʔʊntɐˌzuːxʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "well-child visit",
+                "bn": "সুস্থ শিশুর পরিদর্শন",
+                "hi": "स्वस्थ बच्चे की यात्रा",
+                "ur": "صحتمند بچے کا دورہ",
+                "tr": "sağlıklı çocuk ziyareti"
+            },
+            "exampleSentence": "Wir haben heute die U5-Untersuchung.",
+            "exampleTranslation": {
+                "en": "We have the U5 well-child visit today.",
+                "bn": "আজ আমাদের ইউ৫ সুস্থ শিশুর পরিদর্শন আছে।",
+                "hi": "आज हमारी यू5 स्वस्थ बच्चे की यात्रा है।",
+                "ur": "آج ہماری یو5 صحت مند بچے کی ملاقات ہے۔",
+                "tr": "Bugün U5 sağlıklı çocuk ziyaretimiz var."
+            },
+            "id": "v27_05"
+        },
+        {
+            "germanTerm": "das Wachstum",
+            "article": "das",
+            "plural": "kein Plural",
+            "pronunciation": "ˈvakstuːm",
+            "category": "noun",
+            "translation": {
+                "en": "growth",
+                "bn": "বৃদ্ধি",
+                "hi": "विकास",
+                "ur": "نشوونما",
+                "tr": "büyüme"
+            },
+            "exampleSentence": "Das Wachstum des Kindes verläuft normal.",
+            "exampleTranslation": {
+                "en": "The child's growth is normal.",
+                "bn": "শিশুর বৃদ্ধি স্বাভাবিক।",
+                "hi": "बच्चे का विकास सामान्य है।",
+                "ur": "بچے کی نشوونما معمول پر ہے۔",
+                "tr": "Çocuğun büyümesi normal."
+            },
+            "id": "v27_06"
+        },
+        {
+            "germanTerm": "die Frühgeburt",
+            "article": "die",
+            "plural": "die Frühgeburten",
+            "pronunciation": "ˈfʁyːɡəˌbuːɐ̯t",
+            "category": "noun",
+            "translation": {
+                "en": "premature birth",
+                "bn": "অকাল জন্ম",
+                "hi": "समय से पहले जन्म",
+                "ur": "قبل از وقت پیدائش",
+                "tr": "erken doğum"
+            },
+            "exampleSentence": "Das Kind war eine Frühgeburt und brauchte spezielle Pflege.",
+            "exampleTranslation": {
+                "en": "The child was a premature birth and needed special care.",
+                "bn": "শিশুটির অকাল জন্ম হয়েছিল এবং বিশেষ যত্নের প্রয়োজন ছিল।",
+                "hi": "बच्चा समय से पहले पैदा हुआ था और उसे विशेष देखभाल की आवश्यकता थी।",
+                "ur": "بچہ قبل از وقت پیدا ہوا تھا اور اسے خصوصی نگہداشت کی ضرورت تھی۔",
+                "tr": "Çocuk erken doğdu ve özel bakıma ihtiyacı vardı."
+            },
+            "id": "v27_07"
+        },
+        {
+            "germanTerm": "die Kinderkrankheit",
+            "article": "die",
+            "plural": "die Kinderkrankheiten",
+            "pronunciation": "ˈkɪndɐˌkʁaŋkhaɪ̯t",
+            "category": "noun",
+            "translation": {
+                "en": "childhood disease",
+                "bn": "শৈশবকালীন রোগ",
+                "hi": "बचपन की बीमारी",
+                "ur": "بچپن کی بیماری",
+                "tr": "çocukluk hastalığı"
+            },
+            "exampleSentence": "Masern sind eine typische Kinderkrankheit.",
+            "exampleTranslation": {
+                "en": "Measles is a typical childhood disease.",
+                "bn": "হাম একটি সাধারণ শৈশবকালীন রোগ।",
+                "hi": "खसरा एक विशिष्ट बचपन की बीमारी है।",
+                "ur": "خسرہ ایک عام بچپن کی بیماری ہے۔",
+                "tr": "Kızamık tipik bir çocukluk hastalığıdır."
+            },
+            "id": "v27_08"
+        },
+        {
+            "germanTerm": "die Windpocken",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "ˈvɪntˌpɔkn̩",
+            "category": "noun",
+            "translation": {
+                "en": "chickenpox",
+                "bn": "জলবসন্ত",
+                "hi": "चेचक",
+                "ur": "چکن پاکس",
+                "tr": "suçiçeği"
+            },
+            "exampleSentence": "Das Kind hat Windpocken und darf nicht in die Kita.",
+            "exampleTranslation": {
+                "en": "The child has chickenpox and cannot go to daycare.",
+                "bn": "শিশুর জলবসন্ত হয়েছে এবং সে কিন্ডারগার্টেনে যেতে পারবে না।",
+                "hi": "बच्चे को चेचक है और वह डेकेयर में नहीं जा सकता।",
+                "ur": "بچے کو چکن پاکس ہے اور وہ ڈے کیئر نہیں جا سکتا۔",
+                "tr": "Çocuğun suçiçeği var ve kreşe gidemez."
+            },
+            "id": "v27_09"
+        },
+        {
+            "germanTerm": "der Säugling",
+            "article": "der",
+            "plural": "die Säuglinge",
+            "pronunciation": "ˈzɔɪ̯klɪŋ",
+            "category": "noun",
+            "translation": {
+                "en": "infant",
+                "bn": "শিশু",
+                "hi": "शिशु",
+                "ur": "نوزائیدہ",
+                "tr": "bebek"
+            },
+            "exampleSentence": "Der Säugling wurde untersucht und für gesund befunden.",
+            "exampleTranslation": {
+                "en": "The infant was examined and found to be healthy.",
+                "bn": "শিশুটিকে পরীক্ষা করা হয়েছে এবং সুস্থ পাওয়া গেছে।",
+                "hi": "शिशु की जांच की गई और उसे स्वस्थ पाया गया।",
+                "ur": "نوزائیدہ کا معائنہ کیا گیا اور اسے صحت مند پایا گیا۔",
+                "tr": "Bebek muayene edildi ve sağlıklı bulundu."
+            },
+            "id": "v27_10"
+        },
+        {
+            "germanTerm": "das Fieber",
+            "article": "das",
+            "plural": "kein Plural",
+            "pronunciation": "ˈfiːbɐ",
+            "category": "noun",
+            "translation": {
+                "en": "fever",
+                "bn": "জ্বর",
+                "hi": "बुखार",
+                "ur": "بخار",
+                "tr": "ateş"
+            },
+            "exampleSentence": "Das Kind hat hohes Fieber und muss behandelt werden.",
+            "exampleTranslation": {
+                "en": "The child has a high fever and needs to be treated.",
+                "bn": "শিশুর খুব জ্বর হয়েছে এবং চিকিৎসা করা দরকার।",
+                "hi": "बच्चे को तेज बुखार है और उसका इलाज किया जाना चाहिए।",
+                "ur": "بچے کو تیز بخار ہے اور اس کا علاج کیا جانا چاہیے۔",
+                "tr": "Çocuğun yüksek ateşi var ve tedavi edilmesi gerekiyor."
+            },
+            "id": "v27_11"
+        },
+        {
+            "germanTerm": "die Impfung",
+            "article": "die",
+            "plural": "die Impfungen",
+            "pronunciation": "ˈɪmpfʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "vaccination",
+                "bn": "টিকা",
+                "hi": "टीकाकरण",
+                "ur": "ویکسینیشن",
+                "tr": "aşılama"
+            },
+            "exampleSentence": "Die Impfung schützt vor schweren Krankheiten.",
+            "exampleTranslation": {
+                "en": "Vaccination protects against serious diseases.",
+                "bn": "টিকা গুরুতর রোগ থেকে রক্ষা করে।",
+                "hi": "टीकाकरण गंभीर बीमारियों से बचाता है।",
+                "ur": "ویکسینیشن سنگین بیماریوں سے بچاتی ہے۔",
+                "tr": "Aşılama ciddi hastalıklardan korur."
+            },
+            "id": "v27_12"
+        },
+        {
+            "germanTerm": "die Muttermilch",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "ˈmʊtɐˌmɪlç",
+            "category": "noun",
+            "translation": {
+                "en": "breast milk",
+                "bn": "মায়ের দুধ",
+                "hi": "माँ का दूध",
+                "ur": "ماں کا دودھ",
+                "tr": "anne sütü"
+            },
+            "exampleSentence": "Muttermilch ist die beste Nahrung für Säuglinge.",
+            "exampleTranslation": {
+                "en": "Breast milk is the best nutrition for infants.",
+                "bn": "মায়ের দুধ শিশুদের জন্য সেরা খাদ্য।",
+                "hi": "माँ का दूध शिशुओं के लिए सबसे अच्छा पोषण है।",
+                "ur": "ماں کا دودھ شیر خوار بچوں کے لیے بہترین غذا ہے۔",
+                "tr": "Anne sütü bebekler için en iyi besindir."
+            },
+            "id": "v27_13"
+        },
+        {
+            "germanTerm": "der Durchfall",
+            "article": "der",
+            "plural": "die Durchfälle",
+            "pronunciation": "ˈdʊʁçfal",
+            "category": "noun",
+            "translation": {
+                "en": "diarrhea",
+                "bn": "ডায়রিয়া",
+                "hi": "दस्त",
+                "ur": "اسہال",
+                "tr": "ishal"
+            },
+            "exampleSentence": "Das Kind hat Durchfall und muss viel trinken.",
+            "exampleTranslation": {
+                "en": "The child has diarrhea and needs to drink a lot.",
+                "bn": "শিশুর ডায়রিয়া হয়েছে এবং প্রচুর পরিমাণে পান করা দরকার।",
+                "hi": "बच्चे को दस्त है और उसे बहुत पीने की जरूरत है।",
+                "ur": "بچے کو دست ہے اور اسے بہت زیادہ پینے کی ضرورت ہے۔",
+                "tr": "Çocuğun ishali var ve bolca içmesi gerekiyor."
+            },
+            "id": "v27_14"
+        },
+        {
+            "germanTerm": "die Allergie",
+            "article": "die",
+            "plural": "die Allergien",
+            "pronunciation": "aleʁˈɡiː",
+            "category": "noun",
+            "translation": {
+                "en": "allergy",
+                "bn": "অ্যালার্জি",
+                "hi": "एलर्जी",
+                "ur": "الرجی",
+                "tr": "alerji"
+            },
+            "exampleSentence": "Das Kind hat eine Allergie gegen Nüsse.",
+            "exampleTranslation": {
+                "en": "The child has a nut allergy.",
+                "bn": "শিশুর বাদামে এলার্জি আছে।",
+                "hi": "बच्चे को नट्स से एलर्जी है।",
+                "ur": "بچے کو گری دار میوے سے الرجی ہے۔",
+                "tr": "Çocuğun fındık alerjisi var."
+            },
+            "id": "v27_15"
+        },
+        {
+            "germanTerm": "die Verstopfung",
+            "article": "die",
+            "plural": "die Verstopfungen",
+            "pronunciation": "fɛɐ̯ˈʃtɔpfʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "constipation",
+                "bn": "কোষ্ঠকাঠিন্য",
+                "hi": "कब्ज़",
+                "ur": "قبض",
+                "tr": "kabızlık"
+            },
+            "exampleSentence": "Der Säugling hat Verstopfung.",
+            "exampleTranslation": {
+                "en": "The infant has constipation.",
+                "bn": "শিশুর কোষ্ঠকাঠিন্য হয়েছে।",
+                "hi": "शिशु को कब्ज़ है।",
+                "ur": "شیر خوار کو قبض ہے۔",
+                "tr": "Bebeğin kabızlığı var."
+            },
+            "id": "v27_16"
+        },
+        {
+            "germanTerm": "das Übergewicht",
+            "article": "das",
+            "plural": "kein Plural",
+            "pronunciation": "ˈyːbɐɡəˌvɪçt",
+            "category": "noun",
+            "translation": {
+                "en": "obesity",
+                "bn": "স্থূলতা",
+                "hi": "मोटापा",
+                "ur": "موٹاپا",
+                "tr": "obezite"
+            },
+            "exampleSentence": "Übergewicht im Kindesalter sollte vermieden werden.",
+            "exampleTranslation": {
+                "en": "Childhood obesity should be avoided.",
+                "bn": "শৈশবে স্থূলতা এড়ানো উচিত।",
+                "hi": "बचपन में मोटापे से बचना चाहिए।",
+                "ur": "بچپن میں موٹاپے سے بچنا چاہیے۔",
+                "tr": "Çocukluk çağı obezitesinden kaçınılmalıdır."
+            },
+            "id": "v27_17"
+        },
+        {
+            "germanTerm": "sich entwickeln",
+            "article": null,
+            "plural": null,
+            "pronunciation": "zɪç ɛntˈvɪkl̩n",
+            "category": "verb",
+            "translation": {
+                "en": "to develop",
+                "bn": "বিকাশ করা",
+                "hi": "विकसित होना",
+                "ur": "ترقی کرنا",
+                "tr": "gelişmek"
+            },
+            "exampleSentence": "Das Kind entwickelt sich altersgerecht.",
+            "exampleTranslation": {
+                "en": "The child is developing appropriately for their age.",
+                "bn": "শিশু বয়সের সাথে সঙ্গতি রেখে বিকাশ করছে।",
+                "hi": "बच्चा अपनी उम्र के हिसाब से विकसित हो रहा है।",
+                "ur": "بچہ اپنی عمر کے لحاظ سے مناسب طریقے سے ترقی کر رہا ہے۔",
+                "tr": "Çocuk yaşına uygun olarak gelişiyor."
+            },
+            "id": "v27_18"
+        },
+        {
+            "germanTerm": "impfen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˈɪmpfən",
+            "category": "verb",
+            "translation": {
+                "en": "to vaccinate",
+                "bn": "টিকা দেওয়া",
+                "hi": "टीकाकरण करना",
+                "ur": "ویکسین لگانا",
+                "tr": "aşılamak"
+            },
+            "exampleSentence": "Wir impfen das Kind gegen Polio.",
+            "exampleTranslation": {
+                "en": "We are vaccinating the child against polio.",
+                "bn": "আমরা শিশুটিকে পোলিও রোগের টিকা দিচ্ছি।",
+                "hi": "हम बच्चे को पोलियो के खिलाफ टीका लगा रहे हैं।",
+                "ur": "ہم بچے کو پولیو کے خلاف ویکسین لگا رہے ہیں۔",
+                "tr": "Çocuğu polioya karşı aşılıyoruz."
+            },
+            "id": "v27_19"
+        },
+        {
+            "germanTerm": "wachsen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˈvaksən",
+            "category": "verb",
+            "translation": {
+                "en": "to grow",
+                "bn": "বৃদ্ধি পাওয়া",
+                "hi": "बढ़ना",
+                "ur": "بڑھنا",
+                "tr": "büyümek"
+            },
+            "exampleSentence": "Das Kind wächst sehr schnell.",
+            "exampleTranslation": {
+                "en": "The child is growing very quickly.",
+                "bn": "শিশু খুব দ্রুত বাড়ছে।",
+                "hi": "बच्चा बहुत जल्दी बढ़ रहा है।",
+                "ur": "بچہ بہت تیزی سے بڑھ رہا ہے۔",
+                "tr": "Çocuk çok hızlı büyüyor."
+            },
+            "id": "v27_20"
+        },
+        {
+            "germanTerm": "gesund",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ɡəˈzʊnt",
+            "category": "adjective",
+            "translation": {
+                "en": "healthy",
+                "bn": "সুস্থ",
+                "hi": "स्वस्थ",
+                "ur": "صحت مند",
+                "tr": "sağlıklı"
+            },
+            "exampleSentence": "Das Kind ist gesund und munter.",
+            "exampleTranslation": {
+                "en": "The child is healthy and cheerful.",
+                "bn": "শিশু সুস্থ এবং প্রফুল্ল।",
+                "hi": "बच्चा स्वस्थ और हंसमुख है।",
+                "ur": "بچہ صحت مند اور خوش مزاج ہے۔",
+                "tr": "Çocuk sağlıklı ve neşeli."
+            },
+            "id": "v27_21"
+        },
+        {
+            "germanTerm": "krank",
+            "article": null,
+            "plural": null,
+            "pronunciation": "kʁaŋk",
+            "category": "adjective",
+            "translation": {
+                "en": "sick",
+                "bn": "অসুস্থ",
+                "hi": "बीमार",
+                "ur": "بیمار",
+                "tr": "hasta"
+            },
+            "exampleSentence": "Das Kind ist krank und hat Fieber.",
+            "exampleTranslation": {
+                "en": "The child is sick and has a fever.",
+                "bn": "শিশু অসুস্থ এবং তার জ্বর হয়েছে।",
+                "hi": "बच्चा बीमार है और उसे बुखार है।",
+                "ur": "بچہ بیمار ہے اور اسے بخار ہے۔",
+                "tr": "Çocuk hasta ve ateşi var."
+            },
+            "id": "v27_22"
+        },
+        {
+            "germanTerm": "fieberfrei",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˈfiːbɐˌfʁaɪ̯",
+            "category": "adjective",
+            "translation": {
+                "en": "fever-free",
+                "bn": "জ্বরমুক্ত",
+                "hi": "बुखार-मुक्त",
+                "ur": "بخار سے پاک",
+                "tr": "ateşsiz"
+            },
+            "exampleSentence": "Das Kind ist seit heute Morgen fieberfrei.",
+            "exampleTranslation": {
+                "en": "The child has been fever-free since this morning.",
+                "bn": "আজ সকাল থেকে শিশুটির জ্বর নেই।",
+                "hi": "आज सुबह से बच्चा बुखार मुक्त है।",
+                "ur": "بچہ آج صبح سے بخار سے پاک ہے۔",
+                "tr": "Çocuk bu sabahtan beri ateşsiz."
+            },
+            "id": "v27_23"
+        },
+        {
+            "germanTerm": "die Pubertät",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "puːbɛʁˈtɛːt",
+            "category": "noun",
+            "translation": {
+                "en": "puberty",
+                "bn": "বয়ঃসন্ধি",
+                "hi": "यौवनारंभ",
+                "ur": "بلوغت",
+                "tr": "ergenlik"
+            },
+            "exampleSentence": "Die Pubertät bringt viele Veränderungen mit sich.",
+            "exampleTranslation": {
+                "en": "Puberty brings many changes.",
+                "bn": "বয়ঃসন্ধি অনেক পরিবর্তন নিয়ে আসে।",
+                "hi": "यौवनारंभ में कई बदलाव आते हैं।",
+                "ur": "بلوغت بہت سی تبدیلیاں لاتی ہے۔",
+                "tr": "Ergenlik birçok değişiklik getirir."
+            },
+            "id": "v27_24"
+        },
+        {
+            "germanTerm": "die Adoleszenz",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "adoleˈst͡sɛnt͡s",
+            "category": "noun",
+            "translation": {
+                "en": "adolescence",
+                "bn": "কৈশোর",
+                "hi": "किशोरावस्था",
+                "ur": "نوجوانی",
+                "tr": "ergenlik"
+            },
+            "exampleSentence": "Die Adoleszenz ist eine wichtige Lebensphase.",
+            "exampleTranslation": {
+                "en": "Adolescence is an important phase of life.",
+                "bn": "কৈশোর জীবনের একটি গুরুত্বপূর্ণ পর্যায়।",
+                "hi": "किशोरावस्था जीवन का एक महत्वपूर्ण चरण है।",
+                "ur": "نوجوانی زندگی کا ایک اہم مرحلہ ہے۔",
+                "tr": "Ergenlik hayatın önemli bir aşamasıdır."
+            },
+            "id": "v27_25"
+        },
+        {
+            "germanTerm": "die Geburtsklinik",
+            "article": "die",
+            "plural": "die Geburtskliniken",
+            "pronunciation": "ɡəˈbuʁt͡skliˌniːk",
+            "category": "noun",
+            "translation": {
+                "en": "maternity clinic",
+                "bn": "মাতৃত্ব ক্লিনিক",
+                "hi": "प्रसूति क्लिनिक",
+                "ur": "زچگی کلینک",
+                "tr": "doğum kliniği"
+            },
+            "exampleSentence": "Die Frau wurde in die Geburtsklinik eingeliefert.",
+            "exampleTranslation": {
+                "en": "The woman was admitted to the maternity clinic.",
+                "bn": "মহিলাকে মাতৃত্ব ক্লিনিকে ভর্তি করা হয়েছে।",
+                "hi": "महिला को प्रसूति क्लिनिक में भर्ती कराया गया था।",
+                "ur": "خاتون کو زچگی کلینک میں داخل کرایا گیا تھا۔",
+                "tr": "Kadın doğum kliniğine yatırıldı."
+            },
+            "id": "v27_26"
+        },
+        {
+            "germanTerm": "die Neugeborenenstation",
+            "article": "die",
+            "plural": "die Neugeborenenstationen",
+            "pronunciation": "ˈnɔɪ̯ɡəˌboːʁənənʃtat͡si̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "neonatal unit",
+                "bn": "নবজাতক ইউনিট",
+                "hi": "नवजात शिशु इकाई",
+                "ur": "نوزائیدہ یونٹ",
+                "tr": "yenidoğan ünitesi"
+            },
+            "exampleSentence": "Das Frühgeborene liegt auf der Neugeborenenstation.",
+            "exampleTranslation": {
+                "en": "The premature baby is in the neonatal unit.",
+                "bn": "অকালজাত শিশুটি নবজাতক ইউনিটে আছে।",
+                "hi": "समय से पहले जन्मा बच्चा नवजात शिशु इकाई में है।",
+                "ur": "قبل از وقت پیدا ہونے والا بچہ نوزائیدہ یونٹ میں ہے۔",
+                "tr": "Prematüre bebek yenidoğan ünitesinde yatıyor."
+            },
+            "id": "v27_27"
+        },
+        {
+            "germanTerm": "das Stillen",
+            "article": "das",
+            "plural": "kein Plural",
+            "pronunciation": "ˈʃtɪlən",
+            "category": "noun",
+            "translation": {
+                "en": "breastfeeding",
+                "bn": "স্তন্যপান করানো",
+                "hi": "स्तनपान",
+                "ur": "دودھ پلانا",
+                "tr": "emzirme"
+            },
+            "exampleSentence": "Stillen ist wichtig für die Entwicklung des Kindes.",
+            "exampleTranslation": {
+                "en": "Breastfeeding is important for the child's development.",
+                "bn": "শিশুর বিকাশের জন্য স্তন্যপান করানো গুরুত্বপূর্ণ।",
+                "hi": "बच्चे के विकास के लिए स्तनपान महत्वपूर्ण है।",
+                "ur": "بچے کی نشوونما کے لیے دودھ پلانا ضروری ہے۔",
+                "tr": "Emzirme çocuğun gelişimi için önemlidir."
+            },
+            "id": "v27_28"
+        },
+        {
+            "germanTerm": "die Überweisung",
+            "article": "die",
+            "plural": "die Überweisungen",
+            "pronunciation": "yːbɐˈvaɪ̯zʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "referral",
+                "bn": "রেফারেল",
+                "hi": "संदर्भ",
+                "ur": "حوالہ",
+                "tr": "sevketme"
+            },
+            "exampleSentence": "Der Kinderarzt gab eine Überweisung zum Spezialisten.",
+            "exampleTranslation": {
+                "en": "The pediatrician gave a referral to the specialist.",
+                "bn": "শিশুচিকিৎসক বিশেষজ্ঞের কাছে একটি রেফারেল দিয়েছেন।",
+                "hi": "बालरोग विशेषज्ञ ने विशेषज्ञ को एक संदर्भ दिया।",
+                "ur": "ماہر اطفال نے ماہر کو ایک حوالہ دیا۔",
+                "tr": "Çocuk doktoru uzmana sevk verdi."
+            },
+            "id": "v27_29"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Pediatric Check-up",
+                "bn": "শিশু স্বাস্থ্য পরীক্ষা",
+                "hi": "बाल चिकित्सा जांच",
+                "ur": "بچوں کا طبی معائنہ",
+                "tr": "Pediatrik Kontrol"
+            },
+            "context": {
+                "en": "Dr. Schmidt is conducting a U8 examination on 4-year-old Patient Müller.",
+                "bn": "ডঃ শ্মিট ৪ বছর বয়সী রোগী মুলারের ইউ৮ পরীক্ষা করছেন।",
+                "hi": "डॉ. श्मिट 4 वर्षीय रोगी मुलर की यू8 परीक्षा कर रहे हैं।",
+                "ur": "ڈاکٹر شمٹ 4 سالہ مریض ملر کا یو8 معائنہ کر رہے ہیں۔",
+                "tr": "Dr. Schmidt, 4 yaşındaki hasta Müller'e U8 muayenesi yapıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Tag, Herr Müller. So, jetzt schauen wir mal, wie es Ihnen geht. Können Sie bitte einmal auf die Waage steigen?",
+                    "translation": {
+                        "en": "Good day, Mr. Müller. Let's see how you're doing. Can you please step on the scale?",
+                        "bn": "শুভ দিন, মিঃ মুলার। দেখা যাক আপনি কেমন আছেন। আপনি কি অনুগ্রহ করে দাঁড়িপাল্লাতে উঠতে পারবেন?",
+                        "hi": "शुभ दिन, श्री मुलर। देखते हैं आप कैसे हैं। क्या आप कृपया तराजू पर चढ़ सकते हैं?",
+                        "ur": "شب بخیر، مسٹر ملر۔ آئیے دیکھتے ہیں آپ کیسے ہیں۔ کیا آپ براہ کرم ترازو پر چڑھ سکتے ہیں؟",
+                        "tr": "İyi günler, Bay Müller. Nasılsınız bakalım. Lütfen tartıya çıkabilir misiniz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, gerne. Und wie groß muss ich mich machen?",
+                    "translation": {
+                        "en": "Yes, gladly. And how tall do I have to stand?",
+                        "bn": "হ্যাঁ, সানন্দে। এবং আমাকে কতটা লম্বা হতে হবে?",
+                        "hi": "हां, खुशी से। और मुझे कितना लंबा खड़ा होना है?",
+                        "ur": "جی ہاں، خوشی سے۔ اور مجھے کتنا لمبا کھڑا ہونا ہے؟",
+                        "tr": "Evet, memnuniyetle. Ve ne kadar uzun durmam gerekiyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ganz normal, Herr Müller. Gerade hinstellen, Kopf nach vorne. Perfekt.",
+                    "translation": {
+                        "en": "Just normally, Mr. Müller. Stand up straight, head forward. Perfect.",
+                        "bn": "সাধারণভাবে, মিঃ মুলার। সোজা হয়ে দাঁড়ান, মাথা সামনের দিকে। একেবারে ঠিক।",
+                        "hi": "बिल्कुल सामान्य, श्री मुलर। सीधे खड़े हो जाओ, सिर आगे। बिल्कुल सही।",
+                        "ur": "بالکل عام، مسٹر ملر۔ سیدھے کھڑے ہو جاؤ، سر آگے کی طرف۔ بہترین۔",
+                        "tr": "Sadece normal şekilde, Bay Müller. Dik durun, başınız öne doğru. Mükemmel."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Gut. Gewicht und Größe passen zur Entwicklung. Gibt es sonst Auffälligkeiten?",
+                    "translation": {
+                        "en": "Good. Weight and height match the development. Are there any other irregularities?",
+                        "bn": "ভাল। ওজন এবং উচ্চতা বিকাশের সাথে মেলে। অন্য কোনো অস্বাভাবিকতা আছে?",
+                        "hi": "अच्छा। वजन और ऊंचाई विकास से मेल खाते हैं। क्या कोई अन्य अनियमितता है?",
+                        "ur": "اچّھا۔ وزن اور اونچائی نشوونما سے مطابقت رکھتی ہے۔ کیا کوئی اور بے قاعدگی ہے؟",
+                        "tr": "Güzel. Kilo ve boy gelişimle uyumlu. Başka anormallikler var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Nein, eigentlich nicht. Er ist nur manchmal etwas ungeduldig.",
+                    "translation": {
+                        "en": "No, not really. He's just a bit impatient sometimes.",
+                        "bn": "না, আসলে না। সে শুধু মাঝে মাঝে একটু অধৈর্য হয়ে যায়।",
+                        "hi": "नहीं, वास्तव में नहीं। वह बस कभी-कभी थोड़ा अधीर हो जाता है।",
+                        "ur": "نہیں، واقعی نہیں۔ وہ بس کبھی کبھی تھوڑا بے صبرا ہو جاتا ہے۔",
+                        "tr": "Hayır, pek değil. Sadece bazen biraz sabırsız oluyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das ist in dem Alter normal. Wir sprechen dann über die Impfungen.",
+                    "translation": {
+                        "en": "That's normal at that age. We'll talk about the vaccinations then.",
+                        "bn": "এই বয়সে এটা স্বাভাবিক। আমরা তাহলে টিকা নিয়ে কথা বলব।",
+                        "hi": "उस उम्र में यह सामान्य है। फिर हम टीकाकरण के बारे में बात करेंगे।",
+                        "ur": "اس عمر میں یہ معمول ہے۔ پھر ہم ویکسینیشن کے بارے میں بات کریں گے۔",
+                        "tr": "Bu yaşta normal. O zaman aşılar hakkında konuşacağız."
+                    }
+                }
+            ],
+            "id": "d27_01"
+        },
+        {
+            "title": {
+                "en": "Vaccination Hesitancy",
+                "bn": "টিকা নিয়ে দ্বিধা",
+                "hi": "टीकाकरण हिचकिचाहट",
+                "ur": "ویکسینیشن کی ہچکچاہٹ",
+                "tr": "Aşı Tereddütü"
+            },
+            "context": {
+                "en": "Dr. Schmidt discusses the vaccination schedule with Mrs. Weber, who is hesitant.",
+                "bn": "ডঃ শ্মিট মিসেস ওয়েবারের সাথে টিকা দেওয়ার সময়সূচী নিয়ে আলোচনা করছেন, যিনি দ্বিধা বোধ করছেন।",
+                "hi": "डॉ. श्मिट श्रीमती वेबर के साथ टीकाकरण के कार्यक्रम पर चर्चा कर रहे हैं, जो हिचकिचा रही हैं।",
+                "ur": "ڈاکٹر شمٹ مسز ویبر کے ساتھ ویکسینیشن کے شیڈول پر تبادلہ خیال کر رہے ہیں، جو ہچکچا رہی ہیں۔",
+                "tr": "Dr. Schmidt, tereddüt eden Bayan Weber ile aşılama takvimini görüşüyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Frau Weber, laut Impfkalender steht die MMR-Impfung an. Haben Sie dazu Fragen?",
+                    "translation": {
+                        "en": "Mrs. Weber, according to the vaccination schedule, the MMR vaccination is due. Do you have any questions about it?",
+                        "bn": "মিসেস ওয়েবার, টিকা দেওয়ার সময়সূচী অনুসারে, এমএমআর টিকা দেওয়ার সময় হয়েছে। এ সম্পর্কে আপনার কোনো প্রশ্ন আছে?",
+                        "hi": "श्रीमती वेबर, टीकाकरण कार्यक्रम के अनुसार, एमएमआर टीकाकरण देय है। क्या आपके पास इसके बारे में कोई प्रश्न हैं?",
+                        "ur": "محترمہ ویبر، ویکسینیشن کے شیڈول کے مطابق، ایم ایم آر ویکسینیشن واجب الادا ہے۔ کیا آپ کے پاس اس کے بارے میں کوئی سوال ہے؟",
+                        "tr": "Bayan Weber, aşılama takvimine göre, KKK aşısı yapılması gerekiyor. Bu konuda herhangi bir sorunuz var mı?"
+                    }
+                },
+                {
+                    "speaker": "Frau Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich bin etwas unsicher. Ich habe so viel über Nebenwirkungen gelesen.",
+                    "translation": {
+                        "en": "I'm a little unsure. I've read so much about side effects.",
+                        "bn": "আমি একটু অনিশ্চিত। আমি পার্শ্ব প্রতিক্রিয়া সম্পর্কে অনেক কিছু পড়েছি।",
+                        "hi": "मैं थोड़ा अनिश्चित हूँ। मैंने दुष्प्रभावों के बारे में बहुत कुछ पढ़ा है।",
+                        "ur": "میں تھوڑا سا غیر یقینی ہوں۔ میں نے ضمنی اثرات کے بارے میں بہت کچھ پڑھا ہے۔",
+                        "tr": "Biraz emin değilim. Yan etkiler hakkında çok şey okudum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Die meisten Nebenwirkungen sind mild, wie Fieber oder Rötung an der Einstichstelle. Schwere Komplikationen sind sehr selten.",
+                    "translation": {
+                        "en": "Most side effects are mild, like fever or redness at the injection site. Serious complications are very rare.",
+                        "bn": "বেশিরভাগ পার্শ্ব প্রতিক্রিয়া হালকা, যেমন জ্বর বা ইনজেকশন দেওয়ার স্থানে লালভাব। গুরুতর জটিলতা খুবই বিরল।",
+                        "hi": "अधिकांश दुष्प्रभाव हल्के होते हैं, जैसे बुखार या इंजेक्शन साइट पर लालिमा। गंभीर जटिलताएँ बहुत दुर्लभ हैं।",
+                        "ur": "زیادہ تر ضمنی اثرات ہلکے ہوتے ہیں، جیسے بخار یا انجیکشن سائٹ پر لالی۔ سنگین پیچیدگیاں بہت کم ہیں۔",
+                        "tr": "Çoğu yan etki hafiftir, ateş veya enjeksiyon yerinde kızarıklık gibi. Ciddi komplikasyonlar çok nadirdir."
+                    }
+                },
+                {
+                    "speaker": "Frau Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Aber was ist, wenn er eine allergische Reaktion hat?",
+                    "translation": {
+                        "en": "But what if he has an allergic reaction?",
+                        "bn": "কিন্তু যদি তার অ্যালার্জি হয়?",
+                        "hi": "लेकिन क्या होगा अगर उसे एलर्जी की प्रतिक्रिया हो जाए?",
+                        "ur": "لیکن کیا ہوگا اگر اسے الرجک ردعمل ہو جائے؟",
+                        "tr": "Ama alerjik reaksiyon gösterirse ne olacak?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir sind vorbereitet und haben Notfallmedikamente. Das Risiko einer schweren Reaktion ist sehr gering. Die Vorteile des Impfschutzes überwiegen deutlich.",
+                    "translation": {
+                        "en": "We are prepared and have emergency medication. The risk of a serious reaction is very low. The benefits of vaccination clearly outweigh the risks.",
+                        "bn": "আমরা প্রস্তুত এবং আমাদের কাছে জরুরি ওষুধ আছে। গুরুতর প্রতিক্রিয়ার ঝুঁকি খুবই কম। টিকার সুরক্ষার সুবিধা ঝুঁকিকে উল্লেখযোগ্যভাবে ছাড়িয়ে যায়।",
+                        "hi": "हम तैयार हैं और हमारे पास आपातकालीन दवा है। गंभीर प्रतिक्रिया का जोखिम बहुत कम है। टीकाकरण के लाभ स्पष्ट रूप से जोखिमों से अधिक हैं।",
+                        "ur": "ہم تیار ہیں اور ہمارے پاس ہنگامی دوا ہے۔ سنگین ردعمل کا خطرہ بہت کم ہے۔ ویکسینیشن کے فوائد واضح طور پر خطرات سے زیادہ ہیں۔",
+                        "tr": "Hazırlıklıyız ve acil durum ilaçlarımız var. Ciddi bir reaksiyon riski çok düşük. Aşının faydaları risklerinden çok daha fazla."
+                    }
+                }
+            ],
+            "id": "d27_02"
+        },
+        {
+            "title": {
+                "en": "Developmental Delay",
+                "bn": "বিকাশগত বিলম্ব",
+                "hi": "विकासात्मक विलंब",
+                "ur": "ترقیاتی تاخیر",
+                "tr": "Gelişimsel Gerilik"
+            },
+            "context": {
+                "en": "Mrs. Klein is concerned about her 18-month-old son's speech development. She speaks with Dr. Schmidt.",
+                "bn": "মিসেস ক্লেইন তার ১৮ মাস বয়সী ছেলের কথা বলার বিকাশ নিয়ে চিন্তিত। তিনি ডঃ শ্মিটের সাথে কথা বলছেন।",
+                "hi": "श्रीमती क्लेन अपने 18 महीने के बेटे के बोलने के विकास को लेकर चिंतित हैं। वह डॉ. श्मिट से बात करती हैं।",
+                "ur": "محترمہ کلین اپنے 18 ماہ کے بیٹے کی تقریر کی نشوونما کے بارے میں فکر مند ہیں۔ وہ ڈاکٹر شمٹ سے بات کرتی ہیں۔",
+                "tr": "Bayan Klein, 18 aylık oğlunun konuşma gelişimi konusunda endişeli. Dr. Schmidt ile konuşuyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Frau Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Tag, Herr Doktor. Mein Sohn ist 18 Monate alt und spricht noch keine Wörter.",
+                    "translation": {
+                        "en": "Good day, Doctor. My son is 18 months old and doesn't speak any words yet.",
+                        "bn": "শুভ দিন, ডাক্তার। আমার ছেলের বয়স ১৮ মাস এবং সে এখনও কোনো শব্দ বলে না।",
+                        "hi": "शुभ दिन, डॉक्टर। मेरा बेटा 18 महीने का है और अभी तक कोई शब्द नहीं बोलता है।",
+                        "ur": "شب بخیر، ڈاکٹر۔ میرا بیٹا 18 ماہ کا ہے اور ابھی تک کوئی لفظ نہیں بولتا ہے۔",
+                        "tr": "İyi günler Doktor. Oğlum 18 aylık ve henüz tek kelime konuşamıyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Versteht er denn, was Sie sagen? Reagiert er auf seinen Namen?",
+                    "translation": {
+                        "en": "Does he understand what you say? Does he react to his name?",
+                        "bn": "সে কি বোঝে আপনি কী বলছেন? সে কি তার নামে সাড়া দেয়?",
+                        "hi": "क्या वह समझता है कि आप क्या कह रही हैं? क्या वह अपने नाम पर प्रतिक्रिया करता है?",
+                        "ur": "کیا وہ سمجھتا ہے کہ آپ کیا کہہ رہی ہیں؟ کیا وہ اپنے نام پر ردعمل ظاہر کرتا ہے؟",
+                        "tr": "Peki, söylediklerinizi anlıyor mu? İsmiyle seslenince tepki veriyor mu?"
+                    }
+                },
+                {
+                    "speaker": "Frau Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, das schon. Aber er brabbelt nur und zeigt auf Dinge.",
+                    "translation": {
+                        "en": "Yes, he does. But he just babbles and points at things.",
+                        "bn": "হ্যাঁ, সেটা করে। কিন্তু সে শুধু বিড়বিড় করে এবং জিনিসের দিকে ইঙ্গিত করে।",
+                        "hi": "हाँ, वह करता है। लेकिन वह सिर्फ बड़बड़ाता है और चीजों की ओर इशारा करता है।",
+                        "ur": "جی ہاں، وہ کرتا ہے۔ لیکن وہ صرف بڑبڑاتا ہے اور چیزوں کی طرف اشارہ کرتا ہے۔",
+                        "tr": "Evet, veriyor. Ama sadece geveliyor ve şeyleri işaret ediyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das ist ein gutes Zeichen. Wir werden das im Auge behalten und eventuell eine Logopädie in Betracht ziehen, wenn es sich nicht bald bessert.",
+                    "translation": {
+                        "en": "That's a good sign. We will keep an eye on it and possibly consider speech therapy if it doesn't improve soon.",
+                        "bn": "এটা একটা ভালো লক্ষণ। আমরা এটির দিকে নজর রাখব এবং শীঘ্রই উন্নতি না হলে সম্ভবত স্পিচ থেরাপির কথা বিবেচনা করব।",
+                        "hi": "यह एक अच्छा संकेत है। हम इस पर नज़र रखेंगे और यदि जल्द ही सुधार नहीं होता है तो संभवतः भाषण चिकित्सा पर विचार करेंगे।",
+                        "ur": "یہ ایک اچھی علامت ہے۔ ہم اس پر نظر رکھیں گے اور اگر جلد ہی اس میں بہتری نہیں آتی ہے تو ممکنہ طور پر تقریر کی تھراپی پر غور کریں گے۔",
+                        "tr": "Bu iyi bir işaret. Durumu takip edeceğiz ve yakında düzelme olmazsa konuşma terapisini düşünebiliriz."
+                    }
+                },
+                {
+                    "speaker": "Frau Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Okay, danke. Das beruhigt mich etwas.",
+                    "translation": {
+                        "en": "Okay, thank you. That reassures me a little.",
+                        "bn": "ঠিক আছে, ধন্যবাদ। এতে আমি একটু আশ্বস্ত হলাম।",
+                        "hi": "ठीक है, धन्यवाद। इससे मुझे थोड़ा आश्वासन मिलता है।",
+                        "ur": "ٹھیک ہے، شکریہ۔ اس سے مجھے تھوڑا سا یقین ہوتا ہے۔",
+                        "tr": "Tamam, teşekkür ederim. Bu beni biraz rahatlattı."
+                    }
+                }
+            ],
+            "id": "d27_03"
+        },
+        {
+            "title": {
+                "en": "Preventive Care Discussion",
+                "bn": "প্রতিরোধমূলক যত্ন আলোচনা",
+                "hi": "निवारक देखभाल चर्चा",
+                "ur": "احتیاطی دیکھ بھال پر تبادلہ خیال",
+                "tr": "Koruyucu Bakım Tartışması"
+            },
+            "context": {
+                "en": "Dr. Schmidt explains the importance of preventive care to new parents, Mr. and Mrs. Braun.",
+                "bn": "ডঃ শ্মিট নতুন পিতামাতা, মিঃ এবং মিসেস ব্রাউনকে প্রতিরোধমূলক যত্নের গুরুত্ব ব্যাখ্যা করছেন।",
+                "hi": "डॉ. श्मिट नए माता-पिता, श्री और श्रीमती ब्रॉन को निवारक देखभाल के महत्व की व्याख्या कर रहे हैं।",
+                "ur": "ڈاکٹر شمٹ نئے والدین، مسٹر اور مسز براؤن کو احتیاطی دیکھ بھال کی اہمیت کی وضاحت کر رہے ہیں۔",
+                "tr": "Dr. Schmidt, yeni ebeveynler Bay ve Bayan Braun'a koruyucu bakımın önemini açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Herzlichen Glückwunsch zur Geburt Ihres Kindes! Vorsorgeuntersuchungen sind jetzt sehr wichtig.",
+                    "translation": {
+                        "en": "Congratulations on the birth of your child! Preventive check-ups are very important now.",
+                        "bn": "আপনার সন্তানের জন্মের জন্য অভিনন্দন! প্রতিরোধমূলক পরীক্ষা এখন খুবই গুরুত্বপূর্ণ।",
+                        "hi": "आपके बच्चे के जन्म पर बधाई! निवारक जांच अब बहुत महत्वपूर्ण हैं।",
+                        "ur": "آپ کے بچے کی پیدائش پر مبارک ہو! اب احتیاطی معائنہ بہت اہم ہے۔",
+                        "tr": "Çocuğunuzun doğumu için tebrikler! Koruyucu muayeneler şimdi çok önemli."
+                    }
+                },
+                {
+                    "speaker": "Herr Braun",
+                    "speakerRole": "Patient",
+                    "germanText": "Was genau beinhaltet denn diese Vorsorge?",
+                    "translation": {
+                        "en": "What exactly does this preventive care include?",
+                        "bn": "এই প্রতিরোধমূলক যত্নে ঠিক কী অন্তর্ভুক্ত আছে?",
+                        "hi": "इस निवारक देखभाल में ठीक क्या शामिल है?",
+                        "ur": "اس احتیاطی دیکھ بھال میں بالکل کیا شامل ہے؟",
+                        "tr": "Bu koruyucu bakım tam olarak neleri içeriyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Es geht darum, die Entwicklung Ihres Kindes zu beobachten, frühzeitig Probleme zu erkennen und zu behandeln, und Sie als Eltern zu beraten.",
+                    "translation": {
+                        "en": "It's about monitoring your child's development, identifying and treating problems early, and advising you as parents.",
+                        "bn": "এটি আপনার সন্তানের বিকাশের নিরীক্ষণ করা, সমস্যার প্রাথমিক পর্যায়ে সনাক্তকরণ ও চিকিৎসা করা এবং পিতামাতা হিসাবে আপনাকে পরামর্শ দেওয়া সম্পর্কিত।",
+                        "hi": "यह आपके बच्चे के विकास की निगरानी करने, समस्याओं की शीघ्र पहचान करने और उनका इलाज करने और माता-पिता के रूप में आपको सलाह देने के बारे में है।",
+                        "ur": "یہ آپ کے بچے کی نشوونما کی نگرانی کرنے، مسائل کی جلد شناخت اور علاج کرنے، اور والدین کی حیثیت سے آپ کو مشورہ دینے کے بارے میں ہے۔",
+                        "tr": "Çocuğunuzun gelişimini izlemek, sorunları erken tespit edip tedavi etmek ve ebeveyn olarak size danışmanlık yapmakla ilgili."
+                    }
+                },
+                {
+                    "speaker": "Frau Braun",
+                    "speakerRole": "Patient",
+                    "germanText": "Und wie oft müssen wir zur Vorsorge kommen?",
+                    "translation": {
+                        "en": "And how often do we have to come for preventive care?",
+                        "bn": "এবং আমাদের কত ঘন ঘন প্রতিরোধমূলক যত্নের জন্য আসতে হবে?",
+                        "hi": "और हमें निवारक देखभाल के लिए कितनी बार आना होगा?",
+                        "ur": "اور ہمیں کتنی بار احتیاطی دیکھ بھال کے لیے آنا پڑے گا؟",
+                        "tr": "Ve ne sıklıkla koruyucu bakım için gelmemiz gerekiyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Es gibt einen festen U-Untersuchungsplan im ersten Lebensjahr und danach in regelmäßigen Abständen.",
+                    "translation": {
+                        "en": "There is a fixed U-examination schedule in the first year of life and then at regular intervals.",
+                        "bn": "জীবনের প্রথম বছরে এবং তারপরে নিয়মিত বিরতিতে একটি নির্দিষ্ট ইউ-পরীক্ষার সময়সূচী রয়েছে।",
+                        "hi": "जीवन के पहले वर्ष में और उसके बाद नियमित अंतराल पर एक निश्चित यू-परीक्षा कार्यक्रम है।",
+                        "ur": "زندگی کے پہلے سال میں اور اس کے بعد باقاعدہ وقفوں سے ایک مقررہ یو معائنے کا شیڈول ہے۔",
+                        "tr": "Hayatın ilk yılında ve sonrasında düzenli aralıklarla sabit bir U-muayene programı vardır."
+                    }
+                }
+            ],
+            "id": "d27_04"
+        },
+        {
+            "title": {
+                "en": "Growth Concerns",
+                "bn": "বৃদ্ধি নিয়ে উদ্বেগ",
+                "hi": "विकास संबंधी चिंताएँ",
+                "ur": "نشوونما کے خدشات",
+                "tr": "Büyüme Endişeleri"
+            },
+            "context": {
+                "en": "Mrs. Meier is worried because her 6-year-old daughter seems smaller than her classmates. She consults with Dr. Schmidt.",
+                "bn": "মিসেস মায়ার চিন্তিত কারণ তার ৬ বছর বয়সী মেয়েকে তার সহপাঠীদের চেয়ে ছোট মনে হয়। তিনি ডঃ শ্মিটের সাথে পরামর্শ করছেন।",
+                "hi": "श्रीमती मेयर चिंतित हैं क्योंकि उनकी 6 वर्षीय बेटी अपनी सहपाठियों से छोटी लगती है। वह डॉ. श्मिट से सलाह लेती हैं।",
+                "ur": "محترمہ میر پریشان ہیں کیونکہ ان کی 6 سالہ بیٹی اپنے ہم جماعتوں سے چھوٹی لگتی ہے۔ وہ ڈاکٹر شمٹ سے مشورہ کرتی ہیں۔",
+                "tr": "Bayan Meier, 6 yaşındaki kızının sınıf arkadaşlarından daha küçük görünmesi nedeniyle endişeli. Dr. Schmidt'e danışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Frau Meier",
+                    "speakerRole": "Patient",
+                    "germanText": "Herr Doktor, meine Tochter ist 6 Jahre alt, aber sie ist so klein für ihr Alter.",
+                    "translation": {
+                        "en": "Doctor, my daughter is 6 years old, but she is so small for her age.",
+                        "bn": "ডাক্তার, আমার মেয়ের বয়স ৬ বছর, কিন্তু সে তার বয়সের জন্য খুবই ছোট।",
+                        "hi": "डॉक्टर, मेरी बेटी 6 साल की है, लेकिन वह अपनी उम्र के हिसाब से बहुत छोटी है।",
+                        "ur": "ڈاکٹر صاحب، میری بیٹی 6 سال کی ہے، لیکن وہ اپنی عمر کے لحاظ سے بہت چھوٹی ہے۔",
+                        "tr": "Doktor, kızım 6 yaşında ama yaşına göre çok küçük."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Lassen Sie uns erstmal messen und wiegen. Haben Sie das Gefühl, dass sie langsamer wächst als früher?",
+                    "translation": {
+                        "en": "Let's measure and weigh her first. Do you feel she is growing slower than before?",
+                        "bn": "আসুন প্রথমে তাকে মাপি এবং ওজন করি। আপনি কি মনে করেন যে সে আগের চেয়ে ধীরে ধীরে বাড়ছে?",
+                        "hi": "चलिए पहले उसका माप और वजन करते हैं। क्या आपको लगता है कि वह पहले की तुलना में धीरे-धीरे बढ़ रही है?",
+                        "ur": "آئیے پہلے اس کی پیمائش اور وزن کریں۔ کیا آپ کو لگتا ہے کہ وہ پہلے سے آہستہ بڑھ رہی ہے؟",
+                        "tr": "Önce bir ölçüp tartalım. Daha önceye göre daha yavaş büyüdüğünü düşünüyor musunuz?"
+                    }
+                },
+                {
+                    "speaker": "Frau Meier",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, das habe ich den Eindruck. Ihre Klassenkameraden sind alle größer.",
+                    "translation": {
+                        "en": "Yes, that's my impression. Her classmates are all taller.",
+                        "bn": "হ্যাঁ, আমার এমনটাই মনে হয়। তার সহপাঠীরা সবাই লম্বা।",
+                        "hi": "हाँ, मुझे ऐसा लगता है। उसके सहपाठी सभी लंबे हैं।",
+                        "ur": "جی ہاں، میرا ایسا تاثر ہے۔ اس کے ہم جماعت سب لمبے ہیں۔",
+                        "tr": "Evet, öyle bir izlenimim var. Sınıf arkadaşları hep daha uzun."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir werden die Wachstumskurve überprüfen und gegebenenfalls weitere Untersuchungen veranlassen, um die Ursache zu finden.",
+                    "translation": {
+                        "en": "We will check the growth curve and, if necessary, order further investigations to find the cause.",
+                        "bn": "আমরা বৃদ্ধির গ্রাফ পরীক্ষা করব এবং প্রয়োজনে কারণ অনুসন্ধানের জন্য আরও পরীক্ষা করব।",
+                        "hi": "हम विकास वक्र की जांच करेंगे और यदि आवश्यक हो, तो कारण जानने के लिए आगे की जांच का आदेश देंगे।",
+                        "ur": "ہم ترقی کے منحنی خطوط کی جانچ کریں گے اور اگر ضروری ہوا تو وجہ معلوم کرنے کے لیے مزید تحقیقات کا حکم دیں گے۔",
+                        "tr": "Büyüme eğrisini kontrol edeceğiz ve gerekirse nedeni bulmak için daha fazla araştırma yapacağız."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Oft ist es einfach eine genetische Veranlagung, aber wir müssen sichergehen.",
+                    "translation": {
+                        "en": "Often it's simply a genetic predisposition, but we need to be sure.",
+                        "bn": "প্রায়শই এটি কেবল একটি বংশগত প্রবণতা, তবে আমাদের নিশ্চিত হতে হবে।",
+                        "hi": "अक्सर यह सिर्फ एक आनुवंशिक प्रवृत्ति होती है, लेकिन हमें निश्चित होने की आवश्यकता है।",
+                        "ur": "اکثر یہ محض ایک جینیاتی رجحان ہوتا ہے، لیکن ہمیں یقین ہونا چاہیے۔",
+                        "tr": "Çoğu zaman sadece genetik bir yatkınlık söz konusudur, ancak emin olmalıyız."
+                    }
+                },
+                {
+                    "speaker": "Frau Meier",
+                    "speakerRole": "Patient",
+                    "germanText": "Vielen Dank, Herr Doktor. Das weiß ich zu schätzen.",
+                    "translation": {
+                        "en": "Thank you very much, Doctor. I appreciate that.",
+                        "bn": "আপনাকে অনেক ধন্যবাদ, ডাক্তার। আমি এটির প্রশংসা করি।",
+                        "hi": "आपका बहुत-बहुत धन्यवाद, डॉक्टर। मैं इसकी सराहना करता हूं।",
+                        "ur": "آپ کا بہت شکریہ، ڈاکٹر۔ میں اس کی تعریف کرتا ہوں۔",
+                        "tr": "Çok teşekkür ederim Doktor. Bunu takdir ediyorum."
+                    }
+                }
+            ],
+            "id": "d27_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage zum Impfkalender in Deutschland ist korrekt?",
+                "en": "Which statement about the vaccination schedule in Germany is correct?",
+                "bn": "জার্মানিতে টিকাদান সময়সূচী সম্পর্কে কোন বক্তব্যটি সঠিক?",
+                "hi": "जर्मनी में टीकाकरण शेड्यूल के बारे में कौन सा कथन सही है?",
+                "ur": "جرمنی میں ویکسینیشن شیڈول کے بارے میں کون سا بیان درست ہے؟",
+                "tr": "Almanya'daki aşılama takvimi hakkında hangi ifade doğrudur?"
+            },
+            "options": [
+                "Impfungen sind für alle Kinder Pflicht.",
+                "Der Impfkalender wird vom Robert Koch-Institut empfohlen.",
+                "Impfungen sind nur bei akuten Erkrankungen notwendig.",
+                "Der Impfkalender ist für jedes Bundesland unterschiedlich."
+            ],
+            "correctAnswer": "Der Impfkalender wird vom Robert Koch-Institut empfohlen.",
+            "explanation": {
+                "en": "The vaccination schedule is recommended by the Robert Koch Institute.",
+                "bn": "টিকা সময়সূচী রবার্ট কক ইনস্টিটিউট দ্বারা সুপারিশ করা হয়।",
+                "hi": "टीकाकरण शेड्यूल रॉबर्ट कोच इंस्टीट्यूट द्वारा अनुशंसित है।",
+                "ur": "ویکسینیشن شیڈول رابرٹ کوچ انسٹی ٹیوٹ کی طرف سے تجویز کیا جاتا ہے۔",
+                "tr": "Aşılama takvimi Robert Koch Enstitüsü tarafından tavsiye edilir."
+            },
+            "points": 10,
+            "id": "e27_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was wird bei der U3-Untersuchung hauptsächlich untersucht?",
+                "en": "What is mainly examined during the U3 examination?",
+                "bn": "ইউ3 পরীক্ষায় প্রধানত কী পরীক্ষা করা হয়?",
+                "hi": "U3 परीक्षा के दौरान मुख्य रूप से क्या जांच की जाती है?",
+                "ur": "U3 امتحان کے دوران بنیادی طور پر کیا جانچا جاتا ہے؟",
+                "tr": "U3 muayenesi sırasında esas olarak ne incelenir?"
+            },
+            "options": [
+                "Die motorische Entwicklung und Reflexe.",
+                "Die Sehschärfe des Kindes.",
+                "Die Hörfähigkeit des Kindes.",
+                "Die kognitive Entwicklung."
+            ],
+            "correctAnswer": "Die motorische Entwicklung und Reflexe.",
+            "explanation": {
+                "en": "The U3 examination mainly examines motor development and reflexes.",
+                "bn": "ইউ3 পরীক্ষায় প্রধানত মোটর উন্নয়ন এবং প্রতিবর্তী ক্রিয়া পরীক্ষা করা হয়।",
+                "hi": "U3 परीक्षा में मुख्य रूप से मोटर विकास और प्रतिक्रियाओं की जांच की जाती है।",
+                "ur": "U3 امتحان میں بنیادی طور پر موٹر ترقی اور اضطراری عمل کی جانچ کی جاتی ہے۔",
+                "tr": "U3 muayenesinde esas olarak motor gelişim ve refleksler incelenir."
+            },
+            "points": 10,
+            "id": "e27_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Gedeihstörung' im Kontext der Kinderheilkunde?",
+                "en": "What does 'failure to thrive' mean in the context of pediatrics?",
+                "bn": "পেডিয়াট্রিক্সের প্রেক্ষাপটে 'বৃদ্ধি ব্যর্থতা' মানে কী?",
+                "hi": "बाल रोग के संदर्भ में 'विफल होने की विफलता' का क्या अर्थ है?",
+                "ur": "پیڈیاٹرکس کے تناظر میں 'ترقی میں ناکامی' کا کیا مطلب ہے؟",
+                "tr": "Pediatri bağlamında 'gelişme geriliği' ne anlama gelir?"
+            },
+            "options": [
+                "Eine schnelle Gewichtszunahme.",
+                "Eine altersgerechte Entwicklung.",
+                "Eine unzureichende Gewichtszunahme oder Wachstumsstörung.",
+                "Eine Allergie gegen bestimmte Nahrungsmittel."
+            ],
+            "correctAnswer": "Eine unzureichende Gewichtszunahme oder Wachstumsstörung.",
+            "explanation": {
+                "en": "'Failure to thrive' means inadequate weight gain or growth retardation.",
+                "bn": "'বৃদ্ধি ব্যর্থতা' মানে অপর্যাপ্ত ওজন বৃদ্ধি বা বৃদ্ধির প্রতিবন্ধকতা।",
+                "hi": "'विफल होने की विफलता' का मतलब है अपर्याप्त वजन बढ़ना या विकास मंदता।",
+                "ur": "'ترقی میں ناکامی' کا مطلب ہے ناکافی وزن بڑھنا یا ترقی میں کمی۔",
+                "tr": "'Gelişme geriliği', yetersiz kilo alımı veya büyüme geriliği anlamına gelir."
+            },
+            "points": 10,
+            "id": "e27_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Impfung wird in Deutschland im ersten Lebensjahr empfohlen?",
+                "en": "Which vaccination is recommended in Germany in the first year of life?",
+                "bn": "জার্মানিতে জীবনের প্রথম বছরে কোন টিকা দেওয়ার পরামর্শ দেওয়া হয়?",
+                "hi": "जर्मनी में जीवन के पहले वर्ष में कौन सा टीकाकरण कराने की सलाह दी जाती है?",
+                "ur": "جرمنی میں زندگی کے پہلے سال میں کون سی ویکسینیشن کرانے کی سفارش کی جاتی ہے؟",
+                "tr": "Almanya'da yaşamın ilk yılında hangi aşılama önerilir?"
+            },
+            "options": [
+                "Masern, Mumps, Röteln (MMR)",
+                "Varizellen (Windpocken)",
+                "Tetanus, Diphtherie, Pertussis (Keuchhusten)",
+                "Meningokokken C"
+            ],
+            "correctAnswer": "Tetanus, Diphtherie, Pertussis (Keuchhusten)",
+            "explanation": {
+                "en": "Tetanus, diphtheria, and pertussis (whooping cough) vaccination is recommended in the first year of life.",
+                "bn": "টিটেনাস, ডিপথেরিয়া এবং পার্টুসিস (হুপিং কাশি) টিকা জীবনের প্রথম বছরে দেওয়ার পরামর্শ দেওয়া হয়।",
+                "hi": "टिटनेस, डिप्थीरिया और पर्टुसिस (काली खांसी) का टीकाकरण जीवन के पहले वर्ष में कराने की सलाह दी जाती है।",
+                "ur": "ٹیٹنس، ڈفتھیریا اور پرٹوسس (کالی کھانسی) کی ویکسینیشن زندگی کے پہلے سال میں کرانے کی سفارش کی جاتی ہے۔",
+                "tr": "Tetanoz, difteri ve boğmaca (pertussis) aşısı yaşamın ilk yılında önerilir."
+            },
+            "points": 10,
+            "id": "e27_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist der Unterschied zwischen einer Vorsorgeuntersuchung und einer U-Untersuchung?",
+                "en": "What is the difference between a preventive check-up and a U-examination?",
+                "bn": "একটি প্রতিরোধমূলক চেক-আপ এবং একটি ইউ-পরীক্ষার মধ্যে পার্থক্য কী?",
+                "hi": "निवारक जांच और यू-परीक्षा में क्या अंतर है?",
+                "ur": "احتیاطی جانچ اور یو-امتحان میں کیا فرق ہے؟",
+                "tr": "Önleyici bir kontrol ile U muayenesi arasındaki fark nedir?"
+            },
+            "options": [
+                "Es gibt keinen Unterschied, es ist dasselbe.",
+                "Vorsorgeuntersuchungen sind für Erwachsene, U-Untersuchungen für Kinder.",
+                "Vorsorgeuntersuchungen sind freiwillig, U-Untersuchungen sind verpflichtend.",
+                "U-Untersuchungen sind für Kinder, Vorsorgeuntersuchungen können sich auf bestimmte Altersgruppen und Erkrankungen beziehen."
+            ],
+            "correctAnswer": "U-Untersuchungen sind für Kinder, Vorsorgeuntersuchungen können sich auf bestimmte Altersgruppen und Erkrankungen beziehen.",
+            "explanation": {
+                "en": "U-examinations are for children, while preventive check-ups can relate to specific age groups and conditions.",
+                "bn": "ইউ-পরীক্ষা শিশুদের জন্য, যেখানে প্রতিরোধমূলক চেক-আপগুলি নির্দিষ্ট বয়স গ্রুপ এবং অবস্থার সাথে সম্পর্কিত হতে পারে।",
+                "hi": "यू-परीक्षा बच्चों के लिए है, जबकि निवारक जांच विशिष्ट आयु समूहों और स्थितियों से संबंधित हो सकती है।",
+                "ur": "یو-امتحان بچوں کے لیے ہے، جبکہ احتیاطی جانچیں مخصوص عمر کے گروپوں اور حالات سے متعلق ہو سکتی ہیں۔",
+                "tr": "U muayeneleri çocuklar içindir, önleyici kontroller ise belirli yaş grupları ve durumlarla ilgili olabilir."
+            },
+            "points": 10,
+            "id": "e27_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein typisches Zeichen für Rachitis bei Kindern?",
+                "en": "What is a typical sign of rickets in children?",
+                "bn": "শিশুদের মধ্যে রিকেটসের একটি সাধারণ লক্ষণ কী?",
+                "hi": "बच्चों में रिकेट्स का एक विशिष्ट संकेत क्या है?",
+                "ur": "بچوں میں ریکٹس کی ایک عام علامت کیا ہے؟",
+                "tr": "Çocuklarda raşitizmin tipik bir belirtisi nedir?"
+            },
+            "options": [
+                "Blasse Haut",
+                "Verformungen der Knochen",
+                "Husten und Schnupfen",
+                "Hohes Fieber"
+            ],
+            "correctAnswer": "Verformungen der Knochen",
+            "explanation": {
+                "en": "Bone deformities are a typical sign of rickets in children.",
+                "bn": "হাড়ের বিকৃতি শিশুদের মধ্যে রিকেটসের একটি সাধারণ লক্ষণ।",
+                "hi": "हड्डियों की विकृति बच्चों में रिकेट्स का एक विशिष्ट संकेत है।",
+                "ur": "ہڈیوں کی خرابی بچوں میں ریکٹس کی ایک عام علامت ہے۔",
+                "tr": "Kemik deformasyonları çocuklarda raşitizmin tipik bir belirtisidir."
+            },
+            "points": 10,
+            "id": "e27_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage ist FALSCH bezüglich der Entwicklung von Kindern?",
+                "en": "Which statement is FALSE regarding the development of children?",
+                "bn": "শিশুদের বিকাশ সম্পর্কে কোন বক্তব্যটি মিথ্যা?",
+                "hi": "बच्चों के विकास के संबंध में कौन सा कथन असत्य है?",
+                "ur": "بچوں کی نشوونما کے حوالے سے کون سا بیان غلط ہے؟",
+                "tr": "Çocukların gelişimi ile ilgili hangi ifade YANLIŞTIR?"
+            },
+            "options": [
+                "Jedes Kind entwickelt sich im gleichen Tempo.",
+                "Die Entwicklung ist ein kontinuierlicher Prozess.",
+                "Die Entwicklung kann von verschiedenen Faktoren beeinflusst werden.",
+                "Frühkindliche Förderung ist wichtig für die Entwicklung."
+            ],
+            "correctAnswer": "Jedes Kind entwickelt sich im gleichen Tempo.",
+            "explanation": {
+                "en": "Not every child develops at the same pace. Development is individual.",
+                "bn": "প্রত্যেক শিশু একই গতিতে বিকাশ করে না। বিকাশ স্বতন্ত্র।",
+                "hi": "हर बच्चा एक ही गति से विकसित नहीं होता है। विकास व्यक्तिगत है।",
+                "ur": "ہر بچہ ایک ہی رفتار سے ترقی نہیں کرتا ہے۔ ترقی انفرادی ہے۔",
+                "tr": "Her çocuk aynı hızda gelişmez. Gelişim bireyseldir."
+            },
+            "points": 10,
+            "id": "e27_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist der 'Perzentilenbereich' bei Wachstumskurven?",
+                "en": "What is the 'percentile range' on growth charts?",
+                "bn": "বৃদ্ধি চার্টে 'শতাংশের পরিসীমা' কী?",
+                "hi": "विकास चार्ट पर 'प्रतिशतक सीमा' क्या है?",
+                "ur": "نمو چارٹ پر 'پرسینٹائل رینج' کیا ہے؟",
+                "tr": "Büyüme eğrilerinde 'persentil aralığı' nedir?"
+            },
+            "options": [
+                "Der Bereich, in dem 90% aller Kinder liegen.",
+                "Ein bestimmter genetischer Code.",
+                "Der Bereich, der als ideal für das Wachstum angesehen wird.",
+                "Ein statistischer Bereich, der zeigt, wie das Wachstum eines Kindes im Vergleich zu anderen Kindern gleichen Alters ist."
+            ],
+            "correctAnswer": "Ein statistischer Bereich, der zeigt, wie das Wachstum eines Kindes im Vergleich zu anderen Kindern gleichen Alters ist.",
+            "explanation": {
+                "en": "The percentile range is a statistical range showing how a child's growth compares to other children of the same age.",
+                "bn": "শতকরা পরিসীমা একটি পরিসংখ্যানিক পরিসীমা যা দেখায় যে একটি শিশুর বৃদ্ধি একই বয়সের অন্যান্য শিশুদের তুলনায় কেমন।",
+                "hi": "प्रतिशतक सीमा एक सांख्यिकीय सीमा है जो दिखाती है कि एक बच्चे की वृद्धि समान उम्र के अन्य बच्चों की तुलना में कैसी है।",
+                "ur": "پرسینٹائل رینج ایک شماریاتی حد ہے جو یہ ظاہر کرتی ہے کہ ایک بچے کی نشوونما اسی عمر کے دوسرے بچوں کے مقابلے میں کیسی ہے۔",
+                "tr": "Persentil aralığı, bir çocuğun büyümesinin aynı yaştaki diğer çocuklarla nasıl karşılaştırıldığını gösteren istatistiksel bir aralıktır."
+            },
+            "points": 10,
+            "id": "e27_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was sollte ein Kinderarzt bei einem Kind mit Verdacht auf eine Entwicklungsverzögerung tun?",
+                "en": "What should a pediatrician do in a child suspected of having a developmental delay?",
+                "bn": "একটি শিশুর বিকাশে বিলম্বের সন্দেহ হলে একজন শিশু বিশেষজ্ঞের কী করা উচিত?",
+                "hi": "विकास में देरी होने के संदेह वाले बच्चे में एक बाल रोग विशेषज्ञ को क्या करना चाहिए?",
+                "ur": "ترقی میں تاخیر کا شبہ ہونے والے بچے میں ایک ماہر اطفال کو کیا کرنا چاہیے؟",
+                "tr": "Gelişimsel gecikme şüphesi olan bir çocukta bir çocuk doktoru ne yapmalıdır?"
+            },
+            "options": [
+                "Eine sofortige medikamentöse Behandlung einleiten.",
+                "Das Kind ignorieren, da es sich vielleicht von selbst entwickelt.",
+                "Eine umfassende Diagnostik und ggf. Frühförderung veranlassen.",
+                "Die Eltern beruhigen und sagen, dass alles in Ordnung ist."
+            ],
+            "correctAnswer": "Eine umfassende Diagnostik und ggf. Frühförderung veranlassen.",
+            "explanation": {
+                "en": "A pediatrician should initiate comprehensive diagnostics and, if necessary, early intervention.",
+                "bn": "একজন শিশু বিশেষজ্ঞকে ব্যাপক রোগ নির্ণয় শুরু করা উচিত এবং প্রয়োজনে প্রাথমিক হস্তক্ষেপ করা উচিত।",
+                "hi": "एक बाल रोग विशेषज्ञ को व्यापक निदान शुरू करना चाहिए और यदि आवश्यक हो, तो प्रारंभिक हस्तक्षेप करना चाहिए।",
+                "ur": "ایک ماہر اطفال کو جامع تشخیص شروع کرنا چاہیے اور اگر ضروری ہو تو ابتدائی مداخلت کرنی چاہیے۔",
+                "tr": "Bir çocuk doktoru kapsamlı tanılamaya başlamalı ve gerekirse erken müdahalede bulunmalıdır."
+            },
+            "points": 10,
+            "id": "e27_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wann findet die U1-Untersuchung statt?",
+                "en": "When does the U1 examination take place?",
+                "bn": "ইউ১ পরীক্ষা কখন অনুষ্ঠিত হয়?",
+                "hi": "यू1 परीक्षा कब होती है?",
+                "ur": "U1 امتحان کب ہوتا ہے؟",
+                "tr": "U1 muayenesi ne zaman yapılır?"
+            },
+            "options": [
+                "Direkt nach der Geburt",
+                "Im Alter von 3 Monaten",
+                "Im Alter von 6 Monaten",
+                "Im Alter von 1 Jahr"
+            ],
+            "correctAnswer": "Direkt nach der Geburt",
+            "explanation": {
+                "en": "The U1 examination takes place directly after birth.",
+                "bn": "ইউ১ পরীক্ষা জন্মের পরপরই অনুষ্ঠিত হয়।",
+                "hi": "यू1 परीक्षा जन्म के तुरंत बाद होती है।",
+                "ur": "یو۱ امتحان پیدائش کے فوراً بعد ہوتا ہے۔",
+                "tr": "U1 muayenesi doğumdan hemen sonra yapılır."
+            },
+            "points": 10,
+            "id": "e27_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die _________ dient dazu, Krankheiten frühzeitig zu erkennen und zu behandeln.",
+                "en": "The _________ serves to detect and treat diseases early.",
+                "bn": "_________ রোগগুলি তাড়াতাড়ি সনাক্ত এবং চিকিত্সা করার জন্য কাজ করে।",
+                "hi": "_________ रोगों का जल्द पता लगाने और उनका इलाज करने का काम करता है।",
+                "ur": "_________ بیماریوں کا جلد پتہ لگانے اور ان کا علاج کرنے کا کام کرتا ہے۔",
+                "tr": "_________ hastalıkları erken tespit etmek ve tedavi etmek için hizmet eder."
+            },
+            "options": [],
+            "correctAnswer": "Vorsorge",
+            "explanation": {
+                "en": "Prevention/Preventive care serves to detect and treat diseases early.",
+                "bn": "প্রতিরোধ/প্রতিরোধমূলক যত্ন রোগগুলি তাড়াতাড়ি সনাক্ত এবং চিকিত্সা করার জন্য কাজ করে।",
+                "hi": "रोकथाम/निवारक देखभाल रोगों का जल्द पता लगाने और उनका इलाज करने का काम करती है।",
+                "ur": "روک تھام/احتیاطی نگہداشت بیماریوں کا جلد پتہ لگانے اور ان کا علاج کرنے کا کام کرتی ہے۔",
+                "tr": "Önleme/koruyucu bakım, hastalıkları erken tespit etmek ve tedavi etmek için hizmet eder."
+            },
+            "points": 10,
+            "id": "e27_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein Kinderarzt wird auch _________ genannt.",
+                "en": "A pediatrician is also called _________.",
+                "bn": "একজন শিশু বিশেষজ্ঞকে _________ ও বলা হয়।",
+                "hi": "एक बाल रोग विशेषज्ञ को _________ भी कहा जाता है।",
+                "ur": "ایک ماہر اطفال کو _________ بھی کہا جاتا ہے۔",
+                "tr": "Bir çocuk doktoruna aynı zamanda _________ de denir."
+            },
+            "options": [],
+            "correctAnswer": "Pädiater",
+            "explanation": {
+                "en": "A pediatrician is also called Pädiater.",
+                "bn": "একজন শিশু বিশেষজ্ঞকে পেডিয়াটারও বলা হয়।",
+                "hi": "एक बाल रोग विशेषज्ञ को पैडिएटियर भी कहा जाता है।",
+                "ur": "ایک ماہر اطفال کو پیڈیاٹر بھی کہا جاتا ہے۔",
+                "tr": "Bir çocuk doktoruna aynı zamanda Pädiater de denir."
+            },
+            "points": 10,
+            "id": "e27_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die _________ ist ein wichtiger Teil der kindlichen Entwicklung.",
+                "en": "_________ is an important part of child development.",
+                "bn": "_________ শিশুদের বিকাশের একটি গুরুত্বপূর্ণ অংশ।",
+                "hi": "_________ बच्चों के विकास का एक महत्वपूर्ण हिस्सा है।",
+                "ur": "_________ بچوں کی نشوونما کا ایک اہم حصہ ہے۔",
+                "tr": "_________ çocuk gelişiminin önemli bir parçasıdır."
+            },
+            "options": [],
+            "correctAnswer": "Sprachentwicklung",
+            "explanation": {
+                "en": "Language development is an important part of child development.",
+                "bn": "ভাষা বিকাশ শিশুদের বিকাশের একটি গুরুত্বপূর্ণ অংশ।",
+                "hi": "भाषा विकास बच्चों के विकास का एक महत्वपूर्ण हिस्सा है।",
+                "ur": "زبانی ترقی بچوں کی نشوونما کا ایک اہم حصہ ہے۔",
+                "tr": "Dil gelişimi, çocuk gelişiminin önemli bir parçasıdır."
+            },
+            "points": 10,
+            "id": "e27_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "__________ kontrolliert regelmässig die Entwicklung und Gesundheit des Kindes.",
+                "en": "__________ regularly monitors the child's development and health.",
+                "bn": "__________ নিয়মিত শিশুর বিকাশ এবং স্বাস্থ্য নিরীক্ষণ করে।",
+                "hi": "__________ नियमित रूप से बच्चे के विकास और स्वास्थ्य की निगरानी करता है।",
+                "ur": "__________ باقاعدگی سے بچے کی نشوونما اور صحت کی نگرانی کرتا ہے۔",
+                "tr": "__________ düzenli olarak çocuğun gelişimini ve sağlığını izler."
+            },
+            "options": [],
+            "correctAnswer": "Der Kinderarzt",
+            "explanation": {
+                "en": "The pediatrician regularly monitors the child's development and health.",
+                "bn": "শিশু বিশেষজ্ঞ নিয়মিত শিশুর বিকাশ এবং স্বাস্থ্য নিরীক্ষণ করেন।",
+                "hi": "बाल रोग विशेषज्ञ नियमित रूप से बच्चे के विकास और स्वास्थ्य की निगरानी करते हैं।",
+                "ur": "ماہر اطفال باقاعدگی سے بچے کی نشوونما اور صحت کی نگرانی کرتا ہے۔",
+                "tr": "Çocuk doktoru düzenli olarak çocuğun gelişimini ve sağlığını izler."
+            },
+            "points": 10,
+            "id": "e27_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Eine Impfung schützt vor _________.",
+                "en": "A vaccination protects against _________.",
+                "bn": "একটি টিকা _________ থেকে রক্ষা করে।",
+                "hi": "एक टीकाकरण _________ से बचाता है।",
+                "ur": "ایک ویکسینیشن _________ سے بچاتی ہے۔",
+                "tr": "Aşılama _________ karşı korur."
+            },
+            "options": [],
+            "correctAnswer": "Infektionskrankheiten",
+            "explanation": {
+                "en": "A vaccination protects against infectious diseases.",
+                "bn": "একটি টিকা সংক্রামক রোগ থেকে রক্ষা করে।",
+                "hi": "एक टीकाकरण संक्रामक रोगों से बचाता है।",
+                "ur": "ایک ویکسینیشن متعدی بیماریوں سے بچاتی ہے۔",
+                "tr": "Aşılama bulaşıcı hastalıklara karşı korur."
+            },
+            "points": 10,
+            "id": "e27_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Der Kinderarzt hat das Kind untersucht.",
+                "en": "The pediatrician examined the child.",
+                "bn": "শিশু বিশেষজ্ঞ শিশুটিকে পরীক্ষা করেছেন।",
+                "hi": "बाल रोग विशेषज्ञ ने बच्चे की जाँच की।",
+                "ur": "ماہر اطفال نے بچے کا معائنہ کیا۔",
+                "tr": "Çocuk doktoru çocuğu muayene etti."
+            },
+            "options": [],
+            "correctAnswer": "The pediatrician examined the child.",
+            "explanation": {
+                "en": "Simple translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সহজ অনুবাদ।",
+                "hi": "जर्मन वाक्य का सरल अनुवाद।",
+                "ur": "جرمن جملے کا آسان ترجمہ۔",
+                "tr": "Alman cümlenin basit çevirisi."
+            },
+            "points": 10,
+            "id": "e27_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Das Kind hat Fieber und Husten.",
+                "en": "The child has a fever and cough.",
+                "bn": "শিশুর জ্বর এবং কাশি আছে।",
+                "hi": "बच्चे को बुखार और खांसी है।",
+                "ur": "بچے کو بخار اور کھانسی ہے۔",
+                "tr": "Çocuğun ateşi ve öksürüğü var."
+            },
+            "options": [],
+            "correctAnswer": "The child has a fever and cough.",
+            "explanation": {
+                "en": "Simple translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সহজ অনুবাদ।",
+                "hi": "जर्मन वाक्य का सरल अनुवाद।",
+                "ur": "جرمن جملے کا آسان ترجمہ۔",
+                "tr": "Alman cümlenin basit çevirisi."
+            },
+            "points": 10,
+            "id": "e27_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die nächste U-Untersuchung ist in drei Monaten.",
+                "en": "The next U-examination is in three months.",
+                "bn": "পরবর্তী ইউ-পরীক্ষা তিন মাস পরে।",
+                "hi": "अगली यू-परीक्षा तीन महीने में है।",
+                "ur": "اگلا یو-امتحان تین ماہ میں ہے۔",
+                "tr": "Bir sonraki U muayenesi üç ay sonra."
+            },
+            "options": [],
+            "correctAnswer": "The next U-examination is in three months.",
+            "explanation": {
+                "en": "Simple translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সহজ অনুবাদ।",
+                "hi": "जर्मन वाक्य का सरल अनुवाद।",
+                "ur": "جرمن جملے کا آسان ترجمہ۔",
+                "tr": "Alman cümlenin basit çevirisi."
+            },
+            "points": 10,
+            "id": "e27_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

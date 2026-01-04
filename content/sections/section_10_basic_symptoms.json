@@ -1,17 +1,1642 @@
-{"id":"section_10","phaseId":"phase1","order":10,"titleDe":"Grundlegende Symptome","title":{"en":"Basic Symptoms","bn":"মৌলিক উপসর্গ","hi":"बुनियादी लक्षण","ur":"بنیادی علامات","tr":"Temel Belirtiler"},"level":"A2","estimatedMinutes":30,"vocabulary":[
-{"id":"v10_01","germanTerm":"Schmerzen","article":"die","plural":"-","translation":{"en":"Pain","bn":"ব্যথা","hi":"दर्द","ur":"درد","tr":"Ağrı"}},
-{"id":"v10_02","germanTerm":"Fieber","article":"das","plural":"-","translation":{"en":"Fever","bn":"জ্বর","hi":"बुखार","ur":"بخار","tr":"Ateş"}},
-{"id":"v10_03","germanTerm":"Husten","article":"der","plural":"-","translation":{"en":"Cough","bn":"কাশি","hi":"खांसी","ur":"کھانسی","tr":"Öksürük"}},
-{"id":"v10_04","germanTerm":"Übelkeit","article":"die","plural":"-","translation":{"en":"Nausea","bn":"বমি বমি ভাব","hi":"मतली","ur":"متلی","tr":"Mide bulantısı"}},
-{"id":"v10_05","germanTerm":"Erbrechen","article":"das","plural":"-","translation":{"en":"Vomiting","bn":"বমি","hi":"उल्टी","ur":"قے","tr":"Kusma"}},
-{"id":"v10_06","germanTerm":"Durchfall","article":"der","plural":"Durchfälle","translation":{"en":"Diarrhea","bn":"ডায়রিয়া","hi":"दस्त","ur":"دست","tr":"İshal"}},
-{"id":"v10_07","germanTerm":"Kopfschmerzen","article":"die","plural":"-","translation":{"en":"Headache","bn":"মাথাব্যথা","hi":"सिरदर्द","ur":"سر درد","tr":"Baş ağrısı"}},
-{"id":"v10_08","germanTerm":"Schwindel","article":"der","plural":"-","translation":{"en":"Dizziness","bn":"মাথা ঘোরা","hi":"चक्कर आना","ur":"چکر","tr":"Baş dönmesi"}},
-{"id":"v10_09","germanTerm":"Atemnot","article":"die","plural":"-","translation":{"en":"Shortness of Breath","bn":"শ্বাসকষ্ট","hi":"सांस की तकलीफ","ur":"سانس کی تکلیف","tr":"Nefes darlığı"}},
-{"id":"v10_10","germanTerm":"Müdigkeit","article":"die","plural":"-","translation":{"en":"Fatigue","bn":"ক্লান্তি","hi":"थकान","ur":"تھکاوٹ","tr":"Yorgunluk"}}
-],"dialogues":[{"id":"d10_01","title":{"en":"Patient Describes Symptoms"},"lines":[
-{"speaker":"Arzt","germanText":"Was für Beschwerden haben Sie?","translation":{"en":"What symptoms do you have?"}},
-{"speaker":"Patient","germanText":"Ich habe Fieber und Kopfschmerzen.","translation":{"en":"I have fever and headache."}},
-{"speaker":"Arzt","germanText":"Seit wann?","translation":{"en":"Since when?"}},
-{"speaker":"Patient","germanText":"Seit drei Tagen.","translation":{"en":"For three days."}}
-]}],"exercises":[{"id":"e10_01","type":"multipleChoice","question":{"en":"What is 'Fieber'?"},"options":["Fever","Cough","Pain"],"correctAnswer":"Fever","points":10}]}
+{
+    "id": "section_10",
+    "phaseId": "phase1",
+    "order": 10,
+    "titleDe": "Grundlegende Symptome",
+    "title": {
+        "en": "Basic Symptoms: Pain, Fever, Cough, Nausea, Vomiting, Diarrhea, Dizziness, Fatigue",
+        "bn": "প্রাথমিক লক্ষণ: ব্যথা, জ্বর, কাশি, বমি বমি ভাব, বমি, ডায়রিয়া, মাথা ঘোরা, ক্লান্তি",
+        "hi": "बुनियादी लक्षण: दर्द, बुखार, खांसी, मतली, उल्टी, दस्त, चक्कर आना, थकान",
+        "ur": "بنیادی علامات: درد، بخار، کھانسی، متلی، قے، اسہال، چکر آنا، تھکاوٹ",
+        "tr": "Temel Semptomlar: Ağrı, Ateş, Öksürük, Mide Bulantısı, Kusma, İshal, Baş Dönmesi, Yorgunluk",
+        "de": "Grundlegende Symptome: Schmerzen, Fieber, Husten, Übelkeit, Erbrechen, Durchfall, Schwindel, Müdigkeit"
+    },
+    "description": {
+        "en": "This section covers the basic German vocabulary and phrases needed to describe common symptoms.",
+        "bn": "এই বিভাগে সাধারণ লক্ষণ বর্ণনা করার জন্য প্রয়োজনীয় মৌলিক জার্মান শব্দভাণ্ডার এবং বাক্যাংশ অন্তর্ভুক্ত করা হয়েছে।",
+        "hi": "इस अनुभाग में सामान्य लक्षणों का वर्णन करने के लिए आवश्यक बुनियादी जर्मन शब्दावली और वाक्यांश शामिल हैं।",
+        "ur": "اس سیکشن میں عام علامات کو بیان کرنے کے لیے ضروری بنیادی جرمن الفاظ اور جملے شامل ہیں۔",
+        "tr": "Bu bölüm, yaygın semptomları tanımlamak için gerekli temel Almanca kelime dağarcığını ve ifadelerini kapsar.",
+        "de": "Dieser Abschnitt behandelt das grundlegende deutsche Vokabular und die Phrasen, die zur Beschreibung gängiger Symptome benötigt werden."
+    },
+    "level": "A2",
+    "estimatedMinutes": 45,
+    "isPremium": false,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, you will learn how to describe basic symptoms in German. You will gain the vocabulary necessary to communicate effectively with German-speaking patients about their ailments.",
+            "bn": "এই বিভাগে, আপনি জার্মান ভাষায় প্রাথমিক লক্ষণগুলি বর্ণনা করতে শিখবেন। জার্মান-ভাষী রোগীদের সাথে তাদের অসুস্থতা সম্পর্কে কার্যকরভাবে যোগাযোগ করার জন্য প্রয়োজনীয় শব্দভাণ্ডার আপনি অর্জন করবেন।",
+            "hi": "इस अनुभाग में, आप जर्मन में बुनियादी लक्षणों का वर्णन करना सीखेंगे। जर्मन भाषी रोगियों के साथ उनकी बीमारियों के बारे में प्रभावी ढंग से संवाद करने के लिए आवश्यक शब्दावली आपको प्राप्त होगी।",
+            "ur": "اس سیکشن میں، آپ جرمن میں بنیادی علامات کو بیان کرنا سیکھیں گے۔ آپ جرمن بولنے والے مریضوں کے ساتھ ان کی بیماریوں کے بارے میں مؤثر طریقے سے بات چیت کرنے کے لیے ضروری الفاظ حاصل کریں گے۔",
+            "tr": "Bu bölümde, Almanca'da temel semptomları nasıl tanımlayacağınızı öğreneceksiniz. Almanca konuşan hastalarla rahatsızlıkları hakkında etkili bir şekilde iletişim kurmak için gerekli kelime dağarcığını kazanacaksınız.",
+            "de": "In diesem Abschnitt lernen Sie, wie man grundlegende Symptome auf Deutsch beschreibt. Sie erwerben den Wortschatz, der notwendig ist, um effektiv mit deutschsprachigen Patienten über ihre Beschwerden zu kommunizieren."
+        },
+        "grammarFocus": {
+            "en": [
+                "Use of accusative and dative cases with verbs related to pain (e.g., *Ich habe Schmerzen im Bauch*).",
+                "Adjective endings when describing symptoms (e.g., *starker Husten*, *hohes Fieber*)."
+            ],
+            "bn": [
+                "ব্যথার সাথে সম্পর্কিত ক্রিয়াগুলির সাথে accusative এবং dative cases ব্যবহার (যেমন, *Ich habe Schmerzen im Bauch*)।",
+                "লক্ষণ বর্ণনা করার সময় বিশেষণ শেষ (যেমন, *starker Husten*, *hohes Fieber*)।"
+            ],
+            "hi": [
+                "दर्द से संबंधित क्रियाओं के साथ accusative और dative cases का उपयोग (उदाहरण के लिए, *Ich habe Schmerzen im Bauch*)।",
+                "लक्षणों का वर्णन करते समय विशेषण अंत (उदाहरण के लिए, *starker Husten*, *hohes Fieber*)।"
+            ],
+            "ur": [
+                "درد سے متعلق افعال کے ساتھ accusative اور dative cases کا استعمال (مثال کے طور پر، *Ich habe Schmerzen im Bauch*)۔",
+                "علامات کی وضاحت کرتے وقت صفت کے آخر (مثال کے طور پر، *starker Husten*, *hohes Fieber*)۔"
+            ],
+            "tr": [
+                "Ağrı ile ilgili fiillerle accusative ve dative durumlarının kullanımı (örneğin, *Ich habe Schmerzen im Bauch*).",
+                "Semptomları tanımlarken sıfatların sonları (örneğin, *starker Husten*, *hohes Fieber*)."
+            ],
+            "de": [
+                "Verwendung von Akkusativ und Dativ bei Verben im Zusammenhang mit Schmerzen (z.B. *Ich habe Schmerzen im Bauch*).",
+                "Adjektivendungen bei der Beschreibung von Symptomen (z.B. *starker Husten*, *hohes Fieber*)."
+            ]
+        },
+        "culturalNotes": {
+            "en": "In German hospitals, it is common for patients to proactively describe their symptoms in detail to the doctor; direct and specific communication is valued.",
+            "bn": "জার্মান হাসপাতালগুলিতে, রোগীদের জন্য ডাক্তারের কাছে তাদের লক্ষণগুলি বিস্তারিতভাবে বর্ণনা করা সাধারণ; সরাসরি এবং সুনির্দিষ্ট যোগাযোগ মূল্যবান।",
+            "hi": "जर्मन अस्पतालों में, रोगियों के लिए डॉक्टर को अपने लक्षणों का विस्तार से वर्णन करना आम बात है; सीधा और विशिष्ट संचार मूल्यवान है।",
+            "ur": "جرمن ہسپتالوں میں، مریضوں کے لیے ڈاکٹر کو اپنی علامات کو تفصیل سے بیان کرنا عام ہے؛ براہ راست اور مخصوص مواصلات قابل قدر ہے۔",
+            "tr": "Alman hastanelerinde, hastaların semptomlarını doktora ayrıntılı olarak anlatmaları yaygındır; doğrudan ve spesifik iletişim değerlidir.",
+            "de": "In deutschen Krankenhäusern ist es üblich, dass Patienten dem Arzt ihre Symptome proaktiv im Detail beschreiben; direkte und spezifische Kommunikation wird geschätzt."
+        },
+        "summary": {
+            "en": "This section has provided you with essential vocabulary and cultural insights for discussing basic symptoms in German within a medical context.",
+            "bn": "এই বিভাগে আপনাকে একটি মেডিকেল প্রেক্ষাপটে জার্মান ভাষায় প্রাথমিক লক্ষণগুলি নিয়ে আলোচনার জন্য প্রয়োজনীয় শব্দভাণ্ডার এবং সাংস্কৃতিক অন্তর্দৃষ্টি প্রদান করা হয়েছে।",
+            "hi": "इस अनुभाग ने आपको चिकित्सा संदर्भ में जर्मन में बुनियादी लक्षणों पर चर्चा करने के लिए आवश्यक शब्दावली और सांस्कृतिक अंतर्दृष्टि प्रदान की है।",
+            "ur": "اس سیکشن نے آپ کو طبی تناظر میں جرمن میں بنیادی علامات پر بات کرنے کے لیے ضروری الفاظ اور ثقافتی بصیرت فراہم کی ہے۔",
+            "tr": "Bu bölüm size tıbbi bir bağlamda Almanca'da temel semptomları tartışmak için gerekli kelime dağarcığını ve kültürel bilgileri sağlamıştır.",
+            "de": "Dieser Abschnitt hat Ihnen das wesentliche Vokabular und kulturelle Einblicke für die Diskussion grundlegender Symptome auf Deutsch im medizinischen Kontext vermittelt."
+        },
+        "learningObjectives": [
+            "Identify and understand German vocabulary for common symptoms.",
+            "Formulate simple sentences describing symptoms in German.",
+            "Understand relevant grammatical structures for describing pain and other sensations.",
+            "Apply cultural knowledge to effectively communicate with German-speaking patients."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "der Schmerz",
+            "article": "der",
+            "plural": "die Schmerzen",
+            "pronunciation": "ʃmɛʁt͡s",
+            "category": "noun",
+            "translation": {
+                "en": "pain",
+                "bn": "ব্যথা",
+                "hi": "दर्द",
+                "ur": "درد",
+                "tr": "ağrı"
+            },
+            "exampleSentence": "Der Patient klagt über starke Schmerzen im Brustbereich.",
+            "exampleTranslation": {
+                "en": "The patient complains of severe pain in the chest area.",
+                "bn": "রোগী বুকের অঞ্চলে তীব্র ব্যথার অভিযোগ করছেন।",
+                "hi": "मरीज छाती के क्षेत्र में तेज दर्द की शिकायत करता है।",
+                "ur": "مریض سینے کے علاقے میں شدید درد کی شکایت کر رہا ہے۔",
+                "tr": "Hasta göğüs bölgesinde şiddetli ağrıdan şikayet ediyor."
+            },
+            "id": "v10_01"
+        },
+        {
+            "germanTerm": "das Fieber",
+            "article": "das",
+            "plural": "die Fieber",
+            "pronunciation": "ˈfiːbɐ",
+            "category": "noun",
+            "translation": {
+                "en": "fever",
+                "bn": "জ্বর",
+                "hi": "बुखार",
+                "ur": "بخار",
+                "tr": "ateş"
+            },
+            "exampleSentence": "Das Fieber des Patienten beträgt 39 Grad Celsius.",
+            "exampleTranslation": {
+                "en": "The patient's fever is 39 degrees Celsius.",
+                "bn": "রোগীর জ্বর ৩৯ ডিগ্রি সেলসিয়াস।",
+                "hi": "मरीज का बुखार 39 डिग्री सेल्सियस है।",
+                "ur": "مریض کا بخار 39 ڈگری سینٹی گریڈ ہے۔",
+                "tr": "Hastanın ateşi 39 derece Celcius."
+            },
+            "id": "v10_02"
+        },
+        {
+            "germanTerm": "der Husten",
+            "article": "der",
+            "plural": "die Husten",
+            "pronunciation": "ˈhuːstən",
+            "category": "noun",
+            "translation": {
+                "en": "cough",
+                "bn": "কাশি",
+                "hi": "खाँसी",
+                "ur": "کھانسی",
+                "tr": "öksürük"
+            },
+            "exampleSentence": "Der Patient hat einen trockenen Husten seit drei Tagen.",
+            "exampleTranslation": {
+                "en": "The patient has had a dry cough for three days.",
+                "bn": "রোগীর তিন দিন ধরে শুকনো কাশি হচ্ছে।",
+                "hi": "मरीज को तीन दिनों से सूखी खाँसी है।",
+                "ur": "مریض کو تین دن سے خشک کھانسی ہے۔",
+                "tr": "Hastanın üç gündür kuru öksürüğü var."
+            },
+            "id": "v10_03"
+        },
+        {
+            "germanTerm": "die Übelkeit",
+            "article": "die",
+            "plural": "no plural",
+            "pronunciation": "ˈyːblɪçkaɪ̯t",
+            "category": "noun",
+            "translation": {
+                "en": "nausea",
+                "bn": "বমি বমি ভাব",
+                "hi": "मतली",
+                "ur": "متلی",
+                "tr": "bulantı"
+            },
+            "exampleSentence": "Die Patientin klagt über Übelkeit und Erbrechen.",
+            "exampleTranslation": {
+                "en": "The patient complains of nausea and vomiting.",
+                "bn": "রোগী বমি বমি ভাব এবং বমির অভিযোগ করছেন।",
+                "hi": "मरीज मतली और उल्टी की शिकायत करता है।",
+                "ur": "مریض متلی اور قے کی شکایت کر رہا ہے۔",
+                "tr": "Hasta bulantı ve kusmadan şikayet ediyor."
+            },
+            "id": "v10_04"
+        },
+        {
+            "germanTerm": "das Erbrechen",
+            "article": "das",
+            "plural": "no plural",
+            "pronunciation": "ɛɐ̯ˈbʁɛçən",
+            "category": "noun",
+            "translation": {
+                "en": "vomiting",
+                "bn": "বমি",
+                "hi": "उल्टी",
+                "ur": "قے",
+                "tr": "kusma"
+            },
+            "exampleSentence": "Das Erbrechen erfolgte direkt nach der Einnahme des Medikaments.",
+            "exampleTranslation": {
+                "en": "The vomiting occurred immediately after taking the medication.",
+                "bn": "ওষুধ খাওয়ার পরপরই বমি হয়েছিল।",
+                "hi": "दवा लेने के तुरंत बाद उल्टी हुई।",
+                "ur": "دوا لینے کے فوراً بعد قے ہوئی۔",
+                "tr": "Kusma, ilacı aldıktan hemen sonra meydana geldi."
+            },
+            "id": "v10_05"
+        },
+        {
+            "germanTerm": "der Durchfall",
+            "article": "der",
+            "plural": "die Durchfälle",
+            "pronunciation": "ˈdʊʁçfal",
+            "category": "noun",
+            "translation": {
+                "en": "diarrhea",
+                "bn": "ডায়রিয়া",
+                "hi": "दस्त",
+                "ur": "اسہال",
+                "tr": "ishal"
+            },
+            "exampleSentence": "Der Patient leidet unter starkem Durchfall seit gestern Abend.",
+            "exampleTranslation": {
+                "en": "The patient has been suffering from severe diarrhea since yesterday evening.",
+                "bn": "রোগী গতকাল সন্ধ্যা থেকে গুরুতর ডায়রিয়ায় ভুগছেন।",
+                "hi": "मरीज कल शाम से गंभीर दस्त से पीड़ित है।",
+                "ur": "مریض کل شام سے شدید اسہال میں مبتلا ہے۔",
+                "tr": "Hasta dün akşamdan beri şiddetli ishalden muzdarip."
+            },
+            "id": "v10_06"
+        },
+        {
+            "germanTerm": "der Schwindel",
+            "article": "der",
+            "plural": "no plural",
+            "pronunciation": "ˈʃvɪndəl",
+            "category": "noun",
+            "translation": {
+                "en": "dizziness",
+                "bn": "মাথা ঘোরা",
+                "hi": "चक्कर आना",
+                "ur": "چکر",
+                "tr": "baş dönmesi"
+            },
+            "exampleSentence": "Die Patientin beschreibt den Schwindel als Drehschwindel.",
+            "exampleTranslation": {
+                "en": "The patient describes the dizziness as vertigo.",
+                "bn": "রোগী মাথা ঘোরাকে ঘূর্ণায়মান মাথা ঘোরা হিসাবে বর্ণনা করেছেন।",
+                "hi": "मरीज चक्कर आने को चक्कर के रूप में वर्णित करता है।",
+                "ur": "مریض چکر آنے کو سر چکرانے کے طور پر بیان کرتا ہے۔",
+                "tr": "Hasta baş dönmesini vertigo olarak tanımlıyor."
+            },
+            "id": "v10_07"
+        },
+        {
+            "germanTerm": "die Müdigkeit",
+            "article": "die",
+            "plural": "no plural",
+            "pronunciation": "ˈmyːdiçkaɪ̯t",
+            "category": "noun",
+            "translation": {
+                "en": "fatigue",
+                "bn": "ক্লান্তি",
+                "hi": "थकान",
+                "ur": "تھکاوٹ",
+                "tr": "yorgunluk"
+            },
+            "exampleSentence": "Die Müdigkeit ist ein häufiges Symptom bei dieser Erkrankung.",
+            "exampleTranslation": {
+                "en": "Fatigue is a common symptom in this disease.",
+                "bn": "ক্লান্তি এই রোগের একটি সাধারণ লক্ষণ।",
+                "hi": "थकान इस बीमारी में एक आम लक्षण है।",
+                "ur": "تھکاوٹ اس بیماری میں ایک عام علامت ہے۔",
+                "tr": "Yorgunluk bu hastalıkta yaygın bir semptomdur."
+            },
+            "id": "v10_08"
+        },
+        {
+            "germanTerm": "schmerzhaft",
+            "article": "no article",
+            "plural": "no plural",
+            "pronunciation": "ˈʃmɛʁtshaft",
+            "category": "adjective",
+            "translation": {
+                "en": "painful",
+                "bn": "বেদনাদায়ক",
+                "hi": "दर्दनाक",
+                "ur": "دردناک",
+                "tr": "ağrılı"
+            },
+            "exampleSentence": "Die Wunde ist sehr schmerzhaft.",
+            "exampleTranslation": {
+                "en": "The wound is very painful.",
+                "bn": "ক্ষতটি খুব বেদনাদায়ক।",
+                "hi": "घाव बहुत दर्दनाक है।",
+                "ur": "زخم بہت دردناک ہے۔",
+                "tr": "Yara çok ağrılı."
+            },
+            "id": "v10_09"
+        },
+        {
+            "germanTerm": "fiebrig",
+            "article": "no article",
+            "plural": "no plural",
+            "pronunciation": "ˈfiːbʁɪç",
+            "category": "adjective",
+            "translation": {
+                "en": "feverish",
+                "bn": "জ্বরযুক্ত",
+                "hi": "बुखार वाला",
+                "ur": "بخار والا",
+                "tr": "ateşli"
+            },
+            "exampleSentence": "Der Patient fühlt sich fiebrig und schwach.",
+            "exampleTranslation": {
+                "en": "The patient feels feverish and weak.",
+                "bn": "রোগী জ্বরযুক্ত এবং দুর্বল বোধ করছেন।",
+                "hi": "मरीज बुखार और कमजोर महसूस करता है।",
+                "ur": "مریض بخار والا اور کمزور محسوس کر رہا ہے۔",
+                "tr": "Hasta ateşli ve zayıf hissediyor."
+            },
+            "id": "v10_10"
+        },
+        {
+            "germanTerm": "husten",
+            "article": "no article",
+            "plural": "no plural",
+            "pronunciation": "ˈhuːstən",
+            "category": "verb",
+            "translation": {
+                "en": "to cough",
+                "bn": "কাশি করা",
+                "hi": "खाँसना",
+                "ur": "کھانسنا",
+                "tr": "öksürmek"
+            },
+            "exampleSentence": "Der Patient hustet seit einer Woche.",
+            "exampleTranslation": {
+                "en": "The patient has been coughing for a week.",
+                "bn": "রোগী এক সপ্তাহ ধরে কাশি করছেন।",
+                "hi": "मरीज को एक हफ्ते से खांसी हो रही है।",
+                "ur": "مریض کو ایک ہفتے سے کھانسی ہو رہی ہے۔",
+                "tr": "Hasta bir haftadır öksürüyor."
+            },
+            "id": "v10_11"
+        },
+        {
+            "germanTerm": "sich übergeben",
+            "article": "no article",
+            "plural": "no plural",
+            "pronunciation": "zɪç ˈyːbɐˌɡeːbən",
+            "category": "verb",
+            "translation": {
+                "en": "to vomit",
+                "bn": "বমি করা",
+                "hi": "उल्टी करना",
+                "ur": "قے کرنا",
+                "tr": "kusmak"
+            },
+            "exampleSentence": "Der Patient hat sich mehrmals übergeben.",
+            "exampleTranslation": {
+                "en": "The patient vomited several times.",
+                "bn": "রোগী বেশ কয়েকবার বমি করেছেন।",
+                "hi": "मरीज ने कई बार उल्टी की है।",
+                "ur": "مریض نے کئی بار قے کی ہے۔",
+                "tr": "Hasta birkaç kez kustu."
+            },
+            "id": "v10_12"
+        },
+        {
+            "germanTerm": "Durchfall haben",
+            "article": "no article",
+            "plural": "no plural",
+            "pronunciation": "ˈdʊʁçfal ˈhaːbn̩",
+            "category": "phrase",
+            "translation": {
+                "en": "to have diarrhea",
+                "bn": "ডায়রিয়া হওয়া",
+                "hi": "दस्त होना",
+                "ur": "اسہال ہونا",
+                "tr": "ishali olmak"
+            },
+            "exampleSentence": "Der Patient hat seit heute Morgen Durchfall.",
+            "exampleTranslation": {
+                "en": "The patient has had diarrhea since this morning.",
+                "bn": "রোগীর আজ সকাল থেকে ডায়রিয়া হয়েছে।",
+                "hi": "मरीज को आज सुबह से दस्त हैं।",
+                "ur": "مریض کو آج صبح سے اسہال ہے۔",
+                "tr": "Hastanın bu sabahtan beri ishali var."
+            },
+            "id": "v10_13"
+        },
+        {
+            "germanTerm": "schwindlig",
+            "article": "no article",
+            "plural": "no plural",
+            "pronunciation": "ˈʃvɪndlɪç",
+            "category": "adjective",
+            "translation": {
+                "en": "dizzy",
+                "bn": "মাথা ঘোরা",
+                "hi": "चक्कर आना",
+                "ur": "چکرا",
+                "tr": "baş dönmesi olan"
+            },
+            "exampleSentence": "Mir ist schwindlig, wenn ich aufstehe.",
+            "exampleTranslation": {
+                "en": "I feel dizzy when I stand up.",
+                "bn": "আমি যখন উঠি তখন আমার মাথা ঘোরে।",
+                "hi": "जब मैं उठता हूं तो मुझे चक्कर आता है।",
+                "ur": "جب میں اٹھتا ہوں تو مجھے چکر آتے ہیں۔",
+                "tr": "Kalkınca başım dönüyor."
+            },
+            "id": "v10_14"
+        },
+        {
+            "germanTerm": "müde",
+            "article": "no article",
+            "plural": "no plural",
+            "pronunciation": "ˈmyːdə",
+            "category": "adjective",
+            "translation": {
+                "en": "tired",
+                "bn": "ক্লান্ত",
+                "hi": "थका हुआ",
+                "ur": "تھکا ہوا",
+                "tr": "yorgun"
+            },
+            "exampleSentence": "Der Patient fühlt sich sehr müde und erschöpft.",
+            "exampleTranslation": {
+                "en": "The patient feels very tired and exhausted.",
+                "bn": "রোগী খুব ক্লান্ত এবং অবসন্ন বোধ করছেন।",
+                "hi": "मरीज बहुत थका हुआ और थका हुआ महसूस करता है।",
+                "ur": "مریض بہت تھکا ہوا اور ختم شدہ محسوس کر رہا ہے۔",
+                "tr": "Hasta çok yorgun ve bitkin hissediyor."
+            },
+            "id": "v10_15"
+        },
+        {
+            "germanTerm": "der Kopfschmerz",
+            "article": "der",
+            "plural": "die Kopfschmerzen",
+            "pronunciation": "ˈkɔp͡fˌʃmɛʁt͡s",
+            "category": "noun",
+            "translation": {
+                "en": "headache",
+                "bn": "মাথাব্যথা",
+                "hi": "सरदर्द",
+                "ur": "سر درد",
+                "tr": "baş ağrısı"
+            },
+            "exampleSentence": "Der Patient klagt über starke Kopfschmerzen.",
+            "exampleTranslation": {
+                "en": "The patient complains of severe headaches.",
+                "bn": "রোগী তীব্র মাথাব্যথার অভিযোগ করছেন।",
+                "hi": "मरीज तेज सिरदर्द की शिकायत करता है।",
+                "ur": "مریض شدید سر درد کی شکایت کرتا ہے۔",
+                "tr": "Hasta şiddetli baş ağrısından şikayet ediyor."
+            },
+            "id": "v10_16"
+        },
+        {
+            "germanTerm": "der Bauchschmerz",
+            "article": "der",
+            "plural": "die Bauchschmerzen",
+            "pronunciation": "ˈbaʊ̯xˌʃmɛʁt͡s",
+            "category": "noun",
+            "translation": {
+                "en": "stomach ache",
+                "bn": "পেটে ব্যথা",
+                "hi": "पेट दर्द",
+                "ur": "پیٹ درد",
+                "tr": "karın ağrısı"
+            },
+            "exampleSentence": "Der Patient hat seit gestern Bauchschmerzen.",
+            "exampleTranslation": {
+                "en": "The patient has had stomach ache since yesterday.",
+                "bn": "রোগীর গতকাল থেকে পেটে ব্যথা হচ্ছে।",
+                "hi": "मरीज को कल से पेट दर्द है।",
+                "ur": "مریض کو کل سے پیٹ درد ہے۔",
+                "tr": "Hastanın dünden beri karın ağrısı var."
+            },
+            "id": "v10_17"
+        },
+        {
+            "germanTerm": "die Appetitlosigkeit",
+            "article": "die",
+            "plural": "no plural",
+            "pronunciation": "apɛˈtiːtloːsɪçkaɪ̯t",
+            "category": "noun",
+            "translation": {
+                "en": "loss of appetite",
+                "bn": "ক্ষুধামান্দ্য",
+                "hi": "भूख न लगना",
+                "ur": "بھوک کی کمی",
+                "tr": "iştahsızlık"
+            },
+            "exampleSentence": "Appetitlosigkeit ist ein häufiges Symptom bei vielen Erkrankungen.",
+            "exampleTranslation": {
+                "en": "Loss of appetite is a common symptom in many diseases.",
+                "bn": "ক্ষুধামান্দ্য অনেক রোগের একটি সাধারণ লক্ষণ।",
+                "hi": "भूख न लगना कई बीमारियों में एक आम लक्षण है।",
+                "ur": "بھوک کی کمی بہت سی بیماریوں میں ایک عام علامت ہے۔",
+                "tr": "İştahsızlık birçok hastalıkta yaygın bir semptomdur."
+            },
+            "id": "v10_18"
+        },
+        {
+            "germanTerm": "die Schlaflosigkeit",
+            "article": "die",
+            "plural": "no plural",
+            "pronunciation": "ˈʃlaːfloːzɪçkaɪ̯t",
+            "category": "noun",
+            "translation": {
+                "en": "insomnia",
+                "bn": "অনিদ্রা",
+                "hi": "अनिद्रा",
+                "ur": "بے خوابی",
+                "tr": "uykusuzluk"
+            },
+            "exampleSentence": "Der Patient leidet unter Schlaflosigkeit seit mehreren Wochen.",
+            "exampleTranslation": {
+                "en": "The patient has been suffering from insomnia for several weeks.",
+                "bn": "রোগী কয়েক সপ্তাহ ধরে অনিদ্রায় ভুগছেন।",
+                "hi": "मरीज कई हफ्तों से अनिद्रा से पीड़ित है।",
+                "ur": "مریض کئی ہفتوں سے بے خوابی کا شکار ہے۔",
+                "tr": "Hasta birkaç haftadır uykusuzluktan muzdarip."
+            },
+            "id": "v10_19"
+        },
+        {
+            "germanTerm": "das Unwohlsein",
+            "article": "das",
+            "plural": "no plural",
+            "pronunciation": "ˈʊnvoːlzaɪ̯n",
+            "category": "noun",
+            "translation": {
+                "en": "malaise",
+                "bn": "অসুস্থতা",
+                "hi": "अस्वस्थता",
+                "ur": "بے آرامی",
+                "tr": "halsizlik"
+            },
+            "exampleSentence": "Der Patient klagt über allgemeines Unwohlsein.",
+            "exampleTranslation": {
+                "en": "The patient complains of general malaise.",
+                "bn": "রোগী সাধারণ অসুস্থতার অভিযোগ করছেন।",
+                "hi": "मरीज सामान्य अस्वस्थता की शिकायत करता है।",
+                "ur": "مریض عام بے آرامی کی شکایت کرتا ہے۔",
+                "tr": "Hasta genel bir halsizlikten şikayet ediyor."
+            },
+            "id": "v10_20"
+        },
+        {
+            "germanTerm": "die Gliederschmerzen",
+            "article": "die",
+            "plural": "no singular",
+            "pronunciation": "ˈɡliːdɐˌʃmɛʁt͡sən",
+            "category": "noun",
+            "translation": {
+                "en": "body aches",
+                "bn": "শরীরের ব্যথা",
+                "hi": "बदन दर्द",
+                "ur": "جسم میں درد",
+                "tr": "vücut ağrıları"
+            },
+            "exampleSentence": "Bei einer Grippe hat man oft Gliederschmerzen.",
+            "exampleTranslation": {
+                "en": "You often have body aches with the flu.",
+                "bn": "সর্দি হলে প্রায়শই শরীরে ব্যথা হয়।",
+                "hi": "फ्लू होने पर अक्सर बदन दर्द होता है।",
+                "ur": "فلو ہونے پر اکثر جسم میں درد ہوتا ہے۔",
+                "tr": "Gripte sıklıkla vücut ağrıları olur."
+            },
+            "id": "v10_21"
+        },
+        {
+            "germanTerm": "der Nachtschweiß",
+            "article": "der",
+            "plural": "no plural",
+            "pronunciation": "ˈnaxtˌʃvaɪ̯s",
+            "category": "noun",
+            "translation": {
+                "en": "night sweats",
+                "bn": "রাতের ঘাম",
+                "hi": "रात का पसीना",
+                "ur": "رات کا پسینہ",
+                "tr": "gece terlemesi"
+            },
+            "exampleSentence": "Der Patient berichtet über starken Nachtschweiß.",
+            "exampleTranslation": {
+                "en": "The patient reports severe night sweats.",
+                "bn": "রোগী তীব্র রাতের ঘামের কথা জানিয়েছেন।",
+                "hi": "मरीज रात को तेज पसीने की शिकायत करता है।",
+                "ur": "مریض رات کو شدید پسینے کی شکایت کرتا ہے۔",
+                "tr": "Hasta şiddetli gece terlemesinden bahsediyor."
+            },
+            "id": "v10_22"
+        },
+        {
+            "germanTerm": "die Atemnot",
+            "article": "die",
+            "plural": "no plural",
+            "pronunciation": "ˈaːtəmˌnoːt",
+            "category": "noun",
+            "translation": {
+                "en": "shortness of breath",
+                "bn": "শ্বাসকষ্ট",
+                "hi": "सांस लेने में तकलीफ",
+                "ur": "سانس کی قلت",
+                "tr": "nefes darlığı"
+            },
+            "exampleSentence": "Die Patientin klagt über Atemnot bei Anstrengung.",
+            "exampleTranslation": {
+                "en": "The patient complains of shortness of breath on exertion.",
+                "bn": "রোগী পরিশ্রমের সময় শ্বাসকষ্টের অভিযোগ করছেন।",
+                "hi": "मरीज मेहनत करने पर सांस लेने में तकलीफ की शिकायत करता है।",
+                "ur": "مریض مشقت کرنے پر سانس کی قلت کی شکایت کرتا ہے۔",
+                "tr": "Hasta efor sarf ettiğinde nefes darlığından şikayet ediyor."
+            },
+            "id": "v10_23"
+        },
+        {
+            "germanTerm": "das Krankheitsgefühl",
+            "article": "das",
+            "plural": "no plural",
+            "pronunciation": "ˈkʁaŋkhaɪ̯t͡sˌɡəfyːl",
+            "category": "noun",
+            "translation": {
+                "en": "feeling of illness",
+                "bn": "অসুস্থতার অনুভূতি",
+                "hi": "बीमारी की भावना",
+                "ur": "بیماری کا احساس",
+                "tr": "hastalık hissi"
+            },
+            "exampleSentence": "Der Patient beschreibt ein allgemeines Krankheitsgefühl.",
+            "exampleTranslation": {
+                "en": "The patient describes a general feeling of illness.",
+                "bn": "রোগী একটি সাধারণ অসুস্থতার অনুভূতি বর্ণনা করেছেন।",
+                "hi": "मरीज बीमारी की एक सामान्य भावना का वर्णन करता है।",
+                "ur": "مریض بیماری کے ایک عام احساس کو بیان کرتا ہے۔",
+                "tr": "Hasta genel bir hastalık hissi tarif ediyor."
+            },
+            "id": "v10_24"
+        },
+        {
+            "germanTerm": "die Verstopfung",
+            "article": "die",
+            "plural": "no plural",
+            "pronunciation": "fɛɐ̯ˈʃtɔpfʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "constipation",
+                "bn": "কোষ্ঠকাঠিন্য",
+                "hi": "कब्ज़",
+                "ur": "قبض",
+                "tr": "kabızlık"
+            },
+            "exampleSentence": "Die Patientin leidet unter Verstopfung.",
+            "exampleTranslation": {
+                "en": "The patient suffers from constipation.",
+                "bn": "রোগী কোষ্ঠকাঠিন্যে ভুগছেন।",
+                "hi": "मरीज कब्ज़ से पीड़ित है।",
+                "ur": "مریض قبض کا شکار ہے۔",
+                "tr": "Hasta kabızlıktan muzdarip."
+            },
+            "id": "v10_25"
+        },
+        {
+            "germanTerm": "der Reizhusten",
+            "article": "der",
+            "plural": "die Reizhusten",
+            "pronunciation": "ˈʁaɪ̯t͡sˌhuːstən",
+            "category": "noun",
+            "translation": {
+                "en": "irritating cough",
+                "bn": "বিরক্তিকর কাশি",
+                "hi": "चिड़चिड़ा खाँसी",
+                "ur": "خارش والی کھانسی",
+                "tr": "tahriş edici öksürük"
+            },
+            "exampleSentence": "Der Patient klagt über einen quälenden Reizhusten.",
+            "exampleTranslation": {
+                "en": "The patient complains of a nagging irritating cough.",
+                "bn": "রোগী একটি বিরক্তিকর কাশি অভিযোগ করছেন।",
+                "hi": "मरीज एक लगातार परेशान करने वाली खाँसी की शिकायत करता है।",
+                "ur": "مریض ایک مستقل پریشان کن کھانسی کی شکایت کرتا ہے۔",
+                "tr": "Hasta sürekli rahatsız edici bir öksürükten şikayet ediyor."
+            },
+            "id": "v10_26"
+        },
+        {
+            "germanTerm": "der Auswurf",
+            "article": "der",
+            "plural": "no plural",
+            "pronunciation": "ˈaʊ̯sˌvʊʁf",
+            "category": "noun",
+            "translation": {
+                "en": "sputum",
+                "bn": "কাশি ওঠা কফ",
+                "hi": "बलगम",
+                "ur": "بلغم",
+                "tr": "balgam"
+            },
+            "exampleSentence": "Bitte untersuchen Sie den Auswurf des Patienten.",
+            "exampleTranslation": {
+                "en": "Please examine the patient's sputum.",
+                "bn": "অনুগ্রহ করে রোগীর কাশি ওঠা কফ পরীক্ষা করুন।",
+                "hi": "कृपया मरीज के बलगम की जांच करें।",
+                "ur": "براہ کرم مریض کے بلغم کا معائنہ کریں۔",
+                "tr": "Lütfen hastanın balgamını inceleyin."
+            },
+            "id": "v10_27"
+        },
+        {
+            "germanTerm": "sich fühlen",
+            "article": "no article",
+            "plural": "no plural",
+            "pronunciation": "zɪç ˈfyːlən",
+            "category": "verb",
+            "translation": {
+                "en": "to feel",
+                "bn": "অনুভব করা",
+                "hi": "महसूस करना",
+                "ur": "محسوس کرنا",
+                "tr": "hissetmek"
+            },
+            "exampleSentence": "Wie fühlen Sie sich heute?",
+            "exampleTranslation": {
+                "en": "How do you feel today?",
+                "bn": "আজ আপনি কেমন অনুভব করছেন?",
+                "hi": "आज आप कैसा महसूस कर रहे हैं?",
+                "ur": "آج آپ کیسا محسوس کر رہے ہیں؟",
+                "tr": "Bugün nasıl hissediyorsunuz?"
+            },
+            "id": "v10_28"
+        },
+        {
+            "germanTerm": "die Schwäche",
+            "article": "die",
+            "plural": "die Schwächen",
+            "pronunciation": "ˈʃvɛkə",
+            "category": "noun",
+            "translation": {
+                "en": "weakness",
+                "bn": "দুর্বলতা",
+                "hi": "कमज़ोरी",
+                "ur": "کمزوری",
+                "tr": "zayıflık"
+            },
+            "exampleSentence": "Der Patient klagt über allgemeine Schwäche.",
+            "exampleTranslation": {
+                "en": "The patient complains of general weakness.",
+                "bn": "রোগী সাধারণ দুর্বলতার অভিযোগ করছেন।",
+                "hi": "मरीज सामान्य कमजोरी की शिकायत करता है।",
+                "ur": "مریض عام کمزوری کی شکایت کرتا ہے۔",
+                "tr": "Hasta genel bir zayıflıktan şikayet ediyor."
+            },
+            "id": "v10_29"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Abdominal Pain",
+                "bn": "পেটের ব্যাথা",
+                "hi": "पेट दर्द",
+                "ur": "پیٹ درد",
+                "tr": "Karın Ağrısı"
+            },
+            "context": {
+                "en": "Patient complaining of abdominal pain to the doctor.",
+                "bn": "রোগী ডাক্তারের কাছে পেটে ব্যথার অভিযোগ করছেন।",
+                "hi": "रोगी डॉक्टर से पेट दर्द की शिकायत कर रहा है।",
+                "ur": "مریض ڈاکٹر سے پیٹ درد کی شکایت کر رہا ہے۔",
+                "tr": "Hastanın doktora karın ağrısından şikayeti."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Morgen, Herr Doktor. Ich habe seit gestern starke Schmerzen im Bauch.",
+                    "translation": {
+                        "en": "Good morning, Doctor. I've had severe pain in my abdomen since yesterday.",
+                        "bn": "শুভ সকাল, ডাক্তার। গতকাল থেকে আমার পেটে খুব ব্যথা হচ্ছে।",
+                        "hi": "सुप्रभात, डॉक्टर। मुझे कल से मेरे पेट में तेज़ दर्द हो रहा है।",
+                        "ur": "صبح بخیر ڈاکٹر۔ مجھے کل سے میرے پیٹ میں شدید درد ہو رہا ہے۔",
+                        "tr": "Günaydın doktor. Dünden beri karnımda şiddetli ağrılarım var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Morgen, Herr Müller. Können Sie mir genauer beschreiben, wo genau der Schmerz sitzt und wie er sich anfühlt?",
+                    "translation": {
+                        "en": "Good morning, Mr. Müller. Can you describe to me more precisely where exactly the pain is located and what it feels like?",
+                        "bn": "শুভ সকাল, মিঃ মুলার। আপনি কি আমাকে আরও স্পষ্টভাবে বর্ণনা করতে পারেন যে ব্যথাটি ঠিক কোথায় এবং কেমন লাগছে?",
+                        "hi": "सुप्रभात, श्री मूलर। क्या आप मुझे अधिक सटीक रूप से बता सकते हैं कि दर्द ठीक कहाँ स्थित है और यह कैसा लगता है?",
+                        "ur": "صبح بخیر، مسٹر مولر۔ کیا آپ مجھے زیادہ واضح طور پر بتا سکتے ہیں کہ درد ٹھیک کہاں واقع ہے اور یہ کیسا محسوس ہوتا ہے؟",
+                        "tr": "Günaydın Bay Müller. Bana tam olarak ağrının nerede olduğunu ve nasıl hissettirdiğini daha ayrıntılı anlatabilir misiniz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Es ist eher im Unterbauch und krampfartig.  Und mir ist etwas übel.",
+                    "translation": {
+                        "en": "It's more in the lower abdomen and crampy. And I feel a little nauseous.",
+                        "bn": "এটি পেটের নীচের দিকে এবং খিঁচুনিযুক্ত। আর আমার একটু বমি বমি ভাব লাগছে।",
+                        "hi": "यह निचले पेट में है और ऐंठन जैसा है। और मुझे थोड़ा जी मिचला रहा है।",
+                        "ur": "یہ پیٹ کے نچلے حصے میں اور اینٹھن کی طرح ہے۔ اور مجھے تھوڑی متلی ہو رہی ہے۔",
+                        "tr": "Daha çok alt karın bölgesinde ve kramp şeklinde. Ve biraz midem bulanıyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Haben Sie auch Fieber oder Durchfall?",
+                    "translation": {
+                        "en": "Do you also have a fever or diarrhea?",
+                        "bn": "আপনার কি জ্বর বা ডায়রিয়াও আছে?",
+                        "hi": "क्या आपको बुखार या दस्त भी है?",
+                        "ur": "کیا آپ کو بخار یا دست بھی ہے؟",
+                        "tr": "Ateşiniz veya ishaliniz de var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Nein, Fieber habe ich nicht, aber Durchfall hatte ich heute Morgen einmal.",
+                    "translation": {
+                        "en": "No, I don't have a fever, but I had diarrhea once this morning.",
+                        "bn": "না, আমার জ্বর নেই, তবে আজ সকালে একবার ডায়রিয়া হয়েছিল।",
+                        "hi": "नहीं, मुझे बुखार नहीं है, लेकिन मुझे आज सुबह एक बार दस्त हुआ था।",
+                        "ur": "نہیں، مجھے بخار نہیں ہے، لیکن مجھے آج صبح ایک بار دست آیا تھا۔",
+                        "tr": "Hayır, ateşim yok ama bu sabah bir kez ishal oldum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Okay. Dann werde ich Sie jetzt einmal abtasten.",
+                    "translation": {
+                        "en": "Okay. Then I will examine your abdomen now.",
+                        "bn": "ঠিক আছে। তাহলে আমি এখন আপনার পেট পরীক্ষা করব।",
+                        "hi": "ठीक है। तो फिर मैं अब आपके पेट की जाँच करूँगा।",
+                        "ur": "ٹھیک ہے۔ تو پھر میں اب آپ کے پیٹ کی جانچ کروں گا۔",
+                        "tr": "Tamam. O zaman şimdi karnınızı muayene edeceğim."
+                    }
+                }
+            ],
+            "id": "d10_01"
+        },
+        {
+            "title": {
+                "en": "Fever and Cough",
+                "bn": "জ্বর এবং কাশি",
+                "hi": "बुखार और खांसी",
+                "ur": "بخار اور کھانسی",
+                "tr": "Ateş ve Öksürük"
+            },
+            "context": {
+                "en": "Nurse taking patient's vitals, patient has fever and cough.",
+                "bn": "নার্স রোগীর ভাইটাল নিচ্ছেন, রোগীর জ্বর এবং কাশি রয়েছে।",
+                "hi": "नर्स रोगी के वाइटल ले रही है, रोगी को बुखार और खांसी है।",
+                "ur": "نرس مریض کی وائٹلز لے رہی ہے، مریض کو بخار اور کھانسی ہے۔",
+                "tr": "Hemşire hastanın vital bulgularını alıyor, hastanın ateşi ve öksürüğü var."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Tag, Frau Klein. Was führt Sie heute zu uns?",
+                    "translation": {
+                        "en": "Good day, Mrs. Klein. What brings you to us today?",
+                        "bn": "শুভ দিন, মিসেস ক্লেইন। আজ আপনাকে কী এখানে এনেছে?",
+                        "hi": "शुभ दिन, श्रीमती क्लेन। आज आपको क्या यहाँ लाया है?",
+                        "ur": "شب بخیر، محترمہ کلین۔ آپ کو آج یہاں کیا چیز لائی ہے؟",
+                        "tr": "İyi günler, Bayan Klein. Bugün sizi buraya getiren nedir?"
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe seit zwei Tagen Fieber und einen starken Husten.",
+                    "translation": {
+                        "en": "I have had a fever and a bad cough for two days.",
+                        "bn": "আমার দুই দিন ধরে জ্বর এবং একটি মারাত্মক কাশি হচ্ছে।",
+                        "hi": "मुझे दो दिनों से बुखार और तेज़ खांसी है।",
+                        "ur": "مجھے دو دنوں سے بخار اور تیز کھانسی ہے۔",
+                        "tr": "İki gündür ateşim ve şiddetli öksürüğüm var."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich messe mal Ihre Temperatur. Ja, 38.5 Grad. Haben Sie auch Halsschmerzen?",
+                    "translation": {
+                        "en": "I'll take your temperature. Yes, 38.5 degrees. Do you also have a sore throat?",
+                        "bn": "আমি আপনার তাপমাত্রা মেপে দেখি। হ্যাঁ, ৩৮.৫ ডিগ্রী। আপনার কি গলা ব্যথাও আছে?",
+                        "hi": "मैं आपका तापमान नापती हूँ। हाँ, 38.5 डिग्री। क्या आपको गले में खराश भी है?",
+                        "ur": "میں آپ کا درجہ حرارت ناپتی ہوں۔ ہاں، 38.5 ڈگری۔ کیا آپ کو گلے میں بھی خراش ہے؟",
+                        "tr": "Bir ateşinizi ölçeyim. Evet, 38.5 derece. Boğaz ağrınız da var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, etwas. Und ich fühle mich sehr müde.",
+                    "translation": {
+                        "en": "Yes, a little. And I feel very tired.",
+                        "bn": "হ্যাঁ, একটু। আর আমি খুব ক্লান্ত বোধ করছি।",
+                        "hi": "हाँ, थोड़ा। और मुझे बहुत थकान महसूस हो रही है।",
+                        "ur": "ہاں، تھوڑا سا۔ اور مجھے بہت تھکن محسوس ہو رہی ہے۔",
+                        "tr": "Evet, biraz. Ve kendimi çok yorgun hissediyorum."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Okay, ich informiere den Arzt. Bitte warten Sie hier.",
+                    "translation": {
+                        "en": "Okay, I'll inform the doctor. Please wait here.",
+                        "bn": "ঠিক আছে, আমি ডাক্তারকে জানাব। অনুগ্রহ করে এখানে অপেক্ষা করুন।",
+                        "hi": "ठीक है, मैं डॉक्टर को बताती हूँ। कृपया यहाँ प्रतीक्षा करें।",
+                        "ur": "ٹھیک ہے، میں ڈاکٹر کو بتاتی ہوں۔ براہ کرم یہاں انتظار کریں۔",
+                        "tr": "Tamam, doktoru bilgilendireceğim. Lütfen burada bekleyin."
+                    }
+                }
+            ],
+            "id": "d10_02"
+        },
+        {
+            "title": {
+                "en": "Nausea and Vomiting",
+                "bn": "বমি বমি ভাব এবং বমি",
+                "hi": "जी मिचलाना और उल्टी",
+                "ur": "متلی اور قے",
+                "tr": "Mide Bulantısı ve Kusma"
+            },
+            "context": {
+                "en": "Patient complaining of nausea and vomiting to the doctor.",
+                "bn": "রোগী ডাক্তারের কাছে বমি বমি ভাব এবং বমির অভিযোগ করছেন।",
+                "hi": "रोगी डॉक्टर से जी मिचलाने और उल्टी की शिकायत कर रहा है।",
+                "ur": "مریض ڈاکٹر سے متلی اور قے کی شکایت کر رہا ہے۔",
+                "tr": "Hastanın doktora mide bulantısı ve kusma şikayeti."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Schulz",
+                    "speakerRole": "Patient",
+                    "germanText": "Herr Doktor, mir ist seit heute Morgen sehr übel und ich musste mich mehrmals übergeben.",
+                    "translation": {
+                        "en": "Doctor, I have been feeling very nauseous since this morning and I had to vomit several times.",
+                        "bn": "ডাক্তার, আজ সকাল থেকে আমার খুব বমি বমি ভাব লাগছে এবং আমাকে বেশ কয়েকবার বমি করতে হয়েছে।",
+                        "hi": "डॉक्टर, मुझे आज सुबह से बहुत जी मिचला रहा है और मुझे कई बार उल्टी करनी पड़ी।",
+                        "ur": "ڈاکٹر، مجھے آج صبح سے بہت متلی ہو رہی ہے اور مجھے کئی بار قے کرنی پڑی۔",
+                        "tr": "Doktor, bu sabahtan beri midem çok bulanıyor ve birkaç kez kustum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Haben Sie auch Bauchschmerzen oder Durchfall?",
+                    "translation": {
+                        "en": "Do you also have abdominal pain or diarrhea?",
+                        "bn": "আপনার কি পেটে ব্যথা বা ডায়রিয়াও আছে?",
+                        "hi": "क्या आपको पेट दर्द या दस्त भी है?",
+                        "ur": "کیا آپ کو پیٹ میں درد یا دست بھی ہے؟",
+                        "tr": "Karın ağrınız veya ishaliniz de var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schulz",
+                    "speakerRole": "Patient",
+                    "germanText": "Nein, Bauchschmerzen habe ich keine, aber ich habe mich sehr schwach gefühlt.",
+                    "translation": {
+                        "en": "No, I don't have abdominal pain, but I have felt very weak.",
+                        "bn": "না, আমার পেটে ব্যথা নেই, তবে আমি খুব দুর্বল বোধ করেছি।",
+                        "hi": "नहीं, मुझे पेट दर्द नहीं है, लेकिन मुझे बहुत कमजोरी महसूस हुई है।",
+                        "ur": "نہیں، مجھے پیٹ میں درد نہیں ہے، لیکن مجھے بہت کمزوری محسوس ہوئی ہے۔",
+                        "tr": "Hayır, karın ağrım yok ama kendimi çok güçsüz hissettim."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Haben Sie etwas Ungewöhnliches gegessen?",
+                    "translation": {
+                        "en": "Have you eaten anything unusual?",
+                        "bn": "আপনি কি অস্বাভাবিক কিছু খেয়েছেন?",
+                        "hi": "क्या आपने कुछ असामान्य खाया है?",
+                        "ur": "کیا آپ نے کچھ غیر معمولی کھایا ہے؟",
+                        "tr": "Alışılmadık bir şey yedin mi?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schulz",
+                    "speakerRole": "Patient",
+                    "germanText": "Eigentlich nicht. Ich hatte nur eine Pizza gestern Abend.",
+                    "translation": {
+                        "en": "Not really. I just had a pizza last night.",
+                        "bn": "আসলে না। আমি শুধু গতকাল রাতে একটা পিৎজা খেয়েছিলাম।",
+                        "hi": "वास्तव में नहीं। मैंने बस कल रात एक पिज्जा खाया था।",
+                        "ur": "دراصل نہیں۔ میں نے بس کل رات ایک پیزا کھایا تھا۔",
+                        "tr": "Aslında değil. Sadece dün gece bir pizza yedim."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Okay, wir werden einige Tests durchführen, um die Ursache herauszufinden.",
+                    "translation": {
+                        "en": "Okay, we will run some tests to find out the cause.",
+                        "bn": "ঠিক আছে, কারণ খুঁজে বের করার জন্য আমরা কিছু পরীক্ষা করব।",
+                        "hi": "ठीक है, कारण का पता लगाने के लिए हम कुछ परीक्षण करेंगे।",
+                        "ur": "ٹھیک ہے، وجہ معلوم کرنے کے لیے ہم کچھ ٹیسٹ کریں گے۔",
+                        "tr": "Tamam, nedeni bulmak için bazı testler yapacağız."
+                    }
+                }
+            ],
+            "id": "d10_03"
+        },
+        {
+            "title": {
+                "en": "Dizziness and Fatigue",
+                "bn": "মাথা ঘোরা এবং ক্লান্তি",
+                "hi": "चक्कर आना और थकान",
+                "ur": "چکر آنا اور تھکاوٹ",
+                "tr": "Baş Dönmesi ve Yorgunluk"
+            },
+            "context": {
+                "en": "Patient complaining of dizziness and fatigue to the doctor.",
+                "bn": "রোগী ডাক্তারের কাছে মাথা ঘোরা এবং ক্লান্তির অভিযোগ করছেন।",
+                "hi": "रोगी डॉक्टर से चक्कर आने और थकान की शिकायत कर रहा है।",
+                "ur": "مریض ڈاکٹر سے چکر آنے اور تھکاوٹ کی شکایت کر رہا ہے۔",
+                "tr": "Hastanın doktora baş dönmesi ve yorgunluk şikayeti."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Tag, Frau Doktor. Ich fühle mich seit einiger Zeit sehr schwindelig und müde.",
+                    "translation": {
+                        "en": "Good day, Doctor. I have been feeling very dizzy and tired for some time.",
+                        "bn": "শুভ দিন, ডাক্তার। আমি কিছু সময় ধরে খুব মাথা ঘোরা এবং ক্লান্ত বোধ করছি।",
+                        "hi": "शुभ दिन, डॉक्टर। मैं कुछ समय से बहुत चक्कर आना और थका हुआ महसूस कर रहा हूँ।",
+                        "ur": "شب بخیر، ڈاکٹر۔ میں کچھ عرصے سے بہت چکر آنا اور تھکا ہوا محسوس کر رہا ہوں۔",
+                        "tr": "İyi günler doktor. Bir süredir kendimi çok başım dönüyor ve yorgun hissediyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Tag, Frau Weber. Seit wann haben Sie diese Beschwerden?",
+                    "translation": {
+                        "en": "Good day, Mrs. Weber. How long have you had these symptoms?",
+                        "bn": "শুভ দিন, মিসেস ওয়েবার। আপনার এই সমস্যাগুলো কতদিন ধরে হচ্ছে?",
+                        "hi": "शुभ दिन, श्रीमती वेबर। आपको ये लक्षण कब से हैं?",
+                        "ur": "شب بخیر، محترمہ ویبر۔ آپ کو یہ علامات کب سے ہیں؟",
+                        "tr": "İyi günler Bayan Weber. Bu şikayetleriniz ne zamandır var?"
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Ungefähr seit zwei Wochen. Es wird immer schlimmer.",
+                    "translation": {
+                        "en": "For about two weeks. It's getting worse.",
+                        "bn": "প্রায় দুই সপ্তাহ ধরে। এটা ক্রমশ খারাপ হচ্ছে।",
+                        "hi": "लगभग दो सप्ताह से। यह बदतर होता जा रहा है।",
+                        "ur": "تقریباً دو ہفتوں سے۔ یہ بدتر ہوتا جا رہا ہے۔",
+                        "tr": "Yaklaşık iki haftadır. Giderek kötüleşiyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Haben Sie auch Kopfschmerzen oder Sehstörungen?",
+                    "translation": {
+                        "en": "Do you also have headaches or visual disturbances?",
+                        "bn": "আপনার কি মাথাব্যথা বা দৃষ্টিতে সমস্যাও আছে?",
+                        "hi": "क्या आपको सिरदर्द या दृष्टि संबंधी गड़बड़ी भी है?",
+                        "ur": "کیا آپ کو سر درد یا بصارت میں بھی خلل ہے؟",
+                        "tr": "Baş ağrınız veya görme bozukluklarınız da var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Nein, Kopfschmerzen habe ich nicht, aber manchmal sehe ich verschwommen.",
+                    "translation": {
+                        "en": "No, I don't have headaches, but sometimes my vision is blurry.",
+                        "bn": "না, আমার মাথাব্যথা নেই, তবে মাঝে মাঝে আমার দৃষ্টি ঝাপসা হয়ে যায়।",
+                        "hi": "नहीं, मुझे सिरदर्द नहीं है, लेकिन कभी-कभी मेरी दृष्टि धुंधली हो जाती है।",
+                        "ur": "نہیں، مجھے سر درد نہیں ہے، لیکن بعض اوقات میری بینائی دھندلی ہو جاتی ہے۔",
+                        "tr": "Hayır, baş ağrım yok ama bazen görüşüm bulanıklaşıyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir werden einige neurologische Tests durchführen, um die Ursache zu finden.",
+                    "translation": {
+                        "en": "We will perform some neurological tests to find the cause.",
+                        "bn": "কারণ খুঁজে বের করার জন্য আমরা কিছু স্নায়ু সংক্রান্ত পরীক্ষা করব।",
+                        "hi": "कारण का पता लगाने के लिए हम कुछ तंत्रिका संबंधी परीक्षण करेंगे।",
+                        "ur": "وجہ معلوم کرنے کے لیے ہم کچھ عصبی ٹیسٹ کریں گے۔",
+                        "tr": "Nedeni bulmak için bazı nörolojik testler yapacağız."
+                    }
+                }
+            ],
+            "id": "d10_04"
+        },
+        {
+            "title": {
+                "en": "Cough and Difficulty Breathing",
+                "bn": "কাশি এবং শ্বাসকষ্ট",
+                "hi": "खांसी और सांस लेने में कठिनाई",
+                "ur": "کھانسی اور سانس لینے میں دشواری",
+                "tr": "Öksürük ve Nefes Darlığı"
+            },
+            "context": {
+                "en": "Patient complaining of cough and difficulty breathing to the doctor.",
+                "bn": "রোগী ডাক্তারের কাছে কাশি এবং শ্বাসকষ্টের অভিযোগ করছেন।",
+                "hi": "रोगी डॉक्टर से खांसी और सांस लेने में कठिनाई की शिकायत कर रहा है।",
+                "ur": "مریض ڈاکٹر سے کھانسی اور سانس لینے میں دشواری کی شکایت کر رہا ہے۔",
+                "tr": "Hastanın doktora öksürük ve nefes darlığı şikayeti."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Tag, Herr Doktor. Ich habe seit ein paar Tagen Husten und bekomme schwer Luft.",
+                    "translation": {
+                        "en": "Good day, Doctor. I've had a cough for a few days and I'm having difficulty breathing.",
+                        "bn": "শুভ দিন, ডাক্তার। আমার কয়েক দিন ধরে কাশি হচ্ছে এবং শ্বাস নিতে কষ্ট হচ্ছে।",
+                        "hi": "शुभ दिन, डॉक्टर। मुझे कुछ दिनों से खांसी है और सांस लेने में कठिनाई हो रही है।",
+                        "ur": "شب بخیر، ڈاکٹر۔ مجھے کچھ دنوں سے کھانسی ہے اور مجھے سانس لینے میں دشواری ہو رہی ہے۔",
+                        "tr": "İyi günler doktor. Birkaç gündür öksürüyorum ve nefes almakta zorlanıyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Tag, Herr Lehmann. Haben Sie Fieber oder Schmerzen beim Atmen?",
+                    "translation": {
+                        "en": "Good day, Mr. Lehmann. Do you have a fever or pain when breathing?",
+                        "bn": "শুভ দিন, মিঃ লেহম্যান। আপনার কি জ্বর আছে বা শ্বাস নেওয়ার সময় ব্যথা হয়?",
+                        "hi": "शुभ दिन, श्री लेहमन। क्या आपको बुखार है या सांस लेने पर दर्द होता है?",
+                        "ur": "شب بخیر، مسٹر لیہمن۔ کیا آپ کو بخار ہے یا سانس لینے میں درد ہوتا ہے؟",
+                        "tr": "İyi günler Bay Lehmann. Ateşiniz var mı veya nefes alırken ağrı hissediyor musunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe kein Fieber, aber es schmerzt ein wenig in der Brust beim Husten.",
+                    "translation": {
+                        "en": "I don't have a fever, but it hurts a little in my chest when I cough.",
+                        "bn": "আমার জ্বর নেই, তবে কাশির সময় বুকে একটু ব্যথা হয়।",
+                        "hi": "मुझे बुखार नहीं है, लेकिन खांसी होने पर मेरी छाती में थोड़ा दर्द होता है।",
+                        "ur": "مجھے بخار نہیں ہے، لیکن کھانستے وقت میرے سینے میں تھوڑا درد ہوتا ہے۔",
+                        "tr": "Ateşim yok ama öksürürken göğsümde biraz ağrı oluyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Okay. Ich werde Sie einmal abhören und eine Sauerstoffsättigungsmessung durchführen.",
+                    "translation": {
+                        "en": "Okay. I will listen to your lungs and take an oxygen saturation measurement.",
+                        "bn": "ঠিক আছে। আমি আপনার ফুসফুস শুনব এবং একটি অক্সিজেন স্যাচুরেশন পরিমাপ করব।",
+                        "hi": "ठीक है। मैं आपके फेफड़ों को सुनूंगा और एक ऑक्सीजन संतृप्ति माप लूंगा।",
+                        "ur": "ٹھیک ہے۔ میں آپ کے پھیپھڑوں کو سنوں گا اور ایک آکسیجن سیچوریشن پیمائش کروں گا۔",
+                        "tr": "Tamam. Akciğerlerinizi dinleyeceğim ve bir oksijen doygunluğu ölçümü yapacağım."
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Gut, danke.",
+                    "translation": {
+                        "en": "Good, thank you.",
+                        "bn": "ভাল, ধন্যবাদ।",
+                        "hi": "अच्छा, धन्यवाद।",
+                        "ur": "اچھا، شکریہ۔",
+                        "tr": "İyi, teşekkürler."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ihre Sauerstoffsättigung ist etwas niedrig. Wir machen ein Röntgenbild der Lunge.",
+                    "translation": {
+                        "en": "Your oxygen saturation is a little low. We will take an X-ray of your lungs.",
+                        "bn": "আপনার অক্সিজেনের স্যাচুরেশন একটু কম। আমরা আপনার ফুসফুসের একটি এক্স-রে করব।",
+                        "hi": "आपका ऑक्सीजन संतृप्ति थोड़ा कम है। हम आपके फेफड़ों का एक एक्स-रे करेंगे।",
+                        "ur": "آپ کی آکسیجن سیچوریشن تھوڑی کم ہے۔ ہم آپ کے پھیپھڑوں کا ایک ایکس رے کریں گے۔",
+                        "tr": "Oksijen doygunluğunuz biraz düşük. Akciğerlerinizin röntgenini çekeceğiz."
+                    }
+                }
+            ],
+            "id": "d10_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Schmerzen' auf Englisch?",
+                "en": "What does 'Schmerzen' mean in English?",
+                "bn": "'Schmerzen' শব্দটির ইংরেজি অর্থ কী?",
+                "hi": "'Schmerzen' का अंग्रेजी में क्या अर्थ है?",
+                "ur": "'Schmerzen' کا انگریزی میں کیا مطلب ہے؟",
+                "tr": "'Schmerzen' kelimesinin İngilizce anlamı nedir?"
+            },
+            "options": [
+                "Itching",
+                "Pain",
+                "Swelling",
+                "Redness"
+            ],
+            "correctAnswer": "Pain",
+            "explanation": {
+                "en": "'Schmerzen' directly translates to 'pain' in English.",
+                "bn": "'Schmerzen' সরাসরি ইংরেজি ভাষায় 'pain' অর্থে অনুবাদিত হয়।",
+                "hi": "'Schmerzen' का सीधा अनुवाद अंग्रेजी में 'pain' है।",
+                "ur": "'Schmerzen' کا براہ راست ترجمہ انگریزی میں 'pain' ہے۔",
+                "tr": "'Schmerzen', İngilizce'de doğrudan 'pain' anlamına gelir."
+            },
+            "points": 10,
+            "id": "e10_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Symptom beschreibt eine erhöhte Körpertemperatur?",
+                "en": "Which symptom describes an elevated body temperature?",
+                "bn": "কোন উপসর্গটি শরীরের উচ্চ তাপমাত্রা বর্ণনা করে?",
+                "hi": "कौन सा लक्षण शरीर के बढ़े हुए तापमान का वर्णन करता है?",
+                "ur": "کون سی علامت جسم کے بڑھے ہوئے درجہ حرارت کو بیان کرتی ہے؟",
+                "tr": "Hangi semptom yükselmiş vücut sıcaklığını tanımlar?"
+            },
+            "options": [
+                "Husten",
+                "Fieber",
+                "Übelkeit",
+                "Schwindel"
+            ],
+            "correctAnswer": "Fieber",
+            "explanation": {
+                "en": "'Fieber' means 'fever,' which indicates an elevated body temperature.",
+                "bn": "'Fieber' মানে 'জ্বর,' যা শরীরের উচ্চ তাপমাত্রা নির্দেশ করে।",
+                "hi": "'Fieber' का अर्थ है 'बुखार,' जो शरीर के बढ़े हुए तापमान को दर्शाता है।",
+                "ur": "'Fieber' کا مطلب ہے 'بخار'، جو جسم کے بڑھے ہوئے درجہ حرارت کی نشاندہی کرتا ہے۔",
+                "tr": "'Fieber', 'ateş' anlamına gelir, bu da yükselmiş bir vücut sıcaklığını gösterir."
+            },
+            "points": 10,
+            "id": "e10_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist die deutsche Bezeichnung für 'cough'?",
+                "en": "What is the German term for 'cough'?",
+                "bn": "'Cough'-এর জন্য জার্মান শব্দ কী?",
+                "hi": "'Cough' के लिए जर्मन शब्द क्या है?",
+                "ur": "'Cough' کے لیے جرمن لفظ کیا ہے؟",
+                "tr": "'Cough' için Almanca terim nedir?"
+            },
+            "options": [
+                "Durchfall",
+                "Erbrechen",
+                "Husten",
+                "Schwindel"
+            ],
+            "correctAnswer": "Husten",
+            "explanation": {
+                "en": "The German term for 'cough' is 'Husten'.",
+                "bn": "'Cough'-এর জন্য জার্মান শব্দ হল 'Husten'।",
+                "hi": "'Cough' के लिए जर्मन शब्द 'Husten' है।",
+                "ur": "'Cough' کے لیے جرمن لفظ 'Husten' ہے۔",
+                "tr": "'Cough' için Almanca terim 'Husten'dir."
+            },
+            "points": 10,
+            "id": "e10_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Wort beschreibt das Gefühl, sich übergeben zu müssen?",
+                "en": "Which word describes the feeling of needing to vomit?",
+                "bn": "কোন শব্দটি বমি করার প্রয়োজন অনুভব করাকে বর্ণনা করে?",
+                "hi": "कौन सा शब्द उल्टी करने की आवश्यकता की भावना का वर्णन करता है?",
+                "ur": "کون سا لفظ قے کرنے کی ضرورت کے احساس کو بیان کرتا ہے؟",
+                "tr": "Hangi kelime kusma ihtiyacı duyma hissini tanımlar?"
+            },
+            "options": [
+                "Durchfall",
+                "Übelkeit",
+                "Schwindel",
+                "Müdigkeit"
+            ],
+            "correctAnswer": "Übelkeit",
+            "explanation": {
+                "en": "'Übelkeit' describes the feeling of nausea or needing to vomit.",
+                "bn": "'Übelkeit' বমি বমি ভাব বা বমি করার প্রয়োজন অনুভব করাকে বর্ণনা করে।",
+                "hi": "'Übelkeit' मतली या उल्टी करने की आवश्यकता की भावना का वर्णन करता है।",
+                "ur": "'Übelkeit' متلی یا قے کرنے کی ضرورت کے احساس کو بیان کرتا ہے۔",
+                "tr": "'Übelkeit' mide bulantısı veya kusma ihtiyacı duyma hissini tanımlar."
+            },
+            "points": 10,
+            "id": "e10_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Erbrechen'?",
+                "en": "What does 'Erbrechen' mean?",
+                "bn": "'Erbrechen' মানে কী?",
+                "hi": "'Erbrechen' का क्या अर्थ है?",
+                "ur": "'Erbrechen' کا کیا مطلب ہے؟",
+                "tr": "'Erbrechen' ne anlama geliyor?"
+            },
+            "options": [
+                "Diarrhea",
+                "Vomiting",
+                "Dizziness",
+                "Fatigue"
+            ],
+            "correctAnswer": "Vomiting",
+            "explanation": {
+                "en": "'Erbrechen' means 'vomiting'.",
+                "bn": "'Erbrechen' মানে 'বমি করা'।",
+                "hi": "'Erbrechen' का अर्थ है 'उल्टी'।",
+                "ur": "'Erbrechen' کا مطلب ہے 'قے کرنا'۔",
+                "tr": "'Erbrechen', 'kusmak' anlamına gelir."
+            },
+            "points": 10,
+            "id": "e10_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Symptom beschreibt häufige, dünnflüssige Stuhlgänge?",
+                "en": "Which symptom describes frequent, watery bowel movements?",
+                "bn": "কোন উপসর্গটি ঘন ঘন, তরল মলত্যাগ বর্ণনা করে?",
+                "hi": "कौन सा लक्षण बार-बार, पानी जैसे मल त्याग का वर्णन करता है?",
+                "ur": "کون سی علامت بار بار، پتلے پاخانے کو بیان کرتی ہے؟",
+                "tr": "Hangi semptom sık, sulu bağırsak hareketlerini tanımlar?"
+            },
+            "options": [
+                "Verstopfung",
+                "Durchfall",
+                "Schwindel",
+                "Kopfschmerzen"
+            ],
+            "correctAnswer": "Durchfall",
+            "explanation": {
+                "en": "'Durchfall' means 'diarrhea', which involves frequent, watery bowel movements.",
+                "bn": "'Durchfall' মানে 'ডায়রিয়া', যার মধ্যে ঘন ঘন, তরল মলত্যাগ জড়িত।",
+                "hi": "'Durchfall' का अर्थ है 'दस्त', जिसमें बार-बार, पानी जैसे मल त्याग शामिल है।",
+                "ur": "'Durchfall' کا مطلب ہے 'اسہال'، جس میں بار بار، پتلے پاخانے شامل ہیں۔",
+                "tr": "'Durchfall', sık ve sulu bağırsak hareketlerini içeren 'ishal' anlamına gelir."
+            },
+            "points": 10,
+            "id": "e10_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das deutsche Wort für 'dizziness'?",
+                "en": "What is the German word for 'dizziness'?",
+                "bn": "'Dizziness'-এর জন্য জার্মান শব্দ কী?",
+                "hi": "'Dizziness' के लिए जर्मन शब्द क्या है?",
+                "ur": "'Dizziness' کے لیے جرمن لفظ کیا ہے؟",
+                "tr": "'Dizziness' için Almanca kelime nedir?"
+            },
+            "options": [
+                "Müdigkeit",
+                "Schwindel",
+                "Fieber",
+                "Schmerzen"
+            ],
+            "correctAnswer": "Schwindel",
+            "explanation": {
+                "en": "The German word for 'dizziness' is 'Schwindel'.",
+                "bn": "'Dizziness'-এর জন্য জার্মান শব্দ হল 'Schwindel'।",
+                "hi": "'Dizziness' के लिए जर्मन शब्द 'Schwindel' है।",
+                "ur": "'Dizziness' کے لیے جرمن لفظ 'Schwindel' ہے۔",
+                "tr": "'Dizziness' için Almanca kelime 'Schwindel'dir."
+            },
+            "points": 10,
+            "id": "e10_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Wort beschreibt ein Gefühl von Erschöpfung?",
+                "en": "Which word describes a feeling of exhaustion?",
+                "bn": "কোন শব্দটি ক্লান্তির অনুভূতি বর্ণনা করে?",
+                "hi": "कौन सा शब्द थकान की भावना का वर्णन करता है?",
+                "ur": "کون سا لفظ تھکاوٹ کے احساس کو بیان کرتا ہے؟",
+                "tr": "Hangi kelime bitkinlik hissini tanımlar?"
+            },
+            "options": [
+                "Schmerzen",
+                "Husten",
+                "Übelkeit",
+                "Müdigkeit"
+            ],
+            "correctAnswer": "Müdigkeit",
+            "explanation": {
+                "en": "'Müdigkeit' describes a feeling of exhaustion or fatigue.",
+                "bn": "'Müdigkeit' ক্লান্তি বা অবসন্নতার অনুভূতি বর্ণনা করে।",
+                "hi": "'Müdigkeit' थकान या थकावट की भावना का वर्णन करता है।",
+                "ur": "'Müdigkeit' تھکاوٹ یا افسردگی کے احساس کو بیان کرتا ہے۔",
+                "tr": "'Müdigkeit', bitkinlik veya yorgunluk hissini tanımlar."
+            },
+            "points": 10,
+            "id": "e10_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was kann ein Symptom von Fieber, Husten und Müdigkeit sein?",
+                "en": "What can be a symptom of fever, cough, and fatigue?",
+                "bn": "জ্বর, কাশি এবং ক্লান্তির একটি উপসর্গ কী হতে পারে?",
+                "hi": "बुखार, खांसी और थकान का लक्षण क्या हो सकता है?",
+                "ur": "بخار، کھانسی اور تھکاوٹ کی علامت کیا ہو سکتی ہے؟",
+                "tr": "Ateş, öksürük ve yorgunluğun belirtisi ne olabilir?"
+            },
+            "options": [
+                "Gute Laune",
+                "Infektion",
+                "Gesundheit",
+                "Entspannung"
+            ],
+            "correctAnswer": "Infektion",
+            "explanation": {
+                "en": "Fever, cough, and fatigue are common symptoms of an infection.",
+                "bn": "জ্বর, কাশি এবং ক্লান্তি সংক্রমণের সাধারণ উপসর্গ।",
+                "hi": "बुखार, खांसी और थकान संक्रमण के सामान्य लक्षण हैं।",
+                "ur": "بخار، کھانسی اور تھکاوٹ انفیکشن کی عام علامات ہیں۔",
+                "tr": "Ateş, öksürük ve yorgunluk bir enfeksiyonun yaygın belirtileridir."
+            },
+            "points": 10,
+            "id": "e10_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Symptom ist kein typisches Anzeichen einer Erkältung?",
+                "en": "Which symptom is not a typical sign of a cold?",
+                "bn": "কোন উপসর্গটি সর্দির একটি সাধারণ লক্ষণ নয়?",
+                "hi": "कौन सा लक्षण सर्दी का एक विशिष्ट संकेत नहीं है?",
+                "ur": "کون سی علامت زکام کی ایک عام علامت نہیں ہے؟",
+                "tr": "Hangi semptom soğuk algınlığının tipik bir belirtisi değildir?"
+            },
+            "options": [
+                "Husten",
+                "Fieber",
+                "Durchfall",
+                "Müdigkeit"
+            ],
+            "correctAnswer": "Durchfall",
+            "explanation": {
+                "en": "Diarrhea is not a typical symptom of a cold. While some viral infections can cause gastrointestinal issues, diarrhea is more commonly associated with the flu or food poisoning.",
+                "bn": "ডায়রিয়া সর্দির একটি সাধারণ উপসর্গ নয়। কিছু ভাইরাল সংক্রমণ গ্যাস্ট্রোইনটেস্টাইনাল সমস্যা সৃষ্টি করতে পারে, তবে ডায়রিয়া সাধারণত ফ্লু বা খাদ্য বিষক্রিয়ার সাথে সম্পর্কিত।",
+                "hi": "दस्त सर्दी का एक विशिष्ट लक्षण नहीं है। जबकि कुछ वायरल संक्रमण गैस्ट्रोइंटेस्टाइनल समस्याएं पैदा कर सकते हैं, दस्त आमतौर पर फ्लू या खाद्य विषाक्तता से जुड़ा होता है।",
+                "ur": "اسہال زکام کی ایک عام علامت نہیں ہے۔ اگرچہ کچھ وائرل انفیکشن معدے کے مسائل کا سبب بن سکتے ہیں، لیکن اسہال عام طور پر فلو یا فوڈ پوائزننگ سے منسلک ہوتا ہے۔",
+                "tr": "İshal, soğuk algınlığının tipik bir belirtisi değildir. Bazı viral enfeksiyonlar gastrointestinal sorunlara neden olabilse de, ishal daha çok grip veya besin zehirlenmesi ile ilişkilidir."
+            },
+            "points": 10,
+            "id": "e10_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ich habe starke Kopf________ und kann mich nicht konzentrieren.",
+                "en": "I have a severe head________ and cannot concentrate.",
+                "bn": "আমার তীব্র মাথা________ এবং আমি মনোযোগ দিতে পারছি না।",
+                "hi": "मुझे तेज सिर________ है और मैं ध्यान केंद्रित नहीं कर पा रहा हूँ।",
+                "ur": "مجھے شدید سر________ ہے اور میں توجہ مرکوز نہیں کر پا رہا ہوں۔",
+                "tr": "Şiddetli baş________ var ve konsantre olamıyorum."
+            },
+            "correctAnswer": "schmerzen",
+            "explanation": {
+                "en": "'Kopfschmerzen' means 'headache', which fits the context of the sentence.",
+                "bn": "'Kopfschmerzen' মানে 'মাথাব্যথা', যা বাক্যের প্রেক্ষাপটের সাথে মেলে।",
+                "hi": "'Kopfschmerzen' का अर्थ है 'सिरदर्द', जो वाक्य के संदर्भ में फिट बैठता है।",
+                "ur": "'Kopfschmerzen' کا مطلب ہے 'سر درد'، جو جملے کے سیاق و سباق میں فٹ بیٹھتا ہے۔",
+                "tr": "'Kopfschmerzen', 'baş ağrısı' anlamına gelir, bu da cümlenin bağlamına uyar."
+            },
+            "points": 10,
+            "id": "e10_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bei einer Grippe hat man oft hohes ________.",
+                "en": "With the flu, one often has a high ________.",
+                "bn": "ফ্লু হলে, একজনের প্রায়শই উচ্চ ________ হয়।",
+                "hi": "फ्लू होने पर, अक्सर उच्च ________ होता है।",
+                "ur": "فلو ہونے پر، اکثر اونچا ________ ہوتا ہے۔",
+                "tr": "Gripte, genellikle yüksek ________ olur."
+            },
+            "correctAnswer": "fieber",
+            "explanation": {
+                "en": "'Fieber' means 'fever', which is a common symptom of the flu.",
+                "bn": "'Fieber' মানে 'জ্বর', যা ফ্লু-এর একটি সাধারণ উপসর্গ।",
+                "hi": "'Fieber' का अर्थ है 'बुखार', जो फ्लू का एक सामान्य लक्षण है।",
+                "ur": "'Fieber' کا مطلب ہے 'بخار'، جو فلو کی ایک عام علامت ہے۔",
+                "tr": "'Fieber', 'ateş' anlamına gelir, bu da gripin yaygın bir belirtisidir."
+            },
+            "points": 10,
+            "id": "e10_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Der Patient klagt über starken ________ und kann kaum atmen.",
+                "en": "The patient complains of a severe ________ and can hardly breathe.",
+                "bn": "রোগী তীব্র ________ এর অভিযোগ করছেন এবং শ্বাস নিতে কষ্ট হচ্ছে।",
+                "hi": "रोगी को तेज ________ की शिकायत है और सांस लेने में मुश्किल हो रही है।",
+                "ur": "مریض کو شدید ________ کی شکایت ہے اور سانس لینے میں مشکل ہو رہی ہے۔",
+                "tr": "Hasta şiddetli ________ şikayet ediyor ve nefes almakta zorlanıyor."
+            },
+            "correctAnswer": "husten",
+            "explanation": {
+                "en": "'Husten' means 'cough', which can make breathing difficult.",
+                "bn": "'Husten' মানে 'কাশি', যা শ্বাস নেওয়া কঠিন করে তুলতে পারে।",
+                "hi": "'Husten' का अर्थ है 'खांसी', जिससे सांस लेने में कठिनाई हो सकती है।",
+                "ur": "'Husten' کا مطلب ہے 'کھانسی'، جس سے سانس لینے میں دشواری ہو سکتی ہے۔",
+                "tr": "'Husten', 'öksürük' anlamına gelir, bu da nefes almayı zorlaştırabilir."
+            },
+            "points": 10,
+            "id": "e10_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Nach dem Essen wurde mir ganz ________ und ich musste mich hinlegen.",
+                "en": "After eating, I felt very ________ and had to lie down.",
+                "bn": "খাওয়ার পরে, আমি খুব ________ অনুভব করলাম এবং আমাকে শুতে হয়েছিল।",
+                "hi": "खाने के बाद, मुझे बहुत ________ महसूस हुआ और मुझे लेटना पड़ा।",
+                "ur": "کھانے کے بعد، مجھے بہت ________ محسوس ہوا اور مجھے لیٹنا پڑا۔",
+                "tr": "Yemekten sonra kendimi çok ________ hissettim ve uzanmak zorunda kaldım."
+            },
+            "correctAnswer": "übel",
+            "explanation": {
+                "en": "'Übel' (or 'übelkeit') describes feeling nauseous or sick, requiring rest.",
+                "bn": "'Übel' (বা 'übelkeit') বমি বমি ভাব বা অসুস্থ বোধ করাকে বোঝায়, যার জন্য বিশ্রামের প্রয়োজন।",
+                "hi": "'Übel' (या 'übelkeit') उल्टी या बीमार महसूस करने का वर्णन करता है, जिसके लिए आराम की आवश्यकता होती है।",
+                "ur": "'Übel' (یا 'übelkeit') قے آنے یا بیمار محسوس کرنے کو بیان کرتا ہے، جس کے لیے آرام کی ضرورت ہوتی ہے۔",
+                "tr": "'Übel' (veya 'übelkeit') mide bulantısı veya hasta hissetmeyi tanımlar, bu da dinlenmeyi gerektirir."
+            },
+            "points": 10,
+            "id": "e10_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Der Patient hat seit drei Tagen ________ und muss viel trinken.",
+                "en": "The patient has had ________ for three days and needs to drink a lot.",
+                "bn": "রোগীর তিন দিন ধরে ________ হয়েছে এবং তাকে প্রচুর পরিমাণে পান করতে হবে।",
+                "hi": "रोगी को तीन दिनों से ________ है और उसे बहुत पीना चाहिए।",
+                "ur": "مریض کو تین دن سے ________ ہے اور اسے بہت پینا چاہیے۔",
+                "tr": "Hastanın üç gündür ________ var ve çok içmesi gerekiyor."
+            },
+            "correctAnswer": "durchfall",
+            "explanation": {
+                "en": "'Durchfall' means 'diarrhea', and staying hydrated is important.",
+                "bn": "'Durchfall' মানে 'ডায়রিয়া', এবং হাইড্রেটেড থাকা গুরুত্বপূর্ণ।",
+                "hi": "'Durchfall' का अर्थ है 'दस्त', और हाइड्रेटेड रहना महत्वपूर्ण है।",
+                "ur": "'Durchfall' کا مطلب ہے 'اسہال'، اور ہائیڈریٹڈ رہنا ضروری ہے۔",
+                "tr": "'Durchfall', 'ishal' anlamına gelir ve susuz kalmamak önemlidir."
+            },
+            "points": 10,
+            "id": "e10_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Ich fühle mich sehr müde.",
+                "en": "I feel very tired.",
+                "bn": "আমি খুব ক্লান্ত বোধ করছি।",
+                "hi": "मुझे बहुत थकान महसूस हो रही है।",
+                "ur": "میں بہت تھکا ہوا محسوس کر رہا ہوں۔",
+                "tr": "Kendimi çok yorgun hissediyorum."
+            },
+            "correctAnswer": "I feel very tired.",
+            "explanation": {
+                "en": "'Ich fühle mich sehr müde' translates directly to 'I feel very tired'.",
+                "bn": "'Ich fühle mich sehr müde' সরাসরি অনুবাদ করলে হয় 'I feel very tired'।",
+                "hi": "'Ich fühle mich sehr müde' का सीधा अनुवाद है 'I feel very tired'।",
+                "ur": "'Ich fühle mich sehr müde' کا براہ راست ترجمہ ہے 'I feel very tired'۔",
+                "tr": "'Ich fühle mich sehr müde' ifadesi doğrudan 'I feel very tired' olarak çevrilir."
+            },
+            "points": 10,
+            "id": "e10_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Mir ist schwindelig.",
+                "en": "I am dizzy.",
+                "bn": "আমার মাথা ঘুরছে।",
+                "hi": "मुझे चक्कर आ रहा है।",
+                "ur": "مجھے چکر آرہے ہیں۔",
+                "tr": "Başım dönüyor."
+            },
+            "correctAnswer": "I am dizzy.",
+            "explanation": {
+                "en": "'Mir ist schwindelig' translates to 'I am dizzy'.",
+                "bn": "'Mir ist schwindelig' অনুবাদ করলে হয় 'I am dizzy'।",
+                "hi": "'Mir ist schwindelig' का अनुवाद 'I am dizzy' है।",
+                "ur": "'Mir ist schwindelig' کا ترجمہ 'I am dizzy' ہے۔",
+                "tr": "'Mir ist schwindelig' ifadesi 'I am dizzy' olarak çevrilir."
+            },
+            "points": 10,
+            "id": "e10_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Ich habe starke Schmerzen im Bauch.",
+                "en": "I have severe pain in my abdomen.",
+                "bn": "আমার পেটে তীব্র ব্যথা আছে।",
+                "hi": "मुझे पेट में तेज दर्द है।",
+                "ur": "میرے پیٹ میں شدید درد ہے۔",
+                "tr": "Karnımda şiddetli ağrı var."
+            },
+            "correctAnswer": "I have severe pain in my abdomen.",
+            "explanation": {
+                "en": "'Ich habe starke Schmerzen im Bauch' translates to 'I have severe pain in my abdomen'.",
+                "bn": "'Ich habe starke Schmerzen im Bauch' অনুবাদ করলে হয় 'I have severe pain in my abdomen'।",
+                "hi": "'Ich habe starke Schmerzen im Bauch' का अनुवाद 'I have severe pain in my abdomen' है।",
+                "ur": "'Ich habe starke Schmerzen im Bauch' کا ترجمہ 'I have severe pain in my abdomen' ہے۔",
+                "tr": "'Ich habe starke Schmerzen im Bauch' ifadesi 'I have severe pain in my abdomen' olarak çevrilir."
+            },
+            "points": 10,
+            "id": "e10_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

@@ -1,1 +1,1591 @@
-{"id":"section_52","phaseId":"phase3","order":52,"titleDe":"Intensivmedizin","title":{"en":"Intensive Care","bn":"Intensive Care","hi":"Intensive Care","ur":"Intensive Care","tr":"Intensive Care"},"level":"C1","estimatedMinutes":45,"vocabulary":[{"id":"v52_01","germanTerm":"Fachwort","article":"das","plural":"Fachwörter","translation":{"en":"Specialist Term","bn":"বিশেষজ্ঞ শব্দ","hi":"विशेषज्ञ शब्द","ur":"ماہر اصطلاح","tr":"Uzman terimi"}}],"dialogues":[{"id":"d52_01","title":{"en":"Intensive Care Scenario"},"lines":[{"speaker":"Facharzt","germanText":"Clinical dialogue for Intensive Care.","translation":{"en":"Clinical dialogue for Intensive Care."}}]}],"exercises":[{"id":"e52_01","type":"multipleChoice","question":{"en":"Question about Intensive Care?"},"options":["A","B","C"],"correctAnswer":"A","points":15}],"media":{"introVideoUrl":"video/sections/section_52/intro.mp4","dialogueVideoUrl":"video/sections/section_52/dialogue.mp4"}}
+{
+    "id": "section_52",
+    "phaseId": "phase3",
+    "order": 52,
+    "titleDe": "Intensivmedizin (ITS)",
+    "title": {
+        "en": "Intensive Care: Ventilation, Monitoring, and Medication",
+        "de": "Intensivmedizin: Beatmung, Überwachung und Medikamentengabe",
+        "bn": "নিবিড় পরিচর্যা: ভেন্টিলেশন, মনিটরিং এবং ঔষধ",
+        "hi": "गहन चिकित्सा: वेंटिलेशन, निगरानी और दवा",
+        "ur": "انتہائی نگہداشت: وینٹیلیشن، نگرانی اور دوا",
+        "tr": "Yoğun Bakım: Ventilasyon, İzleme ve İlaç Uygulaması"
+    },
+    "description": {
+        "en": "This section covers the essential vocabulary and concepts related to intensive care, including ventilation, monitoring, sedation, and vasopressors.",
+        "de": "Dieser Abschnitt behandelt den wesentlichen Wortschatz und Konzepte im Zusammenhang mit der Intensivmedizin, einschließlich Beatmung, Überwachung, Sedierung und Vasopressoren.",
+        "bn": "এই বিভাগে ভেন্টিলেশন, মনিটরিং, সিডেশন এবং ভ্যাসোপ্রেসর সহ নিবিড় পরিচর্যা সম্পর্কিত প্রয়োজনীয় শব্দভাণ্ডার এবং ধারণাগুলি অন্তর্ভুক্ত রয়েছে।",
+        "hi": "यह अनुभाग गहन चिकित्सा से संबंधित आवश्यक शब्दावली और अवधारणाओं को शामिल करता है, जिसमें वेंटिलेशन, निगरानी, बेहोशी और वैसोप्रेसर शामिल हैं।",
+        "ur": "یہ سیکشن وینٹیلیشن، نگرانی، سکون آور ادویات اور ویسوپریسرز سمیت انتہائی نگہداشت سے متعلق ضروری الفاظ اور تصورات کا احاطہ کرتا ہے۔",
+        "tr": "Bu bölüm, ventilasyon, izleme, sedasyon ve vazopresörler dahil olmak üzere yoğun bakım ile ilgili temel kelime dağarcığını ve kavramları kapsar."
+    },
+    "level": "C1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "This section will introduce you to the crucial aspects of intensive care in a German-speaking medical setting. You will learn how to discuss ventilation, monitoring devices, and common medications used in critical care.",
+            "de": "Dieser Abschnitt führt Sie in die wichtigsten Aspekte der Intensivmedizin im deutschsprachigen medizinischen Umfeld ein. Sie lernen, wie Sie über Beatmung, Überwachungsgeräte und gängige Medikamente in der Intensivpflege sprechen.",
+            "bn": "এই বিভাগটি জার্মান-ভাষী চিকিৎসা পরিবেশে নিবিড় পরিচর্যার গুরুত্বপূর্ণ দিকগুলির সাথে আপনাকে পরিচয় করিয়ে দেবে। আপনি ক্রিটিক্যাল কেয়ারে ব্যবহৃত ভেন্টিলেশন, মনিটরিং ডিভাইস এবং সাধারণ ওষুধ নিয়ে আলোচনা করতে শিখবেন।",
+            "hi": "यह खंड आपको जर्मन भाषी चिकित्सा सेटिंग में गहन चिकित्सा के महत्वपूर्ण पहलुओं से परिचित कराएगा। आप क्रिटिकल केयर में उपयोग किए जाने वाले वेंटिलेशन, निगरानी उपकरणों और सामान्य दवाओं पर चर्चा करना सीखेंगे।",
+            "ur": "یہ سیکشن آپ کو جرمن بولنے والے طبی ماحول میں انتہائی نگہداشت کے اہم پہلوؤں سے متعارف کرائے گا۔ آپ وینٹیلیشن، نگرانی کے آلات اور اہم دیکھ بھال میں استعمال ہونے والی عام ادویات پر تبادلہ خیال کرنا سیکھیں گے۔",
+            "tr": "Bu bölüm, sizi Almanca konuşulan bir tıbbi ortamda yoğun bakımın önemli yönleriyle tanıştıracaktır. Kritik bakımda kullanılan ventilasyon, izleme cihazları ve yaygın ilaçlar hakkında nasıl konuşacağınızı öğreneceksiniz."
+        },
+        "grammarFocus": {
+            "en": [
+                "Understanding the use of dative and accusative cases with prepositions related to medical equipment (e.g., *an* the ventilator).",
+                "Practicing the correct verb conjugations when describing medical procedures (e.g., *sedieren*, *beatmen*, *überwachen*)."
+            ],
+            "de": [
+                "Verständnis der Verwendung von Dativ und Akkusativ mit Präpositionen im Zusammenhang mit medizinischen Geräten (z.B. *an* dem Beatmungsgerät).",
+                "Üben der korrekten Verbkonjugationen bei der Beschreibung medizinischer Verfahren (z.B. *sedieren*, *beatmen*, *überwachen*)."
+            ],
+            "bn": [
+                "চিকিৎসা সরঞ্জাম সম্পর্কিত উপসর্গগুলির সাথে কর্ম কারক এবং সম্প্রদান কারকের ব্যবহার বোঝা (যেমন, ভেন্টিলেটর *এর উপর*)।",
+                "চিকিৎসা পদ্ধতি বর্ণনা করার সময় সঠিক ক্রিয়ারূপ অনুশীলন করা (যেমন, *sedieren*, *beatmen*, *überwachen*)।"
+            ],
+            "hi": [
+                "चिकित्सा उपकरणों से संबंधित प्रस्तावों के साथ कर्म कारक और संप्रदान कारक के उपयोग को समझना (उदाहरण के लिए, वेंटिलेटर *पर*)।",
+                "चिकित्सा प्रक्रियाओं का वर्णन करते समय सही क्रिया संयुग्मन का अभ्यास करना (उदाहरण के लिए, *sedieren*, *beatmen*, *überwachen*)।"
+            ],
+            "ur": [
+                "طبی آلات سے متعلق اصطلاحات کے ساتھ اضافی اور اضافی معاملات کے استعمال کو سمجھنا (مثال کے طور پر، وینٹیلیٹر *پر*)۔",
+                "طبی طریقہ کار کی وضاحت کرتے وقت فعل کے درست انعطاف کی مشق کرنا (مثال کے طور پر، *sedieren*, *beatmen*, *überwachen*)।"
+            ],
+            "tr": [
+                "Tıbbi ekipmanla ilgili edatlarla datif ve akuzatif durumların kullanımını anlamak (örneğin, ventilatör *üzerinde*).",
+                "Tıbbi prosedürleri açıklarken doğru fiil çekimlerini uygulamak (örneğin, *sedieren*, *beatmen*, *überwachen*)."
+            ]
+        },
+        "culturalNotes": {
+            "en": "In German hospitals, patient privacy is highly valued, and detailed explanations of procedures are expected before any intervention.",
+            "de": "In deutschen Krankenhäusern wird die Privatsphäre der Patienten sehr geschätzt, und vor jeder Intervention werden detaillierte Erklärungen der Verfahren erwartet.",
+            "bn": "জার্মান হাসপাতালগুলিতে, রোগীর গোপনীয়তাকে অত্যন্ত মূল্যবান মনে করা হয় এবং কোনও হস্তক্ষেপের আগে পদ্ধতির বিশদ ব্যাখ্যা আশা করা হয়।",
+            "hi": "जर्मन अस्पतालों में, रोगी की गोपनीयता को अत्यधिक महत्व दिया जाता है, और किसी भी हस्तक्षेप से पहले प्रक्रियाओं की विस्तृत व्याख्या की उम्मीद की जाती है।",
+            "ur": "جرمن ہسپتالوں میں، مریض کی رازداری کو بہت اہمیت دی جاتی ہے، اور کسی بھی مداخلت سے پہلے طریقہ کار کی تفصیلی وضاحت کی توقع کی جاتی ہے۔",
+            "tr": "Alman hastanelerinde hasta mahremiyetine büyük değer verilir ve herhangi bir müdahaleden önce prosedürlerin ayrıntılı açıklamaları beklenir."
+        },
+        "summary": {
+            "en": "This section provided a foundation in intensive care vocabulary and cultural considerations necessary for communicating effectively in a German medical environment.",
+            "de": "Dieser Abschnitt bot eine Grundlage für das Vokabular der Intensivmedizin und kulturelle Überlegungen, die für eine effektive Kommunikation in einem deutschen medizinischen Umfeld notwendig sind.",
+            "bn": "এই বিভাগটি জার্মান চিকিৎসা পরিবেশে কার্যকরভাবে যোগাযোগের জন্য প্রয়োজনীয় নিবিড় পরিচর্যার শব্দভাণ্ডার এবং সাংস্কৃতিক বিবেচনার একটি ভিত্তি প্রদান করেছে।",
+            "hi": "इस खंड ने जर्मन चिकित्सा वातावरण में प्रभावी ढंग से संवाद करने के लिए आवश्यक गहन चिकित्सा शब्दावली और सांस्कृतिक विचारों में एक आधार प्रदान किया।",
+            "ur": "اس سیکشن نے جرمن طبی ماحول میں مؤثر طریقے سے بات چیت کرنے کے لیے ضروری انتہائی نگہداشت کے الفاظ اور ثقافتی تحفظات کی بنیاد فراہم کی۔",
+            "tr": "Bu bölüm, bir Alman tıbbi ortamında etkili iletişim kurmak için gerekli olan yoğun bakım kelime dağarcığı ve kültürel hususlarda bir temel sağlamıştır."
+        },
+        "learningObjectives": [
+            "Recognize and understand key German terms related to intensive care.",
+            "Describe common intensive care procedures, such as ventilation and sedation.",
+            "Communicate effectively with German-speaking medical professionals about intensive care topics.",
+            "Understand the cultural considerations involved in providing intensive care in Germany."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "Intensivstation",
+            "article": "die",
+            "plural": "Intensivstationen",
+            "pronunciation": "/ɪntɛnˈziːfʃtaˌt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "Intensive Care Unit (ICU)",
+                "bn": "ইনটেনসিভ কেয়ার ইউনিট (আইসিইউ)",
+                "hi": "गहन देखभाल इकाई (आईसीयू)",
+                "ur": "انتہائی نگہداشت یونٹ (آئی سی یو)",
+                "tr": "Yoğun Bakım Ünitesi (YBÜ)"
+            },
+            "exampleSentence": "Der Patient wurde auf die Intensivstation verlegt.",
+            "exampleTranslation": {
+                "en": "The patient was transferred to the intensive care unit.",
+                "bn": "রোগীকে ইনটেনসিভ কেয়ার ইউনিটে স্থানান্তরিত করা হয়েছে।",
+                "hi": "मरीज को गहन देखभाल इकाई में स्थानांतरित कर दिया गया।",
+                "ur": "مریض کو انتہائی نگہداشت یونٹ میں منتقل کر دیا گیا ہے۔",
+                "tr": "Hasta yoğun bakım ünitesine nakledildi."
+            },
+            "id": "v52_01"
+        },
+        {
+            "germanTerm": "Beatmung",
+            "article": "die",
+            "plural": "Beatmungen",
+            "pronunciation": "/bəˈʔaːtmʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "Ventilation",
+                "bn": "ভেন্টিলেশন",
+                "hi": "वेंटिलेशन",
+                "ur": "وینٹیلیشن",
+                "tr": "Ventilasyon"
+            },
+            "exampleSentence": "Der Patient benötigt eine maschinelle Beatmung.",
+            "exampleTranslation": {
+                "en": "The patient requires mechanical ventilation.",
+                "bn": "রোগীর যান্ত্রিক শ্বাস-প্রশ্বাস প্রয়োজন।",
+                "hi": "मरीज को यांत्रिक वेंटिलेशन की आवश्यकता है।",
+                "ur": "مریض کو میکانکی وینٹیلیشن کی ضرورت ہے۔",
+                "tr": "Hastanın mekanik ventilasyona ihtiyacı var."
+            },
+            "id": "v52_02"
+        },
+        {
+            "germanTerm": "Monitor",
+            "article": "der",
+            "plural": "Monitore",
+            "pronunciation": "/ˈmɔnɪtɔʁ/",
+            "category": "noun",
+            "translation": {
+                "en": "Monitor",
+                "bn": "মনিটর",
+                "hi": "मॉनिटर",
+                "ur": "مانیٹر",
+                "tr": "Monitör"
+            },
+            "exampleSentence": "Der Monitor zeigt eine instabile Herzfrequenz an.",
+            "exampleTranslation": {
+                "en": "The monitor shows an unstable heart rate.",
+                "bn": "মনিটরটি একটি অস্থির হৃদস্পন্দন দেখাচ্ছে।",
+                "hi": "मॉनिटर एक अस्थिर हृदय गति दिखा रहा है।",
+                "ur": "مانیٹر ایک غیر مستحکم دل کی دھڑکن دکھا رہا ہے۔",
+                "tr": "Monitör, kararsız bir kalp atış hızı gösteriyor."
+            },
+            "id": "v52_03"
+        },
+        {
+            "germanTerm": "Sedierung",
+            "article": "die",
+            "plural": "Sedierungen",
+            "pronunciation": "/zeˈdiːʁʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "Sedation",
+                "bn": "সিডেশন",
+                "hi": "शामक",
+                "ur": "سکون آور دوا",
+                "tr": "Sedasyon"
+            },
+            "exampleSentence": "Für die Beatmung ist eine tiefe Sedierung notwendig.",
+            "exampleTranslation": {
+                "en": "Deep sedation is necessary for ventilation.",
+                "bn": "শ্বাস-প্রশ্বাসের জন্য গভীর সিডেশন প্রয়োজন।",
+                "hi": "वेंटिलेशन के लिए गहरी शामक आवश्यक है।",
+                "ur": "وینٹیلیشن کے لیے گہری سکون آور دوا ضروری ہے۔",
+                "tr": "Ventilasyon için derin sedasyon gereklidir."
+            },
+            "id": "v52_04"
+        },
+        {
+            "germanTerm": "Vasopressor",
+            "article": "der",
+            "plural": "Vasopressoren",
+            "pronunciation": "/ˌvazoˈpʁɛsɔʁ/",
+            "category": "noun",
+            "translation": {
+                "en": "Vasopressor",
+                "bn": "ভ্যাসোপ্রেসর",
+                "hi": "वासोप्रेसर",
+                "ur": "ویسوپریسر",
+                "tr": "Vazopressör"
+            },
+            "exampleSentence": "Der Patient erhält Vasopressoren zur Blutdruckstabilisierung.",
+            "exampleTranslation": {
+                "en": "The patient receives vasopressors to stabilize blood pressure.",
+                "bn": "রক্তচাপ স্থিতিশীল করার জন্য রোগীকে ভ্যাসোপ্রেসর দেওয়া হচ্ছে।",
+                "hi": "रक्तचाप को स्थिर करने के लिए मरीज को वासोप्रेसर दिया जा रहा है।",
+                "ur": "بلڈ پریشر کو مستحکم کرنے کے لیے مریض کو ویسوپریسر دیا جا رہا ہے۔",
+                "tr": "Hastaya kan basıncını stabilize etmek için vazopressör veriliyor."
+            },
+            "id": "v52_05"
+        },
+        {
+            "germanTerm": "Katecholamine",
+            "article": "die",
+            "plural": "Katecholamine",
+            "pronunciation": "/kateçoːlaˈmiːnə/",
+            "category": "noun",
+            "translation": {
+                "en": "Catecholamines",
+                "bn": "ক্যাটেকোলামাইনস",
+                "hi": "कैटेकोलामीन्स",
+                "ur": "کیٹیکولامینز",
+                "tr": "Katekolaminler"
+            },
+            "exampleSentence": "Die Katecholamin-Dosis muss angepasst werden.",
+            "exampleTranslation": {
+                "en": "The catecholamine dose must be adjusted.",
+                "bn": "ক্যাটেকোলামাইন ডোজ সামঞ্জস্য করতে হবে।",
+                "hi": "कैटेकोलामीन खुराक को समायोजित करना होगा।",
+                "ur": "کیٹیکولامین کی خوراک کو ایڈجسٹ کرنا ہوگا۔",
+                "tr": "Katekolamin dozu ayarlanmalıdır."
+            },
+            "id": "v52_06"
+        },
+        {
+            "germanTerm": "ZVK (Zentraler Venenkatheter)",
+            "article": "der",
+            "plural": "ZVKs",
+            "pronunciation": "/ˌt͡sɛntʁaːlɐ ˈveːnənkaˌteːtɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "Central Venous Catheter (CVC)",
+                "bn": "সেন্ট্রাল ভেনাস ক্যাথেটার (সিভিসি)",
+                "hi": "केंद्रीय शिरापरक कैथेटर (सीवीसी)",
+                "ur": "مرکزی وینس کیتھیٹر (سی وی سی)",
+                "tr": "Santral Venöz Kateter (SVK)"
+            },
+            "exampleSentence": "Der ZVK wurde komplikationslos gelegt.",
+            "exampleTranslation": {
+                "en": "The central venous catheter was placed without complications.",
+                "bn": "সেন্ট্রাল ভেনাস ক্যাথেটারটি জটিলতা ছাড়াই স্থাপন করা হয়েছে।",
+                "hi": "केंद्रीय शिरापरक कैथेटर बिना किसी जटिलता के रखा गया था।",
+                "ur": "مرکزی وینس کیتھیٹر کو بغیر کسی پیچیدگی کے رکھا گیا تھا۔",
+                "tr": "Santral venöz kateter komplikasyonsuz bir şekilde yerleştirildi."
+            },
+            "id": "v52_07"
+        },
+        {
+            "germanTerm": "Blutdruck",
+            "article": "der",
+            "plural": "Blutdrücke",
+            "pronunciation": "/ˈbluːtdʁʊk/",
+            "category": "noun",
+            "translation": {
+                "en": "Blood pressure",
+                "bn": "রক্তচাপ",
+                "hi": "रक्तचाप",
+                "ur": "بلڈ پریشر",
+                "tr": "Kan basıncı"
+            },
+            "exampleSentence": "Der Blutdruck ist zu niedrig.",
+            "exampleTranslation": {
+                "en": "The blood pressure is too low.",
+                "bn": "রক্তচাপ খুব কম।",
+                "hi": "रक्तचाप बहुत कम है।",
+                "ur": "بلڈ پریشر بہت کم ہے۔",
+                "tr": "Kan basıncı çok düşük."
+            },
+            "id": "v52_08"
+        },
+        {
+            "germanTerm": "Herzfrequenz",
+            "article": "die",
+            "plural": "Herzfrequenzen",
+            "pronunciation": "/ˈhɛʁt͡sfreˌkvɛnt͡s/",
+            "category": "noun",
+            "translation": {
+                "en": "Heart rate",
+                "bn": "হৃদস্পন্দন",
+                "hi": "हृदय गति",
+                "ur": "دل کی شرح",
+                "tr": "Kalp atış hızı"
+            },
+            "exampleSentence": "Die Herzfrequenz beträgt 120 Schläge pro Minute.",
+            "exampleTranslation": {
+                "en": "The heart rate is 120 beats per minute.",
+                "bn": "হৃদস্পন্দন প্রতি মিনিটে 120 বিট।",
+                "hi": "हृदय गति 120 धड़कन प्रति मिनट है।",
+                "ur": "دل کی شرح 120 دھڑکن فی منٹ ہے۔",
+                "tr": "Kalp atış hızı dakikada 120 vuruştur."
+            },
+            "id": "v52_09"
+        },
+        {
+            "germanTerm": "Sauerstoffsättigung",
+            "article": "die",
+            "plural": "Sauerstoffsättigungen",
+            "pronunciation": "/ˈzaʊ̯ɐʃtɔfˌzɛtɪɡʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "Oxygen saturation",
+                "bn": "অক্সিজেন স্যাচুরেশন",
+                "hi": "ऑक्सीजन संतृप्ति",
+                "ur": "آکسیجن سیچوریشن",
+                "tr": "Oksijen saturasyonu"
+            },
+            "exampleSentence": "Die Sauerstoffsättigung liegt bei 92 Prozent.",
+            "exampleTranslation": {
+                "en": "The oxygen saturation is 92 percent.",
+                "bn": "অক্সিজেন স্যাচুরেশন ৯২ শতাংশ।",
+                "hi": "ऑक्सीजन संतृप्ति 92 प्रतिशत है।",
+                "ur": "آکسیجن سیچوریشن 92 فیصد ہے۔",
+                "tr": "Oksijen saturasyonu yüzde 92."
+            },
+            "id": "v52_10"
+        },
+        {
+            "germanTerm": "Respirator",
+            "article": "der",
+            "plural": "Respiratoren",
+            "pronunciation": "/ʁespiˈʁaːtoːɐ̯/",
+            "category": "noun",
+            "translation": {
+                "en": "Ventilator",
+                "bn": "ভেন্টিলেটর",
+                "hi": "वेंटिलेटर",
+                "ur": "وینٹیلیٹر",
+                "tr": "Ventilatör"
+            },
+            "exampleSentence": "Der Patient ist an einen Respirator angeschlossen.",
+            "exampleTranslation": {
+                "en": "The patient is connected to a ventilator.",
+                "bn": "রোগী একটি ভেন্টিলেটরের সাথে সংযুক্ত।",
+                "hi": "मरीज वेंटिलेटर से जुड़ा है।",
+                "ur": "مریض وینٹیلیٹر سے منسلک ہے۔",
+                "tr": "Hasta bir ventilatöre bağlı."
+            },
+            "id": "v52_11"
+        },
+        {
+            "germanTerm": "Infusion",
+            "article": "die",
+            "plural": "Infusionen",
+            "pronunciation": "/ɪnfʊˈzi̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "Infusion",
+                "bn": "ইনফিউশন",
+                "hi": "जलसेक",
+                "ur": "انفیوژن",
+                "tr": "İnfüzyon"
+            },
+            "exampleSentence": "Die Infusion wird kontinuierlich verabreicht.",
+            "exampleTranslation": {
+                "en": "The infusion is administered continuously.",
+                "bn": "ইনফিউশন একটানা দেওয়া হচ্ছে।",
+                "hi": "जलसेक लगातार दिया जा रहा है।",
+                "ur": "انفیوژن مسلسل دیا جا رہا ہے۔",
+                "tr": "İnfüzyon sürekli olarak uygulanmaktadır."
+            },
+            "id": "v52_12"
+        },
+        {
+            "germanTerm": "Drainage",
+            "article": "die",
+            "plural": "Drainagen",
+            "pronunciation": "/dʁɛˈnaːʒə/",
+            "category": "noun",
+            "translation": {
+                "en": "Drainage",
+                "bn": "ড্রেনেজ",
+                "hi": "निकास",
+                "ur": "نکاسی آب",
+                "tr": "Drenaj"
+            },
+            "exampleSentence": "Die Drainage fördert seröse Flüssigkeit.",
+            "exampleTranslation": {
+                "en": "The drainage promotes serous fluid.",
+                "bn": "ড্রেনেজ সেরাস তরল প্রচার করে।",
+                "hi": "जल निकासी सीरस तरल को बढ़ावा देता है।",
+                "ur": "نکاسی آب سیرس سیال کو فروغ دیتا ہے۔",
+                "tr": "Drenaj seröz sıvıyı destekler."
+            },
+            "id": "v52_13"
+        },
+        {
+            "germanTerm": "EKG (Elektrokardiogramm)",
+            "article": "das",
+            "plural": "EKGs",
+            "pronunciation": "/elektʁokardi̯oˈɡʁam/",
+            "category": "noun",
+            "translation": {
+                "en": "ECG (Electrocardiogram)",
+                "bn": "ইসিজি (ইলেক্ট্রোকার্ডিওগ্রাম)",
+                "hi": "ईसीजी (इलेक्ट्रोकार्डियोग्राम)",
+                "ur": "ای سی جی (الیکٹروکارڈیوگرام)",
+                "tr": "EKG (Elektrokardiyogram)"
+            },
+            "exampleSentence": "Das EKG zeigt eine Rhythmusstörung.",
+            "exampleTranslation": {
+                "en": "The ECG shows a rhythm disturbance.",
+                "bn": "ইসিজি একটি ছন্দ ব্যাঘাত দেখাচ্ছে।",
+                "hi": "ईसीजी एक लय गड़बड़ी दिखा रहा है।",
+                "ur": "ای سی جی ایک تال کی خرابی دکھا رہا ہے۔",
+                "tr": "EKG'de bir ritim bozukluğu görülüyor."
+            },
+            "id": "v52_14"
+        },
+        {
+            "germanTerm": "Blutgasanalyse",
+            "article": "die",
+            "plural": "Blutgasananalysen",
+            "pronunciation": "/ˈbluːtɡaːsʔanaˌlyːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "Arterial blood gas analysis (ABG)",
+                "bn": "আর্টেরিয়াল ব্লাড গ্যাস অ্যানালাইসিস (এবিজি)",
+                "hi": "धमनी रक्त गैस विश्लेषण (एबीजी)",
+                "ur": "شریان خون گیس تجزیہ (اے بی جی)",
+                "tr": "Arteriyel kan gazı analizi (ABG)"
+            },
+            "exampleSentence": "Die Blutgasanalyse zeigt eine Azidose.",
+            "exampleTranslation": {
+                "en": "The arterial blood gas analysis shows acidosis.",
+                "bn": "আর্টেরিয়াল ব্লাড গ্যাস অ্যানালাইসিসে অ্যাসিডোসিস দেখা যাচ্ছে।",
+                "hi": "धमनी रक्त गैस विश्लेषण में एसिडोसिस दिख रहा है।",
+                "ur": "شریان خون گیس کے تجزیے میں تیزابیت ظاہر ہو رہی ہے۔",
+                "tr": "Arteriyel kan gazı analizi asidozu gösteriyor."
+            },
+            "id": "v52_15"
+        },
+        {
+            "germanTerm": "Schmerzmittel",
+            "article": "das",
+            "plural": "Schmerzmittel",
+            "pronunciation": "/ˈʃmɛʁt͡sˌmɪtəl/",
+            "category": "noun",
+            "translation": {
+                "en": "Painkiller, Analgesic",
+                "bn": "ব্যথানাশক, অ্যানালজেসিক",
+                "hi": "दर्द निवारक, एनाल्जेसिक",
+                "ur": "درد کم کرنے والی دوا, اینالجیسک",
+                "tr": "Ağrı kesici, Analjezik"
+            },
+            "exampleSentence": "Der Patient erhält Schmerzmittel gegen die postoperativen Schmerzen.",
+            "exampleTranslation": {
+                "en": "The patient receives painkillers for the postoperative pain.",
+                "bn": "রোগী অস্ত্রোপচার-পরবর্তী ব্যথার জন্য ব্যথানাশক গ্রহণ করে।",
+                "hi": "मरीज को ऑपरेशन के बाद के दर्द के लिए दर्द निवारक दवाएं मिलती हैं।",
+                "ur": "مریض کو آپریشن کے بعد کے درد کے لیے درد کم کرنے والی دوائیں ملتی ہیں۔",
+                "tr": "Hasta ameliyat sonrası ağrıları için ağrı kesici alıyor."
+            },
+            "id": "v52_16"
+        },
+        {
+            "germanTerm": "Antibiotikum",
+            "article": "das",
+            "plural": "Antibiotika",
+            "pronunciation": "/antibiˈoːtikʊm/",
+            "category": "noun",
+            "translation": {
+                "en": "Antibiotic",
+                "bn": "অ্যান্টিবায়োটিক",
+                "hi": "एंटीबायोटिक",
+                "ur": "اینٹی بایوٹک",
+                "tr": "Antibiyotik"
+            },
+            "exampleSentence": "Der Patient erhält ein Antibiotikum gegen die Infektion.",
+            "exampleTranslation": {
+                "en": "The patient receives an antibiotic for the infection.",
+                "bn": "রোগী সংক্রমণের জন্য একটি অ্যান্টিবায়োটিক গ্রহণ করে।",
+                "hi": "मरीज को संक्रमण के लिए एक एंटीबायोटिक मिलती है।",
+                "ur": "مریض کو انفیکشن کے لیے ایک اینٹی بایوٹک ملتی ہے۔",
+                "tr": "Hasta enfeksiyon için bir antibiyotik alıyor."
+            },
+            "id": "v52_17"
+        },
+        {
+            "germanTerm": "Beatmungsdruck",
+            "article": "der",
+            "plural": "Beatmungsdrücke",
+            "pronunciation": "/bəˈʔaːtmʊŋsˌdʁʊk/",
+            "category": "noun",
+            "translation": {
+                "en": "Ventilatory pressure",
+                "bn": "ভেন্টিলেটরি চাপ",
+                "hi": "वेंटिलेटरी दबाव",
+                "ur": "وینٹیلیٹری پریشر",
+                "tr": "Ventilatör basıncı"
+            },
+            "exampleSentence": "Der Beatmungsdruck muss angepasst werden.",
+            "exampleTranslation": {
+                "en": "The ventilatory pressure must be adjusted.",
+                "bn": "ভেন্টিলেটরি চাপ সামঞ্জস্য করতে হবে।",
+                "hi": "वेंटिलेटरी दबाव को समायोजित करना होगा।",
+                "ur": "وینٹیلیٹری پریشر کو ایڈجسٹ کرنا ہوگا۔",
+                "tr": "Ventilatör basıncı ayarlanmalıdır."
+            },
+            "id": "v52_18"
+        },
+        {
+            "germanTerm": "ARDS (Acute Respiratory Distress Syndrome)",
+            "article": "das",
+            "plural": "ARDS",
+            "pronunciation": "/aːɐ̯di̯eːˈɛs/",
+            "category": "noun",
+            "translation": {
+                "en": "ARDS (Acute Respiratory Distress Syndrome)",
+                "bn": "এআরডিএস (একিউট রেসপিরেটরি ডিস্ট্রেস সিনড্রোম)",
+                "hi": "एआरडीएस (एक्यूट रेस्पिरेटरी डिस्ट्रेस सिंड्रोम)",
+                "ur": "اے آر ڈی ایس (ایکیوٹ ریسپیریٹری ڈسٹریس سنڈروم)",
+                "tr": "ARDS (Akut Solunum Sıkıntısı Sendromu)"
+            },
+            "exampleSentence": "Der Patient entwickelt ein ARDS.",
+            "exampleTranslation": {
+                "en": "The patient is developing ARDS.",
+                "bn": "রোগীর এআরডিএস বিকাশ হচ্ছে।",
+                "hi": "मरीज को एआरडीएस हो रहा है।",
+                "ur": "مریض کو اے آر ڈی ایس ہو رہا ہے۔",
+                "tr": "Hastada ARDS gelişiyor."
+            },
+            "id": "v52_19"
+        },
+        {
+            "germanTerm": "Nierenversagen",
+            "article": "das",
+            "plural": "Nierenversagen",
+            "pronunciation": "/ˈniːʁənfɛɐ̯ˌzaːɡən/",
+            "category": "noun",
+            "translation": {
+                "en": "Kidney failure, Renal failure",
+                "bn": "কিডনি ব্যর্থতা, রেনাল ব্যর্থতা",
+                "hi": "गुर्दे की विफलता, गुर्दे की विफलता",
+                "ur": "گردے کی خرابی، گردے کی خرابی",
+                "tr": "Böbrek yetmezliği"
+            },
+            "exampleSentence": "Der Patient leidet unter akutem Nierenversagen.",
+            "exampleTranslation": {
+                "en": "The patient is suffering from acute kidney failure.",
+                "bn": "রোগী তীব্র কিডনি ব্যর্থতায় ভুগছেন।",
+                "hi": "मरीज तीव्र गुर्दे की विफलता से पीड़ित है।",
+                "ur": "مریض گردے کی شدید خرابی کا شکار ہے۔",
+                "tr": "Hasta akut böbrek yetmezliğinden muzdarip."
+            },
+            "id": "v52_20"
+        },
+        {
+            "germanTerm": "Hypotonie",
+            "article": "die",
+            "plural": "Hypotonien",
+            "pronunciation": "/hypotoˈniː/",
+            "category": "noun",
+            "translation": {
+                "en": "Hypotension",
+                "bn": "হাইপোটেনশন",
+                "hi": "हाइपोटेंशन",
+                "ur": "ہائپوٹینشن",
+                "tr": "Hipotansiyon"
+            },
+            "exampleSentence": "Die Hypotonie muss behandelt werden.",
+            "exampleTranslation": {
+                "en": "The hypotension must be treated.",
+                "bn": "হাইপোটেনশনের চিকিৎসা করা উচিত।",
+                "hi": "हाइपोटेंशन का इलाज किया जाना चाहिए।",
+                "ur": "ہائپوٹینشن کا علاج کیا جانا چاہیے۔",
+                "tr": "Hipotansiyon tedavi edilmelidir."
+            },
+            "id": "v52_21"
+        },
+        {
+            "germanTerm": "Hypertonie",
+            "article": "die",
+            "plural": "Hypertonien",
+            "pronunciation": "/hypɛʁtoniˈ/",
+            "category": "noun",
+            "translation": {
+                "en": "Hypertension",
+                "bn": "উচ্চ রক্তচাপ",
+                "hi": "उच्च रक्तचाप",
+                "ur": "ہائی بلڈ پریشر",
+                "tr": "Hipertansiyon"
+            },
+            "exampleSentence": "Die Hypertonie muss kontrolliert werden.",
+            "exampleTranslation": {
+                "en": "The hypertension must be controlled.",
+                "bn": "উচ্চ রক্তচাপ নিয়ন্ত্রণ করা উচিত।",
+                "hi": "उच्च रक्तचाप को नियंत्रित किया जाना चाहिए।",
+                "ur": "ہائی بلڈ پریشر کو کنٹرول کیا جانا چاہیے۔",
+                "tr": "Hipertansiyon kontrol altına alınmalıdır."
+            },
+            "id": "v52_22"
+        },
+        {
+            "germanTerm": "Volumenmangel",
+            "article": "der",
+            "plural": "Volumenmängel",
+            "pronunciation": "/voˈluːmənˌmaŋəl/",
+            "category": "noun",
+            "translation": {
+                "en": "Hypovolemia, Volume depletion",
+                "bn": "হাইপোভোলেমিয়া, ভলিউম হ্রাস",
+                "hi": "हाइपोवोलेमिया, वॉल्यूम की कमी",
+                "ur": "ہائپوولیمیا، حجم میں کمی",
+                "tr": "Hipovolemi, Hacim azalması"
+            },
+            "exampleSentence": "Der Patient zeigt Anzeichen eines Volumenmangels.",
+            "exampleTranslation": {
+                "en": "The patient shows signs of hypovolemia.",
+                "bn": "রোগী হাইপোভোলেমিয়ার লক্ষণ দেখাচ্ছে।",
+                "hi": "मरीज हाइपोवोलेमिया के लक्षण दिखा रहा है।",
+                "ur": "مریض ہائپوولیمیا کی علامات ظاہر کر رہا ہے۔",
+                "tr": "Hasta hipovolemi belirtileri gösteriyor."
+            },
+            "id": "v52_23"
+        },
+        {
+            "germanTerm": "Sepsis",
+            "article": "die",
+            "plural": "Sepsis",
+            "pronunciation": "/ˈzɛpsɪs/",
+            "category": "noun",
+            "translation": {
+                "en": "Sepsis",
+                "bn": "সেপসিস",
+                "hi": "सेप्सिस",
+                "ur": "سیپسس",
+                "tr": "Sepsis"
+            },
+            "exampleSentence": "Der Patient hat eine schwere Sepsis entwickelt.",
+            "exampleTranslation": {
+                "en": "The patient has developed severe sepsis.",
+                "bn": "রোগীর মারাত্মক সেপসিস হয়েছে।",
+                "hi": "मरीज को गंभीर सेप्सिस हो गया है।",
+                "ur": "مریض کو شدید سیپسس ہو گیا ہے۔",
+                "tr": "Hastada şiddetli sepsis gelişti."
+            },
+            "id": "v52_24"
+        },
+        {
+            "germanTerm": "Schock",
+            "article": "der",
+            "plural": "Schocks",
+            "pronunciation": "/ʃɔk/",
+            "category": "noun",
+            "translation": {
+                "en": "Shock",
+                "bn": "শক",
+                "hi": "सदमा",
+                "ur": "صدمہ",
+                "tr": "Şok"
+            },
+            "exampleSentence": "Der Patient befindet sich im septischen Schock.",
+            "exampleTranslation": {
+                "en": "The patient is in septic shock.",
+                "bn": "রোগী সেপটিক শকে আছেন।",
+                "hi": "मरीज सेप्टिक शॉक में है।",
+                "ur": "مریض سیپٹک صدمے میں ہے۔",
+                "tr": "Hasta septik şokta."
+            },
+            "id": "v52_25"
+        },
+        {
+            "germanTerm": "Komorbidität",
+            "article": "die",
+            "plural": "Komorbiditäten",
+            "pronunciation": "/ˌkɔmobɔʁbidiˈtɛːt/",
+            "category": "noun",
+            "translation": {
+                "en": "Comorbidity",
+                "bn": "কোমরবিডিটি",
+                "hi": "सह-रुग्णता",
+                "ur": "ہم مرضی",
+                "tr": "Komorbidite"
+            },
+            "exampleSentence": "Die Komorbiditäten des Patienten erschweren die Behandlung.",
+            "exampleTranslation": {
+                "en": "The patient's comorbidities complicate the treatment.",
+                "bn": "রোগীর কোমরবিডিটিগুলি চিকিত্সাটিকে জটিল করে তোলে।",
+                "hi": "मरीज की सह-रुग्णताएँ उपचार को जटिल बनाती हैं।",
+                "ur": "مریض کی ہم مرضی علاج کو پیچیدہ بناتی ہے۔",
+                "tr": "Hastanın komorbiditeleri tedaviyi zorlaştırmaktadır."
+            },
+            "id": "v52_26"
+        },
+        {
+            "germanTerm": "verabreichen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/fɛɐ̯ˈʔapˌʁaɪ̯çən/",
+            "category": "verb",
+            "translation": {
+                "en": "Administer",
+                "bn": "প্রদান করা",
+                "hi": "प्रशासन करना",
+                "ur": "انتظام کرنا",
+                "tr": "Uygulamak"
+            },
+            "exampleSentence": "Wir müssen dem Patienten Medikamente verabreichen.",
+            "exampleTranslation": {
+                "en": "We must administer medication to the patient.",
+                "bn": "আমাদের রোগীকে ওষুধ প্রদান করতে হবে।",
+                "hi": "हमें मरीज को दवाएं देनी होंगी।",
+                "ur": "ہمیں مریض کو دوائیں دینی ہوں گی۔",
+                "tr": "Hastaya ilaç uygulamamız gerekiyor."
+            },
+            "id": "v52_27"
+        },
+        {
+            "germanTerm": "stabilisieren",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ʃtabiliˈziːʁən/",
+            "category": "verb",
+            "translation": {
+                "en": "Stabilize",
+                "bn": "স্থিতিশীল করা",
+                "hi": "स्थिर करना",
+                "ur": "مستحکم کرنا",
+                "tr": "Stabilize etmek"
+            },
+            "exampleSentence": "Wir versuchen den Patienten zu stabilisieren.",
+            "exampleTranslation": {
+                "en": "We are trying to stabilize the patient.",
+                "bn": "আমরা রোগীকে স্থিতিশীল করার চেষ্টা করছি।",
+                "hi": "हम मरीज को स्थिर करने की कोशिश कर रहे हैं।",
+                "ur": "ہم مریض کو مستحکم کرنے کی کوشش کر رہے ہیں۔",
+                "tr": "Hastayı stabilize etmeye çalışıyoruz."
+            },
+            "id": "v52_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Intensive Care Admission",
+                "bn": "ইনটেনসিভ কেয়ার ভর্তি",
+                "hi": "गहन देखभाल में प्रवेश",
+                "ur": "انتہائی نگہداشت میں داخلہ",
+                "tr": "Yoğun Bakım Kabulü"
+            },
+            "context": {
+                "en": "A patient is being admitted to the intensive care unit after a car accident.",
+                "bn": "একটি গাড়ি দুর্ঘটনার পর একজন রোগীকে ইনটেনসিভ কেয়ার ইউনিটে ভর্তি করা হচ্ছে।",
+                "hi": "एक कार दुर्घटना के बाद एक मरीज को गहन देखभाल इकाई में भर्ती कराया जा रहा है।",
+                "ur": "ایک کار حادثے کے بعد ایک مریض کو انتہائی نگہداشت یونٹ میں داخل کیا جا رہا ہے۔",
+                "tr": "Bir hasta, araba kazası sonrası yoğun bakım ünitesine kabul ediliyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Schwester Weber, bitte legen Sie Herrn Müller an den Monitor und bereiten Sie die Beatmung vor.",
+                    "translation": {
+                        "en": "Nurse Weber, please connect Mr. Müller to the monitor and prepare for ventilation.",
+                        "bn": "নার্স ওয়েবার, দয়া করে মিঃ মুলারকে মনিটরের সাথে সংযুক্ত করুন এবং ভেন্টিলেশনের জন্য প্রস্তুত করুন।",
+                        "hi": "नर्स वेबर, कृपया श्री मुलर को मॉनिटर से कनेक्ट करें और वेंटिलेशन की तैयारी करें।",
+                        "ur": "نرس ویبر، براہ کرم مسٹر مولر کو مانیٹر سے جوڑیں اور وینٹیلیشن کے لیے تیاری کریں۔",
+                        "tr": "Hemşire Weber, lütfen Bay Müller'i monitöre bağlayın ve ventilasyon için hazırlanın."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ja, Herr Doktor. Blutdruck ist niedrig. Ich messe 90 zu 60.",
+                    "translation": {
+                        "en": "Yes, Doctor. Blood pressure is low. I'm measuring 90 over 60.",
+                        "bn": "হ্যাঁ, ডক্টর। রক্তচাপ কম। আমি ৯০ বাই ৬০ মাপছি।",
+                        "hi": "हाँ, डॉक्टर। रक्तचाप कम है। मैं 90 बटा 60 माप रही हूँ।",
+                        "ur": "جی ہاں، ڈاکٹر۔ بلڈ پریشر کم ہے۔ میں 90 بٹہ 60 ناپ رہی ہوں۔",
+                        "tr": "Evet Doktor. Kan basıncı düşük. 90'a 60 ölçüyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Gut, dann beginnen wir mit einem Vasopressor. Noradrenalin wäre gut.",
+                    "translation": {
+                        "en": "Good, then we'll start with a vasopressor. Noradrenaline would be good.",
+                        "bn": "ঠিক আছে, তাহলে আমরা একটি ভ্যাসোপ্রেসর দিয়ে শুরু করব। নরএড্রেনালাইন ভালো হবে।",
+                        "hi": "ठीक है, तो हम एक वासोप्रेसर से शुरू करेंगे। नॉरएड्रेनालाईन अच्छा रहेगा।",
+                        "ur": "ٹھیک ہے، تو ہم ایک ویزوپریسر سے شروع کریں گے۔ نورایڈرینالین اچھا رہے گا۔",
+                        "tr": "Güzel, o zaman bir vazopresör ile başlayacağız. Noradrenalin iyi olur."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Noradrenalin ist vorbereitet. Wie hoch soll ich dosieren?",
+                    "translation": {
+                        "en": "Noradrenaline is prepared. How high should I dose it?",
+                        "bn": "নরএড্রেনালাইন প্রস্তুত। আমি কত ডোজ দেব?",
+                        "hi": "नॉरएड्रेनालाईन तैयार है। मुझे कितनी खुराक देनी चाहिए?",
+                        "ur": "نورایڈرینالین تیار ہے۔ مجھے کتنی خوراک دینی چاہیے؟",
+                        "tr": "Noradrenalin hazır. Ne kadar doz ayarlayayım?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Beginnen Sie mit 0,05 Mikrogramm pro Kilogramm Körpergewicht pro Minute.",
+                    "translation": {
+                        "en": "Start with 0.05 micrograms per kilogram of body weight per minute.",
+                        "bn": "0.05 মাইক্রোগ্রাম প্রতি কিলোগ্রাম বডিওয়েট প্রতি মিনিট দিয়ে শুরু করুন।",
+                        "hi": "0.05 माइक्रोग्राम प्रति किलोग्राम शरीर के वजन प्रति मिनट से शुरू करें।",
+                        "ur": "0.05 مائکروگرام فی کلوگرام جسمانی وزن فی منٹ سے شروع کریں۔",
+                        "tr": "Dakikada vücut ağırlığının kilogramı başına 0,05 mikrogram ile başlayın."
+                    }
+                }
+            ],
+            "id": "d52_01"
+        },
+        {
+            "title": {
+                "en": "Sedation Management",
+                "bn": "সিডেশন পরিচালনা",
+                "hi": "शामक प्रबंधन",
+                "ur": "سکون بخش انتظام",
+                "tr": "Sedasyon Yönetimi"
+            },
+            "context": {
+                "en": "A patient on a ventilator needs sedation adjustment.",
+                "bn": "ভেন্টিলেটরে থাকা একজন রোগীর সিডেশন সমন্বয় প্রয়োজন।",
+                "hi": "वेंटिलेटर पर एक मरीज को शामक समायोजन की आवश्यकता है।",
+                "ur": "وینٹیلیٹر پر موجود مریض کو سکون بخش ادویات کی ایڈجسٹمنٹ کی ضرورت ہے۔",
+                "tr": "Ventilatördeki bir hastanın sedasyon ayarı yapılması gerekiyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Oberarzt Müller",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Frau Klein, wie tief ist die Sedierung bei Herrn Weber?",
+                    "translation": {
+                        "en": "Ms. Klein, how deep is the sedation in Mr. Weber?",
+                        "bn": "মিসেস ক্লেইন, মিস্টার ওয়েবারের সিডেশন কতটা গভীর?",
+                        "hi": "सुश्री क्लेन, श्री वेबर में सिडेशन कितना गहरा है?",
+                        "ur": "محترمہ کلین، مسٹر ویبر میں سکون کی گہرائی کتنی ہے؟",
+                        "tr": "Bayan Klein, Bay Weber'in sedasyonu ne kadar derin?"
+                    }
+                },
+                {
+                    "speaker": "Frau Klein",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Wir sind bei einem RASS-Score von -3. Er ist noch sehr sediert.",
+                    "translation": {
+                        "en": "We are at a RASS score of -3. He is still very sedated.",
+                        "bn": "আমরা -3 এর একটি RASS স্কোর এ আছি। তিনি এখনও খুব সিডেটেড।",
+                        "hi": "हम -3 के RASS स्कोर पर हैं। वह अभी भी बहुत शांत है।",
+                        "ur": "ہم -3 کے آر اے ایس ایس سکور پر ہیں۔ وہ ابھی بھی بہت پرسکون ہے۔",
+                        "tr": "RASS skoru -3'teyiz. Hala çok sakinleştirilmiş durumda."
+                    }
+                },
+                {
+                    "speaker": "Oberarzt Müller",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Dann reduzieren Sie die Propofol-Dosis um 20 Prozent. Wir wollen ihn etwas wacher haben.",
+                    "translation": {
+                        "en": "Then reduce the propofol dose by 20 percent. We want him to be a little more awake.",
+                        "bn": "তাহলে প্রোপোফলের ডোজ ২০ শতাংশ কমিয়ে দিন। আমরা তাকে একটু বেশি জাগিয়ে রাখতে চাই।",
+                        "hi": "तो फिर प्रोपोफोल की खुराक 20 प्रतिशत कम करें। हम उसे थोड़ा और जगाना चाहते हैं।",
+                        "ur": "تو پھر پروپوفول کی خوراک 20 فیصد کم کریں۔ ہم اسے تھوڑا اور بیدار کرنا چاہتے ہیں۔",
+                        "tr": "O zaman propofol dozunu yüzde 20 azaltın. Onu biraz daha uyanık görmek istiyoruz."
+                    }
+                },
+                {
+                    "speaker": "Frau Klein",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Verstanden, Herr Doktor. Ich reduziere die Dosis.",
+                    "translation": {
+                        "en": "Understood, Doctor. I'm reducing the dose.",
+                        "bn": "বুঝেছি, ডক্টর। আমি ডোজ কমাচ্ছি।",
+                        "hi": "समझ गया, डॉक्टर। मैं खुराक कम कर रही हूँ।",
+                        "ur": "سمجھ گیا، ڈاکٹر۔ میں خوراک کم کر رہی ہوں۔",
+                        "tr": "Anlaşıldı Doktor. Dozu azaltıyorum."
+                    }
+                },
+                {
+                    "speaker": "Oberarzt Müller",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Überwachen Sie den Blutdruck genau. Eine zu schnelle Reduktion kann zu Unruhe führen.",
+                    "translation": {
+                        "en": "Monitor the blood pressure closely. Too rapid a reduction can lead to agitation.",
+                        "bn": "রক্তচাপ ভালোভাবে পর্যবেক্ষণ করুন। খুব দ্রুত কমালে অস্থিরতা হতে পারে।",
+                        "hi": "रक्तचाप पर बारीकी से निगरानी रखें। बहुत तेजी से कमी से बेचैनी हो सकती है।",
+                        "ur": "بلڈ پریشر کی قریبی نگرانی کریں۔ بہت تیزی سے کمی سے بے چینی ہو سکتی ہے۔",
+                        "tr": "Kan basıncını yakından takip edin. Çok hızlı bir azalma huzursuzluğa yol açabilir."
+                    }
+                }
+            ],
+            "id": "d52_02"
+        },
+        {
+            "title": {
+                "en": "Weaning from Ventilation",
+                "bn": "ভেন্টিলেশন থেকে ছাড়ানো",
+                "hi": "वेंटिलेशन से छुड़ाना",
+                "ur": "وینٹیلیشن سے چھڑانا",
+                "tr": "Ventilasyondan Ayırma"
+            },
+            "context": {
+                "en": "A patient is being weaned from mechanical ventilation.",
+                "bn": "একজন রোগীকে যান্ত্রিক ভেন্টিলেশন থেকে ছাড়ানো হচ্ছে।",
+                "hi": "एक मरीज को मैकेनिकल वेंटिलेशन से छुड़ाया जा रहा है।",
+                "ur": "ایک مریض کو مکینیکل وینٹیلیشن سے چھڑایا جا رہا ہے۔",
+                "tr": "Bir hasta mekanik ventilasyondan ayrılıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Herr Schmidt, wir versuchen heute, Sie von der Beatmung zu entwöhnen. Wie fühlen Sie sich?",
+                    "translation": {
+                        "en": "Mr. Schmidt, we are trying to wean you off ventilation today. How do you feel?",
+                        "bn": "মিঃ শ্মিট, আজ আমরা আপনাকে ভেন্টিলেশন থেকে ছাড়ানোর চেষ্টা করছি। আপনি কেমন অনুভব করছেন?",
+                        "hi": "श्री श्मिट, हम आज आपको वेंटिलेशन से छुड़ाने की कोशिश कर रहे हैं। आपको कैसा लग रहा है?",
+                        "ur": "مسٹر شمٹ، ہم آج آپ کو وینٹیلیشن سے چھڑانے کی کوشش کر رہے ہیں۔ آپ کیسا محسوس کر رہے ہیں؟",
+                        "tr": "Bay Schmidt, bugün sizi ventilasyondan ayırmaya çalışıyoruz. Nasıl hissediyorsunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Etwas schwach, aber besser als gestern.",
+                    "translation": {
+                        "en": "A little weak, but better than yesterday.",
+                        "bn": "একটু দুর্বল, কিন্তু গতকালের চেয়ে ভালো।",
+                        "hi": "थोड़ा कमजोर, लेकिन कल से बेहतर।",
+                        "ur": "تھوڑا سا کمزور، لیکن کل سے بہتر۔",
+                        "tr": "Biraz zayıf, ama dünden daha iyi."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Gut. Wir werden den Beatmungsdruck langsam reduzieren und schauen, wie Sie darauf reagieren.",
+                    "translation": {
+                        "en": "Good. We will slowly reduce the ventilation pressure and see how you react to it.",
+                        "bn": "ভাল। আমরা ধীরে ধীরে ভেন্টিলেশন চাপ কমিয়ে দেখব আপনি এতে কেমন প্রতিক্রিয়া করেন।",
+                        "hi": "अच्छा। हम धीरे-धीरे वेंटिलेशन का दबाव कम करेंगे और देखेंगे कि आप इस पर कैसी प्रतिक्रिया करते हैं।",
+                        "ur": "اچھا۔ ہم آہستہ آہستہ وینٹیلیشن کا دباؤ کم کریں گے اور دیکھیں گے کہ آپ اس پر کیسا ردعمل دیتے ہیں۔",
+                        "tr": "Güzel. Ventilasyon basıncını yavaş yavaş azaltacağız ve buna nasıl tepki verdiğinizi göreceğiz."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich überwache die Sauerstoffsättigung und die Atemfrequenz.",
+                    "translation": {
+                        "en": "I am monitoring the oxygen saturation and respiratory rate.",
+                        "bn": "আমি অক্সিজেনের স্যাচুরেশন এবং শ্বাস প্রশ্বাসের হার পর্যবেক্ষণ করছি।",
+                        "hi": "मैं ऑक्सीजन संतृप्ति और श्वसन दर की निगरानी कर रही हूँ।",
+                        "ur": "میں آکسیجن سیچوریشن اور سانس لینے کی رفتار کی نگرانی کر رہی ہوں۔",
+                        "tr": "Oksijen doygunluğunu ve solunum hızını izliyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wenn die Sauerstoffsättigung unter 90 Prozent fällt, müssen wir die Beatmung wieder unterstützen.",
+                    "translation": {
+                        "en": "If the oxygen saturation falls below 90 percent, we will have to support ventilation again.",
+                        "bn": "যদি অক্সিজেনের স্যাচুরেশন ৯০ শতাংশের নিচে নেমে যায়, তাহলে আমাদের আবার ভেন্টিলেশন সমর্থন করতে হবে।",
+                        "hi": "यदि ऑक्सीजन संतृप्ति 90 प्रतिशत से नीचे गिर जाती है, तो हमें फिर से वेंटिलेशन का समर्थन करना होगा।",
+                        "ur": "اگر آکسیجن سیچوریشن 90 فیصد سے نیچے گر جاتی ہے، تو ہمیں دوبارہ وینٹیلیشن کی حمایت کرنی ہوگی۔",
+                        "tr": "Oksijen doygunluğu yüzde 90'ın altına düşerse, ventilasyonu tekrar desteklememiz gerekecek."
+                    }
+                }
+            ],
+            "id": "d52_03"
+        },
+        {
+            "title": {
+                "en": "Catecholamine Infusion",
+                "bn": "ক্যাটাচোলামাইন ইনফিউশন",
+                "hi": "कैटेकोलामाइन इन्फ्यूजन",
+                "ur": "کیٹیکولامین انفیوژن",
+                "tr": "Katekolamin İnfüzyonu"
+            },
+            "context": {
+                "en": "A patient with septic shock requires catecholamine support.",
+                "bn": "সেপটিক শকযুক্ত একজন রোগীর ক্যাটাচোলামাইন সাপোর্টের প্রয়োজন।",
+                "hi": "सेप्टिक शॉक वाले एक मरीज को कैटेकोलामाइन सपोर्ट की आवश्यकता है।",
+                "ur": "سیپٹک شاک والے مریض کو کیٹیکولامین سپورٹ کی ضرورت ہے۔",
+                "tr": "Septik şoklu bir hastanın katekolamin desteğine ihtiyacı var."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Der Patient hat weiterhin einen niedrigen Blutdruck trotz Flüssigkeitssubstitution. Wir müssen Katecholamine geben.",
+                    "translation": {
+                        "en": "The patient still has low blood pressure despite fluid resuscitation. We need to give catecholamines.",
+                        "bn": "ফ্লুইড প্রতিস্থাপনের পরেও রোগীর রক্তচাপ কম রয়েছে। আমাদের ক্যাটাচোলামাইন দিতে হবে।",
+                        "hi": "तरल प्रतिस्थापन के बावजूद मरीज का रक्तचाप अभी भी कम है। हमें कैटेकोलामाइन देना होगा।",
+                        "ur": "مائع تبدیلی کے باوجود مریض کا بلڈ پریشر ابھی بھی کم ہے۔ ہمیں کیٹیکولامین دینا ہوگا۔",
+                        "tr": "Sıvı replasmanına rağmen hastanın kan basıncı hala düşük. Katekolamin vermemiz gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Schwester Meier",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Welche Katecholamine sollen wir verwenden, Herr Doktor?",
+                    "translation": {
+                        "en": "Which catecholamines should we use, Doctor?",
+                        "bn": "আমরা কোন ক্যাটাচোলামাইন ব্যবহার করব, ডক্টর?",
+                        "hi": "हमें कौन सा कैटेकोलामाइन इस्तेमाल करना चाहिए, डॉक्टर?",
+                        "ur": "ہمیں کون سا کیٹیکولامین استعمال کرنا چاہیے، ڈاکٹر؟",
+                        "tr": "Hangi katekolaminleri kullanmalıyız Doktor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Beginnen Sie mit Noradrenalin. Wenn das nicht ausreicht, können wir Dobutamin hinzufügen.",
+                    "translation": {
+                        "en": "Start with noradrenaline. If that is not enough, we can add dobutamine.",
+                        "bn": "নরএড্রেনালাইন দিয়ে শুরু করুন। যদি যথেষ্ট না হয়, তাহলে আমরা ডবুটামিন যোগ করতে পারি।",
+                        "hi": "नॉरएड्रेनालाईन से शुरू करें। अगर यह काफी नहीं है, तो हम डोबुटामिन जोड़ सकते हैं।",
+                        "ur": "نورایڈرینالین سے شروع کریں۔ اگر یہ کافی نہیں ہے، تو ہم ڈوبوٹامین شامل کر سکتے ہیں۔",
+                        "tr": "Noradrenalin ile başlayın. Bu yeterli değilse, dobutamin ekleyebiliriz."
+                    }
+                },
+                {
+                    "speaker": "Schwester Meier",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Noradrenalin läuft bereits. Der Blutdruck steigt langsam.",
+                    "translation": {
+                        "en": "Noradrenaline is already running. The blood pressure is slowly rising.",
+                        "bn": "নরএড্রেনালাইন ইতিমধ্যেই চলছে। রক্তচাপ ধীরে ধীরে বাড়ছে।",
+                        "hi": "नॉरएड्रेनालाईन पहले से ही चल रहा है। रक्तचाप धीरे-धीरे बढ़ रहा है।",
+                        "ur": "نورایڈرینالین پہلے سے ہی چل رہا ہے۔ بلڈ پریشر آہستہ آہستہ بڑھ رہا ہے۔",
+                        "tr": "Noradrenalin zaten çalışıyor. Kan basıncı yavaş yavaş yükseliyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Gut, beobachten Sie die Herzfrequenz und den Blutdruck engmaschig. Wenn die Herzfrequenz zu hoch wird, müssen wir die Dosis reduzieren.",
+                    "translation": {
+                        "en": "Good, monitor the heart rate and blood pressure closely. If the heart rate gets too high, we need to reduce the dose.",
+                        "bn": "ভাল, হৃদস্পন্দন এবং রক্তচাপ ভালোভাবে পর্যবেক্ষণ করুন। যদি হৃদস্পন্দন খুব বেশি হয়ে যায়, তাহলে আমাদের ডোজ কমাতে হবে।",
+                        "hi": "अच्छा, हृदय गति और रक्तचाप पर बारीकी से निगरानी रखें। यदि हृदय गति बहुत अधिक हो जाती है, तो हमें खुराक कम करनी होगी।",
+                        "ur": "اچھا، دل کی دھڑکن اور بلڈ پریشر کی قریبی نگرانی کریں۔ اگر دل کی دھڑکن بہت زیادہ ہو جاتی ہے، تو ہمیں خوراک کم کرنی ہوگی۔",
+                        "tr": "Güzel, kalp atış hızını ve kan basıncını yakından izleyin. Kalp atış hızı çok yükselirse, dozu azaltmamız gerekecek."
+                    }
+                }
+            ],
+            "id": "d52_04"
+        },
+        {
+            "title": {
+                "en": "Monitor Alarms",
+                "bn": "মনিটর অ্যালার্ম",
+                "hi": "मॉनिटर अलार्म",
+                "ur": "مانیٹر الارم",
+                "tr": "Monitör Alarmları"
+            },
+            "context": {
+                "en": "A monitor alarm sounds in the intensive care unit.",
+                "bn": "ইনটেনসিভ কেয়ার ইউনিটে একটি মনিটর অ্যালার্ম বাজছে।",
+                "hi": "गहन देखभाल इकाई में एक मॉनिटर अलार्म बज रहा है।",
+                "ur": "انتہائی نگہداشت یونٹ میں ایک مانیٹر الارم بج رہا ہے۔",
+                "tr": "Yoğun bakım ünitesinde bir monitör alarmı çalıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Schmidt",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Alarm! Herr Klein hat eine Bradykardie. Herzfrequenz ist unter 50.",
+                    "translation": {
+                        "en": "Alarm! Mr. Klein has bradycardia. Heart rate is below 50.",
+                        "bn": "এলার্ম! মিঃ ক্লেইনের ব্র্যাডিকার্ডিয়া হয়েছে। হৃদস্পন্দন ৫০ এর নিচে।",
+                        "hi": "अलार्म! श्री क्लेन को ब्रेडीकार्डिया है। हृदय गति 50 से नीचे है।",
+                        "ur": "الارم! مسٹر کلین کو بریڈی کارڈیا ہے۔ دل کی دھڑکن 50 سے نیچے ہے۔",
+                        "tr": "Alarm! Bay Klein'da bradikardi var. Kalp atış hızı 50'nin altında."
+                    }
+                },
+                {
+                    "speaker": "Dr. Braun",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ist der Patient stabil? Haben wir die Sedierung reduziert?",
+                    "translation": {
+                        "en": "Is the patient stable? Have we reduced the sedation?",
+                        "bn": "রোগী কি স্থিতিশীল? আমরা কি সিডেশন কমিয়েছি?",
+                        "hi": "क्या रोगी स्थिर है? क्या हमने सिडेशन कम कर दिया है?",
+                        "ur": "کیا مریض مستحکم ہے؟ کیا ہم نے سکون کم کر دیا ہے؟",
+                        "tr": "Hasta stabil mi? Sedasyonu azalttık mı?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Schmidt",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ja, die Sedierung wurde reduziert. Ich gebe ihm jetzt Atropin.",
+                    "translation": {
+                        "en": "Yes, the sedation has been reduced. I'm giving him atropine now.",
+                        "bn": "হ্যাঁ, সিডেশন কমানো হয়েছে। আমি এখন তাকে অ্যাট্রোপিন দিচ্ছি।",
+                        "hi": "हाँ, सिडेशन कम कर दिया गया है। मैं अब उसे एट्रोपिन दे रही हूँ।",
+                        "ur": "جی ہاں، سکون کم کر دیا گیا ہے۔ میں اب اسے ایٹروپین دے رہی ہوں۔",
+                        "tr": "Evet, sedasyon azaltıldı. Şimdi ona atropin veriyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Braun",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wie reagiert er auf das Atropin?",
+                    "translation": {
+                        "en": "How is he reacting to the atropine?",
+                        "bn": "সে অ্যাট্রোপিনের প্রতি কেমন প্রতিক্রিয়া দেখাচ্ছে?",
+                        "hi": "वह एट्रोपिन पर कैसी प्रतिक्रिया दे रहा है?",
+                        "ur": "وہ ایٹروپین پر کیسا ردعمل دے رہا ہے؟",
+                        "tr": "Atropine nasıl tepki veriyor?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Schmidt",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Die Herzfrequenz steigt langsam an. Jetzt 60.",
+                    "translation": {
+                        "en": "The heart rate is slowly increasing. Now 60.",
+                        "bn": "হৃদস্পন্দন ধীরে ধীরে বাড়ছে। এখন ৬০।",
+                        "hi": "हृदय गति धीरे-धीरे बढ़ रही है। अब 60।",
+                        "ur": "دل کی دھڑکن آہستہ آہستہ بڑھ رہی ہے۔ اب 60۔",
+                        "tr": "Kalp atış hızı yavaş yavaş artıyor. Şimdi 60."
+                    }
+                },
+                {
+                    "speaker": "Dr. Braun",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Gut, wir behalten es im Auge. Wenn es sich nicht stabilisiert, brauchen wir einen Schrittmacher.",
+                    "translation": {
+                        "en": "Good, we'll keep an eye on it. If it doesn't stabilize, we need a pacemaker.",
+                        "bn": "ভাল, আমরা এটির উপর নজর রাখব। যদি এটি স্থিতিশীল না হয়, তবে আমাদের একটি পেসমেকারের প্রয়োজন হবে।",
+                        "hi": "अच्छा, हम इस पर नज़र रखेंगे। अगर यह स्थिर नहीं होता है, तो हमें पेसमेकर की आवश्यकता होगी।",
+                        "ur": "اچھا، ہم اس پر نظر رکھیں گے۔ اگر یہ مستحکم نہیں ہوتا ہے، تو ہمیں پیس میکر کی ضرورت ہوگی۔",
+                        "tr": "Güzel, takipte kalacağız. Stabilize olmazsa, kalp piline ihtiyacımız olacak."
+                    }
+                }
+            ],
+            "id": "d52_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist die primäre Funktion einer Beatmungsmaschine auf der Intensivstation?",
+                "en": "What is the primary function of a ventilator in the intensive care unit?",
+                "bn": "ইনটেনসিভ কেয়ার ইউনিটে ভেন্টিলেটরের প্রধান কাজ কী?",
+                "hi": "आईसीयू में वेंटिलेटर का प्राथमिक कार्य क्या है?",
+                "ur": "انٹینسیو کیئر یونٹ میں وینٹی لیٹر کا بنیادی کام کیا ہے؟",
+                "tr": "Yoğun bakım ünitesinde ventilatörün temel işlevi nedir?"
+            },
+            "options": [
+                "Den Blutdruck zu senken",
+                "Die Atmung zu unterstützen oder zu ersetzen",
+                "Schmerzen zu lindern",
+                "Die Nierenfunktion zu verbessern"
+            ],
+            "correctAnswer": "Die Atmung zu unterstützen oder zu ersetzen",
+            "explanation": {
+                "en": "Ventilators are primarily used to assist or replace breathing when a patient is unable to do so on their own.",
+                "bn": "ভেন্টিলেটর প্রধানত শ্বাস-প্রশ্বাসকে সমর্থন বা প্রতিস্থাপন করতে ব্যবহৃত হয় যখন কোনও রোগী নিজে থেকে এটি করতে অক্ষম হন।",
+                "hi": "वेंटिलेटर का उपयोग मुख्य रूप से सांस लेने में सहायता करने या बदलने के लिए किया जाता है जब कोई रोगी अपने दम पर ऐसा करने में असमर्थ होता है।",
+                "ur": "وینٹی لیٹر بنیادی طور پر سانس لینے میں مدد کرنے یا بدلنے کے لیے استعمال ہوتا ہے جب کوئی مریض خود ایسا کرنے سے قاصر ہوتا ہے۔",
+                "tr": "Ventilatörler öncelikle bir hasta kendi başına yapamadığında solunuma yardımcı olmak veya değiştirmek için kullanılır."
+            },
+            "points": 10,
+            "id": "e52_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Sedierung' im intensivmedizinischen Kontext?",
+                "en": "What does 'sedation' mean in the context of intensive care?",
+                "bn": "ইনটেনসিভ কেয়ারের প্রেক্ষাপটে 'সেডেশন' মানে কী?",
+                "hi": "गहन देखभाल के संदर्भ में 'सेडेशन' का क्या अर्थ है?",
+                "ur": "انٹینسیو کیئر کے تناظر میں 'سیڈیشن' کا کیا مطلب ہے؟",
+                "tr": "Yoğun bakım bağlamında 'sedasyon' ne anlama gelir?"
+            },
+            "options": [
+                "Die Gabe von Medikamenten zur Schmerzlinderung",
+                "Die Gabe von Medikamenten zur Beruhigung und Angstlösung",
+                "Die Messung des Blutdrucks",
+                "Die Reinigung der Atemwege"
+            ],
+            "correctAnswer": "Die Gabe von Medikamenten zur Beruhigung und Angstlösung",
+            "explanation": {
+                "en": "Sedation involves administering medication to calm and reduce anxiety in patients.",
+                "bn": "সেডেশন রোগীদের শান্ত করতে এবং উদ্বেগ কমাতে ওষুধ দেওয়ার সাথে জড়িত।",
+                "hi": "सेडेशन में रोगियों को शांत करने और चिंता कम करने के लिए दवा देना शामिल है।",
+                "ur": "سیڈیشن میں مریضوں کو پرسکون کرنے اور اضطراب کو کم کرنے کے لیے دوا دینا شامل ہے۔",
+                "tr": "Sedasyon, hastaları sakinleştirmek ve kaygıyı azaltmak için ilaç vermeyi içerir."
+            },
+            "points": 10,
+            "id": "e52_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage über Katecholamine ist korrekt?",
+                "en": "Which statement about catecholamines is correct?",
+                "bn": "ক্যাটাচোলামাইন সম্পর্কে কোন বক্তব্যটি সঠিক?",
+                "hi": "कैटेकोलामाइन के बारे में कौन सा कथन सही है?",
+                "ur": "کیٹیکولامینز کے بارے میں کون سا بیان درست ہے؟",
+                "tr": "Katekolaminler hakkında hangi ifade doğrudur?"
+            },
+            "options": [
+                "Sie senken den Blutdruck.",
+                "Sie erhöhen die Herzfrequenz und den Blutdruck.",
+                "Sie verlangsamen die Atmung.",
+                "Sie wirken entzündungshemmend."
+            ],
+            "correctAnswer": "Sie erhöhen die Herzfrequenz und den Blutdruck.",
+            "explanation": {
+                "en": "Catecholamines are hormones that increase heart rate and blood pressure, often used to treat hypotension.",
+                "bn": "ক্যাটাচোলামাইন হল হরমোন যা হৃদস্পন্দন এবং রক্তচাপ বাড়ায়, যা প্রায়শই হাইপোটেনশন নিরাময়ের জন্য ব্যবহৃত হয়।",
+                "hi": "कैटेकोलामाइन हार्मोन होते हैं जो हृदय गति और रक्तचाप बढ़ाते हैं, जिनका उपयोग अक्सर हाइपोटेंशन के इलाज के लिए किया जाता है।",
+                "ur": "کیٹیکولامین ہارمونز ہیں جو دل کی دھڑکن اور بلڈ پریشر کو بڑھاتے ہیں، جو اکثر ہائپوٹینشن کے علاج کے لیے استعمال ہوتے ہیں۔",
+                "tr": "Katekolaminler, kalp atış hızını ve kan basıncını artıran hormonlardır, genellikle hipotansiyonu tedavi etmek için kullanılır."
+            },
+            "points": 10,
+            "id": "e52_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein Vasopressor?",
+                "en": "What is a vasopressor?",
+                "bn": "ভ্যাসোপ্রেসর কী?",
+                "hi": "वासोप्रेसर क्या है?",
+                "ur": "ویسوپریسر کیا ہے؟",
+                "tr": "Vazopresör nedir?"
+            },
+            "options": [
+                "Ein Medikament zur Senkung der Körpertemperatur",
+                "Ein Medikament zur Erhöhung des Blutdrucks",
+                "Ein Medikament zur Beruhigung von Patienten",
+                "Ein Medikament zur Förderung der Diurese"
+            ],
+            "correctAnswer": "Ein Medikament zur Erhöhung des Blutdrucks",
+            "explanation": {
+                "en": "A vasopressor is a medication that raises blood pressure by constricting blood vessels.",
+                "bn": "ভ্যাসোপ্রেসর এমন একটি ওষুধ যা রক্তনালীগুলিকে সংকুচিত করে রক্তচাপ বাড়ায়।",
+                "hi": "वासोप्रेसर एक दवा है जो रक्त वाहिकाओं को संकुचित करके रक्तचाप बढ़ाती है।",
+                "ur": "ویسوپریسر ایک دوا ہے جو خون کی نالیوں کو تنگ کرکے بلڈ پریشر بڑھاتی ہے۔",
+                "tr": "Vazopresör, kan damarlarını daraltarak kan basıncını yükselten bir ilaçtır."
+            },
+            "points": 10,
+            "id": "e52_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welchen Parameter überwacht ein Monitor auf der Intensivstation typischerweise NICHT?",
+                "en": "Which parameter does a monitor in the intensive care unit typically NOT monitor?",
+                "bn": "ইনটেনসিভ কেয়ার ইউনিটে একটি মনিটর সাধারণত কোন প্যারামিটার নিরীক্ষণ করে না?",
+                "hi": "गहन देखभाल इकाई में एक मॉनिटर आमतौर पर किस पैरामीटर की निगरानी नहीं करता है?",
+                "ur": "انٹینسیو کیئر یونٹ میں ایک مانیٹر عام طور پر کس پیرامیٹر کی نگرانی نہیں کرتا ہے؟",
+                "tr": "Yoğun bakım ünitesindeki bir monitör tipik olarak hangi parametreyi izlemez?"
+            },
+            "options": [
+                "Herzfrequenz",
+                "Blutdruck",
+                "Körpergewicht",
+                "Sauerstoffsättigung"
+            ],
+            "correctAnswer": "Körpergewicht",
+            "explanation": {
+                "en": "While monitors track vital signs like heart rate, blood pressure, and oxygen saturation, they don't usually monitor body weight continuously.",
+                "bn": "মনিটর হার্ট রেট, রক্তচাপ এবং অক্সিজেনের স্যাচুরেশনের মতো গুরুত্বপূর্ণ লক্ষণগুলি ট্র্যাক করলেও, তারা সাধারণত শরীরের ওজন ক্রমাগতভাবে নিরীক্ষণ করে না।",
+                "hi": "जबकि मॉनिटर हृदय गति, रक्तचाप और ऑक्सीजन संतृप्ति जैसे महत्वपूर्ण संकेतों को ट्रैक करते हैं, वे आमतौर पर शरीर के वजन की लगातार निगरानी नहीं करते हैं।",
+                "ur": "جبکہ مانیٹر دل کی دھڑکن، بلڈ پریشر اور آکسیجن کی سطح جیسے اہم علامات کو ٹریک کرتے ہیں، لیکن وہ عام طور پر جسمانی وزن کی مسلسل نگرانی نہیں کرتے ہیں۔",
+                "tr": "Monitörler kalp atış hızı, kan basıncı ve oksijen doygunluğu gibi hayati belirtileri takip etse de, genellikle vücut ağırlığını sürekli olarak izlemezler."
+            },
+            "points": 10,
+            "id": "e52_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Ziel der Beatmung?",
+                "en": "What is the goal of mechanical ventilation?",
+                "bn": "মেকানিক্যাল ভেন্টিলেশনের লক্ষ্য কী?",
+                "hi": "यांत्रिक वेंटिलेशन का लक्ष्य क्या है?",
+                "ur": "مکینیکل وینٹیلیشن کا مقصد کیا ہے؟",
+                "tr": "Mekanik ventilasyonun amacı nedir?"
+            },
+            "options": [
+                "Die Körpertemperatur zu senken",
+                "Den Patienten zu sedieren",
+                "Die Sauerstoffversorgung zu verbessern und die Kohlendioxidmenge zu reduzieren",
+                "Die Nierenfunktion zu unterstützen"
+            ],
+            "correctAnswer": "Die Sauerstoffversorgung zu verbessern und die Kohlendioxidmenge zu reduzieren",
+            "explanation": {
+                "en": "Mechanical ventilation aims to improve oxygenation and reduce carbon dioxide levels in the blood.",
+                "bn": "মেকানিক্যাল ভেন্টিলেশনের লক্ষ্য হল রক্তে অক্সিজেনেশন উন্নত করা এবং কার্বন ডাই অক্সাইডের মাত্রা কমানো।",
+                "hi": "यांत्रिक वेंटिलेशन का लक्ष्य रक्त में ऑक्सीजनेशन में सुधार करना और कार्बन डाइऑक्साइड के स्तर को कम करना है।",
+                "ur": "مکینیکل وینٹیلیشن کا مقصد خون میں آکسیجنیشن کو بہتر بنانا اور کاربن ڈائی آکسائیڈ کی سطح کو کم کرنا ہے۔",
+                "tr": "Mekanik ventilasyonun amacı, kandaki oksijenlenmeyi iyileştirmek ve karbondioksit seviyelerini düşürmektir."
+            },
+            "points": 10,
+            "id": "e52_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Substanzen ist KEIN Vasopressor?",
+                "en": "Which of the following substances is NOT a vasopressor?",
+                "bn": "নিম্নলিখিত পদার্থগুলির মধ্যে কোনটি ভ্যাসোপ্রেসর নয়?",
+                "hi": "निम्नलिखित पदार्थों में से कौन सा वासोप्रेसर नहीं है?",
+                "ur": "مندرجہ ذیل مادوں میں سے کون سا ویسوپریسر نہیں ہے؟",
+                "tr": "Aşağıdaki maddelerden hangisi vazopresör değildir?"
+            },
+            "options": [
+                "Norepinephrin",
+                "Dopamin",
+                "Epinephrin",
+                "Paracetamol"
+            ],
+            "correctAnswer": "Paracetamol",
+            "explanation": {
+                "en": "Paracetamol (Acetaminophen) is an analgesic and antipyretic, but it doesn't act as a vasopressor. Norepinephrine, dopamine, and epinephrine do.",
+                "bn": "প্যারাসিটামল (অ্যাসিটামিনোফেন) একটি ব্যথানাশক এবং অ্যান্টিপাইরেটিক, তবে এটি ভ্যাসোপ্রেসর হিসাবে কাজ করে না। নোরপাইনফ্রাইন, ডোপামিন এবং এপিনেফ্রিন করে।",
+                "hi": "पैरासिटामोल (एसिटामिनोफेन) एक एनाल्जेसिक और एंटीपायरेटिक है, लेकिन यह वासोप्रेसर के रूप में कार्य नहीं करता है। नॉरपेनेफ्रिन, डोपामाइन और एपिनेफ्रीन करते हैं।",
+                "ur": "پیراسیٹامول (ایسیٹامینوفین) ایک ینالجیسک اور اینٹی پیریٹک ہے، لیکن یہ ویسوپریسر کے طور پر کام نہیں کرتا ہے۔ نوریپینفرین، ڈوپامائن اور ایپی نیفرین کرتے ہیں۔",
+                "tr": "Parasetamol (Asetaminofen) bir analjezik ve antipiretiktir, ancak vazopresör olarak işlev görmez. Norepinefrin, dopamin ve epinefrin yapar."
+            },
+            "points": 10,
+            "id": "e52_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Art von Patient benötigt am wahrscheinlichsten eine Beatmung?",
+                "en": "Which type of patient is most likely to require ventilation?",
+                "bn": "কোন ধরনের রোগীর ভেন্টিলেশনের প্রয়োজন হওয়ার সম্ভাবনা সবচেয়ে বেশি?",
+                "hi": "किस प्रकार के रोगी को वेंटिलेशन की आवश्यकता होने की सबसे अधिक संभावना है?",
+                "ur": "کس قسم کے مریض کو وینٹیلیشن کی ضرورت ہونے کا امکان سب سے زیادہ ہے؟",
+                "tr": "Hangi tür hastanın ventilasyona ihtiyaç duyma olasılığı daha yüksektir?"
+            },
+            "options": [
+                "Patienten mit einer leichten Erkältung",
+                "Patienten mit schwerem Atemversagen",
+                "Patienten mit gebrochenem Bein",
+                "Patienten mit leichtem Fieber"
+            ],
+            "correctAnswer": "Patienten mit schwerem Atemversagen",
+            "explanation": {
+                "en": "Patients with severe respiratory failure are the most likely to require mechanical ventilation to support their breathing.",
+                "bn": "গুরুতর শ্বাসকষ্টের সমস্যাযুক্ত রোগীদের শ্বাস-প্রশ্বাসকে সমর্থন করার জন্য মেকানিক্যাল ভেন্টিলেশনের প্রয়োজন হওয়ার সম্ভাবনা সবচেয়ে বেশি।",
+                "hi": "गंभीर श्वसन विफलता वाले रोगियों को उनकी सांस लेने में सहायता के लिए यांत्रिक वेंटिलेशन की आवश्यकता होने की सबसे अधिक संभावना है।",
+                "ur": "شدید سانس کی ناکامی والے مریضوں کو ان کی سانس لینے میں مدد کرنے کے لیے میکینیکل وینٹیلیشن کی ضرورت ہونے کا امکان سب سے زیادہ ہوتا ہے۔",
+                "tr": "Şiddetli solunum yetmezliği olan hastaların solunumlarını desteklemek için mekanik ventilasyona ihtiyaç duyma olasılığı daha yüksektir."
+            },
+            "points": 10,
+            "id": "e52_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist der Zweck der Überwachung des zentralvenösen Drucks (ZVD) auf der Intensivstation?",
+                "en": "What is the purpose of monitoring central venous pressure (CVP) in the intensive care unit?",
+                "bn": "ইনটেনসিভ কেয়ার ইউনিটে সেন্ট্রাল ভেনাস প্রেসার (সিভিপি) নিরীক্ষণের উদ্দেশ্য কী?",
+                "hi": "गहन देखभाल इकाई में केंद्रीय शिरापरक दबाव (सीवीपी) की निगरानी का उद्देश्य क्या है?",
+                "ur": "انٹینسیو کیئر یونٹ میں مرکزی وینس پریشر (سی وی پی) کی نگرانی کا مقصد کیا ہے؟",
+                "tr": "Yoğun bakım ünitesinde santral venöz basıncı (CVP) izlemenin amacı nedir?"
+            },
+            "options": [
+                "Um die Schmerzkontrolle zu beurteilen",
+                "Um das Infektionsrisiko zu minimieren",
+                "Um den Flüssigkeitshaushalt und die Herzfunktion zu beurteilen",
+                "Um die Hirnaktivität zu überwachen"
+            ],
+            "correctAnswer": "Um den Flüssigkeitshaushalt und die Herzfunktion zu beurteilen",
+            "explanation": {
+                "en": "CVP monitoring helps assess a patient's fluid status and heart function, which are crucial for managing critically ill patients.",
+                "bn": "সিভিপি মনিটরিং একজন রোগীর তরল স্থিতি এবং হৃদরোগের কার্যকারিতা মূল্যায়ন করতে সহায়তা করে, যা গুরুতর অসুস্থ রোগীদের পরিচালনার জন্য অত্যন্ত গুরুত্বপূর্ণ।",
+                "hi": "सीवीपी मॉनिटरिंग एक रोगी की तरल स्थिति और हृदय समारोह का आकलन करने में मदद करता है, जो गंभीर रूप से बीमार रोगियों के प्रबंधन के लिए महत्वपूर्ण हैं।",
+                "ur": "سی وی پی مانیٹرنگ مریض کی سیال کی حالت اور دل کے کام کا اندازہ لگانے میں مدد کرتی ہے، جو کہ شدید بیمار مریضوں کے انتظام کے لیے بہت اہم ہے۔",
+                "tr": "CVP izleme, kritik durumdaki hastaların yönetimi için çok önemli olan bir hastanın sıvı durumunu ve kalp fonksiyonunu değerlendirmeye yardımcı olur."
+            },
+            "points": 10,
+            "id": "e52_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist eine häufige Komplikation bei längerer Beatmung?",
+                "en": "What is a common complication of prolonged mechanical ventilation?",
+                "bn": "দীর্ঘায়িত মেকানিক্যাল ভেন্টিলেশনের একটি সাধারণ জটিলতা কী?",
+                "hi": "लंबे समय तक यांत्रिक वेंटिलेशन की एक सामान्य जटिलता क्या है?",
+                "ur": "طویل میکینیکل وینٹیلیشن کی ایک عام پیچیدگی کیا ہے؟",
+                "tr": "Uzun süreli mekanik ventilasyonun yaygın bir komplikasyonu nedir?"
+            },
+            "options": [
+                "Verbesserte Muskelkraft",
+                "Ventilatorassoziierte Pneumonie (VAP)",
+                "Erhöhte Nierenfunktion",
+                "Geringeres Risiko für Blutgerinnsel"
+            ],
+            "correctAnswer": "Ventilatorassoziierte Pneumonie (VAP)",
+            "explanation": {
+                "en": "Ventilator-associated pneumonia (VAP) is a common complication of prolonged mechanical ventilation due to the introduction of bacteria into the lungs.",
+                "bn": "ভেন্টিলেটর-অ্যাসোসিয়েটেড নিউমোনিয়া (ভিএপি) হল ফুসফুসে ব্যাকটেরিয়া প্রবেশের কারণে দীর্ঘায়িত মেকানিক্যাল ভেন্টিলেশনের একটি সাধারণ জটিলতা।",
+                "hi": "वेंटिलेटर-एसोसिएटेड निमोनिया (वीएपी) फेफड़ों में बैक्टीरिया के प्रवेश के कारण लंबे समय तक यांत्रिक वेंटिलेशन की एक सामान्य जटिलता है।",
+                "ur": "وینٹیلیٹر سے منسلک نمونیا (وی اے پی) پھیپھڑوں میں بیکٹیریا کے داخل ہونے کی وجہ سے طویل میکینیکل وینٹیلیشن کی ایک عام پیچیدگی ہے۔",
+                "tr": "Ventilatör kaynaklı pnömoni (VAP), akciğerlere bakteri girmesi nedeniyle uzun süreli mekanik ventilasyonun yaygın bir komplikasyonudur."
+            },
+            "points": 10,
+            "id": "e52_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Der Begriff __________ bezieht sich auf die künstliche Unterstützung der Atmung.",
+                "en": "The term __________ refers to the artificial support of breathing.",
+                "bn": "__________ শব্দটি শ্বাস-প্রশ্বাসের কৃত্রিম সমর্থন বোঝায়।",
+                "hi": "__________ शब्द सांस लेने के कृत्रिम समर्थन को संदर्भित करता है।",
+                "ur": "__________ کی اصطلاح سانس لینے کی مصنوعی مدد سے مراد ہے۔",
+                "tr": "__________ terimi, solunumun yapay olarak desteklenmesi anlamına gelir."
+            },
+            "options": [],
+            "correctAnswer": "Beatmung",
+            "explanation": {
+                "en": "The term 'ventilation' (Beatmung) refers to the artificial support of breathing.",
+                "bn": "'ভেন্টিলেশন' (Beatmung) শব্দটি শ্বাস-প্রশ্বাসের কৃত্রিম সমর্থন বোঝায়।",
+                "hi": "'वेंटिलेशन' (Beatmung) शब्द सांस लेने के कृत्रिम समर्थन को संदर्भित करता है।",
+                "ur": "'وینٹیلیشن' (Beatmung) کی اصطلاح سانس لینے کی مصنوعی مدد سے مراد ہے۔",
+                "tr": "'Ventilasyon' (Beatmung) terimi, solunumun yapay olarak desteklenmesi anlamına gelir."
+            },
+            "points": 10,
+            "id": "e52_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "__________ werden verwendet, um den Blutdruck bei kritisch kranken Patienten zu erhöhen.",
+                "en": "__________ are used to increase blood pressure in critically ill patients.",
+                "bn": "গুরুতর অসুস্থ রোগীদের রক্তচাপ বাড়ানোর জন্য __________ ব্যবহৃত হয়।",
+                "hi": "गंभीर रूप से बीमार रोगियों में रक्तचाप बढ़ाने के लिए __________ का उपयोग किया जाता है।",
+                "ur": "شدید بیمار مریضوں میں بلڈ پریشر بڑھانے کے لیے __________ استعمال ہوتے ہیں۔",
+                "tr": "Ağır hasta hastalarda kan basıncını artırmak için __________ kullanılır."
+            },
+            "options": [],
+            "correctAnswer": "Vasopressoren",
+            "explanation": {
+                "en": "Vasopressors are used to increase blood pressure in critically ill patients.",
+                "bn": "গুরুতর অসুস্থ রোগীদের রক্তচাপ বাড়ানোর জন্য ভ্যাসোপ্রেসর ব্যবহৃত হয়।",
+                "hi": "गंभीर रूप से बीमार रोगियों में रक्तचाप बढ़ाने के लिए वासोप्रेसर का उपयोग किया जाता है।",
+                "ur": "شدید بیمار مریضوں میں بلڈ پریشر بڑھانے کے لیے ویسوپریسر استعمال ہوتے ہیں۔",
+                "tr": "Ağır hasta hastalarda kan basıncını artırmak için vazopresörler kullanılır."
+            },
+            "points": 10,
+            "id": "e52_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "__________ ist die Reduktion von Bewusstsein und Angst durch Medikamente.",
+                "en": "__________ is the reduction of consciousness and anxiety through medication.",
+                "bn": "__________ হল ওষুধের মাধ্যমে চেতনা এবং উদ্বেগের হ্রাস।",
+                "hi": "__________ दवा के माध्यम से चेतना और चिंता में कमी है।",
+                "ur": "__________ دوا کے ذریعے شعور اور اضطراب میں کمی ہے۔",
+                "tr": "__________ ilaç yoluyla bilinç ve kaygının azaltılmasıdır."
+            },
+            "options": [],
+            "correctAnswer": "Sedierung",
+            "explanation": {
+                "en": "Sedation is the reduction of consciousness and anxiety through medication.",
+                "bn": "সেডেশন হল ওষুধের মাধ্যমে চেতনা এবং উদ্বেগের হ্রাস।",
+                "hi": "सेडेशन दवा के माध्यम से चेतना और चिंता में कमी है।",
+                "ur": "سیڈیشن دوا کے ذریعے شعور اور اضطراب میں کمی ہے۔",
+                "tr": "Sedasyon, ilaç yoluyla bilinç ve kaygının azaltılmasıdır."
+            },
+            "points": 10,
+            "id": "e52_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein __________ überwacht kontinuierlich die Vitalfunktionen des Patienten.",
+                "en": "A __________ continuously monitors the patient's vital signs.",
+                "bn": "একটি __________ ক্রমাগত রোগীর অত্যাবশ্যক লক্ষণ নিরীক্ষণ করে।",
+                "hi": "एक __________ लगातार रोगी के महत्वपूर्ण लक्षणों की निगरानी करता है।",
+                "ur": "ایک __________ مسلسل مریض کی اہم علامات کی نگرانی کرتا ہے۔",
+                "tr": "Bir __________ sürekli olarak hastanın hayati belirtilerini izler."
+            },
+            "options": [],
+            "correctAnswer": "Monitor",
+            "explanation": {
+                "en": "A monitor continuously monitors the patient's vital signs.",
+                "bn": "একটি মনিটর ক্রমাগত রোগীর অত্যাবশ্যক লক্ষণ নিরীক্ষণ করে।",
+                "hi": "एक मॉनिटर लगातार रोगी के महत्वपूर्ण लक्षणों की निगरानी करता है।",
+                "ur": "ایک مانیٹر مسلسل مریض کی اہم علامات کی نگرانی کرتا ہے۔",
+                "tr": "Bir monitör sürekli olarak hastanın hayati belirtilerini izler."
+            },
+            "points": 10,
+            "id": "e52_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "__________ sind Hormone, die den Blutdruck und die Herzfrequenz erhöhen können.",
+                "en": "__________ are hormones that can increase blood pressure and heart rate.",
+                "bn": "__________ হল হরমোন যা রক্তচাপ এবং হৃদস্পন্দন বাড়াতে পারে।",
+                "hi": "__________ हार्मोन हैं जो रक्तचाप और हृदय गति को बढ़ा सकते हैं।",
+                "ur": "__________ ہارمونز ہیں جو بلڈ پریشر اور دل کی دھڑکن کو بڑھا سکتے ہیں۔",
+                "tr": "__________ kan basıncını ve kalp atış hızını artırabilen hormonlardır."
+            },
+            "options": [],
+            "correctAnswer": "Katecholamine",
+            "explanation": {
+                "en": "Catecholamines are hormones that can increase blood pressure and heart rate.",
+                "bn": "ক্যাটাচোলামাইন হল হরমোন যা রক্তচাপ এবং হৃদস্পন্দন বাড়াতে পারে।",
+                "hi": "कैटेकोलामाइन हार्मोन हैं जो रक्तचाप और हृदय गति को बढ़ा सकते हैं।",
+                "ur": "کیٹیکولامین ہارمونز ہیں جو بلڈ پریشر اور دل کی دھڑکن کو بڑھا سکتے ہیں۔",
+                "tr": "Katekolaminler kan basıncını ve kalp atış hızını artırabilen hormonlardır."
+            },
+            "points": 10,
+            "id": "e52_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Der Patient befindet sich auf der Intensivstation und wird beatmet.",
+                "en": "The patient is in the intensive care unit and is on a ventilator.",
+                "bn": "রোগী ইনটেনসিভ কেয়ার ইউনিটে আছেন এবং ভেন্টিলেটরে আছেন।",
+                "hi": "मरीज गहन देखभाल इकाई में है और वेंटिलेटर पर है।",
+                "ur": "مریض انتہائی نگہداشت یونٹ میں ہے اور وینٹی لیٹر پر ہے۔",
+                "tr": "Hasta yoğun bakım ünitesinde ve ventilatörde."
+            },
+            "options": [],
+            "correctAnswer": "The patient is in the intensive care unit and is on a ventilator.",
+            "explanation": {
+                "en": "Direct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সরাসরি অনুবাদ।",
+                "hi": "जर्मन वाक्य का सीधा अनुवाद।",
+                "ur": "جرمن جملے کا براہ راست ترجمہ۔",
+                "tr": "Almanca cümlenin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e52_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Wir müssen den Blutdruck des Patienten mit Vasopressoren stabilisieren.",
+                "en": "We need to stabilize the patient's blood pressure with vasopressors.",
+                "bn": "আমাদের ভ্যাসোপ্রেসর দিয়ে রোগীর রক্তচাপ স্থিতিশীল করতে হবে।",
+                "hi": "हमें वासोप्रेसर के साथ रोगी के रक्तचाप को स्थिर करने की आवश्यकता है।",
+                "ur": "ہمیں ویسوپریسرز سے مریض کے بلڈ پریشر کو مستحکم کرنے کی ضرورت ہے۔",
+                "tr": "Hastanın kan basıncını vazopresörlerle stabilize etmemiz gerekiyor."
+            },
+            "options": [],
+            "correctAnswer": "We need to stabilize the patient's blood pressure with vasopressors.",
+            "explanation": {
+                "en": "Direct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সরাসরি অনুবাদ।",
+                "hi": "जर्मन वाक्य का सीधा अनुवाद।",
+                "ur": "جرمن جملے کا براہ راست ترجمہ۔",
+                "tr": "Almanca cümlenin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e52_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Der Patient wird sediert, um die Beatmung zu tolerieren.",
+                "en": "The patient is being sedated to tolerate the ventilation.",
+                "bn": "রোগীকে ভেন্টিলেশন সহ্য করার জন্য সেডেট করা হচ্ছে।",
+                "hi": "वेंटिलेशन को सहन करने के लिए रोगी को शांत किया जा रहा है।",
+                "ur": "مریض کو وینٹیلیشن برداشت کرنے کے لیے پرسکون کیا جا رہا ہے۔",
+                "tr": "Hasta, ventilasyonu tolere etmek için sakinleştiriliyor."
+            },
+            "options": [],
+            "correctAnswer": "The patient is being sedated to tolerate the ventilation.",
+            "explanation": {
+                "en": "Direct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সরাসরি অনুবাদ।",
+                "hi": "जर्मन वाक्य का सीधा अनुवाद।",
+                "ur": "جرمن جملے کا براہ راست ترجمہ۔",
+                "tr": "Almanca cümlenin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e52_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

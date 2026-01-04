@@ -1,1 +1,1626 @@
-{"id":"section_48","phaseId":"phase3","order":48,"titleDe":"Urologie","title":{"en":"Urology","bn":"Urology","hi":"Urology","ur":"Urology","tr":"Urology"},"level":"C1","estimatedMinutes":45,"vocabulary":[{"id":"v48_01","germanTerm":"Fachwort","article":"das","plural":"Fachwörter","translation":{"en":"Specialist Term","bn":"বিশেষজ্ঞ শব্দ","hi":"विशेषज्ञ शब्द","ur":"ماہر اصطلاح","tr":"Uzman terimi"}}],"dialogues":[{"id":"d48_01","title":{"en":"Urology Scenario"},"lines":[{"speaker":"Facharzt","germanText":"Clinical dialogue for Urology.","translation":{"en":"Clinical dialogue for Urology."}}]}],"exercises":[{"id":"e48_01","type":"multipleChoice","question":{"en":"Question about Urology?"},"options":["A","B","C"],"correctAnswer":"A","points":15}],"media":{"introVideoUrl":"video/sections/section_48/intro.mp4","dialogueVideoUrl":"video/sections/section_48/dialogue.mp4"}}
+{
+    "id": "section_48",
+    "phaseId": "phase3",
+    "order": 48,
+    "titleDe": "Urologie",
+    "title": {
+        "en": "Urology: Kidney, Bladder, Prostate, UTI, Catheter, Dialysis, Nephrology",
+        "bn": "ইউরোলজি: কিডনি, মূত্রাশয়, প্রোস্টেট, ইউটিআই, ক্যাথেটার, ডায়ালাইসিস, নেফ্রোলজি",
+        "hi": "मूत्रविज्ञान: गुर्दे, मूत्राशय, प्रोस्टेट, यूटीआई, कैथेटर, डायलिसिस, नेफ्रोलॉजी",
+        "ur": "یورولوجی: گردہ، مثانہ، غدود پروستات، یو ٹی آئی، کیتھیٹر، ڈائیلاسز، نفرولوجی",
+        "tr": "Üroloji: Böbrek, Mesane, Prostat, İYE, Kateter, Diyaliz, Nefroloji",
+        "de": "Urologie: Niere, Blase, Prostata, Harnwegsinfekt, Katheter, Dialyse, Nephrologie"
+    },
+    "description": {
+        "en": "This section covers essential German medical terminology related to the urinary system and its associated conditions and treatments.",
+        "bn": "এই বিভাগে মূত্রতন্ত্র এবং এর সাথে সম্পর্কিত অবস্থা এবং চিকিত্সা সম্পর্কিত প্রয়োজনীয় জার্মান চিকিৎসা পরিভাষা অন্তর্ভুক্ত রয়েছে।",
+        "hi": "यह खंड मूत्र प्रणाली और उससे जुड़ी स्थितियों और उपचारों से संबंधित आवश्यक जर्मन चिकित्सा शब्दावली को कवर करता है।",
+        "ur": "اس سیکشن میں نظامِ بول اور اس سے وابستہ حالات اور علاج سے متعلق ضروری جرمن طبی اصطلاحات کا احاطہ کیا گیا ہے۔",
+        "tr": "Bu bölüm, üriner sistem ve ilgili durumları ve tedavileri ile ilgili temel Almanca tıbbi terminolojiyi kapsar.",
+        "de": "Dieser Abschnitt behandelt die wesentliche deutsche medizinische Terminologie im Zusammenhang mit dem Harntrakt und den damit verbundenen Erkrankungen und Behandlungen."
+    },
+    "level": "C1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, you will learn the key German terms for the organs of the urinary system and common urological conditions. You will also explore treatments like catheterization and dialysis and related nephrological concepts.",
+            "bn": "এই বিভাগে, আপনি মূত্রতন্ত্রের অঙ্গ এবং সাধারণ ইউরোলজিকাল অবস্থার জন্য মূল জার্মান শব্দ শিখবেন। আপনি ক্যাথেটারাইজেশন এবং ডায়ালাইসিসের মতো চিকিত্সা এবং সম্পর্কিত নেফ্রোলজিকাল ধারণাগুলিও অন্বেষণ করবেন।",
+            "hi": "इस खंड में, आप मूत्र प्रणाली के अंगों और सामान्य मूत्र संबंधी स्थितियों के लिए प्रमुख जर्मन शब्द सीखेंगे। आप कैथीटेराइजेशन और डायलिसिस जैसे उपचारों और संबंधित नेफ्रोलॉजिकल अवधारणाओं का भी पता लगाएंगे।",
+            "ur": "اس سیکشن میں، آپ نظامِ بول کے اعضاء اور عام یورولوجیکل حالات کے لیے اہم جرمن اصطلاحات سیکھیں گے۔ آپ کیتھیٹرائزیشن اور ڈائیلاسز جیسے علاج اور متعلقہ نیفرولوجیکل تصورات کو بھی دریافت کریں گے۔",
+            "tr": "Bu bölümde, üriner sistem organları ve yaygın ürolojik durumlar için temel Almanca terimleri öğreneceksiniz. Ayrıca kateterizasyon ve diyaliz gibi tedavileri ve ilgili nefrolojik kavramları da keşfedeceksiniz.",
+            "de": "In diesem Abschnitt lernen Sie die wichtigsten deutschen Begriffe für die Organe des Harntrakts und häufige urologische Erkrankungen. Sie werden auch Behandlungen wie Katheterisierung und Dialyse und verwandte nephrologische Konzepte untersuchen."
+        },
+        "grammarFocus": {
+            "en": {
+                "point1": "Use of definite articles (der, die, das) with organ names and medical conditions.",
+                "point2": "Understanding the genitive case when describing relationships (e.g., 'die Funktion der Niere' - the function of the kidney)."
+            },
+            "bn": {
+                "point1": "অঙ্গ এবং চিকিৎসা অবস্থার নামের সাথে নির্দিষ্ট নিবন্ধগুলির ব্যবহার (der, die, das)।",
+                "point2": "সম্পর্ক বর্ণনা করার সময় জেনেটিভ কেস বোঝা ('die Funktion der Niere' - কিডনির কাজ)।"
+            },
+            "hi": {
+                "point1": "अंगों और चिकित्सा स्थितियों के नामों के साथ निश्चित लेखों (der, die, das) का उपयोग।",
+                "point2": "संबंधों का वर्णन करते समय जेनिटिव मामले को समझना ('die Funktion der Niere' - गुर्दे का कार्य)।"
+            },
+            "ur": {
+                "point1": "اعضاء اور طبی حالات کے ناموں کے ساتھ معین مضامین (der, die, das) کا استعمال۔",
+                "point2": "تعلقات کو بیان کرتے وقت جینیٹو کیس کو سمجھنا ('die Funktion der Niere' - گردے کا فعل)۔"
+            },
+            "tr": {
+                "point1": "Organ adları ve tıbbi durumlarla belirli artikellerin (der, die, das) kullanımı.",
+                "point2": "İlişkileri açıklarken genitif halini anlamak ('die Funktion der Niere' - böbreğin fonksiyonu)."
+            },
+            "de": {
+                "point1": "Verwendung von bestimmten Artikeln (der, die, das) bei Organbezeichnungen und medizinischen Zuständen.",
+                "point2": "Verständnis des Genitivs zur Beschreibung von Beziehungen (z.B. 'die Funktion der Niere')."
+            }
+        },
+        "culturalNotes": {
+            "en": "In German hospitals, patient education regarding urological conditions is often provided through detailed written materials and one-on-one consultations with doctors or specialized nurses.",
+            "bn": "জার্মান হাসপাতালগুলিতে, ইউরোলজিকাল অবস্থার বিষয়ে রোগীর শিক্ষা প্রায়শই বিস্তারিত লিখিত উপকরণ এবং ডাক্তার বা বিশেষায়িত নার্সদের সাথে এক-এক পরামর্শের মাধ্যমে সরবরাহ করা হয়।",
+            "hi": "जर्मन अस्पतालों में, मूत्र संबंधी स्थितियों के बारे में रोगी शिक्षा अक्सर विस्तृत लिखित सामग्री और डॉक्टरों या विशेषज्ञ नर्सों के साथ व्यक्तिगत परामर्श के माध्यम से प्रदान की जाती है।",
+            "ur": "جرمن ہسپتالوں میں، یورولوجیکل حالات کے بارے میں مریض کی تعلیم اکثر تفصیلی تحریری مواد اور ڈاکٹروں یا ماہر نرسوں کے ساتھ ون آن ون مشاورت کے ذریعے فراہم کی جاتی ہے۔",
+            "tr": "Alman hastanelerinde, ürolojik durumlarla ilgili hasta eğitimi genellikle ayrıntılı yazılı materyaller ve doktorlar veya uzman hemşirelerle bire bir görüşmeler yoluyla sağlanır.",
+            "de": "In deutschen Krankenhäusern erfolgt die Patientenaufklärung über urologische Erkrankungen häufig durch detaillierte schriftliche Unterlagen und Einzelgespräche mit Ärzten oder spezialisierten Pflegekräften."
+        },
+        "summary": {
+            "en": "This section provides a foundational understanding of German medical vocabulary related to the urinary system, including organs, common conditions, and treatments.",
+            "bn": "এই বিভাগটি অঙ্গ, সাধারণ অবস্থা এবং চিকিত্সা সহ মূত্রতন্ত্র সম্পর্কিত জার্মান চিকিৎসা শব্দভান্ডারের একটি মৌলিক ধারণা প্রদান করে।",
+            "hi": "यह खंड मूत्र प्रणाली से संबंधित जर्मन चिकित्सा शब्दावली की एक मूलभूत समझ प्रदान करता है, जिसमें अंग, सामान्य स्थिति और उपचार शामिल हैं।",
+            "ur": "اس سیکشن میں نظامِ بول سے متعلق جرمن طبی الفاظ کی ایک بنیادی سمجھ فراہم کی گئی ہے، جس میں اعضاء، عام حالات اور علاج شامل ہیں۔",
+            "tr": "Bu bölüm, organlar, yaygın durumlar ve tedaviler dahil olmak üzere üriner sistemle ilgili Almanca tıbbi kelime dağarcığı hakkında temel bir anlayış sağlar.",
+            "de": "Dieser Abschnitt bietet ein grundlegendes Verständnis des deutschen medizinischen Vokabulars im Zusammenhang mit dem Harntrakt, einschließlich Organen, häufigen Erkrankungen und Behandlungen."
+        },
+        "learningObjectives": [
+            "Identify the German terms for key organs of the urinary system (kidney, bladder, prostate).",
+            "Recognize common urological conditions and their treatments in German.",
+            "Understand vocabulary related to catheterization, dialysis, and nephrology.",
+            "Apply relevant grammatical structures when discussing urological topics in German."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "die Niere",
+            "article": "die",
+            "plural": "die Nieren",
+            "pronunciation": "ˈniːʁə",
+            "category": "noun",
+            "translation": {
+                "en": "kidney",
+                "bn": "বৃক্ক (Brikko)",
+                "hi": "गुर्दा (Gurda)",
+                "ur": "گردہ (Gurda)",
+                "tr": "böbrek"
+            },
+            "exampleSentence": "Der Patient klagt über Schmerzen in der Nierengegend.",
+            "exampleTranslation": {
+                "en": "The patient complains of pain in the kidney area.",
+                "bn": "রোগী কিডনি অঞ্চলে ব্যথার অভিযোগ করছেন।",
+                "hi": "मरीज गुर्दे के क्षेत्र में दर्द की शिकायत कर रहा है।",
+                "ur": "مریض گردے کے علاقے میں درد کی شکایت کر رہا ہے۔",
+                "tr": "Hasta böbrek bölgesinde ağrıdan şikayet ediyor."
+            },
+            "id": "v48_01"
+        },
+        {
+            "germanTerm": "die Blase",
+            "article": "die",
+            "plural": "die Blasen",
+            "pronunciation": "ˈblaːzə",
+            "category": "noun",
+            "translation": {
+                "en": "bladder",
+                "bn": "মূত্রাশয় (Mutrashoy)",
+                "hi": "मूत्राशय (Mutrashay)",
+                "ur": "مثانہ (Masana)",
+                "tr": "mesane"
+            },
+            "exampleSentence": "Die Blase des Patienten ist stark gefüllt.",
+            "exampleTranslation": {
+                "en": "The patient's bladder is very full.",
+                "bn": "রোগীর মূত্রাশয় খুব পরিপূর্ণ।",
+                "hi": "मरीज का मूत्राशय बहुत भरा हुआ है।",
+                "ur": "مریض کا مثانہ بہت بھرا ہوا ہے۔",
+                "tr": "Hastanın mesanesi çok dolu."
+            },
+            "id": "v48_02"
+        },
+        {
+            "germanTerm": "die Prostata",
+            "article": "die",
+            "plural": "die Prostatae/Prostatas",
+            "pronunciation": "ˈpʁoːstata",
+            "category": "noun",
+            "translation": {
+                "en": "prostate",
+                "bn": "প্রস্টেট (Prosteṭ)",
+                "hi": "प्रोस्टेट (Prosteṭ)",
+                "ur": "غدہ قدامی (Ghadda-e-Qudami)",
+                "tr": "prostat"
+            },
+            "exampleSentence": "Die Prostata ist vergrößert und verursacht Beschwerden beim Wasserlassen.",
+            "exampleTranslation": {
+                "en": "The prostate is enlarged and causes discomfort when urinating.",
+                "bn": "প্রস্টেট বড় হয়ে গেছে এবং প্রস্রাবের সময় অস্বস্তি সৃষ্টি করছে।",
+                "hi": "प्रोस्टेट बढ़ गया है और पेशाब करते समय असुविधा पैदा कर रहा है।",
+                "ur": "غدہ قدامی بڑھ گیا ہے اور پیشاب کرتے وقت تکلیف کا باعث بن رہا ہے۔",
+                "tr": "Prostat büyümüş ve idrar yaparken rahatsızlığa neden oluyor."
+            },
+            "id": "v48_03"
+        },
+        {
+            "germanTerm": "der Harnwegsinfekt",
+            "article": "der",
+            "plural": "die Harnwegsinfekte",
+            "pronunciation": "ˈhaʁnveːkʔɪnfɛkt",
+            "category": "noun",
+            "translation": {
+                "en": "urinary tract infection (UTI)",
+                "bn": "মূত্রনালীর সংক্রমণ (Mutranalir Sonkromon)",
+                "hi": "मूत्र मार्ग संक्रमण (Mutra Marg Sankraman)",
+                "ur": "پیشاب کی نالی کا انفیکشن (Peshab Ki Nali Ka Infection)",
+                "tr": "idrar yolu enfeksiyonu"
+            },
+            "exampleSentence": "Die Patientin hat einen Harnwegsinfekt mit Fieber.",
+            "exampleTranslation": {
+                "en": "The patient has a urinary tract infection with fever.",
+                "bn": "রোগীর জ্বর সহ মূত্রনালীর সংক্রমণ হয়েছে।",
+                "hi": "मरीज को बुखार के साथ मूत्र मार्ग संक्रमण है।",
+                "ur": "مریض کو بخار کے ساتھ پیشاب کی نالی کا انفیکشن ہے۔",
+                "tr": "Hastada ateşle birlikte idrar yolu enfeksiyonu var."
+            },
+            "id": "v48_04"
+        },
+        {
+            "germanTerm": "der Katheter",
+            "article": "der",
+            "plural": "die Katheter",
+            "pronunciation": "kaˈteːtɐ",
+            "category": "noun",
+            "translation": {
+                "en": "catheter",
+                "bn": "ক্যাথেটার (Kyatheter)",
+                "hi": "कैथेटर (Kaithater)",
+                "ur": "نلکی (Nalki)",
+                "tr": "kateter"
+            },
+            "exampleSentence": "Der Katheter wurde gelegt, um den Urin abzuleiten.",
+            "exampleTranslation": {
+                "en": "The catheter was inserted to drain the urine.",
+                "bn": "প্রস্রাব নিষ্কাশনের জন্য ক্যাথেটার স্থাপন করা হয়েছিল।",
+                "hi": "पेशाब निकालने के लिए कैथेटर डाला गया था।",
+                "ur": "پیشاب نکالنے کے لئے نلکی ڈالی گئی تھی۔",
+                "tr": "İdrarı boşaltmak için kateter yerleştirildi."
+            },
+            "id": "v48_05"
+        },
+        {
+            "germanTerm": "die Dialyse",
+            "article": "die",
+            "plural": "die Dialysen",
+            "pronunciation": "di̯aˈlyːzə",
+            "category": "noun",
+            "translation": {
+                "en": "dialysis",
+                "bn": "ডায়ালাইসিস (Ḍayalaisis)",
+                "hi": "डायलिसिस (Ḍayalisis)",
+                "ur": "غسيل (Ghasil)",
+                "tr": "diyaliz"
+            },
+            "exampleSentence": "Der Patient benötigt aufgrund von Nierenversagen eine Dialyse.",
+            "exampleTranslation": {
+                "en": "The patient requires dialysis due to kidney failure.",
+                "bn": "কিডনি বিকল হওয়ার কারণে রোগীর ডায়ালাইসিস প্রয়োজন।",
+                "hi": "गुर्दे की विफलता के कारण मरीज को डायलिसिस की आवश्यकता है।",
+                "ur": "گردے کی خرابی کی وجہ سے مریض کو غسيل کی ضرورت ہے۔",
+                "tr": "Hasta böbrek yetmezliği nedeniyle diyalize ihtiyaç duyuyor."
+            },
+            "id": "v48_06"
+        },
+        {
+            "germanTerm": "die Nephrologie",
+            "article": "die",
+            "plural": "die Nephrologien",
+            "pronunciation": "nɛfroloˈɡiː",
+            "category": "noun",
+            "translation": {
+                "en": "nephrology",
+                "bn": "নেফ্রোলজি (Nephrology)",
+                "hi": "नेफ्रोलॉजी (Nephrology)",
+                "ur": "علم امراض گردہ (Ilm Amraz Gurda)",
+                "tr": "nefroloji"
+            },
+            "exampleSentence": "Sie ist Fachärztin für Nephrologie.",
+            "exampleTranslation": {
+                "en": "She is a specialist in nephrology.",
+                "bn": "তিনি নেফ্রোলজিতে বিশেষজ্ঞ চিকিৎসক।",
+                "hi": "वह नेफ्रोलॉजी में विशेषज्ञ चिकित्सक हैं।",
+                "ur": "وہ علم امراض گردہ میں ماہر ڈاکٹر ہیں۔",
+                "tr": "O, nefroloji uzmanı bir doktor."
+            },
+            "id": "v48_07"
+        },
+        {
+            "germanTerm": "das Urothelkarzinom",
+            "article": "das",
+            "plural": "die Urothelkarzinome",
+            "pronunciation": "u̯oːtelkaʁtsiˈnoːm",
+            "category": "noun",
+            "translation": {
+                "en": "urothelial carcinoma",
+                "bn": "ইউরোথেলিয়াল কার্সিনোমা (Eurothelial Karsinoma)",
+                "hi": "यूरोटेलियल कार्सिनोमा (Eurotelial Karsinoma)",
+                "ur": "یوروتھیلیل کارسنوما (Urothelial Carcinoma)",
+                "tr": "ürotelyal karsinom"
+            },
+            "exampleSentence": "Das Urothelkarzinom wurde in der Blase diagnostiziert.",
+            "exampleTranslation": {
+                "en": "The urothelial carcinoma was diagnosed in the bladder.",
+                "bn": "মূত্রাশয়ে ইউরোথেলিয়াল কার্সিনোমা নির্ণয় করা হয়েছে।",
+                "hi": "मूत्राशय में यूरोटेलियल कार्सिनोमा का निदान किया गया।",
+                "ur": "مثانے میں یوروتھیلیل کارسنوما کی تشخیص ہوئی ہے۔",
+                "tr": "Ürotelyal karsinom mesanede teşhis edildi."
+            },
+            "id": "v48_08"
+        },
+        {
+            "germanTerm": "die Zystoskopie",
+            "article": "die",
+            "plural": "die Zystoskopien",
+            "pronunciation": "tsʏstoˈskoːpiː",
+            "category": "noun",
+            "translation": {
+                "en": "cystoscopy",
+                "bn": "সিস্টোস্কোপি (Sistoskopi)",
+                "hi": "सिस्टोस्कोपी (Sistoskopi)",
+                "ur": "سیستوسکوپی (Cystoscopy)",
+                "tr": "sistoskopi"
+            },
+            "exampleSentence": "Die Zystoskopie dient der Untersuchung der Blase.",
+            "exampleTranslation": {
+                "en": "Cystoscopy is used to examine the bladder.",
+                "bn": "সিস্টোস্কোপি মূত্রাশয় পরীক্ষার জন্য ব্যবহৃত হয়।",
+                "hi": "सिस्टोस्कोपी मूत्राशय की जांच के लिए प्रयोग किया जाता है।",
+                "ur": "سیستوسکوپی مثانے کی جانچ کے لئے استعمال کیا جاتا ہے۔",
+                "tr": "Sistoskopi mesaneyi incelemek için kullanılır."
+            },
+            "id": "v48_09"
+        },
+        {
+            "germanTerm": "die Harnröhre",
+            "article": "die",
+            "plural": "die Harnröhren",
+            "pronunciation": "ˈhaʁnˌʁøːʁə",
+            "category": "noun",
+            "translation": {
+                "en": "urethra",
+                "bn": "মূত্রনালী (Mutranali)",
+                "hi": "मूत्रमार्ग (Mutramarg)",
+                "ur": "نالیِ بول (Nali-e-Bol)",
+                "tr": "üretra"
+            },
+            "exampleSentence": "Die Harnröhre ist entzündet.",
+            "exampleTranslation": {
+                "en": "The urethra is inflamed.",
+                "bn": "মূত্রনালী প্রদাহযুক্ত।",
+                "hi": "मूत्रमार्ग में सूजन है।",
+                "ur": "نالیِ بول میں سوزش ہے۔",
+                "tr": "Üretra iltihaplanmış."
+            },
+            "id": "v48_10"
+        },
+        {
+            "germanTerm": "die Inkontinenz",
+            "article": "die",
+            "plural": "die Inkontinenzen",
+            "pronunciation": "ɪnkɔntiˈnɛnt͡s",
+            "category": "noun",
+            "translation": {
+                "en": "incontinence",
+                "bn": "অসংযম (Osongjom)",
+                "hi": "असंयम (Asanyam)",
+                "ur": "بے اختیاری (Bay Ikhtiyari)",
+                "tr": "inkontinans"
+            },
+            "exampleSentence": "Der Patient leidet unter Inkontinenz.",
+            "exampleTranslation": {
+                "en": "The patient suffers from incontinence.",
+                "bn": "রোগী অসংযমে ভুগছেন।",
+                "hi": "मरीज असंयम से पीड़ित है।",
+                "ur": "مریض بے اختیاری سے متاثر ہے۔",
+                "tr": "Hasta inkontinansdan muzdarip."
+            },
+            "id": "v48_11"
+        },
+        {
+            "germanTerm": "die Hämaturie",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "hɛmatoˈu̯riː",
+            "category": "noun",
+            "translation": {
+                "en": "hematuria",
+                "bn": "হেমাটুরিয়া (Hematuriya)",
+                "hi": "हेमाट्यूरिया (Hematuriya)",
+                "ur": "بُول الدم (Bol-ud-Dam)",
+                "tr": "hematüri"
+            },
+            "exampleSentence": "Die Hämaturie muss abgeklärt werden.",
+            "exampleTranslation": {
+                "en": "The hematuria must be clarified.",
+                "bn": "হেমাটুরিয়া স্পষ্ট করা আবশ্যক।",
+                "hi": "हेमाट्यूरिया को स्पष्ट किया जाना चाहिए।",
+                "ur": "بُول الدم کو واضح کرنا ضروری ہے۔",
+                "tr": "Hematüri açıklığa kavuşturulmalıdır."
+            },
+            "id": "v48_12"
+        },
+        {
+            "germanTerm": "die Niereninsuffizienz",
+            "article": "die",
+            "plural": "die Niereninsuffizienzen",
+            "pronunciation": "ˈniːʁənʔɪnzʊfiˈt͡si̯ɛnt͡s",
+            "category": "noun",
+            "translation": {
+                "en": "kidney failure",
+                "bn": "কিডনি ফেইলিউর (Kidney Philiyur)",
+                "hi": "गुर्दे की विफलता (Gurde Ki Viphlta)",
+                "ur": "گردوں کا ناکام ہونا (Gurdoun Ka Nakam Hona)",
+                "tr": "böbrek yetmezliği"
+            },
+            "exampleSentence": "Der Patient hat eine chronische Niereninsuffizienz.",
+            "exampleTranslation": {
+                "en": "The patient has chronic kidney failure.",
+                "bn": "রোগীর দীর্ঘস্থায়ী কিডনি ফেইলিউর রয়েছে।",
+                "hi": "मरीज को पुरानी गुर्दे की विफलता है।",
+                "ur": "مریض کو گردوں کی دائمی ناکامی ہے۔",
+                "tr": "Hastanın kronik böbrek yetmezliği var."
+            },
+            "id": "v48_13"
+        },
+        {
+            "germanTerm": "die Blasenspiegelung",
+            "article": "die",
+            "plural": "die Blasenspiegelungen",
+            "pronunciation": "ˈblaːzn̩ˌʃpiːɡəlʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "cystoscopy",
+                "bn": "সিস্টোস্কোপি (Sistoskopi)",
+                "hi": "सिस्टोस्कोपी (Sistoskopi)",
+                "ur": "مثانے کی اینڈوسکوپی (Masane Ki Endoscopy)",
+                "tr": "sistoskopi"
+            },
+            "exampleSentence": "Eine Blasenspiegelung wurde durchgeführt, um die Ursache der Beschwerden zu finden.",
+            "exampleTranslation": {
+                "en": "A cystoscopy was performed to find the cause of the complaints.",
+                "bn": "অভিযোগের কারণ খুঁজে বের করার জন্য একটি সিস্টোস্কোপি করা হয়েছিল।",
+                "hi": "शिकायतों का कारण जानने के लिए एक सिस्टोस्कोपी की गई थी।",
+                "ur": "شکایات کی وجہ معلوم کرنے کے لئے ایک مثانے کی اینڈوسکوپی کی گئی۔",
+                "tr": "Şikayetlerin nedenini bulmak için sistoskopi yapıldı."
+            },
+            "id": "v48_14"
+        },
+        {
+            "germanTerm": "die Urologie",
+            "article": "die",
+            "plural": "die Urologien",
+            "pronunciation": "uroloˈɡiː",
+            "category": "noun",
+            "translation": {
+                "en": "urology",
+                "bn": "ইউরোলজি (Urology)",
+                "hi": "यूरोलॉजी (Urology)",
+                "ur": "علم البول (Ilm-ul-Bol)",
+                "tr": "üroloji"
+            },
+            "exampleSentence": "Er arbeitet als Urologe im Krankenhaus.",
+            "exampleTranslation": {
+                "en": "He works as a urologist in the hospital.",
+                "bn": "তিনি হাসপাতালে ইউরোলজিস্ট হিসেবে কাজ করেন।",
+                "hi": "वह अस्पताल में यूरोलॉजिस्ट के रूप में काम करते हैं।",
+                "ur": "وہ ہسپتال میں علم البول کے ماہر کی حیثیت سے کام کرتے ہیں۔",
+                "tr": "Hastanede ürolog olarak çalışıyor."
+            },
+            "id": "v48_15"
+        },
+        {
+            "germanTerm": "die Miktion",
+            "article": "die",
+            "plural": "die Miktionen",
+            "pronunciation": "mɪkˈtsi̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "micturition",
+                "bn": "মূত্রত্যাগ (Mutratyag)",
+                "hi": "मूत्रत्याग (Mutratyag)",
+                "ur": "تَبوّل (Tabawwul)",
+                "tr": "miksiyon"
+            },
+            "exampleSentence": "Die Miktion ist schmerzhaft.",
+            "exampleTranslation": {
+                "en": "Micturition is painful.",
+                "bn": "মূত্রত্যাগ বেদনাদায়ক।",
+                "hi": "मूत्रत्याग दर्दनाक है।",
+                "ur": "تَبوّل تکلیف دہ ہے۔",
+                "tr": "Miksiyon ağrılı."
+            },
+            "id": "v48_16"
+        },
+        {
+            "germanTerm": "die Restharnmenge",
+            "article": "die",
+            "plural": "die Restharnmengen",
+            "pronunciation": "ˈʁɛstharnˌmɛŋə",
+            "category": "noun",
+            "translation": {
+                "en": "residual urine volume",
+                "bn": "অবশিষ্ট প্রস্রাবের পরিমাণ (Oboshishto Prosraber Poriman)",
+                "hi": "अवशिष्ट मूत्र की मात्रा (Avshisht Mutra Ki Matra)",
+                "ur": "بقیہ پیشاب کی مقدار (Baqiya Peshab Ki Miqdaar)",
+                "tr": "rezidüel idrar hacmi"
+            },
+            "exampleSentence": "Die Restharnmenge ist erhöht.",
+            "exampleTranslation": {
+                "en": "The residual urine volume is elevated.",
+                "bn": "অবশিষ্ট প্রস্রাবের পরিমাণ বেশি।",
+                "hi": "अवशिष्ट मूत्र की मात्रा अधिक है।",
+                "ur": "بقیہ پیشاب کی مقدار زیادہ ہے۔",
+                "tr": "Rezidüel idrar hacmi yüksek."
+            },
+            "id": "v48_17"
+        },
+        {
+            "germanTerm": "die Prostatahyperplasie",
+            "article": "die",
+            "plural": "die Prostatahyperplasien",
+            "pronunciation": "ˈpʁoːstatahypɐplaˈziː",
+            "category": "noun",
+            "translation": {
+                "en": "prostatic hyperplasia",
+                "bn": "প্রোস্ট্যাটিক হাইপারপ্লাসিয়া (Prosthatik Haiparplasia)",
+                "hi": "प्रोस्टैटिक हाइपरप्लासिया (Prosthatik Haiparplasia)",
+                "ur": "پروسٹیٹک ہائپرپالسیا (Prostatic Hyperplasia)",
+                "tr": "prostat hiperplazisi"
+            },
+            "exampleSentence": "Der Patient hat eine benigne Prostatahyperplasie.",
+            "exampleTranslation": {
+                "en": "The patient has benign prostatic hyperplasia.",
+                "bn": "রোগীর সৌম্য প্রোস্ট্যাটিক হাইপারপ্লাসিয়া রয়েছে।",
+                "hi": "मरीज को सौम्य प्रोस्टैटिक हाइपरप्लासिया है।",
+                "ur": "مریض کو سومی پروسٹیٹک ہائپرپالسیا ہے۔",
+                "tr": "Hastada iyi huylu prostat hiperplazisi var."
+            },
+            "id": "v48_18"
+        },
+        {
+            "germanTerm": "die Ureter",
+            "article": "der",
+            "plural": "die Ureteren",
+            "pronunciation": "uˈʁeːtɐ",
+            "category": "noun",
+            "translation": {
+                "en": "ureter",
+                "bn": "ইউরেটার (Yuretar)",
+                "hi": "मूत्रवाहिनी (Mutravahini)",
+                "ur": "نالیِ حالِب (Nali-e-Halib)",
+                "tr": "üreter"
+            },
+            "exampleSentence": "Der Ureter ist verengt.",
+            "exampleTranslation": {
+                "en": "The ureter is narrowed.",
+                "bn": "ইউরেটার সংকুচিত।",
+                "hi": "मूत्रवाहिनी संकुचित है।",
+                "ur": "نالیِ حالِب تنگ ہے۔",
+                "tr": "Üreter daralmış."
+            },
+            "id": "v48_19"
+        },
+        {
+            "germanTerm": "der Nierenstein",
+            "article": "der",
+            "plural": "die Nierensteine",
+            "pronunciation": "ˈniːʁənˌʃtaɪ̯n",
+            "category": "noun",
+            "translation": {
+                "en": "kidney stone",
+                "bn": "কিডনি পাথর (Kidney Pathor)",
+                "hi": "गुर्दे की पथरी (Gurde Ki Pathri)",
+                "ur": "گردے کی پتھری (Gurday Ki Pathri)",
+                "tr": "böbrek taşı"
+            },
+            "exampleSentence": "Der Patient hat einen Nierenstein.",
+            "exampleTranslation": {
+                "en": "The patient has a kidney stone.",
+                "bn": "রোগীর কিডনি পাথর আছে।",
+                "hi": "मरीज को गुर्दे की पथरी है।",
+                "ur": "مریض کو گردے کی پتھری ہے۔",
+                "tr": "Hastanın böbrek taşı var."
+            },
+            "id": "v48_20"
+        },
+        {
+            "germanTerm": "die Urethritis",
+            "article": "die",
+            "plural": "die Urethritiden",
+            "pronunciation": "ureˈtriːtɪs",
+            "category": "noun",
+            "translation": {
+                "en": "urethritis",
+                "bn": "ইউরেথ্রাইটিস (Yurethraitis)",
+                "hi": "यूरेथ्राइटिस (Yurethraitis)",
+                "ur": "نالیِ بول کی سوزش (Nali-e-Bol Ki Soozish)",
+                "tr": "üretrit"
+            },
+            "exampleSentence": "Die Urethritis wird mit Antibiotika behandelt.",
+            "exampleTranslation": {
+                "en": "Urethritis is treated with antibiotics.",
+                "bn": "ইউরেথ্রাইটিস অ্যান্টিবায়োটিক দিয়ে চিকিৎসা করা হয়।",
+                "hi": "यूरेथ्राइटिस का इलाज एंटीबायोटिक दवाओं से किया जाता है।",
+                "ur": "نالیِ بول کی سوزش کا علاج اینٹی بائیوٹک سے کیا جاتا ہے۔",
+                "tr": "Üretrit antibiyotiklerle tedavi edilir."
+            },
+            "id": "v48_21"
+        },
+        {
+            "germanTerm": "der Blasentumor",
+            "article": "der",
+            "plural": "die Blasentumore",
+            "pronunciation": "ˈblaːzn̩ˌtuːmoːɐ̯",
+            "category": "noun",
+            "translation": {
+                "en": "bladder tumor",
+                "bn": "মূত্রাশয় টিউমার (Mutrashoy Ṭiumar)",
+                "hi": "मूत्राशय ट्यूमर (Mutrashay Tyoomar)",
+                "ur": "مثانے کا ٹیومر (Masane Ka Tumor)",
+                "tr": "mesane tümörü"
+            },
+            "exampleSentence": "Bei der Zystoskopie wurde ein Blasentumor entdeckt.",
+            "exampleTranslation": {
+                "en": "A bladder tumor was discovered during cystoscopy.",
+                "bn": "সিস্টোস্কোপির সময় একটি মূত্রাশয় টিউমার আবিষ্কৃত হয়েছিল।",
+                "hi": "सिस्टोस्कोपी के दौरान एक मूत्राशय ट्यूमर की खोज की गई थी।",
+                "ur": "سیسٹوسکوپی کے دوران مثانے کا ٹیومر دریافت ہوا۔",
+                "tr": "Sistoskopi sırasında bir mesane tümörü keşfedildi."
+            },
+            "id": "v48_22"
+        },
+        {
+            "germanTerm": "die Nephrektomie",
+            "article": "die",
+            "plural": "die Nephrektomien",
+            "pronunciation": "nɛfʁɛktoˈmiː",
+            "category": "noun",
+            "translation": {
+                "en": "nephrectomy",
+                "bn": "নেফ্রেকটমি (Nephrektomi)",
+                "hi": "नेफरेक्टोमी (Nephrektomi)",
+                "ur": "نفریکٹومی (Nephrectomy)",
+                "tr": "nefrektomi"
+            },
+            "exampleSentence": "Aufgrund des Nierentumors wurde eine Nephrektomie durchgeführt.",
+            "exampleTranslation": {
+                "en": "A nephrectomy was performed due to the kidney tumor.",
+                "bn": "কিডনি টিউমারের কারণে একটি নেফ্রেকটমি করা হয়েছিল।",
+                "hi": "गुर्दे के ट्यूमर के कारण एक नेफ्रेक्टोमी की गई थी।",
+                "ur": "گردے کے ٹیومر کی وجہ سے نفریکٹومی کی گئی تھی۔",
+                "tr": "Böbrek tümörü nedeniyle nefrektomi yapıldı."
+            },
+            "id": "v48_23"
+        },
+        {
+            "germanTerm": "die Proteinurie",
+            "article": "die",
+            "plural": "die Proteinurien",
+            "pronunciation": "pʁote̯inuˈʁiː",
+            "category": "noun",
+            "translation": {
+                "en": "proteinuria",
+                "bn": "প্রোটিনুরিয়া (Protinuriya)",
+                "hi": "प्रोटीनुरिया (Protinuriya)",
+                "ur": "پروٹینوریا (Proteinuria)",
+                "tr": "proteinüri"
+            },
+            "exampleSentence": "Die Proteinurie deutet auf eine Nierenerkrankung hin.",
+            "exampleTranslation": {
+                "en": "Proteinuria indicates a kidney disease.",
+                "bn": "প্রোটিনুরিয়া কিডনি রোগের ইঙ্গিত দেয়।",
+                "hi": "प्रोटीनुरिया किडनी रोग का संकेत देता है।",
+                "ur": "پروٹینوریا گردے کی بیماری کی نشاندہی کرتا ہے۔",
+                "tr": "Proteinüri böbrek hastalığını gösterir."
+            },
+            "id": "v48_24"
+        },
+        {
+            "germanTerm": "die Pyelonephritis",
+            "article": "die",
+            "plural": "die Pyelonephritiden",
+            "pronunciation": "pyeloˌnefʁiːˈtiːs",
+            "category": "noun",
+            "translation": {
+                "en": "pyelonephritis",
+                "bn": "পাইলোনেফ্রাইটিস (Pailonephraitis)",
+                "hi": "पायलोनेफ्राइटिस (Pailonephraitis)",
+                "ur": "پیلو نیفرائٹس (Pyelonephritis)",
+                "tr": "piyelonefrit"
+            },
+            "exampleSentence": "Die Pyelonephritis wird mit Antibiotika behandelt.",
+            "exampleTranslation": {
+                "en": "Pyelonephritis is treated with antibiotics.",
+                "bn": "পাইলোনেফ্রাইটিসের চিকিৎসা অ্যান্টিবায়োটিক দিয়ে করা হয়।",
+                "hi": "पायलोनेफ्राइटिस का इलाज एंटीबायोटिक दवाओं से किया जाता है।",
+                "ur": "پیلو نیفرائٹس کا علاج اینٹی بائیوٹک سے کیا جاتا ہے۔",
+                "tr": "Piyelonefrit antibiyotiklerle tedavi edilir."
+            },
+            "id": "v48_25"
+        },
+        {
+            "germanTerm": "die Varikozele",
+            "article": "die",
+            "plural": "die Varikozelen",
+            "pronunciation": "vaʁikoˈt͡seːlə",
+            "category": "noun",
+            "translation": {
+                "en": "varicocele",
+                "bn": "ভারিকোসেল (Varikosel)",
+                "hi": "वैरिकोसेल (Vairikosel)",
+                "ur": "ویریکوسیل (Varicocele)",
+                "tr": "varikosel"
+            },
+            "exampleSentence": "Die Varikozele kann die Fruchtbarkeit beeinträchtigen.",
+            "exampleTranslation": {
+                "en": "The varicocele can impair fertility.",
+                "bn": "ভারিকোসেল উর্বরতাকে ব্যাহত করতে পারে।",
+                "hi": "वैरिकोसेल प्रजनन क्षमता को ख़राब कर सकता है।",
+                "ur": "ویریکوسیل زرخیزی کو خراب کر سکتا ہے۔",
+                "tr": "Varikosel doğurganlığı bozabilir."
+            },
+            "id": "v48_26"
+        },
+        {
+            "germanTerm": "sonographisch",
+            "article": null,
+            "plural": null,
+            "pronunciation": "zonoˈɡʁaːfɪʃ",
+            "category": "adjective",
+            "translation": {
+                "en": "sonographic",
+                "bn": "সোনোগ্রাফিক (Sonographik)",
+                "hi": "सोनोग्राफिक (Sonographik)",
+                "ur": "صوتی نگاری (Souti Nigari)",
+                "tr": "sonografik"
+            },
+            "exampleSentence": "Die Nieren sind sonographisch unauffällig.",
+            "exampleTranslation": {
+                "en": "The kidneys are sonographically unremarkable.",
+                "bn": "কিডনি সোনোগ্রাফিকভাবে সুস্পষ্ট।",
+                "hi": "गुर्दे सोनोग्राफिक रूप से अस्पष्ट हैं।",
+                "ur": "گردے صوتی نگاری کے لحاظ سے غیر واضح ہیں۔",
+                "tr": "Böbrekler sonografik olarak belirgin değil."
+            },
+            "id": "v48_27"
+        },
+        {
+            "germanTerm": "die Lithotripsie",
+            "article": "die",
+            "plural": "die Lithotripsien",
+            "pronunciation": "litoˈtʁɪpsiː",
+            "category": "noun",
+            "translation": {
+                "en": "lithotripsy",
+                "bn": "লিথোট্রিপসি (Lithotripsi)",
+                "hi": "लिथोट्रिप्सी (Lithotripsi)",
+                "ur": "سنگ شکنی (Sang Shikni)",
+                "tr": "litotripsi"
+            },
+            "exampleSentence": "Der Nierenstein wurde mittels Lithotripsie zertrümmert.",
+            "exampleTranslation": {
+                "en": "The kidney stone was crushed by lithotripsy.",
+                "bn": "লিথোট্রিপসির মাধ্যমে কিডনি পাথরটি ভেঙে দেওয়া হয়েছিল।",
+                "hi": "लिथोट्रिप्सी के माध्यम से गुर्दे की पथरी को कुचल दिया गया था।",
+                "ur": "لیٹوتریپسی کے ذریعے گردے کی پتھری کو کچل دیا گیا تھا۔",
+                "tr": "Böbrek taşı litotripsi ile parçalandı."
+            },
+            "id": "v48_28"
+        },
+        {
+            "germanTerm": "die Urinkultur",
+            "article": "die",
+            "plural": "die Urinkulturen",
+            "pronunciation": "ˈuːʁɪnˌkʊltuːɐ̯",
+            "category": "noun",
+            "translation": {
+                "en": "urine culture",
+                "bn": "প্রস্রাব সংস্কৃতি (Prosrab Songskriti)",
+                "hi": "मूत्र संस्कृति (Mutra Sanskriti)",
+                "ur": "پیشاب کی ثقافت (Peshab Ki Saqafat)",
+                "tr": "idrar kültürü"
+            },
+            "exampleSentence": "Eine Urinkultur wurde angelegt, um den Erreger zu identifizieren.",
+            "exampleTranslation": {
+                "en": "A urine culture was set up to identify the pathogen.",
+                "bn": "প্যাথোজেন সনাক্ত করতে একটি প্রস্রাব সংস্কৃতি স্থাপন করা হয়েছিল।",
+                "hi": "रोगजनक की पहचान करने के लिए एक मूत्र संस्कृति स्थापित की गई थी।",
+                "ur": "روگجنک کی شناخت کرنے کے لئے پیشاب کی ثقافت قائم کی گئی تھی۔",
+                "tr": "Patojeni tanımlamak için bir idrar kültürü oluşturuldu."
+            },
+            "id": "v48_29"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Urology Consultation: Kidney Pain",
+                "bn": "ইউরোলজি পরামর্শ: কিডনি ব্যথা",
+                "hi": "यूरोलॉजी परामर्श: किडनी दर्द",
+                "ur": "یورولوجی مشاورت: گردے کا درد",
+                "tr": "Üroloji Konsültasyonu: Böbrek Ağrısı"
+            },
+            "context": {
+                "en": "Patient Müller complains of severe pain in the flank region. Dr. Schmidt, the attending physician, is questioning him.",
+                "bn": "রোগী মুলার পেটের পাশে তীব্র ব্যথার অভিযোগ করছেন। উপস্থিত চিকিৎসক ডাঃ শ্মিট তাকে জিজ্ঞাসাবাদ করছেন।",
+                "hi": "मरीज मुलर पेट के किनारे गंभीर दर्द की शिकायत कर रहे हैं। उपस्थित चिकित्सक डॉ. श्मिट उनसे पूछताछ कर रहे हैं।",
+                "ur": "مریض مُلر پیٹ کے کنارے شدید درد کی شکایت کر رہے ہیں۔ حاضر ڈاکٹر شمت ان سے پوچھ گچھ کر رہے ہیں۔",
+                "tr": "Hasta Müller, yan bölgesinde şiddetli ağrıdan şikayet ediyor. Nöbetçi doktor Schmidt, onu sorguluyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Tag, Herr Doktor. Ich habe seit gestern starke Schmerzen in der Nierengegend.",
+                    "translation": {
+                        "en": "Good day, Doctor. I've had severe pain in the kidney area since yesterday.",
+                        "bn": "শুভ দিন, ডাক্তার। গতকাল থেকে আমার কিডনি এলাকায় তীব্র ব্যথা হচ্ছে।",
+                        "hi": "शुभ दिन, डॉक्टर। मुझे कल से किडनी क्षेत्र में तीव्र दर्द हो रहा है।",
+                        "ur": "شب بخیر، ڈاکٹر۔ مجھے کل سے گردے کے علاقے میں شدید درد ہو رہا ہے۔",
+                        "tr": "İyi günler Doktor. Dünden beri böbrek bölgesinde şiddetli ağrım var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Tag, Herr Müller. Können Sie den Schmerz genauer beschreiben? Ist er stechend, dumpf oder krampfartig?",
+                    "translation": {
+                        "en": "Good day, Mr. Müller. Can you describe the pain more precisely? Is it stabbing, dull, or cramping?",
+                        "bn": "শুভ দিন, মিঃ মুলার। আপনি কি ব্যথার আরও সঠিকভাবে বর্ণনা করতে পারেন? এটা কি ছুরিকাঘাত, নিস্তেজ, বা খিঁচুনি?",
+                        "hi": "शुभ दिन, श्री मुलर। क्या आप दर्द को और सटीक रूप से वर्णित कर सकते हैं? क्या यह चुभने वाला, सुस्त या ऐंठन वाला है?",
+                        "ur": "شب بخیر، مسٹر مُلر۔ کیا آپ درد کو مزید درست طریقے سے بیان کر سکتے ہیں؟ کیا یہ چھرا گھونپنے والا، مدھم یا اینٹھن والا ہے؟",
+                        "tr": "İyi günler Bay Müller. Ağrıyı daha kesin olarak tarif edebilir misiniz? Bıçak saplar gibi mi, donuk mu, yoksa kramp şeklinde mi?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Eher krampfartig, Herr Doktor. Es kommt in Wellen.",
+                    "translation": {
+                        "en": "More like cramping, Doctor. It comes in waves.",
+                        "bn": "আরও খিঁচুনি মত, ডাক্তার। এটা ঢেউ আকারে আসে।",
+                        "hi": "ज़्यादातर ऐंठन जैसा, डॉक्टर। यह लहरों में आता है।",
+                        "ur": "زیادہ تر اینٹھن جیسا، ڈاکٹر۔ یہ لہروں میں آتا ہے۔",
+                        "tr": "Daha çok kramp şeklinde, Doktor. Dalgalar halinde geliyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Haben Sie Probleme beim Wasserlassen oder Blut im Urin bemerkt?",
+                    "translation": {
+                        "en": "Have you noticed any problems with urination or blood in your urine?",
+                        "bn": "আপনি কি প্রস্রাবের সময় কোনও সমস্যা বা প্রস্রাবে রক্ত ​​লক্ষ্য করেছেন?",
+                        "hi": "क्या आपने पेशाब करने में कोई समस्या या पेशाब में खून देखा है?",
+                        "ur": "کیا آپ نے پیشاب کرنے میں کوئی مسئلہ یا پیشاب میں خون دیکھا ہے؟",
+                        "tr": "İdrar yaparken herhangi bir sorun veya idrarınızda kan fark ettiniz mi?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Nein, beides nicht. Aber der Urin ist etwas trüber als sonst.",
+                    "translation": {
+                        "en": "No, neither of those. But the urine is a bit cloudier than usual.",
+                        "bn": "না, এর কোনটিই নয়। তবে প্রস্রাব স্বাভাবিকের চেয়ে একটু মেঘলা।",
+                        "hi": "नहीं, इनमे से कोई भी नहीं। लेकिन पेशाब सामान्य से थोड़ा अधिक धुंधला है।",
+                        "ur": "نہیں، ان میں سے کوئی بھی نہیں۔ لیکن پیشاب معمول سے تھوڑا زیادہ دھندلا ہے۔",
+                        "tr": "Hayır, ikisi de değil. Ama idrar normalden biraz daha bulanık."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Okay. Dann werden wir eine Urinprobe und eine Ultraschalluntersuchung der Nieren machen.",
+                    "translation": {
+                        "en": "Okay. Then we'll do a urine sample and an ultrasound of the kidneys.",
+                        "bn": "ঠিক আছে। তাহলে আমরা একটি প্রস্রাবের নমুনা এবং কিডনির একটি আল্ট্রাসাউন্ড করব।",
+                        "hi": "ठीक है। तो हम पेशाब का नमूना और किडनी का अल्ट्रासाउंड करेंगे।",
+                        "ur": "ٹھیک ہے۔ تو ہم پیشاب کا نمونہ اور گردوں کا الٹراساؤنڈ کریں گے۔",
+                        "tr": "Tamam. O zaman bir idrar örneği ve böbreklerin ultrasonunu çekeceğiz."
+                    }
+                }
+            ],
+            "id": "d48_01"
+        },
+        {
+            "title": {
+                "en": "Post-Surgery: Catheter Care",
+                "bn": "পোস্ট-সার্জারি: ক্যাথেটার যত্ন",
+                "hi": "पोस्ट-सर्जरी: कैथेटर देखभाल",
+                "ur": "سرجری کے بعد: کیتھیٹر کی دیکھ بھال",
+                "tr": "Ameliyat Sonrası: Kateter Bakımı"
+            },
+            "context": {
+                "en": "Nurse Weber explains catheter care to patient Lehmann after prostate surgery.",
+                "bn": "নার্স ওয়েবার প্রোস্টেট সার্জারির পরে রোগী লেহম্যানকে ক্যাথেটার যত্ন সম্পর্কে ব্যাখ্যা করছেন।",
+                "hi": "नर्स वेबर प्रोस्टेट सर्जरी के बाद मरीज लेहमैन को कैथेटर देखभाल के बारे में समझा रही हैं।",
+                "ur": "نرس ویبر پروسٹیٹ سرجری کے بعد مریض لیمن کو کیتھیٹر کی دیکھ بھال کے بارے میں بتا رہی ہیں۔",
+                "tr": "Hemşire Weber, prostat ameliyatı sonrası hasta Lehmann'a kateter bakımını anlatıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Morgen, Herr Lehmann. Ich bin Schwester Weber. Ich zeige Ihnen, wie Sie Ihren Katheter pflegen.",
+                    "translation": {
+                        "en": "Good morning, Mr. Lehmann. I am Nurse Weber. I will show you how to care for your catheter.",
+                        "bn": "শুভ সকাল, মিঃ লেহম্যান। আমি নার্স ওয়েবার। আমি আপনাকে দেখাবো কিভাবে আপনার ক্যাথেটারের যত্ন নিতে হয়।",
+                        "hi": "सुप्रभात, श्री लेहमैन। मैं नर्स वेबर हूं। मैं आपको दिखाऊंगी कि अपने कैथेटर की देखभाल कैसे करें।",
+                        "ur": "صبح بخیر، مسٹر لیمن۔ میں نرس ویبر ہوں۔ میں آپ کو دکھاؤں گا کہ آپ کے کیتھیٹر کی دیکھ بھال کیسے کی جائے۔",
+                        "tr": "Günaydın Bay Lehmann. Ben Hemşire Weber. Size kateterinize nasıl bakacağınızı göstereceğim."
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Morgen, Schwester. Das ist sehr nett von Ihnen.",
+                    "translation": {
+                        "en": "Good morning, Nurse. That's very kind of you.",
+                        "bn": "শুভ সকাল, নার্স। আপনার খুব দয়া।",
+                        "hi": "सुप्रभात, नर्स। यह आपकी बहुत दया है।",
+                        "ur": "صبح بخیر، نرس۔ یہ آپ کی بڑی مہربانی ہے۔",
+                        "tr": "Günaydın Hemşire. Çok naziksiniz."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Wichtig ist, dass Sie den Katheterbeutel immer unterhalb der Blase halten. So kann der Urin gut ablaufen.",
+                    "translation": {
+                        "en": "It is important that you always keep the catheter bag below the bladder. This allows the urine to drain properly.",
+                        "bn": "গুরুত্বপূর্ণ বিষয় হল, আপনি সর্বদা ক্যাথেটার ব্যাগটি মূত্রাশয়ের নীচে রাখবেন। এতে প্রস্রাব ভালোভাবে নিষ্কাশন হতে পারে।",
+                        "hi": "महत्वपूर्ण बात यह है कि आप हमेशा कैथेटर बैग को मूत्राशय के नीचे रखें। इससे पेशाब ठीक से निकल पाता है।",
+                        "ur": "اہم بات یہ ہے کہ آپ ہمیشہ کیتھیٹر بیگ کو مثانے کے نیچے رکھیں۔ اس سے پیشاب ٹھیک سے نکل سکتا ہے۔",
+                        "tr": "Kateter torbasını her zaman mesanenin altında tutmanız önemlidir. Bu, idrarın düzgün bir şekilde boşalmasını sağlar."
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Verstanden. Und wie oft muss ich den Beutel leeren?",
+                    "translation": {
+                        "en": "Understood. And how often do I have to empty the bag?",
+                        "bn": "বুঝেছি। এবং আমাকে কত ঘন ঘন ব্যাগটি খালি করতে হবে?",
+                        "hi": "समझ गया। और मुझे कितनी बार बैग खाली करना होगा?",
+                        "ur": "سمجھ گیا۔ اور مجھے کتنی بار بیگ خالی کرنا ہوگا؟",
+                        "tr": "Anladım. Ve torbayı ne sıklıkla boşaltmam gerekiyor?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Wenn er etwa halb voll ist, oder wenn Sie spüren, dass er schwer wird. Melden Sie sich einfach bei uns, wenn Sie Hilfe brauchen.",
+                    "translation": {
+                        "en": "When it's about half full, or when you feel it's getting heavy. Just let us know if you need help.",
+                        "bn": "যখন এটি প্রায় অর্ধেক পূর্ণ হয়, বা যখন আপনি অনুভব করেন যে এটি ভারী হয়ে উঠছে। আপনার সাহায্যের প্রয়োজন হলে শুধু আমাদের জানান।",
+                        "hi": "जब यह लगभग आधा भर जाए, या जब आपको लगे कि यह भारी हो रहा है। यदि आपको सहायता की आवश्यकता हो तो बस हमें बताएं।",
+                        "ur": "جب یہ تقریباً آدھا بھر جائے، یا جب آپ کو لگے کہ یہ بھاری ہو رہا ہے۔ اگر آپ کو مدد کی ضرورت ہو تو بس ہمیں بتائیں۔",
+                        "tr": "Yaklaşık yarısı dolduğunda veya ağırlaştığını hissettiğinizde. Yardıma ihtiyacınız olursa bize haber verin."
+                    }
+                }
+            ],
+            "id": "d48_02"
+        },
+        {
+            "title": {
+                "en": "Nephrology: Discussing Dialysis",
+                "bn": "নেফ্রোলজি: ডায়ালাইসিস নিয়ে আলোচনা",
+                "hi": "नेफ्रोलॉजी: डायलिसिस पर चर्चा",
+                "ur": "نیفرولوجی: ڈائلیسس پر گفتگو",
+                "tr": "Nefroloji: Diyalizi Tartışmak"
+            },
+            "context": {
+                "en": "Dr. Klein, a nephrologist, explains the necessity of dialysis to patient Schneider due to chronic kidney disease.",
+                "bn": "নেফ্রোলজিস্ট ডাঃ ক্লেইন, ক্রনিক কিডনি রোগের কারণে রোগী স্নাইডারকে ডায়ালাইসিসের প্রয়োজনীয়তা ব্যাখ্যা করছেন।",
+                "hi": "नेफ्रोलॉजिस्ट डॉ. क्लेन, क्रोनिक किडनी रोग के कारण मरीज श्नाइडर को डायलिसिस की आवश्यकता समझा रहे हैं।",
+                "ur": "نیفرولوجسٹ ڈاکٹر کلین، دائمی گردے کی بیماری کی وجہ سے مریض شنائیڈر کو ڈائلیسس کی ضرورت سمجھا رہے ہیں۔",
+                "tr": "Nefrolog Dr. Klein, kronik böbrek hastalığı nedeniyle hasta Schneider'e diyalizin gerekliliğini açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Herr Schneider, Ihre Nierenfunktion hat sich leider weiter verschlechtert. Wir müssen über Dialyse sprechen.",
+                    "translation": {
+                        "en": "Mr. Schneider, unfortunately, your kidney function has deteriorated further. We need to talk about dialysis.",
+                        "bn": "মিঃ স্নাইডার, দুর্ভাগ্যবশত, আপনার কিডনির কার্যকারিতা আরও খারাপ হয়েছে। আমাদের ডায়ালাইসিস নিয়ে কথা বলতে হবে।",
+                        "hi": "श्री श्नाइडर, दुर्भाग्य से, आपकी किडनी का कार्य और खराब हो गया है। हमें डायलिसिस के बारे में बात करने की आवश्यकता है।",
+                        "ur": "مسٹر شنائیڈر، بدقسمتی سے، آپ کے گردے کا کام مزید خراب ہو گیا ہے۔ ہمیں ڈائلیسس کے بارے میں بات کرنے کی ضرورت ہے۔",
+                        "tr": "Bay Schneider, maalesef böbrek fonksiyonlarınız daha da kötüleşti. Diyaliz hakkında konuşmamız gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Patient Schneider",
+                    "speakerRole": "Patient",
+                    "germanText": "Dialyse? Das wollte ich eigentlich vermeiden. Gibt es keine andere Möglichkeit?",
+                    "translation": {
+                        "en": "Dialysis? I actually wanted to avoid that. Is there no other option?",
+                        "bn": "ডায়ালাইসিস? আমি আসলে এটা এড়াতে চেয়েছিলাম। অন্য কোন উপায় নেই?",
+                        "hi": "डायलिसिस? मैं वास्तव में इससे बचना चाहता था। क्या कोई अन्य विकल्प नहीं है?",
+                        "ur": "ڈائلیسس؟ میں دراصل اس سے بچنا چاہتا تھا۔ کیا کوئی اور آپشن نہیں ہے؟",
+                        "tr": "Diyaliz mi? Aslında bundan kaçınmak istiyordum. Başka bir seçenek yok mu?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir haben alle anderen Optionen ausgeschöpft. Ohne Dialyse würden sich giftige Stoffe in Ihrem Körper ansammeln.",
+                    "translation": {
+                        "en": "We have exhausted all other options. Without dialysis, toxins would accumulate in your body.",
+                        "bn": "আমরা অন্য সমস্ত বিকল্প শেষ করেছি। ডায়ালাইসিস ছাড়া, আপনার শরীরে বিষাক্ত পদার্থ জমা হবে।",
+                        "hi": "हमने अन्य सभी विकल्पों को समाप्त कर दिया है। डायलिसिस के बिना, आपके शरीर में विषाक्त पदार्थ जमा हो जाएंगे।",
+                        "ur": "ہم نے دیگر تمام آپشنز ختم کر دیئے ہیں۔ ڈائلیسس کے بغیر، آپ کے جسم میں زہریلے مادے جمع ہو جائیں گے۔",
+                        "tr": "Diğer tüm seçenekleri tükettik. Diyaliz olmadan, vücudunuzda toksinler birikecektir."
+                    }
+                },
+                {
+                    "speaker": "Patient Schneider",
+                    "speakerRole": "Patient",
+                    "germanText": "Was bedeutet das genau? Wie läuft die Dialyse ab?",
+                    "translation": {
+                        "en": "What exactly does that mean? How does dialysis work?",
+                        "bn": "এর মানে ঠিক কী? ডায়ালাইসিস কিভাবে কাজ করে?",
+                        "hi": "इसका ठीक से क्या मतलब है? डायलिसिस कैसे काम करता है?",
+                        "ur": "اس کا ٹھیک سے کیا مطلب ہے؟ ڈائلیسس کیسے کام کرتا ہے؟",
+                        "tr": "Bu tam olarak ne anlama geliyor? Diyaliz nasıl çalışır?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir filtern Ihr Blut außerhalb Ihres Körpers, um die Giftstoffe zu entfernen. Sie müssen dafür regelmäßig ins Dialysezentrum kommen.",
+                    "translation": {
+                        "en": "We filter your blood outside your body to remove the toxins. You will need to come to the dialysis center regularly for this.",
+                        "bn": "আমরা আপনার শরীরের বাইরে আপনার রক্ত ​​ফিল্টার করে বিষাক্ত পদার্থ অপসারণ করি। এর জন্য আপনাকে নিয়মিত ডায়ালাইসিস সেন্টারে আসতে হবে।",
+                        "hi": "हम आपके शरीर के बाहर आपके रक्त को फ़िल्टर करके विषाक्त पदार्थों को निकालते हैं। इसके लिए आपको नियमित रूप से डायलिसिस सेंटर आना होगा।",
+                        "ur": "ہم آپ کے جسم کے باہر آپ کے خون کو فلٹر کر کے زہریلے مادے نکالتے ہیں۔ اس کے لیے آپ کو باقاعدگی سے ڈائلیسس سینٹر آنا ہوگا۔",
+                        "tr": "Toksinleri temizlemek için kanınızı vücudunuzun dışında filtreleriz. Bunun için düzenli olarak diyaliz merkezine gelmeniz gerekecek."
+                    }
+                }
+            ],
+            "id": "d48_03"
+        },
+        {
+            "title": {
+                "en": "Urinary Tract Infection: Diagnosis",
+                "bn": "মূত্রনালীর সংক্রমণ: নির্ণয়",
+                "hi": "मूत्र पथ संक्रमण: निदान",
+                "ur": "پیشاب کی نالی کا انفیکشن: تشخیص",
+                "tr": "İdrar Yolu Enfeksiyonu: Teşhis"
+            },
+            "context": {
+                "en": "Patient Weber reports symptoms of a urinary tract infection to Dr. Müller.",
+                "bn": "রোগী ওয়েবার ডাঃ মুলারকে মূত্রনালীর সংক্রমণের লক্ষণ জানান।",
+                "hi": "मरीज वेबर डॉ. मुलर को मूत्र पथ संक्रमण के लक्षण बताती हैं।",
+                "ur": "مریض ویبر ڈاکٹر ملر کو پیشاب کی نالی کے انفیکشن کی علامات بتاتی ہیں۔",
+                "tr": "Hasta Weber, Dr. Müller'e idrar yolu enfeksiyonu semptomlarını bildiriyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Tag, Herr Doktor. Ich habe seit ein paar Tagen Schmerzen beim Wasserlassen und muss ständig auf die Toilette.",
+                    "translation": {
+                        "en": "Good day, Doctor. I've had pain when urinating for a few days and I constantly have to go to the toilet.",
+                        "bn": "শুভ দিন, ডাক্তার। কয়েকদিন ধরে প্রস্রাবের সময় আমার ব্যথা হচ্ছে এবং ক্রমাগত টয়লেটে যেতে হচ্ছে।",
+                        "hi": "शुभ दिन, डॉक्टर। मुझे कुछ दिनों से पेशाब करते समय दर्द हो रहा है और मुझे लगातार शौचालय जाना पड़ता है।",
+                        "ur": "شب بخیر، ڈاکٹر۔ مجھے کچھ دنوں سے پیشاب کرتے وقت درد ہو رہا ہے اور مجھے مسلسل بیت الخلا جانا پڑتا ہے۔",
+                        "tr": "İyi günler Doktor. Birkaç gündür idrar yaparken ağrım var ve sürekli tuvalete gitmek zorunda kalıyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Tag, Frau Weber. Haben Sie auch Fieber oder Schmerzen im Unterbauch?",
+                    "translation": {
+                        "en": "Good day, Mrs. Weber. Do you also have a fever or pain in your lower abdomen?",
+                        "bn": "শুভ দিন, মিসেস ওয়েবার। আপনার কি জ্বর বা পেটের নিচের অংশে ব্যথাও আছে?",
+                        "hi": "शुभ दिन, श्रीमती वेबर। क्या आपको बुखार या पेट के निचले हिस्से में दर्द भी है?",
+                        "ur": "شب بخیر، محترمہ ویبر۔ کیا آپ کو بخار یا پیٹ کے نچلے حصے میں درد بھی ہے؟",
+                        "tr": "İyi günler Bayan Weber. Ateşiniz veya alt karnınızda ağrı da var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Nein, Fieber habe ich nicht, aber der Unterbauch schmerzt leicht.",
+                    "translation": {
+                        "en": "No, I don't have a fever, but my lower abdomen hurts slightly.",
+                        "bn": "না, আমার জ্বর নেই, তবে পেটের নিচের অংশে সামান্য ব্যথা আছে।",
+                        "hi": "नहीं, मुझे बुखार नहीं है, लेकिन मेरे पेट के निचले हिस्से में थोड़ा दर्द है।",
+                        "ur": "نہیں، مجھے بخار نہیں ہے، لیکن میرے پیٹ کے نچلے حصے میں ہلکا سا درد ہے۔",
+                        "tr": "Hayır, ateşim yok ama alt karnım hafifçe ağrıyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das klingt nach einer Harnwegsinfektion. Wir werden eine Urinprobe untersuchen, um das zu bestätigen.",
+                    "translation": {
+                        "en": "That sounds like a urinary tract infection. We will examine a urine sample to confirm that.",
+                        "bn": "এটা মূত্রনালীর সংক্রমণের মতো শোনাচ্ছে। আমরা এটি নিশ্চিত করার জন্য একটি প্রস্রাবের নমুনা পরীক্ষা করব।",
+                        "hi": "यह मूत्र पथ संक्रमण जैसा लगता है। हम इसकी पुष्टि करने के लिए मूत्र के नमूने की जांच करेंगे।",
+                        "ur": "یہ پیشاب کی نالی کے انفیکشن کی طرح لگتا ہے۔ ہم اس کی تصدیق کے لیے پیشاب کے نمونے کی جانچ کریں گے۔",
+                        "tr": "Bu bir idrar yolu enfeksiyonu gibi geliyor. Bunu doğrulamak için bir idrar örneğini inceleyeceğiz."
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Gut, dann mache ich das gleich.",
+                    "translation": {
+                        "en": "Okay, then I'll do that right away.",
+                        "bn": "ঠিক আছে, তাহলে আমি এখনই এটা করব।",
+                        "hi": "ठीक है, तो मैं इसे तुरंत कर दूंगा।",
+                        "ur": "ٹھیک ہے، تو میں اسے فوراً کر دوں گا۔",
+                        "tr": "Tamam, o zaman hemen yapacağım."
+                    }
+                }
+            ],
+            "id": "d48_04"
+        },
+        {
+            "title": {
+                "en": "Prostate Enlargement: Treatment Options",
+                "bn": "প্রোস্টেট বৃদ্ধি: চিকিত্সা বিকল্প",
+                "hi": "प्रोस्टेट वृद्धि: उपचार विकल्प",
+                "ur": "پروسٹیٹ میں اضافہ: علاج کے اختیارات",
+                "tr": "Prostat Büyümesi: Tedavi Seçenekleri"
+            },
+            "context": {
+                "en": "Dr. Berger explains treatment options for benign prostatic hyperplasia (BPH) to patient Hoffmann.",
+                "bn": "ডাঃ বার্গার রোগী হফম্যানকে সৌম্য প্রোস্ট্যাটিক হাইপারপ্লাসিয়া (বিপিএইচ) এর জন্য চিকিত্সা বিকল্প ব্যাখ্যা করছেন।",
+                "hi": "डॉ. बर्गर मरीज हॉफमैन को सौम्य प्रोस्टेटिक हाइपरप्लासिया (बीपीएच) के लिए उपचार विकल्प समझा रहे हैं।",
+                "ur": "ڈاکٹر برگر مریض ہافمین کو سومی پروسٹیٹک ہائپرپلاسیا (بی پی ایچ) کے لیے علاج کے اختیارات سمجھا رہے ہیں۔",
+                "tr": "Dr. Berger, hasta Hoffmann'a benign prostat hiperplazisi (BPH) için tedavi seçeneklerini açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Berger",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Herr Hoffmann, Ihre Prostata ist vergrößert. Wir nennen das benigne Prostatahyperplasie, kurz BPH.",
+                    "translation": {
+                        "en": "Mr. Hoffmann, your prostate is enlarged. We call that benign prostatic hyperplasia, or BPH for short.",
+                        "bn": "মিঃ হফম্যান, আপনার প্রোস্টেট বড় হয়েছে। আমরা এটাকে সৌম্য প্রোস্ট্যাটিক হাইপারপ্লাসিয়া বলি, সংক্ষেপে বিপিএইচ।",
+                        "hi": "श्री हॉफमैन, आपका प्रोस्टेट बढ़ गया है। हम इसे सौम्य प्रोस्टेटिक हाइपरप्लासिया कहते हैं, संक्षेप में बीपीएच।",
+                        "ur": "مسٹر ہافمین، آپ کا پروسٹیٹ بڑا ہو گیا ہے۔ ہم اسے سومی پروسٹیٹک ہائپرپلاسیا کہتے ہیں، مختصراً بی پی ایچ۔",
+                        "tr": "Bay Hoffmann, prostatınız büyümüş. Buna benign prostat hiperplazisi diyoruz, kısaca BPH."
+                    }
+                },
+                {
+                    "speaker": "Patient Hoffmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Was bedeutet das für mich, Herr Doktor?",
+                    "translation": {
+                        "en": "What does that mean for me, Doctor?",
+                        "bn": "আমার জন্য এর মানে কী, ডাক্তার?",
+                        "hi": "मेरे लिए इसका क्या मतलब है, डॉक्टर?",
+                        "ur": "میرے لیے اس کا کیا مطلب ہے، ڈاکٹر؟",
+                        "tr": "Bu benim için ne anlama geliyor Doktor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Berger",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Es kann zu Problemen beim Wasserlassen führen. Es gibt verschiedene Behandlungsmöglichkeiten: Medikamente oder eine Operation.",
+                    "translation": {
+                        "en": "It can lead to problems with urination. There are various treatment options: medication or surgery.",
+                        "bn": "এটি প্রস্রাবের সময় সমস্যা সৃষ্টি করতে পারে। বিভিন্ন চিকিত্সা বিকল্প রয়েছে: ওষুধ বা সার্জারি।",
+                        "hi": "इससे पेशाब करने में समस्या हो सकती है। विभिन्न उपचार विकल्प हैं: दवा या सर्जरी।",
+                        "ur": "اس سے پیشاب کرنے میں مسئلہ ہو سکتا ہے۔ علاج کے مختلف اختیارات ہیں: دوا یا سرجری۔",
+                        "tr": "İdrar yaparken sorunlara yol açabilir. Çeşitli tedavi seçenekleri vardır: ilaç veya ameliyat."
+                    }
+                },
+                {
+                    "speaker": "Patient Hoffmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Welche Medikamente gibt es da?",
+                    "translation": {
+                        "en": "What medications are there?",
+                        "bn": "সেখানে কি কি ওষুধ আছে?",
+                        "hi": "वहाँ कौन सी दवाएँ हैं?",
+                        "ur": "وہاں کون سی دوائیں ہیں؟",
+                        "tr": "Hangi ilaçlar var?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Berger",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Es gibt Alpha-Blocker, die die Muskulatur entspannen, und 5-Alpha-Reduktase-Hemmer, die die Prostata verkleinern können.",
+                    "translation": {
+                        "en": "There are alpha-blockers that relax the muscles, and 5-alpha-reductase inhibitors that can shrink the prostate.",
+                        "bn": "আলফা-ব্লকার রয়েছে যা পেশী শিথিল করে এবং 5-আলফা-রিডাক্টেস ইনহিবিটর যা প্রোস্টেটকে সঙ্কুচিত করতে পারে।",
+                        "hi": "अल्फा-ब्लॉकर हैं जो मांसपेशियों को आराम देते हैं, और 5-अल्फा-रिडक्टेस अवरोधक जो प्रोस्टेट को सिकोड़ सकते हैं।",
+                        "ur": "الفا بلاکر ہیں جو عضلات کو آرام دیتے ہیں، اور 5-الفا-ریڈکٹیس روکنے والے جو پروسٹیٹ کو سکڑ سکتے ہیں۔",
+                        "tr": "Kasları gevşeten alfa blokerler ve prostatı küçültebilen 5-alfa redüktaz inhibitörleri vardır."
+                    }
+                },
+                {
+                    "speaker": "Patient Hoffmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Und wenn die Medikamente nicht helfen?",
+                    "translation": {
+                        "en": "And if the medications don't help?",
+                        "bn": "আর যদি ওষুধে কাজ না হয়?",
+                        "hi": "और अगर दवाएँ मदद नहीं करती हैं?",
+                        "ur": "اور اگر دوائیں مدد نہیں کرتی ہیں؟",
+                        "tr": "Peki ya ilaçlar yardımcı olmazsa?"
+                    }
+                }
+            ],
+            "id": "d48_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Organ filtert das Blut und produziert Urin?",
+                "en": "Which organ filters blood and produces urine?",
+                "bn": "কোন অঙ্গ রক্ত ফিল্টার করে এবং প্রস্রাব তৈরি করে?",
+                "hi": "कौन सा अंग रक्त को छानता है और मूत्र बनाता है?",
+                "ur": "کون سا عضو خون کو فلٹر کرتا ہے اور پیشاب پیدا کرتا ہے؟",
+                "tr": "Hangi organ kanı filtreler ve idrar üretir?"
+            },
+            "options": [
+                "Leber (Liver)",
+                "Niere (Kidney)",
+                "Milz (Spleen)",
+                "Lunge (Lung)"
+            ],
+            "correctAnswer": "Niere (Kidney)",
+            "explanation": {
+                "en": "The kidney is responsible for filtering blood and producing urine.",
+                "bn": "বৃক্ক রক্ত ​​ফিল্টার করে এবং প্রস্রাব তৈরি করে।",
+                "hi": "गुर्दा रक्त को छानने और मूत्र बनाने के लिए जिम्मेदार है।",
+                "ur": "گردہ خون کو فلٹر کرنے اور پیشاب پیدا کرنے کا ذمہ دار ہے۔",
+                "tr": "Böbrek kanı filtrelemek ve idrar üretmekle sorumludur."
+            },
+            "points": 10,
+            "id": "e48_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist Zystitis?",
+                "en": "What is cystitis?",
+                "bn": "সিস্টাইটিস কি?",
+                "hi": "सिस्टिटिस क्या है?",
+                "ur": "سسٹائٹس کیا ہے؟",
+                "tr": "Sistit nedir?"
+            },
+            "options": [
+                "Nierenentzündung (Kidney inflammation)",
+                "Blasenentzündung (Bladder inflammation)",
+                "Prostataentzündung (Prostate inflammation)",
+                "Harnleiterentzündung (Ureter inflammation)"
+            ],
+            "correctAnswer": "Blasenentzündung (Bladder inflammation)",
+            "explanation": {
+                "en": "Cystitis is an inflammation of the bladder.",
+                "bn": "সিস্টাইটিস হল মূত্রাশয়ের প্রদাহ।",
+                "hi": "सिस्टिटिस मूत्राशय की सूजन है।",
+                "ur": "سسٹائٹس مثانے کی سوزش ہے۔",
+                "tr": "Sistit, mesanenin iltihaplanmasıdır."
+            },
+            "points": 10,
+            "id": "e48_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Organ kann bei Männern zu Problemen beim Wasserlassen führen?",
+                "en": "Which organ in men can cause problems with urination?",
+                "bn": "পুরুষদের মধ্যে কোন অঙ্গ প্রস্রাবের সমস্যা সৃষ্টি করতে পারে?",
+                "hi": "पुरुषों में कौन सा अंग पेशाब करने में समस्या पैदा कर सकता है?",
+                "ur": "مردوں میں کون سا عضو پیشاب کرنے میں دشواری کا باعث بن سکتا ہے؟",
+                "tr": "Erkeklerde hangi organ idrar yapma sorunlarına neden olabilir?"
+            },
+            "options": [
+                "Leber (Liver)",
+                "Prostata (Prostate)",
+                "Bauchspeicheldrüse (Pancreas)",
+                "Gallenblase (Gallbladder)"
+            ],
+            "correctAnswer": "Prostata (Prostate)",
+            "explanation": {
+                "en": "The prostate, when enlarged, can cause problems with urination in men.",
+                "bn": "প্রোস্টেট, যখন বড় হয়ে যায়, তখন পুরুষদের প্রস্রাবের সমস্যা হতে পারে।",
+                "hi": "प्रोस्टेट, जब बढ़ जाता है, तो पुरुषों में पेशाब करने में समस्या हो सकती है।",
+                "ur": "پروسٹیٹ، جب بڑھ جاتا ہے، تو مردوں میں پیشاب کرنے میں دشواری کا باعث بن سکتا ہے۔",
+                "tr": "Prostat, büyüdüğünde, erkeklerde idrar yapma sorunlarına neden olabilir."
+            },
+            "points": 10,
+            "id": "e48_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist eine Harnwegsinfektion?",
+                "en": "What is a urinary tract infection?",
+                "bn": "মূত্রনালীর সংক্রমণ কি?",
+                "hi": "मूत्र मार्ग संक्रमण क्या है?",
+                "ur": "یورینری ٹریکٹ انفیکشن کیا ہے؟",
+                "tr": "İdrar yolu enfeksiyonu nedir?"
+            },
+            "options": [
+                "Infektion der Lunge (Lung infection)",
+                "Infektion der Harnwege (Urinary tract infection)",
+                "Infektion des Herzens (Heart infection)",
+                "Infektion des Gehirns (Brain infection)"
+            ],
+            "correctAnswer": "Infektion der Harnwege (Urinary tract infection)",
+            "explanation": {
+                "en": "A urinary tract infection (UTI) is an infection of the urinary system.",
+                "bn": "মূত্রনালীর সংক্রমণ (ইউটিআই) হল মূত্রতন্ত্রের একটি সংক্রমণ।",
+                "hi": "मूत्र मार्ग संक्रमण (यूटीआई) मूत्र प्रणाली का एक संक्रमण है।",
+                "ur": "یورینری ٹریکٹ انفیکشن (UTI) پیشاب کے نظام کا انفیکشن ہے۔",
+                "tr": "İdrar yolu enfeksiyonu (İYE), idrar sisteminin bir enfeksiyonudur."
+            },
+            "points": 10,
+            "id": "e48_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wofür wird ein Katheter verwendet?",
+                "en": "What is a catheter used for?",
+                "bn": "ক্যাথেটার কিসের জন্য ব্যবহৃত হয়?",
+                "hi": "कैथेटर का उपयोग किस लिए किया जाता है?",
+                "ur": "کیتھیٹر کس لیے استعمال ہوتا ہے؟",
+                "tr": "Kateter ne için kullanılır?"
+            },
+            "options": [
+                "Bluttransfusion (Blood transfusion)",
+                "Ableitung von Urin (Drainage of urine)",
+                "Herzoperation (Heart surgery)",
+                "Gehirnoperation (Brain surgery)"
+            ],
+            "correctAnswer": "Ableitung von Urin (Drainage of urine)",
+            "explanation": {
+                "en": "A catheter is used to drain urine from the bladder.",
+                "bn": "ক্যাথেটার মূত্রাশয় থেকে প্রস্রাব নিষ্কাশনের জন্য ব্যবহৃত হয়।",
+                "hi": "कैथेटर मूत्राशय से मूत्र निकालने के लिए उपयोग किया जाता है।",
+                "ur": "کیتھیٹر مثانے سے پیشاب نکالنے کے لیے استعمال ہوتا ہے۔",
+                "tr": "Kateter, mesaneden idrarı boşaltmak için kullanılır."
+            },
+            "points": 10,
+            "id": "e48_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist Dialyse?",
+                "en": "What is dialysis?",
+                "bn": "ডায়ালাইসিস কি?",
+                "hi": "डायलिसिस क्या है?",
+                "ur": "ڈائیلاسز کیا ہے؟",
+                "tr": "Diyaliz nedir?"
+            },
+            "options": [
+                "Reinigung des Blutes außerhalb des Körpers (Cleaning the blood outside the body)",
+                "Herztransplantation (Heart transplantation)",
+                "Lebertransplantation (Liver transplantation)",
+                "Knochenmarktransplantation (Bone marrow transplantation)"
+            ],
+            "correctAnswer": "Reinigung des Blutes außerhalb des Körpers (Cleaning the blood outside the body)",
+            "explanation": {
+                "en": "Dialysis is a process of cleaning the blood outside the body when the kidneys are not functioning properly.",
+                "bn": "ডায়ালাইসিস হল শরীরের বাইরে রক্ত ​​পরিষ্কার করার একটি প্রক্রিয়া যখন কিডনি সঠিকভাবে কাজ করে না।",
+                "hi": "डायलिसिस शरीर के बाहर रक्त को साफ करने की एक प्रक्रिया है जब गुर्दे ठीक से काम नहीं कर रहे होते हैं।",
+                "ur": "ڈائیلاسز جسم سے باہر خون کو صاف کرنے کا ایک عمل ہے جب گردے ٹھیک سے کام نہیں کر رہے ہوتے ہیں۔",
+                "tr": "Diyaliz, böbrekler düzgün çalışmadığında vücudun dışındaki kanı temizleme işlemidir."
+            },
+            "points": 10,
+            "id": "e48_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Fachgebiet der Nephrologie?",
+                "en": "What is the medical specialty of nephrology?",
+                "bn": "নেফ্রোলজি চিকিৎসা শাস্ত্রের কোন শাখা?",
+                "hi": "नेफ्रोलॉजी चिकित्सा की किस शाखा का नाम है?",
+                "ur": "نیفرولوجی طب کی کس شاخ کا نام ہے؟",
+                "tr": "Nefroloji hangi tıp uzmanlığıdır?"
+            },
+            "options": [
+                "Herzerkrankungen (Heart diseases)",
+                "Nierenerkrankungen (Kidney diseases)",
+                "Lungenerkrankungen (Lung diseases)",
+                "Gehirnerkrankungen (Brain diseases)"
+            ],
+            "correctAnswer": "Nierenerkrankungen (Kidney diseases)",
+            "explanation": {
+                "en": "Nephrology is the medical specialty that deals with kidney diseases.",
+                "bn": "নেফ্রোলজি হল চিকিৎসা শাস্ত্রের সেই শাখা যা কিডনি রোগ নিয়ে কাজ করে।",
+                "hi": "नेफ्रोलॉजी चिकित्सा की वह शाखा है जो गुर्दे की बीमारियों से संबंधित है।",
+                "ur": "نیفرولوجی طب کی وہ شاخ ہے جو گردے کی بیماریوں سے متعلق ہے۔",
+                "tr": "Nefroloji, böbrek hastalıklarıyla ilgilenen tıp uzmanlığıdır."
+            },
+            "points": 10,
+            "id": "e48_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Symptom ist typisch für eine Nierenbeckenentzündung (Pyelonephritis)?",
+                "en": "Which symptom is typical for pyelonephritis (kidney infection)?",
+                "bn": "পাইলোনেফ্রাইটিস (কিডনি সংক্রমণ)-এর জন্য কোন উপসর্গটি স্বাভাবিক?",
+                "hi": "पायलोनेफ्राइटिस (गुर्दे के संक्रमण) के लिए कौन सा लक्षण विशिष्ट है?",
+                "ur": "پائلو نیفرائٹس (گردے کے انفیکشن) کے لیے کونسی علامت مخصوص ہے؟",
+                "tr": "Piyelonefrit (böbrek enfeksiyonu) için hangi semptom tipiktir?"
+            },
+            "options": [
+                "Husten (Cough)",
+                "Flankenschmerzen (Flank pain)",
+                "Kopfschmerzen (Headache)",
+                "Übelkeit (Nausea)"
+            ],
+            "correctAnswer": "Flankenschmerzen (Flank pain)",
+            "explanation": {
+                "en": "Flank pain is a typical symptom of pyelonephritis (kidney infection).",
+                "bn": "পিঠের দিকে ব্যথা পাইলোনেফ্রাইটিস (কিডনি সংক্রমণ)-এর একটি সাধারণ উপসর্গ।",
+                "hi": "पीठ दर्द पायलोनेफ्राइटिस (गुर्दे के संक्रमण) का एक सामान्य लक्षण है।",
+                "ur": "پشت کی جانب درد پائلو نیفرائٹس (گردے کے انفیکشن) کی ایک عام علامت ہے۔",
+                "tr": "Yan ağrısı, piyelonefrit (böbrek enfeksiyonu)nun tipik bir belirtisidir."
+            },
+            "points": 10,
+            "id": "e48_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist der PSA-Wert?",
+                "en": "What is the PSA level?",
+                "bn": "পিএসএ (PSA) মান কি?",
+                "hi": "पीएसए (PSA) स्तर क्या है?",
+                "ur": "پی ایس اے (PSA) لیول کیا ہے؟",
+                "tr": "PSA düzeyi nedir?"
+            },
+            "options": [
+                "Ein Leberenzym (A liver enzyme)",
+                "Ein Prostata-spezifisches Antigen (A prostate-specific antigen)",
+                "Ein Herzmarker (A heart marker)",
+                "Ein Entzündungsmarker (An inflammation marker)"
+            ],
+            "correctAnswer": "Ein Prostata-spezifisches Antigen (A prostate-specific antigen)",
+            "explanation": {
+                "en": "PSA is a prostate-specific antigen, used to screen for prostate cancer and other prostate conditions.",
+                "bn": "পিএসএ হল প্রোস্টেট-নির্দিষ্ট অ্যান্টিজেন, যা প্রোস্টেট ক্যান্সার এবং অন্যান্য প্রোস্টেট অবস্থার স্ক্রিনিংয়ের জন্য ব্যবহৃত হয়।",
+                "hi": "पीएसए एक प्रोस्टेट-विशिष्ट एंटीजन है, जिसका उपयोग प्रोस्टेट कैंसर और अन्य प्रोस्टेट स्थितियों के लिए स्क्रीनिंग के लिए किया जाता है।",
+                "ur": "پی ایس اے ایک پروسٹیٹ سے مخصوص اینٹیجن ہے جو پروسٹیٹ کینسر اور پروسٹیٹ کے دیگر حالات کے لیے سکریننگ کے لیے استعمال ہوتا ہے۔",
+                "tr": "PSA, prostat kanseri ve diğer prostat rahatsızlıkları için tarama yapmak için kullanılan prostat spesifik antijenidir."
+            },
+            "points": 10,
+            "id": "e48_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welcher Test wird verwendet, um die Nierenfunktion zu beurteilen?",
+                "en": "Which test is used to assess kidney function?",
+                "bn": "কিডনির কার্যকারিতা মূল্যায়ন করার জন্য কোন পরীক্ষা ব্যবহার করা হয়?",
+                "hi": "गुर्दे की कार्यप्रणाली का आकलन करने के लिए किस परीक्षण का उपयोग किया जाता है?",
+                "ur": "گردے کی کارکردگی کا جائزہ لینے کے لیے کون سا ٹیسٹ استعمال کیا جاتا ہے؟",
+                "tr": "Böbrek fonksiyonunu değerlendirmek için hangi test kullanılır?"
+            },
+            "options": [
+                "EKG (ECG)",
+                "Urinanalyse (Urinalysis)",
+                "Röntgen (X-ray)",
+                "MRT (MRI)"
+            ],
+            "correctAnswer": "Urinanalyse (Urinalysis)",
+            "explanation": {
+                "en": "Urinalysis is often used to assess kidney function.",
+                "bn": "প্রস্রাব পরীক্ষা প্রায়শই কিডনির কার্যকারিতা মূল্যায়ন করতে ব্যবহৃত হয়।",
+                "hi": "मूत्र विश्लेषण अक्सर गुर्दे की कार्यप्रणाली का आकलन करने के लिए उपयोग किया जाता है।",
+                "ur": "پیشاب کا تجزیہ اکثر گردے کی کارکردگی کا جائزہ لینے کے لیے استعمال کیا جاتا ہے۔",
+                "tr": "İdrar tahlili genellikle böbrek fonksiyonunu değerlendirmek için kullanılır."
+            },
+            "points": 10,
+            "id": "e48_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein ______ ist ein Schlauch, der in die Blase eingeführt wird, um Urin abzuleiten.",
+                "en": "A ______ is a tube inserted into the bladder to drain urine.",
+                "bn": "একটি ______ হল একটি নল যা প্রস্রাব নিষ্কাশনের জন্য মূত্রাশয়ে ঢোকানো হয়।",
+                "hi": "एक ______ एक ट्यूब है जिसे मूत्र को निकालने के लिए मूत्राशय में डाला जाता है।",
+                "ur": "ایک ______ ایک ٹیوب ہے جو پیشاب نکالنے کے لیے مثانے میں داخل کی جاتی ہے۔",
+                "tr": "Bir ______ idrarı boşaltmak için mesaneye yerleştirilen bir tüptür."
+            },
+            "options": [],
+            "correctAnswer": "Katheter",
+            "explanation": {
+                "en": "A catheter is a tube inserted into the bladder to drain urine.",
+                "bn": "ক্যাথেটার হল একটি নল যা প্রস্রাব নিষ্কাশনের জন্য মূত্রাশয়ে ঢোকানো হয়।",
+                "hi": "कैथेटर एक ट्यूब है जिसे मूत्र को निकालने के लिए मूत्राशय में डाला जाता है।",
+                "ur": "کیتھیٹر ایک ٹیوب ہے جو پیشاب نکالنے کے لیے مثانے میں داخل کی جاتی ہے۔",
+                "tr": "Kateter, idrarı boşaltmak için mesaneye yerleştirilen bir tüptür."
+            },
+            "points": 10,
+            "id": "e48_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die ______ ist ein Organ, das bei Männern unterhalb der Blase liegt.",
+                "en": "The ______ is an organ located below the bladder in men.",
+                "bn": "______ হল একটি অঙ্গ যা পুরুষদের মধ্যে মূত্রাশয়ের নীচে অবস্থিত।",
+                "hi": "______ एक अंग है जो पुरुषों में मूत्राशय के नीचे स्थित है।",
+                "ur": "______ ایک عضو ہے جو مردوں میں مثانے کے نیچے واقع ہے۔",
+                "tr": "______ erkeklerde mesanenin altında bulunan bir organdır."
+            },
+            "options": [],
+            "correctAnswer": "Prostata",
+            "explanation": {
+                "en": "The prostate is an organ located below the bladder in men.",
+                "bn": "প্রোস্টেট হল একটি অঙ্গ যা পুরুষদের মধ্যে মূত্রাশয়ের নীচে অবস্থিত।",
+                "hi": "प्रोस्टेट एक अंग है जो पुरुषों में मूत्राशय के नीचे स्थित है।",
+                "ur": "پروسٹیٹ ایک عضو ہے جو مردوں میں مثانے کے نیچے واقع ہے۔",
+                "tr": "Prostat, erkeklerde mesanenin altında bulunan bir organdır."
+            },
+            "points": 10,
+            "id": "e48_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bei einer Dialyse wird das ______ außerhalb des Körpers gereinigt.",
+                "en": "During dialysis, the ______ is cleaned outside the body.",
+                "bn": "ডায়ালাইসিসের সময়, শরীরের বাইরে ______ পরিষ্কার করা হয়।",
+                "hi": "डायलिसिस के दौरान, शरीर के बाहर ______ को साफ किया जाता है।",
+                "ur": "ڈائیلاسز کے دوران، جسم کے باہر ______ کو صاف کیا جاتا ہے۔",
+                "tr": "Diyaliz sırasında, ______ vücudun dışında temizlenir."
+            },
+            "options": [],
+            "correctAnswer": "Blut",
+            "explanation": {
+                "en": "During dialysis, the blood is cleaned outside the body.",
+                "bn": "ডায়ালাইসিসের সময়, শরীরের বাইরে রক্ত ​​পরিষ্কার করা হয়।",
+                "hi": "डायलिसिस के दौरान, शरीर के बाहर रक्त ​​को साफ किया जाता है।",
+                "ur": "ڈائیلاسز کے دوران، جسم کے باہر خون کو صاف کیا جاتا ہے۔",
+                "tr": "Diyaliz sırasında, kan vücudun dışında temizlenir."
+            },
+            "points": 10,
+            "id": "e48_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Eine ______ ist eine Entzündung der Harnblase.",
+                "en": "A ______ is an inflammation of the urinary bladder.",
+                "bn": "একটি ______ হল মূত্রাশয়ের প্রদাহ।",
+                "hi": "एक ______ मूत्र मूत्राशय की सूजन है।",
+                "ur": "ایک ______ پیشاب کے مثانے کی سوزش ہے۔",
+                "tr": "Bir ______ idrar kesesinin iltihaplanmasıdır."
+            },
+            "options": [],
+            "correctAnswer": "Zystitis",
+            "explanation": {
+                "en": "Cystitis is an inflammation of the urinary bladder.",
+                "bn": "সিস্টাইটিস হল মূত্রাশয়ের প্রদাহ।",
+                "hi": "सिस्टिटिस मूत्र मूत्राशय की सूजन है।",
+                "ur": "سسٹائٹس پیشاب کے مثانے کی سوزش ہے۔",
+                "tr": "Sistit, idrar kesesinin iltihaplanmasıdır."
+            },
+            "points": 10,
+            "id": "e48_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Der ______ ist der Spezialist für Nierenerkrankungen.",
+                "en": "The ______ is the specialist for kidney diseases.",
+                "bn": "______ হলেন কিডনি রোগের বিশেষজ্ঞ।",
+                "hi": "______ गुर्दे की बीमारियों के विशेषज्ञ हैं।",
+                "ur": "______ گردے کی بیماریوں کے ماہر ہیں۔",
+                "tr": "______ böbrek hastalıkları uzmanıdır."
+            },
+            "options": [],
+            "correctAnswer": "Nephrologe",
+            "explanation": {
+                "en": "The nephrologist is the specialist for kidney diseases.",
+                "bn": "নেফ্রোলজিস্ট হলেন কিডনি রোগের বিশেষজ্ঞ।",
+                "hi": "नेफ्रोलॉजिस्ट गुर्दे की बीमारियों के विशेषज्ञ हैं।",
+                "ur": "نیفرولوجسٹ گردے کی بیماریوں کے ماہر ہیں۔",
+                "tr": "Nefrolog, böbrek hastalıkları uzmanıdır."
+            },
+            "points": 10,
+            "id": "e48_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Ich habe Schmerzen beim Wasserlassen.",
+                "en": "I have pain when urinating.",
+                "bn": "আমার প্রস্রাব করার সময় ব্যথা হয়।",
+                "hi": "मुझे पेशाब करते समय दर्द होता है।",
+                "ur": "مجھے پیشاب کرتے وقت درد ہوتا ہے۔",
+                "tr": "İdrar yaparken ağrım oluyor."
+            },
+            "options": [],
+            "correctAnswer": "I have pain when urinating.",
+            "explanation": {
+                "en": "The German sentence translates to 'I have pain when urinating'.",
+                "bn": "জার্মান বাক্যটির অনুবাদ হল 'আমার প্রস্রাব করার সময় ব্যথা হয়'।",
+                "hi": "जर्मन वाक्य का अनुवाद है 'मुझे पेशाब करते समय दर्द होता है'।",
+                "ur": "جرمن جملے کا ترجمہ ہے 'مجھے پیشاب کرتے وقت درد ہوتا ہے'۔",
+                "tr": "Almanca cümlenin çevirisi 'İdrar yaparken ağrım oluyor'."
+            },
+            "points": 10,
+            "id": "e48_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Wir müssen eine Urinanalyse durchführen.",
+                "en": "We need to perform a urinalysis.",
+                "bn": "আমাদের একটি প্রস্রাব পরীক্ষা করতে হবে।",
+                "hi": "हमें एक मूत्र विश्लेषण करना होगा।",
+                "ur": "ہمیں پیشاب کا تجزیہ کرنا ہوگا۔",
+                "tr": "İdrar tahlili yapmamız gerekiyor."
+            },
+            "options": [],
+            "correctAnswer": "We need to perform a urinalysis.",
+            "explanation": {
+                "en": "The German sentence translates to 'We need to perform a urinalysis'.",
+                "bn": "জার্মান বাক্যটির অনুবাদ হল 'আমাদের একটি প্রস্রাব পরীক্ষা করতে হবে'।",
+                "hi": "जर्मन वाक्य का अनुवाद है 'हमें एक मूत्र विश्लेषण करना होगा'।",
+                "ur": "جرمن جملے کا ترجمہ ہے 'ہمیں پیشاب کا تجزیہ کرنا ہوگا'۔",
+                "tr": "Almanca cümlenin çevirisi 'İdrar tahlili yapmamız gerekiyor'."
+            },
+            "points": 10,
+            "id": "e48_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Der Patient benötigt eine Dialyse.",
+                "en": "The patient needs dialysis.",
+                "bn": "রোগীর ডায়ালাইসিস প্রয়োজন।",
+                "hi": "मरीज को डायलिसिस की जरूरत है।",
+                "ur": "مریض کو ڈائیلاسز کی ضرورت ہے۔",
+                "tr": "Hastanın diyalize ihtiyacı var."
+            },
+            "options": [],
+            "correctAnswer": "The patient needs dialysis.",
+            "explanation": {
+                "en": "The German sentence translates to 'The patient needs dialysis'.",
+                "bn": "জার্মান বাক্যটির অনুবাদ হল 'রোগীর ডায়ালাইসিস প্রয়োজন'।",
+                "hi": "जर्मन वाक्य का अनुवाद है 'मरीज को डायलिसिस की जरूरत है'।",
+                "ur": "جرمن جملے کا ترجمہ ہے 'مریض کو ڈائیلاسز کی ضرورت ہے'۔",
+                "tr": "Almanca cümlenin çevirisi 'Hastanın diyalize ihtiyacı var'."
+            },
+            "points": 10,
+            "id": "e48_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

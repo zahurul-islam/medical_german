@@ -1,1 +1,1579 @@
-{"id":"section_36","phaseId":"phase3","order":36,"titleDe":"Medizinische Ethik","title":{"en":"Medical Ethics","bn":"Medical Ethics","hi":"Medical Ethics","ur":"Medical Ethics","tr":"Medical Ethics"},"level":"C1","estimatedMinutes":40,"vocabulary":[{"id":"v36_01","germanTerm":"Fachbegriff","article":"der","plural":"Fachbegriffe","translation":{"en":"Technical Term","bn":"টেকনিক্যাল টার্ম","hi":"तकनीकी शब्द","ur":"تکنیکی اصطلاح","tr":"Teknik terim"}}],"dialogues":[{"id":"d36_01","title":{"en":"Professional Scenario"},"lines":[{"speaker":"Oberarzt","germanText":"Professional dialogue for Medical Ethics.","translation":{"en":"Professional dialogue for Medical Ethics."}}]}],"exercises":[{"id":"e36_01","type":"multipleChoice","question":{"en":"Advanced question for Medical Ethics?"},"options":["Option A","Option B","Option C"],"correctAnswer":"Option A","points":15}]}
+{
+    "id": "section_36",
+    "phaseId": "phase3",
+    "order": 36,
+    "titleDe": "Medizinische Ethik",
+    "title": {
+        "en": "Medical Ethics: Advance Directives, Powers of Attorney, Treatment Goals, Palliative, Curative",
+        "bn": "চিকিৎসা নৈতিকতা: অগ্রিম নির্দেশনা, পাওয়ার অফ অ্যাটর্নি, চিকিৎসার লক্ষ্য, উপশমকারী, নিরাময়যোগ্য",
+        "hi": "चिकित्सा नैतिकता: अग्रिम निर्देश, मुख्तारनामा, उपचार लक्ष्य, प्रशामक, उपचारात्मक",
+        "ur": "طبی اخلاقیات: پیشگی ہدایات، وکالت نامہ، علاج کے اہداف، تسکین دہندہ، علاجی",
+        "tr": "Tıbbi Etik: Önceden Talimatlar, Vekaletname, Tedavi Hedefleri, Palyatif, Küratif",
+        "de": "Medizinische Ethik: Patientenverfügung, Vorsorgevollmacht, Therapieziel, Palliativ, Kurativ"
+    },
+    "description": {
+        "en": "This section explores crucial aspects of medical ethics in Germany, focusing on patient autonomy, end-of-life care, and treatment goals.",
+        "bn": "এই বিভাগে জার্মানির চিকিৎসা নৈতিকতার গুরুত্বপূর্ণ দিকগুলি আলোচনা করা হয়েছে, যা রোগীর স্বায়ত্তশাসন, জীবনের শেষ মুহূর্তের যত্ন এবং চিকিৎসার লক্ষ্যের উপর আলোকপাত করে।",
+        "hi": "यह खंड जर्मनी में चिकित्सा नैतिकता के महत्वपूर्ण पहलुओं का पता लगाता है, जो रोगी स्वायत्तता, जीवन के अंत की देखभाल और उपचार लक्ष्यों पर ध्यान केंद्रित करता है।",
+        "ur": "یہ سیکشن جرمنی میں طبی اخلاقیات کے اہم پہلوؤں کی کھوج کرتا ہے، جو مریض کی خود مختاری، زندگی کے آخری لمحات کی دیکھ بھال اور علاج کے اہداف پر توجہ مرکوز کرتا ہے۔",
+        "tr": "Bu bölüm, Almanya'daki tıbbi etiğin önemli yönlerini inceleyerek hasta özerkliği, yaşam sonu bakımı ve tedavi hedeflerine odaklanmaktadır.",
+        "de": "Dieser Abschnitt untersucht die entscheidenden Aspekte der medizinischen Ethik in Deutschland und konzentriert sich auf die Patientenautonomie, die Versorgung am Lebensende und die Behandlungsziele."
+    },
+    "level": "C1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this module, we will learn about the legal and ethical frameworks surrounding advance directives and powers of attorney in Germany. We will also explore the concepts of palliative and curative care and their relevance to treatment goals.",
+            "bn": "এই মডিউলে, আমরা জার্মানির অগ্রিম নির্দেশনা এবং পাওয়ার অফ অ্যাটর্নি সংক্রান্ত আইনি এবং নৈতিক কাঠামো সম্পর্কে শিখব। আমরা উপশমকারী এবং নিরাময়যোগ্য যত্নের ধারণা এবং চিকিৎসার লক্ষ্যের সাথে তাদের প্রাসঙ্গিকতাও অনুসন্ধান করব।",
+            "hi": "इस मॉड्यूल में, हम जर्मनी में अग्रिम निर्देशों और मुख्तारनामे से संबंधित कानूनी और नैतिक ढांचे के बारे में जानेंगे। हम प्रशामक और उपचारात्मक देखभाल की अवधारणाओं और उपचार लक्ष्यों के लिए उनकी प्रासंगिकता का भी पता लगाएंगे।",
+            "ur": "اس ماڈیول میں، ہم جرمنی میں پیشگی ہدایات اور وکالت نامہ سے متعلق قانونی اور اخلاقی فریم ورک کے بارے میں جانیں گے۔ ہم تسکین دہندہ اور علاجی نگہداشت کے تصورات اور علاج کے اہداف کے لیے ان کی مطابقت کو بھی تلاش کریں گے۔",
+            "tr": "Bu modülde, Almanya'daki önceden talimatlar ve vekaletname ile ilgili yasal ve etik çerçeveleri öğreneceğiz. Ayrıca palyatif ve küratif bakım kavramlarını ve bunların tedavi hedefleriyle ilgisini inceleyeceğiz.",
+            "de": "In diesem Modul lernen wir die rechtlichen und ethischen Rahmenbedingungen für Patientenverfügungen und Vorsorgevollmachten in Deutschland kennen. Wir werden auch die Konzepte der Palliativ- und Kurativversorgung und ihre Relevanz für die Behandlungsziele untersuchen."
+        },
+        "grammarFocus": {
+            "en": {
+                "1": "Understanding the use of modal verbs (e.g., *sollen*, *müssen*) when discussing patient wishes and legal obligations.",
+                "2": "Practicing the accurate use of the genitive case when referring to legal documents and patient rights."
+            },
+            "bn": {
+                "1": "রোগীর ইচ্ছা এবং আইনি বাধ্যবাধকতা নিয়ে আলোচনার সময় মোডাল ক্রিয়াগুলির (যেমন, *sollen*, *müssen*) ব্যবহার বোঝা।",
+                "2": "আইনি নথি এবং রোগীর অধিকার উল্লেখ করার সময় জেনিটিভ কেসের সঠিক ব্যবহার অনুশীলন করা।"
+            },
+            "hi": {
+                "1": "रोगी की इच्छाओं और कानूनी बाध्यताओं पर चर्चा करते समय मोडल क्रियाओं (जैसे, *sollen*, *müssen*) का उपयोग समझना।",
+                "2": "कानूनी दस्तावेजों और रोगी अधिकारों का उल्लेख करते समय जेनेटिव मामले का सटीक उपयोग का अभ्यास करना।"
+            },
+            "ur": {
+                "1": "مریض کی خواہشات اور قانونی ذمہ داریوں پر بات کرتے وقت ماڈل افعال (جیسے، *sollen*, *müssen*) کا استعمال سمجھنا۔",
+                "2": "قانونی دستاویزات اور مریض کے حقوق کا حوالہ دیتے وقت جینیٹیو کیس کا درست استعمال کرنا۔"
+            },
+            "tr": {
+                "1": "Hasta isteklerini ve yasal yükümlülükleri tartışırken modal fiillerin (örn., *sollen*, *müssen*) kullanımını anlamak.",
+                "2": "Yasal belgelere ve hasta haklarına atıfta bulunurken genitif halinin doğru kullanımını uygulamak."
+            },
+            "de": {
+                "1": "Verständnis des Gebrauchs von Modalverben (z.B. *sollen*, *müssen*) bei der Erörterung von Patientenwünschen und rechtlichen Verpflichtungen.",
+                "2": "Üben Sie die korrekte Verwendung des Genitivs bei der Bezugnahme auf Rechtsdokumente und Patientenrechte."
+            }
+        },
+        "culturalNotes": {
+            "en": "German hospitals often have dedicated ethics committees to address complex medical ethical dilemmas, reflecting a strong emphasis on ethical considerations in patient care.",
+            "bn": "জার্মান হাসপাতালগুলিতে প্রায়শই জটিল চিকিৎসা নৈতিক দ্বিধা নিরসনের জন্য ডেডিকেটেড এথিক্স কমিটি থাকে, যা রোগীর যত্নে নৈতিক বিবেচনার উপর দৃঢ় জোর প্রতিফলিত করে।",
+            "hi": "जर्मन अस्पतालों में अक्सर जटिल चिकित्सा नैतिक दुविधाओं को दूर करने के लिए समर्पित नैतिकता समितियाँ होती हैं, जो रोगी की देखभाल में नैतिक विचारों पर एक मजबूत जोर दर्शाती हैं।",
+            "ur": "جرمن ہسپتالوں میں اکثر پیچیدہ طبی اخلاقی مخمصوں کو حل کرنے کے لیے وقف اخلاقیات کمیٹیاں ہوتی ہیں، جو مریض کی دیکھ بھال میں اخلاقی تحفظات پر ایک مضبوط زور کی عکاسی کرتی ہیں۔",
+            "tr": "Alman hastanelerinde, hasta bakımında etik hususlara güçlü bir vurgu yansıtarak, karmaşık tıbbi etik ikilemlerini ele almak için genellikle özel etik komiteleri bulunur.",
+            "de": "Deutsche Krankenhäuser haben oft spezielle Ethikkommissionen, die sich mit komplexen medizinisch-ethischen Dilemmata befassen, was die große Bedeutung ethischer Überlegungen in der Patientenversorgung widerspiegelt."
+        },
+        "summary": {
+            "en": "This section provided an overview of key ethical considerations in German medical practice, including advance directives, powers of attorney, treatment goals, and palliative versus curative care.",
+            "bn": "এই বিভাগে জার্মান চিকিৎসা অনুশীলনে মূল নৈতিক বিবেচনার একটি ওভারভিউ প্রদান করা হয়েছে, যার মধ্যে রয়েছে অগ্রিম নির্দেশনা, পাওয়ার অফ অ্যাটর্নি, চিকিৎসার লক্ষ্য এবং উপশমকারী বনাম নিরাময়যোগ্য যত্ন।",
+            "hi": "इस खंड में जर्मन चिकित्सा पद्धति में प्रमुख नैतिक विचारों का अवलोकन प्रदान किया गया है, जिसमें अग्रिम निर्देश, मुख्तारनामा, उपचार लक्ष्य और प्रशामक बनाम उपचारात्मक देखभाल शामिल हैं।",
+            "ur": "اس سیکشن میں جرمن طبی طریق کار میں اہم اخلاقی تحفظات کا ایک جائزہ فراہم کیا گیا ہے، جس میں پیشگی ہدایات، وکالت نامہ، علاج کے اہداف اور تسکین دہندہ بمقابلہ علاجی نگہداشت شامل ہیں۔",
+            "tr": "Bu bölüm, Alman tıbbi uygulamalarında önceden talimatlar, vekaletname, tedavi hedefleri ve palyatif ile küratif bakım dahil olmak üzere temel etik hususlara genel bir bakış sağlamıştır.",
+            "de": "Dieser Abschnitt gab einen Überblick über wichtige ethische Überlegungen in der deutschen medizinischen Praxis, einschließlich Patientenverfügung, Vorsorgevollmacht, Behandlungsziele und Palliative versus kurative Versorgung."
+        },
+        "learningObjectives": [
+            "Define and differentiate between Patientenverfügung (advance directive) and Vorsorgevollmacht (power of attorney).",
+            "Explain the legal and ethical implications of advance directives and powers of attorney in Germany.",
+            "Discuss the concepts of curative and palliative care and their application in different clinical settings.",
+            "Identify key considerations for setting treatment goals in consultation with patients and their families."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "die Patientenverfügung",
+            "article": "die",
+            "plural": "die Patientenverfügungen",
+            "pronunciation": "/paˈtsi̯ɛntənfɛɐ̯ˈfyːɡʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "advance healthcare directive",
+                "bn": "অ্যাডভান্স হেলথকেয়ার ডিরেক্টিভ",
+                "hi": "अग्रिम स्वास्थ्य सेवा निर्देश",
+                "ur": "ایڈوانس ہیلتھ کیئر ڈائریکٹو",
+                "tr": "önceden sağlık hizmeti direktifi"
+            },
+            "exampleSentence": "Der Arzt hat die Patientenverfügung des Patienten sorgfältig geprüft.",
+            "exampleTranslation": {
+                "en": "The doctor carefully examined the patient's advance healthcare directive.",
+                "bn": "ডাক্তার রোগীর অ্যাডভান্স হেলথকেয়ার ডিরেক্টিভটি ভালোভাবে পরীক্ষা করেছেন।",
+                "hi": "डॉक्टर ने मरीज के अग्रिम स्वास्थ्य सेवा निर्देश की सावधानीपूर्वक जांच की।",
+                "ur": "ڈاکٹر نے مریض کے ایڈوانس ہیلتھ کیئر ڈائریکٹو کا بغور جائزہ لیا۔",
+                "tr": "Doktor hastanın önceden sağlık hizmeti direktifini dikkatlice inceledi."
+            },
+            "id": "v36_01"
+        },
+        {
+            "germanTerm": "die Vorsorgevollmacht",
+            "article": "die",
+            "plural": "die Vorsorgevollmachten",
+            "pronunciation": "/ˈfoːɐ̯ˌzɔʁɡəfɔlˌmaxt/",
+            "category": "noun",
+            "translation": {
+                "en": "healthcare proxy",
+                "bn": "স্বাস্থ্যসেবা প্রক্সি",
+                "hi": "स्वास्थ्य सेवा प्रॉक्सी",
+                "ur": "صحت کی دیکھ بھال پراکسی",
+                "tr": "sağlık hizmeti vekili"
+            },
+            "exampleSentence": "Die Tochter präsentierte die Vorsorgevollmacht für ihre Mutter.",
+            "exampleTranslation": {
+                "en": "The daughter presented the healthcare proxy for her mother.",
+                "bn": "মেয়ে তার মায়ের জন্য স্বাস্থ্যসেবা প্রক্সি উপস্থাপন করলো।",
+                "hi": "बेटी ने अपनी माँ के लिए स्वास्थ्य सेवा प्रॉक्सी प्रस्तुत की।",
+                "ur": "بیٹی نے اپنی ماں کے لیے صحت کی دیکھ بھال کی پراکسی پیش کی۔",
+                "tr": "Kız annesi için sağlık hizmeti vekilini sundu."
+            },
+            "id": "v36_02"
+        },
+        {
+            "germanTerm": "das Therapieziel",
+            "article": "das",
+            "plural": "die Therapieziele",
+            "pronunciation": "/teʁaˈpiːˌtsiːl/",
+            "category": "noun",
+            "translation": {
+                "en": "treatment goal",
+                "bn": "চিকিৎসা লক্ষ্য",
+                "hi": "उपचार लक्ष्य",
+                "ur": "علاج کا مقصد",
+                "tr": "tedavi hedefi"
+            },
+            "exampleSentence": "Das Therapieziel ist die Schmerzlinderung und Verbesserung der Lebensqualität.",
+            "exampleTranslation": {
+                "en": "The treatment goal is pain relief and improvement of quality of life.",
+                "bn": "চিকিৎসা লক্ষ্য হল ব্যথা উপশম এবং জীবনের মান উন্নয়ন।",
+                "hi": "उपचार का लक्ष्य दर्द से राहत और जीवन की गुणवत्ता में सुधार करना है।",
+                "ur": "علاج کا مقصد درد سے نجات اور زندگی کے معیار کو بہتر بنانا ہے۔",
+                "tr": "Tedavi hedefi ağrıyı dindirmek ve yaşam kalitesini iyileştirmektir."
+            },
+            "id": "v36_03"
+        },
+        {
+            "germanTerm": "palliativ",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/paliaˈtiːf/",
+            "category": "adjective",
+            "translation": {
+                "en": "palliative",
+                "bn": "উপশমমূলক",
+                "hi": "उपशामक",
+                "ur": "تسکین دہندہ",
+                "tr": "palyatif"
+            },
+            "exampleSentence": "Die palliative Versorgung konzentriert sich auf die Linderung von Symptomen.",
+            "exampleTranslation": {
+                "en": "Palliative care focuses on relieving symptoms.",
+                "bn": "উপশমমূলক পরিচর্যা উপসর্গগুলি উপশম করার উপর দৃষ্টি নিবদ্ধ করে।",
+                "hi": "उपशामक देखभाल लक्षणों से राहत दिलाने पर केंद्रित है।",
+                "ur": "تسکین بخش دیکھ بھال علامات کو دور کرنے پر توجہ مرکوز کرتی ہے۔",
+                "tr": "Palyatif bakım, semptomları hafifletmeye odaklanır."
+            },
+            "id": "v36_04"
+        },
+        {
+            "germanTerm": "kurativ",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/kuʁaˈtiːf/",
+            "category": "adjective",
+            "translation": {
+                "en": "curative",
+                "bn": "আরোগ্যমূলক",
+                "hi": "उपचारात्मक",
+                "ur": "علاج معالجہ",
+                "tr": "iyileştirici"
+            },
+            "exampleSentence": "Die kurative Behandlung zielt auf die Heilung der Krankheit ab.",
+            "exampleTranslation": {
+                "en": "The curative treatment aims to heal the disease.",
+                "bn": "আরোগ্যমূলক চিকিৎসা রোগের নিরাময়ের লক্ষ্যে করা হয়।",
+                "hi": "उपचारात्मक उपचार का उद्देश्य रोग को ठीक करना है।",
+                "ur": "علاج معالجہ کا مقصد بیماری کو ٹھیک کرنا ہے۔",
+                "tr": "İyileştirici tedavi hastalığı iyileştirmeyi amaçlar."
+            },
+            "id": "v36_05"
+        },
+        {
+            "germanTerm": "die Würde",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/ˈvʏʁdə/",
+            "category": "noun",
+            "translation": {
+                "en": "dignity",
+                "bn": "মর্যাদা",
+                "hi": "गरिमा",
+                "ur": "وقار",
+                "tr": "onur"
+            },
+            "exampleSentence": "Die Würde des Patienten muss stets respektiert werden.",
+            "exampleTranslation": {
+                "en": "The patient's dignity must always be respected.",
+                "bn": "রোগীর মর্যাদা সর্বদা সম্মান করা উচিত।",
+                "hi": "रोगी की गरिमा का हमेशा सम्मान किया जाना चाहिए।",
+                "ur": "مریض کے وقار کا ہمیشہ احترام کیا جانا چاہیے۔",
+                "tr": "Hastanın onuruna her zaman saygı duyulmalıdır."
+            },
+            "id": "v36_06"
+        },
+        {
+            "germanTerm": "die Autonomie",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/aʊ̯tonoˈmiː/",
+            "category": "noun",
+            "translation": {
+                "en": "autonomy",
+                "bn": "স্বায়ত্তশাসন",
+                "hi": "स्वायत्तता",
+                "ur": "خود مختاری",
+                "tr": "özerklik"
+            },
+            "exampleSentence": "Die Autonomie des Patienten ist ein wichtiger ethischer Grundsatz.",
+            "exampleTranslation": {
+                "en": "The patient's autonomy is an important ethical principle.",
+                "bn": "রোগীর স্বায়ত্তশাসন একটি গুরুত্বপূর্ণ নৈতিক নীতি।",
+                "hi": "रोगी की स्वायत्तता एक महत्वपूर्ण नैतिक सिद्धांत है।",
+                "ur": "مریض کی خود مختاری ایک اہم اخلاقی اصول ہے۔",
+                "tr": "Hastanın özerkliği önemli bir etik ilkedir."
+            },
+            "id": "v36_07"
+        },
+        {
+            "germanTerm": "die Aufklärung",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/ˈaʊ̯fklɛːʁʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "informed consent",
+                "bn": "সচেতন সম্মতি",
+                "hi": "सूचित सहमति",
+                "ur": "باخبر رضامندی",
+                "tr": "bilgilendirilmiş onay"
+            },
+            "exampleSentence": "Vor der Operation muss der Patient eine ausführliche Aufklärung erhalten.",
+            "exampleTranslation": {
+                "en": "Before the operation, the patient must receive a detailed informed consent.",
+                "bn": "অপারেশনের আগে রোগীকে একটি বিস্তারিত সচেতন সম্মতি নিতে হবে।",
+                "hi": "ऑपरेशन से पहले, रोगी को एक विस्तृत सूचित सहमति प्राप्त करनी होगी।",
+                "ur": "آپریشن سے پہلے، مریض کو ایک تفصیلی باخبر رضامندی حاصل کرنی ہوگی۔",
+                "tr": "Ameliyattan önce hastaya ayrıntılı bir bilgilendirilmiş onay verilmelidir."
+            },
+            "id": "v36_08"
+        },
+        {
+            "germanTerm": "das Einverständnis",
+            "article": "das",
+            "plural": "kein Plural",
+            "pronunciation": "/ˈaɪ̯nfɛɐ̯ˌʃtɛntnɪs/",
+            "category": "noun",
+            "translation": {
+                "en": "consent",
+                "bn": "সম্মতি",
+                "hi": "सहमति",
+                "ur": "رضامندی",
+                "tr": "rıza"
+            },
+            "exampleSentence": "Ohne das Einverständnis des Patienten darf keine Behandlung durchgeführt werden.",
+            "exampleTranslation": {
+                "en": "No treatment may be performed without the patient's consent.",
+                "bn": "রোগীর সম্মতি ছাড়া কোনো চিকিৎসা করা যাবে না।",
+                "hi": "रोगी की सहमति के बिना कोई उपचार नहीं किया जा सकता।",
+                "ur": "مریض کی رضامندی کے بغیر کوئی علاج نہیں کیا جا سکتا۔",
+                "tr": "Hastanın rızası olmadan hiçbir tedavi yapılamaz."
+            },
+            "id": "v36_09"
+        },
+        {
+            "germanTerm": "die Selbstbestimmung",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/ˈzɛlpstbəˌʃtɪmʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "self-determination",
+                "bn": "আত্মনিয়ন্ত্রণ",
+                "hi": "आत्मनिर्णय",
+                "ur": "خود ارادیت",
+                "tr": "kendi kaderini tayin etme"
+            },
+            "exampleSentence": "Die Selbstbestimmung des Patienten muss respektiert werden, auch wenn die Entscheidung medizinisch nicht optimal ist.",
+            "exampleTranslation": {
+                "en": "The patient's self-determination must be respected, even if the decision is not medically optimal.",
+                "bn": "রোগীর আত্মনিয়ন্ত্রণকে সম্মান করতে হবে, এমনকি যদি সিদ্ধান্তটি চিকিৎসাগতভাবে অনুকূল না হয়।",
+                "hi": "रोगी के आत्मनिर्णय का सम्मान किया जाना चाहिए, भले ही निर्णय चिकित्सकीय रूप से इष्टतम न हो।",
+                "ur": "مریض کی خود ارادیت کا احترام کیا جانا چاہیے، چاہے فیصلہ طبی طور پر بہترین نہ ہو۔",
+                "tr": "Hastanın kendi kaderini tayin etme hakkına saygı duyulmalıdır, karar tıbbi olarak en uygun olmasa bile."
+            },
+            "id": "v36_10"
+        },
+        {
+            "germanTerm": "die Patientenrechte",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/paˈtsi̯ɛntənˌʁɛçtə/",
+            "category": "noun",
+            "translation": {
+                "en": "patient rights",
+                "bn": "রোগীর অধিকার",
+                "hi": "मरीज अधिकार",
+                "ur": "مریض کے حقوق",
+                "tr": "hasta hakları"
+            },
+            "exampleSentence": "Der Arzt muss die Patientenrechte des Patienten kennen und respektieren.",
+            "exampleTranslation": {
+                "en": "The doctor must know and respect the patient's patient rights.",
+                "bn": "ডাক্তারকে রোগীর অধিকার জানতে এবং সম্মান করতে হবে।",
+                "hi": "डॉक्टर को मरीज के मरीज अधिकारों को जानना और उनका सम्मान करना चाहिए।",
+                "ur": "ڈاکٹر کو مریض کے مریض کے حقوق معلوم ہونے چاہییں اور ان کا احترام کرنا چاہیے۔",
+                "tr": "Doktor hastanın hasta haklarını bilmeli ve saygı duymalıdır."
+            },
+            "id": "v36_11"
+        },
+        {
+            "germanTerm": "das Patientenwohl",
+            "article": "das",
+            "plural": "kein Plural",
+            "pronunciation": "/paˈtsi̯ɛntənˌvoːl/",
+            "category": "noun",
+            "translation": {
+                "en": "patient well-being",
+                "bn": "রোগীর কল্যাণ",
+                "hi": "मरीज कल्याण",
+                "ur": "مریض کی بھلائی",
+                "tr": "hasta refahı"
+            },
+            "exampleSentence": "Das Patientenwohl steht im Mittelpunkt aller medizinischen Entscheidungen.",
+            "exampleTranslation": {
+                "en": "Patient well-being is at the heart of all medical decisions.",
+                "bn": "রোগীর কল্যাণ সমস্ত চিকিৎসা সিদ্ধান্তের কেন্দ্রবিন্দু।",
+                "hi": "मरीज कल्याण सभी चिकित्सा निर्णयों के केंद्र में है।",
+                "ur": "مریض کی بھلائی تمام طبی فیصلوں کے دل میں ہے۔",
+                "tr": "Hasta refahı, tüm tıbbi kararların merkezinde yer almaktadır."
+            },
+            "id": "v36_12"
+        },
+        {
+            "germanTerm": "der ethische Konflikt",
+            "article": "der",
+            "plural": "die ethischen Konflikte",
+            "pronunciation": "/ˈeːtɪʃɐ kɔnˈflɪkt/",
+            "category": "noun",
+            "translation": {
+                "en": "ethical conflict",
+                "bn": "নৈতিক সংঘাত",
+                "hi": "नैतिक संघर्ष",
+                "ur": "اخلاقی تنازعہ",
+                "tr": "etik çatışma"
+            },
+            "exampleSentence": "Bei einem ethischen Konflikt muss ein Ethikkomitee hinzugezogen werden.",
+            "exampleTranslation": {
+                "en": "In the event of an ethical conflict, an ethics committee must be consulted.",
+                "bn": "নৈতিক সংঘাতের ক্ষেত্রে একটি নৈতিকতা কমিটিকে পরামর্শ করতে হবে।",
+                "hi": "एक नैतिक संघर्ष की स्थिति में, एक नैतिकता समिति से परामर्श किया जाना चाहिए।",
+                "ur": "اخلاقی تنازعہ کی صورت میں، اخلاقیات کی کمیٹی سے مشورہ کرنا ضروری ہے۔",
+                "tr": "Etik bir çatışma durumunda, bir etik komitesine danışılmalıdır."
+            },
+            "id": "v36_13"
+        },
+        {
+            "germanTerm": "die Therapieverzicht",
+            "article": "der",
+            "plural": "die Therapieverzichte",
+            "pronunciation": "/teʁaˈpiːfɛɐ̯ˈtsɪçt/",
+            "category": "noun",
+            "translation": {
+                "en": "treatment refusal",
+                "bn": "চিকিৎসা প্রত্যাখ্যান",
+                "hi": "उपचार अस्वीकृति",
+                "ur": "علاج سے انکار",
+                "tr": "tedavi reddi"
+            },
+            "exampleSentence": "Der Therapieverzicht des Patienten wurde dokumentiert.",
+            "exampleTranslation": {
+                "en": "The patient's treatment refusal was documented.",
+                "bn": "রোগীর চিকিৎসা প্রত্যাখ্যান নথিভুক্ত করা হয়েছিল।",
+                "hi": "रोगी की उपचार अस्वीकृति को प्रलेखित किया गया था।",
+                "ur": "مریض کے علاج سے انکار کو دستاویزی شکل دی گئی تھی۔",
+                "tr": "Hastanın tedaviyi reddi belgelenmiştir."
+            },
+            "id": "v36_14"
+        },
+        {
+            "germanTerm": "die Lebensqualität",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/ˈleːbənskvaliteːt/",
+            "category": "noun",
+            "translation": {
+                "en": "quality of life",
+                "bn": "জীবনের মান",
+                "hi": "जीवन की गुणवत्ता",
+                "ur": "زندگی کا معیار",
+                "tr": "yaşam kalitesi"
+            },
+            "exampleSentence": "Die Lebensqualität des Patienten soll verbessert werden.",
+            "exampleTranslation": {
+                "en": "The patient's quality of life should be improved.",
+                "bn": "রোগীর জীবনের মান উন্নত করা উচিত।",
+                "hi": "रोगी के जीवन की गुणवत्ता में सुधार किया जाना चाहिए।",
+                "ur": "مریض کی زندگی کے معیار کو بہتر بنایا جانا چاہیے۔",
+                "tr": "Hastanın yaşam kalitesi iyileştirilmelidir."
+            },
+            "id": "v36_15"
+        },
+        {
+            "germanTerm": "die Patientenakte",
+            "article": "die",
+            "plural": "die Patientenakten",
+            "pronunciation": "/paˈtsi̯ɛntənˌʔaktə/",
+            "category": "noun",
+            "translation": {
+                "en": "patient file",
+                "bn": "রোগীর ফাইল",
+                "hi": "मरीज फ़ाइल",
+                "ur": "مریض کی فائل",
+                "tr": "hasta dosyası"
+            },
+            "exampleSentence": "Die Patientenakte muss sorgfältig geführt werden.",
+            "exampleTranslation": {
+                "en": "The patient file must be carefully maintained.",
+                "bn": "রোগীর ফাইল যত্ন সহকারে রক্ষণাবেক্ষণ করতে হবে।",
+                "hi": "मरीज फाइल को सावधानीपूर्वक बनाए रखा जाना चाहिए।",
+                "ur": "مریض کی فائل کو احتیاط سے برقرار رکھنا چاہیے۔",
+                "tr": "Hasta dosyası dikkatle tutulmalıdır."
+            },
+            "id": "v36_16"
+        },
+        {
+            "germanTerm": "die Schweigepflicht",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/ˈʃvaɪ̯ɡəˌpflɪçt/",
+            "category": "noun",
+            "translation": {
+                "en": "confidentiality",
+                "bn": "গোপনীয়তা",
+                "hi": "गोपनीयता",
+                "ur": "رازداری",
+                "tr": "gizlilik"
+            },
+            "exampleSentence": "Die Schweigepflicht ist für Ärzte von großer Bedeutung.",
+            "exampleTranslation": {
+                "en": "Confidentiality is of great importance to doctors.",
+                "bn": "চিকিৎসকদের জন্য গোপনীয়তা অত্যন্ত গুরুত্বপূর্ণ।",
+                "hi": "गोपनीयता डॉक्टरों के लिए बहुत महत्वपूर्ण है।",
+                "ur": "رازداری ڈاکٹروں کے لیے بہت اہم ہے۔",
+                "tr": "Gizlilik doktorlar için büyük önem taşımaktadır."
+            },
+            "id": "v36_17"
+        },
+        {
+            "germanTerm": "die Sterbebegleitung",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/ˈʃtɛʁbəbəˌɡlaɪ̯tʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "end-of-life care",
+                "bn": "মৃত্যুশয্যায় পরিচর্যা",
+                "hi": "मृत्युशय्या देखभाल",
+                "ur": "آخری ایام کی دیکھ بھال",
+                "tr": "yaşam sonu bakımı"
+            },
+            "exampleSentence": "Die Sterbebegleitung soll den Patienten in Würde sterben lassen.",
+            "exampleTranslation": {
+                "en": "End-of-life care is intended to allow patients to die with dignity.",
+                "bn": "মৃত্যুশয্যায় পরিচর্যার উদ্দেশ্য হল রোগীদের সম্মানের সাথে মৃত্যুবরণ করতে দেওয়া।",
+                "hi": "मृत्युशय्या देखभाल का उद्देश्य रोगियों को सम्मान के साथ मरने की अनुमति देना है।",
+                "ur": "آخری ایام کی دیکھ بھال کا مقصد مریضوں کو وقار کے ساتھ مرنے کی اجازت دینا ہے۔",
+                "tr": "Yaşam sonu bakımı, hastaların onurlu bir şekilde ölmesine izin vermeyi amaçlamaktadır."
+            },
+            "id": "v36_18"
+        },
+        {
+            "germanTerm": "der Therapieabbruch",
+            "article": "der",
+            "plural": "die Therapieabbrüche",
+            "pronunciation": "/teʁaˈpiːˌʔapbʁʊx/",
+            "category": "noun",
+            "translation": {
+                "en": "discontinuation of therapy",
+                "bn": "চিকিৎসা বন্ধ",
+                "hi": "चिकित्सा बंद",
+                "ur": "علاج کا منقطع ہونا",
+                "tr": "tedavinin kesilmesi"
+            },
+            "exampleSentence": "Der Therapieabbruch erfolgte auf Wunsch des Patienten.",
+            "exampleTranslation": {
+                "en": "The discontinuation of therapy occurred at the patient's request.",
+                "bn": "রোগীর অনুরোধে চিকিৎসা বন্ধ করা হয়েছে।",
+                "hi": "रोगी के अनुरोध पर चिकित्सा बंद कर दी गई।",
+                "ur": "مریض کی درخواست پر علاج بند کر دیا گیا۔",
+                "tr": "Tedavinin kesilmesi hastanın isteği üzerine gerçekleşti."
+            },
+            "id": "v36_19"
+        },
+        {
+            "germanTerm": "die Patientenverantwortung",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/paˈtsi̯ɛntənfɛɐ̯ˈʔantvɔʁtʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "patient responsibility",
+                "bn": "রোগীর দায়িত্ব",
+                "hi": "मरीज की जिम्मेदारी",
+                "ur": "مریض کی ذمہ داری",
+                "tr": "hasta sorumluluğu"
+            },
+            "exampleSentence": "Die Patientenverantwortung umfasst die Einhaltung der Therapieempfehlungen.",
+            "exampleTranslation": {
+                "en": "Patient responsibility includes adherence to therapy recommendations.",
+                "bn": "রোগীর দায়িত্বের মধ্যে থেরাপির সুপারিশগুলি মেনে চলা অন্তর্ভুক্ত।",
+                "hi": "मरीज की जिम्मेदारी में थेरेपी सिफारिशों का पालन शामिल है।",
+                "ur": "مریض کی ذمہ داری میں تھراپی سفارشات پر عمل کرنا شامل ہے۔",
+                "tr": "Hasta sorumluluğu, terapi önerilerine uymayı içerir."
+            },
+            "id": "v36_20"
+        },
+        {
+            "germanTerm": "die Behandlungsvereinbarung",
+            "article": "die",
+            "plural": "die Behandlungsvereinbarungen",
+            "pronunciation": "/bəˈhandlʊŋsfɛɐ̯ˌʔaɪ̯nbaːʁʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "treatment agreement",
+                "bn": "চিকিৎসা চুক্তি",
+                "hi": "उपचार समझौता",
+                "ur": "علاج کا معاہدہ",
+                "tr": "tedavi sözleşmesi"
+            },
+            "exampleSentence": "Vor Beginn der Behandlung wird eine Behandlungsvereinbarung abgeschlossen.",
+            "exampleTranslation": {
+                "en": "A treatment agreement is concluded before the start of treatment.",
+                "bn": "চিকিৎসা শুরুর আগে একটি চিকিৎসা চুক্তি সম্পন্ন করা হয়।",
+                "hi": "उपचार शुरू होने से पहले एक उपचार समझौता संपन्न होता है।",
+                "ur": "علاج شروع ہونے سے پہلے علاج کا معاہدہ طے پا جاتا ہے۔",
+                "tr": "Tedavi başlamadan önce bir tedavi sözleşmesi yapılır."
+            },
+            "id": "v36_21"
+        },
+        {
+            "germanTerm": "der Ethikrat",
+            "article": "der",
+            "plural": "die Ethikräte",
+            "pronunciation": "/ˈeːtɪkˌʁaːt/",
+            "category": "noun",
+            "translation": {
+                "en": "ethics council",
+                "bn": "নীতিশাস্ত্র কাউন্সিল",
+                "hi": "नैतिकता परिषद",
+                "ur": "اخلاقیات کی کونسل",
+                "tr": "etik kurulu"
+            },
+            "exampleSentence": "Der Ethikrat berät in schwierigen ethischen Fragen.",
+            "exampleTranslation": {
+                "en": "The ethics council advises on difficult ethical questions.",
+                "bn": "নীতিশাস্ত্র কাউন্সিল কঠিন নৈতিক প্রশ্নগুলির উপর পরামর্শ দেয়।",
+                "hi": "नैतिकता परिषद कठिन नैतिक प्रश्नों पर सलाह देती है।",
+                "ur": "اخلاقیات کی کونسل مشکل اخلاقی سوالات پر مشورہ دیتی ہے۔",
+                "tr": "Etik kurulu zor etik sorular hakkında tavsiyelerde bulunur."
+            },
+            "id": "v36_22"
+        },
+        {
+            "germanTerm": "die Patientenbefragung",
+            "article": "die",
+            "plural": "die Patientenbefragungen",
+            "pronunciation": "/paˈtsi̯ɛntənbəˌfʁaːɡʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "patient survey",
+                "bn": "রোগী জরিপ",
+                "hi": "मरीज सर्वेक्षण",
+                "ur": "مریض سروے",
+                "tr": "hasta anketi"
+            },
+            "exampleSentence": "Die Ergebnisse der Patientenbefragung werden zur Verbesserung der Versorgung genutzt.",
+            "exampleTranslation": {
+                "en": "The results of the patient survey are used to improve care.",
+                "bn": "রোগী জরিপের ফলাফল পরিচর্যা উন্নত করতে ব্যবহৃত হয়।",
+                "hi": "मरीज सर्वेक्षण के परिणामों का उपयोग देखभाल में सुधार के लिए किया जाता है।",
+                "ur": "مریض سروے کے نتائج نگہداشت کو بہتر بنانے کے لیے استعمال کیے جاتے ہیں۔",
+                "tr": "Hasta anketinin sonuçları bakımı iyileştirmek için kullanılmaktadır."
+            },
+            "id": "v36_23"
+        },
+        {
+            "germanTerm": "die Therapieeinschränkung",
+            "article": "die",
+            "plural": "die Therapieeinschränkungen",
+            "pronunciation": "/teʁaˈpiːˌʔaɪ̯nʃʁɛŋkʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "treatment limitation",
+                "bn": "চিকিৎসা সীমাবদ্ধতা",
+                "hi": "उपचार सीमा",
+                "ur": "علاج کی حد",
+                "tr": "tedavi sınırlaması"
+            },
+            "exampleSentence": "Aufgrund des fortgeschrittenen Alters des Patienten wurde eine Therapieeinschränkung beschlossen.",
+            "exampleTranslation": {
+                "en": "Due to the patient's advanced age, a treatment limitation was decided.",
+                "bn": "রোগীর উন্নত বয়সের কারণে, একটি চিকিৎসা সীমাবদ্ধতা করার সিদ্ধান্ত নেওয়া হয়েছে।",
+                "hi": "मरीज की उन्नत उम्र के कारण, एक उपचार सीमा तय की गई थी।",
+                "ur": "مریض کی زیادہ عمر کی وجہ سے، علاج کی ایک حد طے کی گئی تھی۔",
+                "tr": "Hastanın ileri yaşından dolayı bir tedavi sınırlamasına karar verildi."
+            },
+            "id": "v36_24"
+        },
+        {
+            "germanTerm": "die Patientenautonomie respektieren",
+            "article": "die",
+            "plural": null,
+            "pronunciation": "/paˈtsi̯ɛntənʔaʊ̯tonoˈmiː ʁɛspɛkˈtiːʁən/",
+            "category": "phrase",
+            "translation": {
+                "en": "to respect patient autonomy",
+                "bn": "রোগীর স্বায়ত্তশাসনকে সম্মান করা",
+                "hi": "रोगी की स्वायत्तता का सम्मान करना",
+                "ur": "مریض کی خود مختاری کا احترام کرنا",
+                "tr": "hasta özerkliğine saygı duymak"
+            },
+            "exampleSentence": "Es ist wichtig, die Patientenautonomie zu respektieren, auch wenn man anderer Meinung ist.",
+            "exampleTranslation": {
+                "en": "It is important to respect patient autonomy, even if you disagree.",
+                "bn": "আপনি ভিন্নমত পোষণ করলেও রোগীর স্বায়ত্তশাসনকে সম্মান করা গুরুত্বপূর্ণ।",
+                "hi": "रोगी की स्वायत्तता का सम्मान करना महत्वपूर्ण है, भले ही आप असहमत हों।",
+                "ur": "مریض کی خود مختاری کا احترام کرنا اہم ہے، چاہے آپ متفق نہ ہوں۔",
+                "tr": "Aynı fikirde olmasanız bile hasta özerkliğine saygı duymak önemlidir."
+            },
+            "id": "v36_25"
+        },
+        {
+            "germanTerm": "die Nutzen-Schaden-Abwägung",
+            "article": "die",
+            "plural": "die Nutzen-Schaden-Abwägungen",
+            "pronunciation": "/ˈnʊtsənˈʃaːdənˌʔapvɛːɡʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "benefit-risk assessment",
+                "bn": "উপকার-ক্ষতি মূল্যায়ন",
+                "hi": "लाभ-जोखिम मूल्यांकन",
+                "ur": "فائدہ خطرے کی تشخیص",
+                "tr": "fayda-risk değerlendirmesi"
+            },
+            "exampleSentence": "Vor jeder Behandlung muss eine sorgfältige Nutzen-Schaden-Abwägung erfolgen.",
+            "exampleTranslation": {
+                "en": "A careful benefit-risk assessment must be carried out before each treatment.",
+                "bn": "প্রতিটি চিকিৎসার আগে একটি সতর্ক উপকার-ক্ষতি মূল্যায়ন করা উচিত।",
+                "hi": "प्रत्येक उपचार से पहले एक सावधानीपूर्वक लाभ-जोखिम मूल्यांकन किया जाना चाहिए।",
+                "ur": "ہر علاج سے پہلے ایک محتاط فائدہ خطرے کی تشخیص کی جانی چاہیے۔",
+                "tr": "Her tedaviden önce dikkatli bir fayda-risk değerlendirmesi yapılmalıdır."
+            },
+            "id": "v36_26"
+        },
+        {
+            "germanTerm": "die Patientenverfügung durchsetzen",
+            "article": "die",
+            "plural": null,
+            "pronunciation": "/paˈtsi̯ɛntənfɛɐ̯ˈfyːɡʊŋ ˈdʊʁçˌzɛtsən/",
+            "category": "phrase",
+            "translation": {
+                "en": "to enforce an advance directive",
+                "bn": "অগ্রিম নির্দেশিকা কার্যকর করা",
+                "hi": "अग्रिम निर्देशिका लागू करना",
+                "ur": "ایڈوانس ڈائریکٹو نافذ کرنا",
+                "tr": "önceden talimatı uygulamak"
+            },
+            "exampleSentence": "Das Krankenhaus war verpflichtet, die Patientenverfügung durchzusetzen.",
+            "exampleTranslation": {
+                "en": "The hospital was obliged to enforce the advance directive.",
+                "bn": "হাসপাতাল অগ্রিম নির্দেশিকা কার্যকর করতে বাধ্য ছিল।",
+                "hi": "अस्पताल अग्रिम निर्देशिका लागू करने के लिए बाध्य था।",
+                "ur": "ہسپتال ایڈوانس ڈائریکٹو نافذ کرنے کا پابند تھا۔",
+                "tr": "Hastane, önceden talimatı uygulamakla yükümlüydü."
+            },
+            "id": "v36_27"
+        },
+        {
+            "germanTerm": "die Patientenversorgung",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/paˈtsi̯ɛntənfɛɐ̯ˈzɔʁɡʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "patient care",
+                "bn": "রোগী পরিচর্যা",
+                "hi": "मरीज की देखभाल",
+                "ur": "مریض کی دیکھ بھال",
+                "tr": "hasta bakımı"
+            },
+            "exampleSentence": "Die Patientenversorgung soll den Bedürfnissen des Patienten entsprechen.",
+            "exampleTranslation": {
+                "en": "Patient care should meet the needs of the patient.",
+                "bn": "রোগীর পরিচর্যা রোগীর চাহিদা পূরণ করা উচিত।",
+                "hi": "मरीज की देखभाल को मरीज की जरूरतों को पूरा करना चाहिए।",
+                "ur": "مریض کی دیکھ بھال مریض کی ضروریات کو پورا کرنا چاہیے۔",
+                "tr": "Hasta bakımı hastanın ihtiyaçlarını karşılamalıdır."
+            },
+            "id": "v36_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Advance Directive Discussion",
+                "bn": "অগ্রিম নির্দেশিকা আলোচনা",
+                "hi": "अग्रिम निर्देशिका चर्चा",
+                "ur": "پیشگی ہدایت نامہ پر تبادلہ خیال",
+                "tr": "Önceden Verilmiş Talimat Tartışması"
+            },
+            "context": {
+                "en": "Dr. Schmidt discusses the patient's advance directive with them.",
+                "bn": "ডঃ শ্মিট রোগীর সাথে তাদের অগ্রিম নির্দেশিকা নিয়ে আলোচনা করেন।",
+                "hi": "डॉ श्मिट मरीज के साथ उनके अग्रिम निर्देशिका पर चर्चा करते हैं।",
+                "ur": "ڈاکٹر شمٹ مریض کے ساتھ ان کی پیشگی ہدایت نامہ پر تبادلہ خیال کرتے ہیں۔",
+                "tr": "Dr. Schmidt hastayla önceden verilmiş talimatlarını tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Tag, Herr Müller. Wir müssen über Ihre Patientenverfügung sprechen. Haben Sie eine?",
+                    "translation": {
+                        "en": "Good day, Mr. Müller. We need to talk about your advance directive. Do you have one?",
+                        "bn": "শুভ দিন, মিঃ মুলার। আমাদের আপনার অগ্রিম নির্দেশিকা নিয়ে কথা বলতে হবে। আপনার কি একটি আছে?",
+                        "hi": "शुभ दिन, श्रीमान मुलर। हमें आपके अग्रिम निर्देशिका के बारे में बात करनी है। क्या आपके पास एक है?",
+                        "ur": "شب بخیر، مسٹر ملر۔ ہمیں آپ کے پیشگی ہدایت نامہ کے بارے میں بات کرنے کی ضرورت ہے۔ کیا آپ کے پاس ایک ہے؟",
+                        "tr": "İyi günler Bay Müller. Önceden verilmiş talimatlarınız hakkında konuşmamız gerekiyor. Bir tane var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, die habe ich meiner Hausärztin gegeben. Ich möchte keine lebensverlängernden Maßnahmen, wenn keine Aussicht auf Besserung besteht.",
+                    "translation": {
+                        "en": "Yes, I gave it to my family doctor. I don't want life-prolonging measures if there's no prospect of improvement.",
+                        "bn": "হ্যাঁ, আমি এটি আমার পারিবারিক চিকিৎসককে দিয়েছি। যদি উন্নতির কোনো সম্ভাবনা না থাকে তাহলে আমি জীবনরক্ষাকারী পদক্ষেপ চাই না।",
+                        "hi": "हाँ, मैंने इसे अपने पारिवारिक चिकित्सक को दिया। अगर सुधार की कोई संभावना नहीं है तो मैं जीवन रक्षक उपाय नहीं चाहता।",
+                        "ur": "ہاں، میں نے اسے اپنے خاندانی ڈاکٹر کو دیا۔ اگر بہتری کی کوئی امید نہیں ہے تو میں زندگی بچانے کے اقدامات نہیں چاہتا ہوں۔",
+                        "tr": "Evet, onu aile doktoruma verdim. İyileşme ihtimali yoksa hayatımı uzatacak önlemler istemiyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Verstanden. Wissen Sie auch, ob Sie eine Vorsorgevollmacht erteilt haben?",
+                    "translation": {
+                        "en": "Understood. Do you also know if you have granted a power of attorney?",
+                        "bn": "বুঝেছি। আপনি কি জানেন যে আপনি একটি পাওয়ার অফ অ্যাটর্নি দিয়েছেন কিনা?",
+                        "hi": "समझ गया। क्या आप यह भी जानते हैं कि आपने पावर ऑफ अटॉर्नी दी है?",
+                        "ur": "سمجھ گیا۔ کیا آپ کو یہ بھی معلوم ہے کہ آپ نے پاور آف اٹارنی دی ہے؟",
+                        "tr": "Anlaşıldı. Ayrıca bir vekaletname verdiğiniz biliyor musunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, meine Frau hat eine Vorsorgevollmacht. Sie kann in meinem Namen entscheiden.",
+                    "translation": {
+                        "en": "Yes, my wife has a power of attorney. She can decide on my behalf.",
+                        "bn": "হ্যাঁ, আমার স্ত্রীর একটি পাওয়ার অফ অ্যাটর্নি আছে। সে আমার পক্ষে সিদ্ধান্ত নিতে পারে।",
+                        "hi": "हाँ, मेरी पत्नी के पास पावर ऑफ अटॉर्नी है। वह मेरी ओर से फैसला कर सकती है।",
+                        "ur": "ہاں، میری بیوی کے پاس پاور آف اٹارنی ہے۔ وہ میری طرف سے فیصلہ کر سکتی ہے۔",
+                        "tr": "Evet, eşimin bir vekaletnamesi var. Benim adıma karar verebilir."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Sehr gut. Wir werden das alles dokumentieren und Ihre Frau bei Bedarf kontaktieren.",
+                    "translation": {
+                        "en": "Very good. We will document all of this and contact your wife if necessary.",
+                        "bn": "খুব ভালো। আমরা এই সমস্ত নথিভুক্ত করব এবং প্রয়োজনে আপনার স্ত্রীর সাথে যোগাযোগ করব।",
+                        "hi": "बहुत अच्छा। हम यह सब दस्तावेज करेंगे और जरूरत पड़ने पर आपकी पत्नी से संपर्क करेंगे।",
+                        "ur": "بہت اچھا۔ ہم یہ سب دستاویز کریں گے اور ضرورت پڑنے پر آپ کی اہلیہ سے رابطہ کریں گے۔",
+                        "tr": "Çok iyi. Bunların hepsini belgelendireceğiz ve gerekirse eşinizle iletişime geçeceğiz."
+                    }
+                }
+            ],
+            "id": "d36_01"
+        },
+        {
+            "title": {
+                "en": "Therapy Goals: Curative vs. Palliative",
+                "bn": "থেরাপির লক্ষ্য: নিরাময় বনাম উপশমমূলক",
+                "hi": "थेरेपी के लक्ष्य: उपचारात्मक बनाम प्रशामक",
+                "ur": "علاج کے مقاصد: شافی بمقابلہ تسکین بخش",
+                "tr": "Terapi Hedefleri: İyileştirici ve Paletif"
+            },
+            "context": {
+                "en": "Dr. Weber explains the difference between curative and palliative care to the patient.",
+                "bn": "ডঃ ওয়েবার রোগীকে নিরাময়মূলক এবং উপশমমূলক যত্নের মধ্যে পার্থক্য ব্যাখ্যা করেছেন।",
+                "hi": "डॉ वेबर ने मरीज को उपचारात्मक और प्रशामक देखभाल के बीच का अंतर समझाया।",
+                "ur": "ڈاکٹر ویبر نے مریض کو شافی اور تسکین بخش نگہداشت کے درمیان فرق کی وضاحت کی۔",
+                "tr": "Dr. Weber, hastaya iyileştirici ve palyatif bakım arasındaki farkı açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Frau Schmidt, wir müssen über Ihr Therapieziel sprechen. Wir haben zwei Optionen: kurativ oder palliativ.",
+                    "translation": {
+                        "en": "Mrs. Schmidt, we need to talk about your therapy goal. We have two options: curative or palliative.",
+                        "bn": "মিসেস শ্মিট, আমাদের আপনার থেরাপির লক্ষ্য নিয়ে কথা বলতে হবে। আমাদের কাছে দুটি বিকল্প রয়েছে: নিরাময়মূলক বা উপশমমূলক।",
+                        "hi": "श्रीमती श्मिट, हमें आपके थेरेपी लक्ष्य के बारे में बात करने की आवश्यकता है। हमारे पास दो विकल्प हैं: उपचारात्मक या प्रशामक।",
+                        "ur": "محترمہ شمٹ، ہمیں آپ کے تھراپی کے مقصد کے بارے میں بات کرنے کی ضرورت ہے۔ ہمارے پاس دو آپشن ہیں: شافی یا تسکین بخش۔",
+                        "tr": "Bayan Schmidt, terapi hedefiniz hakkında konuşmalıyız. İki seçeneğimiz var: iyileştirici veya palyatif."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Was bedeutet das genau?",
+                    "translation": {
+                        "en": "What does that mean exactly?",
+                        "bn": "এর মানে ঠিক কী?",
+                        "hi": "इसका ठीक मतलब क्या है?",
+                        "ur": "اس کا ٹھیک کیا مطلب ہے؟",
+                        "tr": "Bu tam olarak ne anlama geliyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Kurativ bedeutet, dass wir versuchen, die Krankheit zu heilen. Palliativ bedeutet, die Symptome zu lindern und die Lebensqualität zu verbessern, ohne die Krankheit zu heilen.",
+                    "translation": {
+                        "en": "Curative means that we try to cure the disease. Palliative means to relieve the symptoms and improve the quality of life without curing the disease.",
+                        "bn": "নিরাময়মূলক মানে হল যে আমরা রোগ নিরাময়ের চেষ্টা করি। উপশমমূলক মানে হল রোগ নিরাময় না করে উপসর্গগুলি হ্রাস করা এবং জীবনের মান উন্নত করা।",
+                        "hi": "उपचारात्मक का अर्थ है कि हम रोग को ठीक करने का प्रयास करते हैं। प्रशामक का अर्थ है रोग को ठीक किए बिना लक्षणों को कम करना और जीवन की गुणवत्ता में सुधार करना।",
+                        "ur": "شافی کا مطلب ہے کہ ہم بیماری کو ٹھیک کرنے کی کوشش کرتے ہیں۔ تسکین بخش کا مطلب ہے بیماری کو ٹھیک کیے بغیر علامات کو دور کرنا اور زندگی کے معیار کو بہتر بنانا۔",
+                        "tr": "İyileştirici, hastalığı iyileştirmeye çalıştığımız anlamına gelir. Palyatif, hastalığı iyileştirmeden semptomları hafifletmek ve yaşam kalitesini artırmak anlamına gelir."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich verstehe. Ich denke, ich möchte eine palliative Behandlung.",
+                    "translation": {
+                        "en": "I understand. I think I want palliative treatment.",
+                        "bn": "আমি বুঝতে পেরেছি। আমি মনে করি আমি একটি উপশমমূলক চিকিৎসা চাই।",
+                        "hi": "मुझे समझ में आया। मुझे लगता है कि मैं एक प्रशामक उपचार चाहता हूं।",
+                        "ur": "میں سمجھ گیا۔ مجھے لگتا ہے کہ میں ایک تسکین بخش علاج چاہتا ہوں۔",
+                        "tr": "Anlıyorum. Sanırım palyatif tedavi istiyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das ist Ihre Entscheidung. Wir werden Sie dabei bestmöglich unterstützen.",
+                    "translation": {
+                        "en": "That is your decision. We will support you in the best possible way.",
+                        "bn": "এটি আপনার সিদ্ধান্ত। আমরা আপনাকে সম্ভাব্য সর্বোত্তম উপায়ে সমর্থন করব।",
+                        "hi": "यह आपका फैसला है। हम आपको सर्वोत्तम संभव तरीके से समर्थन करेंगे।",
+                        "ur": "یہ آپ کا فیصلہ ہے۔ ہم آپ کی بہترین ممکنہ طریقے سے مدد کریں گے۔",
+                        "tr": "Bu sizin kararınız. Sizi mümkün olan en iyi şekilde destekleyeceğiz."
+                    }
+                }
+            ],
+            "id": "d36_02"
+        },
+        {
+            "title": {
+                "en": "Advance Directive and Emergency",
+                "bn": "অগ্রিম নির্দেশিকা এবং জরুরি অবস্থা",
+                "hi": "अग्रिम निर्देशिका और आपातकाल",
+                "ur": "پیشگی ہدایت نامہ اور ایمرجنسی",
+                "tr": "Önceden Verilmiş Talimat ve Acil Durum"
+            },
+            "context": {
+                "en": "An emergency doctor assesses a patient who is unable to communicate and needs to find out if an advance directive exists.",
+                "bn": "একজন জরুরি ডাক্তার এমন একজন রোগীকে মূল্যায়ন করেন যিনি যোগাযোগ করতে অক্ষম এবং জানতে চান যে কোনো অগ্রিম নির্দেশিকা আছে কিনা।",
+                "hi": "एक आपातकालीन चिकित्सक एक ऐसे मरीज का आकलन करता है जो संवाद करने में असमर्थ है और उसे यह पता लगाने की आवश्यकता है कि क्या कोई अग्रिम निर्देशिका मौजूद है।",
+                "ur": "ایک ایمرجنسی ڈاکٹر ایک ایسے مریض کا جائزہ لیتا ہے جو بات چیت کرنے سے قاصر ہے اور اسے یہ معلوم کرنے کی ضرورت ہے کہ کیا کوئی پیشگی ہدایت نامہ موجود ہے۔",
+                "tr": "Acil bir doktor, iletişim kuramayan bir hastayı değerlendirir ve önceden verilmiş bir talimat olup olmadığını öğrenmesi gerekir."
+            },
+            "lines": [
+                {
+                    "speaker": "Notarzt Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Der Patient ist bewusstlos. Wir brauchen Informationen. Hat jemand eine Patientenverfügung gesehen?",
+                    "translation": {
+                        "en": "The patient is unconscious. We need information. Has anyone seen an advance directive?",
+                        "bn": "রোগী অজ্ঞান। আমাদের তথ্য দরকার। কেউ কি কোনো অগ্রিম নির্দেশিকা দেখেছেন?",
+                        "hi": "मरीज बेहोश है। हमें जानकारी चाहिए। क्या किसी ने कोई अग्रिम निर्देशिका देखी है?",
+                        "ur": "مریض بے ہوش ہے۔ ہمیں معلومات کی ضرورت ہے۔ کیا کسی نے کوئی پیشگی ہدایت نامہ دیکھا ہے؟",
+                        "tr": "Hasta bilinçsiz. Bilgiye ihtiyacımız var. Daha önce verilmiş bir talimat gören oldu mu?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich habe in seiner Brieftasche nachgesehen. Da ist eine Karte mit dem Hinweis auf eine Patientenverfügung beim Hausarzt Dr. Meier.",
+                    "translation": {
+                        "en": "I checked his wallet. There's a card indicating an advance directive with the family doctor, Dr. Meier.",
+                        "bn": "আমি তার মানিব্যাগ চেক করেছি। পারিবারিক চিকিৎসক ডাঃ মিয়ারের কাছে একটি অগ্রিম নির্দেশিকা থাকার ইঙ্গিত দিয়ে একটি কার্ড রয়েছে।",
+                        "hi": "मैंने उसका बटुआ जांचा। पारिवारिक चिकित्सक डॉ. मेयर के पास एक अग्रिम निर्देशिका होने का संकेत देने वाला एक कार्ड है।",
+                        "ur": "میں نے اس کا پرس چیک کیا۔ خاندانی ڈاکٹر ڈاکٹر میئر کے پاس پیشگی ہدایت نامہ ہونے کی نشاندہی کرنے والا ایک کارڈ ہے۔",
+                        "tr": "Cüzdanını kontrol ettim. Aile doktoru Dr. Meier'de önceden verilmiş bir talimat olduğunu gösteren bir kart var."
+                    }
+                },
+                {
+                    "speaker": "Notarzt Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Gut, versuchen Sie, Dr. Meier zu erreichen. Wir müssen wissen, welche Wünsche der Patient hat.",
+                    "translation": {
+                        "en": "Good, try to reach Dr. Meier. We need to know what the patient's wishes are.",
+                        "bn": "ভালো, ডাঃ মিয়ারের সাথে যোগাযোগ করার চেষ্টা করুন। আমাদের জানতে হবে রোগীর কী ইচ্ছা।",
+                        "hi": "अच्छा, डॉ. मेयर तक पहुंचने की कोशिश करो। हमें यह जानने की जरूरत है कि मरीज की क्या इच्छाएं हैं।",
+                        "ur": "ٹھیک ہے، ڈاکٹر میئر تک پہنچنے کی کوشش کریں۔ ہمیں یہ جاننے کی ضرورت ہے کہ مریض کی کیا خواہشات ہیں۔",
+                        "tr": "Güzel, Dr. Meier'e ulaşmaya çalışın. Hastanın isteklerinin neler olduğunu bilmemiz gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich versuche es sofort!",
+                    "translation": {
+                        "en": "I'll try right away!",
+                        "bn": "আমি এখনই চেষ্টা করব!",
+                        "hi": "मैं अभी कोशिश करूंगा!",
+                        "ur": "میں ابھی کوشش کروں گا!",
+                        "tr": "Hemen deneyeceğim!"
+                    }
+                },
+                {
+                    "speaker": "Notarzt Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Bis dahin versuchen wir, den Patienten zu stabilisieren, aber unter Berücksichtigung möglicher Einschränkungen.",
+                    "translation": {
+                        "en": "Until then, we will try to stabilize the patient, but taking into account possible restrictions.",
+                        "bn": "ততক্ষণ পর্যন্ত, আমরা সম্ভাব্য বিধিনিষেধ বিবেচনা করে রোগীকে স্থিতিশীল করার চেষ্টা করব।",
+                        "hi": "तब तक, हम संभावित प्रतिबंधों को ध्यान में रखते हुए मरीज को स्थिर करने की कोशिश करेंगे।",
+                        "ur": "تب تک، ہم مریض کو مستحکم کرنے کی کوشش کریں گے، لیکن ممکنہ پابندیوں کو مدنظر رکھتے ہوئے۔",
+                        "tr": "O zamana kadar, olası kısıtlamaları dikkate alarak hastayı stabilize etmeye çalışacağız."
+                    }
+                }
+            ],
+            "id": "d36_03"
+        },
+        {
+            "title": {
+                "en": "Palliative Care and Family",
+                "bn": "উপশমমূলক যত্ন এবং পরিবার",
+                "hi": "उपशामक देखभाल और परिवार",
+                "ur": "تسکین بخش نگہداشت اور خاندان",
+                "tr": "Palyatif Bakım ve Aile"
+            },
+            "context": {
+                "en": "A doctor explains the palliative care plan to the patient's family.",
+                "bn": "একজন ডাক্তার রোগীর পরিবারের কাছে উপশমমূলক যত্নের পরিকল্পনা ব্যাখ্যা করেন।",
+                "hi": "एक डॉक्टर मरीज के परिवार को उपशामक देखभाल की योजना समझाता है।",
+                "ur": "ایک ڈاکٹر مریض کے خاندان کو تسکین بخش نگہداشت کے منصوبے کی وضاحت کرتا ہے۔",
+                "tr": "Bir doktor, hastanın ailesine palyatif bakım planını açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Tag, Familie Weber. Wir haben uns entschieden, eine palliative Behandlung für Ihren Vater zu beginnen.",
+                    "translation": {
+                        "en": "Good day, Weber family. We have decided to start palliative treatment for your father.",
+                        "bn": "শুভ দিন, ওয়েবার পরিবার। আমরা আপনার বাবার জন্য উপশমমূলক চিকিৎসা শুরু করার সিদ্ধান্ত নিয়েছি।",
+                        "hi": "शुभ दिन, वेबर परिवार। हमने आपके पिता के लिए उपशामक उपचार शुरू करने का फैसला किया है।",
+                        "ur": "شب بخیر، ویبر خاندان۔ ہم نے آپ کے والد کے لیے تسکین بخش علاج شروع کرنے کا فیصلہ کیا ہے۔",
+                        "tr": "İyi günler Weber ailesi. Babanız için palyatif tedaviye başlama kararı aldık."
+                    }
+                },
+                {
+                    "speaker": "Tochter Weber",
+                    "speakerRole": "Angehörige",
+                    "germanText": "Was bedeutet das für ihn?",
+                    "translation": {
+                        "en": "What does that mean for him?",
+                        "bn": "এর মানে তার জন্য কী?",
+                        "hi": "इसका उसके लिए क्या मतलब है?",
+                        "ur": "اس کا اس کے لیے کیا مطلب ہے؟",
+                        "tr": "Bu onun için ne anlama geliyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Es bedeutet, dass wir uns auf die Linderung seiner Schmerzen und Beschwerden konzentrieren werden. Wir werden versuchen, seine Lebensqualität so gut wie möglich zu erhalten.",
+                    "translation": {
+                        "en": "It means that we will focus on relieving his pain and discomfort. We will try to maintain his quality of life as best as possible.",
+                        "bn": "এর মানে হল আমরা তার ব্যথা এবং অস্বস্তি উপশমের উপর মনোযোগ দেব। আমরা তার জীবনের মান যতটা সম্ভব বজায় রাখার চেষ্টা করব।",
+                        "hi": "इसका मतलब है कि हम उसके दर्द और परेशानी को दूर करने पर ध्यान केंद्रित करेंगे। हम उसकी जीवन की गुणवत्ता को यथासंभव बनाए रखने की कोशिश करेंगे।",
+                        "ur": "اس کا مطلب ہے کہ ہم اس کے درد اور تکلیف کو دور کرنے پر توجہ مرکوز کریں گے۔ ہم اس کے معیار زندگی کو ہر ممکن حد تک برقرار رکھنے کی کوشش کریں گے۔",
+                        "tr": "Bu, ağrılarını ve rahatsızlıklarını gidermeye odaklanacağımız anlamına geliyor. Yaşam kalitesini olabildiğince korumaya çalışacağız."
+                    }
+                },
+                {
+                    "speaker": "Sohn Weber",
+                    "speakerRole": "Angehörige",
+                    "germanText": "Werden wir ihn zu Hause pflegen können?",
+                    "translation": {
+                        "en": "Will we be able to care for him at home?",
+                        "bn": "আমরা কি বাড়িতে তার যত্ন নিতে পারব?",
+                        "hi": "क्या हम घर पर उसकी देखभाल कर पाएंगे?",
+                        "ur": "کیا ہم گھر پر اس کی دیکھ بھال کر سکیں گے؟",
+                        "tr": "Onunla evde ilgilenebilecek miyiz?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das ist möglich. Wir können Ihnen dabei helfen, die notwendige Unterstützung und Beratung zu organisieren.",
+                    "translation": {
+                        "en": "That is possible. We can help you organize the necessary support and advice.",
+                        "bn": "এটি সম্ভব। আমরা আপনাকে প্রয়োজনীয় সহায়তা এবং পরামর্শ সংগঠিত করতে সহায়তা করতে পারি।",
+                        "hi": "यह संभव है। हम आपको आवश्यक सहायता और सलाह व्यवस्थित करने में मदद कर सकते हैं।",
+                        "ur": "یہ ممکن ہے۔ ہم آپ کو ضروری مدد اور مشورے کو منظم کرنے میں مدد کر سکتے ہیں۔",
+                        "tr": "Bu mümkün. Gerekli destek ve tavsiyeyi organize etmenize yardımcı olabiliriz."
+                    }
+                }
+            ],
+            "id": "d36_04"
+        },
+        {
+            "title": {
+                "en": "Vorsorgevollmacht: Who Decides?",
+                "bn": "ভোর্সোর্গোভলমাখট: কে সিদ্ধান্ত নেয়?",
+                "hi": "वोर्सोर्जवोल्मच्ट: कौन निर्णय लेता है?",
+                "ur": "وورسورج وولماخٹ: کون فیصلہ کرتا ہے؟",
+                "tr": "Vorsorgevollmacht: Kim Karar Verir?"
+            },
+            "context": {
+                "en": "Discussion about who has the power of attorney and their responsibilities.",
+                "bn": "পাওয়ার অফ অ্যাটর্নি কার আছে এবং তাদের দায়িত্ব সম্পর্কে আলোচনা।",
+                "hi": "पावर ऑफ अटॉर्नी किसके पास है और उनकी जिम्मेदारियों के बारे में चर्चा।",
+                "ur": "پاور آف اٹارنی کس کے پاس ہے اور ان کی ذمہ داریوں کے بارے میں تبادلہ خیال۔",
+                "tr": "Vekaletname kimde ve sorumlulukları hakkında tartışma."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Karin",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Frau Bergmann, wir benötigen die Vorsorgevollmacht Ihres Mannes. Können Sie uns diese bitte vorlegen?",
+                    "translation": {
+                        "en": "Mrs. Bergmann, we need your husband's power of attorney. Could you please provide it to us?",
+                        "bn": "মিসেস বার্গম্যান, আমাদের আপনার স্বামীর পাওয়ার অফ অ্যাটর্নি দরকার। আপনি কি দয়া করে এটি আমাদের দিতে পারেন?",
+                        "hi": "श्रीमती बर्गमैन, हमें आपके पति के पावर ऑफ अटॉर्नी की आवश्यकता है। क्या आप कृपया हमें यह प्रदान कर सकते हैं?",
+                        "ur": "محترمہ برگمان، ہمیں آپ کے شوہر کے پاور آف اٹارنی کی ضرورت ہے۔ کیا آپ براہ کرم ہمیں یہ فراہم کر سکتے ہیں؟",
+                        "tr": "Bayan Bergmann, eşinizin vekaletnamesine ihtiyacımız var. Lütfen bize verebilir misiniz?"
+                    }
+                },
+                {
+                    "speaker": "Frau Bergmann",
+                    "speakerRole": "Angehörige",
+                    "germanText": "Ja, natürlich. Hier ist sie. Ich habe sie beglaubigen lassen.",
+                    "translation": {
+                        "en": "Yes, of course. Here it is. I had it certified.",
+                        "bn": "হ্যাঁ, অবশ্যই। এই নিন। আমি এটি প্রত্যয়িত করিয়েছি।",
+                        "hi": "हां, बिल्कुल। ये रहा। मैंने इसे प्रमाणित करवाया था।",
+                        "ur": "ہاں، بالکل۔ یہ ہے۔ میں نے اسے تصدیق کروایا تھا۔",
+                        "tr": "Evet, tabii ki. İşte burada. Onu onaylattım."
+                    }
+                },
+                {
+                    "speaker": "Dr. Sommer",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Sehr gut. Frau Bergmann, Sie sind nun bevollmächtigt, in medizinischen Fragen für Ihren Mann zu entscheiden. Wir werden Sie über alle Behandlungsmöglichkeiten informieren.",
+                    "translation": {
+                        "en": "Very good. Mrs. Bergmann, you are now authorized to make decisions for your husband in medical matters. We will inform you about all treatment options.",
+                        "bn": "খুব ভালো। মিসেস বার্গম্যান, আপনি এখন চিকিৎসা সংক্রান্ত বিষয়ে আপনার স্বামীর জন্য সিদ্ধান্ত নেওয়ার জন্য অনুমোদিত। আমরা আপনাকে সমস্ত চিকিৎসার বিকল্প সম্পর্কে জানাব।",
+                        "hi": "बहुत अच्छा। श्रीमती बर्गमैन, अब आप चिकित्सा मामलों में अपने पति के लिए निर्णय लेने के लिए अधिकृत हैं। हम आपको सभी उपचार विकल्पों के बारे में सूचित करेंगे।",
+                        "ur": "بہت اچھا۔ محترمہ برگمان، اب آپ طبی معاملات میں اپنے شوہر کے لیے فیصلے کرنے کے مجاز ہیں۔ ہم آپ کو علاج کے تمام اختیارات سے آگاہ کریں گے۔",
+                        "tr": "Çok iyi. Bayan Bergmann, artık tıbbi konularda eşiniz için karar verme yetkisine sahipsiniz. Size tüm tedavi seçenekleri hakkında bilgi vereceğiz."
+                    }
+                },
+                {
+                    "speaker": "Frau Bergmann",
+                    "speakerRole": "Angehörige",
+                    "germanText": "Vielen Dank. Das ist sehr hilfreich. Ich bin etwas überfordert mit der Situation.",
+                    "translation": {
+                        "en": "Thank you very much. That's very helpful. I'm a bit overwhelmed by the situation.",
+                        "bn": "অনেক ধন্যবাদ। এটা খুবই সহায়ক। আমি পরিস্থিতি নিয়ে কিছুটা অভিভূত।",
+                        "hi": "बहुत-बहुत धन्यवाद। यह बहुत मददगार है। मैं स्थिति से थोड़ा अभिभूत हूं।",
+                        "ur": "بہت شکریہ۔ یہ بہت مددگار ہے۔ میں صورتحال سے تھوڑا مغلوب ہوں۔",
+                        "tr": "Çok teşekkür ederim. Bu çok yardımcı oldu. Durum karşısında biraz bunalmış durumdayım."
+                    }
+                },
+                {
+                    "speaker": "Dr. Sommer",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wir verstehen das. Wir sind für Sie da und werden Sie bestmöglich unterstützen.",
+                    "translation": {
+                        "en": "We understand that. We are here for you and will support you in the best possible way.",
+                        "bn": "আমরা এটা বুঝতে পারি। আমরা আপনার জন্য আছি এবং আপনাকে সম্ভাব্য সর্বোত্তম উপায়ে সমর্থন করব।",
+                        "hi": "हम इसे समझते हैं। हम आपके लिए यहां हैं और सर्वोत्तम संभव तरीके से आपका समर्थन करेंगे।",
+                        "ur": "ہم اسے سمجھتے ہیں۔ ہم آپ کے لیے یہاں ہیں اور آپ کی ہر ممکن مدد کریں گے۔",
+                        "tr": "Bunu anlıyoruz. Sizin için buradayız ve size mümkün olan en iyi şekilde destek olacağız."
+                    }
+                }
+            ],
+            "id": "d36_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist eine Patientenverfügung?",
+                "en": "What is a living will?",
+                "bn": "একটি লিভিং উইল কি?",
+                "hi": "एक लिविंग विल क्या है?",
+                "ur": "لیونگ ول کیا ہے؟",
+                "tr": "Bir vasiyet nedir?"
+            },
+            "options": [
+                "Ein Dokument, das die medizinische Behandlung einer Person im Falle ihrer Entscheidungsunfähigkeit festlegt.",
+                "Ein Dokument, das finanzielle Angelegenheiten regelt.",
+                "Ein Dokument, das die Erbfolge regelt.",
+                "Ein Dokument, das die Patientenrechte zusammenfasst."
+            ],
+            "correctAnswer": "Ein Dokument, das die medizinische Behandlung einer Person im Falle ihrer Entscheidungsunfähigkeit festlegt.",
+            "explanation": {
+                "en": "A living will specifies the medical treatment a person wants to receive if they become unable to make their own decisions.",
+                "bn": "একটি লিভিং উইল নির্দিষ্ট করে যে কোনও ব্যক্তি নিজের সিদ্ধান্ত নিতে অক্ষম হলে তিনি যে চিকিত্সা গ্রহণ করতে চান।",
+                "hi": "एक लिविंग विल उस चिकित्सा उपचार को निर्दिष्ट करता है जो एक व्यक्ति तब प्राप्त करना चाहता है जब वे अपने स्वयं के निर्णय लेने में असमर्थ हो जाते हैं।",
+                "ur": "ایک لیونگ ول اس طبی علاج کی وضاحت کرتا ہے جو کوئی شخص اس وقت حاصل کرنا چاہتا ہے جب وہ خود فیصلے کرنے سے قاصر ہو جائے۔",
+                "tr": "Bir vasiyet, bir kişinin kendi kararını veremediği takdirde almak istediği tıbbi tedaviyi belirtir."
+            },
+            "points": 10,
+            "id": "e36_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Vorsorgevollmacht'?",
+                "en": "What does 'Vorsorgevollmacht' mean?",
+                "bn": "'ভর্সোর্গোভোলমাখট' মানে কি?",
+                "hi": "'वॉर्सोर्गवोल्माचट' का क्या अर्थ है?",
+                "ur": "'ورسورگوولماچٹ' کا کیا مطلب ہے؟",
+                "tr": "'Vorsorgevollmacht' ne anlama geliyor?"
+            },
+            "options": [
+                "Eine Vollmacht für medizinische und rechtliche Angelegenheiten im Falle der Entscheidungsunfähigkeit.",
+                "Eine Vollmacht nur für finanzielle Angelegenheiten.",
+                "Eine Vollmacht nur für medizinische Angelegenheiten.",
+                "Ein Testament."
+            ],
+            "correctAnswer": "Eine Vollmacht für medizinische und rechtliche Angelegenheiten im Falle der Entscheidungsunfähigkeit.",
+            "explanation": {
+                "en": "A Vorsorgevollmacht is a power of attorney that allows someone to make medical and legal decisions on behalf of another person if they become incapacitated.",
+                "bn": "একটি ভর্সোর্গোভোলমাখট হলো একটি পাওয়ার অফ অ্যাটর্নি যা অন্য ব্যক্তি অক্ষম হয়ে গেলে তাদের পক্ষে চিকিত্সা এবং আইনি সিদ্ধান্ত নিতে কাউকে অনুমতি দেয়।",
+                "hi": "एक वोर्सोर्गवोल्माचट एक पावर ऑफ अटॉर्नी है जो किसी व्यक्ति के अक्षम होने पर उसकी ओर से चिकित्सा और कानूनी निर्णय लेने के लिए किसी को अनुमति देता है।",
+                "ur": "ایک وورسورگوولماچٹ ایک پاور آف اٹارنی ہے جو کسی شخص کے معذور ہونے پر اس کی جانب سے طبی اور قانونی فیصلے کرنے کے لیے کسی کو اجازت دیتا ہے۔",
+                "tr": "Bir Vorsorgevollmacht, bir kişinin yetersiz kalması durumunda onun adına tıbbi ve yasal kararlar almasına izin veren bir vekaletnamedir."
+            },
+            "points": 10,
+            "id": "e36_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Ziel einer palliativen Behandlung?",
+                "en": "What is the goal of palliative treatment?",
+                "bn": "প্যালিয়েটিভ চিকিৎসার লক্ষ্য কি?",
+                "hi": "उपशामक उपचार का लक्ष्य क्या है?",
+                "ur": "تسکین دہ علاج کا مقصد کیا ہے؟",
+                "tr": "Palyatif tedavinin amacı nedir?"
+            },
+            "options": [
+                "Die Linderung von Symptomen und die Verbesserung der Lebensqualität bei unheilbaren Krankheiten.",
+                "Die vollständige Heilung einer Krankheit.",
+                "Die Verlängerung des Lebens um jeden Preis.",
+                "Die Beschleunigung des Sterbeprozesses."
+            ],
+            "correctAnswer": "Die Linderung von Symptomen und die Verbesserung der Lebensqualität bei unheilbaren Krankheiten.",
+            "explanation": {
+                "en": "Palliative treatment aims to relieve symptoms and improve the quality of life for patients with incurable illnesses.",
+                "bn": "প্যালিয়েটিভ চিকিৎসার লক্ষ্য হলো নিরাময় অযোগ্য রোগে আক্রান্ত রোগীদের লক্ষণগুলি হ্রাস করা এবং জীবনযাত্রার মান উন্নত করা।",
+                "hi": "उपशामक उपचार का लक्ष्य लाइलाज बीमारियों वाले रोगियों के लिए लक्षणों को कम करना और जीवन की गुणवत्ता में सुधार करना है।",
+                "ur": "تسکین دہ علاج کا مقصد لاعلاج بیماریوں میں مبتلا مریضوں کے لیے علامات کو کم کرنا اور زندگی کے معیار کو بہتر بنانا ہے۔",
+                "tr": "Palyatif tedavinin amacı, tedavisi olmayan hastalıklara sahip hastalar için semptomları hafifletmek ve yaşam kalitesini artırmaktır."
+            },
+            "points": 10,
+            "id": "e36_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet der Begriff 'kurativ' in der Medizin?",
+                "en": "What does the term 'curative' mean in medicine?",
+                "bn": "চিকিৎসাবিদ্যায় 'কুরেটিভ' শব্দের অর্থ কী?",
+                "hi": "चिकित्सा में 'उपचारात्मक' शब्द का क्या अर्थ है?",
+                "ur": "طب میں 'علاجی' اصطلاح کا کیا مطلب ہے؟",
+                "tr": "Tıpta 'küratif' terimi ne anlama gelir?"
+            },
+            "options": [
+                "Auf Heilung ausgerichtet.",
+                "Auf Symptomlinderung ausgerichtet.",
+                "Auf Lebensverlängerung ausgerichtet.",
+                "Auf Sterbebegleitung ausgerichtet."
+            ],
+            "correctAnswer": "Auf Heilung ausgerichtet.",
+            "explanation": {
+                "en": "'Curative' means aimed at achieving a cure.",
+                "bn": "'কুরেটিভ' মানে নিরাময় অর্জনের লক্ষ্যে।",
+                "hi": "'उपचारात्मक' का अर्थ है इलाज प्राप्त करने के उद्देश्य से।",
+                "ur": "'علاجی' کا مطلب ہے علاج حاصل کرنے کے مقصد سے۔",
+                "tr": "'Küratif' iyileşmeyi amaçlamak anlamına gelir."
+            },
+            "points": 10,
+            "id": "e36_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein 'Therapieziel'?",
+                "en": "What is a 'Therapieziel'?",
+                "bn": "একটি 'থেরাপিজিএল' কি?",
+                "hi": "'थेरेपीज़ीएल' क्या है?",
+                "ur": "'تھراپی زیل' کیا ہے؟",
+                "tr": "'Therapieziel' nedir?"
+            },
+            "options": [
+                "Das angestrebte Ergebnis einer medizinischen Behandlung.",
+                "Die Liste aller Medikamente, die ein Patient einnimmt.",
+                "Die Diagnose einer Krankheit.",
+                "Der Name des behandelnden Arztes."
+            ],
+            "correctAnswer": "Das angestrebte Ergebnis einer medizinischen Behandlung.",
+            "explanation": {
+                "en": "A 'Therapieziel' is the desired outcome of a medical treatment.",
+                "bn": "একটি 'থেরাপিজিএল' হলো একটি চিকিৎসা চিকিৎসার কাঙ্ক্ষিত ফলাফল।",
+                "hi": "एक 'थेरेपीज़ीएल' एक चिकित्सा उपचार का वांछित परिणाम है।",
+                "ur": "ایک 'تھراپی زیل' ایک طبی علاج کا مطلوبہ نتیجہ ہے۔",
+                "tr": "Bir 'Therapieziel', bir tıbbi tedavinin istenen sonucudur."
+            },
+            "points": 10,
+            "id": "e36_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage trifft auf die Patientenverfügung zu?",
+                "en": "Which statement applies to the living will?",
+                "bn": "লিভিং উইলের ক্ষেত্রে কোন বক্তব্যটি প্রযোজ্য?",
+                "hi": "लिविंग विल पर कौन सा कथन लागू होता है?",
+                "ur": "لیونگ ول پر کون سا بیان لاگو ہوتا ہے؟",
+                "tr": "Vasiyetname için hangi ifade geçerlidir?"
+            },
+            "options": [
+                "Sie ist nur gültig, wenn sie notariell beglaubigt ist.",
+                "Sie muss regelmäßig erneuert werden, um gültig zu bleiben.",
+                "Sie legt fest, welche medizinischen Maßnahmen im Falle der Entscheidungsunfähigkeit gewünscht oder abgelehnt werden.",
+                "Sie ist nur für ältere Menschen relevant."
+            ],
+            "correctAnswer": "Sie legt fest, welche medizinischen Maßnahmen im Falle der Entscheidungsunfähigkeit gewünscht oder abgelehnt werden.",
+            "explanation": {
+                "en": "A living will specifies which medical measures are desired or rejected in the event of incapacity.",
+                "bn": "একটি লিভিং উইল নির্দিষ্ট করে যে অক্ষমতার ক্ষেত্রে কোন চিকিৎসা ব্যবস্থা কাঙ্ক্ষিত বা প্রত্যাখ্যান করা হয়।",
+                "hi": "एक लिविंग विल यह निर्दिष्ट करता है कि अक्षमता की स्थिति में कौन से चिकित्सा उपाय वांछित या अस्वीकार किए जाते हैं।",
+                "ur": "ایک لیونگ ول اس بات کی وضاحت کرتا ہے کہ معذوری کی صورت میں کون سے طبی اقدامات مطلوب یا مسترد کیے جاتے ہیں۔",
+                "tr": "Bir vasiyet, yetersizlik durumunda hangi tıbbi önlemlerin istendiğini veya reddedildiğini belirtir."
+            },
+            "points": 10,
+            "id": "e36_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wann ist eine Vorsorgevollmacht besonders wichtig?",
+                "en": "When is a power of attorney (Vorsorgevollmacht) particularly important?",
+                "bn": "পাওয়ার অফ অ্যাটর্নি (ভর্সোর্গোভোলমাখট) কখন বিশেষভাবে গুরুত্বপূর্ণ?",
+                "hi": "पावर ऑफ अटॉर्नी (वॉर्सोर्गवोल्माचट) विशेष रूप से कब महत्वपूर्ण है?",
+                "ur": "پاور آف اٹارنی (ورسورگوولماچٹ) خاص طور پر کب اہم ہے؟",
+                "tr": "Vekaletname (Vorsorgevollmacht) özellikle ne zaman önemlidir?"
+            },
+            "options": [
+                "Bei drohender oder bestehender Entscheidungsunfähigkeit.",
+                "Wenn man ein Testament verfasst.",
+                "Wenn man ein Haus kauft.",
+                "Wenn man eine neue Arbeitsstelle antritt."
+            ],
+            "correctAnswer": "Bei drohender oder bestehender Entscheidungsunfähigkeit.",
+            "explanation": {
+                "en": "A power of attorney is particularly important in the event of impending or existing incapacity.",
+                "bn": "আসন্ন বা বিদ্যমান অক্ষমতার ক্ষেত্রে পাওয়ার অফ অ্যাটর্নি বিশেষভাবে গুরুত্বপূর্ণ।",
+                "hi": "आसन्न या मौजूदा अक्षमता की स्थिति में पावर ऑफ अटॉर्नी विशेष रूप से महत्वपूर्ण है।",
+                "ur": "آسنن یا موجودہ معذوری کی صورت میں پاور آف اٹارنی خاص طور پر اہم ہے۔",
+                "tr": "Yaklaşan veya mevcut yetersizlik durumunda vekaletname özellikle önemlidir."
+            },
+            "points": 10,
+            "id": "e36_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was versteht man unter 'palliative care'?",
+                "en": "What is meant by 'palliative care'?",
+                "bn": "'প্যালিয়েটিভ কেয়ার' বলতে কী বোঝায়?",
+                "hi": "'उपशामक देखभाल' से क्या तात्पर्य है?",
+                "ur": "'تسکین دہ نگہداشت' سے کیا مراد ہے؟",
+                "tr": "'Palyatif bakım' ile ne kastedilmektedir?"
+            },
+            "options": [
+                "Eine umfassende Betreuung von Patienten mit einer unheilbaren, fortschreitenden Erkrankung.",
+                "Eine rein medizinische Behandlung ohne psychologische Unterstützung.",
+                "Eine Behandlung zur vollständigen Heilung einer Krankheit.",
+                "Eine Pflege, die nur im Krankenhaus stattfindet."
+            ],
+            "correctAnswer": "Eine umfassende Betreuung von Patienten mit einer unheilbaren, fortschreitenden Erkrankung.",
+            "explanation": {
+                "en": "Palliative care is comprehensive care for patients with an incurable, progressive disease.",
+                "bn": "প্যালিয়েটিভ কেয়ার হলো নিরাময় অযোগ্য, প্রগতিশীল রোগে আক্রান্ত রোগীদের জন্য ব্যাপক যত্ন।",
+                "hi": "उपशामक देखभाल एक लाइलाज, प्रगतिशील बीमारी वाले रोगियों के लिए व्यापक देखभाल है।",
+                "ur": "تسکین دہ نگہداشت لاعلاج، ترقی پذیر بیماری میں مبتلا مریضوں کے لیے جامع نگہداشت ہے۔",
+                "tr": "Palyatif bakım, tedavisi olmayan, ilerleyici bir hastalığı olan hastalar için kapsamlı bir bakımdır."
+            },
+            "points": 10,
+            "id": "e36_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche dieser Maßnahmen gehört NICHT zur Palliativmedizin?",
+                "en": "Which of these measures does NOT belong to palliative medicine?",
+                "bn": "এই পদক্ষেপগুলির মধ্যে কোনটি প্যালিয়েটিভ মেডিসিনের অন্তর্ভুক্ত নয়?",
+                "hi": "इनमें से कौन सा उपाय उपशामक चिकित्सा से संबंधित नहीं है?",
+                "ur": "ان میں سے کون سا اقدام تسکین دہ طب سے تعلق نہیں رکھتا؟",
+                "tr": "Bu önlemlerden hangisi palyatif tıbba ait değildir?"
+            },
+            "options": [
+                "Chemotherapie zur Krebsheilung.",
+                "Schmerztherapie.",
+                "Psychologische Betreuung.",
+                "Atemtherapie."
+            ],
+            "correctAnswer": "Chemotherapie zur Krebsheilung.",
+            "explanation": {
+                "en": "Chemotherapy to cure cancer is a curative approach, not palliative.",
+                "bn": "ক্যান্সার নিরাময়ের জন্য কেমোথেরাপি একটি নিরাময়মূলক পদ্ধতি, প্যালিয়েটিভ নয়।",
+                "hi": "कैंसर को ठीक करने के लिए कीमोथेरेपी एक उपचारात्मक दृष्टिकोण है, उपशामक नहीं।",
+                "ur": "کینسر کو ٹھیک کرنے کے لیے کیموتھراپی ایک علاجی نقطہ نظر ہے، تسکین دہ نہیں۔",
+                "tr": "Kanseri iyileştirmeye yönelik kemoterapi palyatif değil, iyileştirici bir yaklaşımdır."
+            },
+            "points": 10,
+            "id": "e36_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Hauptziel, wenn eine Therapie als 'kurativ' bezeichnet wird?",
+                "en": "What is the main goal when a therapy is described as 'curative'?",
+                "bn": "যখন কোনও থেরাপিকে 'কুরেটিভ' হিসাবে বর্ণনা করা হয় তখন প্রধান লক্ষ্য কী?",
+                "hi": "जब किसी थेरेपी को 'उपचारात्मक' के रूप में वर्णित किया जाता है तो मुख्य लक्ष्य क्या होता है?",
+                "ur": "جب کسی تھراپی کو 'علاجی' قرار دیا جاتا ہے تو اس کا بنیادی مقصد کیا ہوتا ہے؟",
+                "tr": "Bir terapiye 'iyileştirici' denildiğinde asıl amaç nedir?"
+            },
+            "options": [
+                "Die vollständige Beseitigung der Krankheit.",
+                "Die Linderung der Symptome.",
+                "Die Verlängerung des Lebens.",
+                "Die Verbesserung der Lebensqualität."
+            ],
+            "correctAnswer": "Die vollständige Beseitigung der Krankheit.",
+            "explanation": {
+                "en": "The main goal of a curative therapy is the complete elimination of the disease.",
+                "bn": "একটি নিরাময়মূলক থেরাপির প্রধান লক্ষ্য হলো রোগের সম্পূর্ণ নির্মূল করা।",
+                "hi": "एक उपचारात्मक चिकित्सा का मुख्य लक्ष्य रोग का पूर्ण उन्मूलन है।",
+                "ur": "ایک علاجی تھراپی کا بنیادی مقصد بیماری کا مکمل خاتمہ ہے۔",
+                "tr": "İyileştirici bir tedavinin asıl amacı hastalığın tamamen ortadan kaldırılmasıdır."
+            },
+            "points": 10,
+            "id": "e36_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Eine __________ legt fest, welche medizinischen Behandlungen im Falle der Entscheidungsunfähigkeit gewünscht oder abgelehnt werden.",
+                "en": "A __________ specifies which medical treatments are desired or rejected in case of incapacity.",
+                "bn": "একটি __________ নির্দিষ্ট করে যে অক্ষমতার ক্ষেত্রে কোন চিকিৎসা চিকিৎসা কাঙ্ক্ষিত বা প্রত্যাখ্যান করা হয়।",
+                "hi": "एक __________ निर्दिष्ट करता है कि अक्षमता के मामले में कौन से चिकित्सा उपचार वांछित या अस्वीकृत हैं।",
+                "ur": "ایک __________ بتاتا ہے کہ معذوری کی صورت میں کون سے طبی علاج مطلوب ہیں یا مسترد کر دیے گئے ہیں۔",
+                "tr": "Bir __________ yetersizlik durumunda hangi tıbbi tedavilerin istendiğini veya reddedildiğini belirtir."
+            },
+            "options": [],
+            "correctAnswer": "Patientenverfügung",
+            "explanation": {
+                "en": "A living will (Patientenverfügung) specifies the desired medical treatments.",
+                "bn": "একটি লিভিং উইল (পেশেন্টসভারফুগং) কাঙ্ক্ষিত চিকিৎসা চিকিৎসা নির্দিষ্ট করে।",
+                "hi": "एक लिविंग विल (पेशेंट्सवरफुगंग) वांछित चिकित्सा उपचार निर्दिष्ट करता है।",
+                "ur": "ایک لیونگ ول (مریضوں کی فراہمی) مطلوبہ طبی علاج کی وضاحت کرتا ہے۔",
+                "tr": "Bir vasiyet (Patientenverfügung) istenen tıbbi tedavileri belirtir."
+            },
+            "points": 10,
+            "id": "e36_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Eine __________ ermöglicht es einer Person, Entscheidungen für eine andere Person zu treffen, wenn diese dazu nicht mehr in der Lage ist.",
+                "en": "A __________ allows one person to make decisions for another person when they are no longer able to do so.",
+                "bn": "একটি __________ একজন ব্যক্তিকে অন্য ব্যক্তির জন্য সিদ্ধান্ত নিতে দেয় যখন তারা আর তা করতে সক্ষম না হয়।",
+                "hi": "एक __________ एक व्यक्ति को दूसरे व्यक्ति के लिए निर्णय लेने की अनुमति देता है जब वे अब ऐसा करने में सक्षम नहीं होते हैं।",
+                "ur": "ایک __________ ایک شخص کو دوسرے شخص کے لیے فیصلے کرنے کی اجازت دیتا ہے جب وہ اب ایسا کرنے کے قابل نہیں رہتے ہیں۔",
+                "tr": "Bir __________ bir kişinin artık yapamadığı durumlarda başka bir kişi için karar vermesine olanak tanır."
+            },
+            "options": [],
+            "correctAnswer": "Vorsorgevollmacht",
+            "explanation": {
+                "en": "A power of attorney (Vorsorgevollmacht) allows someone to make decisions for another person.",
+                "bn": "একটি পাওয়ার অফ অ্যাটর্নি (ভর্সোর্গোভোলমাখট) অন্য ব্যক্তির জন্য সিদ্ধান্ত নিতে কাউকে অনুমতি দেয়।",
+                "hi": "एक पावर ऑफ अटॉर्नी (वॉर्सोर्गवोल्माचट) किसी को दूसरे व्यक्ति के लिए निर्णय लेने की अनुमति देता है।",
+                "ur": "ایک پاور آف اٹارنی (ورسورگوولماچٹ) کسی کو دوسرے شخص کے لیے فیصلے کرنے کی اجازت دیتا ہے۔",
+                "tr": "Bir vekaletname (Vorsorgevollmacht) birinin başka bir kişi için karar vermesine olanak tanır."
+            },
+            "points": 10,
+            "id": "e36_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "__________ zielt darauf ab, die Lebensqualität von Patienten mit unheilbaren Krankheiten zu verbessern.",
+                "en": "__________ aims to improve the quality of life for patients with incurable diseases.",
+                "bn": "__________ নিরাময় অযোগ্য রোগে আক্রান্ত রোগীদের জীবনযাত্রার মান উন্নত করার লক্ষ্যে কাজ করে।",
+                "hi": "__________ लाइलाज बीमारियों वाले रोगियों के जीवन की गुणवत्ता में सुधार करने का लक्ष्य रखता है।",
+                "ur": "__________ کا مقصد لاعلاج بیماریوں میں مبتلا مریضوں کے معیار زندگی کو بہتر بنانا ہے۔",
+                "tr": "__________ tedavisi, tedavisi olmayan hastalıklara sahip hastaların yaşam kalitesini artırmayı amaçlamaktadır."
+            },
+            "options": [],
+            "correctAnswer": "Palliative Versorgung",
+            "explanation": {
+                "en": "Palliative care aims to improve the quality of life for patients with incurable diseases.",
+                "bn": "প্যালিয়েটিভ কেয়ার নিরাময় অযোগ্য রোগে আক্রান্ত রোগীদের জীবনযাত্রার মান উন্নত করার লক্ষ্যে কাজ করে।",
+                "hi": "उपशामक देखभाल लाइलाज बीमारियों वाले रोगियों के जीवन की गुणवत्ता में सुधार करने का लक्ष्य रखता है।",
+                "ur": "تسکین دہ نگہداشت کا مقصد لاعلاج بیماریوں میں مبتلا مریضوں کے معیار زندگی کو بہتر بنانا ہے۔",
+                "tr": "Palyatif bakım, tedavisi olmayan hastalıklara sahip hastaların yaşam kalitesini artırmayı amaçlamaktadır."
+            },
+            "points": 10,
+            "id": "e36_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Eine __________ Behandlung versucht, die Krankheit vollständig zu heilen.",
+                "en": "A __________ treatment attempts to completely cure the illness.",
+                "bn": "একটি __________ চিকিৎসা সম্পূর্ণরূপে রোগের নিরাময়ের চেষ্টা করে।",
+                "hi": "एक __________ उपचार पूरी तरह से बीमारी को ठीक करने का प्रयास करता है।",
+                "ur": "ایک __________ علاج مکمل طور پر بیماری کو ٹھیک کرنے کی کوشش کرتا ہے۔",
+                "tr": "Bir __________ tedavisi hastalığı tamamen iyileştirmeye çalışır."
+            },
+            "options": [],
+            "correctAnswer": "kurative",
+            "explanation": {
+                "en": "A curative treatment aims to completely heal the illness.",
+                "bn": "একটি নিরাময়মূলক চিকিৎসা সম্পূর্ণরূপে রোগের নিরাময়ের চেষ্টা করে।",
+                "hi": "एक उपचारात्मक चिकित्सा पूरी तरह से बीमारी को ठीक करने का प्रयास करती है।",
+                "ur": "ایک علاجی علاج مکمل طور پر بیماری کو ٹھیک کرنے کی کوشش کرتا ہے۔",
+                "tr": "İyileştirici bir tedavi hastalığı tamamen iyileştirmeyi amaçlar."
+            },
+            "points": 10,
+            "id": "e36_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Das __________ ist das gewünschte Ergebnis einer medizinischen Behandlung.",
+                "en": "The __________ is the desired outcome of a medical treatment.",
+                "bn": "__________ একটি চিকিৎসা চিকিৎসার কাঙ্ক্ষিত ফলাফল।",
+                "hi": "__________ एक चिकित्सा उपचार का वांछित परिणाम है।",
+                "ur": "__________ ایک طبی علاج کا مطلوبہ نتیجہ ہے۔",
+                "tr": "__________ bir tıbbi tedavinin istenen sonucudur."
+            },
+            "options": [],
+            "correctAnswer": "Therapieziel",
+            "explanation": {
+                "en": "The Therapieziel (therapy goal) is the desired outcome.",
+                "bn": "থেরাপিজিএল (থেরাপি লক্ষ্য) হলো কাঙ্ক্ষিত ফলাফল।",
+                "hi": "थेरेपीज़ीएल (चिकित्सा लक्ष्य) वांछित परिणाम है।",
+                "ur": "تھراپی زیل (تھراپی کا مقصد) مطلوبہ نتیجہ ہے۔",
+                "tr": "Therapieziel (terapi hedefi) istenen sonuçtur."
+            },
+            "points": 10,
+            "id": "e36_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Übersetzen Sie: 'Palliative care focuses on providing comfort and support to patients with serious illnesses.'",
+                "en": "Translate: 'Palliative care focuses on providing comfort and support to patients with serious illnesses.'",
+                "bn": "অনুবাদ করুন: 'প্যালিয়েটিভ কেয়ার গুরুতর অসুস্থ রোগীদের আরাম এবং সহায়তা প্রদানের উপর দৃষ্টি নিবদ্ধ করে।'",
+                "hi": "अनुवाद करें: 'उपशामक देखभाल गंभीर बीमारियों वाले रोगियों को आराम और सहायता प्रदान करने पर केंद्रित है।'",
+                "ur": "ترجمہ کریں: 'تسکین دہ نگہداشت سنگین بیماریوں میں مبتلا مریضوں کو راحت اور مدد فراہم کرنے پر توجہ مرکوز کرتی ہے۔'",
+                "tr": "Çevirin: 'Palyatif bakım, ciddi hastalıkları olan hastalara rahatlık ve destek sağlamaya odaklanır.'"
+            },
+            "options": [],
+            "correctAnswer": "Palliative Versorgung konzentriert sich darauf, Patienten mit schweren Erkrankungen Komfort und Unterstützung zu bieten.",
+            "explanation": {
+                "en": "This is a direct translation of the sentence.",
+                "bn": "এটি বাক্যের সরাসরি অনুবাদ।",
+                "hi": "यह वाक्य का सीधा अनुवाद है।",
+                "ur": "یہ جملے کا براہ راست ترجمہ ہے۔",
+                "tr": "Bu, cümlenin doğrudan çevirisidir."
+            },
+            "points": 10,
+            "id": "e36_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Übersetzen Sie: 'A living will allows you to make decisions about your medical treatment in advance.'",
+                "en": "Translate: 'A living will allows you to make decisions about your medical treatment in advance.'",
+                "bn": "অনুবাদ করুন: 'একটি লিভিং উইল আপনাকে আগে থেকে আপনার চিকিৎসা চিকিৎসা সম্পর্কে সিদ্ধান্ত নিতে দেয়।'",
+                "hi": "अनुवाद करें: 'एक लिविंग विल आपको पहले से अपने चिकित्सा उपचार के बारे में निर्णय लेने की अनुमति देता है।'",
+                "ur": "ترجمہ کریں: 'ایک لیونگ ول آپ کو پہلے سے اپنے طبی علاج کے بارے میں فیصلے کرنے کی اجازت دیتا ہے۔'",
+                "tr": "Çevirin: 'Bir vasiyet, tıbbi tedaviniz hakkında önceden karar vermenizi sağlar.'"
+            },
+            "options": [],
+            "correctAnswer": "Eine Patientenverfügung ermöglicht es Ihnen, im Voraus Entscheidungen über Ihre medizinische Behandlung zu treffen.",
+            "explanation": {
+                "en": "This is a direct translation of the sentence.",
+                "bn": "এটি বাক্যের সরাসরি অনুবাদ।",
+                "hi": "यह वाक्य का सीधा अनुवाद है।",
+                "ur": "یہ جملے کا براہ راست ترجمہ ہے۔",
+                "tr": "Bu, cümlenin doğrudan çevirisidir."
+            },
+            "points": 10,
+            "id": "e36_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Übersetzen Sie: 'The therapy aims to cure the infection completely.'",
+                "en": "Translate: 'The therapy aims to cure the infection completely.'",
+                "bn": "অনুবাদ করুন: 'থেরাপির লক্ষ্য সম্পূর্ণরূপে সংক্রমণ নিরাময় করা।'",
+                "hi": "अनुवाद करें: 'चिकित्सा का लक्ष्य संक्रमण को पूरी तरह से ठीक करना है।'",
+                "ur": "ترجمہ کریں: 'تھراپی کا مقصد انفیکشن کو مکمل طور پر ٹھیک کرنا ہے۔'",
+                "tr": "Çevirin: 'Tedavinin amacı enfeksiyonu tamamen iyileştirmektir.'"
+            },
+            "options": [],
+            "correctAnswer": "Die Therapie zielt darauf ab, die Infektion vollständig zu heilen.",
+            "explanation": {
+                "en": "This is a direct translation of the sentence.",
+                "bn": "এটি বাক্যের সরাসরি অনুবাদ।",
+                "hi": "यह वाक्य का सीधा अनुवाद है।",
+                "ur": "یہ جملے کا براہ راست ترجمہ ہے۔",
+                "tr": "Bu, cümlenin doğrudan çevirisidir."
+            },
+            "points": 10,
+            "id": "e36_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

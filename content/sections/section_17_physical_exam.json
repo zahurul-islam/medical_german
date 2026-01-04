@@ -1,14 +1,1638 @@
-{"id":"section_17","phaseId":"phase2","order":17,"titleDe":"Körperliche Untersuchung","title":{"en":"Physical Examination","bn":"শারীরিক পরীক্ষা","hi":"शारीरिक परीक्षण","ur":"جسمانی معائنہ","tr":"Fizik Muayene"},"level":"B1","estimatedMinutes":35,"vocabulary":[
-{"id":"v17_01","germanTerm":"Auskultation","article":"die","plural":"Auskultationen","translation":{"en":"Auscultation","bn":"শ্রবণ","hi":"श्रवण","ur":"سماعت","tr":"Oskültasyon"}},
-{"id":"v17_02","germanTerm":"Palpation","article":"die","plural":"Palpationen","translation":{"en":"Palpation","bn":"স্পর্শ পরীক্ষা","hi":"स्पर्शन","ur":"چھونا","tr":"Palpasyon"}},
-{"id":"v17_03","germanTerm":"Perkussion","article":"die","plural":"Perkussionen","translation":{"en":"Percussion","bn":"থাপড়","hi":"टक्कर","ur":"تھپکی","tr":"Perküsyon"}},
-{"id":"v17_04","germanTerm":"Inspektion","article":"die","plural":"Inspektionen","translation":{"en":"Inspection","bn":"পরিদর্শন","hi":"निरीक्षण","ur":"معائنہ","tr":"İnspeksiyon"}},
-{"id":"v17_05","germanTerm":"einatmen","article":"-","plural":"-","translation":{"en":"Breathe in","bn":"শ্বাস নিন","hi":"सांस लें","ur":"سانس لیں","tr":"Nefes alın"}},
-{"id":"v17_06","germanTerm":"ausatmen","article":"-","plural":"-","translation":{"en":"Breathe out","bn":"শ্বাস ছাড়ুন","hi":"सांस छोड़ें","ur":"سانس چھوڑیں","tr":"Nefes verin"}},
-{"id":"v17_07","germanTerm":"entspannen","article":"-","plural":"-","translation":{"en":"Relax","bn":"শিথিল হন","hi":"आराम करें","ur":"آرام کریں","tr":"Gevşeyin"}},
-{"id":"v17_08","germanTerm":"drücken","article":"-","plural":"-","translation":{"en":"Press","bn":"চাপ দিন","hi":"दबाएं","ur":"دبائیں","tr":"Basın"}}
-],"dialogues":[{"id":"d17_01","title":{"en":"Examining Patient"},"lines":[
-{"speaker":"Arzt","germanText":"Atmen Sie bitte tief ein.","translation":{"en":"Please breathe in deeply."}},
-{"speaker":"Patient","germanText":"So?","translation":{"en":"Like this?"}},
-{"speaker":"Arzt","germanText":"Ja, sehr gut. Und jetzt langsam ausatmen.","translation":{"en":"Yes, very good. Now breathe out slowly."}}
-]}],"exercises":[{"id":"e17_01","type":"multipleChoice","question":{"en":"What is 'Auskultation'?"},"options":["Listening with stethoscope","Pressing","Looking"],"correctAnswer":"Listening with stethoscope","points":10}]}
+{
+    "id": "section_17",
+    "phaseId": "phase2",
+    "order": 17,
+    "titleDe": "Körperliche Untersuchung",
+    "title": {
+        "en": "Physical Examination Techniques",
+        "de": "Körperliche Untersuchungstechniken",
+        "bn": "শারীরিক পরীক্ষার পদ্ধতিসমূহ",
+        "hi": "शारीरिक परीक्षा तकनीकें",
+        "ur": "جسمانی معائنہ کی تکنیک",
+        "tr": "Fiziksel Muayene Teknikleri"
+    },
+    "description": {
+        "en": "This section covers the fundamental techniques used in physical examinations: inspection, palpation, percussion, auscultation, and reflex testing.",
+        "de": "Dieser Abschnitt behandelt die grundlegenden Techniken der körperlichen Untersuchung: Inspektion, Palpation, Perkussion, Auskultation und Reflexprüfung.",
+        "bn": "এই বিভাগে শারীরিক পরীক্ষার মৌলিক কৌশলগুলি অন্তর্ভুক্ত করা হয়েছে: পরিদর্শন, স্পন্দন, ঘর্ষণ, শ্রবণ এবং রিফ্লেক্স পরীক্ষা।",
+        "hi": "इस खंड में शारीरिक परीक्षणों में उपयोग की जाने वाली मूलभूत तकनीकों को शामिल किया गया है: निरीक्षण, स्पर्श, टक्कर, श्रवण और प्रतिवर्त परीक्षण।",
+        "ur": "یہ سیکشن جسمانی معائنے میں استعمال ہونے والی بنیادی تکنیکوں کا احاطہ کرتا ہے: معائنہ، ٹٹولنا، ضرب لگانا، سننا، اور اضطراری جانچ۔",
+        "tr": "Bu bölüm, fiziksel muayenelerde kullanılan temel teknikleri kapsar: inspeksiyon, palpasyon, perküsyon, oskültasyon ve refleks testi."
+    },
+    "level": "B1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, you will learn the German terminology for common physical examination techniques. We will explore the specific vocabulary related to auscultation, palpation, percussion, inspection, and reflex testing.",
+            "de": "In diesem Abschnitt lernen Sie die deutsche Terminologie für gängige körperliche Untersuchungstechniken kennen. Wir werden den spezifischen Wortschatz im Zusammenhang mit Auskultation, Palpation, Perkussion, Inspektion und Reflexprüfung untersuchen.",
+            "bn": "এই বিভাগে, আপনি সাধারণ শারীরিক পরীক্ষার কৌশলগুলির জন্য জার্মান পরিভাষা শিখবেন। আমরা শ্রবণ, স্পন্দন, ঘর্ষণ, পরিদর্শন এবং রিফ্লেক্স পরীক্ষা সম্পর্কিত নির্দিষ্ট শব্দভাণ্ডার অন্বেষণ করব।",
+            "hi": "इस खंड में, आप सामान्य शारीरिक परीक्षा तकनीकों के लिए जर्मन शब्दावली सीखेंगे। हम श्रवण, स्पर्श, टक्कर, निरीक्षण और प्रतिवर्त परीक्षण से संबंधित विशिष्ट शब्दावली का पता लगाएंगे।",
+            "ur": "اس حصے میں، آپ جسمانی معائنے کی عام تکنیکوں کے لیے جرمن اصطلاحات سیکھیں گے۔ ہم اوسکلٹیشن، ٹٹولنا، ضرب لگانا، معائنہ، اور اضطراری جانچ سے متعلق مخصوص الفاظ کو دریافت کریں گے۔",
+            "tr": "Bu bölümde, yaygın fiziksel muayene teknikleri için Almanca terminolojiyi öğreneceksiniz. Oskültasyon, palpasyon, perküsyon, inspeksiyon ve refleks testi ile ilgili özel kelime dağarcığını inceleyeceğiz."
+        },
+        "grammarFocus": {
+            "en": {
+                "-": "Focus on the correct use of articles (der, die, das) with medical terms.",
+                "--": "Pay attention to the accusative and dative cases when describing actions performed on the patient (e.g., den Patienten untersuchen)."
+            },
+            "de": {
+                "-": "Konzentrieren Sie sich auf die korrekte Verwendung der Artikel (der, die, das) bei medizinischen Begriffen.",
+                "--": "Achten Sie auf den Akkusativ und Dativ, wenn Sie Handlungen beschreiben, die am Patienten durchgeführt werden (z.B. den Patienten untersuchen)."
+            },
+            "bn": {
+                "-": "চিকিৎসা পদগুলির সাথে নিবন্ধগুলির (der, die, das) সঠিক ব্যবহারের উপর মনোযোগ দিন।",
+                "--": "রোগীর উপর সঞ্চালিত কর্ম বর্ণনা করার সময় অভিযুক্ত এবং ডেটিভ ক্ষেত্রে মনোযোগ দিন (যেমন, den Patienten untersuchen)।"
+            },
+            "hi": {
+                "-": "चिकित्सा शर्तों के साथ लेखों (der, die, das) के सही उपयोग पर ध्यान दें।",
+                "--": "रोगी पर की गई क्रियाओं का वर्णन करते समय कर्म और संप्रदान कारकों पर ध्यान दें (उदाहरण के लिए, den Patienten untersuchen)।"
+            },
+            "ur": {
+                "-": "طبی اصطلاحات کے ساتھ مضامین (der, die, das) کے صحیح استعمال پر توجہ دیں۔",
+                "--": "مریض پر کیے جانے والے افعال کو بیان کرتے وقت الزامی اور اضافی معاملات پر توجہ دیں (مثال کے طور پر، den Patienten untersuchen)۔"
+            },
+            "tr": {
+                "-": "Tıbbi terimlerle birlikte artikellerin (der, die, das) doğru kullanımına odaklanın.",
+                "--": "Hastaya uygulanan eylemleri tanımlarken akuzatif ve datif hallere dikkat edin (örneğin, den Patienten untersuchen)."
+            }
+        },
+        "culturalNotes": {
+            "en": "In German hospitals, physical examinations are typically conducted with a high degree of thoroughness and documentation.",
+            "de": "In deutschen Krankenhäusern werden körperliche Untersuchungen in der Regel mit großer Gründlichkeit und Dokumentation durchgeführt.",
+            "bn": "জার্মান হাসপাতালগুলিতে, শারীরিক পরীক্ষা সাধারণত অত্যন্ত সম্পূর্ণতা এবং নথিপত্রের সাথে পরিচালিত হয়।",
+            "hi": "जर्मन अस्पतालों में, शारीरिक परीक्षण आमतौर पर पूरी तरह से और प्रलेखन के उच्च स्तर के साथ आयोजित किए जाते हैं।",
+            "ur": "جرمن ہسپتالوں میں، جسمانی معائنہ عام طور پر مکمل اور دستاویزات کی اعلی ڈگری کے ساتھ کیا جاتا ہے۔",
+            "tr": "Alman hastanelerinde, fiziksel muayeneler genellikle yüksek derecede titizlik ve dokümantasyon ile yapılır."
+        },
+        "summary": {
+            "en": "This section provided an overview of the essential German terminology for conducting and documenting a physical examination.",
+            "de": "Dieser Abschnitt gab einen Überblick über die wesentliche deutsche Terminologie zur Durchführung und Dokumentation einer körperlichen Untersuchung.",
+            "bn": "এই বিভাগে শারীরিক পরীক্ষা পরিচালনা এবং নথিভুক্ত করার জন্য প্রয়োজনীয় জার্মান পরিভাষাটির একটি সংক্ষিপ্ত বিবরণ দেওয়া হয়েছে।",
+            "hi": "इस खंड में शारीरिक परीक्षा आयोजित करने और दस्तावेज़ बनाने के लिए आवश्यक जर्मन शब्दावली का एक संक्षिप्त विवरण दिया गया है।",
+            "ur": "اس سیکشن میں جسمانی معائنہ کرنے اور دستاویزی کرنے کے لیے ضروری جرمن اصطلاحات کا ایک مختصر جائزہ فراہم کیا گیا ہے۔",
+            "tr": "Bu bölüm, fiziksel muayeneyi yapma ve belgeleme için gerekli Almanca terminolojinin bir özetini sundu."
+        },
+        "learningObjectives": [
+            "Identify and define the German terms for inspection, palpation, percussion, auscultation, and reflex testing.",
+            "Describe the correct grammatical usage (articles, cases) of these terms in medical contexts.",
+            "Understand the typical process of a physical examination in a German-speaking medical setting.",
+            "Translate simple descriptions of physical examination findings into German."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "die Untersuchung",
+            "article": "die",
+            "plural": "die Untersuchungen",
+            "pronunciation": "/ʊntɐˈzuːxʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "examination",
+                "bn": "পরীক্ষা",
+                "hi": "जाँच",
+                "ur": "معائنہ",
+                "tr": "muayene"
+            },
+            "exampleSentence": "Die körperliche Untersuchung ergab keine Auffälligkeiten.",
+            "exampleTranslation": {
+                "en": "The physical examination revealed no abnormalities.",
+                "bn": "শারীরিক পরীক্ষায় কোন অস্বাভাবিকতা পাওয়া যায়নি।",
+                "hi": "शारीरिक जाँच में कोई असामान्यता नहीं पाई गई।",
+                "ur": "جسمانی معائنے میں کوئی غیر معمولی بات نہیں ملی۔",
+                "tr": "Fiziksel muayenede herhangi bir anormallik bulunmadı."
+            },
+            "id": "v17_01"
+        },
+        {
+            "germanTerm": "die Auskultation",
+            "article": "die",
+            "plural": "die Auskultationen",
+            "pronunciation": "/aʊ̯skʊltaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "auscultation",
+                "bn": "অসক্যাল্টেশন",
+                "hi": "आस्कल्टेशन",
+                "ur": "آسکلٹیشن",
+                "tr": "oskültasyon"
+            },
+            "exampleSentence": "Die Auskultation der Lunge war unauffällig.",
+            "exampleTranslation": {
+                "en": "Auscultation of the lungs was unremarkable.",
+                "bn": "ফুসফুসের অসক্যাল্টেশন স্বাভাবিক ছিল।",
+                "hi": "फेफड़ों का आस्कल्टेशन सामान्य था।",
+                "ur": "پھیپھڑوں کا آسکلٹیشن غیر معمولی تھا۔",
+                "tr": "Akciğerlerin oskültasyonu olağandı."
+            },
+            "id": "v17_02"
+        },
+        {
+            "germanTerm": "die Palpation",
+            "article": "die",
+            "plural": "die Palpationen",
+            "pronunciation": "/palpaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "palpation",
+                "bn": "প্যালপেশন",
+                "hi": "स्पर्श करके देखना",
+                "ur": "لمس",
+                "tr": "palpasyon"
+            },
+            "exampleSentence": "Die Palpation des Abdomens war schmerzhaft.",
+            "exampleTranslation": {
+                "en": "Palpation of the abdomen was painful.",
+                "bn": "পেটের প্যালপেশন বেদনাদায়ক ছিল।",
+                "hi": "पेट को छूकर देखना दर्दनाक था।",
+                "ur": "پیٹ کو چھونا دردناک تھا۔",
+                "tr": "Karın palpasyonu ağrılıydı."
+            },
+            "id": "v17_03"
+        },
+        {
+            "germanTerm": "die Perkussion",
+            "article": "die",
+            "plural": "die Perkussionen",
+            "pronunciation": "/pɛrkʊˈsi̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "percussion",
+                "bn": "পারকাশন",
+                "hi": "तालवादन",
+                "ur": "ٹکور",
+                "tr": "perküsyon"
+            },
+            "exampleSentence": "Die Perkussion des Brustkorbs ergab einen gedämpften Klang.",
+            "exampleTranslation": {
+                "en": "Percussion of the chest revealed a dull sound.",
+                "bn": "বুকের পারকাশনে একটি নিস্তেজ শব্দ পাওয়া যায়।",
+                "hi": "छाती के तालवादन में एक मंद ध्वनि सुनाई दी।",
+                "ur": "سینے کے ٹکور میں ایک مدھم آواز سنائی دی۔",
+                "tr": "Göğüs perküsyonunda donuk bir ses duyuldu."
+            },
+            "id": "v17_04"
+        },
+        {
+            "germanTerm": "die Inspektion",
+            "article": "die",
+            "plural": "die Inspektionen",
+            "pronunciation": "/ɪnˈʃpɛkt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "inspection",
+                "bn": "পরিদর্শন",
+                "hi": "निरीक्षण",
+                "ur": "معائنہ",
+                "tr": "inspeksiyon"
+            },
+            "exampleSentence": "Die Inspektion der Haut zeigte Rötungen.",
+            "exampleTranslation": {
+                "en": "Inspection of the skin showed redness.",
+                "bn": "ত্বকের পরিদর্শনে লালচে ভাব দেখা যায়।",
+                "hi": "त्वचा के निरीक्षण में लालिमा दिखाई दी।",
+                "ur": "جلد کے معائنے میں سرخی نظر آئی۔",
+                "tr": "Cildin incelenmesinde kızarıklık görüldü."
+            },
+            "id": "v17_05"
+        },
+        {
+            "germanTerm": "der Reflex",
+            "article": "der",
+            "plural": "die Reflexe",
+            "pronunciation": "/ʁeˈflɛks/",
+            "category": "noun",
+            "translation": {
+                "en": "reflex",
+                "bn": "প্রতিবর্ত ক্রিয়া",
+                "hi": "प्रतिवर्त",
+                "ur": "رد عمل",
+                "tr": "refleks"
+            },
+            "exampleSentence": "Die Reflexe sind altersentsprechend auslösbar.",
+            "exampleTranslation": {
+                "en": "The reflexes are elicitable for the age.",
+                "bn": "বয়সের জন্য প্রতিবর্ত ক্রিয়াগুলি সক্রিয় করা যায়।",
+                "hi": "उम्र के लिए प्रतिवर्त क्रियाएं सक्रिय की जा सकती हैं।",
+                "ur": "عمر کے لحاظ سے رد عمل کو متحرک کیا جا سکتا ہے۔",
+                "tr": "Refleksler yaşa göre tetiklenebilir."
+            },
+            "id": "v17_06"
+        },
+        {
+            "germanTerm": "die Anamnese",
+            "article": "die",
+            "plural": "die Anamnesen",
+            "pronunciation": "/anaˈmneːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "medical history",
+                "bn": "চিকিৎসা ইতিহাস",
+                "hi": "चिकित्सा इतिहास",
+                "ur": "طبی تاریخ",
+                "tr": "tıbbi geçmiş"
+            },
+            "exampleSentence": "Die Anamnese ist wichtig für die Diagnose.",
+            "exampleTranslation": {
+                "en": "The medical history is important for the diagnosis.",
+                "bn": "রোগ নির্ণয়ের জন্য চিকিৎসা ইতিহাস গুরুত্বপূর্ণ।",
+                "hi": "रोग निदान के लिए चिकित्सा इतिहास महत्वपूर्ण है।",
+                "ur": "طبی تاریخ تشخیص کے لیے اہم ہے۔",
+                "tr": "Tıbbi geçmiş teşhis için önemlidir."
+            },
+            "id": "v17_07"
+        },
+        {
+            "germanTerm": "der Befund",
+            "article": "der",
+            "plural": "die Befunde",
+            "pronunciation": "/bəˈfʊnt/",
+            "category": "noun",
+            "translation": {
+                "en": "finding",
+                "bn": "ফলাফল",
+                "hi": "निष्कर्ष",
+                "ur": "دریافت",
+                "tr": "bulgu"
+            },
+            "exampleSentence": "Der radiologische Befund zeigt eine Fraktur.",
+            "exampleTranslation": {
+                "en": "The radiological finding shows a fracture.",
+                "bn": "রেডিওলজিকাল ফলাফলে একটি ফাটল দেখা যায়।",
+                "hi": "रेडियोलॉजिकल निष्कर्ष में एक फ्रैक्चर दिखाई देता है।",
+                "ur": "ریڈیولاجیکل نتائج میں ایک فریکچر نظر آتا ہے۔",
+                "tr": "Radyolojik bulgu bir kırık gösteriyor."
+            },
+            "id": "v17_08"
+        },
+        {
+            "germanTerm": "die Diagnose",
+            "article": "die",
+            "plural": "die Diagnosen",
+            "pronunciation": "/diaˈɡnoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "diagnosis",
+                "bn": "রোগ নির্ণয়",
+                "hi": "निदान",
+                "ur": "تشخیص",
+                "tr": "teşhis"
+            },
+            "exampleSentence": "Die Diagnose lautet Pneumonie.",
+            "exampleTranslation": {
+                "en": "The diagnosis is pneumonia.",
+                "bn": "রোগ নির্ণয় হল নিউমোনিয়া।",
+                "hi": "निदान निमोनिया है।",
+                "ur": "تشخیص نمونیا ہے۔",
+                "tr": "Teşhis zatürre."
+            },
+            "id": "v17_09"
+        },
+        {
+            "germanTerm": "das Symptom",
+            "article": "das",
+            "plural": "die Symptome",
+            "pronunciation": "/zʏmˈptoːm/",
+            "category": "noun",
+            "translation": {
+                "en": "symptom",
+                "bn": "উপসর্গ",
+                "hi": "लक्षण",
+                "ur": "علامت",
+                "tr": "semptom"
+            },
+            "exampleSentence": "Husten ist ein häufiges Symptom bei Erkältungen.",
+            "exampleTranslation": {
+                "en": "Coughing is a common symptom of colds.",
+                "bn": "কাশি সর্দি-কাশির একটি সাধারণ উপসর্গ।",
+                "hi": "खांसी सर्दी का एक आम लक्षण है।",
+                "ur": "کھانسی سردی کی ایک عام علامت ہے۔",
+                "tr": "Öksürük soğuk algınlığının yaygın bir belirtisidir."
+            },
+            "id": "v17_10"
+        },
+        {
+            "germanTerm": "der Schmerz",
+            "article": "der",
+            "plural": "die Schmerzen",
+            "pronunciation": "/ʃmɛʁt͡s/",
+            "category": "noun",
+            "translation": {
+                "en": "pain",
+                "bn": "ব্যথা",
+                "hi": "दर्द",
+                "ur": "درد",
+                "tr": "ağrı"
+            },
+            "exampleSentence": "Der Patient klagt über starke Schmerzen im Bauch.",
+            "exampleTranslation": {
+                "en": "The patient complains of severe pain in the abdomen.",
+                "bn": "রোগী পেটে তীব্র ব্যথার অভিযোগ করছেন।",
+                "hi": "मरीज पेट में तेज दर्द की शिकायत कर रहा है।",
+                "ur": "مریض پیٹ میں شدید درد کی شکایت کر رہا ہے۔",
+                "tr": "Hasta karın bölgesinde şiddetli ağrıdan şikayet ediyor."
+            },
+            "id": "v17_11"
+        },
+        {
+            "germanTerm": "das Fieber",
+            "article": "das",
+            "plural": "die Fieber",
+            "pronunciation": "/ˈfiːbɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "fever",
+                "bn": "জ্বর",
+                "hi": "बुखार",
+                "ur": "بخار",
+                "tr": "ateş"
+            },
+            "exampleSentence": "Das Fieber ist auf 39 Grad Celsius gestiegen.",
+            "exampleTranslation": {
+                "en": "The fever has risen to 39 degrees Celsius.",
+                "bn": "জ্বর ৩৯ ডিগ্রি সেলসিয়াসে বেড়েছে।",
+                "hi": "बुखार 39 डिग्री सेल्सियस तक बढ़ गया है।",
+                "ur": "بخار 39 ڈگری سینٹی گریڈ تک بڑھ گیا ہے۔",
+                "tr": "Ateş 39 santigrat dereceye yükseldi."
+            },
+            "id": "v17_12"
+        },
+        {
+            "germanTerm": "der Blutdruck",
+            "article": "der",
+            "plural": "die Blutdrücke",
+            "pronunciation": "/ˈbluːtˌdʁʊk/",
+            "category": "noun",
+            "translation": {
+                "en": "blood pressure",
+                "bn": "রক্তচাপ",
+                "hi": "रक्तचाप",
+                "ur": "بلڈ پریشر",
+                "tr": "kan basıncı"
+            },
+            "exampleSentence": "Der Blutdruck ist zu hoch.",
+            "exampleTranslation": {
+                "en": "The blood pressure is too high.",
+                "bn": "রক্তচাপ খুব বেশি।",
+                "hi": "रक्तचाप बहुत अधिक है।",
+                "ur": "بلڈ پریشر بہت زیادہ ہے۔",
+                "tr": "Kan basıncı çok yüksek."
+            },
+            "id": "v17_13"
+        },
+        {
+            "germanTerm": "die Herzfrequenz",
+            "article": "die",
+            "plural": "die Herzfrequenzen",
+            "pronunciation": "/ˈhɛʁt͡sfreˌkvɛn(t)s/",
+            "category": "noun",
+            "translation": {
+                "en": "heart rate",
+                "bn": "হৃদস্পন্দন",
+                "hi": "हृदय गति",
+                "ur": "دل کی دھڑکن",
+                "tr": "kalp atış hızı"
+            },
+            "exampleSentence": "Die Herzfrequenz ist erhöht.",
+            "exampleTranslation": {
+                "en": "The heart rate is elevated.",
+                "bn": "হৃদস্পন্দন বেড়েছে।",
+                "hi": "हृदय गति बढ़ गई है।",
+                "ur": "دل کی دھڑکن بڑھ گئی ہے۔",
+                "tr": "Kalp atış hızı yükseldi."
+            },
+            "id": "v17_14"
+        },
+        {
+            "germanTerm": "die Atmung",
+            "article": "die",
+            "plural": "die Atmungen",
+            "pronunciation": "/ˈaːtmʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "breathing",
+                "bn": "শ্বাস-প্রশ্বাস",
+                "hi": "सांस लेना",
+                "ur": "سانس لینا",
+                "tr": "nefes alma"
+            },
+            "exampleSentence": "Die Atmung ist flach und schnell.",
+            "exampleTranslation": {
+                "en": "The breathing is shallow and rapid.",
+                "bn": "শ্বাস-প্রশ্বাস অগভীর এবং দ্রুত।",
+                "hi": "सांस उथली और तेज है।",
+                "ur": "سانس اتھلی اور تیز ہے۔",
+                "tr": "Nefes alma sığ ve hızlı."
+            },
+            "id": "v17_15"
+        },
+        {
+            "germanTerm": "der Puls",
+            "article": "der",
+            "plural": "die Pulse",
+            "pronunciation": "/pʊls/",
+            "category": "noun",
+            "translation": {
+                "en": "pulse",
+                "bn": "নাড়ি",
+                "hi": "नाड़ी",
+                "ur": "نبض",
+                "tr": "nabız"
+            },
+            "exampleSentence": "Der Puls ist schwach und unregelmäßig.",
+            "exampleTranslation": {
+                "en": "The pulse is weak and irregular.",
+                "bn": "নাড়ি দুর্বল এবং অনিয়মিত।",
+                "hi": "नाड़ी कमजोर और अनियमित है।",
+                "ur": "نبض کمزور اور بے قاعدہ ہے۔",
+                "tr": "Nabız zayıf ve düzensiz."
+            },
+            "id": "v17_16"
+        },
+        {
+            "germanTerm": "abzutasten",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈapˌtastn̩/",
+            "category": "verb",
+            "translation": {
+                "en": "to palpate",
+                "bn": "স্পর্শ করে অনুভব করা",
+                "hi": "स्पर्श करना",
+                "ur": "ٹٹولنا",
+                "tr": "palpe etmek"
+            },
+            "exampleSentence": "Der Arzt tastet den Bauch ab.",
+            "exampleTranslation": {
+                "en": "The doctor palpates the abdomen.",
+                "bn": "ডাক্তার পেট স্পর্শ করে অনুভব করছেন।",
+                "hi": "डॉक्टर पेट को छूकर देख रहे हैं।",
+                "ur": "ڈاکٹر پیٹ کو ٹٹول رہا ہے۔",
+                "tr": "Doktor karnı palpe ediyor."
+            },
+            "id": "v17_17"
+        },
+        {
+            "germanTerm": "abzuhören",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈapˌhøːʁən/",
+            "category": "verb",
+            "translation": {
+                "en": "to auscultate",
+                "bn": "শ্রবণ করা",
+                "hi": "आस्कल्टेट करना",
+                "ur": "سننا",
+                "tr": "dinlemek (oskültasyon)"
+            },
+            "exampleSentence": "Der Arzt hört die Lunge ab.",
+            "exampleTranslation": {
+                "en": "The doctor auscultates the lungs.",
+                "bn": "ডাক্তার ফুসফুস শ্রবণ করছেন।",
+                "hi": "डॉक्टर फेफड़ों को आस्कल्टेट कर रहे हैं।",
+                "ur": "ڈاکٹر پھیپھڑوں کو سن رہا ہے۔",
+                "tr": "Doktor akciğerleri dinliyor."
+            },
+            "id": "v17_18"
+        },
+        {
+            "germanTerm": "zu untersuchen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/t͡suː ʊntɐˈzuːxn̩/",
+            "category": "verb",
+            "translation": {
+                "en": "to examine",
+                "bn": "পরীক্ষা করা",
+                "hi": "जाँच करना",
+                "ur": "معائنہ کرنا",
+                "tr": "muayene etmek"
+            },
+            "exampleSentence": "Der Arzt muss den Patienten gründlich untersuchen.",
+            "exampleTranslation": {
+                "en": "The doctor must examine the patient thoroughly.",
+                "bn": "ডাক্তারকে রোগীকে ভালোভাবে পরীক্ষা করতে হবে।",
+                "hi": "डॉक्टर को मरीज की अच्छी तरह से जांच करनी होगी।",
+                "ur": "ڈاکٹر کو مریض کا اچھی طرح سے معائنہ کرنا چاہیے۔",
+                "tr": "Doktor hastayı iyice muayene etmeli."
+            },
+            "id": "v17_19"
+        },
+        {
+            "germanTerm": "abzuklopfen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈapˌklɔp͡fən/",
+            "category": "verb",
+            "translation": {
+                "en": "to percuss",
+                "bn": "ঠুকে দেখা",
+                "hi": "ठोकना",
+                "ur": "تھپتھپانا",
+                "tr": "perküsyon yapmak"
+            },
+            "exampleSentence": "Der Arzt klopft den Brustkorb ab.",
+            "exampleTranslation": {
+                "en": "The doctor percusses the chest.",
+                "bn": "ডাক্তার বুক ঠুকে দেখছেন।",
+                "hi": "डॉक्टर छाती ठोक रहे हैं।",
+                "ur": "ڈاکٹر سینے کو تھپتھپا رہا ہے۔",
+                "tr": "Doktor göğsü perküsyon yapıyor."
+            },
+            "id": "v17_20"
+        },
+        {
+            "germanTerm": "inspizieren",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ɪnspiˈt͡siːʁən/",
+            "category": "verb",
+            "translation": {
+                "en": "to inspect",
+                "bn": "পরিদর্শন করা",
+                "hi": "निरीक्षण करना",
+                "ur": "معائنہ کرنا",
+                "tr": "incelemek"
+            },
+            "exampleSentence": "Der Arzt inspiziert die Haut des Patienten.",
+            "exampleTranslation": {
+                "en": "The doctor inspects the patient's skin.",
+                "bn": "ডাক্তার রোগীর ত্বক পরিদর্শন করছেন।",
+                "hi": "डॉक्टर मरीज की त्वचा का निरीक्षण कर रहे हैं।",
+                "ur": "ڈاکٹر مریض کی جلد کا معائنہ کر رہے ہیں۔",
+                "tr": "Doktor hastanın cildini inceliyor."
+            },
+            "id": "v17_21"
+        },
+        {
+            "germanTerm": "auslösen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈaʊ̯sˌløːzn̩/",
+            "category": "verb",
+            "translation": {
+                "en": "to elicit",
+                "bn": "সক্রিয় করা",
+                "hi": "उत्पन्न करना",
+                "ur": "متحرک کرنا",
+                "tr": "tetiklemek"
+            },
+            "exampleSentence": "Der Arzt versucht, den Patellareflex auszulösen.",
+            "exampleTranslation": {
+                "en": "The doctor tries to elicit the patellar reflex.",
+                "bn": "ডাক্তার প্যাটেলা রিফ্লেক্স সক্রিয় করার চেষ্টা করছেন।",
+                "hi": "डॉक्टर पटेला रिफ्लेक्स उत्पन्न करने की कोशिश कर रहे हैं।",
+                "ur": "ڈاکٹر پٹیلا ریفلیکس کو متحرک کرنے کی کوشش کر رہے ہیں۔",
+                "tr": "Doktor patellar refleksi tetiklemeye çalışıyor."
+            },
+            "id": "v17_22"
+        },
+        {
+            "germanTerm": "schmerzhaft",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈʃmɛʁt͡shaft/",
+            "category": "adjective",
+            "translation": {
+                "en": "painful",
+                "bn": "বেদনাদায়ক",
+                "hi": "दर्दनाक",
+                "ur": "دردناک",
+                "tr": "ağrılı"
+            },
+            "exampleSentence": "Die Palpation war schmerzhaft.",
+            "exampleTranslation": {
+                "en": "The palpation was painful.",
+                "bn": "প্যালপেশন বেদনাদায়ক ছিল।",
+                "hi": "स्पर्श करना दर्दनाक था।",
+                "ur": "لمس دردناک تھا۔",
+                "tr": "Palpasyon ağrılıydı."
+            },
+            "id": "v17_23"
+        },
+        {
+            "germanTerm": "unauffällig",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ʊnˈʔaʊ̯fˌfɛlɪç/",
+            "category": "adjective",
+            "translation": {
+                "en": "unremarkable",
+                "bn": "স্বাভাবিক",
+                "hi": "सामान्य",
+                "ur": "غیر معمولی",
+                "tr": "olağandışı"
+            },
+            "exampleSentence": "Die Auskultation war unauffällig.",
+            "exampleTranslation": {
+                "en": "The auscultation was unremarkable.",
+                "bn": "অসক্যাল্টেশন স্বাভাবিক ছিল।",
+                "hi": "आस्कल्टेशन सामान्य था।",
+                "ur": "آسکلٹیشن غیر معمولی تھا۔",
+                "tr": "Oskültasyon olağandışıydı."
+            },
+            "id": "v17_24"
+        },
+        {
+            "germanTerm": "vermindert",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/fɛɐ̯ˈmɪndɐt/",
+            "category": "adjective",
+            "translation": {
+                "en": "decreased",
+                "bn": "কমে যাওয়া",
+                "hi": "कम होना",
+                "ur": "کم",
+                "tr": "azalmış"
+            },
+            "exampleSentence": "Die Atemfrequenz ist vermindert.",
+            "exampleTranslation": {
+                "en": "The respiratory rate is decreased.",
+                "bn": "শ্বাস-প্রশ্বাসের হার কমে গেছে।",
+                "hi": "सांस लेने की दर कम हो गई है।",
+                "ur": "سانس لینے کی رفتار کم ہو گئی ہے۔",
+                "tr": "Solunum hızı azaldı."
+            },
+            "id": "v17_25"
+        },
+        {
+            "germanTerm": "erhöht",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ɛɐ̯ˈhøːt/",
+            "category": "adjective",
+            "translation": {
+                "en": "elevated",
+                "bn": "বৃদ্ধিপ্রাপ্ত",
+                "hi": "बढ़ा हुआ",
+                "ur": "بڑھا ہوا",
+                "tr": "yüksek"
+            },
+            "exampleSentence": "Die Körpertemperatur ist erhöht.",
+            "exampleTranslation": {
+                "en": "The body temperature is elevated.",
+                "bn": "শরীরের তাপমাত্রা বৃদ্ধি পেয়েছে।",
+                "hi": "शरीर का तापमान बढ़ा हुआ है।",
+                "ur": "جسم کا درجہ حرارت بڑھا ہوا ہے۔",
+                "tr": "Vücut sıcaklığı yüksek."
+            },
+            "id": "v17_26"
+        },
+        {
+            "germanTerm": "im Rahmen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ɪm ˈʁaːmən/",
+            "category": "phrase",
+            "translation": {
+                "en": "within normal limits",
+                "bn": "স্বাভাবিক সীমার মধ্যে",
+                "hi": "सामान्य सीमा के भीतर",
+                "ur": "نارمل حدود میں",
+                "tr": "normal sınırlar içinde"
+            },
+            "exampleSentence": "Alle Werte sind im Rahmen.",
+            "exampleTranslation": {
+                "en": "All values are within normal limits.",
+                "bn": "সমস্ত মান স্বাভাবিক সীমার মধ্যে রয়েছে।",
+                "hi": "सभी मान सामान्य सीमा के भीतर हैं।",
+                "ur": "تمام اقدار نارمل حدود میں ہیں۔",
+                "tr": "Tüm değerler normal sınırlar içinde."
+            },
+            "id": "v17_27"
+        },
+        {
+            "germanTerm": "subjektiv",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/zʊpjɛkˈtiːf/",
+            "category": "adjective",
+            "translation": {
+                "en": "subjective",
+                "bn": "বিষয়ভিত্তিক",
+                "hi": "व्यक्तिपरक",
+                "ur": "ذاتی",
+                "tr": "öznel"
+            },
+            "exampleSentence": "Die Schmerzen sind subjektiv.",
+            "exampleTranslation": {
+                "en": "The pain is subjective.",
+                "bn": "ব্যথা বিষয়ভিত্তিক।",
+                "hi": "दर्द व्यक्तिपरक है।",
+                "ur": "درد ذاتی ہے۔",
+                "tr": "Ağrı özneldir."
+            },
+            "id": "v17_28"
+        },
+        {
+            "germanTerm": "objektiv",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ɔpjɛkˈtiːf/",
+            "category": "adjective",
+            "translation": {
+                "en": "objective",
+                "bn": "বস্তুনিষ্ঠ",
+                "hi": "वस्तुनिष्ठ",
+                "ur": "معروضی",
+                "tr": "nesnel"
+            },
+            "exampleSentence": "Der Befund ist objektiv messbar.",
+            "exampleTranslation": {
+                "en": "The finding is objectively measurable.",
+                "bn": "ফলাফল বস্তুনিষ্ঠভাবে পরিমাপযোগ্য।",
+                "hi": "निष्कर्ष वस्तुनिष्ठ रूप से मापने योग्य है।",
+                "ur": "نتائج معروضی طور پر قابل پیمائش ہیں۔",
+                "tr": "Bulgu nesnel olarak ölçülebilir."
+            },
+            "id": "v17_29"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Abdominal Examination",
+                "bn": "পেটের পরীক্ষা",
+                "hi": "पेट की परीक्षा",
+                "ur": "پیٹ کا معائنہ",
+                "tr": "Karın Muayenesi"
+            },
+            "context": {
+                "en": "Dr. Schmidt is examining Mr. Müller's abdomen due to reported pain.",
+                "bn": "ডাঃ শ্মিট মিঃ মুলারের পেটে ব্যথার কারণে পরীক্ষা করছেন।",
+                "hi": "डॉ श्मिट पेट दर्द की शिकायत के कारण श्री मुलर के पेट की जांच कर रहे हैं।",
+                "ur": "ڈاکٹر شمٹ پیٹ میں درد کی شکایت پر مسٹر ملر کا پیٹ چیک کر رہے ہیں۔",
+                "tr": "Dr. Schmidt, Bay Müller'in karın ağrısı şikayeti üzerine karnını muayene ediyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Tag, Herr Müller. Wo genau haben Sie Schmerzen?",
+                    "translation": {
+                        "en": "Good day, Mr. Müller. Where exactly do you have pain?",
+                        "bn": "শুভ দিন, মিঃ মুলার। আপনার ঠিক কোথায় ব্যথা?",
+                        "hi": "शुभ दिन, श्री मुलर। आपको ठीक कहाँ दर्द है?",
+                        "ur": "شب بخیر، مسٹر مولر۔ آپ کو کہاں درد ہے؟",
+                        "tr": "İyi günler, Bay Müller. Tam olarak nerede ağrınız var?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Hier, im Unterbauch, vor allem auf der rechten Seite.",
+                    "translation": {
+                        "en": "Here, in the lower abdomen, especially on the right side.",
+                        "bn": "এখানে, পেটের নীচে, বিশেষ করে ডান দিকে।",
+                        "hi": "यहाँ, पेट के निचले हिस्से में, खासकर दाहिनी तरफ।",
+                        "ur": "یہاں، پیٹ کے نچلے حصے میں، خاص طور پر دائیں جانب۔",
+                        "tr": "Burada, karnımın alt kısmında, özellikle sağ tarafta."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich werde nun Ihren Bauch abtasten. Sagen Sie Bescheid, wenn es weh tut. (Palpation)",
+                    "translation": {
+                        "en": "I will now palpate your abdomen. Please let me know if it hurts. (Palpation)",
+                        "bn": "আমি এখন আপনার পেট পরীক্ষা করব। ব্যথা হলে আমাকে জানান। (প্যালপেশন)",
+                        "hi": "मैं अब आपके पेट को टटोलूंगा। कृपया मुझे बताएं कि क्या दर्द होता है। (पल्पेशन)",
+                        "ur": "میں اب آپ کے پیٹ کو محسوس کروں گا۔ اگر درد ہو تو مجھے بتائیں۔ (पलपेशन)",
+                        "tr": "Şimdi karnınızı palpe edeceğim. Ağrı olursa lütfen söyleyin. (Palpasyon)"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, hier tut es weh!",
+                    "translation": {
+                        "en": "Yes, it hurts here!",
+                        "bn": "হ্যাঁ, এখানে ব্যথা করছে!",
+                        "hi": "हाँ, यहाँ दर्द होता है!",
+                        "ur": "ہاں، یہاں درد ہو رہا ہے!",
+                        "tr": "Evet, burada ağrıyor!"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich werde jetzt auch noch den Bauch abklopfen (Perkussion).",
+                    "translation": {
+                        "en": "I will now also percuss the abdomen.",
+                        "bn": "আমি এখন পেট ঠুকেও পরীক্ষা করব (পারকাসন)।",
+                        "hi": "अब मैं पेट पर थाप भी मारूंगा (पर्कशन)।",
+                        "ur": "اب میں پیٹ پر بھی ماروں گا۔ (پرکیشن)",
+                        "tr": "Şimdi de karnınızı perküsyonla muayene edeceğim (Perküsyon)."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Vielen Dank. Ich ordne noch eine Blutuntersuchung und ein Ultraschall an.",
+                    "translation": {
+                        "en": "Thank you. I will order a blood test and an ultrasound.",
+                        "bn": "ধন্যবাদ। আমি একটি রক্ত পরীক্ষা এবং একটি আল্ট্রাসাউন্ডের নির্দেশ দেব।",
+                        "hi": "धन्यवाद। मैं एक रक्त परीक्षण और एक अल्ट्रासाउंड का आदेश दूंगा।",
+                        "ur": "شکریہ. میں خون کی جانچ اور الٹراساؤنڈ کا حکم دوں گا۔",
+                        "tr": "Teşekkür ederim. Bir kan testi ve bir ultrason isteyeceğim."
+                    }
+                }
+            ],
+            "id": "d17_01"
+        },
+        {
+            "title": {
+                "en": "Lung Auscultation",
+                "bn": "ফুসফুসের অস্কাল্টেশন",
+                "hi": "फेफड़ों का श्रवण",
+                "ur": "پھیپھڑوں کی سماعت",
+                "tr": "Akciğer Auskultasyonu"
+            },
+            "context": {
+                "en": "Dr. Weber is auscultating Mrs. Klein's lungs to check for any abnormalities.",
+                "bn": "ডাঃ ওয়েবার মিসেস ক্লেইনের ফুসফুস পরীক্ষা করছেন কোন অস্বাভাবিকতা আছে কিনা দেখার জন্য।",
+                "hi": "डॉ. वेबर श्रीमती क्लेन के फेफड़ों में किसी भी असामान्यता की जांच के लिए श्रवण कर रही हैं।",
+                "ur": "ڈاکٹر ویبر محترمہ کلین کے پھیپھڑوں میں کسی بھی قسم کی غیر معمولی کیفیت معلوم کرنے کے لیے سن رہے ہیں۔",
+                "tr": "Dr. Weber, Bayan Klein'ın akciğerlerinde herhangi bir anormallik olup olmadığını kontrol etmek için oskültasyon yapıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Morgen, Frau Klein. Ich werde Ihre Lunge abhören (Auskultation). Bitte atmen Sie tief ein und aus.",
+                    "translation": {
+                        "en": "Good morning, Mrs. Klein. I will listen to your lungs. Please breathe in and out deeply.",
+                        "bn": "শুভ সকাল, মিসেস ক্লেইন। আমি আপনার ফুসফুস পরীক্ষা করব। দয়া করে গভীরভাবে শ্বাস নিন এবং ছাড়ুন।",
+                        "hi": "सुप्रभात, श्रीमती क्लेन। मैं आपके फेफड़ों को सुनूंगा। कृपया गहरी सांस लें और छोड़ें।",
+                        "ur": "شب بخیر، محترمہ کلین۔ میں آپ کے پھیپھڑوں کو سنوں گا۔ برائے مہربانی گہری سانس لیں اور چھوڑیں۔",
+                        "tr": "Günaydın, Bayan Klein. Akciğerlerinizi dinleyeceğim. Lütfen derin bir nefes alıp verin."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Okay.",
+                    "translation": {
+                        "en": "Okay.",
+                        "bn": "ঠিক আছে।",
+                        "hi": "ठीक है।",
+                        "ur": "ٹھیک ہے.",
+                        "tr": "Tamam."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Nochmal, bitte.",
+                    "translation": {
+                        "en": "Again, please.",
+                        "bn": "আবার, দয়া করে।",
+                        "hi": "फिर से, कृपया।",
+                        "ur": "دوبارہ، براہ مہربانی.",
+                        "tr": "Tekrar, lütfen."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "(Atmet tief ein und aus)",
+                    "translation": {
+                        "en": "(Breathes in and out deeply)",
+                        "bn": "(গভীরভাবে শ্বাস নেয় এবং ছাড়ে)",
+                        "hi": "(गहरी सांस लेती और छोड़ती है)",
+                        "ur": "(گہری سانس لیتی اور چھوڑتی ہے)",
+                        "tr": "(Derin bir nefes alıp verir)"
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ich höre ein leichtes Rasselgeräusch. Haben Sie Husten?",
+                    "translation": {
+                        "en": "I hear a slight crackling sound. Do you have a cough?",
+                        "bn": "আমি একটি হালকা ঘড়ঘড় আওয়াজ শুনতে পাচ্ছি। আপনার কি কাশি আছে?",
+                        "hi": "मुझे हल्की सी दरार की आवाज सुनाई दे रही है। क्या आपको खांसी है?",
+                        "ur": "مجھے ہلکی سی چٹکی کی آواز سنائی دے رہی ہے۔ کیا آپ کو کھانسی ہے؟",
+                        "tr": "Hafif bir hırıltı duyuyorum. Öksürüğünüz var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, seit ein paar Tagen.",
+                    "translation": {
+                        "en": "Yes, for a few days.",
+                        "bn": "হ্যাঁ, কয়েকদিন ধরে।",
+                        "hi": "हाँ, कुछ दिनों से।",
+                        "ur": "ہاں، کچھ دنوں سے.",
+                        "tr": "Evet, birkaç gündür."
+                    }
+                }
+            ],
+            "id": "d17_02"
+        },
+        {
+            "title": {
+                "en": "Neurological Examination: Reflexes",
+                "bn": "স্নায়ু পরীক্ষা: রিফ্লেক্স",
+                "hi": "न्यूरोलॉजिकल परीक्षा: रिफ्लेक्स",
+                "ur": "عصبی معائنہ: اضطراری عمل",
+                "tr": "Nörolojik Muayene: Refleksler"
+            },
+            "context": {
+                "en": "Dr. Lehmann is testing Mr. Schulz's reflexes as part of a neurological examination.",
+                "bn": "ডাঃ লেহমান স্নায়ু পরীক্ষার অংশ হিসাবে মিঃ শুলৎজের রিফ্লেক্স পরীক্ষা করছেন।",
+                "hi": "डॉ. लेहमन न्यूरोलॉजिकल परीक्षण के भाग के रूप में श्री शुल्ज़ के रिफ्लेक्स का परीक्षण कर रहे हैं।",
+                "ur": "ڈاکٹر لیمن نیورولوجیکل معائنے کے حصے کے طور پر مسٹر شلز کے اضطراری عمل کی جانچ کر رہے ہیں۔",
+                "tr": "Dr. Lehmann, nörolojik muayenenin bir parçası olarak Bay Schulz'un reflekslerini test ediyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Tag, Herr Schulz. Ich werde nun Ihre Reflexe überprüfen.",
+                    "translation": {
+                        "en": "Good day, Mr. Schulz. I will now check your reflexes.",
+                        "bn": "শুভ দিন, মিঃ শুলৎস। আমি এখন আপনার রিফ্লেক্স পরীক্ষা করব।",
+                        "hi": "शुभ दिन, श्री शुल्ज़। मैं अब आपके रिफ्लेक्स की जांच करूंगा।",
+                        "ur": "شب بخیر، مسٹر شلز۔ میں اب آپ کے اضطراری ردعمل چیک کروں گا۔",
+                        "tr": "İyi günler, Bay Schulz. Şimdi reflekslerinizi kontrol edeceğim."
+                    }
+                },
+                {
+                    "speaker": "Patient Schulz",
+                    "speakerRole": "Patient",
+                    "germanText": "In Ordnung.",
+                    "translation": {
+                        "en": "Alright.",
+                        "bn": "ঠিক আছে।",
+                        "hi": "ठीक है।",
+                        "ur": "ٹھیک ہے.",
+                        "tr": "Peki."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "(Klopft auf die Kniesehne mit einem Reflexhammer)",
+                    "translation": {
+                        "en": "(Taps the patellar tendon with a reflex hammer)",
+                        "bn": "(রিফ্লেক্স হ্যামার দিয়ে হাঁটুর টেন্ডনে টোকা মারে)",
+                        "hi": "(रिफ्लेक्स हैमर से घुटने के टेंडन पर टैप करता है)",
+                        "ur": "(اضطراری ہتھوڑی سے پٹیلر کنڈرا کو تھپتھپاتا ہے)",
+                        "tr": "(Refleks çekici ile diz kapağı tendonuna vurur)"
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Gut. Der Reflex ist da. Nun den anderen Fuss.",
+                    "translation": {
+                        "en": "Good. The reflex is there. Now the other foot.",
+                        "bn": "ভাল। রিফ্লেক্স আছে। এখন অন্য পা।",
+                        "hi": "अच्छा। रिफ्लेक्स है। अब दूसरा पैर।",
+                        "ur": "اچھا۔ اضطراری ردعمل موجود ہے۔ اب دوسرا پاؤں.",
+                        "tr": "Güzel. Refleks var. Şimdi diğer ayak."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "(Klopft auf die Kniesehne mit einem Reflexhammer)",
+                    "translation": {
+                        "en": "(Taps the patellar tendon with a reflex hammer)",
+                        "bn": "(রিফ্লেক্স হ্যামার দিয়ে হাঁটুর টেন্ডনে টোকা মারে)",
+                        "hi": "(रिफ्लेक्स हैमर से घुटने के टेंडन पर टैप करता है)",
+                        "ur": "(اضطراری ہتھوڑی سے پٹیلر کنڈرا کو تھپتھپاتا ہے)",
+                        "tr": "(Refleks çekici ile diz kapağı tendonuna vurur)"
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Alles in Ordnung.",
+                    "translation": {
+                        "en": "Everything is alright.",
+                        "bn": "সবকিছু ঠিক আছে।",
+                        "hi": "सब ठीक है।",
+                        "ur": "سب ٹھیک ہے۔",
+                        "tr": "Her şey yolunda."
+                    }
+                }
+            ],
+            "id": "d17_03"
+        },
+        {
+            "title": {
+                "en": "Visual Inspection and Skin Examination",
+                "bn": "দৃষ্টি পরিদর্শন এবং ত্বকের পরীক্ষা",
+                "hi": "दृश्य निरीक्षण और त्वचा की जाँच",
+                "ur": "بصری معائنہ اور جلد کا معائنہ",
+                "tr": "Görsel İnceleme ve Cilt Muayenesi"
+            },
+            "context": {
+                "en": "Dr. Fischer is performing a visual inspection (Inspektion) and examining the patient's skin for any lesions or abnormalities.",
+                "bn": "ডাঃ ফিশার একটি চাক্ষুষ পরিদর্শন (ইনস্পেকশন) করছেন এবং রোগীর ত্বকে কোনও ক্ষত বা অস্বাভাবিকতা আছে কিনা তা পরীক্ষা করছেন।",
+                "hi": "डॉ. फिशर एक दृश्य निरीक्षण (निरीक्षण) कर रहे हैं और रोगी की त्वचा पर किसी भी घाव या असामान्यता की जांच कर रहे हैं।",
+                "ur": "ڈاکٹر فشر بصری معائنہ کر رہے ہیں اور مریض کی جلد پر کسی بھی قسم کے گھاو یا غیر معمولی چیزوں کی جانچ کر رہے ہیں۔",
+                "tr": "Dr. Fischer, görsel bir inceleme (İnceleme) yapıyor ve hastanın cildinde herhangi bir lezyon veya anormallik olup olmadığını inceliyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Fischer",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Tag, Frau Schmidt. Ich möchte Sie einmal genau ansehen (Inspektion).",
+                    "translation": {
+                        "en": "Good day, Mrs. Schmidt. I would like to take a close look at you.",
+                        "bn": "শুভ দিন, মিসেস শ্মিট। আমি আপনাকে একবার ভাল করে দেখতে চাই।",
+                        "hi": "शुभ दिन, श्रीमती श्मिट। मैं आपको एक बार करीब से देखना चाहता हूं।",
+                        "ur": "شب بخیر، محترمہ شمٹ۔ میں ایک بار آپ کو قریب سے دیکھنا چاہتا ہوں۔",
+                        "tr": "İyi günler, Bayan Schmidt. Sizi yakından incelemek istiyorum."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Gerne.",
+                    "translation": {
+                        "en": "Gladly.",
+                        "bn": "অবশ্যই।",
+                        "hi": "खुशी से।",
+                        "ur": "خوشی سے.",
+                        "tr": "Memnuniyetle."
+                    }
+                },
+                {
+                    "speaker": "Dr. Fischer",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ich sehe hier einen kleinen roten Fleck auf Ihrem Arm. Seit wann haben Sie den?",
+                    "translation": {
+                        "en": "I see a small red spot on your arm here. How long have you had it?",
+                        "bn": "আমি আপনার হাতে এখানে একটি ছোট লাল দাগ দেখছি। এটা কতদিন ধরে আছে?",
+                        "hi": "मुझे आपके हाथ पर यहाँ एक छोटा लाल धब्बा दिखाई दे रहा है। आपको यह कब से है?",
+                        "ur": "میں آپ کے بازو پر یہاں ایک چھوٹا سا سرخ دھبہ دیکھ رہا ہوں۔ آپ کو یہ کب سے ہے؟",
+                        "tr": "Burada kolunuzda küçük bir kırmızı nokta görüyorum. Ne zamandır var?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich glaube, seit ein paar Wochen. Ich habe mir nichts dabei gedacht.",
+                    "translation": {
+                        "en": "I think for a few weeks. I didn't think anything of it.",
+                        "bn": "আমি মনে করি কয়েক সপ্তাহ ধরে। আমি এটা নিয়ে কিছু ভাবিনি।",
+                        "hi": "मुझे लगता है कि कुछ हफ़्तों से। मैंने इसके बारे में कुछ नहीं सोचा।",
+                        "ur": "مجھے لگتا ہے کہ کچھ ہفتوں سے. میں نے اس کے بارے میں کچھ نہیں سوچا۔",
+                        "tr": "Sanırım birkaç haftadır var. Önemsemedim."
+                    }
+                },
+                {
+                    "speaker": "Dr. Fischer",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ich taste ihn mal kurz ab (Palpation). Er ist leicht erhaben. Ich empfehle Ihnen, das mal einem Hautarzt zu zeigen.",
+                    "translation": {
+                        "en": "I'll just palpate it briefly. It's slightly raised. I recommend you show it to a dermatologist.",
+                        "bn": "আমি শুধু এটি সামান্য স্পর্শ করে দেখব। এটা সামান্য উঁচু। আমি আপনাকে একজন চর্মরোগ বিশেষজ্ঞকে দেখাতে পরামর্শ দিচ্ছি।",
+                        "hi": "मैं इसे बस संक्षेप में टटोलूंगा। यह थोड़ा उभरा हुआ है। मैं आपको इसे एक त्वचा विशेषज्ञ को दिखाने की सलाह देता हूं।",
+                        "ur": "میں صرف اسے مختصراً محسوس کروں گا۔ یہ قدرے ابھرا ہوا ہے۔ میں آپ کو مشورہ دیتا ہوں کہ اسے کسی ماہر امراض جلد کو دکھائیں۔",
+                        "tr": "Kısaca palpe edeceğim. Hafifçe kalkık. Bir dermatoloğa göstermenizi tavsiye ederim."
+                    }
+                }
+            ],
+            "id": "d17_04"
+        },
+        {
+            "title": {
+                "en": "Cardiovascular Examination",
+                "bn": "হৃদরোগ পরীক্ষা",
+                "hi": "हृदय संबंधी परीक्षा",
+                "ur": "قلبی معائنہ",
+                "tr": "Kardiyovasküler Muayene"
+            },
+            "context": {
+                "en": "Dr. Klein and Schwester Weber are examining Mr. Braun's cardiovascular system.",
+                "bn": "ডাঃ ক্লেইন এবং সেবাসহায়ক ওয়েবার মিঃ ব্রাউনের কার্ডিওভাসকুলার সিস্টেম পরীক্ষা করছেন।",
+                "hi": "डॉ. क्लेन और श्वस्टर वेबर श्री ब्रौन की हृदय प्रणाली की जांच कर रहे हैं।",
+                "ur": "ڈاکٹر کلین اور شویسٹر ویبر مسٹر براؤن کے قلبی نظام کی جانچ کر رہے ہیں۔",
+                "tr": "Dr. Klein ve Schwester Weber, Bay Braun'ın kardiyovasküler sistemini inceliyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Schwester Weber, bitte messen Sie den Blutdruck bei Herrn Braun.",
+                    "translation": {
+                        "en": "Nurse Weber, please measure Mr. Braun's blood pressure.",
+                        "bn": "নার্স ওয়েবার, দয়া করে মিঃ ব্রাউনের রক্তচাপ পরিমাপ করুন।",
+                        "hi": "नर्स वेबर, कृपया श्री ब्रौन का रक्तचाप मापें।",
+                        "ur": "نرس ویبر، براہ مہربانی مسٹر براؤن کا بلڈ پریشر چیک کریں۔",
+                        "tr": "Hemşire Weber, lütfen Bay Braun'un tansiyonunu ölçün."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Jawohl, Herr Doktor. (Misst den Blutdruck) Der Blutdruck ist 140 zu 90.",
+                    "translation": {
+                        "en": "Yes, Doctor. (Measures blood pressure) The blood pressure is 140 over 90.",
+                        "bn": "অবশ্যই, ডাক্তার। (রক্তচাপ পরিমাপ করে) রক্তচাপ ১৪০/৯০।",
+                        "hi": "हाँ, डॉक्टर। (रक्तचाप मापता है) रक्तचाप 140/90 है।",
+                        "ur": "جی ہاں، ڈاکٹر۔ (بلڈ پریشر چیک کرتی ہیں) بلڈ پریشر 140/90 ہے۔",
+                        "tr": "Evet, Doktor. (Tansiyonu ölçer) Tansiyon 140/90."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Danke, Schwester. Herr Braun, ich höre nun Ihr Herz ab (Auskultation).",
+                    "translation": {
+                        "en": "Thank you, Nurse. Mr. Braun, I will now listen to your heart.",
+                        "bn": "ধন্যবাদ, নার্স। মিঃ ব্রাউন, আমি এখন আপনার হৃদস্পন্দন শুনব।",
+                        "hi": "धन्यवाद, नर्स। श्री ब्रौन, मैं अब आपका हृदय सुनूंगा।",
+                        "ur": "شکریہ، نرس۔ مسٹر براؤن، میں اب آپ کے دل کی دھڑکن سنوں گا۔",
+                        "tr": "Teşekkürler, Hemşire. Bay Braun, şimdi kalbinizi dinleyeceğim."
+                    }
+                },
+                {
+                    "speaker": "Patient Braun",
+                    "speakerRole": "Patient",
+                    "germanText": "Alles klar.",
+                    "translation": {
+                        "en": "Alright.",
+                        "bn": "ঠিক আছে।",
+                        "hi": "ठीक है।",
+                        "ur": "ٹھیک ہے.",
+                        "tr": "Peki."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "(Hört das Herz ab) Ich höre einen leichten Herzton. Wir sollten ein EKG machen.",
+                    "translation": {
+                        "en": "(Listens to the heart) I hear a slight murmur. We should do an ECG.",
+                        "bn": "(হৃদস্পন্দন শোনেন) আমি একটি হালকা হৃদস্পন্দন শুনতে পাচ্ছি। আমাদের একটি ইসিজি করা উচিত।",
+                        "hi": "(हृदय को सुनता है) मुझे एक हल्की सी बड़बड़ाहट सुनाई दे रही है। हमें एक ईसीजी करना चाहिए।",
+                        "ur": "(دل کی دھڑکن سنتے ہیں) مجھے ایک ہلکی سی سرسراہٹ سنائی دے رہی ہے۔ ہمیں ایک ای سی جی کروانا چاہیے۔",
+                        "tr": "(Kalbi dinler) Hafif bir üfürüm duyuyorum. Bir EKG çekmeliyiz."
+                    }
+                }
+            ],
+            "id": "d17_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was versteht man unter Auskultation?",
+                "en": "What is meant by auscultation?",
+                "bn": "অসকুল্টেশন বলতে কী বোঝায়?",
+                "hi": "ऑस्कल्टेशन का क्या मतलब है?",
+                "ur": "آسکلٹیشن سے کیا مراد ہے؟",
+                "tr": "Oskültasyon ne anlama gelir?"
+            },
+            "options": [
+                "Das Abtasten des Körpers.",
+                "Das Abhören des Körpers mit einem Stethoskop.",
+                "Das Beklopfen des Körpers.",
+                "Die Betrachtung des Körpers."
+            ],
+            "correctAnswer": "Das Abhören des Körpers mit einem Stethoskop.",
+            "explanation": {
+                "en": "Auscultation involves listening to the sounds of the body, usually with a stethoscope.",
+                "bn": "অসকুল্টেশন মানে স্টেথোস্কোপ দিয়ে শরীরের শব্দ শোনা।",
+                "hi": "ऑस्कल्टेशन में आमतौर पर स्टेथोस्कोप से शरीर की आवाज़ें सुनना शामिल है।",
+                "ur": "آسکلٹیشن میں عام طور پر سٹیتھوسکوپ سے جسم کی آوازیں سننا شامل ہے۔",
+                "tr": "Oskültasyon, genellikle bir stetoskopla vücudun seslerini dinlemeyi içerir."
+            },
+            "points": 10,
+            "id": "e17_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Untersuchungsmethode beinhaltet das Beklopfen des Körpers?",
+                "en": "Which examination method involves tapping the body?",
+                "bn": "কোন পরীক্ষা পদ্ধতিতে শরীর টোকা দেওয়া হয়?",
+                "hi": "किस परीक्षा पद्धति में शरीर को थपथपाना शामिल है?",
+                "ur": "کس معائنے کے طریقہ کار میں جسم کو تھپتھپانا شامل ہے؟",
+                "tr": "Hangi muayene yöntemi vücuda vurmayı içerir?"
+            },
+            "options": [
+                "Palpation",
+                "Perkussion",
+                "Inspektion",
+                "Auskultation"
+            ],
+            "correctAnswer": "Perkussion",
+            "explanation": {
+                "en": "Percussion involves tapping the body to assess the condition of underlying tissues and organs.",
+                "bn": "পারকাশন-এ অন্তর্নিহিত টিস্যু এবং অঙ্গগুলির অবস্থা নির্ধারণের জন্য শরীর টোকা দেওয়া হয়।",
+                "hi": "पर्क्यूशन में अंतर्निहित ऊतकों और अंगों की स्थिति का आकलन करने के लिए शरीर को थपथपाना शामिल है।",
+                "ur": "پرکشن میں بنیادی بافتوں اور اعضاء کی حالت کا اندازہ لگانے کے لئے جسم کو تھپتھپانا شامل ہے۔",
+                "tr": "Perküsyon, altta yatan doku ve organların durumunu değerlendirmek için vücuda vurmayı içerir."
+            },
+            "points": 10,
+            "id": "e17_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Ziel der Palpation?",
+                "en": "What is the goal of palpation?",
+                "bn": "প্যালপেশন-এর উদ্দেশ্য কী?",
+                "hi": "स्पर्श द्वारा टटोलने का उद्देश्य क्या है?",
+                "ur": "پالپیشن کا مقصد کیا ہے؟",
+                "tr": "Palpasyonun amacı nedir?"
+            },
+            "options": [
+                "Die visuelle Beurteilung des Patienten.",
+                "Die Beurteilung durch Tasten und Fühlen.",
+                "Die Beurteilung durch Abhören.",
+                "Die Beurteilung durch Beklopfen."
+            ],
+            "correctAnswer": "Die Beurteilung durch Tasten und Fühlen.",
+            "explanation": {
+                "en": "Palpation involves examining the body by touching it to feel for abnormalities.",
+                "bn": "প্যালপেশন-এ অস্বাভাবিকতা অনুভব করার জন্য শরীর স্পর্শ করে পরীক্ষা করা হয়।",
+                "hi": "स्पर्श द्वारा टटोलने में असामान्यताओं को महसूस करने के लिए शरीर को छूकर जांचना शामिल है।",
+                "ur": "پالپیشن میں جسم میں غیر معمولی چیزوں کو محسوس کرنے کے لئے اسے چھو کر جانچنا شامل ہے۔",
+                "tr": "Palpasyon, anormallikleri hissetmek için vücuda dokunarak incelemeyi içerir."
+            },
+            "points": 10,
+            "id": "e17_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was wird bei der Inspektion untersucht?",
+                "en": "What is examined during inspection?",
+                "bn": "পরিদর্শনের সময় কী পরীক্ষা করা হয়?",
+                "hi": "निरीक्षण के दौरान क्या जांच की जाती है?",
+                "ur": "معائنے کے دوران کیا جانچا جاتا ہے؟",
+                "tr": "İnceleme sırasında ne incelenir?"
+            },
+            "options": [
+                "Das Abhören von Herzgeräuschen.",
+                "Das Abtasten von Organen.",
+                "Die visuelle Beurteilung des Patienten.",
+                "Die Überprüfung der Reflexe."
+            ],
+            "correctAnswer": "Die visuelle Beurteilung des Patienten.",
+            "explanation": {
+                "en": "Inspection involves visually examining the patient's body for any abnormalities.",
+                "bn": "পরিদর্শন-এ কোনো অস্বাভাবিকতা দেখার জন্য রোগীর শরীর চাক্ষুষভাবে পরীক্ষা করা হয়।",
+                "hi": "निरीक्षण में किसी भी असामान्यता के लिए रोगी के शरीर की दृष्टि से जांच करना शामिल है।",
+                "ur": "معائنے میں کسی بھی غیر معمولی چیز کے لئے مریض کے جسم کا بصری طور پر معائنہ کرنا شامل ہے۔",
+                "tr": "İnceleme, herhangi bir anormallik olup olmadığını görmek için hastanın vücudunu görsel olarak incelemeyi içerir."
+            },
+            "points": 10,
+            "id": "e17_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was testet man bei einer Reflexprüfung?",
+                "en": "What is tested during a reflex examination?",
+                "bn": "রিফ্লেক্স পরীক্ষার সময় কী পরীক্ষা করা হয়?",
+                "hi": "रिफ्लेक्स परीक्षा के दौरान क्या परीक्षण किया जाता है?",
+                "ur": "ریفلیکس امتحان کے دوران کیا جانچا جاتا ہے؟",
+                "tr": "Refleks muayenesi sırasında ne test edilir?"
+            },
+            "options": [
+                "Die Muskelkraft.",
+                "Die Funktion des Nervensystems.",
+                "Die Lungenfunktion.",
+                "Die Herzfrequenz."
+            ],
+            "correctAnswer": "Die Funktion des Nervensystems.",
+            "explanation": {
+                "en": "A reflex examination tests the integrity and function of the nervous system.",
+                "bn": "একটি রিফ্লেক্স পরীক্ষা স্নায়ুতন্ত্রের অখণ্ডতা এবং কার্যকারিতা পরীক্ষা করে।",
+                "hi": "एक रिफ्लेक्स परीक्षा तंत्रिका तंत्र की अखंडता और कार्य का परीक्षण करती है।",
+                "ur": "ایک ریفلیکس امتحان اعصابی نظام کی سالمیت اور فعل کی جانچ کرتا ہے۔",
+                "tr": "Refleks muayenesi, sinir sisteminin bütünlüğünü ve işlevini test eder."
+            },
+            "points": 10,
+            "id": "e17_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Instrument wird hauptsächlich bei der Auskultation verwendet?",
+                "en": "Which instrument is mainly used in auscultation?",
+                "bn": "অসকুল্টেশনে প্রধানত কোন যন্ত্র ব্যবহৃত হয়?",
+                "hi": "ऑस्कल्टेशन में मुख्य रूप से किस उपकरण का उपयोग किया जाता है?",
+                "ur": "آسکلٹیشن میں بنیادی طور پر کون سا آلہ استعمال ہوتا ہے؟",
+                "tr": "Oskültasyonda ağırlıklı olarak hangi cihaz kullanılır?"
+            },
+            "options": [
+                "Ein Stethoskop",
+                "Ein Reflexhammer",
+                "Ein Otoskop",
+                "Ein Thermometer"
+            ],
+            "correctAnswer": "Ein Stethoskop",
+            "explanation": {
+                "en": "A stethoscope is the primary instrument used for auscultation.",
+                "bn": "অসকুল্টেশনের জন্য স্টেথোস্কোপ প্রধান যন্ত্র।",
+                "hi": "ऑस्कल्टेशन के लिए स्टेथोस्कोप प्राथमिक उपकरण है।",
+                "ur": "آسکلٹیشن کے لئے سٹیتھوسکوپ بنیادی آلہ ہے۔",
+                "tr": "Stetoskop, oskültasyon için kullanılan birincil araçtır."
+            },
+            "points": 10,
+            "id": "e17_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist die erste Massnahme bei einer körperlichen Untersuchung?",
+                "en": "What is the first step in a physical examination?",
+                "bn": "শারীরিক পরীক্ষার প্রথম পদক্ষেপ কী?",
+                "hi": "शारीरिक परीक्षा में पहला कदम क्या है?",
+                "ur": "جسمانی معائنے میں پہلا قدم کیا ہے؟",
+                "tr": "Fiziksel muayenede ilk adım nedir?"
+            },
+            "options": [
+                "Auskultation",
+                "Inspektion",
+                "Palpation",
+                "Perkussion"
+            ],
+            "correctAnswer": "Inspektion",
+            "explanation": {
+                "en": "Inspection is generally the first step, involving visual observation of the patient.",
+                "bn": "পরিদর্শন সাধারণত প্রথম পদক্ষেপ, রোগীর চাক্ষুষ পর্যবেক্ষণ জড়িত।",
+                "hi": "निरीक्षण आम तौर पर पहला कदम है, जिसमें रोगी का दृश्य अवलोकन शामिल है।",
+                "ur": "معائنہ عام طور پر پہلا قدم ہے، جس میں مریض کا بصری مشاہدہ شامل ہے۔",
+                "tr": "Muayene genellikle ilk adımdır ve hastanın görsel olarak gözlemlenmesini içerir."
+            },
+            "points": 10,
+            "id": "e17_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Mit welchem Instrument wird oft der Patellarsehnenreflex ausgelöst?",
+                "en": "With which instrument is the patellar tendon reflex often elicited?",
+                "bn": "প্যাটেলার টেন্ডন রিফ্লেক্স প্রায়শই কোন যন্ত্র দিয়ে করা হয়?",
+                "hi": "पटेला टेंडन रिफ्लेक्स अक्सर किस उपकरण से निकाला जाता है?",
+                "ur": "پیٹیلر ٹینڈن ریفلیکس اکثر کس آلے سے نکالا جاتا ہے؟",
+                "tr": "Patellar tendon refleksi genellikle hangi aletle tetiklenir?"
+            },
+            "options": [
+                "Ein Thermometer",
+                "Ein Stethoskop",
+                "Ein Reflexhammer",
+                "Ein Otoskop"
+            ],
+            "correctAnswer": "Ein Reflexhammer",
+            "explanation": {
+                "en": "A reflex hammer is used to elicit the patellar tendon reflex.",
+                "bn": "প্যাটেলার টেন্ডন রিফ্লেক্স বের করার জন্য একটি রিফ্লেক্স হাতুড়ি ব্যবহার করা হয়।",
+                "hi": "पटेला टेंडन रिफ्लेक्स को निकालने के लिए एक रिफ्लेक्स हैमर का उपयोग किया जाता है।",
+                "ur": "پیٹیلر ٹینڈن ریفلیکس نکالنے کے لئے ایک ریفلیکس ہتھوڑا استعمال کیا جاتا ہے۔",
+                "tr": "Patellar tendon refleksini tetiklemek için bir refleks çekici kullanılır."
+            },
+            "points": 10,
+            "id": "e17_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage über die Reihenfolge der Untersuchungsmethoden ist korrekt?",
+                "en": "Which statement about the order of examination methods is correct?",
+                "bn": "পরীক্ষা পদ্ধতির ক্রম সম্পর্কে কোন বিবৃতিটি সঠিক?",
+                "hi": "परीक्षा विधियों के क्रम के बारे में कौन सा कथन सही है?",
+                "ur": "معائنے کے طریقوں کی ترتیب کے بارے میں کون سا بیان درست ہے؟",
+                "tr": "Muayene yöntemlerinin sırası hakkında hangi ifade doğrudur?"
+            },
+            "options": [
+                "Immer zuerst Auskultation, dann Palpation, dann Perkussion, dann Inspektion.",
+                "Die Reihenfolge ist irrelevant.",
+                "Immer zuerst Inspektion, dann Palpation, dann Perkussion, dann Auskultation.",
+                "Immer zuerst Perkussion, dann Auskultation, dann Palpation, dann Inspektion."
+            ],
+            "correctAnswer": "Immer zuerst Inspektion, dann Palpation, dann Perkussion, dann Auskultation.",
+            "explanation": {
+                "en": "The generally recommended order is Inspection, Palpation, Percussion, then Auscultation, to avoid altering findings.",
+                "bn": "সাধারণত প্রস্তাবিত ক্রম হল পরিদর্শন, স্পর্শ, আঘাত, তারপর অস্কুল্টেশন, ফলাফল পরিবর্তন এড়াতে।",
+                "hi": "आम तौर पर अनुशंसित क्रम निरीक्षण, स्पंदन, टक्कर, फिर श्रवण है, ताकि निष्कर्षों को बदलने से बचा जा सके।",
+                "ur": "عام طور پر تجویز کردہ ترتیب معائنہ، پالپیشن، پرکشن، پھر آسکلٹیشن ہے، تاکہ نتائج کو تبدیل کرنے سے بچا جا سکے۔",
+                "tr": "Genel olarak tavsiye edilen sıra, bulguları değiştirmemek için Muayene, Palpasyon, Perküsyon ve ardından Oskültasyondur."
+            },
+            "points": 10,
+            "id": "e17_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Bei der Palpation des Abdomens achtet man besonders auf…",
+                "en": "During palpation of the abdomen, one pays particular attention to...",
+                "bn": "পেটের স্পন্দন করার সময়, কেউ বিশেষভাবে মনোযোগ দেয়...",
+                "hi": "पेट के स्पंदन के दौरान, एक विशेष ध्यान देता है...",
+                "ur": "پیٹ کے سپندن کے دوران، کوئی خاص طور پر توجہ دیتا ہے...",
+                "tr": "Karın palpasyonu sırasında özellikle dikkat edilenler..."
+            },
+            "options": [
+                "Herzgeräusche",
+                "Hautfarbe",
+                "Druckschmerz und Verhärtungen",
+                "Atemgeräusche"
+            ],
+            "correctAnswer": "Druckschmerz und Verhärtungen",
+            "explanation": {
+                "en": "During abdominal palpation, tenderness and hardness are key findings.",
+                "bn": "পেটের স্পন্দন করার সময়, কোমলতা এবং কাঠিন্য মূল বিষয়।",
+                "hi": "पेट के स्पंदन करने के दौरान, कोमलता और कठोरता मुख्य निष्कर्ष हैं।",
+                "ur": "پیٹ کے سپندن کرنے کے دوران، کوملتا اور سختی اہم نتائج ہیں۔",
+                "tr": "Karın palpasyonu sırasında hassasiyet ve sertlik önemli bulgulardır."
+            },
+            "points": 10,
+            "id": "e17_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bei der ______ wird der Körper visuell untersucht.",
+                "en": "During ______, the body is visually examined.",
+                "bn": "______ এর সময়, শরীর দৃশ্যত পরীক্ষা করা হয়।",
+                "hi": "______ के दौरान, शरीर की दृश्य रूप से जांच की जाती है।",
+                "ur": "______ کے دوران، جسم کا بصری طور پر جائزہ لیا جاتا ہے۔",
+                "tr": "______ sırasında vücut görsel olarak incelenir."
+            },
+            "options": [],
+            "correctAnswer": "Inspektion",
+            "explanation": {
+                "en": "Inspection is the process of visual examination.",
+                "bn": "পরিদর্শন হল চাক্ষুষ পরীক্ষার প্রক্রিয়া।",
+                "hi": "निरीक्षण दृश्य परीक्षण की प्रक्रिया है।",
+                "ur": "معائنہ بصری جانچ کا عمل ہے۔",
+                "tr": "İnceleme, görsel inceleme işlemidir."
+            },
+            "points": 10,
+            "id": "e17_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Mit dem ______ werden Reflexe getestet.",
+                "en": "Reflexes are tested with the ______.",
+                "bn": "______ দিয়ে রিফ্লেক্স পরীক্ষা করা হয়।",
+                "hi": "______ से रिफ्लेक्स का परीक्षण किया जाता है।",
+                "ur": "______ سے اضطراری ردعمل کی جانچ کی جاتی ہے۔",
+                "tr": "Refleksler ______ ile test edilir."
+            },
+            "options": [],
+            "correctAnswer": "Reflexhammer",
+            "explanation": {
+                "en": "A reflex hammer is used to test reflexes.",
+                "bn": "রিফ্লেক্স পরীক্ষা করার জন্য একটি রিফ্লেক্স হাতুড়ি ব্যবহার করা হয়।",
+                "hi": "रिफ्लेक्स का परीक्षण करने के लिए एक रिफ्लेक्स हथौड़ा का उपयोग किया जाता है।",
+                "ur": "اضطراری ردعمل کی جانچ کے لیے ایک ریفلیکس ہتھوڑا استعمال کیا جاتا ہے۔",
+                "tr": "Refleksleri test etmek için bir refleks çekici kullanılır."
+            },
+            "points": 10,
+            "id": "e17_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die ______ dient zur Feststellung von Organvergrößerungen.",
+                "en": "______ is used to determine organ enlargement.",
+                "bn": "______ অঙ্গের বৃদ্ধি নির্ধারণ করতে ব্যবহৃত হয়।",
+                "hi": "______ का उपयोग अंग वृद्धि का निर्धारण करने के लिए किया जाता है।",
+                "ur": "______ اعضاء کے بڑھنے کا تعین کرنے کے لیے استعمال کیا جاتا ہے۔",
+                "tr": "______ organ büyümesini belirlemek için kullanılır."
+            },
+            "options": [],
+            "correctAnswer": "Palpation",
+            "explanation": {
+                "en": "Palpation, by touching the body, can help determine organ enlargement.",
+                "bn": "প্যালপেশন, শরীর স্পর্শ করে, অঙ্গের বৃদ্ধি নির্ধারণ করতে সাহায্য করতে পারে।",
+                "hi": "स्पर्श द्वारा टटोलना, शरीर को छूकर, अंग वृद्धि का निर्धारण करने में मदद कर सकता है।",
+                "ur": "جسم کو چھو کر پالپیشن، اعضاء کے بڑھنے کا تعین کرنے میں مدد کر سکتا ہے۔",
+                "tr": "Palpasyon, vücuda dokunarak organ büyümesini belirlemeye yardımcı olabilir."
+            },
+            "points": 10,
+            "id": "e17_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Mit einem ______ hört man die Herztöne ab.",
+                "en": "Heart sounds are listened to with a ______.",
+                "bn": "______ দিয়ে হৃদস্পন্দন শোনা হয়।",
+                "hi": "______ से दिल की धड़कन सुनी जाती है।",
+                "ur": "______ سے دل کی دھڑکنیں سنی جاتی ہیں۔",
+                "tr": "Kalp sesleri ______ ile dinlenir."
+            },
+            "options": [],
+            "correctAnswer": "Stethoskop",
+            "explanation": {
+                "en": "A stethoscope is used to listen to heart sounds.",
+                "bn": "হৃদস্পন্দন শোনার জন্য একটি স্টেথোস্কোপ ব্যবহার করা হয়।",
+                "hi": "दिल की धड़कन सुनने के लिए एक स्टेथोस्कोप का उपयोग किया जाता है।",
+                "ur": "دل کی دھڑکنیں سننے کے لیے ایک سٹیتھوسکوپ استعمال کیا جاتا ہے۔",
+                "tr": "Kalp seslerini dinlemek için bir stetoskop kullanılır."
+            },
+            "points": 10,
+            "id": "e17_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die ______ der Lunge kann Aufschluss über Flüssigkeitsansammlungen geben.",
+                "en": "______ of the lungs can reveal fluid accumulation.",
+                "bn": "ফুসফুসের ______ তরল জমা প্রকাশ করতে পারে।",
+                "hi": "फेफड़ों का ______ द्रव संचय प्रकट कर सकता है।",
+                "ur": "پھیپھڑوں کا ______ سیال جمع ہونے کا انکشاف کر سکتا ہے۔",
+                "tr": "Akciğerlerin ______ sıvı birikimini ortaya çıkarabilir."
+            },
+            "options": [],
+            "correctAnswer": "Perkussion",
+            "explanation": {
+                "en": "Percussion of the lungs can indicate fluid accumulation.",
+                "bn": "ফুসফুসের পারকাশন তরল জমা নির্দেশ করতে পারে।",
+                "hi": "फेफड़ों की टक्कर तरल संचय का संकेत दे सकती है।",
+                "ur": "پھیپھڑوں کی پرکشن سیال جمع ہونے کی نشاندہی کر سکتی ہے۔",
+                "tr": "Akciğerlerin perküsyonu sıvı birikimini gösterebilir."
+            },
+            "points": 10,
+            "id": "e17_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die körperliche Untersuchung ist ein wichtiger Bestandteil der Diagnose.",
+                "en": "The physical examination is an important part of the diagnosis.",
+                "bn": "শারীরিক পরীক্ষা রোগ নির্ণয়ের একটি গুরুত্বপূর্ণ অংশ।",
+                "hi": "शारीरिक परीक्षा निदान का एक महत्वपूर्ण हिस्सा है।",
+                "ur": "جسمانی معائنہ تشخیص کا ایک اہم حصہ ہے۔",
+                "tr": "Fiziksel muayene, teşhisin önemli bir parçasıdır."
+            },
+            "options": [],
+            "correctAnswer": "The physical examination is an important part of the diagnosis.",
+            "explanation": {
+                "en": "Accurate translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সঠিক অনুবাদ।",
+                "hi": "जर्मन वाक्य का सटीक अनुवाद।",
+                "ur": "جرمن جملے کا درست ترجمہ۔",
+                "tr": "Almanca cümlenin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e17_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Bitte atmen Sie tief ein und aus.",
+                "en": "Please breathe deeply in and out.",
+                "bn": "অনুগ্রহ করে গভীরভাবে শ্বাস নিন এবং ছাড়ুন।",
+                "hi": "कृपया गहरी सांस अंदर और बाहर लें।",
+                "ur": "مہربانی فرما کر گہری سانس اندر اور باہر لیں۔",
+                "tr": "Lütfen derin bir nefes alıp verin."
+            },
+            "options": [],
+            "correctAnswer": "Please breathe deeply in and out.",
+            "explanation": {
+                "en": "Accurate translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সঠিক অনুবাদ।",
+                "hi": "जर्मन वाक्य का सटीक अनुवाद।",
+                "ur": "جرمن جملے کا درست ترجمہ۔",
+                "tr": "Almanca cümlenin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e17_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Ich werde Ihren Bauch abtasten.",
+                "en": "I will palpate your abdomen.",
+                "bn": "আমি আপনার পেট স্পন্দন করব।",
+                "hi": "मैं आपके पेट को स्पर्श द्वारा टटोलूँगा।",
+                "ur": "میں آپ کے پیٹ کو چھو کر محسوس کروں گا۔",
+                "tr": "Karın bölgenizi palpe edeceğim."
+            },
+            "options": [],
+            "correctAnswer": "I will palpate your abdomen.",
+            "explanation": {
+                "en": "Accurate translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সঠিক অনুবাদ।",
+                "hi": "जर्मन वाक्य का सटीक अनुवाद।",
+                "ur": "جرمن جملے کا درست ترجمہ۔",
+                "tr": "Almanca cümlenin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e17_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

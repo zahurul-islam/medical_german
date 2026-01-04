@@ -147,7 +147,7 @@ class AppLocalizationsBn extends AppLocalizations {
   String get summary => 'সারসংক্ষেপ';
 
   @override
-  String get learningObjectives => 'Learning Objectives';
+  String get learningObjectives => 'শেখার উদ্দেশ্য';
 
   @override
   String get flashcards => 'ফ্ল্যাশকার্ড';

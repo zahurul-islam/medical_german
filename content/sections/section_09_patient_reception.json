@@ -1,13 +1,1602 @@
-{"id":"section_09","phaseId":"phase1","order":9,"titleDe":"Patientenaufnahme","title":{"en":"Patient Reception","bn":"রোগী গ্রহণ","hi":"मरीज स्वीकृति","ur":"مریض کی رجسٹریشن","tr":"Hasta Kabulü"},"level":"A2","estimatedMinutes":25,"vocabulary":[
-{"id":"v09_01","germanTerm":"Aufnahme","article":"die","plural":"Aufnahmen","translation":{"en":"Admission","bn":"ভর্তি","hi":"भर्ती","ur":"داخلہ","tr":"Kabul"}},
-{"id":"v09_02","germanTerm":"Versicherung","article":"die","plural":"Versicherungen","translation":{"en":"Insurance","bn":"বীমা","hi":"बीमा","ur":"انشورنس","tr":"Sigorta"}},
-{"id":"v09_03","germanTerm":"Krankenkasse","article":"die","plural":"Krankenkassen","translation":{"en":"Health Insurance","bn":"স্বাস্থ্য বীমা","hi":"स्वास्थ्य बीमा","ur":"ہیلتھ انشورنس","tr":"Sağlık sigortası"}},
-{"id":"v09_04","germanTerm":"Personalausweis","article":"der","plural":"Personalausweise","translation":{"en":"ID Card","bn":"পরিচয়পত্র","hi":"पहचान पत्र","ur":"شناختی کارڈ","tr":"Kimlik kartı"}},
-{"id":"v09_05","germanTerm":"Geburtsdatum","article":"das","plural":"Geburtsdaten","translation":{"en":"Date of Birth","bn":"জন্ম তারিখ","hi":"जन्म तिथि","ur":"تاریخ پیدائش","tr":"Doğum tarihi"}},
-{"id":"v09_06","germanTerm":"Adresse","article":"die","plural":"Adressen","translation":{"en":"Address","bn":"ঠিকানা","hi":"पता","ur":"پتہ","tr":"Adres"}},
-{"id":"v09_07","germanTerm":"Einweisung","article":"die","plural":"Einweisungen","translation":{"en":"Referral","bn":"রেফারেল","hi":"रेफरल","ur":"ریفرل","tr":"Sevk"}},
-{"id":"v09_08","germanTerm":"Formular","article":"das","plural":"Formulare","translation":{"en":"Form","bn":"ফরম","hi":"फॉर्म","ur":"فارم","tr":"Form"}}
-],"dialogues":[{"id":"d09_01","title":{"en":"Admitting Patient"},"lines":[
-{"speaker":"Aufnahme","germanText":"Haben Sie Ihre Versicherungskarte dabei?","translation":{"en":"Do you have your insurance card with you?"}},
-{"speaker":"Patient","germanText":"Ja, hier ist sie.","translation":{"en":"Yes, here it is."}}
-]}],"exercises":[{"id":"e09_01","type":"multipleChoice","question":{"en":"What is 'Versicherung'?"},"options":["Insurance","Address","ID Card"],"correctAnswer":"Insurance","points":10}]}
+{
+    "id": "section_09",
+    "phaseId": "phase1",
+    "order": 9,
+    "titleDe": "Patientenaufnahme",
+    "title": {
+        "en": "Patient Reception: Admission, Insurance, Personal Information, Registration Form, Referral Note, Referral Letter",
+        "de": "Patientenaufnahme: Aufnahme, Versicherung, Personalien, Anmeldeformular, Einweisung, Überweisungsschein",
+        "bn": "রোগী অভ্যর্থনা: ভর্তি, বীমা, ব্যক্তিগত তথ্য, নিবন্ধন ফর্ম, রেফারেল নোট, রেফারেল চিঠি",
+        "hi": "रोगी स्वागत: प्रवेश, बीमा, व्यक्तिगत जानकारी, पंजीकरण फॉर्म, रेफरल नोट, रेफरल पत्र",
+        "ur": "مریض استقبال: داخلہ، بیمہ، ذاتی معلومات، رجسٹریشن فارم، ریفرل نوٹ، ریفرل خط",
+        "tr": "Hasta Kabulü: Kabul, Sigorta, Kişisel Bilgiler, Kayıt Formu, Sevk Notu, Sevk Mektubu"
+    },
+    "description": {
+        "en": "This section covers the essential procedures and vocabulary related to patient reception in a German medical setting.",
+        "de": "Dieser Abschnitt behandelt die wesentlichen Verfahren und das Vokabular im Zusammenhang mit der Patientenaufnahme in einem deutschen medizinischen Umfeld.",
+        "bn": "এই বিভাগটি জার্মান চিকিৎসা প্রেক্ষাপটে রোগীর অভ্যর্থনার সাথে সম্পর্কিত প্রয়োজনীয় পদ্ধতি এবং শব্দভান্ডার নিয়ে আলোচনা করে।",
+        "hi": "यह खंड जर्मन चिकित्सा परिवेश में रोगी स्वागत से संबंधित आवश्यक प्रक्रियाओं और शब्दावली को शामिल करता है।",
+        "ur": "یہ سیکشن جرمن طبی ماحول میں مریض کے استقبال سے متعلق ضروری طریقہ کار اور الفاظ کا احاطہ کرتا ہے۔",
+        "tr": "Bu bölüm, Alman tıbbi ortamında hasta kabulü ile ilgili temel prosedürleri ve kelime dağarcığını kapsar."
+    },
+    "level": "A2",
+    "estimatedMinutes": 45,
+    "isPremium": false,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, you will learn the vocabulary and procedures required for patient reception in a German-speaking medical environment. We will explore key terms related to admission, insurance, and personal information, as well as the forms typically used.",
+            "de": "In diesem Abschnitt lernen Sie das Vokabular und die Verfahren kennen, die für die Patientenaufnahme in einem deutschsprachigen medizinischen Umfeld erforderlich sind. Wir werden Schlüsselbegriffe in Bezug auf Aufnahme, Versicherung und Personalien sowie die typischerweise verwendeten Formulare untersuchen.",
+            "bn": "এই বিভাগে, আপনি জার্মান-ভাষী চিকিৎসা পরিবেশে রোগীর অভ্যর্থনার জন্য প্রয়োজনীয় শব্দভান্ডার এবং পদ্ধতিগুলি শিখবেন। আমরা ভর্তি, বীমা এবং ব্যক্তিগত তথ্য সম্পর্কিত মূল শব্দ এবং সাধারণত ব্যবহৃত ফর্মগুলি অন্বেষণ করব।",
+            "hi": "इस खंड में, आप जर्मन भाषी चिकित्सा वातावरण में रोगी स्वागत के लिए आवश्यक शब्दावली और प्रक्रियाएं सीखेंगे। हम प्रवेश, बीमा और व्यक्तिगत जानकारी से संबंधित प्रमुख शब्दों के साथ-साथ आमतौर पर उपयोग किए जाने वाले फॉर्मों का पता लगाएंगे।",
+            "ur": "اس سیکشن میں، آپ جرمن بولنے والے طبی ماحول میں مریض کے استقبال کے لیے درکار الفاظ اور طریقہ کار سیکھیں گے۔ ہم داخلہ، بیمہ اور ذاتی معلومات سے متعلق اہم اصطلاحات کے ساتھ ساتھ عام طور پر استعمال ہونے والے فارموں کو بھی تلاش کریں گے۔",
+            "tr": "Bu bölümde, Almanca konuşulan bir tıbbi ortamda hasta kabulü için gereken kelime dağarcığını ve prosedürleri öğreneceksiniz. Kabul, sigorta ve kişisel bilgilerle ilgili temel terimleri ve tipik olarak kullanılan formları inceleyeceğiz."
+        },
+        "grammarFocus": {
+            "en": [
+                "Nominative vs. Accusative case usage with prepositions like 'für' (for) and 'mit' (with) when discussing insurance or forms.",
+                "Using the correct articles (der, die, das) with medical nouns related to reception procedures."
+            ],
+            "de": [
+                "Nominativ- vs. Akkusativ-Fall Verwendung mit Präpositionen wie 'für' (für) und 'mit' (mit), wenn über Versicherungen oder Formulare gesprochen wird.",
+                "Verwendung der richtigen Artikel (der, die, das) mit medizinischen Substantiven im Zusammenhang mit Aufnahmeverfahren."
+            ],
+            "bn": [
+                "বীমা বা ফর্ম নিয়ে আলোচনার সময় 'für' (জন্য) এবং 'mit' (সাথে) এর মতো প্রিপোজিশনগুলির সাথে Nominative বনাম Accusative case এর ব্যবহার।",
+                "অভ্যর্থনা পদ্ধতির সাথে সম্পর্কিত চিকিৎসা বিশেষ্যগুলির সাথে সঠিক আর্টিকেল (der, die, das) ব্যবহার করা।"
+            ],
+            "hi": [
+                "बीमा या फ़ॉर्म पर चर्चा करते समय 'für' (के लिए) और 'mit' (के साथ) जैसी पूर्वसर्गों के साथ Nominative बनाम Accusative case का उपयोग।",
+                "रिसेप्शन प्रक्रियाओं से संबंधित चिकित्सा संज्ञाओं के साथ सही लेख (der, die, das) का उपयोग करना।"
+            ],
+            "ur": [
+                "بیمہ یا فارم پر تبادلہ خیال کرتے وقت 'für' (کے لیے) اور 'mit' (کے ساتھ) جیسے حروف کے ساتھ Nominative بمقابلہ Accusative کیس کا استعمال۔",
+                "استقبالیہ طریقہ کار سے متعلق طبی اسموں کے ساتھ صحیح مضامین (der, die, das) کا استعمال۔"
+            ],
+            "tr": [
+                "Sigorta veya formları tartışırken 'für' (için) ve 'mit' (ile) gibi edatlarla Nominative - Accusative durumu kullanımı.",
+                "Kabul prosedürleriyle ilgili tıbbi isimlerle doğru tanımlıkların (der, die, das) kullanılması."
+            ]
+        },
+        "culturalNotes": {
+            "en": "In Germany, it's common for patients to bring their insurance card ('Krankenversicherungskarte') to every appointment, even if they've been to the clinic before.",
+            "de": "In Deutschland ist es üblich, dass Patienten zu jedem Termin ihre Versicherungskarte ('Krankenversicherungskarte') mitbringen, auch wenn sie schon einmal in der Klinik waren.",
+            "bn": "জার্মানিতে, রোগীদের প্রতিটি অ্যাপয়েন্টমেন্টে তাদের বীমা কার্ড ('Krankenversicherungskarte') নিয়ে আসা সাধারণ ব্যাপার, এমনকি যদি তারা আগে ক্লিনিকে গিয়ে থাকেন।",
+            "hi": "जर्मनी में, मरीजों के लिए हर अपॉइंटमेंट में अपना बीमा कार्ड ('Krankenversicherungskarte') लाना आम बात है, भले ही वे पहले क्लिनिक जा चुके हों।",
+            "ur": "جرمنی میں، مریضوں کے لیے ہر اپائنٹمنٹ میں اپنا بیمہ کارڈ ('Krankenversicherungskarte') لانا عام بات ہے، چاہے وہ پہلے کلینک جا چکے ہوں۔",
+            "tr": "Almanya'da hastaların daha önce kliniğe gitmiş olsalar bile her randevuya sigorta kartlarını ('Krankenversicherungskarte') getirmeleri yaygındır."
+        },
+        "summary": {
+            "en": "This section provided an overview of the vocabulary and procedures involved in patient reception in a German medical setting, including insurance, personal information, and relevant forms.",
+            "de": "Dieser Abschnitt gab einen Überblick über das Vokabular und die Verfahren, die bei der Patientenaufnahme in einem deutschen medizinischen Umfeld erforderlich sind, einschließlich Versicherung, Personalien und relevante Formulare.",
+            "bn": "এই বিভাগে বীমা, ব্যক্তিগত তথ্য এবং প্রাসঙ্গিক ফর্ম সহ একটি জার্মান চিকিৎসা প্রেক্ষাপটে রোগীর অভ্যর্থনার সাথে জড়িত শব্দভান্ডার এবং পদ্ধতিগুলির একটি সংক্ষিপ্ত বিবরণ দেওয়া হয়েছে।",
+            "hi": "इस खंड में बीमा, व्यक्तिगत जानकारी और प्रासंगिक फॉर्म सहित एक जर्मन चिकित्सा परिवेश में रोगी स्वागत में शामिल शब्दावली और प्रक्रियाओं का एक सिंहावलोकन प्रदान किया गया है।",
+            "ur": "اس سیکشن میں بیمہ، ذاتی معلومات اور متعلقہ فارم سمیت جرمن طبی ماحول میں مریض کے استقبال میں شامل الفاظ اور طریقہ کار کا ایک جائزہ فراہم کیا گیا ہے۔",
+            "tr": "Bu bölüm, sigorta, kişisel bilgiler ve ilgili formlar dahil olmak üzere Alman tıbbi ortamında hasta kabulünde yer alan kelime dağarcığı ve prosedürlere genel bir bakış sağlamıştır."
+        },
+        "learningObjectives": [
+            "Understand key vocabulary related to patient admission, insurance, and personal information.",
+            "Identify and explain the purpose of common forms used during patient reception in Germany.",
+            "Practice asking and answering questions about patient insurance and referral information.",
+            "Demonstrate awareness of cultural differences in patient reception procedures in German-speaking countries."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "die Patientenaufnahme",
+            "article": "die",
+            "plural": "die Patientenaufnahmen",
+            "pronunciation": "diː paˈt͡si̯ɛntənˈʔaʊ̯fˌnaːmə",
+            "category": "noun",
+            "translation": {
+                "en": "patient reception",
+                "bn": "রোগী অভ্যর্থনা",
+                "hi": "मरीज़ स्वागत",
+                "ur": "مریض استقبال",
+                "tr": "hasta kabul"
+            },
+            "exampleSentence": "Die Patientenaufnahme erfolgt im Erdgeschoss.",
+            "exampleTranslation": {
+                "en": "The patient reception takes place on the ground floor.",
+                "bn": "রোগী অভ্যর্থনা নিচতলায় হয়।",
+                "hi": "मरीज़ स्वागत भूतल पर होता है।",
+                "ur": "مریض استقبال زیریں منزل پر ہوتا ہے۔",
+                "tr": "Hasta kabulü zemin katta yapılmaktadır."
+            },
+            "id": "v09_01"
+        },
+        {
+            "germanTerm": "die Versicherungskarte",
+            "article": "die",
+            "plural": "die Versicherungskarten",
+            "pronunciation": "diː fɛɐ̯ˈzɪçəʁʊŋsˌkaʁtə",
+            "category": "noun",
+            "translation": {
+                "en": "insurance card",
+                "bn": "বীমা কার্ড",
+                "hi": "बीमा कार्ड",
+                "ur": "بیمہ کارڈ",
+                "tr": "sigorta kartı"
+            },
+            "exampleSentence": "Bitte geben Sie Ihre Versicherungskarte ab.",
+            "exampleTranslation": {
+                "en": "Please hand in your insurance card.",
+                "bn": "দয়া করে আপনার বীমা কার্ড জমা দিন।",
+                "hi": "कृपया अपना बीमा कार्ड जमा करें।",
+                "ur": "براہ کرم اپنا بیمہ کارڈ جمع کریں۔",
+                "tr": "Lütfen sigorta kartınızı teslim edin."
+            },
+            "id": "v09_02"
+        },
+        {
+            "germanTerm": "die Personalien",
+            "article": "die",
+            "plural": "die Personalien",
+            "pronunciation": "diː pɛʁzoˈnaːli̯ən",
+            "category": "noun",
+            "translation": {
+                "en": "personal details",
+                "bn": "ব্যক্তিগত বিবরণ",
+                "hi": "निजी जानकारी",
+                "ur": "ذاتی تفصیلات",
+                "tr": "kişisel bilgiler"
+            },
+            "exampleSentence": "Wir benötigen Ihre Personalien für die Aufnahme.",
+            "exampleTranslation": {
+                "en": "We need your personal details for the admission.",
+                "bn": "ভর্তির জন্য আপনার ব্যক্তিগত বিবরণ প্রয়োজন।",
+                "hi": "हमें प्रवेश के लिए आपकी निजी जानकारी चाहिए।",
+                "ur": "ہمیں داخلے کے لیے آپ کی ذاتی معلومات درکار ہیں۔",
+                "tr": "Kabul için kişisel bilgilerinize ihtiyacımız var."
+            },
+            "id": "v09_03"
+        },
+        {
+            "germanTerm": "das Anmeldeformular",
+            "article": "das",
+            "plural": "die Anmeldeformulare",
+            "pronunciation": "das ˈanˌmɛldəfɔʁmuˌlaːɐ̯",
+            "category": "noun",
+            "translation": {
+                "en": "registration form",
+                "bn": "নিবন্ধন ফর্ম",
+                "hi": "पंजीकरण फॉर्म",
+                "ur": "رجسٹریشن فارم",
+                "tr": "kayıt formu"
+            },
+            "exampleSentence": "Bitte füllen Sie das Anmeldeformular vollständig aus.",
+            "exampleTranslation": {
+                "en": "Please fill out the registration form completely.",
+                "bn": "অনুগ্রহ করে নিবন্ধন ফর্মটি সম্পূর্ণরূপে পূরণ করুন।",
+                "hi": "कृपया पंजीकरण फॉर्म को पूरी तरह से भरें।",
+                "ur": "براہ کرم رجسٹریشن فارم مکمل طور پر پُر کریں۔",
+                "tr": "Lütfen kayıt formunu tamamen doldurun."
+            },
+            "id": "v09_04"
+        },
+        {
+            "germanTerm": "die Einweisung",
+            "article": "die",
+            "plural": "die Einweisungen",
+            "pronunciation": "diː ˈaɪ̯nˌvaɪ̯zʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "referral",
+                "bn": "সুপারিশ",
+                "hi": "संदर्भ",
+                "ur": "حوالہ",
+                "tr": "sevk"
+            },
+            "exampleSentence": "Haben Sie eine Einweisung von Ihrem Hausarzt?",
+            "exampleTranslation": {
+                "en": "Do you have a referral from your family doctor?",
+                "bn": "আপনার পারিবারিক ডাক্তারের কাছ থেকে কি আপনার কাছে একটি সুপারিশ আছে?",
+                "hi": "क्या आपके पास अपने परिवार के डॉक्टर से रेफरल है?",
+                "ur": "کیا آپ کے پاس اپنے فیملی ڈاکٹر کی طرف سے حوالہ ہے؟",
+                "tr": "Aile hekiminizden sevkiniz var mı?"
+            },
+            "id": "v09_05"
+        },
+        {
+            "germanTerm": "der Überweisungsschein",
+            "article": "der",
+            "plural": "die Überweisungsscheine",
+            "pronunciation": "deːɐ̯ ˌyːbɐˈvaɪ̯zʊŋsˌʃaɪ̯n",
+            "category": "noun",
+            "translation": {
+                "en": "referral form",
+                "bn": "সুপারিশ পত্র",
+                "hi": "संदर्भ प्रपत्र",
+                "ur": "حوالہ فارم",
+                "tr": "sevk formu"
+            },
+            "exampleSentence": "Bitte legen Sie den Überweisungsschein vor.",
+            "exampleTranslation": {
+                "en": "Please submit the referral form.",
+                "bn": "অনুগ্রহ করে সুপারিশ পত্রটি জমা দিন।",
+                "hi": "कृपया संदर्भ प्रपत्र जमा करें।",
+                "ur": "براہ کرم حوالہ فارم جمع کروائیں۔",
+                "tr": "Lütfen sevk formunu ibraz edin."
+            },
+            "id": "v09_06"
+        },
+        {
+            "germanTerm": "der Empfang",
+            "article": "der",
+            "plural": "die Empfänge",
+            "pronunciation": "deːɐ̯ ʔɛmˈpfaŋ",
+            "category": "noun",
+            "translation": {
+                "en": "reception desk",
+                "bn": "অভ্যর্থনা ডেস্ক",
+                "hi": "रिसेप्शन डेस्क",
+                "ur": "ریسیپشن ڈیسک",
+                "tr": "resepsiyon masası"
+            },
+            "exampleSentence": "Melden Sie sich bitte am Empfang.",
+            "exampleTranslation": {
+                "en": "Please check in at the reception desk.",
+                "bn": "দয়া করে অভ্যর্থনা ডেস্কে যোগাযোগ করুন।",
+                "hi": "कृपया रिसेप्शन डेस्क पर संपर्क करें।",
+                "ur": "براہ کرم استقبالیہ ڈیسک پر رابطہ کریں۔",
+                "tr": "Lütfen resepsiyon masasında check-in yapın."
+            },
+            "id": "v09_07"
+        },
+        {
+            "germanTerm": "die Patientenakte",
+            "article": "die",
+            "plural": "die Patientenakten",
+            "pronunciation": "diː paˈt͡si̯ɛntənˌʔaktə",
+            "category": "noun",
+            "translation": {
+                "en": "patient file",
+                "bn": "রোগীর নথি",
+                "hi": "मरीज़ फाइल",
+                "ur": "مریض فائل",
+                "tr": "hasta dosyası"
+            },
+            "exampleSentence": "Ihre Patientenakte wird gerade angelegt.",
+            "exampleTranslation": {
+                "en": "Your patient file is currently being created.",
+                "bn": "আপনার রোগীর নথি তৈরি করা হচ্ছে।",
+                "hi": "आपकी मरीज़ फाइल वर्तमान में बनाई जा रही है।",
+                "ur": "آپ کی مریض فائل اس وقت بنائی جا رہی ہے۔",
+                "tr": "Hasta dosyanız şu anda oluşturuluyor."
+            },
+            "id": "v09_08"
+        },
+        {
+            "germanTerm": "die Krankenkasse",
+            "article": "die",
+            "plural": "die Krankenkassen",
+            "pronunciation": "diː ˈkʁaŋkənˌkasə",
+            "category": "noun",
+            "translation": {
+                "en": "health insurance company",
+                "bn": "স্বাস্থ্য বীমা সংস্থা",
+                "hi": "स्वास्थ्य बीमा कंपनी",
+                "ur": "صحت بیمہ کمپنی",
+                "tr": "sağlık sigortası şirketi"
+            },
+            "exampleSentence": "Welche Krankenkasse haben Sie?",
+            "exampleTranslation": {
+                "en": "Which health insurance company do you have?",
+                "bn": "আপনার কোন স্বাস্থ্য বীমা সংস্থা আছে?",
+                "hi": "आपके पास कौन सी स्वास्थ्य बीमा कंपनी है?",
+                "ur": "آپ کے پاس کون سی صحت بیمہ کمپنی ہے؟",
+                "tr": "Hangi sağlık sigortası şirketine sahipsiniz?"
+            },
+            "id": "v09_09"
+        },
+        {
+            "germanTerm": "der Arztbrief",
+            "article": "der",
+            "plural": "die Arztbriefe",
+            "pronunciation": "deːɐ̯ ˈaʁt͡stˌbʁiːf",
+            "category": "noun",
+            "translation": {
+                "en": "doctor's letter",
+                "bn": "ডাক্তারের চিঠি",
+                "hi": "डॉक्टर का पत्र",
+                "ur": "ڈاکٹر کا خط",
+                "tr": "doktor mektubu"
+            },
+            "exampleSentence": "Haben Sie den Arztbrief Ihres Hausarztes dabei?",
+            "exampleTranslation": {
+                "en": "Do you have your family doctor's letter with you?",
+                "bn": "আপনার সাথে কি আপনার পারিবারিক ডাক্তারের চিঠি আছে?",
+                "hi": "क्या आपके पास अपने परिवार के डॉक्टर का पत्र है?",
+                "ur": "کیا آپ کے پاس اپنے فیملی ڈاکٹر کا خط ہے؟",
+                "tr": "Yanınızda aile hekiminizin mektubu var mı?"
+            },
+            "id": "v09_10"
+        },
+        {
+            "germanTerm": "die Notaufnahme",
+            "article": "die",
+            "plural": "die Notaufnahmen",
+            "pronunciation": "diː ˈnoːtˌʔaʊ̯fnaːmə",
+            "category": "noun",
+            "translation": {
+                "en": "emergency room",
+                "bn": "জরুরী বিভাগ",
+                "hi": "आपातकालीन कक्ष",
+                "ur": "ایمرجنسی روم",
+                "tr": "acil servis"
+            },
+            "exampleSentence": "Die Notaufnahme ist im ersten Stock.",
+            "exampleTranslation": {
+                "en": "The emergency room is on the first floor.",
+                "bn": "জরুরী বিভাগটি প্রথম তলায়।",
+                "hi": "आपातकालीन कक्ष पहली मंजिल पर है।",
+                "ur": "ایمرجنسی روم پہلی منزل پر ہے۔",
+                "tr": "Acil servis birinci katta."
+            },
+            "id": "v09_11"
+        },
+        {
+            "germanTerm": "die Sprechstunde",
+            "article": "die",
+            "plural": "die Sprechstunden",
+            "pronunciation": "diː ˈʃpʁɛçˌʃtʊndə",
+            "category": "noun",
+            "translation": {
+                "en": "consultation hour",
+                "bn": "পরামর্শের সময়",
+                "hi": "परामर्श घंटा",
+                "ur": "مشاورت کا گھنٹہ",
+                "tr": "konsültasyon saati"
+            },
+            "exampleSentence": "Die Sprechstunde beginnt um 9 Uhr.",
+            "exampleTranslation": {
+                "en": "The consultation hour starts at 9 o'clock.",
+                "bn": "পরামর্শের সময় সকাল ৯টায় শুরু হয়।",
+                "hi": "परामर्श का घंटा 9 बजे शुरू होता है।",
+                "ur": "مشاورت کا گھنٹہ 9 بجے شروع ہوتا ہے۔",
+                "tr": "Konsültasyon saati 9'da başlar."
+            },
+            "id": "v09_12"
+        },
+        {
+            "germanTerm": "der Termin",
+            "article": "der",
+            "plural": "die Termine",
+            "pronunciation": "deːɐ̯ tɛʁˈmiːn",
+            "category": "noun",
+            "translation": {
+                "en": "appointment",
+                "bn": "অ্যাপয়েন্টমেন্ট",
+                "hi": "अपॉइंटमेंट",
+                "ur": "اپائنٹمنٹ",
+                "tr": "randevu"
+            },
+            "exampleSentence": "Haben Sie einen Termin vereinbart?",
+            "exampleTranslation": {
+                "en": "Have you made an appointment?",
+                "bn": "আপনি কি একটি অ্যাপয়েন্টমেন্ট করেছেন?",
+                "hi": "क्या आपने अपॉइंटमेंट लिया है?",
+                "ur": "کیا آپ نے اپائنٹمنٹ لی ہے؟",
+                "tr": "Randevu aldınız mı?"
+            },
+            "id": "v09_13"
+        },
+        {
+            "germanTerm": "der Fragebogen",
+            "article": "der",
+            "plural": "die Fragebögen",
+            "pronunciation": "deːɐ̯ ˈfʁaːɡəˌboːɡən",
+            "category": "noun",
+            "translation": {
+                "en": "questionnaire",
+                "bn": "প্রশ্নাবলী",
+                "hi": "प्रश्नावली",
+                "ur": "سوالنامہ",
+                "tr": "anket"
+            },
+            "exampleSentence": "Bitte füllen Sie den Fragebogen aus.",
+            "exampleTranslation": {
+                "en": "Please fill out the questionnaire.",
+                "bn": "অনুগ্রহ করে প্রশ্নাবলীটি পূরণ করুন।",
+                "hi": "कृपया प्रश्नावली भरें।",
+                "ur": "براہ کرم سوالنامہ پُر کریں۔",
+                "tr": "Lütfen anketi doldurun."
+            },
+            "id": "v09_14"
+        },
+        {
+            "germanTerm": "die Untersuchung",
+            "article": "die",
+            "plural": "die Untersuchungen",
+            "pronunciation": "diː ʊntɐˈzuːxʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "examination",
+                "bn": "পরীক্ষা",
+                "hi": "परीक्षा",
+                "ur": "معائنہ",
+                "tr": "muayene"
+            },
+            "exampleSentence": "Die Untersuchung wird gleich beginnen.",
+            "exampleTranslation": {
+                "en": "The examination will begin shortly.",
+                "bn": "পরীক্ষা শীঘ্রই শুরু হবে।",
+                "hi": "परीक्षा शीघ्र ही शुरू होगी।",
+                "ur": "معائنہ جلد ہی شروع ہوگا۔",
+                "tr": "Muayene kısa süre sonra başlayacak."
+            },
+            "id": "v09_15"
+        },
+        {
+            "germanTerm": "das Wartezimmer",
+            "article": "das",
+            "plural": "die Wartezimmer",
+            "pronunciation": "das ˈvaʁtəˌt͡sɪmɐ",
+            "category": "noun",
+            "translation": {
+                "en": "waiting room",
+                "bn": "অপেক্ষা ঘর",
+                "hi": "प्रतीक्षा कक्ष",
+                "ur": "انتظار گاہ",
+                "tr": "bekleme odası"
+            },
+            "exampleSentence": "Bitte nehmen Sie im Wartezimmer Platz.",
+            "exampleTranslation": {
+                "en": "Please take a seat in the waiting room.",
+                "bn": "অনুগ্রহ করে অপেক্ষা ঘরে বসুন।",
+                "hi": "कृपया प्रतीक्षा कक्ष में बैठें।",
+                "ur": "براہ کرم انتظار گاہ میں بیٹھیں۔",
+                "tr": "Lütfen bekleme odasında oturun."
+            },
+            "id": "v09_16"
+        },
+        {
+            "germanTerm": "der Datenschutz",
+            "article": "der",
+            "plural": "kein Plural",
+            "pronunciation": "deːɐ̯ ˈdaːtənˌʃʊt͡s",
+            "category": "noun",
+            "translation": {
+                "en": "data protection",
+                "bn": "ডেটা সুরক্ষা",
+                "hi": "डेटा सुरक्षा",
+                "ur": "ڈیٹا تحفظ",
+                "tr": "veri koruma"
+            },
+            "exampleSentence": "Wir nehmen den Datenschutz sehr ernst.",
+            "exampleTranslation": {
+                "en": "We take data protection very seriously.",
+                "bn": "আমরা ডেটা সুরক্ষা খুব গুরুত্ব সহকারে নিই।",
+                "hi": "हम डेटा सुरक्षा को बहुत गंभीरता से लेते हैं।",
+                "ur": "ہم ڈیٹا تحفظ کو بہت سنجیدگی سے لیتے ہیں۔",
+                "tr": "Veri korumasını çok ciddiye alıyoruz."
+            },
+            "id": "v09_17"
+        },
+        {
+            "germanTerm": "unterschreiben",
+            "article": "kein Artikel",
+            "plural": "kein Plural",
+            "pronunciation": "ʊntɐˈʃʁaɪ̯bn̩",
+            "category": "verb",
+            "translation": {
+                "en": "to sign",
+                "bn": "স্বাক্ষর করা",
+                "hi": "हस्ताक्षर करना",
+                "ur": "دستخط کرنا",
+                "tr": "imzalamak"
+            },
+            "exampleSentence": "Bitte unterschreiben Sie hier.",
+            "exampleTranslation": {
+                "en": "Please sign here.",
+                "bn": "দয়া করে এখানে স্বাক্ষর করুন।",
+                "hi": "कृपया यहाँ हस्ताक्षर करें।",
+                "ur": "براہ کرم یہاں دستخط کریں۔",
+                "tr": "Lütfen burayı imzalayın."
+            },
+            "id": "v09_18"
+        },
+        {
+            "germanTerm": "die Versichertenkarte einlesen",
+            "article": "kein Artikel",
+            "plural": "kein Plural",
+            "pronunciation": "diː fɛɐ̯ˈzɪçəʁtənˌkaʁtə ˈaɪ̯nˌleːzn̩",
+            "category": "phrase",
+            "translation": {
+                "en": "to read the insurance card",
+                "bn": "বীমা কার্ড রিড করা",
+                "hi": "बीमा कार्ड पढ़ना",
+                "ur": "بیمہ کارڈ پڑھنا",
+                "tr": "sigorta kartını okumak"
+            },
+            "exampleSentence": "Wir müssen zuerst Ihre Versichertenkarte einlesen.",
+            "exampleTranslation": {
+                "en": "We need to read your insurance card first.",
+                "bn": "আমাদের প্রথমে আপনার বীমা কার্ড রিড করতে হবে।",
+                "hi": "हमें पहले आपका बीमा कार्ड पढ़ना होगा।",
+                "ur": "ہمیں پہلے آپ کا بیمہ کارڈ پڑھنا ہوگا۔",
+                "tr": "Önce sigorta kartınızı okumamız gerekiyor."
+            },
+            "id": "v09_19"
+        },
+        {
+            "germanTerm": "sich anmelden",
+            "article": "kein Artikel",
+            "plural": "kein Plural",
+            "pronunciation": "zɪç ˈanˌmɛldən",
+            "category": "verb",
+            "translation": {
+                "en": "to register",
+                "bn": "নিবন্ধন করা",
+                "hi": "पंजीकरण करना",
+                "ur": "رجسٹر کرنا",
+                "tr": "kaydolmak"
+            },
+            "exampleSentence": "Bitte melden Sie sich am Empfang an.",
+            "exampleTranslation": {
+                "en": "Please register at the reception desk.",
+                "bn": "দয়া করে অভ্যর্থনা ডেস্কে নিবন্ধন করুন।",
+                "hi": "कृपया रिसेप्शन डेस्क पर पंजीकरण करें।",
+                "ur": "براہ کرم استقبالیہ ڈیسک پر رجسٹر کریں۔",
+                "tr": "Lütfen resepsiyon masasında kayıt olun."
+            },
+            "id": "v09_20"
+        },
+        {
+            "germanTerm": "die Chipkarte",
+            "article": "die",
+            "plural": "die Chipkarten",
+            "pronunciation": "diː ˈt͡ʃɪpˌkaʁtə",
+            "category": "noun",
+            "translation": {
+                "en": "chip card",
+                "bn": "চিপ কার্ড",
+                "hi": "चिप कार्ड",
+                "ur": "چپ کارڈ",
+                "tr": "çipli kart"
+            },
+            "exampleSentence": "Stecken Sie bitte die Chipkarte in das Lesegerät.",
+            "exampleTranslation": {
+                "en": "Please insert the chip card into the reader.",
+                "bn": "অনুগ্রহ করে চিপ কার্ডটি রিডারে প্রবেশ করান।",
+                "hi": "कृपया चिप कार्ड को रीडर में डालें।",
+                "ur": "براہ کرم چپ کارڈ کو ریڈر میں داخل کریں۔",
+                "tr": "Lütfen çipli kartı okuyucuya takın."
+            },
+            "id": "v09_21"
+        },
+        {
+            "germanTerm": "gültig",
+            "article": "kein Artikel",
+            "plural": "kein Plural",
+            "pronunciation": "ˈɡʏltɪç",
+            "category": "adjective",
+            "translation": {
+                "en": "valid",
+                "bn": "বৈধ",
+                "hi": "मान्य",
+                "ur": "درست",
+                "tr": "geçerli"
+            },
+            "exampleSentence": "Ist Ihre Versicherungskarte noch gültig?",
+            "exampleTranslation": {
+                "en": "Is your insurance card still valid?",
+                "bn": "আপনার বীমা কার্ডটি কি এখনও বৈধ?",
+                "hi": "क्या आपका बीमा कार्ड अभी भी मान्य है?",
+                "ur": "کیا آپ کا بیمہ کارڈ ابھی بھی درست ہے؟",
+                "tr": "Sigorta kartınız hala geçerli mi?"
+            },
+            "id": "v09_22"
+        },
+        {
+            "germanTerm": "der Hausarzt",
+            "article": "der",
+            "plural": "die Hausärzte",
+            "pronunciation": "deːɐ̯ ˈhaʊ̯sˌʔaʁt͡st",
+            "category": "noun",
+            "translation": {
+                "en": "family doctor",
+                "bn": "পারিবারিক ডাক্তার",
+                "hi": "परिवार के चिकित्सक",
+                "ur": "خاندانی طبیب",
+                "tr": "aile hekimi"
+            },
+            "exampleSentence": "Ihr Hausarzt hat Sie überwiesen.",
+            "exampleTranslation": {
+                "en": "Your family doctor referred you.",
+                "bn": "আপনার পারিবারিক ডাক্তার আপনাকে সুপারিশ করেছেন।",
+                "hi": "आपके परिवार के चिकित्सक ने आपको संदर्भित किया।",
+                "ur": "آپ کے خاندانی طبیب نے آپ کو حوالہ دیا ہے۔",
+                "tr": "Aile hekiminiz sizi sevk etti."
+            },
+            "id": "v09_23"
+        },
+        {
+            "germanTerm": "die Einverständniserklärung",
+            "article": "die",
+            "plural": "die Einverständniserklärungen",
+            "pronunciation": "diː ˈaɪ̯nfɛɐ̯ˌʃtɛntnɪsʔɛɐ̯ˌklɛːʁʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "consent form",
+                "bn": "সম্মতিপত্র",
+                "hi": "सहमति प्रपत्र",
+                "ur": "رضامندی فارم",
+                "tr": "onay formu"
+            },
+            "exampleSentence": "Bitte lesen und unterschreiben Sie die Einverständniserklärung.",
+            "exampleTranslation": {
+                "en": "Please read and sign the consent form.",
+                "bn": "অনুগ্রহ করে সম্মতিপত্রটি পড়ুন এবং স্বাক্ষর করুন।",
+                "hi": "कृपया सहमति प्रपत्र को पढ़ें और हस्ताक्षर करें।",
+                "ur": "براہ کرم رضامندی فارم کو پڑھیں اور دستخط کریں۔",
+                "tr": "Lütfen onay formunu okuyun ve imzalayın."
+            },
+            "id": "v09_24"
+        },
+        {
+            "germanTerm": "die Schweigepflicht",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "diː ˈʃvaɪ̯ɡəˌpflɪçt",
+            "category": "noun",
+            "translation": {
+                "en": "confidentiality",
+                "bn": "গোপনীয়তা",
+                "hi": "गोपनीयता",
+                "ur": "راز داری",
+                "tr": "gizlilik"
+            },
+            "exampleSentence": "Wir unterliegen der Schweigepflicht.",
+            "exampleTranslation": {
+                "en": "We are subject to confidentiality.",
+                "bn": "আমরা গোপনীয়তার বাধ্যবাধকতা অধীনে।",
+                "hi": "हम गोपनीयता के अधीन हैं।",
+                "ur": "ہم رازداری کے پابند ہیں۔",
+                "tr": "Gizlilik yükümlülüğüne tabiyiz."
+            },
+            "id": "v09_25"
+        },
+        {
+            "germanTerm": "die Zuzahlung",
+            "article": "die",
+            "plural": "die Zuzahlungen",
+            "pronunciation": "diː ˈt͡suːˌt͡saːlʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "co-payment",
+                "bn": "সহ-প্রদান",
+                "hi": "सह-भुगतान",
+                "ur": "شریک ادائیگی",
+                "tr": "katkı payı"
+            },
+            "exampleSentence": "Für diese Behandlung ist eine Zuzahlung erforderlich.",
+            "exampleTranslation": {
+                "en": "A co-payment is required for this treatment.",
+                "bn": "এই চিকিৎসার জন্য একটি সহ-প্রদান প্রয়োজন।",
+                "hi": "इस इलाज के लिए सह-भुगतान की आवश्यकता है।",
+                "ur": "اس علاج کے لیے شریک ادائیگی کی ضرورت ہے۔",
+                "tr": "Bu tedavi için katkı payı gereklidir."
+            },
+            "id": "v09_26"
+        },
+        {
+            "germanTerm": "der Versicherungsschutz",
+            "article": "der",
+            "plural": "kein Plural",
+            "pronunciation": "deːɐ̯ fɛɐ̯ˈzɪçəʁʊŋsˌʃʊt͡s",
+            "category": "noun",
+            "translation": {
+                "en": "insurance coverage",
+                "bn": "বীমা সুরক্ষা",
+                "hi": "बीमा कवरेज",
+                "ur": "بیمہ کی کوریج",
+                "tr": "sigorta teminatı"
+            },
+            "exampleSentence": "Bitte prüfen Sie Ihren Versicherungsschutz.",
+            "exampleTranslation": {
+                "en": "Please check your insurance coverage.",
+                "bn": "অনুগ্রহ করে আপনার বীমা সুরক্ষা পরীক্ষা করুন।",
+                "hi": "कृपया अपनी बीमा कवरेज की जाँच करें।",
+                "ur": "براہ کرم اپنی بیمہ کی کوریج کی جانچ کریں۔",
+                "tr": "Lütfen sigorta teminatınızı kontrol edin."
+            },
+            "id": "v09_27"
+        },
+        {
+            "germanTerm": "einweisen",
+            "article": "kein Artikel",
+            "plural": "kein Plural",
+            "pronunciation": "ˈaɪ̯nˌvaɪ̯zn̩",
+            "category": "verb",
+            "translation": {
+                "en": "to admit (to hospital)",
+                "bn": "ভর্তি করা",
+                "hi": "भर्ती करना (अस्पताल में)",
+                "ur": "داخل کرنا (ہسپتال میں)",
+                "tr": "yatırmak (hastaneye)"
+            },
+            "exampleSentence": "Der Arzt wird Sie ins Krankenhaus einweisen.",
+            "exampleTranslation": {
+                "en": "The doctor will admit you to the hospital.",
+                "bn": "ডাক্তার আপনাকে হাসপাতালে ভর্তি করবেন।",
+                "hi": "डॉक्टर आपको अस्पताल में भर्ती करेंगे।",
+                "ur": "ڈاکٹر آپ کو ہسپتال میں داخل کریں گے۔",
+                "tr": "Doktor sizi hastaneye yatıracak."
+            },
+            "id": "v09_28"
+        },
+        {
+            "germanTerm": "die Versichertenummer",
+            "article": "die",
+            "plural": "die Versichertennummern",
+            "pronunciation": "diː fɛɐ̯ˈzɪçəʁtənˌnʊmɐ",
+            "category": "noun",
+            "translation": {
+                "en": "insurance number",
+                "bn": "বীমা নম্বর",
+                "hi": "बीमा नंबर",
+                "ur": "بیمہ نمبر",
+                "tr": "sigorta numarası"
+            },
+            "exampleSentence": "Bitte nennen Sie uns Ihre Versichertenummer.",
+            "exampleTranslation": {
+                "en": "Please tell us your insurance number.",
+                "bn": "অনুগ্রহ করে আপনার বীমা নম্বরটি বলুন।",
+                "hi": "कृपया हमें अपना बीमा नंबर बताएं।",
+                "ur": "براہ کرم ہمیں اپنا بیمہ نمبر بتائیں۔",
+                "tr": "Lütfen sigorta numaranızı bize bildirin."
+            },
+            "id": "v09_29"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Patient Registration: Insurance and Personal Details",
+                "bn": "রোগী নিবন্ধন: বীমা এবং ব্যক্তিগত বিবরণ",
+                "hi": "मरीज पंजीकरण: बीमा और व्यक्तिगत विवरण",
+                "ur": "مریض کا اندراج: انشورنس اور ذاتی تفصیلات",
+                "tr": "Hasta Kaydı: Sigorta ve Kişisel Bilgiler"
+            },
+            "context": {
+                "en": "A new patient, Mr. Müller, arrives at the hospital reception with a referral from his family doctor.",
+                "bn": "একজন নতুন রোগী, মিঃ মুলার, তার পারিবারিক ডাক্তারের কাছ থেকে একটি রেফারেল নিয়ে হাসপাতালের অভ্যর্থনা ডেস্কে এসেছেন।",
+                "hi": "एक नया मरीज, श्री मुलर, अपने पारिवारिक चिकित्सक से रेफरल लेकर अस्पताल के रिसेप्शन डेस्क पर आए हैं।",
+                "ur": "ایک نیا مریض، مسٹر مولر، اپنے خاندانی ڈاکٹر سے حوالہ کے ساتھ ہسپتال کے استقبالیہ ڈیسک پر پہنچتا ہے۔",
+                "tr": "Yeni bir hasta, Bay Müller, aile doktorundan aldığı sevk ile hastane resepsiyonuna gelir."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Tag, Herr Müller. Herzlich willkommen im Krankenhaus. Haben Sie eine Einweisung von Ihrem Hausarzt?",
+                    "translation": {
+                        "en": "Good day, Mr. Müller. Welcome to the hospital. Do you have a referral from your family doctor?",
+                        "bn": "শুভ দিন, মিঃ মুলার। হাসপাতালে স্বাগতম। আপনার পারিবারিক ডাক্তারের কাছ থেকে কি আপনার কোনো রেফারেল আছে?",
+                        "hi": "शुभ दिन, श्री मुलर। अस्पताल में आपका स्वागत है। क्या आपके पास अपने पारिवारिक चिकित्सक से रेफरल है?",
+                        "ur": "شب بخیر، مسٹر مولر۔ ہسپتال میں آپ کا استقبال ہے۔ کیا آپ کے پاس اپنے فیملی ڈاکٹر کی طرف سے کوئی حوالہ ہے؟",
+                        "tr": "İyi günler, Bay Müller. Hastaneye hoş geldiniz. Aile doktorunuzdan bir sevk evrağınız var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, hier ist er. Und meine Versichertenkarte habe ich auch dabei.",
+                    "translation": {
+                        "en": "Yes, here it is. And I also have my insurance card with me.",
+                        "bn": "হ্যাঁ, এই যে। এবং আমার বীমা কার্ডও আমার সাথে আছে।",
+                        "hi": "हाँ, यह रहा। और मेरे पास मेरा बीमा कार्ड भी है।",
+                        "ur": "جی ہاں، یہ رہا۔ اور میرے پاس میرا انشورنس کارڈ بھی ہے۔",
+                        "tr": "Evet, işte burada. Yanımda sigorta kartım da var."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Vielen Dank. Dann füllen Sie bitte noch dieses Anmeldeformular aus. Hier sind Stift und Klemmbrett.",
+                    "translation": {
+                        "en": "Thank you very much. Then please fill out this registration form. Here are a pen and clipboard.",
+                        "bn": "আপনাকে অনেক ধন্যবাদ. তাহলে দয়া করে এই নিবন্ধন ফর্মটি পূরণ করুন। এই নিন একটি কলম এবং ক্লিপবোর্ড।",
+                        "hi": "बहुत-बहुत धन्यवाद। तो कृपया इस पंजीकरण फॉर्म को भरें। यहाँ एक पेन और क्लिपबोर्ड है।",
+                        "ur": "آپ کا بہت شکریہ۔ تو براہ کرم یہ رجسٹریشن فارم پُر کریں۔ یہاں ایک قلم اور کلپ بورڈ ہے۔",
+                        "tr": "Çok teşekkür ederim. Lütfen bu kayıt formunu doldurun. İşte bir kalem ve bir panoya."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "In Ordnung. Wo kann ich das denn wieder abgeben?",
+                    "translation": {
+                        "en": "Alright. Where can I hand it in again?",
+                        "bn": "ঠিক আছে। আমি এটা আবার কোথায় জমা দিতে পারি?",
+                        "hi": "ठीक है। मैं इसे वापस कहाँ जमा कर सकता हूँ?",
+                        "ur": "ٹھیک ہے۔ میں اسے دوبارہ کہاں جمع کر سکتا ہوں؟",
+                        "tr": "Pekala. Bunu tekrar nereye teslim edebilirim?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Einfach hier am Empfang. Danach werden Sie von einem Arzt aufgerufen.",
+                    "translation": {
+                        "en": "Just here at the reception. After that, a doctor will call you.",
+                        "bn": "সরাসরি এখানে অভ্যর্থনা ডেস্কে। এর পরে, একজন ডাক্তার আপনাকে ডাকবেন।",
+                        "hi": "बस यहाँ रिसेप्शन पर। उसके बाद, एक डॉक्टर आपको बुलाएगा।",
+                        "ur": "بس یہاں استقبالیہ پر۔ اس کے بعد، ایک ڈاکٹر آپ کو کال کرے گا۔",
+                        "tr": "Sadece burada resepsiyonda. Ondan sonra bir doktor sizi çağıracak."
+                    }
+                }
+            ],
+            "id": "d09_01"
+        },
+        {
+            "title": {
+                "en": "Transfer Note Discussion",
+                "bn": "স্থানান্তর নোট আলোচনা",
+                "hi": "स्थानांतरण नोट चर्चा",
+                "ur": "منتقلی نوٹ پر گفتگو",
+                "tr": "Sevk Notu Tartışması"
+            },
+            "context": {
+                "en": "Dr. Schmidt and Nurse Meier discuss a patient's transfer note from another hospital.",
+                "bn": "ডঃ শ্মিট এবং নার্স মিয়ের অন্য হাসপাতাল থেকে আসা রোগীর স্থানান্তর নোট নিয়ে আলোচনা করছেন।",
+                "hi": "डॉ. श्मिट और नर्स मेयर दूसरे अस्पताल से आए मरीज के स्थानांतरण नोट पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر شمٹ اور نرس مئیر ایک مریض کے دوسرے ہسپتال سے آنے والے منتقلی نوٹ پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Dr. Schmidt ve Hemşire Meier, başka bir hastaneden gelen bir hastanın sevk notunu tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Schwester Meier, haben Sie sich die Überweisung von Herrn Klein angesehen?",
+                    "translation": {
+                        "en": "Nurse Meier, have you looked at Mr. Klein's referral note?",
+                        "bn": "নার্স মিয়ের, আপনি কি মিঃ ক্লাইনের রেফারেল নোটটি দেখেছেন?",
+                        "hi": "नर्स मेयर, क्या आपने श्री क्लेन के रेफरल नोट को देखा है?",
+                        "ur": "نرس مئیر، کیا آپ نے مسٹر کلین کے حوالہ نوٹ کو دیکھا ہے؟",
+                        "tr": "Hemşire Meier, Bay Klein'ın sevk notuna baktınız mı?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Meier",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ja, Herr Dr. Schmidt. Er soll zur weiteren Diagnostik und Therapie aufgenommen werden.",
+                    "translation": {
+                        "en": "Yes, Dr. Schmidt. He is to be admitted for further diagnostics and therapy.",
+                        "bn": "হ্যাঁ, ডঃ শ্মিট। তাকে আরও ডায়াগনস্টিকস এবং থেরাপির জন্য ভর্তি করা হবে।",
+                        "hi": "हाँ, डॉ. श्मिट। उन्हें आगे के निदान और उपचार के लिए भर्ती किया जाना है।",
+                        "ur": "جی ہاں، ڈاکٹر شمٹ۔ اسے مزید تشخیص اور تھراپی کے لیے داخل کیا جانا ہے۔",
+                        "tr": "Evet, Dr. Schmidt. Daha fazla teşhis ve tedavi için yatırılacak."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Gut, dann bereiten Sie bitte die Aufnahme vor. Ich schaue mir die Unterlagen genauer an.",
+                    "translation": {
+                        "en": "Good, then please prepare for the admission. I'll take a closer look at the documents.",
+                        "bn": "ভাল, তাহলে ভর্তি প্রক্রিয়ার প্রস্তুতি নিন। আমি নথিগুলি আরও ঘনিষ্ঠভাবে দেখব।",
+                        "hi": "अच्छा, तो कृपया प्रवेश की तैयारी करें। मैं दस्तावेजों को और करीब से देखूंगा।",
+                        "ur": "اچھا، تو براہ کرم داخلے کی تیاری کریں۔ میں دستاویزات کو قریب سے دیکھوں گا۔",
+                        "tr": "Güzel, o zaman lütfen kabul için hazırlık yapın. Belgeleri daha yakından inceleyeceğim."
+                    }
+                },
+                {
+                    "speaker": "Schwester Meier",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Soll ich die Versicherungsinformationen schon überprüfen?",
+                    "translation": {
+                        "en": "Should I check the insurance information already?",
+                        "bn": "আমার কি এখনই বীমা তথ্য পরীক্ষা করা উচিত?",
+                        "hi": "क्या मुझे पहले से ही बीमा जानकारी की जांच करनी चाहिए?",
+                        "ur": "کیا مجھے پہلے سے ہی انشورنس کی معلومات چیک کرنی چاہئیں؟",
+                        "tr": "Sigorta bilgilerini şimdiden kontrol etmeli miyim?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ja, das wäre hilfreich. Und fragen Sie nach aktuellen Medikamenten.",
+                    "translation": {
+                        "en": "Yes, that would be helpful. And ask about current medications.",
+                        "bn": "হ্যাঁ, এটা সহায়ক হবে। এবং বর্তমান ওষুধ সম্পর্কে জিজ্ঞাসা করুন।",
+                        "hi": "हाँ, यह मददगार होगा। और वर्तमान दवाओं के बारे में पूछें।",
+                        "ur": "جی ہاں، اس سے مدد ملے گی۔ اور موجودہ ادویات کے بارے میں پوچھیں۔",
+                        "tr": "Evet, bu yardımcı olacaktır. Ve mevcut ilaçlar hakkında soru sorun."
+                    }
+                }
+            ],
+            "id": "d09_02"
+        },
+        {
+            "title": {
+                "en": "Emergency Admission Without Referral",
+                "bn": "রেফারেল ছাড়া জরুরি ভর্তি",
+                "hi": "रेफरल के बिना आपातकालीन प्रवेश",
+                "ur": "حوالہ کے بغیر ہنگامی داخلہ",
+                "tr": "Sevk olmadan Acil Kabul"
+            },
+            "context": {
+                "en": "A patient arrives in the emergency room unconscious. The reception staff needs to gather information.",
+                "bn": "একজন রোগী অজ্ঞান অবস্থায় জরুরি বিভাগে এসেছেন। অভ্যর্থনা কর্মীদের তথ্য সংগ্রহ করতে হবে।",
+                "hi": "एक मरीज बेहोश अवस्था में आपातकालीन कक्ष में आता है। रिसेप्शन स्टाफ को जानकारी इकट्ठा करने की आवश्यकता है।",
+                "ur": "ایک مریض بے ہوشی کی حالت میں ایمرجنسی روم میں پہنچتا ہے۔ استقبالیہ عملے کو معلومات جمع کرنے کی ضرورت ہے۔",
+                "tr": "Bir hasta bilinçsiz bir şekilde acil servise gelir. Resepsiyon personelinin bilgi toplaması gerekiyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Wir haben einen Notfall! Bewusstloser Patient angekommen.",
+                    "translation": {
+                        "en": "We have an emergency! Unconscious patient arrived.",
+                        "bn": "আমাদের একটি জরুরি অবস্থা আছে! অজ্ঞান রোগী এসেছেন।",
+                        "hi": "हमारे पास एक आपातकाल है! बेहोश मरीज आ गया।",
+                        "ur": "ہمارے پاس ایک ایمرجنسی ہے! بے ہوش مریض پہنچ گیا۔",
+                        "tr": "Bir acil durumumuz var! Bilinçsiz hasta geldi."
+                    }
+                },
+                {
+                    "speaker": "Empfangsmitarbeiter",
+                    "speakerRole": "Angestellter",
+                    "germanText": "Versuchen Sie, Personalien festzustellen! Gibt es Angehörige?",
+                    "translation": {
+                        "en": "Try to determine personal details! Are there any relatives?",
+                        "bn": "ব্যক্তিগত বিবরণ জানার চেষ্টা করুন! কোনো আত্মীয় আছেন?",
+                        "hi": "व्यक्तिगत विवरण निर्धारित करने का प्रयास करें! क्या कोई रिश्तेदार है?",
+                        "ur": "ذاتی تفصیلات کا تعین کرنے کی کوشش کریں! کیا کوئی رشتہ دار ہے؟",
+                        "tr": "Kişisel bilgileri belirlemeye çalışın! Akrabaları var mı?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Seine Geldbörse ist da. Ich habe einen Ausweis gefunden. Name: Herr Lehmann.",
+                    "translation": {
+                        "en": "His wallet is there. I found an ID. Name: Mr. Lehmann.",
+                        "bn": "তার মানিব্যাগ এখানে আছে। আমি একটি আইডি পেয়েছি। নাম: মিঃ লেহমান।",
+                        "hi": "उसका बटुआ वहाँ है। मुझे एक आईडी मिली। नाम: श्री लेहमैन।",
+                        "ur": "اس کا پرس وہیں ہے۔ مجھے ایک شناختی کارڈ ملا۔ نام: مسٹر لیمان۔",
+                        "tr": "Cüzdanı orada. Bir kimlik buldum. Adı: Bay Lehmann."
+                    }
+                },
+                {
+                    "speaker": "Empfangsmitarbeiter",
+                    "speakerRole": "Angestellter",
+                    "germanText": "Gut. Versuchen Sie, seine Krankenversicherung herauszufinden.",
+                    "translation": {
+                        "en": "Good. Try to find out his health insurance.",
+                        "bn": "ভাল। তার স্বাস্থ্য বীমা খুঁজে বের করার চেষ্টা করুন।",
+                        "hi": "अच्छा। उसकी स्वास्थ्य बीमा का पता लगाने की कोशिश करें।",
+                        "ur": "اچھا. اس کی صحت کی انشورنس کا پتہ لگانے کی کوشش کریں۔",
+                        "tr": "Güzel. Sağlık sigortasını bulmaya çalışın."
+                    }
+                },
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Er ist bei der AOK versichert. Ich rufe dort an.",
+                    "translation": {
+                        "en": "He is insured with AOK. I'll call them.",
+                        "bn": "তার এওকে-তে বীমা করা আছে। আমি তাদের ফোন করব।",
+                        "hi": "उसका एओके के साथ बीमा है। मैं उन्हें फोन करूंगा।",
+                        "ur": "اس کا اے او کے ساتھ بیمہ ہے۔ میں انہیں فون کروں گا۔",
+                        "tr": "AOK'da sigortası var. Onları arayacağım."
+                    }
+                }
+            ],
+            "id": "d09_03"
+        },
+        {
+            "title": {
+                "en": "Clarifying Referral Information",
+                "bn": "রেফারেল তথ্য স্পষ্ট করা",
+                "hi": "रेफरल जानकारी को स्पष्ट करना",
+                "ur": "حوالہ معلومات کو واضح کرنا",
+                "tr": "Sevk Bilgilerini Netleştirmek"
+            },
+            "context": {
+                "en": "The reception staff calls the referring doctor to clarify some information on the referral note.",
+                "bn": "অভ্যর্থনা কর্মীরা রেফারেল নোটের কিছু তথ্য স্পষ্ট করার জন্য রেফারকারী ডাক্তারকে ফোন করেন।",
+                "hi": "रिसेप्शन स्टाफ रेफरल नोट पर कुछ जानकारी स्पष्ट करने के लिए रेफर करने वाले डॉक्टर को फोन करता है।",
+                "ur": "استقبالیہ عملہ حوالہ نوٹ پر کچھ معلومات واضح کرنے کے لیے حوالہ دینے والے ڈاکٹر کو فون کرتا ہے۔",
+                "tr": "Resepsiyon personeli, sevk notundaki bazı bilgileri netleştirmek için sevk eden doktoru arar."
+            },
+            "lines": [
+                {
+                    "speaker": "Empfangsmitarbeiter",
+                    "speakerRole": "Angestellter",
+                    "germanText": "Guten Tag, hier ist das Krankenhaus XYZ. Ich habe eine Frage zur Überweisung von Frau Schmidt.",
+                    "translation": {
+                        "en": "Good day, this is XYZ Hospital. I have a question about Mrs. Schmidt's referral.",
+                        "bn": "শুভ দিন, এটি এক্সওয়াইজেড হাসপাতাল। মিসেস শ্মিটের রেফারেল সম্পর্কে আমার একটি প্রশ্ন আছে।",
+                        "hi": "शुभ दिन, यह एक्सवाईजेड अस्पताल है। मेरे पास श्रीमती श्मिट के रेफरल के बारे में एक प्रश्न है।",
+                        "ur": "شب بخیر، یہ ایکس وائی زیڈ ہسپتال ہے۔ میرے پاس مسز شمٹ کے حوالہ کے بارے میں ایک سوال ہے۔",
+                        "tr": "İyi günler, burası XYZ Hastanesi. Bayan Schmidt'in sevkiyle ilgili bir sorum var."
+                    }
+                },
+                {
+                    "speaker": "Arzt (am Telefon)",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Tag. Hier Dr. Bauer. Was gibt es?",
+                    "translation": {
+                        "en": "Good day. Dr. Bauer speaking. What is it?",
+                        "bn": "শুভ দিন। ডঃ বাউয়ার বলছি। কি হয়েছে?",
+                        "hi": "शुभ दिन। डॉ. Bauer बोल रहे हैं। क्या है?",
+                        "ur": "شب بخیر۔ ڈاکٹر باؤر بات کر رہے ہیں۔ کیا بات ہے؟",
+                        "tr": "İyi günler. Dr. Bauer konuşuyor. Neydi?"
+                    }
+                },
+                {
+                    "speaker": "Empfangsmitarbeiter",
+                    "speakerRole": "Angestellter",
+                    "germanText": "Auf der Überweisung steht keine Diagnose. Könnten Sie uns diese bitte mitteilen?",
+                    "translation": {
+                        "en": "There is no diagnosis on the referral note. Could you please tell us what it is?",
+                        "bn": "রেফারেল নোটে কোনো রোগ নির্ণয় উল্লেখ নেই। আপনি কি অনুগ্রহ করে এটি আমাদের জানাতে পারবেন?",
+                        "hi": "रेफरल नोट पर कोई निदान नहीं है। क्या आप कृपया हमें यह बता सकते हैं?",
+                        "ur": "حوالہ نوٹ پر کوئی تشخیص نہیں ہے۔ کیا آپ براہ کرم ہمیں یہ بتا سکتے ہیں؟",
+                        "tr": "Sevk notunda teşhis yok. Lütfen bize söyleyebilir misiniz?"
+                    }
+                },
+                {
+                    "speaker": "Arzt (am Telefon)",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Es besteht Verdacht auf eine Pneumonie. Das sollte abgeklärt werden.",
+                    "translation": {
+                        "en": "There is a suspicion of pneumonia. This should be clarified.",
+                        "bn": "নিউমোনিয়ার সন্দেহ আছে। এটি স্পষ্ট করা উচিত।",
+                        "hi": "निमोनिया का संदेह है। इसे स्पष्ट किया जाना चाहिए।",
+                        "ur": "نمونیا کا شبہ ہے۔ اسے واضح کیا جانا چاہیے۔",
+                        "tr": "Zatürre şüphesi var. Bunun açıklığa kavuşturulması gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Empfangsmitarbeiter",
+                    "speakerRole": "Angestellter",
+                    "germanText": "Vielen Dank für die Information, Herr Dr. Bauer!",
+                    "translation": {
+                        "en": "Thank you very much for the information, Dr. Bauer!",
+                        "bn": "তথ্যের জন্য আপনাকে অনেক ধন্যবাদ, ডঃ বাউয়ার!",
+                        "hi": "जानकारी के लिए आपका बहुत-बहुत धन्यवाद, डॉ. Bauer!",
+                        "ur": "معلومات کے لیے آپ کا بہت شکریہ، ڈاکٹر باؤر!",
+                        "tr": "Bilgi için çok teşekkür ederim, Dr. Bauer!"
+                    }
+                }
+            ],
+            "id": "d09_04"
+        },
+        {
+            "title": {
+                "en": "Patient with Private Insurance",
+                "bn": "বেসরকারি বীমা যুক্ত রোগী",
+                "hi": "निजी बीमा वाला मरीज",
+                "ur": "نجی بیمہ والا مریض",
+                "tr": "Özel Sigortalı Hasta"
+            },
+            "context": {
+                "en": "A patient with private insurance is registering at the reception.",
+                "bn": "বেসরকারি বীমা যুক্ত একজন রোগী অভ্যর্থনা ডেস্কে নিবন্ধন করছেন।",
+                "hi": "निजी बीमा वाला एक मरीज रिसेप्शन पर पंजीकरण कर रहा है।",
+                "ur": "نجی بیمہ والا ایک مریض استقبالیہ پر اندراج کر رہا ہے۔",
+                "tr": "Özel sigortalı bir hasta resepsiyonda kayıt oluyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Empfangsmitarbeiterin",
+                    "speakerRole": "Angestellter",
+                    "germanText": "Guten Tag, wie kann ich Ihnen helfen?",
+                    "translation": {
+                        "en": "Good day, how can I help you?",
+                        "bn": "শুভ দিন, আমি আপনাকে কিভাবে সাহায্য করতে পারি?",
+                        "hi": "शुभ दिन, मैं आपकी कैसे मदद कर सकता हूँ?",
+                        "ur": "شب بخیر، میں آپ کی کیسے مدد کر سکتا ہوں؟",
+                        "tr": "İyi günler, size nasıl yardımcı olabilirim?"
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe einen Termin bei Herrn Professor Müller und bin privat versichert.",
+                    "translation": {
+                        "en": "I have an appointment with Professor Müller and I have private insurance.",
+                        "bn": "আমার অধ্যাপক মুলারের সাথে একটি অ্যাপয়েন্টমেন্ট আছে এবং আমার বেসরকারি বীমা আছে।",
+                        "hi": "मेरे पास प्रोफेसर मुलर के साथ एक अपॉइंटमेंट है और मेरे पास निजी बीमा है।",
+                        "ur": "میری پروفیسر مولر کے ساتھ ملاقات ہے اور میری نجی بیمہ ہے۔",
+                        "tr": "Profesör Müller'den randevum var ve özel sigortam var."
+                    }
+                },
+                {
+                    "speaker": "Empfangsmitarbeiterin",
+                    "speakerRole": "Angestellter",
+                    "germanText": "Haben Sie Ihre Versicherungskarte dabei?",
+                    "translation": {
+                        "en": "Do you have your insurance card with you?",
+                        "bn": "আপনার সাথে কি আপনার বীমা কার্ড আছে?",
+                        "hi": "क्या आपके पास अपना बीमा कार्ड है?",
+                        "ur": "کیا آپ کے پاس اپنا انشورنس کارڈ ہے؟",
+                        "tr": "Sigorta kartınız yanınızda mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, bitte sehr.",
+                    "translation": {
+                        "en": "Yes, here you are.",
+                        "bn": "হ্যাঁ, এই নিন।",
+                        "hi": "हाँ, ये लीजिए।",
+                        "ur": "جی ہاں، یہ لیجیے۔",
+                        "tr": "Evet, buyurun."
+                    }
+                },
+                {
+                    "speaker": "Empfangsmitarbeiterin",
+                    "speakerRole": "Angestellter",
+                    "germanText": "Vielen Dank. Dann können Sie im Wartebereich Platz nehmen. Sie werden aufgerufen.",
+                    "translation": {
+                        "en": "Thank you very much. Then you can take a seat in the waiting area. You will be called.",
+                        "bn": "আপনাকে অনেক ধন্যবাদ। তাহলে আপনি অপেক্ষারত এলাকায় বসতে পারেন। আপনাকে ডাকা হবে।",
+                        "hi": "आपका बहुत-बहुत धन्यवाद। तो आप प्रतीक्षा क्षेत्र में बैठ सकते हैं। आपको बुलाया जाएगा।",
+                        "ur": "آپ کا بہت شکریہ۔ تو آپ انتظار گاہ میں بیٹھ سکتے ہیں۔ آپ کو بلایا جائے گا۔",
+                        "tr": "Çok teşekkür ederim. O zaman bekleme alanında oturabilirsiniz. Çağrılacaksınız."
+                    }
+                }
+            ],
+            "id": "d09_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist die erste Frage, die Sie einem neuen Patienten bei der Aufnahme stellen sollten?",
+                "en": "What is the first question you should ask a new patient during admission?",
+                "bn": "ভর্তির সময় নতুন রোগীকে আপনার প্রথম প্রশ্নটি কী হওয়া উচিত?",
+                "hi": "दाखिले के दौरान आपको एक नए मरीज से पहला सवाल क्या पूछना चाहिए?",
+                "ur": "داخلے کے دوران آپ کو کسی نئے مریض سے پہلا سوال کیا پوچھنا چاہئے؟",
+                "tr": "Kayıt sırasında yeni bir hastaya ilk sormanız gereken soru nedir?"
+            },
+            "options": [
+                "Haben Sie eine Überweisung?",
+                "Wie ist Ihr Name und Geburtsdatum?",
+                "Sind Sie privat versichert?",
+                "Was sind Ihre Beschwerden?"
+            ],
+            "correctAnswer": "Wie ist Ihr Name und Geburtsdatum?",
+            "explanation": {
+                "en": "Asking for the name and date of birth is essential for patient identification and record creation.",
+                "bn": "রোগীর পরিচয় এবং রেকর্ড তৈরির জন্য নাম এবং জন্ম তারিখ জিজ্ঞাসা করা অপরিহার্য।",
+                "hi": "मरीज की पहचान और रिकॉर्ड बनाने के लिए नाम और जन्मतिथि पूछना ज़रूरी है।",
+                "ur": "مریض کی شناخت اور ریکارڈ بنانے کے لئے نام اور تاریخ پیدائش پوچھنا ضروری ہے۔",
+                "tr": "Hasta tanımlaması ve kayıt oluşturma için ad ve doğum tarihi sormak önemlidir."
+            },
+            "points": 10,
+            "id": "e09_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein 'Einweisungsschein'?",
+                "en": "What is an 'Einweisungsschein'?",
+                "bn": "'Einweisungsschein' মানে কী?",
+                "hi": "'Einweisungsschein' क्या है?",
+                "ur": "'Einweisungsschein' کیا ہے؟",
+                "tr": "'Einweisungsschein' nedir?"
+            },
+            "options": [
+                "Eine Rechnung für die Behandlung",
+                "Eine Überweisung von einem Facharzt",
+                "Eine Bescheinigung über die Versicherung",
+                "Eine Einweisung vom Hausarzt ins Krankenhaus"
+            ],
+            "correctAnswer": "Eine Einweisung vom Hausarzt ins Krankenhaus",
+            "explanation": {
+                "en": "An 'Einweisungsschein' is a referral from a general practitioner to a hospital.",
+                "bn": "'Einweisungsschein' হল একজন সাধারণ অনুশীলনকারী থেকে হাসপাতালের কাছে একটি রেফারেল।",
+                "hi": "'Einweisungsschein' एक सामान्य चिकित्सक से अस्पताल के लिए एक रेफरल है।",
+                "ur": "'Einweisungsschein' ایک عام پریکٹیشنر سے ہسپتال کے لئے ایک ریفرل ہے۔",
+                "tr": "'Einweisungsschein', pratisyen hekimden hastaneye bir sevk belgesidir."
+            },
+            "points": 10,
+            "id": "e09_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Information ist NICHT im Anmeldeformular enthalten?",
+                "en": "Which information is NOT included in the registration form?",
+                "bn": "নিবন্ধন ফর্মে কোন তথ্য অন্তর্ভুক্ত করা হয় না?",
+                "hi": "पंजीकरण फॉर्म में कौन सी जानकारी शामिल नहीं है?",
+                "ur": "رجسٹریشن فارم میں کونسی معلومات شامل نہیں ہے؟",
+                "tr": "Kayıt formunda hangi bilgi yer almaz?"
+            },
+            "options": [
+                "Name und Adresse",
+                "Krankenkasse",
+                "Vorerkrankungen",
+                "Lieblingsfarbe"
+            ],
+            "correctAnswer": "Lieblingsfarbe",
+            "explanation": {
+                "en": "Favorite color is not relevant medical information and is not included in the registration form.",
+                "bn": "প্রিয় রঙ প্রাসঙ্গিক চিকিৎসা তথ্য নয় এবং নিবন্ধন ফর্মে অন্তর্ভুক্ত করা হয় না।",
+                "hi": "पसंदीदा रंग प्रासंगिक चिकित्सा जानकारी नहीं है और पंजीकरण फॉर्म में शामिल नहीं है।",
+                "ur": "پسندیدہ رنگ متعلقہ طبی معلومات نہیں ہے اور رجسٹریشن فارم میں شامل نہیں ہے۔",
+                "tr": "Favori renk tıbbi olarak alakalı bir bilgi değildir ve kayıt formunda yer almaz."
+            },
+            "points": 10,
+            "id": "e09_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Personalien'?",
+                "en": "What does 'Personalien' mean?",
+                "bn": "'Personalien' মানে কী?",
+                "hi": "'Personalien' का क्या मतलब है?",
+                "ur": "'Personalien' کا کیا مطلب ہے؟",
+                "tr": "'Personalien' ne anlama gelir?"
+            },
+            "options": [
+                "Persönliche Daten",
+                "Krankengeschichte",
+                "Medikamente",
+                "Allergien"
+            ],
+            "correctAnswer": "Persönliche Daten",
+            "explanation": {
+                "en": "'Personalien' refers to personal details like name, address, and date of birth.",
+                "bn": "'Personalien' মানে নাম, ঠিকানা এবং জন্ম তারিখের মতো ব্যক্তিগত বিবরণ।",
+                "hi": "'Personalien' का मतलब नाम, पता और जन्म तिथि जैसे व्यक्तिगत विवरण हैं।",
+                "ur": "'Personalien' کا مطلب نام، پتہ اور تاریخ پیدائش جیسی ذاتی تفصیلات ہیں۔",
+                "tr": "'Personalien', ad, adres ve doğum tarihi gibi kişisel bilgileri ifade eder."
+            },
+            "points": 10,
+            "id": "e09_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist der Zweck einer 'Überweisung'?",
+                "en": "What is the purpose of a 'Überweisung'?",
+                "bn": "'Überweisung' এর উদ্দেশ্য কী?",
+                "hi": "'Überweisung' का उद्देश्य क्या है?",
+                "ur": "'Überweisung' کا مقصد کیا ہے؟",
+                "tr": "'Überweisung' in amacı nedir?"
+            },
+            "options": [
+                "Die Behandlung bezahlen",
+                "Einen Termin vereinbaren",
+                "Zu einem Spezialisten überwiesen werden",
+                "Medikamente abholen"
+            ],
+            "correctAnswer": "Zu einem Spezialisten überwiesen werden",
+            "explanation": {
+                "en": "A 'Überweisung' is a referral to a specialist doctor.",
+                "bn": "'Überweisung' হল একজন বিশেষজ্ঞ ডাক্তারের কাছে রেফারেল।",
+                "hi": "'Überweisung' एक विशेषज्ञ डॉक्टर के पास रेफरल है।",
+                "ur": "'Überweisung' ایک ماہر ڈاکٹر کے پاس ریفرل ہے۔",
+                "tr": "'Überweisung', bir uzman doktora sevktir."
+            },
+            "points": 10,
+            "id": "e09_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Aufnahme' im Krankenhaus?",
+                "en": "What does 'Aufnahme' mean in the hospital context?",
+                "bn": "হাসপাতালে 'Aufnahme' মানে কী?",
+                "hi": "अस्पताल में 'Aufnahme' का क्या मतलब है?",
+                "ur": "ہسپتال میں 'Aufnahme' کا کیا مطلب ہے؟",
+                "tr": "Hastane bağlamında 'Aufnahme' ne anlama gelir?"
+            },
+            "options": [
+                "Entlassung",
+                "Behandlung",
+                "Einlieferung",
+                "Operation"
+            ],
+            "correctAnswer": "Einlieferung",
+            "explanation": {
+                "en": "'Aufnahme' refers to the admission of a patient to the hospital.",
+                "bn": "'Aufnahme' মানে রোগীর হাসপাতালে ভর্তি।",
+                "hi": "'Aufnahme' का मतलब है रोगी को अस्पताल में भर्ती करना।",
+                "ur": "'Aufnahme' کا مطلب ہے مریض کو ہسپتال میں داخل کرنا۔",
+                "tr": "'Aufnahme', bir hastanın hastaneye kabul edilmesi anlamına gelir."
+            },
+            "points": 10,
+            "id": "e09_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Frage ist am wenigsten relevant für die Versicherungsprüfung?",
+                "en": "Which question is least relevant for insurance verification?",
+                "bn": "বীমা যাচাইকরণের জন্য কোন প্রশ্নটি সবচেয়ে কম প্রাসঙ্গিক?",
+                "hi": "बीमा सत्यापन के लिए कौन सा प्रश्न सबसे कम प्रासंगिक है?",
+                "ur": "بیمہ کی تصدیق کے لئے کون سا سوال سب سے کم متعلق ہے؟",
+                "tr": "Sigorta doğrulaması için hangi soru en az alakalıdır?"
+            },
+            "options": [
+                "Haben Sie eine gültige Versichertenkarte?",
+                "Wie lautet Ihre Versichertennummer?",
+                "Welche Farbe hat Ihr Auto?",
+                "Bei welcher Krankenkasse sind Sie versichert?"
+            ],
+            "correctAnswer": "Welche Farbe hat Ihr Auto?",
+            "explanation": {
+                "en": "The color of the car is irrelevant to insurance verification.",
+                "bn": "গাড়ির রঙ বীমা যাচাইকরণের জন্য অপ্রাসঙ্গিক।",
+                "hi": "कार का रंग बीमा सत्यापन के लिए अप्रासंगिक है।",
+                "ur": "گاڑی کا رنگ بیمہ کی تصدیق کے لئے غیر متعلق ہے۔",
+                "tr": "Arabanın rengi sigorta doğrulaması için alakasızdır."
+            },
+            "points": 10,
+            "id": "e09_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist der Unterschied zwischen 'Einweisung' und 'Überweisung'?",
+                "en": "What is the difference between 'Einweisung' and 'Überweisung'?",
+                "bn": "'Einweisung' এবং 'Überweisung' এর মধ্যে পার্থক্য কী?",
+                "hi": "'Einweisung' और 'Überweisung' में क्या अंतर है?",
+                "ur": "'Einweisung' اور 'Überweisung' میں کیا فرق ہے؟",
+                "tr": "'Einweisung' ve 'Überweisung' arasındaki fark nedir?"
+            },
+            "options": [
+                "Kein Unterschied",
+                "Einweisung ist für Medikamente, Überweisung für Untersuchungen",
+                "Einweisung ist für das Krankenhaus, Überweisung für einen Spezialisten",
+                "Überweisung ist für das Krankenhaus, Einweisung für einen Spezialisten"
+            ],
+            "correctAnswer": "Einweisung ist für das Krankenhaus, Überweisung für einen Spezialisten",
+            "explanation": {
+                "en": "'Einweisung' is for hospital admission, 'Überweisung' is for a specialist referral.",
+                "bn": "'Einweisung' হাসপাতালের ভর্তির জন্য, 'Überweisung' একজন বিশেষজ্ঞের কাছে রেফারেলের জন্য।",
+                "hi": "'Einweisung' अस्पताल में भर्ती के लिए है, 'Überweisung' एक विशेषज्ञ के पास रेफरल के लिए है।",
+                "ur": "'Einweisung' ہسپتال میں داخلے کے لئے ہے، 'Überweisung' ایک ماہر کے پاس ریفرل کے لئے ہے۔",
+                "tr": "'Einweisung' hastaneye yatış için, 'Überweisung' bir uzmana sevk için kullanılır."
+            },
+            "points": 10,
+            "id": "e09_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Optionen ist KEINE Personalie?",
+                "en": "Which of the following options is NOT a personal detail?",
+                "bn": "নিম্নলিখিত অপশনগুলির মধ্যে কোনটি ব্যক্তিগত বিবরণ নয়?",
+                "hi": "निम्नलिखित विकल्पों में से कौन सा व्यक्तिगत विवरण नहीं है?",
+                "ur": "درج ذیل میں سے کون سی آپشن ذاتی تفصیل نہیں ہے؟",
+                "tr": "Aşağıdaki seçeneklerden hangisi kişisel bir detay değildir?"
+            },
+            "options": [
+                "Adresse",
+                "Geburtsdatum",
+                "Beruf",
+                "Blutgruppe"
+            ],
+            "correctAnswer": "Blutgruppe",
+            "explanation": {
+                "en": "Blood type is a medical detail, not a personal detail like address, date of birth, or occupation.",
+                "bn": "রক্তের গ্রুপ একটি চিকিৎসা বিবরণ, ঠিকানা, জন্ম তারিখ বা পেশার মতো ব্যক্তিগত বিবরণ নয়।",
+                "hi": "रक्त समूह एक चिकित्सा विवरण है, पता, जन्म तिथि या व्यवसाय जैसे व्यक्तिगत विवरण नहीं।",
+                "ur": "خون کا گروپ ایک طبی تفصیل ہے، پتہ، تاریخ پیدائش یا پیشہ جیسی ذاتی تفصیل نہیں ہے۔",
+                "tr": "Kan grubu tıbbi bir detaydır, adres, doğum tarihi veya meslek gibi kişisel bir detay değildir."
+            },
+            "points": 10,
+            "id": "e09_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wo finden Sie Informationen zur Krankenversicherung des Patienten?",
+                "en": "Where can you find information about the patient's health insurance?",
+                "bn": "আপনি রোগীর স্বাস্থ্য বীমা সম্পর্কে তথ্য কোথায় পেতে পারেন?",
+                "hi": "आप रोगी के स्वास्थ्य बीमा के बारे में जानकारी कहाँ पा सकते हैं?",
+                "ur": "آپ مریض کی صحت بیمہ کے بارے میں معلومات کہاں سے حاصل کرسکتے ہیں؟",
+                "tr": "Hastanın sağlık sigortası hakkında bilgiyi nerede bulabilirsiniz?"
+            },
+            "options": [
+                "Im Anmeldeformular und auf der Versichertenkarte",
+                "Im Überweisungsschein",
+                "Im Einweisungsschein",
+                "In der Patientenakte von vor 5 Jahren"
+            ],
+            "correctAnswer": "Im Anmeldeformular und auf der Versichertenkarte",
+            "explanation": {
+                "en": "The registration form and the insurance card contain the patient's health insurance information.",
+                "bn": "নিবন্ধন ফর্ম এবং বীমা কার্ডে রোগীর স্বাস্থ্য বীমা সম্পর্কিত তথ্য রয়েছে।",
+                "hi": "पंजीकरण फॉर्म और बीमा कार्ड में रोगी के स्वास्थ्य बीमा से संबंधित जानकारी होती है।",
+                "ur": "رجسٹریشن فارم اور بیمہ کارڈ میں مریض کی صحت بیمہ سے متعلق معلومات ہوتی ہے۔",
+                "tr": "Kayıt formunda ve sigorta kartında hastanın sağlık sigortası bilgileri bulunur."
+            },
+            "points": 10,
+            "id": "e09_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bitte füllen Sie das ___________ aus, damit wir Sie aufnehmen können.",
+                "en": "Please fill out the ___________ so we can admit you.",
+                "bn": "অনুগ্রহ করে ___________ পূরণ করুন যাতে আমরা আপনাকে ভর্তি করতে পারি।",
+                "hi": "कृपया ___________ भरें ताकि हम आपको भर्ती कर सकें।",
+                "ur": "براہ کرم ___________ پُر کریں تاکہ ہم آپ کو داخل کر سکیں۔",
+                "tr": "Lütfen ___________ doldurun böylece sizi kabul edebiliriz."
+            },
+            "options": [],
+            "correctAnswer": "Anmeldeformular",
+            "explanation": {
+                "en": "The 'Anmeldeformular' (registration form) is required for patient admission.",
+                "bn": "রোগী ভর্তির জন্য 'Anmeldeformular' (নিবন্ধন ফর্ম) প্রয়োজন।",
+                "hi": "रोगी भर्ती के लिए 'Anmeldeformular' (पंजीकरण फॉर्म) आवश्यक है।",
+                "ur": "مریض کی داخلے کے لئے 'Anmeldeformular' (رجسٹریشن فارم) ضروری ہے۔",
+                "tr": "Hasta kabulü için 'Anmeldeformular' (kayıt formu) gereklidir."
+            },
+            "points": 10,
+            "id": "e09_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die ___________ enthält Informationen zu Ihrer Adresse und Ihrem Geburtsdatum.",
+                "en": "The ___________ contains information about your address and date of birth.",
+                "bn": "___________ আপনার ঠিকানা এবং জন্ম তারিখ সম্পর্কে তথ্য ধারণ করে।",
+                "hi": "___________ में आपके पते और जन्मतिथि के बारे में जानकारी होती है।",
+                "ur": "___________ میں آپ کے پتے اور تاریخ پیدائش کے بارے میں معلومات ہوتی ہیں۔",
+                "tr": "___________ adresiniz ve doğum tarihiniz hakkında bilgi içerir."
+            },
+            "options": [],
+            "correctAnswer": "Personalien",
+            "explanation": {
+                "en": "'Personalien' (personal details) includes information such as address and date of birth.",
+                "bn": "'Personalien' (ব্যক্তিগত বিবরণ) ঠিকানা এবং জন্ম তারিখের মতো তথ্য অন্তর্ভুক্ত করে।",
+                "hi": "'Personalien' (व्यक्तिगत विवरण) में पता और जन्मतिथि जैसी जानकारी शामिल है।",
+                "ur": "'Personalien' (ذاتی تفصیلات) میں پتہ اور تاریخ پیدائش جیسی معلومات شامل ہے۔",
+                "tr": "'Personalien' (kişisel bilgiler), adres ve doğum tarihi gibi bilgileri içerir."
+            },
+            "points": 10,
+            "id": "e09_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Für einen Termin beim Spezialisten benötigen Sie eine __________.",
+                "en": "For an appointment with a specialist, you need a __________.",
+                "bn": "বিশেষজ্ঞের সাথে সাক্ষাতের জন্য আপনার একটি __________ প্রয়োজন।",
+                "hi": "विशेषज्ञ के साथ अपॉइंटमेंट के लिए, आपको एक __________ की आवश्यकता है।",
+                "ur": "ماہر کے ساتھ ملاقات کے لئے، آپ کو ایک __________ کی ضرورت ہے۔",
+                "tr": "Bir uzmanla randevu almak için bir __________'e ihtiyacınız var."
+            },
+            "options": [],
+            "correctAnswer": "Überweisung",
+            "explanation": {
+                "en": "A 'Überweisung' (referral) is needed to see a specialist.",
+                "bn": "একজন বিশেষজ্ঞের সাথে দেখা করার জন্য একটি 'Überweisung' (রেফারেল) প্রয়োজন।",
+                "hi": "एक विशेषज्ञ से मिलने के लिए एक 'Überweisung' (रेफरल) की आवश्यकता होती है।",
+                "ur": "ایک ماہر سے ملنے کے لئے ایک 'Überweisung' (ریفرل) کی ضرورت ہوتی ہے۔",
+                "tr": "Bir uzmanla görüşmek için bir 'Überweisung' (sevk) gereklidir."
+            },
+            "points": 10,
+            "id": "e09_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bitte zeigen Sie Ihre __________ vor.",
+                "en": "Please present your __________.",
+                "bn": "অনুগ্রহ করে আপনার __________ উপস্থাপন করুন।",
+                "hi": "कृपया अपना __________ प्रस्तुत करें।",
+                "ur": "براہ کرم اپنا __________ پیش کریں۔",
+                "tr": "Lütfen __________'nizi gösterin."
+            },
+            "options": [],
+            "correctAnswer": "Versichertenkarte",
+            "explanation": {
+                "en": "The 'Versichertenkarte' (insurance card) needs to be presented at reception.",
+                "bn": "রিসেপশনে 'Versichertenkarte' (বীমা কার্ড) উপস্থাপন করতে হবে।",
+                "hi": "रिसेप्शन पर 'Versichertenkarte' (बीमा कार्ड) प्रस्तुत करना होगा।",
+                "ur": "رسپشن پر 'Versichertenkarte' (بیمہ کارڈ) پیش کرنا ہوگا۔",
+                "tr": "Resepsiyonda 'Versichertenkarte' (sigorta kartı) sunulması gerekir."
+            },
+            "points": 10,
+            "id": "e09_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die __________ erfolgt durch den Hausarzt.",
+                "en": "The __________ is done by the family doctor.",
+                "bn": "__________ পারিবারিক ডাক্তার দ্বারা করা হয়।",
+                "hi": "__________ पारिवारिक चिकित्सक द्वारा किया जाता है।",
+                "ur": "__________ خاندانی ڈاکٹر کے ذریعہ کیا جاتا ہے۔",
+                "tr": "__________ aile hekimi tarafından yapılır."
+            },
+            "options": [],
+            "correctAnswer": "Einweisung",
+            "explanation": {
+                "en": "The 'Einweisung' (hospital referral) is done by the family doctor.",
+                "bn": "'Einweisung' (হাসপাতাল রেফারেল) পারিবারিক ডাক্তার দ্বারা করা হয়।",
+                "hi": "'Einweisung' (अस्पताल रेफरल) पारिवारिक डॉक्टर द्वारा किया जाता है।",
+                "ur": "'Einweisung' (ہسپتال ریفرل) خاندانی ڈاکٹر کے ذریعہ کیا جاتا ہے۔",
+                "tr": "'Einweisung' (hastaneye sevk) aile hekimi tarafından yapılır."
+            },
+            "points": 10,
+            "id": "e09_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Guten Tag, haben Sie eine Überweisung von Ihrem Arzt?",
+                "en": "Good day, do you have a referral from your doctor?",
+                "bn": "শুভ দিন, আপনার ডাক্তারের কাছ থেকে কি কোনো রেফারেল আছে?",
+                "hi": "नमस्ते, क्या आपके पास अपने डॉक्टर से कोई रेफरल है?",
+                "ur": "السلام علیکم، کیا آپ کے پاس اپنے ڈاکٹر کی طرف سے کوئی ریفرل ہے؟",
+                "tr": "İyi günler, doktorunuzdan bir sevk belgesi var mı?"
+            },
+            "options": [],
+            "correctAnswer": "Good day, do you have a referral from your doctor?",
+            "explanation": {
+                "en": "Direct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সরাসরি অনুবাদ।",
+                "hi": "जर्मन वाक्य का सीधा अनुवाद।",
+                "ur": "جرمن جملے کا براہ راست ترجمہ۔",
+                "tr": "Alman cümlenin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e09_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Bitte füllen Sie dieses Formular mit Ihren Personalien aus.",
+                "en": "Please fill out this form with your personal details.",
+                "bn": "অনুগ্রহ করে আপনার ব্যক্তিগত বিবরণ দিয়ে এই ফর্মটি পূরণ করুন।",
+                "hi": "कृपया इस फॉर्म को अपनी व्यक्तिगत जानकारी से भरें।",
+                "ur": "براہ کرم اس فارم کو اپنی ذاتی معلومات سے پُر کریں۔",
+                "tr": "Lütfen bu formu kişisel bilgilerinizle doldurun."
+            },
+            "options": [],
+            "correctAnswer": "Please fill out this form with your personal details.",
+            "explanation": {
+                "en": "Direct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সরাসরি অনুবাদ।",
+                "hi": "जर्मन वाक्य का सीधा अनुवाद।",
+                "ur": "جرمن جملے کا براہ راست ترجمہ۔",
+                "tr": "Alman cümlenin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e09_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Sind Sie gesetzlich oder privat versichert?",
+                "en": "Are you publicly or privately insured?",
+                "bn": "আপনি কি সরকারি বা বেসরকারিভাবে বীমাভুক্ত?",
+                "hi": "क्या आप सार्वजनिक या निजी तौर पर बीमाकृत हैं?",
+                "ur": "کیا آپ عوامی یا نجی طور پر بیمہ شدہ ہیں؟",
+                "tr": "Devlet veya özel sigortanız var mı?"
+            },
+            "options": [],
+            "correctAnswer": "Are you publicly or privately insured?",
+            "explanation": {
+                "en": "Direct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সরাসরি অনুবাদ।",
+                "hi": "जर्मन वाक्य का सीधा अनुवाद।",
+                "ur": "جرمن جملے کا براہ راست ترجمہ۔",
+                "tr": "Alman cümlenin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e09_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

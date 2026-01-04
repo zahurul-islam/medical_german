@@ -1,11 +1,1614 @@
-{"id":"section_13","phaseId":"phase2","order":13,"titleDe":"Anamnese 1","title":{"en":"Patient History 1","bn":"রোগীর ইতিহাস 1","hi":"रोगी इतिहास 1","ur":"مریض کی تاریخ 1","tr":"Hasta Öyküsü 1"},"level":"B1","estimatedMinutes":35,"vocabulary":[
-{"id":"v13_01","germanTerm":"Anamnese","article":"die","plural":"Anamnesen","translation":{"en":"Medical History","bn":"চিকিৎসা ইতিহাস","hi":"चिकित्सा इतिहास","ur":"طبی تاریخ","tr":"Tıbbi öykü"}},
-{"id":"v13_02","germanTerm":"Hauptbeschwerde","article":"die","plural":"Hauptbeschwerden","translation":{"en":"Chief Complaint","bn":"প্রধান অভিযোগ","hi":"मुख्य शिकायत","ur":"اہم شکایت","tr":"Ana şikayet"}},
-{"id":"v13_03","germanTerm":"Vorerkrankungen","article":"die","plural":"-","translation":{"en":"Pre-existing Conditions","bn":"পূর্ববর্তী রোগ","hi":"पूर्व बीमारियां","ur":"پہلے کی بیماریاں","tr":"Mevcut hastalıklar"}},
-{"id":"v13_04","germanTerm":"Familienanamnese","article":"die","plural":"-","translation":{"en":"Family History","bn":"পারিবারিক ইতিহাস","hi":"पारिवारिक इतिहास","ur":"خاندانی تاریخ","tr":"Aile öyküsü"}},
-{"id":"v13_05","germanTerm":"Allergie","article":"die","plural":"Allergien","translation":{"en":"Allergy","bn":"এলার্জি","hi":"एलर्जी","ur":"الرجی","tr":"Alerji"}},
-{"id":"v13_06","germanTerm":"Operation","article":"die","plural":"Operationen","translation":{"en":"Surgery","bn":"অপারেশন","hi":"ऑपरेशन","ur":"آپریشن","tr":"Ameliyat"}}
-],"dialogues":[{"id":"d13_01","title":{"en":"Taking History"},"lines":[
-{"speaker":"Arzt","germanText":"Was führt Sie zu uns?","translation":{"en":"What brings you to us?"}},
-{"speaker":"Patient","germanText":"Ich habe seit einer Woche starke Bauchschmerzen.","translation":{"en":"I've had severe abdominal pain for a week."}}
-]}],"exercises":[{"id":"e13_01","type":"multipleChoice","question":{"en":"What is 'Anamnese'?"},"options":["Medical History","Diagnosis","Treatment"],"correctAnswer":"Medical History","points":10}]}
+{
+    "id": "section_13",
+    "phaseId": "phase2",
+    "order": 13,
+    "titleDe": "Anamnese I",
+    "title": {
+        "en": "Anamnesis I - Chief Complaint: Presenting Symptoms, Onset, Progression, Pain Characteristics",
+        "bn": "অ্যানামনেসিস I - প্রধান অভিযোগ: উপস্থাপিত লক্ষণ, শুরু, অগ্রগতি, ব্যথার বৈশিষ্ট্য",
+        "hi": "एनाम्नेसिस I - मुख्य शिकायत: प्रस्तुत लक्षण, शुरुआत, प्रगति, दर्द की विशेषताएं",
+        "ur": "اینامنیسس I - اہم شکایت: پیش علامات، آغاز، پیش رفت، درد کی خصوصیات",
+        "tr": "Anamnez I - Ana Şikayet: Mevcut Semptomlar, Başlangıç, İlerleme, Ağrı Karakteristikleri",
+        "de": "Anamnese I - Hauptbeschwerde: Aktuelle Beschwerden, Beginn, Verlauf, Schmerzcharakter"
+    },
+    "description": {
+        "en": "This section covers the initial part of the medical history taking process, focusing on eliciting the patient's chief complaint and its characteristics.",
+        "bn": "এই বিভাগে রোগীর প্রধান অভিযোগ এবং তার বৈশিষ্ট্যগুলি বের করার উপর দৃষ্টি নিবদ্ধ করে চিকিৎসা ইতিহাসের প্রাথমিক অংশ অন্তর্ভুক্ত রয়েছে।",
+        "hi": "इस खंड में चिकित्सा इतिहास लेने की प्रक्रिया का प्रारंभिक भाग शामिल है, जो रोगी की मुख्य शिकायत और उसकी विशेषताओं को निकालने पर केंद्रित है।",
+        "ur": "اس حصے میں طبی تاریخ لینے کے عمل کا ابتدائی حصہ شامل ہے، جو مریض کی اہم شکایت اور اس کی خصوصیات کو حاصل کرنے پر مرکوز ہے۔",
+        "tr": "Bu bölüm, hastanın ana şikayetini ve özelliklerini ortaya çıkarmaya odaklanarak tıbbi öykü alma sürecinin ilk bölümünü kapsar.",
+        "de": "Dieser Abschnitt behandelt den ersten Teil der medizinischen Anamneseerhebung und konzentriert sich auf die Erhebung der Hauptbeschwerde des Patienten und deren Eigenschaften."
+    },
+    "level": "B1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, we will explore the essential elements of taking a patient's medical history, specifically focusing on the chief complaint. You will learn how to effectively ask questions to gather information about the patient's presenting symptoms, their onset, progression, and the characteristics of their pain.",
+            "bn": "এই বিভাগে, আমরা রোগীর চিকিৎসা ইতিহাস নেওয়ার অপরিহার্য উপাদানগুলি অন্বেষণ করব, বিশেষত প্রধান অভিযোগের উপর দৃষ্টি নিবদ্ধ করে। আপনি রোগীর উপস্থাপিত লক্ষণ, তাদের শুরু, অগ্রগতি এবং তাদের ব্যথার বৈশিষ্ট্য সম্পর্কে তথ্য সংগ্রহের জন্য কার্যকরভাবে প্রশ্ন জিজ্ঞাসা করতে শিখবেন।",
+            "hi": "इस खंड में, हम रोगी का चिकित्सा इतिहास लेने के आवश्यक तत्वों का पता लगाएंगे, विशेष रूप से मुख्य शिकायत पर ध्यान केंद्रित करते हुए। आप रोगी के प्रस्तुत लक्षणों, उनकी शुरुआत, प्रगति और उनके दर्द की विशेषताओं के बारे में जानकारी इकट्ठा करने के लिए प्रभावी ढंग से प्रश्न पूछना सीखेंगे।",
+            "ur": "اس حصے میں، ہم مریض کی طبی تاریخ لینے کے لازمی عناصر کو تلاش کریں گے، خاص طور پر اہم شکایت پر توجہ مرکوز کرتے ہوئے۔ آپ مریض کی پیش علامات، ان کے آغاز، پیش رفت اور ان کے درد کی خصوصیات کے بارے میں معلومات جمع کرنے کے لیے مؤثر طریقے سے سوالات پوچھنا سیکھیں گے۔",
+            "tr": "Bu bölümde, özellikle ana şikayete odaklanarak, bir hastanın tıbbi öyküsünü almanın temel unsurlarını inceleyeceğiz. Hastanın mevcut semptomları, başlangıcı, ilerlemesi ve ağrısının özellikleri hakkında bilgi toplamak için nasıl etkili sorular soracağınızı öğreneceksiniz.",
+            "de": "In diesem Abschnitt werden wir die wesentlichen Elemente der Erhebung der medizinischen Anamnese eines Patienten untersuchen, wobei wir uns insbesondere auf die Hauptbeschwerde konzentrieren werden. Sie werden lernen, wie Sie effektiv Fragen stellen, um Informationen über die aktuellen Symptome des Patienten, deren Beginn, Verlauf und die Eigenschaften seiner Schmerzen zu sammeln."
+        },
+        "grammarFocus": {
+            "en": {
+                "point1": "Practice forming questions using 'W-Fragen' (Wo, Wann, Wie, Was, Warum) to elicit detailed information.",
+                "point2": "Focus on using the correct German cases (Nominativ, Akkusativ, Dativ) when describing symptoms and body parts."
+            },
+            "bn": {
+                "point1": "বিস্তারিত তথ্য বের করার জন্য 'W-Fragen' (Wo, Wann, Wie, Was, Warum) ব্যবহার করে প্রশ্ন তৈরি করার অনুশীলন করুন।",
+                "point2": "লক্ষণ এবং শরীরের অংশগুলি বর্ণনা করার সময় সঠিক জার্মান কেস (Nominativ, Akkusativ, Dativ) ব্যবহারের উপর মনোযোগ দিন।"
+            },
+            "hi": {
+                "point1": "विस्तृत जानकारी प्राप्त करने के लिए 'W-Fragen' (Wo, Wann, Wie, Was, Warum) का उपयोग करके प्रश्न बनाने का अभ्यास करें।",
+                "point2": "लक्षणों और शरीर के अंगों का वर्णन करते समय सही जर्मन केस (Nominativ, Akkusativ, Dativ) का उपयोग करने पर ध्यान दें।"
+            },
+            "ur": {
+                "point1": "تفصیلی معلومات حاصل کرنے کے لیے 'W-Fragen' (Wo, Wann, Wie, Was, Warum) استعمال کرتے ہوئے سوالات بنانے کی مشق کریں۔",
+                "point2": "علامات اور جسم کے حصوں کو بیان کرتے وقت صحیح جرمن کیس (Nominativ, Akkusativ, Dativ) استعمال کرنے پر توجہ دیں۔"
+            },
+            "tr": {
+                "point1": "Ayrıntılı bilgi almak için 'W-Fragen' (Wo, Wann, Wie, Was, Warum) kullanarak soru oluşturma alıştırması yapın.",
+                "point2": "Semptomları ve vücut parçalarını tarif ederken doğru Almanca durumları (Nominativ, Akkusativ, Dativ) kullanmaya odaklanın."
+            },
+            "de": {
+                "point1": "Üben Sie das Bilden von Fragen mit 'W-Fragen' (Wo, Wann, Wie, Was, Warum), um detaillierte Informationen zu erhalten.",
+                "point2": "Konzentrieren Sie sich auf die Verwendung der korrekten deutschen Fälle (Nominativ, Akkusativ, Dativ) bei der Beschreibung von Symptomen und Körperteilen."
+            }
+        },
+        "culturalNotes": {
+            "en": "In German hospitals, direct and precise questioning is common; patients are expected to provide detailed answers without exaggeration.",
+            "bn": "জার্মান হাসপাতালগুলিতে, প্রত্যক্ষ এবং সুনির্দিষ্ট জিজ্ঞাসাবাদ সাধারণ; রোগীদের কাছ থেকে প্রত্যাশা করা হয় যে তারা অতিরঞ্জিত না করে বিস্তারিত উত্তর দেবে।",
+            "hi": "जर्मन अस्पतालों में, प्रत्यक्ष और सटीक पूछताछ आम है; रोगियों से अपेक्षा की जाती है कि वे बिना अतिशयोक्ति के विस्तृत उत्तर दें।",
+            "ur": "جرمن ہسپتالوں میں، براہ راست اور درست پوچھ گچھ عام ہے۔ مریضوں سے توقع کی جاتی ہے کہ وہ مبالغہ آرائی کے بغیر تفصیلی جوابات دیں۔",
+            "tr": "Alman hastanelerinde, doğrudan ve kesin sorgulama yaygındır; hastalardan abartmadan ayrıntılı cevaplar vermeleri beklenir.",
+            "de": "In deutschen Krankenhäusern ist eine direkte und präzise Befragung üblich; von den Patienten wird erwartet, dass sie detaillierte Antworten ohne Übertreibung geben."
+        },
+        "summary": {
+            "en": "Effectively eliciting the chief complaint, including onset, progression, and pain characteristics, is crucial for accurate diagnosis and treatment planning.",
+            "bn": "শুরু, অগ্রগতি এবং ব্যথার বৈশিষ্ট্য সহ প্রধান অভিযোগ কার্যকরভাবে বের করা সঠিক রোগ নির্ণয় এবং চিকিত্সা পরিকল্পনার জন্য অত্যন্ত গুরুত্বপূর্ণ।",
+            "hi": "शुरुआत, प्रगति और दर्द की विशेषताओं सहित मुख्य शिकायत को प्रभावी ढंग से प्राप्त करना सटीक निदान और उपचार योजना के लिए अत्यंत महत्वपूर्ण है।",
+            "ur": "آغاز، پیش رفت اور درد کی خصوصیات سمیت اہم شکایت کو مؤثر طریقے سے حاصل کرنا درست تشخیص اور علاج کی منصوبہ بندی کے لیے انتہائی اہم ہے۔",
+            "tr": "Başlangıç, ilerleme ve ağrı özellikleri dahil olmak üzere ana şikayeti etkili bir şekilde ortaya çıkarmak, doğru teşhis ve tedavi planlaması için çok önemlidir.",
+            "de": "Die effektive Erhebung der Hauptbeschwerde, einschließlich Beginn, Verlauf und Schmerzcharakteristik, ist entscheidend für eine genaue Diagnose und Behandlungsplanung."
+        },
+        "learningObjectives": [
+            "Learn how to ask open-ended questions to elicit the chief complaint.",
+            "Understand the importance of clarifying the onset, duration, and progression of symptoms.",
+            "Be able to describe the characteristics of pain (location, intensity, quality) in German.",
+            "Practice active listening techniques to accurately document the patient's history."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "die Hauptbeschwerde",
+            "article": "die",
+            "plural": "die Hauptbeschwerden",
+            "pronunciation": "/ˈhaʊ̯ptbəˌʃveːrdə/",
+            "category": "noun",
+            "translation": {
+                "en": "chief complaint",
+                "bn": "প্রধান অভিযোগ (prodhan ovijog)",
+                "hi": "मुख्य शिकायत (mukhya shikayat)",
+                "ur": "بڑی شکایت (badi shikayat)",
+                "tr": "baş şikayet"
+            },
+            "exampleSentence": "Was ist Ihre Hauptbeschwerde, Herr Müller?",
+            "exampleTranslation": {
+                "en": "What is your chief complaint, Mr. Müller?",
+                "bn": "আপনার প্রধান অভিযোগ কি, মিঃ মুলার?",
+                "hi": "आपकी मुख्य शिकायत क्या है, श्री मुलर?",
+                "ur": "آپ کی بڑی شکایت کیا ہے، مسٹر مولر؟",
+                "tr": "Baş şikayetiniz nedir, Bay Müller?"
+            },
+            "id": "v13_01"
+        },
+        {
+            "germanTerm": "die aktuellen Beschwerden",
+            "article": "die",
+            "plural": "die aktuellen Beschwerden",
+            "pronunciation": "/diː akˈtuɛlən bəˈʃveːrdən/",
+            "category": "noun",
+            "translation": {
+                "en": "current complaints",
+                "bn": "বর্তমান অভিযোগ (bortoman ovijog)",
+                "hi": "वर्तमान शिकायतें (vartaman shikayatein)",
+                "ur": "موجودہ شکایات (maujooda shikayaat)",
+                "tr": "mevcut şikayetler"
+            },
+            "exampleSentence": "Bitte beschreiben Sie Ihre aktuellen Beschwerden.",
+            "exampleTranslation": {
+                "en": "Please describe your current complaints.",
+                "bn": "অনুগ্রহ করে আপনার বর্তমান অভিযোগ বর্ণনা করুন।",
+                "hi": "कृपया अपनी वर्तमान शिकायतों का वर्णन करें।",
+                "ur": "براہ کرم اپنی موجودہ شکایات بیان کریں۔",
+                "tr": "Lütfen mevcut şikayetlerinizi açıklayın."
+            },
+            "id": "v13_02"
+        },
+        {
+            "germanTerm": "der Beginn",
+            "article": "der",
+            "plural": "die Beginne/Beginns",
+            "pronunciation": "/bəˈɡɪn/",
+            "category": "noun",
+            "translation": {
+                "en": "onset",
+                "bn": "শুরু (shuru)",
+                "hi": "शुरुआत (shuruat)",
+                "ur": "آغاز (aaghaz)",
+                "tr": "başlangıç"
+            },
+            "exampleSentence": "Wann war der Beginn Ihrer Schmerzen?",
+            "exampleTranslation": {
+                "en": "When was the onset of your pain?",
+                "bn": "আপনার ব্যথার শুরু কখন ছিল?",
+                "hi": "आपके दर्द की शुरुआत कब हुई?",
+                "ur": "آپ کے درد کا آغاز کب ہوا؟",
+                "tr": "Ağrınız ne zaman başladı?"
+            },
+            "id": "v13_03"
+        },
+        {
+            "germanTerm": "der Verlauf",
+            "article": "der",
+            "plural": "die Verläufe",
+            "pronunciation": "/fɛɐ̯ˈlaʊ̯f/",
+            "category": "noun",
+            "translation": {
+                "en": "course",
+                "bn": "গতিপথ (gotipoth)",
+                "hi": "प्रक्रिया (prakriya)",
+                "ur": "طریقہ (tareeqa)",
+                "tr": "seyir"
+            },
+            "exampleSentence": "Wie war der Verlauf der Krankheit?",
+            "exampleTranslation": {
+                "en": "What was the course of the illness?",
+                "bn": "রোগের গতিপথ কেমন ছিল?",
+                "hi": "बीमारी की प्रक्रिया क्या थी?",
+                "ur": "بیماری کا طریقہ کیا تھا؟",
+                "tr": "Hastalığın seyri nasıldı?"
+            },
+            "id": "v13_04"
+        },
+        {
+            "germanTerm": "der Schmerzcharakter",
+            "article": "der",
+            "plural": "die Schmerzcharaktere",
+            "pronunciation": "/ˈʃmɛʁt͡sˌkaʁaktɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "pain character",
+                "bn": "ব্যথার চরিত্র (byathar choritro)",
+                "hi": "दर्द की प्रकृति (dard ki prakriti)",
+                "ur": "درد کی نوعیت (dard ki nauiyat)",
+                "tr": "ağrı karakteri"
+            },
+            "exampleSentence": "Können Sie den Schmerzcharakter genauer beschreiben?",
+            "exampleTranslation": {
+                "en": "Can you describe the pain character in more detail?",
+                "bn": "আপনি কি ব্যথার চরিত্র আরও বিস্তারিতভাবে বর্ণনা করতে পারেন?",
+                "hi": "क्या आप दर्द की प्रकृति को अधिक विस्तार से बता सकते हैं?",
+                "ur": "کیا آپ درد کی نوعیت کو مزید تفصیل سے بیان کر سکتے ہیں؟",
+                "tr": "Ağrının karakterini daha detaylı tarif edebilir misiniz?"
+            },
+            "id": "v13_05"
+        },
+        {
+            "germanTerm": "der Schmerz",
+            "article": "der",
+            "plural": "die Schmerzen",
+            "pronunciation": "/ʃmɛʁt͡s/",
+            "category": "noun",
+            "translation": {
+                "en": "pain",
+                "bn": "ব্যথা (byatha)",
+                "hi": "दर्द (dard)",
+                "ur": "درد (dard)",
+                "tr": "ağrı"
+            },
+            "exampleSentence": "Wo genau haben Sie den Schmerz?",
+            "exampleTranslation": {
+                "en": "Where exactly do you have the pain?",
+                "bn": "আপনার ঠিক কোথায় ব্যথা?",
+                "hi": "आपको ठीक कहां दर्द है?",
+                "ur": "آپ کو ٹھیک کہاں درد ہے؟",
+                "tr": "Tam olarak nerede ağrınız var?"
+            },
+            "id": "v13_06"
+        },
+        {
+            "germanTerm": "die Übelkeit",
+            "article": "die",
+            "plural": "no plural",
+            "pronunciation": "/ˈyːbl̩kaɪ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "nausea",
+                "bn": "বমি বমি ভাব (bomi bomi bhab)",
+                "hi": "मतली (matali)",
+                "ur": "متلی (matli)",
+                "tr": "bulantı"
+            },
+            "exampleSentence": "Leiden Sie unter Übelkeit?",
+            "exampleTranslation": {
+                "en": "Are you suffering from nausea?",
+                "bn": "আপনি কি বমি বমি ভাবে ভুগছেন?",
+                "hi": "क्या आप मतली से पीड़ित हैं?",
+                "ur": "کیا آپ متلی سے دوچار ہیں؟",
+                "tr": "Bulantınız var mı?"
+            },
+            "id": "v13_07"
+        },
+        {
+            "germanTerm": "das Erbrechen",
+            "article": "das",
+            "plural": "no plural",
+            "pronunciation": "/ɛɐ̯ˈbʁɛçən/",
+            "category": "noun",
+            "translation": {
+                "en": "vomiting",
+                "bn": "বমি (bomi)",
+                "hi": "उल्टी (ulti)",
+                "ur": "قے (qay)",
+                "tr": "kusma"
+            },
+            "exampleSentence": "Hatten Sie Erbrechen?",
+            "exampleTranslation": {
+                "en": "Have you had vomiting?",
+                "bn": "আপনার কি বমি হয়েছে?",
+                "hi": "क्या आपको उल्टी हुई है?",
+                "ur": "کیا آپ کو قے ہوئی ہے؟",
+                "tr": "Kustunuz mu?"
+            },
+            "id": "v13_08"
+        },
+        {
+            "germanTerm": "der Husten",
+            "article": "der",
+            "plural": "die Husten",
+            "pronunciation": "/ˈhuːstən/",
+            "category": "noun",
+            "translation": {
+                "en": "cough",
+                "bn": "কাশি (kashi)",
+                "hi": "खांसी (khansi)",
+                "ur": "کھانسی (khansi)",
+                "tr": "öksürük"
+            },
+            "exampleSentence": "Ist der Husten trocken oder produktiv?",
+            "exampleTranslation": {
+                "en": "Is the cough dry or productive?",
+                "bn": "কাশি কি শুকনো নাকি উৎপাদনশীল?",
+                "hi": "क्या खांसी सूखी है या उत्पादक?",
+                "ur": "کیا کھانسی خشک ہے یا پیداواری؟",
+                "tr": "Öksürüğünüz kuru mu yoksa balgamlı mı?"
+            },
+            "id": "v13_09"
+        },
+        {
+            "germanTerm": "die Atemnot",
+            "article": "die",
+            "plural": "no plural",
+            "pronunciation": "/ˈaːtəmˌnoːt/",
+            "category": "noun",
+            "translation": {
+                "en": "shortness of breath",
+                "bn": "শ্বাসকষ্ট (shashkosto)",
+                "hi": "सांस की तकलीफ (saans ki taklif)",
+                "ur": "سانس کی قلت (saans ki qillat)",
+                "tr": "nefes darlığı"
+            },
+            "exampleSentence": "Haben Sie Atemnot?",
+            "exampleTranslation": {
+                "en": "Do you have shortness of breath?",
+                "bn": "আপনার কি শ্বাসকষ্ট আছে?",
+                "hi": "क्या आपको सांस की तकलीफ है?",
+                "ur": "کیا آپ کو سانس کی قلت ہے؟",
+                "tr": "Nefes darlığınız var mı?"
+            },
+            "id": "v13_10"
+        },
+        {
+            "germanTerm": "die Müdigkeit",
+            "article": "die",
+            "plural": "no plural",
+            "pronunciation": "/ˈmyːdiçkaɪ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "fatigue",
+                "bn": "ক্লান্তি (klanti)",
+                "hi": "थकान (thakan)",
+                "ur": "تھکاوٹ (thakawat)",
+                "tr": "yorgunluk"
+            },
+            "exampleSentence": "Fühlen Sie sich müde?",
+            "exampleTranslation": {
+                "en": "Do you feel fatigued?",
+                "bn": "আপনি কি ক্লান্ত বোধ করছেন?",
+                "hi": "क्या आप थका हुआ महसूस करते हैं?",
+                "ur": "کیا آپ تھکا ہوا محسوس کرتے ہیں؟",
+                "tr": "Yorgun hissediyor musunuz?"
+            },
+            "id": "v13_11"
+        },
+        {
+            "germanTerm": "der Schwindel",
+            "article": "der",
+            "plural": "no plural",
+            "pronunciation": "/ˈʃvɪndəl/",
+            "category": "noun",
+            "translation": {
+                "en": "dizziness",
+                "bn": "মাথা ঘোরা (matha ghora)",
+                "hi": "चक्कर (chakkar)",
+                "ur": "چکر (chakkar)",
+                "tr": "baş dönmesi"
+            },
+            "exampleSentence": "Leiden Sie unter Schwindel?",
+            "exampleTranslation": {
+                "en": "Are you suffering from dizziness?",
+                "bn": "আপনি কি মাথা ঘোরায় ভুগছেন?",
+                "hi": "क्या आप चक्कर से पीड़ित हैं?",
+                "ur": "کیا آپ چکر سے دوچار ہیں؟",
+                "tr": "Başınız dönüyor mu?"
+            },
+            "id": "v13_12"
+        },
+        {
+            "germanTerm": "das Fieber",
+            "article": "das",
+            "plural": "no plural",
+            "pronunciation": "/ˈfiːbɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "fever",
+                "bn": "জ্বর (jwor)",
+                "hi": "बुखार (bukhar)",
+                "ur": "بخار (bukhar)",
+                "tr": "ateş"
+            },
+            "exampleSentence": "Haben Sie Fieber gemessen?",
+            "exampleTranslation": {
+                "en": "Have you measured your fever?",
+                "bn": "আপনি কি জ্বর মেপেছেন?",
+                "hi": "क्या आपने बुखार मापा है?",
+                "ur": "کیا آپ نے بخار ماپا ہے؟",
+                "tr": "Ateşinizi ölçtünüz mü?"
+            },
+            "id": "v13_13"
+        },
+        {
+            "germanTerm": "plötzlich",
+            "article": "N/A",
+            "plural": "N/A",
+            "pronunciation": "/ˈp͡lœt͡slɪç/",
+            "category": "adjective",
+            "translation": {
+                "en": "suddenly",
+                "bn": "হঠাৎ (hothat)",
+                "hi": "अचानक (achanak)",
+                "ur": "اچانک (achanak)",
+                "tr": "aniden"
+            },
+            "exampleSentence": "Der Schmerz kam plötzlich.",
+            "exampleTranslation": {
+                "en": "The pain came suddenly.",
+                "bn": "ব্যথা হঠাৎ করে এসেছিল।",
+                "hi": "दर्द अचानक आया।",
+                "ur": "درد اچانک آیا۔",
+                "tr": "Ağrı aniden geldi."
+            },
+            "id": "v13_14"
+        },
+        {
+            "germanTerm": "allmählich",
+            "article": "N/A",
+            "plural": "N/A",
+            "pronunciation": "/alˈmɛːlɪç/",
+            "category": "adjective",
+            "translation": {
+                "en": "gradually",
+                "bn": "ধীরে ধীরে (dhire dhire)",
+                "hi": "धीरे-धीरे (dhire-dhire)",
+                "ur": "آہستہ آہستہ (ahista ahista)",
+                "tr": "yavaş yavaş"
+            },
+            "exampleSentence": "Der Schmerz wurde allmählich stärker.",
+            "exampleTranslation": {
+                "en": "The pain gradually became stronger.",
+                "bn": "ব্যথা ধীরে ধীরে আরও শক্তিশালী হয়ে ওঠে।",
+                "hi": "दर्द धीरे-धीरे तेज होता गया।",
+                "ur": "درد آہستہ آہستہ تیز ہوتا گیا۔",
+                "tr": "Ağrı yavaş yavaş şiddetlendi."
+            },
+            "id": "v13_15"
+        },
+        {
+            "germanTerm": "stechend",
+            "article": "N/A",
+            "plural": "N/A",
+            "pronunciation": "/ˈʃtɛçənt/",
+            "category": "adjective",
+            "translation": {
+                "en": "stabbing",
+                "bn": "ছুরিকাঘাত (churikaghat)",
+                "hi": "चुभने वाला (chubhane vala)",
+                "ur": "چبھنے والا (chubhnay wala)",
+                "tr": "saplanan"
+            },
+            "exampleSentence": "Der Schmerz ist stechend.",
+            "exampleTranslation": {
+                "en": "The pain is stabbing.",
+                "bn": "ব্যথা ছুরিকাঘাতের মতো।",
+                "hi": "दर्द चुभने वाला है।",
+                "ur": "درد چبھنے والا ہے۔",
+                "tr": "Ağrı saplanıyor."
+            },
+            "id": "v13_16"
+        },
+        {
+            "germanTerm": "dumpf",
+            "article": "N/A",
+            "plural": "N/A",
+            "pronunciation": "/dʊmpf/",
+            "category": "adjective",
+            "translation": {
+                "en": "dull",
+                "bn": "মৃদু (mridu)",
+                "hi": "मंद (mand)",
+                "ur": "مدھم (madham)",
+                "tr": "künt"
+            },
+            "exampleSentence": "Es ist ein dumpfer Schmerz.",
+            "exampleTranslation": {
+                "en": "It is a dull pain.",
+                "bn": "এটি একটি মৃদু ব্যথা।",
+                "hi": "यह एक मंद दर्द है।",
+                "ur": "یہ ایک مدھم درد ہے۔",
+                "tr": "Bu künt bir ağrı."
+            },
+            "id": "v13_17"
+        },
+        {
+            "germanTerm": "brennend",
+            "article": "N/A",
+            "plural": "N/A",
+            "pronunciation": "/ˈbʁɛnənt/",
+            "category": "adjective",
+            "translation": {
+                "en": "burning",
+                "bn": "জ্বলন্ত (jwolonto)",
+                "hi": "जलन (jalan)",
+                "ur": "جلن (jalan)",
+                "tr": "yanan"
+            },
+            "exampleSentence": "Ich habe einen brennenden Schmerz.",
+            "exampleTranslation": {
+                "en": "I have a burning pain.",
+                "bn": "আমার একটি জ্বলন্ত ব্যথা আছে।",
+                "hi": "मुझे जलन वाला दर्द है।",
+                "ur": "مجھے جلن والا درد ہے۔",
+                "tr": "Yanan bir ağrım var."
+            },
+            "id": "v13_18"
+        },
+        {
+            "germanTerm": "anhaltend",
+            "article": "N/A",
+            "plural": "N/A",
+            "pronunciation": "/ˈanˌhaltənt/",
+            "category": "adjective",
+            "translation": {
+                "en": "persistent",
+                "bn": "অবিরাম (obiram)",
+                "hi": "लगातार (lagatar)",
+                "ur": "مسلسل (musalsal)",
+                "tr": "devamlı"
+            },
+            "exampleSentence": "Der Schmerz ist anhaltend.",
+            "exampleTranslation": {
+                "en": "The pain is persistent.",
+                "bn": "ব্যথা অবিরাম।",
+                "hi": "दर्द लगातार है।",
+                "ur": "درد مسلسل ہے۔",
+                "tr": "Ağrı devamlı."
+            },
+            "id": "v13_19"
+        },
+        {
+            "germanTerm": "akut",
+            "article": "N/A",
+            "plural": "N/A",
+            "pronunciation": "/aˈkuːt/",
+            "category": "adjective",
+            "translation": {
+                "en": "acute",
+                "bn": "তীব্র (tibro)",
+                "hi": "तीव्र (tivr)",
+                "ur": "شدید (shadeed)",
+                "tr": "akut"
+            },
+            "exampleSentence": "Es handelt sich um eine akute Erkrankung.",
+            "exampleTranslation": {
+                "en": "It is an acute illness.",
+                "bn": "এটি একটি তীব্র অসুস্থতা।",
+                "hi": "यह एक तीव्र बीमारी है।",
+                "ur": "یہ ایک شدید بیماری ہے۔",
+                "tr": "Bu akut bir hastalık."
+            },
+            "id": "v13_20"
+        },
+        {
+            "germanTerm": "chronisch",
+            "article": "N/A",
+            "plural": "N/A",
+            "pronunciation": "/ˈkʁoːnɪʃ/",
+            "category": "adjective",
+            "translation": {
+                "en": "chronic",
+                "bn": "দীর্ঘস্থায়ী (dirghosthayi)",
+                "hi": "दीर्घकालिक (dirghakalik)",
+                "ur": "دیرپا (deerpa)",
+                "tr": "kronik"
+            },
+            "exampleSentence": "Sie leiden unter chronischen Schmerzen.",
+            "exampleTranslation": {
+                "en": "You are suffering from chronic pain.",
+                "bn": "আপনি দীর্ঘস্থায়ী ব্যথায় ভুগছেন।",
+                "hi": "आप पुराने दर्द से पीड़ित हैं।",
+                "ur": "آپ دائمی درد کا شکار ہیں۔",
+                "tr": "Kronik ağrılarınız var."
+            },
+            "id": "v13_21"
+        },
+        {
+            "germanTerm": "die Lokalisation",
+            "article": "die",
+            "plural": "die Lokalisationen",
+            "pronunciation": "/lokali̯zaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "location",
+                "bn": "অবস্থান (obosthan)",
+                "hi": "स्थान (sthan)",
+                "ur": "مقام (maqam)",
+                "tr": "lokasyon"
+            },
+            "exampleSentence": "Wo ist die genaue Lokalisation des Schmerzes?",
+            "exampleTranslation": {
+                "en": "Where is the exact location of the pain?",
+                "bn": "ব্যথার সঠিক অবস্থান কোথায়?",
+                "hi": "दर्द का सटीक स्थान कहां है?",
+                "ur": "درد کا صحیح مقام کہاں ہے؟",
+                "tr": "Ağrının tam lokasyonu neresi?"
+            },
+            "id": "v13_22"
+        },
+        {
+            "germanTerm": "ausstrahlen",
+            "article": "N/A",
+            "plural": "N/A",
+            "pronunciation": "/ˈaʊ̯sˌʃtraːlən/",
+            "category": "verb",
+            "translation": {
+                "en": "to radiate",
+                "bn": "বিকিরণ করা (bikirno kora)",
+                "hi": "विकिरण करना (vikiran karna)",
+                "ur": "شعاع ڈالنا (shuaa dalna)",
+                "tr": "yayılmak"
+            },
+            "exampleSentence": "Strahlt der Schmerz aus?",
+            "exampleTranslation": {
+                "en": "Does the pain radiate?",
+                "bn": "ব্যথা কি বিকিরণ করে?",
+                "hi": "क्या दर्द विकिरण करता है?",
+                "ur": "کیا درد شعاع ڈالتا ہے؟",
+                "tr": "Ağrı yayılıyor mu?"
+            },
+            "id": "v13_23"
+        },
+        {
+            "germanTerm": "die Intensität",
+            "article": "die",
+            "plural": "die Intensitäten",
+            "pronunciation": "/ɪntɛnzitäːt/",
+            "category": "noun",
+            "translation": {
+                "en": "intensity",
+                "bn": "তীব্রতা (tibrota)",
+                "hi": "तीव्रता (tivrata)",
+                "ur": "شدت (shiddat)",
+                "tr": "yoğunluk"
+            },
+            "exampleSentence": "Wie würden Sie die Intensität des Schmerzes beschreiben?",
+            "exampleTranslation": {
+                "en": "How would you describe the intensity of the pain?",
+                "bn": "আপনি ব্যথার তীব্রতা কিভাবে বর্ণনা করবেন?",
+                "hi": "आप दर्द की तीव्रता का वर्णन कैसे करेंगे?",
+                "ur": "آپ درد کی شدت کو کیسے بیان کریں گے؟",
+                "tr": "Ağrının yoğunluğunu nasıl tarif edersiniz?"
+            },
+            "id": "v13_24"
+        },
+        {
+            "germanTerm": "die Begleitsymptome",
+            "article": "die",
+            "plural": "die Begleitsymptome",
+            "pronunciation": "/bəˈɡlaɪ̯tˌzʏmptoːmə/",
+            "category": "noun",
+            "translation": {
+                "en": "accompanying symptoms",
+                "bn": "সহগামী উপসর্গ (shohogami uporggo)",
+                "hi": "साथ के लक्षण (sath ke lakshan)",
+                "ur": "ساتھ کی علامات (sath ki alamaat)",
+                "tr": "eşlik eden semptomlar"
+            },
+            "exampleSentence": "Gibt es Begleitsymptome?",
+            "exampleTranslation": {
+                "en": "Are there any accompanying symptoms?",
+                "bn": "কোনো সহগামী উপসর্গ আছে?",
+                "hi": "क्या कोई साथ के लक्षण हैं?",
+                "ur": "کیا کوئی ساتھ کی علامات ہیں؟",
+                "tr": "Eşlik eden semptomlar var mı?"
+            },
+            "id": "v13_25"
+        },
+        {
+            "germanTerm": "verschlimmern",
+            "article": "N/A",
+            "plural": "N/A",
+            "pronunciation": "/fɛɐ̯ˈʃlɪmɐn/",
+            "category": "verb",
+            "translation": {
+                "en": "to worsen",
+                "bn": "খারাপ করা (kharap kora)",
+                "hi": "बदतर होना (badtar hona)",
+                "ur": "خراب کرنا (kharab karna)",
+                "tr": "kötüleşmek"
+            },
+            "exampleSentence": "Was verschlimmert die Schmerzen?",
+            "exampleTranslation": {
+                "en": "What worsens the pain?",
+                "bn": "কি ব্যথা খারাপ করে?",
+                "hi": "दर्द को क्या बढ़ाता है?",
+                "ur": "درد کو کیا بڑھاتا ہے؟",
+                "tr": "Ağrıyı ne kötüleştiriyor?"
+            },
+            "id": "v13_26"
+        },
+        {
+            "germanTerm": "verbessern",
+            "article": "N/A",
+            "plural": "N/A",
+            "pronunciation": "/fɛɐ̯ˈbɛsərn/",
+            "category": "verb",
+            "translation": {
+                "en": "to improve",
+                "bn": "উন্নত করা (unnoto kora)",
+                "hi": "सुधारना (sudharna)",
+                "ur": "بہتر بنانا (behtar banana)",
+                "tr": "iyileşmek"
+            },
+            "exampleSentence": "Was verbessert die Schmerzen?",
+            "exampleTranslation": {
+                "en": "What improves the pain?",
+                "bn": "কি ব্যথা উন্নত করে?",
+                "hi": "दर्द को क्या सुधारता है?",
+                "ur": "درد کو کیا بہتر بناتا ہے؟",
+                "tr": "Ağrıyı ne iyileştiriyor?"
+            },
+            "id": "v13_27"
+        },
+        {
+            "germanTerm": "die Schmerzskala",
+            "article": "die",
+            "plural": "die Schmerzskalen",
+            "pronunciation": "/ˈʃmɛʁt͡sˌskaːla/",
+            "category": "noun",
+            "translation": {
+                "en": "pain scale",
+                "bn": "ব্যথা মাপকাঠি (byatha mapkathi)",
+                "hi": "दर्द पैमाना (dard paimana)",
+                "ur": "درد پیمانہ (dard paimana)",
+                "tr": "ağrı skalası"
+            },
+            "exampleSentence": "Auf der Schmerzskala von 1 bis 10, wo würden Sie Ihre Schmerzen einordnen?",
+            "exampleTranslation": {
+                "en": "On the pain scale from 1 to 10, where would you rate your pain?",
+                "bn": "1 থেকে 10 পর্যন্ত ব্যথার মাপকাঠিতে, আপনি আপনার ব্যথা কোথায় স্থান দেবেন?",
+                "hi": "1 से 10 के दर्द पैमाने पर, आप अपने दर्द को कहाँ रेट करेंगे?",
+                "ur": "1 سے 10 کے درد پیمانے پر، آپ اپنے درد کو کہاں ریٹ کریں گے؟",
+                "tr": "1'den 10'a kadar ağrı skalasında ağrınızı nerede değerlendirirsiniz?"
+            },
+            "id": "v13_28"
+        },
+        {
+            "germanTerm": "seit wann",
+            "article": "N/A",
+            "plural": "N/A",
+            "pronunciation": "/zaɪt van/",
+            "category": "phrase",
+            "translation": {
+                "en": "since when",
+                "bn": "কবে থেকে (kobe theke)",
+                "hi": "कब से (kab se)",
+                "ur": "کب سے (kab se)",
+                "tr": "ne zamandan beri"
+            },
+            "exampleSentence": "Seit wann haben Sie diese Beschwerden?",
+            "exampleTranslation": {
+                "en": "Since when have you had these complaints?",
+                "bn": "কবে থেকে আপনার এই অভিযোগগুলো আছে?",
+                "hi": "आपको ये शिकायतें कब से हैं?",
+                "ur": "آپ کو یہ شکایات کب سے ہیں؟",
+                "tr": "Ne zamandan beri bu şikayetleriniz var?"
+            },
+            "id": "v13_29"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Dialogue 1: Chest Pain",
+                "bn": "সংলাপ ১: বুকের ব্যথা",
+                "hi": "संवाद 1: सीने में दर्द",
+                "ur": "مکالمہ 1: سینے کا درد",
+                "tr": "Diyalog 1: Göğüs Ağrısı"
+            },
+            "context": {
+                "en": "A patient presents to the emergency room complaining of chest pain.",
+                "bn": "একজন রোগী বুকের ব্যথা নিয়ে জরুরি বিভাগে এসেছেন।",
+                "hi": "एक मरीज सीने में दर्द की शिकायत लेकर आपातकालीन कक्ष में आता है।",
+                "ur": "ایک مریض سینے میں درد کی شکایت لے کر ایمرجنسی روم میں آتا ہے۔",
+                "tr": "Bir hasta göğüs ağrısı şikayetiyle acil servise başvuruyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Tag, Herr Müller. Was führt Sie heute ins Krankenhaus?",
+                    "translation": {
+                        "en": "Good day, Mr. Müller. What brings you to the hospital today?",
+                        "bn": "শুভ দিন, মিঃ মুলার। আপনাকে আজ হাসপাতালে কী এনেছে?",
+                        "hi": "शुभ दिन, श्री मुलर। आज आपको अस्पताल क्या लाया?",
+                        "ur": "شب بخیر، مسٹر مولر۔ آج آپ کو ہسپتال کیا لایا؟",
+                        "tr": "İyi günler, Bay Müller. Bugün sizi hastaneye getiren nedir?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe starke Schmerzen in der Brust, Herr Doktor.",
+                    "translation": {
+                        "en": "I have severe chest pain, Doctor.",
+                        "bn": "আমার বুকে খুব ব্যথা হচ্ছে, ডাক্তার।",
+                        "hi": "मुझे सीने में बहुत दर्द है, डॉक्टर।",
+                        "ur": "مجھے سینے میں بہت درد ہے، ڈاکٹر۔",
+                        "tr": "Göğsümde şiddetli bir ağrı var, Doktor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Seit wann haben Sie die Schmerzen und wie würden Sie den Schmerz beschreiben?",
+                    "translation": {
+                        "en": "How long have you had the pain, and how would you describe the pain?",
+                        "bn": "আপনার কতদিন ধরে ব্যথা হচ্ছে এবং আপনি ব্যথাটি কীভাবে বর্ণনা করবেন?",
+                        "hi": "आपको कब से दर्द है और आप दर्द का वर्णन कैसे करेंगे?",
+                        "ur": "آپ کو کب سے درد ہے، اور آپ درد کو کیسے بیان کریں گے؟",
+                        "tr": "Ne zamandır ağrınız var ve ağrıyı nasıl tanımlarsınız?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Es hat vor etwa zwei Stunden angefangen. Es ist ein stechender Schmerz, wie ein Messer.",
+                    "translation": {
+                        "en": "It started about two hours ago. It's a stabbing pain, like a knife.",
+                        "bn": "এটা প্রায় দুই ঘন্টা আগে শুরু হয়েছিল। এটা ছুরির মতো একটা খোঁচা মারার ব্যথা।",
+                        "hi": "यह लगभग दो घंटे पहले शुरू हुआ था। यह एक छुरा घोंपने जैसा दर्द है, जैसे चाकू।",
+                        "ur": "یہ تقریباً دو گھنٹے پہلے شروع ہوا تھا۔ یہ چاقو کی طرح ایک چھرا گھونپنے والا درد ہے۔",
+                        "tr": "Yaklaşık iki saat önce başladı. Bıçak gibi saplanan bir ağrı."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Strahlt der Schmerz irgendwohin aus?",
+                    "translation": {
+                        "en": "Does the pain radiate anywhere?",
+                        "bn": "ব্যথা কি কোথাও ছড়িয়ে পরে?",
+                        "hi": "क्या दर्द कहीं फैलता है?",
+                        "ur": "کیا درد کہیں پھیلتا ہے؟",
+                        "tr": "Ağrı bir yere yayılıyor mu?"
+                    }
+                }
+            ],
+            "id": "d13_01"
+        },
+        {
+            "title": {
+                "en": "Dialogue 2: Abdominal Pain",
+                "bn": "সংলাপ ২: পেটে ব্যথা",
+                "hi": "संवाद 2: पेट दर्द",
+                "ur": "مکالمہ 2: پیٹ میں درد",
+                "tr": "Diyalog 2: Karın Ağrısı"
+            },
+            "context": {
+                "en": "A patient is admitted to the hospital with severe abdominal pain.",
+                "bn": "একজন রোগী মারাত্মক পেটে ব্যথা নিয়ে হাসপাতালে ভর্তি হয়েছেন।",
+                "hi": "एक मरीज गंभीर पेट दर्द के साथ अस्पताल में भर्ती है।",
+                "ur": "ایک مریض شدید پیٹ میں درد کے ساتھ ہسپتال میں داخل ہے۔",
+                "tr": "Bir hasta şiddetli karın ağrısı ile hastaneye yatırılıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Morgen, Frau Lehmann. Wie fühlen Sie sich heute?",
+                    "translation": {
+                        "en": "Good morning, Mrs. Lehmann. How are you feeling today?",
+                        "bn": "শুভ সকাল, মিসেস লেহমান। আজ আপনি কেমন অনুভব করছেন?",
+                        "hi": "शुभ प्रभात, श्रीमती लेहमान। आज आप कैसा महसूस कर रही हैं?",
+                        "ur": "شب بخیر، مسز لیمان۔ آج آپ کیسا محسوس کر رہی ہیں؟",
+                        "tr": "Günaydın, Bayan Lehmann. Bugün nasıl hissediyorsunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Nicht gut, Schwester. Die Schmerzen sind immer noch sehr stark.",
+                    "translation": {
+                        "en": "Not good, Nurse. The pain is still very severe.",
+                        "bn": "ভালো না, নার্স। ব্যথা এখনও খুব তীব্র।",
+                        "hi": "अच्छा नहीं, नर्स। दर्द अभी भी बहुत तेज है।",
+                        "ur": "اچھا نہیں، نرس۔ درد ابھی بھی بہت تیز ہے۔",
+                        "tr": "İyi değilim, Hemşire. Ağrı hala çok şiddetli."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Frau Lehmann, wo genau haben Sie die Schmerzen und seit wann?",
+                    "translation": {
+                        "en": "Mrs. Lehmann, where exactly do you have the pain, and since when?",
+                        "bn": "মিসেস লেহমান, আপনার ঠিক কোথায় ব্যথা এবং কতদিন ধরে?",
+                        "hi": "श्रीमती लेहमान, आपको दर्द ठीक कहाँ है, और कब से?",
+                        "ur": "مسز لیمان، آپ کو درد کہاں ہے، اور کب سے؟",
+                        "tr": "Bayan Lehmann, tam olarak nerede ağrınız var ve ne zamandır?"
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Im Unterbauch, seit gestern Abend. Es ist ein krampfartiger Schmerz.",
+                    "translation": {
+                        "en": "In my lower abdomen, since yesterday evening. It's a crampy pain.",
+                        "bn": "আমার পেটের নীচে, গতকাল সন্ধ্যা থেকে। এটা একটা খিঁচুনি ধরা ব্যথা।",
+                        "hi": "मेरे निचले पेट में, कल शाम से। यह एक ऐंठन वाला दर्द है।",
+                        "ur": "میرے پیٹ کے نچلے حصے میں، کل شام سے۔ یہ ایک دردناک درد ہے۔",
+                        "tr": "Alt karnımda, dün akşamdan beri. Kramp şeklinde bir ağrı."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Haben Sie Fieber oder Übelkeit?",
+                    "translation": {
+                        "en": "Do you have a fever or nausea?",
+                        "bn": "আপনার কি জ্বর বা বমি বমি ভাব আছে?",
+                        "hi": "क्या आपको बुखार या मतली है?",
+                        "ur": "کیا آپ کو بخار یا متلی ہے؟",
+                        "tr": "Ateşiniz veya mide bulantınız var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, mir ist übel und ich habe leichtes Fieber.",
+                    "translation": {
+                        "en": "Yes, I feel nauseous and I have a slight fever.",
+                        "bn": "হ্যাঁ, আমার বমি বমি ভাব হচ্ছে এবং আমার হালকা জ্বর আছে।",
+                        "hi": "हाँ, मुझे मतली महसूस हो रही है और मुझे हल्का बुखार है।",
+                        "ur": "ہاں، مجھے متلی محسوس ہو رہی ہے اور مجھے ہلکا بخار ہے۔",
+                        "tr": "Evet, midem bulanıyor ve hafif ateşliyim."
+                    }
+                }
+            ],
+            "id": "d13_02"
+        },
+        {
+            "title": {
+                "en": "Dialogue 3: Headache",
+                "bn": "সংলাপ ৩: মাথাব্যথা",
+                "hi": "संवाद 3: सरदर्द",
+                "ur": "مکالمہ 3: سر درد",
+                "tr": "Diyalog 3: Baş Ağrısı"
+            },
+            "context": {
+                "en": "A patient visits their family doctor complaining of a persistent headache.",
+                "bn": "একজন রোগী একটানা মাথাব্যথার অভিযোগ নিয়ে তাদের পারিবারিক ডাক্তারের কাছে যান।",
+                "hi": "एक मरीज लगातार सिरदर्द की शिकायत लेकर अपने पारिवारिक चिकित्सक के पास जाता है।",
+                "ur": "ایک مریض مسلسل سر درد کی شکایت لے کر اپنے خاندانی ڈاکٹر کے پاس جاتا ہے۔",
+                "tr": "Bir hasta, geçmeyen baş ağrısı şikayetiyle aile hekimine başvuruyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Fischer",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Morgen, Frau Schmidt. Was kann ich für Sie tun?",
+                    "translation": {
+                        "en": "Good morning, Mrs. Schmidt. What can I do for you?",
+                        "bn": "শুভ সকাল, মিসেস স্মিথ। আমি আপনার জন্য কি করতে পারি?",
+                        "hi": "शुभ प्रभात, श्रीमती श्मिट। मैं आपके लिए क्या कर सकता हूँ?",
+                        "ur": "شب بخیر، مسز شمت۔ میں آپ کے لیے کیا کر سکتا ہوں؟",
+                        "tr": "Günaydın, Bayan Schmidt. Sizin için ne yapabilirim?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe seit ein paar Tagen starke Kopfschmerzen.",
+                    "translation": {
+                        "en": "I've had a severe headache for a few days.",
+                        "bn": "আমার কয়েক দিন ধরে খুব মাথাব্যথা হচ্ছে।",
+                        "hi": "मुझे कुछ दिनों से तेज सिरदर्द हो रहा है।",
+                        "ur": "مجھے کچھ دنوں سے شدید سر درد ہو رہا ہے۔",
+                        "tr": "Birkaç gündür şiddetli baş ağrım var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Fischer",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wo genau schmerzt es und wie würden Sie den Schmerz beschreiben?",
+                    "translation": {
+                        "en": "Where exactly does it hurt, and how would you describe the pain?",
+                        "bn": "কোথায় ঠিক ব্যথা করে এবং আপনি ব্যথাটি কীভাবে বর্ণনা করবেন?",
+                        "hi": "ठीक कहाँ दर्द होता है, और आप दर्द का वर्णन कैसे करेंगे?",
+                        "ur": "ٹھیک کہاں درد ہوتا ہے، اور آپ درد کو کیسے بیان کریں گے؟",
+                        "tr": "Tam olarak nerede ağrıyor ve ağrıyı nasıl tanımlarsınız?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Eher im ganzen Kopf, ein dumpfer, drückender Schmerz. Es ist fast den ganzen Tag da.",
+                    "translation": {
+                        "en": "Rather in the whole head, a dull, pressing pain. It's there almost all day.",
+                        "bn": "বরং পুরো মাথায়, একটি নিস্তেজ, চাপ দেওয়া ব্যথা। এটা প্রায় সারাদিন থাকে।",
+                        "hi": "बल्कि पूरे सिर में, एक सुस्त, दबाने वाला दर्द। यह लगभग पूरे दिन रहता है।",
+                        "ur": "بلکہ پورے سر میں، ایک مدھم، دبانے والا درد۔ یہ تقریباً سارا دن رہتا ہے۔",
+                        "tr": "Daha çok tüm başımda, künt, baskıcı bir ağrı. Neredeyse bütün gün sürüyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Fischer",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Haben Sie noch andere Beschwerden, wie Übelkeit oder Sehstörungen?",
+                    "translation": {
+                        "en": "Do you have any other symptoms, such as nausea or visual disturbances?",
+                        "bn": "আপনার কি অন্য কোন উপসর্গ আছে, যেমন বমি বমি ভাব বা দৃষ্টি সমস্যা?",
+                        "hi": "क्या आपके कोई अन्य लक्षण हैं, जैसे मतली या दृश्य गड़बड़ी?",
+                        "ur": "کیا آپ کو کوئی اور علامات ہیں، جیسے متلی یا بصری خلل؟",
+                        "tr": "Mide bulantısı veya görme bozukluğu gibi başka şikayetleriniz var mı?"
+                    }
+                }
+            ],
+            "id": "d13_03"
+        },
+        {
+            "title": {
+                "en": "Dialogue 4: Knee Pain",
+                "bn": "সংলাপ ৪: হাঁটুর ব্যথা",
+                "hi": "संवाद 4: घुटने का दर्द",
+                "ur": "مکالمہ 4: گھٹنے کا درد",
+                "tr": "Diyalog 4: Diz Ağrısı"
+            },
+            "context": {
+                "en": "A patient complains of knee pain after a fall.",
+                "bn": "একজন রোগী পড়ে যাওয়ার পরে হাঁটুর ব্যথার অভিযোগ করছেন।",
+                "hi": "एक मरीज गिरने के बाद घुटने के दर्द की शिकायत करता है।",
+                "ur": "ایک مریض گرنے کے بعد گھٹنے کے درد کی شکایت کرتا ہے۔",
+                "tr": "Bir hasta düşme sonucu diz ağrısından şikayet ediyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Berger",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Was ist passiert, Herr Weber?",
+                    "translation": {
+                        "en": "What happened, Mr. Weber?",
+                        "bn": "কি হয়েছে, মিঃ ওয়েবার?",
+                        "hi": "क्या हुआ, श्री वेबर?",
+                        "ur": "کیا ہوا، مسٹر ویبر؟",
+                        "tr": "Ne oldu, Bay Weber?"
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich bin gestürzt und habe mir das Knie verdreht.",
+                    "translation": {
+                        "en": "I fell and twisted my knee.",
+                        "bn": "আমি পড়ে গিয়েছিলাম এবং আমার হাঁটু মচকে গেছি।",
+                        "hi": "मैं गिर गया और मेरा घुटना मुड़ गया।",
+                        "ur": "میں گر گیا اور میرا گھٹنا مڑ گیا۔",
+                        "tr": "Düştüm ve dizimi burktum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Berger",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Seit wann haben Sie die Schmerzen und wie stark sind sie?",
+                    "translation": {
+                        "en": "How long have you had the pain, and how severe is it?",
+                        "bn": "আপনার কতদিন ধরে ব্যথা হচ্ছে এবং এটি কতটা তীব্র?",
+                        "hi": "आपको कब से दर्द है और यह कितना गंभीर है?",
+                        "ur": "آپ کو کب سے درد ہے اور یہ کتنا شدید ہے؟",
+                        "tr": "Ne zamandır ağrınız var ve ne kadar şiddetli?"
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Das ist vor etwa einer Stunde passiert. Der Schmerz ist sehr stark, ich kann kaum auftreten.",
+                    "translation": {
+                        "en": "That happened about an hour ago. The pain is very severe, I can hardly put any weight on it.",
+                        "bn": "এটা প্রায় এক ঘন্টা আগে ঘটেছে। ব্যথা খুব তীব্র, আমি প্রায় ওজন দিতে পারছি না।",
+                        "hi": "यह लगभग एक घंटे पहले हुआ था। दर्द बहुत तेज है, मैं शायद ही इस पर कोई वजन डाल सकता हूँ।",
+                        "ur": "یہ تقریباً ایک گھنٹہ پہلے ہوا تھا۔ درد بہت شدید ہے، میں بمشکل اس پر کوئی وزن ڈال سکتا ہوں۔",
+                        "tr": "Bu yaklaşık bir saat önce oldu. Ağrı çok şiddetli, üzerine neredeyse hiç basamıyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Berger",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ist das Knie geschwollen?",
+                    "translation": {
+                        "en": "Is the knee swollen?",
+                        "bn": "হাঁটু কি ফুলে গেছে?",
+                        "hi": "क्या घुटना सूज गया है?",
+                        "ur": "کیا گھٹنا سوج گیا ہے؟",
+                        "tr": "Dizin şişmiş mi?"
+                    }
+                }
+            ],
+            "id": "d13_04"
+        },
+        {
+            "title": {
+                "en": "Dialogue 5: Back Pain",
+                "bn": "সংলাপ ৫: পিঠে ব্যথা",
+                "hi": "संवाद 5: पीठ दर्द",
+                "ur": "مکالمہ 5: کمر درد",
+                "tr": "Diyalog 5: Sırt Ağrısı"
+            },
+            "context": {
+                "en": "A patient reports chronic back pain during a routine check-up.",
+                "bn": "একটি নিয়মিত স্বাস্থ্য পরীক্ষার সময় একজন রোগী দীর্ঘস্থায়ী পিঠে ব্যথার কথা জানান।",
+                "hi": "एक मरीज एक नियमित जांच के दौरान पुरानी पीठ दर्द की रिपोर्ट करता है।",
+                "ur": "ایک مریض معمول کی جانچ کے دوران دائمی کمر درد کی اطلاع دیتا ہے۔",
+                "tr": "Bir hasta rutin bir kontrol sırasında kronik sırt ağrısı bildiriyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schulz",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Was gibt es Neues, Herr Klein?",
+                    "translation": {
+                        "en": "What's new, Mr. Klein?",
+                        "bn": "নতুন কি, মিঃ ক্লেইন?",
+                        "hi": "क्या नया है, श्री क्लेन?",
+                        "ur": "نیا کیا ہے، مسٹر کلین؟",
+                        "tr": "Ne var ne yok, Bay Klein?"
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Eigentlich alles beim Alten, Herr Doktor. Nur mein Rücken schmerzt wieder stärker.",
+                    "translation": {
+                        "en": "Actually, everything is the same, Doctor. Only my back hurts more again.",
+                        "bn": "আসলে, সবকিছু আগের মতোই আছে, ডাক্তার। শুধু আমার পিঠে আবার বেশি ব্যথা করছে।",
+                        "hi": "वास्तव में, सब कुछ वैसा ही है, डॉक्टर। केवल मेरी पीठ में फिर से अधिक दर्द हो रहा है।",
+                        "ur": "دراصل، سب کچھ ویسا ہی ہے، ڈاکٹر۔ صرف میری کمر میں پھر سے زیادہ درد ہو رہا ہے۔",
+                        "tr": "Aslında her şey aynı, Doktor. Sadece sırtım yine daha çok ağrıyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schulz",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Seit wann ist das so und wo genau haben Sie die Schmerzen?",
+                    "translation": {
+                        "en": "How long has that been going on, and where exactly do you have the pain?",
+                        "bn": "এটা কতদিন ধরে চলছে এবং আপনার ঠিক কোথায় ব্যথা হচ্ছে?",
+                        "hi": "यह कब से चल रहा है, और आपको दर्द ठीक कहाँ है?",
+                        "ur": "یہ کب سے چل رہا ہے، اور آپ کو درد کہاں ہے؟",
+                        "tr": "Ne zamandır böyle ve tam olarak nerede ağrınız var?"
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Seit etwa einer Woche. Es ist im unteren Rücken, ein ziehender Schmerz.",
+                    "translation": {
+                        "en": "For about a week. It's in the lower back, a pulling pain.",
+                        "bn": "প্রায় এক সপ্তাহ ধরে। এটা পিঠের নীচে, একটি টান ধরা ব্যথা।",
+                        "hi": "लगभग एक सप्ताह से। यह पीठ के निचले हिस्से में है, एक खींचने वाला दर्द।",
+                        "ur": "تقریباً ایک ہفتے سے۔ یہ کمر کے نچلے حصے میں ہے، ایک کھینچنے والا درد۔",
+                        "tr": "Yaklaşık bir haftadır. Belimin alt kısmında, çekme şeklinde bir ağrı."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schulz",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Gibt es etwas, das den Schmerz verstärkt oder lindert?",
+                    "translation": {
+                        "en": "Is there anything that makes the pain worse or better?",
+                        "bn": "এমন কিছু আছে যা ব্যথা বাড়ায় বা কমায়?",
+                        "hi": "क्या कुछ ऐसा है जो दर्द को बढ़ाता या कम करता है?",
+                        "ur": "کیا کوئی ایسی چیز ہے جو درد کو بڑھاتی یا کم کرتی ہے؟",
+                        "tr": "Ağrıyı artıran veya azaltan bir şey var mı?"
+                    }
+                }
+            ],
+            "id": "d13_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Hauptbeschwerde' in der Anamnese?",
+                "en": "What does 'Hauptbeschwerde' mean in medical history taking?",
+                "bn": "অ্যানামনেসিসে 'Hauptbeschwerde' মানে কী?",
+                "hi": "एनामनेसिस में 'Hauptbeschwerde' का क्या अर्थ है?",
+                "ur": "اینامنسس میں 'Hauptbeschwerde' کا کیا مطلب ہے؟",
+                "tr": "Anamnezde 'Hauptbeschwerde' ne anlama gelir?"
+            },
+            "options": [
+                "Allergien",
+                "Vorerkrankungen",
+                "Hauptgrund für den Arztbesuch",
+                "Sozialanamnese"
+            ],
+            "correctAnswer": "Hauptgrund für den Arztbesuch",
+            "explanation": {
+                "en": "'Hauptbeschwerde' refers to the patient's primary reason for seeking medical attention.",
+                "bn": "'Hauptbeschwerde' মানে রোগীর চিকিৎসার জন্য আসার প্রধান কারণ।",
+                "hi": "'Hauptbeschwerde' का अर्थ है चिकित्सा सहायता लेने के लिए रोगी का प्राथमिक कारण।",
+                "ur": "'Hauptbeschwerde' سے مراد مریض کی طبی امداد حاصل کرنے کی بنیادی وجہ ہے۔",
+                "tr": "'Hauptbeschwerde', hastanın tıbbi yardım aramasının temel nedenini ifade eder."
+            },
+            "points": 10,
+            "id": "e13_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was beschreibt die 'aktuellen Beschwerden'?",
+                "en": "What do the 'aktuellen Beschwerden' describe?",
+                "bn": "'aktuellen Beschwerden' কী বর্ণনা করে?",
+                "hi": "'aktuellen Beschwerden' क्या वर्णन करते हैं?",
+                "ur": "'aktuellen Beschwerden' کیا بیان کرتے ہیں؟",
+                "tr": "'aktuellen Beschwerden' neyi tanımlar?"
+            },
+            "options": [
+                "Frühere Operationen",
+                "Derzeitige Symptome und Probleme",
+                "Familiäre Vorerkrankungen",
+                "Medikamentenallergien"
+            ],
+            "correctAnswer": "Derzeitige Symptome und Probleme",
+            "explanation": {
+                "en": "'Aktuelle Beschwerden' refers to the patient's current symptoms and problems.",
+                "bn": "'Aktuelle Beschwerden' মানে রোগীর বর্তমান লক্ষণ এবং সমস্যা।",
+                "hi": "'Aktuelle Beschwerden' का अर्थ है रोगी के वर्तमान लक्षण और समस्याएँ।",
+                "ur": "'Aktuelle Beschwerden' سے مراد مریض کی موجودہ علامات اور مسائل ہیں۔",
+                "tr": "'Aktuelle Beschwerden', hastanın mevcut semptomlarını ve sorunlarını ifade eder."
+            },
+            "points": 10,
+            "id": "e13_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Beginn' im Kontext der Anamnese?",
+                "en": "What does 'Beginn' mean in the context of medical history taking?",
+                "bn": "অ্যানামনেশিসের প্রেক্ষাপটে 'Beginn' মানে কী?",
+                "hi": "चिकित्सा इतिहास लेने के संदर्भ में 'Beginn' का क्या अर्थ है?",
+                "ur": "طبی تاریخ لینے کے تناظر میں 'Beginn' کا کیا مطلب ہے؟",
+                "tr": "Tıbbi öykü alımı bağlamında 'Beginn' ne anlama gelir?"
+            },
+            "options": [
+                "Das Ende der Behandlung",
+                "Der Zeitpunkt, an dem die Beschwerden anfingen",
+                "Die Einnahme von Medikamenten",
+                "Die soziale Situation des Patienten"
+            ],
+            "correctAnswer": "Der Zeitpunkt, an dem die Beschwerden anfingen",
+            "explanation": {
+                "en": "'Beginn' refers to the time when the patient's symptoms started.",
+                "bn": "'Beginn' মানে হল সেই সময় যখন রোগীর লক্ষণ শুরু হয়েছিল।",
+                "hi": "'Beginn' का अर्थ है वह समय जब रोगी के लक्षण शुरू हुए।",
+                "ur": "'Beginn' سے مراد وہ وقت ہے جب مریض کی علامات شروع ہوئیں۔",
+                "tr": "'Beginn', hastanın semptomlarının başladığı zamanı ifade eder."
+            },
+            "points": 10,
+            "id": "e13_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Verlauf' im Zusammenhang mit den aktuellen Beschwerden?",
+                "en": "What does 'Verlauf' mean in connection with the current complaints?",
+                "bn": "বর্তমান অভিযোগের সাথে সম্পর্কিত 'Verlauf' মানে কী?",
+                "hi": "वर्तमान शिकायतों के संबंध में 'Verlauf' का क्या अर्थ है?",
+                "ur": "موجودہ شکایات کے سلسلے میں 'Verlauf' کا کیا مطلب ہے؟",
+                "tr": "Mevcut şikayetlerle bağlantılı olarak 'Verlauf' ne anlama gelir?"
+            },
+            "options": [
+                "Die Stärke der Schmerzen",
+                "Die Entwicklung der Symptome über die Zeit",
+                "Die Medikamente, die der Patient einnimmt",
+                "Die Anzahl der Familienmitglieder"
+            ],
+            "correctAnswer": "Die Entwicklung der Symptome über die Zeit",
+            "explanation": {
+                "en": "'Verlauf' describes the progression or development of the symptoms over time.",
+                "bn": "'Verlauf' সময়ের সাথে সাথে লক্ষণগুলির অগ্রগতি বা বিকাশ বর্ণনা করে।",
+                "hi": "'Verlauf' समय के साथ लक्षणों की प्रगति या विकास का वर्णन करता है।",
+                "ur": "'Verlauf' وقت کے ساتھ علامات کی ترقی یا ترقی کو بیان کرتا ہے۔",
+                "tr": "'Verlauf', semptomların zaman içindeki ilerlemesini veya gelişimini tanımlar."
+            },
+            "points": 10,
+            "id": "e13_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was beinhaltet die Beschreibung des 'Schmerzcharakters'?",
+                "en": "What does the description of 'Schmerzcharakter' include?",
+                "bn": "'Schmerzcharakter' এর বর্ণনায় কী অন্তর্ভুক্ত?",
+                "hi": "'Schmerzcharakter' के विवरण में क्या शामिल है?",
+                "ur": "'Schmerzcharakter' کی تفصیل میں کیا شامل ہے؟",
+                "tr": "'Schmerzcharakter' tanımında neler bulunur?"
+            },
+            "options": [
+                "Die Anzahl der Operationen",
+                "Die Art und Qualität des Schmerzes",
+                "Die Körpergröße des Patienten",
+                "Die Anzahl der Kinder des Patienten"
+            ],
+            "correctAnswer": "Die Art und Qualität des Schmerzes",
+            "explanation": {
+                "en": "'Schmerzcharakter' describes the nature and quality of the pain (e.g., burning, stabbing, dull).",
+                "bn": "'Schmerzcharakter' ব্যথার প্রকৃতি এবং গুণাবলী বর্ণনা করে (যেমন, জ্বলন্ত, ছুরিকাঘাত, নিস্তেজ)।",
+                "hi": "'Schmerzcharakter' दर्द की प्रकृति और गुणवत्ता का वर्णन करता है (उदाहरण के लिए, जलना, चुभना, सुस्त)।",
+                "ur": "'Schmerzcharakter' درد کی نوعیت اور معیار کو بیان کرتا ہے (مثال کے طور پر، جلنا، چبھنا، مدھم)۔",
+                "tr": "'Schmerzcharakter', ağrının doğasını ve kalitesini (örneğin, yanma, bıçak saplanması, donuk) tanımlar."
+            },
+            "points": 10,
+            "id": "e13_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Frage ist relevant, um den 'Schmerzcharakter' zu beurteilen?",
+                "en": "Which question is relevant to assess the 'Schmerzcharakter'?",
+                "bn": "'Schmerzcharakter' মূল্যায়ন করার জন্য কোন প্রশ্নটি প্রাসঙ্গিক?",
+                "hi": "'Schmerzcharakter' का आकलन करने के लिए कौन सा प्रश्न प्रासंगिक है?",
+                "ur": "'Schmerzcharakter' کا اندازہ لگانے کے لیے کون سا سوال متعلقہ ہے؟",
+                "tr": "'Schmerzcharakter'i değerlendirmek için hangi soru önemlidir?"
+            },
+            "options": [
+                "Haben Sie Kinder?",
+                "Wie würden Sie den Schmerz beschreiben (z.B. stechend, brennend)?",
+                "Nehmen Sie Medikamente ein?",
+                "Haben Sie Allergien?"
+            ],
+            "correctAnswer": "Wie würden Sie den Schmerz beschreiben (z.B. stechend, brennend)?",
+            "explanation": {
+                "en": "Asking the patient to describe the pain helps to understand its nature and quality.",
+                "bn": "রোগীকে ব্যথা বর্ণনা করতে বলা তার প্রকৃতি এবং গুণাবলী বুঝতে সাহায্য করে।",
+                "hi": "रोगी को दर्द का वर्णन करने के लिए कहने से उसकी प्रकृति और गुणवत्ता को समझने में मदद मिलती है।",
+                "ur": "مریض کو درد بیان کرنے کے لیے کہنے سے اس کی نوعیت اور معیار کو سمجھنے میں مدد ملتی ہے۔",
+                "tr": "Hastadan ağrıyı tanımlamasını istemek, doğasını ve kalitesini anlamaya yardımcı olur."
+            },
+            "points": 10,
+            "id": "e13_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist *kein* Bestandteil der aktuellen Beschwerden?",
+                "en": "What is *not* a component of the current complaints?",
+                "bn": "বর্তমান অভিযোগের অংশ *নয়* কোনটি?",
+                "hi": "वर्तमान शिकायतों का हिस्सा *नहीं* क्या है?",
+                "ur": "موجودہ شکایات کا حصہ *نہیں* کیا ہے؟",
+                "tr": "Mevcut şikayetlerin bir bileşeni *olmayan* nedir?"
+            },
+            "options": [
+                "Dauer der Beschwerden",
+                "Bisherige Behandlungen der Beschwerden",
+                "Familienanamnese",
+                "Lokalisation der Beschwerden"
+            ],
+            "correctAnswer": "Familienanamnese",
+            "explanation": {
+                "en": "Family history is not part of the *current* complaints but a separate section in the anamnesis.",
+                "bn": "পারিবারিক ইতিহাস *বর্তমান* অভিযোগের অংশ নয় তবে অ্যানামনেসিসের একটি পৃথক বিভাগ।",
+                "hi": "पारिवारिक इतिहास *वर्तमान* शिकायतों का हिस्सा नहीं है, लेकिन एनामनेसिस में एक अलग अनुभाग है।",
+                "ur": "خاندانی تاریخ *موجودہ* شکایات کا حصہ نہیں ہے، لیکن انامنسس میں ایک علیحدہ سیکشن ہے۔",
+                "tr": "Aile öyküsü *mevcut* şikayetlerin bir parçası değildir, ancak anamnezde ayrı bir bölümdür."
+            },
+            "points": 10,
+            "id": "e13_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Frage hilft, den 'Beginn' der Beschwerden zu ermitteln?",
+                "en": "Which question helps to determine the 'Beginn' of the complaints?",
+                "bn": "কোন প্রশ্নটি অভিযোগের 'Beginn' নির্ধারণ করতে সাহায্য করে?",
+                "hi": "कौन सा प्रश्न शिकायतों के 'Beginn' को निर्धारित करने में मदद करता है?",
+                "ur": "کون سا سوال شکایات کے 'Beginn' کا تعین کرنے میں مدد کرتا ہے؟",
+                "tr": "Şikayetlerin 'Beginn'ini belirlemeye hangi soru yardımcı olur?"
+            },
+            "options": [
+                "Welche Medikamente nehmen Sie?",
+                "Seit wann haben Sie die Beschwerden?",
+                "Sind Sie allergisch?",
+                "Wie ist Ihr Familienstand?"
+            ],
+            "correctAnswer": "Seit wann haben Sie die Beschwerden?",
+            "explanation": {
+                "en": "Asking 'Seit wann haben Sie die Beschwerden?' directly inquires about the onset of the symptoms.",
+                "bn": "'Seit wann haben Sie die Beschwerden?' জিজ্ঞাসা করা সরাসরি লক্ষণগুলির সূত্রপাত সম্পর্কে জিজ্ঞাসা করে।",
+                "hi": "'Seit wann haben Sie die Beschwerden?' पूछना सीधे लक्षणों की शुरुआत के बारे में पूछताछ करता है।",
+                "ur": "'Seit wann haben Sie die Beschwerden?' پوچھنا براہ راست علامات کے آغاز کے بارے میں پوچھتا ہے۔",
+                "tr": "'Seit wann haben Sie die Beschwerden?' diye sormak doğrudan belirtilerin başlangıcını sorar."
+            },
+            "points": 10,
+            "id": "e13_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein Synonym für 'Hauptbeschwerde'?",
+                "en": "What is a synonym for 'Hauptbeschwerde'?",
+                "bn": "'Hauptbeschwerde'-এর প্রতিশব্দ কী?",
+                "hi": "'Hauptbeschwerde' का पर्याय क्या है?",
+                "ur": "'Hauptbeschwerde' کا مترادف کیا ہے؟",
+                "tr": "'Hauptbeschwerde'nin eş anlamlısı nedir?"
+            },
+            "options": [
+                "Allergiepass",
+                "Leitsymptom",
+                "Sozialanamnese",
+                "Medikamentenplan"
+            ],
+            "correctAnswer": "Leitsymptom",
+            "explanation": {
+                "en": "'Leitsymptom' is a synonym for 'Hauptbeschwerde', both referring to the main presenting symptom.",
+                "bn": "'Leitsymptom' হল 'Hauptbeschwerde'-এর প্রতিশব্দ, উভয়ই প্রধান উপস্থাপিত লক্ষণটিকে বোঝায়।",
+                "hi": "'Leitsymptom' 'Hauptbeschwerde' का पर्याय है, दोनों मुख्य प्रस्तुत लक्षण को संदर्भित करते हैं।",
+                "ur": "'Leitsymptom' 'Hauptbeschwerde' کا مترادف ہے، دونوں اہم پیش علامات کا حوالہ دیتے ہیں۔",
+                "tr": "'Leitsymptom', 'Hauptbeschwerde'nin eş anlamlısıdır ve her ikisi de ana semptomu ifade eder."
+            },
+            "points": 10,
+            "id": "e13_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Information ist *nicht* wichtig für die Erfassung des 'Verlaufs' der Beschwerden?",
+                "en": "Which information is *not* important for recording the 'Verlauf' of the complaints?",
+                "bn": "অভিযোগের 'Verlauf' রেকর্ড করার জন্য কোন তথ্য গুরুত্বপূর্ণ *নয়*?",
+                "hi": "शिकायतों के 'Verlauf' को रिकॉर्ड करने के लिए कौन सी जानकारी महत्वपूर्ण *नहीं* है?",
+                "ur": "شکایات کے 'Verlauf' کو ریکارڈ کرنے کے لیے کون سی معلومات اہم *نہیں* ہے؟",
+                "tr": "Şikayetlerin 'Verlauf'unu kaydetmek için hangi bilgi önemli *değildir*?"
+            },
+            "options": [
+                "Wie sich die Beschwerden im Laufe der Zeit verändert haben",
+                "Ob die Beschwerden schlimmer oder besser geworden sind",
+                "Ob es Faktoren gibt, die die Beschwerden beeinflussen",
+                "Die Schuhgröße des Patienten"
+            ],
+            "correctAnswer": "Die Schuhgröße des Patienten",
+            "explanation": {
+                "en": "The patient's shoe size is irrelevant to the course (Verlauf) of their complaints.",
+                "bn": "রোগীর জুতার আকার তাদের অভিযোগের কোর্সের (Verlauf) সাথে অপ্রাসঙ্গিক।",
+                "hi": "रोगी के जूते का आकार उनकी शिकायतों के पाठ्यक्रम (Verlauf) के लिए अप्रासंगिक है।",
+                "ur": "مریض کے جوتے کا سائز ان کی شکایات کے راستے (Verlauf) کے لیے غیر متعلق ہے۔",
+                "tr": "Hastanın ayakkabı numarası, şikayetlerinin seyri (Verlauf) ile ilgisizdir."
+            },
+            "points": 10,
+            "id": "e13_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die ________ ist der Hauptgrund, warum der Patient den Arzt aufsucht.",
+                "en": "The ________ is the main reason why the patient seeks medical attention.",
+                "bn": "________ হল প্রধান কারণ যার জন্য রোগী চিকিৎসা সহায়তা চায়।",
+                "hi": "________ मुख्य कारण है कि रोगी चिकित्सा सहायता चाहता है।",
+                "ur": "________ وہ اہم وجہ ہے جس کی بناء پر مریض طبی امداد چاہتا ہے۔",
+                "tr": "________, hastanın tıbbi yardım aramasının ana nedenidir."
+            },
+            "options": [],
+            "correctAnswer": "Hauptbeschwerde",
+            "explanation": {
+                "en": "The 'Hauptbeschwerde' is the chief complaint.",
+                "bn": "'Hauptbeschwerde' হল প্রধান অভিযোগ।",
+                "hi": "'Hauptbeschwerde' मुख्य शिकायत है।",
+                "ur": "'Hauptbeschwerde' اہم شکایت ہے۔",
+                "tr": "'Hauptbeschwerde' ana şikayettir."
+            },
+            "points": 10,
+            "id": "e13_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Der ________ der Beschwerden gibt an, wann die Symptome begonnen haben.",
+                "en": "The ________ of the complaints indicates when the symptoms started.",
+                "bn": "অভিযোগের ________ নির্দেশ করে কখন লক্ষণগুলি শুরু হয়েছিল।",
+                "hi": "शिकायतों का ________ इंगित करता है कि लक्षण कब शुरू हुए।",
+                "ur": "شکایات کا ________ اشارہ کرتا ہے کہ علامات کب شروع ہوئیں۔",
+                "tr": "Şikayetlerin ________, semptomların ne zaman başladığını gösterir."
+            },
+            "options": [],
+            "correctAnswer": "Beginn",
+            "explanation": {
+                "en": "The 'Beginn' refers to the onset of the symptoms.",
+                "bn": "'Beginn' লক্ষণগুলির সূত্রপাত বোঝায়।",
+                "hi": "'Beginn' लक्षणों की शुरुआत को संदर्भित करता है।",
+                "ur": "'Beginn' علامات کے آغاز سے مراد ہے۔",
+                "tr": "'Beginn', belirtilerin başlangıcını ifade eder."
+            },
+            "points": 10,
+            "id": "e13_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Der ________ beschreibt die Entwicklung der Symptome über die Zeit.",
+                "en": "The ________ describes the development of the symptoms over time.",
+                "bn": "________ সময়ের সাথে সাথে লক্ষণগুলির বিকাশ বর্ণনা করে।",
+                "hi": "________ समय के साथ लक्षणों के विकास का वर्णन करता है।",
+                "ur": "________ وقت کے ساتھ علامات کی ترقی کو بیان کرتا ہے۔",
+                "tr": "________, semptomların zaman içindeki gelişimini açıklar."
+            },
+            "options": [],
+            "correctAnswer": "Verlauf",
+            "explanation": {
+                "en": "The 'Verlauf' describes how the symptoms have changed over time.",
+                "bn": "'Verlauf' বর্ণনা করে যে সময়ের সাথে সাথে লক্ষণগুলি কীভাবে পরিবর্তিত হয়েছে।",
+                "hi": "'Verlauf' वर्णन करता है कि समय के साथ लक्षण कैसे बदले हैं।",
+                "ur": "'Verlauf' بیان کرتا ہے کہ وقت کے ساتھ علامات کیسے بدلی ہیں۔",
+                "tr": "'Verlauf', semptomların zaman içinde nasıl değiştiğini açıklar."
+            },
+            "points": 10,
+            "id": "e13_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die ________ Beschwerden sind die aktuellen Symptome, die der Patient hat.",
+                "en": "The ________ complaints are the current symptoms that the patient has.",
+                "bn": "________ অভিযোগগুলি হল রোগীর বর্তমান লক্ষণ।",
+                "hi": "________ शिकायतें रोगी के वर्तमान लक्षण हैं।",
+                "ur": "________ شکایات مریض کی موجودہ علامات ہیں۔",
+                "tr": "________ şikayetler, hastanın sahip olduğu mevcut semptomlardır."
+            },
+            "options": [],
+            "correctAnswer": "aktuellen",
+            "explanation": {
+                "en": "The 'aktuellen' complaints refer to the present symptoms.",
+                "bn": "'aktuellen' অভিযোগগুলি বর্তমান লক্ষণগুলিকে বোঝায়।",
+                "hi": "'aktuellen' शिकायतें वर्तमान लक्षणों को संदर्भित करती हैं।",
+                "ur": "'aktuellen' شکایات موجودہ علامات کا حوالہ دیتی ہیں۔",
+                "tr": "'aktuellen' şikayetler mevcut semptomları ifade eder."
+            },
+            "points": 10,
+            "id": "e13_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Der ________ beschreibt die Art des Schmerzes (z.B. stechend, brennend).",
+                "en": "The ________ describes the nature of the pain (e.g. stabbing, burning).",
+                "bn": "________ ব্যথার প্রকৃতি বর্ণনা করে (যেমন ছুরিকাঘাত, জ্বলন্ত)।",
+                "hi": "________ दर्द की प्रकृति का वर्णन करता है (उदाहरण के लिए चुभना, जलना)।",
+                "ur": "________ درد کی نوعیت کو بیان کرتا ہے (مثال کے طور پر چبھنا، جلنا)۔",
+                "tr": "________, ağrının doğasını (örneğin bıçaklanma, yanma) açıklar."
+            },
+            "options": [],
+            "correctAnswer": "Schmerzcharakter",
+            "explanation": {
+                "en": "The 'Schmerzcharakter' defines the type of pain.",
+                "bn": "'Schmerzcharakter' ব্যথার ধরণ সংজ্ঞায়িত করে।",
+                "hi": "'Schmerzcharakter' दर्द के प्रकार को परिभाषित करता है।",
+                "ur": "'Schmerzcharakter' درد کی قسم کی وضاحت کرتا ہے۔",
+                "tr": "'Schmerzcharakter', ağrı türünü tanımlar."
+            },
+            "points": 10,
+            "id": "e13_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Ich habe seit drei Tagen starke Kopfschmerzen.",
+                "en": "I have had a severe headache for three days.",
+                "bn": "আমার তিন দিন ধরে তীব্র মাথাব্যথা হচ্ছে।",
+                "hi": "मुझे तीन दिनों से तेज सिरदर्द हो रहा है।",
+                "ur": "مجھے تین دن سے شدید سر درد ہو رہا ہے۔",
+                "tr": "Üç gündür şiddetli baş ağrım var."
+            },
+            "options": [],
+            "correctAnswer": "I have had a severe headache for three days.",
+            "explanation": {
+                "en": "This is a direct translation of the German sentence.",
+                "bn": "এটি জার্মান বাক্যের সরাসরি অনুবাদ।",
+                "hi": "यह जर्मन वाक्य का सीधा अनुवाद है।",
+                "ur": "یہ جرمن جملے کا براہ راست ترجمہ ہے۔",
+                "tr": "Bu, Almanca cümlenin doğrudan çevirisidir."
+            },
+            "points": 10,
+            "id": "e13_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Der Schmerz ist stechend und lokalisiert.",
+                "en": "The pain is stabbing and localized.",
+                "bn": "ব্যথা ছুরিকাঘাতের মতো এবং স্থানীয়।",
+                "hi": "दर्द चुभने वाला और स्थानीयकृत है।",
+                "ur": "درد چبھنے والا اور مقامی ہے۔",
+                "tr": "Ağrı saplanma şeklinde ve lokalize."
+            },
+            "options": [],
+            "correctAnswer": "The pain is stabbing and localized.",
+            "explanation": {
+                "en": "This describes the type and location of the pain.",
+                "bn": "এটি ব্যথার ধরণ এবং অবস্থান বর্ণনা করে।",
+                "hi": "यह दर्द के प्रकार और स्थान का वर्णन करता है।",
+                "ur": "یہ درد کی قسم اور مقام کی وضاحت کرتا ہے۔",
+                "tr": "Bu, ağrının türünü ve yerini açıklar."
+            },
+            "points": 10,
+            "id": "e13_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Beschwerden haben vor einer Woche angefangen.",
+                "en": "The symptoms started a week ago.",
+                "bn": "লক্ষণগুলি এক সপ্তাহ আগে শুরু হয়েছে।",
+                "hi": "लक्षण एक सप्ताह पहले शुरू हुए।",
+                "ur": "علامات ایک ہفتہ قبل شروع ہوئیں۔",
+                "tr": "Belirtiler bir hafta önce başladı."
+            },
+            "options": [],
+            "correctAnswer": "The symptoms started a week ago.",
+            "explanation": {
+                "en": "This indicates the onset of the symptoms.",
+                "bn": "এটি লক্ষণগুলির সূত্রপাত নির্দেশ করে।",
+                "hi": "यह लक्षणों की शुरुआत को इंगित करता है।",
+                "ur": "یہ علامات کے آغاز کی نشاندہی کرتا ہے۔",
+                "tr": "Bu, belirtilerin başlangıcını gösterir."
+            },
+            "points": 10,
+            "id": "e13_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

@@ -104,6 +104,10 @@ class ExerciseModel {
     );
   }
 
+  factory ExerciseModel.fromJson(Map<String, dynamic> json) {
+    return ExerciseModel.fromMap(json, json['id'] ?? '');
+  }
+
   Map<String, dynamic> toFirestore() {
     return {
       'sectionId': sectionId,

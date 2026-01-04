@@ -1,11 +1,1580 @@
-{"id":"section_15","phaseId":"phase2","order":15,"titleDe":"Anamnese 3","title":{"en":"Patient History 3","bn":"রোগীর ইতিহাস 3","hi":"रोगी इतिहास 3","ur":"مریض کی تاریخ 3","tr":"Hasta Öyküsü 3"},"level":"B1","estimatedMinutes":35,"vocabulary":[
-{"id":"v15_01","germanTerm":"Anamnese","article":"die","plural":"Anamnesen","translation":{"en":"Medical History","bn":"চিকিৎসা ইতিহাস","hi":"चिकित्सा इतिहास","ur":"طبی تاریخ","tr":"Tıbbi öykü"}},
-{"id":"v15_02","germanTerm":"Hauptbeschwerde","article":"die","plural":"Hauptbeschwerden","translation":{"en":"Chief Complaint","bn":"প্রধান অভিযোগ","hi":"मुख्य शिकायत","ur":"اہم شکایت","tr":"Ana şikayet"}},
-{"id":"v15_03","germanTerm":"Vorerkrankungen","article":"die","plural":"-","translation":{"en":"Pre-existing Conditions","bn":"পূর্ববর্তী রোগ","hi":"पूर्व बीमारियां","ur":"پہلے کی بیماریاں","tr":"Mevcut hastalıklar"}},
-{"id":"v15_04","germanTerm":"Familienanamnese","article":"die","plural":"-","translation":{"en":"Family History","bn":"পারিবারিক ইতিহাস","hi":"पारिवारिक इतिहास","ur":"خاندانی تاریخ","tr":"Aile öyküsü"}},
-{"id":"v15_05","germanTerm":"Allergie","article":"die","plural":"Allergien","translation":{"en":"Allergy","bn":"এলার্জি","hi":"एलर्जी","ur":"الرجی","tr":"Alerji"}},
-{"id":"v15_06","germanTerm":"Operation","article":"die","plural":"Operationen","translation":{"en":"Surgery","bn":"অপারেশন","hi":"ऑपरेशन","ur":"آپریشن","tr":"Ameliyat"}}
-],"dialogues":[{"id":"d15_01","title":{"en":"Taking History"},"lines":[
-{"speaker":"Arzt","germanText":"Was führt Sie zu uns?","translation":{"en":"What brings you to us?"}},
-{"speaker":"Patient","germanText":"Ich habe seit einer Woche starke Bauchschmerzen.","translation":{"en":"I've had severe abdominal pain for a week."}}
-]}],"exercises":[{"id":"e15_01","type":"multipleChoice","question":{"en":"What is 'Anamnese'?"},"options":["Medical History","Diagnosis","Treatment"],"correctAnswer":"Medical History","points":10}]}
+{
+    "id": "section_15",
+    "phaseId": "phase2",
+    "order": 15,
+    "titleDe": "Anamnese III",
+    "title": {
+        "en": "Anamnesis III - Medical History: Pre-existing Conditions, Surgeries, Allergies, Medications, Vaccinations",
+        "bn": "অ্যানামনেসিস III - চিকিৎসা ইতিহাস: পূর্ব-বিদ্যমান শর্ত, সার্জারি, অ্যালার্জি, ওষুধ, টিকা",
+        "hi": "एनाम्नेसिस III - चिकित्सा इतिहास: पूर्व-मौजूदा स्थितियाँ, सर्जरी, एलर्जी, दवाएं, टीकाकरण",
+        "ur": "اینامنسس III - طبی تاریخ: پہلے سے موجود حالات، سرجریاں، الرجی، ادویات، ویکسینیشن",
+        "tr": "Anamnez III - Tıbbi Geçmiş: Önceden Var Olan Durumlar, Ameliyatlar, Alerjiler, İlaçlar, Aşılar",
+        "de": "Anamnese III - Medizinische Vorgeschichte: Vorerkrankungen, Operationen, Allergien, Medikamente, Impfungen"
+    },
+    "description": {
+        "en": "This section covers essential aspects of a patient's medical history, focusing on pre-existing conditions, surgeries, allergies, medications, and vaccinations in a medical German context.",
+        "bn": "এই বিভাগে রোগীর চিকিৎসা ইতিহাসের প্রয়োজনীয় দিকগুলি আলোচনা করা হয়েছে, যা চিকিৎসা জার্মান প্রেক্ষাপটে পূর্ব-বিদ্যমান শর্ত, সার্জারি, অ্যালার্জি, ওষুধ এবং টিকাকরণের উপর দৃষ্টি নিবদ্ধ করে।",
+        "hi": "यह अनुभाग रोगी के चिकित्सा इतिहास के आवश्यक पहलुओं को शामिल करता है, जो चिकित्सा जर्मन संदर्भ में पूर्व-मौजूदा स्थितियों, सर्जरी, एलर्जी, दवाओं और टीकाकरण पर ध्यान केंद्रित करता है।",
+        "ur": "یہ سیکشن مریض کی طبی تاریخ کے ضروری پہلوؤں کا احاطہ کرتا ہے، جو طبی جرمن تناظر میں پہلے سے موجود حالات، سرجری، الرجی، ادویات اور ویکسینیشن پر توجہ مرکوز کرتا ہے۔",
+        "tr": "Bu bölüm, tıbbi Almanca bağlamında hastanın tıbbi geçmişinin temel yönlerini kapsar ve önceden var olan durumlar, ameliyatlar, alerjiler, ilaçlar ve aşılara odaklanır.",
+        "de": "Dieser Abschnitt behandelt wesentliche Aspekte der medizinischen Vorgeschichte eines Patienten, wobei der Schwerpunkt auf Vorerkrankungen, Operationen, Allergien, Medikamenten und Impfungen im medizinisch-deutschen Kontext liegt."
+    },
+    "level": "B1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, we will learn how to ask about and document a patient's pre-existing conditions, surgeries, allergies, medications, and vaccination status using medical German. This knowledge is crucial for building a comprehensive patient history and providing appropriate care.",
+            "bn": "এই বিভাগে, আমরা শিখব কীভাবে একজন রোগীর পূর্ব-বিদ্যমান শর্ত, সার্জারি, অ্যালার্জি, ওষুধ এবং টিকা স্থিতি সম্পর্কে জিজ্ঞাসা করতে এবং নথিভুক্ত করতে হয় চিকিৎসা জার্মানের সাহায্যে। এই জ্ঞান একটি ব্যাপক রোগীর ইতিহাস তৈরি এবং উপযুক্ত যত্ন প্রদানের জন্য অত্যন্ত গুরুত্বপূর্ণ।",
+            "hi": "इस अनुभाग में, हम सीखेंगे कि चिकित्सा जर्मन का उपयोग करके रोगी की पूर्व-मौजूदा स्थितियों, सर्जरी, एलर्जी, दवाओं और टीकाकरण स्थिति के बारे में कैसे पूछना और दस्तावेज़ बनाना है। यह ज्ञान एक व्यापक रोगी इतिहास बनाने और उचित देखभाल प्रदान करने के लिए महत्वपूर्ण है।",
+            "ur": "اس سیکشن میں، ہم طبی جرمن کا استعمال کرتے ہوئے مریض کی پہلے سے موجود حالات، سرجری، الرجی، ادویات اور ویکسینیشن کی حیثیت کے بارے میں پوچھنا اور دستاویز کرنا سیکھیں گے۔ یہ علم ایک جامع مریض کی تاریخ بنانے اور مناسب دیکھ بھال فراہم کرنے کے لیے بہت ضروری ہے۔",
+            "tr": "Bu bölümde, tıbbi Almanca kullanarak bir hastanın önceden var olan durumları, ameliyatları, alerjileri, ilaçları ve aşı durumunu nasıl soracağımızı ve belgeleyeceğimizi öğreneceğiz. Bu bilgi, kapsamlı bir hasta geçmişi oluşturmak ve uygun bakım sağlamak için çok önemlidir.",
+            "de": "In diesem Abschnitt lernen wir, wie man nach Vorerkrankungen, Operationen, Allergien, Medikamenten und Impfstatus eines Patienten auf Deutsch fragt und diese dokumentiert. Dieses Wissen ist entscheidend für die Erstellung einer umfassenden Patientenanamnese und die Gewährleistung einer angemessenen Versorgung."
+        },
+        "grammarFocus": {
+            "en": [
+                "Practice using the correct German cases (Nominativ, Akkusativ, Dativ, Genitiv) with medical terms related to illnesses and medications.",
+                "Focus on forming questions correctly to elicit information about past medical events and current treatments using appropriate verb conjugations and sentence structure."
+            ],
+            "bn": [
+                "অসুস্থতা এবং ওষুধের সাথে সম্পর্কিত চিকিৎসা পরিভাষাগুলির সাথে সঠিক জার্মান কারক (Nominativ, Akkusativ, Dativ, Genitiv) ব্যবহার করার অনুশীলন করুন।",
+                "অতীতের চিকিৎসা ঘটনা এবং বর্তমান চিকিৎসা সম্পর্কে তথ্য পাওয়ার জন্য সঠিক ক্রিয়া সংযোগ এবং বাক্য গঠন ব্যবহার করে সঠিকভাবে প্রশ্ন তৈরি করার উপর মনোযোগ দিন।"
+            ],
+            "hi": [
+                "बीमारियों और दवाओं से संबंधित चिकित्सा शब्दों के साथ सही जर्मन मामलों (Nominativ, Akkusativ, Dativ, Genitiv) का उपयोग करने का अभ्यास करें।",
+                "उचित क्रिया संयुग्मन और वाक्य संरचना का उपयोग करके पिछली चिकित्सा घटनाओं और वर्तमान उपचारों के बारे में जानकारी प्राप्त करने के लिए सही ढंग से प्रश्न बनाने पर ध्यान दें।"
+            ],
+            "ur": [
+                "بیماریوں اور ادویات سے متعلق طبی اصطلاحات کے ساتھ جرمن کے درست مقدمات (Nominativ, Akkusativ, Dativ, Genitiv) استعمال کرنے کی مشق کریں۔",
+                "مناسب فعل کے ملاپ اور جملے کی ساخت کا استعمال کرتے ہوئے طبی واقعات اور موجودہ علاج کے بارے میں معلومات حاصل کرنے کے لیے درست طریقے سے سوالات بنانے پر توجہ دیں۔"
+            ],
+            "tr": [
+                "Hastalıklar ve ilaçlarla ilgili tıbbi terimlerle doğru Almanca durumlarını (Nominativ, Akkusativ, Dativ, Genitiv) kullanma alıştırması yapın.",
+                "Uygun fiil çekimleri ve cümle yapısı kullanarak geçmiş tıbbi olaylar ve mevcut tedaviler hakkında bilgi almak için soruları doğru şekilde oluşturmaya odaklanın."
+            ],
+            "de": [
+                "Üben Sie die korrekte Verwendung der deutschen Fälle (Nominativ, Akkusativ, Dativ, Genitiv) mit medizinischen Fachbegriffen im Zusammenhang mit Krankheiten und Medikamenten.",
+                "Konzentrieren Sie sich auf die korrekte Formulierung von Fragen, um Informationen über vergangene medizinische Ereignisse und aktuelle Behandlungen unter Verwendung geeigneter Verbkonjugationen und Satzstrukturen zu erhalten."
+            ]
+        },
+        "culturalNotes": {
+            "en": "In German-speaking hospitals, it is common for doctors to take a very detailed and thorough medical history, often asking numerous questions, which may sometimes feel intrusive to patients from other cultural backgrounds.",
+            "bn": "জার্মান-ভাষী হাসপাতালগুলিতে, ডাক্তারদের জন্য একটি অত্যন্ত বিস্তারিত এবং পুঙ্খানুপুঙ্খ চিকিৎসা ইতিহাস নেওয়া সাধারণ, প্রায়শই অসংখ্য প্রশ্ন জিজ্ঞাসা করা হয়, যা কখনও কখনও অন্যান্য সাংস্কৃতিক পটভূমির রোগীদের কাছে অনুপ্রবেশমূলক মনে হতে পারে।",
+            "hi": "जर्मन भाषी अस्पतालों में, डॉक्टरों के लिए एक बहुत ही विस्तृत और गहन चिकित्सा इतिहास लेना आम बात है, अक्सर कई सवाल पूछे जाते हैं, जो कभी-कभी अन्य सांस्कृतिक पृष्ठभूमि के रोगियों को घुसपैठिया लग सकता है।",
+            "ur": "جرمن بولنے والے اسپتالوں میں، ڈاکٹروں کے لیے بہت تفصیلی اور مکمل طبی تاریخ لینا عام بات ہے، اکثر متعدد سوالات پوچھے جاتے ہیں، جو بعض اوقات دوسرے ثقافتی پس منظر کے مریضوں کو دخل اندازی محسوس ہو سکتے ہیں۔",
+            "tr": "Almanca konuşulan hastanelerde, doktorların çok detaylı ve kapsamlı bir tıbbi geçmiş alması yaygındır ve genellikle birçok soru sorarlar, bu da bazen diğer kültürel geçmişe sahip hastalara müdahaleci gelebilir.",
+            "de": "In deutschsprachigen Krankenhäusern ist es üblich, dass Ärzte eine sehr detaillierte und gründliche Anamnese erheben und dabei oft zahlreiche Fragen stellen, was Patienten aus anderen Kulturkreisen manchmal als aufdringlich empfinden können."
+        },
+        "summary": {
+            "en": "This section equipped you with the essential vocabulary and grammatical structures to effectively inquire about and document a patient's medical history, including pre-existing conditions, surgeries, allergies, medications, and vaccinations, in Medical German.",
+            "bn": "এই বিভাগটি আপনাকে একজন রোগীর চিকিৎসা ইতিহাস, পূর্ব-বিদ্যমান শর্ত, সার্জারি, অ্যালার্জি, ওষুধ এবং টিকাকরণ সহ, চিকিৎসা জার্মানে কার্যকরভাবে জিজ্ঞাসা করতে এবং নথিভুক্ত করতে প্রয়োজনীয় শব্দভাণ্ডার এবং ব্যাকরণগত কাঠামো দিয়ে সজ্জিত করেছে।",
+            "hi": "इस खंड ने आपको चिकित्सा जर्मन में रोगी के चिकित्सा इतिहास, पूर्व-मौजूदा स्थितियों, सर्जरी, एलर्जी, दवाओं और टीकाकरण सहित, प्रभावी ढंग से पूछताछ करने और दस्तावेज बनाने के लिए आवश्यक शब्दावली और व्याकरणिक संरचनाओं से लैस किया है।",
+            "ur": "اس سیکشن نے آپ کو طبی جرمن میں مریض کی طبی تاریخ، پہلے سے موجود حالات، سرجری، الرجی، ادویات اور ویکسینیشن سمیت، مؤثر طریقے سے پوچھ گچھ اور دستاویز کرنے کے لیے ضروری ذخیرہ الفاظ اور قواعدی ڈھانچے سے لیس کیا ہے۔",
+            "tr": "Bu bölüm, size tıbbi Almanca'da bir hastanın tıbbi geçmişi, önceden var olan durumları, ameliyatları, alerjileri, ilaçları ve aşıları hakkında etkili bir şekilde sorgulama ve belgeleme için gerekli kelime dağarcığı ve dilbilgisel yapıları sağlamıştır.",
+            "de": "Dieser Abschnitt hat Sie mit dem notwendigen Vokabular und den grammatikalischen Strukturen ausgestattet, um effektiv nach der medizinischen Vorgeschichte eines Patienten, einschließlich Vorerkrankungen, Operationen, Allergien, Medikamenten und Impfungen, auf Deutsch zu fragen und diese zu dokumentieren."
+        },
+        "learningObjectives": [
+            "Ask patients about their pre-existing conditions using Medical German.",
+            "Document a patient's allergies and medication list in German medical terminology.",
+            "Understand common German terms for surgeries and medical procedures.",
+            "Accurately record a patient's vaccination history using the correct German vocabulary."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "die Vorerkrankung",
+            "article": "die",
+            "plural": "die Vorerkrankungen",
+            "pronunciation": "ˈfoːɐ̯ʔɛɐ̯ˌkʁaŋkʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "pre-existing condition",
+                "bn": "পূর্ববর্তী অসুস্থতা",
+                "hi": "पूर्व मौजूदा स्थिति",
+                "ur": "پہلے سے موجود حالت",
+                "tr": "mevcut durum"
+            },
+            "exampleSentence": "Hat der Patient bekannte Vorerkrankungen, die wir berücksichtigen müssen?",
+            "exampleTranslation": {
+                "en": "Does the patient have any known pre-existing conditions that we need to consider?",
+                "bn": "রোগীর কি এমন কোনো পূর্ববর্তী অসুস্থতা আছে যা আমাদের বিবেচনা করতে হবে?",
+                "hi": "क्या मरीज को कोई ज्ञात पूर्व मौजूदा स्थिति है जिस पर हमें विचार करने की आवश्यकता है?",
+                "ur": "کیا مریض کو کوئی ایسی سابقہ ​​حالت ہے جس پر ہمیں غور کرنے کی ضرورت ہے؟",
+                "tr": "Hastanın dikkate almamız gereken bilinen önceden var olan bir durumu var mı?"
+            },
+            "id": "v15_01"
+        },
+        {
+            "germanTerm": "die Operation",
+            "article": "die",
+            "plural": "die Operationen",
+            "pronunciation": "ɔpəʁaˈt͡si̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "surgery",
+                "bn": "অপারেশন",
+                "hi": "सर्जरी",
+                "ur": "سرجری",
+                "tr": "ameliyat"
+            },
+            "exampleSentence": "Wann war die letzte Operation des Patienten?",
+            "exampleTranslation": {
+                "en": "When was the patient's last surgery?",
+                "bn": "রোগীর সর্বশেষ অপারেশন কবে হয়েছিল?",
+                "hi": "मरीज की आखिरी सर्जरी कब हुई थी?",
+                "ur": "مریض کی آخری سرجری کب ہوئی تھی؟",
+                "tr": "Hastanın son ameliyatı ne zaman yapıldı?"
+            },
+            "id": "v15_02"
+        },
+        {
+            "germanTerm": "die Allergie",
+            "article": "die",
+            "plural": "die Allergien",
+            "pronunciation": "alɛʁˈɡiː",
+            "category": "noun",
+            "translation": {
+                "en": "allergy",
+                "bn": "অ্যালার্জি",
+                "hi": "एलर्जी",
+                "ur": "الرجی",
+                "tr": "alerji"
+            },
+            "exampleSentence": "Hat der Patient Allergien gegen Medikamente oder Lebensmittel?",
+            "exampleTranslation": {
+                "en": "Does the patient have allergies to medications or food?",
+                "bn": "রোগীর ওষুধ বা খাবারে কোনো অ্যালার্জি আছে কি?",
+                "hi": "क्या मरीज को दवा या भोजन से एलर्जी है?",
+                "ur": "کیا مریض کو ادویات یا کھانے سے الرجی ہے؟",
+                "tr": "Hastanın ilaçlara veya yiyeceklere alerjisi var mı?"
+            },
+            "id": "v15_03"
+        },
+        {
+            "germanTerm": "das Medikament",
+            "article": "das",
+            "plural": "die Medikamente",
+            "pronunciation": "mediˈkamɛnt",
+            "category": "noun",
+            "translation": {
+                "en": "medication",
+                "bn": "ঔষধ",
+                "hi": "दवा",
+                "ur": "دوا",
+                "tr": "ilaç"
+            },
+            "exampleSentence": "Welche Medikamente nimmt der Patient regelmäßig ein?",
+            "exampleTranslation": {
+                "en": "Which medications does the patient take regularly?",
+                "bn": "রোগী নিয়মিত কোন ঔষধ সেবন করেন?",
+                "hi": "मरीज नियमित रूप से कौन सी दवाएं लेता है?",
+                "ur": "مریض کونسی ادویات باقاعدگی سے لیتا ہے؟",
+                "tr": "Hasta düzenli olarak hangi ilaçları alıyor?"
+            },
+            "id": "v15_04"
+        },
+        {
+            "germanTerm": "die Impfung",
+            "article": "die",
+            "plural": "die Impfungen",
+            "pronunciation": "ˈɪmpfʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "vaccination",
+                "bn": "টিকা",
+                "hi": "टीकाकरण",
+                "ur": "ویکسینیشن",
+                "tr": "aşılama"
+            },
+            "exampleSentence": "Ist der Patient vollständig geimpft gemäß den aktuellen Empfehlungen?",
+            "exampleTranslation": {
+                "en": "Is the patient fully vaccinated according to current recommendations?",
+                "bn": "রোগী কি বর্তমান সুপারিশ অনুযায়ী সম্পূর্ণরূপে টিকা নিয়েছেন?",
+                "hi": "क्या मरीज वर्तमान सिफारिशों के अनुसार पूरी तरह से टीकाकृत है?",
+                "ur": "کیا مریض موجودہ سفارشات کے مطابق مکمل طور پر ویکسین شدہ ہے؟",
+                "tr": "Hasta mevcut tavsiyelere göre tamamen aşılanmış mı?"
+            },
+            "id": "v15_05"
+        },
+        {
+            "germanTerm": "die Arzneimittelunverträglichkeit",
+            "article": "die",
+            "plural": "die Arzneimittelunverträglichkeiten",
+            "pronunciation": "ˈaʁt͡snaɪ̯ˌmɪtl̩ʔʊnfɛɐ̯ˈtʁɛːklɪçkaɪ̯t",
+            "category": "noun",
+            "translation": {
+                "en": "drug intolerance",
+                "bn": "ড্রাগ অসহিষ্ণুতা",
+                "hi": "दवा असहिष्णुता",
+                "ur": "دوا عدم برداشت",
+                "tr": "ilaç intoleransı"
+            },
+            "exampleSentence": "Gibt es Hinweise auf eine Arzneimittelunverträglichkeit?",
+            "exampleTranslation": {
+                "en": "Is there any evidence of drug intolerance?",
+                "bn": "ড্রাগ অসহিষ্ণুতার কোনো প্রমাণ আছে কি?",
+                "hi": "क्या दवा असहिष्णुता का कोई प्रमाण है?",
+                "ur": "کیا دوا عدم برداشت کا کوئی ثبوت ہے؟",
+                "tr": "İlaç intoleransına dair herhangi bir kanıt var mı?"
+            },
+            "id": "v15_06"
+        },
+        {
+            "germanTerm": "der Blutdruck",
+            "article": "der",
+            "plural": "die Blutdrucke",
+            "pronunciation": "ˈbluːtˌdʁʊk",
+            "category": "noun",
+            "translation": {
+                "en": "blood pressure",
+                "bn": "রক্তচাপ",
+                "hi": "रक्त चाप",
+                "ur": "بلڈ پریشر",
+                "tr": "kan basıncı"
+            },
+            "exampleSentence": "Der Patient hat einen erhöhten Blutdruck.",
+            "exampleTranslation": {
+                "en": "The patient has elevated blood pressure.",
+                "bn": "রোগীর রক্তচাপ বেশি।",
+                "hi": "मरीज का रक्तचाप बढ़ा हुआ है।",
+                "ur": "مریض کا بلڈ پریشر زیادہ ہے۔",
+                "tr": "Hastanın kan basıncı yüksek."
+            },
+            "id": "v15_07"
+        },
+        {
+            "germanTerm": "die Schilddrüsenerkrankung",
+            "article": "die",
+            "plural": "die Schilddrüsenerkrankungen",
+            "pronunciation": "ˈʃɪltˌdʁyːzənʔɛɐ̯ˌkʁaŋkʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "thyroid disease",
+                "bn": "থাইরয়েড রোগ",
+                "hi": "थायराइड रोग",
+                "ur": "تائرواڈ کی بیماری",
+                "tr": "tiroid hastalığı"
+            },
+            "exampleSentence": "Wurde bei dem Patienten jemals eine Schilddrüsenerkrankung diagnostiziert?",
+            "exampleTranslation": {
+                "en": "Has the patient ever been diagnosed with a thyroid disease?",
+                "bn": "রোগীর কি কখনও থাইরয়েড রোগ নির্ণয় করা হয়েছে?",
+                "hi": "क्या मरीज को कभी थायराइड रोग का निदान किया गया है?",
+                "ur": "کیا مریض کو کبھی تائرواڈ کی بیماری کی تشخیص ہوئی ہے؟",
+                "tr": "Hastaya hiç tiroid hastalığı teşhisi konuldu mu?"
+            },
+            "id": "v15_08"
+        },
+        {
+            "germanTerm": "die Herzkrankheit",
+            "article": "die",
+            "plural": "die Herzkrankheiten",
+            "pronunciation": "ˈhɛʁt͡sˌkʁaŋkhaɪ̯t",
+            "category": "noun",
+            "translation": {
+                "en": "heart disease",
+                "bn": "হৃদরোগ",
+                "hi": "हृदय रोग",
+                "ur": "دل کی بیماری",
+                "tr": "kalp hastalığı"
+            },
+            "exampleSentence": "In der Familienanamnese gibt es viele Fälle von Herzkrankheiten.",
+            "exampleTranslation": {
+                "en": "There are many cases of heart disease in the family history.",
+                "bn": "পারিবারিক ইতিহাসে হৃদরোগের অনেক ঘটনা রয়েছে।",
+                "hi": "पारिवारिक इतिहास में हृदय रोग के कई मामले हैं।",
+                "ur": "خاندانی تاریخ میں دل کی بیماری کے بہت سے معاملات ہیں۔",
+                "tr": "Aile öyküsünde birçok kalp hastalığı vakası var."
+            },
+            "id": "v15_09"
+        },
+        {
+            "germanTerm": "die Diabetes",
+            "article": "die",
+            "plural": "die Diabeten",
+            "pronunciation": "di̯aˈbeːtəs",
+            "category": "noun",
+            "translation": {
+                "en": "diabetes",
+                "bn": "ডায়াবেটিস",
+                "hi": "मधुमेह",
+                "ur": "ذیابیطس",
+                "tr": "diyabet"
+            },
+            "exampleSentence": "Der Patient hat Diabetes Typ 2.",
+            "exampleTranslation": {
+                "en": "The patient has type 2 diabetes.",
+                "bn": "রোগীর ২ নম্বর ডায়াবেটিস আছে।",
+                "hi": "मरीज को टाइप 2 मधुमेह है।",
+                "ur": "مریض کو ٹائپ 2 ذیابیطس ہے۔",
+                "tr": "Hastanın tip 2 diyabeti var."
+            },
+            "id": "v15_10"
+        },
+        {
+            "germanTerm": "die Dauermedikation",
+            "article": "die",
+            "plural": "die Dauermedikationen",
+            "pronunciation": "ˈdaʊ̯ɐˌmeːdikaˌt͡si̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "long-term medication",
+                "bn": "দীর্ঘমেয়াদী ওষুধ",
+                "hi": "दीर्घकालिक दवा",
+                "ur": "طویل مدتی ادویات",
+                "tr": "uzun süreli ilaç"
+            },
+            "exampleSentence": "Bitte listen Sie die Dauermedikation des Patienten auf.",
+            "exampleTranslation": {
+                "en": "Please list the patient's long-term medication.",
+                "bn": "দয়া করে রোগীর দীর্ঘমেয়াদী ওষুধের তালিকা দিন।",
+                "hi": "कृपया मरीज की दीर्घकालिक दवा सूचीबद्ध करें।",
+                "ur": "براہ کرم مریض کی طویل مدتی ادویات کی فہرست دیں۔",
+                "tr": "Lütfen hastanın uzun süreli ilaçlarını listeleyin."
+            },
+            "id": "v15_11"
+        },
+        {
+            "germanTerm": "operiert werden",
+            "article": null,
+            "plural": null,
+            "pronunciation": "opeˈʁiːɐ̯t ˈveːɐ̯dn̩",
+            "category": "verb",
+            "translation": {
+                "en": "to undergo surgery",
+                "bn": "অস্ত্রোপচার করা",
+                "hi": "सर्जरी करवाना",
+                "ur": "آپریشن کروانا",
+                "tr": "ameliyat olmak"
+            },
+            "exampleSentence": "Der Patient musste am Knie operiert werden.",
+            "exampleTranslation": {
+                "en": "The patient had to undergo surgery on the knee.",
+                "bn": "রোগীকে হাঁটুতে অস্ত্রোপচার করতে হয়েছিল।",
+                "hi": "मरीज को घुटने की सर्जरी करवानी पड़ी।",
+                "ur": "مریض کو گھٹنے کی سرجری کروانی پڑی۔",
+                "tr": "Hastanın dizinden ameliyat olması gerekti."
+            },
+            "id": "v15_12"
+        },
+        {
+            "germanTerm": "allergisch gegen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "aˈlɛʁɡɪʃ ˈɡeːɡən",
+            "category": "adjective",
+            "translation": {
+                "en": "allergic to",
+                "bn": "এলার্জি আছে",
+                "hi": "से एलर्जी",
+                "ur": "سے الرجی ہے",
+                "tr": "alerjisi var"
+            },
+            "exampleSentence": "Der Patient ist allergisch gegen Penicillin.",
+            "exampleTranslation": {
+                "en": "The patient is allergic to penicillin.",
+                "bn": "রোগীর পেনিসিলিনে অ্যালার্জি আছে।",
+                "hi": "मरीज को पेनिसिलिन से एलर्जी है।",
+                "ur": "مریض کو پینسلین سے الرجی ہے۔",
+                "tr": "Hastanın penisiline alerjisi var."
+            },
+            "id": "v15_13"
+        },
+        {
+            "germanTerm": "einnehmen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˈaɪ̯nˌneːmən",
+            "category": "verb",
+            "translation": {
+                "en": "to take (medication)",
+                "bn": "গ্রহণ করা (ওষুধ)",
+                "hi": "लेना (दवा)",
+                "ur": "لینا (دوا)",
+                "tr": "almak (ilaç)"
+            },
+            "exampleSentence": "Der Patient nimmt regelmäßig Schmerzmittel ein.",
+            "exampleTranslation": {
+                "en": "The patient regularly takes painkillers.",
+                "bn": "রোগী নিয়মিত ব্যথানাশক ওষুধ সেবন করেন।",
+                "hi": "मरीज नियमित रूप से दर्द निवारक दवा लेता है।",
+                "ur": "مریض باقاعدگی سے درد کش دوا لیتا ہے۔",
+                "tr": "Hasta düzenli olarak ağrı kesici alıyor."
+            },
+            "id": "v15_14"
+        },
+        {
+            "germanTerm": "geimpft gegen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ɡəˈʔɪmp͡ft ˈɡeːɡən",
+            "category": "adjective",
+            "translation": {
+                "en": "vaccinated against",
+                "bn": "বিরুদ্ধে টিকা দেওয়া",
+                "hi": "के खिलाफ टीका लगाया गया",
+                "ur": "کے خلاف ویکسین شدہ",
+                "tr": "karşı aşılanmış"
+            },
+            "exampleSentence": "Der Patient ist gegen Tetanus geimpft.",
+            "exampleTranslation": {
+                "en": "The patient is vaccinated against tetanus.",
+                "bn": "রোগীকে টিটেনাসের বিরুদ্ধে টিকা দেওয়া হয়েছে।",
+                "hi": "मरीज को टेटनस के खिलाफ टीका लगाया गया है।",
+                "ur": "مریض کو تشنج کے خلاف ویکسین کیا گیا ہے۔",
+                "tr": "Hastaya tetanoza karşı aşı yapılmıştır."
+            },
+            "id": "v15_15"
+        },
+        {
+            "germanTerm": "die Impfpass",
+            "article": "der",
+            "plural": "die Impfpässe",
+            "pronunciation": "ˈɪmpfˌpas",
+            "category": "noun",
+            "translation": {
+                "en": "vaccination card",
+                "bn": "টিকা কার্ড",
+                "hi": "टीकाकरण कार्ड",
+                "ur": "ویکسینیشن کارڈ",
+                "tr": "aşılama kartı"
+            },
+            "exampleSentence": "Bitte bringen Sie Ihren Impfpass mit.",
+            "exampleTranslation": {
+                "en": "Please bring your vaccination card with you.",
+                "bn": "দয়া করে আপনার টিকা কার্ডটি সঙ্গে নিয়ে আসুন।",
+                "hi": "कृपया अपना टीकाकरण कार्ड अपने साथ लाएं।",
+                "ur": "براہ کرم اپنا ویکسینیشن کارڈ اپنے ساتھ لائیں۔",
+                "tr": "Lütfen aşılama kartınızı yanınızda getirin."
+            },
+            "id": "v15_16"
+        },
+        {
+            "germanTerm": "die Vorgeschichte",
+            "article": "die",
+            "plural": "die Vorgeschichten",
+            "pronunciation": "ˈfoːɐ̯ɡəˌʃɪçtə",
+            "category": "noun",
+            "translation": {
+                "en": "medical history",
+                "bn": "মেডিকেল ইতিহাস",
+                "hi": "चिकित्सा इतिहास",
+                "ur": "طبی تاریخ",
+                "tr": "tıbbi geçmiş"
+            },
+            "exampleSentence": "Die Vorgeschichte des Patienten ist relevant für die Diagnose.",
+            "exampleTranslation": {
+                "en": "The patient's medical history is relevant to the diagnosis.",
+                "bn": "রোগীর মেডিকেল ইতিহাস রোগ নির্ণয়ের জন্য প্রাসঙ্গিক।",
+                "hi": "मरीज का चिकित्सा इतिहास निदान के लिए प्रासंगिक है।",
+                "ur": "مریض کی طبی تاریخ تشخیص کے لیے متعلقہ ہے۔",
+                "tr": "Hastanın tıbbi geçmişi teşhis için önemlidir."
+            },
+            "id": "v15_17"
+        },
+        {
+            "germanTerm": "die Komplikation",
+            "article": "die",
+            "plural": "die Komplikationen",
+            "pronunciation": "kɔmplikaˈt͡si̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "complication",
+                "bn": "জটিলতা",
+                "hi": "जटिलता",
+                "ur": "پیچیدگی",
+                "tr": "komplikasyon"
+            },
+            "exampleSentence": "Es gab keine Komplikationen während der Operation.",
+            "exampleTranslation": {
+                "en": "There were no complications during the surgery.",
+                "bn": "অস্ত্রোপচারের সময় কোনো জটিলতা ছিল না।",
+                "hi": "सर्जरी के दौरान कोई जटिलता नहीं थी।",
+                "ur": "سرجری کے دوران کوئی پیچیدگی نہیں تھی۔",
+                "tr": "Ameliyat sırasında herhangi bir komplikasyon olmadı."
+            },
+            "id": "v15_18"
+        },
+        {
+            "germanTerm": "die Unverträglichkeit",
+            "article": "die",
+            "plural": "die Unverträglichkeiten",
+            "pronunciation": "ˈʊnfɛɐ̯ˌtʁɛːklɪçkaɪ̯t",
+            "category": "noun",
+            "translation": {
+                "en": "intolerance",
+                "bn": "অসহিষ্ণুতা",
+                "hi": "असहिष्णुता",
+                "ur": "عدم برداشت",
+                "tr": "intolerans"
+            },
+            "exampleSentence": "Hat der Patient Unverträglichkeiten gegen bestimmte Lebensmittel?",
+            "exampleTranslation": {
+                "en": "Does the patient have intolerances to certain foods?",
+                "bn": "রোগীর কি নির্দিষ্ট খাবারের প্রতি অসহিষ্ণুতা আছে?",
+                "hi": "क्या मरीज को कुछ खाद्य पदार्थों से असहिष्णुता है?",
+                "ur": "کیا مریض کو بعض کھانوں سے عدم برداشت ہے؟",
+                "tr": "Hastanın belirli yiyeceklere karşı intoleransı var mı?"
+            },
+            "id": "v15_19"
+        },
+        {
+            "germanTerm": "die Kontraindikation",
+            "article": "die",
+            "plural": "die Kontraindikationen",
+            "pronunciation": "ˌkɔntʁaʔɪndikaˈt͡si̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "contraindication",
+                "bn": "প্রতিরোধ",
+                "hi": "निषेध",
+                "ur": "ممانعت",
+                "tr": "kontrendikasyon"
+            },
+            "exampleSentence": "Gibt es Kontraindikationen für diese Behandlung?",
+            "exampleTranslation": {
+                "en": "Are there any contraindications for this treatment?",
+                "bn": "এই চিকিৎসার জন্য কোনো প্রতিরোধ আছে কি?",
+                "hi": "क्या इस उपचार के लिए कोई निषेध है?",
+                "ur": "کیا اس علاج کے لیے کوئی ممانعت ہے؟",
+                "tr": "Bu tedavi için herhangi bir kontrendikasyon var mı?"
+            },
+            "id": "v15_20"
+        },
+        {
+            "germanTerm": "die Immunisierung",
+            "article": "die",
+            "plural": "die Immunisierungen",
+            "pronunciation": "ɪmuniˈziːʁʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "immunization",
+                "bn": "ইমিউনাইজেশন",
+                "hi": "प्रतिरक्षण",
+                "ur": "امیونائزیشن",
+                "tr": "bağışıklama"
+            },
+            "exampleSentence": "Die Immunisierung des Patienten ist altersgerecht.",
+            "exampleTranslation": {
+                "en": "The patient's immunization is age-appropriate.",
+                "bn": "রোগীর ইমিউনাইজেশন বয়স-উপযুক্ত।",
+                "hi": "मरीज का प्रतिरक्षण आयु-उपयुक्त है।",
+                "ur": "مریض کی امیونائزیشن عمر کے مطابق ہے۔",
+                "tr": "Hastanın bağışıklaması yaşa uygundur."
+            },
+            "id": "v15_21"
+        },
+        {
+            "germanTerm": "der Allergietest",
+            "article": "der",
+            "plural": "die Allergietests",
+            "pronunciation": "aˈlɛʁɡiːˌtɛst",
+            "category": "noun",
+            "translation": {
+                "en": "allergy test",
+                "bn": "অ্যালার্জি পরীক্ষা",
+                "hi": "एलर्जी परीक्षण",
+                "ur": "الرجی ٹیسٹ",
+                "tr": "alerji testi"
+            },
+            "exampleSentence": "Wir führen einen Allergietest durch, um die Ursache der Hautreaktion zu finden.",
+            "exampleTranslation": {
+                "en": "We are performing an allergy test to find the cause of the skin reaction.",
+                "bn": "আমরা ত্বকের প্রতিক্রিয়ার কারণ খুঁজে বের করার জন্য একটি অ্যালার্জি পরীক্ষা করছি।",
+                "hi": "हम त्वचा की प्रतिक्रिया का कारण जानने के लिए एलर्जी परीक्षण कर रहे हैं।",
+                "ur": "ہم جلد کے رد عمل کی وجہ معلوم کرنے کے لیے الرجی ٹیسٹ کر رہے ہیں۔",
+                "tr": "Cilt reaksiyonunun nedenini bulmak için bir alerji testi yapıyoruz."
+            },
+            "id": "v15_22"
+        },
+        {
+            "germanTerm": "die Anamnese erheben",
+            "article": null,
+            "plural": null,
+            "pronunciation": "diː ʔanaˈmneːzə ʔɛɐ̯ˈheːbən",
+            "category": "phrase",
+            "translation": {
+                "en": "to take a medical history",
+                "bn": "মেডিকেল ইতিহাস নেওয়া",
+                "hi": "चिकित्सा इतिहास लेना",
+                "ur": "طبی تاریخ لینا",
+                "tr": "tıbbi geçmiş almak"
+            },
+            "exampleSentence": "Der Arzt muss die Anamnese des Patienten sorgfältig erheben.",
+            "exampleTranslation": {
+                "en": "The doctor must carefully take the patient's medical history.",
+                "bn": "ডাক্তারকে রোগীর মেডিকেল ইতিহাস সাবধানে নিতে হবে।",
+                "hi": "डॉक्टर को मरीज का चिकित्सा इतिहास सावधानीपूर्वक लेना चाहिए।",
+                "ur": "ڈاکٹر کو مریض کی طبی تاریخ احتیاط سے لینی چاہیے۔",
+                "tr": "Doktor hastanın tıbbi geçmişini dikkatlice almalıdır."
+            },
+            "id": "v15_23"
+        },
+        {
+            "germanTerm": "leiden an",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˈlaɪ̯dn̩ ʔan",
+            "category": "verb",
+            "translation": {
+                "en": "to suffer from",
+                "bn": "থেকে ভোগা",
+                "hi": "से पीड़ित होना",
+                "ur": "سے متاثر ہونا",
+                "tr": "çekmek (hastalık)"
+            },
+            "exampleSentence": "Der Patient leidet an chronischen Rückenschmerzen.",
+            "exampleTranslation": {
+                "en": "The patient suffers from chronic back pain.",
+                "bn": "রোগী দীর্ঘস্থায়ী পিঠের ব্যথায় ভুগছেন।",
+                "hi": "मरीज पुरानी पीठ दर्द से पीड़ित है।",
+                "ur": "مریض دائمی کمر درد سے متاثر ہے۔",
+                "tr": "Hasta kronik sırt ağrısından muzdarip."
+            },
+            "id": "v15_24"
+        },
+        {
+            "germanTerm": "die Begleiterkrankung",
+            "article": "die",
+            "plural": "die Begleiterkrankungen",
+            "pronunciation": "bəˈɡlaɪ̯tɐˌkʁaŋkʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "comorbidity",
+                "bn": "সহবর্তী রোগ",
+                "hi": "सह-रुग्णता",
+                "ur": "ہمراہی مرض",
+                "tr": "eşlik eden hastalık"
+            },
+            "exampleSentence": "Die Begleiterkrankungen erschweren die Behandlung.",
+            "exampleTranslation": {
+                "en": "The comorbidities complicate the treatment.",
+                "bn": "সহবর্তী রোগগুলি চিকিত্সা কঠিন করে তোলে।",
+                "hi": "सह-रुग्णताएँ उपचार को जटिल बनाती हैं।",
+                "ur": "ہمراہی امراض علاج کو پیچیدہ بناتے ہیں۔",
+                "tr": "Eşlik eden hastalıklar tedaviyi zorlaştırıyor."
+            },
+            "id": "v15_25"
+        },
+        {
+            "germanTerm": "die Medikamentenliste",
+            "article": "die",
+            "plural": "die Medikamentenlisten",
+            "pronunciation": "mediˈkamɛntn̩ˌlɪstə",
+            "category": "noun",
+            "translation": {
+                "en": "medication list",
+                "bn": "ওষুধের তালিকা",
+                "hi": "दवा सूची",
+                "ur": "ادویات کی فہرست",
+                "tr": "ilaç listesi"
+            },
+            "exampleSentence": "Bitte überprüfen Sie die Medikamentenliste des Patienten sorgfältig.",
+            "exampleTranslation": {
+                "en": "Please check the patient's medication list carefully.",
+                "bn": "দয়া করে রোগীর ওষুধের তালিকাটি সাবধানে পরীক্ষা করুন।",
+                "hi": "कृपया मरीज की दवा सूची को ध्यान से देखें।",
+                "ur": "براہ کرم مریض کی ادویات کی فہرست کو احتیاط سے چیک کریں۔",
+                "tr": "Lütfen hastanın ilaç listesini dikkatlice kontrol edin."
+            },
+            "id": "v15_26"
+        },
+        {
+            "germanTerm": "die Kontrolluntersuchung",
+            "article": "die",
+            "plural": "die Kontrolluntersuchungen",
+            "pronunciation": "kɔnˈtʁɔlʔʊntɐˌzuːxʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "follow-up examination",
+                "bn": "অনুসরণ পরীক্ষা",
+                "hi": "अनुवर्ती परीक्षा",
+                "ur": "فالو اپ معائنہ",
+                "tr": "takip muayenesi"
+            },
+            "exampleSentence": "Der Patient muss regelmäßig zur Kontrolluntersuchung kommen.",
+            "exampleTranslation": {
+                "en": "The patient must come for regular follow-up examinations.",
+                "bn": "রোগীকে নিয়মিত অনুসরণ পরীক্ষার জন্য আসতে হবে।",
+                "hi": "मरीज को नियमित रूप से अनुवर्ती परीक्षा के लिए आना होगा।",
+                "ur": "مریض کو باقاعدگی سے فالو اپ معائنے کے لیے آنا ہوگا۔",
+                "tr": "Hastanın düzenli takip muayenelerine gelmesi gerekiyor."
+            },
+            "id": "v15_27"
+        },
+        {
+            "germanTerm": "das Beschwerdebild",
+            "article": "das",
+            "plural": "die Beschwerdebilder",
+            "pronunciation": "bəˈʃveːɐ̯dəˌbɪlt",
+            "category": "noun",
+            "translation": {
+                "en": "symptoms",
+                "bn": "উপসর্গ",
+                "hi": "लक्षण",
+                "ur": "علامات",
+                "tr": "semptomlar"
+            },
+            "exampleSentence": "Das Beschwerdebild des Patienten deutet auf eine Infektion hin.",
+            "exampleTranslation": {
+                "en": "The patient's symptoms suggest an infection.",
+                "bn": "রোগীর উপসর্গগুলি একটি সংক্রমণের দিকে ইঙ্গিত করে।",
+                "hi": "मरीज के लक्षण एक संक्रमण का सुझाव देते हैं।",
+                "ur": "مریض کی علامات ایک انفیکشن کی تجویز کرتی ہیں۔",
+                "tr": "Hastanın semptomları bir enfeksiyona işaret ediyor."
+            },
+            "id": "v15_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Medical History III: Allergies Inquiry",
+                "bn": "মেডিকেল ইতিহাস III: অ্যালার্জি জিজ্ঞাসা",
+                "hi": "चिकित्सा इतिहास III: एलर्जी पूछताछ",
+                "ur": "طبی تاریخ III: الرجی کی انکوائری",
+                "tr": "Tıbbi Geçmiş III: Alerji Sorgusu"
+            },
+            "context": {
+                "en": "Dr. Schmidt is taking the patient's medical history regarding allergies.",
+                "bn": "ডঃ শ্মিট রোগীর অ্যালার্জি সম্পর্কিত চিকিৎসা ইতিহাস নিচ্ছেন।",
+                "hi": "डॉ श्मिट मरीज की एलर्जी से संबंधित चिकित्सा इतिहास ले रहे हैं।",
+                "ur": "ڈاکٹر شمٹ مریض کی الرجی کے بارے میں طبی تاریخ لے رہے ہیں۔",
+                "tr": "Dr. Schmidt, hastanın alerjileri ile ilgili tıbbi geçmişini alıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Morgen, Herr Müller. Haben Sie irgendwelche Allergien, von denen Sie wissen?",
+                    "translation": {
+                        "en": "Good morning, Mr. Müller. Do you have any allergies that you know of?",
+                        "bn": "শুভ সকাল, মিঃ মুলার। আপনার কি কোনো অ্যালার্জি আছে যা আপনি জানেন?",
+                        "hi": "शुभ प्रभात, श्रीमान मुलर। क्या आपको कोई एलर्जी है जिसके बारे में आप जानते हैं?",
+                        "ur": "صبح بخیر مسٹر مولر۔ کیا آپ کو کوئی الرجی ہے جس کے بارے میں آپ جانتے ہوں؟",
+                        "tr": "Günaydın, Bay Müller. Bildiğiniz herhangi bir alerjiniz var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, ich bin allergisch gegen Penicillin und habe Heuschnupfen.",
+                    "translation": {
+                        "en": "Yes, I am allergic to penicillin and I have hay fever.",
+                        "bn": "হ্যাঁ, আমার পেনিসিলিনে অ্যালার্জি আছে এবং আমার হে ফিভার আছে।",
+                        "hi": "हाँ, मुझे पेनिसिलिन से एलर्जी है और मुझे हे फीवर है।",
+                        "ur": "ہاں، مجھے پینسلین سے الرجی ہے اور مجھے گھاس کا بخار ہے۔",
+                        "tr": "Evet, penisiline alerjim var ve saman nezlem var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Penicillin, notiert. Gibt es andere Medikamente, auf die Sie reagieren?",
+                    "translation": {
+                        "en": "Penicillin, noted. Are there any other medications you react to?",
+                        "bn": "পেনিসিলিন, নোট করা হলো। অন্য কোনো ওষুধ আছে যা আপনার প্রতিক্রিয়া করে?",
+                        "hi": "पेनिसिलिन, नोट किया गया। क्या कोई अन्य दवाएं हैं जिनसे आपको प्रतिक्रिया होती है?",
+                        "ur": "پینسلین، نوٹ کرلیا گیا۔ کیا کوئی اور دوائیں ہیں جن پر آپ ردعمل ظاہر کرتے ہیں؟",
+                        "tr": "Penisilin, not edildi. Tepki verdiğiniz başka ilaçlar var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Nein, soweit ich weiß, nicht.",
+                    "translation": {
+                        "en": "No, not that I know of.",
+                        "bn": "না, যতদূর আমি জানি, না।",
+                        "hi": "नहीं, जहाँ तक मुझे पता है, नहीं।",
+                        "ur": "نہیں، جہاں تک میں جانتا ہوں، نہیں۔",
+                        "tr": "Hayır, bildiğim kadarıyla yok."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Gut, dann notiere ich das so. Vielen Dank!",
+                    "translation": {
+                        "en": "Good, then I'll note that down. Thank you very much!",
+                        "bn": "ভাল, তাহলে আমি এটা লিখে রাখছি। আপনাকে অনেক ধন্যবাদ!",
+                        "hi": "अच्छा, तो मैं इसे लिख लेता हूँ। बहुत बहुत धन्यवाद!",
+                        "ur": "اچھا، تو میں اسے لکھ لیتا ہوں۔ بہت بہت شکریہ!",
+                        "tr": "Güzel, o zaman bunu not edeceğim. Çok teşekkür ederim!"
+                    }
+                }
+            ],
+            "id": "d15_01"
+        },
+        {
+            "title": {
+                "en": "Medical History III: Previous Surgeries",
+                "bn": "মেডিকেল ইতিহাস III: পূর্ববর্তী সার্জারি",
+                "hi": "चिकित्सा इतिहास III: पिछली सर्जरी",
+                "ur": "طبی تاریخ III: پچھلی سرجری",
+                "tr": "Tıbbi Geçmiş III: Önceki Ameliyatlar"
+            },
+            "context": {
+                "en": "Nurse Weber is asking the patient about previous surgeries.",
+                "bn": "নার্স ওয়েবার রোগীর পূর্ববর্তী সার্জারি সম্পর্কে জিজ্ঞাসা করছেন।",
+                "hi": "नर्स वेबर मरीज से पिछली सर्जरी के बारे में पूछ रही हैं।",
+                "ur": "نرس ویبر مریض سے پچھلی سرجری کے بارے میں پوچھ رہی ہیں۔",
+                "tr": "Hemşire Weber, hastaya önceki ameliyatları soruyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Tag, Frau Schmidt. Können Sie mir bitte sagen, ob Sie schon einmal operiert wurden?",
+                    "translation": {
+                        "en": "Good day, Mrs. Schmidt. Could you please tell me if you have ever had surgery?",
+                        "bn": "শুভ দিন, মিসেস শ্মিট। আপনি কি দয়া করে বলতে পারেন যে আপনার আগে কখনও সার্জারি হয়েছে?",
+                        "hi": "शुभ दिन, श्रीमती श्मिट। क्या आप कृपया मुझे बता सकती हैं कि क्या आपने पहले कभी सर्जरी करवाई है?",
+                        "ur": "شب بخیر، محترمہ شمٹ۔ کیا آپ براہ کرم مجھے بتا سکتی ہیں کہ کیا آپ نے پہلے کبھی سرجری کروائی ہے؟",
+                        "tr": "İyi günler, Bayan Schmidt. Bana daha önce ameliyat olup olmadığınızı söyleyebilir misiniz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, vor fünf Jahren wurde mir der Blinddarm entfernt.",
+                    "translation": {
+                        "en": "Yes, five years ago my appendix was removed.",
+                        "bn": "হ্যাঁ, পাঁচ বছর আগে আমার অ্যাপেন্ডিক্স অপসারণ করা হয়েছিল।",
+                        "hi": "हाँ, पांच साल पहले मेरा अपेंडिक्स हटाया गया था।",
+                        "ur": "ہاں، پانچ سال پہلے میری اپینڈکس کو ہٹا دیا گیا تھا۔",
+                        "tr": "Evet, beş yıl önce apandisim alındı."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Alles klar, Blinddarmentfernung vor fünf Jahren. Gibt es sonst noch etwas?",
+                    "translation": {
+                        "en": "Alright, appendectomy five years ago. Anything else?",
+                        "bn": "ঠিক আছে, পাঁচ বছর আগে অ্যাপেন্ডিসেক্টমি। আর কিছু?",
+                        "hi": "ठीक है, पांच साल पहले अपेंडेक्टमी। और कुछ?",
+                        "ur": "ٹھیک ہے، پانچ سال پہلے اپینڈیکٹومی۔ اور کچھ؟",
+                        "tr": "Tamam, beş yıl önce apandisit ameliyatı. Başka bir şey var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Nein, das war alles.",
+                    "translation": {
+                        "en": "No, that was all.",
+                        "bn": "না, এই ছিল সব।",
+                        "hi": "नहीं, बस इतना ही था।",
+                        "ur": "نہیں، بس اتنا ہی تھا۔",
+                        "tr": "Hayır, hepsi bu kadardı."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Vielen Dank, Frau Schmidt. Das ist sehr hilfreich.",
+                    "translation": {
+                        "en": "Thank you very much, Mrs. Schmidt. That's very helpful.",
+                        "bn": "আপনাকে অনেক ধন্যবাদ, মিসেস শ্মিট। এটা খুবই সহায়ক।",
+                        "hi": "आपका बहुत-बहुत धन्यवाद, श्रीमती श्मिट। यह बहुत मददगार है।",
+                        "ur": "آپ کا بہت بہت شکریہ، محترمہ شمٹ۔ یہ بہت مددگار ہے۔",
+                        "tr": "Çok teşekkür ederim, Bayan Schmidt. Bu çok yardımcı oldu."
+                    }
+                }
+            ],
+            "id": "d15_02"
+        },
+        {
+            "title": {
+                "en": "Medical History III: Current Medications",
+                "bn": "মেডিকেল ইতিহাস III: বর্তমান ওষুধ",
+                "hi": "चिकित्सा इतिहास III: वर्तमान दवाएं",
+                "ur": "طبی تاریخ III: موجودہ ادویات",
+                "tr": "Tıbbi Geçmiş III: Mevcut İlaçlar"
+            },
+            "context": {
+                "en": "Dr. Klein is asking about the patient's current medications.",
+                "bn": "ডঃ ক্লেইন রোগীর বর্তমান ওষুধ সম্পর্কে জিজ্ঞাসা করছেন।",
+                "hi": "डॉ. क्लेन मरीज से वर्तमान दवाओं के बारे में पूछ रहे हैं।",
+                "ur": "ڈاکٹر کلین مریض سے موجودہ ادویات کے بارے میں پوچھ رہے ہیں۔",
+                "tr": "Dr. Klein, hastanın mevcut ilaçları hakkında soru soruyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Abend, Herr Lehmann. Welche Medikamente nehmen Sie im Moment regelmäßig ein?",
+                    "translation": {
+                        "en": "Good evening, Mr. Lehmann. Which medications are you currently taking regularly?",
+                        "bn": "শুভ সন্ধ্যা, মিঃ লেহম্যান। আপনি বর্তমানে নিয়মিত কোন ওষুধ খাচ্ছেন?",
+                        "hi": "शुभ संध्या, श्री लेहमन। आप वर्तमान में नियमित रूप से कौन सी दवाएं ले रहे हैं?",
+                        "ur": "شب بخیر، مسٹر لیمن۔ آپ اس وقت باقاعدگی سے کون سی دوائیں لے رہے ہیں؟",
+                        "tr": "İyi akşamlar, Bay Lehmann. Şu anda düzenli olarak hangi ilaçları alıyorsunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich nehme täglich ein Medikament gegen Bluthochdruck und ab und zu Schmerzmittel.",
+                    "translation": {
+                        "en": "I take a medication for high blood pressure daily and painkillers every now and then.",
+                        "bn": "আমি প্রতিদিন উচ্চ রক্তচাপের জন্য একটি ওষুধ খাই এবং মাঝে মাঝে ব্যথানাশক ওষুধ খাই।",
+                        "hi": "मैं प्रतिदिन उच्च रक्तचाप के लिए एक दवा लेता हूं और कभी-कभी दर्द निवारक दवाएं लेता हूं।",
+                        "ur": "میں روزانہ ہائی بلڈ پریشر کے لیے ایک دوا لیتا ہوں اور وقتاً فوقتاً درد کم کرنے والی ادویات لیتا ہوں۔",
+                        "tr": "Her gün yüksek tansiyon için bir ilaç alıyorum ve ara sıra ağrı kesici kullanıyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Könnten Sie mir bitte die Namen der Medikamente nennen?",
+                    "translation": {
+                        "en": "Could you please tell me the names of the medications?",
+                        "bn": "আপনি কি দয়া করে ওষুধের নাম বলতে পারবেন?",
+                        "hi": "क्या आप कृपया मुझे दवाओं के नाम बता सकते हैं?",
+                        "ur": "کیا آپ براہ کرم مجھے دواؤں کے نام بتا سکتے ہیں؟",
+                        "tr": "Lütfen bana ilaçların isimlerini söyleyebilir misiniz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Das Blutdruckmittel heißt Lisinopril und das Schmerzmittel Ibuprofen.",
+                    "translation": {
+                        "en": "The blood pressure medication is called Lisinopril and the painkiller is Ibuprofen.",
+                        "bn": "রক্তচাপের ওষুধের নাম লিসিনোপ্রিল এবং ব্যথানাশক ওষুধটি হল আইবুপ্রোফেন।",
+                        "hi": "रक्तचाप की दवा का नाम लिसिनोप्रिल है और दर्द निवारक दवा इबुप्रोफेन है।",
+                        "ur": "بلڈ پریشر کی دوا کا نام لیسینوپریل ہے اور درد کم کرنے والی دوا آئبوپروفین ہے۔",
+                        "tr": "Tansiyon ilacının adı Lisinopril ve ağrı kesicinin adı Ibuprofen."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Danke, Herr Lehmann. Das ist sehr wichtig zu wissen.",
+                    "translation": {
+                        "en": "Thank you, Mr. Lehmann. This is very important to know.",
+                        "bn": "ধন্যবাদ, মিঃ লেহম্যান। এটা জানা খুবই গুরুত্বপূর্ণ।",
+                        "hi": "धन्यवाद, श्री लेहमन। यह जानना बहुत महत्वपूर्ण है।",
+                        "ur": "شکریہ، مسٹر لیمن۔ یہ جاننا بہت ضروری ہے۔",
+                        "tr": "Teşekkür ederim, Bay Lehmann. Bunu bilmek çok önemli."
+                    }
+                }
+            ],
+            "id": "d15_03"
+        },
+        {
+            "title": {
+                "en": "Medical History III: Previous Illnesses",
+                "bn": "মেডিকেল ইতিহাস III: পূর্ববর্তী অসুস্থতা",
+                "hi": "चिकित्सा इतिहास III: पूर्व बीमारियाँ",
+                "ur": "طبی تاریخ III: سابقہ بیماریاں",
+                "tr": "Tıbbi Geçmiş III: Önceki Hastalıklar"
+            },
+            "context": {
+                "en": "Nurse Schmidt is asking about the patient's previous illnesses.",
+                "bn": "নার্স শ্মিট রোগীর পূর্ববর্তী অসুস্থতা সম্পর্কে জিজ্ঞাসা করছেন।",
+                "hi": "नर्स श्मिट मरीज से पिछली बीमारियों के बारे में पूछ रही हैं।",
+                "ur": "نرس شمٹ مریض سے پچھلی بیماریوں کے بارے میں پوچھ رہی ہیں۔",
+                "tr": "Hemşire Schmidt, hastaya önceki hastalıkları soruyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Schmidt",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Morgen, Frau Meier. Welche Vorerkrankungen haben Sie?",
+                    "translation": {
+                        "en": "Good morning, Mrs. Meier. What pre-existing conditions do you have?",
+                        "bn": "শুভ সকাল, মিসেস মেয়ার। আপনার কি পূর্ববর্তী অসুস্থতা আছে?",
+                        "hi": "शुभ प्रभात, श्रीमती मायर। आपको कौन सी पूर्व-मौजूदा स्थितियाँ हैं?",
+                        "ur": "شب بخیر، محترمہ میئر۔ آپ کو پہلے سے موجود کیا حالات ہیں؟",
+                        "tr": "Günaydın, Bayan Meier. Daha önce geçirdiğiniz hastalıklar nelerdir?"
+                    }
+                },
+                {
+                    "speaker": "Patient Meier",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich hatte als Kind Masern und Windpocken. Sonst nichts Ernstes.",
+                    "translation": {
+                        "en": "I had measles and chickenpox as a child. Nothing serious otherwise.",
+                        "bn": "আমার ছোটবেলায় হাম ও জলবসন্ত হয়েছিল। অন্যথায় গুরুতর কিছু না।",
+                        "hi": "मुझे बचपन में खसरा और चेचक हुआ था। अन्यथा कुछ भी गंभीर नहीं।",
+                        "ur": "مجھے بچپن میں خسرہ اور چیچک ہوا تھا۔ ورنہ کچھ بھی سنجیدہ نہیں۔",
+                        "tr": "Çocukken kızamık ve suçiçeği geçirmiştim. Başka ciddi bir şey yok."
+                    }
+                },
+                {
+                    "speaker": "Schwester Schmidt",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Okay, Masern und Windpocken in der Kindheit. Haben Sie Diabetes oder Herzkrankheiten?",
+                    "translation": {
+                        "en": "Okay, measles and chickenpox in childhood. Do you have diabetes or heart disease?",
+                        "bn": "ঠিক আছে, শৈশবে হাম এবং জলবসন্ত। আপনার কি ডায়াবেটিস বা হৃদরোগ আছে?",
+                        "hi": "ठीक है, बचपन में खसरा और चेचक। क्या आपको मधुमेह या हृदय रोग है?",
+                        "ur": "ٹھیک ہے، بچپن میں خسرہ اور چیچک۔ کیا آپ کو ذیابیطس یا دل کی بیماری ہے؟",
+                        "tr": "Tamam, çocuklukta kızamık ve suçiçeği. Diyabetiniz veya kalp hastalığınız var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Meier",
+                    "speakerRole": "Patient",
+                    "germanText": "Nein, weder Diabetes noch Herzkrankheiten.",
+                    "translation": {
+                        "en": "No, neither diabetes nor heart disease.",
+                        "bn": "না, ডায়াবেটিসও নেই এবং হৃদরোগও নেই।",
+                        "hi": "नहीं, न तो मधुमेह और न ही हृदय रोग।",
+                        "ur": "نہیں، نہ تو ذیابیطس اور نہ ہی دل کی بیماری۔",
+                        "tr": "Hayır, ne diyabet ne de kalp hastalığı."
+                    }
+                },
+                {
+                    "speaker": "Schwester Schmidt",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Gut, dann ist alles notiert. Danke, Frau Meier!",
+                    "translation": {
+                        "en": "Good, then everything is noted. Thank you, Mrs. Meier!",
+                        "bn": "ভাল, তাহলে সবকিছু নোট করা হয়েছে। ধন্যবাদ, মিসেস মেয়ার!",
+                        "hi": "अच्छा, तो सब कुछ नोट कर लिया गया है। धन्यवाद, श्रीमती मायर!",
+                        "ur": "اچھا، تو سب کچھ نوٹ کر لیا گیا ہے۔ شکریہ، محترمہ میئر!",
+                        "tr": "Güzel, o zaman her şey not edildi. Teşekkür ederim, Bayan Meier!"
+                    }
+                }
+            ],
+            "id": "d15_04"
+        },
+        {
+            "title": {
+                "en": "Medical History III: Vaccinations",
+                "bn": "মেডিকেল ইতিহাস III: টিকাদান",
+                "hi": "चिकित्सा इतिहास III: टीकाकरण",
+                "ur": "طبی تاریخ III: ویکسینیشن",
+                "tr": "Tıbbi Geçmiş III: Aşılar"
+            },
+            "context": {
+                "en": "Dr. Weber is asking about the patient's vaccination status.",
+                "bn": "ডঃ ওয়েবার রোগীর টিকাদান স্থিতি সম্পর্কে জিজ্ঞাসা করছেন।",
+                "hi": "डॉ वेबर मरीज से टीकाकरण की स्थिति के बारे में पूछ रहे हैं।",
+                "ur": "ڈاکٹر ویبر مریض سے ویکسینیشن کی حیثیت کے بارے میں پوچھ رہے ہیں۔",
+                "tr": "Dr. Weber, hastanın aşı durumu hakkında soru soruyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Tag, Herr Schmidt. Können Sie mir sagen, welche Impfungen Sie haben?",
+                    "translation": {
+                        "en": "Good day, Mr. Schmidt. Can you tell me which vaccinations you have?",
+                        "bn": "শুভ দিন, মিঃ শ্মিট। আপনি কি বলতে পারেন আপনার কোন টিকাদানগুলো আছে?",
+                        "hi": "शुभ दिन, श्रीमान श्मिट। क्या आप मुझे बता सकते हैं कि आपके पास कौन से टीकाकरण हैं?",
+                        "ur": "شب بخیر، مسٹر شمٹ۔ کیا آپ مجھے بتا سکتے ہیں کہ آپ کے پاس کون سی ویکسینیشن ہیں؟",
+                        "tr": "İyi günler, Bay Schmidt. Bana hangi aşılarınızın olduğunu söyleyebilir misiniz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich bin gegen Tetanus, Polio und Grippe geimpft. Aber mein Impfpass ist zu Hause.",
+                    "translation": {
+                        "en": "I am vaccinated against tetanus, polio, and the flu. But my vaccination card is at home.",
+                        "bn": "আমি টিটেনাস, পোলিও এবং ফ্লু এর বিরুদ্ধে টিকা নিয়েছি। তবে আমার টিকাকরণের কার্ডটি বাড়িতে রয়েছে।",
+                        "hi": "मुझे टेटनस, पोलियो और फ्लू के खिलाफ टीका लगाया गया है। लेकिन मेरा टीकाकरण कार्ड घर पर है।",
+                        "ur": "مجھے تشنج، پولیو اور فلو کے خلاف ٹیکہ لگایا گیا ہے۔ لیکن میرا ویکسینیشن کارڈ گھر پر ہے۔",
+                        "tr": "Tetanoz, çocuk felci ve grip aşısı oldum. Ancak aşı kartım evde."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Kein Problem. Wissen Sie, wann Sie die letzte Tetanusimpfung hatten?",
+                    "translation": {
+                        "en": "No problem. Do you know when you had your last tetanus shot?",
+                        "bn": "কোন সমস্যা নেই। আপনি কি জানেন আপনার শেষ টিটেনাসের শট কখন ছিল?",
+                        "hi": "कोई दिक्कत नहीं है। क्या आप जानते हैं कि आपको आखिरी टेटनस का शॉट कब लगा था?",
+                        "ur": "کوئی مسئلہ نہیں ہے۔ کیا آپ جانتے ہیں کہ آپ نے اپنا آخری تشنج شاٹ کب لیا تھا؟",
+                        "tr": "Sorun değil. Son tetanoz aşınızı ne zaman olduğunuzu biliyor musunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich glaube, vor ungefähr acht Jahren.",
+                    "translation": {
+                        "en": "I think about eight years ago.",
+                        "bn": "আমি মনে করি প্রায় আট বছর আগে।",
+                        "hi": "मुझे लगता है कि लगभग आठ साल पहले।",
+                        "ur": "میرے خیال میں تقریباً آٹھ سال پہلے۔",
+                        "tr": "Sanırım yaklaşık sekiz yıl önce."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Alles klar, dann notiere ich das. Danke!",
+                    "translation": {
+                        "en": "Alright, then I'll note that down. Thank you!",
+                        "bn": "ঠিক আছে, তাহলে আমি এটা লিখে রাখছি। ধন্যবাদ!",
+                        "hi": "ठीक है, तो मैं इसे लिख लेता हूँ। धन्यवाद!",
+                        "ur": "ٹھیک ہے، تو میں اسے لکھ لیتا ہوں۔ شکریہ!",
+                        "tr": "Tamam, o zaman not edeceğim. Teşekkür ederim!"
+                    }
+                }
+            ],
+            "id": "d15_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Frage ist am relevantesten, wenn man nach Vorerkrankungen fragt?",
+                "en": "Which question is most relevant when asking about pre-existing conditions?",
+                "bn": "পূর্ববর্তী রোগ সম্পর্কে জিজ্ঞাসা করার সময় কোন প্রশ্নটি সবচেয়ে প্রাসঙ্গিক?",
+                "hi": "पहले से मौजूद स्थितियों के बारे में पूछते समय कौन सा प्रश्न सबसे अधिक प्रासंगिक है?",
+                "ur": "پہلے سے موجود حالات کے بارے میں پوچھتے وقت کون سا سوال سب سے زیادہ متعلقہ ہے؟",
+                "tr": "Önceden var olan hastalıklar hakkında sorarken en alakalı soru hangisidir?"
+            },
+            "options": [
+                "Wie fühlen Sie sich heute?",
+                "Haben Sie oder Ihre Familie bekannte Vorerkrankungen?",
+                "Wie ist das Wetter draußen?",
+                "Was haben Sie heute gefrühstückt?"
+            ],
+            "correctAnswer": "Haben Sie oder Ihre Familie bekannte Vorerkrankungen?",
+            "explanation": {
+                "en": "Asking about pre-existing conditions, including family history, is crucial for understanding potential risks and predispositions.",
+                "bn": "পারিবারিক ইতিহাস সহ পূর্ববর্তী রোগ সম্পর্কে জিজ্ঞাসা করা সম্ভাব্য ঝুঁকি এবং প্রবণতাগুলি বোঝার জন্য অত্যন্ত গুরুত্বপূর্ণ।",
+                "hi": "पारिवारिक इतिहास सहित पहले से मौजूद स्थितियों के बारे में पूछना संभावित जोखिमों और पूर्ववृत्तियों को समझने के लिए महत्वपूर्ण है।",
+                "ur": "خاندانی تاریخ سمیت پہلے سے موجود حالات کے بارے میں پوچھنا ممکنہ خطرات اور رجحانات کو سمجھنے کے لیے بہت ضروری ہے۔",
+                "tr": "Aile geçmişi de dahil olmak üzere önceden var olan hastalıklar hakkında soru sormak, potansiyel riskleri ve yatkınlıkları anlamak için çok önemlidir."
+            },
+            "points": 10,
+            "id": "e15_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Allergie' im medizinischen Kontext?",
+                "en": "What does 'Allergy' mean in a medical context?",
+                "bn": "চিকিৎসা প্রেক্ষাপটে 'অ্যালার্জি' মানে কী?",
+                "hi": "चिकित्सा संदर्भ में 'एलर्जी' का क्या अर्थ है?",
+                "ur": "طبی تناظر میں 'الرجی' کا کیا مطلب ہے؟",
+                "tr": "Tıbbi bağlamda 'Alerji' ne anlama gelir?"
+            },
+            "options": [
+                "Eine Abneigung gegen bestimmte Speisen.",
+                "Eine überempfindliche Reaktion des Immunsystems auf bestimmte Substanzen.",
+                "Eine Vorliebe für bestimmte Medikamente.",
+                "Eine saisonale Erkrankung."
+            ],
+            "correctAnswer": "Eine überempfindliche Reaktion des Immunsystems auf bestimmte Substanzen.",
+            "explanation": {
+                "en": "An allergy is an overreaction of the immune system to normally harmless substances.",
+                "bn": "অ্যালার্জি হলো স্বাভাবিকভাবে নিরীহ পদার্থের প্রতি ইমিউন সিস্টেমের একটি অতিরিক্ত প্রতিক্রিয়া।",
+                "hi": "एलर्जी सामान्य रूप से हानिरहित पदार्थों के प्रति प्रतिरक्षा प्रणाली की एक अति प्रतिक्रिया है।",
+                "ur": "الرجی عام طور پر بے ضرر مادوں کے لیے مدافعتی نظام کا ردعمل ہے۔",
+                "tr": "Alerji, normalde zararsız maddelere karşı bağışıklık sisteminin aşırı tepkisidir."
+            },
+            "points": 10,
+            "id": "e15_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wie nennt man eine Auflistung aller Medikamente, die ein Patient einnimmt?",
+                "en": "What is the list of all medications a patient takes called?",
+                "bn": "একজন রোগী যে সমস্ত ওষুধ গ্রহণ করেন তার তালিকাটিকে কী বলা হয়?",
+                "hi": "एक रोगी द्वारा ली जाने वाली सभी दवाओं की सूची को क्या कहा जाता है?",
+                "ur": "ایک مریض جو تمام ادویات لیتا ہے اس کی فہرست کو کیا کہتے ہیں؟",
+                "tr": "Bir hastanın aldığı tüm ilaçların listesine ne denir?"
+            },
+            "options": [
+                "Medikationsliste",
+                "Krankenakte",
+                "Impfpass",
+                "Überweisung"
+            ],
+            "correctAnswer": "Medikationsliste",
+            "explanation": {
+                "en": "A list of all medications a patient takes is called a medication list.",
+                "bn": "একজন রোগী যে সমস্ত ওষুধ গ্রহণ করেন তার তালিকাটিকে ওষুধের তালিকা বলা হয়।",
+                "hi": "एक रोगी द्वारा ली जाने वाली सभी दवाओं की सूची को दवाओं की सूची कहा जाता है।",
+                "ur": "ایک مریض جو تمام ادویات لیتا ہے اس کی فہرست کو ادویات کی فہرست کہا جاتا ہے۔",
+                "tr": "Bir hastanın aldığı tüm ilaçların listesine ilaç listesi denir."
+            },
+            "points": 10,
+            "id": "e15_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein 'Impfpass'?",
+                "en": "What is a 'vaccination record'?",
+                "bn": "'টিকা কার্ড' কী?",
+                "hi": "'टीकाकरण रिकॉर्ड' क्या है?",
+                "ur": "'ویکسینیشن ریکارڈ' کیا ہے؟",
+                "tr": "'Aşılama kaydı' nedir?"
+            },
+            "options": [
+                "Ein Dokument, das alle Operationen eines Patienten auflistet.",
+                "Ein Dokument, das alle Allergien eines Patienten auflistet.",
+                "Ein Dokument, das alle Impfungen eines Patienten auflistet.",
+                "Ein Dokument, das alle Vorerkrankungen eines Patienten auflistet."
+            ],
+            "correctAnswer": "Ein Dokument, das alle Impfungen eines Patienten auflistet.",
+            "explanation": {
+                "en": "A vaccination record documents all vaccinations a patient has received.",
+                "bn": "একটি টিকা কার্ড একজন রোগীর প্রাপ্ত সমস্ত টিকার নথিভুক্ত করে।",
+                "hi": "एक टीकाकरण रिकॉर्ड एक रोगी द्वारा प्राप्त सभी टीकाकरणों को दर्ज करता है।",
+                "ur": "ایک ویکسینیشن ریکارڈ ایک مریض کی طرف سے حاصل کردہ تمام ویکسینوں کو ریکارڈ کرتا ہے۔",
+                "tr": "Bir aşılama kaydı, bir hastanın aldığı tüm aşıları belgeler."
+            },
+            "points": 10,
+            "id": "e15_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Frage ist wichtig, um allergische Reaktionen auf Medikamente zu identifizieren?",
+                "en": "Which question is important to identify allergic reactions to medications?",
+                "bn": "ওষুধের অ্যালার্জি প্রতিক্রিয়া সনাক্ত করার জন্য কোন প্রশ্নটি গুরুত্বপূর্ণ?",
+                "hi": "दवाओं से एलर्जी की प्रतिक्रियाओं की पहचान करने के लिए कौन सा प्रश्न महत्वपूर्ण है?",
+                "ur": "ادویات سے الرجک ردعمل کی شناخت کے لیے کون سا سوال اہم ہے؟",
+                "tr": "İlaçlara karşı alerjik reaksiyonları belirlemek için hangi soru önemlidir?"
+            },
+            "options": [
+                "Haben Sie alle Ihre Medikamente eingenommen?",
+                "Haben Sie irgendwelche Allergien oder unerwünschte Reaktionen auf Medikamente gehabt?",
+                "Wie ist Ihr Blutdruck?",
+                "Wie oft essen Sie Fisch?"
+            ],
+            "correctAnswer": "Haben Sie irgendwelche Allergien oder unerwünschte Reaktionen auf Medikamente gehabt?",
+            "explanation": {
+                "en": "Asking about allergies and adverse reactions to medications is crucial for patient safety.",
+                "bn": "রোগীর নিরাপত্তার জন্য ওষুধে অ্যালার্জি এবং প্রতিকূল প্রতিক্রিয়া সম্পর্কে জিজ্ঞাসা করা অত্যন্ত গুরুত্বপূর্ণ।",
+                "hi": "रोगी की सुरक्षा के लिए दवाओं से एलर्जी और प्रतिकूल प्रतिक्रियाओं के बारे में पूछना महत्वपूर्ण है।",
+                "ur": "مریض کی حفاظت کے لیے ادویات سے الرجیز اور ناگوار ردعمل کے بارے میں پوچھنا بہت ضروری ہے۔",
+                "tr": "Hasta güvenliği için ilaçlara karşı alerjiler ve olumsuz reaksiyonlar hakkında soru sormak çok önemlidir."
+            },
+            "points": 10,
+            "id": "e15_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet die Abkürzung 'OP' im medizinischen Kontext?",
+                "en": "What does the abbreviation 'OP' mean in a medical context?",
+                "bn": "চিকিৎসা প্রেক্ষাপটে 'ওপি' এর সংক্ষিপ্ত রূপটি কী বোঝায়?",
+                "hi": "चिकित्सा संदर्भ में 'ओपी' संक्षिप्त रूप का क्या अर्थ है?",
+                "ur": "طبی تناظر میں 'او پی' مخفف کا کیا مطلب ہے؟",
+                "tr": "Tıbbi bağlamda 'OP' kısaltması ne anlama gelir?"
+            },
+            "options": [
+                "Osteoporose",
+                "Operation",
+                "Ohrenpflege",
+                "Organ Pathology"
+            ],
+            "correctAnswer": "Operation",
+            "explanation": {
+                "en": "'OP' stands for 'Operation' in German, meaning surgery.",
+                "bn": "'ওপি' জার্মান ভাষায় 'অপারেশন' এর সংক্ষিপ্ত রূপ, যার অর্থ সার্জারি।",
+                "hi": "'ओपी' जर्मन में 'ऑपरेशन' का संक्षिप्त रूप है, जिसका अर्थ है सर्जरी।",
+                "ur": "'او پی' جرمن میں 'آپریشن' کا مخفف ہے، جس کا مطلب ہے سرجری۔",
+                "tr": "'OP', Almanca'da 'Operation' anlamına gelir, yani ameliyat."
+            },
+            "points": 10,
+            "id": "e15_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Frage ist relevant, wenn man nach früheren Operationen fragt?",
+                "en": "Which question is relevant when asking about previous surgeries?",
+                "bn": "আগের অপারেশন সম্পর্কে জিজ্ঞাসা করার সময় কোন প্রশ্নটি প্রাসঙ্গিক?",
+                "hi": "पिछली सर्जरी के बारे में पूछते समय कौन सा प्रश्न प्रासंगिक है?",
+                "ur": "پچھلے سرجری کے بارے میں پوچھتے وقت کون سا سوال متعلقہ ہے؟",
+                "tr": "Önceki ameliyatlar hakkında sorarken hangi soru önemlidir?"
+            },
+            "options": [
+                "Was ist Ihre Lieblingsfarbe?",
+                "Hatten Sie jemals eine Operation, und wenn ja, welche?",
+                "Wie viele Kinder haben Sie?",
+                "Was haben Sie gestern gegessen?"
+            ],
+            "correctAnswer": "Hatten Sie jemals eine Operation, und wenn ja, welche?",
+            "explanation": {
+                "en": "Asking about previous surgeries is important for understanding a patient's medical history and potential risks.",
+                "bn": "রোগীর চিকিৎসার ইতিহাস এবং সম্ভাব্য ঝুঁকিগুলি বোঝার জন্য আগের অপারেশন সম্পর্কে জিজ্ঞাসা করা গুরুত্বপূর্ণ।",
+                "hi": "रोगी के चिकित्सा इतिहास और संभावित जोखिमों को समझने के लिए पिछली सर्जरी के बारे में पूछना महत्वपूर्ण है।",
+                "ur": "مریض کی طبی تاریخ اور ممکنہ خطرات کو سمجھنے کے لیے پچھلی سرجری کے بارے میں پوچھنا اہم ہے۔",
+                "tr": "Hastanın tıbbi geçmişini ve potansiyel risklerini anlamak için önceki ameliyatlar hakkında soru sormak önemlidir."
+            },
+            "points": 10,
+            "id": "e15_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Ziel der Impfung?",
+                "en": "What is the goal of vaccination?",
+                "bn": "টিকা দেওয়ার লক্ষ্য কী?",
+                "hi": "टीकाकरण का लक्ष्य क्या है?",
+                "ur": "ویکسینیشن کا مقصد کیا ہے؟",
+                "tr": "Aşılamanın amacı nedir?"
+            },
+            "options": [
+                "Den Körper zu entgiften.",
+                "Den Körper resistent gegen bestimmte Krankheiten zu machen.",
+                "Die Verdauung zu verbessern.",
+                "Die Haut zu reinigen."
+            ],
+            "correctAnswer": "Den Körper resistent gegen bestimmte Krankheiten zu machen.",
+            "explanation": {
+                "en": "The goal of vaccination is to make the body resistant to specific diseases.",
+                "bn": "টিকা দেওয়ার লক্ষ্য হল শরীরকে নির্দিষ্ট রোগের বিরুদ্ধে প্রতিরোধী করা।",
+                "hi": "टीकाकरण का लक्ष्य शरीर को विशिष्ट रोगों के प्रति प्रतिरोधी बनाना है।",
+                "ur": "ویکسینیشن کا مقصد جسم کو مخصوص بیماریوں کے خلاف مزاحم بنانا ہے۔",
+                "tr": "Aşılamanın amacı, vücudu belirli hastalıklara karşı dirençli hale getirmektir."
+            },
+            "points": 10,
+            "id": "e15_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Information ist wichtig, um bei Medikamenten nachzufragen?",
+                "en": "Which information is important to ask about when inquiring about medications?",
+                "bn": "ওষুধ সম্পর্কে জিজ্ঞাসা করার সময় কোন তথ্যটি জিজ্ঞাসা করা গুরুত্বপূর্ণ?",
+                "hi": "दवाओं के बारे में पूछताछ करते समय कौन सी जानकारी पूछना महत्वपूर्ण है?",
+                "ur": "ادویات کے بارے میں پوچھ گچھ کرتے وقت کون سی معلومات پوچھنا ضروری ہے؟",
+                "tr": "İlaçlar hakkında soru sorarken hangi bilgileri sormak önemlidir?"
+            },
+            "options": [
+                "Die Farbe der Tablette.",
+                "Den Namen des Medikaments, die Dosierung und den Grund der Einnahme.",
+                "Die Uhrzeit der Einnahme.",
+                "Die Verpackungsgröße."
+            ],
+            "correctAnswer": "Den Namen des Medikaments, die Dosierung und den Grund der Einnahme.",
+            "explanation": {
+                "en": "Knowing the medication name, dosage, and reason for taking it is crucial for accurate medical history.",
+                "bn": "ওষুধের নাম, ডোজ এবং গ্রহণের কারণ জানা সঠিক চিকিৎসার ইতিহাসের জন্য অত্যন্ত গুরুত্বপূর্ণ।",
+                "hi": "दवा का नाम, खुराक और लेने का कारण जानना सटीक चिकित्सा इतिहास के लिए अत्यंत महत्वपूर्ण है।",
+                "ur": "دوا کا نام، خوراک اور لینے کی وجہ جاننا درست طبی تاریخ کے لیے بہت ضروری ہے۔",
+                "tr": "İlaç adını, dozajını ve alma nedenini bilmek doğru tıbbi geçmiş için çok önemlidir."
+            },
+            "points": 10,
+            "id": "e15_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Vorerkrankung'?",
+                "en": "What does 'pre-existing condition' mean?",
+                "bn": "'পূর্ববর্তী অবস্থা' মানে কী?",
+                "hi": "'पहले से मौजूद स्थिति' का क्या अर्थ है?",
+                "ur": "'پہلے سے موجود حالت' کا کیا مطلب ہے؟",
+                "tr": "'Önceden var olan durum' ne anlama gelir?",
+                "te": "పూర్వం ఉన్న పరిస్థితి అంటే ఏమిటి?"
+            },
+            "options": [
+                "Eine Krankheit, die nach einer Operation auftritt.",
+                "Eine Krankheit, die ein Patient bereits vor der aktuellen Behandlung hatte.",
+                "Eine Krankheit, die durch eine Impfung verhindert werden kann.",
+                "Eine Krankheit, die nur bei älteren Menschen auftritt."
+            ],
+            "correctAnswer": "Eine Krankheit, die ein Patient bereits vor der aktuellen Behandlung hatte.",
+            "explanation": {
+                "en": "A pre-existing condition is a health problem a patient had before the current treatment.",
+                "bn": "একটি পূর্ববর্তী অবস্থা হল একটি স্বাস্থ্য সমস্যা যা রোগীর বর্তমান চিকিৎসার আগে ছিল।",
+                "hi": "एक पहले से मौजूद स्थिति एक स्वास्थ्य समस्या है जो रोगी को वर्तमान उपचार से पहले थी।",
+                "ur": "ایک پہلے سے موجود حالت ایک صحت کا مسئلہ ہے جو مریض کو موجودہ علاج سے پہلے تھا۔",
+                "tr": "Önceden var olan bir durum, hastanın mevcut tedaviden önce sahip olduğu bir sağlık sorunudur."
+            },
+            "points": 10,
+            "id": "e15_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bitte geben Sie Ihre aktuellen ____________ an.",
+                "en": "Please list your current ____________.",
+                "bn": "অনুগ্রহ করে আপনার বর্তমান ____________ তালিকাভুক্ত করুন।",
+                "hi": "कृपया अपनी वर्तमान ____________ की सूची दें।",
+                "ur": "براہ کرم اپنی موجودہ ____________ کی فہرست دیں۔",
+                "tr": "Lütfen mevcut ____________ listenizi belirtin."
+            },
+            "options": [],
+            "correctAnswer": "Medikamente",
+            "explanation": {
+                "en": "The sentence asks for the patient's current medications.",
+                "bn": "বাক্যটি রোগীর বর্তমান ওষুধগুলির তালিকা জানতে চাইছে।",
+                "hi": "वाक्य रोगी की वर्तमान दवाओं की सूची जानना चाहता है।",
+                "ur": "جملہ مریض کی موجودہ ادویات کی فہرست جاننا چاہتا ہے۔",
+                "tr": "Cümle, hastanın mevcut ilaçlarının listesini istemektedir."
+            },
+            "points": 10,
+            "id": "e15_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Sind Sie gegen Tetanus ____________?",
+                "en": "Are you ____________ against tetanus?",
+                "bn": "আপনি কি টিটেনাসের বিরুদ্ধে ____________?",
+                "hi": "क्या आपको टेटनस के खिलाफ ____________ है?",
+                "ur": "کیا آپ کو ٹیٹنس کے خلاف ____________ ہے؟",
+                "tr": "Tetanoza karşı ____________ mısınız?"
+            },
+            "options": [],
+            "correctAnswer": "geimpft",
+            "explanation": {
+                "en": "The question asks if the patient has been vaccinated against tetanus.",
+                "bn": "প্রশ্নটি জিজ্ঞাসা করছে যে রোগীকে টিটেনাসের বিরুদ্ধে টিকা দেওয়া হয়েছে কিনা।",
+                "hi": "सवाल यह पूछता है कि क्या रोगी को टेटनस के खिलाफ टीका लगाया गया है।",
+                "ur": "سوال یہ پوچھتا ہے کہ کیا مریض کو ٹیٹنس کے خلاف ٹیکہ لگایا گیا ہے۔",
+                "tr": "Soru, hastaya tetanoza karşı aşı yapılıp yapılmadığını soruyor."
+            },
+            "points": 10,
+            "id": "e15_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Haben Sie ____________ auf Penicillin?",
+                "en": "Do you have ____________ to penicillin?",
+                "bn": "আপনার কি পেনিসিলিনের প্রতি ____________ আছে?",
+                "hi": "क्या आपको पेनिसिलिन से ____________ है?",
+                "ur": "کیا آپ کو پینسلن سے ____________ ہے؟",
+                "tr": "Penisiline karşı ____________ var mı?"
+            },
+            "options": [],
+            "correctAnswer": "Allergien",
+            "explanation": {
+                "en": "The question is asking if the patient has any allergies to penicillin.",
+                "bn": "প্রশ্নটি জিজ্ঞাসা করছে যে রোগীর পেনিসিলিনের প্রতি কোন অ্যালার্জি আছে কিনা।",
+                "hi": "सवाल यह पूछ रहा है कि क्या रोगी को पेनिसिलिन से कोई एलर्जी है।",
+                "ur": "سوال یہ پوچھ رہا ہے کہ کیا مریض کو پینسلن سے کوئی الرجی ہے۔",
+                "tr": "Soru, hastanın penisiline karşı herhangi bir alerjisi olup olmadığını soruyor."
+            },
+            "points": 10,
+            "id": "e15_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Wann war Ihre letzte ____________?",
+                "en": "When was your last ____________?",
+                "bn": "আপনার শেষ ____________ কবে ছিল?",
+                "hi": "आपका अंतिम ____________ कब था?",
+                "ur": "آپ کا آخری ____________ کب تھا؟",
+                "tr": "Son ____________ ne zaman yapıldı?"
+            },
+            "options": [],
+            "correctAnswer": "Operation",
+            "explanation": {
+                "en": "The question asks when the patient had their last surgery.",
+                "bn": "প্রশ্নটি জিজ্ঞাসা করছে যে রোগীর শেষ সার্জারি কবে হয়েছিল।",
+                "hi": "सवाल यह पूछता है कि रोगी की पिछली सर्जरी कब हुई थी।",
+                "ur": "سوال یہ پوچھتا ہے کہ مریض کی آخری سرجری کب ہوئی تھی۔",
+                "tr": "Soru, hastanın son ameliyatının ne zaman yapıldığını soruyor."
+            },
+            "points": 10,
+            "id": "e15_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Nennen Sie bitte Ihre chronischen ____________.",
+                "en": "Please name your chronic ____________.",
+                "bn": "অনুগ্রহ করে আপনার দীর্ঘস্থায়ী ____________ উল্লেখ করুন।",
+                "hi": "कृपया अपनी पुरानी ____________ का उल्लेख करें।",
+                "ur": "براہ کرم اپنی دائمی ____________ کا ذکر کریں۔",
+                "tr": "Lütfen kronik ____________ belirtin."
+            },
+            "options": [],
+            "correctAnswer": "Erkrankungen",
+            "explanation": {
+                "en": "The question is asking the patient to list their chronic illnesses.",
+                "bn": "প্রশ্নটি রোগীকে তাদের দীর্ঘস্থায়ী অসুস্থতার তালিকা দিতে বলছে।",
+                "hi": "सवाल रोगी को उनकी पुरानी बीमारियों की सूची देने के लिए कह रहा है।",
+                "ur": "سوال مریض سے ان کی دائمی بیماریوں کی فہرست دینے کے لیے کہہ رہا ہے۔",
+                "tr": "Soru, hastadan kronik hastalıklarını listelemesini istiyor."
+            },
+            "points": 10,
+            "id": "e15_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Haben Sie bekannte Allergien?",
+                "en": "Do you have any known allergies?",
+                "bn": "আপনার কি পরিচিত কোনো অ্যালার্জি আছে?",
+                "hi": "क्या आपको कोई ज्ञात एलर्जी है?",
+                "ur": "کیا آپ کو کوئی معلوم الرجی ہے؟",
+                "tr": "Bildiğiniz bir alerjiniz var mı?"
+            },
+            "options": [],
+            "correctAnswer": "Do you have any known allergies?",
+            "explanation": {
+                "en": "The German phrase asks if the patient has any known allergies.",
+                "bn": "জার্মান বাক্যটি জিজ্ঞাসা করছে যে রোগীর পরিচিত কোনো অ্যালার্জি আছে কিনা।",
+                "hi": "जर्मन वाक्य पूछता है कि क्या रोगी को कोई ज्ञात एलर्जी है।",
+                "ur": "جرمن جملہ پوچھتا ہے کہ کیا مریض کو کوئی معلوم الرجی ہے۔",
+                "tr": "Almanca cümle, hastanın bildiği bir alerjisi olup olmadığını soruyor."
+            },
+            "points": 10,
+            "id": "e15_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Welche Medikamente nehmen Sie regelmäßig ein?",
+                "en": "Which medications do you take regularly?",
+                "bn": "আপনি নিয়মিত কোন ওষুধ খান?",
+                "hi": "आप नियमित रूप से कौन सी दवाएं लेते हैं?",
+                "ur": "آپ باقاعدگی سے کون سی دوائیں لیتے ہیں؟",
+                "tr": "Düzenli olarak hangi ilaçları alıyorsunuz?"
+            },
+            "options": [],
+            "correctAnswer": "Which medications do you take regularly?",
+            "explanation": {
+                "en": "The German phrase asks about the medications the patient takes regularly.",
+                "bn": "জার্মান বাক্যটি জিজ্ঞাসা করছে যে রোগী নিয়মিত কোন ওষুধ খান।",
+                "hi": "जर्मन वाक्य रोगी द्वारा नियमित रूप से ली जाने वाली दवाओं के बारे में पूछता है।",
+                "ur": "جرمن جملہ مریض کی جانب سے باقاعدگی سے لی جانے والی ادویات کے بارے میں پوچھتا ہے۔",
+                "tr": "Almanca cümle, hastanın düzenli olarak aldığı ilaçları soruyor."
+            },
+            "points": 10,
+            "id": "e15_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Wann wurden Sie das letzte Mal geimpft?",
+                "en": "When were you last vaccinated?",
+                "bn": "আপনাকে শেষ কবে টিকা দেওয়া হয়েছিল?",
+                "hi": "आपको आखिरी बार टीका कब लगाया गया था?",
+                "ur": "آپ کو آخری بار کب ٹیکہ لگایا گیا تھا؟",
+                "tr": "En son ne zaman aşı oldunuz?"
+            },
+            "options": [],
+            "correctAnswer": "When were you last vaccinated?",
+            "explanation": {
+                "en": "The German phrase asks when the patient was last vaccinated.",
+                "bn": "জার্মান বাক্যটি জিজ্ঞাসা করছে রোগীকে শেষ কবে টিকা দেওয়া হয়েছিল।",
+                "hi": "जर्मन वाक्य पूछता है कि रोगी को आखिरी बार टीका कब लगाया गया था।",
+                "ur": "جرمن جملہ پوچھتا ہے کہ مریض کو آخری بار ٹیکہ کب لگایا گیا تھا۔",
+                "tr": "Almanca cümle, hastaya en son ne zaman aşı yapıldığını soruyor."
+            },
+            "points": 10,
+            "id": "e15_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

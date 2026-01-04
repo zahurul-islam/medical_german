@@ -1,1 +1,1561 @@
-{"id":"section_53","phaseId":"phase3","order":53,"titleDe":"Infektionskrankheiten","title":{"en":"Infectious Diseases","bn":"Infectious Diseases","hi":"Infectious Diseases","ur":"Infectious Diseases","tr":"Infectious Diseases"},"level":"C1","estimatedMinutes":45,"vocabulary":[{"id":"v53_01","germanTerm":"Fachwort","article":"das","plural":"Fachwörter","translation":{"en":"Specialist Term","bn":"বিশেষজ্ঞ শব্দ","hi":"विशेषज्ञ शब्द","ur":"ماہر اصطلاح","tr":"Uzman terimi"}}],"dialogues":[{"id":"d53_01","title":{"en":"Infectious Diseases Scenario"},"lines":[{"speaker":"Facharzt","germanText":"Clinical dialogue for Infectious Diseases.","translation":{"en":"Clinical dialogue for Infectious Diseases."}}]}],"exercises":[{"id":"e53_01","type":"multipleChoice","question":{"en":"Question about Infectious Diseases?"},"options":["A","B","C"],"correctAnswer":"A","points":15}],"media":{"introVideoUrl":"video/sections/section_53/intro.mp4","dialogueVideoUrl":"video/sections/section_53/dialogue.mp4"}}
+{
+    "id": "section_53",
+    "phaseId": "phase3",
+    "order": 53,
+    "titleDe": "Infektionskrankheiten",
+    "title": {
+        "en": "Infectious Diseases: Infection, MRSA, Isolation, Hygiene, Antibiotics, Resistance, Vaccination",
+        "de": "Infektionskrankheiten: Infektion, MRSA, Isolation, Hygiene, Antibiotika, Resistenz, Impfung",
+        "bn": "সংক্রামক রোগ: সংক্রমণ, MRSA, বিচ্ছিন্নতা, স্বাস্থ্যবিধি, অ্যান্টিবায়োটিক, প্রতিরোধ, টিকা",
+        "hi": "संक्रामक रोग: संक्रमण, MRSA, अलगाव, स्वच्छता, एंटीबायोटिक्स, प्रतिरोध, टीकाकरण",
+        "ur": "متعدی امراض: انفیکشن، MRSA، تنہائی، حفظان صحت، اینٹی بائیوٹکس، مزاحمت، ویکسینیشن",
+        "tr": "Bulaşıcı Hastalıklar: Enfeksiyon, MRSA, İzolasyon, Hijyen, Antibiyotikler, Direnç, Aşılama"
+    },
+    "description": {
+        "en": "This section covers the fundamentals of infectious diseases, including common infections, antibiotic resistance, and preventative measures.",
+        "de": "Dieser Abschnitt behandelt die Grundlagen von Infektionskrankheiten, einschließlich häufiger Infektionen, Antibiotikaresistenzen und Präventivmaßnahmen.",
+        "bn": "এই বিভাগে সাধারণ সংক্রমণ, অ্যান্টিবায়োটিক প্রতিরোধের এবং প্রতিরোধমূলক ব্যবস্থা সহ সংক্রামক রোগের মূল বিষয়গুলি আলোচনা করা হয়েছে।",
+        "hi": "इस खंड में सामान्य संक्रमण, एंटीबायोटिक प्रतिरोध और निवारक उपायों सहित संक्रामक रोगों की मूल बातें शामिल हैं।",
+        "ur": "اس حصے میں عام انفیکشن، اینٹی بائیوٹک مزاحمت اور احتیاطی تدابیر سمیت متعدی امراض کی بنیادی باتیں شامل ہیں۔",
+        "tr": "Bu bölüm, yaygın enfeksiyonlar, antibiyotik direnci ve önleyici tedbirler dahil olmak üzere bulaşıcı hastalıkların temellerini kapsar."
+    },
+    "level": "C1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, you will learn about common infectious diseases in Germany and their clinical management. We will explore topics such as MRSA, hygiene protocols, antibiotic usage, resistance, and vaccination strategies.",
+            "de": "In diesem Abschnitt lernen Sie häufige Infektionskrankheiten in Deutschland und deren klinisches Management kennen. Wir werden Themen wie MRSA, Hygieneprotokolle, Antibiotikaeinsatz, Resistenz und Impfstrategien untersuchen.",
+            "bn": "এই বিভাগে, আপনি জার্মানিতে সাধারণ সংক্রামক রোগ এবং তাদের ক্লিনিকাল ব্যবস্থাপনা সম্পর্কে জানতে পারবেন। আমরা এমআরএসএ, স্বাস্থ্যবিধি প্রোটোকল, অ্যান্টিবায়োটিকের ব্যবহার, প্রতিরোধ এবং টিকা দেওয়ার কৌশলগুলির মতো বিষয়গুলি অন্বেষণ করব।",
+            "hi": "इस खंड में, आप जर्मनी में सामान्य संक्रामक रोगों और उनके नैदानिक प्रबंधन के बारे में जानेंगे। हम एमआरएसए, स्वच्छता प्रोटोकॉल, एंटीबायोटिक उपयोग, प्रतिरोध और टीकाकरण रणनीतियों जैसे विषयों का पता लगाएंगे।",
+            "ur": "اس حصے میں، آپ جرمنی میں عام متعدی امراض اور ان کے طبی انتظام کے بارے میں جانیں گے۔ ہم ایم آر ایس اے، حفظان صحت کے پروٹوکول، اینٹی بائیوٹک کے استعمال، مزاحمت اور ویکسینیشن کی حکمت عملیوں جیسے موضوعات کا جائزہ لیں گے۔",
+            "tr": "Bu bölümde, Almanya'daki yaygın bulaşıcı hastalıklar ve klinik yönetimleri hakkında bilgi edineceksiniz. MRSA, hijyen protokolleri, antibiyotik kullanımı, direnç ve aşılama stratejileri gibi konuları inceleyeceğiz."
+        },
+        "grammarFocus": {
+            "en": [
+                "Declension of adjectives in the context of describing symptoms (e.g., 'ein starker Husten' - a strong cough).",
+                "Use of modal verbs (können, müssen, sollen) when discussing treatment options and recommendations."
+            ],
+            "de": [
+                "Deklination von Adjektiven im Zusammenhang mit der Beschreibung von Symptomen (z.B. 'ein starker Husten').",
+                "Verwendung von Modalverben (können, müssen, sollen) bei der Diskussion von Behandlungsoptionen und Empfehlungen."
+            ],
+            "bn": [
+                "লক্ষণ বর্ণনার প্রেক্ষাপটে বিশেষণের কারক (যেমন, 'ein starker Husten' - একটি তীব্র কাশি)।",
+                "চিকিৎসার বিকল্প এবং সুপারিশ নিয়ে আলোচনার সময় মোডাল ক্রিয়াগুলির ব্যবহার (können, müssen, sollen)।"
+            ],
+            "hi": [
+                "लक्षणों का वर्णन करने के संदर्भ में विशेषणों का अपकर्ष (जैसे, 'ein starker Husten' - एक तेज खांसी)।",
+                "उपचार विकल्पों और सिफारिशों पर चर्चा करते समय मोडल क्रियाओं का उपयोग (können, müssen, sollen)।"
+            ],
+            "ur": [
+                "علامات کو بیان کرنے کے تناظر میں صفتوں کا اعراب (مثال کے طور پر، 'ein starker Husten' - ایک شدید کھانسی)۔",
+                "علاج کے اختیارات اور سفارشات پر بات کرتے وقت موڈل فعل کا استعمال (können, müssen, sollen)۔"
+            ],
+            "tr": [
+                "Semptomları tanımlama bağlamında sıfatların çekimi (örneğin, 'ein starker Husten' - şiddetli bir öksürük).",
+                "Tedavi seçeneklerini ve önerilerini tartışırken modal fiillerin (können, müssen, sollen) kullanımı."
+            ]
+        },
+        "culturalNotes": {
+            "en": "German hospitals place a strong emphasis on hygiene protocols and adherence to strict guidelines to prevent the spread of infections, particularly MRSA.",
+            "de": "Deutsche Krankenhäuser legen großen Wert auf Hygieneprotokolle und die Einhaltung strenger Richtlinien, um die Ausbreitung von Infektionen, insbesondere MRSA, zu verhindern.",
+            "bn": "জার্মান হাসপাতালগুলি সংক্রমণ, বিশেষত এমআরএসএ ছড়িয়ে পড়া রোধ করতে স্বাস্থ্যবিধি প্রোটোকল এবং কঠোর নির্দেশিকা মেনে চলার উপর জোর দেয়।",
+            "hi": "जर्मन अस्पताल संक्रमण, विशेष रूप से एमआरएसए के प्रसार को रोकने के लिए स्वच्छता प्रोटोकॉल और सख्त दिशानिर्देशों के पालन पर जोर देते हैं।",
+            "ur": "جرمن ہسپتال انفیکشن، خاص طور پر ایم آر ایس اے کے پھیلاؤ کو روکنے کے لیے حفظان صحت کے پروٹوکول اور سخت رہنما خطوط پر عمل کرنے پر زور دیتے ہیں۔",
+            "tr": "Alman hastaneleri, özellikle MRSA olmak üzere enfeksiyonların yayılmasını önlemek için hijyen protokollerine ve katı yönergelere uyuma büyük önem vermektedir."
+        },
+        "summary": {
+            "en": "This section provided an overview of key concepts related to infectious diseases, antibiotic resistance, and preventative measures in a German medical context.",
+            "de": "Dieser Abschnitt gab einen Überblick über wichtige Konzepte im Zusammenhang mit Infektionskrankheiten, Antibiotikaresistenzen und Präventivmaßnahmen im deutschen medizinischen Kontext.",
+            "bn": "এই বিভাগে জার্মান চিকিৎসা প্রেক্ষাপটে সংক্রামক রোগ, অ্যান্টিবায়োটিক প্রতিরোধ এবং প্রতিরোধমূলক ব্যবস্থা সম্পর্কিত মূল ধারণাগুলির একটি সংক্ষিপ্ত বিবরণ দেওয়া হয়েছে।",
+            "hi": "इस खंड में जर्मन चिकित्सा संदर्भ में संक्रामक रोगों, एंटीबायोटिक प्रतिरोध और निवारक उपायों से संबंधित प्रमुख अवधारणाओं का एक संक्षिप्त विवरण दिया गया है।",
+            "ur": "اس حصے میں جرمن طبی تناظر میں متعدی امراض، اینٹی بائیوٹک مزاحمت اور احتیاطی تدابیر سے متعلق اہم تصورات کا ایک مختصر جائزہ پیش کیا گیا ہے۔",
+            "tr": "Bu bölüm, Alman tıbbi bağlamında bulaşıcı hastalıklar, antibiyotik direnci ve önleyici tedbirlerle ilgili temel kavramlara genel bir bakış sağlamıştır."
+        },
+        "learningObjectives": [
+            "Identify common infectious diseases encountered in German hospitals.",
+            "Describe the mechanisms of antibiotic resistance and its implications.",
+            "Explain the principles of hygiene and isolation protocols for preventing infection spread.",
+            "Understand the role of vaccination in preventing infectious diseases."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "die Infektion",
+            "article": "die",
+            "plural": "die Infektionen",
+            "pronunciation": "/ɪnfɛkˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "infection",
+                "bn": "সংক্রমণ",
+                "hi": "संक्रमण",
+                "ur": "انفیکشن",
+                "tr": "enfeksiyon"
+            },
+            "exampleSentence": "Die Wunde zeigte deutliche Anzeichen einer Infektion.",
+            "exampleTranslation": {
+                "en": "The wound showed clear signs of an infection.",
+                "bn": "ক্ষতটিতে সংক্রমণের সুস্পষ্ট লক্ষণ দেখা গেছে।",
+                "hi": "घाव में संक्रमण के स्पष्ट लक्षण दिखाई दिए।",
+                "ur": "زخم پر انفیکشن کے واضح آثار تھے۔",
+                "tr": "Yarada enfeksiyonun belirgin belirtileri vardı."
+            },
+            "id": "v53_01"
+        },
+        {
+            "germanTerm": "der MRSA",
+            "article": "der",
+            "plural": "die MRSA",
+            "pronunciation": "/ɛm ɛʁ ɛs ˈaː/",
+            "category": "noun",
+            "translation": {
+                "en": "MRSA",
+                "bn": "এমআরএসএ",
+                "hi": "एमआरएसए",
+                "ur": "ایم آر ایس اے",
+                "tr": "MRSA"
+            },
+            "exampleSentence": "Der Patient wurde positiv auf MRSA getestet.",
+            "exampleTranslation": {
+                "en": "The patient tested positive for MRSA.",
+                "bn": "রোগীকে এমআরএসএ পজিটিভ সনাক্ত করা হয়েছে।",
+                "hi": "रोगी में एमआरएसए पॉजिटिव पाया गया।",
+                "ur": "مریض میں ایم آر ایس اے مثبت پایا گیا۔",
+                "tr": "Hastanın MRSA testi pozitif çıktı."
+            },
+            "id": "v53_02"
+        },
+        {
+            "germanTerm": "die Isolation",
+            "article": "die",
+            "plural": "die Isolationen",
+            "pronunciation": "/izolaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "isolation",
+                "bn": "বিচ্ছিন্নতা",
+                "hi": "अलगाव",
+                "ur": "تنہائی",
+                "tr": "izolasyon"
+            },
+            "exampleSentence": "Der Patient befindet sich aufgrund der Infektion in Isolation.",
+            "exampleTranslation": {
+                "en": "The patient is in isolation due to the infection.",
+                "bn": "রোগীর সংক্রমণের কারণে বিচ্ছিন্ন রাখা হয়েছে।",
+                "hi": "संक्रमण के कारण रोगी को आइसोलेशन में रखा गया है।",
+                "ur": "انفیکشن کی وجہ سے مریض تنہائی میں ہے۔",
+                "tr": "Hasta enfeksiyon nedeniyle izolasyonda tutuluyor."
+            },
+            "id": "v53_03"
+        },
+        {
+            "germanTerm": "die Hygiene",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/hyˈɡi̯eːnə/",
+            "category": "noun",
+            "translation": {
+                "en": "hygiene",
+                "bn": "স্বাস্থ্যবিধি",
+                "hi": "स्वच्छता",
+                "ur": "صفائی",
+                "tr": "hijyen"
+            },
+            "exampleSentence": "Die Händehygiene ist essentiell zur Vermeidung von Infektionen.",
+            "exampleTranslation": {
+                "en": "Hand hygiene is essential for preventing infections.",
+                "bn": "সংক্রমণ প্রতিরোধের জন্য হাতের স্বাস্থ্যবিধি অপরিহার্য।",
+                "hi": "संक्रमण को रोकने के लिए हाथों की स्वच्छता आवश्यक है।",
+                "ur": "انفیکشن سے بچنے کے لیے ہاتھوں کی صفائی ضروری ہے۔",
+                "tr": "Enfeksiyonları önlemek için el hijyeni çok önemlidir."
+            },
+            "id": "v53_04"
+        },
+        {
+            "germanTerm": "das Antibiotikum",
+            "article": "das",
+            "plural": "die Antibiotika",
+            "pronunciation": "/antibiˈoːtikʊm/",
+            "category": "noun",
+            "translation": {
+                "en": "antibiotic",
+                "bn": "অ্যান্টিবায়োটিক",
+                "hi": "एंटीबायोटिक",
+                "ur": "اینٹی بائیوٹک",
+                "tr": "antibiyotik"
+            },
+            "exampleSentence": "Der Arzt verschrieb ein Antibiotikum gegen die bakterielle Infektion.",
+            "exampleTranslation": {
+                "en": "The doctor prescribed an antibiotic for the bacterial infection.",
+                "bn": "ডাক্তার ব্যাকটেরিয়াল সংক্রমণের জন্য একটি অ্যান্টিবায়োটিক লিখেছিলেন।",
+                "hi": "डॉक्टर ने जीवाणु संक्रमण के लिए एक एंटीबायोटिक निर्धारित किया।",
+                "ur": "ڈاکٹر نے بیکٹیریل انفیکشن کے لیے ایک اینٹی بائیوٹک تجویز کیا۔",
+                "tr": "Doktor, bakteriyel enfeksiyon için bir antibiyotik reçete etti."
+            },
+            "id": "v53_05"
+        },
+        {
+            "germanTerm": "die Resistenz",
+            "article": "die",
+            "plural": "die Resistenzen",
+            "pronunciation": "/ʁezɪsˈtɛnt͡s/",
+            "category": "noun",
+            "translation": {
+                "en": "resistance",
+                "bn": "প্রতিরোধ",
+                "hi": "प्रतिरोध",
+                "ur": "مزاحمت",
+                "tr": "direnç"
+            },
+            "exampleSentence": "Die Resistenz gegen Antibiotika ist ein wachsendes Problem.",
+            "exampleTranslation": {
+                "en": "Antibiotic resistance is a growing problem.",
+                "bn": "অ্যান্টিবায়োটিকের বিরুদ্ধে প্রতিরোধ একটি ক্রমবর্ধমান সমস্যা।",
+                "hi": "एंटीबायोटिक प्रतिरोध एक बढ़ती समस्या है।",
+                "ur": "اینٹی بائیوٹک مزاحمت ایک بڑھتا ہوا مسئلہ ہے۔",
+                "tr": "Antibiyotik direnci büyüyen bir sorundur."
+            },
+            "id": "v53_06"
+        },
+        {
+            "germanTerm": "die Impfung",
+            "article": "die",
+            "plural": "die Impfungen",
+            "pronunciation": "/ˈɪmp͡fʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "vaccination",
+                "bn": "টিকা",
+                "hi": "टीकाकरण",
+                "ur": "ویکسینیشن",
+                "tr": "aşılama"
+            },
+            "exampleSentence": "Die Impfung schützt vor schweren Krankheitsverläufen.",
+            "exampleTranslation": {
+                "en": "The vaccination protects against severe courses of the disease.",
+                "bn": "টিকা রোগের মারাত্মক পর্যায় থেকে রক্ষা করে।",
+                "hi": "टीकाकरण बीमारी के गंभीर चरणों से बचाता है।",
+                "ur": "ویکسینیشن بیماری کے شدید کورس سے بچاتا ہے۔",
+                "tr": "Aşılama hastalığın şiddetli seyirlerinden korur."
+            },
+            "id": "v53_07"
+        },
+        {
+            "germanTerm": "infektiös",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ɪnfɛkˈt͡si̯øːs/",
+            "category": "adjective",
+            "translation": {
+                "en": "infectious",
+                "bn": "সংক্রামক",
+                "hi": "संक्रामक",
+                "ur": "متعدی",
+                "tr": "bulaşıcı"
+            },
+            "exampleSentence": "Der Patient ist hochansteckend und daher infektiös.",
+            "exampleTranslation": {
+                "en": "The patient is highly contagious and therefore infectious.",
+                "bn": "রোগী অত্যন্ত সংক্রামক এবং তাই সংক্রামক।",
+                "hi": "रोगी अत्यधिक संक्रामक है और इसलिए संक्रामक है।",
+                "ur": "مریض انتہائی متعدی ہے اور اس لیے انفیکشن والا ہے۔",
+                "tr": "Hasta çok bulaşıcıdır ve bu nedenle enfeksiyözdür."
+            },
+            "id": "v53_08"
+        },
+        {
+            "germanTerm": "die Übertragung",
+            "article": "die",
+            "plural": "die Übertragungen",
+            "pronunciation": "/yːbɐˈtʁaːɡʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "transmission",
+                "bn": "সঞ্চালন",
+                "hi": "संचरण",
+                "ur": "منتقلی",
+                "tr": "bulaşma"
+            },
+            "exampleSentence": "Die Übertragung erfolgt meist durch Tröpfcheninfektion.",
+            "exampleTranslation": {
+                "en": "Transmission usually occurs through droplet infection.",
+                "bn": "সঞ্চালন সাধারণত ড্রপলেট সংক্রমণের মাধ্যমে ঘটে।",
+                "hi": "संचरण आमतौर पर ड्रॉपलेट संक्रमण के माध्यम से होता है।",
+                "ur": "منتقلی عام طور پر ڈراپلیٹ انفیکشن کے ذریعے ہوتی ہے۔",
+                "tr": "Bulaşma genellikle damlacık enfeksiyonu yoluyla olur."
+            },
+            "id": "v53_09"
+        },
+        {
+            "germanTerm": "das Virus",
+            "article": "das",
+            "plural": "die Viren",
+            "pronunciation": "/ˈviːʁʊs/",
+            "category": "noun",
+            "translation": {
+                "en": "virus",
+                "bn": "ভাইরাস",
+                "hi": "वायरस",
+                "ur": "وائرس",
+                "tr": "virüs"
+            },
+            "exampleSentence": "Das Virus verursacht eine schwere Grippe.",
+            "exampleTranslation": {
+                "en": "The virus causes a severe flu.",
+                "bn": "ভাইরাসটি একটি মারাত্মক ফ্লু সৃষ্টি করে।",
+                "hi": "यह वायरस एक गंभीर फ्लू का कारण बनता है।",
+                "ur": "وائرس ایک شدید فلو کا سبب بنتا ہے۔",
+                "tr": "Virüs şiddetli bir gribe neden olur."
+            },
+            "id": "v53_10"
+        },
+        {
+            "germanTerm": "das Bakterium",
+            "article": "das",
+            "plural": "die Bakterien",
+            "pronunciation": "/bakˈteːʁi̯ʊm/",
+            "category": "noun",
+            "translation": {
+                "en": "bacterium",
+                "bn": "ব্যাকটেরিয়াম",
+                "hi": "जीवाणु",
+                "ur": "بیکٹیریا",
+                "tr": "bakteri"
+            },
+            "exampleSentence": "Das Bakterium ist resistent gegen viele Antibiotika.",
+            "exampleTranslation": {
+                "en": "The bacterium is resistant to many antibiotics.",
+                "bn": "ব্যাকটেরিয়াম অনেক অ্যান্টিবায়োটিকের প্রতিরোধী।",
+                "hi": "यह जीवाणु कई एंटीबायोटिक दवाओं के प्रतिरोधी है।",
+                "ur": "یہ بیکٹیریا بہت سی اینٹی بائیوٹک ادویات کے خلاف مزاحم ہے۔",
+                "tr": "Bakteri birçok antibiyotiğe dirençlidir."
+            },
+            "id": "v53_11"
+        },
+        {
+            "germanTerm": "die Desinfektion",
+            "article": "die",
+            "plural": "die Desinfektionen",
+            "pronunciation": "/dezɪnfɛkˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "disinfection",
+                "bn": "জীবাণুমুক্তকরণ",
+                "hi": "कीटाणुशोधन",
+                "ur": "جراثیم کشی",
+                "tr": "dezenfeksiyon"
+            },
+            "exampleSentence": "Die Desinfektion der Hände ist nach jedem Patientenkontakt erforderlich.",
+            "exampleTranslation": {
+                "en": "Hand disinfection is required after each patient contact.",
+                "bn": "প্রতিটি রোগীর সংস্পর্শের পরে হাতের জীবাণুমুক্তকরণ প্রয়োজন।",
+                "hi": "प्रत्येक रोगी संपर्क के बाद हाथों का कीटाणुशोधन आवश्यक है।",
+                "ur": "ہر مریض سے رابطے کے بعد ہاتھوں کی جراثیم کشی ضروری ہے۔",
+                "tr": "Her hasta temasından sonra el dezenfeksiyonu gereklidir."
+            },
+            "id": "v53_12"
+        },
+        {
+            "germanTerm": "die Epidemie",
+            "article": "die",
+            "plural": "die Epidemien",
+            "pronunciation": "/epideˈmiː/",
+            "category": "noun",
+            "translation": {
+                "en": "epidemic",
+                "bn": "মহামারী",
+                "hi": "महामारी",
+                "ur": "وبائی مرض",
+                "tr": "salgın"
+            },
+            "exampleSentence": "Die Epidemie breitete sich schnell aus.",
+            "exampleTranslation": {
+                "en": "The epidemic spread quickly.",
+                "bn": "মহামারী দ্রুত ছড়িয়ে পড়ে।",
+                "hi": "महामारी तेजी से फैली।",
+                "ur": "وبائی مرض تیزی سے پھیل گیا۔",
+                "tr": "Salgın hızla yayıldı."
+            },
+            "id": "v53_13"
+        },
+        {
+            "germanTerm": "die Pandemie",
+            "article": "die",
+            "plural": "die Pandemien",
+            "pronunciation": "/pandɛˈmiː/",
+            "category": "noun",
+            "translation": {
+                "en": "pandemic",
+                "bn": "বৈশ্বিক মহামারী",
+                "hi": "वैश्विक महामारी",
+                "ur": "عالمی وبا",
+                "tr": "pandemi"
+            },
+            "exampleSentence": "Die Pandemie hat das Gesundheitssystem stark belastet.",
+            "exampleTranslation": {
+                "en": "The pandemic has put a heavy strain on the healthcare system.",
+                "bn": "বৈশ্বিক মহামারী স্বাস্থ্য ব্যবস্থার উপর মারাত্মক চাপ সৃষ্টি করেছে।",
+                "hi": "वैश्विक महामारी ने स्वास्थ्य प्रणाली पर भारी दबाव डाला है।",
+                "ur": "عالمی وبا نے صحت کے نظام پر بہت زیادہ دباؤ ڈالا ہے۔",
+                "tr": "Pandemi sağlık sistemini büyük ölçüde zorladı."
+            },
+            "id": "v53_14"
+        },
+        {
+            "germanTerm": "die Inkubationszeit",
+            "article": "die",
+            "plural": "die Inkubationszeiten",
+            "pronunciation": "/ɪnkubaˈt͡si̯oːnt͡saɪ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "incubation period",
+                "bn": "ইনকিউবেশন পিরিয়ড",
+                "hi": "ऊष्मायन अवधि",
+                "ur": "انکیوبیشن کی مدت",
+                "tr": "kuluçka süresi"
+            },
+            "exampleSentence": "Die Inkubationszeit beträgt in der Regel 2 bis 14 Tage.",
+            "exampleTranslation": {
+                "en": "The incubation period is usually 2 to 14 days.",
+                "bn": "ইনকিউবেশন পিরিয়ড সাধারণত ২ থেকে ১৪ দিন।",
+                "hi": "ऊष्मायन अवधि आमतौर पर 2 से 14 दिन होती है।",
+                "ur": "انکیوبیشن کی مدت عموما 2 سے 14 دن ہوتی ہے۔",
+                "tr": "Kuluçka süresi genellikle 2 ila 14 gündür."
+            },
+            "id": "v53_15"
+        },
+        {
+            "germanTerm": "symptomatisch",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/zʏmpˈtoːmɑtɪʃ/",
+            "category": "adjective",
+            "translation": {
+                "en": "symptomatic",
+                "bn": "লক্ষণযুক্ত",
+                "hi": "लक्षणयुक्त",
+                "ur": "علاماتی",
+                "tr": "semptomatik"
+            },
+            "exampleSentence": "Der Patient ist symptomatisch für eine Grippe.",
+            "exampleTranslation": {
+                "en": "The patient is symptomatic for the flu.",
+                "bn": "রোগী ফ্লু এর লক্ষণযুক্ত।",
+                "hi": "रोगी फ्लू के लक्षण दिखा रहा है।",
+                "ur": "مریض فلو کی علامات ظاہر کر رہا ہے۔",
+                "tr": "Hastada grip belirtileri var."
+            },
+            "id": "v53_16"
+        },
+        {
+            "germanTerm": "asymptomatisch",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/azʏmpˈtoːmɑtɪʃ/",
+            "category": "adjective",
+            "translation": {
+                "en": "asymptomatic",
+                "bn": "লক্ষণবিহীন",
+                "hi": "लक्षणहीन",
+                "ur": "غیر علامتی",
+                "tr": "asemptomatik"
+            },
+            "exampleSentence": "Viele Menschen sind asymptomatisch infiziert.",
+            "exampleTranslation": {
+                "en": "Many people are infected asymptomatically.",
+                "bn": "অনেক মানুষ লক্ষণবিহীনভাবে সংক্রমিত।",
+                "hi": "कई लोग बिना लक्षणों के संक्रमित हैं।",
+                "ur": "بہت سے لوگ بغیر علامات کے متاثر ہیں۔",
+                "tr": "Birçok insan asemptomatik olarak enfekte olmuştur."
+            },
+            "id": "v53_17"
+        },
+        {
+            "germanTerm": "die Quarantäne",
+            "article": "die",
+            "plural": "die Quarantänen",
+            "pronunciation": "/karanˈtɛːnə/",
+            "category": "noun",
+            "translation": {
+                "en": "quarantine",
+                "bn": "সঙ্গনিরোধ",
+                "hi": "संगरोध",
+                "ur": "قرنطینہ",
+                "tr": "karantina"
+            },
+            "exampleSentence": "Die Kontaktpersonen wurden in Quarantäne geschickt.",
+            "exampleTranslation": {
+                "en": "The contacts were sent into quarantine.",
+                "bn": "যোগাযোগকারীদের সঙ্গনিরোধে পাঠানো হয়েছে।",
+                "hi": "संपर्क में आने वालों को संगरोध में भेजा गया।",
+                "ur": "رابطہ کرنے والوں کو قرنطینہ میں بھیج دیا گیا۔",
+                "tr": "Temaslı kişiler karantinaya alındı."
+            },
+            "id": "v53_18"
+        },
+        {
+            "germanTerm": "die Nosokomiale Infektion",
+            "article": "die",
+            "plural": "die Nosokomialen Infektionen",
+            "pronunciation": "/noːzoˌkoːmiˈaːlə ɪnfɛkˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "nosocomial infection",
+                "bn": "নসোকোমিয়াল সংক্রমণ",
+                "hi": "नोसोकोमियल संक्रमण",
+                "ur": "نوسوکومیل انفیکشن",
+                "tr": "hastane enfeksiyonu"
+            },
+            "exampleSentence": "Nosokomiale Infektionen stellen ein großes Problem im Krankenhaus dar.",
+            "exampleTranslation": {
+                "en": "Nosocomial infections are a major problem in the hospital.",
+                "bn": "নসোকোমিয়াল সংক্রমণ হাসপাতালে একটি বড় সমস্যা।",
+                "hi": "नोसोकोमियल संक्रमण अस्पताल में एक बड़ी समस्या है।",
+                "ur": "نوسوکومیل انفیکشن ہسپتال میں ایک بڑا مسئلہ ہے۔",
+                "tr": "Hastane enfeksiyonları hastanede büyük bir sorundur."
+            },
+            "id": "v53_19"
+        },
+        {
+            "germanTerm": "der Erreger",
+            "article": "der",
+            "plural": "die Erreger",
+            "pronunciation": "/ɛɐ̯ˈʁeːɡɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "pathogen",
+                "bn": "রোগজীবাণু",
+                "hi": "रोगज़नक़",
+                "ur": "پیتھوجین",
+                "tr": "patojen"
+            },
+            "exampleSentence": "Der Erreger wurde identifiziert.",
+            "exampleTranslation": {
+                "en": "The pathogen was identified.",
+                "bn": "রোগজীবাণু চিহ্নিত করা হয়েছে।",
+                "hi": "रोगज़नक़ की पहचान हो गई है।",
+                "ur": "پیتھوجین کی شناخت ہو گئی ہے۔",
+                "tr": "Patojen tespit edildi."
+            },
+            "id": "v53_20"
+        },
+        {
+            "germanTerm": "die Immunität",
+            "article": "die",
+            "plural": "die Immunitäten",
+            "pronunciation": "/ɪmuniˈtɛːt/",
+            "category": "noun",
+            "translation": {
+                "en": "immunity",
+                "bn": "রোগ প্রতিরোধ ক্ষমতা",
+                "hi": "प्रतिरक्षा",
+                "ur": "مدافعت",
+                "tr": "bağışıklık"
+            },
+            "exampleSentence": "Die Immunität gegen die Krankheit ist noch unklar.",
+            "exampleTranslation": {
+                "en": "Immunity to the disease is still unclear.",
+                "bn": "রোগের বিরুদ্ধে রোগ প্রতিরোধ ক্ষমতা এখনও অস্পষ্ট।",
+                "hi": "रोग के प्रति प्रतिरक्षा अभी भी अस्पष्ट है।",
+                "ur": "بیماری کے خلاف مدافعت اب بھی واضح نہیں ہے۔",
+                "tr": "Hastalığa karşı bağışıklık hala belirsizdir."
+            },
+            "id": "v53_21"
+        },
+        {
+            "germanTerm": "die Sepsis",
+            "article": "die",
+            "plural": "die Sepsen",
+            "pronunciation": "/ˈzɛpsɪs/",
+            "category": "noun",
+            "translation": {
+                "en": "sepsis",
+                "bn": "সেপসিস",
+                "hi": "सेप्सिस",
+                "ur": "سیپسس",
+                "tr": "sepsis"
+            },
+            "exampleSentence": "Die Sepsis ist ein lebensbedrohlicher Zustand.",
+            "exampleTranslation": {
+                "en": "Sepsis is a life-threatening condition.",
+                "bn": "সেপসিস একটি জীবন-হুমকিপূর্ণ অবস্থা।",
+                "hi": "सेप्सिस एक जानलेवा स्थिति है।",
+                "ur": "سیپسس جان لیوا حالت ہے۔",
+                "tr": "Sepsis hayatı tehdit eden bir durumdur."
+            },
+            "id": "v53_22"
+        },
+        {
+            "germanTerm": "virulent",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/viːʁuˈlɛnt/",
+            "category": "adjective",
+            "translation": {
+                "en": "virulent",
+                "bn": "ভাইরুলেন্ট",
+                "hi": "विषैला",
+                "ur": "زہریلا",
+                "tr": "virülant"
+            },
+            "exampleSentence": "Dieser Stamm des Virus ist besonders virulent.",
+            "exampleTranslation": {
+                "en": "This strain of the virus is particularly virulent.",
+                "bn": "ভাইরাসের এই স্ট্রেইনটি বিশেষভাবে ভাইরুলেন্ট।",
+                "hi": "वायरस का यह स्ट्रेन विशेष रूप से विषैला है।",
+                "ur": "وائرس کا یہ تناؤ خاص طور پر زہریلا ہے۔",
+                "tr": "Virüsün bu türü özellikle virülandır."
+            },
+            "id": "v53_23"
+        },
+        {
+            "germanTerm": "das Antiseptikum",
+            "article": "das",
+            "plural": "die Antiseptika",
+            "pronunciation": "/antizɛpˈtikʊm/",
+            "category": "noun",
+            "translation": {
+                "en": "antiseptic",
+                "bn": "অ্যান্টিসেপটিক",
+                "hi": "एंटीसेप्टिक",
+                "ur": "اینٹی سیپٹیک",
+                "tr": "antiseptik"
+            },
+            "exampleSentence": "Verwenden Sie ein Antiseptikum zur Wundreinigung.",
+            "exampleTranslation": {
+                "en": "Use an antiseptic to clean the wound.",
+                "bn": "ক্ষত পরিষ্কার করার জন্য একটি অ্যান্টিসেপটিক ব্যবহার করুন।",
+                "hi": "घाव को साफ करने के लिए एक एंटीसेप्टिक का उपयोग करें।",
+                "ur": "زخم کو صاف کرنے کے لیے ایک اینٹی سیپٹیک استعمال کریں۔",
+                "tr": "Yarayı temizlemek için bir antiseptik kullanın."
+            },
+            "id": "v53_24"
+        },
+        {
+            "germanTerm": "die Tröpfcheninfektion",
+            "article": "die",
+            "plural": "die Tröpfcheninfektionen",
+            "pronunciation": "/ˈtʁœp͡fçənʔɪnfɛkˌt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "droplet infection",
+                "bn": "ড্রপলেট সংক্রমণ",
+                "hi": "ड्रॉपलेट संक्रमण",
+                "ur": "ڈراپلیٹ انفیکشن",
+                "tr": "damlacık enfeksiyonu"
+            },
+            "exampleSentence": "Die Tröpfcheninfektion ist ein häufiger Übertragungsweg.",
+            "exampleTranslation": {
+                "en": "Droplet infection is a common route of transmission.",
+                "bn": "ড্রপলেট সংক্রমণ একটি সাধারণ সংক্রমণ পথ।",
+                "hi": "ड्रॉपलेट संक्रमण संचरण का एक सामान्य मार्ग है।",
+                "ur": "ڈراپلیٹ انفیکشن ٹرانسمیشن کا ایک عام راستہ ہے۔",
+                "tr": "Damlacık enfeksiyonu, bulaşmanın yaygın bir yoludur."
+            },
+            "id": "v53_25"
+        },
+        {
+            "germanTerm": "sterilisieren",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ʃteʁiliˈziːʁən/",
+            "category": "verb",
+            "translation": {
+                "en": "to sterilize",
+                "bn": "জীবাণুমুক্ত করা",
+                "hi": "बाँझ करना",
+                "ur": "بانجھ کرنا",
+                "tr": "sterilize etmek"
+            },
+            "exampleSentence": "Wir müssen die Instrumente vor der Operation sterilisieren.",
+            "exampleTranslation": {
+                "en": "We must sterilize the instruments before the operation.",
+                "bn": "আমাদের অপারেশনের আগে উপকরণগুলিকে জীবাণুমুক্ত করতে হবে।",
+                "hi": "हमें ऑपरेशन से पहले उपकरणों को बाँझ करना होगा।",
+                "ur": "ہمیں آپریشن سے پہلے اوزاروں کو بانجھ کرنا ہوگا۔",
+                "tr": "Ameliyattan önce aletleri sterilize etmeliyiz."
+            },
+            "id": "v53_26"
+        },
+        {
+            "germanTerm": "der Abstrich",
+            "article": "der",
+            "plural": "die Abstriche",
+            "pronunciation": "/ˈapʃtʁiːç/",
+            "category": "noun",
+            "translation": {
+                "en": "smear",
+                "bn": "স্মিয়ার",
+                "hi": "लेप",
+                "ur": "سمیئر",
+                "tr": "sürüntü"
+            },
+            "exampleSentence": "Der Abstrich wird ins Labor geschickt.",
+            "exampleTranslation": {
+                "en": "The smear is sent to the laboratory.",
+                "bn": "স্মিয়ারটি পরীক্ষাগারে পাঠানো হয়েছে।",
+                "hi": "लेप प्रयोगशाला में भेजा जाता है।",
+                "ur": "سمیئر لیبارٹری بھیجا جاتا ہے۔",
+                "tr": "Sürüntü laboratuvara gönderilir."
+            },
+            "id": "v53_27"
+        },
+        {
+            "germanTerm": "die Inkubation",
+            "article": "die",
+            "plural": "die Inkubationen",
+            "pronunciation": "/ɪnkuˈbaːt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "incubation",
+                "bn": "ইনকিউবেশন",
+                "hi": "ऊष्मायन",
+                "ur": "انکیوبیشن",
+                "tr": "inkübasyon"
+            },
+            "exampleSentence": "Die Inkubation der Probe dauert 24 Stunden.",
+            "exampleTranslation": {
+                "en": "The incubation of the sample takes 24 hours.",
+                "bn": "নমুনার ইনকিউবেশন ২৪ ঘন্টা সময় নেয়।",
+                "hi": "नमूने के ऊष्मायन में 24 घंटे लगते हैं।",
+                "ur": "نمونے کی انکیوبیشن میں 24 گھنٹے لگتے ہیں۔",
+                "tr": "Numunenin inkübasyonu 24 saat sürer."
+            },
+            "id": "v53_28"
+        },
+        {
+            "germanTerm": "multiresistent",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/mʊltiʁezɪsˈtɛnt/",
+            "category": "adjective",
+            "translation": {
+                "en": "multiresistant",
+                "bn": "মাল্টিরেসিস্ট্যান্ট",
+                "hi": "बहुप्रतिरोधी",
+                "ur": "ملٹی ریزسٹنٹ",
+                "tr": "çoklu dirençli"
+            },
+            "exampleSentence": "Es handelt sich um einen multiresistenten Keim.",
+            "exampleTranslation": {
+                "en": "It is a multiresistant germ.",
+                "bn": "এটি একটি মাল্টিরেসিস্ট্যান্ট জীবাণু।",
+                "hi": "यह एक बहुप्रतिरोधी रोगाणु है।",
+                "ur": "یہ ایک ملٹی ریزسٹنٹ جراثیم ہے۔",
+                "tr": "Çoklu dirençli bir mikrop."
+            },
+            "id": "v53_29"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "MRSA Screening and Admission",
+                "bn": "এমআরএসএ স্ক্রিনিং এবং ভর্তি",
+                "hi": "एमआरएसए स्क्रीनिंग और प्रवेश",
+                "ur": "ایم آر ایس اے اسکریننگ اور داخلہ",
+                "tr": "MRSA Taraması ve Kabul"
+            },
+            "context": {
+                "en": "Patient Müller is admitted for a hip replacement. The nurse is performing the initial MRSA screening.",
+                "bn": "রোগী মুলার একটি নিতম্ব প্রতিস্থাপনের জন্য ভর্তি হয়েছেন। নার্স প্রাথমিক এমআরএসএ স্ক্রিনিং করছেন।",
+                "hi": "मरीज मुलर को हिप रिप्लेसमेंट के लिए भर्ती किया गया है। नर्स प्रारंभिक एमआरएसए स्क्रीनिंग कर रही है।",
+                "ur": "مریض مولر کو ہپ کی تبدیلی کے لئے داخل کیا گیا ہے۔ نرس ابتدائی ایم آر ایس اے اسکریننگ کر رہی ہے۔",
+                "tr": "Hasta Müller kalça protezi için yatırılıyor. Hemşire ilk MRSA taramasını yapıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Tag, Herr Müller. Für die Aufnahme müssen wir ein MRSA-Screening durchführen. Haben Sie in den letzten 12 Monaten im Krankenhaus gelegen oder Antibiotika genommen?",
+                    "translation": {
+                        "en": "Good day, Mr. Müller. For admission, we need to perform an MRSA screening. Have you been in the hospital or taken antibiotics in the last 12 months?",
+                        "bn": "শুভ দিন, মিঃ মুলার। ভর্তির জন্য, আমাদের একটি এমআরএসএ স্ক্রিনিং করতে হবে। আপনি গত ১২ মাসে হাসপাতালে ছিলেন বা অ্যান্টিবায়োটিক গ্রহণ করেছেন?",
+                        "hi": "शुभ दिन, श्रीमान मुलर। प्रवेश के लिए, हमें एमआरएसए स्क्रीनिंग करने की आवश्यकता है। क्या आप पिछले 12 महीनों में अस्पताल में थे या एंटीबायोटिक्स ली थीं?",
+                        "ur": "شب بخیر، مسٹر مولر۔ داخلے کے لیے، ہمیں ایم آر ایس اے اسکریننگ کرنے کی ضرورت ہے۔ کیا آپ پچھلے 12 مہینوں میں اسپتال میں رہے ہیں یا اینٹی بائیوٹکس لی ہیں؟",
+                        "tr": "İyi günler Bay Müller. Kabul için MRSA taraması yapmamız gerekiyor. Son 12 ay içinde hastanede yattınız mı veya antibiyotik kullandınız mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, ich war vor sechs Monaten wegen einer Lungenentzündung im Krankenhaus und habe Antibiotika bekommen.",
+                    "translation": {
+                        "en": "Yes, I was in the hospital six months ago for pneumonia and received antibiotics.",
+                        "bn": "হ্যাঁ, আমি ছয় মাস আগে নিউমোনিয়ার জন্য হাসপাতালে ছিলাম এবং অ্যান্টিবায়োটিক গ্রহণ করেছি।",
+                        "hi": "हाँ, मैं छह महीने पहले निमोनिया के लिए अस्पताल में था और एंटीबायोटिक्स प्राप्त की थीं।",
+                        "ur": "ہاں، میں چھ ماہ قبل نمونیا کے لیے اسپتال میں تھا اور اینٹی بائیوٹکس حاصل کی تھیں۔",
+                        "tr": "Evet, altı ay önce zatürre nedeniyle hastanedeydim ve antibiyotik aldım."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Verstanden. Dann nehmen wir jetzt einen Abstrich von Nase und Rachen für die Untersuchung.",
+                    "translation": {
+                        "en": "Understood. Then we will now take a swab from your nose and throat for examination.",
+                        "bn": "বুঝেছি। তাহলে আমরা এখন পরীক্ষার জন্য আপনার নাক এবং গলা থেকে একটি সোয়াব নেব।",
+                        "hi": "समझ गया। तो अब हम परीक्षा के लिए आपकी नाक और गले से एक स्वाब लेंगे।",
+                        "ur": "سمجھ گیا۔ تو اب ہم امتحان کے لیے آپ کی ناک اور گلے سے ایک سواب لیں گے۔",
+                        "tr": "Anlaşıldı. O zaman şimdi muayene için burnunuzdan ve boğazınızdan bir sürüntü alacağız."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Schwester Weber, ist das MRSA-Ergebnis von Herrn Müller schon da?",
+                    "translation": {
+                        "en": "Sister Weber, is Mr. Müller's MRSA result already available?",
+                        "bn": "সিস্টার ওয়েবার, মিস্টার মুলারের এমআরএসএ ফলাফল কি ইতিমধ্যে পাওয়া গেছে?",
+                        "hi": "सिस्टर वेबर, क्या श्री मुलर का एमआरएसए परिणाम पहले से ही उपलब्ध है?",
+                        "ur": "سسٹر ویبر، کیا مسٹر مولر کا ایم آر ایس اے نتیجہ پہلے سے ہی دستیاب ہے؟",
+                        "tr": "Hemşire Weber, Bay Müller'in MRSA sonucu zaten çıktı mı?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ja, Herr Dr. Schmidt. Leider ist es positiv. Wir müssen ihn isolieren.",
+                    "translation": {
+                        "en": "Yes, Dr. Schmidt. Unfortunately, it is positive. We need to isolate him.",
+                        "bn": "হ্যাঁ, ডঃ শ্মিট। দুর্ভাগ্যবশত, এটি ইতিবাচক। আমাদের তাকে বিচ্ছিন্ন করতে হবে।",
+                        "hi": "हाँ, डॉ श्मिट। दुर्भाग्य से, यह सकारात्मक है। हमें उसे अलग करना होगा।",
+                        "ur": "ہاں، ڈاکٹر شمٹ۔ بدقسمتی سے، یہ مثبت ہے۔ ہمیں اسے الگ کرنا ہوگا۔",
+                        "tr": "Evet, Dr. Schmidt. Maalesef, pozitif. Onu izole etmemiz gerekiyor."
+                    }
+                }
+            ],
+            "id": "d53_01"
+        },
+        {
+            "title": {
+                "en": "Explaining Isolation Precautions",
+                "bn": "বিচ্ছিন্নতার সতর্কতা ব্যাখ্যা করা",
+                "hi": "अलगाव की सावधानियों को समझाना",
+                "ur": "تنہائی کی احتیاطی تدابیر کی وضاحت کرنا",
+                "tr": "İzolasyon Önlemlerini Açıklamak"
+            },
+            "context": {
+                "en": "Dr. Schmidt explains the isolation precautions to Patient Müller.",
+                "bn": "ডঃ শ্মিট রোগী মুলারকে বিচ্ছিন্নতার সতর্কতা ব্যাখ্যা করছেন।",
+                "hi": "डॉ श्मिट मरीज मुलर को अलगाव की सावधानियों को समझा रहे हैं।",
+                "ur": "ڈاکٹر شمٹ مریض مولر کو تنہائی کی احتیاطی تدابیر کی وضاحت کر رہے ہیں۔",
+                "tr": "Dr. Schmidt, Hasta Müller'e izolasyon önlemlerini açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Herr Müller, aufgrund des MRSA-Befundes müssen wir Sie isolieren. Das bedeutet, dass Sie ein Einzelzimmer bekommen und das Personal spezielle Schutzkleidung tragen muss.",
+                    "translation": {
+                        "en": "Mr. Müller, due to the MRSA finding, we need to isolate you. This means you will get a private room, and the staff needs to wear special protective clothing.",
+                        "bn": "মিঃ মুলার, এমআরএসএ ফলাফলের কারণে, আমাদের আপনাকে বিচ্ছিন্ন করতে হবে। এর মানে হল আপনি একটি ব্যক্তিগত কক্ষ পাবেন এবং কর্মীদের বিশেষ সুরক্ষামূলক পোশাক পরতে হবে।",
+                        "hi": "श्री मुलर, एमआरएसए खोज के कारण, हमें आपको अलग करना होगा। इसका मतलब है कि आपको एक निजी कमरा मिलेगा, और कर्मचारियों को विशेष सुरक्षात्मक कपड़े पहनने होंगे।",
+                        "ur": "مسٹر مولر، ایم آر ایس اے کی دریافت کی وجہ سے، ہمیں آپ کو الگ کرنا ہوگا۔ اس کا مطلب ہے کہ آپ کو ایک نجی کمرہ ملے گا، اور عملے کو خصوصی حفاظتی لباس پہننے کی ضرورت ہوگی۔",
+                        "tr": "Bay Müller, MRSA bulgusu nedeniyle sizi izole etmemiz gerekiyor. Bu, özel bir oda alacağınız ve personelin özel koruyucu giysiler giymesi gerektiği anlamına gelir."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Was bedeutet das für mich? Darf ich keinen Besuch empfangen?",
+                    "translation": {
+                        "en": "What does that mean for me? Am I not allowed to receive visitors?",
+                        "bn": "এর মানে আমার জন্য কী? আমি কি দর্শকদের গ্রহণ করতে পারব না?",
+                        "hi": "इसका मतलब मेरे लिए क्या है? क्या मुझे आगंतुकों को प्राप्त करने की अनुमति नहीं है?",
+                        "ur": "اس کا مطلب میرے لیے کیا ہے؟ کیا مجھے زائرین وصول کرنے کی اجازت نہیں ہے؟",
+                        "tr": "Bu benim için ne anlama geliyor? Ziyaretçi kabul etmeme izin verilmiyor mu?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Besuch ist erlaubt, aber Ihre Besucher müssen auch Schutzkleidung tragen. Wir erklären das gerne Ihren Angehörigen.",
+                    "translation": {
+                        "en": "Visitors are allowed, but your visitors must also wear protective clothing. We will gladly explain this to your relatives.",
+                        "bn": "দর্শনার্থীদের অনুমতি দেওয়া হয়, তবে আপনার দর্শকদেরও সুরক্ষামূলক পোশাক পরতে হবে। আমরা আনন্দের সাথে আপনার আত্মীয়দের কাছে এটি ব্যাখ্যা করব।",
+                        "hi": "आगंतुकों की अनुमति है, लेकिन आपके आगंतुकों को भी सुरक्षात्मक कपड़े पहनने होंगे। हम खुशी से इसे आपके रिश्तेदारों को समझाएंगे।",
+                        "ur": "زائرین کی اجازت ہے، لیکن آپ کے زائرین کو بھی حفاظتی لباس پہننا ہوگا۔ ہم خوشی سے اسے آپ کے رشتہ داروں کو سمجھائیں گے۔",
+                        "tr": "Ziyaretçilere izin verilir, ancak ziyaretçilerinizin de koruyucu giysiler giymesi gerekir. Bunu akrabalarınıza memnuniyetle açıklayacağız."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Okay, das verstehe ich. Wie lange wird das dauern?",
+                    "translation": {
+                        "en": "Okay, I understand that. How long will this last?",
+                        "bn": "ঠিক আছে, আমি এটা বুঝতে পারছি। এটা কতক্ষণ চলবে?",
+                        "hi": "ठीक है, मैं यह समझता हूँ। यह कब तक चलेगा?",
+                        "ur": "ٹھیک ہے، میں یہ سمجھتا ہوں۔ یہ کب تک چلے گا؟",
+                        "tr": "Tamam, anladım. Bu ne kadar sürecek?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das hängt vom Ergebnis der Behandlung ab. Wir werden versuchen, den MRSA schnellstmöglich zu eliminieren.",
+                    "translation": {
+                        "en": "That depends on the outcome of the treatment. We will try to eliminate the MRSA as quickly as possible.",
+                        "bn": "এটি চিকিত্সার ফলাফলের উপর নির্ভর করে। আমরা যত তাড়াতাড়ি সম্ভব এমআরএসএ নির্মূল করার চেষ্টা করব।",
+                        "hi": "यह उपचार के परिणाम पर निर्भर करता है। हम जितनी जल्दी हो सके एमआरएसए को खत्म करने की कोशिश करेंगे।",
+                        "ur": "یہ علاج کے نتائج پر منحصر ہے۔ ہم جتنی جلدی ہو سکے ایم آر ایس اے کو ختم کرنے کی کوشش کریں گے۔",
+                        "tr": "Bu tedavinin sonucuna bağlı. MRSA'yı mümkün olan en kısa sürede ortadan kaldırmaya çalışacağız."
+                    }
+                }
+            ],
+            "id": "d53_02"
+        },
+        {
+            "title": {
+                "en": "Antibiotic Resistance Discussion",
+                "bn": "অ্যান্টিবায়োটিক প্রতিরোধের আলোচনা",
+                "hi": "एंटीबायोटिक प्रतिरोध चर्चा",
+                "ur": "اینٹی بائیوٹک مزاحمت پر تبادلہ خیال",
+                "tr": "Antibiyotik Direnci Tartışması"
+            },
+            "context": {
+                "en": "Dr. Lehmann and Dr. Schmidt discuss antibiotic resistance in a staff meeting.",
+                "bn": "ডঃ লেহমান এবং ডঃ শ্মিট একটি কর্মীদের সভায় অ্যান্টিবায়োটিক প্রতিরোধ নিয়ে আলোচনা করছেন।",
+                "hi": "डॉ लेहमन और डॉ श्मिट एक स्टाफ बैठक में एंटीबायोटिक प्रतिरोध पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر لیمان اور ڈاکٹر شمٹ اسٹاف میٹنگ میں اینٹی بائیوٹک مزاحمت پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Dr. Lehmann ve Dr. Schmidt, bir personel toplantısında antibiyotik direncini tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir müssen weiterhin sehr vorsichtig mit dem Einsatz von Antibiotika sein. Die Resistenzraten steigen alarmierend.",
+                    "translation": {
+                        "en": "We must continue to be very careful with the use of antibiotics. Resistance rates are rising alarmingly.",
+                        "bn": "আমাদের অ্যান্টিবায়োটিকের ব্যবহার সম্পর্কে খুব সতর্ক থাকতে হবে। প্রতিরোধের হার উদ্বেগজনকভাবে বাড়ছে।",
+                        "hi": "हमें एंटीबायोटिक दवाओं के उपयोग के प्रति बहुत सावधान रहना जारी रखना चाहिए। प्रतिरोध दरें खतरनाक रूप से बढ़ रही हैं।",
+                        "ur": "ہمیں اینٹی بائیوٹکس کے استعمال میں بہت محتاط رہنا جاری رکھنا چاہیے۔ مزاحمت کی شرحیں خطرناک حد تک بڑھ رہی ہیں۔",
+                        "tr": "Antibiyotik kullanımında çok dikkatli olmaya devam etmeliyiz. Direnç oranları endişe verici bir şekilde artıyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das stimmt. Viele Patienten fordern Antibiotika, obwohl sie nicht notwendig sind, z.B. bei viralen Infektionen.",
+                    "translation": {
+                        "en": "That's right. Many patients demand antibiotics even when they are not necessary, e.g., for viral infections.",
+                        "bn": "এটা ঠিক। অনেক রোগী অ্যান্টিবায়োটিক দাবি করে এমনকি যখন সেগুলি প্রয়োজনীয় না হয়, যেমন ভাইরাল সংক্রমণের জন্য।",
+                        "hi": "यह सच है। कई मरीज एंटीबायोटिक दवाओं की मांग करते हैं, भले ही वे आवश्यक न हों, उदाहरण के लिए, वायरल संक्रमण के लिए।",
+                        "ur": "یہ سچ ہے۔ بہت سے مریض اینٹی بائیوٹکس کا مطالبہ کرتے ہیں یہاں تک کہ جب ان کی ضرورت نہیں ہوتی ہے، مثال کے طور پر، وائرل انفیکشن کے لیے۔",
+                        "tr": "Bu doğru. Birçok hasta, örneğin viral enfeksiyonlar için gerekli olmasa bile antibiyotik talep ediyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir müssen die Patienten besser aufklären und die Hygienevorschriften strikt einhalten. Das ist der Schlüssel zur Eindämmung von Resistenzen.",
+                    "translation": {
+                        "en": "We need to better educate patients and strictly adhere to hygiene regulations. That is the key to containing resistance.",
+                        "bn": "আমাদের রোগীদের আরও ভালভাবে শিক্ষিত করতে হবে এবং স্বাস্থ্যবিধি বিধিগুলি কঠোরভাবে মেনে চলতে হবে। প্রতিরোধ ক্ষমতা কমাতে এটিই মূল চাবিকাঠি।",
+                        "hi": "हमें रोगियों को बेहतर ढंग से शिक्षित करने और स्वच्छता नियमों का सख्ती से पालन करने की आवश्यकता है। प्रतिरोध को रोकने के लिए यही कुंजी है।",
+                        "ur": "ہمیں مریضوں کو بہتر تعلیم دینے اور حفظان صحت کے ضوابط پر سختی سے عمل کرنے کی ضرورت ہے۔ مزاحمت کو روکنے کی یہی کلید ہے۔",
+                        "tr": "Hastaları daha iyi eğitmemiz ve hijyen kurallarına sıkı sıkıya uymamız gerekiyor. Direnci kontrol altına almanın anahtarı budur."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich werde das Thema bei der nächsten Visite ansprechen und auf die korrekte Händedesinfektion hinweisen.",
+                    "translation": {
+                        "en": "I will address the issue during the next ward round and point out the importance of proper hand disinfection.",
+                        "bn": "আমি পরবর্তী ওয়ার্ড রাউন্ডের সময় বিষয়টি উত্থাপন করব এবং সঠিক হাতের জীবাণুমুক্তকরণের গুরুত্বের দিকে ইঙ্গিত করব।",
+                        "hi": "मैं अगली वार्ड राउंड के दौरान इस मुद्दे को उठाऊंगा और उचित हाथ कीटाणुशोधन के महत्व की ओर इशारा करूंगा।",
+                        "ur": "میں اگلی وارڈ راؤنڈ کے دوران اس مسئلے کو اٹھاؤں گا اور مناسب ہاتھ کی جراثیم کشی کی اہمیت کی طرف اشارہ کروں گا۔",
+                        "tr": "Bir sonraki vizitte konuyu ele alacağım ve uygun el dezenfeksiyonunun önemine dikkat çekeceğim."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Sehr gut. Nur so können wir die Ausbreitung von Infektionen und die Entstehung von Resistenzen verhindern.",
+                    "translation": {
+                        "en": "Very good. This is the only way we can prevent the spread of infections and the development of resistance.",
+                        "bn": "খুব ভালো. এভাবেই আমরা সংক্রমণের বিস্তার এবং প্রতিরোধের বিকাশ রোধ করতে পারি।",
+                        "hi": "बहुत अच्छा। केवल इसी तरह हम संक्रमण के प्रसार और प्रतिरोध के विकास को रोक सकते हैं।",
+                        "ur": "بہت اچھا. اس طرح ہم انفیکشن کے پھیلاؤ اور مزاحمت کی نشوونما کو روک سکتے ہیں۔",
+                        "tr": "Çok iyi. Enfeksiyonların yayılmasını ve direncin gelişmesini ancak bu şekilde önleyebiliriz."
+                    }
+                }
+            ],
+            "id": "d53_03"
+        },
+        {
+            "title": {
+                "en": "Vaccination Discussion with Patient",
+                "bn": "রোগীর সাথে টিকা নিয়ে আলোচনা",
+                "hi": "रोगी के साथ टीकाकरण पर चर्चा",
+                "ur": "مریض کے ساتھ ویکسینیشن پر تبادلہ خیال",
+                "tr": "Hasta ile Aşılama Tartışması"
+            },
+            "context": {
+                "en": "Dr. Meier discusses the importance of vaccinations with a new patient, Frau Schmidt.",
+                "bn": "ডঃ মিয়ার একজন নতুন রোগী, ফ্রাউ শ্মিটের সাথে টিকা দেওয়ার গুরুত্ব নিয়ে আলোচনা করছেন।",
+                "hi": "डॉ मेयर एक नई मरीज, फ्राउ श्मिट के साथ टीकाकरण के महत्व पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر میئر ایک نئی مریض، فراؤ شمٹ کے ساتھ ویکسینیشن کی اہمیت پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Dr. Meier yeni bir hasta olan Frau Schmidt ile aşılamanın önemi hakkında konuşuyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Frau Schmidt, ich möchte mit Ihnen über Ihren Impfstatus sprechen. Haben Sie alle empfohlenen Impfungen?",
+                    "translation": {
+                        "en": "Mrs. Schmidt, I would like to talk to you about your vaccination status. Do you have all the recommended vaccinations?",
+                        "bn": "ফ্রাউ শ্মিট, আমি আপনার টিকা দেওয়ার স্থিতি নিয়ে আপনার সাথে কথা বলতে চাই। আপনার কি সমস্ত প্রস্তাবিত টিকা আছে?",
+                        "hi": "श्रीमती श्मिट, मैं आपसे आपकी टीकाकरण स्थिति के बारे में बात करना चाहता हूं। क्या आपके पास सभी अनुशंसित टीके हैं?",
+                        "ur": "محترمہ شمٹ، میں آپ سے آپ کی ویکسینیشن کی حیثیت کے بارے میں بات کرنا چاہوں گا۔ کیا آپ کے پاس تمام تجویز کردہ ویکسین ہیں؟",
+                        "tr": "Bayan Schmidt, sizinle aşılama durumunuz hakkında konuşmak istiyorum. Önerilen aşıların hepsine sahip misiniz?"
+                    }
+                },
+                {
+                    "speaker": "Frau Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich bin mir nicht sicher. Ich habe als Kind einige Impfungen bekommen, aber ich weiß nicht genau welche.",
+                    "translation": {
+                        "en": "I'm not sure. I received some vaccinations as a child, but I don't know exactly which ones.",
+                        "bn": "আমি নিশ্চিত নই। আমি ছোটবেলায় কিছু টিকা নিয়েছি, কিন্তু আমি ঠিক জানি না কোনগুলো।",
+                        "hi": "मुझे यकीन नहीं है। मैंने बचपन में कुछ टीके लगवाए थे, लेकिन मुझे ठीक से पता नहीं है कि कौन से।",
+                        "ur": "مجھے یقین نہیں ہے۔ میں نے بچپن میں کچھ ویکسین لگوائی تھیں، لیکن مجھے ٹھیک سے نہیں معلوم کہ کون سی ہیں۔",
+                        "tr": "Emin değilim. Çocukken bazı aşılar oldum ama tam olarak hangileri olduğunu bilmiyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Kein Problem. Wir können das überprüfen und gegebenenfalls fehlende Impfungen nachholen. Impfungen sind sehr wichtig, um sich vor schweren Infektionskrankheiten zu schützen.",
+                    "translation": {
+                        "en": "No problem. We can check that and make up for any missing vaccinations if necessary. Vaccinations are very important to protect yourself from serious infectious diseases.",
+                        "bn": "কোন সমস্যা নেই. আমরা এটি পরীক্ষা করতে পারি এবং প্রয়োজনে অনুপস্থিত টিকাগুলির জন্য ক্ষতিপূরণ দিতে পারি। গুরুতর সংক্রামক রোগ থেকে নিজেকে রক্ষা করার জন্য টিকা খুবই গুরুত্বপূর্ণ।",
+                        "hi": "कोई बात नहीं। हम इसकी जांच कर सकते हैं और यदि आवश्यक हो तो कोई भी लापता टीकाकरण करवा सकते हैं। गंभीर संक्रामक रोगों से खुद को बचाने के लिए टीकाकरण बहुत महत्वपूर्ण है।",
+                        "ur": "کوئی مسئلہ نہیں۔ ہم اس کی جانچ کر سکتے ہیں اور اگر ضروری ہو تو کسی بھی گمشدہ ویکسین کی تلافی کر سکتے ہیں۔ سنگین متعدی امراض سے خود کو بچانے کے لیے ویکسینیشن بہت اہم ہے۔",
+                        "tr": "Sorun değil. Bunu kontrol edebilir ve gerekirse eksik aşıları tamamlayabiliriz. Aşılar, kendinizi ciddi enfeksiyon hastalıklarından korumak için çok önemlidir."
+                    }
+                },
+                {
+                    "speaker": "Frau Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe gehört, dass Impfungen auch Nebenwirkungen haben können.",
+                    "translation": {
+                        "en": "I've heard that vaccinations can also have side effects.",
+                        "bn": "আমি শুনেছি টিকা দেওয়ারও পার্শ্ব প্রতিক্রিয়া থাকতে পারে।",
+                        "hi": "मैंने सुना है कि टीकाकरण के दुष्प्रभाव भी हो सकते हैं।",
+                        "ur": "میں نے سنا ہے کہ ویکسینیشن کے مضر اثرات بھی ہو سکتے ہیں۔",
+                        "tr": "Aşıların yan etkileri de olabileceğini duydum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das ist richtig, aber die meisten Nebenwirkungen sind mild und vorübergehend. Der Nutzen der Impfung überwiegt das Risiko bei weitem.",
+                    "translation": {
+                        "en": "That's correct, but most side effects are mild and temporary. The benefit of vaccination far outweighs the risk.",
+                        "bn": "এটা সঠিক, তবে বেশিরভাগ পার্শ্ব প্রতিক্রিয়া হালকা এবং অস্থায়ী। টিকা দেওয়ার সুবিধা ঝুঁকির চেয়ে অনেক বেশি।",
+                        "hi": "यह सही है, लेकिन अधिकांश दुष्प्रभाव हल्के और अस्थायी होते हैं। टीकाकरण का लाभ जोखिम से कहीं अधिक है।",
+                        "ur": "یہ درست ہے، لیکن زیادہ تر ضمنی اثرات ہلکے اور عارضی ہوتے ہیں۔ ویکسینیشن کا فائدہ خطرے سے کہیں زیادہ ہے۔",
+                        "tr": "Bu doğru, ancak çoğu yan etki hafiftir ve geçicidir. Aşının faydası, riskten çok daha fazladır."
+                    }
+                }
+            ],
+            "id": "d53_04"
+        },
+        {
+            "title": {
+                "en": "Hygiene Compliance Observation",
+                "bn": "স্বাস্থ্যবিধি সম্মতি পর্যবেক্ষণ",
+                "hi": "स्वच्छता अनुपालन अवलोकन",
+                "ur": "حفظان صحت کی تعمیل کا مشاہدہ",
+                "tr": "Hijyen Uygunluğu Gözlemi"
+            },
+            "context": {
+                "en": "Schwester Petra observes Dr. Klein not performing hand hygiene properly after examining a patient in isolation.",
+                "bn": "সিস্টার পেট্রা লক্ষ্য করেছেন যে ডাঃ ক্লেইন বিচ্ছিন্নতায় থাকা কোনও রোগীকে পরীক্ষা করার পরে সঠিকভাবে হাতের স্বাস্থ্যবিধি পালন করছেন না।",
+                "hi": "सिस्टर पेट्रा ने देखा कि डॉ क्लाइन आइसोलेशन में एक मरीज की जांच करने के बाद ठीक से हाथ की स्वच्छता नहीं कर रहे हैं।",
+                "ur": "سسٹر پیٹرا نے مشاہدہ کیا کہ ڈاکٹر کلین تنہائی میں مریض کی جانچ کرنے کے بعد ہاتھ کی صفائی ٹھیک سے نہیں کر رہے ہیں۔",
+                "tr": "Hemşire Petra, Dr. Klein'ın izolasyonda bir hastayı muayene ettikten sonra el hijyenini düzgün bir şekilde uygulamadığını gözlemliyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Petra",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Dr. Klein, ich habe gesehen, dass Sie nach der Untersuchung von Herrn Schmidt keine Händedesinfektion durchgeführt haben.",
+                    "translation": {
+                        "en": "Dr. Klein, I saw that you did not perform hand disinfection after examining Mr. Schmidt.",
+                        "bn": "ডঃ ক্লেইন, আমি দেখেছি যে আপনি মিস্টার শ্মিটকে পরীক্ষা করার পরে হাতের জীবাণুমুক্ত করেননি।",
+                        "hi": "डॉ क्लाइन, मैंने देखा कि आपने श्री श्मिट की जांच करने के बाद हाथ कीटाणुशोधन नहीं किया।",
+                        "ur": "ڈاکٹر کلین، میں نے دیکھا کہ آپ نے مسٹر شمٹ کی جانچ کرنے کے بعد ہاتھ کی جراثیم کشی نہیں کی۔",
+                        "tr": "Dr. Klein, Bay Schmidt'i muayene ettikten sonra el dezenfeksiyonu yapmadığınızı gördüm."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Oh, Entschuldigung, Schwester Petra. Ich war in Eile und habe es vergessen.",
+                    "translation": {
+                        "en": "Oh, sorry, Sister Petra. I was in a hurry and forgot.",
+                        "bn": "ওহ, দুঃখিত, সিস্টার পেট্রা। আমি তাড়াহুড়োয় ছিলাম এবং ভুলে গেছি।",
+                        "hi": "ओह, क्षमा करें, सिस्टर पेट्रा। मैं जल्दी में था और भूल गया।",
+                        "ur": "اوہ، معاف کیجیے، سسٹر پیٹرا۔ میں جلدی میں تھا اور بھول گیا۔",
+                        "tr": "Ah, üzgünüm Hemşire Petra. Acelem vardı ve unuttum."
+                    }
+                },
+                {
+                    "speaker": "Schwester Petra",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Gerade bei Patienten in Isolation ist die Händedesinfektion extrem wichtig, um die Ausbreitung von Infektionen zu verhindern.",
+                    "translation": {
+                        "en": "Especially with patients in isolation, hand disinfection is extremely important to prevent the spread of infections.",
+                        "bn": "বিশেষ করে বিচ্ছিন্ন রোগীদের ক্ষেত্রে, সংক্রমণের বিস্তার রোধ করতে হাতের জীবাণুমুক্তকরণ অত্যন্ত গুরুত্বপূর্ণ।",
+                        "hi": "विशेष रूप से अलगाव में मरीजों के साथ, संक्रमण के प्रसार को रोकने के लिए हाथ कीटाणुशोधन बेहद महत्वपूर्ण है।",
+                        "ur": "خاص طور پر تنہائی میں مریضوں کے ساتھ، انفیکشن کے پھیلاؤ کو روکنے کے لیے ہاتھ کی جراثیم کشی انتہائی اہم ہے۔",
+                        "tr": "Özellikle izolasyondaki hastalar için, enfeksiyonların yayılmasını önlemek için el dezenfeksiyonu son derece önemlidir."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Sie haben Recht. Ich werde es sofort nachholen. Danke für den Hinweis.",
+                    "translation": {
+                        "en": "You are right. I will do it immediately. Thank you for pointing it out.",
+                        "bn": "আপনি ঠিক বলেছেন। আমি এটা অবিলম্বে করব। এটা উল্লেখ করার জন্য ধন্যবাদ।",
+                        "hi": "आप सही हैं। मैं इसे तुरंत करूँगा। इसे इंगित करने के लिए धन्यवाद।",
+                        "ur": "آپ درست ہیں۔ میں اسے فوری طور پر کروں گا۔ اس کی نشاندہی کرنے کے لیے آپ کا شکریہ۔",
+                        "tr": "Haklısın. Hemen yapacağım. Uyardığın için teşekkürler."
+                    }
+                },
+                {
+                    "speaker": "Schwester Petra",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Kein Problem. Es dient der Sicherheit aller Patienten und Mitarbeiter.",
+                    "translation": {
+                        "en": "No problem. It is for the safety of all patients and staff.",
+                        "bn": "কোন সমস্যা নেই. এটি সমস্ত রোগী এবং কর্মীদের নিরাপত্তার জন্য।",
+                        "hi": "कोई बात नहीं। यह सभी रोगियों और कर्मचारियों की सुरक्षा के लिए है।",
+                        "ur": "کوئی مسئلہ نہیں۔ یہ تمام مریضوں اور عملے کی حفاظت کے لیے ہے۔",
+                        "tr": "Sorun değil. Tüm hastaların ve personelin güvenliği içindir."
+                    }
+                }
+            ],
+            "id": "d53_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage über MRSA ist korrekt?",
+                "en": "Which statement about MRSA is correct?",
+                "bn": "MRSA সম্পর্কে কোন বক্তব্যটি সঠিক?",
+                "hi": "MRSA के बारे में कौन सा कथन सही है?",
+                "ur": "ایم آر ایس اے کے بارے میں کون سا بیان درست ہے؟",
+                "tr": "MRSA hakkında hangi ifade doğrudur?"
+            },
+            "options": [
+                "MRSA ist ein Virus.",
+                "MRSA ist leicht mit Penicillin zu behandeln.",
+                "MRSA ist ein gegen viele Antibiotika resistenter Bakterienstamm.",
+                "MRSA betrifft nur Menschen mit einem schwachen Immunsystem."
+            ],
+            "correctAnswer": "MRSA ist ein gegen viele Antibiotika resistenter Bakterienstamm.",
+            "explanation": {
+                "en": "MRSA stands for Methicillin-resistant Staphylococcus aureus, meaning it's resistant to many antibiotics.",
+                "bn": "MRSA মানে Methicillin-resistant Staphylococcus aureus, যার মানে এটি অনেক অ্যান্টিবায়োটিকের প্রতিরোধী।",
+                "hi": "MRSA का मतलब है Methicillin-resistant Staphylococcus aureus, जिसका मतलब है कि यह कई एंटीबायोटिक दवाओं के प्रति प्रतिरोधी है।",
+                "ur": "MRSA کا مطلب ہے Methicillin-resistant Staphylococcus aureus, مطلب یہ بہت سے اینٹی بائیوٹک ادویات کے خلاف مزاحم ہے۔",
+                "tr": "MRSA, Metisiline dirençli Staphylococcus aureus anlamına gelir, yani birçok antibiyotiğe dirençlidir."
+            },
+            "points": 10,
+            "id": "e53_01"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "________ ist eine Maßnahme, um die Ausbreitung von Infektionen zu verhindern.",
+                "en": "________ is a measure to prevent the spread of infections.",
+                "bn": "________ সংক্রমণ ছড়ানো রোধ করার একটি উপায়।",
+                "hi": "________ संक्रमण के प्रसार को रोकने का एक उपाय है।",
+                "ur": "________ انفیکشن کے پھیلاؤ کو روکنے کا ایک اقدام ہے۔",
+                "tr": "________ enfeksiyonların yayılmasını önlemeye yönelik bir önlemdir."
+            },
+            "correctAnswer": "Hygiene",
+            "explanation": {
+                "en": "Hygiene practices like hand washing and disinfection are crucial for infection control.",
+                "bn": "হাত ধোয়া এবং জীবাণুমুক্ত করার মতো স্বাস্থ্যবিধি অভ্যাস সংক্রমণ নিয়ন্ত্রণের জন্য অত্যন্ত গুরুত্বপূর্ণ।",
+                "hi": "हाथ धोना और कीटाणुशोधन जैसे स्वच्छता अभ्यास संक्रमण नियंत्रण के लिए महत्वपूर्ण हैं।",
+                "ur": "ہاتھ دھونے اور جراثیم کشی جیسے حفظان صحت کے طریقے انفیکشن کو کنٹرول کرنے کے لیے بہت اہم ہیں۔",
+                "tr": "El yıkama ve dezenfeksiyon gibi hijyen uygulamaları enfeksiyon kontrolü için çok önemlidir."
+            },
+            "points": 10,
+            "id": "e53_02"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Isolation des Patienten ist notwendig, um weitere Infektionen zu verhindern.",
+                "en": "The isolation of the patient is necessary to prevent further infections.",
+                "bn": "আরও সংক্রমণ প্রতিরোধ করার জন্য রোগীর বিচ্ছিন্নতা প্রয়োজন।",
+                "hi": "आगे संक्रमण को रोकने के लिए रोगी का अलगाव आवश्यक है।",
+                "ur": "مزید انفیکشن سے بچنے کے لیے مریض کو الگ تھلگ کرنا ضروری ہے۔",
+                "tr": "Daha fazla enfeksiyonu önlemek için hastanın izolasyonu gereklidir."
+            },
+            "correctAnswer": "The isolation of the patient is necessary to prevent further infections.",
+            "explanation": {
+                "en": "This is a direct translation of the German sentence, highlighting the importance of isolation to stop infection spread.",
+                "bn": "এটি জার্মান বাক্যটির সরাসরি অনুবাদ, সংক্রমণ রোধে বিচ্ছিন্নতার গুরুত্ব তুলে ধরে।",
+                "hi": "यह जर्मन वाक्य का सीधा अनुवाद है, जो संक्रमण को रोकने के लिए अलगाव के महत्व पर प्रकाश डालता है।",
+                "ur": "یہ جرمن جملے کا براہ راست ترجمہ ہے، جو انفیکشن کو روکنے کے لیے تنہائی کی اہمیت کو اجاگر کرتا ہے۔",
+                "tr": "Bu, Alman cümlenin doğrudan çevirisidir ve enfeksiyonun yayılmasını durdurmak için izolasyonun önemini vurgular."
+            },
+            "points": 10,
+            "id": "e53_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Resistenz' im Zusammenhang mit Antibiotika?",
+                "en": "What does 'resistance' mean in the context of antibiotics?",
+                "bn": "অ্যান্টিবায়োটিকের প্রসঙ্গে 'প্রতিরোধ' মানে কী?",
+                "hi": "एंटीबायोटिक दवाओं के संदर्भ में 'प्रतिरोध' का क्या अर्थ है?",
+                "ur": "اینٹی بائیوٹک ادویات کے تناظر میں 'مزاحمت' کا کیا مطلب ہے؟",
+                "tr": "Antibiyotikler bağlamında 'direnç' ne anlama gelir?"
+            },
+            "options": [
+                "Die Wirksamkeit des Antibiotikums wird verstärkt.",
+                "Das Bakterium stirbt schneller ab.",
+                "Das Bakterium ist unempfindlich gegen das Antibiotikum.",
+                "Das Antibiotikum wirkt nur bei Viren."
+            ],
+            "correctAnswer": "Das Bakterium ist unempfindlich gegen das Antibiotikum.",
+            "explanation": {
+                "en": "Antibiotic resistance means the bacteria is no longer affected by the antibiotic, rendering it ineffective.",
+                "bn": "অ্যান্টিবায়োটিক প্রতিরোধের অর্থ হল ব্যাকটেরিয়া আর অ্যান্টিবায়োটিক দ্বারা প্রভাবিত হয় না, তাই এটি অকার্যকর হয়ে যায়।",
+                "hi": "एंटीबायोटिक प्रतिरोध का मतलब है कि बैक्टीरिया अब एंटीबायोटिक से प्रभावित नहीं होता है, जिससे यह अप्रभावी हो जाता है।",
+                "ur": "اینٹی بائیوٹک مزاحمت کا مطلب ہے کہ بیکٹیریا اب اینٹی بائیوٹک سے متاثر نہیں ہوتا ہے، اس لیے یہ غیر موثر ہو جاتا ہے۔",
+                "tr": "Antibiyotik direnci, bakterinin artık antibiyotikten etkilenmediği anlamına gelir, bu da onu etkisiz hale getirir."
+            },
+            "points": 10,
+            "id": "e53_04"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Eine ________ schützt vor einer spezifischen Infektionskrankheit.",
+                "en": "A ________ protects against a specific infectious disease.",
+                "bn": "একটি ________ একটি নির্দিষ্ট সংক্রামক রোগের বিরুদ্ধে সুরক্ষা প্রদান করে।",
+                "hi": "एक ________ एक विशिष्ट संक्रामक रोग से बचाता है।",
+                "ur": "ایک ________ ایک مخصوص متعدی بیماری سے بچاتا ہے۔",
+                "tr": "Bir ________ belirli bir bulaşıcı hastalığa karşı koruma sağlar."
+            },
+            "correctAnswer": "Impfung",
+            "explanation": {
+                "en": "Vaccination (Impfung) provides immunity against specific infectious diseases.",
+                "bn": "টিকা (Impfung) একটি নির্দিষ্ট সংক্রামক রোগের বিরুদ্ধে প্রতিরোধ ক্ষমতা প্রদান করে।",
+                "hi": "टीकाकरण (Impfung) एक विशिष्ट संक्रामक रोग के खिलाफ प्रतिरक्षा प्रदान करता है।",
+                "ur": "ویکسینیشن (Impfung) ایک مخصوص متعدی بیماری کے خلاف قوت مدافعت فراہم کرتا ہے۔",
+                "tr": "Aşılama (Impfung) belirli bir bulaşıcı hastalığa karşı bağışıklık sağlar."
+            },
+            "points": 10,
+            "id": "e53_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Maßnahme ist wichtig, um die Ausbreitung von MRSA im Krankenhaus zu verhindern?",
+                "en": "Which measure is important to prevent the spread of MRSA in the hospital?",
+                "bn": "হাসপাতালে MRSA ছড়ানো রোধ করতে কোন পদক্ষেপটি গুরুত্বপূর্ণ?",
+                "hi": "अस्पताल में MRSA के प्रसार को रोकने के लिए कौन सा उपाय महत्वपूर्ण है?",
+                "ur": "ہسپتال میں MRSA کے پھیلاؤ کو روکنے کے لیے کون سا اقدام اہم ہے؟",
+                "tr": "Hastanede MRSA'nın yayılmasını önlemek için hangi önlem önemlidir?"
+            },
+            "options": [
+                "Regelmäßiges Lüften der Patientenzimmer.",
+                "Verabreichung von Breitbandantibiotika an alle Patienten.",
+                "Konsequente Händedesinfektion des Personals.",
+                "Erhöhung der Patientenkontakte."
+            ],
+            "correctAnswer": "Konsequente Händedesinfektion des Personals.",
+            "explanation": {
+                "en": "Consistent hand disinfection by staff is crucial to prevent the spread of MRSA and other infections.",
+                "bn": "স্টাফদের দ্বারা ধারাবাহিকভাবে হাত জীবাণুমুক্তকরণ MRSA এবং অন্যান্য সংক্রমণ ছড়ানো রোধ করার জন্য অত্যন্ত গুরুত্বপূর্ণ।",
+                "hi": "स्टाफ द्वारा लगातार हाथ कीटाणुशोधन MRSA और अन्य संक्रमणों के प्रसार को रोकने के लिए महत्वपूर्ण है।",
+                "ur": "عملے کی جانب سے مستقل طور پر ہاتھوں کو جراثیم سے پاک کرنا MRSA اور دیگر انفیکشن کے پھیلاؤ کو روکنے کے لیے بہت اہم ہے۔",
+                "tr": "Personel tarafından düzenli el dezenfeksiyonu, MRSA ve diğer enfeksiyonların yayılmasını önlemek için çok önemlidir."
+            },
+            "points": 10,
+            "id": "e53_06"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "________ werden zur Behandlung bakterieller Infektionen eingesetzt.",
+                "en": "________ are used to treat bacterial infections.",
+                "bn": "________ ব্যাকটেরিয়াল সংক্রমণ নিরাময়ের জন্য ব্যবহৃত হয়।",
+                "hi": "________ का उपयोग जीवाणु संक्रमण के इलाज के लिए किया जाता है।",
+                "ur": "________ بیکٹیریل انفیکشن کے علاج کے لیے استعمال ہوتے ہیں۔",
+                "tr": "________ bakteriyel enfeksiyonları tedavi etmek için kullanılır."
+            },
+            "correctAnswer": "Antibiotika",
+            "explanation": {
+                "en": "Antibiotics are specifically designed to target and kill bacteria, treating bacterial infections.",
+                "bn": "অ্যান্টিবায়োটিকগুলি বিশেষভাবে ব্যাকটেরিয়াকে লক্ষ্য করে মারার জন্য ডিজাইন করা হয়েছে, যা ব্যাকটেরিয়াল সংক্রমণ নিরাময় করে।",
+                "hi": "एंटीबायोटिक दवाओं को विशेष रूप से बैक्टीरिया को लक्षित करने और मारने के लिए डिज़ाइन किया गया है, जो जीवाणु संक्रमण का इलाज करते हैं।",
+                "ur": "اینٹی بائیوٹک ادویات کو خاص طور پر بیکٹیریا کو نشانہ بنانے اور مارنے کے لیے ڈیزائن کیا گیا ہے، جو بیکٹیریل انفیکشن کا علاج کرتی ہیں۔",
+                "tr": "Antibiyotikler, bakteriyel enfeksiyonları tedavi ederek, özellikle bakterileri hedef almak ve öldürmek için tasarlanmıştır."
+            },
+            "points": 10,
+            "id": "e53_07"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Regelmäßiges Händewaschen ist der beste Schutz vor Infektionen.",
+                "en": "Regular hand washing is the best protection against infections.",
+                "bn": "নিয়মিত হাত ধোয়া সংক্রমণ থেকে সেরা সুরক্ষা।",
+                "hi": "नियमित रूप से हाथ धोना संक्रमण से सबसे अच्छी सुरक्षा है।",
+                "ur": "باقاعدگی سے ہاتھ دھونا انفیکشن سے بہترین تحفظ ہے۔",
+                "tr": "Düzenli el yıkama enfeksiyonlara karşı en iyi korumadır."
+            },
+            "correctAnswer": "Regular hand washing is the best protection against infections.",
+            "explanation": {
+                "en": "This is a direct translation emphasizing the importance of hand hygiene in preventing infections.",
+                "bn": "এটি সংক্রমণ প্রতিরোধের জন্য হাতের পরিচ্ছন্নতার গুরুত্বের উপর জোর দিয়ে সরাসরি অনুবাদ করা হয়েছে।",
+                "hi": "यह संक्रमण को रोकने में हाथ की स्वच्छता के महत्व पर जोर देते हुए सीधा अनुवाद है।",
+                "ur": "یہ انفیکشن کو روکنے میں ہاتھ کی صفائی کی اہمیت پر زور دیتے ہوئے براہ راست ترجمہ ہے۔",
+                "tr": "Bu, enfeksiyonları önlemede el hijyeninin önemini vurgulayan doğrudan bir çeviridir."
+            },
+            "points": 10,
+            "id": "e53_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was versteht man unter 'Infektion'?",
+                "en": "What is understood by 'Infection'?",
+                "bn": "'সংক্রমণ' বলতে কী বোঝায়?",
+                "hi": "'संक्रमण' से क्या समझा जाता है?",
+                "ur": "'انفیکشن' سے کیا مراد ہے؟",
+                "tr": "'Enfeksiyon' ile ne anlaşılır?"
+            },
+            "options": [
+                "Eine allergische Reaktion auf ein Medikament.",
+                "Das Eindringen und die Vermehrung von Krankheitserregern im Körper.",
+                "Eine genetisch bedingte Erkrankung.",
+                "Ein Mangel an Vitaminen."
+            ],
+            "correctAnswer": "Das Eindringen und die Vermehrung von Krankheitserregern im Körper.",
+            "explanation": {
+                "en": "Infection refers to the invasion and multiplication of pathogenic organisms within the body.",
+                "bn": "সংক্রমণ বলতে শরীরে রোগ সৃষ্টিকারী জীবের প্রবেশ এবং বংশবৃদ্ধি বোঝায়।",
+                "hi": "संक्रमण शरीर के भीतर रोगजनक जीवों के आक्रमण और गुणन को संदर्भित करता है।",
+                "ur": "انفیکشن سے مراد جسم کے اندر روگجنک حیاتیات کا حملہ اور ضرب ہے۔",
+                "tr": "Enfeksiyon, vücut içinde patojenik organizmaların istilasını ve çoğalmasını ifade eder."
+            },
+            "points": 10,
+            "id": "e53_09"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bei einer ________ werden Patienten mit ansteckenden Krankheiten von anderen getrennt.",
+                "en": "In ________, patients with contagious diseases are separated from others.",
+                "bn": "________-এ, সংক্রামক রোগে আক্রান্ত রোগীদের অন্যদের থেকে আলাদা করা হয়।",
+                "hi": "________ में, संक्रामक रोगों वाले रोगियों को दूसरों से अलग किया जाता है।",
+                "ur": "________ میں، متعدی امراض میں مبتلا مریضوں کو دوسروں سے الگ کیا جاتا ہے۔",
+                "tr": "________'da, bulaşıcı hastalıkları olan hastalar diğerlerinden ayrılır."
+            },
+            "correctAnswer": "Isolation",
+            "explanation": {
+                "en": "Isolation is the separation of infected individuals to prevent the spread of disease.",
+                "bn": "রোগের বিস্তার রোধ করার জন্য সংক্রামিত ব্যক্তিদের পৃথক করাই হল আইসোলেশন।",
+                "hi": "रोग के प्रसार को रोकने के लिए संक्रमित व्यक्तियों को अलग करना ही आइसोलेशन है।",
+                "ur": "مرض کے پھیلاؤ کو روکنے کے لیے متاثرہ افراد کو الگ کرنا ہی آئسولیشن ہے۔",
+                "tr": "İzolasyon, hastalığın yayılmasını önlemek için enfekte kişilerin ayrılmasıdır."
+            },
+            "points": 10,
+            "id": "e53_10"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Antibiotikaresistenz ist ein wachsendes Problem.",
+                "en": "Antibiotic resistance is a growing problem.",
+                "bn": "অ্যান্টিবায়োটিক প্রতিরোধ একটি ক্রমবর্ধমান সমস্যা।",
+                "hi": "एंटीबायोटिक प्रतिरोध एक बढ़ती हुई समस्या है।",
+                "ur": "اینٹی بائیوٹک مزاحمت ایک بڑھتا ہوا مسئلہ ہے۔",
+                "tr": "Antibiyotik direnci büyüyen bir sorundur."
+            },
+            "correctAnswer": "Antibiotic resistance is a growing problem.",
+            "explanation": {
+                "en": "Direct translation, highlighting the increasing threat of antibiotic resistance worldwide.",
+                "bn": "সরাসরি অনুবাদ, বিশ্বব্যাপী অ্যান্টিবায়োটিক প্রতিরোধের ক্রমবর্ধমান হুমকি তুলে ধরে।",
+                "hi": "प्रत्यक्ष अनुवाद, दुनिया भर में एंटीबायोटिक प्रतिरोध के बढ़ते खतरे पर प्रकाश डाला गया।",
+                "ur": "براہ راست ترجمہ، دنیا بھر میں اینٹی بائیوٹک مزاحمت کے بڑھتے ہوئے خطرے کو اجاگر کیا گیا ہے۔",
+                "tr": "Doğrudan çeviri, dünya çapında antibiyotik direncinin artan tehdidini vurgulamaktadır."
+            },
+            "points": 10,
+            "id": "e53_11"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Ziel einer Impfung?",
+                "en": "What is the goal of a vaccination?",
+                "bn": "একটি টিকাদানের লক্ষ্য কী?",
+                "hi": "टीकाकरण का लक्ष्य क्या है?",
+                "ur": "ویکسینیشن کا مقصد کیا ہے؟",
+                "tr": "Aşılamanın amacı nedir?"
+            },
+            "options": [
+                "Die sofortige Heilung einer bestehenden Infektion.",
+                "Die Vorbeugung von bakteriellen Infektionen.",
+                "Der Aufbau von Immunität gegen eine bestimmte Krankheit.",
+                "Die vollständige Ausrottung aller Krankheitserreger."
+            ],
+            "correctAnswer": "Der Aufbau von Immunität gegen eine bestimmte Krankheit.",
+            "explanation": {
+                "en": "Vaccination aims to build immunity against a specific disease by exposing the body to a weakened or inactive form of the pathogen.",
+                "bn": "টিকা দেওয়ার লক্ষ্য হল রোগ সৃষ্টিকারী জীবের দুর্বল বা নিষ্ক্রিয় রূপের সংস্পর্শে শরীরের মাধ্যমে একটি নির্দিষ্ট রোগের বিরুদ্ধে প্রতিরোধ ক্ষমতা তৈরি করা।",
+                "hi": "टीकाकरण का लक्ष्य शरीर को रोगजनक के कमजोर या निष्क्रिय रूप से अवगत कराकर एक विशिष्ट बीमारी के खिलाफ प्रतिरोधक क्षमता का निर्माण करना है।",
+                "ur": "ویکسینیشن کا مقصد جسم کو روگجنک کی کمزور یا غیر فعال شکل سے آگاہ کر کے کسی مخصوص بیماری کے خلاف قوت مدافعت پیدا کرنا ہے۔",
+                "tr": "Aşılama, vücudu patojenin zayıflamış veya inaktif bir formuna maruz bırakarak belirli bir hastalığa karşı bağışıklık oluşturmayı amaçlar."
+            },
+            "points": 10,
+            "id": "e53_12"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage zur Antibiotikaanwendung ist richtig?",
+                "en": "Which statement about antibiotic use is correct?",
+                "bn": "অ্যান্টিবায়োটিক ব্যবহার সম্পর্কে কোন বক্তব্যটি সঠিক?",
+                "hi": "एंटीबायोटिक उपयोग के बारे में कौन सा कथन सही है?",
+                "ur": "اینٹی بائیوٹک استعمال کے بارے میں کون سا بیان درست ہے؟",
+                "tr": "Antibiyotik kullanımı hakkında hangi ifade doğrudur?"
+            },
+            "options": [
+                "Antibiotika helfen gegen Viren.",
+                "Antibiotika sollten immer ohne ärztliche Verschreibung eingenommen werden.",
+                "Antibiotika sollten nur bei bakteriellen Infektionen eingesetzt werden.",
+                "Je mehr Antibiotika eingenommen werden, desto besser ist es für den Körper."
+            ],
+            "correctAnswer": "Antibiotika sollten nur bei bakteriellen Infektionen eingesetzt werden.",
+            "explanation": {
+                "en": "Antibiotics are only effective against bacterial infections and should not be used for viral infections.",
+                "bn": "অ্যান্টিবায়োটিকগুলি কেবল ব্যাকটেরিয়াল সংক্রমণের বিরুদ্ধে কার্যকর এবং ভাইরাল সংক্রমণের জন্য ব্যবহার করা উচিত নয়।",
+                "hi": "एंटीबायोटिक दवाएं केवल जीवाणु संक्रमण के खिलाफ प्रभावी हैं और वायरल संक्रमण के लिए इनका उपयोग नहीं किया जाना चाहिए।",
+                "ur": "اینٹی بائیوٹک ادویات صرف بیکٹیریل انفیکشن کے خلاف موثر ہیں اور وائرل انفیکشن کے لیے ان کا استعمال نہیں کیا جانا چاہیے۔",
+                "tr": "Antibiyotikler sadece bakteriyel enfeksiyonlara karşı etkilidir ve viral enfeksiyonlar için kullanılmamalıdır."
+            },
+            "points": 10,
+            "id": "e53_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die ________ von medizinischen Geräten ist wichtig, um Infektionen zu vermeiden.",
+                "en": "The ________ of medical devices is important to avoid infections.",
+                "bn": "সংক্রমণ এড়াতে চিকিৎসা সরঞ্জামের ________ গুরুত্বপূর্ণ।",
+                "hi": "संक्रमण से बचने के लिए चिकित्सा उपकरणों का ________ महत्वपूर्ण है।",
+                "ur": "انفیکشن سے بچنے کے لیے طبی آلات کا ________ اہم ہے۔",
+                "tr": "Enfeksiyonlardan kaçınmak için tıbbi cihazların ________ önemlidir."
+            },
+            "correctAnswer": "Desinfektion",
+            "explanation": {
+                "en": "Disinfection of medical devices is crucial to eliminate pathogens and prevent healthcare-associated infections.",
+                "bn": "রোগ সৃষ্টিকারী জীবাণু দূর করতে এবং স্বাস্থ্যসেবা-সংশ্লিষ্ট সংক্রমণ প্রতিরোধ করতে চিকিৎসা সরঞ্জামের জীবাণুমুক্তকরণ অত্যন্ত গুরুত্বপূর্ণ।",
+                "hi": "रोग पैदा करने वाले कीटाणुओं को खत्म करने और स्वास्थ्य सेवा से जुड़े संक्रमणों को रोकने के लिए चिकित्सा उपकरणों का कीटाणुशोधन अत्यंत महत्वपूर्ण है।",
+                "ur": "مرض پیدا کرنے والے جراثیم کو ختم کرنے اور صحت کی دیکھ بھال سے منسلک انفیکشن کو روکنے کے لیے طبی آلات کی جراثیم کشی انتہائی اہم ہے۔",
+                "tr": "Patojenleri ortadan kaldırmak ve sağlık hizmetiyle ilişkili enfeksiyonları önlemek için tıbbi cihazların dezenfeksiyonu çok önemlidir."
+            },
+            "points": 10,
+            "id": "e53_14"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist eine typische Folge von unkritischem Antibiotikaeinsatz?",
+                "en": "What is a typical consequence of uncritical antibiotic use?",
+                "bn": "অযৌক্তিক অ্যান্টিবায়োটিক ব্যবহারের একটি সাধারণ পরিণতি কী?",
+                "hi": "अविवेकपूर्ण एंटीबायोटिक उपयोग का एक सामान्य परिणाम क्या है?",
+                "ur": "غیر تنقیدی اینٹی بائیوٹک استعمال کا ایک عام نتیجہ کیا ہے؟",
+                "tr": "Eleştirel olmayan antibiyotik kullanımının tipik bir sonucu nedir?"
+            },
+            "options": [
+                "Die Stärkung des Immunsystems.",
+                "Die Zunahme von Antibiotika-resistenten Bakterien.",
+                "Die Heilung von Viruserkrankungen.",
+                "Die Vorbeugung von Allergien."
+            ],
+            "correctAnswer": "Die Zunahme von Antibiotika-resistenten Bakterien.",
+            "explanation": {
+                "en": "Overuse of antibiotics leads to the development and spread of antibiotic-resistant bacteria.",
+                "bn": "অ্যান্টিবায়োটিকের অতিরিক্ত ব্যবহার অ্যান্টিবায়োটিক প্রতিরোধী ব্যাকটেরিয়া বিকাশ এবং ছড়াতে পরিচালিত করে।",
+                "hi": "एंटीबायोटिक दवाओं का अत्यधिक उपयोग एंटीबायोटिक प्रतिरोधी बैक्टीरिया के विकास और प्रसार की ओर ले जाता है।",
+                "ur": "اینٹی بائیوٹک ادویات کا بے دریغ استعمال اینٹی بائیوٹک مزاحم بیکٹیریا کی نشوونما اور پھیلاؤ کا باعث بنتا ہے۔",
+                "tr": "Antibiyotiklerin aşırı kullanımı, antibiyotiğe dirençli bakterilerin gelişmesine ve yayılmasına yol açar."
+            },
+            "points": 10,
+            "id": "e53_15"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Eine ________ ist ein Erreger, der eine Infektion verursacht.",
+                "en": "A ________ is a pathogen that causes an infection.",
+                "bn": "একটি ________ হল একটি রোগ সৃষ্টিকারী জীবাণু যা সংক্রমণ ঘটায়।",
+                "hi": "एक ________ एक रोगज़नक़ है जो संक्रमण का कारण बनता है।",
+                "ur": "ایک ________ ایک روگجن ہے جو انفیکشن کا باعث بنتا ہے۔",
+                "tr": "Bir ________, enfeksiyona neden olan bir patojendir."
+            },
+            "correctAnswer": "Krankheitserreger",
+            "explanation": {
+                "en": "A pathogen (Krankheitserreger) is any microorganism capable of causing disease.",
+                "bn": "একটি রোগ সৃষ্টিকারী জীবাণু (Krankheitserreger) হল এমন যেকোনো অণুজীব যা রোগ সৃষ্টি করতে সক্ষম।",
+                "hi": "एक रोगज़नक़ (Krankheitserreger) कोई भी सूक्ष्म जीव है जो रोग पैदा करने में सक्षम है।",
+                "ur": "ایک روگجن (Krankheitserreger) کوئی بھی خوردبینی جاندار ہے جو بیماری کا باعث بننے کی صلاحیت رکھتا ہے۔",
+                "tr": "Bir patojen (Krankheitserreger), hastalığa neden olabilen herhangi bir mikroorganizmadır."
+            },
+            "points": 10,
+            "id": "e53_16"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Maßnahmen gehört zur Basishygiene?",
+                "en": "Which of the following measures belongs to basic hygiene?",
+                "bn": "নিম্নলিখিত কোন পদক্ষেপটি মৌলিক স্বাস্থ্যবিধির অন্তর্গত?",
+                "hi": "निम्नलिखित में से कौन सा उपाय बुनियादी स्वच्छता के अंतर्गत आता है?",
+                "ur": "درج ذیل میں سے کون سا اقدام بنیادی حفظان صحت کے زمرے میں آتا ہے؟",
+                "tr": "Aşağıdaki önlemlerden hangisi temel hijyene aittir?"
+            },
+            "options": [
+                "Sterilisation aller Instrumente.",
+                "Das Tragen von Schutzkleidung nur bei Bedarf.",
+                "Regelmäßige Händedesinfektion.",
+                "Die Verwendung von Antibiotika zur Vorbeugung."
+            ],
+            "correctAnswer": "Regelmäßige Händedesinfektion.",
+            "explanation": {
+                "en": "Regular hand disinfection is a fundamental measure of basic hygiene in all settings.",
+                "bn": "নিয়মিত হাত জীবাণুমুক্ত করা সমস্ত সেটিংয়ে মৌলিক স্বাস্থ্যবিধির একটি মৌলিক পদক্ষেপ।",
+                "hi": "नियमित हाथ कीटाणुशोधन सभी सेटिंग्स में बुनियादी स्वच्छता का एक मूलभूत उपाय है।",
+                "ur": "باقاعدگی سے ہاتھوں کو جراثیم سے پاک کرنا تمام ترتیبات میں بنیادی حفظان صحت کا ایک بنیادی اقدام ہے۔",
+                "tr": "Düzenli el dezenfeksiyonu, tüm ortamlarda temel hijyenin temel bir önlemidir."
+            },
+            "points": 10,
+            "id": "e53_17"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "app.german.med"
+    namespace = "app.deutsch.med"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -22,7 +22,7 @@ android {
 
     defaultConfig {
         // Application ID matching Firebase configuration
-        applicationId = "app.german.med"
+        applicationId = "app.deutsch.med"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion

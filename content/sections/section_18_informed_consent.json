@@ -1,12 +1,1663 @@
-{"id":"section_18","phaseId":"phase2","order":18,"titleDe":"Aufklärung","title":{"en":"Informed Consent","bn":"সম্মতি","hi":"सूचित सहमति","ur":"باخبر رضامندی","tr":"Aydınlatılmış Onam"},"level":"B1","estimatedMinutes":30,"vocabulary":[
-{"id":"v18_01","germanTerm":"Aufklärung","article":"die","plural":"Aufklärungen","translation":{"en":"Informed Consent","bn":"সম্মতি","hi":"सहमति","ur":"رضامندی","tr":"Onam"}},
-{"id":"v18_02","germanTerm":"Einwilligung","article":"die","plural":"Einwilligungen","translation":{"en":"Consent","bn":"অনুমতি","hi":"अनुमति","ur":"اجازت","tr":"İzin"}},
-{"id":"v18_03","germanTerm":"Risiko","article":"das","plural":"Risiken","translation":{"en":"Risk","bn":"ঝুঁকি","hi":"जोखिम","ur":"خطرہ","tr":"Risk"}},
-{"id":"v18_04","germanTerm":"Komplikation","article":"die","plural":"Komplikationen","translation":{"en":"Complication","bn":"জটিলতা","hi":"जटिलता","ur":"پیچیدگی","tr":"Komplikasyon"}},
-{"id":"v18_05","germanTerm":"Unterschrift","article":"die","plural":"Unterschriften","translation":{"en":"Signature","bn":"স্বাক্ষর","hi":"हस्ताक्षर","ur":"دستخط","tr":"İmza"}},
-{"id":"v18_06","germanTerm":"Blutentnahme","article":"die","plural":"Blutentnahmen","translation":{"en":"Blood Draw","bn":"রক্ত নেওয়া","hi":"रक्त लेना","ur":"خون نکالنا","tr":"Kan alma"}}
-],"dialogues":[{"id":"d18_01","title":{"en":"Explaining Procedure"},"lines":[
-{"speaker":"Arzt","germanText":"Wir müssen Blut abnehmen.","translation":{"en":"We need to take blood."}},
-{"speaker":"Patient","germanText":"Gibt es Risiken?","translation":{"en":"Are there risks?"}},
-{"speaker":"Arzt","germanText":"Es kann zu einem kleinen Bluterguss kommen.","translation":{"en":"There may be a small bruise."}}
-]}],"exercises":[{"id":"e18_01","type":"multipleChoice","question":{"en":"What is 'Einwilligung'?"},"options":["Consent","Signature","Risk"],"correctAnswer":"Consent","points":10}]}
+{
+    "id": "section_18",
+    "phaseId": "phase2",
+    "order": 18,
+    "titleDe": "Aufklärung",
+    "title": {
+        "en": "Informed Consent: Explanation, Agreement, Risks, Complications, Alternatives, Signature",
+        "de": "Einverständniserklärung: Aufklärung, Einwilligung, Risiken, Komplikationen, Alternativen, Unterschrift",
+        "bn": "অবহিত সম্মতি: ব্যাখ্যা, সম্মতি, ঝুঁকি, জটিলতা, বিকল্প, স্বাক্ষর",
+        "hi": "सूचित सहमति: स्पष्टीकरण, सहमति, जोखिम, जटिलताएँ, विकल्प, हस्ताक्षर",
+        "ur": "باخبر رضامندی: وضاحت، اتفاق رائے، خطرات، پیچیدگیاں، متبادل، دستخط",
+        "tr": "Bilgilendirilmiş Onam: Açıklama, Kabul, Riskler, Komplikasyonlar, Alternatifler, İmza"
+    },
+    "description": {
+        "en": "This section explores the essential elements of informed consent in the German medical context, covering explanation, agreement, risks, complications, alternatives, and signature.",
+        "de": "Dieser Abschnitt untersucht die wesentlichen Elemente der Einverständniserklärung im deutschen medizinischen Kontext und behandelt Aufklärung, Einwilligung, Risiken, Komplikationen, Alternativen und Unterschrift.",
+        "bn": "এই বিভাগে জার্মান চিকিৎসা প্রেক্ষাপটে অবহিত সম্মতির অপরিহার্য উপাদানগুলি অন্বেষণ করা হয়েছে, যেখানে ব্যাখ্যা, সম্মতি, ঝুঁকি, জটিলতা, বিকল্প এবং স্বাক্ষর অন্তর্ভুক্ত রয়েছে।",
+        "hi": "यह खंड जर्मन चिकित्सा संदर्भ में सूचित सहमति के आवश्यक तत्वों का पता लगाता है, जिसमें स्पष्टीकरण, सहमति, जोखिम, जटिलताएँ, विकल्प और हस्ताक्षर शामिल हैं।",
+        "ur": "یہ سیکشن جرمن طبی تناظر میں باخبر رضامندی کے لازمی عناصر کی کھوج کرتا ہے، جس میں وضاحت، اتفاق رائے، خطرات، پیچیدگیاں، متبادل اور دستخط شامل ہیں۔",
+        "tr": "Bu bölüm, Alman tıbbi bağlamında bilgilendirilmiş onayın temel unsurlarını inceleyerek açıklama, kabul, riskler, komplikasyonlar, alternatifler ve imzayı kapsar."
+    },
+    "level": "B1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, you will learn how to explain medical procedures, risks, and alternatives to patients in German. You will also practice obtaining informed consent and documenting it according to German medical standards.",
+            "de": "In diesem Abschnitt lernen Sie, wie Sie Patienten medizinische Eingriffe, Risiken und Alternativen auf Deutsch erklären. Sie üben auch, wie Sie eine Einverständniserklärung einholen und diese gemäß deutschen medizinischen Standards dokumentieren.",
+            "bn": "এই বিভাগে, আপনি জার্মান ভাষায় রোগীদের চিকিৎসা পদ্ধতি, ঝুঁকি এবং বিকল্পগুলি ব্যাখ্যা করতে শিখবেন। এছাড়াও আপনি অবহিত সম্মতি অর্জন এবং জার্মান চিকিৎসা মান অনুযায়ী তা নথিভুক্ত করার অনুশীলন করবেন।",
+            "hi": "इस खंड में, आप सीखेंगे कि जर्मन में रोगियों को चिकित्सा प्रक्रियाओं, जोखिमों और विकल्पों को कैसे समझाया जाए। आप जर्मन चिकित्सा मानकों के अनुसार सूचित सहमति प्राप्त करने और उसे प्रलेखित करने का भी अभ्यास करेंगे।",
+            "ur": "اس سیکشن میں، آپ جرمن میں مریضوں کو طبی طریقہ کار، خطرات اور متبادل کی وضاحت کرنا سیکھیں گے۔ آپ جرمن طبی معیارات کے مطابق باخبر رضامندی حاصل کرنے اور اسے دستاویزی شکل دینے کی بھی مشق کریں گے۔",
+            "tr": "Bu bölümde, Almanca olarak hastalara tıbbi prosedürleri, riskleri ve alternatifleri nasıl açıklayacağınızı öğreneceksiniz. Ayrıca bilgilendirilmiş onam alıştırması yapacak ve Alman tıbbi standartlarına göre belgeleyeceksiniz."
+        },
+        "grammarFocus": {
+            "en": [
+                "Use of subjunctive mood (Konjunktiv II) when discussing hypothetical risks and alternatives.",
+                "Accusative and dative case usage with verbs relating to explaining and informing."
+            ],
+            "de": [
+                "Gebrauch des Konjunktiv II bei der Erörterung hypothetischer Risiken und Alternativen.",
+                "Akkusativ- und Dativ-Fall bei Verben im Zusammenhang mit Erklären und Informieren."
+            ],
+            "bn": [
+                "অনুমানমূলক ঝুঁকি এবং বিকল্প নিয়ে আলোচনার সময় সাপেক্ষে মেজাজের ব্যবহার (Konjunktiv II)।",
+                "ব্যাখ্যা এবং তথ্য জানানোর সাথে সম্পর্কিত ক্রিয়াগুলির সাথে অভিযুক্ত এবং উদ্দেশ্যমূলক ক্ষেত্রে ব্যবহার।",
+                "हिन्दी"
+            ],
+            "hi": [
+                "काल्पनिक जोखिमों और विकल्पों पर चर्चा करते समय अधीनस्थ मनोदशा का उपयोग (Konjunktiv II)।",
+                "समझाने और सूचित करने से संबंधित क्रियाओं के साथ कर्म और अपादान कारक का उपयोग।"
+            ],
+            "ur": [
+                "فرضی خطرات اور متبادل پر تبادلہ خیال کرتے وقت سبجیکٹیو موڈ (Konjunktiv II) کا استعمال۔",
+                "وضاحت اور آگاہ کرنے سے متعلق فعل کے ساتھ الٹو اور ڈیٹویو کیس کا استعمال۔"
+            ],
+            "tr": [
+                "Varsayımsal riskleri ve alternatifleri tartışırken dilek kipinin (Konjunktiv II) kullanımı.",
+                "Açıklama ve bilgilendirme ile ilgili fiillerde belirtme ve yönelme halinin kullanımı."
+            ]
+        },
+        "culturalNotes": {
+            "en": "In German hospitals, informed consent is a highly formal and legally significant process, with detailed documentation required.",
+            "de": "In deutschen Krankenhäusern ist die Einverständniserklärung ein hoch formeller und rechtlich bedeutsamer Prozess, bei dem eine detaillierte Dokumentation erforderlich ist.",
+            "bn": "জার্মান হাসপাতালগুলিতে, অবহিত সম্মতি একটি অত্যন্ত আনুষ্ঠানিক এবং আইনগতভাবে তাৎপর্যপূর্ণ প্রক্রিয়া, যেখানে বিস্তারিত ডকুমেন্টেশন প্রয়োজন।",
+            "hi": "जर्मन अस्पतालों में, सूचित सहमति एक अत्यधिक औपचारिक और कानूनी रूप से महत्वपूर्ण प्रक्रिया है, जिसमें विस्तृत दस्तावेज़ीकरण की आवश्यकता होती है।",
+            "ur": "جرمن ہسپتالوں میں، باخبر رضامندی ایک انتہائی رسمی اور قانونی طور پر اہم عمل ہے، جس میں تفصیلی دستاویزات درکار ہیں۔",
+            "tr": "Alman hastanelerinde, bilgilendirilmiş onam, ayrıntılı belgeleme gerektiren son derece resmi ve yasal olarak önemli bir süreçtir."
+        },
+        "summary": {
+            "en": "This section has provided a comprehensive overview of informed consent in the context of German medical practice.",
+            "de": "Dieser Abschnitt hat einen umfassenden Überblick über die Einverständniserklärung im Kontext der deutschen medizinischen Praxis gegeben.",
+            "bn": "এই বিভাগটি জার্মান চিকিৎসা অনুশীলনের প্রেক্ষাপটে অবহিত সম্মতির একটি বিস্তৃত চিত্র দিয়েছে।",
+            "hi": "यह खंड जर्मन चिकित्सा पद्धति के संदर्भ में सूचित सहमति का एक व्यापक अवलोकन प्रदान करता है।",
+            "ur": "اس سیکشن نے جرمن طبی مشق کے تناظر میں باخبر رضامندی کا ایک جامع جائزہ پیش کیا ہے۔",
+            "tr": "Bu bölüm, Alman tıbbi uygulamaları bağlamında bilgilendirilmiş onama kapsamlı bir genel bakış sağlamıştır."
+        },
+        "learningObjectives": [
+            "Explain medical procedures and their associated risks in German.",
+            "Describe alternative treatment options in German.",
+            "Obtain and document informed consent according to German medical standards.",
+            "Understand the legal and ethical considerations of informed consent in Germany."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "die Aufklärung",
+            "article": "die",
+            "plural": "die Aufklärungen",
+            "pronunciation": "/ˈaʊ̯fˌklɛːʁʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "informed consent, clarification",
+                "bn": "অবহিত সম্মতি, স্পষ্টীকরণ",
+                "hi": "सूचित सहमति, स्पष्टीकरण",
+                "ur": "بصیری رضامندی، وضاحت",
+                "tr": "aydınlatılmış onam, açıklama"
+            },
+            "exampleSentence": "Die Aufklärung des Patienten muss vor der Operation erfolgen.",
+            "exampleTranslation": {
+                "en": "The patient's informed consent must be obtained before the operation.",
+                "bn": "অপারেশনের আগে রোগীর অবহিত সম্মতি নেওয়া উচিত।",
+                "hi": "ऑपरेशन से पहले रोगी की सूचित सहमति प्राप्त की जानी चाहिए।",
+                "ur": "آپریشن سے پہلے مریض کی بصیرت مندی حاصل کی جانی چاہیے۔",
+                "tr": "Ameliyattan önce hastanın aydınlatılmış onayı alınmalıdır."
+            },
+            "id": "v18_01"
+        },
+        {
+            "germanTerm": "die Einwilligung",
+            "article": "die",
+            "plural": "die Einwilligungen",
+            "pronunciation": "/ˈaɪ̯nˌvɪlɪɡʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "consent, agreement",
+                "bn": "সম্মতি, চুক্তি",
+                "hi": "सहमति, समझौता",
+                "ur": "رضامندی، معاہدہ",
+                "tr": "rıza, anlaşma"
+            },
+            "exampleSentence": "Wir benötigen Ihre schriftliche Einwilligung für die Behandlung.",
+            "exampleTranslation": {
+                "en": "We need your written consent for the treatment.",
+                "bn": "আমাদের চিকিৎসার জন্য আপনার লিখিত সম্মতি দরকার।",
+                "hi": "हमें इलाज के लिए आपकी लिखित सहमति की आवश्यकता है।",
+                "ur": "ہمیں علاج کے لیے آپ کی تحریری رضامندی کی ضرورت ہے۔",
+                "tr": "Tedavi için yazılı izninize ihtiyacımız var."
+            },
+            "id": "v18_02"
+        },
+        {
+            "germanTerm": "das Risiko",
+            "article": "das",
+            "plural": "die Risiken",
+            "pronunciation": "/ˈʁɪziko/",
+            "category": "noun",
+            "translation": {
+                "en": "risk",
+                "bn": "ঝুঁকি",
+                "hi": "जोखिम",
+                "ur": "خطرہ",
+                "tr": "risk"
+            },
+            "exampleSentence": "Jede Operation birgt gewisse Risiken.",
+            "exampleTranslation": {
+                "en": "Every operation carries certain risks.",
+                "bn": "প্রতিটি অপারেশনে কিছু ঝুঁকি থাকে।",
+                "hi": "हर ऑपरेशन में कुछ जोखिम होते हैं।",
+                "ur": "ہر آپریشن میں کچھ خطرات ہوتے ہیں۔",
+                "tr": "Her ameliyat belirli riskler taşır."
+            },
+            "id": "v18_03"
+        },
+        {
+            "germanTerm": "die Komplikation",
+            "article": "die",
+            "plural": "die Komplikationen",
+            "pronunciation": "/kɔmplikaˈtsi̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "complication",
+                "bn": "জটিলতা",
+                "hi": "जटिलता",
+                "ur": "پیچیدگی",
+                "tr": "komplikasyon"
+            },
+            "exampleSentence": "Es gab keine Komplikationen während des Eingriffs.",
+            "exampleTranslation": {
+                "en": "There were no complications during the procedure.",
+                "bn": "পদ্ধতির সময় কোনও জটিলতা ছিল না।",
+                "hi": "प्रक्रिया के दौरान कोई जटिलता नहीं थी।",
+                "ur": "طریقہ کار کے دوران کوئی پیچیدگی نہیں تھی۔",
+                "tr": "Prosedür sırasında herhangi bir komplikasyon olmadı."
+            },
+            "id": "v18_04"
+        },
+        {
+            "germanTerm": "die Alternative",
+            "article": "die",
+            "plural": "die Alternativen",
+            "pronunciation": "/altɛʁnaˈtiːvə/",
+            "category": "noun",
+            "translation": {
+                "en": "alternative",
+                "bn": "বিকল্প",
+                "hi": "विकल्प",
+                "ur": "متبادل",
+                "tr": "alternatif"
+            },
+            "exampleSentence": "Welche Alternativen gibt es zu dieser Behandlung?",
+            "exampleTranslation": {
+                "en": "What alternatives are there to this treatment?",
+                "bn": "এই চিকিত্সার বিকল্পগুলি কী কী?",
+                "hi": "इस उपचार के क्या विकल्प हैं?",
+                "ur": "اس علاج کے متبادل کیا ہیں؟",
+                "tr": "Bu tedaviye alternatifler nelerdir?"
+            },
+            "id": "v18_05"
+        },
+        {
+            "germanTerm": "die Unterschrift",
+            "article": "die",
+            "plural": "die Unterschriften",
+            "pronunciation": "/ˈʊntɐˌʃʁɪft/",
+            "category": "noun",
+            "translation": {
+                "en": "signature",
+                "bn": "স্বাক্ষর",
+                "hi": "हस्ताक्षर",
+                "ur": "دستخط",
+                "tr": "imza"
+            },
+            "exampleSentence": "Bitte leisten Sie hier Ihre Unterschrift.",
+            "exampleTranslation": {
+                "en": "Please sign here.",
+                "bn": "অনুগ্রহ করে এখানে স্বাক্ষর করুন।",
+                "hi": "कृपया यहाँ हस्ताक्षर करें।",
+                "ur": "براہ کرم یہاں دستخط کریں۔",
+                "tr": "Lütfen burayı imzalayın."
+            },
+            "id": "v18_06"
+        },
+        {
+            "germanTerm": "aufklären",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈaʊ̯fˌklɛːʁən/",
+            "category": "verb",
+            "translation": {
+                "en": "to inform, to clarify",
+                "bn": "জানানো, স্পষ্ট করা",
+                "hi": "सूचित करना, स्पष्ट करना",
+                "ur": "آگاہ کرنا، واضح کرنا",
+                "tr": "bilgilendirmek, açıklığa kavuşturmak"
+            },
+            "exampleSentence": "Der Arzt muss den Patienten ausführlich aufklären.",
+            "exampleTranslation": {
+                "en": "The doctor must inform the patient in detail.",
+                "bn": "ডাক্তারকে অবশ্যই রোগীকে বিস্তারিত জানাতে হবে।",
+                "hi": "डॉक्टर को रोगी को विस्तार से सूचित करना चाहिए।",
+                "ur": "ڈاکٹر کو مریض کو تفصیل سے آگاہ کرنا چاہیے۔",
+                "tr": "Doktor hastayı detaylı olarak bilgilendirmelidir."
+            },
+            "id": "v18_07"
+        },
+        {
+            "germanTerm": "einwilligen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈaɪ̯nˌvɪlɪɡən/",
+            "category": "verb",
+            "translation": {
+                "en": "to consent, to agree",
+                "bn": "সম্মত হওয়া, রাজি হওয়া",
+                "hi": "सहमति देना, सहमत होना",
+                "ur": "رضامند ہونا، متفق ہونا",
+                "tr": "onaylamak, kabul etmek"
+            },
+            "exampleSentence": "Der Patient willigte in die Operation ein.",
+            "exampleTranslation": {
+                "en": "The patient consented to the operation.",
+                "bn": "রোগী অপারেশন করতে রাজি হন।",
+                "hi": "रोगी ऑपरेशन के लिए सहमत हो गया।",
+                "ur": "مریض آپریشن کے لیے راضی ہو گیا۔",
+                "tr": "Hasta ameliyatı onayladı."
+            },
+            "id": "v18_08"
+        },
+        {
+            "germanTerm": "die Patientenaufklärung",
+            "article": "die",
+            "plural": "die Patientenaufklärungen",
+            "pronunciation": "/paˈtsi̯ɛntənˌaʊ̯fˌklɛːʁʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "patient education, patient information",
+                "bn": "রোগীর শিক্ষা, রোগীর তথ্য",
+                "hi": "रोगी शिक्षा, रोगी जानकारी",
+                "ur": "مریض کی تعلیم، مریض کی معلومات",
+                "tr": "hasta eğitimi, hasta bilgisi"
+            },
+            "exampleSentence": "Die Patientenaufklärung ist ein wichtiger Bestandteil der Behandlung.",
+            "exampleTranslation": {
+                "en": "Patient education is an important part of the treatment.",
+                "bn": "রোগীর শিক্ষা চিকিত্সার একটি গুরুত্বপূর্ণ অংশ।",
+                "hi": "रोगी शिक्षा उपचार का एक महत्वपूर्ण हिस्सा है।",
+                "ur": "مریض کی تعلیم علاج کا ایک اہم حصہ ہے۔",
+                "tr": "Hasta eğitimi tedavinin önemli bir parçasıdır."
+            },
+            "id": "v18_09"
+        },
+        {
+            "germanTerm": "der Aufklärungsbogen",
+            "article": "der",
+            "plural": "die Aufklärungsbögen",
+            "pronunciation": "/ˈaʊ̯fˌklɛːʁʊŋsˌboːɡən/",
+            "category": "noun",
+            "translation": {
+                "en": "informed consent form",
+                "bn": "অবহিত সম্মতির ফর্ম",
+                "hi": "सूचित सहमति फॉर्म",
+                "ur": "بصیری رضامندی فارم",
+                "tr": "aydınlatılmış onam formu"
+            },
+            "exampleSentence": "Bitte lesen Sie den Aufklärungsbogen sorgfältig durch.",
+            "exampleTranslation": {
+                "en": "Please read the informed consent form carefully.",
+                "bn": "অনুগ্রহ করে অবহিত সম্মতির ফর্মটি মনোযোগ সহকারে পড়ুন।",
+                "hi": "कृपया सूचित सहमति फॉर्म को ध्यान से पढ़ें।",
+                "ur": "براہ کرم بصری رضامندی فارم کو غور سے پڑھیں۔",
+                "tr": "Lütfen aydınlatılmış onam formunu dikkatlice okuyun."
+            },
+            "id": "v18_10"
+        },
+        {
+            "germanTerm": "der Eingriff",
+            "article": "der",
+            "plural": "die Eingriffe",
+            "pronunciation": "/ˈaɪ̯nˌɡʁɪf/",
+            "category": "noun",
+            "translation": {
+                "en": "procedure, intervention",
+                "bn": "পদ্ধতি, হস্তক্ষেপ",
+                "hi": "प्रक्रिया, हस्तक्षेप",
+                "ur": "طریقہ کار، مداخلت",
+                "tr": "prosedür, müdahale"
+            },
+            "exampleSentence": "Der Eingriff wird unter Narkose durchgeführt.",
+            "exampleTranslation": {
+                "en": "The procedure will be performed under anesthesia.",
+                "bn": "পদ্ধতিটি অজ্ঞান অবস্থার অধীনে সঞ্চালিত হবে।",
+                "hi": "प्रक्रिया बेहोशी की हालत में की जाएगी।",
+                "ur": "طریقہ کار بے ہوشی کی حالت میں کیا جائے گا۔",
+                "tr": "Prosedür anestezi altında gerçekleştirilecektir."
+            },
+            "id": "v18_11"
+        },
+        {
+            "germanTerm": "die Therapie",
+            "article": "die",
+            "plural": "die Therapien",
+            "pronunciation": "/teˈʁaːpi/",
+            "category": "noun",
+            "translation": {
+                "en": "therapy, treatment",
+                "bn": "থেরাপি, চিকিৎসা",
+                "hi": "थेरेपी, इलाज",
+                "ur": "تھراپی، علاج",
+                "tr": "terapi, tedavi"
+            },
+            "exampleSentence": "Wir besprechen die verschiedenen Therapieoptionen.",
+            "exampleTranslation": {
+                "en": "We will discuss the different treatment options.",
+                "bn": "আমরা বিভিন্ন চিকিত্সা বিকল্প নিয়ে আলোচনা করব।",
+                "hi": "हम विभिन्न उपचार विकल्पों पर चर्चा करेंगे।",
+                "ur": "ہم علاج کے مختلف اختیارات پر تبادلہ خیال کریں گے۔",
+                "tr": "Farklı tedavi seçeneklerini tartışacağız."
+            },
+            "id": "v18_12"
+        },
+        {
+            "germanTerm": "schwerwiegend",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈʃveːɐ̯ˌviːɡənt/",
+            "category": "adjective",
+            "translation": {
+                "en": "severe, serious",
+                "bn": "গুরুতর",
+                "hi": "गंभीर",
+                "ur": "سنگین",
+                "tr": "ciddi"
+            },
+            "exampleSentence": "Die Komplikationen können schwerwiegend sein.",
+            "exampleTranslation": {
+                "en": "The complications can be severe.",
+                "bn": "জটিলতা গুরুতর হতে পারে।",
+                "hi": "जटिलताएँ गंभीर हो सकती हैं।",
+                "ur": "پیچیدگیاں سنگین ہو سکتی ہیں۔",
+                "tr": "Komplikasyonlar ciddi olabilir."
+            },
+            "id": "v18_13"
+        },
+        {
+            "germanTerm": "selten",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈzɛltən/",
+            "category": "adjective",
+            "translation": {
+                "en": "rare, infrequent",
+                "bn": "বিরল",
+                "hi": "दुर्लभ",
+                "ur": "نایاب",
+                "tr": "nadir"
+            },
+            "exampleSentence": "Schwere Nebenwirkungen sind sehr selten.",
+            "exampleTranslation": {
+                "en": "Severe side effects are very rare.",
+                "bn": "গুরুতর পার্শ্ব প্রতিক্রিয়া খুব বিরল।",
+                "hi": "गंभीर दुष्प्रभाव बहुत दुर्लभ हैं।",
+                "ur": "شدید ضمنی اثرات بہت نایاب ہیں۔",
+                "tr": "Şiddetli yan etkiler çok nadirdir."
+            },
+            "id": "v18_14"
+        },
+        {
+            "germanTerm": "die Prognose",
+            "article": "die",
+            "plural": "die Prognosen",
+            "pronunciation": "/pʁoˈɡnoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "prognosis, outlook",
+                "bn": "পূর্বাভাস, দৃষ্টিভঙ্গি",
+                "hi": "पूर्वानुमान, दृष्टिकोण",
+                "ur": "تشخیص، نقطہ نظر",
+                "tr": "prognoz, görünüm"
+            },
+            "exampleSentence": "Die Prognose ist nach der Operation gut.",
+            "exampleTranslation": {
+                "en": "The prognosis is good after the operation.",
+                "bn": "অপারেশনের পরে পূর্বাভাস ভাল।",
+                "hi": "ऑपरेशन के बाद रोग का निदान अच्छा है।",
+                "ur": "آپریشن کے بعد تشخیص اچھی ہے۔",
+                "tr": "Ameliyattan sonra prognoz iyi."
+            },
+            "id": "v18_15"
+        },
+        {
+            "germanTerm": "die Narkose",
+            "article": "die",
+            "plural": "die Narkosen",
+            "pronunciation": "/naʁˈkoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "anesthesia",
+                "bn": "অজ্ঞান",
+                "hi": "बेहोशी",
+                "ur": "بے ہوشی",
+                "tr": "anestezi"
+            },
+            "exampleSentence": "Vor der Narkose findet ein Gespräch mit dem Anästhesisten statt.",
+            "exampleTranslation": {
+                "en": "Before the anesthesia, there will be a consultation with the anesthesiologist.",
+                "bn": "অজ্ঞানের আগে, অ্যানাস্থেসিওলজিস্টের সাথে একটি পরামর্শ হবে।",
+                "hi": "बेहोशी से पहले, एनेस्थेसियोलॉजिस्ट के साथ एक परामर्श होगा।",
+                "ur": "بے ہوشی سے پہلے، اینستھیسیولوجسٹ کے ساتھ ایک مشاورت ہوگی۔",
+                "tr": "Anesteziden önce, anestezi uzmanıyla bir görüşme yapılacaktır."
+            },
+            "id": "v18_16"
+        },
+        {
+            "germanTerm": "der Patient",
+            "article": "der",
+            "plural": "die Patienten",
+            "pronunciation": "/paˈtsi̯ɛnt/",
+            "category": "noun",
+            "translation": {
+                "en": "patient",
+                "bn": "রোগী",
+                "hi": "रोगी",
+                "ur": "مریض",
+                "tr": "hasta"
+            },
+            "exampleSentence": "Der Patient hat das Recht auf eine umfassende Aufklärung.",
+            "exampleTranslation": {
+                "en": "The patient has the right to comprehensive information.",
+                "bn": "রোগীর বিস্তৃত তথ্যের অধিকার আছে।",
+                "hi": "रोगी को व्यापक जानकारी का अधिकार है।",
+                "ur": "مریض کو جامع معلومات کا حق ہے۔",
+                "tr": "Hastanın kapsamlı bilgi alma hakkı vardır."
+            },
+            "id": "v18_17"
+        },
+        {
+            "germanTerm": "vollständig",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/fɔlˈʃtɛndɪç/",
+            "category": "adjective",
+            "translation": {
+                "en": "complete, full",
+                "bn": "সম্পূর্ণ, পূর্ণ",
+                "hi": "पूर्ण, पूरा",
+                "ur": "مکمل، پورا",
+                "tr": "tam, eksiksiz"
+            },
+            "exampleSentence": "Die Aufklärung muss vollständig und verständlich sein.",
+            "exampleTranslation": {
+                "en": "The information must be complete and understandable.",
+                "bn": "তথ্য সম্পূর্ণ এবং বোধগম্য হতে হবে।",
+                "hi": "जानकारी पूरी और समझने योग्य होनी चाहिए।",
+                "ur": "معلومات مکمل اور قابل فہم ہونی چاہیے۔",
+                "tr": "Bilgiler eksiksiz ve anlaşılır olmalıdır."
+            },
+            "id": "v18_18"
+        },
+        {
+            "germanTerm": "verständlich",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/fɛɐ̯ˈʃtɛntlɪç/",
+            "category": "adjective",
+            "translation": {
+                "en": "understandable, comprehensible",
+                "bn": "বোধগম্য",
+                "hi": "समझने योग्य",
+                "ur": "قابل فہم",
+                "tr": "anlaşılır"
+            },
+            "exampleSentence": "Die Ärzte müssen sich verständlich ausdrücken.",
+            "exampleTranslation": {
+                "en": "The doctors must express themselves understandably.",
+                "bn": "চিকিৎসকদের অবশ্যই বোধগম্যভাবে নিজেদের প্রকাশ করতে হবে।",
+                "hi": "डॉक्टरों को खुद को समझने योग्य तरीके से व्यक्त करना चाहिए।",
+                "ur": "ڈاکٹروں کو خود کو قابل فہم انداز میں ظاہر کرنا چاہیے۔",
+                "tr": "Doktorlar kendilerini anlaşılır bir şekilde ifade etmelidir."
+            },
+            "id": "v18_19"
+        },
+        {
+            "germanTerm": "die Behandlung",
+            "article": "die",
+            "plural": "die Behandlungen",
+            "pronunciation": "/bəˈhandlʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "treatment",
+                "bn": "চিকিৎসা",
+                "hi": "इलाज",
+                "ur": "علاج",
+                "tr": "tedavi"
+            },
+            "exampleSentence": "Welche Behandlung ist für mich am besten geeignet?",
+            "exampleTranslation": {
+                "en": "Which treatment is best for me?",
+                "bn": "আমার জন্য কোন চিকিত্সা সবচেয়ে উপযুক্ত?",
+                "hi": "मेरे लिए कौन सा उपचार सबसे उपयुक्त है?",
+                "ur": "میرے لیے کون سا علاج بہترین ہے؟",
+                "tr": "Benim için en uygun tedavi hangisi?"
+            },
+            "id": "v18_20"
+        },
+        {
+            "germanTerm": "verweigern",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/fɛɐ̯ˈvaɪ̯ɡɐn/",
+            "category": "verb",
+            "translation": {
+                "en": "to refuse, to deny",
+                "bn": "অস্বীকার করা",
+                "hi": "मना करना, इनकार करना",
+                "ur": "انکار کرنا",
+                "tr": "reddetmek"
+            },
+            "exampleSentence": "Der Patient kann die Behandlung verweigern.",
+            "exampleTranslation": {
+                "en": "The patient can refuse treatment.",
+                "bn": "রোগী চিকিত্সা প্রত্যাখ্যান করতে পারে।",
+                "hi": "रोगी उपचार से इनकार कर सकता है।",
+                "ur": "مریض علاج سے انکار کر سکتا ہے۔",
+                "tr": "Hasta tedaviyi reddedebilir."
+            },
+            "id": "v18_21"
+        },
+        {
+            "germanTerm": "freiwillig",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈfʁaɪ̯ˌvɪlɪç/",
+            "category": "adjective",
+            "translation": {
+                "en": "voluntary",
+                "bn": "স্বেচ্ছায়",
+                "hi": "स्वैच्छिक",
+                "ur": "اختیاری",
+                "tr": "gönüllü"
+            },
+            "exampleSentence": "Die Einwilligung muss freiwillig erfolgen.",
+            "exampleTranslation": {
+                "en": "The consent must be voluntary.",
+                "bn": "সম্মতি স্বেচ্ছায় হতে হবে।",
+                "hi": "सहमति स्वैच्छिक होनी चाहिए।",
+                "ur": "رضامندی اختیاری ہونی چاہیے۔",
+                "tr": "Onay gönüllü olmalıdır."
+            },
+            "id": "v18_22"
+        },
+        {
+            "germanTerm": "der Nutzen",
+            "article": "der",
+            "plural": "die Nutzen",
+            "pronunciation": "/ˈnʊtsən/",
+            "category": "noun",
+            "translation": {
+                "en": "benefit, advantage",
+                "bn": "উপকার, সুবিধা",
+                "hi": "लाभ, फायदा",
+                "ur": "فائدہ، فائدہ",
+                "tr": "fayda, avantaj"
+            },
+            "exampleSentence": "Der Nutzen der Behandlung muss die Risiken überwiegen.",
+            "exampleTranslation": {
+                "en": "The benefit of the treatment must outweigh the risks.",
+                "bn": "চিকিত্সার সুবিধা ঝুঁকিগুলিকে ছাড়িয়ে যেতে হবে।",
+                "hi": "उपचार का लाभ जोखिमों से अधिक होना चाहिए।",
+                "ur": "علاج کا فائدہ خطرات سے زیادہ ہونا چاہیے۔",
+                "tr": "Tedavinin faydası risklerden ağır basmalıdır."
+            },
+            "id": "v18_23"
+        },
+        {
+            "germanTerm": "die Nebenwirkung",
+            "article": "die",
+            "plural": "die Nebenwirkungen",
+            "pronunciation": "/ˈneːbənˌvɪʁkʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "side effect",
+                "bn": "পার্শ্ব প্রতিক্রিয়া",
+                "hi": "दुष्प्रभाव",
+                "ur": "ضمنی اثر",
+                "tr": "yan etki"
+            },
+            "exampleSentence": "Welche Nebenwirkungen kann das Medikament haben?",
+            "exampleTranslation": {
+                "en": "What side effects can the medication have?",
+                "bn": "ওষুধের কী পার্শ্ব প্রতিক্রিয়া থাকতে পারে?",
+                "hi": "दवा के क्या दुष्प्रभाव हो सकते हैं?",
+                "ur": "دوا کے کیا ضمنی اثرات ہو سکتے ہیں؟",
+                "tr": "İlacın ne gibi yan etkileri olabilir?"
+            },
+            "id": "v18_24"
+        },
+        {
+            "germanTerm": "die Zustimmung",
+            "article": "die",
+            "plural": "die Zustimmungen",
+            "pronunciation": "/ˈtsuːˌʃtɪmʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "agreement, consent",
+                "bn": "সম্মতি",
+                "hi": "सहमति",
+                "ur": "اتفاق، رضامندی",
+                "tr": "onay, rıza"
+            },
+            "exampleSentence": "Ohne Ihre Zustimmung können wir die Behandlung nicht beginnen.",
+            "exampleTranslation": {
+                "en": "Without your consent, we cannot start the treatment.",
+                "bn": "আপনার সম্মতি ছাড়া আমরা চিকিত্সা শুরু করতে পারি না।",
+                "hi": "आपकी सहमति के बिना, हम उपचार शुरू नहीं कर सकते।",
+                "ur": "آپ کی رضامندی کے بغیر، ہم علاج شروع نہیں کر سکتے۔",
+                "tr": "Sizin onayınız olmadan tedaviye başlayamayız."
+            },
+            "id": "v18_25"
+        },
+        {
+            "germanTerm": "der Anästhesist",
+            "article": "der",
+            "plural": "die Anästhesisten",
+            "pronunciation": "/anɛsteˈzɪst/",
+            "category": "noun",
+            "translation": {
+                "en": "anesthesiologist",
+                "bn": "অবেদনবিদ",
+                "hi": "एनेस्थेसियोलॉजिस्ट",
+                "ur": "ماہر بے ہوشی",
+                "tr": "anestezist"
+            },
+            "exampleSentence": "Der Anästhesist erklärt Ihnen das Narkoseverfahren.",
+            "exampleTranslation": {
+                "en": "The anesthesiologist will explain the anesthesia procedure to you.",
+                "bn": "অবেদনবিদ আপনাকে অবেদন প্রক্রিয়া ব্যাখ্যা করবেন।",
+                "hi": "एनेस्थेसियोलॉजिस्ट आपको एनेस्थीसिया प्रक्रिया समझाएंगे।",
+                "ur": "ماہر بے ہوشی آپ کو بے ہوشی کے عمل کی وضاحت کرے گا۔",
+                "tr": "Anestezist size anestezi prosedürünü açıklayacaktır."
+            },
+            "id": "v18_26"
+        },
+        {
+            "germanTerm": "vorliegen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈfoːɐ̯ˌliːɡən/",
+            "category": "verb",
+            "translation": {
+                "en": "to be available, to be present",
+                "bn": "উপলব্ধ থাকা, উপস্থিত থাকা",
+                "hi": "उपलब्ध होना, उपस्थित होना",
+                "ur": "دستیاب ہونا، موجود ہونا",
+                "tr": "mevcut olmak, bulunmak"
+            },
+            "exampleSentence": "Alle relevanten Informationen müssen vorliegen.",
+            "exampleTranslation": {
+                "en": "All relevant information must be available.",
+                "bn": "সমস্ত প্রাসঙ্গিক তথ্য উপলব্ধ থাকতে হবে।",
+                "hi": "सभी प्रासंगिक जानकारी उपलब्ध होनी चाहिए।",
+                "ur": "تمام متعلقہ معلومات دستیاب ہونی چاہییں۔",
+                "tr": "Tüm ilgili bilgiler mevcut olmalıdır."
+            },
+            "id": "v18_27"
+        },
+        {
+            "germanTerm": "der Abbruch",
+            "article": "der",
+            "plural": "die Abbrüche",
+            "pronunciation": "/ˈapˌbʁʊx/",
+            "category": "noun",
+            "translation": {
+                "en": "termination, discontinuation",
+                "bn": "সমাপ্তি, বন্ধ",
+                "hi": "समाप्ति, बंद करना",
+                "ur": "اختتام، منقطع کرنا",
+                "tr": "sonlandırma, durdurma"
+            },
+            "exampleSentence": "Der Patient hat das Recht auf einen Abbruch der Behandlung.",
+            "exampleTranslation": {
+                "en": "The patient has the right to terminate the treatment.",
+                "bn": "রোগীর চিকিৎসার সমাপ্তি করার অধিকার আছে।",
+                "hi": "रोगी को उपचार समाप्त करने का अधिकार है।",
+                "ur": "مریض کو علاج ختم کرنے کا حق ہے۔",
+                "tr": "Hastanın tedaviyi sonlandırma hakkı vardır."
+            },
+            "id": "v18_28"
+        },
+        {
+            "germanTerm": "die Dokumentation",
+            "article": "die",
+            "plural": "die Dokumentationen",
+            "pronunciation": "/dokʊmɛntaˈtsi̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "documentation",
+                "bn": "নথিভুক্ত",
+                "hi": "प्रलेखन",
+                "ur": "دستاویزات",
+                "tr": "belgeleme"
+            },
+            "exampleSentence": "Die Dokumentation der Aufklärung ist sehr wichtig.",
+            "exampleTranslation": {
+                "en": "The documentation of the informed consent is very important.",
+                "bn": "অবহিত সম্মতির নথিভুক্তকরণ খুবই গুরুত্বপূর্ণ।",
+                "hi": "सूचित सहमति का प्रलेखन बहुत महत्वपूर्ण है।",
+                "ur": "بصیری رضامندی کی دستاویزات بہت اہم ہیں۔",
+                "tr": "Aydınlatılmış onayın belgelenmesi çok önemlidir."
+            },
+            "id": "v18_29"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Hip Replacement Informed Consent",
+                "bn": "হিপ প্রতিস্থাপন সম্মতি",
+                "hi": "हिप प्रतिस्थापन सहमति",
+                "ur": "کولہے کی تبدیلی کے لیے باخبر رضامندی",
+                "tr": "Kalça Protezi Bilgilendirilmiş Onam"
+            },
+            "context": {
+                "en": "Dr. Schmidt explains the procedure, risks, and alternatives of a hip replacement to Mr. Müller.",
+                "bn": "ডাঃ শ্মিট মিঃ মুলারকে হিপ প্রতিস্থাপনের পদ্ধতি, ঝুঁকি এবং বিকল্পগুলি ব্যাখ্যা করেছেন।",
+                "hi": "डॉक्टर श्मिट मिस्टर मुलर को हिप प्रतिस्थापन की प्रक्रिया, जोखिम और विकल्पों के बारे में बताते हैं।",
+                "ur": "ڈاکٹر شمٹ مسٹر مولر کو کولہے کی تبدیلی کے طریقہ کار، خطرات اور متبادل کی وضاحت کرتے ہیں۔",
+                "tr": "Dr. Schmidt, Bay Müller'e kalça protezi ameliyatının prosedürünü, risklerini ve alternatiflerini açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Tag, Herr Müller. Wir haben besprochen, dass eine Hüftoperation für Sie sinnvoll ist. Haben Sie noch Fragen?",
+                    "translation": {
+                        "en": "Good day, Mr. Müller. We discussed that hip surgery would be beneficial for you. Do you have any further questions?",
+                        "bn": "শুভ দিন, মিঃ মুলার। আমরা আলোচনা করেছি যে হিপ সার্জারি আপনার জন্য উপকারী হবে। আপনার কি আরও কোন প্রশ্ন আছে?",
+                        "hi": "शुभ दिन, श्रीमान मुलर। हमने चर्चा की कि हिप सर्जरी आपके लिए फायदेमंद होगी। क्या आपके कोई और प्रश्न हैं?",
+                        "ur": "شب بخیر، مسٹر مولر۔ ہم نے تبادلہ خیال کیا کہ آپ کے لیے کولہے کی سرجری فائدہ مند ہوگی۔ کیا آپ کے کوئی مزید سوالات ہیں؟",
+                        "tr": "İyi günler Bay Müller. Sizin için kalça ameliyatının faydalı olacağını konuşmuştuk. Başka sorularınız var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Können Sie mir die Risiken noch einmal erklären? Was ist mit Blutungen oder Infektionen?",
+                    "translation": {
+                        "en": "Could you explain the risks again? What about bleeding or infections?",
+                        "bn": "আপনি কি ঝুঁকিগুলো আবার ব্যাখ্যা করতে পারবেন? রক্তপাত বা সংক্রমণ সম্পর্কে কী?",
+                        "hi": "क्या आप जोखिमों को फिर से समझा सकते हैं? रक्तस्राव या संक्रमण के बारे में क्या?",
+                        "ur": "کیا آپ خطرات کی دوبارہ وضاحت کر سکتے ہیں؟ خون بہنے یا انفیکشن کے بارے میں کیا خیال ہے؟",
+                        "tr": "Riskleri tekrar açıklayabilir misiniz? Kanama veya enfeksiyonlara ne demeli?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Selbstverständlich. Blutungen und Infektionen sind mögliche Komplikationen, aber wir ergreifen alle notwendigen Maßnahmen, um diese zu minimieren. Es gibt auch das Risiko einer Thrombose.",
+                    "translation": {
+                        "en": "Of course. Bleeding and infections are possible complications, but we take all necessary measures to minimize them. There is also the risk of thrombosis.",
+                        "bn": "অবশ্যই। রক্তপাত এবং সংক্রমণ সম্ভাব্য জটিলতা, তবে আমরা এগুলো কমাতে প্রয়োজনীয় সকল পদক্ষেপ গ্রহণ করি। থ্রম্বোসিসের ঝুঁকিও রয়েছে।",
+                        "hi": "बेशक। रक्तस्राव और संक्रमण संभावित जटिलताएं हैं, लेकिन हम उन्हें कम करने के लिए सभी आवश्यक उपाय करते हैं। थ्रोम्बोसिस का जोखिम भी है।",
+                        "ur": "بالکل۔ خون بہنا اور انفیکشن ممکنہ پیچیدگیاں ہیں، لیکن ہم ان کو کم سے کم کرنے کے لیے تمام ضروری اقدامات کرتے ہیں۔ تھرومبوسس کا خطرہ بھی ہے۔",
+                        "tr": "Elbette. Kanama ve enfeksiyonlar olası komplikasyonlardır, ancak bunları en aza indirmek için gerekli tüm önlemleri alıyoruz. Tromboz riski de var."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Und die Alternativen? Was passiert, wenn ich mich nicht operieren lasse?",
+                    "translation": {
+                        "en": "And the alternatives? What happens if I don't have the surgery?",
+                        "bn": "এবং বিকল্পগুলি? যদি আমি অপারেশন না করি তবে কী হবে?",
+                        "hi": "और विकल्प? अगर मैं सर्जरी नहीं कराता तो क्या होगा?",
+                        "ur": "اور متبادل؟ اگر میں سرجری نہیں کرواتا تو کیا ہوگا؟",
+                        "tr": "Peki ya alternatifler? Ameliyat olmazsam ne olur?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ohne Operation werden die Schmerzen wahrscheinlich schlimmer, und Ihre Bewegungsfreiheit wird eingeschränkt. Wir können Schmerzmittel und Physiotherapie versuchen, aber das ist keine dauerhafte Lösung.",
+                    "translation": {
+                        "en": "Without surgery, the pain will likely worsen, and your mobility will be limited. We can try painkillers and physiotherapy, but that's not a permanent solution.",
+                        "bn": "সার্জারি ছাড়া, ব্যথা সম্ভবত আরও খারাপ হবে, এবং আপনার চলাফেরার স্বাধীনতা সীমিত হবে। আমরা ব্যথানাশক এবং ফিজিওথেরাপি চেষ্টা করতে পারি, তবে এটি স্থায়ী সমাধান নয়।",
+                        "hi": "सर्जरी के बिना, दर्द संभवतः और खराब हो जाएगा, और आपकी गतिशीलता सीमित हो जाएगी। हम दर्द निवारक और फिजियोथेरेपी की कोशिश कर सकते हैं, लेकिन यह स्थायी समाधान नहीं है।",
+                        "ur": "سرجری کے بغیر، درد غالباً بدتر ہو جائے گا، اور آپ کی نقل و حرکت محدود ہو جائے گی۔ ہم درد کم کرنے والی ادویات اور فزیوتھراپی آزما سکتے ہیں، لیکن یہ مستقل حل نہیں ہے۔",
+                        "tr": "Ameliyat olmadan ağrı muhtemelen daha da kötüleşecek ve hareket kabiliyetiniz kısıtlanacaktır. Ağrı kesiciler ve fizyoterapi deneyebiliriz, ancak bu kalıcı bir çözüm değil."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich verstehe. Dann unterschreibe ich die Einwilligungserklärung.",
+                    "translation": {
+                        "en": "I understand. Then I will sign the consent form.",
+                        "bn": "আমি বুঝতে পারছি। তাহলে আমি সম্মতির ফর্মে স্বাক্ষর করব।",
+                        "hi": "मुझे समझ आ गया। तो मैं सहमति प्रपत्र पर हस्ताक्षर कर दूँगा।",
+                        "ur": "میں سمجھ گیا۔ پھر میں رضامندی فارم پر دستخط کر دوں گا۔",
+                        "tr": "Anlıyorum. O zaman onay formunu imzalayacağım."
+                    }
+                }
+            ],
+            "id": "d18_01"
+        },
+        {
+            "title": {
+                "en": "Appendectomy Informed Consent",
+                "bn": "এপেন্ডেকটমি সম্মতি",
+                "hi": "अपेंडिक्टोमी सहमति",
+                "ur": "اپنڈیکٹومی کی رضامندی",
+                "tr": "Apandisit Ameliyatı Bilgilendirilmiş Onam"
+            },
+            "context": {
+                "en": "Nurse Weber prepares Mr. Schmidt for an appendectomy and goes over the consent form.",
+                "bn": "নার্স ওয়েবার মিঃ স্মিথকে এপেন্ডেকটমির জন্য প্রস্তুত করেন এবং সম্মতির ফর্মটি পরীক্ষা করেন।",
+                "hi": "नर्स वेबर मिस्टर स्मिथ को अपेंडिक्टोमी के लिए तैयार करती हैं और सहमति फॉर्म पर जाती हैं।",
+                "ur": "نرس ویبر مسٹر سمتھ کو اپینڈیکٹومی کے لیے تیار کرتی ہے اور رضامندی فارم پر جاتی ہے۔",
+                "tr": "Hemşire Weber, Bay Schmidt'i apandisit ameliyatına hazırlıyor ve onay formunu gözden geçiriyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Morgen, Herr Schmidt. Ich bin Schwester Weber. Bevor wir mit der Operation beginnen, müssen wir noch die Einwilligungserklärung durchgehen.",
+                    "translation": {
+                        "en": "Good morning, Mr. Schmidt. I am Nurse Weber. Before we start the operation, we need to go through the consent form.",
+                        "bn": "শুভ সকাল, মিঃ স্মিথ। আমি নার্স ওয়েবার। অপারেশন শুরু করার আগে, আমাদের সম্মতির ফর্মটি দেখতে হবে।",
+                        "hi": "शुभ प्रभात, श्रीमान स्मिथ। मैं नर्स वेबर हूँ। ऑपरेशन शुरू करने से पहले, हमें सहमति फॉर्म देखना होगा।",
+                        "ur": "صبح بخیر، مسٹر سمتھ۔ میں نرس ویبر ہوں۔ آپریشن شروع کرنے سے پہلے، ہمیں رضامندی فارم دیکھنا ہوگا۔",
+                        "tr": "Günaydın Bay Schmidt. Ben Hemşire Weber. Ameliyata başlamadan önce onay formunu incelememiz gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe schon mit dem Arzt gesprochen, aber was genau steht da drin?",
+                    "translation": {
+                        "en": "I already spoke with the doctor, but what exactly does it say?",
+                        "bn": "আমি ইতিমধ্যে ডাক্তারের সাথে কথা বলেছি, কিন্তু এতে ঠিক কী লেখা আছে?",
+                        "hi": "मैंने पहले ही डॉक्टर से बात कर ली है, लेकिन इसमें ठीक क्या लिखा है?",
+                        "ur": "میں پہلے ہی ڈاکٹر سے بات کر چکا ہوں، لیکن اس میں ٹھیک کیا لکھا ہے؟",
+                        "tr": "Doktorla zaten konuştum, ama tam olarak ne yazıyor?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Darin wird die geplante Operation, die Risiken wie Blutungen, Infektionen oder Verletzungen umliegender Organe, sowie die Möglichkeit alternativer Behandlungsmethoden beschrieben.",
+                    "translation": {
+                        "en": "It describes the planned operation, the risks such as bleeding, infections, or injuries to surrounding organs, as well as the possibility of alternative treatment methods.",
+                        "bn": "এতে পরিকল্পিত অপারেশন, রক্তপাত, সংক্রমণ বা পার্শ্ববর্তী অঙ্গগুলির আঘাতের মতো ঝুঁকি, সেইসাথে বিকল্প চিকিৎসার পদ্ধতির সম্ভাবনা বর্ণনা করা হয়েছে।",
+                        "hi": "इसमें नियोजित ऑपरेशन, रक्तस्राव, संक्रमण या आसपास के अंगों की चोटों जैसे जोखिमों के साथ-साथ वैकल्पिक उपचार विधियों की संभावना का वर्णन किया गया है।",
+                        "ur": "اس میں منصوبہ بند آپریشن، خون بہنے، انفیکشن یا ارد گرد کے اعضاء کی چوٹوں جیسے خطرات کے ساتھ ساتھ متبادل علاج کے طریقوں کے امکان کو بھی بیان کیا گیا ہے۔",
+                        "tr": "Planlanan ameliyatı, kanama, enfeksiyon veya çevre organların yaralanması gibi riskleri ve alternatif tedavi yöntemlerinin olasılığını açıklamaktadır."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Was sind denn die alternativen Behandlungsmethoden?",
+                    "translation": {
+                        "en": "What are the alternative treatment methods?",
+                        "bn": "বিকল্প চিকিৎসার পদ্ধতিগুলো কী কী?",
+                        "hi": "वैकल्पिक उपचार विधियाँ क्या हैं?",
+                        "ur": "متبادل علاج کے طریقے کیا ہیں؟",
+                        "tr": "Alternatif tedavi yöntemleri nelerdir?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "In manchen Fällen kann man mit Antibiotika behandeln, aber das ist bei Ihnen nicht angezeigt. Die Operation ist die sicherste und effektivste Methode.",
+                    "translation": {
+                        "en": "In some cases, you can treat it with antibiotics, but that's not indicated for you. The operation is the safest and most effective method.",
+                        "bn": "কিছু ক্ষেত্রে, আপনি অ্যান্টিবায়োটিক দিয়ে চিকিৎসা করতে পারেন, তবে এটি আপনার জন্য উপযুক্ত নয়। অপারেশনটি সবচেয়ে নিরাপদ এবং কার্যকর পদ্ধতি।",
+                        "hi": "कुछ मामलों में, आप एंटीबायोटिक दवाओं से इलाज कर सकते हैं, लेकिन यह आपके लिए संकेतित नहीं है। ऑपरेशन सबसे सुरक्षित और प्रभावी तरीका है।",
+                        "ur": "کچھ معاملات میں، آپ اینٹی بائیوٹکس سے علاج کر سکتے ہیں، لیکن یہ آپ کے لیے اشارہ نہیں ہے۔ آپریشن سب سے محفوظ اور مؤثر طریقہ ہے۔",
+                        "tr": "Bazı durumlarda antibiyotiklerle tedavi edebilirsiniz, ancak bu sizin için uygun değil. Ameliyat en güvenli ve etkili yöntemdir."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Gut, dann unterschreibe ich hier.",
+                    "translation": {
+                        "en": "Okay, then I'll sign here.",
+                        "bn": "ঠিক আছে, তাহলে আমি এখানে স্বাক্ষর করব।",
+                        "hi": "ठीक है, तो मैं यहाँ हस्ताक्षर करूँगा।",
+                        "ur": "ٹھیک ہے، پھر میں یہاں دستخط کروں گا۔",
+                        "tr": "Tamam, o zaman burayı imzalayacağım."
+                    }
+                }
+            ],
+            "id": "d18_02"
+        },
+        {
+            "title": {
+                "en": "Chemotherapy Informed Consent",
+                "bn": "কেমোথেরাপি সম্মতি",
+                "hi": "कीमोथेरेपी सहमति",
+                "ur": "کیموتھراپی کی رضامندی",
+                "tr": "Kemoterapi Bilgilendirilmiş Onam"
+            },
+            "context": {
+                "en": "Dr. Klein explains the risks, benefits, and alternatives of chemotherapy to Mrs. Weber.",
+                "bn": "ডাঃ ক্লেইন মিসেস ওয়েবারকে কেমোথেরাপির ঝুঁকি, সুবিধা এবং বিকল্পগুলি ব্যাখ্যা করেছেন।",
+                "hi": "डॉक्टर क्लेन श्रीमती वेबर को कीमोथेरेपी के जोखिम, लाभ और विकल्पों के बारे में बताते हैं।",
+                "ur": "ڈاکٹر کلین مسز ویبر کو کیموتھراپی کے خطرات، فوائد اور متبادل کی وضاحت کرتے ہیں۔",
+                "tr": "Dr. Klein, Bayan Weber'e kemoterapinin risklerini, faydalarını ve alternatiflerini açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Frau Weber, wir empfehlen Ihnen eine Chemotherapie. Dies wird helfen, das Wachstum der Krebszellen zu verlangsamen oder zu stoppen.",
+                    "translation": {
+                        "en": "Mrs. Weber, we recommend chemotherapy for you. This will help slow down or stop the growth of cancer cells.",
+                        "bn": "মিসেস ওয়েবার, আমরা আপনাকে কেমোথেরাপি করার পরামর্শ দিচ্ছি। এটি ক্যান্সার কোষের বৃদ্ধিকে ধীর করতে বা বন্ধ করতে সহায়তা করবে।",
+                        "hi": "श्रीमती वेबर, हम आपको कीमोथेरेपी की सलाह देते हैं। यह कैंसर कोशिकाओं के विकास को धीमा करने या रोकने में मदद करेगा।",
+                        "ur": "محترمہ ویبر، ہم آپ کو کیموتھراپی کی تجویز کرتے ہیں۔ اس سے کینسر کے خلیوں کی نشوونما کو سست کرنے یا روکنے میں مدد ملے گی۔",
+                        "tr": "Bayan Weber, size kemoterapi öneriyoruz. Bu, kanser hücrelerinin büyümesini yavaşlatmaya veya durdurmaya yardımcı olacaktır."
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe Angst. Ich habe von vielen Nebenwirkungen gehört.",
+                    "translation": {
+                        "en": "I'm scared. I've heard about many side effects.",
+                        "bn": "আমি ভীত। আমি অনেক পার্শ্ব প্রতিক্রিয়া শুনেছি।",
+                        "hi": "मुझे डर लग रहा है। मैंने कई दुष्प्रभावों के बारे में सुना है।",
+                        "ur": "میں ڈری ہوئی ہوں۔ میں نے بہت سے ضمنی اثرات کے بارے میں سنا ہے۔",
+                        "tr": "Korkuyorum. Birçok yan etki duydum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ja, es gibt Nebenwirkungen wie Übelkeit, Haarausfall, Müdigkeit. Aber wir können viele davon gut behandeln. Wir werden Sie engmaschig betreuen.",
+                    "translation": {
+                        "en": "Yes, there are side effects like nausea, hair loss, fatigue. But we can treat many of them well. We will monitor you closely.",
+                        "bn": "হ্যাঁ, বমি বমি ভাব, চুল পড়া, ক্লান্তির মতো পার্শ্ব প্রতিক্রিয়া রয়েছে। তবে আমরা এদের অনেকগুলোর ভাল চিকিৎসা করতে পারি। আমরা আপনাকে নিবিড়ভাবে পর্যবেক্ষণ করব।",
+                        "hi": "हाँ, मतली, बालों का झड़ना, थकान जैसे दुष्प्रभाव हैं। लेकिन हम उनमें से कई का अच्छी तरह से इलाज कर सकते हैं। हम आपकी बारीकी से निगरानी करेंगे।",
+                        "ur": "ہاں، متلی، بالوں کا گرنا، تھکاوٹ جیسے ضمنی اثرات ہیں۔ لیکن ہم ان میں سے بہت سے کا اچھی طرح سے علاج کر سکتے ہیں۔ ہم آپ کی قریبی نگرانی کریں گے۔",
+                        "tr": "Evet, mide bulantısı, saç dökülmesi, yorgunluk gibi yan etkiler var. Ancak bunların çoğunu iyi tedavi edebiliriz. Sizi yakından takip edeceğiz."
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Gibt es Alternativen zur Chemotherapie?",
+                    "translation": {
+                        "en": "Are there alternatives to chemotherapy?",
+                        "bn": "কেমোথেরাপির বিকল্প আছে কি?",
+                        "hi": "कीमोथेरेपी के विकल्प हैं क्या?",
+                        "ur": "کیا کیموتھراپی کے متبادل ہیں؟",
+                        "tr": "Kemoterapiye alternatifler var mı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Es gibt die Möglichkeit einer Operation oder Strahlentherapie, aber in Ihrem Fall ist die Chemotherapie die beste Option, um die bestmöglichen Ergebnisse zu erzielen.",
+                    "translation": {
+                        "en": "There is the possibility of surgery or radiation therapy, but in your case, chemotherapy is the best option to achieve the best possible results.",
+                        "bn": "অপারেশন বা রেডিয়েশন থেরাপির সম্ভাবনা রয়েছে, তবে আপনার ক্ষেত্রে, কেমোথেরাপি সর্বোত্তম সম্ভাব্য ফলাফল অর্জনের জন্য সেরা বিকল্প।",
+                        "hi": "सर्जरी या विकिरण चिकित्सा की संभावना है, लेकिन आपके मामले में, सर्वोत्तम संभव परिणाम प्राप्त करने के लिए कीमोथेरेपी सबसे अच्छा विकल्प है।",
+                        "ur": "سرجری یا ریڈی ایشن تھراپی کا امکان ہے، لیکن آپ کے معاملے میں، بہترین ممکنہ نتائج حاصل کرنے کے لیے کیموتھراپی بہترین آپشن ہے۔",
+                        "tr": "Ameliyat veya radyasyon tedavisi olasılığı var, ancak sizin durumunuzda en iyi sonuçları elde etmek için kemoterapi en iyi seçenektir."
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Okay, ich verstehe. Dann unterschreibe ich hier.",
+                    "translation": {
+                        "en": "Okay, I understand. Then I'll sign here.",
+                        "bn": "ঠিক আছে, আমি বুঝতে পারছি। তাহলে আমি এখানে স্বাক্ষর করব।",
+                        "hi": "ठीक है, मुझे समझ आ गया। तो मैं यहाँ हस्ताक्षर करूँगा।",
+                        "ur": "ٹھیک ہے، میں سمجھ گئی۔ پھر میں یہاں دستخط کروں گی۔",
+                        "tr": "Tamam, anlıyorum. O zaman burayı imzalayacağım."
+                    }
+                }
+            ],
+            "id": "d18_03"
+        },
+        {
+            "title": {
+                "en": "Blood Transfusion Informed Consent",
+                "bn": "রক্ত সঞ্চালন সম্মতি",
+                "hi": "रक्त आधान सहमति",
+                "ur": "خون کی منتقلی کی رضامندی",
+                "tr": "Kan Transfüzyonu Bilgilendirilmiş Onam"
+            },
+            "context": {
+                "en": "Dr. Bauer explains the need for a blood transfusion and its potential risks to Mr. Klein.",
+                "bn": "ডাঃ বাউয়ার মিঃ ক্লেইনকে রক্ত ​​সঞ্চালনের প্রয়োজনীয়তা এবং এর সম্ভাব্য ঝুঁকিগুলি ব্যাখ্যা করেছেন।",
+                "hi": "डॉक्टर बाउर श्रीमान क्लेन को रक्त आधान की आवश्यकता और इसके संभावित जोखिमों के बारे में बताते हैं।",
+                "ur": "ڈاکٹر باؤر مسٹر کلین کو خون کی منتقلی کی ضرورت اور اس کے ممکنہ خطرات کی وضاحت کرتے ہیں۔",
+                "tr": "Dr. Bauer, Bay Klein'e kan transfüzyonunun gerekliliğini ve potansiyel risklerini açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Bauer",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Herr Klein, Ihre Blutwerte sind sehr niedrig. Wir empfehlen eine Bluttransfusion, um Ihren Zustand zu stabilisieren.",
+                    "translation": {
+                        "en": "Mr. Klein, your blood counts are very low. We recommend a blood transfusion to stabilize your condition.",
+                        "bn": "মিঃ ক্লেইন, আপনার রক্তের মাত্রা খুব কম। আপনার অবস্থা স্থিতিশীল করতে আমরা রক্ত ​​সঞ্চালনের পরামর্শ দিচ্ছি।",
+                        "hi": "श्रीमान क्लेन, आपकी रक्त गणना बहुत कम है। आपकी स्थिति को स्थिर करने के लिए हम रक्त आधान की सलाह देते हैं।",
+                        "ur": "مسٹر کلین، آپ کے خون کی گنتی بہت کم ہے۔ ہم آپ کی حالت کو مستحکم کرنے کے لیے خون کی منتقلی کی تجویز کرتے ہیں۔",
+                        "tr": "Bay Klein, kan değerleriniz çok düşük. Durumunuzu stabilize etmek için kan transfüzyonu öneriyoruz."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Eine Bluttransfusion? Ist das wirklich notwendig? Gibt es Risiken?",
+                    "translation": {
+                        "en": "A blood transfusion? Is that really necessary? Are there risks?",
+                        "bn": "রক্ত সঞ্চালন? এটা কি সত্যিই প্রয়োজন? ঝুঁকি আছে?",
+                        "hi": "रक्त आधान? क्या यह वास्तव में आवश्यक है? क्या कोई जोखिम है?",
+                        "ur": "خون کی منتقلی؟ کیا یہ واقعی ضروری ہے؟ کیا کوئی خطرات ہیں؟",
+                        "tr": "Kan transfüzyonu mu? Bu gerçekten gerekli mi? Riskler var mı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Bauer",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ja, es ist notwendig, da Ihre Organe sonst nicht ausreichend mit Sauerstoff versorgt werden. Es gibt Risiken wie allergische Reaktionen oder sehr selten Infektionen.",
+                    "translation": {
+                        "en": "Yes, it's necessary because otherwise your organs will not be adequately supplied with oxygen. There are risks such as allergic reactions or, very rarely, infections.",
+                        "bn": "হ্যাঁ, এটি প্রয়োজনীয়, অন্যথায় আপনার অঙ্গগুলিতে পর্যাপ্ত অক্সিজেন সরবরাহ করা হবে না। অ্যালার্জিক প্রতিক্রিয়া বা খুব কম ক্ষেত্রে সংক্রমণের মতো ঝুঁকি রয়েছে।",
+                        "hi": "हाँ, यह आवश्यक है, अन्यथा आपके अंगों को पर्याप्त ऑक्सीजन नहीं मिलेगी। एलर्जी की प्रतिक्रिया या बहुत ही दुर्लभ मामलों में संक्रमण जैसे जोखिम हैं।",
+                        "ur": "ہاں، یہ ضروری ہے کیونکہ بصورت دیگر آپ کے اعضاء کو مناسب طریقے سے آکسیجن فراہم نہیں کی جائے گی۔ الرجک رد عمل یا بہت کم ہی انفیکشن جیسے خطرات ہیں۔",
+                        "tr": "Evet, gerekli çünkü aksi takdirde organlarınız yeterince oksijen alamayacaktır. Alerjik reaksiyonlar veya çok nadiren enfeksiyonlar gibi riskler vardır."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Gibt es Alternativen?",
+                    "translation": {
+                        "en": "Are there alternatives?",
+                        "bn": "কোন বিকল্প আছে?",
+                        "hi": "क्या कोई विकल्प है?",
+                        "ur": "کیا کوئی متبادل ہے؟",
+                        "tr": "Alternatifler var mı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Bauer",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir haben versucht, Ihren Körper zur Blutbildung anzuregen, aber das hat nicht funktioniert. Eine Transfusion ist jetzt die beste und schnellste Lösung.",
+                    "translation": {
+                        "en": "We have tried to stimulate your body to produce blood, but that hasn't worked. A transfusion is now the best and fastest solution.",
+                        "bn": "আমরা আপনার শরীরকে রক্ত ​​উৎপাদনের জন্য উদ্দীপিত করার চেষ্টা করেছি, কিন্তু তাতে কাজ হয়নি। একটি সঞ্চালন এখন সেরা এবং দ্রুততম সমাধান।",
+                        "hi": "हमने आपके शरीर को रक्त उत्पादन के लिए प्रोत्साहित करने की कोशिश की है, लेकिन इससे काम नहीं बना। एक आधान अब सबसे अच्छा और सबसे तेज़ समाधान है।",
+                        "ur": "ہم نے آپ کے جسم کو خون پیدا کرنے کے لیے متحرک کرنے کی کوشش کی ہے، لیکن اس سے کام نہیں بنا۔ منتقلی اب بہترین اور تیز ترین حل ہے۔",
+                        "tr": "Vücudunuzu kan üretmesi için uyarmaya çalıştık, ancak bu işe yaramadı. Transfüzyon şu anda en iyi ve en hızlı çözüm."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Okay, dann machen wir das. Ich unterschreibe.",
+                    "translation": {
+                        "en": "Okay, then let's do it. I'll sign.",
+                        "bn": "ঠিক আছে, তাহলে আমরা এটা করি। আমি স্বাক্ষর করব।",
+                        "hi": "ठीक है, तो हम यह करते हैं। मैं हस्ताक्षर कर दूँगा।",
+                        "ur": "ٹھیک ہے، تو ہم یہ کرتے ہیں۔ میں دستخط کر دوں گا۔",
+                        "tr": "Tamam, o zaman yapalım. İmzalayacağım."
+                    }
+                }
+            ],
+            "id": "d18_04"
+        },
+        {
+            "title": {
+                "en": "Pacemaker Implantation Informed Consent",
+                "bn": "পেসমেকার ইমপ্লান্টেশন সম্মতি",
+                "hi": "पेसमेकर आरोपण सहमति",
+                "ur": "پیس میکر امپلانٹیشن کی رضامندی",
+                "tr": "Kalp Pili Takılması Bilgilendirilmiş Onam"
+            },
+            "context": {
+                "en": "Dr. Engel explains the pacemaker implantation procedure to Mrs. Bauer, including risks and alternatives.",
+                "bn": "ডাঃ এঙ্গেল মিসেস বাউয়ারকে পেসমেকার ইমপ্লান্টেশন পদ্ধতির ঝুঁকি এবং বিকল্প সহ ব্যাখ্যা করেছেন।",
+                "hi": "डॉक्टर एंगेल श्रीमती बाउर को पेसमेकर आरोपण प्रक्रिया, जोखिम और विकल्पों सहित बताती हैं।",
+                "ur": "ڈاکٹر اینجل مسز باؤر کو پیس میکر امپلانٹیشن کے طریقہ کار کی وضاحت کرتی ہیں، بشمول خطرات اور متبادل۔",
+                "tr": "Dr. Engel, Bayan Bauer'e kalp pili takma prosedürünü, riskleri ve alternatifleri de dahil olmak üzere açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Engel",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Frau Bauer, aufgrund Ihrer Herzrhythmusstörungen empfehlen wir die Implantation eines Herzschrittmachers.",
+                    "translation": {
+                        "en": "Mrs. Bauer, due to your heart rhythm disorders, we recommend the implantation of a pacemaker.",
+                        "bn": "মিসেস বাউয়ার, আপনার হৃদস্পন্দনজনিত সমস্যার কারণে, আমরা একটি পেসমেকার ইমপ্লান্ট করার পরামর্শ দিচ্ছি।",
+                        "hi": "श्रीमती बाउर, आपकी हृदय ताल विकारों के कारण, हम पेसमेकर आरोपण की सलाह देते हैं।",
+                        "ur": "محترمہ باؤر، آپ کے دل کی دھڑکن میں خرابی کی وجہ سے، ہم ایک پیس میکر لگانے کی تجویز کرتے ہیں۔",
+                        "tr": "Bayan Bauer, kalp ritim bozukluklarınız nedeniyle kalp pili takılmasını öneriyoruz."
+                    }
+                },
+                {
+                    "speaker": "Patient Bauer",
+                    "speakerRole": "Patient",
+                    "germanText": "Ein Herzschrittmacher? Was sind die Risiken bei so einer Operation?",
+                    "translation": {
+                        "en": "A pacemaker? What are the risks of such an operation?",
+                        "bn": "একটি পেসমেকার? এই ধরনের অপারেশনের ঝুঁকি কী?",
+                        "hi": "एक पेसमेकर? इस तरह के ऑपरेशन के जोखिम क्या हैं?",
+                        "ur": "ایک پیس میکر؟ اس طرح کے آپریشن کے خطرات کیا ہیں؟",
+                        "tr": "Kalp pili mi? Böyle bir ameliyatın riskleri nelerdir?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Engel",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Es gibt Risiken wie Infektionen, Blutungen oder eine Verletzung der umliegenden Gefäße. Diese sind aber selten. Wir werden alles tun, um diese zu minimieren.",
+                    "translation": {
+                        "en": "There are risks like infections, bleeding, or injury to the surrounding vessels. But these are rare. We will do everything to minimize them.",
+                        "bn": "সংক্রমণ, রক্তপাত বা পার্শ্ববর্তী রক্তনালীগুলোর ক্ষতির মতো ঝুঁকি রয়েছে। তবে এগুলো বিরল। আমরা এগুলো কমাতে সবকিছু করব।",
+                        "hi": "संक्रमण, रक्तस्राव या आसपास की वाहिकाओं में चोट जैसे जोखिम हैं। लेकिन ये दुर्लभ हैं। हम उन्हें कम करने के लिए सब कुछ करेंगे।",
+                        "ur": "انفیکشن، خون بہنے یا ارد گرد کی خون کی نالیوں میں چوٹ لگنے جیسے خطرات ہیں۔ لیکن یہ نایاب ہیں۔ ہم ان کو کم سے کم کرنے کے لیے سب کچھ کریں گے۔",
+                        "tr": "Enfeksiyonlar, kanamalar veya çevredeki damarlarda yaralanma gibi riskler vardır. Ancak bunlar nadirdir. Bunları en aza indirmek için elimizden geleni yapacağız."
+                    }
+                },
+                {
+                    "speaker": "Patient Bauer",
+                    "speakerRole": "Patient",
+                    "germanText": "Gibt es auch Alternativen, vielleicht Medikamente?",
+                    "translation": {
+                        "en": "Are there also alternatives, perhaps medications?",
+                        "bn": "এছাড়াও কি কোন বিকল্প আছে, সম্ভবত ওষুধ?",
+                        "hi": "क्या कोई विकल्प भी हैं, शायद दवाएं?",
+                        "ur": "کیا کوئی متبادل بھی ہیں، شاید دوائیں؟",
+                        "tr": "Başka alternatifler de var mı, belki ilaçlar?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Engel",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Medikamente können helfen, die Symptome zu lindern, aber sie beheben das Problem nicht. Ein Herzschrittmacher ist die effektivste Lösung für Ihre Situation.",
+                    "translation": {
+                        "en": "Medications can help to relieve the symptoms, but they don't fix the problem. A pacemaker is the most effective solution for your situation.",
+                        "bn": "ওষুধ লক্ষণগুলি উপশম করতে সাহায্য করতে পারে, তবে এটি সমস্যার সমাধান করে না। একটি পেসমেকার আপনার পরিস্থিতির জন্য সবচেয়ে কার্যকর সমাধান।",
+                        "hi": "दवाएं लक्षणों को कम करने में मदद कर सकती हैं, लेकिन वे समस्या को ठीक नहीं करती हैं। एक पेसमेकर आपकी स्थिति के लिए सबसे प्रभावी समाधान है।",
+                        "ur": "دوائیں علامات کو دور کرنے میں مدد کر سکتی ہیں، لیکن وہ مسئلے کو ٹھیک نہیں کرتی ہیں۔ ایک پیس میکر آپ کی صورتحال کے لیے سب سے مؤثر حل ہے۔",
+                        "tr": "İlaçlar semptomları hafifletmeye yardımcı olabilir, ancak sorunu çözmezler. Kalp pili, sizin durumunuz için en etkili çözümdür."
+                    }
+                },
+                {
+                    "speaker": "Patient Bauer",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich verstehe. Dann unterschreibe ich die Einverständniserklärung.",
+                    "translation": {
+                        "en": "I understand. Then I will sign the consent form.",
+                        "bn": "আমি বুঝতে পারছি। তাহলে আমি সম্মতির ফর্মে স্বাক্ষর করব।",
+                        "hi": "मुझे समझ आ गया। तो मैं सहमति प्रपत्र पर हस्ताक्षर कर दूँगा।",
+                        "ur": "میں سمجھ گئی۔ پھر میں رضامندی فارم پر دستخط کر دوں گا۔",
+                        "tr": "Anlıyorum. O zaman onay formunu imzalayacağım."
+                    }
+                }
+            ],
+            "id": "d18_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Hauptziel der Aufklärung vor einem medizinischen Eingriff?",
+                "en": "What is the main goal of informed consent before a medical procedure?",
+                "bn": "চিকিৎসা পদ্ধতির আগে অবহিত সম্মতির প্রধান লক্ষ্য কী?",
+                "hi": "चिकित्सा प्रक्रिया से पहले सूचित सहमति का मुख्य लक्ष्य क्या है?",
+                "ur": "طبی طریقہ کار سے پہلے باخبر رضامندی کا بنیادی مقصد کیا ہے؟",
+                "tr": "Tıbbi bir işlemden önce bilgilendirilmiş onayın temel amacı nedir?"
+            },
+            "options": [
+                "Die Durchführung des Eingriffs zu beschleunigen.",
+                "Den Arzt vor rechtlichen Schritten zu schützen.",
+                "Den Patienten umfassend über den Eingriff zu informieren und ihm die Möglichkeit zur Entscheidung zu geben.",
+                "Die Kosten des Eingriffs zu senken."
+            ],
+            "correctAnswer": "Den Patienten umfassend über den Eingriff zu informieren und ihm die Möglichkeit zur Entscheidung zu geben.",
+            "explanation": {
+                "en": "Informed consent aims to provide the patient with all necessary information to make an autonomous decision about their treatment.",
+                "bn": "অবহিত সম্মতির লক্ষ্য হল রোগীকে তার চিকিৎসার বিষয়ে একটি স্বাধীন সিদ্ধান্ত নেওয়ার জন্য প্রয়োজনীয় সমস্ত তথ্য সরবরাহ করা।",
+                "hi": "सूचित सहमति का उद्देश्य रोगी को उनके उपचार के बारे में एक स्वायत्त निर्णय लेने के लिए सभी आवश्यक जानकारी प्रदान करना है।",
+                "ur": "بخبر رضامندی کا مقصد مریض کو اس کے علاج کے بارے میں خود مختار فیصلہ کرنے کے لیے تمام ضروری معلومات فراہم کرنا ہے۔",
+                "tr": "Bilgilendirilmiş onayın amacı, hastaya tedavisi hakkında özerk bir karar verebilmesi için gerekli tüm bilgileri sağlamaktır."
+            },
+            "points": 10,
+            "id": "e18_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Einwilligung' im medizinischen Kontext?",
+                "en": "What does 'Einwilligung' (consent) mean in the medical context?",
+                "bn": "চিকিৎসা প্রেক্ষাপটে 'Einwilligung' (সম্মতি) মানে কী?",
+                "hi": "चिकित्सा संदर्भ में 'Einwilligung' (सहमति) का क्या अर्थ है?",
+                "ur": "طبی تناظر میں 'Einwilligung' (رضامندی) کا کیا مطلب ہے؟",
+                "tr": "Tıbbi bağlamda 'Einwilligung' (onay) ne anlama gelir?"
+            },
+            "options": [
+                "Die Pflicht des Arztes, den Eingriff durchzuführen.",
+                "Die Zustimmung des Patienten zu einem vorgeschlagenen medizinischen Eingriff.",
+                "Die Bestätigung der Krankenkasse für die Kostenübernahme.",
+                "Die Empfehlung eines anderen Arztes."
+            ],
+            "correctAnswer": "Die Zustimmung des Patienten zu einem vorgeschlagenen medizinischen Eingriff.",
+            "explanation": {
+                "en": "'Einwilligung' refers to the patient's agreement to undergo a specific medical procedure after being fully informed.",
+                "bn": "'Einwilligung' বলতে বোঝায় সম্পূর্ণরূপে অবহিত হওয়ার পরে রোগীর একটি নির্দিষ্ট চিকিৎসা পদ্ধতির মধ্য দিয়ে যেতে সম্মতি।",
+                "hi": "'Einwilligung' का तात्पर्य पूरी तरह से सूचित होने के बाद रोगी की एक विशिष्ट चिकित्सा प्रक्रिया से गुजरने की सहमति से है।",
+                "ur": "'Einwilligung' سے مراد مریض کی مکمل طور پر باخبر ہونے کے بعد ایک مخصوص طبی طریقہ کار سے گزرنے پر رضامندی ہے۔",
+                "tr": "'Einwilligung', hastanın tam olarak bilgilendirildikten sonra belirli bir tıbbi işlem geçirmeye razı olması anlamına gelir."
+            },
+            "points": 10,
+            "id": "e18_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Information gehört NICHT in ein Aufklärungsgespräch?",
+                "en": "Which information does NOT belong in an informed consent discussion?",
+                "bn": "কোন তথ্যটি অবহিত সম্মতি আলোচনায় অন্তর্ভুক্ত নয়?",
+                "hi": "कौन सी जानकारी सूचित सहमति चर्चा में शामिल नहीं है?",
+                "ur": "کون سی معلومات باخبر رضامندی کی بحث میں شامل نہیں ہے؟",
+                "tr": "Hangi bilgiler bilgilendirilmiş onay tartışmasında yer almaz?"
+            },
+            "options": [
+                "Die Risiken und Komplikationen des Eingriffs.",
+                "Die Namen der Familienangehörigen des Arztes.",
+                "Alternative Behandlungsmöglichkeiten.",
+                "Die Erfolgschancen des Eingriffs."
+            ],
+            "correctAnswer": "Die Namen der Familienangehörigen des Arztes.",
+            "explanation": {
+                "en": "Information about the doctor's family members is irrelevant to the patient's understanding of the procedure and their decision-making process.",
+                "bn": "ডাক্তারের পরিবারের সদস্যদের সম্পর্কে তথ্য রোগীর পদ্ধতির বোধগম্যতা এবং তাদের সিদ্ধান্ত গ্রহণের প্রক্রিয়ার জন্য অপ্রাসঙ্গিক।",
+                "hi": "डॉक्टर के परिवार के सदस्यों के बारे में जानकारी रोगी की प्रक्रिया की समझ और उनकी निर्णय लेने की प्रक्रिया के लिए अप्रासंगिक है।",
+                "ur": "ڈاکٹر کے خاندان کے افراد کے بارے میں معلومات مریض کے طریقہ کار کی سمجھ اور ان کے فیصلہ سازی کے عمل کے لیے غیر متعلق ہے۔",
+                "tr": "Doktorun aile üyeleri hakkındaki bilgiler, hastanın prosedürü anlaması ve karar verme süreci için alakasızdır."
+            },
+            "points": 10,
+            "id": "e18_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist der Zweck der Unterschrift auf dem Aufklärungsbogen?",
+                "en": "What is the purpose of the signature on the informed consent form?",
+                "bn": "অবহিত সম্মতি ফর্মে স্বাক্ষরের উদ্দেশ্য কী?",
+                "hi": "सूचित सहमति प्रपत्र पर हस्ताक्षर का उद्देश्य क्या है?",
+                "ur": "بخبر رضامندی فارم پر دستخط کا مقصد کیا ہے؟",
+                "tr": "Bilgilendirilmiş onay formundaki imzanın amacı nedir?"
+            },
+            "options": [
+                "Die Bestätigung der Zahlung für den Eingriff.",
+                "Der Nachweis, dass der Patient aufgeklärt wurde und seine Einwilligung gegeben hat.",
+                "Die Zuweisung des Patienten zu einem bestimmten Arzt.",
+                "Die automatische Genehmigung für zukünftige Eingriffe."
+            ],
+            "correctAnswer": "Der Nachweis, dass der Patient aufgeklärt wurde und seine Einwilligung gegeben hat.",
+            "explanation": {
+                "en": "The signature confirms that the patient has received information about the procedure and agrees to proceed with it.",
+                "bn": "স্বাক্ষর নিশ্চিত করে যে রোগী পদ্ধতির বিষয়ে তথ্য পেয়েছে এবং এটির সাথে এগিয়ে যেতে রাজি হয়েছে।",
+                "hi": "हस्ताक्षर पुष्टि करता है कि रोगी को प्रक्रिया के बारे में जानकारी मिली है और वह इसके साथ आगे बढ़ने के लिए सहमत है।",
+                "ur": "دستخط اس بات کی تصدیق کرتے ہیں کہ مریض کو طریقہ کار کے بارے میں معلومات ملی ہیں اور وہ اس کے ساتھ آگے بڑھنے پر راضی ہے۔",
+                "tr": "İmza, hastanın prosedür hakkında bilgi aldığını ve işleme devam etmeyi kabul ettiğini doğrular."
+            },
+            "points": 10,
+            "id": "e18_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was versteht man unter 'Alternativen' im Kontext der Aufklärung?",
+                "en": "What is meant by 'alternatives' in the context of informed consent?",
+                "bn": "অবহিত সম্মতির প্রেক্ষাপটে 'alternatives' (বিকল্প) বলতে কী বোঝায়?",
+                "hi": "सूचित सहमति के संदर्भ में 'alternatives' (विकल्प) का क्या अर्थ है?",
+                "ur": "باخبر رضامندی کے تناظر میں 'alternatives' (متبادل) سے کیا مراد ہے؟",
+                "tr": "Bilgilendirilmiş onay bağlamında 'alternatives' (alternatifler) ne anlama gelir?"
+            },
+            "options": [
+                "Die Wahl zwischen verschiedenen Ärzten.",
+                "Andere mögliche Behandlungen oder Vorgehensweisen für die Erkrankung.",
+                "Die Kosten für den Eingriff in verschiedenen Krankenhäusern.",
+                "Die verschiedenen Marken von Medikamenten."
+            ],
+            "correctAnswer": "Andere mögliche Behandlungen oder Vorgehensweisen für die Erkrankung.",
+            "explanation": {
+                "en": "'Alternatives' refer to other available treatment options for the patient's condition, including non-surgical approaches or different medications.",
+                "bn": "'Alternatives' বলতে রোগীর অবস্থার জন্য অন্যান্য উপলব্ধ চিকিত্সা বিকল্পগুলি বোঝায়, যার মধ্যে অ-সার্জিক্যাল পদ্ধতি বা বিভিন্ন ওষুধ অন্তর্ভুক্ত থাকতে পারে।",
+                "hi": "'Alternatives' से तात्पर्य रोगी की स्थिति के लिए अन्य उपलब्ध उपचार विकल्पों से है, जिसमें गैर-सर्जिकल दृष्टिकोण या विभिन्न दवाएं शामिल हो सकती हैं।",
+                "ur": "'Alternatives' سے مراد مریض کی حالت کے لیے دیگر دستیاب علاج کے اختیارات ہیں، جن میں غیر جراحی نقطہ نظر یا مختلف ادویات شامل ہو سکتی ہیں۔",
+                "tr": "'Alternatives', hastanın durumu için cerrahi olmayan yaklaşımlar veya farklı ilaçlar dahil olmak üzere diğer mevcut tedavi seçeneklerini ifade eder."
+            },
+            "points": 10,
+            "id": "e18_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Risiken' im Kontext der Aufklärung?",
+                "en": "What does 'Risiken' (risks) mean in the context of informed consent?",
+                "bn": "অবহিত সম্মতির প্রেক্ষাপটে 'Risiken' (ঝুঁকি) মানে কী?",
+                "hi": "सूचित सहमति के संदर्भ में 'Risiken' (जोखिम) का क्या अर्थ है?",
+                "ur": "باخبر رضامندی کے تناظر میں 'Risiken' (خطرات) کا کیا مطلب ہے؟",
+                "tr": "Bilgilendirilmiş onay bağlamında 'Risiken' (riskler) ne anlama gelir?"
+            },
+            "options": [
+                "Die Wahrscheinlichkeit eines Erfolgs des Eingriffs.",
+                "Mögliche negative Folgen oder Nebenwirkungen des Eingriffs.",
+                "Die Kosten des Eingriffs.",
+                "Die Wartezeit für den Eingriff."
+            ],
+            "correctAnswer": "Mögliche negative Folgen oder Nebenwirkungen des Eingriffs.",
+            "explanation": {
+                "en": "'Risiken' refer to the potential negative consequences or side effects that could arise from a medical procedure or treatment.",
+                "bn": "'Risiken' বলতে সম্ভাব্য নেতিবাচক পরিণতি বা পার্শ্ব প্রতিক্রিয়া বোঝায় যা একটি চিকিৎসা পদ্ধতি বা চিকিত্সা থেকে উদ্ভূত হতে পারে।",
+                "hi": "'Risiken' से तात्पर्य संभावित नकारात्मक परिणामों या दुष्प्रभावों से है जो एक चिकित्सा प्रक्रिया या उपचार से उत्पन्न हो सकते हैं।",
+                "ur": "'Risiken' سے مراد ممکنہ منفی نتائج یا ضمنی اثرات ہیں جو ایک طبی طریقہ کار یا علاج سے پیدا ہو سکتے ہیں۔",
+                "tr": "'Risiken', tıbbi bir işlem veya tedaviden kaynaklanabilecek potansiyel olumsuz sonuçları veya yan etkileri ifade eder."
+            },
+            "points": 10,
+            "id": "e18_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Komplikationen' im Kontext der Aufklärung?",
+                "en": "What does 'Komplikationen' (complications) mean in the context of informed consent?",
+                "bn": "অবহিত সম্মতির প্রেক্ষাপটে 'Komplikationen' (জটিলতা) মানে কী?",
+                "hi": "सूचित सहमति के संदर्भ में 'Komplikationen' (जटिलताएँ) का क्या अर्थ है?",
+                "ur": "باخبر رضامندی کے تناظر میں 'Komplikationen' (پیچیدگیاں) کا کیا مطلب ہے؟",
+                "tr": "Bilgilendirilmiş onay bağlamında 'Komplikationen' (komplikasyonlar) ne anlama gelir?"
+            },
+            "options": [
+                "Die erwarteten positiven Ergebnisse des Eingriffs.",
+                "Unerwartete Probleme oder unerwünschte Ereignisse, die während oder nach dem Eingriff auftreten können.",
+                "Die Kosten der Nachsorge.",
+                "Die Dauer des Eingriffs."
+            ],
+            "correctAnswer": "Unerwartete Probleme oder unerwünschte Ereignisse, die während oder nach dem Eingriff auftreten können.",
+            "explanation": {
+                "en": "'Komplikationen' refer to unexpected problems or adverse events that can occur during or after a medical procedure, beyond the known risks.",
+                "bn": "'Komplikationen' বলতে অপ্রত্যাশিত সমস্যা বা প্রতিকূল ঘটনা বোঝায় যা পরিচিত ঝুঁকির বাইরে একটি চিকিৎসা পদ্ধতির সময় বা পরে ঘটতে পারে।",
+                "hi": "'Komplikationen' से तात्पर्य अप्रत्याशित समस्याओं या प्रतिकूल घटनाओं से है जो ज्ञात जोखिमों से परे एक चिकित्सा प्रक्रिया के दौरान या बाद में हो सकती हैं।",
+                "ur": "'Komplikationen' سے مراد غیر متوقع مسائل یا منفی واقعات ہیں جو ایک طبی طریقہ کار کے دوران یا بعد میں ہو سکتے ہیں، جو معلوم خطرات سے ہٹ کر ہیں۔",
+                "tr": "'Komplikationen', bilinen risklerin ötesinde tıbbi bir işlem sırasında veya sonrasında meydana gelebilecek beklenmedik sorunları veya olumsuz olayları ifade eder."
+            },
+            "points": 10,
+            "id": "e18_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wer ist verantwortlich für die Aufklärung des Patienten?",
+                "en": "Who is responsible for informing the patient?",
+                "bn": "রোগীকে জানানোর জন্য কে দায়ী?",
+                "hi": "रोगी को सूचित करने के लिए कौन जिम्मेदार है?",
+                "ur": "مریض کو اطلاع دینے کا ذمہ دار کون ہے؟",
+                "tr": "Hastayı bilgilendirmekten kim sorumludur?"
+            },
+            "options": [
+                "Der Pfleger.",
+                "Der Arzt, der den Eingriff durchführt.",
+                "Die Krankenkasse.",
+                "Der Empfangsangestellte."
+            ],
+            "correctAnswer": "Der Arzt, der den Eingriff durchführt.",
+            "explanation": {
+                "en": "The physician performing the procedure is ultimately responsible for ensuring the patient is adequately informed.",
+                "bn": "যে চিকিৎসক পদ্ধতিটি সম্পাদন করছেন তিনি শেষ পর্যন্ত নিশ্চিত করার জন্য দায়ী যে রোগীকে পর্যাপ্তভাবে জানানো হয়েছে।",
+                "hi": "प्रक्रिया करने वाला चिकित्सक अंततः यह सुनिश्चित करने के लिए जिम्मेदार है कि रोगी को पर्याप्त रूप से सूचित किया गया है।",
+                "ur": "وہ معالج جو طریقہ کار انجام دے رہا ہے وہ آخر کار یہ یقینی بنانے کے لیے ذمہ دار ہے کہ مریض کو مناسب طریقے سے آگاہ کیا گیا ہے۔",
+                "tr": "İşlemi yapan doktor, hastanın yeterince bilgilendirildiğinden emin olmakla nihai olarak sorumludur."
+            },
+            "points": 10,
+            "id": "e18_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wann sollte die Aufklärung idealerweise stattfinden?",
+                "en": "When should informed consent ideally take place?",
+                "bn": "অবহিত সম্মতি আদর্শভাবে কখন নেওয়া উচিত?",
+                "hi": "सूचित सहमति आदर्श रूप से कब होनी चाहिए?",
+                "ur": "بخبر رضامندی مثالی طور پر کب ہونی چاہیے؟",
+                "tr": "Bilgilendirilmiş onay ideal olarak ne zaman alınmalıdır?"
+            },
+            "options": [
+                "Unmittelbar vor dem Eingriff.",
+                "So früh wie möglich, damit der Patient genügend Zeit zum Nachdenken hat.",
+                "Nachdem der Eingriff bereits begonnen hat.",
+                "Gar nicht, wenn der Patient vertrauenswürdig erscheint."
+            ],
+            "correctAnswer": "So früh wie möglich, damit der Patient genügend Zeit zum Nachdenken hat.",
+            "explanation": {
+                "en": "Informed consent should occur well in advance of the procedure to allow the patient ample time to consider the information and ask questions.",
+                "bn": "অবহিত সম্মতি পদ্ধতির অনেক আগে হওয়া উচিত যাতে রোগী তথ্য বিবেচনা করার এবং প্রশ্ন জিজ্ঞাসা করার জন্য পর্যাপ্ত সময় পায়।",
+                "hi": "सूचित सहमति प्रक्रिया से पहले अच्छी तरह से होनी चाहिए ताकि रोगी को जानकारी पर विचार करने और प्रश्न पूछने के लिए पर्याप्त समय मिल सके।",
+                "ur": "بخبر رضامندی طریقہ کار سے بہت پہلے ہونی چاہیے تاکہ مریض کو معلومات پر غور کرنے اور سوالات پوچھنے کے لیے کافی وقت مل سکے۔",
+                "tr": "Bilgilendirilmiş onay, hastanın bilgileri dikkate alması ve soru sorması için yeterli zaman tanıması için işlemden çok önce gerçekleşmelidir."
+            },
+            "points": 10,
+            "id": "e18_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was sollte im Aufklärungsgespräch bezüglich möglicher 'Komplikationen' erwähnt werden?",
+                "en": "What should be mentioned in the informed consent discussion regarding possible 'complications'?",
+                "bn": "সম্ভাব্য 'জটিলতা' সম্পর্কিত অবহিত সম্মতি আলোচনায় কী উল্লেখ করা উচিত?",
+                "hi": "संभावित 'जटिलताओं' के संबंध में सूचित सहमति चर्चा में क्या उल्लेख किया जाना चाहिए?",
+                "ur": "ممکنہ 'پیچیدگیوں' کے حوالے سے باخبر رضامندی کی بحث میں کیا ذکر کیا جانا چاہیے؟",
+                "tr": "Olası 'komplikasyonlar' ile ilgili bilgilendirilmiş onay tartışmasında nelerden bahsedilmelidir?"
+            },
+            "options": [
+                "Nur die häufigsten Komplikationen.",
+                "Alle möglichen Komplikationen, auch seltene.",
+                "Nur Komplikationen, die der Arzt gut behandeln kann.",
+                "Am besten gar keine Komplikationen erwähnen, um den Patienten nicht zu beunruhigen."
+            ],
+            "correctAnswer": "Alle möglichen Komplikationen, auch seltene.",
+            "explanation": {
+                "en": "All possible complications, even rare ones, should be mentioned so that the patient can make a fully informed decision.",
+                "bn": "সম্ভাব্য সমস্ত জটিলতা, এমনকি বিরলগুলিও উল্লেখ করা উচিত যাতে রোগী সম্পূর্ণরূপে অবহিত সিদ্ধান্ত নিতে পারে।",
+                "hi": "संभावित सभी जटिलताओं, यहां तक कि दुर्लभ लोगों का भी उल्लेख किया जाना चाहिए ताकि रोगी पूरी तरह से सूचित निर्णय ले सके।",
+                "ur": "ممکنہ تمام پیچیدگیوں، یہاں تک کہ نایاب لوگوں کا بھی ذکر کیا جانا چاہیے تاکہ مریض مکمل طور پر باخبر فیصلہ کر سکے۔",
+                "tr": "Olası tüm komplikasyonlar, nadir olanlar bile, hastanın tam olarak bilgilendirilmiş bir karar verebilmesi için belirtilmelidir."
+            },
+            "points": 10,
+            "id": "e18_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die __________ ist die Voraussetzung für einen rechtlich wirksamen medizinischen Eingriff.",
+                "en": "__________ is the prerequisite for a legally effective medical intervention.",
+                "bn": "একটি আইনত কার্যকর চিকিৎসা হস্তক্ষেপের জন্য __________ পূর্বশর্ত।",
+                "hi": "एक कानूनी रूप से प्रभावी चिकित्सा हस्तक्षेप के लिए __________ पूर्वापेक्षा है।",
+                "ur": "قانونی طور پر مؤثر طبی مداخلت کے لیے __________ شرط لازم ہے۔",
+                "tr": "Hukuki olarak geçerli bir tıbbi müdahalenin ön koşulu __________'dir."
+            },
+            "options": [],
+            "correctAnswer": "Einwilligung",
+            "explanation": {
+                "en": "The patient's consent is a prerequisite for any medical intervention to be legally valid.",
+                "bn": "রোগীর সম্মতি কোনো চিকিৎসা হস্তক্ষেপের বৈধ হওয়ার পূর্বশর্ত।",
+                "hi": "रोगी की सहमति किसी भी चिकित्सा हस्तक्षेप के कानूनी रूप से मान्य होने की पूर्व शर्त है।",
+                "ur": "مریض کی رضامندی کسی بھی طبی مداخلت کے قانونی طور پر درست ہونے کے لیے شرط لازم ہے۔",
+                "tr": "Hastanın onayı, herhangi bir tıbbi müdahalenin yasal olarak geçerli olmasının ön koşuludur."
+            },
+            "points": 10,
+            "id": "e18_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Der Patient muss die Aufklärung in __________ verstanden haben.",
+                "en": "The patient must have understood the informed consent in __________.",
+                "bn": "রোগীকে অবশ্যই __________ এ অবহিত সম্মতি বুঝতে হবে।",
+                "hi": "रोगी को __________ में सूचित सहमति समझनी चाहिए।",
+                "ur": "مریض کو __________ میں باخبر رضامندی کو سمجھنا چاہیے۔",
+                "tr": "Hasta, bilgilendirilmiş onayı __________ içinde anlamış olmalıdır."
+            },
+            "options": [],
+            "correctAnswer": "vollem Umfang",
+            "explanation": {
+                "en": "The patient needs to understand all aspects of the procedure. ",
+                "bn": "রোগীকে পদ্ধতির সব দিক বুঝতে হবে।",
+                "hi": "रोगी को प्रक्रिया के सभी पहलुओं को समझना होगा।",
+                "ur": "مریض کو طریقہ کار کے تمام پہلوؤں کو سمجھنا ہوگا۔",
+                "tr": "Hastanın prosedürün tüm yönlerini anlaması gerekir."
+            },
+            "points": 10,
+            "id": "e18_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Im Aufklärungsgespräch muss auf mögliche __________ hingewiesen werden, die mit dem Eingriff verbunden sind.",
+                "en": "In the informed consent discussion, possible __________ associated with the procedure must be pointed out.",
+                "bn": "অবহিত সম্মতি আলোচনায়, পদ্ধতির সাথে যুক্ত সম্ভাব্য __________ উল্লেখ করতে হবে।",
+                "hi": "सूचित सहमति चर्चा में, प्रक्रिया से जुड़े संभावित __________ को इंगित किया जाना चाहिए।",
+                "ur": "باخبر رضامندی کی بحث میں، طریقہ کار سے وابستہ ممکنہ __________ کی نشاندہی کی جانی چاہیے۔",
+                "tr": "Bilgilendirilmiş onay görüşmesinde, işlemle ilişkili olası __________'e işaret edilmelidir."
+            },
+            "options": [],
+            "correctAnswer": "Risiken",
+            "explanation": {
+                "en": "Risks must be mentioned",
+                "bn": "ঝুঁকি উল্লেখ করতে হবে",
+                "hi": "जोखिमों का उल्लेख किया जाना चाहिए",
+                "ur": "خطرات کا ذکر کرنا ضروری ہے",
+                "tr": "Risklerden bahsedilmelidir"
+            },
+            "points": 10,
+            "id": "e18_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Der Patient hat das Recht, die __________ zu verweigern.",
+                "en": "The patient has the right to refuse __________.",
+                "bn": "রোগীর __________ প্রত্যাখ্যান করার অধিকার আছে।",
+                "hi": "रोगी को __________ से इनकार करने का अधिकार है।",
+                "ur": "مریض کو __________ سے انکار کرنے کا حق ہے۔",
+                "tr": "Hastanın __________'i reddetme hakkı vardır."
+            },
+            "options": [],
+            "correctAnswer": "Einwilligung",
+            "explanation": {
+                "en": "Patients always have the right to refuse any medical intervention.",
+                "bn": "রোগীদের সবসময় যেকোনো চিকিৎসা হস্তক্ষেপ প্রত্যাখ্যান করার অধিকার আছে।",
+                "hi": "मरीजों को हमेशा किसी भी चिकित्सा हस्तक्षेप से इनकार करने का अधिकार होता है।",
+                "ur": "مریضوں کو ہمیشہ کسی بھی طبی مداخلت سے انکار کرنے کا حق ہوتا ہے۔",
+                "tr": "Hastaların her zaman herhangi bir tıbbi müdahaleyi reddetme hakkı vardır."
+            },
+            "points": 10,
+            "id": "e18_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Eine __________ muss dokumentiert werden.",
+                "en": "An __________ must be documented.",
+                "bn": "একটি __________ নথিভুক্ত করা আবশ্যক।",
+                "hi": "एक __________ प्रलेखित किया जाना चाहिए।",
+                "ur": "ایک __________ کو دستاویزی شکل دی جانی چاہیے۔",
+                "tr": "Bir __________ belgelenmelidir."
+            },
+            "options": [],
+            "correctAnswer": "Aufklärung",
+            "explanation": {
+                "en": "Informed consent discussions should be well documented.",
+                "bn": "অবহিত সম্মতি আলোচনা ভালোভাবে নথিভুক্ত করা উচিত।",
+                "hi": "सूचित सहमति चर्चा अच्छी तरह से प्रलेखित की जानी चाहिए।",
+                "ur": "باخبر رضامندی کی بحث کو اچھی طرح سے دستاویزی شکل دی جانی چاہیے۔",
+                "tr": "Bilgilendirilmiş onay görüşmeleri iyi bir şekilde belgelenmelidir."
+            },
+            "points": 10,
+            "id": "e18_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Der Patient wurde über die Risiken aufgeklärt.",
+                "en": null,
+                "bn": null,
+                "hi": null,
+                "ur": null,
+                "tr": null
+            },
+            "options": [],
+            "correctAnswer": "The patient was informed about the risks.",
+            "explanation": {
+                "en": "Simple translation of the german phrase.",
+                "bn": "জার্মান বাক্যাংশের সহজ অনুবাদ।",
+                "hi": "जर्मन वाक्यांश का सरल अनुवाद।",
+                "ur": "جرمن جملے کا آسان ترجمہ۔",
+                "tr": "Almanca ifadenin basit çevirisi."
+            },
+            "points": 10,
+            "id": "e18_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Bitte unterschreiben Sie hier, um Ihre Einwilligung zu bestätigen.",
+                "en": null,
+                "bn": null,
+                "hi": null,
+                "ur": null,
+                "tr": null
+            },
+            "options": [],
+            "correctAnswer": "Please sign here to confirm your consent.",
+            "explanation": {
+                "en": "Indicates signing for consent.",
+                "bn": "সম্মতির জন্য স্বাক্ষর নির্দেশ করে।",
+                "hi": "सहमति के लिए हस्ताक्षर का संकेत देता है।",
+                "ur": "رضامندی کے لیے دستخط کرنے کی طرف اشارہ کرتا ہے۔",
+                "tr": "Onay için imzalamayı gösterir."
+            },
+            "points": 10,
+            "id": "e18_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Welche Alternativen gibt es zu dieser Behandlung?",
+                "en": null,
+                "bn": null,
+                "hi": null,
+                "ur": null,
+                "tr": null
+            },
+            "options": [],
+            "correctAnswer": "What alternatives are there to this treatment?",
+            "explanation": {
+                "en": "Asks about treatment alternatives.",
+                "bn": "চিকিৎসা বিকল্প সম্পর্কে জিজ্ঞাসা করে।",
+                "hi": "उपचार विकल्पों के बारे में पूछता है।",
+                "ur": "علاج کے متبادل کے بارے میں پوچھتا ہے۔",
+                "tr": "Tedavi alternatifleri hakkında sorar."
+            },
+            "points": 10,
+            "id": "e18_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

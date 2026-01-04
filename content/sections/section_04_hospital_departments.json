@@ -1,17 +1,1593 @@
-{"id":"section_04","phaseId":"phase1","order":4,"titleDe":"Krankenhausabteilungen","title":{"en":"Hospital Departments","bn":"হাসপাতাল বিভাগ","hi":"अस्पताल विभाग","ur":"ہسپتال کے شعبے","tr":"Hastane Bölümleri"},"level":"A1","estimatedMinutes":25,"vocabulary":[
-{"id":"v04_01","germanTerm":"Notaufnahme","article":"die","plural":"Notaufnahmen","translation":{"en":"Emergency Room","bn":"জরুরি বিভাগ","hi":"आपातकालीन कक्ष","ur":"ایمرجنسی","tr":"Acil servis"}},
-{"id":"v04_02","germanTerm":"Intensivstation","article":"die","plural":"Intensivstationen","translation":{"en":"ICU","bn":"আইসিইউ","hi":"आईसीयू","ur":"آئی سی یو","tr":"Yoğun bakım"}},
-{"id":"v04_03","germanTerm":"OP-Saal","article":"der","plural":"OP-Säle","translation":{"en":"Operating Room","bn":"অপারেশন থিয়েটার","hi":"ऑपरेशन थिएटर","ur":"آپریشن تھیٹر","tr":"Ameliyathane"}},
-{"id":"v04_04","germanTerm":"Station","article":"die","plural":"Stationen","translation":{"en":"Ward","bn":"ওয়ার্ড","hi":"वार्ड","ur":"وارڈ","tr":"Servis"}},
-{"id":"v04_05","germanTerm":"Ambulanz","article":"die","plural":"Ambulanzen","translation":{"en":"Outpatient Clinic","bn":"বহির্বিভাগ","hi":"बाह्य रोगी","ur":"او پی ڈی","tr":"Poliklinik"}},
-{"id":"v04_06","germanTerm":"Radiologie","article":"die","plural":"-","translation":{"en":"Radiology","bn":"রেডিওলজি","hi":"रेडियोलॉजी","ur":"ریڈیولوجی","tr":"Radyoloji"}},
-{"id":"v04_07","germanTerm":"Labor","article":"das","plural":"Labore","translation":{"en":"Laboratory","bn":"ল্যাবরেটরি","hi":"प्रयोगशाला","ur":"لیبارٹری","tr":"Laboratuvar"}},
-{"id":"v04_08","germanTerm":"Apotheke","article":"die","plural":"Apotheken","translation":{"en":"Pharmacy","bn":"ফার্মেসি","hi":"फार्मेसी","ur":"فارمیسی","tr":"Eczane"}},
-{"id":"v04_09","germanTerm":"Innere Medizin","article":"die","plural":"-","translation":{"en":"Internal Medicine","bn":"ইন্টারনাল মেডিসিন","hi":"आंतरिक चिकित्सा","ur":"اندرونی طب","tr":"Dahiliye"}},
-{"id":"v04_10","germanTerm":"Chirurgie","article":"die","plural":"-","translation":{"en":"Surgery Dept","bn":"সার্জারি","hi":"सर्जरी","ur":"سرجری","tr":"Cerrahi"}}
-],"dialogues":[{"id":"d04_01","title":{"en":"Finding a Department"},"lines":[
-{"speaker":"Arzt","germanText":"Der Patient muss auf die Intensivstation.","translation":{"en":"The patient needs to go to the ICU."}},
-{"speaker":"Schwester","germanText":"Ich rufe dort an.","translation":{"en":"I'll call there."}}
-]}],"exercises":[
-{"id":"e04_01","type":"multipleChoice","question":{"en":"What is 'Notaufnahme'?"},"options":["Emergency Room","ICU","Pharmacy"],"correctAnswer":"Emergency Room","points":10}
-]}
+{
+    "id": "section_04",
+    "phaseId": "phase1",
+    "order": 4,
+    "titleDe": "Krankenhausabteilungen",
+    "title": {
+        "en": "Hospital Departments: An Overview",
+        "bn": "হাসপাতালের বিভাগসমূহ: একটি সংক্ষিপ্ত বিবরণ",
+        "hi": "अस्पताल विभाग: एक अवलोकन",
+        "ur": "ہسپتال کے شعبہ جات: ایک جائزہ",
+        "tr": "Hastane Bölümleri: Bir Genel Bakış"
+    },
+    "description": {
+        "en": "This section introduces key hospital departments and their German terminology.",
+        "bn": "এই বিভাগে প্রধান হাসপাতালের বিভাগ এবং তাদের জার্মান পরিভাষাগুলির সাথে পরিচয় করানো হবে।",
+        "hi": "यह खंड प्रमुख अस्पताल विभागों और उनकी जर्मन शब्दावली का परिचय कराता है।",
+        "ur": "یہ سیکشن اہم ہسپتال کے شعبوں اور ان کی جرمن اصطلاحات سے تعارف کراتا ہے۔",
+        "tr": "Bu bölüm, önemli hastane bölümlerini ve Almanca terminolojilerini tanıtmaktadır."
+    },
+    "level": "A1",
+    "estimatedMinutes": 45,
+    "isPremium": false,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, we will explore the core departments of a German hospital, focusing on their names and functions. You will learn to identify and describe these departments in German.",
+            "bn": "এই বিভাগে, আমরা একটি জার্মান হাসপাতালের মূল বিভাগগুলি, তাদের নাম এবং কার্যাবলী সম্পর্কে জানবো। আপনি জার্মান ভাষায় এই বিভাগগুলিকে চিহ্নিত করতে এবং বর্ণনা করতে শিখবেন।",
+            "hi": "इस खंड में, हम एक जर्मन अस्पताल के मुख्य विभागों, उनके नामों और कार्यों का पता लगाएंगे। आप जर्मन में इन विभागों की पहचान करना और उनका वर्णन करना सीखेंगे।",
+            "ur": "اس سیکشن میں، ہم جرمن ہسپتال کے بنیادی شعبوں، ان کے ناموں اور افعال کو دریافت کریں گے۔ آپ جرمن میں ان محکموں کی شناخت اور وضاحت کرنا سیکھیں گے۔",
+            "tr": "Bu bölümde, bir Alman hastanesinin temel bölümlerini, isimlerini ve işlevlerini inceleyeceğiz. Bu bölümleri Almanca olarak tanımlamayı ve açıklamayı öğreneceksiniz."
+        },
+        "grammarFocus": {
+            "en": [
+                "Nominative and accusative cases in describing location (e.g., 'Ich bin in der Notaufnahme.')",
+                "Use of prepositions with dative and accusative cases to indicate position or movement within a department."
+            ],
+            "bn": [
+                "অবস্থান বর্ণনা করার জন্য কর্তৃকারক এবং কর্ম কারকের ব্যবহার (যেমন, 'Ich bin in der Notaufnahme.')",
+                "একটি বিভাগের মধ্যে অবস্থান বা গতিবিধি নির্দেশ করতে কারক বিভক্তিযুক্ত অব্যয়গুলির ব্যবহার।"
+            ],
+            "hi": [
+                "स्थान का वर्णन करने में प्रथमा और द्वितीया विभक्ति (जैसे, 'Ich bin in der Notaufnahme.')",
+                "किसी विभाग के भीतर स्थिति या गति को इंगित करने के लिए कारक विभक्ति के साथ पूर्वसर्गों का उपयोग।"
+            ],
+            "ur": [
+                "مقام کی وضاحت میں فاعلی اور مفعولی حالتیں (مثال کے طور پر، 'Ich bin in der Notaufnahme.')",
+                "کسی شعبے کے اندر پوزیشن یا حرکت کی نشاندہی کرنے کے لیے اضافت کے ساتھ سابقوں کا استعمال۔"
+            ],
+            "tr": [
+                "Konum tarifinde yalın ve belirtme halleri (örneğin, 'Ich bin in der Notaufnahme.')",
+                "Bir bölüm içindeki konumu veya hareketi belirtmek için yönelme ve belirtme halleri ile edatların kullanımı."
+            ]
+        },
+        "culturalNotes": {
+            "en": "German hospitals often have a structured hierarchy, with clear roles and responsibilities for each department.",
+            "bn": "জার্মান হাসপাতালগুলিতে প্রায়শই একটি কাঠামোগত স্তরক্রম থাকে, যেখানে প্রতিটি বিভাগের জন্য সুস্পষ্ট ভূমিকা এবং দায়িত্ব থাকে।",
+            "hi": "जर्मन अस्पतालों में अक्सर एक संरचित पदानुक्रम होता है, जिसमें प्रत्येक विभाग के लिए स्पष्ट भूमिकाएं और जिम्मेदारियां होती हैं।",
+            "ur": "جرمن ہسپتالوں میں اکثر ایک منظم درجہ بندی ہوتی ہے، جہاں ہر شعبے کے لیے واضح کردار اور ذمہ داریاں ہوتی ہیں۔",
+            "tr": "Alman hastanelerinde genellikle her bölüm için açık rol ve sorumlulukları olan yapılandırılmış bir hiyerarşi vardır."
+        },
+        "summary": {
+            "en": "This section provides a fundamental understanding of essential German hospital departments and their associated vocabulary.",
+            "bn": "এই বিভাগটি প্রয়োজনীয় জার্মান হাসপাতালের বিভাগ এবং তাদের সম্পর্কিত শব্দভাণ্ডারের একটি মৌলিক ধারণা প্রদান করে।",
+            "hi": "यह खंड आवश्यक जर्मन अस्पताल विभागों और उनसे जुड़ी शब्दावली की बुनियादी समझ प्रदान करता है।",
+            "ur": "یہ سیکشن ضروری جرمن ہسپتال کے شعبوں اور ان سے متعلقہ الفاظ کی بنیادی سمجھ فراہم کرتا ہے۔",
+            "tr": "Bu bölüm, temel Alman hastane bölümleri ve ilgili kelime dağarcığı hakkında temel bir anlayış sağlar."
+        },
+        "learningObjectives": [
+            "Identify and name key hospital departments in German.",
+            "Describe the functions of each department.",
+            "Use appropriate grammatical structures to discuss location within a hospital.",
+            "Understand basic cultural aspects of German hospital organization."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "die Notaufnahme",
+            "article": "die",
+            "plural": "die Notaufnahmen",
+            "pronunciation": "/ˈnoːtˌʔaʊ̯fnaːmə/",
+            "category": "noun",
+            "translation": {
+                "en": "emergency room",
+                "bn": "জরুরী বিভাগ",
+                "hi": "आपातकालीन कक्ष",
+                "ur": "ایمرجنسی روم",
+                "tr": "acil servis"
+            },
+            "exampleSentence": "Der Patient wurde mit starken Schmerzen in die Notaufnahme gebracht.",
+            "exampleTranslation": {
+                "en": "The patient was brought to the emergency room with severe pain.",
+                "bn": "রোগীকে তীব্র ব্যথা নিয়ে জরুরি বিভাগে আনা হয়েছে।",
+                "hi": "मरीज को तेज दर्द के साथ आपातकालीन कक्ष में लाया गया।",
+                "ur": "مریض کو شدید درد کے ساتھ ایمرجنسی روم میں لایا گیا۔",
+                "tr": "Hasta şiddetli ağrı ile acil servise getirildi."
+            },
+            "id": "v04_01"
+        },
+        {
+            "germanTerm": "die Intensivstation",
+            "article": "die",
+            "plural": "die Intensivstationen",
+            "pronunciation": "/ɪntɛnˈziːfʃtaˌt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "intensive care unit (ICU)",
+                "bn": "ইনটেনসিভ কেয়ার ইউনিট (আইসিইউ)",
+                "hi": "गहन चिकित्सा इकाई (आईसीयू)",
+                "ur": "انٹینسو کیئر یونٹ (آئی سی یو)",
+                "tr": "yoğun bakım ünitesi (YBÜ)"
+            },
+            "exampleSentence": "Nach der Operation wurde er auf die Intensivstation verlegt.",
+            "exampleTranslation": {
+                "en": "After the operation, he was transferred to the intensive care unit.",
+                "bn": "অপারেশনের পর তাকে ইনটেনসিভ কেয়ার ইউনিটে স্থানান্তর করা হয়েছে।",
+                "hi": "ऑपरेशन के बाद, उसे गहन चिकित्सा इकाई में स्थानांतरित कर दिया गया।",
+                "ur": "آپریشن کے بعد، اسے انٹینسو کیئر یونٹ میں منتقل کر دیا گیا۔",
+                "tr": "Ameliyattan sonra yoğun bakım ünitesine alındı."
+            },
+            "id": "v04_02"
+        },
+        {
+            "germanTerm": "der OP-Saal",
+            "article": "der",
+            "plural": "die OP-Säle",
+            "pronunciation": "/ˈoːpeːˌzaːl/",
+            "category": "noun",
+            "translation": {
+                "en": "operating room",
+                "bn": "অপারেশন থিয়েটার",
+                "hi": "ऑपरेशन कक्ष",
+                "ur": "آپریشن تھیٹر",
+                "tr": "ameliyathane"
+            },
+            "exampleSentence": "Der Patient wird jetzt in den OP-Saal gebracht.",
+            "exampleTranslation": {
+                "en": "The patient is now being taken to the operating room.",
+                "bn": "রোগীকে এখন অপারেশন থিয়েটারে নিয়ে যাওয়া হচ্ছে।",
+                "hi": "मरीज को अब ऑपरेशन कक्ष में ले जाया जा रहा है।",
+                "ur": "مریض کو اب آپریشن تھیٹر میں لے جایا جا رہا ہے۔",
+                "tr": "Hasta şimdi ameliyathaneye götürülüyor."
+            },
+            "id": "v04_03"
+        },
+        {
+            "germanTerm": "die Station",
+            "article": "die",
+            "plural": "die Stationen",
+            "pronunciation": "/ʃtaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "ward",
+                "bn": "ওয়ার্ড",
+                "hi": "वार्ड",
+                "ur": "وارڈ",
+                "tr": "servis"
+            },
+            "exampleSentence": "Sie arbeitet als Krankenschwester auf Station 3.",
+            "exampleTranslation": {
+                "en": "She works as a nurse on ward 3.",
+                "bn": "তিনি ৩ নম্বর ওয়ার্ডে নার্স হিসেবে কাজ করেন।",
+                "hi": "वह वार्ड 3 में नर्स के रूप में काम करती है।",
+                "ur": "وہ وارڈ 3 میں نرس کے طور پر کام کرتی ہے۔",
+                "tr": "3 numaralı serviste hemşire olarak çalışıyor."
+            },
+            "id": "v04_04"
+        },
+        {
+            "germanTerm": "die Ambulanz",
+            "article": "die",
+            "plural": "die Ambulanzen",
+            "pronunciation": "/amˈbʊlant͡s/",
+            "category": "noun",
+            "translation": {
+                "en": "outpatient clinic",
+                "bn": "বহির্বিভাগ",
+                "hi": "बाह्य रोगी विभाग",
+                "ur": "آؤٹ پیشنٹ کلینک",
+                "tr": "poliklinik"
+            },
+            "exampleSentence": "Der Patient wurde in der Ambulanz untersucht.",
+            "exampleTranslation": {
+                "en": "The patient was examined in the outpatient clinic.",
+                "bn": "রোগীকে বহির্বিভাগে পরীক্ষা করা হয়েছে।",
+                "hi": "मरीज की बाह्य रोगी विभाग में जांच की गई।",
+                "ur": "مریض کا آؤٹ پیشنٹ کلینک میں معائنہ کیا گیا۔",
+                "tr": "Hasta poliklinikte muayene edildi."
+            },
+            "id": "v04_05"
+        },
+        {
+            "germanTerm": "die Radiologie",
+            "article": "die",
+            "plural": "die Radiologien",
+            "pronunciation": "/radi̯oloˈɡiː/",
+            "category": "noun",
+            "translation": {
+                "en": "radiology",
+                "bn": "রেডিওলজি",
+                "hi": " radiology",
+                "ur": "ریڈیالوجی",
+                "tr": "radyoloji"
+            },
+            "exampleSentence": "In der Radiologie wurde ein Röntgenbild angefertigt.",
+            "exampleTranslation": {
+                "en": "An X-ray was taken in radiology.",
+                "bn": "রেডিওলজিতে একটি এক্স-রে নেওয়া হয়েছে।",
+                "hi": "रेडियोलॉजी में एक एक्स-रे लिया गया था।",
+                "ur": "ریڈیالوجی میں ایکسرے لیا گیا۔",
+                "tr": "Radyolojide bir röntgen çekildi."
+            },
+            "id": "v04_06"
+        },
+        {
+            "germanTerm": "das Labor",
+            "article": "das",
+            "plural": "die Labore/Labors",
+            "pronunciation": "/laˈboːɐ̯/",
+            "category": "noun",
+            "translation": {
+                "en": "laboratory",
+                "bn": "ল্যাবরেটরি",
+                "hi": "प्रयोगशाला",
+                "ur": "لیبارٹری",
+                "tr": "laboratuvar"
+            },
+            "exampleSentence": "Das Blut wurde ins Labor geschickt.",
+            "exampleTranslation": {
+                "en": "The blood was sent to the laboratory.",
+                "bn": "রক্ত ল্যাবরেটরিতে পাঠানো হয়েছে।",
+                "hi": "खून को प्रयोगशाला भेजा गया।",
+                "ur": "خون کو لیبارٹری بھیجا گیا۔",
+                "tr": "Kan laboratuvara gönderildi."
+            },
+            "id": "v04_07"
+        },
+        {
+            "germanTerm": "die Pathologie",
+            "article": "die",
+            "plural": "die Pathologien",
+            "pronunciation": "/patoːloˈɡiː/",
+            "category": "noun",
+            "translation": {
+                "en": "pathology",
+                "bn": "প্যাথলজি",
+                "hi": "पैथोलॉजी",
+                "ur": "پیتھالوجی",
+                "tr": "patoloji"
+            },
+            "exampleSentence": "Die Pathologie untersucht Gewebeproben.",
+            "exampleTranslation": {
+                "en": "Pathology examines tissue samples.",
+                "bn": "প্যাথলজি টিস্যু নমুনা পরীক্ষা করে।",
+                "hi": "पैथोलॉजी ऊतक के नमूनों की जांच करती है।",
+                "ur": "پیتھالوجی ٹشو کے نمونے کی جانچ کرتی ہے۔",
+                "tr": "Patoloji doku örneklerini inceler."
+            },
+            "id": "v04_08"
+        },
+        {
+            "germanTerm": "der Notarzt",
+            "article": "der",
+            "plural": "die Notärzte",
+            "pronunciation": "/ˈnoːtˌʔaʁt͡st/",
+            "category": "noun",
+            "translation": {
+                "en": "emergency physician",
+                "bn": "জরুরী চিকিৎসক",
+                "hi": "आपातकालीन चिकित्सक",
+                "ur": "ایمرجنسی معالج",
+                "tr": "acil doktoru"
+            },
+            "exampleSentence": "Der Notarzt traf schnell am Unfallort ein.",
+            "exampleTranslation": {
+                "en": "The emergency physician arrived quickly at the accident site.",
+                "bn": "জরুরী চিকিৎসক দ্রুত দুর্ঘটনার স্থানে পৌঁছেছেন।",
+                "hi": "आपातकालीन चिकित्सक जल्दी ही दुर्घटनास्थल पर पहुंच गए।",
+                "ur": "ایمرجنسی معالج تیزی سے جائے حادثہ پر پہنچ گئے۔",
+                "tr": "Acil doktoru hızla kaza yerine geldi."
+            },
+            "id": "v04_09"
+        },
+        {
+            "germanTerm": "die Röntgenaufnahme",
+            "article": "die",
+            "plural": "die Röntgenaufnahmen",
+            "pronunciation": "/ˈʁœntɡənˌʔaʊ̯fnaːmə/",
+            "category": "noun",
+            "translation": {
+                "en": "X-ray",
+                "bn": "এক্স-রে",
+                "hi": "एक्स-रे",
+                "ur": "ایکسرے",
+                "tr": "röntgen"
+            },
+            "exampleSentence": "Die Röntgenaufnahme zeigt eine Fraktur.",
+            "exampleTranslation": {
+                "en": "The X-ray shows a fracture.",
+                "bn": "এক্স-রে একটি ফাটল দেখাচ্ছে।",
+                "hi": "एक्स-रे एक फ्रैक्चर दिखाता है।",
+                "ur": "ایکسرے ایک فریکچر دکھاتا ہے۔",
+                "tr": "Röntgen, bir kırık gösteriyor."
+            },
+            "id": "v04_10"
+        },
+        {
+            "germanTerm": "die Blutuntersuchung",
+            "article": "die",
+            "plural": "die Blutuntersuchungen",
+            "pronunciation": "/ˈbluːtˌʔʊntɐˌzuːxʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "blood test",
+                "bn": "রক্ত পরীক্ষা",
+                "hi": "रक्त परीक्षण",
+                "ur": "خون کا ٹیسٹ",
+                "tr": "kan testi"
+            },
+            "exampleSentence": "Die Blutuntersuchung wurde im Labor durchgeführt.",
+            "exampleTranslation": {
+                "en": "The blood test was performed in the laboratory.",
+                "bn": "রক্ত পরীক্ষা ল্যাবরেটরিতে করা হয়েছে।",
+                "hi": "रक्त परीक्षण प्रयोगशाला में किया गया था।",
+                "ur": "خون کا ٹیسٹ لیبارٹری میں کیا گیا۔",
+                "tr": "Kan testi laboratuvarda yapıldı."
+            },
+            "id": "v04_11"
+        },
+        {
+            "germanTerm": "der Gewebeprobe",
+            "article": "die",
+            "plural": "die Gewebeproben",
+            "pronunciation": "/ɡəˈveːbəˌproːbə/",
+            "category": "noun",
+            "translation": {
+                "en": "tissue sample",
+                "bn": "টিস্যু নমুনা",
+                "hi": "ऊतक नमूना",
+                "ur": "ٹشو نمونہ",
+                "tr": "doku örneği"
+            },
+            "exampleSentence": "Die Gewebeprobe wird histologisch untersucht.",
+            "exampleTranslation": {
+                "en": "The tissue sample is examined histologically.",
+                "bn": "টিস্যু নমুনা হিস্টোলজিকভাবে পরীক্ষা করা হয়।",
+                "hi": "ऊतक नमूना हिस्टोलॉजिकल रूप से जांचा जाता है।",
+                "ur": "ٹشو نمونہ ہسٹولوجیکل طور پر جانچا جاتا ہے۔",
+                "tr": "Doku örneği histolojik olarak incelenir."
+            },
+            "id": "v04_12"
+        },
+        {
+            "germanTerm": "das EKG",
+            "article": "das",
+            "plural": "die EKGs",
+            "pronunciation": "/eːkaːˈɡeː/",
+            "category": "noun",
+            "translation": {
+                "en": "ECG/EKG",
+                "bn": "ইসিজি/ইকেজি",
+                "hi": "ईसीजी/ईकेजी",
+                "ur": "ای سی جی/ای کے جی",
+                "tr": "EKG"
+            },
+            "exampleSentence": "Ein EKG wurde durchgeführt, um die Herzfunktion zu überprüfen.",
+            "exampleTranslation": {
+                "en": "An ECG was performed to check heart function.",
+                "bn": "হৃদযন্ত্রের কার্যকারিতা পরীক্ষা করার জন্য একটি ইসিজি করা হয়েছিল।",
+                "hi": "हृदय के कार्य की जांच के लिए एक ईसीजी किया गया था।",
+                "ur": "دل کے فعل کی جانچ کرنے کے لئے ایک ای سی جی کیا گیا تھا۔",
+                "tr": "Kalp fonksiyonunu kontrol etmek için bir EKG çekildi."
+            },
+            "id": "v04_13"
+        },
+        {
+            "germanTerm": "die Diagnose",
+            "article": "die",
+            "plural": "die Diagnosen",
+            "pronunciation": "/diaˈɡnoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "diagnosis",
+                "bn": "রোগ নির্ণয়",
+                "hi": "निदान",
+                "ur": "تشخیص",
+                "tr": "teşhis"
+            },
+            "exampleSentence": "Die Diagnose wurde nach mehreren Untersuchungen gestellt.",
+            "exampleTranslation": {
+                "en": "The diagnosis was made after several examinations.",
+                "bn": "কয়েকটি পরীক্ষার পরে রোগ নির্ণয় করা হয়েছে।",
+                "hi": "कई परीक्षाओं के बाद निदान किया गया था।",
+                "ur": "متعدد جانچوں کے بعد تشخیص کیا گیا۔",
+                "tr": "Birkaç muayeneden sonra teşhis konuldu."
+            },
+            "id": "v04_14"
+        },
+        {
+            "germanTerm": "der Patient",
+            "article": "der",
+            "plural": "die Patienten",
+            "pronunciation": "/paˈt͡si̯ɛnt/",
+            "category": "noun",
+            "translation": {
+                "en": "patient",
+                "bn": "রোগী",
+                "hi": "मरीज",
+                "ur": "مریض",
+                "tr": "hasta"
+            },
+            "exampleSentence": "Der Patient klagte über starke Schmerzen.",
+            "exampleTranslation": {
+                "en": "The patient complained of severe pain.",
+                "bn": "রোগী তীব্র ব্যথার অভিযোগ করেছেন।",
+                "hi": "मरीज ने तेज दर्द की शिकायत की।",
+                "ur": "مریض نے شدید درد کی شکایت کی۔",
+                "tr": "Hasta şiddetli ağrıdan şikayet etti."
+            },
+            "id": "v04_15"
+        },
+        {
+            "germanTerm": "die Behandlung",
+            "article": "die",
+            "plural": "die Behandlungen",
+            "pronunciation": "/bəˈhandlʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "treatment",
+                "bn": "চিকিৎসা",
+                "hi": "उपचार",
+                "ur": "علاج",
+                "tr": "tedavi"
+            },
+            "exampleSentence": "Die Behandlung des Patienten erfolgt nach den neuesten Richtlinien.",
+            "exampleTranslation": {
+                "en": "The patient's treatment is carried out according to the latest guidelines.",
+                "bn": "রোগীর চিকিৎসা সর্বশেষ নির্দেশিকা অনুযায়ী করা হয়।",
+                "hi": "मरीज का इलाज नवीनतम दिशानिर्देशों के अनुसार किया जाता है।",
+                "ur": "مریض کا علاج تازہ ترین رہنما خطوط کے مطابق کیا جاتا ہے۔",
+                "tr": "Hastanın tedavisi en son yönergelere göre yapılır."
+            },
+            "id": "v04_16"
+        },
+        {
+            "germanTerm": "die Überwachung",
+            "article": "die",
+            "plural": "die Überwachungen",
+            "pronunciation": "/yːbɐˈvaxʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "monitoring",
+                "bn": "পর্যবেক্ষণ",
+                "hi": "निगरानी",
+                "ur": "نگرانی",
+                "tr": "izleme"
+            },
+            "exampleSentence": "Der Patient benötigt eine intensive Überwachung.",
+            "exampleTranslation": {
+                "en": "The patient requires intensive monitoring.",
+                "bn": "রোগীর নিবিড় পর্যবেক্ষণের প্রয়োজন।",
+                "hi": "मरीज को गहन निगरानी की आवश्यकता है।",
+                "ur": "مریض کو گہری نگرانی کی ضرورت ہے۔",
+                "tr": "Hastanın yoğun takibe ihtiyacı var."
+            },
+            "id": "v04_17"
+        },
+        {
+            "germanTerm": "der Eingriff",
+            "article": "der",
+            "plural": "die Eingriffe",
+            "pronunciation": "/ˈaɪ̯nˌɡʁɪf/",
+            "category": "noun",
+            "translation": {
+                "en": "procedure",
+                "bn": "পদ্ধতি",
+                "hi": "प्रक्रिया",
+                "ur": "طریقہ کار",
+                "tr": "işlem"
+            },
+            "exampleSentence": "Der Eingriff verlief ohne Komplikationen.",
+            "exampleTranslation": {
+                "en": "The procedure went without complications.",
+                "bn": "পদ্ধতিটি কোনও জটিলতা ছাড়াই সম্পন্ন হয়েছে।",
+                "hi": "प्रक्रिया बिना किसी जटिलता के संपन्न हुई।",
+                "ur": "طریقہ کار بغیر کسی پیچیدگی کے مکمل ہو گیا۔",
+                "tr": "İşlem sorunsuz geçti."
+            },
+            "id": "v04_18"
+        },
+        {
+            "germanTerm": "die Narkose",
+            "article": "die",
+            "plural": "die Narkosen",
+            "pronunciation": "/naʁˈkoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "anesthesia",
+                "bn": "অবেদন",
+                "hi": "बेहोशी",
+                "ur": "بے ہوشی",
+                "tr": "anestezi"
+            },
+            "exampleSentence": "Der Patient wurde unter Narkose operiert.",
+            "exampleTranslation": {
+                "en": "The patient was operated on under anesthesia.",
+                "bn": "রোগীকে অবেদনে অপারেশন করা হয়েছিল।",
+                "hi": "मरीज को बेहोशी में संचालित किया गया था।",
+                "ur": "مریض کا بے ہوشی میں آپریشن کیا گیا تھا۔",
+                "tr": "Hasta anestezi altında ameliyat edildi."
+            },
+            "id": "v04_19"
+        },
+        {
+            "germanTerm": "die Infusion",
+            "article": "die",
+            "plural": "die Infusionen",
+            "pronunciation": "/ɪnfʊˈzi̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "infusion",
+                "bn": "ইনফিউশন",
+                "hi": "आसव",
+                "ur": "انفیوژن",
+                "tr": "infüzyon"
+            },
+            "exampleSentence": "Der Patient erhält eine Infusion mit Elektrolyten.",
+            "exampleTranslation": {
+                "en": "The patient is receiving an infusion with electrolytes.",
+                "bn": "রোগীকে ইলেক্ট্রোলাইট দিয়ে একটি ইনফিউশন দেওয়া হচ্ছে।",
+                "hi": "मरीज को इलेक्ट्रोलाइट्स के साथ एक आसव मिल रहा है।",
+                "ur": "مریض کو الیکٹرولائٹس کے ساتھ ایک انفیوژن مل رہا ہے۔",
+                "tr": "Hastaya elektrolitlerle bir infüzyon veriliyor."
+            },
+            "id": "v04_20"
+        },
+        {
+            "germanTerm": "der Verband",
+            "article": "der",
+            "plural": "die Verbände",
+            "pronunciation": "/fɛɐ̯ˈbant/",
+            "category": "noun",
+            "translation": {
+                "en": "bandage",
+                "bn": "ব্যান্ডেজ",
+                "hi": "पट्टी",
+                "ur": "پٹی",
+                "tr": "bandaj"
+            },
+            "exampleSentence": "Der Verband muss täglich gewechselt werden.",
+            "exampleTranslation": {
+                "en": "The bandage must be changed daily.",
+                "bn": "ব্যান্ডেজ প্রতিদিন পরিবর্তন করতে হবে।",
+                "hi": "पट्टी को रोजाना बदलना होगा।",
+                "ur": "پٹی کو روزانہ تبدیل کرنا چاہیے۔",
+                "tr": "Bandajın her gün değiştirilmesi gerekiyor."
+            },
+            "id": "v04_21"
+        },
+        {
+            "germanTerm": "die Wunde",
+            "article": "die",
+            "plural": "die Wunden",
+            "pronunciation": "/ˈvʊndə/",
+            "category": "noun",
+            "translation": {
+                "en": "wound",
+                "bn": "ঘা",
+                "hi": "घाव",
+                "ur": "زخم",
+                "tr": "yara"
+            },
+            "exampleSentence": "Die Wunde muss desinfiziert werden.",
+            "exampleTranslation": {
+                "en": "The wound must be disinfected.",
+                "bn": "ঘাটি জীবাণুমুক্ত করতে হবে।",
+                "hi": "घाव को कीटाणुरहित करना होगा।",
+                "ur": "زخم کو جراثیم سے پاک کرنا ہوگا۔",
+                "tr": "Yaranın dezenfekte edilmesi gerekiyor."
+            },
+            "id": "v04_22"
+        },
+        {
+            "germanTerm": "die Medikation",
+            "article": "die",
+            "plural": "die Medikation",
+            "pronunciation": "/medikaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "medication",
+                "bn": "ওষুধ",
+                "hi": "दवा",
+                "ur": "دوائی",
+                "tr": "ilaç"
+            },
+            "exampleSentence": "Die Medikation des Patienten muss angepasst werden.",
+            "exampleTranslation": {
+                "en": "The patient's medication needs to be adjusted.",
+                "bn": "রোগীর ওষুধ পরিবর্তন করতে হবে।",
+                "hi": "मरीज की दवा को समायोजित करने की आवश्यकता है।",
+                "ur": "مریض کی دوا کو ایڈجسٹ کرنے کی ضرورت ہے۔",
+                "tr": "Hastanın ilaçlarının ayarlanması gerekiyor."
+            },
+            "id": "v04_23"
+        },
+        {
+            "germanTerm": "die Entlassung",
+            "article": "die",
+            "plural": "die Entlassungen",
+            "pronunciation": "/ɛntˈlasʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "discharge",
+                "bn": "খালাস",
+                "hi": "छुट्टी",
+                "ur": "چھٹی",
+                "tr": "taburcu"
+            },
+            "exampleSentence": "Die Entlassung des Patienten ist für morgen geplant.",
+            "exampleTranslation": {
+                "en": "The patient's discharge is planned for tomorrow.",
+                "bn": "রোগীর খালাস আগামীকাল পরিকল্পনা করা হয়েছে।",
+                "hi": "मरीज की छुट्टी कल के लिए निर्धारित है।",
+                "ur": "مریض کی چھٹی کل کے لیے طے شدہ ہے۔",
+                "tr": "Hastanın taburcu olması yarına planlandı."
+            },
+            "id": "v04_24"
+        },
+        {
+            "germanTerm": "die Anamnese",
+            "article": "die",
+            "plural": "die Anamnesen",
+            "pronunciation": "/anaˈmneːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "medical history",
+                "bn": "চিকিৎসা ইতিহাস",
+                "hi": "चिकित्सा इतिहास",
+                "ur": "طبی تاریخ",
+                "tr": "tıbbi geçmiş"
+            },
+            "exampleSentence": "Die Anamnese ist wichtig für die Diagnose.",
+            "exampleTranslation": {
+                "en": "The medical history is important for the diagnosis.",
+                "bn": "রোগ নির্ণয়ের জন্য চিকিৎসা ইতিহাস গুরুত্বপূর্ণ।",
+                "hi": "रोग निदान के लिए चिकित्सा इतिहास महत्वपूर्ण है।",
+                "ur": "تشخیص کے لیے طبی تاریخ اہم ہے۔",
+                "tr": "Tıbbi geçmiş, teşhis için önemlidir."
+            },
+            "id": "v04_25"
+        },
+        {
+            "germanTerm": "der Arztbrief",
+            "article": "der",
+            "plural": "die Arztbriefe",
+            "pronunciation": "/ˈaʁt͡stˌbʁiːf/",
+            "category": "noun",
+            "translation": {
+                "en": "discharge summary",
+                "bn": "ডিসচার্জ সারসংক্ষেপ",
+                "hi": "डिस्चार्ज सारांश",
+                "ur": "ڈسچارج سمری",
+                "tr": "taburcu özeti"
+            },
+            "exampleSentence": "Der Arztbrief enthält alle wichtigen Informationen zur Behandlung.",
+            "exampleTranslation": {
+                "en": "The discharge summary contains all important information about the treatment.",
+                "bn": "ডিসচার্জ সারসংক্ষেপে চিকিৎসার সমস্ত গুরুত্বপূর্ণ তথ্য রয়েছে।",
+                "hi": "डिस्चार्ज सारांश में इलाज के बारे में सभी महत्वपूर्ण जानकारी शामिल है।",
+                "ur": "ڈسچارج سمری میں علاج کے بارے میں تمام اہم معلومات شامل ہیں۔",
+                "tr": "Taburcu özetinde tedaviyle ilgili tüm önemli bilgiler yer almaktadır."
+            },
+            "id": "v04_26"
+        },
+        {
+            "germanTerm": "intubieren",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ɪntuˈbiːʁən/",
+            "category": "verb",
+            "translation": {
+                "en": "to intubate",
+                "bn": "ইনটিউবেট করা",
+                "hi": "इंटुबेट करना",
+                "ur": "انٹیوبیٹ کرنا",
+                "tr": "entübe etmek"
+            },
+            "exampleSentence": "Der Patient musste intubiert werden.",
+            "exampleTranslation": {
+                "en": "The patient had to be intubated.",
+                "bn": "রোগীকে ইনটিউবেট করতে হয়েছিল।",
+                "hi": "मरीज को इंटुबेट करना पड़ा।",
+                "ur": "مریض کو انٹیوبیٹ کرنا پڑا۔",
+                "tr": "Hastanın entübe edilmesi gerekti."
+            },
+            "id": "v04_27"
+        },
+        {
+            "germanTerm": "die Reanimation",
+            "article": "die",
+            "plural": "die Reanimationen",
+            "pronunciation": "/ʁeːanimat͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "resuscitation",
+                "bn": "পুনরুজ্জীবন",
+                "hi": "पुनर्जीवन",
+                "ur": "احیاء",
+                "tr": "canlandırma"
+            },
+            "exampleSentence": "Die Reanimation war erfolgreich.",
+            "exampleTranslation": {
+                "en": "The resuscitation was successful.",
+                "bn": "পুনরুজ্জীবন সফল ছিল।",
+                "hi": "पुनर्जीवन सफल रहा।",
+                "ur": "احیاء کامیاب رہا۔",
+                "tr": "Canlandırma başarılı oldu."
+            },
+            "id": "v04_28"
+        },
+        {
+            "germanTerm": "der Befund",
+            "article": "der",
+            "plural": "die Befunde",
+            "pronunciation": "/bəˈfʊnt/",
+            "category": "noun",
+            "translation": {
+                "en": "finding",
+                "bn": "আবিষ্কার",
+                "hi": "निष्कर्ष",
+                "ur": "تلاش",
+                "tr": "bulgu"
+            },
+            "exampleSentence": "Der Befund der Untersuchung ist unauffällig.",
+            "exampleTranslation": {
+                "en": "The finding of the examination is unremarkable.",
+                "bn": "পরীক্ষার ফলাফলটি অসাধারণ।",
+                "hi": "परीक्षा का निष्कर्ष सामान्य है।",
+                "ur": "امتحان کی تلاش غیر معمولی ہے۔",
+                "tr": "Muayenenin bulgusu olağan dışı değil."
+            },
+            "id": "v04_29"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Emergency Room - Chest Pain",
+                "bn": "জরুরী বিভাগ - বুকের ব্যথা",
+                "hi": "आपातकालीन कक्ष - सीने में दर्द",
+                "ur": "ایمرجنسی روم - سینے میں درد",
+                "tr": "Acil Servis - Göğüs Ağrısı"
+            },
+            "context": {
+                "en": "A patient arrives in the emergency room complaining of chest pain.",
+                "bn": "একজন রোগী বুকের ব্যথা নিয়ে জরুরী বিভাগে আসে।",
+                "hi": "एक मरीज सीने में दर्द की शिकायत लेकर आपातकालीन कक्ष में आता है।",
+                "ur": "ایک مریض سینے میں درد کی شکایت لے کر ایمرجنسی روم میں آتا ہے۔",
+                "tr": "Bir hasta göğüs ağrısı şikayetiyle acil servise geliyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich habe starke Schmerzen in der Brust! Es fühlt sich an, als würde etwas drücken.",
+                    "translation": {
+                        "en": "I have severe chest pain! It feels like something is pressing.",
+                        "bn": "আমার বুকে খুব ব্যথা! মনে হচ্ছে যেন কিছু চেপে ধরেছে।",
+                        "hi": "मुझे सीने में बहुत दर्द है! ऐसा लगता है जैसे कुछ दबा रहा है।",
+                        "ur": "مجھے سینے میں شدید درد ہے! ایسا لگتا ہے جیسے کچھ دبا رہا ہے۔",
+                        "tr": "Göğsümde şiddetli ağrı var! Sanki bir şey baskı yapıyor gibi."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Wir kümmern uns sofort darum. Bitte legen Sie sich hier auf die Liege.",
+                    "translation": {
+                        "en": "We'll take care of it right away. Please lie down here on the stretcher.",
+                        "bn": "আমরা এক্ষুনি দেখছি। অনুগ্রহ করে এখানে স্ট্রেচারে শুয়ে পড়ুন।",
+                        "hi": "हम अभी इसका ध्यान रखते हैं। कृपया यहाँ स्ट्रेचर पर लेट जाएँ।",
+                        "ur": "ہم ابھی اس کا خیال رکھتے ہیں۔ برائے مہربانی یہاں اسٹریچر پر لیٹ جائیں۔",
+                        "tr": "Hemen ilgileniyoruz. Lütfen buraya sedyeye uzanın."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Tag, Herr Müller. Können Sie mir mehr über Ihre Schmerzen erzählen?",
+                    "translation": {
+                        "en": "Good day, Mr. Müller. Can you tell me more about your pain?",
+                        "bn": "শুভ দিন, মি. মুলার। আপনি কি আপনার ব্যথা সম্পর্কে আরও কিছু বলতে পারেন?",
+                        "hi": "शुभ दिन, श्री मूलर। क्या आप मुझे अपने दर्द के बारे में और बता सकते हैं?",
+                        "ur": "شب بخیر، مسٹر مولر۔ کیا آپ مجھے اپنے درد کے بارے میں مزید بتا سکتے ہیں؟",
+                        "tr": "İyi günler, Bay Müller. Bana ağrılarınız hakkında daha fazla bilgi verebilir misiniz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Es ist ein stechender Schmerz, der in den linken Arm ausstrahlt.",
+                    "translation": {
+                        "en": "It's a stabbing pain that radiates into my left arm.",
+                        "bn": "এটি একটি ছুরিকাঘাতের মতো ব্যথা যা আমার বাম হাতে ছড়িয়ে পড়ছে।",
+                        "hi": "यह एक चुभने वाला दर्द है जो मेरी बाईं बांह में फैलता है।",
+                        "ur": "یہ ایک چھرا گھونپنے والا درد ہے جو میرے بائیں بازو میں پھیل رہا ہے۔",
+                        "tr": "Sol koluma yayılan bir bıçak saplanır gibi ağrı var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wir machen sofort ein EKG und nehmen Blut ab. Schwester, bitte vorbereiten.",
+                    "translation": {
+                        "en": "We'll do an EKG and take blood right away. Nurse, please prepare.",
+                        "bn": "আমরা এখুনি একটি ইসিজি করব এবং রক্ত নেব। নার্স, অনুগ্রহ করে প্রস্তুত করুন।",
+                        "hi": "हम तुरंत एक ईसीजी करेंगे और खून लेंगे। नर्स, कृपया तैयार करें।",
+                        "ur": "ہم فوری طور پر ایک ای سی جی کریں گے اور خون لیں گے۔ نرس، براہ کرم تیاری کریں۔",
+                        "tr": "Hemen EKG çekip kan alacağız. Hemşire, lütfen hazırlanın."
+                    }
+                }
+            ],
+            "id": "d04_01"
+        },
+        {
+            "title": {
+                "en": "Intensive Care Unit - Post-Surgery Monitoring",
+                "bn": "নিবিড় পরিচর্যা কেন্দ্র - অস্ত্রোপচার-পরবর্তী পর্যবেক্ষণ",
+                "hi": "गहन चिकित्सा इकाई - सर्जरी के बाद की निगरानी",
+                "ur": "انتہائی نگہداشت یونٹ - سرجری کے بعد کی نگرانی",
+                "tr": "Yoğun Bakım Ünitesi - Ameliyat Sonrası İzleme"
+            },
+            "context": {
+                "en": "A patient is recovering in the ICU after a major surgery.",
+                "bn": "একটি রোগী একটি বড় অস্ত্রোপচারের পরে আইসিইউতে সেরে উঠছেন।",
+                "hi": "एक मरीज एक बड़ी सर्जरी के बाद आईसीयू में ठीक हो रहा है।",
+                "ur": "ایک مریض ایک بڑی سرجری کے بعد آئی سی یو میں صحت یاب ہو رہا ہے۔",
+                "tr": "Bir hasta büyük bir ameliyattan sonra yoğun bakımda iyileşiyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wie sind die Vitalwerte von Herrn Weber, Schwester?",
+                    "translation": {
+                        "en": "How are Mr. Weber's vital signs, Nurse?",
+                        "bn": "মি. ওয়েবারের ভাইটাল সাইন কেমন আছে, নার্স?",
+                        "hi": "श्री वेबर के महत्वपूर्ण लक्षण कैसे हैं, नर्स?",
+                        "ur": "مسٹر ویبر کے اہم علامات کیسے ہیں، نرس؟",
+                        "tr": "Bay Weber'in hayati belirtileri nasıl, Hemşire?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Meier",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Blutdruck stabil bei 120/80, Herzfrequenz 75, Sauerstoffsättigung 98%.",
+                    "translation": {
+                        "en": "Blood pressure is stable at 120/80, heart rate 75, oxygen saturation 98%.",
+                        "bn": "রক্তচাপ 120/80 এ স্থিতিশীল, হৃদস্পন্দন 75, অক্সিজেনের স্যাচুরেশন 98%।",
+                        "hi": "रक्तचाप 120/80 पर स्थिर है, हृदय गति 75, ऑक्सीजन संतृप्ति 98%।",
+                        "ur": "بلڈ پریشر 120/80 پر مستحکم، دل کی دھڑکن 75، آکسیجن کی سطح 98%۔",
+                        "tr": "Kan basıncı 120/80'de stabil, kalp atış hızı 75, oksijen saturasyonu %98."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Sehr gut. Hat er Schmerzen?",
+                    "translation": {
+                        "en": "Very good. Is he in pain?",
+                        "bn": "খুব ভালো. তার কি ব্যথা আছে?",
+                        "hi": "बहुत अच्छा। क्या उसे दर्द है?",
+                        "ur": "بہت اچھے. کیا اسے درد ہے؟",
+                        "tr": "Çok iyi. Ağrısı var mı?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Meier",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Er hat vor einer Stunde Schmerzmittel bekommen. Aktuell ruhig.",
+                    "translation": {
+                        "en": "He received pain medication an hour ago. Currently calm.",
+                        "bn": "তাকে এক ঘণ্টা আগে ব্যথানাশক ওষুধ দেওয়া হয়েছে। বর্তমানে শান্ত।",
+                        "hi": "उसे एक घंटे पहले दर्द निवारक दवा दी गई थी। वर्तमान में शांत।",
+                        "ur": "اسے ایک گھنٹہ پہلے درد کم کرنے والی دوا دی گئی تھی۔ فی الحال پرسکون ہے۔",
+                        "tr": "Bir saat önce ağrı kesici aldı. Şu anda sakin."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir überwachen ihn weiter engmaschig. Danke, Schwester Meier.",
+                    "translation": {
+                        "en": "We'll continue to monitor him closely. Thank you, Nurse Meier.",
+                        "bn": "আমরা তাকে আরও নিবিড়ভাবে পর্যবেক্ষণ করব। ধন্যবাদ, নার্স মিয়ার।",
+                        "hi": "हम उसे आगे भी बारीकी से निगरानी करते रहेंगे। धन्यवाद, नर्स मेयर।",
+                        "ur": "ہم اسے مزید باریک بینی سے نگرانی کرتے رہیں گے۔ شکریہ، نرس میئر۔",
+                        "tr": "Onu yakından izlemeye devam edeceğiz. Teşekkürler, Hemşire Meier."
+                    }
+                }
+            ],
+            "id": "d04_02"
+        },
+        {
+            "title": {
+                "en": "Operating Room - Surgical Team Briefing",
+                "bn": "অপারেশন থিয়েটার - সার্জিক্যাল টিম ব্রিফিং",
+                "hi": "ऑपरेटिंग रूम - सर्जिकल टीम ब्रीफिंग",
+                "ur": "آپریٹنگ روم - سرجیکل ٹیم بریفنگ",
+                "tr": "Ameliyathane - Cerrahi Ekip Brifingi"
+            },
+            "context": {
+                "en": "The surgical team is briefing before a hip replacement surgery.",
+                "bn": "হিপ রিপ্লেসমেন্ট সার্জারির আগে সার্জিক্যাল দল ব্রিফিং করছে।",
+                "hi": "हिप रिप्लेसमेंट सर्जरी से पहले सर्जिकल टीम ब्रीफिंग कर रही है।",
+                "ur": "ہپ ریپلیسمنٹ سرجری سے پہلے سرجیکل ٹیم بریفنگ کر رہی ہے۔",
+                "tr": "Cerrahi ekip, kalça protezi ameliyatı öncesinde brifing yapıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Morgen, Team. Wir führen heute eine Hüfttotalendoprothese bei Frau Schulz durch.",
+                    "translation": {
+                        "en": "Good morning, team. Today we're performing a total hip replacement on Mrs. Schulz.",
+                        "bn": "শুভ সকাল, দল। আজ আমরা মিসেস শুলজের একটি টোটাল হিপ রিপ্লেসমেন্ট করব।",
+                        "hi": "शुभ प्रभात, टीम। आज हम श्रीमती शुल्ज़ पर कुल हिप रिप्लेसमेंट कर रहे हैं।",
+                        "ur": "صبح بخیر، ٹیم۔ آج ہم محترمہ شلز پر کل ہپ ریپلیسمنٹ کر رہے ہیں۔",
+                        "tr": "Günaydın, ekip. Bugün Bayan Schulz'a total kalça protezi uygulayacağız."
+                    }
+                },
+                {
+                    "speaker": "Dr. Berger",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Sind alle Implantate und Instrumente vorbereitet?",
+                    "translation": {
+                        "en": "Are all implants and instruments prepared?",
+                        "bn": "সমস্ত ইমপ্লান্ট এবং সরঞ্জাম প্রস্তুত আছে?",
+                        "hi": "क्या सभी प्रत्यारोपण और उपकरण तैयार हैं?",
+                        "ur": "کیا تمام امپلانٹس اور آلات تیار ہیں؟",
+                        "tr": "Tüm implantlar ve aletler hazır mı?"
+                    }
+                },
+                {
+                    "speaker": "OP-Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ja, Herr Dr. Berger. Alles ist geprüft und bereit.",
+                    "translation": {
+                        "en": "Yes, Dr. Berger. Everything is checked and ready.",
+                        "bn": "হ্যাঁ, ডঃ বার্গার। সবকিছু পরীক্ষা করা হয়েছে এবং প্রস্তুত।",
+                        "hi": "हाँ, डॉ. बर्गर। सब कुछ जांचा गया है और तैयार है।",
+                        "ur": "ہاں، ڈاکٹر برجر۔ سب کچھ چیک کیا گیا ہے اور تیار ہے۔",
+                        "tr": "Evet, Dr. Berger. Her şey kontrol edildi ve hazır."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Gut. Dann können wir beginnen. Achten Sie auf die Blutungsgefahr.",
+                    "translation": {
+                        "en": "Good. Then we can begin. Pay attention to the risk of bleeding.",
+                        "bn": "ভাল। তাহলে আমরা শুরু করতে পারি। রক্তপাতের ঝুঁকির দিকে খেয়াল রাখবেন।",
+                        "hi": "अच्छा। तो हम शुरू कर सकते हैं। खून बहने के खतरे पर ध्यान दें।",
+                        "ur": "اچھا۔ تو ہم شروع کر سکتے ہیں۔ خون بہنے کے خطرے پر دھیان دیں۔",
+                        "tr": "Güzel. O zaman başlayabiliriz. Kanama riskine dikkat edin."
+                    }
+                },
+                {
+                    "speaker": "Dr. Berger",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wird gemacht, Herr Dr. Klein.",
+                    "translation": {
+                        "en": "Will do, Dr. Klein.",
+                        "bn": "করা হবে, ডঃ ক্লেইন।",
+                        "hi": "किया जाएगा, डॉ. क्लेन।",
+                        "ur": "کیا جائے گا، ڈاکٹر کلین۔",
+                        "tr": "Yapılacak, Dr. Klein."
+                    }
+                }
+            ],
+            "id": "d04_03"
+        },
+        {
+            "title": {
+                "en": "Hospital Ward - Medication Round",
+                "bn": "হাসপাতালের ওয়ার্ড - ওষুধের রাউন্ড",
+                "hi": "अस्पताल का वार्ड - दवा राउंड",
+                "ur": "ہسپتال کا وارڈ - دوا کا راؤنڈ",
+                "tr": "Hastane Koğuşu - İlaç Verme Turu"
+            },
+            "context": {
+                "en": "A nurse is making rounds on the hospital ward, administering medication.",
+                "bn": "একজন নার্স হাসপাতালের ওয়ার্ডে ওষুধ বিতরণ করছেন।",
+                "hi": "एक नर्स अस्पताल के वार्ड में दवा वितरित कर रही है।",
+                "ur": "ایک نرس ہسپتال کے وارڈ میں دوا تقسیم کر رہی ہے۔",
+                "tr": "Bir hemşire hastane koğuşunda ilaç dağıtıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Ingrid",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Morgen, Frau Lehmann. Hier sind Ihre Tabletten für heute.",
+                    "translation": {
+                        "en": "Good morning, Mrs. Lehmann. Here are your tablets for today.",
+                        "bn": "শুভ সকাল, মিসেস লেহমান। এখানে আপনার আজকের ট্যাবলেট।",
+                        "hi": "शुभ प्रभात, श्रीमती लेहमान। यहाँ आपके आज के टेबलेट हैं।",
+                        "ur": "شب بخیر، محترمہ لیمن۔ یہاں آپ کی آج کی گولیاں ہیں۔",
+                        "tr": "Günaydın, Bayan Lehmann. İşte bugünkü tabletleriniz."
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Danke, Schwester Ingrid. Was ist das für eine Tablette?",
+                    "translation": {
+                        "en": "Thank you, Nurse Ingrid. What kind of tablet is this?",
+                        "bn": "ধন্যবাদ, নার্স ইন্গ্রিড। এটা কি ধরনের ট্যাবলেট?",
+                        "hi": "धन्यवाद, नर्स इंग्रिड। यह किस प्रकार की गोली है?",
+                        "ur": "شکریہ، نرس انگریڈ۔ یہ کس قسم کی گولی ہے؟",
+                        "tr": "Teşekkürler, Hemşire Ingrid. Bu ne tür bir tablet?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Ingrid",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Das ist ein Schmerzmittel und ein Medikament für den Blutdruck.",
+                    "translation": {
+                        "en": "That's a painkiller and a medication for your blood pressure.",
+                        "bn": "এটি একটি ব্যথানাশক এবং আপনার রক্তচাপের জন্য একটি ওষুধ।",
+                        "hi": "यह एक दर्द निवारक और आपके रक्तचाप के लिए एक दवा है।",
+                        "ur": "یہ ایک درد کم کرنے والی دوا اور آپ کے بلڈ پریشر کے لیے ایک دوا ہے۔",
+                        "tr": "Bu bir ağrı kesici ve kan basıncınız için bir ilaç."
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Okay, danke. Ich nehme sie gleich.",
+                    "translation": {
+                        "en": "Okay, thank you. I'll take them right away.",
+                        "bn": "ঠিক আছে, ধন্যবাদ। আমি এখনই নিচ্ছি।",
+                        "hi": "ठीक है, धन्यवाद। मैं उन्हें अभी लेता हूँ।",
+                        "ur": "ٹھیک ہے، شکریہ۔ میں انہیں ابھی لیتا ہوں۔",
+                        "tr": "Tamam, teşekkürler. Hemen alacağım."
+                    }
+                },
+                {
+                    "speaker": "Schwester Ingrid",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Bitte. Wenn Sie etwas brauchen, klingeln Sie einfach.",
+                    "translation": {
+                        "en": "You're welcome. If you need anything, just ring the bell.",
+                        "bn": "আপনাকে স্বাগতম। আপনার কিছু লাগলে, শুধু ঘণ্টা বাজান।",
+                        "hi": "आपका स्वागत है। अगर आपको कुछ चाहिए, तो बस घंटी बजाएं।",
+                        "ur": "آپ کا استقبال ہے۔ اگر آپ کو کچھ چاہیے تو بس گھنٹی بجائیں۔",
+                        "tr": "Rica ederim. Bir şeye ihtiyacınız olursa, zili çalmanız yeterli."
+                    }
+                }
+            ],
+            "id": "d04_04"
+        },
+        {
+            "title": {
+                "en": "Radiology - X-ray Examination",
+                "bn": "রেডিওলজি - এক্স-রে পরীক্ষা",
+                "hi": "रेडियोलॉजी - एक्स-रे परीक्षा",
+                "ur": "ریڈیولوجی - ایکس رے امتحان",
+                "tr": "Radyoloji - Röntgen Muayenesi"
+            },
+            "context": {
+                "en": "A patient is undergoing an X-ray examination in the radiology department.",
+                "bn": "একজন রোগী রেডিওলজি বিভাগে এক্স-রে পরীক্ষা করাচ্ছেন।",
+                "hi": "एक मरीज रेडियोलॉजी विभाग में एक्स-रे परीक्षा करवा रहा है।",
+                "ur": "ایک مریض ریڈیولوجی ڈیپارٹمنٹ میں ایکس رے امتحان کروا رہا ہے۔",
+                "tr": "Bir hasta radyoloji bölümünde röntgen muayenesi geçiriyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Radiologieassistentin Julia",
+                    "speakerRole": "Radiologieassistentin",
+                    "germanText": "Guten Tag. Bitte stellen Sie sich hier vor die Wand.",
+                    "translation": {
+                        "en": "Good day. Please stand here in front of the wall.",
+                        "bn": "শুভ দিন। অনুগ্রহ করে এখানে দেয়ালের সামনে দাঁড়ান।",
+                        "hi": "शुभ दिन। कृपया यहाँ दीवार के सामने खड़े हो जाइए।",
+                        "ur": "شب بخیر۔ براہ کرم یہاں دیوار کے سامنے کھڑے ہو جائیں۔",
+                        "tr": "İyi günler. Lütfen burada duvarın önünde durun."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Okay, so?",
+                    "translation": {
+                        "en": "Okay, like this?",
+                        "bn": "ঠিক আছে, এভাবে?",
+                        "hi": "ठीक है, ऐसे?",
+                        "ur": "ٹھیک ہے، اس طرح؟",
+                        "tr": "Tamam, böyle mi?"
+                    }
+                },
+                {
+                    "speaker": "Radiologieassistentin Julia",
+                    "speakerRole": "Radiologieassistentin",
+                    "germanText": "Ja, genau. Bitte tief einatmen und die Luft anhalten.",
+                    "translation": {
+                        "en": "Yes, exactly. Please take a deep breath and hold your breath.",
+                        "bn": "হ্যাঁ, ঠিক। অনুগ্রহ করে গভীর শ্বাস নিন এবং শ্বাস ধরে রাখুন।",
+                        "hi": "हाँ, बिलकुल। कृपया गहरी सांस लें और अपनी सांस रोकें।",
+                        "ur": "ہاں، بالکل۔ براہ کرم گہری سانس لیں اور اپنی سانس روکیں۔",
+                        "tr": "Evet, aynen. Lütfen derin bir nefes alın ve nefesinizi tutun."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Okay.",
+                    "translation": {
+                        "en": "Okay.",
+                        "bn": "ঠিক আছে।",
+                        "hi": "ठीक है।",
+                        "ur": "ٹھیک ہے۔",
+                        "tr": "Tamam."
+                    }
+                },
+                {
+                    "speaker": "Radiologieassistentin Julia",
+                    "speakerRole": "Radiologieassistentin",
+                    "germanText": "Sie können wieder ausatmen. Fertig.",
+                    "translation": {
+                        "en": "You can exhale now. Done.",
+                        "bn": "আপনি এখন শ্বাস ছাড়তে পারেন। শেষ।",
+                        "hi": "अब आप सांस छोड़ सकते हैं। हो गया।",
+                        "ur": "اب آپ سانس چھوڑ سکتے ہیں۔ ہو گیا۔",
+                        "tr": "Artık nefes verebilirsiniz. Bitti."
+                    }
+                }
+            ],
+            "id": "d04_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "In welcher Abteilung werden Patienten im kritischen Zustand kontinuierlich überwacht und behandelt?",
+                "en": "In which department are critically ill patients continuously monitored and treated?",
+                "bn": "গুরুতর অসুস্থ রোগীদের কোন বিভাগে ক্রমাগত পর্যবেক্ষণ এবং চিকিৎসা করা হয়?",
+                "hi": "गंभीर रूप से बीमार मरीजों को किस विभाग में लगातार निगरानी और इलाज किया जाता है?",
+                "ur": "سنگین طور پر بیمار مریضوں کی کس محکمہ میں مسلسل نگرانی اور علاج کیا جاتا ہے؟",
+                "tr": "Kritik durumdaki hastalar hangi bölümde sürekli olarak izlenir ve tedavi edilir?"
+            },
+            "options": [
+                "Notaufnahme",
+                "Intensivstation",
+                "OP-Saal",
+                "Station"
+            ],
+            "correctAnswer": "Intensivstation",
+            "explanation": {
+                "en": "The intensive care unit (Intensivstation) is specifically designed for critically ill patients needing constant monitoring and treatment.",
+                "bn": "ইনটেনসিভ কেয়ার ইউনিট (Intensivstation) বিশেষভাবে ডিজাইন করা হয়েছে গুরুতর অসুস্থ রোগীদের জন্য যাদের ক্রমাগত পর্যবেক্ষণ এবং চিকিৎসার প্রয়োজন।",
+                "hi": "गहन देखभाल इकाई (Intensivstation) विशेष रूप से गंभीर रूप से बीमार रोगियों के लिए डिज़ाइन की गई है जिन्हें लगातार निगरानी और उपचार की आवश्यकता होती है।",
+                "ur": "شدید نگہداشت یونٹ (Intensivstation) خاص طور پر سنگین طور پر بیمار مریضوں کے لیے ڈیزائن کیا گیا ہے جنہیں مسلسل نگرانی اور علاج کی ضرورت ہوتی ہے۔",
+                "tr": "Yoğun bakım ünitesi (Intensivstation), sürekli izleme ve tedaviye ihtiyaç duyan kritik durumdaki hastalar için özel olarak tasarlanmıştır."
+            },
+            "points": 10,
+            "id": "e04_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Abteilung ist die erste Anlaufstelle für Notfälle?",
+                "en": "Which department is the first point of contact for emergencies?",
+                "bn": "জরুরী অবস্থার জন্য প্রথম যোগাযোগের স্থান কোনটি?",
+                "hi": "आपातकाल के लिए पहला संपर्क बिंदु कौन सा विभाग है?",
+                "ur": "ایمرجنسی کے لیے پہلا رابطہ نقطہ کون سا محکمہ ہے؟",
+                "tr": "Acil durumlar için ilk temas noktası hangi bölümdür?"
+            },
+            "options": [
+                "Radiologie",
+                "Notaufnahme",
+                "Ambulanz",
+                "Labor"
+            ],
+            "correctAnswer": "Notaufnahme",
+            "explanation": {
+                "en": "The emergency room (Notaufnahme) is the first place patients go to when they have an emergency.",
+                "bn": "জরুরী বিভাগ (Notaufnahme) হল প্রথম স্থান যেখানে রোগীরা জরুরি অবস্থার সম্মুখীন হলে যায়।",
+                "hi": "आपातकालीन कक्ष (Notaufnahme) पहली जगह है जहां मरीज आपातकालीन स्थिति में जाते हैं।",
+                "ur": "ایمرجنسی روم (Notaufnahme) وہ پہلی جگہ ہے جہاں مریض ایمرجنسی کی صورت میں جاتے ہیں۔",
+                "tr": "Acil servis (Notaufnahme), hastaların acil bir durumla karşılaştıklarında gittikleri ilk yerdir."
+            },
+            "points": 10,
+            "id": "e04_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wo werden chirurgische Eingriffe durchgeführt?",
+                "en": "Where are surgical procedures performed?",
+                "bn": "কোথায় সার্জিক্যাল পদ্ধতিগুলি সম্পাদন করা হয়?",
+                "hi": "शल्य चिकित्सा प्रक्रियाएँ कहाँ की जाती हैं?",
+                "ur": "جراحی کے طریقہ کار کہاں انجام دیے جاتے ہیں؟",
+                "tr": "Cerrahi işlemler nerede yapılır?"
+            },
+            "options": [
+                "Station",
+                "OP-Saal",
+                "Labor",
+                "Radiologie"
+            ],
+            "correctAnswer": "OP-Saal",
+            "explanation": {
+                "en": "Surgical procedures are performed in the operating room (OP-Saal).",
+                "bn": "সার্জিক্যাল পদ্ধতিগুলি অপারেটিং রুমে (OP-Saal) সম্পাদন করা হয়।",
+                "hi": "शल्य चिकित्सा प्रक्रियाएँ ऑपरेटिंग रूम (OP-Saal) में की जाती हैं।",
+                "ur": "جراحی کے طریقہ کار آپریٹنگ روم (OP-Saal) میں انجام دیے جاتے ہیں۔",
+                "tr": "Cerrahi işlemler ameliyathanede (OP-Saal) yapılır."
+            },
+            "points": 10,
+            "id": "e04_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "In welcher Abteilung werden Blutproben analysiert?",
+                "en": "In which department are blood samples analyzed?",
+                "bn": "কোন বিভাগে রক্তের নমুনা বিশ্লেষণ করা হয়?",
+                "hi": "किस विभाग में रक्त के नमूने का विश्लेषण किया जाता है?",
+                "ur": "خون کے نمونے کس محکمہ میں تجزیہ کیے جاتے ہیں؟",
+                "tr": "Kan örnekleri hangi bölümde analiz edilir?"
+            },
+            "options": [
+                "Pathologie",
+                "Labor",
+                "Radiologie",
+                "Ambulanz"
+            ],
+            "correctAnswer": "Labor",
+            "explanation": {
+                "en": "Blood samples are analyzed in the laboratory (Labor).",
+                "bn": "রক্তের নমুনা পরীক্ষাগারে (Labor) বিশ্লেষণ করা হয়।",
+                "hi": "रक्त के नमूने प्रयोगशाला (Labor) में विश्लेषण किए जाते हैं।",
+                "ur": "خون کے نمونے لیبارٹری (Labor) میں تجزیہ کیے جاتے ہیں۔",
+                "tr": "Kan örnekleri laboratuvarda (Labor) analiz edilir."
+            },
+            "points": 10,
+            "id": "e04_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Abteilung ist für die Untersuchung von Gewebeproben zuständig?",
+                "en": "Which department is responsible for examining tissue samples?",
+                "bn": "কোন বিভাগ টিস্যু নমুনার পরীক্ষার জন্য দায়ী?",
+                "hi": "ऊतक के नमूनों की जांच के लिए कौन सा विभाग जिम्मेदार है?",
+                "ur": "ٹشو نمونوں کی جانچ کے لیے کون سا محکمہ ذمہ دار ہے؟",
+                "tr": "Hangi bölüm doku örneklerini incelemekten sorumludur?"
+            },
+            "options": [
+                "Labor",
+                "Pathologie",
+                "Radiologie",
+                "Station"
+            ],
+            "correctAnswer": "Pathologie",
+            "explanation": {
+                "en": "The pathology department (Pathologie) examines tissue samples.",
+                "bn": "প্যাথলজি বিভাগ (Pathologie) টিস্যু নমুনা পরীক্ষা করে।",
+                "hi": "पैथोलॉजी विभाग (Pathologie) ऊतक के नमूने की जांच करता है।",
+                "ur": "پیتھالوجی ڈیپارٹمنٹ (Pathologie) ٹشو نمونے کی جانچ کرتا ہے۔",
+                "tr": "Patoloji bölümü (Pathologie) doku örneklerini inceler."
+            },
+            "points": 10,
+            "id": "e04_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Abteilung führt Röntgenaufnahmen durch?",
+                "en": "Which department performs X-rays?",
+                "bn": "কোন বিভাগ এক্স-রে করে?",
+                "hi": "कौन सा विभाग एक्स-रे करता है?",
+                "ur": "کون سا محکمہ ایکس رے کرتا ہے؟",
+                "tr": "Hangi bölüm röntgen çeker?"
+            },
+            "options": [
+                "Labor",
+                "Ambulanz",
+                "Radiologie",
+                "Pathologie"
+            ],
+            "correctAnswer": "Radiologie",
+            "explanation": {
+                "en": "The radiology department (Radiologie) performs X-rays.",
+                "bn": "রেডিওলজি বিভাগ (Radiologie) এক্স-রে করে।",
+                "hi": "रेडियोलॉजी विभाग (Radiologie) एक्स-रे करता है।",
+                "ur": "ریڈیولاجی ڈیپارٹمنٹ (Radiologie) ایکس رے کرتا ہے۔",
+                "tr": "Radyoloji bölümü (Radiologie) röntgen çeker."
+            },
+            "points": 10,
+            "id": "e04_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wo werden Patienten in der Regel nach einer Operation untergebracht?",
+                "en": "Where are patients usually accommodated after an operation?",
+                "bn": "অপারেশনের পরে রোগীদের সাধারণত কোথায় রাখা হয়?",
+                "hi": "ऑपरेशन के बाद मरीजों को आमतौर पर कहां रखा जाता है?",
+                "ur": "آپریشن کے بعد مریضوں کو عام طور پر کہاں رکھا جاتا ہے؟",
+                "tr": "Hastalar ameliyattan sonra genellikle nereye yerleştirilir?"
+            },
+            "options": [
+                "Notaufnahme",
+                "Ambulanz",
+                "Station",
+                "Labor"
+            ],
+            "correctAnswer": "Station",
+            "explanation": {
+                "en": "Patients are usually accommodated on the ward (Station) after an operation.",
+                "bn": "অপারেশনের পরে রোগীদের সাধারণত ওয়ার্ডে (Station) রাখা হয়।",
+                "hi": "ऑपरेशन के बाद मरीजों को आमतौर पर वार्ड (Station) में रखा जाता है।",
+                "ur": "آپریشن کے بعد مریضوں کو عام طور پر وارڈ (Station) میں رکھا جاتا ہے۔",
+                "tr": "Hastalar ameliyattan sonra genellikle servise (Station) yerleştirilir."
+            },
+            "points": 10,
+            "id": "e04_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Abteilung versorgt Patienten, die nicht stationär aufgenommen werden müssen?",
+                "en": "Which department treats patients who do not need to be admitted as inpatients?",
+                "bn": "কোন বিভাগ রোগীদের চিকিৎসা করে যাদেরকে ইনপেশেন্ট হিসেবে ভর্তি করার প্রয়োজন হয় না?",
+                "hi": "कौन सा विभाग उन रोगियों का इलाज करता है जिन्हें इनपेशेंट के रूप में भर्ती करने की आवश्यकता नहीं होती है?",
+                "ur": "کون سا محکمہ ان مریضوں کا علاج کرتا ہے جنہیں داخل مریضوں کے طور پر داخل کرنے کی ضرورت نہیں ہوتی ہے؟",
+                "tr": "Hangi bölüm yatarak tedaviye ihtiyaç duymayan hastalara bakar?"
+            },
+            "options": [
+                "Intensivstation",
+                "Ambulanz",
+                "Pathologie",
+                "OP-Saal"
+            ],
+            "correctAnswer": "Ambulanz",
+            "explanation": {
+                "en": "The outpatient clinic (Ambulanz) treats patients who do not need to be admitted.",
+                "bn": "বহির্বিভাগ (Ambulanz) রোগীদের চিকিৎসা করে যাদের ভর্তি হওয়ার প্রয়োজন হয় না।",
+                "hi": "बाह्य रोगी विभाग (Ambulanz) उन रोगियों का इलाज करता है जिन्हें भर्ती होने की आवश्यकता नहीं होती है।",
+                "ur": "آؤٹ پیشنٹ کلینک (Ambulanz) ان مریضوں کا علاج کرتا ہے جنہیں داخل کرنے کی ضرورت نہیں ہوتی ہے۔",
+                "tr": "Ayakta tedavi kliniği (Ambulanz) yatış gerektirmeyen hastalara bakar."
+            },
+            "points": 10,
+            "id": "e04_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Abteilung ist für den Transport von Patienten zuständig, insbesondere im Notfall?",
+                "en": "Which department is responsible for the transport of patients, especially in emergencies?",
+                "bn": "কোন বিভাগ রোগীদের পরিবহনের জন্য দায়ী, বিশেষ করে জরুরি অবস্থায়?",
+                "hi": "विशेष रूप से आपात स्थिति में, रोगियों के परिवहन के लिए कौन सा विभाग जिम्मेदार है?",
+                "ur": "خاص طور پر ایمرجنسی میں مریضوں کی نقل و حمل کے لیے کون سا محکمہ ذمہ دار ہے؟",
+                "tr": "Özellikle acil durumlarda hastaların naklinden hangi bölüm sorumludur?"
+            },
+            "options": [
+                "Station",
+                "Radiologie",
+                "Pathologie",
+                "Ambulanz"
+            ],
+            "correctAnswer": "Ambulanz",
+            "explanation": {
+                "en": "The ambulance service (Ambulanz) is responsible for transporting patients, especially in emergencies.",
+                "bn": "অ্যাম্বুলেন্স পরিষেবা (Ambulanz) রোগীদের পরিবহনের জন্য দায়ী, বিশেষ করে জরুরি অবস্থায়।",
+                "hi": "एम्बुलेंस सेवा (Ambulanz) रोगियों के परिवहन के लिए, विशेष रूप से आपात स्थिति में जिम्मेदार है।",
+                "ur": "ایمبولینس سروس (Ambulanz) خاص طور پر ایمرجنسی میں مریضوں کی نقل و حمل کے لیے ذمہ دار ہے۔",
+                "tr": "Ambulans servisi (Ambulanz) özellikle acil durumlarda hastaların naklinden sorumludur."
+            },
+            "points": 10,
+            "id": "e04_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Abteilung ist für das Durchführen von Obduktionen zuständig?",
+                "en": "Which department is responsible for performing autopsies?",
+                "bn": "কোন বিভাগ অটোপসি করার জন্য দায়ী?",
+                "hi": "कौन सा विभाग ऑटोप्सी करने के लिए जिम्मेदार है?",
+                "ur": "کون سا محکمہ آٹوپسی کرنے کے لیے ذمہ دار ہے؟",
+                "tr": "Hangi bölüm otopsi yapmaktan sorumludur?"
+            },
+            "options": [
+                "Labor",
+                "Ambulanz",
+                "Radiologie",
+                "Pathologie"
+            ],
+            "correctAnswer": "Pathologie",
+            "explanation": {
+                "en": "The pathology department (Pathologie) is responsible for performing autopsies.",
+                "bn": "প্যাথলজি বিভাগ (Pathologie) অটোপসি করার জন্য দায়ী।",
+                "hi": "पैथोलॉजी विभाग (Pathologie) ऑटोप्सी करने के लिए जिम्मेदार है।",
+                "ur": "پیتھالوجی ڈیپارٹمنٹ (Pathologie) آٹوپسی کرنے کے لیے ذمہ دار ہے۔",
+                "tr": "Patoloji bölümü (Pathologie) otopsi yapmaktan sorumludur."
+            },
+            "points": 10,
+            "id": "e04_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die __________ ist die Anlaufstelle für Patienten, die eine schnelle medizinische Versorgung benötigen.",
+                "en": "The __________ is the point of contact for patients who need rapid medical attention.",
+                "bn": "__________ হল সেই স্থান যেখানে রোগীদের দ্রুত চিকিৎসার প্রয়োজন।",
+                "hi": "__________ उन रोगियों के लिए संपर्क का बिंदु है जिन्हें त्वरित चिकित्सा ध्यान देने की आवश्यकता होती है।",
+                "ur": "__________ ان مریضوں کے لیے رابطہ کا نقطہ ہے جنہیں فوری طبی امداد کی ضرورت ہوتی ہے۔",
+                "tr": "__________ hızlı tıbbi müdahaleye ihtiyaç duyan hastalar için temas noktasıdır."
+            },
+            "options": [],
+            "correctAnswer": "Notaufnahme",
+            "explanation": {
+                "en": "The emergency room (Notaufnahme) provides rapid medical attention.",
+                "bn": "জরুরী বিভাগ (Notaufnahme) দ্রুত চিকিৎসার ব্যবস্থা করে।",
+                "hi": "आपातकालीन कक्ष (Notaufnahme) त्वरित चिकित्सा प्रदान करता है।",
+                "ur": "ایمرجنسی روم (Notaufnahme) فوری طبی امداد فراہم کرتا ہے۔",
+                "tr": "Acil servis (Notaufnahme) hızlı tıbbi müdahale sağlar."
+            },
+            "points": 10,
+            "id": "e04_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Auf der __________ werden Patienten nach komplizierten Operationen intensiv überwacht.",
+                "en": "Patients are intensely monitored on the __________ after complicated surgeries.",
+                "bn": "জটিল অপারেশনের পরে রোগীদের __________-এ গভীরভাবে পর্যবেক্ষণ করা হয়।",
+                "hi": "जटिल सर्जरी के बाद __________ पर रोगियों की गहन निगरानी की जाती है।",
+                "ur": "پیچیدہ سرجریوں کے بعد مریضوں کی __________ پر گہری نگرانی کی جاتی ہے۔",
+                "tr": "Hastalar karmaşık ameliyatlardan sonra __________'da yoğun bir şekilde izlenir."
+            },
+            "options": [],
+            "correctAnswer": "Intensivstation",
+            "explanation": {
+                "en": "The intensive care unit (Intensivstation) provides intensive monitoring after surgery.",
+                "bn": "ইনটেনসিভ কেয়ার ইউনিট (Intensivstation) সার্জারির পরে নিবিড় পর্যবেক্ষণ প্রদান করে।",
+                "hi": "गहन देखभाल इकाई (Intensivstation) सर्जरी के बाद गहन निगरानी प्रदान करती है।",
+                "ur": "شدید نگہداشت یونٹ (Intensivstation) سرجری کے بعد گہری نگرانی فراہم کرتی ہے۔",
+                "tr": "Yoğun bakım ünitesi (Intensivstation) ameliyattan sonra yoğun bakım sağlar."
+            },
+            "points": 10,
+            "id": "e04_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Im __________ werden Operationen von speziell ausgebildetem Personal durchgeführt.",
+                "en": "Surgeries are performed in the __________ by specially trained personnel.",
+                "bn": "বিশেষ প্রশিক্ষিত কর্মীদের দ্বারা __________-এ সার্জারি করা হয়।",
+                "hi": "विशेष प्रशिक्षित कर्मियों द्वारा __________ में सर्जरी की जाती है।",
+                "ur": "خاص تربیت یافتہ عملے کے ذریعہ __________ میں سرجری کی جاتی ہے۔",
+                "tr": "Ameliyatlar __________ içinde özel eğitimli personel tarafından gerçekleştirilir."
+            },
+            "options": [],
+            "correctAnswer": "OP-Saal",
+            "explanation": {
+                "en": "The operating room (OP-Saal) is where surgeries are performed.",
+                "bn": "অপারেটিং রুম (OP-Saal) হল সেই জায়গা যেখানে সার্জারি করা হয়।",
+                "hi": "ऑपरेटिंग रूम (OP-Saal) वह जगह है जहाँ सर्जरी की जाती है।",
+                "ur": "آپریٹنگ روم (OP-Saal) وہ جگہ ہے جہاں سرجری کی جاتی ہے۔",
+                "tr": "Ameliyathane (OP-Saal) ameliyatların yapıldığı yerdir."
+            },
+            "points": 10,
+            "id": "e04_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bluttests und andere Untersuchungen werden im __________ durchgeführt.",
+                "en": "Blood tests and other examinations are performed in the __________.",
+                "bn": "রক্ত পরীক্ষা এবং অন্যান্য পরীক্ষা __________-এ করা হয়।",
+                "hi": "रक्त परीक्षण और अन्य परीक्षाएं __________ में की जाती हैं।",
+                "ur": "خون کے ٹیسٹ اور دیگر امتحانات __________ میں کیے جاتے ہیں۔",
+                "tr": "Kan testleri ve diğer muayeneler __________ içinde yapılır."
+            },
+            "options": [],
+            "correctAnswer": "Labor",
+            "explanation": {
+                "en": "The laboratory (Labor) is where blood tests are conducted.",
+                "bn": "পরীক্ষাগারে (Labor) রক্তের পরীক্ষা করা হয়।",
+                "hi": "प्रयोगशाला (Labor) में रक्त परीक्षण किया जाता है।",
+                "ur": "لیبارٹری (Labor) میں خون کے ٹیسٹ کیے جاتے ہیں۔",
+                "tr": "Laboratuvarda (Labor) kan testleri yapılır."
+            },
+            "points": 10,
+            "id": "e04_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die __________ ist für die bildgebende Diagnostik zuständig.",
+                "en": "The __________ is responsible for diagnostic imaging.",
+                "bn": "__________ ডায়াগনস্টিক ইমেজিংয়ের জন্য দায়ী।",
+                "hi": "__________ नैदानिक इमेजिंग के लिए जिम्मेदार है।",
+                "ur": "__________ تشخیصی امیجنگ کے لیے ذمہ دار ہے۔",
+                "tr": "__________ bölümü tanısal görüntülemeden sorumludur."
+            },
+            "options": [],
+            "correctAnswer": "Radiologie",
+            "explanation": {
+                "en": "Radiology (Radiologie) handles diagnostic imaging.",
+                "bn": "রেডিওলজি (Radiologie) ডায়াগনস্টিক ইমেজিং পরিচালনা করে।",
+                "hi": "रेडियोलॉजी (Radiologie) नैदानिक इमेजिंग को संभालती है।",
+                "ur": "ریڈیولاجی (Radiologie) تشخیصی امیجنگ کو سنبھالتی ہے۔",
+                "tr": "Radyoloji (Radiologie) tanısal görüntülemeyi ele alır."
+            },
+            "points": 10,
+            "id": "e04_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Übersetzen Sie: 'The patient was taken to the emergency room.'",
+                "en": "Translate: 'The patient was taken to the emergency room.'",
+                "bn": "অনুবাদ করুন: 'The patient was taken to the emergency room.'",
+                "hi": "अनुवाद करें: 'The patient was taken to the emergency room.'",
+                "ur": "ترجمہ کریں: 'The patient was taken to the emergency room.'",
+                "tr": "'The patient was taken to the emergency room.' ifadesini çevirin."
+            },
+            "options": [],
+            "correctAnswer": "Der Patient wurde in die Notaufnahme gebracht.",
+            "explanation": {
+                "en": "This is the direct translation of the sentence.",
+                "bn": "এটি বাক্যের সরাসরি অনুবাদ।",
+                "hi": "यह वाक्य का सीधा अनुवाद है।",
+                "ur": "یہ جملے کا براہ راست ترجمہ ہے۔",
+                "tr": "Bu, cümlenin doğrudan çevirisidir."
+            },
+            "points": 10,
+            "id": "e04_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Übersetzen Sie: 'The tissue sample was sent to pathology.'",
+                "en": "Translate: 'The tissue sample was sent to pathology.'",
+                "bn": "অনুবাদ করুন: 'The tissue sample was sent to pathology.'",
+                "hi": "अनुवाद करें: 'The tissue sample was sent to pathology.'",
+                "ur": "ترجمہ کریں: 'The tissue sample was sent to pathology.'",
+                "tr": "'The tissue sample was sent to pathology.' ifadesini çevirin."
+            },
+            "options": [],
+            "correctAnswer": "Die Gewebeprobe wurde zur Pathologie geschickt.",
+            "explanation": {
+                "en": "This is the direct translation of the sentence.",
+                "bn": "এটি বাক্যের সরাসরি অনুবাদ।",
+                "hi": "यह वाक्य का सीधा अनुवाद है।",
+                "ur": "یہ جملے کا براہ راست ترجمہ ہے۔",
+                "tr": "Bu, cümlenin doğrudan çevirisidir."
+            },
+            "points": 10,
+            "id": "e04_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Übersetzen Sie: 'He is admitted to the intensive care unit.'",
+                "en": "Translate: 'He is admitted to the intensive care unit.'",
+                "bn": "অনুবাদ করুন: 'He is admitted to the intensive care unit.'",
+                "hi": "अनुवाद करें: 'He is admitted to the intensive care unit.'",
+                "ur": "ترجمہ کریں: 'He is admitted to the intensive care unit.'",
+                "tr": "'He is admitted to the intensive care unit.' ifadesini çevirin."
+            },
+            "options": [],
+            "correctAnswer": "Er ist auf der Intensivstation aufgenommen.",
+            "explanation": {
+                "en": "This is the direct translation of the sentence.",
+                "bn": "এটি বাক্যের সরাসরি অনুবাদ।",
+                "hi": "यह वाक्य का सीधा अनुवाद है।",
+                "ur": "یہ جملے کا براہ راست ترجمہ ہے۔",
+                "tr": "Bu, cümlenin doğrudan çevirisidir."
+            },
+            "points": 10,
+            "id": "e04_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

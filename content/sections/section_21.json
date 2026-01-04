@@ -1,14 +1,1631 @@
-{"id":"section_21","phaseId":"phase2","order":21,"titleDe":"Herz-Kreislauf-System","title":{"en":"Cardiovascular System","bn":"কার্ডিওভাসকুলার সিস্টেম","hi":"हृदय प्रणाली","ur":"قلبی نظام","tr":"Kardiyovasküler Sistem"},"level":"B2","estimatedMinutes":40,"vocabulary":[
-{"id":"v21_01","germanTerm":"Herzinsuffizienz","article":"die","plural":"Herzinsuffizienzen","translation":{"en":"Heart Failure","bn":"হার্ট ফেইলিউর","hi":"हार्ट फेल्योर","ur":"دل کی ناکامی","tr":"Kalp yetmezliği"}},
-{"id":"v21_02","germanTerm":"Myokardinfarkt","article":"der","plural":"Myokardinfarkte","translation":{"en":"Heart Attack","bn":"হার্ট অ্যাটাক","hi":"हार्ट अटैक","ur":"دل کا دورہ","tr":"Kalp krizi"}},
-{"id":"v21_03","germanTerm":"Hypertonie","article":"die","plural":"Hypertonien","translation":{"en":"Hypertension","bn":"উচ্চ রক্তচাপ","hi":"उच्च रक्तचाप","ur":"ہائی بلڈ پریشر","tr":"Hipertansiyon"}},
-{"id":"v21_04","germanTerm":"Arrhythmie","article":"die","plural":"Arrhythmien","translation":{"en":"Arrhythmia","bn":"অ্যারিদমিয়া","hi":"अतालता","ur":"دل کی دھڑکن کی بے قاعدگی","tr":"Aritmi"}},
-{"id":"v21_05","germanTerm":"EKG","article":"das","plural":"EKGs","translation":{"en":"ECG/EKG","bn":"ইসিজি","hi":"ईसीजी","ur":"ای سی جی","tr":"EKG"}},
-{"id":"v21_06","germanTerm":"Angina pectoris","article":"die","plural":"-","translation":{"en":"Angina","bn":"এনজাইনা","hi":"एनजाइना","ur":"انجائنا","tr":"Anjin"}},
-{"id":"v21_07","germanTerm":"Koronararterien","article":"die","plural":"-","translation":{"en":"Coronary Arteries","bn":"করোনারি ধমনী","hi":"कोरोनरी धमनियां","ur":"کورونری شریانیں","tr":"Koroner arterler"}},
-{"id":"v21_08","germanTerm":"Stent","article":"der","plural":"Stents","translation":{"en":"Stent","bn":"স্টেন্ট","hi":"स्टेंट","ur":"سٹینٹ","tr":"Stent"}}
-],"dialogues":[{"id":"d21_01","title":{"en":"Cardiac Emergency"},"lines":[
-{"speaker":"Arzt","germanText":"Der Patient hat starke Brustschmerzen und Atemnot.","translation":{"en":"The patient has severe chest pain and shortness of breath."}},
-{"speaker":"Schwester","germanText":"EKG zeigt ST-Hebungen.","translation":{"en":"ECG shows ST elevations."}},
-{"speaker":"Arzt","germanText":"Verdacht auf Myokardinfarkt. Sofort Kardiologie rufen!","translation":{"en":"Suspected heart attack. Call cardiology immediately!"}}
-]}],"exercises":[{"id":"e21_01","type":"multipleChoice","question":{"en":"What is 'Myokardinfarkt'?"},"options":["Heart Attack","Stroke","Hypertension"],"correctAnswer":"Heart Attack","points":10}]}
+{
+    "id": "section_21",
+    "phaseId": "phase2",
+    "order": 21,
+    "titleDe": "Herz-Kreislauf-System",
+    "title": {
+        "en": "Cardiovascular System: Heart Failure, Myocardial Infarction, Hypertension, Arrhythmia, ECG, Cardiac Catheterization",
+        "de": "Kardiovaskulär: Herzinsuffizienz, Myokardinfarkt, Hypertonie, Arrhythmie, EKG, Herzkatheter",
+        "bn": "হৃদরোগ সংক্রান্ত: হার্ট ফেইলিউর, মায়োকার্ডিয়াল ইনফার্কশন, উচ্চ রক্তচাপ, অনিয়মিত হৃদস্পন্দন, ইসিজি, কার্ডিয়াক ক্যাথেটারাইজেশন",
+        "hi": "हृदय संबंधी: हृदय विफलता, मायोकार्डियल इन्फ्रक्शन, उच्च रक्तचाप, अतालता, ईसीजी, कार्डियक कैथीटेराइजेशन",
+        "ur": "قلبی نظام: دل کی ناکامی، مایوکارڈیل انفکشن، ہائی بلڈ پریشر، اریتھمیا، ای سی جی، کارڈیک کیتھیٹرائزیشن",
+        "tr": "Kardiyovasküler Sistem: Kalp Yetmezliği, Miyokard Enfarktüsü, Hipertansiyon, Aritmi, EKG, Kardiyak Kateterizasyon"
+    },
+    "description": {
+        "en": "This section covers key cardiovascular conditions, diagnostic tools, and interventional procedures commonly encountered in German medical practice.",
+        "de": "Dieser Abschnitt behandelt wichtige kardiovaskuläre Erkrankungen, diagnostische Werkzeuge und interventionelle Verfahren, die häufig in der deutschen medizinischen Praxis vorkommen.",
+        "bn": "এই বিভাগে জার্মান চিকিৎসা পদ্ধতিতে সাধারণত সম্মুখীন হওয়া প্রধান কার্ডিওভাসকুলার কন্ডিশন, ডায়াগনস্টিক সরঞ্জাম এবং ইন্টারভেনশনাল পদ্ধতিগুলি অন্তর্ভুক্ত করা হয়েছে।",
+        "hi": "इस खंड में प्रमुख हृदय स्थितियों, नैदानिक उपकरणों और हस्तक्षेप प्रक्रियाओं को शामिल किया गया है जो आमतौर पर जर्मन चिकित्सा पद्धति में सामना किए जाते हैं।",
+        "ur": "اس حصے میں اہم قلبی حالات، تشخیصی آلات اور مداخلت کے طریقہ کار شامل ہیں جن کا جرمن طبی مشق میں عام طور پر سامنا ہوتا ہے۔",
+        "tr": "Bu bölüm, Alman tıbbi uygulamasında sıkça karşılaşılan temel kardiyovasküler durumları, tanı araçlarını ve girişimsel prosedürleri kapsar."
+    },
+    "level": "B2",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, we will explore common cardiovascular diseases and related procedures. You will learn the terminology and grammar necessary to discuss these topics with medical professionals in Germany.",
+            "de": "In diesem Abschnitt werden wir häufige Herz-Kreislauf-Erkrankungen und damit verbundene Verfahren untersuchen. Sie lernen die Terminologie und Grammatik, die notwendig sind, um diese Themen mit medizinischem Fachpersonal in Deutschland zu besprechen.",
+            "bn": "এই বিভাগে, আমরা সাধারণ কার্ডিওভাসকুলার রোগ এবং সম্পর্কিত পদ্ধতিগুলি নিয়ে আলোচনা করব। জার্মানিতে চিকিৎসা পেশাদারদের সাথে এই বিষয়গুলি নিয়ে আলোচনার জন্য প্রয়োজনীয় পরিভাষা এবং ব্যাকরণ শিখবেন।",
+            "hi": "इस खंड में, हम सामान्य हृदय रोगों और संबंधित प्रक्रियाओं का पता लगाएंगे। जर्मनी में चिकित्सा पेशेवरों के साथ इन विषयों पर चर्चा करने के लिए आवश्यक शब्दावली और व्याकरण आप सीखेंगे।",
+            "ur": "اس حصے میں، ہم عام قلبی امراض اور متعلقہ طریقہ کار کو دریافت کریں گے۔ آپ جرمنی میں طبی پیشہ ور افراد کے ساتھ ان موضوعات پر تبادلہ خیال کرنے کے لیے ضروری اصطلاحات اور گرامر سیکھیں گے۔",
+            "tr": "Bu bölümde, yaygın kardiyovasküler hastalıkları ve ilgili prosedürleri inceleyeceğiz. Almanya'daki sağlık profesyonelleriyle bu konuları tartışmak için gerekli terminoloji ve dilbilgisini öğreneceksiniz."
+        },
+        "grammarFocus": {
+            "en": {
+                "1": "Use of genitive case with prepositions like 'wegen' (because of) in the context of causes of heart failure.",
+                "2": "Formation of compound nouns related to cardiovascular conditions (e.g., 'Herzmuskelentzündung' - myocarditis)."
+            },
+            "de": {
+                "1": "Verwendung des Genitivs mit Präpositionen wie 'wegen' (wegen) im Zusammenhang mit den Ursachen der Herzinsuffizienz.",
+                "2": "Bildung von zusammengesetzten Nomen im Zusammenhang mit Herz-Kreislauf-Erkrankungen (z. B. 'Herzmuskelentzündung' - Myokarditis)."
+            },
+            "bn": {
+                "1": "হার্ট ফেইলিউরের কারণের প্রেক্ষাপটে 'wegen'-এর মতো প্রিপোজিশনের সাথে জেনিটিভ কেস এর ব্যবহার।",
+                "2": "কার্ডিওভাসকুলার অবস্থার সাথে সম্পর্কিত যৌগিক বিশেষ্য গঠন (যেমন, 'Herzmuskelentzündung' - মায়োকার্ডাইটিস)।"
+            },
+            "hi": {
+                "1": "हृदय विफलता के कारणों के संदर्भ में 'wegen' जैसे पूर्वसर्गों के साथ जेनिटिव केस का उपयोग।",
+                "2": "हृदय संबंधी स्थितियों से संबंधित यौगिक संज्ञाओं का गठन (जैसे, 'Herzmuskelentzündung' - मायोकार्डिटिस)।"
+            },
+            "ur": {
+                "1": "دل کی ناکامی کی وجوہات کے تناظر میں 'wegen' جیسے سابقوں کے ساتھ جینیاتی حالت کا استعمال۔",
+                "2": "قلبی حالات سے متعلق مرکب اسموں کی تشکیل (مثال کے طور پر، 'Herzmuskelentzündung' - مایوکارڈائٹس)۔"
+            },
+            "tr": {
+                "1": "Kalp yetmezliğinin nedenleri bağlamında 'wegen' gibi edatlarla genitif halinin kullanımı.",
+                "2": "Kardiyovasküler durumlarla ilgili bileşik isimlerin oluşumu (örneğin, 'Herzmuskelentzündung' - miyokardit)."
+            }
+        },
+        "culturalNotes": {
+            "en": "German hospitals often have a hierarchical structure with a 'Chefarzt' (Chief Physician) at the top, responsible for the department.",
+            "de": "Deutsche Krankenhäuser haben oft eine hierarchische Struktur mit einem 'Chefarzt' (Chefarzt) an der Spitze, der für die Abteilung verantwortlich ist.",
+            "bn": "জার্মান হাসপাতালগুলিতে প্রায়শই একটি শ্রেণিবদ্ধ কাঠামো থাকে যেখানে শীর্ষে একজন 'Chefarzt' (প্রধান চিকিৎসক) থাকেন, যিনি বিভাগের জন্য দায়বদ্ধ।",
+            "hi": "जर्मन अस्पतालों में अक्सर एक पदानुक्रमित संरचना होती है जिसमें शीर्ष पर एक 'Chefarzt' (मुख्य चिकित्सक) होता है, जो विभाग के लिए जिम्मेदार होता है।",
+            "ur": "جرمن اسپتالوں میں اکثر ایک درجہ بندی کا ڈھانچہ ہوتا ہے جس میں ایک 'Chefarzt' (چیف فزیشن) سب سے اوپر ہوتا ہے، جو شعبے کا ذمہ دار ہوتا ہے۔",
+            "tr": "Alman hastanelerinde genellikle bölümden sorumlu bir 'Chefarzt' (Başhekim) ile hiyerarşik bir yapı bulunur."
+        },
+        "summary": {
+            "en": "This section provided an overview of common cardiovascular conditions, diagnostic procedures, and relevant terminology in the German medical context.",
+            "de": "Dieser Abschnitt bot einen Überblick über häufige Herz-Kreislauf-Erkrankungen, diagnostische Verfahren und relevante Terminologie im deutschen medizinischen Kontext.",
+            "bn": "এই বিভাগে জার্মান চিকিৎসা প্রেক্ষাপটে সাধারণ কার্ডিওভাসকুলার কন্ডিশন, ডায়াগনস্টিক পদ্ধতি এবং প্রাসঙ্গিক পরিভাষাগুলির একটি সংক্ষিপ্ত বিবরণ প্রদান করা হয়েছে।",
+            "hi": "इस खंड में जर्मन चिकित्सा संदर्भ में सामान्य हृदय संबंधी स्थितियों, नैदानिक प्रक्रियाओं और प्रासंगिक शब्दावली का संक्षिप्त विवरण प्रदान किया गया है।",
+            "ur": "اس حصے میں جرمن طبی تناظر میں عام قلبی حالات، تشخیصی طریقہ کار اور متعلقہ اصطلاحات کا ایک مختصر جائزہ فراہم کیا گیا ہے۔",
+            "tr": "Bu bölüm, Alman tıbbi bağlamında yaygın kardiyovasküler durumlar, tanısal prosedürler ve ilgili terminolojiye genel bir bakış sunmuştur."
+        },
+        "learningObjectives": [
+            "Identify and define common cardiovascular conditions in German.",
+            "Describe the purpose and procedure of an EKG and cardiac catheterization in German.",
+            "Use appropriate German terminology to communicate with medical professionals about cardiovascular health.",
+            "Understand the cultural context of cardiovascular care in German hospitals."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "Herzinsuffizienz",
+            "article": "die",
+            "plural": "Herzinsuffizienzen",
+            "pronunciation": "/ˈhɛʁt͡sɪnzʊfiˌt͡si̯ɛnt͡s/",
+            "category": "noun",
+            "translation": {
+                "en": "heart failure",
+                "bn": "হার্ট ফেইলিওর",
+                "hi": "हार्ट फ़ेलियर",
+                "ur": "دل کا ناکارہ ہونا",
+                "tr": "kalp yetmezliği"
+            },
+            "exampleSentence": "Der Patient wurde mit schwerer Herzinsuffizienz in die Notaufnahme eingeliefert.",
+            "exampleTranslation": {
+                "en": "The patient was admitted to the emergency room with severe heart failure.",
+                "bn": "রোগীকে মারাত্মক হার্ট ফেইলিওর নিয়ে জরুরি বিভাগে ভর্তি করা হয়েছে।",
+                "hi": "मरीज को गंभीर हार्ट फेलियर के साथ आपातकालीन कक्ष में भर्ती कराया गया।",
+                "ur": "مریض کو شدید دل کی ناکامی کے ساتھ ایمرجنسی روم میں داخل کرایا گیا۔",
+                "tr": "Hasta, şiddetli kalp yetmezliği ile acil servise yatırıldı."
+            },
+            "id": "v21_01"
+        },
+        {
+            "germanTerm": "Myokardinfarkt",
+            "article": "der",
+            "plural": "Myokardinfarkte",
+            "pronunciation": "/ˌmyːoˈkaʁtʔɪnfarkt/",
+            "category": "noun",
+            "translation": {
+                "en": "myocardial infarction",
+                "bn": "মায়োকার্ডিয়াল ইনফার্কশন",
+                "hi": "मायोकार्डियल इंफार्क्शन",
+                "ur": "مايوکارڈیل انفارکشن",
+                "tr": "miyokard enfarktüsü"
+            },
+            "exampleSentence": "Die Diagnose lautete Myokardinfarkt, ausgelöst durch einen Verschluss der Koronararterie.",
+            "exampleTranslation": {
+                "en": "The diagnosis was myocardial infarction, caused by an occlusion of the coronary artery.",
+                "bn": "রোগ নির্ণয় ছিল মায়োকার্ডিয়াল ইনফার্কশন, যা করোনারি ধমনীর বাধার কারণে হয়েছিল।",
+                "hi": "कोरोनरी धमनी में रुकावट के कारण निदान मायोकार्डियल इंफार्क्शन था।",
+                "ur": "تشخیص مایوکارڈیل انفارکشن تھا، جو کورونری شریان میں رکاوٹ کی وجہ سے ہوا تھا۔",
+                "tr": "Tanı, koroner arterin tıkanması sonucu oluşan miyokard enfarktüsüydü."
+            },
+            "id": "v21_02"
+        },
+        {
+            "germanTerm": "Hypertonie",
+            "article": "die",
+            "plural": "Hypertonien",
+            "pronunciation": "/hypɛʁtoˈniː/",
+            "category": "noun",
+            "translation": {
+                "en": "hypertension",
+                "bn": "উচ্চ রক্তচাপ",
+                "hi": "उच्च रक्तचाप",
+                "ur": "بلند فشار خون",
+                "tr": "hipertansiyon"
+            },
+            "exampleSentence": "Die Hypertonie des Patienten muss medikamentös behandelt werden.",
+            "exampleTranslation": {
+                "en": "The patient's hypertension must be treated with medication.",
+                "bn": "রোগীর উচ্চ রক্তচাপের ওষুধ দিয়ে চিকিৎসা করতে হবে।",
+                "hi": "मरीज के उच्च रक्तचाप का दवा से इलाज किया जाना चाहिए।",
+                "ur": "مریض کے ہائی بلڈ پریشر کا علاج دوا سے کیا جانا چاہیے۔",
+                "tr": "Hastanın hipertansiyonu ilaçla tedavi edilmelidir."
+            },
+            "id": "v21_03"
+        },
+        {
+            "germanTerm": "Arrhythmie",
+            "article": "die",
+            "plural": "Arrhythmien",
+            "pronunciation": "/aˈʁʏtmi/",
+            "category": "noun",
+            "translation": {
+                "en": "arrhythmia",
+                "bn": "অ্যারিথমিয়া",
+                "hi": "अतालता",
+                "ur": "بے قاعدگی",
+                "tr": "aritmi"
+            },
+            "exampleSentence": "Das EKG zeigte eine deutliche Arrhythmie des Herzens.",
+            "exampleTranslation": {
+                "en": "The ECG showed a clear arrhythmia of the heart.",
+                "bn": "ইসিজি হৃদয়ের একটি স্পষ্ট অ্যারিথমিয়া দেখিয়েছে।",
+                "hi": "ईसीजी ने दिल की एक स्पष्ट अतालता दिखाई।",
+                "ur": "ای سی جی نے دل کی واضح بے قاعدگی دکھائی۔",
+                "tr": "EKG, kalbin belirgin bir aritmisini gösterdi."
+            },
+            "id": "v21_04"
+        },
+        {
+            "germanTerm": "EKG",
+            "article": "das",
+            "plural": "EKGs",
+            "pronunciation": "/eːkaːˈɡeː/",
+            "category": "noun",
+            "translation": {
+                "en": "ECG/EKG",
+                "bn": "ইসিজি",
+                "hi": "ईसीजी",
+                "ur": "ای سی جی",
+                "tr": "EKG"
+            },
+            "exampleSentence": "Wir müssen ein EKG durchführen, um die Herzfunktion zu überprüfen.",
+            "exampleTranslation": {
+                "en": "We need to perform an ECG to check the heart function.",
+                "bn": "হৃদরোগের কার্যকারিতা পরীক্ষা করার জন্য আমাদের একটি ইসিজি করা দরকার।",
+                "hi": "हमें हृदय के कार्य की जाँच करने के लिए एक ईसीजी करने की आवश्यकता है।",
+                "ur": "ہمیں دل کے فعل کی جانچ کے لیے ایک ای سی جی کرنے کی ضرورت ہے۔",
+                "tr": "Kalp fonksiyonunu kontrol etmek için bir EKG çekmemiz gerekiyor."
+            },
+            "id": "v21_05"
+        },
+        {
+            "germanTerm": "Herzkatheter",
+            "article": "der",
+            "plural": "Herzkatheter",
+            "pronunciation": "/ˈhɛʁt͡skaˌteːtɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "cardiac catheter",
+                "bn": "কার্ডিয়াক ক্যাথেটার",
+                "hi": "कार्डियक कैथेटर",
+                "ur": "قلبی کیتھیٹر",
+                "tr": "kalp kateteri"
+            },
+            "exampleSentence": "Der Patient erhielt einen Herzkatheter zur Diagnostik der Koronararterien.",
+            "exampleTranslation": {
+                "en": "The patient received a cardiac catheter for diagnosis of the coronary arteries.",
+                "bn": "রোগীকে করোনারি ধমনী নির্ণয়ের জন্য একটি কার্ডিয়াক ক্যাথেটার দেওয়া হয়েছিল।",
+                "hi": "रोगी को कोरोनरी धमनियों के निदान के लिए एक कार्डियक कैथेटर दिया गया था।",
+                "ur": "مریض کو کورونری شریانوں کی تشخیص کے لیے کارڈیک کیتھیٹر دیا گیا تھا۔",
+                "tr": "Hastaya koroner arterlerin teşhisi için bir kalp kateteri uygulandı."
+            },
+            "id": "v21_06"
+        },
+        {
+            "germanTerm": "Vorhofflimmern",
+            "article": "das",
+            "plural": "Vorhofflimmern",
+            "pronunciation": "/ˈfoːɐ̯hɔfˌflɪmɐn/",
+            "category": "noun",
+            "translation": {
+                "en": "atrial fibrillation",
+                "bn": "অ্যাট্রিয়াল ফিব্রিলেশন",
+                "hi": "अलिंद फिब्रिलेशन",
+                "ur": "ایٹریئل فبریلیشن",
+                "tr": "atriyal fibrilasyon"
+            },
+            "exampleSentence": "Vorhofflimmern ist eine häufige Ursache für Schlaganfälle.",
+            "exampleTranslation": {
+                "en": "Atrial fibrillation is a common cause of strokes.",
+                "bn": "অ্যাট্রিয়াল ফিব্রিলেশন স্ট্রোকের একটি সাধারণ কারণ।",
+                "hi": "अलिंद फिब्रिलेशन स्ट्रोक का एक सामान्य कारण है।",
+                "ur": "ایٹریئل فبریلیشن اسٹروک کی ایک عام وجہ ہے۔",
+                "tr": "Atriyal fibrilasyon, inme için yaygın bir nedendir."
+            },
+            "id": "v21_07"
+        },
+        {
+            "germanTerm": "Ventrikuläre Tachykardie",
+            "article": "die",
+            "plural": "Ventrikulären Tachykardien",
+            "pronunciation": "/vɛntʁɪkuˈlɛːʁə taːçykaʁˈdiː/",
+            "category": "noun",
+            "translation": {
+                "en": "ventricular tachycardia",
+                "bn": "ভেন্ট্রিকুলার ট্যাকিকার্ডিয়া",
+                "hi": "वेंट्रिकुलर टैकीकार्डिया",
+                "ur": "وینٹریکولر ٹیکیکارڈیا",
+                "tr": "ventriküler taşikardi"
+            },
+            "exampleSentence": "Die ventrikuläre Tachykardie erforderte eine sofortige Defibrillation.",
+            "exampleTranslation": {
+                "en": "The ventricular tachycardia required immediate defibrillation.",
+                "bn": "ভেন্ট্রিকুলার ট্যাকিকার্ডিয়ার জন্য জরুরি ডিফিব্রিলেশনের প্রয়োজন ছিল।",
+                "hi": "वेंट्रिकुलर टैकीकार्डिया के लिए तत्काल डीफिब्रिलेशन की आवश्यकता थी।",
+                "ur": "وینٹریکولر ٹیکیکارڈیا کو فوری ڈیفبریلیشن کی ضرورت تھی۔",
+                "tr": "Ventriküler taşikardi acil defibrilasyon gerektirdi."
+            },
+            "id": "v21_08"
+        },
+        {
+            "germanTerm": "Koronararterie",
+            "article": "die",
+            "plural": "Koronararterien",
+            "pronunciation": "/koʁoˈnaːɐ̯ʔaʁˌteːʁi̯ə/",
+            "category": "noun",
+            "translation": {
+                "en": "coronary artery",
+                "bn": "করোনারি ধমনী",
+                "hi": "कोरोनरी धमनी",
+                "ur": "کورونری شریان",
+                "tr": "koroner arter"
+            },
+            "exampleSentence": "Eine Verengung der Koronararterie kann zu Angina pectoris führen.",
+            "exampleTranslation": {
+                "en": "A narrowing of the coronary artery can lead to angina pectoris.",
+                "bn": "করোনারি ধমনীর সংকীর্ণতা এনজাইনা পেক্টোরিসের দিকে পরিচালিত করতে পারে।",
+                "hi": "कोरोनरी धमनी का संकुचन एनजाइना पेक्टोरिस को जन्म दे सकता है।",
+                "ur": "کورونری شریان کی تنگی انجائنا پیکٹیرس کا باعث بن سکتی ہے۔",
+                "tr": "Koroner arterin daralması anjina pektorise yol açabilir."
+            },
+            "id": "v21_09"
+        },
+        {
+            "germanTerm": "Herzklappe",
+            "article": "die",
+            "plural": "Herzklappen",
+            "pronunciation": "/ˈhɛʁt͡sˌklapə/",
+            "category": "noun",
+            "translation": {
+                "en": "heart valve",
+                "bn": "হার্ট ভালভ",
+                "hi": "हृदय वाल्व",
+                "ur": "دل کا والو",
+                "tr": "kalp kapağı"
+            },
+            "exampleSentence": "Der Patient benötigt eine neue Herzklappe aufgrund einer schweren Stenose.",
+            "exampleTranslation": {
+                "en": "The patient needs a new heart valve due to severe stenosis.",
+                "bn": "মারাত্মক স্টেনোসিসের কারণে রোগীর একটি নতুন হার্ট ভালভের প্রয়োজন।",
+                "hi": "गंभीर स्टेनोसिस के कारण रोगी को एक नए हृदय वाल्व की आवश्यकता है।",
+                "ur": "سخت سٹیناسس کی وجہ سے مریض کو ایک نئے دل کے والو کی ضرورت ہے۔",
+                "tr": "Hastanın şiddetli stenoz nedeniyle yeni bir kalp kapağına ihtiyacı var."
+            },
+            "id": "v21_10"
+        },
+        {
+            "germanTerm": "Blutdruck",
+            "article": "der",
+            "plural": "Blutdrücke",
+            "pronunciation": "/ˈbluːtˌdʁʊk/",
+            "category": "noun",
+            "translation": {
+                "en": "blood pressure",
+                "bn": "রক্তচাপ",
+                "hi": "रक्तचाप",
+                "ur": "بلڈ پریشر",
+                "tr": "kan basıncı"
+            },
+            "exampleSentence": "Der Blutdruck des Patienten war stark erhöht.",
+            "exampleTranslation": {
+                "en": "The patient's blood pressure was significantly elevated.",
+                "bn": "রোগীর রক্তচাপ মারাত্মকভাবে বেড়ে গিয়েছিল।",
+                "hi": "मरीज का रक्तचाप काफी बढ़ गया था।",
+                "ur": "مریض کا بلڈ پریشر نمایاں طور پر بڑھ گیا تھا۔",
+                "tr": "Hastanın kan basıncı önemli ölçüde yükselmişti."
+            },
+            "id": "v21_11"
+        },
+        {
+            "germanTerm": "Puls",
+            "article": "der",
+            "plural": "Pulse",
+            "pronunciation": "/pʊls/",
+            "category": "noun",
+            "translation": {
+                "en": "pulse",
+                "bn": "পালস",
+                "hi": "नाड़ी",
+                "ur": "نبض",
+                "tr": "nabız"
+            },
+            "exampleSentence": "Der Puls war schnell und unregelmäßig.",
+            "exampleTranslation": {
+                "en": "The pulse was rapid and irregular.",
+                "bn": "পালস দ্রুত এবং অনিয়মিত ছিল।",
+                "hi": "नाड़ी तेज और अनियमित थी।",
+                "ur": "نبض تیز اور بے قاعدہ تھی۔",
+                "tr": "Nabız hızlı ve düzensizdi."
+            },
+            "id": "v21_12"
+        },
+        {
+            "germanTerm": "Angina pectoris",
+            "article": "die",
+            "plural": "Angina pectoris",
+            "pronunciation": "/aŋˈɡiːna pɛkˈtoːʁɪs/",
+            "category": "noun",
+            "translation": {
+                "en": "angina pectoris",
+                "bn": "এঞ্জিনা পেক্টোরিস",
+                "hi": "एनजाइना पेक्टोरिस",
+                "ur": "انجائنا پیکٹیرس",
+                "tr": "anjina pektoris"
+            },
+            "exampleSentence": "Er klagte über Brustschmerzen, typisch für Angina pectoris.",
+            "exampleTranslation": {
+                "en": "He complained of chest pain, typical of angina pectoris.",
+                "bn": "তিনি বুকে ব্যথার অভিযোগ করেছেন, যা এঞ্জিনা পেক্টোরিসের জন্য স্বাভাবিক।",
+                "hi": "उन्होंने सीने में दर्द की शिकायत की, जो एनजाइना पेक्टोरिस के लिए विशिष्ट है।",
+                "ur": "اس نے سینے میں درد کی شکایت کی، جو انجائنا پیکٹیرس کے لیے عام ہے۔",
+                "tr": "Anjina pektoris için tipik olan göğüs ağrısından şikayet etti."
+            },
+            "id": "v21_13"
+        },
+        {
+            "germanTerm": "Stent",
+            "article": "der",
+            "plural": "Stents",
+            "pronunciation": "/stɛnt/",
+            "category": "noun",
+            "translation": {
+                "en": "stent",
+                "bn": "স্টেন্ট",
+                "hi": "स्टेंट",
+                "ur": "سٹینٹ",
+                "tr": "stent"
+            },
+            "exampleSentence": "Ihm wurde ein Stent in die verengte Koronararterie eingesetzt.",
+            "exampleTranslation": {
+                "en": "A stent was placed in his narrowed coronary artery.",
+                "bn": "তার সংকীর্ণ করোনারি ধমনীতে একটি স্টেন্ট স্থাপন করা হয়েছিল।",
+                "hi": "उसकी संकुचित कोरोनरी धमनी में एक स्टेंट लगाया गया था।",
+                "ur": "اس کی تنگ کورونری شریان میں ایک سٹینٹ لگایا گیا تھا۔",
+                "tr": "Daralmış koroner arterine bir stent yerleştirildi."
+            },
+            "id": "v21_14"
+        },
+        {
+            "germanTerm": "Aortenklappe",
+            "article": "die",
+            "plural": "Aortenklappen",
+            "pronunciation": "/aˈɔʁtn̩ˌklapə/",
+            "category": "noun",
+            "translation": {
+                "en": "aortic valve",
+                "bn": "অ্যাওর্টিক ভালভ",
+                "hi": "महाधमनी वाल्व",
+                "ur": "ایورٹک والو",
+                "tr": "aort kapağı"
+            },
+            "exampleSentence": "Die Aortenklappe zeigte eine deutliche Stenose.",
+            "exampleTranslation": {
+                "en": "The aortic valve showed significant stenosis.",
+                "bn": "অ্যাওর্টিক ভালভে একটি উল্লেখযোগ্য স্টেনোসিস দেখা গেছে।",
+                "hi": "महाधमनी वाल्व ने महत्वपूर्ण स्टेनोसिस दिखाया।",
+                "ur": "ایورٹک والو نے اہم سٹیناسس دکھایا۔",
+                "tr": "Aort kapağı önemli stenoz gösterdi."
+            },
+            "id": "v21_15"
+        },
+        {
+            "germanTerm": "Kardiomyopathie",
+            "article": "die",
+            "plural": "Kardiomyopathien",
+            "pronunciation": "/kaʁdi̯omyopaˈtiː/",
+            "category": "noun",
+            "translation": {
+                "en": "cardiomyopathy",
+                "bn": "কার্ডিওমায়োপ্যাথি",
+                "hi": "कार्डियोमायोपैथी",
+                "ur": "کارڈیو مایوپیتھی",
+                "tr": "kardiyomiyopati"
+            },
+            "exampleSentence": "Die Kardiomyopathie führte zu einer deutlichen Herzvergrößerung.",
+            "exampleTranslation": {
+                "en": "The cardiomyopathy led to a significant enlargement of the heart.",
+                "bn": "কার্ডিওমায়োপ্যাথি হৃদরোগের উল্লেখযোগ্য প্রসারণের দিকে পরিচালিত করে।",
+                "hi": "कार्डियोमायोपैथी के कारण हृदय का महत्वपूर्ण विस्तार हुआ।",
+                "ur": "کارڈیو مایوپیتھی دل کے اہم سائز میں اضافہ کا باعث بنی۔",
+                "tr": "Kardiyomiyopati, kalbin önemli ölçüde büyümesine yol açtı."
+            },
+            "id": "v21_16"
+        },
+        {
+            "germanTerm": "Diuretikum",
+            "article": "das",
+            "plural": "Diuretika",
+            "pronunciation": "/di̯uˈʁeːtɪkʊm/",
+            "category": "noun",
+            "translation": {
+                "en": "diuretic",
+                "bn": "ডাইইউরেটিক",
+                "hi": "मूत्रवर्धक",
+                "ur": "مدر البول",
+                "tr": "diüretik"
+            },
+            "exampleSentence": "Er erhielt ein Diuretikum zur Reduktion der Ödeme.",
+            "exampleTranslation": {
+                "en": "He received a diuretic to reduce the edema.",
+                "bn": "তাকে শোথ কমানোর জন্য একটি ডাইইউরেটিক দেওয়া হয়েছিল।",
+                "hi": "उन्हें एडिमा को कम करने के लिए एक मूत्रवर्धक दिया गया था।",
+                "ur": "اسے ورم کو کم کرنے کے لیے ایک مدر البول دیا گیا تھا۔",
+                "tr": "Ödemi azaltmak için bir diüretik aldı."
+            },
+            "id": "v21_17"
+        },
+        {
+            "germanTerm": "Beta-Blocker",
+            "article": "der",
+            "plural": "Beta-Blocker",
+            "pronunciation": "/ˈbeːtaˌblɔkɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "beta-blocker",
+                "bn": "বিটা-ব্লকার",
+                "hi": "बीटा-ब्लॉकर",
+                "ur": "بیٹا بلاکر",
+                "tr": "beta bloker"
+            },
+            "exampleSentence": "Der Beta-Blocker senkte seinen Herzfrequenz deutlich.",
+            "exampleTranslation": {
+                "en": "The beta-blocker significantly lowered his heart rate.",
+                "bn": "বিটা-ব্লকার তার হৃদস্পন্দন উল্লেখযোগ্যভাবে কমিয়ে দিয়েছে।",
+                "hi": "बीटा-ब्लॉकर ने उनकी हृदय गति को काफी कम कर दिया।",
+                "ur": "بیٹا بلاکر نے اس کی دل کی دھڑکن کو نمایاں طور پر کم کر دیا۔",
+                "tr": "Beta bloker, kalp atış hızını önemli ölçüde düşürdü."
+            },
+            "id": "v21_18"
+        },
+        {
+            "germanTerm": "ACE-Hemmer",
+            "article": "der",
+            "plural": "ACE-Hemmer",
+            "pronunciation": "/aːt͡seːˈhɛmɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "ACE inhibitor",
+                "bn": "এসিই ইনহিবিটর",
+                "hi": "एसीई अवरोधक",
+                "ur": "اے سی ای روکنے والا",
+                "tr": "ACE inhibitörü"
+            },
+            "exampleSentence": "ACE-Hemmer werden häufig zur Behandlung von Hypertonie eingesetzt.",
+            "exampleTranslation": {
+                "en": "ACE inhibitors are commonly used to treat hypertension.",
+                "bn": "এসিই ইনহিবিটরগুলি সাধারণত উচ্চ রক্তচাপের চিকিৎসার জন্য ব্যবহৃত হয়।",
+                "hi": "एसीई अवरोधक आमतौर पर उच्च रक्तचाप के इलाज के लिए उपयोग किए जाते हैं।",
+                "ur": "اے سی ای روکنے والے عام طور پر ہائی بلڈ پریشر کے علاج کے لیے استعمال ہوتے ہیں۔",
+                "tr": "ACE inhibitörleri sıklıkla hipertansiyon tedavisinde kullanılır."
+            },
+            "id": "v21_19"
+        },
+        {
+            "germanTerm": "Herzmuskel",
+            "article": "der",
+            "plural": "Herzmuskeln",
+            "pronunciation": "/ˈhɛʁt͡sˌmʊskl̩/",
+            "category": "noun",
+            "translation": {
+                "en": "heart muscle",
+                "bn": "হার্ট মাসল",
+                "hi": "हृदय की मांसपेशी",
+                "ur": "دل کا پٹھا",
+                "tr": "kalp kası"
+            },
+            "exampleSentence": "Der Herzmuskel war durch den Infarkt stark geschädigt.",
+            "exampleTranslation": {
+                "en": "The heart muscle was severely damaged by the infarction.",
+                "bn": "ইনফার্কশনের কারণে হৃদরোগের পেশী মারাত্মকভাবে ক্ষতিগ্রস্থ হয়েছিল।",
+                "hi": "मायोकार्डियल इंफार्क्शन से हृदय की मांसपेशी गंभीर रूप से क्षतिग्रस्त हो गई थी।",
+                "ur": "دل کا پٹھا infarction کی وجہ سے شدید طور پر نقصان پہنچا تھا۔",
+                "tr": "Kalp kası enfarktüs nedeniyle ciddi şekilde hasar görmüştü."
+            },
+            "id": "v21_20"
+        },
+        {
+            "germanTerm": "Herzrhythmusstörung",
+            "article": "die",
+            "plural": "Herzrhythmusstörungen",
+            "pronunciation": "/ˈhɛʁt͡sˌʁʏtmʊsʃtøːʁʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "cardiac arrhythmia",
+                "bn": "কার্ডিয়াক অ্যারিথমিয়া",
+                "hi": "कार्डियक अतालता",
+                "ur": "دل کی بے قاعدگی",
+                "tr": "kardiyak aritmi"
+            },
+            "exampleSentence": "Die Herzrhythmusstörung wurde durch ein EKG diagnostiziert.",
+            "exampleTranslation": {
+                "en": "The cardiac arrhythmia was diagnosed by an ECG.",
+                "bn": "ইসিজি দ্বারা কার্ডিয়াক অ্যারিথমিয়া নির্ণয় করা হয়েছিল।",
+                "hi": "ईसीजी द्वारा कार्डियक अतालता का निदान किया गया था।",
+                "ur": "دل کی بے قاعدگی کی تشخیص ای سی جی سے کی گئی تھی۔",
+                "tr": "Kardiyak aritmi bir EKG ile teşhis edildi."
+            },
+            "id": "v21_21"
+        },
+        {
+            "germanTerm": "Bradykardie",
+            "article": "die",
+            "plural": "Bradykardien",
+            "pronunciation": "/bʁadykaʁˈdiː/",
+            "category": "noun",
+            "translation": {
+                "en": "bradycardia",
+                "bn": "ব্র্যাডিকার্ডিয়া",
+                "hi": "ब्रैडीकार्डिया",
+                "ur": "بریڈی کارڈیا",
+                "tr": "bradikardi"
+            },
+            "exampleSentence": "Die Bradykardie des Patienten erforderte die Implantation eines Herzschrittmachers.",
+            "exampleTranslation": {
+                "en": "The patient's bradycardia required the implantation of a pacemaker.",
+                "bn": "রোগীর ব্র্যাডিকার্ডিয়ার জন্য একটি পেসমেকার প্রতিস্থাপনের প্রয়োজন ছিল।",
+                "hi": "मरीज के ब्रैडीकार्डिया के लिए पेसमेकर लगाने की आवश्यकता थी।",
+                "ur": "مریض کے بریڈی کارڈیا کو پیس میکر لگانے کی ضرورت تھی۔",
+                "tr": "Hastanın bradikardisi bir kalp pilinin takılmasını gerektirdi."
+            },
+            "id": "v21_22"
+        },
+        {
+            "germanTerm": "Tachykardie",
+            "article": "die",
+            "plural": "Tachykardien",
+            "pronunciation": "/taxykaʁˈdiː/",
+            "category": "noun",
+            "translation": {
+                "en": "tachycardia",
+                "bn": "ট্যাকিকার্ডিয়া",
+                "hi": "टैकीकार्डिया",
+                "ur": "ٹیکی کارڈیا",
+                "tr": "taşikardi"
+            },
+            "exampleSentence": "Die Tachykardie wurde durch Stress ausgelöst.",
+            "exampleTranslation": {
+                "en": "The tachycardia was triggered by stress.",
+                "bn": "মানসিক চাপের কারণে ট্যাকিকার্ডিয়া শুরু হয়েছিল।",
+                "hi": "तनाव के कारण टैकीकार्डिया शुरू हो गया।",
+                "ur": "تناؤ کی وجہ سے ٹیکی کارڈیا شروع ہو گیا۔",
+                "tr": "Taşikardi stresten kaynaklandı."
+            },
+            "id": "v21_23"
+        },
+        {
+            "germanTerm": "Defibrillation",
+            "article": "die",
+            "plural": "Defibrillationen",
+            "pronunciation": "/defɪbʁɪlaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "defibrillation",
+                "bn": "ডিফিব্রিলেশন",
+                "hi": "डीफिब्रिलेशन",
+                "ur": "ڈیفبریلیشن",
+                "tr": "defibrilasyon"
+            },
+            "exampleSentence": "Die sofortige Defibrillation rettete das Leben des Patienten.",
+            "exampleTranslation": {
+                "en": "Immediate defibrillation saved the patient's life.",
+                "bn": "অবিলম্বে ডিফিব্রিলেশন রোগীর জীবন বাঁচিয়েছে।",
+                "hi": "तत्काल डीफिब्रिलेशन ने मरीज की जान बचाई।",
+                "ur": "فوری ڈیفبریلیشن نے مریض کی جان بچائی۔",
+                "tr": "Acil defibrilasyon hastanın hayatını kurtardı."
+            },
+            "id": "v21_24"
+        },
+        {
+            "germanTerm": "Herzschrittmacher",
+            "article": "der",
+            "plural": "Herzschrittmacher",
+            "pronunciation": "/ˈhɛʁt͡sˌʃʁɪtˌmaxɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "pacemaker",
+                "bn": "পেসমেকার",
+                "hi": "पेसमेकर",
+                "ur": "پیس میکر",
+                "tr": "kalp pili"
+            },
+            "exampleSentence": "Der Patient lebt seit Jahren gut mit seinem Herzschrittmacher.",
+            "exampleTranslation": {
+                "en": "The patient has been living well with his pacemaker for years.",
+                "bn": "রোগী বহু বছর ধরে তার পেসমেকার নিয়ে ভালোভাবে জীবন যাপন করছেন।",
+                "hi": "रोगी वर्षों से अपने पेसमेकर के साथ अच्छी तरह से जीवन जी रहा है।",
+                "ur": "مریض برسوں سے اپنے پیس میکر کے ساتھ اچھی طرح سے زندگی گزار رہا ہے۔",
+                "tr": "Hasta yıllardır kalp piliyle iyi yaşıyor."
+            },
+            "id": "v21_25"
+        },
+        {
+            "germanTerm": "Herztransplantation",
+            "article": "die",
+            "plural": "Herztransplantationen",
+            "pronunciation": "/ˈhɛʁt͡stʁansplantaˌt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "heart transplant",
+                "bn": "হার্ট ট্রান্সপ্লান্ট",
+                "hi": "हार्ट ट्रांसप्लांट",
+                "ur": "دل کی پیوندکاری",
+                "tr": "kalp nakli"
+            },
+            "exampleSentence": "Nach der Herztransplantation musste er Immunsuppressiva einnehmen.",
+            "exampleTranslation": {
+                "en": "After the heart transplant, he had to take immunosuppressants.",
+                "bn": "হার্ট ট্রান্সপ্লান্টের পরে, তাকে ইমিউনোসাপ্রেসেন্টস গ্রহণ করতে হয়েছিল।",
+                "hi": "हार्ट ट्रांसप्लांट के बाद उन्हें इम्यूनोसप्रेसेन्ट्स लेने पड़े।",
+                "ur": "دل کی پیوندکاری کے بعد، اسے امیونوسپریسنٹس لینا پڑے۔",
+                "tr": "Kalp naklinden sonra immünosupresanlar alması gerekti."
+            },
+            "id": "v21_26"
+        },
+        {
+            "germanTerm": "Herzinsuffizienz Stadium",
+            "article": "das",
+            "plural": "Herzinsuffizienz Stadien",
+            "pronunciation": "/ˈhɛʁt͡sɪnzʊfiˌt͡si̯ɛnt͡s ˈʃtaːdi̯ʊm/",
+            "category": "noun",
+            "translation": {
+                "en": "heart failure stage",
+                "bn": "হার্ট ফেইলিওর স্টেজ",
+                "hi": "हार्ट फेलियर स्टेज",
+                "ur": "دل کے ناکارہ ہونے کا مرحلہ",
+                "tr": "kalp yetmezliği evresi"
+            },
+            "exampleSentence": "Der Patient befindet sich im Stadium III der Herzinsuffizienz.",
+            "exampleTranslation": {
+                "en": "The patient is in stage III of heart failure.",
+                "bn": "রোগী হার্ট ফেইলিওরের তৃতীয় পর্যায়ে রয়েছেন।",
+                "hi": "मरीज हार्ट फेलियर के तीसरे चरण में है।",
+                "ur": "مریض دل کے ناکارہ ہونے کے تیسرے مرحلے میں ہے۔",
+                "tr": "Hasta, kalp yetmezliğinin III. evresindedir."
+            },
+            "id": "v21_27"
+        },
+        {
+            "germanTerm": "Herzfrequenz",
+            "article": "die",
+            "plural": "Herzfrequenzen",
+            "pronunciation": "/ˈhɛʁt͡sfreˌkvɛnt͡s/",
+            "category": "noun",
+            "translation": {
+                "en": "heart rate",
+                "bn": "হৃদস্পন্দন",
+                "hi": "हृदय गति",
+                "ur": "دل کی دھڑکن",
+                "tr": "kalp hızı"
+            },
+            "exampleSentence": "Die normale Herzfrequenz liegt zwischen 60 und 100 Schlägen pro Minute.",
+            "exampleTranslation": {
+                "en": "The normal heart rate is between 60 and 100 beats per minute.",
+                "bn": "স্বাভাবিক হৃদস্পন্দন প্রতি মিনিটে 60 থেকে 100 বিটের মধ্যে থাকে।",
+                "hi": "सामान्य हृदय गति 60 और 100 धड़कन प्रति मिनट के बीच होती है।",
+                "ur": "دل کی معمول کی دھڑکن 60 اور 100 دھڑکن فی منٹ کے درمیان ہوتی ہے۔",
+                "tr": "Normal kalp hızı dakikada 60 ila 100 atış arasındadır."
+            },
+            "id": "v21_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Initial Assessment After a Heart Attack",
+                "bn": "হার্ট অ্যাটাকের পরে প্রাথমিক মূল্যায়ন",
+                "hi": "हृदयघात के बाद प्रारंभिक आकलन",
+                "ur": "دل کے دورے کے بعد ابتدائی جائزہ",
+                "tr": "Kalp Krizinden Sonra İlk Değerlendirme"
+            },
+            "context": {
+                "en": "A patient is rushed to the emergency room after a suspected heart attack.",
+                "bn": "একটি সন্দেহজনক হার্ট অ্যাটাকের পরে একজন রোগীকে জরুরি বিভাগে নিয়ে যাওয়া হয়েছে।",
+                "hi": "संदिग्ध हृदयघात के बाद एक मरीज को आपातकालीन कक्ष में ले जाया गया।",
+                "ur": "مشتبہ دل کے دورے کے بعد ایک مریض کو ایمرجنسی روم میں لے جایا گیا ہے۔",
+                "tr": "Şüpheli bir kalp krizi geçiren hasta acil servise kaldırılıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Herr Müller, können Sie mich hören? Wir vermuten einen Myokardinfarkt. Wir brauchen sofort ein EKG!",
+                    "translation": {
+                        "en": "Mr. Müller, can you hear me? We suspect a myocardial infarction. We need an EKG immediately!",
+                        "bn": "মিঃ মুলার, আপনি কি আমাকে শুনতে পাচ্ছেন? আমরা একটি মায়োকার্ডিয়াল ইনফার্কশন সন্দেহ করছি। আমাদের অবিলম্বে একটি ইসিজি দরকার!",
+                        "hi": "श्रीमान मुलर, क्या आप मुझे सुन सकते हैं? हमें एक मायोकार्डियल इंफार्क्शन का संदेह है। हमें तुरंत एक ईसीजी की आवश्यकता है!",
+                        "ur": "مسٹر مولر، کیا آپ مجھے سن سکتے ہیں؟ ہمیں مایوکارڈیل انفکشن کا شبہ ہے۔ ہمیں فوری طور پر ای سی جی کی ضرورت ہے!",
+                        "tr": "Bay Müller, beni duyabiliyor musunuz? Miyokard enfarktüsünden şüpheleniyoruz. Hemen bir EKG'ye ihtiyacımız var!"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "EKG wird vorbereitet, Herr Doktor. Sauerstoff ist angelegt.",
+                    "translation": {
+                        "en": "EKG is being prepared, Doctor. Oxygen is being administered.",
+                        "bn": "ইসিজি প্রস্তুত করা হচ্ছে, ডাক্তার। অক্সিজেন দেওয়া হচ্ছে।",
+                        "hi": "ईसीजी तैयार किया जा रहा है, डॉक्टर। ऑक्सीजन दिया जा रहा है।",
+                        "ur": "ای سی جی تیار کیا جا رہا ہے، ڈاکٹر۔ آکسیجن دی جا رہی ہے۔",
+                        "tr": "EKG hazırlanıyor, Doktor. Oksijen veriliyor."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich...ich habe solche Schmerzen in der Brust...",
+                    "translation": {
+                        "en": "I...I have such pain in my chest...",
+                        "bn": "আমার...আমার বুকে খুব ব্যথা...",
+                        "hi": "मुझे...मुझे सीने में बहुत दर्द हो रहा है...",
+                        "ur": "مجھے...مجھے سینے میں بہت درد ہو رہا ہے...",
+                        "tr": "Ben...ben göğsümde çok ağrı hissediyorum..."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wir geben Ihnen etwas gegen die Schmerzen, Herr Müller. Versuchen Sie, ruhig zu bleiben.",
+                    "translation": {
+                        "en": "We're giving you something for the pain, Mr. Müller. Try to stay calm.",
+                        "bn": "আমরা আপনাকে ব্যথার জন্য কিছু দিচ্ছি, মিঃ মুলার। শান্ত থাকার চেষ্টা করুন।",
+                        "hi": "हम आपको दर्द के लिए कुछ दे रहे हैं, श्रीमान मुलर। शांत रहने की कोशिश करें।",
+                        "ur": "ہم آپ کو درد کے لیے کچھ دے رہے ہیں، مسٹر مولر۔ پرسکون رہنے کی کوشش کریں۔",
+                        "tr": "Size ağrı kesici bir şey veriyoruz, Bay Müller. Sakin kalmaya çalışın."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "EKG ist fertig, Herr Doktor. ST-Hebung sichtbar.",
+                    "translation": {
+                        "en": "EKG is done, Doctor. ST elevation visible.",
+                        "bn": "ইসিজি শেষ, ডাক্তার। এসটি এলিভেশন দেখা যাচ্ছে।",
+                        "hi": "ईसीजी हो गया, डॉक्टर। एसटी एलिवेशन दिखाई दे रहा है।",
+                        "ur": "ای سی جی ہو گیا، ڈاکٹر۔ ایس ٹی ایلیویشن نظر آ رہا ہے۔",
+                        "tr": "EKG tamamlandı, Doktor. ST yükselmesi görünüyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Sofortige Anmeldung zum Herzkatheterlabor! Wir müssen schnell handeln.",
+                    "translation": {
+                        "en": "Immediate registration for the cardiac catheterization lab! We need to act quickly.",
+                        "bn": "অবিলম্বে কার্ডিয়াক ক্যাথেটারাইজেশন ল্যাবের জন্য নিবন্ধন! আমাদের দ্রুত কাজ করতে হবে।",
+                        "hi": "तत्काल हृदय कैथीटेराइजेशन लैब के लिए पंजीकरण! हमें तुरंत कार्रवाई करनी होगी।",
+                        "ur": "فوری طور پر کارڈیک کیتھیٹرائزیشن لیب کے لیے رجسٹریشن! ہمیں جلدی سے کام کرنا ہوگا۔",
+                        "tr": "Hemen kardiyak kateter laboratuvarına kayıt! Hızlı hareket etmemiz gerekiyor."
+                    }
+                }
+            ],
+            "id": "d21_01"
+        },
+        {
+            "title": {
+                "en": "Hypertension Management in the Outpatient Clinic",
+                "bn": "বহির্বিভাগীয় ক্লিনিকে উচ্চ রক্তচাপ ব্যবস্থাপনা",
+                "hi": "बाह्य रोगी क्लिनिक में उच्च रक्तचाप प्रबंधन",
+                "ur": "آؤٹ پیشنٹ کلینک میں ہائی بلڈ پریشر کا انتظام",
+                "tr": "Ayakta Tedavi Kliniğinde Hipertansiyon Yönetimi"
+            },
+            "context": {
+                "en": "A patient with known hypertension visits the clinic for a routine check-up.",
+                "bn": "উচ্চ রক্তচাপের একজন রোগী নিয়মিত পরীক্ষার জন্য ক্লিনিকে আসেন।",
+                "hi": "ज्ञात उच्च रक्तचाप वाला एक मरीज नियमित जांच के लिए क्लिनिक आता है।",
+                "ur": "معلوم ہائی بلڈ پریشر والا ایک مریض معمول کی جانچ کے لیے کلینک آتا ہے۔",
+                "tr": "Bilinen hipertansiyonu olan bir hasta rutin kontrol için kliniği ziyaret ediyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Tag, Herr Doktor. Mein Blutdruck ist in letzter Zeit etwas erhöht.",
+                    "translation": {
+                        "en": "Good day, Doctor. My blood pressure has been a bit high lately.",
+                        "bn": "শুভ দিন, ডাক্তার। আমার রক্তচাপ সম্প্রতি একটু বেশি।",
+                        "hi": "नमस्ते, डॉक्टर। मेरा रक्तचाप हाल ही में थोड़ा अधिक रहा है।",
+                        "ur": "شب بخیر، ڈاکٹر۔ میرا بلڈ پریشر حال ہی میں تھوڑا زیادہ رہا ہے۔",
+                        "tr": "İyi günler Doktor. Son zamanlarda tansiyonum biraz yükseldi."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Tag, Herr Schmidt. Messen wir doch mal. Schwester, bitte den Blutdruck messen.",
+                    "translation": {
+                        "en": "Good day, Mr. Schmidt. Let's take a measurement. Nurse, please measure the blood pressure.",
+                        "bn": "শুভ দিন, মিঃ শ্মিট। আসুন আমরা একবার মাপি। নার্স, দয়া করে রক্তচাপ মাপুন।",
+                        "hi": "नमस्ते, श्रीमान श्मिट। चलिए मापते हैं। नर्स, कृपया रक्तचाप मापें।",
+                        "ur": "شب بخیر، مسٹر شمٹ۔ آئیے پیمائش کرتے ہیں۔ نرس، براہ کرم بلڈ پریشر ناپیں۔",
+                        "tr": "İyi günler Bay Schmidt. Bir ölçüm yapalım. Hemşire, lütfen tansiyonu ölçün."
+                    }
+                },
+                {
+                    "speaker": "Schwester Müller",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "160 zu 95, Herr Doktor.",
+                    "translation": {
+                        "en": "160 over 95, Doctor.",
+                        "bn": "160 বাই 95, ডাক্তার।",
+                        "hi": "160/95, डॉक्टर।",
+                        "ur": "160 بٹا 95، ڈاکٹر۔",
+                        "tr": "160'a 95, Doktor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das ist zu hoch, Herr Schmidt. Nehmen Sie Ihre Medikamente regelmäßig?",
+                    "translation": {
+                        "en": "That's too high, Mr. Schmidt. Are you taking your medication regularly?",
+                        "bn": "এটা খুব বেশি, মিঃ শ্মিট। আপনি কি আপনার ওষুধ নিয়মিত খাচ্ছেন?",
+                        "hi": "यह बहुत अधिक है, श्रीमान श्मिट। क्या आप अपनी दवा नियमित रूप से ले रहे हैं?",
+                        "ur": "یہ بہت زیادہ ہے، مسٹر شمٹ۔ کیا آپ اپنی دوا باقاعدگی سے لے رہے ہیں؟",
+                        "tr": "Bu çok yüksek, Bay Schmidt. İlaçlarınızı düzenli olarak alıyor musunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Ehrlich gesagt, nicht immer. Ich vergesse es manchmal.",
+                    "translation": {
+                        "en": "To be honest, not always. I sometimes forget.",
+                        "bn": "সত্যি বলতে, সবসময় না। আমি মাঝে মাঝে ভুলে যাই।",
+                        "hi": "ईमानदारी से कहूं तो, हमेशा नहीं। मैं कभी-कभी भूल जाता हूँ।",
+                        "ur": "سچ کہوں تو ہمیشہ نہیں۔ میں کبھی کبھی بھول جاتا ہوں۔",
+                        "tr": "Dürüst olmak gerekirse, her zaman değil. Bazen unutuyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das ist wichtig, Herr Schmidt. Wir müssen Ihre Medikamente anpassen und über eine Lebensstiländerung sprechen.",
+                    "translation": {
+                        "en": "That's important, Mr. Schmidt. We need to adjust your medication and talk about lifestyle changes.",
+                        "bn": "এটা গুরুত্বপূর্ণ, মিঃ শ্মিট। আমাদের আপনার ওষুধ সামঞ্জস্য করতে হবে এবং জীবনযাত্রার পরিবর্তন সম্পর্কে কথা বলতে হবে।",
+                        "hi": "यह महत्वपूर्ण है, श्रीमान श्मिट। हमें आपकी दवा को समायोजित करने और जीवनशैली में बदलाव के बारे में बात करने की आवश्यकता है।",
+                        "ur": "یہ اہم ہے، مسٹر شمٹ۔ ہمیں آپ کی دوا کو ایڈجسٹ کرنے اور طرز زندگی میں تبدیلیوں کے بارے میں بات کرنے کی ضرورت ہے۔",
+                        "tr": "Bu önemli, Bay Schmidt. İlaçlarınızı ayarlamamız ve yaşam tarzı değişiklikleri hakkında konuşmamız gerekiyor."
+                    }
+                }
+            ],
+            "id": "d21_02"
+        },
+        {
+            "title": {
+                "en": "Managing Atrial Fibrillation",
+                "bn": "অ্যাট্রিয়াল ফাইব্রিলেশন পরিচালনা করা",
+                "hi": "अटरियल फाइब्रिलेशन का प्रबंधन",
+                "ur": "ایٹریئل فیبریلیشن کا انتظام",
+                "tr": "Atriyal Fibrilasyonu Yönetmek"
+            },
+            "context": {
+                "en": "A patient with atrial fibrillation is being monitored for arrhythmia.",
+                "bn": "অ্যাট্রিয়াল ফাইব্রিলেশনযুক্ত একজন রোগীকে অ্যারিথমিয়ার জন্য পর্যবেক্ষণ করা হচ্ছে।",
+                "hi": "एट्रियल फाइब्रिलेशन वाले एक मरीज को अतालता के लिए निगरानी की जा रही है।",
+                "ur": "ایٹریئل فیبریلیشن والے ایک مریض کو اریتھمیا کے لیے مانیٹر کیا جا رہا ہے۔",
+                "tr": "Atriyal fibrilasyonu olan bir hasta aritmi açısından izleniyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Klein",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Weber, Ihr Herz schlägt unregelmäßig. Wir machen ein EKG.",
+                    "translation": {
+                        "en": "Mr. Weber, your heart is beating irregularly. We're taking an EKG.",
+                        "bn": "মিঃ ওয়েবার, আপনার হৃদস্পন্দন অনিয়মিত। আমরা একটি ইসিজি করছি।",
+                        "hi": "श्रीमान वेबर, आपकी हृदय गति अनियमित है। हम एक ईसीजी कर रहे हैं।",
+                        "ur": "مسٹر ویبر، آپ کا دل بے قاعدگی سے دھڑک رہا ہے۔ ہم ایک ای سی جی کر رہے ہیں۔",
+                        "tr": "Bay Weber, kalbiniz düzensiz atıyor. Bir EKG çekiyoruz."
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Das merke ich auch. Ich bin schnell außer Atem.",
+                    "translation": {
+                        "en": "I notice that too. I get out of breath quickly.",
+                        "bn": "আমিও সেটা লক্ষ্য করছি। আমি দ্রুত হাঁপিয়ে যাই।",
+                        "hi": "मैं भी वह देखता हूँ। मैं जल्दी ही हांफने लगता हूं।",
+                        "ur": "میں بھی وہ دیکھ رہا ہوں۔ میں جلدی ہی ہانپ جاتا ہوں۔",
+                        "tr": "Ben de fark ediyorum. Çabuk nefes nefese kalıyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Sommer",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das EKG zeigt Vorhofflimmern. Wir müssen die Herzfrequenz kontrollieren und über Blutverdünner sprechen.",
+                    "translation": {
+                        "en": "The EKG shows atrial fibrillation. We need to control the heart rate and talk about blood thinners.",
+                        "bn": "ইসিজি অ্যাট্রিয়াল ফাইব্রিলেশন দেখাচ্ছে। আমাদের হৃদস্পন্দন নিয়ন্ত্রণ করতে হবে এবং রক্ত ​​পাতলা করার ওষুধ সম্পর্কে কথা বলতে হবে।",
+                        "hi": "ईसीजी अटरियल फाइब्रिलेशन दिखा रहा है। हमें हृदय गति को नियंत्रित करने और रक्त पतला करने वाली दवाओं के बारे में बात करने की आवश्यकता है।",
+                        "ur": "ای سی جی ایٹریئل فیبریلیشن دکھا رہا ہے۔ ہمیں دل کی دھڑکن کو کنٹرول کرنے اور خون کو پتلا کرنے والی ادویات کے بارے میں بات کرنے کی ضرورت ہے۔",
+                        "tr": "EKG atriyal fibrilasyon gösteriyor. Kalp atış hızını kontrol etmeli ve kan sulandırıcıları konuşmalıyız."
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Blutverdünner? Gibt es da Risiken?",
+                    "translation": {
+                        "en": "Blood thinners? Are there any risks?",
+                        "bn": "রক্ত ​​পাতলা করার ওষুধ? এতে কি কোন ঝুঁকি আছে?",
+                        "hi": "रक्त पतला करने वाली दवाएं? क्या कोई जोखिम है?",
+                        "ur": "خون کو پتلا کرنے والی ادویات؟ کیا اس میں کوئی خطرہ ہے؟",
+                        "tr": "Kan sulandırıcılar? Herhangi bir risk var mı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Sommer",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ja, es gibt ein erhöhtes Blutungsrisiko. Aber der Nutzen, einen Schlaganfall zu verhindern, ist meist größer. Wir besprechen das genau.",
+                    "translation": {
+                        "en": "Yes, there is an increased risk of bleeding. But the benefit of preventing a stroke is usually greater. We'll discuss it in detail.",
+                        "bn": "হ্যাঁ, রক্তপাতের ঝুঁকি বেড়ে যায়। তবে স্ট্রোক প্রতিরোধের সুবিধা সাধারণত বেশি। আমরা এটি বিস্তারিতভাবে আলোচনা করব।",
+                        "hi": "हां, रक्तस्राव का खतरा बढ़ जाता है। लेकिन स्ट्रोक को रोकने का लाभ आमतौर पर अधिक होता है। हम इस पर विस्तार से चर्चा करेंगे।",
+                        "ur": "ہاں، خون بہنے کا خطرہ بڑھ جاتا ہے۔ لیکن فالج کو روکنے کا فائدہ عام طور پر زیادہ ہوتا ہے۔ ہم اس پر تفصیل سے بات کریں گے۔",
+                        "tr": "Evet, artan kanama riski var. Ancak felci önlemenin faydası genellikle daha büyüktür. Bunu ayrıntılı olarak tartışacağız."
+                    }
+                },
+                {
+                    "speaker": "Schwester Klein",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich bereite schon mal die Unterlagen für die Aufklärung vor, Herr Weber.",
+                    "translation": {
+                        "en": "I'll prepare the documents for the explanation, Mr. Weber.",
+                        "bn": "আমি ব্যাখ্যার জন্য নথি প্রস্তুত করব, মিঃ ওয়েবার।",
+                        "hi": "मैं स्पष्टीकरण के लिए दस्तावेज तैयार करूंगा, श्रीमान वेबर।",
+                        "ur": "میں وضاحت کے لیے دستاویزات تیار کروں گا، مسٹر ویبر۔",
+                        "tr": "Açıklama için belgeleri hazırlayacağım, Bay Weber."
+                    }
+                }
+            ],
+            "id": "d21_03"
+        },
+        {
+            "title": {
+                "en": "Heart Failure Monitoring",
+                "bn": "হার্ট ফেইলিউর মনিটরিং",
+                "hi": "हार्ट फेल्योर मॉनिटरिंग",
+                "ur": "ہارٹ فیل ہونے کی نگرانی",
+                "tr": "Kalp Yetmezliği İzlemesi"
+            },
+            "context": {
+                "en": "A patient with heart failure comes in for a check-up.",
+                "bn": "হার্ট ফেইলিউরের একজন রোগী চেক-আপের জন্য এসেছেন।",
+                "hi": "हार्ट फेल्योर वाला एक मरीज चेक-अप के लिए आता है।",
+                "ur": "ہارٹ فیل ہونے والا ایک مریض چیک اپ کے لیے آیا ہے۔",
+                "tr": "Kalp yetmezliği olan bir hasta kontrole geliyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Guten Morgen, Herr Doktor. Ich fühle mich in letzter Zeit wieder etwas schlechter.",
+                    "translation": {
+                        "en": "Good morning, Doctor. I've been feeling a bit worse lately.",
+                        "bn": "শুভ সকাল, ডাক্তার। আমি সম্প্রতি একটু খারাপ বোধ করছি।",
+                        "hi": "शुभ प्रभात, डॉक्टर। मैं हाल ही में थोड़ा बुरा महसूस कर रहा हूं।",
+                        "ur": "صبح بخیر، ڈاکٹر۔ میں حال ہی میں تھوڑا برا محسوس کر رہا ہوں۔",
+                        "tr": "Günaydın Doktor. Son zamanlarda biraz daha kötü hissediyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Berger",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Morgen, Herr Lehmann. Was genau ist schlechter?",
+                    "translation": {
+                        "en": "Good morning, Mr. Lehmann. What exactly is worse?",
+                        "bn": "শুভ সকাল, মিঃ লেহমান। ঠিক কী খারাপ?",
+                        "hi": "शुभ प्रभात, श्रीमान लेहमान। बिल्कुल क्या बुरा है?",
+                        "ur": "صبح بخیر، مسٹر لیمان۔ بالکل کیا برا ہے؟",
+                        "tr": "Günaydın Bay Lehmann. Tam olarak ne daha kötü?"
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich bin kurzatmig und habe dicke Beine.",
+                    "translation": {
+                        "en": "I'm short of breath and have swollen legs.",
+                        "bn": "আমার শ্বাসকষ্ট হচ্ছে এবং পা ফুলে গেছে।",
+                        "hi": "मुझे सांस लेने में तकलीफ हो रही है और मेरे पैर सूजे हुए हैं।",
+                        "ur": "مجھے سانس لینے میں دشواری ہو رہی ہے اور میرے پاؤں سوجے ہوئے ہیں۔",
+                        "tr": "Nefes darlığı çekiyorum ve bacaklarım şişti."
+                    }
+                },
+                {
+                    "speaker": "Dr. Berger",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wir machen ein EKG und eine Blutuntersuchung. Schwester, bitte vorbereiten.",
+                    "translation": {
+                        "en": "We'll do an EKG and a blood test. Nurse, please prepare.",
+                        "bn": "আমরা একটি ইসিজি এবং একটি রক্ত ​​পরীক্ষা করব। নার্স, দয়া করে প্রস্তুত করুন।",
+                        "hi": "हम एक ईसीजी और एक रक्त परीक्षण करेंगे। नर्स, कृपया तैयार करें।",
+                        "ur": "ہم ایک ای سی جی اور ایک خون کا ٹیسٹ کریں گے۔ نرس، براہ کرم تیار کریں۔",
+                        "tr": "Bir EKG ve kan testi yapacağız. Hemşire, lütfen hazırlayın."
+                    }
+                },
+                {
+                    "speaker": "Schwester Schulz",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Wird erledigt, Herr Doktor. EKG-Gerät ist bereit.",
+                    "translation": {
+                        "en": "Will do, Doctor. EKG machine is ready.",
+                        "bn": "করা হবে, ডাক্তার। ইসিজি মেশিন প্রস্তুত।",
+                        "hi": "किया जाएगा, डॉक्टर। ईसीजी मशीन तैयार है।",
+                        "ur": "کیا جائے گا، ڈاکٹر۔ ای سی جی مشین تیار ہے۔",
+                        "tr": "Hemen hallediyorum Doktor. EKG cihazı hazır."
+                    }
+                },
+                {
+                    "speaker": "Dr. Berger",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Herr Lehmann, wir passen Ihre Medikamente wahrscheinlich an. Die Ergebnisse helfen uns dabei.",
+                    "translation": {
+                        "en": "Mr. Lehmann, we'll probably adjust your medication. The results will help us with that.",
+                        "bn": "মিঃ লেহমান, আমরা সম্ভবত আপনার ওষুধ সামঞ্জস্য করব। ফলাফল আমাদের এতে সাহায্য করবে।",
+                        "hi": "श्रीमान लेहमान, हम शायद आपकी दवा को समायोजित करेंगे। परिणाम हमें इसमें मदद करेंगे।",
+                        "ur": "مسٹر لیمان، ہم شاید آپ کی دوا کو ایڈجسٹ کریں گے۔ نتائج اس میں ہماری مدد کریں گے۔",
+                        "tr": "Bay Lehmann, muhtemelen ilaçlarınızı ayarlayacağız. Sonuçlar bize yardımcı olacaktır."
+                    }
+                }
+            ],
+            "id": "d21_04"
+        },
+        {
+            "title": {
+                "en": "Post-Cardiac Catheterization Care",
+                "bn": "পোস্ট-কার্ডিয়াক ক্যাথেটারাইজেশন কেয়ার",
+                "hi": "पोस्ट-कार्डिएक कैथीटेराइजेशन केयर",
+                "ur": "پوسٹ کارڈیک کیتھیٹرائزیشن کیئر",
+                "tr": "Kardiyak Kateterizasyon Sonrası Bakım"
+            },
+            "context": {
+                "en": "A patient is recovering after undergoing cardiac catheterization.",
+                "bn": "একজন রোগী কার্ডিয়াক ক্যাথেটারাইজেশন করার পরে সুস্থ হচ্ছেন।",
+                "hi": "एक मरीज कार्डियक कैथीटेराइजेशन कराने के बाद ठीक हो रहा है।",
+                "ur": "ایک مریض کارڈیک کیتھیٹرائزیشن کرانے کے بعد صحت یاب ہو رہا ہے۔",
+                "tr": "Bir hasta kardiyak kateterizasyon geçirdikten sonra iyileşiyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Bauer",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Klein, wie fühlen Sie sich nach dem Herzkatheter?",
+                    "translation": {
+                        "en": "Mr. Klein, how do you feel after the cardiac catheterization?",
+                        "bn": "মিঃ ক্লেইন, কার্ডিয়াক ক্যাথেটারাইজেশনের পরে আপনি কেমন অনুভব করছেন?",
+                        "hi": "श्रीमान क्लाइन, कार्डियक कैथीटेराइजेशन के बाद आपको कैसा महसूस हो रहा है?",
+                        "ur": "مسٹر کلین، کارڈیک کیتھیٹرائزیشن کے بعد آپ کیسا محسوس کر رہے ہیں؟",
+                        "tr": "Bay Klein, kardiyak kateterizasyondan sonra nasıl hissediyorsunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Etwas müde, aber sonst gut. Wann darf ich aufstehen?",
+                    "translation": {
+                        "en": "A little tired, but otherwise fine. When can I get up?",
+                        "bn": "একটু ক্লান্ত, তবে অন্যথায় ঠিক আছে। আমি কখন উঠতে পারব?",
+                        "hi": "थोड़ा थका हुआ, लेकिन अन्यथा ठीक है। मैं कब उठ सकता हूँ?",
+                        "ur": "تھوڑا سا تھکا ہوا، لیکن دوسری صورت میں ٹھیک ہے۔ میں کب اٹھ سکتا ہوں؟",
+                        "tr": "Biraz yorgun, ama aksi halde iyiyim. Ne zaman kalkabilirim?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Bauer",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Sie müssen noch ein paar Stunden liegen bleiben. Wir kontrollieren regelmäßig die Punktionsstelle.",
+                    "translation": {
+                        "en": "You have to stay lying down for a few more hours. We're checking the puncture site regularly.",
+                        "bn": "আপনাকে আরও কয়েক ঘন্টা শুয়ে থাকতে হবে। আমরা নিয়মিত পাংচারের স্থান পরীক্ষা করছি।",
+                        "hi": "आपको अभी कुछ घंटे और लेटना होगा। हम नियमित रूप से पंचर साइट की जांच कर रहे हैं।",
+                        "ur": "آپ کو ابھی کچھ گھنٹے اور لیٹنا ہوگا۔ ہم باقاعدگی سے پنکچر سائٹ کی جانچ کر رہے ہیں۔",
+                        "tr": "Birkaç saat daha yatmanız gerekiyor. Ponksiyon bölgesini düzenli olarak kontrol ediyoruz."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Herr Klein, alles gut verlaufen. Die Stenose konnte erfolgreich behandelt werden.",
+                    "translation": {
+                        "en": "Mr. Klein, everything went well. The stenosis was successfully treated.",
+                        "bn": "মিঃ ক্লেইন, সবকিছু ভালোভাবে হয়েছে। স্টেনোসিস সফলভাবে চিকিৎসা করা গেছে।",
+                        "hi": "श्रीमान क्लाइन, सब कुछ ठीक हो गया। स्टेनोसिस का सफलतापूर्वक इलाज किया गया।",
+                        "ur": "مسٹر کلین، سب کچھ ٹھیک ہو گیا۔ سٹینوسس کا کامیابی سے علاج کیا گیا۔",
+                        "tr": "Bay Klein, her şey yolunda gitti. Stenoz başarıyla tedavi edildi."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Das freut mich zu hören! Vielen Dank!",
+                    "translation": {
+                        "en": "I'm glad to hear that! Thank you very much!",
+                        "bn": "এটা শুনে আমি খুশি! তোমাকে অনেক ধন্যবাদ!",
+                        "hi": "यह सुनकर मुझे खुशी हुई! बहुत बहुत धन्यवाद!",
+                        "ur": "یہ سن کر مجھے خوشی ہوئی! بہت بہت شکریہ!",
+                        "tr": "Bunu duyduğuma sevindim! Çok teşekkür ederim!"
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir besprechen morgen die weitere Behandlung und die Medikamente.",
+                    "translation": {
+                        "en": "We'll discuss the further treatment and the medication tomorrow.",
+                        "bn": "আমরা আগামীকাল আরও চিকিৎসা এবং ওষুধ নিয়ে আলোচনা করব।",
+                        "hi": "हम कल आगे के उपचार और दवाओं पर चर्चा करेंगे।",
+                        "ur": "ہم کل مزید علاج اور ادویات پر تبادلہ خیال کریں گے۔",
+                        "tr": "Yarın tedaviye ve ilaçlara devam edeceğiz."
+                    }
+                }
+            ],
+            "id": "d21_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Symptom ist KEIN typisches Symptom einer Herzinsuffizienz?",
+                "en": "Which symptom is NOT a typical symptom of heart failure?",
+                "bn": "হার্ট ফেইলিউরের সাধারণ লক্ষণ কোনটি নয়?",
+                "hi": "हार्ट फेलियर का कौन सा लक्षण नहीं है?",
+                "ur": "دل کی ناکامی کی کونسی علامت نہیں ہے؟",
+                "tr": "Kalp yetmezliğinin tipik bir belirtisi DEĞİLDİR?"
+            },
+            "options": [
+                "Dyspnoe",
+                "Ödeme",
+                "Gewichtsverlust",
+                "Müdigkeit"
+            ],
+            "correctAnswer": "Gewichtsverlust",
+            "explanation": {
+                "en": "Weight loss is not a typical symptom of heart failure.  Fluid retention leading to weight gain is more common.",
+                "bn": "ওজন হ্রাস হার্ট ফেইলিউরের সাধারণ লক্ষণ নয়। তরল ধারণের কারণে ওজন বৃদ্ধি বেশি দেখা যায়।",
+                "hi": "वजन घटना हार्ट फेलियर का एक विशिष्ट लक्षण नहीं है। वजन बढ़ने के कारण द्रव प्रतिधारण अधिक आम है।",
+                "ur": "وزن میں کمی دل کی ناکامی کی عام علامت نہیں ہے۔ وزن بڑھنے کا باعث سیال برقرار رکھنا زیادہ عام ہے۔",
+                "tr": "Kilo kaybı kalp yetmezliğinin tipik bir belirtisi değildir. Sıvı tutulumu nedeniyle kilo almak daha yaygındır."
+            },
+            "points": 10,
+            "id": "e21_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist die häufigste Ursache für einen Myokardinfarkt?",
+                "en": "What is the most common cause of a myocardial infarction?",
+                "bn": "মায়োকার্ডিয়াল ইনফার্কশনের সবচেয়ে সাধারণ কারণ কী?",
+                "hi": "मायोकार्डियल इंफार्क्शन का सबसे आम कारण क्या है?",
+                "ur": "مايوکارڈیل انفارکشن کی سب سے عام وجہ کیا ہے؟",
+                "tr": "Miyokard enfarktüsünün en sık nedeni nedir?"
+            },
+            "options": [
+                "Hypertonie",
+                "Arrhythmie",
+                "Koronare Herzkrankheit",
+                "Kardiomyopathie"
+            ],
+            "correctAnswer": "Koronare Herzkrankheit",
+            "explanation": {
+                "en": "Coronary artery disease, specifically atherosclerosis, is the most common cause of myocardial infarction.",
+                "bn": "করোনারি ধমনী রোগ, বিশেষ করে অ্যাথেরোস্ক্লেরোসিস, মায়োকার্ডিয়াল ইনফার্কশনের সবচেয়ে সাধারণ কারণ।",
+                "hi": "कोरोनरी धमनी रोग, विशेष रूप से एथेरोस्क्लेरोसिस, मायोकार्डियल इंफार्क्शन का सबसे आम कारण है।",
+                "ur": "کورونری شریان کی بیماری، خاص طور پر ایتھروسکلروسیس، مایوکارڈیل انفارکشن کی سب سے عام وجہ ہے۔",
+                "tr": "Koroner arter hastalığı, özellikle ateroskleroz, miyokard enfarktüsünün en sık nedenidir."
+            },
+            "points": 10,
+            "id": "e21_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welcher Blutdruckwert gilt als Hypertonie (Grad 1)?",
+                "en": "Which blood pressure reading is considered hypertension (Grade 1)?",
+                "bn": "কোন রক্তচাপের রিডিংকে হাইপারটেনশন (গ্রেড 1) হিসাবে গণ্য করা হয়?",
+                "hi": "किस रक्तचाप की रीडिंग को हाइपरटेंशन (ग्रेड 1) माना जाता है?",
+                "ur": "خون کے دباؤ کی کون سی ریڈنگ کو ہائی بلڈ پریشر (گریڈ 1) سمجھا جاتا ہے؟",
+                "tr": "Hangi kan basıncı değeri hipertansiyon (Evre 1) olarak kabul edilir?"
+            },
+            "options": [
+                "120/80 mmHg",
+                "130/85 mmHg",
+                "140/90 mmHg",
+                "160/100 mmHg"
+            ],
+            "correctAnswer": "140/90 mmHg",
+            "explanation": {
+                "en": "Hypertension Grade 1 is defined as blood pressure readings between 140/90 mmHg and 159/99 mmHg.",
+                "bn": "হাইপারটেনশন গ্রেড 1 কে 140/90 mmHg এবং 159/99 mmHg এর মধ্যে রক্তচাপের রিডিং হিসাবে সংজ্ঞায়িত করা হয়েছে।",
+                "hi": "उच्च रक्तचाप ग्रेड 1 को 140/90 mmHg और 159/99 mmHg के बीच रक्तचाप रीडिंग के रूप में परिभाषित किया गया है।",
+                "ur": "ہائی بلڈ پریشر گریڈ 1 کو 140/90 mmHg اور 159/99 mmHg کے درمیان خون کے دباؤ کی ریڈنگ کے طور پر بیان کیا گیا ہے۔",
+                "tr": "Hipertansiyon Evre 1, 140/90 mmHg ile 159/99 mmHg arasındaki kan basıncı değerleri olarak tanımlanır."
+            },
+            "points": 10,
+            "id": "e21_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Arrhythmie ist durch eine unregelmäßige und schnelle Vorhoftätigkeit gekennzeichnet?",
+                "en": "Which arrhythmia is characterized by irregular and rapid atrial activity?",
+                "bn": "কোন অ্যারিথমিয়া অনিয়মিত এবং দ্রুত অ্যাট্রিয়াল কার্যকলাপ দ্বারা চিহ্নিত করা হয়?",
+                "hi": "कौन सी अतालता अनियमित और तेज़ अटरियल गतिविधि द्वारा चिह्नित है?",
+                "ur": "کون سی بے ترتیب دل کی دھڑکن غیر منظم اور تیز ایٹریل سرگرمی سے نمایاں ہے؟",
+                "tr": "Hangi aritmi, düzensiz ve hızlı atriyal aktivite ile karakterizedir?"
+            },
+            "options": [
+                "Ventrikuläre Tachykardie",
+                "Sinusbradykardie",
+                "Vorhofflimmern",
+                "AV-Block"
+            ],
+            "correctAnswer": "Vorhofflimmern",
+            "explanation": {
+                "en": "Atrial fibrillation is characterized by rapid, irregular atrial activity.",
+                "bn": "অ্যাট্রিয়াল ফাইব্রিলেশন দ্রুত, অনিয়মিত অ্যাট্রিয়াল কার্যকলাপ দ্বারা চিহ্নিত করা হয়।",
+                "hi": "अटरियल फ़िब्रिलेशन तेज, अनियमित अटरियल गतिविधि द्वारा चिह्नित है।",
+                "ur": "ایٹریل فبریلیشن تیز، غیر منظم ایٹریل سرگرمی سے نمایاں ہے۔",
+                "tr": "Atriyal fibrilasyon, hızlı, düzensiz atriyal aktivite ile karakterizedir."
+            },
+            "points": 10,
+            "id": "e21_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was repräsentiert die P-Welle im EKG?",
+                "en": "What does the P wave in the ECG represent?",
+                "bn": "ইসিজিতে পি ওয়েভ কী উপস্থাপন করে?",
+                "hi": "ईसीजी में पी वेव क्या दर्शाती है?",
+                "ur": "ای سی جی میں پی لہر کیا ظاہر کرتی ہے؟",
+                "tr": "EKG'deki P dalgası neyi temsil eder?"
+            },
+            "options": [
+                "Ventrikuläre Depolarisation",
+                "Ventrikuläre Repolarisation",
+                "Atriale Depolarisation",
+                "Atriale Repolarisation"
+            ],
+            "correctAnswer": "Atriale Depolarisation",
+            "explanation": {
+                "en": "The P wave in an ECG represents atrial depolarization.",
+                "bn": "ইসিজিতে পি ওয়েভ অ্যাট্রিয়াল ডিপোলারাইজেশন উপস্থাপন করে।",
+                "hi": "ईसीजी में पी वेव अटरियल डीपोलराइजेशन दर्शाती है।",
+                "ur": "ای سی جی میں پی لہر ایٹریل ڈیپولرائزیشن کو ظاہر کرتی ہے۔",
+                "tr": "EKG'deki P dalgası, atriyal depolarizasyonu temsil eder."
+            },
+            "points": 10,
+            "id": "e21_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Risiko besteht bei einem Herzkatheter?",
+                "en": "What is a risk associated with cardiac catheterization?",
+                "bn": "কার্ডিয়াক ক্যাথেটারাইজেশনের সাথে সম্পর্কিত ঝুঁকি কী?",
+                "hi": "कार्डिएक कैथीटेराइजेशन से जुड़ा जोखिम क्या है?",
+                "ur": "کارڈیک کیتھیٹرائزیشن سے وابستہ خطرہ کیا ہے؟",
+                "tr": "Kalp kateterizasyonu ile ilişkili bir risk nedir?"
+            },
+            "options": [
+                "Hyperglykämie",
+                "Nierenversagen",
+                "Leukopenie",
+                "Hypotonie"
+            ],
+            "correctAnswer": "Nierenversagen",
+            "explanation": {
+                "en": "Contrast-induced nephropathy (kidney failure) is a potential risk associated with cardiac catheterization due to the contrast dye used.",
+                "bn": "কনট্রাস্ট-ইনডিউসড নেফ্রোপ্যাথি (কিডনি ফেইলিউর) কার্ডিয়াক ক্যাথেটারাইজেশনের সাথে সম্পর্কিত একটি সম্ভাব্য ঝুঁকি কারণ ব্যবহৃত কনট্রাস্ট ডাই।",
+                "hi": "कंट्रास्ट-प्रेरित नेफ्रोपैथी (गुर्दे की विफलता) कार्डिएक कैथीटेराइजेशन से जुड़ा एक संभावित जोखिम है क्योंकि उपयोग किए जाने वाले कंट्रास्ट डाई।",
+                "ur": "کانٹراسٹ سے متاثرہ نیفروپیتھی (گردے کی ناکامی) کارڈیک کیتھیٹرائزیشن سے وابستہ ایک ممکنہ خطرہ ہے کیونکہ استعمال شدہ کنٹراسٹ ڈائی۔",
+                "tr": "Kontrast kaynaklı nefropati (böbrek yetmezliği), kullanılan kontrast boyası nedeniyle kardiyak kateterizasyon ile ilişkili potansiyel bir risktir."
+            },
+            "points": 10,
+            "id": "e21_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Medikament wird häufig zur Behandlung von Hypertonie eingesetzt?",
+                "en": "Which medication is commonly used to treat hypertension?",
+                "bn": "উচ্চ রক্তচাপের চিকিৎসার জন্য সাধারণত কোন ওষুধ ব্যবহার করা হয়?",
+                "hi": "उच्च रक्तचाप के इलाज के लिए आमतौर पर कौन सी दवा का उपयोग किया जाता है?",
+                "ur": "ہائی بلڈ پریشر کے علاج کے لیے عموماً کون سی دوا استعمال ہوتی ہے؟",
+                "tr": "Hipertansiyonu tedavi etmek için yaygın olarak hangi ilaç kullanılır?"
+            },
+            "options": [
+                "Insulin",
+                "Statine",
+                "ACE-Hemmer",
+                "Antibiotika"
+            ],
+            "correctAnswer": "ACE-Hemmer",
+            "explanation": {
+                "en": "ACE inhibitors are commonly used to treat hypertension.",
+                "bn": "ACE ইনহিবিটরগুলি সাধারণত উচ্চ রক্তচাপের চিকিৎসার জন্য ব্যবহৃত হয়।",
+                "hi": "ACE इनहिबिटर का उपयोग आमतौर पर उच्च रक्तचाप के इलाज के लिए किया जाता है।",
+                "ur": "اے سی ای روکنے والے عموماً ہائی بلڈ پریشر کے علاج کے لیے استعمال ہوتے ہیں۔",
+                "tr": "ACE inhibitörleri, hipertansiyonu tedavi etmek için yaygın olarak kullanılır."
+            },
+            "points": 10,
+            "id": "e21_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Art von Arrhythmie ist eine Bradykardie?",
+                "en": "What type of arrhythmia is a bradycardia?",
+                "bn": "ব্র্যাডিকার্ডিয়া কী ধরণের অ্যারিথমিয়া?",
+                "hi": "ब्रैडीकार्डिया किस प्रकार की अतालता है?",
+                "ur": "بریڈی کارڈیا کس قسم کی بے ترتیب دل کی دھڑکن ہے؟",
+                "tr": "Bradikardi ne tür bir aritmidir?"
+            },
+            "options": [
+                "Schnelle Herzfrequenz",
+                "Langsame Herzfrequenz",
+                "Unregelmäßige Herzfrequenz",
+                "Fehlende Herzfrequenz"
+            ],
+            "correctAnswer": "Langsame Herzfrequenz",
+            "explanation": {
+                "en": "Bradycardia is characterized by a slow heart rate, typically below 60 beats per minute.",
+                "bn": "ব্র্যাডিকার্ডিয়া ধীর হৃদস্পন্দন দ্বারা চিহ্নিত করা হয়, সাধারণত প্রতি মিনিটে 60 বীটের নিচে।",
+                "hi": "ब्रैडीकार्डिया धीमी हृदय गति द्वारा चिह्नित है, आमतौर पर प्रति मिनट 60 बीट से कम।",
+                "ur": "بریڈی کارڈیا سست دل کی دھڑکن سے نمایاں ہے، عام طور پر فی منٹ 60 دھڑکن سے کم۔",
+                "tr": "Bradikardi, yavaş bir kalp atış hızı ile karakterizedir, tipik olarak dakikada 60 atımın altında."
+            },
+            "points": 10,
+            "id": "e21_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Ziel der Behandlung bei Herzinsuffizienz?",
+                "en": "What is the goal of treatment for heart failure?",
+                "bn": "হার্ট ফেইলিউরের চিকিৎসার লক্ষ্য কী?",
+                "hi": "हार्ट फेलियर के इलाज का लक्ष्य क्या है?",
+                "ur": "دل کی ناکامی کے علاج کا مقصد کیا ہے؟",
+                "tr": "Kalp yetmezliğinin tedavisindeki amaç nedir?"
+            },
+            "options": [
+                "Erhöhung des Blutdrucks",
+                "Verbesserung der Lebensqualität",
+                "Senkung des Cholesterinspiegels",
+                "Steigerung des Körpergewichts"
+            ],
+            "correctAnswer": "Verbesserung der Lebensqualität",
+            "explanation": {
+                "en": "The primary goal of heart failure treatment is to improve the patient's quality of life by managing symptoms and preventing further deterioration.",
+                "bn": "হার্ট ফেইলিউরের চিকিৎসার প্রাথমিক লক্ষ্য হল লক্ষণগুলি পরিচালনা করে এবং আরও অবনতি রোধ করে রোগীর জীবনযাত্রার মান উন্নত করা।",
+                "hi": "हार्ट फेलियर के इलाज का प्राथमिक लक्ष्य लक्षणों का प्रबंधन करके और आगे की गिरावट को रोककर रोगी के जीवन की गुणवत्ता में सुधार करना है।",
+                "ur": "دل کی ناکامی کے علاج کا بنیادی مقصد علامات کا انتظام کر کے اور مزید خرابی کو روک کر مریض کی زندگی کے معیار کو بہتر بنانا ہے۔",
+                "tr": "Kalp yetmezliği tedavisinin temel amacı, semptomları yöneterek ve daha fazla kötüleşmeyi önleyerek hastanın yaşam kalitesini iyileştirmektir."
+            },
+            "points": 10,
+            "id": "e21_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Struktur wird bei einem Herzkatheter untersucht?",
+                "en": "Which structure is examined during a cardiac catheterization?",
+                "bn": "কার্ডিয়াক ক্যাথেটারাইজেশনের সময় কোন কাঠামো পরীক্ষা করা হয়?",
+                "hi": "कार्डिएक कैथीटेराइजेशन के दौरान किस संरचना की जांच की जाती है?",
+                "ur": "کارڈیک کیتھیٹرائزیشن کے دوران کس ساخت کا معائنہ کیا جاتا ہے؟",
+                "tr": "Kalp kateterizasyonu sırasında hangi yapı incelenir?"
+            },
+            "options": [
+                "Lunge",
+                "Gehirn",
+                "Herzkranzgefäße",
+                "Leber"
+            ],
+            "correctAnswer": "Herzkranzgefäße",
+            "explanation": {
+                "en": "Cardiac catheterization is primarily used to examine the coronary arteries.",
+                "bn": "কার্ডিয়াক ক্যাথেটারাইজেশন প্রাথমিকভাবে করোনারি ধমনীগুলি পরীক্ষা করার জন্য ব্যবহৃত হয়।",
+                "hi": "कार्डिएक कैथीटेराइजेशन मुख्य रूप से कोरोनरी धमनियों की जांच के लिए उपयोग किया जाता है।",
+                "ur": "کارڈیک کیتھیٹرائزیشن بنیادی طور پر کورونری شریانوں کی جانچ کے لیے استعمال ہوتا ہے۔",
+                "tr": "Kalp kateterizasyonu öncelikle koroner arterleri incelemek için kullanılır."
+            },
+            "points": 10,
+            "id": "e21_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die ______ ist eine Erkrankung, bei der das Herz nicht in der Lage ist, ausreichend Blut zu pumpen, um den Bedarf des Körpers zu decken.",
+                "en": "______ is a condition in which the heart is unable to pump enough blood to meet the body's needs.",
+                "bn": "______ এমন একটি অবস্থা যেখানে হৃদপিণ্ড শরীরের চাহিদা মেটাতে যথেষ্ট রক্ত পাম্প করতে অক্ষম।",
+                "hi": "______ एक ऐसी स्थिति है जिसमें हृदय शरीर की जरूरतों को पूरा करने के लिए पर्याप्त रक्त पंप करने में असमर्थ होता है।",
+                "ur": "______ ایک ایسی حالت ہے جس میں دل جسم کی ضروریات کو پورا کرنے کے لیے کافی خون پمپ کرنے سے قاصر ہے۔",
+                "tr": "______ kalbin vücudun ihtiyaçlarını karşılamak için yeterli kan pompalayamadığı bir durumdur."
+            },
+            "correctAnswer": "Herzinsuffizienz",
+            "explanation": {
+                "en": "Heart failure is a condition where the heart cannot pump enough blood.",
+                "bn": "হার্ট ফেইলিউর এমন একটি অবস্থা যেখানে হৃদপিণ্ড যথেষ্ট রক্ত পাম্প করতে পারে না।",
+                "hi": "हार्ट फेलियर एक ऐसी स्थिति है जहां हृदय पर्याप्त रक्त पंप नहीं कर पाता है।",
+                "ur": "دل کی ناکامی ایک ایسی حالت ہے جہاں دل کافی خون پمپ نہیں کر پاتا ہے۔",
+                "tr": "Kalp yetmezliği, kalbin yeterli kan pompalayamadığı bir durumdur."
+            },
+            "points": 10,
+            "id": "e21_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein ______ ist ein Verschluss einer oder mehrerer Koronararterien, was zu einer Schädigung des Herzmuskels führt.",
+                "en": "A ______ is a blockage of one or more coronary arteries, leading to damage to the heart muscle.",
+                "bn": "একটি ______ হল এক বা একাধিক করোনারি ধমনীর ব্লকেজ, যার ফলে হৃদপিণ্ডের পেশীর ক্ষতি হয়।",
+                "hi": "एक ______ एक या अधिक कोरोनरी धमनियों का अवरोध है, जिससे हृदय की मांसपेशी को नुकसान होता है।",
+                "ur": "ایک ______ ایک یا زیادہ کورونری شریانوں کی بندش ہے، جو دل کے پٹھوں کو نقصان پہنچاتی ہے۔",
+                "tr": "______ bir veya daha fazla koroner arterin tıkanmasıdır ve kalp kasına zarar verir."
+            },
+            "correctAnswer": "Myokardinfarkt",
+            "explanation": {
+                "en": "Myocardial infarction is a blockage in a coronary artery leading to heart muscle damage.",
+                "bn": "মায়োকার্ডিয়াল ইনফার্কশন হল করোনারি ধমনীতে ব্লকেজ যা হৃদপিণ্ডের পেশীর ক্ষতির কারণ।",
+                "hi": "मायोकार्डियल इंफार्क्शन कोरोनरी धमनी में रुकावट है जिससे हृदय की मांसपेशियों को नुकसान होता है।",
+                "ur": "مايوکارڈیل انفارکشن کورونری شریان میں رکاوٹ ہے جس کی وجہ سے دل کے پٹھوں کو نقصان پہنچتا ہے۔",
+                "tr": "Miyokard enfarktüsü, koroner arterde kalp kası hasarına yol açan bir tıkanıklıktır."
+            },
+            "points": 10,
+            "id": "e21_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "______ ist ein Zustand, bei dem der Blutdruck dauerhaft erhöht ist.",
+                "en": "______ is a condition in which blood pressure is persistently elevated.",
+                "bn": "______ এমন একটি অবস্থা যেখানে রক্তচাপ ক্রমাগত বৃদ্ধি পায়।",
+                "hi": "______ एक ऐसी स्थिति है जिसमें रक्तचाप लगातार बढ़ जाता है।",
+                "ur": "______ ایک ایسی حالت ہے جس میں خون کا دباؤ مسلسل بڑھ جاتا ہے۔",
+                "tr": "______ kan basıncının sürekli olarak yüksek olduğu bir durumdur."
+            },
+            "correctAnswer": "Hypertonie",
+            "explanation": {
+                "en": "Hypertension is the medical term for persistently high blood pressure.",
+                "bn": "হাইপারটেনশন হল ক্রমাগত উচ্চ রক্তচাপের চিকিৎসা শব্দ।",
+                "hi": "उच्च रक्तचाप लगातार उच्च रक्तचाप के लिए चिकित्सा शब्द है।",
+                "ur": "ہائی بلڈ پریشر مسلسل ہائی بلڈ پریشر کے لیے طبی اصطلاح ہے۔",
+                "tr": "Hipertansiyon, sürekli yüksek kan basıncı için kullanılan tıbbi terimdir."
+            },
+            "points": 10,
+            "id": "e21_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Eine ______ ist eine Störung der Herzfrequenz oder des Herzrhythmus.",
+                "en": "An ______ is a disturbance in the heart rate or rhythm.",
+                "bn": "একটি ______ হল হৃদস্পন্দন বা ছন্দের একটি ব্যাঘাত।",
+                "hi": "एक ______ हृदय गति या ताल में गड़बड़ी है।",
+                "ur": "ایک ______ دل کی دھڑکن یا تال میں خلل ہے۔",
+                "tr": "______ kalp atış hızı veya ritmindeki bir bozukluktur."
+            },
+            "correctAnswer": "Arrhythmie",
+            "explanation": {
+                "en": "Arrhythmia is the medical term for an irregular heart rhythm.",
+                "bn": "অ্যারিথমিয়া হল অনিয়মিত হৃদস্পন্দনের চিকিৎসা শব্দ।",
+                "hi": "अतालता अनियमित हृदय गति के लिए चिकित्सा शब्द है।",
+                "ur": "بے ترتیب دل کی دھڑکن کے لیے اریتھمیا طبی اصطلاح ہے۔",
+                "tr": "Aritmi, düzensiz kalp ritmi için kullanılan tıbbi terimdir."
+            },
+            "points": 10,
+            "id": "e21_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Das ______ ist eine Aufzeichnung der elektrischen Aktivität des Herzens.",
+                "en": "The ______ is a recording of the electrical activity of the heart.",
+                "bn": "______ হৃদপিণ্ডের বৈদ্যুতিক কার্যকলাপের একটি রেকর্ডিং।",
+                "hi": "______ हृदय की विद्युत गतिविधि की रिकॉर्डिंग है।",
+                "ur": "______ دل کی برقی سرگرمی کی ریکارڈنگ ہے۔",
+                "tr": "______ kalbin elektriksel aktivitesinin bir kaydıdır."
+            },
+            "correctAnswer": "EKG",
+            "explanation": {
+                "en": "ECG (Electrocardiogram) records the heart's electrical activity.",
+                "bn": "ইসিজি (ইলেক্ট্রোকার্ডিওগ্রাম) হৃদপিণ্ডের বৈদ্যুতিক কার্যকলাপ রেকর্ড করে।",
+                "hi": "ईसीजी (इलेक्ट्रोकार्डियोग्राम) हृदय की विद्युत गतिविधि को रिकॉर्ड करता है।",
+                "ur": "ای سی جی (الیکٹروکارڈیوگرام) دل کی برقی سرگرمی کو ریکارڈ کرتا ہے۔",
+                "tr": "EKG (Elektrokardiyogram) kalbin elektriksel aktivitesini kaydeder."
+            },
+            "points": 10,
+            "id": "e21_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Der Patient hat eine schwere Herzinsuffizienz.",
+                "en": "The patient has severe heart failure.",
+                "bn": "রোগীর মারাত্মক হার্ট ফেইলিউর হয়েছে।",
+                "hi": "मरीज को गंभीर हृदय विफलता है।",
+                "ur": "مریض کو شدید دل کی ناکامی ہے۔",
+                "tr": "Hastanın şiddetli kalp yetmezliği var."
+            },
+            "correctAnswer": "The patient has severe heart failure.",
+            "explanation": {
+                "en": "Direct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সরাসরি অনুবাদ।",
+                "hi": "जर्मन वाक्य का सीधा अनुवाद।",
+                "ur": "جرمن جملے کا براہ راست ترجمہ۔",
+                "tr": "Alman cümlesinin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e21_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Er hatte einen Myokardinfarkt vor drei Monaten.",
+                "en": "He had a myocardial infarction three months ago.",
+                "bn": "তিন মাস আগে তার মায়োকার্ডিয়াল ইনফার্কশন হয়েছিল।",
+                "hi": "उसे तीन महीने पहले मायोकार्डियल इंफार्क्शन हुआ था।",
+                "ur": "اسے تین ماہ قبل مایوکارڈیل انفکشن ہوا تھا۔",
+                "tr": "Üç ay önce miyokard enfarktüsü geçirdi."
+            },
+            "correctAnswer": "He had a myocardial infarction three months ago.",
+            "explanation": {
+                "en": "Direct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সরাসরি অনুবাদ।",
+                "hi": "जर्मन वाक्य का सीधा अनुवाद।",
+                "ur": "جرمن جملے کا براہ راست ترجمہ۔",
+                "tr": "Alman cümlesinin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e21_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Hypertonie des Patienten ist schwer zu kontrollieren.",
+                "en": "The patient's hypertension is difficult to control.",
+                "bn": "রোগীর উচ্চ রক্তচাপ নিয়ন্ত্রণ করা কঠিন।",
+                "hi": "मरीज के उच्च रक्तचाप को नियंत्रित करना मुश्किल है।",
+                "ur": "مریض کے ہائی بلڈ پریشر کو کنٹرول کرنا مشکل ہے۔",
+                "tr": "Hastanın hipertansiyonunu kontrol etmek zor."
+            },
+            "correctAnswer": "The patient's hypertension is difficult to control.",
+            "explanation": {
+                "en": "Direct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সরাসরি অনুবাদ।",
+                "hi": "जर्मन वाक्य का सीधा अनुवाद।",
+                "ur": "جرمن جملے کا براہ راست ترجمہ۔",
+                "tr": "Alman cümlesinin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e21_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

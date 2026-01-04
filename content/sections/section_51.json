@@ -1,1 +1,1654 @@
-{"id":"section_51","phaseId":"phase3","order":51,"titleDe":"Notfallmedizin","title":{"en":"Emergency Medicine","bn":"Emergency Medicine","hi":"Emergency Medicine","ur":"Emergency Medicine","tr":"Emergency Medicine"},"level":"C1","estimatedMinutes":45,"vocabulary":[{"id":"v51_01","germanTerm":"Fachwort","article":"das","plural":"Fachwörter","translation":{"en":"Specialist Term","bn":"বিশেষজ্ঞ শব্দ","hi":"विशेषज्ञ शब्द","ur":"ماہر اصطلاح","tr":"Uzman terimi"}}],"dialogues":[{"id":"d51_01","title":{"en":"Emergency Medicine Scenario"},"lines":[{"speaker":"Facharzt","germanText":"Clinical dialogue for Emergency Medicine.","translation":{"en":"Clinical dialogue for Emergency Medicine."}}]}],"exercises":[{"id":"e51_01","type":"multipleChoice","question":{"en":"Question about Emergency Medicine?"},"options":["A","B","C"],"correctAnswer":"A","points":15}],"media":{"introVideoUrl":"video/sections/section_51/intro.mp4","dialogueVideoUrl":"video/sections/section_51/dialogue.mp4"}}
+{
+    "id": "section_51",
+    "phaseId": "phase3",
+    "order": 51,
+    "titleDe": "Notfallmedizin",
+    "title": {
+        "en": "Emergency Medicine: Emergency, Resuscitation, ACLS, BLS, Shock, Trauma, Emergency Room",
+        "bn": "জরুরী চিকিৎসা: জরুরি অবস্থা, পুনরুজ্জীবন, ACLS, BLS, শক, ট্রমা, জরুরি বিভাগ",
+        "hi": "आपातकालीन चिकित्सा: आपातकाल, पुनर्जीवन, ACLS, BLS, सदमा, अभिघात, आपातकालीन कक्ष",
+        "ur": "ہنگامی طب: ایمرجنسی، بحالی، اے سی ایل ایس، بی ایل ایس، صدمہ، صدمہ، ایمرجنسی روم",
+        "tr": "Acil Tıp: Acil Durum, Resüsitasyon, ACLS, BLS, Şok, Travma, Acil Servis",
+        "de": "Notfallmedizin: Notfall, Reanimation, ACLS, BLS, Schock, Trauma, Notaufnahme"
+    },
+    "description": {
+        "en": "This section covers essential vocabulary and procedures related to emergency medicine in a German-speaking medical context.",
+        "bn": "এই বিভাগে জার্মান-ভাষী চিকিৎসা প্রেক্ষাপটে জরুরি চিকিৎসার সাথে সম্পর্কিত প্রয়োজনীয় শব্দভাণ্ডার এবং পদ্ধতিগুলি অন্তর্ভুক্ত করা হয়েছে।",
+        "hi": "इस अनुभाग में जर्मन भाषी चिकित्सा संदर्भ में आपातकालीन चिकित्सा से संबंधित आवश्यक शब्दावली और प्रक्रियाओं को शामिल किया गया है।",
+        "ur": "اس سیکشن میں جرمن بولنے والے طبی تناظر میں ہنگامی طب سے متعلق ضروری الفاظ اور طریقہ کار شامل ہیں۔",
+        "tr": "Bu bölüm, Almanca konuşulan tıbbi bağlamda acil tıpla ilgili temel kelime dağarcığını ve prosedürleri kapsar.",
+        "de": "Dieser Abschnitt behandelt wichtige Vokabeln und Verfahren im Zusammenhang mit der Notfallmedizin in einem deutschsprachigen medizinischen Kontext."
+    },
+    "level": "C1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "Welcome to the module on Emergency Medicine! You will learn how to communicate effectively in emergency situations and understand common emergency procedures in German.",
+            "bn": "জরুরী চিকিৎসা মডিউলে স্বাগতম! আপনি জার্মান ভাষায় জরুরি পরিস্থিতিতে কার্যকরভাবে যোগাযোগ করতে এবং সাধারণ জরুরি প্রক্রিয়াগুলি বুঝতে শিখবেন।",
+            "hi": "आपातकालीन चिकित्सा मॉड्यूल में आपका स्वागत है! आप जर्मन में आपातकालीन स्थितियों में प्रभावी ढंग से संवाद करना और सामान्य आपातकालीन प्रक्रियाओं को समझना सीखेंगे।",
+            "ur": "ہنگامی طب کے ماڈیول میں خوش آمدید! آپ جرمن میں ہنگامی حالات میں مؤثر طریقے سے بات چیت کرنا اور عام ہنگامی طریقہ کار کو سمجھنا سیکھیں گے۔",
+            "tr": "Acil Tıp modülüne hoş geldiniz! Almanca'da acil durumlarda etkili bir şekilde nasıl iletişim kuracağınızı ve yaygın acil durum prosedürlerini nasıl anlayacağınızı öğreneceksiniz.",
+            "de": "Willkommen zum Modul Notfallmedizin! Sie lernen, wie man in Notfallsituationen effektiv kommuniziert und gängige Notfallverfahren auf Deutsch versteht."
+        },
+        "grammarFocus": {
+            "en": [
+                "Use of the imperative mood for giving instructions (e.g., \"Atmen Sie!\" - Breathe!).",
+                "Formation of passive sentences to describe procedures (e.g., \"Der Patient wird reanimiert.\" - The patient is being resuscitated.)"
+            ],
+            "bn": [
+                "নির্দেশ দেওয়ার জন্য imperative mood ব্যবহার (যেমন, \"Atmen Sie!\" - শ্বাস নিন)।",
+                "পদ্ধতি বর্ণনা করার জন্য passive বাক্য গঠন (যেমন, \"Der Patient wird reanimiert.\" - রোগীকে পুনরুজ্জীবিত করা হচ্ছে।)"
+            ],
+            "hi": [
+                "निर्देश देने के लिए imperative mood का उपयोग (जैसे, \"Atmen Sie!\" - साँस लें!)।",
+                "प्रक्रियाओं का वर्णन करने के लिए निष्क्रिय वाक्यों का गठन (जैसे, \"Der Patient wird reanimiert.\" - रोगी को पुनर्जीवित किया जा रहा है।)"
+            ],
+            "ur": [
+                "ہدایات دینے کے لیے imperative mood کا استعمال (مثال کے طور پر، \"Atmen Sie!\" - سانس لیں!)۔",
+                "طریقہ کار کو بیان کرنے کے لیے passive جملوں کی تشکیل (مثال کے طور پر، \"Der Patient wird reanimiert.\" - مریض کو بحال کیا جا رہا ہے۔)"
+            ],
+            "tr": [
+                "Talimat vermek için emir kipinin kullanımı (örneğin, \"Atmen Sie!\" - Nefes alın!).",
+                "Prosedürleri tanımlamak için edilgen cümlelerin oluşturulması (örneğin, \"Der Patient wird reanimiert.\" - Hastaya resüsitasyon yapılıyor.)"
+            ],
+            "de": [
+                "Gebrauch des Imperativs zur Erteilung von Anweisungen (z.B. \"Atmen Sie!\" - Atmen Sie!).",
+                "Bildung von Passivsätzen zur Beschreibung von Verfahren (z.B. \"Der Patient wird reanimiert.\" - Der Patient wird reanimiert.)"
+            ]
+        },
+        "culturalNotes": {
+            "en": "In German hospitals, efficiency and direct communication are highly valued in emergency situations.",
+            "bn": "জার্মান হাসপাতালগুলিতে, জরুরি পরিস্থিতিতে দক্ষতা এবং সরাসরি যোগাযোগকে অত্যন্ত মূল্যবান বলে মনে করা হয়।",
+            "hi": "जर्मन अस्पतालों में, आपातकालीन स्थितियों में दक्षता और सीधे संचार को अत्यधिक महत्व दिया जाता है।",
+            "ur": "جرمن ہسپتالوں میں، ہنگامی حالات میں کارکردگی اور براہ راست مواصلات کو بہت اہمیت دی جاتی ہے۔",
+            "tr": "Alman hastanelerinde, acil durumlarda verimlilik ve doğrudan iletişim oldukça değerlidir.",
+            "de": "In deutschen Krankenhäusern werden Effizienz und direkte Kommunikation in Notfallsituationen hoch geschätzt."
+        },
+        "summary": {
+            "en": "This section equips you with the language skills necessary to handle basic emergency scenarios in a German medical setting.",
+            "bn": "এই বিভাগটি আপনাকে জার্মান চিকিৎসা সেটিংয়ে প্রাথমিক জরুরি পরিস্থিতিগুলি সামাল দেওয়ার জন্য প্রয়োজনীয় ভাষা দক্ষতা দিয়ে সজ্জিত করে।",
+            "hi": "यह खंड आपको जर्मन चिकित्सा सेटिंग में बुनियादी आपातकालीन परिदृश्यों को संभालने के लिए आवश्यक भाषा कौशल से लैस करता है।",
+            "ur": "یہ سیکشن آپ کو جرمن طبی ترتیب میں بنیادی ہنگامی منظرناموں سے نمٹنے کے لیے ضروری لسانی مہارتوں سے آراستہ کرتا ہے۔",
+            "tr": "Bu bölüm sizi, Alman tıbbi ortamında temel acil durum senaryolarını ele almak için gerekli dil becerileriyle donatır.",
+            "de": "Dieser Abschnitt vermittelt Ihnen die Sprachkenntnisse, die erforderlich sind, um grundlegende Notfallszenarien in einem deutschen medizinischen Umfeld zu bewältigen."
+        },
+        "learningObjectives": [
+            "Identify and understand key vocabulary related to emergency medicine.",
+            "Describe emergency procedures and protocols in German.",
+            "Communicate effectively with patients and medical personnel during an emergency.",
+            "Apply grammatical structures relevant to emergency medicine scenarios."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "der Notfall",
+            "article": "der",
+            "plural": "die Notfälle",
+            "pronunciation": "ˈnoːtfal",
+            "category": "noun",
+            "translation": {
+                "en": "emergency",
+                "bn": "জরুরী অবস্থা",
+                "hi": "आपातकाल",
+                "ur": "ایمرجنسی",
+                "tr": "acil durum"
+            },
+            "exampleSentence": "Der Patient kam mit einem akuten Notfall in die Notaufnahme.",
+            "exampleTranslation": {
+                "en": "The patient came to the emergency room with an acute emergency.",
+                "bn": "রোগী একটি তীব্র জরুরি অবস্থা নিয়ে জরুরি বিভাগে এসেছিলেন।",
+                "hi": "रोगी एक तीव्र आपातकाल के साथ आपातकालीन कक्ष में आया।",
+                "ur": "مریض ایک شدید ایمرجنسی کے ساتھ ایمرجنسی روم میں آیا۔",
+                "tr": "Hasta acil bir durumla acil servise geldi."
+            },
+            "id": "v51_01"
+        },
+        {
+            "germanTerm": "die Reanimation",
+            "article": "die",
+            "plural": "die Reanimationen",
+            "pronunciation": "ʁe.a.ni.maˈt͡si̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "resuscitation",
+                "bn": "পুনরুজ্জীবন",
+                "hi": "पुनर्जीवन",
+                "ur": "احیا",
+                "tr": "resüsitasyon"
+            },
+            "exampleSentence": "Die Reanimation wurde sofort nach dem Herzstillstand eingeleitet.",
+            "exampleTranslation": {
+                "en": "Resuscitation was initiated immediately after the cardiac arrest.",
+                "bn": "হৃদরোগে আক্রান্ত হওয়ার সাথে সাথেই পুনরুজ্জীবন শুরু করা হয়েছিল।",
+                "hi": "हृदय गति रुकने के तुरंत बाद पुनर्जीवन शुरू किया गया था।",
+                "ur": "دل کے دورے کے فورا بعد بحالی شروع کردی گئی۔",
+                "tr": "Kardiyak arrestten hemen sonra resüsitasyona başlandı."
+            },
+            "id": "v51_02"
+        },
+        {
+            "germanTerm": "ACLS (Advanced Cardiac Life Support)",
+            "article": "der",
+            "plural": "ACLS-Kurse",
+            "pronunciation": "ˌaːt͡seːˌɛlˈʔɛs",
+            "category": "noun",
+            "translation": {
+                "en": "ACLS (Advanced Cardiac Life Support)",
+                "bn": "এসিএলএস (অ্যাডভান্সড কার্ডিয়াক লাইফ সাপোর্ট)",
+                "hi": "एसीएलएस (एडवांस्ड कार्डियक लाइफ सपोर्ट)",
+                "ur": "اے سی ایل ایس (ایڈوانسڈ کارڈیک لائف سپورٹ)",
+                "tr": "ACLS (İleri Kardiyak Yaşam Desteği)"
+            },
+            "exampleSentence": "Der Arzt hat seinen ACLS-Kurs erfolgreich abgeschlossen.",
+            "exampleTranslation": {
+                "en": "The doctor successfully completed his ACLS course.",
+                "bn": "ডাক্তার সফলভাবে তার এসিএলএস কোর্স সম্পন্ন করেছেন।",
+                "hi": "डॉक्टर ने सफलतापूर्वक अपना एसीएलएस कोर्स पूरा कर लिया।",
+                "ur": "ڈاکٹر نے کامیابی سے اپنا اے سی ایل ایس کورس مکمل کرلیا۔",
+                "tr": "Doktor ACLS kursunu başarıyla tamamladı."
+            },
+            "id": "v51_03"
+        },
+        {
+            "germanTerm": "BLS (Basic Life Support)",
+            "article": "der",
+            "plural": "BLS-Kurse",
+            "pronunciation": "ˌbeːˌʔɛlˈʔɛs",
+            "category": "noun",
+            "translation": {
+                "en": "BLS (Basic Life Support)",
+                "bn": "বিএলএস (বেসিক লাইফ সাপোর্ট)",
+                "hi": "बीएलएस (बेसिक लाइफ सपोर्ट)",
+                "ur": "بی ایل ایس (بیسک لائف سپورٹ)",
+                "tr": "BLS (Temel Yaşam Desteği)"
+            },
+            "exampleSentence": "Jeder Ersthelfer sollte einen BLS-Kurs absolvieren.",
+            "exampleTranslation": {
+                "en": "Every first aider should complete a BLS course.",
+                "bn": "প্রত্যেক প্রথম সাহায্যকারীকে একটি বিএলএস কোর্স সম্পন্ন করা উচিত।",
+                "hi": "हर प्राथमिक उपचारकर्ता को बीएलएस कोर्स पूरा करना चाहिए।",
+                "ur": "ہر فرسٹ ایڈ دینے والے کو بی ایل ایس کورس مکمل کرنا چاہئے۔",
+                "tr": "Her ilk yardımcının bir BLS kursunu tamamlaması gerekir."
+            },
+            "id": "v51_04"
+        },
+        {
+            "germanTerm": "der Schock",
+            "article": "der",
+            "plural": "die Schocks",
+            "pronunciation": "ʃɔk",
+            "category": "noun",
+            "translation": {
+                "en": "shock",
+                "bn": "শক",
+                "hi": "सदमा",
+                "ur": "صدمہ",
+                "tr": "şok"
+            },
+            "exampleSentence": "Der Patient zeigte Anzeichen eines hypovolämischen Schocks.",
+            "exampleTranslation": {
+                "en": "The patient showed signs of hypovolemic shock.",
+                "bn": "রোগী হাইপোভোলেমীয় শকের লক্ষণ দেখিয়েছেন।",
+                "hi": "रोगी ने हाइपोवोलेमिक सदमे के लक्षण दिखाए।",
+                "ur": "مریض نے ہائپو ولیمک صدمے کی علامات ظاہر کیں۔",
+                "tr": "Hasta hipovolemik şok belirtileri gösterdi."
+            },
+            "id": "v51_05"
+        },
+        {
+            "germanTerm": "das Trauma",
+            "article": "das",
+            "plural": "die Traumata/die Traumen",
+            "pronunciation": "ˈtʁaʊ̯ma",
+            "category": "noun",
+            "translation": {
+                "en": "trauma",
+                "bn": "আঘাত",
+                "hi": "आघात",
+                "ur": "صدمہ",
+                "tr": "travma"
+            },
+            "exampleSentence": "Der Patient erlitt ein schweres Schädel-Hirn-Trauma.",
+            "exampleTranslation": {
+                "en": "The patient suffered a severe traumatic brain injury.",
+                "bn": "রোগী একটি গুরুতর আঘাতমূলক মস্তিষ্কের আঘাতে ভুগছিলেন।",
+                "hi": "रोगी को गंभीर दर्दनाक मस्तिष्क की चोट लगी।",
+                "ur": "مریض کو دماغی چوٹ لگی۔",
+                "tr": "Hasta ciddi bir travmatik beyin hasarı geçirdi."
+            },
+            "id": "v51_06"
+        },
+        {
+            "germanTerm": "die Notaufnahme",
+            "article": "die",
+            "plural": "die Notaufnahmen",
+            "pronunciation": "ˈnoːtˌʔaʊ̯fnaːmə",
+            "category": "noun",
+            "translation": {
+                "en": "emergency room",
+                "bn": "জরুরী বিভাগ",
+                "hi": "आपातकालीन कक्ष",
+                "ur": "ایمرجنسی روم",
+                "tr": "acil servis"
+            },
+            "exampleSentence": "Die Notaufnahme war an diesem Abend sehr belebt.",
+            "exampleTranslation": {
+                "en": "The emergency room was very busy that evening.",
+                "bn": "জরুরী বিভাগটি সেই সন্ধ্যায় খুব ব্যস্ত ছিল।",
+                "hi": "उस शाम आपातकालीन कक्ष बहुत व्यस्त था।",
+                "ur": "اس شام ایمرجنسی روم بہت مصروف تھا۔",
+                "tr": "O akşam acil servis çok yoğundu."
+            },
+            "id": "v51_07"
+        },
+        {
+            "germanTerm": "bewusstlos",
+            "article": "kein",
+            "plural": "keine",
+            "pronunciation": "bəˈvʊstlɔs",
+            "category": "adjective",
+            "translation": {
+                "en": "unconscious",
+                "bn": "অচেতন",
+                "hi": "बेहोश",
+                "ur": "بے ہوش",
+                "tr": "bilinçsiz"
+            },
+            "exampleSentence": "Der Patient wurde bewusstlos am Unfallort gefunden.",
+            "exampleTranslation": {
+                "en": "The patient was found unconscious at the scene of the accident.",
+                "bn": "রোগীকে দুর্ঘটনার স্থলে অচেতন অবস্থায় পাওয়া গেছে।",
+                "hi": "रोगी को दुर्घटनास्थल पर बेहोश पाया गया।",
+                "ur": "مریض کو حادثے کی جگہ پر بے ہوش پایا گیا۔",
+                "tr": "Hasta kaza yerinde bilinçsiz bulundu."
+            },
+            "id": "v51_08"
+        },
+        {
+            "germanTerm": "die Atemnot",
+            "article": "die",
+            "plural": "keine",
+            "pronunciation": "ˈaːtəmˌnoːt",
+            "category": "noun",
+            "translation": {
+                "en": "shortness of breath",
+                "bn": "শ্বাসকষ্ট",
+                "hi": "सांस की तकलीफ",
+                "ur": "سانس کی تنگی",
+                "tr": "nefes darlığı"
+            },
+            "exampleSentence": "Der Patient klagte über starke Atemnot.",
+            "exampleTranslation": {
+                "en": "The patient complained of severe shortness of breath.",
+                "bn": "রোগী তীব্র শ্বাসকষ্টের অভিযোগ করেছেন।",
+                "hi": "रोगी ने सांस की गंभीर तकलीफ की शिकायत की।",
+                "ur": "مریض نے سانس کی شدید تکلیف کی شکایت کی۔",
+                "tr": "Hasta şiddetli nefes darlığından şikayet etti."
+            },
+            "id": "v51_09"
+        },
+        {
+            "germanTerm": "der Herzstillstand",
+            "article": "der",
+            "plural": "die Herzstillstände",
+            "pronunciation": "ˈhɛʁt͡sˌʃtɪlʃtant",
+            "category": "noun",
+            "translation": {
+                "en": "cardiac arrest",
+                "bn": "হৃদরোগ",
+                "hi": "हृदय गति रुकना",
+                "ur": "دل کا دورہ",
+                "tr": "kalp durması"
+            },
+            "exampleSentence": "Nach dem Herzstillstand wurde sofort mit der Reanimation begonnen.",
+            "exampleTranslation": {
+                "en": "Resuscitation was started immediately after the cardiac arrest.",
+                "bn": "হৃদরোগে আক্রান্ত হওয়ার সাথে সাথেই পুনরুজ্জীবন শুরু করা হয়েছিল।",
+                "hi": "हृदय गति रुकने के तुरंत बाद पुनर्जीवन शुरू किया गया था।",
+                "ur": "دل کا دورہ پڑنے کے فورا بعد بحالی شروع کردی گئی۔",
+                "tr": "Kalp durmasından hemen sonra resüsitasyona başlandı."
+            },
+            "id": "v51_10"
+        },
+        {
+            "germanTerm": "der Defibrillator",
+            "article": "der",
+            "plural": "die Defibrillatoren",
+            "pronunciation": "de.fi.bʁɪˈlaːtoːɐ̯",
+            "category": "noun",
+            "translation": {
+                "en": "defibrillator",
+                "bn": "ডিফিব্রিলেটর",
+                "hi": "डिफिब्रिलेटर",
+                "ur": "ڈیفبریلیٹر",
+                "tr": "defibrilatör"
+            },
+            "exampleSentence": "Der Defibrillator wurde eingesetzt, um den Patienten zu defibrillieren.",
+            "exampleTranslation": {
+                "en": "The defibrillator was used to defibrillate the patient.",
+                "bn": "রোগীকে ডিফাইব্রিলেট করার জন্য ডিফাইব্রিলেটর ব্যবহার করা হয়েছিল।",
+                "hi": "रोगी को डिफाइब्रिलेट करने के लिए डिफाइब्रिलेटर का इस्तेमाल किया गया था।",
+                "ur": "مریض کو ڈیفبریلیٹ کرنے کے لئے ڈیفبریلیٹر کا استعمال کیا گیا۔",
+                "tr": "Hastayı defibrile etmek için defibrilatör kullanıldı."
+            },
+            "id": "v51_11"
+        },
+        {
+            "germanTerm": "die Intubation",
+            "article": "die",
+            "plural": "die Intubationen",
+            "pronunciation": "ɪntubaˈt͡si̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "intubation",
+                "bn": "ইনটিউবেশন",
+                "hi": "इंट्यूबेशन",
+                "ur": "انٹیوبیشن",
+                "tr": "entübasyon"
+            },
+            "exampleSentence": "Die Intubation war notwendig, um die Atemwege des Patienten zu sichern.",
+            "exampleTranslation": {
+                "en": "Intubation was necessary to secure the patient's airway.",
+                "bn": "রোগীর শ্বাস প্রশ্বাসের পথ সুরক্ষিত করার জন্য ইনটিউবেশন প্রয়োজন ছিল।",
+                "hi": "रोगी की वायुमार्ग को सुरक्षित करने के लिए इंट्यूबेशन आवश्यक था।",
+                "ur": "مریض کی سانس کی نالی کو محفوظ بنانے کے لئے انٹیوبیشن ضروری تھا۔",
+                "tr": "Hastanın hava yolunu güvenceye almak için entübasyon gerekliydi."
+            },
+            "id": "v51_12"
+        },
+        {
+            "germanTerm": "die Beatmung",
+            "article": "die",
+            "plural": "die Beatmungen",
+            "pronunciation": "bəˈʔaːtmʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "ventilation",
+                "bn": "বায়ুচলাচল",
+                "hi": "वेंटिलेशन",
+                "ur": "وینٹیلیشن",
+                "tr": "ventilasyon"
+            },
+            "exampleSentence": "Der Patient benötigte eine maschinelle Beatmung.",
+            "exampleTranslation": {
+                "en": "The patient required mechanical ventilation.",
+                "bn": "রোগীর যান্ত্রিক বায়ুচলাচলের প্রয়োজন ছিল।",
+                "hi": "रोगी को यांत्रिक वेंटिलेशन की आवश्यकता थी।",
+                "ur": "مریض کو میکانکی وینٹیلیشن کی ضرورت تھی۔",
+                "tr": "Hastanın mekanik ventilasyona ihtiyacı vardı."
+            },
+            "id": "v51_13"
+        },
+        {
+            "germanTerm": "die Fraktur",
+            "article": "die",
+            "plural": "die Frakturen",
+            "pronunciation": "fʁakˈtuːɐ̯",
+            "category": "noun",
+            "translation": {
+                "en": "fracture",
+                "bn": "ফাটল",
+                "hi": "अस्थिभंग",
+                "ur": "فریکچر",
+                "tr": "kırık"
+            },
+            "exampleSentence": "Der Röntgenbefund zeigte eine offene Fraktur des Unterarms.",
+            "exampleTranslation": {
+                "en": "The X-ray showed an open fracture of the forearm.",
+                "bn": "এক্স-রে রিপোর্টে অগ্রবাহুর একটি খোলা ফাটল দেখা গেছে।",
+                "hi": "एक्स-रे रिपोर्ट में प्रकोष्ठ का खुला फ्रैक्चर दिखाया गया है।",
+                "ur": "ایکس رے رپورٹ میں بازو کا کھلا فریکچر دکھایا گیا ہے۔",
+                "tr": "Röntgen raporu ön kolun açık bir kırığını gösterdi."
+            },
+            "id": "v51_14"
+        },
+        {
+            "germanTerm": "die Blutung",
+            "article": "die",
+            "plural": "die Blutungen",
+            "pronunciation": "ˈbluːtʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "bleeding",
+                "bn": "রক্তপাত",
+                "hi": "रक्तस्त्राव",
+                "ur": "خون بہنا",
+                "tr": "kanama"
+            },
+            "exampleSentence": "Die Blutung wurde mit einem Druckverband gestillt.",
+            "exampleTranslation": {
+                "en": "The bleeding was stopped with a pressure bandage.",
+                "bn": "চাপ ব্যান্ডেজ দিয়ে রক্তপাত বন্ধ করা হয়েছিল।",
+                "hi": "दबाव पट्टी से रक्तस्राव को रोका गया था।",
+                "ur": "دباؤ والی پٹی سے خون بہنا بند کیا گیا۔",
+                "tr": "Kanama, basınçlı bir bandajla durduruldu."
+            },
+            "id": "v51_15"
+        },
+        {
+            "germanTerm": "die Wunde",
+            "article": "die",
+            "plural": "die Wunden",
+            "pronunciation": "ˈvʊndə",
+            "category": "noun",
+            "translation": {
+                "en": "wound",
+                "bn": "ক্ষত",
+                "hi": "घाव",
+                "ur": "زخم",
+                "tr": "yara"
+            },
+            "exampleSentence": "Die Wunde wurde desinfiziert und verbunden.",
+            "exampleTranslation": {
+                "en": "The wound was disinfected and bandaged.",
+                "bn": "ক্ষতটি জীবাণুমুক্ত করে বাঁধা হয়েছিল।",
+                "hi": "घाव को कीटाणुरहित और बांध दिया गया।",
+                "ur": "زخم کو جراثیم کش اور باندھ دیا گیا۔",
+                "tr": "Yara dezenfekte edildi ve sarıldı."
+            },
+            "id": "v51_16"
+        },
+        {
+            "germanTerm": "stabilisieren",
+            "article": "kein",
+            "plural": "keine",
+            "pronunciation": "ʃtabiliˈziːʁən",
+            "category": "verb",
+            "translation": {
+                "en": "to stabilize",
+                "bn": "স্থিতিশীল করা",
+                "hi": "स्थिर करना",
+                "ur": "مستحکم کرنا",
+                "tr": "dengelemek"
+            },
+            "exampleSentence": "Wir müssen den Patienten zuerst stabilisieren.",
+            "exampleTranslation": {
+                "en": "We need to stabilize the patient first.",
+                "bn": "আমাদের প্রথমে রোগীকে স্থিতিশীল করতে হবে।",
+                "hi": "हमें पहले रोगी को स्थिर करने की आवश्यकता है।",
+                "ur": "ہمیں پہلے مریض کو مستحکم کرنے کی ضرورت ہے۔",
+                "tr": "Önce hastayı dengelememiz gerekiyor."
+            },
+            "id": "v51_17"
+        },
+        {
+            "germanTerm": "die Anamnese",
+            "article": "die",
+            "plural": "die Anamnesen",
+            "pronunciation": "anaˈmneːzə",
+            "category": "noun",
+            "translation": {
+                "en": "medical history",
+                "bn": "চিকিৎসা ইতিহাস",
+                "hi": "चिकित्सा इतिहास",
+                "ur": "طبی تاریخ",
+                "tr": "tıbbi geçmiş"
+            },
+            "exampleSentence": "Die Anamnese wurde sorgfältig erhoben.",
+            "exampleTranslation": {
+                "en": "The medical history was carefully taken.",
+                "bn": "চিকিৎসা ইতিহাস সাবধানে নেওয়া হয়েছিল।",
+                "hi": "चिकित्सा इतिहास सावधानीपूर्वक लिया गया था।",
+                "ur": "طبی تاریخ احتیاط سے لی گئی تھی۔",
+                "tr": "Tıbbi geçmiş dikkatlice alındı."
+            },
+            "id": "v51_18"
+        },
+        {
+            "germanTerm": "die Vitalparameter",
+            "article": "die",
+            "plural": "keine",
+            "pronunciation": "viˈtaːlpaʁaˌmeːtɐ",
+            "category": "noun",
+            "translation": {
+                "en": "vital signs",
+                "bn": "গুরুত্বপূর্ণ লক্ষণ",
+                "hi": "महत्वपूर्ण संकेत",
+                "ur": "اہم علامات",
+                "tr": "hayati belirtiler"
+            },
+            "exampleSentence": "Die Vitalparameter des Patienten wurden kontinuierlich überwacht.",
+            "exampleTranslation": {
+                "en": "The patient's vital signs were continuously monitored.",
+                "bn": "রোগীর গুরুত্বপূর্ণ লক্ষণগুলি ক্রমাগত পর্যবেক্ষণ করা হয়েছিল।",
+                "hi": "रोगी के महत्वपूर्ण संकेतों की लगातार निगरानी की गई।",
+                "ur": "مریض کی اہم علامات کی مسلسل نگرانی کی گئی۔",
+                "tr": "Hastanın hayati belirtileri sürekli olarak izlendi."
+            },
+            "id": "v51_19"
+        },
+        {
+            "germanTerm": "die Infusion",
+            "article": "die",
+            "plural": "die Infusionen",
+            "pronunciation": "ɪnfuˈzi̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "infusion",
+                "bn": "ইনফিউশন",
+                "hi": "आधान",
+                "ur": "انفیوژن",
+                "tr": "infüzyon"
+            },
+            "exampleSentence": "Der Patient erhielt eine Infusion mit Kochsalzlösung.",
+            "exampleTranslation": {
+                "en": "The patient received an infusion with saline solution.",
+                "bn": "রোগীকে স্যালাইন দ্রবণ দিয়ে ইনফিউশন দেওয়া হয়েছিল।",
+                "hi": "रोगी को सेलाइन घोल से आधान दिया गया।",
+                "ur": "مریض کو نمکین محلول کے ساتھ انفیوژن دیا گیا۔",
+                "tr": "Hastaya serum fizyolojik ile infüzyon yapıldı."
+            },
+            "id": "v51_20"
+        },
+        {
+            "germanTerm": "die Analgesie",
+            "article": "die",
+            "plural": "die Analgesien",
+            "pronunciation": "analɡeˈziː",
+            "category": "noun",
+            "translation": {
+                "en": "analgesia",
+                "bn": "বেদনাশূন্যতা",
+                "hi": "एनाल्जेसिया",
+                "ur": "بے حسی",
+                "tr": "analjezi"
+            },
+            "exampleSentence": "Eine ausreichende Analgesie ist wichtig für das Wohlbefinden des Patienten.",
+            "exampleTranslation": {
+                "en": "Adequate analgesia is important for the patient's well-being.",
+                "bn": "রোগীর মঙ্গলের জন্য পর্যাপ্ত বেদনাশূন্যতা গুরুত্বপূর্ণ।",
+                "hi": "रोगी की भलाई के लिए पर्याप्त एनाल्जेसिया महत्वपूर्ण है।",
+                "ur": "مریض کی فلاح و بہبود کے لیے مناسب بے حسی ضروری ہے۔",
+                "tr": "Hastanın iyiliği için yeterli analjezi önemlidir."
+            },
+            "id": "v51_21"
+        },
+        {
+            "germanTerm": "die Sedierung",
+            "article": "die",
+            "plural": "die Sedierungen",
+            "pronunciation": "zeˈdiːʁʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "sedation",
+                "bn": "প্রশান্তি",
+                "hi": "शमन",
+                "ur": "سکون",
+                "tr": "sedasyon"
+            },
+            "exampleSentence": "Der Patient erhielt eine Sedierung vor der Operation.",
+            "exampleTranslation": {
+                "en": "The patient received sedation before the surgery.",
+                "bn": "অস্ত্রোপচারের আগে রোগীকে প্রশান্তি দেওয়া হয়েছিল।",
+                "hi": "ऑपरेशन से पहले रोगी को शमन दिया गया था।",
+                "ur": "آپریشن سے پہلے مریض کو سکون دیا گیا تھا۔",
+                "tr": "Hastaya ameliyattan önce sedasyon verildi."
+            },
+            "id": "v51_22"
+        },
+        {
+            "germanTerm": "die Anaphylaxie",
+            "article": "die",
+            "plural": "die Anaphylaxien",
+            "pronunciation": "anafylakˈsiː",
+            "category": "noun",
+            "translation": {
+                "en": "anaphylaxis",
+                "bn": "অ্যানাফাইল্যাক্সিস",
+                "hi": "एनाफिलेक्सिस",
+                "ur": "انافلیکسس",
+                "tr": "anafilaksi"
+            },
+            "exampleSentence": "Die Anaphylaxie wurde durch eine allergische Reaktion auf das Medikament ausgelöst.",
+            "exampleTranslation": {
+                "en": "The anaphylaxis was triggered by an allergic reaction to the medication.",
+                "bn": "ওষুধের অ্যালার্জি প্রতিক্রিয়ার কারণে অ্যানাফাইল্যাক্সিস ট্রিগার হয়েছিল।",
+                "hi": "दवा के लिए एलर्जी प्रतिक्रिया के कारण एनाफिलेक्सिस शुरू हो गया था।",
+                "ur": "دوا کے لئے الرجک رد عمل کی وجہ سے انافلیکسس شروع ہوا تھا۔",
+                "tr": "Anafilaksi, ilaca karşı alerjik bir reaksiyonla tetiklendi."
+            },
+            "id": "v51_23"
+        },
+        {
+            "germanTerm": "die Vergiftung",
+            "article": "die",
+            "plural": "die Vergiftungen",
+            "pronunciation": "fɛɐ̯ˈɡɪftʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "poisoning",
+                "bn": "বিষক্রিয়া",
+                "hi": "विषाक्तता",
+                "ur": "زہر خورانی",
+                "tr": "zehirlenme"
+            },
+            "exampleSentence": "Die Vergiftung wurde durch den Konsum von giftigen Pilzen verursacht.",
+            "exampleTranslation": {
+                "en": "The poisoning was caused by the consumption of poisonous mushrooms.",
+                "bn": "বিষাক্ত মাশরুম খাওয়ার কারণে বিষক্রিয়া হয়েছিল।",
+                "hi": "विषाक्त मशरूम के सेवन के कारण विषाक्तता हुई थी।",
+                "ur": "زہریلی مشروم کھانے کی وجہ سے زہر خورانی ہوئی تھی۔",
+                "tr": "Zehirlenme, zehirli mantarların tüketilmesiyle meydana geldi."
+            },
+            "id": "v51_24"
+        },
+        {
+            "germanTerm": "der Schlaganfall",
+            "article": "der",
+            "plural": "die Schlaganfälle",
+            "pronunciation": "ˈʃlaːkˌʔanfal",
+            "category": "noun",
+            "translation": {
+                "en": "stroke",
+                "bn": "স্ট্রোক",
+                "hi": "आघात",
+                "ur": "فالج",
+                "tr": "inme"
+            },
+            "exampleSentence": "Der Patient zeigte Symptome eines Schlaganfalls.",
+            "exampleTranslation": {
+                "en": "The patient showed symptoms of a stroke.",
+                "bn": "রোগী স্ট্রোকের লক্ষণ দেখিয়েছেন।",
+                "hi": "रोगी ने स्ट्रोक के लक्षण दिखाए।",
+                "ur": "مریض نے فالج کی علامات ظاہر کیں۔",
+                "tr": "Hasta inme belirtileri gösterdi."
+            },
+            "id": "v51_25"
+        },
+        {
+            "germanTerm": "die Thoraxdrainage",
+            "article": "die",
+            "plural": "die Thoraxdrainagen",
+            "pronunciation": "ˈtoːʁaksdʁɛˈnaːʒə",
+            "category": "noun",
+            "translation": {
+                "en": "chest tube",
+                "bn": "বুকের টিউব",
+                "hi": "चेस्ट ट्यूब",
+                "ur": "چھاتی کی ٹیوب",
+                "tr": "göğüs tüpü"
+            },
+            "exampleSentence": "Nach dem Pneumothorax wurde eine Thoraxdrainage gelegt.",
+            "exampleTranslation": {
+                "en": "A chest tube was inserted after the pneumothorax.",
+                "bn": "নিউমোথোরাক্সের পরে একটি বুকের টিউব ঢোকানো হয়েছিল।",
+                "hi": "न्यूमोथोरैक्स के बाद एक चेस्ट ट्यूब डाला गया था।",
+                "ur": "نیوموتھوراکس کے بعد ایک چھاتی کی ٹیوب ڈالی گئی تھی۔",
+                "tr": "Pnömotoraks sonrası göğüs tüpü yerleştirildi."
+            },
+            "id": "v51_26"
+        },
+        {
+            "germanTerm": "der Sauerstoff",
+            "article": "der",
+            "plural": "keine",
+            "pronunciation": "ˈzaʊ̯ɐˌʃtɔf",
+            "category": "noun",
+            "translation": {
+                "en": "oxygen",
+                "bn": "অক্সিজেন",
+                "hi": "ऑक्सीजन",
+                "ur": "آکسیجن",
+                "tr": "oksijen"
+            },
+            "exampleSentence": "Der Patient erhielt Sauerstoff über eine Nasensonde.",
+            "exampleTranslation": {
+                "en": "The patient received oxygen via a nasal cannula.",
+                "bn": "রোগীকে নাকের নল দিয়ে অক্সিজেন দেওয়া হয়েছিল।",
+                "hi": "रोगी को नाक की नली के माध्यम से ऑक्सीजन दिया गया था।",
+                "ur": "مریض کو ناک کی نالی کے ذریعے آکسیجن دی گئی تھی۔",
+                "tr": "Hastaya burun kanülü yoluyla oksijen verildi."
+            },
+            "id": "v51_27"
+        },
+        {
+            "germanTerm": "die Überwachung",
+            "article": "die",
+            "plural": "die Überwachungen",
+            "pronunciation": "yːbɐˈvaχʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "monitoring",
+                "bn": "পর্যবেক্ষণ",
+                "hi": "निगरानी",
+                "ur": "نگرانی",
+                "tr": "izleme"
+            },
+            "exampleSentence": "Der Patient befindet sich unter ständiger Überwachung.",
+            "exampleTranslation": {
+                "en": "The patient is under constant monitoring.",
+                "bn": "রোগী ক্রমাগত পর্যবেক্ষণে রয়েছেন।",
+                "hi": "रोगी लगातार निगरानी में है।",
+                "ur": "مریض مسلسل نگرانی میں ہے۔",
+                "tr": "Hasta sürekli gözetim altındadır."
+            },
+            "id": "v51_28"
+        },
+        {
+            "germanTerm": "die Diagnose",
+            "article": "die",
+            "plural": "die Diagnosen",
+            "pronunciation": "di̯aˈɡnoːzə",
+            "category": "noun",
+            "translation": {
+                "en": "diagnosis",
+                "bn": "রোগ নির্ণয়",
+                "hi": "निदान",
+                "ur": "تشخیص",
+                "tr": "teşhis"
+            },
+            "exampleSentence": "Die Diagnose wurde nach umfangreichen Untersuchungen gestellt.",
+            "exampleTranslation": {
+                "en": "The diagnosis was made after extensive investigations.",
+                "bn": "বিস্তৃত তদন্তের পরে রোগ নির্ণয় করা হয়েছিল।",
+                "hi": "व्यापक जांच के बाद निदान किया गया था।",
+                "ur": "وسیع تحقیقات کے بعد تشخیص کیا گیا تھا۔",
+                "tr": "Kapsamlı araştırmalardan sonra teşhis konuldu."
+            },
+            "id": "v51_29"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Cardiac Arrest in the Emergency Room",
+                "bn": "জরুরী বিভাগে কার্ডিয়াক অ্যারেস্ট",
+                "hi": "आपातकालीन कक्ष में कार्डियक अरेस्ट",
+                "ur": "ایمرجنسی روم میں کارڈیک اریسٹ",
+                "tr": "Acil Serviste Kalp Durması"
+            },
+            "context": {
+                "en": "A patient collapses in the waiting room. The medical team initiates resuscitation immediately.",
+                "bn": "অপেক্ষমান কক্ষে একজন রোগী অজ্ঞান হয়ে যান। মেডিকেল দল অবিলম্বে পুনরুজ্জীবন শুরু করে।",
+                "hi": "प्रतीक्षा कक्ष में एक मरीज गिर जाता है। मेडिकल टीम तुरंत पुनर्जीवन शुरू करती है।",
+                "ur": "انتظار گاہ میں ایک مریض بے ہوش ہو جاتا ہے۔ طبی ٹیم فوری طور پر ریسیسیٹیشن شروع کر دیتی ہے۔",
+                "tr": "Bir hasta bekleme odasında bayılır. Tıbbi ekip hemen canlandırmaya başlar."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Müller ist kollabiert! Sofort Reanimationswagen und Defibrillator!",
+                    "translation": {
+                        "en": "Mr. Müller has collapsed! Resuscitation cart and defibrillator immediately!",
+                        "bn": "জনাব মুলার অজ্ঞান হয়ে গেছেন! অবিলম্বে পুনরুজ্জীবন কার্ট এবং ডিফিব্রিলেটর!",
+                        "hi": "श्री मुलर गिर गए! तुरंत पुनर्जीवन गाड़ी और डिफिब्रिलेटर!",
+                        "ur": "مسٹر مولر بے ہوش ہوگئے! فوری طور پر ریسیسیٹیشن کارٹ اور ڈیفبریلیٹر!",
+                        "tr": "Bay Müller bayıldı! Derhal resüsitasyon arabası ve defibrilatör!"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Kein Puls! Beginnen wir mit BLS. Schwester, Sauerstoff geben!",
+                    "translation": {
+                        "en": "No pulse! Let's start with BLS. Nurse, give oxygen!",
+                        "bn": "পালস নেই! চলুন BLS দিয়ে শুরু করি। নার্স, অক্সিজেন দিন!",
+                        "hi": "कोई नाड़ी नहीं! चलो बीएलएस के साथ शुरू करते हैं। नर्स, ऑक्सीजन दो!",
+                        "ur": "کوئی نبض نہیں! آئیے بی ایل ایس کے ساتھ شروع کریں۔ نرس، آکسیجن دیں!",
+                        "tr": "Nabız yok! BLS'ye başlayalım. Hemşire, oksijen verin!"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Sauerstoff ist angeschlossen. Beatmungsbeutel ist bereit.",
+                    "translation": {
+                        "en": "Oxygen is connected. Bag valve mask is ready.",
+                        "bn": "অক্সিজেন সংযুক্ত করা হয়েছে। ব্যাগ ভালভ মাস্ক প্রস্তুত।",
+                        "hi": "ऑक्सीजन कनेक्ट हो गया है। बैग वाल्व मास्क तैयार है।",
+                        "ur": "آکسیجن منسلک ہے۔ بیگ والو ماسک تیار ہے۔",
+                        "tr": "Oksijen bağlandı. Balon valf maskesi hazır."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Adrenalin 1 mg i.v. Alle 3-5 Minuten wiederholen. EKG anschließen!",
+                    "translation": {
+                        "en": "Adrenaline 1 mg i.v. Repeat every 3-5 minutes. Attach ECG!",
+                        "bn": "অ্যাড্রেনালিন 1 মিগ্রা আইভি। প্রতি 3-5 মিনিটে পুনরাবৃত্তি করুন। ইসিজি সংযোগ করুন!",
+                        "hi": "एड्रेनालाईन 1 मिलीग्राम आई.वी. हर 3-5 मिनट में दोहराएं। ईसीजी लगाएं!",
+                        "ur": "ایڈرینالین 1 ملی گرام آئی وی۔ ہر 3-5 منٹ میں دہرائیں۔ ای سی جی منسلک کریں!",
+                        "tr": "Adrenalin 1 mg i.v. Her 3-5 dakikada bir tekrarlayın. EKG'yi bağlayın!"
+                    }
+                },
+                {
+                    "speaker": "Oberarzt Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Was haben wir? Asystolie? ACLS Protokoll befolgen! Gibt es eine Patientenverfügung?",
+                    "translation": {
+                        "en": "What do we have? Asystole? Follow the ACLS protocol! Is there an advance directive?",
+                        "bn": "আমাদের কী আছে? অ্যাসিস্টোল? ACLS প্রোটোকল অনুসরণ করুন! কোনো অগ্রিম নির্দেশনা আছে কি?",
+                        "hi": "हमारे पास क्या है? एसिस्टोल? एसीएलएस प्रोटोकॉल का पालन करें! क्या कोई अग्रिम निर्देश है?",
+                        "ur": "ہمارے پاس کیا ہے؟ ایسسٹول؟ اے سی ایل ایس پروٹوکول پر عمل کریں! کیا کوئی ایڈوانس ڈائریکٹو ہے؟",
+                        "tr": "Ne var elimizde? Asistoli mi? ACLS protokolünü izleyin! Vasiyetname var mı?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Patientenverfügung liegt nicht vor. Weiter mit der Reanimation!",
+                    "translation": {
+                        "en": "No advance directive available. Continue with resuscitation!",
+                        "bn": "অগ্রিম নির্দেশনা উপলব্ধ নয়। পুনরুজ্জীবন চালিয়ে যান!",
+                        "hi": "कोई अग्रिम निर्देश उपलब्ध नहीं है। पुनर्जीवन जारी रखें!",
+                        "ur": "کوئی ایڈوانس ڈائریکٹو دستیاب نہیں ہے۔ ریسیسیٹیشن جاری رکھیں!",
+                        "tr": "Vasiyetname mevcut değil. Canlandırmaya devam edin!"
+                    }
+                }
+            ],
+            "id": "d51_01"
+        },
+        {
+            "title": {
+                "en": "Trauma Patient in the Emergency Room",
+                "bn": "জরুরী বিভাগে ট্রমা রোগী",
+                "hi": "आपातकालीन कक्ष में आघात रोगी",
+                "ur": "ایمرجنسی روم میں ٹروما مریض",
+                "tr": "Acil Serviste Travma Hastası"
+            },
+            "context": {
+                "en": "A trauma patient arrives after a car accident. The team assesses the injuries and prepares for immediate treatment.",
+                "bn": "একটি গাড়ি দুর্ঘটনার পরে একটি ট্রমা রোগী আসে। দল আঘাতের মূল্যায়ন করে এবং অবিলম্বে চিকিৎসার জন্য প্রস্তুত হয়।",
+                "hi": "एक कार दुर्घटना के बाद एक आघात रोगी आता है। टीम चोटों का आकलन करती है और तत्काल उपचार के लिए तैयार होती है।",
+                "ur": "ایک کار حادثے کے بعد ایک ٹروما مریض آتا ہے۔ ٹیم زخموں کا جائزہ لیتی ہے اور فوری علاج کے لیے تیار ہوتی ہے۔",
+                "tr": "Bir trafik kazası sonrası travma hastası geliyor. Ekip yaralanmaları değerlendirir ve acil tedaviye hazırlanır."
+            },
+            "lines": [
+                {
+                    "speaker": "Notarzt",
+                    "speakerRole": "Notarzt",
+                    "germanText": "Verkehrsunfall, schweres Polytrauma. Bewusstlos, Atemwege gesichert, GCS 6.",
+                    "translation": {
+                        "en": "Car accident, severe polytrauma. Unconscious, airway secured, GCS 6.",
+                        "bn": "গাড়ি দুর্ঘটনা, গুরুতর পলিট্রমা। অচেতন, শ্বাসনালী সুরক্ষিত, GCS 6।",
+                        "hi": "कार दुर्घटना, गंभीर पॉलीट्रोमा। बेहोश, वायुमार्ग सुरक्षित, जीसीएस 6।",
+                        "ur": "کار حادثہ، شدید پولیٹروما۔ بے ہوش، ایئروے محفوظ، جی سی ایس 6۔",
+                        "tr": "Trafik kazası, ağır politravma. Bilinçsiz, hava yolu güvenceye alındı, GCS 6."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Schockraum vorbereiten! Sofortige CT Abdomen/Becken. Blutdruck?",
+                    "translation": {
+                        "en": "Prepare the trauma room! Immediate CT abdomen/pelvis. Blood pressure?",
+                        "bn": "শক্ রুম প্রস্তুত করুন! অবিলম্বে সিটি পেট/শ্রোণী। রক্তচাপ?",
+                        "hi": "आघात कक्ष तैयार करें! तत्काल सीटी पेट/श्रोणि। रक्तचाप?",
+                        "ur": "ٹروما روم تیار کریں! فوری طور پر سی ٹی پیٹ/پیلوس۔ بلڈ پریشر؟",
+                        "tr": "Travma odasını hazırlayın! Hemen BT karın/pelvis. Kan basıncı?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Lehmann",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Blutdruck 80/40 mmHg. Infusion läuft, 2 großlumige Zugänge gelegt.",
+                    "translation": {
+                        "en": "Blood pressure 80/40 mmHg. Infusion running, 2 large-bore IVs inserted.",
+                        "bn": "রক্তচাপ 80/40 mmHg। ইনফিউশন চলছে, 2 টি বৃহৎ-বোর আইভি স্থাপন করা হয়েছে।",
+                        "hi": "रक्तचाप 80/40 mmHg। इन्फ्यूजन चल रहा है, 2 बड़े-बोर IV डाले गए।",
+                        "ur": "بلڈ پریشر 80/40 mmHg۔ انفیوژن جاری ہے، 2 بڑے بور آئی وی داخل کیے گئے ہیں۔",
+                        "tr": "Kan basıncı 80/40 mmHg. İnfüzyon devam ediyor, 2 büyük çaplı IV yerleştirildi."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Tranexamsäure 1g i.v. und Blutkonserven anfordern! Thoraxröntgen sofort!",
+                    "translation": {
+                        "en": "Tranexamic acid 1g i.v. and request blood products! Chest X-ray immediately!",
+                        "bn": "ট্রানেক্সামিক অ্যাসিড 1 গ্রাম আইভি এবং রক্তের পণ্যগুলির জন্য অনুরোধ করুন! বুকের এক্স-রে অবিলম্বে!",
+                        "hi": "ट्रानेक्सैमिक एसिड 1 ग्राम आई.वी. और रक्त उत्पादों के लिए अनुरोध करें! छाती का एक्स-रे तुरंत!",
+                        "ur": "ٹرانیکسیمک ایسڈ 1 گرام آئی وی اور خون کی مصنوعات کی درخواست کریں! سینے کا ایکس رے فوری طور پر!",
+                        "tr": "Traneksamik asit 1g i.v. ve kan ürünleri talep edin! Göğüs röntgeni hemen!"
+                    }
+                },
+                {
+                    "speaker": "Dr. Braun",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "FAST-Scan durchgeführt. Freie Flüssigkeit im Abdomen.",
+                    "translation": {
+                        "en": "FAST scan performed. Free fluid in the abdomen.",
+                        "bn": "FAST স্ক্যান করা হয়েছে। পেটে মুক্ত তরল।",
+                        "hi": "फास्ट स्कैन किया गया। पेट में मुक्त तरल।",
+                        "ur": "فاسٹ اسکین کیا گیا۔ پیٹ میں مفت سیال۔",
+                        "tr": "FAST taraması yapıldı. Karın boşluğunda serbest sıvı."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Chirurgischen Kollegen informieren. Patient ist instabil, OP-Bereitschaft!",
+                    "translation": {
+                        "en": "Inform the surgical colleagues. Patient is unstable, prepare for surgery!",
+                        "bn": "সার্জিক্যাল সহকর্মীদের জানান। রোগী অস্থির, অস্ত্রোপচারের জন্য প্রস্তুত হন!",
+                        "hi": "सर्जिकल सहयोगियों को सूचित करें। रोगी अस्थिर है, सर्जरी के लिए तैयार हो जाओ!",
+                        "ur": "سرجیکل ساتھیوں کو مطلع کریں۔ مریض غیر مستحکم ہے، سرجری کے لیے تیار ہو جائیں!",
+                        "tr": "Cerrahi ekibe haber verin. Hasta stabil değil, ameliyata hazırlanın!"
+                    }
+                }
+            ],
+            "id": "d51_02"
+        },
+        {
+            "title": {
+                "en": "Anaphylactic Shock in the Emergency Room",
+                "bn": "জরুরী বিভাগে অ্যানাফিল্যাক্টিক শক",
+                "hi": "आपातकालीन कक्ष में एनाफिलेक्टिक शॉक",
+                "ur": "ایمرجنسی روم میں اینافیلیکٹک شاک",
+                "tr": "Acil Serviste Anafilaktik Şok"
+            },
+            "context": {
+                "en": "A patient develops an anaphylactic reaction after receiving medication. The team acts quickly to manage the shock.",
+                "bn": "একটি রোগী ওষুধ গ্রহণের পরে অ্যানাফিল্যাক্টিক প্রতিক্রিয়ায় ভোগেন। দল দ্রুত শক মোকাবেলা করার জন্য কাজ করে।",
+                "hi": "एक मरीज दवा लेने के बाद एनाफिलेक्टिक प्रतिक्रिया विकसित करता है। टीम शॉक से निपटने के लिए तेजी से काम करती है।",
+                "ur": "ایک مریض دوا لینے کے بعد اینافیلیکٹک ردعمل پیدا کرتا ہے۔ ٹیم شاک سے نمٹنے کے لیے تیزی سے کام کرتی ہے۔",
+                "tr": "Bir hasta ilaç aldıktan sonra anafilaktik reaksiyon geliştirir. Ekip şoku yönetmek için hızla harekete geçer."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich… ich kriege keine Luft… mir wird ganz schwindelig…",
+                    "translation": {
+                        "en": "I… I can't breathe… I'm getting very dizzy…",
+                        "bn": "আমি... আমি শ্বাস নিতে পারছি না... আমার খুব মাথা ঘুরছে...",
+                        "hi": "मैं… मैं सांस नहीं ले पा रहा… मुझे बहुत चक्कर आ रहा है…",
+                        "ur": "میں… میں سانس نہیں لے پا رہا… مجھے بہت چکر آ رہا ہے…",
+                        "tr": "Ben… nefes alamıyorum… çok başım dönüyor…"
+                    }
+                },
+                {
+                    "speaker": "Schwester Müller",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Lehmann, was ist passiert? Haben Sie Allergien?",
+                    "translation": {
+                        "en": "Mr. Lehmann, what happened? Do you have any allergies?",
+                        "bn": "জনাব লেহমান, কি হয়েছে? আপনার কোনো অ্যালার্জি আছে?",
+                        "hi": "श्री लेहमान, क्या हुआ? क्या आपको कोई एलर्जी है?",
+                        "ur": "مسٹر لیمن، کیا ہوا؟ کیا آپ کو کوئی الرجی ہے؟",
+                        "tr": "Bay Lehmann, ne oldu? Herhangi bir alerjiniz var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Penicillin… gerade… Spritze bekommen…",
+                    "translation": {
+                        "en": "Penicillin… just… got an injection…",
+                        "bn": "পেনিসিলিন... এইমাত্র... একটি ইনজেকশন পেয়েছি...",
+                        "hi": "पेनिसिलिन… अभी… इंजेक्शन मिला…",
+                        "ur": "پینسلین… ابھی… انجکشن ملا…",
+                        "tr": "Penisilin… az önce… iğne oldum…"
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Anaphylaktischer Schock! Adrenalin i.m. sofort! Sauerstoff hochdosiert!",
+                    "translation": {
+                        "en": "Anaphylactic shock! Adrenaline i.m. immediately! High-flow oxygen!",
+                        "bn": "অ্যানাফিল্যাক্টিক শক! অ্যাড্রেনালিন আইএম অবিলম্বে! উচ্চ-ডোজ অক্সিজেন!",
+                        "hi": "एनाफिलेक्टिक शॉक! एड्रेनालाईन आई.एम. तुरंत! उच्च-प्रवाह ऑक्सीजन!",
+                        "ur": "اینافیلیکٹک شاک! ایڈرینالین آئی ایم فوری طور پر! ہائی فلو آکسیجن!",
+                        "tr": "Anafilaktik şok! Adrenalin i.m. hemen! Yüksek akışlı oksijen!"
+                    }
+                },
+                {
+                    "speaker": "Schwester Müller",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Adrenalin ist verabreicht. Sauerstoff läuft. Blutdruck?",
+                    "translation": {
+                        "en": "Adrenaline administered. Oxygen is running. Blood pressure?",
+                        "bn": "অ্যাড্রেনালিন দেওয়া হয়েছে। অক্সিজেন চলছে। রক্তচাপ?",
+                        "hi": "एड्रेनालाईन प्रशासित। ऑक्सीजन चल रहा है। रक्तचाप?",
+                        "ur": "ایڈرینالین دی جا چکی ہے۔ آکسیجن جاری ہے۔ بلڈ پریشر؟",
+                        "tr": "Adrenalin uygulandı. Oksijen veriliyor. Kan basıncı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Blutdruck 70/40 mmHg. Volumen bolus mit Ringer-Lösung! Cortison i.v.!",
+                    "translation": {
+                        "en": "Blood pressure 70/40 mmHg. Volume bolus with Ringer's solution! Cortisone i.v.!",
+                        "bn": "রক্তচাপ 70/40 mmHg। রিংগারের দ্রবণ দিয়ে ভলিউম বোলাস! কর্টিসোন আইভি!",
+                        "hi": "रक्तचाप 70/40 mmHg। रिंगर के घोल के साथ वॉल्यूम बोलस! कोर्टिसोन आई.वी.!",
+                        "ur": "بلڈ پریشر 70/40 mmHg۔ رِنگر کے محلول کے ساتھ حجم بولس! کورٹیسون آئی وی!",
+                        "tr": "Kan basıncı 70/40 mmHg. Ringer solüsyonu ile hacim bolusu! Kortizon i.v.!"
+                    }
+                }
+            ],
+            "id": "d51_03"
+        },
+        {
+            "title": {
+                "en": "Patient with Severe Shortness of Breath",
+                "bn": "গুরুতর শ্বাসকষ্টে আক্রান্ত রোগী",
+                "hi": "गंभीर सांस की तकलीफ वाला मरीज",
+                "ur": "شدید سانس کی قلت والا مریض",
+                "tr": "Şiddetli Nefes Darlığı Olan Hasta"
+            },
+            "context": {
+                "en": "A patient arrives at the emergency room with severe shortness of breath and a history of COPD.",
+                "bn": "সিওপিডির ইতিহাস সহ একজন রোগী গুরুতর শ্বাসকষ্ট নিয়ে জরুরি বিভাগে আসেন।",
+                "hi": "सीओपीडी के इतिहास वाला एक मरीज गंभीर सांस की तकलीफ के साथ आपातकालीन कक्ष में आता है।",
+                "ur": "سی او پی ڈی کی تاریخ کے ساتھ ایک مریض شدید سانس کی قلت کے ساتھ ایمرجنسی روم میں آتا ہے۔",
+                "tr": "KOAH öyküsü olan bir hasta şiddetli nefes darlığı ile acil servise gelir."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich… ich bekomme keine Luft… ich ersticke…",
+                    "translation": {
+                        "en": "I… I can't breathe… I'm suffocating…",
+                        "bn": "আমি... আমি শ্বাস নিতে পারছি না... আমি দমবন্ধ হয়ে আসছি...",
+                        "hi": "मैं… मैं सांस नहीं ले पा रहा… मेरा दम घुट रहा है…",
+                        "ur": "میں… میں سانس نہیں لے پا رہا… میرا دم گھٹ رہا ہے…",
+                        "tr": "Ben… nefes alamıyorum… boğuluyorum…"
+                    }
+                },
+                {
+                    "speaker": "Schwester Klein",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Schmidt, beruhigen Sie sich! Wir helfen Ihnen. Sauerstoffmaske!",
+                    "translation": {
+                        "en": "Mr. Schmidt, calm down! We'll help you. Oxygen mask!",
+                        "bn": "জনাব শ্মিট, শান্ত হন! আমরা আপনাকে সাহায্য করব। অক্সিজেন মাস্ক!",
+                        "hi": "श्री श्मिट, शांत हो जाइए! हम आपकी मदद करेंगे। ऑक्सीजन मास्क!",
+                        "ur": "مسٹر شمٹ، پرسکون ہو جائیں! ہم آپ کی مدد کریں گے۔ آکسیجن ماسک!",
+                        "tr": "Bay Schmidt, sakin olun! Size yardım edeceğiz. Oksijen maskesi!"
+                    }
+                },
+                {
+                    "speaker": "Dr. Hartmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "COPD in der Anamnese? Auskultation der Lunge! Sättigung?",
+                    "translation": {
+                        "en": "COPD in the medical history? Auscultation of the lungs! Saturation?",
+                        "bn": "মেডিকেল ইতিহাসে COPD? ফুসফুসের অস্কাল্টেশন! স্যাচুরেশন?",
+                        "hi": "मेडिकल इतिहास में सीओपीडी? फेफड़ों का ऑस्कल्टेशन! संतृप्ति?",
+                        "ur": "طبی تاریخ میں سی او پی ڈی؟ پھیپھڑوں کا آسکلٹیشن! سیچوریشن؟",
+                        "tr": "Tıbbi öyküde KOAH? Akciğerlerin oskültasyonu! Doygunluk?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Klein",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Sauerstoffsättigung 88%. Rasselgeräusche beidseits.",
+                    "translation": {
+                        "en": "Oxygen saturation 88%. Crackles bilaterally.",
+                        "bn": "অক্সিজেন স্যাচুরেশন 88%। উভয় পাশে ক্রেকলস।",
+                        "hi": "ऑक्सीजन संतृप्ति 88%। द्विपक्षीय दरारें।",
+                        "ur": "آکسیجن سیچوریشن 88%۔ دو طرفہ کریکلز۔",
+                        "tr": "Oksijen doygunluğu %88. Her iki tarafta krepitasyon."
+                    }
+                },
+                {
+                    "speaker": "Dr. Hartmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ventolin und Atrovent inhalieren lassen! Prednisolon i.v.!",
+                    "translation": {
+                        "en": "Administer Ventolin and Atrovent via nebulizer! Prednisolone i.v.!",
+                        "bn": "ভেনটোলিন এবং অ্যাট্রোভেন্ট নেবুলাইজার মাধ্যমে দিন! প্রেডনিসোলন আইভি!",
+                        "hi": "वेंटोलिन और एट्रोवेंट नेबुलाइजर के माध्यम से दें! प्रेडनिसोलोन आई.वी.!",
+                        "ur": "وینٹولین اور ایٹرووینٹ نیبولائزر کے ذریعے دیں! پریڈنیسولون آئی وی!",
+                        "tr": "Ventolin ve Atrovent nebülizatör ile uygulayın! Prednisolon i.v.!"
+                    }
+                },
+                {
+                    "speaker": "Oberarzt Sommer",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Bei Verschlechterung CPAP-Beatmung erwägen. Blutgasanalyse jetzt!",
+                    "translation": {
+                        "en": "Consider CPAP ventilation if it worsens. Blood gas analysis now!",
+                        "bn": "অবস্থা খারাপ হলে CPAP বায়ুচলাচল বিবেচনা করুন। এখনই রক্তের গ্যাস বিশ্লেষণ করুন!",
+                        "hi": "बिगड़ने पर सीपीएपी वेंटिलेशन पर विचार करें। रक्त गैस विश्लेषण अभी!",
+                        "ur": "اگر حالت خراب ہو جائے تو سی پی اے پی وینٹیلیشن پر غور کریں۔ خون کی گیس کا تجزیہ ابھی کریں!",
+                        "tr": "Kötüleşirse CPAP ventilasyonunu düşünün. Şimdi kan gazı analizi!"
+                    }
+                }
+            ],
+            "id": "d51_04"
+        },
+        {
+            "title": {
+                "en": "Hypovolemic Shock After a Fall",
+                "bn": "পতনের পরে হাইপোভলেমাইক শক",
+                "hi": "गिरने के बाद हाइपोवोलेमिक शॉक",
+                "ur": "گرنے کے بعد ہائپوولیمک شاک",
+                "tr": "Düşme Sonrası Hipovolemik Şok"
+            },
+            "context": {
+                "en": "An elderly patient arrives after falling at home, presenting with signs of hypovolemic shock.",
+                "bn": "বাড়িতে পড়ে যাওয়ার পরে একজন বয়স্ক রোগী হাইপোভলেমাইক শকের লক্ষণ নিয়ে আসেন।",
+                "hi": "घर पर गिरने के बाद एक बुजुर्ग मरीज हाइपोवोलेमिक शॉक के लक्षणों के साथ आता है।",
+                "ur": "گھر پر گرنے کے بعد ایک بزرگ مریض ہائپوولیمک شاک کی علامات کے ساتھ آتا ہے۔",
+                "tr": "Yaşlı bir hasta evde düştükten sonra hipovolemik şok belirtileri ile gelir."
+            },
+            "lines": [
+                {
+                    "speaker": "Sanitäter",
+                    "speakerRole": "Sanitäter",
+                    "germanText": "Patientin ist gestürzt, Oberschenkelfraktur wahrscheinlich. RR niedrig, Puls hoch.",
+                    "translation": {
+                        "en": "Patient fell, probable femoral fracture. BP low, pulse high.",
+                        "bn": "রোগী পড়ে গেছেন, সম্ভবত ফেমোরাল ফ্র্যাকচার। বিপি কম, পালস বেশি।",
+                        "hi": "मरीज गिर गया, संभावित फीमर फ्रैक्चर। बीपी कम, नाड़ी तेज।",
+                        "ur": "مریض گر گیا، ممکنہ فیمورل فریکچر۔ بی پی کم، نبض تیز۔",
+                        "tr": "Hasta düştü, muhtemel femur kırığı. Tansiyon düşük, nabız yüksek."
+                    }
+                },
+                {
+                    "speaker": "Dr. Fischer",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Hypovolämischer Schock wahrscheinlich. Zwei großlumige Zugänge legen! Flüssigkeit!",
+                    "translation": {
+                        "en": "Hypovolemic shock likely. Insert two large-bore IVs! Fluid!",
+                        "bn": "সম্ভবত হাইপোভলেমাইক শক। দুটি বৃহৎ-বোর আইভি প্রবেশ করান! তরল!",
+                        "hi": "हाइपोवोलेमिक शॉक होने की संभावना है। दो बड़े-बोर IV डालें! तरल!",
+                        "ur": "ہائپوولیمک شاک کا امکان ہے۔ دو بڑے بور آئی وی داخل کریں! سیال!",
+                        "tr": "Hipovolemik şok muhtemel. İki büyük çaplı IV yerleştirin! Sıvı!"
+                    }
+                },
+                {
+                    "speaker": "Schwester Huber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Zwei Zugänge liegen. Ringer-Lösung läuft. Blutdruck 85/50 mmHg.",
+                    "translation": {
+                        "en": "Two IVs in place. Ringer's solution running. Blood pressure 85/50 mmHg.",
+                        "bn": "দুটি আইভি স্থাপন করা হয়েছে। রিংগারের দ্রবণ চলছে। রক্তচাপ 85/50 mmHg।",
+                        "hi": "दो IV जगह पर हैं। रिंगर का घोल चल रहा है। रक्तचाप 85/50 mmHg।",
+                        "ur": "دو آئی وی جگہ پر ہیں۔ رِنگر کا محلول جاری ہے۔ بلڈ پریشر 85/50 mmHg۔",
+                        "tr": "İki IV yerleştirildi. Ringer solüsyonu veriliyor. Kan basıncı 85/50 mmHg."
+                    }
+                },
+                {
+                    "speaker": "Dr. Fischer",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Blutbild und Kreuzblut abnehmen. Woher kommt die Blutung?",
+                    "translation": {
+                        "en": "Draw blood for CBC and crossmatch. Where is the bleeding coming from?",
+                        "bn": "সিবিসি এবং ক্রসমেচিংয়ের জন্য রক্ত ​​আহরণ করুন। রক্তপাত কোথা থেকে আসছে?",
+                        "hi": "सीबीसी और क्रॉसमेचिंग के लिए रक्त निकालें। खून कहाँ से आ रहा है?",
+                        "ur": "سی بی سی اور کراس میچنگ کے لیے خون نکالیں۔ خون کہاں سے آ رہا ہے؟",
+                        "tr": "CBC ve çapraz eşleştirme için kan alın. Kanama nereden geliyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Oberschenkelfraktur kann viel Blut verlieren. Becken stabil?",
+                    "translation": {
+                        "en": "Femoral fracture can lose a lot of blood. Is the pelvis stable?",
+                        "bn": "ফেমোরাল ফ্র্যাকচারে প্রচুর রক্ত ​​ক্ষয় হতে পারে। শ্রোণী কি স্থিতিশীল?",
+                        "hi": "फीमर फ्रैक्चर में बहुत खून बह सकता है। क्या श्रोणि स्थिर है?",
+                        "ur": "فیمورل فریکچر میں بہت زیادہ خون بہہ سکتا ہے۔ کیا شرونی مستحکم ہے؟",
+                        "tr": "Femur kırığı çok kan kaybedebilir. Pelvis stabil mi?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Fischer",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Becken stabil, keine äußeren Blutungen sichtbar. Weiter Flüssigkeit, Chirurg informieren.",
+                    "translation": {
+                        "en": "Pelvis stable, no external bleeding visible. Continue fluid resuscitation, inform the surgeon.",
+                        "bn": "শ্রোণী স্থিতিশীল, কোনো বাহ্যিক রক্তপাত দেখা যাচ্ছে না। তরল পুনরুজ্জীবন চালিয়ে যান, সার্জনকে জানান।",
+                        "hi": "श्रोणि स्थिर, कोई बाहरी रक्तस्राव दिखाई नहीं दे रहा है। तरल पुनर्जीवन जारी रखें, सर्जन को सूचित करें।",
+                        "ur": "شرونی مستحکم، کوئی بیرونی خون بہنا نظر نہیں آ رہا ہے۔ سیال ریسیسیٹیشن جاری رکھیں، سرجن کو مطلع کریں۔",
+                        "tr": "Pelvis stabil, görünürde dış kanama yok. Sıvı resüsitasyonuna devam edin, cerraha haber verin."
+                    }
+                }
+            ],
+            "id": "d51_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist die erste Priorität beim Auffinden einer bewusstlosen Person?",
+                "en": "What is the first priority when finding an unconscious person?",
+                "bn": "অচেতন ব্যক্তিকে খুঁজে পাওয়ার সময় প্রথম অগ্রাধিকার কী?",
+                "hi": "बेहोश व्यक्ति को ढूंढने पर पहली प्राथमिकता क्या है?",
+                "ur": "بے ہوش شخص کو تلاش کرنے پر پہلی ترجیح کیا ہے؟",
+                "tr": "Bilinçsiz birini bulduğunuzda ilk öncelik nedir?"
+            },
+            "options": [
+                "Puls prüfen",
+                "Atmung prüfen",
+                "Bewusstsein prüfen",
+                "Blutdruck messen"
+            ],
+            "correctAnswer": "Atmung prüfen",
+            "explanation": {
+                "en": "Checking for breathing is the first priority to ensure the person is getting oxygen.",
+                "bn": "শ্বাস-প্রশ্বাস পরীক্ষা করা হল প্রথম অগ্রাধিকার, এটি নিশ্চিত করা যে ব্যক্তি অক্সিজেন পাচ্ছে।",
+                "hi": "सांस लेने की जाँच करना पहली प्राथमिकता है ताकि यह सुनिश्चित किया जा सके कि व्यक्ति को ऑक्सीजन मिल रही है।",
+                "ur": "سانس لینے کی جانچ کرنا پہلی ترجیح ہے تاکہ یہ یقینی بنایا جاسکے کہ شخص کو آکسیجن مل رہی ہے۔",
+                "tr": "Kişinin oksijen aldığından emin olmak için nefes alıp almadığını kontrol etmek ilk önceliktir."
+            },
+            "points": 10,
+            "id": "e51_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet die Abkürzung 'BLS' im medizinischen Kontext?",
+                "en": "What does the abbreviation 'BLS' mean in a medical context?",
+                "bn": "চিকিৎসা প্রেক্ষাপটে 'BLS' এর মানে কী?",
+                "hi": "चिकित्सा संदर्भ में 'BLS' का क्या अर्थ है?",
+                "ur": "طبی تناظر میں 'BLS' کا کیا مطلب ہے؟",
+                "tr": "Tıbbi bağlamda 'BLS' kısaltması ne anlama gelir?"
+            },
+            "options": [
+                "Basic Life Support",
+                "Blood Level System",
+                "Brain Life Study",
+                "Body Liquid Solution"
+            ],
+            "correctAnswer": "Basic Life Support",
+            "explanation": {
+                "en": "'BLS' stands for Basic Life Support, which refers to the basic techniques used to keep someone alive in an emergency.",
+                "bn": "'BLS' এর মানে হল বেসিক লাইফ সাপোর্ট, যা জরুরি পরিস্থিতিতে কাউকে বাঁচিয়ে রাখার জন্য ব্যবহৃত মৌলিক কৌশলগুলিকে বোঝায়।",
+                "hi": "'BLS' का अर्थ है बेसिक लाइफ सपोर्ट, जो आपात स्थिति में किसी को जीवित रखने के लिए उपयोग की जाने वाली बुनियादी तकनीकों को संदर्भित करता है।",
+                "ur": "'BLS' کا مطلب بنیادی زندگی کی حمایت ہے، جو ہنگامی صورتحال میں کسی کو زندہ رکھنے کے لیے استعمال کی جانے والی بنیادی تکنیکوں سے مراد ہے۔",
+                "tr": "'BLS', Temel Yaşam Desteği anlamına gelir ve acil bir durumda birini hayatta tutmak için kullanılan temel teknikleri ifade eder."
+            },
+            "points": 10,
+            "id": "e51_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Maßnahme ist KEIN Teil des ACLS-Algorithmus?",
+                "en": "Which action is NOT part of the ACLS algorithm?",
+                "bn": "কোন পদক্ষেপটি ACLS অ্যালগরিদমের অংশ নয়?",
+                "hi": "कौन सा कार्य ACLS एल्गोरिथम का भाग नहीं है?",
+                "ur": "کون سا عمل ACLS الگورتھم کا حصہ نہیں ہے؟",
+                "tr": "Hangi eylem ACLS algoritmasının bir parçası değildir?",
+                "options": [
+                    "Defibrillation",
+                    "Airway Management",
+                    "Chest Compressions",
+                    "Aspirin Administration"
+                ],
+                "correctAnswer": "Aspirin Administration",
+                "explanation": {
+                    "en": "While aspirin may be used in some emergency situations, it is not a standard part of the ACLS algorithm.",
+                    "bn": "যদিও কিছু জরুরি পরিস্থিতিতে অ্যাসপিরিন ব্যবহার করা যেতে পারে, তবে এটি ACLS অ্যালগরিদমের একটি স্ট্যান্ডার্ড অংশ নয়।",
+                    "hi": "जबकि कुछ आपातकालीन स्थितियों में एस्पिरिन का उपयोग किया जा सकता है, यह ACLS एल्गोरिथम का एक मानक भाग नहीं है।",
+                    "ur": "اگرچہ کچھ ہنگامی صورتحال میں اسپرین کا استعمال کیا جا سکتا ہے، لیکن یہ ACLS الگورتھم کا ایک معیاری حصہ نہیں ہے۔",
+                    "tr": "Aspirin bazı acil durumlarda kullanılabilse de, ACLS algoritmasının standart bir parçası değildir."
+                },
+                "points": 10
+            },
+            "id": "e51_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein häufiges Symptom eines anaphylaktischen Schocks?",
+                "en": "What is a common symptom of anaphylactic shock?",
+                "bn": "অ্যানাফিল্যাকটিক শকের একটি সাধারণ লক্ষণ কী?",
+                "hi": "एनाफिलेक्टिक शॉक का एक सामान्य लक्षण क्या है?",
+                "ur": "انا فائلیٹک شاک کی ایک عام علامت کیا ہے؟",
+                "tr": "Anafilaktik şokun yaygın bir belirtisi nedir?",
+                "options": [
+                    "Hoher Blutdruck",
+                    "Hautausschlag und Schwellung",
+                    "Verlangsamter Herzschlag",
+                    "Erhöhte Körpertemperatur"
+                ],
+                "correctAnswer": "Hautausschlag und Schwellung",
+                "explanation": {
+                    "en": "Anaphylactic shock often presents with skin rash, hives, and swelling of the face, tongue, or throat.",
+                    "bn": "অ্যানাফিল্যাকটিক শকের মধ্যে প্রায়শই ত্বকের ফুসকুড়ি, আমবাত এবং মুখ, জিহ্বা বা গলার ফোলাভাব দেখা যায়।",
+                    "hi": "एनाफिलेक्टिक शॉक में अक्सर त्वचा पर चकत्ते, पित्ती और चेहरे, जीभ या गले में सूजन दिखाई देती है।",
+                    "ur": "انا فائلیٹک شاک میں اکثر جلد پر خارش، چھپاکی اور چہرے، زبان یا گلے میں سوجن ظاہر ہوتی ہے۔",
+                    "tr": "Anafilaktik şok genellikle ciltte kızarıklık, kurdeşen ve yüz, dil veya boğazda şişlikle kendini gösterir."
+                },
+                "points": 10
+            },
+            "id": "e51_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist die häufigste Ursache für einen kardiogenen Schock?",
+                "en": "What is the most common cause of cardiogenic shock?",
+                "bn": "কার্ডিওজেনিক শকের সবচেয়ে সাধারণ কারণ কী?",
+                "hi": "कार्डियोजेनिक शॉक का सबसे आम कारण क्या है?",
+                "ur": "کارڈیوجینک شاک کی سب سے عام وجہ کیا ہے؟",
+                "tr": "Kardiyojenik şokun en sık nedeni nedir?",
+                "options": [
+                    "Schwere Blutungen",
+                    "Herzinfarkt",
+                    "Dehydration",
+                    "Sepsis"
+                ],
+                "correctAnswer": "Herzinfarkt",
+                "explanation": {
+                    "en": "Myocardial infarction (heart attack) is the most common cause of cardiogenic shock because it damages the heart muscle, reducing its ability to pump blood effectively.",
+                    "bn": "মায়োকার্ডিয়াল ইনফার্কশন (হার্ট অ্যাটাক) কার্ডিওজেনিক শকের সবচেয়ে সাধারণ কারণ কারণ এটি হৃদপিণ্ডের পেশীগুলির ক্ষতি করে, যার ফলে রক্ত ​​কার্যকরভাবে পাম্প করার ক্ষমতা হ্রাস পায়।",
+                    "hi": "मायोकार्डियल इंफार्क्शन (दिल का दौरा) कार्डियोजेनिक शॉक का सबसे आम कारण है क्योंकि यह हृदय की मांसपेशियों को नुकसान पहुंचाता है, जिससे रक्त को प्रभावी ढंग से पंप करने की क्षमता कम हो जाती है।",
+                    "ur": "مایو کارڈیل انفکشن (دل کا دورہ) کارڈیوجینک شاک کی سب سے عام وجہ ہے کیونکہ یہ دل کے پٹھوں کو نقصان پہنچاتا ہے، جس سے خون کو مؤثر طریقے سے پمپ کرنے کی صلاحیت کم ہو جاتی ہے۔",
+                    "tr": "Miyokard enfarktüsü (kalp krizi), kardiyojenik şokun en sık nedenidir çünkü kalp kasına zarar verir ve kanı etkili bir şekilde pompalama yeteneğini azaltır."
+                },
+                "points": 10
+            },
+            "id": "e51_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Reihenfolge ist beim ABCDE-Schema korrekt?",
+                "en": "Which sequence is correct in the ABCDE scheme?",
+                "bn": "ABCDE স্কিমে কোন ক্রমটি সঠিক?",
+                "hi": "ABCDE योजना में कौन सा क्रम सही है?",
+                "ur": "ABCDE اسکیم میں کون سا تسلسل درست ہے؟",
+                "tr": "ABCDE şemasında hangi sıra doğrudur?",
+                "options": [
+                    "Breathing, Airway, Circulation, Disability, Exposure",
+                    "Airway, Breathing, Circulation, Disability, Exposure",
+                    "Circulation, Airway, Breathing, Disability, Exposure",
+                    "Disability, Airway, Breathing, Circulation, Exposure"
+                ],
+                "correctAnswer": "Airway, Breathing, Circulation, Disability, Exposure",
+                "explanation": {
+                    "en": "The correct order in the ABCDE scheme is Airway, Breathing, Circulation, Disability, Exposure.",
+                    "bn": "ABCDE স্কিমে সঠিক ক্রম হল Airway, Breathing, Circulation, Disability, Exposure।",
+                    "hi": "ABCDE योजना में सही क्रम Airway, Breathing, Circulation, Disability, Exposure है।",
+                    "ur": "ABCDE اسکیم میں صحیح ترتیب Airway, Breathing, Circulation, Disability, Exposure ہے۔",
+                    "tr": "ABCDE şemasında doğru sıra Airway, Breathing, Circulation, Disability, Exposure şeklindedir."
+                },
+                "points": 10
+            },
+            "id": "e51_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist die korrekte Frequenz für Herzdruckmassagen bei einem Erwachsenen?",
+                "en": "What is the correct frequency for chest compressions in an adult?",
+                "bn": "একজন প্রাপ্তবয়স্কের বুকের কম্প্রেশনের জন্য সঠিক ফ্রিকোয়েন্সি কত?",
+                "hi": "एक वयस्क में छाती संकुचन के लिए सही आवृत्ति क्या है?",
+                "ur": "ایک بالغ میں سینے کے کمپریشن کے لیے صحیح فریکوئنسی کیا ہے؟",
+                "tr": "Bir yetişkinde göğüs kompresyonları için doğru frekans nedir?",
+                "options": [
+                    "60-80 pro Minute",
+                    "80-100 pro Minute",
+                    "100-120 pro Minute",
+                    "120-140 pro Minute"
+                ],
+                "correctAnswer": "100-120 pro Minute",
+                "explanation": {
+                    "en": "The correct frequency for chest compressions in an adult is 100-120 per minute.",
+                    "bn": "একজন প্রাপ্তবয়স্কের বুকের কম্প্রেশনের জন্য সঠিক ফ্রিকোয়েন্সি প্রতি মিনিটে 100-120।",
+                    "hi": "एक वयस्क में छाती संकुचन के लिए सही आवृत्ति प्रति मिनट 100-120 है।",
+                    "ur": "ایک بالغ میں سینے کے کمپریشن کے لیے صحیح فریکوئنسی فی منٹ 100-120 ہے۔",
+                    "tr": "Bir yetişkinde göğüs kompresyonları için doğru frekans dakikada 100-120'dir."
+                },
+                "points": 10
+            },
+            "id": "e51_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist die bevorzugte Methode zur Beatmung bei einem Patienten mit vermutetem Trauma der Halswirbelsäule?",
+                "en": "What is the preferred method of ventilation in a patient with suspected cervical spine trauma?",
+                "bn": " suspected সারভাইকাল স্পাইন ট্রমা আক্রান্ত রোগীর ভেন্টিলেশনের জন্য পছন্দের পদ্ধতি কী?",
+                "hi": " संदिग्ध ग्रीवा रीढ़ की हड्डी के आघात वाले रोगी में वेंटिलेशन की पसंदीदा विधि क्या है?",
+                "ur": " مشتبہ گریوا ریڑھ کی ہڈی کے صدمے والے مریض میں وینٹیلیشن کا ترجیحی طریقہ کیا ہے؟",
+                "tr": "Şüpheli servikal omurga travması olan bir hastada ventilasyon için tercih edilen yöntem nedir?",
+                "options": [
+                    "Kopf nach hinten neigen, Kinn anheben",
+                    "Kopf beugen, Kinn anheben",
+                    "Kiefer-Schub-Manöver",
+                    "Mund-zu-Mund-Beatmung"
+                ],
+                "correctAnswer": "Kiefer-Schub-Manöver",
+                "explanation": {
+                    "en": "The jaw-thrust maneuver is preferred to avoid further injury to the cervical spine.",
+                    "bn": "সারভাইকাল স্পাইনের আরও আঘাত এড়াতে চোয়ালের ধাক্কা কৌশলটি পছন্দ করা হয়।",
+                    "hi": "ग्रीवा रीढ़ की हड्डी में आगे की चोट से बचने के लिए जबड़े-थ्रस्ट पैंतरेबाज़ी को प्राथमिकता दी जाती है।",
+                    "ur": "گریوا ریڑھ کی ہڈی میں مزید چوٹ سے بچنے کے لیے جبڑے کی دھکا دینے والی چال کو ترجیح دی جاتی ہے۔",
+                    "tr": "Servikal omurgaya daha fazla zarar vermemek için çene itme manevrası tercih edilir."
+                },
+                "points": 10
+            },
+            "id": "e51_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Ziel der Triage in der Notaufnahme?",
+                "en": "What is the goal of triage in the emergency room?",
+                "bn": "জরুরী বিভাগে ট্রায়াজের লক্ষ্য কী?",
+                "hi": "आपातकालीन कक्ष में ट्राइएज का लक्ष्य क्या है?",
+                "ur": "ایمرجنسی روم میں ٹرائج کا مقصد کیا ہے؟",
+                "tr": "Acil serviste triyajın amacı nedir?",
+                "options": [
+                    "Die Reihenfolge der Behandlung nach Ankunftszeit bestimmen",
+                    "Die schwersten Fälle zuerst behandeln",
+                    "Die Patienten nach Versicherungstatus sortieren",
+                    "Die Wartezeiten für alle Patienten verkürzen"
+                ],
+                "correctAnswer": "Die schwersten Fälle zuerst behandeln",
+                "explanation": {
+                    "en": "The goal of triage is to prioritize patients based on the severity of their condition, treating the most critical cases first.",
+                    "bn": "ট্রায়াজের লক্ষ্য হল রোগীদের অবস্থার তীব্রতার উপর ভিত্তি করে অগ্রাধিকার দেওয়া, সবচেয়ে সংকটপূর্ণ ঘটনাগুলির প্রথমে চিকিৎসা করা।",
+                    "hi": "ट्राइएज का लक्ष्य मरीजों की स्थिति की गंभीरता के आधार पर उन्हें प्राथमिकता देना है, सबसे गंभीर मामलों का पहले इलाज करना है।",
+                    "ur": "ٹرائج کا مقصد مریضوں کو ان کی حالت کی شدت کی بنیاد پر ترجیح دینا ہے، سب سے نازک معاملات کا پہلے علاج کرنا ہے۔",
+                    "tr": "Triyajın amacı, hastaları durumlarının ciddiyetine göre önceliklendirmek, en kritik vakaları ilk önce tedavi etmektir."
+                },
+                "points": 10
+            },
+            "id": "e51_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Medikament wird häufig bei der Behandlung des anaphylaktischen Schocks eingesetzt?",
+                "en": "Which medication is commonly used in the treatment of anaphylactic shock?",
+                "bn": "অ্যানাফিল্যাকটিক শকের চিকিৎসায় সাধারণত কোন ওষুধ ব্যবহৃত হয়?",
+                "hi": "एनाफिलेक्टिक शॉक के इलाज में आमतौर पर कौन सी दवा का उपयोग किया जाता है?",
+                "ur": "انا فائلیٹک شاک کے علاج میں عام طور پر کون سی دوا استعمال ہوتی ہے؟",
+                "tr": "Anafilaktik şok tedavisinde yaygın olarak hangi ilaç kullanılır?",
+                "options": [
+                    "Paracetamol",
+                    "Ibuprofen",
+                    "Adrenalin (Epinephrin)",
+                    "Aspirin"
+                ],
+                "correctAnswer": "Adrenalin (Epinephrin)",
+                "explanation": {
+                    "en": "Epinephrine (Adrenaline) is the first-line treatment for anaphylactic shock.",
+                    "bn": "এপিনেফ্রিন (অ্যাড্রেনালিন) অ্যানাফিল্যাকটিক শকের জন্য প্রথম সারির চিকিৎসা।",
+                    "hi": "एपिनेफ्रीन (एड्रेनालिन) एनाफिलेक्टिक शॉक के लिए पहली पंक्ति का उपचार है।",
+                    "ur": "ایپینفرین (ایڈرینالین) انا فائلیٹک شاک کے لیے پہلی لائن کا علاج ہے۔",
+                    "tr": "Epinefrin (Adrenalin), anafilaktik şok için ilk basamak tedavidir."
+                },
+                "points": 10
+            },
+            "id": "e51_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die Reanimation beginnt mit der Prüfung von __________ und Atmung.",
+                "en": "Resuscitation begins with checking for __________ and breathing.",
+                "bn": "পুনরুজ্জীবন __________ এবং শ্বাস পরীক্ষা করার মাধ্যমে শুরু হয়।",
+                "hi": "पुनर्जीवन __________ और सांस की जाँच के साथ शुरू होता है।",
+                "ur": "بحالی __________ اور سانس کی جانچ کے ساتھ شروع ہوتی ہے۔",
+                "tr": "Canlandırma __________ ve nefes kontrolü ile başlar."
+            },
+            "correctAnswer": "Bewusstsein",
+            "explanation": {
+                "en": "Resuscitation begins with checking for consciousness and breathing to assess the patient's condition.",
+                "bn": "রোগীর অবস্থা মূল্যায়ন করার জন্য পুনরুজ্জীবন সচেতনতা এবং শ্বাস পরীক্ষা করার মাধ্যমে শুরু হয়।",
+                "hi": "रोगी की स्थिति का आकलन करने के लिए पुनर्जीवन चेतना और सांस की जाँच के साथ शुरू होता है।",
+                "ur": "مریض کی حالت کا جائزہ لینے کے لیے بحالی شعور اور سانس کی جانچ کے ساتھ شروع ہوتی ہے۔",
+                "tr": "Hastanın durumunu değerlendirmek için canlandırma bilinç ve nefes kontrolü ile başlar."
+            },
+            "points": 10,
+            "id": "e51_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein hypovolämischer Schock wird durch __________ verursacht.",
+                "en": "Hypovolemic shock is caused by __________.",
+                "bn": "হাইপোভোলেমমিক শক __________ এর কারণে হয়।",
+                "hi": "हाइपोवोलेमिक शॉक __________ के कारण होता है।",
+                "ur": "ہائپوولیمک شاک __________ کی وجہ سے ہوتا ہے۔",
+                "tr": "Hipovolemik şok __________ neden olur."
+            },
+            "correctAnswer": "Blutverlust",
+            "explanation": {
+                "en": "Hypovolemic shock is caused by significant blood loss, leading to a decrease in blood volume.",
+                "bn": "হাইপোভোলেমমিক শক উল্লেখযোগ্য রক্ত ​​ক্ষয়ের কারণে হয়, যার ফলে রক্তের পরিমাণ হ্রাস পায়।",
+                "hi": "हाइपोवोलेमिक शॉक महत्वपूर्ण रक्त हानि के कारण होता है, जिससे रक्त की मात्रा में कमी आती है।",
+                "ur": "ہائپوولیمک شاک خون کی کافی کمی کی وجہ سے ہوتا ہے، جس سے خون کی مقدار میں کمی آتی ہے۔",
+                "tr": "Hipovolemik şok, önemli kan kaybı nedeniyle meydana gelir ve bu da kan hacminde azalmaya yol açar."
+            },
+            "points": 10,
+            "id": "e51_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bei einem Pneumothorax kann eine __________ notwendig sein, um die Luft aus dem Pleuraraum zu entfernen.",
+                "en": "In a pneumothorax, a __________ may be necessary to remove air from the pleural space.",
+                "bn": "একটি নিউমোথোরাক্সে, প্লুরাল স্থান থেকে বাতাস অপসারণের জন্য একটি __________ প্রয়োজন হতে পারে।",
+                "hi": "न्यूमोथोरैक्स में, फुफ्फुस स्थान से हवा निकालने के लिए __________ आवश्यक हो सकता है।",
+                "ur": "نیوموتھوریکس میں، pleural جگہ سے ہوا نکالنے کے لیے __________ ضروری ہو سکتا ہے۔",
+                "tr": "Pnömotoraksta, plevra boşluğundan hava çıkarmak için bir __________ gerekli olabilir."
+            },
+            "correctAnswer": "Thoraxdrainage",
+            "explanation": {
+                "en": "A chest tube (Thoraxdrainage) may be necessary to remove air from the pleural space in a pneumothorax.",
+                "bn": "নিউমোথোরাক্সে প্লুরাল স্থান থেকে বাতাস অপসারণের জন্য একটি বুকের টিউব (থোরাক্সড্রেনেজ) প্রয়োজন হতে পারে।",
+                "hi": "न्यूमोथोरैक्स में फुफ्फुस स्थान से हवा निकालने के लिए एक छाती ट्यूब (थोरेक्सड्रेनेज) आवश्यक हो सकती है।",
+                "ur": "نیوموتھوریکس میں pleural جگہ سے ہوا نکالنے کے لیے سینے کی ٹیوب (تھوریکس ڈرینیج) ضروری ہو سکتی ہے۔",
+                "tr": "Pnömotoraksta plevra boşluğundan hava çıkarmak için bir göğüs tüpü (Toraks drenajı) gerekli olabilir."
+            },
+            "points": 10,
+            "id": "e51_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bei einer schwerwiegenden Kopfverletzung sollte man das __________ der Wirbelsäule stabilisieren.",
+                "en": "In the case of a severe head injury, one should stabilize the __________ of the spine.",
+                "bn": "গুরুতর মাথার আঘাতের ক্ষেত্রে, মেরুদণ্ডের __________ স্থিতিশীল করা উচিত।",
+                "hi": "गंभीर सिर की चोट के मामले में, रीढ़ की __________ को स्थिर करना चाहिए।",
+                "ur": "سر کی شدید چوٹ کی صورت میں، रीڑھ کی __________ کو مستحکم کرنا چاہیے۔",
+                "tr": "Şiddetli bir kafa travması durumunda, omurganın __________ stabilize edilmelidir."
+            },
+            "correctAnswer": "Halswirbelsäule",
+            "explanation": {
+                "en": "In the case of a severe head injury, one should stabilize the cervical spine to prevent further damage.",
+                "bn": "গুরুতর মাথার আঘাতের ক্ষেত্রে, আরও ক্ষতি প্রতিরোধের জন্য মেরুদণ্ডের সারভাইকাল অংশ স্থিতিশীল করা উচিত।",
+                "hi": "गंभीर सिर की चोट के मामले में, आगे की क्षति को रोकने के लिए ग्रीवा रीढ़ को स्थिर करना चाहिए।",
+                "ur": "سر کی شدید چوٹ کی صورت میں، مزید نقصان سے بچنے کے لیے سروائیکل ریڑھ کی ہڈی کو مستحکم کرنا چاہیے۔",
+                "tr": "Şiddetli bir kafa travması durumunda, daha fazla hasarı önlemek için servikal omurga stabilize edilmelidir."
+            },
+            "points": 10,
+            "id": "e51_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein Patient mit einer akuten Atemnot benötigt oft __________ und Sauerstoff.",
+                "en": "A patient with acute shortness of breath often needs __________ and oxygen.",
+                "bn": "তীব্র শ্বাসকষ্টে আক্রান্ত রোগীর প্রায়শই __________ এবং অক্সিজেনের প্রয়োজন হয়।",
+                "hi": "तीव्र सांस की तकलीफ वाले रोगी को अक्सर __________ और ऑक्सीजन की आवश्यकता होती है।",
+                "ur": "شدید سانس کی قلت میں مبتلا مریض کو اکثر __________ اور آکسیجن کی ضرورت ہوتی ہے۔",
+                "tr": "Akut nefes darlığı olan bir hasta genellikle __________ ve oksijene ihtiyaç duyar."
+            },
+            "correctAnswer": "Beatmung",
+            "explanation": {
+                "en": "A patient with acute shortness of breath often needs ventilation and oxygen to support their breathing.",
+                "bn": "তীব্র শ্বাসকষ্টে আক্রান্ত রোগীর শ্বাস-প্রশ্বাসকে সমর্থন করার জন্য প্রায়শই বায়ুচলাচল এবং অক্সিজেনের প্রয়োজন হয়।",
+                "hi": "तीव्र सांस की तकलीफ वाले रोगी को अक्सर सांस लेने में सहायता के लिए वेंटिलेशन और ऑक्सीजन की आवश्यकता होती है।",
+                "ur": "سانس لینے میں مدد کے لیے شدید سانس کی قلت میں مبتلا مریض کو اکثر وینٹیلیشن اور آکسیجن کی ضرورت ہوتی ہے۔",
+                "tr": "Akut nefes darlığı olan bir hasta, nefeslerini desteklemek için genellikle ventilasyona ve oksijene ihtiyaç duyar."
+            },
+            "points": 10,
+            "id": "e51_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Notaufnahme",
+                "en": "Emergency Room",
+                "bn": "জরুরী বিভাগ",
+                "hi": "आपातकालीन कक्ष",
+                "ur": "ایمرجنسی روم",
+                "tr": "Acil Servis"
+            },
+            "correctAnswer": "Emergency Room",
+            "explanation": {
+                "en": "The German word 'Notaufnahme' translates to 'Emergency Room' in English.",
+                "bn": "জার্মান শব্দ 'Notaufnahme' ইংরেজিতে 'Emergency Room' এ অনুবাদ করা হয়েছে।",
+                "hi": "जर्मन शब्द 'Notaufnahme' का अंग्रेजी में अनुवाद 'Emergency Room' है।",
+                "ur": "جرمن لفظ 'Notaufnahme' کا انگریزی میں ترجمہ 'ایمرجنسی روم' ہے۔",
+                "tr": "Almanca 'Notaufnahme' kelimesi İngilizce'de 'Emergency Room' anlamına gelir."
+            },
+            "points": 10,
+            "id": "e51_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Schockraum",
+                "en": "Trauma Bay",
+                "bn": "ট্রমা বে",
+                "hi": "ट्रॉमा बे",
+                "ur": "ٹراما بے",
+                "tr": "Travma Odası"
+            },
+            "correctAnswer": "Trauma Bay",
+            "explanation": {
+                "en": "The German word 'Schockraum' translates to 'Trauma Bay' in English, which refers to a specialized area within the emergency room for treating trauma patients.",
+                "bn": "জার্মান শব্দ 'Schockraum' ইংরেজিতে 'Trauma Bay' এ অনুবাদ করা হয়েছে, যা ট্রমা রোগীদের চিকিৎসার জন্য জরুরী বিভাগের মধ্যে একটি বিশেষ এলাকাকে বোঝায়।",
+                "hi": "जर्मन शब्द 'Schockraum' का अंग्रेजी में अनुवाद 'Trauma Bay' है, जो आपातकालीन कक्ष के भीतर ट्रॉमा रोगियों के इलाज के लिए एक विशेष क्षेत्र को संदर्भित करता है।",
+                "ur": "جرمن لفظ 'Schockraum' کا انگریزی میں ترجمہ 'Trauma Bay' ہے، جو ایمرجنسی روم کے اندر صدمے کے مریضوں کے علاج کے لیے ایک خصوصی علاقے سے مراد ہے۔",
+                "tr": "Almanca 'Schockraum' kelimesi İngilizce'de 'Trauma Bay' anlamına gelir ve travma hastalarını tedavi etmek için acil servis içindeki özel bir alanı ifade eder."
+            },
+            "points": 10,
+            "id": "e51_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Reanimationsteam",
+                "en": "Resuscitation Team",
+                "bn": "পুনরুজ্জীবন দল",
+                "hi": "पुनर्जीवन दल",
+                "ur": "بحالی ٹیم",
+                "tr": "Canlandırma Ekibi"
+            },
+            "correctAnswer": "Resuscitation Team",
+            "explanation": {
+                "en": "The German word 'Reanimationsteam' translates to 'Resuscitation Team' in English.",
+                "bn": "জার্মান শব্দ 'Reanimationsteam' ইংরেজিতে 'Resuscitation Team' এ অনুবাদ করা হয়েছে।",
+                "hi": "जर्मन शब्द 'Reanimationsteam' का अंग्रेजी में अनुवाद 'Resuscitation Team' है।",
+                "ur": "جرمن لفظ 'Reanimationsteam' کا انگریزی میں ترجمہ 'Resuscitation Team' ہے۔",
+                "tr": "Almanca 'Reanimationsteam' kelimesi İngilizce'de 'Resuscitation Team' anlamına gelir."
+            },
+            "points": 10,
+            "id": "e51_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

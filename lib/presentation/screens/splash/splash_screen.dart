@@ -48,32 +48,27 @@ class _SplashScreenState extends ConsumerState<SplashScreen>
 
   Future<void> _navigateToNextScreen() async {
     await Future.delayed(const Duration(seconds: 2));
-    
+
     if (!mounted) return;
-    
+
     // Check if user is logged in
-    final authState = ref.read(authStateProvider);
-    
-    authState.when(
-      data: (user) {
-        if (user != null) {
-          context.go('/home');
-        } else {
-          context.go('/onboarding');
-        }
-      },
-      loading: () {
-        // Wait a bit more and try again
-        Future.delayed(const Duration(milliseconds: 500), () {
-          if (mounted) {
-            context.go('/onboarding');
-          }
-        });
-      },
-      error: (_, __) {
-        context.go('/onboarding');
-      },
-    );
+    final authRepo = ref.read(authRepositoryProvider);
+    final user = authRepo.currentUser;
+
+    if (user != null) {
+      // User is logged in - check if they've accepted terms
+      final hasAcceptedTerms = await authRepo.hasAcceptedTerms();
+      if (!mounted) return;
+
+      if (hasAcceptedTerms) {
+        context.go('/home');
+      } else {
+        context.go('/terms');
+      }
+    } else {
+      // User is not logged in
+      context.go('/onboarding');
+    }
   }
 
   @override

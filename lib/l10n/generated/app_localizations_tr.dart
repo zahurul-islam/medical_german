@@ -147,7 +147,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get summary => 'Özet';
 
   @override
-  String get learningObjectives => 'Learning Objectives';
+  String get learningObjectives => 'Öğrenme Hedefleri';
 
   @override
   String get flashcards => 'Bilgi Kartları';

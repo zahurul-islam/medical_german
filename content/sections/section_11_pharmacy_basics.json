@@ -1,14 +1,1614 @@
-{"id":"section_11","phaseId":"phase1","order":11,"titleDe":"Apotheken-Grundlagen","title":{"en":"Pharmacy Basics","bn":"ফার্মেসি বেসিক","hi":"फार्मेसी मूल बातें","ur":"فارمیسی کی بنیادی باتیں","tr":"Eczane Temelleri"},"level":"A2","estimatedMinutes":25,"vocabulary":[
-{"id":"v11_01","germanTerm":"Antibiotikum","article":"das","plural":"Antibiotika","translation":{"en":"Antibiotic","bn":"অ্যান্টিবায়োটিক","hi":"एंटीबायोटिक","ur":"اینٹی بائیوٹک","tr":"Antibiyotik"}},
-{"id":"v11_02","germanTerm":"Schmerzmittel","article":"das","plural":"Schmerzmittel","translation":{"en":"Painkiller","bn":"পেইনকিলার","hi":"दर्द निवारक","ur":"درد کی دوا","tr":"Ağrı kesici"}},
-{"id":"v11_03","germanTerm":"Dosierung","article":"die","plural":"Dosierungen","translation":{"en":"Dosage","bn":"ডোজ","hi":"खुराक","ur":"خوراک","tr":"Dozaj"}},
-{"id":"v11_04","germanTerm":"Rezept","article":"das","plural":"Rezepte","translation":{"en":"Prescription","bn":"প্রেসক্রিপশন","hi":"नुस्खा","ur":"نسخہ","tr":"Reçete"}},
-{"id":"v11_05","germanTerm":"Tablette","article":"die","plural":"Tabletten","translation":{"en":"Tablet/Pill","bn":"ট্যাবলেট","hi":"गोली","ur":"گولی","tr":"Tablet"}},
-{"id":"v11_06","germanTerm":"Tropfen","article":"die","plural":"Tropfen","translation":{"en":"Drops","bn":"ড্রপ","hi":"बूंदें","ur":"قطرے","tr":"Damla"}},
-{"id":"v11_07","germanTerm":"Salbe","article":"die","plural":"Salben","translation":{"en":"Ointment","bn":"মলম","hi":"मरहम","ur":"مرہم","tr":"Merhem"}},
-{"id":"v11_08","germanTerm":"Nebenwirkung","article":"die","plural":"Nebenwirkungen","translation":{"en":"Side Effect","bn":"পার্শ্বপ্রতিক্রিয়া","hi":"दुष्प्रभाव","ur":"ضمنی اثر","tr":"Yan etki"}}
-],"dialogues":[{"id":"d11_01","title":{"en":"Prescribing Medication"},"lines":[
-{"speaker":"Arzt","germanText":"Ich verschreibe Ihnen ein Antibiotikum.","translation":{"en":"I'm prescribing you an antibiotic."}},
-{"speaker":"Patient","germanText":"Wie oft muss ich es nehmen?","translation":{"en":"How often do I need to take it?"}},
-{"speaker":"Arzt","germanText":"Dreimal täglich nach dem Essen.","translation":{"en":"Three times daily after meals."}}
-]}],"exercises":[{"id":"e11_01","type":"multipleChoice","question":{"en":"What is 'Rezept'?"},"options":["Prescription","Tablet","Side Effect"],"correctAnswer":"Prescription","points":10}]}
+{
+    "id": "section_11",
+    "phaseId": "phase1",
+    "order": 11,
+    "titleDe": "Apotheken-Grundlagen",
+    "title": {
+        "en": "Pharmacy Basics: Antibiotics, Painkillers, Dosage, Prescription, Side Effects, Interactions",
+        "bn": "ফার্মেসী বেসিক: অ্যান্টিবায়োটিক, ব্যথানাশক, ডোজ, প্রেসক্রিপশন, পার্শ্ব প্রতিক্রিয়া, মিথস্ক্রিয়া",
+        "hi": "फ़ार्मेसी मूल बातें: एंटीबायोटिक्स, दर्द निवारक, खुराक, नुस्खा, दुष्प्रभाव, इंटरैक्शन",
+        "ur": "فارمیسی کی بنیادی باتیں: اینٹی بائیوٹکس، درد کم کرنے والی ادویات، خوراک، نسخہ، ضمنی اثرات، تعامل",
+        "tr": "Eczane Temelleri: Antibiyotikler, Ağrı Kesiciler, Dozaj, Reçete, Yan Etkiler, Etkileşimler",
+        "de": "Grundlagen der Pharmazie: Antibiotika, Schmerzmittel, Dosierung, Rezept, Nebenwirkung, Wechselwirkung"
+    },
+    "description": {
+        "en": "This section provides an overview of essential pharmacy terminology and concepts relevant to medical professionals in Germany.",
+        "bn": "এই বিভাগটি জার্মানির চিকিৎসা পেশাদারদের জন্য প্রয়োজনীয় ফার্মেসী পরিভাষা এবং ধারণাগুলির একটি সংক্ষিপ্ত বিবরণ প্রদান করে।",
+        "hi": "यह खंड जर्मनी में चिकित्सा पेशेवरों के लिए प्रासंगिक आवश्यक फार्मेसी शब्दावली और अवधारणाओं का अवलोकन प्रदान करता है।",
+        "ur": "یہ سیکشن جرمنی میں طبی پیشہ ور افراد کے لیے ضروری فارمیسی اصطلاحات اور تصورات کا ایک جائزہ فراہم کرتا ہے۔",
+        "tr": "Bu bölüm, Almanya'daki tıp uzmanları için ilgili temel eczane terminolojisi ve kavramlarına genel bir bakış sunmaktadır.",
+        "de": "Dieser Abschnitt bietet einen Überblick über die wesentliche pharmazeutische Terminologie und Konzepte, die für medizinische Fachkräfte in Deutschland relevant sind."
+    },
+    "level": "A2",
+    "estimatedMinutes": 45,
+    "isPremium": false,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, you will learn fundamental German vocabulary related to common medications and prescriptions. Understanding these terms is crucial for effective communication with patients and colleagues in a medical setting.",
+            "bn": "এই বিভাগে, আপনি সাধারণ ওষুধ এবং প্রেসক্রিপশন সম্পর্কিত মৌলিক জার্মান শব্দভাণ্ডার শিখবেন। একটি চিকিৎসা সেটিংয়ে রোগী এবং সহকর্মীদের সাথে কার্যকর যোগাযোগের জন্য এই পদগুলি বোঝা অত্যন্ত গুরুত্বপূর্ণ।",
+            "hi": "इस खंड में, आप सामान्य दवाओं और पर्चे से संबंधित बुनियादी जर्मन शब्दावली सीखेंगे। चिकित्सा सेटिंग में रोगियों और सहकर्मियों के साथ प्रभावी संचार के लिए इन शब्दों को समझना महत्वपूर्ण है।",
+            "ur": "اس سیکشن میں، آپ عام ادویات اور نسخوں سے متعلق بنیادی جرمن الفاظ سیکھیں گے۔ طبی ترتیب میں مریضوں اور ساتھیوں کے ساتھ مؤثر رابطے کے لیے ان اصطلاحات کو سمجھنا بہت ضروری ہے۔",
+            "tr": "Bu bölümde, yaygın ilaçlar ve reçetelerle ilgili temel Almanca kelime dağarcığını öğreneceksiniz. Tıbbi bir ortamda hastalar ve meslektaşlarla etkili iletişim için bu terimleri anlamak çok önemlidir.",
+            "de": "In diesem Abschnitt lernen Sie grundlegende deutsche Vokabeln im Zusammenhang mit gängigen Medikamenten und Rezepten. Das Verständnis dieser Begriffe ist entscheidend für eine effektive Kommunikation mit Patienten und Kollegen im medizinischen Umfeld."
+        },
+        "grammarFocus": {
+            "en": {
+                "bullet1": "Understanding noun genders (der, die, das) for medications and related terms.",
+                "bullet2": "Use of accusative and dative cases with prepositions related to taking medication (e.g., 'mit', 'gegen')."
+            },
+            "bn": {
+                "bullet1": "ওষুধ এবং সম্পর্কিত পদগুলির জন্য বিশেষ্য লিঙ্গ (der, die, das) বোঝা।",
+                "bullet2": "ওষুধ খাওয়ার সাথে সম্পর্কিত উপসর্গগুলির সাথে অভিযুক্ত এবং ডেটিভ কেসগুলির ব্যবহার (যেমন, 'mit', 'gegen')।"
+            },
+            "hi": {
+                "bullet1": "दवाओं और संबंधित शब्दों के लिए संज्ञा लिंग (der, die, das) को समझना।",
+                "bullet2": "दवा लेने से संबंधित प्रस्तावों के साथ कर्म कारक और कर्मकारक मामलों का उपयोग (उदाहरण के लिए, 'mit', 'gegen')।"
+            },
+            "ur": {
+                "bullet1": "ادویات اور متعلقہ اصطلاحات کے لیے اسم جنس (der, die, das) کو سمجھنا۔",
+                "bullet2": "دوا لینے سے متعلق پیشکشوں کے ساتھ الزامی اور امتیازی معاملات کا استعمال (مثال کے طور پر، 'mit', 'gegen')۔"
+            },
+            "tr": {
+                "bullet1": "İlaçlar ve ilgili terimler için isim cinsiyetlerini (der, die, das) anlamak.",
+                "bullet2": "İlaç alma ile ilgili edatlarla birlikte akuzatif ve datif hallerinin kullanımı (örn. 'mit', 'gegen')."
+            },
+            "de": {
+                "bullet1": "Das Verständnis der Artikel (der, die, das) für Medikamente und verwandte Begriffe.",
+                "bullet2": "Die Verwendung von Akkusativ und Dativ mit Präpositionen im Zusammenhang mit der Einnahme von Medikamenten (z.B. 'mit', 'gegen')."
+            }
+        },
+        "culturalNotes": {
+            "en": "In Germany, prescriptions are often required even for medications that are available over-the-counter in other countries; strict regulations are in place for medication distribution.",
+            "bn": "জার্মানিতে, প্রেসক্রিপশন প্রায়শই সেই ওষুধগুলির জন্যও প্রয়োজন হয় যা অন্যান্য দেশে ওভার-দ্য-কাউন্টার পাওয়া যায়; ওষুধ বিতরণের জন্য কঠোর নিয়ম রয়েছে।",
+            "hi": "जर्मनी में, पर्चे अक्सर उन दवाओं के लिए भी आवश्यक होते हैं जो अन्य देशों में ओवर-द-काउंटर उपलब्ध हैं; दवा वितरण के लिए सख्त नियम लागू हैं।",
+            "ur": "جرمنی میں، نسخے اکثر ان ادویات کے لیے بھی درکار ہوتے ہیں جو دوسرے ممالک میں بغیر نسخے کے دستیاب ہیں۔ ادویات کی تقسیم کے لیے سخت ضوابط موجود ہیں۔",
+            "tr": "Almanya'da, diğer ülkelerde reçetesiz satılan ilaçlar için bile genellikle reçete gereklidir; ilaç dağıtımı için sıkı düzenlemeler mevcuttur.",
+            "de": "In Deutschland sind Rezepte oft auch für Medikamente erforderlich, die in anderen Ländern rezeptfrei erhältlich sind; für die Medikamentenabgabe gelten strenge Vorschriften."
+        },
+        "summary": {
+            "en": "This section provides a foundation for understanding common pharmacy-related terms and concepts in the German medical context.",
+            "bn": "এই বিভাগটি জার্মান চিকিৎসা প্রেক্ষাপটে সাধারণ ফার্মেসী-সম্পর্কিত শব্দ এবং ধারণাগুলি বোঝার জন্য একটি ভিত্তি প্রদান করে।",
+            "hi": "यह खंड जर्मन चिकित्सा संदर्भ में सामान्य फार्मेसी से संबंधित शब्दों और अवधारणाओं को समझने के लिए एक आधार प्रदान करता है।",
+            "ur": "یہ سیکشن جرمن طبی تناظر میں فارمیسی سے متعلق عام الفاظ اور تصورات کو سمجھنے کے لیے ایک بنیاد فراہم کرتا ہے۔",
+            "tr": "Bu bölüm, Alman tıbbi bağlamında yaygın eczane ile ilgili terimleri ve kavramları anlamak için bir temel sağlamaktadır.",
+            "de": "Dieser Abschnitt bietet eine Grundlage für das Verständnis gängiger apothekenbezogener Begriffe und Konzepte im deutschen medizinischen Kontext."
+        },
+        "learningObjectives": [
+            "Identify and define common pharmacy terms in German.",
+            "Understand the process of obtaining a prescription in Germany.",
+            "Explain the importance of dosage and potential drug interactions.",
+            "Describe the role of the pharmacist in the German healthcare system."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "das Antibiotikum",
+            "article": "das",
+            "plural": "die Antibiotika",
+            "pronunciation": "/ˌantibioˈtiːkʊm/",
+            "category": "noun",
+            "translation": {
+                "en": "antibiotic",
+                "bn": "অ্যান্টিবায়োটিক",
+                "hi": "एंटीबायोटिक",
+                "ur": "اینٹی بائیوٹک",
+                "tr": "antibiyotik"
+            },
+            "exampleSentence": "Der Arzt hat dem Patienten ein Antibiotikum gegen die bakterielle Infektion verschrieben.",
+            "exampleTranslation": {
+                "en": "The doctor prescribed the patient an antibiotic for the bacterial infection.",
+                "bn": "ডাক্তার রোগীকে ব্যাকটেরিয়াল সংক্রমণের জন্য একটি অ্যান্টিবায়োটিক দিয়েছেন।",
+                "hi": "डॉक्टर ने मरीज़ को बैक्टीरियल संक्रमण के लिए एक एंटीबायोटिक दी।",
+                "ur": "ڈاکٹر نے مریض کو بیکٹیریل انفیکشن کے لیے اینٹی بائیوٹک تجویز کی۔",
+                "tr": "Doktor, hastaya bakteriyel enfeksiyon için bir antibiyotik yazdı."
+            },
+            "id": "v11_01"
+        },
+        {
+            "germanTerm": "das Schmerzmittel",
+            "article": "das",
+            "plural": "die Schmerzmittel",
+            "pronunciation": "/ˈʃmɛrt͡sˌmɪtəl/",
+            "category": "noun",
+            "translation": {
+                "en": "painkiller",
+                "bn": "ব্যথানাশক",
+                "hi": "दर्द निवारक",
+                "ur": "درد کم کرنے والی دوا",
+                "tr": "ağrı kesici"
+            },
+            "exampleSentence": "Bei starken Schmerzen kann der Patient ein Schmerzmittel einnehmen.",
+            "exampleTranslation": {
+                "en": "The patient can take a painkiller for severe pain.",
+                "bn": "তীব্র ব্যথার জন্য রোগী ব্যথানাশক নিতে পারেন।",
+                "hi": "तेज़ दर्द के लिए मरीज़ दर्द निवारक ले सकता है।",
+                "ur": "شدید درد کی صورت میں مریض درد کم کرنے والی دوا لے سکتا ہے۔",
+                "tr": "Hasta şiddetli ağrı için ağrı kesici alabilir."
+            },
+            "id": "v11_02"
+        },
+        {
+            "germanTerm": "die Dosierung",
+            "article": "die",
+            "plural": "die Dosierungen",
+            "pronunciation": "/doˈziːʁʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "dosage",
+                "bn": "ডোজ",
+                "hi": "खुराक",
+                "ur": "خوراک",
+                "tr": "doz"
+            },
+            "exampleSentence": "Die Dosierung des Medikaments muss genau eingehalten werden.",
+            "exampleTranslation": {
+                "en": "The dosage of the medication must be strictly adhered to.",
+                "bn": "ওষুধের ডোজ সঠিকভাবে মেনে চলতে হবে।",
+                "hi": "दवा की खुराक का सख्ती से पालन किया जाना चाहिए।",
+                "ur": "دوا کی خوراک پر سختی سے عمل کرنا چاہیے۔",
+                "tr": "İlacın dozu kesinlikle takip edilmelidir."
+            },
+            "id": "v11_03"
+        },
+        {
+            "germanTerm": "das Rezept",
+            "article": "das",
+            "plural": "die Rezepte",
+            "pronunciation": "/ʁeˈt͡sɛpt/",
+            "category": "noun",
+            "translation": {
+                "en": "prescription",
+                "bn": "প্রেসক্রিপশন",
+                "hi": "नुस्खा",
+                "ur": "نسخہ",
+                "tr": "reçete"
+            },
+            "exampleSentence": "Der Patient benötigt ein Rezept vom Arzt, um das Medikament in der Apotheke zu erhalten.",
+            "exampleTranslation": {
+                "en": "The patient needs a prescription from the doctor to get the medication at the pharmacy.",
+                "bn": "ফার্মেসী থেকে ওষুধ পাওয়ার জন্য রোগীর ডাক্তারের কাছ থেকে একটি প্রেসক্রিপশনের প্রয়োজন।",
+                "hi": "मरीज़ को फार्मेसी से दवा प्राप्त करने के लिए डॉक्टर से एक नुस्खे की आवश्यकता होती है।",
+                "ur": "فارمیسی سے دوا حاصل کرنے کے لیے مریض کو ڈاکٹر سے نسخے کی ضرورت ہوتی ہے۔",
+                "tr": "Hastanın eczaneden ilacı alabilmesi için doktordan bir reçeteye ihtiyacı var."
+            },
+            "id": "v11_04"
+        },
+        {
+            "germanTerm": "die Nebenwirkung",
+            "article": "die",
+            "plural": "die Nebenwirkungen",
+            "pronunciation": "/ˈneːbn̩ˌvɪʁkʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "side effect",
+                "bn": "পার্শ্বপ্রতিক্রিয়া",
+                "hi": "दुष्प्रभाव",
+                "ur": "ضمنی اثر",
+                "tr": "yan etki"
+            },
+            "exampleSentence": "Jedes Medikament kann Nebenwirkungen haben.",
+            "exampleTranslation": {
+                "en": "Every medication can have side effects.",
+                "bn": "প্রতিটি ওষুধের পার্শ্বপ্রতিক্রিয়া থাকতে পারে।",
+                "hi": "हर दवा के दुष्प्रभाव हो सकते हैं।",
+                "ur": "ہر دوا کے ضمنی اثرات ہو سکتے ہیں۔",
+                "tr": "Her ilacın yan etkileri olabilir."
+            },
+            "id": "v11_05"
+        },
+        {
+            "germanTerm": "die Wechselwirkung",
+            "article": "die",
+            "plural": "die Wechselwirkungen",
+            "pronunciation": "/ˈvɛksl̩ˌvɪʁkʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "interaction",
+                "bn": "পারস্পরিক ক্রিয়া",
+                "hi": "अन्योन्यक्रिया",
+                "ur": "تعامل",
+                "tr": "etkileşim"
+            },
+            "exampleSentence": "Es ist wichtig, Wechselwirkungen zwischen verschiedenen Medikamenten zu beachten.",
+            "exampleTranslation": {
+                "en": "It is important to consider interactions between different medications.",
+                "bn": "বিভিন্ন ওষুধের মধ্যে পারস্পরিক ক্রিয়া বিবেচনা করা গুরুত্বপূর্ণ।",
+                "hi": "विभिन्न दवाओं के बीच अन्योन्यक्रिया पर विचार करना महत्वपूर्ण है।",
+                "ur": "مختلف ادویات کے درمیان تعامل پر غور کرنا اہم ہے۔",
+                "tr": "Farklı ilaçlar arasındaki etkileşimleri dikkate almak önemlidir."
+            },
+            "id": "v11_06"
+        },
+        {
+            "germanTerm": "die Apotheke",
+            "article": "die",
+            "plural": "die Apotheken",
+            "pronunciation": "/apɔˈteːkə/",
+            "category": "noun",
+            "translation": {
+                "en": "pharmacy",
+                "bn": "ফার্মেসি",
+                "hi": "दवाखाना",
+                "ur": "فارمیسی",
+                "tr": "eczane"
+            },
+            "exampleSentence": "Der Patient holt sein Medikament in der Apotheke ab.",
+            "exampleTranslation": {
+                "en": "The patient picks up his medication at the pharmacy.",
+                "bn": "রোগী ফার্মেসি থেকে তার ওষুধ সংগ্রহ করে।",
+                "hi": "मरीज़ फार्मेसी से अपनी दवा लेता है।",
+                "ur": "مریض فارمیسی سے اپنی دوا لیتا ہے۔",
+                "tr": "Hasta ilacını eczaneden alıyor."
+            },
+            "id": "v11_07"
+        },
+        {
+            "germanTerm": "verschreiben",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/fɛɐ̯ˈʃraɪ̯bən/",
+            "category": "verb",
+            "translation": {
+                "en": "to prescribe",
+                "bn": "প্রেসক্রাইব করা",
+                "hi": "लिखना",
+                "ur": "تجویز کرنا",
+                "tr": "reçete yazmak"
+            },
+            "exampleSentence": "Der Arzt wird Ihnen ein Medikament verschreiben.",
+            "exampleTranslation": {
+                "en": "The doctor will prescribe you a medication.",
+                "bn": "ডাক্তার আপনাকে একটি ওষুধ প্রেসক্রাইব করবেন।",
+                "hi": "डॉक्टर आपको एक दवा लिखेंगे।",
+                "ur": "ڈاکٹر آپ کو دوا تجویز کریں گے۔",
+                "tr": "Doktor size bir ilaç yazacak."
+            },
+            "id": "v11_08"
+        },
+        {
+            "germanTerm": "einnehmen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈaɪ̯nˌneːmən/",
+            "category": "verb",
+            "translation": {
+                "en": "to take (medicine)",
+                "bn": "নেওয়া (ওষুধ)",
+                "hi": "लेना (दवा)",
+                "ur": "لینا (دوا)",
+                "tr": "almak (ilaç)"
+            },
+            "exampleSentence": "Sie müssen das Medikament dreimal täglich einnehmen.",
+            "exampleTranslation": {
+                "en": "You must take the medication three times a day.",
+                "bn": "আপনাকে দিনে তিনবার ওষুধটি নিতে হবে।",
+                "hi": "आपको दिन में तीन बार दवा लेनी होगी।",
+                "ur": "آپ کو دن میں تین بار دوا لینی ہوگی۔",
+                "tr": "İlacı günde üç kez almalısınız."
+            },
+            "id": "v11_09"
+        },
+        {
+            "germanTerm": "die Tablette",
+            "article": "die",
+            "plural": "die Tabletten",
+            "pronunciation": "/taˈblɛtə/",
+            "category": "noun",
+            "translation": {
+                "en": "tablet",
+                "bn": "ট্যাবলেট",
+                "hi": "गोली",
+                "ur": "گولی",
+                "tr": "tablet"
+            },
+            "exampleSentence": "Nehmen Sie eine Tablette mit ausreichend Wasser ein.",
+            "exampleTranslation": {
+                "en": "Take one tablet with sufficient water.",
+                "bn": "পর্যাপ্ত জল দিয়ে একটি ট্যাবলেট নিন।",
+                "hi": "पर्याप्त पानी के साथ एक टैबलेट लें।",
+                "ur": "کافی پانی کے ساتھ ایک گولی لیں۔",
+                "tr": "Yeterli su ile bir tablet alın."
+            },
+            "id": "v11_10"
+        },
+        {
+            "germanTerm": "die Kapsel",
+            "article": "die",
+            "plural": "die Kapseln",
+            "pronunciation": "/ˈkapsl̩/",
+            "category": "noun",
+            "translation": {
+                "en": "capsule",
+                "bn": "ক্যাপসুল",
+                "hi": "कैप्सूल",
+                "ur": "کیپسول",
+                "tr": "kapsül"
+            },
+            "exampleSentence": "Die Kapseln sollten unzerkaut geschluckt werden.",
+            "exampleTranslation": {
+                "en": "The capsules should be swallowed whole.",
+                "bn": "ক্যাপসুলগুলি পুরো গিলে ফেলা উচিত।",
+                "hi": "कैप्सूल को पूरा निगल जाना चाहिए।",
+                "ur": "کیپسول کو پورا نگل جانا چاہیے۔",
+                "tr": "Kapsüller bütün olarak yutulmalıdır."
+            },
+            "id": "v11_11"
+        },
+        {
+            "germanTerm": "die Salbe",
+            "article": "die",
+            "plural": "die Salben",
+            "pronunciation": "/ˈzalbə/",
+            "category": "noun",
+            "translation": {
+                "en": "ointment",
+                "bn": "মলম",
+                "hi": "मरहम",
+                "ur": "مرہم",
+                "tr": "merhem"
+            },
+            "exampleSentence": "Tragen Sie die Salbe dünn auf die betroffene Stelle auf.",
+            "exampleTranslation": {
+                "en": "Apply the ointment thinly to the affected area.",
+                "bn": "আক্রান্ত স্থানে মলমটি পাতলা করে লাগান।",
+                "hi": "प्रभावित क्षेत्र पर मरहम को पतला करके लगाएं।",
+                "ur": "متاثرہ جگہ پر مرہم کو باریک لگائیں۔",
+                "tr": "Merhemi etkilenen bölgeye ince bir şekilde uygulayın."
+            },
+            "id": "v11_12"
+        },
+        {
+            "germanTerm": "die Creme",
+            "article": "die",
+            "plural": "die Cremes",
+            "pronunciation": "/kʁeːm/",
+            "category": "noun",
+            "translation": {
+                "en": "cream",
+                "bn": "ক্রিম",
+                "hi": "क्रीम",
+                "ur": "کریم",
+                "tr": "krem"
+            },
+            "exampleSentence": "Die Creme hilft bei trockener Haut.",
+            "exampleTranslation": {
+                "en": "The cream helps with dry skin.",
+                "bn": "ক্রিমটি শুষ্ক ত্বকে সাহায্য করে।",
+                "hi": "क्रीम शुष्क त्वचा में मदद करती है।",
+                "ur": "کریم خشک جلد میں مدد کرتی ہے۔",
+                "tr": "Krem kuru cilde iyi gelir."
+            },
+            "id": "v11_13"
+        },
+        {
+            "germanTerm": "die Lösung",
+            "article": "die",
+            "plural": "die Lösungen",
+            "pronunciation": "/ˈløːzʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "solution",
+                "bn": "দ্রবণ",
+                "hi": "घोल",
+                "ur": "حل",
+                "tr": "çözelti"
+            },
+            "exampleSentence": "Die Lösung ist zur Desinfektion geeignet.",
+            "exampleTranslation": {
+                "en": "The solution is suitable for disinfection.",
+                "bn": "দ্রবণটি জীবাণুমুক্তকরণের জন্য উপযুক্ত।",
+                "hi": "घोल कीटाणुशोधन के लिए उपयुक्त है।",
+                "ur": "حل جراثیم کشی کے لیے موزوں ہے۔",
+                "tr": "Çözelti dezenfeksiyon için uygundur."
+            },
+            "id": "v11_14"
+        },
+        {
+            "germanTerm": "die Suspension",
+            "article": "die",
+            "plural": "die Suspensionen",
+            "pronunciation": "/zʊsˈpɛnzi̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "suspension",
+                "bn": "সাসপেনশন",
+                "hi": "निलंबन",
+                "ur": "معلق",
+                "tr": "süspansiyon"
+            },
+            "exampleSentence": "Vor Gebrauch die Suspension gut schütteln.",
+            "exampleTranslation": {
+                "en": "Shake the suspension well before use.",
+                "bn": "ব্যবহারের আগে সাসপেনশনটি ভালভাবে ঝাঁকান।",
+                "hi": "उपयोग से पहले निलंबन को अच्छी तरह हिलाएं।",
+                "ur": "استعمال سے پہلے معلق کو اچھی طرح ہلائیں۔",
+                "tr": "Kullanmadan önce süspansiyonu iyice çalkalayın."
+            },
+            "id": "v11_15"
+        },
+        {
+            "germanTerm": "die Ampulle",
+            "article": "die",
+            "plural": "die Ampullen",
+            "pronunciation": "/amˈpʊlə/",
+            "category": "noun",
+            "translation": {
+                "en": "ampoule",
+                "bn": "অ্যাম্পুল",
+                "hi": "एम्पुल",
+                "ur": "ایمپول",
+                "tr": "ampul"
+            },
+            "exampleSentence": "Das Medikament wird in einer Ampulle geliefert.",
+            "exampleTranslation": {
+                "en": "The medication is delivered in an ampoule.",
+                "bn": "ওষুধটি একটি অ্যাম্পুলে সরবরাহ করা হয়।",
+                "hi": "दवा एक एम्पुल में दी जाती है।",
+                "ur": "دوا ایک ایمپول میں فراہم کی جاتی ہے۔",
+                "tr": "İlaç bir ampul içinde teslim edilir."
+            },
+            "id": "v11_16"
+        },
+        {
+            "germanTerm": "die Injektion",
+            "article": "die",
+            "plural": "die Injektionen",
+            "pronunciation": "/ɪnjɛkˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "injection",
+                "bn": "ইনজেকশন",
+                "hi": "इंजेक्शन",
+                "ur": "انجکشن",
+                "tr": "enjeksiyon"
+            },
+            "exampleSentence": "Der Arzt gibt dem Patienten eine Injektion.",
+            "exampleTranslation": {
+                "en": "The doctor gives the patient an injection.",
+                "bn": "ডাক্তার রোগীকে একটি ইনজেকশন দেন।",
+                "hi": "डॉक्टर मरीज को एक इंजेक्शन देते हैं।",
+                "ur": "ڈاکٹر مریض کو انجکشن لگاتے ہیں۔",
+                "tr": "Doktor hastaya bir enjeksiyon yapıyor."
+            },
+            "id": "v11_17"
+        },
+        {
+            "germanTerm": "die Infusion",
+            "article": "die",
+            "plural": "die Infusionen",
+            "pronunciation": "/ɪnfuˈzi̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "infusion",
+                "bn": "ইনফিউশন",
+                "hi": "अभिषेक",
+                "ur": "انفیوژن",
+                "tr": "infüzyon"
+            },
+            "exampleSentence": "Der Patient erhält eine Infusion mit Flüssigkeit.",
+            "exampleTranslation": {
+                "en": "The patient receives an infusion of fluids.",
+                "bn": "রোগী তরল দিয়ে একটি ইনফিউশন গ্রহণ করে।",
+                "hi": "मरीज़ को तरल पदार्थों का एक जलसेक मिलता है।",
+                "ur": "مریض کو سیال کا ایک انفیوژن ملتا ہے۔",
+                "tr": "Hasta sıvı infüzyonu alıyor."
+            },
+            "id": "v11_18"
+        },
+        {
+            "germanTerm": "die Packungsbeilage",
+            "article": "die",
+            "plural": "die Packungsbeilagen",
+            "pronunciation": "/ˈpakʊŋsˌbaɪ̯laːɡə/",
+            "category": "noun",
+            "translation": {
+                "en": "package insert",
+                "bn": "প্যাকেজ লিফলেট",
+                "hi": "पैकेज लीफलेट",
+                "ur": "پیکیج لیفلیٹ",
+                "tr": "prospektüs"
+            },
+            "exampleSentence": "Lesen Sie vor der Einnahme die Packungsbeilage sorgfältig durch.",
+            "exampleTranslation": {
+                "en": "Read the package insert carefully before taking the medication.",
+                "bn": "ওষুধ খাওয়ার আগে প্যাকেজ লিফলেটটি মনোযোগ সহকারে পড়ুন।",
+                "hi": "दवा लेने से पहले पैकेज लीफलेट को ध्यान से पढ़ें।",
+                "ur": "دوا لینے سے پہلے پیکیج لیفلیٹ کو غور سے پڑھیں۔",
+                "tr": "İlacı almadan önce prospektüsü dikkatlice okuyun."
+            },
+            "id": "v11_19"
+        },
+        {
+            "germanTerm": "die Kontraindikation",
+            "article": "die",
+            "plural": "die Kontraindikationen",
+            "pronunciation": "/kɔntʁaɪ̯ndikaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "contraindication",
+                "bn": "প্রতিরোধিতা",
+                "hi": "निषेध",
+                "ur": "ممانعت",
+                "tr": "kontrendikasyon"
+            },
+            "exampleSentence": "Es gibt bestimmte Kontraindikationen für dieses Medikament.",
+            "exampleTranslation": {
+                "en": "There are certain contraindications for this medication.",
+                "bn": "এই ওষুধের জন্য নির্দিষ্ট কিছু প্রতিরোধিতা রয়েছে।",
+                "hi": "इस दवा के लिए कुछ खास निषेध हैं।",
+                "ur": "اس دوا کے لیے کچھ خاص ممانعتیں ہیں۔",
+                "tr": "Bu ilaç için belirli kontrendikasyonlar vardır."
+            },
+            "id": "v11_20"
+        },
+        {
+            "germanTerm": "die Indikation",
+            "article": "die",
+            "plural": "die Indikationen",
+            "pronunciation": "/ɪndikaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "indication",
+                "bn": "ইঙ্গিত",
+                "hi": "संकेत",
+                "ur": "اشارہ",
+                "tr": "endikasyon"
+            },
+            "exampleSentence": "Die Indikation für das Medikament ist eine bakterielle Infektion.",
+            "exampleTranslation": {
+                "en": "The indication for the medication is a bacterial infection.",
+                "bn": "ওষুধের ইঙ্গিতটি একটি ব্যাকটেরিয়াল সংক্রমণ।",
+                "hi": "दवा के लिए संकेत एक बैक्टीरियल संक्रमण है।",
+                "ur": "دوا کے لیے اشارہ بیکٹیریل انفیکشن ہے۔",
+                "tr": "İlacın endikasyonu bakteriyel bir enfeksiyondur."
+            },
+            "id": "v11_21"
+        },
+        {
+            "germanTerm": "der Wirkstoff",
+            "article": "der",
+            "plural": "die Wirkstoffe",
+            "pronunciation": "/ˈvɪʁkˌʃtɔf/",
+            "category": "noun",
+            "translation": {
+                "en": "active ingredient",
+                "bn": "সক্রিয় উপাদান",
+                "hi": "सक्रिय घटक",
+                "ur": "فعال جزو",
+                "tr": "aktif madde"
+            },
+            "exampleSentence": "Der Wirkstoff des Medikaments ist Paracetamol.",
+            "exampleTranslation": {
+                "en": "The active ingredient of the medication is paracetamol.",
+                "bn": "ওষুধের সক্রিয় উপাদান হল প্যারাসিটামল।",
+                "hi": "दवा का सक्रिय घटक पैरासिटामोल है।",
+                "ur": "دوا کا فعال جزو پیراسیٹامول ہے۔",
+                "tr": "İlacın aktif maddesi parasetamoldür."
+            },
+            "id": "v11_22"
+        },
+        {
+            "germanTerm": "rezeptfrei",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ʁeˈt͡sɛptˌfraɪ̯/",
+            "category": "adjective",
+            "translation": {
+                "en": "over-the-counter",
+                "bn": "প্রেসক্রিপশনবিহীন",
+                "hi": "बिना पर्ची का",
+                "ur": "نسخے کے بغیر",
+                "tr": "reçetesiz"
+            },
+            "exampleSentence": "Dieses Medikament ist rezeptfrei in der Apotheke erhältlich.",
+            "exampleTranslation": {
+                "en": "This medication is available over-the-counter at the pharmacy.",
+                "bn": "এই ওষুধটি ফার্মেসিতে প্রেসক্রিপশনবিহীন পাওয়া যায়।",
+                "hi": "यह दवा फार्मेसी में बिना पर्ची के उपलब्ध है।",
+                "ur": "یہ دوا فارمیسی میں نسخے کے بغیر دستیاب ہے۔",
+                "tr": "Bu ilaç eczanede reçetesiz olarak mevcuttur."
+            },
+            "id": "v11_23"
+        },
+        {
+            "germanTerm": "rezeptpflichtig",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ʁeˈt͡sɛptˌpflɪçtɪç/",
+            "category": "adjective",
+            "translation": {
+                "en": "prescription-only",
+                "bn": "প্রেসক্রিপশন আবশ্যক",
+                "hi": "पर्ची आवश्यक",
+                "ur": "نسخے کی ضرورت",
+                "tr": "reçeteli"
+            },
+            "exampleSentence": "Für dieses Medikament ist ein Rezept erforderlich.",
+            "exampleTranslation": {
+                "en": "A prescription is required for this medication.",
+                "bn": "এই ওষুধের জন্য একটি প্রেসক্রিপশন প্রয়োজন।",
+                "hi": "इस दवा के लिए एक पर्ची आवश्यक है।",
+                "ur": "اس دوا کے لیے ایک نسخے کی ضرورت ہے۔",
+                "tr": "Bu ilaç için reçete gereklidir."
+            },
+            "id": "v11_24"
+        },
+        {
+            "germanTerm": "die Filmtablette",
+            "article": "die",
+            "plural": "die Filmtabletten",
+            "pronunciation": "/ˈfiːlm̩ˌtaˌblɛtə/",
+            "category": "noun",
+            "translation": {
+                "en": "film-coated tablet",
+                "bn": "ফিল্ম-কোটেড ট্যাবলেট",
+                "hi": "फिल्म लेपित गोली",
+                "ur": "فلم کوٹیڈ گولی",
+                "tr": "film kaplı tablet"
+            },
+            "exampleSentence": "Die Filmtablette ist leichter zu schlucken.",
+            "exampleTranslation": {
+                "en": "The film-coated tablet is easier to swallow.",
+                "bn": "ফিল্ম-কোটেড ট্যাবলেটটি গিলতে সহজ।",
+                "hi": "फिल्म लेपित गोली को निगलना आसान है।",
+                "ur": "فلم کوٹیڈ گولی نگلنے میں آسان ہے۔",
+                "tr": "Film kaplı tableti yutmak daha kolaydır."
+            },
+            "id": "v11_25"
+        },
+        {
+            "germanTerm": "das Generikum",
+            "article": "das",
+            "plural": "die Generika",
+            "pronunciation": "/ɡeˈneːʁikʊm/",
+            "category": "noun",
+            "translation": {
+                "en": "generic drug",
+                "bn": "জেনেরিক ওষুধ",
+                "hi": "जेनेरिक दवा",
+                "ur": "عام دوا",
+                "tr": "jenerik ilaç"
+            },
+            "exampleSentence": "Das Generikum enthält den gleichen Wirkstoff wie das Originalmedikament.",
+            "exampleTranslation": {
+                "en": "The generic drug contains the same active ingredient as the original medication.",
+                "bn": "জেনেরিক ওষুধে আসল ওষুধের মতো একই সক্রিয় উপাদান থাকে।",
+                "hi": "जेनेरिक दवा में मूल दवा के समान सक्रिय घटक होता है।",
+                "ur": "عام دوا میں اصل دوا کے جیسا ہی فعال جزو ہوتا ہے۔",
+                "tr": "Jenerik ilaç, orijinal ilaçla aynı aktif maddeyi içerir."
+            },
+            "id": "v11_26"
+        },
+        {
+            "germanTerm": "die Haltbarkeit",
+            "article": "die",
+            "plural": "die Haltbarkeiten",
+            "pronunciation": "/ˈhaltbaːɐ̯kaɪ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "shelf life",
+                "bn": "মেয়াদ",
+                "hi": "शेल्फ जीवन",
+                "ur": "شیلف لائف",
+                "tr": "raf ömrü"
+            },
+            "exampleSentence": "Achten Sie auf die Haltbarkeit des Medikaments.",
+            "exampleTranslation": {
+                "en": "Pay attention to the shelf life of the medication.",
+                "bn": "ওষুধের মেয়াদের দিকে মনোযোগ দিন।",
+                "hi": "दवा की शेल्फ जीवन पर ध्यान दें।",
+                "ur": "دوا کی شیلف لائف پر توجہ دیں۔",
+                "tr": "İlacın raf ömrüne dikkat edin."
+            },
+            "id": "v11_27"
+        },
+        {
+            "germanTerm": "die Darreichungsform",
+            "article": "die",
+            "plural": "die Darreichungsformen",
+            "pronunciation": "/ˈdaːʁaɪ̯çʊŋsˌfɔʁm/",
+            "category": "noun",
+            "translation": {
+                "en": "dosage form",
+                "bn": "ডোজের ফর্ম",
+                "hi": "खुराक का रूप",
+                "ur": "خوراک کی شکل",
+                "tr": "dozaj formu"
+            },
+            "exampleSentence": "Die Darreichungsform des Medikaments ist entscheidend für seine Wirkung.",
+            "exampleTranslation": {
+                "en": "The dosage form of the medication is crucial for its effect.",
+                "bn": "ওষুধের ডোজের ফর্ম তার প্রভাবের জন্য গুরুত্বপূর্ণ।",
+                "hi": "दवा की खुराक का रूप उसके प्रभाव के लिए महत्वपूर्ण है।",
+                "ur": "دوا کی خوراک کی شکل اس کے اثر کے لیے بہت ضروری ہے۔",
+                "tr": "İlacın dozaj formu, etkisi için çok önemlidir."
+            },
+            "id": "v11_28"
+        },
+        {
+            "germanTerm": "der Beipackzettel",
+            "article": "der",
+            "plural": "die Beipackzettel",
+            "pronunciation": "/ˈbaɪ̯pakˌt͡sɛtl̩/",
+            "category": "noun",
+            "translation": {
+                "en": "package leaflet",
+                "bn": "প্যাকেজ লিফলেট",
+                "hi": "पैकेज लीफलेट",
+                "ur": "پیکیج لیفلیٹ",
+                "tr": "prospektüs"
+            },
+            "exampleSentence": "Alle wichtigen Informationen stehen im Beipackzettel.",
+            "exampleTranslation": {
+                "en": "All important information is in the package leaflet.",
+                "bn": "সমস্ত গুরুত্বপূর্ণ তথ্য প্যাকেজ লিফলেটে রয়েছে।",
+                "hi": "सभी महत्वपूर्ण जानकारी पैकेज लीफलेट में है।",
+                "ur": "تمام اہم معلومات پیکیج لیفلیٹ میں موجود ہیں۔",
+                "tr": "Tüm önemli bilgiler prospektüste yer almaktadır."
+            },
+            "id": "v11_29"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Antibiotic Prescription",
+                "bn": "অ্যান্টিবায়োটিক প্রেসক্রিপশন",
+                "hi": "एंटीबायोटिक प्रिस्क्रिप्शन",
+                "ur": "اینٹی بائیوٹک نسخہ",
+                "tr": "Antibiyotik Reçetesi"
+            },
+            "context": {
+                "en": "Dr. Schmidt is writing an antibiotic prescription for Patient Müller who has a bacterial infection.",
+                "bn": "ডঃ শ্মিট রোগী মুলারের জন্য একটি অ্যান্টিবায়োটিক প্রেসক্রিপশন লিখছেন, যার একটি ব্যাকটেরিয়াল সংক্রমণ রয়েছে।",
+                "hi": "डॉ. श्मिट मरीज मुलर के लिए एक एंटीबायोटिक प्रिस्क्रिप्शन लिख रहे हैं, जिन्हें बैक्टीरियल संक्रमण है।",
+                "ur": "ڈاکٹر شمٹ مریض مولر کے لیے ایک اینٹی بائیوٹک نسخہ لکھ رہے ہیں جنہیں بیکٹیریل انفیکشن ہے۔",
+                "tr": "Dr. Schmidt, bakteriyel enfeksiyonu olan Hasta Müller için bir antibiyotik reçetesi yazıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Herr Müller, ich verschreibe Ihnen Amoxicillin gegen Ihre bakterielle Infektion. Bitte nehmen Sie es dreimal täglich ein.",
+                    "translation": {
+                        "en": "Mr. Müller, I'm prescribing Amoxicillin for your bacterial infection. Please take it three times a day.",
+                        "bn": "মিঃ মুলার, আমি আপনার ব্যাকটেরিয়াল সংক্রমণের জন্য অ্যামোক্সিসিলিন লিখে দিচ্ছি। দয়া করে এটি দিনে তিনবার গ্রহণ করুন।",
+                        "hi": "श्री मुलर, मैं आपके बैक्टीरियल संक्रमण के लिए एमोक्सिसिलिन लिख रहा हूं। कृपया इसे दिन में तीन बार लें।",
+                        "ur": "مسٹر مولر، میں آپ کے بیکٹیریل انفیکشن کے لیے ایموکسیلن تجویز کر رہا ہوں۔ براہ کرم اسے دن میں تین بار لیں۔",
+                        "tr": "Bay Müller, bakteriyel enfeksiyonunuz için size Amoksisilin yazıyorum. Lütfen günde üç kez alın."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Vielen Dank, Herr Doktor. Gibt es Nebenwirkungen, auf die ich achten muss?",
+                    "translation": {
+                        "en": "Thank you, Doctor. Are there any side effects I should watch out for?",
+                        "bn": "ধন্যবাদ, ডাক্তার। এমন কোনো পার্শ্ব প্রতিক্রিয়া আছে কি যা আমার নজরে রাখা উচিত?",
+                        "hi": "धन्यवाद, डॉक्टर। क्या कोई दुष्प्रभाव हैं जिन पर मुझे ध्यान देना चाहिए?",
+                        "ur": "شکریہ ڈاکٹر صاحب۔ کیا کوئی ضمنی اثرات ہیں جن پر مجھے نظر رکھنی چاہیے؟",
+                        "tr": "Teşekkür ederim Doktor. Dikkat etmem gereken herhangi bir yan etki var mı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ja, Übelkeit und Durchfall sind möglich. Wenn Sie Hautausschlag bekommen, kontaktieren Sie uns sofort.",
+                    "translation": {
+                        "en": "Yes, nausea and diarrhea are possible. If you get a rash, contact us immediately.",
+                        "bn": "হ্যাঁ, বমি বমি ভাব এবং ডায়রিয়া হতে পারে। যদি আপনার ফুসকুড়ি হয়, তাহলে অবিলম্বে আমাদের সাথে যোগাযোগ করুন।",
+                        "hi": "हाँ, मतली और दस्त संभव हैं। अगर आपको दाने हो जाएं, तो तुरंत हमसे संपर्क करें।",
+                        "ur": "ہاں، متلی اور اسہال ممکن ہیں۔ اگر آپ کو خارش ہو تو فوراً ہم سے رابطہ کریں۔",
+                        "tr": "Evet, mide bulantısı ve ishal görülebilir. Eğer bir döküntü oluşursa, hemen bizimle iletişime geçin."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Verstanden. Muss ich etwas bei der Einnahme beachten, zum Beispiel in Bezug auf Essen?",
+                    "translation": {
+                        "en": "Understood. Do I need to consider anything when taking it, for example, regarding food?",
+                        "bn": "বুঝেছি। এটা গ্রহণ করার সময় আমাকে কিছু বিবেচনা করতে হবে, উদাহরণস্বরূপ, খাবার সম্পর্কে?",
+                        "hi": "समझ गया। क्या मुझे इसे लेते समय कुछ विचार करना चाहिए, उदाहरण के लिए, भोजन के बारे में?",
+                        "ur": "سمجھ گیا۔ کیا مجھے اسے لیتے وقت کسی چیز پر غور کرنا چاہیے، مثال کے طور پر، کھانے کے بارے میں؟",
+                        "tr": "Anladım. Alırken yiyeceklerle ilgili örneğin bir şeylere dikkat etmem gerekiyor mu?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Am besten nehmen Sie es mit etwas Essen ein, um den Magen zu schonen.",
+                    "translation": {
+                        "en": "It's best to take it with some food to protect your stomach.",
+                        "bn": "পেটকে রক্ষা করার জন্য খাবারের সাথে এটি গ্রহণ করা ভাল।",
+                        "hi": "अपने पेट को बचाने के लिए इसे कुछ भोजन के साथ लेना सबसे अच्छा है।",
+                        "ur": "اپنے پیٹ کو بچانے کے لیے اسے کچھ کھانے کے ساتھ لینا بہترین ہے۔",
+                        "tr": "Midenizi korumak için onu bir miktar yiyecekle almanız en iyisidir."
+                    }
+                }
+            ],
+            "id": "d11_01"
+        },
+        {
+            "title": {
+                "en": "Painkiller Dosage",
+                "bn": "ব্যথানাশক ডোজ",
+                "hi": "दर्द निवारक खुराक",
+                "ur": "درد کش دوا کی خوراک",
+                "tr": "Ağrı Kesici Dozu"
+            },
+            "context": {
+                "en": "Schwester Weber is explaining the dosage of a painkiller to Patient Schmidt.",
+                "bn": "নার্স ওয়েবার রোগী শ্মিটকে ব্যথানাশকের ডোজ ব্যাখ্যা করছেন।",
+                "hi": "सिस्टर वेबर मरीज श्मिट को दर्द निवारक की खुराक समझा रही हैं।",
+                "ur": "سسٹر ویبر مریض شمٹ کو درد کش دوا کی خوراک سمجھا رہی ہیں۔",
+                "tr": "Hemşire Weber, Hasta Schmidt'e bir ağrı kesicinin dozajını açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Schmidt, hier ist Ihr Schmerzmittel, Paracetamol. Die Dosierung ist 500mg, bei Bedarf alle 6 Stunden.",
+                    "translation": {
+                        "en": "Mr. Schmidt, here is your painkiller, Paracetamol. The dosage is 500mg, every 6 hours as needed.",
+                        "bn": "মিঃ শ্মিট, এখানে আপনার ব্যথানাশক, প্যারাসিটামল। ডোজ হল 500mg, প্রয়োজনে প্রতি 6 ঘন্টা পর পর।",
+                        "hi": "श्री श्मिट, यहाँ आपकी दर्द निवारक, पैरासिटामोल है। खुराक 500 मिलीग्राम है, आवश्यकतानुसार हर 6 घंटे में।",
+                        "ur": "مسٹر شمٹ، یہ آپ کی درد کش دوا، پیراسیٹامول ہے۔ خوراک 500 ملی گرام ہے، ضرورت کے مطابق ہر 6 گھنٹے بعد۔",
+                        "tr": "Bay Schmidt, işte ağrı kesiciniz, Parasetamol. Dozajı 500mg, gerektiğinde her 6 saatte bir."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "500mg, alle 6 Stunden? Was ist, wenn der Schmerz stärker ist?",
+                    "translation": {
+                        "en": "500mg, every 6 hours? What if the pain is stronger?",
+                        "bn": "500mg, প্রতি 6 ঘন্টা পর পর? যদি ব্যথা বেশি হয় তাহলে কি হবে?",
+                        "hi": "500 मिलीग्राम, हर 6 घंटे में? क्या होगा अगर दर्द तेज हो?",
+                        "ur": "500 ملی گرام، ہر 6 گھنٹے بعد؟ اگر درد زیادہ ہو تو کیا ہوگا؟",
+                        "tr": "500mg, her 6 saatte bir? Ya ağrı daha şiddetliyse?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Überschreiten Sie die maximale Tagesdosis von 4000mg nicht. Bei stärkeren Schmerzen sprechen Sie bitte mit dem Arzt.",
+                    "translation": {
+                        "en": "Do not exceed the maximum daily dose of 4000mg. Please speak to the doctor if the pain is stronger.",
+                        "bn": "4000mg এর বেশি দৈনিক ডোজ অতিক্রম করবেন না। যদি ব্যথা বেশি হয় তবে দয়া করে ডাক্তারের সাথে কথা বলুন।",
+                        "hi": "4000 मिलीग्राम की अधिकतम दैनिक खुराक से अधिक न लें। यदि दर्द तेज हो तो कृपया डॉक्टर से बात करें।",
+                        "ur": "4000 ملی گرام کی زیادہ سے زیادہ روزانہ خوراک سے تجاوز نہ کریں۔ اگر درد زیادہ ہو تو براہ کرم ڈاکٹر سے بات کریں۔",
+                        "tr": "4000mg olan maksimum günlük dozu aşmayın. Ağrı daha şiddetliyse lütfen doktorla konuşun."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Alles klar. Gibt es Wechselwirkungen mit anderen Medikamenten?",
+                    "translation": {
+                        "en": "Alright. Are there any interactions with other medications?",
+                        "bn": "ঠিক আছে। অন্য কোনো ওষুধের সাথে মিথস্ক্রিয়া আছে কি?",
+                        "hi": "ठीक है। क्या अन्य दवाओं के साथ कोई प्रतिक्रिया है?",
+                        "ur": "ٹھیک ہے۔ کیا دوسری ادویات کے ساتھ کوئی تعامل ہے؟",
+                        "tr": "Pekala. Başka ilaçlarla etkileşimi var mı?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Soweit uns bekannt, nicht. Aber erwähnen Sie alle Medikamente, die Sie einnehmen, beim Arzt.",
+                    "translation": {
+                        "en": "Not as far as we know. But mention all the medications you are taking to the doctor.",
+                        "bn": "যতদূর আমরা জানি, নেই। তবে আপনি যে সমস্ত ওষুধ খাচ্ছেন তা ডাক্তারকে বলুন।",
+                        "hi": "जहां तक हम जानते हैं, नहीं। लेकिन आप जो भी दवाएं ले रहे हैं, उन सभी का उल्लेख डॉक्टर से करें।",
+                        "ur": "جہاں تک ہم جانتے ہیں، نہیں۔ لیکن آپ جو بھی دوائیں لے رہے ہیں ان سب کا ڈاکٹر سے ذکر کریں۔",
+                        "tr": "Bildiğimiz kadarıyla hayır. Ancak aldığınız tüm ilaçları doktora bildirin."
+                    }
+                }
+            ],
+            "id": "d11_02"
+        },
+        {
+            "title": {
+                "en": "Antibiotic Side Effects",
+                "bn": "অ্যান্টিবায়োটিকের পার্শ্ব প্রতিক্রিয়া",
+                "hi": "एंटीबायोटिक साइड इफेक्ट्स",
+                "ur": "اینٹی بائیوٹک کے ضمنی اثرات",
+                "tr": "Antibiyotik Yan Etkileri"
+            },
+            "context": {
+                "en": "Patient Braun is reporting side effects after taking an antibiotic. She is speaking to Dr. Schmidt.",
+                "bn": "রোগী ব্রাউন অ্যান্টিবায়োটিক খাওয়ার পরে পার্শ্ব প্রতিক্রিয়া সম্পর্কে জানাচ্ছেন। তিনি ডঃ শ্মিটের সাথে কথা বলছেন।",
+                "hi": "मरीज ब्राउन एंटीबायोटिक लेने के बाद साइड इफेक्ट की रिपोर्ट कर रही है। वह डॉ. श्मिट से बात कर रही हैं।",
+                "ur": "مریض براؤن اینٹی بائیوٹک لینے کے بعد ضمنی اثرات کی اطلاع دے رہی ہیں۔ وہ ڈاکٹر شمٹ سے بات کر رہی ہیں۔",
+                "tr": "Hasta Braun, antibiyotik aldıktan sonra yan etkiler bildiriyor. Dr. Schmidt ile konuşuyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Braun",
+                    "speakerRole": "Patient",
+                    "germanText": "Herr Doktor, seit ich das Antibiotikum nehme, habe ich starke Bauchschmerzen und Durchfall.",
+                    "translation": {
+                        "en": "Doctor, since I've been taking the antibiotic, I've had severe abdominal pain and diarrhea.",
+                        "bn": "ডাক্তার, অ্যান্টিবায়োটিক খাওয়ার পর থেকে আমার পেটে তীব্র ব্যথা এবং ডায়রিয়া হচ্ছে।",
+                        "hi": "डॉक्टर, जब से मैं एंटीबायोटिक ले रहा हूं, मुझे पेट में तेज दर्द और दस्त हो रहे हैं।",
+                        "ur": "ڈاکٹر صاحب، جب سے میں اینٹی بائیوٹک لے رہا ہوں، مجھے پیٹ میں شدید درد اور دست ہو رہے ہیں۔",
+                        "tr": "Doktor, antibiyotiği aldığımdan beri şiddetli karın ağrısı ve ishal yaşıyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das ist eine bekannte Nebenwirkung von Antibiotika. Es kann die Darmflora stören.",
+                    "translation": {
+                        "en": "That's a known side effect of antibiotics. It can disrupt the gut flora.",
+                        "bn": "এটি অ্যান্টিবায়োটিকের একটি পরিচিত পার্শ্ব প্রতিক্রিয়া। এটি অন্ত্রের ফ্লোরাকে ব্যাহত করতে পারে।",
+                        "hi": "यह एंटीबायोटिक दवाओं का एक ज्ञात दुष्प्रभाव है। यह आंतों के वनस्पतियों को बाधित कर सकता है।",
+                        "ur": "یہ اینٹی بائیوٹکس کا ایک جانا پہچانا ضمنی اثر ہے۔ یہ آنتوں کے پودوں کو خراب کر سکتا ہے۔",
+                        "tr": "Bu, antibiyotiklerin bilinen bir yan etkisidir. Bağırsak florasını bozabilir."
+                    }
+                },
+                {
+                    "speaker": "Patient Braun",
+                    "speakerRole": "Patient",
+                    "germanText": "Was kann ich dagegen tun?",
+                    "translation": {
+                        "en": "What can I do about it?",
+                        "bn": "আমি এর জন্য কি করতে পারি?",
+                        "hi": "मैं इसके बारे में क्या कर सकता हूँ?",
+                        "ur": "میں اس کے بارے میں کیا کر سکتا ہوں؟",
+                        "tr": "Buna karşı ne yapabilirim?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich verschreibe Ihnen ein Probiotikum, um die Darmflora wieder aufzubauen. Trinken Sie auch viel Wasser.",
+                    "translation": {
+                        "en": "I'll prescribe a probiotic to rebuild your gut flora. Also, drink plenty of water.",
+                        "bn": "আমি আপনার অন্ত্রের ফ্লোরাকে পুনর্গঠন করার জন্য একটি প্রোবায়োটিক লিখে দেব। এছাড়াও, প্রচুর পরিমাণে জল পান করুন।",
+                        "hi": "मैं आपकी आंतों के वनस्पतियों को फिर से बनाने के लिए एक प्रोबायोटिक लिखूंगा। इसके अलावा, खूब पानी पिएं।",
+                        "ur": "میں آپ کے آنتوں کے پودوں کو دوبارہ بنانے کے لیے ایک پروبائیوٹک لکھوں گا۔ اس کے علاوہ، خوب پانی پئیں۔",
+                        "tr": "Bağırsak floranızı yeniden inşa etmek için size bir probiyotik yazacağım. Ayrıca bol su için."
+                    }
+                },
+                {
+                    "speaker": "Patient Braun",
+                    "speakerRole": "Patient",
+                    "germanText": "Vielen Dank, Herr Doktor. Soll ich das Antibiotikum weiternehmen?",
+                    "translation": {
+                        "en": "Thank you, Doctor. Should I continue taking the antibiotic?",
+                        "bn": "ধন্যবাদ, ডাক্তার। আমি কি অ্যান্টিবায়োটিক খাওয়া চালিয়ে যাব?",
+                        "hi": "धन्यवाद, डॉक्टर। क्या मुझे एंटीबायोटिक लेना जारी रखना चाहिए?",
+                        "ur": "شکریہ ڈاکٹر صاحب۔ کیا مجھے اینٹی بائیوٹک لینا جاری رکھنا چاہیے؟",
+                        "tr": "Teşekkür ederim Doktor. Antibiyotiği almaya devam etmeli miyim?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ja, nehmen Sie es zu Ende. Die Nebenwirkungen sollten sich mit dem Probiotikum bessern.",
+                    "translation": {
+                        "en": "Yes, finish taking it. The side effects should improve with the probiotic.",
+                        "bn": "হ্যাঁ, এটি খাওয়া শেষ করুন। প্রোবায়োটিক দিয়ে পার্শ্ব প্রতিক্রিয়াগুলি উন্নত হওয়া উচিত।",
+                        "hi": "हाँ, इसे लेना समाप्त करें। प्रोबायोटिक के साथ दुष्प्रभाव बेहतर होने चाहिए।",
+                        "ur": "ہاں، اسے لینا ختم کریں۔ پروبائیوٹک کے ساتھ ضمنی اثرات بہتر ہونے چاہئیں۔",
+                        "tr": "Evet, almayı bitirin. Yan etkiler probiyotik ile düzelmelidir."
+                    }
+                }
+            ],
+            "id": "d11_03"
+        },
+        {
+            "title": {
+                "en": "Medication Interactions",
+                "bn": "ওষুধের মিথস্ক্রিয়া",
+                "hi": "दवाओं की प्रतिक्रियाएँ",
+                "ur": "ادویات کے تعاملات",
+                "tr": "İlaç Etkileşimleri"
+            },
+            "context": {
+                "en": "Dr. Müller is checking for medication interactions before prescribing a new medication for Patient Weber.",
+                "bn": "ডঃ মুলার রোগী ওয়েবারের জন্য একটি নতুন ওষুধ লিখে দেওয়ার আগে ওষুধের মিথস্ক্রিয়া পরীক্ষা করছেন।",
+                "hi": "डॉ. मुलर मरीज वेबर के लिए एक नई दवा लिखने से पहले दवाओं की प्रतिक्रियाओं की जांच कर रहे हैं।",
+                "ur": "ڈاکٹر مولر مریض ویبر کے لیے ایک نئی دوا تجویز کرنے سے پہلے ادویات کے تعاملات کی جانچ کر رہے ہیں۔",
+                "tr": "Dr. Müller, Hasta Weber için yeni bir ilaç reçete etmeden önce ilaç etkileşimlerini kontrol ediyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Frau Weber, ich möchte Ihnen ein neues Medikament gegen Ihre Schmerzen verschreiben. Nehmen Sie noch andere Medikamente ein?",
+                    "translation": {
+                        "en": "Mrs. Weber, I would like to prescribe a new medication for your pain. Are you taking any other medications?",
+                        "bn": "মিজ্ ওয়েবার, আমি আপনার ব্যথার জন্য একটি নতুন ওষুধ লিখে দিতে চাই। আপনি অন্য কোনো ওষুধ খাচ্ছেন?",
+                        "hi": "श्रीमती वेबर, मैं आपकी दर्द के लिए एक नई दवा लिखना चाहता हूं। क्या आप कोई अन्य दवा ले रही हैं?",
+                        "ur": "محترمہ ویبر، میں آپ کے درد کے لیے ایک نئی دوا تجویز کرنا چاہوں گا۔ کیا آپ کوئی دوسری دوا لے رہی ہیں؟",
+                        "tr": "Bayan Weber, ağrılarınız için size yeni bir ilaç yazmak istiyorum. Başka ilaçlar alıyor musunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, ich nehme täglich einen Blutdrucksenker und ein Medikament gegen meine Schilddrüsenunterfunktion.",
+                    "translation": {
+                        "en": "Yes, I take a blood pressure medication and a medication for my hypothyroidism daily.",
+                        "bn": "হ্যাঁ, আমি প্রতিদিন একটি রক্তচাপের ওষুধ এবং আমার হাইপোথাইরয়েডিজমের জন্য একটি ওষুধ গ্রহণ করি।",
+                        "hi": "हाँ, मैं प्रतिदिन एक रक्तचाप की दवा और अपनी हाइपोथायरायडिज्म के लिए एक दवा लेती हूं।",
+                        "ur": "ہاں، میں روزانہ بلڈ پریشر کی دوا اور اپنے ہائپوتھائیرائڈزم کے لیے ایک دوا لیتی ہوں۔",
+                        "tr": "Evet, her gün tansiyon ilacı ve hipotiroidizm için bir ilaç alıyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Gut, danke für die Information. Ich prüfe kurz, ob es Wechselwirkungen gibt.",
+                    "translation": {
+                        "en": "Good, thank you for the information. I'll quickly check if there are any interactions.",
+                        "bn": "ভাল, তথ্যের জন্য ধন্যবাদ। আমি দ্রুত পরীক্ষা করে দেখি যে কোনো মিথস্ক্রিয়া আছে কিনা।",
+                        "hi": "अच्छा, जानकारी के लिए धन्यवाद। मैं जल्दी से जांच कर लूंगा कि क्या कोई प्रतिक्रिया है।",
+                        "ur": "اچھا، معلومات کے لیے شکریہ۔ میں جلدی سے چیک کر لوں گا کہ کیا کوئی تعامل ہے۔",
+                        "tr": "Güzel, bilgi için teşekkürler. Kısaca herhangi bir etkileşim olup olmadığını kontrol edeceğim."
+                    }
+                },
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Es gibt keine direkten Wechselwirkungen. Aber das neue Medikament kann die Wirkung des Blutdrucksenkers verstärken. Wir müssen Ihren Blutdruck im Auge behalten.",
+                    "translation": {
+                        "en": "There are no direct interactions. But the new medication can increase the effect of the blood pressure medication. We need to keep an eye on your blood pressure.",
+                        "bn": "সরাসরি কোনো মিথস্ক্রিয়া নেই। তবে নতুন ওষুধটি রক্তচাপের ওষুধের প্রভাব বাড়িয়ে দিতে পারে। আমাদের আপনার রক্তচাপের দিকে নজর রাখতে হবে।",
+                        "hi": "कोई सीधा प्रतिक्रिया नहीं है। लेकिन नई दवा रक्तचाप की दवा के प्रभाव को बढ़ा सकती है। हमें आपके रक्तचाप पर नजर रखनी होगी।",
+                        "ur": "کوئی براہ راست تعامل نہیں ہے۔ لیکن نئی دوا بلڈ پریشر کی دوا کے اثر کو بڑھا سکتی ہے۔ ہمیں آپ کے بلڈ پریشر پر نظر رکھنے کی ضرورت ہے۔",
+                        "tr": "Doğrudan bir etkileşim yok. Ancak yeni ilaç tansiyon ilacının etkisini artırabilir. Tansiyonunuzu takip etmemiz gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Das ist gut zu wissen. Vielen Dank für die Information.",
+                    "translation": {
+                        "en": "That's good to know. Thank you for the information.",
+                        "bn": "এটা জানা ভালো। তথ্যের জন্য ধন্যবাদ।",
+                        "hi": "यह जानकर अच्छा लगा। जानकारी के लिए धन्यवाद।",
+                        "ur": "یہ جان کر اچھا لگا۔ معلومات کے لیے شکریہ۔",
+                        "tr": "Bunu bilmek güzel. Bilgi için teşekkür ederim."
+                    }
+                }
+            ],
+            "id": "d11_04"
+        },
+        {
+            "title": {
+                "en": "Filling a Prescription",
+                "bn": "প্রেসক্রিপশন পূরণ করা",
+                "hi": "नुस्खा भरना",
+                "ur": "نسخہ بھرنا",
+                "tr": "Reçeteyi Doldurmak"
+            },
+            "context": {
+                "en": "Dr. Klein is speaking to Schwester Anna about filling a prescription for Patient Lehmann.",
+                "bn": "ডঃ ক্লেইন রোগী লেহমানের জন্য একটি প্রেসক্রিপশন পূরণ করার বিষয়ে নার্স আনার সাথে কথা বলছেন।",
+                "hi": "डॉ. क्लेन मरीज लेहमैन के लिए एक नुस्खा भरने के बारे में सिस्टर अन्ना से बात कर रहे हैं।",
+                "ur": "ڈاکٹر کلین مریض لیمن کے لیے ایک نسخہ بھرنے کے بارے میں سسٹر انا سے بات کر رہے ہیں۔",
+                "tr": "Dr. Klein, Hasta Lehmann için bir reçetenin doldurulması hakkında Hemşire Anna ile konuşuyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Schwester Anna, bitte richten Sie das Rezept für Herrn Lehmann her. Es ist Ciprofloxacin 500mg, zweimal täglich.",
+                    "translation": {
+                        "en": "Sister Anna, please prepare the prescription for Mr. Lehmann. It's Ciprofloxacin 500mg, twice a day.",
+                        "bn": "নার্স আনা, অনুগ্রহ করে মিঃ লেহমানের জন্য প্রেসক্রিপশন প্রস্তুত করুন। এটি সিপ্রোফ্লক্সাসিন 500mg, দিনে দুবার।",
+                        "hi": "सिस्टर अन्ना, कृपया श्री लेहमैन के लिए नुस्खा तैयार करें। यह सिप्रोफ्लोक्सासिन 500 मिलीग्राम, दिन में दो बार है।",
+                        "ur": "سسٹر انا، براہ کرم مسٹر لیمن کے لیے نسخہ تیار کریں۔ یہ سیپروفلوکساسین 500 ملی گرام، دن میں دو بار ہے۔",
+                        "tr": "Hemşire Anna, lütfen Bay Lehmann için reçeteyi hazırlayın. Siprofloksasin 500mg, günde iki kez."
+                    }
+                },
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Sofort, Herr Doktor. Soll ich den Patienten über mögliche Nebenwirkungen informieren?",
+                    "translation": {
+                        "en": "Right away, Doctor. Should I inform the patient about possible side effects?",
+                        "bn": "অবিলম্বে, ডাক্তার। আমি কি রোগীকে সম্ভাব্য পার্শ্ব প্রতিক্রিয়া সম্পর্কে অবহিত করব?",
+                        "hi": "तुरंत, डॉक्टर। क्या मुझे मरीज को संभावित दुष्प्रभावों के बारे में सूचित करना चाहिए?",
+                        "ur": "فوری طور پر، ڈاکٹر صاحب۔ کیا مجھے مریض کو ممکنہ ضمنی اثرات کے بارے میں مطلع کرنا چاہیے؟",
+                        "tr": "Hemen Doktor. Hastayı olası yan etkiler hakkında bilgilendirmeli miyim?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ja, weisen Sie ihn bitte auf mögliche Magen-Darm-Beschwerden und Lichtempfindlichkeit hin. Und dass er viel trinken soll.",
+                    "translation": {
+                        "en": "Yes, please point out possible gastrointestinal discomfort and photosensitivity to him. And that he should drink plenty of fluids.",
+                        "bn": "হ্যাঁ, অনুগ্রহ করে তাকে সম্ভাব্য গ্যাস্ট্রোইনটেস্টাইনাল অস্বস্তি এবং আলোক সংবেদনশীলতার দিকে ইঙ্গিত করুন। এবং তাকে প্রচুর পরিমাণে তরল পান করতে হবে।",
+                        "hi": "हाँ, कृपया उन्हें संभावित जठरांत्र संबंधी असुविधा और प्रकाश संवेदनशीलता की ओर इशारा करें। और उसे खूब तरल पदार्थ पीने चाहिए।",
+                        "ur": "ہاں، براہ کرم انہیں ممکنہ معدے کی تکلیف اور روشنی کی حساسیت کی طرف اشارہ کریں۔ اور یہ کہ اسے خوب سیال پینا چاہیے۔",
+                        "tr": "Evet, lütfen ona olası gastrointestinal rahatsızlık ve ışığa duyarlılık hakkında bilgi verin. Ve bol sıvı içmesi gerektiğini."
+                    }
+                },
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Wird gemacht. Gibt es bekannte Allergien bei Herrn Lehmann?",
+                    "translation": {
+                        "en": "Will do. Are there any known allergies for Mr. Lehmann?",
+                        "bn": "করা হবে। মিঃ লেহমানের কি কোনো পরিচিত এলার্জি আছে?",
+                        "hi": "हो जाएगा। क्या श्री लेहमैन के लिए कोई ज्ञात एलर्जी है?",
+                        "ur": "کیا جائے گا۔ کیا مسٹر لیمن کے لیے کوئی معلوم الرجی ہے؟",
+                        "tr": "Hemen yaparım. Bay Lehmann'ın bilinen alerjileri var mı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Nein, keine bekannt. Aber fragen Sie sicherheitshalber noch einmal nach.",
+                    "translation": {
+                        "en": "No, none known. But ask again just to be sure.",
+                        "bn": "না, কোনোটি জানা নেই। তবে নিশ্চিত হওয়ার জন্য আবার জিজ্ঞাসা করুন।",
+                        "hi": "नहीं, कोई ज्ञात नहीं। लेकिन सुनिश्चित करने के लिए फिर से पूछें।",
+                        "ur": "نہیں، کوئی معلوم نہیں۔ لیکن یقینی بنانے کے لیے دوبارہ پوچھیں۔",
+                        "tr": "Hayır, bilinen yok. Ama emin olmak için tekrar sorun."
+                    }
+                }
+            ],
+            "id": "d11_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Medikament wird zur Behandlung von bakteriellen Infektionen eingesetzt?",
+                "en": "Which medication is used to treat bacterial infections?",
+                "bn": "ব্যাকটেরিয়া সংক্রমণ চিকিৎসার জন্য কোন ঔষধ ব্যবহার করা হয়?",
+                "hi": "जीवाणु संक्रमण के इलाज के लिए कौन सी दवा इस्तेमाल की जाती है?",
+                "ur": "بیکٹیریل انفیکشن کے علاج کے لئے کونسی دوا استعمال کی جاتی ہے؟",
+                "tr": "Bakteriyel enfeksiyonları tedavi etmek için hangi ilaç kullanılır?"
+            },
+            "options": [
+                "Antihistaminikum",
+                "Antibiotikum",
+                "Antidepressivum",
+                "Antipyretikum"
+            ],
+            "correctAnswer": "Antibiotikum",
+            "explanation": {
+                "en": "Antibiotics are specifically used to treat bacterial infections.",
+                "bn": "অ্যান্টিবায়োটিক বিশেষভাবে ব্যাকটেরিয়া সংক্রমণের চিকিৎসার জন্য ব্যবহৃত হয়।",
+                "hi": "एंटीबायोटिक्स विशेष रूप से जीवाणु संक्रमण के इलाज के लिए उपयोग किए जाते हैं।",
+                "ur": "اینٹی بائیوٹکس خاص طور پر بیکٹیریل انفیکشن کے علاج کے لئے استعمال ہوتے ہیں۔",
+                "tr": "Antibiyotikler özellikle bakteriyel enfeksiyonları tedavi etmek için kullanılır."
+            },
+            "points": 10,
+            "id": "e11_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Dosierung' bei Medikamenten?",
+                "en": "What does 'Dosierung' mean in relation to medications?",
+                "bn": "ওষুধের ক্ষেত্রে 'Dosierung' মানে কী?",
+                "hi": "दवाओं के संबंध में 'Dosierung' का क्या अर्थ है?",
+                "ur": "ادویات کے تعلق سے 'Dosierung' کا کیا مطلب ہے؟",
+                "tr": "İlaçlarla ilgili olarak 'Dosierung' ne anlama gelir?"
+            },
+            "options": [
+                "Die Art der Einnahme",
+                "Die Häufigkeit der Einnahme",
+                "Die Menge des Medikaments",
+                "Der Name des Medikaments"
+            ],
+            "correctAnswer": "Die Menge des Medikaments",
+            "explanation": {
+                "en": "'Dosierung' refers to the amount of medication to be taken.",
+                "bn": "'Dosierung' বলতে ওষুধের গ্রহণ করার পরিমাণ বোঝায়।",
+                "hi": "'Dosierung' का अर्थ है ली जाने वाली दवा की मात्रा।",
+                "ur": "'Dosierung' سے مراد دوا کی وہ مقدار ہے جو لینی ہے۔",
+                "tr": "'Dosierung', alınacak ilaç miktarını ifade eder."
+            },
+            "points": 10,
+            "id": "e11_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein 'Rezept' in der Apotheke?",
+                "en": "What is a 'Rezept' in the pharmacy?",
+                "bn": "ফার্মেসিতে একটি 'Rezept' কী?",
+                "hi": "फार्मेसी में 'Rezept' क्या है?",
+                "ur": "فارمیسی میں 'Rezept' کیا ہے؟",
+                "tr": "Eczanede 'Rezept' nedir?"
+            },
+            "options": [
+                "Ein Gutschein",
+                "Eine Empfehlung des Apothekers",
+                "Eine ärztliche Verordnung",
+                "Eine Liste von Medikamenten"
+            ],
+            "correctAnswer": "Eine ärztliche Verordnung",
+            "explanation": {
+                "en": "A 'Rezept' is a doctor's prescription.",
+                "bn": "একটি 'Rezept' হলো ডাক্তারের প্রেসক্রিপশন।",
+                "hi": "एक 'Rezept' एक डॉक्टर का पर्चा है।",
+                "ur": "ایک 'Rezept' ڈاکٹر کا نسخہ ہے۔",
+                "tr": "'Rezept' bir doktor reçetesidir."
+            },
+            "points": 10,
+            "id": "e11_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was sind 'Nebenwirkungen' von Medikamenten?",
+                "en": "What are 'Nebenwirkungen' of medications?",
+                "bn": "ওষুধের 'Nebenwirkungen' কী?",
+                "hi": "दवाओं के 'Nebenwirkungen' क्या हैं?",
+                "ur": "ادویات کے 'Nebenwirkungen' کیا ہیں؟",
+                "tr": "İlaçların 'Nebenwirkungen' nelerdir?"
+            },
+            "options": [
+                "Positive Effekte",
+                "Unerwünschte Effekte",
+                "Hauptwirkungen",
+                "Gar keine Wirkungen"
+            ],
+            "correctAnswer": "Unerwünschte Effekte",
+            "explanation": {
+                "en": "'Nebenwirkungen' are undesired effects of medications.",
+                "bn": "'Nebenwirkungen' হলো ওষুধের অবাঞ্ছিত প্রভাব।",
+                "hi": "'Nebenwirkungen' दवाओं के अवांछित प्रभाव हैं।",
+                "ur": "'Nebenwirkungen' ادویات کے ناپسندیدہ اثرات ہیں۔",
+                "tr": "'Nebenwirkungen' ilaçların istenmeyen etkileridir."
+            },
+            "points": 10,
+            "id": "e11_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Wechselwirkung' zwischen Medikamenten?",
+                "en": "What does 'Wechselwirkung' mean between medications?",
+                "bn": "ওষুধের মধ্যে 'Wechselwirkung' মানে কী?",
+                "hi": "दवाओं के बीच 'Wechselwirkung' का क्या अर्थ है?",
+                "ur": "ادویات کے درمیان 'Wechselwirkung' کا کیا مطلب ہے؟",
+                "tr": "İlaçlar arasındaki 'Wechselwirkung' ne anlama gelir?"
+            },
+            "options": [
+                "Dass sie gleich wirken",
+                "Dass sie sich gegenseitig beeinflussen",
+                "Dass sie keine Wirkung haben",
+                "Dass sie teurer werden"
+            ],
+            "correctAnswer": "Dass sie sich gegenseitig beeinflussen",
+            "explanation": {
+                "en": "'Wechselwirkung' means that medications can influence each other's effects.",
+                "bn": "'Wechselwirkung' মানে ওষুধ একে অপরের প্রভাবকে প্রভাবিত করতে পারে।",
+                "hi": "'Wechselwirkung' का अर्थ है कि दवाएं एक दूसरे के प्रभावों को प्रभावित कर सकती हैं।",
+                "ur": "'Wechselwirkung' کا مطلب ہے کہ ادویات ایک دوسرے کے اثرات کو متاثر کر سکتی ہیں۔",
+                "tr": "'Wechselwirkung', ilaçların birbirinin etkilerini etkileyebileceği anlamına gelir."
+            },
+            "points": 10,
+            "id": "e11_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage über Antibiotika ist richtig?",
+                "en": "Which statement about antibiotics is correct?",
+                "bn": "অ্যান্টিবায়োটিক সম্পর্কে কোন বক্তব্যটি সঠিক?",
+                "hi": "एंटीबायोटिक दवाओं के बारे में कौन सा कथन सही है?",
+                "ur": "اینٹی بائیوٹکس کے بارے میں کون سا بیان درست ہے؟",
+                "tr": "Antibiyotiklerle ilgili hangi ifade doğrudur?"
+            },
+            "options": [
+                "Sie wirken gegen Viren.",
+                "Sie sind immer rezeptfrei erhältlich.",
+                "Sie wirken gegen Bakterien.",
+                "Sie sind immer harmlos."
+            ],
+            "correctAnswer": "Sie wirken gegen Bakterien.",
+            "explanation": {
+                "en": "Antibiotics are effective against bacteria.",
+                "bn": "অ্যান্টিবায়োটিক ব্যাকটেরিয়া বিরুদ্ধে কার্যকর।",
+                "hi": "एंटीबायोटिक बैक्टीरिया के खिलाफ प्रभावी है।",
+                "ur": "اینٹی بائیوٹک بیکٹیریا کے خلاف موثر ہے۔",
+                "tr": "Antibiyotikler bakterilere karşı etkilidir."
+            },
+            "points": 10,
+            "id": "e11_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was sollte man beim Einnehmen von Schmerzmitteln beachten?",
+                "en": "What should you consider when taking painkillers?",
+                "bn": "ব্যথানাশক ওষুধ খাওয়ার সময় কী বিবেচনা করা উচিত?",
+                "hi": "दर्द निवारक दवा लेते समय आपको क्या विचार करना चाहिए?",
+                "ur": "درد کم کرنے والی دوا لیتے وقت آپ کو کیا غور کرنا چاہیے؟",
+                "tr": "Ağrı kesici alırken nelere dikkat etmelisiniz?"
+            },
+            "options": [
+                "Immer die höchste Dosis nehmen.",
+                "Die Packungsbeilage lesen.",
+                "Sie mit Alkohol kombinieren.",
+                "Sie nur bei starken Schmerzen einnehmen."
+            ],
+            "correctAnswer": "Die Packungsbeilage lesen.",
+            "explanation": {
+                "en": "You should always read the package insert when taking painkillers.",
+                "bn": "ব্যথানাশক ওষুধ খাওয়ার সময় সবসময় প্যাকেজের সন্নিবেশপত্রটি পড়া উচিত।",
+                "hi": "दर्द निवारक दवा लेते समय आपको हमेशा पैकेज इंसर्ट पढ़ना चाहिए।",
+                "ur": "درد کم کرنے والی دوا لیتے وقت آپ کو ہمیشہ پیکج داخل کرنا چاہیے۔",
+                "tr": "Ağrı kesici alırken her zaman prospektüsü okumalısınız."
+            },
+            "points": 10,
+            "id": "e11_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein Generikum?",
+                "en": "What is a generic drug?",
+                "bn": "জেনেরিক ড্রাগ কী?",
+                "hi": "जेनेरिक दवा क्या है?",
+                "ur": "عام دوا کیا ہے؟",
+                "tr": "Jenerik ilaç nedir?"
+            },
+            "options": [
+                "Ein neues Medikament.",
+                "Ein Medikament mit anderem Wirkstoff.",
+                "Ein Medikament mit gleichem Wirkstoff, aber von einer anderen Firma.",
+                "Ein besonders starkes Medikament."
+            ],
+            "correctAnswer": "Ein Medikament mit gleichem Wirkstoff, aber von einer anderen Firma.",
+            "explanation": {
+                "en": "A generic drug has the same active ingredient as the brand-name drug but is made by a different company.",
+                "bn": "একটি জেনেরিক ড্রাগের ব্র্যান্ড-নামের ওষুধের মতো একই সক্রিয় উপাদান থাকে তবে এটি অন্য সংস্থা দ্বারা তৈরি করা হয়।",
+                "hi": "एक जेनेरिक दवा में ब्रांड-नाम वाली दवा के समान सक्रिय तत्व होता है लेकिन इसे एक अलग कंपनी द्वारा बनाया जाता है।",
+                "ur": "ایک عام دوا میں برانڈ نام والی دوا کی طرح ہی فعال جزو ہوتا ہے لیکن اسے ایک مختلف کمپنی بناتی ہے۔",
+                "tr": "Jenerik bir ilaç, marka adının aynı aktif bileşenine sahiptir ancak farklı bir şirket tarafından yapılır."
+            },
+            "points": 10,
+            "id": "e11_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wie sollte man abgelaufene Medikamente entsorgen?",
+                "en": "How should you dispose of expired medications?",
+                "bn": "মেয়াদ উত্তীর্ণ ওষুধ কীভাবে নিষ্পত্তি করা উচিত?",
+                "hi": "एक्सपायर हो चुकी दवाओं को कैसे निपटाना चाहिए?",
+                "ur": "ایکسپائر شدہ ادویات کو کیسے ٹھکانے لگانا چاہیے؟",
+                "tr": "Süresi dolmuş ilaçlar nasıl atılmalıdır?"
+            },
+            "options": [
+                "Im Hausmüll.",
+                "In der Toilette.",
+                "In der Apotheke.",
+                "Im Garten."
+            ],
+            "correctAnswer": "In der Apotheke.",
+            "explanation": {
+                "en": "Expired medications should be disposed of at the pharmacy.",
+                "bn": "মেয়াদ উত্তীর্ণ ওষুধ ফার্মেসিতে নিষ্পত্তি করা উচিত।",
+                "hi": "एक्सपायर हो चुकी दवाओं को फार्मेसी में निपटाना चाहिए।",
+                "ur": "ایکسپائر ہو چکی ادویات کو فارمیسی میں ٹھکانے لگانا چاہیے۔",
+                "tr": "Süresi dolmuş ilaçlar eczaneye atılmalıdır."
+            },
+            "points": 10,
+            "id": "e11_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Information findet man auf einem Medikamentenrezept?",
+                "en": "Which information can be found on a medication prescription?",
+                "bn": "একটি ওষুধের প্রেসক্রিপশনে কোন তথ্য পাওয়া যায়?",
+                "hi": "एक दवा के नुस्खे पर कौन सी जानकारी पाई जा सकती है?",
+                "ur": "ایک دوا کے نسخے پر کون سی معلومات مل سکتی ہے؟",
+                "tr": "Bir ilaç reçetesinde hangi bilgiler bulunabilir?"
+            },
+            "options": [
+                "Den Preis des Medikaments.",
+                "Die Blutgruppe des Patienten.",
+                "Den Namen des Medikaments und die Dosierung.",
+                "Die Adresse des Patienten."
+            ],
+            "correctAnswer": "Den Namen des Medikaments und die Dosierung.",
+            "explanation": {
+                "en": "The name of the medication and the dosage are found on a medication prescription.",
+                "bn": "ওষুধের নাম এবং ডোজ একটি ওষুধের প্রেসক্রিপশনে পাওয়া যায়।",
+                "hi": "दवा का नाम और खुराक एक दवा के नुस्खे पर पाया जाता है।",
+                "ur": "دوا کا نام اور خوراک دوا کے نسخے پر پایا جاتا ہے۔",
+                "tr": "İlacın adı ve dozu bir ilaç reçetesinde bulunur."
+            },
+            "points": 10,
+            "id": "e11_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein _________ wird zur Behandlung von Schmerzen eingesetzt.",
+                "en": "A _________ is used to treat pain.",
+                "bn": "একটি _________ ব্যথা নিরাময়ের জন্য ব্যবহৃত হয়।",
+                "hi": "एक _________ दर्द के इलाज के लिए प्रयोग किया जाता है।",
+                "ur": "ایک _________ درد کے علاج کے لئے استعمال کیا جاتا ہے۔",
+                "tr": "Bir _________ ağrıyı tedavi etmek için kullanılır."
+            },
+            "options": [],
+            "correctAnswer": "Schmerzmittel",
+            "explanation": {
+                "en": "A painkiller (Schmerzmittel) is used to treat pain.",
+                "bn": "একটি ব্যথানাশক (Schmerzmittel) ব্যথা নিরাময়ের জন্য ব্যবহৃত হয়।",
+                "hi": "एक दर्द निवारक (Schmerzmittel) दर्द के इलाज के लिए प्रयोग किया जाता है।",
+                "ur": "ایک درد کم کرنے والا (Schmerzmittel) درد کے علاج کے لئے استعمال کیا جاتا ہے۔",
+                "tr": "Bir ağrı kesici (Schmerzmittel) ağrıyı tedavi etmek için kullanılır."
+            },
+            "points": 10,
+            "id": "e11_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die _________ gibt an, wie viel von einem Medikament eingenommen werden soll.",
+                "en": "The _________ indicates how much of a medication should be taken.",
+                "bn": "_________ নির্দেশ করে যে একটি ওষুধের কতটা গ্রহণ করা উচিত।",
+                "hi": "_________ इंगित करता है कि दवा की कितनी मात्रा लेनी चाहिए।",
+                "ur": "_________ اشارہ کرتا ہے کہ کتنی دوا لینی چاہیے۔",
+                "tr": "_________ bir ilacın ne kadar alınması gerektiğini gösterir."
+            },
+            "options": [],
+            "correctAnswer": "Dosierung",
+            "explanation": {
+                "en": "The dosage (Dosierung) indicates how much of a medication should be taken.",
+                "bn": "ডোজ (Dosierung) নির্দেশ করে যে একটি ওষুধের কতটা গ্রহণ করা উচিত।",
+                "hi": "खुराक (Dosierung) इंगित करता है कि दवा की कितनी मात्रा लेनी चाहिए।",
+                "ur": "خوراک (Dosierung) اشارہ کرتا ہے کہ کتنی دوا لینی چاہیے۔",
+                "tr": "Doz (Dosierung), bir ilacın ne kadar alınması gerektiğini gösterir."
+            },
+            "points": 10,
+            "id": "e11_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Eine unerwünschte Wirkung eines Medikaments wird als _________ bezeichnet.",
+                "en": "An undesirable effect of a medication is called a _________.",
+                "bn": "একটি ওষুধের অবাঞ্ছিত প্রভাবকে _________ বলা হয়।",
+                "hi": "एक दवा के अवांछित प्रभाव को _________ कहा जाता है।",
+                "ur": "دوا کے ناپسندیدہ اثر کو _________ کہا جاتا ہے۔",
+                "tr": "Bir ilacın istenmeyen etkisine _________ denir."
+            },
+            "options": [],
+            "correctAnswer": "Nebenwirkung",
+            "explanation": {
+                "en": "An undesirable effect of a medication is called a side effect (Nebenwirkung).",
+                "bn": "একটি ওষুধের অবাঞ্ছিত প্রভাবকে পার্শ্ব প্রতিক্রিয়া (Nebenwirkung) বলা হয়।",
+                "hi": "एक दवा के अवांछित प्रभाव को साइड इफेक्ट (Nebenwirkung) कहा जाता है।",
+                "ur": "دوا کے ناپسندیدہ اثر کو ضمنی اثر (Nebenwirkung) کہا جاتا ہے۔",
+                "tr": "Bir ilacın istenmeyen etkisine yan etki (Nebenwirkung) denir."
+            },
+            "points": 10,
+            "id": "e11_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bevor man ein Antibiotikum einnimmt, benötigt man in der Regel ein _________ vom Arzt.",
+                "en": "Before taking an antibiotic, you usually need a _________ from the doctor.",
+                "bn": "অ্যান্টিবায়োটিক গ্রহণ করার আগে, সাধারণত ডাক্তারের কাছ থেকে একটি _________ প্রয়োজন।",
+                "hi": "एंटीबायोटिक लेने से पहले, आपको आमतौर पर डॉक्टर से _________ की आवश्यकता होती है।",
+                "ur": "اینٹی بائیوٹک لینے سے پہلے، آپ کو عام طور پر ڈاکٹر سے _________ کی ضرورت ہوتی ہے۔",
+                "tr": "Bir antibiyotik almadan önce, genellikle doktordan bir _________ almanız gerekir."
+            },
+            "options": [],
+            "correctAnswer": "Rezept",
+            "explanation": {
+                "en": "Before taking an antibiotic, you usually need a prescription (Rezept) from the doctor.",
+                "bn": "অ্যান্টিবায়োটিক গ্রহণ করার আগে, সাধারণত ডাক্তারের কাছ থেকে একটি প্রেসক্রিপশন (Rezept) প্রয়োজন।",
+                "hi": "एंटीबायोटिक लेने से पहले, आपको आमतौर पर डॉक्टर से एक पर्चा (Rezept) की आवश्यकता होती है।",
+                "ur": "اینٹی بائیوٹک لینے سے پہلے، آپ کو عام طور پر ڈاکٹر سے ایک نسخے (Rezept) کی ضرورت ہوتی ہے۔",
+                "tr": "Bir antibiyotik almadan önce, genellikle doktordan bir reçete (Rezept) almanız gerekir."
+            },
+            "points": 10,
+            "id": "e11_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Wenn Medikamente sich gegenseitig beeinflussen, spricht man von einer _________.",
+                "en": "When medications affect each other, it is called a _________.",
+                "bn": "যখন ওষুধগুলি একে অপরের উপর প্রভাব ফেলে, তখন একে _________ বলা হয়।",
+                "hi": "जब दवाएं एक दूसरे को प्रभावित करती हैं, तो इसे _________ कहा जाता है।",
+                "ur": "جب دوائیں ایک دوسرے کو متاثر کرتی ہیں، تو اسے _________ کہا جاتا ہے۔",
+                "tr": "İlaçlar birbirini etkilediğinde, buna _________ denir."
+            },
+            "options": [],
+            "correctAnswer": "Wechselwirkung",
+            "explanation": {
+                "en": "When medications affect each other, it is called an interaction (Wechselwirkung).",
+                "bn": "যখন ওষুধগুলি একে অপরের উপর প্রভাব ফেলে, তখন একে মিথস্ক্রিয়া (Wechselwirkung) বলা হয়।",
+                "hi": "जब दवाएं एक दूसरे को प्रभावित करती हैं, तो इसे इंटरेक्शन (Wechselwirkung) कहा जाता है।",
+                "ur": "جب دوائیں ایک دوسرے کو متاثر کرتی ہیں، تو اسے تعامل (Wechselwirkung) کہا جاتا ہے۔",
+                "tr": "İlaçlar birbirini etkilediğinde, buna etkileşim (Wechselwirkung) denir."
+            },
+            "points": 10,
+            "id": "e11_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Ich brauche ein Rezept für das Antibiotikum.",
+                "en": "I need a prescription for the antibiotic.",
+                "bn": "আমার অ্যান্টিবায়োটিকের জন্য একটি প্রেসক্রিপশন দরকার।",
+                "hi": "मुझे एंटीबायोटिक के लिए एक नुस्खे की ज़रूरत है।",
+                "ur": "مجھے اینٹی بائیوٹک کے لیے ایک نسخہ درکار ہے۔",
+                "tr": "Antibiyotik için bir reçeteye ihtiyacım var."
+            },
+            "options": [],
+            "correctAnswer": "I need a prescription for the antibiotic.",
+            "explanation": {
+                "en": "Direct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সরাসরি অনুবাদ।",
+                "hi": "जर्मन वाक्य का सीधा अनुवाद।",
+                "ur": "جرمن جملے کا براہ راست ترجمہ۔",
+                "tr": "Alman cümlenin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e11_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Welche Nebenwirkungen hat dieses Schmerzmittel?",
+                "en": "What are the side effects of this painkiller?",
+                "bn": "এই ব্যথানাশক ওষুধের পার্শ্বপ্রতিক্রিয়া কী কী?",
+                "hi": "इस दर्द निवारक दवा के दुष्प्रभाव क्या हैं?",
+                "ur": "اس درد کم کرنے والی دوا کے ضمنی اثرات کیا ہیں؟",
+                "tr": "Bu ağrı kesicinin yan etkileri nelerdir?"
+            },
+            "options": [],
+            "correctAnswer": "What are the side effects of this painkiller?",
+            "explanation": {
+                "en": "Direct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সরাসরি অনুবাদ।",
+                "hi": "जर्मन वाक्य का सीधा अनुवाद।",
+                "ur": "جرمن جملے کا براہ راست ترجمہ۔",
+                "tr": "Alman cümlenin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e11_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Dosierung beträgt zweimal täglich eine Tablette.",
+                "en": "The dosage is one tablet twice a day.",
+                "bn": "ডোজটি দিনে দুবার একটি ট্যাবলেট।",
+                "hi": "खुराक दिन में दो बार एक टैबलेट है।",
+                "ur": "خوراک دن میں دو بار ایک گولی ہے۔",
+                "tr": "Doz günde iki kez bir tablet."
+            },
+            "options": [],
+            "correctAnswer": "The dosage is one tablet twice a day.",
+            "explanation": {
+                "en": "Direct translation of the German sentence.",
+                "bn": "জার্মান বাক্যের সরাসরি অনুবাদ।",
+                "hi": "जर्मन वाक्य का सीधा अनुवाद।",
+                "ur": "جرمن جملے کا براہ راست ترجمہ۔",
+                "tr": "Alman cümlenin doğrudan çevirisi."
+            },
+            "points": 10,
+            "id": "e11_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

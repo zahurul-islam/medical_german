@@ -1,1 +1,1578 @@
-{"id":"section_38","phaseId":"phase3","order":38,"titleDe":"Pharmakotherapie","title":{"en":"Pharmacotherapy","bn":"Pharmacotherapy","hi":"Pharmacotherapy","ur":"Pharmacotherapy","tr":"Pharmacotherapy"},"level":"C1","estimatedMinutes":40,"vocabulary":[{"id":"v38_01","germanTerm":"Fachbegriff","article":"der","plural":"Fachbegriffe","translation":{"en":"Technical Term","bn":"টেকনিক্যাল টার্ম","hi":"तकनीकी शब्द","ur":"تکنیکی اصطلاح","tr":"Teknik terim"}}],"dialogues":[{"id":"d38_01","title":{"en":"Professional Scenario"},"lines":[{"speaker":"Oberarzt","germanText":"Professional dialogue for Pharmacotherapy.","translation":{"en":"Professional dialogue for Pharmacotherapy."}}]}],"exercises":[{"id":"e38_01","type":"multipleChoice","question":{"en":"Advanced question for Pharmacotherapy?"},"options":["Option A","Option B","Option C"],"correctAnswer":"Option A","points":15}]}
+{
+    "id": "section_38",
+    "phaseId": "phase3",
+    "order": 38,
+    "titleDe": "Pharmakotherapie",
+    "title": {
+        "en": "Pharmacotherapy: Drugs, Active Ingredients, Indications, Contraindications, Dose Adjustment",
+        "bn": "ফার্মাকোথেরাপি: ওষুধ, সক্রিয় উপাদান, ইঙ্গিত, contraindications, ডোজ সমন্বয়",
+        "hi": "फार्माकोथेरेपी: दवाएं, सक्रिय तत्व, संकेत, contraindications, खुराक समायोजन",
+        "ur": "فارماکوتھراپی: ادویات، فعال اجزاء، اشارے، contraindications، خوراک ایڈجسٹمنٹ",
+        "tr": "Farmakoterapi: İlaçlar, Aktif Maddeler, Endikasyonlar, Kontrendikasyonlar, Doz Ayarlaması",
+        "de": "Pharmakotherapie: Arzneimittel, Wirkstoff, Indikation, Kontraindikation, Dosisanpassung"
+    },
+    "description": {
+        "en": "This section covers the core concepts of pharmacotherapy, including drug types, active ingredients, indications for use, contraindications, and dose adjustments.",
+        "bn": "এই বিভাগে ফার্মাকোথেরাপির মূল ধারণাগুলি অন্তর্ভুক্ত করা হয়েছে, যার মধ্যে রয়েছে ওষুধের প্রকার, সক্রিয় উপাদান, ব্যবহারের ইঙ্গিত, contraindications এবং ডোজ সমন্বয়।",
+        "hi": "इस अनुभाग में फार्माकोथेरेपी की मूल अवधारणाओं को शामिल किया गया है, जिसमें दवा प्रकार, सक्रिय तत्व, उपयोग के संकेत, contraindications और खुराक समायोजन शामिल हैं।",
+        "ur": "اس حصے میں فارماکوتھراپی کے بنیادی تصورات شامل ہیں، بشمول ادویات کی اقسام، فعال اجزاء، استعمال کے اشارے، contraindications، اور خوراک ایڈجسٹمنٹ۔",
+        "tr": "Bu bölüm, ilaç türleri, aktif maddeler, kullanım endikasyonları, kontrendikasyonlar ve doz ayarlamaları dahil olmak üzere farmakoterapinin temel kavramlarını kapsar.",
+        "de": "Dieser Abschnitt behandelt die Kernkonzepte der Pharmakotherapie, einschließlich Arzneimitteltypen, Wirkstoffe, Anwendungsgebiete, Kontraindikationen und Dosisanpassungen."
+    },
+    "level": "C1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, you will learn the fundamental terminology associated with pharmacotherapy in German. We will focus on understanding drug names, active ingredients, indications, contraindications, and how doses are adjusted in different clinical scenarios.",
+            "bn": "এই বিভাগে, আপনি জার্মান ভাষায় ফার্মাকোথেরাপির সাথে সম্পর্কিত মৌলিক পরিভাষা শিখবেন। আমরা ওষুধের নাম, সক্রিয় উপাদান, ইঙ্গিত, contraindications এবং বিভিন্ন ক্লিনিকাল পরিস্থিতিতে কীভাবে ডোজ সামঞ্জস্য করা হয় তা বোঝার উপর দৃষ্টি নিবদ্ধ করব।",
+            "hi": "इस अनुभाग में, आप जर्मन में फार्माकोथेरेपी से जुड़ी मूलभूत शब्दावली सीखेंगे। हम दवा के नाम, सक्रिय तत्व, संकेत, contraindications और विभिन्न नैदानिक परिदृश्यों में खुराक को कैसे समायोजित किया जाता है, इसे समझने पर ध्यान केंद्रित करेंगे।",
+            "ur": "اس حصے میں، آپ جرمن میں فارماکوتھراپی سے متعلق بنیادی اصطلاحات سیکھیں گے۔ ہم ادویات کے نام، فعال اجزاء، اشارے، contraindications اور مختلف طبی منظرناموں میں خوراک کو کس طرح ایڈجسٹ کیا جاتا ہے اس کو سمجھنے پر توجہ مرکوز کریں گے۔",
+            "tr": "Bu bölümde, Almanca'da farmakoterapi ile ilgili temel terminolojiyi öğreneceksiniz. İlaç adlarını, aktif maddeleri, endikasyonları, kontrendikasyonları ve farklı klinik senaryolarda dozların nasıl ayarlandığını anlamaya odaklanacağız.",
+            "de": "In diesem Abschnitt erlernen Sie die grundlegende Terminologie der Pharmakotherapie auf Deutsch. Wir konzentrieren uns auf das Verständnis von Arzneimittelnamen, Wirkstoffen, Indikationen, Kontraindikationen und der Anpassung von Dosen in verschiedenen klinischen Szenarien."
+        },
+        "grammarFocus": {
+            "en": {
+                "bullet1": "Understanding the use of definite and indefinite articles with medical terms.",
+                "bullet2": "Recognizing the gender of German nouns related to medications (der Wirkstoff, die Tablette, das Medikament)."
+            },
+            "bn": {
+                "bullet1": "মেডিকেল শর্তাবলীর সাথে নির্দিষ্ট এবং অনির্দিষ্ট নিবন্ধগুলির ব্যবহার বোঝা।",
+                "bullet2": "ওষুধ সম্পর্কিত জার্মান বিশেষ্যগুলির লিঙ্গ চেনা (der Wirkstoff, die Tablette, das Medikament)।"
+            },
+            "hi": {
+                "bullet1": "चिकित्सा शर्तों के साथ निश्चित और अनिश्चित लेखों के उपयोग को समझना।",
+                "bullet2": "दवाओं से संबंधित जर्मन संज्ञाओं के लिंग को पहचानना (der Wirkstoff, die Tablette, das Medikament)।"
+            },
+            "ur": {
+                "bullet1": "طبی اصطلاحات کے ساتھ متعین اور غیر متعین مضامین کا استعمال سمجھنا۔",
+                "bullet2": "ادویات سے متعلق جرمن اسموں کی جنس کو پہچاننا (der Wirkstoff, die Tablette, das Medikament)۔"
+            },
+            "tr": {
+                "bullet1": "Tıbbi terimlerle birlikte belirli ve belirsiz tanımlıkların kullanımını anlamak.",
+                "bullet2": "İlaçlarla ilgili Almanca isimlerin cinsiyetini tanımak (der Wirkstoff, die Tablette, das Medikament)."
+            },
+            "de": {
+                "bullet1": "Das Verständnis der Verwendung von bestimmten und unbestimmten Artikeln bei medizinischen Begriffen.",
+                "bullet2": "Das Erkennen des Genus deutscher Substantive im Zusammenhang mit Medikamenten (der Wirkstoff, die Tablette, das Medikament)."
+            }
+        },
+        "culturalNotes": {
+            "en": "In German hospitals, medication plans ('Medikationsplan') are commonly given to patients upon discharge to ensure consistent care and avoid drug interactions.",
+            "bn": "জার্মান হাসপাতালগুলিতে, রোগীদের ধারাবাহিক যত্ন নিশ্চিত করতে এবং ওষুধের মিথস্ক্রিয়া এড়াতে স্রাবের পরে সাধারণত ওষুধের পরিকল্পনা ('Medikationsplan') দেওয়া হয়।",
+            "hi": "जर्मन अस्पतालों में, रोगियों को लगातार देखभाल सुनिश्चित करने और दवा बातचीत से बचने के लिए छुट्टी के बाद आमतौर पर दवा योजना ('Medikationsplan') दी जाती है।",
+            "ur": "جرمن ہسپتالوں میں، مریضوں کو مستقل دیکھ بھال کو یقینی بنانے اور منشیات کے تعامل سے بچنے کے لیے عام طور پر ڈسچارج کے بعد ادویات کا منصوبہ ('Medikationsplan') دیا جاتا ہے۔",
+            "tr": "Alman hastanelerinde, hastalara tutarlı bakım sağlamak ve ilaç etkileşimlerinden kaçınmak için taburcu olduktan sonra genellikle ilaç planları ('Medikationsplan') verilir.",
+            "de": "In deutschen Krankenhäusern erhalten Patienten bei der Entlassung häufig Medikationspläne ('Medikationsplan'), um eine konsistente Versorgung zu gewährleisten und Wechselwirkungen von Medikamenten zu vermeiden."
+        },
+        "summary": {
+            "en": "This section provides a foundational understanding of pharmacotherapy terminology essential for medical professionals interacting within the German healthcare system.",
+            "bn": "এই বিভাগটি জার্মান স্বাস্থ্যসেবা ব্যবস্থার মধ্যে মিথস্ক্রিয়া করা চিকিৎসা পেশাদারদের জন্য প্রয়োজনীয় ফার্মাকোথেরাপির পরিভাষা সম্পর্কে একটি মৌলিক ধারণা প্রদান করে।",
+            "hi": "यह अनुभाग जर्मन स्वास्थ्य सेवा प्रणाली के भीतर बातचीत करने वाले चिकित्सा पेशेवरों के लिए आवश्यक फार्माकोथेरेपी शब्दावली की एक मूलभूत समझ प्रदान करता है।",
+            "ur": "یہ حصہ جرمن صحت کی دیکھ بھال کے نظام کے اندر تعامل کرنے والے طبی پیشہ ور افراد کے لیے ضروری فارماکوتھراپی کی اصطلاحات کی بنیادی تفہیم فراہم کرتا ہے۔",
+            "tr": "Bu bölüm, Alman sağlık sistemi içinde etkileşimde bulunan sağlık profesyonelleri için gerekli olan farmakoterapi terminolojisinin temel bir anlayışını sağlar.",
+            "de": "Dieser Abschnitt vermittelt ein grundlegendes Verständnis der Pharmakotherapie-Terminologie, das für medizinische Fachkräfte, die im deutschen Gesundheitssystem interagieren, unerlässlich ist."
+        },
+        "learningObjectives": [
+            "Identify common German drug names and their corresponding active ingredients.",
+            "Explain the concepts of indication and contraindication in pharmacotherapy.",
+            "Describe how dose adjustments are made based on patient factors and clinical scenarios.",
+            "Apply newly learned terminology to case studies involving German-speaking patients."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "das Arzneimittel",
+            "article": "das",
+            "plural": "die Arzneimittel",
+            "pronunciation": "[ˈaʁt͡snaɪ̯ˌmɪtl̩]",
+            "category": "noun",
+            "translation": {
+                "en": "medication, drug",
+                "bn": "ওষুধ (Oshudh)",
+                "hi": "दवा (Dava)",
+                "ur": "دوا (Dawa)",
+                "tr": "ilaç"
+            },
+            "exampleSentence": "Der Arzt verschrieb dem Patienten ein neues Arzneimittel gegen seine Schmerzen.",
+            "exampleTranslation": {
+                "en": "The doctor prescribed the patient a new medication for his pain.",
+                "bn": "ডাক্তার রোগীকে তার ব্যথার জন্য একটি নতুন ওষুধ লিখে দিয়েছেন।",
+                "hi": "डॉक्टर ने मरीज को उसके दर्द के लिए एक नई दवा लिखी।",
+                "ur": "ڈاکٹر نے مریض کو اس کے درد کے لیے ایک نئی دوا تجویز کی۔",
+                "tr": "Doktor hastaya ağrıları için yeni bir ilaç yazdı."
+            },
+            "id": "v38_01"
+        },
+        {
+            "germanTerm": "der Wirkstoff",
+            "article": "der",
+            "plural": "die Wirkstoffe",
+            "pronunciation": "[ˈvɪʁkʃtɔf]",
+            "category": "noun",
+            "translation": {
+                "en": "active ingredient",
+                "bn": "সক্রিয় উপাদান (Sakriyo upadan)",
+                "hi": "सक्रिय घटक (Sakriy ghatak)",
+                "ur": "فعال جزو (Fail juzv)",
+                "tr": "etken madde"
+            },
+            "exampleSentence": "Der Wirkstoff in diesem Medikament ist Paracetamol.",
+            "exampleTranslation": {
+                "en": "The active ingredient in this medication is Paracetamol.",
+                "bn": "এই ওষুধের সক্রিয় উপাদান হল প্যারাসিটামল।",
+                "hi": "इस दवा में सक्रिय घटक पैरासिटामोल है।",
+                "ur": "اس دوا میں فعال جزو پیراسیٹامول ہے۔",
+                "tr": "Bu ilacın etken maddesi Parasetamol'dür."
+            },
+            "id": "v38_02"
+        },
+        {
+            "germanTerm": "die Indikation",
+            "article": "die",
+            "plural": "die Indikationen",
+            "pronunciation": "[ɪndikaˈt͡si̯oːn]",
+            "category": "noun",
+            "translation": {
+                "en": "indication",
+                "bn": "নির্দেশনা (Nirdeshana)",
+                "hi": "संकेत (Sanket)",
+                "ur": "اشارہ (Ishara)",
+                "tr": "endikasyon"
+            },
+            "exampleSentence": "Die Indikation für dieses Antibiotikum ist eine schwere bakterielle Infektion.",
+            "exampleTranslation": {
+                "en": "The indication for this antibiotic is a severe bacterial infection.",
+                "bn": "এই অ্যান্টিবায়োটিকের নির্দেশনা হল একটি গুরুতর ব্যাকটেরিয়াল সংক্রমণ।",
+                "hi": "इस एंटीबायोटिक के लिए संकेत एक गंभीर जीवाणु संक्रमण है।",
+                "ur": "اس اینٹی بائیوٹک کے لیے اشارہ ایک سنگین بیکٹیریل انفیکشن ہے۔",
+                "tr": "Bu antibiyotiğin endikasyonu şiddetli bir bakteriyel enfeksiyondur."
+            },
+            "id": "v38_03"
+        },
+        {
+            "germanTerm": "die Kontraindikation",
+            "article": "die",
+            "plural": "die Kontraindikationen",
+            "pronunciation": "[kɔntʁaɪndikaˈt͡si̯oːn]",
+            "category": "noun",
+            "translation": {
+                "en": "contraindication",
+                "bn": "প্রতিনির্দেশনা (Pratinirdeshana)",
+                "hi": "निषेध (Nishedh)",
+                "ur": "تضادِ علامت (Tazaad-e-alamat)",
+                "tr": "kontrendikasyon"
+            },
+            "exampleSentence": "Eine bekannte Allergie gegen Penicillin ist eine Kontraindikation für die Gabe dieses Medikaments.",
+            "exampleTranslation": {
+                "en": "A known allergy to penicillin is a contraindication for administering this medication.",
+                "bn": "পেনিসিলিনের প্রতি পরিচিত অ্যালার্জি এই ওষুধ দেওয়ার জন্য একটি প্রতিনির্দেশনা।",
+                "hi": "पेनिसिलिन से ज्ञात एलर्जी इस दवा को देने के लिए एक निषेध है।",
+                "ur": "پینسلین سے معلوم الرجی اس دوا کو دینے کے لیے تضادِ علامت ہے۔",
+                "tr": "Penisiline karşı bilinen bir alerji, bu ilacı uygulamak için bir kontrendikasyondur."
+            },
+            "id": "v38_04"
+        },
+        {
+            "germanTerm": "die Dosisanpassung",
+            "article": "die",
+            "plural": "die Dosisanpassungen",
+            "pronunciation": "[ˈdoːzɪsˌʔanpasʊŋ]",
+            "category": "noun",
+            "translation": {
+                "en": "dose adjustment",
+                "bn": "ডোজ সমন্বয় (Doj somonnoy)",
+                "hi": "खुराक समायोजन (Khuraak samayojan)",
+                "ur": "خوراک کی ایڈجسٹمنٹ (Khurak ki adjustment)",
+                "tr": "doz ayarlaması"
+            },
+            "exampleSentence": "Bei Niereninsuffizienz ist eine Dosisanpassung erforderlich.",
+            "exampleTranslation": {
+                "en": "Dose adjustment is necessary in case of renal insufficiency.",
+                "bn": "বৃক্কের অপর্যাপ্ততার ক্ষেত্রে ডোজ সমন্বয় প্রয়োজন।",
+                "hi": "गुर्दे की अपर्याप्तता के मामले में खुराक समायोजन आवश्यक है।",
+                "ur": "گردے کی ناکافی صورت میں خوراک کی ایڈجسٹمنٹ ضروری ہے۔",
+                "tr": "Böbrek yetmezliği durumunda doz ayarlaması gereklidir."
+            },
+            "id": "v38_05"
+        },
+        {
+            "germanTerm": "das Nebenwirkung",
+            "article": "die",
+            "plural": "die Nebenwirkungen",
+            "pronunciation": "[ˈneːbm̩ˌvɪʁkʊŋ]",
+            "category": "noun",
+            "translation": {
+                "en": "side effect",
+                "bn": "পার্শ্ব প্রতিক্রিয়া (Parsho protikriya)",
+                "hi": "दुष्प्रभाव (Dushprabhav)",
+                "ur": "ضمنی اثر (Zimni asar)",
+                "tr": "yan etki"
+            },
+            "exampleSentence": "Müdigkeit ist eine häufige Nebenwirkung dieses Medikaments.",
+            "exampleTranslation": {
+                "en": "Tiredness is a common side effect of this medication.",
+                "bn": "ক্লান্তি এই ওষুধের একটি সাধারণ পার্শ্ব প্রতিক্রিয়া।",
+                "hi": "थकान इस दवा का एक सामान्य दुष्प्रभाव है।",
+                "ur": "تھکاوٹ اس دوا کا ایک عام ضمنی اثر ہے۔",
+                "tr": "Yorgunluk bu ilacın yaygın bir yan etkisidir."
+            },
+            "id": "v38_06"
+        },
+        {
+            "germanTerm": "die Wechselwirkung",
+            "article": "die",
+            "plural": "die Wechselwirkungen",
+            "pronunciation": "[ˈvɛksl̩ˌvɪʁkʊŋ]",
+            "category": "noun",
+            "translation": {
+                "en": "interaction",
+                "bn": "পারস্পরিক ক্রিয়া (Parasparik kriya)",
+                "hi": "पारस्परिक क्रिया (Parasparik kriya)",
+                "ur": "تعامل (Ta'amul)",
+                "tr": "etkileşim"
+            },
+            "exampleSentence": "Es ist wichtig, Wechselwirkungen zwischen verschiedenen Medikamenten zu vermeiden.",
+            "exampleTranslation": {
+                "en": "It is important to avoid interactions between different medications.",
+                "bn": "বিভিন্ন ওষুধের মধ্যে পারস্পরিক ক্রিয়া এড়ানো গুরুত্বপূর্ণ।",
+                "hi": "विभिन्न दवाओं के बीच पारस्परिक क्रिया से बचना महत्वपूर्ण है।",
+                "ur": "مختلف ادویات کے درمیان تعامل سے بچنا ضروری ہے۔",
+                "tr": "Farklı ilaçlar arasındaki etkileşimleri önlemek önemlidir."
+            },
+            "id": "v38_07"
+        },
+        {
+            "germanTerm": "die Pharmakokinetik",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "[farmaˈkoːkiˌneːtɪk]",
+            "category": "noun",
+            "translation": {
+                "en": "pharmacokinetics",
+                "bn": "ফার্মাকোকিনেটিক্স (Pharmakokinetiks)",
+                "hi": "फार्माकोकाइनेटिक्स (Pharmakokainetiks)",
+                "ur": "علم الادویہ الحرکیات (Ilm ul adviyah ul harkiyaat)",
+                "tr": "farmakokinetik"
+            },
+            "exampleSentence": "Die Pharmakokinetik dieses Medikaments ist gut untersucht.",
+            "exampleTranslation": {
+                "en": "The pharmacokinetics of this medication are well studied.",
+                "bn": "এই ওষুধের ফার্মাকোকিনেটিক্স ভালোভাবে অধ্যয়ন করা হয়েছে।",
+                "hi": "इस दवा के फार्माकोकाइनेटिक्स का अच्छी तरह से अध्ययन किया गया है।",
+                "ur": "اس دوا کے علم الادویہ الحرکیات کا اچھی طرح سے مطالعہ کیا گیا ہے۔",
+                "tr": "Bu ilacın farmakokinetiği iyi incelenmiştir."
+            },
+            "id": "v38_08"
+        },
+        {
+            "germanTerm": "die Pharmakodynamik",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "[farmaˈkoːdyˌnaːmɪk]",
+            "category": "noun",
+            "translation": {
+                "en": "pharmacodynamics",
+                "bn": "ফার্মাকোডাইনামিক্স (Pharmakodainamiks)",
+                "hi": "फार्माकोडायनामिक्स (Pharmakodainamiks)",
+                "ur": "علم الادویہ التحرکیات (Ilm ul adviyah ul tahrekiyat)",
+                "tr": "farmakodinamik"
+            },
+            "exampleSentence": "Die Pharmakodynamik beschreibt, wie das Medikament auf den Körper wirkt.",
+            "exampleTranslation": {
+                "en": "Pharmacodynamics describes how the medication affects the body.",
+                "bn": "ফার্মাকোডাইনামিক্স বর্ণনা করে যে ওষুধটি কীভাবে শরীরে কাজ করে।",
+                "hi": "फार्माकोडायनामिक्स वर्णन करता है कि दवा शरीर पर कैसे काम करती है।",
+                "ur": "علم الادویہ التحرکیات بیان کرتا ہے کہ دوا جسم پر کیسے کام کرتی ہے۔",
+                "tr": "Farmakodinamik, ilacın vücudu nasıl etkilediğini açıklar."
+            },
+            "id": "v38_09"
+        },
+        {
+            "germanTerm": "die Bioverfügbarkeit",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "[ˌbiːoːfɛɐ̯ˈfyːkbaːɐ̯kaɪ̯t]",
+            "category": "noun",
+            "translation": {
+                "en": "bioavailability",
+                "bn": "বায়োঅ্যাভাইলেবিলিটি (Bioavailability)",
+                "hi": "जैव उपलब्धता (Jaiv uplabdhata)",
+                "ur": "حیاتی دستیابی (Hayati dastyabi)",
+                "tr": "biyoyararlanım"
+            },
+            "exampleSentence": "Die Bioverfügbarkeit dieses Medikaments ist relativ gering.",
+            "exampleTranslation": {
+                "en": "The bioavailability of this medication is relatively low.",
+                "bn": "এই ওষুধের বায়োঅ্যাভাইলেবিলিটি তুলনামূলকভাবে কম।",
+                "hi": "इस दवा की जैव उपलब्धता अपेक्षाकृत कम है।",
+                "ur": "اس دوا کی حیاتی دستیابی نسبتاً کم ہے۔",
+                "tr": "Bu ilacın biyoyararlanımı nispeten düşüktür."
+            },
+            "id": "v38_10"
+        },
+        {
+            "germanTerm": "die Applikationsform",
+            "article": "die",
+            "plural": "die Applikationsformen",
+            "pronunciation": "[ˌaplikaˈt͡si̯oːnsˌfɔʁm]",
+            "category": "noun",
+            "translation": {
+                "en": "dosage form",
+                "bn": "প্রয়োগের ধরণ (Proyoger dhoron)",
+                "hi": "अनुप्रयोग का रूप (Anuprayog ka roop)",
+                "ur": "ایپلی کیشن فارم (Application form)",
+                "tr": "uygulama şekli"
+            },
+            "exampleSentence": "Die Applikationsform dieses Medikaments ist eine Tablette.",
+            "exampleTranslation": {
+                "en": "The dosage form of this medication is a tablet.",
+                "bn": "এই ওষুধের প্রয়োগের ধরণ হল একটি ট্যাবলেট।",
+                "hi": "इस दवा का अनुप्रयोग का रूप एक टैबलेट है।",
+                "ur": "اس دوا کا ایپلی کیشن فارم ایک گولی ہے۔",
+                "tr": "Bu ilacın uygulama şekli bir tablettir."
+            },
+            "id": "v38_11"
+        },
+        {
+            "germanTerm": "die Dosierung",
+            "article": "die",
+            "plural": "die Dosierungen",
+            "pronunciation": "[doˈziːʁʊŋ]",
+            "category": "noun",
+            "translation": {
+                "en": "dosage",
+                "bn": "ডোজ (Doj)",
+                "hi": "खुराक (Khuraak)",
+                "ur": "خوراک (Khurak)",
+                "tr": "dozaj"
+            },
+            "exampleSentence": "Die richtige Dosierung ist entscheidend für den Therapieerfolg.",
+            "exampleTranslation": {
+                "en": "The correct dosage is crucial for the success of the therapy.",
+                "bn": "সঠিক ডোজ থেরাপির সাফল্যের জন্য অত্যন্ত গুরুত্বপূর্ণ।",
+                "hi": "सही खुराक चिकित्सा की सफलता के लिए महत्वपूर्ण है।",
+                "ur": "صحیح خوراک تھراپی کی کامیابی کے لیے بہت اہم ہے۔",
+                "tr": "Doğru dozaj, tedavinin başarısı için çok önemlidir."
+            },
+            "id": "v38_12"
+        },
+        {
+            "germanTerm": "verabreichen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "[fɛɐ̯ˈʔaːbˌʁaɪ̯çən]",
+            "category": "verb",
+            "translation": {
+                "en": "to administer",
+                "bn": "প্রদান করা (Prodan kora)",
+                "hi": "देना (Dena)",
+                "ur": "دینا (Dena)",
+                "tr": "uygulamak"
+            },
+            "exampleSentence": "Der Arzt wird Ihnen das Medikament intravenös verabreichen.",
+            "exampleTranslation": {
+                "en": "The doctor will administer the medication intravenously.",
+                "bn": "ডাক্তার আপনাকে শিরায় ওষুধটি প্রদান করবেন।",
+                "hi": "डॉक्टर आपको दवा अंतःशिरा में देंगे।",
+                "ur": "ڈاکٹر آپ کو دوا رگ میں دیں گے۔",
+                "tr": "Doktor size ilacı intravenöz olarak uygulayacaktır."
+            },
+            "id": "v38_13"
+        },
+        {
+            "germanTerm": "verschreiben",
+            "article": null,
+            "plural": null,
+            "pronunciation": "[fɛɐ̯ˈʃʁaɪ̯bn̩]",
+            "category": "verb",
+            "translation": {
+                "en": "to prescribe",
+                "bn": "লিখে দেওয়া (Likhe dewa)",
+                "hi": "लिखना (Likhna)",
+                "ur": "تجویز کرنا (Tajweez karna)",
+                "tr": "reçete etmek"
+            },
+            "exampleSentence": "Der Arzt hat mir ein Antibiotikum verschrieben.",
+            "exampleTranslation": {
+                "en": "The doctor prescribed me an antibiotic.",
+                "bn": "ডাক্তার আমাকে একটি অ্যান্টিবায়োটিক লিখে দিয়েছেন।",
+                "hi": "डॉक्टर ने मुझे एक एंटीबायोटिक लिखा है।",
+                "ur": "ڈاکٹر نے مجھے ایک اینٹی بائیوٹک تجویز کی ہے۔",
+                "tr": "Doktor bana bir antibiyotik reçete etti."
+            },
+            "id": "v38_14"
+        },
+        {
+            "germanTerm": "einnehmen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "[ˈaɪ̯nˌneːmən]",
+            "category": "verb",
+            "translation": {
+                "en": "to take",
+                "bn": "গ্রহণ করা (Grohon kora)",
+                "hi": "लेना (Lena)",
+                "ur": "لینا (Lena)",
+                "tr": "almak"
+            },
+            "exampleSentence": "Sie müssen die Tabletten dreimal täglich einnehmen.",
+            "exampleTranslation": {
+                "en": "You have to take the tablets three times a day.",
+                "bn": "আপনাকে দিনে তিনবার ট্যাবলেট গ্রহণ করতে হবে।",
+                "hi": "आपको दिन में तीन बार टैबलेट लेना होगा।",
+                "ur": "آپ کو دن میں تین بار گولیاں لینی ہوں گی۔",
+                "tr": "Tabletleri günde üç kez almalısınız."
+            },
+            "id": "v38_15"
+        },
+        {
+            "germanTerm": "initial",
+            "article": null,
+            "plural": null,
+            "pronunciation": "[ɪniˈt͡si̯aːl]",
+            "category": "adjective",
+            "translation": {
+                "en": "initial",
+                "bn": "প্রাথমিক (Prathomic)",
+                "hi": "शुरुआती (Shuruaati)",
+                "ur": "ابتدائی (Ibtidayi)",
+                "tr": "başlangıç"
+            },
+            "exampleSentence": "Die initial Dosis sollte niedrig sein.",
+            "exampleTranslation": {
+                "en": "The initial dose should be low.",
+                "bn": "প্রাথমিক ডোজ কম হওয়া উচিত।",
+                "hi": "शुरुआती खुराक कम होनी चाहिए।",
+                "ur": "ابتدائی خوراک کم ہونی چاہیے۔",
+                "tr": "Başlangıç dozu düşük olmalıdır."
+            },
+            "id": "v38_16"
+        },
+        {
+            "germanTerm": "chronisch",
+            "article": null,
+            "plural": null,
+            "pronunciation": "[ˈkʁoːnɪʃ]",
+            "category": "adjective",
+            "translation": {
+                "en": "chronic",
+                "bn": "দীর্ঘস্থায়ী (Dirghosthayi)",
+                "hi": "दीर्घकालिक (Dirghkalik)",
+                "ur": "مزمن (Muzmin)",
+                "tr": "kronik"
+            },
+            "exampleSentence": "Dieses Medikament wird zur Behandlung von chronischen Schmerzen eingesetzt.",
+            "exampleTranslation": {
+                "en": "This medication is used to treat chronic pain.",
+                "bn": "এই ওষুধটি দীর্ঘস্থায়ী ব্যথা চিকিৎসার জন্য ব্যবহৃত হয়।",
+                "hi": "यह दवा दीर्घकालिक दर्द के इलाज के लिए उपयोग की जाती है।",
+                "ur": "یہ دوا دائمی درد کے علاج کے لیے استعمال ہوتی ہے۔",
+                "tr": "Bu ilaç kronik ağrıyı tedavi etmek için kullanılır."
+            },
+            "id": "v38_17"
+        },
+        {
+            "germanTerm": "akut",
+            "article": null,
+            "plural": null,
+            "pronunciation": "[aˈkuːt]",
+            "category": "adjective",
+            "translation": {
+                "en": "acute",
+                "bn": "তীব্র (Tibro)",
+                "hi": "तीव्र (Tivra)",
+                "ur": "شدید (Shadeed)",
+                "tr": "akut"
+            },
+            "exampleSentence": "Bei akuten Beschwerden sollten Sie sofort einen Arzt aufsuchen.",
+            "exampleTranslation": {
+                "en": "You should see a doctor immediately for acute symptoms.",
+                "bn": "তীব্র উপসর্গ দেখা দিলে অবিলম্বে একজন ডাক্তারের পরামর্শ নিন।",
+                "hi": "तीव्र लक्षणों के लिए आपको तुरंत डॉक्टर से मिलना चाहिए।",
+                "ur": "شدید علامات کے لیے آپ کو فوری طور پر ڈاکٹر سے رجوع کرنا چاہیے۔",
+                "tr": "Akut semptomlar için derhal bir doktora görünmelisiniz."
+            },
+            "id": "v38_18"
+        },
+        {
+            "germanTerm": "intravenös",
+            "article": null,
+            "plural": null,
+            "pronunciation": "[ˌɪntʁaveˈnøːs]",
+            "category": "adjective",
+            "translation": {
+                "en": "intravenous",
+                "bn": "শিরায় (Shiray)",
+                "hi": "अंतःशिरा (Antahshira)",
+                "ur": "وریدی (Wareedi)",
+                "tr": "intravenöz"
+            },
+            "exampleSentence": "Das Medikament wird intravenös verabreicht.",
+            "exampleTranslation": {
+                "en": "The medication is administered intravenously.",
+                "bn": "ওষুধটি শিরায় প্রয়োগ করা হয়।",
+                "hi": "दवा अंतःशिरा में दी जाती है।",
+                "ur": "دوا وریدی طور پر دی جاتی ہے۔",
+                "tr": "İlaç intravenöz olarak uygulanır."
+            },
+            "id": "v38_19"
+        },
+        {
+            "germanTerm": "oral",
+            "article": null,
+            "plural": null,
+            "pronunciation": "[oˈʁaːl]",
+            "category": "adjective",
+            "translation": {
+                "en": "oral",
+                "bn": "মুখের মাধ্যমে (Mukher madhyome)",
+                "hi": "मौखिक (Maukhik)",
+                "ur": "زبانی (Zubani)",
+                "tr": "oral"
+            },
+            "exampleSentence": "Die Tabletten werden oral eingenommen.",
+            "exampleTranslation": {
+                "en": "The tablets are taken orally.",
+                "bn": "ট্যাবলেটগুলি মুখের মাধ্যমে গ্রহণ করা হয়।",
+                "hi": "गोलियाँ मौखिक रूप से ली जाती हैं।",
+                "ur": "گولیاں زبانی طور پر لی جاتی ہیں۔",
+                "tr": "Tabletler oral olarak alınır."
+            },
+            "id": "v38_20"
+        },
+        {
+            "germanTerm": "subkutan",
+            "article": null,
+            "plural": null,
+            "pronunciation": "[zʊpkutaˈn]",
+            "category": "adjective",
+            "translation": {
+                "en": "subcutaneous",
+                "bn": "ত্বকের নিচে (Twoker niche)",
+                "hi": "त्वचा के नीचे (Twacha ke neeche)",
+                "ur": "زیرِ جلد (Zeir-e-jild)",
+                "tr": "subkutan"
+            },
+            "exampleSentence": "Die Injektion wird subkutan verabreicht.",
+            "exampleTranslation": {
+                "en": "The injection is administered subcutaneously.",
+                "bn": "ইনজেকশনটি ত্বকের নিচে দেওয়া হয়।",
+                "hi": "इंजेक्शन त्वचा के नीचे दिया जाता है।",
+                "ur": "انجکشن زیرِ جلد دیا جاتا ہے۔",
+                "tr": "Enjeksiyon subkutan olarak uygulanır."
+            },
+            "id": "v38_21"
+        },
+        {
+            "germanTerm": "die Therapie",
+            "article": "die",
+            "plural": "die Therapien",
+            "pronunciation": "[teʁaˈpiː]",
+            "category": "noun",
+            "translation": {
+                "en": "therapy",
+                "bn": "থেরাপি (Therapi)",
+                "hi": "थेरेपी (Therapi)",
+                "ur": "تھراپی (Therapi)",
+                "tr": "terapi"
+            },
+            "exampleSentence": "Die Therapie zeigt gute Erfolge.",
+            "exampleTranslation": {
+                "en": "The therapy is showing good results.",
+                "bn": "থেরাপি ভালো ফলাফল দেখাচ্ছে।",
+                "hi": "थेरेपी अच्छे परिणाम दिखा रही है।",
+                "ur": "تھراپی اچھے نتائج دکھا رہی ہے۔",
+                "tr": "Terapi iyi sonuçlar gösteriyor."
+            },
+            "id": "v38_22"
+        },
+        {
+            "germanTerm": "die Compliance",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "[kɔmˈplaɪ̯əns]",
+            "category": "noun",
+            "translation": {
+                "en": "compliance",
+                "bn": "সম্মতি (Sommoti)",
+                "hi": "अनुपालन (Anupaalan)",
+                "ur": "تعمیل (Ta'meel)",
+                "tr": "uyum"
+            },
+            "exampleSentence": "Eine gute Compliance ist wichtig für den Therapieerfolg.",
+            "exampleTranslation": {
+                "en": "Good compliance is important for the success of the therapy.",
+                "bn": "থেরাপির সাফল্যের জন্য ভালো সম্মতি গুরুত্বপূর্ণ।",
+                "hi": "थेरेपी की सफलता के लिए अच्छा अनुपालन महत्वपूर्ण है।",
+                "ur": "تھراپی کی کامیابی کے لیے اچھی تعمیل اہم ہے۔",
+                "tr": "Tedavinin başarısı için iyi uyum önemlidir."
+            },
+            "id": "v38_23"
+        },
+        {
+            "germanTerm": "die Resistenz",
+            "article": "die",
+            "plural": "die Resistenzen",
+            "pronunciation": "[ʁezisˈtɛnt͡s]",
+            "category": "noun",
+            "translation": {
+                "en": "resistance",
+                "bn": "প্রতিরোধ (Protirodh)",
+                "hi": "प्रतिरोध (Pratirodh)",
+                "ur": "مزاحمت (Mazahmat)",
+                "tr": "direnç"
+            },
+            "exampleSentence": "Die Bakterien haben eine Resistenz gegen das Antibiotikum entwickelt.",
+            "exampleTranslation": {
+                "en": "The bacteria have developed a resistance to the antibiotic.",
+                "bn": "ব্যাকটেরিয়া অ্যান্টিবায়োটিকের বিরুদ্ধে প্রতিরোধ তৈরি করেছে।",
+                "hi": "बैक्टीरिया ने एंटीबायोटिक के प्रति प्रतिरोध विकसित कर लिया है।",
+                "ur": "بیکٹیریا نے اینٹی بائیوٹک کے خلاف مزاحمت پیدا کر لی ہے۔",
+                "tr": "Bakteriler antibiyotiğe karşı direnç geliştirmiştir."
+            },
+            "id": "v38_24"
+        },
+        {
+            "germanTerm": "die Prophylaxe",
+            "article": "die",
+            "plural": "die Prophylaxen",
+            "pronunciation": "[pʁofyˈlaksə]",
+            "category": "noun",
+            "translation": {
+                "en": "prophylaxis",
+                "bn": "প্রতিরোধক ব্যবস্থা (Protirodhok byabostha)",
+                "hi": "रोगनिरोध (Rognirodh)",
+                "ur": "حفاظتی تدبیر (Hifazati tadbeer)",
+                "tr": "profilaksi"
+            },
+            "exampleSentence": "Die Prophylaxe soll eine Infektion verhindern.",
+            "exampleTranslation": {
+                "en": "The prophylaxis is intended to prevent an infection.",
+                "bn": "প্রতিরোধক ব্যবস্থা সংক্রমণের হাত থেকে রক্ষা করে।",
+                "hi": "रोगनिरोध का उद्देश्य संक्रमण को रोकना है।",
+                "ur": "حفاظتی تدبیر کا مقصد انفیکشن کو روکنا ہے۔",
+                "tr": "Profilaksi bir enfeksiyonu önlemeyi amaçlamaktadır."
+            },
+            "id": "v38_25"
+        },
+        {
+            "germanTerm": "die Remission",
+            "article": "die",
+            "plural": "die Remissionen",
+            "pronunciation": "[ʁeˈmɪsi̯oːn]",
+            "category": "noun",
+            "translation": {
+                "en": "remission",
+                "bn": "উপশম (Upshom)",
+                "hi": "क्षमा (Kshama)",
+                "ur": "معافی (Muafi)",
+                "tr": "remisyon"
+            },
+            "exampleSentence": "Der Patient ist in Remission.",
+            "exampleTranslation": {
+                "en": "The patient is in remission.",
+                "bn": "রোগী উপশম অবস্থায় আছেন।",
+                "hi": "रोगी क्षमा में है।",
+                "ur": "مریض معافی میں ہے۔",
+                "tr": "Hasta remisyonda."
+            },
+            "id": "v38_26"
+        },
+        {
+            "germanTerm": "die Interaktion",
+            "article": "die",
+            "plural": "die Interaktionen",
+            "pronunciation": "[ɪntɛʁakˈt͡si̯oːn]",
+            "category": "noun",
+            "translation": {
+                "en": "interaction",
+                "bn": "আন্তঃক্রিয়া (Antahkriya)",
+                "hi": "अंतःक्रिया (Antahkriya)",
+                "ur": "باہمی تعامل (Bahami ta'amul)",
+                "tr": "etkileşim"
+            },
+            "exampleSentence": "Es besteht eine Interaktion zwischen diesen beiden Medikamenten.",
+            "exampleTranslation": {
+                "en": "There is an interaction between these two medications.",
+                "bn": "এই দুটি ওষুধের মধ্যে একটি আন্তঃক্রিয়া রয়েছে।",
+                "hi": "इन दोनों दवाओं के बीच एक अंतःक्रिया है।",
+                "ur": "ان دونوں دواؤں کے درمیان ایک باہمی تعامل ہے۔",
+                "tr": "Bu iki ilaç arasında bir etkileşim vardır."
+            },
+            "id": "v38_27"
+        },
+        {
+            "germanTerm": "die Evidenz",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "[eviˈdɛnt͡s]",
+            "category": "noun",
+            "translation": {
+                "en": "evidence",
+                "bn": "প্রমাণ (Praman)",
+                "hi": "सबूत (Saboot)",
+                "ur": "ثبوت (Saboot)",
+                "tr": "kanıt"
+            },
+            "exampleSentence": "Es gibt Evidenz für die Wirksamkeit dieser Therapie.",
+            "exampleTranslation": {
+                "en": "There is evidence for the effectiveness of this therapy.",
+                "bn": "এই থেরাপির কার্যকারিতার প্রমাণ রয়েছে।",
+                "hi": "इस थेरेपी की प्रभावशीलता के सबूत हैं।",
+                "ur": "اس تھراپی کی تاثیر کا ثبوت موجود ہے۔",
+                "tr": "Bu tedavinin etkinliğine dair kanıt bulunmaktadır."
+            },
+            "id": "v38_28"
+        },
+        {
+            "germanTerm": "der Beipackzettel",
+            "article": "der",
+            "plural": "die Beipackzettel",
+            "pronunciation": "[ˈbaɪ̯pakˌt͡sɛtl̩]",
+            "category": "noun",
+            "translation": {
+                "en": "package insert",
+                "bn": "প্যাকেজ সন্নিবেশ (Package sonnibesh)",
+                "hi": "पैकेज डालने (Package daalne)",
+                "ur": "پیکیج داخل کرنا (Package dakhil karna)",
+                "tr": "kullanma talimatı"
+            },
+            "exampleSentence": "Lesen Sie den Beipackzettel sorgfältig durch.",
+            "exampleTranslation": {
+                "en": "Read the package insert carefully.",
+                "bn": "প্যাকেজ সন্নিবেশটি মনোযোগ সহকারে পড়ুন।",
+                "hi": "पैकेज डालने को ध्यान से पढ़ें।",
+                "ur": "پیکیج داخل کرنے کو غور سے پڑھیں۔",
+                "tr": "Kullanma talimatını dikkatlice okuyunuz."
+            },
+            "id": "v38_29"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Pharmacotherapy Introduction",
+                "bn": "ফার্মাকোথেরাপি ভূমিকা",
+                "hi": "फार्माकोथेरेपी परिचय",
+                "ur": "فارماکوتھراپی تعارف",
+                "tr": "Farmakoterapinin Tanıtımı"
+            },
+            "context": {
+                "en": "Dr. Schmidt, a junior doctor, discusses a new patient's medication with Nurse Weber.",
+                "bn": "ডাক্তার শ্মিট, একজন জুনিয়র ডাক্তার, নার্স ওয়েবারের সাথে একজন নতুন রোগীর ওষুধ নিয়ে আলোচনা করছেন।",
+                "hi": "डॉ. श्मिट, एक जूनियर डॉक्टर, नर्स वेबर के साथ एक नए मरीज की दवा पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر شمٹ، ایک جونیئر ڈاکٹر، نرس ویبر کے ساتھ ایک نئے مریض کی دوا پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Genç doktor Schmidt, hemşire Weber ile yeni bir hastanın ilaçlarını görüşüyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Schwester Weber, können Sie mir bitte die Medikation für Herrn Lehmann erläutern? Welche Arzneimittel erhält er?",
+                    "translation": {
+                        "en": "Nurse Weber, can you please explain Mr. Lehmann's medication to me? Which drugs is he receiving?",
+                        "bn": "নার্স ওয়েবার, আপনি কি আমাকে দয়া করে মিস্টার লেহমানের ওষুধ সম্পর্কে বলতে পারেন? তিনি কোন ওষুধ পাচ্ছেন?",
+                        "hi": "नर्स वेबर, क्या आप कृपया मुझे श्री लेहमैन की दवा के बारे में बता सकती हैं? उन्हें कौन सी दवाएं मिल रही हैं?",
+                        "ur": "نرس ویبر، کیا آپ براہ کرم مجھے مسٹر لیمن کی دوا کے بارے میں بتا سکتی ہیں؟ وہ کون سی دوائیں لے رہے ہیں؟",
+                        "tr": "Hemşire Weber, lütfen bana Bay Lehmann'ın ilaçlarını açıklayabilir misiniz? Hangi ilaçları alıyor?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Lehmann bekommt Metoprolol für seinen Bluthochdruck und ASS zur Thrombozytenaggregationshemmung.",
+                    "translation": {
+                        "en": "Mr. Lehmann is receiving Metoprolol for his high blood pressure and ASA for platelet aggregation inhibition.",
+                        "bn": "মিঃ লেহমান তার উচ্চ রক্তচাপের জন্য মেটোপ্রোলল এবং প্লেটলেট অ্যাগ্রিগেশন ইনহিবিশনের জন্য এএসএ পাচ্ছেন।",
+                        "hi": "श्री लेहमैन को उनके उच्च रक्तचाप के लिए मेटोप्रोलोल और प्लेटलेट एकत्रीकरण निषेध के लिए एएसए मिल रहा है।",
+                        "ur": "مسٹر لیمن کو ان کے ہائی بلڈ پریشر کے لیے میٹوپرولول اور پلیٹلیٹ جمع کرنے کی روک تھام کے لیے اے ایس اے مل رہا ہے۔",
+                        "tr": "Bay Lehmann, yüksek tansiyonu için Metoprolol ve trombosit agregasyon inhibisyonu için ASA alıyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Verstanden. Kennen Sie die jeweilige Indikation und Kontraindikation dieser Arzneimittel?",
+                    "translation": {
+                        "en": "Understood. Do you know the respective indication and contraindication of these drugs?",
+                        "bn": "বুঝেছি। আপনি কি এই ওষুধগুলির নিজ নিজ ইঙ্গিত এবং contraindication জানেন?",
+                        "hi": "समझ गया। क्या आप इन दवाओं के संबंधित संकेत और contraindication जानते हैं?",
+                        "ur": "سمجھ گیا۔ کیا آپ ان ادویات کے متعلقہ اشارے اور تضادات جانتے ہیں؟",
+                        "tr": "Anladım. Bu ilaçların ilgili endikasyonlarını ve kontrendikasyonlarını biliyor musunuz?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ja, die Indikation für Metoprolol ist Hypertonie und für ASS die Sekundärprävention nach einem Herzinfarkt. Eine Kontraindikation für ASS wäre z.B. eine bekannte Allergie.",
+                    "translation": {
+                        "en": "Yes, the indication for Metoprolol is hypertension and for ASA the secondary prevention after a heart attack. A contraindication for ASA would be, for example, a known allergy.",
+                        "bn": "হ্যাঁ, মেটোপ্রোললের ইঙ্গিত হল উচ্চ রক্তচাপ এবং এএসএ-এর জন্য হার্ট অ্যাটাকের পরে সেকেন্ডারি প্রতিরোধ। এএসএ-এর জন্য একটি contraindication হবে, উদাহরণস্বরূপ, একটি পরিচিত অ্যালার্জি।",
+                        "hi": "हाँ, मेटोप्रोलोल का संकेत उच्च रक्तचाप है और एएसए के लिए दिल के दौरे के बाद माध्यमिक रोकथाम है। एएसए के लिए एक contraindication, उदाहरण के लिए, एक ज्ञात एलर्जी होगी।",
+                        "ur": "ہاں، میٹوپرولول کا اشارہ ہائی بلڈ پریشر ہے اور اے ایس اے کے لیے دل کے دورے کے بعد ثانوی روک تھام ہے۔ ASA کے لیے ایک contraindication، مثال کے طور پر، ایک معلوم الرجی ہوگی۔",
+                        "tr": "Evet, Metoprolol'ün endikasyonu hipertansiyon ve ASA için kalp krizinden sonraki sekonder profilaksidir. ASA için bir kontrendikasyon, örneğin, bilinen bir alerji olabilir."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Gut. Bitte achten Sie auf mögliche Nebenwirkungen und informieren Sie mich bei Auffälligkeiten.",
+                    "translation": {
+                        "en": "Good. Please pay attention to possible side effects and inform me if you notice anything unusual.",
+                        "bn": "ভাল। সম্ভাব্য পার্শ্ব প্রতিক্রিয়াগুলিতে মনোযোগ দিন এবং অস্বাভাবিক কিছু দেখলে আমাকে জানান।",
+                        "hi": "अच्छा। कृपया संभावित दुष्प्रभावों पर ध्यान दें और यदि आपको कुछ असामान्य दिखाई दे तो मुझे सूचित करें।",
+                        "ur": "اچها. براہ کرم ممکنہ ضمنی اثرات پر توجہ دیں اور اگر آپ کو کچھ غیر معمولی نظر آئے تو مجھے مطلع کریں۔",
+                        "tr": "Güzel. Lütfen olası yan etkilere dikkat edin ve olağandışı bir şey fark ederseniz beni bilgilendirin."
+                    }
+                }
+            ],
+            "id": "d38_01"
+        },
+        {
+            "title": {
+                "en": "Dose Adjustment Discussion",
+                "bn": "ডোজ সমন্বয় আলোচনা",
+                "hi": "खुराक समायोजन चर्चा",
+                "ur": "خوراک ایڈجسٹمنٹ پر بات چیت",
+                "tr": "Doz Ayarlama Tartışması"
+            },
+            "context": {
+                "en": "Dr. Meier, a senior doctor, consults with Dr. Klein, regarding a patient whose blood sugar is not controlled well with the current dose of insulin.",
+                "bn": "ডাক্তার মিয়ার, একজন সিনিয়র ডাক্তার, ডাক্তার ক্লেইনের সাথে পরামর্শ করছেন, একজন রোগীর বিষয়ে যার রক্তে শর্করার পরিমাণ বর্তমান ইনসুলিনের মাত্রার সাথে ভালোভাবে নিয়ন্ত্রিত নয়।",
+                "hi": "डॉ. मेयर, एक वरिष्ठ डॉक्टर, डॉ. क्लेन के साथ एक मरीज के बारे में परामर्श करते हैं जिसका रक्त शर्करा वर्तमान इंसुलिन की खुराक के साथ अच्छी तरह से नियंत्रित नहीं है।",
+                "ur": "ڈاکٹر میئر، ایک سینئر ڈاکٹر، ڈاکٹر کلین کے ساتھ ایک مریض کے بارے میں مشورہ کرتے ہیں جس کا خون میں شکر کی مقدار موجودہ انسولین کی خوراک کے ساتھ اچھی طرح سے کنٹرول نہیں ہے۔",
+                "tr": "Kıdemli doktor Meier, mevcut insülin dozu ile kan şekeri iyi kontrol edilemeyen bir hasta hakkında Dr. Klein'a danışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Dr. Klein, bei Herrn Schmidt ist der Blutzucker trotz Insulintherapie weiterhin erhöht. Wir müssen die Dosisanpassung überdenken.",
+                    "translation": {
+                        "en": "Dr. Klein, Mr. Schmidt's blood sugar remains elevated despite insulin therapy. We need to reconsider the dose adjustment.",
+                        "bn": "ডাক্তার ক্লেইন, ইনসুলিন থেরাপি সত্ত্বেও মিস্টার শ্মিটের রক্তে শর্করার পরিমাণ বেশি রয়েছে। আমাদের ডোজ সমন্বয় পুনর্বিবেচনা করতে হবে।",
+                        "hi": "डॉ. क्लेन, श्री श्मिट का रक्त शर्करा इंसुलिन थेरेपी के बावजूद भी बढ़ा हुआ है। हमें खुराक समायोजन पर पुनर्विचार करने की आवश्यकता है।",
+                        "ur": "ڈاکٹر کلین، مسٹر شمٹ کا بلڈ شوگر انسولین تھراپی کے باوجود بھی بڑھا ہوا ہے۔ ہمیں خوراک کی ایڈجسٹمنٹ پر نظر ثانی کرنے کی ضرورت ہے۔",
+                        "tr": "Dr. Klein, Bay Schmidt'in kan şekeri insülin tedavisine rağmen yüksek kalmaya devam ediyor. Doz ayarlamasını yeniden gözden geçirmemiz gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich habe bereits die Kohlenhydratzufuhr kontrolliert und er hält sich an den Diätplan. Welchen Wirkstoff schlagen Sie vor, die Dosis zu erhöhen?",
+                    "translation": {
+                        "en": "I have already checked the carbohydrate intake and he is adhering to the diet plan. Which active ingredient do you suggest increasing the dose of?",
+                        "bn": "আমি ইতিমধ্যেই কার্বোহাইড্রেট গ্রহণ পরীক্ষা করেছি এবং তিনি ডায়েট প্ল্যান মেনে চলছেন। আপনি কোন সক্রিয় উপাদানের ডোজ বাড়ানোর পরামর্শ দেন?",
+                        "hi": "मैंने पहले ही कार्बोहाइड्रेट का सेवन जांच लिया है और वह आहार योजना का पालन कर रहे हैं। आप किस सक्रिय घटक की खुराक बढ़ाने का सुझाव देते हैं?",
+                        "ur": "میں نے پہلے ہی کاربوہائیڈریٹ کی مقدار کی جانچ کرلی ہے اور وہ غذا کے منصوبے پر عمل پیرا ہیں۔ آپ کس فعال جزو کی خوراک بڑھانے کا مشورہ دیتے ہیں؟",
+                        "tr": "Karbonhidrat alımını zaten kontrol ettim ve diyet planına uyuyor. Dozunu artırmayı önerdiğiniz aktif madde hangisi?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir erhöhen das Basalinsulin um 2 Einheiten. Kontrollieren Sie den Nüchternblutzucker und passen Sie die Dosis gegebenenfalls weiter an.",
+                    "translation": {
+                        "en": "We will increase the basal insulin by 2 units. Check the fasting blood sugar and adjust the dose further if necessary.",
+                        "bn": "আমরা বেসাল ইনসুলিন ২ ইউনিট বাড়াব। খালি পেটে রক্তে শর্করার পরিমাণ পরীক্ষা করুন এবং প্রয়োজনে ডোজ আরও সামঞ্জস্য করুন।",
+                        "hi": "हम बेसल इंसुलिन को 2 यूनिट बढ़ाएंगे। उपवास रक्त शर्करा की जाँच करें और यदि आवश्यक हो तो खुराक को और समायोजित करें।",
+                        "ur": "ہم بیسل انسولین کو 2 یونٹ تک بڑھا دیں گے۔ خالی پیٹ بلڈ شوگر چیک کریں اور اگر ضروری ہو تو خوراک کو مزید ایڈجسٹ کریں۔",
+                        "tr": "Bazal insülini 2 ünite artıracağız. Açlık kan şekerini kontrol edin ve gerekirse dozu daha da ayarlayın."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Verstanden, Herr Schmidt wurde über die Dosisanpassung informiert. Ich werde die Werte engmaschig überwachen.",
+                    "translation": {
+                        "en": "Understood, Mr. Schmidt has been informed about the dose adjustment. I will closely monitor the values.",
+                        "bn": "বুঝেছি, মিস্টার শ্মিটকে ডোজ সমন্বয় সম্পর্কে জানানো হয়েছে। আমি ঘনিষ্ঠভাবে মান নিরীক্ষণ করব।",
+                        "hi": "समझ गया, श्री श्मिट को खुराक समायोजन के बारे में सूचित कर दिया गया है। मैं मूल्यों की बारीकी से निगरानी करूंगा।",
+                        "ur": "سمجھ گیا، مسٹر شمٹ کو خوراک ایڈجسٹمنٹ کے بارے میں مطلع کر دیا گیا ہے۔ میں اقدار کی باریکی سے نگرانی کروں گا۔",
+                        "tr": "Anlaşıldı, Bay Schmidt'e doz ayarlaması hakkında bilgi verildi. Değerleri yakından takip edeceğim."
+                    }
+                }
+            ],
+            "id": "d38_02"
+        },
+        {
+            "title": {
+                "en": "Patient Education on Medication",
+                "bn": "ওষুধের উপর রোগীর শিক্ষা",
+                "hi": "दवा पर रोगी शिक्षा",
+                "ur": "دوا پر مریض کی تعلیم",
+                "tr": "İlaç Hakkında Hasta Eğitimi"
+            },
+            "context": {
+                "en": "Dr. Sommer explains the new medication to Patient Müller before discharge.",
+                "bn": "ডাক্তার সামার ডিসচার্জের আগে রোগী মুলারকে নতুন ওষুধটি ব্যাখ্যা করছেন।",
+                "hi": "डॉ. सोमर डिस्चार्ज से पहले मरीज मुलर को नई दवा समझा रहे हैं।",
+                "ur": "ڈاکٹر سومر ڈسچارج سے پہلے مریض مولر کو نئی دوا کی وضاحت کر رہے ہیں۔",
+                "tr": "Dr. Sommer, taburcu olmadan önce hasta Müller'e yeni ilacı açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Sommer",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Herr Müller, bevor Sie nach Hause gehen, möchte ich Ihnen Ihr neues Arzneimittel erklären. Sie bekommen nun Ramipril.",
+                    "translation": {
+                        "en": "Mr. Müller, before you go home, I would like to explain your new medication to you. You will now receive Ramipril.",
+                        "bn": "মিঃ মুলার, আপনি বাড়ি যাওয়ার আগে, আমি আপনাকে আপনার নতুন ওষুধটি ব্যাখ্যা করতে চাই। আপনি এখন Ramipril পাবেন।",
+                        "hi": "श्री मुलर, घर जाने से पहले, मैं आपको आपकी नई दवा समझाना चाहता हूं। अब आपको रामिप्रिल मिलेगा।",
+                        "ur": "مسٹر مولر، گھر جانے سے پہلے، میں آپ کو آپ کی نئی دوا کی وضاحت کرنا چاہتا ہوں۔ اب آپ کو Ramipril ملے گا۔",
+                        "tr": "Bay Müller, eve gitmeden önce size yeni ilacınızı açıklamak istiyorum. Artık Ramipril alacaksınız."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ramipril? Was ist das genau und wofür ist das gut?",
+                    "translation": {
+                        "en": "Ramipril? What exactly is that and what is it good for?",
+                        "bn": "রামপ্রিল? এটা আসলে কী এবং এটা কীসের জন্য ভালো?",
+                        "hi": "रामिप्रिल? वह वास्तव में क्या है और वह किस लिए अच्छा है?",
+                        "ur": "Ramipril؟ یہ بالکل کیا ہے اور یہ کس کے لیے اچھا ہے؟",
+                        "tr": "Ramipril? Bu tam olarak nedir ve ne için iyidir?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Sommer",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das ist ein ACE-Hemmer. Die Indikation ist Ihr Bluthochdruck. Es senkt den Blutdruck und schützt Ihre Nieren.",
+                    "translation": {
+                        "en": "It's an ACE inhibitor. The indication is your high blood pressure. It lowers blood pressure and protects your kidneys.",
+                        "bn": "এটি একটি ACE ইনহিবিটর। ইঙ্গিতটি হল আপনার উচ্চ রক্তচাপ। এটি রক্তচাপ কমায় এবং আপনার কিডনি রক্ষা করে।",
+                        "hi": "यह एक एसीई अवरोधक है। संकेत आपका उच्च रक्तचाप है। यह रक्तचाप को कम करता है और आपकी किडनी की रक्षा करता है।",
+                        "ur": "یہ ایک ACE روکنے والا ہے۔ اشارہ آپ کا ہائی بلڈ پریشر ہے۔ یہ بلڈ پریشر کو کم کرتا ہے اور آپ کے گردوں کی حفاظت کرتا ہے۔",
+                        "tr": "Bu bir ACE inhibitörü. Endikasyonu yüksek tansiyonunuzdur. Kan basıncını düşürür ve böbreklerinizi korur."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Gibt es etwas, worauf ich achten muss?",
+                    "translation": {
+                        "en": "Is there anything I need to pay attention to?",
+                        "bn": "এমন কিছু আছে যা আমাকে মনোযোগ দিতে হবে?",
+                        "hi": "क्या ऐसा कुछ है जिस पर मुझे ध्यान देने की आवश्यकता है?",
+                        "ur": "کیا کوئی ایسی چیز ہے جس پر مجھے توجہ دینے کی ضرورت ہے؟",
+                        "tr": "Dikkat etmem gereken bir şey var mı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Sommer",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ja, melden Sie sich, wenn Sie starken Reizhusten bekommen. Das ist eine bekannte Nebenwirkung. Und bitte regelmässig den Blutdruck kontrollieren.",
+                    "translation": {
+                        "en": "Yes, contact us if you develop a severe dry cough. That's a known side effect. And please check your blood pressure regularly.",
+                        "bn": "হ্যাঁ, যদি আপনার মারাত্মক শুকনো কাশি হয় তবে আমাদের সাথে যোগাযোগ করুন। এটি একটি পরিচিত পার্শ্ব প্রতিক্রিয়া। এবং দয়া করে নিয়মিত আপনার রক্তচাপ পরীক্ষা করুন।",
+                        "hi": "हाँ, यदि आपको गंभीर सूखी खांसी हो तो हमसे संपर्क करें। वह एक ज्ञात दुष्प्रभाव है। और कृपया नियमित रूप से अपने रक्तचाप की जाँच करें।",
+                        "ur": "ہاں، اگر آپ کو شدید خشک کھانسی ہو تو ہم سے رابطہ کریں۔ یہ ایک معلوم ضمنی اثر ہے۔ اور براہ کرم باقاعدگی سے اپنے بلڈ پریشر کی جانچ کریں۔",
+                        "tr": "Evet, şiddetli bir kuru öksürük geliştirirseniz bize ulaşın. Bu bilinen bir yan etkidir. Ve lütfen kan basıncınızı düzenli olarak kontrol edin."
+                    }
+                }
+            ],
+            "id": "d38_03"
+        },
+        {
+            "title": {
+                "en": "Contraindication Check",
+                "bn": "Contraindication পরীক্ষা",
+                "hi": "Contraindication जाँच",
+                "ur": "Contraindication جانچ",
+                "tr": "Kontrendikasyon Kontrolü"
+            },
+            "context": {
+                "en": "Nurse Schmidt double-checks the patient's allergies before administering medication.",
+                "bn": "নার্স শ্মিট ওষুধ দেওয়ার আগে রোগীর অ্যালার্জিগুলি পুনরায় পরীক্ষা করছেন।",
+                "hi": "नर्स श्मिट दवा देने से पहले रोगी की एलर्जी को दोबारा जांच रही हैं।",
+                "ur": "نرس شمٹ دوا دینے سے پہلے مریض کی الرجی کو دوبارہ چیک کر رہی ہیں۔",
+                "tr": "Hemşire Schmidt, ilaç vermeden önce hastanın alerjilerini tekrar kontrol ediyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Schmidt",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Morgen, Frau Weber. Ich habe hier Ihre Medikamente. Bevor ich Ihnen etwas gebe, muss ich noch einmal nachfragen: Haben Sie Allergien?",
+                    "translation": {
+                        "en": "Good morning, Mrs. Weber. I have your medications here. Before I give you anything, I need to ask again: Do you have any allergies?",
+                        "bn": "শুভ সকাল, মিসেস ওয়েবার। আমার কাছে আপনার ওষুধ আছে। আপনাকে কিছু দেওয়ার আগে, আমাকে আবার জিজ্ঞাসা করতে হবে: আপনার কি কোনো অ্যালার্জি আছে?",
+                        "hi": "शुभ प्रभात, श्रीमती वेबर। मेरे पास आपकी दवाएं हैं। आपको कुछ देने से पहले, मुझे फिर से पूछना होगा: क्या आपको कोई एलर्जी है?",
+                        "ur": "شب بخیر، مسز ویبر۔ میرے پاس آپ کی دوائیں ہیں۔ آپ کو کچھ دینے سے پہلے، مجھے دوبارہ پوچھنا ہوگا: کیا آپ کو کوئی الرجی ہے؟",
+                        "tr": "Günaydın, Bayan Weber. İlaçlarınız burada. Size herhangi bir şey vermeden önce tekrar sormam gerekiyor: Herhangi bir alerjiniz var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, ich bin allergisch gegen Penicillin.",
+                    "translation": {
+                        "en": "Yes, I am allergic to penicillin.",
+                        "bn": "হ্যাঁ, আমি পেনিসিলিনের প্রতি অ্যালার্জিযুক্ত।",
+                        "hi": "हाँ, मुझे पेनिसिलिन से एलर्जी है।",
+                        "ur": "ہاں، مجھے Penicillin سے الرجی ہے۔",
+                        "tr": "Evet, penisiline alerjim var."
+                    }
+                },
+                {
+                    "speaker": "Schwester Schmidt",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Danke für die Info! Ich überprüfe das sofort in Ihrer Akte. Penicillin ist eine wichtige Kontraindikation.",
+                    "translation": {
+                        "en": "Thank you for the information! I will check that in your file immediately. Penicillin is an important contraindication.",
+                        "bn": "তথ্যের জন্য ধন্যবাদ! আমি অবিলম্বে আপনার ফাইলে এটি পরীক্ষা করব। পেনিসিলিন একটি গুরুত্বপূর্ণ contraindication।",
+                        "hi": "जानकारी के लिए धन्यवाद! मैं इसे तुरंत आपकी फाइल में देखूंगा। पेनिसिलिन एक महत्वपूर्ण contraindication है।",
+                        "ur": "معلومات کے لیے شکریہ! میں اسے فوری طور پر آپ کی فائل میں چیک کروں گا۔ Penicillin ایک اہم contraindication ہے۔",
+                        "tr": "Bilgi için teşekkürler! Bunu hemen dosyanızda kontrol edeceğim. Penisilin önemli bir kontrendikasyondur."
+                    }
+                },
+                {
+                    "speaker": "Schwester Schmidt",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Okay, hier steht es auch. Sie bekommen selbstverständlich kein Penicillin. Hier sind Ihre anderen Medikamente.",
+                    "translation": {
+                        "en": "Okay, it's written here too. Of course, you will not receive any penicillin. Here are your other medications.",
+                        "bn": "ঠিক আছে, এখানেও লেখা আছে। অবশ্যই, আপনি কোনো পেনিসিলিন পাবেন না। এই নিন আপনার অন্যান্য ওষুধ।",
+                        "hi": "ठीक है, यह यहां भी लिखा है। बेशक, आपको कोई पेनिसिलिन नहीं मिलेगी। यह रही आपकी अन्य दवाएं।",
+                        "ur": "ٹھیک ہے، یہ یہاں بھی لکھا ہے۔ یقیناً، آپ کو کوئی Penicillin نہیں ملے گی۔ یہ رہی آپ کی دیگر ادویات۔",
+                        "tr": "Tamam, burada da yazıyor. Elbette, penisilin almayacaksınız. İşte diğer ilaçlarınız."
+                    }
+                }
+            ],
+            "id": "d38_04"
+        },
+        {
+            "title": {
+                "en": "Pharmacokinetics Consideration",
+                "bn": "ফার্মাকোকিনেটিক বিবেচ্য",
+                "hi": "फार्माकोकाइनेटिक्स विचार",
+                "ur": "فارماکوکینیٹکس غور",
+                "tr": "Farmakokinetik Değerlendirme"
+            },
+            "context": {
+                "en": "Dr. Weber discusses the change in medication with a patient who has impaired renal function.",
+                "bn": "ডাক্তার ওয়েবার একজন রোগীর সাথে ওষুধের পরিবর্তন নিয়ে আলোচনা করছেন যার কিডনির কার্যকারিতা দুর্বল।",
+                "hi": "डॉ. वेबर एक मरीज के साथ दवा में बदलाव पर चर्चा कर रहे हैं जिसकी गुर्दे की कार्यक्षमता खराब है।",
+                "ur": "ڈاکٹر ویبر ایک ایسے مریض کے ساتھ دوا میں تبدیلی پر تبادلہ خیال کر رہے ہیں جس کی گردے کی فعالیت کمزور ہے۔",
+                "tr": "Dr. Weber, böbrek fonksiyonları bozulmuş bir hasta ile ilaç değişikliğini tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Tag, Herr Klein. Aufgrund Ihrer eingeschränkten Nierenfunktion müssen wir Ihre Medikamente anpassen. ",
+                    "translation": {
+                        "en": "Good day, Mr. Klein. Due to your impaired renal function, we need to adjust your medication.",
+                        "bn": "শুভ দিন, মিস্টার ক্লেইন। আপনার দুর্বল কিডনির কার্যকারিতার কারণে, আমাদের আপনার ওষুধ সমন্বয় করতে হবে।",
+                        "hi": "शुभ दिन, श्री क्लेन। आपकी खराब गुर्दे की कार्यक्षमता के कारण, हमें आपकी दवा को समायोजित करने की आवश्यकता है।",
+                        "ur": "شب بخیر، مسٹر کلین۔ آپ کی گردے کی کمزور فعالیت کی وجہ سے، ہمیں آپ کی دوا کو ایڈجسٹ کرنے کی ضرورت ہے۔",
+                        "tr": "İyi günler, Bay Klein. Bozulmuş böbrek fonksiyonlarınız nedeniyle ilaçlarınızı ayarlamamız gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Was bedeutet das genau? Welche Medikamente sind betroffen?",
+                    "translation": {
+                        "en": "What does that mean exactly? Which medications are affected?",
+                        "bn": "এর মানে কী ঠিক? কোন ওষুধগুলি প্রভাবিত?",
+                        "hi": "उसका वास्तव में क्या मतलब है? कौन सी दवाएं प्रभावित हैं?",
+                        "ur": "اس کا بالکل کیا مطلب ہے؟ کون سی دوائیں متاثر ہیں؟",
+                        "tr": "Bu tam olarak ne anlama geliyor? Hangi ilaçlar etkileniyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir reduzieren die Dosis von Metformin und das Schmerzmittel Ibuprofen setzen wir ab. Diese Wirkstoffe werden über die Niere ausgeschieden.",
+                    "translation": {
+                        "en": "We are reducing the dose of Metformin and discontinuing the painkiller Ibuprofen. These active ingredients are excreted via the kidneys.",
+                        "bn": "আমরা মেটফর্মিনের ডোজ কমিয়ে দিচ্ছি এবং ব্যথানাশক আইবুপ্রোফেন বন্ধ করছি। এই সক্রিয় উপাদানগুলি কিডনির মাধ্যমে নির্গত হয়।",
+                        "hi": "हम मेटफॉर्मिन की खुराक कम कर रहे हैं और दर्द निवारक इबुप्रोफेन बंद कर रहे हैं। ये सक्रिय तत्व किडनी के माध्यम से उत्सर्जित होते हैं।",
+                        "ur": "ہم میٹفارمین کی خوراک کو کم کر رہے ہیں اور درد کم کرنے والی دوا Ibuprofen بند کر رہے ہیں۔ یہ فعال اجزاء گردوں کے ذریعے خارج ہوتے ہیں۔",
+                        "tr": "Metformin dozunu azaltıyoruz ve ağrı kesici Ibuprofen'i kesiyoruz. Bu aktif maddeler böbrekler yoluyla atılır."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Was bekomme ich dann gegen die Schmerzen?",
+                    "translation": {
+                        "en": "What will I get for the pain then?",
+                        "bn": "তাহলে আমি ব্যথার জন্য কী পাব?",
+                        "hi": "तो मुझे दर्द के लिए क्या मिलेगा?",
+                        "ur": "تو مجھے درد کے لیے کیا ملے گا؟",
+                        "tr": "O zaman ağrı için ne alacağım?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir geben Ihnen Paracetamol. Es ist weniger belastend für die Nieren.",
+                    "translation": {
+                        "en": "We will give you Paracetamol. It is less stressful for the kidneys.",
+                        "bn": "আমরা আপনাকে প্যারাসিটামল দেব। এটি কিডনির জন্য কম চাপযুক্ত।",
+                        "hi": "हम आपको पैरासिटामोल देंगे। यह किडनी के लिए कम तनावपूर्ण है।",
+                        "ur": "ہم آپ کو پیراسیٹامول دیں گے۔ یہ گردوں کے لیے کم دباؤ والا ہے۔",
+                        "tr": "Size Paracetamol vereceğiz. Böbrekler için daha az streslidir."
+                    }
+                }
+            ],
+            "id": "d38_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was versteht man unter dem Begriff 'Wirkstoff' in der Pharmakotherapie?",
+                "en": "What is understood by the term 'Wirkstoff' in pharmacotherapy?",
+                "bn": "ফার্মাকোথেরাপিতে 'Wirkstoff' শব্দটি দিয়ে কী বোঝানো হয়?",
+                "hi": "फार्माकोथेरेपी में 'Wirkstoff' शब्द से क्या समझा जाता है?",
+                "ur": "فارماکوتھراپی میں 'Wirkstoff' کی اصطلاح سے کیا مراد ہے؟",
+                "tr": "Farmakoterapide 'Wirkstoff' terimi ile ne anlaşılır?"
+            },
+            "options": [
+                "Die Verpackung des Medikaments",
+                "Die chemische Substanz mit der therapeutischen Wirkung",
+                "Der Name des Herstellers",
+                "Die empfohlene Dosierung"
+            ],
+            "correctAnswer": "Die chemische Substanz mit der therapeutischen Wirkung",
+            "explanation": {
+                "en": "'Wirkstoff' refers to the active ingredient, the chemical substance responsible for the therapeutic effect of the drug.",
+                "bn": "'Wirkstoff' মানে হল সক্রিয় উপাদান, যা ওষুধের থেরাপিউটিক প্রভাবের জন্য দায়ী রাসায়নিক পদার্থ।",
+                "hi": "'Wirkstoff' का अर्थ है सक्रिय घटक, जो दवा के चिकित्सीय प्रभाव के लिए जिम्मेदार रासायनिक पदार्थ है।",
+                "ur": "'Wirkstoff' سے مراد فعال جزو ہے، جو دوا کے علاج معالجے کے اثر کے لیے ذمہ دار کیمیائی مادہ ہے۔",
+                "tr": "'Wirkstoff', ilacın terapötik etkisinden sorumlu kimyasal madde olan aktif bileşeni ifade eder."
+            },
+            "points": 10,
+            "id": "e38_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Indikation' im Zusammenhang mit Arzneimitteln?",
+                "en": "What does 'Indikation' mean in the context of medications?",
+                "bn": "ওষুধের ক্ষেত্রে 'Indikation' মানে কী?",
+                "hi": "दवाओं के संदर्भ में 'Indikation' का क्या अर्थ है?",
+                "ur": "ادویات کے تناظر میں 'Indikation' کا کیا مطلب ہے؟",
+                "tr": "İlaçlar bağlamında 'Indikation' ne anlama gelir?"
+            },
+            "options": [
+                "Die Nebenwirkungen eines Medikaments",
+                "Der Grund für die Anwendung eines Medikaments",
+                "Die Art der Verabreichung",
+                "Die Haltbarkeit des Medikaments"
+            ],
+            "correctAnswer": "Der Grund für die Anwendung eines Medikaments",
+            "explanation": {
+                "en": "'Indikation' refers to the specific condition or disease for which a medication is recommended or approved for use.",
+                "bn": "'Indikation' মানে হল সেই বিশেষ অবস্থা বা রোগ যার জন্য একটি ওষুধ ব্যবহারের জন্য প্রস্তাবিত বা অনুমোদিত।",
+                "hi": "'Indikation' का अर्थ है वह विशिष्ट स्थिति या बीमारी जिसके लिए दवा का उपयोग करने की सिफारिश या अनुमोदन किया जाता है।",
+                "ur": "'Indikation' سے مراد وہ مخصوص حالت یا بیماری ہے جس کے لیے دوا کے استعمال کی سفارش یا منظوری دی جاتی ہے۔",
+                "tr": "'Indikation', bir ilacın kullanımı için önerilen veya onaylanan belirli durum veya hastalığı ifade eder."
+            },
+            "points": 10,
+            "id": "e38_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist eine 'Kontraindikation'?",
+                "en": "What is a 'Kontraindikation'?",
+                "bn": "'Kontraindikation' কী?",
+                "hi": "'Kontraindikation' क्या है?",
+                "ur": "'Kontraindikation' کیا ہے؟",
+                "tr": "'Kontraindikation' nedir?"
+            },
+            "options": [
+                "Eine positive Wirkung des Medikaments",
+                "Ein Grund, warum ein Medikament nicht verwendet werden sollte",
+                "Die empfohlene Tagesdosis",
+                "Eine alternative Behandlungsmethode"
+            ],
+            "correctAnswer": "Ein Grund, warum ein Medikament nicht verwendet werden sollte",
+            "explanation": {
+                "en": "A 'Kontraindikation' is a specific situation in which a drug should not be used because it could be harmful to the patient.",
+                "bn": "একটি 'Kontraindikation' হল একটি নির্দিষ্ট পরিস্থিতি যেখানে একটি ওষুধ ব্যবহার করা উচিত নয় কারণ এটি রোগীর জন্য ক্ষতিকারক হতে পারে।",
+                "hi": "एक 'Kontraindikation' एक विशिष्ट स्थिति है जिसमें दवा का उपयोग नहीं किया जाना चाहिए क्योंकि यह रोगी के लिए हानिकारक हो सकता है।",
+                "ur": "'Kontraindikation' ایک مخصوص صورتحال ہے جس میں دوا استعمال نہیں کی جانی چاہیے کیونکہ یہ مریض کے لیے نقصان دہ ہو سکتی ہے۔",
+                "tr": "'Kontraindikation', bir ilacın hasta için zararlı olabileceği için kullanılmaması gereken belirli bir durumdur."
+            },
+            "points": 10,
+            "id": "e38_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Warum ist eine 'Dosisanpassung' manchmal notwendig?",
+                "en": "Why is a 'Dosisanpassung' sometimes necessary?",
+                "bn": "কেন মাঝে মাঝে 'Dosisanpassung' প্রয়োজন?",
+                "hi": "कभी-कभी 'Dosisanpassung' क्यों आवश्यक है?",
+                "ur": "کبھی کبھی 'Dosisanpassung' کیوں ضروری ہے؟",
+                "tr": "Neden bazen 'Dosisanpassung' gereklidir?"
+            },
+            "options": [
+                "Um den Geschmack des Medikaments zu verbessern",
+                "Um Nebenwirkungen zu minimieren oder die Wirksamkeit zu erhöhen",
+                "Um die Haltbarkeit des Medikaments zu verlängern",
+                "Um das Medikament billiger zu machen"
+            ],
+            "correctAnswer": "Um Nebenwirkungen zu minimieren oder die Wirksamkeit zu erhöhen",
+            "explanation": {
+                "en": "A 'Dosisanpassung' is necessary to minimize side effects or increase the effectiveness of the medication based on individual patient factors.",
+                "bn": "ব্যক্তিগত রোগীর কারণের উপর ভিত্তি করে পার্শ্ব প্রতিক্রিয়া কমাতে বা ওষুধের কার্যকারিতা বাড়াতে একটি 'Dosisanpassung' প্রয়োজন।",
+                "hi": "व्यक्तिगत रोगी कारकों के आधार पर दुष्प्रभावों को कम करने या दवा की प्रभावशीलता को बढ़ाने के लिए एक 'Dosisanpassung' आवश्यक है।",
+                "ur": "انفرادی مریض عوامل کی بنیاد پر ضمنی اثرات کو کم کرنے یا دوا کی تاثیر کو بڑھانے کے لیے ایک 'Dosisanpassung' ضروری ہے۔",
+                "tr": "Bireysel hasta faktörlerine bağlı olarak yan etkileri en aza indirmek veya ilacın etkinliğini artırmak için bir 'Dosisanpassung' gereklidir."
+            },
+            "points": 10,
+            "id": "e38_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage trifft auf Generika zu?",
+                "en": "Which statement is true about generic drugs?",
+                "bn": "জেনেরিক ওষুধ সম্পর্কে কোন বক্তব্যটি সত্য?",
+                "hi": "जेनेरिक दवाओं के बारे में कौन सा कथन सत्य है?",
+                "ur": "جنرک ادویات کے بارے میں کون سا بیان درست ہے؟",
+                "tr": "Jenerik ilaçlar hakkında hangi ifade doğrudur?"
+            },
+            "options": [
+                "Sie sind immer teurer als Originalpräparate.",
+                "Sie haben den gleichen Wirkstoff wie das Originalpräparat.",
+                "Sie sind immer wirksamer als Originalpräparate.",
+                "Sie haben immer andere Nebenwirkungen als Originalpräparate."
+            ],
+            "correctAnswer": "Sie haben den gleichen Wirkstoff wie das Originalpräparat.",
+            "explanation": {
+                "en": "Generic drugs contain the same active ingredient as the original brand-name drug but are usually cheaper.",
+                "bn": "জেনেরিক ওষুধে আসল ব্র্যান্ড-নামের ওষুধের মতো একই সক্রিয় উপাদান থাকে তবে সাধারণত সস্তা হয়।",
+                "hi": "जेनेरिक दवाओं में मूल ब्रांड-नाम दवा के समान सक्रिय घटक होता है लेकिन आमतौर पर सस्ता होता है।",
+                "ur": "جنرک ادویات میں اصل برانڈ نام والی دوا کے برابر فعال جزو ہوتا ہے لیکن عام طور پر سستی ہوتی ہے۔",
+                "tr": "Jenerik ilaçlar, orijinal marka adındaki ilaçla aynı aktif bileşeni içerir, ancak genellikle daha ucuzdur."
+            },
+            "points": 10,
+            "id": "e38_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was sollte ein Arzt bei der Verschreibung eines Medikaments immer berücksichtigen?",
+                "en": "What should a doctor always consider when prescribing a medication?",
+                "bn": "ওষুধ প্রেসক্রাইব করার সময় একজন ডাক্তারের সর্বদা কী বিবেচনা করা উচিত?",
+                "hi": "दवा लिखते समय डॉक्टर को हमेशा क्या विचार करना चाहिए?",
+                "ur": "دوا تجویز کرتے وقت ڈاکٹر کو ہمیشہ کس چیز پر غور کرنا چاہیے؟",
+                "tr": "Bir doktor ilaç yazarken her zaman neyi dikkate almalıdır?"
+            },
+            "options": [
+                "Die Farbe der Tablette.",
+                "Die Vorlieben des Patienten für bestimmte Marken.",
+                "Mögliche Wechselwirkungen mit anderen Medikamenten.",
+                "Den Preis des Medikaments (ohne Berücksichtigung der Wirksamkeit)."
+            ],
+            "correctAnswer": "Mögliche Wechselwirkungen mit anderen Medikamenten.",
+            "explanation": {
+                "en": "Doctors should always consider potential drug interactions when prescribing medication to avoid adverse effects.",
+                "bn": "ক্ষতিকারক প্রভাব এড়াতে ওষুধ প্রেসক্রাইব করার সময় ডাক্তারদের সর্বদা সম্ভাব্য ওষুধের মিথস্ক্রিয়া বিবেচনা করা উচিত।",
+                "hi": "प्रतिकूल प्रभावों से बचने के लिए दवा लिखते समय डॉक्टरों को हमेशा संभावित दवा बातचीत पर विचार करना चाहिए।",
+                "ur": "نقصان دہ اثرات سے بچنے کے لیے دوا تجویز کرتے وقت ڈاکٹروں کو ہمیشہ ممکنہ ادویاتی تعامل پر غور کرنا چاہیے۔",
+                "tr": "Doktorlar, olumsuz etkilerden kaçınmak için ilaç yazarken her zaman potansiyel ilaç etkileşimlerini dikkate almalıdır."
+            },
+            "points": 10,
+            "id": "e38_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'off-label use' eines Medikaments?",
+                "en": "What does 'off-label use' of a drug mean?",
+                "bn": "একটি ওষুধের 'off-label use' মানে কী?",
+                "hi": "दवा के 'off-label use' का क्या मतलब है?",
+                "ur": "دوا کے 'off-label use' کا کیا مطلب ہے؟",
+                "tr": "Bir ilacın 'off-label use' ne anlama gelir?"
+            },
+            "options": [
+                "Die Anwendung für eine nicht zugelassene Indikation.",
+                "Die Anwendung eines gefälschten Medikaments.",
+                "Die Anwendung in einer Überdosierung.",
+                "Die Anwendung durch einen nicht qualifizierten Arzt."
+            ],
+            "correctAnswer": "Die Anwendung für eine nicht zugelassene Indikation.",
+            "explanation": {
+                "en": "'Off-label use' means using a drug for a condition it's not officially approved to treat.",
+                "bn": "'Off-label use' মানে এমন একটি অবস্থার জন্য ওষুধ ব্যবহার করা যা চিকিৎসার জন্য আনুষ্ঠানিকভাবে অনুমোদিত নয়।",
+                "hi": "'Off-label use' का मतलब है किसी ऐसी स्थिति के लिए दवा का उपयोग करना जिसके इलाज के लिए इसे आधिकारिक तौर पर अनुमोदित नहीं किया गया है।",
+                "ur": "'Off-label use' کا مطلب ہے کسی ایسی حالت کے لیے دوا کا استعمال کرنا جس کے علاج کے لیے اسے باضابطہ طور پر منظور نہیں کیا گیا ہے۔",
+                "tr": "'Off-label use', bir ilacın resmi olarak tedavi etmek için onaylanmadığı bir durum için kullanılması anlamına gelir."
+            },
+            "points": 10,
+            "id": "e38_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Rolle spielt die Leber bei der Pharmakokinetik?",
+                "en": "What role does the liver play in pharmacokinetics?",
+                "bn": "ফার্মাকোকিনেটিক্সে লিভারের ভূমিকা কী?",
+                "hi": "फार्माकोकाइनेटिक्स में लीवर की क्या भूमिका है?",
+                "ur": "فارماکوکینیٹکس میں جگر کا کیا کردار ہے؟",
+                "tr": "Farmakokinetikte karaciğerin rolü nedir?"
+            },
+            "options": [
+                "Ausscheidung des Medikaments",
+                "Metabolisierung des Medikaments",
+                "Absorption des Medikaments",
+                "Verteilung des Medikaments"
+            ],
+            "correctAnswer": "Metabolisierung des Medikaments",
+            "explanation": {
+                "en": "The liver primarily metabolizes drugs, breaking them down into forms that can be excreted.",
+                "bn": "লিভার প্রাথমিকভাবে ওষুধগুলিকে বিপাক করে, সেগুলিকে এমন আকারে ভেঙে দেয় যা নির্গত করা যায়।",
+                "hi": "लीवर मुख्य रूप से दवाओं को मेटाबोलाइज़ करता है, उन्हें ऐसे रूपों में तोड़ता है जिन्हें उत्सर्जित किया जा सकता है।",
+                "ur": "جگر بنیادی طور پر ادویات کو میٹابولائز کرتا ہے، انہیں ایسی شکلوں میں توڑ دیتا ہے جنہیں خارج کیا جا سکتا ہے۔",
+                "tr": "Karaciğer öncelikle ilaçları metabolize eder, onları atılabilen formlara ayırır."
+            },
+            "points": 10,
+            "id": "e38_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Ziel der 'Pharmakovigilanz'?",
+                "en": "What is the goal of 'Pharmakovigilanz'?",
+                "bn": "'Pharmakovigilanz' এর লক্ষ্য কী?",
+                "hi": "'Pharmakovigilanz' का लक्ष्य क्या है?",
+                "ur": "'Pharmakovigilanz' کا مقصد کیا ہے؟",
+                "tr": "'Pharmakovigilanz'ın amacı nedir?"
+            },
+            "options": [
+                "Die Entwicklung neuer Medikamente.",
+                "Die Überwachung der Sicherheit von Medikamenten nach der Zulassung.",
+                "Die Senkung der Medikamentenpreise.",
+                "Die Förderung des Verkaufs von Medikamenten."
+            ],
+            "correctAnswer": "Die Überwachung der Sicherheit von Medikamenten nach der Zulassung.",
+            "explanation": {
+                "en": "'Pharmakovigilanz' aims to monitor the safety of drugs after they are approved and on the market.",
+                "bn": "'Pharmakovigilanz' এর লক্ষ্য হল ওষুধগুলি অনুমোদিত হওয়ার পরে এবং বাজারে আসার পরে তাদের নিরাপত্তা পর্যবেক্ষণ করা।",
+                "hi": "'Pharmakovigilanz' का लक्ष्य दवाओं के स्वीकृत होने और बाजार में आने के बाद उनकी सुरक्षा की निगरानी करना है।",
+                "ur": "'Pharmakovigilanz' کا مقصد ادویات کی منظوری کے بعد اور مارکیٹ میں آنے کے بعد ان کی حفاظت کی نگرانی کرنا ہے۔",
+                "tr": "'Pharmakovigilanz', ilaçların onaylandıktan ve piyasaya sürüldükten sonra güvenliğini izlemeyi amaçlar."
+            },
+            "points": 10,
+            "id": "e38_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage über die Bioverfügbarkeit ist richtig?",
+                "en": "Which statement about bioavailability is correct?",
+                "bn": "বায়োঅ্যাভেইলিবিলিটি সম্পর্কে কোন বক্তব্যটি সঠিক?",
+                "hi": "जैवउपलब्धता के बारे में कौन सा कथन सही है?",
+                "ur": "بائیو دستیاب کے بارے میں کون سا بیان درست ہے؟",
+                "tr": "Biyoyararlanım hakkında hangi ifade doğrudur?"
+            },
+            "options": [
+                "Sie beschreibt die Geschwindigkeit, mit der ein Medikament abgebaut wird.",
+                "Sie beschreibt den Anteil eines Medikaments, der unverändert im systemischen Kreislauf ankommt.",
+                "Sie beschreibt die Stärke des Medikaments.",
+                "Sie beschreibt die Farbe des Medikaments."
+            ],
+            "correctAnswer": "Sie beschreibt den Anteil eines Medikaments, der unverändert im systemischen Kreislauf ankommt.",
+            "explanation": {
+                "en": "Bioavailability refers to the fraction of an administered drug that reaches the systemic circulation unchanged.",
+                "bn": "বায়োঅ্যাভেইলিবিলিটি বলতে বোঝায় একটি পরিচালিত ওষুধের ভগ্নাংশ যা অপরিবর্তিত অবস্থায় পদ্ধতিগত সঞ্চালনে পৌঁছায়।",
+                "hi": "जैवउपलब्धता से तात्पर्य किसी प्रशासित दवा के उस अंश से है जो अपरिवर्तित रूप से प्रणालीगत परिसंचरण तक पहुँचता है।",
+                "ur": "بائیو دستیاب سے مراد زیر انتظام دوا کا وہ حصہ ہے جو بغیر تبدیل ہوئے نظامی گردش تک پہنچتا ہے۔",
+                "tr": "Biyoyararlanım, uygulanan bir ilacın değişmeden sistemik dolaşıma ulaşan fraksiyonunu ifade eder."
+            },
+            "points": 10,
+            "id": "e38_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein Medikament zur Behandlung von Bluthochdruck wird als ________ bezeichnet.",
+                "en": "A drug used to treat high blood pressure is called a ________.",
+                "bn": "উচ্চ রক্তচাপের চিকিৎসার জন্য ব্যবহৃত একটি ওষুধকে ________ বলা হয়।",
+                "hi": "उच्च रक्तचाप के इलाज के लिए इस्तेमाल की जाने वाली दवा को ________ कहा जाता है।",
+                "ur": "بلند فشار خون کے علاج کے لیے استعمال ہونے والی دوا کو ________ کہا جاتا ہے۔",
+                "tr": "Yüksek tansiyonu tedavi etmek için kullanılan bir ilaca ________ denir."
+            },
+            "options": [],
+            "correctAnswer": "Antihypertensivum",
+            "explanation": {
+                "en": "An antihypertensive drug is used to lower high blood pressure.",
+                "bn": "একটি অ্যান্টিহাইপারটেনসিভ ওষুধ উচ্চ রক্তচাপ কমাতে ব্যবহৃত হয়।",
+                "hi": "उच्च रक्तचाप को कम करने के लिए एक एंटीहाइपरटेंसिव दवा का उपयोग किया जाता है।",
+                "ur": "بلند فشار خون کو کم کرنے کے لیے ایک اینٹی ہائیپرٹینسو دوا استعمال کی جاتی ہے۔",
+                "tr": "Bir antihipertansif ilaç, yüksek tansiyonu düşürmek için kullanılır."
+            },
+            "points": 10,
+            "id": "e38_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Wenn ein Medikament die Wirkung eines anderen Medikaments verstärkt, spricht man von einer ________.",
+                "en": "When a drug enhances the effect of another drug, it is called a ________.",
+                "bn": "যখন একটি ওষুধ অন্য ওষুধের প্রভাবকে বাড়িয়ে তোলে, তখন একে ________ বলা হয়।",
+                "hi": "जब कोई दवा किसी अन्य दवा के प्रभाव को बढ़ाती है, तो उसे ________ कहा जाता है।",
+                "ur": "جب کوئی دوا کسی دوسری دوا کے اثر کو بڑھاتی ہے، تو اسے ________ کہا جاتا ہے۔",
+                "tr": "Bir ilaç başka bir ilacın etkisini artırdığında, buna ________ denir."
+            },
+            "options": [],
+            "correctAnswer": "Wechselwirkung",
+            "explanation": {
+                "en": "This is a drug interaction, specifically a synergistic effect.",
+                "bn": "এটি একটি ওষুধের মিথস্ক্রিয়া, বিশেষ করে একটি সমন্বিত প্রভাব।",
+                "hi": "यह एक दवा बातचीत है, विशेष रूप से एक सहक्रियात्मक प्रभाव।",
+                "ur": "یہ ایک دوا تعامل ہے، خاص طور پر ایک ہم آہنگی کا اثر۔",
+                "tr": "Bu bir ilaç etkileşimidir, özellikle sinerjik bir etki."
+            },
+            "points": 10,
+            "id": "e38_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die Menge eines Medikaments, die für eine therapeutische Wirkung erforderlich ist, wird als ________ bezeichnet.",
+                "en": "The amount of a drug needed to produce a therapeutic effect is called the ________.",
+                "bn": "থেরাপিউটিক প্রভাব তৈরি করতে প্রয়োজনীয় ওষুধের পরিমাণকে ________ বলা হয়।",
+                "hi": "एक चिकित्सीय प्रभाव उत्पन्न करने के लिए आवश्यक दवा की मात्रा को ________ कहा जाता है।",
+                "ur": "علاج معالجے کا اثر پیدا کرنے کے لیے درکار دوا کی مقدار کو ________ کہا جاتا ہے۔",
+                "tr": "Terapötik bir etki üretmek için gereken ilaç miktarına ________ denir."
+            },
+            "options": [],
+            "correctAnswer": "Dosierung",
+            "explanation": {
+                "en": "Dosage refers to the amount of medication administered.",
+                "bn": "ডোজ মানে হল ওষুধের পরিমাণ যা প্রয়োগ করা হয়।",
+                "hi": "खुराक का तात्पर्य दवा की मात्रा से है।",
+                "ur": "خوراک سے مراد دوا کی مقدار ہے۔",
+                "tr": "Dozaj, uygulanan ilaç miktarını ifade eder."
+            },
+            "points": 10,
+            "id": "e38_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein Medikament, das Schmerzen lindert, wird als ________ bezeichnet.",
+                "en": "A drug that relieves pain is called a ________.",
+                "bn": "যে ওষুধটি ব্যথা উপশম করে তাকে ________ বলা হয়।",
+                "hi": "दर्द से राहत दिलाने वाली दवा को ________ कहा जाता है।",
+                "ur": "درد کو دور کرنے والی دوا کو ________ کہا جاتا ہے۔",
+                "tr": "Ağrıyı hafifleten bir ilaca ________ denir."
+            },
+            "options": [],
+            "correctAnswer": "Analgetikum",
+            "explanation": {
+                "en": "An analgesic is a pain reliever.",
+                "bn": "একটি ব্যথানাশক হল ব্যথা উপশমকারী।",
+                "hi": "एक एनाल्जेसिक एक दर्द निवारक है।",
+                "ur": "ایک تجزیہ کار درد کو دور کرنے والا ہے۔",
+                "tr": "Bir analjezik, ağrı kesicidir."
+            },
+            "points": 10,
+            "id": "e38_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die Art und Weise, wie der Körper ein Medikament verarbeitet, wird als ________ bezeichnet.",
+                "en": "The way the body processes a drug is called ________.",
+                "bn": "শরীর যেভাবে ওষুধ প্রক্রিয়া করে তাকে ________ বলা হয়।",
+                "hi": "जिस तरह से शरीर किसी दवा को संसाधित करता है उसे ________ कहा जाता है।",
+                "ur": "جس طرح سے جسم کسی دوا پر کارروائی کرتا ہے اسے ________ کہا جاتا ہے۔",
+                "tr": "Vücudun bir ilacı işleme şekline ________ denir."
+            },
+            "options": [],
+            "correctAnswer": "Pharmakokinetik",
+            "explanation": {
+                "en": "Pharmacokinetics describes what the body does to the drug (absorption, distribution, metabolism, excretion).",
+                "bn": "ফার্মাকোকিনেটিক্স বর্ণনা করে শরীর ওষুধের সাথে কী করে (শোষণ, বিতরণ, বিপাক, নিঃসরণ)।",
+                "hi": "फार्माकोकाइनेटिक्स वर्णन करता है कि शरीर दवा के साथ क्या करता है (अवशोषण, वितरण, चयापचय, उत्सर्जन)।",
+                "ur": "فارماکوکینیٹکس بیان کرتا ہے کہ جسم دوا کے ساتھ کیا کرتا ہے (جذب، تقسیم، تحول، اخراج)۔",
+                "tr": "Farmakokinetik, vücudun ilaçla ne yaptığını (emilim, dağılım, metabolizma, atılım) açıklar."
+            },
+            "points": 10,
+            "id": "e38_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Dosisanpassung bei Niereninsuffizienz ist erforderlich.",
+                "en": "Dose adjustment is required in case of renal insufficiency.",
+                "bn": "রেনাল অপর্যাপ্ততার ক্ষেত্রে ডোজ সমন্বয় প্রয়োজন।",
+                "hi": "गुर्दे की कमी के मामले में खुराक समायोजन की आवश्यकता होती है।",
+                "ur": "گردے کی کمی کی صورت میں خوراک کو ایڈجسٹ کرنے کی ضرورت ہوتی ہے۔",
+                "tr": "Böbrek yetmezliği durumunda doz ayarlaması gereklidir."
+            },
+            "options": [],
+            "correctAnswer": "Dose adjustment is required in case of renal insufficiency.",
+            "explanation": {
+                "en": "The German sentence translates directly to 'Dose adjustment in case of renal insufficiency is required.'",
+                "bn": "জার্মান বাক্যটি সরাসরি অনুবাদ করলে দাঁড়ায় 'রেনাল অপর্যাপ্ততার ক্ষেত্রে ডোজ সমন্বয় প্রয়োজন।'",
+                "hi": "जर्मन वाक्य का सीधा अनुवाद 'गुर्दे की कमी के मामले में खुराक समायोजन आवश्यक है।'",
+                "ur": "جرمن جملے کا براہ راست ترجمہ 'گردے کی کمی کی صورت میں خوراک کو ایڈجسٹ کرنے کی ضرورت ہے۔' ہے۔",
+                "tr": "Almanca cümle doğrudan 'Böbrek yetmezliği durumunda doz ayarlaması gereklidir.' şeklinde çevrilir."
+            },
+            "points": 10,
+            "id": "e38_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Kontraindikationen sind in der Packungsbeilage aufgeführt.",
+                "en": "The contraindications are listed in the package insert.",
+                "bn": "প্রতিরোধগুলি প্যাকেজ সন্নিবেশে তালিকাভুক্ত করা হয়েছে।",
+                "hi": "पैकेज इंसर्ट में मतभेद सूचीबद्ध हैं।",
+                "ur": "تضادات پیکیج میں داخل میں درج ہیں۔",
+                "tr": "Kontrendikasyonlar prospektüste listelenmiştir."
+            },
+            "options": [],
+            "correctAnswer": "The contraindications are listed in the package insert.",
+            "explanation": {
+                "en": "The German sentence translates directly to 'The contraindications are listed in the package insert.'",
+                "bn": "জার্মান বাক্যটি সরাসরি অনুবাদ করলে দাঁড়ায় 'প্রতিরোধগুলি প্যাকেজ সন্নিবেশে তালিকাভুক্ত করা হয়েছে।'",
+                "hi": "जर्मन वाक्य का सीधा अनुवाद 'पैकेज इंसर्ट में मतभेद सूचीबद्ध हैं।'",
+                "ur": "جرمن جملے کا براہ راست ترجمہ 'تضادات پیکیج میں داخل میں درج ہیں۔' ہے۔",
+                "tr": "Almanca cümle doğrudan 'Kontrendikasyonlar prospektüste listelenmiştir.' şeklinde çevrilir."
+            },
+            "points": 10,
+            "id": "e38_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Dieser Wirkstoff ist für die Behandlung von Diabetes indiziert.",
+                "en": "This active ingredient is indicated for the treatment of diabetes.",
+                "bn": "এই সক্রিয় উপাদানটি ডায়াবেটিসের চিকিৎসার জন্য নির্দেশিত।",
+                "hi": "यह सक्रिय तत्व मधुमेह के उपचार के लिए संकेतित है।",
+                "ur": "یہ فعال جزو ذیابیطس کے علاج کے لیے اشارہ کیا گیا ہے۔",
+                "tr": "Bu aktif madde diyabet tedavisinde endikedir."
+            },
+            "options": [],
+            "correctAnswer": "This active ingredient is indicated for the treatment of diabetes.",
+            "explanation": {
+                "en": "The German sentence translates directly to 'This active ingredient is indicated for the treatment of diabetes.'",
+                "bn": "জার্মান বাক্যটি সরাসরি অনুবাদ করলে দাঁড়ায় 'এই সক্রিয় উপাদানটি ডায়াবেটিসের চিকিৎসার জন্য নির্দেশিত।'",
+                "hi": "जर्मन वाक्य का सीधा अनुवाद 'यह सक्रिय तत्व मधुमेह के उपचार के लिए संकेतित है।'",
+                "ur": "جرمن جملے کا براہ راست ترجمہ 'یہ فعال جزو ذیابیطس کے علاج کے لیے اشارہ کیا گیا ہے' ہے۔",
+                "tr": "Almanca cümle doğrudan 'Bu aktif madde diyabet tedavisinde endikedir.' şeklinde çevrilir."
+            },
+            "points": 10,
+            "id": "e38_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

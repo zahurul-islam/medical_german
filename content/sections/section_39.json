@@ -1,1 +1,1566 @@
-{"id":"section_39","phaseId":"phase3","order":39,"titleDe":"Laborbefunde","title":{"en":"Laboratory Reports","bn":"Laboratory Reports","hi":"Laboratory Reports","ur":"Laboratory Reports","tr":"Laboratory Reports"},"level":"C1","estimatedMinutes":40,"vocabulary":[{"id":"v39_01","germanTerm":"Fachbegriff","article":"der","plural":"Fachbegriffe","translation":{"en":"Technical Term","bn":"টেকনিক্যাল টার্ম","hi":"तकनीकी शब्द","ur":"تکنیکی اصطلاح","tr":"Teknik terim"}}],"dialogues":[{"id":"d39_01","title":{"en":"Professional Scenario"},"lines":[{"speaker":"Oberarzt","germanText":"Professional dialogue for Laboratory Reports.","translation":{"en":"Professional dialogue for Laboratory Reports."}}]}],"exercises":[{"id":"e39_01","type":"multipleChoice","question":{"en":"Advanced question for Laboratory Reports?"},"options":["Option A","Option B","Option C"],"correctAnswer":"Option A","points":15}]}
+{
+    "id": "section_39",
+    "phaseId": "phase3",
+    "order": 39,
+    "titleDe": "Laborbefunde",
+    "title": {
+        "en": "Laboratory Reports: Key Terms and Interpretation",
+        "bn": "ল্যাবরেটরি রিপোর্ট: মূল শব্দ এবং ব্যাখ্যা",
+        "hi": "प्रयोगशाला रिपोर्ट: मुख्य शब्द और व्याख्या",
+        "ur": "لیبارٹری رپورٹس: اہم اصطلاحات اور تشریح",
+        "tr": "Laboratuvar Raporları: Temel Terimler ve Yorumlama",
+        "de": "Laborberichte: Schlüsselbegriffe und Interpretation"
+    },
+    "description": {
+        "en": "This section introduces essential German medical terminology used in laboratory reports, focusing on interpreting results and understanding pathological values.",
+        "bn": "এই বিভাগে ল্যাবরেটরি রিপোর্টে ব্যবহৃত প্রয়োজনীয় জার্মান মেডিকেল শব্দাবলী উপস্থাপন করা হয়েছে, যা ফলাফল ব্যাখ্যা এবং প্যাথলজিক্যাল মান বোঝার উপর দৃষ্টি নিবদ্ধ করে।",
+        "hi": "यह अनुभाग प्रयोगशाला रिपोर्टों में उपयोग किए जाने वाले आवश्यक जर्मन चिकित्सा शब्दावली का परिचय देता है, जो परिणामों की व्याख्या और पैथोलॉजिकल मूल्यों को समझने पर केंद्रित है।",
+        "ur": "یہ سیکشن لیبارٹری رپورٹس میں استعمال ہونے والی ضروری جرمن طبی اصطلاحات متعارف کراتا ہے، جو نتائج کی تشریح اور پیتھولوجیکل اقدار کو سمجھنے پر توجہ مرکوز کرتا ہے۔",
+        "tr": "Bu bölüm, laboratuvar raporlarında kullanılan temel Almanca tıbbi terminolojiyi tanıtmakta, sonuçları yorumlamaya ve patolojik değerleri anlamaya odaklanmaktadır.",
+        "de": "Dieser Abschnitt führt in die wesentliche deutsche medizinische Terminologie ein, die in Laborberichten verwendet wird, wobei der Schwerpunkt auf der Interpretation von Ergebnissen und dem Verständnis pathologischer Werte liegt."
+    },
+    "level": "C1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, you will learn the German terms 'Laborwert,' 'Referenzbereich,' 'erhöht,' 'erniedrigt,' 'pathologisch,' and 'Verlaufskontrolle'. Understanding these terms is crucial for interpreting laboratory reports and communicating effectively with German-speaking medical professionals.",
+            "bn": "এই বিভাগে, আপনি 'Laborwert,' 'Referenzbereich,' 'erhöht,' 'erniedrigt,' 'pathologisch,' এবং 'Verlaufskontrolle' জার্মান শব্দগুলি শিখবেন। এই শব্দগুলি বোঝা ল্যাবরেটরি রিপোর্ট ব্যাখ্যা এবং জার্মান-ভাষী চিকিৎসা পেশাদারদের সাথে কার্যকরভাবে যোগাযোগের জন্য অত্যন্ত গুরুত্বপূর্ণ।",
+            "hi": "इस खंड में, आप 'Laborwert,' 'Referenzbereich,' 'erhöht,' 'erniedrigt,' 'pathologisch,' और 'Verlaufskontrolle' जर्मन शब्दों को सीखेंगे। इन शब्दों को समझना प्रयोगशाला रिपोर्टों की व्याख्या करने और जर्मन भाषी चिकित्सा पेशेवरों के साथ प्रभावी ढंग से संवाद करने के लिए महत्वपूर्ण है।",
+            "ur": "اس سیکشن میں، آپ 'Laborwert,' 'Referenzbereich,' 'erhöht,' 'erniedrigt,' 'pathologisch,' اور 'Verlaufskontrolle' جرمن الفاظ سیکھیں گے۔ ان اصطلاحات کو سمجھنا لیبارٹری رپورٹس کی تشریح اور جرمن بولنے والے طبی پیشہ ور افراد کے ساتھ مؤثر طریقے سے بات چیت کرنے کے لیے بہت ضروری ہے۔",
+            "tr": "Bu bölümde, 'Laborwert,' 'Referenzbereich,' 'erhöht,' 'erniedrigt,' 'pathologisch,' ve 'Verlaufskontrolle' Almanca terimlerini öğreneceksiniz. Bu terimleri anlamak, laboratuvar raporlarını yorumlamak ve Almanca konuşan tıp uzmanlarıyla etkili iletişim kurmak için çok önemlidir.",
+            "de": "In diesem Abschnitt lernen Sie die deutschen Begriffe 'Laborwert', 'Referenzbereich', 'erhöht', 'erniedrigt', 'pathologisch' und 'Verlaufskontrolle' kennen. Das Verständnis dieser Begriffe ist entscheidend für die Interpretation von Laborberichten und die effektive Kommunikation mit deutschsprachigen medizinischen Fachkräften."
+        },
+        "grammarFocus": {
+            "en": [
+                "Declension of adjectives such as 'erhöht' and 'erniedrigt' when describing 'Laborwerte'.",
+                "Understanding the use of prepositions like 'im' or 'innerhalb des' when discussing 'Referenzbereich'."
+            ],
+            "bn": [
+                "'Laborwerte' বর্ণনা করার সময় 'erhöht' এবং 'erniedrigt' এর মতো বিশেষণগুলির বিভক্তি।",
+                "'Referenzbereich' নিয়ে আলোচনার সময় 'im' বা 'innerhalb des' এর মতো উপসর্গগুলির ব্যবহার বোঝা।"
+            ],
+            "hi": [
+                "'Laborwerte' का वर्णन करते समय 'erhöht' और 'erniedrigt' जैसे विशेषणों का अपगमन।",
+                "'Referenzbereich' पर चर्चा करते समय 'im' या 'innerhalb des' जैसे उपसर्गों के उपयोग को समझना।"
+            ],
+            "ur": [
+                "'Laborwerte' کی وضاحت کرتے وقت 'erhöht' اور 'erniedrigt' جیسے اسم صفت کی گردان۔",
+                "'Referenzbereich' پر بحث کرتے وقت 'im' یا 'innerhalb des' جیسے سابقوں کے استعمال کو سمجھنا۔"
+            ],
+            "tr": [
+                "'Laborwerte' tanımlarken 'erhöht' ve 'erniedrigt' gibi sıfatların çekimi.",
+                "'Referenzbereich' tartışılırken 'im' veya 'innerhalb des' gibi edatların kullanımını anlamak."
+            ],
+            "de": [
+                "Deklination von Adjektiven wie 'erhöht' und 'erniedrigt' bei der Beschreibung von 'Laborwerten'.",
+                "Verständnis der Verwendung von Präpositionen wie 'im' oder 'innerhalb des' bei der Diskussion des 'Referenzbereichs'."
+            ]
+        },
+        "culturalNotes": {
+            "en": "In Germany, it's common for doctors to meticulously explain laboratory results to patients, often using printed reports and visual aids.",
+            "bn": "জার্মানিতে, ডাক্তারদের জন্য রোগীদের কাছে ল্যাবরেটরি ফলাফলগুলি সতর্কতার সাথে ব্যাখ্যা করা, প্রায়শই মুদ্রিত প্রতিবেদন এবং ভিজ্যুয়াল এইড ব্যবহার করা সাধারণ।",
+            "hi": "जर्मनी में, डॉक्टरों के लिए रोगियों को प्रयोगशाला परिणामों को सावधानीपूर्वक समझाना आम बात है, अक्सर मुद्रित रिपोर्ट और दृश्य सहायक सामग्री का उपयोग करना।",
+            "ur": "جرمنی میں، ڈاکٹروں کے لیے مریضوں کو لیبارٹری کے نتائج کو احتیاط سے سمجھانا عام بات ہے، اکثر چھپی ہوئی رپورٹس اور بصری امداد کا استعمال کرنا۔",
+            "tr": "Almanya'da doktorların, çoğu zaman basılı raporlar ve görsel yardımlar kullanarak, laboratuvar sonuçlarını hastalara titizlikle açıklaması yaygındır.",
+            "de": "In Deutschland ist es üblich, dass Ärzte den Patienten die Laborergebnisse sorgfältig erläutern, oft unter Verwendung von gedruckten Berichten und visuellen Hilfsmitteln."
+        },
+        "summary": {
+            "en": "This section provides a foundation for understanding and interpreting common German medical terms found in laboratory reports, enabling effective communication within a medical setting.",
+            "bn": "এই বিভাগটি ল্যাবরেটরি রিপোর্টে পাওয়া সাধারণ জার্মান মেডিকেল শব্দগুলি বোঝা এবং ব্যাখ্যা করার জন্য একটি ভিত্তি সরবরাহ করে, যা চিকিৎসা সেটিংয়ের মধ্যে কার্যকর যোগাযোগ সক্ষম করে।",
+            "hi": "यह खंड प्रयोगशाला रिपोर्टों में पाए जाने वाले सामान्य जर्मन चिकित्सा शब्दों को समझने और व्याख्या करने के लिए एक आधार प्रदान करता है, जो चिकित्सा सेटिंग के भीतर प्रभावी संचार को सक्षम बनाता है।",
+            "ur": "یہ سیکشن لیبارٹری رپورٹس میں پائے جانے والے عام جرمن طبی اصطلاحات کو سمجھنے اور ان کی تشریح کرنے کی بنیاد فراہم کرتا ہے، جو طبی ترتیب میں مؤثر مواصلات کو قابل بناتا ہے۔",
+            "tr": "Bu bölüm, laboratuvar raporlarında bulunan yaygın Almanca tıbbi terimleri anlamak ve yorumlamak için bir temel sağlar ve tıbbi ortamda etkili iletişimi mümkün kılar.",
+            "de": "Dieser Abschnitt bietet eine Grundlage für das Verständnis und die Interpretation gängiger deutscher medizinischer Begriffe in Laborberichten und ermöglicht so eine effektive Kommunikation im medizinischen Umfeld."
+        },
+        "learningObjectives": [
+            "Define 'Laborwert,' 'Referenzbereich,' 'erhöht,' 'erniedrigt,' 'pathologisch,' and 'Verlaufskontrolle' in the context of laboratory reports.",
+            "Understand the significance of reference ranges in interpreting laboratory results.",
+            "Differentiate between elevated ('erhöht') and decreased ('erniedrigt') lab values.",
+            "Describe the purpose of 'Verlaufskontrolle' (follow-up monitoring) in medical treatment."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "Laborwert",
+            "article": "der",
+            "plural": "Laborwerte",
+            "pronunciation": "/ˈlaːboːɐ̯ˌveːɐ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "Laboratory value",
+                "bn": "ল্যাবরেটরি মান",
+                "hi": "प्रयोगशाला मान",
+                "ur": "لیبارٹری ویلیو",
+                "tr": "Laboratuvar değeri"
+            },
+            "exampleSentence": "Der Laborwert für Hämoglobin ist erniedrigt.",
+            "exampleTranslation": {
+                "en": "The laboratory value for hemoglobin is decreased.",
+                "bn": "হিমোগ্লোবিনের জন্য ল্যাবরেটরি মান হ্রাস পেয়েছে।",
+                "hi": "हीमोग्लोबिन के लिए प्रयोगशाला मान कम हो गया है।",
+                "ur": "ہیموگلوبن کے لئے لیبارٹری کی قیمت کم ہوگئی ہے۔",
+                "tr": "Hemoglobin için laboratuvar değeri düşüktür."
+            },
+            "id": "v39_01"
+        },
+        {
+            "germanTerm": "Referenzbereich",
+            "article": "der",
+            "plural": "Referenzbereiche",
+            "pronunciation": "/ʁefeˈʁɛnt͡sˌbəʁaɪ̯ç/",
+            "category": "noun",
+            "translation": {
+                "en": "Reference range",
+                "bn": "রেফারেন্স রেঞ্জ",
+                "hi": "संदर्भ सीमा",
+                "ur": "حوالہ رینج",
+                "tr": "Referans aralığı"
+            },
+            "exampleSentence": "Der Wert liegt außerhalb des Referenzbereichs.",
+            "exampleTranslation": {
+                "en": "The value is outside the reference range.",
+                "bn": "মানটি রেফারেন্স রেঞ্জের বাইরে।",
+                "hi": "मान संदर्भ सीमा से बाहर है।",
+                "ur": "قدر حوالہ رینج سے باہر ہے۔",
+                "tr": "Değer referans aralığının dışındadır."
+            },
+            "id": "v39_02"
+        },
+        {
+            "germanTerm": "erhöht",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ɛɐ̯ˈhøːt/",
+            "category": "adjective",
+            "translation": {
+                "en": "Elevated",
+                "bn": "উচ্চ",
+                "hi": "उन्नत",
+                "ur": "بڑھا ہوا",
+                "tr": "Yüksek"
+            },
+            "exampleSentence": "Die Leberwerte sind erhöht.",
+            "exampleTranslation": {
+                "en": "The liver values are elevated.",
+                "bn": "লিভারের মানগুলি উন্নত।",
+                "hi": "जिगर के मूल्य उन्नत हैं।",
+                "ur": "جگر کی قدریں بڑھ گئی ہیں۔",
+                "tr": "Karaciğer değerleri yüksektir."
+            },
+            "id": "v39_03"
+        },
+        {
+            "germanTerm": "erniedrigt",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ɛɐ̯ˈniːdʁɪçt/",
+            "category": "adjective",
+            "translation": {
+                "en": "Decreased",
+                "bn": "হ্রাসপ্রাপ্ত",
+                "hi": "कम",
+                "ur": "کم",
+                "tr": "Düşük"
+            },
+            "exampleSentence": "Der Blutdruck ist erniedrigt.",
+            "exampleTranslation": {
+                "en": "The blood pressure is decreased.",
+                "bn": "রক্তচাপ হ্রাস পেয়েছে।",
+                "hi": "रक्तचाप कम हो गया है।",
+                "ur": "بلڈ پریشر کم ہو گیا ہے۔",
+                "tr": "Kan basıncı düşüktür."
+            },
+            "id": "v39_04"
+        },
+        {
+            "germanTerm": "pathologisch",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/patoˈloːɡɪʃ/",
+            "category": "adjective",
+            "translation": {
+                "en": "Pathological",
+                "bn": "প্যাথলজিকাল",
+                "hi": "पैथोलॉजिकल",
+                "ur": "پیتھالوجیکل",
+                "tr": "Patolojik"
+            },
+            "exampleSentence": "Das Ergebnis ist pathologisch und bedarf weiterer Untersuchungen.",
+            "exampleTranslation": {
+                "en": "The result is pathological and requires further investigation.",
+                "bn": "ফলাফল প্যাথলজিকাল এবং আরও তদন্তের প্রয়োজন।",
+                "hi": "परिणाम पैथोलॉजिकल है और आगे की जांच की आवश्यकता है।",
+                "ur": "نتیجہ پیتھالوجیکل ہے اور مزید تفتیش کی ضرورت ہے۔",
+                "tr": "Sonuç patolojiktir ve daha fazla araştırma gerektirir."
+            },
+            "id": "v39_05"
+        },
+        {
+            "germanTerm": "Verlaufskontrolle",
+            "article": "die",
+            "plural": "Verlaufskontrollen",
+            "pronunciation": "/fɛɐ̯ˈlaʊ̯fsˌkɔntʁɔlə/",
+            "category": "noun",
+            "translation": {
+                "en": "Follow-up monitoring",
+                "bn": "ফলো-আপ পর্যবেক্ষণ",
+                "hi": "अनुवर्ती निगरानी",
+                "ur": "فالو اپ نگرانی",
+                "tr": "Takip izleme"
+            },
+            "exampleSentence": "Wir empfehlen eine Verlaufskontrolle in drei Monaten.",
+            "exampleTranslation": {
+                "en": "We recommend follow-up monitoring in three months.",
+                "bn": "আমরা তিন মাসের মধ্যে ফলো-আপ পর্যবেক্ষণের পরামর্শ দিই।",
+                "hi": "हम तीन महीने में अनुवर्ती निगरानी की सलाह देते हैं।",
+                "ur": "ہم تین مہینوں میں فالو اپ نگرانی کی سفارش کرتے ہیں۔",
+                "tr": "Üç ay içinde takip izleme öneriyoruz."
+            },
+            "id": "v39_06"
+        },
+        {
+            "germanTerm": "Blutbild",
+            "article": "das",
+            "plural": "Blutbilder",
+            "pronunciation": "/ˈbluːtˌbɪlt/",
+            "category": "noun",
+            "translation": {
+                "en": "Complete blood count (CBC)",
+                "bn": "সম্পূর্ণ রক্ত ​​গণনা (সিবিসি)",
+                "hi": "पूर्ण रक्त गणना (सीबीसी)",
+                "ur": "مکمل خون کی گنتی (سی بی سی)",
+                "tr": "Tam kan sayımı (CBC)"
+            },
+            "exampleSentence": "Das Blutbild zeigt eine Anämie.",
+            "exampleTranslation": {
+                "en": "The CBC shows anemia.",
+                "bn": "সিবিসি রক্তাল্পতা দেখায়।",
+                "hi": "सीबीसी एनीमिया दिखाता है।",
+                "ur": "سی بی سی خون کی کمی کو ظاہر کرتا ہے۔",
+                "tr": "CBC anemi gösterir."
+            },
+            "id": "v39_07"
+        },
+        {
+            "germanTerm": "Elektrolyte",
+            "article": "die",
+            "plural": "Elektrolyte",
+            "pronunciation": "/elɛktroˈlyːtə/",
+            "category": "noun",
+            "translation": {
+                "en": "Electrolytes",
+                "bn": "ইলেক্ট্রোলাইট",
+                "hi": "इलेक्ट्रोलाइट्स",
+                "ur": "الیکٹرولائٹس",
+                "tr": "Elektrolitler"
+            },
+            "exampleSentence": "Die Elektrolyte sind im Ungleichgewicht.",
+            "exampleTranslation": {
+                "en": "The electrolytes are imbalanced.",
+                "bn": "ইলেক্ট্রোলাইটগুলি ভারসাম্যহীন।",
+                "hi": "इलेक्ट्रोलाइट्स असंतुलित हैं।",
+                "ur": "الیکٹرولائٹس غیر متوازن ہیں۔",
+                "tr": "Elektrolitler dengesiz."
+            },
+            "id": "v39_08"
+        },
+        {
+            "germanTerm": "Leberwerte",
+            "article": "die",
+            "plural": "Leberwerte",
+            "pronunciation": "/ˈleːbɐˌveːɐ̯tə/",
+            "category": "noun",
+            "translation": {
+                "en": "Liver function tests (LFTs)",
+                "bn": "লিভার ফাংশন পরীক্ষা (এলএফটি)",
+                "hi": "लिवर फंक्शन टेस्ट (एलएफटी)",
+                "ur": "جگر فنکشن ٹیسٹ (ایل ایف ٹی)",
+                "tr": "Karaciğer fonksiyon testleri (LFT'ler)"
+            },
+            "exampleSentence": "Die Leberwerte sind leicht erhöht.",
+            "exampleTranslation": {
+                "en": "The liver function tests are slightly elevated.",
+                "bn": "লিভার ফাংশন পরীক্ষা সামান্য উন্নত হয়।",
+                "hi": "लिवर फंक्शन टेस्ट थोड़े उन्नत हैं।",
+                "ur": "جگر فنکشن ٹیسٹ قدرے بلند ہیں۔",
+                "tr": "Karaciğer fonksiyon testleri biraz yüksektir."
+            },
+            "id": "v39_09"
+        },
+        {
+            "germanTerm": "Nierenwerte",
+            "article": "die",
+            "plural": "Nierenwerte",
+            "pronunciation": "/ˈniːʁənˌveːɐ̯tə/",
+            "category": "noun",
+            "translation": {
+                "en": "Kidney function tests (KFTs)",
+                "bn": "কিডনি ফাংশন পরীক্ষা (কেএফটি)",
+                "hi": "गुर्दे का कार्य परीक्षण (केएफटी)",
+                "ur": "گردے فنکشن ٹیسٹ (کے ایف ٹی)",
+                "tr": "Böbrek fonksiyon testleri (KFT'ler)"
+            },
+            "exampleSentence": "Die Nierenwerte sind auffällig.",
+            "exampleTranslation": {
+                "en": "The kidney function tests are abnormal.",
+                "bn": "কিডনি ফাংশন পরীক্ষা অস্বাভাবিক।",
+                "hi": "गुर्दे का कार्य परीक्षण असामान्य है।",
+                "ur": "گردے کا فنکشن ٹیسٹ غیر معمولی ہے۔",
+                "tr": "Böbrek fonksiyon testleri anormal."
+            },
+            "id": "v39_10"
+        },
+        {
+            "germanTerm": "Entzündungsparameter",
+            "article": "der",
+            "plural": "Entzündungsparameter",
+            "pronunciation": "/ɛntˈtsʏndʊŋspaˌʁaːmeːtɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "Inflammatory markers",
+                "bn": "প্রদাহজনক চিহ্নিতকারী",
+                "hi": "सूजन मार्कर",
+                "ur": "سوزش کے مارکر",
+                "tr": "Enflamatuvar belirteçler"
+            },
+            "exampleSentence": "Die Entzündungsparameter sind stark erhöht.",
+            "exampleTranslation": {
+                "en": "The inflammatory markers are significantly elevated.",
+                "bn": "প্রদাহজনক চিহ্নিতকারী উল্লেখযোগ্যভাবে উন্নত।",
+                "hi": "सूजन मार्कर महत्वपूर्ण रूप से उन्नत हैं।",
+                "ur": "سوزش کے مارکر نمایاں طور پر بڑھ گئے ہیں۔",
+                "tr": "Enflamatuvar belirteçler önemli ölçüde yüksektir."
+            },
+            "id": "v39_11"
+        },
+        {
+            "germanTerm": "Gerinnungswerte",
+            "article": "die",
+            "plural": "Gerinnungswerte",
+            "pronunciation": "/ɡəˈʁɪnʊŋsˌveːɐ̯tə/",
+            "category": "noun",
+            "translation": {
+                "en": "Coagulation parameters",
+                "bn": "জমাট বাঁধার পরামিতি",
+                "hi": "जमावट पैरामीटर",
+                "ur": "جمنے کے پیرامیٹرز",
+                "tr": "Pıhtılaşma parametreleri"
+            },
+            "exampleSentence": "Die Gerinnungswerte müssen engmaschig überwacht werden.",
+            "exampleTranslation": {
+                "en": "The coagulation parameters must be closely monitored.",
+                "bn": "জমাট বাঁধার পরামিতিগুলি নিবিড়ভাবে পর্যবেক্ষণ করা উচিত।",
+                "hi": "जमावट पैरामीटरों की बारीकी से निगरानी की जानी चाहिए।",
+                "ur": "جمنے کے پیرامیٹرز کی قریب سے نگرانی کی جانی چاہیے۔",
+                "tr": "Pıhtılaşma parametreleri yakından izlenmelidir."
+            },
+            "id": "v39_12"
+        },
+        {
+            "germanTerm": "Glucose",
+            "article": "die",
+            "plural": "Glucosen",
+            "pronunciation": "/ɡluˈkoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "Glucose",
+                "bn": "গ্লুকোজ",
+                "hi": "ग्लूकोज",
+                "ur": "گلوکوز",
+                "tr": "Glikoz"
+            },
+            "exampleSentence": "Die Glucose ist nüchtern gemessen worden.",
+            "exampleTranslation": {
+                "en": "The glucose was measured fasting.",
+                "bn": "গ্লুকোজ খালি পেটে পরিমাপ করা হয়েছে।",
+                "hi": "ग्लूकोज उपवास में मापा गया था।",
+                "ur": "گلوکوز کو خالی پیٹ ماپا گیا تھا۔",
+                "tr": "Glikoz aç karnına ölçüldü."
+            },
+            "id": "v39_13"
+        },
+        {
+            "germanTerm": "HbA1c",
+            "article": "der",
+            "plural": "HbA1c",
+            "pronunciation": "/haːbeːʔaːˈʔaɪ̯nsˌtseː/",
+            "category": "noun",
+            "translation": {
+                "en": "HbA1c",
+                "bn": "এইচবিএ 1 সি",
+                "hi": "एचबीए1सी",
+                "ur": "ایچ بی اے 1 سی",
+                "tr": "HbA1c"
+            },
+            "exampleSentence": "Der HbA1c Wert ist zu hoch.",
+            "exampleTranslation": {
+                "en": "The HbA1c value is too high.",
+                "bn": "এইচবিএ 1 সি মান খুব বেশি।",
+                "hi": "एचबीए1सी मान बहुत अधिक है।",
+                "ur": "ایچ بی اے 1 سی قدر بہت زیادہ ہے۔",
+                "tr": "HbA1c değeri çok yüksek."
+            },
+            "id": "v39_14"
+        },
+        {
+            "germanTerm": "Lipide",
+            "article": "die",
+            "plural": "Lipide",
+            "pronunciation": "/liˈpiːdə/",
+            "category": "noun",
+            "translation": {
+                "en": "Lipids",
+                "bn": "লিপিড",
+                "hi": "लिपिड",
+                "ur": "لپڈز",
+                "tr": "Lipitler"
+            },
+            "exampleSentence": "Die Lipide sind erhöht, insbesondere das LDL-Cholesterin.",
+            "exampleTranslation": {
+                "en": "The lipids are elevated, especially the LDL cholesterol.",
+                "bn": "লিপিডগুলি উন্নত হয়, বিশেষত এলডিএল কোলেস্টেরল।",
+                "hi": "लिपिड उन्नत हैं, विशेष रूप से एलडीएल कोलेस्ट्रॉल।",
+                "ur": "لپڈس بلند ہیں، خاص طور پر ایل ڈی ایل کولیسٹرول۔",
+                "tr": "Lipitler, özellikle LDL kolesterolü yüksektir."
+            },
+            "id": "v39_15"
+        },
+        {
+            "germanTerm": "Urinanalyse",
+            "article": "die",
+            "plural": "Urinanalysen",
+            "pronunciation": "/uˈʁiːnʔanaˌlyːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "Urinalysis",
+                "bn": "ইউরিনালাইসিস",
+                "hi": "मूत्र विश्लेषण",
+                "ur": "یورینالیسس",
+                "tr": "İdrar tahlili"
+            },
+            "exampleSentence": "Die Urinanalyse zeigt eine Proteinurie.",
+            "exampleTranslation": {
+                "en": "The urinalysis shows proteinuria.",
+                "bn": "ইউরিনালাইসিস প্রোটিনুরিয়া দেখায়।",
+                "hi": "मूत्र विश्लेषण प्रोटीनुरिया दिखाता है।",
+                "ur": "یورینالیسس پروٹینوریا کو ظاہر کرتا ہے۔",
+                "tr": "İdrar tahlili proteinüri gösterir."
+            },
+            "id": "v39_16"
+        },
+        {
+            "germanTerm": "Bilirubin",
+            "article": "das",
+            "plural": "Bilirubine",
+            "pronunciation": "/ˌbɪlɪˈʁuːbɪn/",
+            "category": "noun",
+            "translation": {
+                "en": "Bilirubin",
+                "bn": "বিলিরুবিন",
+                "hi": "बिलीरुबिन",
+                "ur": "بلیروبن",
+                "tr": "Bilirubin"
+            },
+            "exampleSentence": "Das Bilirubin ist erhöht, was auf eine Lebererkrankung hindeuten könnte.",
+            "exampleTranslation": {
+                "en": "The bilirubin is elevated, which may indicate a liver disease.",
+                "bn": "বিলিরুবিন উন্নত হয়, যা লিভার রোগের ইঙ্গিত দিতে পারে।",
+                "hi": "बिलीरुबिन उन्नत है, जो एक जिगर की बीमारी का संकेत दे सकता है।",
+                "ur": "بلیروبن بلند ہے، جو جگر کی بیماری کی نشاندہی کر سکتا ہے۔",
+                "tr": "Bilirubin yüksek, bu da karaciğer hastalığına işaret edebilir."
+            },
+            "id": "v39_17"
+        },
+        {
+            "germanTerm": "Kreatinin",
+            "article": "das",
+            "plural": "Kreatinine",
+            "pronunciation": "/kʁeatiˈniːn/",
+            "category": "noun",
+            "translation": {
+                "en": "Creatinine",
+                "bn": "ক্রিয়েটিনিন",
+                "hi": "क्रिएटिनिन",
+                "ur": "کریٹینائن",
+                "tr": "Kreatinin"
+            },
+            "exampleSentence": "Das Kreatinin ist erhöht, was auf eine Niereninsuffizienz hindeuten kann.",
+            "exampleTranslation": {
+                "en": "The creatinine is elevated, which may indicate kidney failure.",
+                "bn": "ক্রিয়েটিনিন উন্নত হয়, যা কিডনি ব্যর্থতার ইঙ্গিত দিতে পারে।",
+                "hi": "क्रिएटिनिन उन्नत है, जो गुर्दे की विफलता का संकेत दे सकता है।",
+                "ur": "کریٹینائن بلند ہے، جو گردے کی ناکامی کی نشاندہی کر سکتا ہے۔",
+                "tr": "Kreatinin yüksek, bu da böbrek yetmezliğine işaret edebilir."
+            },
+            "id": "v39_18"
+        },
+        {
+            "germanTerm": "TSH",
+            "article": "der",
+            "plural": "TSHs",
+            "pronunciation": "/teːʔɛsˈhaː/",
+            "category": "noun",
+            "translation": {
+                "en": "TSH",
+                "bn": "টিএসএইচ",
+                "hi": "टी एस एच",
+                "ur": "ٹی ایس ایچ",
+                "tr": "TSH"
+            },
+            "exampleSentence": "Der TSH Wert ist zu niedrig.",
+            "exampleTranslation": {
+                "en": "The TSH value is too low.",
+                "bn": "টিএসএইচ মান খুব কম।",
+                "hi": "टी एस एच मान बहुत कम है।",
+                "ur": "ٹی ایس ایچ کی قدر بہت کم ہے۔",
+                "tr": "TSH değeri çok düşük."
+            },
+            "id": "v39_19"
+        },
+        {
+            "germanTerm": "CRP",
+            "article": "der",
+            "plural": "CRPs",
+            "pronunciation": "/t͡seːʔɛʁˈpeː/",
+            "category": "noun",
+            "translation": {
+                "en": "CRP",
+                "bn": "সিআরপি",
+                "hi": "सीआरपी",
+                "ur": "سی آر پی",
+                "tr": "CRP"
+            },
+            "exampleSentence": "Das CRP ist ein Indikator für eine Entzündung.",
+            "exampleTranslation": {
+                "en": "The CRP is an indicator of inflammation.",
+                "bn": "সিআরপি প্রদাহের একটি সূচক।",
+                "hi": "सीआरपी सूजन का एक संकेतक है।",
+                "ur": "سی آر پی سوزش کا اشارہ ہے۔",
+                "tr": "CRP, inflamasyonun bir göstergesidir."
+            },
+            "id": "v39_20"
+        },
+        {
+            "germanTerm": "Normbereich",
+            "article": "der",
+            "plural": "Normbereiche",
+            "pronunciation": "/ˈnɔʁmˌbəʁaɪ̯ç/",
+            "category": "noun",
+            "translation": {
+                "en": "Normal range",
+                "bn": "স্বাভাবিক পরিসর",
+                "hi": "सामान्य सीमा",
+                "ur": "معمولی حد",
+                "tr": "Normal aralık"
+            },
+            "exampleSentence": "Der Wert liegt im Normbereich.",
+            "exampleTranslation": {
+                "en": "The value is within the normal range.",
+                "bn": "মান স্বাভাবিক পরিসরের মধ্যে।",
+                "hi": "मान सामान्य सीमा के भीतर है।",
+                "ur": "قدر معمول کی حد کے اندر ہے۔",
+                "tr": "Değer normal aralıkta."
+            },
+            "id": "v39_21"
+        },
+        {
+            "germanTerm": "bestimmen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/bəˈʃtɪmən/",
+            "category": "verb",
+            "translation": {
+                "en": "To determine",
+                "bn": "নির্ধারণ করা",
+                "hi": "निर्धारित करना",
+                "ur": "مقرر کرنا",
+                "tr": "Belirlemek"
+            },
+            "exampleSentence": "Wir müssen die Ursache der erhöhten Werte bestimmen.",
+            "exampleTranslation": {
+                "en": "We must determine the cause of the elevated values.",
+                "bn": "আমাদের উন্নত মানের কারণ নির্ধারণ করতে হবে।",
+                "hi": "हमें उन्नत मूल्यों का कारण निर्धारित करना होगा।",
+                "ur": "ہمیں بڑھی ہوئی اقدار کی وجہ معلوم کرنی ہوگی۔",
+                "tr": "Yüksek değerlerin nedenini belirlemeliyiz."
+            },
+            "id": "v39_22"
+        },
+        {
+            "germanTerm": "Anämie",
+            "article": "die",
+            "plural": "Anämien",
+            "pronunciation": "/aˈnɛmi̯ə/",
+            "category": "noun",
+            "translation": {
+                "en": "Anemia",
+                "bn": "রক্তাল্পতা",
+                "hi": "एनीमिया",
+                "ur": "خون کی کمی",
+                "tr": "Anemi"
+            },
+            "exampleSentence": "Das Blutbild zeigt eine deutliche Anämie.",
+            "exampleTranslation": {
+                "en": "The blood count shows a clear anemia.",
+                "bn": "রক্ত গণনা একটি স্পষ্ট রক্তাল্পতা দেখায়।",
+                "hi": "रक्त गणना एक स्पष्ट एनीमिया दिखाती है।",
+                "ur": "خون کی گنتی واضح خون کی کمی کو ظاہر کرتی ہے۔",
+                "tr": "Kan sayımı belirgin bir anemi gösteriyor."
+            },
+            "id": "v39_23"
+        },
+        {
+            "germanTerm": "Differentialblutbild",
+            "article": "das",
+            "plural": "Differentialblutbilder",
+            "pronunciation": "/dɪfəʁɛnˈt͡si̯aːlˌbluːtˌbɪlt/",
+            "category": "noun",
+            "translation": {
+                "en": "Differential blood count",
+                "bn": "ডিফারেনশিয়াল রক্ত ​​গণনা",
+                "hi": "विभेदक रक्त गणना",
+                "ur": "تفریق خون کی گنتی",
+                "tr": "Diferansiyel kan sayımı"
+            },
+            "exampleSentence": "Das Differentialblutbild zeigt eine Verschiebung nach links.",
+            "exampleTranslation": {
+                "en": "The differential blood count shows a left shift.",
+                "bn": "ডিফারেনশিয়াল রক্ত ​​গণনা বাম দিকে একটি পরিবর্তন দেখায়।",
+                "hi": "विभेदक रक्त गणना एक बाएं बदलाव दिखाती है।",
+                "ur": "تفریق خون کی گنتی بائیں طرف تبدیلی کو ظاہر کرتی ہے۔",
+                "tr": "Diferansiyel kan sayımı sola kayma gösteriyor."
+            },
+            "id": "v39_24"
+        },
+        {
+            "germanTerm": "Probenentnahme",
+            "article": "die",
+            "plural": "Probenentnahmen",
+            "pronunciation": "/ˈproːbn̩ʔɛntˌnaːmə/",
+            "category": "noun",
+            "translation": {
+                "en": "Sample collection",
+                "bn": "নমুনা সংগ্রহ",
+                "hi": "नमूना संग्रह",
+                "ur": "نمونہ جمع کرنا",
+                "tr": "Numune toplama"
+            },
+            "exampleSentence": "Die Probenentnahme erfolgte am Morgen.",
+            "exampleTranslation": {
+                "en": "The sample collection took place in the morning.",
+                "bn": "সকালে নমুনা সংগ্রহ করা হয়েছিল।",
+                "hi": "सुबह नमूना संग्रह हुआ।",
+                "ur": "صبح کے وقت نمونہ جمع کیا گیا۔",
+                "tr": "Numune toplama sabah yapıldı."
+            },
+            "id": "v39_25"
+        },
+        {
+            "germanTerm": "Abweichung",
+            "article": "die",
+            "plural": "Abweichungen",
+            "pronunciation": "/ˈapvaɪ̯çʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "Deviation",
+                "bn": "বিচ্যুতি",
+                "hi": "विचलन",
+                "ur": "انحراف",
+                "tr": "Sapma"
+            },
+            "exampleSentence": "Es gibt eine deutliche Abweichung vom Normbereich.",
+            "exampleTranslation": {
+                "en": "There is a clear deviation from the normal range.",
+                "bn": "স্বাভাবিক পরিসর থেকে একটি স্পষ্ট বিচ্যুতি রয়েছে।",
+                "hi": "सामान्य सीमा से एक स्पष्ट विचलन है।",
+                "ur": "معمولی حد سے ایک واضح انحراف ہے۔",
+                "tr": "Normal aralıktan belirgin bir sapma var."
+            },
+            "id": "v39_26"
+        },
+        {
+            "germanTerm": "Diagnostik",
+            "article": "die",
+            "plural": "Diagnostiken",
+            "pronunciation": "/diaɡˈnɔstɪk/",
+            "category": "noun",
+            "translation": {
+                "en": "Diagnostics",
+                "bn": "ডায়াগনস্টিকস",
+                "hi": "निदान",
+                "ur": "تشخیص",
+                "tr": "Teşhis"
+            },
+            "exampleSentence": "Weitere Diagnostik ist notwendig.",
+            "exampleTranslation": {
+                "en": "Further diagnostics are necessary.",
+                "bn": "আরও ডায়াগনস্টিকস প্রয়োজন।",
+                "hi": "आगे के निदान आवश्यक हैं।",
+                "ur": "مزید تشخیص ضروری ہے۔",
+                "tr": "Daha fazla teşhis gereklidir."
+            },
+            "id": "v39_27"
+        },
+        {
+            "germanTerm": "Serum",
+            "article": "das",
+            "plural": "Seren",
+            "pronunciation": "/ˈzeːʁʊm/",
+            "category": "noun",
+            "translation": {
+                "en": "Serum",
+                "bn": "সিরাম",
+                "hi": "सीरम",
+                "ur": "سیرم",
+                "tr": "Serum"
+            },
+            "exampleSentence": "Das Serum wurde für die Analyse verwendet.",
+            "exampleTranslation": {
+                "en": "The serum was used for the analysis.",
+                "bn": "বিশ্লেষণের জন্য সিরাম ব্যবহার করা হয়েছিল।",
+                "hi": "विश्लेषण के लिए सीरम का उपयोग किया गया था।",
+                "ur": "تجزیہ کے لیے سیرم کا استعمال کیا گیا۔",
+                "tr": "Analiz için serum kullanıldı."
+            },
+            "id": "v39_28"
+        },
+        {
+            "germanTerm": "Therapie",
+            "article": "die",
+            "plural": "Therapien",
+            "pronunciation": "/teˈʁaːpi/",
+            "category": "noun",
+            "translation": {
+                "en": "Therapy",
+                "bn": "থেরাপি",
+                "hi": "थेरेपी",
+                "ur": "تھراپی",
+                "tr": "Terapi"
+            },
+            "exampleSentence": "Die Therapie wird an die Laborwerte angepasst.",
+            "exampleTranslation": {
+                "en": "The therapy is adjusted to the laboratory values.",
+                "bn": "থেরাপি পরীক্ষাগার মানের সাথে সামঞ্জস্য করা হয়।",
+                "hi": "थेरेपी प्रयोगशाला मूल्यों के अनुसार समायोजित की जाती है।",
+                "ur": "تھراپی لیبارٹری اقدار کے مطابق ایڈجسٹ کی جاتی ہے۔",
+                "tr": "Terapi, laboratuvar değerlerine göre ayarlanır."
+            },
+            "id": "v39_29"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Dialogue 1: Elevated Liver Enzymes",
+                "bn": "সংলাপ ১: লিভার এনজাইম বৃদ্ধি",
+                "hi": "संवाद 1: बढ़े हुए लीवर एंजाइम",
+                "ur": "مکالمہ 1: جگر کے انزائم میں اضافہ",
+                "tr": "Diyalog 1: Yüksek Karaciğer Enzimleri"
+            },
+            "context": {
+                "en": "Dr. Schmidt discusses elevated liver enzymes with a patient, explaining the need for further investigation.",
+                "bn": "ডক্টর শ্মিট একজন রোগীর সাথে লিভার এনজাইম বৃদ্ধির বিষয়ে আলোচনা করছেন এবং আরও তদন্তের প্রয়োজনীয়তা ব্যাখ্যা করছেন।",
+                "hi": "डॉ. श्मिट एक मरीज के साथ बढ़े हुए लीवर एंजाइम पर चर्चा कर रहे हैं और आगे की जांच की आवश्यकता बता रहे हैं।",
+                "ur": "ڈاکٹر شمٹ ایک مریض کے ساتھ جگر کے انزائم میں اضافے پر بات کر رہے ہیں اور مزید تحقیقات کی ضرورت بتا رہے ہیں۔",
+                "tr": "Dr. Schmidt bir hasta ile yüksek karaciğer enzimlerini tartışıyor ve daha fazla araştırma ihtiyacını açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Guten Morgen, Herr Müller. Ihre Laborwerte sind da. Die Leberwerte, insbesondere ALT und AST, sind leicht erhöht.",
+                    "translation": {
+                        "en": "Good morning, Mr. Müller. Your lab results are here. The liver values, especially ALT and AST, are slightly elevated.",
+                        "bn": "শুভ সকাল, জনাব মুলার। আপনার ল্যাব রিপোর্ট এসেছে। লিভারের মান, বিশেষ করে ALT এবং AST, সামান্য বৃদ্ধি পেয়েছে।",
+                        "hi": "शुभ प्रभात, श्री मुलर। आपकी लैब रिपोर्ट आ गई है। लीवर की वैल्यू, खासकर ALT और AST, थोड़ी बढ़ी हुई हैं।",
+                        "ur": "صبح بخیر، مسٹر مولر۔ آپ کی لیب رپورٹ آگئی ہے۔ جگر کی اقدار، خاص طور پر ALT اور AST، تھوڑی بڑھی ہوئی ہیں۔",
+                        "tr": "Günaydın, Bay Müller. Laboratuvar sonuçlarınız geldi. Karaciğer değerleriniz, özellikle ALT ve AST, hafifçe yükselmiş."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Erhöht? Was bedeutet das, Herr Doktor?",
+                    "translation": {
+                        "en": "Elevated? What does that mean, Doctor?",
+                        "bn": "বৃদ্ধি? এর মানে কী, ডাক্তার?",
+                        "hi": "बढ़ी हुई? इसका क्या मतलब है, डॉक्टर?",
+                        "ur": "اضافہ؟ اس کا کیا مطلب ہے، ڈاکٹر؟",
+                        "tr": "Yükselmiş? Bu ne anlama geliyor, Doktor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das bedeutet, dass Ihre Leber möglicherweise leicht entzündet ist. Wir müssen eine Verlaufskontrolle machen, um zu sehen, ob sich die Werte verändern.",
+                    "translation": {
+                        "en": "It means that your liver might be slightly inflamed. We need to do a follow-up check to see if the values change.",
+                        "bn": "এর মানে হলো আপনার লিভারে সম্ভবত সামান্য প্রদাহ হয়েছে। মানগুলো পরিবর্তিত হচ্ছে কিনা তা দেখতে আমাদের একটি ফলো-আপ পরীক্ষা করতে হবে।",
+                        "hi": "इसका मतलब है कि आपके लीवर में शायद थोड़ी सूजन है। हमें यह देखने के लिए एक फॉलो-अप चेक करना होगा कि मान बदलते हैं या नहीं।",
+                        "ur": "اس کا مطلب ہے کہ آپ کے جگر میں شاید تھوڑی سوزش ہے۔ ہمیں یہ دیکھنے کے لیے ایک فالو اپ چیک کرنا ہوگا کہ آیا اقدار تبدیل ہوتی ہیں یا نہیں۔",
+                        "tr": "Bu, karaciğerinizde hafif bir iltihaplanma olabileceği anlamına geliyor. Değerlerin değişip değişmediğini görmek için bir takip kontrolü yapmamız gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Verlaufskontrolle? Wann soll ich wiederkommen?",
+                    "translation": {
+                        "en": "Follow-up check? When should I come back?",
+                        "bn": "ফলো-আপ পরীক্ষা? আমাকে আবার কবে আসতে হবে?",
+                        "hi": "फॉलो-अप चेक? मुझे वापस कब आना चाहिए?",
+                        "ur": "فالو اپ چیک؟ مجھے واپس کب آنا چاہئے؟",
+                        "tr": "Takip kontrolü? Ne zaman geri gelmeliyim?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "In zwei Wochen. Dann werden wir die Laborwerte erneut bestimmen.",
+                    "translation": {
+                        "en": "In two weeks. Then we will determine the lab values again.",
+                        "bn": "দুই সপ্তাহে। তখন আমরা আবার ল্যাবের মানগুলো নির্ধারণ করব।",
+                        "hi": "दो हफ्तों में। फिर हम लैब वैल्यूज को फिर से निर्धारित करेंगे।",
+                        "ur": "دو ہفتوں میں۔ پھر ہم لیب ویلیوز کو دوبارہ متعین کریں گے۔",
+                        "tr": "İki hafta içinde. O zaman laboratuvar değerlerini tekrar belirleyeceğiz."
+                    }
+                }
+            ],
+            "id": "d39_01"
+        },
+        {
+            "title": {
+                "en": "Dialogue 2: Low Hemoglobin",
+                "bn": "সংলাপ ২: নিম্ন হিমোগ্লোবিন",
+                "hi": "संवाद 2: निम्न हीमोग्लोबिन",
+                "ur": "مکالمہ 2: کم ہیموگلوبن",
+                "tr": "Diyalog 2: Düşük Hemoglobin"
+            },
+            "context": {
+                "en": "Schwester Weber informs Dr. Klein about a patient's low hemoglobin levels.",
+                "bn": "সিস্টার ওয়েবার ডক্টর ক্লেইনকে একজন রোগীর নিম্ন হিমোগ্লোবিন স্তরের বিষয়ে জানাচ্ছেন।",
+                "hi": "सिस्टर वेबर डॉ. क्लेन को एक मरीज के निम्न हीमोग्लोबिन स्तर के बारे में सूचित कर रही हैं।",
+                "ur": "سسٹر ویبر ڈاکٹر کلین کو ایک مریض کے کم ہیموگلوبن کی سطح کے بارے میں مطلع کر رہی ہیں۔",
+                "tr": "Hemşire Weber, Dr. Klein'ı bir hastanın düşük hemoglobin seviyeleri hakkında bilgilendiriyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Doktor Klein, die Laborwerte von Frau Lehmann sind da. Der Hämoglobinwert ist erniedrigt.",
+                    "translation": {
+                        "en": "Dr. Klein, Mrs. Lehmann's lab results are here. The hemoglobin level is low.",
+                        "bn": "ডক্টর ক্লেইন, মিসেস লেহমানের ল্যাব রিপোর্ট এসেছে। হিমোগ্লোবিনের মাত্রা কম।",
+                        "hi": "डॉ. क्लेन, श्रीमती लेहमैन की लैब रिपोर्ट आ गई है। हीमोग्लोबिन का स्तर कम है।",
+                        "ur": "ڈاکٹر کلین، محترمہ لیمان کی لیب رپورٹ آگئی ہے۔ ہیموگلوبن کی سطح کم ہے۔",
+                        "tr": "Dr. Klein, Bayan Lehmann'ın laboratuvar sonuçları geldi. Hemoglobin seviyesi düşük."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Erniedrigt? Wie stark?",
+                    "translation": {
+                        "en": "Low? How low?",
+                        "bn": "কম? কতটা কম?",
+                        "hi": "कम? कितना कम?",
+                        "ur": "کم؟ کتنا کم؟",
+                        "tr": "Düşük mü? Ne kadar düşük?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Der Laborwert liegt bei 10,5 g/dl. Der Referenzbereich ist 12-16 g/dl.",
+                    "translation": {
+                        "en": "The lab value is 10.5 g/dl. The reference range is 12-16 g/dl.",
+                        "bn": "ল্যাব রিপোর্ট অনুযায়ী মানটি হলো 10.5 গ্রাম/ডিএল। স্বাভাবিক মান হলো 12-16 গ্রাম/ডিএল।",
+                        "hi": "लैब रिपोर्ट के अनुसार मान 10.5 ग्राम/डीएल है। सामान्य मान 12-16 ग्राम/डीएल है।",
+                        "ur": "لیب رپورٹ کے مطابق ویلیو 10.5 گرام/ڈی ایل ہے۔ عام ویلیو 12-16 گرام/ ڈی ایل ہے۔",
+                        "tr": "Laboratuvar değeri 10.5 g/dl. Referans aralığı 12-16 g/dl."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ok, dann bitte Eisenwerte bestimmen und eine Anamnese bezüglich Blutungen erheben.",
+                    "translation": {
+                        "en": "Okay, then please determine iron levels and take a history regarding bleeding.",
+                        "bn": "ঠিক আছে, তাহলে অনুগ্রহ করে আয়রনের মাত্রা নির্ধারণ করুন এবং রক্তপাতের বিষয়ে একটি ইতিহাস নিন।",
+                        "hi": "ठीक है, तो कृपया आयरन का स्तर निर्धारित करें और रक्तस्राव के बारे में इतिहास लें।",
+                        "ur": "ٹھیک ہے، تو براہ کرم آئرن کی سطح کا تعین کریں اور خون بہنے کے بارے میں تاریخ لیں۔",
+                        "tr": "Tamam, o zaman lütfen demir seviyelerini belirleyin ve kanama ile ilgili bir öykü alın."
+                    }
+                }
+            ],
+            "id": "d39_02"
+        },
+        {
+            "title": {
+                "en": "Dialogue 3: Pathological Blood Sugar",
+                "bn": "সংলাপ ৩: রোগ বিষয়ক রক্ত শর্করা",
+                "hi": "संवाद 3: रोग संबंधी रक्त शर्करा",
+                "ur": "مکالمہ 3: پیتھولوجیکل بلڈ شوگر",
+                "tr": "Diyalog 3: Patolojik Kan Şekeri"
+            },
+            "context": {
+                "en": "Dr. Sommer explains a patient's pathological blood sugar levels and the need for further testing.",
+                "bn": "ডক্টর সোমার একজন রোগীর রোগ বিষয়ক রক্ত শর্করা মাত্রা এবং আরও পরীক্ষার প্রয়োজনীয়তা ব্যাখ্যা করছেন।",
+                "hi": "डॉ. सोमर एक मरीज के रोग संबंधी रक्त शर्करा स्तर और आगे परीक्षण की आवश्यकता समझा रहे हैं।",
+                "ur": "ڈاکٹر سومر ایک مریض کے مرض کے بلڈ شوگر کی سطح اور مزید جانچ کی ضرورت کی وضاحت کر رہے ہیں۔",
+                "tr": "Dr. Sommer bir hastanın patolojik kan şekeri seviyelerini ve daha fazla test yapılması gerektiğini açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Sommer",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Frau Schulz, Ihre Blutzuckerwerte sind pathologisch erhöht. Der Nüchternblutzucker liegt bei 150 mg/dl.",
+                    "translation": {
+                        "en": "Mrs. Schulz, your blood sugar levels are pathologically elevated. The fasting blood sugar is 150 mg/dl.",
+                        "bn": "মিসেস শুলজ, আপনার রক্ত শর্করা মাত্রা রোগ বিষয়কভাবে বৃদ্ধি পেয়েছে। খালি পেটে রক্ত শর্করা হলো 150 এমজি/ডিএল।",
+                        "hi": "श्रीमती शुल्ज, आपके रक्त शर्करा का स्तर रोग संबंधी रूप से बढ़ा हुआ है। खाली पेट रक्त शर्करा 150 मिलीग्राम/डीएल है।",
+                        "ur": "محترمہ شلز، آپ کے بلڈ شوگر کی سطح پیتھولوجیکل طور پر بڑھی ہوئی ہے۔ خالی پیٹ بلڈ شوگر 150 ملی گرام/ ڈی ایل ہے۔",
+                        "tr": "Bayan Schulz, kan şekeri seviyeleriniz patolojik olarak yükselmiş. Açlık kan şekeri 150 mg/dl."
+                    }
+                },
+                {
+                    "speaker": "Patient Schulz",
+                    "speakerRole": "Patient",
+                    "germanText": "Pathologisch? Was heißt das?",
+                    "translation": {
+                        "en": "Pathological? What does that mean?",
+                        "bn": "রোগ বিষয়ক? এর মানে কী?",
+                        "hi": "रोग संबंधी? इसका क्या मतलब है?",
+                        "ur": "پیتھولوجیکل؟ اس کا کیا مطلب ہے؟",
+                        "tr": "Patolojik? Bu ne anlama geliyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Sommer",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das bedeutet, dass Sie wahrscheinlich Diabetes haben. Wir müssen weitere Tests machen, zum Beispiel einen oralen Glukosetoleranztest.",
+                    "translation": {
+                        "en": "It means that you probably have diabetes. We need to do further tests, for example an oral glucose tolerance test.",
+                        "bn": "এর মানে হলো আপনার সম্ভবত ডায়াবেটিস আছে। আমাদের আরও পরীক্ষা করতে হবে, যেমন ওরাল গ্লুকোজ টলারেন্স পরীক্ষা।",
+                        "hi": "इसका मतलब है कि आपको शायद मधुमेह है। हमें आगे परीक्षण करने की आवश्यकता है, उदाहरण के लिए एक मौखिक ग्लूकोज सहनशीलता परीक्षण।",
+                        "ur": "اس کا مطلب ہے کہ آپ کو غالباً ذیابیطس ہے۔ ہمیں مزید ٹیسٹ کرنے کی ضرورت ہے، مثال کے طور پر ایک زبانی گلوکوز رواداری ٹیسٹ۔",
+                        "tr": "Bu, muhtemelen diyabetiniz olduğu anlamına geliyor. Örneğin oral glikoz tolerans testi gibi daha fazla test yapmamız gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Patient Schulz",
+                    "speakerRole": "Patient",
+                    "germanText": "Diabetes? Das ist ja schrecklich!",
+                    "translation": {
+                        "en": "Diabetes? That's terrible!",
+                        "bn": "ডায়াবেটিস? এটা তো ভয়ানক!",
+                        "hi": "मधुमेह? यह तो भयानक है!",
+                        "ur": "ذیابیطس؟ یہ تو خوفناک ہے!",
+                        "tr": "Diyabet? Bu korkunç!"
+                    }
+                }
+            ],
+            "id": "d39_03"
+        },
+        {
+            "title": {
+                "en": "Dialogue 4: Monitoring Kidney Function",
+                "bn": "সংলাপ ৪: কিডনির কার্যক্রম পর্যবেক্ষণ",
+                "hi": "संवाद 4: किडनी फंक्शन की निगरानी",
+                "ur": "مکالمہ 4: گردے کے فعل کی نگرانی",
+                "tr": "Diyalog 4: Böbrek Fonksiyonunu İzleme"
+            },
+            "context": {
+                "en": "Dr. Hartmann discusses a patient's creatinine levels and the need for regular monitoring of kidney function.",
+                "bn": "ডক্টর হার্টম্যান একজন রোগীর ক্রিয়েটিনিনের মাত্রা এবং কিডনির কার্যক্রম নিয়মিত পর্যবেক্ষণের প্রয়োজনীয়তা নিয়ে আলোচনা করছেন।",
+                "hi": "डॉ. हार्टमैन एक मरीज के क्रिएटिनिन स्तर और किडनी फंक्शन की नियमित निगरानी की आवश्यकता पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر ہارٹمن ایک مریض کے کریٹینائن کی سطح اور گردے کے فعل کی باقاعدہ نگرانی کی ضرورت پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Dr. Hartmann bir hastanın kreatinin seviyelerini ve böbrek fonksiyonunun düzenli olarak izlenmesi gerektiğini tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Hartmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Herr Weber, Ihr Kreatininwert ist leicht erhöht, aber noch im Referenzbereich. Wir müssen das im Auge behalten.",
+                    "translation": {
+                        "en": "Mr. Weber, your creatinine level is slightly elevated, but still within the reference range. We need to keep an eye on it.",
+                        "bn": "জনাব ওয়েবার, আপনার ক্রিয়েটিনিনের মাত্রা সামান্য বৃদ্ধি পেয়েছে, তবে এখনও স্বাভাবিক মানের মধ্যেই আছে। আমাদের এটিকে নজরে রাখতে হবে।",
+                        "hi": "श्री वेबर, आपका क्रिएटिनिन का स्तर थोड़ा बढ़ा हुआ है, लेकिन अभी भी सामान्य सीमा के भीतर है। हमें इस पर नज़र रखने की आवश्यकता है।",
+                        "ur": "مسٹر ویبر، آپ کے کریٹینائن کی سطح قدرے بڑھی ہوئی ہے، لیکن اب بھی حوالہ کی حد کے اندر ہے۔ ہمیں اس پر نظر رکھنے کی ضرورت ہے۔",
+                        "tr": "Bay Weber, kreatinin seviyeniz hafifçe yükselmiş, ancak hala referans aralığında. Bunu takip etmemiz gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Was bedeutet das für mich, Herr Doktor?",
+                    "translation": {
+                        "en": "What does that mean for me, Doctor?",
+                        "bn": "আমার জন্য এর মানে কী, ডাক্তার?",
+                        "hi": "मेरे लिए इसका क्या मतलब है, डॉक्टर?",
+                        "ur": "میرے لیے اس کا کیا مطلب ہے، ڈاکٹر؟",
+                        "tr": "Bu benim için ne anlama geliyor, Doktor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Hartmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Es bedeutet, dass Ihre Nierenfunktion möglicherweise etwas eingeschränkt ist. Wir werden in drei Monaten eine Verlaufskontrolle machen.",
+                    "translation": {
+                        "en": "It means that your kidney function may be slightly impaired. We will do a follow-up check in three months.",
+                        "bn": "এর মানে হলো আপনার কিডনির কার্যকারিতা সম্ভবত কিছুটা দুর্বল হয়েছে। আমরা তিন মাস পর একটি ফলো-আপ পরীক্ষা করব।",
+                        "hi": "इसका मतलब है कि आपके गुर्दे का कार्य थोड़ा बाधित हो सकता है। हम तीन महीने में एक फॉलो-अप चेक करेंगे।",
+                        "ur": "اس کا مطلب ہے کہ آپ کے گردے کا فعل قدرے متاثر ہو سکتا ہے۔ ہم تین ماہ میں ایک فالو اپ چیک کریں گے۔",
+                        "tr": "Bu, böbrek fonksiyonunuzun biraz bozulmuş olabileceği anlamına geliyor. Üç ay içinde bir takip kontrolü yapacağız."
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Verlaufskontrolle, das heißt eine erneute Blutabnahme?",
+                    "translation": {
+                        "en": "Follow-up check, that means another blood draw?",
+                        "bn": "ফলো-আপ পরীক্ষা, তার মানে আবার রক্ত দিতে হবে?",
+                        "hi": "फॉलो-अप चेक, यानी फिर से खून निकालना होगा?",
+                        "ur": "فالو اپ چیک، یعنی دوبارہ خون نکالنا ہوگا؟",
+                        "tr": "Takip kontrolü, bu tekrar kan alınacağı anlamına mı geliyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Hartmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ja, genau. Wir müssen sehen, ob sich der Wert verändert hat.",
+                    "translation": {
+                        "en": "Yes, exactly. We need to see if the value has changed.",
+                        "bn": "হ্যাঁ, ঠিক। আমাদের দেখতে হবে মানের কোনো পরিবর্তন হয়েছে কিনা।",
+                        "hi": "हां, बिल्कुल। हमें यह देखना होगा कि मूल्य में कोई बदलाव आया है या नहीं।",
+                        "ur": "ہاں، بالکل۔ ہمیں یہ دیکھنا ہوگا کہ ویلیو میں کوئی تبدیلی آئی ہے یا نہیں۔",
+                        "tr": "Evet, aynen öyle. Değerin değişip değişmediğini görmemiz gerekiyor."
+                    }
+                }
+            ],
+            "id": "d39_04"
+        },
+        {
+            "title": {
+                "en": "Dialogue 5: TSH Levels",
+                "bn": "সংলাপ ৫: টিএসএইচ মাত্রা",
+                "hi": "संवाद 5: टीएसएच स्तर",
+                "ur": "مکالمہ 5: ٹی ایس ایچ کی سطح",
+                "tr": "Diyalog 5: TSH Seviyeleri"
+            },
+            "context": {
+                "en": "Dr. Lehmann discusses a patient's TSH levels with Schwester Meier.",
+                "bn": "ডক্টর লেহমান সিস্টার মেইয়ারের সাথে একজন রোগীর টিএসএইচ মাত্রা নিয়ে আলোচনা করছেন।",
+                "hi": "डॉ. लेहमैन सिस्टर मीयर के साथ एक मरीज के टीएसएच स्तर पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر لیمان سسٹر میئر کے ساتھ ایک مریض کے ٹی ایس ایچ کی سطح پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Dr. Lehmann Hemşire Meier ile bir hastanın TSH seviyelerini tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Schwester Meier, was sagen die TSH-Werte von Herrn Schmidt?",
+                    "translation": {
+                        "en": "Sister Meier, what do Mr. Schmidt's TSH levels say?",
+                        "bn": "সিস্টার মেইয়ার, জনাব শ্মিটের টিএসএইচ মাত্রা কী বলছে?",
+                        "hi": "सिस्टर मीयर, श्री श्मिट का टीएसएच स्तर क्या कहता है?",
+                        "ur": "سسٹر میئر، مسٹر شمٹ کی ٹی ایس ایچ کی سطح کیا کہتی ہے؟",
+                        "tr": "Hemşire Meier, Bay Schmidt'in TSH seviyeleri ne diyor?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Meier",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Der TSH-Wert ist erhöht. Er liegt bei 6 mU/l. Der Referenzbereich ist 0,4-4 mU/l.",
+                    "translation": {
+                        "en": "The TSH level is elevated. It is at 6 mU/l. The reference range is 0.4-4 mU/l.",
+                        "bn": "টিএসএইচ মাত্রা বৃদ্ধি পেয়েছে। এটি 6 এমইউ/লিটার। স্বাভাবিক মাত্রা হলো 0.4-4 এমইউ/লিটার।",
+                        "hi": "टीएसएच का स्तर बढ़ा हुआ है। यह 6 एमयू/ली है। सामान्य सीमा 0.4-4 एमयू/ली है।",
+                        "ur": "ٹی ایس ایچ کی سطح بڑھی ہوئی ہے۔ یہ 6 ایم یو/ ایل ہے۔ عام حد 0.4-4 ایم یو/ ایل ہے۔",
+                        "tr": "TSH seviyesi yükselmiş. 6 mU/l seviyesinde. Referans aralığı 0.4-4 mU/l."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ok, das deutet auf eine Schilddrüsenunterfunktion hin. Bitte FT3 und FT4 nachbestellen.",
+                    "translation": {
+                        "en": "Okay, that indicates hypothyroidism. Please order FT3 and FT4 as well.",
+                        "bn": "ঠিক আছে, এটা হাইপোথাইরয়েডিজম নির্দেশ করে। অনুগ্রহ করে FT3 এবং FT4 এর পরীক্ষাও দিতে বলুন।",
+                        "hi": "ठीक है, यह हाइपोथायरायडिज्म का संकेत देता है। कृपया FT3 और FT4 का भी आदेश दें।",
+                        "ur": "ٹھیک ہے، یہ ہائپوتھائیرائیڈزم کی نشاندہی کرتا ہے۔ براہ کرم ایف ٹی 3 اور ایف ٹی 4 کا بھی حکم دیں۔",
+                        "tr": "Tamam, bu hipotiroidizm olduğunu gösteriyor. Lütfen FT3 ve FT4'ü de sipariş edin."
+                    }
+                },
+                {
+                    "speaker": "Schwester Meier",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Werde ich machen, Herr Doktor.",
+                    "translation": {
+                        "en": "I will do that, Doctor.",
+                        "bn": "আমি করব, ডক্টর।",
+                        "hi": "मैं करूँगा, डॉक्टर।",
+                        "ur": "میں کروں گا، ڈاکٹر۔",
+                        "tr": "Yapacağım, Doktor."
+                    }
+                }
+            ],
+            "id": "d39_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'erhöht' in Bezug auf Laborwerte?",
+                "en": "What does 'erhöht' mean in relation to lab values?",
+                "bn": "ল্যাব মানের ক্ষেত্রে 'erhöht' মানে কী?",
+                "hi": "लैब मानों के संबंध में 'erhöht' का क्या मतलब है?",
+                "ur": "لیب اقدار کے تعلق سے 'erhöht' کا کیا مطلب ہے؟",
+                "tr": "Labor değerleri açısından 'erhöht' ne anlama gelir?"
+            },
+            "options": [
+                "Normal",
+                "Zu niedrig",
+                "Zu hoch",
+                "Nicht messbar"
+            ],
+            "correctAnswer": "Zu hoch",
+            "explanation": {
+                "en": "'Erhöht' means 'increased' or 'elevated', indicating the lab value is higher than the reference range.",
+                "bn": "'Erhöht' মানে 'বৃদ্ধি' বা 'উন্নত', যা নির্দেশ করে যে ল্যাব মান রেফারেন্স পরিসরের চেয়ে বেশি।",
+                "hi": "'Erhöht' का अर्थ है 'वृद्धि' या 'उच्चीकृत', जो यह दर्शाता है कि लैब मान संदर्भ सीमा से अधिक है।",
+                "ur": "'Erhöht' کا مطلب ہے 'اضافہ' یا 'بلند', جو اس بات کی نشاندہی کرتا ہے کہ لیب ویلیو ریفرنس رینج سے زیادہ ہے۔",
+                "tr": "'Erhöht', 'artmış' veya 'yükselmiş' anlamına gelir ve laboratuvar değerinin referans aralığından daha yüksek olduğunu gösterir."
+            },
+            "points": 10,
+            "id": "e39_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist der 'Referenzbereich'?",
+                "en": "What is the 'Referenzbereich'?",
+                "bn": "'Referenzbereich' কী?",
+                "hi": "'रेफेरेंज़बेरेइच' क्या है?",
+                "ur": "'ریفرنس بیرئچ' کیا ہے؟",
+                "tr": "'Referenzbereich' nedir?"
+            },
+            "options": [
+                "Der ideale Wert für alle Patienten",
+                "Der normale Wertebereich für gesunde Personen",
+                "Der maximale Wert, der akzeptabel ist",
+                "Der Wert, der eine sofortige Behandlung erfordert"
+            ],
+            "correctAnswer": "Der normale Wertebereich für gesunde Personen",
+            "explanation": {
+                "en": "The 'Referenzbereich' is the normal range of values for healthy individuals, used as a comparison for patient lab results.",
+                "bn": "'Referenzbereich' হল সুস্থ ব্যক্তিদের জন্য স্বাভাবিক মানের পরিসর, যা রোগীর ল্যাব ফলাফলের তুলনা হিসাবে ব্যবহৃত হয়।",
+                "hi": "'रेफेरेंज़बेरेइच' स्वस्थ व्यक्तियों के लिए मूल्यों की सामान्य सीमा है, जिसका उपयोग रोगी के लैब परिणामों की तुलना के रूप में किया जाता है।",
+                "ur": "'ریفرنس بیرئچ' صحت مند افراد کے لیے اقدار کی معمول کی حد ہے، جو مریض کے لیب نتائج کے موازنہ کے طور پر استعمال ہوتی ہے۔",
+                "tr": "'Referenzbereich', sağlıklı bireyler için normal değer aralığıdır ve hasta laboratuvar sonuçları için bir karşılaştırma olarak kullanılır."
+            },
+            "points": 10,
+            "id": "e39_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'pathologisch' in Bezug auf Laborergebnisse?",
+                "en": "What does 'pathologisch' mean in relation to lab results?",
+                "bn": "ল্যাব ফলাফলের ক্ষেত্রে 'pathologisch' মানে কী?",
+                "hi": "लैब परिणामों के संबंध में 'pathologisch' का क्या मतलब है?",
+                "ur": "لیب نتائج کے تعلق سے 'pathologisch' کا کیا مطلب ہے؟",
+                "tr": "Labor sonuçları açısından 'pathologisch' ne anlama gelir?"
+            },
+            "options": [
+                "Normal",
+                "Deutlich vom Normalwert abweichend und auf eine Krankheit hindeutend",
+                "Etwas vom Normalwert abweichend, aber nicht besorgniserregend",
+                "Nicht verfügbar"
+            ],
+            "correctAnswer": "Deutlich vom Normalwert abweichend und auf eine Krankheit hindeutend",
+            "explanation": {
+                "en": "'Pathologisch' means significantly deviating from the normal range and indicating a disease or abnormality.",
+                "bn": "'Pathologisch' মানে স্বাভাবিক পরিসর থেকে উল্লেখযোগ্যভাবে বিচ্যুত হওয়া এবং একটি রোগ বা অস্বাভাবিকতা নির্দেশ করা।",
+                "hi": "'Pathologisch' का अर्थ है सामान्य सीमा से महत्वपूर्ण रूप से विचलित होना और किसी रोग या असामान्यता का संकेत देना।",
+                "ur": "'Pathologisch' کا مطلب ہے معمول کی حد سے نمایاں طور پر انحراف کرنا اور کسی بیماری یا غیر معمولی کیفیت کی نشاندہی کرنا۔",
+                "tr": "'Pathologisch', normal aralıktan önemli ölçüde sapma ve bir hastalık veya anormalliği belirtmek anlamına gelir."
+            },
+            "points": 10,
+            "id": "e39_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wozu dient eine 'Verlaufskontrolle'?",
+                "en": "What is the purpose of a 'Verlaufskontrolle'?",
+                "bn": "'Verlaufskontrolle'-এর উদ্দেশ্য কী?",
+                "hi": "'वेरलौफ्स्कॉन्ट्रोल' का उद्देश्य क्या है?",
+                "ur": "'ورلوف کُنٹرل' کا مقصد کیا ہے؟",
+                "tr": "'Verlaufskontrolle'nin amacı nedir?"
+            },
+            "options": [
+                "Um einen einmaligen Wert zu messen",
+                "Um die Entwicklung eines Laborwertes über die Zeit zu beobachten",
+                "Um den Referenzbereich festzulegen",
+                "Um die Laborgeräte zu kalibrieren"
+            ],
+            "correctAnswer": "Um die Entwicklung eines Laborwertes über die Zeit zu beobachten",
+            "explanation": {
+                "en": "A 'Verlaufskontrolle' is used to monitor the trend of a lab value over time, often to assess the effectiveness of treatment or the progression of a disease.",
+                "bn": "একটি 'Verlaufskontrolle' সময়ের সাথে সাথে একটি ল্যাব মানের প্রবণতা নিরীক্ষণ করতে ব্যবহৃত হয়, প্রায়শই চিকিত্সার কার্যকারিতা বা রোগের অগ্রগতি মূল্যায়ন করতে।",
+                "hi": "एक 'वेरलौफ्स्कॉन्ट्रोल' का उपयोग समय के साथ एक लैब मान की प्रवृत्ति की निगरानी के लिए किया जाता है, अक्सर उपचार की प्रभावशीलता या रोग की प्रगति का आकलन करने के लिए।",
+                "ur": "ایک 'ورلوف کُنٹرل' وقت کے ساتھ ایک لیب ویلیو کے رجحان کی نگرانی کے لیے استعمال ہوتا ہے، اکثر علاج کی تاثیر یا بیماری کی ترقی کا جائزہ لینے کے لیے۔",
+                "tr": "'Verlaufskontrolle', genellikle tedavinin etkinliğini veya bir hastalığın ilerlemesini değerlendirmek için zaman içindeki bir laboratuvar değerinin eğilimini izlemek için kullanılır."
+            },
+            "points": 10,
+            "id": "e39_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'erniedrigt' in einem Laborbericht?",
+                "en": "What does 'erniedrigt' mean in a lab report?",
+                "bn": "একটি ল্যাব রিপোর্টে 'erniedrigt' মানে কী?",
+                "hi": "एक लैब रिपोर्ट में 'erniedrigt' का क्या मतलब है?",
+                "ur": "لیب رپورٹ میں 'erniedrigt' کا کیا مطلب ہے؟",
+                "tr": "Bir laboratuvar raporunda 'erniedrigt' ne anlama gelir?"
+            },
+            "options": [
+                "Erhöht",
+                "Normal",
+                "Zu niedrig",
+                "Unverändert"
+            ],
+            "correctAnswer": "Zu niedrig",
+            "explanation": {
+                "en": "'Erniedrigt' means 'decreased' or 'lower than normal'.",
+                "bn": "'Erniedrigt' মানে 'কমে যাওয়া' বা 'স্বাভাবিকের চেয়ে কম'।",
+                "hi": "'Erniedrigt' का मतलब है 'कम हो जाना' या 'सामान्य से कम'।",
+                "ur": "'Erniedrigt' کا مطلب ہے 'کم ہو جانا' یا 'معمول سے کم'۔",
+                "tr": "'Erniedrigt', 'azalmış' veya 'normalden daha düşük' anlamına gelir."
+            },
+            "points": 10,
+            "id": "e39_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage beschreibt am besten einen 'Laborwert'?",
+                "en": "Which statement best describes a 'Laborwert'?",
+                "bn": "কোন বিবৃতিটি 'Laborwert'-কে সবচেয়ে ভালোভাবে বর্ণনা করে?",
+                "hi": "कौन सा कथन 'Laborwert' का सबसे अच्छा वर्णन करता है?",
+                "ur": "کون سا بیان 'Laborwert' کی بہترین وضاحت کرتا ہے؟",
+                "tr": "Hangi ifade 'Laborwert'i en iyi şekilde tanımlar?"
+            },
+            "options": [
+                "Die Krankengeschichte des Patienten",
+                "Ein messbarer Parameter, der im Labor bestimmt wird",
+                "Die Medikamente, die der Patient einnimmt",
+                "Die Symptome des Patienten"
+            ],
+            "correctAnswer": "Ein messbarer Parameter, der im Labor bestimmt wird",
+            "explanation": {
+                "en": "A 'Laborwert' is a measurable parameter determined in the laboratory, used for diagnosis and monitoring.",
+                "bn": "একটি 'Laborwert' হল একটি পরিমাপযোগ্য প্যারামিটার যা ল্যাবরেটরিতে নির্ণয় এবং নিরীক্ষণের জন্য নির্ধারিত হয়।",
+                "hi": "एक 'Laborwert' एक मापने योग्य पैरामीटर है जो प्रयोगशाला में निदान और निगरानी के लिए निर्धारित किया जाता है।",
+                "ur": "ایک 'Laborwert' ایک قابل پیمائش پیرامیٹر ہے جو تشخیص اور نگرانی کے لیے لیبارٹری میں طے کیا جاتا ہے۔",
+                "tr": "'Laborwert', teşhis ve izleme için laboratuvarda belirlenen ölçülebilir bir parametredir."
+            },
+            "points": 10,
+            "id": "e39_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Ein Laborwert liegt außerhalb des Referenzbereichs. Was bedeutet das immer?",
+                "en": "A lab value is outside the reference range. What does that always mean?",
+                "bn": "একটি ল্যাব মান রেফারেন্স পরিসরের বাইরে। এর মানে সবসময় কী?",
+                "hi": "एक लैब मान संदर्भ सीमा से बाहर है। इसका हमेशा क्या मतलब होता है?",
+                "ur": "لیب ویلیو ریفرنس رینج سے باہر ہے۔ اس کا ہمیشہ کیا مطلب ہوتا ہے؟",
+                "tr": "Bir laboratuvar değeri referans aralığının dışında. Bu her zaman ne anlama gelir?"
+            },
+            "options": [
+                "Der Patient ist gesund.",
+                "Der Patient benötigt sofortige Behandlung.",
+                "Der Patient hat eine Krankheit.",
+                "Es ist notwendig, weitere Untersuchungen durchzuführen."
+            ],
+            "correctAnswer": "Es ist notwendig, weitere Untersuchungen durchzuführen.",
+            "explanation": {
+                "en": "A lab value outside the reference range doesn't always indicate disease but necessitates further investigation.",
+                "bn": "রেফারেন্স পরিসরের বাইরের একটি ল্যাব মান সর্বদা রোগের ইঙ্গিত দেয় না তবে আরও তদন্তের প্রয়োজন।",
+                "hi": "रेफरेंस सीमा से बाहर एक लैब मान हमेशा बीमारी का संकेत नहीं देता है, लेकिन आगे जांच की आवश्यकता है।",
+                "ur": "ریفرنس رینج سے باہر لیب ویلیو ہمیشہ بیماری کی نشاندہی نہیں کرتی ہے لیکن مزید تحقیقات کی ضرورت ہے۔",
+                "tr": "Referans aralığının dışındaki bir laboratuvar değeri her zaman hastalığı göstermez, ancak daha fazla araştırma gerektirir."
+            },
+            "points": 10,
+            "id": "e39_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Ziel einer Verlaufskontrolle bei einem Patienten mit Diabetes?",
+                "en": "What is the goal of a Verlaufskontrolle in a patient with diabetes?",
+                "bn": "ডায়াবেটিস রোগীদের ক্ষেত্রে Verlaufskontrolle এর লক্ষ্য কী?",
+                "hi": "मधुमेह के रोगियों में Verlaufskontrolle का क्या लक्ष्य है?",
+                "ur": "ذیابیطس کے مریضوں میں Verlaufskontrolle کا کیا مقصد ہے؟",
+                "tr": "Diyabetli bir hastada Verlaufskontrolle'nin amacı nedir?"
+            },
+            "options": [
+                "Die Körpertemperatur zu messen",
+                "Den Blutzuckerspiegel über die Zeit zu überwachen",
+                "Den Blutdruck zu senken",
+                "Die Lungenfunktion zu verbessern"
+            ],
+            "correctAnswer": "Den Blutzuckerspiegel über die Zeit zu überwachen",
+            "explanation": {
+                "en": "The goal of a Verlaufskontrolle in diabetes is to monitor blood sugar levels over time for effective management.",
+                "bn": "ডায়াবেটিসে Verlaufskontrolle-এর লক্ষ্য হল কার্যকর ব্যবস্থাপনার জন্য সময়ের সাথে সাথে রক্তের শর্করার মাত্রা নিরীক্ষণ করা।",
+                "hi": "मधुमेह में Verlaufskontrolle का लक्ष्य प्रभावी प्रबंधन के लिए समय के साथ रक्त शर्करा के स्तर की निगरानी करना है।",
+                "ur": "ذیابیطس میں Verlaufskontrolle کا مقصد مؤثر انتظام کے لیے وقت کے ساتھ خون میں شکر کی سطح کی نگرانی کرنا ہے۔",
+                "tr": "Diyabette Verlaufskontrolle'nin amacı, etkili yönetim için zaman içinde kan şekeri seviyelerini izlemektir."
+            },
+            "points": 10,
+            "id": "e39_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welcher Begriff beschreibt einen Laborwert, der nur geringfügig vom Referenzbereich abweicht?",
+                "en": "Which term describes a lab value that deviates only slightly from the reference range?",
+                "bn": "কোন শব্দটি একটি ল্যাব মানকে বর্ণনা করে যা রেফারেন্স পরিসর থেকে সামান্য বিচ্যুত হয়?",
+                "hi": "कौन सा शब्द एक लैब मान का वर्णन करता है जो संदर्भ सीमा से केवल थोड़ा ही विचलित होता है?",
+                "ur": "کون سی اصطلاح ایک لیب ویلیو کی وضاحت کرتی ہے جو ریفرنس رینج سے صرف قدرے ہٹ جاتی ہے؟",
+                "tr": "Hangi terim, referans aralığından sadece hafifçe sapan bir laboratuvar değerini tanımlar?"
+            },
+            "options": [
+                "Pathologisch",
+                "Kritisch",
+                "Grenzwertig",
+                "Normal"
+            ],
+            "correctAnswer": "Grenzwertig",
+            "explanation": {
+                "en": "'Grenzwertig' describes a lab value that is borderline or close to the reference range.",
+                "bn": "'Grenzwertig' একটি ল্যাব মানকে বর্ণনা করে যা প্রান্তিক বা রেফারেন্স পরিসরের কাছাকাছি।",
+                "hi": "'Grenzwertig' एक लैब मान का वर्णन करता है जो सीमा रेखा पर है या संदर्भ सीमा के करीब है।",
+                "ur": "'Grenzwertig' ایک لیب ویلیو کی وضاحت کرتا ہے جو سرحدی ہے یا ریفرنس رینج کے قریب ہے۔",
+                "tr": "'Grenzwertig', sınırda veya referans aralığına yakın olan bir laboratuvar değerini tanımlar."
+            },
+            "points": 10,
+            "id": "e39_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Information ist am wichtigsten, um einen Laborwert zu interpretieren?",
+                "en": "Which information is most important for interpreting a lab value?",
+                "bn": "একটি ল্যাব মান ব্যাখ্যা করার জন্য কোন তথ্য সবচেয়ে গুরুত্বপূর্ণ?",
+                "hi": "एक लैब मान की व्याख्या करने के लिए कौन सी जानकारी सबसे महत्वपूर्ण है?",
+                "ur": "لیب ویلیو کی تشریح کے لیے کون سی معلومات سب سے اہم ہے؟",
+                "tr": "Bir laboratuvar değerini yorumlamak için hangi bilgi en önemlidir?"
+            },
+            "options": [
+                "Das Alter des Patienten",
+                "Der Referenzbereich",
+                "Die Farbe des Urins",
+                "Die Uhrzeit der Blutentnahme"
+            ],
+            "correctAnswer": "Der Referenzbereich",
+            "explanation": {
+                "en": "The reference range is crucial for interpreting a lab value as it indicates what is considered normal.",
+                "bn": "রেফারেন্স পরিসর একটি ল্যাব মান ব্যাখ্যা করার জন্য অত্যন্ত গুরুত্বপূর্ণ কারণ এটি নির্দেশ করে যে স্বাভাবিক কী।",
+                "hi": "संदर्भ सीमा एक लैब मान की व्याख्या करने के लिए महत्वपूर्ण है क्योंकि यह इंगित करता है कि सामान्य क्या माना जाता है।",
+                "ur": "ریفرنس رینج ایک لیب ویلیو کی تشریح کے لیے بہت ضروری ہے کیونکہ یہ بتاتا ہے کہ کس چیز کو نارمل سمجھا جاتا ہے۔",
+                "tr": "Referans aralığı, bir laboratuvar değerini yorumlamak için çok önemlidir, çünkü neyin normal kabul edildiğini gösterir."
+            },
+            "points": 10,
+            "id": "e39_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein Laborwert, der unterhalb des Referenzbereichs liegt, wird als __________ bezeichnet.",
+                "en": "A lab value that is below the reference range is called __________.",
+                "bn": "একটি ল্যাব মান যা রেফারেন্স পরিসরের নীচে থাকে তাকে __________ বলা হয়।",
+                "hi": "एक लैब मान जो संदर्भ सीमा से नीचे है, उसे __________ कहा जाता है।",
+                "ur": "ایک لیب ویلیو جو ریفرنس رینج سے نیچے ہے اسے __________ کہا جاتا ہے۔",
+                "tr": "Referans aralığının altındaki bir laboratuvar değerine __________ denir."
+            },
+            "options": [],
+            "correctAnswer": "erniedrigt",
+            "explanation": {
+                "en": "A lab value below the reference range is considered 'erniedrigt' (decreased).",
+                "bn": "রেফারেন্স পরিসরের নীচে একটি ল্যাব মানকে 'erniedrigt' (কমে যাওয়া) হিসাবে বিবেচনা করা হয়।",
+                "hi": "संदर्भ सीमा से नीचे एक लैब मान को 'erniedrigt' (कम) माना जाता है।",
+                "ur": "ریفرنس رینج سے نیچے ایک لیب ویلیو کو 'erniedrigt' (کم) سمجھا جاتا ہے۔",
+                "tr": "Referans aralığının altındaki bir laboratuvar değeri 'erniedrigt' (azalmış) olarak kabul edilir."
+            },
+            "points": 10,
+            "id": "e39_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die regelmäßige Überprüfung von Laborwerten nennt man __________.",
+                "en": "The regular monitoring of lab values is called __________.",
+                "bn": "ল্যাব মানের নিয়মিত পর্যবেক্ষণকে __________ বলা হয়।",
+                "hi": "लैब मानों की नियमित निगरानी को __________ कहा जाता है।",
+                "ur": "لیب اقدار کی باقاعدہ نگرانی کو __________ کہا جاتا ہے۔",
+                "tr": "Laboratuvar değerlerinin düzenli olarak izlenmesine __________ denir."
+            },
+            "options": [],
+            "correctAnswer": "Verlaufskontrolle",
+            "explanation": {
+                "en": "Regular monitoring of lab values is called 'Verlaufskontrolle' (trend monitoring).",
+                "bn": "ল্যাব মানের নিয়মিত পর্যবেক্ষণকে 'Verlaufskontrolle' (প্রবণতা নিরীক্ষণ) বলা হয়।",
+                "hi": "लैब मानों की नियमित निगरानी को 'Verlaufskontrolle' (प्रवृत्ति निगरानी) कहा जाता है।",
+                "ur": "لیب اقدار کی باقاعدہ نگرانی کو 'Verlaufskontrolle' (رجحان کی نگرانی) کہا جاتا ہے۔",
+                "tr": "Laboratuvar değerlerinin düzenli olarak izlenmesine 'Verlaufskontrolle' (trend izleme) denir."
+            },
+            "points": 10,
+            "id": "e39_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Der __________ gibt an, in welchem Bereich ein Laborwert bei gesunden Menschen liegen sollte.",
+                "en": "The __________ indicates in which range a lab value should be for healthy people.",
+                "bn": "__________ নির্দেশ করে যে সুস্থ মানুষের মধ্যে একটি ল্যাব মান কোন পরিসরে থাকা উচিত।",
+                "hi": "__________ इंगित करता है कि स्वस्थ लोगों में एक लैब मान किस सीमा में होना चाहिए।",
+                "ur": "__________ اشارہ کرتا ہے کہ صحت مند لوگوں میں لیب ویلیو کس حد میں ہونی چاہیے۔",
+                "tr": "__________ sağlıklı kişilerde bir laboratuvar değerinin hangi aralıkta olması gerektiğini gösterir."
+            },
+            "options": [],
+            "correctAnswer": "Referenzbereich",
+            "explanation": {
+                "en": "The 'Referenzbereich' (reference range) indicates the expected range for a lab value in healthy individuals.",
+                "bn": "'Referenzbereich' (রেফারেন্স পরিসর) সুস্থ ব্যক্তিদের মধ্যে একটি ল্যাব মানের প্রত্যাশিত পরিসর নির্দেশ করে।",
+                "hi": "'Referenzbereich' (संदर्भ सीमा) स्वस्थ व्यक्तियों में एक लैब मान की अपेक्षित सीमा को इंगित करता है।",
+                "ur": "'Referenzbereich' (ریفرنس رینج) صحت مند افراد میں لیب ویلیو کی متوقع حد کی نشاندہی کرتا ہے۔",
+                "tr": "'Referenzbereich' (referans aralığı), sağlıklı bireylerde bir laboratuvar değeri için beklenen aralığı gösterir."
+            },
+            "points": 10,
+            "id": "e39_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein deutlich vom Normalwert abweichender Laborwert wird als __________ bezeichnet.",
+                "en": "A lab value that deviates significantly from the normal value is called __________.",
+                "bn": "স্বাভাবিক মান থেকে উল্লেখযোগ্যভাবে বিচ্যুত হওয়া একটি ল্যাব মানকে __________ বলা হয়।",
+                "hi": "सामान्य मान से महत्वपूर्ण रूप से विचलित होने वाले लैब मान को __________ कहा जाता है।",
+                "ur": "معمول کی قیمت سے نمایاں طور پر ہٹنے والی لیب ویلیو کو __________ کہا جاتا ہے۔",
+                "tr": "Normal değerden önemli ölçüde sapan bir laboratuvar değerine __________ denir."
+            },
+            "options": [],
+            "correctAnswer": "pathologisch",
+            "explanation": {
+                "en": "A lab value significantly deviating from the normal is called 'pathologisch' (pathological).",
+                "bn": "স্বাভাবিক থেকে উল্লেখযোগ্যভাবে বিচ্যুত হওয়া একটি ল্যাব মানকে 'pathologisch' (প্যাথোলজিক্যাল) বলা হয়।",
+                "hi": "सामान्य से महत्वपूर्ण रूप से विचलित होने वाले लैब मान को 'pathologisch' (पैथोलॉजिकल) कहा जाता है।",
+                "ur": "معمول سے نمایاں طور پر ہٹنے والی لیب ویلیو کو 'pathologisch' (پیتھولوجیکل) کہا جاتا ہے۔",
+                "tr": "Normalden önemli ölçüde sapan bir laboratuvar değerine 'pathologisch' (patolojik) denir."
+            },
+            "points": 10,
+            "id": "e39_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein Laborwert, der über dem Referenzbereich liegt, wird als __________ bezeichnet.",
+                "en": "A lab value that is above the reference range is called __________.",
+                "bn": "একটি ল্যাব মান যা রেফারেন্স পরিসরের উপরে থাকে তাকে __________ বলা হয়।",
+                "hi": "एक लैब मान जो संदर्भ सीमा से ऊपर है, उसे __________ कहा जाता है।",
+                "ur": "ایک لیب ویلیو جو ریفرنس رینج سے اوپر ہے اسے __________ کہا جاتا ہے۔",
+                "tr": "Referans aralığının üzerindeki bir laboratuvar değerine __________ denir."
+            },
+            "options": [],
+            "correctAnswer": "erhöht",
+            "explanation": {
+                "en": "A lab value above the reference range is considered 'erhöht' (elevated).",
+                "bn": "রেফারেন্স পরিসরের উপরে একটি ল্যাব মানকে 'erhöht' (উন্নত) হিসাবে বিবেচনা করা হয়।",
+                "hi": "संदर्भ सीमा से ऊपर एक लैब मान को 'erhöht' (ऊंचा) माना जाता है।",
+                "ur": "ریفرنس رینج سے اوپر ایک لیب ویلیو کو 'erhöht' (بلند) سمجھا جاتا ہے۔",
+                "tr": "Referans aralığının üzerindeki bir laboratuvar değerine 'erhöht' (yüksek) denir."
+            },
+            "points": 10,
+            "id": "e39_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Leberwerte sind erhöht.",
+                "en": "The liver values are elevated.",
+                "bn": "লিভারের মান বেড়ে গেছে।",
+                "hi": "लीवर के मान बढ़े हुए हैं।",
+                "ur": "جگر کی اقدار بلند ہیں۔",
+                "tr": "Karaciğer değerleri yüksek."
+            },
+            "options": [],
+            "correctAnswer": "The liver values are elevated.",
+            "explanation": {
+                "en": "This translates directly to the liver values being above the normal reference range.",
+                "bn": "এটি সরাসরি অনুবাদ করে লিভারের মান স্বাভাবিক রেফারেন্স পরিসরের উপরে।",
+                "hi": "यह सीधे तौर पर यकृत के मानों को सामान्य संदर्भ सीमा से ऊपर होने का अनुवाद करता है।",
+                "ur": "یہ براہ راست جگر کی اقدار کو معمول کی حوالہ حد سے اوپر ہونے کا ترجمہ کرتا ہے۔",
+                "tr": "Bu, doğrudan karaciğer değerlerinin normal referans aralığının üzerinde olduğu anlamına gelir."
+            },
+            "points": 10,
+            "id": "e39_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Wir müssen eine Verlaufskontrolle des Blutzuckers durchführen.",
+                "en": "We need to perform a trend monitoring of blood sugar.",
+                "bn": "আমাদের রক্তে শর্করার একটি প্রবণতা পর্যবেক্ষণ করতে হবে।",
+                "hi": "हमें रक्त शर्करा की प्रवृत्ति निगरानी करनी होगी।",
+                "ur": "ہمیں خون میں شکر کی رجحان کی نگرانی کرنی ہوگی۔",
+                "tr": "Kan şekerinin bir trend takibini yapmamız gerekiyor."
+            },
+            "options": [],
+            "correctAnswer": "We need to perform a trend monitoring of blood sugar.",
+            "explanation": {
+                "en": "This translates to needing to monitor the blood sugar levels over time.",
+                "bn": "এর অর্থ হল সময়ের সাথে সাথে রক্তের শর্করার মাত্রা নিরীক্ষণ করা দরকার।",
+                "hi": "इसका अर्थ है समय के साथ रक्त शर्करा के स्तर की निगरानी करने की आवश्यकता है।",
+                "ur": "اس کا مطلب ہے وقت کے ساتھ خون میں شکر کی سطح کی نگرانی کرنے کی ضرورت ہے۔",
+                "tr": "Bu, zaman içinde kan şekeri seviyelerini izleme ihtiyacına karşılık gelir."
+            },
+            "points": 10,
+            "id": "e39_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Der Laborwert liegt im Referenzbereich.",
+                "en": "The lab value is within the reference range.",
+                "bn": "ল্যাব মান রেফারেন্স পরিসরের মধ্যে রয়েছে।",
+                "hi": "लैब मान संदर्भ सीमा के भीतर है।",
+                "ur": "لیب ویلیو ریفرنس رینج کے اندر ہے۔",
+                "tr": "Laboratuvar değeri referans aralığında."
+            },
+            "options": [],
+            "correctAnswer": "The lab value is within the reference range.",
+            "explanation": {
+                "en": "This indicates the lab result is within the normal acceptable parameters.",
+                "bn": "এটি ইঙ্গিত দেয় যে ল্যাব ফলাফল স্বাভাবিক গ্রহণযোগ্য প্যারামিটারের মধ্যে রয়েছে।",
+                "hi": "यह इंगित करता है कि लैब परिणाम सामान्य स्वीकार्य पैरामीटर के भीतर है।",
+                "ur": "اس سے ظاہر ہوتا ہے کہ لیب کا نتیجہ معمول کے قابل قبول پیرامیٹرز کے اندر ہے۔",
+                "tr": "Bu, laboratuvar sonucunun normal kabul edilebilir parametreler içinde olduğunu gösterir."
+            },
+            "points": 10,
+            "id": "e39_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

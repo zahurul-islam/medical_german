@@ -1,14 +1,1601 @@
-{"id":"section_22","phaseId":"phase2","order":22,"titleDe":"Atmungssystem","title":{"en":"Respiratory System","bn":"শ্বাসতন্ত্র","hi":"श्वसन तंत्र","ur":"نظام تنفس","tr":"Solunum Sistemi"},"level":"B2","estimatedMinutes":40,"vocabulary":[
-{"id":"v22_01","germanTerm":"Pneumonie","article":"die","plural":"Pneumonien","translation":{"en":"Pneumonia","bn":"নিউমোনিয়া","hi":"निमोनिया","ur":"نمونیا","tr":"Zatürre"}},
-{"id":"v22_02","germanTerm":"Asthma","article":"das","plural":"-","translation":{"en":"Asthma","bn":"অ্যাজমা","hi":"अस्थमा","ur":"دمہ","tr":"Astım"}},
-{"id":"v22_03","germanTerm":"COPD","article":"die","plural":"-","translation":{"en":"COPD","bn":"সিওপিডি","hi":"सीओपीडी","ur":"سی او پی ڈی","tr":"KOAH"}},
-{"id":"v22_04","germanTerm":"Sauerstofftherapie","article":"die","plural":"-","translation":{"en":"Oxygen Therapy","bn":"অক্সিজেন থেরাপি","hi":"ऑक्सीजन थेरेपी","ur":"آکسیجن تھراپی","tr":"Oksijen tedavisi"}},
-{"id":"v22_05","germanTerm":"Bronchitis","article":"die","plural":"Bronchitiden","translation":{"en":"Bronchitis","bn":"ব্রঙ্কাইটিস","hi":"ब्रोंकाइटिस","ur":"برونکائٹس","tr":"Bronşit"}},
-{"id":"v22_06","germanTerm":"Lungenembolie","article":"die","plural":"Lungenembolien","translation":{"en":"Pulmonary Embolism","bn":"পালমোনারি এম্বোলিজম","hi":"फुफ्फुसीय अन्त:शल्यता","ur":"پلمونری ایمبولزم","tr":"Pulmoner emboli"}},
-{"id":"v22_07","germanTerm":"Pleuraerguss","article":"der","plural":"Pleuraergüsse","translation":{"en":"Pleural Effusion","bn":"প্লুরাল ইফিউশন","hi":"प्लूरल इफ्यूजन","ur":"پلیورل افیوژن","tr":"Plevral efüzyon"}},
-{"id":"v22_08","germanTerm":"Intubation","article":"die","plural":"Intubationen","translation":{"en":"Intubation","bn":"ইন্টিউবেশন","hi":"इंट्यूबेशन","ur":"انٹیوبیشن","tr":"Entübasyon"}}
-],"dialogues":[{"id":"d22_01","title":{"en":"Respiratory Distress"},"lines":[
-{"speaker":"Arzt","germanText":"Patient mit Atemnot und produktivem Husten.","translation":{"en":"Patient with dyspnea and productive cough."}},
-{"speaker":"Schwester","germanText":"Sauerstoffsättigung bei 88%.","translation":{"en":"Oxygen saturation at 88%."}},
-{"speaker":"Arzt","germanText":"Sauerstoff geben und Röntgen-Thorax anfordern.","translation":{"en":"Give oxygen and order chest X-ray."}}
-]}],"exercises":[{"id":"e22_01","type":"multipleChoice","question":{"en":"What is 'Pneumonie'?"},"options":["Pneumonia","Asthma","Bronchitis"],"correctAnswer":"Pneumonia","points":10}]}
+{
+    "id": "section_22",
+    "phaseId": "phase2",
+    "order": 22,
+    "titleDe": "Atmungssystem",
+    "title": {
+        "en": "Respiratory System: Asthma, COPD, Pneumonia, Bronchitis, Dyspnea, Ventilation, Lung Function",
+        "bn": "শ্বাসতন্ত্র: হাঁপানি, COPD, নিউমোনিয়া, ব্রঙ্কাইটিস, শ্বাসকষ্ট, বায়ুচলাচল, ফুসফুসের কার্যকারিতা",
+        "hi": "श्वसन प्रणाली: अस्थमा, सीओपीडी, निमोनिया, ब्रोंकाइटिस, डिस्पनिया, वेंटिलेशन, फेफड़े का कार्य",
+        "ur": "نظام تنفس: دمہ، COPD، نمونیا، برونکائٹس، ڈسپنیا، وینٹیلیشن، پھیپھڑوں کا کام",
+        "tr": "Solunum Sistemi: Astım, KOAH, Zatürre, Bronşit, Dispne, Ventilasyon, Akciğer Fonksiyonu"
+    },
+    "description": {
+        "en": "This section covers common respiratory diseases, diagnostic procedures, and therapeutic interventions related to the respiratory system.",
+        "bn": "এই বিভাগে শ্বাসতন্ত্রের সাধারণ রোগ, ডায়াগনস্টিক পদ্ধতি এবং থেরাপিউটিক হস্তক্ষেপগুলি অন্তর্ভুক্ত করা হয়েছে।",
+        "hi": "इस खंड में श्वसन प्रणाली से संबंधित सामान्य श्वसन रोगों, नैदानिक ​​प्रक्रियाओं और चिकित्सीय हस्तक्षेपों को शामिल किया गया है।",
+        "ur": "اس سیکشن میں سانس کے عام امراض، تشخیصی طریقہ کار اور سانس کے نظام سے متعلق علاج معالجے شامل ہیں۔",
+        "tr": "Bu bölüm, solunum sistemi ile ilgili yaygın solunum yolu hastalıklarını, tanısal prosedürleri ve terapötik müdahaleleri kapsar."
+    },
+    "level": "B2",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, we will explore the terminology and clinical contexts surrounding common respiratory diseases. You will learn to discuss diagnosis, treatment, and patient management for conditions like asthma, COPD, and pneumonia.",
+            "bn": "এই বিভাগে, আমরা সাধারণ শ্বাসযন্ত্রের রোগগুলির চারপাশে পরিভাষা এবং ক্লিনিকাল প্রেক্ষাপটগুলি অন্বেষণ করব। আপনি হাঁপানি, COPD এবং নিউমোনিয়ার মতো অবস্থার জন্য রোগ নির্ণয়, চিকিত্সা এবং রোগীর পরিচালনা নিয়ে আলোচনা করতে শিখবেন।",
+            "hi": "इस खंड में, हम सामान्य श्वसन रोगों के आसपास की शब्दावली और नैदानिक संदर्भों का पता लगाएंगे। आप अस्थमा, सीओपीडी और निमोनिया जैसी स्थितियों के लिए निदान, उपचार और रोगी प्रबंधन पर चर्चा करना सीखेंगे।",
+            "ur": "اس حصے میں، ہم عام سانس کی بیماریوں کے گرد اصطلاحات اور طبی سیاق و سباق کا جائزہ لیں گے۔ آپ دمہ، COPD اور نمونیا جیسی حالتوں کے لیے تشخیص، علاج اور مریض کے انتظام پر بات کرنا سیکھیں گے۔",
+            "tr": "Bu bölümde, yaygın solunum yolu hastalıkları etrafındaki terminolojiyi ve klinik bağlamları inceleyeceğiz. Astım, KOAH ve zatürre gibi durumlar için tanı, tedavi ve hasta yönetimini tartışmayı öğreneceksiniz."
+        },
+        "grammarFocus": {
+            "en": {
+                "point1": "Use of dative and accusative cases with prepositions related to the body (e.g., 'am' vs. 'auf' + organ).",
+                "point2": "Understanding and using medical prefixes and suffixes (e.g., 'pneumo-', '-itis', '-ektomie')."
+            },
+            "bn": {
+                "point1": "শরীরের সাথে সম্পর্কিত উপসর্গগুলির সাথে ডেটিভ এবং অভিযুক্ত কেসগুলির ব্যবহার (যেমন, 'am' বনাম 'auf' + অঙ্গ)।",
+                "point2": "চিকিৎসা উপসর্গ এবং প্রত্যয় বোঝা এবং ব্যবহার করা (যেমন, 'pneumo-', '-itis', '-ektomie')।"
+            },
+            "hi": {
+                "point1": "शरीर से संबंधित पूर्वसर्गों के साथ कर्म कारक और संप्रदान कारक का उपयोग (जैसे, 'am' बनाम 'auf' + अंग)।",
+                "point2": "चिकित्सा उपसर्गों और प्रत्ययों को समझना और उनका उपयोग करना (जैसे, 'pneumo-', '-itis', '-ektomie')।"
+            },
+            "ur": {
+                "point1": "جسم سے متعلق حروفِ جار کے ساتھ مفعولی اور اضافی معاملات کا استعمال (مثال کے طور پر، 'am' بمقابلہ 'auf' + عضو)۔",
+                "point2": "طبی سابقوں اور لاحقوں کو سمجھنا اور استعمال کرنا (مثال کے طور پر، 'pneumo-', '-itis', '-ektomie')۔"
+            },
+            "tr": {
+                "point1": "Vücutla ilgili edatlar ile datif ve akuzatif durumların kullanımı (örn. 'am' - 'auf' + organ).",
+                "point2": "Tıbbi önekleri ve sonekleri anlamak ve kullanmak (örn. 'pneumo-', '-itis', '-ektomie')."
+            }
+        },
+        "culturalNotes": {
+            "en": "German hospitals emphasize a structured and hierarchical approach to patient care, with clear roles and responsibilities for doctors, nurses, and other staff.",
+            "bn": "জার্মান হাসপাতালগুলি রোগীর যত্নের জন্য একটি কাঠামোগত এবং শ্রেণিবদ্ধ পদ্ধতির উপর জোর দেয়, যেখানে ডাক্তার, নার্স এবং অন্যান্য কর্মীদের জন্য সুস্পষ্ট ভূমিকা এবং দায়িত্ব রয়েছে।",
+            "hi": "जर्मन अस्पताल रोगी की देखभाल के लिए एक संरचित और पदानुक्रमित दृष्टिकोण पर जोर देते हैं, जिसमें डॉक्टरों, नर्सों और अन्य कर्मचारियों के लिए स्पष्ट भूमिकाएं और जिम्मेदारियां होती हैं।",
+            "ur": "جرمن ہسپتال مریض کی دیکھ بھال کے لیے ایک منظم اور درجہ بندی والے انداز پر زور دیتے ہیں، جہاں ڈاکٹروں، نرسوں اور دیگر عملے کے لیے واضح کردار اور ذمہ داریاں ہوتی ہیں۔",
+            "tr": "Alman hastaneleri, doktorlar, hemşireler ve diğer personel için net rol ve sorumluluklarla, hasta bakımına yapılandırılmış ve hiyerarşik bir yaklaşımı vurgular."
+        },
+        "summary": {
+            "en": "This section provides a foundation for understanding and communicating effectively about respiratory diseases in a medical setting.",
+            "bn": "এই বিভাগটি একটি মেডিকেল সেটিংয়ে শ্বাসযন্ত্রের রোগগুলি সম্পর্কে কার্যকরভাবে বোঝা এবং যোগাযোগের জন্য একটি ভিত্তি সরবরাহ করে।",
+            "hi": "यह खंड चिकित्सा सेटिंग में श्वसन रोगों के बारे में प्रभावी ढंग से समझने और संवाद करने के लिए एक आधार प्रदान करता है।",
+            "ur": "یہ سیکشن طبی ماحول میں سانس کی بیماریوں کے بارے میں مؤثر طریقے سے سمجھنے اور بات چیت کرنے کے لیے ایک بنیاد فراہم کرتا ہے۔",
+            "tr": "Bu bölüm, tıbbi bir ortamda solunum yolu hastalıklarını etkili bir şekilde anlamak ve iletişim kurmak için bir temel sağlar."
+        },
+        "learningObjectives": [
+            "Identify and define common respiratory diseases in German.",
+            "Describe the diagnostic procedures used to assess respiratory function.",
+            "Explain the treatment options available for different respiratory conditions.",
+            "Communicate effectively with patients and colleagues about respiratory health in a medical German context."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "Asthma",
+            "article": "das",
+            "plural": "Asthmen",
+            "pronunciation": "ˈastma",
+            "category": "noun",
+            "translation": {
+                "en": "Asthma",
+                "bn": "হাঁপানি",
+                "hi": "अस्थमा",
+                "ur": "دَمہ",
+                "tr": "Astım"
+            },
+            "exampleSentence": "Der Patient klagt über akute Atemnot aufgrund von Asthma.",
+            "exampleTranslation": {
+                "en": "The patient complains of acute shortness of breath due to asthma.",
+                "bn": "রোগী হাঁপানির কারণে তীব্র শ্বাসকষ্টের অভিযোগ করছেন।",
+                "hi": "रोगी अस्थमा के कारण तीव्र सांस लेने में कठिनाई की शिकायत करता है।",
+                "ur": "مریض دمہ کی وجہ سے شدید سانس کی قلت کی شکایت کر رہا ہے۔",
+                "tr": "Hasta astımdan dolayı akut nefes darlığından şikayet ediyor."
+            },
+            "id": "v22_01"
+        },
+        {
+            "germanTerm": "COPD",
+            "article": "die",
+            "plural": "COPDs",
+            "pronunciation": "koːpeːˈdeː",
+            "category": "noun",
+            "translation": {
+                "en": "COPD",
+                "bn": "সিওপিডি",
+                "hi": "सीओपीडी",
+                "ur": "سی او پی ڈی",
+                "tr": "KOAH"
+            },
+            "exampleSentence": "COPD ist eine chronisch obstruktive Lungenerkrankung.",
+            "exampleTranslation": {
+                "en": "COPD is a chronic obstructive pulmonary disease.",
+                "bn": "সিওপিডি একটি দীর্ঘস্থায়ী শ্বাসরোধী ফুসফুসের রোগ।",
+                "hi": "सीओपीडी एक पुरानी अवरोधक फुफ्फुसीय रोग है।",
+                "ur": "سی او پی ڈی ایک دائمی رکاوٹ والی پلمونری بیماری ہے۔",
+                "tr": "KOAH, kronik obstrüktif akciğer hastalığıdır."
+            },
+            "id": "v22_02"
+        },
+        {
+            "germanTerm": "Pneumonie",
+            "article": "die",
+            "plural": "Pneumonien",
+            "pronunciation": "pnɔɪ̯moˈniː",
+            "category": "noun",
+            "translation": {
+                "en": "Pneumonia",
+                "bn": "নিউমোনিয়া",
+                "hi": "निमोनिया",
+                "ur": "نمونیا",
+                "tr": "Zatürre"
+            },
+            "exampleSentence": "Die Röntgenaufnahme zeigt eine deutliche Pneumonie.",
+            "exampleTranslation": {
+                "en": "The X-ray shows a clear pneumonia.",
+                "bn": "এক্স-রে একটি স্পষ্ট নিউমোনিয়া দেখাচ্ছে।",
+                "hi": "एक्स-रे एक स्पष्ट निमोनिया दिखाता है।",
+                "ur": "ایکس رے ایک واضح نمونیا دکھاتا ہے۔",
+                "tr": "Röntgen filmi belirgin bir zatürre gösteriyor."
+            },
+            "id": "v22_03"
+        },
+        {
+            "germanTerm": "Bronchitis",
+            "article": "die",
+            "plural": "Bronchitiden",
+            "pronunciation": "bʁɔnˈçiːtɪs",
+            "category": "noun",
+            "translation": {
+                "en": "Bronchitis",
+                "bn": "ব্রঙ্কাইটিস",
+                "hi": "ब्रोंकाइटिस",
+                "ur": "برونکائٹس",
+                "tr": "Bronşit"
+            },
+            "exampleSentence": "Der Husten des Patienten deutet auf eine Bronchitis hin.",
+            "exampleTranslation": {
+                "en": "The patient's cough indicates bronchitis.",
+                "bn": "রোগীর কাশি ব্রঙ্কাইটিসের দিকে ইঙ্গিত করে।",
+                "hi": "रोगी की खांसी ब्रोंकाइटिस का संकेत देती है।",
+                "ur": "مریض کی کھانسی برونکائٹس کی نشاندہی کرتی ہے۔",
+                "tr": "Hastanın öksürüğü bronşite işaret ediyor."
+            },
+            "id": "v22_04"
+        },
+        {
+            "germanTerm": "Dyspnoe",
+            "article": "die",
+            "plural": "Dyspnoen",
+            "pronunciation": "dʏsˈpnoːə",
+            "category": "noun",
+            "translation": {
+                "en": "Dyspnea",
+                "bn": "শ্বাসকষ্ট",
+                "hi": "डिस्पनिया",
+                "ur": "تنگی تنفس",
+                "tr": "Dispne"
+            },
+            "exampleSentence": "Der Patient leidet unter schwerer Dyspnoe bei geringster Anstrengung.",
+            "exampleTranslation": {
+                "en": "The patient suffers from severe dyspnea with minimal exertion.",
+                "bn": "রোগী সামান্য পরিশ্রমেও গুরুতর শ্বাসকষ্টে ভোগেন।",
+                "hi": "रोगी को थोड़ी सी भी मेहनत करने पर गंभीर डिस्पेनिया होता है।",
+                "ur": "مریض کو معمولی سی کوشش پر بھی شدید تنگی تنفس ہوتی ہے۔",
+                "tr": "Hasta en ufak bir çabayla bile şiddetli dispneden muzdarip."
+            },
+            "id": "v22_05"
+        },
+        {
+            "germanTerm": "Beatmung",
+            "article": "die",
+            "plural": "Beatmungen",
+            "pronunciation": "bəˈʔaːtmʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "Ventilation",
+                "bn": "वेंटেলেশন",
+                "hi": "वेंटिलेशन",
+                "ur": "وینٹیلیشن",
+                "tr": "Ventilasyon"
+            },
+            "exampleSentence": "Der Patient benötigt aufgrund von Atemversagen eine Beatmung.",
+            "exampleTranslation": {
+                "en": "The patient requires ventilation due to respiratory failure.",
+                "bn": "শ্বাসযন্ত্রের ব্যর্থতার কারণে রোগীর ভেন্টিলেশনের প্রয়োজন।",
+                "hi": "श्वसन विफलता के कारण रोगी को वेंटिलेशन की आवश्यकता है।",
+                "ur": "سانس کی ناکامی کی وجہ سے مریض کو وینٹیلیشن کی ضرورت ہے۔",
+                "tr": "Hasta solunum yetmezliği nedeniyle ventilasyona ihtiyaç duyuyor."
+            },
+            "id": "v22_06"
+        },
+        {
+            "germanTerm": "Lungenfunktion",
+            "article": "die",
+            "plural": "Lungenfunktionen",
+            "pronunciation": "ˈlʊŋənfʊŋkt͡si̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "Lung function",
+                "bn": "ফুসফুসের কার্যকারিতা",
+                "hi": "फेफड़ों का कार्य",
+                "ur": "پھیپھڑوں کا فعل",
+                "tr": "Akciğer fonksiyonu"
+            },
+            "exampleSentence": "Die Lungenfunktion des Patienten ist stark eingeschränkt.",
+            "exampleTranslation": {
+                "en": "The patient's lung function is severely impaired.",
+                "bn": "রোগীর ফুসফুসের কার্যকারিতা মারাত্মকভাবে ক্ষতিগ্রস্ত।",
+                "hi": "रोगी के फेफड़ों का कार्य गंभीर रूप से बाधित है।",
+                "ur": "مریض کے پھیپھڑوں کا فعل شدید طور پر متاثر ہے۔",
+                "tr": "Hastanın akciğer fonksiyonu ciddi şekilde bozulmuştur."
+            },
+            "id": "v22_07"
+        },
+        {
+            "germanTerm": "Atemweg",
+            "article": "der",
+            "plural": "Atemwege",
+            "pronunciation": "ˈaːtəmˌveːk",
+            "category": "noun",
+            "translation": {
+                "en": "Airway",
+                "bn": "শ্বাসপথ",
+                "hi": "वायुमार्ग",
+                "ur": "ہوائی راستہ",
+                "tr": "Hava yolu"
+            },
+            "exampleSentence": "Der Atemweg des Patienten muss freigehalten werden.",
+            "exampleTranslation": {
+                "en": "The patient's airway must be kept clear.",
+                "bn": "রোগীর শ্বাসপথ পরিষ্কার রাখতে হবে।",
+                "hi": "रोगी के वायुमार्ग को साफ रखना चाहिए।",
+                "ur": "مریض کا ہوائی راستہ صاف رکھنا چاہیے۔",
+                "tr": "Hastanın hava yolu açık tutulmalıdır."
+            },
+            "id": "v22_08"
+        },
+        {
+            "germanTerm": "Husten",
+            "article": "der",
+            "plural": "Husten",
+            "pronunciation": "ˈhʊstn̩",
+            "category": "noun",
+            "translation": {
+                "en": "Cough",
+                "bn": "কাশি",
+                "hi": "खाँसी",
+                "ur": "کھانسی",
+                "tr": "Öksürük"
+            },
+            "exampleSentence": "Der Patient hat einen produktiven Husten.",
+            "exampleTranslation": {
+                "en": "The patient has a productive cough.",
+                "bn": "রোগীর একটি উৎপাদনশীল কাশি আছে।",
+                "hi": "रोगी को एक उत्पादक खांसी है।",
+                "ur": "مریض کو ایک پیداواری کھانسی ہے۔",
+                "tr": "Hastanın üretken bir öksürüğü var."
+            },
+            "id": "v22_09"
+        },
+        {
+            "germanTerm": "Auswurf",
+            "article": "der",
+            "plural": "Auswürfe",
+            "pronunciation": "ˈaʊ̯sˌvʊʁf",
+            "category": "noun",
+            "translation": {
+                "en": "Sputum",
+                "bn": "শ্লেষ্মা",
+                "hi": "कफ",
+                "ur": "بلغم",
+                "tr": "Balgam"
+            },
+            "exampleSentence": "Der Auswurf des Patienten wird zur mikrobiologischen Untersuchung eingeschickt.",
+            "exampleTranslation": {
+                "en": "The patient's sputum is sent for microbiological examination.",
+                "bn": "রোগীর শ্লেষ্মা মাইক্রোবায়োলজিক্যাল পরীক্ষার জন্য পাঠানো হয়েছে।",
+                "hi": "रोगी के कफ को सूक्ष्मजैविक जांच के लिए भेजा जाता है।",
+                "ur": "مریض کے بلغم کو مائکروبیولوجیکل معائنہ کے لیے بھیجا جاتا ہے۔",
+                "tr": "Hastanın balgamı mikrobiyolojik inceleme için gönderilir."
+            },
+            "id": "v22_10"
+        },
+        {
+            "germanTerm": "Inhalation",
+            "article": "die",
+            "plural": "Inhalationen",
+            "pronunciation": "ɪnhalaˈt͡si̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "Inhalation",
+                "bn": "ইনহেলেশন",
+                "hi": "साँस लेना",
+                "ur": "انہیلیشن",
+                "tr": "İnhalasyon"
+            },
+            "exampleSentence": "Der Patient erhält eine Inhalation mit einem Bronchodilatator.",
+            "exampleTranslation": {
+                "en": "The patient receives an inhalation with a bronchodilator.",
+                "bn": "রোগীকে ব্রঙ্কোডাইলেটর দিয়ে ইনহেলেশন দেওয়া হয়।",
+                "hi": "रोगी को ब्रोंकोडाइलेटर के साथ साँस लेना मिलता है।",
+                "ur": "مریض کو برونکڈیلیٹر کے ساتھ انہیلیشن دیا جاتا ہے۔",
+                "tr": "Hastaya bronkodilatör ile inhalasyon uygulanır."
+            },
+            "id": "v22_11"
+        },
+        {
+            "germanTerm": "Bronchodilatator",
+            "article": "der",
+            "plural": "Bronchodilatatoren",
+            "pronunciation": "bʁɔnçoːdilaˈtaːtoːʁ",
+            "category": "noun",
+            "translation": {
+                "en": "Bronchodilator",
+                "bn": "ব্রঙ্কোডাইলেটর",
+                "hi": "ब्रोन्कोडायलेटर",
+                "ur": "برونکڈیلیٹر",
+                "tr": "Bronkodilatör"
+            },
+            "exampleSentence": "Der Bronchodilatator erweitert die Atemwege.",
+            "exampleTranslation": {
+                "en": "The bronchodilator widens the airways.",
+                "bn": "ব্রঙ্কোডাইলেটর শ্বাসপথ প্রশস্ত করে।",
+                "hi": "ब्रोन्कोडायलेटर वायुमार्ग को चौड़ा करता है।",
+                "ur": "برونکڈیلیٹر ہوائی راستوں کو چوڑا کرتا ہے۔",
+                "tr": "Bronkodilatör hava yollarını genişletir."
+            },
+            "id": "v22_12"
+        },
+        {
+            "germanTerm": "Sauerstoff",
+            "article": "der",
+            "plural": "Sauerstoffe",
+            "pronunciation": "ˈzaʊ̯ɐˌʃtɔf",
+            "category": "noun",
+            "translation": {
+                "en": "Oxygen",
+                "bn": "অক্সিজেন",
+                "hi": "ऑक्सीजन",
+                "ur": "آکسیجن",
+                "tr": "Oksijen"
+            },
+            "exampleSentence": "Der Patient erhält Sauerstoff über eine Nasensonde.",
+            "exampleTranslation": {
+                "en": "The patient receives oxygen via a nasal cannula.",
+                "bn": "রোগী একটি নাকের নল দিয়ে অক্সিজেন গ্রহণ করেন।",
+                "hi": "रोगी को नाक प्रवेशनी के माध्यम से ऑक्सीजन मिलती है।",
+                "ur": "مریض کو ناک کی نلی کے ذریعے آکسیجن ملتی ہے۔",
+                "tr": "Hastaya nazal kanül yoluyla oksijen verilir."
+            },
+            "id": "v22_13"
+        },
+        {
+            "germanTerm": "Atemfrequenz",
+            "article": "die",
+            "plural": "Atemfrequenzen",
+            "pronunciation": "ˈaːtəmfreˌkvɛnt͡s",
+            "category": "noun",
+            "translation": {
+                "en": "Respiratory rate",
+                "bn": "শ্বাস-প্রশ্বাস হার",
+                "hi": "श्वसन दर",
+                "ur": "سانس لینے کی شرح",
+                "tr": "Solunum hızı"
+            },
+            "exampleSentence": "Die Atemfrequenz des Patienten ist erhöht.",
+            "exampleTranslation": {
+                "en": "The patient's respiratory rate is increased.",
+                "bn": "রোগীর শ্বাস-প্রশ্বাস হার বেড়ে গেছে।",
+                "hi": "रोगी की श्वसन दर बढ़ गई है।",
+                "ur": "مریض کی سانس لینے کی شرح بڑھ گئی ہے۔",
+                "tr": "Hastanın solunum hızı artmıştır."
+            },
+            "id": "v22_14"
+        },
+        {
+            "germanTerm": "Atemnot",
+            "article": "die",
+            "plural": "Atemnöte",
+            "pronunciation": "ˈaːtəmˌnoːt",
+            "category": "noun",
+            "translation": {
+                "en": "Shortness of breath",
+                "bn": "শ্বাসকষ্ট",
+                "hi": "सांस लेने में तकलीफ",
+                "ur": "سانس کی قلت",
+                "tr": "Nefes darlığı"
+            },
+            "exampleSentence": "Der Patient klagt über plötzliche Atemnot.",
+            "exampleTranslation": {
+                "en": "The patient complains of sudden shortness of breath.",
+                "bn": "রোগী হঠাৎ শ্বাসকষ্টের অভিযোগ করছেন।",
+                "hi": "रोगी अचानक सांस लेने में तकलीफ की शिकायत करता है।",
+                "ur": "مریض اچانک سانس کی قلت کی شکایت کرتا ہے۔",
+                "tr": "Hasta ani nefes darlığından şikayet ediyor."
+            },
+            "id": "v22_15"
+        },
+        {
+            "germanTerm": "Lungenödem",
+            "article": "das",
+            "plural": "Lungenödeme",
+            "pronunciation": "ˈlʊŋənʔøˌdeːm",
+            "category": "noun",
+            "translation": {
+                "en": "Pulmonary edema",
+                "bn": "ফুসফুসে পানি জমা",
+                "hi": "फुफ्फुसीय एडिमा",
+                "ur": "پلمونری ایڈیما",
+                "tr": "Akciğer ödemi"
+            },
+            "exampleSentence": "Das Röntgenbild zeigt ein ausgeprägtes Lungenödem.",
+            "exampleTranslation": {
+                "en": "The X-ray shows a pronounced pulmonary edema.",
+                "bn": "এক্স-রে তে একটি সুস্পষ্ট ফুসফুসে পানি জমা দেখা যাচ্ছে।",
+                "hi": "एक्स-रे एक स्पष्ट फुफ्फुसीय एडिमा दिखाता है।",
+                "ur": "ایکس رے ایک واضح پلمونری ایڈیما دکھاتا ہے۔",
+                "tr": "Röntgen filmi belirgin bir akciğer ödemi gösteriyor."
+            },
+            "id": "v22_16"
+        },
+        {
+            "germanTerm": "Spirometrie",
+            "article": "die",
+            "plural": "Spirometrien",
+            "pronunciation": "ʃpiːroːmɛˈtriː",
+            "category": "noun",
+            "translation": {
+                "en": "Spirometry",
+                "bn": "স্পিরোমেট্রি",
+                "hi": "स्पाइरोमेट्री",
+                "ur": "سپرومیٹری",
+                "tr": "Spirometri"
+            },
+            "exampleSentence": "Die Spirometrie wird zur Beurteilung der Lungenfunktion durchgeführt.",
+            "exampleTranslation": {
+                "en": "Spirometry is performed to assess lung function.",
+                "bn": "ফুসফুসের কার্যকারিতা মূল্যায়নের জন্য স্পিরোমেট্রি করা হয়।",
+                "hi": "फेफड़ों के कार्य का आकलन करने के लिए स्पाइरोमेट्री की जाती है।",
+                "ur": "پھیپھڑوں کے فعل کا اندازہ لگانے کے لیے سپیرومیٹری کی جاتی ہے۔",
+                "tr": "Spirometri akciğer fonksiyonunu değerlendirmek için yapılır."
+            },
+            "id": "v22_17"
+        },
+        {
+            "germanTerm": "inspiratorisch",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ɪnspiraˈtoːʁɪʃ",
+            "category": "adjective",
+            "translation": {
+                "en": "Inspiratory",
+                "bn": "শ্বাসগ্রহণমূলক",
+                "hi": "प्रेरक",
+                "ur": "انفسی",
+                "tr": "İnspiratuar"
+            },
+            "exampleSentence": "Der Patient zeigt einen inspiratorischen Stridor.",
+            "exampleTranslation": {
+                "en": "The patient shows an inspiratory stridor.",
+                "bn": "রোগী একটি শ্বাসগ্রহণমূলক স্ট্রিডর দেখাচ্ছেন।",
+                "hi": "रोगी एक प्रेरणादायक स्ट्रिडोर दिखाता है।",
+                "ur": "مریض ایک انفسی اسٹرائیڈر دکھاتا ہے۔",
+                "tr": "Hasta inspiratuar stridor gösteriyor."
+            },
+            "id": "v22_18"
+        },
+        {
+            "germanTerm": "exspiratorisch",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ɛksspiraˈtoːʁɪʃ",
+            "category": "adjective",
+            "translation": {
+                "en": "Expiratory",
+                "bn": "নিঃশ্বাসমূলক",
+                "hi": "उत्सर्जक",
+                "ur": "تنفسی",
+                "tr": "Ekspiratuar"
+            },
+            "exampleSentence": "Es liegt ein exspiratorischer Giemen vor.",
+            "exampleTranslation": {
+                "en": "There is an expiratory wheeze present.",
+                "bn": "একটি নিঃশ্বাসমূলক ঘড়ঘড় শব্দ উপস্থিত।",
+                "hi": "एक उत्सर्जक घरघराहट मौजूद है।",
+                "ur": "ایک تنفسی گھرگھراہٹ موجود ہے۔",
+                "tr": "Ekspiratuar bir hırıltı mevcuttur."
+            },
+            "id": "v22_19"
+        },
+        {
+            "germanTerm": "Atemgeräusch",
+            "article": "das",
+            "plural": "Atemgeräusche",
+            "pronunciation": "ˈaːtəmɡəˌʁɔɪ̯ʃ",
+            "category": "noun",
+            "translation": {
+                "en": "Breath sound",
+                "bn": "শ্বাস-প্রশ্বাসের শব্দ",
+                "hi": "साँस की आवाज़",
+                "ur": "سانس کی آواز",
+                "tr": "Solunum sesi"
+            },
+            "exampleSentence": "Die Atemgeräusche sind beidseits abgeschwächt.",
+            "exampleTranslation": {
+                "en": "The breath sounds are diminished on both sides.",
+                "bn": "শ্বাস-প্রশ্বাসের শব্দ উভয় দিকেই দুর্বল হয়ে গেছে।",
+                "hi": "साँस की आवाज़ दोनों तरफ से कम हो गई है।",
+                "ur": "سانس کی آوازیں دونوں طرف کمزور پڑ گئی ہیں۔",
+                "tr": "Solunum sesleri her iki tarafta da azalmıştır."
+            },
+            "id": "v22_20"
+        },
+        {
+            "germanTerm": "Atemtiefe",
+            "article": "die",
+            "plural": "Atemtiefen",
+            "pronunciation": "ˈaːtəmˌtiːfə",
+            "category": "noun",
+            "translation": {
+                "en": "Respiratory depth",
+                "bn": "শ্বাস গভীরতা",
+                "hi": "श्वसन गहराई",
+                "ur": "سانس لینے کی گہرائی",
+                "tr": "Solunum derinliği"
+            },
+            "exampleSentence": "Die Atemtiefe des Patienten ist flach.",
+            "exampleTranslation": {
+                "en": "The patient's respiratory depth is shallow.",
+                "bn": "রোগীর শ্বাসের গভীরতা অগভীর।",
+                "hi": "रोगी की श्वसन गहराई उथली है।",
+                "ur": "مریض کی سانس لینے کی گہرائی اتھلی ہے۔",
+                "tr": "Hastanın solunum derinliği sığdır."
+            },
+            "id": "v22_21"
+        },
+        {
+            "germanTerm": "Zyanose",
+            "article": "die",
+            "plural": "Zyanosen",
+            "pronunciation": "t͡sy̯aˈnoːzə",
+            "category": "noun",
+            "translation": {
+                "en": "Cyanosis",
+                "bn": "সায়ানোসিস",
+                "hi": "साइनोसिस",
+                "ur": "سیانوسس",
+                "tr": "Siyanoz"
+            },
+            "exampleSentence": "Der Patient zeigt eine Zyanose der Lippen.",
+            "exampleTranslation": {
+                "en": "The patient shows cyanosis of the lips.",
+                "bn": "রোগীর ঠোঁটে সায়ানোসিস দেখা যাচ্ছে।",
+                "hi": "रोगी के होंठों पर साइनोसिस दिख रहा है।",
+                "ur": "مریض کے ہونٹوں پر سیانوسس ظاہر ہو رہا ہے۔",
+                "tr": "Hastanın dudaklarında siyanoz görülüyor."
+            },
+            "id": "v22_22"
+        },
+        {
+            "germanTerm": "Thorax",
+            "article": "der",
+            "plural": "Thoraxes",
+            "pronunciation": "ˈtoːʁaks",
+            "category": "noun",
+            "translation": {
+                "en": "Thorax",
+                "bn": "বক্ষ",
+                "hi": "वक्ष",
+                "ur": "سینہ",
+                "tr": "Toraks"
+            },
+            "exampleSentence": "Der Thorax wird abgehorcht und perkutiert.",
+            "exampleTranslation": {
+                "en": "The thorax is auscultated and percussed.",
+                "bn": "বক্ষ পরীক্ষা করা হচ্ছে এবং আঘাত করা হচ্ছে।",
+                "hi": "वक्ष का ऑस्कल्टेशन और परक्यूशन किया जाता है।",
+                "ur": "سینے کا معائنہ کیا جاتا ہے اور پرکیوشن کیا جاتا ہے۔",
+                "tr": "Toraks oskülte edilir ve perküsyon yapılır."
+            },
+            "id": "v22_23"
+        },
+        {
+            "germanTerm": "Exazerbation",
+            "article": "die",
+            "plural": "Exazerbationen",
+            "pronunciation": "ɛksat͡sɛʁbaˈt͡si̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "Exacerbation",
+                "bn": "বাড়াবাড়ি",
+                "hi": "बढ़ावा",
+                "ur": "اشتعال",
+                "tr": "Alevlenme"
+            },
+            "exampleSentence": "Der Patient hat eine akute Exazerbation seiner COPD.",
+            "exampleTranslation": {
+                "en": "The patient has an acute exacerbation of his COPD.",
+                "bn": "রোগীর তার সিওপিডি-র একটি তীব্র বাড়াবাড়ি হয়েছে।",
+                "hi": "रोगी को अपनी सीओपीडी का तीव्र बढ़ना है।",
+                "ur": "مریض کو اپنے COPD کا شدید اشتعال ہے۔",
+                "tr": "Hastanın KOAH'ı akut alevlenmiştir."
+            },
+            "id": "v22_24"
+        },
+        {
+            "germanTerm": "Peak-Flow",
+            "article": "der",
+            "plural": "Peak-Flows",
+            "pronunciation": "ˈpiːkˌfloː",
+            "category": "noun",
+            "translation": {
+                "en": "Peak flow",
+                "bn": "পীক ফ্লো",
+                "hi": "पीक फ्लो",
+                "ur": "پیک فلو",
+                "tr": "Tepe akımı"
+            },
+            "exampleSentence": "Der Peak-Flow-Wert des Patienten ist reduziert.",
+            "exampleTranslation": {
+                "en": "The patient's peak flow value is reduced.",
+                "bn": "রোগীর পীক ফ্লো মান কমে গেছে।",
+                "hi": "रोगी का पीक फ्लो मान कम हो गया है।",
+                "ur": "مریض کی پیک فلو قیمت کم ہو گئی ہے۔",
+                "tr": "Hastanın tepe akım değeri azalmıştır."
+            },
+            "id": "v22_25"
+        },
+        {
+            "germanTerm": "Hyperventilation",
+            "article": "die",
+            "plural": "Hyperventilationen",
+            "pronunciation": "hypɐvɛntilaˈt͡si̯oːn",
+            "category": "noun",
+            "translation": {
+                "en": "Hyperventilation",
+                "bn": "হাইপারভেন্টিলেশন",
+                "hi": "हाइपरवेंटिलेशन",
+                "ur": "ہائپروینٹیلیشن",
+                "tr": "Hiperventilasyon"
+            },
+            "exampleSentence": "Die Patientin zeigt Zeichen einer Hyperventilation.",
+            "exampleTranslation": {
+                "en": "The patient shows signs of hyperventilation.",
+                "bn": "রোগী হাইপারভেন্টিলেশনের লক্ষণ দেখাচ্ছে।",
+                "hi": "मरीज़ हाइपरवेंटिलेशन के लक्षण दिखा रही है।",
+                "ur": "مریضہ ہائپروینٹیلیشن کے آثار دکھا رہی ہے۔",
+                "tr": "Hasta hiperventilasyon belirtileri gösteriyor."
+            },
+            "id": "v22_26"
+        },
+        {
+            "germanTerm": "Atemtherapie",
+            "article": "die",
+            "plural": "Atemtherapien",
+            "pronunciation": "ˈaːtəmteʁaˌpiː",
+            "category": "noun",
+            "translation": {
+                "en": "Respiratory therapy",
+                "bn": "শ্বাস থেরাপি",
+                "hi": "श्वसन थेरेपी",
+                "ur": "سانس کی تھراپی",
+                "tr": "Solunum terapisi"
+            },
+            "exampleSentence": "Der Patient erhält Atemtherapie zur Verbesserung der Lungenfunktion.",
+            "exampleTranslation": {
+                "en": "The patient receives respiratory therapy to improve lung function.",
+                "bn": "ফুসফুসের কার্যকারিতা উন্নত করার জন্য রোগীকে শ্বাস থেরাপি দেওয়া হয়।",
+                "hi": "फेफड़ों के कार्य को बेहतर बनाने के लिए रोगी को श्वसन थेरेपी मिलती है।",
+                "ur": "پھیپھڑوں کے فعل کو بہتر بنانے کے لیے مریض کو سانس کی تھراپی دی جاتی ہے۔",
+                "tr": "Hasta akciğer fonksiyonunu iyileştirmek için solunum terapisi alıyor."
+            },
+            "id": "v22_27"
+        },
+        {
+            "germanTerm": "intubieren",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ɪntuˈbiːʁən",
+            "category": "verb",
+            "translation": {
+                "en": "To intubate",
+                "bn": "ইনটিউবেট করা",
+                "hi": "इंट्यूबेट करना",
+                "ur": "انٹیوبیٹ کرنا",
+                "tr": "Entübe etmek"
+            },
+            "exampleSentence": "Der Patient muss intubiert werden.",
+            "exampleTranslation": {
+                "en": "The patient needs to be intubated.",
+                "bn": "রোগীকে ইনটিউবেট করতে হবে।",
+                "hi": "रोगी को इंट्यूबेट करने की आवश्यकता है।",
+                "ur": "مریض کو انٹیوبیٹ کرنے کی ضرورت ہے۔",
+                "tr": "Hastanın entübe edilmesi gerekiyor."
+            },
+            "id": "v22_28"
+        },
+        {
+            "germanTerm": "ARDS",
+            "article": "das",
+            "plural": "ARDS",
+            "pronunciation": "aːʔɛʁdeːˈʔɛs",
+            "category": "noun",
+            "translation": {
+                "en": "ARDS",
+                "bn": "এআরডিএস",
+                "hi": "एआरडीएस",
+                "ur": "اے آر ڈی ایس",
+                "tr": "ARDS"
+            },
+            "exampleSentence": "Der Patient entwickelte ein ARDS nach der Infektion.",
+            "exampleTranslation": {
+                "en": "The patient developed ARDS after the infection.",
+                "bn": "সংক্রমণের পরে রোগীর এআরডিএস হয়েছে।",
+                "hi": "संक्रमण के बाद रोगी को एआरडीएस हो गया।",
+                "ur": "انفیکشن کے بعد مریض کو ARDS ہو گیا ہے۔",
+                "tr": "Hasta enfeksiyon sonrası ARDS geliştirdi."
+            },
+            "id": "v22_29"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Asthma Exacerbation",
+                "bn": "অ্যাজমা বৃদ্ধি",
+                "hi": "अस्थमा का प्रकोप",
+                "ur": "دمہ کا بڑھنا",
+                "tr": "Astım Alevlenmesi"
+            },
+            "context": {
+                "en": "A patient arrives at the emergency room with an acute asthma attack.",
+                "bn": "একজন রোগী তীব্র হাঁপানির আক্রমণ নিয়ে জরুরি বিভাগে আসেন।",
+                "hi": "एक मरीज़ तीव्र अस्थमा के दौरे के साथ आपातकालीन कक्ष में आता है।",
+                "ur": "ایک مریض شدید دمہ کے حملے کے ساتھ ایمرجنسی روم میں آتا ہے۔",
+                "tr": "Akut astım atağı geçiren bir hasta acil servise gelir."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Herr Müller, was sind Ihre Beschwerden?",
+                    "translation": {
+                        "en": "Mr. Müller, what are your symptoms?",
+                        "bn": "মিঃ মুলার, আপনার কি অসুবিধা হচ্ছে?",
+                        "hi": "मिस्टर मुलर, आपकी क्या शिकायतें हैं?",
+                        "ur": "مسٹر مولر، آپ کی شکایات کیا ہیں؟",
+                        "tr": "Bay Müller, şikayetleriniz nelerdir?"
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ich bekomme kaum Luft! Ich habe ein Engegefühl in der Brust und pfeifende Atemgeräusche.",
+                    "translation": {
+                        "en": "I can hardly breathe! I have tightness in my chest and wheezing sounds.",
+                        "bn": "আমি প্রায় নিঃশ্বাস নিতে পারছি না! আমার বুকে টান লাগছে এবং শোঁ শোঁ শব্দ হচ্ছে।",
+                        "hi": "मुझे मुश्किल से सांस आ रही है! मुझे अपनी छाती में जकड़न और घरघराहट की आवाजें आ रही हैं।",
+                        "ur": "مجھے مشکل سے سانس آ رہی ہے! میرے سینے میں جکڑن اور خرخراہٹ کی آوازیں آ رہی ہیں۔",
+                        "tr": "Neredeyse nefes alamıyorum! Göğsümde bir sıkışma ve hırıltılı sesler var."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich messe den Sauerstoffgehalt im Blut. Er liegt bei 88%.",
+                    "translation": {
+                        "en": "I'm measuring the oxygen saturation in the blood. It's at 88%.",
+                        "bn": "আমি রক্তে অক্সিজেনের মাত্রা মাপছি। এটা ৮৮%।",
+                        "hi": "मैं रक्त में ऑक्सीजन संतृप्ति को माप रही हूँ। यह 88% है।",
+                        "ur": "میں خون میں آکسیجن کی سطح کی پیمائش کر رہی ہوں۔ یہ 88٪ ہے۔",
+                        "tr": "Kandaki oksijen doygunluğunu ölçüyorum. %88'de."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wir geben sofort Salbutamol und Prednisolon. Sauerstoffgabe ist auch notwendig.",
+                    "translation": {
+                        "en": "We'll give Salbutamol and Prednisolone immediately. Oxygen administration is also necessary.",
+                        "bn": "আমরা অবিলম্বে সালবুটামল এবং প্রেডনিসোলোন দেব। অক্সিজেন দেওয়াও দরকার।",
+                        "hi": "हम तुरंत सैल्बुटामोल और प्रेडनिसोलोन देंगे। ऑक्सीजन देना भी जरूरी है।",
+                        "ur": "ہم فوری طور پر سالبوٹامول اور پریڈنیسولون دیں گے۔ آکسیجن دینا بھی ضروری ہے۔",
+                        "tr": "Hemen Salbutamol ve Prednisolone vereceğiz. Oksijen verilmesi de gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Danke! Ich spüre, wie es langsam besser wird.",
+                    "translation": {
+                        "en": "Thank you! I can feel it slowly getting better.",
+                        "bn": "ধন্যবাদ! আমি অনুভব করতে পারছি এটা ধীরে ধীরে ভালো হচ্ছে।",
+                        "hi": "धन्यवाद! मुझे लग रहा है कि यह धीरे-धीरे बेहतर हो रहा है।",
+                        "ur": "شکریہ! مجھے لگ رہا ہے کہ یہ آہستہ آہستہ بہتر ہو رہا ہے۔",
+                        "tr": "Teşekkürler! Yavaş yavaş daha iyiye gittiğini hissediyorum."
+                    }
+                }
+            ],
+            "id": "d22_01"
+        },
+        {
+            "title": {
+                "en": "COPD Patient with Dyspnea",
+                "bn": "সিওপিডি রোগী শ্বাসকষ্টের সাথে",
+                "hi": "डिस्पनिया के साथ सीओपीडी रोगी",
+                "ur": "سانس لینے میں دشواری کے ساتھ سی او پی ڈی مریض",
+                "tr": "Dispne ile KOAH Hastası"
+            },
+            "context": {
+                "en": "A COPD patient complains of severe shortness of breath.",
+                "bn": "একজন সিওপিডি রোগী তীব্র শ্বাসকষ্টের অভিযোগ করছেন।",
+                "hi": "एक सीओपीडी रोगी गंभीर सांस की तकलीफ की शिकायत करता है।",
+                "ur": "ایک سی او پی ڈی مریض کو سانس کی شدید قلت کی شکایت ہے۔",
+                "tr": "KOAH hastası şiddetli nefes darlığından şikayet ediyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Tag, Herr Schmidt. Wie geht es Ihnen heute?",
+                    "translation": {
+                        "en": "Good day, Mr. Schmidt. How are you today?",
+                        "bn": "শুভ দিন, মিঃ স্মিথ। আজ আপনি কেমন আছেন?",
+                        "hi": "शुभ दिन, श्री स्मिथ। आज आप कैसे हैं?",
+                        "ur": "شب بخیر، مسٹر سمتھ۔ آج آپ کیسے ہیں؟",
+                        "tr": "İyi günler, Bay Schmidt. Bugün nasılsınız?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Schlecht. Ich bekomme kaum Luft. Es ist schlimmer als sonst.",
+                    "translation": {
+                        "en": "Bad. I can hardly breathe. It's worse than usual.",
+                        "bn": "খারাপ। আমি প্রায় নিঃশ্বাস নিতে পারছি না। এটা স্বাভাবিকের চেয়ে খারাপ।",
+                        "hi": "बुरा। मुझे मुश्किल से सांस आ रही है। यह सामान्य से भी बदतर है।",
+                        "ur": "برا. میں مشکل سے سانس لے سکتا ہوں۔ یہ معمول سے بدتر ہے۔",
+                        "tr": "Kötü. Neredeyse nefes alamıyorum. Her zamankinden daha kötü."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Der Blutdruck ist erhöht und die Atemfrequenz auch.",
+                    "translation": {
+                        "en": "The blood pressure is elevated and the respiratory rate as well.",
+                        "bn": "রক্তচাপ বেড়েছে এবং শ্বাস প্রশ্বাসের হারও বেড়েছে।",
+                        "hi": "रक्तचाप बढ़ गया है और श्वसन दर भी।",
+                        "ur": "بلڈ پریشر بڑھ گیا ہے اور سانس لینے کی شرح بھی۔",
+                        "tr": "Kan basıncı yükselmiş ve solunum hızı da."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir müssen ihn inhalieren lassen und eventuell nicht-invasive Beatmung in Betracht ziehen.",
+                    "translation": {
+                        "en": "We need to let him inhale medication and possibly consider non-invasive ventilation.",
+                        "bn": "আমাদের তাকে ওষুধ শ্বাস নিতে দিতে হবে এবং সম্ভবত অ-আক্রমণাত্মক বায়ুচলাচল বিবেচনা করতে হবে।",
+                        "hi": "हमें उसे दवा इन्हेल करने देनी होगी और संभवतः गैर-आक्रामक वेंटिलेशन पर विचार करना होगा।",
+                        "ur": "ہمیں اسے دوا انہیل کرنے دینا ہوگا اور ممکنہ طور پر غیر حملہ آور وینٹیلیشن پر غور کرنا ہوگا۔",
+                        "tr": "İlaç solumasına izin vermeliyiz ve muhtemelen non-invaziv ventilasyonu düşünmeliyiz."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Bitte helfen Sie mir! Ich halte das nicht mehr aus.",
+                    "translation": {
+                        "en": "Please help me! I can't take it anymore.",
+                        "bn": "দয়া করে আমাকে সাহায্য করুন! আমি আর সহ্য করতে পারছি না।",
+                        "hi": "कृपया मेरी मदद करें! मैं इसे और नहीं सह सकता।",
+                        "ur": "براہ کرم میری مدد کریں! میں اسے مزید برداشت نہیں کر سکتا۔",
+                        "tr": "Lütfen bana yardım edin! Artık dayanamıyorum."
+                    }
+                }
+            ],
+            "id": "d22_02"
+        },
+        {
+            "title": {
+                "en": "Pneumonia Diagnosis",
+                "bn": "নিউমোনিয়া নির্ণয়",
+                "hi": "निमोनिया का निदान",
+                "ur": "نمونیا کی تشخیص",
+                "tr": "Pnömoni Tanısı"
+            },
+            "context": {
+                "en": "A patient presents with fever, cough, and chest pain. Pneumonia is suspected.",
+                "bn": "জ্বর, কাশি এবং বুকে ব্যথা নিয়ে একজন রোগী উপস্থিত। নিউমোনিয়া সন্দেহ করা হচ্ছে।",
+                "hi": "एक मरीज बुखार, खांसी और सीने में दर्द के साथ प्रस्तुत करता है। निमोनिया का संदेह है।",
+                "ur": "ایک مریض بخار، کھانسی اور سینے میں درد کے ساتھ آتا ہے۔ نمونیا کا شبہ ہے۔",
+                "tr": "Ateş, öksürük ve göğüs ağrısı olan bir hasta başvuruyor. Pnömoniden şüpheleniliyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Frau Klein, seit wann haben Sie diese Beschwerden?",
+                    "translation": {
+                        "en": "Mrs. Klein, since when have you had these symptoms?",
+                        "bn": "মিসেস ক্লেইন, আপনার এই অসুবিধাগুলি কবে থেকে হচ্ছে?",
+                        "hi": "श्रीमती क्लाइन, आपको ये शिकायतें कब से हैं?",
+                        "ur": "محترمہ کلین، آپ کو یہ شکایات کب سے ہیں؟",
+                        "tr": "Bayan Klein, bu şikayetleriniz ne zamandan beri var?"
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Seit drei Tagen. Es hat mit leichtem Husten angefangen, jetzt habe ich hohes Fieber und Schmerzen beim Atmen.",
+                    "translation": {
+                        "en": "For three days. It started with a mild cough, now I have a high fever and pain when breathing.",
+                        "bn": "তিন দিন ধরে। এটা হালকা কাশি দিয়ে শুরু হয়েছিল, এখন আমার খুব জ্বর এবং শ্বাস নেওয়ার সময় ব্যথা হচ্ছে।",
+                        "hi": "तीन दिनों से। यह हल्की खांसी से शुरू हुआ, अब मुझे तेज बुखार है और सांस लेने में दर्द हो रहा है।",
+                        "ur": "تین دن سے۔ اس کا آغاز ہلکی کھانسی سے ہوا، اب مجھے تیز بخار ہے اور سانس لینے میں درد ہو رہا ہے۔",
+                        "tr": "Üç gündür. Hafif bir öksürükle başladı, şimdi yüksek ateş ve nefes alırken ağrım var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich werde Sie abhören und eine Röntgenaufnahme der Lunge machen lassen.",
+                    "translation": {
+                        "en": "I will listen to your lungs and have an X-ray of your lungs taken.",
+                        "bn": "আমি আপনার ফুসফুস পরীক্ষা করব এবং আপনার ফুসফুসের একটি এক্স-রে করাব।",
+                        "hi": "मैं आपके फेफड़ों को सुनूंगा और आपके फेफड़ों का एक्स-रे करवाऊंगा।",
+                        "ur": "میں آپ کے پھیپھڑوں کو سنوں گا اور آپ کے پھیپھڑوں کا ایکسرے کرواؤں گا۔",
+                        "tr": "Akciğerlerinizi dinleyeceğim ve akciğerlerinizin röntgenini çektireceğim."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Die Röntgenaufnahme zeigt eine deutliche Infiltration im rechten Unterlappen. Das ist eine Pneumonie.",
+                    "translation": {
+                        "en": "The X-ray shows a clear infiltration in the right lower lobe. That's pneumonia.",
+                        "bn": "এক্স-রে ডান দিকের নিচের লোবে একটি স্পষ্ট অনুপ্রবেশ দেখায়। এটা নিউমোনিয়া।",
+                        "hi": "एक्स-रे दाहिने निचले लोब में एक स्पष्ट घुसपैठ दिखाता है। यह निमोनिया है।",
+                        "ur": "ایکس رے دائیں نچلے لوب میں ایک واضح دراندازی دکھاتا ہے۔ یہ نمونیا ہے۔",
+                        "tr": "Röntgen, sağ alt lobda belirgin bir infiltrasyon gösteriyor. Bu bir pnömoni."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wir werden mit einer antibiotischen Therapie beginnen. Sie bleiben zur Beobachtung hier.",
+                    "translation": {
+                        "en": "We will start with antibiotic therapy. You will stay here for observation.",
+                        "bn": "আমরা অ্যান্টিবায়োটিক থেরাপি শুরু করব। আপনাকে পর্যবেক্ষণের জন্য এখানে থাকতে হবে।",
+                        "hi": "हम एंटीबायोटिक थेरेपी से शुरुआत करेंगे। आप अवलोकन के लिए यहां रहेंगे।",
+                        "ur": "ہم اینٹی بائیوٹک تھراپی سے آغاز کریں گے۔ آپ مشاہدے کے لیے یہاں رہیں گے۔",
+                        "tr": "Antibiyotik tedavisine başlayacağız. Gözlem için burada kalacaksınız."
+                    }
+                }
+            ],
+            "id": "d22_03"
+        },
+        {
+            "title": {
+                "en": "Chronic Bronchitis Management",
+                "bn": "দীর্ঘস্থায়ী ব্রঙ্কাইটিস ব্যবস্থাপনা",
+                "hi": "क्रोनिक ब्रोंकाइटिस प्रबंधन",
+                "ur": "دائمی برونکائٹس کا انتظام",
+                "tr": "Kronik Bronşit Yönetimi"
+            },
+            "context": {
+                "en": "A patient with chronic bronchitis is being reviewed.",
+                "bn": "দীর্ঘস্থায়ী ব্রঙ্কাইটিস-এর একজন রোগীকে পর্যালোচনা করা হচ্ছে।",
+                "hi": "क्रोनिक ब्रोंकाइटिस वाले एक मरीज की समीक्षा की जा रही है।",
+                "ur": "دائمی برونکائٹس والے ایک مریض کا جائزہ لیا جا رہا ہے۔",
+                "tr": "Kronik bronşiti olan bir hasta inceleniyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Herr Weber, wie geht es Ihnen mit Ihrer chronischen Bronchitis?",
+                    "translation": {
+                        "en": "Mr. Weber, how are you doing with your chronic bronchitis?",
+                        "bn": "মিঃ ওয়েবার, আপনার ক্রনিক ব্রঙ্কাইটিস কেমন চলছে?",
+                        "hi": "श्री वेबर, आप अपनी क्रोनिक ब्रोंकाइटिस के साथ कैसा कर रहे हैं?",
+                        "ur": "مسٹر ویبر، آپ دائمی برونکائٹس کے ساتھ کیسے کام کر رہے ہیں؟",
+                        "tr": "Bay Weber, kronik bronşitinizle nasıl gidiyorsunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Es ist ein ständiger Husten. Morgens besonders schlimm. Und ich bin schnell außer Atem.",
+                    "translation": {
+                        "en": "It's a constant cough. Especially bad in the mornings. And I get out of breath quickly.",
+                        "bn": "এটা একটা ক্রমাগত কাশি। বিশেষ করে সকালে খারাপ। এবং আমি দ্রুত হাঁপিয়ে যাই।",
+                        "hi": "यह एक लगातार खांसी है। खासकर सुबह में बुरा। और मैं जल्दी ही हाँफने लगता हूँ।",
+                        "ur": "یہ ایک مسلسل کھانسی ہے۔ خاص طور پر صبح کے وقت برا۔ اور میں جلدی ہی ہانپ جاتا ہوں۔",
+                        "tr": "Sürekli bir öksürük. Özellikle sabahları kötü. Ve çabuk nefes nefese kalıyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Haben Sie Ihre Medikamente regelmäßig eingenommen?",
+                    "translation": {
+                        "en": "Have you been taking your medication regularly?",
+                        "bn": "আপনি কি আপনার ওষুধ নিয়মিত খাচ্ছেন?",
+                        "hi": "क्या आप अपनी दवा नियमित रूप से ले रहे हैं?",
+                        "ur": "کیا آپ اپنی دوا باقاعدگی سے لے رہے ہیں؟",
+                        "tr": "İlaçlarınızı düzenli olarak alıyor musunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, jeden Tag. Aber es hilft nicht so viel wie früher.",
+                    "translation": {
+                        "en": "Yes, every day. But it doesn't help as much as it used to.",
+                        "bn": "হ্যাঁ, প্রতিদিন। কিন্তু এটা আগের মতো আর সাহায্য করে না।",
+                        "hi": "हाँ, हर दिन। लेकिन यह उतना मदद नहीं करता जितना पहले करता था।",
+                        "ur": "ہاں، ہر روز۔ لیکن یہ پہلے کی طرح زیادہ مدد نہیں کرتا ہے۔",
+                        "tr": "Evet, her gün. Ama eskisi kadar yardımcı olmuyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir werden die Medikation anpassen und eventuell eine Lungenfunktionstest durchführen.",
+                    "translation": {
+                        "en": "We will adjust the medication and possibly perform a pulmonary function test.",
+                        "bn": "আমরা ওষুধ পরিবর্তন করব এবং সম্ভবত একটি পালমোনারি ফাংশন পরীক্ষা করব।",
+                        "hi": "हम दवा समायोजित करेंगे और संभवतः एक पल्मोनरी फंक्शन टेस्ट करेंगे।",
+                        "ur": "ہم دوا کو ایڈجسٹ کریں گے اور ممکنہ طور پر ایک پلمونری فنکشن ٹیسٹ کریں گے۔",
+                        "tr": "İlaçları ayarlayacağız ve muhtemelen bir akciğer fonksiyon testi yapacağız."
+                    }
+                }
+            ],
+            "id": "d22_04"
+        },
+        {
+            "title": {
+                "en": "Ventilation Management",
+                "bn": "বায়ুচলাচল ব্যবস্থাপনা",
+                "hi": "वेंटिलेशन प्रबंधन",
+                "ur": "وینٹیلیشن کا انتظام",
+                "tr": "Ventilasyon Yönetimi"
+            },
+            "context": {
+                "en": "A patient is intubated and ventilated in the ICU.",
+                "bn": "আইসিইউ-তে একজন রোগীকে ইন্টুবেট এবং ভেন্টিলেট করা হয়েছে।",
+                "hi": "आईसीयू में एक मरीज को इंटुबेट और वेंटिलेट किया गया है।",
+                "ur": "آئی سی یو میں ایک مریض کو انٹیوبیٹ اور وینٹیلیٹ کیا گیا ہے۔",
+                "tr": "Bir hasta yoğun bakımda entübe edilmiş ve ventile ediliyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wie sind die aktuellen Beatmungsparameter?",
+                    "translation": {
+                        "en": "What are the current ventilation parameters?",
+                        "bn": "বর্তমান বায়ুচলাচল পরামিতি কি?",
+                        "hi": "वर्तमान वेंटिलेशन पैरामीटर क्या हैं?",
+                        "ur": "وینٹیلیشن کے موجودہ پیرامیٹرز کیا ہیں؟",
+                        "tr": "Mevcut ventilasyon parametreleri nelerdir?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Derzeit sind wir bei einem Tidalvolumen von 450 ml, Frequenz 14, PEEP 5.",
+                    "translation": {
+                        "en": "Currently, we are at a tidal volume of 450 ml, frequency 14, PEEP 5.",
+                        "bn": "বর্তমানে, আমরা ৪৫০ মিলি-এর জোয়ারের ভলিউমে, ফ্রিকোয়েন্সি ১৪, পিইইপি ৫-এ আছি।",
+                        "hi": "वर्तमान में, हम 450 मिलीलीटर के ज्वारीय आयतन, आवृत्ति 14, पीईईपी 5 पर हैं।",
+                        "ur": "فی الحال، ہم 450 ملی لیٹر کے جواری حجم، فریکوئنسی 14، پی ای ای پی 5 پر ہیں۔",
+                        "tr": "Şu anda 450 ml tidal hacim, frekans 14, PEEP 5'teyiz."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Die Blutgasanalyse zeigt eine leichte respiratorische Azidose.",
+                    "translation": {
+                        "en": "The blood gas analysis shows a slight respiratory acidosis.",
+                        "bn": "রক্ত গ্যাস বিশ্লেষণে সামান্য শ্বাসযন্ত্রের অ্যাসিডোসিস দেখা যায়।",
+                        "hi": "रक्त गैस विश्लेषण में हल्की श्वसन एसिडोसिस दिखाई देती है।",
+                        "ur": "خون گیس کے تجزیے میں ہلکا سانس لینے والا ایسڈوسس ظاہر ہوتا ہے۔",
+                        "tr": "Kan gazı analizi hafif bir solunum asidozu gösteriyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir müssen die Frequenz etwas erhöhen, um das CO2 auszuwaschen.",
+                    "translation": {
+                        "en": "We need to increase the frequency slightly to wash out the CO2.",
+                        "bn": "CO2 ধুয়ে ফেলতে আমাদের ফ্রিকোয়েন্সি সামান্য বাড়াতে হবে।",
+                        "hi": "हमें CO2 को बाहर निकालने के लिए आवृत्ति को थोड़ा बढ़ाना होगा।",
+                        "ur": "ہمیں CO2 کو دھونے کے لیے فریکوئنسی کو قدرے بڑھانا ہوگا۔",
+                        "tr": "CO2'yi atmak için frekansı biraz artırmamız gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich erhöhe die Frequenz auf 16. Die Sauerstoffsättigung ist stabil bei 95%.",
+                    "translation": {
+                        "en": "I'm increasing the frequency to 16. The oxygen saturation is stable at 95%.",
+                        "bn": "আমি ফ্রিকোয়েন্সি ১৬-এ বাড়াচ্ছি। অক্সিজেনের স্যাচুরেশন ৯৫%-এ স্থিতিশীল।",
+                        "hi": "मैं आवृत्ति को 16 तक बढ़ा रही हूँ। ऑक्सीजन संतृप्ति 95% पर स्थिर है।",
+                        "ur": "میں فریکوئنسی کو 16 تک بڑھا رہی ہوں۔ آکسیجن کی سنترپتی 95٪ پر مستحکم ہے۔",
+                        "tr": "Frekansı 16'ya çıkarıyorum. Oksijen doygunluğu %95'te sabit."
+                    }
+                }
+            ],
+            "id": "d22_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Aussagen trifft am ehesten auf Asthma bronchiale zu?",
+                "en": "Which of the following statements is most likely true about bronchial asthma?",
+                "bn": "ব্রঙ্কিয়াল অ্যাজমা সম্পর্কে নিচের কোন বক্তব্যটি সবচেয়ে সত্য?",
+                "hi": "ब्रोंकियल अस्थमा के बारे में निम्नलिखित में से कौन सा कथन सबसे अधिक सत्य है?",
+                "ur": "برونکیل دمہ کے بارے میں درج ذیل میں سے کون سا بیان سب سے زیادہ درست ہے؟",
+                "tr": "Aşağıdaki ifadelerden hangisi bronşiyal astım için en doğrudur?"
+            },
+            "options": [
+                "Eine chronisch-obstruktive Lungenerkrankung, die irreversibel ist.",
+                "Eine entzündliche Erkrankung der Bronchien, die durch reversible Atemwegsverengung gekennzeichnet ist.",
+                "Eine Infektion der Lunge durch Bakterien.",
+                "Eine genetisch bedingte Erkrankung, die zu einer Zystischen Fibrose führt."
+            ],
+            "correctAnswer": "Eine entzündliche Erkrankung der Bronchien, die durch reversible Atemwegsverengung gekennzeichnet ist.",
+            "explanation": {
+                "en": "Asthma is characterized by reversible airway obstruction due to inflammation and bronchospasm.",
+                "bn": "অ্যাজমা প্রদাহ এবং ব্রঙ্কোস্পাজমের কারণে বিপরীতমুখী শ্বাসনালী বাধার দ্বারা চিহ্নিত করা হয়।",
+                "hi": "अस्थमा सूजन और ब्रोन्कोस्पाज्म के कारण प्रतिवर्ती वायुमार्ग अवरोधन की विशेषता है।",
+                "ur": "دمہ سوزش اور برونکو اسپازم کی وجہ سے الٹنے کے قابل ایئر وے کی رکاوٹ کی طرف سے خصوصیات ہے.",
+                "tr": "Astım, inflamasyon ve bronkospazm nedeniyle geri dönüşümlü hava yolu tıkanıklığı ile karakterizedir."
+            },
+            "points": 10,
+            "id": "e22_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein typisches Symptom der COPD?",
+                "en": "What is a typical symptom of COPD?",
+                "bn": "সিওপিডির একটি সাধারণ লক্ষণ কি?",
+                "hi": "सीओपीडी का एक विशिष्ट लक्षण क्या है?",
+                "ur": "سی او پی ڈی کی ایک عام علامت کیا ہے؟",
+                "tr": "KOAH'ın tipik bir semptomu nedir?",
+                "es": "¿Cuál es un síntoma típico de la EPOC?"
+            },
+            "options": [
+                "Akute Schmerzen im Brustbereich.",
+                "Chronischer Husten mit Auswurf.",
+                "Plötzlicher Gewichtsverlust.",
+                "Starke Kopfschmerzen."
+            ],
+            "correctAnswer": "Chronischer Husten mit Auswurf.",
+            "explanation": {
+                "en": "Chronic cough with sputum production is a hallmark of COPD.",
+                "bn": "কাশি এবং কফ সহ দীর্ঘস্থায়ী কাশি সিওপিডির একটি প্রধান লক্ষণ।",
+                "hi": "कफ उत्पादन के साथ पुरानी खांसी सीओपीडी की एक पहचान है।",
+                "ur": "بلغم کی پیداوار کے ساتھ دائمی کھانسی COPD کی ایک خاص علامت ہے۔",
+                "tr": "Balğam üretimi ile kronik öksürük KOAH'ın bir işaretidir."
+            },
+            "points": 10,
+            "id": "e22_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Medikament wird häufig zur Akutbehandlung von Asthma eingesetzt?",
+                "en": "Which medication is often used for acute asthma treatment?",
+                "bn": "তীব্র অ্যাজমা চিকিৎসার জন্য প্রায়শই কোন ওষুধ ব্যবহৃত হয়?",
+                "hi": "तीव्र अस्थमा के इलाज के लिए अक्सर कौन सी दवा का उपयोग किया जाता है?",
+                "ur": "شدید دمہ کے علاج کے لیے اکثر کون سی دوا استعمال کی جاتی ہے؟",
+                "tr": "Akut astım tedavisinde sıklıkla hangi ilaç kullanılır?"
+            },
+            "options": [
+                "Inhalative Kortikosteroide.",
+                "Beta-2-Agonisten.",
+                "Antibiotika.",
+                "Antihistaminika."
+            ],
+            "correctAnswer": "Beta-2-Agonisten.",
+            "explanation": {
+                "en": "Beta-2 agonists are bronchodilators used to quickly relieve asthma symptoms.",
+                "bn": "বিটা-2 অ্যাগোনিস্ট হল ব্রঙ্কোডাইলেটর যা দ্রুত অ্যাজমার উপসর্গগুলি উপশম করতে ব্যবহৃত হয়।",
+                "hi": "बीटा-2 एगोनिस्ट ब्रोन्कोडायलेटर्स हैं जिनका उपयोग अस्थमा के लक्षणों को जल्दी से दूर करने के लिए किया जाता है।",
+                "ur": "بیٹا-2 ایگونسٹس برونکوڈیلٹرز ہیں جو دمہ کی علامات کو جلدی دور کرنے کے لیے استعمال ہوتے ہیں۔",
+                "tr": "Beta-2 agonistleri, astım semptomlarını hızla gidermek için kullanılan bronkodilatörlerdir."
+            },
+            "points": 10,
+            "id": "e22_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist eine typische Komplikation einer Pneumonie?",
+                "en": "What is a typical complication of pneumonia?",
+                "bn": "নিউমোনিয়ার একটি সাধারণ জটিলতা কি?",
+                "hi": "निमोनिया की एक विशिष्ट जटिलता क्या है?",
+                "ur": "نمونیا کی ایک عام پیچیدگی کیا ہے؟",
+                "tr": "Zatürrenin tipik bir komplikasyonu nedir?",
+                "es": "¿Cuál es una complicación típica de la neumonía?"
+            },
+            "options": [
+                "Appendizitis.",
+                "Pleuraerguss.",
+                "Katarakt.",
+                "Migräne."
+            ],
+            "correctAnswer": "Pleuraerguss.",
+            "explanation": {
+                "en": "A pleural effusion, fluid accumulation in the pleural space, is a common complication of pneumonia.",
+                "bn": "প্লুরাল ইফিউশন, প্লুরাল স্পেসে তরল জমা হওয়া, নিউমোনিয়ার একটি সাধারণ জটিলতা।",
+                "hi": "फुफ्फुस गुहा में तरल पदार्थ का संचय, एक फुफ्फुस बहाव, निमोनिया की एक आम जटिलता है।",
+                "ur": "پلورل کیویٹی میں سیال جمع ہونا، ایک پلورل اخراج، نمونیا کی ایک عام پیچیدگی ہے۔",
+                "tr": "Plevra boşluğunda sıvı birikimi olan plevral efüzyon, zatürrenin yaygın bir komplikasyonudur."
+            },
+            "points": 10,
+            "id": "e22_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welcher Erreger ist am häufigsten für eine ambulant erworbene Pneumonie verantwortlich?",
+                "en": "Which pathogen is most commonly responsible for community-acquired pneumonia?",
+                "bn": "কোন রোগজীবাণু প্রায়শই সম্প্রদায়-অর্জিত নিউমোনিয়ার জন্য দায়ী?",
+                "hi": "समुदाय-अधिग्रहित निमोनिया के लिए कौन सा रोगज़नक़ सबसे अधिक जिम्मेदार है?",
+                "ur": "کمیونٹی سے حاصل شدہ نمونیا کے لیے کون سا پیتھوجین سب سے زیادہ ذمہ دار ہے؟",
+                "tr": "Toplum kökenli pnömoniden en sık hangi patojen sorumludur?",
+                "es": "¿Qué patógeno es el más comúnmente responsable de la neumonía adquirida en la comunidad?"
+            },
+            "options": [
+                "Streptococcus pneumoniae.",
+                "Escherichia coli.",
+                "Staphylococcus aureus.",
+                "Pseudomonas aeruginosa."
+            ],
+            "correctAnswer": "Streptococcus pneumoniae.",
+            "explanation": {
+                "en": "Streptococcus pneumoniae is the most common cause of community-acquired pneumonia.",
+                "bn": "স্ট্রেপ্টোকোকাস নিউমোনিয়া সম্প্রদায়ে অর্জিত নিউমোনিয়ার সবচেয়ে সাধারণ কারণ।",
+                "hi": "स्ट्रेप्टोकोकस न्यूमोनिया समुदाय में अधिग्रहित निमोनिया का सबसे आम कारण है।",
+                "ur": "اسٹریپٹوکوکس نمونیا کمیونٹی سے حاصل شدہ نمونیا کی سب سے عام وجہ ہے۔",
+                "tr": "Streptococcus pneumoniae, toplum kökenli pnömoninin en yaygın nedenidir."
+            },
+            "points": 10,
+            "id": "e22_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage zur Beatmung ist korrekt?",
+                "en": "Which statement about ventilation is correct?",
+                "bn": "ভেন্টিলেশন সম্পর্কে কোন বক্তব্যটি সঠিক?",
+                "hi": "वेंटिलेशन के बारे में कौन सा कथन सही है?",
+                "ur": "وینٹیلیشن کے بارے میں کون سا بیان درست ہے؟",
+                "tr": "Ventilasyon ile ilgili hangi ifade doğrudur?",
+                "es": "¿Qué afirmación sobre la ventilación es correcta?"
+            },
+            "options": [
+                "Beatmung ist immer die erste Wahl bei Atemnot.",
+                "Beatmung kann invasiv oder nicht-invasiv erfolgen.",
+                "Beatmung ist immer kontraindiziert bei COPD.",
+                "Beatmung kann nur im Krankenhaus durchgeführt werden."
+            ],
+            "correctAnswer": "Beatmung kann invasiv oder nicht-invasiv erfolgen.",
+            "explanation": {
+                "en": "Ventilation can be delivered invasively (e.g., via endotracheal tube) or non-invasively (e.g., via mask).",
+                "bn": "ইনভেসিভভাবে (যেমন, এন্ডোট্র্যাকিয়াল টিউবের মাধ্যমে) বা অ-ইনভেসিভভাবে (যেমন, মাস্কের মাধ্যমে) ভেন্টিলেশন সরবরাহ করা যেতে পারে।",
+                "hi": "वेंटिलेशन आक्रामक रूप से (जैसे, एंडोट्रैचियल ट्यूब के माध्यम से) या गैर-आक्रामक रूप से (जैसे, मास्क के माध्यम से) वितरित किया जा सकता है।",
+                "ur": "وینٹیلیشن کو جارحانہ طور پر (جیسے، اینڈوٹراچیل ٹیوب کے ذریعے) یا غیر جارحانہ طور پر (جیسے، ماسک کے ذریعے) فراہم کیا جا سکتا ہے۔",
+                "tr": "Ventilasyon invaziv (örn. endotrakeal tüp yoluyla) veya non-invaziv (örn. maske yoluyla) olarak uygulanabilir."
+            },
+            "points": 10,
+            "id": "e22_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Messwerte wird bei einer Lungenfunktionsprüfung (Spirometrie) ermittelt?",
+                "en": "Which of the following parameters is measured during a pulmonary function test (spirometry)?",
+                "bn": "পালমোনারি ফাংশন টেস্ট (স্পিরোমেট্রি) চলাকালীন নিম্নলিখিত কোন প্যারামিটারটি পরিমাপ করা হয়?",
+                "hi": "पल्मोनरी फंक्शन टेस्ट (स्पाइरोमेट्री) के दौरान निम्नलिखित में से कौन सा पैरामीटर मापा जाता है?",
+                "ur": "پلمونری فنکشن ٹیسٹ (سپائرو میٹری) کے دوران درج ذیل میں سے کون سا پیرامیٹر ناپا جاتا ہے؟",
+                "tr": "Pulmoner fonksiyon testi (spirometri) sırasında aşağıdaki parametrelerden hangisi ölçülür?",
+                "es": "¿Cuál de los siguientes parámetros se mide durante una prueba de función pulmonar (espirometría)?"
+            },
+            "options": [
+                "Blutdruck.",
+                "FEV1 (Forcierte Exspiratorische Volumen in 1 Sekunde).",
+                "Körpertemperatur.",
+                "Herzfrequenz."
+            ],
+            "correctAnswer": "FEV1 (Forcierte Exspiratorische Volumen in 1 Sekunde).",
+            "explanation": {
+                "en": "FEV1, the forced expiratory volume in 1 second, is a key measurement in spirometry.",
+                "bn": "FEV1, 1 সেকেন্ডে জোরপূর্বক শ্বাস-প্রশ্বাসের পরিমাণ, স্পিরোমেট্রিতে একটি গুরুত্বপূর্ণ পরিমাপ।",
+                "hi": "FEV1, 1 सेकंड में मजबूरन सांस छोड़ने की मात्रा, स्पाइरोमेट्री में एक महत्वपूर्ण माप है।",
+                "ur": "FEV1، 1 سیکنڈ میں زبردستی سانس چھوڑنے کا حجم، سپائرو میٹری میں ایک اہم پیمائش ہے۔",
+                "tr": "FEV1, 1 saniyede zorlu ekspiratuar hacim, spirometride önemli bir ölçümdür."
+            },
+            "points": 10,
+            "id": "e22_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet Dyspnoe?",
+                "en": "What does dyspnea mean?",
+                "bn": "ডিস্পনিয়া মানে কি?",
+                "hi": "डिस्पनिया का क्या अर्थ है?",
+                "ur": "ڈسپنیا کا کیا مطلب ہے؟",
+                "tr": "Dispne ne anlama gelir?",
+                "es": "¿Qué significa disnea?"
+            },
+            "options": [
+                "Schnupfen.",
+                "Atemnot.",
+                "Husten.",
+                "Fieber."
+            ],
+            "correctAnswer": "Atemnot.",
+            "explanation": {
+                "en": "Dyspnea means shortness of breath.",
+                "bn": "ডিস্পনিয়া মানে শ্বাসকষ্ট।",
+                "hi": "डिस्पनिया का मतलब सांस लेने में तकलीफ है।",
+                "ur": "ڈسپنیا کا مطلب سانس کی قلت ہے۔",
+                "tr": "Dispne nefes darlığı anlamına gelir."
+            },
+            "points": 10,
+            "id": "e22_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Maßnahmen ist am wichtigsten bei der Behandlung von COPD?",
+                "en": "Which of the following measures is most important in the treatment of COPD?",
+                "bn": "সিওপিডি চিকিৎসায় নিচের কোন পদক্ষেপটি সবচেয়ে গুরুত্বপূর্ণ?",
+                "hi": "सीओपीडी के उपचार में निम्नलिखित में से कौन सा उपाय सबसे महत्वपूर्ण है?",
+                "ur": "سی او پی ڈی کے علاج میں درج ذیل میں سے کون سا اقدام سب سے اہم ہے؟",
+                "tr": "KOAH tedavisinde aşağıdaki önlemlerden hangisi en önemlidir?",
+                "es": "¿Cuál de las siguientes medidas es la más importante en el tratamiento de la EPOC?"
+            },
+            "options": [
+                "Antibiotikagabe.",
+                "Rauchstopp.",
+                "Vitamintherapie.",
+                "Bettruhe."
+            ],
+            "correctAnswer": "Rauchstopp.",
+            "explanation": {
+                "en": "Smoking cessation is the most important intervention in COPD management.",
+                "bn": "ধূমপান ত্যাগ করা সিওপিডি ব্যবস্থাপনার সবচেয়ে গুরুত্বপূর্ণ হস্তক্ষেপ।",
+                "hi": "धूम्रपान छोड़ना सीओपीडी प्रबंधन में सबसे महत्वपूर्ण हस्तक्षेप है।",
+                "ur": "تمباکو نوشی چھوڑنا COPD کے انتظام میں سب سے اہم مداخلت ہے۔",
+                "tr": "Sigarayı bırakmak KOAH yönetiminde en önemli müdahaledir."
+            },
+            "points": 10,
+            "id": "e22_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist eine typische Ursache für eine Bronchitis?",
+                "en": "What is a typical cause of bronchitis?",
+                "bn": "ব্রঙ্কাইটিসের একটি সাধারণ কারণ কী?",
+                "hi": "ब्रोंकाइटिस का एक विशिष्ट कारण क्या है?",
+                "ur": "برونکائٹس کی ایک عام وجہ کیا ہے؟",
+                "tr": "Bronşitin tipik bir nedeni nedir?",
+                "es": "¿Cuál es una causa típica de la bronquitis?"
+            },
+            "options": [
+                "Muskelkater.",
+                "Virusinfektion.",
+                "Allergie gegen Nüsse.",
+                "Vitaminmangel."
+            ],
+            "correctAnswer": "Virusinfektion.",
+            "explanation": {
+                "en": "Bronchitis is often caused by viral infections.",
+                "bn": "ব্রঙ্কাইটিস প্রায়শই ভাইরাল সংক্রমণের কারণে হয়।",
+                "hi": "ब्रोंकाइटिस अक्सर वायरल संक्रमण के कारण होता है।",
+                "ur": "برونکائٹس اکثر وائرل انفیکشن کی وجہ سے ہوتا ہے۔",
+                "tr": "Bronşit genellikle viral enfeksiyonlardan kaynaklanır."
+            },
+            "points": 10,
+            "id": "e22_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die ________ ist eine Entzündung des Lungengewebes.",
+                "en": "________ is an inflammation of the lung tissue.",
+                "bn": "________ ফুসফুসের টিস্যুর একটি প্রদাহ।",
+                "hi": "________ फेफड़े के ऊतक की सूजन है।",
+                "ur": "________ پھیپھڑوں کے بافتوں کی سوزش ہے۔",
+                "tr": "________ akciğer dokusunun bir iltihabıdır."
+            },
+            "options": [],
+            "correctAnswer": "Pneumonie",
+            "explanation": {
+                "en": "Pneumonia is an inflammation of the lung tissue.",
+                "bn": "নিউমোনিয়া হল ফুসফুসের টিস্যুর একটি প্রদাহ।",
+                "hi": "निमोनिया फेफड़े के ऊतक की सूजन है।",
+                "ur": "نمونیا پھیپھڑوں کے بافتوں کی سوزش ہے۔",
+                "tr": "Zatürre, akciğer dokusunun bir iltihabıdır."
+            },
+            "points": 10,
+            "id": "e22_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein ________ ist ein Gerät, das zur Verabreichung von Medikamenten direkt in die Atemwege verwendet wird.",
+                "en": "A ________ is a device used to deliver medication directly into the airways.",
+                "bn": "একটি ________ হল একটি ডিভাইস যা সরাসরি শ্বাসনালীতে ওষুধ সরবরাহ করতে ব্যবহৃত হয়।",
+                "hi": "एक ________ एक उपकरण है जिसका उपयोग सीधे वायुमार्ग में दवा पहुंचाने के लिए किया जाता है।",
+                "ur": "ایک ________ ایک آلہ ہے جو دوا کو براہ راست ایئرویز میں پہنچانے کے لیے استعمال ہوتا ہے۔",
+                "tr": "Bir ________, ilacı doğrudan hava yollarına vermek için kullanılan bir cihazdır."
+            },
+            "options": [],
+            "correctAnswer": "Inhalator",
+            "explanation": {
+                "en": "An inhaler is used to deliver medication directly into the airways.",
+                "bn": "একটি ইনহেলার সরাসরি শ্বাসনালীতে ওষুধ সরবরাহ করতে ব্যবহৃত হয়।",
+                "hi": "एक इनहेलर का उपयोग सीधे वायुमार्ग में दवा पहुंचाने के लिए किया जाता है।",
+                "ur": "ایک انہیلر کا استعمال براہ راست ایئرویز میں دوا پہنچانے کے لیے کیا جاتا ہے۔",
+                "tr": "Bir inhaler, ilacı doğrudan hava yollarına vermek için kullanılır."
+            },
+            "points": 10,
+            "id": "e22_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "________ bezeichnet die Abnahme der Sauerstoffsättigung im Blut.",
+                "en": "________ refers to the decrease in oxygen saturation in the blood.",
+                "bn": "________ রক্তে অক্সিজেনের স্যাচুরেশন হ্রাসকে বোঝায়।",
+                "hi": "________ रक्त में ऑक्सीजन संतृप्ति में कमी को संदर्भित करता है।",
+                "ur": "________ خون میں آکسیجن کی سیرچریشن میں کمی سے مراد ہے۔",
+                "tr": "________ kandaki oksijen doygunluğunun azalmasını ifade eder."
+            },
+            "options": [],
+            "correctAnswer": "Hypoxämie",
+            "explanation": {
+                "en": "Hypoxemia refers to the decrease in oxygen saturation in the blood.",
+                "bn": "হাইপোক্সেমিয়া রক্তে অক্সিজেনের স্যাচুরেশন হ্রাসকে বোঝায়।",
+                "hi": "हाइपोक्सेमिया रक्त में ऑक्सीजन संतृप्ति में कमी को संदर्भित करता है।",
+                "ur": "ہائپوکسیما خون میں آکسیجن کی سیرچریشن میں کمی سے مراد ہے۔",
+                "tr": "Hipoksemi, kandaki oksijen doygunluğunun azalmasını ifade eder."
+            },
+            "points": 10,
+            "id": "e22_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bei der Beatmung wird oft ein ________ verwendet, um die Lunge zu schützen.",
+                "en": "During ventilation, a ________ is often used to protect the lungs.",
+                "bn": "ভেন্টিলেশনের সময়, ফুসফুসকে রক্ষা করার জন্য প্রায়শই একটি ________ ব্যবহার করা হয়।",
+                "hi": "वेंटिलेशन के दौरान, फेफड़ों की रक्षा के लिए अक्सर एक ________ का उपयोग किया जाता है।",
+                "ur": "وینٹیلیشن کے دوران، پھیپھڑوں کی حفاظت کے لیے اکثر ایک ________ استعمال کیا جاتا ہے۔",
+                "tr": "Ventilasyon sırasında, akciğerleri korumak için sıklıkla bir ________ kullanılır."
+            },
+            "options": [],
+            "correctAnswer": "PEEP",
+            "explanation": {
+                "en": "PEEP (Positive End-Expiratory Pressure) is often used during ventilation to keep the alveoli open and protect the lungs.",
+                "bn": "PEEP (পজিটিভ এন্ড-এক্সপিরেটরি প্রেসার) প্রায়শই ভেন্টিলেশনের সময় অ্যালভিওলি খোলা রাখতে এবং ফুসফুসকে রক্ষা করতে ব্যবহৃত হয়।",
+                "hi": "पीईईपी (पॉजिटिव एंड-एक्सपिरेटरी प्रेशर) का उपयोग अक्सर वेंटिलेशन के दौरान एल्वियोली को खुला रखने और फेफड़ों की रक्षा के लिए किया जाता है।",
+                "ur": "PEEP (مثبت اینڈ-ایکسپایریٹری پریشر) اکثر وینٹیلیشن کے دوران الیوولی کو کھلا رکھنے اور پھیپھڑوں کی حفاظت کے لیے استعمال ہوتا ہے۔",
+                "tr": "PEEP (Pozitif Ekspirasyon Sonu Basıncı), alveolleri açık tutmak ve akciğerleri korumak için genellikle ventilasyon sırasında kullanılır."
+            },
+            "points": 10,
+            "id": "e22_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein ________ ist ein Gerät zur Messung der Sauerstoffsättigung.",
+                "en": "A ________ is a device for measuring oxygen saturation.",
+                "bn": "একটি ________ হল অক্সিজেনের স্যাচুরেশন পরিমাপ করার একটি ডিভাইস।",
+                "hi": "एक ________ ऑक्सीजन संतृप्ति मापने के लिए एक उपकरण है।",
+                "ur": "ایک ________ آکسیجن سیچوریشن کی پیمائش کرنے کا ایک آلہ ہے۔",
+                "tr": "Bir ________, oksijen doygunluğunu ölçmek için kullanılan bir cihazdır."
+            },
+            "options": [],
+            "correctAnswer": "Pulsoximeter",
+            "explanation": {
+                "en": "A pulse oximeter is a device for measuring oxygen saturation.",
+                "bn": "একটি পালস অক্সিমিটার হল অক্সিজেনের স্যাচুরেশন পরিমাপ করার একটি ডিভাইস।",
+                "hi": "एक पल्स ऑक्सीमीटर ऑक्सीजन संतृप्ति मापने के लिए एक उपकरण है।",
+                "ur": "ایک پلس آکسیمیٹر آکسیجن سیچوریشن کی پیمائش کرنے کا ایک آلہ ہے۔",
+                "tr": "Bir pulse oksimetre, oksijen doygunluğunu ölçmek için kullanılan bir cihazdır."
+            },
+            "points": 10,
+            "id": "e22_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Ich habe seit drei Tagen starken Husten und Fieber.",
+                "en": null,
+                "bn": null,
+                "hi": null,
+                "ur": null,
+                "tr": null
+            },
+            "options": [],
+            "correctAnswer": "I have had a bad cough and a fever for three days.",
+            "explanation": {
+                "en": "This is a straightforward translation describing symptoms of illness.",
+                "bn": "এটি অসুস্থতার লক্ষণ বর্ণনা করে একটি সরল অনুবাদ।",
+                "hi": "यह बीमारी के लक्षणों का वर्णन करने वाला एक सीधा अनुवाद है।",
+                "ur": "یہ بیماری کی علامات کی وضاحت کرنے والا ایک سیدھا ترجمہ ہے۔",
+                "tr": "Bu, hastalık belirtilerini açıklayan basit bir çeviridir."
+            },
+            "points": 10,
+            "id": "e22_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Der Patient hat eine schwere Dyspnoe und benötigt Sauerstoff.",
+                "en": null,
+                "bn": null,
+                "hi": null,
+                "ur": null,
+                "tr": null
+            },
+            "options": [],
+            "correctAnswer": "The patient has severe dyspnea and requires oxygen.",
+            "explanation": {
+                "en": "This translates a patient's condition requiring medical intervention.",
+                "bn": "এটি একজন রোগীর অবস্থা অনুবাদ করে যার চিকিৎসার প্রয়োজন।",
+                "hi": "यह एक मरीज की स्थिति का अनुवाद करता है जिसके लिए चिकित्सा हस्तक्षेप की आवश्यकता होती है।",
+                "ur": "یہ ایک مریض کی حالت کا ترجمہ کرتا ہے جس میں طبی مداخلت کی ضرورت ہوتی ہے۔",
+                "tr": "Bu, tıbbi müdahale gerektiren bir hastanın durumunu çevirir."
+            },
+            "points": 10,
+            "id": "e22_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Wir werden eine Lungenfunktionsprüfung durchführen, um Ihre Atemwegsobstruktion zu beurteilen.",
+                "en": null,
+                "bn": null,
+                "hi": null,
+                "ur": null,
+                "tr": null
+            },
+            "options": [],
+            "correctAnswer": "We will perform a pulmonary function test to assess your airway obstruction.",
+            "explanation": {
+                "en": "This translates a medical procedure and its purpose.",
+                "bn": "এটি একটি চিকিৎসা পদ্ধতি এবং এর উদ্দেশ্য অনুবাদ করে।",
+                "hi": "यह एक चिकित्सा प्रक्रिया और उसके उद्देश्य का अनुवाद करता है।",
+                "ur": "یہ ایک طبی طریقہ کار اور اس کے مقصد کا ترجمہ کرتا ہے۔",
+                "tr": "Bu, bir tıbbi prosedürü ve amacını çevirir."
+            },
+            "points": 10,
+            "id": "e22_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

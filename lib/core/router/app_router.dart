@@ -6,6 +6,8 @@ import '../../presentation/screens/splash/splash_screen.dart';
 import '../../presentation/screens/onboarding/onboarding_screen.dart';
 import '../../presentation/screens/auth/login_screen.dart';
 import '../../presentation/screens/auth/register_screen.dart';
+import '../../presentation/screens/auth/verify_email_screen.dart';
+import '../../presentation/screens/auth/terms_screen.dart';
 import '../../presentation/screens/home/home_screen.dart';
 import '../../presentation/screens/learning/phase_list_screen.dart';
 import '../../presentation/screens/learning/section_list_screen.dart';
@@ -14,7 +16,6 @@ import '../../presentation/screens/learning/vocabulary_screen.dart';
 import '../../presentation/screens/practice/exercise_screen.dart';
 import '../../presentation/screens/progress/progress_screen.dart';
 import '../../presentation/screens/settings/settings_screen.dart';
-import '../../presentation/providers/providers.dart';
 
 final routerProvider = Provider<GoRouter>((ref) {
   return GoRouter(
@@ -40,6 +41,19 @@ final routerProvider = Provider<GoRouter>((ref) {
         path: '/register',
         name: 'register',
         builder: (context, state) => const RegisterScreen(),
+      ),
+      GoRoute(
+        path: '/verify-email',
+        name: 'verify-email',
+        builder: (context, state) {
+          final email = state.extra as String? ?? '';
+          return VerifyEmailScreen(email: email);
+        },
+      ),
+      GoRoute(
+        path: '/terms',
+        name: 'terms',
+        builder: (context, state) => const TermsScreen(),
       ),
       GoRoute(
         path: '/home',

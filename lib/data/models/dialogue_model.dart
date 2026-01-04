@@ -61,6 +61,10 @@ class DialogueModel {
     );
   }
 
+  factory DialogueModel.fromJson(Map<String, dynamic> json) {
+    return DialogueModel.fromMap(json, json['id'] ?? '');
+  }
+
   Map<String, dynamic> toFirestore() {
     return {
       'sectionId': sectionId,

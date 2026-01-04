@@ -49,11 +49,11 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyCxcvJAhcG8NW8P64hLmc8f0fv_IrPeHvA',
-    appId: '1:149956547132:ios:48797eac0089633eba2939',
+    appId: '1:149956547132:ios:3fcc0c2d88f9d48cba2939',
     messagingSenderId: '149956547132',
     projectId: 'german-med',
     storageBucket: 'german-med.firebasestorage.app',
-    iosClientId: '149956547132-aea3amlfppuv9let4rapr7bvapqp7knf.apps.googleusercontent.com',
-    iosBundleId: 'app.german.med',
+    iosClientId: '149956547132-171jjqiqi6fc9l2k1hlqiu1p5kpo47lg.apps.googleusercontent.com',
+    iosBundleId: 'app.deutsch.med',
   );
 }

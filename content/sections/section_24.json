@@ -1,14 +1,1579 @@
-{"id":"section_24","phaseId":"phase2","order":24,"titleDe":"Neurologie-Grundlagen","title":{"en":"Neurology Basics","bn":"নিউরোলজি বেসিক","hi":"न्यूरोलॉजी मूल बातें","ur":"نیورولوجی کی بنیادی باتیں","tr":"Nöroloji Temelleri"},"level":"B2","estimatedMinutes":40,"vocabulary":[
-{"id":"v24_01","germanTerm":"Schlaganfall","article":"der","plural":"Schlaganfälle","translation":{"en":"Stroke","bn":"স্ট্রোক","hi":"स्ट्रोक","ur":"فالج","tr":"İnme"}},
-{"id":"v24_02","germanTerm":"Epilepsie","article":"die","plural":"Epilepsien","translation":{"en":"Epilepsy","bn":"মৃগী","hi":"मिर्गी","ur":"مرگی","tr":"Epilepsi"}},
-{"id":"v24_03","germanTerm":"Meningitis","article":"die","plural":"Meningitiden","translation":{"en":"Meningitis","bn":"মেনিনজাইটিস","hi":"मेनिन्जाइटिस","ur":"گردن توڑ بخار","tr":"Menenjit"}},
-{"id":"v24_04","germanTerm":"Lähmung","article":"die","plural":"Lähmungen","translation":{"en":"Paralysis","bn":"পক্ষাঘাত","hi":"पक्षाघात","ur":"فالج","tr":"Felç"}},
-{"id":"v24_05","germanTerm":"Bewusstseinsstörung","article":"die","plural":"Bewusstseinsstörungen","translation":{"en":"Altered Consciousness","bn":"চেতনা বিঘ্ন","hi":"चेतना में परिवर्तन","ur":"ہوش میں خلل","tr":"Bilinç bozukluğu"}},
-{"id":"v24_06","germanTerm":"Glasgow Coma Scale","article":"die","plural":"-","translation":{"en":"Glasgow Coma Scale","bn":"গ্লাসগো কোমা স্কেল","hi":"ग्लासगो कोमा स्केल","ur":"گلاسگو کوما اسکیل","tr":"Glasgow Koma Skalası"}},
-{"id":"v24_07","germanTerm":"Pupillenreaktion","article":"die","plural":"Pupillenreaktionen","translation":{"en":"Pupil Reaction","bn":"পিউপিল প্রতিক্রিয়া","hi":"पुतली प्रतिक्रिया","ur":"پتلی کا رد عمل","tr":"Pupil reaksiyonu"}},
-{"id":"v24_08","germanTerm":"Reflexe","article":"die","plural":"-","translation":{"en":"Reflexes","bn":"রিফ্লেক্স","hi":"प्रतिवर्त","ur":"ریفلیکس","tr":"Refleksler"}}
-],"dialogues":[{"id":"d24_01","title":{"en":"Stroke Assessment"},"lines":[
-{"speaker":"Schwester","germanText":"Patient mit plötzlicher Sprachstörung und Lähmung rechts.","translation":{"en":"Patient with sudden speech disorder and right-sided paralysis."}},
-{"speaker":"Arzt","germanText":"Verdacht auf Schlaganfall. Sofort CCT anfordern!","translation":{"en":"Suspected stroke. Order CT head immediately!"}},
-{"speaker":"Schwester","germanText":"Wann haben die Symptome begonnen?","translation":{"en":"When did the symptoms begin?"}}
-]}],"exercises":[{"id":"e24_01","type":"multipleChoice","question":{"en":"What is 'Schlaganfall'?"},"options":["Stroke","Epilepsy","Headache"],"correctAnswer":"Stroke","points":10}]}
+{
+    "id": "section_24",
+    "phaseId": "phase2",
+    "order": 24,
+    "titleDe": "Neurologie-Grundlagen",
+    "title": {
+        "en": "Neurology: Stroke, Epilepsy, Parkinson's, Multiple Sclerosis, Paralysis, Consciousness, GCS",
+        "bn": "স্নায়ুবিজ্ঞান: স্ট্রোক, মৃগীরোগ, পারকিনসন, মাল্টিপল স্ক্লেরোসিস, পক্ষাঘাত, চেতনা, জিসিএস",
+        "hi": "न्यूरोलॉजी: स्ट्रोक, एपिलेप्सी, पार्किंसंस, मल्टीपल स्केलेरोसिस, पक्षाघात, चेतना, जीसीएस",
+        "ur": "عصبیات: فالج، مرگی، پارکنسنز، ایک سے زیادہ سکلیروسس، فالج، ہوش، جی سی ایس",
+        "tr": "Nöroloji: İnme, Epilepsi, Parkinson, Multipl Skleroz, Felç, Bilinç, GCS",
+        "de": "Neurologie: Schlaganfall, Epilepsie, Parkinson, Multiple Sklerose, Lähmung, Bewusstsein, GCS"
+    },
+    "description": {
+        "en": "This section covers key neurological conditions including stroke, epilepsy, Parkinson's, multiple sclerosis, paralysis, and disorders of consciousness, with a focus on the Glasgow Coma Scale (GCS).",
+        "bn": "এই বিভাগে স্ট্রোক, মৃগীরোগ, পারকিনসন, মাল্টিপল স্ক্লেরোসিস, পক্ষাঘাত, এবং চেতনা সম্পর্কিত ব্যাধি সহ মূল স্নায়বিক অবস্থাগুলি নিয়ে আলোচনা করা হয়েছে, যেখানে গ্লাসগো কোমা স্কেল (জিসিএস) এর উপর বিশেষ জোর দেওয়া হয়েছে।",
+        "hi": "यह खंड स्ट्रोक, एपिलेप्सी, पार्किंसंस, मल्टीपल स्केलेरोसिस, पक्षाघात और चेतना के विकारों सहित प्रमुख न्यूरोलॉजिकल स्थितियों को कवर करता है, जिसमें ग्लासगो कोमा स्केल (जीसीएस) पर ध्यान केंद्रित किया गया है।",
+        "ur": "یہ سیکشن فالج، مرگی، پارکنسنز، ایک سے زیادہ سکلیروسس، فالج، اور شعور کی خرابی سمیت اہم نیورولوجیکل حالات کا احاطہ کرتا ہے، جس میں گلاسگو کوما اسکیل (جی سی ایس) پر توجہ مرکوز کی گئی ہے۔",
+        "tr": "Bu bölüm, Glasgow Koma Skalası'na (GCS) odaklanarak inme, epilepsi, Parkinson, multipl skleroz, felç ve bilinç bozuklukları dahil olmak üzere temel nörolojik durumları kapsar.",
+        "de": "Dieser Abschnitt behandelt wichtige neurologische Erkrankungen wie Schlaganfall, Epilepsie, Parkinson, Multiple Sklerose, Lähmung und Bewusstseinsstörungen mit Fokus auf die Glasgow Coma Scale (GCS)."
+    },
+    "level": "B2",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, we will explore common neurological diseases and their German medical terminology. You will learn how to describe symptoms, diagnostic procedures, and treatment options related to these conditions in German.",
+            "bn": "এই বিভাগে, আমরা সাধারণ স্নায়বিক রোগ এবং তাদের জার্মান চিকিৎসা পরিভাষা অন্বেষণ করব। আপনি জার্মান ভাষায় এই অবস্থাগুলির সাথে সম্পর্কিত লক্ষণ, ডায়াগনস্টিক পদ্ধতি এবং চিকিত্সার বিকল্পগুলি বর্ণনা করতে শিখবেন।",
+            "hi": "इस खंड में, हम सामान्य न्यूरोलॉजिकल रोगों और उनकी जर्मन चिकित्सा शब्दावली का पता लगाएंगे। आप जर्मन में इन स्थितियों से संबंधित लक्षणों, नैदानिक प्रक्रियाओं और उपचार विकल्पों का वर्णन करना सीखेंगे।",
+            "ur": "اس سیکشن میں، ہم عام نیورولوجیکل بیماریوں اور ان کی جرمن طبی اصطلاحات کا جائزہ لیں گے۔ آپ جرمن میں ان حالات سے متعلق علامات، تشخیصی طریقہ کار اور علاج کے اختیارات کی وضاحت کرنا سیکھیں گے۔",
+            "tr": "Bu bölümde, yaygın nörolojik hastalıkları ve Almanca tıbbi terminolojilerini inceleyeceğiz. Bu durumlarla ilgili semptomları, tanısal prosedürleri ve tedavi seçeneklerini Almanca olarak nasıl tanımlayacağınızı öğreneceksiniz.",
+            "de": "In diesem Abschnitt werden wir uns mit häufigen neurologischen Erkrankungen und ihrer deutschen medizinischen Terminologie befassen. Sie lernen, wie Sie Symptome, diagnostische Verfahren und Behandlungsoptionen im Zusammenhang mit diesen Erkrankungen auf Deutsch beschreiben."
+        },
+        "grammarFocus": {
+            "en": {
+                "point1": "Use of adjective endings after definite and indefinite articles when describing neurological symptoms (e.g., 'der starke Kopfschmerz', 'ein leichter Tremor').",
+                "point2": "Practice forming passive voice constructions to describe medical procedures (e.g., 'Der Patient wird untersucht' - 'The patient is being examined')."
+            },
+            "bn": {
+                "point1": "স্নায়বিক লক্ষণ বর্ণনা করার সময় নির্দিষ্ট এবং অনির্দিষ্ট প্রবন্ধের পরে বিশেষণগুলির ব্যবহার (যেমন, 'der starke Kopfschmerz', 'ein leichter Tremor')।",
+                "point2": "চিকিৎসা পদ্ধতি বর্ণনা করার জন্য প্যাসিভ ভয়েস গঠন তৈরি করার অনুশীলন (যেমন, 'Der Patient wird untersucht' - 'রোগীকে পরীক্ষা করা হচ্ছে')।"
+            },
+            "hi": {
+                "point1": "न्यूरोलॉजिकल लक्षणों का वर्णन करते समय निश्चित और अनिश्चित लेखों के बाद विशेषण अंत का उपयोग (जैसे, 'der starke Kopfschmerz', 'ein leichter Tremor')।",
+                "point2": "चिकित्सा प्रक्रियाओं का वर्णन करने के लिए निष्क्रिय आवाज निर्माण बनाने का अभ्यास (जैसे, 'Der Patient wird untersucht' - 'रोगी की जांच की जा रही है')।"
+            },
+            "ur": {
+                "point1": "نیورولوجیکل علامات کو بیان کرتے وقت متعین اور غیر متعین مضامین کے بعد صفت کے اختتام کا استعمال (مثال کے طور پر، 'der starke Kopfschmerz', 'ein leichter Tremor')۔",
+                "point2": "طبی طریقہ کار کو بیان کرنے کے لیے غیر فعال آواز کی تعمیرات بنانے کی مشق (مثال کے طور پر، 'Der Patient wird untersucht' - 'مریض کا معائنہ کیا جا رہا ہے')۔"
+            },
+            "tr": {
+                "point1": "Nörolojik semptomları tanımlarken belirli ve belirsiz tanımlıklardan sonra sıfat eklerinin kullanımı (örneğin, 'der starke Kopfschmerz', 'ein leichter Tremor').",
+                "point2": "Tıbbi prosedürleri tanımlamak için edilgen yapıları oluşturma alıştırması (örneğin, 'Der Patient wird untersucht' - 'Hasta muayene ediliyor')."
+            },
+            "de": {
+                "point1": "Verwendung von Adjektivendungen nach bestimmten und unbestimmten Artikeln bei der Beschreibung neurologischer Symptome (z.B. 'der starke Kopfschmerz', 'ein leichter Tremor').",
+                "point2": "Üben Sie die Bildung von Passivkonstruktionen zur Beschreibung medizinischer Verfahren (z.B. 'Der Patient wird untersucht' - 'Der Patient wird untersucht')."
+            }
+        },
+        "culturalNotes": {
+            "en": "In German hospitals, medical professionals often use a more formal and direct communication style, especially when discussing diagnoses or treatment plans with patients.",
+            "bn": "জার্মান হাসপাতালগুলিতে, চিকিৎসা পেশাদাররা প্রায়শই আরও আনুষ্ঠানিক এবং সরাসরি যোগাযোগের শৈলী ব্যবহার করেন, বিশেষ করে রোগীদের সাথে রোগ নির্ণয় বা চিকিত্সা পরিকল্পনা নিয়ে আলোচনার সময়।",
+            "hi": "जर्मन अस्पतालों में, चिकित्सा पेशेवर अक्सर अधिक औपचारिक और सीधी संचार शैली का उपयोग करते हैं, खासकर रोगियों के साथ निदान या उपचार योजनाओं पर चर्चा करते समय।",
+            "ur": "جرمن ہسپتالوں میں، طبی پیشہ ور اکثر زیادہ رسمی اور براہ راست مواصلات کا انداز استعمال کرتے ہیں، خاص طور پر مریضوں کے ساتھ تشخیص یا علاج کے منصوبوں پر تبادلہ خیال کرتے وقت۔",
+            "tr": "Alman hastanelerinde, tıp uzmanları özellikle hastalarla teşhisleri veya tedavi planlarını tartışırken genellikle daha resmi ve doğrudan bir iletişim tarzı kullanır.",
+            "de": "In deutschen Krankenhäusern verwenden medizinische Fachkräfte oft einen formelleren und direkteren Kommunikationsstil, insbesondere wenn sie Diagnosen oder Behandlungspläne mit Patienten besprechen."
+        },
+        "summary": {
+            "en": "This section provides a foundation for understanding and communicating about common neurological conditions in the German medical context.",
+            "bn": "এই বিভাগটি জার্মান চিকিৎসা প্রেক্ষাপটে সাধারণ স্নায়বিক অবস্থাগুলি বোঝা এবং যোগাযোগ করার জন্য একটি ভিত্তি প্রদান করে।",
+            "hi": "यह खंड जर्मन चिकित्सा संदर्भ में सामान्य न्यूरोलॉजिकल स्थितियों को समझने और संवाद करने के लिए एक आधार प्रदान करता है।",
+            "ur": "یہ سیکشن جرمن طبی تناظر میں عام نیورولوجیکل حالات کو سمجھنے اور ان کے بارے میں بات چیت کرنے کے لیے ایک بنیاد فراہم کرتا ہے۔",
+            "tr": "Bu bölüm, Alman tıbbi bağlamında yaygın nörolojik durumları anlamak ve iletişim kurmak için bir temel sağlar.",
+            "de": "Dieser Abschnitt bietet eine Grundlage für das Verständnis und die Kommunikation über häufige neurologische Erkrankungen im deutschen medizinischen Kontext."
+        },
+        "learningObjectives": [
+            "Recognize and use German medical terminology for common neurological conditions.",
+            "Describe the symptoms and diagnostic procedures for stroke, epilepsy, Parkinson's, and multiple sclerosis in German.",
+            "Explain the Glasgow Coma Scale (GCS) in German and apply it to assess patient consciousness.",
+            "Understand the cultural nuances of communicating with patients about neurological diagnoses in a German medical setting."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "der Schlaganfall",
+            "article": "der",
+            "plural": "die Schlaganfälle",
+            "pronunciation": "[ˈʃlaːkʔanˌfal]",
+            "category": "noun",
+            "translation": {
+                "en": "stroke",
+                "bn": "স্ট্রোক",
+                "hi": "स्ट्रोक",
+                "ur": "فالج",
+                "tr": "inme"
+            },
+            "exampleSentence": "Der Patient erlitt einen ischämischen Schlaganfall.",
+            "exampleTranslation": {
+                "en": "The patient suffered an ischemic stroke.",
+                "bn": "রোগী একটি ইস্কেমিক স্ট্রোকে আক্রান্ত হয়েছেন।",
+                "hi": "मरीज को इस्केमिक स्ट्रोक हुआ।",
+                "ur": "مریض کو اسکیمک فالج ہوا۔",
+                "tr": "Hasta iskemik inme geçirdi."
+            },
+            "id": "v24_01"
+        },
+        {
+            "germanTerm": "die Epilepsie",
+            "article": "die",
+            "plural": "die Epilepsien",
+            "pronunciation": "[epilɛpˈsiː]",
+            "category": "noun",
+            "translation": {
+                "en": "epilepsy",
+                "bn": "এপিলেপসি",
+                "hi": "मिर्गी",
+                "ur": "مرگی",
+                "tr": "epilepsi"
+            },
+            "exampleSentence": "Die Diagnose Epilepsie wurde bestätigt.",
+            "exampleTranslation": {
+                "en": "The diagnosis of epilepsy was confirmed.",
+                "bn": "এপিলেপসি রোগ নির্ণয় নিশ্চিত করা হয়েছে।",
+                "hi": "मिर्गी का निदान पुष्टि किया गया।",
+                "ur": "مرگی کی تشخیص کی تصدیق ہوگئی۔",
+                "tr": "Epilepsi teşhisi doğrulandı."
+            },
+            "id": "v24_02"
+        },
+        {
+            "germanTerm": "die Parkinson-Krankheit",
+            "article": "die",
+            "plural": "die Parkinson-Krankheiten",
+            "pronunciation": "[ˈpaʁkɪnˌzɔnˌkʁaŋkhaɪ̯t]",
+            "category": "noun",
+            "translation": {
+                "en": "Parkinson's disease",
+                "bn": "পারকিনসন রোগ",
+                "hi": "पार्किंसन रोग",
+                "ur": "پارکنسنز بیماری",
+                "tr": "Parkinson hastalığı"
+            },
+            "exampleSentence": "Der Patient zeigt Symptome der Parkinson-Krankheit.",
+            "exampleTranslation": {
+                "en": "The patient shows symptoms of Parkinson's disease.",
+                "bn": "রোগী পারকিনসন রোগের লক্ষণ দেখাচ্ছে।",
+                "hi": "मरीज पार्किंसन रोग के लक्षण दिखा रहा है।",
+                "ur": "مریض پارکنسنز کی بیماری کی علامات ظاہر کر رہا ہے۔",
+                "tr": "Hasta Parkinson hastalığı belirtileri gösteriyor."
+            },
+            "id": "v24_03"
+        },
+        {
+            "germanTerm": "die Multiple Sklerose",
+            "article": "die",
+            "plural": "die Multiplen Sklerosen",
+            "pronunciation": "[ˈmʊltɪplə ˈskleːˌʁoːzə]",
+            "category": "noun",
+            "translation": {
+                "en": "multiple sclerosis",
+                "bn": "মাল্টিপল স্ক্লেরোসিস",
+                "hi": "मल्टीपल स्केलेरोसिस",
+                "ur": "ملٹیپل سکلیروسس",
+                "tr": "multipl skleroz"
+            },
+            "exampleSentence": "Die Multiple Sklerose beeinträchtigt die Motorik des Patienten.",
+            "exampleTranslation": {
+                "en": "Multiple sclerosis impairs the patient's motor skills.",
+                "bn": "মাল্টিপল স্ক্লেরোসিস রোগীর মোটর দক্ষতাকে ব্যাহত করে।",
+                "hi": "मल्टीपल स्केलेरोसिस रोगी की मोटर कौशल को बाधित करता है।",
+                "ur": "ملٹیپل سکلیروسس مریض کی موٹر مہارت کو خراب کرتا ہے۔",
+                "tr": "Multipl skleroz hastanın motor becerilerini bozar."
+            },
+            "id": "v24_04"
+        },
+        {
+            "germanTerm": "die Lähmung",
+            "article": "die",
+            "plural": "die Lähmungen",
+            "pronunciation": "[ˈlɛːmʊŋ]",
+            "category": "noun",
+            "translation": {
+                "en": "paralysis",
+                "bn": "পক্ষাঘাত",
+                "hi": "लकवा",
+                "ur": "فالج",
+                "tr": "felç"
+            },
+            "exampleSentence": "Die Lähmung betrifft die linke Körperhälfte.",
+            "exampleTranslation": {
+                "en": "The paralysis affects the left side of the body.",
+                "bn": "পক্ষাঘাত শরীরের বাম দিকে প্রভাবিত করে।",
+                "hi": "लकवा शरीर के बाईं ओर को प्रभावित करता है।",
+                "ur": "فالج جسم کے بائیں جانب کو متاثر کرتا ہے۔",
+                "tr": "Felç vücudun sol tarafını etkiliyor."
+            },
+            "id": "v24_05"
+        },
+        {
+            "germanTerm": "das Bewusstsein",
+            "article": "das",
+            "plural": "kein Plural",
+            "pronunciation": "[bəˈvʊstzaɪ̯n]",
+            "category": "noun",
+            "translation": {
+                "en": "consciousness",
+                "bn": "সচেতনতা",
+                "hi": "चेतना",
+                "ur": "شعور",
+                "tr": "bilinç"
+            },
+            "exampleSentence": "Der Patient hat das Bewusstsein verloren.",
+            "exampleTranslation": {
+                "en": "The patient has lost consciousness.",
+                "bn": "রোগী অজ্ঞান হয়ে গেছে।",
+                "hi": "मरीज बेहोश हो गया है।",
+                "ur": "مریض بے ہوش ہوگیا ہے۔",
+                "tr": "Hasta bilincini kaybetti."
+            },
+            "id": "v24_06"
+        },
+        {
+            "germanTerm": "die Glasgow Coma Scale (GCS)",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "[ˈɡlæskoʊ ˈkoʊmə skeɪl]",
+            "category": "noun",
+            "translation": {
+                "en": "Glasgow Coma Scale (GCS)",
+                "bn": "গ্লাসগো কোমা স্কেল (জিসিএস)",
+                "hi": "ग्लासगो कोमा स्केल (जीसीएस)",
+                "ur": "گلاسگو کوما اسکیل (جی سی ایس)",
+                "tr": "Glasgow Koma Skalası (GKS)"
+            },
+            "exampleSentence": "Die GCS des Patienten beträgt 8.",
+            "exampleTranslation": {
+                "en": "The patient's GCS is 8.",
+                "bn": "রোগীর জিসিএস ৮।",
+                "hi": "मरीज का जीसीएस 8 है।",
+                "ur": "مریض کا جی سی ایس 8 ہے۔",
+                "tr": "Hastanın GKS'si 8."
+            },
+            "id": "v24_07"
+        },
+        {
+            "germanTerm": "die Hemiparese",
+            "article": "die",
+            "plural": "die Hemiparesen",
+            "pronunciation": "[ˌhemiːpaˈʁeːzə]",
+            "category": "noun",
+            "translation": {
+                "en": "hemiparesis",
+                "bn": "হেমিপারেসিস",
+                "hi": "हेमिपारेसिस",
+                "ur": "ہیمی پیرسس",
+                "tr": "hemiparezi"
+            },
+            "exampleSentence": "Der Patient zeigt eine Hemiparese der rechten Seite.",
+            "exampleTranslation": {
+                "en": "The patient shows hemiparesis on the right side.",
+                "bn": "রোগী ডান দিকে হেমিপারেসিস দেখাচ্ছে।",
+                "hi": "मरीज दाहिनी ओर हेमिपारेसिस दिखा रहा है।",
+                "ur": "مریض دائیں طرف ہیمی پیرسس دکھا رہا ہے۔",
+                "tr": "Hasta sağ tarafta hemiparezi gösteriyor."
+            },
+            "id": "v24_08"
+        },
+        {
+            "germanTerm": "die Aphasie",
+            "article": "die",
+            "plural": "die Aphasien",
+            "pronunciation": "[aˈfaːzi̯ə]",
+            "category": "noun",
+            "translation": {
+                "en": "aphasia",
+                "bn": "এফেসিয়া",
+                "hi": "अफेसिया",
+                "ur": "حبس کلام",
+                "tr": "afazi"
+            },
+            "exampleSentence": "Die Aphasie erschwert die Kommunikation.",
+            "exampleTranslation": {
+                "en": "The aphasia makes communication difficult.",
+                "bn": "এফেসিয়া যোগাযোগকে কঠিন করে তোলে।",
+                "hi": "अफेसिया संचार को मुश्किल बनाता है।",
+                "ur": "حبس کلام مواصلات کو مشکل بنا دیتا ہے۔",
+                "tr": "Afazi iletişimi zorlaştırıyor."
+            },
+            "id": "v24_09"
+        },
+        {
+            "germanTerm": "der Tremor",
+            "article": "der",
+            "plural": "die Tremore/Tremors",
+            "pronunciation": "[ˈtʁeːmoːɐ̯]",
+            "category": "noun",
+            "translation": {
+                "en": "tremor",
+                "bn": "কম্পন",
+                "hi": "कंपन",
+                "ur": "رعشہ",
+                "tr": "titreme"
+            },
+            "exampleSentence": "Der Tremor ist besonders stark in Ruhe.",
+            "exampleTranslation": {
+                "en": "The tremor is particularly strong at rest.",
+                "bn": "কম্পন বিশ্রাম নেওয়ার সময় বিশেষভাবে শক্তিশালী।",
+                "hi": "कंपन आराम करते समय विशेष रूप से मजबूत होता है।",
+                "ur": "رعشہ آرام کے وقت خاص طور پر مضبوط ہوتا ہے۔",
+                "tr": "Titreme özellikle dinlenirken çok şiddetli."
+            },
+            "id": "v24_10"
+        },
+        {
+            "germanTerm": "die Spastik",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "[ˈʃpastɪk]",
+            "category": "noun",
+            "translation": {
+                "en": "spasticity",
+                "bn": "স্প্যাস্টিসিটি",
+                "hi": "स्पास्टिसिटी",
+                "ur": "سپیسٹی سٹی",
+                "tr": "spastisite"
+            },
+            "exampleSentence": "Die Spastik wird mit Baclofen behandelt.",
+            "exampleTranslation": {
+                "en": "The spasticity is treated with Baclofen.",
+                "bn": "স্প্যাস্টিসিটি ব্যক্লোফেন দিয়ে চিকিত্সা করা হয়।",
+                "hi": "स्पास्टिसिटी का इलाज बैक्लोफेन से किया जाता है।",
+                "ur": "سپیسٹی سٹی کا علاج باکلوفین سے کیا جاتا ہے۔",
+                "tr": "Spastisite Baklofen ile tedavi edilir."
+            },
+            "id": "v24_11"
+        },
+        {
+            "germanTerm": "die Sensibilitätsstörung",
+            "article": "die",
+            "plural": "die Sensibilitätsstörungen",
+            "pronunciation": "[zɛnzibiliˈtɛːtsˌʃtøːʁʊŋ]",
+            "category": "noun",
+            "translation": {
+                "en": "sensory disturbance",
+                "bn": "সংবেদনশীল ব্যাধি",
+                "hi": "संवेदी गड़बड़ी",
+                "ur": "حسی خلل",
+                "tr": "duyu bozukluğu"
+            },
+            "exampleSentence": "Der Patient klagt über Sensibilitätsstörungen in den Füßen.",
+            "exampleTranslation": {
+                "en": "The patient complains of sensory disturbances in the feet.",
+                "bn": "রোগী পায়ে সংবেদনশীল ব্যাধির অভিযোগ করছেন।",
+                "hi": "मरीज पैरों में संवेदी गड़बड़ी की शिकायत करता है।",
+                "ur": "مریض پیروں میں حسی خلل کی شکایت کر رہا ہے۔",
+                "tr": "Hasta ayaklarında duyu bozukluklarından şikayet ediyor."
+            },
+            "id": "v24_12"
+        },
+        {
+            "germanTerm": "der Krampfanfall",
+            "article": "der",
+            "plural": "die Krampfanfälle",
+            "pronunciation": "[ˈkʁampfʔanˌfal]",
+            "category": "noun",
+            "translation": {
+                "en": "seizure",
+                "bn": "খিঁচুনি",
+                "hi": "दौरा",
+                "ur": "دورہ",
+                "tr": "nöbet"
+            },
+            "exampleSentence": "Der Patient hatte einen generalisierten Krampfanfall.",
+            "exampleTranslation": {
+                "en": "The patient had a generalized seizure.",
+                "bn": "রোগীর একটি জেনারেলাইজড খিঁচুনি হয়েছিল।",
+                "hi": "मरीज को सामान्यीकृत दौरा पड़ा।",
+                "ur": "مریض کو عام دورہ پڑا تھا۔",
+                "tr": "Hastanın genel bir nöbeti vardı."
+            },
+            "id": "v24_13"
+        },
+        {
+            "germanTerm": "die Hirnblutung",
+            "article": "die",
+            "plural": "die Hirnblutungen",
+            "pronunciation": "[ˈhiːɐ̯nˌbluːtʊŋ]",
+            "category": "noun",
+            "translation": {
+                "en": "cerebral hemorrhage",
+                "bn": "মস্তিস্কে রক্তক্ষরণ",
+                "hi": "मस्तिष्क रक्तस्राव",
+                "ur": "دماغی خونریزی",
+                "tr": "beyin kanaması"
+            },
+            "exampleSentence": "Die Computertomographie zeigte eine Hirnblutung.",
+            "exampleTranslation": {
+                "en": "The computed tomography showed a cerebral hemorrhage.",
+                "bn": "কম্পিউটেড টমোগ্রাফি মস্তিস্কে রক্তক্ষরণ দেখিয়েছে।",
+                "hi": "कम्प्यूटेड टोमोग्राफी में मस्तिष्क रक्तस्राव दिखा।",
+                "ur": "کمپیوٹر ٹوموگرافی نے دماغی خونریزی دکھائی۔",
+                "tr": "Bilgisayarlı tomografi beyin kanaması gösterdi."
+            },
+            "id": "v24_14"
+        },
+        {
+            "germanTerm": "die Rehabilitation",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "[ˌʁeːhabiliˈtaːt͡si̯oːn]",
+            "category": "noun",
+            "translation": {
+                "en": "rehabilitation",
+                "bn": "পুনর্বাসন",
+                "hi": "पुनर्वास",
+                "ur": "بحالی",
+                "tr": "rehabilitasyon"
+            },
+            "exampleSentence": "Der Patient befindet sich in neurologischer Rehabilitation.",
+            "exampleTranslation": {
+                "en": "The patient is in neurological rehabilitation.",
+                "bn": "রোগী স্নায়ু পুনর্বাসনে রয়েছেন।",
+                "hi": "मरीज न्यूरोलॉजिकल पुनर्वास में है।",
+                "ur": "مریض عصبی بحالی میں ہے۔",
+                "tr": "Hasta nörolojik rehabilitasyonda."
+            },
+            "id": "v24_15"
+        },
+        {
+            "germanTerm": "der Muskeltonus",
+            "article": "der",
+            "plural": "kein Plural",
+            "pronunciation": "[ˈmʊskl̩ˌtoːnʊs]",
+            "category": "noun",
+            "translation": {
+                "en": "muscle tone",
+                "bn": "পেশী স্বন",
+                "hi": "मांसपेशियों की टोन",
+                "ur": "پٹھوں کا ٹون",
+                "tr": "kas tonusu"
+            },
+            "exampleSentence": "Der Muskeltonus ist im rechten Arm erhöht.",
+            "exampleTranslation": {
+                "en": "The muscle tone is increased in the right arm.",
+                "bn": "ডান বাহুতে পেশী স্বন বৃদ্ধি পেয়েছে।",
+                "hi": "दाईं बांह में मांसपेशियों की टोन बढ़ गई है।",
+                "ur": "دائیں بازو میں پٹھوں کا ٹون بڑھ گیا ہے۔",
+                "tr": "Sağ kolda kas tonusu artmıştır."
+            },
+            "id": "v24_16"
+        },
+        {
+            "germanTerm": "das EEG (Elektroenzephalogramm)",
+            "article": "das",
+            "plural": "die EEGs",
+            "pronunciation": "[ˌeːʔeːˈɡeː]",
+            "category": "noun",
+            "translation": {
+                "en": "EEG (Electroencephalogram)",
+                "bn": "ইইজি (ইলেক্ট্রোএনসেফালোগ্রাম)",
+                "hi": "ईईजी (इलेक्ट्रोएन्सेफलोग्राम)",
+                "ur": "ای ای جی (الیکٹرو اینسفالوگرام)",
+                "tr": "EEG (Elektroensefalogram)"
+            },
+            "exampleSentence": "Das EEG zeigte epileptiforme Potenziale.",
+            "exampleTranslation": {
+                "en": "The EEG showed epileptiform potentials.",
+                "bn": "ইইজি এপিলেপ্টিফর্ম পটেনশিয়াল দেখিয়েছে।",
+                "hi": "ईईजी में एपिलेप्टिफ़ॉर्म क्षमताएं दिखाई दीं।",
+                "ur": "ای ای جی نے مرگی کی طرح صلاحیتیں دکھائیں۔",
+                "tr": "EEG epileptiform potansiyeller gösterdi."
+            },
+            "id": "v24_17"
+        },
+        {
+            "germanTerm": "die Liquoruntersuchung",
+            "article": "die",
+            "plural": "die Liquoruntersuchungen",
+            "pronunciation": "[ˈliːkvɔʁʔʊntɐˌzuːxʊŋ]",
+            "category": "noun",
+            "translation": {
+                "en": "lumbar puncture",
+                "bn": "লাম্বার পাংচার",
+                "hi": "कशेरुका पंचर",
+                "ur": "لمبر پنکچر",
+                "tr": "lomber ponksiyon"
+            },
+            "exampleSentence": "Die Liquoruntersuchung wurde durchgeführt, um eine Meningitis auszuschließen.",
+            "exampleTranslation": {
+                "en": "The lumbar puncture was performed to rule out meningitis.",
+                "bn": "মেনিনজাইটিস বাতিল করার জন্য লাম্বার পাংচার করা হয়েছিল।",
+                "hi": "मेनिनजाइटिस को रद्द करने के लिए काशेरुका पंचर किया गया था।",
+                "ur": "میننجائٹس کو ختم کرنے کے لیے لمبر پنکچر کیا گیا تھا۔",
+                "tr": "Menenjiti dışlamak için lomber ponksiyon yapıldı."
+            },
+            "id": "v24_18"
+        },
+        {
+            "germanTerm": "die Magnetresonanztomographie (MRT)",
+            "article": "die",
+            "plural": "die MRTs",
+            "pronunciation": "[maɡˈneːtʁezonantsˌtomoɡʁaˈfiː]",
+            "category": "noun",
+            "translation": {
+                "en": "magnetic resonance imaging (MRI)",
+                "bn": "ম্যাগনেটিক রেজোন্যান্স ইমেজিং (এমআরআই)",
+                "hi": "चुंबकीय अनुनाद इमेजिंग (एमआरआई)",
+                "ur": "مقناطیسی گونج امیجنگ (ایم آر آئی)",
+                "tr": "manyetik rezonans görüntüleme (MRG)"
+            },
+            "exampleSentence": "Die MRT des Gehirns zeigte keine Auffälligkeiten.",
+            "exampleTranslation": {
+                "en": "The MRI of the brain showed no abnormalities.",
+                "bn": "মস্তিষ্কের এমআরআইতে কোনও অস্বাভাবিকতা দেখা যায়নি।",
+                "hi": "मस्तिष्क के एमआरआई में कोई असामान्यता नहीं दिखी।",
+                "ur": "دماغ کے ایم آر آئی میں کوئی اسامانیتا نہیں دکھائی دی۔",
+                "tr": "Beyin MRG'sinde herhangi bir anormallik görülmedi."
+            },
+            "id": "v24_19"
+        },
+        {
+            "germanTerm": "die Computertomographie (CT)",
+            "article": "die",
+            "plural": "die CTs",
+            "pronunciation": "[kɔmˈpuːtɐtomoɡʁaˈfiː]",
+            "category": "noun",
+            "translation": {
+                "en": "computed tomography (CT)",
+                "bn": "কম্পিউটারাইজড টমোগ্রাফি (সিটি)",
+                "hi": "कम्प्यूटेड टोमोग्राफी (सीटी)",
+                "ur": "کمپیوٹڈ ٹوموگرافی (سی ٹی)",
+                "tr": "bilgisayarlı tomografi (BT)"
+            },
+            "exampleSentence": "Eine CT des Kopfes wurde zur Beurteilung der Hirnblutung durchgeführt.",
+            "exampleTranslation": {
+                "en": "A CT scan of the head was performed to assess the cerebral hemorrhage.",
+                "bn": "মস্তিস্কে রক্তক্ষরণ মূল্যায়ন করার জন্য মাথার একটি সিটি স্ক্যান করা হয়েছিল।",
+                "hi": "मस्तिष्क रक्तस्राव का आकलन करने के लिए सिर का सीटी स्कैन किया गया था।",
+                "ur": "دماغی خونریزی کا جائزہ لینے کے لیے سر کا سی ٹی سکین کیا گیا تھا۔",
+                "tr": "Beyin kanamasını değerlendirmek için başın BT taraması yapıldı."
+            },
+            "id": "v24_20"
+        },
+        {
+            "germanTerm": "die Dysarthrie",
+            "article": "die",
+            "plural": "die Dysarthrien",
+            "pronunciation": "[dʏsʔarˈtʁiː]",
+            "category": "noun",
+            "translation": {
+                "en": "dysarthria",
+                "bn": "ডিসআর্থরিয়া",
+                "hi": "डिसआर्थ्रिया",
+                "ur": "ڈیس آرٹریا",
+                "tr": "dizartri"
+            },
+            "exampleSentence": "Die Dysarthrie beeinträchtigt die Verständlichkeit der Sprache.",
+            "exampleTranslation": {
+                "en": "The dysarthria impairs the intelligibility of speech.",
+                "bn": "ডিসআর্থরিয়া ভাষার বোধগম্যতাকে ব্যাহত করে।",
+                "hi": "डिसआर्थ्रिया भाषण की बोधगम्यता को बाधित करता है।",
+                "ur": "ڈیس آرٹریا تقریر کی سمجھ کو خراب کرتا ہے۔",
+                "tr": "Dizartri, konuşmanın anlaşılabilirliğini bozar."
+            },
+            "id": "v24_21"
+        },
+        {
+            "germanTerm": "die Ataxie",
+            "article": "die",
+            "plural": "die Ataxien",
+            "pronunciation": "[aˈtaksi̯ə]",
+            "category": "noun",
+            "translation": {
+                "en": "ataxia",
+                "bn": "অ্যাটাক্সিয়া",
+                "hi": "अटैक्सिया",
+                "ur": "ایٹیکسیا",
+                "tr": "ataksi"
+            },
+            "exampleSentence": "Die Ataxie führt zu Gangunsicherheit.",
+            "exampleTranslation": {
+                "en": "The ataxia leads to gait instability.",
+                "bn": "অ্যাটাক্সিয়া হাঁটার অস্থিরতার দিকে পরিচালিত করে।",
+                "hi": "अटैक्सिया चलने की अस्थिरता की ओर ले जाता है।",
+                "ur": "ایٹیکسیا چلنے میں عدم استحکام کا باعث بنتا ہے۔",
+                "tr": "Ataksi yürüme dengesizliğine yol açar."
+            },
+            "id": "v24_22"
+        },
+        {
+            "germanTerm": "die Hirnnerven",
+            "article": "die",
+            "plural": "die Hirnnerven",
+            "pronunciation": "[ˈhɪʁnˌnɛʁvn̩]",
+            "category": "noun",
+            "translation": {
+                "en": "cranial nerves",
+                "bn": "ক্র্যানিয়াল স্নায়ু",
+                "hi": "कपाल तंत्रिकाएं",
+                "ur": "کرینیئل اعصاب",
+                "tr": "kafa sinirleri"
+            },
+            "exampleSentence": "Die Untersuchung der Hirnnerven ergab eine Okulomotoriusparese.",
+            "exampleTranslation": {
+                "en": "The examination of the cranial nerves revealed an oculomotor paresis.",
+                "bn": "ক্র্যানিয়াল স্নায়ু পরীক্ষায় একটি অকুলোমোটর প্যারেসিস ধরা পরেছে।",
+                "hi": "कपाल तंत्रिकाओं की जांच से एक ऑकुलोमोटर पेरेसिस का पता चला।",
+                "ur": "کرینیئل اعصاب کے معائنے سے اکولو موٹر پیریز کا انکشاف ہوا۔",
+                "tr": "Kafa sinirlerinin incelenmesi okülomotor parezi ortaya çıkardı."
+            },
+            "id": "v24_23"
+        },
+        {
+            "germanTerm": "der neurologische Befund",
+            "article": "der",
+            "plural": "die neurologischen Befunde",
+            "pronunciation": "[nɔɪ̯roˈloːɡɪʃɐ bəˈfʊnt]",
+            "category": "noun",
+            "translation": {
+                "en": "neurological finding",
+                "bn": "স্নায়বিক অনুসন্ধান",
+                "hi": "न्यूरोलॉजिकल खोज",
+                "ur": "نیورولوجیکل تلاش",
+                "tr": "nörolojik bulgu"
+            },
+            "exampleSentence": "Der neurologische Befund ist unauffällig.",
+            "exampleTranslation": {
+                "en": "The neurological finding is unremarkable.",
+                "bn": "স্নায়বিক অনুসন্ধানটি অসাধারণ নয়।",
+                "hi": "न्यूरोलॉजिकल खोज साधारण है।",
+                "ur": "نیورولوجیکل تلاش غیر معمولی ہے۔",
+                "tr": "Nörolojik bulgu olağan dışı değil."
+            },
+            "id": "v24_24"
+        },
+        {
+            "germanTerm": "die Parese",
+            "article": "die",
+            "plural": "die Paresen",
+            "pronunciation": "[paˈʁeːzə]",
+            "category": "noun",
+            "translation": {
+                "en": "paresis",
+                "bn": "প্যারেসিস",
+                "hi": "पैरेसिस",
+                "ur": "پریزس",
+                "tr": "parezi"
+            },
+            "exampleSentence": "Es besteht eine leichte Parese des linken Armes.",
+            "exampleTranslation": {
+                "en": "There is a slight paresis of the left arm.",
+                "bn": "বাম বাহুতে সামান্য প্যারেসিস রয়েছে।",
+                "hi": "बाईं बांह में थोड़ी कमजोरी है।",
+                "ur": "بائیں بازو میں معمولی پریزس ہے۔",
+                "tr": "Sol kolda hafif bir parezi var."
+            },
+            "id": "v24_25"
+        },
+        {
+            "germanTerm": "der Hirndruck",
+            "article": "der",
+            "plural": "kein Plural",
+            "pronunciation": "[ˈhɪʁnˌdʁʊk]",
+            "category": "noun",
+            "translation": {
+                "en": "intracranial pressure",
+                "bn": "ইন্ট্রাক্রানিয়াল চাপ",
+                "hi": "इंट्राक्रैनियल दबाव",
+                "ur": "انٹراکرینیل دباؤ",
+                "tr": "intrakraniyal basınç"
+            },
+            "exampleSentence": "Der erhöhte Hirndruck muss dringend behandelt werden.",
+            "exampleTranslation": {
+                "en": "The elevated intracranial pressure requires urgent treatment.",
+                "bn": "উচ্চ ইন্ট্রাক্রানিয়াল চাপ জরুরি চিকিত্সা প্রয়োজন।",
+                "hi": "बढ़ा हुआ इंट्राक्रैनियल दबाव तत्काल उपचार की आवश्यकता है।",
+                "ur": "بڑھے ہوئے انٹراکرینیل دباؤ کو فوری علاج کی ضرورت ہے۔",
+                "tr": "Yüksek intrakraniyal basıncın acil tedavisi gerekir."
+            },
+            "id": "v24_26"
+        },
+        {
+            "germanTerm": "die Anamnese",
+            "article": "die",
+            "plural": "die Anamnesen",
+            "pronunciation": "[anaˈmneːzə]",
+            "category": "noun",
+            "translation": {
+                "en": "medical history",
+                "bn": "মেডিকেল ইতিহাস",
+                "hi": "चिकित्सा इतिहास",
+                "ur": "طبی تاریخ",
+                "tr": "tıbbi geçmiş"
+            },
+            "exampleSentence": "Die Anamnese ist wichtig für die Diagnose.",
+            "exampleTranslation": {
+                "en": "The medical history is important for the diagnosis.",
+                "bn": "রোগ নির্ণয়ের জন্য মেডিকেল ইতিহাস গুরুত্বপূর্ণ।",
+                "hi": "रोग निदान के लिए चिकित्सा इतिहास महत्वपूर्ण है।",
+                "ur": "طبی تاریخ تشخیص کے لیے اہم ہے۔",
+                "tr": "Tıbbi geçmiş teşhis için önemlidir."
+            },
+            "id": "v24_27"
+        },
+        {
+            "germanTerm": "die Vigilanz",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "[viɡiˈlants]",
+            "category": "noun",
+            "translation": {
+                "en": "alertness",
+                "bn": "সতর্কতা",
+                "hi": "सतर्कता",
+                "ur": "چوکنا",
+                "tr": "uyanıklık"
+            },
+            "exampleSentence": "Die Vigilanz des Patienten ist eingeschränkt.",
+            "exampleTranslation": {
+                "en": "The patient's alertness is impaired.",
+                "bn": "রোগীর সতর্কতা সীমিত।",
+                "hi": "मरीज की सतर्कता सीमित है।",
+                "ur": "مریض کی چوکنی محدود ہے۔",
+                "tr": "Hastanın uyanıklığı kısıtlıdır."
+            },
+            "id": "v24_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Stroke Consultation",
+                "bn": "স্ট্রোক পরামর্শ",
+                "hi": "स्ट्रोक परामर्श",
+                "ur": "سٹروک مشاورت",
+                "tr": "İnme Konsültasyonu"
+            },
+            "context": {
+                "en": "Dr. Schmidt, an intern, discusses a possible stroke patient with senior physician Dr. Weber.",
+                "bn": "ডাঃ শ্মিট, একজন ইন্টার্ন, সিনিয়র চিকিৎসক ডাঃ ওয়েবারের সাথে সম্ভাব্য স্ট্রোক রোগী নিয়ে আলোচনা করছেন।",
+                "hi": "डॉ. श्मिट, एक इंटर्न, वरिष्ठ चिकित्सक डॉ. वेबर के साथ एक संभावित स्ट्रोक रोगी पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر شمٹ، ایک انٹرن، سینئر معالج ڈاکٹر ویبر کے ساتھ ایک ممکنہ اسٹروک کے مریض پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Stajyer Dr. Schmidt, kıdemli doktor Dr. Weber ile olası bir inme hastasını tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Frau Weber, wir haben einen Patienten, Herrn Müller, mit Verdacht auf Schlaganfall. Schwäche linke Seite, undeutliche Sprache.",
+                    "translation": {
+                        "en": "Dr. Weber, we have a patient, Mr. Müller, with suspected stroke. Weakness on the left side, slurred speech.",
+                        "bn": "ডাঃ ওয়েবার, আমাদের কাছে মিস্টার মুলার নামে একজন রোগী আছেন, যার স্ট্রোক সন্দেহ করা হচ্ছে। বাম দিকে দুর্বলতা, অস্পষ্ট কথা।",
+                        "hi": "डॉ. वेबर, हमारे पास एक मरीज, श्री मुलर, है, जिसे स्ट्रोक होने का संदेह है। बाईं ओर कमजोरी, अस्पष्ट भाषण।",
+                        "ur": "ڈاکٹر ویبر، ہمارے پاس ایک مریض، مسٹر مولر، ہے، جسے اسٹروک ہونے کا شبہ ہے۔ بائیں جانب کمزوری، مبہم تقریر۔",
+                        "tr": "Dr. Weber, felç şüphesi olan bir hastamız var, Bay Müller. Sol tarafta güçsüzlük, peltek konuşma."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wie lange bestehen die Symptome schon? Haben wir eine CT angeordnet?",
+                    "translation": {
+                        "en": "How long have the symptoms been present? Have we ordered a CT scan?",
+                        "bn": "লক্ষণগুলো কতক্ষণ ধরে দেখা যাচ্ছে? আমরা কি সিটি স্ক্যানের নির্দেশ দিয়েছি?",
+                        "hi": "लक्षण कितने समय से मौजूद हैं? क्या हमने सीटी स्कैन का आदेश दिया है?",
+                        "ur": "علامات کب سے موجود ہیں؟ کیا ہم نے سی ٹی سکین کا حکم دیا ہے؟",
+                        "tr": "Semptomlar ne zamandır var? BT taraması istedik mi?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Seit etwa einer Stunde. Die CT ist in Vorbereitung. NIHSS Score liegt bei 8.",
+                    "translation": {
+                        "en": "For about an hour. The CT is being prepared. NIHSS score is 8.",
+                        "bn": "প্রায় এক ঘন্টা ধরে। সিটি স্ক্যান প্রস্তুত করা হচ্ছে। NIHSS স্কোর ৮।",
+                        "hi": "लगभग एक घंटे से। सीटी स्कैन तैयार किया जा रहा है। NIHSS स्कोर 8 है।",
+                        "ur": "تقریباً ایک گھنٹے سے۔ سی ٹی سکین تیار کیا جا رہا ہے۔ NIHSS سکور 8 ہے۔",
+                        "tr": "Yaklaşık bir saattir. BT hazırlanıyor. NIHSS puanı 8."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Gut. Sobald die CT vorliegt, entscheiden wir über die Thrombolyse.",
+                    "translation": {
+                        "en": "Good. Once the CT is available, we'll decide about thrombolysis.",
+                        "bn": "ভাল। সিটি পাওয়া গেলে, আমরা থ্রম্বোলাইসিস নিয়ে সিদ্ধান্ত নেব।",
+                        "hi": "अच्छा। एक बार सीटी उपलब्ध हो जाने के बाद, हम थ्रोम्बोलाइसिस के बारे में निर्णय लेंगे।",
+                        "ur": "اچھا۔ سی ٹی دستیاب ہونے کے بعد، ہم تھرومبولائسس کے بارے میں فیصلہ کریں گے۔",
+                        "tr": "Güzel. BT çekildikten sonra tromboliz hakkında karar vereceğiz."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Die CT Ergebnisse sind da, Herr Doktor.",
+                    "translation": {
+                        "en": "The CT results are here, Doctor.",
+                        "bn": "সিটি ফলাফল এখানে, ডাক্তার।",
+                        "hi": "सीटी परिणाम यहां हैं, डॉक्टर।",
+                        "ur": "سی ٹی کے نتائج یہاں ہیں، ڈاکٹر۔",
+                        "tr": "BT sonuçları burada, Doktor."
+                    }
+                }
+            ],
+            "id": "d24_01"
+        },
+        {
+            "title": {
+                "en": "Epilepsy Diagnosis",
+                "bn": "এপিলেপসি নির্ণয়",
+                "hi": "मिर्गी निदान",
+                "ur": "مرگی کی تشخیص",
+                "tr": "Epilepsi Teşhisi"
+            },
+            "context": {
+                "en": "A neurologist explains the diagnosis of epilepsy to a patient.",
+                "bn": "একজন নিউরোলজিস্ট একজন রোগীকে এপিলেপসির নির্ণয় ব্যাখ্যা করছেন।",
+                "hi": "एक न्यूरोलॉजिस्ट एक मरीज को मिर्गी का निदान समझा रहा है।",
+                "ur": "ایک نیورولوجسٹ ایک مریض کو مرگی کی تشخیص کی وضاحت کر رہے ہیں۔",
+                "tr": "Bir nörolog, bir hastaya epilepsi teşhisini açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Herr Schmidt, die EEG-Untersuchung hat gezeigt, dass Sie an Epilepsie leiden.",
+                    "translation": {
+                        "en": "Mr. Schmidt, the EEG examination has shown that you suffer from epilepsy.",
+                        "bn": "মিঃ শ্মিট, ইইজি পরীক্ষায় দেখা গেছে যে আপনি এপিলেপসিতে ভুগছেন।",
+                        "hi": "श्री श्मिट, ईईजी परीक्षा से पता चला है कि आप मिर्गी से पीड़ित हैं।",
+                        "ur": "مسٹر شمٹ، ای ای جی کے معائنے سے پتہ چلا ہے کہ آپ مرگی میں مبتلا ہیں۔",
+                        "tr": "Bay Schmidt, EEG incelemesi epilepsi rahatsızlığınız olduğunu gösterdi."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Epilepsie? Was bedeutet das für mich?",
+                    "translation": {
+                        "en": "Epilepsy? What does that mean for me?",
+                        "bn": "এপিলেপসি? এর মানে আমার জন্য কী?",
+                        "hi": "मिर्गी? इसका मेरे लिए क्या मतलब है?",
+                        "ur": "مرگی؟ اس کا میرے لیے کیا مطلب ہے؟",
+                        "tr": "Epilepsi mi? Bu benim için ne anlama geliyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Es bedeutet, dass Sie zu unvorhersehbaren Krampfanfällen neigen. Wir können das aber gut mit Medikamenten kontrollieren.",
+                    "translation": {
+                        "en": "It means you are prone to unpredictable seizures. But we can control that well with medication.",
+                        "bn": "এর মানে হল আপনি অপ্রত্যাশিত খিঁচুনির ঝুঁকিতে আছেন। তবে আমরা ওষুধ দিয়ে এটি ভালভাবে নিয়ন্ত্রণ করতে পারি।",
+                        "hi": "इसका मतलब है कि आप अप्रत्याशित दौरे के शिकार हैं। लेकिन हम इसे दवा से अच्छी तरह से नियंत्रित कर सकते हैं।",
+                        "ur": "اس کا مطلب ہے کہ آپ غیر متوقع دوروں کا شکار ہیں۔ لیکن ہم اسے دوا سے اچھی طرح کنٹرول کر سکتے ہیں۔",
+                        "tr": "Bu, öngörülemeyen nöbetlere yatkın olduğunuz anlamına geliyor. Ancak bunu ilaçlarla iyi kontrol edebiliriz."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Muss ich etwas Bestimmtes beachten?",
+                    "translation": {
+                        "en": "Do I have to pay attention to anything in particular?",
+                        "bn": "আমাকে কি বিশেষভাবে কিছু মনে রাখতে হবে?",
+                        "hi": "क्या मुझे विशेष रूप से किसी बात पर ध्यान देना होगा?",
+                        "ur": "کیا مجھے خاص طور پر کسی چیز پر توجہ دینی ہوگی؟",
+                        "tr": "Özellikle dikkat etmem gereken bir şey var mı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Regelmäßige Medikamenteneinnahme, ausreichend Schlaf und Vermeidung von Stress sind wichtig.",
+                    "translation": {
+                        "en": "Regular medication intake, sufficient sleep, and avoiding stress are important.",
+                        "bn": "নিয়মিত ওষুধ গ্রহণ, পর্যাপ্ত ঘুম এবং স্ট্রেস এড়ানো গুরুত্বপূর্ণ।",
+                        "hi": "नियमित दवा का सेवन, पर्याप्त नींद और तनाव से बचना महत्वपूर्ण है।",
+                        "ur": "باقاعدگی سے ادویات کا استعمال، مناسب نیند اور تناؤ سے بچنا اہم ہے۔",
+                        "tr": "Düzenli ilaç kullanımı, yeterli uyku ve stresten kaçınmak önemlidir."
+                    }
+                }
+            ],
+            "id": "d24_02"
+        },
+        {
+            "title": {
+                "en": "Parkinson's Disease Monitoring",
+                "bn": "পারকিনসন্স রোগের পর্যবেক্ষণ",
+                "hi": "पार्किंसंस रोग की निगरानी",
+                "ur": "پارکنسنز کی بیماری کی نگرانی",
+                "tr": "Parkinson Hastalığı Takibi"
+            },
+            "context": {
+                "en": "A nurse checks on a Parkinson's patient and discusses medication adherence.",
+                "bn": "একজন নার্স পারকিনসন্স রোগীর খোঁজ নিচ্ছেন এবং ওষুধের আনুগত্য নিয়ে আলোচনা করছেন।",
+                "hi": "एक नर्स पार्किंसंस के मरीज की जांच कर रही है और दवा के पालन पर चर्चा कर रही है।",
+                "ur": "ایک نرس پارکنسنز کے مریض کی جانچ کر رہی ہے اور دوا کی پابندی پر تبادلہ خیال کر رہی ہے۔",
+                "tr": "Bir hemşire Parkinson hastasını kontrol ediyor ve ilaç uyumunu tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Guten Morgen, Herr Lehmann. Wie fühlen Sie sich heute?",
+                    "translation": {
+                        "en": "Good morning, Mr. Lehmann. How are you feeling today?",
+                        "bn": "শুভ সকাল, মিস্টার লেহমান। আজ কেমন লাগছে?",
+                        "hi": "शुभ प्रभात, श्री लेहमैन। आज आप कैसा महसूस कर रहे हैं?",
+                        "ur": "صبح بخیر، مسٹر لیمن۔ آج آپ کیسا محسوس کر رہے ہیں؟",
+                        "tr": "Günaydın, Bay Lehmann. Bugün nasılsınız?"
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Etwas steif, Schwester Anna. Das Zittern ist auch wieder stärker.",
+                    "translation": {
+                        "en": "A bit stiff, Nurse Anna. The tremor is also stronger again.",
+                        "bn": "একটু শক্ত, সিস্টার আনা। কাঁপুনিও আবার বেড়ে গেছে।",
+                        "hi": "थोड़ा सख्त, नर्स अन्ना। कंपन भी फिर से तेज हो गया है।",
+                        "ur": "تھوڑا سا سخت، نرس انا۔ کمپن بھی دوبارہ تیز ہو گیا ہے۔",
+                        "tr": "Biraz sert, Hemşire Anna. Titreme de tekrar arttı."
+                    }
+                },
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Haben Sie Ihre Medikamente regelmäßig eingenommen?",
+                    "translation": {
+                        "en": "Have you been taking your medication regularly?",
+                        "bn": "আপনি কি নিয়মিত আপনার ওষুধ খাচ্ছেন?",
+                        "hi": "क्या आप नियमित रूप से अपनी दवा ले रहे हैं?",
+                        "ur": "کیا آپ باقاعدگی سے اپنی دوا لے رہے ہیں؟",
+                        "tr": "İlaçlarınızı düzenli olarak alıyor musunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Lehmann",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, eigentlich schon. Aber manchmal vergesse ich es.",
+                    "translation": {
+                        "en": "Yes, actually. But sometimes I forget.",
+                        "bn": "হ্যাঁ, আসলে। তবে মাঝে মাঝে আমি ভুলে যাই।",
+                        "hi": "हाँ, वास्तव में। लेकिन कभी-कभी मैं भूल जाता हूँ।",
+                        "ur": "ہاں، واقعی۔ لیکن کبھی کبھی میں بھول جاتا ہوں۔",
+                        "tr": "Evet, aslında. Ama bazen unutuyorum."
+                    }
+                },
+                {
+                    "speaker": "Schwester Anna",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Wir können Ihnen eine Medikamentenbox mit Erinnerungsfunktion geben, das hilft vielen.",
+                    "translation": {
+                        "en": "We can give you a medication box with a reminder function, that helps many.",
+                        "bn": "আমরা আপনাকে একটি অনুস্মারক ফাংশন সহ একটি ওষুধের বাক্স দিতে পারি, এটি অনেককে সহায়তা করে।",
+                        "hi": "हम आपको एक अनुस्मारक फ़ंक्शन के साथ एक दवा बॉक्स दे सकते हैं, इससे कई लोगों को मदद मिलती है।",
+                        "ur": "ہم آپ کو ایک یاد دہانی کے فنکشن کے ساتھ ایک دوا کا ڈبہ دے سکتے ہیں، اس سے بہت سے لوگوں کو مدد ملتی ہے۔",
+                        "tr": "Size hatırlatma fonksiyonu olan bir ilaç kutusu verebiliriz, bu birçok kişiye yardımcı oluyor."
+                    }
+                }
+            ],
+            "id": "d24_03"
+        },
+        {
+            "title": {
+                "en": "Multiple Sclerosis Diagnosis and Treatment",
+                "bn": "মাল্টিপল স্ক্লেরোসিস নির্ণয় এবং চিকিৎসা",
+                "hi": "मल्टीपल स्केलेरोसिस निदान और उपचार",
+                "ur": "ملٹیپل سکلیروسس تشخیص اور علاج",
+                "tr": "Multipl Skleroz Teşhisi ve Tedavisi"
+            },
+            "context": {
+                "en": "Dr. Müller discusses the treatment options for multiple sclerosis with a newly diagnosed patient.",
+                "bn": "ডঃ মুলার একজন নতুন রোগীকে মাল্টিপল স্ক্লেরোসিসের চিকিৎসার বিকল্প নিয়ে আলোচনা করছেন।",
+                "hi": "डॉ. मुलर एक नए निदान वाले मरीज के साथ मल्टीपल स्केलेरोसिस के उपचार विकल्पों पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر مولر ایک نئے تشخیص شدہ مریض کے ساتھ ملٹیپل سکلیروسس کے علاج کے اختیارات پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Dr. Müller, yeni teşhis konulmuş bir hastayla multipl skleroz tedavi seçeneklerini tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Frau Meier, die MRT-Bilder bestätigen die Diagnose Multiple Sklerose.",
+                    "translation": {
+                        "en": "Ms. Meier, the MRI images confirm the diagnosis of Multiple Sclerosis.",
+                        "bn": "মিসেস মিয়ার, এমআরআই ছবিগুলি মাল্টিপল স্ক্লেরোসিসের নির্ণয় নিশ্চিত করে।",
+                        "hi": "सुश्री मेयर, एमआरआई चित्र मल्टीपल स्केलेरोसिस के निदान की पुष्टि करते हैं।",
+                        "ur": "محترمہ مئیر، ایم آر آئی کی تصاویر ملٹیپل سکلیروسس کی تشخیص کی تصدیق کرتی ہیں۔",
+                        "tr": "Bayan Meier, MRI görüntüleri Multipl Skleroz teşhisini doğruluyor."
+                    }
+                },
+                {
+                    "speaker": "Patient Meier",
+                    "speakerRole": "Patient",
+                    "germanText": "Was bedeutet das für meine Zukunft?",
+                    "translation": {
+                        "en": "What does that mean for my future?",
+                        "bn": "এর মানে আমার ভবিষ্যতের জন্য কী?",
+                        "hi": "इसका मेरे भविष्य के लिए क्या मतलब है?",
+                        "ur": "اس کا میرے مستقبل کے لیے کیا مطلب ہے؟",
+                        "tr": "Bu benim geleceğim için ne anlama geliyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir können den Verlauf der Erkrankung mit Medikamenten verlangsamen. Es gibt verschiedene Optionen, die wir besprechen können.",
+                    "translation": {
+                        "en": "We can slow down the progression of the disease with medication. There are several options we can discuss.",
+                        "bn": "আমরা ওষুধ দিয়ে রোগের অগ্রগতি ধীর করতে পারি। বেশ কয়েকটি বিকল্প রয়েছে যা আমরা আলোচনা করতে পারি।",
+                        "hi": "हम दवा से रोग की प्रगति को धीमा कर सकते हैं। कई विकल्प हैं जिन पर हम चर्चा कर सकते हैं।",
+                        "ur": "ہم دوا سے بیماری کی پیشرفت کو کم کر سکتے ہیں۔ کئی اختیارات ہیں جن پر ہم تبادلہ خیال کر سکتے ہیں۔",
+                        "tr": "İlaçlarla hastalığın ilerlemesini yavaşlatabiliriz. Tartışabileceğimiz çeşitli seçenekler var."
+                    }
+                },
+                {
+                    "speaker": "Patient Meier",
+                    "speakerRole": "Patient",
+                    "germanText": "Welche sind das?",
+                    "translation": {
+                        "en": "Which ones are those?",
+                        "bn": "এগুলো কী?",
+                        "hi": "वे कौन से हैं?",
+                        "ur": "وہ کون سے ہیں؟",
+                        "tr": "Bunlar hangileri?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Es gibt verschiedene Interferone, Glatirameracetat und andere immunmodulatorische Medikamente. Wir passen die Therapie individuell an.",
+                    "translation": {
+                        "en": "There are various interferons, glatiramer acetate, and other immunomodulatory drugs. We tailor the therapy individually.",
+                        "bn": "বিভিন্ন ইন্টারফেরন, গ্লাটিরামের অ্যাসিটেট এবং অন্যান্য ইমিউনোমোডুলেটরি ওষুধ রয়েছে। আমরা পৃথকভাবে থেরাপি কাস্টমাইজ করি।",
+                        "hi": "विभिन्न इंटरफेरॉन, ग्लैटिरामर एसीटेट और अन्य इम्यूनोमॉड्यूलेटरी दवाएं हैं। हम व्यक्तिगत रूप से थेरेपी को अनुकूलित करते हैं।",
+                        "ur": "مختلف انٹرفیرون، گلیٹیرامر ایسیٹیٹ اور دیگر امیونو موڈولیٹری دوائیں ہیں۔ ہم انفرادی طور پر تھراپی کو اپنی مرضی کے مطابق بناتے ہیں۔",
+                        "tr": "Çeşitli interferonlar, glatiramer asetat ve diğer immünomodülatör ilaçlar bulunmaktadır. Tedaviyi bireysel olarak uyarlıyoruz."
+                    }
+                }
+            ],
+            "id": "d24_04"
+        },
+        {
+            "title": {
+                "en": "Assessment of Paralysis and Consciousness",
+                "bn": "পক্ষাঘাত এবং চেতনা মূল্যায়ন",
+                "hi": "पक्षाघात और चेतना का आकलन",
+                "ur": "فالج اور ہوش کا اندازہ",
+                "tr": "Felç ve Bilinç Değerlendirmesi"
+            },
+            "context": {
+                "en": "A doctor assesses a patient with paralysis and altered consciousness using the GCS.",
+                "bn": "একজন ডাক্তার পক্ষাঘাত এবং পরিবর্তিত চেতনাযুক্ত একজন রোগীকে জিসিএস ব্যবহার করে মূল্যায়ন করছেন।",
+                "hi": "एक डॉक्टर पक्षाघात और परिवर्तित चेतना वाले एक मरीज का जीसीएस का उपयोग करके आकलन कर रहा है।",
+                "ur": "ایک ڈاکٹر فالج اور تبدیل شدہ ہوش والے ایک مریض کا جی سی ایس کا استعمال کرتے ہوئے اندازہ کر رہا ہے۔",
+                "tr": "Bir doktor, felç ve bilinç değişikliği olan bir hastayı GCS kullanarak değerlendiriyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Sommer",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Der Patient ist bewusstseinsgetrübt und zeigt eine Hemiparese rechts.",
+                    "translation": {
+                        "en": "The patient has impaired consciousness and shows right-sided hemiparesis.",
+                        "bn": "রোগীর চেতনা দুর্বল এবং ডান দিকে হেমিপ্যারেসিস দেখা যাচ্ছে।",
+                        "hi": "रोगी की चेतना क्षीण है और दाईं ओर हेमिपारेसिस दिखाई दे रहा है।",
+                        "ur": "مریض کی ہوش کمزور ہے اور دائیں جانب ہیمیپیرسس دکھائی دے رہا ہے۔",
+                        "tr": "Hastanın bilinci bulanık ve sağ taraflı hemiparezi gösteriyor."
+                    }
+                },
+                {
+                    "speaker": "Schwester Maria",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Die Vitalwerte sind stabil. GCS liegt bei 10.",
+                    "translation": {
+                        "en": "The vital signs are stable. GCS is at 10.",
+                        "bn": "ভাইটাল লক্ষণ স্থিতিশীল। জিসিএস ১০ এ আছে।",
+                        "hi": "महत्वपूर्ण संकेत स्थिर हैं। जीसीएस 10 पर है।",
+                        "ur": "اہم علامات مستحکم ہیں۔ جی سی ایس 10 پر ہے۔",
+                        "tr": "Vital bulgular stabil. GCS 10'da."
+                    }
+                },
+                {
+                    "speaker": "Dr. Sommer",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Versucht der Patient, auf Ansprache zu reagieren?",
+                    "translation": {
+                        "en": "Does the patient try to react to speech?",
+                        "bn": "রোগী কি কথায় সাড়া দেওয়ার চেষ্টা করছে?",
+                        "hi": "क्या रोगी भाषण पर प्रतिक्रिया करने की कोशिश कर रहा है?",
+                        "ur": "کیا مریض تقریر پر رد عمل ظاہر کرنے کی کوشش کر رہا ہے؟",
+                        "tr": "Hasta konuşmaya tepki vermeye çalışıyor mu?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Maria",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ja, er öffnet die Augen auf Ansprache und gibt unartikulierte Laute von sich.",
+                    "translation": {
+                        "en": "Yes, he opens his eyes when spoken to and makes unintelligible noises.",
+                        "bn": "হ্যাঁ, তিনি কথা বললে চোখ খোলেন এবং বোধগম্য নয় এমন আওয়াজ করেন।",
+                        "hi": "हाँ, वह बोलने पर अपनी आँखें खोलता है और समझ में न आने वाली आवाज़ें निकालता है।",
+                        "ur": "ہاں، وہ بولنے پر اپنی آنکھیں کھولتا ہے اور ناقابل فہم آوازیں نکالتا ہے۔",
+                        "tr": "Evet, konuşulduğunda gözlerini açıyor ve anlaşılmaz sesler çıkarıyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Sommer",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wir brauchen ein Schädel-CT, um die Ursache der Bewusstseinsstörung abzuklären.",
+                    "translation": {
+                        "en": "We need a head CT scan to clarify the cause of the impaired consciousness.",
+                        "bn": "আমাদের চেতনা দুর্বলতার কারণ স্পষ্ট করার জন্য একটি মাথার সিটি স্ক্যান প্রয়োজন।",
+                        "hi": "हमें चेतना की दुर्बलता के कारण को स्पष्ट करने के लिए एक सिर का सीटी स्कैन चाहिए।",
+                        "ur": "ہمیں ہوش کی کمزوری کی وجہ کو واضح کرنے کے لیے سر کا سی ٹی سکین چاہیے۔",
+                        "tr": "Bilinç bozukluğunun nedenini açıklığa kavuşturmak için bir kafa BT taramasına ihtiyacımız var."
+                    }
+                }
+            ],
+            "id": "d24_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches der folgenden Symptome ist am wenigsten wahrscheinlich bei einem akuten Schlaganfall?",
+                "en": "Which of the following symptoms is least likely to be present in an acute stroke?",
+                "bn": "তীব্র স্ট্রোকে নিচের কোন উপসর্গটি থাকার সম্ভাবনা সবচেয়ে কম?",
+                "hi": "तीव्र स्ट्रोक में निम्नलिखित में से कौन सा लक्षण सबसे कम होने की संभावना है?",
+                "ur": "فوری اسٹروک میں درج ذیل میں سے کون سی علامت سب سے کم ہونے کا امکان ہے؟",
+                "tr": "Aşağıdaki belirtilerden hangisi akut inmede en az görülme olasılığına sahiptir?"
+            },
+            "options": [
+                "Plötzliche starke Kopfschmerzen",
+                "Taubheitsgefühl oder Schwäche einer Körperseite",
+                "Langsame und allmähliche Gedächtnisverschlechterung",
+                "Sprachschwierigkeiten"
+            ],
+            "correctAnswer": "Langsame und allmähliche Gedächtnisverschlechterung",
+            "explanation": {
+                "en": "Slow and gradual memory decline is more characteristic of dementia than acute stroke. The other symptoms are typical signs of stroke.",
+                "bn": "ধীর এবং ধীরে ধীরে স্মৃতিশক্তি হ্রাস ডিমেনশিয়ার বৈশিষ্ট্য, তীব্র স্ট্রোকের নয়। অন্যান্য উপসর্গগুলো স্ট্রোকের সাধারণ লক্ষণ।",
+                "hi": "धीमी और क्रमिक स्मृति हानि तीव्र स्ट्रोक की तुलना में मनोभ्रंश की अधिक विशेषता है। अन्य लक्षण स्ट्रोक के विशिष्ट लक्षण हैं।",
+                "ur": "آہستہ اور بتدریج یادداشت کی کمی شدید اسٹروک کی نسبت ڈیمنشیا کی زیادہ خصوصیت ہے۔ دوسری علامات اسٹروک کی عام علامات ہیں۔",
+                "tr": "Yavaş ve kademeli hafıza kaybı, akut inmeden ziyade demansın bir özelliğidir. Diğer semptomlar inmenin tipik belirtileridir."
+            },
+            "points": 10,
+            "id": "e24_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Bildgebungsverfahren wird am häufigsten verwendet, um einen Schlaganfall zu diagnostizieren?",
+                "en": "Which of the following imaging techniques is most commonly used to diagnose a stroke?",
+                "bn": "স্ট্রোক নির্ণয়ের জন্য নিম্নলিখিত কোন ইমেজিং কৌশলটি সবচেয়ে বেশি ব্যবহৃত হয়?",
+                "hi": "स्ट्रोक का निदान करने के लिए निम्नलिखित में से कौन सी इमेजिंग तकनीक सबसे अधिक उपयोग की जाती है?",
+                "ur": "سٹروک کی تشخیص کے لیے درج ذیل میں سے کون سی امیجنگ تکنیک سب سے زیادہ استعمال ہوتی ہے؟",
+                "tr": "Aşağıdaki görüntüleme tekniklerinden hangisi bir inme teşhisi için en sık kullanılır?"
+            },
+            "options": [
+                "Elektroenzephalographie (EEG)",
+                "Computertomographie (CT)",
+                "Magnetresonanztomographie (MRT)",
+                "Positronenemissionstomographie (PET)"
+            ],
+            "correctAnswer": "Computertomographie (CT)",
+            "explanation": {
+                "en": "CT scans are readily available and can quickly rule out hemorrhage, which is crucial in acute stroke management.",
+                "bn": "সিটি স্ক্যান সহজে পাওয়া যায় এবং দ্রুত রক্তক্ষরণ বাতিল করতে পারে, যা তীব্র স্ট্রোক ব্যবস্থাপনার জন্য অত্যন্ত গুরুত্বপূর্ণ।",
+                "hi": "सीटी स्कैन आसानी से उपलब्ध हैं और जल्दी से रक्तस्राव को खारिज कर सकते हैं, जो तीव्र स्ट्रोक प्रबंधन में महत्वपूर्ण है।",
+                "ur": "سی ٹی اسکین آسانی سے دستیاب ہیں اور جلدی سے خون بہنے کو خارج کر سکتے ہیں، جو شدید اسٹروک کے انتظام میں بہت اہم ہے۔",
+                "tr": "BT taramaları kolayca bulunur ve akut inme yönetiminde çok önemli olan kanamayı hızla ortadan kaldırabilir."
+            },
+            "points": 10,
+            "id": "e24_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist die häufigste Ursache für einen ischämischen Schlaganfall?",
+                "en": "What is the most common cause of ischemic stroke?",
+                "bn": "ইস্কেমিক স্ট্রোকের সবচেয়ে সাধারণ কারণ কী?",
+                "hi": "इस्केमिक स्ट्रोक का सबसे सामान्य कारण क्या है?",
+                "ur": "اسکیمک اسٹروک کی سب سے عام وجہ کیا ہے؟",
+                "tr": "İskemik inmenin en yaygın nedeni nedir?"
+            },
+            "options": [
+                "Hirnblutung",
+                "Arteriosklerose",
+                "Aneurysma",
+                "Trauma"
+            ],
+            "correctAnswer": "Arteriosklerose",
+            "explanation": {
+                "en": "Arteriosclerosis (hardening of the arteries) leads to plaque buildup, which can block blood flow to the brain.",
+                "bn": "আর্টেরিওস্ক্লেরোসিস (ধমনী শক্ত হয়ে যাওয়া) প্লেক তৈরি করে, যা মস্তিষ্কে রক্ত প্রবাহ বন্ধ করতে পারে।",
+                "hi": "धमनीकाठिन्य (धमनियों का सख्त होना) पट्टिका निर्माण की ओर ले जाता है, जो मस्तिष्क में रक्त प्रवाह को अवरुद्ध कर सकता है।",
+                "ur": "آرٹیروسکلیروسس (شریانوں کا سخت ہونا) تختی کے جمع ہونے کا باعث بنتا ہے، جو دماغ میں خون کے بہاؤ کو روک سکتا ہے۔",
+                "tr": "Arterioskleroz (damar sertliği) plak birikimine yol açar, bu da beyne kan akışını engelleyebilir."
+            },
+            "points": 10,
+            "id": "e24_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Medikament wird am häufigsten zur Behandlung eines ischämischen Schlaganfalls innerhalb der ersten Stunden eingesetzt?",
+                "en": "Which medication is most commonly used to treat ischemic stroke within the first few hours?",
+                "bn": "ইস্কেমিক স্ট্রোকের চিকিৎসার জন্য প্রথম কয়েক ঘণ্টার মধ্যে কোন ওষুধটি সবচেয়ে বেশি ব্যবহৃত হয়?",
+                "hi": "इस्केमिक स्ट्रोक के इलाज के लिए पहले कुछ घंटों के भीतर कौन सी दवा सबसे अधिक उपयोग की जाती है?",
+                "ur": "اسکیمک اسٹروک کے علاج کے لیے پہلے چند گھنٹوں میں کون سی دوا سب سے زیادہ استعمال ہوتی ہے؟",
+                "tr": "İskemik inmenin ilk birkaç saatinde tedavi etmek için en sık kullanılan ilaç hangisidir?"
+            },
+            "options": [
+                "Heparin",
+                "Warfarin",
+                "Rekombinanter Gewebe-Plasminogen-Aktivator (rt-PA)",
+                "Aspirin"
+            ],
+            "correctAnswer": "Rekombinanter Gewebe-Plasminogen-Aktivator (rt-PA)",
+            "explanation": {
+                "en": "rt-PA is a thrombolytic agent used to dissolve blood clots in ischemic stroke, restoring blood flow to the brain.",
+                "bn": "rt-PA একটি থ্রম্বোলাইটিক এজেন্ট যা ইস্কেমিক স্ট্রোকে রক্ত ​​জমাট দ্রবীভূত করতে ব্যবহৃত হয়, মস্তিষ্কে রক্ত ​​​​প্রবাহ পুনরুদ্ধার করে।",
+                "hi": "rt-PA एक थ्रोम्बोलाइटिक एजेंट है जिसका उपयोग इस्केमिक स्ट्रोक में रक्त के थक्कों को घोलने के लिए किया जाता है, जिससे मस्तिष्क में रक्त का प्रवाह बहाल होता है।",
+                "ur": "rt-PA ایک تھرومبولائٹک ایجنٹ ہے جو اسکیمک اسٹروک میں خون کے جمنے کو تحلیل کرنے کے لیے استعمال ہوتا ہے، دماغ میں خون کے بہاؤ کو بحال کرتا ہے۔",
+                "tr": "rt-PA, iskemik inmede kan pıhtılarını çözmek ve beyne kan akışını geri kazandırmak için kullanılan bir trombolitik ajandır."
+            },
+            "points": 10,
+            "id": "e24_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein typisches Symptom bei Parkinson?",
+                "en": "What is a typical symptom of Parkinson's disease?",
+                "bn": "পারকিনসন রোগের একটি সাধারণ লক্ষণ কী?",
+                "hi": "पार्किंसंस रोग का एक विशिष्ट लक्षण क्या है?",
+                "ur": "پارکنسنز کی بیماری کی ایک عام علامت کیا ہے؟",
+                "tr": "Parkinson hastalığının tipik bir belirtisi nedir?"
+            },
+            "options": [
+                "Hypertonie",
+                "Tremor",
+                "Epileptische Anfälle",
+                "Migräne"
+            ],
+            "correctAnswer": "Tremor",
+            "explanation": {
+                "en": "Tremor, especially resting tremor, is a hallmark symptom of Parkinson's disease.",
+                "bn": "কম্পন, বিশেষ করে বিশ্রামরত অবস্থায় কম্পন, পারকিনসন রোগের একটি প্রধান লক্ষণ।",
+                "hi": "कंपकंपी, खासकर आराम करते समय कंपकंपी, पार्किंसंस रोग का एक प्रमुख लक्षण है।",
+                "ur": "کانپنا، خاص طور پر آرام کرتے وقت کانپنا، پارکنسنز کی بیماری کی ایک اہم علامت ہے۔",
+                "tr": "Titreme, özellikle istirahat halinde titreme, Parkinson hastalığının önemli bir belirtisidir."
+            },
+            "points": 10,
+            "id": "e24_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Art von Anfall ist durch einen kurzen Verlust des Bewusstseins ohne Sturz gekennzeichnet?",
+                "en": "Which type of seizure is characterized by a brief loss of consciousness without a fall?",
+                "bn": "কোন ধরনের খিঁচুনি পতনের ছাড়াই সংক্ষিপ্ত চেতনা হ্রাসের দ্বারা চিহ্নিত করা হয়?",
+                "hi": "किस प्रकार का दौरा गिरने के बिना चेतना के संक्षिप्त नुकसान से चिह्नित होता है?",
+                "ur": "مرگی کی کون سی قسم گرنے کے بغیر شعور کے مختصر نقصان سے ظاہر ہوتی ہے؟",
+                "tr": "Hangi tür nöbet, düşmeden kısa süreli bilinç kaybı ile karakterizedir?"
+            },
+            "options": [
+                "Grand-Mal-Anfall",
+                "Absence-Anfall",
+                "Fokaler Anfall",
+                "Myoklonischer Anfall"
+            ],
+            "correctAnswer": "Absence-Anfall",
+            "explanation": {
+                "en": "Absence seizures are characterized by a brief lapse of awareness, often without a fall, and are common in children.",
+                "bn": "অ্যাবসেন্স সিজারগুলি সচেতনতার একটি সংক্ষিপ্ত বিরতি দ্বারা চিহ্নিত করা হয়, প্রায়শই পতন ছাড়াই, এবং শিশুদের মধ্যে এটি সাধারণ।",
+                "hi": "अनुपस्थिति दौरे चेतना के एक संक्षिप्त अंतराल से चिह्नित होते हैं, अक्सर गिरने के बिना, और बच्चों में आम हैं।",
+                "ur": "غیر موجودگی کے دورے شعور کے ایک مختصر وقفے سے نشان زد ہوتے ہیں، اکثر گرنے کے بغیر، اور بچوں میں عام ہیں۔",
+                "tr": "Yokluk nöbetleri, çoğu zaman düşmeden kısa süreli bir bilinç kaybı ile karakterizedir ve çocuklarda yaygındır."
+            },
+            "points": 10,
+            "id": "e24_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches der folgenden ist ein häufiges Symptom der Multiplen Sklerose (MS)?",
+                "en": "Which of the following is a common symptom of Multiple Sclerosis (MS)?",
+                "bn": "মাল্টিপল স্ক্লেরোসিসের (এমএস) একটি সাধারণ লক্ষণ কোনটি?",
+                "hi": "मल्टीपल स्क्लेरोसिस (एमएस) का एक सामान्य लक्षण निम्नलिखित में से कौन सा है?",
+                "ur": "ملٹیپل سکلیروسیس (MS) کی ایک عام علامت درج ذیل میں سے کون سی ہے؟",
+                "tr": "Aşağıdakilerden hangisi Multipl Skleroz'un (MS) yaygın bir belirtisidir?"
+            },
+            "options": [
+                "Starker Husten",
+                "Sehstörungen",
+                "Heftiger Durchfall",
+                "Ständiges Fieber"
+            ],
+            "correctAnswer": "Sehstörungen",
+            "explanation": {
+                "en": "Visual disturbances, such as optic neuritis, are common in MS due to the inflammation of the optic nerve.",
+                "bn": "দৃষ্টি ব্যাঘাত, যেমন অপটিক নিউরাইটিস, অপটিক স্নায়ুর প্রদাহের কারণে এমএসের একটি সাধারণ লক্ষণ।",
+                "hi": "दृश्य गड़बड़ी, जैसे ऑप्टिक न्यूरिटिस, ऑप्टिक तंत्रिका की सूजन के कारण एमएस में आम हैं।",
+                "ur": "بصری خلل، جیسے آپٹک نیورائٹس، آپٹک اعصاب کی سوزش کی وجہ سے MS میں عام ہیں۔",
+                "tr": "Optik nevrit gibi görme bozuklukları, optik sinirin iltihaplanması nedeniyle MS'de yaygındır."
+            },
+            "points": 10,
+            "id": "e24_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was misst die Glasgow Coma Scale (GCS)?",
+                "en": "What does the Glasgow Coma Scale (GCS) measure?",
+                "bn": "গ্লাসগো কোমা স্কেল (জিসিএস) কী পরিমাপ করে?",
+                "hi": "ग्लासगो कोमा स्केल (जीसीएस) क्या मापता है?",
+                "ur": "گلاسگو کوما اسکیل (جی سی ایس) کیا ماپتا ہے؟",
+                "tr": "Glasgow Koma Ölçeği (GCS) neyi ölçer?"
+            },
+            "options": [
+                "Blutdruck",
+                "Bewusstseinszustand",
+                "Herzfrequenz",
+                "Körpertemperatur"
+            ],
+            "correctAnswer": "Bewusstseinszustand",
+            "explanation": {
+                "en": "The GCS assesses a patient's level of consciousness based on eye-opening, verbal response, and motor response.",
+                "bn": "জিসিএস চোখের খোলা, মৌখিক প্রতিক্রিয়া এবং মোটর প্রতিক্রিয়ার উপর ভিত্তি করে রোগীর চেতনার স্তর মূল্যায়ন করে।",
+                "hi": "जीसीएस आंख खुलने, मौखिक प्रतिक्रिया और मोटर प्रतिक्रिया के आधार पर रोगी के चेतना के स्तर का आकलन करता है।",
+                "ur": "جی سی ایس آنکھ کھلنے، زبانی ردعمل اور موٹر ردعمل کی بنیاد پر مریض کے شعور کی سطح کا اندازہ لگاتا ہے۔",
+                "tr": "GCS, hastanın bilinç düzeyini göz açma, sözel yanıt ve motor yanıtına göre değerlendirir."
+            },
+            "points": 10,
+            "id": "e24_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Hirnareal ist hauptsächlich von der Parkinson-Krankheit betroffen?",
+                "en": "Which brain area is primarily affected by Parkinson's disease?",
+                "bn": "পারকিনসন রোগে মস্তিষ্কের কোন এলাকা প্রধানত ক্ষতিগ্রস্ত হয়?",
+                "hi": "पार्किंसंस रोग से मस्तिष्क का कौन सा क्षेत्र मुख्य रूप से प्रभावित होता है?",
+                "ur": "پارکنسنز کی بیماری سے دماغ کا کون سا حصہ بنیادی طور پر متاثر ہوتا ہے؟",
+                "tr": "Parkinson hastalığından öncelikle hangi beyin bölgesi etkilenir?"
+            },
+            "options": [
+                "Kleinhirn",
+                "Basalganglien",
+                "Hippocampus",
+                "Großhirnrinde"
+            ],
+            "correctAnswer": "Basalganglien",
+            "explanation": {
+                "en": "The basal ganglia, specifically the substantia nigra, is the area primarily affected in Parkinson's disease, leading to dopamine deficiency.",
+                "bn": "বেসাল গ্যাংলিয়া, বিশেষ করে সাবস্ট্যান্টিয়া নিগ্রা, পারকিনসন রোগে প্রধানত ক্ষতিগ্রস্ত এলাকা, যার ফলে ডোপামিন ঘাটতি হয়।",
+                "hi": "बेसल गैन्ग्लिया, विशेष रूप से सब्सटेंटिया निग्रा, पार्किंसंस रोग में मुख्य रूप से प्रभावित क्षेत्र है, जिससे डोपामाइन की कमी होती है।",
+                "ur": "بیسل گینگیا، خاص طور پر سبسٹینشیا نگرا، پارکنسنز کی بیماری میں بنیادی طور پر متاثرہ علاقہ ہے، جس کے نتیجے میں ڈوپامین کی کمی ہوتی ہے۔",
+                "tr": "Bazal gangliyonlar, özellikle substantia nigra, Parkinson hastalığında öncelikle etkilenen bölgedir ve dopamin eksikliğine yol açar."
+            },
+            "points": 10,
+            "id": "e24_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Hemiplegie'?",
+                "en": "What does 'Hemiplegia' mean?",
+                "bn": "'হেমিপ্লেজিয়া' মানে কী?",
+                "hi": "'हेमिप्लेजिया' का क्या अर्थ है?",
+                "ur": "'ہیمیپلیجیا' کا کیا مطلب ہے؟",
+                "tr": "'Hemipleji' ne anlama gelir?"
+            },
+            "options": [
+                "Lähmung aller vier Gliedmaßen",
+                "Lähmung einer Körperhälfte",
+                "Lähmung der unteren Extremitäten",
+                "Lähmung der oberen Extremitäten"
+            ],
+            "correctAnswer": "Lähmung einer Körperhälfte",
+            "explanation": {
+                "en": "Hemiplegia refers to paralysis of one side of the body.",
+                "bn": "হেমিপ্লেজিয়া শরীরের একপাশের পক্ষাঘাতকে বোঝায়।",
+                "hi": "हेमिप्लेजिया शरीर के एक तरफ के पक्षाघात को संदर्भित करता है।",
+                "ur": "ہیمیپلیجیا جسم کے ایک طرف کے فالج سے مراد ہے۔",
+                "tr": "Hemipleji, vücudun bir tarafının felci anlamına gelir."
+            },
+            "points": 10,
+            "id": "e24_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein ___________ Anfall ist ein Anfall, bei dem der Patient das Bewusstsein verliert und krampfartige Zuckungen hat.",
+                "en": "A ___________ seizure is a seizure in which the patient loses consciousness and has convulsive twitching.",
+                "bn": "একটি ___________ খিঁচুনি হল এমন একটি খিঁচুনি যেখানে রোগী চেতনা হারায় এবং আক্ষেপযুক্ত ঝাঁকুনি হয়।",
+                "hi": "एक ___________ दौरा एक दौरा है जिसमें रोगी चेतना खो देता है और आक्षेपयुक्त झटके होते हैं।",
+                "ur": "ایک ___________ دورہ ایک ایسا دورہ ہے جس میں مریض ہوش کھو بیٹھتا ہے اور تشنجی جھٹکے ہوتے ہیں۔",
+                "tr": "Bir ___________ nöbet, hastanın bilincini kaybettiği ve kasılmalı seğirmeleri olduğu bir nöbettir."
+            },
+            "options": [],
+            "correctAnswer": "Grand-Mal",
+            "explanation": {
+                "en": "A Grand-Mal seizure is characterized by loss of consciousness and generalized convulsions.",
+                "bn": "গ্র্যান্ড-মাল খিঁচুনি চেতনা হ্রাস এবং সাধারণ আক্ষেপ দ্বারা চিহ্নিত করা হয়।",
+                "hi": "ग्रैंड-मल दौरा चेतना की हानि और सामान्यीकृत आक्षेपों द्वारा चिह्नित किया जाता है।",
+                "ur": "گرینڈ-مل دورہ بے ہوشی اور عام تشنج کی طرف سے نشان زد کیا جاتا ہے۔",
+                "tr": "Grand-Mal nöbeti, bilinç kaybı ve yaygın kasılmalarla karakterizedir."
+            },
+            "points": 10,
+            "id": "e24_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die Behandlung von Parkinson beinhaltet oft Medikamente, die ___________ ersetzen oder dessen Wirkung verstärken.",
+                "en": "The treatment of Parkinson's often involves medications that replace or enhance the effect of ___________.",
+                "bn": "পারকিনসনের চিকিৎসায় প্রায়শই এমন ওষুধ জড়িত থাকে যা ___________ প্রতিস্থাপন করে বা এর প্রভাবকে বাড়িয়ে তোলে।",
+                "hi": "पार्किंसंस के उपचार में अक्सर ऐसी दवाएं शामिल होती हैं जो ___________ को बदलती हैं या इसके प्रभाव को बढ़ाती हैं।",
+                "ur": "پارکنسنز کے علاج میں اکثر ایسی دوائیں شامل ہوتی ہیں جو ___________ کو تبدیل کرتی ہیں یا اس کے اثر کو بڑھاتی ہیں۔",
+                "tr": "Parkinson tedavisinde genellikle ___________ yerine geçen veya etkisini artıran ilaçlar kullanılır."
+            },
+            "options": [],
+            "correctAnswer": "Dopamin",
+            "explanation": {
+                "en": "Parkinson's disease is caused by a deficiency of dopamine, so treatment aims to increase dopamine levels.",
+                "bn": "পারকিনসন রোগ ডোপামিনের ঘাটতির কারণে হয়, তাই চিকিৎসার লক্ষ্য ডোপামিনের মাত্রা বাড়ানো।",
+                "hi": "पार्किंसंस रोग डोपामाइन की कमी के कारण होता है, इसलिए उपचार का उद्देश्य डोपामाइन के स्तर को बढ़ाना है।",
+                "ur": "پارکنسنز کی بیماری ڈوپامین کی کمی کی وجہ سے ہوتی ہے، اس لیے علاج کا مقصد ڈوپامین کی سطح کو بڑھانا ہے۔",
+                "tr": "Parkinson hastalığına dopamin eksikliği neden olur, bu nedenle tedavi dopamin seviyelerini artırmayı amaçlar."
+            },
+            "points": 10,
+            "id": "e24_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Multiple Sklerose ist eine Autoimmunerkrankung, die das ___________ System betrifft.",
+                "en": "Multiple sclerosis is an autoimmune disease that affects the ___________ system.",
+                "bn": "মাল্টিপল স্ক্লেরোসিস একটি অটোইমিউন রোগ যা ___________ সিস্টেমকে প্রভাবিত করে।",
+                "hi": "मल्टीपल स्केलेरोसिस एक ऑटोइम्यून बीमारी है जो ___________ सिस्टम को प्रभावित करती है।",
+                "ur": "ملٹیپل سکلیروسیس ایک خودکار قوت مدافعت کی بیماری ہے جو ___________ سسٹم کو متاثر کرتی ہے۔",
+                "tr": "Multipl skleroz, ___________ sistemini etkileyen bir otoimmün hastalıktır."
+            },
+            "options": [],
+            "correctAnswer": "Zentrale Nerven",
+            "explanation": {
+                "en": "Multiple sclerosis affects the central nervous system, including the brain and spinal cord.",
+                "bn": "মাল্টিপল স্ক্লেরোসিস কেন্দ্রীয় স্নায়ুতন্ত্রকে প্রভাবিত করে, যার মধ্যে মস্তিষ্ক এবং মেরুদণ্ড অন্তর্ভুক্ত।",
+                "hi": "मल्टीपल स्केलेरोसिस केंद्रीय तंत्रिका तंत्र को प्रभावित करता है, जिसमें मस्तिष्क और रीढ़ की हड्डी शामिल है।",
+                "ur": "ملٹیپل سکلیروسیس مرکزی اعصابی نظام کو متاثر کرتا ہے، جس میں دماغ اور ریڑھ کی ہڈی شامل ہیں۔",
+                "tr": "Multipl skleroz, beyin ve omurilik dahil olmak üzere merkezi sinir sistemini etkiler."
+            },
+            "points": 10,
+            "id": "e24_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein ___________ Schlaganfall wird durch eine Blutung im Gehirn verursacht.",
+                "en": "A ___________ stroke is caused by bleeding in the brain.",
+                "bn": "একটি ___________ স্ট্রোক মস্তিষ্কে রক্তক্ষরণের কারণে হয়।",
+                "hi": "एक ___________ स्ट्रोक मस्तिष्क में रक्तस्राव के कारण होता है।",
+                "ur": "ایک ___________ اسٹروک دماغ میں خون بہنے کی وجہ سے ہوتا ہے۔",
+                "tr": "Bir ___________ inmeye beyindeki kanama neden olur."
+            },
+            "options": [],
+            "correctAnswer": "hämorrhagischer",
+            "explanation": {
+                "en": "A hemorrhagic stroke occurs when a blood vessel in the brain ruptures, causing bleeding.",
+                "bn": "হেমোরেজিক স্ট্রোক ঘটে যখন মস্তিষ্কের একটি রক্তনালী ফেটে যায়, যার ফলে রক্তক্ষরণ হয়।",
+                "hi": "एक रक्तस्रावी स्ट्रोक तब होता है जब मस्तिष्क में एक रक्त वाहिका फट जाती है, जिससे रक्तस्राव होता है।",
+                "ur": "ایک ہیمرج اسٹروک اس وقت ہوتا ہے جب دماغ میں ایک خون کی رگ پھٹ جاتی ہے، جس سے خون بہنے لگتا ہے۔",
+                "tr": "Hemorajik inme, beyindeki bir kan damarının yırtılması sonucu kanamaya neden olduğunda meydana gelir."
+            },
+            "points": 10,
+            "id": "e24_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die häufigste Ursache für eine erworbene ___________ ist ein Schlaganfall.",
+                "en": "The most common cause of acquired ___________ is stroke.",
+                "bn": "অর্জিত ___________ এর সবচেয়ে সাধারণ কারণ হল স্ট্রোক।",
+                "hi": "अधिग्रहित ___________ का सबसे सामान्य कारण स्ट्रोक है।",
+                "ur": "حاصل شدہ ___________ کی سب سے عام وجہ اسٹروک ہے۔",
+                "tr": "Kazanılmış ___________'nın en yaygın nedeni inmedir."
+            },
+            "options": [],
+            "correctAnswer": "Aphasie",
+            "explanation": {
+                "en": "Aphasia (language impairment) is often caused by stroke affecting language areas in the brain.",
+                "bn": "এফেসিয়া (ভাষাগত দুর্বলতা) প্রায়শই মস্তিষ্কের ভাষা অঞ্চলকে প্রভাবিত করে এমন স্ট্রোকের কারণে হয়।",
+                "hi": "एफ़ेसिया (भाषा हानि) अक्सर मस्तिष्क के भाषा क्षेत्रों को प्रभावित करने वाले स्ट्रोक के कारण होता है।",
+                "ur": "ایفیسیا (زبانی خرابی) اکثر دماغ کے زبان کے علاقوں کو متاثر کرنے والے اسٹروک کی وجہ سے ہوتا ہے۔",
+                "tr": "Afazi (dil bozukluğu), genellikle beyindeki dil bölgelerini etkileyen inmeden kaynaklanır."
+            },
+            "points": 10,
+            "id": "e24_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Der Patient hat eine Hemiparese der linken Körperhälfte.",
+                "en": "The patient has hemiparesis of the left side of the body.",
+                "bn": "রোগীর শরীরের বাম দিকে হেমিপ্যারেসিস রয়েছে।",
+                "hi": "मरीज को शरीर के बाईं ओर हेमिपेरेसिस है।",
+                "ur": "مریض کو جسم کے بائیں جانب ہیمی پیریسس ہے۔",
+                "tr": "Hastanın vücudunun sol tarafında hemiparezi var."
+            },
+            "options": [],
+            "correctAnswer": "The patient has hemiparesis of the left side of the body.",
+            "explanation": {
+                "en": "Hemiparesis is weakness on one side of the body.",
+                "bn": "হেমিপ্যারেসিস হল শরীরের একপাশে দুর্বলতা।",
+                "hi": "हेमिपेरेसिस शरीर के एक तरफ कमजोरी है।",
+                "ur": "ہیمیپیریسس جسم کے ایک طرف کمزوری ہے۔",
+                "tr": "Hemiparezi, vücudun bir tarafında güçsüzlüktür."
+            },
+            "points": 10,
+            "id": "e24_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Er hatte einen epileptischen Anfall mit generalisierten tonisch-klonischen Krämpfen.",
+                "en": "He had an epileptic seizure with generalized tonic-clonic convulsions.",
+                "bn": "তার সাধারণীকৃত টনিক-ক্লোনিক আক্ষেপ সহ একটি মৃগীরোগের খিঁচুনি হয়েছিল।",
+                "hi": "उसे सामान्यीकृत टॉनिक-क्लोनिक आक्षेपों के साथ एक मिरगी का दौरा पड़ा।",
+                "ur": "اسے عام ٹانک کلونک تشنجات کے ساتھ مرگی کا دورہ پڑا۔",
+                "tr": "Yaygın tonik-klonik kasılmalarla birlikte epilepsi nöbeti geçirdi."
+            },
+            "options": [],
+            "correctAnswer": "He had an epileptic seizure with generalized tonic-clonic convulsions.",
+            "explanation": {
+                "en": "Generalized tonic-clonic seizures involve loss of consciousness and violent muscle contractions.",
+                "bn": "সাধারণীকৃত টনিক-ক্লোনিক খিঁচুনি চেতনা হ্রাস এবং হিংস্র পেশী সংকোচন জড়িত।",
+                "hi": "सामान्यीकृत टॉनिक-क्लोनिक दौरों में चेतना की हानि और हिंसक मांसपेशियों के संकुचन शामिल हैं।",
+                "ur": "عام ٹانک کلونک دوروں میں شعور کا نقصان اور پرتشدد پٹھوں کا سکڑنا شامل ہے۔",
+                "tr": "Yaygın tonik-klonik nöbetler bilinç kaybı ve şiddetli kas kasılmalarını içerir."
+            },
+            "points": 10,
+            "id": "e24_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Glasgow Coma Scale beträgt 8, was auf eine schwere Bewusstseinsstörung hindeutet.",
+                "en": "The Glasgow Coma Scale is 8, indicating a severe impairment of consciousness.",
+                "bn": "গ্লাসগো কোমা স্কেল ৮, যা চেতনার গুরুতর দুর্বলতা নির্দেশ করে।",
+                "hi": "ग्लासगो कोमा स्केल 8 है, जो चेतना की गंभीर दुर्बलता का संकेत देता है।",
+                "ur": "گلاسگو کوما اسکیل 8 ہے، جو شعور کی شدید خرابی کی نشاندہی کرتا ہے۔",
+                "tr": "Glasgow Koma Ölçeği 8'dir, bu da ciddi bir bilinç bozukluğuna işaret eder."
+            },
+            "options": [],
+            "correctAnswer": "The Glasgow Coma Scale is 8, indicating a severe impairment of consciousness.",
+            "explanation": {
+                "en": "A GCS score of 8 or less typically indicates a severe head injury and significant impairment of consciousness.",
+                "bn": "৮ বা তার কমের জিসিএস স্কোর সাধারণত গুরুতর মাথার আঘাত এবং চেতনার উল্লেখযোগ্য দুর্বলতা নির্দেশ করে।",
+                "hi": "8 या उससे कम का जीसीएस स्कोर आमतौर पर गंभीर सिर की चोट और चेतना की महत्वपूर्ण दुर्बलता का संकेत देता है।",
+                "ur": "8 یا اس سے کم کا جی سی ایس اسکور عام طور پر سر کی شدید چوٹ اور شعور کی اہم خرابی کی نشاندہی کرتا ہے۔",
+                "tr": "8 veya daha düşük bir GCS skoru genellikle ciddi bir kafa travmasını ve önemli bir bilinç bozukluğunu gösterir."
+            },
+            "points": 10,
+            "id": "e24_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

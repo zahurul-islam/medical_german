@@ -1,1 +1,1571 @@
-{"id":"section_40","phaseId":"phase3","order":40,"titleDe":"Standardarbeitsanweisungen","title":{"en":"SOPs","bn":"SOPs","hi":"SOPs","ur":"SOPs","tr":"SOPs"},"level":"C1","estimatedMinutes":40,"vocabulary":[{"id":"v40_01","germanTerm":"Fachbegriff","article":"der","plural":"Fachbegriffe","translation":{"en":"Technical Term","bn":"টেকনিক্যাল টার্ম","hi":"तकनीकी शब्द","ur":"تکنیکی اصطلاح","tr":"Teknik terim"}}],"dialogues":[{"id":"d40_01","title":{"en":"Professional Scenario"},"lines":[{"speaker":"Oberarzt","germanText":"Professional dialogue for SOPs.","translation":{"en":"Professional dialogue for SOPs."}}]}],"exercises":[{"id":"e40_01","type":"multipleChoice","question":{"en":"Advanced question for SOPs?"},"options":["Option A","Option B","Option C"],"correctAnswer":"Option A","points":15}]}
+{
+    "id": "section_40",
+    "phaseId": "phase3",
+    "order": 40,
+    "titleDe": "Standardarbeitsanweisungen",
+    "title": {
+        "en": "SOPs: Standard Operating Procedures, Protocols, Hygiene, Quality Management, Checklists",
+        "bn": "SOPs: স্ট্যান্ডার্ড অপারেটিং পদ্ধতি, প্রোটোকল, স্বাস্থ্যবিধি, গুণমান ব্যবস্থাপনা, চেকলিস্ট",
+        "hi": "SOPs: मानक संचालन प्रक्रियाएँ, प्रोटोकॉल, स्वच्छता, गुणवत्ता प्रबंधन, चेकलिस्ट",
+        "ur": "SOPs: معیاری آپریٹنگ طریقہ کار، پروٹوکول، حفظان صحت، کوالٹی مینجمنٹ، چیک لسٹ",
+        "tr": "SOP'ler: Standart Çalışma Prosedürleri, Protokoller, Hijyen, Kalite Yönetimi, Kontrol Listeleri",
+        "de": "SOPs: Standardarbeitsanweisungen, Protokolle, Hygiene, Qualitätsmanagement, Checklisten"
+    },
+    "description": {
+        "en": "This section covers essential SOPs and their role in maintaining hygiene, quality, and standardized practices in German medical settings.",
+        "bn": "এই বিভাগে জার্মান চিকিৎসা সেটিংসে স্বাস্থ্যবিধি, গুণমান এবং মানসম্মত অনুশীলন বজায় রাখার ক্ষেত্রে প্রয়োজনীয় SOP এবং তাদের ভূমিকা নিয়ে আলোচনা করা হয়েছে।",
+        "hi": "यह खंड जर्मन चिकित्सा सेटिंग्स में स्वच्छता, गुणवत्ता और मानकीकृत प्रथाओं को बनाए रखने में आवश्यक एसओपी और उनकी भूमिका को शामिल करता है।",
+        "ur": "یہ سیکشن جرمن طبی ترتیبات میں حفظان صحت، معیار، اور معیاری طریقوں کو برقرار رکھنے میں ضروری SOPs اور ان کے کردار کا احاطہ کرتا ہے۔",
+        "tr": "Bu bölüm, Alman tıbbi ortamlarında hijyen, kalite ve standart uygulamaları korumada temel SOP'leri ve rollerini kapsar.",
+        "de": "Dieser Abschnitt behandelt wesentliche SOPs und ihre Rolle bei der Aufrechterhaltung von Hygiene, Qualität und standardisierten Verfahren in deutschen medizinischen Einrichtungen."
+    },
+    "level": "C1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, you will learn about the specific SOPs used in German hospitals and clinics. You'll also gain practical knowledge about hygiene protocols, quality management systems, and the proper use of checklists within the German medical context.",
+            "bn": "এই বিভাগে, আপনি জার্মান হাসপাতাল এবং ক্লিনিকগুলিতে ব্যবহৃত নির্দিষ্ট SOP সম্পর্কে জানতে পারবেন। এছাড়াও আপনি জার্মান চিকিৎসা প্রেক্ষাপটে স্বাস্থ্যবিধি প্রোটোকল, গুণমান ব্যবস্থাপনা সিস্টেম এবং চেকলিস্টের সঠিক ব্যবহার সম্পর্কে ব্যবহারিক জ্ঞান অর্জন করবেন।",
+            "hi": "इस खंड में, आप जर्मन अस्पतालों और क्लीनिकों में उपयोग किए जाने वाले विशिष्ट एसओपी के बारे में जानेंगे। आप जर्मन चिकित्सा संदर्भ में स्वच्छता प्रोटोकॉल, गुणवत्ता प्रबंधन प्रणाली और चेकलिस्ट के उचित उपयोग के बारे में व्यावहारिक ज्ञान भी प्राप्त करेंगे।",
+            "ur": "اس سیکشن میں، آپ جرمن اسپتالوں اور کلینکوں میں استعمال ہونے والے مخصوص SOPs کے بارے میں جانیں گے۔ آپ جرمن طبی تناظر میں حفظان صحت کے پروٹوکول، کوالٹی مینجمنٹ سسٹم اور چیک لسٹ کے مناسب استعمال کے بارے میں عملی معلومات بھی حاصل کریں گے۔",
+            "tr": "Bu bölümde, Alman hastanelerinde ve kliniklerinde kullanılan belirli SOP'ler hakkında bilgi edineceksiniz. Ayrıca Alman tıbbi bağlamında hijyen protokolleri, kalite yönetim sistemleri ve kontrol listelerinin doğru kullanımı hakkında pratik bilgi edineceksiniz.",
+            "de": "In diesem Abschnitt lernen Sie die spezifischen SOPs kennen, die in deutschen Krankenhäusern und Kliniken verwendet werden. Sie erwerben auch praktisches Wissen über Hygieneprotokolle, Qualitätsmanagementsysteme und die korrekte Verwendung von Checklisten im deutschen medizinischen Kontext."
+        },
+        "grammarFocus": {
+            "en": {
+                "bullet1": "Understanding the declension of nouns in compound words related to SOPs (e.g., Standardarbeitsanweisung).",
+                "bullet2": "Using imperative forms correctly when describing steps in a protocol (e.g., 'Desinfizieren Sie...')."
+            },
+            "bn": {
+                "bullet1": "SOP সম্পর্কিত যৌগিক শব্দে বিশেষ্যগুলির কারক বোঝা (যেমন, স্ট্যান্ডার্ডআরবিটসআনভাইসুং)।",
+                "bullet2": "প্রোটোকলের পদক্ষেপগুলি বর্ণনা করার সময় সঠিকভাবে আদেশসূচক রূপগুলি ব্যবহার করা (যেমন, 'ডেসইনফিজিয়েরেন জি...)।"
+            },
+            "hi": {
+                "bullet1": "एसओपी से संबंधित यौगिक शब्दों में संज्ञाओं के कारक को समझना (उदाहरण के लिए, स्टैंडर्डर्बीट्सनविइसुंग)।",
+                "bullet2": "प्रोटोकॉल में चरणों का वर्णन करते समय आदेशात्मक रूपों का सही उपयोग करना (उदाहरण के लिए, 'डेसिन्फिज़ीरेन ज़ी...)।"
+            },
+            "ur": {
+                "bullet1": "SOPs سے متعلق مرکب الفاظ میں اسموں کی گردان کو سمجھنا (مثال کے طور پر، Standardarbeitsanweisung)۔",
+                "bullet2": "پروٹوکول میں مراحل کی وضاحت کرتے وقت امپیریٹو فارمز کا صحیح استعمال کرنا (مثال کے طور پر، 'Desinfizieren Sie...')."
+            },
+            "tr": {
+                "bullet1": "SOP'lerle ilgili bileşik kelimelerdeki isimlerin çekimini anlamak (örn. Standardarbeitsanweisung).",
+                "bullet2": "Bir protokoldeki adımları açıklarken emir kiplerini doğru kullanmak (örn. 'Desinfizieren Sie...')."
+            },
+            "de": {
+                "bullet1": "Verständnis der Deklination von Substantiven in zusammengesetzten Wörtern im Zusammenhang mit SOPs (z.B. Standardarbeitsanweisung).",
+                "bullet2": "Korrekte Verwendung von Imperativformen bei der Beschreibung von Schritten in einem Protokoll (z.B. 'Desinfizieren Sie...')."
+            }
+        },
+        "culturalNotes": {
+            "en": "German hospitals place a high emphasis on following SOPs meticulously, with regular audits and training to ensure compliance.",
+            "bn": "জার্মান হাসপাতালগুলি SOPগুলি কঠোরভাবে অনুসরণ করার উপর খুব জোর দেয়, সম্মতি নিশ্চিত করার জন্য নিয়মিত নিরীক্ষা এবং প্রশিক্ষণ দেওয়া হয়।",
+            "hi": "जर्मन अस्पताल एसओपी का सावधानीपूर्वक पालन करने पर बहुत जोर देते हैं, अनुपालन सुनिश्चित करने के लिए नियमित ऑडिट और प्रशिक्षण के साथ।",
+            "ur": "جرمن اسپتال SOPs کی احتیاط سے پیروی کرنے پر بہت زور دیتے ہیں، تعمیل کو یقینی بنانے کے لیے باقاعدہ آڈٹ اور تربیت کے ساتھ۔",
+            "tr": "Alman hastaneleri, uyumu sağlamak için düzenli denetimler ve eğitimlerle SOP'leri titizlikle takip etmeye büyük önem vermektedir.",
+            "de": "Deutsche Krankenhäuser legen großen Wert auf die sorgfältige Einhaltung von SOPs, mit regelmäßigen Audits und Schulungen zur Sicherstellung der Compliance."
+        },
+        "summary": {
+            "en": "Understanding and implementing SOPs is crucial for effective and safe medical practice in Germany.",
+            "bn": "জার্মানিতে কার্যকর এবং নিরাপদ চিকিৎসা অনুশীলনের জন্য SOP বোঝা এবং বাস্তবায়ন করা অত্যন্ত গুরুত্বপূর্ণ।",
+            "hi": "जर्मनी में प्रभावी और सुरक्षित चिकित्सा पद्धति के लिए एसओपी को समझना और लागू करना महत्वपूर्ण है।",
+            "ur": "جرمنی میں مؤثر اور محفوظ طبی مشق کے لیے SOPs کو سمجھنا اور ان پر عمل کرنا بہت ضروری ہے۔",
+            "tr": "Almanya'da etkili ve güvenli tıbbi uygulama için SOP'leri anlamak ve uygulamak çok önemlidir.",
+            "de": "Das Verständnis und die Umsetzung von SOPs ist für eine effektive und sichere medizinische Praxis in Deutschland von entscheidender Bedeutung."
+        },
+        "learningObjectives": [
+            "Identify common SOPs used in German medical settings.",
+            "Describe the importance of hygiene protocols in preventing infections.",
+            "Explain the role of quality management in maintaining high standards of care.",
+            "Utilize checklists effectively to ensure comprehensive patient care."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "Standardarbeitsanweisung",
+            "article": "die",
+            "plural": "Standardarbeitsanweisungen",
+            "pronunciation": "/ˈʃtandartˌʔarbaɪ̯t͡sʔanˌvaɪ̯zʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "Standard Operating Procedure (SOP)",
+                "bn": "স্ট্যান্ডার্ড অপারেটিং পদ্ধতি (SOP)",
+                "hi": "मानक संचालन प्रक्रिया (एसओपी)",
+                "ur": "معیاری آپریٹنگ طریقہ کار (ایس او پی)",
+                "tr": "Standart Çalışma Prosedürü (SOP)"
+            },
+            "exampleSentence": "Die Standardarbeitsanweisung für die Katheteranlage muss beachtet werden.",
+            "exampleTranslation": {
+                "en": "The Standard Operating Procedure for catheter insertion must be followed.",
+                "bn": "ক্যাথেটার সন্নিবেশের জন্য স্ট্যান্ডার্ড অপারেটিং পদ্ধতি অনুসরণ করতে হবে।",
+                "hi": "कैथेटर सम्मिलन के लिए मानक संचालन प्रक्रिया का पालन किया जाना चाहिए।",
+                "ur": "کیتھیٹر داخل کرنے کے لئے معیاری آپریٹنگ طریقہ کار پر عمل کرنا ضروری ہے۔",
+                "tr": "Kateter yerleştirme için Standart Çalışma Prosedürü izlenmelidir."
+            },
+            "id": "v40_01"
+        },
+        {
+            "germanTerm": "Protokoll",
+            "article": "das",
+            "plural": "Protokolle",
+            "pronunciation": "/pʁotoˈkɔl/",
+            "category": "noun",
+            "translation": {
+                "en": "Protocol",
+                "bn": "প্রোটোকল",
+                "hi": "प्रोटोकॉल",
+                "ur": "پروٹوکول",
+                "tr": "Protokol"
+            },
+            "exampleSentence": "Das Protokoll der Visite muss sorgfältig dokumentiert werden.",
+            "exampleTranslation": {
+                "en": "The protocol of the ward round must be carefully documented.",
+                "bn": "ওয়ার্ড রাউন্ডের প্রোটোকলটি সাবধানে নথিভুক্ত করতে হবে।",
+                "hi": "वार्ड राउंड के प्रोटोकॉल को सावधानीपूर्वक प्रलेखित किया जाना चाहिए।",
+                "ur": "وارڈ راؤنڈ کے پروٹوکول کو احتیاط سے دستاویزی کرنا ضروری ہے۔",
+                "tr": "Vizit protokolü dikkatlice belgelenmelidir."
+            },
+            "id": "v40_02"
+        },
+        {
+            "germanTerm": "Hygiene",
+            "article": "die",
+            "plural": "Hygiene",
+            "pronunciation": "/hyˈɡi̯eːnə/",
+            "category": "noun",
+            "translation": {
+                "en": "Hygiene",
+                "bn": "স্বাস্থ্যবিধি",
+                "hi": "स्वच्छता",
+                "ur": "صحت و صفائی",
+                "tr": "Hijyen"
+            },
+            "exampleSentence": "Die Einhaltung der Hygienevorschriften ist im Krankenhaus essenziell.",
+            "exampleTranslation": {
+                "en": "Compliance with hygiene regulations is essential in the hospital.",
+                "bn": "হাসপাতালে স্বাস্থ্যবিধি বিধি মেনে চলা অপরিহার্য।",
+                "hi": "अस्पताल में स्वच्छता नियमों का पालन करना आवश्यक है।",
+                "ur": "ہسپتال میں حفظان صحت کے قواعد و ضوابط کی تعمیل ضروری ہے۔",
+                "tr": "Hastanede hijyen kurallarına uyum esastır."
+            },
+            "id": "v40_03"
+        },
+        {
+            "germanTerm": "Qualitätsmanagement",
+            "article": "das",
+            "plural": "Qualitätsmanagements",
+            "pronunciation": "/kvaliˈtɛːtsˌmanəd͡ʒmənt/",
+            "category": "noun",
+            "translation": {
+                "en": "Quality Management",
+                "bn": "গুণমান ব্যবস্থাপনা",
+                "hi": "गुणवत्ता प्रबंधन",
+                "ur": "معیار کا انتظام",
+                "tr": "Kalite Yönetimi"
+            },
+            "exampleSentence": "Das Qualitätsmanagement überwacht die Prozesse im Krankenhaus.",
+            "exampleTranslation": {
+                "en": "Quality management monitors the processes in the hospital.",
+                "bn": "গুণমান ব্যবস্থাপনা হাসপাতালের প্রক্রিয়াগুলি পর্যবেক্ষণ করে।",
+                "hi": "गुणवत्ता प्रबंधन अस्पताल में प्रक्रियाओं की निगरानी करता है।",
+                "ur": "معیار کا انتظام ہسپتال میں عمل کی نگرانی کرتا ہے۔",
+                "tr": "Kalite yönetimi hastanedeki süreçleri izler."
+            },
+            "id": "v40_04"
+        },
+        {
+            "germanTerm": "Checkliste",
+            "article": "die",
+            "plural": "Checklisten",
+            "pronunciation": "/ˈt͡ʃɛkˌlɪstə/",
+            "category": "noun",
+            "translation": {
+                "en": "Checklist",
+                "bn": "চেকলিস্ট",
+                "hi": "चेकलिस्ट",
+                "ur": "چیک لسٹ",
+                "tr": "Kontrol listesi"
+            },
+            "exampleSentence": "Die Checkliste für die OP-Vorbereitung muss abgearbeitet werden.",
+            "exampleTranslation": {
+                "en": "The checklist for the OR preparation must be completed.",
+                "bn": "ওপি প্রস্তুতির জন্য চেকলিস্টটি সম্পন্ন করতে হবে।",
+                "hi": "ओपी तैयारी के लिए चेकलिस्ट को पूरा किया जाना चाहिए।",
+                "ur": "اوپی کی تیاری کے لئے چیک لسٹ مکمل ہونی چاہئے۔",
+                "tr": "Ameliyathane hazırlığı için kontrol listesi tamamlanmalıdır."
+            },
+            "id": "v40_05"
+        },
+        {
+            "germanTerm": "Desinfektion",
+            "article": "die",
+            "plural": "Desinfektionen",
+            "pronunciation": "/dɛsʔɪnfɛkˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "Disinfection",
+                "bn": "জীবাণুমুক্তকরণ",
+                "hi": "कीटाणुशोधन",
+                "ur": "جراثیم کشی",
+                "tr": "Dezenfeksiyon"
+            },
+            "exampleSentence": "Die Desinfektion der Hände ist vor jeder Behandlung wichtig.",
+            "exampleTranslation": {
+                "en": "Hand disinfection is important before each treatment.",
+                "bn": "প্রতিটি চিকিৎসার আগে হাতের জীবাণুমুক্তকরণ গুরুত্বপূর্ণ।",
+                "hi": "प्रत्येक उपचार से पहले हाथों का कीटाणुशोधन महत्वपूर्ण है।",
+                "ur": "ہر علاج سے پہلے ہاتھوں کا جراثیم کشی ضروری ہے۔",
+                "tr": "Her tedaviden önce el dezenfeksiyonu önemlidir."
+            },
+            "id": "v40_06"
+        },
+        {
+            "germanTerm": "steril",
+            "article": "N/A",
+            "plural": "N/A",
+            "pronunciation": "/ʃteˈʁiːl/",
+            "category": "adjective",
+            "translation": {
+                "en": "Sterile",
+                "bn": "জীবাণুমুক্ত",
+                "hi": "बाँझ",
+                "ur": "بانجھ",
+                "tr": "Steril"
+            },
+            "exampleSentence": "Die Instrumente müssen steril sein.",
+            "exampleTranslation": {
+                "en": "The instruments must be sterile.",
+                "bn": "যন্ত্রপাতি জীবাণুমুক্ত হতে হবে।",
+                "hi": "उपकरण बाँझ होना चाहिए।",
+                "ur": "آلات جراثیم سے پاک ہونا ضروری ہیں۔",
+                "tr": "Aletler steril olmalıdır."
+            },
+            "id": "v40_07"
+        },
+        {
+            "germanTerm": "Dokumentation",
+            "article": "die",
+            "plural": "Dokumentationen",
+            "pronunciation": "/ˌdokuːmɛnˈtaːt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "Documentation",
+                "bn": "নথিভুক্তকরণ",
+                "hi": "दस्तावेज़ीकरण",
+                "ur": "دستاویزیकरण",
+                "tr": "Belgeleme"
+            },
+            "exampleSentence": "Die Dokumentation der Medikation ist sehr wichtig.",
+            "exampleTranslation": {
+                "en": "The documentation of the medication is very important.",
+                "bn": "ঔষধের নথিভুক্তকরণ খুবই গুরুত্বপূর্ণ।",
+                "hi": "दवा का दस्तावेजीकरण बहुत महत्वपूर्ण है।",
+                "ur": "دوا کی دستاویز کاری بہت ضروری ہے۔",
+                "tr": "İlaçların belgelenmesi çok önemlidir."
+            },
+            "id": "v40_08"
+        },
+        {
+            "germanTerm": "Verfahrensanweisung",
+            "article": "die",
+            "plural": "Verfahrensanweisungen",
+            "pronunciation": "/fɛɐ̯ˈfaːʁənsˌʔanvaɪ̯zʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "Procedure Instruction",
+                "bn": "পদ্ধতি নির্দেশ",
+                "hi": "प्रक्रिया निर्देश",
+                "ur": "طریقہ کار کی ہدایت",
+                "tr": "Prosedür Talimatı"
+            },
+            "exampleSentence": "Es gibt eine Verfahrensanweisung für die Blutentnahme.",
+            "exampleTranslation": {
+                "en": "There is a procedure instruction for blood sampling.",
+                "bn": "রক্ত ​​সংগ্রহের জন্য একটি পদ্ধতি নির্দেশ আছে।",
+                "hi": "रक्त संग्रह के लिए एक प्रक्रिया निर्देश है।",
+                "ur": "خون کے نمونے لینے کے لئے ایک طریقہ کار کی ہدایت ہے۔",
+                "tr": "Kan alma için bir prosedür talimatı vardır."
+            },
+            "id": "v40_09"
+        },
+        {
+            "germanTerm": "Risikomanagement",
+            "article": "das",
+            "plural": "Risikomanagements",
+            "pronunciation": "/ˈʁɪzikoˌmanəd͡ʒmənt/",
+            "category": "noun",
+            "translation": {
+                "en": "Risk Management",
+                "bn": "ঝুঁকি ব্যবস্থাপনা",
+                "hi": "जोखिम प्रबंधन",
+                "ur": "رسک مینجمنٹ",
+                "tr": "Risk Yönetimi"
+            },
+            "exampleSentence": "Das Risikomanagement identifiziert potenzielle Gefahren.",
+            "exampleTranslation": {
+                "en": "Risk management identifies potential hazards.",
+                "bn": "ঝুঁকি ব্যবস্থাপনা সম্ভাব্য বিপদ চিহ্নিত করে।",
+                "hi": "जोखिम प्रबंधन संभावित खतरों की पहचान करता है।",
+                "ur": "رسک مینجمنٹ ممکنہ خطرات کی نشاندہی کرتا ہے۔",
+                "tr": "Risk yönetimi potansiyel tehlikeleri tanımlar."
+            },
+            "id": "v40_10"
+        },
+        {
+            "germanTerm": "Audit",
+            "article": "das",
+            "plural": "Audits",
+            "pronunciation": "/ˈɔːdɪt/",
+            "category": "noun",
+            "translation": {
+                "en": "Audit",
+                "bn": "নিরীক্ষণ",
+                "hi": "लेखा परीक्षा",
+                "ur": "آڈٹ",
+                "tr": "Denetim"
+            },
+            "exampleSentence": "Das Audit hat Verbesserungspotenzial aufgezeigt.",
+            "exampleTranslation": {
+                "en": "The audit has shown potential for improvement.",
+                "bn": "নিরীক্ষণে উন্নতির সম্ভাবনা দেখানো হয়েছে।",
+                "hi": "लेखा परीक्षा ने सुधार की संभावना दिखाई है।",
+                "ur": "آڈٹ نے بہتری کی صلاحیت دکھائی ہے۔",
+                "tr": "Denetim, iyileştirme potansiyeli göstermiştir."
+            },
+            "id": "v40_11"
+        },
+        {
+            "germanTerm": "validieren",
+            "article": "N/A",
+            "plural": "N/A",
+            "pronunciation": "/valiˈdiːʁən/",
+            "category": "verb",
+            "translation": {
+                "en": "to validate",
+                "bn": "বৈধ করা",
+                "hi": "वैध करना",
+                "ur": "تصدیق کرنا",
+                "tr": "doğrulamak"
+            },
+            "exampleSentence": "Wir müssen die Ergebnisse validieren.",
+            "exampleTranslation": {
+                "en": "We need to validate the results.",
+                "bn": "আমাদের ফলাফল বৈধ করতে হবে।",
+                "hi": "हमें परिणामों को मान्य करने की आवश्यकता है।",
+                "ur": "ہمیں نتائج کی تصدیق کرنے کی ضرورت ہے۔",
+                "tr": "Sonuçları doğrulamamız gerekiyor."
+            },
+            "id": "v40_12"
+        },
+        {
+            "germanTerm": "Instrument",
+            "article": "das",
+            "plural": "Instrumente",
+            "pronunciation": "/ɪnstruˈmɛnt/",
+            "category": "noun",
+            "translation": {
+                "en": "Instrument",
+                "bn": "যন্ত্র",
+                "hi": "उपकरण",
+                "ur": "اوزار",
+                "tr": "Alet"
+            },
+            "exampleSentence": "Das Instrument muss vor Gebrauch sterilisiert werden.",
+            "exampleTranslation": {
+                "en": "The instrument must be sterilized before use.",
+                "bn": "ব্যবহারের আগে যন্ত্রটি জীবাণুমুক্ত করতে হবে।",
+                "hi": "उपकरण को उपयोग से पहले निष्फल किया जाना चाहिए।",
+                "ur": "استعمال سے پہلے آلے کو جراثیم سے پاک کرنا ضروری ہے۔",
+                "tr": "Alet kullanılmadan önce sterilize edilmelidir."
+            },
+            "id": "v40_13"
+        },
+        {
+            "germanTerm": "Reinigung",
+            "article": "die",
+            "plural": "Reinigungen",
+            "pronunciation": "/ˈʁaɪ̯nɪɡʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "Cleaning",
+                "bn": "পরিষ্কার",
+                "hi": "सफाई",
+                "ur": "صفائی",
+                "tr": "Temizlik"
+            },
+            "exampleSentence": "Die Reinigung der Oberflächen ist wichtig für die Hygiene.",
+            "exampleTranslation": {
+                "en": "Cleaning the surfaces is important for hygiene.",
+                "bn": "পরিষ্কার পরিচ্ছন্নতার জন্য পৃষ্ঠতল পরিষ্কার করা গুরুত্বপূর্ণ।",
+                "hi": "स्वच्छता के लिए सतहों को साफ करना महत्वपूर्ण है।",
+                "ur": "سطحوں کی صفائی حفظان صحت کے لئے ضروری ہے۔",
+                "tr": "Yüzeylerin temizliği hijyen için önemlidir."
+            },
+            "id": "v40_14"
+        },
+        {
+            "germanTerm": "kontaminieren",
+            "article": "N/A",
+            "plural": "N/A",
+            "pronunciation": "/kɔntamiˈniːʁən/",
+            "category": "verb",
+            "translation": {
+                "en": "to contaminate",
+                "bn": "দূষিত করা",
+                "hi": "दूषित करना",
+                "ur": "آلودہ کرنا",
+                "tr": "kirletmek"
+            },
+            "exampleSentence": "Vermeiden Sie, die Wunde zu kontaminieren.",
+            "exampleTranslation": {
+                "en": "Avoid contaminating the wound.",
+                "bn": "ক্ষতকে দূষিত করা এড়িয়ে চলুন।",
+                "hi": "घाव को दूषित करने से बचें।",
+                "ur": "زخم کو آلودہ کرنے سے گریز کریں۔",
+                "tr": "Yarayı kirletmekten kaçının."
+            },
+            "id": "v40_15"
+        },
+        {
+            "germanTerm": "Dokument",
+            "article": "das",
+            "plural": "Dokumente",
+            "pronunciation": "/dokuˈmɛnt/",
+            "category": "noun",
+            "translation": {
+                "en": "Document",
+                "bn": "নথি",
+                "hi": "दस्तावेज़",
+                "ur": "دستاویز",
+                "tr": "Belge"
+            },
+            "exampleSentence": "Dieses Dokument ist Teil des Qualitätsmanagementsystems.",
+            "exampleTranslation": {
+                "en": "This document is part of the quality management system.",
+                "bn": "এই নথিটি গুণমান ব্যবস্থাপনা সিস্টেমের অংশ।",
+                "hi": "यह दस्तावेज़ गुणवत्ता प्रबंधन प्रणाली का हिस्सा है।",
+                "ur": "یہ دستاویز کوالٹی مینجمنٹ سسٹم کا حصہ ہے۔",
+                "tr": "Bu belge kalite yönetim sisteminin bir parçasıdır."
+            },
+            "id": "v40_16"
+        },
+        {
+            "germanTerm": "Infektion",
+            "article": "die",
+            "plural": "Infektionen",
+            "pronunciation": "/ɪnfɛkˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "Infection",
+                "bn": "সংক্রমণ",
+                "hi": "संक्रमण",
+                "ur": "انفیکشن",
+                "tr": "Enfeksiyon"
+            },
+            "exampleSentence": "Die Infektion muss behandelt werden.",
+            "exampleTranslation": {
+                "en": "The infection must be treated.",
+                "bn": "সংক্রমণটি চিকিত্সা করা উচিত।",
+                "hi": "संक्रमण का इलाज किया जाना चाहिए।",
+                "ur": "انفیکشن کا علاج کیا جانا چاہئے۔",
+                "tr": "Enfeksiyon tedavi edilmelidir."
+            },
+            "id": "v40_17"
+        },
+        {
+            "germanTerm": "Händedesinfektion",
+            "article": "die",
+            "plural": "Händedesinfektionen",
+            "pronunciation": "/ˈhɛndəˌdɛsʔɪnfɛkˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "Hand disinfection",
+                "bn": "হাতের জীবাণুমুক্তকরণ",
+                "hi": "हाथ कीटाणुशोधन",
+                "ur": "ہاتھوں کی جراثیم کشی",
+                "tr": "El dezenfeksiyonu"
+            },
+            "exampleSentence": "Die Händedesinfektion ist obligatorisch.",
+            "exampleTranslation": {
+                "en": "Hand disinfection is mandatory.",
+                "bn": "হাতের জীবাণুমুক্তকরণ বাধ্যতামূলক।",
+                "hi": "हाथ कीटाणुशोधन अनिवार्य है।",
+                "ur": "ہاتھوں کی جراثیم کشی لازمی ہے۔",
+                "tr": "El dezenfeksiyonu zorunludur."
+            },
+            "id": "v40_18"
+        },
+        {
+            "germanTerm": "Überprüfung",
+            "article": "die",
+            "plural": "Überprüfungen",
+            "pronunciation": "/yːbɐˈpʁyːfʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "Review, Check",
+                "bn": "পর্যালোচনা, পরীক্ষা",
+                "hi": "समीक्षा, जाँच",
+                "ur": "جائزہ ، چیک کریں",
+                "tr": "İnceleme, Kontrol"
+            },
+            "exampleSentence": "Die Überprüfung der Checkliste ist notwendig.",
+            "exampleTranslation": {
+                "en": "The review of the checklist is necessary.",
+                "bn": "চেকলিস্টের পর্যালোচনা প্রয়োজনীয়।",
+                "hi": "चेकलिस्ट की समीक्षा आवश्यक है।",
+                "ur": "چیک لسٹ کا جائزہ ضروری ہے۔",
+                "tr": "Kontrol listesinin incelenmesi gereklidir."
+            },
+            "id": "v40_19"
+        },
+        {
+            "germanTerm": "klinisch",
+            "article": "N/A",
+            "plural": "N/A",
+            "pronunciation": "/ˈkliːnɪʃ/",
+            "category": "adjective",
+            "translation": {
+                "en": "Clinical",
+                "bn": "ক্লিনিকাল",
+                "hi": "नैदानिक",
+                "ur": "طبی",
+                "tr": "Klinik"
+            },
+            "exampleSentence": "Die klinische Hygiene ist sehr wichtig.",
+            "exampleTranslation": {
+                "en": "Clinical hygiene is very important.",
+                "bn": "ক্লিনিকাল স্বাস্থ্যবিধি খুবই গুরুত্বপূর্ণ।",
+                "hi": "नैदानिक ​​स्वच्छता बहुत महत्वपूर्ण है।",
+                "ur": "کلینیکل حفظان صحت بہت ضروری ہے۔",
+                "tr": "Klinik hijyen çok önemlidir."
+            },
+            "id": "v40_20"
+        },
+        {
+            "germanTerm": "Maßnahme",
+            "article": "die",
+            "plural": "Maßnahmen",
+            "pronunciation": "/ˈmaːsnaːmə/",
+            "category": "noun",
+            "translation": {
+                "en": "Measure",
+                "bn": "পদক্ষেপ",
+                "hi": "उपाय",
+                "ur": "اقدام",
+                "tr": "Önlem"
+            },
+            "exampleSentence": "Welche Maßnahmen sind erforderlich?",
+            "exampleTranslation": {
+                "en": "What measures are required?",
+                "bn": "কী পদক্ষেপ প্রয়োজন?",
+                "hi": "क्या उपाय आवश्यक हैं?",
+                "ur": "کیا اقدامات درکار ہیں؟",
+                "tr": "Hangi önlemler gereklidir?"
+            },
+            "id": "v40_21"
+        },
+        {
+            "germanTerm": "Patientensicherheit",
+            "article": "die",
+            "plural": "Patientensicherheiten",
+            "pronunciation": "/paˈt͡si̯ɛntənˌzɪçɐhaɪ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "Patient safety",
+                "bn": "রোগীর নিরাপত্তা",
+                "hi": "मरीज सुरक्षा",
+                "ur": "مریض کی حفاظت",
+                "tr": "Hasta güvenliği"
+            },
+            "exampleSentence": "Patientensicherheit hat oberste Priorität.",
+            "exampleTranslation": {
+                "en": "Patient safety is the top priority.",
+                "bn": "রোগীর নিরাপত্তা সর্বোচ্চ অগ্রাধিকার।",
+                "hi": "मरीज सुरक्षा सर्वोच्च प्राथमिकता है।",
+                "ur": "مریض کی حفاظت اولین ترجیح ہے۔",
+                "tr": "Hasta güvenliği en öncelikli konudur."
+            },
+            "id": "v40_22"
+        },
+        {
+            "germanTerm": "Implementierung",
+            "article": "die",
+            "plural": "Implementierungen",
+            "pronunciation": "/ɪmpləmɛnˈtiːʁʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "Implementation",
+                "bn": "বাস্তবায়ন",
+                "hi": "कार्यान्वयन",
+                "ur": "نفاذ",
+                "tr": "Uygulama"
+            },
+            "exampleSentence": "Die Implementierung der neuen SOP dauert noch an.",
+            "exampleTranslation": {
+                "en": "The implementation of the new SOP is still ongoing.",
+                "bn": "নতুন SOP বাস্তবায়ন এখনও চলছে।",
+                "hi": "नई एसओपी का कार्यान्वयन अभी भी जारी है।",
+                "ur": "نئے ایس او پی پر عمل درآمد ابھی بھی جاری ہے۔",
+                "tr": "Yeni SOP'nin uygulanması hala devam ediyor."
+            },
+            "id": "v40_23"
+        },
+        {
+            "germanTerm": "Ablauf",
+            "article": "der",
+            "plural": "Abläufe",
+            "pronunciation": "/ˈapˌlaʊ̯f/",
+            "category": "noun",
+            "translation": {
+                "en": "Procedure, Process",
+                "bn": "পদ্ধতি, প্রক্রিয়া",
+                "hi": "प्रक्रिया, प्रक्रिया",
+                "ur": "طریقہ کار ، عمل",
+                "tr": "Prosedür, Süreç"
+            },
+            "exampleSentence": "Der Ablauf der Operation ist genau festgelegt.",
+            "exampleTranslation": {
+                "en": "The procedure of the operation is precisely defined.",
+                "bn": "অপারেশনের পদ্ধতিটি সঠিকভাবে সংজ্ঞায়িত করা হয়েছে।",
+                "hi": "ऑपरेशन की प्रक्रिया को सटीक रूप से परिभाषित किया गया है।",
+                "ur": "آپریشن کا طریقہ کار بالکل واضح طور پر بیان کیا گیا ہے۔",
+                "tr": "Operasyonun prosedürü kesin olarak tanımlanmıştır."
+            },
+            "id": "v40_24"
+        },
+        {
+            "germanTerm": "Fehler",
+            "article": "der",
+            "plural": "Fehler",
+            "pronunciation": "/ˈfeːlɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "Error, Mistake",
+                "bn": "ত্রুটি, ভুল",
+                "hi": "त्रुटि, गलती",
+                "ur": "غلطی",
+                "tr": "Hata"
+            },
+            "exampleSentence": "Fehler müssen vermieden werden.",
+            "exampleTranslation": {
+                "en": "Errors must be avoided.",
+                "bn": "ত্রুটি এড়ানো উচিত।",
+                "hi": "त्रुटियों से बचना चाहिए।",
+                "ur": "غلطیوں سے بچنا چاہئے۔",
+                "tr": "Hatalardan kaçınılmalıdır."
+            },
+            "id": "v40_25"
+        },
+        {
+            "germanTerm": "Prozess",
+            "article": "der",
+            "plural": "Prozesse",
+            "pronunciation": "/pʁoˈt͡sɛs/",
+            "category": "noun",
+            "translation": {
+                "en": "Process",
+                "bn": "প্রক্রিয়া",
+                "hi": "प्रक्रिया",
+                "ur": "عمل",
+                "tr": "Süreç"
+            },
+            "exampleSentence": "Der Prozess muss optimiert werden.",
+            "exampleTranslation": {
+                "en": "The process must be optimized.",
+                "bn": "প্রক্রিয়াটি অপ্টিমাইজ করা উচিত।",
+                "hi": "प्रक्रिया को अनुकूलित किया जाना चाहिए।",
+                "ur": "عمل کو بہتر بنانا چاہئے۔",
+                "tr": "Süreç optimize edilmelidir."
+            },
+            "id": "v40_26"
+        },
+        {
+            "germanTerm": "Anweisung",
+            "article": "die",
+            "plural": "Anweisungen",
+            "pronunciation": "/ˈanˌvaɪ̯zʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "Instruction",
+                "bn": "নির্দেশ",
+                "hi": "अनुदेश",
+                "ur": "ہدایت",
+                "tr": "Talimat"
+            },
+            "exampleSentence": "Folgen Sie den Anweisungen des Arztes.",
+            "exampleTranslation": {
+                "en": "Follow the doctor's instructions.",
+                "bn": "ডাক্তারের নির্দেশ অনুসরণ করুন।",
+                "hi": "डॉक्टर के निर्देशों का पालन करें।",
+                "ur": "ڈاکٹر کی ہدایات پر عمل کریں۔",
+                "tr": "Doktorun talimatlarını izleyin."
+            },
+            "id": "v40_27"
+        },
+        {
+            "germanTerm": "standardisiert",
+            "article": "N/A",
+            "plural": "N/A",
+            "pronunciation": "/ʃtandardaˈziːɐ̯t/",
+            "category": "adjective",
+            "translation": {
+                "en": "Standardized",
+                "bn": "মানসম্মত",
+                "hi": "मानकीकृत",
+                "ur": "معیاری",
+                "tr": "Standartlaştırılmış"
+            },
+            "exampleSentence": "Die Prozesse sind standardisiert.",
+            "exampleTranslation": {
+                "en": "The processes are standardized.",
+                "bn": "প্রক্রিয়াগুলো মানসম্মত।",
+                "hi": "प्रक्रियाएँ मानकीकृत हैं।",
+                "ur": "عمل معیاری ہیں۔",
+                "tr": "Süreçler standartlaştırılmıştır."
+            },
+            "id": "v40_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Hygiene Protocol After Surgery",
+                "bn": "অস্ত্রোপচারের পরে স্বাস্থ্যবিধি প্রোটোকল",
+                "hi": "सर्जरी के बाद स्वच्छता प्रोटोकॉल",
+                "ur": "سرجری کے بعد حفظان صحت کا پروٹوکول",
+                "tr": "Ameliyat Sonrası Hijyen Protokolü"
+            },
+            "context": {
+                "en": "Dr. Schmidt is discussing the post-operative hygiene protocol with Nurse Weber after a patient's knee replacement surgery.",
+                "bn": "ডক্টর শ্মিট রোগীর হাঁটু প্রতিস্থাপনের সার্জারির পরে নার্স ওয়েবারের সাথে পোস্ট-অপারেটিভ স্বাস্থ্যবিধি প্রোটোকল নিয়ে আলোচনা করছেন।",
+                "hi": "डॉ. श्मिट रोगी के घुटने के प्रतिस्थापन सर्जरी के बाद नर्स वेबर के साथ पोस्ट-ऑपरेटिव स्वच्छता प्रोटोकॉल पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر شمٹ مریض کی گھٹنے کی تبدیلی کی سرجری کے بعد نرس ویبر کے ساتھ پوسٹ آپریٹو حفظان صحت کے پروٹوکول پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Dr. Schmidt, bir hastanın diz protezi ameliyatından sonra Hemşire Weber ile postoperatif hijyen protokolünü tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Schwester Weber, haben wir das Hygieneprotokoll nach der Knie-TEP eingehalten?",
+                    "translation": {
+                        "en": "Nurse Weber, did we adhere to the hygiene protocol after the knee replacement?",
+                        "bn": "নার্স ওয়েবার, আমরা কি হাঁটু প্রতিস্থাপনের পরে স্বাস্থ্যবিধি প্রোটোকল মেনে চলেছি?",
+                        "hi": "नर्स वेबर, क्या हमने घुटने के प्रतिस्थापन के बाद स्वच्छता प्रोटोकॉल का पालन किया?",
+                        "ur": "نرس ویبر، کیا ہم نے گھٹنے کی تبدیلی کے بعد حفظان صحت کے پروٹوکول پر عمل کیا؟",
+                        "tr": "Hemşire Weber, diz protezi ameliyatından sonra hijyen protokolüne uyduk mu?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ja, Herr Doktor. Die Hautdesinfektion erfolgte gemäß der Standardarbeitsanweisung.",
+                    "translation": {
+                        "en": "Yes, Dr. Schmidt. The skin disinfection was carried out according to the standard operating procedure.",
+                        "bn": "হ্যাঁ, ডক্টর শ্মিট। স্ট্যান্ডার্ড অপারেটিং পদ্ধতি অনুসারে ত্বকের জীবাণুমুক্তকরণ করা হয়েছে।",
+                        "hi": "हाँ, डॉ. श्मिट। त्वचा का कीटाणुशोधन मानक संचालन प्रक्रिया के अनुसार किया गया।",
+                        "ur": "جی ہاں، ڈاکٹر شمٹ۔ جلد کی جراثیم کشی معیاری آپریٹنگ طریقہ کار کے مطابق کی گئی۔",
+                        "tr": "Evet, Dr. Schmidt. Cilt dezenfeksiyonu standart çalışma talimatına göre yapıldı."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Und die Instrumentenaufbereitung? Ist die Checkliste abgehakt?",
+                    "translation": {
+                        "en": "And the instrument preparation? Is the checklist ticked off?",
+                        "bn": "এবং উপকরণ প্রস্তুতি? চেকলিস্ট কি টিক দেওয়া হয়েছে?",
+                        "hi": "और उपकरण की तैयारी? क्या चेकलिस्ट में टिक किया गया है?",
+                        "ur": "اور آلات کی تیاری؟ کیا چیک لسٹ میں نشان لگایا گیا ہے؟",
+                        "tr": "Peki alet hazırlığı? Kontrol listesi işaretlendi mi?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ja, Herr Doktor. Alles gemäß Protokoll dokumentiert und überprüft.",
+                    "translation": {
+                        "en": "Yes, Dr. Schmidt. Everything documented and checked according to the protocol.",
+                        "bn": "হ্যাঁ, ডক্টর শ্মিট। সবকিছু প্রোটোকল অনুসারে নথিভুক্ত এবং যাচাই করা হয়েছে।",
+                        "hi": "हाँ, डॉ. श्मिट। सब कुछ प्रोटोकॉल के अनुसार प्रलेखित और जाँचा गया।",
+                        "ur": "جی ہاں، ڈاکٹر شمٹ۔ ہر چیز کو پروٹوکول کے مطابق دستاویزی اور چیک کیا گیا ہے۔",
+                        "tr": "Evet, Dr. Schmidt. Her şey protokole göre belgelenmiş ve kontrol edilmiştir."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Sehr gut. Die Patientensicherheit steht an erster Stelle.",
+                    "translation": {
+                        "en": "Very good. Patient safety comes first.",
+                        "bn": "খুব ভালো। রোগীর নিরাপত্তা প্রথমে।",
+                        "hi": "बहुत अच्छा। रोगी की सुरक्षा पहले आती है।",
+                        "ur": "بہت اچھے۔ مریض کی حفاظت سب سے پہلے ہے۔",
+                        "tr": "Çok iyi. Hasta güvenliği her şeyden önce gelir."
+                    }
+                }
+            ],
+            "id": "d40_01"
+        },
+        {
+            "title": {
+                "en": "Quality Management Rounds",
+                "bn": "গুণমান ব্যবস্থাপনা রাউন্ড",
+                "hi": "गुणवत्ता प्रबंधन राउंड",
+                "ur": "معیار کے انتظام کے راؤنڈ",
+                "tr": "Kalite Yönetimi Turları"
+            },
+            "context": {
+                "en": "Dr. Müller, the quality management officer, is discussing the latest audit results with Dr. Lehmann.",
+                "bn": "গুণমান ব্যবস্থাপক ডক্টর মুলার, ডক্টর লেহমানের সাথে সর্বশেষ নিরীক্ষার ফলাফল নিয়ে আলোচনা করছেন।",
+                "hi": "गुणवत्ता प्रबंधक डॉ. मुलर, डॉ. लेहमन के साथ नवीनतम ऑडिट परिणामों पर चर्चा कर रहे हैं।",
+                "ur": "معیار کے مینیجر ڈاکٹر مولر، ڈاکٹر لیمن کے ساتھ تازہ ترین آڈٹ کے نتائج پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Kalite yöneticisi Dr. Müller, Dr. Lehmann ile son denetim sonuçlarını görüşüyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Qualitätsmanagementbeauftragter",
+                    "germanText": "Guten Morgen, Herr Kollege. Die Ergebnisse des letzten Qualitätsaudits sind da.",
+                    "translation": {
+                        "en": "Good morning, colleague. The results of the latest quality audit are in.",
+                        "bn": "শুভ সকাল, সহকর্মী। সর্বশেষ মানের নিরীক্ষার ফলাফল এসেছে।",
+                        "hi": "शुभ प्रभात, सहकर्मी। नवीनतम गुणवत्ता लेखा परीक्षा के परिणाम आ गए हैं।",
+                        "ur": "صبح بخیر، ساتھی۔ تازہ ترین معیار آڈٹ کے نتائج آ چکے ہیں۔",
+                        "tr": "Günaydın meslektaşım. Son kalite denetiminin sonuçları geldi."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Zeigen Sie mal. Gibt es Abweichungen von den Standardarbeitsanweisungen?",
+                    "translation": {
+                        "en": "Let me see. Are there any deviations from the standard operating procedures?",
+                        "bn": "দেখাও তো। স্ট্যান্ডার্ড অপারেটিং পদ্ধতি থেকে কোন বিচ্যুতি আছে কি?",
+                        "hi": "मुझे दिखाओ। क्या मानक संचालन प्रक्रियाओं से कोई विचलन है?",
+                        "ur": "مجھے دکھائیں۔ کیا معیاری آپریٹنگ طریقہ کار سے کوئی انحراف ہے؟",
+                        "tr": "Gösterin bakalım. Standart çalışma talimatlarından sapmalar var mı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Qualitätsmanagementbeauftragter",
+                    "germanText": "Ja, bei der Dokumentation der Vitalwerte gab es Mängel. Das Protokoll wurde nicht immer eingehalten.",
+                    "translation": {
+                        "en": "Yes, there were deficiencies in the documentation of vital signs. The protocol was not always followed.",
+                        "bn": "হ্যাঁ, ভাইটাল সাইনগুলির নথিতে ত্রুটি ছিল। প্রোটোকল সবসময় অনুসরণ করা হয়নি।",
+                        "hi": "हाँ, महत्वपूर्ण संकेतों के प्रलेखन में कमियाँ थीं। प्रोटोकॉल का हमेशा पालन नहीं किया गया।",
+                        "ur": "جی ہاں، اہم علامات کی دستاویزات میں خامیاں تھیں۔ پروٹوکول پر ہمیشہ عمل نہیں کیا گیا۔",
+                        "tr": "Evet, hayati belirtilerin belgelenmesinde eksiklikler vardı. Protokol her zaman takip edilmedi."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das müssen wir dringend verbessern. Sonst gefährden wir die Qualität der Behandlung.",
+                    "translation": {
+                        "en": "We urgently need to improve that. Otherwise, we risk the quality of the treatment.",
+                        "bn": "আমাদের জরুরিভাবে এটি উন্নত করতে হবে। অন্যথায়, আমরা চিকিৎসার গুণমানকে ঝুঁকির মধ্যে ফেলব।",
+                        "hi": "हमें तत्काल इसे सुधारना होगा। अन्यथा, हम उपचार की गुणवत्ता को खतरे में डाल देंगे।",
+                        "ur": "ہمیں فوری طور پر اس کو بہتر بنانے کی ضرورت ہے۔ بصورت دیگر، ہم علاج کے معیار کو خطرے میں ڈالیں گے۔",
+                        "tr": "Bunu acilen iyileştirmemiz gerekiyor. Aksi takdirde, tedavi kalitesini riske atarız."
+                    }
+                },
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Qualitätsmanagementbeauftragter",
+                    "germanText": "Ich werde eine Schulung für das Pflegepersonal organisieren. Und die Checkliste muss konsequenter genutzt werden.",
+                    "translation": {
+                        "en": "I will organize a training session for the nursing staff. And the checklist must be used more consistently.",
+                        "bn": "আমি নার্সিং কর্মীদের জন্য একটি প্রশিক্ষণ সেশনের আয়োজন করব। এবং চেকলিস্ট আরও ধারাবাহিকভাবে ব্যবহার করতে হবে।",
+                        "hi": "मैं नर्सिंग स्टाफ के लिए एक प्रशिक्षण सत्र आयोजित करूंगा। और चेकलिस्ट का अधिक लगातार उपयोग किया जाना चाहिए।",
+                        "ur": "میں نرسنگ عملے کے لیے ایک تربیتی سیشن کا اہتمام کروں گا۔ اور چیک لسٹ کو زیادہ مستقل طور پر استعمال کیا جانا چاہیے۔",
+                        "tr": "Hemşireler için bir eğitim oturumu düzenleyeceğim. Ve kontrol listesi daha tutarlı bir şekilde kullanılmalıdır."
+                    }
+                }
+            ],
+            "id": "d40_02"
+        },
+        {
+            "title": {
+                "en": "Patient Discharge and Hygiene",
+                "bn": "রোগীর স্রাব এবং স্বাস্থ্যবিধি",
+                "hi": "रोगी की छुट्टी और स्वच्छता",
+                "ur": "مریض کی چھٹی اور حفظان صحت",
+                "tr": "Hasta Taburcu ve Hijyen"
+            },
+            "context": {
+                "en": "Nurse Klein is explaining the hygiene instructions to Patient Müller before his discharge.",
+                "bn": "নার্স ক্লেইন রোগী মুলারকে স্রাবের আগে স্বাস্থ্যবিধি নির্দেশাবলী ব্যাখ্যা করছেন।",
+                "hi": "नर्स क्लेन मरीज मुलर को डिस्चार्ज से पहले स्वच्छता निर्देश समझा रही हैं।",
+                "ur": "نرس کلین مریض مولر کو ڈسچارج سے پہلے حفظان صحت کی ہدایات سمجھا رہی ہیں۔",
+                "tr": "Hemşire Klein, taburcu olmadan önce hasta Müller'e hijyen talimatlarını açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Klein",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Müller, bevor Sie nach Hause gehen, möchte ich Ihnen noch einige Hygienehinweise geben.",
+                    "translation": {
+                        "en": "Mr. Müller, before you go home, I would like to give you some hygiene instructions.",
+                        "bn": "মিঃ মুলার, আপনি বাড়ি যাওয়ার আগে, আমি আপনাকে কিছু স্বাস্থ্যবিধি নির্দেশাবলী দিতে চাই।",
+                        "hi": "श्री मुलर, घर जाने से पहले, मैं आपको कुछ स्वच्छता निर्देश देना चाहूंगी।",
+                        "ur": "مسٹر مولر، آپ کے گھر جانے سے پہلے، میں آپ کو کچھ حفظان صحت کی ہدایات دینا چاہوں گی۔",
+                        "tr": "Bay Müller, eve gitmeden önce size bazı hijyen talimatları vermek istiyorum."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, bitte. Was muss ich beachten?",
+                    "translation": {
+                        "en": "Yes, please. What do I need to pay attention to?",
+                        "bn": "হ্যাঁ, অনুগ্রহ করে। আমাকে কী মনোযোগ দিতে হবে?",
+                        "hi": "हाँ, कृपया। मुझे किस बात पर ध्यान देना चाहिए?",
+                        "ur": "جی ہاں، براہ کرم۔ مجھے کس چیز پر توجہ دینے کی ضرورت ہے؟",
+                        "tr": "Evet, lütfen. Nelere dikkat etmeliyim?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Klein",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Regelmäßiges Händewaschen ist sehr wichtig. Und achten Sie auf die Wundversorgung gemäß unserer Standardarbeitsanweisung.",
+                    "translation": {
+                        "en": "Regular hand washing is very important. And pay attention to wound care according to our standard operating procedure.",
+                        "bn": "নিয়মিত হাত ধোয়া খুব গুরুত্বপূর্ণ। এবং আমাদের স্ট্যান্ডার্ড অপারেটিং পদ্ধতি অনুসারে ক্ষত পরিচর্যার দিকে মনোযোগ দিন।",
+                        "hi": "नियमित रूप से हाथ धोना बहुत महत्वपूर्ण है। और हमारी मानक संचालन प्रक्रिया के अनुसार घाव की देखभाल पर ध्यान दें।",
+                        "ur": "باقاعدگی سے ہاتھ دھونا بہت ضروری ہے۔ اور ہمارے معیاری آپریٹنگ طریقہ کار کے مطابق زخموں کی دیکھ بھال پر توجہ دیں۔",
+                        "tr": "Düzenli el yıkama çok önemlidir. Ve standart çalışma talimatımıza göre yara bakımına dikkat edin."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Alles klar. Ich habe die Checkliste bekommen.",
+                    "translation": {
+                        "en": "Alright. I received the checklist.",
+                        "bn": "ঠিক আছে। আমি চেকলিস্ট পেয়েছি।",
+                        "hi": "ठीक है। मुझे चेकलिस्ट मिल गई।",
+                        "ur": "ٹھیک ہے۔ مجھے چیک لسٹ مل گئی۔",
+                        "tr": "Pekala. Kontrol listesini aldım."
+                    }
+                },
+                {
+                    "speaker": "Schwester Klein",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Sehr gut. Gute Besserung!",
+                    "translation": {
+                        "en": "Very good. Get well soon!",
+                        "bn": "খুব ভালো। দ্রুত সুস্থ হয়ে উঠুন!",
+                        "hi": "बहुत अच्छा। जल्दी ठीक हो जाओ!",
+                        "ur": "بہت اچھے۔ جلد صحت یاب ہو جاؤ!",
+                        "tr": "Çok iyi. Geçmiş olsun!"
+                    }
+                }
+            ],
+            "id": "d40_03"
+        },
+        {
+            "title": {
+                "en": "Operating Room Protocol",
+                "bn": "অপারেটিং রুম প্রোটোকল",
+                "hi": "ऑपरेटिंग रूम प्रोटोकॉल",
+                "ur": "آپریٹنگ روم پروٹوکول",
+                "tr": "Ameliyathane Protokolü"
+            },
+            "context": {
+                "en": "Dr. Weber is briefing the surgical team on the OR protocol before surgery.",
+                "bn": "ডক্টর ওয়েবার সার্জারির আগে ওআর প্রোটোকল সম্পর্কে সার্জিক্যাল টিমকে ব্রিফ করছেন।",
+                "hi": "डॉ. वेबर सर्जरी से पहले ओआर प्रोटोकॉल पर सर्जिकल टीम को ब्रीफ कर रहे हैं।",
+                "ur": "ڈاکٹر ویبر سرجری سے پہلے او آر پروٹوکول پر سرجیکل ٹیم کو بریف کر رہے ہیں۔",
+                "tr": "Dr. Weber, ameliyattan önce cerrahi ekibe OR protokolü hakkında brifing veriyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Guten Morgen, Team. Bevor wir beginnen, gehen wir noch einmal das OP-Protokoll durch.",
+                    "translation": {
+                        "en": "Good morning, team. Before we begin, let's review the OR protocol one more time.",
+                        "bn": "শুভ সকাল, দল। শুরু করার আগে, আমরা আরও একবার ওআর প্রোটোকল পর্যালোচনা করি।",
+                        "hi": "शुभ प्रभात, टीम। इससे पहले कि हम शुरू करें, आइए एक बार फिर ओआर प्रोटोकॉल की समीक्षा करें।",
+                        "ur": "صبح بخیر، ٹیم۔ شروع کرنے سے پہلے، آئیے ایک بار پھر او آر پروٹوکول کا جائزہ لیں۔",
+                        "tr": "Günaydın ekip. Başlamadan önce, ameliyathane protokolünü bir kez daha gözden geçirelim."
+                    }
+                },
+                {
+                    "speaker": "Assistenzarzt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Alles klar, Herr Doktor. Die Instrumente sind sterilisiert gemäß der Hygiene-SOP.",
+                    "translation": {
+                        "en": "Understood, Dr. Weber. The instruments are sterilized according to the hygiene SOP.",
+                        "bn": "বুঝেছি, ডক্টর ওয়েবার। স্বাস্থ্যবিধি এসওপি অনুসারে যন্ত্রগুলি জীবাণুমুক্ত করা হয়েছে।",
+                        "hi": "समझ गया, डॉ. वेबर। उपकरणों को स्वच्छता एसओपी के अनुसार निष्फल किया गया है।",
+                        "ur": "سمجھ گئے، ڈاکٹر ویبر۔ آلات کو حفظان صحت کے ایس او پی کے مطابق جراثیم سے پاک کیا گیا ہے۔",
+                        "tr": "Anlaşıldı Dr. Weber. Aletler hijyen SOP'sine göre sterilize edildi."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Sehr gut. Und die Patientenlagerung? Ist die Checkliste für die korrekte Lagerung abgehakt?",
+                    "translation": {
+                        "en": "Very good. And the patient positioning? Is the checklist for correct positioning ticked off?",
+                        "bn": "খুব ভালো। এবং রোগীর অবস্থান? সঠিক অবস্থানের জন্য চেকলিস্ট কি টিক দেওয়া হয়েছে?",
+                        "hi": "बहुत अच्छा। और रोगी की स्थिति? क्या सही स्थिति के लिए चेकलिस्ट में टिक किया गया है?",
+                        "ur": "بہت اچھا۔ اور مریض کی پوزیشننگ؟ کیا صحیح پوزیشننگ کے لیے چیک لسٹ میں نشان لگایا گیا ہے؟",
+                        "tr": "Çok iyi. Peki hasta pozisyonu? Doğru pozisyonlama için kontrol listesi işaretlendi mi?"
+                    }
+                },
+                {
+                    "speaker": "Schwester",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ja, Herr Doktor. Alles überprüft und dokumentiert.",
+                    "translation": {
+                        "en": "Yes, Dr. Weber. Everything checked and documented.",
+                        "bn": "হ্যাঁ, ডক্টর ওয়েবার। সবকিছু যাচাই করা হয়েছে এবং নথিভুক্ত করা হয়েছে।",
+                        "hi": "हाँ, डॉ. वेबर। सब कुछ जाँचा और प्रलेखित किया गया।",
+                        "ur": "جی ہاں، ڈاکٹر ویبر۔ ہر چیز کی جانچ پڑتال اور دستاویزی دستاویزات کی گئی ہیں۔",
+                        "tr": "Evet, Dr. Weber. Her şey kontrol edildi ve belgelendi."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ausgezeichnet. Dann können wir beginnen.",
+                    "translation": {
+                        "en": "Excellent. Then we can begin.",
+                        "bn": "চমৎকার। তাহলে আমরা শুরু করতে পারি।",
+                        "hi": "उत्कृष्ट। फिर हम शुरू कर सकते हैं।",
+                        "ur": "بہترین۔ پھر ہم شروع کر سکتے ہیں۔",
+                        "tr": "Mükemmel. O zaman başlayabiliriz."
+                    }
+                }
+            ],
+            "id": "d40_04"
+        },
+        {
+            "title": {
+                "en": "Handling Medical Waste",
+                "bn": "চিকিৎসা বর্জ্য পরিচালনা",
+                "hi": "चिकित्सा अपशिष्ट का प्रबंधन",
+                "ur": "طبی فضلہ کو سنبھالنا",
+                "tr": "Tıbbi Atıkların İmhası"
+            },
+            "context": {
+                "en": "Nurse Schneider reminds her colleague Nurse Braun about the correct disposal of medical waste according to the hospital's SOP.",
+                "bn": "নার্স শ্নাইডার তার সহকর্মী নার্স ব্রাউনকে হাসপাতালের এসওপি অনুসারে মেডিকেল বর্জ্য সঠিকভাবে নিষ্পত্তি করার কথা মনে করিয়ে দিচ্ছেন।",
+                "hi": "नर्स श्नाइडर अपनी सहयोगी नर्स ब्रौन को अस्पताल के एसओपी के अनुसार चिकित्सा अपशिष्ट के सही निपटान की याद दिला रही हैं।",
+                "ur": "نرس شنائیڈر اپنی ساتھی نرس براؤن کو اسپتال کے ایس او پی کے مطابق طبی فضلہ کو صحیح طریقے سے ٹھکانے لگانے کی یاد دلا رہی ہیں۔",
+                "tr": "Hemşire Schneider, meslektaşı Hemşire Braun'a hastanenin SOP'sine göre tıbbi atıkların doğru şekilde imha edilmesini hatırlatıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Schneider",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Schwester Braun, denk daran, die Spritzen in den dafür vorgesehenen Behälter zu entsorgen.",
+                    "translation": {
+                        "en": "Nurse Braun, remember to dispose of the syringes in the designated container.",
+                        "bn": "নার্স ব্রাউন, মনে রাখবেন সিরিঞ্জগুলি নির্ধারিত পাত্রে ফেলতে।",
+                        "hi": "नर्स ब्रॉन, याद रखें कि सीरिंज को निर्दिष्ट कंटेनर में निपटाना है।",
+                        "ur": "نرس براؤن، یاد رکھیں کہ سرنج کو نامزد کنٹینر میں ٹھکانے لگانا ہے۔",
+                        "tr": "Hemşire Braun, şırıngaları belirlenen kaba atmayı unutmayın."
+                    }
+                },
+                {
+                    "speaker": "Schwester Braun",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Oh, danke, Schwester Schneider. Ich war gerade etwas abgelenkt.",
+                    "translation": {
+                        "en": "Oh, thank you, Nurse Schneider. I was just a little distracted.",
+                        "bn": "ওহ, ধন্যবাদ, নার্স শ্নাইডার। আমি একটু বিক্ষিপ্ত ছিলাম।",
+                        "hi": "ओह, धन्यवाद, नर्स श्नाइडर। मैं बस थोड़ा विचलित था।",
+                        "ur": "اوہ، شکریہ، نرس شنائیڈر۔ میں بس تھوڑا سا مشغول تھا۔",
+                        "tr": "Ah, teşekkürler Hemşire Schneider. Sadece biraz dalmıştım."
+                    }
+                },
+                {
+                    "speaker": "Schwester Schneider",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Kein Problem. Aber wir müssen uns strikt an das Hygiene-Protokoll halten. Verletzungsgefahr!",
+                    "translation": {
+                        "en": "No problem. But we must strictly adhere to the hygiene protocol. Risk of injury!",
+                        "bn": "কোন সমস্যা নেই। তবে আমাদের কঠোরভাবে স্বাস্থ্যবিধি প্রোটোকল মেনে চলতে হবে। আঘাতের ঝুঁকি!",
+                        "hi": "कोई बात नहीं। लेकिन हमें स्वच्छता प्रोटोकॉल का सख्ती से पालन करना चाहिए। चोट लगने का खतरा!",
+                        "ur": "کوئی مسئلہ نہیں۔ لیکن ہمیں حفظان صحت کے پروٹوکول پر سختی سے عمل کرنا چاہیے۔ چوٹ لگنے کا خطرہ!",
+                        "tr": "Sorun değil. Ancak hijyen protokolüne kesinlikle uymalıyız. Yaralanma riski var!"
+                    }
+                },
+                {
+                    "speaker": "Schwester Braun",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ja, natürlich. Die Standardarbeitsanweisung ist klar. Infektionsrisiko minimieren.",
+                    "translation": {
+                        "en": "Yes, of course. The standard operating procedure is clear. Minimize the risk of infection.",
+                        "bn": "হ্যাঁ, অবশ্যই। স্ট্যান্ডার্ড অপারেটিং পদ্ধতি স্পষ্ট। সংক্রমণের ঝুঁকি কমানো।",
+                        "hi": "हाँ, बिलकुल। मानक संचालन प्रक्रिया स्पष्ट है। संक्रमण के जोखिम को कम करना।",
+                        "ur": "جی ہاں، بالکل۔ معیاری آپریٹنگ طریقہ کار واضح ہے۔ انفیکشن کے خطرے کو کم سے کم کرنا۔",
+                        "tr": "Evet, elbette. Standart çalışma talimatı açık. Enfeksiyon riskini en aza indirin."
+                    }
+                },
+                {
+                    "speaker": "Schwester Schneider",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Richtig. Und alles muss dokumentiert werden.",
+                    "translation": {
+                        "en": "Correct. And everything must be documented.",
+                        "bn": "সঠিক। এবং সবকিছু নথিভুক্ত করতে হবে।",
+                        "hi": "सही। और सब कुछ प्रलेखित किया जाना चाहिए।",
+                        "ur": "درست۔ اور ہر چیز کو دستاویزی شکل دینی چاہیے۔",
+                        "tr": "Doğru. Ve her şey belgelenmelidir."
+                    }
+                }
+            ],
+            "id": "d40_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist der Hauptzweck einer Standardarbeitsanweisung (SOP)?",
+                "en": "What is the main purpose of a Standard Operating Procedure (SOP)?",
+                "bn": "একটি স্ট্যান্ডার্ড অপারেটিং পদ্ধতির (এসওপি) মূল উদ্দেশ্য কী?",
+                "hi": "एक मानक संचालन प्रक्रिया (एसओपी) का मुख्य उद्देश्य क्या है?",
+                "ur": "ایک معیاری آپریٹنگ طریقہ کار (ایس او پی) کا بنیادی مقصد کیا ہے؟",
+                "tr": "Standart bir Operasyon Prosedürü'nün (SOP) temel amacı nedir?"
+            },
+            "options": [
+                "Das Erstellen neuer Aufgaben.",
+                "Die Dokumentation wiederholbarer Prozesse.",
+                "Die Verfolgung von Patienten.",
+                "Die Organisation von Meetings."
+            ],
+            "correctAnswer": "Die Dokumentation wiederholbarer Prozesse.",
+            "explanation": {
+                "en": "SOPs document repeatable processes to ensure consistency and quality.",
+                "bn": "এসওপি ধারাবাহিকতা এবং গুণমান নিশ্চিত করার জন্য পুনরাবৃত্তিযোগ্য প্রক্রিয়া নথিভুক্ত করে।",
+                "hi": "एसओपी स्थिरता और गुणवत्ता सुनिश्चित करने के लिए दोहराए जाने योग्य प्रक्रियाओं का दस्तावेजीकरण करता है।",
+                "ur": "ایس او پی مستقل مزاجی اور معیار کو یقینی بنانے کے لیے دہرائی جانے والی کارروائیوں کو دستاویز کرتا ہے۔",
+                "tr": "SOP'ler tutarlılık ve kalite sağlamak için tekrarlanabilir süreçleri belgeler."
+            },
+            "points": 10,
+            "id": "e40_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden Aussagen beschreibt am besten ein Protokoll im medizinischen Kontext?",
+                "en": "Which of the following statements best describes a protocol in a medical context?",
+                "bn": "নিম্নলিখিত বিবৃতিগুলির মধ্যে কোনটি চিকিৎসা প্রেক্ষাপটে একটি প্রোটোকলকে সবচেয়ে ভালোভাবে বর্ণনা করে?",
+                "hi": "निम्नलिखित में से कौन सा कथन चिकित्सा संदर्भ में एक प्रोटोकॉल का सबसे अच्छा वर्णन करता है?",
+                "ur": "درج ذیل میں سے کون سا بیان طبی تناظر میں پروٹوکول کو بہترین انداز میں بیان کرتا ہے؟",
+                "tr": "Aşağıdaki ifadelerden hangisi tıbbi bağlamda bir protokolü en iyi şekilde tanımlar?"
+            },
+            "options": [
+                "Ein informelles Gespräch zwischen Ärzten.",
+                "Ein detaillierter Plan für eine bestimmte medizinische Behandlung oder ein bestimmtes Verfahren.",
+                "Eine Liste von Medikamenten.",
+                "Ein kurzer Bericht über einen Patientenbesuch."
+            ],
+            "correctAnswer": "Ein detaillierter Plan für eine bestimmte medizinische Behandlung oder ein bestimmtes Verfahren.",
+            "explanation": {
+                "en": "A protocol is a detailed plan for a specific medical treatment or procedure.",
+                "bn": "একটি প্রোটোকল হল একটি নির্দিষ্ট চিকিৎসা বা পদ্ধতির জন্য একটি বিস্তারিত পরিকল্পনা।",
+                "hi": "एक प्रोटोकॉल एक विशिष्ट चिकित्सा उपचार या प्रक्रिया के लिए एक विस्तृत योजना है।",
+                "ur": "ایک پروٹوکول ایک مخصوص طبی علاج یا طریقہ کار کے لیے ایک تفصیلی منصوبہ ہے۔",
+                "tr": "Bir protokol, belirli bir tıbbi tedavi veya prosedür için ayrıntılı bir plandır."
+            },
+            "points": 10,
+            "id": "e40_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist der Zweck von Hygienemaßnahmen im Krankenhaus?",
+                "en": "What is the purpose of hygiene measures in a hospital?",
+                "bn": "হাসপাতালে স্বাস্থ্যবিধি ব্যবস্থার উদ্দেশ্য কী?",
+                "hi": "अस्पताल में स्वच्छता उपायों का उद्देश्य क्या है?",
+                "ur": "ہسپتال میں حفظان صحت کے اقدامات کا مقصد کیا ہے؟",
+                "tr": "Bir hastanede hijyen önlemlerinin amacı nedir?"
+            },
+            "options": [
+                "Die Reduzierung von Personalkosten.",
+                "Die Verhinderung der Ausbreitung von Infektionen.",
+                "Die Verbesserung der Ästhetik des Krankenhauses.",
+                "Die Beschleunigung von administrativen Prozessen."
+            ],
+            "correctAnswer": "Die Verhinderung der Ausbreitung von Infektionen.",
+            "explanation": {
+                "en": "Hygiene measures prevent the spread of infections in hospitals.",
+                "bn": "স্বাস্থ্যবিধি ব্যবস্থা হাসপাতালে সংক্রমণের বিস্তার রোধ করে।",
+                "hi": "स्वच्छता उपाय अस्पतालों में संक्रमण के प्रसार को रोकते हैं।",
+                "ur": "حفظان صحت کے اقدامات اسپتالوں میں انفیکشن کے پھیلاؤ کو روکتے ہیں۔",
+                "tr": "Hijyen önlemleri, hastanelerde enfeksiyonların yayılmasını önler."
+            },
+            "points": 10,
+            "id": "e40_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Rolle spielt das Qualitätsmanagement im medizinischen Bereich?",
+                "en": "What role does quality management play in the medical field?",
+                "bn": "চিকিৎসা ক্ষেত্রে গুণমান ব্যবস্থাপনার ভূমিকা কী?",
+                "hi": "चिकित्सा क्षेत्र में गुणवत्ता प्रबंधन की क्या भूमिका है?",
+                "ur": "طبی شعبے میں کوالٹی مینجمنٹ کیا کردار ادا کرتا ہے؟",
+                "tr": "Tıp alanında kalite yönetimi ne rol oynar?"
+            },
+            "options": [
+                "Die Minimierung von Patientenkontakt.",
+                "Die Verbesserung der Patientensicherheit und -versorgung.",
+                "Die Erhöhung der Arbeitsbelastung des Personals.",
+                "Die Reduzierung von administrativen Aufgaben."
+            ],
+            "correctAnswer": "Die Verbesserung der Patientensicherheit und -versorgung.",
+            "explanation": {
+                "en": "Quality management improves patient safety and care in the medical field.",
+                "bn": "গুণমান ব্যবস্থাপনা চিকিৎসা ক্ষেত্রে রোগীর নিরাপত্তা এবং যত্ন উন্নত করে।",
+                "hi": "गुणवत्ता प्रबंधन चिकित्सा क्षेत्र में रोगी सुरक्षा और देखभाल में सुधार करता है।",
+                "ur": "کوالٹی مینجمنٹ طبی شعبے میں مریض کی حفاظت اور نگہداشت کو بہتر بناتا ہے۔",
+                "tr": "Kalite yönetimi, tıp alanında hasta güvenliğini ve bakımını iyileştirir."
+            },
+            "points": 10,
+            "id": "e40_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist der Hauptvorteil der Verwendung einer Checkliste im medizinischen Bereich?",
+                "en": "What is the main advantage of using a checklist in the medical field?",
+                "bn": "চিকিৎসা ক্ষেত্রে একটি চেকলিস্ট ব্যবহারের প্রধান সুবিধা কী?",
+                "hi": "चिकित्सा क्षेत्र में एक चेकलिस्ट का उपयोग करने का मुख्य लाभ क्या है?",
+                "ur": "طبی میدان میں چیک لسٹ استعمال کرنے کا بنیادی فائدہ کیا ہے؟",
+                "tr": "Tıp alanında bir kontrol listesi kullanmanın temel avantajı nedir?"
+            },
+            "options": [
+                "Die Reduzierung der Dokumentationszeit.",
+                "Die Minimierung von Fehlern und das Sicherstellen der Vollständigkeit.",
+                "Die Erhöhung der administrativen Kosten.",
+                "Die Beschleunigung von Kommunikationsprozessen."
+            ],
+            "correctAnswer": "Die Minimierung von Fehlern und das Sicherstellen der Vollständigkeit.",
+            "explanation": {
+                "en": "Checklists minimize errors and ensure completeness in medical procedures.",
+                "bn": "চেকলিস্টগুলি ত্রুটিগুলি হ্রাস করে এবং চিকিৎসা পদ্ধতিতে সম্পূর্ণতা নিশ্চিত করে।",
+                "hi": "चेकलिस्ट चिकित्सा प्रक्रियाओं में त्रुटियों को कम करते हैं और पूर्णता सुनिश्चित करते हैं।",
+                "ur": "چیک لسٹیں طبی طریقہ کار میں غلطیوں کو کم کرتی ہیں اور مکمل ہونا یقینی بناتی ہیں۔",
+                "tr": "Kontrol listeleri, tıbbi prosedürlerdeki hataları en aza indirir ve eksiksizliği sağlar."
+            },
+            "points": 10,
+            "id": "e40_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden ist KEIN typischer Bestandteil einer SOP?",
+                "en": "Which of the following is NOT a typical component of an SOP?",
+                "bn": "নিম্নলিখিত কোনটি এসওপি-র একটি সাধারণ উপাদান নয়?",
+                "hi": "निम्नलिखित में से कौन सा एसओपी का एक विशिष्ट घटक नहीं है?",
+                "ur": "درج ذیل میں سے کون سا ایس او پی کا عام جزو نہیں ہے؟",
+                "tr": "Aşağıdakilerden hangisi bir SOP'nin tipik bir bileşeni DEĞİLDİR?"
+            },
+            "options": [
+                "Zweck und Anwendungsbereich",
+                "Detaillierte Schritt-für-Schritt-Anleitung",
+                "Liste der aktuellen Aktienkurse",
+                "Verantwortlichkeiten"
+            ],
+            "correctAnswer": "Liste der aktuellen Aktienkurse",
+            "explanation": {
+                "en": "SOPs describe processes, not financial data.",
+                "bn": "এসওপি প্রক্রিয়া বর্ণনা করে, আর্থিক ডেটা নয়।",
+                "hi": "एसओपी प्रक्रियाओं का वर्णन करता है, वित्तीय डेटा का नहीं।",
+                "ur": "ایس او پی عمل کو بیان کرتا ہے، مالیاتی ڈیٹا کو نہیں۔",
+                "tr": "SOP'ler finansal verileri değil, süreçleri tanımlar."
+            },
+            "points": 10,
+            "id": "e40_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Warum ist die regelmäßige Überprüfung von SOPs wichtig?",
+                "en": "Why is the regular review of SOPs important?",
+                "bn": "এসওপিগুলির নিয়মিত পর্যালোচনা কেন গুরুত্বপূর্ণ?",
+                "hi": "एसओपी की नियमित समीक्षा क्यों महत्वपूर्ण है?",
+                "ur": "ایس او پیز کا باقاعدگی سے جائزہ لینا کیوں ضروری ہے؟",
+                "tr": "SOP'lerin düzenli olarak gözden geçirilmesi neden önemlidir?"
+            },
+            "options": [
+                "Um die Mitarbeiter zu ärgern",
+                "Um sicherzustellen, dass sie aktuell und relevant sind",
+                "Um Papier zu sparen",
+                "Um neue SOPs zu erstellen"
+            ],
+            "correctAnswer": "Um sicherzustellen, dass sie aktuell und relevant sind",
+            "explanation": {
+                "en": "Regular reviews ensure that SOPs are up-to-date and reflect current best practices.",
+                "bn": "নিয়মিত পর্যালোচনা নিশ্চিত করে যে এসওপিগুলি আপ-টু-ডেট এবং বর্তমান সেরা অনুশীলনগুলিকে প্রতিফলিত করে।",
+                "hi": "नियमित समीक्षा यह सुनिश्चित करती है कि एसओपी अद्यतित हैं और वर्तमान सर्वोत्तम प्रथाओं को दर्शाते हैं।",
+                "ur": "باقاعدگی سے جائزے اس بات کو یقینی بناتے ہیں کہ ایس او پی اپ ٹو ڈیٹ ہیں اور موجودہ بہترین طریقوں کی عکاسی کرتے ہیں۔",
+                "tr": "Düzenli incelemeler, SOP'lerin güncel olmasını ve mevcut en iyi uygulamaları yansıtmasını sağlar."
+            },
+            "points": 10,
+            "id": "e40_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Ziel des Risikomanagements im Qualitätsmanagement?",
+                "en": "What is the goal of risk management in quality management?",
+                "bn": "গুণমান ব্যবস্থাপনায় ঝুঁকি ব্যবস্থাপনার লক্ষ্য কী?",
+                "hi": "गुणवत्ता प्रबंधन में जोखिम प्रबंधन का लक्ष्य क्या है?",
+                "ur": "کوالٹی مینجمنٹ میں رسک مینجمنٹ کا مقصد کیا ہے؟",
+                "tr": "Kalite yönetiminde risk yönetiminin amacı nedir?"
+            },
+            "options": [
+                "Risiken ignorieren",
+                "Risiken identifizieren, bewerten und kontrollieren",
+                "Risiken an andere Abteilungen delegieren",
+                "Risiken vermeiden, indem man keine neuen Projekte startet"
+            ],
+            "correctAnswer": "Risiken identifizieren, bewerten und kontrollieren",
+            "explanation": {
+                "en": "Risk management aims to identify, assess, and control risks to ensure quality.",
+                "bn": "ঝুঁকি ব্যবস্থাপনা গুণমান নিশ্চিত করার জন্য ঝুঁকি সনাক্তকরণ, মূল্যায়ন এবং নিয়ন্ত্রণ করার লক্ষ্য রাখে।",
+                "hi": "जोखिम प्रबंधन का उद्देश्य गुणवत्ता सुनिश्चित करने के लिए जोखिमों की पहचान करना, उनका आकलन करना और उन्हें नियंत्रित करना है।",
+                "ur": "رسک مینجمنٹ کا مقصد معیار کو یقینی بنانے کے لیے خطرات کی نشاندہی کرنا، ان کا جائزہ لینا اور انہیں کنٹرول کرنا ہے۔",
+                "tr": "Risk yönetimi, kaliteyi sağlamak için riskleri tanımlamayı, değerlendirmeyi ve kontrol etmeyi amaçlar."
+            },
+            "points": 10,
+            "id": "e40_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Art von Checkliste ist am besten geeignet, um sicherzustellen, dass alle Schritte einer Operation korrekt ausgeführt werden?",
+                "en": "What type of checklist is best suited to ensure that all steps of an operation are performed correctly?",
+                "bn": "অপারেশনের সমস্ত ধাপ সঠিকভাবে সম্পন্ন হয়েছে কিনা তা নিশ্চিত করার জন্য কোন ধরনের চেকলিস্ট সবচেয়ে উপযুক্ত?",
+                "hi": "यह सुनिश्चित करने के लिए कि ऑपरेशन के सभी चरण सही ढंग से किए गए हैं, किस प्रकार की चेकलिस्ट सबसे उपयुक्त है?",
+                "ur": "اس بات کو یقینی بنانے کے لیے کہ آپریشن کے تمام مراحل درست طریقے سے انجام دیئے گئے ہیں، کس قسم کی چیک لسٹ سب سے موزوں ہے؟",
+                "tr": "Bir ameliyatın tüm adımlarının doğru şekilde gerçekleştirildiğinden emin olmak için hangi tür kontrol listesi en uygunudur?"
+            },
+            "options": [
+                "Eine Ja/Nein-Checkliste",
+                "Eine Checkliste mit offenen Fragen",
+                "Eine Checkliste mit farbcodierten Prioritäten",
+                "Eine Checkliste mit detaillierten Anweisungen für jeden Schritt"
+            ],
+            "correctAnswer": "Eine Checkliste mit detaillierten Anweisungen für jeden Schritt",
+            "explanation": {
+                "en": "A checklist with detailed instructions ensures that each step is followed precisely.",
+                "bn": "বিস্তারিত নির্দেশাবলী সহ একটি চেকলিস্ট নিশ্চিত করে যে প্রতিটি পদক্ষেপ সঠিকভাবে অনুসরণ করা হয়েছে।",
+                "hi": "विस्तृत निर्देशों वाली एक चेकलिस्ट यह सुनिश्चित करती है कि प्रत्येक चरण का सटीक रूप से पालन किया गया है।",
+                "ur": "تفصیلی ہدایات کے ساتھ ایک چیک لسٹ اس بات کو یقینی بناتی ہے کہ ہر قدم پر درست طریقے سے عمل کیا گیا ہے۔",
+                "tr": "Ayrıntılı talimatlar içeren bir kontrol listesi, her adımın hassas bir şekilde izlenmesini sağlar."
+            },
+            "points": 10,
+            "id": "e40_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches der folgenden ist ein Beispiel für eine hygienische Maßnahme im medizinischen Bereich?",
+                "en": "Which of the following is an example of a hygienic measure in the medical field?",
+                "bn": "চিকিৎসা ক্ষেত্রে নিম্নলিখিত কোনটি স্বাস্থ্যবিধি ব্যবস্থার উদাহরণ?",
+                "hi": "चिकित्सा क्षेत्र में निम्नलिखित में से कौन सा एक स्वच्छता उपाय का उदाहरण है?",
+                "ur": "طبی شعبے میں درج ذیل میں سے کون سی حفظان صحت کے اقدام کی مثال ہے؟",
+                "tr": "Aşağıdakilerden hangisi tıp alanında hijyenik bir önleme örneğidir?"
+            },
+            "options": [
+                "Regelmäßige Pausen für das Personal",
+                "Händedesinfektion vor und nach dem Patientenkontakt",
+                "Das Tragen von privater Kleidung bei der Arbeit",
+                "Die Verwendung von abgelaufenem Verbandsmaterial"
+            ],
+            "correctAnswer": "Händedesinfektion vor und nach dem Patientenkontakt",
+            "explanation": {
+                "en": "Hand disinfection prevents the spread of pathogens.",
+                "bn": "রোগজীবাণু ছড়ানো থেকে হাত জীবাণুমুক্তকরণ প্রতিরোধ করে।",
+                "hi": "हाथों को कीटाणुरहित करने से रोगजनकों का प्रसार रुकता है।",
+                "ur": "ہاتھوں کو جراثیم کش کرنے سے پیتھوجینز کا پھیلاؤ رک جاتا ہے۔",
+                "tr": "El dezenfeksiyonu patojenlerin yayılmasını önler."
+            },
+            "points": 10,
+            "id": "e40_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein wichtiger Bestandteil des Qualitätsmanagements ist die _________ von Prozessen.",
+                "en": "An important component of quality management is the _________ of processes.",
+                "bn": "গুণমান ব্যবস্থাপনার একটি গুরুত্বপূর্ণ উপাদান হল প্রক্রিয়ার _________।",
+                "hi": "गुणवत्ता प्रबंधन का एक महत्वपूर्ण घटक प्रक्रियाओं का _________ है।",
+                "ur": "کوالٹی مینجمنٹ کا ایک اہم جزو عمل کا _________ ہے۔",
+                "tr": "Kalite yönetiminin önemli bir bileşeni, süreçlerin _________ işlemidir."
+            },
+            "correctAnswer": "Überwachung",
+            "explanation": {
+                "en": "Monitoring processes is crucial for identifying areas for improvement.",
+                "bn": "উন্নতির ক্ষেত্র চিহ্নিত করার জন্য প্রক্রিয়া নিরীক্ষণ করা অত্যন্ত গুরুত্বপূর্ণ।",
+                "hi": "सुधार के क्षेत्रों की पहचान करने के लिए प्रक्रियाओं की निगरानी करना महत्वपूर्ण है।",
+                "ur": "بہتری کے شعبوں کی نشاندہی کرنے کے لیے عمل کی نگرانی کرنا بہت ضروری ہے۔",
+                "tr": "İyileştirme alanlarını belirlemek için süreçlerin izlenmesi çok önemlidir."
+            },
+            "points": 10,
+            "id": "e40_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "_________ sind detaillierte Anweisungen, die beschreiben, wie eine bestimmte Aufgabe ausgeführt werden soll.",
+                "en": "_________ are detailed instructions that describe how a specific task should be performed.",
+                "bn": "_________ হল বিস্তারিত নির্দেশাবলী যা বর্ণনা করে যে কীভাবে একটি নির্দিষ্ট কাজ করা উচিত।",
+                "hi": "_________ विस्तृत निर्देश हैं जो बताते हैं कि किसी विशिष्ट कार्य को कैसे किया जाना चाहिए।",
+                "ur": "_________ تفصیلی ہدایات ہیں جو بتاتی ہیں کہ کسی خاص کام کو کیسے انجام دینا چاہیے۔",
+                "tr": "_________ belirli bir görevin nasıl gerçekleştirilmesi gerektiğini açıklayan ayrıntılı talimatlardır."
+            },
+            "correctAnswer": "SOPs",
+            "explanation": {
+                "en": "SOPs provide detailed instructions for performing tasks.",
+                "bn": "এসওপিগুলি কার্য সম্পাদনের জন্য বিস্তারিত নির্দেশাবলী প্রদান করে।",
+                "hi": "एसओपी कार्य करने के लिए विस्तृत निर्देश प्रदान करते हैं।",
+                "ur": "ایس او پی کاموں کو انجام دینے کے لیے تفصیلی ہدایات فراہم کرتے ہیں۔",
+                "tr": "SOP'ler, görevleri yerine getirmek için ayrıntılı talimatlar sağlar."
+            },
+            "points": 10,
+            "id": "e40_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die Einhaltung von _________ trägt dazu bei, die Sicherheit von Patienten und Personal im Krankenhaus zu gewährleisten.",
+                "en": "Compliance with _________ helps to ensure the safety of patients and staff in the hospital.",
+                "bn": "_________ সম্মতি হাসপাতালে রোগী এবং কর্মীদের নিরাপত্তা নিশ্চিত করতে সাহায্য করে।",
+                "hi": "_________ का अनुपालन अस्पताल में रोगियों और कर्मचारियों की सुरक्षा सुनिश्चित करने में मदद करता है।",
+                "ur": "_________ کی تعمیل ہسپتال میں مریضوں اور عملے کی حفاظت کو یقینی بنانے میں مدد کرتی ہے۔",
+                "tr": "_________ ile uyumluluk, hastanedeki hastaların ve personelin güvenliğini sağlamaya yardımcı olur."
+            },
+            "correctAnswer": "Hygienestandards",
+            "explanation": {
+                "en": "Compliance with hygiene standards is essential for safety.",
+                "bn": "স্বাস্থ্যবিধি মানগুলির সাথে সম্মতি নিরাপত্তার জন্য অপরিহার্য।",
+                "hi": "स्वच्छता मानकों का अनुपालन सुरक्षा के लिए आवश्यक है।",
+                "ur": "حفظان صحت کے معیارات کی تعمیل حفاظت کے لیے ضروری ہے۔",
+                "tr": "Hijyen standartlarına uyum, güvenlik için esastır."
+            },
+            "points": 10,
+            "id": "e40_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein _________ ist ein Werkzeug, das verwendet wird, um sicherzustellen, dass alle notwendigen Schritte in einem Prozess abgeschlossen sind.",
+                "en": "A _________ is a tool used to ensure that all necessary steps in a process are completed.",
+                "bn": "একটি _________ হল এমন একটি সরঞ্জাম যা একটি প্রক্রিয়ার সমস্ত প্রয়োজনীয় পদক্ষেপ সম্পন্ন হয়েছে কিনা তা নিশ্চিত করতে ব্যবহৃত হয়।",
+                "hi": "एक _________ एक उपकरण है जिसका उपयोग यह सुनिश्चित करने के लिए किया जाता है कि किसी प्रक्रिया में सभी आवश्यक चरण पूरे हो गए हैं।",
+                "ur": "ایک _________ ایک ایسا آلہ ہے جو اس بات کو یقینی بنانے کے لیے استعمال ہوتا ہے کہ کسی عمل میں تمام ضروری مراحل مکمل ہو گئے ہیں۔",
+                "tr": "Bir _________, bir süreçteki tüm gerekli adımların tamamlandığından emin olmak için kullanılan bir araçtır."
+            },
+            "correctAnswer": "Checkliste",
+            "explanation": {
+                "en": "A checklist ensures that all steps are completed.",
+                "bn": "একটি চেকলিস্ট নিশ্চিত করে যে সমস্ত পদক্ষেপ সম্পন্ন হয়েছে।",
+                "hi": "एक चेकलिस्ट सुनिश्चित करती है कि सभी चरण पूरे हो गए हैं।",
+                "ur": "ایک چیک لسٹ اس بات کو یقینی بناتی ہے کہ تمام مراحل مکمل ہو گئے ہیں۔",
+                "tr": "Bir kontrol listesi tüm adımların tamamlanmasını sağlar."
+            },
+            "points": 10,
+            "id": "e40_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "_________ ist ein systematischer Ansatz zur Verbesserung der Qualität von Prozessen und Dienstleistungen.",
+                "en": "_________ is a systematic approach to improving the quality of processes and services.",
+                "bn": "_________ হল প্রক্রিয়া এবং পরিষেবার গুণমান উন্নত করার একটি পদ্ধতিগত পদ্ধতি।",
+                "hi": "_________ प्रक्रियाओं और सेवाओं की गुणवत्ता में सुधार करने का एक व्यवस्थित दृष्टिकोण है।",
+                "ur": "_________ عمل اور خدمات کے معیار کو بہتر بنانے کا ایک منظم طریقہ ہے۔",
+                "tr": "_________ süreçlerin ve hizmetlerin kalitesini iyileştirmeye yönelik sistematik bir yaklaşımdır."
+            },
+            "correctAnswer": "Qualitätsmanagement",
+            "explanation": {
+                "en": "Quality management focuses on continuous improvement.",
+                "bn": "গুণমান ব্যবস্থাপনা ক্রমাগত উন্নতির উপর দৃষ্টি নিবদ্ধ করে।",
+                "hi": "गुणवत्ता प्रबंधन निरंतर सुधार पर ध्यान केंद्रित करता है।",
+                "ur": "کوالٹی مینجمنٹ مسلسل بہتری پر توجہ مرکوز کرتا ہے۔",
+                "tr": "Kalite yönetimi sürekli iyileştirmeye odaklanır."
+            },
+            "points": 10,
+            "id": "e40_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Übersetze: 'The patient's safety is our top priority.'",
+                "en": "Translate: 'The patient's safety is our top priority.'",
+                "bn": "অনুবাদ করুন: 'রোগীর নিরাপত্তা আমাদের প্রধান অগ্রাধিকার।'",
+                "hi": "अनुवाद करें: 'मरीज की सुरक्षा हमारी सर्वोच्च प्राथमिकता है।'",
+                "ur": "ترجمہ کریں: 'مریض کی حفاظت ہماری اولین ترجیح ہے۔'",
+                "tr": "Çevir: 'Hasta güvenliği en büyük önceliğimizdir.'"
+            },
+            "correctAnswer": "Die Sicherheit des Patienten hat höchste Priorität.",
+            "explanation": {
+                "en": "This is the most common and accurate translation.",
+                "bn": "এটি সবচেয়ে সাধারণ এবং সঠিক অনুবাদ।",
+                "hi": "यह सबसे आम और सटीक अनुवाद है।",
+                "ur": "یہ سب سے عام اور درست ترجمہ ہے۔",
+                "tr": "Bu en yaygın ve doğru çeviridir."
+            },
+            "points": 10,
+            "id": "e40_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Übersetze: 'Please follow the hospital's hygiene protocol.'",
+                "en": "Translate: 'Please follow the hospital's hygiene protocol.'",
+                "bn": "অনুবাদ করুন: 'অনুগ্রহ করে হাসপাতালের স্বাস্থ্যবিধি প্রোটোকল অনুসরণ করুন।'",
+                "hi": "अनुवाद करें: 'कृपया अस्पताल के स्वच्छता प्रोटोकॉल का पालन करें।'",
+                "ur": "ترجمہ کریں: 'براہ کرم ہسپتال کے حفظان صحت کے پروٹوکول پر عمل کریں۔'",
+                "tr": "Çevir: 'Lütfen hastanenin hijyen protokolüne uyun.'"
+            },
+            "correctAnswer": "Bitte befolgen Sie das Hygieneprotokoll des Krankenhauses.",
+            "explanation": {
+                "en": "This is a direct and accurate translation.",
+                "bn": "এটি একটি সরাসরি এবং সঠিক অনুবাদ।",
+                "hi": "यह एक सीधा और सटीक अनुवाद है।",
+                "ur": "یہ ایک براہ راست اور درست ترجمہ ہے۔",
+                "tr": "Bu doğrudan ve doğru bir çeviridir."
+            },
+            "points": 10,
+            "id": "e40_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Übersetze: 'This procedure must be documented in the SOP.'",
+                "en": "Translate: 'This procedure must be documented in the SOP.'",
+                "bn": "অনুবাদ করুন: 'এই পদ্ধতিটি এসওপি-তে নথিভুক্ত করতে হবে।'",
+                "hi": "अनुवाद करें: 'यह प्रक्रिया एसओपी में प्रलेखित होनी चाहिए।'",
+                "ur": "ترجمہ کریں: 'اس طریقہ کار کو ایس او پی میں دستاویزی شکل دینی چاہیے۔'",
+                "tr": "Çevir: 'Bu prosedür SOP'de belgelenmelidir.'"
+            },
+            "correctAnswer": "Dieses Verfahren muss in der SOP dokumentiert werden.",
+            "explanation": {
+                "en": "This translation accurately conveys the meaning.",
+                "bn": "এই অনুবাদটি সঠিকভাবে অর্থ বহন করে।",
+                "hi": "यह अनुवाद सटीक रूप से अर्थ व्यक्त करता है।",
+                "ur": "یہ ترجمہ درست طریقے سے معنی پہنچاتا ہے۔",
+                "tr": "Bu çeviri anlamı doğru bir şekilde aktarıyor."
+            },
+            "points": 10,
+            "id": "e40_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

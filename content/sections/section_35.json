@@ -1,1 +1,1562 @@
-{"id":"section_35","phaseId":"phase3","order":35,"titleDe":"Differentialdiagnose","title":{"en":"Differential Diagnosis","bn":"Differential Diagnosis","hi":"Differential Diagnosis","ur":"Differential Diagnosis","tr":"Differential Diagnosis"},"level":"C1","estimatedMinutes":40,"vocabulary":[{"id":"v35_01","germanTerm":"Fachbegriff","article":"der","plural":"Fachbegriffe","translation":{"en":"Technical Term","bn":"টেকনিক্যাল টার্ম","hi":"तकनीकी शब्द","ur":"تکنیکی اصطلاح","tr":"Teknik terim"}}],"dialogues":[{"id":"d35_01","title":{"en":"Professional Scenario"},"lines":[{"speaker":"Oberarzt","germanText":"Professional dialogue for Differential Diagnosis.","translation":{"en":"Professional dialogue for Differential Diagnosis."}}]}],"exercises":[{"id":"e35_01","type":"multipleChoice","question":{"en":"Advanced question for Differential Diagnosis?"},"options":["Option A","Option B","Option C"],"correctAnswer":"Option A","points":15}]}
+{
+    "id": "section_35",
+    "phaseId": "phase3",
+    "order": 35,
+    "titleDe": "Differentialdiagnose",
+    "title": {
+        "en": "Differential Diagnosis: Exclusion, Suspicion, Probability, Improbability",
+        "bn": "ডিফারেনশিয়াল ডায়াগনোসিস: বাদ দেওয়া, সন্দেহ, সম্ভাবনা, অসম্ভাবনা",
+        "hi": "विभेदक निदान: बहिष्कार, संदेह, संभावना, असंभावना",
+        "ur": "تفریقی تشخیص: اخراج، شک، امکان، عدم امکان",
+        "tr": "Ayırıcı Tanı: Dışlama, Şüphe, Olasılık, İmkansızlık"
+    },
+    "description": {
+        "en": "This section explores the nuances of differential diagnosis in German medical contexts, focusing on terms indicating exclusion, suspicion, and varying degrees of probability.",
+        "bn": "এই বিভাগে জার্মান মেডিকেল প্রেক্ষাপটে ডিফারেনশিয়াল ডায়াগনোসিসের সূক্ষ্মতাগুলি অন্বেষণ করা হয়েছে, যা বর্জন, সন্দেহ এবং বিভিন্ন মাত্রার সম্ভাবনার ইঙ্গিত দেয় এমন শব্দগুলির উপর দৃষ্টি নিবদ্ধ করে।",
+        "hi": "यह खंड जर्मन चिकित्सा संदर्भों में विभेदक निदान की बारीकियों का पता लगाता है, जो बहिष्कार, संदेह और संभावना की अलग-अलग डिग्री का संकेत देने वाले शब्दों पर ध्यान केंद्रित करता है।",
+        "ur": "یہ سیکشن جرمن طبی تناظر میں تفریقی تشخیص کی باریکیوں کو تلاش کرتا ہے، اخراج، شک اور امکان کی مختلف ڈگریوں کی نشاندہی کرنے والی اصطلاحات پر توجہ مرکوز کرتا ہے۔",
+        "tr": "Bu bölüm, Alman tıbbi bağlamlarında ayırıcı tanının nüanslarını keşfeder ve dışlama, şüphe ve değişen olasılık derecelerini gösteren terimlere odaklanır."
+    },
+    "level": "C1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, we will delve into the terminology used to express diagnostic possibilities beyond the primary suspected diagnosis. You will learn how to differentiate between terms like 'Ausschlussdiagnose,' 'Verdachtsdiagnose,' 'wahrscheinlich,' and 'unwahrscheinlich' in a clinical setting.",
+            "bn": "এই বিভাগে, আমরা প্রাথমিক সন্দেহভাজন নির্ণয়ের বাইরে ডায়াগনস্টিক সম্ভাবনা প্রকাশ করতে ব্যবহৃত পরিভাষা নিয়ে আলোচনা করব। আপনি ক্লিনিকাল সেটিংয়ে 'Ausschlussdiagnose,' 'Verdachtsdiagnose,' 'wahrscheinlich,' এবং 'unwahrscheinlich'-এর মধ্যে পার্থক্য করতে শিখবেন।",
+            "hi": "इस खंड में, हम प्राथमिक संदिग्ध निदान से परे नैदानिक संभावनाओं को व्यक्त करने के लिए उपयोग की जाने वाली शब्दावली का पता लगाएंगे। आप एक नैदानिक सेटिंग में 'Ausschlussdiagnose,' 'Verdachtsdiagnose,' 'wahrscheinlich,' और 'unwahrscheinlich' के बीच अंतर करना सीखेंगे।",
+            "ur": "اس سیکشن میں، ہم تشخیصی امکانات کو ظاہر کرنے کے لیے استعمال ہونے والی اصطلاحات پر غور کریں گے، جو کہ بنیادی مشتبہ تشخیص سے بالاتر ہیں۔ آپ کلینیکل سیٹنگ میں 'Ausschlussdiagnose'، 'Verdachtsdiagnose'، 'wahrscheinlich' اور 'unwahrscheinlich' کے درمیان فرق کرنا سیکھیں گے۔",
+            "tr": "Bu bölümde, birincil şüpheli tanının ötesinde tanısal olasılıkları ifade etmek için kullanılan terminolojiye dalacağız. Klinik ortamda 'Ausschlussdiagnose,' 'Verdachtsdiagnose,' 'wahrscheinlich' ve 'unwahrscheinlich' gibi terimler arasındaki farkı öğrenmeyi öğreneceksiniz."
+        },
+        "grammarFocus": {
+            "en": [
+                "Pay attention to the use of prepositions like 'auf,' 'für,' and 'gegen' when describing diagnostic suspicions or exclusions.",
+                "Note the grammatical gender (der, die, das) of diagnostic terms, as it influences adjective endings and article usage."
+            ],
+            "bn": [
+                "ডায়াগনস্টিক সন্দেহ বা বর্জন বর্ণনা করার সময় 'auf,' 'für,' এবং 'gegen'-এর মতো preposition-এর ব্যবহারের দিকে মনোযোগ দিন।",
+                "ডায়াগনস্টিক শব্দের ব্যাকরণগত লিঙ্গের (der, die, das) দিকে মনোযোগ দিন, কারণ এটি বিশেষণ সমাপ্তি এবং নিবন্ধ ব্যবহারকে প্রভাবিত করে।"
+            ],
+            "hi": [
+                "नैदानिक संदेह या बहिष्कार का वर्णन करते समय 'auf,' 'für,' और 'gegen' जैसे पूर्वसर्गों के उपयोग पर ध्यान दें।",
+                "नैदानिक शब्दों के व्याकरणिक लिंग (der, die, das) पर ध्यान दें, क्योंकि यह विशेषण अंत और लेख उपयोग को प्रभावित करता है।"
+            ],
+            "ur": [
+                "تشخیصی شکوک و شبہات یا اخراج کو بیان کرتے وقت 'auf,' 'für,' اور 'gegen' جیسے حروف کے استعمال پر توجہ دیں۔",
+                "تشخیصی اصطلاحات کے گراماتی صنف (der, die, das) پر توجہ دیں، کیونکہ یہ صفت کے آخر اور مضمون کے استعمال کو متاثر کرتا ہے۔"
+            ],
+            "tr": [
+                "Tanısal şüpheleri veya dışlamaları açıklarken 'auf,' 'für,' ve 'gegen' gibi edatların kullanımına dikkat edin.",
+                "Tanısal terimlerin gramer cinsiyetine (der, die, das) dikkat edin, çünkü bu sıfat sonlarını ve makale kullanımını etkiler."
+            ]
+        },
+        "culturalNotes": {
+            "en": "German medical documentation often emphasizes a rigorous, step-by-step approach to differential diagnosis, carefully documenting all considered possibilities and their justifications.",
+            "bn": "জার্মান মেডিকেল ডকুমেন্টেশন প্রায়শই ডিফারেনশিয়াল ডায়াগনসিসের জন্য একটি কঠোর, ধাপে ধাপে পদ্ধতির উপর জোর দেয়, সমস্ত বিবেচিত সম্ভাবনা এবং তাদের যৌক্তিকতা সাবধানে নথিভুক্ত করে।",
+            "hi": "जर्मन चिकित्सा प्रलेखन अक्सर विभेदक निदान के लिए एक कठोर, चरण-दर-चरण दृष्टिकोण पर जोर देता है, सभी मानी गई संभावनाओं और उनके औचित्य का सावधानीपूर्वक दस्तावेजीकरण करता है।",
+            "ur": "جرمن طبی دستاویزات اکثر تفریقی تشخیص کے لیے ایک سخت، قدم بہ قدم نقطہ نظر پر زور دیتے ہیں، تمام زیر غور امکانات اور ان کے جواز کو احتیاط سے دستاویز کرتے ہیں۔",
+            "tr": "Alman tıbbi dokümantasyonu genellikle ayırıcı tanıya yönelik titiz, adım adım bir yaklaşımı vurgular ve dikkate alınan tüm olasılıkları ve bunların gerekçelerini dikkatlice belgelendirir."
+        },
+        "summary": {
+            "en": "Understanding these terms is crucial for accurately interpreting German medical reports and participating in clinical discussions concerning differential diagnoses.",
+            "bn": "জার্মান মেডিকেল রিপোর্টগুলি সঠিকভাবে ব্যাখ্যা করার জন্য এবং ডিফারেনশিয়াল ডায়াগনোসিস সম্পর্কিত ক্লিনিকাল আলোচনায় অংশগ্রহণের জন্য এই শব্দগুলি বোঝা অত্যন্ত গুরুত্বপূর্ণ।",
+            "hi": "जर्मन चिकित्सा रिपोर्टों की सटीक व्याख्या करने और विभेदक निदान से संबंधित नैदानिक चर्चाओं में भाग लेने के लिए इन शब्दों को समझना महत्वपूर्ण है।",
+            "ur": "جرمن طبی رپورٹس کی درست تشریح کرنے اور تفریقی تشخیص سے متعلق طبی تبادلوں میں حصہ لینے کے لیے ان اصطلاحات کو سمجھنا بہت ضروری ہے۔",
+            "tr": "Bu terimleri anlamak, Alman tıbbi raporlarını doğru bir şekilde yorumlamak ve ayırıcı tanı ile ilgili klinik tartışmalara katılmak için çok önemlidir."
+        },
+        "learningObjectives": [
+            "Identify and define key terms related to differential diagnosis in German.",
+            "Distinguish between different degrees of diagnostic probability (e.g., likely, unlikely).",
+            "Apply these terms correctly in simulated medical scenarios.",
+            "Understand the cultural context of differential diagnosis in German medical practice."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "Differentialdiagnose",
+            "article": "die",
+            "plural": "Differentialdiagnosen",
+            "pronunciation": "/ˌdɪfəʁɛnt͡si̯aːldi̯aɡˈnoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "differential diagnosis",
+                "bn": "পৃথক নির্ণয় (prithok nirnoy)",
+                "hi": "विभेदक निदान (vibhedak nidaan)",
+                "ur": "امتیازی تشخیص (imtiazi tashkhees)",
+                "tr": "ayırıcı tanı"
+            },
+            "exampleSentence": "Die Differentialdiagnose umfasst Pneumonie, Bronchitis und Lungenembolie.",
+            "exampleTranslation": {
+                "en": "The differential diagnosis includes pneumonia, bronchitis, and pulmonary embolism.",
+                "bn": "পৃথক নির্ণয়ের মধ্যে রয়েছে নিউমোনিয়া, ব্রঙ্কাইটিস এবং পালমোনারি এম্বোলিজম। (prithok nirnoyer moddhe royeche niumonia, bronkitees ebong palmonaari embolijm)",
+                "hi": "विभेदक निदान में निमोनिया, ब्रोंकाइटिस और फुफ्फुसीय एम्बोलिज्म शामिल हैं। (vibhedak nidaan mein nimoniya, bronkaaitis aur phupphuseey embolizm shaamil hain)",
+                "ur": "امتیازی تشخیص میں نمونیا، برونکائٹس اور پلمونری ایمبولزم شامل ہیں۔ (imtiazi tashkhees mein nimonia, bronkaitis aur pulmony embolizm shaamil hain)",
+                "tr": "Ayırıcı tanı pnömoni, bronşit ve pulmoner emboliyi içerir."
+            },
+            "id": "v35_01"
+        },
+        {
+            "germanTerm": "Ausschluss",
+            "article": "der",
+            "plural": "Ausschlüsse",
+            "pronunciation": "/ˈaʊ̯sʃlʊs/",
+            "category": "noun",
+            "translation": {
+                "en": "exclusion",
+                "bn": "বাদ দেওয়া (bad deoa)",
+                "hi": "अपवर्जन (apvarjan)",
+                "ur": "اخراج (ikhraj)",
+                "tr": "dışlama"
+            },
+            "exampleSentence": "Der Ausschluss anderer Ursachen ist wichtig für die Diagnose.",
+            "exampleTranslation": {
+                "en": "The exclusion of other causes is important for the diagnosis.",
+                "bn": "রোগ নির্ণয়ের জন্য অন্যান্য কারণ বাদ দেওয়া গুরুত্বপূর্ণ। (rog nirnoyer jonno onanyo karon bad deoa gurutto purno)",
+                "hi": "निदान के लिए अन्य कारणों का अपवर्जन महत्वपूर्ण है। (nidaan ke lie any kaaranon ka apvarjan mahatvapurn hai)",
+                "ur": "تشخیص کے لیے دیگر وجوہات کا اخراج ضروری ہے۔ (tashkhees ke lie deegar wajuhaat ka ikhraj zaroori hai)",
+                "tr": "Teşhis için diğer nedenlerin dışlanması önemlidir."
+            },
+            "id": "v35_02"
+        },
+        {
+            "germanTerm": "Verdacht",
+            "article": "der",
+            "plural": "Verdachte",
+            "pronunciation": "/fɛɐ̯ˈdaxt/",
+            "category": "noun",
+            "translation": {
+                "en": "suspicion",
+                "bn": "সন্দেহ (sondho)",
+                "hi": "संदेह (sandeh)",
+                "ur": "شک (shak)",
+                "tr": "şüphe"
+            },
+            "exampleSentence": "Wir haben den Verdacht auf eine Appendizitis.",
+            "exampleTranslation": {
+                "en": "We suspect appendicitis.",
+                "bn": "আমাদের অ্যাপেন্ডিসাইটিস সন্দেহ হচ্ছে। (amader appendisaaitis sondho hochche)",
+                "hi": "हमें अपेंडिसाइटिस का संदेह है। (hamen appendisaitis ka sandeh hai)",
+                "ur": "ہمیں اپینڈیسائٹس کا شک ہے۔ (hamen appendisaitis ka shak hai)",
+                "tr": "Apandisitten şüpheleniyoruz."
+            },
+            "id": "v35_03"
+        },
+        {
+            "germanTerm": "wahrscheinlich",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/vaˈʃaɪ̯nˌliːç/",
+            "category": "adjective",
+            "translation": {
+                "en": "probable",
+                "bn": "সম্ভাব্য (shombhabyo)",
+                "hi": "संभावित (sambhaavit)",
+                "ur": "ممکنہ (mumkina)",
+                "tr": "muhtemel"
+            },
+            "exampleSentence": "Die wahrscheinlichste Diagnose ist eine Virusinfektion.",
+            "exampleTranslation": {
+                "en": "The most probable diagnosis is a viral infection.",
+                "bn": "সবচেয়ে সম্ভাব্য রোগ নির্ণয় হল একটি ভাইরাল সংক্রমণ। (sobcheye shombhabyo rog nirnoy holo ekti viraal shongkromon)",
+                "hi": "सबसे संभावित निदान एक वायरल संक्रमण है। (sabse sambhaavit nidaan ek vaayaral sankraman hai)",
+                "ur": "سب سے زیادہ ممکنہ تشخیص ایک وائرل انفیکشن ہے۔ (sab se zyada mumkina tashkhees ek viral infection hai)",
+                "tr": "En muhtemel teşhis bir viral enfeksiyondur."
+            },
+            "id": "v35_04"
+        },
+        {
+            "germanTerm": "unwahrscheinlich",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈʊnvaʁˌʃaɪ̯nˌliːç/",
+            "category": "adjective",
+            "translation": {
+                "en": "improbable",
+                "bn": "অসম্ভাব্য (oshombhabyo)",
+                "hi": "असंभावित (asambhaavit)",
+                "ur": "غیر ممکنہ (ghair mumkina)",
+                "tr": "olası olmayan"
+            },
+            "exampleSentence": "Eine bakterielle Infektion ist unwahrscheinlich.",
+            "exampleTranslation": {
+                "en": "A bacterial infection is improbable.",
+                "bn": "ব্যাকটেরিয়াল সংক্রমণ অসম্ভাব্য। (bacteriaal shongkromon oshombhabyo)",
+                "hi": "एक जीवाणु संक्रमण असंभावित है। (ek jeevaanu sankraman asambhaavit hai)",
+                "ur": "ایک بیکٹیریل انفیکشن غیر ممکنہ ہے۔ (ek bacterial infection ghair mumkina hai)",
+                "tr": "Bakteriyel bir enfeksiyon olası değildir."
+            },
+            "id": "v35_05"
+        },
+        {
+            "germanTerm": "Erkrankung",
+            "article": "die",
+            "plural": "Erkrankungen",
+            "pronunciation": "/ɛɐ̯ˈkʁaŋkʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "disease",
+                "bn": "রোগ (rog)",
+                "hi": "रोग (rog)",
+                "ur": "بیماری (bimari)",
+                "tr": "hastalık"
+            },
+            "exampleSentence": "Welche Erkrankungen kommen in Frage?",
+            "exampleTranslation": {
+                "en": "Which diseases are possible?",
+                "bn": "কোন রোগগুলি সম্ভব? (kon roguli shombhob?)",
+                "hi": "कौन सी बीमारियाँ संभव हैं? (kaun see beemaariyaan sambhav hain?)",
+                "ur": "کون سی بیماریاں ممکن ہیں؟ (kaun si bimariyan mumkin hain?)",
+                "tr": "Hangi hastalıklar olasıdır?"
+            },
+            "id": "v35_06"
+        },
+        {
+            "germanTerm": "Symptom",
+            "article": "das",
+            "plural": "Symptome",
+            "pronunciation": "/zʏmˈptoːm/",
+            "category": "noun",
+            "translation": {
+                "en": "symptom",
+                "bn": "উপসর্গ (uposhargo)",
+                "hi": "लक्षण (lakshan)",
+                "ur": "علامت (alamat)",
+                "tr": "semptom"
+            },
+            "exampleSentence": "Welches Symptom ist am auffälligsten?",
+            "exampleTranslation": {
+                "en": "Which symptom is the most noticeable?",
+                "bn": "কোন উপসর্গ সবচেয়ে লক্ষণীয়? (kon uposhargo sobcheye lokkhonio?)",
+                "hi": "कौन सा लक्षण सबसे अधिक ध्यान देने योग्य है? (kaun sa lakshan sabse adhik dhyaan dene yogy hai?)",
+                "ur": "کون سی علامت سب سے زیادہ قابل توجہ ہے؟ (kaun si alamat sabse zyada qabil tawajjah hai?)",
+                "tr": "Hangi semptom en dikkat çekicidir?"
+            },
+            "id": "v35_07"
+        },
+        {
+            "germanTerm": "Anamnese",
+            "article": "die",
+            "plural": "Anamnesen",
+            "pronunciation": "/anaˈmneːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "anamnesis",
+                "bn": "অ্যানামনেসিস (annaamesis)",
+                "hi": "रोग इतिहास (rog itihaas)",
+                "ur": "تاریخ المرض (tareekh ul marz)",
+                "tr": "anamnez"
+            },
+            "exampleSentence": "Die Anamnese ist wichtig für die Diagnose.",
+            "exampleTranslation": {
+                "en": "The anamnesis is important for the diagnosis.",
+                "bn": "রোগ নির্ণয়ের জন্য অ্যানামনেসিস গুরুত্বপূর্ণ। (rog nirnoyer jonno annaamesis gurutto purno)",
+                "hi": "निदान के लिए रोग इतिहास महत्वपूर्ण है। (nidaan ke lie rog itihaas mahatvapurn hai)",
+                "ur": "تشخیص کے لیے تاریخ المرض اہم ہے۔ (tashkhees ke lie tareekh ul marz aham hai)",
+                "tr": "Anamnez teşhis için önemlidir."
+            },
+            "id": "v35_08"
+        },
+        {
+            "germanTerm": "körperliche Untersuchung",
+            "article": "die",
+            "plural": "körperlichen Untersuchungen",
+            "pronunciation": "/ˈkœʁpɐlɪçə ʊntɐˈzuːxʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "physical examination",
+                "bn": "শারীরিক পরীক্ষা (sharirik porikkha)",
+                "hi": "शारीरिक परीक्षा (shaareerik pareeksha)",
+                "ur": "جسمانی معائنہ (jismani muaina)",
+                "tr": "fiziksel muayene"
+            },
+            "exampleSentence": "Die körperliche Untersuchung zeigte keine Auffälligkeiten.",
+            "exampleTranslation": {
+                "en": "The physical examination showed no abnormalities.",
+                "bn": "শারীরিক পরীক্ষায় কোনও অস্বাভাবিকতা দেখা যায়নি। (sharirik porikkhay kono oshababikota dekha jaayni)",
+                "hi": "शारीरिक परीक्षा में कोई असामान्यता नहीं दिखाई दी। (shaareerik pareeksha mein koee asaamaanyata nahin dikhaee dee)",
+                "ur": "جسمانی معائنے میں کوئی غیر معمولی چیز نہیں دکھائی دی۔ (jismani muaine mein koi ghair maamuli cheez nahin dikhai di)",
+                "tr": "Fiziksel muayene herhangi bir anormallik göstermedi."
+            },
+            "id": "v35_09"
+        },
+        {
+            "germanTerm": "Laboruntersuchung",
+            "article": "die",
+            "plural": "Laboruntersuchungen",
+            "pronunciation": "/laˈboːɐ̯ʔʊntɐˌzuːxʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "laboratory test",
+                "bn": "ল্যাবরেটরি পরীক্ষা (lyaboretori porikkha)",
+                "hi": "प्रयोगशाला परीक्षण (prayogshaala pareekshan)",
+                "ur": "لیبارٹری ٹیسٹ (laboratory test)",
+                "tr": "laboratuvar testi"
+            },
+            "exampleSentence": "Die Laboruntersuchung ergab erhöhte Entzündungswerte.",
+            "exampleTranslation": {
+                "en": "The laboratory test revealed elevated inflammatory markers.",
+                "bn": "ল্যাবরেটরি পরীক্ষায় প্রদাহের মাত্রা বেড়ে গেছে। (lyaboretori porikkhay prodahoer matra bere geche)",
+                "hi": "प्रयोगशाला परीक्षण में सूजन के बढ़े हुए मार्कर का पता चला। (prayogshaala pareekshan mein soojan ke badhe hue maarkar ka pata chala)",
+                "ur": "لیبارٹری ٹیسٹ میں سوزش کے بڑھے ہوئے مارکر کا پتہ چلا۔ (laboratory test mein soojish ke badhe hue marker ka pata chala)",
+                "tr": "Laboratuvar testi, yükselmiş inflamatuar belirteçleri ortaya çıkardı."
+            },
+            "id": "v35_10"
+        },
+        {
+            "germanTerm": "bildgebende Verfahren",
+            "article": "das",
+            "plural": "bildgebenden Verfahren",
+            "pronunciation": "/ˈbɪltˌɡeːbəndə fɛɐ̯ˈfaːʁən/",
+            "category": "noun",
+            "translation": {
+                "en": "imaging procedures",
+                "bn": "ইমেজিং পদ্ধতি (imejing poddhoti)",
+                "hi": "इमेजिंग प्रक्रियाएँ (imejing prakriyaen)",
+                "ur": "امیجنگ کے طریقہ کار (imaging ke tareeqay kar)",
+                "tr": "görüntüleme yöntemleri"
+            },
+            "exampleSentence": "Welches bildgebende Verfahren ist am geeignetsten?",
+            "exampleTranslation": {
+                "en": "Which imaging procedure is most suitable?",
+                "bn": "কোন ইমেজিং পদ্ধতি সবচেয়ে উপযুক্ত? (kon imejing poddhoti sobcheye upojukto?)",
+                "hi": "कौन सी इमेजिंग प्रक्रिया सबसे उपयुक्त है? (kaun see imejing prakriya sabse upjukt hai?)",
+                "ur": "امیجنگ کا کون سا طریقہ کار سب سے مناسب ہے؟ (imaging ka kaun sa tareeqay kar sab se munasib hai?)",
+                "tr": "Hangi görüntüleme yöntemi en uygunudur?"
+            },
+            "id": "v35_11"
+        },
+        {
+            "germanTerm": "Therapie",
+            "article": "die",
+            "plural": "Therapien",
+            "pronunciation": "/teˈʁaːpi/",
+            "category": "noun",
+            "translation": {
+                "en": "therapy",
+                "bn": "থেরাপি (therapi)",
+                "hi": "चिकित्सा (chikitsa)",
+                "ur": "علاج (ilaaj)",
+                "tr": "tedavi"
+            },
+            "exampleSentence": "Welche Therapie ist indiziert?",
+            "exampleTranslation": {
+                "en": "Which therapy is indicated?",
+                "bn": "কোন থেরাপি নির্দেশিত? (kon therapi nirdeshito?)",
+                "hi": "कौन सी चिकित्सा इंगित की गई है? (kaun see chikitsa ingit kee gaee hai?)",
+                "ur": "کون سا علاج تجویز کیا گیا ہے؟ (kaun sa ilaaj tajweez kiya gaya hai?)",
+                "tr": "Hangi tedavi endikedir?"
+            },
+            "id": "v35_12"
+        },
+        {
+            "germanTerm": "Prognose",
+            "article": "die",
+            "plural": "Prognosen",
+            "pronunciation": "/pʁoˈɡnoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "prognosis",
+                "bn": "পূর্বাভাস (purbabhas)",
+                "hi": "पूर्वानुमान (poorvaanumaan)",
+                "ur": "پیش گوئی (pesh goi)",
+                "tr": "prognoz"
+            },
+            "exampleSentence": "Die Prognose ist ungewiss.",
+            "exampleTranslation": {
+                "en": "The prognosis is uncertain.",
+                "bn": "পূর্বাভাস অনিশ্চিত। (purbabhas onishchito)",
+                "hi": "पूर्वानुमान अनिश्चित है। (poorvaanumaan anishchit hai)",
+                "ur": "پیش گوئی غیر یقینی ہے۔ (pesh goi ghair yaqeeni hai)",
+                "tr": "Prognoz belirsizdir."
+            },
+            "id": "v35_13"
+        },
+        {
+            "germanTerm": "Risikofaktor",
+            "article": "der",
+            "plural": "Risikofaktoren",
+            "pronunciation": "/ˈʁɪzikoˌfaktɔʁ/",
+            "category": "noun",
+            "translation": {
+                "en": "risk factor",
+                "bn": "ঝুঁকি ফ্যাক্টর (jhunki fyaktor)",
+                "hi": "जोखिम कारक (jokhim kaarak)",
+                "ur": "خطرہ عنصر (khatra unsar)",
+                "tr": "risk faktörü"
+            },
+            "exampleSentence": "Rauchen ist ein wichtiger Risikofaktor für Lungenkrebs.",
+            "exampleTranslation": {
+                "en": "Smoking is an important risk factor for lung cancer.",
+                "bn": "ধূমপান ফুসফুসের ক্যান্সারের জন্য একটি গুরুত্বপূর্ণ ঝুঁকি ফ্যাক্টর। (dhumpan phusphuser kyansarer jonno ekti gurutto purno jhunki fyaktor)",
+                "hi": "धूम्रपान फेफड़ों के कैंसर के लिए एक महत्वपूर्ण जोखिम कारक है। (dhoomrapaan phepadon ke kainsar ke lie ek mahatvapurn jokhim kaarak hai)",
+                "ur": "تمباکو نوشی پھیپھڑوں کے کینسر کے لیے ایک اہم خطرہ عنصر ہے۔ (tumbaku noshi phepdon ke cancer ke lie ek aham khatra unsar hai)",
+                "tr": "Sigara içmek, akciğer kanseri için önemli bir risk faktörüdür."
+            },
+            "id": "v35_14"
+        },
+        {
+            "germanTerm": "vorliegen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈfoːɐ̯ˌliːɡən/",
+            "category": "verb",
+            "translation": {
+                "en": "to be present",
+                "bn": "উপস্থিত থাকা (uposthit thaka)",
+                "hi": "उपस्थित होना (upasthit hona)",
+                "ur": "موجود ہونا (maujood hona)",
+                "tr": "mevcut olmak"
+            },
+            "exampleSentence": "Welche Vorerkrankungen liegen vor?",
+            "exampleTranslation": {
+                "en": "What pre-existing conditions are present?",
+                "bn": "কোন পূর্ববর্তী রোগ উপস্থিত আছে? (kon purboborti rog uposthit ache?)",
+                "hi": "कौन सी पूर्व-मौजूदा स्थितियाँ मौजूद हैं? (kaun see poorv-maujooda sthitiyaan maujood hain?)",
+                "ur": "کون سی پہلے سے موجود حالات موجود ہیں؟ (kaun si pehlay se maujood haalaat maujood hain?)",
+                "tr": "Hangi önceden var olan koşullar mevcuttur?"
+            },
+            "id": "v35_15"
+        },
+        {
+            "germanTerm": "abklären",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈapˌklɛːʁən/",
+            "category": "verb",
+            "translation": {
+                "en": "to clarify",
+                "bn": "স্পষ্ট করা (sposhto kora)",
+                "hi": "स्पष्ट करना (spasht karna)",
+                "ur": "واضح کرنا (wazeh karna)",
+                "tr": "açıklığa kavuşturmak"
+            },
+            "exampleSentence": "Wir müssen die Ursache der Beschwerden abklären.",
+            "exampleTranslation": {
+                "en": "We need to clarify the cause of the symptoms.",
+                "bn": "আমাদের অভিযোগের কারণ স্পষ্ট করতে হবে। (amader ovijoger karon sposhto korte hobe)",
+                "hi": "हमें लक्षणों का कारण स्पष्ट करना होगा। (hamen lakshanon ka kaaran spasht karna hoga)",
+                "ur": "ہمیں علامات کی وجہ واضح کرنے کی ضرورت ہے۔ (hamen alamaat ki wajah wazeh karne ki zaroorat hai)",
+                "tr": "Şikayetlerin nedenini açıklığa kavuşturmamız gerekiyor."
+            },
+            "id": "v35_16"
+        },
+        {
+            "germanTerm": "ausschließen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈaʊ̯sˌʃliːsn̩/",
+            "category": "verb",
+            "translation": {
+                "en": "to rule out",
+                "bn": "বাদ দেওয়া (bad deoa)",
+                "hi": "खारिज करना (khaarij karna)",
+                "ur": "خارج کرنا (kharij karna)",
+                "tr": "elelemek"
+            },
+            "exampleSentence": "Wir müssen eine Lungenembolie ausschließen.",
+            "exampleTranslation": {
+                "en": "We need to rule out a pulmonary embolism.",
+                "bn": "আমাদের একটি পালমোনারি এম্বোলিজম বাদ দিতে হবে। (amader ekti palmonaari embolijm bad dite hobe)",
+                "hi": "हमें एक फुफ्फुसीय एम्बोलिज्म को खारिज करना होगा। (hamen ek phupphuseey embolizm ko khaarij karna hoga)",
+                "ur": "ہمیں پلمونری ایمبولزم کو خارج کرنا ہوگا۔ (hamen pulmony embolizm ko kharij karna hoga)",
+                "tr": "Pulmoner emboliyi elememiz gerekiyor."
+            },
+            "id": "v35_17"
+        },
+        {
+            "germanTerm": "in Betracht ziehen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ɪn bəˈtʁaxt ˈt͡siːən/",
+            "category": "phrase",
+            "translation": {
+                "en": "to consider",
+                "bn": "বিবেচনা করা (bibechona kora)",
+                "hi": "विचार करना (vichaar karna)",
+                "ur": "غور کرنا (ghor karna)",
+                "tr": "dikkate almak"
+            },
+            "exampleSentence": "Wir müssen auch andere Diagnosen in Betracht ziehen.",
+            "exampleTranslation": {
+                "en": "We must also consider other diagnoses.",
+                "bn": "আমাদের অন্যান্য রোগ নির্ণয়ও বিবেচনা করতে হবে। (amader onanyo rog nirnoyo bibechona korte hobe)",
+                "hi": "हमें अन्य निदानों पर भी विचार करना चाहिए। (hamen any nidaanon par bhee vichaar karna chaahie)",
+                "ur": "ہمیں دیگر تشخیصات پر بھی غور کرنا چاہیے۔ (hamen deegar tashkheesaat par bhi ghor karna chahiye)",
+                "tr": "Diğer teşhisleri de dikkate almalıyız."
+            },
+            "id": "v35_18"
+        },
+        {
+            "germanTerm": "Differentialdiagnostik",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/ˌdɪfəʁɛnt͡si̯aːldi̯aɡˈnɔstɪk/",
+            "category": "noun",
+            "translation": {
+                "en": "differential diagnostics",
+                "bn": "পৃথক রোগ নির্ণয়বিদ্যা (prithok rog nirnoybidya)",
+                "hi": "विभेदक निदान विज्ञान (vibhedak nidaan vigyaan)",
+                "ur": "امتیازی تشخیصات (imtiazi tashkhisaat)",
+                "tr": "ayırıcı tanı"
+            },
+            "exampleSentence": "Die Differentialdiagnostik ist komplex.",
+            "exampleTranslation": {
+                "en": "Differential diagnostics is complex.",
+                "bn": "পৃথক রোগ নির্ণয়বিদ্যা জটিল। (prithok rog nirnoybidya jotil)",
+                "hi": "विभेदक निदान विज्ञान जटिल है। (vibhedak nidaan vigyaan jatil hai)",
+                "ur": "امتیازی تشخیصات پیچیدہ ہیں۔ (imtiazi tashkhisaat pecheeda hain)",
+                "tr": "Ayırıcı tanı karmaşıktır."
+            },
+            "id": "v35_19"
+        },
+        {
+            "germanTerm": "Ätiologie",
+            "article": "die",
+            "plural": "Ätiologien",
+            "pronunciation": "/ɛti̯oloˈɡiː/",
+            "category": "noun",
+            "translation": {
+                "en": "etiology",
+                "bn": "কারণবিদ্যা (karonbidya)",
+                "hi": "हेतुविज्ञान (hetuvigyaan)",
+                "ur": "سببِ مرض (sabab e marz)",
+                "tr": "etiyoloji"
+            },
+            "exampleSentence": "Die Ätiologie der Erkrankung ist unbekannt.",
+            "exampleTranslation": {
+                "en": "The etiology of the disease is unknown.",
+                "bn": "রোগের কারণবিদ্যা অজানা। (roger karonbidya ojana)",
+                "hi": "रोग का हेतुविज्ञान अज्ञात है। (rog ka hetuvigyaan agyaat hai)",
+                "ur": "بیماری کا سبب مرض نامعلوم ہے۔ (bimari ka sabab e marz maloom nahin hai)",
+                "tr": "Hastalığın etiyolojisi bilinmemektedir."
+            },
+            "id": "v35_20"
+        },
+        {
+            "germanTerm": "Pathogenese",
+            "article": "die",
+            "plural": "Pathogenesen",
+            "pronunciation": "/patoɡeˈneːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "pathogenesis",
+                "bn": "রোগসৃষ্টি প্রক্রিয়া (rogsrishti prokkriya)",
+                "hi": "रोगजनन (rogajanan)",
+                "ur": "مرض کی تشکیل (marz ki tashkeel)",
+                "tr": "patojenez"
+            },
+            "exampleSentence": "Die Pathogenese dieser Erkrankung ist komplex.",
+            "exampleTranslation": {
+                "en": "The pathogenesis of this disease is complex.",
+                "bn": "এই রোগের রোগসৃষ্টি প্রক্রিয়া জটিল। (ei roger rogsrishti prokkriya jotil)",
+                "hi": "इस रोग का रोगजनन जटिल है। (is rog ka rogajanan jatil hai)",
+                "ur": "اس بیماری کی مرض کی تشکیل پیچیدہ ہے۔ (is bimari ki marz ki tashkeel pecheeda hai)",
+                "tr": "Bu hastalığın patogenezi karmaşıktır."
+            },
+            "id": "v35_21"
+        },
+        {
+            "germanTerm": "Verlauf",
+            "article": "der",
+            "plural": "Verläufe",
+            "pronunciation": "/fɛɐ̯ˈlaʊ̯f/",
+            "category": "noun",
+            "translation": {
+                "en": "course",
+                "bn": "গতিপথ (gotipoth)",
+                "hi": "क्रम (kram)",
+                "ur": "رویہ (rawaiya)",
+                "tr": "seyir"
+            },
+            "exampleSentence": "Der Verlauf der Krankheit ist typisch.",
+            "exampleTranslation": {
+                "en": "The course of the disease is typical.",
+                "bn": "রোগের গতিপথ স্বাভাবিক। (roger gotipoth shavabik)",
+                "hi": "रोग का क्रम सामान्य है। (rog ka kram saamaany hai)",
+                "ur": "بیماری کا رویہ عام ہے۔ (bimari ka rawaiya aam hai)",
+                "tr": "Hastalığın seyri tipiktir."
+            },
+            "id": "v35_22"
+        },
+        {
+            "germanTerm": "Komplikation",
+            "article": "die",
+            "plural": "Komplikationen",
+            "pronunciation": "/kɔmplikaˈt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "complication",
+                "bn": "জটিলতা (jotilota)",
+                "hi": "जटिलता (jatilata)",
+                "ur": "پیچیدگی (pecheedgi)",
+                "tr": "komplikasyon"
+            },
+            "exampleSentence": "Es gab keine Komplikationen während der Operation.",
+            "exampleTranslation": {
+                "en": "There were no complications during the surgery.",
+                "bn": "অপারেশনের সময় কোনো জটিলতা ছিল না। (apaareshaner shomoy kono jotilota chilo na)",
+                "hi": "सर्जरी के दौरान कोई जटिलता नहीं थी। (sarjaree ke dauraan koee jatilata nahin thee)",
+                "ur": "سرجری کے دوران کوئی پیچیدگی نہیں تھی۔ (surgery ke dauraan koi pecheedgi nahin thi)",
+                "tr": "Ameliyat sırasında herhangi bir komplikasyon olmadı."
+            },
+            "id": "v35_23"
+        },
+        {
+            "germanTerm": "Resistenz",
+            "article": "die",
+            "plural": "Resistenzen",
+            "pronunciation": "/ʁezɪsˈtɛnt͡s/",
+            "category": "noun",
+            "translation": {
+                "en": "resistance",
+                "bn": "প্রতিরোধ (protirodh)",
+                "hi": "प्रतिरोध (pratirodh)",
+                "ur": "مزاحمت (mazahmat)",
+                "tr": "direnç"
+            },
+            "exampleSentence": "Es besteht eine Antibiotikaresistenz.",
+            "exampleTranslation": {
+                "en": "There is antibiotic resistance.",
+                "bn": "একটি অ্যান্টিবায়োটিক প্রতিরোধ আছে। (ekti antibaayotik protirodh ache)",
+                "hi": "एंटीबायोटिक प्रतिरोध है। (enteebaayotik pratirodh hai)",
+                "ur": "اینٹی بائیوٹک مزاحمت ہے۔ (antibiotic mazahmat hai)",
+                "tr": "Antibiyotik direnci var."
+            },
+            "id": "v35_24"
+        },
+        {
+            "germanTerm": "chronisch",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈkʁoːnɪʃ/",
+            "category": "adjective",
+            "translation": {
+                "en": "chronic",
+                "bn": "দীর্ঘস্থায়ী (dirghosthayi)",
+                "hi": "क्रोनिक (kronik)",
+                "ur": "دائمی (daimi)",
+                "tr": "kronik"
+            },
+            "exampleSentence": "Es handelt sich um eine chronische Erkrankung.",
+            "exampleTranslation": {
+                "en": "It is a chronic disease.",
+                "bn": "এটি একটি দীর্ঘস্থায়ী রোগ। (eti ekti dirghosthayi rog)",
+                "hi": "यह एक क्रोनिक रोग है। (yah ek kronik rog hai)",
+                "ur": "یہ ایک دائمی بیماری ہے۔ (yah ek daimi bimari hai)",
+                "tr": "Kronik bir hastalıktır."
+            },
+            "id": "v35_25"
+        },
+        {
+            "germanTerm": "akut",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/aˈkuːt/",
+            "category": "adjective",
+            "translation": {
+                "en": "acute",
+                "bn": "তীব্র (tibro)",
+                "hi": "तीव्र (teevr)",
+                "ur": "شدید (shadeed)",
+                "tr": "akut"
+            },
+            "exampleSentence": "Der Patient leidet unter akuten Schmerzen.",
+            "exampleTranslation": {
+                "en": "The patient is suffering from acute pain.",
+                "bn": "রোগী তীব্র ব্যথায় ভুগছেন। (rogi tibro byathay vugchen)",
+                "hi": "रोगी तीव्र दर्द से पीड़ित है। (rogi teevr dard se peedit hai)",
+                "ur": "مریض شدید درد میں مبتلا ہے۔ (mareez shadeed dard mein mubtala hai)",
+                "tr": "Hasta akut ağrıdan muzdarip."
+            },
+            "id": "v35_26"
+        },
+        {
+            "germanTerm": "rezidivierend",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ʁetsidiˈviːʁənt/",
+            "category": "adjective",
+            "translation": {
+                "en": "relapsing",
+                "bn": "পুনরাবৃত্তিমূলক (punarabrittimulok)",
+                "hi": "पुनरावर्ती (punaraavartee)",
+                "ur": "پلٹنے والا (palatnay wala)",
+                "tr": "tekrarlayan"
+            },
+            "exampleSentence": "Es handelt sich um eine rezidivierende Erkrankung.",
+            "exampleTranslation": {
+                "en": "It is a relapsing disease.",
+                "bn": "এটি একটি পুনরাবৃত্তিমূলক রোগ। (eti ekti punarabrittimulok rog)",
+                "hi": "यह एक पुनरावर्ती रोग है। (yah ek punaraavartee rog hai)",
+                "ur": "یہ ایک پلٹنے والا مرض ہے۔ (yah ek palatnay wala marz hai)",
+                "tr": "Tekrarlayan bir hastalıktır."
+            },
+            "id": "v35_27"
+        },
+        {
+            "germanTerm": "derzeit",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈdeːɐ̯ˌt͡saɪ̯t/",
+            "category": "adverb",
+            "translation": {
+                "en": "currently",
+                "bn": "বর্তমানে (bortomane)",
+                "hi": "वर्तमान में (vartamaan mein)",
+                "ur": "فی الحال (fi alhaal)",
+                "tr": "şu anda"
+            },
+            "exampleSentence": "Derzeit ist keine Therapie notwendig.",
+            "exampleTranslation": {
+                "en": "Currently, no therapy is necessary.",
+                "bn": "বর্তমানে কোনও থেরাপির প্রয়োজন নেই। (bortomane kono therapir proyojon nei)",
+                "hi": "वर्तमान में, किसी भी चिकित्सा की आवश्यकता नहीं है। (vartamaan mein, kisee bhee chikitsa kee aavashyakata nahin hai)",
+                "ur": "فی الحال، کسی بھی علاج کی ضرورت نہیں ہے۔ (fi alhaal, kisi bhi ilaaj ki zaroorat nahin hai)",
+                "tr": "Şu anda herhangi bir tedaviye gerek yoktur."
+            },
+            "id": "v35_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Abdominal Pain",
+                "bn": "পেটে ব্যথা",
+                "hi": "पेट दर्द",
+                "ur": "پیٹ کا درد",
+                "tr": "Karın Ağrısı"
+            },
+            "context": {
+                "en": "A patient presents with acute abdominal pain. Doctors are discussing possible diagnoses.",
+                "bn": "একজন রোগী তীব্র পেটে ব্যথা নিয়ে এসেছেন। ডাক্তাররা সম্ভাব্য রোগ নির্ণয় নিয়ে আলোচনা করছেন।",
+                "hi": "एक मरीज तीव्र पेट दर्द के साथ आया है। डॉक्टर संभावित निदान पर चर्चा कर रहे हैं।",
+                "ur": "ایک مریض شدید پیٹ درد کے ساتھ آیا ہے۔ ڈاکٹر ممکنہ تشخیص پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Hasta akut karın ağrısıyla başvuruyor. Doktorlar olası tanıları tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Patient Müller klagt über starke Bauchschmerzen. Die Differentialdiagnose ist breit gefächert. Was halten Sie für am wahrscheinlichsten, Herr Doktor?",
+                    "translation": {
+                        "en": "Patient Müller complains of severe abdominal pain. The differential diagnosis is broad. What do you think is most likely, Doctor?",
+                        "bn": "রোগী মুলার তীব্র পেটে ব্যথার অভিযোগ করছেন। ডিফারেনশিয়াল ডায়াগনোসিস বিস্তৃত। আপনার মতে সবচেয়ে সম্ভাব্য কী, ডাক্তার?",
+                        "hi": "मरीज मूलर गंभीर पेट दर्द की शिकायत कर रहे हैं। विभेदक निदान व्यापक है। आपको क्या लगता है कि सबसे अधिक संभावना क्या है, डॉक्टर?",
+                        "ur": "مریض ملر شدید پیٹ درد کی شکایت کر رہے ہیں۔ تفرقاتی تشخیص وسیع ہے۔ آپ کے خیال میں سب سے زیادہ امکان کیا ہے، ڈاکٹر؟",
+                        "tr": "Hasta Müller şiddetli karın ağrısından şikayet ediyor. Ayırıcı tanı geniş. Sizce en olası ne, Doktor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich verdächtige eine Appendizitis, aber eine Divertikulitis ist auch nicht unwahrscheinlich, da der Patient schon älter ist.",
+                    "translation": {
+                        "en": "I suspect appendicitis, but diverticulitis is also not unlikely, as the patient is older.",
+                        "bn": "আমি অ্যাপেন্ডিসাইটিস সন্দেহ করছি, তবে ডাইভার্টিকুলাইটিসও অসম্ভব নয়, কারণ রোগী বয়স্ক।",
+                        "hi": "मुझे एपेंडिसाइटिस का संदेह है, लेकिन डायवर्टीकुलिटिस भी असंभव नहीं है, क्योंकि रोगी वृद्ध है।",
+                        "ur": "مجھے اپینڈیسائٹس کا شبہ ہے، لیکن ڈائیورٹیکولائٹس بھی ناممکن نہیں ہے، کیونکہ مریض بوڑھا ہے۔",
+                        "tr": "Apandisitten şüpheleniyorum, ancak hasta yaşlı olduğu için divertikülit de olası değil."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir sollten eine CT-Untersuchung durchführen, um die Appendizitis zu bestätigen oder auszuschließen. Andere Differentialdiagnosen wie eine Darmobstruktion sollten wir auch berücksichtigen.",
+                    "translation": {
+                        "en": "We should perform a CT scan to confirm or rule out appendicitis. We should also consider other differential diagnoses such as bowel obstruction.",
+                        "bn": "আমাদের অ্যাপেন্ডিসাইটিস নিশ্চিত করতে বা বাদ দিতে একটি সিটি স্ক্যান করা উচিত। আমাদের অন্ত্রের বাধার মতো অন্যান্য ডিফারেনশিয়াল ডায়াগনোসিসও বিবেচনা করা উচিত।",
+                        "hi": "हमें एपेंडिसाइटिस की पुष्टि या इनकार करने के लिए एक सीटी स्कैन करना चाहिए। हमें आंत्र रुकावट जैसे अन्य विभेदक निदानों पर भी विचार करना चाहिए।",
+                        "ur": "ہمیں اپینڈیسائٹس کی تصدیق یا تردید کے لیے سی ٹی اسکین کرانا چاہیے۔ ہمیں آنتوں میں رکاوٹ جیسی دیگر تفرقاتی تشخیص پر بھی غور کرنا چاہیے۔",
+                        "tr": "Apandisiti doğrulamak veya ekarte etmek için bir BT taraması yapmalıyız. Bağırsak tıkanıklığı gibi diğer ayırıcı tanıları da göz önünde bulundurmalıyız."
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Einverstanden. Und bis dahin? Schmerzmittel?",
+                    "translation": {
+                        "en": "Agreed. And until then? Pain medication?",
+                        "bn": "একমত। এবং ততক্ষণ? ব্যথানাশক?",
+                        "hi": "सहमत। और तब तक? दर्द की दवा?",
+                        "ur": "متفق ہوں۔ اور تب تک؟ درد کی دوا؟",
+                        "tr": "Katılıyorum. Ve o zamana kadar? Ağrı kesici?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ja, und Überwachung der Vitalparameter. Wir müssen bereit sein, schnell zu handeln, falls es doch etwas Akutes ist.",
+                    "translation": {
+                        "en": "Yes, and monitoring of vital signs. We must be prepared to act quickly if it is something acute after all.",
+                        "bn": "হ্যাঁ, এবং গুরুত্বপূর্ণ লক্ষণগুলির পর্যবেক্ষণ। যদি এটি শেষ পর্যন্ত কিছু তীব্র হয় তবে আমাদের দ্রুত কাজ করার জন্য প্রস্তুত থাকতে হবে।",
+                        "hi": "हां, और महत्वपूर्ण संकेतों की निगरानी। अगर यह अंततः कुछ तीव्र है तो हमें जल्दी से कार्य करने के लिए तैयार रहना चाहिए।",
+                        "ur": "ہاں، اور اہم علامات کی نگرانی۔ اگر یہ آخر میں کچھ شدید ہے تو ہمیں جلدی سے کام کرنے کے لیے تیار رہنا چاہیے۔",
+                        "tr": "Evet, ve vital bulguların izlenmesi. Sonuçta akut bir şey çıkarsa hızlı hareket etmeye hazırlıklı olmalıyız."
+                    }
+                }
+            ],
+            "id": "d35_01"
+        },
+        {
+            "title": {
+                "en": "Chest Pain",
+                "bn": "বুকে ব্যথা",
+                "hi": "सीने में दर्द",
+                "ur": "سینے میں درد",
+                "tr": "Göğüs Ağrısı"
+            },
+            "context": {
+                "en": "A patient is admitted with chest pain. The doctors are discussing possible cardiac and pulmonary causes.",
+                "bn": "একজন রোগী বুকে ব্যথা নিয়ে ভর্তি হয়েছেন। ডাক্তাররা সম্ভাব্য কার্ডিয়াক এবং পালমোনারি কারণ নিয়ে আলোচনা করছেন।",
+                "hi": "एक मरीज सीने में दर्द के साथ भर्ती है। डॉक्टर संभावित हृदय और फुफ्फुसीय कारणों पर चर्चा कर रहे हैं।",
+                "ur": "ایک مریض سینے میں درد کے ساتھ داخل ہوا ہے۔ ڈاکٹر ممکنہ قلبی اور پلمونری وجوہات پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Bir hasta göğüs ağrısıyla yatırılıyor. Doktorlar olası kardiyak ve pulmoner nedenleri tartışıyorlar."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Herr Schmidt klagt über Brustschmerzen. Die Differentialdiagnose umfasst hier natürlich KHK, aber auch Lungenembolie. Was meinen Sie, Frau Kollegin?",
+                    "translation": {
+                        "en": "Mr. Schmidt complains of chest pain. The differential diagnosis here naturally includes CAD, but also pulmonary embolism. What do you think, colleague?",
+                        "bn": "মিঃ শ্মিট বুকে ব্যথার অভিযোগ করছেন। ডিফারেনশিয়াল ডায়াগনোসিসে স্বাভাবিকভাবেই সিএডি অন্তর্ভুক্ত রয়েছে, তবে পালমোনারি এমবোলিজমও রয়েছে। আপনার কি মনে হয়, সহকর্মী?",
+                        "hi": "श्री श्मिट सीने में दर्द की शिकायत कर रहे हैं। विभेदक निदान में स्वाभाविक रूप से सीएडी शामिल है, लेकिन फुफ्फुसीय अन्त: शल्यता भी शामिल है। आपको क्या लगता है, सहकर्मी?",
+                        "ur": "مسٹر شمٹ سینے میں درد کی شکایت کر رہے ہیں۔ تفرقاتی تشخیص میں قدرتی طور پر CAD شامل ہے، لیکن پلمونری ایمبولزم بھی شامل ہے۔ آپ کیا سوچتے ہیں، ساتھی؟",
+                        "tr": "Bay Schmidt göğüs ağrısından şikayet ediyor. Ayırıcı tanı doğal olarak KAH'ı içerir, ancak pulmoner emboli de içerir. Ne düşünüyorsun meslektaşım?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ein EKG ist bereits gemacht. ST-Hebungen sind nicht zu sehen, daher ist ein akutes Koronarsyndrom eher unwahrscheinlich.",
+                    "translation": {
+                        "en": "An ECG has already been done. ST elevations are not visible, so acute coronary syndrome is rather unlikely.",
+                        "bn": "একটি ইসিজি ইতিমধ্যে করা হয়েছে। এসটি উন্নতি দেখা যাচ্ছে না, তাই তীব্র করোনারি সিনড্রোম বরং অসম্ভব।",
+                        "hi": "एक ईसीजी पहले ही किया जा चुका है। एसटी उन्नयन दिखाई नहीं दे रहे हैं, इसलिए तीव्र कोरोनरी सिंड्रोम बल्कि असंभव है।",
+                        "ur": "ای سی جی پہلے ہی کیا جا چکا ہے۔ ایس ٹی بلندی نظر نہیں آ رہی ہے، اس لیے شدید کورونری سنڈروم کافی حد تک ناممکن ہے۔",
+                        "tr": "EKG zaten yapıldı. ST yükselmeleri görünmüyor, bu nedenle akut koroner sendrom oldukça olası değil."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Der Patient klagt über Atemnot. Die Sauerstoffsättigung ist leicht reduziert.",
+                    "translation": {
+                        "en": "The patient complains of shortness of breath. The oxygen saturation is slightly reduced.",
+                        "bn": "রোগী শ্বাসকষ্টের অভিযোগ করছেন। অক্সিজেনের স্যাচুরেশন সামান্য হ্রাস পেয়েছে।",
+                        "hi": "मरीज सांस की तकलीफ की शिकायत कर रहा है। ऑक्सीजन संतृप्ति थोड़ी कम हो गई है।",
+                        "ur": "مریض سانس کی قلت کی شکایت کر رہا ہے۔ آکسیجن کی سطح قدرے کم ہو گئی ہے۔",
+                        "tr": "Hasta nefes darlığından şikayet ediyor. Oksijen saturasyonu biraz azalmış."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Dann sollten wir eine D-Dimer-Bestimmung veranlassen, um eine Lungenembolie auszuschließen. Ein Röntgen-Thorax wäre auch sinnvoll.",
+                    "translation": {
+                        "en": "Then we should order a D-dimer test to rule out pulmonary embolism. A chest X-ray would also be useful.",
+                        "bn": "তাহলে আমাদের পালমোনারি এমবোলিজম বাদ দেওয়ার জন্য একটি ডি-ডিমার পরীক্ষা করা উচিত। বুকের এক্স-রেও কাজে লাগবে।",
+                        "hi": "फिर हमें फुफ्फुसीय अन्त: शल्यता को खारिज करने के लिए एक डी-डिमर परीक्षण का आदेश देना चाहिए। छाती का एक्स-रे भी उपयोगी होगा।",
+                        "ur": "پھر ہمیں پلمونری ایمبولزم کو رد کرنے کے لیے ڈی ڈیمر ٹیسٹ کرانا چاہیے۔ سینے کا ایکسرے بھی کارآمد ہوگا۔",
+                        "tr": "O zaman pulmoner emboliyi ekarte etmek için bir D-dimer testi yaptırmalıyız. Bir göğüs röntgeni de faydalı olacaktır."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Einverstanden. Wir müssen auch an eine Aortendissektion denken, obwohl das eher unwahrscheinlich ist bei diesem Patienten.",
+                    "translation": {
+                        "en": "Agreed. We must also think of aortic dissection, although that is rather unlikely in this patient.",
+                        "bn": "একমত। আমাদের মহাধমনী বিচ্ছেদ সম্পর্কেও চিন্তা করতে হবে, যদিও এই রোগীর ক্ষেত্রে এটি বেশ অসম্ভব।",
+                        "hi": "सहमत। हमें महाधमनी विच्छेदन के बारे में भी सोचना चाहिए, हालांकि इस मरीज में ऐसा होने की संभावना कम है।",
+                        "ur": "متفق ہوں۔ ہمیں شہ رگ کے ٹکڑے ہونے کے بارے میں بھی سوچنا چاہیے، اگرچہ اس مریض میں ایسا ہونے کا امکان کم ہے۔",
+                        "tr": "Katılıyorum. Bu hastada oldukça olası olmasa da aort diseksiyonunu da düşünmeliyiz."
+                    }
+                }
+            ],
+            "id": "d35_02"
+        },
+        {
+            "title": {
+                "en": "Fever and Cough",
+                "bn": "জ্বর এবং কাশি",
+                "hi": "बुखार और खांसी",
+                "ur": "بخار اور کھانسی",
+                "tr": "Ateş ve Öksürük"
+            },
+            "context": {
+                "en": "A patient presents with fever and cough. The doctors are considering infectious causes.",
+                "bn": "একজন রোগী জ্বর এবং কাশি নিয়ে এসেছেন। ডাক্তাররা সংক্রামক কারণ বিবেচনা করছেন।",
+                "hi": "एक मरीज बुखार और खांसी के साथ आया है। डॉक्टर संक्रामक कारणों पर विचार कर रहे हैं।",
+                "ur": "ایک مریض بخار اور کھانسی کے ساتھ آیا ہے۔ ڈاکٹر متعدی وجوہات پر غور کر رہے ہیں۔",
+                "tr": "Bir hasta ateş ve öksürükle başvuruyor. Doktorlar enfeksiyöz nedenleri değerlendiriyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Frau Meier hat Fieber und Husten. Wir müssen eine Pneumonie in Betracht ziehen.",
+                    "translation": {
+                        "en": "Mrs. Meier has a fever and cough. We need to consider pneumonia.",
+                        "bn": "শ্রীমতী মিয়ার জ্বর এবং কাশি আছে। আমাদের নিউমোনিয়া বিবেচনা করতে হবে।",
+                        "hi": "श्रीमती मेयर को बुखार और खांसी है। हमें निमोनिया पर विचार करने की आवश्यकता है।",
+                        "ur": "محترمہ میئر کو بخار اور کھانسی ہے۔ ہمیں نمونیا پر غور کرنے کی ضرورت ہے۔",
+                        "tr": "Bayan Meier'in ateşi ve öksürüğü var. Pnömoniyi düşünmemiz gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schulz",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ja, eine Pneumonie ist wahrscheinlich. Aber eine Influenza oder COVID-19 sollten wir auch nicht ausschließen.",
+                    "translation": {
+                        "en": "Yes, pneumonia is likely. But we should not rule out influenza or COVID-19 either.",
+                        "bn": "হ্যাঁ, নিউমোনিয়া সম্ভবত। তবে আমাদের ইনফ্লুয়েঞ্জা বা COVID-19ও বাদ দেওয়া উচিত নয়।",
+                        "hi": "हाँ, निमोनिया होने की संभावना है। लेकिन हमें इन्फ्लूएंजा या COVID-19 को भी खारिज नहीं करना चाहिए।",
+                        "ur": "ہاں، نمونیا کا امکان ہے۔ لیکن ہمیں انفلوئنزا یا COVID-19 کو بھی مسترد نہیں کرنا چاہیے۔",
+                        "tr": "Evet, pnömoni muhtemel. Ancak grip veya COVID-19'u da ekarte etmemeliyiz."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich habe bereits einen COVID-Test abgenommen. Das Ergebnis sollte bald da sein.",
+                    "translation": {
+                        "en": "I have already taken a COVID test. The result should be here soon.",
+                        "bn": "আমি ইতিমধ্যে একটি COVID পরীক্ষা নিয়েছি। ফলাফল শীঘ্রই এখানে আসা উচিত।",
+                        "hi": "मैंने पहले ही एक COVID परीक्षण ले लिया है। परिणाम जल्द ही यहां होना चाहिए।",
+                        "ur": "میں نے پہلے ہی COVID ٹیسٹ لے لیا ہے۔ نتیجہ جلد ہی یہاں ہونا چاہیے۔",
+                        "tr": "Zaten bir COVID testi yaptım. Sonuç yakında burada olmalı."
+                    }
+                },
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Sollten wir bis dahin mit Antibiotika beginnen?",
+                    "translation": {
+                        "en": "Should we start antibiotics in the meantime?",
+                        "bn": "আমাদের কি ততক্ষণ অ্যান্টিবায়োটিক শুরু করা উচিত?",
+                        "hi": "क्या हमें इस बीच एंटीबायोटिक्स शुरू करनी चाहिए?",
+                        "ur": "کیا ہمیں اس دوران اینٹی بائیوٹکس شروع کرنی چاہیے؟",
+                        "tr": "Bu arada antibiyotiklere başlamalı mıyız?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schulz",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Warten wir das Ergebnis des COVID-Tests ab. Wenn es negativ ist, ist eine bakterielle Pneumonie wahrscheinlich und wir beginnen mit Antibiotika. Eine atypische Pneumonie wäre auch noch eine Differentialdiagnose.",
+                    "translation": {
+                        "en": "Let's wait for the result of the COVID test. If it is negative, bacterial pneumonia is likely and we will start antibiotics. Atypical pneumonia would also be a differential diagnosis.",
+                        "bn": "আসুন COVID পরীক্ষার ফলাফলের জন্য অপেক্ষা করি। যদি এটি নেতিবাচক হয়, তবে ব্যাকটেরিয়াল নিউমোনিয়া সম্ভবত এবং আমরা অ্যান্টিবায়োটিক শুরু করব। অ্যাটিপিকাল নিউমোনিয়াও একটি ডিফারেনশিয়াল ডায়াগনোসিস হবে।",
+                        "hi": "आइए COVID परीक्षण के परिणाम की प्रतीक्षा करें। यदि यह नकारात्मक है, तो जीवाणु निमोनिया होने की संभावना है और हम एंटीबायोटिक्स शुरू करेंगे। एटिपिकल निमोनिया भी एक विभेदक निदान होगा।",
+                        "ur": "آئیے COVID ٹیسٹ کے نتیجے کا انتظار کریں۔ اگر یہ منفی ہے، تو بیکٹیریل نمونیا کا امکان ہے اور ہم اینٹی بائیوٹکس شروع کریں گے۔ ایٹیپیکل نمونیا بھی ایک تفریق تشخیص ہوگا۔",
+                        "tr": "COVID testinin sonucunu bekleyelim. Negatif çıkarsa bakteriyel pnömoni muhtemeldir ve antibiyotiklere başlayacağız. Atipik pnömoni de bir ayırıcı tanı olabilir."
+                    }
+                }
+            ],
+            "id": "d35_03"
+        },
+        {
+            "title": {
+                "en": "Headache",
+                "bn": "মাথাব্যথা",
+                "hi": "सिरदर्द",
+                "ur": "سر درد",
+                "tr": "Baş Ağrısı"
+            },
+            "context": {
+                "en": "A patient complains of severe headache. The doctors are discussing possible neurological causes.",
+                "bn": "একজন রোগী তীব্র মাথাব্যথার অভিযোগ করেছেন। ডাক্তাররা সম্ভাব্য স্নায়বিক কারণ নিয়ে আলোচনা করছেন।",
+                "hi": "एक मरीज गंभीर सिरदर्द की शिकायत कर रहा है। डॉक्टर संभावित तंत्रिका संबंधी कारणों पर चर्चा कर रहे हैं।",
+                "ur": "ایک مریض شدید سر درد کی شکایت کر رہا ہے۔ ڈاکٹر ممکنہ اعصابی وجوہات پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Bir hasta şiddetli baş ağrısından şikayet ediyor. Doktorlar olası nörolojik nedenleri tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Berger",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Patient Schneider klagt über starke Kopfschmerzen. Die Differentialdiagnose umfasst hier Spannungskopfschmerzen, Migräne, aber auch schwerwiegendere Ursachen.",
+                    "translation": {
+                        "en": "Patient Schneider complains of severe headaches. The differential diagnosis here includes tension headaches, migraines, but also more serious causes.",
+                        "bn": "রোগী শ্নাইডার তীব্র মাথাব্যথার অভিযোগ করছেন। ডিফারেনশিয়াল ডায়াগনোসিসে এখানে টেনশন মাথাব্যথা, মাইগ্রেন এবং আরও গুরুতর কারণ অন্তর্ভুক্ত রয়েছে।",
+                        "hi": "मरीज श्नाइडर गंभीर सिरदर्द की शिकायत कर रहे हैं। विभेदक निदान में यहां तनाव सिरदर्द, माइग्रेन और अधिक गंभीर कारण शामिल हैं।",
+                        "ur": "مریض شنائیڈر شدید سر درد کی شکایت کر رہے ہیں۔ تفرقاتی تشخیص میں یہاں تناؤ کا سر درد، درد شقیقہ، لیکن زیادہ سنگین وجوہات بھی شامل ہیں۔",
+                        "tr": "Hasta Schneider şiddetli baş ağrısından şikayet ediyor. Ayırıcı tanı burada gerilim tipi baş ağrısı, migren, ancak daha ciddi nedenleri de içerir."
+                    }
+                },
+                {
+                    "speaker": "Dr. Sommer",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Hat der Patient neurologische Ausfälle?",
+                    "translation": {
+                        "en": "Does the patient have any neurological deficits?",
+                        "bn": "রোগীর কি কোনো স্নায়বিক ঘাটতি আছে?",
+                        "hi": "क्या मरीज को कोई तंत्रिका संबंधी कमी है?",
+                        "ur": "کیا مریض میں کوئی اعصابی کمی ہے؟",
+                        "tr": "Hastada herhangi bir nörolojik eksiklik var mı?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Nein, keine offensichtlichen. Aber er klagt über Übelkeit und Lichtempfindlichkeit.",
+                    "translation": {
+                        "en": "No, no obvious ones. But he complains of nausea and sensitivity to light.",
+                        "bn": "না, কোনো সুস্পষ্ট নয়। তবে তিনি বমি বমি ভাব এবং আলোর সংবেদনশীলতার অভিযোগ করছেন।",
+                        "hi": "नहीं, कोई स्पष्ट नहीं। लेकिन वह मतली और प्रकाश के प्रति संवेदनशीलता की शिकायत कर रहा है।",
+                        "ur": "نہیں، کوئی واضح نہیں۔ لیکن وہ متلی اور روشنی کے لیے حساسیت کی شکایت کر رہا ہے۔",
+                        "tr": "Hayır, bariz olanlardan değil. Ancak mide bulantısı ve ışığa duyarlılıktan şikayet ediyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Sommer",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das klingt eher nach Migräne. Aber um eine Subarachnoidalblutung auszuschließen, sollten wir ein CT machen.",
+                    "translation": {
+                        "en": "That sounds more like a migraine. But to rule out a subarachnoid hemorrhage, we should do a CT scan.",
+                        "bn": "এটি বরং মাইগ্রেনের মতো শোনাচ্ছে। তবে একটি সাবরাচনয়েড হেমোরেজ বাদ দেওয়ার জন্য, আমাদের একটি সিটি স্ক্যান করা উচিত।",
+                        "hi": "यह माइग्रेन की तरह लग रहा है। लेकिन सबराचनोइड रक्तस्राव को खारिज करने के लिए, हमें एक सीटी स्कैन करना चाहिए।",
+                        "ur": "یہ درد شقیقہ کی طرح لگتا ہے۔ لیکن سبارکنائیڈ ہیمرج کو رد کرنے کے لیے، ہمیں سی ٹی اسکین کرانا چاہیے۔",
+                        "tr": "Bu daha çok migrene benziyor. Ancak subaraknoid kanamayı ekarte etmek için bir BT taraması yapmalıyız."
+                    }
+                },
+                {
+                    "speaker": "Dr. Berger",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Einverstanden. Und eine Lumbalpunktion, falls das CT unauffällig ist. Eine Meningitis ist unwahrscheinlich, aber wir dürfen sie nicht vergessen.",
+                    "translation": {
+                        "en": "Agreed. And a lumbar puncture if the CT is unremarkable. Meningitis is unlikely, but we must not forget it.",
+                        "bn": "একমত। এবং যদি সিটি স্বাভাবিক হয় তবে একটি কটিদেশীয় পাংচার। মেনিনজাইটিস সম্ভবত নয়, তবে আমাদের এটি ভুলে যাওয়া উচিত নয়।",
+                        "hi": "सहमत। और अगर सीटी सामान्य है तो एक काठ का पंचर। मेनिन्जाइटिस होने की संभावना नहीं है, लेकिन हमें इसे भूलना नहीं चाहिए।",
+                        "ur": "متفق ہوں۔ اور اگر سی ٹی غیر معمولی ہے تو ایک لمبر پنکچر۔ میننجائٹس کا امکان نہیں ہے، لیکن ہمیں اسے نہیں بھولنا چاہیے۔",
+                        "tr": "Katılıyorum. Ve BT normal çıkarsa bir lomber ponksiyon. Menenjit olası değil, ancak onu unutmamalıyız."
+                    }
+                }
+            ],
+            "id": "d35_04"
+        },
+        {
+            "title": {
+                "en": "Joint Pain",
+                "bn": "জয়েন্টে ব্যথা",
+                "hi": "जोड़ों का दर्द",
+                "ur": "جوڑوں کا درد",
+                "tr": "Eklem Ağrısı"
+            },
+            "context": {
+                "en": "A patient presents with joint pain. The doctors are considering different types of arthritis.",
+                "bn": "একজন রোগী জয়েন্টে ব্যথা নিয়ে এসেছেন। ডাক্তাররা বিভিন্ন ধরণের আর্থ্রাইটিস বিবেচনা করছেন।",
+                "hi": "एक मरीज जोड़ों के दर्द के साथ आया है। डॉक्टर विभिन्न प्रकार के गठिया पर विचार कर रहे हैं।",
+                "ur": "ایک مریض جوڑوں کے درد کے ساتھ آیا ہے۔ ڈاکٹر مختلف قسم کے گٹھیا پر غور کر رہے ہیں۔",
+                "tr": "Bir hasta eklem ağrısıyla başvuruyor. Doktorlar farklı artrit türlerini değerlendiriyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Fischer",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Herr Weber klagt über Gelenkschmerzen. Die Differentialdiagnose ist breit: Arthrose, rheumatoide Arthritis, Gicht…",
+                    "translation": {
+                        "en": "Mr. Weber complains of joint pain. The differential diagnosis is broad: osteoarthritis, rheumatoid arthritis, gout...",
+                        "bn": "মিঃ ওয়েবার জয়েন্টে ব্যথার অভিযোগ করছেন। ডিফারেনশিয়াল ডায়াগনোসিস বিস্তৃত: অস্টিওআর্থারাইটিস, রিউমাটয়েড আর্থ্রাইটিস, গাউট...",
+                        "hi": "श्री वेबर जोड़ों के दर्द की शिकायत कर रहे हैं। विभेदक निदान व्यापक है: ऑस्टियोआर्थराइटिस, रुमेटीइड गठिया, गाउट...",
+                        "ur": "مسٹر ویبر جوڑوں کے درد کی شکایت کر رہے ہیں۔ تفرقاتی تشخیص وسیع ہے: اوسٹیو ارتھرائٹس، رمیٹی سندشوت، گاوٹ...",
+                        "tr": "Bay Weber eklem ağrısından şikayet ediyor. Ayırıcı tanı geniştir: osteoartrit, romatoid artrit, gut..."
+                    }
+                },
+                {
+                    "speaker": "Dr. Braun",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ist die Entzündung auf ein Gelenk beschränkt, oder sind mehrere betroffen?",
+                    "translation": {
+                        "en": "Is the inflammation limited to one joint, or are several affected?",
+                        "bn": "প্রদাহ কি একটি জয়েন্টে সীমাবদ্ধ, নাকি একাধিক প্রভাবিত?",
+                        "hi": "क्या सूजन एक जोड़ तक सीमित है, या कई प्रभावित हैं?",
+                        "ur": "کیا سوزش ایک جوڑ تک محدود ہے، یا کئی متاثر ہیں؟",
+                        "tr": "Enflamasyon tek bir eklemle mi sınırlı, yoksa birden fazlası mı etkileniyor?"
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Es sind mehrere, vor allem in den Fingern und Handgelenken.",
+                    "translation": {
+                        "en": "There are several, especially in the fingers and wrists.",
+                        "bn": "একাধিক আছে, বিশেষ করে আঙ্গুল এবং কব্জিতে।",
+                        "hi": "कई हैं, खासकर उंगलियों और कलाई में।",
+                        "ur": "کئی ہیں، خاص طور پر انگلیوں اور کلائیوں میں۔",
+                        "tr": "Birkaç tane var, özellikle parmaklarda ve bileklerde."
+                    }
+                },
+                {
+                    "speaker": "Dr. Fischer",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das macht eine rheumatoide Arthritis wahrscheinlicher als Arthrose. Wir sollten die entsprechenden Blutwerte bestimmen.",
+                    "translation": {
+                        "en": "That makes rheumatoid arthritis more likely than osteoarthritis. We should determine the corresponding blood values.",
+                        "bn": "এটি অস্টিওআর্থারাইটিসের চেয়ে রিউমাটয়েড আর্থ্রাইটিসকে আরও সম্ভাব্য করে তোলে। আমাদের সংশ্লিষ্ট রক্তের মান নির্ধারণ করা উচিত।",
+                        "hi": "इससे ऑस्टियोआर्थराइटिस की तुलना में रुमेटीइड गठिया होने की संभावना अधिक हो जाती है। हमें संबंधित रक्त मूल्यों का निर्धारण करना चाहिए।",
+                        "ur": "اس سے اوسٹیو ارتھرائٹس کے مقابلے میں رمیٹی سندشوت کا امکان زیادہ ہو جاتا ہے۔ ہمیں متعلقہ خون کی قیمتوں کا تعین کرنا چاہیے۔",
+                        "tr": "Bu, osteoartritten ziyade romatoid artriti daha olası hale getiriyor. İlgili kan değerlerini belirlemeliyiz."
+                    }
+                },
+                {
+                    "speaker": "Dr. Braun",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ja, und eine Röntgenaufnahme der Hände. Gicht ist bei dem Beschwerdebild unwahrscheinlich. Wir müssen aber auch andere Ursachen wie eine infektiöse Arthritis ausschließen.",
+                    "translation": {
+                        "en": "Yes, and an X-ray of the hands. Gout is unlikely with these symptoms. But we must also rule out other causes such as infectious arthritis.",
+                        "bn": "হ্যাঁ, এবং হাতের একটি এক্স-রে। এই লক্ষণগুলির সাথে গাউট হওয়ার সম্ভাবনা কম। তবে আমাদের সংক্রামক আর্থ্রাইটিসের মতো অন্যান্য কারণগুলিও বাতিল করতে হবে।",
+                        "hi": "हाँ, और हाथों का एक्स-रे। इन लक्षणों के साथ गाउट होने की संभावना कम है। लेकिन हमें संक्रामक गठिया जैसे अन्य कारणों को भी खारिज करना होगा।",
+                        "ur": "ہاں، اور ہاتھوں کا ایکسرے کروائیں۔ ان علامات کے ساتھ گاوٹ کا امکان کم ہے۔ لیکن ہمیں متعدی گٹھیا جیسی دیگر وجوہات کو بھی مسترد کرنا چاہیے۔",
+                        "tr": "Evet, ve ellerin röntgeni. Bu semptomlarla gut olası değil. Ancak bulaşıcı artrit gibi diğer nedenleri de ekarte etmeliyiz."
+                    }
+                }
+            ],
+            "id": "d35_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welcher Begriff beschreibt am besten eine Diagnose, die in Erwägung gezogen wird, aber noch nicht bestätigt ist?",
+                "en": "Which term best describes a diagnosis that is being considered but not yet confirmed?",
+                "bn": "কোন শব্দটি একটি রোগ নির্ণয়কে সবচেয়ে ভালভাবে বর্ণনা করে যা বিবেচনা করা হচ্ছে কিন্তু এখনও নিশ্চিত করা হয়নি?",
+                "hi": "कौन सा शब्द सबसे अच्छी तरह से एक निदान का वर्णन करता है जिस पर विचार किया जा रहा है लेकिन अभी तक पुष्टि नहीं हुई है?",
+                "ur": "کون سی اصطلاح کسی تشخیص کو بہترین طور پر بیان کرتی ہے جس پر غور کیا جا رہا ہے لیکن ابھی تک تصدیق نہیں ہوئی ہے؟",
+                "tr": "Henüz doğrulanmamış ancak üzerinde düşünülen bir tanıyı en iyi hangi terim açıklar?"
+            },
+            "options": [
+                "Ausschlussdiagnose",
+                "Differentialdiagnose",
+                "Verdachtsdiagnose",
+                "Arbeitsdiagnose"
+            ],
+            "correctAnswer": "Verdachtsdiagnose",
+            "explanation": {
+                "en": "A 'Verdachtsdiagnose' (suspected diagnosis) is a diagnosis that is suspected but requires further investigation to confirm.",
+                "bn": "'Verdachtsdiagnose' (সন্দেহজনক রোগ নির্ণয়) একটি রোগ নির্ণয় যা সন্দেহ করা হয় তবে নিশ্চিত করার জন্য আরও তদন্তের প্রয়োজন।",
+                "hi": "'Verdachtsdiagnose' (संदिग्ध निदान) एक निदान है जिस पर संदेह है लेकिन पुष्टि करने के लिए आगे की जांच की आवश्यकता है।",
+                "ur": "'Verdachtsdiagnose' (مشکوک تشخیص) ایک تشخیص ہے جس پر شک کیا جاتا ہے لیکن تصدیق کے لیے مزید تفتیش کی ضرورت ہے۔",
+                "tr": "'Verdachtsdiagnose' (şüpheli tanı), şüphelenilen ancak doğrulamak için daha fazla araştırma gerektiren bir tanıdır."
+            },
+            "points": 10,
+            "id": "e35_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Ausschlussdiagnose'?",
+                "en": "What does 'Ausschlussdiagnose' mean?",
+                "bn": "'Ausschlussdiagnose' মানে কি?",
+                "hi": "'Ausschlussdiagnose' का क्या अर्थ है?",
+                "ur": "'Ausschlussdiagnose' کا کیا مطلب ہے؟",
+                "tr": "'Ausschlussdiagnose' ne anlama gelir?"
+            },
+            "options": [
+                "Eine wahrscheinliche Diagnose",
+                "Eine ausgeschlossene Diagnose",
+                "Eine bestätigte Diagnose",
+                "Eine vorläufige Diagnose"
+            ],
+            "correctAnswer": "Eine ausgeschlossene Diagnose",
+            "explanation": {
+                "en": "An 'Ausschlussdiagnose' is a diagnosis that has been ruled out.",
+                "bn": "একটি 'Ausschlussdiagnose' হল একটি রোগ নির্ণয় যা বাতিল করা হয়েছে।",
+                "hi": "एक 'Ausschlussdiagnose' एक निदान है जिसे खारिज कर दिया गया है।",
+                "ur": "ایک 'Ausschlussdiagnose' ایک تشخیص ہے جسے خارج کر دیا گیا ہے۔",
+                "tr": "'Ausschlussdiagnose', dışlanmış bir tanıdır."
+            },
+            "points": 10,
+            "id": "e35_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Wort deutet auf eine hohe Wahrscheinlichkeit einer bestimmten Diagnose hin?",
+                "en": "Which word indicates a high probability of a specific diagnosis?",
+                "bn": "কোন শব্দটি একটি নির্দিষ্ট রোগ নির্ণয়ের উচ্চ সম্ভাবনা নির্দেশ করে?",
+                "hi": "कौन सा शब्द एक विशिष्ट निदान की उच्च संभावना को इंगित करता है?",
+                "ur": "کون سا لفظ کسی مخصوص تشخیص کے زیادہ امکان کی نشاندہی کرتا ہے؟",
+                "tr": "Hangi kelime belirli bir tanının yüksek olasılığını gösterir?"
+            },
+            "options": [
+                "Unwahrscheinlich",
+                "Möglicherweise",
+                "Wahrscheinlich",
+                "Ausgeschlossen"
+            ],
+            "correctAnswer": "Wahrscheinlich",
+            "explanation": {
+                "en": "'Wahrscheinlich' means 'likely' or 'probable'.",
+                "bn": "'Wahrscheinlich' মানে 'সম্ভাব্য' বা 'সম্ভাবনা'।",
+                "hi": "'Wahrscheinlich' का अर्थ है 'संभावित' या 'संभावना'।",
+                "ur": "'Wahrscheinlich' کا مطلب ہے 'ممکنہ' یا 'امکان'۔",
+                "tr": "'Wahrscheinlich', 'muhtemel' veya 'olası' anlamına gelir."
+            },
+            "points": 10,
+            "id": "e35_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Ziel der Differentialdiagnose?",
+                "en": "What is the goal of the differential diagnosis?",
+                "bn": "ডিফারেনশিয়াল ডায়াগনোসিসের লক্ষ্য কি?",
+                "hi": "विभेदक निदान का लक्ष्य क्या है?",
+                "ur": "تفریقی تشخیص کا مقصد کیا ہے؟",
+                "tr": "Ayırıcı tanının amacı nedir?"
+            },
+            "options": [
+                "Die Diagnose bestätigen",
+                "Mögliche Diagnosen einzugrenzen",
+                "Eine Behandlung zu beginnen",
+                "Krankheiten zu ignorieren"
+            ],
+            "correctAnswer": "Mögliche Diagnosen einzugrenzen",
+            "explanation": {
+                "en": "The goal of differential diagnosis is to narrow down the possible diagnoses.",
+                "bn": "ডিফারেনশিয়াল ডায়াগনোসিসের লক্ষ্য হল সম্ভাব্য রোগ নির্ণয়কে সংকীর্ণ করা।",
+                "hi": "विभेदक निदान का लक्ष्य संभावित निदानों को कम करना है।",
+                "ur": "تفریقی تشخیص کا مقصد ممکنہ تشخیص کو کم کرنا ہے۔",
+                "tr": "Ayırıcı tanının amacı, olası tanıları daraltmaktır."
+            },
+            "points": 10,
+            "id": "e35_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage beschreibt am besten, wann eine Diagnose als 'unwahrscheinlich' angesehen wird?",
+                "en": "Which statement best describes when a diagnosis is considered 'unlikely'?",
+                "bn": "কোন বিবৃতিটি সবচেয়ে ভালভাবে বর্ণনা করে যে কখন একটি রোগ নির্ণয়কে 'অসম্ভাব্য' হিসাবে বিবেচনা করা হয়?",
+                "hi": "कौन सा कथन सबसे अच्छी तरह से बताता है कि कब एक निदान को 'असंभव' माना जाता है?",
+                "ur": "کون سا بیان بہترین طور پر بیان کرتا ہے کہ کسی تشخیص کو کب 'غیر متوقع' سمجھا جاتا ہے؟",
+                "tr": "Hangi ifade, bir tanının ne zaman 'olası olmayan' olarak kabul edildiğini en iyi şekilde açıklar?"
+            },
+            "options": [
+                "Wenn es viele passende Symptome gibt",
+                "Wenn es nur wenige passende Symptome gibt",
+                "Wenn die Diagnose bestätigt wurde",
+                "Wenn es keine Tests gibt"
+            ],
+            "correctAnswer": "Wenn es nur wenige passende Symptome gibt",
+            "explanation": {
+                "en": "A diagnosis is considered 'unlikely' when there are few matching symptoms.",
+                "bn": "যখন অল্প সংখ্যক মিলে যাওয়া উপসর্গ থাকে তখন একটি রোগ নির্ণয়কে 'অসম্ভাব্য' হিসাবে বিবেচনা করা হয়।",
+                "hi": "जब कुछ ही मेल खाने वाले लक्षण होते हैं तो एक निदान को 'असंभव' माना जाता है।",
+                "ur": "جب کچھ ہی مماثل علامات ہوں تو ایک تشخیص کو 'غیر متوقع' سمجھا جاتا ہے۔",
+                "tr": "Bir tanı, çok az sayıda eşleşen semptom olduğunda 'olası olmayan' olarak kabul edilir."
+            },
+            "points": 10,
+            "id": "e35_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Ein Patient hat Bauchschmerzen und Fieber. Welche Diagnose wäre am wahrscheinlichsten, wenn alle anderen ausgeschlossen wurden?",
+                "en": "A patient has abdominal pain and fever. Which diagnosis would be most likely if all others have been ruled out?",
+                "bn": "একজন রোগীর পেটে ব্যথা এবং জ্বর আছে। অন্য সবগুলি বাতিল করা হলে কোন রোগ নির্ণয় সবচেয়ে সম্ভাব্য হবে?",
+                "hi": "एक मरीज को पेट दर्द और बुखार है। यदि अन्य सभी को खारिज कर दिया गया है तो कौन सा निदान सबसे संभावित होगा?",
+                "ur": "ایک مریض کو پیٹ میں درد اور بخار ہے۔ اگر دیگر تمام کو مسترد کر دیا گیا ہے تو کون سا تشخیص سب سے زیادہ ممکن ہوگا؟",
+                "tr": "Bir hastanın karın ağrısı ve ateşi var. Diğerlerinin hepsi elenmişse, hangi tanı en olası olurdu?"
+            },
+            "options": [
+                "Migräne",
+                "Appendizitis",
+                "Grippe",
+                "Depression"
+            ],
+            "correctAnswer": "Appendizitis",
+            "explanation": {
+                "en": "Given the symptoms of abdominal pain and fever, appendicitis is the most likely diagnosis if other possibilities are ruled out.",
+                "bn": "পেটে ব্যথা এবং জ্বরের উপসর্গগুলি দেওয়া হলে, অন্য সম্ভাবনাগুলি বাতিল করা হলে অ্যাপেন্ডিসাইটিস সবচেয়ে সম্ভাব্য রোগ নির্ণয়।",
+                "hi": "पेट दर्द और बुखार के लक्षणों को देखते हुए, यदि अन्य संभावनाओं को खारिज कर दिया जाता है तो एपेंडिसाइटिस सबसे संभावित निदान है।",
+                "ur": "پیٹ میں درد اور بخار کی علامات کو دیکھتے ہوئے، اگر دیگر امکانات کو مسترد کر دیا جاتا ہے تو اپینڈیسائٹس سب سے زیادہ ممکنہ تشخیص ہے۔",
+                "tr": "Karın ağrısı ve ateş belirtileri göz önüne alındığında, diğer olasılıklar elenirse apandisit en olası tanıdır."
+            },
+            "points": 10,
+            "id": "e35_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist der nächste Schritt nach der Erstellung einer Differentialdiagnose?",
+                "en": "What is the next step after creating a differential diagnosis?",
+                "bn": "ডিফারেনশিয়াল ডায়াগনোসিস তৈরি করার পরে পরবর্তী পদক্ষেপ কী?",
+                "hi": "विभेदक निदान बनाने के बाद अगला कदम क्या है?",
+                "ur": "تفریقی تشخیص بنانے کے بعد اگلا قدم کیا ہے؟",
+                "tr": "Ayırıcı tanı oluşturduktan sonraki adım nedir?"
+            },
+            "options": [
+                "Behandlung beginnen",
+                "Weitere Untersuchungen durchführen",
+                "Patient entlassen",
+                "Keine weiteren Schritte"
+            ],
+            "correctAnswer": "Weitere Untersuchungen durchführen",
+            "explanation": {
+                "en": "After creating a differential diagnosis, further investigations are needed to confirm or rule out potential diagnoses.",
+                "bn": "ডিফারেনশিয়াল ডায়াগনোসিস তৈরি করার পরে, সম্ভাব্য রোগ নির্ণয় নিশ্চিত বা বাতিল করার জন্য আরও তদন্তের প্রয়োজন।",
+                "hi": "विभेदक निदान बनाने के बाद, संभावित निदान की पुष्टि या अस्वीकार करने के लिए आगे की जांच की आवश्यकता होती है।",
+                "ur": "تفریقی تشخیص بنانے کے بعد، ممکنہ تشخیص کی تصدیق یا تردید کے لیے مزید تفتیش کی ضرورت ہوتی ہے۔",
+                "tr": "Ayırıcı tanı oluşturduktan sonra, potansiyel tanıları doğrulamak veya çürütmek için daha fazla araştırma yapılması gerekir."
+            },
+            "points": 10,
+            "id": "e35_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet es, wenn eine Diagnose 'ausgeschlossen' wurde?",
+                "en": "What does it mean if a diagnosis has been 'ruled out'?",
+                "bn": "যদি একটি রোগ নির্ণয় 'বাতিল' করা হয় তবে এর অর্থ কী?",
+                "hi": "यदि किसी निदान को 'खारिज' कर दिया गया है तो इसका क्या अर्थ है?",
+                "ur": "اگر کسی تشخیص کو 'مسترد' کر دیا گیا ہے تو اس کا کیا مطلب ہے؟",
+                "tr": "Bir tanı 'elenmişse' bu ne anlama gelir?"
+            },
+            "options": [
+                "Sie ist die wahrscheinlichste Diagnose",
+                "Sie ist keine mögliche Erklärung für die Symptome",
+                "Sie muss noch bestätigt werden",
+                "Sie wird wahrscheinlich in Zukunft bestätigt"
+            ],
+            "correctAnswer": "Sie ist keine mögliche Erklärung für die Symptome",
+            "explanation": {
+                "en": "If a diagnosis has been 'ruled out', it means it is not a possible explanation for the symptoms.",
+                "bn": "যদি একটি রোগ নির্ণয় 'বাতিল' করা হয়, তার মানে এটি উপসর্গের জন্য সম্ভাব্য ব্যাখ্যা নয়।",
+                "hi": "यदि किसी निदान को 'खारिज' कर दिया गया है, तो इसका मतलब है कि यह लक्षणों के लिए संभावित स्पष्टीकरण नहीं है।",
+                "ur": "اگر کسی تشخیص کو 'مسترد' کر دیا گیا ہے، تو اس کا مطلب ہے کہ یہ علامات کے لیے ممکنہ وضاحت نہیں ہے۔",
+                "tr": "Bir tanı 'elenmişse', bu semptomlar için olası bir açıklama olmadığı anlamına gelir."
+            },
+            "points": 10,
+            "id": "e35_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches der folgenden Wörter ist ein Synonym für 'Verdacht' im medizinischen Kontext?",
+                "en": "Which of the following words is a synonym for 'suspicion' in a medical context?",
+                "bn": "চিকিৎসা প্রেক্ষাপটে 'সন্দেহ'-এর প্রতিশব্দ কোনটি?",
+                "hi": "चिकित्सा संदर्भ में 'संदेह' का पर्याय कौन सा है?",
+                "ur": "طبی تناظر میں 'شک' کا مترادف کون سا لفظ ہے؟",
+                "tr": "Tıbbi bağlamda 'şüphe' kelimesinin eş anlamlısı hangisidir?"
+            },
+            "options": [
+                "Gewissheit",
+                "Annahme",
+                "Bestätigung",
+                "Ausschluss"
+            ],
+            "correctAnswer": "Annahme",
+            "explanation": {
+                "en": "'Annahme' (assumption) is a synonym for suspicion, as it implies a belief without concrete proof.",
+                "bn": "'Annahme' (অনুমান) সন্দেহের প্রতিশব্দ, কারণ এটি কংক্রিট প্রমাণ ছাড়াই একটি বিশ্বাস বোঝায়।",
+                "hi": "'Annahme' (अनुमान) संदेह का पर्याय है, क्योंकि इसका अर्थ ठोस प्रमाण के बिना एक विश्वास है।",
+                "ur": "'Annahme' (فرض) شک کا مترادف ہے، کیونکہ اس کا مطلب ٹھوس ثبوت کے بغیر ایک عقیدہ ہے۔",
+                "tr": "'Annahme' (varsayım) şüphenin eş anlamlısıdır, çünkü somut bir kanıt olmadan bir inancı ima eder."
+            },
+            "points": 10,
+            "id": "e35_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Gegenteil von 'wahrscheinlich' im medizinischen Kontext?",
+                "en": "What is the opposite of 'likely' in a medical context?",
+                "bn": "চিকিৎসা প্রেক্ষাপটে 'সম্ভাব্য'-এর বিপরীত কি?",
+                "hi": "चिकित्सा संदर्भ में 'संभावित' का विपरीत क्या है?",
+                "ur": "طبی تناظر میں 'ممکنہ' کا مخالف کیا ہے؟",
+                "tr": "Tıbbi bağlamda 'olası'nın zıttı nedir?"
+            },
+            "options": [
+                "Sicher",
+                "Unmöglich",
+                "Bekannt",
+                "Unwahrscheinlich"
+            ],
+            "correctAnswer": "Unwahrscheinlich",
+            "explanation": {
+                "en": "'Unwahrscheinlich' means 'unlikely' which is the opposite of 'wahrscheinlich' (likely).",
+                "bn": "'Unwahrscheinlich' মানে 'অসম্ভাব্য' যা 'wahrscheinlich' (সম্ভাব্য)-এর বিপরীত।",
+                "hi": "'Unwahrscheinlich' का अर्थ है 'असंभव' जो 'wahrscheinlich' (संभावित) का विपरीत है।",
+                "ur": "'Unwahrscheinlich' کا مطلب ہے 'غیر متوقع' جو 'wahrscheinlich' (ممکنہ) کا مخالف ہے۔",
+                "tr": "'Unwahrscheinlich', 'olası olmayan' anlamına gelir ve bu da 'wahrscheinlich' (olası)'nın zıttıdır."
+            },
+            "points": 10,
+            "id": "e35_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die __________ hilft, die richtige Diagnose zu finden, indem verschiedene Möglichkeiten in Betracht gezogen werden.",
+                "en": "The __________ helps to find the correct diagnosis by considering different possibilities.",
+                "bn": "বিভিন্ন সম্ভাবনা বিবেচনা করে সঠিক রোগ নির্ণয় খুঁজে বের করতে __________ সাহায্য করে।",
+                "hi": "विभिन्न संभावनाओं पर विचार करके सही निदान खोजने में __________ मदद करता है।",
+                "ur": "مختلف امکانات پر غور کر کے درست تشخیص تلاش کرنے میں __________ مدد کرتا ہے۔",
+                "tr": "__________ farklı olasılıkları göz önünde bulundurarak doğru tanıyı bulmaya yardımcı olur."
+            },
+            "correctAnswer": "Differentialdiagnose",
+            "explanation": {
+                "en": "The 'Differentialdiagnose' helps to find the correct diagnosis by considering different possibilities.",
+                "bn": "'Differentialdiagnose' বিভিন্ন সম্ভাবনা বিবেচনা করে সঠিক রোগ নির্ণয় খুঁজে বের করতে সাহায্য করে।",
+                "hi": "'Differentialdiagnose' विभिन्न संभावनाओं पर विचार करके सही निदान खोजने में मदद करता है।",
+                "ur": "'Differentialdiagnose' مختلف امکانات پر غور کر کے درست تشخیص تلاش کرنے میں مدد کرتا ہے۔",
+                "tr": "'Differentialdiagnose', farklı olasılıkları göz önünde bulundurarak doğru tanıyı bulmaya yardımcı olur."
+            },
+            "points": 10,
+            "id": "e35_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Wenn eine Diagnose sehr unwahrscheinlich ist, sagt man, sie ist ___________.",
+                "en": "If a diagnosis is very unlikely, it is said to be ___________.",
+                "bn": "যদি একটি রোগ নির্ণয় খুবই অসম্ভাব্য হয়, তবে বলা হয় এটি ___________।",
+                "hi": "यदि एक निदान बहुत ही असंभव है, तो यह कहा जाता है कि यह ___________ है।",
+                "ur": "اگر کسی تشخیص کا امکان بہت کم ہو تو اسے ___________ کہا جاتا ہے۔",
+                "tr": "Bir tanı çok olası değilse, ___________ olduğu söylenir."
+            },
+            "correctAnswer": "unwahrscheinlich",
+            "explanation": {
+                "en": "If a diagnosis is very unlikely, it is said to be 'unwahrscheinlich'.",
+                "bn": "যদি একটি রোগ নির্ণয় খুবই অসম্ভাব্য হয়, তবে বলা হয় এটি 'unwahrscheinlich'।",
+                "hi": "यदि एक निदान बहुत ही असंभव है, तो यह कहा जाता है कि यह 'unwahrscheinlich' है।",
+                "ur": "اگر کسی تشخیص کا امکان بہت کم ہو تو اسے 'unwahrscheinlich' کہا جاتا ہے۔",
+                "tr": "Bir tanı çok olası değilse, 'unwahrscheinlich' olduğu söylenir."
+            },
+            "points": 10,
+            "id": "e35_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein starker ____________ besteht, dass der Patient eine Allergie hat, da er Hautausschlag und Atemnot zeigt.",
+                "en": "There is a strong ____________ that the patient has an allergy, as he is showing rash and shortness of breath.",
+                "bn": "রোগীর অ্যালার্জি আছে বলে একটি জোরালো ____________ আছে, কারণ তার ফুসকুড়ি এবং শ্বাসকষ্ট দেখা যাচ্ছে।",
+                "hi": "एक मजबूत ____________ है कि रोगी को एलर्जी है, क्योंकि वह त्वचा पर चकत्ते और सांस की तकलीफ दिखा रहा है।",
+                "ur": "ایک مضبوط ____________ ہے کہ مریض کو الرجی ہے، کیونکہ وہ جلد پر خارش اور سانس کی قلت ظاہر کر رہا ہے۔",
+                "tr": "Hastanın alerjisi olduğuna dair güçlü bir ____________ var, çünkü kızarıklık ve nefes darlığı gösteriyor."
+            },
+            "correctAnswer": "Verdacht",
+            "explanation": {
+                "en": "There is a strong 'Verdacht' (suspicion) that the patient has an allergy.",
+                "bn": "রোগীর অ্যালার্জি আছে বলে একটি জোরালো 'Verdacht' (সন্দেহ) আছে।",
+                "hi": "एक मजबूत 'Verdacht' (संदेह) है कि रोगी को एलर्जी है।",
+                "ur": "ایک مضبوط 'Verdacht' (شک) ہے کہ مریض کو الرجی ہے۔",
+                "tr": "Hastanın alerjisi olduğuna dair güçlü bir 'Verdacht' (şüphe) var."
+            },
+            "points": 10,
+            "id": "e35_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Bevor man eine Diagnose bestätigen kann, muss man andere Möglichkeiten ___________.",
+                "en": "Before one can confirm a diagnosis, one must ___________ other possibilities.",
+                "bn": "রোগ নির্ণয় নিশ্চিত করার আগে, অন্য সম্ভাবনাগুলিকে ___________ করতে হবে।",
+                "hi": "एक निदान की पुष्टि करने से पहले, अन्य संभावनाओं को ___________ करना होगा।",
+                "ur": "تشخیص کی تصدیق کرنے سے پہلے، دیگر امکانات کو ___________ کرنا ہوگا۔",
+                "tr": "Bir tanıyı doğrulamadan önce, diğer olasılıkları ___________ gerekir."
+            },
+            "correctAnswer": "ausschließen",
+            "explanation": {
+                "en": "Before one can confirm a diagnosis, one must 'ausschließen' (rule out) other possibilities.",
+                "bn": "রোগ নির্ণয় নিশ্চিত করার আগে, অন্য সম্ভাবনাগুলিকে 'ausschließen' (বাদ দেওয়া) করতে হবে।",
+                "hi": "एक निदान की पुष्टि करने से पहले, अन्य संभावनाओं को 'ausschließen' (खारिज करना) होगा।",
+                "ur": "تشخیص کی تصدیق کرنے سے پہلے، دیگر امکانات کو 'ausschließen' (مسترد کرنا) ہوگا۔",
+                "tr": "Bir tanıyı doğrulamadan önce, diğer olasılıkları 'ausschließen' (eleme) gerekir."
+            },
+            "points": 10,
+            "id": "e35_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Nachdem alle anderen Ursachen ausgeschlossen wurden, ist diese Diagnose am ___________.",
+                "en": "After all other causes have been ruled out, this diagnosis is the most ___________.",
+                "bn": "অন্যান্য সমস্ত কারণ বাতিল করার পরে, এই রোগ নির্ণয়টি সবচেয়ে ___________।",
+                "hi": "अन्य सभी कारणों को खारिज करने के बाद, यह निदान सबसे ___________ है।",
+                "ur": "دیگر تمام وجوہات کو مسترد کرنے کے بعد، یہ تشخیص سب سے ___________ ہے۔",
+                "tr": "Diğer tüm nedenler elendikten sonra, bu tanı en ___________ olanıdır."
+            },
+            "correctAnswer": "wahrscheinlich",
+            "explanation": {
+                "en": "After all other causes have been ruled out, this diagnosis is the most 'wahrscheinlich' (likely).",
+                "bn": "অন্যান্য সমস্ত কারণ বাতিল করার পরে, এই রোগ নির্ণয়টি সবচেয়ে 'wahrscheinlich' (সম্ভাব্য)।",
+                "hi": "अन्य सभी कारणों को खारिज करने के बाद, यह निदान सबसे 'wahrscheinlich' (संभावित) है।",
+                "ur": "دیگر تمام وجوہات کو مسترد کرنے کے بعد، یہ تشخیص سب سے 'wahrscheinlich' (ممکنہ) ہے۔",
+                "tr": "Diğer tüm nedenler elendikten sonra, bu tanı en 'wahrscheinlich' (olası) olanıdır."
+            },
+            "points": 10,
+            "id": "e35_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Differentialdiagnose umfasst eine Vielzahl von möglichen Ursachen.",
+                "en": "The differential diagnosis includes a variety of possible causes.",
+                "bn": "ডিফারেনশিয়াল ডায়াগনোসিসে বিভিন্ন সম্ভাব্য কারণ অন্তর্ভুক্ত রয়েছে।",
+                "hi": "विभेदक निदान में कई संभावित कारण शामिल हैं।",
+                "ur": "تفریقی تشخیص میں متعدد ممکنہ وجوہات شامل ہیں۔",
+                "tr": "Ayırıcı tanı, çeşitli olası nedenleri içerir."
+            },
+            "correctAnswer": "The differential diagnosis includes a variety of possible causes.",
+            "explanation": {
+                "en": "Correct translation of the sentence.",
+                "bn": "বাক্যের সঠিক অনুবাদ।",
+                "hi": "वाक्य का सही अनुवाद।",
+                "ur": "جملے کا صحیح ترجمہ۔",
+                "tr": "Cümlenin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e35_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Es ist unwahrscheinlich, dass der Patient an dieser seltenen Krankheit leidet.",
+                "en": "It is unlikely that the patient is suffering from this rare disease.",
+                "bn": "রোগীর এই বিরল রোগে আক্রান্ত হওয়ার সম্ভাবনা কম।",
+                "hi": "यह संभावना नहीं है कि रोगी इस दुर्लभ बीमारी से पीड़ित है।",
+                "ur": "یہ امکان نہیں ہے کہ مریض اس نایاب بیماری میں مبتلا ہے۔",
+                "tr": "Hastanın bu nadir hastalıktan muzdarip olması olası değildir."
+            },
+            "correctAnswer": "It is unlikely that the patient is suffering from this rare disease.",
+            "explanation": {
+                "en": "Correct translation of the sentence.",
+                "bn": "বাক্যের সঠিক অনুবাদ।",
+                "hi": "वाक्य का सही अनुवाद।",
+                "ur": "جملے کا صحیح ترجمہ۔",
+                "tr": "Cümlenin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e35_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Wir haben die Diagnose einer Lungenentzündung ausgeschlossen.",
+                "en": "We have ruled out the diagnosis of pneumonia.",
+                "bn": "আমরা নিউমোনিয়ার রোগ নির্ণয় বাতিল করেছি।",
+                "hi": "हमने निमोनिया के निदान को खारिज कर दिया है।",
+                "ur": "ہم نے نمونیا کی تشخیص کو مسترد کر دیا ہے۔",
+                "tr": "Pnömoni tanısını eledik."
+            },
+            "correctAnswer": "We have ruled out the diagnosis of pneumonia.",
+            "explanation": {
+                "en": "Correct translation of the sentence.",
+                "bn": "বাক্যের সঠিক অনুবাদ।",
+                "hi": "वाक्य का सही अनुवाद।",
+                "ur": "جملے کا صحیح ترجمہ۔",
+                "tr": "Cümlenin doğru çevirisi."
+            },
+            "points": 10,
+            "id": "e35_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

@@ -1,19 +1,1560 @@
-{"id":"section_19","phaseId":"phase2","order":19,"titleDe":"Laborbefunde beschreiben","title":{"en":"Describing Lab Results","bn":"ল্যাব ফলাফল বর্ণনা","hi":"लैब परिणाम वर्णन","ur":"لیب نتائج بیان کرنا","tr":"Lab Sonuçlarını Açıklama"},"level":"B1","estimatedMinutes":35,"vocabulary":[
-{"id":"v19_01","germanTerm":"Blutbild","article":"das","plural":"Blutbilder","translation":{"en":"Blood Count","bn":"রক্ত গণনা","hi":"रक्त गणना","ur":"خون کی گنتی","tr":"Kan sayımı"},"exampleSentence":"Das Blutbild zeigt erhöhte Leukozyten.","audioUrl":"audio/sections/section_19/v19_01.mp3"},
-{"id":"v19_02","germanTerm":"Hämoglobin","article":"das","plural":"-","translation":{"en":"Hemoglobin","bn":"হিমোগ্লোবিন","hi":"हीमोग्लोबिन","ur":"ہیموگلوبن","tr":"Hemoglobin"},"exampleSentence":"Der Hämoglobin-Wert ist niedrig.","audioUrl":"audio/sections/section_19/v19_02.mp3"},
-{"id":"v19_03","germanTerm":"Leukozyten","article":"die","plural":"-","translation":{"en":"White Blood Cells","bn":"শ্বেত রক্তকণিকা","hi":"श्वेत रक्त कोशिकाएं","ur":"سفید خون کے خلیے","tr":"Beyaz kan hücreleri"},"exampleSentence":"Die Leukozyten sind erhöht.","audioUrl":"audio/sections/section_19/v19_03.mp3"},
-{"id":"v19_04","germanTerm":"Thrombozyten","article":"die","plural":"-","translation":{"en":"Platelets","bn":"প্লেটলেট","hi":"प्लेटलेट्स","ur":"پلیٹلیٹس","tr":"Trombositler"},"exampleSentence":"Die Thrombozyten sind im Normbereich.","audioUrl":"audio/sections/section_19/v19_04.mp3"},
-{"id":"v19_05","germanTerm":"Kreatinin","article":"das","plural":"-","translation":{"en":"Creatinine","bn":"ক্রিয়েটিনিন","hi":"क्रिएटिनिन","ur":"کریٹینین","tr":"Kreatinin"},"exampleSentence":"Das Kreatinin ist leicht erhöht.","audioUrl":"audio/sections/section_19/v19_05.mp3"},
-{"id":"v19_06","germanTerm":"CRP","article":"das","plural":"-","translation":{"en":"C-Reactive Protein","bn":"সি-রিঅ্যাক্টিভ প্রোটিন","hi":"सी-रिएक्टिव प्रोटीन","ur":"سی ری ایکٹیو پروٹین","tr":"C-Reaktif Protein"},"exampleSentence":"Das CRP deutet auf eine Infektion hin.","audioUrl":"audio/sections/section_19/v19_06.mp3"},
-{"id":"v19_07","germanTerm":"erhöht","article":"-","plural":"-","translation":{"en":"Elevated","bn":"বৃদ্ধি","hi":"बढ़ा हुआ","ur":"بڑھا ہوا","tr":"Yüksek"},"exampleSentence":"Der Wert ist erhöht.","audioUrl":"audio/sections/section_19/v19_07.mp3"},
-{"id":"v19_08","germanTerm":"erniedrigt","article":"-","plural":"-","translation":{"en":"Decreased","bn":"হ্রাস","hi":"कम","ur":"کم","tr":"Düşük"},"exampleSentence":"Der Wert ist erniedrigt.","audioUrl":"audio/sections/section_19/v19_08.mp3"},
-{"id":"v19_09","germanTerm":"Normbereich","article":"der","plural":"Normbereiche","translation":{"en":"Normal Range","bn":"স্বাভাবিক সীমা","hi":"सामान्य सीमा","ur":"نارمل رینج","tr":"Normal aralık"},"exampleSentence":"Alle Werte sind im Normbereich.","audioUrl":"audio/sections/section_19/v19_09.mp3"},
-{"id":"v19_10","germanTerm":"Leberwerte","article":"die","plural":"-","translation":{"en":"Liver Values","bn":"লিভার মান","hi":"लिवर मान","ur":"جگر کی قدریں","tr":"Karaciğer değerleri"},"exampleSentence":"Die Leberwerte sind auffällig.","audioUrl":"audio/sections/section_19/v19_10.mp3"}
-],"dialogues":[{"id":"d19_01","title":{"en":"Explaining Lab Results to Patient","bn":"রোগীকে ল্যাব ফলাফল ব্যাখ্যা","hi":"मरीज को लैब परिणाम समझाना","ur":"مریض کو لیب نتائج سمجھانا","tr":"Hastaya Lab Sonuçlarını Açıklama"},"context":{"en":"Doctor explains blood test results to patient."},"lines":[
-{"speaker":"Arzt","germanText":"Ihre Blutwerte sind da. Das Blutbild ist unauffällig.","translation":{"en":"Your blood values are ready. The blood count is normal.","bn":"আপনার রক্তের মান এসেছে। ব্লাড কাউন্ট স্বাভাবিক।","hi":"आपके रक्त के परिणाम आ गए हैं। रक्त गणना सामान्य है।","ur":"آپ کے خون کے نتائج آ گئے ہیں۔ خون کی گنتی نارمل ہے۔","tr":"Kan değerleriniz geldi. Kan sayımı normal."}},
-{"speaker":"Patient","germanText":"Und die Leberwerte?","translation":{"en":"And the liver values?","bn":"এবং লিভারের মান?","hi":"और लिवर के मान?","ur":"اور جگر کی قدریں؟","tr":"Peki karaciğer değerleri?"}},
-{"speaker":"Arzt","germanText":"Die sind leicht erhöht. Wir sollten das kontrollieren.","translation":{"en":"Those are slightly elevated. We should monitor that.","bn":"সেগুলি সামান্য বেশি। আমাদের এটি পর্যবেক্ষণ করা উচিত।","hi":"वे थोड़े बढ़े हुए हैं। हमें इसकी निगरानी करनी चाहिए।","ur":"وہ تھوڑی بڑھی ہوئی ہیں۔ ہمیں اس پر نظر رکھنی چاہیے۔","tr":"Bunlar biraz yüksek. Bunu takip etmeliyiz."}}
-],"audioUrl":"audio/sections/section_19/dialogue.mp3","videoUrl":"video/sections/section_19/dialogue.mp4"}],"exercises":[
-{"id":"e19_01","type":"multipleChoice","question":{"de":"Was bedeutet 'erhöht'?","en":"What does 'erhöht' mean?","bn":"'erhöht' মানে কী?","hi":"'erhöht' का क्या मतलब है?","ur":"'erhöht' کا کیا مطلب ہے؟","tr":"'erhöht' ne demek?"},"options":["Elevated","Decreased","Normal"],"correctAnswer":"Elevated","explanation":{"en":"'Erhöht' means elevated or increased above normal range."},"points":10},
-{"id":"e19_02","type":"fillBlank","question":{"en":"Die _____ sind im Normbereich. (Platelets)"},"correctAnswer":"Thrombozyten","explanation":{"en":"'Thrombozyten' is the German word for platelets."},"points":10}
-],"media":{"introVideoUrl":"video/sections/section_19/intro.mp4","vocabularyVideoUrl":"video/sections/section_19/vocabulary.mp4"}}
+{
+    "id": "section_19",
+    "phaseId": "phase2",
+    "order": 19,
+    "titleDe": "Laborbefunde beschreiben",
+    "title": {
+        "en": "Lab Results: Blood Count, Hemoglobin, White Blood Cells, Platelets, CRP, Creatinine, Liver Values",
+        "bn": "ল্যাব ফলাফল: রক্তের গণনা, হিমোগ্লোবিন, শ্বেত রক্তকণিকা, প্লেটলেট, সিআরপি, ক্রিয়েটিনিন, লিভারের মান",
+        "hi": "प्रयोगशाला परिणाम: रक्त गणना, हीमोग्लोबिन, श्वेत रक्त कोशिकाएं, प्लेटलेट्स, सीआरपी, क्रिएटिनिन, लिवर मान",
+        "ur": "لیب نتائج: خون کی گنتی، ہیموگلوبن، سفید خون کے خلیات، پلیٹلیٹس، سی آر پی، کریٹائنین، جگر کی قدریں",
+        "tr": "Laboratuvar Sonuçları: Kan Sayımı, Hemoglobin, Beyaz Kan Hücreleri, Trombositler, CRP, Kreatinin, Karaciğer Değerleri"
+    },
+    "description": {
+        "en": "This section covers the interpretation and terminology related to common blood test results in German medical contexts.",
+        "bn": "এই বিভাগে জার্মান চিকিৎসা প্রেক্ষাপটে সাধারণ রক্তের পরীক্ষার ফলাফলের ব্যাখ্যা এবং পরিভাষা আলোচনা করা হয়েছে।",
+        "hi": "यह अनुभाग जर्मन चिकित्सा संदर्भों में सामान्य रक्त परीक्षण परिणामों की व्याख्या और शब्दावली को शामिल करता है।",
+        "ur": "یہ سیکشن جرمن طبی سیاق و سباق میں خون کے عام ٹیسٹ کے نتائج کی تشریح اور اصطلاحات کا احاطہ کرتا ہے۔",
+        "tr": "Bu bölüm, Alman tıbbi bağlamlarında yaygın kan testi sonuçlarının yorumlanması ve terminolojisini kapsar.",
+        "de": "Dieser Abschnitt behandelt die Interpretation und Terminologie gängiger Bluttestergebnisse im deutschen medizinischen Kontext."
+    },
+    "level": "B1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "This section provides a comprehensive overview of interpreting common lab results. You will learn to understand the German terminology for key blood values and their significance in diagnosing and monitoring patient health.",
+            "bn": "এই বিভাগটি সাধারণ ল্যাব ফলাফলগুলির ব্যাখ্যা করার একটি বিস্তৃত ওভারভিউ প্রদান করে। আপনি মূল রক্তের মানগুলির জন্য জার্মান পরিভাষা এবং রোগীর স্বাস্থ্য নির্ণয় ও নিরীক্ষণে তাদের তাৎপর্য বুঝতে শিখবেন।",
+            "hi": "यह खंड सामान्य लैब परिणामों की व्याख्या करने का एक व्यापक अवलोकन प्रदान करता है। आप प्रमुख रक्त मूल्यों के लिए जर्मन शब्दावली और रोगी के स्वास्थ्य के निदान और निगरानी में उनके महत्व को समझना सीखेंगे।",
+            "ur": "یہ سیکشن لیب کے عام نتائج کی تشریح کا ایک جامع جائزہ فراہم کرتا ہے۔ آپ خون کی اہم اقدار کے لیے جرمن اصطلاحات اور مریض کی صحت کی تشخیص اور نگرانی میں ان کی اہمیت کو سمجھنا سیکھیں گے۔",
+            "tr": "Bu bölüm, yaygın laboratuvar sonuçlarını yorumlamaya kapsamlı bir genel bakış sunmaktadır. Temel kan değerleri için Almanca terminolojiyi ve hastanın sağlığını teşhis ve izlemedeki önemini anlamayı öğreneceksiniz."
+        },
+        "grammarFocus": {
+            "en": [
+                "Understanding the use of the genitive case with prepositions related to lab results (e.g., 'aufgrund des Blutbildes').",
+                "Practice using adjective endings correctly when describing lab values (e.g., 'erhöhte Leberwerte')."
+            ],
+            "bn": [
+                "ল্যাব ফলাফলের সাথে সম্পর্কিত উপসর্গগুলির সাথে জেনেটিভ কেসের ব্যবহার বোঝা (যেমন, 'aufgrund des Blutbildes' )।",
+                "ল্যাব মানগুলি বর্ণনা করার সময় সঠিকভাবে বিশেষণ শেষ ব্যবহার করার অনুশীলন করা (যেমন, 'erhöhte Leberwerte' )। "
+            ],
+            "hi": [
+                "प्रयोगशाला परिणामों से संबंधित प्रस्तावों के साथ जेनिटिव केस के उपयोग को समझना (उदाहरण के लिए, 'aufgrund des Blutbildes')।",
+                "प्रयोगशाला मूल्यों का वर्णन करते समय विशेषण अंत का सही ढंग से उपयोग करने का अभ्यास करें (उदाहरण के लिए, 'erhöhte Leberwerte')।"
+            ],
+            "ur": [
+                "لیب کے نتائج سے متعلق اصطلاحات کے ساتھ جینیٹو کیس کے استعمال کو سمجھنا (مثال کے طور پر، 'aufgrund des Blutbildes')۔",
+                "لیب کی اقدار کو بیان کرتے وقت صفت کے اختتام کو درست طریقے سے استعمال کرنے کی مشق کریں (مثال کے طور پر، 'erhöhte Leberwerte')۔"
+            ],
+            "tr": [
+                "Laboratuvar sonuçlarıyla ilgili edatlarla genitif halinin kullanımını anlamak (örn. 'aufgrund des Blutbildes').",
+                "Laboratuvar değerlerini tanımlarken sıfat tamlamalarını doğru kullanma alıştırması yapmak (örn. 'erhöhte Leberwerte')."
+            ]
+        },
+        "culturalNotes": {
+            "en": "In German hospitals, it's common for doctors to thoroughly explain lab results to patients, fostering a transparent and informed healthcare approach.",
+            "bn": "জার্মান হাসপাতালগুলিতে, ডাক্তারদের পক্ষে রোগীদের ল্যাব ফলাফলগুলি পুঙ্খানুপুঙ্খভাবে ব্যাখ্যা করা সাধারণ, যা একটি স্বচ্ছ এবং সচেতন স্বাস্থ্যসেবা পদ্ধতির প্রচার করে।",
+            "hi": "जर्मन अस्पतालों में, डॉक्टरों के लिए रोगियों को लैब के परिणामों को अच्छी तरह से समझाना आम बात है, जो एक पारदर्शी और सूचित स्वास्थ्य सेवा दृष्टिकोण को बढ़ावा देता है।",
+            "ur": "جرمن ہسپتالوں میں، ڈاکٹروں کے لیے مریضوں کو لیب کے نتائج کو اچھی طرح سے سمجھانا عام بات ہے، جو ایک شفاف اور باخبر صحت کی دیکھ بھال کے طریقہ کار کو فروغ دیتا ہے۔",
+            "tr": "Alman hastanelerinde, doktorların hastalara laboratuvar sonuçlarını iyice açıklaması yaygındır ve şeffaf ve bilinçli bir sağlık hizmeti yaklaşımı teşvik edilir."
+        },
+        "summary": {
+            "en": "By understanding the German terminology and interpretation of common lab results, you can effectively communicate about patient health with German-speaking medical professionals.",
+            "bn": "সাধারণ ল্যাব ফলাফলের জার্মান পরিভাষা এবং ব্যাখ্যা বোঝার মাধ্যমে, আপনি জার্মান-ভাষী মেডিকেল পেশাদারদের সাথে রোগীর স্বাস্থ্য সম্পর্কে কার্যকরভাবে যোগাযোগ করতে পারেন।",
+            "hi": "सामान्य लैब परिणामों की जर्मन शब्दावली और व्याख्या को समझकर, आप जर्मन भाषी चिकित्सा पेशेवरों के साथ रोगी के स्वास्थ्य के बारे में प्रभावी ढंग से संवाद कर सकते हैं।",
+            "ur": "عام لیب کے نتائج کی جرمن اصطلاحات اور تشریح کو سمجھ کر، آپ جرمن بولنے والے طبی پیشہ ور افراد کے ساتھ مریض کی صحت کے بارے میں مؤثر طریقے سے بات چیت کر سکتے ہیں۔",
+            "tr": "Yaygın laboratuvar sonuçlarının Almanca terminolojisini ve yorumunu anlayarak, Almanca konuşan tıp uzmanlarıyla hasta sağlığı hakkında etkili bir şekilde iletişim kurabilirsiniz."
+        },
+        "learningObjectives": [
+            "Identify key German terms for common blood test components.",
+            "Explain the significance of abnormal lab values in German.",
+            "Describe the purpose of each blood test component.",
+            "Ask questions about lab results using appropriate German medical terminology."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "das Blutbild",
+            "article": "das",
+            "plural": "die Blutbilder",
+            "pronunciation": "/ˈbluːtˌbɪlt/",
+            "category": "noun",
+            "translation": {
+                "en": "blood count",
+                "bn": "রক্ত গণনা (Rokto gonona)",
+                "hi": "खून की गिनती (khoon kee ginatee)",
+                "ur": "خون کی گنتی (khoon ki gintee)",
+                "tr": "kan sayımı"
+            },
+            "exampleSentence": "Wir müssen das Blutbild des Patienten schnellstmöglich analysieren.",
+            "exampleTranslation": {
+                "en": "We need to analyze the patient's blood count as quickly as possible.",
+                "bn": "আমাদের যত তাড়াতাড়ি সম্ভব রোগীর রক্ত গণনা বিশ্লেষণ করতে হবে।",
+                "hi": "हमें जल्द से जल्द रोगी के खून की गिनती का विश्लेषण करना होगा।",
+                "ur": "ہمیں جلد از جلد مریض کے خون کی گنتی کا تجزیہ کرنے کی ضرورت ہے۔",
+                "tr": "Hastanın kan sayımını en kısa sürede analiz etmemiz gerekiyor."
+            },
+            "id": "v19_01"
+        },
+        {
+            "germanTerm": "das Hämoglobin",
+            "article": "das",
+            "plural": "die Hämoglobine",
+            "pronunciation": "/hɛmoɡloˈbiːn/",
+            "category": "noun",
+            "translation": {
+                "en": "hemoglobin",
+                "bn": "হিমোগ্লোবিন (Himoglobina)",
+                "hi": "हीमोग्लोबिन (heemoglobin)",
+                "ur": "ہیموگلوبن (hemoglobin)",
+                "tr": "hemoglobin"
+            },
+            "exampleSentence": "Der Hämoglobinwert des Patienten ist niedrig.",
+            "exampleTranslation": {
+                "en": "The patient's hemoglobin level is low.",
+                "bn": "রোগীর হিমোগ্লোবিনের মাত্রা কম।",
+                "hi": "रोगी का हीमोग्लोबिन स्तर कम है।",
+                "ur": "مریض کی ہیموگلوبن کی سطح کم ہے۔",
+                "tr": "Hastanın hemoglobin seviyesi düşük."
+            },
+            "id": "v19_02"
+        },
+        {
+            "germanTerm": "die Leukozyten",
+            "article": "die",
+            "plural": "die Leukozyten",
+            "pronunciation": "/lɔɪ̯koˈtsyːtn̩/",
+            "category": "noun",
+            "translation": {
+                "en": "leukocytes (white blood cells)",
+                "bn": "লিউকোসাইট (সাদা রক্ত কোষ) (Liukosaita (sada rakta kosha))",
+                "hi": "ल्यूकोसाइट्स (श्वेत रक्त कोशिकाएँ) (lyookosaits (shvet rakt koshikaen))",
+                "ur": "لیوکوائٹس (سفید خون کے خلیے) (leukocytes (safed khoon ke khaliye))",
+                "tr": "lökositler (beyaz kan hücreleri)"
+            },
+            "exampleSentence": "Eine erhöhte Anzahl von Leukozyten deutet auf eine Infektion hin.",
+            "exampleTranslation": {
+                "en": "An elevated number of leukocytes indicates an infection.",
+                "bn": "লিউকোসাইটের একটি উচ্চ সংখ্যা সংক্রমণ নির্দেশ করে।",
+                "hi": "ल्यूकोसाइट्स की एक बढ़ी हुई संख्या संक्रमण का संकेत देती है।",
+                "ur": "لیوکوائٹس کی ایک بڑھی ہوئی تعداد انفیکشن کی نشاندہی کرتی ہے۔",
+                "tr": "Yüksek sayıda lökosit, bir enfeksiyona işaret eder."
+            },
+            "id": "v19_03"
+        },
+        {
+            "germanTerm": "die Thrombozyten",
+            "article": "die",
+            "plural": "die Thrombozyten",
+            "pronunciation": "/tʁɔmboˈtsyːtn̩/",
+            "category": "noun",
+            "translation": {
+                "en": "thrombocytes (platelets)",
+                "bn": "থ্রম্বোসাইট (প্লেটলেটস) (Thrombosaita (pletaletas))",
+                "hi": "थ्रोम्बोसाइट्स (प्लेटलेट्स) (thromboasaits (pletalets))",
+                "ur": "تھرومبوسائٹس (پلیٹلیٹس) (thrombocytes (platelets))",
+                "tr": "trombositler (plateletler)"
+            },
+            "exampleSentence": "Die Thrombozytenzahl ist zu niedrig, wir müssen auf Blutungen achten.",
+            "exampleTranslation": {
+                "en": "The platelet count is too low, we have to watch out for bleeding.",
+                "bn": "প্লেটলেটের সংখ্যা খুব কম, আমাদের রক্তপাতের দিকে নজর রাখতে হবে।",
+                "hi": "प्लेटलेट की संख्या बहुत कम है, हमें खून बहने पर ध्यान देना होगा।",
+                "ur": "پلیٹلیٹ کی تعداد بہت کم ہے، ہمیں خون بہنے پر نظر رکھنی ہوگی۔",
+                "tr": "Trombosit sayısı çok düşük, kanamaya dikkat etmeliyiz."
+            },
+            "id": "v19_04"
+        },
+        {
+            "germanTerm": "das CRP",
+            "article": "das",
+            "plural": "die CRPs",
+            "pronunciation": "/tseː ʔɛʁ ˈpeː/",
+            "category": "noun",
+            "translation": {
+                "en": "CRP (C-reactive protein)",
+                "bn": "সিআরপি (সি-রিঅ্যাকটিভ প্রোটিন) (Siarapi (si-riakṭibha prōṭina))",
+                "hi": "सीआरपी (सी-रिएक्टिव प्रोटीन) (seearapee (see-riektiv proteen))",
+                "ur": "سی آر پی (سی-ری ایکٹیو پروٹین) (CRP (C-reactive protein))",
+                "tr": "CRP (C-reaktif protein)"
+            },
+            "exampleSentence": "Ein erhöhter CRP-Wert deutet auf eine Entzündung hin.",
+            "exampleTranslation": {
+                "en": "An elevated CRP level indicates inflammation.",
+                "bn": "একটি উচ্চতর সিআরপি স্তর প্রদাহ নির্দেশ করে।",
+                "hi": "एक ऊंचा सीआरपीएफ स्तर सूजन का संकेत देता है।",
+                "ur": "ایک بلند CRP سطح سوزش کی نشاندہی کرتی ہے۔",
+                "tr": "Yüksek bir CRP seviyesi iltihaplanmaya işaret eder."
+            },
+            "id": "v19_05"
+        },
+        {
+            "germanTerm": "das Kreatinin",
+            "article": "das",
+            "plural": "die Kreatinine",
+            "pronunciation": "/kʁeatiˈniːn/",
+            "category": "noun",
+            "translation": {
+                "en": "creatinine",
+                "bn": "ক্রিয়েটিনিন (Kriẏēṭinina)",
+                "hi": "क्रिएटिनिन (krietinin)",
+                "ur": "کریٹینائن (creatinine)",
+                "tr": "kreatinin"
+            },
+            "exampleSentence": "Das Kreatinin ist erhöht, was auf eine Nierenfunktionsstörung hinweist.",
+            "exampleTranslation": {
+                "en": "The creatinine is elevated, which indicates a kidney dysfunction.",
+                "bn": "ক্রিয়েটিনিন বেড়েছে, যা কিডনি কর্মহীনতার ইঙ্গিত দেয়।",
+                "hi": "क्रिएटिनिन बढ़ गया है, जो किडनी की शिथिलता का संकेत देता है।",
+                "ur": "کریٹینائن بڑھ گیا ہے، جو گردے کی خرابی کی نشاندہی کرتا ہے۔",
+                "tr": "Kreatinin yükselmiş, bu da böbrek fonksiyon bozukluğuna işaret ediyor."
+            },
+            "id": "v19_06"
+        },
+        {
+            "germanTerm": "die Leberwerte",
+            "article": "die",
+            "plural": "die Leberwerte",
+            "pronunciation": "/ˈleːbɐˌveːɐ̯tə/",
+            "category": "noun",
+            "translation": {
+                "en": "liver values (liver enzymes)",
+                "bn": "লিভারের মান (লিভারের এনজাইম) (Libharēra māna (libharēra ēnajā'ima))",
+                "hi": "जिगर मूल्य (जिगर एंजाइम) (jigar mooly (jigar enjaim))",
+                "ur": "جگر کی اقدار (جگر کے انزائم) (jigar ki aqdar (jigar ke enzyme))",
+                "tr": "karaciğer değerleri (karaciğer enzimleri)"
+            },
+            "exampleSentence": "Die Leberwerte sind stark erhöht, wir müssen die Ursache finden.",
+            "exampleTranslation": {
+                "en": "The liver values are severely elevated, we need to find the cause.",
+                "bn": "লিভারের মানগুলি মারাত্মকভাবে বেড়েছে, আমাদের কারণ খুঁজে বের করতে হবে।",
+                "hi": "जिगर के मूल्य गंभीर रूप से बढ़ गए हैं, हमें कारण खोजने की जरूरत है।",
+                "ur": "جگر کی اقدار شدید طور پر بڑھ گئی ہیں، ہمیں وجہ معلوم کرنے کی ضرورت ہے۔",
+                "tr": "Karaciğer değerleri oldukça yüksek, nedeni bulmamız gerekiyor."
+            },
+            "id": "v19_07"
+        },
+        {
+            "germanTerm": "der Normwert",
+            "article": "der",
+            "plural": "die Normwerte",
+            "pronunciation": "/ˈnɔʁmˌveːɐ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "normal value",
+                "bn": "স্বাভাবিক মান (Shvabhabika mana)",
+                "hi": "सामान्य मूल्य (saamaany mooly)",
+                "ur": "معمولی قیمت (mamooli qeemat)",
+                "tr": "normal değer"
+            },
+            "exampleSentence": "Der Wert liegt über dem Normwert.",
+            "exampleTranslation": {
+                "en": "The value is above the normal value.",
+                "bn": "মান স্বাভাবিক মানের উপরে।",
+                "hi": "मान सामान्य मूल्य से ऊपर है।",
+                "ur": "قدر معمول کی قیمت سے اوپر ہے۔",
+                "tr": "Değer normal değerin üzerinde."
+            },
+            "id": "v19_08"
+        },
+        {
+            "germanTerm": "die Entzündung",
+            "article": "die",
+            "plural": "die Entzündungen",
+            "pronunciation": "/ɛntˈtsʏndʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "inflammation",
+                "bn": "প্রদাহ (Pradaha)",
+                "hi": "सूजन (soojan)",
+                "ur": "سوزش (soozish)",
+                "tr": "iltihap"
+            },
+            "exampleSentence": "Die Entzündungswerte sind sehr hoch.",
+            "exampleTranslation": {
+                "en": "The inflammation markers are very high.",
+                "bn": "প্রদাহ মার্কার খুব বেশি।",
+                "hi": "सूजन मार्कर बहुत अधिक हैं।",
+                "ur": "سوزش کے مارکر بہت زیادہ ہیں۔",
+                "tr": "İltihap belirteçleri çok yüksek."
+            },
+            "id": "v19_09"
+        },
+        {
+            "germanTerm": "die Anämie",
+            "article": "die",
+            "plural": "die Anämien",
+            "pronunciation": "/anɛˈmiː/",
+            "category": "noun",
+            "translation": {
+                "en": "anemia",
+                "bn": "রক্তাল্পতা (Raktālpata)",
+                "hi": "एनीमिया (aneemiya)",
+                "ur": "خون کی کمی (khoon ki kamee)",
+                "tr": "anemi"
+            },
+            "exampleSentence": "Das Blutbild zeigt eine deutliche Anämie.",
+            "exampleTranslation": {
+                "en": "The blood count shows a significant anemia.",
+                "bn": "রক্ত গণনা একটি উল্লেখযোগ্য রক্তাল্পতা দেখায়।",
+                "hi": "खून की गिनती एक महत्वपूर्ण एनीमिया दिखाती है।",
+                "ur": "خون کی گنتی ایک اہم خون کی کمی کو ظاہر کرتی ہے۔",
+                "tr": "Kan sayımı belirgin bir anemi gösteriyor."
+            },
+            "id": "v19_10"
+        },
+        {
+            "germanTerm": "der Referenzbereich",
+            "article": "der",
+            "plural": "die Referenzbereiche",
+            "pronunciation": "/ʁefeˈʁɛnt͡sˌbəʁaɪ̯ç/",
+            "category": "noun",
+            "translation": {
+                "en": "reference range",
+                "bn": "রেফারেন্স পরিসীমা (Rephārensa parisīmā)",
+                "hi": "संदर्भ सीमा (sandarbh seema)",
+                "ur": "حوالہ حد (hawala had)",
+                "tr": "referans aralığı"
+            },
+            "exampleSentence": "Der Wert liegt außerhalb des Referenzbereichs.",
+            "exampleTranslation": {
+                "en": "The value is outside the reference range.",
+                "bn": "মান রেফারেন্স পরিসীমা বাইরে।",
+                "hi": "मान संदर्भ सीमा से बाहर है।",
+                "ur": "قدر حوالہ حد سے باہر ہے۔",
+                "tr": "Değer referans aralığının dışında."
+            },
+            "id": "v19_11"
+        },
+        {
+            "germanTerm": "erhöht",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ɛɐ̯ˈhøːt/",
+            "category": "adjective",
+            "translation": {
+                "en": "elevated",
+                "bn": "উচ্চ (Ucca)",
+                "hi": "बढ़ाया हुआ (badhaaya hua)",
+                "ur": "بڑھا ہوا (badha hua)",
+                "tr": "yükselmiş"
+            },
+            "exampleSentence": "Der Leberwert ist leicht erhöht.",
+            "exampleTranslation": {
+                "en": "The liver value is slightly elevated.",
+                "bn": "লিভারের মান সামান্য উঁচু।",
+                "hi": "जिगर का मान थोड़ा बढ़ा हुआ है।",
+                "ur": "جگر کی قیمت قدرے بڑھی ہوئی ہے۔",
+                "tr": "Karaciğer değeri biraz yükselmiş."
+            },
+            "id": "v19_12"
+        },
+        {
+            "germanTerm": "erniedrigt",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ɛɐ̯ˈniːdʁɪçt/",
+            "category": "adjective",
+            "translation": {
+                "en": "decreased",
+                "bn": "হ্রাসকৃত (Hrāsakr̥ta)",
+                "hi": "कम (kam)",
+                "ur": "کم (kam)",
+                "tr": "düşük"
+            },
+            "exampleSentence": "Die Thrombozyten sind erniedrigt.",
+            "exampleTranslation": {
+                "en": "The platelets are decreased.",
+                "bn": "থ্রম্বোসাইটগুলি হ্রাসকৃত।",
+                "hi": "थ्रोम्बोसाइट्स कम हो गए हैं।",
+                "ur": "تھرومبوسائٹس کم ہو گئے ہیں۔",
+                "tr": "Trombositler düşük."
+            },
+            "id": "v19_13"
+        },
+        {
+            "germanTerm": "die Diagnose",
+            "article": "die",
+            "plural": "die Diagnosen",
+            "pronunciation": "/di̯aɡˈnoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "diagnosis",
+                "bn": "রোগ নির্ণয় (Rōga nirṇaya)",
+                "hi": "निदान (nidaan)",
+                "ur": "تشخیص (tashkhees)",
+                "tr": "teşhis"
+            },
+            "exampleSentence": "Die Diagnose basiert auf den Laborergebnissen.",
+            "exampleTranslation": {
+                "en": "The diagnosis is based on the lab results.",
+                "bn": "রোগ নির্ণয় পরীক্ষাগার ফলাফলের উপর ভিত্তি করে।",
+                "hi": "निदान प्रयोगशाला परिणामों पर आधारित है।",
+                "ur": "تشخیص لیبارٹری کے نتائج پر مبنی ہے۔",
+                "tr": "Teşhis, laboratuvar sonuçlarına dayanmaktadır."
+            },
+            "id": "v19_14"
+        },
+        {
+            "germanTerm": "die Differentialblutbild",
+            "article": "die",
+            "plural": "die Differentialblutbilder",
+            "pronunciation": "/dɪfəʁɛnˈt͡si̯aːlˌbluːtˌbɪlt/",
+            "category": "noun",
+            "translation": {
+                "en": "differential blood count",
+                "bn": "ডিফারেনশিয়াল রক্ত গণনা (Ḍiphārēnśiẏāla rakta gaṇanā)",
+                "hi": "विभेदक रक्त गणना (vibhedak rakt ganana)",
+                "ur": "تفریقی خون کی گنتی (tafreeqi khoon ki ginti)",
+                "tr": "diferansiyel kan sayımı"
+            },
+            "exampleSentence": "Wir benötigen ein Differentialblutbild zur genaueren Beurteilung.",
+            "exampleTranslation": {
+                "en": "We need a differential blood count for a more precise assessment.",
+                "bn": "আরও সুনির্দিষ্ট মূল্যায়নের জন্য আমাদের একটি ডিফারেনশিয়াল রক্ত গণনা প্রয়োজন।",
+                "hi": "हमें अधिक सटीक मूल्यांकन के लिए एक विभेदक रक्त गणना की आवश्यकता है।",
+                "ur": "ہمیں مزید درست تشخیص کے لیے تفریقی خون کی گنتی کی ضرورت ہے۔",
+                "tr": "Daha kesin bir değerlendirme için diferansiyel kan sayımına ihtiyacımız var."
+            },
+            "id": "v19_15"
+        },
+        {
+            "germanTerm": "die Blutsenkungsgeschwindigkeit (BSG)",
+            "article": "die",
+            "plural": "die Blutsenkungsgeschwindigkeiten",
+            "pronunciation": "/ˈbluːtˌzɛŋkʊŋsɡəˌʃvɪndɪçkaɪ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "erythrocyte sedimentation rate (ESR)",
+                "bn": "এরিথ্রোসাইট সেডিমেন্টেশন রেট (ইএসআর) (Ērithrōsā'iṭa sēḍimēnṭēśana rēṭa ('i'ēs'āra))",
+                "hi": "एरिथ्रोसाइट अवसादन दर (ईएसआर) (erithrosait avasaadan dar (eesaar))",
+                "ur": "ایریتھروسائٹ تلچھٹ کی شرح (ESR) (erythrocyte talchhat ki sharah (ESR))",
+                "tr": "eritrosit sedimantasyon hızı (ESR)"
+            },
+            "exampleSentence": "Die BSG ist deutlich erhöht, was auf eine Entzündung hindeuten kann.",
+            "exampleTranslation": {
+                "en": "The ESR is significantly elevated, which may indicate inflammation.",
+                "bn": "ইএসআর উল্লেখযোগ্যভাবে বেড়েছে, যা প্রদাহ নির্দেশ করতে পারে।",
+                "hi": "ईएसआर काफी बढ़ गया है, जो सूजन का संकेत दे सकता है।",
+                "ur": "ESR نمایاں طور پر بڑھ گیا ہے، جو سوزش کی نشاندہی کر سکتا ہے۔",
+                "tr": "ESR önemli ölçüde yükselmiş, bu da iltihaplanmaya işaret edebilir."
+            },
+            "id": "v19_16"
+        },
+        {
+            "germanTerm": "das Bilirubin",
+            "article": "das",
+            "plural": "die Bilirubine",
+            "pronunciation": "/biliʁuˈbiːn/",
+            "category": "noun",
+            "translation": {
+                "en": "bilirubin",
+                "bn": "বিলিরুবিন (Bilirubina)",
+                "hi": "बिलीरुबिन (bili rubin)",
+                "ur": "بلی روبن (bilirubin)",
+                "tr": "bilirubin"
+            },
+            "exampleSentence": "Ein erhöhter Bilirubinwert kann auf eine Lebererkrankung hinweisen.",
+            "exampleTranslation": {
+                "en": "An elevated bilirubin level can indicate a liver disease.",
+                "bn": "উচ্চ বিলিরুবিনের মান লিভারের রোগের ইঙ্গিত দিতে পারে।",
+                "hi": "एक ऊंचा बिलीरुबिन स्तर जिगर की बीमारी का संकेत दे सकता है।",
+                "ur": "ایک بلند بلی روبن کی سطح جگر کی بیماری کی نشاندہی کر سکتی ہے۔",
+                "tr": "Yüksek bir bilirubin seviyesi karaciğer hastalığına işaret edebilir."
+            },
+            "id": "v19_17"
+        },
+        {
+            "germanTerm": "die Gerinnung",
+            "article": "die",
+            "plural": "die Gerinnungen",
+            "pronunciation": "/ɡəˈʁɪnʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "coagulation",
+                "bn": "জমাট বাঁধা (Jamāṭa bām̐dhā)",
+                "hi": "जमावट (jamaavat)",
+                "ur": "جمنا (jamna)",
+                "tr": "pıhtılaşma"
+            },
+            "exampleSentence": "Wir müssen die Gerinnungswerte überprüfen.",
+            "exampleTranslation": {
+                "en": "We need to check the coagulation values.",
+                "bn": "আমাদের জমাট বাঁধার মানগুলি পরীক্ষা করতে হবে।",
+                "hi": "हमें जमावट मूल्यों की जांच करनी होगी।",
+                "ur": "ہمیں جمنے والی اقدار کی جانچ کرنی ہوگی۔",
+                "tr": "Pıhtılaşma değerlerini kontrol etmemiz gerekiyor."
+            },
+            "id": "v19_18"
+        },
+        {
+            "germanTerm": "das Kalium",
+            "article": "das",
+            "plural": null,
+            "pronunciation": "/ˈkaːli̯ʊm/",
+            "category": "noun",
+            "translation": {
+                "en": "potassium",
+                "bn": "পটাশিয়াম (Paṭāśiẏāma)",
+                "hi": "पोटैशियम (poteshiyam)",
+                "ur": "پوٹاشیم (potassium)",
+                "tr": "potasyum"
+            },
+            "exampleSentence": "Das Kalium ist zu niedrig.",
+            "exampleTranslation": {
+                "en": "The potassium is too low.",
+                "bn": "পটাশিয়াম খুব কম।",
+                "hi": "पोटेशियम बहुत कम है।",
+                "ur": "پوٹاشیم بہت کم ہے۔",
+                "tr": "Potasyum çok düşük."
+            },
+            "id": "v19_19"
+        },
+        {
+            "germanTerm": "das Natrium",
+            "article": "das",
+            "plural": null,
+            "pronunciation": "/ˈnaːtri̯ʊm/",
+            "category": "noun",
+            "translation": {
+                "en": "sodium",
+                "bn": "সোডিয়াম (Sōḍiẏāma)",
+                "hi": "सोडियम (sodiyam)",
+                "ur": "سوڈیم (sodium)",
+                "tr": "sodyum"
+            },
+            "exampleSentence": "Das Natrium ist erhöht.",
+            "exampleTranslation": {
+                "en": "The sodium is elevated.",
+                "bn": "সোডিয়াম বেড়েছে।",
+                "hi": "सोडियम बढ़ गया है।",
+                "ur": "سوڈیم بڑھ گیا ہے۔",
+                "tr": "Sodyum yükselmiş."
+            },
+            "id": "v19_20"
+        },
+        {
+            "germanTerm": "die Alkalische Phosphatase (ALP)",
+            "article": "die",
+            "plural": "die Alkalische Phosphatasen",
+            "pronunciation": "/ˌalkaːlɪʃə fɔsfaˈtaːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "alkaline phosphatase (ALP)",
+                "bn": "ক্ষারীয় ফসফেটেজ (এএলপি) (khāraẏ়a phosaphēṭēja (ē'ēlapi))",
+                "hi": "क्षारीय फॉस्फेटेस (एएलपी) (kshareey phosaphetes (e.el.pee))",
+                "ur": "الکلائن فاسفیٹیس (ALP) (alkaline phosphatase (ALP))",
+                "tr": "alkalen fosfataz (ALP)"
+            },
+            "exampleSentence": "Die Alkalische Phosphatase ist erhöht.",
+            "exampleTranslation": {
+                "en": "The alkaline phosphatase is elevated.",
+                "bn": "ক্ষারীয় ফসফেটেজ বৃদ্ধি পেয়েছে।",
+                "hi": "क्षारीय फॉस्फेटेस बढ़ गया है।",
+                "ur": "الکلائن فاسفیٹیس بڑھ گیا ہے۔",
+                "tr": "Alkalen fosfataz yükselmiş."
+            },
+            "id": "v19_21"
+        },
+        {
+            "germanTerm": "die Gamma-GT",
+            "article": "die",
+            "plural": "die Gamma-GTs",
+            "pronunciation": "/ˈɡamaː ɡeː teː/",
+            "category": "noun",
+            "translation": {
+                "en": "gamma-glutamyltransferase (GGT)",
+                "bn": "গামা-গ্লুটামিলট্রান্সফেরাজ (জিজিটি) (Gāmā-gluṭāmilṭrānraphērāja (jijiṭi))",
+                "hi": "गामा-ग्लूटामिलट्रांसफरेज (जीजीटी) (gaama-glootamilatraansapharej (jeejeeṭee))",
+                "ur": "گاما گلوٹامیلٹرانسفریز (GGT) (gamma glutamyltransferase (GGT))",
+                "tr": "gama-glutamiltransferaz (GGT)"
+            },
+            "exampleSentence": "Die Gamma-GT ist deutlich erhöht, was auf einen Leberschaden hindeuten kann.",
+            "exampleTranslation": {
+                "en": "The GGT is significantly elevated, which may indicate liver damage.",
+                "bn": "জিজিটি উল্লেখযোগ্যভাবে বেড়েছে, যা লিভারের ক্ষতির ইঙ্গিত দিতে পারে।",
+                "hi": "जीजीटी काफी बढ़ गया है, जो जिगर की क्षति का संकेत दे सकता है।",
+                "ur": "جی جی ٹی نمایاں طور پر بڑھ گیا ہے، جو جگر کے نقصان کی نشاندہی کر سکتا ہے۔",
+                "tr": "GGT önemli ölçüde yükselmiş, bu da karaciğer hasarına işaret edebilir."
+            },
+            "id": "v19_22"
+        },
+        {
+            "germanTerm": "die Alanin-Aminotransferase (ALT)",
+            "article": "die",
+            "plural": "die Alanin-Aminotransferasen",
+            "pronunciation": "/alaˈniːn ami̯noːtʁansfeˈʁaːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "alanine aminotransferase (ALT)",
+                "bn": "অ্যালানিন অ্যামিনোট্রান্সফেরেজ (এএলটি) (Ælānina āmintransaphērēja (ē'ēlaṭi))",
+                "hi": "एलानिन एमिनोट्रांसफेरेज (एएलटी) (elaanin aminotraansapharej (e.el.tee))",
+                "ur": "ایلانین امینوٹرانسفریز (ALT) (alanine aminotransferase (ALT))",
+                "tr": "alanin aminotransferaz (ALT)"
+            },
+            "exampleSentence": "Die ALT ist ein wichtiger Leberwert.",
+            "exampleTranslation": {
+                "en": "ALT is an important liver value.",
+                "bn": "এএলটি একটি গুরুত্বপূর্ণ লিভারের মান।",
+                "hi": "एएलटी एक महत्वपूर्ण जिगर का मान है।",
+                "ur": "ALT ایک اہم جگر کی قدر ہے۔",
+                "tr": "ALT önemli bir karaciğer değeridir."
+            },
+            "id": "v19_23"
+        },
+        {
+            "germanTerm": "die Aspartat-Aminotransferase (AST)",
+            "article": "die",
+            "plural": "die Aspartat-Aminotransferasen",
+            "pronunciation": "/aspaʁˈtaːt ami̯noːtʁansfeˈʁaːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "aspartate aminotransferase (AST)",
+                "bn": "অ্যাসপার্টেট অ্যামিনোট্রান্সফেরেজ (এএসটি) (Æsaparṭēṭa āmintransaphērēja (ē'ēsaṭi))",
+                "hi": "एस्पार्टेट एमिनोट्रांसफेरेज (एएसटी) (espaartet aminotraansapharej (eesatee))",
+                "ur": "ایسپرٹیٹ امینوٹرانسفریز (AST) (aspartate aminotransferase (AST))",
+                "tr": "aspartat aminotransferaz (AST)"
+            },
+            "exampleSentence": "Die AST ist ebenfalls erhöht, was auf eine Leberschädigung hindeuten kann.",
+            "exampleTranslation": {
+                "en": "The AST is also elevated, which may indicate liver damage.",
+                "bn": "এএসটিও বেড়েছে, যা লিভারের ক্ষতির ইঙ্গিত দিতে পারে।",
+                "hi": "एएसटी भी बढ़ गया है, जो जिगर की क्षति का संकेत दे सकता है।",
+                "ur": "AST بھی بڑھ گیا ہے، جو جگر کے نقصان کی نشاندہی کر سکتا ہے۔",
+                "tr": "AST de yükselmiş, bu da karaciğer hasarına işaret edebilir."
+            },
+            "id": "v19_24"
+        },
+        {
+            "germanTerm": "die Nierenfunktion",
+            "article": "die",
+            "plural": "die Nierenfunktionen",
+            "pronunciation": "/ˈniːʁənfʊŋkˌt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "kidney function",
+                "bn": "কিডনির কাজ (Kiḍanira kāja)",
+                "hi": "गुर्दे का कार्य (gurde ka kary)",
+                "ur": "گردے کا فعل (gurde ka fael)",
+                "tr": "böbrek fonksiyonu"
+            },
+            "exampleSentence": "Die Nierenfunktion muss überwacht werden.",
+            "exampleTranslation": {
+                "en": "The kidney function needs to be monitored.",
+                "bn": "কিডনির কাজ পর্যবেক্ষণ করা দরকার।",
+                "hi": "गुर्दे के कार्य की निगरानी करने की आवश्यकता है।",
+                "ur": "گردے کے فعل کی نگرانی کرنے کی ضرورت ہے۔",
+                "tr": "Böbrek fonksiyonunun izlenmesi gerekiyor."
+            },
+            "id": "v19_25"
+        },
+        {
+            "germanTerm": "die Hyperglykämie",
+            "article": "die",
+            "plural": "die Hyperglykämien",
+            "pronunciation": "/hypɐ̯ɡlykeˈmiː/",
+            "category": "noun",
+            "translation": {
+                "en": "hyperglycemia",
+                "bn": "হাইপারগ্লাইসেমিয়া (hā'ipāraglā'isēmiẏā)",
+                "hi": "हाइपरग्लाइसेमिया (haaiparaglaaiseemeeyaa)",
+                "ur": "ہائپرگلیسیمیا (haaiparaglaysimia)",
+                "tr": "hiperglisemi"
+            },
+            "exampleSentence": "Bei der Untersuchung wurde eine Hyperglykämie festgestellt.",
+            "exampleTranslation": {
+                "en": "Hyperglycemia was detected during the examination.",
+                "bn": "পরীক্ষায় হাইপারগ্লাইসেমিয়া ধরা পড়েছে।",
+                "hi": "जांच के दौरान हाइपरग्लाइसेमिया का पता चला।",
+                "ur": "جانچ کے دوران ہائپرگلیسیمیا کا پتہ چلا۔",
+                "tr": "İnceleme sırasında hiperglisemi tespit edildi."
+            },
+            "id": "v19_26"
+        },
+        {
+            "germanTerm": "die Hypoglykämie",
+            "article": "die",
+            "plural": "die Hypoglykämien",
+            "pronunciation": "/hypoɡlykeˈmiː/",
+            "category": "noun",
+            "translation": {
+                "en": "hypoglycemia",
+                "bn": "হাইপোগ্লাইসেমিয়া (hā'ipōglā'isēmiẏā)",
+                "hi": "हाइपोग्लाइसीमिया (haaipoglaiseemeeyaa)",
+                "ur": "ہائپوگلیسیمیا (haaipoglaysimia)",
+                "tr": "hipoglisemi"
+            },
+            "exampleSentence": "Der Patient klagt über Symptome einer Hypoglykämie.",
+            "exampleTranslation": {
+                "en": "The patient complains of symptoms of hypoglycemia.",
+                "bn": "রোগী হাইপোগ্লাইসেমিয়ার লক্ষণগুলির অভিযোগ করছেন।",
+                "hi": "रोगी हाइपोग्लाइसीमिया के लक्षणों की शिकायत करता है।",
+                "ur": "مریض ہائپوگلیسیمیا کی علامات کی شکایت کرتا ہے۔",
+                "tr": "Hasta hipoglisemi semptomlarından şikayet ediyor."
+            },
+            "id": "v19_27"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Dialogue 1: Abnormal Hemoglobin",
+                "bn": "ডায়ালগ ১: অস্বাভাবিক হিমোগ্লোবিন",
+                "hi": "संवाद 1: असामान्य हीमोग्लोबिन",
+                "ur": "مکالمہ 1: غیر معمولی ہیموگلوبن",
+                "tr": "Diyalog 1: Anormal Hemoglobin"
+            },
+            "context": {
+                "en": "Dr. Schmidt discusses Patient Müller's low hemoglobin levels with Nurse Weber.",
+                "bn": "ডাক্তার শ্মিট নার্স ওয়েবারের সাথে রোগী মুলারের কম হিমোগ্লোবিনের মাত্রা নিয়ে আলোচনা করছেন।",
+                "hi": "डॉ. श्मिट नर्स वेबर के साथ रोगी मुलर के हीमोग्लोबिन के निम्न स्तर पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر شمٹ نرس ویبر کے ساتھ مریض مولر کی کم ہیموگلوبن کی سطح پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Dr. Schmidt, Hemşire Weber ile hasta Müller'in düşük hemoglobin seviyelerini tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Schwester Weber, haben Sie die aktuellen Laborwerte von Herrn Müller gesehen? Das Hämoglobin ist auffallend niedrig.",
+                    "translation": {
+                        "en": "Nurse Weber, have you seen Mr. Müller's latest lab results? The hemoglobin is strikingly low.",
+                        "bn": "নার্স ওয়েবার, আপনি কি মিস্টার মুলারের সাম্প্রতিক ল্যাব রিপোর্ট দেখেছেন? হিমোগ্লোবিন উল্লেখযোগ্যভাবে কম।",
+                        "hi": "नर्स वेबर, क्या आपने श्री मुलर की नवीनतम लैब रिपोर्ट देखी है? हीमोग्लोबिन उल्लेखनीय रूप से कम है।",
+                        "ur": "نرس ویبر، کیا آپ نے مسٹر مولر کی تازہ ترین لیب رپورٹ دیکھی ہے؟ ہیموگلوبن نمایاں طور پر کم ہے۔",
+                        "tr": "Hemşire Weber, Bay Müller'in son laboratuvar sonuçlarını gördünüz mü? Hemoglobin dikkat çekici derecede düşük."
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ja, Herr Doktor. Es liegt bei 8.5 g/dL. Ich habe bereits eine Transfusion vorbereitet.",
+                    "translation": {
+                        "en": "Yes, Doctor. It's at 8.5 g/dL. I have already prepared a transfusion.",
+                        "bn": "হ্যাঁ, ডাক্তার। এটা 8.5 g/dL এ আছে। আমি ইতিমধ্যেই একটি ট্রান্সফিউশন প্রস্তুত করেছি।",
+                        "hi": "हाँ, डॉक्टर। यह 8.5 ग्राम/डीएल पर है। मैंने पहले ही एक ट्रांसफ्यूजन तैयार कर लिया है।",
+                        "ur": "جی ہاں، ڈاکٹر۔ یہ 8.5 گرام/ڈی ایل پر ہے۔ میں نے پہلے ہی ایک ٹرانسفیوژن تیار کر لیا ہے۔",
+                        "tr": "Evet Doktor. 8.5 g/dL seviyesinde. Zaten bir transfüzyon hazırladım."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Sehr gut. Wir sollten auch die Ursache für die Anämie weiter untersuchen. Haben Sie die Stuhlprobe zur Untersuchung geschickt?",
+                    "translation": {
+                        "en": "Very good. We should also investigate the cause of the anemia further. Did you send the stool sample for examination?",
+                        "bn": "খুব ভাল। আমাদের আরও রক্তাল্পতার কারণ অনুসন্ধান করা উচিত। আপনি কি পরীক্ষার জন্য মলের নমুনা পাঠিয়েছেন?",
+                        "hi": "बहुत बढ़िया। हमें एनीमिया के कारण की आगे जांच करनी चाहिए। क्या आपने मल का नमूना परीक्षण के लिए भेजा था?",
+                        "ur": "بہت اچھے. ہمیں خون کی کمی کی وجہ کی مزید تحقیقات کرنی چاہیے۔ کیا آپ نے پاخانے کا نمونہ جانچ کے لیے بھیجا تھا؟",
+                        "tr": "Çok iyi. Aneminin nedenini de daha fazla araştırmalıyız. Dışkı örneğini inceleme için gönderdiniz mi?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ja, Herr Doktor. Die Stuhlprobe wurde an das Labor geschickt. Die Ergebnisse erwarten wir im Laufe des Tages.",
+                    "translation": {
+                        "en": "Yes, Doctor. The stool sample was sent to the lab. We expect the results during the day.",
+                        "bn": "হ্যাঁ, ডাক্তার। মলের নমুনা ল্যাবে পাঠানো হয়েছে। আমরা দিনের মধ্যে ফলাফল আশা করছি।",
+                        "hi": "हाँ, डॉक्टर। मल का नमूना प्रयोगशाला भेजा गया है। हम दिन के दौरान परिणामों की अपेक्षा करते हैं।",
+                        "ur": "جی ہاں، ڈاکٹر۔ پاخانے کا نمونہ لیبارٹری بھیج دیا گیا ہے۔ ہم دن کے دوران نتائج کی توقع کرتے ہیں۔",
+                        "tr": "Evet Doktor. Dışkı örneği laboratuvara gönderildi. Sonuçları gün içinde bekliyoruz."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ausgezeichnet. Informieren Sie mich bitte sofort, sobald die Ergebnisse vorliegen.",
+                    "translation": {
+                        "en": "Excellent. Please inform me immediately as soon as the results are available.",
+                        "bn": "চমৎকার। ফলাফল পাওয়া মাত্রই আমাকে অবিলম্বে জানান।",
+                        "hi": "उत्कृष्ट। परिणाम उपलब्ध होते ही मुझे तुरंत सूचित करें।",
+                        "ur": "بہترین۔ نتائج دستیاب ہوتے ہی براہ کرم مجھے فوری طور پر مطلع کریں۔",
+                        "tr": "Mükemmel. Sonuçlar alınır alınmaz lütfen beni hemen bilgilendirin."
+                    }
+                }
+            ],
+            "id": "d19_01"
+        },
+        {
+            "title": {
+                "en": "Dialogue 2: Elevated CRP",
+                "bn": "ডায়ালগ ২: উন্নত সিআরপি",
+                "hi": "संवाद 2: ऊंचा सीआरपी",
+                "ur": "مکالمہ 2: بلند سی آر پی",
+                "tr": "Diyalog 2: Yüksek CRP"
+            },
+            "context": {
+                "en": "Dr. Klein explains the elevated CRP level to Patient Weber.",
+                "bn": "ডাক্তার ক্লেইন রোগী ওয়েবারকে উন্নত সিআরপি স্তরটি ব্যাখ্যা করছেন।",
+                "hi": "डॉ. क्लेन रोगी वेबर को ऊंचा सीआरपी स्तर समझा रहे हैं।",
+                "ur": "ڈاکٹر کلین مریض ویبر کو بلند سی آر پی کی سطح کی وضاحت کر رہے ہیں۔",
+                "tr": "Dr. Klein, hasta Weber'e yüksek CRP seviyesini açıklıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Herr Weber, Ihre Blutwerte zeigen einen erhöhten CRP-Wert. Das deutet auf eine Entzündung in Ihrem Körper hin.",
+                    "translation": {
+                        "en": "Mr. Weber, your blood tests show an elevated CRP level. This indicates inflammation in your body.",
+                        "bn": "জনাব ওয়েবার, আপনার রক্ত ​​পরীক্ষায় উন্নত সিআরপি স্তর দেখাচ্ছে। এটি আপনার শরীরে প্রদাহ নির্দেশ করে।",
+                        "hi": "श्री वेबर, आपकी रक्त परीक्षण रिपोर्ट में सीआरपी का स्तर ऊंचा है। यह आपके शरीर में सूजन का संकेत देता है।",
+                        "ur": "جناب ویبر، آپ کے خون کے ٹیسٹ ایک بلند سی آر پی کی سطح کو ظاہر کرتے ہیں۔ یہ آپ کے جسم میں سوزش کی نشاندہی کرتا ہے۔",
+                        "tr": "Bay Weber, kan testleriniz yüksek bir CRP seviyesi gösteriyor. Bu vücudunuzda bir iltihaplanma olduğunu gösterir."
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Eine Entzündung? Wo denn genau, Herr Doktor?",
+                    "translation": {
+                        "en": "Inflammation? Where exactly, Doctor?",
+                        "bn": "প্রদাহ? কোথায় সঠিকভাবে, ডাক্তার?",
+                        "hi": "सूजन? कहां पर बिल्कुल, डॉक्टर?",
+                        "ur": "سوزش؟ کہاں بالکل، ڈاکٹر؟",
+                        "tr": "İltihaplanma mı? Tam olarak nerede, Doktor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das müssen wir noch herausfinden. Wir werden weitere Untersuchungen durchführen, um die Ursache zu finden.",
+                    "translation": {
+                        "en": "We still need to find that out. We will carry out further investigations to find the cause.",
+                        "bn": "আমাদের এখনও এটি খুঁজে বের করতে হবে। কারণ জানতে আমরা আরও তদন্ত করব।",
+                        "hi": "हमें अभी भी इसका पता लगाने की जरूरत है। कारण जानने के लिए हम आगे की जांच करेंगे।",
+                        "ur": "ہمیں ابھی بھی اس کا پتہ لگانے کی ضرورت ہے۔ وجہ معلوم کرنے کے لیے ہم مزید تحقیقات کریں گے۔",
+                        "tr": "Bunu henüz bulmamız gerekiyor. Nedeni bulmak için daha fazla araştırma yapacağız."
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Was kann ich denn selbst tun?",
+                    "translation": {
+                        "en": "What can I do myself?",
+                        "bn": "আমি নিজে কি করতে পারি?",
+                        "hi": "मैं खुद क्या कर सकता हूँ?",
+                        "ur": "میں خود کیا کر سکتا ہوں؟",
+                        "tr": "Kendim ne yapabilirim?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Achten Sie auf Ruhe und ausreichend Flüssigkeitszufuhr. Vermeiden Sie Stress.",
+                    "translation": {
+                        "en": "Make sure you get rest and drink enough fluids. Avoid stress.",
+                        "bn": "নিশ্চিত হন যে আপনি বিশ্রাম নিচ্ছেন এবং পর্যাপ্ত পরিমাণে তরল পান করছেন। স্ট্রেস এড়িয়ে চলুন।",
+                        "hi": "सुनिश्चित करें कि आप आराम करें और पर्याप्त तरल पदार्थ पिएं। तनाव से बचें।",
+                        "ur": "یقینی بنائیں کہ آپ آرام کریں اور کافی مقدار میں سیال پئیں۔ تناؤ سے بچیں۔",
+                        "tr": "Dinlendiğinizden ve yeterince sıvı aldığınızdan emin olun. Stresten kaçının."
+                    }
+                },
+                {
+                    "speaker": "Patient Weber",
+                    "speakerRole": "Patient",
+                    "germanText": "Verstanden, Herr Doktor. Vielen Dank.",
+                    "translation": {
+                        "en": "Understood, Doctor. Thank you very much.",
+                        "bn": "বুঝেছি, ডাক্তার। আপনাকে অনেক ধন্যবাদ।",
+                        "hi": "समझ गया, डॉक्टर। आपका बहुत-बहुत धन्यवाद।",
+                        "ur": "سمجھ گیا، ڈاکٹر۔ آپ کا بہت شکریہ۔",
+                        "tr": "Anlaşıldı Doktor. Çok teşekkür ederim."
+                    }
+                }
+            ],
+            "id": "d19_02"
+        },
+        {
+            "title": {
+                "en": "Dialogue 3: Liver Values and Alcohol",
+                "bn": "ডায়ালগ ৩: লিভারের মান এবং অ্যালকোহল",
+                "hi": "संवाद 3: लिवर मान और शराब",
+                "ur": "مکالمہ 3: جگر کی قدریں اور شراب",
+                "tr": "Diyalog 3: Karaciğer Değerleri ve Alkol"
+            },
+            "context": {
+                "en": "Dr. Meier confronts Patient Schmidt about elevated liver values and potential alcohol consumption.",
+                "bn": "ডাক্তার মেইয়ার রোগী শ্মিটকে উন্নত লিভারের মান এবং সম্ভাব্য অ্যালকোহল গ্রহণ সম্পর্কে মুখোমুখি করছেন।",
+                "hi": "डॉ. मीयर रोगी श्मिट को बढ़े हुए लिवर मान और संभावित शराब की खपत के बारे में बताते हैं।",
+                "ur": "ڈاکٹر میئر مریض شمٹ کو بلند جگر کی قدروں اور ممکنہ الکحل کے استعمال کے بارے میں بتاتے ہیں۔",
+                "tr": "Dr. Meier, hasta Schmidt'e yüksek karaciğer değerleri ve olası alkol tüketimi hakkında bilgi veriyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Herr Schmidt, Ihre Leberwerte sind deutlich erhöht. AST und ALT sind beide über dem Normalbereich.",
+                    "translation": {
+                        "en": "Mr. Schmidt, your liver values are significantly elevated. AST and ALT are both above the normal range.",
+                        "bn": "জনাব শ্মিট, আপনার লিভারের মান উল্লেখযোগ্যভাবে উন্নত। AST এবং ALT উভয়ই স্বাভাবিক সীমার উপরে।",
+                        "hi": "श्री श्मिट, आपके लिवर मान काफी बढ़ गए हैं। AST और ALT दोनों सामान्य सीमा से ऊपर हैं।",
+                        "ur": "جناب شمٹ، آپ کے جگر کی قدریں نمایاں طور پر بلند ہیں۔ AST اور ALT دونوں معمول کی حد سے اوپر ہیں۔",
+                        "tr": "Bay Schmidt, karaciğer değerleriniz önemli ölçüde yüksek. AST ve ALT her ikisi de normal aralığın üzerinde."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Ohje, was bedeutet das, Herr Doktor?",
+                    "translation": {
+                        "en": "Oh dear, what does that mean, Doctor?",
+                        "bn": "ওহ প্রিয়, এর মানে কি, ডাক্তার?",
+                        "hi": "ओह प्रिय, इसका क्या मतलब है, डॉक्टर?",
+                        "ur": "اوہ عزیز، اس کا کیا مطلب ہے، ڈاکٹر؟",
+                        "tr": "Aman Tanrım, bu ne anlama geliyor Doktor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das kann verschiedene Ursachen haben. Trinken Sie regelmäßig Alkohol?",
+                    "translation": {
+                        "en": "That can have various causes. Do you drink alcohol regularly?",
+                        "bn": "এর বিভিন্ন কারণ থাকতে পারে। আপনি কি নিয়মিত অ্যালকোহল পান করেন?",
+                        "hi": "इसके कई कारण हो सकते हैं। क्या आप नियमित रूप से शराब पीते हैं?",
+                        "ur": "اس کی مختلف وجوہات ہو سکتی ہیں۔ کیا آپ باقاعدگی سے شراب پیتے ہیں؟",
+                        "tr": "Bunun çeşitli nedenleri olabilir. Düzenli olarak alkol tüketiyor musunuz?"
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Nur ab und zu ein Bier oder ein Glas Wein, Herr Doktor. Nichts Besonderes.",
+                    "translation": {
+                        "en": "Only occasionally a beer or a glass of wine, Doctor. Nothing special.",
+                        "bn": "মাঝে মাঝে শুধুমাত্র একটি বিয়ার বা এক গ্লাস ওয়াইন, ডাক্তার। বিশেষ কিছু না।",
+                        "hi": "कभी-कभी केवल एक बीयर या एक गिलास वाइन, डॉक्टर। कुछ खास नहीं।",
+                        "ur": "کبھی کبھار صرف ایک بیئر یا شراب کا گلاس، ڈاکٹر۔ کوئی خاص بات نہیں۔",
+                        "tr": "Sadece ara sıra bir bira veya bir kadeh şarap, Doktor. Özel bir şey değil."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir werden weitere Tests durchführen, um die genaue Ursache zu finden. Aber bitte verzichten Sie vorerst auf Alkohol.",
+                    "translation": {
+                        "en": "We will carry out further tests to find the exact cause. But please abstain from alcohol for now.",
+                        "bn": "আমরা সঠিক কারণ খুঁজে বের করার জন্য আরও পরীক্ষা করব। তবে আপাতত অ্যালকোহল থেকে বিরত থাকুন।",
+                        "hi": "हम सटीक कारण जानने के लिए और परीक्षण करेंगे। लेकिन कृपया फिलहाल शराब से परहेज करें।",
+                        "ur": "ہم صحیح وجہ معلوم کرنے کے لیے مزید ٹیسٹ کریں گے۔ لیکن براہ کرم ابھی کے لیے شراب سے پرہیز کریں۔",
+                        "tr": "Kesin nedeni bulmak için daha fazla test yapacağız. Ancak lütfen şimdilik alkolden uzak durun."
+                    }
+                }
+            ],
+            "id": "d19_03"
+        },
+        {
+            "title": {
+                "en": "Dialogue 4: Thrombocytopenia and Bruising",
+                "bn": "ডায়ালগ ৪: থ্রম্বোসাইটোপেনিয়া এবং কালশিটে",
+                "hi": "संवाद 4: थ्रोम्बोसाइटोपेनिया और खरोंच",
+                "ur": "مکالمہ 4: تھرومبوسائٹوپینیا اور خراش",
+                "tr": "Diyalog 4: Trombositopeni ve Morarma"
+            },
+            "context": {
+                "en": "Nurse Schmidt reports Patient Lehmann's low platelet count and unexplained bruising to Dr. Berger.",
+                "bn": "নার্স শ্মিট রোগী লেহমানের কম প্লেটলেট গণনা এবং অপ্রত্যাশিত কালশিটে সম্পর্কে ডাক্তার বার্গারকে জানিয়েছেন।",
+                "hi": "नर्स श्मिट ने रोगी लेहमैन की कम प्लेटलेट गिनती और अस्पष्ट खरोंच के बारे में डॉ. बर्जर को बताया।",
+                "ur": "نرس شمٹ نے مریض لیمن کی کم پلیٹلیٹ گنتی اور ناقابل فہم خراش کے بارے میں ڈاکٹر برجر کو بتایا۔",
+                "tr": "Hemşire Schmidt, hasta Lehmann'ın düşük trombosit sayısı ve açıklanamayan morarmalarını Dr. Berger'e bildiriyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Schmidt",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Herr Doktor Berger, bei Herrn Lehmann ist die Thrombozytenzahl sehr niedrig, nur 80.000. Außerdem hat er unerklärliche blaue Flecken.",
+                    "translation": {
+                        "en": "Dr. Berger, Mr. Lehmann's platelet count is very low, only 80,000. He also has unexplained bruises.",
+                        "bn": "ডাক্তার বার্গার, মিস্টার লেহমানের প্লেটলেট গণনা খুব কম, মাত্র 80,000। তার অপ্রত্যাশিত কালশিটে দাগও রয়েছে।",
+                        "hi": "डॉ. बर्जर, श्री लेहमैन की प्लेटलेट गिनती बहुत कम है, केवल 80,000। उनके अस्पष्ट खरोंच भी हैं।",
+                        "ur": "ڈاکٹر برجر، مسٹر لیمن کی پلیٹلیٹ گنتی بہت کم ہے، صرف 80,000۔ اس کے علاوہ اس کے جسم پر ناقابل فہم خراشیں بھی ہیں۔",
+                        "tr": "Dr. Berger, Bay Lehmann'ın trombosit sayısı çok düşük, sadece 80.000. Ayrıca açıklanamayan morlukları var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Berger",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das ist besorgniserregend. Hat er Medikamente eingenommen, die das verursachen könnten?",
+                    "translation": {
+                        "en": "That's concerning. Has he been taking any medications that could cause this?",
+                        "bn": "এটা উদ্বেগের বিষয়। তিনি কি এমন কোনো ওষুধ খাচ্ছেন যা এর কারণ হতে পারে?",
+                        "hi": "यह चिंताजनक है। क्या वह कोई ऐसी दवा ले रहा है जिससे ऐसा हो सकता है?",
+                        "ur": "یہ تشویشناک ہے۔ کیا وہ کوئی ایسی دوائیں لے رہا ہے جو اس کا سبب بن سکتی ہیں؟",
+                        "tr": "Bu endişe verici. Buna neden olabilecek herhangi bir ilaç alıyor mu?"
+                    }
+                },
+                {
+                    "speaker": "Schwester Schmidt",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich habe die Medikamentenliste überprüft. Er nimmt nur Blutdrucksenker. Ich werde aber noch einmal genauer nachfragen.",
+                    "translation": {
+                        "en": "I checked the medication list. He's only taking blood pressure medication. But I'll ask again more precisely.",
+                        "bn": "আমি ওষুধের তালিকা পরীক্ষা করেছি। তিনি শুধুমাত্র রক্তচাপ কমানোর ওষুধ খাচ্ছেন। তবে আমি আরও স্পষ্টভাবে আবার জিজ্ঞাসা করব।",
+                        "hi": "मैंने दवाओं की सूची की जाँच की। वह केवल रक्तचाप कम करने वाली दवा ले रहा है। लेकिन मैं एक बार फिर अधिक स्पष्ट रूप से पूछूंगा।",
+                        "ur": "میں نے ادویات کی فہرست چیک کی ہے۔ وہ صرف بلڈ پریشر کم کرنے والی دوا لے رہا ہے۔ لیکن میں ایک بار پھر زیادہ واضح طور پر پوچھوں گا۔",
+                        "tr": "İlaç listesini kontrol ettim. Sadece tansiyon ilacı alıyor. Ama tekrar daha net soracağım."
+                    }
+                },
+                {
+                    "speaker": "Dr. Berger",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Gut. Wir brauchen dringend eine Knochenmarkpunktion, um die Ursache abzuklären.",
+                    "translation": {
+                        "en": "Good. We urgently need a bone marrow biopsy to clarify the cause.",
+                        "bn": "ভাল। কারণ স্পষ্ট করার জন্য আমাদের জরুরিভাবে একটি অস্থি মজ্জা বায়োপসি দরকার।",
+                        "hi": "अच्छा। कारण स्पष्ट करने के लिए हमें तत्काल अस्थि मज्जा बायोप्सी की आवश्यकता है।",
+                        "ur": "اچھا۔ ہمیں فوری طور پر وجہ واضح کرنے کے لیے بون میرو بایوپسی کی ضرورت ہے۔",
+                        "tr": "İyi. Nedeni açıklığa kavuşturmak için acilen bir kemik iliği biyopsisine ihtiyacımız var."
+                    }
+                },
+                {
+                    "speaker": "Schwester Schmidt",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich bereite alles vor, Herr Doktor.",
+                    "translation": {
+                        "en": "I'll prepare everything, Doctor.",
+                        "bn": "আমি সবকিছু প্রস্তুত করব, ডাক্তার।",
+                        "hi": "मैं सब कुछ तैयार कर दूँगी, डॉक्टर।",
+                        "ur": "میں سب کچھ تیار کر دوں گی، ڈاکٹر۔",
+                        "tr": "Her şeyi hazırlayacağım Doktor."
+                    }
+                }
+            ],
+            "id": "d19_04"
+        },
+        {
+            "title": {
+                "en": "Dialogue 5: Kreatinin and Kidney Function",
+                "bn": "ডায়ালগ ৫: ক্রিয়েটিনিন এবং কিডনির কার্যকারিতা",
+                "hi": "संवाद 5: क्रिएटिनिन और गुर्दे का कार्य",
+                "ur": "مکالمہ 5: کریٹینائن اور گردے کی فعالیت",
+                "tr": "Diyalog 5: Kreatinin ve Böbrek Fonksiyonu"
+            },
+            "context": {
+                "en": "Dr. Weber discusses Patient Klein's elevated creatinine levels and potential kidney problems.",
+                "bn": "ডাক্তার ওয়েবার রোগী ক্লেইনের উন্নত ক্রিয়েটিনিনের মাত্রা এবং সম্ভাব্য কিডনি সমস্যা নিয়ে আলোচনা করছেন।",
+                "hi": "डॉ. वेबर रोगी क्लेन के क्रिएटिनिन के बढ़े हुए स्तर और संभावित गुर्दे की समस्याओं पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر ویبر مریض کلین کے کریٹینائن کی بلند سطح اور ممکنہ گردے کے مسائل پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Dr. Weber, hasta Klein'ın yüksek kreatinin seviyelerini ve potansiyel böbrek sorunlarını tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Frau Klein, Ihr Kreatininwert ist erhöht. Das deutet auf eine eingeschränkte Nierenfunktion hin.",
+                    "translation": {
+                        "en": "Mrs. Klein, your creatinine level is elevated. This indicates impaired kidney function.",
+                        "bn": "মিসেস ক্লেইন, আপনার ক্রিয়েটিনিনের মাত্রা উন্নত। এটি কিডনির দুর্বল কার্যকারিতা নির্দেশ করে।",
+                        "hi": "श्रीमती क्लेन, आपके क्रिएटिनिन का स्तर बढ़ गया है। यह गुर्दे की खराब कार्यप्रणाली का संकेत देता है।",
+                        "ur": "محترمہ کلین، آپ کے کریٹینائن کی سطح بلند ہے۔ یہ گردے کی خراب فعالیت کی نشاندہی کرتا ہے۔",
+                        "tr": "Bayan Klein, kreatinin seviyeniz yüksek. Bu, böbrek fonksiyonlarında bozulma olduğunu gösteriyor."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Oh nein, was bedeutet das für mich?",
+                    "translation": {
+                        "en": "Oh no, what does that mean for me?",
+                        "bn": "ওহ না, আমার জন্য এর মানে কী?",
+                        "hi": "ओह नहीं, इसका मेरे लिए क्या मतलब है?",
+                        "ur": "اوہ نہیں، اس کا میرے لیے کیا مطلب ہے؟",
+                        "tr": "Aman Tanrım, bu benim için ne anlama geliyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir müssen weitere Untersuchungen machen, um die Ursache herauszufinden. Haben Sie Diabetes oder Bluthochdruck?",
+                    "translation": {
+                        "en": "We need to do further investigations to find out the cause. Do you have diabetes or high blood pressure?",
+                        "bn": "কারণ খুঁজে বের করার জন্য আমাদের আরও তদন্ত করতে হবে। আপনার কি ডায়াবেটিস বা উচ্চ রক্তচাপ আছে?",
+                        "hi": "हमें कारण जानने के लिए और जांच करनी होगी। क्या आपको मधुमेह या उच्च रक्तचाप है?",
+                        "ur": "ہمیں وجہ معلوم کرنے کے لیے مزید تحقیقات کرنی ہوں گی۔ کیا آپ کو ذیابیطس یا ہائی بلڈ پریشر ہے؟",
+                        "tr": "Nedeni öğrenmek için daha fazla araştırma yapmamız gerekiyor. Diyabetiniz veya yüksek tansiyonunuz var mı?"
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Ja, ich habe seit einigen Jahren Diabetes.",
+                    "translation": {
+                        "en": "Yes, I have had diabetes for several years.",
+                        "bn": "হ্যাঁ, আমার কয়েক বছর ধরে ডায়াবেটিস আছে।",
+                        "hi": "हाँ, मुझे कई सालों से मधुमेह है।",
+                        "ur": "جی ہاں، مجھے کئی سالوں سے ذیابیطس ہے۔",
+                        "tr": "Evet, birkaç yıldır diyabetim var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Dann ist es wichtig, dass wir Ihren Blutzucker gut einstellen und regelmäßig Ihre Nierenfunktion kontrollieren.",
+                    "translation": {
+                        "en": "Then it's important that we manage your blood sugar well and regularly check your kidney function.",
+                        "bn": "তাহলে আপনার রক্তে ​​শর্করা ভালোভাবে নিয়ন্ত্রণ করা এবং নিয়মিত আপনার কিডনির কার্যকারিতা পরীক্ষা করা গুরুত্বপূর্ণ।",
+                        "hi": "तो फिर यह महत्वपूर्ण है कि हम आपके रक्त शर्करा को अच्छी तरह से प्रबंधित करें और नियमित रूप से आपके गुर्दे की कार्यप्रणाली की जांच करें।",
+                        "ur": "تو پھر یہ ضروری ہے کہ ہم آپ کے خون میں شکر کو اچھی طرح سے منظم کریں اور باقاعدگی سے آپ کے گردے کی فعالیت کی جانچ کریں۔",
+                        "tr": "O zaman kan şekerinizi iyi yönetmemiz ve böbrek fonksiyonlarınızı düzenli olarak kontrol etmemiz önemlidir."
+                    }
+                }
+            ],
+            "id": "d19_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Leukozyten' im Blutbild?",
+                "en": "What does 'Leukocytes' mean in a blood count?",
+                "bn": "রক্ত গণনায় 'Leukocytes' মানে কি?",
+                "hi": "ब्लड काउंट में 'ल्यूकोसाइट्स' का क्या मतलब है?",
+                "ur": "بلڈ کاؤنٹ میں 'لیوکوائٹس' کا کیا مطلب ہے؟",
+                "tr": "Kan sayımında 'Lökositler' ne anlama gelir?"
+            },
+            "options": [
+                "Rote Blutkörperchen",
+                "Weiße Blutkörperchen",
+                "Blutplättchen",
+                "Blutplasma"
+            ],
+            "correctAnswer": "Weiße Blutkörperchen",
+            "explanation": {
+                "en": "'Leukocytes' refers to white blood cells, which are part of the immune system.",
+                "bn": "'Leukocytes' মানে হল শ্বেত রক্ত কণিকা, যা রোগ প্রতিরোধক ব্যবস্থার অংশ।",
+                "hi": "'ल्यूकोसाइट्स' का मतलब है सफेद रक्त कोशिकाएं, जो प्रतिरक्षा प्रणाली का हिस्सा हैं।",
+                "ur": "'لیوکوائٹس' سے مراد سفید خون کے خلیات ہیں، جو مدافعتی نظام کا حصہ ہیں۔",
+                "tr": "'Lökositler', bağışıklık sisteminin bir parçası olan beyaz kan hücrelerini ifade eder."
+            },
+            "points": 10,
+            "id": "e19_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welcher Wert im Blutbild gibt Auskunft über die Sauerstofftransportkapazität des Blutes?",
+                "en": "Which value in the blood count provides information about the oxygen-carrying capacity of the blood?",
+                "bn": "রক্ত গণনার কোন মান রক্তের অক্সিজেন বহন ক্ষমতা সম্পর্কে তথ্য প্রদান করে?",
+                "hi": "ब्लड काउंट में कौन सा मान रक्त की ऑक्सीजन वहन क्षमता के बारे में जानकारी प्रदान करता है?",
+                "ur": "خون کی گنتی میں کون سی قدر خون کی آکسیجن لے جانے کی صلاحیت کے بارے میں معلومات فراہم کرتی ہے؟",
+                "tr": "Kan sayımında hangi değer kanın oksijen taşıma kapasitesi hakkında bilgi verir?"
+            },
+            "options": [
+                "CRP",
+                "Kreatinin",
+                "Hämoglobin",
+                "Thrombozyten"
+            ],
+            "correctAnswer": "Hämoglobin",
+            "explanation": {
+                "en": "Hemoglobin is the protein in red blood cells that carries oxygen.",
+                "bn": "হিমোগ্লোবিন হল লোহিত রক্তকণিকার প্রোটিন যা অক্সিজেন বহন করে।",
+                "hi": "हीमोग्लोबिन लाल रक्त कोशिकाओं में मौजूद प्रोटीन है जो ऑक्सीजन का परिवहन करता है।",
+                "ur": "ہیموگلوبن سرخ خون کے خلیوں میں موجود پروٹین ہے جو آکسیجن کو لے جاتا ہے۔",
+                "tr": "Hemoglobin, kırmızı kan hücrelerinde bulunan ve oksijeni taşıyan proteindir."
+            },
+            "points": 10,
+            "id": "e19_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was deutet ein erhöhter CRP-Wert hin?",
+                "en": "What does an elevated CRP level indicate?",
+                "bn": "একটি উচ্চ CRP স্তর কি নির্দেশ করে?",
+                "hi": "एक ऊंचा CRP स्तर क्या दर्शाता है?",
+                "ur": "بلند CRP سطح کیا اشارہ کرتی ہے؟",
+                "tr": "Yüksek bir CRP seviyesi neyi gösterir?"
+            },
+            "options": [
+                "Niereninsuffizienz",
+                "Entzündung",
+                "Anämie",
+                "Diabetes"
+            ],
+            "correctAnswer": "Entzündung",
+            "explanation": {
+                "en": "An elevated CRP level usually indicates inflammation in the body.",
+                "bn": "একটি উচ্চ CRP স্তর সাধারণত শরীরে প্রদাহ নির্দেশ করে।",
+                "hi": "एक ऊंचा CRP स्तर आमतौर पर शरीर में सूजन का संकेत देता है।",
+                "ur": "ایک بلند CRP سطح عام طور پر جسم میں سوزش کی نشاندہی کرتی ہے۔",
+                "tr": "Yüksek bir CRP seviyesi genellikle vücutta iltihaplanma olduğunu gösterir."
+            },
+            "points": 10,
+            "id": "e19_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Funktion haben Thrombozyten im Blut?",
+                "en": "What is the function of platelets in the blood?",
+                "bn": "রক্তে প্লেটলেটগুলির কাজ কী?",
+                "hi": "खून में प्लेटलेट्स का क्या कार्य है?",
+                "ur": "خون میں پلیٹلیٹس کا کیا کام ہے؟",
+                "tr": "Kanda trombositlerin işlevi nedir?"
+            },
+            "options": [
+                "Sauerstofftransport",
+                "Blutgerinnung",
+                "Immunabwehr",
+                "Nährstofftransport"
+            ],
+            "correctAnswer": "Blutgerinnung",
+            "explanation": {
+                "en": "Platelets are essential for blood clotting.",
+                "bn": "প্লেটলেট রক্ত ​​জমাট বাঁধার জন্য প্রয়োজনীয়।",
+                "hi": "प्लेटलेट्स रक्त के थक्के जमने के लिए आवश्यक हैं।",
+                "ur": "پلیٹلیٹ خون جمنے کے لیے ضروری ہیں۔",
+                "tr": "Trombositler kan pıhtılaşması için gereklidir."
+            },
+            "points": 10,
+            "id": "e19_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist Kreatinin?",
+                "en": "What is creatinine?",
+                "bn": "ক্রিয়েটিনিন কী?",
+                "hi": "क्रिएटिनिन क्या है?",
+                "ur": "کریٹینین کیا ہے؟",
+                "tr": "Kreatinin nedir?"
+            },
+            "options": [
+                "Ein Leberenzym",
+                "Ein Abbauprodukt des Muskelstoffwechsels",
+                "Ein Entzündungsmarker",
+                "Ein Blutfarbstoff"
+            ],
+            "correctAnswer": "Ein Abbauprodukt des Muskelstoffwechsels",
+            "explanation": {
+                "en": "Creatinine is a waste product of muscle metabolism, filtered by the kidneys.",
+                "bn": "ক্রিয়েটিনিন হল পেশী বিপাকের একটি বর্জ্য পণ্য, যা কিডনি দ্বারা ফিল্টার করা হয়।",
+                "hi": "क्रिएटिनिन मांसपेशियों के चयापचय का एक अपशिष्ट उत्पाद है, जिसे गुर्दे द्वारा फ़िल्टर किया जाता है।",
+                "ur": "کریٹینین پٹھوں کے میٹابولزم کا ایک فضلہ مصنوعہ ہے، جو گردوں کے ذریعے فلٹر کیا جاتا ہے۔",
+                "tr": "Kreatinin, kas metabolizmasının bir atık ürünüdür ve böbrekler tarafından filtrelenir."
+            },
+            "points": 10,
+            "id": "e19_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Erhöhte Leberwerte können auf welche Erkrankung hinweisen?",
+                "en": "Elevated liver values can indicate which disease?",
+                "bn": "উচ্চ লিভারের মান কোন রোগের ইঙ্গিত দিতে পারে?",
+                "hi": "बढ़े हुए लिवर मान किस बीमारी का संकेत दे सकते हैं?",
+                "ur": "بلند جگر کی اقدار کس بیماری کی نشاندہی کر سکتی ہیں؟",
+                "tr": "Yüksek karaciğer değerleri hangi hastalığı gösterebilir?"
+            },
+            "options": [
+                "Diabetes",
+                "Niereninsuffizienz",
+                "Hepatitis",
+                "Hypothyreose"
+            ],
+            "correctAnswer": "Hepatitis",
+            "explanation": {
+                "en": "Elevated liver values often indicate liver inflammation or damage, such as in hepatitis.",
+                "bn": "উচ্চ লিভারের মান প্রায়শই লিভারের প্রদাহ বা ক্ষতির ইঙ্গিত দেয়, যেমন হেপাটাইটিসে।",
+                "hi": "बढ़े हुए लिवर मान अक्सर लिवर की सूजन या क्षति का संकेत देते हैं, जैसे कि हेपेटाइटिस में।",
+                "ur": "بلند جگر کی اقدار اکثر جگر کی سوزش یا نقصان کی نشاندہی کرتی ہیں، جیسے کہ ہیپاٹائٹس میں۔",
+                "tr": "Yüksek karaciğer değerleri genellikle hepatitte olduğu gibi karaciğer iltihabı veya hasarını gösterir."
+            },
+            "points": 10,
+            "id": "e19_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was versteht man unter einem 'Differenzialblutbild'?",
+                "en": "What is meant by a 'differential blood count'?",
+                "bn": "'ডিফারেনশিয়াল ব্লাড কাউন্ট' বলতে কী বোঝায়?",
+                "hi": "'डिफरेंशियल ब्लड काउंट' का क्या मतलब है?",
+                "ur": "'تفریقی خون کی گنتی' سے کیا مراد ہے؟",
+                "tr": "'Diferansiyel kan sayımı' ne anlama gelir?"
+            },
+            "options": [
+                "Messung der Blutviskosität",
+                "Detaillierte Analyse der Leukozyten",
+                "Bestimmung des Blutzuckerspiegels",
+                "Überprüfung der Blutgerinnung"
+            ],
+            "correctAnswer": "Detaillierte Analyse der Leukozyten",
+            "explanation": {
+                "en": "A differential blood count provides a detailed analysis of the different types of white blood cells.",
+                "bn": "একটি ডিফারেনশিয়াল ব্লাড কাউন্ট বিভিন্ন ধরণের শ্বেত রক্তকণিকার একটি বিস্তারিত বিশ্লেষণ প্রদান করে।",
+                "hi": "एक डिफरेंशियल ब्लड काउंट विभिन्न प्रकार की श्वेत रक्त कोशिकाओं का विस्तृत विश्लेषण प्रदान करता है।",
+                "ur": "ایک تفریقی خون کی گنتی مختلف قسم کے سفید خون کے خلیوں کا تفصیلی تجزیہ فراہم کرتی ہے۔",
+                "tr": "Diferansiyel kan sayımı, farklı türdeki beyaz kan hücrelerinin ayrıntılı bir analizini sağlar."
+            },
+            "points": 10,
+            "id": "e19_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welcher Laborwert wird typischerweise zur Beurteilung der Nierenfunktion verwendet?",
+                "en": "Which laboratory value is typically used to assess kidney function?",
+                "bn": "কিডনির কার্যকারিতা মূল্যায়ন করতে সাধারণত কোন পরীক্ষাগার মান ব্যবহার করা হয়?",
+                "hi": "गुर्दे की कार्यप्रणाली का आकलन करने के लिए आमतौर पर किस प्रयोगशाला मूल्य का उपयोग किया जाता है?",
+                "ur": "گردے کے فعل کا جائزہ لینے کے لیے عام طور پر کون سی لیبارٹری ویلیو استعمال ہوتی ہے؟",
+                "tr": "Böbrek fonksiyonunu değerlendirmek için tipik olarak hangi laboratuvar değeri kullanılır?"
+            },
+            "options": [
+                "CRP",
+                "Hämoglobin",
+                "Kreatinin",
+                "Leukozyten"
+            ],
+            "correctAnswer": "Kreatinin",
+            "explanation": {
+                "en": "Creatinine is a key indicator of kidney function; elevated levels suggest impaired kidney function.",
+                "bn": "ক্রিয়েটিনিন কিডনির কার্যকারিতার একটি মূল সূচক; উচ্চ মাত্রা কিডনির দুর্বল কার্যকারিতা নির্দেশ করে।",
+                "hi": "क्रिएटिनिन गुर्दे की कार्यप्रणाली का एक महत्वपूर्ण संकेतक है; ऊंचा स्तर गुर्दे की बिगड़ी हुई कार्यप्रणाली का सुझाव देता है।",
+                "ur": "کریٹینین گردے کے فعل کا ایک اہم اشارے ہے۔ بلند سطح گردے کے خراب فعل کی نشاندہی کرتی ہے۔",
+                "tr": "Kreatinin, böbrek fonksiyonunun önemli bir göstergesidir; yüksek seviyeler, böbrek fonksiyonunun bozulduğunu gösterir."
+            },
+            "points": 10,
+            "id": "e19_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist der Normbereich für Hämoglobin bei Frauen?",
+                "en": "What is the normal range for hemoglobin in women?",
+                "bn": "মহিলাদের মধ্যে হিমোগ্লোবিনের স্বাভাবিক পরিসীমা কত?",
+                "hi": "महिलाओं में हीमोग्लोबिन की सामान्य सीमा क्या है?",
+                "ur": "خواتین میں ہیموگلوبن کی نارمل رینج کیا ہے؟",
+                "tr": "Kadınlarda hemoglobin için normal aralık nedir?"
+            },
+            "options": [
+                "12-16 g/dL",
+                "14-18 g/dL",
+                "4.0-5.0 Mio/µL",
+                "150-400 G/L"
+            ],
+            "correctAnswer": "12-16 g/dL",
+            "explanation": {
+                "en": "The normal hemoglobin range for women is generally between 12 and 16 g/dL.",
+                "bn": "মহিলাদের জন্য স্বাভাবিক হিমোগ্লোবিনের পরিসীমা সাধারণত 12 থেকে 16 গ্রাম/ডিএল এর মধ্যে থাকে।",
+                "hi": "महिलाओं के लिए सामान्य हीमोग्लोबिन सीमा आमतौर पर 12 से 16 ग्राम/डीएल के बीच होती है।",
+                "ur": "خواتین کے لیے نارمل ہیموگلوبن کی حد عموماً 12 سے 16 گرام/ڈی ایل کے درمیان ہوتی ہے۔",
+                "tr": "Kadınlar için normal hemoglobin aralığı genellikle 12 ile 16 g/dL arasındadır."
+            },
+            "points": 10,
+            "id": "e19_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Ein niedriger Thrombozytenwert wird als was bezeichnet?",
+                "en": "What is a low platelet count called?",
+                "bn": "একটি নিম্ন প্লেটলেট গণনাকে কী বলা হয়?",
+                "hi": "कम प्लेटलेट काउंट को क्या कहा जाता है?",
+                "ur": "کم پلیٹلیٹ کی گنتی کو کیا کہا جاتا ہے؟",
+                "tr": "Düşük trombosit sayısına ne denir?"
+            },
+            "options": [
+                "Leukopenie",
+                "Thrombozytopenie",
+                "Anämie",
+                "Polyzythämie"
+            ],
+            "correctAnswer": "Thrombozytopenie",
+            "explanation": {
+                "en": "A low platelet count is called thrombocytopenia.",
+                "bn": "একটি নিম্ন প্লেটলেট গণনাকে থ্রম্বোসাইটোপেনিয়া বলা হয়।",
+                "hi": "कम प्लेटलेट काउंट को थ्रोम्बोसाइटोपेनिया कहा जाता है।",
+                "ur": "کم پلیٹلیٹ کی گنتی کو تھرومبوسائٹوپینیا کہا جاتا ہے۔",
+                "tr": "Düşük trombosit sayısına trombositopeni denir."
+            },
+            "points": 10,
+            "id": "e19_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "__________ ist ein Protein, das Sauerstoff im Blut transportiert.",
+                "en": "__________ is a protein that transports oxygen in the blood.",
+                "bn": "__________ একটি প্রোটিন যা রক্তে অক্সিজেন পরিবহন করে।",
+                "hi": "__________ एक प्रोटीन है जो रक्त में ऑक्सीजन का परिवहन करता है।",
+                "ur": "__________ ایک پروٹین ہے جو خون میں آکسیجن کی نقل و حمل کرتا ہے۔",
+                "tr": "__________ kanda oksijen taşıyan bir proteindir."
+            },
+            "options": [],
+            "correctAnswer": "Hämoglobin",
+            "explanation": {
+                "en": "Hemoglobin is the protein in red blood cells that carries oxygen throughout the body.",
+                "bn": "হিমোগ্লোবিন হল লোহিত রক্তকণিকার প্রোটিন যা সারা শরীরে অক্সিজেন বহন করে।",
+                "hi": "हीमोग्लोबिन लाल रक्त कोशिकाओं में मौजूद प्रोटीन है जो पूरे शरीर में ऑक्सीजन का परिवहन करता है।",
+                "ur": "ہیموگلوبن سرخ خون کے خلیوں میں موجود پروٹین ہے جو پورے جسم میں آکسیجن کی نقل و حمل کرتا ہے۔",
+                "tr": "Hemoglobin, kırmızı kan hücrelerinde bulunan ve vücutta oksijeni taşıyan proteindir."
+            },
+            "points": 10,
+            "id": "e19_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Ein erhöhter __________-Wert deutet auf eine Entzündung im Körper hin.",
+                "en": "An elevated __________ level indicates inflammation in the body.",
+                "bn": "একটি উচ্চ __________ স্তর শরীরে প্রদাহ নির্দেশ করে।",
+                "hi": "एक बढ़ा हुआ __________ स्तर शरीर में सूजन का संकेत देता है।",
+                "ur": "ایک بلند __________ سطح جسم میں سوزش کی نشاندہی کرتی ہے۔",
+                "tr": "Yüksek bir __________ seviyesi vücutta iltihaplanmayı gösterir."
+            },
+            "options": [],
+            "correctAnswer": "CRP",
+            "explanation": {
+                "en": "CRP (C-reactive protein) is an indicator of inflammation.",
+                "bn": "CRP (সি-রিঅ্যাক্টিভ প্রোটিন) হল প্রদাহের একটি নির্দেশক।",
+                "hi": "CRP (सी-रिएक्टिव प्रोटीन) सूजन का एक संकेतक है।",
+                "ur": "سی آر پی (سی-ری ایکٹیو پروٹین) سوزش کا ایک اشارے ہے۔",
+                "tr": "CRP (C-reaktif protein) bir iltihaplanma göstergesidir."
+            },
+            "points": 10,
+            "id": "e19_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "__________ sind für die Blutgerinnung verantwortlich.",
+                "en": "__________ are responsible for blood clotting.",
+                "bn": "__________ রক্ত জমাট বাঁধার জন্য দায়ী।",
+                "hi": "__________ रक्त के थक्के जमने के लिए जिम्मेदार हैं।",
+                "ur": "__________ خون جمنے کے ذمہ دار ہیں۔",
+                "tr": "__________ kan pıhtılaşmasından sorumludur."
+            },
+            "options": [],
+            "correctAnswer": "Thrombozyten",
+            "explanation": {
+                "en": "Platelets (thrombocytes) are essential for the blood clotting process.",
+                "bn": "প্লেটলেট (থ্রম্বোসাইট) রক্ত জমাট বাঁধার প্রক্রিয়ার জন্য অপরিহার্য।",
+                "hi": "प्लेटलेट्स (थ्रोम्बोसाइट्स) रक्त के थक्के जमने की प्रक्रिया के लिए आवश्यक हैं।",
+                "ur": "پلیٹلیٹس (تھرومبوسائٹس) خون جمنے کے عمل کے لیے ضروری ہیں۔",
+                "tr": "Trombositler (plateletler) kan pıhtılaşma süreci için gereklidir."
+            },
+            "points": 10,
+            "id": "e19_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "__________ wird verwendet, um die Nierenfunktion zu beurteilen.",
+                "en": "__________ is used to assess kidney function.",
+                "bn": "__________ কিডনির কার্যকারিতা মূল্যায়ন করতে ব্যবহৃত হয়।",
+                "hi": "__________ का उपयोग गुर्दे की कार्यप्रणाली का आकलन करने के लिए किया जाता है।",
+                "ur": "__________ گردے کے فعل کا جائزہ لینے کے لیے استعمال ہوتا ہے۔",
+                "tr": "__________ böbrek fonksiyonunu değerlendirmek için kullanılır."
+            },
+            "options": [],
+            "correctAnswer": "Kreatinin",
+            "explanation": {
+                "en": "Creatinine level is a key indicator to assess kidney function.",
+                "bn": "ক্রিয়েটিনিনের মাত্রা কিডনির কার্যকারিতা মূল্যায়নের জন্য একটি গুরুত্বপূর্ণ সূচক।",
+                "hi": "क्रिएटिनिन का स्तर गुर्दे की कार्यप्रणाली का आकलन करने के लिए एक महत्वपूर्ण संकेतक है।",
+                "ur": "کریٹینین کی سطح گردے کے فعل کا جائزہ لینے کے لیے ایک اہم اشارے ہے۔",
+                "tr": "Kreatinin seviyesi, böbrek fonksiyonunu değerlendirmek için önemli bir göstergedir."
+            },
+            "points": 10,
+            "id": "e19_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Erhöhte __________ können auf eine Leberschädigung hinweisen.",
+                "en": "Elevated __________ can indicate liver damage.",
+                "bn": "উচ্চ __________ লিভারের ক্ষতির ইঙ্গিত দিতে পারে।",
+                "hi": "बढ़ा हुआ __________ जिगर की क्षति का संकेत दे सकता है।",
+                "ur": "بلند __________ جگر کے نقصان کی نشاندہی کر سکتا ہے۔",
+                "tr": "Yüksek __________ karaciğer hasarını gösterebilir."
+            },
+            "options": [],
+            "correctAnswer": "Leberwerte",
+            "explanation": {
+                "en": "Elevated liver enzymes (Leberwerte) in the blood can indicate liver damage or disease.",
+                "bn": "রক্তে উচ্চ লিভার এনজাইম (Leberwerte) লিভারের ক্ষতি বা রোগের ইঙ্গিত দিতে পারে।",
+                "hi": "रक्त में बढ़ा हुआ लिवर एंजाइम (Leberwerte) जिगर की क्षति या बीमारी का संकेत दे सकता है।",
+                "ur": "خون میں بلند جگر کے انزائمز (لیبرویٹ) جگر کے نقصان یا بیماری کی نشاندہی کر سکتے ہیں۔",
+                "tr": "Kandaki yüksek karaciğer enzimleri (Leberwerte) karaciğer hasarını veya hastalığını gösterebilir."
+            },
+            "points": 10,
+            "id": "e19_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Übersetzen Sie: 'Der Patient hat ein normales Blutbild.'",
+                "en": "Translate: 'The patient has a normal blood count.'",
+                "bn": "অনুবাদ করুন: 'The patient has a normal blood count.'",
+                "hi": "अनुवाद करें: 'The patient has a normal blood count.'",
+                "ur": "ترجمہ کریں: 'The patient has a normal blood count.'",
+                "tr": "Çevirin: 'The patient has a normal blood count.'"
+            },
+            "options": [],
+            "correctAnswer": "The patient has a normal blood count.",
+            "explanation": {
+                "en": "The translation is straightforward.",
+                "bn": "অনুবাদটি সরাসরি।",
+                "hi": "अनुवाद सीधा है।",
+                "ur": "ترجمہ سیدھا ہے۔",
+                "tr": "Çeviri basittir."
+            },
+            "points": 10,
+            "id": "e19_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Übersetzen Sie: 'Das CRP ist erhöht, was auf eine Entzündung hindeutet.'",
+                "en": "Translate: 'The CRP is elevated, indicating inflammation.'",
+                "bn": "অনুবাদ করুন: 'The CRP is elevated, indicating inflammation.'",
+                "hi": "अनुवाद करें: 'The CRP is elevated, indicating inflammation.'",
+                "ur": "ترجمہ کریں: 'The CRP is elevated, indicating inflammation.'",
+                "tr": "Çevirin: 'The CRP is elevated, indicating inflammation.'"
+            },
+            "options": [],
+            "correctAnswer": "The CRP is elevated, indicating inflammation.",
+            "explanation": {
+                "en": "The translation captures the meaning of the original sentence.",
+                "bn": "অনুবাদটি মূল বাক্যের অর্থ ধারণ করে।",
+                "hi": "अनुवाद मूल वाक्य का अर्थ बताता है।",
+                "ur": "ترجمہ اصل جملے کے معنی کو ظاہر کرتا ہے۔",
+                "tr": "Çeviri, orijinal cümlenin anlamını yakalar."
+            },
+            "points": 10,
+            "id": "e19_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Übersetzen Sie: 'Die Leberwerte sind im Normbereich.'",
+                "en": "Translate: 'The liver values are within the normal range.'",
+                "bn": "অনুবাদ করুন: 'The liver values are within the normal range.'",
+                "hi": "अनुवाद करें: 'The liver values are within the normal range.'",
+                "ur": "ترجمہ کریں: 'The liver values are within the normal range.'",
+                "tr": "Çevirin: 'The liver values are within the normal range.'"
+            },
+            "options": [],
+            "correctAnswer": "The liver values are within the normal range.",
+            "explanation": {
+                "en": "This translation accurately reflects the German sentence.",
+                "bn": "এই অনুবাদটি জার্মান বাক্যটিকে সঠিকভাবে প্রতিফলিত করে।",
+                "hi": "यह अनुवाद जर्मन वाक्य को सटीक रूप से दर्शाता है।",
+                "ur": "یہ ترجمہ جرمن جملے کی درست عکاسی کرتا ہے۔",
+                "tr": "Bu çeviri, Almanca cümleyi doğru bir şekilde yansıtmaktadır."
+            },
+            "points": 10,
+            "id": "e19_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

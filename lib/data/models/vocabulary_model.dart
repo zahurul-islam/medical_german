@@ -84,6 +84,10 @@ class VocabularyModel {
     );
   }
 
+  factory VocabularyModel.fromJson(Map<String, dynamic> json) {
+    return VocabularyModel.fromMap(json, json['id'] ?? '');
+  }
+
   Map<String, dynamic> toFirestore() {
     return {
       'sectionId': sectionId,

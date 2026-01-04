@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:149956547132:android:283d2b0eecebec5fba2939",
         "android_client_info": {
-          "package_name": "app.german.med"
+          "package_name": "app.deutsch.med"
         }
       },
       "oauth_client": [
@@ -34,7 +34,7 @@
               "client_id": "149956547132-aea3amlfppuv9let4rapr7bvapqp7knf.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "app.german.med"
+                "bundle_id": "app.deutsch.med"
               }
             }
           ]

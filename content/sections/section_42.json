@@ -1,1 +1,1602 @@
-{"id":"section_42","phaseId":"phase3","order":42,"titleDe":"Approbationsverfahren","title":{"en":"Approbation Process","bn":"Approbation Process","hi":"Approbation Process","ur":"Approbation Process","tr":"Approbation Process"},"level":"C1","estimatedMinutes":40,"vocabulary":[{"id":"v42_01","germanTerm":"Fachbegriff","article":"der","plural":"Fachbegriffe","translation":{"en":"Technical Term","bn":"টেকনিক্যাল টার্ম","hi":"तकनीकी शब्द","ur":"تکنیکی اصطلاح","tr":"Teknik terim"}}],"dialogues":[{"id":"d42_01","title":{"en":"Professional Scenario"},"lines":[{"speaker":"Oberarzt","germanText":"Professional dialogue for Approbation Process.","translation":{"en":"Professional dialogue for Approbation Process."}}]}],"exercises":[{"id":"e42_01","type":"multipleChoice","question":{"en":"Advanced question for Approbation Process?"},"options":["Option A","Option B","Option C"],"correctAnswer":"Option A","points":15}]}
+{
+    "id": "section_42",
+    "phaseId": "phase3",
+    "order": 42,
+    "titleDe": "Approbationsverfahren",
+    "title": {
+        "en": "The Approbation Process in Germany for Foreign Medical Professionals",
+        "bn": "বিদেশী চিকিৎসা পেশাদারদের জন্য জার্মানিতে অ্যাপ্রোবেশন প্রক্রিয়া",
+        "hi": "विदेशी चिकित्सा पेशेवरों के लिए जर्मनी में एप्रोबेशन प्रक्रिया",
+        "ur": "غیر ملکی طبی پیشہ ور افراد کے لیے جرمنی میں ایپرویشن کا عمل",
+        "tr": "Yabancı Tıp Uzmanları için Almanya'da Approbation Süreci",
+        "de": "Der Approbationsprozess in Deutschland für ausländische Ärzte"
+    },
+    "description": {
+        "en": "This section details the processes of Approbation, Anerkennung, Kenntnisprüfung, Fachsprachprüfung, and Berufserlaubnis necessary for foreign medical professionals to practice medicine in Germany.",
+        "bn": "এই বিভাগে বিদেশী চিকিৎসা পেশাদারদের জার্মানিতে ঔষধ অনুশীলন করার জন্য প্রয়োজনীয় অ্যাপ্রোবেশন, আনারক্যানুং, কেন্টনিসপ্রুফং, ফাখস্প্রাচপ্রুফং এবং বেরুফসএরলাউবনিস প্রক্রিয়াগুলোর বিস্তারিত আলোচনা করা হয়েছে।",
+        "hi": "यह अनुभाग विदेशी चिकित्सा पेशेवरों के लिए जर्मनी में चिकित्सा का अभ्यास करने के लिए आवश्यक एप्रोबेशन, एनरकैनुंग, केन्टनिस्प्रुफंग, फचस्प्राचप्रुफंग और बेरुफसेरलाउबनीस प्रक्रियाओं का विवरण देता है।",
+        "ur": "یہ سیکشن غیر ملکی طبی پیشہ ور افراد کے لیے جرمنی میں طب کی مشق کرنے کے لیے ضروری ایپرویشن، اینرکنونگ، کینٹنسپرفنگ، فچسپراچپرفنگ، اور بیروفس ایرلاوبینس کے عمل کی تفصیلات بتاتا ہے۔",
+        "tr": "Bu bölüm, yabancı tıp uzmanlarının Almanya'da tıp uygulaması için gerekli olan Approbation, Anerkennung, Kenntnisprüfung, Fachsprachprüfung ve Berufserlaubnis süreçlerini detaylandırmaktadır.",
+        "de": "Dieser Abschnitt beschreibt die Prozesse der Approbation, Anerkennung, Kenntnisprüfung, Fachsprachprüfung und Berufserlaubnis, die für ausländische Ärzte notwendig sind, um in Deutschland zu praktizieren."
+    },
+    "level": "C1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, we will explore the different pathways for foreign doctors to obtain the license to practice medicine in Germany. You will learn about the specific requirements, examinations, and documents needed for each process.",
+            "bn": "এই বিভাগে, আমরা জার্মানিতে ঔষধ অনুশীলন করার লাইসেন্স পাওয়ার জন্য বিদেশী ডাক্তারদের বিভিন্ন উপায় অন্বেষণ করব। আপনি প্রতিটি প্রক্রিয়ার জন্য প্রয়োজনীয় নির্দিষ্ট প্রয়োজনীয়তা, পরীক্ষা এবং নথি সম্পর্কে জানতে পারবেন।",
+            "hi": "इस खंड में, हम विदेशी डॉक्टरों के लिए जर्मनी में दवा का अभ्यास करने का लाइसेंस प्राप्त करने के विभिन्न तरीकों का पता लगाएंगे। आप प्रत्येक प्रक्रिया के लिए आवश्यक विशिष्ट आवश्यकताओं, परीक्षाओं और दस्तावेजों के बारे में जानेंगे।",
+            "ur": "اس سیکشن میں، ہم غیر ملکی ڈاکٹروں کے لیے جرمنی میں طب کی مشق کرنے کا لائسنس حاصل کرنے کے مختلف طریقوں کو دریافت کریں گے۔ آپ ہر عمل کے لیے ضروری مخصوص ضروریات، امتحانات اور دستاویزات کے بارے میں جانیں گے۔",
+            "tr": "Bu bölümde, yabancı doktorların Almanya'da tıp yapma lisansı almasının farklı yollarını inceleyeceğiz. Her süreç için gerekli özel şartları, sınavları ve belgeleri öğreneceksiniz.",
+            "de": "In diesem Abschnitt werden wir die verschiedenen Wege für ausländische Ärzte zur Erlangung der Approbation in Deutschland untersuchen. Sie werden die spezifischen Anforderungen, Prüfungen und Dokumente kennenlernen, die für jeden Prozess erforderlich sind."
+        },
+        "grammarFocus": {
+            "en": [
+                "Focus on using the subjunctive mood (Konjunktiv II) when discussing hypothetical situations and requirements related to the process.",
+                "Practice using passive voice constructions (Passiv) to describe what is required of candidates during the Approbation process."
+            ],
+            "bn": [
+                "এই প্রক্রিয়ার সাথে সম্পর্কিত কাল্পনিক পরিস্থিতি এবং প্রয়োজনীয়তা নিয়ে আলোচনা করার সময় অনুজ্ঞাসূচক মেজাজ (Konjunktiv II) ব্যবহারের উপর মনোযোগ দিন।",
+                "অ্যাপ্রোবেশন প্রক্রিয়ার সময় প্রার্থীদের কাছ থেকে কী প্রয়োজন তা বর্ণনা করতে নিষ্ক্রিয় ভয়েস গঠন (Passiv) ব্যবহার করার অনুশীলন করুন।"
+            ],
+            "hi": [
+                "इस प्रक्रिया से संबंधित काल्पनिक स्थितियों और आवश्यकताओं पर चर्चा करते समय व्यक्तिपरक मनोदशा (Konjunktiv II) का उपयोग करने पर ध्यान दें।",
+                "एप्रोबेशन प्रक्रिया के दौरान उम्मीदवारों से क्या आवश्यक है, इसका वर्णन करने के लिए निष्क्रिय आवाज संरचनाओं (Passiv) का उपयोग करने का अभ्यास करें।"
+            ],
+            "ur": [
+                "اس عمل سے متعلق فرضی حالات اور ضروریات پر بات کرتے وقت شخصی مزاج (Konjunktiv II) کے استعمال پر توجہ دیں۔",
+                "ایپرویشن کے عمل کے دوران امیدواروں سے کیا ضروری ہے اس کی وضاحت کے لیے غیر فعال آواز کی تعمیرات (Passiv) استعمال کرنے کی مشق کریں۔"
+            ],
+            "tr": [
+                "Bu süreçle ilgili varsayımsal durumları ve gereksinimleri tartışırken dilek kipini (Konjunktiv II) kullanmaya odaklanın.",
+                "Approbation süreci sırasında adaylardan ne istendiğini açıklamak için edilgen çatı yapılarını (Passiv) kullanma alıştırması yapın."
+            ],
+            "de": [
+                "Fokus auf die Verwendung des Konjunktiv II bei der Diskussion hypothetischer Situationen und Anforderungen im Zusammenhang mit dem Prozess.",
+                "Üben Sie die Verwendung von Passivkonstruktionen, um zu beschreiben, was von Kandidaten während des Approbationsprozesses gefordert wird."
+            ]
+        },
+        "culturalNotes": {
+            "en": "German hospitals often have a hierarchical structure, and clear communication with superiors is essential for a smooth workflow.",
+            "bn": "জার্মান হাসপাতালগুলিতে প্রায়শই একটি শ্রেণিবদ্ধ কাঠামো থাকে এবং মসৃণ কর্মপ্রবাহের জন্য ঊর্ধ্বতন কর্মকর্তাদের সাথে স্পষ্ট যোগাযোগ অপরিহার্য।",
+            "hi": "जर्मन अस्पतालों में अक्सर एक पदानुक्रमित संरचना होती है, और सुचारू कार्यप्रवाह के लिए वरिष्ठों के साथ स्पष्ट संचार आवश्यक है।",
+            "ur": "جرمن ہسپتالوں میں اکثر ایک درجہ بندی کا ڈھانچہ ہوتا ہے، اور کام کے ہموار بہاؤ کے لیے اعلیٰ حکام کے ساتھ واضح رابطہ ضروری ہے۔",
+            "tr": "Alman hastaneleri genellikle hiyerarşik bir yapıya sahiptir ve sorunsuz bir iş akışı için üstlerle açık iletişim şarttır.",
+            "de": "Deutsche Krankenhäuser haben oft eine hierarchische Struktur, und eine klare Kommunikation mit Vorgesetzten ist für einen reibungslosen Arbeitsablauf unerlässlich."
+        },
+        "summary": {
+            "en": "Understanding the Approbation process is crucial for foreign medical professionals seeking to practice medicine legally in Germany.",
+            "bn": "জার্মানিতে বৈধভাবে ঔষধ অনুশীলন করতে ইচ্ছুক বিদেশী চিকিৎসা পেশাদারদের জন্য অ্যাপ্রোবেশন প্রক্রিয়া বোঝা অত্যন্ত গুরুত্বপূর্ণ।",
+            "hi": "जर्मनी में कानूनी रूप से दवा का अभ्यास करने के इच्छुक विदेशी चिकित्सा पेशेवरों के लिए एप्रोबेशन प्रक्रिया को समझना महत्वपूर्ण है।",
+            "ur": "جرمنی میں قانونی طور پر طب کی مشق کرنے کے خواہشمند غیر ملکی طبی پیشہ ور افراد کے لیے ایپرویشن کے عمل کو سمجھنا بہت ضروری ہے۔",
+            "tr": "Approbation sürecini anlamak, Almanya'da yasal olarak tıp yapmak isteyen yabancı tıp uzmanları için çok önemlidir.",
+            "de": "Das Verständnis des Approbationsprozesses ist für ausländische Ärzte, die in Deutschland legal praktizieren möchten, von entscheidender Bedeutung."
+        },
+        "learningObjectives": [
+            "Identify the key stages in the Approbation process for foreign doctors in Germany.",
+            "Explain the differences between Approbation, Anerkennung, and Berufserlaubnis.",
+            "Describe the content and format of the Kenntnisprüfung and Fachsprachprüfung.",
+            "Utilize appropriate medical German terminology related to licensing and registration."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "die Approbation",
+            "article": "die",
+            "plural": "die Approbationen",
+            "pronunciation": "/apʁoˈbaːtsi̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "license to practice medicine",
+                "bn": "চিকিৎসা পেশা অনুশীলনের লাইসেন্স",
+                "hi": "चिकित्सा अभ्यास करने का लाइसेंस",
+                "ur": "طبابت کرنے کا لائسنس",
+                "tr": "Tıp yapma lisansı"
+            },
+            "exampleSentence": "Nach bestandener Kenntnisprüfung erhielt er die Approbation.",
+            "exampleTranslation": {
+                "en": "After passing the knowledge examination, he received the license to practice medicine.",
+                "bn": "জ্ঞান পরীক্ষা পাস করার পর, তিনি চিকিৎসা পেশা অনুশীলনের লাইসেন্স পান।",
+                "hi": "ज्ञान परीक्षा उत्तीर्ण करने के बाद, उन्हें चिकित्सा अभ्यास करने का लाइसेंस मिला।",
+                "ur": "علم کا امتحان پاس کرنے کے بعد، اسے طبابت کرنے کا لائسنس ملا۔",
+                "tr": "Bilgi sınavını geçtikten sonra tıp yapma lisansını aldı."
+            },
+            "id": "v42_01"
+        },
+        {
+            "germanTerm": "die Anerkennung",
+            "article": "die",
+            "plural": "die Anerkennungen",
+            "pronunciation": "/ˈanʔɛɐ̯ˌkɛnʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "recognition",
+                "bn": "স্বীকৃতি",
+                "hi": "मान्यता",
+                "ur": "اعتراف",
+                "tr": "tanıma"
+            },
+            "exampleSentence": "Die Anerkennung des ausländischen Abschlusses ist notwendig.",
+            "exampleTranslation": {
+                "en": "The recognition of the foreign degree is necessary.",
+                "bn": "বিদেশী ডিগ্রীর স্বীকৃতি প্রয়োজন।",
+                "hi": "विदेशी डिग्री की मान्यता आवश्यक है।",
+                "ur": "بیرونی ڈگری کی منظوری ضروری ہے۔",
+                "tr": "Yabancı diplomanın tanınması gereklidir."
+            },
+            "id": "v42_02"
+        },
+        {
+            "germanTerm": "die Kenntnisprüfung",
+            "article": "die",
+            "plural": "die Kenntnisprüfungen",
+            "pronunciation": "/ˈkɛntnɪsˌpʁyːfʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "knowledge examination",
+                "bn": "জ্ঞান পরীক্ষা",
+                "hi": "ज्ञान परीक्षा",
+                "ur": "علم کا امتحان",
+                "tr": "bilgi sınavı"
+            },
+            "exampleSentence": "Er muss die Kenntnisprüfung ablegen.",
+            "exampleTranslation": {
+                "en": "He has to take the knowledge examination.",
+                "bn": "তাকে জ্ঞান পরীক্ষা দিতে হবে।",
+                "hi": "उसे ज्ञान परीक्षा देनी होगी।",
+                "ur": "اسے علم کا امتحان دینا ہوگا۔",
+                "tr": "Bilgi sınavına girmesi gerekiyor."
+            },
+            "id": "v42_03"
+        },
+        {
+            "germanTerm": "die Fachsprachprüfung",
+            "article": "die",
+            "plural": "die Fachsprachprüfungen",
+            "pronunciation": "/ˈfaxʃpʁaːxˌpʁyːfʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "medical language examination",
+                "bn": "চিকিৎসা ভাষা পরীক্ষা",
+                "hi": "चिकित्सा भाषा परीक्षा",
+                "ur": "طبی زبان کا امتحان",
+                "tr": "tıbbi dil sınavı"
+            },
+            "exampleSentence": "Die Fachsprachprüfung ist ein wichtiger Teil des Approbationsverfahrens.",
+            "exampleTranslation": {
+                "en": "The medical language examination is an important part of the licensing process.",
+                "bn": "চিকিৎসা ভাষা পরীক্ষাটি লাইসেন্সিং প্রক্রিয়ার একটি গুরুত্বপূর্ণ অংশ।",
+                "hi": "चिकित्सा भाषा परीक्षा लाइसेंसिंग प्रक्रिया का एक महत्वपूर्ण हिस्सा है।",
+                "ur": "طبی زبان کا امتحان لائسنسنگ کے عمل کا ایک اہم حصہ ہے۔",
+                "tr": "Tıbbi dil sınavı, lisanslama sürecinin önemli bir parçasıdır."
+            },
+            "id": "v42_04"
+        },
+        {
+            "germanTerm": "die Berufserlaubnis",
+            "article": "die",
+            "plural": "die Berufserlaubnisse",
+            "pronunciation": "/bəˈʁuːfsʔɛɐ̯ˌlaʊ̯pnɪs/",
+            "category": "noun",
+            "translation": {
+                "en": "temporary medical license",
+                "bn": "অস্থায়ী চিকিৎসা লাইসেন্স",
+                "hi": "अस्थायी चिकित्सा लाइसेंस",
+                "ur": "عارضی طبی لائسنس",
+                "tr": "geçici tıp lisansı"
+            },
+            "exampleSentence": "Sie arbeitet mit einer Berufserlaubnis im Krankenhaus.",
+            "exampleTranslation": {
+                "en": "She is working in the hospital with a temporary medical license.",
+                "bn": "তিনি হাসপাতালে একটি অস্থায়ী চিকিৎসা লাইসেন্স নিয়ে কাজ করছেন।",
+                "hi": "वह अस्पताल में एक अस्थायी चिकित्सा लाइसेंस के साथ काम कर रही है।",
+                "ur": "وہ ایک عارضی طبی لائسنس کے ساتھ اسپتال میں کام کر رہی ہے۔",
+                "tr": "Hastanede geçici bir tıp lisansı ile çalışıyor."
+            },
+            "id": "v42_05"
+        },
+        {
+            "germanTerm": "das Approbationsverfahren",
+            "article": "das",
+            "plural": "die Approbationsverfahren",
+            "pronunciation": "/apʁoˈbaːtsi̯oːnsfɛɐ̯ˌfaːʁən/",
+            "category": "noun",
+            "translation": {
+                "en": "licensing procedure",
+                "bn": "লাইসেন্সিং প্রক্রিয়া",
+                "hi": "लाइसेंसिंग प्रक्रिया",
+                "ur": "لائسنسنگ کا عمل",
+                "tr": "lisanslama süreci"
+            },
+            "exampleSentence": "Das Approbationsverfahren kann mehrere Monate dauern.",
+            "exampleTranslation": {
+                "en": "The licensing procedure can take several months.",
+                "bn": "লাইসেন্সিং প্রক্রিয়া কয়েক মাস ধরে চলতে পারে।",
+                "hi": "लाइसेंसिंग प्रक्रिया में कई महीने लग सकते हैं।",
+                "ur": "لائسنسنگ کے عمل میں کئی مہینے لگ سکتے ہیں۔",
+                "tr": "Lisanslama süreci birkaç ay sürebilir."
+            },
+            "id": "v42_06"
+        },
+        {
+            "germanTerm": "der Antrag",
+            "article": "der",
+            "plural": "die Anträge",
+            "pronunciation": "/ˈantʁaːk/",
+            "category": "noun",
+            "translation": {
+                "en": "application",
+                "bn": "আবেদন",
+                "hi": "आवेदन",
+                "ur": "درخواست",
+                "tr": "başvuru"
+            },
+            "exampleSentence": "Sie muss den Antrag auf Approbation stellen.",
+            "exampleTranslation": {
+                "en": "She has to submit the application for licensing.",
+                "bn": "তাকে লাইসেন্সের জন্য আবেদন জমা দিতে হবে।",
+                "hi": "उसे लाइसेंस के लिए आवेदन जमा करना होगा।",
+                "ur": "اسے لائسنس کے لیے درخواست جمع کرانی ہوگی۔",
+                "tr": "Lisans için başvuruyu yapması gerekiyor."
+            },
+            "id": "v42_07"
+        },
+        {
+            "germanTerm": "die Behörde",
+            "article": "die",
+            "plural": "die Behörden",
+            "pronunciation": "/bəˈhøːɐ̯də/",
+            "category": "noun",
+            "translation": {
+                "en": "authority",
+                "bn": "কর্তৃপক্ষ",
+                "hi": "प्राधिकरण",
+                "ur": "اختیار",
+                "tr": "otorite"
+            },
+            "exampleSentence": "Die zuständige Behörde prüft die Unterlagen.",
+            "exampleTranslation": {
+                "en": "The responsible authority checks the documents.",
+                "bn": "দায়িত্বপ্রাপ্ত কর্তৃপক্ষ কাগজপত্র পরীক্ষা করে।",
+                "hi": "जिम्मेदार प्राधिकरण दस्तावेजों की जांच करता है।",
+                "ur": "ذمہ دار اتھارٹی دستاویزات کی جانچ کرتی ہے۔",
+                "tr": "Sorumlu otorite belgeleri kontrol eder."
+            },
+            "id": "v42_08"
+        },
+        {
+            "germanTerm": "zuständig",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈtsuːʃtɛndɪç/",
+            "category": "adjective",
+            "translation": {
+                "en": "responsible",
+                "bn": "দায়িত্বপ্রাপ্ত",
+                "hi": "जिम्मेदार",
+                "ur": "ذمہ دار",
+                "tr": "sorumlu"
+            },
+            "exampleSentence": "Welche Behörde ist für die Approbation zuständig?",
+            "exampleTranslation": {
+                "en": "Which authority is responsible for the licensing?",
+                "bn": "লাইসেন্সিংয়ের জন্য কোন কর্তৃপক্ষ দায়ী?",
+                "hi": "लाइसेंसिंग के लिए कौन सा प्राधिकरण जिम्मेदार है?",
+                "ur": "لائسنسنگ کے لیے کون سا اختیار ذمہ دار ہے؟",
+                "tr": "Lisanslama için hangi otorite sorumlu?"
+            },
+            "id": "v42_09"
+        },
+        {
+            "germanTerm": "die Unterlagen",
+            "article": "die",
+            "plural": "die Unterlagen",
+            "pronunciation": "/ˈʊntɐˌlaːɡən/",
+            "category": "noun",
+            "translation": {
+                "en": "documents",
+                "bn": "কাগজপত্র",
+                "hi": "दस्तावेज़",
+                "ur": "دستاویزات",
+                "tr": "belgeler"
+            },
+            "exampleSentence": "Die Unterlagen müssen vollständig sein.",
+            "exampleTranslation": {
+                "en": "The documents must be complete.",
+                "bn": "কাগজপত্র সম্পূর্ণ হতে হবে।",
+                "hi": "दस्तावेज़ पूर्ण होने चाहिए।",
+                "ur": "دستاویزات مکمل ہونی چاہئیں۔",
+                "tr": "Belgelerin eksiksiz olması gerekir."
+            },
+            "id": "v42_10"
+        },
+        {
+            "germanTerm": "der Nachweis",
+            "article": "der",
+            "plural": "die Nachweise",
+            "pronunciation": "/ˈnaːxvaɪ̯s/",
+            "category": "noun",
+            "translation": {
+                "en": "proof",
+                "bn": "প্রমাণ",
+                "hi": "सबूत",
+                "ur": "ثبوت",
+                "tr": "kanıt"
+            },
+            "exampleSentence": "Sie muss den Nachweis ihrer Sprachkenntnisse erbringen.",
+            "exampleTranslation": {
+                "en": "She has to provide proof of her language skills.",
+                "bn": "তাকে তার ভাষার দক্ষতার প্রমাণ দিতে হবে।",
+                "hi": "उसे अपनी भाषा कौशल का प्रमाण देना होगा।",
+                "ur": "اسے اپنی لسانی مہارت کا ثبوت دینا ہوگا۔",
+                "tr": "Dil becerilerinin kanıtını sunması gerekiyor."
+            },
+            "id": "v42_11"
+        },
+        {
+            "germanTerm": "die Sprachkenntnisse",
+            "article": "die",
+            "plural": "die Sprachkenntnisse",
+            "pronunciation": "/ˈʃpʁaːxˌkɛntnɪsə/",
+            "category": "noun",
+            "translation": {
+                "en": "language skills",
+                "bn": "ভাষাগত দক্ষতা",
+                "hi": "भाषा कौशल",
+                "ur": "لسانی مہارت",
+                "tr": "dil becerileri"
+            },
+            "exampleSentence": "Gute Sprachkenntnisse sind für die Arbeit im Krankenhaus wichtig.",
+            "exampleTranslation": {
+                "en": "Good language skills are important for working in the hospital.",
+                "bn": "হাসপাতালে কাজ করার জন্য ভাল ভাষাগত দক্ষতা গুরুত্বপূর্ণ।",
+                "hi": "अस्पताल में काम करने के लिए अच्छा भाषा कौशल महत्वपूर्ण है।",
+                "ur": "اسپتال میں کام کرنے کے لیے اچھی لسانی مہارت ضروری ہے۔",
+                "tr": "Hastanede çalışmak için iyi dil becerileri önemlidir."
+            },
+            "id": "v42_12"
+        },
+        {
+            "germanTerm": "die Berufserfahrung",
+            "article": "die",
+            "plural": "die Berufserfahrungen",
+            "pronunciation": "/bəˈʁuːfsʔɛɐ̯ˌfaːʁʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "professional experience",
+                "bn": "পেশাগত অভিজ্ঞতা",
+                "hi": "पेशेवर अनुभव",
+                "ur": "پیشہ ورانہ تجربہ",
+                "tr": "mesleki deneyim"
+            },
+            "exampleSentence": "Berufserfahrung kann bei der Approbation helfen.",
+            "exampleTranslation": {
+                "en": "Professional experience can help with the licensing.",
+                "bn": "পেশাগত অভিজ্ঞতা লাইসেন্সিংয়ের ক্ষেত্রে সহায়তা করতে পারে।",
+                "hi": "पेशेवर अनुभव लाइसेंसिंग में मदद कर सकता है।",
+                "ur": "پیشہ ورانہ تجربہ لائسنسنگ میں مدد کر سکتا ہے۔",
+                "tr": "Mesleki deneyim, lisanslamaya yardımcı olabilir."
+            },
+            "id": "v42_13"
+        },
+        {
+            "germanTerm": "der Gutachter",
+            "article": "der",
+            "plural": "die Gutachter",
+            "pronunciation": "/ˈɡuːtʔaxtɐ/",
+            "category": "noun",
+            "translation": {
+                "en": "expert",
+                "bn": "বিশেষজ্ঞ",
+                "hi": "विशेषज्ञ",
+                "ur": "ماہر",
+                "tr": "uzman"
+            },
+            "exampleSentence": "Ein Gutachter prüft die medizinischen Kenntnisse.",
+            "exampleTranslation": {
+                "en": "An expert checks the medical knowledge.",
+                "bn": "একজন বিশেষজ্ঞ চিকিৎসা জ্ঞান পরীক্ষা করেন।",
+                "hi": "एक विशेषज्ञ चिकित्सा ज्ञान की जांच करता है।",
+                "ur": "ایک ماہر طبی علم کی جانچ کرتا ہے۔",
+                "tr": "Bir uzman, tıbbi bilgiyi kontrol eder."
+            },
+            "id": "v42_14"
+        },
+        {
+            "germanTerm": "das Gutachten",
+            "article": "das",
+            "plural": "die Gutachten",
+            "pronunciation": "/ˈɡuːtˌʔaxtən/",
+            "category": "noun",
+            "translation": {
+                "en": "expert opinion",
+                "bn": "বিশেষজ্ঞ মতামত",
+                "hi": "विशेषज्ञ राय",
+                "ur": "ماہر کی رائے",
+                "tr": "uzman görüşü"
+            },
+            "exampleSentence": "Das Gutachten ist für die Entscheidung wichtig.",
+            "exampleTranslation": {
+                "en": "The expert opinion is important for the decision.",
+                "bn": "বিশেষজ্ঞ মতামত সিদ্ধান্তের জন্য গুরুত্বপূর্ণ।",
+                "hi": "विशेषज्ञ राय निर्णय के लिए महत्वपूर्ण है।",
+                "ur": "ماہر کی رائے فیصلے کے لیے اہم ہے۔",
+                "tr": "Uzman görüşü, karar için önemlidir."
+            },
+            "id": "v42_15"
+        },
+        {
+            "germanTerm": "die Gleichwertigkeit",
+            "article": "die",
+            "plural": "die Gleichwertigkeiten",
+            "pronunciation": "/ˈɡlaɪ̯çveːɐ̯tɪçkaɪ̯t/",
+            "category": "noun",
+            "translation": {
+                "en": "equivalence",
+                "bn": "সমতুল্যতা",
+                "hi": "समतुल्यता",
+                "ur": "مساوات",
+                "tr": "denklik"
+            },
+            "exampleSentence": "Die Gleichwertigkeit des Abschlusses wird geprüft.",
+            "exampleTranslation": {
+                "en": "The equivalence of the degree is being checked.",
+                "bn": "ডিগ্রীর সমতুল্যতা পরীক্ষা করা হচ্ছে।",
+                "hi": "डिग्री की समतुल्यता की जांच की जा रही है।",
+                "ur": "ڈگری کی مساوات کی جانچ کی جا رہی ہے۔",
+                "tr": "Diplomanın denkliği kontrol ediliyor."
+            },
+            "id": "v42_16"
+        },
+        {
+            "germanTerm": "die Gebühr",
+            "article": "die",
+            "plural": "die Gebühren",
+            "pronunciation": "/ɡəˈbyːɐ̯/",
+            "category": "noun",
+            "translation": {
+                "en": "fee",
+                "bn": "ফি",
+                "hi": "शुल्क",
+                "ur": "فیس",
+                "tr": "ücret"
+            },
+            "exampleSentence": "Für die Approbation fallen Gebühren an.",
+            "exampleTranslation": {
+                "en": "Fees are charged for the licensing.",
+                "bn": "লাইসেন্সিংয়ের জন্য ফি নেওয়া হয়।",
+                "hi": "लाइसेंसिंग के लिए शुल्क लिया जाता है।",
+                "ur": "لائسنسنگ کے لیے فیس وصول کی جاتی ہے۔",
+                "tr": "Lisanslama için ücretler alınır."
+            },
+            "id": "v42_17"
+        },
+        {
+            "germanTerm": "ablegen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈapˌleːɡən/",
+            "category": "verb",
+            "translation": {
+                "en": "to take (an exam)",
+                "bn": "(পরীক্ষা) দেওয়া",
+                "hi": "(परीक्षा) देना",
+                "ur": "(امتحان) دینا",
+                "tr": "(sınav) yapmak"
+            },
+            "exampleSentence": "Sie muss die Prüfung noch ablegen.",
+            "exampleTranslation": {
+                "en": "She still has to take the exam.",
+                "bn": "তাকে এখনও পরীক্ষা দিতে হবে।",
+                "hi": "उसे अभी भी परीक्षा देनी है।",
+                "ur": "اسے ابھی بھی امتحان دینا ہے۔",
+                "tr": "Hala sınavı yapması gerekiyor."
+            },
+            "id": "v42_18"
+        },
+        {
+            "germanTerm": "beantragen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/bəˈʔantʁaːɡən/",
+            "category": "verb",
+            "translation": {
+                "en": "to apply for",
+                "bn": "জন্য আবেদন করা",
+                "hi": "के लिए आवेदन करना",
+                "ur": "کے لیے درخواست دینا",
+                "tr": "başvurmak"
+            },
+            "exampleSentence": "Er möchte die Approbation beantragen.",
+            "exampleTranslation": {
+                "en": "He wants to apply for the license.",
+                "bn": "তিনি লাইসেন্সের জন্য আবেদন করতে চান।",
+                "hi": "वह लाइसेंस के लिए आवेदन करना चाहता है।",
+                "ur": "وہ لائسنس کے لیے درخواست دینا چاہتا ہے۔",
+                "tr": "Lisans için başvurmak istiyor."
+            },
+            "id": "v42_19"
+        },
+        {
+            "germanTerm": "prüfen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈpʁyːfən/",
+            "category": "verb",
+            "translation": {
+                "en": "to check",
+                "bn": "পরীক্ষা করা",
+                "hi": "जांच करना",
+                "ur": "جانچنا",
+                "tr": "kontrol etmek"
+            },
+            "exampleSentence": "Die Behörde prüft alle Dokumente.",
+            "exampleTranslation": {
+                "en": "The authority checks all the documents.",
+                "bn": "কর্তৃপক্ষ সমস্ত কাগজপত্র পরীক্ষা করে।",
+                "hi": "प्राधिकरण सभी दस्तावेजों की जांच करता है।",
+                "ur": "اتھارٹی تمام دستاویزات کی جانچ کرتی ہے۔",
+                "tr": "Otorite tüm belgeleri kontrol eder."
+            },
+            "id": "v42_20"
+        },
+        {
+            "germanTerm": "anerkennen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈanʔɛɐ̯ˌkɛnən/",
+            "category": "verb",
+            "translation": {
+                "en": "to recognize",
+                "bn": "স্বীকৃতি দেওয়া",
+                "hi": "मान्यता देना",
+                "ur": "تسلیم کرنا",
+                "tr": "tanımak"
+            },
+            "exampleSentence": "Deutschland muss den ausländischen Abschluss anerkennen.",
+            "exampleTranslation": {
+                "en": "Germany must recognize the foreign degree.",
+                "bn": "জার্মানিকে বিদেশী ডিগ্রী স্বীকৃতি দিতে হবে।",
+                "hi": "जर्मनी को विदेशी डिग्री को मान्यता देनी होगी।",
+                "ur": "جرمنی کو بیرونی ڈگری کو تسلیم کرنا ہوگا۔",
+                "tr": "Almanya, yabancı diplomayı tanımalıdır."
+            },
+            "id": "v42_21"
+        },
+        {
+            "germanTerm": "gültig",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈɡʏltɪç/",
+            "category": "adjective",
+            "translation": {
+                "en": "valid",
+                "bn": "বৈধ",
+                "hi": "वैध",
+                "ur": "صحیح",
+                "tr": "geçerli"
+            },
+            "exampleSentence": "Die Berufserlaubnis ist nur für ein Jahr gültig.",
+            "exampleTranslation": {
+                "en": "The temporary medical license is only valid for one year.",
+                "bn": "অস্থায়ী চিকিৎসা লাইসেন্সটি কেবল এক বছরের জন্য বৈধ।",
+                "hi": "अस्थायी चिकित्सा लाइसेंस केवल एक वर्ष के लिए वैध है।",
+                "ur": "عارضی طبی لائسنس صرف ایک سال کے لیے صحیح ہے۔",
+                "tr": "Geçici tıp lisansı sadece bir yıl geçerlidir."
+            },
+            "id": "v42_22"
+        },
+        {
+            "germanTerm": "die Voraussetzung",
+            "article": "die",
+            "plural": "die Voraussetzungen",
+            "pronunciation": "/ˈfoːɐ̯ʔaʊ̯sˌzɛtsʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "prerequisite",
+                "bn": "পূর্বশর্ত",
+                "hi": "पूर्वापेक्षा",
+                "ur": "پیشگی شرط",
+                "tr": "ön koşul"
+            },
+            "exampleSentence": "Eine abgeschlossene Ausbildung ist eine wichtige Voraussetzung.",
+            "exampleTranslation": {
+                "en": "A completed education is an important prerequisite.",
+                "bn": "একটি সম্পূর্ণ শিক্ষা একটি গুরুত্বপূর্ণ পূর্বশর্ত।",
+                "hi": "एक पूरी शिक्षा एक महत्वपूर्ण पूर्वापेक्षा है।",
+                "ur": "ایک مکمل تعلیم ایک اہم پیشگی شرط ہے۔",
+                "tr": "Tamamlanmış bir eğitim önemli bir ön koşuldur."
+            },
+            "id": "v42_23"
+        },
+        {
+            "germanTerm": "das Bundesland",
+            "article": "das",
+            "plural": "die Bundesländer",
+            "pronunciation": "/ˈbʊndəsˌlant/",
+            "category": "noun",
+            "translation": {
+                "en": "federal state",
+                "bn": "যুক্তরাষ্ট্র",
+                "hi": "संघीय राज्य",
+                "ur": "وفاقی ریاست",
+                "tr": "federal eyalet"
+            },
+            "exampleSentence": "Die Regeln für die Approbation sind je nach Bundesland unterschiedlich.",
+            "exampleTranslation": {
+                "en": "The rules for licensing vary depending on the federal state.",
+                "bn": "লাইসেন্সিংয়ের নিয়মগুলি যুক্তরাষ্ট্রের উপর নির্ভর করে পরিবর্তিত হয়।",
+                "hi": "लाइसेंसिंग के नियम संघीय राज्य के आधार पर भिन्न होते हैं।",
+                "ur": "لائسنسنگ کے اصول وفاقی ریاست کے لحاظ سے مختلف ہوتے ہیں۔",
+                "tr": "Lisanslama kuralları, federal eyalete göre değişir."
+            },
+            "id": "v42_24"
+        },
+        {
+            "germanTerm": "die Kenntnisse",
+            "article": "die",
+            "plural": "die Kenntnisse",
+            "pronunciation": "/ˈkɛntnɪsə/",
+            "category": "noun",
+            "translation": {
+                "en": "knowledge",
+                "bn": "জ্ঞান",
+                "hi": "ज्ञान",
+                "ur": "علم",
+                "tr": "bilgi"
+            },
+            "exampleSentence": "Er hat gute Kenntnisse in der Inneren Medizin.",
+            "exampleTranslation": {
+                "en": "He has good knowledge in internal medicine.",
+                "bn": "তাঁর অভ্যন্তরীণ মেডিসিনে ভাল জ্ঞান রয়েছে।",
+                "hi": "उन्हें आंतरिक चिकित्सा में अच्छा ज्ञान है।",
+                "ur": "اس کے پاس اندرونی طب میں اچھا علم ہے۔",
+                "tr": "İç hastalıkları konusunda iyi bilgiye sahip."
+            },
+            "id": "v42_25"
+        },
+        {
+            "germanTerm": "die Approbationsurkunde",
+            "article": "die",
+            "plural": "die Approbationsurkunden",
+            "pronunciation": "/apʁoˈbaːtsi̯oːnsˌʔuːɐ̯kʊndə/",
+            "category": "noun",
+            "translation": {
+                "en": "license certificate",
+                "bn": "লাইসেন্স সার্টিফিকেট",
+                "hi": "लाइसेंस प्रमाण पत्र",
+                "ur": "لائسنس سرٹیفکیٹ",
+                "tr": "lisans sertifikası"
+            },
+            "exampleSentence": "Er zeigt stolz seine Approbationsurkunde.",
+            "exampleTranslation": {
+                "en": "He proudly shows his license certificate.",
+                "bn": "তিনি গর্বের সাথে তার লাইসেন্স সার্টিফিকেট দেখান।",
+                "hi": "उन्होंने गर्व से अपना लाइसेंस प्रमाण पत्र दिखाया।",
+                "ur": "اس نے فخر سے اپنا لائسنس سرٹیفکیٹ دکھایا۔",
+                "tr": "Lisans sertifikasını gururla gösteriyor."
+            },
+            "id": "v42_26"
+        },
+        {
+            "germanTerm": "die Frist",
+            "article": "die",
+            "plural": "die Fristen",
+            "pronunciation": "/fʁɪst/",
+            "category": "noun",
+            "translation": {
+                "en": "deadline",
+                "bn": "সময়সীমা",
+                "hi": "समय सीमा",
+                "ur": "وقت کی حد",
+                "tr": "son tarih"
+            },
+            "exampleSentence": "Die Frist für die Einreichung der Unterlagen ist bald abgelaufen.",
+            "exampleTranslation": {
+                "en": "The deadline for submitting the documents is expiring soon.",
+                "bn": "কাগজপত্র জমা দেওয়ার সময়সীমা শীঘ্রই শেষ হচ্ছে।",
+                "hi": "दस्तावेज़ जमा करने की समय सीमा जल्द ही समाप्त हो रही है।",
+                "ur": "دستاویزات جمع کرانے کی وقت کی حد جلد ختم ہو رہی ہے۔",
+                "tr": "Belgeleri gönderme son tarihi yakında doluyor."
+            },
+            "id": "v42_27"
+        },
+        {
+            "germanTerm": "die Ablehnung",
+            "article": "die",
+            "plural": "die Ablehnungen",
+            "pronunciation": "/ˈapˌleːnʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "rejection",
+                "bn": "প্রত্যাখ্যান",
+                "hi": "अस्वीकृति",
+                "ur": "رد",
+                "tr": "red"
+            },
+            "exampleSentence": "Er erhielt eine Ablehnung seines Antrags.",
+            "exampleTranslation": {
+                "en": "He received a rejection of his application.",
+                "bn": "তিনি তার আবেদনের প্রত্যাখ্যান পেয়েছেন।",
+                "hi": "उन्हें अपने आवेदन की अस्वीकृति मिली।",
+                "ur": "اسے اپنی درخواست کی تردید موصول ہوئی۔",
+                "tr": "Başvurusunun reddi aldı."
+            },
+            "id": "v42_28"
+        },
+        {
+            "germanTerm": "erteilen",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ɛɐ̯ˈtaɪ̯lən/",
+            "category": "verb",
+            "translation": {
+                "en": "to grant",
+                "bn": "প্রদান করা",
+                "hi": "प्रदान करना",
+                "ur": "عطا کرنا",
+                "tr": "vermek"
+            },
+            "exampleSentence": "Die Behörde kann die Approbation erteilen.",
+            "exampleTranslation": {
+                "en": "The authority can grant the license.",
+                "bn": "কর্তৃপক্ষ লাইসেন্স প্রদান করতে পারে।",
+                "hi": "प्राधिकरण लाइसेंस प्रदान कर सकता है।",
+                "ur": "اتھارٹی لائسنس عطا کر سکتی ہے۔",
+                "tr": "Otorite lisansı verebilir."
+            },
+            "id": "v42_29"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Initial Consultation: Approbation Discussion",
+                "bn": "প্রাথমিক পরামর্শ: অ্যাপ্রোবেশন আলোচনা",
+                "hi": "प्रारंभिक परामर्श: एप्रोबेशन चर्चा",
+                "ur": "ابتدائی مشاورت: اپروبیشن بحث",
+                "tr": "İlk Konsültasyon: Approbation Tartışması"
+            },
+            "context": {
+                "en": "Dr. Schmidt, an experienced doctor, is discussing the Approbation process with a new international doctor, Dr. Khan.",
+                "bn": "ডাঃ শ্মিট, একজন অভিজ্ঞ ডাক্তার, একজন নতুন আন্তর্জাতিক ডাক্তার, ডাঃ খানের সাথে অ্যাপ্রোবেশন প্রক্রিয়া নিয়ে আলোচনা করছেন।",
+                "hi": "डॉ. श्मिट, एक अनुभवी डॉक्टर, एक नए अंतरराष्ट्रीय डॉक्टर, डॉ. खान के साथ एप्रोबेशन प्रक्रिया पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر شمٹ، ایک تجربہ کار ڈاکٹر، ایک نئے بین الاقوامی ڈاکٹر، ڈاکٹر خان کے ساتھ اپروبیشن کے عمل پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Deneyimli bir doktor olan Dr. Schmidt, yeni bir uluslararası doktor olan Dr. Khan ile Approbation sürecini tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Willkommen, Herr Dr. Khan. Haben Sie sich schon über die Approbation informiert?",
+                    "translation": {
+                        "en": "Welcome, Dr. Khan. Have you already informed yourself about the Approbation?",
+                        "bn": "স্বাগতম, ডাঃ খান। আপনি কি ইতিমধ্যে অ্যাপ্রোবেশন সম্পর্কে জেনেছেন?",
+                        "hi": "आपका स्वागत है, डॉ. खान। क्या आपने पहले ही एप्रोबेशन के बारे में जानकारी ले ली है?",
+                        "ur": "خوش آمدید، ڈاکٹر خان۔ کیا آپ نے پہلے ہی اپروبیشن کے بارے میں معلومات حاصل کر لی ہے؟",
+                        "tr": "Hoş geldiniz Dr. Khan. Approbation hakkında zaten bilgi edindiniz mi?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Khan",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ja, ich habe recherchiert. Ich weiß, dass ich die Fachsprachprüfung ablegen muss.",
+                    "translation": {
+                        "en": "Yes, I've done some research. I know that I have to take the Fachsprachprüfung.",
+                        "bn": "হ্যাঁ, আমি কিছু গবেষণা করেছি। আমি জানি যে আমাকে Fachsprachprüfung দিতে হবে।",
+                        "hi": "हां, मैंने कुछ शोध किया है। मुझे पता है कि मुझे Fachsprachprüfung देनी होगी।",
+                        "ur": "ہاں، میں نے کچھ تحقیق کی ہے۔ مجھے معلوم ہے کہ مجھے Fachsprachprüfung دینا ہوگا۔",
+                        "tr": "Evet, biraz araştırma yaptım. Fachsprachprüfung'na girmem gerektiğini biliyorum."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Richtig. Und falls Ihr Studium nicht vollständig anerkannt wird, eventuell auch eine Kenntnisprüfung.",
+                    "translation": {
+                        "en": "Correct. And if your studies are not fully recognized, possibly also a Kenntnisprüfung.",
+                        "bn": "সঠিক। এবং যদি আপনার পড়াশোনা সম্পূর্ণরূপে স্বীকৃত না হয়, তবে সম্ভবত একটি Kenntnisprüfungও লাগতে পারে।",
+                        "hi": "सही। और यदि आपकी पढ़ाई पूरी तरह से मान्यता प्राप्त नहीं है, तो संभवतः एक Kenntnisprüfung भी लग सकती है।",
+                        "ur": "درست۔ اور اگر آپ کی تعلیم مکمل طور پر تسلیم شدہ نہیں ہے، تو ممکنہ طور پر ایک Kenntnisprüfung بھی درکار ہوگی۔",
+                        "tr": "Doğru. Ve eğer çalışmalarınız tam olarak tanınmazsa, muhtemelen bir Kenntnisprüfung de gerekebilir."
+                    }
+                },
+                {
+                    "speaker": "Dr. Khan",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Eine Kenntnisprüfung? Was beinhaltet das?",
+                    "translation": {
+                        "en": "A Kenntnisprüfung? What does that involve?",
+                        "bn": "একটি Kenntnisprüfung? তাতে কী জড়িত?",
+                        "hi": "एक Kenntnisprüfung? उसमें क्या शामिल है?",
+                        "ur": "ایک Kenntnisprüfung؟ اس میں کیا شامل ہے؟",
+                        "tr": "Bir Kenntnisprüfung? Bu neyi içeriyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das ist eine Überprüfung Ihres medizinischen Wissens, ähnlich dem Staatsexamen.",
+                    "translation": {
+                        "en": "It's a check of your medical knowledge, similar to the state exam.",
+                        "bn": "এটি আপনার চিকিৎসা জ্ঞানের একটি পরীক্ষা, যা রাষ্ট্রীয় পরীক্ষার মতো।",
+                        "hi": "यह आपके चिकित्सा ज्ञान की जाँच है, जो राज्य परीक्षा के समान है।",
+                        "ur": "یہ آپ کے طبی علم کی جانچ ہے، جو ریاستی امتحان کی طرح ہے۔",
+                        "tr": "Bu, tıbbi bilginizin, devlet sınavına benzer bir kontrolüdür."
+                    }
+                }
+            ],
+            "id": "d42_01"
+        },
+        {
+            "title": {
+                "en": "Language Exam Preparation",
+                "bn": "ভাষা পরীক্ষার প্রস্তুতি",
+                "hi": "भाषा परीक्षा की तैयारी",
+                "ur": "زبانی امتحان کی تیاری",
+                "tr": "Dil Sınavı Hazırlığı"
+            },
+            "context": {
+                "en": "Dr. Weber and Schwester Müller are discussing Dr. Li's upcoming Fachsprachprüfung.",
+                "bn": "ডাঃ ওয়েবার এবং সিস্টার মুলার ডাঃ লির আসন্ন Fachsprachprüfung নিয়ে আলোচনা করছেন।",
+                "hi": "डॉ. वेबर और सिस्टर मुलर डॉ. ली की आगामी Fachsprachprüfung पर चर्चा कर रहे हैं।",
+                "ur": "ڈاکٹر ویبر اور سسٹر مولر ڈاکٹر لی کے آنے والے Fachsprachprüfung پر تبادلہ خیال کر رہے ہیں۔",
+                "tr": "Dr. Weber ve Hemşire Müller, Dr. Li'nin yaklaşan Fachsprachprüfung'nu tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Müller",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Frau Dr. Li ist so nervös wegen der Fachsprachprüfung.",
+                    "translation": {
+                        "en": "Dr. Li is so nervous about the Fachsprachprüfung.",
+                        "bn": "ডাঃ লি Fachsprachprüfung নিয়ে খুব চিন্তিত।",
+                        "hi": "डॉ. ली Fachsprachprüfung को लेकर बहुत घबरा रही हैं।",
+                        "ur": "ڈاکٹر لی Fachsprachprüfung کے بارے میں بہت گھبرا رہی ہیں۔",
+                        "tr": "Dr. Li, Fachsprachprüfung konusunda çok gergin."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das ist verständlich. Es ist wichtig, medizinische Fachbegriffe gut zu beherrschen.",
+                    "translation": {
+                        "en": "That's understandable. It's important to have a good command of medical terminology.",
+                        "bn": "এটা বোধগম্য। চিকিৎসা পরিভাষা ভালোভাবে আয়ত্ত করা গুরুত্বপূর্ণ।",
+                        "hi": "यह समझ में आता है। चिकित्सा शब्दावली पर अच्छी पकड़ होना महत्वपूर्ण है।",
+                        "ur": "یہ سمجھ میں آتا ہے۔ طبی اصطلاحات پر اچھی گرفت ہونا ضروری ہے۔",
+                        "tr": "Bu anlaşılabilir bir durum. Tıbbi terminolojiye hakim olmak önemlidir."
+                    }
+                },
+                {
+                    "speaker": "Schwester Müller",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Sollten wir ihr vielleicht anbieten, mit uns Patientengespräche auf Deutsch zu üben?",
+                    "translation": {
+                        "en": "Should we perhaps offer to practice patient conversations in German with her?",
+                        "bn": "আমাদের কি তাকে জার্মান ভাষায় রোগীর সাথে কথোপকথন অনুশীলন করার প্রস্তাব দেওয়া উচিত?",
+                        "hi": "क्या हमें शायद उसे जर्मन में रोगियों के साथ बातचीत का अभ्यास करने का प्रस्ताव देना चाहिए?",
+                        "ur": "کیا ہمیں شاید اسے جرمن میں مریضوں کے ساتھ گفتگو کرنے کی مشق کرنے کی پیشکش کرنی چاہیے؟",
+                        "tr": "Belki ona bizimle Almanca hasta görüşmeleri yapma alıştırması yapmayı teklif etmeliyiz?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Eine ausgezeichnete Idee! Das hilft ihr bestimmt sehr.",
+                    "translation": {
+                        "en": "An excellent idea! That will definitely help her a lot.",
+                        "bn": "একটি চমৎকার ধারণা! এটি অবশ্যই তাকে অনেক সাহায্য করবে।",
+                        "hi": "एक उत्कृष्ट विचार! इससे निश्चित रूप से उसे बहुत मदद मिलेगी।",
+                        "ur": "ایک بہترین خیال! اس سے یقیناً اسے بہت مدد ملے گی۔",
+                        "tr": "Mükemmel bir fikir! Bu kesinlikle ona çok yardımcı olacaktır."
+                    }
+                },
+                {
+                    "speaker": "Schwester Müller",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich spreche sie gleich darauf an.",
+                    "translation": {
+                        "en": "I'll talk to her about it right away.",
+                        "bn": "আমি এখনই তার সাথে এই বিষয়ে কথা বলব।",
+                        "hi": "मैं उससे इस बारे में अभी बात करूंगी।",
+                        "ur": "میں اس سے اس بارے میں ابھی بات کروں گی۔",
+                        "tr": "Hemen onunla bu konu hakkında konuşacağım."
+                    }
+                }
+            ],
+            "id": "d42_02"
+        },
+        {
+            "title": {
+                "en": "Anerkennung Issues",
+                "bn": "স্বীকৃতি সমস্যা",
+                "hi": "मान्यता मुद्दे",
+                "ur": "اعتراف کے مسائل",
+                "tr": "Tanınma Sorunları"
+            },
+            "context": {
+                "en": "Dr. Schneider is discussing the Anerkennung process with Dr. Ahmed whose qualifications are not fully recognized.",
+                "bn": "ডাঃ শ্নাইডার ডাঃ আহমেদের সাথে Anerkennung প্রক্রিয়া নিয়ে আলোচনা করছেন, যাঁর যোগ্যতা সম্পূর্ণরূপে স্বীকৃত নয়।",
+                "hi": "डॉ. श्नाइडर डॉ. अहमद के साथ Anerkennung प्रक्रिया पर चर्चा कर रहे हैं, जिनकी योग्यता पूरी तरह से मान्यता प्राप्त नहीं है।",
+                "ur": "ڈاکٹر شنائیڈر ڈاکٹر احمد کے ساتھ Anerkennung کے عمل پر تبادلہ خیال کر رہے ہیں، جن کی قابلیت کو مکمل طور پر تسلیم نہیں کیا گیا ہے۔",
+                "tr": "Dr. Schneider, nitelikleri tam olarak tanınmayan Dr. Ahmed ile Anerkennung sürecini tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schneider",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Herr Dr. Ahmed, leider gibt es Probleme mit der Anerkennung Ihres Studienabschlusses.",
+                    "translation": {
+                        "en": "Dr. Ahmed, unfortunately, there are problems with the recognition of your degree.",
+                        "bn": "ডাঃ আহমেদ, দুর্ভাগ্যবশত, আপনার ডিগ্রির স্বীকৃতি নিয়ে সমস্যা রয়েছে।",
+                        "hi": "डॉ. अहमद, दुर्भाग्य से, आपकी डिग्री की मान्यता में समस्याएँ हैं।",
+                        "ur": "ڈاکٹر احمد، بدقسمتی سے، آپ کی ڈگری کی شناخت میں مسائل ہیں۔",
+                        "tr": "Dr. Ahmed, maalesef, derecenizin tanınmasıyla ilgili sorunlar var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Ahmed",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Was bedeutet das genau?",
+                    "translation": {
+                        "en": "What does that mean exactly?",
+                        "bn": "এর মানে কী?",
+                        "hi": "इसका ठीक मतलब क्या है?",
+                        "ur": "اس کا کیا مطلب ہے؟",
+                        "tr": "Bu tam olarak ne anlama geliyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schneider",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Dass Sie wahrscheinlich eine Kenntnisprüfung ablegen müssen, um die Approbation zu erhalten.",
+                    "translation": {
+                        "en": "That you will probably have to take a Kenntnisprüfung to obtain the Approbation.",
+                        "bn": "আপনাকে অ্যাপ্রোবেশন পাওয়ার জন্য সম্ভবত একটি Kenntnisprüfung দিতে হবে।",
+                        "hi": "कि आपको एप्रोबेशन प्राप्त करने के लिए शायद एक Kenntnisprüfung देनी होगी।",
+                        "ur": "کہ آپ کو اپروبیشن حاصل کرنے کے لیے شاید ایک Kenntnisprüfung دینا ہوگا۔",
+                        "tr": "Approbation'u almak için muhtemelen bir Kenntnisprüfung'na girmeniz gerekecek."
+                    }
+                },
+                {
+                    "speaker": "Dr. Ahmed",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich verstehe. Gibt es Materialien zur Vorbereitung?",
+                    "translation": {
+                        "en": "I understand. Are there any materials for preparation?",
+                        "bn": "আমি বুঝতে পারছি। প্রস্তুতির জন্য কোনো উপকরণ আছে কি?",
+                        "hi": "मुझे समझ में आता है। क्या तैयारी के लिए कोई सामग्री है?",
+                        "ur": "مجھے سمجھ میں آتا ہے۔ کیا تیاری کے لیے کوئی مواد ہے؟",
+                        "tr": "Anlıyorum. Hazırlık için herhangi bir materyal var mı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schneider",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ja, die Ärztekammer bietet Kurse und Informationen an. Ich kann Ihnen die Kontaktdaten geben.",
+                    "translation": {
+                        "en": "Yes, the medical association offers courses and information. I can give you the contact details.",
+                        "bn": "হ্যাঁ, মেডিকেল অ্যাসোসিয়েশন কোর্স এবং তথ্য সরবরাহ করে। আমি আপনাকে যোগাযোগের বিবরণ দিতে পারি।",
+                        "hi": "हाँ, चिकित्सा संघ पाठ्यक्रम और जानकारी प्रदान करता है। मैं आपको संपर्क विवरण दे सकता हूँ।",
+                        "ur": "ہاں، میڈیکل ایسوسی ایشن کورسز اور معلومات پیش کرتی ہے۔ میں آپ کو رابطے کی تفصیلات دے سکتا ہوں۔",
+                        "tr": "Evet, tıp birliği kurslar ve bilgiler sunuyor. Size iletişim bilgilerini verebilirim."
+                    }
+                }
+            ],
+            "id": "d42_03"
+        },
+        {
+            "title": {
+                "en": "Berufserlaubnis vs. Approbation",
+                "bn": "Berufserlaubnis বনাম Approbation",
+                "hi": "Berufserlaubnis बनाम Approbation",
+                "ur": "Berufserlaubnis بمقابلہ Approbation",
+                "tr": "Berufserlaubnis - Approbation Karşılaştırması"
+            },
+            "context": {
+                "en": "A patient, Herr Müller, asks Dr. Lehmann about the difference between Berufserlaubnis and Approbation.",
+                "bn": "একজন রোগী, মিঃ মুলার, ডাঃ লেহম্যানকে Berufserlaubnis এবং Approbation এর মধ্যে পার্থক্য সম্পর্কে জিজ্ঞাসা করছেন।",
+                "hi": "एक मरीज, श्री मुलर, डॉ. लेहमन से Berufserlaubnis और Approbation के बीच अंतर के बारे में पूछते हैं।",
+                "ur": "ایک مریض، مسٹر مولر، ڈاکٹر لیمان سے Berufserlaubnis اور Approbation کے درمیان فرق کے بارے میں پوچھتے ہیں۔",
+                "tr": "Bir hasta, Bay Müller, Dr. Lehmann'a Berufserlaubnis ve Approbation arasındaki farkı soruyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Frau Doktor, was ist eigentlich der Unterschied zwischen Berufserlaubnis und Approbation?",
+                    "translation": {
+                        "en": "Doctor, what is actually the difference between Berufserlaubnis and Approbation?",
+                        "bn": "ডাক্তার, Berufserlaubnis এবং Approbation এর মধ্যে আসলে পার্থক্য কী?",
+                        "hi": "डॉक्टर, Berufserlaubnis और Approbation के बीच वास्तव में क्या अंतर है?",
+                        "ur": "ڈاکٹر، Berufserlaubnis اور Approbation کے درمیان اصل میں کیا فرق ہے؟",
+                        "tr": "Doktor, Berufserlaubnis ve Approbation arasındaki fark nedir?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Gute Frage! Die Berufserlaubnis ist eine temporäre Arbeitserlaubnis.",
+                    "translation": {
+                        "en": "Good question! The Berufserlaubnis is a temporary work permit.",
+                        "bn": "ভালো প্রশ্ন! Berufserlaubnis হল একটি অস্থায়ী কাজের অনুমতি।",
+                        "hi": "अच्छा प्रश्न! Berufserlaubnis एक अस्थायी कार्य परमिट है।",
+                        "ur": "اچھا سوال! Berufserlaubnis ایک عارضی کام کا اجازت نامہ ہے۔",
+                        "tr": "Güzel soru! Berufserlaubnis geçici bir çalışma iznidir."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Und die Approbation?",
+                    "translation": {
+                        "en": "And the Approbation?",
+                        "bn": "আর Approbation?",
+                        "hi": "और एप्रोबेशन?",
+                        "ur": "اور اپروبیشن؟",
+                        "tr": "Peki Approbation?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Lehmann",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Die Approbation ist die uneingeschränkte staatliche Zulassung zum Arztberuf.",
+                    "translation": {
+                        "en": "The Approbation is the unrestricted state license to practice medicine.",
+                        "bn": "Approbation হল ডাক্তারি পেশা অনুশীলনের জন্য সীমাহীন রাষ্ট্রীয় অনুমোদন।",
+                        "hi": "एप्रोबेशन चिकित्सा का अभ्यास करने के लिए अप्रतिबंधित राज्य लाइसेंस है।",
+                        "ur": "اپروبیشن طب کی مشق کرنے کے لیے غیر محدود ریاستی لائسنس ہے۔",
+                        "tr": "Approbation, tıp mesleğini icra etmek için sınırsız devlet lisansıdır."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Ah, jetzt verstehe ich den Unterschied. Vielen Dank!",
+                    "translation": {
+                        "en": "Ah, now I understand the difference. Thank you very much!",
+                        "bn": "আহ, এখন আমি পার্থক্য বুঝতে পারছি। তোমাকে অনেক ধন্যবাদ!",
+                        "hi": "आह, अब मैं अंतर समझ गया। आपका बहुत-बहुत धन्यवाद!",
+                        "ur": "آہ، اب میں فرق سمجھ گیا۔ آپ کا بہت بہت شکریہ!",
+                        "tr": "Ah, şimdi farkı anladım. Çok teşekkür ederim!"
+                    }
+                }
+            ],
+            "id": "d42_04"
+        },
+        {
+            "title": {
+                "en": "After Approbation Success",
+                "bn": "অ্যাপ্রোবেশন সাফল্যের পরে",
+                "hi": "एप्रोबेशन सफलता के बाद",
+                "ur": "اپروبیشن کامیابی کے بعد",
+                "tr": "Approbation Başarısından Sonra"
+            },
+            "context": {
+                "en": "Dr. Garcia has just received his Approbation and is celebrating with Dr. Klein.",
+                "bn": "ডাঃ গার্সিয়া সবেমাত্র তার অ্যাপ্রোবেশন পেয়েছেন এবং ডাঃ ক্লেইনের সাথে উদযাপন করছেন।",
+                "hi": "डॉ. गार्सिया को अभी-अभी अपना एप्रोबेशन मिला है और वे डॉ. क्लेन के साथ जश्न मना रहे हैं।",
+                "ur": "ڈاکٹر گارسیا کو ابھی اپنا اپروبیشن ملا ہے اور وہ ڈاکٹر کلین کے ساتھ جشن منا رہے ہیں۔",
+                "tr": "Dr. Garcia, Approbation'unu yeni aldı ve Dr. Klein ile kutluyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Garcia",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich habe meine Approbation bekommen! Ich bin so erleichtert.",
+                    "translation": {
+                        "en": "I got my Approbation! I'm so relieved.",
+                        "bn": "আমি আমার অ্যাপ্রোবেশন পেয়েছি! আমি খুব স্বস্তি বোধ করছি।",
+                        "hi": "मुझे अपना एप्रोबेशन मिल गया! मैं बहुत राहत महसूस कर रहा हूँ।",
+                        "ur": "مجھے اپنا اپروبیشن مل گیا! میں بہت پر سکون ہوں۔",
+                        "tr": "Approbation'umu aldım! Çok rahatladım."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Herzlichen Glückwunsch, Dr. Garcia! Das ist eine tolle Leistung.",
+                    "translation": {
+                        "en": "Congratulations, Dr. Garcia! That's a great achievement.",
+                        "bn": "অভিনন্দন, ডাঃ গার্সিয়া! এটি একটি দারুণ অর্জন।",
+                        "hi": "बधाई हो, डॉ. गार्सिया! यह एक महान उपलब्धि है।",
+                        "ur": "مبارک ہو، ڈاکٹر گارسیا! یہ ایک عظیم کامیابی ہے۔",
+                        "tr": "Tebrikler Dr. Garcia! Bu harika bir başarı."
+                    }
+                },
+                {
+                    "speaker": "Dr. Garcia",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Die Fachsprachprüfung war wirklich eine Herausforderung.",
+                    "translation": {
+                        "en": "The Fachsprachprüfung was really a challenge.",
+                        "bn": "Fachsprachprüfung সত্যিই একটি চ্যালেঞ্জ ছিল।",
+                        "hi": "Fachsprachprüfung वास्तव में एक चुनौती थी।",
+                        "ur": "Fachsprachprüfung واقعی ایک چیلنج تھا۔",
+                        "tr": "Fachsprachprüfung gerçekten bir meydan okumaydı."
+                    }
+                },
+                {
+                    "speaker": "Dr. Klein",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ja, aber Sie haben es geschafft! Jetzt können Sie richtig durchstarten.",
+                    "translation": {
+                        "en": "Yes, but you did it! Now you can really get started.",
+                        "bn": "হ্যাঁ, কিন্তু আপনি এটা করেছেন! এখন আপনি সত্যিই শুরু করতে পারেন।",
+                        "hi": "हाँ, लेकिन आपने यह कर दिखाया! अब आप वास्तव में शुरू कर सकते हैं।",
+                        "ur": "ہاں، لیکن آپ نے یہ کر دکھایا! اب آپ واقعی شروع کر سکتے ہیں۔",
+                        "tr": "Evet, ama başardınız! Şimdi gerçekten başlayabilirsiniz."
+                    }
+                },
+                {
+                    "speaker": "Dr. Garcia",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Vielen Dank für Ihre Unterstützung!",
+                    "translation": {
+                        "en": "Thank you very much for your support!",
+                        "bn": "আপনার সমর্থনের জন্য আপনাকে অনেক ধন্যবাদ!",
+                        "hi": "आपके समर्थन के लिए आपका बहुत-बहुत धन्यवाद!",
+                        "ur": "آپ کی حمایت کے لیے آپ کا بہت بہت شکریہ!",
+                        "tr": "Desteğiniz için çok teşekkür ederim!"
+                    }
+                }
+            ],
+            "id": "d42_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist der Unterschied zwischen der Approbation und der Berufserlaubnis?",
+                "en": "What is the difference between the Approbation and the Berufserlaubnis?",
+                "bn": "অ্যাপ্রোবেশন এবং বেরুফসারlaubnis এর মধ্যে পার্থক্য কী?",
+                "hi": "एप्रोबेशन और बेरुफ़्सर्लौबनिस के बीच क्या अंतर है?",
+                "ur": "اپرو بیشن اور بیروفس ایرلوبنس میں کیا فرق ہے؟",
+                "tr": "Approbation ve Berufserlaubnis arasındaki fark nedir?"
+            },
+            "options": [
+                "Die Approbation ist eine befristete Arbeitserlaubnis, die Berufserlaubnis ist unbefristet.",
+                "Die Approbation ist eine unbefristete Zulassung, die Berufserlaubnis ist eine befristete.",
+                "Beide Begriffe sind synonym.",
+                "Die Berufserlaubnis ist für ausländische Ärzte, die Approbation für deutsche."
+            ],
+            "correctAnswer": "Die Approbation ist eine unbefristete Zulassung, die Berufserlaubnis ist eine befristete.",
+            "explanation": {
+                "en": "The Approbation is a permanent license to practice medicine, while the Berufserlaubnis is a temporary permit.",
+                "bn": "অ্যাপ্রোবেশন হল চিকিৎসা অনুশীলনের জন্য একটি স্থায়ী লাইসেন্স, যেখানে বেরুফসারlaubnis হল একটি অস্থায়ী অনুমতি।",
+                "hi": "एप्रोबेशन चिकित्सा का अभ्यास करने के लिए एक स्थायी लाइसेंस है, जबकि बेरुफ़्सर्लौबनिस एक अस्थायी परमिट है।",
+                "ur": "اپرو بیشن طب کی مشق کرنے کا ایک مستقل لائسنس ہے، جبکہ بیروفس ایرلوبنس ایک عارضی اجازت نامہ ہے۔",
+                "tr": "Approbation tıp pratiği yapmak için kalıcı bir lisanstır, Berufserlaubnis ise geçici bir izindir."
+            },
+            "points": 10,
+            "id": "e42_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Anerkennung' im Kontext der Approbation?",
+                "en": "What does 'Anerkennung' mean in the context of the Approbation?",
+                "bn": "অ্যাপ্রোবেশনের প্রেক্ষাপটে 'Anerkennung' মানে কী?",
+                "hi": "एप्रोबेशन के संदर्भ में 'एनेरकेंनुंग' का क्या अर्थ है?",
+                "ur": "اپرو بیشن کے تناظر میں 'اینرکینونگ' کا کیا مطلب ہے؟",
+                "tr": "Approbation bağlamında 'Anerkennung' ne anlama gelir?"
+            },
+            "options": [
+                "Die Ablehnung des ausländischen Abschlusses.",
+                "Die Feststellung der Gleichwertigkeit eines ausländischen Abschlusses mit einem deutschen.",
+                "Eine Sprachprüfung.",
+                "Ein Visum."
+            ],
+            "correctAnswer": "Die Feststellung der Gleichwertigkeit eines ausländischen Abschlusses mit einem deutschen.",
+            "explanation": {
+                "en": "'Anerkennung' means the recognition of equivalence of a foreign qualification with a German qualification.",
+                "bn": "'Anerkennung' মানে একটি বিদেশী যোগ্যতার সাথে একটি জার্মান যোগ্যতার সমতুল্যতার স্বীকৃতি।",
+                "hi": "'एनेरकेंनुंग' का अर्थ है एक विदेशी योग्यता के साथ एक जर्मन योग्यता की समानता की मान्यता।",
+                "ur": "'اینرکینونگ' کا مطلب ہے ایک غیر ملکی قابلیت کے ساتھ ایک جرمن قابلیت کی مساوات کی شناخت۔",
+                "tr": "'Anerkennung', yabancı bir yeterliliğin Alman yeterliliği ile eşdeğerliğinin tanınması anlamına gelir."
+            },
+            "points": 10,
+            "id": "e42_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Behörde ist in der Regel für die Erteilung der Approbation zuständig?",
+                "en": "Which authority is usually responsible for granting the Approbation?",
+                "bn": "অ্যাপ্রোবেশন প্রদানের জন্য সাধারণত কোন কর্তৃপক্ষ দায়ী?",
+                "hi": "एप्रोबेशन देने के लिए आमतौर पर कौन सा प्राधिकरण जिम्मेदार है?",
+                "ur": "اپرو بیشن دینے کے لئے عام طور پر کون سا اتھارٹی ذمہ دار ہے؟",
+                "tr": "Approbation verilmesinden genellikle hangi makam sorumludur?"
+            },
+            "options": [
+                "Das Bundesgesundheitsministerium.",
+                "Die Landesprüfungsämter für Medizin.",
+                "Die Ärztekammer.",
+                "Das Auswärtige Amt."
+            ],
+            "correctAnswer": "Die Landesprüfungsämter für Medizin.",
+            "explanation": {
+                "en": "The state examination offices for medicine ('Landesprüfungsämter für Medizin') are usually responsible for granting the Approbation.",
+                "bn": "চিকিৎসার জন্য রাজ্য পরীক্ষা অফিস ('Landesprüfungsämter für Medizin') সাধারণত অ্যাপ্রোবেশন প্রদানের জন্য দায়ী।",
+                "hi": "चिकित्सा के लिए राज्य परीक्षा कार्यालय ('Landesprüfungsämter für Medizin') आमतौर पर एप्रोबेशन देने के लिए जिम्मेदार हैं।",
+                "ur": "طب کے لئے ریاستی امتحان دفاتر ('Landesprüfungsämter für Medizin') عام طور پر اپرو بیشن دینے کے لئے ذمہ دار ہیں۔",
+                "tr": "Tıp için eyalet sınav ofisleri ('Landesprüfungsämter für Medizin') genellikle Approbation verilmesinden sorumludur."
+            },
+            "points": 10,
+            "id": "e42_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was wird in der Kenntnisprüfung geprüft?",
+                "en": "What is tested in the Kenntnisprüfung (knowledge test)?",
+                "bn": "Kenntnisprüfung (জ্ঞান পরীক্ষা)-এ কী পরীক্ষা করা হয়?",
+                "hi": "केन्टनिस्प्रूफुंग (ज्ञान परीक्षण) में क्या परीक्षण किया जाता है?",
+                "ur": "کینٹنس پروفونگ (علمی امتحان) میں کیا جانچا جاتا ہے؟",
+                "tr": "Kenntnisprüfung'da (bilgi testi) ne test edilir?"
+            },
+            "options": [
+                "Sprachkenntnisse.",
+                "Fachsprachkenntnisse.",
+                "Medizinisches Fachwissen.",
+                "Persönliche Eignung."
+            ],
+            "correctAnswer": "Medizinisches Fachwissen.",
+            "explanation": {
+                "en": "The Kenntnisprüfung tests medical knowledge to ensure it is equivalent to that of a German medical graduate.",
+                "bn": "Kenntnisprüfung চিকিৎসা জ্ঞান পরীক্ষা করে যাতে এটি জার্মান মেডিকেল গ্র্যাজুয়েটের সমতুল্য হয়।",
+                "hi": "केन्टनिस्प्रूफुंग चिकित्सा ज्ञान का परीक्षण करता है ताकि यह सुनिश्चित हो सके कि यह एक जर्मन मेडिकल ग्रेजुएट के बराबर है।",
+                "ur": "کینٹنس پروفونگ طبی علم کی جانچ پڑتال کرتی ہے تاکہ یہ یقینی بنایا جاسکے کہ یہ جرمن میڈیکل گریجویٹ کے برابر ہے۔",
+                "tr": "Kenntnisprüfung, Alman tıp mezunu ile eşdeğer olduğundan emin olmak için tıbbi bilgiyi test eder."
+            },
+            "points": 10,
+            "id": "e42_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wofür steht die Abkürzung 'FSP' im Zusammenhang mit der Approbation?",
+                "en": "What does the abbreviation 'FSP' stand for in the context of the Approbation?",
+                "bn": "অ্যাপ্রোবেশনের প্রেক্ষাপটে 'FSP' এর সংক্ষিপ্ত রূপটি কী?",
+                "hi": "एप्रोबेशन के संदर्भ में 'FSP' का संक्षिप्त रूप क्या है?",
+                "ur": "اپرو بیشن کے تناظر میں 'ایف ایس پی' کا مخفف کیا ہے؟",
+                "tr": "Approbation bağlamında 'FSP' kısaltması ne anlama gelir?"
+            },
+            "options": [
+                "Freie Sprachprüfung.",
+                "Fachsprachprüfung.",
+                "Finanzielle Sonderprüfung.",
+                "Fortbildungs- und Studienprogramm."
+            ],
+            "correctAnswer": "Fachsprachprüfung.",
+            "explanation": {
+                "en": "'FSP' stands for 'Fachsprachprüfung', which is a medical language examination.",
+                "bn": "'FSP' মানে 'Fachsprachprüfung', যা একটি মেডিকেল ভাষা পরীক্ষা।",
+                "hi": "'FSP' का अर्थ है 'Fachsprachprüfung', जो एक चिकित्सा भाषा परीक्षा है।",
+                "ur": "'ایف ایس پی' کا مطلب ہے 'Fachsprachprüfung', جو ایک طبی زبان کا امتحان ہے۔",
+                "tr": "'FSP', bir tıbbi dil sınavı olan 'Fachsprachprüfung' anlamına gelir."
+            },
+            "points": 10,
+            "id": "e42_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Wer benötigt in der Regel eine Fachsprachprüfung?",
+                "en": "Who usually needs a Fachsprachprüfung?",
+                "bn": "সাধারণত কাদের Fachsprachprüfung-এর প্রয়োজন হয়?",
+                "hi": "आमतौर पर किसे फ़ैचस्प्राचप्रूफुंग की आवश्यकता होती है?",
+                "ur": "عام طور پر کسے فیچ سپراخ پروفونگ کی ضرورت ہوتی ہے؟",
+                "tr": "Genellikle kimin Fachsprachprüfung'a ihtiyacı vardır?"
+            },
+            "options": [
+                "Deutsche Medizinstudenten.",
+                "Ausländische Ärzte ohne deutsche Sprachkenntnisse.",
+                "Alle Ärzte, die in Deutschland arbeiten möchten.",
+                "Ärzte mit deutscher Staatsbürgerschaft."
+            ],
+            "correctAnswer": "Ausländische Ärzte ohne deutsche Sprachkenntnisse.",
+            "explanation": {
+                "en": "Foreign doctors without sufficient German language skills usually need to take the Fachsprachprüfung.",
+                "bn": "যথেষ্ট জার্মান ভাষা দক্ষতা নেই এমন বিদেশী ডাক্তারদের সাধারণত Fachsprachprüfung দিতে হয়।",
+                "hi": "पर्याप्त जर्मन भाषा कौशल के बिना विदेशी डॉक्टरों को आमतौर पर Fachsprachprüfung देनी होती है।",
+                "ur": "کافی جرمن زبان کی مہارت کے بغیر غیر ملکی ڈاکٹروں کو عام طور پر فیچ سپراخ پروفونگ دینا پڑتا ہے۔",
+                "tr": "Yeterli Almanca dil becerisine sahip olmayan yabancı doktorların genellikle Fachsprachprüfung'a girmesi gerekir."
+            },
+            "points": 10,
+            "id": "e42_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist ein wesentlicher Bestandteil der Fachsprachprüfung?",
+                "en": "What is an essential component of the Fachsprachprüfung?",
+                "bn": "Fachsprachprüfung-এর একটি অপরিহার্য উপাদান কী?",
+                "hi": "फैचस्प्राचप्रूफुंग का एक अनिवार्य घटक क्या है?",
+                "ur": "فیچ سپراخ پروفونگ کا ایک لازمی جزو کیا ہے؟",
+                "tr": "Fachsprachprüfung'un temel bir bileşeni nedir?"
+            },
+            "options": [
+                "Ein Grammatiktest.",
+                "Ein Diktat.",
+                "Ein Arzt-Patienten-Gespräch.",
+                "Ein Aufsatz über deutsche Geschichte."
+            ],
+            "correctAnswer": "Ein Arzt-Patienten-Gespräch.",
+            "explanation": {
+                "en": "An essential component of the Fachsprachprüfung is a doctor-patient conversation to assess communication skills.",
+                "bn": "যোগাযোগ দক্ষতা মূল্যায়ন করার জন্য Fachsprachprüfung-এর একটি অপরিহার্য উপাদান হল একজন ডাক্তার-রোগীর কথোপকথন।",
+                "hi": "संचार कौशल का आकलन करने के लिए Fachsprachprüfung का एक अनिवार्य घटक एक डॉक्टर-रोगी वार्तालाप है।",
+                "ur": "مواصلاتی مہارتوں کا اندازہ لگانے کے لئے فیچ سپراخ پروفونگ کا ایک لازمی جزو ایک ڈاکٹر مریض گفتگو ہے۔",
+                "tr": "İletişim becerilerini değerlendirmek için Fachsprachprüfung'un temel bir bileşeni bir doktor-hasta görüşmesidir."
+            },
+            "points": 10,
+            "id": "e42_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Aussage zur Berufserlaubnis ist korrekt?",
+                "en": "Which statement about the Berufserlaubnis is correct?",
+                "bn": "Berufserlaubnis সম্পর্কে কোন বক্তব্যটি সঠিক?",
+                "hi": "बेरुफ़्सर्लौबनिस के बारे में कौन सा कथन सही है?",
+                "ur": "بیروفس ایرلوبنس کے بارے میں کون سا بیان درست ہے؟",
+                "tr": "Berufserlaubnis hakkında hangi ifade doğrudur?"
+            },
+            "options": [
+                "Sie ist unbefristet gültig.",
+                "Sie berechtigt zur selbstständigen Ausübung des ärztlichen Berufes.",
+                "Sie wird nur für bestimmte Tätigkeiten oder Einrichtungen erteilt.",
+                "Sie ist einfacher zu erhalten als die Approbation."
+            ],
+            "correctAnswer": "Sie wird nur für bestimmte Tätigkeiten oder Einrichtungen erteilt.",
+            "explanation": {
+                "en": "The Berufserlaubnis is usually granted for specific activities or institutions.",
+                "bn": "Berufserlaubnis সাধারণত নির্দিষ্ট কার্যকলাপ বা প্রতিষ্ঠানের জন্য মঞ্জুর করা হয়।",
+                "hi": "Berufserlaubnis आमतौर पर विशिष्ट गतिविधियों या संस्थानों के लिए दी जाती है।",
+                "ur": "بیروفس ایرلوبنس عام طور پر مخصوص سرگرمیوں یا اداروں کے لئے دی جاتی ہے۔",
+                "tr": "Berufserlaubnis genellikle belirli faaliyetler veya kurumlar için verilir."
+            },
+            "points": 10,
+            "id": "e42_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Ziel des Approbationsverfahrens?",
+                "en": "What is the goal of the Approbation process?",
+                "bn": "অ্যাপ্রোবেশন প্রক্রিয়ার লক্ষ্য কী?",
+                "hi": "एप्रोबेशन प्रक्रिया का लक्ष्य क्या है?",
+                "ur": "اپرو بیشن کے عمل کا مقصد کیا ہے؟",
+                "tr": "Approbation sürecinin amacı nedir?"
+            },
+            "options": [
+                "Ausländische Ärzte von Deutschland fernzuhalten.",
+                "Die Qualität der medizinischen Versorgung in Deutschland sicherzustellen.",
+                "Das Einkommen deutscher Ärzte zu schützen.",
+                "Den Wettbewerb auf dem deutschen Arbeitsmarkt zu erhöhen."
+            ],
+            "correctAnswer": "Die Qualität der medizinischen Versorgung in Deutschland sicherzustellen.",
+            "explanation": {
+                "en": "The goal of the Approbation process is to ensure the quality of medical care in Germany.",
+                "bn": "অ্যাপ্রোবেশন প্রক্রিয়ার লক্ষ্য হল জার্মানিতে চিকিৎসা সেবার মান নিশ্চিত করা।",
+                "hi": "एप्रोबेशन प्रक्रिया का लक्ष्य जर्मनी में चिकित्सा देखभाल की गुणवत्ता सुनिश्चित करना है।",
+                "ur": "اپرو بیشن کے عمل کا مقصد جرمنی میں طبی دیکھ بھال کے معیار کو یقینی بنانا ہے۔",
+                "tr": "Approbation sürecinin amacı Almanya'da tıbbi bakımın kalitesini sağlamaktır."
+            },
+            "points": 10,
+            "id": "e42_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Dokumente sind typischerweise für den Antrag auf Approbation erforderlich?",
+                "en": "Which documents are typically required for the application for Approbation?",
+                "bn": "অ্যাপ্রোবেশনের আবেদনের জন্য সাধারণত কোন নথিগুলির প্রয়োজন হয়?",
+                "hi": "एप्रोबेशन के आवेदन के लिए आम तौर पर किन दस्तावेजों की आवश्यकता होती है?",
+                "ur": "اپرو بیشن کے درخواست کے لئے عام طور پر کن دستاویزات کی ضرورت ہوتی ہے؟",
+                "tr": "Approbation başvurusu için tipik olarak hangi belgeler gereklidir?"
+            },
+            "options": [
+                "Nur der Reisepass.",
+                "Lebenslauf, Zeugnisse, Sprachnachweise.",
+                "Nur das Bankkonto.",
+                "Nur ein Empfehlungsschreiben."
+            ],
+            "correctAnswer": "Lebenslauf, Zeugnisse, Sprachnachweise.",
+            "explanation": {
+                "en": "A curriculum vitae, certificates, and proof of language proficiency are typically required for the application for Approbation.",
+                "bn": "একটি জীবনবৃত্তান্ত, শংসাপত্র এবং ভাষার দক্ষতার প্রমাণ সাধারণত অ্যাপ্রোবেশনের আবেদনের জন্য প্রয়োজনীয়।",
+                "hi": "एप्रोबेशन के आवेदन के लिए आम तौर पर एक पाठ्यक्रम जीवन, प्रमाण पत्र और भाषा दक्षता का प्रमाण आवश्यक है।",
+                "ur": "اپرو بیشن کے درخواست کے لئے عام طور پر ایک نصاب زندگی ، سندیں اور زبان کی مہارت کا ثبوت ضروری ہے۔",
+                "tr": "Approbation başvurusu için genellikle bir özgeçmiş, sertifikalar ve dil yeterlilik belgesi gereklidir."
+            },
+            "points": 10,
+            "id": "e42_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die ____________ ist eine befristete Arbeitserlaubnis für Ärzte.",
+                "en": "The ____________ is a temporary work permit for doctors.",
+                "bn": "____________ ডাক্তারদের জন্য একটি অস্থায়ী কাজের অনুমতি।",
+                "hi": "____________ डॉक्टरों के लिए एक अस्थायी कार्य परमिट है।",
+                "ur": "____________ ڈاکٹروں کے لئے ایک عارضی کام کا اجازت نامہ ہے۔",
+                "tr": "____________ doktorlar için geçici bir çalışma iznidir."
+            },
+            "options": [],
+            "correctAnswer": "Berufserlaubnis",
+            "explanation": {
+                "en": "The Berufserlaubnis is a temporary work permit for doctors.",
+                "bn": "Berufserlaubnis ডাক্তারদের জন্য একটি অস্থায়ী কাজের অনুমতি।",
+                "hi": "बेरुफ़्सर्लौबनिस डॉक्टरों के लिए एक अस्थायी कार्य परमिट है।",
+                "ur": "بیروفس ایرلوبنس ڈاکٹروں کے لئے ایک عارضی کام کا اجازت نامہ ہے۔",
+                "tr": "Berufserlaubnis doktorlar için geçici bir çalışma iznidir."
+            },
+            "points": 10,
+            "id": "e42_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Vor der Approbation müssen ausländische Ärzte oft eine ____________ ablegen.",
+                "en": "Before Approbation, foreign doctors often have to take a ____________.",
+                "bn": "অ্যাপ্রোবেশনের আগে, বিদেশী ডাক্তারদের প্রায়শই একটি ____________ নিতে হয়।",
+                "hi": "एप्रोबेशन से पहले, विदेशी डॉक्टरों को अक्सर एक ____________ लेना पड़ता है।",
+                "ur": "اپرو بیشن سے پہلے ، غیر ملکی ڈاکٹروں کو اکثر ایک ____________ لینا پڑتا ہے۔",
+                "tr": "Approbation'dan önce, yabancı doktorlar genellikle bir ____________ almak zorundadır."
+            },
+            "options": [],
+            "correctAnswer": "Kenntnisprüfung",
+            "explanation": {
+                "en": "Before Approbation, foreign doctors often have to take a Kenntnisprüfung to prove their medical knowledge.",
+                "bn": "অ্যাপ্রোবেশনের আগে, বিদেশী ডাক্তারদের প্রায়শই তাদের চিকিৎসা জ্ঞান প্রমাণ করার জন্য একটি Kenntnisprüfung নিতে হয়।",
+                "hi": "एप्रोबेशन से पहले, विदेशी डॉक्टरों को अक्सर अपने चिकित्सा ज्ञान को साबित करने के लिए एक केन्टनिस्प्रूफुंग लेना पड़ता है।",
+                "ur": "اپرو بیشن سے پہلے ، غیر ملکی ڈاکٹروں کو اکثر اپنے طبی علم کو ثابت کرنے کے لئے ایک کینٹنس پروفونگ لینا پڑتا ہے۔",
+                "tr": "Approbation'dan önce, yabancı doktorlar genellikle tıbbi bilgilerini kanıtlamak için bir Kenntnisprüfung almak zorundadır."
+            },
+            "points": 10,
+            "id": "e42_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die ____________ ist die dauerhafte Zulassung zur Ausübung der Medizin in Deutschland.",
+                "en": "The ____________ is the permanent license to practice medicine in Germany.",
+                "bn": "____________ হল জার্মানিতে ঔষধ অনুশীলনের স্থায়ী লাইসেন্স।",
+                "hi": "____________ जर्मनी में चिकित्सा का अभ्यास करने का स्थायी लाइसेंस है।",
+                "ur": "____________ جرمنی میں طب کی مشق کرنے کا مستقل لائسنس ہے۔",
+                "tr": "____________, Almanya'da tıp pratiği yapma konusunda kalıcı bir lisanstır."
+            },
+            "options": [],
+            "correctAnswer": "Approbation",
+            "explanation": {
+                "en": "The Approbation is the permanent license to practice medicine in Germany.",
+                "bn": "Approbation হল জার্মানিতে ঔষধ অনুশীলনের স্থায়ী লাইসেন্স।",
+                "hi": "एप्रोबेशन जर्मनी में चिकित्सा का अभ्यास करने का स्थायी लाइसेंस है।",
+                "ur": "اپرو بیشن جرمنی میں طب کی مشق کرنے کا مستقل لائسنس ہے۔",
+                "tr": "Approbation, Almanya'da tıp pratiği yapma konusunda kalıcı bir lisanstır."
+            },
+            "points": 10,
+            "id": "e42_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die ____________ prüft die sprachlichen Fähigkeiten von Ärzten.",
+                "en": "The ____________ tests the language skills of doctors.",
+                "bn": "____________ ডাক্তারদের ভাষার দক্ষতা পরীক্ষা করে।",
+                "hi": "____________ डॉक्टरों के भाषा कौशल का परीक्षण करता है।",
+                "ur": "____________ ڈاکٹروں کی لسانی مہارتوں کی جانچ کرتا ہے۔",
+                "tr": "____________, doktorların dil becerilerini test eder."
+            },
+            "options": [],
+            "correctAnswer": "Fachsprachprüfung",
+            "explanation": {
+                "en": "The Fachsprachprüfung tests the language skills of doctors.",
+                "bn": "Fachsprachprüfung ডাক্তারদের ভাষার দক্ষতা পরীক্ষা করে।",
+                "hi": "Fachsprachprüfung डॉक्टरों के भाषा कौशल का परीक्षण करता है।",
+                "ur": "Fachsprachprüfung ڈاکٹروں کی لسانی مہارتوں کی جانچ کرتا ہے۔",
+                "tr": "Fachsprachprüfung, doktorların dil becerilerini test eder."
+            },
+            "points": 10,
+            "id": "e42_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die ____________ eines ausländischen Abschlusses ist oft ein notwendiger Schritt zur Approbation.",
+                "en": "The ____________ of a foreign degree is often a necessary step towards Approbation.",
+                "bn": "একটি বিদেশী ডিগ্রির ____________ প্রায়শই অ্যাপ্রোবেশনের দিকে একটি প্রয়োজনীয় পদক্ষেপ।",
+                "hi": "विदेशी डिग्री का ____________ अक्सर एप्रोबेशन की दिशा में एक आवश्यक कदम है।",
+                "ur": "ایک غیر ملکی ڈگری کا ____________ اکثر اپرو بیشن کی طرف ایک ضروری قدم ہے۔",
+                "tr": "Yabancı bir derecenin ____________ genellikle Approbation'a doğru gerekli bir adımdır."
+            },
+            "options": [],
+            "correctAnswer": "Anerkennung",
+            "explanation": {
+                "en": "The Anerkennung of a foreign degree is often a necessary step towards Approbation.",
+                "bn": "একটি বিদেশী ডিগ্রির Anerkennung প্রায়শই অ্যাপ্রোবেশনের দিকে একটি প্রয়োজনীয় পদক্ষেপ।",
+                "hi": "विदेशी डिग्री का Anerkennung अक्सर एप्रोबेशन की दिशा में एक आवश्यक कदम है।",
+                "ur": "ایک غیر ملکی ڈگری کا Anerkennung اکثر اپرو بیشن کی طرف ایک ضروری قدم ہے۔",
+                "tr": "Yabancı bir derecenin Anerkennung'u genellikle Approbation'a doğru gerekli bir adımdır."
+            },
+            "points": 10,
+            "id": "e42_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Ich benötige die Approbation, um als Arzt in Deutschland zu arbeiten.",
+                "en": "I need the Approbation to work as a doctor in Germany.",
+                "bn": "জার্মানিতে ডাক্তার হিসাবে কাজ করার জন্য আমার অ্যাপ্রোবেশন প্রয়োজন।",
+                "hi": "मुझे जर्मनी में डॉक्टर के रूप में काम करने के लिए एप्रोबेशन की आवश्यकता है।",
+                "ur": "مجھے جرمنی میں ڈاکٹر کے طور پر کام کرنے کے لئے اپرو بیشن کی ضرورت ہے۔",
+                "tr": "Almanya'da doktor olarak çalışmak için Approbation'a ihtiyacım var."
+            },
+            "options": [],
+            "correctAnswer": "I need the Approbation to work as a doctor in Germany.",
+            "explanation": {
+                "en": "The German sentence translates directly to: I need the Approbation to work as a doctor in Germany.",
+                "bn": "জার্মান বাক্যটি সরাসরি অনুবাদ করলে দাঁড়ায়: জার্মানিতে ডাক্তার হিসাবে কাজ করার জন্য আমার অ্যাপ্রোবেশন প্রয়োজন।",
+                "hi": "जर्मन वाक्य का सीधा अनुवाद है: मुझे जर्मनी में डॉक्टर के रूप में काम करने के लिए एप्रोबेशन की आवश्यकता है।",
+                "ur": "جرمن جملے کا براہ راست ترجمہ ہے: مجھے جرمنی میں ڈاکٹر کے طور پر کام کرنے کے لئے اپرو بیشن کی ضرورت ہے۔",
+                "tr": "Almanca cümlenin doğrudan çevirisi: Almanya'da doktor olarak çalışmak için Approbation'a ihtiyacım var."
+            },
+            "points": 10,
+            "id": "e42_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Die Fachsprachprüfung hat meine Deutschkenntnisse für den medizinischen Alltag verbessert.",
+                "en": "The Fachsprachprüfung has improved my German skills for everyday medical practice.",
+                "bn": "Fachsprachprüfung আমার দৈনন্দিন চিকিৎসা অনুশীলনের জন্য আমার জার্মান দক্ষতা উন্নত করেছে।",
+                "hi": "फैचस्प्राचप्रूफुंग ने मेरे दैनिक चिकित्सा अभ्यास के लिए मेरे जर्मन कौशल में सुधार किया है।",
+                "ur": "فیچ سپراخ پروفونگ نے میرے روزمرہ کے طبی مشق کے لئے میرے جرمن ہنر کو بہتر بنایا ہے۔",
+                "tr": "Fachsprachprüfung, günlük tıbbi uygulamalar için Almanca becerilerimi geliştirdi."
+            },
+            "options": [],
+            "correctAnswer": "The Fachsprachprüfung has improved my German skills for everyday medical practice.",
+            "explanation": {
+                "en": "This sentence explains the benefit of taking the Fachsprachprüfung.",
+                "bn": "এই বাক্যটি Fachsprachprüfung নেওয়ার সুবিধা ব্যাখ্যা করে।",
+                "hi": "यह वाक्य Fachsprachprüfung लेने के लाभ की व्याख्या करता है।",
+                "ur": "یہ جملہ فیچ سپراخ پروفونگ لینے کے فائدہ کی وضاحت کرتا ہے۔",
+                "tr": "Bu cümle Fachsprachprüfung'a girmenin faydasını açıklıyor."
+            },
+            "points": 10,
+            "id": "e42_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Ich muss meine ausländische Ausbildung anerkennen lassen.",
+                "en": "I need to have my foreign education recognized.",
+                "bn": "আমার আমার বিদেশী শিক্ষা স্বীকৃত করাতে হবে।",
+                "hi": "मुझे अपनी विदेशी शिक्षा को मान्यता दिलवानी होगी।",
+                "ur": "مجھے اپنی غیر ملکی تعلیم کو تسلیم کروانا ہوگا۔",
+                "tr": "Yurtdışı eğitimimin tanınmasını sağlamalıyım."
+            },
+            "options": [],
+            "correctAnswer": "I need to have my foreign education recognized.",
+            "explanation": {
+                "en": "The sentence focuses on the need for recognition of foreign education.",
+                "bn": "এই বাক্যটি বিদেশী শিক্ষার স্বীকৃতির প্রয়োজনীয়তার উপর দৃষ্টি নিবদ্ধ করে।",
+                "hi": "यह वाक्य विदेशी शिक्षा की मान्यता की आवश्यकता पर केंद्रित है।",
+                "ur": "یہ جملہ غیر ملکی تعلیم کی شناخت کی ضرورت پر مرکوز ہے۔",
+                "tr": "Bu cümle, yurtdışı eğitiminin tanınması gerektiğine odaklanmaktadır."
+            },
+            "points": 10,
+            "id": "e42_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}

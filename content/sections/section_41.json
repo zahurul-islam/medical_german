@@ -1,1 +1,1619 @@
-{"id":"section_41","phaseId":"phase3","order":41,"titleDe":"Schlechte Nachrichten","title":{"en":"Breaking Bad News","bn":"Breaking Bad News","hi":"Breaking Bad News","ur":"Breaking Bad News","tr":"Breaking Bad News"},"level":"C1","estimatedMinutes":40,"vocabulary":[{"id":"v41_01","germanTerm":"Fachbegriff","article":"der","plural":"Fachbegriffe","translation":{"en":"Technical Term","bn":"টেকনিক্যাল টার্ম","hi":"तकनीकी शब्द","ur":"تکنیکی اصطلاح","tr":"Teknik terim"}}],"dialogues":[{"id":"d41_01","title":{"en":"Professional Scenario"},"lines":[{"speaker":"Oberarzt","germanText":"Professional dialogue for Breaking Bad News.","translation":{"en":"Professional dialogue for Breaking Bad News."}}]}],"exercises":[{"id":"e41_01","type":"multipleChoice","question":{"en":"Advanced question for Breaking Bad News?"},"options":["Option A","Option B","Option C"],"correctAnswer":"Option A","points":15}]}
+{
+    "id": "section_41",
+    "phaseId": "phase3",
+    "order": 41,
+    "titleDe": "Schlechte Nachrichten überbringen",
+    "title": {
+        "en": "Delivering Bad News: SPIKES Protocol, Empathy, Grief Reactions, Support",
+        "de": "Schlechte Nachrichten überbringen: SPIKES-Protokoll, Empathie, Trauerreaktionen, Unterstützung",
+        "bn": "খারাপ খবর জানানো: SPIKES প্রোটোকল, সহানুভূতি, শোক প্রতিক্রিয়া, সমর্থন",
+        "hi": "बुरी खबर देना: SPIKES प्रोटोकॉल, सहानुभूति, शोक प्रतिक्रिया, समर्थन",
+        "ur": "بری خبر پہنچانا: اسپائکس پروٹوکول، ہمدردی، سوگ کے رد عمل، معاونت",
+        "tr": "Kötü Haber Verme: SPIKES Protokolü, Empati, Yas Tepkileri, Destek"
+    },
+    "description": {
+        "en": "This section focuses on effectively communicating unfavorable diagnoses and prognoses to patients while considering their emotional needs.",
+        "de": "Dieser Abschnitt konzentriert sich auf die effektive Übermittlung ungünstiger Diagnosen und Prognosen an Patienten unter Berücksichtigung ihrer emotionalen Bedürfnisse.",
+        "bn": "এই বিভাগে রোগীদের মানসিক চাহিদা বিবেচনা করে প্রতিকূল নির্ণয় এবং পূর্বাভাস কার্যকরভাবে জানানোর উপর জোর দেওয়া হয়েছে।",
+        "hi": "यह खंड रोगियों की भावनात्मक आवश्यकताओं पर विचार करते हुए प्रतिकूल निदान और पूर्वानुमान को प्रभावी ढंग से संप्रेषित करने पर केंद्रित है।",
+        "ur": "یہ سیکشن مریضوں کی جذباتی ضروریات کو مدنظر رکھتے ہوئے ناموافق تشخیص اور پیشین گوئیوں کو مؤثر طریقے سے پہنچانے پر توجہ مرکوز کرتا ہے۔",
+        "tr": "Bu bölüm, hastaların duygusal ihtiyaçlarını göz önünde bulundurarak olumsuz tanıları ve prognozları etkili bir şekilde iletmeye odaklanmaktadır."
+    },
+    "level": "C1",
+    "estimatedMinutes": 45,
+    "isPremium": true,
+    "textContent": {
+        "introduction": {
+            "en": "In this section, you will learn the SPIKES protocol for delivering bad news and how to respond empathetically to patients' grief reactions. Furthermore, you will gain insights into providing appropriate support and resources.",
+            "de": "In diesem Abschnitt lernen Sie das SPIKES-Protokoll zur Überbringung schlechter Nachrichten und wie Sie empathisch auf die Trauerreaktionen von Patienten reagieren. Darüber hinaus erhalten Sie Einblicke in die Bereitstellung angemessener Unterstützung und Ressourcen.",
+            "bn": "এই বিভাগে, আপনি খারাপ খবর জানানোর জন্য SPIKES প্রোটোকল এবং রোগীদের শোক প্রতিক্রিয়ার প্রতি সহানুভূতিশীলভাবে সাড়া দেওয়ার পদ্ধতি শিখবেন। উপরন্তু, আপনি উপযুক্ত সমর্থন এবং সংস্থান সরবরাহ করার বিষয়ে অন্তর্দৃষ্টি লাভ করবেন।",
+            "hi": "इस खंड में, आप बुरी खबर देने के लिए SPIKES प्रोटोकॉल और रोगियों की शोक प्रतिक्रियाओं के प्रति सहानुभूतिपूर्वक प्रतिक्रिया देना सीखेंगे। इसके अतिरिक्त, आप उचित समर्थन और संसाधन प्रदान करने में अंतर्दृष्टि प्राप्त करेंगे।",
+            "ur": "اس حصے میں، آپ بری خبر پہنچانے کے لیے اسپائکس پروٹوکول اور مریضوں کے سوگ کے رد عمل پر ہمدردی کے ساتھ رد عمل ظاہر کرنے کا طریقہ سیکھیں گے۔ مزید برآں، آپ مناسب مدد اور وسائل فراہم کرنے کے بارے میں بصیرت حاصل کریں گے۔",
+            "tr": "Bu bölümde, kötü haber verme için SPIKES protokolünü ve hastaların yas tepkilerine nasıl empatik bir şekilde yanıt vereceğinizi öğreneceksiniz. Ayrıca, uygun destek ve kaynaklar sağlama konusunda bilgi edineceksiniz."
+        },
+        "grammarFocus": {
+            "en": {
+                "1": "Use of subjunctive mood (Konjunktiv II) when discussing hypothetical scenarios or expressing empathy.",
+                "2": "Precise use of modal verbs (e.g., können, sollen, dürfen) to convey possibilities and recommendations sensitively."
+            },
+            "de": {
+                "1": "Verwendung des Konjunktiv II bei der Erörterung hypothetischer Szenarien oder beim Ausdruck von Empathie.",
+                "2": "Präzise Verwendung von Modalverben (z. B. können, sollen, dürfen), um Möglichkeiten und Empfehlungen sensibel zu vermitteln."
+            },
+            "bn": {
+                "1": "অনুমানমূলক পরিস্থিতি নিয়ে আলোচনা করার সময় বা সহানুভূতি প্রকাশ করার সময় সাবজাঙ্কটিভ মুড (Konjunktiv II) এর ব্যবহার।",
+                "2": "সম্ভাবনা এবং সুপারিশগুলি সংবেদনশীলভাবে জানানোর জন্য মোডাল ভার্বগুলির (যেমন, können, sollen, dürfen) সুনির্দিষ্ট ব্যবহার।"
+            },
+            "hi": {
+                "1": "काल्पनिक परिदृश्यों पर चर्चा करते समय या सहानुभूति व्यक्त करते समय सबजंक्टिव मूड (Konjunktiv II) का उपयोग।",
+                "2": "संभावनाओं और सिफारिशों को संवेदनशीलता से व्यक्त करने के लिए मोडल क्रियाओं (जैसे, können, sollen, dürfen) का सटीक उपयोग।"
+            },
+            "ur": {
+                "1": "فرضی منظرناموں پر تبادلہ خیال کرتے وقت یا ہمدردی کا اظہار کرتے وقت سبجیکٹیو موڈ (Konjunktiv II) کا استعمال۔",
+                "2": "امکانات اور سفارشات کو حساسیت سے پہنچانے کے لیے موڈل فعل (مثلاً können, sollen, dürfen) کا درست استعمال۔"
+            },
+            "tr": {
+                "1": "Varsayımsal senaryoları tartışırken veya empati ifade ederken subjunktif modun (Konjunktiv II) kullanımı.",
+                "2": "Olasılıkları ve tavsiyeleri hassas bir şekilde iletmek için modal fiillerin (örneğin, können, sollen, dürfen) doğru kullanımı."
+            }
+        },
+        "culturalNotes": {
+            "en": "In German hospitals, directness is valued, but always balanced with a respectful and empathetic approach when delivering difficult news.",
+            "de": "In deutschen Krankenhäusern wird Direktheit geschätzt, aber immer mit einem respektvollen und empathischen Ansatz bei der Überbringung schwieriger Nachrichten ausgeglichen.",
+            "bn": "জার্মান হাসপাতালগুলিতে, সরাসরিতাকে মূল্য দেওয়া হয়, তবে কঠিন খবর জানানোর সময় সর্বদা একটি সম্মানজনক এবং সহানুভূতিশীল পদ্ধতির সাথে ভারসাম্য বজায় রাখা হয়।",
+            "hi": "जर्मन अस्पतालों में, प्रत्यक्षता को महत्व दिया जाता है, लेकिन कठिन खबर देते समय हमेशा एक सम्मानजनक और सहानुभूतिपूर्ण दृष्टिकोण के साथ संतुलित किया जाता है।",
+            "ur": "جرمن ہسپتالوں میں، براہ راست ہونے کو اہمیت دی جاتی ہے، لیکن مشکل خبر دیتے وقت ہمیشہ ایک احترام اور ہمدردانہ نقطہ نظر کے ساتھ توازن برقرار رکھا جاتا ہے۔",
+            "tr": "Alman hastanelerinde, doğrudanlığa değer verilir, ancak zor haberler verirken her zaman saygılı ve empatik bir yaklaşımla dengelenir."
+        },
+        "summary": {
+            "en": "Mastering the delivery of bad news through the SPIKES protocol and empathetic communication is crucial for building trust and providing optimal patient care.",
+            "de": "Die Beherrschung der Überbringung schlechter Nachrichten durch das SPIKES-Protokoll und empathische Kommunikation ist entscheidend für den Aufbau von Vertrauen und die Gewährleistung einer optimalen Patientenversorgung.",
+            "bn": "SPIKES প্রোটোকল এবং সহানুভূতিশীল যোগাযোগের মাধ্যমে খারাপ খবর জানানোর দক্ষতা অর্জন করা বিশ্বাস তৈরি এবং সর্বোত্তম রোগীর যত্ন প্রদানের জন্য অত্যন্ত গুরুত্বপূর্ণ।",
+            "hi": "SPIKES प्रोटोकॉल और सहानुभूतिपूर्ण संचार के माध्यम से बुरी खबर देने में महारत हासिल करना विश्वास बनाने और इष्टतम रोगी देखभाल प्रदान करने के लिए महत्वपूर्ण है।",
+            "ur": "اسپائکس پروٹوکول اور ہمدردانہ مواصلات کے ذریعے بری خبر دینے میں مہارت حاصل کرنا اعتماد پیدا کرنے اور مریض کی بہترین نگہداشت فراہم کرنے کے لیے بہت ضروری ہے۔",
+            "tr": "SPIKES protokolü ve empatik iletişim yoluyla kötü haber vermede uzmanlaşmak, güven oluşturmak ve optimum hasta bakımı sağlamak için çok önemlidir."
+        },
+        "learningObjectives": [
+            "Describe the SPIKES protocol for delivering bad news.",
+            "Demonstrate empathetic responses to patient emotions during difficult conversations.",
+            "Identify appropriate support resources for patients and their families.",
+            "Apply relevant German grammar structures to sensitively communicate medical information."
+        ]
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "die schlechte Nachricht",
+            "article": "die",
+            "plural": "die schlechten Nachrichten",
+            "pronunciation": "/ˈʃlɛçtə ˈnaːxˌrɪçt/",
+            "category": "noun",
+            "translation": {
+                "en": "bad news",
+                "bn": "খারাপ খবর",
+                "hi": "बुरी खबर",
+                "ur": "بری خبر",
+                "tr": "kötü haber"
+            },
+            "exampleSentence": "Der Arzt musste dem Patienten die schlechte Nachricht überbringen.",
+            "exampleTranslation": {
+                "en": "The doctor had to deliver the bad news to the patient.",
+                "bn": "ডাক্তারকে রোগীকে খারাপ খবরটি জানাতে হয়েছিল।",
+                "hi": "डॉक्टर को मरीज को बुरी खबर देनी पड़ी।",
+                "ur": "ڈاکٹر کو مریض کو بری خبر دینی پڑی۔",
+                "tr": "Doktor hastaya kötü haberi vermek zorundaydı."
+            },
+            "id": "v41_01"
+        },
+        {
+            "germanTerm": "der SPIKES-Ansatz",
+            "article": "der",
+            "plural": "die SPIKES-Ansätze",
+            "pronunciation": "/ˈʃpaɪks ˈanˌzat͡s/",
+            "category": "noun",
+            "translation": {
+                "en": "SPIKES approach",
+                "bn": "SPIKES পদ্ধতি",
+                "hi": "SPIKES दृष्टिकोण",
+                "ur": "SPIKES نقطہ نظر",
+                "tr": "SPIKES yaklaşımı"
+            },
+            "exampleSentence": "Wir verwenden den SPIKES-Ansatz, um Gespräche über schwere Diagnosen zu strukturieren.",
+            "exampleTranslation": {
+                "en": "We use the SPIKES approach to structure conversations about serious diagnoses.",
+                "bn": "আমরা গুরুতর রোগ নির্ণয় সম্পর্কে কথোপকথনগুলি কাঠামোবদ্ধ করার জন্য SPIKES পদ্ধতি ব্যবহার করি।",
+                "hi": "हम गंभीर निदानों के बारे में बातचीत को संरचित करने के लिए SPIKES दृष्टिकोण का उपयोग करते हैं।",
+                "ur": "ہم سنگین تشخیص کے بارے میں بات چیت کو منظم کرنے کے لیے SPIKES نقطہ نظر استعمال کرتے ہیں۔",
+                "tr": "Ciddi teşhisler hakkında konuşmaları yapılandırmak için SPIKES yaklaşımını kullanıyoruz."
+            },
+            "id": "v41_02"
+        },
+        {
+            "germanTerm": "die Empathie",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/ɛmpaˈtiː/",
+            "category": "noun",
+            "translation": {
+                "en": "empathy",
+                "bn": "সহানুভূতি",
+                "hi": "सहानुभूति",
+                "ur": "ہمدردی",
+                "tr": "empati"
+            },
+            "exampleSentence": "Es ist wichtig, Empathie zu zeigen, wenn man eine schlechte Nachricht überbringt.",
+            "exampleTranslation": {
+                "en": "It is important to show empathy when delivering bad news.",
+                "bn": "খারাপ খবর জানানোর সময় সহানুভূতি দেখানো গুরুত্বপূর্ণ।",
+                "hi": "बुरी खबर देते समय सहानुभूति दिखाना महत्वपूर्ण है।",
+                "ur": "بری خبر دیتے وقت ہمدردی دکھانا ضروری ہے۔",
+                "tr": "Kötü haber verirken empati göstermek önemlidir."
+            },
+            "id": "v41_03"
+        },
+        {
+            "germanTerm": "die Trauerreaktion",
+            "article": "die",
+            "plural": "die Trauerreaktionen",
+            "pronunciation": "/ˈtraʊ̯ɐʁeˌakt͡si̯oːn/",
+            "category": "noun",
+            "translation": {
+                "en": "grief reaction",
+                "bn": "শোক প্রতিক্রিয়া",
+                "hi": "शोक प्रतिक्रिया",
+                "ur": "غم کا رد عمل",
+                "tr": "yas tepkisi"
+            },
+            "exampleSentence": "Die Trauerreaktion des Patienten war sehr stark.",
+            "exampleTranslation": {
+                "en": "The patient's grief reaction was very strong.",
+                "bn": "রোগীর শোক প্রতিক্রিয়া খুব শক্তিশালী ছিল।",
+                "hi": "मरीज की शोक प्रतिक्रिया बहुत मजबूत थी।",
+                "ur": "مریض کا غم کا ردعمل بہت مضبوط تھا۔",
+                "tr": "Hastanın yas tepkisi çok güçlüydü."
+            },
+            "id": "v41_04"
+        },
+        {
+            "germanTerm": "die Unterstützung",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/ʊntɐˈʃtʏt͡sʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "support",
+                "bn": "সমর্থন",
+                "hi": "समर्थन",
+                "ur": "حمایت",
+                "tr": "destek"
+            },
+            "exampleSentence": "Der Patient benötigt viel Unterstützung von seiner Familie.",
+            "exampleTranslation": {
+                "en": "The patient needs a lot of support from his family.",
+                "bn": "রোগীর তার পরিবারের কাছ থেকে প্রচুর সমর্থন প্রয়োজন।",
+                "hi": "मरीज को अपने परिवार से बहुत समर्थन की आवश्यकता है।",
+                "ur": "مریض کو اپنے خاندان سے بہت زیادہ حمایت کی ضرورت ہے۔",
+                "tr": "Hastanın ailesinden çok desteğe ihtiyacı var."
+            },
+            "id": "v41_05"
+        },
+        {
+            "germanTerm": "die Diagnose",
+            "article": "die",
+            "plural": "die Diagnosen",
+            "pronunciation": "/di̯aˈɡnoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "diagnosis",
+                "bn": "রোগ নির্ণয়",
+                "hi": "निदान",
+                "ur": "تشخیص",
+                "tr": "teşhis"
+            },
+            "exampleSentence": "Die Diagnose Krebs war für die Familie ein Schock.",
+            "exampleTranslation": {
+                "en": "The cancer diagnosis was a shock to the family.",
+                "bn": "ক্যান্সার রোগ নির্ণয় পরিবারের জন্য একটি ধাক্কা ছিল।",
+                "hi": "कैंसर का निदान परिवार के लिए एक सदमा था।",
+                "ur": "کینسر کی تشخیص خاندان کے لیے ایک صدمہ تھی۔",
+                "tr": "Kanser teşhisi aile için bir şok oldu."
+            },
+            "id": "v41_06"
+        },
+        {
+            "germanTerm": "das Mitgefühl",
+            "article": "das",
+            "plural": "kein Plural",
+            "pronunciation": "/ˈmɪtɡəˌfyːl/",
+            "category": "noun",
+            "translation": {
+                "en": "compassion",
+                "bn": "করুণা",
+                "hi": "करुणा",
+                "ur": "رحم دلی",
+                "tr": "şefkat"
+            },
+            "exampleSentence": "Der Arzt zeigte viel Mitgefühl für den Patienten.",
+            "exampleTranslation": {
+                "en": "The doctor showed a lot of compassion for the patient.",
+                "bn": "ডাক্তার রোগীর প্রতি অনেক সহানুভূতি দেখিয়েছেন।",
+                "hi": "डॉक्टर ने मरीज के प्रति बहुत करुणा दिखाई।",
+                "ur": "ڈاکٹر نے مریض کے لیے بہت شفقت کا مظاہرہ کیا۔",
+                "tr": "Doktor hastaya karşı çok şefkat gösterdi."
+            },
+            "id": "v41_07"
+        },
+        {
+            "germanTerm": "die Hoffnung",
+            "article": "die",
+            "plural": "die Hoffnungen",
+            "pronunciation": "/ˈhɔfnʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "hope",
+                "bn": "আশা",
+                "hi": "आशा",
+                "ur": "امید",
+                "tr": "umut"
+            },
+            "exampleSentence": "Es ist wichtig, dem Patienten Hoffnung zu geben.",
+            "exampleTranslation": {
+                "en": "It is important to give the patient hope.",
+                "bn": "রোগীকে আশা দেওয়া গুরুত্বপূর্ণ।",
+                "hi": "मरीज को आशा देना महत्वपूर्ण है।",
+                "ur": "مریض کو امید دینا اہم ہے۔",
+                "tr": "Hastaya umut vermek önemlidir."
+            },
+            "id": "v41_08"
+        },
+        {
+            "germanTerm": "die Resilienz",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/ʁeziˈli̯ɛnt͡s/",
+            "category": "noun",
+            "translation": {
+                "en": "resilience",
+                "bn": "স্থিতিস্থাপকতা",
+                "hi": "लचीलापन",
+                "ur": "لچک",
+                "tr": "dayanıklılık"
+            },
+            "exampleSentence": "Resilienz hilft dem Patienten, mit der Krankheit umzugehen.",
+            "exampleTranslation": {
+                "en": "Resilience helps the patient cope with the illness.",
+                "bn": "স্থিতিস্থাপকতা রোগীকে অসুস্থতার সাথে মোকাবিলা করতে সাহায্য করে।",
+                "hi": "लचीलापन रोगी को बीमारी से निपटने में मदद करता है।",
+                "ur": "لچک مریض کو بیماری سے نمٹنے میں مدد کرتا ہے۔",
+                "tr": "Dayanıklılık hastanın hastalıkla başa çıkmasına yardımcı olur."
+            },
+            "id": "v41_09"
+        },
+        {
+            "germanTerm": "die Sprachbarriere",
+            "article": "die",
+            "plural": "die Sprachbarrieren",
+            "pronunciation": "/ˈʃpʁaːxbaˌʁi̯ɛʁə/",
+            "category": "noun",
+            "translation": {
+                "en": "language barrier",
+                "bn": "ভাষা বাধা",
+                "hi": "भाषा अवरोध",
+                "ur": "لسانی رکاوٹ",
+                "tr": "dil engeli"
+            },
+            "exampleSentence": "Die Sprachbarriere erschwert die Kommunikation mit dem Patienten.",
+            "exampleTranslation": {
+                "en": "The language barrier makes communication with the patient difficult.",
+                "bn": "ভাষা বাধা রোগীর সাথে যোগাযোগ করা কঠিন করে তোলে।",
+                "hi": "भाषा अवरोध रोगी के साथ संवाद करना मुश्किल बनाता है।",
+                "ur": "لسانی رکاوٹ مریض کے ساتھ بات چیت کو مشکل بناتی ہے۔",
+                "tr": "Dil engeli hasta ile iletişimi zorlaştırıyor."
+            },
+            "id": "v41_10"
+        },
+        {
+            "germanTerm": "die Prognose",
+            "article": "die",
+            "plural": "die Prognosen",
+            "pronunciation": "/pʁoˈɡnoːzə/",
+            "category": "noun",
+            "translation": {
+                "en": "prognosis",
+                "bn": "পূর্বাভাস",
+                "hi": "पूर्वानुमान",
+                "ur": "پیش گوئی",
+                "tr": "prognoz"
+            },
+            "exampleSentence": "Die Prognose des Patienten ist leider nicht gut.",
+            "exampleTranslation": {
+                "en": "Unfortunately, the patient's prognosis is not good.",
+                "bn": "দুর্ভাগ্যবশত, রোগীর পূর্বাভাস ভাল নয়।",
+                "hi": "दुर्भाग्य से, रोगी का पूर्वानुमान अच्छा नहीं है।",
+                "ur": "بدقسمتی سے مریض کی پیش گوئی اچھی نہیں ہے۔",
+                "tr": "Maalesef hastanın prognozu iyi değil."
+            },
+            "id": "v41_11"
+        },
+        {
+            "germanTerm": "das Gespräch",
+            "article": "das",
+            "plural": "die Gespräche",
+            "pronunciation": "/ɡəˈʃpʁɛːç/",
+            "category": "noun",
+            "translation": {
+                "en": "conversation",
+                "bn": "কথোপকথন",
+                "hi": "बातचीत",
+                "ur": "بات چیت",
+                "tr": "konuşma"
+            },
+            "exampleSentence": "Das Gespräch mit dem Patienten war sehr schwierig.",
+            "exampleTranslation": {
+                "en": "The conversation with the patient was very difficult.",
+                "bn": "রোগীর সাথে কথোপকথনটি খুব কঠিন ছিল।",
+                "hi": "मरीज के साथ बातचीत बहुत मुश्किल थी।",
+                "ur": "مریض کے ساتھ بات چیت بہت مشکل تھی۔",
+                "tr": "Hasta ile konuşma çok zordu."
+            },
+            "id": "v41_12"
+        },
+        {
+            "germanTerm": "die Palliativversorgung",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/pali̯aˈtiːvfɛɐ̯ˌzɔʁɡʊŋ/",
+            "category": "noun",
+            "translation": {
+                "en": "palliative care",
+                "bn": "উপশমকারী যত্ন",
+                "hi": "उपशामक देखभाल",
+                "ur": "تسکین بخش نگہداشت",
+                "tr": "palyatif bakım"
+            },
+            "exampleSentence": "Der Patient befindet sich in Palliativversorgung.",
+            "exampleTranslation": {
+                "en": "The patient is receiving palliative care.",
+                "bn": "রোগী উপশমকারী যত্নে রয়েছেন।",
+                "hi": "रोगी उपशामक देखभाल प्राप्त कर रहा है।",
+                "ur": "مریض تسکین بخش نگہداشت حاصل کر رہا ہے۔",
+                "tr": "Hasta palyatif bakım alıyor."
+            },
+            "id": "v41_13"
+        },
+        {
+            "germanTerm": "das Schmerzmanagement",
+            "article": "das",
+            "plural": "kein Plural",
+            "pronunciation": "/ˈʃmɛʁt͡sˌmɛnɪd͡ʒmənt/",
+            "category": "noun",
+            "translation": {
+                "en": "pain management",
+                "bn": "ব্যথা ব্যবস্থাপনা",
+                "hi": "दर्द प्रबंधन",
+                "ur": "درد کا انتظام",
+                "tr": "ağrı yönetimi"
+            },
+            "exampleSentence": "Gutes Schmerzmanagement ist wichtig für die Lebensqualität des Patienten.",
+            "exampleTranslation": {
+                "en": "Good pain management is important for the patient's quality of life.",
+                "bn": "রোগীর জীবনযাত্রার মানের জন্য ভাল ব্যথা ব্যবস্থাপনা গুরুত্বপূর্ণ।",
+                "hi": "रोगी के जीवन की गुणवत्ता के लिए अच्छा दर्द प्रबंधन महत्वपूर्ण है।",
+                "ur": "مریض کی زندگی کے معیار کے لیے درد کا اچھا انتظام ضروری ہے۔",
+                "tr": "İyi ağrı yönetimi, hastanın yaşam kalitesi için önemlidir."
+            },
+            "id": "v41_14"
+        },
+        {
+            "germanTerm": "die Angst",
+            "article": "die",
+            "plural": "die Ängste",
+            "pronunciation": "/aŋst/",
+            "category": "noun",
+            "translation": {
+                "en": "anxiety",
+                "bn": "উদ্বেগ",
+                "hi": "चिंता",
+                "ur": "تشویش",
+                "tr": "kaygı"
+            },
+            "exampleSentence": "Der Patient hat große Angst vor der Behandlung.",
+            "exampleTranslation": {
+                "en": "The patient is very anxious about the treatment.",
+                "bn": "রোগী চিকিৎসার বিষয়ে খুব উদ্বিগ্ন।",
+                "hi": "रोगी उपचार के बारे में बहुत चिंतित है।",
+                "ur": "مریض علاج کے بارے میں بہت پریشان ہے۔",
+                "tr": "Hasta tedavi konusunda çok endişeli."
+            },
+            "id": "v41_15"
+        },
+        {
+            "germanTerm": "die Würde",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/ˈvʏʁdə/",
+            "category": "noun",
+            "translation": {
+                "en": "dignity",
+                "bn": "মর্যাদা",
+                "hi": "गरिमा",
+                "ur": "وقار",
+                "tr": "haysiyet"
+            },
+            "exampleSentence": "Es ist wichtig, die Würde des Patienten zu wahren.",
+            "exampleTranslation": {
+                "en": "It is important to preserve the patient's dignity.",
+                "bn": "রোগীর মর্যাদা রক্ষা করা গুরুত্বপূর্ণ।",
+                "hi": "रोगी की गरिमा को बनाए रखना महत्वपूर्ण है।",
+                "ur": "مریض کے وقار کو برقرار رکھنا ضروری ہے۔",
+                "tr": "Hastanın haysiyetini korumak önemlidir."
+            },
+            "id": "v41_16"
+        },
+        {
+            "germanTerm": "das Schweigen",
+            "article": "das",
+            "plural": "kein Plural",
+            "pronunciation": "/ˈʃvaɪ̯ɡən/",
+            "category": "noun",
+            "translation": {
+                "en": "silence",
+                "bn": "নীরবতা",
+                "hi": "चुप",
+                "ur": "خاموشی",
+                "tr": "sessizlik"
+            },
+            "exampleSentence": "Das Schweigen des Patienten kann verschiedene Ursachen haben.",
+            "exampleTranslation": {
+                "en": "The patient's silence can have various causes.",
+                "bn": "রোগীর নীরবতার বিভিন্ন কারণ থাকতে পারে।",
+                "hi": "रोगी की चुप्पी के विभिन्न कारण हो सकते हैं।",
+                "ur": "مریض کی خاموشی کی مختلف وجوہات ہو سکتی ہیں۔",
+                "tr": "Hastanın sessizliğinin çeşitli nedenleri olabilir."
+            },
+            "id": "v41_17"
+        },
+        {
+            "germanTerm": "vermitteln",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/fɛɐ̯ˈmɪtl̩n/",
+            "category": "verb",
+            "translation": {
+                "en": "to convey",
+                "bn": "যোগাযোগ করা",
+                "hi": "पहुंचाना",
+                "ur": "منتقل کرنا",
+                "tr": "iletmek"
+            },
+            "exampleSentence": "Es ist wichtig, die Informationen klar zu vermitteln.",
+            "exampleTranslation": {
+                "en": "It is important to convey the information clearly.",
+                "bn": "তথ্য স্পষ্টভাবে যোগাযোগ করা গুরুত্বপূর্ণ।",
+                "hi": "जानकारी को स्पष्ट रूप से संप्रेषित करना महत्वपूर्ण है।",
+                "ur": "معلومات کو واضح طور پر منتقل کرنا ضروری ہے۔",
+                "tr": "Bilgiyi açıkça iletmek önemlidir."
+            },
+            "id": "v41_18"
+        },
+        {
+            "germanTerm": "zuhören",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈt͡suːˌhøːʁən/",
+            "category": "verb",
+            "translation": {
+                "en": "to listen",
+                "bn": "শোনা",
+                "hi": "सुनना",
+                "ur": "سننا",
+                "tr": "dinlemek"
+            },
+            "exampleSentence": "Man muss dem Patienten aufmerksam zuhören.",
+            "exampleTranslation": {
+                "en": "You have to listen carefully to the patient.",
+                "bn": "আপনাকে রোগীর কথা মনোযোগ সহকারে শুনতে হবে।",
+                "hi": "आपको रोगी को ध्यान से सुनना होगा।",
+                "ur": "آپ کو مریض کو غور سے سننا ہوگا۔",
+                "tr": "Hastayı dikkatlice dinlemelisiniz."
+            },
+            "id": "v41_19"
+        },
+        {
+            "germanTerm": "erklären",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ɛɐ̯ˈklɛːʁən/",
+            "category": "verb",
+            "translation": {
+                "en": "to explain",
+                "bn": "ব্যাখ্যা করা",
+                "hi": "समझाना",
+                "ur": "وضاحت کرنا",
+                "tr": "açıklamak"
+            },
+            "exampleSentence": "Der Arzt muss die Behandlung genau erklären.",
+            "exampleTranslation": {
+                "en": "The doctor must explain the treatment precisely.",
+                "bn": "ডাক্তারকে অবশ্যই চিকিৎসার সঠিক ব্যাখ্যা করতে হবে।",
+                "hi": "डॉक्टर को उपचार को सटीक रूप से समझाना चाहिए।",
+                "ur": "ڈاکٹر کو علاج کی صحیح وضاحت کرنی چاہیے۔",
+                "tr": "Doktor tedaviyi tam olarak açıklamalıdır."
+            },
+            "id": "v41_20"
+        },
+        {
+            "germanTerm": "sensibel",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/zɛnˈziːbl̩/",
+            "category": "adjective",
+            "translation": {
+                "en": "sensitive",
+                "bn": "সংবেদনশীল",
+                "hi": "संवेदनशील",
+                "ur": "حساس",
+                "tr": "hassas"
+            },
+            "exampleSentence": "Man muss in solchen Situationen sehr sensibel sein.",
+            "exampleTranslation": {
+                "en": "You have to be very sensitive in such situations.",
+                "bn": "এই ধরনের পরিস্থিতিতে খুব সংবেদনশীল হতে হবে।",
+                "hi": "ऐसी स्थितियों में बहुत संवेदनशील होना पड़ता है।",
+                "ur": "ایسی صورتحال میں بہت حساس ہونا پڑتا ہے۔",
+                "tr": "Bu tür durumlarda çok hassas olmak gerekir."
+            },
+            "id": "v41_21"
+        },
+        {
+            "germanTerm": "ehrlich",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈeːɐ̯lɪç/",
+            "category": "adjective",
+            "translation": {
+                "en": "honest",
+                "bn": "সৎ",
+                "hi": "ईमानदार",
+                "ur": "ایماندار",
+                "tr": "dürüst"
+            },
+            "exampleSentence": "Ehrlich sein ist wichtig, aber mit Fingerspitzengefühl.",
+            "exampleTranslation": {
+                "en": "Being honest is important, but with tact.",
+                "bn": "সৎ হওয়া গুরুত্বপূর্ণ, তবে বিচক্ষণতার সাথে।",
+                "hi": "ईमानदार होना महत्वपूर्ण है, लेकिन चतुराई के साथ।",
+                "ur": "ایماندار ہونا ضروری ہے، لیکن تدبر کے ساتھ۔",
+                "tr": "Dürüst olmak önemlidir, ancak incelikle."
+            },
+            "id": "v41_22"
+        },
+        {
+            "germanTerm": "traurig",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈtraʊ̯ʁɪç/",
+            "category": "adjective",
+            "translation": {
+                "en": "sad",
+                "bn": "দুঃখিত",
+                "hi": "उदास",
+                "ur": "افسردہ",
+                "tr": "üzgün"
+            },
+            "exampleSentence": "Der Patient war sehr traurig über die Nachricht.",
+            "exampleTranslation": {
+                "en": "The patient was very sad about the news.",
+                "bn": "রোগী খবর শুনে খুব দুঃখিত ছিল।",
+                "hi": "रोगी खबर सुनकर बहुत उदास था।",
+                "ur": "مریض خبر سن کر بہت افسردہ تھا۔",
+                "tr": "Hasta habere çok üzüldü."
+            },
+            "id": "v41_23"
+        },
+        {
+            "germanTerm": "verzweifelt",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/fɛɐ̯ˈt͡svaɪ̯fl̩t/",
+            "category": "adjective",
+            "translation": {
+                "en": "desperate",
+                "bn": "হতাশ",
+                "hi": "निराश",
+                "ur": "مایوس",
+                "tr": "umutsuz"
+            },
+            "exampleSentence": "Die Familie war verzweifelt, als sie die Nachricht hörte.",
+            "exampleTranslation": {
+                "en": "The family was desperate when they heard the news.",
+                "bn": "খবর শুনে পরিবারটি হতাশ হয়ে পড়েছিল।",
+                "hi": "खबर सुनकर परिवार हताश हो गया था।",
+                "ur": "خبر سن کر خاندان مایوس ہو گیا تھا۔",
+                "tr": "Aile haberi duyunca umutsuzluğa kapıldı."
+            },
+            "id": "v41_24"
+        },
+        {
+            "germanTerm": "mitfühlend sein",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈmɪtfyːlənt zaɪ̯n/",
+            "category": "phrase",
+            "translation": {
+                "en": "to be compassionate",
+                "bn": "করুণাময় হওয়া",
+                "hi": "दयालु होना",
+                "ur": "رحم دل ہونا",
+                "tr": "şefkatli olmak"
+            },
+            "exampleSentence": "Es ist wichtig, mitfühlend zu sein und dem Patienten zuzuhören.",
+            "exampleTranslation": {
+                "en": "It is important to be compassionate and listen to the patient.",
+                "bn": "করুণাময় হওয়া এবং রোগীর কথা শোনা গুরুত্বপূর্ণ।",
+                "hi": "दयालु होना और रोगी को सुनना महत्वपूर्ण है।",
+                "ur": "رحم دل ہونا اور مریض کو سننا ضروری ہے۔",
+                "tr": "Şefkatli olmak ve hastayı dinlemek önemlidir."
+            },
+            "id": "v41_25"
+        },
+        {
+            "germanTerm": "Sorge tragen für",
+            "article": null,
+            "plural": null,
+            "pronunciation": "/ˈzɔʁɡə ˈtʁaːɡən fyːɐ/",
+            "category": "phrase",
+            "translation": {
+                "en": "to take care of",
+                "bn": "যত্ন নেওয়া",
+                "hi": "देखभाल करना",
+                "ur": "خیال رکھنا",
+                "tr": "ilgilenmek"
+            },
+            "exampleSentence": "Wir müssen Sorge tragen für das Wohlbefinden des Patienten.",
+            "exampleTranslation": {
+                "en": "We must take care of the patient's well-being.",
+                "bn": "আমাদের অবশ্যই রোগীর মঙ্গলের যত্ন নিতে হবে।",
+                "hi": "हमें रोगी की भलाई का ख्याल रखना चाहिए।",
+                "ur": "ہمیں مریض کی بھلائی کا خیال رکھنا چاہیے۔",
+                "tr": "Hastanın refahı ile ilgilenmeliyiz."
+            },
+            "id": "v41_26"
+        },
+        {
+            "germanTerm": "die Perspektive",
+            "article": "die",
+            "plural": "die Perspektiven",
+            "pronunciation": "/pɛʁspekˈtiːvə/",
+            "category": "noun",
+            "translation": {
+                "en": "perspective",
+                "bn": "দৃষ্টিভঙ্গি",
+                "hi": "दृष्टिकोण",
+                "ur": "نقطہ نظر",
+                "tr": "perspektif"
+            },
+            "exampleSentence": "Es ist wichtig, die Perspektive des Patienten zu verstehen.",
+            "exampleTranslation": {
+                "en": "It's important to understand the patient's perspective.",
+                "bn": "রোগীর দৃষ্টিকোণ বোঝা গুরুত্বপূর্ণ।",
+                "hi": "रोगी के दृष्टिकोण को समझना महत्वपूर्ण है।",
+                "ur": "مریض کے نقطہ نظر کو سمجھنا ضروری ہے۔",
+                "tr": "Hastanın bakış açısını anlamak önemlidir."
+            },
+            "id": "v41_27"
+        },
+        {
+            "germanTerm": "die Autonomie",
+            "article": "die",
+            "plural": "kein Plural",
+            "pronunciation": "/aʊ̯tonoˈmiː/",
+            "category": "noun",
+            "translation": {
+                "en": "autonomy",
+                "bn": "স্বায়ত্তশাসন",
+                "hi": "स्वायत्तता",
+                "ur": "خود مختاری",
+                "tr": "özerklik"
+            },
+            "exampleSentence": "Die Autonomie des Patienten muss respektiert werden.",
+            "exampleTranslation": {
+                "en": "The patient's autonomy must be respected.",
+                "bn": "রোগীর স্বায়ত্তশাসনকে সম্মান করতে হবে।",
+                "hi": "रोगी की स्वायत्तता का सम्मान किया जाना चाहिए।",
+                "ur": "مریض کی خود مختاری کا احترام کیا جانا چاہیے۔",
+                "tr": "Hastanın özerkliğine saygı duyulmalıdır."
+            },
+            "id": "v41_28"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Breaking Bad News: Lung Cancer Diagnosis",
+                "bn": "খারাপ খবর: ফুসফুসের ক্যান্সার নির্ণয়",
+                "hi": "बुरी खबर: फेफड़ों के कैंसर का निदान",
+                "ur": "بری خبر: پھیپھڑوں کے کینسر کی تشخیص",
+                "tr": "Kötü Haber: Akciğer Kanseri Teşhisi"
+            },
+            "context": {
+                "en": "Dr. Schmidt informs Patient Müller about his lung cancer diagnosis after a biopsy.",
+                "bn": "ডাঃ শ্মিট বায়োপসির পর রোগী মুলারকে তার ফুসফুসের ক্যান্সারের নির্ণয় সম্পর্কে অবহিত করছেন।",
+                "hi": "डॉ. श्मिट बायोप्सी के बाद रोगी मुलर को उनके फेफड़ों के कैंसर के निदान के बारे में सूचित करते हैं।",
+                "ur": "ڈاکٹر شمٹ بایپسی کے بعد مریض ملر کو ان کے پھیپھڑوں کے کینسر کی تشخیص کے بارے میں مطلع کرتے ہیں۔",
+                "tr": "Dr. Schmidt, biyopsiden sonra hasta Müller'e akciğer kanseri teşhisi hakkında bilgi veriyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Herr Müller, ich muss Ihnen leider mitteilen, dass die Biopsie ergeben hat, dass Sie Lungenkrebs haben.",
+                    "translation": {
+                        "en": "Mr. Müller, I'm sorry to have to tell you that the biopsy showed you have lung cancer.",
+                        "bn": "মিঃ মুলার, আমি দুঃখিত যে আপনাকে জানাতে হচ্ছে যে বায়োপসিতে দেখা গেছে আপনার ফুসফুসের ক্যান্সার হয়েছে।",
+                        "hi": "श्री मुलर, मुझे यह बताते हुए दुख हो रहा है कि बायोप्सी से पता चला है कि आपको फेफड़ों का कैंसर है।",
+                        "ur": "مسٹر ملر، مجھے یہ بتاتے ہوئے افسوس ہو رہا ہے کہ بایپسی سے پتہ چلا ہے کہ آپ کو پھیپھڑوں کا کینسر ہے۔",
+                        "tr": "Bay Müller, maalesef size biyopsinin akciğer kanseri olduğunuzu gösterdiğini söylemek zorundayım."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Lungenkrebs? Das kann doch nicht sein…",
+                    "translation": {
+                        "en": "Lung cancer? That can't be...",
+                        "bn": "ফুসফুসের ক্যান্সার? এটা হতেই পারে না...",
+                        "hi": "फेफड़ों का कैंसर? ऐसा नहीं हो सकता...",
+                        "ur": "پھیپھڑوں کا کینسر؟ یہ نہیں ہو سکتا...",
+                        "tr": "Akciğer kanseri? Bu olamaz..."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ich verstehe, dass das ein Schock für Sie ist. Wir werden alle Optionen besprechen, die uns zur Verfügung stehen.",
+                    "translation": {
+                        "en": "I understand this is a shock for you. We will discuss all the options available to us.",
+                        "bn": "আমি বুঝতে পারছি এটা আপনার জন্য একটা ধাক্কা। আমরা আমাদের জন্য উপলব্ধ সমস্ত বিকল্প নিয়ে আলোচনা করব।",
+                        "hi": "मैं समझता हूं कि यह आपके लिए एक सदमा है। हम उन सभी विकल्पों पर चर्चा करेंगे जो हमारे पास उपलब्ध हैं।",
+                        "ur": "میں سمجھتا ہوں کہ یہ آپ کے لیے ایک صدمہ ہے۔ ہم ان تمام اختیارات پر تبادلہ خیال کریں گے جو ہمارے پاس دستیاب ہیں۔",
+                        "tr": "Bunun sizin için bir şok olduğunu anlıyorum. Elimizdeki tüm seçenekleri konuşacağız."
+                    }
+                },
+                {
+                    "speaker": "Patient Müller",
+                    "speakerRole": "Patient",
+                    "germanText": "Welche Optionen gibt es denn überhaupt?",
+                    "translation": {
+                        "en": "What options are there at all?",
+                        "bn": "এখানে কি কি বিকল্প আছে?",
+                        "hi": "यहां क्या विकल्प हैं?",
+                        "ur": "یہاں کیا اختیارات ہیں؟",
+                        "tr": "Başka ne seçenekler var ki?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir können über eine Operation, Chemotherapie oder Strahlentherapie sprechen. Zuerst müssen wir weitere Untersuchungen machen, um das Stadium genau zu bestimmen.",
+                    "translation": {
+                        "en": "We can talk about surgery, chemotherapy, or radiation therapy. First, we need to do further tests to determine the exact stage.",
+                        "bn": "আমরা সার্জারি, কেমোথেরাপি বা রেডিয়েশন থেরাপি নিয়ে কথা বলতে পারি। প্রথমে, আমাদের সঠিক পর্যায় নির্ধারণ করার জন্য আরও পরীক্ষা করতে হবে।",
+                        "hi": "हम सर्जरी, कीमोथेरेपी या विकिरण चिकित्सा के बारे में बात कर सकते हैं। सबसे पहले, हमें सटीक चरण निर्धारित करने के लिए आगे परीक्षण करने की आवश्यकता है।",
+                        "ur": "ہم سرجری، کیموتھراپی یا ریڈی ایشن تھراپی کے بارے میں بات کر سکتے ہیں۔ سب سے پہلے، ہمیں صحیح مرحلہ کا تعین کرنے کے لیے مزید ٹیسٹ کرنے کی ضرورت ہے۔",
+                        "tr": "Ameliyat, kemoterapi veya radyoterapi hakkında konuşabiliriz. Öncelikle, kesin aşamayı belirlemek için daha fazla test yapmamız gerekiyor."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Ich bin für Sie da, wenn Sie Fragen haben oder Unterstützung benötigen. Wir werden Sie auf diesem Weg begleiten.",
+                    "translation": {
+                        "en": "I am here for you if you have any questions or need support. We will accompany you on this journey.",
+                        "bn": "আপনার যদি কোনো প্রশ্ন থাকে বা সহায়তার প্রয়োজন হয় তবে আমি এখানে আছি। আমরা এই যাত্রায় আপনার সাথে থাকব।",
+                        "hi": "यदि आपके कोई प्रश्न हैं या आपको समर्थन की आवश्यकता है तो मैं यहां हूं। हम इस यात्रा पर आपके साथ रहेंगे।",
+                        "ur": "اگر آپ کے کوئی سوالات ہیں یا آپ کو مدد کی ضرورت ہے تو میں یہاں ہوں۔ ہم اس سفر میں آپ کے ساتھ رہیں گے۔",
+                        "tr": "Sorularınız varsa veya desteğe ihtiyacınız olursa buradayım. Bu yolculukta size eşlik edeceğiz."
+                    }
+                }
+            ],
+            "id": "d41_01"
+        },
+        {
+            "title": {
+                "en": "Breaking Bad News: Terminal Illness",
+                "bn": "খারাপ খবর: মারাত্মক অসুস্থতা",
+                "hi": "बुरी खबर: घातक बीमारी",
+                "ur": "بری خبر: مہلک بیماری",
+                "tr": "Kötü Haber: Ölümcül Hastalık"
+            },
+            "context": {
+                "en": "Dr. Weber informs Patient Schmidt that his illness is terminal and discusses palliative care options.",
+                "bn": "ডাঃ ওয়েবার রোগী শ্মিটকে জানাচ্ছেন যে তার অসুস্থতা মারাত্মক এবং প্রশমনমূলক যত্নের বিকল্প নিয়ে আলোচনা করছেন।",
+                "hi": "डॉ. वेबर रोगी श्मिट को बताते हैं कि उनकी बीमारी घातक है और उपशामक देखभाल विकल्पों पर चर्चा करते हैं।",
+                "ur": "ڈاکٹر ویبر مریض شمٹ کو بتاتے ہیں کہ ان کی بیماری مہلک ہے اور تسکین بخش نگہداشت کے اختیارات پر تبادلہ خیال کرتے ہیں۔",
+                "tr": "Dr. Weber, hasta Schmidt'e hastalığının ölümcül olduğunu söylüyor ve palyatif bakım seçeneklerini tartışıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberärztin",
+                    "germanText": "Herr Schmidt, die neuesten Untersuchungsergebnisse zeigen leider, dass Ihre Erkrankung weit fortgeschritten ist. Es gibt keine kurative Behandlung mehr.",
+                    "translation": {
+                        "en": "Mr. Schmidt, unfortunately, the latest test results show that your illness is far advanced. There is no curative treatment anymore.",
+                        "bn": "মিঃ শ্মিট, দুর্ভাগ্যবশত, সর্বশেষ পরীক্ষার ফলাফল দেখায় যে আপনার অসুস্থতা অনেক দূর এগিয়েছে। আর কোনো নিরাময়মূলক চিকিৎসা নেই।",
+                        "hi": "श्री श्मिट, दुर्भाग्य से, नवीनतम परीक्षण के परिणाम बताते हैं कि आपकी बीमारी बहुत आगे बढ़ गई है। अब कोई उपचारात्मक उपचार नहीं है।",
+                        "ur": "مسٹر شمٹ، بدقسمتی سے، تازہ ترین ٹیسٹ کے نتائج سے پتہ چلتا ہے کہ آپ کی بیماری بہت بڑھ گئی ہے۔ اب کوئی علاج معالجہ نہیں ہے۔",
+                        "tr": "Bay Schmidt, maalesef son test sonuçları hastalığınızın çok ilerlediğini gösteriyor. Artık iyileştirici bir tedavi yok."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Was bedeutet das genau?",
+                    "translation": {
+                        "en": "What does that mean exactly?",
+                        "bn": "এর মানে ঠিক কী?",
+                        "hi": "इसका ठीक मतलब क्या है?",
+                        "ur": "اس کا ٹھیک مطلب کیا ہے؟",
+                        "tr": "Bu tam olarak ne anlama geliyor?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberärztin",
+                    "germanText": "Es bedeutet, dass wir uns jetzt auf die Linderung Ihrer Beschwerden konzentrieren werden. Wir können Ihnen helfen, Ihre Lebensqualität so gut wie möglich zu erhalten.",
+                    "translation": {
+                        "en": "It means that we will now focus on alleviating your symptoms. We can help you maintain your quality of life as well as possible.",
+                        "bn": "এর মানে হল আমরা এখন আপনার উপসর্গগুলি উপশম করার উপর মনোযোগ দেব। আমরা আপনাকে আপনার জীবনের মান যতটা সম্ভব বজায় রাখতে সাহায্য করতে পারি।",
+                        "hi": "इसका मतलब है कि अब हम आपके लक्षणों को कम करने पर ध्यान केंद्रित करेंगे। हम आपकी जीवनशैली को यथासंभव बनाए रखने में आपकी मदद कर सकते हैं।",
+                        "ur": "اس کا مطلب ہے کہ اب ہم آپ کی علامات کو کم کرنے پر توجہ مرکوز کریں گے۔ ہم آپ کو اپنی زندگی کے معیار کو ہر ممکن حد تک برقرار رکھنے میں مدد کر سکتے ہیں۔",
+                        "tr": "Bu, artık semptomlarınızı hafifletmeye odaklanacağımız anlamına geliyor. Yaşam kalitenizi olabildiğince korumanıza yardımcı olabiliriz."
+                    }
+                },
+                {
+                    "speaker": "Patient Schmidt",
+                    "speakerRole": "Patient",
+                    "germanText": "Palliative Versorgung… also Sterbebegleitung?",
+                    "translation": {
+                        "en": "Palliative care… so end-of-life care?",
+                        "bn": "উপশমমূলক যত্ন... তাহলে জীবনের শেষ পর্যায়ের যত্ন?",
+                        "hi": "उपशामक देखभाल... तो जीवन के अंत की देखभाल?",
+                        "ur": "تسکین بخش نگہداشت… تو زندگی کے اختتام کی نگہداشت؟",
+                        "tr": "Palyatif bakım… yani yaşam sonu bakımı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberärztin",
+                    "germanText": "Ja, aber auch viel mehr. Wir können Schmerzen lindern, Ihnen bei der Atmung helfen und auch psychologische Unterstützung anbieten.",
+                    "translation": {
+                        "en": "Yes, but also much more. We can relieve pain, help you with breathing, and also offer psychological support.",
+                        "bn": "হ্যাঁ, তবে আরও অনেক কিছু। আমরা ব্যথা উপশম করতে পারি, আপনাকে শ্বাস নিতে সাহায্য করতে পারি এবং মানসিক সহায়তাও দিতে পারি।",
+                        "hi": "हाँ, लेकिन और भी बहुत कुछ। हम दर्द से राहत दिला सकते हैं, आपको सांस लेने में मदद कर सकते हैं और मनोवैज्ञानिक सहायता भी प्रदान कर सकते हैं।",
+                        "ur": "ہاں، لیکن اور بھی بہت کچھ۔ ہم درد کو دور کر سکتے ہیں، سانس لینے میں آپ کی مدد کر سکتے ہیں اور نفسیاتی مدد بھی فراہم کر سکتے ہیں۔",
+                        "tr": "Evet, ama çok daha fazlası. Ağrıyı hafifletebilir, nefes almanıza yardımcı olabilir ve ayrıca psikolojik destek sunabiliriz."
+                    }
+                },
+                {
+                    "speaker": "Dr. Weber",
+                    "speakerRole": "Oberärztin",
+                    "germanText": "Ich möchte, dass Sie wissen, dass Sie nicht allein sind. Wir sind hier, um Sie und Ihre Familie zu unterstützen.",
+                    "translation": {
+                        "en": "I want you to know that you are not alone. We are here to support you and your family.",
+                        "bn": "আমি চাই আপনি জানুন যে আপনি একা নন। আমরা আপনাকে এবং আপনার পরিবারকে সমর্থন করার জন্য এখানে আছি।",
+                        "hi": "मैं चाहता हूं कि आप जान लें कि आप अकेले नहीं हैं। हम यहां आपको और आपके परिवार को समर्थन देने के लिए हैं।",
+                        "ur": "میں چاہتا ہوں کہ آپ جان لیں کہ آپ اکیلے نہیں ہیں۔ ہم یہاں آپ اور آپ کے اہل خانہ کی مدد کے لیے ہیں۔",
+                        "tr": "Yalnız olmadığınızı bilmenizi istiyorum. Size ve ailenize destek olmak için buradayız."
+                    }
+                }
+            ],
+            "id": "d41_02"
+        },
+        {
+            "title": {
+                "en": "Breaking Bad News: Miscarriage",
+                "bn": "খারাপ খবর: গর্ভপাত",
+                "hi": "बुरी खबर: गर्भपात",
+                "ur": "بری خبر: اسقاط حمل",
+                "tr": "Kötü Haber: Düşük"
+            },
+            "context": {
+                "en": "Schwester Weber informs Patient Klein about her miscarriage after an ultrasound.",
+                "bn": "আলট্রাসাউন্ডের পর সিস্টার ওয়েবার রোগী ক্লেইনকে তার গর্ভপাতের কথা জানাচ্ছেন।",
+                "hi": "अल्ट्रासाउंड के बाद सिस्टर वेबर रोगी क्लेन को उसके गर्भपात के बारे में सूचित करती हैं।",
+                "ur": "الٹراساؤنڈ کے بعد سسٹر ویبر مریض کلین کو اس کے اسقاط حمل کے بارے میں مطلع کرتی ہیں۔",
+                "tr": "Hemşire Weber, ultrason sonrası hasta Klein'e düşük yaptığını bildiriyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Frau Klein, es tut mir sehr leid, Ihnen mitteilen zu müssen, dass wir auf dem Ultraschall leider keinen Herzschlag mehr feststellen konnten.",
+                    "translation": {
+                        "en": "Ms. Klein, I am very sorry to have to tell you that we could no longer detect a heartbeat on the ultrasound.",
+                        "bn": "মিস ক্লেইন, আমি দুঃখিত যে আপনাকে জানাতে হচ্ছে যে আমরা আলট্রাসাউন্ডে আর কোনো হৃদস্পন্দন সনাক্ত করতে পারিনি।",
+                        "hi": "सुश्री क्लेन, मुझे यह बताते हुए बहुत दुख हो रहा है कि हम अल्ट्रासाउंड पर अब कोई दिल की धड़कन नहीं पा सके।",
+                        "ur": "محترمہ کلین، مجھے یہ بتاتے ہوئے بہت افسوس ہو رہا ہے کہ الٹراساؤنڈ پر اب ہم کوئی دل کی دھڑکن نہیں پا سکے۔",
+                        "tr": "Bayan Klein, size ultrason sonucunda artık bir kalp atışı tespit edemediğimizi söylemekten dolayı çok üzgünüm."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Nein… das darf nicht wahr sein!",
+                    "translation": {
+                        "en": "No... that can't be true!",
+                        "bn": "না... এটা সত্যি হতে পারে না!",
+                        "hi": "नहीं... यह सच नहीं हो सकता!",
+                        "ur": "نہیں... یہ سچ نہیں ہو سکتا!",
+                        "tr": "Hayır… bu doğru olamaz!"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Es tut mir unendlich leid. Ich bin bei Ihnen. Wir können einen Arzt holen, um alles weitere zu besprechen.",
+                    "translation": {
+                        "en": "I am so incredibly sorry. I am here with you. We can get a doctor to discuss everything further.",
+                        "bn": "আমি খুবই দুঃখিত। আমি আপনার সাথে আছি। আমরা একজন ডাক্তারকে ডেকে আনতে পারি যাতে সবকিছু আরও আলোচনা করা যায়।",
+                        "hi": "मुझे बहुत अफ़सोस है। मैं तुम्हारे साथ हूं। हम आगे सब कुछ पर चर्चा करने के लिए एक डॉक्टर को बुला सकते हैं।",
+                        "ur": "مجھے بہت افسوس ہے۔ میں تمہارے ساتھ ہوں۔ ہم مزید ہر چیز پر تبادلہ خیال کرنے کے لیے ایک ڈاکٹر کو بلا سکتے ہیں۔",
+                        "tr": "İnanılmaz derecede üzgünüm. Ben buradayım. Her şeyi daha ayrıntılı görüşmek için bir doktor çağırabiliriz."
+                    }
+                },
+                {
+                    "speaker": "Patient Klein",
+                    "speakerRole": "Patient",
+                    "germanText": "Bitte…",
+                    "translation": {
+                        "en": "Please...",
+                        "bn": "অনুগ্রহ করে...",
+                        "hi": "कृपा...",
+                        "ur": "براہ کرم...",
+                        "tr": "Lütfen…"
+                    }
+                },
+                {
+                    "speaker": "Schwester Weber",
+                    "speakerRole": "Krankenschwester",
+                    "germanText": "Ich bleibe bei Ihnen. Und wir werden Ihnen alle Unterstützung geben, die Sie jetzt brauchen.",
+                    "translation": {
+                        "en": "I will stay with you. And we will give you all the support you need right now.",
+                        "bn": "আমি আপনার সাথে থাকব। এবং এই মুহূর্তে আপনার যে সমর্থন প্রয়োজন তা আমরা আপনাকে দেব।",
+                        "hi": "मैं तुम्हारे साथ रहूंगी। और हम आपको वह सारा समर्थन देंगे जिसकी आपको अभी आवश्यकता है।",
+                        "ur": "میں آپ کے ساتھ رہوں گی۔ اور اب آپ کو جس مدد کی ضرورت ہے ہم وہ سب آپ کو دیں گے۔",
+                        "tr": "Yanında kalacağım. Ve şu anda ihtiyacınız olan tüm desteği size vereceğiz."
+                    }
+                }
+            ],
+            "id": "d41_03"
+        },
+        {
+            "title": {
+                "en": "Breaking Bad News: Alzheimer's Diagnosis",
+                "bn": "খারাপ খবর: আলঝেইমারের নির্ণয়",
+                "hi": "बुरी खबर: अल्जाइमर का निदान",
+                "ur": "بری خبر: الزائمر کی تشخیص",
+                "tr": "Kötü Haber: Alzheimer Teşhisi"
+            },
+            "context": {
+                "en": "Dr. Schmidt informs the family of Patient Braun about his Alzheimer's diagnosis.",
+                "bn": "ডাঃ শ্মিট রোগী ব্রাউনের পরিবারকে তার আলঝেইমারের নির্ণয় সম্পর্কে অবহিত করছেন।",
+                "hi": "डॉ. श्मिट रोगी ब्रौन के परिवार को उनके अल्जाइमर के निदान के बारे में सूचित करते हैं।",
+                "ur": "ڈاکٹر شمٹ مریض براؤن کے خاندان کو ان کے الزائمر کی تشخیص کے بارے میں مطلع کرتے ہیں۔",
+                "tr": "Dr. Schmidt, hasta Braun'un ailesini Alzheimer teşhisi hakkında bilgilendiriyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Frau Braun, Herr Braun, nach den Untersuchungen müssen wir Ihnen leider mitteilen, dass Ihr Vater an Alzheimer erkrankt ist.",
+                    "translation": {
+                        "en": "Mrs. Braun, Mr. Braun, after the examinations, we unfortunately have to inform you that your father has Alzheimer's disease.",
+                        "bn": "মিসেস ব্রাউন, মিঃ ব্রাউন, পরীক্ষার পর আমরা দুঃখের সাথে জানাতে বাধ্য হচ্ছি যে আপনার বাবার আলঝেইমার রোগ ধরা পড়েছে।",
+                        "hi": "श्रीमती ब्रौन, श्री ब्रौन, परीक्षाओं के बाद, हमें दुर्भाग्य से आपको सूचित करना होगा कि आपके पिता को अल्जाइमर रोग है।",
+                        "ur": "مسز براؤن، مسٹر براؤن، امتحانات کے بعد، ہمیں بدقسمتی سے آپ کو مطلع کرنا ہوگا کہ آپ کے والد کو الزائمر کی بیماری ہے۔",
+                        "tr": "Bayan Braun, Bay Braun, yapılan muayenelerden sonra, maalesef babanızın Alzheimer hastası olduğunu size bildirmek zorundayız."
+                    }
+                },
+                {
+                    "speaker": "Frau Braun",
+                    "speakerRole": "Angehörige",
+                    "germanText": "Alzheimer? Aber er ist doch noch so fit…",
+                    "translation": {
+                        "en": "Alzheimer's? But he is still so fit...",
+                        "bn": "আলঝেইমার? কিন্তু তিনি তো এখনও এত ফিট...",
+                        "hi": "अल्जाइमर? लेकिन वह अभी भी बहुत फिट हैं...",
+                        "ur": "الزائمر؟ لیکن وہ ابھی بھی بہت فٹ ہیں...",
+                        "tr": "Alzheimer mı? Ama hala çok zinde…"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Das ist verständlich. Alzheimer beginnt oft schleichend. Wir können Ihnen Informationen und Unterstützung anbieten, wie Sie mit der Situation umgehen können.",
+                    "translation": {
+                        "en": "That's understandable. Alzheimer's often starts insidiously. We can offer you information and support on how to deal with the situation.",
+                        "bn": "এটা বোধগম্য। আলঝেইমার প্রায়শই ধীরে ধীরে শুরু হয়। আমরা আপনাকে পরিস্থিতি মোকাবেলা করার জন্য তথ্য এবং সহায়তা দিতে পারি।",
+                        "hi": "यह समझ में आता है। अल्जाइमर अक्सर चुपके से शुरू होता है। हम आपको स्थिति से निपटने के तरीके के बारे में जानकारी और सहायता प्रदान कर सकते हैं।",
+                        "ur": "یہ سمجھ میں آتا ہے۔ الزائمر اکثر آہستہ آہستہ شروع ہوتا ہے۔ ہم آپ کو صورتحال سے نمٹنے کے طریقے کے بارے میں معلومات اور مدد فراہم کر سکتے ہیں۔",
+                        "tr": "Bu anlaşılabilir bir durum. Alzheimer genellikle sinsi bir şekilde başlar. Durumla nasıl başa çıkacağınız konusunda size bilgi ve destek sunabiliriz."
+                    }
+                },
+                {
+                    "speaker": "Herr Braun",
+                    "speakerRole": "Angehöriger",
+                    "germanText": "Gibt es Medikamente, die helfen können?",
+                    "translation": {
+                        "en": "Are there any medications that can help?",
+                        "bn": "এমন কোনো ওষুধ আছে যা সাহায্য করতে পারে?",
+                        "hi": "क्या कोई दवाएं हैं जो मदद कर सकती हैं?",
+                        "ur": "کیا کوئی دوائیں ہیں جو مدد کر سکتی ہیں؟",
+                        "tr": "Yardımcı olabilecek ilaçlar var mı?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Es gibt Medikamente, die den Verlauf verlangsamen können, aber keine Heilung. Wir werden alles genau besprechen. Auch Selbsthilfegruppen können eine große Hilfe sein.",
+                    "translation": {
+                        "en": "There are medications that can slow down the progression, but no cure. We will discuss everything in detail. Self-help groups can also be a great help.",
+                        "bn": "এমন ওষুধ আছে যা রোগের অগ্রগতি ধীর করতে পারে, কিন্তু কোনো নিরাময় নেই। আমরা সবকিছু বিস্তারিত আলোচনা করব। স্বনির্ভর গোষ্ঠীগুলিও খুব সহায়ক হতে পারে।",
+                        "hi": "ऐसी दवाएं हैं जो प्रगति को धीमा कर सकती हैं, लेकिन कोई इलाज नहीं है। हम सब कुछ विस्तार से चर्चा करेंगे। स्वयं सहायता समूह भी बहुत सहायक हो सकते हैं।",
+                        "ur": "ایسی دوائیں ہیں جو پیشرفت کو کم کر سکتی ہیں، لیکن کوئی علاج نہیں ہے۔ ہم ہر چیز پر تفصیل سے بات کریں گے۔ خود مدد کرنے والے گروپ بھی بہت مددگار ثابت ہو سکتے ہیں۔",
+                        "tr": "İlerlemeyi yavaşlatabilecek ilaçlar var, ancak bir tedavi yok. Her şeyi ayrıntılı olarak görüşeceğiz. Kendi kendine yardım grupları da büyük bir yardımcı olabilir."
+                    }
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wir sind für Sie da, wenn Sie Fragen haben. Vereinbaren Sie gerne einen weiteren Termin.",
+                    "translation": {
+                        "en": "We are here for you if you have any questions. Feel free to make another appointment.",
+                        "bn": "আপনার কোনো প্রশ্ন থাকলে আমরা এখানে আছি। নির্দ্বিধায় আরেকটি অ্যাপয়েন্টমেন্ট করুন।",
+                        "hi": "यदि आपके कोई प्रश्न हैं तो हम यहां हैं। बेझिझक एक और नियुक्ति करें।",
+                        "ur": "اگر آپ کے کوئی سوالات ہیں تو ہم یہاں ہیں۔ بلا جھجھک ایک اور ملاقات کریں۔",
+                        "tr": "Sorularınız varsa buradayız. Başka bir randevu almaktan çekinmeyin."
+                    }
+                }
+            ],
+            "id": "d41_04"
+        },
+        {
+            "title": {
+                "en": "Breaking Bad News: Amputation",
+                "bn": "খারাপ খবর: অঙ্গচ্ছেদ",
+                "hi": "बुरी खबर: अंगविच्छेद",
+                "ur": "بری خبر: قطع عضو",
+                "tr": "Kötü Haber: Amputasyon"
+            },
+            "context": {
+                "en": "Dr. Meier informs Patient Schulz that an amputation of his leg is necessary due to severe infection.",
+                "bn": "ডাঃ মিয়ের রোগী শুলজকে জানাচ্ছেন যে গুরুতর সংক্রমণের কারণে তার পা কেটে ফেলতে হবে।",
+                "hi": "डॉ. मेयर रोगी शुल्ज़ को बताते हैं कि गंभीर संक्रमण के कारण उनके पैर काटना आवश्यक है।",
+                "ur": "ڈاکٹر میئر مریض شلز کو بتاتے ہیں کہ شدید انفیکشن کی وجہ سے ان کی ٹانگ کاٹنا ضروری ہے۔",
+                "tr": "Dr. Meier, hasta Schulz'a ciddi bir enfeksiyon nedeniyle bacağının kesilmesinin gerektiğini bildiriyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Herr Schulz, es tut mir sehr leid, Ihnen mitteilen zu müssen, dass wir alle Möglichkeiten ausgeschöpft haben. Die Infektion in Ihrem Bein ist so schwerwiegend, dass wir eine Amputation in Erwägung ziehen müssen.",
+                    "translation": {
+                        "en": "Mr. Schulz, I am very sorry to have to tell you that we have exhausted all possibilities. The infection in your leg is so severe that we have to consider an amputation.",
+                        "bn": "মিঃ শুলজ, আমি দুঃখিত যে আপনাকে জানাতে হচ্ছে যে আমরা সমস্ত সম্ভাবনা শেষ করে ফেলেছি। আপনার পায়ের সংক্রমণ এতটাই গুরুতর যে আমাদের অঙ্গচ্ছেদ করার কথা বিবেচনা করতে হবে।",
+                        "hi": "श्री शुल्ज़, मुझे यह बताते हुए बहुत दुख हो रहा है कि हमने सभी संभावनाओं को समाप्त कर दिया है। आपके पैर में संक्रमण इतना गंभीर है कि हमें विच्छेदन पर विचार करना होगा।",
+                        "ur": "مسٹر شلز، مجھے یہ بتاتے ہوئے بہت افسوس ہو رہا ہے کہ ہم نے تمام امکانات ختم کر دیے ہیں۔ آپ کی ٹانگ میں انفیکشن اتنا شدید ہے کہ ہمیں قطع عضو پر غور کرنا ہوگا۔",
+                        "tr": "Bay Schulz, size tüm olasılıkları tükettiğimizi söylemekten dolayı çok üzgünüm. Bacağınızdaki enfeksiyon o kadar şiddetli ki, amputasyonu düşünmek zorundayız."
+                    }
+                },
+                {
+                    "speaker": "Patient Schulz",
+                    "speakerRole": "Patient",
+                    "germanText": "Eine Amputation? Mein Bein…",
+                    "translation": {
+                        "en": "An amputation? My leg...",
+                        "bn": "অঙ্গচ্ছেদ? আমার পা...",
+                        "hi": "एक विच्छेदन? मेरा पैर...",
+                        "ur": "ایک قطع عضو؟ میری ٹانگ...",
+                        "tr": "Amputasyon mu? Bacağım…"
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich verstehe, dass das eine schreckliche Nachricht ist. Aber es ist die einzige Möglichkeit, die Infektion zu stoppen und Ihr Leben zu retten.",
+                    "translation": {
+                        "en": "I understand that this is terrible news. But it is the only way to stop the infection and save your life.",
+                        "bn": "আমি বুঝতে পারছি এটা একটা ভয়ানক খবর। কিন্তু সংক্রমণ বন্ধ করতে এবং আপনার জীবন বাঁচাতে এটাই একমাত্র উপায়।",
+                        "hi": "मैं समझता हूं कि यह भयानक खबर है। लेकिन संक्रमण को रोकने और आपकी जान बचाने का यही एकमात्र तरीका है।",
+                        "ur": "میں سمجھتا ہوں کہ یہ خوفناک خبر ہے۔ لیکن انفیکشن کو روکنے اور آپ کی جان بچانے کا یہی واحد راستہ ہے۔",
+                        "tr": "Bunun korkunç bir haber olduğunu anlıyorum. Ancak enfeksiyonu durdurmanın ve hayatınızı kurtarmanın tek yolu bu."
+                    }
+                },
+                {
+                    "speaker": "Patient Schulz",
+                    "speakerRole": "Patient",
+                    "germanText": "Was passiert dann?",
+                    "translation": {
+                        "en": "What happens then?",
+                        "bn": "তাহলে কি হবে?",
+                        "hi": "तो फिर क्या होता है?",
+                        "ur": "تو پھر کیا ہوتا ہے؟",
+                        "tr": "Sonra ne olacak?"
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Wir werden Sie optimal versorgen und alles tun, um Ihnen zu helfen, sich an die neue Situation anzupassen. Es gibt Prothesen und Physiotherapie, die Ihnen helfen können.",
+                    "translation": {
+                        "en": "We will provide you with the best possible care and do everything to help you adapt to the new situation. There are prosthetics and physiotherapy that can help you.",
+                        "bn": "আমরা আপনাকে সর্বোত্তম যত্ন প্রদান করব এবং নতুন পরিস্থিতির সাথে খাপ খাইয়ে নিতে আপনাকে সহায়তা করার জন্য সবকিছু করব। কৃত্রিম অঙ্গ এবং ফিজিওথেরাপি রয়েছে যা আপনাকে সাহায্য করতে পারে।",
+                        "hi": "हम आपको सर्वोत्तम संभव देखभाल प्रदान करेंगे और आपको नई स्थिति के अनुकूल होने में मदद करने के लिए सब कुछ करेंगे। कृत्रिम अंग और फिजियोथेरेपी हैं जो आपकी मदद कर सकते हैं।",
+                        "ur": "ہم آپ کو بہترین ممکنہ نگہداشت فراہم کریں گے اور نئی صورتحال کے مطابق ڈھالنے میں آپ کی مدد کے لیے ہر ممکن کوشش کریں گے۔ مصنوعی اعضاء اور فزیوتھراپی ہیں جو آپ کی مدد کر سکتے ہیں۔",
+                        "tr": "Size mümkün olan en iyi bakımı sağlayacağız ve yeni duruma uyum sağlamanıza yardımcı olmak için elimizden gelen her şeyi yapacağız. Size yardımcı olabilecek protezler ve fizyoterapi var."
+                    }
+                },
+                {
+                    "speaker": "Dr. Meier",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Ich bin hier, um Ihre Fragen zu beantworten und Sie zu unterstützen. Wir sind für Sie da.",
+                    "translation": {
+                        "en": "I am here to answer your questions and support you. We are here for you.",
+                        "bn": "আমি আপনার প্রশ্নের উত্তর দিতে এবং আপনাকে সমর্থন করতে এখানে আছি। আমরা আপনার জন্য আছি।",
+                        "hi": "मैं आपके सवालों के जवाब देने और आपका समर्थन करने के लिए यहां हूं। हम यहां आपके लिए हैं।",
+                        "ur": "میں آپ کے سوالات کے جواب دینے اور آپ کی حمایت کرنے کے لیے یہاں ہوں۔ ہم یہاں آپ کے لیے ہیں۔",
+                        "tr": "Sorularınızı yanıtlamak ve sizi desteklemek için buradayım. Sizin için buradayız."
+                    }
+                }
+            ],
+            "id": "d41_05"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche der folgenden ist KEIN Bestandteil des SPIKES-Protokolls zur Übermittlung schlechter Nachrichten?",
+                "en": "Which of the following is NOT a component of the SPIKES protocol for delivering bad news?",
+                "bn": "নীচের কোনটি খারাপ খবর দেওয়ার জন্য SPIKES প্রোটোকলের অংশ নয়?",
+                "hi": "निम्नलिखित में से कौन सा बुरी खबर देने के लिए SPIKES प्रोटोकॉल का घटक नहीं है?",
+                "ur": "درج ذیل میں سے کون سا SPIKES پروٹوکول کا حصہ نہیں ہے جو بری خبر دینے کے لئے ہے؟",
+                "tr": "Aşağıdakilerden hangisi kötü haber verme için kullanılan SPIKES protokolünün bir bileşeni DEĞİLDİR?"
+            },
+            "options": [
+                "Setting (Umgebung)",
+                "Perception (Wahrnehmung)",
+                "Intervention (Intervention)",
+                "Knowledge (Wissen)"
+            ],
+            "correctAnswer": "Intervention (Intervention)",
+            "explanation": {
+                "en": "The SPIKES protocol stands for Setting, Perception, Invitation, Knowledge, Emotions, and Strategy/Summary. Intervention is not part of the protocol.",
+                "bn": "SPIKES প্রোটোকল মানে হল Setting, Perception, Invitation, Knowledge, Emotions, এবং Strategy/Summary। Intervention এই প্রোটোকলের অংশ নয়।",
+                "hi": "SPIKES प्रोटोकॉल का मतलब है सेटिंग, परसेप्शन, इनविटेशन, नॉलेज, इमोशंस और स्ट्रेटेजी/समरी। हस्तक्षेप प्रोटोकॉल का हिस्सा नहीं है।",
+                "ur": "SPIKES پروٹوکول کا مطلب ہے سیٹنگ، پرسیپشن، انویٹیشن، نالج، ایموشنز اور اسٹریٹیجی/سمری۔ مداخلت پروٹوکول کا حصہ نہیں ہے۔",
+                "tr": "SPIKES protokolü; Setting, Perception, Invitation, Knowledge, Emotions ve Strategy/Summary anlamına gelir. Müdahale (Intervention) protokolün bir parçası değildir."
+            },
+            "points": 10,
+            "id": "e41_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Empathie' im Kontext der Patientenbetreuung?",
+                "en": "What does 'empathy' mean in the context of patient care?",
+                "bn": "রোগীর যত্নের ক্ষেত্রে 'Empathy' মানে কী?",
+                "hi": "रोगी देखभाल के संदर्भ में 'एम्पैथी' का क्या अर्थ है?",
+                "ur": "مریض کی دیکھ بھال کے تناظر میں 'ایمپیتھی' کا کیا مطلب ہے؟",
+                "tr": "Hasta bakımı bağlamında 'empati' ne anlama gelir?"
+            },
+            "options": [
+                "Mitleid mit dem Patienten haben",
+                "Die Fähigkeit, die Gefühle des Patienten zu verstehen und zu teilen",
+                "Den Patienten zu ignorieren",
+                "Den Patienten zu beurteilen"
+            ],
+            "correctAnswer": "Die Fähigkeit, die Gefühle des Patienten zu verstehen und zu teilen",
+            "explanation": {
+                "en": "Empathy is the ability to understand and share the feelings of another person.",
+                "bn": "Empathy হল অন্য ব্যক্তির অনুভূতি বোঝা এবং ভাগ করে নেওয়ার ক্ষমতা।",
+                "hi": "एम्पैथी किसी अन्य व्यक्ति की भावनाओं को समझने और साझा करने की क्षमता है।",
+                "ur": "ایمپیتھی کسی دوسرے شخص کے جذبات کو سمجھنے اور بانٹنے کی صلاحیت ہے۔",
+                "tr": "Empati, başka bir kişinin duygularını anlama ve paylaşma yeteneğidir."
+            },
+            "points": 10,
+            "id": "e41_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Trauerreaktion ist ungewöhnlich lange andauernd und beeinträchtigt das Alltagsleben?",
+                "en": "Which grief reaction is unusually prolonged and impairs daily life?",
+                "bn": "কোন শোক প্রতিক্রিয়া অস্বাভাবিকভাবে দীর্ঘস্থায়ী হয় এবং দৈনন্দিন জীবনকে ব্যাহত করে?",
+                "hi": "कौन सी शोक प्रतिक्रिया असामान्य रूप से लंबे समय तक चलती है और दैनिक जीवन को बाधित करती है?",
+                "ur": "کون سا غم کا ردعمل غیر معمولی طور پر طویل ہوتا ہے اور روزمرہ کی زندگی کو متاثر کرتا ہے؟",
+                "tr": "Hangi yas tepkisi olağan dışı şekilde uzundur ve günlük yaşamı bozar?"
+            },
+            "options": [
+                "Normale Trauer",
+                "Komplizierte Trauer",
+                "Antizipatorische Trauer",
+                "Verzögerte Trauer"
+            ],
+            "correctAnswer": "Komplizierte Trauer",
+            "explanation": {
+                "en": "Complicated grief is a prolonged and intense grief reaction that impairs daily functioning.",
+                "bn": "জটিল শোক হল একটি দীর্ঘস্থায়ী এবং তীব্র শোক প্রতিক্রিয়া যা দৈনন্দিন কাজকর্মকে ব্যাহত করে।",
+                "hi": "जटिल शोक एक लम्बी और तीव्र शोक प्रतिक्रिया है जो दैनिक कामकाज को बाधित करती है।",
+                "ur": "پیچیدہ غم ایک طویل اور شدید غم کا ردعمل ہے جو روزمرہ کے کام کو متاثر کرتا ہے۔",
+                "tr": "Karmaşık yas, günlük işlevleri bozan uzun süreli ve yoğun bir yas tepkisidir."
+            },
+            "points": 10,
+            "id": "e41_03"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist bei der Übermittlung schlechter Nachrichten wichtig bezüglich der Umgebung?",
+                "en": "What is important regarding the environment when delivering bad news?",
+                "bn": "খারাপ খবর দেওয়ার সময় পরিবেশের বিষয়ে কী গুরুত্বপূর্ণ?",
+                "hi": "बुरी खबर देते समय पर्यावरण के बारे में क्या महत्वपूर्ण है?",
+                "ur": "بری خبر دیتے وقت ماحول کے بارے میں کیا اہم ہے؟",
+                "tr": "Kötü haber verirken çevre ile ilgili olarak ne önemlidir?"
+            },
+            "options": [
+                "Ein öffentlicher Ort",
+                "Ein ruhiger, privater Ort",
+                "Ein lauter, belebter Ort",
+                "Ein Ort ohne Sitzmöglichkeiten"
+            ],
+            "correctAnswer": "Ein ruhiger, privater Ort",
+            "explanation": {
+                "en": "A quiet, private setting allows the patient to process the news without distractions or interruptions.",
+                "bn": "একটি শান্ত, ব্যক্তিগত পরিবেশ রোগীকে বিক্ষিপ্ততা বা বাধা ছাড়াই খবরটি প্রক্রিয়াকরণের সুযোগ দেয়।",
+                "hi": "एक शांत, निजी सेटिंग रोगी को बिना किसी रुकावट या बाधा के समाचार को संसाधित करने की अनुमति देती है।",
+                "ur": "ایک پرسکون، نجی ترتیب مریض کو بغیر کسی خلفشار یا مداخلت کے خبروں پر عمل کرنے کی اجازت دیتا ہے۔",
+                "tr": "Sessiz ve özel bir ortam, hastanın haberleri dikkat dağıtıcı unsurlar veya kesintiler olmadan işlemesine olanak tanır."
+            },
+            "points": 10,
+            "id": "e41_04"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Frage hilft, die Wahrnehmung des Patienten über seine Situation zu erfragen?",
+                "en": "Which question helps to inquire about the patient's perception of their situation?",
+                "bn": "কোন প্রশ্ন রোগীর পরিস্থিতির উপলব্ধি সম্পর্কে জানতে সাহায্য করে?",
+                "hi": "कौन सा प्रश्न रोगी की अपनी स्थिति के बारे में धारणा के बारे में पूछताछ करने में मदद करता है?",
+                "ur": "کون سا سوال مریض کی اپنی صورتحال کے بارے میں تاثر کے بارے میں پوچھنے میں مدد کرتا ہے؟",
+                "tr": "Hangi soru hastanın durumuyla ilgili algısını sorgulamaya yardımcı olur?"
+            },
+            "options": [
+                "Wie fühlen Sie sich?",
+                "Was ist Ihre Lieblingsfarbe?",
+                "Was ist Ihre Vorstellung von dem, was gerade passiert?",
+                "Haben Sie Hunger?"
+            ],
+            "correctAnswer": "Was ist Ihre Vorstellung von dem, was gerade passiert?",
+            "explanation": {
+                "en": "Asking about the patient's understanding of their situation helps you tailor the information to their level of understanding.",
+                "bn": "রোগীর পরিস্থিতির উপলব্ধি সম্পর্কে জিজ্ঞাসা করলে আপনাকে তাদের বোঝার স্তর অনুসারে তথ্য জানাতে সাহায্য করবে।",
+                "hi": "रोगी की स्थिति के बारे में समझ के बारे में पूछना आपको उनकी समझ के स्तर के अनुरूप जानकारी देने में मदद करेगा।",
+                "ur": "مریض کی صورتحال کے بارے میں سمجھ کے بارے میں پوچھنا آپ کو ان کی سمجھ کی سطح کے مطابق معلومات فراہم کرنے میں مددگار ثابت ہوگا۔",
+                "tr": "Hastanın durumuyla ilgili anlayışını sormak, bilgileri onların anlama düzeyine göre uyarlamanıza yardımcı olacaktır."
+            },
+            "points": 10,
+            "id": "e41_05"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist KEIN Zeichen einer möglichen Trauerreaktion?",
+                "en": "What is NOT a sign of a possible grief reaction?",
+                "bn": "সম্ভাব্য শোক প্রতিক্রিয়ার লক্ষণ কোনটি নয়?",
+                "hi": "संभावित शोक प्रतिक्रिया का संकेत क्या नहीं है?",
+                "ur": "ممکنہ غم کے ردعمل کی علامت کیا نہیں ہے؟",
+                "tr": "Olası bir yas tepkisinin işareti olmayan nedir?"
+            },
+            "options": [
+                "Weinen",
+                "Schlafstörungen",
+                "Freude und Ausgelassenheit",
+                "Appetitlosigkeit"
+            ],
+            "correctAnswer": "Freude und Ausgelassenheit",
+            "explanation": {
+                "en": "While grief can manifest in many ways, joy and exuberance are not typical signs of grief.",
+                "bn": "শোক অনেক উপায়ে প্রকাশ পেতে পারে, তবে আনন্দ এবং উল্লাস শোকের সাধারণ লক্ষণ নয়।",
+                "hi": "जबकि शोक कई तरीकों से प्रकट हो सकता है, आनंद और उल्लास शोक के विशिष्ट लक्षण नहीं हैं।",
+                "ur": "جبکہ غم کئی طریقوں سے ظاہر ہو سکتا ہے، خوشی اور جوش و خروش غم کی عام علامات نہیں ہیں۔",
+                "tr": "Yas birçok şekilde ortaya çıkabilirken, neşe ve coşku yasın tipik belirtileri değildir."
+            },
+            "points": 10,
+            "id": "e41_06"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was ist das Ziel der 'Einladung' im SPIKES-Protokoll?",
+                "en": "What is the goal of 'Invitation' in the SPIKES protocol?",
+                "bn": "SPIKES প্রোটোকলের 'Invitation' এর লক্ষ্য কী?",
+                "hi": "SPIKES प्रोटोकॉल में 'आमंत्रण' का लक्ष्य क्या है?",
+                "ur": "SPIKES پروٹوکول میں 'دعوت' کا مقصد کیا ہے؟",
+                "tr": "SPIKES protokolünde 'Davet'in amacı nedir?"
+            },
+            "options": [
+                "Die Erlaubnis des Patienten einholen, Informationen in einer bestimmten Weise zu geben",
+                "Den Patienten zu einer Party einladen",
+                "Den Patienten ignorieren",
+                "Eine Diagnose zu stellen"
+            ],
+            "correctAnswer": "Die Erlaubnis des Patienten einholen, Informationen in einer bestimmten Weise zu geben",
+            "explanation": {
+                "en": "The invitation stage involves asking the patient how they would like to receive information.",
+                "bn": "ইনভিটেশন পর্যায়ে রোগীকে জিজ্ঞাসা করা হয় যে তারা কীভাবে তথ্য পেতে চান।",
+                "hi": "आमंत्रण चरण में रोगी से यह पूछना शामिल है कि वे जानकारी कैसे प्राप्त करना चाहते हैं।",
+                "ur": "دعوت کے مرحلے میں مریض سے یہ پوچھنا شامل ہے کہ وہ معلومات کیسے حاصل کرنا چاہتے ہیں۔",
+                "tr": "Davet aşaması, hastaya bilgileri nasıl almak istediklerini sormayı içerir."
+            },
+            "points": 10,
+            "id": "e41_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welche Art von Unterstützung ist NICHT hilfreich für trauernde Patienten?",
+                "en": "What type of support is NOT helpful for grieving patients?",
+                "bn": "শোকাহত রোগীদের জন্য কোন ধরণের সমর্থন সহায়ক নয়?",
+                "hi": "शोक संतप्त रोगियों के लिए किस प्रकार का समर्थन सहायक नहीं है?",
+                "ur": "غمزدہ مریضوں کے لیے کس قسم کی مدد مددگار نہیں ہے؟",
+                "tr": "Yas tutan hastalar için ne tür bir destek yardımcı olmaz?"
+            },
+            "options": [
+                "Aktives Zuhören",
+                "Das Angebot praktischer Hilfe",
+                "Den Patienten zu beurteilen und zu kritisieren",
+                "Die Ermutigung, professionelle Hilfe in Anspruch zu nehmen"
+            ],
+            "correctAnswer": "Den Patienten zu beurteilen und zu kritisieren",
+            "explanation": {
+                "en": "Judging and criticizing a grieving patient is harmful and unhelpful.",
+                "bn": "শোকাহত রোগীকে বিচার করা এবং সমালোচনা করা ক্ষতিকর এবং সহায়ক নয়।",
+                "hi": "शोक संतप्त रोगी का न्याय करना और आलोचना करना हानिकारक और सहायक नहीं है।",
+                "ur": "غمزدہ مریض کا فیصلہ کرنا اور تنقید کرنا نقصان دہ اور غیر مددگار ہے۔",
+                "tr": "Yas tutan bir hastayı yargılamak ve eleştirmek zararlıdır ve yardımcı olmaz."
+            },
+            "points": 10,
+            "id": "e41_08"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Was bedeutet 'Trauerreaktion'?",
+                "en": "What does 'grief reaction' mean?",
+                "bn": "'শোক প্রতিক্রিয়া' মানে কী?",
+                "hi": "'शोक प्रतिक्रिया' का क्या अर्थ है?",
+                "ur": "'غم کا ردعمل' کا کیا مطلب ہے؟",
+                "tr": "'Yas tepkisi' ne anlama gelir?"
+            },
+            "options": [
+                "Eine allergische Reaktion",
+                "Die Reaktion auf einen Verlust, insbesondere den Tod einer Person",
+                "Eine Reaktion auf Medikamente",
+                "Eine Reaktion auf eine Operation"
+            ],
+            "correctAnswer": "Die Reaktion auf einen Verlust, insbesondere den Tod einer Person",
+            "explanation": {
+                "en": "A grief reaction is the emotional and physical response to a loss, especially the death of a loved one.",
+                "bn": "শোক প্রতিক্রিয়া হল ক্ষতির প্রতি মানসিক এবং শারীরিক প্রতিক্রিয়া, বিশেষ করে প্রিয়জনের মৃত্যু।",
+                "hi": "शोक प्रतिक्रिया किसी नुकसान, विशेष रूप से किसी प्रियजन की मृत्यु के प्रति भावनात्मक और शारीरिक प्रतिक्रिया है।",
+                "ur": "غم کا ردعمل کسی نقصان، خاص طور پر کسی عزیز کی موت کے لیے جذباتی اور جسمانی ردعمل ہے۔",
+                "tr": "Yas tepkisi, bir kayba, özellikle de bir yakınının ölümüne verilen duygusal ve fiziksel tepkidir."
+            },
+            "points": 10,
+            "id": "e41_09"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "de": "Welches Element ist im SPIKES-Protokoll direkt nach der Wissensvermittlung (Knowledge) zu beachten?",
+                "en": "Which element should be considered in the SPIKES protocol directly after providing knowledge?",
+                "bn": "SPIKES প্রোটোকলে জ্ঞান (Knowledge) দেওয়ার ঠিক পরে কোন উপাদানটি বিবেচনা করা উচিত?",
+                "hi": "SPIKES प्रोटोकॉल में ज्ञान (नॉलेज) प्रदान करने के ठीक बाद किस तत्व पर विचार किया जाना चाहिए?",
+                "ur": "SPIKES پروٹوکول میں علم (Knowledge) فراہم کرنے کے ٹھیک بعد کس عنصر پر غور کیا جانا چاہیے؟",
+                "tr": "SPIKES protokolünde bilgi (Knowledge) sağladıktan hemen sonra hangi unsur dikkate alınmalıdır?"
+            },
+            "options": [
+                "Strategie und Zusammenfassung",
+                "Empathie und Emotionen",
+                "Wahrnehmung",
+                "Umgebung"
+            ],
+            "correctAnswer": "Empathie und Emotionen",
+            "explanation": {
+                "en": "After providing information, it's crucial to address the patient's emotions and offer empathy.",
+                "bn": "তথ্য দেওয়ার পরে, রোগীর আবেগ এবং সহানুভূতি জানানো অত্যন্ত গুরুত্বপূর্ণ।",
+                "hi": "जानकारी प्रदान करने के बाद, रोगी की भावनाओं को संबोधित करना और सहानुभूति प्रदान करना महत्वपूर्ण है।",
+                "ur": "معلومات فراہم کرنے کے بعد، مریض کے جذبات سے خطاب کرنا اور ہمدردی فراہم کرنا ضروری ہے۔",
+                "tr": "Bilgi sağladıktan sonra, hastanın duygularını ele almak ve empati sunmak çok önemlidir."
+            },
+            "points": 10,
+            "id": "e41_10"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "______ ist die Fähigkeit, die Gefühle einer anderen Person zu verstehen.",
+                "en": "______ is the ability to understand the feelings of another person.",
+                "bn": "______ হল অন্য ব্যক্তির অনুভূতি বোঝার ক্ষমতা।",
+                "hi": "______ किसी अन्य व्यक्ति की भावनाओं को समझने की क्षमता है।",
+                "ur": "______ کسی دوسرے شخص کے جذبات کو سمجھنے کی صلاحیت ہے۔",
+                "tr": "______ başka birinin duygularını anlama yeteneğidir."
+            },
+            "correctAnswer": "Empathie",
+            "explanation": {
+                "en": "Empathy is the ability to understand and share the feelings of another.",
+                "bn": "Empathy হল অন্যের অনুভূতি বোঝা এবং ভাগ করে নেওয়ার ক্ষমতা।",
+                "hi": "एम्पैथी किसी अन्य व्यक्ति की भावनाओं को समझने और साझा करने की क्षमता है।",
+                "ur": "ایمپیتھی کسی دوسرے شخص کے جذبات کو سمجھنے اور بانٹنے کی صلاحیت ہے۔",
+                "tr": "Empati, başkasının duygularını anlama ve paylaşma yeteneğidir."
+            },
+            "points": 10,
+            "id": "e41_11"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Die Abkürzung SPIKES steht für Setting, Perception, Invitation, ______, Emotion, Strategy.",
+                "en": "The acronym SPIKES stands for Setting, Perception, Invitation, ______, Emotion, Strategy.",
+                "bn": "SPIKES এর পূর্ণরূপ হল Setting, Perception, Invitation, ______, Emotion, Strategy।",
+                "hi": "SPIKES का संक्षिप्त नाम है सेटिंग, परसेप्शन, इनविटेशन, ______, इमोशन, स्ट्रेटेजी।",
+                "ur": "SPIKES کا مخفف ہے سیٹنگ، پرسیپشن، انویٹیشن، ______, ایموشن، اسٹریٹیجی۔",
+                "tr": "SPIKES kısaltması; Setting, Perception, Invitation, ______, Emotion, Strategy anlamına gelir."
+            },
+            "correctAnswer": "Knowledge",
+            "explanation": {
+                "en": "SPIKES stands for Setting, Perception, Invitation, Knowledge, Emotion, and Strategy/Summary.",
+                "bn": "SPIKES এর পূর্ণরূপ হল Setting, Perception, Invitation, Knowledge, Emotion, এবং Strategy/Summary।",
+                "hi": "SPIKES का संक्षिप्त नाम है सेटिंग, परसेप्शन, इनविटेशन, नॉलेज, इमोशन, और स्ट्रेटेजी/समरी।",
+                "ur": "SPIKES کا مخفف ہے سیٹنگ، پرسیپشن، انویٹیشن، نالج، ایموشن، اور اسٹریٹیجی/سمری۔",
+                "tr": "SPIKES; Setting, Perception, Invitation, Knowledge, Emotion ve Strategy/Summary anlamına gelir."
+            },
+            "points": 10,
+            "id": "e41_12"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "______ Trauer ist eine verlängerte und intensive Reaktion auf einen Verlust.",
+                "en": "______ grief is a prolonged and intense reaction to a loss.",
+                "bn": "______ শোক হল ক্ষতির প্রতি একটি দীর্ঘস্থায়ী এবং তীব্র প্রতিক্রিয়া।",
+                "hi": "______ शोक किसी नुकसान के प्रति एक लम्बी और तीव्र प्रतिक्रिया है।",
+                "ur": "______ غم کسی نقصان کے لیے ایک طویل اور شدید ردعمل ہے۔",
+                "tr": "______ yas, bir kayba karşı uzun süreli ve yoğun bir tepkidir."
+            },
+            "correctAnswer": "Komplizierte",
+            "explanation": {
+                "en": "Complicated grief is a prolonged and intense reaction to a loss that significantly impacts daily life.",
+                "bn": "জটিল শোক হল ক্ষতির প্রতি একটি দীর্ঘস্থায়ী এবং তীব্র প্রতিক্রিয়া যা দৈনন্দিন জীবনকে উল্লেখযোগ্যভাবে প্রভাবিত করে।",
+                "hi": "जटिल शोक किसी नुकसान के प्रति एक लम्बी और तीव्र प्रतिक्रिया है जो दैनिक जीवन को महत्वपूर्ण रूप से प्रभावित करती है।",
+                "ur": "پیچیدہ غم کسی نقصان کے لیے ایک طویل اور شدید ردعمل ہے جو روزمرہ کی زندگی کو نمایاں طور پر متاثر کرتا ہے۔",
+                "tr": "Karmaşık yas, günlük yaşamı önemli ölçüde etkileyen bir kayba karşı uzun süreli ve yoğun bir tepkidir."
+            },
+            "points": 10,
+            "id": "e41_13"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Eine wichtige Form der ______ ist aktives Zuhören.",
+                "en": "An important form of ______ is active listening.",
+                "bn": "______ এর একটি গুরুত্বপূর্ণ রূপ হল সক্রিয়ভাবে শোনা।",
+                "hi": "______ का एक महत्वपूर्ण रूप सक्रिय रूप से सुनना है।",
+                "ur": "______ کی ایک اہم شکل فعال طور پر سننا ہے۔",
+                "tr": "______ önemli bir biçimi aktif dinlemedir."
+            },
+            "correctAnswer": "Unterstützung",
+            "explanation": {
+                "en": "Active listening is a vital form of support for someone who is grieving.",
+                "bn": "সক্রিয়ভাবে শোনা হল শোকাহত কারো জন্য সহায়তার একটি অত্যাবশ্যক রূপ।",
+                "hi": "सक्रिय रूप से सुनना किसी शोक संतप्त व्यक्ति के लिए समर्थन का एक महत्वपूर्ण रूप है।",
+                "ur": "فعال طور پر سننا کسی غمزدہ شخص کے لیے مدد کی ایک اہم شکل ہے۔",
+                "tr": "Aktif dinleme, yas tutan biri için hayati bir destek biçimidir."
+            },
+            "points": 10,
+            "id": "e41_14"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "de": "Vor der Mitteilung schlechter Nachrichten sollte die ______ des Patienten eingeschätzt werden.",
+                "en": "Before delivering bad news, the patient's ______ should be assessed.",
+                "bn": "খারাপ খবর দেওয়ার আগে রোগীর ______ মূল্যায়ন করা উচিত।",
+                "hi": "बुरी खबर देने से पहले रोगी की ______ का आकलन किया जाना चाहिए।",
+                "ur": "بری خبر دینے سے پہلے مریض کی ______ کا جائزہ لیا جانا چاہیے۔",
+                "tr": "Kötü haber vermeden önce hastanın ______ değerlendirilmelidir."
+            },
+            "correctAnswer": "Wahrnehmung",
+            "explanation": {
+                "en": "Assessing the patient's perception allows the doctor to tailor the explanation to the patient's current understanding.",
+                "bn": "রোগীর উপলব্ধি মূল্যায়ন করলে ডাক্তার রোগীর বর্তমান বোঝার সাথে সামঞ্জস্য রেখে ব্যাখ্যা করতে পারবেন।",
+                "hi": "रोगी की धारणा का आकलन करने से डॉक्टर रोगी की वर्तमान समझ के अनुसार स्पष्टीकरण दे पाएंगे।",
+                "ur": "مریض کے تاثر کا جائزہ لینے سے ڈاکٹر مریض کی موجودہ سمجھ کے مطابق وضاحت کر پائیں گے۔",
+                "tr": "Hastanın algısını değerlendirmek, doktorun açıklamayı hastanın mevcut anlayışına göre uyarlamasını sağlar."
+            },
+            "points": 10,
+            "id": "e41_15"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Ich verstehe, dass dies schwer zu hören ist.",
+                "en": "I understand that this is difficult to hear.",
+                "bn": "আমি বুঝতে পারছি যে এটা শোনা কঠিন।",
+                "hi": "मैं समझता हूँ कि यह सुनना मुश्किल है।",
+                "ur": "میں سمجھتا ہوں کہ یہ سننا مشکل ہے۔",
+                "tr": "Bunu duymanın zor olduğunu anlıyorum."
+            },
+            "correctAnswer": "I understand that this is difficult to hear.",
+            "explanation": {
+                "en": "This phrase expresses empathy for the patient's situation.",
+                "bn": "এই বাক্যাংশটি রোগীর পরিস্থিতির প্রতি সহানুভূতি প্রকাশ করে।",
+                "hi": "यह वाक्यांश रोगी की स्थिति के प्रति सहानुभूति व्यक्त करता है।",
+                "ur": "یہ فقرہ مریض کی حالت کے لیے ہمدردی کا اظہار کرتا ہے۔",
+                "tr": "Bu ifade, hastanın durumu için empatiyi ifade eder."
+            },
+            "points": 10,
+            "id": "e41_16"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Wie kann ich Sie jetzt unterstützen?",
+                "en": "How can I support you right now?",
+                "bn": "আমি এখন আপনাকে কীভাবে সমর্থন করতে পারি?",
+                "hi": "मैं अभी आपकी कैसे मदद कर सकता हूँ?",
+                "ur": "میں اس وقت آپ کی کیسے مدد کر سکتا ہوں؟",
+                "tr": "Şu anda size nasıl destek olabilirim?"
+            },
+            "correctAnswer": "How can I support you right now?",
+            "explanation": {
+                "en": "This question offers practical support to the patient.",
+                "bn": "এই প্রশ্নটি রোগীকে ব্যবহারিক সমর্থন প্রদান করে।",
+                "hi": "यह प्रश्न रोगी को व्यावहारिक समर्थन प्रदान करता है।",
+                "ur": "یہ سوال مریض کو عملی مدد فراہم کرتا ہے۔",
+                "tr": "Bu soru hastaya pratik destek sunar."
+            },
+            "points": 10,
+            "id": "e41_17"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "de": "Es tut mir sehr leid, Ihnen das mitteilen zu müssen.",
+                "en": "I am very sorry to have to tell you this.",
+                "bn": "আমাকে এটা জানাতে হচ্ছে তার জন্য আমি খুবই দুঃখিত।",
+                "hi": "मुझे आपको यह बताते हुए बहुत दुख हो रहा है।",
+                "ur": "مجھے آپ کو یہ بتاتے ہوئے بہت افسوس ہو رہا ہے۔",
+                "tr": "Bunu size söylemek zorunda olduğum için çok üzgünüm."
+            },
+            "correctAnswer": "I am very sorry to have to tell you this.",
+            "explanation": {
+                "en": "This phrase expresses regret and empathy when delivering bad news.",
+                "bn": "এই বাক্যাংশটি খারাপ খবর দেওয়ার সময় দুঃখ এবং সহানুভূতি প্রকাশ করে।",
+                "hi": "यह वाक्यांश बुरी खबर देते समय अफसोस और सहानुभूति व्यक्त करता है।",
+                "ur": "یہ فقرہ بری خبر دیتے وقت افسوس اور ہمدردی کا اظہار کرتا ہے۔",
+                "tr": "Bu ifade, kötü haber verirken pişmanlık ve empatiyi ifade eder."
+            },
+            "points": 10,
+            "id": "e41_18"
+        }
+    ],
+    "media": {
+        "introVideoUrl": "",
+        "vocabularyVideoUrl": "",
+        "dialogueVideoUrl": ""
+    }
+}
