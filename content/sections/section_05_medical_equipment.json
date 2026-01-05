@@ -32,30 +32,12 @@
             "de": "In diesem Abschnitt lernen Sie die Namen gängiger medizinischer Geräte auf Deutsch. Dieses Wissen ist entscheidend für eine effektive Kommunikation im deutschsprachigen medizinischen Umfeld."
         },
         "grammarFocus": {
-            "en": [
-                "Article usage with medical nouns (der, die, das).",
-                "Accusative and dative cases with prepositions in a medical context (e.g., 'mit dem Stethoskop')."
-            ],
-            "bn": [
-                "চিকিৎসা সংক্রান্ত বিশেষ্যগুলির সাথে আর্টিকেল ব্যবহার (der, die, das)।",
-                "চিকিৎসা প্রেক্ষাপটে উপসর্গ সহ accusative এবং dative কারক (যেমন, 'mit dem Stethoskop')।"
-            ],
-            "hi": [
-                "चिकित्सा संज्ञाओं के साथ लेख का उपयोग (der, die, das)।",
-                "चिकित्सा संदर्भ में पूर्वसर्गों के साथ कर्म कारक और संप्रदान कारक (जैसे, 'mit dem Stethoskop')।"
-            ],
-            "ur": [
-                "طبی اسموں کے ساتھ آرٹیکل کا استعمال (der, die, das)۔",
-                "طبی سیاق و سباق میں حرفِ جار کے ساتھ مفعولی اور اضافی حالتیں (مثال کے طور پر، 'mit dem Stethoskop')۔"
-            ],
-            "tr": [
-                "Tıbbi isimlerle kullanılan artikeller (der, die, das).",
-                "Tıbbi bağlamda edatlarla birlikte akuzatif ve datif halleri (örn., 'mit dem Stethoskop')."
-            ],
-            "de": [
-                "Artikelgebrauch bei medizinischen Nomen (der, die, das).",
-                "Akkusativ- und Dativfälle mit Präpositionen im medizinischen Kontext (z.B. 'mit dem Stethoskop')."
-            ]
+            "en": "**Article Usage and Cases with Medical Equipment**\n\nGerman medical equipment nouns must be learned with their specific articles. The case changes based on grammatical function.\n\n*Article Categories for Medical Equipment:*\n**Masculine (der):** der Monitor, der Katheter, der Verband\n**Feminine (die):** die Spritze, die Infusion, die Klemme\n**Neuter (das):** das Stethoskop, das Thermometer, das Skalpell\n\n*Dative Case with 'mit' (with):*\nThe preposition 'mit' ALWAYS requires dative case!\n- 'Ich höre mit dem Stethoskop.' (I listen with the stethoscope.) - das → dem\n- 'Der Arzt arbeitet mit der Spritze.' (The doctor works with the syringe.) - die → der\n- 'Wir messen mit dem Thermometer.' (We measure with the thermometer.) - das → dem\n\n**Dative Article Changes:**\n| Nominative | Dative | With 'mit' |\n|------------|--------|------------|\n| der Monitor | dem Monitor | mit dem Monitor |\n| die Klemme | der Klemme | mit der Klemme |\n| das Skalpell | dem Skalpell | mit dem Skalpell |\n\n*Accusative Case (Direct Object):*\n- 'Bringen Sie mir die Spritze.' (Bring me the syringe.)\n- 'Ich brauche den Katheter.' (I need the catheter.)\n- 'Reichen Sie mir das Stethoskop.' (Pass me the stethoscope.)\n\n*Practical Medical Phrases:*\n- 'Der Blutdruck wird mit dem Blutdruckmessgerät gemessen.' (Blood pressure is measured with the blood pressure monitor.)\n- 'Die Infusion wird mit einer Kanüle gelegt.' (The infusion is placed with a cannula.)",
+            "de": "**Artikelverwendung und Fälle bei medizinischen Geräten**\n\nDeutsche medizinische Geräte-Substantive müssen mit ihren spezifischen Artikeln gelernt werden. Der Fall ändert sich je nach grammatischer Funktion.\n\n*Artikelkategorien für medizinische Geräte:*\n**Maskulin (der):** der Monitor, der Katheter, der Verband\n**Feminin (die):** die Spritze, die Infusion, die Klemme\n**Neutral (das):** das Stethoskop, das Thermometer, das Skalpell\n\n*Dativ mit 'mit':*\nDie Präposition 'mit' erfordert IMMER den Dativ!\n- 'Ich höre mit dem Stethoskop.' - das → dem\n- 'Der Arzt arbeitet mit der Spritze.' - die → der\n- 'Wir messen mit dem Thermometer.' - das → dem\n\n**Dativ-Artikeländerungen:**\n| Nominativ | Dativ | Mit 'mit' |\n|-----------|-------|-----------|\n| der Monitor | dem Monitor | mit dem Monitor |\n| die Klemme | der Klemme | mit der Klemme |\n| das Skalpell | dem Skalpell | mit dem Skalpell |\n\n*Akkusativ (direktes Objekt):*\n- 'Bringen Sie mir die Spritze.'\n- 'Ich brauche den Katheter.'\n- 'Reichen Sie mir das Stethoskop.'\n\n*Praktische medizinische Phrasen:*\n- 'Der Blutdruck wird mit dem Blutdruckmessgerät gemessen.'\n- 'Die Infusion wird mit einer Kanüle gelegt.'",
+            "bn": "**Article Usage and Cases with Medical Equipment**\n\nGerman medical equipment nouns must be learned with their specific articles. The case changes based on grammatical function.\n\n*Article Categories for Medical Equipment:*\n**Masculine (der):** der Monitor, der Katheter, der Verband\n**Feminine (die):** die Spritze, die Infusion, die Klemme\n**Neuter (das):** das Stethoskop, das Thermometer, das Skalpell\n\n*Dative Case with 'mit' (with):*\nThe preposition 'mit' ALWAYS requires dative case!\n- 'Ich höre mit dem Stethoskop.' (I listen with the stethoscope.) - das → dem\n- 'Der Arzt arbeitet mit der Spritze.' (The doctor works with the syringe.) - die → der\n- 'Wir messen mit dem Thermometer.' (We measure with the thermometer.) - das → dem\n\n**Dative Article Changes:**\n| Nominative | Dative | With 'mit' |\n|------------|--------|------------|\n| der Monitor | dem Monitor | mit dem Monitor |\n| die Klemme | der Klemme | mit der Klemme |\n| das Skalpell | dem Skalpell | mit dem Skalpell |\n\n*Accusative Case (Direct Object):*\n- 'Bringen Sie mir die Spritze.' (Bring me the syringe.)\n- 'Ich brauche den Katheter.' (I need the catheter.)\n- 'Reichen Sie mir das Stethoskop.' (Pass me the stethoscope.)\n\n*Practical Medical Phrases:*\n- 'Der Blutdruck wird mit dem Blutdruckmessgerät gemessen.' (Blood pressure is measured with the blood pressure monitor.)\n- 'Die Infusion wird mit einer Kanüle gelegt.' (The infusion is placed with a cannula.)",
+            "hi": "**Article Usage and Cases with Medical Equipment**\n\nGerman medical equipment nouns must be learned with their specific articles. The case changes based on grammatical function.\n\n*Article Categories for Medical Equipment:*\n**Masculine (der):** der Monitor, der Katheter, der Verband\n**Feminine (die):** die Spritze, die Infusion, die Klemme\n**Neuter (das):** das Stethoskop, das Thermometer, das Skalpell\n\n*Dative Case with 'mit' (with):*\nThe preposition 'mit' ALWAYS requires dative case!\n- 'Ich höre mit dem Stethoskop.' (I listen with the stethoscope.) - das → dem\n- 'Der Arzt arbeitet mit der Spritze.' (The doctor works with the syringe.) - die → der\n- 'Wir messen mit dem Thermometer.' (We measure with the thermometer.) - das → dem\n\n**Dative Article Changes:**\n| Nominative | Dative | With 'mit' |\n|------------|--------|------------|\n| der Monitor | dem Monitor | mit dem Monitor |\n| die Klemme | der Klemme | mit der Klemme |\n| das Skalpell | dem Skalpell | mit dem Skalpell |\n\n*Accusative Case (Direct Object):*\n- 'Bringen Sie mir die Spritze.' (Bring me the syringe.)\n- 'Ich brauche den Katheter.' (I need the catheter.)\n- 'Reichen Sie mir das Stethoskop.' (Pass me the stethoscope.)\n\n*Practical Medical Phrases:*\n- 'Der Blutdruck wird mit dem Blutdruckmessgerät gemessen.' (Blood pressure is measured with the blood pressure monitor.)\n- 'Die Infusion wird mit einer Kanüle gelegt.' (The infusion is placed with a cannula.)",
+            "ur": "**Article Usage and Cases with Medical Equipment**\n\nGerman medical equipment nouns must be learned with their specific articles. The case changes based on grammatical function.\n\n*Article Categories for Medical Equipment:*\n**Masculine (der):** der Monitor, der Katheter, der Verband\n**Feminine (die):** die Spritze, die Infusion, die Klemme\n**Neuter (das):** das Stethoskop, das Thermometer, das Skalpell\n\n*Dative Case with 'mit' (with):*\nThe preposition 'mit' ALWAYS requires dative case!\n- 'Ich höre mit dem Stethoskop.' (I listen with the stethoscope.) - das → dem\n- 'Der Arzt arbeitet mit der Spritze.' (The doctor works with the syringe.) - die → der\n- 'Wir messen mit dem Thermometer.' (We measure with the thermometer.) - das → dem\n\n**Dative Article Changes:**\n| Nominative | Dative | With 'mit' |\n|------------|--------|------------|\n| der Monitor | dem Monitor | mit dem Monitor |\n| die Klemme | der Klemme | mit der Klemme |\n| das Skalpell | dem Skalpell | mit dem Skalpell |\n\n*Accusative Case (Direct Object):*\n- 'Bringen Sie mir die Spritze.' (Bring me the syringe.)\n- 'Ich brauche den Katheter.' (I need the catheter.)\n- 'Reichen Sie mir das Stethoskop.' (Pass me the stethoscope.)\n\n*Practical Medical Phrases:*\n- 'Der Blutdruck wird mit dem Blutdruckmessgerät gemessen.' (Blood pressure is measured with the blood pressure monitor.)\n- 'Die Infusion wird mit einer Kanüle gelegt.' (The infusion is placed with a cannula.)",
+            "tr": "**Article Usage and Cases with Medical Equipment**\n\nGerman medical equipment nouns must be learned with their specific articles. The case changes based on grammatical function.\n\n*Article Categories for Medical Equipment:*\n**Masculine (der):** der Monitor, der Katheter, der Verband\n**Feminine (die):** die Spritze, die Infusion, die Klemme\n**Neuter (das):** das Stethoskop, das Thermometer, das Skalpell\n\n*Dative Case with 'mit' (with):*\nThe preposition 'mit' ALWAYS requires dative case!\n- 'Ich höre mit dem Stethoskop.' (I listen with the stethoscope.) - das → dem\n- 'Der Arzt arbeitet mit der Spritze.' (The doctor works with the syringe.) - die → der\n- 'Wir messen mit dem Thermometer.' (We measure with the thermometer.) - das → dem\n\n**Dative Article Changes:**\n| Nominative | Dative | With 'mit' |\n|------------|--------|------------|\n| der Monitor | dem Monitor | mit dem Monitor |\n| die Klemme | der Klemme | mit der Klemme |\n| das Skalpell | dem Skalpell | mit dem Skalpell |\n\n*Accusative Case (Direct Object):*\n- 'Bringen Sie mir die Spritze.' (Bring me the syringe.)\n- 'Ich brauche den Katheter.' (I need the catheter.)\n- 'Reichen Sie mir das Stethoskop.' (Pass me the stethoscope.)\n\n*Practical Medical Phrases:*\n- 'Der Blutdruck wird mit dem Blutdruckmessgerät gemessen.' (Blood pressure is measured with the blood pressure monitor.)\n- 'Die Infusion wird mit einer Kanüle gelegt.' (The infusion is placed with a cannula.)"
         },
         "culturalNotes": {
             "en": "German hospitals are known for their high standards of hygiene and advanced medical technology.",
@@ -73,12 +55,38 @@
             "tr": "Bu bölümde, sağlık hizmeti ortamlarında kullanılan yaygın tıbbi ekipmanlarla ilgili temel Almanca kelime dağarcığı ele alınmıştır.",
             "de": "Dieser Abschnitt behandelte grundlegende deutsche Vokabeln im Zusammenhang mit gängigen medizinischen Geräten, die im Gesundheitswesen verwendet werden."
         },
-        "learningObjectives": [
-            "Identify common medical equipment by their German names.",
-            "Use the correct articles (der, die, das) with medical nouns.",
-            "Understand basic phrases involving medical equipment in a clinical setting.",
-            "Recognize cultural differences in the use of medical equipment."
-        ]
+        "learningObjectives": {
+            "en": [
+                "Identify common medical equipment by their German names.",
+                "Use the correct articles (der, die, das) with medical nouns.",
+                "Understand basic phrases involving medical equipment in a clinical setting.",
+                "Recognize cultural differences in the use of medical equipment."
+            ],
+            "bn": [
+                "Identify common medical equipment by their German names.",
+                "ব্যবহার করুন the correct articles (der, die, das) with medical nouns.",
+                "বুঝুন basic phrases involving medical equipment in a clinical setting.",
+                "Recognize cultural differences in the ব্যবহার করুন of medical equipment."
+            ],
+            "hi": [
+                "Identify common medical equipment by their German names.",
+                "उपयोग करें the correct articles (der, die, das) with medical nouns.",
+                "समझें basic phrases involving medical equipment in a clinical setting.",
+                "Recognize cultural differences in the उपयोग करें of medical equipment."
+            ],
+            "ur": [
+                "Identify common medical equipment by their German names.",
+                "استعمال کریں the correct articles (der, die, das) with medical nouns.",
+                "سمجھیں basic phrases involving medical equipment in a clinical setting.",
+                "Recognize cultural differences in the استعمال کریں of medical equipment."
+            ],
+            "tr": [
+                "Identify common medical equipment by their German names.",
+                "Kullanın the correct articles (der, die, das) with medical nouns.",
+                "Anlayın basic phrases involving medical equipment in a clinical setting.",
+                "Recognize cultural differences in the Kullanın of medical equipment."
+            ]
+        }
     },
     "vocabulary": [
         {
@@ -102,7 +110,8 @@
                 "ur": "ڈاکٹر نے سٹیٹوسکوپ سے مریض کے پھیپھڑوں کی جانچ کی۔",
                 "tr": "Doktor hastanın akciğerlerini stetoskopla dinledi."
             },
-            "id": "v05_01"
+            "id": "v05_01",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_01.mp3"
         },
         {
             "germanTerm": "Thermometer",
@@ -125,7 +134,8 @@
                 "ur": "براہ کرم تھرما میٹر سے بچے کا درجہ حرارت ماپیں۔",
                 "tr": "Lütfen çocuğun ateşini termometre ile ölçün."
             },
-            "id": "v05_02"
+            "id": "v05_02",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_02.mp3"
         },
         {
             "germanTerm": "Blutdruckmessgerät",
@@ -148,7 +158,8 @@
                 "ur": "ہم بلڈ پریشر مانیٹر سے آپ کا بلڈ پریشر چیک کریں گے۔",
                 "tr": "Tansiyonunuzu tansiyon ölçme aletiyle kontrol edeceğiz."
             },
-            "id": "v05_03"
+            "id": "v05_03",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_03.mp3"
         },
         {
             "germanTerm": "Spritze",
@@ -171,7 +182,8 @@
                 "ur": "نرس ویکسینیشن کے لیے سرنج تیار کر رہی ہے۔",
                 "tr": "Hemşire aşı için şırıngayı hazırlıyor."
             },
-            "id": "v05_04"
+            "id": "v05_04",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_04.mp3"
         },
         {
             "germanTerm": "Infusion",
@@ -194,7 +206,8 @@
                 "ur": "مریض کو الیکٹرولائٹس کا انفیوژن مل رہا ہے۔",
                 "tr": "Hastaya elektrolit infüzyonu yapılıyor."
             },
-            "id": "v05_05"
+            "id": "v05_05",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_05.mp3"
         },
         {
             "germanTerm": "Katheter",
@@ -217,7 +230,8 @@
                 "ur": "ڈاکٹر پیشاب کی نالی میں کیتھیٹر ڈالتے ہیں۔",
                 "tr": "Doktor idrar kateteri takıyor."
             },
-            "id": "v05_06"
+            "id": "v05_06",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_06.mp3"
         },
         {
             "germanTerm": "Skalpell",
@@ -240,7 +254,8 @@
                 "ur": "سرجن نے سرجیکل چھری سے چیرا لگایا۔",
                 "tr": "Cerrah neşter ile kesi yaptı."
             },
-            "id": "v05_07"
+            "id": "v05_07",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_07.mp3"
         },
         {
             "germanTerm": "Klemme",
@@ -263,7 +278,8 @@
                 "ur": "ڈاکٹر نے ایک کلیمپ سے خون کی رگ کو ٹھیک کیا۔",
                 "tr": "Doktor kan damarını bir kıskaç ile sabitledi."
             },
-            "id": "v05_08"
+            "id": "v05_08",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_08.mp3"
         },
         {
             "germanTerm": "Mundschutz",
@@ -286,7 +302,8 @@
                 "ur": "طبی عملہ خود کو بچانے کے لیے چہرے کا ماسک پہنتا ہے۔",
                 "tr": "Sağlık personeli kendilerini korumak için yüz maskesi takar."
             },
-            "id": "v05_09"
+            "id": "v05_09",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_09.mp3"
         },
         {
             "germanTerm": "Handschuhe",
@@ -309,7 +326,8 @@
                 "ur": "امتحان سے پہلے ڈاکٹر جراثیم سے پاک دستانے پہنتے ہیں۔",
                 "tr": "Doktor muayeneden önce steril eldivenler giyer."
             },
-            "id": "v05_10"
+            "id": "v05_10",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_10.mp3"
         },
         {
             "germanTerm": "Sauerstoffmaske",
@@ -332,7 +350,8 @@
                 "ur": "مریض آکسیجن ماسک سے سانس لے رہا ہے۔",
                 "tr": "Hasta oksijen maskesiyle nefes alıyor."
             },
-            "id": "v05_11"
+            "id": "v05_11",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_11.mp3"
         },
         {
             "germanTerm": "Beatmungsgerät",
@@ -355,7 +374,8 @@
                 "ur": "مریض کو وینٹیلیٹر سے سانس دلوائی جا رہی ہے۔",
                 "tr": "Hasta ventilatör ile solutuluyor."
             },
-            "id": "v05_12"
+            "id": "v05_12",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_12.mp3"
         },
         {
             "germanTerm": "Defibrillator",
@@ -378,7 +398,8 @@
                 "ur": "دل کو دوبارہ شروع کرنے کے لیے ڈیفبریلیٹر کا استعمال کیا گیا تھا۔",
                 "tr": "Kalbi yeniden başlatmak için defibrilatör kullanıldı."
             },
-            "id": "v05_13"
+            "id": "v05_13",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_13.mp3"
         },
         {
             "germanTerm": "EKG-Gerät",
@@ -401,7 +422,8 @@
                 "ur": "ای سی جی مشین دل کی سرگرمی ریکارڈ کرتی ہے۔",
                 "tr": "EKG cihazı kalp aktivitesini kaydeder."
             },
-            "id": "v05_14"
+            "id": "v05_14",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_14.mp3"
         },
         {
             "germanTerm": "Ultraschallgerät",
@@ -424,7 +446,8 @@
                 "ur": "الٹراساؤنڈ مشین سے پیٹ میں بچے کو دیکھا جا سکتا ہے۔",
                 "tr": "Ultrason cihazı ile anne karnındaki bebek görülebilir."
             },
-            "id": "v05_15"
+            "id": "v05_15",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_15.mp3"
         },
         {
             "germanTerm": "Röntgengerät",
@@ -447,7 +470,8 @@
                 "ur": "ڈاکٹر نے پھیپھڑوں کا ایکسرے کرنے کا حکم دیا۔",
                 "tr": "Doktor akciğerlerin röntgenini istedi."
             },
-            "id": "v05_16"
+            "id": "v05_16",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_16.mp3"
         },
         {
             "germanTerm": "MRT-Gerät",
@@ -470,7 +494,8 @@
                 "ur": "ایم آر آئی مشین جسم کے اندر کی تفصیلی تصاویر لیتی ہے۔",
                 "tr": "MR cihazı vücudun iç kısmının detaylı görüntülerini alır."
             },
-            "id": "v05_17"
+            "id": "v05_17",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_17.mp3"
         },
         {
             "germanTerm": "EKG-Elektroden",
@@ -493,7 +518,8 @@
                 "ur": "ای سی جی الیکٹروڈ مریض کی چھاتی پر لگائے جاتے ہیں۔",
                 "tr": "EKG elektrotları hastanın göğsüne takılır."
             },
-            "id": "v05_18"
+            "id": "v05_18",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_18.mp3"
         },
         {
             "germanTerm": "Infusionsständer",
@@ -516,7 +542,8 @@
                 "ur": "انفیوژن آئی وی اسٹینڈ پر لٹکا ہوا ہے۔",
                 "tr": "İnfüzyon İV sehpasına asılıdır."
             },
-            "id": "v05_19"
+            "id": "v05_19",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_19.mp3"
         },
         {
             "germanTerm": "Absauggerät",
@@ -539,7 +566,8 @@
                 "ur": "سکشن ڈیوائس ایئرویز سے بلغم کو ہٹاتا ہے۔",
                 "tr": "Vakum cihazı hava yollarından mukusu temizler."
             },
-            "id": "v05_20"
+            "id": "v05_20",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_20.mp3"
         },
         {
             "germanTerm": "Rollstuhl",
@@ -562,7 +590,8 @@
                 "ur": "مریض کو وہیل چیئر میں لے جایا جا رہا ہے۔",
                 "tr": "Hasta tekerlekli sandalyede taşınıyor."
             },
-            "id": "v05_21"
+            "id": "v05_21",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_21.mp3"
         },
         {
             "germanTerm": "Blutdruckmanschette",
@@ -585,7 +614,8 @@
                 "ur": "بلڈ پریشر کف بازو کے گرد رکھا جاتا ہے۔",
                 "tr": "Tansiyon manşonu kolun etrafına yerleştirilir."
             },
-            "id": "v05_22"
+            "id": "v05_22",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_22.mp3"
         },
         {
             "germanTerm": "Sauerstoffflasche",
@@ -608,7 +638,8 @@
                 "ur": "آکسیجن سلنڈر آکسیجن سے بھرا ہوا ہے۔",
                 "tr": "Oksijen tüpü oksijenle doludur."
             },
-            "id": "v05_23"
+            "id": "v05_23",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_23.mp3"
         },
         {
             "germanTerm": "Gipsverband",
@@ -631,7 +662,8 @@
                 "ur": "ٹوٹے ہوئے بازو کو پلاسٹر کاسٹ سے ٹھیک کیا گیا ہے۔",
                 "tr": "Kırık kol alçı ile sabitlendi."
             },
-            "id": "v05_24"
+            "id": "v05_24",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_24.mp3"
         },
         {
             "germanTerm": "Verbandsmaterial",
@@ -654,7 +686,8 @@
                 "ur": "ہمیں زخم کی دیکھ بھال کے لیے مزید پٹی باندھنے کے مواد کی ضرورت ہے۔",
                 "tr": "Yara bakımı için daha fazla sargı malzemesine ihtiyacımız var."
             },
-            "id": "v05_25"
+            "id": "v05_25",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_25.mp3"
         },
         {
             "germanTerm": "Infusionspumpe",
@@ -677,7 +710,8 @@
                 "ur": "انفیوژن پمپ انفیوژن کی شرح کو کنٹرول کرتا ہے۔",
                 "tr": "İnfüzyon pompası, infüzyon hızını düzenler."
             },
-            "id": "v05_26"
+            "id": "v05_26",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_26.mp3"
         },
         {
             "germanTerm": "Becken",
@@ -700,7 +734,8 @@
                 "ur": "براہ کرم بیسن کو مریض کے نیچے رکھیں۔",
                 "tr": "Lütfen leğeni hastanın altına koyun."
             },
-            "id": "v05_27"
+            "id": "v05_27",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_27.mp3"
         },
         {
             "germanTerm": "Bett",
@@ -723,7 +758,8 @@
                 "ur": "مریض بستر پر لیٹا ہے۔",
                 "tr": "Hasta yatakta yatıyor."
             },
-            "id": "v05_28"
+            "id": "v05_28",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_28.mp3"
         },
         {
             "germanTerm": "Pinzette",
@@ -746,7 +782,8 @@
                 "ur": "چِمٹی سے بیرونی اشیاء کو ہٹایا جاتا ہے۔",
                 "tr": "Cımbız ile yabancı cisimler çıkarılır."
             },
-            "id": "v05_29"
+            "id": "v05_29",
+            "audioUrl": "assets/audio/sections/section_05/vocabulary/v05_29.mp3"
         }
     ],
     "dialogues": [
@@ -776,7 +813,8 @@
                         "hi": "शुभ प्रभात, श्री मुलर। मैं संक्षेप में रक्तचाप मापने की मशीन से आपका रक्तचाप और थर्मामीटर से आपका तापमान मापूँगी।",
                         "ur": "صبح بخیر مسٹر مولر۔ میں مختصراً بلڈ پریشر مانیٹر سے آپ کا بلڈ پریشر اور تھرمامیٹر سے آپ کا درجہ حرارت ماپوں گی۔",
                         "tr": "Günaydın, Bay Müller. Kısaca tansiyonunuzu tansiyon aletiyle ve sıcaklığınızı termometre ile ölçeceğim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_01_line1.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -788,7 +826,8 @@
                         "hi": "शुभ प्रभात, सिस्टर वेबर। कोई समस्या नहीं।",
                         "ur": "صبح بخیر سسٹر ویبر۔ کوئی مسئلہ نہیں.",
                         "tr": "Günaydın, Hemşire Weber. Sorun değil."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_01_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -800,7 +839,8 @@
                         "hi": "आपका रक्तचाप थोड़ा बढ़ा हुआ है। मैं स्टेथोस्कोप से आपके फेफड़ों को भी संक्षेप में सुनूँगी।",
                         "ur": "آپ کا بلڈ پریشر قدرے بڑھا ہوا ہے۔ میں سٹیٹوسکوپ سے آپ کے پھیپھڑوں کو بھی مختصراً سنوں گی۔",
                         "tr": "Tansiyonunuz biraz yüksek. Ayrıca steteskopla akciğerlerinizi kısaca dinleyeceğim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_01_line3.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -812,7 +852,8 @@
                         "hi": "सब ठीक तो है?",
                         "ur": "سب ٹھیک ہے؟",
                         "tr": "Her şey yolunda mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_01_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -824,7 +865,8 @@
                         "hi": "मैं इस बारे में डॉक्टर को बताऊंगी। फिर वह आपकी जांच करेंगे।",
                         "ur": "میں اس بارے میں ڈاکٹر کو آگاہ کروں گی۔ پھر وہ آپ کا معائنہ کریں گے۔",
                         "tr": "Doktora bildireceğim. Sonra sizi muayene edecek."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_01_line5.mp3"
                 }
             ],
             "id": "d05_01"
@@ -855,7 +897,8 @@
                         "hi": "शुभ दोपहर, श्रीमती श्मिट। मुझे अब सिरिंज से आपको दर्द निवारक दवा देनी होगी।",
                         "ur": "شب بخیر محترمہ شمٹ۔ اب مجھے سرنج کے ذریعے آپ کو درد کم کرنے والی دوا دینی ہے۔",
                         "tr": "Tünaydın, Bayan Schmidt. Şimdi size şırınga ile ağrı kesiciyi uygulamam gerekiyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_02_line1.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -867,7 +910,8 @@
                         "hi": "ठीक है, क्या यह बहुत दर्दनाक है?",
                         "ur": "ٹھیک ہے، کیا یہ بہت تکلیف دہ ہے؟",
                         "tr": "Tamam, çok acı verici mi?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_02_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Anna",
@@ -879,7 +923,8 @@
                         "hi": "यह सिर्फ एक त्वरित चुटकी है। मैं संक्षेप में क्षेत्र को कीटाणुरहित करूँगा और फिर हम शुरू करेंगे।",
                         "ur": "یہ صرف ایک فوری چٹکی ہے۔ میں مختصراً علاقے کو جراثیم سے پاک کروں گا اور پھر ہم شروع کریں گے۔",
                         "tr": "Sadece kısa bir batma. Bölgeyi kısaca dezenfekte edeceğim ve sonra başlayacağız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_02_line3.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -891,7 +936,8 @@
                         "hi": "अच्छा, धन्यवाद।",
                         "ur": "اچها، شکریہ۔",
                         "tr": "İyi, teşekkürler."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_02_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Anna",
@@ -903,7 +949,8 @@
                         "hi": "तो, खत्म। क्या आपको कुछ और चाहिए?",
                         "ur": "تو، ختم ہوا۔ کیا آپ کو کچھ اور چاہیے؟",
                         "tr": "İşte, bitti. Başka bir şeye ihtiyacın var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_02_line5.mp3"
                 }
             ],
             "id": "d05_02"
@@ -934,7 +981,8 @@
                         "hi": "नर्स, कृपया खारा घोल से एक इन्फ्यूजन तैयार करें। हमें यह श्री वेबर के लिए चाहिए।",
                         "ur": "نرس، براہ کرم نمکین محلول سے انفیوژن تیار کریں۔ ہمیں یہ مسٹر ویبر کے لیے چاہیے۔",
                         "tr": "Hemşire, lütfen tuzlu su çözeltisi ile bir infüzyon hazırlayın. Bay Weber için ona ihtiyacımız var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_03_line1.mp3"
                 },
                 {
                     "speaker": "Schwester Maria",
@@ -946,7 +994,8 @@
                         "hi": "तुरंत, डॉक्टर। क्या हमें दवा जोड़ने के लिए एक सिरिंज की भी आवश्यकता है?",
                         "ur": "فوری طور پر، ڈاکٹر۔ کیا ہمیں دوا شامل کرنے کے لیے ایک سرنج کی بھی ضرورت ہے؟",
                         "tr": "Hemen, Doktor. İlaç eklemek için bir şırıngaya da ihtiyacımız var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_03_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -958,7 +1007,8 @@
                         "hi": "हाँ, कृपया एक सिरिंज में 2 मिलीलीटर एंटीबायोटिक लें और इसे इन्फ्यूजन में जोड़ें। सही खुराक पर ध्यान दें!",
                         "ur": "ہاں، براہ کرم ایک سرنج میں 2 ملی لیٹر اینٹی بایوٹک لیں اور اسے انفیوژن میں شامل کریں۔ صحیح خوراک پر توجہ دیں!",
                         "tr": "Evet, lütfen bir şırıngaya 2 ml antibiyotik çekin ve infüzyona ekleyin. Doğru doza dikkat edin!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_03_line3.mp3"
                 },
                 {
                     "speaker": "Schwester Maria",
@@ -970,7 +1020,8 @@
                         "hi": "समझ गया। मैं इन्फ्यूजन तैयार करूँगा और खुराक की जाँच करूँगा।",
                         "ur": "سمجھ گیا۔ میں انفیوژن تیار کروں گا اور خوراک کی جانچ کروں گا۔",
                         "tr": "Anlaşıldı. İnfüzyonu hazırlayacağım ve dozu kontrol edeceğim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_03_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -982,7 +1033,8 @@
                         "hi": "बहुत अच्छा। तो हम इसे तुरंत संलग्न कर सकते हैं।",
                         "ur": "بہت خوب۔ تو ہم اسے فوراً جوڑ سکتے ہیں۔",
                         "tr": "Çok iyi. O zaman hemen takabiliriz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_03_line5.mp3"
                 }
             ],
             "id": "d05_03"
@@ -1013,7 +1065,8 @@
                         "hi": "शुभ दोपहर, श्री क्लेन। हमें आपके मूत्राशय को खाली करने के लिए एक कैथेटर डालना होगा।",
                         "ur": "شب بخیر مسٹر کلائن۔ ہمیں آپ کے مثانے کو خالی کرنے کے لیے ایک کیتھیٹر داخل کرنا ہوگا۔",
                         "tr": "Tünaydın, Bay Klein. Mesanenizi boşaltmak için bir kateter takmamız gerekiyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_04_line1.mp3"
                 },
                 {
                     "speaker": "Patient Klein",
@@ -1025,7 +1078,8 @@
                         "hi": "एक कैथेटर? क्या यह दर्दनाक है?",
                         "ur": "ایک کیتھیٹر؟ کیا یہ تکلیف دہ ہے؟",
                         "tr": "Bir kateter mi? Bu acı verici mi?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_04_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -1037,7 +1091,8 @@
                         "hi": "यह थोड़ा असहज हो सकता है, लेकिन हम इसे यथासंभव आरामदायक बनाने के लिए चिकनाई वाला जेल इस्तेमाल करते हैं। नर्स, कृपया कैथेटर तैयार करें।",
                         "ur": "یہ تھوڑا سا تکلیف دہ ہو سکتا ہے، لیکن ہم اسے زیادہ سے زیادہ آرام دہ بنانے کے لیے چکنائی والا جیل استعمال کرتے ہیں۔ نرس، براہ کرم کیتھیٹر تیار کریں۔",
                         "tr": "Biraz rahatsız edici olabilir, ancak mümkün olduğunca rahat hale getirmek için kayganlaştırıcı jel kullanıyoruz. Hemşire, lütfen kateteri hazırlayın."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_04_line3.mp3"
                 },
                 {
                     "speaker": "Schwester Lisa",
@@ -1049,7 +1104,8 @@
                         "hi": "हाँ, डॉक्टर। मैंने कैथेटर और चिकनाई वाला जेल तैयार कर लिया है।",
                         "ur": "ہاں، ڈاکٹر۔ میں نے کیتھیٹر اور چکنائی والا جیل تیار کر لیا ہے۔",
                         "tr": "Evet, Doktor. Kateteri ve kayganlaştırıcı jeli hazırladım."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_04_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -1061,7 +1117,8 @@
                         "hi": "अच्छा, तो हम शुरू कर सकते हैं। श्री क्लेन, आराम करने की कोशिश करें।",
                         "ur": "اچھا، تو ہم شروع کر سکتے ہیں۔ مسٹر کلائن، آرام کرنے کی کوشش کریں۔",
                         "tr": "İyi, o zaman başlayabiliriz. Bay Klein, rahatlamaya çalışın."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_04_line5.mp3"
                 }
             ],
             "id": "d05_04"
@@ -1092,7 +1149,8 @@
                         "hi": "नर्स कैरिन, क्या स्केलपेल, क्लैंप और स्वाब तैयार हैं?",
                         "ur": "نرس کیرن، کیا سکپل، کلیمپ اور جھاڑو تیار ہیں؟",
                         "tr": "Hemşire Karin, neşter, kıskaçlar ve pamuklu çubuklar hazır mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_05_line1.mp3"
                 },
                 {
                     "speaker": "Schwester Karin",
@@ -1104,7 +1162,8 @@
                         "hi": "हाँ, डॉक्टर। सभी उपकरण बाँझ रूप से पैक किए गए हैं और तैयार हैं।",
                         "ur": "ہاں، ڈاکٹر۔ تمام اوزار جراثیم سے پاک پیک کیے گئے ہیں اور تیار ہیں۔",
                         "tr": "Evet, Doktor. Tüm aletler steril bir şekilde paketlenmiş ve hazır."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_05_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Hartmann",
@@ -1116,7 +1175,8 @@
                         "hi": "बहुत अच्छा। कृपया क्लैंप की कार्यक्षमता को फिर से जांचें।",
                         "ur": "بہت خوب۔ براہ کرم کلیمپ کی فعالیت کو دوبارہ چیک کریں۔",
                         "tr": "Çok iyi. Lütfen kelepçelerin işlevselliğini tekrar kontrol edin."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_05_line3.mp3"
                 },
                 {
                     "speaker": "Schwester Karin",
@@ -1128,7 +1188,8 @@
                         "hi": "हो गया, डॉक्टर। वे पूरी तरह से काम करते हैं।",
                         "ur": "ہو گیا، ڈاکٹر۔ وہ بالکل ٹھیک کام کرتے ہیں۔",
                         "tr": "Tamamlandı, Doktor. Mükemmel çalışıyorlar."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_05_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Hartmann",
@@ -1140,7 +1201,8 @@
                         "hi": "उत्कृष्ट। तो हम शुरू कर सकते हैं।",
                         "ur": "بہترین۔ تو ہم شروع کر سکتے ہیں۔",
                         "tr": "Mükemmel. O zaman başlayabiliriz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_05/dialogues/d05_05_line5.mp3"
                 }
             ],
             "id": "d05_05"

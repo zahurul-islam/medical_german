@@ -32,30 +32,12 @@
             "de": "In diesem Abschnitt werden wir die wesentlichen Elemente der Erhebung der medizinischen Anamnese eines Patienten untersuchen, wobei wir uns insbesondere auf die Hauptbeschwerde konzentrieren werden. Sie werden lernen, wie Sie effektiv Fragen stellen, um Informationen über die aktuellen Symptome des Patienten, deren Beginn, Verlauf und die Eigenschaften seiner Schmerzen zu sammeln."
         },
         "grammarFocus": {
-            "en": {
-                "point1": "Practice forming questions using 'W-Fragen' (Wo, Wann, Wie, Was, Warum) to elicit detailed information.",
-                "point2": "Focus on using the correct German cases (Nominativ, Akkusativ, Dativ) when describing symptoms and body parts."
-            },
-            "bn": {
-                "point1": "বিস্তারিত তথ্য বের করার জন্য 'W-Fragen' (Wo, Wann, Wie, Was, Warum) ব্যবহার করে প্রশ্ন তৈরি করার অনুশীলন করুন।",
-                "point2": "লক্ষণ এবং শরীরের অংশগুলি বর্ণনা করার সময় সঠিক জার্মান কেস (Nominativ, Akkusativ, Dativ) ব্যবহারের উপর মনোযোগ দিন।"
-            },
-            "hi": {
-                "point1": "विस्तृत जानकारी प्राप्त करने के लिए 'W-Fragen' (Wo, Wann, Wie, Was, Warum) का उपयोग करके प्रश्न बनाने का अभ्यास करें।",
-                "point2": "लक्षणों और शरीर के अंगों का वर्णन करते समय सही जर्मन केस (Nominativ, Akkusativ, Dativ) का उपयोग करने पर ध्यान दें।"
-            },
-            "ur": {
-                "point1": "تفصیلی معلومات حاصل کرنے کے لیے 'W-Fragen' (Wo, Wann, Wie, Was, Warum) استعمال کرتے ہوئے سوالات بنانے کی مشق کریں۔",
-                "point2": "علامات اور جسم کے حصوں کو بیان کرتے وقت صحیح جرمن کیس (Nominativ, Akkusativ, Dativ) استعمال کرنے پر توجہ دیں۔"
-            },
-            "tr": {
-                "point1": "Ayrıntılı bilgi almak için 'W-Fragen' (Wo, Wann, Wie, Was, Warum) kullanarak soru oluşturma alıştırması yapın.",
-                "point2": "Semptomları ve vücut parçalarını tarif ederken doğru Almanca durumları (Nominativ, Akkusativ, Dativ) kullanmaya odaklanın."
-            },
-            "de": {
-                "point1": "Üben Sie das Bilden von Fragen mit 'W-Fragen' (Wo, Wann, Wie, Was, Warum), um detaillierte Informationen zu erhalten.",
-                "point2": "Konzentrieren Sie sich auf die Verwendung der korrekten deutschen Fälle (Nominativ, Akkusativ, Dativ) bei der Beschreibung von Symptomen und Körperteilen."
-            }
+            "en": "**Perfect Tense in Medical History Taking (Anamnese)**\n\nThe perfect tense (Perfekt) is the most common past tense in spoken German for describing medical history.\n\n*Formation: haben/sein + past participle (Partizip II)*\n\n**Using 'haben' (most verbs):**\n| Subject | Conjugated haben | Past Participle | Translation |\n|---------|------------------|-----------------|-------------|\n| Ich | habe | gehabt | I have had |\n| Sie | haben | operiert | You have operated |\n| Der Patient | hat | genommen | The patient has taken |\n\n*Examples:*\n- 'Haben Sie früher Operationen gehabt?' (Have you had surgeries before?)\n- 'Welche Medikamente haben Sie eingenommen?' (Which medications have you taken?)\n- 'Hat der Schmerz plötzlich angefangen?' (Did the pain start suddenly?)\n\n**Using 'sein' (movement/change of state verbs):**\n- 'Wann ist der Schmerz aufgetreten?' (When did the pain occur?)\n- 'Sind Sie schon einmal ohnmächtig geworden?' (Have you ever fainted?)\n- 'Ist Ihnen übel geworden?' (Did you become nauseous?)\n\n*Common Past Participles in Medical Context:*\n| Infinitive | Past Participle | Example |\n|------------|-----------------|---------|\n| haben | gehabt | Krankheiten gehabt |\n| nehmen | genommen | Medikamente genommen |\n| operieren | operiert | operiert worden |\n| brechen | gebrochen | Arm gebrochen |\n| bluten | geblutet | stark geblutet |\n\n**Anamnese Questions in Perfect Tense:**\n- 'Welche Krankheiten haben Sie in der Kindheit gehabt?' (What illnesses did you have in childhood?)\n- 'Haben Sie jemals geraucht?' (Have you ever smoked?)\n- 'Sind Sie schon einmal im Krankenhaus gewesen?' (Have you ever been in the hospital?)",
+            "de": "**Perfekt in der Anamneseerhebung**\n\nDas Perfekt ist die häufigste Vergangenheitsform im gesprochenen Deutsch zur Beschreibung der Krankengeschichte.\n\n*Bildung: haben/sein + Partizip II*\n\n**Mit 'haben' (die meisten Verben):**\n| Subjekt | Konjugiertes haben | Partizip II | Übersetzung |\n|---------|--------------------| ------------|-------------|\n| Ich | habe | gehabt | Ich habe gehabt |\n| Sie | haben | operiert | Sie haben operiert |\n| Der Patient | hat | genommen | Der Patient hat genommen |\n\n*Beispiele:*\n- 'Haben Sie früher Operationen gehabt?'\n- 'Welche Medikamente haben Sie eingenommen?'\n- 'Hat der Schmerz plötzlich angefangen?'\n\n**Mit 'sein' (Bewegungs-/Zustandsänderungsverben):**\n- 'Wann ist der Schmerz aufgetreten?'\n- 'Sind Sie schon einmal ohnmächtig geworden?'\n- 'Ist Ihnen übel geworden?'\n\n*Häufige Partizipien im medizinischen Kontext:*\n| Infinitiv | Partizip II | Beispiel |\n|-----------|-------------|----------|\n| haben | gehabt | Krankheiten gehabt |\n| nehmen | genommen | Medikamente genommen |\n| operieren | operiert | operiert worden |\n| brechen | gebrochen | Arm gebrochen |\n| bluten | geblutet | stark geblutet |\n\n**Anamnesefragen im Perfekt:**\n- 'Welche Krankheiten haben Sie in der Kindheit gehabt?'\n- 'Haben Sie jemals geraucht?'\n- 'Sind Sie schon einmal im Krankenhaus gewesen?'",
+            "bn": "**Perfect Tense in Medical History Taking (Anamnese)**\n\nThe perfect tense (Perfekt) is the most common past tense in spoken German for describing medical history.\n\n*Formation: haben/sein + past participle (Partizip II)*\n\n**Using 'haben' (most verbs):**\n| Subject | Conjugated haben | Past Participle | Translation |\n|---------|------------------|-----------------|-------------|\n| Ich | habe | gehabt | I have had |\n| Sie | haben | operiert | You have operated |\n| Der Patient | hat | genommen | The patient has taken |\n\n*Examples:*\n- 'Haben Sie früher Operationen gehabt?' (Have you had surgeries before?)\n- 'Welche Medikamente haben Sie eingenommen?' (Which medications have you taken?)\n- 'Hat der Schmerz plötzlich angefangen?' (Did the pain start suddenly?)\n\n**Using 'sein' (movement/change of state verbs):**\n- 'Wann ist der Schmerz aufgetreten?' (When did the pain occur?)\n- 'Sind Sie schon einmal ohnmächtig geworden?' (Have you ever fainted?)\n- 'Ist Ihnen übel geworden?' (Did you become nauseous?)\n\n*Common Past Participles in Medical Context:*\n| Infinitive | Past Participle | Example |\n|------------|-----------------|---------|\n| haben | gehabt | Krankheiten gehabt |\n| nehmen | genommen | Medikamente genommen |\n| operieren | operiert | operiert worden |\n| brechen | gebrochen | Arm gebrochen |\n| bluten | geblutet | stark geblutet |\n\n**Anamnese Questions in Perfect Tense:**\n- 'Welche Krankheiten haben Sie in der Kindheit gehabt?' (What illnesses did you have in childhood?)\n- 'Haben Sie jemals geraucht?' (Have you ever smoked?)\n- 'Sind Sie schon einmal im Krankenhaus gewesen?' (Have you ever been in the hospital?)",
+            "hi": "**Perfect Tense in Medical History Taking (Anamnese)**\n\nThe perfect tense (Perfekt) is the most common past tense in spoken German for describing medical history.\n\n*Formation: haben/sein + past participle (Partizip II)*\n\n**Using 'haben' (most verbs):**\n| Subject | Conjugated haben | Past Participle | Translation |\n|---------|------------------|-----------------|-------------|\n| Ich | habe | gehabt | I have had |\n| Sie | haben | operiert | You have operated |\n| Der Patient | hat | genommen | The patient has taken |\n\n*Examples:*\n- 'Haben Sie früher Operationen gehabt?' (Have you had surgeries before?)\n- 'Welche Medikamente haben Sie eingenommen?' (Which medications have you taken?)\n- 'Hat der Schmerz plötzlich angefangen?' (Did the pain start suddenly?)\n\n**Using 'sein' (movement/change of state verbs):**\n- 'Wann ist der Schmerz aufgetreten?' (When did the pain occur?)\n- 'Sind Sie schon einmal ohnmächtig geworden?' (Have you ever fainted?)\n- 'Ist Ihnen übel geworden?' (Did you become nauseous?)\n\n*Common Past Participles in Medical Context:*\n| Infinitive | Past Participle | Example |\n|------------|-----------------|---------|\n| haben | gehabt | Krankheiten gehabt |\n| nehmen | genommen | Medikamente genommen |\n| operieren | operiert | operiert worden |\n| brechen | gebrochen | Arm gebrochen |\n| bluten | geblutet | stark geblutet |\n\n**Anamnese Questions in Perfect Tense:**\n- 'Welche Krankheiten haben Sie in der Kindheit gehabt?' (What illnesses did you have in childhood?)\n- 'Haben Sie jemals geraucht?' (Have you ever smoked?)\n- 'Sind Sie schon einmal im Krankenhaus gewesen?' (Have you ever been in the hospital?)",
+            "ur": "**Perfect Tense in Medical History Taking (Anamnese)**\n\nThe perfect tense (Perfekt) is the most common past tense in spoken German for describing medical history.\n\n*Formation: haben/sein + past participle (Partizip II)*\n\n**Using 'haben' (most verbs):**\n| Subject | Conjugated haben | Past Participle | Translation |\n|---------|------------------|-----------------|-------------|\n| Ich | habe | gehabt | I have had |\n| Sie | haben | operiert | You have operated |\n| Der Patient | hat | genommen | The patient has taken |\n\n*Examples:*\n- 'Haben Sie früher Operationen gehabt?' (Have you had surgeries before?)\n- 'Welche Medikamente haben Sie eingenommen?' (Which medications have you taken?)\n- 'Hat der Schmerz plötzlich angefangen?' (Did the pain start suddenly?)\n\n**Using 'sein' (movement/change of state verbs):**\n- 'Wann ist der Schmerz aufgetreten?' (When did the pain occur?)\n- 'Sind Sie schon einmal ohnmächtig geworden?' (Have you ever fainted?)\n- 'Ist Ihnen übel geworden?' (Did you become nauseous?)\n\n*Common Past Participles in Medical Context:*\n| Infinitive | Past Participle | Example |\n|------------|-----------------|---------|\n| haben | gehabt | Krankheiten gehabt |\n| nehmen | genommen | Medikamente genommen |\n| operieren | operiert | operiert worden |\n| brechen | gebrochen | Arm gebrochen |\n| bluten | geblutet | stark geblutet |\n\n**Anamnese Questions in Perfect Tense:**\n- 'Welche Krankheiten haben Sie in der Kindheit gehabt?' (What illnesses did you have in childhood?)\n- 'Haben Sie jemals geraucht?' (Have you ever smoked?)\n- 'Sind Sie schon einmal im Krankenhaus gewesen?' (Have you ever been in the hospital?)",
+            "tr": "**Perfect Tense in Medical History Taking (Anamnese)**\n\nThe perfect tense (Perfekt) is the most common past tense in spoken German for describing medical history.\n\n*Formation: haben/sein + past participle (Partizip II)*\n\n**Using 'haben' (most verbs):**\n| Subject | Conjugated haben | Past Participle | Translation |\n|---------|------------------|-----------------|-------------|\n| Ich | habe | gehabt | I have had |\n| Sie | haben | operiert | You have operated |\n| Der Patient | hat | genommen | The patient has taken |\n\n*Examples:*\n- 'Haben Sie früher Operationen gehabt?' (Have you had surgeries before?)\n- 'Welche Medikamente haben Sie eingenommen?' (Which medications have you taken?)\n- 'Hat der Schmerz plötzlich angefangen?' (Did the pain start suddenly?)\n\n**Using 'sein' (movement/change of state verbs):**\n- 'Wann ist der Schmerz aufgetreten?' (When did the pain occur?)\n- 'Sind Sie schon einmal ohnmächtig geworden?' (Have you ever fainted?)\n- 'Ist Ihnen übel geworden?' (Did you become nauseous?)\n\n*Common Past Participles in Medical Context:*\n| Infinitive | Past Participle | Example |\n|------------|-----------------|---------|\n| haben | gehabt | Krankheiten gehabt |\n| nehmen | genommen | Medikamente genommen |\n| operieren | operiert | operiert worden |\n| brechen | gebrochen | Arm gebrochen |\n| bluten | geblutet | stark geblutet |\n\n**Anamnese Questions in Perfect Tense:**\n- 'Welche Krankheiten haben Sie in der Kindheit gehabt?' (What illnesses did you have in childhood?)\n- 'Haben Sie jemals geraucht?' (Have you ever smoked?)\n- 'Sind Sie schon einmal im Krankenhaus gewesen?' (Have you ever been in the hospital?)"
         },
         "culturalNotes": {
             "en": "In German hospitals, direct and precise questioning is common; patients are expected to provide detailed answers without exaggeration.",
@@ -73,12 +55,38 @@
             "tr": "Başlangıç, ilerleme ve ağrı özellikleri dahil olmak üzere ana şikayeti etkili bir şekilde ortaya çıkarmak, doğru teşhis ve tedavi planlaması için çok önemlidir.",
             "de": "Die effektive Erhebung der Hauptbeschwerde, einschließlich Beginn, Verlauf und Schmerzcharakteristik, ist entscheidend für eine genaue Diagnose und Behandlungsplanung."
         },
-        "learningObjectives": [
-            "Learn how to ask open-ended questions to elicit the chief complaint.",
-            "Understand the importance of clarifying the onset, duration, and progression of symptoms.",
-            "Be able to describe the characteristics of pain (location, intensity, quality) in German.",
-            "Practice active listening techniques to accurately document the patient's history."
-        ]
+        "learningObjectives": {
+            "en": [
+                "Learn how to ask open-ended questions to elicit the chief complaint.",
+                "Understand the importance of clarifying the onset, duration, and progression of symptoms.",
+                "Be able to describe the characteristics of pain (location, intensity, quality) in German.",
+                "Practice active listening techniques to accurately document the patient's history."
+            ],
+            "bn": [
+                "শিখুন how to ask open-ended questions to elicit the chief complaint.",
+                "বুঝুন the importance of clarifying the onset, duration, and progression of symptoms.",
+                "Be able to describe the characteristics of pain (location, intensity, quality) in German.",
+                "অনুশীলন করুন active listening techniques to accurately document the patient's history."
+            ],
+            "hi": [
+                "सीखें how to ask open-ended questions to elicit the chief complaint.",
+                "समझें the importance of clarifying the onset, duration, and progression of symptoms.",
+                "Be able to describe the characteristics of pain (location, intensity, quality) in German.",
+                "अभ्यास करें active listening techniques to accurately document the patient's history."
+            ],
+            "ur": [
+                "سیکھیں how to ask open-ended questions to elicit the chief complaint.",
+                "سمجھیں the importance of clarifying the onset, duration, and progression of symptoms.",
+                "Be able to describe the characteristics of pain (location, intensity, quality) in German.",
+                "مشق کریں active listening techniques to accurately document the patient's history."
+            ],
+            "tr": [
+                "Öğrenin how to ask open-ended questions to elicit the chief complaint.",
+                "Anlayın the importance of clarifying the onset, duration, and progression of symptoms.",
+                "Be able to describe the characteristics of pain (location, intensity, quality) in German.",
+                "Pratik yapın active listening techniques to accurately document the patient's history."
+            ]
+        }
     },
     "vocabulary": [
         {
@@ -102,7 +110,8 @@
                 "ur": "آپ کی بڑی شکایت کیا ہے، مسٹر مولر؟",
                 "tr": "Baş şikayetiniz nedir, Bay Müller?"
             },
-            "id": "v13_01"
+            "id": "v13_01",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_01.mp3"
         },
         {
             "germanTerm": "die aktuellen Beschwerden",
@@ -125,7 +134,8 @@
                 "ur": "براہ کرم اپنی موجودہ شکایات بیان کریں۔",
                 "tr": "Lütfen mevcut şikayetlerinizi açıklayın."
             },
-            "id": "v13_02"
+            "id": "v13_02",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_02.mp3"
         },
         {
             "germanTerm": "der Beginn",
@@ -148,7 +158,8 @@
                 "ur": "آپ کے درد کا آغاز کب ہوا؟",
                 "tr": "Ağrınız ne zaman başladı?"
             },
-            "id": "v13_03"
+            "id": "v13_03",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_03.mp3"
         },
         {
             "germanTerm": "der Verlauf",
@@ -171,7 +182,8 @@
                 "ur": "بیماری کا طریقہ کیا تھا؟",
                 "tr": "Hastalığın seyri nasıldı?"
             },
-            "id": "v13_04"
+            "id": "v13_04",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_04.mp3"
         },
         {
             "germanTerm": "der Schmerzcharakter",
@@ -194,7 +206,8 @@
                 "ur": "کیا آپ درد کی نوعیت کو مزید تفصیل سے بیان کر سکتے ہیں؟",
                 "tr": "Ağrının karakterini daha detaylı tarif edebilir misiniz?"
             },
-            "id": "v13_05"
+            "id": "v13_05",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_05.mp3"
         },
         {
             "germanTerm": "der Schmerz",
@@ -217,7 +230,8 @@
                 "ur": "آپ کو ٹھیک کہاں درد ہے؟",
                 "tr": "Tam olarak nerede ağrınız var?"
             },
-            "id": "v13_06"
+            "id": "v13_06",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_06.mp3"
         },
         {
             "germanTerm": "die Übelkeit",
@@ -240,7 +254,8 @@
                 "ur": "کیا آپ متلی سے دوچار ہیں؟",
                 "tr": "Bulantınız var mı?"
             },
-            "id": "v13_07"
+            "id": "v13_07",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_07.mp3"
         },
         {
             "germanTerm": "das Erbrechen",
@@ -263,7 +278,8 @@
                 "ur": "کیا آپ کو قے ہوئی ہے؟",
                 "tr": "Kustunuz mu?"
             },
-            "id": "v13_08"
+            "id": "v13_08",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_08.mp3"
         },
         {
             "germanTerm": "der Husten",
@@ -286,7 +302,8 @@
                 "ur": "کیا کھانسی خشک ہے یا پیداواری؟",
                 "tr": "Öksürüğünüz kuru mu yoksa balgamlı mı?"
             },
-            "id": "v13_09"
+            "id": "v13_09",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_09.mp3"
         },
         {
             "germanTerm": "die Atemnot",
@@ -309,7 +326,8 @@
                 "ur": "کیا آپ کو سانس کی قلت ہے؟",
                 "tr": "Nefes darlığınız var mı?"
             },
-            "id": "v13_10"
+            "id": "v13_10",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_10.mp3"
         },
         {
             "germanTerm": "die Müdigkeit",
@@ -332,7 +350,8 @@
                 "ur": "کیا آپ تھکا ہوا محسوس کرتے ہیں؟",
                 "tr": "Yorgun hissediyor musunuz?"
             },
-            "id": "v13_11"
+            "id": "v13_11",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_11.mp3"
         },
         {
             "germanTerm": "der Schwindel",
@@ -355,7 +374,8 @@
                 "ur": "کیا آپ چکر سے دوچار ہیں؟",
                 "tr": "Başınız dönüyor mu?"
             },
-            "id": "v13_12"
+            "id": "v13_12",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_12.mp3"
         },
         {
             "germanTerm": "das Fieber",
@@ -378,7 +398,8 @@
                 "ur": "کیا آپ نے بخار ماپا ہے؟",
                 "tr": "Ateşinizi ölçtünüz mü?"
             },
-            "id": "v13_13"
+            "id": "v13_13",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_13.mp3"
         },
         {
             "germanTerm": "plötzlich",
@@ -401,7 +422,8 @@
                 "ur": "درد اچانک آیا۔",
                 "tr": "Ağrı aniden geldi."
             },
-            "id": "v13_14"
+            "id": "v13_14",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_14.mp3"
         },
         {
             "germanTerm": "allmählich",
@@ -424,7 +446,8 @@
                 "ur": "درد آہستہ آہستہ تیز ہوتا گیا۔",
                 "tr": "Ağrı yavaş yavaş şiddetlendi."
             },
-            "id": "v13_15"
+            "id": "v13_15",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_15.mp3"
         },
         {
             "germanTerm": "stechend",
@@ -447,7 +470,8 @@
                 "ur": "درد چبھنے والا ہے۔",
                 "tr": "Ağrı saplanıyor."
             },
-            "id": "v13_16"
+            "id": "v13_16",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_16.mp3"
         },
         {
             "germanTerm": "dumpf",
@@ -470,7 +494,8 @@
                 "ur": "یہ ایک مدھم درد ہے۔",
                 "tr": "Bu künt bir ağrı."
             },
-            "id": "v13_17"
+            "id": "v13_17",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_17.mp3"
         },
         {
             "germanTerm": "brennend",
@@ -493,7 +518,8 @@
                 "ur": "مجھے جلن والا درد ہے۔",
                 "tr": "Yanan bir ağrım var."
             },
-            "id": "v13_18"
+            "id": "v13_18",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_18.mp3"
         },
         {
             "germanTerm": "anhaltend",
@@ -516,7 +542,8 @@
                 "ur": "درد مسلسل ہے۔",
                 "tr": "Ağrı devamlı."
             },
-            "id": "v13_19"
+            "id": "v13_19",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_19.mp3"
         },
         {
             "germanTerm": "akut",
@@ -539,7 +566,8 @@
                 "ur": "یہ ایک شدید بیماری ہے۔",
                 "tr": "Bu akut bir hastalık."
             },
-            "id": "v13_20"
+            "id": "v13_20",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_20.mp3"
         },
         {
             "germanTerm": "chronisch",
@@ -562,7 +590,8 @@
                 "ur": "آپ دائمی درد کا شکار ہیں۔",
                 "tr": "Kronik ağrılarınız var."
             },
-            "id": "v13_21"
+            "id": "v13_21",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_21.mp3"
         },
         {
             "germanTerm": "die Lokalisation",
@@ -585,7 +614,8 @@
                 "ur": "درد کا صحیح مقام کہاں ہے؟",
                 "tr": "Ağrının tam lokasyonu neresi?"
             },
-            "id": "v13_22"
+            "id": "v13_22",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_22.mp3"
         },
         {
             "germanTerm": "ausstrahlen",
@@ -608,7 +638,8 @@
                 "ur": "کیا درد شعاع ڈالتا ہے؟",
                 "tr": "Ağrı yayılıyor mu?"
             },
-            "id": "v13_23"
+            "id": "v13_23",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_23.mp3"
         },
         {
             "germanTerm": "die Intensität",
@@ -631,7 +662,8 @@
                 "ur": "آپ درد کی شدت کو کیسے بیان کریں گے؟",
                 "tr": "Ağrının yoğunluğunu nasıl tarif edersiniz?"
             },
-            "id": "v13_24"
+            "id": "v13_24",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_24.mp3"
         },
         {
             "germanTerm": "die Begleitsymptome",
@@ -654,7 +686,8 @@
                 "ur": "کیا کوئی ساتھ کی علامات ہیں؟",
                 "tr": "Eşlik eden semptomlar var mı?"
             },
-            "id": "v13_25"
+            "id": "v13_25",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_25.mp3"
         },
         {
             "germanTerm": "verschlimmern",
@@ -677,7 +710,8 @@
                 "ur": "درد کو کیا بڑھاتا ہے؟",
                 "tr": "Ağrıyı ne kötüleştiriyor?"
             },
-            "id": "v13_26"
+            "id": "v13_26",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_26.mp3"
         },
         {
             "germanTerm": "verbessern",
@@ -700,7 +734,8 @@
                 "ur": "درد کو کیا بہتر بناتا ہے؟",
                 "tr": "Ağrıyı ne iyileştiriyor?"
             },
-            "id": "v13_27"
+            "id": "v13_27",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_27.mp3"
         },
         {
             "germanTerm": "die Schmerzskala",
@@ -723,7 +758,8 @@
                 "ur": "1 سے 10 کے درد پیمانے پر، آپ اپنے درد کو کہاں ریٹ کریں گے؟",
                 "tr": "1'den 10'a kadar ağrı skalasında ağrınızı nerede değerlendirirsiniz?"
             },
-            "id": "v13_28"
+            "id": "v13_28",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_28.mp3"
         },
         {
             "germanTerm": "seit wann",
@@ -746,7 +782,8 @@
                 "ur": "آپ کو یہ شکایات کب سے ہیں؟",
                 "tr": "Ne zamandan beri bu şikayetleriniz var?"
             },
-            "id": "v13_29"
+            "id": "v13_29",
+            "audioUrl": "assets/audio/sections/section_13/vocabulary/v13_29.mp3"
         }
     ],
     "dialogues": [
@@ -776,7 +813,8 @@
                         "hi": "शुभ दिन, श्री मुलर। आज आपको अस्पताल क्या लाया?",
                         "ur": "شب بخیر، مسٹر مولر۔ آج آپ کو ہسپتال کیا لایا؟",
                         "tr": "İyi günler, Bay Müller. Bugün sizi hastaneye getiren nedir?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_01_line1.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -788,7 +826,8 @@
                         "hi": "मुझे सीने में बहुत दर्द है, डॉक्टर।",
                         "ur": "مجھے سینے میں بہت درد ہے، ڈاکٹر۔",
                         "tr": "Göğsümde şiddetli bir ağrı var, Doktor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_01_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -800,7 +839,8 @@
                         "hi": "आपको कब से दर्द है और आप दर्द का वर्णन कैसे करेंगे?",
                         "ur": "آپ کو کب سے درد ہے، اور آپ درد کو کیسے بیان کریں گے؟",
                         "tr": "Ne zamandır ağrınız var ve ağrıyı nasıl tanımlarsınız?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_01_line3.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -812,7 +852,8 @@
                         "hi": "यह लगभग दो घंटे पहले शुरू हुआ था। यह एक छुरा घोंपने जैसा दर्द है, जैसे चाकू।",
                         "ur": "یہ تقریباً دو گھنٹے پہلے شروع ہوا تھا۔ یہ چاقو کی طرح ایک چھرا گھونپنے والا درد ہے۔",
                         "tr": "Yaklaşık iki saat önce başladı. Bıçak gibi saplanan bir ağrı."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_01_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -824,7 +865,8 @@
                         "hi": "क्या दर्द कहीं फैलता है?",
                         "ur": "کیا درد کہیں پھیلتا ہے؟",
                         "tr": "Ağrı bir yere yayılıyor mu?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_01_line5.mp3"
                 }
             ],
             "id": "d13_01"
@@ -855,7 +897,8 @@
                         "hi": "शुभ प्रभात, श्रीमती लेहमान। आज आप कैसा महसूस कर रही हैं?",
                         "ur": "شب بخیر، مسز لیمان۔ آج آپ کیسا محسوس کر رہی ہیں؟",
                         "tr": "Günaydın, Bayan Lehmann. Bugün nasıl hissediyorsunuz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_02_line1.mp3"
                 },
                 {
                     "speaker": "Patient Lehmann",
@@ -867,7 +910,8 @@
                         "hi": "अच्छा नहीं, नर्स। दर्द अभी भी बहुत तेज है।",
                         "ur": "اچھا نہیں، نرس۔ درد ابھی بھی بہت تیز ہے۔",
                         "tr": "İyi değilim, Hemşire. Ağrı hala çok şiddetli."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_02_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -879,7 +923,8 @@
                         "hi": "श्रीमती लेहमान, आपको दर्द ठीक कहाँ है, और कब से?",
                         "ur": "مسز لیمان، آپ کو درد کہاں ہے، اور کب سے؟",
                         "tr": "Bayan Lehmann, tam olarak nerede ağrınız var ve ne zamandır?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_02_line3.mp3"
                 },
                 {
                     "speaker": "Patient Lehmann",
@@ -891,7 +936,8 @@
                         "hi": "मेरे निचले पेट में, कल शाम से। यह एक ऐंठन वाला दर्द है।",
                         "ur": "میرے پیٹ کے نچلے حصے میں، کل شام سے۔ یہ ایک دردناک درد ہے۔",
                         "tr": "Alt karnımda, dün akşamdan beri. Kramp şeklinde bir ağrı."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_02_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -903,7 +949,8 @@
                         "hi": "क्या आपको बुखार या मतली है?",
                         "ur": "کیا آپ کو بخار یا متلی ہے؟",
                         "tr": "Ateşiniz veya mide bulantınız var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_02_line5.mp3"
                 },
                 {
                     "speaker": "Patient Lehmann",
@@ -915,7 +962,8 @@
                         "hi": "हाँ, मुझे मतली महसूस हो रही है और मुझे हल्का बुखार है।",
                         "ur": "ہاں، مجھے متلی محسوس ہو رہی ہے اور مجھے ہلکا بخار ہے۔",
                         "tr": "Evet, midem bulanıyor ve hafif ateşliyim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_02_line6.mp3"
                 }
             ],
             "id": "d13_02"
@@ -946,7 +994,8 @@
                         "hi": "शुभ प्रभात, श्रीमती श्मिट। मैं आपके लिए क्या कर सकता हूँ?",
                         "ur": "شب بخیر، مسز شمت۔ میں آپ کے لیے کیا کر سکتا ہوں؟",
                         "tr": "Günaydın, Bayan Schmidt. Sizin için ne yapabilirim?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_03_line1.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -958,7 +1007,8 @@
                         "hi": "मुझे कुछ दिनों से तेज सिरदर्द हो रहा है।",
                         "ur": "مجھے کچھ دنوں سے شدید سر درد ہو رہا ہے۔",
                         "tr": "Birkaç gündür şiddetli baş ağrım var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_03_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Fischer",
@@ -970,7 +1020,8 @@
                         "hi": "ठीक कहाँ दर्द होता है, और आप दर्द का वर्णन कैसे करेंगे?",
                         "ur": "ٹھیک کہاں درد ہوتا ہے، اور آپ درد کو کیسے بیان کریں گے؟",
                         "tr": "Tam olarak nerede ağrıyor ve ağrıyı nasıl tanımlarsınız?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_03_line3.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -982,7 +1033,8 @@
                         "hi": "बल्कि पूरे सिर में, एक सुस्त, दबाने वाला दर्द। यह लगभग पूरे दिन रहता है।",
                         "ur": "بلکہ پورے سر میں، ایک مدھم، دبانے والا درد۔ یہ تقریباً سارا دن رہتا ہے۔",
                         "tr": "Daha çok tüm başımda, künt, baskıcı bir ağrı. Neredeyse bütün gün sürüyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_03_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Fischer",
@@ -994,7 +1046,8 @@
                         "hi": "क्या आपके कोई अन्य लक्षण हैं, जैसे मतली या दृश्य गड़बड़ी?",
                         "ur": "کیا آپ کو کوئی اور علامات ہیں، جیسے متلی یا بصری خلل؟",
                         "tr": "Mide bulantısı veya görme bozukluğu gibi başka şikayetleriniz var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_03_line5.mp3"
                 }
             ],
             "id": "d13_03"
@@ -1025,7 +1078,8 @@
                         "hi": "क्या हुआ, श्री वेबर?",
                         "ur": "کیا ہوا، مسٹر ویبر؟",
                         "tr": "Ne oldu, Bay Weber?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_04_line1.mp3"
                 },
                 {
                     "speaker": "Patient Weber",
@@ -1037,7 +1091,8 @@
                         "hi": "मैं गिर गया और मेरा घुटना मुड़ गया।",
                         "ur": "میں گر گیا اور میرا گھٹنا مڑ گیا۔",
                         "tr": "Düştüm ve dizimi burktum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_04_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Berger",
@@ -1049,7 +1104,8 @@
                         "hi": "आपको कब से दर्द है और यह कितना गंभीर है?",
                         "ur": "آپ کو کب سے درد ہے اور یہ کتنا شدید ہے؟",
                         "tr": "Ne zamandır ağrınız var ve ne kadar şiddetli?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_04_line3.mp3"
                 },
                 {
                     "speaker": "Patient Weber",
@@ -1061,7 +1117,8 @@
                         "hi": "यह लगभग एक घंटे पहले हुआ था। दर्द बहुत तेज है, मैं शायद ही इस पर कोई वजन डाल सकता हूँ।",
                         "ur": "یہ تقریباً ایک گھنٹہ پہلے ہوا تھا۔ درد بہت شدید ہے، میں بمشکل اس پر کوئی وزن ڈال سکتا ہوں۔",
                         "tr": "Bu yaklaşık bir saat önce oldu. Ağrı çok şiddetli, üzerine neredeyse hiç basamıyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_04_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Berger",
@@ -1073,7 +1130,8 @@
                         "hi": "क्या घुटना सूज गया है?",
                         "ur": "کیا گھٹنا سوج گیا ہے؟",
                         "tr": "Dizin şişmiş mi?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_04_line5.mp3"
                 }
             ],
             "id": "d13_04"
@@ -1104,7 +1162,8 @@
                         "hi": "क्या नया है, श्री क्लेन?",
                         "ur": "نیا کیا ہے، مسٹر کلین؟",
                         "tr": "Ne var ne yok, Bay Klein?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_05_line1.mp3"
                 },
                 {
                     "speaker": "Patient Klein",
@@ -1116,7 +1175,8 @@
                         "hi": "वास्तव में, सब कुछ वैसा ही है, डॉक्टर। केवल मेरी पीठ में फिर से अधिक दर्द हो रहा है।",
                         "ur": "دراصل، سب کچھ ویسا ہی ہے، ڈاکٹر۔ صرف میری کمر میں پھر سے زیادہ درد ہو رہا ہے۔",
                         "tr": "Aslında her şey aynı, Doktor. Sadece sırtım yine daha çok ağrıyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_05_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schulz",
@@ -1128,7 +1188,8 @@
                         "hi": "यह कब से चल रहा है, और आपको दर्द ठीक कहाँ है?",
                         "ur": "یہ کب سے چل رہا ہے، اور آپ کو درد کہاں ہے؟",
                         "tr": "Ne zamandır böyle ve tam olarak nerede ağrınız var?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_05_line3.mp3"
                 },
                 {
                     "speaker": "Patient Klein",
@@ -1140,7 +1201,8 @@
                         "hi": "लगभग एक सप्ताह से। यह पीठ के निचले हिस्से में है, एक खींचने वाला दर्द।",
                         "ur": "تقریباً ایک ہفتے سے۔ یہ کمر کے نچلے حصے میں ہے، ایک کھینچنے والا درد۔",
                         "tr": "Yaklaşık bir haftadır. Belimin alt kısmında, çekme şeklinde bir ağrı."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_05_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Schulz",
@@ -1152,7 +1214,8 @@
                         "hi": "क्या कुछ ऐसा है जो दर्द को बढ़ाता या कम करता है?",
                         "ur": "کیا کوئی ایسی چیز ہے جو درد کو بڑھاتی یا کم کرتی ہے؟",
                         "tr": "Ağrıyı artıran veya azaltan bir şey var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_13/dialogues/d13_05_line5.mp3"
                 }
             ],
             "id": "d13_05"

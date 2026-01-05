@@ -51,22 +51,35 @@ class _SplashScreenState extends ConsumerState<SplashScreen>
 
     if (!mounted) return;
 
-    // Check if user is logged in
-    final authRepo = ref.read(authRepositoryProvider);
-    final user = authRepo.currentUser;
+    try {
+      // Check if user is logged in
+      final authRepo = ref.read(authRepositoryProvider);
+      final user = authRepo.currentUser;
 
-    if (user != null) {
-      // User is logged in - check if they've accepted terms
-      final hasAcceptedTerms = await authRepo.hasAcceptedTerms();
-      if (!mounted) return;
+      if (user != null) {
+        // User is logged in - check if they've accepted terms
+        try {
+          final hasAcceptedTerms = await authRepo.hasAcceptedTerms();
+          if (!mounted) return;
 
-      if (hasAcceptedTerms) {
-        context.go('/home');
+          if (hasAcceptedTerms) {
+            context.go('/home');
+          } else {
+            context.go('/terms');
+          }
+        } catch (e) {
+          // Firestore error - go to terms to be safe
+          debugPrint('Error checking terms acceptance: $e');
+          if (!mounted) return;
+          context.go('/terms');
+        }
       } else {
-        context.go('/terms');
+        // User is not logged in
+        context.go('/onboarding');
       }
-    } else {
-      // User is not logged in
+    } catch (e) {
+      debugPrint('Navigation error: $e');
+      if (!mounted) return;
       context.go('/onboarding');
     }
   }

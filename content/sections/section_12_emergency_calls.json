@@ -32,30 +32,12 @@
             "de": "Dieser Abschnitt führt Sie in das Vokabular und die Phrasen ein, die notwendig sind, um medizinische Notfälle zu verstehen und darauf zu reagieren. Sie lernen, wie Sie in Situationen mit 'Notruf', 'Reanimation', 'Notfall', 'Rettungswagen', 'Erste Hilfe' und 'lebensbedrohlich' effektiv kommunizieren."
         },
         "grammarFocus": {
-            "en": {
-                "point1": "Understanding and using the accusative and dative cases in the context of giving instructions (e.g., 'Ich gebe dem Patienten Wasser.' - I give the patient water.)",
-                "point2": "Formation of imperative sentences for giving clear and concise instructions in emergency situations (e.g., 'Rufen Sie den Notarzt!' - Call the emergency doctor!)"
-            },
-            "bn": {
-                "point1": "নির্দেশাবলী প্রদানের প্রেক্ষাপটে accusative এবং dative case বোঝা এবং ব্যবহার করা (যেমন, 'Ich gebe dem Patienten Wasser.' - আমি রোগীকে জল দিচ্ছি)।",
-                "point2": "জরুরী পরিস্থিতিতে স্পষ্ট এবং সংক্ষিপ্ত নির্দেশাবলী দেওয়ার জন্য imperative বাক্য গঠন করা (যেমন, 'Rufen Sie den Notarzt!' - জরুরি ডাক্তারকে কল করুন!)"
-            },
-            "hi": {
-                "point1": "निर्देश देने के संदर्भ में accusative और dative केस को समझना और उपयोग करना (उदाहरण के लिए, 'Ich gebe dem Patienten Wasser।' - मैं रोगी को पानी देता हूँ)।",
-                "point2": "आपातकालीन स्थितियों में स्पष्ट और संक्षिप्त निर्देश देने के लिए अनिवार्य वाक्यों का निर्माण (उदाहरण के लिए, 'Rufen Sie den Notarzt!' - आपातकालीन चिकित्सक को बुलाओ!)"
-            },
-            "ur": {
-                "point1": "ہدایات دینے کے تناظر میں accusative اور dative کیس کو سمجھنا اور استعمال کرنا (مثال کے طور پر، 'Ich gebe dem Patienten Wasser.' - میں مریض کو پانی دیتا ہوں)۔",
-                "point2": "ایمرجنسی حالات میں واضح اور مختصر ہدایات دینے کے لیے لازم جملوں کی تشکیل (مثال کے طور پر، 'Rufen Sie den Notarzt!' - ایمرجنسی ڈاکٹر کو کال کریں!)"
-            },
-            "tr": {
-                "point1": "Talimat verme bağlamında belirtme ve yönelme hallerini anlamak ve kullanmak (örneğin, 'Ich gebe dem Patienten Wasser.' - Hastaya su veriyorum.)",
-                "point2": "Acil durumlarda net ve öz talimatlar vermek için emir cümlelerinin oluşturulması (örneğin, 'Rufen Sie den Notarzt!' - Acil doktoru arayın!)"
-            },
-            "de": {
-                "point1": "Verständnis und Anwendung des Akkusativs und Dativs im Kontext der Anweisungsgebung (z.B. 'Ich gebe dem Patienten Wasser.' - Ich gebe dem Patienten Wasser.)",
-                "point2": "Bildung von Imperativsätzen zur klaren und prägnanten Anweisung in Notsituationen (z.B. 'Rufen Sie den Notarzt!' - Rufen Sie den Notarzt!)"
-            }
+            "en": "**Emergency Communication: Urgent Imperatives and Question Forms**\n\nIn emergency situations, clear and direct communication is essential. German uses specific structures.\n\n*Urgent Commands (Imperative):*\n- 'Rufen Sie sofort den Notarzt!' (Call the emergency doctor immediately!)\n- 'Bleiben Sie ruhig!' (Stay calm!)\n- 'Atmen Sie tief ein!' (Breathe deeply!)\n- 'Legen Sie sich hin!' (Lie down!)\n\n**Emergency Question Patterns:**\n| Question Word | Example | Translation |\n|---------------|---------|-------------|\n| Was | Was ist passiert? | What happened? |\n| Wo | Wo sind Sie? | Where are you? |\n| Wie | Wie geht es Ihnen? | How are you? |\n| Wann | Wann hat es angefangen? | When did it start? |\n\n*Telephone Emergency Phrases:*\n- 'Das ist ein Notfall!' (This is an emergency!)\n- 'Schicken Sie einen Krankenwagen!' (Send an ambulance!)\n- 'Der Patient ist bewusstlos.' (The patient is unconscious.)\n- 'Der Patient atmet nicht.' (The patient is not breathing.)\n\n**Essential Emergency Information:**\n- 'Die Adresse ist...' (The address is...)\n- 'Meine Telefonnummer ist...' (My phone number is...)\n- 'Es handelt sich um einen Herzinfarkt.' (It's a heart attack.)\n- 'Es gibt viel Blut.' (There is a lot of blood.)\n\n*Calming Phrases for Patients:*\n- 'Hilfe ist unterwegs.' (Help is on the way.)\n- 'Der Arzt kommt gleich.' (The doctor is coming right away.)\n- 'Versuchen Sie, ruhig zu bleiben.' (Try to stay calm.)\n- 'Alles wird gut.' (Everything will be okay.)",
+            "de": "**Notfallkommunikation: Dringende Imperative und Frageformen**\n\nIn Notfallsituationen ist klare und direkte Kommunikation unerlässlich. Deutsch verwendet spezifische Strukturen.\n\n*Dringende Befehle (Imperativ):*\n- 'Rufen Sie sofort den Notarzt!'\n- 'Bleiben Sie ruhig!'\n- 'Atmen Sie tief ein!'\n- 'Legen Sie sich hin!'\n\n**Notfall-Fragemuster:**\n| Fragewort | Beispiel | Übersetzung |\n|-----------|----------|-------------|\n| Was | Was ist passiert? | Was ist passiert? |\n| Wo | Wo sind Sie? | Wo sind Sie? |\n| Wie | Wie geht es Ihnen? | Wie geht es Ihnen? |\n| Wann | Wann hat es angefangen? | Wann hat es angefangen? |\n\n*Telefonische Notfallphrasen:*\n- 'Das ist ein Notfall!'\n- 'Schicken Sie einen Krankenwagen!'\n- 'Der Patient ist bewusstlos.'\n- 'Der Patient atmet nicht.'\n\n**Wichtige Notfallinformationen:**\n- 'Die Adresse ist...'\n- 'Meine Telefonnummer ist...'\n- 'Es handelt sich um einen Herzinfarkt.'\n- 'Es gibt viel Blut.'\n\n*Beruhigende Phrasen für Patienten:*\n- 'Hilfe ist unterwegs.'\n- 'Der Arzt kommt gleich.'\n- 'Versuchen Sie, ruhig zu bleiben.'\n- 'Alles wird gut.'",
+            "bn": "**Emergency Communication: Urgent Imperatives and Question Forms**\n\nIn emergency situations, clear and direct communication is essential. German uses specific structures.\n\n*Urgent Commands (Imperative):*\n- 'Rufen Sie sofort den Notarzt!' (Call the emergency doctor immediately!)\n- 'Bleiben Sie ruhig!' (Stay calm!)\n- 'Atmen Sie tief ein!' (Breathe deeply!)\n- 'Legen Sie sich hin!' (Lie down!)\n\n**Emergency Question Patterns:**\n| Question Word | Example | Translation |\n|---------------|---------|-------------|\n| Was | Was ist passiert? | What happened? |\n| Wo | Wo sind Sie? | Where are you? |\n| Wie | Wie geht es Ihnen? | How are you? |\n| Wann | Wann hat es angefangen? | When did it start? |\n\n*Telephone Emergency Phrases:*\n- 'Das ist ein Notfall!' (This is an emergency!)\n- 'Schicken Sie einen Krankenwagen!' (Send an ambulance!)\n- 'Der Patient ist bewusstlos.' (The patient is unconscious.)\n- 'Der Patient atmet nicht.' (The patient is not breathing.)\n\n**Essential Emergency Information:**\n- 'Die Adresse ist...' (The address is...)\n- 'Meine Telefonnummer ist...' (My phone number is...)\n- 'Es handelt sich um einen Herzinfarkt.' (It's a heart attack.)\n- 'Es gibt viel Blut.' (There is a lot of blood.)\n\n*Calming Phrases for Patients:*\n- 'Hilfe ist unterwegs.' (Help is on the way.)\n- 'Der Arzt kommt gleich.' (The doctor is coming right away.)\n- 'Versuchen Sie, ruhig zu bleiben.' (Try to stay calm.)\n- 'Alles wird gut.' (Everything will be okay.)",
+            "hi": "**Emergency Communication: Urgent Imperatives and Question Forms**\n\nIn emergency situations, clear and direct communication is essential. German uses specific structures.\n\n*Urgent Commands (Imperative):*\n- 'Rufen Sie sofort den Notarzt!' (Call the emergency doctor immediately!)\n- 'Bleiben Sie ruhig!' (Stay calm!)\n- 'Atmen Sie tief ein!' (Breathe deeply!)\n- 'Legen Sie sich hin!' (Lie down!)\n\n**Emergency Question Patterns:**\n| Question Word | Example | Translation |\n|---------------|---------|-------------|\n| Was | Was ist passiert? | What happened? |\n| Wo | Wo sind Sie? | Where are you? |\n| Wie | Wie geht es Ihnen? | How are you? |\n| Wann | Wann hat es angefangen? | When did it start? |\n\n*Telephone Emergency Phrases:*\n- 'Das ist ein Notfall!' (This is an emergency!)\n- 'Schicken Sie einen Krankenwagen!' (Send an ambulance!)\n- 'Der Patient ist bewusstlos.' (The patient is unconscious.)\n- 'Der Patient atmet nicht.' (The patient is not breathing.)\n\n**Essential Emergency Information:**\n- 'Die Adresse ist...' (The address is...)\n- 'Meine Telefonnummer ist...' (My phone number is...)\n- 'Es handelt sich um einen Herzinfarkt.' (It's a heart attack.)\n- 'Es gibt viel Blut.' (There is a lot of blood.)\n\n*Calming Phrases for Patients:*\n- 'Hilfe ist unterwegs.' (Help is on the way.)\n- 'Der Arzt kommt gleich.' (The doctor is coming right away.)\n- 'Versuchen Sie, ruhig zu bleiben.' (Try to stay calm.)\n- 'Alles wird gut.' (Everything will be okay.)",
+            "ur": "**Emergency Communication: Urgent Imperatives and Question Forms**\n\nIn emergency situations, clear and direct communication is essential. German uses specific structures.\n\n*Urgent Commands (Imperative):*\n- 'Rufen Sie sofort den Notarzt!' (Call the emergency doctor immediately!)\n- 'Bleiben Sie ruhig!' (Stay calm!)\n- 'Atmen Sie tief ein!' (Breathe deeply!)\n- 'Legen Sie sich hin!' (Lie down!)\n\n**Emergency Question Patterns:**\n| Question Word | Example | Translation |\n|---------------|---------|-------------|\n| Was | Was ist passiert? | What happened? |\n| Wo | Wo sind Sie? | Where are you? |\n| Wie | Wie geht es Ihnen? | How are you? |\n| Wann | Wann hat es angefangen? | When did it start? |\n\n*Telephone Emergency Phrases:*\n- 'Das ist ein Notfall!' (This is an emergency!)\n- 'Schicken Sie einen Krankenwagen!' (Send an ambulance!)\n- 'Der Patient ist bewusstlos.' (The patient is unconscious.)\n- 'Der Patient atmet nicht.' (The patient is not breathing.)\n\n**Essential Emergency Information:**\n- 'Die Adresse ist...' (The address is...)\n- 'Meine Telefonnummer ist...' (My phone number is...)\n- 'Es handelt sich um einen Herzinfarkt.' (It's a heart attack.)\n- 'Es gibt viel Blut.' (There is a lot of blood.)\n\n*Calming Phrases for Patients:*\n- 'Hilfe ist unterwegs.' (Help is on the way.)\n- 'Der Arzt kommt gleich.' (The doctor is coming right away.)\n- 'Versuchen Sie, ruhig zu bleiben.' (Try to stay calm.)\n- 'Alles wird gut.' (Everything will be okay.)",
+            "tr": "**Emergency Communication: Urgent Imperatives and Question Forms**\n\nIn emergency situations, clear and direct communication is essential. German uses specific structures.\n\n*Urgent Commands (Imperative):*\n- 'Rufen Sie sofort den Notarzt!' (Call the emergency doctor immediately!)\n- 'Bleiben Sie ruhig!' (Stay calm!)\n- 'Atmen Sie tief ein!' (Breathe deeply!)\n- 'Legen Sie sich hin!' (Lie down!)\n\n**Emergency Question Patterns:**\n| Question Word | Example | Translation |\n|---------------|---------|-------------|\n| Was | Was ist passiert? | What happened? |\n| Wo | Wo sind Sie? | Where are you? |\n| Wie | Wie geht es Ihnen? | How are you? |\n| Wann | Wann hat es angefangen? | When did it start? |\n\n*Telephone Emergency Phrases:*\n- 'Das ist ein Notfall!' (This is an emergency!)\n- 'Schicken Sie einen Krankenwagen!' (Send an ambulance!)\n- 'Der Patient ist bewusstlos.' (The patient is unconscious.)\n- 'Der Patient atmet nicht.' (The patient is not breathing.)\n\n**Essential Emergency Information:**\n- 'Die Adresse ist...' (The address is...)\n- 'Meine Telefonnummer ist...' (My phone number is...)\n- 'Es handelt sich um einen Herzinfarkt.' (It's a heart attack.)\n- 'Es gibt viel Blut.' (There is a lot of blood.)\n\n*Calming Phrases for Patients:*\n- 'Hilfe ist unterwegs.' (Help is on the way.)\n- 'Der Arzt kommt gleich.' (The doctor is coming right away.)\n- 'Versuchen Sie, ruhig zu bleiben.' (Try to stay calm.)\n- 'Alles wird gut.' (Everything will be okay.)"
         },
         "culturalNotes": {
             "en": "In Germany, calling the emergency number (112) connects you directly to trained dispatchers who will assess the situation and dispatch the appropriate emergency services.",
@@ -73,12 +55,38 @@
             "tr": "Bu bölümde sunulan kelime bilgisini ve dilbilgisini öğrenerek, tıbbi acil durumlarla başa çıkmaya ve Almanca etkili bir şekilde iletişim kurmaya daha iyi hazırlanacaksınız.",
             "de": "Durch die Beherrschung des in diesem Abschnitt vorgestellten Vokabulars und der Grammatik sind Sie besser auf medizinische Notfälle vorbereitet und können effektiv auf Deutsch kommunizieren."
         },
-        "learningObjectives": [
-            "Learn essential vocabulary related to medical emergencies in German.",
-            "Understand how to describe a medical emergency situation in German.",
-            "Practice giving clear instructions in German during an emergency.",
-            "Recognize and respond appropriately to common medical emergencies in a German-speaking context."
-        ]
+        "learningObjectives": {
+            "en": [
+                "Learn essential vocabulary related to medical emergencies in German.",
+                "Understand how to describe a medical emergency situation in German.",
+                "Practice giving clear instructions in German during an emergency.",
+                "Recognize and respond appropriately to common medical emergencies in a German-speaking context."
+            ],
+            "bn": [
+                "শিখুন essential vocabulary related to medical emergencies in German.",
+                "বুঝুন how to describe a medical emergency situation in German.",
+                "অনুশীলন করুন giving clear instructions in German during an emergency.",
+                "Recognize and respond appropriately to common medical emergencies in a German-speaking context."
+            ],
+            "hi": [
+                "सीखें essential vocabulary related to medical emergencies in German.",
+                "समझें how to describe a medical emergency situation in German.",
+                "अभ्यास करें giving clear instructions in German during an emergency.",
+                "Recognize and respond appropriately to common medical emergencies in a German-speaking context."
+            ],
+            "ur": [
+                "سیکھیں essential vocabulary related to medical emergencies in German.",
+                "سمجھیں how to describe a medical emergency situation in German.",
+                "مشق کریں giving clear instructions in German during an emergency.",
+                "Recognize and respond appropriately to common medical emergencies in a German-speaking context."
+            ],
+            "tr": [
+                "Öğrenin essential vocabulary related to medical emergencies in German.",
+                "Anlayın how to describe a medical emergency situation in German.",
+                "Pratik yapın giving clear instructions in German during an emergency.",
+                "Recognize and respond appropriately to common medical emergencies in a German-speaking context."
+            ]
+        }
     },
     "vocabulary": [
         {
@@ -102,7 +110,8 @@
                 "ur": "طبی ایمرجنسی کے لیے 112 ڈائل کریں۔",
                 "tr": "Tıbbi acil durum için 112'yi arayın."
             },
-            "id": "v12_01"
+            "id": "v12_01",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_01.mp3"
         },
         {
             "germanTerm": "die Reanimation",
@@ -125,7 +134,8 @@
                 "ur": "فوری طور پر بحالی شروع کردی گئی۔",
                 "tr": "Canlandırmaya hemen başlandı."
             },
-            "id": "v12_02"
+            "id": "v12_02",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_02.mp3"
         },
         {
             "germanTerm": "der Notfall",
@@ -148,7 +158,8 @@
                 "ur": "ایمرجنسی کی صورت میں، فوری کارروائی ضروری ہے۔",
                 "tr": "Acil bir durumda, hızlı hareket etmek gerekir."
             },
-            "id": "v12_03"
+            "id": "v12_03",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_03.mp3"
         },
         {
             "germanTerm": "der Rettungswagen",
@@ -171,7 +182,8 @@
                 "ur": "ایمبولینس حادثے کی جگہ پر جا رہی ہے۔",
                 "tr": "Ambulans kaza yerine doğru yola çıktı."
             },
-            "id": "v12_04"
+            "id": "v12_04",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_04.mp3"
         },
         {
             "germanTerm": "die Erste Hilfe",
@@ -194,7 +206,8 @@
                 "ur": "ابتدائی طبی امداد فراہم کرنے کے قابل ہونا ضروری ہے۔",
                 "tr": "İlk yardım sağlayabilmek önemlidir."
             },
-            "id": "v12_05"
+            "id": "v12_05",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_05.mp3"
         },
         {
             "germanTerm": "lebensbedrohlich",
@@ -217,7 +230,8 @@
                 "ur": "مریض جان لیوا حالت میں ہے۔",
                 "tr": "Hasta hayatı tehdit eden bir durumda."
             },
-            "id": "v12_06"
+            "id": "v12_06",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_06.mp3"
         },
         {
             "germanTerm": "die Notaufnahme",
@@ -240,7 +254,8 @@
                 "ur": "مریض کو ایمرجنسی روم میں لے جایا گیا۔",
                 "tr": "Hasta acil servise götürüldü."
             },
-            "id": "v12_07"
+            "id": "v12_07",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_07.mp3"
         },
         {
             "germanTerm": "der Notarzt",
@@ -263,7 +278,8 @@
                 "ur": "ایمرجنسی طبیب کو جائے وقوعہ پر بلایا گیا۔",
                 "tr": "Acil doktoru olay yerine çağrıldı."
             },
-            "id": "v12_08"
+            "id": "v12_08",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_08.mp3"
         },
         {
             "germanTerm": "die Notfallsanitäter",
@@ -286,7 +302,8 @@
                 "ur": "پیرا میڈیکس نے مریض کو مستحکم کیا۔",
                 "tr": "Paramedikler hastayı stabilize etti."
             },
-            "id": "v12_09"
+            "id": "v12_09",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_09.mp3"
         },
         {
             "germanTerm": "die Bewusstlosigkeit",
@@ -309,7 +326,8 @@
                 "ur": "مریض بے ہوش ہو گیا۔",
                 "tr": "Hasta bilinç kaybı yaşadı."
             },
-            "id": "v12_10"
+            "id": "v12_10",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_10.mp3"
         },
         {
             "germanTerm": "der Herzstillstand",
@@ -332,7 +350,8 @@
                 "ur": "قلبی گرفتاری کی صورت میں، فوری کارروائی بہت ضروری ہے۔",
                 "tr": "Kalp durması durumunda, hızlı hareket etmek çok önemlidir."
             },
-            "id": "v12_11"
+            "id": "v12_11",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_11.mp3"
         },
         {
             "germanTerm": "die Atemnot",
@@ -355,7 +374,8 @@
                 "ur": "مریض نے شدید سانس کی قلت کی شکایت کی۔",
                 "tr": "Hasta şiddetli nefes darlığından şikayet etti."
             },
-            "id": "v12_12"
+            "id": "v12_12",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_12.mp3"
         },
         {
             "germanTerm": "die Verletzung",
@@ -378,7 +398,8 @@
                 "ur": "مریض کی چوٹ کا علاج کیا گیا۔",
                 "tr": "Hastanın yaralanması tedavi edildi."
             },
-            "id": "v12_13"
+            "id": "v12_13",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_13.mp3"
         },
         {
             "germanTerm": "der Schock",
@@ -401,7 +422,8 @@
                 "ur": "حادثے کے بعد مریض صدمے میں تھا۔",
                 "tr": "Hasta kazadan sonra şok yaşadı."
             },
-            "id": "v12_14"
+            "id": "v12_14",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_14.mp3"
         },
         {
             "germanTerm": "der Blutdruck",
@@ -424,7 +446,8 @@
                 "ur": "مریض کا بلڈ پریشر بہت کم ہے۔",
                 "tr": "Hastanın kan basıncı çok düşük."
             },
-            "id": "v12_15"
+            "id": "v12_15",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_15.mp3"
         },
         {
             "germanTerm": "die Wunde",
@@ -447,7 +470,8 @@
                 "ur": "زخم کو جراثیم کشی کرنا ہوگی۔",
                 "tr": "Yaranın dezenfekte edilmesi gerekiyor."
             },
-            "id": "v12_16"
+            "id": "v12_16",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_16.mp3"
         },
         {
             "germanTerm": "der Sauerstoff",
@@ -470,7 +494,8 @@
                 "ur": "مریض کو آکسیجن کی ضرورت ہے۔",
                 "tr": "Hastanın oksijene ihtiyacı var."
             },
-            "id": "v12_17"
+            "id": "v12_17",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_17.mp3"
         },
         {
             "germanTerm": "die Einweisung",
@@ -493,7 +518,8 @@
                 "ur": "مریض کو ہسپتال میں داخلے کے لیے ایک ریفرل ملا۔",
                 "tr": "Hasta hastaneye sevk aldı."
             },
-            "id": "v12_18"
+            "id": "v12_18",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_18.mp3"
         },
         {
             "germanTerm": "die Diagnose",
@@ -516,7 +542,8 @@
                 "ur": "تشخیص ہارٹ اٹیک ہے۔",
                 "tr": "Teşhis kalp krizi."
             },
-            "id": "v12_19"
+            "id": "v12_19",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_19.mp3"
         },
         {
             "germanTerm": "der Kreislauf",
@@ -539,7 +566,8 @@
                 "ur": "مریض کی گردش غیر مستحکم ہے۔",
                 "tr": "Hastanın dolaşımı istikrarsız."
             },
-            "id": "v12_20"
+            "id": "v12_20",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_20.mp3"
         },
         {
             "germanTerm": "die Intubation",
@@ -562,7 +590,8 @@
                 "ur": "مریض کو انٹیوبیٹ کرنا پڑا۔",
                 "tr": "Hastaya entübe edilmesi gerekti."
             },
-            "id": "v12_21"
+            "id": "v12_21",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_21.mp3"
         },
         {
             "germanTerm": "stabilisieren",
@@ -585,7 +614,8 @@
                 "ur": "ہمیں مریض کو مستحکم کرنا ہوگا۔",
                 "tr": "Hastayı stabilize etmemiz gerekiyor."
             },
-            "id": "v12_22"
+            "id": "v12_22",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_22.mp3"
         },
         {
             "germanTerm": "die Überwachung",
@@ -608,7 +638,8 @@
                 "ur": "مریض مسلسل نگرانی میں ہے۔",
                 "tr": "Hasta sürekli gözetim altında."
             },
-            "id": "v12_23"
+            "id": "v12_23",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_23.mp3"
         },
         {
             "germanTerm": "das Trauma",
@@ -631,7 +662,8 @@
                 "ur": "مریض کو شدید صدمہ پہنچا ہے۔",
                 "tr": "Hasta ağır bir travma geçirdi."
             },
-            "id": "v12_24"
+            "id": "v12_24",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_24.mp3"
         },
         {
             "germanTerm": "die Beatmung",
@@ -654,7 +686,8 @@
                 "ur": "مریض کو مصنوعی وینٹیلیشن کی ضرورت ہے۔",
                 "tr": "Hastanın yapay havalandırmaya ihtiyacı var."
             },
-            "id": "v12_25"
+            "id": "v12_25",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_25.mp3"
         },
         {
             "germanTerm": "die Infusion",
@@ -677,7 +710,8 @@
                 "ur": "مریض کو انفیوژن مل رہا ہے۔",
                 "tr": "Hasta bir infüzyon alıyor."
             },
-            "id": "v12_26"
+            "id": "v12_26",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_26.mp3"
         },
         {
             "germanTerm": "das Medikament",
@@ -700,7 +734,8 @@
                 "ur": "دوا نسوں کے ذریعے دی گئی تھی۔",
                 "tr": "İlaç intravenöz olarak uygulandı."
             },
-            "id": "v12_27"
+            "id": "v12_27",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_27.mp3"
         },
         {
             "germanTerm": "die Anamnese",
@@ -723,7 +758,8 @@
                 "ur": "طبی تاریخ احتیاط سے لی گئی۔",
                 "tr": "Tıbbi geçmiş dikkatlice alındı."
             },
-            "id": "v12_28"
+            "id": "v12_28",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_28.mp3"
         },
         {
             "germanTerm": "die Untersuchung",
@@ -746,7 +782,8 @@
                 "ur": "مریض کا اچھی طرح سے معائنہ کیا جا رہا ہے۔",
                 "tr": "Hasta iyice muayene ediliyor."
             },
-            "id": "v12_29"
+            "id": "v12_29",
+            "audioUrl": "assets/audio/sections/section_12/vocabulary/v12_29.mp3"
         }
     ],
     "dialogues": [
@@ -776,7 +813,8 @@
                         "hi": "आपातकाल! मरीज मुलर गिर गए! कोई नाड़ी नहीं!",
                         "ur": "ایمرجنسی! مریض مولر گر گئے! کوئی نبض نہیں!",
                         "tr": "Acil durum! Hasta Müller çöktü! Nabız yok!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_01_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -788,7 +826,8 @@
                         "hi": "पुनर्जीवन गाड़ी लाओ! मैं छाती को दबाना शुरू करूँगा। क्या आपातकालीन कॉल की गई है?",
                         "ur": "احیاء کی ٹرالی لے آؤ! میں سینے کو دبانا شروع کروں گا۔ کیا ایمرجنسی کال کی گئی ہے؟",
                         "tr": "Resüsitasyon arabasını getirin! Göğüs kompresyonlarına başlayacağım. Acil çağrı yapıldı mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_01_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -800,7 +839,8 @@
                         "hi": "हाँ, आपातकालीन कॉल की गई है। एम्बुलेंस रास्ते में है।",
                         "ur": "ہاں، ایمرجنسی کال کی گئی ہے۔ ایمبولینس راستے میں ہے۔",
                         "tr": "Evet, acil çağrı yapıldı. Ambulans yolda."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_01_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -812,7 +852,8 @@
                         "hi": "एड्रेनालाईन इंजेक्ट करें! हमें उसे पुनर्जीवित करना होगा। जानलेवा स्थिति।",
                         "ur": "ایڈرینالین انجیکٹ کریں! ہمیں اسے بحال کرنا ہوگا۔ جان لیوا صورتحال۔",
                         "tr": "Adrenalin enjekte edin! Onu canlandırmamız gerekiyor. Hayatı tehdit eden durum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_01_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -824,7 +865,8 @@
                         "hi": "एड्रेनालाईन इंजेक्ट किया गया। ईसीजी एसिस्टोल दिखा रहा है।",
                         "ur": "ایڈرینالین انجیکٹ کیا گیا ہے۔ ای سی جی ایسسٹول دکھا رہا ہے۔",
                         "tr": "Adrenalin enjekte edildi. EKG asistol gösteriyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_01_line5.mp3"
                 }
             ],
             "id": "d12_01"
@@ -855,7 +897,8 @@
                         "hi": "आपातकालीन कॉल सेंटर, क्या हुआ?",
                         "ur": "ایمرجنسی کال سینٹر، کیا ہوا؟",
                         "tr": "Acil çağrı merkezi, ne oldu?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_02_line1.mp3"
                 },
                 {
                     "speaker": "Anrufer",
@@ -867,7 +910,8 @@
                         "hi": "ए5 पर गंभीर कार दुर्घटना! कई घायल, एक बेहोश!",
                         "ur": "اے 5 پر سنگین کار حادثہ! کئی زخمی، ایک بے ہوش!",
                         "tr": "A5'te ciddi bir araba kazası! Birkaç yaralı, biri bilinçsiz!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_02_line2.mp3"
                 },
                 {
                     "speaker": "Disponent",
@@ -879,7 +923,8 @@
                         "hi": "एम्बुलेंस और आपातकालीन चिकित्सक को सूचित किया गया है। क्या आप प्राथमिक चिकित्सा प्रदान कर सकते हैं?",
                         "ur": "ایمبولینس اور ایمرجنسی ڈاکٹر کو مطلع کیا گیا ہے۔ کیا آپ ابتدائی طبی امداد فراہم کر سکتے ہیں؟",
                         "tr": "Ambulans ve acil doktor uyarıldı. İlk yardım sağlayabilir misiniz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_02_line3.mp3"
                 },
                 {
                     "speaker": "Anrufer",
@@ -891,7 +936,8 @@
                         "hi": "मैं कोशिश कर रहा हूँ, लेकिन मैं पैरामेडिक नहीं हूँ। स्थिति जानलेवा है!",
                         "ur": "میں کوشش کر رہا ہوں، لیکن میں پیرامیڈک نہیں ہوں۔ صورتحال جان لیوا ہے!",
                         "tr": "Deniyorum ama ben bir paramedik değilim. Durum hayatı tehdit ediyor!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_02_line4.mp3"
                 },
                 {
                     "speaker": "Disponent",
@@ -903,7 +949,8 @@
                         "hi": "एम्बुलेंस कुछ ही मिनटों में वहाँ होगी। हिम्मत रखिए!",
                         "ur": "ایمبولینس چند منٹوں میں وہاں ہوگی۔ ہمت رکھیں!",
                         "tr": "Ambulans birkaç dakika içinde orada olacak. Dayan!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_02_line5.mp3"
                 }
             ],
             "id": "d12_02"
@@ -934,7 +981,8 @@
                         "hi": "डॉ. क्लेन, हमारे पास एक स्ट्रोक संदिग्ध मरीज है। भाषण विकार और हेमिपेरेसिस।",
                         "ur": "ڈاکٹر کلین، ہمارے پاس اسٹروک کے مشتبہ مریض ہیں۔ تقریر میں خرابی اور ہیمیپیریسس۔",
                         "tr": "Dr. Klein, felç şüphesi olan bir hastamız var. Konuşma bozukluğu ve hemiparezi."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_03_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -946,7 +994,8 @@
                         "hi": "तत्काल निदान! आपातकालीन सीटी स्कैन! क्या एम्बुलेंस को सूचित किया गया है?",
                         "ur": "فوری تشخیص! ایمرجنسی سی ٹی سکین! کیا ایمبولینس کو مطلع کیا گیا ہے؟",
                         "tr": "Hemen teşhis! Acil BT taraması! Ambulansa bilgi verildi mi?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_03_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Meier",
@@ -958,7 +1007,8 @@
                         "hi": "मरीज खुद आया था। हमने स्थिति बिगड़ने पर तुरंत आपातकालीन कॉल की तैयारी की है।",
                         "ur": "مریض خود آیا تھا۔ ہم نے حالت خراب ہونے کی صورت میں فوری طور پر ایمرجنسی کال کی تیاری کی ہے۔",
                         "tr": "Hasta kendi başına geldi. Durumun kötüleşmesi durumunda hemen acil çağrı hazırladık."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_03_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -970,7 +1020,8 @@
                         "hi": "समय ही मस्तिष्क है! हमें जल्दी काम करना होगा। हर पल उसके मस्तिष्क के लिए जानलेवा है।",
                         "ur": "وقت دماغ ہے! ہمیں جلدی کام کرنا ہوگا۔ ہر لمحہ اس کے دماغ کے لیے جان لیوا ہے۔",
                         "tr": "Zaman beyindir! Hızlı hareket etmeliyiz. Her an beyni için hayatı tehdit ediyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_03_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -982,7 +1033,8 @@
                         "hi": "ब्लड प्रेशर मापें और दस्तावेज़ करें! यदि संकेत दिया गया है तो तत्काल थ्रोम्बोलाइसिस तैयार करें।",
                         "ur": "بلڈ پریشر کی پیمائش کریں اور دستاویز کریں! اگر اشارہ کیا گیا ہے تو فوری طور پر تھرومبولیزیز تیار کریں۔",
                         "tr": "Kan basıncını ölçün ve belgeleyin! Gerekirse hemen trombolizi hazırlayın."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_03_line5.mp3"
                 }
             ],
             "id": "d12_03"
@@ -1013,7 +1065,8 @@
                         "hi": "मैं... मैं सांस नहीं ले पा रहा हूँ! हर जगह झुनझुनी हो रही है!",
                         "ur": "میں... میں سانس نہیں لے پا رہا ہوں! ہر جگہ جھنجھلاہٹ ہو رہی ہے!",
                         "tr": "Ben... Nefes alamıyorum! Her yerde karıncalanma var!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_04_line1.mp3"
                 },
                 {
                     "speaker": "Schwester Anna",
@@ -1025,7 +1078,8 @@
                         "hi": "डॉ. वेबर! मरीज श्मिट को गंभीर एलर्जी प्रतिक्रिया हो रही है! आपातकाल!",
                         "ur": "ڈاکٹر ویبر! مریض شمٹ کو شدید الرجی رد عمل ہو رہا ہے! ایمرجنسی!",
                         "tr": "Dr. Weber! Hasta Schmidt'in şiddetli bir alerjik reaksiyonu var! Acil durum!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_04_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -1037,7 +1091,8 @@
                         "hi": "तुरंत एड्रेनालाईन! और ऑक्सीजन! क्या आपातकालीन कॉल की गई है?",
                         "ur": "فوری طور پر ایڈرینالین! اور آکسیجن! کیا ایمرجنسی کال کی گئی ہے؟",
                         "tr": "Hemen adrenalin! Ve oksijen! Acil çağrı yapıldı mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_04_line3.mp3"
                 },
                 {
                     "speaker": "Schwester Anna",
@@ -1049,7 +1104,8 @@
                         "hi": "हाँ, आपातकालीन कॉल की गई है। एम्बुलेंस को सूचित किया गया है।",
                         "ur": "ہاں، ایمرجنسی کال کی گئی ہے۔ ایمبولینس کو مطلع کیا گیا ہے۔",
                         "tr": "Evet, acil çağrı yapıldı. Ambulansa bilgi verildi."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_04_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -1061,7 +1117,8 @@
                         "hi": "ब्लड प्रेशर गिर रहा है! हमें परिसंचरण को स्थिर करना होगा। जानलेवा!",
                         "ur": "بلڈ پریشر گر رہا ہے! ہمیں گردش کو مستحکم کرنا ہوگا۔ جان لیوا!",
                         "tr": "Kan basıncı düşüyor! Dolaşımı stabilize etmeliyiz. Hayatı tehdit ediyor!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_04_line5.mp3"
                 }
             ],
             "id": "d12_04"
@@ -1092,7 +1149,8 @@
                         "hi": "मेरे सीने में बहुत दर्द है! यह दबाव की भावना है!",
                         "ur": "میرے سینے میں بہت درد ہے! یہ دباؤ کا احساس ہے!",
                         "tr": "Göğsümde şiddetli bir ağrı var! Bir baskı hissi!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_05_line1.mp3"
                 },
                 {
                     "speaker": "Schwester Lisa",
@@ -1104,7 +1162,8 @@
                         "hi": "हम तुरंत डॉक्टर को बुला रहे हैं! लेट जाइए!",
                         "ur": "ہم فوری طور پر ڈاکٹر کو بلا رہے ہیں! لیٹ جائیں!",
                         "tr": "Hemen doktoru arayacağız! Uzanın!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_05_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Hartmann",
@@ -1116,7 +1175,8 @@
                         "hi": "ईसीजी लिखें! ऑक्सीजन दें! क्या आपातकालीन कॉल तैयार है?",
                         "ur": "ای سی جی لکھیں! آکسیجن دیں! کیا ایمرجنسی کال تیار ہے؟",
                         "tr": "EKG çekin! Oksijen verin! Acil çağrı hazır mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_05_line3.mp3"
                 },
                 {
                     "speaker": "Schwester Lisa",
@@ -1128,7 +1188,8 @@
                         "hi": "ईसीजी चल रहा है। आपातकालीन कॉल तुरंत संभव होगी। ऑक्सीजन दी जा रही है।",
                         "ur": "ای سی جی چل رہی ہے۔ ایمرجنسی کال فوری طور پر ممکن ہوگی۔ آکسیجن دی جا رہی ہے۔",
                         "tr": "EKG çalışıyor. Acil çağrı hemen mümkün olacak. Oksijen veriliyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_05_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Hartmann",
@@ -1140,7 +1201,8 @@
                         "hi": "जीभ के नीचे नाइट्रोस्प्रे! संभावित दिल का दौरा! जानलेवा!",
                         "ur": "زبان کے نیچے نائٹروسپری! ممکنہ دل کا دورہ! جان لیوا!",
                         "tr": "Dil altına nitrosprey! Muhtemel kalp krizi! Hayatı tehdit ediyor!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_12/dialogues/d12_05_line5.mp3"
                 }
             ],
             "id": "d12_05"

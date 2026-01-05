@@ -32,30 +32,12 @@
             "de": "In diesem Abschnitt werden wir uns mit häufigen neurologischen Erkrankungen und ihrer deutschen medizinischen Terminologie befassen. Sie lernen, wie Sie Symptome, diagnostische Verfahren und Behandlungsoptionen im Zusammenhang mit diesen Erkrankungen auf Deutsch beschreiben."
         },
         "grammarFocus": {
-            "en": {
-                "point1": "Use of adjective endings after definite and indefinite articles when describing neurological symptoms (e.g., 'der starke Kopfschmerz', 'ein leichter Tremor').",
-                "point2": "Practice forming passive voice constructions to describe medical procedures (e.g., 'Der Patient wird untersucht' - 'The patient is being examined')."
-            },
-            "bn": {
-                "point1": "স্নায়বিক লক্ষণ বর্ণনা করার সময় নির্দিষ্ট এবং অনির্দিষ্ট প্রবন্ধের পরে বিশেষণগুলির ব্যবহার (যেমন, 'der starke Kopfschmerz', 'ein leichter Tremor')।",
-                "point2": "চিকিৎসা পদ্ধতি বর্ণনা করার জন্য প্যাসিভ ভয়েস গঠন তৈরি করার অনুশীলন (যেমন, 'Der Patient wird untersucht' - 'রোগীকে পরীক্ষা করা হচ্ছে')।"
-            },
-            "hi": {
-                "point1": "न्यूरोलॉजिकल लक्षणों का वर्णन करते समय निश्चित और अनिश्चित लेखों के बाद विशेषण अंत का उपयोग (जैसे, 'der starke Kopfschmerz', 'ein leichter Tremor')।",
-                "point2": "चिकित्सा प्रक्रियाओं का वर्णन करने के लिए निष्क्रिय आवाज निर्माण बनाने का अभ्यास (जैसे, 'Der Patient wird untersucht' - 'रोगी की जांच की जा रही है')।"
-            },
-            "ur": {
-                "point1": "نیورولوجیکل علامات کو بیان کرتے وقت متعین اور غیر متعین مضامین کے بعد صفت کے اختتام کا استعمال (مثال کے طور پر، 'der starke Kopfschmerz', 'ein leichter Tremor')۔",
-                "point2": "طبی طریقہ کار کو بیان کرنے کے لیے غیر فعال آواز کی تعمیرات بنانے کی مشق (مثال کے طور پر، 'Der Patient wird untersucht' - 'مریض کا معائنہ کیا جا رہا ہے')۔"
-            },
-            "tr": {
-                "point1": "Nörolojik semptomları tanımlarken belirli ve belirsiz tanımlıklardan sonra sıfat eklerinin kullanımı (örneğin, 'der starke Kopfschmerz', 'ein leichter Tremor').",
-                "point2": "Tıbbi prosedürleri tanımlamak için edilgen yapıları oluşturma alıştırması (örneğin, 'Der Patient wird untersucht' - 'Hasta muayene ediliyor')."
-            },
-            "de": {
-                "point1": "Verwendung von Adjektivendungen nach bestimmten und unbestimmten Artikeln bei der Beschreibung neurologischer Symptome (z.B. 'der starke Kopfschmerz', 'ein leichter Tremor').",
-                "point2": "Üben Sie die Bildung von Passivkonstruktionen zur Beschreibung medizinischer Verfahren (z.B. 'Der Patient wird untersucht' - 'Der Patient wird untersucht')."
-            }
+            "en": "**Neurology: Reflexive Verbs and Symptom Description**\n\nNeurological examinations require specific reflexive verb constructions and precise symptom vocabulary.\n\n*Reflexive Verbs in Neurology:*\n- 'sich bewegen' (to move oneself) → 'Können Sie sich bewegen?' (Can you move?)\n- 'sich fühlen' (to feel) → 'Wie fühlen Sie sich?' (How do you feel?)\n- 'sich konzentrieren' (to concentrate) → 'Können Sie sich konzentrieren?' (Can you concentrate?)\n- 'sich erinnern' (to remember) → 'Können Sie sich erinnern?' (Can you remember?)\n\n**Dative Reflexive for Body Parts:**\nWhen the reflexive refers to a body part:\n- 'Ich wasche mir die Hände.' (I wash my hands.)\n- 'Der Patient kann sich den Arm nicht bewegen.' (The patient cannot move his arm.)\n\n*Neurological Examination Commands:*\n- 'Folgen Sie meinem Finger mit den Augen.' (Follow my finger with your eyes.)\n- 'Drücken Sie meine Hände.' (Squeeze my hands.)\n- 'Heben Sie beide Arme.' (Raise both arms.)\n- 'Schließen Sie die Augen.' (Close your eyes.)\n\n**Describing Neurological Symptoms:**\n| Symptom | German | Example |\n|---------|--------|---------|\n| Numbness | die Taubheit | Taubheit im linken Arm |\n| Tingling | das Kribbeln | Kribbeln in den Fingern |\n| Weakness | die Schwäche | Schwäche im rechten Bein |\n| Dizziness | der Schwindel | Schwindel beim Aufstehen |\n\n*Temporal Adverbs for Symptom Onset:*\n- 'plötzlich' (suddenly) - 'Der Schwindel trat plötzlich auf.'\n- 'allmählich' (gradually) - 'Die Schwäche entwickelte sich allmählich.'",
+            "de": "**Neurologie: Reflexive Verben und Symptombeschreibung**\n\nNeurologische Untersuchungen erfordern spezifische reflexive Verbkonstruktionen.\n\n*Reflexive Verben in der Neurologie:*\n- 'sich bewegen' → 'Können Sie sich bewegen?'\n- 'sich fühlen' → 'Wie fühlen Sie sich?'\n- 'sich konzentrieren' → 'Können Sie sich konzentrieren?'\n- 'sich erinnern' → 'Können Sie sich erinnern?'\n\n**Dativ-Reflexiv für Körperteile:**\n- 'Ich wasche mir die Hände.'\n- 'Der Patient kann sich den Arm nicht bewegen.'\n\n*Neurologische Untersuchungsbefehle:*\n- 'Folgen Sie meinem Finger mit den Augen.'\n- 'Drücken Sie meine Hände.'\n- 'Heben Sie beide Arme.'\n- 'Schließen Sie die Augen.'\n\n**Neurologische Symptome beschreiben:**\n| Symptom | Beispiel |\n|---------|----------|\n| die Taubheit | Taubheit im linken Arm |\n| das Kribbeln | Kribbeln in den Fingern |\n| die Schwäche | Schwäche im rechten Bein |\n| der Schwindel | Schwindel beim Aufstehen |\n\n*Temporaladverbien für Symptombeginn:*\n- 'plötzlich' - 'Der Schwindel trat plötzlich auf.'\n- 'allmählich' - 'Die Schwäche entwickelte sich allmählich.'",
+            "bn": "**Neurology: Reflexive Verbs and Symptom Description**\n\nNeurological examinations require specific reflexive verb constructions and precise symptom vocabulary.\n\n*Reflexive Verbs in Neurology:*\n- 'sich bewegen' (to move oneself) → 'Können Sie sich bewegen?' (Can you move?)\n- 'sich fühlen' (to feel) → 'Wie fühlen Sie sich?' (How do you feel?)\n- 'sich konzentrieren' (to concentrate) → 'Können Sie sich konzentrieren?' (Can you concentrate?)\n- 'sich erinnern' (to remember) → 'Können Sie sich erinnern?' (Can you remember?)\n\n**Dative Reflexive for Body Parts:**\nWhen the reflexive refers to a body part:\n- 'Ich wasche mir die Hände.' (I wash my hands.)\n- 'Der Patient kann sich den Arm nicht bewegen.' (The patient cannot move his arm.)\n\n*Neurological Examination Commands:*\n- 'Folgen Sie meinem Finger mit den Augen.' (Follow my finger with your eyes.)\n- 'Drücken Sie meine Hände.' (Squeeze my hands.)\n- 'Heben Sie beide Arme.' (Raise both arms.)\n- 'Schließen Sie die Augen.' (Close your eyes.)\n\n**Describing Neurological Symptoms:**\n| Symptom | German | Example |\n|---------|--------|---------|\n| Numbness | die Taubheit | Taubheit im linken Arm |\n| Tingling | das Kribbeln | Kribbeln in den Fingern |\n| Weakness | die Schwäche | Schwäche im rechten Bein |\n| Dizziness | der Schwindel | Schwindel beim Aufstehen |\n\n*Temporal Adverbs for Symptom Onset:*\n- 'plötzlich' (suddenly) - 'Der Schwindel trat plötzlich auf.'\n- 'allmählich' (gradually) - 'Die Schwäche entwickelte sich allmählich.'",
+            "hi": "**Neurology: Reflexive Verbs and Symptom Description**\n\nNeurological examinations require specific reflexive verb constructions and precise symptom vocabulary.\n\n*Reflexive Verbs in Neurology:*\n- 'sich bewegen' (to move oneself) → 'Können Sie sich bewegen?' (Can you move?)\n- 'sich fühlen' (to feel) → 'Wie fühlen Sie sich?' (How do you feel?)\n- 'sich konzentrieren' (to concentrate) → 'Können Sie sich konzentrieren?' (Can you concentrate?)\n- 'sich erinnern' (to remember) → 'Können Sie sich erinnern?' (Can you remember?)\n\n**Dative Reflexive for Body Parts:**\nWhen the reflexive refers to a body part:\n- 'Ich wasche mir die Hände.' (I wash my hands.)\n- 'Der Patient kann sich den Arm nicht bewegen.' (The patient cannot move his arm.)\n\n*Neurological Examination Commands:*\n- 'Folgen Sie meinem Finger mit den Augen.' (Follow my finger with your eyes.)\n- 'Drücken Sie meine Hände.' (Squeeze my hands.)\n- 'Heben Sie beide Arme.' (Raise both arms.)\n- 'Schließen Sie die Augen.' (Close your eyes.)\n\n**Describing Neurological Symptoms:**\n| Symptom | German | Example |\n|---------|--------|---------|\n| Numbness | die Taubheit | Taubheit im linken Arm |\n| Tingling | das Kribbeln | Kribbeln in den Fingern |\n| Weakness | die Schwäche | Schwäche im rechten Bein |\n| Dizziness | der Schwindel | Schwindel beim Aufstehen |\n\n*Temporal Adverbs for Symptom Onset:*\n- 'plötzlich' (suddenly) - 'Der Schwindel trat plötzlich auf.'\n- 'allmählich' (gradually) - 'Die Schwäche entwickelte sich allmählich.'",
+            "ur": "**Neurology: Reflexive Verbs and Symptom Description**\n\nNeurological examinations require specific reflexive verb constructions and precise symptom vocabulary.\n\n*Reflexive Verbs in Neurology:*\n- 'sich bewegen' (to move oneself) → 'Können Sie sich bewegen?' (Can you move?)\n- 'sich fühlen' (to feel) → 'Wie fühlen Sie sich?' (How do you feel?)\n- 'sich konzentrieren' (to concentrate) → 'Können Sie sich konzentrieren?' (Can you concentrate?)\n- 'sich erinnern' (to remember) → 'Können Sie sich erinnern?' (Can you remember?)\n\n**Dative Reflexive for Body Parts:**\nWhen the reflexive refers to a body part:\n- 'Ich wasche mir die Hände.' (I wash my hands.)\n- 'Der Patient kann sich den Arm nicht bewegen.' (The patient cannot move his arm.)\n\n*Neurological Examination Commands:*\n- 'Folgen Sie meinem Finger mit den Augen.' (Follow my finger with your eyes.)\n- 'Drücken Sie meine Hände.' (Squeeze my hands.)\n- 'Heben Sie beide Arme.' (Raise both arms.)\n- 'Schließen Sie die Augen.' (Close your eyes.)\n\n**Describing Neurological Symptoms:**\n| Symptom | German | Example |\n|---------|--------|---------|\n| Numbness | die Taubheit | Taubheit im linken Arm |\n| Tingling | das Kribbeln | Kribbeln in den Fingern |\n| Weakness | die Schwäche | Schwäche im rechten Bein |\n| Dizziness | der Schwindel | Schwindel beim Aufstehen |\n\n*Temporal Adverbs for Symptom Onset:*\n- 'plötzlich' (suddenly) - 'Der Schwindel trat plötzlich auf.'\n- 'allmählich' (gradually) - 'Die Schwäche entwickelte sich allmählich.'",
+            "tr": "**Neurology: Reflexive Verbs and Symptom Description**\n\nNeurological examinations require specific reflexive verb constructions and precise symptom vocabulary.\n\n*Reflexive Verbs in Neurology:*\n- 'sich bewegen' (to move oneself) → 'Können Sie sich bewegen?' (Can you move?)\n- 'sich fühlen' (to feel) → 'Wie fühlen Sie sich?' (How do you feel?)\n- 'sich konzentrieren' (to concentrate) → 'Können Sie sich konzentrieren?' (Can you concentrate?)\n- 'sich erinnern' (to remember) → 'Können Sie sich erinnern?' (Can you remember?)\n\n**Dative Reflexive for Body Parts:**\nWhen the reflexive refers to a body part:\n- 'Ich wasche mir die Hände.' (I wash my hands.)\n- 'Der Patient kann sich den Arm nicht bewegen.' (The patient cannot move his arm.)\n\n*Neurological Examination Commands:*\n- 'Folgen Sie meinem Finger mit den Augen.' (Follow my finger with your eyes.)\n- 'Drücken Sie meine Hände.' (Squeeze my hands.)\n- 'Heben Sie beide Arme.' (Raise both arms.)\n- 'Schließen Sie die Augen.' (Close your eyes.)\n\n**Describing Neurological Symptoms:**\n| Symptom | German | Example |\n|---------|--------|---------|\n| Numbness | die Taubheit | Taubheit im linken Arm |\n| Tingling | das Kribbeln | Kribbeln in den Fingern |\n| Weakness | die Schwäche | Schwäche im rechten Bein |\n| Dizziness | der Schwindel | Schwindel beim Aufstehen |\n\n*Temporal Adverbs for Symptom Onset:*\n- 'plötzlich' (suddenly) - 'Der Schwindel trat plötzlich auf.'\n- 'allmählich' (gradually) - 'Die Schwäche entwickelte sich allmählich.'"
         },
         "culturalNotes": {
             "en": "In German hospitals, medical professionals often use a more formal and direct communication style, especially when discussing diagnoses or treatment plans with patients.",
@@ -73,12 +55,38 @@
             "tr": "Bu bölüm, Alman tıbbi bağlamında yaygın nörolojik durumları anlamak ve iletişim kurmak için bir temel sağlar.",
             "de": "Dieser Abschnitt bietet eine Grundlage für das Verständnis und die Kommunikation über häufige neurologische Erkrankungen im deutschen medizinischen Kontext."
         },
-        "learningObjectives": [
-            "Recognize and use German medical terminology for common neurological conditions.",
-            "Describe the symptoms and diagnostic procedures for stroke, epilepsy, Parkinson's, and multiple sclerosis in German.",
-            "Explain the Glasgow Coma Scale (GCS) in German and apply it to assess patient consciousness.",
-            "Understand the cultural nuances of communicating with patients about neurological diagnoses in a German medical setting."
-        ]
+        "learningObjectives": {
+            "en": [
+                "Recognize and use German medical terminology for common neurological conditions.",
+                "Describe the symptoms and diagnostic procedures for stroke, epilepsy, Parkinson's, and multiple sclerosis in German.",
+                "Explain the Glasgow Coma Scale (GCS) in German and apply it to assess patient consciousness.",
+                "Understand the cultural nuances of communicating with patients about neurological diagnoses in a German medical setting."
+            ],
+            "bn": [
+                "Recognize and ব্যবহার করুন German medical terminology for common neurological conditions.",
+                "Describe the symptoms and diagnostic procedures for stroke, epilepsy, Parkinson's, and multiple sclerosis in German.",
+                "Explain the Glasgow Coma Scale (GCS) in German and প্রয়োগ করুন it to assess patient consciousness.",
+                "বুঝুন the cultural nuances of communicating with patients about neurological diagnoses in a German medical setting."
+            ],
+            "hi": [
+                "Recognize and उपयोग करें German medical terminology for common neurological conditions.",
+                "Describe the symptoms and diagnostic procedures for stroke, epilepsy, Parkinson's, and multiple sclerosis in German.",
+                "Explain the Glasgow Coma Scale (GCS) in German and लागू करें it to assess patient consciousness.",
+                "समझें the cultural nuances of communicating with patients about neurological diagnoses in a German medical setting."
+            ],
+            "ur": [
+                "Recognize and استعمال کریں German medical terminology for common neurological conditions.",
+                "Describe the symptoms and diagnostic procedures for stroke, epilepsy, Parkinson's, and multiple sclerosis in German.",
+                "Explain the Glasgow Coma Scale (GCS) in German and لاگو کریں it to assess patient consciousness.",
+                "سمجھیں the cultural nuances of communicating with patients about neurological diagnoses in a German medical setting."
+            ],
+            "tr": [
+                "Recognize and Kullanın German medical terminology for common neurological conditions.",
+                "Describe the symptoms and diagnostic procedures for stroke, epilepsy, Parkinson's, and multiple sclerosis in German.",
+                "Explain the Glasgow Coma Scale (GCS) in German and Uygulayın it to assess patient consciousness.",
+                "Anlayın the cultural nuances of communicating with patients about neurological diagnoses in a German medical setting."
+            ]
+        }
     },
     "vocabulary": [
         {
@@ -102,7 +110,8 @@
                 "ur": "مریض کو اسکیمک فالج ہوا۔",
                 "tr": "Hasta iskemik inme geçirdi."
             },
-            "id": "v24_01"
+            "id": "v24_01",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_01.mp3"
         },
         {
             "germanTerm": "die Epilepsie",
@@ -125,7 +134,8 @@
                 "ur": "مرگی کی تشخیص کی تصدیق ہوگئی۔",
                 "tr": "Epilepsi teşhisi doğrulandı."
             },
-            "id": "v24_02"
+            "id": "v24_02",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_02.mp3"
         },
         {
             "germanTerm": "die Parkinson-Krankheit",
@@ -148,7 +158,8 @@
                 "ur": "مریض پارکنسنز کی بیماری کی علامات ظاہر کر رہا ہے۔",
                 "tr": "Hasta Parkinson hastalığı belirtileri gösteriyor."
             },
-            "id": "v24_03"
+            "id": "v24_03",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_03.mp3"
         },
         {
             "germanTerm": "die Multiple Sklerose",
@@ -171,7 +182,8 @@
                 "ur": "ملٹیپل سکلیروسس مریض کی موٹر مہارت کو خراب کرتا ہے۔",
                 "tr": "Multipl skleroz hastanın motor becerilerini bozar."
             },
-            "id": "v24_04"
+            "id": "v24_04",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_04.mp3"
         },
         {
             "germanTerm": "die Lähmung",
@@ -194,7 +206,8 @@
                 "ur": "فالج جسم کے بائیں جانب کو متاثر کرتا ہے۔",
                 "tr": "Felç vücudun sol tarafını etkiliyor."
             },
-            "id": "v24_05"
+            "id": "v24_05",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_05.mp3"
         },
         {
             "germanTerm": "das Bewusstsein",
@@ -217,7 +230,8 @@
                 "ur": "مریض بے ہوش ہوگیا ہے۔",
                 "tr": "Hasta bilincini kaybetti."
             },
-            "id": "v24_06"
+            "id": "v24_06",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_06.mp3"
         },
         {
             "germanTerm": "die Glasgow Coma Scale (GCS)",
@@ -240,7 +254,8 @@
                 "ur": "مریض کا جی سی ایس 8 ہے۔",
                 "tr": "Hastanın GKS'si 8."
             },
-            "id": "v24_07"
+            "id": "v24_07",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_07.mp3"
         },
         {
             "germanTerm": "die Hemiparese",
@@ -263,7 +278,8 @@
                 "ur": "مریض دائیں طرف ہیمی پیرسس دکھا رہا ہے۔",
                 "tr": "Hasta sağ tarafta hemiparezi gösteriyor."
             },
-            "id": "v24_08"
+            "id": "v24_08",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_08.mp3"
         },
         {
             "germanTerm": "die Aphasie",
@@ -286,7 +302,8 @@
                 "ur": "حبس کلام مواصلات کو مشکل بنا دیتا ہے۔",
                 "tr": "Afazi iletişimi zorlaştırıyor."
             },
-            "id": "v24_09"
+            "id": "v24_09",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_09.mp3"
         },
         {
             "germanTerm": "der Tremor",
@@ -309,7 +326,8 @@
                 "ur": "رعشہ آرام کے وقت خاص طور پر مضبوط ہوتا ہے۔",
                 "tr": "Titreme özellikle dinlenirken çok şiddetli."
             },
-            "id": "v24_10"
+            "id": "v24_10",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_10.mp3"
         },
         {
             "germanTerm": "die Spastik",
@@ -332,7 +350,8 @@
                 "ur": "سپیسٹی سٹی کا علاج باکلوفین سے کیا جاتا ہے۔",
                 "tr": "Spastisite Baklofen ile tedavi edilir."
             },
-            "id": "v24_11"
+            "id": "v24_11",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_11.mp3"
         },
         {
             "germanTerm": "die Sensibilitätsstörung",
@@ -355,7 +374,8 @@
                 "ur": "مریض پیروں میں حسی خلل کی شکایت کر رہا ہے۔",
                 "tr": "Hasta ayaklarında duyu bozukluklarından şikayet ediyor."
             },
-            "id": "v24_12"
+            "id": "v24_12",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_12.mp3"
         },
         {
             "germanTerm": "der Krampfanfall",
@@ -378,7 +398,8 @@
                 "ur": "مریض کو عام دورہ پڑا تھا۔",
                 "tr": "Hastanın genel bir nöbeti vardı."
             },
-            "id": "v24_13"
+            "id": "v24_13",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_13.mp3"
         },
         {
             "germanTerm": "die Hirnblutung",
@@ -401,7 +422,8 @@
                 "ur": "کمپیوٹر ٹوموگرافی نے دماغی خونریزی دکھائی۔",
                 "tr": "Bilgisayarlı tomografi beyin kanaması gösterdi."
             },
-            "id": "v24_14"
+            "id": "v24_14",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_14.mp3"
         },
         {
             "germanTerm": "die Rehabilitation",
@@ -424,7 +446,8 @@
                 "ur": "مریض عصبی بحالی میں ہے۔",
                 "tr": "Hasta nörolojik rehabilitasyonda."
             },
-            "id": "v24_15"
+            "id": "v24_15",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_15.mp3"
         },
         {
             "germanTerm": "der Muskeltonus",
@@ -447,7 +470,8 @@
                 "ur": "دائیں بازو میں پٹھوں کا ٹون بڑھ گیا ہے۔",
                 "tr": "Sağ kolda kas tonusu artmıştır."
             },
-            "id": "v24_16"
+            "id": "v24_16",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_16.mp3"
         },
         {
             "germanTerm": "das EEG (Elektroenzephalogramm)",
@@ -470,7 +494,8 @@
                 "ur": "ای ای جی نے مرگی کی طرح صلاحیتیں دکھائیں۔",
                 "tr": "EEG epileptiform potansiyeller gösterdi."
             },
-            "id": "v24_17"
+            "id": "v24_17",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_17.mp3"
         },
         {
             "germanTerm": "die Liquoruntersuchung",
@@ -493,7 +518,8 @@
                 "ur": "میننجائٹس کو ختم کرنے کے لیے لمبر پنکچر کیا گیا تھا۔",
                 "tr": "Menenjiti dışlamak için lomber ponksiyon yapıldı."
             },
-            "id": "v24_18"
+            "id": "v24_18",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_18.mp3"
         },
         {
             "germanTerm": "die Magnetresonanztomographie (MRT)",
@@ -516,7 +542,8 @@
                 "ur": "دماغ کے ایم آر آئی میں کوئی اسامانیتا نہیں دکھائی دی۔",
                 "tr": "Beyin MRG'sinde herhangi bir anormallik görülmedi."
             },
-            "id": "v24_19"
+            "id": "v24_19",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_19.mp3"
         },
         {
             "germanTerm": "die Computertomographie (CT)",
@@ -539,7 +566,8 @@
                 "ur": "دماغی خونریزی کا جائزہ لینے کے لیے سر کا سی ٹی سکین کیا گیا تھا۔",
                 "tr": "Beyin kanamasını değerlendirmek için başın BT taraması yapıldı."
             },
-            "id": "v24_20"
+            "id": "v24_20",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_20.mp3"
         },
         {
             "germanTerm": "die Dysarthrie",
@@ -562,7 +590,8 @@
                 "ur": "ڈیس آرٹریا تقریر کی سمجھ کو خراب کرتا ہے۔",
                 "tr": "Dizartri, konuşmanın anlaşılabilirliğini bozar."
             },
-            "id": "v24_21"
+            "id": "v24_21",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_21.mp3"
         },
         {
             "germanTerm": "die Ataxie",
@@ -585,7 +614,8 @@
                 "ur": "ایٹیکسیا چلنے میں عدم استحکام کا باعث بنتا ہے۔",
                 "tr": "Ataksi yürüme dengesizliğine yol açar."
             },
-            "id": "v24_22"
+            "id": "v24_22",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_22.mp3"
         },
         {
             "germanTerm": "die Hirnnerven",
@@ -608,7 +638,8 @@
                 "ur": "کرینیئل اعصاب کے معائنے سے اکولو موٹر پیریز کا انکشاف ہوا۔",
                 "tr": "Kafa sinirlerinin incelenmesi okülomotor parezi ortaya çıkardı."
             },
-            "id": "v24_23"
+            "id": "v24_23",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_23.mp3"
         },
         {
             "germanTerm": "der neurologische Befund",
@@ -631,7 +662,8 @@
                 "ur": "نیورولوجیکل تلاش غیر معمولی ہے۔",
                 "tr": "Nörolojik bulgu olağan dışı değil."
             },
-            "id": "v24_24"
+            "id": "v24_24",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_24.mp3"
         },
         {
             "germanTerm": "die Parese",
@@ -654,7 +686,8 @@
                 "ur": "بائیں بازو میں معمولی پریزس ہے۔",
                 "tr": "Sol kolda hafif bir parezi var."
             },
-            "id": "v24_25"
+            "id": "v24_25",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_25.mp3"
         },
         {
             "germanTerm": "der Hirndruck",
@@ -677,7 +710,8 @@
                 "ur": "بڑھے ہوئے انٹراکرینیل دباؤ کو فوری علاج کی ضرورت ہے۔",
                 "tr": "Yüksek intrakraniyal basıncın acil tedavisi gerekir."
             },
-            "id": "v24_26"
+            "id": "v24_26",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_26.mp3"
         },
         {
             "germanTerm": "die Anamnese",
@@ -700,7 +734,8 @@
                 "ur": "طبی تاریخ تشخیص کے لیے اہم ہے۔",
                 "tr": "Tıbbi geçmiş teşhis için önemlidir."
             },
-            "id": "v24_27"
+            "id": "v24_27",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_27.mp3"
         },
         {
             "germanTerm": "die Vigilanz",
@@ -723,7 +758,8 @@
                 "ur": "مریض کی چوکنی محدود ہے۔",
                 "tr": "Hastanın uyanıklığı kısıtlıdır."
             },
-            "id": "v24_28"
+            "id": "v24_28",
+            "audioUrl": "assets/audio/sections/section_24/vocabulary/v24_28.mp3"
         }
     ],
     "dialogues": [
@@ -753,7 +789,8 @@
                         "hi": "डॉ. वेबर, हमारे पास एक मरीज, श्री मुलर, है, जिसे स्ट्रोक होने का संदेह है। बाईं ओर कमजोरी, अस्पष्ट भाषण।",
                         "ur": "ڈاکٹر ویبر، ہمارے پاس ایک مریض، مسٹر مولر، ہے، جسے اسٹروک ہونے کا شبہ ہے۔ بائیں جانب کمزوری، مبہم تقریر۔",
                         "tr": "Dr. Weber, felç şüphesi olan bir hastamız var, Bay Müller. Sol tarafta güçsüzlük, peltek konuşma."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_01_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -765,7 +802,8 @@
                         "hi": "लक्षण कितने समय से मौजूद हैं? क्या हमने सीटी स्कैन का आदेश दिया है?",
                         "ur": "علامات کب سے موجود ہیں؟ کیا ہم نے سی ٹی سکین کا حکم دیا ہے؟",
                         "tr": "Semptomlar ne zamandır var? BT taraması istedik mi?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_01_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -777,7 +815,8 @@
                         "hi": "लगभग एक घंटे से। सीटी स्कैन तैयार किया जा रहा है। NIHSS स्कोर 8 है।",
                         "ur": "تقریباً ایک گھنٹے سے۔ سی ٹی سکین تیار کیا جا رہا ہے۔ NIHSS سکور 8 ہے۔",
                         "tr": "Yaklaşık bir saattir. BT hazırlanıyor. NIHSS puanı 8."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_01_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -789,7 +828,8 @@
                         "hi": "अच्छा। एक बार सीटी उपलब्ध हो जाने के बाद, हम थ्रोम्बोलाइसिस के बारे में निर्णय लेंगे।",
                         "ur": "اچھا۔ سی ٹی دستیاب ہونے کے بعد، ہم تھرومبولائسس کے بارے میں فیصلہ کریں گے۔",
                         "tr": "Güzel. BT çekildikten sonra tromboliz hakkında karar vereceğiz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_01_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -801,7 +841,8 @@
                         "hi": "सीटी परिणाम यहां हैं, डॉक्टर।",
                         "ur": "سی ٹی کے نتائج یہاں ہیں، ڈاکٹر۔",
                         "tr": "BT sonuçları burada, Doktor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_01_line5.mp3"
                 }
             ],
             "id": "d24_01"
@@ -832,7 +873,8 @@
                         "hi": "श्री श्मिट, ईईजी परीक्षा से पता चला है कि आप मिर्गी से पीड़ित हैं।",
                         "ur": "مسٹر شمٹ، ای ای جی کے معائنے سے پتہ چلا ہے کہ آپ مرگی میں مبتلا ہیں۔",
                         "tr": "Bay Schmidt, EEG incelemesi epilepsi rahatsızlığınız olduğunu gösterdi."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_02_line1.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -844,7 +886,8 @@
                         "hi": "मिर्गी? इसका मेरे लिए क्या मतलब है?",
                         "ur": "مرگی؟ اس کا میرے لیے کیا مطلب ہے؟",
                         "tr": "Epilepsi mi? Bu benim için ne anlama geliyor?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_02_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -856,7 +899,8 @@
                         "hi": "इसका मतलब है कि आप अप्रत्याशित दौरे के शिकार हैं। लेकिन हम इसे दवा से अच्छी तरह से नियंत्रित कर सकते हैं।",
                         "ur": "اس کا مطلب ہے کہ آپ غیر متوقع دوروں کا شکار ہیں۔ لیکن ہم اسے دوا سے اچھی طرح کنٹرول کر سکتے ہیں۔",
                         "tr": "Bu, öngörülemeyen nöbetlere yatkın olduğunuz anlamına geliyor. Ancak bunu ilaçlarla iyi kontrol edebiliriz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_02_line3.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -868,7 +912,8 @@
                         "hi": "क्या मुझे विशेष रूप से किसी बात पर ध्यान देना होगा?",
                         "ur": "کیا مجھے خاص طور پر کسی چیز پر توجہ دینی ہوگی؟",
                         "tr": "Özellikle dikkat etmem gereken bir şey var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_02_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -880,7 +925,8 @@
                         "hi": "नियमित दवा का सेवन, पर्याप्त नींद और तनाव से बचना महत्वपूर्ण है।",
                         "ur": "باقاعدگی سے ادویات کا استعمال، مناسب نیند اور تناؤ سے بچنا اہم ہے۔",
                         "tr": "Düzenli ilaç kullanımı, yeterli uyku ve stresten kaçınmak önemlidir."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_02_line5.mp3"
                 }
             ],
             "id": "d24_02"
@@ -911,7 +957,8 @@
                         "hi": "शुभ प्रभात, श्री लेहमैन। आज आप कैसा महसूस कर रहे हैं?",
                         "ur": "صبح بخیر، مسٹر لیمن۔ آج آپ کیسا محسوس کر رہے ہیں؟",
                         "tr": "Günaydın, Bay Lehmann. Bugün nasılsınız?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_03_line1.mp3"
                 },
                 {
                     "speaker": "Patient Lehmann",
@@ -923,7 +970,8 @@
                         "hi": "थोड़ा सख्त, नर्स अन्ना। कंपन भी फिर से तेज हो गया है।",
                         "ur": "تھوڑا سا سخت، نرس انا۔ کمپن بھی دوبارہ تیز ہو گیا ہے۔",
                         "tr": "Biraz sert, Hemşire Anna. Titreme de tekrar arttı."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_03_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Anna",
@@ -935,7 +983,8 @@
                         "hi": "क्या आप नियमित रूप से अपनी दवा ले रहे हैं?",
                         "ur": "کیا آپ باقاعدگی سے اپنی دوا لے رہے ہیں؟",
                         "tr": "İlaçlarınızı düzenli olarak alıyor musunuz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_03_line3.mp3"
                 },
                 {
                     "speaker": "Patient Lehmann",
@@ -947,7 +996,8 @@
                         "hi": "हाँ, वास्तव में। लेकिन कभी-कभी मैं भूल जाता हूँ।",
                         "ur": "ہاں، واقعی۔ لیکن کبھی کبھی میں بھول جاتا ہوں۔",
                         "tr": "Evet, aslında. Ama bazen unutuyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_03_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Anna",
@@ -959,7 +1009,8 @@
                         "hi": "हम आपको एक अनुस्मारक फ़ंक्शन के साथ एक दवा बॉक्स दे सकते हैं, इससे कई लोगों को मदद मिलती है।",
                         "ur": "ہم آپ کو ایک یاد دہانی کے فنکشن کے ساتھ ایک دوا کا ڈبہ دے سکتے ہیں، اس سے بہت سے لوگوں کو مدد ملتی ہے۔",
                         "tr": "Size hatırlatma fonksiyonu olan bir ilaç kutusu verebiliriz, bu birçok kişiye yardımcı oluyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_03_line5.mp3"
                 }
             ],
             "id": "d24_03"
@@ -990,7 +1041,8 @@
                         "hi": "सुश्री मेयर, एमआरआई चित्र मल्टीपल स्केलेरोसिस के निदान की पुष्टि करते हैं।",
                         "ur": "محترمہ مئیر، ایم آر آئی کی تصاویر ملٹیپل سکلیروسس کی تشخیص کی تصدیق کرتی ہیں۔",
                         "tr": "Bayan Meier, MRI görüntüleri Multipl Skleroz teşhisini doğruluyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_04_line1.mp3"
                 },
                 {
                     "speaker": "Patient Meier",
@@ -1002,7 +1054,8 @@
                         "hi": "इसका मेरे भविष्य के लिए क्या मतलब है?",
                         "ur": "اس کا میرے مستقبل کے لیے کیا مطلب ہے؟",
                         "tr": "Bu benim geleceğim için ne anlama geliyor?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_04_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Müller",
@@ -1014,7 +1067,8 @@
                         "hi": "हम दवा से रोग की प्रगति को धीमा कर सकते हैं। कई विकल्प हैं जिन पर हम चर्चा कर सकते हैं।",
                         "ur": "ہم دوا سے بیماری کی پیشرفت کو کم کر سکتے ہیں۔ کئی اختیارات ہیں جن پر ہم تبادلہ خیال کر سکتے ہیں۔",
                         "tr": "İlaçlarla hastalığın ilerlemesini yavaşlatabiliriz. Tartışabileceğimiz çeşitli seçenekler var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_04_line3.mp3"
                 },
                 {
                     "speaker": "Patient Meier",
@@ -1026,7 +1080,8 @@
                         "hi": "वे कौन से हैं?",
                         "ur": "وہ کون سے ہیں؟",
                         "tr": "Bunlar hangileri?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_04_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Müller",
@@ -1038,7 +1093,8 @@
                         "hi": "विभिन्न इंटरफेरॉन, ग्लैटिरामर एसीटेट और अन्य इम्यूनोमॉड्यूलेटरी दवाएं हैं। हम व्यक्तिगत रूप से थेरेपी को अनुकूलित करते हैं।",
                         "ur": "مختلف انٹرفیرون، گلیٹیرامر ایسیٹیٹ اور دیگر امیونو موڈولیٹری دوائیں ہیں۔ ہم انفرادی طور پر تھراپی کو اپنی مرضی کے مطابق بناتے ہیں۔",
                         "tr": "Çeşitli interferonlar, glatiramer asetat ve diğer immünomodülatör ilaçlar bulunmaktadır. Tedaviyi bireysel olarak uyarlıyoruz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_04_line5.mp3"
                 }
             ],
             "id": "d24_04"
@@ -1069,7 +1125,8 @@
                         "hi": "रोगी की चेतना क्षीण है और दाईं ओर हेमिपारेसिस दिखाई दे रहा है।",
                         "ur": "مریض کی ہوش کمزور ہے اور دائیں جانب ہیمیپیرسس دکھائی دے رہا ہے۔",
                         "tr": "Hastanın bilinci bulanık ve sağ taraflı hemiparezi gösteriyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_05_line1.mp3"
                 },
                 {
                     "speaker": "Schwester Maria",
@@ -1081,7 +1138,8 @@
                         "hi": "महत्वपूर्ण संकेत स्थिर हैं। जीसीएस 10 पर है।",
                         "ur": "اہم علامات مستحکم ہیں۔ جی سی ایس 10 پر ہے۔",
                         "tr": "Vital bulgular stabil. GCS 10'da."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_05_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Sommer",
@@ -1093,7 +1151,8 @@
                         "hi": "क्या रोगी भाषण पर प्रतिक्रिया करने की कोशिश कर रहा है?",
                         "ur": "کیا مریض تقریر پر رد عمل ظاہر کرنے کی کوشش کر رہا ہے؟",
                         "tr": "Hasta konuşmaya tepki vermeye çalışıyor mu?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_05_line3.mp3"
                 },
                 {
                     "speaker": "Schwester Maria",
@@ -1105,7 +1164,8 @@
                         "hi": "हाँ, वह बोलने पर अपनी आँखें खोलता है और समझ में न आने वाली आवाज़ें निकालता है।",
                         "ur": "ہاں، وہ بولنے پر اپنی آنکھیں کھولتا ہے اور ناقابل فہم آوازیں نکالتا ہے۔",
                         "tr": "Evet, konuşulduğunda gözlerini açıyor ve anlaşılmaz sesler çıkarıyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_05_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Sommer",
@@ -1117,7 +1177,8 @@
                         "hi": "हमें चेतना की दुर्बलता के कारण को स्पष्ट करने के लिए एक सिर का सीटी स्कैन चाहिए।",
                         "ur": "ہمیں ہوش کی کمزوری کی وجہ کو واضح کرنے کے لیے سر کا سی ٹی سکین چاہیے۔",
                         "tr": "Bilinç bozukluğunun nedenini açıklığa kavuşturmak için bir kafa BT taramasına ihtiyacımız var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_24/dialogues/d24_05_line5.mp3"
                 }
             ],
             "id": "d24_05"

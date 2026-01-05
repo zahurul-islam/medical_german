@@ -32,30 +32,12 @@
             "tr": "Bu bölümde, yaygın fiziksel muayene teknikleri için Almanca terminolojiyi öğreneceksiniz. Oskültasyon, palpasyon, perküsyon, inspeksiyon ve refleks testi ile ilgili özel kelime dağarcığını inceleyeceğiz."
         },
         "grammarFocus": {
-            "en": {
-                "-": "Focus on the correct use of articles (der, die, das) with medical terms.",
-                "--": "Pay attention to the accusative and dative cases when describing actions performed on the patient (e.g., den Patienten untersuchen)."
-            },
-            "de": {
-                "-": "Konzentrieren Sie sich auf die korrekte Verwendung der Artikel (der, die, das) bei medizinischen Begriffen.",
-                "--": "Achten Sie auf den Akkusativ und Dativ, wenn Sie Handlungen beschreiben, die am Patienten durchgeführt werden (z.B. den Patienten untersuchen)."
-            },
-            "bn": {
-                "-": "চিকিৎসা পদগুলির সাথে নিবন্ধগুলির (der, die, das) সঠিক ব্যবহারের উপর মনোযোগ দিন।",
-                "--": "রোগীর উপর সঞ্চালিত কর্ম বর্ণনা করার সময় অভিযুক্ত এবং ডেটিভ ক্ষেত্রে মনোযোগ দিন (যেমন, den Patienten untersuchen)।"
-            },
-            "hi": {
-                "-": "चिकित्सा शर्तों के साथ लेखों (der, die, das) के सही उपयोग पर ध्यान दें।",
-                "--": "रोगी पर की गई क्रियाओं का वर्णन करते समय कर्म और संप्रदान कारकों पर ध्यान दें (उदाहरण के लिए, den Patienten untersuchen)।"
-            },
-            "ur": {
-                "-": "طبی اصطلاحات کے ساتھ مضامین (der, die, das) کے صحیح استعمال پر توجہ دیں۔",
-                "--": "مریض پر کیے جانے والے افعال کو بیان کرتے وقت الزامی اور اضافی معاملات پر توجہ دیں (مثال کے طور پر، den Patienten untersuchen)۔"
-            },
-            "tr": {
-                "-": "Tıbbi terimlerle birlikte artikellerin (der, die, das) doğru kullanımına odaklanın.",
-                "--": "Hastaya uygulanan eylemleri tanımlarken akuzatif ve datif hallere dikkat edin (örneğin, den Patienten untersuchen)."
-            }
+            "en": "**Physical Examination Instructions: Imperative and Passive Voice**\n\nDuring physical examination, doctors use specific command forms and passive constructions.\n\n*Formal Imperative for Examination:*\n- 'Legen Sie sich bitte hin.' (Please lie down.)\n- 'Atmen Sie tief ein und aus.' (Breathe in and out deeply.)\n- 'Halten Sie den Atem an.' (Hold your breath.)\n- 'Entspannen Sie sich.' (Relax.)\n- 'Öffnen Sie bitte den Mund.' (Please open your mouth.)\n\n**Passive Voice for Medical Procedures:**\nFormation: werden + past participle\n\n*Present Passive:*\n- 'Der Blutdruck wird gemessen.' (Blood pressure is being measured.)\n- 'Die Lunge wird abgehört.' (The lungs are being listened to.)\n- 'Der Bauch wird abgetastet.' (The abdomen is being palpated.)\n\n*Passive Voice in Different Tenses:*\n| Tense | Structure | Example |\n|-------|-----------|---------|\n| Present | wird + Partizip II | Der Patient wird untersucht. |\n| Past | wurde + Partizip II | Der Patient wurde untersucht. |\n| Perfect | ist + Partizip II + worden | Der Patient ist untersucht worden. |\n\n*Examination Verbs:*\n| German | English | Passive Form |\n|--------|---------|--------------|\n| untersuchen | examine | wird untersucht |\n| abtasten | palpate | wird abgetastet |\n| abhören | auscultate | wird abgehört |\n| abklopfen | percuss | wird abgeklopft |\n| messen | measure | wird gemessen |\n\n**Explaining Procedures:**\n- 'Jetzt werde ich Ihren Blutdruck messen.' (Now I will measure your blood pressure.)\n- 'Ich möchte Ihre Reflexe testen.' (I would like to test your reflexes.)\n- 'Das könnte etwas kalt sein.' (This might be a bit cold.)",
+            "de": "**Untersuchungsanweisungen: Imperativ und Passiv**\n\nWährend der körperlichen Untersuchung verwenden Ärzte spezifische Befehlsformen und Passivkonstruktionen.\n\n*Formeller Imperativ für die Untersuchung:*\n- 'Legen Sie sich bitte hin.'\n- 'Atmen Sie tief ein und aus.'\n- 'Halten Sie den Atem an.'\n- 'Entspannen Sie sich.'\n- 'Öffnen Sie bitte den Mund.'\n\n**Passiv für medizinische Verfahren:**\nBildung: werden + Partizip II\n\n*Passiv Präsens:*\n- 'Der Blutdruck wird gemessen.'\n- 'Die Lunge wird abgehört.'\n- 'Der Bauch wird abgetastet.'\n\n*Passiv in verschiedenen Zeiten:*\n| Tempus | Struktur | Beispiel |\n|--------|----------|----------|\n| Präsens | wird + Partizip II | Der Patient wird untersucht. |\n| Präteritum | wurde + Partizip II | Der Patient wurde untersucht. |\n| Perfekt | ist + Partizip II + worden | Der Patient ist untersucht worden. |\n\n*Untersuchungsverben:*\n| Deutsch | Englisch | Passivform |\n|---------|----------|------------|\n| untersuchen | untersuchen | wird untersucht |\n| abtasten | abtasten | wird abgetastet |\n| abhören | abhören | wird abgehört |\n| abklopfen | abklopfen | wird abgeklopft |\n| messen | messen | wird gemessen |\n\n**Verfahren erklären:**\n- 'Jetzt werde ich Ihren Blutdruck messen.'\n- 'Ich möchte Ihre Reflexe testen.'\n- 'Das könnte etwas kalt sein.'",
+            "bn": "**Physical Examination Instructions: Imperative and Passive Voice**\n\nDuring physical examination, doctors use specific command forms and passive constructions.\n\n*Formal Imperative for Examination:*\n- 'Legen Sie sich bitte hin.' (Please lie down.)\n- 'Atmen Sie tief ein und aus.' (Breathe in and out deeply.)\n- 'Halten Sie den Atem an.' (Hold your breath.)\n- 'Entspannen Sie sich.' (Relax.)\n- 'Öffnen Sie bitte den Mund.' (Please open your mouth.)\n\n**Passive Voice for Medical Procedures:**\nFormation: werden + past participle\n\n*Present Passive:*\n- 'Der Blutdruck wird gemessen.' (Blood pressure is being measured.)\n- 'Die Lunge wird abgehört.' (The lungs are being listened to.)\n- 'Der Bauch wird abgetastet.' (The abdomen is being palpated.)\n\n*Passive Voice in Different Tenses:*\n| Tense | Structure | Example |\n|-------|-----------|---------|\n| Present | wird + Partizip II | Der Patient wird untersucht. |\n| Past | wurde + Partizip II | Der Patient wurde untersucht. |\n| Perfect | ist + Partizip II + worden | Der Patient ist untersucht worden. |\n\n*Examination Verbs:*\n| German | English | Passive Form |\n|--------|---------|--------------|\n| untersuchen | examine | wird untersucht |\n| abtasten | palpate | wird abgetastet |\n| abhören | auscultate | wird abgehört |\n| abklopfen | percuss | wird abgeklopft |\n| messen | measure | wird gemessen |\n\n**Explaining Procedures:**\n- 'Jetzt werde ich Ihren Blutdruck messen.' (Now I will measure your blood pressure.)\n- 'Ich möchte Ihre Reflexe testen.' (I would like to test your reflexes.)\n- 'Das könnte etwas kalt sein.' (This might be a bit cold.)",
+            "hi": "**Physical Examination Instructions: Imperative and Passive Voice**\n\nDuring physical examination, doctors use specific command forms and passive constructions.\n\n*Formal Imperative for Examination:*\n- 'Legen Sie sich bitte hin.' (Please lie down.)\n- 'Atmen Sie tief ein und aus.' (Breathe in and out deeply.)\n- 'Halten Sie den Atem an.' (Hold your breath.)\n- 'Entspannen Sie sich.' (Relax.)\n- 'Öffnen Sie bitte den Mund.' (Please open your mouth.)\n\n**Passive Voice for Medical Procedures:**\nFormation: werden + past participle\n\n*Present Passive:*\n- 'Der Blutdruck wird gemessen.' (Blood pressure is being measured.)\n- 'Die Lunge wird abgehört.' (The lungs are being listened to.)\n- 'Der Bauch wird abgetastet.' (The abdomen is being palpated.)\n\n*Passive Voice in Different Tenses:*\n| Tense | Structure | Example |\n|-------|-----------|---------|\n| Present | wird + Partizip II | Der Patient wird untersucht. |\n| Past | wurde + Partizip II | Der Patient wurde untersucht. |\n| Perfect | ist + Partizip II + worden | Der Patient ist untersucht worden. |\n\n*Examination Verbs:*\n| German | English | Passive Form |\n|--------|---------|--------------|\n| untersuchen | examine | wird untersucht |\n| abtasten | palpate | wird abgetastet |\n| abhören | auscultate | wird abgehört |\n| abklopfen | percuss | wird abgeklopft |\n| messen | measure | wird gemessen |\n\n**Explaining Procedures:**\n- 'Jetzt werde ich Ihren Blutdruck messen.' (Now I will measure your blood pressure.)\n- 'Ich möchte Ihre Reflexe testen.' (I would like to test your reflexes.)\n- 'Das könnte etwas kalt sein.' (This might be a bit cold.)",
+            "ur": "**Physical Examination Instructions: Imperative and Passive Voice**\n\nDuring physical examination, doctors use specific command forms and passive constructions.\n\n*Formal Imperative for Examination:*\n- 'Legen Sie sich bitte hin.' (Please lie down.)\n- 'Atmen Sie tief ein und aus.' (Breathe in and out deeply.)\n- 'Halten Sie den Atem an.' (Hold your breath.)\n- 'Entspannen Sie sich.' (Relax.)\n- 'Öffnen Sie bitte den Mund.' (Please open your mouth.)\n\n**Passive Voice for Medical Procedures:**\nFormation: werden + past participle\n\n*Present Passive:*\n- 'Der Blutdruck wird gemessen.' (Blood pressure is being measured.)\n- 'Die Lunge wird abgehört.' (The lungs are being listened to.)\n- 'Der Bauch wird abgetastet.' (The abdomen is being palpated.)\n\n*Passive Voice in Different Tenses:*\n| Tense | Structure | Example |\n|-------|-----------|---------|\n| Present | wird + Partizip II | Der Patient wird untersucht. |\n| Past | wurde + Partizip II | Der Patient wurde untersucht. |\n| Perfect | ist + Partizip II + worden | Der Patient ist untersucht worden. |\n\n*Examination Verbs:*\n| German | English | Passive Form |\n|--------|---------|--------------|\n| untersuchen | examine | wird untersucht |\n| abtasten | palpate | wird abgetastet |\n| abhören | auscultate | wird abgehört |\n| abklopfen | percuss | wird abgeklopft |\n| messen | measure | wird gemessen |\n\n**Explaining Procedures:**\n- 'Jetzt werde ich Ihren Blutdruck messen.' (Now I will measure your blood pressure.)\n- 'Ich möchte Ihre Reflexe testen.' (I would like to test your reflexes.)\n- 'Das könnte etwas kalt sein.' (This might be a bit cold.)",
+            "tr": "**Physical Examination Instructions: Imperative and Passive Voice**\n\nDuring physical examination, doctors use specific command forms and passive constructions.\n\n*Formal Imperative for Examination:*\n- 'Legen Sie sich bitte hin.' (Please lie down.)\n- 'Atmen Sie tief ein und aus.' (Breathe in and out deeply.)\n- 'Halten Sie den Atem an.' (Hold your breath.)\n- 'Entspannen Sie sich.' (Relax.)\n- 'Öffnen Sie bitte den Mund.' (Please open your mouth.)\n\n**Passive Voice for Medical Procedures:**\nFormation: werden + past participle\n\n*Present Passive:*\n- 'Der Blutdruck wird gemessen.' (Blood pressure is being measured.)\n- 'Die Lunge wird abgehört.' (The lungs are being listened to.)\n- 'Der Bauch wird abgetastet.' (The abdomen is being palpated.)\n\n*Passive Voice in Different Tenses:*\n| Tense | Structure | Example |\n|-------|-----------|---------|\n| Present | wird + Partizip II | Der Patient wird untersucht. |\n| Past | wurde + Partizip II | Der Patient wurde untersucht. |\n| Perfect | ist + Partizip II + worden | Der Patient ist untersucht worden. |\n\n*Examination Verbs:*\n| German | English | Passive Form |\n|--------|---------|--------------|\n| untersuchen | examine | wird untersucht |\n| abtasten | palpate | wird abgetastet |\n| abhören | auscultate | wird abgehört |\n| abklopfen | percuss | wird abgeklopft |\n| messen | measure | wird gemessen |\n\n**Explaining Procedures:**\n- 'Jetzt werde ich Ihren Blutdruck messen.' (Now I will measure your blood pressure.)\n- 'Ich möchte Ihre Reflexe testen.' (I would like to test your reflexes.)\n- 'Das könnte etwas kalt sein.' (This might be a bit cold.)"
         },
         "culturalNotes": {
             "en": "In German hospitals, physical examinations are typically conducted with a high degree of thoroughness and documentation.",
@@ -73,12 +55,38 @@
             "ur": "اس سیکشن میں جسمانی معائنہ کرنے اور دستاویزی کرنے کے لیے ضروری جرمن اصطلاحات کا ایک مختصر جائزہ فراہم کیا گیا ہے۔",
             "tr": "Bu bölüm, fiziksel muayeneyi yapma ve belgeleme için gerekli Almanca terminolojinin bir özetini sundu."
         },
-        "learningObjectives": [
-            "Identify and define the German terms for inspection, palpation, percussion, auscultation, and reflex testing.",
-            "Describe the correct grammatical usage (articles, cases) of these terms in medical contexts.",
-            "Understand the typical process of a physical examination in a German-speaking medical setting.",
-            "Translate simple descriptions of physical examination findings into German."
-        ]
+        "learningObjectives": {
+            "en": [
+                "Identify and define the German terms for inspection, palpation, percussion, auscultation, and reflex testing.",
+                "Describe the correct grammatical usage (articles, cases) of these terms in medical contexts.",
+                "Understand the typical process of a physical examination in a German-speaking medical setting.",
+                "Translate simple descriptions of physical examination findings into German."
+            ],
+            "bn": [
+                "Identify and define the German terms for inspection, palpation, percussion, auscultation, and reflex testing.",
+                "Describe the correct grammatical usage (articles, cases) of these terms in medical contexts.",
+                "বুঝুন the typical process of a physical examination in a German-speaking medical setting.",
+                "Translate simple descriptions of physical examination findings into German."
+            ],
+            "hi": [
+                "Identify and define the German terms for inspection, palpation, percussion, auscultation, and reflex testing.",
+                "Describe the correct grammatical usage (articles, cases) of these terms in medical contexts.",
+                "समझें the typical process of a physical examination in a German-speaking medical setting.",
+                "Translate simple descriptions of physical examination findings into German."
+            ],
+            "ur": [
+                "Identify and define the German terms for inspection, palpation, percussion, auscultation, and reflex testing.",
+                "Describe the correct grammatical usage (articles, cases) of these terms in medical contexts.",
+                "سمجھیں the typical process of a physical examination in a German-speaking medical setting.",
+                "Translate simple descriptions of physical examination findings into German."
+            ],
+            "tr": [
+                "Identify and define the German terms for inspection, palpation, percussion, auscultation, and reflex testing.",
+                "Describe the correct grammatical usage (articles, cases) of these terms in medical contexts.",
+                "Anlayın the typical process of a physical examination in a German-speaking medical setting.",
+                "Translate simple descriptions of physical examination findings into German."
+            ]
+        }
     },
     "vocabulary": [
         {
@@ -102,7 +110,8 @@
                 "ur": "جسمانی معائنے میں کوئی غیر معمولی بات نہیں ملی۔",
                 "tr": "Fiziksel muayenede herhangi bir anormallik bulunmadı."
             },
-            "id": "v17_01"
+            "id": "v17_01",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_01.mp3"
         },
         {
             "germanTerm": "die Auskultation",
@@ -125,7 +134,8 @@
                 "ur": "پھیپھڑوں کا آسکلٹیشن غیر معمولی تھا۔",
                 "tr": "Akciğerlerin oskültasyonu olağandı."
             },
-            "id": "v17_02"
+            "id": "v17_02",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_02.mp3"
         },
         {
             "germanTerm": "die Palpation",
@@ -148,7 +158,8 @@
                 "ur": "پیٹ کو چھونا دردناک تھا۔",
                 "tr": "Karın palpasyonu ağrılıydı."
             },
-            "id": "v17_03"
+            "id": "v17_03",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_03.mp3"
         },
         {
             "germanTerm": "die Perkussion",
@@ -171,7 +182,8 @@
                 "ur": "سینے کے ٹکور میں ایک مدھم آواز سنائی دی۔",
                 "tr": "Göğüs perküsyonunda donuk bir ses duyuldu."
             },
-            "id": "v17_04"
+            "id": "v17_04",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_04.mp3"
         },
         {
             "germanTerm": "die Inspektion",
@@ -194,7 +206,8 @@
                 "ur": "جلد کے معائنے میں سرخی نظر آئی۔",
                 "tr": "Cildin incelenmesinde kızarıklık görüldü."
             },
-            "id": "v17_05"
+            "id": "v17_05",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_05.mp3"
         },
         {
             "germanTerm": "der Reflex",
@@ -217,7 +230,8 @@
                 "ur": "عمر کے لحاظ سے رد عمل کو متحرک کیا جا سکتا ہے۔",
                 "tr": "Refleksler yaşa göre tetiklenebilir."
             },
-            "id": "v17_06"
+            "id": "v17_06",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_06.mp3"
         },
         {
             "germanTerm": "die Anamnese",
@@ -240,7 +254,8 @@
                 "ur": "طبی تاریخ تشخیص کے لیے اہم ہے۔",
                 "tr": "Tıbbi geçmiş teşhis için önemlidir."
             },
-            "id": "v17_07"
+            "id": "v17_07",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_07.mp3"
         },
         {
             "germanTerm": "der Befund",
@@ -263,7 +278,8 @@
                 "ur": "ریڈیولاجیکل نتائج میں ایک فریکچر نظر آتا ہے۔",
                 "tr": "Radyolojik bulgu bir kırık gösteriyor."
             },
-            "id": "v17_08"
+            "id": "v17_08",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_08.mp3"
         },
         {
             "germanTerm": "die Diagnose",
@@ -286,7 +302,8 @@
                 "ur": "تشخیص نمونیا ہے۔",
                 "tr": "Teşhis zatürre."
             },
-            "id": "v17_09"
+            "id": "v17_09",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_09.mp3"
         },
         {
             "germanTerm": "das Symptom",
@@ -309,7 +326,8 @@
                 "ur": "کھانسی سردی کی ایک عام علامت ہے۔",
                 "tr": "Öksürük soğuk algınlığının yaygın bir belirtisidir."
             },
-            "id": "v17_10"
+            "id": "v17_10",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_10.mp3"
         },
         {
             "germanTerm": "der Schmerz",
@@ -332,7 +350,8 @@
                 "ur": "مریض پیٹ میں شدید درد کی شکایت کر رہا ہے۔",
                 "tr": "Hasta karın bölgesinde şiddetli ağrıdan şikayet ediyor."
             },
-            "id": "v17_11"
+            "id": "v17_11",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_11.mp3"
         },
         {
             "germanTerm": "das Fieber",
@@ -355,7 +374,8 @@
                 "ur": "بخار 39 ڈگری سینٹی گریڈ تک بڑھ گیا ہے۔",
                 "tr": "Ateş 39 santigrat dereceye yükseldi."
             },
-            "id": "v17_12"
+            "id": "v17_12",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_12.mp3"
         },
         {
             "germanTerm": "der Blutdruck",
@@ -378,7 +398,8 @@
                 "ur": "بلڈ پریشر بہت زیادہ ہے۔",
                 "tr": "Kan basıncı çok yüksek."
             },
-            "id": "v17_13"
+            "id": "v17_13",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_13.mp3"
         },
         {
             "germanTerm": "die Herzfrequenz",
@@ -401,7 +422,8 @@
                 "ur": "دل کی دھڑکن بڑھ گئی ہے۔",
                 "tr": "Kalp atış hızı yükseldi."
             },
-            "id": "v17_14"
+            "id": "v17_14",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_14.mp3"
         },
         {
             "germanTerm": "die Atmung",
@@ -424,7 +446,8 @@
                 "ur": "سانس اتھلی اور تیز ہے۔",
                 "tr": "Nefes alma sığ ve hızlı."
             },
-            "id": "v17_15"
+            "id": "v17_15",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_15.mp3"
         },
         {
             "germanTerm": "der Puls",
@@ -447,7 +470,8 @@
                 "ur": "نبض کمزور اور بے قاعدہ ہے۔",
                 "tr": "Nabız zayıf ve düzensiz."
             },
-            "id": "v17_16"
+            "id": "v17_16",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_16.mp3"
         },
         {
             "germanTerm": "abzutasten",
@@ -470,7 +494,8 @@
                 "ur": "ڈاکٹر پیٹ کو ٹٹول رہا ہے۔",
                 "tr": "Doktor karnı palpe ediyor."
             },
-            "id": "v17_17"
+            "id": "v17_17",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_17.mp3"
         },
         {
             "germanTerm": "abzuhören",
@@ -493,7 +518,8 @@
                 "ur": "ڈاکٹر پھیپھڑوں کو سن رہا ہے۔",
                 "tr": "Doktor akciğerleri dinliyor."
             },
-            "id": "v17_18"
+            "id": "v17_18",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_18.mp3"
         },
         {
             "germanTerm": "zu untersuchen",
@@ -516,7 +542,8 @@
                 "ur": "ڈاکٹر کو مریض کا اچھی طرح سے معائنہ کرنا چاہیے۔",
                 "tr": "Doktor hastayı iyice muayene etmeli."
             },
-            "id": "v17_19"
+            "id": "v17_19",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_19.mp3"
         },
         {
             "germanTerm": "abzuklopfen",
@@ -539,7 +566,8 @@
                 "ur": "ڈاکٹر سینے کو تھپتھپا رہا ہے۔",
                 "tr": "Doktor göğsü perküsyon yapıyor."
             },
-            "id": "v17_20"
+            "id": "v17_20",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_20.mp3"
         },
         {
             "germanTerm": "inspizieren",
@@ -562,7 +590,8 @@
                 "ur": "ڈاکٹر مریض کی جلد کا معائنہ کر رہے ہیں۔",
                 "tr": "Doktor hastanın cildini inceliyor."
             },
-            "id": "v17_21"
+            "id": "v17_21",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_21.mp3"
         },
         {
             "germanTerm": "auslösen",
@@ -585,7 +614,8 @@
                 "ur": "ڈاکٹر پٹیلا ریفلیکس کو متحرک کرنے کی کوشش کر رہے ہیں۔",
                 "tr": "Doktor patellar refleksi tetiklemeye çalışıyor."
             },
-            "id": "v17_22"
+            "id": "v17_22",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_22.mp3"
         },
         {
             "germanTerm": "schmerzhaft",
@@ -608,7 +638,8 @@
                 "ur": "لمس دردناک تھا۔",
                 "tr": "Palpasyon ağrılıydı."
             },
-            "id": "v17_23"
+            "id": "v17_23",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_23.mp3"
         },
         {
             "germanTerm": "unauffällig",
@@ -631,7 +662,8 @@
                 "ur": "آسکلٹیشن غیر معمولی تھا۔",
                 "tr": "Oskültasyon olağandışıydı."
             },
-            "id": "v17_24"
+            "id": "v17_24",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_24.mp3"
         },
         {
             "germanTerm": "vermindert",
@@ -654,7 +686,8 @@
                 "ur": "سانس لینے کی رفتار کم ہو گئی ہے۔",
                 "tr": "Solunum hızı azaldı."
             },
-            "id": "v17_25"
+            "id": "v17_25",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_25.mp3"
         },
         {
             "germanTerm": "erhöht",
@@ -677,7 +710,8 @@
                 "ur": "جسم کا درجہ حرارت بڑھا ہوا ہے۔",
                 "tr": "Vücut sıcaklığı yüksek."
             },
-            "id": "v17_26"
+            "id": "v17_26",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_26.mp3"
         },
         {
             "germanTerm": "im Rahmen",
@@ -700,7 +734,8 @@
                 "ur": "تمام اقدار نارمل حدود میں ہیں۔",
                 "tr": "Tüm değerler normal sınırlar içinde."
             },
-            "id": "v17_27"
+            "id": "v17_27",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_27.mp3"
         },
         {
             "germanTerm": "subjektiv",
@@ -723,7 +758,8 @@
                 "ur": "درد ذاتی ہے۔",
                 "tr": "Ağrı özneldir."
             },
-            "id": "v17_28"
+            "id": "v17_28",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_28.mp3"
         },
         {
             "germanTerm": "objektiv",
@@ -746,7 +782,8 @@
                 "ur": "نتائج معروضی طور پر قابل پیمائش ہیں۔",
                 "tr": "Bulgu nesnel olarak ölçülebilir."
             },
-            "id": "v17_29"
+            "id": "v17_29",
+            "audioUrl": "assets/audio/sections/section_17/vocabulary/v17_29.mp3"
         }
     ],
     "dialogues": [
@@ -776,7 +813,8 @@
                         "hi": "शुभ दिन, श्री मुलर। आपको ठीक कहाँ दर्द है?",
                         "ur": "شب بخیر، مسٹر مولر۔ آپ کو کہاں درد ہے؟",
                         "tr": "İyi günler, Bay Müller. Tam olarak nerede ağrınız var?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_01_line1.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -788,7 +826,8 @@
                         "hi": "यहाँ, पेट के निचले हिस्से में, खासकर दाहिनी तरफ।",
                         "ur": "یہاں، پیٹ کے نچلے حصے میں، خاص طور پر دائیں جانب۔",
                         "tr": "Burada, karnımın alt kısmında, özellikle sağ tarafta."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_01_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -800,7 +839,8 @@
                         "hi": "मैं अब आपके पेट को टटोलूंगा। कृपया मुझे बताएं कि क्या दर्द होता है। (पल्पेशन)",
                         "ur": "میں اب آپ کے پیٹ کو محسوس کروں گا۔ اگر درد ہو تو مجھے بتائیں۔ (पलपेशन)",
                         "tr": "Şimdi karnınızı palpe edeceğim. Ağrı olursa lütfen söyleyin. (Palpasyon)"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_01_line3.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -812,7 +852,8 @@
                         "hi": "हाँ, यहाँ दर्द होता है!",
                         "ur": "ہاں، یہاں درد ہو رہا ہے!",
                         "tr": "Evet, burada ağrıyor!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_01_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -824,7 +865,8 @@
                         "hi": "अब मैं पेट पर थाप भी मारूंगा (पर्कशन)।",
                         "ur": "اب میں پیٹ پر بھی ماروں گا۔ (پرکیشن)",
                         "tr": "Şimdi de karnınızı perküsyonla muayene edeceğim (Perküsyon)."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_01_line5.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -836,7 +878,8 @@
                         "hi": "धन्यवाद। मैं एक रक्त परीक्षण और एक अल्ट्रासाउंड का आदेश दूंगा।",
                         "ur": "شکریہ. میں خون کی جانچ اور الٹراساؤنڈ کا حکم دوں گا۔",
                         "tr": "Teşekkür ederim. Bir kan testi ve bir ultrason isteyeceğim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_01_line6.mp3"
                 }
             ],
             "id": "d17_01"
@@ -867,7 +910,8 @@
                         "hi": "सुप्रभात, श्रीमती क्लेन। मैं आपके फेफड़ों को सुनूंगा। कृपया गहरी सांस लें और छोड़ें।",
                         "ur": "شب بخیر، محترمہ کلین۔ میں آپ کے پھیپھڑوں کو سنوں گا۔ برائے مہربانی گہری سانس لیں اور چھوڑیں۔",
                         "tr": "Günaydın, Bayan Klein. Akciğerlerinizi dinleyeceğim. Lütfen derin bir nefes alıp verin."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_02_line1.mp3"
                 },
                 {
                     "speaker": "Patient Klein",
@@ -879,7 +923,8 @@
                         "hi": "ठीक है।",
                         "ur": "ٹھیک ہے.",
                         "tr": "Tamam."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_02_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -891,7 +936,8 @@
                         "hi": "फिर से, कृपया।",
                         "ur": "دوبارہ، براہ مہربانی.",
                         "tr": "Tekrar, lütfen."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_02_line3.mp3"
                 },
                 {
                     "speaker": "Patient Klein",
@@ -903,7 +949,8 @@
                         "hi": "(गहरी सांस लेती और छोड़ती है)",
                         "ur": "(گہری سانس لیتی اور چھوڑتی ہے)",
                         "tr": "(Derin bir nefes alıp verir)"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_02_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -915,7 +962,8 @@
                         "hi": "मुझे हल्की सी दरार की आवाज सुनाई दे रही है। क्या आपको खांसी है?",
                         "ur": "مجھے ہلکی سی چٹکی کی آواز سنائی دے رہی ہے۔ کیا آپ کو کھانسی ہے؟",
                         "tr": "Hafif bir hırıltı duyuyorum. Öksürüğünüz var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_02_line5.mp3"
                 },
                 {
                     "speaker": "Patient Klein",
@@ -927,7 +975,8 @@
                         "hi": "हाँ, कुछ दिनों से।",
                         "ur": "ہاں، کچھ دنوں سے.",
                         "tr": "Evet, birkaç gündür."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_02_line6.mp3"
                 }
             ],
             "id": "d17_02"
@@ -958,7 +1007,8 @@
                         "hi": "शुभ दिन, श्री शुल्ज़। मैं अब आपके रिफ्लेक्स की जांच करूंगा।",
                         "ur": "شب بخیر، مسٹر شلز۔ میں اب آپ کے اضطراری ردعمل چیک کروں گا۔",
                         "tr": "İyi günler, Bay Schulz. Şimdi reflekslerinizi kontrol edeceğim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_03_line1.mp3"
                 },
                 {
                     "speaker": "Patient Schulz",
@@ -970,7 +1020,8 @@
                         "hi": "ठीक है।",
                         "ur": "ٹھیک ہے.",
                         "tr": "Peki."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_03_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Lehmann",
@@ -982,7 +1033,8 @@
                         "hi": "(रिफ्लेक्स हैमर से घुटने के टेंडन पर टैप करता है)",
                         "ur": "(اضطراری ہتھوڑی سے پٹیلر کنڈرا کو تھپتھپاتا ہے)",
                         "tr": "(Refleks çekici ile diz kapağı tendonuna vurur)"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_03_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Lehmann",
@@ -994,7 +1046,8 @@
                         "hi": "अच्छा। रिफ्लेक्स है। अब दूसरा पैर।",
                         "ur": "اچھا۔ اضطراری ردعمل موجود ہے۔ اب دوسرا پاؤں.",
                         "tr": "Güzel. Refleks var. Şimdi diğer ayak."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_03_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Lehmann",
@@ -1006,7 +1059,8 @@
                         "hi": "(रिफ्लेक्स हैमर से घुटने के टेंडन पर टैप करता है)",
                         "ur": "(اضطراری ہتھوڑی سے پٹیلر کنڈرا کو تھپتھپاتا ہے)",
                         "tr": "(Refleks çekici ile diz kapağı tendonuna vurur)"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_03_line5.mp3"
                 },
                 {
                     "speaker": "Dr. Lehmann",
@@ -1018,7 +1072,8 @@
                         "hi": "सब ठीक है।",
                         "ur": "سب ٹھیک ہے۔",
                         "tr": "Her şey yolunda."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_03_line6.mp3"
                 }
             ],
             "id": "d17_03"
@@ -1049,7 +1104,8 @@
                         "hi": "शुभ दिन, श्रीमती श्मिट। मैं आपको एक बार करीब से देखना चाहता हूं।",
                         "ur": "شب بخیر، محترمہ شمٹ۔ میں ایک بار آپ کو قریب سے دیکھنا چاہتا ہوں۔",
                         "tr": "İyi günler, Bayan Schmidt. Sizi yakından incelemek istiyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_04_line1.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -1061,7 +1117,8 @@
                         "hi": "खुशी से।",
                         "ur": "خوشی سے.",
                         "tr": "Memnuniyetle."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_04_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Fischer",
@@ -1073,7 +1130,8 @@
                         "hi": "मुझे आपके हाथ पर यहाँ एक छोटा लाल धब्बा दिखाई दे रहा है। आपको यह कब से है?",
                         "ur": "میں آپ کے بازو پر یہاں ایک چھوٹا سا سرخ دھبہ دیکھ رہا ہوں۔ آپ کو یہ کب سے ہے؟",
                         "tr": "Burada kolunuzda küçük bir kırmızı nokta görüyorum. Ne zamandır var?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_04_line3.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -1085,7 +1143,8 @@
                         "hi": "मुझे लगता है कि कुछ हफ़्तों से। मैंने इसके बारे में कुछ नहीं सोचा।",
                         "ur": "مجھے لگتا ہے کہ کچھ ہفتوں سے. میں نے اس کے بارے میں کچھ نہیں سوچا۔",
                         "tr": "Sanırım birkaç haftadır var. Önemsemedim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_04_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Fischer",
@@ -1097,7 +1156,8 @@
                         "hi": "मैं इसे बस संक्षेप में टटोलूंगा। यह थोड़ा उभरा हुआ है। मैं आपको इसे एक त्वचा विशेषज्ञ को दिखाने की सलाह देता हूं।",
                         "ur": "میں صرف اسے مختصراً محسوس کروں گا۔ یہ قدرے ابھرا ہوا ہے۔ میں آپ کو مشورہ دیتا ہوں کہ اسے کسی ماہر امراض جلد کو دکھائیں۔",
                         "tr": "Kısaca palpe edeceğim. Hafifçe kalkık. Bir dermatoloğa göstermenizi tavsiye ederim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_04_line5.mp3"
                 }
             ],
             "id": "d17_04"
@@ -1128,7 +1188,8 @@
                         "hi": "नर्स वेबर, कृपया श्री ब्रौन का रक्तचाप मापें।",
                         "ur": "نرس ویبر، براہ مہربانی مسٹر براؤن کا بلڈ پریشر چیک کریں۔",
                         "tr": "Hemşire Weber, lütfen Bay Braun'un tansiyonunu ölçün."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_05_line1.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -1140,7 +1201,8 @@
                         "hi": "हाँ, डॉक्टर। (रक्तचाप मापता है) रक्तचाप 140/90 है।",
                         "ur": "جی ہاں، ڈاکٹر۔ (بلڈ پریشر چیک کرتی ہیں) بلڈ پریشر 140/90 ہے۔",
                         "tr": "Evet, Doktor. (Tansiyonu ölçer) Tansiyon 140/90."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_05_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -1152,7 +1214,8 @@
                         "hi": "धन्यवाद, नर्स। श्री ब्रौन, मैं अब आपका हृदय सुनूंगा।",
                         "ur": "شکریہ، نرس۔ مسٹر براؤن، میں اب آپ کے دل کی دھڑکن سنوں گا۔",
                         "tr": "Teşekkürler, Hemşire. Bay Braun, şimdi kalbinizi dinleyeceğim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_05_line3.mp3"
                 },
                 {
                     "speaker": "Patient Braun",
@@ -1164,7 +1227,8 @@
                         "hi": "ठीक है।",
                         "ur": "ٹھیک ہے.",
                         "tr": "Peki."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_05_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -1176,7 +1240,8 @@
                         "hi": "(हृदय को सुनता है) मुझे एक हल्की सी बड़बड़ाहट सुनाई दे रही है। हमें एक ईसीजी करना चाहिए।",
                         "ur": "(دل کی دھڑکن سنتے ہیں) مجھے ایک ہلکی سی سرسراہٹ سنائی دے رہی ہے۔ ہمیں ایک ای سی جی کروانا چاہیے۔",
                         "tr": "(Kalbi dinler) Hafif bir üfürüm duyuyorum. Bir EKG çekmeliyiz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_17/dialogues/d17_05_line5.mp3"
                 }
             ],
             "id": "d17_05"

@@ -29,26 +29,12 @@
             "tr": "Bu bölüm, Alman tıbbi ortamlarında kullanılan resmi selamlaşmaları ve unvanları tanıtacaktır. Ayrıca 'Sie' ve 'du' formlarının uygun kullanımını öğrenecek ve 'Oberarzt' ve 'Chefarzt' gibi rolleri içeren hastane hiyerarşisini anlayacaksınız."
         },
         "grammarFocus": {
-            "en": {
-                "bullet1": "Understanding the declension of titles with names (e.g., 'Herr Doktor Müller').",
-                "bullet2": "Proper usage of 'Sie' (formal) and 'du' (informal) pronouns and verb conjugations."
-            },
-            "bn": {
-                "bullet1": "নামের সাথে পদবিগুলির বিভক্তি বোঝা (যেমন, 'Herr Doktor Müller)।",
-                "bullet2": "'Sie' (আনুষ্ঠানিক) এবং 'du' (অনানুষ্ঠানিক) সর্বনাম এবং ক্রিয়ার संयुग्मनগুলির সঠিক ব্যবহার।"
-            },
-            "hi": {
-                "bullet1": "नामों के साथ शीर्षकों के विभक्ति को समझना (जैसे, 'Herr Doktor Müller')।",
-                "bullet2": "'Sie' (औपचारिक) और 'du' (अनौपचारिक) सर्वनामों और क्रिया संयुग्मों का उचित उपयोग।"
-            },
-            "ur": {
-                "bullet1": "ناموں کے ساتھ القاب کی حالت کو سمجھنا (مثال کے طور پر، 'Herr Doktor Müller')۔",
-                "bullet2": "'Sie' (رسمی) اور 'du' (غیر رسمی) ضمیروں اور فعل کے تصریف کا مناسب استعمال۔"
-            },
-            "tr": {
-                "bullet1": "İsimlerle birlikte unvanların çekimini anlamak (örneğin, 'Herr Doktor Müller').",
-                "bullet2": "'Sie' (resmi) ve 'du' (gayri resmi) zamirlerinin ve fiil çekimlerinin doğru kullanımı."
-            }
+            "en": "**Formal vs. Informal Address in German Medical Settings**\n\nIn German medical practice, the formal address 'Sie' (you-formal) is essential for professional communication.\n\n*Formal Greetings - You must use these with patients:*\n- 'Guten Tag, wie geht es Ihnen?' (Good day, how are you? - formal)\n- 'Wie kann ich Ihnen helfen?' (How can I help you? - formal)\n\n*The Sie-Form Conjugation Pattern:*\n| Verb | Sie-Form | Example |\n|------|----------|---------|\n| sein | Sie sind | Sind Sie der Patient? |\n| haben | Sie haben | Haben Sie Schmerzen? |\n| gehen | Sie gehen | Wie geht es Ihnen? |\n| kommen | Sie kommen | Woher kommen Sie? |\n\n*Formal Possessive Pronouns:*\n- 'Ihr Name' (your name - formal, with 'I' capitalized)\n- 'Ihre Adresse' (your address - formal)\n- 'Ihr Geburtsdatum' (your date of birth - formal)\n\n**Important Rule:** In written German, 'Sie' and 'Ihr/Ihre' (formal) are ALWAYS capitalized!\n\n*Medical Context Examples:*\n- 'Herr Müller, wie fühlen Sie sich heute?' (Mr. Müller, how do you feel today?)\n- 'Frau Schmidt, haben Sie Ihre Versicherungskarte dabei?' (Mrs. Schmidt, do you have your insurance card with you?)",
+            "de": "**Formelle und informelle Anrede im medizinischen Bereich**\n\nIn der deutschen medizinischen Praxis ist die formelle Anrede 'Sie' für die professionelle Kommunikation unerlässlich.\n\n*Formelle Begrüßungen - Diese müssen Sie mit Patienten verwenden:*\n- 'Guten Tag, wie geht es Ihnen?'\n- 'Wie kann ich Ihnen helfen?'\n\n*Die Sie-Form Konjugationsmuster:*\n| Verb | Sie-Form | Beispiel |\n|------|----------|----------|\n| sein | Sie sind | Sind Sie der Patient? |\n| haben | Sie haben | Haben Sie Schmerzen? |\n| gehen | Sie gehen | Wie geht es Ihnen? |\n| kommen | Sie kommen | Woher kommen Sie? |\n\n*Formelle Possessivpronomen:*\n- 'Ihr Name' (Ihr wird groß geschrieben)\n- 'Ihre Adresse'\n- 'Ihr Geburtsdatum'\n\n**Wichtige Regel:** Im geschriebenen Deutsch werden 'Sie' und 'Ihr/Ihre' (formell) IMMER groß geschrieben!\n\n*Medizinische Kontextbeispiele:*\n- 'Herr Müller, wie fühlen Sie sich heute?'\n- 'Frau Schmidt, haben Sie Ihre Versicherungskarte dabei?'",
+            "bn": "**Formal vs. Informal Address in German Medical Settings**\n\nIn German medical practice, the formal address 'Sie' (you-formal) is essential for professional communication.\n\n*Formal Greetings - You must use these with patients:*\n- 'Guten Tag, wie geht es Ihnen?' (Good day, how are you? - formal)\n- 'Wie kann ich Ihnen helfen?' (How can I help you? - formal)\n\n*The Sie-Form Conjugation Pattern:*\n| Verb | Sie-Form | Example |\n|------|----------|---------|\n| sein | Sie sind | Sind Sie der Patient? |\n| haben | Sie haben | Haben Sie Schmerzen? |\n| gehen | Sie gehen | Wie geht es Ihnen? |\n| kommen | Sie kommen | Woher kommen Sie? |\n\n*Formal Possessive Pronouns:*\n- 'Ihr Name' (your name - formal, with 'I' capitalized)\n- 'Ihre Adresse' (your address - formal)\n- 'Ihr Geburtsdatum' (your date of birth - formal)\n\n**Important Rule:** In written German, 'Sie' and 'Ihr/Ihre' (formal) are ALWAYS capitalized!\n\n*Medical Context Examples:*\n- 'Herr Müller, wie fühlen Sie sich heute?' (Mr. Müller, how do you feel today?)\n- 'Frau Schmidt, haben Sie Ihre Versicherungskarte dabei?' (Mrs. Schmidt, do you have your insurance card with you?)",
+            "hi": "**Formal vs. Informal Address in German Medical Settings**\n\nIn German medical practice, the formal address 'Sie' (you-formal) is essential for professional communication.\n\n*Formal Greetings - You must use these with patients:*\n- 'Guten Tag, wie geht es Ihnen?' (Good day, how are you? - formal)\n- 'Wie kann ich Ihnen helfen?' (How can I help you? - formal)\n\n*The Sie-Form Conjugation Pattern:*\n| Verb | Sie-Form | Example |\n|------|----------|---------|\n| sein | Sie sind | Sind Sie der Patient? |\n| haben | Sie haben | Haben Sie Schmerzen? |\n| gehen | Sie gehen | Wie geht es Ihnen? |\n| kommen | Sie kommen | Woher kommen Sie? |\n\n*Formal Possessive Pronouns:*\n- 'Ihr Name' (your name - formal, with 'I' capitalized)\n- 'Ihre Adresse' (your address - formal)\n- 'Ihr Geburtsdatum' (your date of birth - formal)\n\n**Important Rule:** In written German, 'Sie' and 'Ihr/Ihre' (formal) are ALWAYS capitalized!\n\n*Medical Context Examples:*\n- 'Herr Müller, wie fühlen Sie sich heute?' (Mr. Müller, how do you feel today?)\n- 'Frau Schmidt, haben Sie Ihre Versicherungskarte dabei?' (Mrs. Schmidt, do you have your insurance card with you?)",
+            "ur": "**Formal vs. Informal Address in German Medical Settings**\n\nIn German medical practice, the formal address 'Sie' (you-formal) is essential for professional communication.\n\n*Formal Greetings - You must use these with patients:*\n- 'Guten Tag, wie geht es Ihnen?' (Good day, how are you? - formal)\n- 'Wie kann ich Ihnen helfen?' (How can I help you? - formal)\n\n*The Sie-Form Conjugation Pattern:*\n| Verb | Sie-Form | Example |\n|------|----------|---------|\n| sein | Sie sind | Sind Sie der Patient? |\n| haben | Sie haben | Haben Sie Schmerzen? |\n| gehen | Sie gehen | Wie geht es Ihnen? |\n| kommen | Sie kommen | Woher kommen Sie? |\n\n*Formal Possessive Pronouns:*\n- 'Ihr Name' (your name - formal, with 'I' capitalized)\n- 'Ihre Adresse' (your address - formal)\n- 'Ihr Geburtsdatum' (your date of birth - formal)\n\n**Important Rule:** In written German, 'Sie' and 'Ihr/Ihre' (formal) are ALWAYS capitalized!\n\n*Medical Context Examples:*\n- 'Herr Müller, wie fühlen Sie sich heute?' (Mr. Müller, how do you feel today?)\n- 'Frau Schmidt, haben Sie Ihre Versicherungskarte dabei?' (Mrs. Schmidt, do you have your insurance card with you?)",
+            "tr": "**Formal vs. Informal Address in German Medical Settings**\n\nIn German medical practice, the formal address 'Sie' (you-formal) is essential for professional communication.\n\n*Formal Greetings - You must use these with patients:*\n- 'Guten Tag, wie geht es Ihnen?' (Good day, how are you? - formal)\n- 'Wie kann ich Ihnen helfen?' (How can I help you? - formal)\n\n*The Sie-Form Conjugation Pattern:*\n| Verb | Sie-Form | Example |\n|------|----------|---------|\n| sein | Sie sind | Sind Sie der Patient? |\n| haben | Sie haben | Haben Sie Schmerzen? |\n| gehen | Sie gehen | Wie geht es Ihnen? |\n| kommen | Sie kommen | Woher kommen Sie? |\n\n*Formal Possessive Pronouns:*\n- 'Ihr Name' (your name - formal, with 'I' capitalized)\n- 'Ihre Adresse' (your address - formal)\n- 'Ihr Geburtsdatum' (your date of birth - formal)\n\n**Important Rule:** In written German, 'Sie' and 'Ihr/Ihre' (formal) are ALWAYS capitalized!\n\n*Medical Context Examples:*\n- 'Herr Müller, wie fühlen Sie sich heute?' (Mr. Müller, how do you feel today?)\n- 'Frau Schmidt, haben Sie Ihre Versicherungskarte dabei?' (Mrs. Schmidt, do you have your insurance card with you?)"
         },
         "culturalNotes": {
             "en": "In German hospitals, addressing superiors with 'Sie' and their title (e.g., 'Herr Professor') is crucial, and informality ('du') is generally only used after explicit permission.",
@@ -64,12 +50,38 @@
             "ur": "یہ سیکشن جرمن طبی ماحول میں موثر مواصلات کے لیے آداب، القاب اور ہسپتال کے درجہ بندی کی بنیادی تفہیم فراہم کرتا ہے۔",
             "tr": "Bu bölüm, Alman tıbbi ortamında etkili iletişim için çok önemli olan selamlaşma, unvan ve hastane hiyerarşisi hakkında temel bir anlayış sağlar."
         },
-        "learningObjectives": [
-            "Identify and use formal greetings appropriately in German medical settings.",
-            "Distinguish between and correctly apply 'Sie' and 'du' forms.",
-            "Recognize common medical titles (e.g., Oberarzt, Chefarzt) and understand their significance.",
-            "Comprehend the basic hierarchy of a German hospital and address colleagues respectfully."
-        ]
+        "learningObjectives": {
+            "en": [
+                "Identify and use formal greetings appropriately in German medical settings.",
+                "Distinguish between and correctly apply 'Sie' and 'du' forms.",
+                "Recognize common medical titles (e.g., Oberarzt, Chefarzt) and understand their significance.",
+                "Comprehend the basic hierarchy of a German hospital and address colleagues respectfully."
+            ],
+            "bn": [
+                "আনুষ্ঠানিক অভিবাদন সনাক্ত করুন এবং ব্যবহার করুন appropriately in German medical settings.",
+                "মধ্যে পার্থক্য করুন and correctly apply 'Sie' and 'du' forms.",
+                "সাধারণ চিকিৎসা শিরোনাম চিনুন (e.g., Oberarzt, Chefarzt) and understand their significance.",
+                "মৌলিক শ্রেণিবিন্যাস বুঝুন of a German hospital and address colleagues respectfully."
+            ],
+            "hi": [
+                "औपचारिक अभिवादन को पहचानें और उपयोग करें appropriately in German medical settings.",
+                "के बीच अंतर करें and correctly apply 'Sie' and 'du' forms.",
+                "सामान्य चिकित्सा शीर्षकों को पहचानें (e.g., Oberarzt, Chefarzt) and understand their significance.",
+                "मूल पदानुक्रम को समझें of a German hospital and address colleagues respectfully."
+            ],
+            "ur": [
+                "رسمی آداب کی شناخت اور استعمال کریں appropriately in German medical settings.",
+                "کے درمیان فرق کریں and correctly apply 'Sie' and 'du' forms.",
+                "عام طبی عنوانات کو پہچانیں (e.g., Oberarzt, Chefarzt) and understand their significance.",
+                "بنیادی درجہ بندی کو سمجھیں of a German hospital and address colleagues respectfully."
+            ],
+            "tr": [
+                "Resmi selamlaşmaları tanımlayın ve kullanın appropriately in German medical settings.",
+                "arasındaki farkı ayırt edin and correctly apply 'Sie' and 'du' forms.",
+                "Yaygın tıbbi unvanları tanıyın (e.g., Oberarzt, Chefarzt) and understand their significance.",
+                "Temel hiyerarşiyi kavrayın of a German hospital and address colleagues respectfully."
+            ]
+        }
     },
     "vocabulary": [
         {
@@ -93,7 +105,8 @@
                 "ur": "شب بخیر، ڈاکٹر مولر، آج آپ کیسے ہیں؟",
                 "tr": "İyi günler, Dr. Müller, bugün nasılsınız?"
             },
-            "id": "v01_01"
+            "id": "v01_01",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_01.mp3"
         },
         {
             "germanTerm": "Sehr geehrte/r Frau/Herr...",
@@ -116,7 +129,8 @@
                 "ur": "محترمہ شمت، میں آپ کو مریض کے بارے میں لکھ رہا ہوں۔",
                 "tr": "Sayın Bayan Schmidt, size hasta hakkında yazıyorum."
             },
-            "id": "v01_02"
+            "id": "v01_02",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_02.mp3"
         },
         {
             "germanTerm": "der Chefarzt",
@@ -139,7 +153,8 @@
                 "ur": "چیف فزیشن نے آپریشن کی منظوری دے دی۔",
                 "tr": "Başhekim ameliyatı onayladı."
             },
-            "id": "v01_03"
+            "id": "v01_03",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_03.mp3"
         },
         {
             "germanTerm": "der Oberarzt",
@@ -162,7 +177,8 @@
                 "ur": "سینئر فزیشن راؤنڈ کی قیادت کرتے ہیں۔",
                 "tr": "Kıdemli hekim viziteyi yönetir."
             },
-            "id": "v01_04"
+            "id": "v01_04",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_04.mp3"
         },
         {
             "germanTerm": "der Assistenzarzt",
@@ -185,7 +201,8 @@
                 "ur": "اسسٹنٹ فزیشن نے خون نکالا۔",
                 "tr": "Asistan doktor kan aldı."
             },
-            "id": "v01_05"
+            "id": "v01_05",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_05.mp3"
         },
         {
             "germanTerm": "der Facharzt",
@@ -208,7 +225,8 @@
                 "ur": "کارڈیالوجی کے ماہر طبیب سے مشورہ کیا گیا.",
                 "tr": "Kardiyoloji uzmanı doktora danışıldı."
             },
-            "id": "v01_06"
+            "id": "v01_06",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_06.mp3"
         },
         {
             "germanTerm": "die Krankenschwester",
@@ -231,7 +249,8 @@
                 "ur": "نرس بلڈ پریشر کی پیمائش کرتی ہے۔",
                 "tr": "Hemşire tansiyonu ölçer."
             },
-            "id": "v01_07"
+            "id": "v01_07",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_07.mp3"
         },
         {
             "germanTerm": "der Pfleger",
@@ -254,7 +273,8 @@
                 "ur": "دیکھ بھال کرنے والا مریض کو اٹھنے میں مدد کرتا ہے۔",
                 "tr": "Bakıcı hastanın kalkmasına yardım eder."
             },
-            "id": "v01_08"
+            "id": "v01_08",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_08.mp3"
         },
         {
             "germanTerm": "die Klinik",
@@ -277,7 +297,8 @@
                 "ur": "مریض کو ہسپتال میں داخل کرایا گیا.",
                 "tr": "Hasta hastaneye yatırıldı."
             },
-            "id": "v01_09"
+            "id": "v01_09",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_09.mp3"
         },
         {
             "germanTerm": "das Krankenhaus",
@@ -300,7 +321,8 @@
                 "ur": "ہسپتال میں بہت سے ماہر شعبے ہیں۔",
                 "tr": "Hastanenin birçok uzmanlık bölümü var."
             },
-            "id": "v01_10"
+            "id": "v01_10",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_10.mp3"
         },
         {
             "germanTerm": "die Abteilung",
@@ -323,7 +345,8 @@
                 "ur": "میں داخلی طب کے شعبے میں کام کرتا ہوں۔",
                 "tr": "İç hastalıkları bölümünde çalışıyorum."
             },
-            "id": "v01_11"
+            "id": "v01_11",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_11.mp3"
         },
         {
             "germanTerm": "die Station",
@@ -346,7 +369,8 @@
                 "ur": "مریض وارڈ 3 میں ہے۔",
                 "tr": "Hasta 3. koğuşta yatıyor."
             },
-            "id": "v01_12"
+            "id": "v01_12",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_12.mp3"
         },
         {
             "germanTerm": "die Visite",
@@ -369,7 +393,8 @@
                 "ur": "راؤنڈ صبح 9 بجے شروع ہوتا ہے۔",
                 "tr": "Vizit saat 9'da başlıyor."
             },
-            "id": "v01_13"
+            "id": "v01_13",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_13.mp3"
         },
         {
             "germanTerm": "die Kollegin",
@@ -392,7 +417,8 @@
                 "ur": "میری خاتون ساتھی بہت تجربہ کار ہیں۔",
                 "tr": "Kadın meslektaşım çok deneyimli."
             },
-            "id": "v01_14"
+            "id": "v01_14",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_14.mp3"
         },
         {
             "germanTerm": "der Kollege",
@@ -415,7 +441,8 @@
                 "ur": "میرے مرد ساتھی نے میری مدد کی۔",
                 "tr": "Erkek meslektaşım bana yardım etti."
             },
-            "id": "v01_15"
+            "id": "v01_15",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_15.mp3"
         },
         {
             "germanTerm": "das Team",
@@ -438,7 +465,8 @@
                 "ur": "ہم ایک اچھی ٹیم ہیں۔",
                 "tr": "Biz iyi bir takımız."
             },
-            "id": "v01_16"
+            "id": "v01_16",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_16.mp3"
         },
         {
             "germanTerm": "die Hierarchie",
@@ -461,7 +489,8 @@
                 "ur": "ہسپتال میں درجہ بندی بہت اہم ہے۔",
                 "tr": "Hastanede hiyerarşi çok önemlidir."
             },
-            "id": "v01_17"
+            "id": "v01_17",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_17.mp3"
         },
         {
             "germanTerm": "Sie",
@@ -484,7 +513,8 @@
                 "ur": "آپ کیسے ہیں، پروفیسر صاحب؟",
                 "tr": "Nasılsınız, Profesör Bey?"
             },
-            "id": "v01_18"
+            "id": "v01_18",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_18.mp3"
         },
         {
             "germanTerm": "du",
@@ -507,7 +537,8 @@
                 "ur": "کیا تم میری مدد کر سکتے ہو؟",
                 "tr": "Bana yardım edebilir misin?"
             },
-            "id": "v01_19"
+            "id": "v01_19",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_19.mp3"
         },
         {
             "germanTerm": "sich vorstellen",
@@ -530,7 +561,8 @@
                 "ur": "کیا میں اپنا تعارف کروا سکتا ہوں؟ میں ڈاکٹر میئر ہوں۔",
                 "tr": "Kendimi tanıtabilir miyim? Ben Dr. Meier."
             },
-            "id": "v01_20"
+            "id": "v01_20",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_20.mp3"
         },
         {
             "germanTerm": "der Titel",
@@ -553,7 +585,8 @@
                 "ur": "وہ 'پروفیسر' کا خطاب رکھتے ہیں۔",
                 "tr": "O 'Profesör' unvanını taşıyor."
             },
-            "id": "v01_21"
+            "id": "v01_21",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_21.mp3"
         },
         {
             "germanTerm": "die Anrede",
@@ -576,7 +609,8 @@
                 "ur": "خطاب کا صحیح طریقہ 'ڈاکٹر صاحب' ہے۔",
                 "tr": "Doğru hitap şekli 'Doktor Bey'dir."
             },
-            "id": "v01_22"
+            "id": "v01_22",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_22.mp3"
         },
         {
             "germanTerm": "angenehm",
@@ -599,7 +633,8 @@
                 "ur": "آپ سے مل کر خوشی ہوئی۔",
                 "tr": "Tanıştığıma memnun oldum."
             },
-            "id": "v01_23"
+            "id": "v01_23",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_23.mp3"
         },
         {
             "germanTerm": "auf Wiedersehen",
@@ -622,7 +657,8 @@
                 "ur": "الوداع، کل ملتے ہیں!",
                 "tr": "Güle güle, yarın görüşürüz!"
             },
-            "id": "v01_24"
+            "id": "v01_24",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_24.mp3"
         },
         {
             "germanTerm": "die Visitenkarte",
@@ -645,7 +681,8 @@
                 "ur": "یہ رہا میرا وزٹنگ کارڈ۔",
                 "tr": "İşte kartvizitim."
             },
-            "id": "v01_25"
+            "id": "v01_25",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_25.mp3"
         },
         {
             "germanTerm": "das Arbeitsklima",
@@ -668,7 +705,8 @@
                 "ur": "ٹیم میں کام کا ماحول بہت اچھا ہے۔",
                 "tr": "Takımdaki çalışma ortamı çok iyi."
             },
-            "id": "v01_26"
+            "id": "v01_26",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_26.mp3"
         },
         {
             "germanTerm": "die Verantwortung",
@@ -691,7 +729,8 @@
                 "ur": "ایک ڈاکٹر کی حیثیت سے، آپ پر ایک بڑی ذمہ داری عائد ہوتی ہے۔",
                 "tr": "Bir doktor olarak, büyük bir sorumluluk taşırsınız."
             },
-            "id": "v01_27"
+            "id": "v01_27",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_27.mp3"
         },
         {
             "germanTerm": "die Weiterbildung",
@@ -714,7 +753,8 @@
                 "ur": "ڈاکٹروں کے لیے مزید تعلیم بہت اہم ہے۔",
                 "tr": "İleri eğitim doktorlar için çok önemlidir."
             },
-            "id": "v01_28"
+            "id": "v01_28",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_28.mp3"
         },
         {
             "germanTerm": "der Dienstplan",
@@ -737,7 +777,8 @@
                 "ur": "برائے مہربانی ڈیوٹی روسٹر دیکھیں۔",
                 "tr": "Lütfen nöbet çizelgesine bakın."
             },
-            "id": "v01_29"
+            "id": "v01_29",
+            "audioUrl": "assets/audio/sections/section_01/vocabulary/v01_29.mp3"
         }
     ],
     "dialogues": [
@@ -767,7 +808,8 @@
                         "hi": "शुभ प्रभात, श्रीमान वरिष्ठ चिकित्सक वेबर, शुभ प्रभात, सिस्टर वेबर।",
                         "ur": "صبح بخیر، جناب سینئر فزیشن ویبر، صبح بخیر، سسٹر ویبر۔",
                         "tr": "Günaydın, Sayın Kıdemli Doktor Weber, günaydın, Hemşire Weber."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_01/dialogues/d01_01_line1.mp3"
                 },
                 {
                     "speaker": "Oberarzt Weber",
@@ -779,7 +821,8 @@
                         "hi": "शुभ प्रभात, श्रीमान श्मिट। क्या आप दौर के लिए तैयार हैं?",
                         "ur": "صبح بخیر، جناب شمٹ۔ کیا آپ راؤنڈ کے لیے تیار ہیں؟",
                         "tr": "Günaydın, Bay Schmidt. Vizite hazır mısınız?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_01/dialogues/d01_01_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -791,7 +834,8 @@
                         "hi": "हाँ, श्रीमान वरिष्ठ चिकित्सक। मैंने सभी रोगी फ़ाइलें तैयार कर ली हैं।",
                         "ur": "جی ہاں، جناب سینئر فزیشن۔ میں نے تمام مریضوں کی فائلیں تیار کر لی ہیں۔",
                         "tr": "Evet, Sayın Kıdemli Doktor. Tüm hasta dosyalarını hazırladım."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_01/dialogues/d01_01_line3.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -803,7 +847,8 @@
                         "hi": "शुभ प्रभात, श्रीमान श्मिट। मैंने दवाएँ तैयार कर ली हैं।",
                         "ur": "صبح بخیر، جناب شمٹ۔ میں نے دوائیں تیار کر لی ہیں۔",
                         "tr": "Günaydın, Bay Schmidt. İlaçları hazırladım."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_01/dialogues/d01_01_line4.mp3"
                 },
                 {
                     "speaker": "Oberarzt Weber",
@@ -815,7 +860,8 @@
                         "hi": "उत्कृष्ट। तो हम शुरू कर सकते हैं।",
                         "ur": "بہترین۔ تو ہم شروع کر سکتے ہیں۔",
                         "tr": "Mükemmel. O zaman başlayabiliriz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_01/dialogues/d01_01_line5.mp3"
                 }
             ],
             "id": "d01_01"
@@ -846,7 +892,8 @@
                         "hi": "श्रीमान श्मिट, क्या मैं आपका परिचय डॉ. मेयर से करा सकता हूँ? वह कार्डियोलॉजी में हमारे नए वरिष्ठ चिकित्सक हैं।",
                         "ur": "جناب شمٹ، کیا میں آپ کو ڈاکٹر مائر سے متعارف کروا سکتا ہوں؟ وہ کارڈیالوجی میں ہمارے نئے سینئر فزیشن ہیں۔",
                         "tr": "Bay Schmidt, sizi Dr. Meier ile tanıştırabilir miyim? Kardiyoloji bölümündeki yeni kıdemli doktorumuz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_01/dialogues/d01_02_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -858,7 +905,8 @@
                         "hi": "आपसे मिलकर बहुत खुशी हुई, डॉ. मेयर। टीम में आपका स्वागत है!",
                         "ur": "آپ سے مل کر بہت خوشی ہوئی، ڈاکٹر مائر۔ ٹیم میں آپ کا استقبال ہے!",
                         "tr": "Memnun oldum, Dr. Meier. Takıma hoş geldiniz!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_01/dialogues/d01_02_line2.mp3"
                 },
                 {
                     "speaker": "Oberarzt Meier",
@@ -870,7 +918,8 @@
                         "hi": "मुझे भी खुशी हुई, श्रीमान श्मिट। मैं एक साथ काम करने के लिए उत्सुक हूँ।",
                         "ur": "مجھے بھی خوشی ہوئی، جناب شمٹ۔ میں ایک ساتھ کام کرنے کا منتظر ہوں۔",
                         "tr": "Ben de memnun oldum, Bay Schmidt. Birlikte çalışmayı dört gözle bekliyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_01/dialogues/d01_02_line3.mp3"
                 },
                 {
                     "speaker": "Chefarzt Klein",
@@ -882,7 +931,8 @@
                         "hi": "तो मैं आप दोनों को दिन की अच्छी शुरुआत की शुभकामनाएं देता हूँ।",
                         "ur": "تو میں آپ دونوں کو دن کی اچھی شروعات کی خواہش کرتا ہوں۔",
                         "tr": "O zaman ikinize de güne iyi bir başlangıçlar dilerim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_01/dialogues/d01_02_line4.mp3"
                 }
             ],
             "id": "d01_02"
@@ -913,7 +963,8 @@
                         "hi": "शुभ दिन, श्रीमान मुलर। मैं श्रीमान श्मिट, यहाँ के सहायक डॉक्टरों में से एक हूँ।",
                         "ur": "شب بخیر، مسٹر ملر۔ میں مسٹر شمٹ، یہاں کے معاون ڈاکٹروں میں سے ایک ہوں۔",
                         "tr": "İyi günler, Bay Müller. Ben Bay Schmidt, buradaki asistan doktorlardan biriyim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_01/dialogues/d01_03_line1.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -925,7 +976,8 @@
                         "hi": "शुभ दिन, श्रीमान श्मिट।",
                         "ur": "شب بخیر، جناب شمٹ۔",
                         "tr": "İyi günler, Bay Schmidt."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_01/dialogues/d01_03_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -937,7 +989,8 @@
                         "hi": "आज आप कैसा महसूस कर रहे हैं?",
                         "ur": "آج آپ کیسا محسوس کر رہے ہیں؟",
                         "tr": "Bugün nasılsınız?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_01/dialogues/d01_03_line3.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -949,7 +1002,8 @@
                         "hi": "ठीक-ठाक। दर्द अभी भी है।",
                         "ur": "ٹھیک ٹھاک۔ درد ابھی بھی ہے۔",
                         "tr": "İdare eder. Ağrılarım hala var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_01/dialogues/d01_03_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -961,7 +1015,8 @@
                         "hi": "मैं तुरंत वरिष्ठ चिकित्सक के साथ इस पर चर्चा करूंगा। हम इसका ध्यान रखेंगे।",
                         "ur": "میں فوری طور پر سینئر فزیشن کے ساتھ اس پر بات کروں گا۔ ہم اس کا خیال رکھیں گے۔",
                         "tr": "Hemen kıdemli doktor ile görüşeceğim. Biz ilgileneceğiz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_01/dialogues/d01_03_line5.mp3"
                 }
             ],
             "id": "d01_03"
@@ -992,7 +1047,8 @@
                         "hi": "सुनो, शुल्ज़, हम एक दूसरे को इतने लंबे समय से जानते हैं। क्या हम आखिरकार एक दूसरे के साथ 'डु' का उपयोग नहीं कर सकते?",
                         "ur": "سنو، شلز، ہم ایک دوسرے کو اتنے عرصے سے جانتے ہیں۔ کیا ہم آخر کار ایک دوسرے کے ساتھ 'ڈو' استعمال نہیں کر سکتے؟",
                         "tr": "Bak Schulz, birbirimizi çok uzun zamandır tanıyoruz. Artık birbirimize 'du' diyemez miyiz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_01/dialogues/d01_04_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Schulz",
@@ -1004,7 +1060,8 @@
                         "hi": "तुम सही कह रहे हो, लेहमान। खुशी से! तो, नमस्ते लेहमान।",
                         "ur": "تم ٹھیک کہہ رہے ہو، لیمن۔ خوشی سے! تو، ہیلو لیمن۔",
                         "tr": "Haklısın, Lehmann. Memnun olurum! O zaman, merhaba Lehmann."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_01/dialogues/d01_04_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Lehmann",
@@ -1016,7 +1073,8 @@
                         "hi": "हेलो शुल्ज़! यह बहुत अच्छा है, है ना?",
                         "ur": "ہیلو شلز! یہ بہت اچھا ہے، ہے نا؟",
                         "tr": "Merhaba Schulz! Bu çok daha güzel, değil mi?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_01/dialogues/d01_04_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Schulz",
@@ -1028,7 +1086,8 @@
                         "hi": "बिल्कुल। मुझे भी ऐसा लगता है। लेकिन शायद हमें मुख्य चिकित्सक के सामने इससे बचना चाहिए।",
                         "ur": "بالکل۔ میں بھی ایسا سوچتا ہوں۔ لیکن شاید ہمیں چیف فزیشن کے سامنے اس سے بچنا چاہیے۔",
                         "tr": "Kesinlikle. Bence de öyle. Ama belki de başhekimin önünde bundan kaçınmalıyız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_01/dialogues/d01_04_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Lehmann",
@@ -1040,7 +1099,8 @@
                         "hi": "अच्छी बात है। विवेक महत्वपूर्ण है।",
                         "ur": "اچھی بات ہے۔ صوابدید اہم ہے۔",
                         "tr": "İyi nokta. Gizlilik önemlidir."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_01/dialogues/d01_04_line5.mp3"
                 }
             ],
             "id": "d01_04"
@@ -1071,7 +1131,8 @@
                         "hi": "शुभ प्रभात, डॉ. मेयर। आज आप कैसे हैं?",
                         "ur": "صبح بخیر، ڈاکٹر میئر۔ آج آپ کیسے ہیں؟",
                         "tr": "Günaydın, Dr. Meyer. Bugün nasılsınız?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_01/dialogues/d01_05_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Meyer",
@@ -1083,7 +1144,8 @@
                         "hi": "शुभ प्रभात, सिस्टर अन्ना। मैं ठीक हूँ, धन्यवाद। क्या खबर है?",
                         "ur": "صبح بخیر، سسٹر اینا۔ میں ٹھیک ہوں، شکریہ۔ کیا خبر ہے؟",
                         "tr": "Günaydın, Hemşire Anna. Ben iyiyim, teşekkürler. Ne var ne yok?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_01/dialogues/d01_05_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Anna",
@@ -1095,7 +1157,8 @@
                         "hi": "श्रीमान श्मिट को बहुत दर्द हो रहा है। उसे तुरंत दर्द निवारक दवा की आवश्यकता है।",
                         "ur": "مسٹر شمٹ کو بہت درد ہو رہا ہے۔ اسے فوری طور پر درد کش ادویات کی ضرورت ہے۔",
                         "tr": "Bay Schmidt'in şiddetli ağrıları var. Acilen ağrı kesiciye ihtiyacı var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_01/dialogues/d01_05_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Meyer",
@@ -1107,7 +1170,8 @@
                         "hi": "मैं तुरंत इसका ध्यान रखूँगा। जानकारी के लिए धन्यवाद, सिस्टर अन्ना।",
                         "ur": "میں فوری طور پر اس کا خیال رکھوں گا۔ معلومات کے لیے شکریہ، سسٹر اینا۔",
                         "tr": "Hemen ilgileneceğim. Bilgi için teşekkürler, Hemşire Anna."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_01/dialogues/d01_05_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Anna",
@@ -1119,7 +1183,8 @@
                         "hi": "आपका स्वागत है, डॉ. मेयर।",
                         "ur": "آپ کا استقبال ہے، ڈاکٹر میئر۔",
                         "tr": "Rica ederim, Dr. Meyer."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_01/dialogues/d01_05_line5.mp3"
                 }
             ],
             "id": "d01_05"

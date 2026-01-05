@@ -29,26 +29,12 @@
             "tr": "Bu bölümde, depresyon, anksiyete ve psikoz gibi temel psikiyatrik durumları öğreneceksiniz. Ayrıca intihar, terapi, ilaç tedavisi ve psikiyatrik bakım için hastaneye yatış ile ilgili Almanca terminolojiyi de keşfedeceksiniz."
         },
         "grammarFocus": {
-            "en": {
-                "bullet1": "Understanding the declension of adjectives describing psychiatric symptoms (e.g., 'depressive Verstimmung' – depressive mood).",
-                "bullet2": "Using modal verbs to express necessity or obligation related to treatment (e.g., 'Der Patient muss Medikamente einnehmen' – The patient must take medication)."
-            },
-            "bn": {
-                "bullet1": "মানসিক রোগের লক্ষণ বর্ণনা করার জন্য বিশেষণগুলোর কারক বোঝা (যেমন, 'depressive Verstimmung' - বিষণ্ণ মেজাজ)।",
-                "bullet2": "চিকিৎসার সাথে সম্পর্কিত প্রয়োজনীয়তা বা বাধ্যবাধকতা প্রকাশ করার জন্য মোডাল ক্রিয়া ব্যবহার করা (যেমন, 'Der Patient muss Medikamente einnehmen' - রোগীকে ওষুধ খেতে হবে)।"
-            },
-            "hi": {
-                "bullet1": "मनोरोग लक्षणों का वर्णन करने वाले विशेषणों का विभक्ति समझना (जैसे, 'depressive Verstimmung' - उदास मनोदशा)।",
-                "bullet2": "उपचार से संबंधित आवश्यकता या बाध्यता व्यक्त करने के लिए मोडल क्रियाओं का उपयोग करना (जैसे, 'Der Patient muss Medikamente einnehmen' - रोगी को दवा लेनी होगी)।"
-            },
-            "ur": {
-                "bullet1": "نفسیاتی علامات کو بیان کرنے والے صفات کی گردان کو سمجھنا (مثال کے طور پر، 'depressive Verstimmung' - افسردہ مزاج)۔",
-                "bullet2": "علاج سے متعلق ضرورت یا ذمہ داری کے اظہار کے لیے موڈل فعل کا استعمال کرنا (مثال کے طور پر، 'Der Patient muss Medikamente einnehmen' - مریض کو دوا لینی ہوگی)۔"
-            },
-            "tr": {
-                "bullet1": "Psikiyatrik semptomları tanımlayan sıfatların çekimini anlamak (örn., 'depressive Verstimmung' – depresif ruh hali).",
-                "bullet2": "Tedavi ile ilgili gerekliliği veya zorunluluğu ifade etmek için modal fiilleri kullanmak (örn., 'Der Patient muss Medikamente einnehmen' – Hastanın ilaç alması gerekiyor)."
-            }
+            "en": "**Obstetrics and Gynecology: Temporal Clauses and Examination Phrases**\n\nOB/GYN communication requires specific temporal expressions and sensitive phrasing.\n\n*Temporal Subordinate Clauses:*\n| Conjunction | Meaning | Example |\n|-------------|---------|---------|\n| als | when (single past event) | als die Wehen begannen |\n| wenn | when/whenever | wenn Sie Beschwerden haben |\n| nachdem | after | nachdem die Geburt stattfand |\n| bevor | before | bevor wir beginnen |\n| seitdem | since | seitdem Sie schwanger sind |\n\n*Pregnancy Timeline Phrases:*\n- 'in der 20. Schwangerschaftswoche' (in the 20th week of pregnancy)\n- 'im ersten Trimester' (in the first trimester)\n- 'kurz vor der Geburt' (shortly before delivery)\n- 'nach der Entbindung' (after delivery)\n\n**Sensitive Examination Phrases:**\n- 'Ich werde Sie jetzt untersuchen.' (I will examine you now.)\n- 'Dies könnte etwas unangenehm sein.' (This might be somewhat uncomfortable.)\n- 'Sagen Sie mir bitte, wenn es wehtut.' (Please tell me if it hurts.)\n- 'Entspannen Sie sich, so gut es geht.' (Relax as much as possible.)\n\n*History Taking:*\n- 'Wann war Ihre letzte Regelblutung?' (When was your last menstrual period?)\n- 'Waren Sie schon einmal schwanger?' (Have you ever been pregnant?)\n- 'Haben Sie regelmäßige Zyklen?' (Do you have regular cycles?)\n- 'Nehmen Sie Verhütungsmittel?' (Do you use contraception?)",
+            "de": "**Geburtshilfe und Gynäkologie: Temporalsätze und Untersuchungsphrasen**\n\nOB/GYN-Kommunikation erfordert spezifische Zeitausdrücke und sensible Formulierungen.\n\n*Temporale Nebensätze:*\n| Konjunktion | Bedeutung | Beispiel |\n|-------------|-----------|----------|\n| als | als (einmaliges Ereignis) | als die Wehen begannen |\n| wenn | wenn/wann immer | wenn Sie Beschwerden haben |\n| nachdem | nachdem | nachdem die Geburt stattfand |\n| bevor | bevor | bevor wir beginnen |\n| seitdem | seitdem | seitdem Sie schwanger sind |\n\n*Schwangerschaftszeitliche Phrasen:*\n- 'in der 20. Schwangerschaftswoche'\n- 'im ersten Trimester'\n- 'kurz vor der Geburt'\n- 'nach der Entbindung'\n\n**Sensible Untersuchungsphrasen:**\n- 'Ich werde Sie jetzt untersuchen.'\n- 'Dies könnte etwas unangenehm sein.'\n- 'Sagen Sie mir bitte, wenn es wehtut.'\n- 'Entspannen Sie sich, so gut es geht.'\n\n*Anamnese:*\n- 'Wann war Ihre letzte Regelblutung?'\n- 'Waren Sie schon einmal schwanger?'\n- 'Haben Sie regelmäßige Zyklen?'\n- 'Nehmen Sie Verhütungsmittel?'",
+            "bn": "**Obstetrics and Gynecology: Temporal Clauses and Examination Phrases**\n\nOB/GYN communication requires specific temporal expressions and sensitive phrasing.\n\n*Temporal Subordinate Clauses:*\n| Conjunction | Meaning | Example |\n|-------------|---------|---------|\n| als | when (single past event) | als die Wehen begannen |\n| wenn | when/whenever | wenn Sie Beschwerden haben |\n| nachdem | after | nachdem die Geburt stattfand |\n| bevor | before | bevor wir beginnen |\n| seitdem | since | seitdem Sie schwanger sind |\n\n*Pregnancy Timeline Phrases:*\n- 'in der 20. Schwangerschaftswoche' (in the 20th week of pregnancy)\n- 'im ersten Trimester' (in the first trimester)\n- 'kurz vor der Geburt' (shortly before delivery)\n- 'nach der Entbindung' (after delivery)\n\n**Sensitive Examination Phrases:**\n- 'Ich werde Sie jetzt untersuchen.' (I will examine you now.)\n- 'Dies könnte etwas unangenehm sein.' (This might be somewhat uncomfortable.)\n- 'Sagen Sie mir bitte, wenn es wehtut.' (Please tell me if it hurts.)\n- 'Entspannen Sie sich, so gut es geht.' (Relax as much as possible.)\n\n*History Taking:*\n- 'Wann war Ihre letzte Regelblutung?' (When was your last menstrual period?)\n- 'Waren Sie schon einmal schwanger?' (Have you ever been pregnant?)\n- 'Haben Sie regelmäßige Zyklen?' (Do you have regular cycles?)\n- 'Nehmen Sie Verhütungsmittel?' (Do you use contraception?)",
+            "hi": "**Obstetrics and Gynecology: Temporal Clauses and Examination Phrases**\n\nOB/GYN communication requires specific temporal expressions and sensitive phrasing.\n\n*Temporal Subordinate Clauses:*\n| Conjunction | Meaning | Example |\n|-------------|---------|---------|\n| als | when (single past event) | als die Wehen begannen |\n| wenn | when/whenever | wenn Sie Beschwerden haben |\n| nachdem | after | nachdem die Geburt stattfand |\n| bevor | before | bevor wir beginnen |\n| seitdem | since | seitdem Sie schwanger sind |\n\n*Pregnancy Timeline Phrases:*\n- 'in der 20. Schwangerschaftswoche' (in the 20th week of pregnancy)\n- 'im ersten Trimester' (in the first trimester)\n- 'kurz vor der Geburt' (shortly before delivery)\n- 'nach der Entbindung' (after delivery)\n\n**Sensitive Examination Phrases:**\n- 'Ich werde Sie jetzt untersuchen.' (I will examine you now.)\n- 'Dies könnte etwas unangenehm sein.' (This might be somewhat uncomfortable.)\n- 'Sagen Sie mir bitte, wenn es wehtut.' (Please tell me if it hurts.)\n- 'Entspannen Sie sich, so gut es geht.' (Relax as much as possible.)\n\n*History Taking:*\n- 'Wann war Ihre letzte Regelblutung?' (When was your last menstrual period?)\n- 'Waren Sie schon einmal schwanger?' (Have you ever been pregnant?)\n- 'Haben Sie regelmäßige Zyklen?' (Do you have regular cycles?)\n- 'Nehmen Sie Verhütungsmittel?' (Do you use contraception?)",
+            "ur": "**Obstetrics and Gynecology: Temporal Clauses and Examination Phrases**\n\nOB/GYN communication requires specific temporal expressions and sensitive phrasing.\n\n*Temporal Subordinate Clauses:*\n| Conjunction | Meaning | Example |\n|-------------|---------|---------|\n| als | when (single past event) | als die Wehen begannen |\n| wenn | when/whenever | wenn Sie Beschwerden haben |\n| nachdem | after | nachdem die Geburt stattfand |\n| bevor | before | bevor wir beginnen |\n| seitdem | since | seitdem Sie schwanger sind |\n\n*Pregnancy Timeline Phrases:*\n- 'in der 20. Schwangerschaftswoche' (in the 20th week of pregnancy)\n- 'im ersten Trimester' (in the first trimester)\n- 'kurz vor der Geburt' (shortly before delivery)\n- 'nach der Entbindung' (after delivery)\n\n**Sensitive Examination Phrases:**\n- 'Ich werde Sie jetzt untersuchen.' (I will examine you now.)\n- 'Dies könnte etwas unangenehm sein.' (This might be somewhat uncomfortable.)\n- 'Sagen Sie mir bitte, wenn es wehtut.' (Please tell me if it hurts.)\n- 'Entspannen Sie sich, so gut es geht.' (Relax as much as possible.)\n\n*History Taking:*\n- 'Wann war Ihre letzte Regelblutung?' (When was your last menstrual period?)\n- 'Waren Sie schon einmal schwanger?' (Have you ever been pregnant?)\n- 'Haben Sie regelmäßige Zyklen?' (Do you have regular cycles?)\n- 'Nehmen Sie Verhütungsmittel?' (Do you use contraception?)",
+            "tr": "**Obstetrics and Gynecology: Temporal Clauses and Examination Phrases**\n\nOB/GYN communication requires specific temporal expressions and sensitive phrasing.\n\n*Temporal Subordinate Clauses:*\n| Conjunction | Meaning | Example |\n|-------------|---------|---------|\n| als | when (single past event) | als die Wehen begannen |\n| wenn | when/whenever | wenn Sie Beschwerden haben |\n| nachdem | after | nachdem die Geburt stattfand |\n| bevor | before | bevor wir beginnen |\n| seitdem | since | seitdem Sie schwanger sind |\n\n*Pregnancy Timeline Phrases:*\n- 'in der 20. Schwangerschaftswoche' (in the 20th week of pregnancy)\n- 'im ersten Trimester' (in the first trimester)\n- 'kurz vor der Geburt' (shortly before delivery)\n- 'nach der Entbindung' (after delivery)\n\n**Sensitive Examination Phrases:**\n- 'Ich werde Sie jetzt untersuchen.' (I will examine you now.)\n- 'Dies könnte etwas unangenehm sein.' (This might be somewhat uncomfortable.)\n- 'Sagen Sie mir bitte, wenn es wehtut.' (Please tell me if it hurts.)\n- 'Entspannen Sie sich, so gut es geht.' (Relax as much as possible.)\n\n*History Taking:*\n- 'Wann war Ihre letzte Regelblutung?' (When was your last menstrual period?)\n- 'Waren Sie schon einmal schwanger?' (Have you ever been pregnant?)\n- 'Haben Sie regelmäßige Zyklen?' (Do you have regular cycles?)\n- 'Nehmen Sie Verhütungsmittel?' (Do you use contraception?)"
         },
         "culturalNotes": {
             "en": "In Germany, psychiatric care is often integrated with general healthcare, and patients have strong rights regarding their treatment and confidentiality.",
@@ -64,12 +50,38 @@
             "ur": "اس سیکشن میں جرمن بولنے والے ماحول میں مشق کرنے والے طبی پیشہ ور افراد کے لیے ضروری کلیدی نفسیاتی حالتوں اور متعلقہ الفاظ کا ایک مختصر جائزہ فراہم کیا گیا ہے۔",
             "tr": "Bu bölüm, Almanca konuşulan bir ortamda çalışan tıp uzmanları için gerekli olan temel psikiyatrik durumların ve ilgili kelime dağarcığının bir özetini sunmuştur."
         },
-        "learningObjectives": [
-            "Recognize and define common psychiatric disorders in German.",
-            "Understand German medical terminology related to therapy, medication, and hospital admission.",
-            "Apply relevant grammar structures to describe psychiatric conditions and treatment options.",
-            "Explain key aspects of German medical culture related to psychiatric care."
-        ]
+        "learningObjectives": {
+            "en": [
+                "Recognize and define common psychiatric disorders in German.",
+                "Understand German medical terminology related to therapy, medication, and hospital admission.",
+                "Apply relevant grammar structures to describe psychiatric conditions and treatment options.",
+                "Explain key aspects of German medical culture related to psychiatric care."
+            ],
+            "bn": [
+                "Recognize and define common psychiatric disorders in German.",
+                "বুঝুন German medical terminology related to therapy, medication, and hospital admission.",
+                "প্রয়োগ করুন relevant grammar structures to describe psychiatric conditions and treatment options.",
+                "Explain key aspects of German medical culture related to psychiatric care."
+            ],
+            "hi": [
+                "Recognize and define common psychiatric disorders in German.",
+                "समझें German medical terminology related to therapy, medication, and hospital admission.",
+                "लागू करें relevant grammar structures to describe psychiatric conditions and treatment options.",
+                "Explain key aspects of German medical culture related to psychiatric care."
+            ],
+            "ur": [
+                "Recognize and define common psychiatric disorders in German.",
+                "سمجھیں German medical terminology related to therapy, medication, and hospital admission.",
+                "لاگو کریں relevant grammar structures to describe psychiatric conditions and treatment options.",
+                "Explain key aspects of German medical culture related to psychiatric care."
+            ],
+            "tr": [
+                "Recognize and define common psychiatric disorders in German.",
+                "Anlayın German medical terminology related to therapy, medication, and hospital admission.",
+                "Uygulayın relevant grammar structures to describe psychiatric conditions and treatment options.",
+                "Explain key aspects of German medical culture related to psychiatric care."
+            ]
+        }
     },
     "vocabulary": [
         {
@@ -93,7 +105,8 @@
                 "ur": "مریض شدید ڈپریشن میں مبتلا ہے۔",
                 "tr": "Hasta şiddetli depresyondan muzdarip."
             },
-            "id": "v29_01"
+            "id": "v29_01",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_01.mp3"
         },
         {
             "germanTerm": "die Angststörung",
@@ -116,7 +129,8 @@
                 "ur": "اسے عام اضطراب کی خرابی کے لیے علاج کیا گیا تھا۔",
                 "tr": "Genelleşmiş anksiyete bozukluğu için tedavi gördü."
             },
-            "id": "v29_02"
+            "id": "v29_02",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_02.mp3"
         },
         {
             "germanTerm": "die Psychose",
@@ -139,7 +153,8 @@
                 "ur": "ذہنی بیماری ہالوسینیشن اور وہم کے طور پر ظاہر ہوئی۔",
                 "tr": "Psikoz, halüsinasyonlar ve sanrılar şeklinde kendini gösterdi."
             },
-            "id": "v29_03"
+            "id": "v29_03",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_03.mp3"
         },
         {
             "germanTerm": "der Suizid",
@@ -162,7 +177,8 @@
                 "ur": "خودکشی کا خطرہ ہے، اس لیے اسے زیر نگرانی رکھنے کی ضرورت ہے۔",
                 "tr": "İntihar riski var, bu yüzden izlenmesi gerekiyor."
             },
-            "id": "v29_04"
+            "id": "v29_04",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_04.mp3"
         },
         {
             "germanTerm": "die Therapie",
@@ -185,7 +201,8 @@
                 "ur": "تھراپی ابتدائی کامیابی دکھا رہی ہے۔",
                 "tr": "Terapi ilk başarıları gösteriyor."
             },
-            "id": "v29_05"
+            "id": "v29_05",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_05.mp3"
         },
         {
             "germanTerm": "die Medikation",
@@ -208,7 +225,8 @@
                 "ur": "ادویات کو باقاعدگی سے لینا ضروری ہے۔",
                 "tr": "İlaç düzenli olarak alınmalıdır."
             },
-            "id": "v29_06"
+            "id": "v29_06",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_06.mp3"
         },
         {
             "germanTerm": "die Einweisung",
@@ -231,7 +249,8 @@
                 "ur": "شدید خودکشی کے خطرے کی وجہ سے داخلہ ہوا تھا۔",
                 "tr": "Akut intihar riski nedeniyle kabul edildi."
             },
-            "id": "v29_07"
+            "id": "v29_07",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_07.mp3"
         },
         {
             "germanTerm": "der Psychiater",
@@ -254,7 +273,8 @@
                 "ur": "نفسیاتی ماہر نے مریض کے ساتھ تفصیلی گفتگو کی۔",
                 "tr": "Psikiyatrist hasta ile detaylı bir görüşme yaptı."
             },
-            "id": "v29_08"
+            "id": "v29_08",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_08.mp3"
         },
         {
             "germanTerm": "psychisch",
@@ -277,7 +297,8 @@
                 "ur": "اسے ذہنی مسائل ہیں۔",
                 "tr": "Zihinsel sorunları var."
             },
-            "id": "v29_09"
+            "id": "v29_09",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_09.mp3"
         },
         {
             "germanTerm": "die Angst",
@@ -300,7 +321,8 @@
                 "ur": "وہ ہجوم سے ڈرتی ہے۔",
                 "tr": "Kalabalıklardan korkuyor."
             },
-            "id": "v29_10"
+            "id": "v29_10",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_10.mp3"
         },
         {
             "germanTerm": "die Manie",
@@ -323,7 +345,8 @@
                 "ur": "جنون کے دوران، وہ بہت فعال اور خوش مزاج ہوتا ہے۔",
                 "tr": "Mani sırasında çok aktif ve coşkulu."
             },
-            "id": "v29_11"
+            "id": "v29_11",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_11.mp3"
         },
         {
             "germanTerm": "bipolar",
@@ -346,7 +369,8 @@
                 "ur": "مریض کو دو قطبی خرابی ہے۔",
                 "tr": "Hastada bipolar bozukluk var."
             },
-            "id": "v29_12"
+            "id": "v29_12",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_12.mp3"
         },
         {
             "germanTerm": "die Halluzination",
@@ -369,7 +393,8 @@
                 "ur": "وہ سمعی ہلوسینیشن میں مبتلا ہے۔",
                 "tr": "İşitsel halüsinasyonlardan muzdarip."
             },
-            "id": "v29_13"
+            "id": "v29_13",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_13.mp3"
         },
         {
             "germanTerm": "die Wahnvorstellung",
@@ -392,7 +417,8 @@
                 "ur": "اسے وہم ہے کہ اس کا پیچھا کیا جا رہا ہے۔",
                 "tr": "Takip edildiği sanrıları var."
             },
-            "id": "v29_14"
+            "id": "v29_14",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_14.mp3"
         },
         {
             "germanTerm": "der Rückfall",
@@ -415,7 +441,8 @@
                 "ur": "اسے دوبارہ حملہ ہوا اور اسے دوبارہ علاج کرانا پڑا۔",
                 "tr": "Nüks etti ve tekrar tedavi edilmesi gerekti."
             },
-            "id": "v29_15"
+            "id": "v29_15",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_15.mp3"
         },
         {
             "germanTerm": "die Rehabilitation",
@@ -438,7 +465,8 @@
                 "ur": "ہسپتال میں قیام کے بعد بحالی کی گئی۔",
                 "tr": "Hastane yatışından sonra rehabilitasyon takip etti."
             },
-            "id": "v29_16"
+            "id": "v29_16",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_16.mp3"
         },
         {
             "germanTerm": "das Antidepressivum",
@@ -461,7 +489,8 @@
                 "ur": "اینٹی ڈپریسنٹ موڈ کو بہتر بناتا ہے۔",
                 "tr": "Antidepresan ruh halini iyileştirici etkiye sahiptir."
             },
-            "id": "v29_17"
+            "id": "v29_17",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_17.mp3"
         },
         {
             "germanTerm": "das Neuroleptikum",
@@ -484,7 +513,8 @@
                 "ur": "ذہنی امراض کے علاج کے لیے نیورولیپٹک ادویات استعمال کی جاتی ہیں۔",
                 "tr": "Nöroleptikler psikozları tedavi etmek için kullanılır."
             },
-            "id": "v29_18"
+            "id": "v29_18",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_18.mp3"
         },
         {
             "germanTerm": "die Zwangsstörung",
@@ -507,7 +537,8 @@
                 "ur": "وہ جبری دھونے کے ساتھ شدید وسواس قهری خرابی کا شکار ہے۔",
                 "tr": "Takıntılı yıkama ile şiddetli obsesif-kompulsif bozukluktan muzdarip."
             },
-            "id": "v29_19"
+            "id": "v29_19",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_19.mp3"
         },
         {
             "germanTerm": "soziale Phobie",
@@ -530,7 +561,8 @@
                 "ur": "سماجی خوف اس کی زندگی کو نمایاں طور پر متاثر کرتا ہے۔",
                 "tr": "Sosyal fobi hayatını önemli ölçüde etkiliyor."
             },
-            "id": "v29_20"
+            "id": "v29_20",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_20.mp3"
         },
         {
             "germanTerm": "die Panikattacke",
@@ -553,7 +585,8 @@
                 "ur": "اسے ویٹنگ روم میں گھبراہٹ کا حملہ ہوا۔",
                 "tr": "Bekleme odasında panik atak geçirdi."
             },
-            "id": "v29_21"
+            "id": "v29_21",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_21.mp3"
         },
         {
             "germanTerm": "der Trauma",
@@ -576,7 +609,8 @@
                 "ur": "صدمے کو حل کرنے کی ضرورت ہے۔",
                 "tr": "Travmanın işlenmesi gerekiyor."
             },
-            "id": "v29_22"
+            "id": "v29_22",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_22.mp3"
         },
         {
             "germanTerm": "das Gespräch",
@@ -599,7 +633,8 @@
                 "ur": "ہم ایک علاج معالجے کی بات چیت کر رہے ہیں۔",
                 "tr": "Terapötik bir konuşma yapıyoruz."
             },
-            "id": "v29_23"
+            "id": "v29_23",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_23.mp3"
         },
         {
             "germanTerm": "die Selbstverletzung",
@@ -622,7 +657,8 @@
                 "ur": "وہ خود کو نقصان پہنچانے کے آثار دکھا رہی ہے۔",
                 "tr": "Kendine zarar verme belirtileri gösteriyor."
             },
-            "id": "v29_24"
+            "id": "v29_24",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_24.mp3"
         },
         {
             "germanTerm": "der Auslöser",
@@ -645,7 +681,8 @@
                 "ur": "تناؤ اضطراب کی خرابی کا سبب بن سکتا ہے۔",
                 "tr": "Stres, anksiyete bozukluğu için bir tetikleyici olabilir."
             },
-            "id": "v29_25"
+            "id": "v29_25",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_25.mp3"
         },
         {
             "germanTerm": "die Resilienz",
@@ -668,7 +705,8 @@
                 "ur": "لچک مشکل زندگی کے حالات سے نمٹنے میں مدد کرتی ہے۔",
                 "tr": "Dayanıklılık, zorlu yaşam durumlarıyla başa çıkmaya yardımcı olur."
             },
-            "id": "v29_26"
+            "id": "v29_26",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_26.mp3"
         },
         {
             "germanTerm": "chronisch",
@@ -691,7 +729,8 @@
                 "ur": "یہ ایک دائمی ڈپریشن ہے۔",
                 "tr": "Kronik bir depresyon vakasıdır."
             },
-            "id": "v29_27"
+            "id": "v29_27",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_27.mp3"
         },
         {
             "germanTerm": "die Verhaltensweise",
@@ -714,7 +753,8 @@
                 "ur": "قابل ذکر رویے دیکھے گئے۔",
                 "tr": "Dikkate değer davranışlar gözlemlendi."
             },
-            "id": "v29_28"
+            "id": "v29_28",
+            "audioUrl": "assets/audio/sections/section_29/vocabulary/v29_28.mp3"
         }
     ],
     "dialogues": [
@@ -744,7 +784,8 @@
                         "hi": "शुभ दिन, श्री मूलर। आप कब से इतना नीचे महसूस कर रहे हैं?",
                         "ur": "شب بخیر، مسٹر ملر۔ آپ کب سے اتنا مایوس محسوس کر رہے ہیں؟",
                         "tr": "İyi günler, Bay Müller. Ne zamandır bu kadar keyifsiz hissediyorsunuz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_01_line1.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -756,7 +797,8 @@
                         "hi": "लगभग तीन महीने से। मेरे पास कोई ऊर्जा नहीं है और मैं खुद को कुछ करने के लिए नहीं ला सकता।",
                         "ur": "تقریباً تین مہینے سے۔ میرے پاس کوئی توانائی نہیں ہے اور میں خود کو کچھ کرنے پر مجبور نہیں کر سکتا۔",
                         "tr": "Yaklaşık üç aydır. Hiç enerjim yok ve kendimi hiçbir şey yapmaya zorlayamıyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_01_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -768,7 +810,8 @@
                         "hi": "क्या आपको नींद की समस्या या भूख में कमी भी है?",
                         "ur": "کیا آپ کو نیند کی پریشانی یا بھوک میں کمی بھی ہے؟",
                         "tr": "Uyku sorunlarınız veya iştah kaybınız da var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_01_line3.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -780,7 +823,8 @@
                         "hi": "हाँ, दोनों। मैं बुरी तरह सोता हूँ और मुझे भूख नहीं लगती।",
                         "ur": "ہاں، دونوں۔ میں بری طرح سوتا ہوں اور مجھے بھوک نہیں لگتی۔",
                         "tr": "Evet, ikisi de. Kötü uyuyorum ve iştahım yok."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_01_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -792,7 +836,8 @@
                         "hi": "यह अवसाद जैसा लगता है। हमें आगे की जांच करनी चाहिए।",
                         "ur": "یہ ڈپریشن کی طرح لگتا ہے۔ ہمیں مزید تحقیقات کرنی چاہیے۔",
                         "tr": "Bu depresyona benziyor. Daha fazla araştırma yapmalıyız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_01_line5.mp3"
                 }
             ],
             "id": "d29_01"
@@ -823,7 +868,8 @@
                         "hi": "शुभ प्रभात, श्रीमती श्मिट। यहाँ आपकी चिंता के लिए दवा है।",
                         "ur": "شب بخیر، مسز شمٹ۔ یہ آپ کی بے چینی کی دوا ہے۔",
                         "tr": "Günaydın, Bayan Schmidt. İşte kaygı için ilacınız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_02_line1.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -835,7 +881,8 @@
                         "hi": "धन्यवाद, नर्स वेबर। मुझे इसे कब लेना चाहिए?",
                         "ur": "شکریہ، نرس ویبر۔ مجھے انہیں کب لینا چاہیے؟",
                         "tr": "Teşekkür ederim, Hemşire Weber. Onları ne zaman almalıyım?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_02_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -847,7 +894,8 @@
                         "hi": "एक बार सुबह और एक बार शाम को, जैसा कि डॉक्टर ने निर्धारित किया है।",
                         "ur": "صبح میں ایک بار اور شام میں ایک بار، جیسا کہ ڈاکٹر نے تجویز کیا ہے۔",
                         "tr": "Doktorun yazdığı gibi sabah bir kez ve akşam bir kez."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_02_line3.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -859,7 +907,8 @@
                         "hi": "और क्या होगा अगर मुझे दुष्प्रभाव होते हैं?",
                         "ur": "اور کیا ہوگا اگر مجھے ضمنی اثرات ہوں؟",
                         "tr": "Ve eğer yan etkilerim olursa ne olacak?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_02_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -871,7 +920,8 @@
                         "hi": "तो कृपया तुरंत हमसे या अपने डॉक्टर से संपर्क करें।",
                         "ur": "تو براہ کرم فوری طور پر ہم سے یا اپنے ڈاکٹر سے رابطہ کریں۔",
                         "tr": "O zaman lütfen hemen bizimle veya doktorunuzla iletişime geçin."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_02_line5.mp3"
                 }
             ],
             "id": "d29_02"
@@ -902,7 +952,8 @@
                         "hi": "श्री श्मिट, क्या आप मुझे बता सकते हैं कि आप वर्तमान में क्या देख या सुन रहे हैं?",
                         "ur": "مسٹر شمٹ، کیا آپ مجھے بتا سکتے ہیں کہ آپ فی الحال کیا دیکھ یا سن رہے ہیں؟",
                         "tr": "Bay Schmidt, şu anda ne gördüğünüzü veya duyduğunuzu bana söyleyebilir misiniz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_03_line1.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -914,7 +965,8 @@
                         "hi": "मैं ऐसे लोगों को देखता हूं जो वहां नहीं हैं। और मैं ऐसी आवाजें सुनता हूं जो मुझे धमकी देती हैं।",
                         "ur": "میں ان لوگوں کو دیکھتا ہوں جو وہاں نہیں ہیں۔ اور میں ایسی آوازیں سنتا ہوں جو مجھے دھمکی دیتی ہیں۔",
                         "tr": "Orada olmayan insanları görüyorum. Ve beni tehdit eden sesler duyuyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_03_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Lehmann",
@@ -926,7 +978,8 @@
                         "hi": "ये मतिभ्रम हैं। हमें आपकी दवा को समायोजित करने की आवश्यकता है।",
                         "ur": "یہ واہمے ہیں۔ ہمیں آپ کی دوا کو ایڈجسٹ کرنے کی ضرورت ہے۔",
                         "tr": "Bunlar halüsinasyonlar. İlacınızı ayarlamamız gerekiyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_03_line3.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -938,7 +991,8 @@
                         "hi": "तो क्या यह बेहतर हो जाएगा?",
                         "ur": "تو کیا یہ بہتر ہو جائے گا؟",
                         "tr": "O zaman daha iyi olacak mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_03_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Lehmann",
@@ -950,7 +1004,8 @@
                         "hi": "हम आशा करते हैं। सही खुराक खोजने में कुछ समय लग सकता है।",
                         "ur": "ہمیں امید ہے۔ صحیح خوراک تلاش کرنے میں کچھ وقت لگ سکتا ہے۔",
                         "tr": "Umarız öyle olur. Doğru dozu bulmak biraz zaman alabilir."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_03_line5.mp3"
                 }
             ],
             "id": "d29_03"
@@ -981,7 +1036,8 @@
                         "hi": "श्रीमती वेबर, क्या आपने पिछले कुछ दिनों में आत्महत्या के बारे में सोचा है?",
                         "ur": "محترمہ ویبر، کیا آپ نے گزشتہ چند دنوں میں خودکشی کے بارے میں سوچا ہے؟",
                         "tr": "Bayan Weber, son birkaç gündür intiharı düşündünüz mü?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_04_line1.mp3"
                 },
                 {
                     "speaker": "Patient Weber",
@@ -993,7 +1049,8 @@
                         "hi": "हाँ, दुर्भाग्य से। इसे सहना मुश्किल है।",
                         "ur": "ہاں، بدقسمتی سے۔ اسے برداشت کرنا مشکل ہے۔",
                         "tr": "Evet, maalesef. Katlanmak zor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_04_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Meier",
@@ -1005,7 +1062,8 @@
                         "hi": "क्या आपके पास इसे करने के बारे में कोई ठोस योजना है?",
                         "ur": "کیا آپ کے پاس اسے کرنے کے بارے میں کوئی ٹھوس منصوبہ ہے؟",
                         "tr": "Bunu nasıl yapacağınıza dair somut planlarınız var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_04_line3.mp3"
                 },
                 {
                     "speaker": "Patient Weber",
@@ -1017,7 +1075,8 @@
                         "hi": "मैं इसके बारे में सोचती हूँ, लेकिन मैंने अभी तक कुछ भी तैयार नहीं किया है।",
                         "ur": "میں اس کے بارے میں سوچتی ہوں، لیکن میں نے ابھی تک کچھ بھی تیار نہیں کیا ہے۔",
                         "tr": "Bunu düşünüyorum ama henüz hiçbir şey hazırlamadım."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_04_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Meier",
@@ -1029,7 +1088,8 @@
                         "hi": "हमें आपको बारीकी से निगरानी करने की आवश्यकता है। हम दवा को समायोजित करेंगे और और बातचीत करेंगे।",
                         "ur": "ہمیں آپ کی قریبی نگرانی کرنے کی ضرورت ہے۔ ہم دوا کو ایڈجسٹ کریں گے اور مزید گفتگو کریں گے۔",
                         "tr": "Sizi yakından izlememiz gerekiyor. İlacı ayarlayacağız ve daha fazla görüşme yapacağız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_04_line5.mp3"
                 }
             ],
             "id": "d29_04"
@@ -1060,7 +1120,8 @@
                         "hi": "श्री ब्राउन, आपकी स्थिति के कारण, हमें आपको अस्पताल में भर्ती करने की आवश्यकता है।",
                         "ur": "مسٹر براؤن، آپ کی حالت کی وجہ سے، ہمیں آپ کو اسپتال میں داخل کرنے کی ضرورت ہے۔",
                         "tr": "Bay Braun, durumunuz nedeniyle sizi hastaneye yatırmamız gerekiyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_05_line1.mp3"
                 },
                 {
                     "speaker": "Patient Braun",
@@ -1072,7 +1133,8 @@
                         "hi": "इसका क्या मतलब है?",
                         "ur": "اس کا کیا مطلب ہے؟",
                         "tr": "Bu ne anlama geliyor?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_05_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -1084,7 +1146,8 @@
                         "hi": "कि आप यहां रहें और हम आपका गहन उपचार और अवलोकन कर सकें।",
                         "ur": "کہ آپ یہاں رہیں اور ہم آپ کا گہری علاج اور مشاہدہ کر سکیں۔",
                         "tr": "Burada kalmanız ve sizi yoğun bir şekilde tedavi edip gözlemleyebilmemiz anlamına geliyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_05_line3.mp3"
                 },
                 {
                     "speaker": "Patient Braun",
@@ -1096,7 +1159,8 @@
                         "hi": "क्या यह जरूरी है? मैं यहाँ नहीं रहना चाहता।",
                         "ur": "کیا یہ ضروری ہے؟ میں یہاں نہیں رہنا چاہتا۔",
                         "tr": "Bu gerekli mi? Burada kalmak istemiyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_05_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -1108,7 +1172,8 @@
                         "hi": "मैं समझता हूँ, लेकिन यह आपकी सुरक्षा और रिकवरी के लिए महत्वपूर्ण है। हमें आपकी सहमति चाहिए।",
                         "ur": "میں سمجھتا ہوں، لیکن یہ آپ کی حفاظت اور بحالی کے لیے اہم ہے۔ ہمیں آپ کی رضامندی کی ضرورت ہے۔",
                         "tr": "Bunu anlıyorum, ancak bu sizin güvenliğiniz ve iyileşmeniz için önemli. Onayınıza ihtiyacımız var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_29/dialogues/d29_05_line5.mp3"
                 }
             ],
             "id": "d29_05"

@@ -32,30 +32,12 @@
             "de": "In diesem Abschnitt lernen Sie wichtige deutsche Begriffe im Zusammenhang mit der Gynäkologie, die es Ihnen ermöglichen, effektiv mit Patienten und medizinischem Fachpersonal in diesem Bereich zu kommunizieren. Sie werden auch die Standardverfahren und Vorsorgemaßnahmen erkunden, die in deutschsprachigen medizinischen Einrichtungen üblich sind."
         },
         "grammarFocus": {
-            "en": [
-                "Understanding the use of accusative and dative cases with prepositions related to body parts and medical procedures.",
-                "Focus on the correct word order in sentences describing medical findings and recommendations (e.g., subject-verb-object)."
-            ],
-            "bn": [
-                "শরীরের অংশ এবং চিকিৎসা পদ্ধতির সাথে সম্পর্কিত প্রিপোজিশনের সাথে অভিযুক্ত এবং ডেটিভ কেসের ব্যবহার বোঝা।",
-                "চিকিৎসা সংক্রান্ত তথ্য এবং সুপারিশগুলি বর্ণনা করার বাক্যগুলিতে সঠিক শব্দ ক্রমের উপর ফোকাস (যেমন, কর্তা-ক্রিয়া-কর্ম)।"
-            ],
-            "hi": [
-                "शरीर के अंगों और चिकित्सा प्रक्रियाओं से संबंधित पूर्वसर्गों के साथ कर्म कारक और संप्रदान कारक के उपयोग को समझना।",
-                "चिकित्सा निष्कर्षों और सिफारिशों का वर्णन करने वाले वाक्यों में सही शब्द क्रम पर ध्यान दें (जैसे, कर्ता-क्रिया-कर्म)।"
-            ],
-            "ur": [
-                "جسمانی اعضاء اور طبی طریقہ کار سے متعلق حرف جار کے ساتھ مفعول بہ اور مفعول لہ کے استعمال کو سمجھنا۔",
-                "طبی نتائج اور سفارشات کو بیان کرنے والے جملوں میں صحیح لفظ آرڈر پر توجہ مرکوز کرنا (مثال کے طور پر، فائل-فعل-مفعول)۔"
-            ],
-            "tr": [
-                "Vücut kısımları ve tıbbi prosedürlerle ilgili edatlarla akuzatif ve datif hallerinin kullanımını anlamak.",
-                "Tıbbi bulguları ve tavsiyeleri açıklayan cümlelerde doğru kelime sırasına odaklanmak (örn. özne-fiil-nesne)."
-            ],
-            "de": [
-                "Das Verständnis der Verwendung von Akkusativ und Dativ mit Präpositionen im Zusammenhang mit Körperteilen und medizinischen Eingriffen.",
-                "Fokus auf die korrekte Wortstellung in Sätzen, die medizinische Befunde und Empfehlungen beschreiben (z. B. Subjekt-Verb-Objekt)."
-            ]
+            "en": "**Urology and Nephrology: Genitive Case and Medical Terminology**\n\nUrological and nephrological terms often require genitive constructions.\n\n*Genitive with Medical Nouns:*\n- 'die Funktion der Niere' (the function of the kidney)\n- 'die Entleerung der Blase' (the emptying of the bladder)\n- 'der Verlauf der Erkrankung' (the course of the disease)\n\n**Genitive Prepositions in Nephrology:**\n| Preposition | Meaning | Example |\n|-------------|---------|---------|\n| wegen | because of | wegen der Niereninsuffizienz |\n| trotz | despite | trotz der Dialyse |\n| innerhalb | within | innerhalb des Normbereichs |\n| außerhalb | outside | außerhalb der Grenzwerte |\n\n*Symptom Description:*\n- 'Haben Sie Probleme beim Wasserlassen?' (Do you have problems urinating?)\n- 'Wie oft müssen Sie nachts zur Toilette?' (How often do you need to go to the toilet at night?)\n- 'Gibt es Blut im Urin?' (Is there blood in the urine?)\n\n**Compound Nouns in Urology:**\n- Nieren + Stein = Nierenstein (kidney stone)\n- Harn + Weg + Infektion = Harnwegsinfekt (urinary tract infection)\n- Blasen + Spiegelung = Blasenspiegelung (cystoscopy)\n\n*Lab Value Discussions:*\n- 'Das Kreatinin ist erhöht.' (Creatinine is elevated.)\n- 'Die GFR liegt bei 45 ml/min.' (GFR is at 45 ml/min.)\n- 'Der Eiweißwert im Urin ist auffällig.' (The protein level in urine is abnormal.)",
+            "de": "**Urologie und Nephrologie: Genitiv und medizinische Terminologie**\n\nUrologische und nephrologische Begriffe erfordern oft Genitivkonstruktionen.\n\n*Genitiv bei medizinischen Nomen:*\n- 'die Funktion der Niere'\n- 'die Entleerung der Blase'\n- 'der Verlauf der Erkrankung'\n\n**Genitivpräpositionen in der Nephrologie:**\n| Präposition | Bedeutung | Beispiel |\n|-------------|-----------|----------|\n| wegen | wegen | wegen der Niereninsuffizienz |\n| trotz | trotz | trotz der Dialyse |\n| innerhalb | innerhalb | innerhalb des Normbereichs |\n\n*Symptombeschreibung:*\n- 'Haben Sie Probleme beim Wasserlassen?'\n- 'Wie oft müssen Sie nachts zur Toilette?'\n- 'Gibt es Blut im Urin?'\n\n**Zusammengesetzte Nomen in der Urologie:**\n- Nierenstein\n- Harnwegsinfekt\n- Blasenspiegelung\n\n*Laborwertbesprechung:*\n- 'Das Kreatinin ist erhöht.'\n- 'Die GFR liegt bei 45 ml/min.'\n- 'Der Eiweißwert im Urin ist auffällig.'",
+            "bn": "**Urology and Nephrology: Genitive Case and Medical Terminology**\n\nUrological and nephrological terms often require genitive constructions.\n\n*Genitive with Medical Nouns:*\n- 'die Funktion der Niere' (the function of the kidney)\n- 'die Entleerung der Blase' (the emptying of the bladder)\n- 'der Verlauf der Erkrankung' (the course of the disease)\n\n**Genitive Prepositions in Nephrology:**\n| Preposition | Meaning | Example |\n|-------------|---------|---------|\n| wegen | because of | wegen der Niereninsuffizienz |\n| trotz | despite | trotz der Dialyse |\n| innerhalb | within | innerhalb des Normbereichs |\n| außerhalb | outside | außerhalb der Grenzwerte |\n\n*Symptom Description:*\n- 'Haben Sie Probleme beim Wasserlassen?' (Do you have problems urinating?)\n- 'Wie oft müssen Sie nachts zur Toilette?' (How often do you need to go to the toilet at night?)\n- 'Gibt es Blut im Urin?' (Is there blood in the urine?)\n\n**Compound Nouns in Urology:**\n- Nieren + Stein = Nierenstein (kidney stone)\n- Harn + Weg + Infektion = Harnwegsinfekt (urinary tract infection)\n- Blasen + Spiegelung = Blasenspiegelung (cystoscopy)\n\n*Lab Value Discussions:*\n- 'Das Kreatinin ist erhöht.' (Creatinine is elevated.)\n- 'Die GFR liegt bei 45 ml/min.' (GFR is at 45 ml/min.)\n- 'Der Eiweißwert im Urin ist auffällig.' (The protein level in urine is abnormal.)",
+            "hi": "**Urology and Nephrology: Genitive Case and Medical Terminology**\n\nUrological and nephrological terms often require genitive constructions.\n\n*Genitive with Medical Nouns:*\n- 'die Funktion der Niere' (the function of the kidney)\n- 'die Entleerung der Blase' (the emptying of the bladder)\n- 'der Verlauf der Erkrankung' (the course of the disease)\n\n**Genitive Prepositions in Nephrology:**\n| Preposition | Meaning | Example |\n|-------------|---------|---------|\n| wegen | because of | wegen der Niereninsuffizienz |\n| trotz | despite | trotz der Dialyse |\n| innerhalb | within | innerhalb des Normbereichs |\n| außerhalb | outside | außerhalb der Grenzwerte |\n\n*Symptom Description:*\n- 'Haben Sie Probleme beim Wasserlassen?' (Do you have problems urinating?)\n- 'Wie oft müssen Sie nachts zur Toilette?' (How often do you need to go to the toilet at night?)\n- 'Gibt es Blut im Urin?' (Is there blood in the urine?)\n\n**Compound Nouns in Urology:**\n- Nieren + Stein = Nierenstein (kidney stone)\n- Harn + Weg + Infektion = Harnwegsinfekt (urinary tract infection)\n- Blasen + Spiegelung = Blasenspiegelung (cystoscopy)\n\n*Lab Value Discussions:*\n- 'Das Kreatinin ist erhöht.' (Creatinine is elevated.)\n- 'Die GFR liegt bei 45 ml/min.' (GFR is at 45 ml/min.)\n- 'Der Eiweißwert im Urin ist auffällig.' (The protein level in urine is abnormal.)",
+            "ur": "**Urology and Nephrology: Genitive Case and Medical Terminology**\n\nUrological and nephrological terms often require genitive constructions.\n\n*Genitive with Medical Nouns:*\n- 'die Funktion der Niere' (the function of the kidney)\n- 'die Entleerung der Blase' (the emptying of the bladder)\n- 'der Verlauf der Erkrankung' (the course of the disease)\n\n**Genitive Prepositions in Nephrology:**\n| Preposition | Meaning | Example |\n|-------------|---------|---------|\n| wegen | because of | wegen der Niereninsuffizienz |\n| trotz | despite | trotz der Dialyse |\n| innerhalb | within | innerhalb des Normbereichs |\n| außerhalb | outside | außerhalb der Grenzwerte |\n\n*Symptom Description:*\n- 'Haben Sie Probleme beim Wasserlassen?' (Do you have problems urinating?)\n- 'Wie oft müssen Sie nachts zur Toilette?' (How often do you need to go to the toilet at night?)\n- 'Gibt es Blut im Urin?' (Is there blood in the urine?)\n\n**Compound Nouns in Urology:**\n- Nieren + Stein = Nierenstein (kidney stone)\n- Harn + Weg + Infektion = Harnwegsinfekt (urinary tract infection)\n- Blasen + Spiegelung = Blasenspiegelung (cystoscopy)\n\n*Lab Value Discussions:*\n- 'Das Kreatinin ist erhöht.' (Creatinine is elevated.)\n- 'Die GFR liegt bei 45 ml/min.' (GFR is at 45 ml/min.)\n- 'Der Eiweißwert im Urin ist auffällig.' (The protein level in urine is abnormal.)",
+            "tr": "**Urology and Nephrology: Genitive Case and Medical Terminology**\n\nUrological and nephrological terms often require genitive constructions.\n\n*Genitive with Medical Nouns:*\n- 'die Funktion der Niere' (the function of the kidney)\n- 'die Entleerung der Blase' (the emptying of the bladder)\n- 'der Verlauf der Erkrankung' (the course of the disease)\n\n**Genitive Prepositions in Nephrology:**\n| Preposition | Meaning | Example |\n|-------------|---------|---------|\n| wegen | because of | wegen der Niereninsuffizienz |\n| trotz | despite | trotz der Dialyse |\n| innerhalb | within | innerhalb des Normbereichs |\n| außerhalb | outside | außerhalb der Grenzwerte |\n\n*Symptom Description:*\n- 'Haben Sie Probleme beim Wasserlassen?' (Do you have problems urinating?)\n- 'Wie oft müssen Sie nachts zur Toilette?' (How often do you need to go to the toilet at night?)\n- 'Gibt es Blut im Urin?' (Is there blood in the urine?)\n\n**Compound Nouns in Urology:**\n- Nieren + Stein = Nierenstein (kidney stone)\n- Harn + Weg + Infektion = Harnwegsinfekt (urinary tract infection)\n- Blasen + Spiegelung = Blasenspiegelung (cystoscopy)\n\n*Lab Value Discussions:*\n- 'Das Kreatinin ist erhöht.' (Creatinine is elevated.)\n- 'Die GFR liegt bei 45 ml/min.' (GFR is at 45 ml/min.)\n- 'Der Eiweißwert im Urin ist auffällig.' (The protein level in urine is abnormal.)"
         },
         "culturalNotes": {
             "en": "In Germany, preventative care (Vorsorge) is highly valued, and women are strongly encouraged to attend regular OBGYN appointments.",
@@ -73,12 +55,38 @@
             "tr": "Bu bölüm, kadın sağlığı ve ilgili prosedürleri anlamak ve tartışmak için gerekli olan Almanca tıbbi terminolojide bir temel sağlamıştır.",
             "de": "Dieser Abschnitt hat eine Grundlage in der deutschen medizinischen Terminologie geschaffen, die für das Verständnis und die Diskussion der Frauengesundheit und verwandter Verfahren unerlässlich ist."
         },
-        "learningObjectives": [
-            "Recognize and understand key German medical terms related to OBGYN.",
-            "Describe common OBGYN procedures and examinations in German.",
-            "Apply grammatical concepts such as case usage in medical contexts.",
-            "Understand cultural aspects of women's healthcare in German-speaking countries."
-        ]
+        "learningObjectives": {
+            "en": [
+                "Recognize and understand key German medical terms related to OBGYN.",
+                "Describe common OBGYN procedures and examinations in German.",
+                "Apply grammatical concepts such as case usage in medical contexts.",
+                "Understand cultural aspects of women's healthcare in German-speaking countries."
+            ],
+            "bn": [
+                "Recognize and বুঝুন key German medical terms related to OBGYN.",
+                "Describe common OBGYN procedures and examinations in German.",
+                "প্রয়োগ করুন grammatical concepts such as case usage in medical contexts.",
+                "বুঝুন cultural aspects of women's healthcare in German-speaking countries."
+            ],
+            "hi": [
+                "Recognize and समझें key German medical terms related to OBGYN.",
+                "Describe common OBGYN procedures and examinations in German.",
+                "लागू करें grammatical concepts such as case usage in medical contexts.",
+                "समझें cultural aspects of women's healthcare in German-speaking countries."
+            ],
+            "ur": [
+                "Recognize and سمجھیں key German medical terms related to OBGYN.",
+                "Describe common OBGYN procedures and examinations in German.",
+                "لاگو کریں grammatical concepts such as case usage in medical contexts.",
+                "سمجھیں cultural aspects of women's healthcare in German-speaking countries."
+            ],
+            "tr": [
+                "Recognize and Anlayın key German medical terms related to OBGYN.",
+                "Describe common OBGYN procedures and examinations in German.",
+                "Uygulayın grammatical concepts such as case usage in medical contexts.",
+                "Anlayın cultural aspects of women's healthcare in German-speaking countries."
+            ]
+        }
     },
     "vocabulary": [
         {
@@ -102,7 +110,8 @@
                 "ur": "امراضِ نسواں میں خواتین کے تولیدی اعضاء کی بیماریوں کا علاج شامل ہے۔",
                 "tr": "Kadın hastalıkları, kadın üreme organlarının hastalıklarının tedavisini içerir."
             },
-            "id": "v28_01"
+            "id": "v28_01",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_01.mp3"
         },
         {
             "germanTerm": "die Vorsorgeuntersuchung",
@@ -125,7 +134,8 @@
                 "ur": "بیماریوں کی جلد تشخیص کے لیے سالانہ احتیاطی معائنہ اہم ہے۔",
                 "tr": "Yıllık önleyici muayene, hastalıkların erken teşhisi için önemlidir."
             },
-            "id": "v28_02"
+            "id": "v28_02",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_02.mp3"
         },
         {
             "germanTerm": "der Ultraschall",
@@ -148,7 +158,8 @@
                 "ur": "الٹراساؤنڈ کے ذریعے ہم ماں کے پیٹ میں بچے کو دیکھ سکتے ہیں۔",
                 "tr": "Ultrason ile anne karnındaki bebeği görebiliriz."
             },
-            "id": "v28_03"
+            "id": "v28_03",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_03.mp3"
         },
         {
             "germanTerm": "die Routinekontrolle",
@@ -171,7 +182,8 @@
                 "ur": "مریض معمول کے چیک اپ کے لیے کلینک آتی ہے۔",
                 "tr": "Hasta rutin kontrol için kliniğe geliyor."
             },
-            "id": "v28_04"
+            "id": "v28_04",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_04.mp3"
         },
         {
             "germanTerm": "der Blutdruck",
@@ -194,7 +206,8 @@
                 "ur": "مریض کا بلڈ پریشر قدرے بڑھا ہوا ہے۔",
                 "tr": "Hastanın kan basıncı biraz yüksek."
             },
-            "id": "v28_05"
+            "id": "v28_05",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_05.mp3"
         },
         {
             "germanTerm": "die Beratung",
@@ -217,7 +230,8 @@
                 "ur": "مریض مانع حمل پر مشاورت چاہتی ہے۔",
                 "tr": "Hasta doğum kontrolü konusunda danışmanlık istiyor."
             },
-            "id": "v28_06"
+            "id": "v28_06",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_06.mp3"
         },
         {
             "germanTerm": "die Schwangerschaft",
@@ -240,7 +254,8 @@
                 "ur": "حمل بغیر کسی پیچیدگی کے آگے بڑھ رہا ہے۔",
                 "tr": "Hamilelik komplikasyonsuz ilerliyor."
             },
-            "id": "v28_07"
+            "id": "v28_07",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_07.mp3"
         },
         {
             "germanTerm": "die Geburt",
@@ -263,7 +278,8 @@
                 "ur": "پیدائش خود بخود ہوئی اور بغیر کسی پیچیدگی کے۔",
                 "tr": "Doğum kendiliğinden ve komplikasyonsuz gerçekleşti."
             },
-            "id": "v28_08"
+            "id": "v28_08",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_08.mp3"
         },
         {
             "germanTerm": "die Entbindung",
@@ -286,7 +302,8 @@
                 "ur": "زچگی سی سیکشن کے ذریعے کی گئی۔",
                 "tr": "Doğum sezaryen ile yapıldı."
             },
-            "id": "v28_09"
+            "id": "v28_09",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_09.mp3"
         },
         {
             "germanTerm": "der Muttermund",
@@ -309,7 +326,8 @@
                 "ur": "پیدائش کے دوران سرویکس پوری طرح سے کھلا ہوتا ہے۔",
                 "tr": "Doğum sırasında serviks tamamen açılır."
             },
-            "id": "v28_10"
+            "id": "v28_10",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_10.mp3"
         },
         {
             "germanTerm": "die Wehe",
@@ -332,7 +350,8 @@
                 "ur": "سکڑاؤ مضبوط اور زیادہ باقاعدہ ہو رہے ہیں۔",
                 "tr": "Kasılmalar giderek güçleniyor ve düzenli hale geliyor."
             },
-            "id": "v28_11"
+            "id": "v28_11",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_11.mp3"
         },
         {
             "germanTerm": "das Fruchtwasser",
@@ -355,7 +374,8 @@
                 "ur": "ایمنیوٹک سیال صاف ہے۔",
                 "tr": "Amniyotik sıvı berrak."
             },
-            "id": "v28_12"
+            "id": "v28_12",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_12.mp3"
         },
         {
             "germanTerm": "die Plazenta",
@@ -378,7 +398,8 @@
                 "ur": "پیدائش کے بعد پلاسنٹا الگ ہو گیا ہے۔",
                 "tr": "Plasenta doğumdan sonra ayrıldı."
             },
-            "id": "v28_13"
+            "id": "v28_13",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_13.mp3"
         },
         {
             "germanTerm": "das Wochenbett",
@@ -401,7 +422,8 @@
                 "ur": "خاتون نفاس میں ہے۔",
                 "tr": "Kadın lohusalık döneminde."
             },
-            "id": "v28_14"
+            "id": "v28_14",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_14.mp3"
         },
         {
             "germanTerm": "stillen",
@@ -424,7 +446,8 @@
                 "ur": "ماں اپنے بچے کو دودھ پلا رہی ہے۔",
                 "tr": "Anne bebeğini emziriyor."
             },
-            "id": "v28_15"
+            "id": "v28_15",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_15.mp3"
         },
         {
             "germanTerm": "die Brust",
@@ -447,7 +470,8 @@
                 "ur": "چھاتی کا معائنہ احتیاطی معائنے کا حصہ ہے۔",
                 "tr": "Göğüs muayenesi, önleyici muayenenin bir parçasıdır."
             },
-            "id": "v28_16"
+            "id": "v28_16",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_16.mp3"
         },
         {
             "germanTerm": "die Gebärmutter",
@@ -470,7 +494,8 @@
                 "ur": "حمل کے بعد رحم پھر سے چھوٹا ہو گیا ہے۔",
                 "tr": "Hamilelikten sonra rahim tekrar küçüldü."
             },
-            "id": "v28_17"
+            "id": "v28_17",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_17.mp3"
         },
         {
             "germanTerm": "das Ovar",
@@ -493,7 +518,8 @@
                 "ur": "بیضہ دانی پر ایک سسٹ ملا ہے۔",
                 "tr": "Yumurtalıkta bir kist bulundu."
             },
-            "id": "v28_18"
+            "id": "v28_18",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_18.mp3"
         },
         {
             "germanTerm": "die Eileiter",
@@ -516,7 +542,8 @@
                 "ur": "فیلوپین ٹیوبیں کھلی ہیں۔",
                 "tr": "Fallop tüpleri açık."
             },
-            "id": "v28_19"
+            "id": "v28_19",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_19.mp3"
         },
         {
             "germanTerm": "die Menstruation",
@@ -539,7 +566,8 @@
                 "ur": "حیض بے قاعدہ ہے۔",
                 "tr": "Adet düzensiz."
             },
-            "id": "v28_20"
+            "id": "v28_20",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_20.mp3"
         },
         {
             "germanTerm": "die Wechseljahre",
@@ -562,7 +590,8 @@
                 "ur": "مریض مینوپاز میں ہے۔",
                 "tr": "Hasta menopozda."
             },
-            "id": "v28_21"
+            "id": "v28_21",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_21.mp3"
         },
         {
             "germanTerm": "die Hormontherapie",
@@ -585,7 +614,8 @@
                 "ur": "ہارمون تھراپی مینوپاز کی علامات کو کم کر سکتی ہے۔",
                 "tr": "Hormon terapisi menopozun semptomlarını hafifletebilir."
             },
-            "id": "v28_22"
+            "id": "v28_22",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_22.mp3"
         },
         {
             "germanTerm": "die Zyste",
@@ -608,7 +638,8 @@
                 "ur": "رسولی حمیدہ ہے۔",
                 "tr": "Kist iyi huylu."
             },
-            "id": "v28_23"
+            "id": "v28_23",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_23.mp3"
         },
         {
             "germanTerm": "das Myom",
@@ -631,7 +662,8 @@
                 "ur": "مایوما کو جراحی سے ہٹانا ہوگا۔",
                 "tr": "Miyom cerrahi olarak çıkarılmalıdır."
             },
-            "id": "v28_24"
+            "id": "v28_24",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_24.mp3"
         },
         {
             "germanTerm": "die Endometriose",
@@ -654,7 +686,8 @@
                 "ur": "مریض اینڈومیٹریوسس میں مبتلا ہے۔",
                 "tr": "Hasta endometriozis hastası."
             },
-            "id": "v28_25"
+            "id": "v28_25",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_25.mp3"
         },
         {
             "germanTerm": "der Scheidenpilz",
@@ -677,7 +710,8 @@
                 "ur": "مریض کو اندام نہانی میں خمیری انفیکشن ہے۔",
                 "tr": "Hastanın vajinal mantar enfeksiyonu var."
             },
-            "id": "v28_26"
+            "id": "v28_26",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_26.mp3"
         },
         {
             "germanTerm": "die Verhütung",
@@ -700,7 +734,8 @@
                 "ur": "آپ کے لیے مانع حمل کا کون سا طریقہ سب سے مناسب ہے؟",
                 "tr": "Sizin için hangi doğum kontrol yöntemi en uygun?"
             },
-            "id": "v28_27"
+            "id": "v28_27",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_27.mp3"
         },
         {
             "germanTerm": "die Sterilisation",
@@ -723,7 +758,8 @@
                 "ur": "مریض نس بندی چاہتا ہے۔",
                 "tr": "Hasta sterilizasyon istiyor."
             },
-            "id": "v28_28"
+            "id": "v28_28",
+            "audioUrl": "assets/audio/sections/section_28/vocabulary/v28_28.mp3"
         }
     ],
     "dialogues": [
@@ -753,7 +789,8 @@
                         "hi": "सुप्रभात, श्रीमती मुलर। आज आप कैसी हैं?",
                         "ur": "صبح بخیر، محترمہ مولر۔ آپ آج کیسی ہیں؟",
                         "tr": "Günaydın, Bayan Müller. Bugün nasılsınız?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_01_line1.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -765,7 +802,8 @@
                         "hi": "सुप्रभात, डॉ. श्मिट। मैं ठीक हूँ, धन्यवाद। बस नियमित जांच के बारे में थोड़ी घबराहट हो रही है।",
                         "ur": "صبح بخیر، ڈاکٹر شمٹ۔ میں ٹھیک ہوں، شکریہ۔ بس معمول کے چیک اپ کے بارے میں تھوڑی گھبراہٹ ہے۔",
                         "tr": "Günaydın, Dr. Schmidt. İyiyim, teşekkür ederim. Sadece rutin kontrol için biraz gerginim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_01_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -777,7 +815,8 @@
                         "hi": "चिंता करने की कोई जरूरत नहीं है। आज, हम एक जांच और एक अल्ट्रासाउंड करेंगे। फिर हम आपका रक्तचाप मापेंगे।",
                         "ur": "پریشان ہونے کی کوئی ضرورت نہیں ہے۔ آج، ہم ایک چیک اپ اور ایک الٹراساؤنڈ کریں گے۔ پھر ہم آپ کا بلڈ پریشر ناپیں گے۔",
                         "tr": "Endişelenmenize gerek yok. Bugün, bir kontrol ve bir ultrason yapacağız. Sonra da kan basıncınızı ölçeceğiz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_01_line3.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -789,7 +828,8 @@
                         "hi": "मैं अभी आपका रक्तचाप मापता हूँ, श्रीमती मुलर।",
                         "ur": "میں ابھی آپ کا بلڈ پریشر ماپتا ہوں، محترمہ مولر۔",
                         "tr": "Şimdi kan basıncınızı ölçeceğim, Bayan Müller."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_01_line4.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -801,7 +841,8 @@
                         "hi": "ठीक है, सिस्टर वेबर।",
                         "ur": "ٹھیک ہے، سسٹر ویبر۔",
                         "tr": "Tamam, Hemşire Weber."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_01_line5.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -813,7 +854,8 @@
                         "hi": "आपका रक्तचाप थोड़ा अधिक है। हम अल्ट्रासाउंड के बाद इस पर चर्चा करेंगे।",
                         "ur": "آپ کا بلڈ پریشر تھوڑا زیادہ ہے۔ ہم الٹراساؤنڈ کے بعد اس پر تبادلہ خیال کریں گے۔",
                         "tr": "Kan basıncınız biraz yüksek. Ultrason sonrasında bunu görüşeceğiz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_01_line6.mp3"
                 }
             ],
             "id": "d28_01"
@@ -844,7 +886,8 @@
                         "hi": "तो, श्रीमती क्लेन, अल्ट्रासाउंड अच्छा दिख रहा है। सब कुछ ठीक है।",
                         "ur": "تو، محترمہ کلائن، الٹراساؤنڈ اچھا لگ رہا ہے۔ سب ٹھیک ہے۔",
                         "tr": "Peki, Bayan Klein, ultrason iyi görünüyor. Her şey yolunda."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_02_line1.mp3"
                 },
                 {
                     "speaker": "Patient Klein",
@@ -856,7 +899,8 @@
                         "hi": "यह सुनकर राहत मिली। मैं थोड़ी चिंतित थी।",
                         "ur": "یہ سن کر تسلی ہوئی۔ میں تھوڑی پریشان تھی۔",
                         "tr": "Bunu duymak rahatlatıcı. Biraz endişeliydim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_02_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -868,7 +912,8 @@
                         "hi": "समझ में आता है। लेकिन चिंता करने की कोई जरूरत नहीं है। आप अन्यथा कैसी हैं?",
                         "ur": "سمجھ میں آتا ہے۔ لیکن پریشان ہونے کی کوئی وجہ نہیں ہے۔ آپ بصورت دیگر کیسی ہیں؟",
                         "tr": "Anlaşılabilir. Ama endişelenmenize gerek yok. Başka nasıl gidiyor?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_02_line3.mp3"
                 },
                 {
                     "speaker": "Patient Klein",
@@ -880,7 +925,8 @@
                         "hi": "मुझे कभी-कभी थोड़ा चक्कर आता है।",
                         "ur": "مجھے کبھی کبھی تھوڑا چکر آتا ہے۔",
                         "tr": "Bazen biraz başım dönüyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_02_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -892,7 +938,8 @@
                         "hi": "हमें इस पर नज़र रखनी चाहिए। हम कुछ रक्त परीक्षण करेंगे।",
                         "ur": "ہمیں اس پر نظر رکھنی چاہیے۔ ہم کچھ خون کے ٹیسٹ کریں گے۔",
                         "tr": "Bunu takip etmeliyiz. Birkaç kan testi yapacağız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_02_line5.mp3"
                 },
                 {
                     "speaker": "Patient Klein",
@@ -904,7 +951,8 @@
                         "hi": "ठीक है, डॉक्टर।",
                         "ur": "ٹھیک ہے، ڈاکٹر۔",
                         "tr": "Pekala, Doktor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_02_line6.mp3"
                 }
             ],
             "id": "d28_02"
@@ -935,7 +983,8 @@
                         "hi": "आपकी गर्भावस्था पर बधाई, श्रीमती लेहमैन!",
                         "ur": "آپ کی حمل پر مبارک ہو، محترمہ لیمان!",
                         "tr": "Hamileliğiniz için tebrikler, Bayan Lehmann!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_03_line1.mp3"
                 },
                 {
                     "speaker": "Patient Lehmann",
@@ -947,7 +996,8 @@
                         "hi": "बहुत-बहुत धन्यवाद, डॉ. मेयर। मैं बहुत उत्साहित हूँ।",
                         "ur": "بہت شکریہ، ڈاکٹر میئر۔ میں بہت پرجوش ہوں۔",
                         "tr": "Çok teşekkür ederim, Dr. Meier. Çok heyecanlıyım."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_03_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Meier",
@@ -959,7 +1009,8 @@
                         "hi": "आज की जांच के दौरान, हम कुछ सवाल पूछेंगे और एक अल्ट्रासाउंड करेंगे।",
                         "ur": "آج کے چیک اپ کے دوران، ہم کچھ سوالات پوچھیں گے اور ایک الٹراساؤنڈ کریں گے۔",
                         "tr": "Bugünkü kontrolde, bazı sorular soracağız ve bir ultrason yapacağız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_03_line3.mp3"
                 },
                 {
                     "speaker": "Patient Lehmann",
@@ -971,7 +1022,8 @@
                         "hi": "ठीक है, यह अच्छा लगता है। क्या कुछ ऐसा है जिस पर मुझे ध्यान देने की आवश्यकता है?",
                         "ur": "ٹھیک ہے، یہ اچھا لگتا ہے۔ کیا کوئی ایسی چیز ہے جس پر مجھے توجہ دینے کی ضرورت ہے؟",
                         "tr": "Tamam, kulağa hoş geliyor. Dikkat etmem gereken bir şey var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_03_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Meier",
@@ -983,7 +1035,8 @@
                         "hi": "हम आपको व्यापक सलाह देंगे। सबसे पहले, एक स्वस्थ आहार महत्वपूर्ण है।",
                         "ur": "ہم آپ کو جامع مشورہ دیں گے۔ سب سے پہلے، ایک صحت مند غذا اہم ہے۔",
                         "tr": "Size kapsamlı bir tavsiye vereceğiz. İlk olarak, sağlıklı bir beslenme önemlidir."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_03_line5.mp3"
                 },
                 {
                     "speaker": "Patient Lehmann",
@@ -995,7 +1048,8 @@
                         "hi": "अच्छा, तो मैं उस पर ध्यान दूंगा।",
                         "ur": "ٹھیک ہے، تو میں اس پر توجہ دوں گا۔",
                         "tr": "Güzel, o zaman ona dikkat edeceğim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_03_line6.mp3"
                 }
             ],
             "id": "d28_03"
@@ -1026,7 +1080,8 @@
                         "hi": "डॉक्टर, मेरा रक्तचाप अभी भी इतना अधिक है। क्या यह बच्चे के लिए खतरनाक है?",
                         "ur": "ڈاکٹر، میرا بلڈ پریشر اب بھی اتنا زیادہ ہے۔ کیا یہ بچے کے لیے خطرناک ہے؟",
                         "tr": "Doktor, tansiyonum hala çok yüksek. Bu bebek için tehlikeli mi?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_04_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -1038,7 +1093,8 @@
                         "hi": "हम उस पर बहुत बारीकी से निगरानी रख रहे हैं, श्रीमती श्मिट। जोखिम हो सकते हैं, लेकिन हम उन्हें कम करने के लिए सब कुछ कर रहे हैं।",
                         "ur": "ہم اس پر بہت باریکی سے نگرانی کر رہے ہیں، محترمہ شمٹ۔ خطرات ہو سکتے ہیں، لیکن ہم انہیں کم کرنے کے لیے ہر ممکن کوشش کر رہے ہیں۔",
                         "tr": "Bunu çok yakından takip ediyoruz, Bayan Schmidt. Riskler olabilir, ancak bunları en aza indirmek için elimizden geleni yapıyoruz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_04_line2.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -1050,7 +1106,8 @@
                         "hi": "मैं क्या कर सकती हूँ?",
                         "ur": "میں کیا کر سکتی ہوں؟",
                         "tr": "Ne yapabilirim?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_04_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -1062,7 +1119,8 @@
                         "hi": "शांत रहें, स्वस्थ आहार खाएं और नियमित रूप से अपनी जांच के लिए आएं। यदि आवश्यक हो तो हम दवा को समायोजित करेंगे।",
                         "ur": "پرسکون رہیں، صحت مند غذا کھائیں، اور باقاعدگی سے اپنی چیک اپ کے لیے آئیں۔ اگر ضروری ہو تو ہم دوائی کو ایڈجسٹ کریں گے۔",
                         "tr": "Sakin olun, sağlıklı beslenin ve düzenli olarak kontrollerinize gelin. Gerekirse ilaçları ayarlayacağız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_04_line4.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -1074,7 +1132,8 @@
                         "hi": "धन्यवाद, डॉक्टर। यह मुझे थोड़ा शांत करता है।",
                         "ur": "شکریہ، ڈاکٹر۔ اس سے مجھے تھوڑا سکون ملا۔",
                         "tr": "Teşekkür ederim, Doktor. Bu beni biraz rahatlatıyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_04_line5.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -1086,7 +1145,8 @@
                         "hi": "आपका स्वागत है। हम आपके लिए यहाँ हैं।",
                         "ur": "خوش آمدید۔ ہم آپ کے لیے یہاں ہیں۔",
                         "tr": "Rica ederim. Sizin için buradayız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_04_line6.mp3"
                 }
             ],
             "id": "d28_04"
@@ -1117,7 +1177,8 @@
                         "hi": "शुभ दिन, डॉक्टर। मैं परिवार नियोजन के बारे में बात करना चाहूंगी।",
                         "ur": "شب بخیر، ڈاکٹر۔ میں خاندانی منصوبہ بندی کے بارے میں بات کرنا چاہوں گی۔",
                         "tr": "İyi günler, Doktor. Aile planlaması hakkında konuşmak istiyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_05_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -1129,7 +1190,8 @@
                         "hi": "शुभ दिन, श्रीमती बॉमन। खुशी से। आपकी क्या चिंताएँ हैं?",
                         "ur": "شب بخیر، محترمہ باؤمن۔ بخوشی۔ آپ کی کیا considerations ہیں؟",
                         "tr": "İyi günler, Bayan Baumann. Memnuniyetle. Düşünceleriniz nelerdir?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_05_line2.mp3"
                 },
                 {
                     "speaker": "Patient Baumann",
@@ -1141,7 +1203,8 @@
                         "hi": "मेरे अब दो बच्चे हैं और मैं और नहीं चाहती। कौन सी गर्भनिरोधक विधियाँ अनुशंसित हैं?",
                         "ur": "میرے اب دو بچے ہیں اور میں مزید نہیں چاہتی۔ کون سے مانع حمل طریقے تجویز کیے جاتے ہیں؟",
                         "tr": "Şu anda iki çocuğum var ve daha fazla istemiyorum. Hangi doğum kontrol yöntemleri önerilir?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_05_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -1153,7 +1216,8 @@
                         "hi": "कई विकल्प हैं: गोली, आईयूडी, या नसबंदी। हम प्रत्येक विधि के फायदे और नुकसान पर चर्चा कर सकते हैं।",
                         "ur": "متعدد اختیارات ہیں: گولی، آئی یو ڈی، یا نس بندی۔ ہم ہر طریقہ کے فوائد اور نقصانات پر تبادلہ خیال کر سکتے ہیں۔",
                         "tr": "Birkaç seçenek var: hap, spiral veya sterilizasyon. Her yöntemin avantajlarını ve dezavantajlarını tartışabiliriz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_05_line4.mp3"
                 },
                 {
                     "speaker": "Patient Baumann",
@@ -1165,7 +1229,8 @@
                         "hi": "मैं आईयूडी के बारे में सोच रही हूँ। यह कितने समय तक चलता है और क्या इसे डालने में दर्द होता है?",
                         "ur": "میں آئی یو ڈی کے بارے میں سوچ رہی ہوں۔ یہ کب تک چلتا ہے اور کیا اسے داخل کرنے میں تکلیف ہوتی ہے؟",
                         "tr": "Spirali düşünüyorum. Ne kadar süre dayanır ve takarken acıtır mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_05_line5.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -1177,7 +1242,8 @@
                         "hi": "आईयूडी पाँच साल तक चल सकता है। डालने में थोड़ी असुविधा हो सकती है, लेकिन हम आपको दर्द निवारक दे सकते हैं।",
                         "ur": "آئی یو ڈی پانچ سال تک چل سکتا ہے۔ داخل کرنے میں تھوڑی سی تکلیف ہو سکتی ہے، لیکن ہم آپ کو درد کم کرنے والی دوا دے سکتے ہیں۔",
                         "tr": "Spiral beş yıla kadar dayanabilir. Takarken biraz rahatsızlık olabilir, ancak size ağrı kesici verebiliriz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_28/dialogues/d28_05_line6.mp3"
                 }
             ],
             "id": "d28_05"

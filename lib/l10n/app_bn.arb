@@ -22,6 +22,18 @@
   "settings": "সেটিংস",
   "continueLeaning": "শেখা চালিয়ে যান",
   "yourProgress": "আপনার অগ্রগতি",
+  "sectionsCompleted": "{count}টি বিভাগ সম্পন্ন",
+  "@sectionsCompleted": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "level": "স্তর {level}",
+  "@level": {
+    "placeholders": {
+      "level": {"type": "String"}
+    }
+  },
   "dayStreak": "দিনের ধারাবাহিকতা",
   "points": "পয়েন্ট",
   "learningPhases": "শেখার পর্যায়",
@@ -32,15 +44,24 @@
   "phase3Title": "পেশাদার দক্ষতা এবং FSP",
   "phase3Desc": "উন্নত ডকুমেন্টেশন, বিশেষত্ব এবং পরীক্ষার প্রস্তুতি।",
   "sections": "বিভাগ",
+  "section": "বিভাগ",
   "vocabulary": "শব্দভাণ্ডার",
   "dialogue": "সংলাপ",
   "exercises": "অনুশীলন",
+  "minutes": "{min} মিনিট",
+  "@minutes": {
+    "placeholders": {
+      "min": {"type": "int"}
+    }
+  },
   "introduction": "ভূমিকা",
   "grammarFocus": "ব্যাকরণ ফোকাস",
   "culturalNotes": "সাংস্কৃতিক নোট",
   "summary": "সারসংক্ষেপ",
   "learningObjectives": "শেখার উদ্দেশ্য",
   "flashcards": "ফ্ল্যাশকার্ড",
+  "tapToSeeTranslation": "অনুবাদ দেখতে ট্যাপ করুন",
+  "tapToSeeGerman": "জার্মান দেখতে ট্যাপ করুন",
   "next": "পরবর্তী",
   "previous": "পূর্ববর্তী",
   "done": "সম্পন্ন",
@@ -50,18 +71,40 @@
   "incorrect": "ভুল",
   "explanation": "ব্যাখ্যা",
   "tryAgain": "আবার চেষ্টা করুন",
+  "questionsCompleted": "{current} এর মধ্যে {total}",
+  "@questionsCompleted": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
   "greatJob": "চমৎকার!",
   "keepPracticing": "অনুশীলন চালিয়ে যান!",
+  "score": "আপনি {total} এর মধ্যে {correct}টি সঠিক পেয়েছেন",
+  "@score": {
+    "placeholders": {
+      "correct": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
   "levelProgress": "স্তরের অগ্রগতি",
   "recentActivity": "সাম্প্রতিক কার্যকলাপ",
   "sourceLanguage": "উৎস ভাষা",
   "darkMode": "ডার্ক মোড",
   "notifications": "বিজ্ঞপ্তি",
+  "downloads": "ডাউনলোড",
+  "manageOfflineContent": "অফলাইন কন্টেন্ট পরিচালনা করুন",
+  "helpFaq": "সাহায্য ও FAQ",
+  "contactUs": "যোগাযোগ করুন",
+  "privacyPolicy": "গোপনীয়তা নীতি",
+  "termsOfService": "সেবার শর্তাবলী",
   "signOut": "সাইন আউট",
+  "signOutConfirm": "আপনি কি সাইন আউট করতে চান?",
   "cancel": "বাতিল",
   "close": "বন্ধ",
   "error": "ত্রুটি",
   "retry": "পুনরায় চেষ্টা",
   "loading": "লোড হচ্ছে...",
+  "noInternetConnection": "ইন্টারনেট সংযোগ নেই",
   "comingSoon": "শীঘ্রই আসছে"
 }

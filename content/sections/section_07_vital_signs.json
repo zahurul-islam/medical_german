@@ -32,30 +32,12 @@
             "de": "In diesem Abschnitt lernen Sie, wie Sie Vitalparameter mit der korrekten deutschen medizinischen Terminologie genau erfassen und dokumentieren. Wir werden den Wortschatz und die Grammatik untersuchen, die für eine effektive Kommunikation von Patientendaten erforderlich sind."
         },
         "grammarFocus": {
-            "en": {
-                "1": "Use of the accusative and dative cases with verbs related to measurement (e.g., 'den Blutdruck messen' - to measure the blood pressure).",
-                "2": "Understanding and using adjectives to describe the severity or state of vital signs (e.g., 'hoher Blutdruck' - high blood pressure)."
-            },
-            "bn": {
-                "1": "মাপ সম্পর্কিত ক্রিয়াগুলির সাথে অভিযুক্ত এবং ডেটিভ কেসগুলির ব্যবহার (যেমন, 'ডেন ব্লুটড্রুক মেসেন' - রক্তচাপ পরিমাপ করা)।",
-                "2": "ভাইটাল সাইনের তীব্রতা বা অবস্থা বর্ণনা করার জন্য বিশেষণ বোঝা এবং ব্যবহার করা (যেমন, 'হোহার ব্লুটড্রুক' - উচ্চ রক্তচাপ)।"
-            },
-            "hi": {
-                "1": "माप से संबंधित क्रियाओं के साथ अभियोगात्मक और डेटिव मामलों का उपयोग (उदाहरण के लिए, 'डेन ब्लूटड्रुक मेसेन' - रक्तचाप को मापना)।",
-                "2": "महत्वपूर्ण संकेतों की गंभीरता या स्थिति का वर्णन करने के लिए विशेषणों को समझना और उपयोग करना (उदाहरण के लिए, 'होहर ब्लूटड्रुक' - उच्च रक्तचाप)।"
-            },
-            "ur": {
-                "1": "پیمائش سے متعلق فعل کے ساتھ الزامی اور ڈیٹو کیسوں کا استعمال (مثال کے طور پر، 'ڈین بلڈڈروک میسن' - بلڈ پریشر کی پیمائش کرنا)۔",
-                "2": "اہم علامات کی شدت یا حالت کو بیان کرنے کے لیے صفتوں کو سمجھنا اور استعمال کرنا (مثال کے طور پر، 'ہوہر بلڈڈروک' - ہائی بلڈ پریشر)۔"
-            },
-            "tr": {
-                "1": "Ölçümle ilgili fiillerle suçlayıcı ve datif hallerin kullanımı (örneğin, 'den Blutdruck messen' - kan basıncını ölçmek).",
-                "2": "Vital belirtilerin şiddetini veya durumunu tanımlamak için sıfatları anlamak ve kullanmak (örneğin, 'hoher Blutdruck' - yüksek tansiyon)."
-            },
-            "de": {
-                "1": "Verwendung des Akkusativs und Dativs bei Verben im Zusammenhang mit Messungen (z.B. 'den Blutdruck messen').",
-                "2": "Verständnis und Verwendung von Adjektiven zur Beschreibung des Schweregrades oder Zustands von Vitalparametern (z.B. 'hoher Blutdruck')."
-            }
+            "en": "**Numbers and Comparatives with Vital Signs**\n\nWhen discussing vital signs, you need to understand German numbers and comparative structures.\n\n*Cardinal Numbers for Measurements:*\n- 'Der Blutdruck ist 120 zu 80.' (Blood pressure is 120 over 80.)\n- 'Die Temperatur beträgt 38,5 Grad.' (Temperature is 38.5 degrees.)\n- 'Der Puls ist 72 Schläge pro Minute.' (Pulse is 72 beats per minute.)\n\n**Note:** German uses comma (,) for decimals, not period!\n\n*Comparative Forms for Describing Values:*\n| Base | Comparative | Superlative | Example |\n|------|-------------|-------------|---------|\n| hoch | höher | am höchsten | Der Blutdruck ist höher als normal. |\n| niedrig | niedriger | am niedrigsten | Die Temperatur ist niedriger als gestern. |\n| schnell | schneller | am schnellsten | Der Puls ist schneller als erwartet. |\n\n*Medical Value Descriptions:*\n- 'normal' - Der Wert ist normal.\n- 'erhöht' - Der Wert ist erhöht. (The value is elevated.)\n- 'erniedrigt' - Der Wert ist erniedrigt. (The value is decreased.)\n- 'stark erhöht' - Der Wert ist stark erhöht. (strongly elevated)\n\n**Comparison Structure:**\n- 'Der Blutdruck ist höher als gestern.' (Blood pressure is higher than yesterday.)\n- 'Die Temperatur ist genauso wie gestern.' (Temperature is the same as yesterday.)\n- 'Der Puls ist niedriger als bei der letzten Messung.' (Pulse is lower than at the last measurement.)\n\n*Questions About Vital Signs:*\n- 'Wie hoch ist der Blutdruck?' (How high is the blood pressure?)\n- 'Wie ist die Temperatur?' (What is the temperature?)\n- 'Ist der Puls regelmäßig?' (Is the pulse regular?)",
+            "de": "**Zahlen und Komparative bei Vitalzeichen**\n\nBei der Besprechung von Vitalzeichen müssen Sie deutsche Zahlen und Vergleichsstrukturen verstehen.\n\n*Kardinalzahlen für Messungen:*\n- 'Der Blutdruck ist 120 zu 80.'\n- 'Die Temperatur beträgt 38,5 Grad.'\n- 'Der Puls ist 72 Schläge pro Minute.'\n\n**Hinweis:** Deutsch verwendet Komma (,) für Dezimalzahlen, nicht Punkt!\n\n*Komparativformen zur Beschreibung von Werten:*\n| Grundform | Komparativ | Superlativ | Beispiel |\n|-----------|------------|------------|----------|\n| hoch | höher | am höchsten | Der Blutdruck ist höher als normal. |\n| niedrig | niedriger | am niedrigsten | Die Temperatur ist niedriger als gestern. |\n| schnell | schneller | am schnellsten | Der Puls ist schneller als erwartet. |\n\n*Medizinische Wertbeschreibungen:*\n- 'normal' - Der Wert ist normal.\n- 'erhöht' - Der Wert ist erhöht.\n- 'erniedrigt' - Der Wert ist erniedrigt.\n- 'stark erhöht' - Der Wert ist stark erhöht.\n\n**Vergleichsstruktur:**\n- 'Der Blutdruck ist höher als gestern.'\n- 'Die Temperatur ist genauso wie gestern.'\n- 'Der Puls ist niedriger als bei der letzten Messung.'\n\n*Fragen zu Vitalzeichen:*\n- 'Wie hoch ist der Blutdruck?'\n- 'Wie ist die Temperatur?'\n- 'Ist der Puls regelmäßig?'",
+            "bn": "**Numbers and Comparatives with Vital Signs**\n\nWhen discussing vital signs, you need to understand German numbers and comparative structures.\n\n*Cardinal Numbers for Measurements:*\n- 'Der Blutdruck ist 120 zu 80.' (Blood pressure is 120 over 80.)\n- 'Die Temperatur beträgt 38,5 Grad.' (Temperature is 38.5 degrees.)\n- 'Der Puls ist 72 Schläge pro Minute.' (Pulse is 72 beats per minute.)\n\n**Note:** German uses comma (,) for decimals, not period!\n\n*Comparative Forms for Describing Values:*\n| Base | Comparative | Superlative | Example |\n|------|-------------|-------------|---------|\n| hoch | höher | am höchsten | Der Blutdruck ist höher als normal. |\n| niedrig | niedriger | am niedrigsten | Die Temperatur ist niedriger als gestern. |\n| schnell | schneller | am schnellsten | Der Puls ist schneller als erwartet. |\n\n*Medical Value Descriptions:*\n- 'normal' - Der Wert ist normal.\n- 'erhöht' - Der Wert ist erhöht. (The value is elevated.)\n- 'erniedrigt' - Der Wert ist erniedrigt. (The value is decreased.)\n- 'stark erhöht' - Der Wert ist stark erhöht. (strongly elevated)\n\n**Comparison Structure:**\n- 'Der Blutdruck ist höher als gestern.' (Blood pressure is higher than yesterday.)\n- 'Die Temperatur ist genauso wie gestern.' (Temperature is the same as yesterday.)\n- 'Der Puls ist niedriger als bei der letzten Messung.' (Pulse is lower than at the last measurement.)\n\n*Questions About Vital Signs:*\n- 'Wie hoch ist der Blutdruck?' (How high is the blood pressure?)\n- 'Wie ist die Temperatur?' (What is the temperature?)\n- 'Ist der Puls regelmäßig?' (Is the pulse regular?)",
+            "hi": "**Numbers and Comparatives with Vital Signs**\n\nWhen discussing vital signs, you need to understand German numbers and comparative structures.\n\n*Cardinal Numbers for Measurements:*\n- 'Der Blutdruck ist 120 zu 80.' (Blood pressure is 120 over 80.)\n- 'Die Temperatur beträgt 38,5 Grad.' (Temperature is 38.5 degrees.)\n- 'Der Puls ist 72 Schläge pro Minute.' (Pulse is 72 beats per minute.)\n\n**Note:** German uses comma (,) for decimals, not period!\n\n*Comparative Forms for Describing Values:*\n| Base | Comparative | Superlative | Example |\n|------|-------------|-------------|---------|\n| hoch | höher | am höchsten | Der Blutdruck ist höher als normal. |\n| niedrig | niedriger | am niedrigsten | Die Temperatur ist niedriger als gestern. |\n| schnell | schneller | am schnellsten | Der Puls ist schneller als erwartet. |\n\n*Medical Value Descriptions:*\n- 'normal' - Der Wert ist normal.\n- 'erhöht' - Der Wert ist erhöht. (The value is elevated.)\n- 'erniedrigt' - Der Wert ist erniedrigt. (The value is decreased.)\n- 'stark erhöht' - Der Wert ist stark erhöht. (strongly elevated)\n\n**Comparison Structure:**\n- 'Der Blutdruck ist höher als gestern.' (Blood pressure is higher than yesterday.)\n- 'Die Temperatur ist genauso wie gestern.' (Temperature is the same as yesterday.)\n- 'Der Puls ist niedriger als bei der letzten Messung.' (Pulse is lower than at the last measurement.)\n\n*Questions About Vital Signs:*\n- 'Wie hoch ist der Blutdruck?' (How high is the blood pressure?)\n- 'Wie ist die Temperatur?' (What is the temperature?)\n- 'Ist der Puls regelmäßig?' (Is the pulse regular?)",
+            "ur": "**Numbers and Comparatives with Vital Signs**\n\nWhen discussing vital signs, you need to understand German numbers and comparative structures.\n\n*Cardinal Numbers for Measurements:*\n- 'Der Blutdruck ist 120 zu 80.' (Blood pressure is 120 over 80.)\n- 'Die Temperatur beträgt 38,5 Grad.' (Temperature is 38.5 degrees.)\n- 'Der Puls ist 72 Schläge pro Minute.' (Pulse is 72 beats per minute.)\n\n**Note:** German uses comma (,) for decimals, not period!\n\n*Comparative Forms for Describing Values:*\n| Base | Comparative | Superlative | Example |\n|------|-------------|-------------|---------|\n| hoch | höher | am höchsten | Der Blutdruck ist höher als normal. |\n| niedrig | niedriger | am niedrigsten | Die Temperatur ist niedriger als gestern. |\n| schnell | schneller | am schnellsten | Der Puls ist schneller als erwartet. |\n\n*Medical Value Descriptions:*\n- 'normal' - Der Wert ist normal.\n- 'erhöht' - Der Wert ist erhöht. (The value is elevated.)\n- 'erniedrigt' - Der Wert ist erniedrigt. (The value is decreased.)\n- 'stark erhöht' - Der Wert ist stark erhöht. (strongly elevated)\n\n**Comparison Structure:**\n- 'Der Blutdruck ist höher als gestern.' (Blood pressure is higher than yesterday.)\n- 'Die Temperatur ist genauso wie gestern.' (Temperature is the same as yesterday.)\n- 'Der Puls ist niedriger als bei der letzten Messung.' (Pulse is lower than at the last measurement.)\n\n*Questions About Vital Signs:*\n- 'Wie hoch ist der Blutdruck?' (How high is the blood pressure?)\n- 'Wie ist die Temperatur?' (What is the temperature?)\n- 'Ist der Puls regelmäßig?' (Is the pulse regular?)",
+            "tr": "**Numbers and Comparatives with Vital Signs**\n\nWhen discussing vital signs, you need to understand German numbers and comparative structures.\n\n*Cardinal Numbers for Measurements:*\n- 'Der Blutdruck ist 120 zu 80.' (Blood pressure is 120 over 80.)\n- 'Die Temperatur beträgt 38,5 Grad.' (Temperature is 38.5 degrees.)\n- 'Der Puls ist 72 Schläge pro Minute.' (Pulse is 72 beats per minute.)\n\n**Note:** German uses comma (,) for decimals, not period!\n\n*Comparative Forms for Describing Values:*\n| Base | Comparative | Superlative | Example |\n|------|-------------|-------------|---------|\n| hoch | höher | am höchsten | Der Blutdruck ist höher als normal. |\n| niedrig | niedriger | am niedrigsten | Die Temperatur ist niedriger als gestern. |\n| schnell | schneller | am schnellsten | Der Puls ist schneller als erwartet. |\n\n*Medical Value Descriptions:*\n- 'normal' - Der Wert ist normal.\n- 'erhöht' - Der Wert ist erhöht. (The value is elevated.)\n- 'erniedrigt' - Der Wert ist erniedrigt. (The value is decreased.)\n- 'stark erhöht' - Der Wert ist stark erhöht. (strongly elevated)\n\n**Comparison Structure:**\n- 'Der Blutdruck ist höher als gestern.' (Blood pressure is higher than yesterday.)\n- 'Die Temperatur ist genauso wie gestern.' (Temperature is the same as yesterday.)\n- 'Der Puls ist niedriger als bei der letzten Messung.' (Pulse is lower than at the last measurement.)\n\n*Questions About Vital Signs:*\n- 'Wie hoch ist der Blutdruck?' (How high is the blood pressure?)\n- 'Wie ist die Temperatur?' (What is the temperature?)\n- 'Ist der Puls regelmäßig?' (Is the pulse regular?)"
         },
         "culturalNotes": {
             "en": "In German hospitals, nurses typically take vital signs with meticulous accuracy and document them thoroughly in the patient's chart. This precise documentation is crucial for diagnosis and treatment.",
@@ -73,12 +55,38 @@
             "tr": "Bu bölüm, tıbbi bir ortamda vital belirtileri ve sayısal hasta verilerini doğru bir şekilde iletmek için gerekli Almanca terminolojiyi ve dilbilgisel hususları sağlamıştır.",
             "de": "Dieser Abschnitt enthielt die deutsche Terminologie und die grammatikalischen Überlegungen, die für die genaue Übermittlung von Vitalparametern und numerischen Patientendaten in einem medizinischen Umfeld erforderlich sind."
         },
-        "learningObjectives": [
-            "Learn the German terms for essential vital signs.",
-            "Practice taking and documenting vital signs using German medical terminology.",
-            "Understand the grammatical structures used when discussing vital signs in German.",
-            "Be able to communicate patient vital sign data effectively in German."
-        ]
+        "learningObjectives": {
+            "en": [
+                "Learn the German terms for essential vital signs.",
+                "Practice taking and documenting vital signs using German medical terminology.",
+                "Understand the grammatical structures used when discussing vital signs in German.",
+                "Be able to communicate patient vital sign data effectively in German."
+            ],
+            "bn": [
+                "শিখুন the German terms for essential vital signs.",
+                "অনুশীলন করুন taking and documenting vital signs using German medical terminology.",
+                "বুঝুন the grammatical structures used when discussing vital signs in German.",
+                "Be able to communicate patient vital sign data effectively in German."
+            ],
+            "hi": [
+                "सीखें the German terms for essential vital signs.",
+                "अभ्यास करें taking and documenting vital signs using German medical terminology.",
+                "समझें the grammatical structures used when discussing vital signs in German.",
+                "Be able to communicate patient vital sign data effectively in German."
+            ],
+            "ur": [
+                "سیکھیں the German terms for essential vital signs.",
+                "مشق کریں taking and documenting vital signs using German medical terminology.",
+                "سمجھیں the grammatical structures used when discussing vital signs in German.",
+                "Be able to communicate patient vital sign data effectively in German."
+            ],
+            "tr": [
+                "Öğrenin the German terms for essential vital signs.",
+                "Pratik yapın taking and documenting vital signs using German medical terminology.",
+                "Anlayın the grammatical structures used when discussing vital signs in German.",
+                "Be able to communicate patient vital sign data effectively in German."
+            ]
+        }
     },
     "vocabulary": [
         {
@@ -102,7 +110,8 @@
                 "ur": "مریض کا بلڈ پریشر 120/80 پر مستحکم ہے۔",
                 "tr": "Hastanın kan basıncı 120'ye 80'de stabil."
             },
-            "id": "v07_01"
+            "id": "v07_01",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_01.mp3"
         },
         {
             "germanTerm": "der Puls",
@@ -125,7 +134,8 @@
                 "ur": "نبض باقاعدہ ہے اور 72 دھڑکن فی منٹ ہے۔",
                 "tr": "Nabız düzenli ve dakikada 72 atım."
             },
-            "id": "v07_02"
+            "id": "v07_02",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_02.mp3"
         },
         {
             "germanTerm": "die Temperatur",
@@ -148,7 +158,8 @@
                 "ur": "مریض کا درجہ حرارت 38.5 ڈگری سینٹی گریڈ ہے۔",
                 "tr": "Hastanın sıcaklığı 38.5 derece Santigrat."
             },
-            "id": "v07_03"
+            "id": "v07_03",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_03.mp3"
         },
         {
             "germanTerm": "die Atemfrequenz",
@@ -171,7 +182,8 @@
                 "ur": "سانس لینے کی شرح بڑھ گئی ہے، 24 سانس فی منٹ پر۔",
                 "tr": "Solunum hızı yüksek, dakikada 24 nefes."
             },
-            "id": "v07_04"
+            "id": "v07_04",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_04.mp3"
         },
         {
             "germanTerm": "die Sauerstoffsättigung",
@@ -194,7 +206,8 @@
                 "ur": "آکسیجن کی سیر کمرے کی ہوا پر 95٪ ہے۔",
                 "tr": "Oksijen saturasyonu oda havasında %95."
             },
-            "id": "v07_05"
+            "id": "v07_05",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_05.mp3"
         },
         {
             "germanTerm": "das Gewicht",
@@ -217,7 +230,8 @@
                 "ur": "مریض کا وزن 75 کلوگرام ہے۔",
                 "tr": "Hastanın ağırlığı 75 kilogram."
             },
-            "id": "v07_06"
+            "id": "v07_06",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_06.mp3"
         },
         {
             "germanTerm": "die Größe",
@@ -240,7 +254,8 @@
                 "ur": "مریض کا قد 1.80 میٹر ہے۔",
                 "tr": "Hastanın boyu 1.80 metre."
             },
-            "id": "v07_07"
+            "id": "v07_07",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_07.mp3"
         },
         {
             "germanTerm": "der BMI (Body-Mass-Index)",
@@ -263,7 +278,8 @@
                 "ur": "مریض کا بی ایم آئی 25 ہے، جو زیادہ وزن کی نشاندہی کرتا ہے۔",
                 "tr": "Hastanın BMI'ı 25, bu da fazla kilolu olduğunu gösteriyor."
             },
-            "id": "v07_08"
+            "id": "v07_08",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_08.mp3"
         },
         {
             "germanTerm": "systolisch",
@@ -286,7 +302,8 @@
                 "ur": "سسٹولک بلڈ پریشر 140 mmHg ہے۔",
                 "tr": "Sistolik kan basıncı 140 mmHg."
             },
-            "id": "v07_09"
+            "id": "v07_09",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_09.mp3"
         },
         {
             "germanTerm": "diastolisch",
@@ -309,7 +326,8 @@
                 "ur": "ڈائیسٹولک بلڈ پریشر 90 mmHg ہے۔",
                 "tr": "Diyastolik kan basıncı 90 mmHg."
             },
-            "id": "v07_10"
+            "id": "v07_10",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_10.mp3"
         },
         {
             "germanTerm": "messen",
@@ -332,7 +350,8 @@
                 "ur": "ہمیں باقاعدگی سے بلڈ پریشر ناپنا ہوگا۔",
                 "tr": "Kan basıncını düzenli olarak ölçmemiz gerekiyor."
             },
-            "id": "v07_11"
+            "id": "v07_11",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_11.mp3"
         },
         {
             "germanTerm": "die Messung",
@@ -355,7 +374,8 @@
                 "ur": "پیمائش کو تین بار دہرایا گیا۔",
                 "tr": "Ölçüm üç kez tekrarlandı."
             },
-            "id": "v07_12"
+            "id": "v07_12",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_12.mp3"
         },
         {
             "germanTerm": "erhöht",
@@ -378,7 +398,8 @@
                 "ur": "بلڈ پریشر قدرے زیادہ ہے۔",
                 "tr": "Kan basıncı biraz yüksek."
             },
-            "id": "v07_13"
+            "id": "v07_13",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_13.mp3"
         },
         {
             "germanTerm": "erniedrigt",
@@ -401,7 +422,8 @@
                 "ur": "آکسیجن کی سیر کم ہو گئی ہے۔",
                 "tr": "Oksijen saturasyonu azalmış."
             },
-            "id": "v07_14"
+            "id": "v07_14",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_14.mp3"
         },
         {
             "germanTerm": "normal",
@@ -424,7 +446,8 @@
                 "ur": "تمام اہم علامات نارمل ہیں۔",
                 "tr": "Tüm vital belirtiler normal."
             },
-            "id": "v07_15"
+            "id": "v07_15",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_15.mp3"
         },
         {
             "germanTerm": "der Schlag",
@@ -447,7 +470,8 @@
                 "ur": "نبض 80 دھڑکن فی منٹ ہے۔",
                 "tr": "Nabız dakikada 80 vuruş."
             },
-            "id": "v07_16"
+            "id": "v07_16",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_16.mp3"
         },
         {
             "germanTerm": "die Minute",
@@ -470,7 +494,8 @@
                 "ur": "سانس لینے کی شرح فی منٹ ماپی جاتی ہے۔",
                 "tr": "Solunum hızı dakikada ölçülür."
             },
-            "id": "v07_17"
+            "id": "v07_17",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_17.mp3"
         },
         {
             "germanTerm": "liegen bei",
@@ -493,7 +518,8 @@
                 "ur": "بلڈ پریشر 130/85 پر ہے۔",
                 "tr": "Kan basıncı 130'a 85'te."
             },
-            "id": "v07_18"
+            "id": "v07_18",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_18.mp3"
         },
         {
             "germanTerm": "die Tabelle",
@@ -516,7 +542,8 @@
                 "ur": "معمول کی اقدار کے لیے ٹیبل میں دیکھیں۔",
                 "tr": "Normal değerler için tabloya bakın."
             },
-            "id": "v07_19"
+            "id": "v07_19",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_19.mp3"
         },
         {
             "germanTerm": "die Abweichung",
@@ -539,7 +566,8 @@
                 "ur": "معمول کی قیمت سے تھوڑا سا انحراف ہے۔",
                 "tr": "Normal değerden hafif bir sapma var."
             },
-            "id": "v07_20"
+            "id": "v07_20",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_20.mp3"
         },
         {
             "germanTerm": "die Anamnese",
@@ -562,7 +590,8 @@
                 "ur": "اہم علامات طبی تاریخ کے لیے اہم ہیں۔",
                 "tr": "Vital belirtiler tıbbi geçmiş için önemlidir."
             },
-            "id": "v07_21"
+            "id": "v07_21",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_21.mp3"
         },
         {
             "germanTerm": "die Diagnose",
@@ -585,7 +614,8 @@
                 "ur": "اہم علامات تشخیص میں مدد کرتی ہیں۔",
                 "tr": "Vital belirtiler teşhis koymaya yardımcı olur."
             },
-            "id": "v07_22"
+            "id": "v07_22",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_22.mp3"
         },
         {
             "germanTerm": "die Therapie",
@@ -608,7 +638,8 @@
                 "ur": "علاج کو اہم علامات کے مطابق ایڈجسٹ کرنا چاہیے۔",
                 "tr": "Terapi, vital belirtilere göre ayarlanmalıdır."
             },
-            "id": "v07_23"
+            "id": "v07_23",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_23.mp3"
         },
         {
             "germanTerm": "kontrollieren",
@@ -631,7 +662,8 @@
                 "ur": "ہمیں باقاعدگی سے اہم علامات کی جانچ کرنی ہوگی۔",
                 "tr": "Vital belirtileri düzenli olarak kontrol etmemiz gerekiyor."
             },
-            "id": "v07_24"
+            "id": "v07_24",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_24.mp3"
         },
         {
             "germanTerm": "die Überwachung",
@@ -654,7 +686,8 @@
                 "ur": "مریض کو اہم علامات کی مسلسل نگرانی کی ضرورت ہے۔",
                 "tr": "Hastanın vital belirtilerinin sürekli izlenmesi gerekiyor."
             },
-            "id": "v07_25"
+            "id": "v07_25",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_25.mp3"
         },
         {
             "germanTerm": "der Zustand",
@@ -677,7 +710,8 @@
                 "ur": "مریض کی حالت مستحکم ہو گئی ہے۔",
                 "tr": "Hastanın durumu stabil hale geldi."
             },
-            "id": "v07_26"
+            "id": "v07_26",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_26.mp3"
         },
         {
             "germanTerm": "dokumentieren",
@@ -700,7 +734,8 @@
                 "ur": "ہمیں تمام اہم علامات کو احتیاط سے دستاویز بنانا ہوگا۔",
                 "tr": "Tüm vital belirtileri dikkatlice belgelemeliyiz."
             },
-            "id": "v07_27"
+            "id": "v07_27",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_27.mp3"
         },
         {
             "germanTerm": "die Einheit",
@@ -723,7 +758,8 @@
                 "ur": "بلڈ پریشر کی اکائی mmHg ہے۔",
                 "tr": "Kan basıncının birimi mmHg'dir."
             },
-            "id": "v07_28"
+            "id": "v07_28",
+            "audioUrl": "assets/audio/sections/section_07/vocabulary/v07_28.mp3"
         }
     ],
     "dialogues": [
@@ -753,7 +789,8 @@
                         "hi": "शुभ दिन, श्री मुलर। आपको अस्पताल में क्या लाया?",
                         "ur": "شب بخیر، مسٹر ملر۔ آپ کو ہسپتال کیا لایا؟",
                         "tr": "İyi günler, Bay Müller. Sizi hastaneye getiren nedir?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_01_line1.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -765,7 +802,8 @@
                         "hi": "मुझे सीने में बहुत दर्द है।",
                         "ur": "مجھے سینے میں شدید درد ہے۔",
                         "tr": "Şiddetli göğüs ağrım var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_01_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -777,7 +815,8 @@
                         "hi": "मैं आपका रक्तचाप, नाड़ी और ऑक्सीजन संतृप्ति माप रही हूँ। आपका रक्तचाप 160/100, नाड़ी 95, ऑक्सीजन संतृप्ति 92% है।",
                         "ur": "میں آپ کا بلڈ پریشر، نبض اور آکسیجن کی سطح کی پیمائش کر رہی ہوں۔ آپ کا بلڈ پریشر 160/100، نبض 95، آکسیجن کی سطح 92 فیصد ہے۔",
                         "tr": "Kan basıncınızı, nabzınızı ve oksijen saturasyonunuzu ölçeceğim. Kan basıncınız 160/100, nabzınız 95, oksijen saturasyonunuz %92."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_01_line3.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -789,7 +828,8 @@
                         "hi": "क्या यह बुरा है?",
                         "ur": "کیا یہ برا ہے؟",
                         "tr": "Bu kötü mü?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_01_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -801,7 +841,8 @@
                         "hi": "हम इसे तुरंत डॉक्टर को बताएंगे। कृपया यहाँ प्रतीक्षा करें।",
                         "ur": "ہم فوری طور پر ڈاکٹر کو اطلاع دیں گے۔ براہ کرم یہاں انتظار کریں۔",
                         "tr": "Hemen doktora bildireceğiz. Lütfen burada bekleyin."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_01_line5.mp3"
                 }
             ],
             "id": "d07_01"
@@ -832,7 +873,8 @@
                         "hi": "शुभ प्रभात, श्रीमती श्मिट। आज आप कैसा महसूस कर रही हैं?",
                         "ur": "صبح بخیر، مسز شمٹ۔ آج آپ کیسا محسوس کر رہی ہیں؟",
                         "tr": "Günaydın, Bayan Schmidt. Bugün nasılsınız?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_02_line1.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -844,7 +886,8 @@
                         "hi": "शुभ प्रभात। ठीक-ठाक। मुझे अभी भी दर्द है।",
                         "ur": "صبح بخیر۔ ٹھیک ٹھاک ہوں۔ مجھے ابھی بھی درد ہے۔",
                         "tr": "Günaydın. Eh işte. Hala ağrım var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_02_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -856,7 +899,8 @@
                         "hi": "आपका तापमान 37.8 डिग्री है। 1 से 10 के पैमाने पर, आपका दर्द कितना मजबूत है?",
                         "ur": "آپ کا درجہ حرارت 37.8 ڈگری ہے۔ 1 سے 10 کے پیمانے پر آپ کے درد کی شدت کتنی ہے؟",
                         "tr": "Ateşiniz 37.8 derece. 1 ile 10 arasında bir ölçekte ağrınız ne kadar şiddetli?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_02_line3.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -868,7 +912,8 @@
                         "hi": "लगभग 6।",
                         "ur": "تقریباً 6۔",
                         "tr": "Yaklaşık 6."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_02_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -880,7 +925,8 @@
                         "hi": "मैं डॉक्टर को सूचित करूँगी। वह दर्द के लिए कुछ लिखेंगे।",
                         "ur": "میں ڈاکٹر کو مطلع کروں گی۔ وہ درد کے لیے کچھ لکھیں گے۔",
                         "tr": "Doktora haber vereceğim. Size ağrı için bir şeyler yazacak."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_02_line5.mp3"
                 }
             ],
             "id": "d07_02"
@@ -911,7 +957,8 @@
                         "hi": "शुभ प्रभात, नर्स वेबर। मिस्टर क्लेन कैसे हैं?",
                         "ur": "صبح بخیر، نرس ویبر۔ مسٹر کلین کیسے ہیں؟",
                         "tr": "Günaydın, Hemşire Weber. Bay Klein nasıl?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_03_line1.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -923,7 +970,8 @@
                         "hi": "उनका रक्तचाप 130/80 पर स्थिर है, नाड़ी 75 है। श्वसन दर 16 है, ऑक्सीजन संतृप्ति 98% है।",
                         "ur": "ان کا بلڈ پریشر 130/80 پر مستحکم ہے، نبض 75 ہے۔ سانس لینے کی رفتار 16 ہے، آکسیجن کی سطح 98 فیصد ہے۔",
                         "tr": "Kan basıncı 130/80'de stabil, nabzı 75. Solunum hızı 16, oksijen saturasyonu %98."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_03_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -935,7 +983,8 @@
                         "hi": "अच्छा। क्या उसे बुखार है?",
                         "ur": "اچھی بات ہے۔ کیا اسے بخار ہے؟",
                         "tr": "Güzel. Ateşi var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_03_line3.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -947,7 +996,8 @@
                         "hi": "नहीं, उसका तापमान सामान्य है।",
                         "ur": "نہیں، اس کا درجہ حرارت معمول پر ہے۔",
                         "tr": "Hayır, ateşi normal."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_03_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -959,7 +1009,8 @@
                         "hi": "उत्कृष्ट। हम शायद उसे कल छुट्टी दे सकते हैं।",
                         "ur": "بہترین۔ ہم شاید اسے کل فارغ کر سکتے ہیں۔",
                         "tr": "Mükemmel. Muhtemelen yarın taburcu edebiliriz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_03_line5.mp3"
                 }
             ],
             "id": "d07_03"
@@ -990,7 +1041,8 @@
                         "hi": "शुभ दिन, श्रीमती ब्रॉन। आपकी ऊंचाई कितनी है और आपका वजन कितना है?",
                         "ur": "شب بخیر، مسز براؤن۔ آپ کی اونچائی کتنی ہے اور آپ کا وزن کتنا ہے؟",
                         "tr": "İyi günler, Bayan Braun. Boyunuz kaç ve ne kadar kilolusunuz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_04_line1.mp3"
                 },
                 {
                     "speaker": "Patient Braun",
@@ -1002,7 +1054,8 @@
                         "hi": "मेरी ऊंचाई 1.65 मीटर है और मेरा वजन 85 किलो है।",
                         "ur": "میں 1.65 میٹر لمبا ہوں اور میرا وزن 85 کلو ہے۔",
                         "tr": "1.65 metre boyundayım ve 85 kiloyum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_04_line2.mp3"
                 },
                 {
                     "speaker": "Frau Meier",
@@ -1014,7 +1067,8 @@
                         "hi": "आपका बीएमआई 31.2 है। यह अधिक वजन है। हमें आहार परिवर्तन के बारे में बात करनी चाहिए।",
                         "ur": "آپ کا بی ایم آئی 31.2 ہے۔ یہ زیادہ وزن ہے۔ ہمیں غذا میں تبدیلی کے بارے میں بات کرنی چاہیے۔",
                         "tr": "BMI'niz 31.2. Bu fazla kilolu demek. Diyet değişikliği hakkında konuşmalıyız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_04_line3.mp3"
                 },
                 {
                     "speaker": "Patient Braun",
@@ -1026,7 +1080,8 @@
                         "hi": "हाँ, मुझे पता है। मैं पहले ही कई आहार आजमा चुका हूँ।",
                         "ur": "ہاں، مجھے پتہ ہے۔ میں پہلے ہی کئی ڈائٹ آزمائی چکا ہوں۔",
                         "tr": "Evet, biliyorum. Daha önce birkaç diyet denedim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_04_line4.mp3"
                 },
                 {
                     "speaker": "Frau Meier",
@@ -1038,7 +1093,8 @@
                         "hi": "हम साथ मिलकर आपके लिए एक व्यक्तिगत पोषण योजना बनाएंगे।",
                         "ur": "ہم مل کر آپ کے لیے ایک انفرادی غذائی منصوبہ بنائیں گے۔",
                         "tr": "Birlikte sizin için kişisel bir beslenme planı oluşturacağız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_04_line5.mp3"
                 }
             ],
             "id": "d07_04"
@@ -1069,7 +1125,8 @@
                         "hi": "शुभ दिन! छोटे टिम कैसे हैं?",
                         "ur": "شب بخیر! چھوٹا ٹم کیسا ہے؟",
                         "tr": "İyi günler! Küçük Tim nasıl?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_05_line1.mp3"
                 },
                 {
                     "speaker": "Mutter Meier",
@@ -1081,7 +1138,8 @@
                         "hi": "शुभ दिन, डॉक्टर। वह ठीक है, धन्यवाद।",
                         "ur": "شب بخیر، ڈاکٹر۔ وہ ٹھیک ہے، شکریہ۔",
                         "tr": "İyi günler, Doktor. O iyi, teşekkürler."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_05_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -1093,7 +1151,8 @@
                         "hi": "टिम अब कितना लंबा है और उसका वजन कितना है?",
                         "ur": "ٹم اب کتنا لمبا ہے اور اس کا وزن کتنا ہے؟",
                         "tr": "Tim şimdi ne kadar uzun ve ne kadar kilolu?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_05_line3.mp3"
                 },
                 {
                     "speaker": "Mutter Meier",
@@ -1105,7 +1164,8 @@
                         "hi": "वह 95 सेंटीमीटर लंबा है और उसका वजन 14 किलो है।",
                         "ur": "وہ 95 سینٹی میٹر لمبا ہے اور اس کا وزن 14 کلو ہے۔",
                         "tr": "95 santimetre boyunda ve 14 kilo."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_05_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -1117,7 +1177,8 @@
                         "hi": "सब ठीक है। हृदय और फेफड़े भी अच्छे लग रहे हैं।",
                         "ur": "سب کچھ ٹھیک ہے۔ دل اور پھیپھڑے بھی اچھے لگ رہے ہیں۔",
                         "tr": "Her şey yolunda. Kalbi ve akciğerleri de iyi geliyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_07/dialogues/d07_05_line5.mp3"
                 }
             ],
             "id": "d07_05"

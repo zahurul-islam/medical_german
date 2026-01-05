@@ -32,30 +32,12 @@
             "tr": "Bu bölüm, insan vücudunun temel dış anatomisine giriş yapacaktır. Öğrenciler, vücudun önemli kısımları için Almanca terimleri ve bunların yerlerini öğreneceklerdir."
         },
         "grammarFocus": {
-            "en": {
-                "bullet1": "Nominative and accusative case usage with body part nouns.",
-                "bullet2": "Use of prepositions to describe location on the body (an, auf, in)."
-            },
-            "de": {
-                "bullet1": "Verwendung von Nominativ und Akkusativ bei Körperteil-Nomen.",
-                "bullet2": "Verwendung von Präpositionen zur Beschreibung der Lage am Körper (an, auf, in)."
-            },
-            "bn": {
-                "bullet1": "শরীরের অংশের বিশেষ্যগুলির সাথে কর্তৃকারক এবং কর্ম কারকের ব্যবহার।",
-                "bullet2": "শরীরের অবস্থান বর্ণনা করার জন্য প্রিপোজিশনের ব্যবহার (an, auf, in)।"
-            },
-            "hi": {
-                "bullet1": "शरीर के अंग संज्ञाओं के साथ कर्ता कारक और कर्म कारक का उपयोग।",
-                "bullet2": "शरीर पर स्थान का वर्णन करने के लिए पूर्वसर्गों का उपयोग (an, auf, in)।"
-            },
-            "ur": {
-                "bullet1": "جسم کے حصوں کے اسم کے ساتھ فاعلی اور مفعولی حالتوں کا استعمال۔",
-                "bullet2": "جسم پر جگہ بیان کرنے کے لیے حروف جار کا استعمال (an, auf, in)۔"
-            },
-            "tr": {
-                "bullet1": "Vücut parçası isimleriyle nominatif ve akuzatif durumlarının kullanımı.",
-                "bullet2": "Vücuttaki konumu tanımlamak için edatların kullanımı (an, auf, in)."
-            }
+            "en": "**German Nouns and Articles: The Three Genders with Body Parts**\n\nGerman has THREE grammatical genders. Every noun must be learned with its article!\n\n*The Three Articles:*\n- der (masculine) → der Kopf (the head), der Arm (the arm), der Finger (the finger)\n- die (feminine) → die Hand (the hand), die Nase (the nose), die Schulter (the shoulder)\n- das (neuter) → das Auge (the eye), das Ohr (the ear), das Bein (the leg)\n\n**Plural Forms - 'die' for ALL genders:**\n- der Arm → die Arme (the arms)\n- die Hand → die Hände (the hands)\n- das Auge → die Augen (the eyes)\n\n*Definite vs. Indefinite Articles:*\n| Gender | Definite | Indefinite | Example |\n|--------|----------|------------|---------|\n| Masc. | der | ein | ein Kopf (a head) |\n| Fem. | die | eine | eine Hand (a hand) |\n| Neut. | das | ein | ein Auge (an eye) |\n\n**Accusative Case with Body Parts (Direct Object):**\nWhen examining body parts, use the accusative case:\n- 'Ich untersuche den Kopf.' (I examine the head.) - der → den\n- 'Ich sehe die Hand.' (I see the hand.) - die stays die\n- 'Ich berühre das Knie.' (I touch the knee.) - das stays das\n\n*Medical Phrases for Examination:*\n- 'Zeigen Sie mir Ihren Arm.' (Show me your arm.)\n- 'Bewegen Sie Ihre Schulter.' (Move your shoulder.)\n- 'Heben Sie das Bein.' (Lift the leg.)",
+            "de": "**Deutsche Nomen und Artikel: Die drei Geschlechter bei Körperteilen**\n\nDeutsch hat DREI grammatische Geschlechter. Jedes Nomen muss mit seinem Artikel gelernt werden!\n\n*Die drei Artikel:*\n- der (maskulin) → der Kopf, der Arm, der Finger\n- die (feminin) → die Hand, die Nase, die Schulter\n- das (neutral) → das Auge, das Ohr, das Bein\n\n**Pluralformen - 'die' für ALLE Geschlechter:**\n- der Arm → die Arme\n- die Hand → die Hände\n- das Auge → die Augen\n\n*Bestimmte und unbestimmte Artikel:*\n| Geschlecht | Bestimmt | Unbestimmt | Beispiel |\n|------------|----------|------------|----------|\n| Mask. | der | ein | ein Kopf |\n| Fem. | die | eine | eine Hand |\n| Neut. | das | ein | ein Auge |\n\n**Akkusativ bei Körperteilen (direktes Objekt):**\nBei der Untersuchung von Körperteilen verwenden Sie den Akkusativ:\n- 'Ich untersuche den Kopf.' - der → den\n- 'Ich sehe die Hand.' - die bleibt die\n- 'Ich berühre das Knie.' - das bleibt das\n\n*Medizinische Phrasen für die Untersuchung:*\n- 'Zeigen Sie mir Ihren Arm.'\n- 'Bewegen Sie Ihre Schulter.'\n- 'Heben Sie das Bein.'",
+            "bn": "**German Nouns and Articles: The Three Genders with Body Parts**\n\nGerman has THREE grammatical genders. Every noun must be learned with its article!\n\n*The Three Articles:*\n- der (masculine) → der Kopf (the head), der Arm (the arm), der Finger (the finger)\n- die (feminine) → die Hand (the hand), die Nase (the nose), die Schulter (the shoulder)\n- das (neuter) → das Auge (the eye), das Ohr (the ear), das Bein (the leg)\n\n**Plural Forms - 'die' for ALL genders:**\n- der Arm → die Arme (the arms)\n- die Hand → die Hände (the hands)\n- das Auge → die Augen (the eyes)\n\n*Definite vs. Indefinite Articles:*\n| Gender | Definite | Indefinite | Example |\n|--------|----------|------------|---------|\n| Masc. | der | ein | ein Kopf (a head) |\n| Fem. | die | eine | eine Hand (a hand) |\n| Neut. | das | ein | ein Auge (an eye) |\n\n**Accusative Case with Body Parts (Direct Object):**\nWhen examining body parts, use the accusative case:\n- 'Ich untersuche den Kopf.' (I examine the head.) - der → den\n- 'Ich sehe die Hand.' (I see the hand.) - die stays die\n- 'Ich berühre das Knie.' (I touch the knee.) - das stays das\n\n*Medical Phrases for Examination:*\n- 'Zeigen Sie mir Ihren Arm.' (Show me your arm.)\n- 'Bewegen Sie Ihre Schulter.' (Move your shoulder.)\n- 'Heben Sie das Bein.' (Lift the leg.)",
+            "hi": "**German Nouns and Articles: The Three Genders with Body Parts**\n\nGerman has THREE grammatical genders. Every noun must be learned with its article!\n\n*The Three Articles:*\n- der (masculine) → der Kopf (the head), der Arm (the arm), der Finger (the finger)\n- die (feminine) → die Hand (the hand), die Nase (the nose), die Schulter (the shoulder)\n- das (neuter) → das Auge (the eye), das Ohr (the ear), das Bein (the leg)\n\n**Plural Forms - 'die' for ALL genders:**\n- der Arm → die Arme (the arms)\n- die Hand → die Hände (the hands)\n- das Auge → die Augen (the eyes)\n\n*Definite vs. Indefinite Articles:*\n| Gender | Definite | Indefinite | Example |\n|--------|----------|------------|---------|\n| Masc. | der | ein | ein Kopf (a head) |\n| Fem. | die | eine | eine Hand (a hand) |\n| Neut. | das | ein | ein Auge (an eye) |\n\n**Accusative Case with Body Parts (Direct Object):**\nWhen examining body parts, use the accusative case:\n- 'Ich untersuche den Kopf.' (I examine the head.) - der → den\n- 'Ich sehe die Hand.' (I see the hand.) - die stays die\n- 'Ich berühre das Knie.' (I touch the knee.) - das stays das\n\n*Medical Phrases for Examination:*\n- 'Zeigen Sie mir Ihren Arm.' (Show me your arm.)\n- 'Bewegen Sie Ihre Schulter.' (Move your shoulder.)\n- 'Heben Sie das Bein.' (Lift the leg.)",
+            "ur": "**German Nouns and Articles: The Three Genders with Body Parts**\n\nGerman has THREE grammatical genders. Every noun must be learned with its article!\n\n*The Three Articles:*\n- der (masculine) → der Kopf (the head), der Arm (the arm), der Finger (the finger)\n- die (feminine) → die Hand (the hand), die Nase (the nose), die Schulter (the shoulder)\n- das (neuter) → das Auge (the eye), das Ohr (the ear), das Bein (the leg)\n\n**Plural Forms - 'die' for ALL genders:**\n- der Arm → die Arme (the arms)\n- die Hand → die Hände (the hands)\n- das Auge → die Augen (the eyes)\n\n*Definite vs. Indefinite Articles:*\n| Gender | Definite | Indefinite | Example |\n|--------|----------|------------|---------|\n| Masc. | der | ein | ein Kopf (a head) |\n| Fem. | die | eine | eine Hand (a hand) |\n| Neut. | das | ein | ein Auge (an eye) |\n\n**Accusative Case with Body Parts (Direct Object):**\nWhen examining body parts, use the accusative case:\n- 'Ich untersuche den Kopf.' (I examine the head.) - der → den\n- 'Ich sehe die Hand.' (I see the hand.) - die stays die\n- 'Ich berühre das Knie.' (I touch the knee.) - das stays das\n\n*Medical Phrases for Examination:*\n- 'Zeigen Sie mir Ihren Arm.' (Show me your arm.)\n- 'Bewegen Sie Ihre Schulter.' (Move your shoulder.)\n- 'Heben Sie das Bein.' (Lift the leg.)",
+            "tr": "**German Nouns and Articles: The Three Genders with Body Parts**\n\nGerman has THREE grammatical genders. Every noun must be learned with its article!\n\n*The Three Articles:*\n- der (masculine) → der Kopf (the head), der Arm (the arm), der Finger (the finger)\n- die (feminine) → die Hand (the hand), die Nase (the nose), die Schulter (the shoulder)\n- das (neuter) → das Auge (the eye), das Ohr (the ear), das Bein (the leg)\n\n**Plural Forms - 'die' for ALL genders:**\n- der Arm → die Arme (the arms)\n- die Hand → die Hände (the hands)\n- das Auge → die Augen (the eyes)\n\n*Definite vs. Indefinite Articles:*\n| Gender | Definite | Indefinite | Example |\n|--------|----------|------------|---------|\n| Masc. | der | ein | ein Kopf (a head) |\n| Fem. | die | eine | eine Hand (a hand) |\n| Neut. | das | ein | ein Auge (an eye) |\n\n**Accusative Case with Body Parts (Direct Object):**\nWhen examining body parts, use the accusative case:\n- 'Ich untersuche den Kopf.' (I examine the head.) - der → den\n- 'Ich sehe die Hand.' (I see the hand.) - die stays die\n- 'Ich berühre das Knie.' (I touch the knee.) - das stays das\n\n*Medical Phrases for Examination:*\n- 'Zeigen Sie mir Ihren Arm.' (Show me your arm.)\n- 'Bewegen Sie Ihre Schulter.' (Move your shoulder.)\n- 'Heben Sie das Bein.' (Lift the leg.)"
         },
         "culturalNotes": {
             "en": "In German hospitals, direct eye contact and clear communication are valued during physical examinations.",
@@ -73,12 +55,38 @@
             "ur": "اس حصے میں جرمن اصطلاحات کا استعمال کرتے ہوئے انسانی جسم کی اہم بیرونی جسمانی خصوصیات کا ایک مختصر جائزہ پیش کیا گیا ہے۔",
             "tr": "Bu bölüm, Almanca terminoloji kullanarak insan vücudunun temel dış anatomik özelliklerine genel bir bakış sağlamıştır."
         },
-        "learningObjectives": [
-            "Identify and name key external body parts in German.",
-            "Describe the location of external body parts using appropriate prepositions.",
-            "Pronounce German anatomical terms correctly.",
-            "Understand basic cultural expectations during physical examinations in German-speaking medical settings."
-        ]
+        "learningObjectives": {
+            "en": [
+                "Identify and name key external body parts in German.",
+                "Describe the location of external body parts using appropriate prepositions.",
+                "Pronounce German anatomical terms correctly.",
+                "Understand basic cultural expectations during physical examinations in German-speaking medical settings."
+            ],
+            "bn": [
+                "Identify and name key external body parts in German.",
+                "Describe the location of external body parts using appropriate prepositions.",
+                "Pronounce German anatomical terms correctly.",
+                "বুঝুন basic cultural expectations during physical examinations in German-speaking medical settings."
+            ],
+            "hi": [
+                "Identify and name key external body parts in German.",
+                "Describe the location of external body parts using appropriate prepositions.",
+                "Pronounce German anatomical terms correctly.",
+                "समझें basic cultural expectations during physical examinations in German-speaking medical settings."
+            ],
+            "ur": [
+                "Identify and name key external body parts in German.",
+                "Describe the location of external body parts using appropriate prepositions.",
+                "Pronounce German anatomical terms correctly.",
+                "سمجھیں basic cultural expectations during physical examinations in German-speaking medical settings."
+            ],
+            "tr": [
+                "Identify and name key external body parts in German.",
+                "Describe the location of external body parts using appropriate prepositions.",
+                "Pronounce German anatomical terms correctly.",
+                "Anlayın basic cultural expectations during physical examinations in German-speaking medical settings."
+            ]
+        }
     },
     "vocabulary": [
         {
@@ -102,7 +110,8 @@
                 "ur": "مریض شدید سر درد کی شکایت کر رہا ہے۔",
                 "tr": "Hasta şiddetli baş ağrısından şikayet ediyor."
             },
-            "id": "v02_01"
+            "id": "v02_01",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_01.mp3"
         },
         {
             "germanTerm": "das Gesicht",
@@ -125,7 +134,8 @@
                 "ur": "اُس کا چہرہ پیلا اور بے تاثر ہے۔",
                 "tr": "Yüzü solgun ve ifadesiz."
             },
-            "id": "v02_02"
+            "id": "v02_02",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_02.mp3"
         },
         {
             "germanTerm": "das Auge",
@@ -148,7 +158,8 @@
                 "ur": "بائیں آنکھ سرخ اور سوجی ہوئی ہے۔",
                 "tr": "Sol gözü kızarmış ve şişmiş."
             },
-            "id": "v02_03"
+            "id": "v02_03",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_03.mp3"
         },
         {
             "germanTerm": "das Ohr",
@@ -171,7 +182,8 @@
                 "ur": "وہ دائیں کان میں درد کی شکایت کر رہا ہے۔",
                 "tr": "Sağ kulağında ağrıdan şikayet ediyor."
             },
-            "id": "v02_04"
+            "id": "v02_04",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_04.mp3"
         },
         {
             "germanTerm": "die Nase",
@@ -194,7 +206,8 @@
                 "ur": "مریض کی ناک سے بہت خون بہہ رہا ہے۔",
                 "tr": "Hastanın burnu çok kanıyor."
             },
-            "id": "v02_05"
+            "id": "v02_05",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_05.mp3"
         },
         {
             "germanTerm": "der Mund",
@@ -217,7 +230,8 @@
                 "ur": "مہربانی فرما کر اپنا منہ کھولیں۔",
                 "tr": "Lütfen ağzınızı geniş açın."
             },
-            "id": "v02_06"
+            "id": "v02_06",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_06.mp3"
         },
         {
             "germanTerm": "der Arm",
@@ -240,7 +254,8 @@
                 "ur": "دایاں بازو ٹوٹ گیا ہے۔",
                 "tr": "Sağ kol kırık."
             },
-            "id": "v02_07"
+            "id": "v02_07",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_07.mp3"
         },
         {
             "germanTerm": "die Hand",
@@ -263,7 +278,8 @@
                 "ur": "مریض کے ہاتھ ٹھنڈے اور پسینے والے ہیں۔",
                 "tr": "Hastanın elleri soğuk ve nemli."
             },
-            "id": "v02_08"
+            "id": "v02_08",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_08.mp3"
         },
         {
             "germanTerm": "der Finger",
@@ -286,7 +302,8 @@
                 "ur": "اس نے اپنی انگلی کاٹ لی۔",
                 "tr": "Parmağını kesti."
             },
-            "id": "v02_09"
+            "id": "v02_09",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_09.mp3"
         },
         {
             "germanTerm": "das Bein",
@@ -309,7 +326,8 @@
                 "ur": "بایاں پاؤں سوجا ہوا ہے۔",
                 "tr": "Sol bacak şişmiş."
             },
-            "id": "v02_10"
+            "id": "v02_10",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_10.mp3"
         },
         {
             "germanTerm": "der Fuß",
@@ -332,7 +350,8 @@
                 "ur": "اس کے پاؤں میں موچ آ گئی ہے۔",
                 "tr": "Ayağını burktu."
             },
-            "id": "v02_11"
+            "id": "v02_11",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_11.mp3"
         },
         {
             "germanTerm": "die Haut",
@@ -355,7 +374,8 @@
                 "ur": "جلد خشک اور خارش دار ہے۔",
                 "tr": "Cilt kuru ve kaşıntılı."
             },
-            "id": "v02_12"
+            "id": "v02_12",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_12.mp3"
         },
         {
             "germanTerm": "die Stirn",
@@ -378,7 +398,8 @@
                 "ur": "مریض کی پیشانی ٹھنڈی ہے۔",
                 "tr": "Hastanın alnı soğuk."
             },
-            "id": "v02_13"
+            "id": "v02_13",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_13.mp3"
         },
         {
             "germanTerm": "die Wange",
@@ -401,7 +422,8 @@
                 "ur": "گال لال ہو گئے ہیں۔",
                 "tr": "Yanaklar kızarmış."
             },
-            "id": "v02_14"
+            "id": "v02_14",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_14.mp3"
         },
         {
             "germanTerm": "das Kinn",
@@ -424,7 +446,8 @@
                 "ur": "اس کی نوک دار ٹھوڑی ہے۔",
                 "tr": "Sivri bir çenesi var."
             },
-            "id": "v02_15"
+            "id": "v02_15",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_15.mp3"
         },
         {
             "germanTerm": "die Lippe",
@@ -447,7 +470,8 @@
                 "ur": "اُس کے ہونٹ خشک اور پھٹے ہوئے ہیں۔",
                 "tr": "Dudakları kuru ve çatlak."
             },
-            "id": "v02_16"
+            "id": "v02_16",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_16.mp3"
         },
         {
             "germanTerm": "die Zunge",
@@ -470,7 +494,8 @@
                 "ur": "زبان ڈھکی ہوئی ہے۔",
                 "tr": "Dil paslı."
             },
-            "id": "v02_17"
+            "id": "v02_17",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_17.mp3"
         },
         {
             "germanTerm": "der Ellbogen",
@@ -493,7 +518,8 @@
                 "ur": "کہنی سوجی ہوئی اور تکلیف دہ ہے۔",
                 "tr": "Dirsek şiş ve ağrılı."
             },
-            "id": "v02_18"
+            "id": "v02_18",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_18.mp3"
         },
         {
             "germanTerm": "das Handgelenk",
@@ -516,7 +542,8 @@
                 "ur": "کلائی مستحکم ہے۔",
                 "tr": "Bilek sabitlendi."
             },
-            "id": "v02_19"
+            "id": "v02_19",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_19.mp3"
         },
         {
             "germanTerm": "der Fingernagel",
@@ -539,7 +566,8 @@
                 "ur": "ناخن ٹوٹنے والے ہیں۔",
                 "tr": "Tırnaklar kırılgan."
             },
-            "id": "v02_20"
+            "id": "v02_20",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_20.mp3"
         },
         {
             "germanTerm": "das Knie",
@@ -562,7 +590,8 @@
                 "ur": "گھٹنا بری طرح سوج گیا ہے۔",
                 "tr": "Diz çok şişmiş."
             },
-            "id": "v02_21"
+            "id": "v02_21",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_21.mp3"
         },
         {
             "germanTerm": "der Knöchel",
@@ -585,7 +614,8 @@
                 "ur": "ٹخنے میں موچ آ گئی ہے۔",
                 "tr": "Ayak bileği burkuldu."
             },
-            "id": "v02_22"
+            "id": "v02_22",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_22.mp3"
         },
         {
             "germanTerm": "der Zeh",
@@ -608,7 +638,8 @@
                 "ur": "اُس نے اپنے پیر کی انگلی توڑ لی۔",
                 "tr": "Ayak parmağını kırdı."
             },
-            "id": "v02_23"
+            "id": "v02_23",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_23.mp3"
         },
         {
             "germanTerm": "die Ferse",
@@ -631,7 +662,8 @@
                 "ur": "اسے ایڑی میں درد ہے۔",
                 "tr": "Topuğunda ağrısı var."
             },
-            "id": "v02_24"
+            "id": "v02_24",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_24.mp3"
         },
         {
             "germanTerm": "das Haar",
@@ -654,7 +686,8 @@
                 "ur": "بال پتلے اور ٹوٹنے والے ہیں۔",
                 "tr": "Saç ince ve kırılgan."
             },
-            "id": "v02_25"
+            "id": "v02_25",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_25.mp3"
         },
         {
             "germanTerm": "die Augenbraue",
@@ -677,7 +710,8 @@
                 "ur": "ابرو گھنے اور جھاڑی دار ہیں۔",
                 "tr": "Kaşlar kalın ve gür."
             },
-            "id": "v02_26"
+            "id": "v02_26",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_26.mp3"
         },
         {
             "germanTerm": "das Augenlid",
@@ -700,7 +734,8 @@
                 "ur": "پلک سوجی ہوئی ہے۔",
                 "tr": "Göz kapağı şişmiş."
             },
-            "id": "v02_27"
+            "id": "v02_27",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_27.mp3"
         },
         {
             "germanTerm": "die Pupille",
@@ -723,7 +758,8 @@
                 "ur": "پتلیاں روشنی کے لیے سست ردعمل کا مظاہرہ کرتی ہیں۔",
                 "tr": "Göz bebekleri ışığa yavaş tepki veriyor."
             },
-            "id": "v02_28"
+            "id": "v02_28",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_28.mp3"
         },
         {
             "germanTerm": "die Narbe",
@@ -746,7 +782,8 @@
                 "ur": "نشان اچھی طرح ٹھیک ہو گیا ہے۔",
                 "tr": "Yara izi iyi iyileşmiş."
             },
-            "id": "v02_29"
+            "id": "v02_29",
+            "audioUrl": "assets/audio/sections/section_02/vocabulary/v02_29.mp3"
         }
     ],
     "dialogues": [
@@ -776,7 +813,8 @@
                         "hi": "शुभ दिन, श्रीमान मुलर। आपके सिर में दर्द कहाँ हो रहा है?",
                         "ur": "شب بخیر، مسٹر مولر۔ آپ کے سر میں درد کہاں ہو رہا ہے؟",
                         "tr": "İyi günler Bay Müller. Başınızda tam olarak nerede ağrınız var?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_01_line1.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -788,7 +826,8 @@
                         "hi": "यहाँ, सीधे आँख के ऊपर और माथे पर।",
                         "ur": "یہاں، براہ راست آنکھ کے اوپر اور پیشانی پر۔",
                         "tr": "Burada, doğrudan gözün üzerinde ve alnımda."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_01_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -800,7 +839,8 @@
                         "hi": "मैं इसे महसूस करूँगा। क्या यहाँ दबाने पर दर्द होता है?",
                         "ur": "میں اسے محسوس کروں گا۔ کیا یہاں دبانے پر درد ہوتا ہے؟",
                         "tr": "Şimdi yoklayacağım. Buraya bastırdığımda acıyor mu?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_01_line3.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -812,7 +852,8 @@
                         "hi": "हाँ, बहुत।",
                         "ur": "ہاں، بہت زیادہ۔",
                         "tr": "Evet, çok."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_01_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -824,7 +865,8 @@
                         "hi": "मुझे एक छोटी सी सूजन भी दिख रही है। हम सिर का सीटी स्कैन करेंगे।",
                         "ur": "مجھے ایک چھوٹی سی سوجن بھی نظر آرہی ہے۔ ہم سر کا سی ٹی سکین کریں گے۔",
                         "tr": "Ayrıca küçük bir şişlik de görüyorum. Başın BT taramasını yapacağız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_01_line5.mp3"
                 }
             ],
             "id": "d02_01"
@@ -855,7 +897,8 @@
                         "hi": "हेलो, लिसा। दर्द कहाँ हो रहा है?",
                         "ur": "ہیلو، لیزا۔ درد کہاں ہو رہا ہے؟",
                         "tr": "Merhaba Lisa. Neresi ağrıyor?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_02_line1.mp3"
                 },
                 {
                     "speaker": "Lisa",
@@ -867,7 +910,8 @@
                         "hi": "मेरे कान में दर्द हो रहा है।",
                         "ur": "میرے کان میں درد ہو رہا ہے۔",
                         "tr": "Kulağım ağrıyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_02_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -879,7 +923,8 @@
                         "hi": "मुझे दिखाओ। ओह, कान लाल हो गया है। क्या आपको बुखार भी है?",
                         "ur": "مجھے دکھاو۔ اوہ، کان سرخ ہو گیا ہے۔ کیا تمہیں بخار بھی ہے؟",
                         "tr": "Göster bakalım. Oh, kulak kızarmış. Ateşin de var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_02_line3.mp3"
                 },
                 {
                     "speaker": "Mutter von Lisa",
@@ -891,7 +936,8 @@
                         "hi": "हाँ, कल शाम उसे 38.5 डिग्री था।",
                         "ur": "ہاں، کل شام اسے 38.5 ڈگری تھا۔",
                         "tr": "Evet, dün akşam 38.5 dereceydi."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_02_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -903,7 +949,8 @@
                         "hi": "यह मध्य कान का संक्रमण लगता है। मैं एंटीबायोटिक्स लिखूंगा।",
                         "ur": "یہ درمیانی کان کا انفیکشن لگتا ہے۔ میں اینٹی بائیوٹکس لکھوں گا۔",
                         "tr": "Orta kulak enfeksiyonuna benziyor. Antibiyotik yazacağım."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_02_line5.mp3"
                 }
             ],
             "id": "d02_02"
@@ -934,7 +981,8 @@
                         "hi": "मेरी बांह पर ये चकत्ते हैं। इसमें बहुत खुजली होती है।",
                         "ur": "میری بازو پر یہ دانے ہیں۔ اس میں بہت خارش ہوتی ہے۔",
                         "tr": "Kolumda bu döküntü var. Çok kaşınıyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_03_line1.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -946,7 +994,8 @@
                         "hi": "आपको चकत्ते कब से हैं?",
                         "ur": "آپ کو دانے کب سے ہیں؟",
                         "tr": "Döküntünüz ne zamandır var?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_03_line2.mp3"
                 },
                 {
                     "speaker": "Patient Schneider",
@@ -958,7 +1007,8 @@
                         "hi": "लगभग तीन दिनों से।",
                         "ur": "تقریباً تین دنوں سے۔",
                         "tr": "Yaklaşık üç gündür."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_03_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -970,7 +1020,8 @@
                         "hi": "मैं देखता हूँ, छोटे लाल धब्बे हैं। क्या आपने नया डिटर्जेंट इस्तेमाल किया है?",
                         "ur": "میں دیکھ رہا ہوں، چھوٹے سرخ دھبے ہیں۔ کیا آپ نے نیا ڈٹرجنٹ استعمال کیا ہے؟",
                         "tr": "Görüyorum, küçük kırmızı noktalar var. Yeni deterjan mı kullandınız?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_03_line4.mp3"
                 },
                 {
                     "speaker": "Patient Schneider",
@@ -982,7 +1033,8 @@
                         "hi": "हाँ, यह संभव है। मैं एक नया डिटर्जेंट आज़मा रहा हूँ।",
                         "ur": "ہاں، یہ ممکن ہے۔ میں ایک نیا ڈٹرجنٹ آزما رہا ہوں۔",
                         "tr": "Evet, mümkün. Yeni bir deterjan deniyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_03_line5.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -994,7 +1046,8 @@
                         "hi": "शायद यह एक एलर्जी प्रतिक्रिया है। मैं आपको एक क्रीम लिख दूंगा।",
                         "ur": "شاید یہ ایک الرجی ردعمل ہے۔ میں آپ کو ایک کریم لکھ دوں گا۔",
                         "tr": "Muhtemelen alerjik bir reaksiyon. Size bir krem reçete edeceğim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_03_line6.mp3"
                 }
             ],
             "id": "d02_03"
@@ -1025,7 +1078,8 @@
                         "hi": "मुझे फुटबॉल खेलते समय पैर में मोच आ गई।",
                         "ur": "فٹ بال کھیلتے ہوئے میرے پاؤں میں موچ آ گئی ہے۔",
                         "tr": "Futbol oynarken ayağımı burktum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_04_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -1037,7 +1091,8 @@
                         "hi": "मुझे दिखाओ। दर्द ठीक कहाँ हो रहा है?",
                         "ur": "مجھے دکھاو۔ درد ٹھیک کہاں ہو رہا ہے؟",
                         "tr": "Göster bakalım. Tam olarak nerede ağrıyor?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_04_line2.mp3"
                 },
                 {
                     "speaker": "Patient Klein",
@@ -1049,7 +1104,8 @@
                         "hi": "यहाँ, टखने पर।",
                         "ur": "یہاں، ٹخنے پر۔",
                         "tr": "Burada, ayak bileğinde."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_04_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -1061,7 +1117,8 @@
                         "hi": "यह सूज गया है। क्या आप अपना पैर हिला सकते हैं?",
                         "ur": "یہ سوج گیا ہے۔ کیا آپ اپنا پاؤں ہلا سکتے ہیں؟",
                         "tr": "Şişmiş. Ayağınızı hareket ettirebiliyor musunuz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_04_line4.mp3"
                 },
                 {
                     "speaker": "Patient Klein",
@@ -1073,7 +1130,8 @@
                         "hi": "केवल दर्द के साथ।",
                         "ur": "صرف درد کے ساتھ۔",
                         "tr": "Sadece acıyla."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_04_line5.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -1085,7 +1143,8 @@
                         "hi": "हम फ्रैक्चर को खारिज करने के लिए एक एक्स-रे करेंगे।",
                         "ur": "ہم فریکچر کو مسترد کرنے کے لیے ایک ایکس رے کریں گے۔",
                         "tr": "Kırığı ekarte etmek için röntgen çekeceğiz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_04_line6.mp3"
                 }
             ],
             "id": "d02_04"
@@ -1116,7 +1175,8 @@
                         "hi": "मैंने चाकू से अपनी उंगली काट ली।",
                         "ur": "میں نے چاقو سے اپنی انگلی کاٹ لی۔",
                         "tr": "Bıçağımla parmağımı kestim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_05_line1.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -1128,7 +1188,8 @@
                         "hi": "यह गहरा लग रहा है। हमें इसे कीटाणुरहित करने की आवश्यकता है।",
                         "ur": "یہ گہرا لگ رہا ہے۔ ہمیں اسے جراثیم کشی کرنے کی ضرورت ہے۔",
                         "tr": "Derin görünüyor. Dezenfekte etmemiz gerekiyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_05_line2.mp3"
                 },
                 {
                     "speaker": "Patient Becker",
@@ -1140,7 +1201,8 @@
                         "hi": "क्या इससे दर्द होगा?",
                         "ur": "کیا اس سے درد ہوگا؟",
                         "tr": "Acıtacak mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_05_line3.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -1152,7 +1214,8 @@
                         "hi": "यह शायद थोड़े समय के लिए चुभेगा। लेकिन यह साफ होना चाहिए।",
                         "ur": "یہ شاید تھوڑی دیر کے لیے ڈنگ مارے گا۔ لیکن یہ صاف ہونا چاہیے۔",
                         "tr": "Belki kısa bir süre yanabilir. Ama temiz olması gerekiyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_05_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -1164,7 +1227,8 @@
                         "hi": "तो, अब एक पट्टी। अगर इसमें सूजन हो जाती है, तो वापस आएं।",
                         "ur": "تو، اب ایک پٹی۔ اگر اس میں سوزش ہو جاتی ہے، تو واپس آئیں۔",
                         "tr": "İşte, şimdi bir bandaj. Eğer iltihaplanırsa, tekrar gelin."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_05_line5.mp3"
                 },
                 {
                     "speaker": "Patient Becker",
@@ -1176,7 +1240,8 @@
                         "hi": "बहुत बहुत धन्यवाद!",
                         "ur": "بہت بہت شکریہ!",
                         "tr": "Çok teşekkür ederim!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_02/dialogues/d02_05_line6.mp3"
                 }
             ],
             "id": "d02_05"

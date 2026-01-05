@@ -32,30 +32,12 @@
             "tr": "Bu modülde, çeşitli radyolojik görüntüleme yöntemlerini ve bunların klinik teşhiste uygulamalarını inceleyeceğiz. Tıbbi bir bağlamda bu teknikleri Almanca olarak nasıl etkili bir şekilde anlayacağınızı ve iletişim kuracağınızı öğreneceksiniz."
         },
         "grammarFocus": {
-            "en": {
-                "bullet1": "Use of compound nouns (e.g., 'Röntgenaufnahme' for X-ray image)",
-                "bullet2": "Accusative and dative case when describing the location or direction of the imaging (e.g., 'im CT' vs. 'ins CT')"
-            },
-            "de": {
-                "bullet1": "Verwendung von zusammengesetzten Nomen (z.B. 'Röntgenaufnahme' für Röntgenbild)",
-                "bullet2": "Akkusativ und Dativ bei der Beschreibung des Ortes oder der Richtung der Bildgebung (z.B. 'im CT' vs. 'ins CT')"
-            },
-            "bn": {
-                "bullet1": "যৌগিক বিশেষ্য ব্যবহার (যেমন, এক্স-রে চিত্রের জন্য 'Röntgenaufnahme')",
-                "bullet2": "ইমেজিংয়ের অবস্থান বা দিক বর্ণনার সময় অভিযুক্ত এবং কর্ম কারক ব্যবহার (যেমন, 'CT-তে' বনাম 'সিটি-এর মধ্যে')"
-            },
-            "hi": {
-                "bullet1": "यौगिक संज्ञाओं का उपयोग (जैसे, एक्स-रे छवि के लिए 'Röntgenaufnahme')",
-                "bullet2": "इमेजिंग के स्थान या दिशा का वर्णन करते समय कर्म और संप्रदान कारक (जैसे, 'सीटी में' बनाम 'सीटी में')"
-            },
-            "ur": {
-                "bullet1": "مرکب اسموں کا استعمال (مثال کے طور پر، ایکس رے امیج کے لیے 'Röntgenaufnahme')",
-                "bullet2": "امیجنگ کے مقام یا سمت کو بیان کرتے وقت معطوف اور مفعولی حالت (مثال کے طور پر، 'CT میں' بمقابلہ 'CT میں')"
-            },
-            "tr": {
-                "bullet1": "Bileşik isimlerin kullanımı (örneğin, Röntgen görüntüsü için 'Röntgenaufnahme')",
-                "bullet2": "Görüntülemenin konumunu veya yönünü açıklarken belirtme ve yönelme halleri (örneğin, 'im CT' vs. 'ins CT')"
-            }
+            "en": "**Imaging Results: Passive Voice and Medical Descriptions**\n\nDescribing imaging results (X-ray, CT, MRI) requires passive constructions and precise terminology.\n\n*Passive Voice in Radiology Reports:*\n- 'Es wurde ein Röntgenbild angefertigt.' (An X-ray was taken.)\n- 'Im CT zeigt sich eine Raumforderung.' (A mass is seen in the CT.)\n- 'Das MRT wurde durchgeführt.' (The MRI was performed.)\n\n**Passive Constructions with 'werden' and 'sein':**\n| Type | Structure | Example |\n|------|-----------|---------|\n| Process | werden + Partizip II | Das Bild wird befundet. |\n| State | sein + Partizip II | Der Befund ist erstellt. |\n\n*Describing Findings:*\n- 'Es zeigt sich...' (It shows...)\n- 'Es stellt sich dar...' (It presents as...)\n- 'Es lässt sich erkennen...' (It can be recognized...)\n- 'Es findet sich...' (There is found...)\n\n**Location Prepositions in Imaging:**\n| Preposition | Case | Example |\n|-------------|------|---------|\n| in | Dative | in der rechten Lunge |\n| an | Dative | an der Wirbelsäule |\n| auf | Dative | auf dem Röntgenbild |\n| oberhalb | Genitive | oberhalb des Zwerchfells |\n| unterhalb | Genitive | unterhalb der Rippen |\n\n*Common Imaging Vocabulary:*\n- 'der Schatten' (shadow) → 'Im Röntgenbild zeigt sich ein Schatten.'\n- 'die Verdichtung' (consolidation) → 'eine pulmonale Verdichtung'\n- 'die Raumforderung' (mass/lesion) → 'eine unklare Raumforderung'\n- 'der Normalbefund' (normal finding) → 'Das MRT ergibt einen Normalbefund.'",
+            "de": "**Bildgebende Befunde: Passiv und medizinische Beschreibungen**\n\nDie Beschreibung bildgebender Befunde (Röntgen, CT, MRT) erfordert Passivkonstruktionen und präzise Terminologie.\n\n*Passiv in Radiologieberichten:*\n- 'Es wurde ein Röntgenbild angefertigt.'\n- 'Im CT zeigt sich eine Raumforderung.'\n- 'Das MRT wurde durchgeführt.'\n\n**Passivkonstruktionen mit 'werden' und 'sein':**\n| Typ | Struktur | Beispiel |\n|-----|----------|----------|\n| Vorgang | werden + Partizip II | Das Bild wird befundet. |\n| Zustand | sein + Partizip II | Der Befund ist erstellt. |\n\n*Befunde beschreiben:*\n- 'Es zeigt sich...'\n- 'Es stellt sich dar...'\n- 'Es lässt sich erkennen...'\n- 'Es findet sich...'\n\n**Ortspräpositionen in der Bildgebung:**\n| Präposition | Fall | Beispiel |\n|-------------|------|----------|\n| in | Dativ | in der rechten Lunge |\n| an | Dativ | an der Wirbelsäule |\n| auf | Dativ | auf dem Röntgenbild |\n| oberhalb | Genitiv | oberhalb des Zwerchfells |\n| unterhalb | Genitiv | unterhalb der Rippen |\n\n*Häufiges Bildgebungsvokabular:*\n- 'der Schatten' → 'Im Röntgenbild zeigt sich ein Schatten.'\n- 'die Verdichtung' → 'eine pulmonale Verdichtung'\n- 'die Raumforderung' → 'eine unklare Raumforderung'\n- 'der Normalbefund' → 'Das MRT ergibt einen Normalbefund.'",
+            "bn": "**Imaging Results: Passive Voice and Medical Descriptions**\n\nDescribing imaging results (X-ray, CT, MRI) requires passive constructions and precise terminology.\n\n*Passive Voice in Radiology Reports:*\n- 'Es wurde ein Röntgenbild angefertigt.' (An X-ray was taken.)\n- 'Im CT zeigt sich eine Raumforderung.' (A mass is seen in the CT.)\n- 'Das MRT wurde durchgeführt.' (The MRI was performed.)\n\n**Passive Constructions with 'werden' and 'sein':**\n| Type | Structure | Example |\n|------|-----------|---------|\n| Process | werden + Partizip II | Das Bild wird befundet. |\n| State | sein + Partizip II | Der Befund ist erstellt. |\n\n*Describing Findings:*\n- 'Es zeigt sich...' (It shows...)\n- 'Es stellt sich dar...' (It presents as...)\n- 'Es lässt sich erkennen...' (It can be recognized...)\n- 'Es findet sich...' (There is found...)\n\n**Location Prepositions in Imaging:**\n| Preposition | Case | Example |\n|-------------|------|---------|\n| in | Dative | in der rechten Lunge |\n| an | Dative | an der Wirbelsäule |\n| auf | Dative | auf dem Röntgenbild |\n| oberhalb | Genitive | oberhalb des Zwerchfells |\n| unterhalb | Genitive | unterhalb der Rippen |\n\n*Common Imaging Vocabulary:*\n- 'der Schatten' (shadow) → 'Im Röntgenbild zeigt sich ein Schatten.'\n- 'die Verdichtung' (consolidation) → 'eine pulmonale Verdichtung'\n- 'die Raumforderung' (mass/lesion) → 'eine unklare Raumforderung'\n- 'der Normalbefund' (normal finding) → 'Das MRT ergibt einen Normalbefund.'",
+            "hi": "**Imaging Results: Passive Voice and Medical Descriptions**\n\nDescribing imaging results (X-ray, CT, MRI) requires passive constructions and precise terminology.\n\n*Passive Voice in Radiology Reports:*\n- 'Es wurde ein Röntgenbild angefertigt.' (An X-ray was taken.)\n- 'Im CT zeigt sich eine Raumforderung.' (A mass is seen in the CT.)\n- 'Das MRT wurde durchgeführt.' (The MRI was performed.)\n\n**Passive Constructions with 'werden' and 'sein':**\n| Type | Structure | Example |\n|------|-----------|---------|\n| Process | werden + Partizip II | Das Bild wird befundet. |\n| State | sein + Partizip II | Der Befund ist erstellt. |\n\n*Describing Findings:*\n- 'Es zeigt sich...' (It shows...)\n- 'Es stellt sich dar...' (It presents as...)\n- 'Es lässt sich erkennen...' (It can be recognized...)\n- 'Es findet sich...' (There is found...)\n\n**Location Prepositions in Imaging:**\n| Preposition | Case | Example |\n|-------------|------|---------|\n| in | Dative | in der rechten Lunge |\n| an | Dative | an der Wirbelsäule |\n| auf | Dative | auf dem Röntgenbild |\n| oberhalb | Genitive | oberhalb des Zwerchfells |\n| unterhalb | Genitive | unterhalb der Rippen |\n\n*Common Imaging Vocabulary:*\n- 'der Schatten' (shadow) → 'Im Röntgenbild zeigt sich ein Schatten.'\n- 'die Verdichtung' (consolidation) → 'eine pulmonale Verdichtung'\n- 'die Raumforderung' (mass/lesion) → 'eine unklare Raumforderung'\n- 'der Normalbefund' (normal finding) → 'Das MRT ergibt einen Normalbefund.'",
+            "ur": "**Imaging Results: Passive Voice and Medical Descriptions**\n\nDescribing imaging results (X-ray, CT, MRI) requires passive constructions and precise terminology.\n\n*Passive Voice in Radiology Reports:*\n- 'Es wurde ein Röntgenbild angefertigt.' (An X-ray was taken.)\n- 'Im CT zeigt sich eine Raumforderung.' (A mass is seen in the CT.)\n- 'Das MRT wurde durchgeführt.' (The MRI was performed.)\n\n**Passive Constructions with 'werden' and 'sein':**\n| Type | Structure | Example |\n|------|-----------|---------|\n| Process | werden + Partizip II | Das Bild wird befundet. |\n| State | sein + Partizip II | Der Befund ist erstellt. |\n\n*Describing Findings:*\n- 'Es zeigt sich...' (It shows...)\n- 'Es stellt sich dar...' (It presents as...)\n- 'Es lässt sich erkennen...' (It can be recognized...)\n- 'Es findet sich...' (There is found...)\n\n**Location Prepositions in Imaging:**\n| Preposition | Case | Example |\n|-------------|------|---------|\n| in | Dative | in der rechten Lunge |\n| an | Dative | an der Wirbelsäule |\n| auf | Dative | auf dem Röntgenbild |\n| oberhalb | Genitive | oberhalb des Zwerchfells |\n| unterhalb | Genitive | unterhalb der Rippen |\n\n*Common Imaging Vocabulary:*\n- 'der Schatten' (shadow) → 'Im Röntgenbild zeigt sich ein Schatten.'\n- 'die Verdichtung' (consolidation) → 'eine pulmonale Verdichtung'\n- 'die Raumforderung' (mass/lesion) → 'eine unklare Raumforderung'\n- 'der Normalbefund' (normal finding) → 'Das MRT ergibt einen Normalbefund.'",
+            "tr": "**Imaging Results: Passive Voice and Medical Descriptions**\n\nDescribing imaging results (X-ray, CT, MRI) requires passive constructions and precise terminology.\n\n*Passive Voice in Radiology Reports:*\n- 'Es wurde ein Röntgenbild angefertigt.' (An X-ray was taken.)\n- 'Im CT zeigt sich eine Raumforderung.' (A mass is seen in the CT.)\n- 'Das MRT wurde durchgeführt.' (The MRI was performed.)\n\n**Passive Constructions with 'werden' and 'sein':**\n| Type | Structure | Example |\n|------|-----------|---------|\n| Process | werden + Partizip II | Das Bild wird befundet. |\n| State | sein + Partizip II | Der Befund ist erstellt. |\n\n*Describing Findings:*\n- 'Es zeigt sich...' (It shows...)\n- 'Es stellt sich dar...' (It presents as...)\n- 'Es lässt sich erkennen...' (It can be recognized...)\n- 'Es findet sich...' (There is found...)\n\n**Location Prepositions in Imaging:**\n| Preposition | Case | Example |\n|-------------|------|---------|\n| in | Dative | in der rechten Lunge |\n| an | Dative | an der Wirbelsäule |\n| auf | Dative | auf dem Röntgenbild |\n| oberhalb | Genitive | oberhalb des Zwerchfells |\n| unterhalb | Genitive | unterhalb der Rippen |\n\n*Common Imaging Vocabulary:*\n- 'der Schatten' (shadow) → 'Im Röntgenbild zeigt sich ein Schatten.'\n- 'die Verdichtung' (consolidation) → 'eine pulmonale Verdichtung'\n- 'die Raumforderung' (mass/lesion) → 'eine unklare Raumforderung'\n- 'der Normalbefund' (normal finding) → 'Das MRT ergibt einen Normalbefund.'"
         },
         "culturalNotes": {
             "en": "In German hospitals, the radiologist plays a crucial role in diagnosis, often consulting directly with other specialists to interpret imaging results and guide patient care.",
@@ -73,12 +55,38 @@
             "ur": "یہ سیکشن ریڈیولاجیکل امیجنگ تکنیک اور متعلقہ جرمن طبی اصطلاحات کی بنیادی سمجھ فراہم کرتا ہے۔",
             "tr": "Bu bölüm, radyolojik görüntüleme teknikleri ve ilgili Almanca tıbbi terminolojisi hakkında temel bir anlayış sağlar."
         },
-        "learningObjectives": [
-            "Identify and describe common radiological imaging techniques.",
-            "Understand and use German medical terminology related to radiology.",
-            "Interpret basic radiological findings in German.",
-            "Communicate effectively with German-speaking medical professionals about imaging results."
-        ]
+        "learningObjectives": {
+            "en": [
+                "Identify and describe common radiological imaging techniques.",
+                "Understand and use German medical terminology related to radiology.",
+                "Interpret basic radiological findings in German.",
+                "Communicate effectively with German-speaking medical professionals about imaging results."
+            ],
+            "bn": [
+                "Identify and describe common radiological imaging techniques.",
+                "বুঝুন and use German medical terminology related to radiology.",
+                "Interpret basic radiological findings in German.",
+                "Communicate effectively with German-speaking medical professionals about imaging results."
+            ],
+            "hi": [
+                "Identify and describe common radiological imaging techniques.",
+                "समझें and use German medical terminology related to radiology.",
+                "Interpret basic radiological findings in German.",
+                "Communicate effectively with German-speaking medical professionals about imaging results."
+            ],
+            "ur": [
+                "Identify and describe common radiological imaging techniques.",
+                "سمجھیں and use German medical terminology related to radiology.",
+                "Interpret basic radiological findings in German.",
+                "Communicate effectively with German-speaking medical professionals about imaging results."
+            ],
+            "tr": [
+                "Identify and describe common radiological imaging techniques.",
+                "Anlayın and use German medical terminology related to radiology.",
+                "Interpret basic radiological findings in German.",
+                "Communicate effectively with German-speaking medical professionals about imaging results."
+            ]
+        }
     },
     "vocabulary": [
         {
@@ -102,7 +110,8 @@
                 "ur": "سینے کی ایکس رے میں ہلکی دراندازی دکھائی دیتی ہے۔",
                 "tr": "Göğüs röntgeni hafif bir infiltrasyon gösteriyor."
             },
-            "id": "v20_01"
+            "id": "v20_01",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_01.mp3"
         },
         {
             "germanTerm": "die Computertomographie (CT)",
@@ -125,7 +134,8 @@
                 "ur": "مزید وضاحت کے لیے ہمیں پیٹ کے سی ٹی اسکین کی ضرورت ہے۔",
                 "tr": "Daha fazla açıklama için karın bölgesinin BT taramasına ihtiyacımız var."
             },
-            "id": "v20_02"
+            "id": "v20_02",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_02.mp3"
         },
         {
             "germanTerm": "die Magnetresonanztomographie (MRT)",
@@ -148,7 +158,8 @@
                 "ur": "گھٹنے کے ایم آر آئی میں مینسکس کا آنسو دیکھا گیا۔",
                 "tr": "Dizin MRG'si menisküs yırtığı gösterdi."
             },
-            "id": "v20_03"
+            "id": "v20_03",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_03.mp3"
         },
         {
             "germanTerm": "der Ultraschall",
@@ -171,7 +182,8 @@
                 "ur": "الٹراساؤنڈ نے حمل کی تصدیق کردی۔",
                 "tr": "Ultrason hamileliği doğruladı."
             },
-            "id": "v20_04"
+            "id": "v20_04",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_04.mp3"
         },
         {
             "germanTerm": "das Kontrastmittel",
@@ -194,7 +206,8 @@
                 "ur": "ہمیں مریض کو کنٹراسٹ میڈیم دینا ہوگا۔",
                 "tr": "Hastaya kontrast madde uygulamamız gerekiyor."
             },
-            "id": "v20_05"
+            "id": "v20_05",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_05.mp3"
         },
         {
             "germanTerm": "der Befund",
@@ -217,7 +230,8 @@
                 "ur": "ریڈیولاجیکل تلاش قابل ذکر ہے۔",
                 "tr": "Radyolojik bulgu dikkat çekici değil."
             },
-            "id": "v20_06"
+            "id": "v20_06",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_06.mp3"
         },
         {
             "germanTerm": "die Aufnahme",
@@ -240,7 +254,8 @@
                 "ur": "براہ کرم ایک نئی تصویر لیں۔",
                 "tr": "Lütfen yeni bir görüntü alın."
             },
-            "id": "v20_07"
+            "id": "v20_07",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_07.mp3"
         },
         {
             "germanTerm": "röntgen",
@@ -263,7 +278,8 @@
                 "ur": "تشخیص کی تصدیق کے لیے ہمیں مریض کا ایکسرے کرنا ہوگا۔",
                 "tr": "Teşhisi doğrulamak için hastanın röntgenini çekmemiz gerekiyor."
             },
-            "id": "v20_08"
+            "id": "v20_08",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_08.mp3"
         },
         {
             "germanTerm": "die Strahlenbelastung",
@@ -286,7 +302,8 @@
                 "ur": "تابکاری کی نمائش کو جتنا ممکن ہو کم رکھنا چاہیے۔",
                 "tr": "Radyasyon maruziyeti mümkün olduğunca düşük tutulmalıdır."
             },
-            "id": "v20_09"
+            "id": "v20_09",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_09.mp3"
         },
         {
             "germanTerm": "die Projektion",
@@ -309,7 +326,8 @@
                 "ur": "تصویر کو انٹیریئر-پوسٹریئر پروجیکشن میں لیا گیا تھا۔",
                 "tr": "Görüntü ön-arka projeksiyonda çekildi."
             },
-            "id": "v20_10"
+            "id": "v20_10",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_10.mp3"
         },
         {
             "germanTerm": "die Dosis",
@@ -332,7 +350,8 @@
                 "ur": "کنٹراسٹ میڈیم کی خوراک کو ایڈجسٹ کرنے کی ضرورت ہے۔",
                 "tr": "Kontrast maddenin dozu ayarlanmalıdır."
             },
-            "id": "v20_11"
+            "id": "v20_11",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_11.mp3"
         },
         {
             "germanTerm": "die Indikation",
@@ -355,7 +374,8 @@
                 "ur": "سی ٹی اسکین کے لیے ایک واضح اشارہ موجود ہے۔",
                 "tr": "BT taraması için açık bir endikasyon var."
             },
-            "id": "v20_12"
+            "id": "v20_12",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_12.mp3"
         },
         {
             "germanTerm": "die Kontraindikation",
@@ -378,7 +398,8 @@
                 "ur": "کنٹراسٹ میڈیم کے انتظام کے لیے ایک contraindication ہے۔",
                 "tr": "Kontrast madde uygulaması için bir kontrendikasyon vardır."
             },
-            "id": "v20_13"
+            "id": "v20_13",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_13.mp3"
         },
         {
             "germanTerm": "die Schicht",
@@ -401,7 +422,8 @@
                 "ur": "ہم سی ٹی اسکین کے سلائسس کا احتیاط سے جائزہ لے رہے ہیں۔",
                 "tr": "BT taramasının dilimlerini dikkatlice inceliyoruz."
             },
-            "id": "v20_14"
+            "id": "v20_14",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_14.mp3"
         },
         {
             "germanTerm": "die Beurteilung",
@@ -424,7 +446,8 @@
                 "ur": "ایکس رے کی تشخیص ریڈیولوجسٹ کے ذریعہ کی جاتی ہے۔",
                 "tr": "Röntgenlerin değerlendirilmesi radyolog tarafından yapılır."
             },
-            "id": "v20_15"
+            "id": "v20_15",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_15.mp3"
         },
         {
             "germanTerm": "auffällig",
@@ -447,7 +470,8 @@
                 "ur": "تلاش قابل ذکر ہے، کوئی غیر معمولی چیز نہیں ہے۔",
                 "tr": "Bulgu dikkat çekici değil, herhangi bir anormallik yok."
             },
-            "id": "v20_16"
+            "id": "v20_16",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_16.mp3"
         },
         {
             "germanTerm": "die Diagnose",
@@ -470,7 +494,8 @@
                 "ur": "ریڈیولاجیکل معائنہ تشخیص کرنے میں مدد کرتا ہے۔",
                 "tr": "Radyolojik muayene teşhis koymaya yardımcı olur."
             },
-            "id": "v20_17"
+            "id": "v20_17",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_17.mp3"
         },
         {
             "germanTerm": "die Therapie",
@@ -493,7 +518,8 @@
                 "ur": "تھراپی ریڈیولاجیکل تلاش پر منحصر ہے۔",
                 "tr": "Tedavi radyolojik bulguya bağlıdır."
             },
-            "id": "v20_18"
+            "id": "v20_18",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_18.mp3"
         },
         {
             "germanTerm": "die Anatomie",
@@ -516,7 +542,8 @@
                 "ur": "تشریح کا اچھا علم ریڈیولوجی کے لیے ضروری ہے۔",
                 "tr": "Anatomi bilgisi radyoloji için şarttır."
             },
-            "id": "v20_19"
+            "id": "v20_19",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_19.mp3"
         },
         {
             "germanTerm": "die Pathologie",
@@ -539,7 +566,8 @@
                 "ur": "پیتھالوجی حمیدہ اور مہلک نتائج کے درمیان فرق کرنے میں مدد کرتی ہے۔",
                 "tr": "Patoloji, iyi huylu ve kötü huylu bulguları ayırt etmeye yardımcı olur."
             },
-            "id": "v20_20"
+            "id": "v20_20",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_20.mp3"
         },
         {
             "germanTerm": "die Aufnahmequalität",
@@ -562,7 +590,8 @@
                 "ur": "تشخیص کے لیے تصویر کا معیار بہت اہم ہے۔",
                 "tr": "Görüntü kalitesi değerlendirme için çok önemlidir."
             },
-            "id": "v20_21"
+            "id": "v20_21",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_21.mp3"
         },
         {
             "germanTerm": "die Strahlendosis",
@@ -585,7 +614,8 @@
                 "ur": "تابکاری کی خوراک کو جتنا ممکن ہو کم رکھا گیا تھا۔",
                 "tr": "Radyasyon dozu mümkün olduğunca düşük tutuldu."
             },
-            "id": "v20_22"
+            "id": "v20_22",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_22.mp3"
         },
         {
             "germanTerm": "radiologisch",
@@ -608,7 +638,8 @@
                 "ur": "ریڈیولاجیکل معائنے میں کوئی غیر معمولی چیز نہیں پائی گئی۔",
                 "tr": "Radyolojik muayene herhangi bir anormallik ortaya çıkarmadı."
             },
-            "id": "v20_23"
+            "id": "v20_23",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_23.mp3"
         },
         {
             "germanTerm": "darstellen",
@@ -631,7 +662,8 @@
                 "ur": "تصویر فیمر کے فریکچر کو ظاہر کرتی ہے۔",
                 "tr": "Görüntü femur kırığını tasvir ediyor."
             },
-            "id": "v20_24"
+            "id": "v20_24",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_24.mp3"
         },
         {
             "germanTerm": "der Radiologe",
@@ -654,7 +686,8 @@
                 "ur": "ریڈیولوجسٹ ایکسرے کی تشریح کرتے ہیں۔",
                 "tr": "Radyolog röntgenleri yorumlar."
             },
-            "id": "v20_25"
+            "id": "v20_25",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_25.mp3"
         },
         {
             "germanTerm": "die Sonographie",
@@ -677,7 +710,8 @@
                 "ur": "سونگرافی ایک غیر ناگوار معائنہ کا طریقہ ہے۔",
                 "tr": "Sonografi, invaziv olmayan bir muayene yöntemidir."
             },
-            "id": "v20_26"
+            "id": "v20_26",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_26.mp3"
         },
         {
             "germanTerm": "verabreichen",
@@ -700,7 +734,8 @@
                 "ur": "ہم مریض کو نس کے ذریعے کنٹراسٹ میڈیم فراہم کرتے ہیں۔",
                 "tr": "Hastaya kontrast maddeyi intravenöz olarak veriyoruz."
             },
-            "id": "v20_27"
+            "id": "v20_27",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_27.mp3"
         },
         {
             "germanTerm": "die Zyste",
@@ -723,7 +758,8 @@
                 "ur": "الٹراساؤنڈ معائنے میں جگر میں ایک سسٹ دکھائی دیا۔",
                 "tr": "Ultrason muayenesinde karaciğerde bir kist görüldü."
             },
-            "id": "v20_28"
+            "id": "v20_28",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_28.mp3"
         },
         {
             "germanTerm": "das Ödem",
@@ -746,7 +782,8 @@
                 "ur": "ایکس رے پر پلمونری ایڈیما نظر آتا ہے۔",
                 "tr": "Akciğer ödemi röntgende görülebilir."
             },
-            "id": "v20_29"
+            "id": "v20_29",
+            "audioUrl": "assets/audio/sections/section_20/vocabulary/v20_29.mp3"
         }
     ],
     "dialogues": [
@@ -776,7 +813,8 @@
                         "hi": "सुप्रभात, श्री मुलर। हमें फ्रैक्चर का संदेह है। हमें एक्स-रे करना होगा।",
                         "ur": "شب بخیر، مسٹر مولر۔ ہمیں ایک فریکچر کا شبہ ہے۔ ہمیں ایکسرے کرنا ہوگا۔",
                         "tr": "İyi günler Bay Müller. Bir kırık olduğundan şüpheleniyoruz. Röntgen çekmemiz gerekiyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_01_line1.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -788,7 +826,8 @@
                         "hi": "ठीक है, डॉक्टर। मुझे क्या करना होगा?",
                         "ur": "ٹھیک ہے، ڈاکٹر۔ مجھے کیا کرنا ہوگا؟",
                         "tr": "Tamam Doktor. Ne yapmam gerekiyor?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_01_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -800,7 +839,8 @@
                         "hi": "मैं आपको एक्स-रे विभाग में ले जाऊंगा। कृपया कोई भी गहना हटा दें।",
                         "ur": "میں آپ کو ایکس رے ڈپارٹمنٹ لے جاؤں گی۔ براہ کرم کوئی بھی زیورات ہٹا دیں۔",
                         "tr": "Sizi röntgen bölümüne götüreceğim. Lütfen tüm takılarınızı çıkarın."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_01_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -812,7 +852,8 @@
                         "hi": "फिर हम रेडियोलॉजिस्ट की रिपोर्ट का इंतजार करेंगे।",
                         "ur": "پھر ہم ریڈیولوجسٹ کی رپورٹ کا انتظار کریں گے۔",
                         "tr": "Sonra radyoloğun raporunu bekleyeceğiz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_01_line4.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -824,7 +865,8 @@
                         "hi": "इसमें लगभग कितना समय लगेगा?",
                         "ur": "اس میں تقریبا کتنا وقت لگے گا؟",
                         "tr": "Bu yaklaşık ne kadar sürer?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_01_line5.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -836,7 +878,8 @@
                         "hi": "इसमें एक घंटा तक लग सकता है, श्री मुलर।",
                         "ur": "اس میں ایک گھنٹہ تک لگ سکتا ہے، مسٹر مولر۔",
                         "tr": "Bu bir saate kadar sürebilir Bay Müller."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_01_line6.mp3"
                 }
             ],
             "id": "d20_01"
@@ -867,7 +910,8 @@
                         "hi": "श्रीमती श्मिट, हमें पेट दर्द के लिए कंट्रास्ट के साथ एक सीटी स्कैन की आवश्यकता है।",
                         "ur": "محترمہ شمٹ، ہمیں پیٹ کے درد کے لیے کنٹراسٹ کے ساتھ سی ٹی سکین کی ضرورت ہے۔",
                         "tr": "Bayan Schmidt, karın ağrısı için kontrast madde ile BT taramasına ihtiyacımız var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_02_line1.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -879,7 +923,8 @@
                         "hi": "क्या मरीज उपवास कर रहा है?",
                         "ur": "کیا مریض روزہ دار ہے؟",
                         "tr": "Hasta aç mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_02_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Lehmann",
@@ -891,7 +936,8 @@
                         "hi": "हाँ, वह 6 घंटे से उपवास कर रही है। प्रवेश तैयार है।",
                         "ur": "ہاں، وہ 6 گھنٹے سے روزہ دار ہے۔ داخلہ تیار ہے۔",
                         "tr": "Evet, 6 saattir aç. Kayıt hazır."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_02_line3.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -903,7 +949,8 @@
                         "hi": "सीटी स्कैन के दौरान क्या होता है?",
                         "ur": "سی ٹی سکین کے دوران کیا ہوتا ہے؟",
                         "tr": "BT taraması sırasında ne olur?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_02_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Lehmann",
@@ -915,7 +962,8 @@
                         "hi": "आप एक सोफे पर लेटें और हम आपके पेट की तस्वीरें लेते हैं। आपको एक नस के माध्यम से कंट्रास्ट एजेंट मिलेगा।",
                         "ur": "آپ ایک کوچ پر لیٹیں اور ہم آپ کے پیٹ کی تصاویر لیں۔ آپ کو ایک رگ کے ذریعے کنٹراسٹ ایجنٹ ملے گا۔",
                         "tr": "Bir sedyede yatacaksınız ve karnınızın görüntülerini alacağız. Bir damar yoluyla kontrast madde alacaksınız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_02_line5.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -927,7 +975,8 @@
                         "hi": "मैं अब आपको रेडियोलॉजी में ले जाऊंगा।",
                         "ur": "میں اب آپ کو ریڈیولوجی میں لے جاؤں گی۔",
                         "tr": "Şimdi sizi radyolojiye götüreceğim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_02_line6.mp3"
                 }
             ],
             "id": "d20_02"
@@ -958,7 +1007,8 @@
                         "hi": "शुभ प्रभात, श्री श्मिट। आपके घुटने के दर्द के कारण हम एक एमआरआई करना चाहेंगे।",
                         "ur": "شب بخیر، مسٹر شمٹ۔ آپ کے گھٹنے کے درد کی وجہ سے ہم ایک ایم آر آئی کرنا چاہیں گے۔",
                         "tr": "Günaydın Bay Schmidt. Diz ağrınız nedeniyle MR çekmek istiyoruz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_03_line1.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -970,7 +1020,8 @@
                         "hi": "वहाँ ठीक क्या होता है?",
                         "ur": "وہاں بالکل کیا ہوتا ہے؟",
                         "tr": "Orada tam olarak ne oluyor?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_03_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -982,7 +1033,8 @@
                         "hi": "हम आपके घुटने की तस्वीरें लेते समय आप एक ट्यूब में लेटें। यह थोड़ा शोरगुल वाला है।",
                         "ur": "ہم آپ کے گھٹنے کی تصاویر لیتے وقت آپ ایک ٹیوب میں لیٹتے ہیں۔ یہ تھوڑا شور والا ہے۔",
                         "tr": "Dizinizin fotoğraflarını çekerken bir tüpün içinde yatacaksınız. Biraz gürültülü."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_03_line3.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -994,7 +1046,8 @@
                         "hi": "क्या आपके शरीर में धातु है, श्री श्मिट? पेसमेकर?",
                         "ur": "کیا آپ کے جسم میں دھات ہے، مسٹر شمٹ؟ پیس میکر؟",
                         "tr": "Vücudunuzda metal var mı Bay Schmidt? Kalp pili?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_03_line4.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -1006,7 +1059,8 @@
                         "hi": "नहीं, ऐसा कुछ नहीं है।",
                         "ur": "نہیں، ایسی کوئی بات نہیں۔",
                         "tr": "Hayır, öyle bir şey yok."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_03_line5.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -1018,7 +1072,8 @@
                         "hi": "अच्छा, तो हम अभी शुरू कर सकते हैं। मैं आपको एमआरआई के लिए पंजीकृत कर दूंगा।",
                         "ur": "اچھی بات ہے، تو ہم ابھی شروع کر سکتے ہیں۔ میں آپ کو ایم آر آئی کے لیے رجسٹر کروں گا۔",
                         "tr": "Güzel, o zaman hemen başlayabiliriz. Sizi MR için kaydedeceğim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_03_line6.mp3"
                 }
             ],
             "id": "d20_03"
@@ -1049,7 +1104,8 @@
                         "hi": "शुभ दिन, श्रीमती वेबर। हम आज एक अल्ट्रासाउंड परीक्षा कर रहे हैं।",
                         "ur": "شب بخیر، مسز ویبر۔ ہم آج ایک الٹراساؤنڈ امتحان کر رہے ہیں۔",
                         "tr": "İyi günler Bayan Weber. Bugün ultrason muayenesi yapacağız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_04_line1.mp3"
                 },
                 {
                     "speaker": "Patient Weber",
@@ -1061,7 +1117,8 @@
                         "hi": "मैं पहले से ही बहुत उत्साहित हूँ।",
                         "ur": "میں پہلے سے ہی بہت پرجوش ہوں۔",
                         "tr": "Zaten çok heyecanlıyım."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_04_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Meier",
@@ -1073,7 +1130,8 @@
                         "hi": "यह समझ में आता है। कृपया लेट जाओ। मैं कुछ जेल लगाऊंगा।",
                         "ur": "یہ سمجھ میں آتا ہے۔ براہ کرم لیٹ جائیں۔ میں کچھ جیل لگاؤں گا۔",
                         "tr": "Bu anlaşılabilir bir durum. Lütfen uzanın. Biraz jel süreceğim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_04_line3.mp3"
                 },
                 {
                     "speaker": "Patient Weber",
@@ -1085,7 +1143,8 @@
                         "hi": "क्या आप अभी तक कुछ देख सकते हैं?",
                         "ur": "کیا آپ ابھی تک کچھ دیکھ سکتے ہیں؟",
                         "tr": "Şimdiden bir şeyler görebiliyor musunuz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_04_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Meier",
@@ -1097,7 +1156,8 @@
                         "hi": "हाँ, यहाँ छोटा सा दिल है। यह नियमित रूप से धड़क रहा है।",
                         "ur": "ہاں، یہ رہا چھوٹا دل۔ یہ باقاعدگی سے دھڑک رہا ہے۔",
                         "tr": "Evet, işte küçük kalp. Düzenli atıyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_04_line5.mp3"
                 },
                 {
                     "speaker": "Patient Weber",
@@ -1109,7 +1169,8 @@
                         "hi": "ओह, कितना अद्भुत!",
                         "ur": "اوہ، کتنا حیرت انگیز!",
                         "tr": "Ah, ne kadar güzel!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_04_line6.mp3"
                 }
             ],
             "id": "d20_04"
@@ -1140,7 +1201,8 @@
                         "hi": "शुभ दिन, श्रीमती शुल्ज़। आपकी एक्स-रे रिपोर्ट यहाँ है।",
                         "ur": "شب بخیر، مسز شولز۔ آپ کی ایکسرے رپورٹ یہاں ہے۔",
                         "tr": "İyi günler Bayan Schulz. Röntgen raporunuz geldi."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_05_line1.mp3"
                 },
                 {
                     "speaker": "Patient Schulz",
@@ -1152,7 +1214,8 @@
                         "hi": "और, इसमें क्या लिखा है?",
                         "ur": "اور، اس میں کیا لکھا ہے؟",
                         "tr": "Peki, ne yazıyor?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_05_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Hoffmann",
@@ -1164,7 +1227,8 @@
                         "hi": "फेफड़े में एक छोटी सी अस्पष्टता है। यह थोड़ी सूजन हो सकती है।",
                         "ur": "پھیپھڑوں میں ایک چھوٹی سی مبہمیت ہے۔ یہ تھوڑی سوزش ہو سکتی ہے۔",
                         "tr": "Akciğerde küçük bir gölgelenme var. Hafif bir iltihap olabilir."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_05_line3.mp3"
                 },
                 {
                     "speaker": "Patient Schulz",
@@ -1176,7 +1240,8 @@
                         "hi": "क्या मुझे चिंता करने की ज़रूरत है?",
                         "ur": "کیا مجھے پریشان ہونے کی ضرورت ہے؟",
                         "tr": "Endişelenmeli miyim?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_05_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Hoffmann",
@@ -1188,7 +1253,8 @@
                         "hi": "हम इसकी निगरानी जारी रखेंगे और यदि आवश्यक हो तो इसका इलाज करेंगे। मैं आपको एक एंटीबायोटिक लिखूंगा।",
                         "ur": "ہم اس کی نگرانی جاری رکھیں گے اور اگر ضروری ہوا تو اس کا علاج کریں گے۔ میں آپ کو اینٹی بائیوٹک لکھوں گا۔",
                         "tr": "Bunu izlemeye devam edeceğiz ve gerekirse tedavi edeceğiz. Size bir antibiyotik yazacağım."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_05_line5.mp3"
                 },
                 {
                     "speaker": "Patient Schulz",
@@ -1200,7 +1266,8 @@
                         "hi": "बहुत-बहुत धन्यवाद, डॉक्टर।",
                         "ur": "آپ کا بہت شکریہ، ڈاکٹر۔",
                         "tr": "Çok teşekkür ederim Doktor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_20/dialogues/d20_05_line6.mp3"
                 }
             ],
             "id": "d20_05"

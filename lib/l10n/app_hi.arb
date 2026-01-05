@@ -22,6 +22,18 @@
   "settings": "सेटिंग्स",
   "continueLeaning": "सीखना जारी रखें",
   "yourProgress": "आपकी प्रगति",
+  "sectionsCompleted": "{count} अनुभाग पूर्ण",
+  "@sectionsCompleted": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "level": "स्तर {level}",
+  "@level": {
+    "placeholders": {
+      "level": {"type": "String"}
+    }
+  },
   "dayStreak": "दिन की लकीर",
   "points": "अंक",
   "learningPhases": "सीखने के चरण",
@@ -32,15 +44,24 @@
   "phase3Title": "पेशेवर विशेषज्ञता और FSP",
   "phase3Desc": "उन्नत दस्तावेज़ीकरण, विशेषताएं और परीक्षा की तैयारी।",
   "sections": "अनुभाग",
+  "section": "अनुभाग",
   "vocabulary": "शब्दावली",
   "dialogue": "संवाद",
   "exercises": "अभ्यास",
+  "minutes": "{min} मिनट",
+  "@minutes": {
+    "placeholders": {
+      "min": {"type": "int"}
+    }
+  },
   "introduction": "परिचय",
   "grammarFocus": "व्याकरण फोकस",
   "culturalNotes": "सांस्कृतिक नोट्स",
   "summary": "सारांश",
   "learningObjectives": "सीखने के उद्देश्य",
   "flashcards": "फ्लैशकार्ड",
+  "tapToSeeTranslation": "अनुवाद देखने के लिए टैप करें",
+  "tapToSeeGerman": "जर्मन देखने के लिए टैप करें",
   "next": "अगला",
   "previous": "पिछला",
   "done": "पूर्ण",
@@ -50,18 +71,40 @@
   "incorrect": "गलत",
   "explanation": "व्याख्या",
   "tryAgain": "पुनः प्रयास करें",
+  "questionsCompleted": "{total} में से {current}",
+  "@questionsCompleted": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
   "greatJob": "बहुत अच्छा!",
   "keepPracticing": "अभ्यास जारी रखें!",
+  "score": "आपने {total} में से {correct} सही पाए",
+  "@score": {
+    "placeholders": {
+      "correct": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
   "levelProgress": "स्तर प्रगति",
   "recentActivity": "हाल की गतिविधि",
   "sourceLanguage": "स्रोत भाषा",
   "darkMode": "डार्क मोड",
   "notifications": "सूचनाएं",
+  "downloads": "डाउनलोड",
+  "manageOfflineContent": "ऑफ़लाइन सामग्री प्रबंधित करें",
+  "helpFaq": "सहायता और FAQ",
+  "contactUs": "संपर्क करें",
+  "privacyPolicy": "गोपनीयता नीति",
+  "termsOfService": "सेवा की शर्तें",
   "signOut": "साइन आउट",
+  "signOutConfirm": "क्या आप साइन आउट करना चाहते हैं?",
   "cancel": "रद्द करें",
   "close": "बंद करें",
   "error": "त्रुटि",
   "retry": "पुनः प्रयास",
   "loading": "लोड हो रहा है...",
+  "noInternetConnection": "इंटरनेट कनेक्शन नहीं है",
   "comingSoon": "जल्द आ रहा है"
 }

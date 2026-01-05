@@ -1,12 +1,17 @@
 /// Lesson screen with tabs for text, audio, and video content
 import 'package:flutter/material.dart';
+import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import '../../../core/services/audio_service.dart';
 import '../../../core/themes/app_colors.dart';
 import '../../../core/themes/app_text_styles.dart';
 import '../../../data/models/models.dart';
 import '../../../l10n/generated/app_localizations.dart';
 import '../../providers/providers.dart';
+
+// Global audio service instance
+final _audioService = AudioService();
 
 class LessonScreen extends ConsumerStatefulWidget {
   final String sectionId;
@@ -164,13 +169,13 @@ class _TextContentTab extends StatelessWidget {
             const SizedBox(height: 24),
 
             // Learning Objectives
-            if (section.textContent!.learningObjectives.isNotEmpty) ...[
+            if (section.textContent!.getLearningObjectives(language).isNotEmpty) ...[
               Text(
                 l10n.learningObjectives,
                 style: AppTextStyles.heading4(),
               ),
               const SizedBox(height: 12),
-              ...section.textContent!.learningObjectives.map(
+              ...section.textContent!.getLearningObjectives(language).map(
                 (objective) => Padding(
                   padding: const EdgeInsets.only(bottom: 8),
                   child: Row(
@@ -189,10 +194,11 @@ class _TextContentTab extends StatelessWidget {
               const SizedBox(height: 24),
             ],
 
-            // Grammar Focus
+            // Grammar Focus - uses markdown rendering
             _ContentSection(
               title: l10n.grammarFocus,
               content: section.textContent!.getGrammarFocus(language),
+              useMarkdown: true,
             ),
             const SizedBox(height: 24),
 
@@ -238,12 +244,14 @@ class _ContentSection extends StatelessWidget {
   final String content;
   final IconData? icon;
   final Color? iconColor;
+  final bool useMarkdown;
 
   const _ContentSection({
     required this.title,
     required this.content,
     this.icon,
     this.iconColor,
+    this.useMarkdown = false,
   });
 
   @override
@@ -263,10 +271,38 @@ class _ContentSection extends StatelessWidget {
           ],
         ),
         const SizedBox(height: 12),
-        Text(
-          content,
-          style: AppTextStyles.bodyMedium(),
-        ),
+        if (useMarkdown)
+          MarkdownBody(
+            data: content,
+            selectable: true,
+            styleSheet: MarkdownStyleSheet(
+              p: AppTextStyles.bodyMedium(),
+              h1: AppTextStyles.heading2(),
+              h2: AppTextStyles.heading3(),
+              h3: AppTextStyles.heading4(),
+              strong: AppTextStyles.bodyMedium().copyWith(fontWeight: FontWeight.bold),
+              em: AppTextStyles.bodyMedium().copyWith(fontStyle: FontStyle.italic),
+              listBullet: AppTextStyles.bodyMedium(),
+              tableHead: AppTextStyles.labelMedium().copyWith(fontWeight: FontWeight.bold),
+              tableBody: AppTextStyles.bodySmall(),
+              tableBorder: TableBorder.all(color: AppColors.dividerLight, width: 1),
+              tableColumnWidth: const IntrinsicColumnWidth(),
+              tableCellsPadding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+              blockquote: AppTextStyles.bodyMedium().copyWith(
+                fontStyle: FontStyle.italic,
+                color: AppColors.textSecondaryLight,
+              ),
+              code: AppTextStyles.bodySmall().copyWith(
+                fontFamily: 'monospace',
+                backgroundColor: AppColors.surfaceLight,
+              ),
+            ),
+          )
+        else
+          Text(
+            content,
+            style: AppTextStyles.bodyMedium(),
+          ),
       ],
     );
   }
@@ -341,11 +377,30 @@ class _VocabularyTab extends ConsumerWidget {
   }
 }
 
-class _VocabularyCard extends StatelessWidget {
+class _VocabularyCard extends StatefulWidget {
   final VocabularyModel vocab;
   final String language;
 
   const _VocabularyCard({required this.vocab, required this.language});
+
+  @override
+  State<_VocabularyCard> createState() => _VocabularyCardState();
+}
+
+class _VocabularyCardState extends State<_VocabularyCard> {
+  bool _isPlaying = false;
+
+  void _playAudio() async {
+    if (widget.vocab.audioUrl.isEmpty) return;
+    
+    setState(() => _isPlaying = true);
+    await _audioService.playAudio(widget.vocab.audioUrl);
+    
+    // Reset playing state after a delay (audio typically short)
+    Future.delayed(const Duration(seconds: 2), () {
+      if (mounted) setState(() => _isPlaying = false);
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -367,52 +422,50 @@ class _VocabularyCard extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      vocab.fullGermanTerm,
+                      widget.vocab.fullGermanTerm,
                       style: AppTextStyles.germanWord(),
                     ),
-                    if (vocab.pronunciation.isNotEmpty) ...[
+                    if (widget.vocab.pronunciation.isNotEmpty) ...[
                       const SizedBox(height: 4),
                       Text(
-                        vocab.pronunciation,
+                        widget.vocab.pronunciation,
                         style: AppTextStyles.pronunciation(),
                       ),
                     ],
                   ],
                 ),
               ),
-              if (vocab.audioUrl.isNotEmpty)
+              if (widget.vocab.audioUrl.isNotEmpty)
                 IconButton(
-                  onPressed: () {
-                    // TODO: Play audio
-                  },
-                  icon: const Icon(Icons.volume_up),
-                  color: AppColors.primary,
+                  onPressed: _isPlaying ? null : _playAudio,
+                  icon: Icon(_isPlaying ? Icons.volume_up : Icons.volume_up_outlined),
+                  color: _isPlaying ? AppColors.success : AppColors.primary,
                 ),
             ],
           ),
           const Divider(height: 24),
           Text(
-            vocab.getTranslation(language),
+            widget.vocab.getTranslation(widget.language),
             style: AppTextStyles.bodyLarge(),
           ),
-          if (vocab.exampleSentence.isNotEmpty) ...[
+          if (widget.vocab.exampleSentence.isNotEmpty) ...[
             const SizedBox(height: 12),
             Container(
               padding: const EdgeInsets.all(12),
               decoration: BoxDecoration(
-                color: AppColors.primary.withOpacity(0.05),
+                color: AppColors.primary.withValues(alpha: 0.05),
                 borderRadius: BorderRadius.circular(8),
               ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    vocab.exampleSentence,
+                    widget.vocab.exampleSentence,
                     style: AppTextStyles.germanPhrase().copyWith(fontSize: 14),
                   ),
                   const SizedBox(height: 4),
                   Text(
-                    vocab.getExampleTranslation(language),
+                    widget.vocab.getExampleTranslation(widget.language),
                     style: AppTextStyles.bodySmall(),
                   ),
                 ],
@@ -469,11 +522,30 @@ class _DialogueTab extends ConsumerWidget {
   }
 }
 
-class _DialogueCard extends StatelessWidget {
+class _DialogueCard extends StatefulWidget {
   final DialogueModel dialogue;
   final String language;
 
   const _DialogueCard({required this.dialogue, required this.language});
+
+  @override
+  State<_DialogueCard> createState() => _DialogueCardState();
+}
+
+class _DialogueCardState extends State<_DialogueCard> {
+  bool _isPlaying = false;
+
+  void _playDialogueAudio() async {
+    if (widget.dialogue.audioUrl.isEmpty) return;
+    
+    setState(() => _isPlaying = true);
+    await _audioService.playAudio(widget.dialogue.audioUrl);
+    
+    // Reset after estimated duration
+    Future.delayed(const Duration(seconds: 30), () {
+      if (mounted) setState(() => _isPlaying = false);
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -484,7 +556,7 @@ class _DialogueCard extends StatelessWidget {
         borderRadius: BorderRadius.circular(16),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.05),
+            color: Colors.black.withValues(alpha: 0.05),
             blurRadius: 10,
             offset: const Offset(0, 4),
           ),
@@ -497,7 +569,7 @@ class _DialogueCard extends StatelessWidget {
           Container(
             padding: const EdgeInsets.all(16),
             decoration: BoxDecoration(
-              color: AppColors.secondary.withOpacity(0.1),
+              color: AppColors.secondary.withValues(alpha: 0.1),
               borderRadius: const BorderRadius.only(
                 topLeft: Radius.circular(16),
                 topRight: Radius.circular(16),
@@ -512,23 +584,21 @@ class _DialogueCard extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        dialogue.getTitle(language),
+                        widget.dialogue.getTitle(widget.language),
                         style: AppTextStyles.heading4(),
                       ),
                       Text(
-                        dialogue.getContext(language),
+                        widget.dialogue.getContext(widget.language),
                         style: AppTextStyles.bodySmall(),
                       ),
                     ],
                   ),
                 ),
-                if (dialogue.audioUrl.isNotEmpty)
+                if (widget.dialogue.audioUrl.isNotEmpty)
                   IconButton(
-                    onPressed: () {
-                      // TODO: Play dialogue audio
-                    },
-                    icon: const Icon(Icons.play_circle_fill),
-                    color: AppColors.secondary,
+                    onPressed: _isPlaying ? null : _playDialogueAudio,
+                    icon: Icon(_isPlaying ? Icons.pause_circle_filled : Icons.play_circle_fill),
+                    color: _isPlaying ? AppColors.success : AppColors.secondary,
                     iconSize: 32,
                   ),
               ],
@@ -539,10 +609,10 @@ class _DialogueCard extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(16),
             child: Column(
-              children: dialogue.lines.map((line) {
+              children: widget.dialogue.lines.map((line) {
                 final isDoctor = line.speaker.toLowerCase().contains('doctor') ||
                     line.speaker.toLowerCase().contains('arzt');
-                return _DialogueLine(line: line, language: language, isDoctor: isDoctor);
+                return _DialogueLine(line: line, language: widget.language, isDoctor: isDoctor);
               }).toList(),
             ),
           ),
@@ -552,7 +622,7 @@ class _DialogueCard extends StatelessWidget {
   }
 }
 
-class _DialogueLine extends StatelessWidget {
+class _DialogueLine extends StatefulWidget {
   final DialogueLine line;
   final String language;
   final bool isDoctor;
@@ -564,6 +634,26 @@ class _DialogueLine extends StatelessWidget {
   });
 
   @override
+  State<_DialogueLine> createState() => _DialogueLineState();
+}
+
+class _DialogueLineState extends State<_DialogueLine> {
+  bool _isPlaying = false;
+
+  void _playLineAudio() async {
+    final audioUrl = widget.line.audioUrl;
+    if (audioUrl == null || audioUrl.isEmpty) return;
+    
+    setState(() => _isPlaying = true);
+    await _audioService.playAudio(audioUrl);
+    
+    // Reset after estimated duration
+    Future.delayed(const Duration(seconds: 5), () {
+      if (mounted) setState(() => _isPlaying = false);
+    });
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.only(bottom: 16),
@@ -572,9 +662,9 @@ class _DialogueLine extends StatelessWidget {
         children: [
           CircleAvatar(
             radius: 16,
-            backgroundColor: isDoctor ? AppColors.primary : AppColors.secondary,
+            backgroundColor: widget.isDoctor ? AppColors.primary : AppColors.secondary,
             child: Icon(
-              isDoctor ? Icons.medical_services : Icons.person,
+              widget.isDoctor ? Icons.medical_services : Icons.person,
               size: 16,
               color: Colors.white,
             ),
@@ -584,20 +674,35 @@ class _DialogueLine extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
-                  line.speaker,
-                  style: AppTextStyles.labelMedium(
-                    color: isDoctor ? AppColors.primary : AppColors.secondary,
-                  ),
+                Row(
+                  children: [
+                    Expanded(
+                      child: Text(
+                        widget.line.speaker,
+                        style: AppTextStyles.labelMedium(
+                          color: widget.isDoctor ? AppColors.primary : AppColors.secondary,
+                        ),
+                      ),
+                    ),
+                    if (widget.line.audioUrl != null && widget.line.audioUrl!.isNotEmpty)
+                      GestureDetector(
+                        onTap: _isPlaying ? null : _playLineAudio,
+                        child: Icon(
+                          _isPlaying ? Icons.volume_up : Icons.volume_up_outlined,
+                          size: 20,
+                          color: _isPlaying ? AppColors.success : AppColors.textHintLight,
+                        ),
+                      ),
+                  ],
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  line.germanText,
+                  widget.line.germanText,
                   style: AppTextStyles.germanPhrase().copyWith(fontSize: 15),
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  line.getTranslation(language),
+                  widget.line.getTranslation(widget.language),
                   style: AppTextStyles.bodySmall(),
                 ),
               ],

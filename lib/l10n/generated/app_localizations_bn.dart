@@ -76,12 +76,12 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String sectionsCompleted(int count) {
-    return '$count sections completed';
+    return '$countটি বিভাগ সম্পন্ন';
   }
 
   @override
   String level(String level) {
-    return 'Level $level';
+    return 'স্তর $level';
   }
 
   @override
@@ -118,7 +118,7 @@ class AppLocalizationsBn extends AppLocalizations {
   String get sections => 'বিভাগ';
 
   @override
-  String get section => 'Section';
+  String get section => 'বিভাগ';
 
   @override
   String get vocabulary => 'শব্দভাণ্ডার';
@@ -131,7 +131,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String minutes(int min) {
-    return '$min min';
+    return '$min মিনিট';
   }
 
   @override
@@ -153,10 +153,10 @@ class AppLocalizationsBn extends AppLocalizations {
   String get flashcards => 'ফ্ল্যাশকার্ড';
 
   @override
-  String get tapToSeeTranslation => 'Tap to see translation';
+  String get tapToSeeTranslation => 'অনুবাদ দেখতে ট্যাপ করুন';
 
   @override
-  String get tapToSeeGerman => 'Tap to see German';
+  String get tapToSeeGerman => 'জার্মান দেখতে ট্যাপ করুন';
 
   @override
   String get next => 'পরবর্তী';
@@ -187,7 +187,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String questionsCompleted(int current, int total) {
-    return '$current of $total';
+    return '$current এর মধ্যে $total';
   }
 
   @override
@@ -198,7 +198,7 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String score(int correct, int total) {
-    return 'You got $correct out of $total correct';
+    return 'আপনি $total এর মধ্যে $correctটি সঠিক পেয়েছেন';
   }
 
   @override
@@ -217,28 +217,28 @@ class AppLocalizationsBn extends AppLocalizations {
   String get notifications => 'বিজ্ঞপ্তি';
 
   @override
-  String get downloads => 'Downloads';
+  String get downloads => 'ডাউনলোড';
 
   @override
-  String get manageOfflineContent => 'Manage offline content';
+  String get manageOfflineContent => 'অফলাইন কন্টেন্ট পরিচালনা করুন';
 
   @override
-  String get helpFaq => 'Help & FAQ';
+  String get helpFaq => 'সাহায্য ও FAQ';
 
   @override
-  String get contactUs => 'Contact Us';
+  String get contactUs => 'যোগাযোগ করুন';
 
   @override
-  String get privacyPolicy => 'Privacy Policy';
+  String get privacyPolicy => 'গোপনীয়তা নীতি';
 
   @override
-  String get termsOfService => 'Terms of Service';
+  String get termsOfService => 'সেবার শর্তাবলী';
 
   @override
   String get signOut => 'সাইন আউট';
 
   @override
-  String get signOutConfirm => 'Are you sure you want to sign out?';
+  String get signOutConfirm => 'আপনি কি সাইন আউট করতে চান?';
 
   @override
   String get cancel => 'বাতিল';
@@ -256,7 +256,7 @@ class AppLocalizationsBn extends AppLocalizations {
   String get loading => 'লোড হচ্ছে...';
 
   @override
-  String get noInternetConnection => 'No internet connection';
+  String get noInternetConnection => 'ইন্টারনেট সংযোগ নেই';
 
   @override
   String get comingSoon => 'শীঘ্রই আসছে';

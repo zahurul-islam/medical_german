@@ -32,30 +32,12 @@
             "tr": "Pediatri bölümüne hoş geldiniz! Burada, rutin kontrollerden aşılara kadar çocuk sağlığına Alman yaklaşımını inceleyeceğiz. Pediatrik hastalar ve aileleriyle etkili bir şekilde iletişim kurmak için gerekli temel kelime dağarcığını ve dilbilgisini öğreneceksiniz."
         },
         "grammarFocus": {
-            "en": {
-                "1": "Use of accusative and dative cases with prepositions related to body parts (e.g., 'am Kopf', 'im Bauch').",
-                "2": "Adjective endings after definite and indefinite articles when describing symptoms and conditions (e.g., 'der kleine Junge', 'ein krankes Kind')."
-            },
-            "de": {
-                "1": "Verwendung von Akkusativ und Dativ mit Präpositionen, die sich auf Körperteile beziehen (z.B. 'am Kopf', 'im Bauch').",
-                "2": "Adjektivendungen nach bestimmten und unbestimmten Artikeln bei der Beschreibung von Symptomen und Zuständen (z.B. 'der kleine Junge', 'ein krankes Kind')."
-            },
-            "bn": {
-                "1": "দেহের অঙ্গগুলির সাথে সম্পর্কিত উপসর্গগুলির সাথে accusative এবং dative case-এর ব্যবহার (যেমন, 'am Kopf', 'im Bauch').",
-                "2": "লক্ষণ এবং শর্তাবলী বর্ণনা করার সময় নির্দিষ্ট এবং অনির্দিষ্ট নিবন্ধগুলির পরে বিশেষণগুলির সমাপ্তি (যেমন, 'der kleine Junge', 'ein krankes Kind')."
-            },
-            "hi": {
-                "1": "शरीर के अंगों से संबंधित उपसर्गों के साथ accusative और dative case का उपयोग (उदाहरण के लिए, 'am Kopf', 'im Bauch').",
-                "2": "लक्षणों और स्थितियों का वर्णन करते समय निश्चित और अनिश्चित लेखों के बाद विशेषणों की समाप्ति (उदाहरण के लिए, 'der kleine Junge', 'ein krankes Kind')."
-            },
-            "ur": {
-                "1": "جسمانی اعضاء سے متعلق سابقوں کے ساتھ accusative اور dative case کا استعمال (مثال کے طور پر، 'am Kopf', 'im Bauch').",
-                "2": "علامات اور حالات کی وضاحت کرتے وقت مخصوص اور غیر متعین مضامین کے بعد اسم صفت کا اختتام (مثال کے طور پر، 'der kleine Junge', 'ein krankes Kind')."
-            },
-            "tr": {
-                "1": "Vücut bölümleriyle ilgili edatlarla birlikte akuzatif ve datif hallerin kullanımı (örn. 'am Kopf', 'im Bauch').",
-                "2": "Semptomları ve durumları tarif ederken belirli ve belirsiz artikellerden sonra sıfatların sonları (örn. 'der kleine Junge', 'ein krankes Kind')."
-            }
+            "en": "**Dermatology: Descriptive Adjectives and Location Phrases**\n\nDermatological descriptions require precise adjective usage and localization.\n\n*Adjective Sequences for Skin Lesions:*\nIn German, multiple adjectives follow a specific order:\n- Size → Shape → Color → Location\n- 'eine große, runde, rote Läsion am Unterarm' (a large, round, red lesion on the forearm)\n\n**Common Dermatological Adjectives:**\n| Category | Adjectives |\n|----------|------------|\n| Size | groß, klein, ausgedehnt, begrenzt |\n| Shape | rund, oval, unregelmäßig, erhaben |\n| Color | rot, blass, bräunlich, livide |\n| Surface | glatt, rau, schuppig, nässend |\n| Edge | scharf begrenzt, unscharf begrenzt |\n\n*Localization Phrases:*\n- 'am ganzen Körper' (all over the body)\n- 'am Rumpf' (on the trunk)\n- 'an den Extremitäten' (on the extremities)\n- 'im Gesicht' (on the face)\n- 'zwischen den Fingern' (between the fingers)\n\n**Patient History Questions:**\n- 'Seit wann haben Sie diesen Ausschlag?' (Since when do you have this rash?)\n- 'Juckt es?' (Does it itch?)\n- 'Hat sich die Größe verändert?' (Has the size changed?)\n- 'Gibt es ähnliche Stellen an anderen Körperteilen?' (Are there similar spots on other body parts?)\n\n*Treatment Instructions:*\n- 'Tragen Sie die Salbe dünn auf.' (Apply the ointment thinly.)\n- 'Die Creme wird zweimal täglich aufgetragen.' (The cream is applied twice daily.)",
+            "de": "**Dermatologie: Beschreibende Adjektive und Lokalisationsphrasen**\n\nDermatologische Beschreibungen erfordern präzisen Adjektivgebrauch.\n\n*Adjektivreihenfolge bei Hautläsionen:*\nGröße → Form → Farbe → Ort\n- 'eine große, runde, rote Läsion am Unterarm'\n\n**Häufige dermatologische Adjektive:**\n| Kategorie | Adjektive |\n|-----------|-----------|\n| Größe | groß, klein, ausgedehnt, begrenzt |\n| Form | rund, oval, unregelmäßig, erhaben |\n| Farbe | rot, blass, bräunlich, livide |\n| Oberfläche | glatt, rau, schuppig, nässend |\n\n*Lokalisationsphrasen:*\n- 'am ganzen Körper'\n- 'am Rumpf'\n- 'an den Extremitäten'\n- 'im Gesicht'\n\n**Anamnesefragen:**\n- 'Seit wann haben Sie diesen Ausschlag?'\n- 'Juckt es?'\n- 'Hat sich die Größe verändert?'\n\n*Behandlungsanweisungen:*\n- 'Tragen Sie die Salbe dünn auf.'\n- 'Die Creme wird zweimal täglich aufgetragen.'",
+            "bn": "**Dermatology: Descriptive Adjectives and Location Phrases**\n\nDermatological descriptions require precise adjective usage and localization.\n\n*Adjective Sequences for Skin Lesions:*\nIn German, multiple adjectives follow a specific order:\n- Size → Shape → Color → Location\n- 'eine große, runde, rote Läsion am Unterarm' (a large, round, red lesion on the forearm)\n\n**Common Dermatological Adjectives:**\n| Category | Adjectives |\n|----------|------------|\n| Size | groß, klein, ausgedehnt, begrenzt |\n| Shape | rund, oval, unregelmäßig, erhaben |\n| Color | rot, blass, bräunlich, livide |\n| Surface | glatt, rau, schuppig, nässend |\n| Edge | scharf begrenzt, unscharf begrenzt |\n\n*Localization Phrases:*\n- 'am ganzen Körper' (all over the body)\n- 'am Rumpf' (on the trunk)\n- 'an den Extremitäten' (on the extremities)\n- 'im Gesicht' (on the face)\n- 'zwischen den Fingern' (between the fingers)\n\n**Patient History Questions:**\n- 'Seit wann haben Sie diesen Ausschlag?' (Since when do you have this rash?)\n- 'Juckt es?' (Does it itch?)\n- 'Hat sich die Größe verändert?' (Has the size changed?)\n- 'Gibt es ähnliche Stellen an anderen Körperteilen?' (Are there similar spots on other body parts?)\n\n*Treatment Instructions:*\n- 'Tragen Sie die Salbe dünn auf.' (Apply the ointment thinly.)\n- 'Die Creme wird zweimal täglich aufgetragen.' (The cream is applied twice daily.)",
+            "hi": "**Dermatology: Descriptive Adjectives and Location Phrases**\n\nDermatological descriptions require precise adjective usage and localization.\n\n*Adjective Sequences for Skin Lesions:*\nIn German, multiple adjectives follow a specific order:\n- Size → Shape → Color → Location\n- 'eine große, runde, rote Läsion am Unterarm' (a large, round, red lesion on the forearm)\n\n**Common Dermatological Adjectives:**\n| Category | Adjectives |\n|----------|------------|\n| Size | groß, klein, ausgedehnt, begrenzt |\n| Shape | rund, oval, unregelmäßig, erhaben |\n| Color | rot, blass, bräunlich, livide |\n| Surface | glatt, rau, schuppig, nässend |\n| Edge | scharf begrenzt, unscharf begrenzt |\n\n*Localization Phrases:*\n- 'am ganzen Körper' (all over the body)\n- 'am Rumpf' (on the trunk)\n- 'an den Extremitäten' (on the extremities)\n- 'im Gesicht' (on the face)\n- 'zwischen den Fingern' (between the fingers)\n\n**Patient History Questions:**\n- 'Seit wann haben Sie diesen Ausschlag?' (Since when do you have this rash?)\n- 'Juckt es?' (Does it itch?)\n- 'Hat sich die Größe verändert?' (Has the size changed?)\n- 'Gibt es ähnliche Stellen an anderen Körperteilen?' (Are there similar spots on other body parts?)\n\n*Treatment Instructions:*\n- 'Tragen Sie die Salbe dünn auf.' (Apply the ointment thinly.)\n- 'Die Creme wird zweimal täglich aufgetragen.' (The cream is applied twice daily.)",
+            "ur": "**Dermatology: Descriptive Adjectives and Location Phrases**\n\nDermatological descriptions require precise adjective usage and localization.\n\n*Adjective Sequences for Skin Lesions:*\nIn German, multiple adjectives follow a specific order:\n- Size → Shape → Color → Location\n- 'eine große, runde, rote Läsion am Unterarm' (a large, round, red lesion on the forearm)\n\n**Common Dermatological Adjectives:**\n| Category | Adjectives |\n|----------|------------|\n| Size | groß, klein, ausgedehnt, begrenzt |\n| Shape | rund, oval, unregelmäßig, erhaben |\n| Color | rot, blass, bräunlich, livide |\n| Surface | glatt, rau, schuppig, nässend |\n| Edge | scharf begrenzt, unscharf begrenzt |\n\n*Localization Phrases:*\n- 'am ganzen Körper' (all over the body)\n- 'am Rumpf' (on the trunk)\n- 'an den Extremitäten' (on the extremities)\n- 'im Gesicht' (on the face)\n- 'zwischen den Fingern' (between the fingers)\n\n**Patient History Questions:**\n- 'Seit wann haben Sie diesen Ausschlag?' (Since when do you have this rash?)\n- 'Juckt es?' (Does it itch?)\n- 'Hat sich die Größe verändert?' (Has the size changed?)\n- 'Gibt es ähnliche Stellen an anderen Körperteilen?' (Are there similar spots on other body parts?)\n\n*Treatment Instructions:*\n- 'Tragen Sie die Salbe dünn auf.' (Apply the ointment thinly.)\n- 'Die Creme wird zweimal täglich aufgetragen.' (The cream is applied twice daily.)",
+            "tr": "**Dermatology: Descriptive Adjectives and Location Phrases**\n\nDermatological descriptions require precise adjective usage and localization.\n\n*Adjective Sequences for Skin Lesions:*\nIn German, multiple adjectives follow a specific order:\n- Size → Shape → Color → Location\n- 'eine große, runde, rote Läsion am Unterarm' (a large, round, red lesion on the forearm)\n\n**Common Dermatological Adjectives:**\n| Category | Adjectives |\n|----------|------------|\n| Size | groß, klein, ausgedehnt, begrenzt |\n| Shape | rund, oval, unregelmäßig, erhaben |\n| Color | rot, blass, bräunlich, livide |\n| Surface | glatt, rau, schuppig, nässend |\n| Edge | scharf begrenzt, unscharf begrenzt |\n\n*Localization Phrases:*\n- 'am ganzen Körper' (all over the body)\n- 'am Rumpf' (on the trunk)\n- 'an den Extremitäten' (on the extremities)\n- 'im Gesicht' (on the face)\n- 'zwischen den Fingern' (between the fingers)\n\n**Patient History Questions:**\n- 'Seit wann haben Sie diesen Ausschlag?' (Since when do you have this rash?)\n- 'Juckt es?' (Does it itch?)\n- 'Hat sich die Größe verändert?' (Has the size changed?)\n- 'Gibt es ähnliche Stellen an anderen Körperteilen?' (Are there similar spots on other body parts?)\n\n*Treatment Instructions:*\n- 'Tragen Sie die Salbe dünn auf.' (Apply the ointment thinly.)\n- 'Die Creme wird zweimal täglich aufgetragen.' (The cream is applied twice daily.)"
         },
         "culturalNotes": {
             "en": "In Germany, regular 'U-Untersuchungen' (well-child check-ups) are mandatory and documented in a yellow booklet ('Gelbes Heft'), emphasizing preventative care from birth.",
@@ -73,12 +55,38 @@
             "ur": "اس سیکشن میں جرمنی میں بچوں کی دیکھ بھال کا ایک جامع جائزہ فراہم کیا گیا ہے، جو ترقی، احتیاطی تدابیر اور نوجوان مریضوں کے ساتھ بات چیت پر مرکوز ہے۔",
             "tr": "Bu bölüm, Almanya'daki pediatrik bakımın gelişim, önleyici tedbirler ve genç hastalarla iletişim konularına odaklanan kapsamlı bir genel bakışını sunmuştur."
         },
-        "learningObjectives": [
-            "Identify key vocabulary related to pediatric examinations and treatments.",
-            "Describe common childhood illnesses and symptoms in German.",
-            "Explain the German vaccination schedule and its importance.",
-            "Discuss the role of preventative care (Vorsorge) in pediatric medicine."
-        ]
+        "learningObjectives": {
+            "en": [
+                "Identify key vocabulary related to pediatric examinations and treatments.",
+                "Describe common childhood illnesses and symptoms in German.",
+                "Explain the German vaccination schedule and its importance.",
+                "Discuss the role of preventative care (Vorsorge) in pediatric medicine."
+            ],
+            "bn": [
+                "Identify key vocabulary related to pediatric examinations and treatments.",
+                "Describe common childhood illnesses and symptoms in German.",
+                "Explain the German vaccination schedule and its importance.",
+                "Discuss the role of preventative care (Vorsorge) in pediatric medicine."
+            ],
+            "hi": [
+                "Identify key vocabulary related to pediatric examinations and treatments.",
+                "Describe common childhood illnesses and symptoms in German.",
+                "Explain the German vaccination schedule and its importance.",
+                "Discuss the role of preventative care (Vorsorge) in pediatric medicine."
+            ],
+            "ur": [
+                "Identify key vocabulary related to pediatric examinations and treatments.",
+                "Describe common childhood illnesses and symptoms in German.",
+                "Explain the German vaccination schedule and its importance.",
+                "Discuss the role of preventative care (Vorsorge) in pediatric medicine."
+            ],
+            "tr": [
+                "Identify key vocabulary related to pediatric examinations and treatments.",
+                "Describe common childhood illnesses and symptoms in German.",
+                "Explain the German vaccination schedule and its importance.",
+                "Discuss the role of preventative care (Vorsorge) in pediatric medicine."
+            ]
+        }
     },
     "vocabulary": [
         {
@@ -102,7 +110,8 @@
                 "ur": "ماہر اطفال نے خسرہ کے خلاف ویکسینیشن تجویز کی۔",
                 "tr": "Çocuk doktoru kızamık aşısı önerdi."
             },
-            "id": "v27_01"
+            "id": "v27_01",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_01.mp3"
         },
         {
             "germanTerm": "die Entwicklung",
@@ -125,7 +134,8 @@
                 "ur": "بچے کی نشوونما کی باقاعدگی سے نگرانی کی جاتی ہے۔",
                 "tr": "Çocuğun gelişimi düzenli olarak izlenir."
             },
-            "id": "v27_02"
+            "id": "v27_02",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_02.mp3"
         },
         {
             "germanTerm": "der Impfkalender",
@@ -148,7 +158,8 @@
                 "ur": "ہم تجویز کردہ ویکسینیشن شیڈول پر عمل کرتے ہیں۔",
                 "tr": "Önerilen aşı takvimine uyuyoruz."
             },
-            "id": "v27_03"
+            "id": "v27_03",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_03.mp3"
         },
         {
             "germanTerm": "die Vorsorge",
@@ -171,7 +182,8 @@
                 "ur": "بچے کی صحت کے لیے احتیاطی جانچ ضروری ہے۔",
                 "tr": "Koruyucu muayeneler çocuğun sağlığı için önemlidir."
             },
-            "id": "v27_04"
+            "id": "v27_04",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_04.mp3"
         },
         {
             "germanTerm": "die U-Untersuchung",
@@ -194,7 +206,8 @@
                 "ur": "آج ہماری یو5 صحت مند بچے کی ملاقات ہے۔",
                 "tr": "Bugün U5 sağlıklı çocuk ziyaretimiz var."
             },
-            "id": "v27_05"
+            "id": "v27_05",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_05.mp3"
         },
         {
             "germanTerm": "das Wachstum",
@@ -217,7 +230,8 @@
                 "ur": "بچے کی نشوونما معمول پر ہے۔",
                 "tr": "Çocuğun büyümesi normal."
             },
-            "id": "v27_06"
+            "id": "v27_06",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_06.mp3"
         },
         {
             "germanTerm": "die Frühgeburt",
@@ -240,7 +254,8 @@
                 "ur": "بچہ قبل از وقت پیدا ہوا تھا اور اسے خصوصی نگہداشت کی ضرورت تھی۔",
                 "tr": "Çocuk erken doğdu ve özel bakıma ihtiyacı vardı."
             },
-            "id": "v27_07"
+            "id": "v27_07",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_07.mp3"
         },
         {
             "germanTerm": "die Kinderkrankheit",
@@ -263,7 +278,8 @@
                 "ur": "خسرہ ایک عام بچپن کی بیماری ہے۔",
                 "tr": "Kızamık tipik bir çocukluk hastalığıdır."
             },
-            "id": "v27_08"
+            "id": "v27_08",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_08.mp3"
         },
         {
             "germanTerm": "die Windpocken",
@@ -286,7 +302,8 @@
                 "ur": "بچے کو چکن پاکس ہے اور وہ ڈے کیئر نہیں جا سکتا۔",
                 "tr": "Çocuğun suçiçeği var ve kreşe gidemez."
             },
-            "id": "v27_09"
+            "id": "v27_09",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_09.mp3"
         },
         {
             "germanTerm": "der Säugling",
@@ -309,7 +326,8 @@
                 "ur": "نوزائیدہ کا معائنہ کیا گیا اور اسے صحت مند پایا گیا۔",
                 "tr": "Bebek muayene edildi ve sağlıklı bulundu."
             },
-            "id": "v27_10"
+            "id": "v27_10",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_10.mp3"
         },
         {
             "germanTerm": "das Fieber",
@@ -332,7 +350,8 @@
                 "ur": "بچے کو تیز بخار ہے اور اس کا علاج کیا جانا چاہیے۔",
                 "tr": "Çocuğun yüksek ateşi var ve tedavi edilmesi gerekiyor."
             },
-            "id": "v27_11"
+            "id": "v27_11",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_11.mp3"
         },
         {
             "germanTerm": "die Impfung",
@@ -355,7 +374,8 @@
                 "ur": "ویکسینیشن سنگین بیماریوں سے بچاتی ہے۔",
                 "tr": "Aşılama ciddi hastalıklardan korur."
             },
-            "id": "v27_12"
+            "id": "v27_12",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_12.mp3"
         },
         {
             "germanTerm": "die Muttermilch",
@@ -378,7 +398,8 @@
                 "ur": "ماں کا دودھ شیر خوار بچوں کے لیے بہترین غذا ہے۔",
                 "tr": "Anne sütü bebekler için en iyi besindir."
             },
-            "id": "v27_13"
+            "id": "v27_13",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_13.mp3"
         },
         {
             "germanTerm": "der Durchfall",
@@ -401,7 +422,8 @@
                 "ur": "بچے کو دست ہے اور اسے بہت زیادہ پینے کی ضرورت ہے۔",
                 "tr": "Çocuğun ishali var ve bolca içmesi gerekiyor."
             },
-            "id": "v27_14"
+            "id": "v27_14",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_14.mp3"
         },
         {
             "germanTerm": "die Allergie",
@@ -424,7 +446,8 @@
                 "ur": "بچے کو گری دار میوے سے الرجی ہے۔",
                 "tr": "Çocuğun fındık alerjisi var."
             },
-            "id": "v27_15"
+            "id": "v27_15",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_15.mp3"
         },
         {
             "germanTerm": "die Verstopfung",
@@ -447,7 +470,8 @@
                 "ur": "شیر خوار کو قبض ہے۔",
                 "tr": "Bebeğin kabızlığı var."
             },
-            "id": "v27_16"
+            "id": "v27_16",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_16.mp3"
         },
         {
             "germanTerm": "das Übergewicht",
@@ -470,7 +494,8 @@
                 "ur": "بچپن میں موٹاپے سے بچنا چاہیے۔",
                 "tr": "Çocukluk çağı obezitesinden kaçınılmalıdır."
             },
-            "id": "v27_17"
+            "id": "v27_17",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_17.mp3"
         },
         {
             "germanTerm": "sich entwickeln",
@@ -493,7 +518,8 @@
                 "ur": "بچہ اپنی عمر کے لحاظ سے مناسب طریقے سے ترقی کر رہا ہے۔",
                 "tr": "Çocuk yaşına uygun olarak gelişiyor."
             },
-            "id": "v27_18"
+            "id": "v27_18",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_18.mp3"
         },
         {
             "germanTerm": "impfen",
@@ -516,7 +542,8 @@
                 "ur": "ہم بچے کو پولیو کے خلاف ویکسین لگا رہے ہیں۔",
                 "tr": "Çocuğu polioya karşı aşılıyoruz."
             },
-            "id": "v27_19"
+            "id": "v27_19",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_19.mp3"
         },
         {
             "germanTerm": "wachsen",
@@ -539,7 +566,8 @@
                 "ur": "بچہ بہت تیزی سے بڑھ رہا ہے۔",
                 "tr": "Çocuk çok hızlı büyüyor."
             },
-            "id": "v27_20"
+            "id": "v27_20",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_20.mp3"
         },
         {
             "germanTerm": "gesund",
@@ -562,7 +590,8 @@
                 "ur": "بچہ صحت مند اور خوش مزاج ہے۔",
                 "tr": "Çocuk sağlıklı ve neşeli."
             },
-            "id": "v27_21"
+            "id": "v27_21",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_21.mp3"
         },
         {
             "germanTerm": "krank",
@@ -585,7 +614,8 @@
                 "ur": "بچہ بیمار ہے اور اسے بخار ہے۔",
                 "tr": "Çocuk hasta ve ateşi var."
             },
-            "id": "v27_22"
+            "id": "v27_22",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_22.mp3"
         },
         {
             "germanTerm": "fieberfrei",
@@ -608,7 +638,8 @@
                 "ur": "بچہ آج صبح سے بخار سے پاک ہے۔",
                 "tr": "Çocuk bu sabahtan beri ateşsiz."
             },
-            "id": "v27_23"
+            "id": "v27_23",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_23.mp3"
         },
         {
             "germanTerm": "die Pubertät",
@@ -631,7 +662,8 @@
                 "ur": "بلوغت بہت سی تبدیلیاں لاتی ہے۔",
                 "tr": "Ergenlik birçok değişiklik getirir."
             },
-            "id": "v27_24"
+            "id": "v27_24",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_24.mp3"
         },
         {
             "germanTerm": "die Adoleszenz",
@@ -654,7 +686,8 @@
                 "ur": "نوجوانی زندگی کا ایک اہم مرحلہ ہے۔",
                 "tr": "Ergenlik hayatın önemli bir aşamasıdır."
             },
-            "id": "v27_25"
+            "id": "v27_25",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_25.mp3"
         },
         {
             "germanTerm": "die Geburtsklinik",
@@ -677,7 +710,8 @@
                 "ur": "خاتون کو زچگی کلینک میں داخل کرایا گیا تھا۔",
                 "tr": "Kadın doğum kliniğine yatırıldı."
             },
-            "id": "v27_26"
+            "id": "v27_26",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_26.mp3"
         },
         {
             "germanTerm": "die Neugeborenenstation",
@@ -700,7 +734,8 @@
                 "ur": "قبل از وقت پیدا ہونے والا بچہ نوزائیدہ یونٹ میں ہے۔",
                 "tr": "Prematüre bebek yenidoğan ünitesinde yatıyor."
             },
-            "id": "v27_27"
+            "id": "v27_27",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_27.mp3"
         },
         {
             "germanTerm": "das Stillen",
@@ -723,7 +758,8 @@
                 "ur": "بچے کی نشوونما کے لیے دودھ پلانا ضروری ہے۔",
                 "tr": "Emzirme çocuğun gelişimi için önemlidir."
             },
-            "id": "v27_28"
+            "id": "v27_28",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_28.mp3"
         },
         {
             "germanTerm": "die Überweisung",
@@ -746,7 +782,8 @@
                 "ur": "ماہر اطفال نے ماہر کو ایک حوالہ دیا۔",
                 "tr": "Çocuk doktoru uzmana sevk verdi."
             },
-            "id": "v27_29"
+            "id": "v27_29",
+            "audioUrl": "assets/audio/sections/section_27/vocabulary/v27_29.mp3"
         }
     ],
     "dialogues": [
@@ -776,7 +813,8 @@
                         "hi": "शुभ दिन, श्री मुलर। देखते हैं आप कैसे हैं। क्या आप कृपया तराजू पर चढ़ सकते हैं?",
                         "ur": "شب بخیر، مسٹر ملر۔ آئیے دیکھتے ہیں آپ کیسے ہیں۔ کیا آپ براہ کرم ترازو پر چڑھ سکتے ہیں؟",
                         "tr": "İyi günler, Bay Müller. Nasılsınız bakalım. Lütfen tartıya çıkabilir misiniz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_01_line1.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -788,7 +826,8 @@
                         "hi": "हां, खुशी से। और मुझे कितना लंबा खड़ा होना है?",
                         "ur": "جی ہاں، خوشی سے۔ اور مجھے کتنا لمبا کھڑا ہونا ہے؟",
                         "tr": "Evet, memnuniyetle. Ve ne kadar uzun durmam gerekiyor?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_01_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -800,7 +839,8 @@
                         "hi": "बिल्कुल सामान्य, श्री मुलर। सीधे खड़े हो जाओ, सिर आगे। बिल्कुल सही।",
                         "ur": "بالکل عام، مسٹر ملر۔ سیدھے کھڑے ہو جاؤ، سر آگے کی طرف۔ بہترین۔",
                         "tr": "Sadece normal şekilde, Bay Müller. Dik durun, başınız öne doğru. Mükemmel."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_01_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -812,7 +852,8 @@
                         "hi": "अच्छा। वजन और ऊंचाई विकास से मेल खाते हैं। क्या कोई अन्य अनियमितता है?",
                         "ur": "اچّھا۔ وزن اور اونچائی نشوونما سے مطابقت رکھتی ہے۔ کیا کوئی اور بے قاعدگی ہے؟",
                         "tr": "Güzel. Kilo ve boy gelişimle uyumlu. Başka anormallikler var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_01_line4.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -824,7 +865,8 @@
                         "hi": "नहीं, वास्तव में नहीं। वह बस कभी-कभी थोड़ा अधीर हो जाता है।",
                         "ur": "نہیں، واقعی نہیں۔ وہ بس کبھی کبھی تھوڑا بے صبرا ہو جاتا ہے۔",
                         "tr": "Hayır, pek değil. Sadece bazen biraz sabırsız oluyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_01_line5.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -836,7 +878,8 @@
                         "hi": "उस उम्र में यह सामान्य है। फिर हम टीकाकरण के बारे में बात करेंगे।",
                         "ur": "اس عمر میں یہ معمول ہے۔ پھر ہم ویکسینیشن کے بارے میں بات کریں گے۔",
                         "tr": "Bu yaşta normal. O zaman aşılar hakkında konuşacağız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_01_line6.mp3"
                 }
             ],
             "id": "d27_01"
@@ -867,7 +910,8 @@
                         "hi": "श्रीमती वेबर, टीकाकरण कार्यक्रम के अनुसार, एमएमआर टीकाकरण देय है। क्या आपके पास इसके बारे में कोई प्रश्न हैं?",
                         "ur": "محترمہ ویبر، ویکسینیشن کے شیڈول کے مطابق، ایم ایم آر ویکسینیشن واجب الادا ہے۔ کیا آپ کے پاس اس کے بارے میں کوئی سوال ہے؟",
                         "tr": "Bayan Weber, aşılama takvimine göre, KKK aşısı yapılması gerekiyor. Bu konuda herhangi bir sorunuz var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_02_line1.mp3"
                 },
                 {
                     "speaker": "Frau Weber",
@@ -879,7 +923,8 @@
                         "hi": "मैं थोड़ा अनिश्चित हूँ। मैंने दुष्प्रभावों के बारे में बहुत कुछ पढ़ा है।",
                         "ur": "میں تھوڑا سا غیر یقینی ہوں۔ میں نے ضمنی اثرات کے بارے میں بہت کچھ پڑھا ہے۔",
                         "tr": "Biraz emin değilim. Yan etkiler hakkında çok şey okudum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_02_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -891,7 +936,8 @@
                         "hi": "अधिकांश दुष्प्रभाव हल्के होते हैं, जैसे बुखार या इंजेक्शन साइट पर लालिमा। गंभीर जटिलताएँ बहुत दुर्लभ हैं।",
                         "ur": "زیادہ تر ضمنی اثرات ہلکے ہوتے ہیں، جیسے بخار یا انجیکشن سائٹ پر لالی۔ سنگین پیچیدگیاں بہت کم ہیں۔",
                         "tr": "Çoğu yan etki hafiftir, ateş veya enjeksiyon yerinde kızarıklık gibi. Ciddi komplikasyonlar çok nadirdir."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_02_line3.mp3"
                 },
                 {
                     "speaker": "Frau Weber",
@@ -903,7 +949,8 @@
                         "hi": "लेकिन क्या होगा अगर उसे एलर्जी की प्रतिक्रिया हो जाए?",
                         "ur": "لیکن کیا ہوگا اگر اسے الرجک ردعمل ہو جائے؟",
                         "tr": "Ama alerjik reaksiyon gösterirse ne olacak?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_02_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -915,7 +962,8 @@
                         "hi": "हम तैयार हैं और हमारे पास आपातकालीन दवा है। गंभीर प्रतिक्रिया का जोखिम बहुत कम है। टीकाकरण के लाभ स्पष्ट रूप से जोखिमों से अधिक हैं।",
                         "ur": "ہم تیار ہیں اور ہمارے پاس ہنگامی دوا ہے۔ سنگین ردعمل کا خطرہ بہت کم ہے۔ ویکسینیشن کے فوائد واضح طور پر خطرات سے زیادہ ہیں۔",
                         "tr": "Hazırlıklıyız ve acil durum ilaçlarımız var. Ciddi bir reaksiyon riski çok düşük. Aşının faydaları risklerinden çok daha fazla."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_02_line5.mp3"
                 }
             ],
             "id": "d27_02"
@@ -946,7 +994,8 @@
                         "hi": "शुभ दिन, डॉक्टर। मेरा बेटा 18 महीने का है और अभी तक कोई शब्द नहीं बोलता है।",
                         "ur": "شب بخیر، ڈاکٹر۔ میرا بیٹا 18 ماہ کا ہے اور ابھی تک کوئی لفظ نہیں بولتا ہے۔",
                         "tr": "İyi günler Doktor. Oğlum 18 aylık ve henüz tek kelime konuşamıyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_03_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -958,7 +1007,8 @@
                         "hi": "क्या वह समझता है कि आप क्या कह रही हैं? क्या वह अपने नाम पर प्रतिक्रिया करता है?",
                         "ur": "کیا وہ سمجھتا ہے کہ آپ کیا کہہ رہی ہیں؟ کیا وہ اپنے نام پر ردعمل ظاہر کرتا ہے؟",
                         "tr": "Peki, söylediklerinizi anlıyor mu? İsmiyle seslenince tepki veriyor mu?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_03_line2.mp3"
                 },
                 {
                     "speaker": "Frau Klein",
@@ -970,7 +1020,8 @@
                         "hi": "हाँ, वह करता है। लेकिन वह सिर्फ बड़बड़ाता है और चीजों की ओर इशारा करता है।",
                         "ur": "جی ہاں، وہ کرتا ہے۔ لیکن وہ صرف بڑبڑاتا ہے اور چیزوں کی طرف اشارہ کرتا ہے۔",
                         "tr": "Evet, veriyor. Ama sadece geveliyor ve şeyleri işaret ediyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_03_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -982,7 +1033,8 @@
                         "hi": "यह एक अच्छा संकेत है। हम इस पर नज़र रखेंगे और यदि जल्द ही सुधार नहीं होता है तो संभवतः भाषण चिकित्सा पर विचार करेंगे।",
                         "ur": "یہ ایک اچھی علامت ہے۔ ہم اس پر نظر رکھیں گے اور اگر جلد ہی اس میں بہتری نہیں آتی ہے تو ممکنہ طور پر تقریر کی تھراپی پر غور کریں گے۔",
                         "tr": "Bu iyi bir işaret. Durumu takip edeceğiz ve yakında düzelme olmazsa konuşma terapisini düşünebiliriz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_03_line4.mp3"
                 },
                 {
                     "speaker": "Frau Klein",
@@ -994,7 +1046,8 @@
                         "hi": "ठीक है, धन्यवाद। इससे मुझे थोड़ा आश्वासन मिलता है।",
                         "ur": "ٹھیک ہے، شکریہ۔ اس سے مجھے تھوڑا سا یقین ہوتا ہے۔",
                         "tr": "Tamam, teşekkür ederim. Bu beni biraz rahatlattı."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_03_line5.mp3"
                 }
             ],
             "id": "d27_03"
@@ -1025,7 +1078,8 @@
                         "hi": "आपके बच्चे के जन्म पर बधाई! निवारक जांच अब बहुत महत्वपूर्ण हैं।",
                         "ur": "آپ کے بچے کی پیدائش پر مبارک ہو! اب احتیاطی معائنہ بہت اہم ہے۔",
                         "tr": "Çocuğunuzun doğumu için tebrikler! Koruyucu muayeneler şimdi çok önemli."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_04_line1.mp3"
                 },
                 {
                     "speaker": "Herr Braun",
@@ -1037,7 +1091,8 @@
                         "hi": "इस निवारक देखभाल में ठीक क्या शामिल है?",
                         "ur": "اس احتیاطی دیکھ بھال میں بالکل کیا شامل ہے؟",
                         "tr": "Bu koruyucu bakım tam olarak neleri içeriyor?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_04_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -1049,7 +1104,8 @@
                         "hi": "यह आपके बच्चे के विकास की निगरानी करने, समस्याओं की शीघ्र पहचान करने और उनका इलाज करने और माता-पिता के रूप में आपको सलाह देने के बारे में है।",
                         "ur": "یہ آپ کے بچے کی نشوونما کی نگرانی کرنے، مسائل کی جلد شناخت اور علاج کرنے، اور والدین کی حیثیت سے آپ کو مشورہ دینے کے بارے میں ہے۔",
                         "tr": "Çocuğunuzun gelişimini izlemek, sorunları erken tespit edip tedavi etmek ve ebeveyn olarak size danışmanlık yapmakla ilgili."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_04_line3.mp3"
                 },
                 {
                     "speaker": "Frau Braun",
@@ -1061,7 +1117,8 @@
                         "hi": "और हमें निवारक देखभाल के लिए कितनी बार आना होगा?",
                         "ur": "اور ہمیں کتنی بار احتیاطی دیکھ بھال کے لیے آنا پڑے گا؟",
                         "tr": "Ve ne sıklıkla koruyucu bakım için gelmemiz gerekiyor?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_04_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -1073,7 +1130,8 @@
                         "hi": "जीवन के पहले वर्ष में और उसके बाद नियमित अंतराल पर एक निश्चित यू-परीक्षा कार्यक्रम है।",
                         "ur": "زندگی کے پہلے سال میں اور اس کے بعد باقاعدہ وقفوں سے ایک مقررہ یو معائنے کا شیڈول ہے۔",
                         "tr": "Hayatın ilk yılında ve sonrasında düzenli aralıklarla sabit bir U-muayene programı vardır."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_04_line5.mp3"
                 }
             ],
             "id": "d27_04"
@@ -1104,7 +1162,8 @@
                         "hi": "डॉक्टर, मेरी बेटी 6 साल की है, लेकिन वह अपनी उम्र के हिसाब से बहुत छोटी है।",
                         "ur": "ڈاکٹر صاحب، میری بیٹی 6 سال کی ہے، لیکن وہ اپنی عمر کے لحاظ سے بہت چھوٹی ہے۔",
                         "tr": "Doktor, kızım 6 yaşında ama yaşına göre çok küçük."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_05_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -1116,7 +1175,8 @@
                         "hi": "चलिए पहले उसका माप और वजन करते हैं। क्या आपको लगता है कि वह पहले की तुलना में धीरे-धीरे बढ़ रही है?",
                         "ur": "آئیے پہلے اس کی پیمائش اور وزن کریں۔ کیا آپ کو لگتا ہے کہ وہ پہلے سے آہستہ بڑھ رہی ہے؟",
                         "tr": "Önce bir ölçüp tartalım. Daha önceye göre daha yavaş büyüdüğünü düşünüyor musunuz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_05_line2.mp3"
                 },
                 {
                     "speaker": "Frau Meier",
@@ -1128,7 +1188,8 @@
                         "hi": "हाँ, मुझे ऐसा लगता है। उसके सहपाठी सभी लंबे हैं।",
                         "ur": "جی ہاں، میرا ایسا تاثر ہے۔ اس کے ہم جماعت سب لمبے ہیں۔",
                         "tr": "Evet, öyle bir izlenimim var. Sınıf arkadaşları hep daha uzun."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_05_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -1140,7 +1201,8 @@
                         "hi": "हम विकास वक्र की जांच करेंगे और यदि आवश्यक हो, तो कारण जानने के लिए आगे की जांच का आदेश देंगे।",
                         "ur": "ہم ترقی کے منحنی خطوط کی جانچ کریں گے اور اگر ضروری ہوا تو وجہ معلوم کرنے کے لیے مزید تحقیقات کا حکم دیں گے۔",
                         "tr": "Büyüme eğrisini kontrol edeceğiz ve gerekirse nedeni bulmak için daha fazla araştırma yapacağız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_05_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -1152,7 +1214,8 @@
                         "hi": "अक्सर यह सिर्फ एक आनुवंशिक प्रवृत्ति होती है, लेकिन हमें निश्चित होने की आवश्यकता है।",
                         "ur": "اکثر یہ محض ایک جینیاتی رجحان ہوتا ہے، لیکن ہمیں یقین ہونا چاہیے۔",
                         "tr": "Çoğu zaman sadece genetik bir yatkınlık söz konusudur, ancak emin olmalıyız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_05_line5.mp3"
                 },
                 {
                     "speaker": "Frau Meier",
@@ -1164,7 +1227,8 @@
                         "hi": "आपका बहुत-बहुत धन्यवाद, डॉक्टर। मैं इसकी सराहना करता हूं।",
                         "ur": "آپ کا بہت شکریہ، ڈاکٹر۔ میں اس کی تعریف کرتا ہوں۔",
                         "tr": "Çok teşekkür ederim Doktor. Bunu takdir ediyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_27/dialogues/d27_05_line6.mp3"
                 }
             ],
             "id": "d27_05"

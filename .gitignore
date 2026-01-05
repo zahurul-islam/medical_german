@@ -72,3 +72,7 @@ build_log*.txt
 # Metadata
 .metadata
 scripts/node_modules/
+
+# Firebase Admin SDK credentials
+german-med-firebase-adminsdk-*.json
+*-firebase-adminsdk-*.json

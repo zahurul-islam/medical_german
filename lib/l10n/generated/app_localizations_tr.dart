@@ -76,12 +76,12 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String sectionsCompleted(int count) {
-    return '$count sections completed';
+    return '$count bölüm tamamlandı';
   }
 
   @override
   String level(String level) {
-    return 'Level $level';
+    return 'Seviye $level';
   }
 
   @override
@@ -118,7 +118,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get sections => 'Bölümler';
 
   @override
-  String get section => 'Section';
+  String get section => 'Bölüm';
 
   @override
   String get vocabulary => 'Kelime Bilgisi';
@@ -131,7 +131,7 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String minutes(int min) {
-    return '$min min';
+    return '$min dakika';
   }
 
   @override
@@ -153,10 +153,10 @@ class AppLocalizationsTr extends AppLocalizations {
   String get flashcards => 'Bilgi Kartları';
 
   @override
-  String get tapToSeeTranslation => 'Tap to see translation';
+  String get tapToSeeTranslation => 'Çeviriyi görmek için dokunun';
 
   @override
-  String get tapToSeeGerman => 'Tap to see German';
+  String get tapToSeeGerman => 'Almanca\'yı görmek için dokunun';
 
   @override
   String get next => 'İleri';
@@ -187,7 +187,7 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String questionsCompleted(int current, int total) {
-    return '$current of $total';
+    return '$total üzerinden $current';
   }
 
   @override
@@ -198,7 +198,7 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String score(int correct, int total) {
-    return 'You got $correct out of $total correct';
+    return '$total üzerinden $correct doğru';
   }
 
   @override
@@ -217,28 +217,28 @@ class AppLocalizationsTr extends AppLocalizations {
   String get notifications => 'Bildirimler';
 
   @override
-  String get downloads => 'Downloads';
+  String get downloads => 'İndirmeler';
 
   @override
-  String get manageOfflineContent => 'Manage offline content';
+  String get manageOfflineContent => 'Çevrimdışı içeriği yönet';
 
   @override
-  String get helpFaq => 'Help & FAQ';
+  String get helpFaq => 'Yardım ve SSS';
 
   @override
-  String get contactUs => 'Contact Us';
+  String get contactUs => 'Bize Ulaşın';
 
   @override
-  String get privacyPolicy => 'Privacy Policy';
+  String get privacyPolicy => 'Gizlilik Politikası';
 
   @override
-  String get termsOfService => 'Terms of Service';
+  String get termsOfService => 'Hizmet Şartları';
 
   @override
   String get signOut => 'Çıkış Yap';
 
   @override
-  String get signOutConfirm => 'Are you sure you want to sign out?';
+  String get signOutConfirm => 'Çıkış yapmak istediğinizden emin misiniz?';
 
   @override
   String get cancel => 'İptal';
@@ -256,7 +256,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get loading => 'Yükleniyor...';
 
   @override
-  String get noInternetConnection => 'No internet connection';
+  String get noInternetConnection => 'İnternet bağlantısı yok';
 
   @override
   String get comingSoon => 'Yakında';

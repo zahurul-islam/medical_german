@@ -22,6 +22,18 @@
   "settings": "ترتیبات",
   "continueLeaning": "سیکھنا جاری رکھیں",
   "yourProgress": "آپ کی پیش رفت",
+  "sectionsCompleted": "{count} حصے مکمل",
+  "@sectionsCompleted": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "level": "سطح {level}",
+  "@level": {
+    "placeholders": {
+      "level": {"type": "String"}
+    }
+  },
   "dayStreak": "دن کا سلسلہ",
   "points": "پوائنٹس",
   "learningPhases": "سیکھنے کے مراحل",
@@ -32,15 +44,24 @@
   "phase3Title": "پیشہ ورانہ مہارت اور FSP",
   "phase3Desc": "اعلیٰ دستاویزات، تخصصات اور امتحان کی تیاری۔",
   "sections": "حصے",
+  "section": "حصہ",
   "vocabulary": "ذخیرہ الفاظ",
   "dialogue": "مکالمہ",
   "exercises": "مشقیں",
+  "minutes": "{min} منٹ",
+  "@minutes": {
+    "placeholders": {
+      "min": {"type": "int"}
+    }
+  },
   "introduction": "تعارف",
   "grammarFocus": "گرامر فوکس",
   "culturalNotes": "ثقافتی نوٹس",
   "summary": "خلاصہ",
   "learningObjectives": "سیکھنے کے مقاصد",
   "flashcards": "فلیش کارڈز",
+  "tapToSeeTranslation": "ترجمہ دیکھنے کے لیے ٹیپ کریں",
+  "tapToSeeGerman": "جرمن دیکھنے کے لیے ٹیپ کریں",
   "next": "اگلا",
   "previous": "پچھلا",
   "done": "مکمل",
@@ -50,18 +71,40 @@
   "incorrect": "غلط",
   "explanation": "وضاحت",
   "tryAgain": "دوبارہ کوشش کریں",
+  "questionsCompleted": "{total} میں سے {current}",
+  "@questionsCompleted": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
   "greatJob": "بہت اچھا!",
   "keepPracticing": "مشق جاری رکھیں!",
+  "score": "آپ نے {total} میں سے {correct} صحیح حاصل کیے",
+  "@score": {
+    "placeholders": {
+      "correct": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
   "levelProgress": "سطح کی پیش رفت",
   "recentActivity": "حالیہ سرگرمی",
   "sourceLanguage": "ماخذ زبان",
   "darkMode": "ڈارک موڈ",
   "notifications": "اطلاعات",
+  "downloads": "ڈاؤن لوڈز",
+  "manageOfflineContent": "آف لائن مواد کا انتظام کریں",
+  "helpFaq": "مدد اور سوالات",
+  "contactUs": "ہم سے رابطہ کریں",
+  "privacyPolicy": "رازداری کی پالیسی",
+  "termsOfService": "سروس کی شرائط",
   "signOut": "سائن آؤٹ",
+  "signOutConfirm": "کیا آپ سائن آؤٹ کرنا چاہتے ہیں؟",
   "cancel": "منسوخ",
   "close": "بند کریں",
   "error": "خرابی",
   "retry": "دوبارہ کوشش",
   "loading": "لوڈ ہو رہا ہے...",
+  "noInternetConnection": "انٹرنیٹ کنکشن نہیں ہے",
   "comingSoon": "جلد آ رہا ہے"
 }

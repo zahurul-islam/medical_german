@@ -76,12 +76,12 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String sectionsCompleted(int count) {
-    return '$count sections completed';
+    return '$count अनुभाग पूर्ण';
   }
 
   @override
   String level(String level) {
-    return 'Level $level';
+    return 'स्तर $level';
   }
 
   @override
@@ -118,7 +118,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get sections => 'अनुभाग';
 
   @override
-  String get section => 'Section';
+  String get section => 'अनुभाग';
 
   @override
   String get vocabulary => 'शब्दावली';
@@ -131,7 +131,7 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String minutes(int min) {
-    return '$min min';
+    return '$min मिनट';
   }
 
   @override
@@ -153,10 +153,10 @@ class AppLocalizationsHi extends AppLocalizations {
   String get flashcards => 'फ्लैशकार्ड';
 
   @override
-  String get tapToSeeTranslation => 'Tap to see translation';
+  String get tapToSeeTranslation => 'अनुवाद देखने के लिए टैप करें';
 
   @override
-  String get tapToSeeGerman => 'Tap to see German';
+  String get tapToSeeGerman => 'जर्मन देखने के लिए टैप करें';
 
   @override
   String get next => 'अगला';
@@ -187,7 +187,7 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String questionsCompleted(int current, int total) {
-    return '$current of $total';
+    return '$total में से $current';
   }
 
   @override
@@ -198,7 +198,7 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String score(int correct, int total) {
-    return 'You got $correct out of $total correct';
+    return 'आपने $total में से $correct सही पाए';
   }
 
   @override
@@ -217,28 +217,28 @@ class AppLocalizationsHi extends AppLocalizations {
   String get notifications => 'सूचनाएं';
 
   @override
-  String get downloads => 'Downloads';
+  String get downloads => 'डाउनलोड';
 
   @override
-  String get manageOfflineContent => 'Manage offline content';
+  String get manageOfflineContent => 'ऑफ़लाइन सामग्री प्रबंधित करें';
 
   @override
-  String get helpFaq => 'Help & FAQ';
+  String get helpFaq => 'सहायता और FAQ';
 
   @override
-  String get contactUs => 'Contact Us';
+  String get contactUs => 'संपर्क करें';
 
   @override
-  String get privacyPolicy => 'Privacy Policy';
+  String get privacyPolicy => 'गोपनीयता नीति';
 
   @override
-  String get termsOfService => 'Terms of Service';
+  String get termsOfService => 'सेवा की शर्तें';
 
   @override
   String get signOut => 'साइन आउट';
 
   @override
-  String get signOutConfirm => 'Are you sure you want to sign out?';
+  String get signOutConfirm => 'क्या आप साइन आउट करना चाहते हैं?';
 
   @override
   String get cancel => 'रद्द करें';
@@ -256,7 +256,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get loading => 'लोड हो रहा है...';
 
   @override
-  String get noInternetConnection => 'No internet connection';
+  String get noInternetConnection => 'इंटरनेट कनेक्शन नहीं है';
 
   @override
   String get comingSoon => 'जल्द आ रहा है';

@@ -32,30 +32,12 @@
             "tr": "Bu modülde, tıbbi ortamlarda hasta bilgilerini belgeleme için önemli Almanca terimleri öğreneceksiniz. 'Akte', 'Verlauf', 'Pflegebericht', 'Kurve' kavramlarının nüanslarını ve 'Unterschrift'in önemini inceleyeceğiz."
         },
         "grammarFocus": {
-            "en": [
-                "Pay attention to the gender of nouns, as it affects article usage (der, die, das) in documentation.",
-                "Practice using accusative and dative cases with prepositions related to locations in a patient's chart (e.g., 'im Verlauf', 'in der Akte')."
-            ],
-            "de": [
-                "Achten Sie auf das Genus der Substantive, da dies den Artikelgebrauch (der, die, das) in der Dokumentation beeinflusst.",
-                "Üben Sie die Verwendung von Akkusativ und Dativ mit Präpositionen, die sich auf Orte in der Patientenakte beziehen (z.B. 'im Verlauf', 'in der Akte')."
-            ],
-            "bn": [
-                "বিশেষ্যের লিঙ্গের দিকে মনোযোগ দিন, কারণ এটি ডকুমেন্টেশনে নিবন্ধের ব্যবহারকে প্রভাবিত করে (der, die, das)।",
-                "রোগীর চার্টে অবস্থানের সাথে সম্পর্কিত প্রিপোজিশনের সাথে আকুসেটিভ এবং ডেটিভ কেস ব্যবহার করে অনুশীলন করুন (যেমন, 'im Verlauf', 'in der Akte')।"
-            ],
-            "hi": [
-                "संज्ञा के लिंग पर ध्यान दें, क्योंकि यह प्रलेखन में लेख उपयोग (der, die, das) को प्रभावित करता है।",
-                "रोगी के चार्ट में स्थानों से संबंधित पूर्वसर्गीय के साथ कर्मकारक और संप्रदान कारक का उपयोग करने का अभ्यास करें (जैसे, 'im Verlauf', 'in der Akte')।"
-            ],
-            "ur": [
-                "اسموں کی جنس پر توجہ دیں، کیونکہ یہ دستاویزات میں مضمون کے استعمال (der, die, das) کو متاثر کرتا ہے۔",
-                "مریض کے چارٹ میں مقامات سے متعلق حروفِ اضافت کے ساتھ الزامی اور اضافی صورتوں کا استعمال کرنے کی مشق کریں (مثال کے طور پر، 'im Verlauf'، 'in der Akte')۔"
-            ],
-            "tr": [
-                "İsimlerin cinsiyetine dikkat edin, çünkü bu, dokümantasyonda makale kullanımını (der, die, das) etkiler.",
-                "Bir hastanın çizelgesindeki konumlarla ilgili edatlarla belirtme ve yönelme hallerini kullanmayı uygulayın (örneğin, 'im Verlauf', 'in der Akte')."
-            ]
+            "en": "**Advanced Medical German Grammar for Section 34**\n\nThis section focuses on C1-level language skills essential for medical practice.\n\n*Key Grammar Points:*\n\n**1. Complex Sentence Structures:**\nGerman medical documentation requires subordinate clauses with proper word order:\n- 'Da der Patient über Schmerzen klagte, wurde ein CT durchgeführt.'\n- 'Nachdem die Ergebnisse vorlagen, konnte die Diagnose gestellt werden.'\n\n**2. Passive Voice in Medical Reporting:**\n- 'Es wurde beschlossen...' (It was decided...)\n- 'Es konnte festgestellt werden...' (It could be determined...)\n- 'Der Patient wird weiterhin überwacht.' (The patient continues to be monitored.)\n\n**3. Konjunktiv I for Indirect Speech:**\nUsed in professional reports to convey patient statements:\n- 'Der Patient sagte, er habe Schmerzen.' (The patient said he had pain.)\n- 'Sie gab an, sie sei allergisch gegen Penicillin.' (She stated she was allergic to penicillin.)\n\n**4. Modal Verbs in Passive:**\n- 'Die Medikamente müssen eingenommen werden.' (The medications must be taken.)\n- 'Die Dosierung sollte angepasst werden.' (The dosage should be adjusted.)\n- 'Ein EKG kann durchgeführt werden.' (An ECG can be performed.)\n\n*Professional Communication Examples:*\n- 'Aufgrund der vorliegenden Befunde empfehlen wir...'\n- 'Im Hinblick auf die Risikofaktoren sollte...'\n- 'Bei persistierenden Beschwerden bitten wir um Wiedervorstellung.'",
+            "de": "**Fortgeschrittene medizinische deutsche Grammatik für Abschnitt 34**\n\nDieser Abschnitt konzentriert sich auf C1-Sprachkenntnisse für die medizinische Praxis.\n\n*Wichtige Grammatikpunkte:*\n\n**1. Komplexe Satzstrukturen:**\n- 'Da der Patient über Schmerzen klagte, wurde ein CT durchgeführt.'\n- 'Nachdem die Ergebnisse vorlagen, konnte die Diagnose gestellt werden.'\n\n**2. Passiv in der medizinischen Berichterstattung:**\n- 'Es wurde beschlossen...'\n- 'Es konnte festgestellt werden...'\n- 'Der Patient wird weiterhin überwacht.'\n\n**3. Konjunktiv I für indirekte Rede:**\n- 'Der Patient sagte, er habe Schmerzen.'\n- 'Sie gab an, sie sei allergisch gegen Penicillin.'\n\n**4. Modalverben im Passiv:**\n- 'Die Medikamente müssen eingenommen werden.'\n- 'Die Dosierung sollte angepasst werden.'\n- 'Ein EKG kann durchgeführt werden.'\n\n*Professionelle Kommunikationsbeispiele:*\n- 'Aufgrund der vorliegenden Befunde empfehlen wir...'\n- 'Im Hinblick auf die Risikofaktoren sollte...'\n- 'Bei persistierenden Beschwerden bitten wir um Wiedervorstellung.'",
+            "bn": "**Advanced Medical German Grammar for Section 34**\n\nThis section focuses on C1-level language skills essential for medical practice.\n\n*Key Grammar Points:*\n\n**1. Complex Sentence Structures:**\nGerman medical documentation requires subordinate clauses with proper word order:\n- 'Da der Patient über Schmerzen klagte, wurde ein CT durchgeführt.'\n- 'Nachdem die Ergebnisse vorlagen, konnte die Diagnose gestellt werden.'\n\n**2. Passive Voice in Medical Reporting:**\n- 'Es wurde beschlossen...' (It was decided...)\n- 'Es konnte festgestellt werden...' (It could be determined...)\n- 'Der Patient wird weiterhin überwacht.' (The patient continues to be monitored.)\n\n**3. Konjunktiv I for Indirect Speech:**\nUsed in professional reports to convey patient statements:\n- 'Der Patient sagte, er habe Schmerzen.' (The patient said he had pain.)\n- 'Sie gab an, sie sei allergisch gegen Penicillin.' (She stated she was allergic to penicillin.)\n\n**4. Modal Verbs in Passive:**\n- 'Die Medikamente müssen eingenommen werden.' (The medications must be taken.)\n- 'Die Dosierung sollte angepasst werden.' (The dosage should be adjusted.)\n- 'Ein EKG kann durchgeführt werden.' (An ECG can be performed.)\n\n*Professional Communication Examples:*\n- 'Aufgrund der vorliegenden Befunde empfehlen wir...'\n- 'Im Hinblick auf die Risikofaktoren sollte...'\n- 'Bei persistierenden Beschwerden bitten wir um Wiedervorstellung.'",
+            "hi": "**Advanced Medical German Grammar for Section 34**\n\nThis section focuses on C1-level language skills essential for medical practice.\n\n*Key Grammar Points:*\n\n**1. Complex Sentence Structures:**\nGerman medical documentation requires subordinate clauses with proper word order:\n- 'Da der Patient über Schmerzen klagte, wurde ein CT durchgeführt.'\n- 'Nachdem die Ergebnisse vorlagen, konnte die Diagnose gestellt werden.'\n\n**2. Passive Voice in Medical Reporting:**\n- 'Es wurde beschlossen...' (It was decided...)\n- 'Es konnte festgestellt werden...' (It could be determined...)\n- 'Der Patient wird weiterhin überwacht.' (The patient continues to be monitored.)\n\n**3. Konjunktiv I for Indirect Speech:**\nUsed in professional reports to convey patient statements:\n- 'Der Patient sagte, er habe Schmerzen.' (The patient said he had pain.)\n- 'Sie gab an, sie sei allergisch gegen Penicillin.' (She stated she was allergic to penicillin.)\n\n**4. Modal Verbs in Passive:**\n- 'Die Medikamente müssen eingenommen werden.' (The medications must be taken.)\n- 'Die Dosierung sollte angepasst werden.' (The dosage should be adjusted.)\n- 'Ein EKG kann durchgeführt werden.' (An ECG can be performed.)\n\n*Professional Communication Examples:*\n- 'Aufgrund der vorliegenden Befunde empfehlen wir...'\n- 'Im Hinblick auf die Risikofaktoren sollte...'\n- 'Bei persistierenden Beschwerden bitten wir um Wiedervorstellung.'",
+            "ur": "**Advanced Medical German Grammar for Section 34**\n\nThis section focuses on C1-level language skills essential for medical practice.\n\n*Key Grammar Points:*\n\n**1. Complex Sentence Structures:**\nGerman medical documentation requires subordinate clauses with proper word order:\n- 'Da der Patient über Schmerzen klagte, wurde ein CT durchgeführt.'\n- 'Nachdem die Ergebnisse vorlagen, konnte die Diagnose gestellt werden.'\n\n**2. Passive Voice in Medical Reporting:**\n- 'Es wurde beschlossen...' (It was decided...)\n- 'Es konnte festgestellt werden...' (It could be determined...)\n- 'Der Patient wird weiterhin überwacht.' (The patient continues to be monitored.)\n\n**3. Konjunktiv I for Indirect Speech:**\nUsed in professional reports to convey patient statements:\n- 'Der Patient sagte, er habe Schmerzen.' (The patient said he had pain.)\n- 'Sie gab an, sie sei allergisch gegen Penicillin.' (She stated she was allergic to penicillin.)\n\n**4. Modal Verbs in Passive:**\n- 'Die Medikamente müssen eingenommen werden.' (The medications must be taken.)\n- 'Die Dosierung sollte angepasst werden.' (The dosage should be adjusted.)\n- 'Ein EKG kann durchgeführt werden.' (An ECG can be performed.)\n\n*Professional Communication Examples:*\n- 'Aufgrund der vorliegenden Befunde empfehlen wir...'\n- 'Im Hinblick auf die Risikofaktoren sollte...'\n- 'Bei persistierenden Beschwerden bitten wir um Wiedervorstellung.'",
+            "tr": "**Advanced Medical German Grammar for Section 34**\n\nThis section focuses on C1-level language skills essential for medical practice.\n\n*Key Grammar Points:*\n\n**1. Complex Sentence Structures:**\nGerman medical documentation requires subordinate clauses with proper word order:\n- 'Da der Patient über Schmerzen klagte, wurde ein CT durchgeführt.'\n- 'Nachdem die Ergebnisse vorlagen, konnte die Diagnose gestellt werden.'\n\n**2. Passive Voice in Medical Reporting:**\n- 'Es wurde beschlossen...' (It was decided...)\n- 'Es konnte festgestellt werden...' (It could be determined...)\n- 'Der Patient wird weiterhin überwacht.' (The patient continues to be monitored.)\n\n**3. Konjunktiv I for Indirect Speech:**\nUsed in professional reports to convey patient statements:\n- 'Der Patient sagte, er habe Schmerzen.' (The patient said he had pain.)\n- 'Sie gab an, sie sei allergisch gegen Penicillin.' (She stated she was allergic to penicillin.)\n\n**4. Modal Verbs in Passive:**\n- 'Die Medikamente müssen eingenommen werden.' (The medications must be taken.)\n- 'Die Dosierung sollte angepasst werden.' (The dosage should be adjusted.)\n- 'Ein EKG kann durchgeführt werden.' (An ECG can be performed.)\n\n*Professional Communication Examples:*\n- 'Aufgrund der vorliegenden Befunde empfehlen wir...'\n- 'Im Hinblick auf die Risikofaktoren sollte...'\n- 'Bei persistierenden Beschwerden bitten wir um Wiedervorstellung.'"
         },
         "culturalNotes": {
             "en": "German medical documentation is known for its thoroughness and precision, often requiring detailed records of all patient interactions and treatments.",
@@ -73,12 +55,38 @@
             "ur": "اس حصے نے آپ کو جرمن بولنے والے صحت کی دیکھ بھال کے ماحول میں طبی دستاویزات کے طریقوں کو سمجھنے کے لیے ضروری الفاظ اور ثقافتی بصیرت فراہم کی ہے۔",
             "tr": "Bu bölüm size Almanca konuşulan sağlık hizmeti ortamlarında tıbbi dokümantasyon uygulamalarını anlamak için gerekli kelime dağarcığını ve kültürel bilgileri sağlamıştır."
         },
-        "learningObjectives": [
-            "Identify and define key German terms related to medical documentation.",
-            "Understand the structure and components of a typical German patient record.",
-            "Recognize the importance of accurate and thorough documentation in German healthcare.",
-            "Apply German medical vocabulary to describe common documentation tasks."
-        ]
+        "learningObjectives": {
+            "en": [
+                "Identify and define key German terms related to medical documentation.",
+                "Understand the structure and components of a typical German patient record.",
+                "Recognize the importance of accurate and thorough documentation in German healthcare.",
+                "Apply German medical vocabulary to describe common documentation tasks."
+            ],
+            "bn": [
+                "Identify and define key German terms related to medical documentation.",
+                "বুঝুন the structure and components of a typical German patient record.",
+                "Recognize the importance of accurate and thorough documentation in German healthcare.",
+                "প্রয়োগ করুন German medical vocabulary to describe common documentation tasks."
+            ],
+            "hi": [
+                "Identify and define key German terms related to medical documentation.",
+                "समझें the structure and components of a typical German patient record.",
+                "Recognize the importance of accurate and thorough documentation in German healthcare.",
+                "लागू करें German medical vocabulary to describe common documentation tasks."
+            ],
+            "ur": [
+                "Identify and define key German terms related to medical documentation.",
+                "سمجھیں the structure and components of a typical German patient record.",
+                "Recognize the importance of accurate and thorough documentation in German healthcare.",
+                "لاگو کریں German medical vocabulary to describe common documentation tasks."
+            ],
+            "tr": [
+                "Identify and define key German terms related to medical documentation.",
+                "Anlayın the structure and components of a typical German patient record.",
+                "Recognize the importance of accurate and thorough documentation in German healthcare.",
+                "Uygulayın German medical vocabulary to describe common documentation tasks."
+            ]
+        }
     },
     "vocabulary": [
         {
@@ -102,7 +110,8 @@
                 "ur": "صحیح دستاویزی عمل مریض کی دیکھ بھال کے لیے اہم ہے۔",
                 "tr": "Doğru belgeleme hasta bakımı için çok önemlidir."
             },
-            "id": "v34_01"
+            "id": "v34_01",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_01.mp3"
         },
         {
             "germanTerm": "Akte",
@@ -125,7 +134,8 @@
                 "ur": "مریض کی فائل کو مکمل رکھنا ضروری ہے۔",
                 "tr": "Hasta dosyası eksiksiz tutulmalıdır."
             },
-            "id": "v34_02"
+            "id": "v34_02",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_02.mp3"
         },
         {
             "germanTerm": "Verlauf",
@@ -148,7 +158,8 @@
                 "ur": "مرض کا دورانیہ غیر متوقع تھا۔",
                 "tr": "Hastalığın seyri beklenmedikti."
             },
-            "id": "v34_03"
+            "id": "v34_03",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_03.mp3"
         },
         {
             "germanTerm": "Pflegebericht",
@@ -171,7 +182,8 @@
                 "ur": "نرسنگ رپورٹ میں مریض کے بارے میں اہم معلومات موجود ہیں۔",
                 "tr": "Hemşirelik raporu hastayla ilgili önemli bilgiler içerir."
             },
-            "id": "v34_04"
+            "id": "v34_04",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_04.mp3"
         },
         {
             "germanTerm": "Kurve",
@@ -194,7 +206,8 @@
                 "ur": "اہم علامات ایک گراف میں دکھائی گئی ہیں۔",
                 "tr": "Yaşamsal belirtiler bir grafikte gösterilir."
             },
-            "id": "v34_05"
+            "id": "v34_05",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_05.mp3"
         },
         {
             "germanTerm": "Unterschrift",
@@ -217,7 +230,8 @@
                 "ur": "رضامندی فارم پر آپ کے دستخط کی ضرورت ہے۔",
                 "tr": "Onay formu imzanızı gerektirir."
             },
-            "id": "v34_06"
+            "id": "v34_06",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_06.mp3"
         },
         {
             "germanTerm": "anamnestisch",
@@ -240,7 +254,8 @@
                 "ur": "معلومات انامنیسٹک طور پر اہم ہے۔",
                 "tr": "Bilgi anamnestik olarak önemlidir."
             },
-            "id": "v34_07"
+            "id": "v34_07",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_07.mp3"
         },
         {
             "germanTerm": "dokumentieren",
@@ -263,7 +278,8 @@
                 "ur": "ڈاکٹر کو تمام علاج کو دستاویز کرنا ہوگا۔",
                 "tr": "Doktor tüm tedavileri belgelemelidir."
             },
-            "id": "v34_08"
+            "id": "v34_08",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_08.mp3"
         },
         {
             "germanTerm": "Entlassungsbericht",
@@ -286,7 +302,8 @@
                 "ur": "ڈسچارج رپورٹ فیملی ڈاکٹر کو بھیجی جاتی ہے۔",
                 "tr": "Taburcu raporu aile hekimine gönderilir."
             },
-            "id": "v34_09"
+            "id": "v34_09",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_09.mp3"
         },
         {
             "germanTerm": "Befund",
@@ -309,7 +326,8 @@
                 "ur": "ریڈیولوجیکل نتیجہ غیر معمولی ہے۔",
                 "tr": "Radyolojik bulgu dikkat çekici değil."
             },
-            "id": "v34_10"
+            "id": "v34_10",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_10.mp3"
         },
         {
             "germanTerm": "Visite",
@@ -332,7 +350,8 @@
                 "ur": "وارڈ کا دورہ روزانہ صبح 9 بجے ہوتا ہے۔",
                 "tr": "Vizit her gün sabah 9'da yapılır."
             },
-            "id": "v34_11"
+            "id": "v34_11",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_11.mp3"
         },
         {
             "germanTerm": "Patientenprotokoll",
@@ -355,7 +374,8 @@
                 "ur": "مریض کے ریکارڈ میں تمام متعلقہ ڈیٹا شامل ہیں۔",
                 "tr": "Hasta kaydı tüm ilgili verileri içerir."
             },
-            "id": "v34_12"
+            "id": "v34_12",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_12.mp3"
         },
         {
             "germanTerm": "Anamnese",
@@ -378,7 +398,8 @@
                 "ur": "طبی تاریخ تشخیص کا ایک اہم حصہ ہے۔",
                 "tr": "Tıbbi geçmiş teşhisin önemli bir parçasıdır."
             },
-            "id": "v34_13"
+            "id": "v34_13",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_13.mp3"
         },
         {
             "germanTerm": "akribisch",
@@ -401,7 +422,8 @@
                 "ur": "دستاویزی عمل باریک ہونا چاہیے۔",
                 "tr": "Belgeleme titizlikle yapılmalıdır."
             },
-            "id": "v34_14"
+            "id": "v34_14",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_14.mp3"
         },
         {
             "germanTerm": "Handschrift",
@@ -424,7 +446,8 @@
                 "ur": "ڈاکٹر کی خوش خطی پڑھنا مشکل ہے۔",
                 "tr": "Doktorun el yazısı okumak zordur."
             },
-            "id": "v34_15"
+            "id": "v34_15",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_15.mp3"
         },
         {
             "germanTerm": "Formular",
@@ -447,7 +470,8 @@
                 "ur": "برائے مہربانی فارم کو مکمل طور پر بھریں۔",
                 "tr": "Lütfen formu tamamen doldurun."
             },
-            "id": "v34_16"
+            "id": "v34_16",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_16.mp3"
         },
         {
             "germanTerm": "konsultieren",
@@ -470,7 +494,8 @@
                 "ur": "ہمیں ماہر سے مشورہ کرنا ہوگا۔",
                 "tr": "Uzmana danışmamız gerekiyor."
             },
-            "id": "v34_17"
+            "id": "v34_17",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_17.mp3"
         },
         {
             "germanTerm": "archivieren",
@@ -493,7 +518,8 @@
                 "ur": "فائلیں الیکٹرانک طور پر محفوظ کی جاتی ہیں۔",
                 "tr": "Dosyalar elektronik olarak arşivlenir."
             },
-            "id": "v34_18"
+            "id": "v34_18",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_18.mp3"
         },
         {
             "germanTerm": "Schweigepflicht",
@@ -516,7 +542,8 @@
                 "ur": "ڈاکٹر رازداری کے پابند ہیں۔",
                 "tr": "Doktorlar gizliliğe tabidir."
             },
-            "id": "v34_19"
+            "id": "v34_19",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_19.mp3"
         },
         {
             "germanTerm": "Medikationsplan",
@@ -539,7 +566,8 @@
                 "ur": "مریض کو ایک جدید ادویات کا منصوبہ درکار ہے۔",
                 "tr": "Hastanın güncel bir ilaç planına ihtiyacı var."
             },
-            "id": "v34_20"
+            "id": "v34_20",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_20.mp3"
         },
         {
             "germanTerm": "Einverständniserklärung",
@@ -562,7 +590,8 @@
                 "ur": "آپریشن سے پہلے ایک رضامندی کا فارم ضروری ہے۔",
                 "tr": "Ameliyattan önce bir onay formu gereklidir."
             },
-            "id": "v34_21"
+            "id": "v34_21",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_21.mp3"
         },
         {
             "germanTerm": "Diagnose",
@@ -585,7 +614,8 @@
                 "ur": "مزید جانچ سے تشخیص کی تصدیق ہوگئی۔",
                 "tr": "Teşhis daha fazla testle doğrulandı."
             },
-            "id": "v34_22"
+            "id": "v34_22",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_22.mp3"
         },
         {
             "germanTerm": "Therapieplan",
@@ -608,7 +638,8 @@
                 "ur": "تھراپی منصوبہ انفرادی طور پر تیار کیا گیا ہے۔",
                 "tr": "Terapi planı bireysel olarak uyarlanmıştır."
             },
-            "id": "v34_23"
+            "id": "v34_23",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_23.mp3"
         },
         {
             "germanTerm": "protokollieren",
@@ -631,7 +662,8 @@
                 "ur": "تمام واقعات کو درست طور پر ریکارڈ کیا جانا چاہئے۔",
                 "tr": "Tüm olaylar doğru bir şekilde kaydedilmelidir."
             },
-            "id": "v34_24"
+            "id": "v34_24",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_24.mp3"
         },
         {
             "germanTerm": "Revisionssicher",
@@ -654,7 +686,8 @@
                 "ur": "ڈیٹا کو آڈٹ پروف طریقے سے محفوظ کیا جانا چاہئے۔",
                 "tr": "Veriler denetime dayanıklı bir şekilde saklanmalıdır."
             },
-            "id": "v34_25"
+            "id": "v34_25",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_25.mp3"
         },
         {
             "germanTerm": "Zugriff",
@@ -677,7 +710,8 @@
                 "ur": "صرف مجاز افراد کو ڈیٹا تک رسائی حاصل ہے۔",
                 "tr": "Yalnızca yetkili kişilerin verilere erişimi vardır."
             },
-            "id": "v34_26"
+            "id": "v34_26",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_26.mp3"
         },
         {
             "germanTerm": "Fallakte",
@@ -700,7 +734,8 @@
                 "ur": "کیس فائل میں مریض کے بارے میں تمام متعلقہ معلومات شامل ہیں۔",
                 "tr": "Vaka dosyası hastayla ilgili tüm ilgili bilgileri içerir."
             },
-            "id": "v34_27"
+            "id": "v34_27",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_27.mp3"
         },
         {
             "germanTerm": "verfügen",
@@ -723,7 +758,8 @@
                 "ur": "ڈاکٹر ادویات تجویز کر سکتے ہیں۔",
                 "tr": "Doktor ilaç yazabilir."
             },
-            "id": "v34_28"
+            "id": "v34_28",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_28.mp3"
         },
         {
             "germanTerm": "elektronisch",
@@ -746,7 +782,8 @@
                 "ur": "دستاویزی عمل الیکٹرانک طور پر کیا جاتا ہے۔",
                 "tr": "Belgeleme elektronik olarak yapılır."
             },
-            "id": "v34_29"
+            "id": "v34_29",
+            "audioUrl": "assets/audio/sections/section_34/vocabulary/v34_29.mp3"
         }
     ],
     "dialogues": [
@@ -776,7 +813,8 @@
                         "hi": "सिस्टर वेबर, क्या आपने पहले ही मिस्टर मुलर के लिए फ़ाइल बना ली है?",
                         "ur": "سسٹر ویبر، کیا آپ نے پہلے ہی مسٹر مولر کے لیے فائل بنا لی ہے؟",
                         "tr": "Hemşire Weber, Bay Müller için dosyayı zaten oluşturdunuz mu?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_01_line1.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -788,7 +826,8 @@
                         "hi": "हाँ, डॉ. श्मिट। मास्टर डेटा रिकॉर्ड हो गया है, और नर्सिंग रिपोर्ट शुरू हो रही है।",
                         "ur": "جی ہاں، ڈاکٹر شمٹ۔ بنیادی ڈیٹا ریکارڈ کیا گیا ہے، اور نرسنگ رپورٹ شروع ہو رہی ہے۔",
                         "tr": "Evet, Dr. Schmidt. Ana veriler kaydedildi ve hemşirelik raporu başlıyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_01_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -800,7 +839,8 @@
                         "hi": "अच्छा। कृपया एलर्जी और वर्तमान दवा पर विशेष ध्यान दें। फाइल में सब कुछ दर्ज करें।",
                         "ur": "اچھی بات ہے۔ براہ کرم الرجی اور موجودہ ادویات پر خاص توجہ دیں۔ فائل میں سب کچھ دستاویز کریں۔",
                         "tr": "Güzel. Lütfen alerjilere ve mevcut ilaçlara özellikle dikkat edin. Her şeyi dosyada belgeleyin."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_01_line3.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -812,7 +852,8 @@
                         "hi": "बेशक। मैं नर्सिंग रिपोर्ट में सब कुछ दर्ज करूंगा।",
                         "ur": "یقینا۔ میں نرسنگ رپورٹ میں سب کچھ درج کروں گا۔",
                         "tr": "Elbette. Her şeyi hemşirelik raporuna gireceğim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_01_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -824,7 +865,8 @@
                         "hi": "उत्तम। फिर मैं चिकित्सा इतिहास का दस्तावेजीकरण करूंगा।",
                         "ur": "بالکل درست۔ پھر میں طبی تاریخ کو دستاویزی شکل دوں گا۔",
                         "tr": "Mükemmel. O zaman tıbbi geçmişi belgeleyeceğim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_01_line5.mp3"
                 }
             ],
             "id": "d34_01"
@@ -855,7 +897,8 @@
                         "hi": "तो, श्री क्लेन, अब मैं आपके महत्वपूर्ण संकेत मापूँगा। कृपया आराम करें।",
                         "ur": "تو، مسٹر کلین، اب میں آپ کے اہم علامات کی پیمائش کروں گا۔ براہ کرم آرام کریں۔",
                         "tr": "Peki, Bay Klein, şimdi hayati belirtilerinizi ölçeceğim. Lütfen rahatlayın."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_02_line1.mp3"
                 },
                 {
                     "speaker": "Patient Klein",
@@ -867,7 +910,8 @@
                         "hi": "ठीक है, सिस्टर।",
                         "ur": "ٹھیک ہے، سسٹر۔",
                         "tr": "Pekala, Hemşire."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_02_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Meier",
@@ -879,7 +923,8 @@
                         "hi": "आपका रक्तचाप थोड़ा बढ़ा हुआ है। मैं इसे चार्ट में नोट करूँगा।",
                         "ur": "آپ کا بلڈ پریشر قدرے بڑھا ہوا ہے۔ میں اسے چارٹ میں نوٹ کروں گا۔",
                         "tr": "Kan basıncınız biraz yüksek. Bunu grafiğe not edeceğim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_02_line3.mp3"
                 },
                 {
                     "speaker": "Patient Klein",
@@ -891,7 +936,8 @@
                         "hi": "क्या यह बुरा है?",
                         "ur": "کیا یہ برا ہے؟",
                         "tr": "Bu kötü mü?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_02_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Meier",
@@ -903,7 +949,8 @@
                         "hi": "ज़रूरी नहीं है, लेकिन हम इस पर नज़र रखेंगे। मैं डॉक्टर को सूचित करूँगा और इसे प्रगति रिपोर्ट में दर्ज करूँगा।",
                         "ur": "ضروری نہیں ہے، لیکن ہم اس پر نظر رکھیں گے۔ میں ڈاکٹر کو مطلع کروں گا اور اسے پیش رفت رپورٹ میں دستاویز کروں گا۔",
                         "tr": "Şart değil ama gözümüzü üzerinde tutacağız. Doktoru bilgilendireceğim ve ilerleme raporunda belgeleyeceğim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_02_line5.mp3"
                 }
             ],
             "id": "d34_02"
@@ -934,7 +981,8 @@
                         "hi": "शुभ प्रभात, श्रीमती श्मिट। यहाँ आपकी गोली है। कृपया इसे थोड़े पानी के साथ लें।",
                         "ur": "صبح بخیر، محترمہ شمٹ۔ یہاں آپ کی گولی ہے۔ براہ کرم اسے تھوڑے سے پانی کے ساتھ لیں۔",
                         "tr": "Günaydın, Bayan Schmidt. İşte tabletiniz. Lütfen biraz su ile alın."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_03_line1.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -946,7 +994,8 @@
                         "hi": "धन्यवाद, सिस्टर।",
                         "ur": "شکریہ، سسٹر۔",
                         "tr": "Teşekkürler, Hemşire."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_03_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Lisa",
@@ -958,7 +1007,8 @@
                         "hi": "(दवा योजना में उल्लेखित) टैबलेट दी गई। समय: 9:00। हस्ताक्षर: लिसा।",
                         "ur": "(ادویات کے منصوبے میں ذکر کیا گیا) ٹیبلٹ دی گئی۔ وقت: 9:00۔ دستخط: لیزا۔",
                         "tr": "(İlaç planında belirtildi) Tablet uygulandı. Saat: 9:00. İmza: Lisa."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_03_line3.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -970,7 +1020,8 @@
                         "hi": "क्या सब कुछ इतनी सटीक रूप से दर्ज करना महत्वपूर्ण है?",
                         "ur": "کیا ہر چیز کو اتنی درستگی سے دستاویزی شکل دینا اہم ہے؟",
                         "tr": "Her şeyi bu kadar kesin bir şekilde belgelemek önemli mi?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_03_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Lisa",
@@ -982,7 +1033,8 @@
                         "hi": "हाँ, श्रीमती श्मिट। यह आपकी सुरक्षा और उचित उपचार के लिए बहुत महत्वपूर्ण है। इस तरह, हम सटीक रूप से प्रगति को ट्रैक कर सकते हैं।",
                         "ur": "جی ہاں، محترمہ شمٹ۔ یہ آپ کی حفاظت اور مناسب علاج کے لیے بہت اہم ہے۔ اس طرح، ہم درست طریقے سے پیش رفت کو ٹریک کر سکتے ہیں۔",
                         "tr": "Evet, Bayan Schmidt. Bu, güvenliğiniz ve doğru tedavi için çok önemlidir. Bu şekilde, ilerlemeyi doğru bir şekilde takip edebiliriz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_03_line5.mp3"
                 }
             ],
             "id": "d34_03"
@@ -1013,7 +1065,8 @@
                         "hi": "देखते हैं कि श्री बेकर की प्रगति रिपोर्ट में क्या लिखा है...आह, सूजन के मान कम हो गए हैं।",
                         "ur": "آئیے دیکھتے ہیں کہ مسٹر بیکر کی پیش رفت رپورٹ میں کیا لکھا ہے...آہ، سوزش کی اقدار کم ہو گئی ہیں۔",
                         "tr": "Bakalım Bay Becker'in ilerleme raporunda ne yazıyor... Ah, iltihap değerleri düşmüş."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_04_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -1025,7 +1078,8 @@
                         "hi": "सिस्टर पेट्रा, क्या आपने नर्सिंग रिपोर्ट अपडेट कर दी है?",
                         "ur": "سسٹر پیٹرا، کیا آپ نے نرسنگ رپورٹ کو اپ ڈیٹ کر دیا ہے؟",
                         "tr": "Hemşire Petra, hemşirelik raporunu güncellediniz mi?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_04_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Petra",
@@ -1037,7 +1091,8 @@
                         "hi": "हाँ, डॉ. वेबर। वह अच्छी तरह सोया और उसे कोई दर्द नहीं हुआ। सब कुछ प्रलेखित है।",
                         "ur": "جی ہاں، ڈاکٹر ویبر۔ وہ اچھی طرح سویا اور اسے کوئی درد نہیں ہوا۔ سب کچھ دستاویزی شکل میں ہے۔",
                         "tr": "Evet, Dr. Weber. İyi uyudu ve ağrısı olmadı. Her şey belgelendi."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_04_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -1049,7 +1104,8 @@
                         "hi": "बहुत अच्छा। तो हम दर्द निवारक की खुराक कम कर सकते हैं। मैं इसे फ़ाइल में लिखूंगा और निर्धारित करूंगा।",
                         "ur": "بہت اچھا۔ تو ہم درد کش دوا کی خوراک کم کر سکتے ہیں۔ میں اسے فائل میں لکھوں گا اور تجویز کروں گا۔",
                         "tr": "Çok iyi. O zaman ağrı kesicinin dozunu azaltabiliriz. Bunu dosyaya yazacağım ve reçete edeceğim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_04_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Petra",
@@ -1061,7 +1117,8 @@
                         "hi": "बहुत बढ़िया, डॉ. वेबर। आदेश फ़ाइल में आते ही मैं चार्ट को तदनुसार समायोजित कर दूँगी।",
                         "ur": "بہت خوب، ڈاکٹر ویبر۔ جیسے ہی آرڈر فائل میں آئے گا میں چارٹ کو اس کے مطابق ایڈجسٹ کر دوں گی۔",
                         "tr": "Harika, Dr. Weber. Sipariş dosyaya girer girmez grafiği buna göre ayarlayacağım."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_04_line5.mp3"
                 }
             ],
             "id": "d34_04"
@@ -1092,7 +1149,8 @@
                         "hi": "श्रीमती लेहमन, यह आपकी डिस्चार्ज रिपोर्ट है। कृपया इसे ध्यान से पढ़ें।",
                         "ur": "محترمہ لیمان، یہاں آپ کی ڈسچارج رپورٹ ہے۔ براہ کرم اسے غور سے پڑھیں۔",
                         "tr": "Bayan Lehmann, işte taburcu raporunuz. Lütfen dikkatlice okuyun."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_05_line1.mp3"
                 },
                 {
                     "speaker": "Patient Lehmann",
@@ -1104,7 +1162,8 @@
                         "hi": "आपका बहुत-बहुत धन्यवाद, डॉ. क्लेन।",
                         "ur": "آپ کا بہت بہت شکریہ، ڈاکٹر کلین۔",
                         "tr": "Çok teşekkür ederim, Dr. Klein."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_05_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -1116,7 +1175,8 @@
                         "hi": "क्या आपके पास अपनी दवा या आगे के कदमों के बारे में कोई प्रश्न हैं? फिर फ़ाइल को संग्रहित किया जाएगा।",
                         "ur": "کیا آپ کے پاس آپ کی دوا یا مزید اقدامات کے بارے میں کوئی سوالات ہیں؟ پھر فائل کو محفوظ کیا جائے گا۔",
                         "tr": "İlaçlarınız veya sonraki adımlar hakkında herhangi bir sorunuz var mı? Dosya daha sonra arşivlendirilecek."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_05_line3.mp3"
                 },
                 {
                     "speaker": "Patient Lehmann",
@@ -1128,7 +1188,8 @@
                         "hi": "नहीं, मुझे लगता है कि सब कुछ स्पष्ट है। सब कुछ के लिए धन्यवाद।",
                         "ur": "نہیں، مجھے لگتا ہے کہ سب کچھ واضح ہے۔ ہر چیز کے لیے آپ کا شکریہ۔",
                         "tr": "Hayır, sanırım her şey açık. Her şey için teşekkürler."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_05_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -1140,7 +1201,8 @@
                         "hi": "आपका स्वागत है। हम आपके लिए शुभकामनाएं देते हैं! कृपया अपने हस्ताक्षर के साथ डिस्चार्ज रिपोर्ट की प्राप्ति की पुष्टि करना न भूलें।",
                         "ur": "آپ کا استقبال ہے۔ ہم آپ کے لیے نیک خواہشات کا اظہار کرتے ہیں! براہ کرم اپنے دستخط کے ساتھ ڈسچارج رپورٹ کی وصولی کی تصدیق کرنا نہ بھولیں۔",
                         "tr": "Rica ederim. Size en iyisini diliyoruz! Lütfen taburcu raporunu aldığınızı imzanızla onaylamayı unutmayın."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_34/dialogues/d34_05_line5.mp3"
                 }
             ],
             "id": "d34_05"

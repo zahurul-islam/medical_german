@@ -29,26 +29,12 @@
             "tr": "Bu bölümde, yaygın solunum yolu hastalıkları etrafındaki terminolojiyi ve klinik bağlamları inceleyeceğiz. Astım, KOAH ve zatürre gibi durumlar için tanı, tedavi ve hasta yönetimini tartışmayı öğreneceksiniz."
         },
         "grammarFocus": {
-            "en": {
-                "point1": "Use of dative and accusative cases with prepositions related to the body (e.g., 'am' vs. 'auf' + organ).",
-                "point2": "Understanding and using medical prefixes and suffixes (e.g., 'pneumo-', '-itis', '-ektomie')."
-            },
-            "bn": {
-                "point1": "শরীরের সাথে সম্পর্কিত উপসর্গগুলির সাথে ডেটিভ এবং অভিযুক্ত কেসগুলির ব্যবহার (যেমন, 'am' বনাম 'auf' + অঙ্গ)।",
-                "point2": "চিকিৎসা উপসর্গ এবং প্রত্যয় বোঝা এবং ব্যবহার করা (যেমন, 'pneumo-', '-itis', '-ektomie')।"
-            },
-            "hi": {
-                "point1": "शरीर से संबंधित पूर्वसर्गों के साथ कर्म कारक और संप्रदान कारक का उपयोग (जैसे, 'am' बनाम 'auf' + अंग)।",
-                "point2": "चिकित्सा उपसर्गों और प्रत्ययों को समझना और उनका उपयोग करना (जैसे, 'pneumo-', '-itis', '-ektomie')।"
-            },
-            "ur": {
-                "point1": "جسم سے متعلق حروفِ جار کے ساتھ مفعولی اور اضافی معاملات کا استعمال (مثال کے طور پر، 'am' بمقابلہ 'auf' + عضو)۔",
-                "point2": "طبی سابقوں اور لاحقوں کو سمجھنا اور استعمال کرنا (مثال کے طور پر، 'pneumo-', '-itis', '-ektomie')۔"
-            },
-            "tr": {
-                "point1": "Vücutla ilgili edatlar ile datif ve akuzatif durumların kullanımı (örn. 'am' - 'auf' + organ).",
-                "point2": "Tıbbi önekleri ve sonekleri anlamak ve kullanmak (örn. 'pneumo-', '-itis', '-ektomie')."
-            }
+            "en": "**Respiratory System: Medical Passive and Technical Vocabulary**\n\nThe passive voice is essential for describing respiratory procedures and diagnoses.\n\n*Passive Voice Construction in Medical Context:*\n| Active | Passive | Example |\n|--------|---------|---------|\n| Der Arzt röntgt die Lunge. | Die Lunge wird geröntgt. | The lung is being X-rayed. |\n| Man führt eine Bronchoskopie durch. | Eine Bronchoskopie wird durchgeführt. | A bronchoscopy is performed. |\n\n*Common Respiratory Passive Phrases:*\n- 'Die Lunge wurde abgehört.' (The lung was auscultated.)\n- 'Ein Lungenfunktionstest wird durchgeführt.' (A pulmonary function test is being performed.)\n- 'Die Diagnose COPD wurde gestellt.' (The diagnosis of COPD was made.)\n\n**Describing Breathing Patterns:**\nUse adjective + noun constructions:\n- 'tiefe Atmung' (deep breathing)\n- 'flache Atmung' (shallow breathing)\n- 'beschleunigte Atmung' (accelerated breathing)\n- 'erschwerte Atmung' (labored breathing)\n\n*Prepositions with Respiratory Organs:*\n- 'in der Lunge' (in the lung) - location\n- 'in die Lunge' (into the lung) - direction\n- 'aus der Lunge' (from the lung) - origin\n\n**Compound Medical Terms:**\n- Lungen + Entzündung = Lungenentzündung (pneumonia)\n- Atem + Not = Atemnot (dyspnea)\n- Bronchial + Asthma = Bronchialasthma (bronchial asthma)",
+            "de": "**Atmungssystem: Medizinisches Passiv und Fachvokabular**\n\nDas Passiv ist für die Beschreibung von Atemwegsverfahren und Diagnosen unerlässlich.\n\n*Passivkonstruktion im medizinischen Kontext:*\n| Aktiv | Passiv | Beispiel |\n|-------|--------|----------|\n| Der Arzt röntgt die Lunge. | Die Lunge wird geröntgt. | Die Lunge wird geröntgt. |\n\n*Häufige Passivphrasen bei Atemwegserkrankungen:*\n- 'Die Lunge wurde abgehört.'\n- 'Ein Lungenfunktionstest wird durchgeführt.'\n- 'Die Diagnose COPD wurde gestellt.'\n\n**Beschreibung von Atemmustern:**\n- 'tiefe Atmung'\n- 'flache Atmung'\n- 'beschleunigte Atmung'\n- 'erschwerte Atmung'\n\n*Präpositionen mit Atemorganen:*\n- 'in der Lunge' - Ort\n- 'in die Lunge' - Richtung\n- 'aus der Lunge' - Herkunft\n\n**Zusammengesetzte medizinische Begriffe:**\n- Lungenentzündung\n- Atemnot\n- Bronchialasthma",
+            "bn": "**Respiratory System: Medical Passive and Technical Vocabulary**\n\nThe passive voice is essential for describing respiratory procedures and diagnoses.\n\n*Passive Voice Construction in Medical Context:*\n| Active | Passive | Example |\n|--------|---------|---------|\n| Der Arzt röntgt die Lunge. | Die Lunge wird geröntgt. | The lung is being X-rayed. |\n| Man führt eine Bronchoskopie durch. | Eine Bronchoskopie wird durchgeführt. | A bronchoscopy is performed. |\n\n*Common Respiratory Passive Phrases:*\n- 'Die Lunge wurde abgehört.' (The lung was auscultated.)\n- 'Ein Lungenfunktionstest wird durchgeführt.' (A pulmonary function test is being performed.)\n- 'Die Diagnose COPD wurde gestellt.' (The diagnosis of COPD was made.)\n\n**Describing Breathing Patterns:**\nUse adjective + noun constructions:\n- 'tiefe Atmung' (deep breathing)\n- 'flache Atmung' (shallow breathing)\n- 'beschleunigte Atmung' (accelerated breathing)\n- 'erschwerte Atmung' (labored breathing)\n\n*Prepositions with Respiratory Organs:*\n- 'in der Lunge' (in the lung) - location\n- 'in die Lunge' (into the lung) - direction\n- 'aus der Lunge' (from the lung) - origin\n\n**Compound Medical Terms:**\n- Lungen + Entzündung = Lungenentzündung (pneumonia)\n- Atem + Not = Atemnot (dyspnea)\n- Bronchial + Asthma = Bronchialasthma (bronchial asthma)",
+            "hi": "**Respiratory System: Medical Passive and Technical Vocabulary**\n\nThe passive voice is essential for describing respiratory procedures and diagnoses.\n\n*Passive Voice Construction in Medical Context:*\n| Active | Passive | Example |\n|--------|---------|---------|\n| Der Arzt röntgt die Lunge. | Die Lunge wird geröntgt. | The lung is being X-rayed. |\n| Man führt eine Bronchoskopie durch. | Eine Bronchoskopie wird durchgeführt. | A bronchoscopy is performed. |\n\n*Common Respiratory Passive Phrases:*\n- 'Die Lunge wurde abgehört.' (The lung was auscultated.)\n- 'Ein Lungenfunktionstest wird durchgeführt.' (A pulmonary function test is being performed.)\n- 'Die Diagnose COPD wurde gestellt.' (The diagnosis of COPD was made.)\n\n**Describing Breathing Patterns:**\nUse adjective + noun constructions:\n- 'tiefe Atmung' (deep breathing)\n- 'flache Atmung' (shallow breathing)\n- 'beschleunigte Atmung' (accelerated breathing)\n- 'erschwerte Atmung' (labored breathing)\n\n*Prepositions with Respiratory Organs:*\n- 'in der Lunge' (in the lung) - location\n- 'in die Lunge' (into the lung) - direction\n- 'aus der Lunge' (from the lung) - origin\n\n**Compound Medical Terms:**\n- Lungen + Entzündung = Lungenentzündung (pneumonia)\n- Atem + Not = Atemnot (dyspnea)\n- Bronchial + Asthma = Bronchialasthma (bronchial asthma)",
+            "ur": "**Respiratory System: Medical Passive and Technical Vocabulary**\n\nThe passive voice is essential for describing respiratory procedures and diagnoses.\n\n*Passive Voice Construction in Medical Context:*\n| Active | Passive | Example |\n|--------|---------|---------|\n| Der Arzt röntgt die Lunge. | Die Lunge wird geröntgt. | The lung is being X-rayed. |\n| Man führt eine Bronchoskopie durch. | Eine Bronchoskopie wird durchgeführt. | A bronchoscopy is performed. |\n\n*Common Respiratory Passive Phrases:*\n- 'Die Lunge wurde abgehört.' (The lung was auscultated.)\n- 'Ein Lungenfunktionstest wird durchgeführt.' (A pulmonary function test is being performed.)\n- 'Die Diagnose COPD wurde gestellt.' (The diagnosis of COPD was made.)\n\n**Describing Breathing Patterns:**\nUse adjective + noun constructions:\n- 'tiefe Atmung' (deep breathing)\n- 'flache Atmung' (shallow breathing)\n- 'beschleunigte Atmung' (accelerated breathing)\n- 'erschwerte Atmung' (labored breathing)\n\n*Prepositions with Respiratory Organs:*\n- 'in der Lunge' (in the lung) - location\n- 'in die Lunge' (into the lung) - direction\n- 'aus der Lunge' (from the lung) - origin\n\n**Compound Medical Terms:**\n- Lungen + Entzündung = Lungenentzündung (pneumonia)\n- Atem + Not = Atemnot (dyspnea)\n- Bronchial + Asthma = Bronchialasthma (bronchial asthma)",
+            "tr": "**Respiratory System: Medical Passive and Technical Vocabulary**\n\nThe passive voice is essential for describing respiratory procedures and diagnoses.\n\n*Passive Voice Construction in Medical Context:*\n| Active | Passive | Example |\n|--------|---------|---------|\n| Der Arzt röntgt die Lunge. | Die Lunge wird geröntgt. | The lung is being X-rayed. |\n| Man führt eine Bronchoskopie durch. | Eine Bronchoskopie wird durchgeführt. | A bronchoscopy is performed. |\n\n*Common Respiratory Passive Phrases:*\n- 'Die Lunge wurde abgehört.' (The lung was auscultated.)\n- 'Ein Lungenfunktionstest wird durchgeführt.' (A pulmonary function test is being performed.)\n- 'Die Diagnose COPD wurde gestellt.' (The diagnosis of COPD was made.)\n\n**Describing Breathing Patterns:**\nUse adjective + noun constructions:\n- 'tiefe Atmung' (deep breathing)\n- 'flache Atmung' (shallow breathing)\n- 'beschleunigte Atmung' (accelerated breathing)\n- 'erschwerte Atmung' (labored breathing)\n\n*Prepositions with Respiratory Organs:*\n- 'in der Lunge' (in the lung) - location\n- 'in die Lunge' (into the lung) - direction\n- 'aus der Lunge' (from the lung) - origin\n\n**Compound Medical Terms:**\n- Lungen + Entzündung = Lungenentzündung (pneumonia)\n- Atem + Not = Atemnot (dyspnea)\n- Bronchial + Asthma = Bronchialasthma (bronchial asthma)"
         },
         "culturalNotes": {
             "en": "German hospitals emphasize a structured and hierarchical approach to patient care, with clear roles and responsibilities for doctors, nurses, and other staff.",
@@ -64,12 +50,38 @@
             "ur": "یہ سیکشن طبی ماحول میں سانس کی بیماریوں کے بارے میں مؤثر طریقے سے سمجھنے اور بات چیت کرنے کے لیے ایک بنیاد فراہم کرتا ہے۔",
             "tr": "Bu bölüm, tıbbi bir ortamda solunum yolu hastalıklarını etkili bir şekilde anlamak ve iletişim kurmak için bir temel sağlar."
         },
-        "learningObjectives": [
-            "Identify and define common respiratory diseases in German.",
-            "Describe the diagnostic procedures used to assess respiratory function.",
-            "Explain the treatment options available for different respiratory conditions.",
-            "Communicate effectively with patients and colleagues about respiratory health in a medical German context."
-        ]
+        "learningObjectives": {
+            "en": [
+                "Identify and define common respiratory diseases in German.",
+                "Describe the diagnostic procedures used to assess respiratory function.",
+                "Explain the treatment options available for different respiratory conditions.",
+                "Communicate effectively with patients and colleagues about respiratory health in a medical German context."
+            ],
+            "bn": [
+                "Identify and define common respiratory diseases in German.",
+                "Describe the diagnostic procedures ব্যবহার করুনd to assess respiratory function.",
+                "Explain the treatment options available for different respiratory conditions.",
+                "Communicate effectively with patients and colleagues about respiratory health in a medical German context."
+            ],
+            "hi": [
+                "Identify and define common respiratory diseases in German.",
+                "Describe the diagnostic procedures उपयोग करेंd to assess respiratory function.",
+                "Explain the treatment options available for different respiratory conditions.",
+                "Communicate effectively with patients and colleagues about respiratory health in a medical German context."
+            ],
+            "ur": [
+                "Identify and define common respiratory diseases in German.",
+                "Describe the diagnostic procedures استعمال کریںd to assess respiratory function.",
+                "Explain the treatment options available for different respiratory conditions.",
+                "Communicate effectively with patients and colleagues about respiratory health in a medical German context."
+            ],
+            "tr": [
+                "Identify and define common respiratory diseases in German.",
+                "Describe the diagnostic procedures Kullanınd to assess respiratory function.",
+                "Explain the treatment options available for different respiratory conditions.",
+                "Communicate effectively with patients and colleagues about respiratory health in a medical German context."
+            ]
+        }
     },
     "vocabulary": [
         {
@@ -93,7 +105,8 @@
                 "ur": "مریض دمہ کی وجہ سے شدید سانس کی قلت کی شکایت کر رہا ہے۔",
                 "tr": "Hasta astımdan dolayı akut nefes darlığından şikayet ediyor."
             },
-            "id": "v22_01"
+            "id": "v22_01",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_01.mp3"
         },
         {
             "germanTerm": "COPD",
@@ -116,7 +129,8 @@
                 "ur": "سی او پی ڈی ایک دائمی رکاوٹ والی پلمونری بیماری ہے۔",
                 "tr": "KOAH, kronik obstrüktif akciğer hastalığıdır."
             },
-            "id": "v22_02"
+            "id": "v22_02",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_02.mp3"
         },
         {
             "germanTerm": "Pneumonie",
@@ -139,7 +153,8 @@
                 "ur": "ایکس رے ایک واضح نمونیا دکھاتا ہے۔",
                 "tr": "Röntgen filmi belirgin bir zatürre gösteriyor."
             },
-            "id": "v22_03"
+            "id": "v22_03",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_03.mp3"
         },
         {
             "germanTerm": "Bronchitis",
@@ -162,7 +177,8 @@
                 "ur": "مریض کی کھانسی برونکائٹس کی نشاندہی کرتی ہے۔",
                 "tr": "Hastanın öksürüğü bronşite işaret ediyor."
             },
-            "id": "v22_04"
+            "id": "v22_04",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_04.mp3"
         },
         {
             "germanTerm": "Dyspnoe",
@@ -185,7 +201,8 @@
                 "ur": "مریض کو معمولی سی کوشش پر بھی شدید تنگی تنفس ہوتی ہے۔",
                 "tr": "Hasta en ufak bir çabayla bile şiddetli dispneden muzdarip."
             },
-            "id": "v22_05"
+            "id": "v22_05",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_05.mp3"
         },
         {
             "germanTerm": "Beatmung",
@@ -208,7 +225,8 @@
                 "ur": "سانس کی ناکامی کی وجہ سے مریض کو وینٹیلیشن کی ضرورت ہے۔",
                 "tr": "Hasta solunum yetmezliği nedeniyle ventilasyona ihtiyaç duyuyor."
             },
-            "id": "v22_06"
+            "id": "v22_06",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_06.mp3"
         },
         {
             "germanTerm": "Lungenfunktion",
@@ -231,7 +249,8 @@
                 "ur": "مریض کے پھیپھڑوں کا فعل شدید طور پر متاثر ہے۔",
                 "tr": "Hastanın akciğer fonksiyonu ciddi şekilde bozulmuştur."
             },
-            "id": "v22_07"
+            "id": "v22_07",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_07.mp3"
         },
         {
             "germanTerm": "Atemweg",
@@ -254,7 +273,8 @@
                 "ur": "مریض کا ہوائی راستہ صاف رکھنا چاہیے۔",
                 "tr": "Hastanın hava yolu açık tutulmalıdır."
             },
-            "id": "v22_08"
+            "id": "v22_08",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_08.mp3"
         },
         {
             "germanTerm": "Husten",
@@ -277,7 +297,8 @@
                 "ur": "مریض کو ایک پیداواری کھانسی ہے۔",
                 "tr": "Hastanın üretken bir öksürüğü var."
             },
-            "id": "v22_09"
+            "id": "v22_09",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_09.mp3"
         },
         {
             "germanTerm": "Auswurf",
@@ -300,7 +321,8 @@
                 "ur": "مریض کے بلغم کو مائکروبیولوجیکل معائنہ کے لیے بھیجا جاتا ہے۔",
                 "tr": "Hastanın balgamı mikrobiyolojik inceleme için gönderilir."
             },
-            "id": "v22_10"
+            "id": "v22_10",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_10.mp3"
         },
         {
             "germanTerm": "Inhalation",
@@ -323,7 +345,8 @@
                 "ur": "مریض کو برونکڈیلیٹر کے ساتھ انہیلیشن دیا جاتا ہے۔",
                 "tr": "Hastaya bronkodilatör ile inhalasyon uygulanır."
             },
-            "id": "v22_11"
+            "id": "v22_11",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_11.mp3"
         },
         {
             "germanTerm": "Bronchodilatator",
@@ -346,7 +369,8 @@
                 "ur": "برونکڈیلیٹر ہوائی راستوں کو چوڑا کرتا ہے۔",
                 "tr": "Bronkodilatör hava yollarını genişletir."
             },
-            "id": "v22_12"
+            "id": "v22_12",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_12.mp3"
         },
         {
             "germanTerm": "Sauerstoff",
@@ -369,7 +393,8 @@
                 "ur": "مریض کو ناک کی نلی کے ذریعے آکسیجن ملتی ہے۔",
                 "tr": "Hastaya nazal kanül yoluyla oksijen verilir."
             },
-            "id": "v22_13"
+            "id": "v22_13",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_13.mp3"
         },
         {
             "germanTerm": "Atemfrequenz",
@@ -392,7 +417,8 @@
                 "ur": "مریض کی سانس لینے کی شرح بڑھ گئی ہے۔",
                 "tr": "Hastanın solunum hızı artmıştır."
             },
-            "id": "v22_14"
+            "id": "v22_14",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_14.mp3"
         },
         {
             "germanTerm": "Atemnot",
@@ -415,7 +441,8 @@
                 "ur": "مریض اچانک سانس کی قلت کی شکایت کرتا ہے۔",
                 "tr": "Hasta ani nefes darlığından şikayet ediyor."
             },
-            "id": "v22_15"
+            "id": "v22_15",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_15.mp3"
         },
         {
             "germanTerm": "Lungenödem",
@@ -438,7 +465,8 @@
                 "ur": "ایکس رے ایک واضح پلمونری ایڈیما دکھاتا ہے۔",
                 "tr": "Röntgen filmi belirgin bir akciğer ödemi gösteriyor."
             },
-            "id": "v22_16"
+            "id": "v22_16",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_16.mp3"
         },
         {
             "germanTerm": "Spirometrie",
@@ -461,7 +489,8 @@
                 "ur": "پھیپھڑوں کے فعل کا اندازہ لگانے کے لیے سپیرومیٹری کی جاتی ہے۔",
                 "tr": "Spirometri akciğer fonksiyonunu değerlendirmek için yapılır."
             },
-            "id": "v22_17"
+            "id": "v22_17",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_17.mp3"
         },
         {
             "germanTerm": "inspiratorisch",
@@ -484,7 +513,8 @@
                 "ur": "مریض ایک انفسی اسٹرائیڈر دکھاتا ہے۔",
                 "tr": "Hasta inspiratuar stridor gösteriyor."
             },
-            "id": "v22_18"
+            "id": "v22_18",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_18.mp3"
         },
         {
             "germanTerm": "exspiratorisch",
@@ -507,7 +537,8 @@
                 "ur": "ایک تنفسی گھرگھراہٹ موجود ہے۔",
                 "tr": "Ekspiratuar bir hırıltı mevcuttur."
             },
-            "id": "v22_19"
+            "id": "v22_19",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_19.mp3"
         },
         {
             "germanTerm": "Atemgeräusch",
@@ -530,7 +561,8 @@
                 "ur": "سانس کی آوازیں دونوں طرف کمزور پڑ گئی ہیں۔",
                 "tr": "Solunum sesleri her iki tarafta da azalmıştır."
             },
-            "id": "v22_20"
+            "id": "v22_20",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_20.mp3"
         },
         {
             "germanTerm": "Atemtiefe",
@@ -553,7 +585,8 @@
                 "ur": "مریض کی سانس لینے کی گہرائی اتھلی ہے۔",
                 "tr": "Hastanın solunum derinliği sığdır."
             },
-            "id": "v22_21"
+            "id": "v22_21",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_21.mp3"
         },
         {
             "germanTerm": "Zyanose",
@@ -576,7 +609,8 @@
                 "ur": "مریض کے ہونٹوں پر سیانوسس ظاہر ہو رہا ہے۔",
                 "tr": "Hastanın dudaklarında siyanoz görülüyor."
             },
-            "id": "v22_22"
+            "id": "v22_22",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_22.mp3"
         },
         {
             "germanTerm": "Thorax",
@@ -599,7 +633,8 @@
                 "ur": "سینے کا معائنہ کیا جاتا ہے اور پرکیوشن کیا جاتا ہے۔",
                 "tr": "Toraks oskülte edilir ve perküsyon yapılır."
             },
-            "id": "v22_23"
+            "id": "v22_23",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_23.mp3"
         },
         {
             "germanTerm": "Exazerbation",
@@ -622,7 +657,8 @@
                 "ur": "مریض کو اپنے COPD کا شدید اشتعال ہے۔",
                 "tr": "Hastanın KOAH'ı akut alevlenmiştir."
             },
-            "id": "v22_24"
+            "id": "v22_24",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_24.mp3"
         },
         {
             "germanTerm": "Peak-Flow",
@@ -645,7 +681,8 @@
                 "ur": "مریض کی پیک فلو قیمت کم ہو گئی ہے۔",
                 "tr": "Hastanın tepe akım değeri azalmıştır."
             },
-            "id": "v22_25"
+            "id": "v22_25",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_25.mp3"
         },
         {
             "germanTerm": "Hyperventilation",
@@ -668,7 +705,8 @@
                 "ur": "مریضہ ہائپروینٹیلیشن کے آثار دکھا رہی ہے۔",
                 "tr": "Hasta hiperventilasyon belirtileri gösteriyor."
             },
-            "id": "v22_26"
+            "id": "v22_26",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_26.mp3"
         },
         {
             "germanTerm": "Atemtherapie",
@@ -691,7 +729,8 @@
                 "ur": "پھیپھڑوں کے فعل کو بہتر بنانے کے لیے مریض کو سانس کی تھراپی دی جاتی ہے۔",
                 "tr": "Hasta akciğer fonksiyonunu iyileştirmek için solunum terapisi alıyor."
             },
-            "id": "v22_27"
+            "id": "v22_27",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_27.mp3"
         },
         {
             "germanTerm": "intubieren",
@@ -714,7 +753,8 @@
                 "ur": "مریض کو انٹیوبیٹ کرنے کی ضرورت ہے۔",
                 "tr": "Hastanın entübe edilmesi gerekiyor."
             },
-            "id": "v22_28"
+            "id": "v22_28",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_28.mp3"
         },
         {
             "germanTerm": "ARDS",
@@ -737,7 +777,8 @@
                 "ur": "انفیکشن کے بعد مریض کو ARDS ہو گیا ہے۔",
                 "tr": "Hasta enfeksiyon sonrası ARDS geliştirdi."
             },
-            "id": "v22_29"
+            "id": "v22_29",
+            "audioUrl": "assets/audio/sections/section_22/vocabulary/v22_29.mp3"
         }
     ],
     "dialogues": [
@@ -767,7 +808,8 @@
                         "hi": "मिस्टर मुलर, आपकी क्या शिकायतें हैं?",
                         "ur": "مسٹر مولر، آپ کی شکایات کیا ہیں؟",
                         "tr": "Bay Müller, şikayetleriniz nelerdir?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_01_line1.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -779,7 +821,8 @@
                         "hi": "मुझे मुश्किल से सांस आ रही है! मुझे अपनी छाती में जकड़न और घरघराहट की आवाजें आ रही हैं।",
                         "ur": "مجھے مشکل سے سانس آ رہی ہے! میرے سینے میں جکڑن اور خرخراہٹ کی آوازیں آ رہی ہیں۔",
                         "tr": "Neredeyse nefes alamıyorum! Göğsümde bir sıkışma ve hırıltılı sesler var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_01_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -791,7 +834,8 @@
                         "hi": "मैं रक्त में ऑक्सीजन संतृप्ति को माप रही हूँ। यह 88% है।",
                         "ur": "میں خون میں آکسیجن کی سطح کی پیمائش کر رہی ہوں۔ یہ 88٪ ہے۔",
                         "tr": "Kandaki oksijen doygunluğunu ölçüyorum. %88'de."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_01_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -803,7 +847,8 @@
                         "hi": "हम तुरंत सैल्बुटामोल और प्रेडनिसोलोन देंगे। ऑक्सीजन देना भी जरूरी है।",
                         "ur": "ہم فوری طور پر سالبوٹامول اور پریڈنیسولون دیں گے۔ آکسیجن دینا بھی ضروری ہے۔",
                         "tr": "Hemen Salbutamol ve Prednisolone vereceğiz. Oksijen verilmesi de gerekiyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_01_line4.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -815,7 +860,8 @@
                         "hi": "धन्यवाद! मुझे लग रहा है कि यह धीरे-धीरे बेहतर हो रहा है।",
                         "ur": "شکریہ! مجھے لگ رہا ہے کہ یہ آہستہ آہستہ بہتر ہو رہا ہے۔",
                         "tr": "Teşekkürler! Yavaş yavaş daha iyiye gittiğini hissediyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_01_line5.mp3"
                 }
             ],
             "id": "d22_01"
@@ -846,7 +892,8 @@
                         "hi": "शुभ दिन, श्री स्मिथ। आज आप कैसे हैं?",
                         "ur": "شب بخیر، مسٹر سمتھ۔ آج آپ کیسے ہیں؟",
                         "tr": "İyi günler, Bay Schmidt. Bugün nasılsınız?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_02_line1.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -858,7 +905,8 @@
                         "hi": "बुरा। मुझे मुश्किल से सांस आ रही है। यह सामान्य से भी बदतर है।",
                         "ur": "برا. میں مشکل سے سانس لے سکتا ہوں۔ یہ معمول سے بدتر ہے۔",
                         "tr": "Kötü. Neredeyse nefes alamıyorum. Her zamankinden daha kötü."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_02_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -870,7 +918,8 @@
                         "hi": "रक्तचाप बढ़ गया है और श्वसन दर भी।",
                         "ur": "بلڈ پریشر بڑھ گیا ہے اور سانس لینے کی شرح بھی۔",
                         "tr": "Kan basıncı yükselmiş ve solunum hızı da."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_02_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Lehmann",
@@ -882,7 +931,8 @@
                         "hi": "हमें उसे दवा इन्हेल करने देनी होगी और संभवतः गैर-आक्रामक वेंटिलेशन पर विचार करना होगा।",
                         "ur": "ہمیں اسے دوا انہیل کرنے دینا ہوگا اور ممکنہ طور پر غیر حملہ آور وینٹیلیشن پر غور کرنا ہوگا۔",
                         "tr": "İlaç solumasına izin vermeliyiz ve muhtemelen non-invaziv ventilasyonu düşünmeliyiz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_02_line4.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -894,7 +944,8 @@
                         "hi": "कृपया मेरी मदद करें! मैं इसे और नहीं सह सकता।",
                         "ur": "براہ کرم میری مدد کریں! میں اسے مزید برداشت نہیں کر سکتا۔",
                         "tr": "Lütfen bana yardım edin! Artık dayanamıyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_02_line5.mp3"
                 }
             ],
             "id": "d22_02"
@@ -925,7 +976,8 @@
                         "hi": "श्रीमती क्लाइन, आपको ये शिकायतें कब से हैं?",
                         "ur": "محترمہ کلین، آپ کو یہ شکایات کب سے ہیں؟",
                         "tr": "Bayan Klein, bu şikayetleriniz ne zamandan beri var?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_03_line1.mp3"
                 },
                 {
                     "speaker": "Patient Klein",
@@ -937,7 +989,8 @@
                         "hi": "तीन दिनों से। यह हल्की खांसी से शुरू हुआ, अब मुझे तेज बुखार है और सांस लेने में दर्द हो रहा है।",
                         "ur": "تین دن سے۔ اس کا آغاز ہلکی کھانسی سے ہوا، اب مجھے تیز بخار ہے اور سانس لینے میں درد ہو رہا ہے۔",
                         "tr": "Üç gündür. Hafif bir öksürükle başladı, şimdi yüksek ateş ve nefes alırken ağrım var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_03_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Meier",
@@ -949,7 +1002,8 @@
                         "hi": "मैं आपके फेफड़ों को सुनूंगा और आपके फेफड़ों का एक्स-रे करवाऊंगा।",
                         "ur": "میں آپ کے پھیپھڑوں کو سنوں گا اور آپ کے پھیپھڑوں کا ایکسرے کرواؤں گا۔",
                         "tr": "Akciğerlerinizi dinleyeceğim ve akciğerlerinizin röntgenini çektireceğim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_03_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Lehmann",
@@ -961,7 +1015,8 @@
                         "hi": "एक्स-रे दाहिने निचले लोब में एक स्पष्ट घुसपैठ दिखाता है। यह निमोनिया है।",
                         "ur": "ایکس رے دائیں نچلے لوب میں ایک واضح دراندازی دکھاتا ہے۔ یہ نمونیا ہے۔",
                         "tr": "Röntgen, sağ alt lobda belirgin bir infiltrasyon gösteriyor. Bu bir pnömoni."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_03_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Meier",
@@ -973,7 +1028,8 @@
                         "hi": "हम एंटीबायोटिक थेरेपी से शुरुआत करेंगे। आप अवलोकन के लिए यहां रहेंगे।",
                         "ur": "ہم اینٹی بائیوٹک تھراپی سے آغاز کریں گے۔ آپ مشاہدے کے لیے یہاں رہیں گے۔",
                         "tr": "Antibiyotik tedavisine başlayacağız. Gözlem için burada kalacaksınız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_03_line5.mp3"
                 }
             ],
             "id": "d22_03"
@@ -1004,7 +1060,8 @@
                         "hi": "श्री वेबर, आप अपनी क्रोनिक ब्रोंकाइटिस के साथ कैसा कर रहे हैं?",
                         "ur": "مسٹر ویبر، آپ دائمی برونکائٹس کے ساتھ کیسے کام کر رہے ہیں؟",
                         "tr": "Bay Weber, kronik bronşitinizle nasıl gidiyorsunuz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_04_line1.mp3"
                 },
                 {
                     "speaker": "Patient Weber",
@@ -1016,7 +1073,8 @@
                         "hi": "यह एक लगातार खांसी है। खासकर सुबह में बुरा। और मैं जल्दी ही हाँफने लगता हूँ।",
                         "ur": "یہ ایک مسلسل کھانسی ہے۔ خاص طور پر صبح کے وقت برا۔ اور میں جلدی ہی ہانپ جاتا ہوں۔",
                         "tr": "Sürekli bir öksürük. Özellikle sabahları kötü. Ve çabuk nefes nefese kalıyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_04_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -1028,7 +1086,8 @@
                         "hi": "क्या आप अपनी दवा नियमित रूप से ले रहे हैं?",
                         "ur": "کیا آپ اپنی دوا باقاعدگی سے لے رہے ہیں؟",
                         "tr": "İlaçlarınızı düzenli olarak alıyor musunuz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_04_line3.mp3"
                 },
                 {
                     "speaker": "Patient Weber",
@@ -1040,7 +1099,8 @@
                         "hi": "हाँ, हर दिन। लेकिन यह उतना मदद नहीं करता जितना पहले करता था।",
                         "ur": "ہاں، ہر روز۔ لیکن یہ پہلے کی طرح زیادہ مدد نہیں کرتا ہے۔",
                         "tr": "Evet, her gün. Ama eskisi kadar yardımcı olmuyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_04_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Lehmann",
@@ -1052,7 +1112,8 @@
                         "hi": "हम दवा समायोजित करेंगे और संभवतः एक पल्मोनरी फंक्शन टेस्ट करेंगे।",
                         "ur": "ہم دوا کو ایڈجسٹ کریں گے اور ممکنہ طور پر ایک پلمونری فنکشن ٹیسٹ کریں گے۔",
                         "tr": "İlaçları ayarlayacağız ve muhtemelen bir akciğer fonksiyon testi yapacağız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_04_line5.mp3"
                 }
             ],
             "id": "d22_04"
@@ -1083,7 +1144,8 @@
                         "hi": "वर्तमान वेंटिलेशन पैरामीटर क्या हैं?",
                         "ur": "وینٹیلیشن کے موجودہ پیرامیٹرز کیا ہیں؟",
                         "tr": "Mevcut ventilasyon parametreleri nelerdir?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_05_line1.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -1095,7 +1157,8 @@
                         "hi": "वर्तमान में, हम 450 मिलीलीटर के ज्वारीय आयतन, आवृत्ति 14, पीईईपी 5 पर हैं।",
                         "ur": "فی الحال، ہم 450 ملی لیٹر کے جواری حجم، فریکوئنسی 14، پی ای ای پی 5 پر ہیں۔",
                         "tr": "Şu anda 450 ml tidal hacim, frekans 14, PEEP 5'teyiz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_05_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Meier",
@@ -1107,7 +1170,8 @@
                         "hi": "रक्त गैस विश्लेषण में हल्की श्वसन एसिडोसिस दिखाई देती है।",
                         "ur": "خون گیس کے تجزیے میں ہلکا سانس لینے والا ایسڈوسس ظاہر ہوتا ہے۔",
                         "tr": "Kan gazı analizi hafif bir solunum asidozu gösteriyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_05_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Lehmann",
@@ -1119,7 +1183,8 @@
                         "hi": "हमें CO2 को बाहर निकालने के लिए आवृत्ति को थोड़ा बढ़ाना होगा।",
                         "ur": "ہمیں CO2 کو دھونے کے لیے فریکوئنسی کو قدرے بڑھانا ہوگا۔",
                         "tr": "CO2'yi atmak için frekansı biraz artırmamız gerekiyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_05_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -1131,7 +1196,8 @@
                         "hi": "मैं आवृत्ति को 16 तक बढ़ा रही हूँ। ऑक्सीजन संतृप्ति 95% पर स्थिर है।",
                         "ur": "میں فریکوئنسی کو 16 تک بڑھا رہی ہوں۔ آکسیجن کی سنترپتی 95٪ پر مستحکم ہے۔",
                         "tr": "Frekansı 16'ya çıkarıyorum. Oksijen doygunluğu %95'te sabit."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_22/dialogues/d22_05_line5.mp3"
                 }
             ],
             "id": "d22_05"

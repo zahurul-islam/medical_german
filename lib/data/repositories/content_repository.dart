@@ -1,4 +1,6 @@
-// Content repository for fetching learning content from Firestore
+// Content repository for fetching learning content
+// Uses local JSON as primary source for fast loading, with optional Firestore sync
+import 'dart:async';
 import 'dart:convert';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/services.dart';
@@ -10,6 +12,14 @@ class ContentRepository {
   // Cache for frequently accessed data
   List<PhaseModel>? _phasesCache;
   final Map<String, List<SectionModel>> _sectionsCache = {};
+  final Map<String, List<VocabularyModel>> _vocabularyCache = {};
+  final Map<String, List<DialogueModel>> _dialoguesCache = {};
+  final Map<String, List<ExerciseModel>> _exercisesCache = {};
+
+  // Firestore availability tracking - avoid repeated timeout waits
+  bool _firestoreChecked = false;
+  bool _firestoreAvailable = false;
+  static const Duration _firestoreTimeout = Duration(seconds: 3);
 
   // Default phases data
   static final List<PhaseModel> _defaultPhases = [
@@ -33,7 +43,7 @@ class ContentRepository {
         'ur': 'شروع کرنے والوں کے لیے ضروری سلام، جسمانی ساخت، ہسپتال کے شعبے اور بنیادی طبی مواصلات۔',
         'tr': 'Yeni başlayanlar için temel selamlaşmalar, anatomi kelime bilgisi, hastane bölümleri ve temel tıbbi iletişim.',
       },
-      sectionCount: 12,
+      sectionCount: 13,
       colorHex: '#4CAF50',
       gradientStartHex: '#4CAF50',
       gradientEndHex: '#8BC34A',
@@ -90,9 +100,9 @@ class ContentRepository {
     ),
   ];
 
-  // Default sections data - all 55 sections matching content/sections/*.json
+  // Default sections data - all 56 sections matching content/sections/*.json
   static final List<SectionModel> _defaultSections = [
-    // Phase 1: Foundation & Hospital Basics (A1-A2) — 12 Sections
+    // Phase 1: Foundation & Hospital Basics (A1-A2) — 13 Sections
     SectionModel(
       id: 'section_01',
       phaseId: 'phase1',
@@ -104,9 +114,19 @@ class ContentRepository {
       estimatedMinutes: 25,
     ),
     SectionModel(
-      id: 'section_02',
+      id: 'section_01a',
       phaseId: 'phase1',
       order: 2,
+      level: 'A1',
+      titleDe: 'Die deutschen Artikel',
+      title: {'en': 'German Articles & Their Use', 'de': 'Die deutschen Artikel und ihre Verwendung'},
+      description: {'en': 'Master der/die/das: definite and indefinite articles, nominative, accusative, dative cases in medical contexts'},
+      estimatedMinutes: 50,
+    ),
+    SectionModel(
+      id: 'section_02',
+      phaseId: 'phase1',
+      order: 3,
       level: 'A1',
       titleDe: 'Der menschliche Körper I',
       title: {'en': 'The Human Body I', 'de': 'Der menschliche Körper I'},
@@ -116,7 +136,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_03',
       phaseId: 'phase1',
-      order: 3,
+      order: 4,
       level: 'A1',
       titleDe: 'Der menschliche Körper II',
       title: {'en': 'The Human Body II', 'de': 'Der menschliche Körper II'},
@@ -126,7 +146,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_04',
       phaseId: 'phase1',
-      order: 4,
+      order: 5,
       level: 'A1',
       titleDe: 'Krankenhausabteilungen',
       title: {'en': 'Hospital Departments', 'de': 'Krankenhausabteilungen'},
@@ -136,7 +156,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_05',
       phaseId: 'phase1',
-      order: 5,
+      order: 6,
       level: 'A1',
       titleDe: 'Medizinische Geräte',
       title: {'en': 'Medical Equipment', 'de': 'Medizinische Geräte'},
@@ -146,7 +166,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_06',
       phaseId: 'phase1',
-      order: 6,
+      order: 7,
       level: 'A1',
       titleDe: 'Zeit und Dienstplan',
       title: {'en': 'Time & Scheduling', 'de': 'Zeit und Dienstplan'},
@@ -156,7 +176,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_07',
       phaseId: 'phase1',
-      order: 7,
+      order: 8,
       level: 'A1',
       titleDe: 'Zahlen und Vitalzeichen',
       title: {'en': 'Numbers & Vital Signs', 'de': 'Zahlen und Vitalzeichen'},
@@ -166,7 +186,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_08',
       phaseId: 'phase1',
-      order: 8,
+      order: 9,
       level: 'A2',
       titleDe: 'Das Pflegepersonal',
       title: {'en': 'The Nursing Staff', 'de': 'Das Pflegepersonal'},
@@ -176,7 +196,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_09',
       phaseId: 'phase1',
-      order: 9,
+      order: 10,
       level: 'A2',
       titleDe: 'Patientenaufnahme',
       title: {'en': 'Patient Reception', 'de': 'Patientenaufnahme'},
@@ -186,7 +206,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_10',
       phaseId: 'phase1',
-      order: 10,
+      order: 11,
       level: 'A2',
       titleDe: 'Grundlegende Symptome',
       title: {'en': 'Basic Symptoms', 'de': 'Grundlegende Symptome'},
@@ -196,7 +216,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_11',
       phaseId: 'phase1',
-      order: 11,
+      order: 12,
       level: 'A2',
       titleDe: 'Apotheken-Grundlagen',
       title: {'en': 'Pharmacy Basics', 'de': 'Apotheken-Grundlagen'},
@@ -206,7 +226,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_12',
       phaseId: 'phase1',
-      order: 12,
+      order: 13,
       level: 'A2',
       titleDe: 'Notrufe',
       title: {'en': 'Emergency Calls', 'de': 'Notrufe'},
@@ -217,7 +237,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_13',
       phaseId: 'phase2',
-      order: 13,
+      order: 14,
       level: 'B1',
       titleDe: 'Anamnese I',
       title: {'en': 'Anamnese I', 'de': 'Anamnese I'},
@@ -227,7 +247,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_14',
       phaseId: 'phase2',
-      order: 14,
+      order: 15,
       level: 'B1',
       titleDe: 'Anamnese II',
       title: {'en': 'Anamnese II', 'de': 'Anamnese II'},
@@ -237,7 +257,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_15',
       phaseId: 'phase2',
-      order: 15,
+      order: 16,
       level: 'B1',
       titleDe: 'Anamnese III',
       title: {'en': 'Anamnese III', 'de': 'Anamnese III'},
@@ -247,7 +267,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_16',
       phaseId: 'phase2',
-      order: 16,
+      order: 17,
       level: 'B1',
       titleDe: 'Schmerzanamnese',
       title: {'en': 'Pain Assessment', 'de': 'Schmerzanamnese'},
@@ -257,7 +277,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_17',
       phaseId: 'phase2',
-      order: 17,
+      order: 18,
       level: 'B1',
       titleDe: 'Körperliche Untersuchung',
       title: {'en': 'Physical Examination', 'de': 'Körperliche Untersuchung'},
@@ -267,7 +287,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_18',
       phaseId: 'phase2',
-      order: 18,
+      order: 19,
       level: 'B1',
       titleDe: 'Aufklärung',
       title: {'en': 'Informed Consent', 'de': 'Aufklärung'},
@@ -277,7 +297,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_19',
       phaseId: 'phase2',
-      order: 19,
+      order: 20,
       level: 'B1',
       titleDe: 'Laborbefunde beschreiben',
       title: {'en': 'Describing Lab Results', 'de': 'Laborbefunde beschreiben'},
@@ -287,7 +307,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_20',
       phaseId: 'phase2',
-      order: 20,
+      order: 21,
       level: 'B1',
       titleDe: 'Radiologie-Vokabular',
       title: {'en': 'Radiology Vocabulary', 'de': 'Radiologie-Vokabular'},
@@ -297,7 +317,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_21',
       phaseId: 'phase2',
-      order: 21,
+      order: 22,
       level: 'B2',
       titleDe: 'Herz-Kreislauf-System',
       title: {'en': 'Cardiovascular System', 'de': 'Herz-Kreislauf-System'},
@@ -307,7 +327,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_22',
       phaseId: 'phase2',
-      order: 22,
+      order: 23,
       level: 'B2',
       titleDe: 'Atmungssystem',
       title: {'en': 'Respiratory System', 'de': 'Atmungssystem'},
@@ -317,7 +337,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_23',
       phaseId: 'phase2',
-      order: 23,
+      order: 24,
       level: 'B2',
       titleDe: 'Verdauungssystem',
       title: {'en': 'Gastrointestinal System', 'de': 'Verdauungssystem'},
@@ -327,7 +347,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_24',
       phaseId: 'phase2',
-      order: 24,
+      order: 25,
       level: 'B2',
       titleDe: 'Neurologie-Grundlagen',
       title: {'en': 'Neurology Basics', 'de': 'Neurologie-Grundlagen'},
@@ -337,7 +357,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_25',
       phaseId: 'phase2',
-      order: 25,
+      order: 26,
       level: 'B2',
       titleDe: 'Endokrinologie',
       title: {'en': 'Endocrinology', 'de': 'Endokrinologie'},
@@ -347,7 +367,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_26',
       phaseId: 'phase2',
-      order: 26,
+      order: 27,
       level: 'B2',
       titleDe: 'Chirurgie-Grundlagen',
       title: {'en': 'Surgery Basics', 'de': 'Chirurgie-Grundlagen'},
@@ -357,7 +377,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_27',
       phaseId: 'phase2',
-      order: 27,
+      order: 28,
       level: 'B2',
       titleDe: 'Pädiatrie',
       title: {'en': 'Pediatrics', 'de': 'Pädiatrie'},
@@ -367,7 +387,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_28',
       phaseId: 'phase2',
-      order: 28,
+      order: 29,
       level: 'B2',
       titleDe: 'Gynäkologie/Geburtshilfe',
       title: {'en': 'OBGYN', 'de': 'Gynäkologie/Geburtshilfe'},
@@ -377,7 +397,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_29',
       phaseId: 'phase2',
-      order: 29,
+      order: 30,
       level: 'B2',
       titleDe: 'Psychiatrie',
       title: {'en': 'Psychiatry', 'de': 'Psychiatrie'},
@@ -388,7 +408,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_30',
       phaseId: 'phase3',
-      order: 30,
+      order: 31,
       level: 'C1',
       titleDe: 'Arztbrief I',
       title: {'en': 'Discharge Letter I', 'de': 'Arztbrief I'},
@@ -398,7 +418,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_31',
       phaseId: 'phase3',
-      order: 31,
+      order: 32,
       level: 'C1',
       titleDe: 'Arztbrief II',
       title: {'en': 'Discharge Letter II', 'de': 'Arztbrief II'},
@@ -408,7 +428,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_32',
       phaseId: 'phase3',
-      order: 32,
+      order: 33,
       level: 'C1',
       titleDe: 'Patientenvorstellung',
       title: {'en': 'Case Presentation', 'de': 'Patientenvorstellung'},
@@ -418,7 +438,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_33',
       phaseId: 'phase3',
-      order: 33,
+      order: 34,
       level: 'C1',
       titleDe: 'Kollegiale Kommunikation',
       title: {'en': 'Colleague Communication', 'de': 'Kollegiale Kommunikation'},
@@ -428,7 +448,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_34',
       phaseId: 'phase3',
-      order: 34,
+      order: 35,
       level: 'C1',
       titleDe: 'Medizinische Dokumentation',
       title: {'en': 'Medical Documentation', 'de': 'Medizinische Dokumentation'},
@@ -438,7 +458,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_35',
       phaseId: 'phase3',
-      order: 35,
+      order: 36,
       level: 'C1',
       titleDe: 'Differentialdiagnose',
       title: {'en': 'Differential Diagnosis', 'de': 'Differentialdiagnose'},
@@ -448,7 +468,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_36',
       phaseId: 'phase3',
-      order: 36,
+      order: 37,
       level: 'C1',
       titleDe: 'Medizinische Ethik',
       title: {'en': 'Medical Ethics', 'de': 'Medizinische Ethik'},
@@ -458,7 +478,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_37',
       phaseId: 'phase3',
-      order: 37,
+      order: 38,
       level: 'C1',
       titleDe: 'Deutsches Gesundheitssystem',
       title: {'en': 'German Health System', 'de': 'Deutsches Gesundheitssystem'},
@@ -468,7 +488,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_38',
       phaseId: 'phase3',
-      order: 38,
+      order: 39,
       level: 'C1',
       titleDe: 'Pharmakotherapie',
       title: {'en': 'Pharmacotherapy', 'de': 'Pharmakotherapie'},
@@ -478,7 +498,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_39',
       phaseId: 'phase3',
-      order: 39,
+      order: 40,
       level: 'C1',
       titleDe: 'Laborbefunde',
       title: {'en': 'Laboratory Reports', 'de': 'Laborbefunde'},
@@ -488,7 +508,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_40',
       phaseId: 'phase3',
-      order: 40,
+      order: 41,
       level: 'C1',
       titleDe: 'Standardarbeitsanweisungen',
       title: {'en': 'SOPs', 'de': 'Standardarbeitsanweisungen'},
@@ -498,7 +518,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_41',
       phaseId: 'phase3',
-      order: 41,
+      order: 42,
       level: 'C1',
       titleDe: 'Schlechte Nachrichten überbringen',
       title: {'en': 'Breaking Bad News', 'de': 'Schlechte Nachrichten überbringen'},
@@ -508,7 +528,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_42',
       phaseId: 'phase3',
-      order: 42,
+      order: 43,
       level: 'C1',
       titleDe: 'Approbationsverfahren',
       title: {'en': 'Approbation Process', 'de': 'Approbationsverfahren'},
@@ -518,7 +538,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_43',
       phaseId: 'phase3',
-      order: 43,
+      order: 44,
       level: 'C1',
       titleDe: 'Work-Life-Balance',
       title: {'en': 'Work-Life Balance', 'de': 'Work-Life-Balance'},
@@ -528,7 +548,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_44',
       phaseId: 'phase3',
-      order: 44,
+      order: 45,
       level: 'C1',
       titleDe: 'FSP-Simulation I',
       title: {'en': 'FSP Simulation I', 'de': 'FSP-Simulation I'},
@@ -538,7 +558,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_45',
       phaseId: 'phase3',
-      order: 45,
+      order: 46,
       level: 'C1',
       titleDe: 'FSP-Simulation II',
       title: {'en': 'FSP Simulation II', 'de': 'FSP-Simulation II'},
@@ -548,7 +568,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_46',
       phaseId: 'phase3',
-      order: 46,
+      order: 47,
       level: 'C1',
       titleDe: 'FSP-Simulation III',
       title: {'en': 'FSP Simulation III', 'de': 'FSP-Simulation III'},
@@ -558,7 +578,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_47',
       phaseId: 'phase3',
-      order: 47,
+      order: 48,
       level: 'C1',
       titleDe: 'Orthopädie',
       title: {'en': 'Orthopedics', 'de': 'Orthopädie'},
@@ -568,7 +588,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_48',
       phaseId: 'phase3',
-      order: 48,
+      order: 49,
       level: 'C1',
       titleDe: 'Urologie',
       title: {'en': 'Urology', 'de': 'Urologie'},
@@ -578,7 +598,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_49',
       phaseId: 'phase3',
-      order: 49,
+      order: 50,
       level: 'C1',
       titleDe: 'Dermatologie',
       title: {'en': 'Dermatology', 'de': 'Dermatologie'},
@@ -588,7 +608,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_50',
       phaseId: 'phase3',
-      order: 50,
+      order: 51,
       level: 'C1',
       titleDe: 'Augenheilkunde & HNO',
       title: {'en': 'Ophthalmology & ENT', 'de': 'Augenheilkunde & HNO'},
@@ -598,7 +618,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_51',
       phaseId: 'phase3',
-      order: 51,
+      order: 52,
       level: 'C1',
       titleDe: 'Notfallmedizin',
       title: {'en': 'Emergency Medicine', 'de': 'Notfallmedizin'},
@@ -608,7 +628,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_52',
       phaseId: 'phase3',
-      order: 52,
+      order: 53,
       level: 'C1',
       titleDe: 'Intensivmedizin (ITS)',
       title: {'en': 'Intensive Care', 'de': 'Intensivmedizin (ITS)'},
@@ -618,7 +638,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_53',
       phaseId: 'phase3',
-      order: 53,
+      order: 54,
       level: 'C1',
       titleDe: 'Infektionskrankheiten',
       title: {'en': 'Infectious Diseases', 'de': 'Infektionskrankheiten'},
@@ -628,7 +648,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_54',
       phaseId: 'phase3',
-      order: 54,
+      order: 55,
       level: 'C1',
       titleDe: 'Palliativmedizin',
       title: {'en': 'Palliative Care', 'de': 'Palliativmedizin'},
@@ -638,7 +658,7 @@ class ContentRepository {
     SectionModel(
       id: 'section_55',
       phaseId: 'phase3',
-      order: 55,
+      order: 56,
       level: 'C1',
       titleDe: 'Medizinrecht',
       title: {'en': 'Medical Jurisprudence', 'de': 'Medizinrecht'},
@@ -648,40 +668,99 @@ class ContentRepository {
   ];
 
 
-  /// Get all learning phases
+  /// Check Firestore availability once per session
+  Future<bool> _checkFirestoreAvailability() async {
+    if (_firestoreChecked) return _firestoreAvailable;
+
+    _firestoreChecked = true;
+    try {
+      // Quick check with timeout
+      await _firestore
+          .collection('phases')
+          .limit(1)
+          .get()
+          .timeout(_firestoreTimeout);
+      _firestoreAvailable = true;
+    } catch (e) {
+      print('Firestore not available, using local data: $e');
+      _firestoreAvailable = false;
+    }
+    return _firestoreAvailable;
+  }
+
+  /// Get all learning phases - fast local-first loading
   Future<List<PhaseModel>> getPhases() async {
+    // Return cache immediately if available
     if (_phasesCache != null) {
       return _phasesCache!;
     }
 
-    // Use default data directly to avoid Firestore permission/connection issues
-    // TODO: Re-enable Firestore when database is seeded
+    // Use default data immediately for fast loading
     _phasesCache = _defaultPhases;
+
+    // Try Firestore in background only if available (non-blocking)
+    _checkFirestoreAvailability().then((available) async {
+      if (available) {
+        try {
+          final snapshot = await _firestore
+              .collection('phases')
+              .orderBy('order')
+              .get()
+              .timeout(_firestoreTimeout);
+
+          if (snapshot.docs.isNotEmpty) {
+            _phasesCache = snapshot.docs
+                .map((doc) => PhaseModel.fromFirestore(doc))
+                .toList();
+          }
+        } catch (e) {
+          // Silently use local data
+        }
+      }
+    });
+
     return _phasesCache!;
   }
 
-  /// Get sections for a specific phase
+  /// Get sections for a specific phase - fast local-first loading
   Future<List<SectionModel>> getSectionsByPhase(String phaseId) async {
+    // Return cache immediately if available
     if (_sectionsCache.containsKey(phaseId)) {
       return _sectionsCache[phaseId]!;
     }
 
-    // Use default data directly to avoid Firestore permission/connection issues
-    // TODO: Re-enable Firestore when database is seeded
+    // Use default data immediately for fast loading
     final sections = _defaultSections.where((s) => s.phaseId == phaseId).toList();
     _sectionsCache[phaseId] = sections;
+
+    // Background Firestore sync (non-blocking)
+    if (_firestoreAvailable) {
+      _firestore
+          .collection('sections')
+          .where('phaseId', isEqualTo: phaseId)
+          .orderBy('order')
+          .get()
+          .timeout(_firestoreTimeout)
+          .then((snapshot) {
+        if (snapshot.docs.isNotEmpty) {
+          _sectionsCache[phaseId] = snapshot.docs
+              .map((doc) => SectionModel.fromFirestore(doc))
+              .toList();
+        }
+      }).catchError((_) {});
+    }
+
     return sections;
   }
 
-  /// Get all sections
+  /// Get all sections - returns local data immediately
   Future<List<SectionModel>> getAllSections() async {
-    // Use default data directly
     return _defaultSections;
   }
 
-  /// Get a specific section by ID - loads from JSON for full content
+  /// Get a specific section by ID - fast local-first loading
   Future<SectionModel?> getSection(String sectionId) async {
-    // Try to find in default sections first
+    // Find in default sections first (instant)
     SectionModel? baseSection;
     try {
       baseSection = _defaultSections.firstWhere((s) => s.id == sectionId);
@@ -693,64 +772,88 @@ class ContentRepository {
     try {
       final jsonData = await _loadSectionJson(sectionId);
       if (jsonData != null) {
-        // Merge JSON data with base section to get textContent and translations
         return baseSection.copyWithJsonData(jsonData);
       }
     } catch (e) {
       print('Error loading JSON for section $sectionId: $e');
     }
 
-    // Return base section if JSON loading fails
     return baseSection;
   }
 
-  /// Get vocabulary for a section - loads from local JSON
+  /// Get vocabulary for a section - fast local JSON loading with caching
   Future<List<VocabularyModel>> getVocabulary(String sectionId) async {
+    // Return cache if available
+    if (_vocabularyCache.containsKey(sectionId)) {
+      return _vocabularyCache[sectionId]!;
+    }
+
+    // Load from local JSON file (fast)
     try {
-      // Load from local JSON file
       final jsonData = await _loadSectionJson(sectionId);
-      if (jsonData == null || jsonData['vocabulary'] == null) {
-        return [];
+      if (jsonData != null && jsonData['vocabulary'] != null) {
+        final vocabList = jsonData['vocabulary'] as List;
+        final vocabulary = vocabList
+            .map((v) => VocabularyModel.fromJson(v as Map<String, dynamic>))
+            .toList();
+        _vocabularyCache[sectionId] = vocabulary;
+        return vocabulary;
       }
-      
-      final vocabList = jsonData['vocabulary'] as List;
-      return vocabList.map((v) => VocabularyModel.fromJson(v as Map<String, dynamic>)).toList();
     } catch (e) {
       print('Error loading vocabulary for $sectionId: $e');
-      return [];
     }
+
+    return [];
   }
 
-  /// Get dialogues for a section - loads from local JSON
+  /// Get dialogues for a section - fast local JSON loading with caching
   Future<List<DialogueModel>> getDialogues(String sectionId) async {
+    // Return cache if available
+    if (_dialoguesCache.containsKey(sectionId)) {
+      return _dialoguesCache[sectionId]!;
+    }
+
+    // Load from local JSON file (fast)
     try {
       final jsonData = await _loadSectionJson(sectionId);
-      if (jsonData == null || jsonData['dialogues'] == null) {
-        return [];
+      if (jsonData != null && jsonData['dialogues'] != null) {
+        final dialogueList = jsonData['dialogues'] as List;
+        final dialogues = dialogueList
+            .map((d) => DialogueModel.fromJson(d as Map<String, dynamic>))
+            .toList();
+        _dialoguesCache[sectionId] = dialogues;
+        return dialogues;
       }
-      
-      final dialogueList = jsonData['dialogues'] as List;
-      return dialogueList.map((d) => DialogueModel.fromJson(d as Map<String, dynamic>)).toList();
     } catch (e) {
       print('Error loading dialogues for $sectionId: $e');
-      return [];
     }
+
+    return [];
   }
 
-  /// Get exercises for a section - loads from local JSON
+  /// Get exercises for a section - fast local JSON loading with caching
   Future<List<ExerciseModel>> getExercises(String sectionId) async {
+    // Return cache if available
+    if (_exercisesCache.containsKey(sectionId)) {
+      return _exercisesCache[sectionId]!;
+    }
+
+    // Load from local JSON file (fast)
     try {
       final jsonData = await _loadSectionJson(sectionId);
-      if (jsonData == null || jsonData['exercises'] == null) {
-        return [];
+      if (jsonData != null && jsonData['exercises'] != null) {
+        final exerciseList = jsonData['exercises'] as List;
+        final exercises = exerciseList
+            .map((e) => ExerciseModel.fromJson(e as Map<String, dynamic>))
+            .toList();
+        _exercisesCache[sectionId] = exercises;
+        return exercises;
       }
-      
-      final exerciseList = jsonData['exercises'] as List;
-      return exerciseList.map((e) => ExerciseModel.fromJson(e as Map<String, dynamic>)).toList();
     } catch (e) {
       print('Error loading exercises for $sectionId: $e');
-      return [];
     }
+
+    return [];
   }
 
   // Cache for loaded JSON data
@@ -759,6 +862,7 @@ class ContentRepository {
   // Known section filename suffixes for each section number
   static const Map<String, String> _sectionSuffixes = {
     '01': '_greetings',
+    '01a': '_articles',
     '02': '_human_body_1',
     '03': '_human_body_2',
     '04': '_hospital_departments',
@@ -849,6 +953,12 @@ class ContentRepository {
   void clearCache() {
     _phasesCache = null;
     _sectionsCache.clear();
+    _vocabularyCache.clear();
+    _dialoguesCache.clear();
+    _exercisesCache.clear();
+    _jsonCache.clear();
+    _firestoreChecked = false;
+    _firestoreAvailable = false;
   }
 
   /// Get section count per phase

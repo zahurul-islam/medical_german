@@ -32,30 +32,12 @@
             "de": "In diesem Abschnitt werden wir die deutsche Terminologie für häufige gastrointestinale Beschwerden und zugehörige diagnostische Verfahren untersuchen. Sie lernen, Symptome zu beschreiben, Diagnosen zu verstehen und Behandlungsoptionen auf Deutsch zu diskutieren."
         },
         "grammarFocus": {
-            "en": {
-                "bullet1": "Focus on accusative and dative cases when describing the location of pain (e.g., 'Ich habe Schmerzen im Bauch' - in dem Bauch).",
-                "bullet2": "Practice using separable verbs when discussing treatment options (e.g., 'Ich werde Sie untersuchen' - to examine)."
-            },
-            "bn": {
-                "bullet1": "ব্যথা স্থানের বর্ণনায় অভিযুক্ত এবং ডেটিভ কেসগুলির উপর জোর দিন (যেমন, 'Ich habe Schmerzen im Bauch' - পেটে)।",
-                "bullet2": "চিকিত্সার বিকল্পগুলি নিয়ে আলোচনার সময় পৃথকযোগ্য ক্রিয়া ব্যবহার করার অনুশীলন করুন (যেমন, 'Ich werde Sie untersuchen' - পরীক্ষা করতে)।"
-            },
-            "hi": {
-                "bullet1": "दर्द के स्थान का वर्णन करते समय कर्म कारक और आपादान कारक पर ध्यान दें (उदाहरण के लिए, 'Ich habe Schmerzen im Bauch' - पेट में)।",
-                "bullet2": "उपचार के विकल्पों पर चर्चा करते समय वियोज्य क्रियाओं का उपयोग करने का अभ्यास करें (उदाहरण के लिए, 'Ich werde Sie untersuchen' - जांच करने के लिए)।"
-            },
-            "ur": {
-                "bullet1": "درد کی جگہ کو بیان کرتے وقت مفعولی اور اضافی معاملات پر توجہ مرکوز کریں (مثال کے طور پر، 'Ich habe Schmerzen im Bauch' - پیٹ میں)۔",
-                "bullet2": "علاج کے اختیارات پر تبادلہ خیال کرتے وقت الگ ہونے والے فعلوں کا استعمال کرنے کی مشق کریں (مثال کے طور پر، 'Ich werde Sie untersuchen' - معائنہ کرنے کے لیے)۔"
-            },
-            "tr": {
-                "bullet1": "Ağrının yerini tanımlarken belirtme ve yönelme hallerine odaklanın (örneğin, 'Ich habe Schmerzen im Bauch' - karında).",
-                "bullet2": "Tedavi seçeneklerini tartışırken ayrılabilen fiilleri kullanmayı alıştırma yapın (örneğin, 'Ich werde Sie untersuchen' - muayene etmek)."
-            },
-            "de": {
-                "bullet1": "Fokus auf Akkusativ und Dativ beim Beschreiben des Schmerzlokalisation (z.B. 'Ich habe Schmerzen im Bauch' - in dem Bauch).",
-                "bullet2": "Üben Sie die Verwendung trennbarer Verben bei der Diskussion von Behandlungsoptionen (z.B. 'Ich werde Sie untersuchen' - untersuchen)."
-            }
+            "en": "**Gastrointestinal System: Locative Prepositions and Case Usage**\n\nDescribing GI symptoms and anatomy requires mastery of locative prepositions.\n\n*Two-Way Prepositions with GI Organs:*\n| Preposition | Location (Dative) | Direction (Accusative) |\n|-------------|-------------------|------------------------|\n| in | im Magen (in the stomach) | in den Magen (into the stomach) |\n| auf | auf dem Darm (on the intestine) | auf den Darm (onto the intestine) |\n\n*Describing Pain Location:*\n- 'Die Schmerzen sind im Oberbauch.' (The pain is in the upper abdomen.)\n- 'Der Schmerz strahlt in den Rücken aus.' (The pain radiates into the back.)\n- 'Die Beschwerden lokalisieren sich im rechten Unterbauch.' (The complaints localize in the right lower abdomen.)\n\n**Symptom Description Vocabulary:**\n| German | English | Example Sentence |\n|--------|---------|------------------|\n| die Übelkeit | nausea | Der Patient klagt über Übelkeit. |\n| das Erbrechen | vomiting | Erbrechen seit zwei Tagen. |\n| der Durchfall | diarrhea | Wässriger Durchfall ohne Blut. |\n| die Verstopfung | constipation | Verstopfung seit einer Woche. |\n\n*Temporal Expressions for Symptom History:*\n- 'seit drei Tagen' (for three days)\n- 'vor dem Essen' (before eating)\n- 'nach dem Essen' (after eating)\n- 'während der Mahlzeit' (during the meal)\n\n**Physical Examination Phrases:**\n- 'Der Bauch ist weich und nicht druckschmerzhaft.' (The abdomen is soft and not tender.)\n- 'Ich taste jetzt Ihren Bauch ab.' (I'm now palpating your abdomen.)",
+            "de": "**Magen-Darm-System: Lokalpräpositionen und Kasusgebrauch**\n\nDie Beschreibung von GI-Symptomen und -Anatomie erfordert die Beherrschung von Lokalpräpositionen.\n\n*Wechselpräpositionen mit GI-Organen:*\n| Präposition | Ort (Dativ) | Richtung (Akkusativ) |\n|-------------|-------------|----------------------|\n| in | im Magen | in den Magen |\n| auf | auf dem Darm | auf den Darm |\n\n*Schmerzlokalisation beschreiben:*\n- 'Die Schmerzen sind im Oberbauch.'\n- 'Der Schmerz strahlt in den Rücken aus.'\n- 'Die Beschwerden lokalisieren sich im rechten Unterbauch.'\n\n**Symptombeschreibungsvokabular:**\n| Deutsch | Beispielsatz |\n|---------|--------------|\n| die Übelkeit | Der Patient klagt über Übelkeit. |\n| das Erbrechen | Erbrechen seit zwei Tagen. |\n| der Durchfall | Wässriger Durchfall ohne Blut. |\n| die Verstopfung | Verstopfung seit einer Woche. |\n\n*Zeitliche Ausdrücke für Symptomanamnese:*\n- 'seit drei Tagen'\n- 'vor dem Essen'\n- 'nach dem Essen'\n- 'während der Mahlzeit'\n\n**Untersuchungsphrasen:**\n- 'Der Bauch ist weich und nicht druckschmerzhaft.'\n- 'Ich taste jetzt Ihren Bauch ab.'",
+            "bn": "**Gastrointestinal System: Locative Prepositions and Case Usage**\n\nDescribing GI symptoms and anatomy requires mastery of locative prepositions.\n\n*Two-Way Prepositions with GI Organs:*\n| Preposition | Location (Dative) | Direction (Accusative) |\n|-------------|-------------------|------------------------|\n| in | im Magen (in the stomach) | in den Magen (into the stomach) |\n| auf | auf dem Darm (on the intestine) | auf den Darm (onto the intestine) |\n\n*Describing Pain Location:*\n- 'Die Schmerzen sind im Oberbauch.' (The pain is in the upper abdomen.)\n- 'Der Schmerz strahlt in den Rücken aus.' (The pain radiates into the back.)\n- 'Die Beschwerden lokalisieren sich im rechten Unterbauch.' (The complaints localize in the right lower abdomen.)\n\n**Symptom Description Vocabulary:**\n| German | English | Example Sentence |\n|--------|---------|------------------|\n| die Übelkeit | nausea | Der Patient klagt über Übelkeit. |\n| das Erbrechen | vomiting | Erbrechen seit zwei Tagen. |\n| der Durchfall | diarrhea | Wässriger Durchfall ohne Blut. |\n| die Verstopfung | constipation | Verstopfung seit einer Woche. |\n\n*Temporal Expressions for Symptom History:*\n- 'seit drei Tagen' (for three days)\n- 'vor dem Essen' (before eating)\n- 'nach dem Essen' (after eating)\n- 'während der Mahlzeit' (during the meal)\n\n**Physical Examination Phrases:**\n- 'Der Bauch ist weich und nicht druckschmerzhaft.' (The abdomen is soft and not tender.)\n- 'Ich taste jetzt Ihren Bauch ab.' (I'm now palpating your abdomen.)",
+            "hi": "**Gastrointestinal System: Locative Prepositions and Case Usage**\n\nDescribing GI symptoms and anatomy requires mastery of locative prepositions.\n\n*Two-Way Prepositions with GI Organs:*\n| Preposition | Location (Dative) | Direction (Accusative) |\n|-------------|-------------------|------------------------|\n| in | im Magen (in the stomach) | in den Magen (into the stomach) |\n| auf | auf dem Darm (on the intestine) | auf den Darm (onto the intestine) |\n\n*Describing Pain Location:*\n- 'Die Schmerzen sind im Oberbauch.' (The pain is in the upper abdomen.)\n- 'Der Schmerz strahlt in den Rücken aus.' (The pain radiates into the back.)\n- 'Die Beschwerden lokalisieren sich im rechten Unterbauch.' (The complaints localize in the right lower abdomen.)\n\n**Symptom Description Vocabulary:**\n| German | English | Example Sentence |\n|--------|---------|------------------|\n| die Übelkeit | nausea | Der Patient klagt über Übelkeit. |\n| das Erbrechen | vomiting | Erbrechen seit zwei Tagen. |\n| der Durchfall | diarrhea | Wässriger Durchfall ohne Blut. |\n| die Verstopfung | constipation | Verstopfung seit einer Woche. |\n\n*Temporal Expressions for Symptom History:*\n- 'seit drei Tagen' (for three days)\n- 'vor dem Essen' (before eating)\n- 'nach dem Essen' (after eating)\n- 'während der Mahlzeit' (during the meal)\n\n**Physical Examination Phrases:**\n- 'Der Bauch ist weich und nicht druckschmerzhaft.' (The abdomen is soft and not tender.)\n- 'Ich taste jetzt Ihren Bauch ab.' (I'm now palpating your abdomen.)",
+            "ur": "**Gastrointestinal System: Locative Prepositions and Case Usage**\n\nDescribing GI symptoms and anatomy requires mastery of locative prepositions.\n\n*Two-Way Prepositions with GI Organs:*\n| Preposition | Location (Dative) | Direction (Accusative) |\n|-------------|-------------------|------------------------|\n| in | im Magen (in the stomach) | in den Magen (into the stomach) |\n| auf | auf dem Darm (on the intestine) | auf den Darm (onto the intestine) |\n\n*Describing Pain Location:*\n- 'Die Schmerzen sind im Oberbauch.' (The pain is in the upper abdomen.)\n- 'Der Schmerz strahlt in den Rücken aus.' (The pain radiates into the back.)\n- 'Die Beschwerden lokalisieren sich im rechten Unterbauch.' (The complaints localize in the right lower abdomen.)\n\n**Symptom Description Vocabulary:**\n| German | English | Example Sentence |\n|--------|---------|------------------|\n| die Übelkeit | nausea | Der Patient klagt über Übelkeit. |\n| das Erbrechen | vomiting | Erbrechen seit zwei Tagen. |\n| der Durchfall | diarrhea | Wässriger Durchfall ohne Blut. |\n| die Verstopfung | constipation | Verstopfung seit einer Woche. |\n\n*Temporal Expressions for Symptom History:*\n- 'seit drei Tagen' (for three days)\n- 'vor dem Essen' (before eating)\n- 'nach dem Essen' (after eating)\n- 'während der Mahlzeit' (during the meal)\n\n**Physical Examination Phrases:**\n- 'Der Bauch ist weich und nicht druckschmerzhaft.' (The abdomen is soft and not tender.)\n- 'Ich taste jetzt Ihren Bauch ab.' (I'm now palpating your abdomen.)",
+            "tr": "**Gastrointestinal System: Locative Prepositions and Case Usage**\n\nDescribing GI symptoms and anatomy requires mastery of locative prepositions.\n\n*Two-Way Prepositions with GI Organs:*\n| Preposition | Location (Dative) | Direction (Accusative) |\n|-------------|-------------------|------------------------|\n| in | im Magen (in the stomach) | in den Magen (into the stomach) |\n| auf | auf dem Darm (on the intestine) | auf den Darm (onto the intestine) |\n\n*Describing Pain Location:*\n- 'Die Schmerzen sind im Oberbauch.' (The pain is in the upper abdomen.)\n- 'Der Schmerz strahlt in den Rücken aus.' (The pain radiates into the back.)\n- 'Die Beschwerden lokalisieren sich im rechten Unterbauch.' (The complaints localize in the right lower abdomen.)\n\n**Symptom Description Vocabulary:**\n| German | English | Example Sentence |\n|--------|---------|------------------|\n| die Übelkeit | nausea | Der Patient klagt über Übelkeit. |\n| das Erbrechen | vomiting | Erbrechen seit zwei Tagen. |\n| der Durchfall | diarrhea | Wässriger Durchfall ohne Blut. |\n| die Verstopfung | constipation | Verstopfung seit einer Woche. |\n\n*Temporal Expressions for Symptom History:*\n- 'seit drei Tagen' (for three days)\n- 'vor dem Essen' (before eating)\n- 'nach dem Essen' (after eating)\n- 'während der Mahlzeit' (during the meal)\n\n**Physical Examination Phrases:**\n- 'Der Bauch ist weich und nicht druckschmerzhaft.' (The abdomen is soft and not tender.)\n- 'Ich taste jetzt Ihren Bauch ab.' (I'm now palpating your abdomen.)"
         },
         "culturalNotes": {
             "en": "In German hospitals, it's common for doctors to explain diagnoses and treatment plans in detail, using technical terms but also ensuring the patient understands.",
@@ -73,12 +55,38 @@
             "tr": "Bu bölüm sizi, yaygın gastrointestinal durumları ve tanı prosedürlerini tartışmak için gerekli Almanca tıbbi kelime dağarcığıyla donatır.",
             "de": "Dieser Abschnitt vermittelt Ihnen das wesentliche deutsche medizinische Vokabular zur Besprechung häufiger gastrointestinaler Erkrankungen und diagnostischer Verfahren."
         },
-        "learningObjectives": [
-            "Identify and define common gastrointestinal conditions in German.",
-            "Describe symptoms and diagnostic findings using appropriate German medical terminology.",
-            "Understand and explain the procedures involved in gastrointestinal endoscopy.",
-            "Discuss treatment options for common gastrointestinal diseases in German."
-        ]
+        "learningObjectives": {
+            "en": [
+                "Identify and define common gastrointestinal conditions in German.",
+                "Describe symptoms and diagnostic findings using appropriate German medical terminology.",
+                "Understand and explain the procedures involved in gastrointestinal endoscopy.",
+                "Discuss treatment options for common gastrointestinal diseases in German."
+            ],
+            "bn": [
+                "Identify and define common gastrointestinal conditions in German.",
+                "Describe symptoms and diagnostic findings using appropriate German medical terminology.",
+                "বুঝুন and explain the procedures involved in gastrointestinal endoscopy.",
+                "Discuss treatment options for common gastrointestinal diseases in German."
+            ],
+            "hi": [
+                "Identify and define common gastrointestinal conditions in German.",
+                "Describe symptoms and diagnostic findings using appropriate German medical terminology.",
+                "समझें and explain the procedures involved in gastrointestinal endoscopy.",
+                "Discuss treatment options for common gastrointestinal diseases in German."
+            ],
+            "ur": [
+                "Identify and define common gastrointestinal conditions in German.",
+                "Describe symptoms and diagnostic findings using appropriate German medical terminology.",
+                "سمجھیں and explain the procedures involved in gastrointestinal endoscopy.",
+                "Discuss treatment options for common gastrointestinal diseases in German."
+            ],
+            "tr": [
+                "Identify and define common gastrointestinal conditions in German.",
+                "Describe symptoms and diagnostic findings using appropriate German medical terminology.",
+                "Anlayın and explain the procedures involved in gastrointestinal endoscopy.",
+                "Discuss treatment options for common gastrointestinal diseases in German."
+            ]
+        }
     },
     "vocabulary": [
         {
@@ -102,7 +110,8 @@
                 "ur": "مریض گیسٹرائٹس کے حصے کے طور پر متلی اور قے کی شکایت کر رہا ہے۔",
                 "tr": "Hasta gastrit nedeniyle mide bulantısı ve kusmadan şikayet ediyor."
             },
-            "id": "v23_01"
+            "id": "v23_01",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_01.mp3"
         },
         {
             "germanTerm": "die Appendizitis",
@@ -125,7 +134,8 @@
                 "ur": "معائنے کے دوران شدید اپینڈیسائٹس کی تشخیص ہوئی۔",
                 "tr": "Muayene sırasında akut apandisit teşhisi konuldu."
             },
-            "id": "v23_02"
+            "id": "v23_02",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_02.mp3"
         },
         {
             "germanTerm": "die Hepatitis",
@@ -148,7 +158,8 @@
                 "ur": "مریض کا ہیپاٹائٹس سی مثبت آیا ہے۔",
                 "tr": "Hastanın Hepatit C testi pozitif çıktı."
             },
-            "id": "v23_03"
+            "id": "v23_03",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_03.mp3"
         },
         {
             "germanTerm": "die Kolitis",
@@ -171,7 +182,8 @@
                 "ur": "السریٹیو کولائٹس کی وجہ سے پیٹ میں شدید درد ہو رہا تھا۔",
                 "tr": "Ülseratif kolit şiddetli karın ağrısına neden oldu."
             },
-            "id": "v23_04"
+            "id": "v23_04",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_04.mp3"
         },
         {
             "germanTerm": "die Obstipation",
@@ -194,7 +206,8 @@
                 "ur": "قبض ناکافی جسمانی سرگرمی کی وجہ سے ہو سکتا ہے۔",
                 "tr": "Kabızlık, yetersiz fiziksel aktivite nedeniyle ortaya çıkabilir."
             },
-            "id": "v23_05"
+            "id": "v23_05",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_05.mp3"
         },
         {
             "germanTerm": "der Ileus",
@@ -217,7 +230,8 @@
                 "ur": "آپریشن کے بعد مریض کو آنتوں میں رکاوٹ ہو گئی۔",
                 "tr": "Hasta ameliyat sonrası bir ileus geliştirdi."
             },
-            "id": "v23_06"
+            "id": "v23_06",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_06.mp3"
         },
         {
             "germanTerm": "die Endoskopie",
@@ -240,7 +254,8 @@
                 "ur": "دور بینی لعابی جھلی کی تشخیص کو ممکن بناتی ہے۔",
                 "tr": "Endoskopi, mukoza zarının değerlendirilmesini sağlar."
             },
-            "id": "v23_07"
+            "id": "v23_07",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_07.mp3"
         },
         {
             "germanTerm": "das Abdomen",
@@ -263,7 +278,8 @@
                 "ur": "مریض پیٹ کے نچلے حصے میں درد کی شکایت کر رہا ہے۔",
                 "tr": "Hasta alt karın bölgesinde ağrıdan şikayet ediyor."
             },
-            "id": "v23_08"
+            "id": "v23_08",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_08.mp3"
         },
         {
             "germanTerm": "der Darm",
@@ -286,7 +302,8 @@
                 "ur": "آنت کی سوزش اسہال کا باعث بن سکتی ہے۔",
                 "tr": "Bağırsağın iltihaplanması ishale yol açabilir."
             },
-            "id": "v23_09"
+            "id": "v23_09",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_09.mp3"
         },
         {
             "germanTerm": "der Magen",
@@ -309,7 +326,8 @@
                 "ur": "مریض کو کئی دنوں سے پیٹ میں شدید درد ہے۔",
                 "tr": "Hastanın günlerdir şiddetli mide ağrısı var."
             },
-            "id": "v23_10"
+            "id": "v23_10",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_10.mp3"
         },
         {
             "germanTerm": "die Leber",
@@ -332,7 +350,8 @@
                 "ur": "مریض کے جگر کی قیمتیں بڑھ گئی ہیں۔",
                 "tr": "Hastanın karaciğer değerleri yükselmiştir."
             },
-            "id": "v23_11"
+            "id": "v23_11",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_11.mp3"
         },
         {
             "germanTerm": "die Galle",
@@ -355,7 +374,8 @@
                 "ur": "پتا میں صفرا جمع ہوتا ہے۔",
                 "tr": "Safra, safra kesesinde depolanır."
             },
-            "id": "v23_12"
+            "id": "v23_12",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_12.mp3"
         },
         {
             "germanTerm": "die Übelkeit",
@@ -378,7 +398,8 @@
                 "ur": "دوا لینے کے بعد متلی ہوئی۔",
                 "tr": "İlacı aldıktan sonra mide bulantısı oluştu."
             },
-            "id": "v23_13"
+            "id": "v23_13",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_13.mp3"
         },
         {
             "germanTerm": "das Erbrechen",
@@ -401,7 +422,8 @@
                 "ur": "قے پروجیکٹائل اور بغیر ہضم شدہ تھی۔",
                 "tr": "Kusma fışkırır gibiydi ve sindirilmemişti."
             },
-            "id": "v23_14"
+            "id": "v23_14",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_14.mp3"
         },
         {
             "germanTerm": "der Durchfall",
@@ -424,7 +446,8 @@
                 "ur": "اسہال اچانک اور شدت سے ہوا۔",
                 "tr": "İshal aniden ve şiddetli bir şekilde ortaya çıktı."
             },
-            "id": "v23_15"
+            "id": "v23_15",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_15.mp3"
         },
         {
             "germanTerm": "die Verstopfung",
@@ -447,7 +470,8 @@
                 "ur": "قبض کی ایک عام وجہ بہت کم فائبر ہے۔",
                 "tr": "Kabızlığın yaygın bir nedeni çok az liftir."
             },
-            "id": "v23_16"
+            "id": "v23_16",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_16.mp3"
         },
         {
             "germanTerm": "entzündlich",
@@ -470,7 +494,8 @@
                 "ur": "یہ ایک سوزشی آنتوں کی بیماری ہے۔",
                 "tr": "Bu iltihaplı bir bağırsak hastalığıdır."
             },
-            "id": "v23_17"
+            "id": "v23_17",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_17.mp3"
         },
         {
             "germanTerm": "chronisch",
@@ -493,7 +518,8 @@
                 "ur": "گیسٹرائٹس دائمی ہے اور اس کا علاج مشکل ہے۔",
                 "tr": "Gastrit kroniktir ve tedavisi zordur."
             },
-            "id": "v23_18"
+            "id": "v23_18",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_18.mp3"
         },
         {
             "germanTerm": "akut",
@@ -516,7 +542,8 @@
                 "ur": "مریض شدید اپینڈیسائٹس میں مبتلا ہے۔",
                 "tr": "Hasta akut apandisitten muzdarip."
             },
-            "id": "v23_19"
+            "id": "v23_19",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_19.mp3"
         },
         {
             "germanTerm": "die Koloskopie",
@@ -539,7 +566,8 @@
                 "ur": "قولون بینی کا استعمال کولوریکٹل کینسر کی اسکریننگ کے لیے کیا جاتا ہے۔",
                 "tr": "Kolonoskopi, kolorektal kanser taraması için kullanılır."
             },
-            "id": "v23_20"
+            "id": "v23_20",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_20.mp3"
         },
         {
             "germanTerm": "die Biopsie",
@@ -562,7 +590,8 @@
                 "ur": "پیٹ سے بایوپسی لی گئی ہے۔",
                 "tr": "Mideden biyopsi alındı."
             },
-            "id": "v23_21"
+            "id": "v23_21",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_21.mp3"
         },
         {
             "germanTerm": "die Perforation",
@@ -585,7 +614,8 @@
                 "ur": "آنت میں سوراخ ایک ایمرجنسی ہے۔",
                 "tr": "Bağırsak perforasyonu bir acil durumdur."
             },
-            "id": "v23_22"
+            "id": "v23_22",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_22.mp3"
         },
         {
             "germanTerm": "der Ulcus",
@@ -608,7 +638,8 @@
                 "ur": "مریض کو ڈیوڈینل السر ہے۔",
                 "tr": "Hastanın duodenal ülseri var."
             },
-            "id": "v23_23"
+            "id": "v23_23",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_23.mp3"
         },
         {
             "germanTerm": "operativ",
@@ -631,7 +662,8 @@
                 "ur": "اپینڈیسائٹس کا علاج جراحی سے کرنا چاہیے۔",
                 "tr": "Apandisit cerrahi olarak tedavi edilmelidir."
             },
-            "id": "v23_24"
+            "id": "v23_24",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_24.mp3"
         },
         {
             "germanTerm": "konservativ",
@@ -654,7 +686,8 @@
                 "ur": "علاج دوا کے ساتھ قدامت پسند تھا۔",
                 "tr": "Tedavi ilaçlarla konservatif olarak yapıldı."
             },
-            "id": "v23_25"
+            "id": "v23_25",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_25.mp3"
         },
         {
             "germanTerm": "die Sonographie",
@@ -677,7 +710,8 @@
                 "ur": "پیٹ کی صوتی نگاری میں کوئی بے ضابطگی نظر نہیں آئی۔",
                 "tr": "Karın sonografisinde herhangi bir anormallik görülmedi."
             },
-            "id": "v23_26"
+            "id": "v23_26",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_26.mp3"
         },
         {
             "germanTerm": "die Anamnese",
@@ -700,7 +734,8 @@
                 "ur": "طبی تاریخ سے پتہ چلتا ہے کہ مریض کو پہلے بھی ایسی ہی شکایات تھیں۔",
                 "tr": "Tıbbi geçmiş, hastanın daha önce de benzer şikayetleri olduğunu ortaya koydu."
             },
-            "id": "v23_27"
+            "id": "v23_27",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_27.mp3"
         },
         {
             "germanTerm": "die Diagnose",
@@ -723,7 +758,8 @@
                 "ur": "علامات اور جانچ کے نتائج کی بنیاد پر تشخیص کی گئی۔",
                 "tr": "Teşhis, semptomlara ve muayene sonuçlarına göre konuldu."
             },
-            "id": "v23_28"
+            "id": "v23_28",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_28.mp3"
         },
         {
             "germanTerm": "die Therapie",
@@ -746,7 +782,8 @@
                 "ur": "گیسٹرائٹس کے علاج میں دوا اور غذائی تبدیلیاں شامل ہیں۔",
                 "tr": "Gastrit tedavisi ilaç ve diyet değişikliklerini içerir."
             },
-            "id": "v23_29"
+            "id": "v23_29",
+            "audioUrl": "assets/audio/sections/section_23/vocabulary/v23_29.mp3"
         }
     ],
     "dialogues": [
@@ -776,7 +813,8 @@
                         "hi": "शुभ प्रभात, श्री मुलर। आपको यहाँ क्या लाया?",
                         "ur": "صبح بخیر، مسٹر ملر۔ آپ کو یہاں کیا لایا؟",
                         "tr": "Günaydın, Bay Müller. Sizi buraya getiren nedir?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_01_line1.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -788,7 +826,8 @@
                         "hi": "मुझे पेट में तेज दर्द है और मुझे मितली आ रही है।",
                         "ur": "مجھے پیٹ میں شدید درد ہے اور مجھے متلی ہو رہی ہے۔",
                         "tr": "Şiddetli mide ağrım var ve midem bulanıyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_01_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -800,7 +839,8 @@
                         "hi": "आपको ये लक्षण कब से हैं?",
                         "ur": "آپ کو یہ علامات کب سے ہیں؟",
                         "tr": "Bu şikayetleriniz ne zamandır var?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_01_line3.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -812,7 +852,8 @@
                         "hi": "लगभग दो दिनों से।",
                         "ur": "تقریباً دو دن سے۔",
                         "tr": "Yaklaşık iki gündür."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_01_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -824,7 +865,8 @@
                         "hi": "मैं आपकी जांच करूंगा। यह गैस्ट्रिटिस हो सकता है।",
                         "ur": "میں آپ کا معائنہ کروں گا۔ یہ گیسٹرائٹس ہو سکتا ہے۔",
                         "tr": "Sizi muayene edeceğim. Gastrit olabilir."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_01_line5.mp3"
                 }
             ],
             "id": "d23_01"
@@ -855,7 +897,8 @@
                         "hi": "श्री श्मिट, हमारे पास पेट के निचले दाहिने हिस्से में तेज दर्द वाला एक मरीज है।",
                         "ur": "مسٹر شمٹ، ہمارے پاس پیٹ کے نچلے دائیں حصے میں شدید درد والا ایک مریض ہے۔",
                         "tr": "Bay Schmidt, sağ alt karın bölgesinde şiddetli ağrısı olan bir hastamız var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_02_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -867,7 +910,8 @@
                         "hi": "अपेंडिसाइटिस?",
                         "ur": "اپینڈیسائٹس؟",
                         "tr": "Apandisit mi?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_02_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -879,7 +923,8 @@
                         "hi": "संभवतः। उसे बुखार भी है।",
                         "ur": "ممکنہ طور پر۔ اسے بخار بھی ہے۔",
                         "tr": "Muhtemelen. Ateşi de var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_02_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -891,7 +936,8 @@
                         "hi": "मैं अभी आ रहा हूँ।",
                         "ur": "میں ابھی آ رہا ہوں۔",
                         "tr": "Hemen geliyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_02_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -903,7 +949,8 @@
                         "hi": "कृपया रक्त गणना और पेट का अल्ट्रासाउंड तैयार करें!",
                         "ur": "براہ کرم خون کی گنتی اور پیٹ کا الٹراساؤنڈ تیار کریں!",
                         "tr": "Lütfen kan sayımı ve karın ultrasonunu hazırlayın!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_02_line5.mp3"
                 }
             ],
             "id": "d23_02"
@@ -934,7 +981,8 @@
                         "hi": "श्री मेयर, आपका रक्त परिणाम आ गया है। दुर्भाग्य से, हमने हेपेटाइटिस का पता लगाया है।",
                         "ur": "مسٹر مئیر، آپ کے خون کے نتائج آ گئے ہیں۔ بدقسمتی سے، ہم نے ہیپاٹائٹس کا پتہ لگایا ہے۔",
                         "tr": "Bay Meier, kan sonuçlarınız geldi. Maalesef hepatit tespit ettik."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_03_line1.mp3"
                 },
                 {
                     "speaker": "Patient Meier",
@@ -946,7 +994,8 @@
                         "hi": "हेपेटाइटिस? इसका क्या मतलब है?",
                         "ur": "ہیپاٹائٹس؟ اس کا کیا مطلب ہے؟",
                         "tr": "Hepatit mi? Bu ne anlama geliyor?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_03_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Lehmann",
@@ -958,7 +1007,8 @@
                         "hi": "यह लीवर की सूजन है। हमें सटीक प्रकार निर्धारित करने की आवश्यकता है।",
                         "ur": "یہ جگر کی سوزش ہے۔ ہمیں صحیح قسم کا تعین کرنے کی ضرورت ہے۔",
                         "tr": "Bu karaciğerin iltihaplanmasıdır. Kesin türü belirlememiz gerekiyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_03_line3.mp3"
                 },
                 {
                     "speaker": "Patient Meier",
@@ -970,7 +1020,8 @@
                         "hi": "क्या इसका इलाज किया जा सकता है?",
                         "ur": "کیا اس کا علاج کیا جا سکتا ہے؟",
                         "tr": "Tedavi edilebilir mi?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_03_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Lehmann",
@@ -982,7 +1033,8 @@
                         "hi": "हाँ, हेपेटाइटिस के कई रूपों का इलाज किया जा सकता है। हम और परीक्षण करेंगे।",
                         "ur": "ہاں، ہیپاٹائٹس کی بہت سی اقسام قابل علاج ہیں۔ ہم مزید ٹیسٹ کریں گے۔",
                         "tr": "Evet, hepatitin birçok türü tedavi edilebilir. Daha fazla test yapacağız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_03_line5.mp3"
                 }
             ],
             "id": "d23_03"
@@ -1013,7 +1065,8 @@
                         "hi": "डॉ. श्मिट, ज्ञात कोलाइटिस वाले मरीज बर्गर को गंभीर भड़क उठी है।",
                         "ur": "ڈاکٹر شمٹ، معروف کولائٹس والے مریض برگر کو شدید بھڑک اٹھا ہے۔",
                         "tr": "Dr. Schmidt, bilinen koliti olan hasta Berger'in şiddetli bir alevlenmesi var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_04_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -1025,7 +1078,8 @@
                         "hi": "उसके क्या लक्षण हैं?",
                         "ur": "اس کی کیا علامات ہیں؟",
                         "tr": "Hangi belirtileri var?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_04_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -1037,7 +1091,8 @@
                         "hi": "तेज पेट दर्द, खूनी दस्त, बुखार।",
                         "ur": "شدید پیٹ میں درد، خونی اسہال، بخار۔",
                         "tr": "Şiddetli karın ağrısı, kanlı ishal, ateş."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_04_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -1049,7 +1104,8 @@
                         "hi": "ठीक है, कृपया कॉर्टिकोस्टेरॉइड्स तैयार करें। मैं अभी आ रहा हूँ।",
                         "ur": "ٹھیک ہے، براہ کرم corticosteroids تیار کریں۔ میں ابھی آ رہا ہوں۔",
                         "tr": "Tamam, lütfen kortikosteroidleri hazırlayın. Hemen geliyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_04_line4.mp3"
                 },
                 {
                     "speaker": "Patient Berger",
@@ -1061,7 +1117,8 @@
                         "hi": "दर्द असहनीय है!",
                         "ur": "درد ناقابل برداشت ہے!",
                         "tr": "Ağrı dayanılmaz!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_04_line5.mp3"
                 }
             ],
             "id": "d23_04"
@@ -1092,7 +1149,8 @@
                         "hi": "मुझे पेट में तेज दर्द है, मेरा पेट फूला हुआ है, और मैं मल त्याग नहीं कर पा रहा हूँ।",
                         "ur": "مجھے پیٹ میں شدید درد ہے، میرا پیٹ پھولا ہوا ہے، اور میں پاخانہ نہیں کر پا رہا ہوں۔",
                         "tr": "Şiddetli karın ağrım var, karnım şiş ve tuvalete çıkamıyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_05_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Lehmann",
@@ -1104,7 +1162,8 @@
                         "hi": "क्या आपको उल्टी भी हुई है?",
                         "ur": "کیا آپ نے قے بھی کی ہے؟",
                         "tr": "Kustunuz mu?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_05_line2.mp3"
                 },
                 {
                     "speaker": "Patient Lehmann",
@@ -1116,7 +1175,8 @@
                         "hi": "हाँ, कई बार।",
                         "ur": "ہاں، کئی بار۔",
                         "tr": "Evet, birkaç kez."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_05_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Lehmann",
@@ -1128,7 +1188,8 @@
                         "hi": "यह इलियस जैसा लगता है। हमें एक एक्स-रे लेने की आवश्यकता है।",
                         "ur": "یہ ileus کی طرح لگتا ہے۔ ہمیں ایکسرے لینے کی ضرورت ہے۔",
                         "tr": "Bu bir ileus gibi geliyor. Bir röntgen çekmemiz gerekiyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_05_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -1140,7 +1201,8 @@
                         "hi": "मैं सब कुछ तैयार कर रहा हूँ, डॉक्टर।",
                         "ur": "میں سب کچھ تیار کر رہا ہوں، ڈاکٹر۔",
                         "tr": "Her şeyi hazırlıyorum, doktor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_23/dialogues/d23_05_line5.mp3"
                 }
             ],
             "id": "d23_05"

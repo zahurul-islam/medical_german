@@ -32,30 +32,12 @@
             "de": "In diesem Abschnitt lernen Sie, wie Sie an gängigen Kommunikationsszenarien zwischen medizinischen Kollegen teilnehmen. Insbesondere erlangen Sie Kenntnisse im Gebrauch der korrekten Terminologie und Kommunikationsstrategien für Übergaben, Schichtberichte, Konsile und Teambesprechungen."
         },
         "grammarFocus": {
-            "en": {
-                "1": "Use of specific verbs associated with communication, such as 'mitteilen', 'berichten', 'besprechen'.",
-                "2": "Correct usage of prepositions and cases to indicate the recipient or subject of communication (e.g., 'an den Kollegen berichten' - report to the colleague)."
-            },
-            "bn": {
-                "1": "'mitteilen', 'berichten', 'besprechen' এর মতো যোগাযোগের সাথে যুক্ত নির্দিষ্ট ক্রিয়াগুলির ব্যবহার।",
-                "2": "যোগাযোগের প্রাপক বা বিষয় নির্দেশ করতে উপসর্গ এবং কারকের সঠিক ব্যবহার (যেমন, 'an den Kollegen berichten' - সহকর্মীকে রিপোর্ট করুন)।"
-            },
-            "hi": {
-                "1": "संचार से जुड़े विशिष्ट क्रियाओं का उपयोग, जैसे 'mitteilen', 'berichten', 'besprechen'।",
-                "2": "संचार के प्राप्तकर्ता या विषय को इंगित करने के लिए पूर्वसर्गों और कारकों का सही उपयोग (उदाहरण के लिए, 'an den Kollegen berichten' - सहकर्मी को रिपोर्ट करें)।"
-            },
-            "ur": {
-                "1": "مواصلات سے منسلک مخصوص فعلوں کا استعمال، جیسے 'mitteilen', 'berichten', 'besprechen'۔",
-                "2": "مواصلات کے وصول کنندہ یا موضوع کی نشاندہی کرنے کے لیے سابقوں اور عوامل کا صحیح استعمال (مثال کے طور پر، 'an den Kollegen berichten' - ساتھی کو رپورٹ کریں)۔"
-            },
-            "tr": {
-                "1": "'mitteilen', 'berichten', 'besprechen' gibi iletişimle ilişkili özel fiillerin kullanımı.",
-                "2": "İletişimin alıcısını veya konusunu belirtmek için edatların ve durumların doğru kullanımı (örneğin, 'an den Kollegen berichten' - meslektaşa rapor vermek)."
-            },
-            "de": {
-                "1": "Verwendung spezifischer Verben im Zusammenhang mit Kommunikation, wie z.B. 'mitteilen', 'berichten', 'besprechen'.",
-                "2": "Korrekte Verwendung von Präpositionen und Fällen, um den Empfänger oder das Thema der Kommunikation anzugeben (z.B. 'an den Kollegen berichten')."
-            }
+            "en": "**Advanced Medical German Grammar for Section 33**\n\nThis section focuses on C1-level language skills essential for medical practice.\n\n*Key Grammar Points:*\n\n**1. Complex Sentence Structures:**\nGerman medical documentation requires subordinate clauses with proper word order:\n- 'Da der Patient über Schmerzen klagte, wurde ein CT durchgeführt.'\n- 'Nachdem die Ergebnisse vorlagen, konnte die Diagnose gestellt werden.'\n\n**2. Passive Voice in Medical Reporting:**\n- 'Es wurde beschlossen...' (It was decided...)\n- 'Es konnte festgestellt werden...' (It could be determined...)\n- 'Der Patient wird weiterhin überwacht.' (The patient continues to be monitored.)\n\n**3. Konjunktiv I for Indirect Speech:**\nUsed in professional reports to convey patient statements:\n- 'Der Patient sagte, er habe Schmerzen.' (The patient said he had pain.)\n- 'Sie gab an, sie sei allergisch gegen Penicillin.' (She stated she was allergic to penicillin.)\n\n**4. Modal Verbs in Passive:**\n- 'Die Medikamente müssen eingenommen werden.' (The medications must be taken.)\n- 'Die Dosierung sollte angepasst werden.' (The dosage should be adjusted.)\n- 'Ein EKG kann durchgeführt werden.' (An ECG can be performed.)\n\n*Professional Communication Examples:*\n- 'Aufgrund der vorliegenden Befunde empfehlen wir...'\n- 'Im Hinblick auf die Risikofaktoren sollte...'\n- 'Bei persistierenden Beschwerden bitten wir um Wiedervorstellung.'",
+            "de": "**Fortgeschrittene medizinische deutsche Grammatik für Abschnitt 33**\n\nDieser Abschnitt konzentriert sich auf C1-Sprachkenntnisse für die medizinische Praxis.\n\n*Wichtige Grammatikpunkte:*\n\n**1. Komplexe Satzstrukturen:**\n- 'Da der Patient über Schmerzen klagte, wurde ein CT durchgeführt.'\n- 'Nachdem die Ergebnisse vorlagen, konnte die Diagnose gestellt werden.'\n\n**2. Passiv in der medizinischen Berichterstattung:**\n- 'Es wurde beschlossen...'\n- 'Es konnte festgestellt werden...'\n- 'Der Patient wird weiterhin überwacht.'\n\n**3. Konjunktiv I für indirekte Rede:**\n- 'Der Patient sagte, er habe Schmerzen.'\n- 'Sie gab an, sie sei allergisch gegen Penicillin.'\n\n**4. Modalverben im Passiv:**\n- 'Die Medikamente müssen eingenommen werden.'\n- 'Die Dosierung sollte angepasst werden.'\n- 'Ein EKG kann durchgeführt werden.'\n\n*Professionelle Kommunikationsbeispiele:*\n- 'Aufgrund der vorliegenden Befunde empfehlen wir...'\n- 'Im Hinblick auf die Risikofaktoren sollte...'\n- 'Bei persistierenden Beschwerden bitten wir um Wiedervorstellung.'",
+            "bn": "**Advanced Medical German Grammar for Section 33**\n\nThis section focuses on C1-level language skills essential for medical practice.\n\n*Key Grammar Points:*\n\n**1. Complex Sentence Structures:**\nGerman medical documentation requires subordinate clauses with proper word order:\n- 'Da der Patient über Schmerzen klagte, wurde ein CT durchgeführt.'\n- 'Nachdem die Ergebnisse vorlagen, konnte die Diagnose gestellt werden.'\n\n**2. Passive Voice in Medical Reporting:**\n- 'Es wurde beschlossen...' (It was decided...)\n- 'Es konnte festgestellt werden...' (It could be determined...)\n- 'Der Patient wird weiterhin überwacht.' (The patient continues to be monitored.)\n\n**3. Konjunktiv I for Indirect Speech:**\nUsed in professional reports to convey patient statements:\n- 'Der Patient sagte, er habe Schmerzen.' (The patient said he had pain.)\n- 'Sie gab an, sie sei allergisch gegen Penicillin.' (She stated she was allergic to penicillin.)\n\n**4. Modal Verbs in Passive:**\n- 'Die Medikamente müssen eingenommen werden.' (The medications must be taken.)\n- 'Die Dosierung sollte angepasst werden.' (The dosage should be adjusted.)\n- 'Ein EKG kann durchgeführt werden.' (An ECG can be performed.)\n\n*Professional Communication Examples:*\n- 'Aufgrund der vorliegenden Befunde empfehlen wir...'\n- 'Im Hinblick auf die Risikofaktoren sollte...'\n- 'Bei persistierenden Beschwerden bitten wir um Wiedervorstellung.'",
+            "hi": "**Advanced Medical German Grammar for Section 33**\n\nThis section focuses on C1-level language skills essential for medical practice.\n\n*Key Grammar Points:*\n\n**1. Complex Sentence Structures:**\nGerman medical documentation requires subordinate clauses with proper word order:\n- 'Da der Patient über Schmerzen klagte, wurde ein CT durchgeführt.'\n- 'Nachdem die Ergebnisse vorlagen, konnte die Diagnose gestellt werden.'\n\n**2. Passive Voice in Medical Reporting:**\n- 'Es wurde beschlossen...' (It was decided...)\n- 'Es konnte festgestellt werden...' (It could be determined...)\n- 'Der Patient wird weiterhin überwacht.' (The patient continues to be monitored.)\n\n**3. Konjunktiv I for Indirect Speech:**\nUsed in professional reports to convey patient statements:\n- 'Der Patient sagte, er habe Schmerzen.' (The patient said he had pain.)\n- 'Sie gab an, sie sei allergisch gegen Penicillin.' (She stated she was allergic to penicillin.)\n\n**4. Modal Verbs in Passive:**\n- 'Die Medikamente müssen eingenommen werden.' (The medications must be taken.)\n- 'Die Dosierung sollte angepasst werden.' (The dosage should be adjusted.)\n- 'Ein EKG kann durchgeführt werden.' (An ECG can be performed.)\n\n*Professional Communication Examples:*\n- 'Aufgrund der vorliegenden Befunde empfehlen wir...'\n- 'Im Hinblick auf die Risikofaktoren sollte...'\n- 'Bei persistierenden Beschwerden bitten wir um Wiedervorstellung.'",
+            "ur": "**Advanced Medical German Grammar for Section 33**\n\nThis section focuses on C1-level language skills essential for medical practice.\n\n*Key Grammar Points:*\n\n**1. Complex Sentence Structures:**\nGerman medical documentation requires subordinate clauses with proper word order:\n- 'Da der Patient über Schmerzen klagte, wurde ein CT durchgeführt.'\n- 'Nachdem die Ergebnisse vorlagen, konnte die Diagnose gestellt werden.'\n\n**2. Passive Voice in Medical Reporting:**\n- 'Es wurde beschlossen...' (It was decided...)\n- 'Es konnte festgestellt werden...' (It could be determined...)\n- 'Der Patient wird weiterhin überwacht.' (The patient continues to be monitored.)\n\n**3. Konjunktiv I for Indirect Speech:**\nUsed in professional reports to convey patient statements:\n- 'Der Patient sagte, er habe Schmerzen.' (The patient said he had pain.)\n- 'Sie gab an, sie sei allergisch gegen Penicillin.' (She stated she was allergic to penicillin.)\n\n**4. Modal Verbs in Passive:**\n- 'Die Medikamente müssen eingenommen werden.' (The medications must be taken.)\n- 'Die Dosierung sollte angepasst werden.' (The dosage should be adjusted.)\n- 'Ein EKG kann durchgeführt werden.' (An ECG can be performed.)\n\n*Professional Communication Examples:*\n- 'Aufgrund der vorliegenden Befunde empfehlen wir...'\n- 'Im Hinblick auf die Risikofaktoren sollte...'\n- 'Bei persistierenden Beschwerden bitten wir um Wiedervorstellung.'",
+            "tr": "**Advanced Medical German Grammar for Section 33**\n\nThis section focuses on C1-level language skills essential for medical practice.\n\n*Key Grammar Points:*\n\n**1. Complex Sentence Structures:**\nGerman medical documentation requires subordinate clauses with proper word order:\n- 'Da der Patient über Schmerzen klagte, wurde ein CT durchgeführt.'\n- 'Nachdem die Ergebnisse vorlagen, konnte die Diagnose gestellt werden.'\n\n**2. Passive Voice in Medical Reporting:**\n- 'Es wurde beschlossen...' (It was decided...)\n- 'Es konnte festgestellt werden...' (It could be determined...)\n- 'Der Patient wird weiterhin überwacht.' (The patient continues to be monitored.)\n\n**3. Konjunktiv I for Indirect Speech:**\nUsed in professional reports to convey patient statements:\n- 'Der Patient sagte, er habe Schmerzen.' (The patient said he had pain.)\n- 'Sie gab an, sie sei allergisch gegen Penicillin.' (She stated she was allergic to penicillin.)\n\n**4. Modal Verbs in Passive:**\n- 'Die Medikamente müssen eingenommen werden.' (The medications must be taken.)\n- 'Die Dosierung sollte angepasst werden.' (The dosage should be adjusted.)\n- 'Ein EKG kann durchgeführt werden.' (An ECG can be performed.)\n\n*Professional Communication Examples:*\n- 'Aufgrund der vorliegenden Befunde empfehlen wir...'\n- 'Im Hinblick auf die Risikofaktoren sollte...'\n- 'Bei persistierenden Beschwerden bitten wir um Wiedervorstellung.'"
         },
         "culturalNotes": {
             "en": "In German hospitals, precise and structured communication, particularly during handovers, is highly valued to ensure patient safety and continuity of care.",
@@ -73,12 +55,38 @@
             "tr": "Bu iletişim becerilerinde uzmanlaşmak, Almanca konuşulan bir tıbbi ortamda etkili işbirliği ve hasta bakımı için çok önemlidir.",
             "de": "Die Beherrschung dieser Kommunikationsfähigkeiten ist entscheidend für eine effektive Zusammenarbeit und Patientenversorgung im deutschsprachigen medizinischen Umfeld."
         },
-        "learningObjectives": [
-            "Identify and use appropriate German terminology for different types of colleague communication in a medical setting.",
-            "Effectively participate in handover procedures, providing clear and concise patient information.",
-            "Understand the structure and expectations for shift reports, consultations, and team meetings.",
-            "Demonstrate cultural sensitivity in communication with German-speaking colleagues."
-        ]
+        "learningObjectives": {
+            "en": [
+                "Identify and use appropriate German terminology for different types of colleague communication in a medical setting.",
+                "Effectively participate in handover procedures, providing clear and concise patient information.",
+                "Understand the structure and expectations for shift reports, consultations, and team meetings.",
+                "Demonstrate cultural sensitivity in communication with German-speaking colleagues."
+            ],
+            "bn": [
+                "Identify and ব্যবহার করুন appropriate German terminology for different types of colleague communication in a medical setting.",
+                "Effectively participate in handover procedures, providing clear and concise patient information.",
+                "বুঝুন the structure and expectations for shift reports, consultations, and team meetings.",
+                "Demonstrate cultural sensitivity in communication with German-speaking colleagues."
+            ],
+            "hi": [
+                "Identify and उपयोग करें appropriate German terminology for different types of colleague communication in a medical setting.",
+                "Effectively participate in handover procedures, providing clear and concise patient information.",
+                "समझें the structure and expectations for shift reports, consultations, and team meetings.",
+                "Demonstrate cultural sensitivity in communication with German-speaking colleagues."
+            ],
+            "ur": [
+                "Identify and استعمال کریں appropriate German terminology for different types of colleague communication in a medical setting.",
+                "Effectively participate in handover procedures, providing clear and concise patient information.",
+                "سمجھیں the structure and expectations for shift reports, consultations, and team meetings.",
+                "Demonstrate cultural sensitivity in communication with German-speaking colleagues."
+            ],
+            "tr": [
+                "Identify and Kullanın appropriate German terminology for different types of colleague communication in a medical setting.",
+                "Effectively participate in handover procedures, providing clear and concise patient information.",
+                "Anlayın the structure and expectations for shift reports, consultations, and team meetings.",
+                "Demonstrate cultural sensitivity in communication with German-speaking colleagues."
+            ]
+        }
     },
     "vocabulary": [
         {
@@ -102,7 +110,8 @@
                 "ur": "حوالگی روزانہ 7 بجے ہوتی ہے۔",
                 "tr": "Devir teslimi her gün saat 7'de gerçekleşir."
             },
-            "id": "v33_01"
+            "id": "v33_01",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_01.mp3"
         },
         {
             "germanTerm": "Dienst",
@@ -125,7 +134,8 @@
                 "ur": "آج رات میری ڈیوٹی ہے۔",
                 "tr": "Bu gece nöbetteyim."
             },
-            "id": "v33_02"
+            "id": "v33_02",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_02.mp3"
         },
         {
             "germanTerm": "Konsil",
@@ -148,7 +158,8 @@
                 "ur": "ہمیں ماہر امراض قلب سے مشورے کی ضرورت ہے۔",
                 "tr": "Kardiyologdan konsültasyon almamız gerekiyor."
             },
-            "id": "v33_03"
+            "id": "v33_03",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_03.mp3"
         },
         {
             "germanTerm": "Rücksprache",
@@ -171,7 +182,8 @@
                 "ur": "سینئر ڈاکٹر سے مشورہ کریں۔",
                 "tr": "Lütfen başhekimle istişare edin."
             },
-            "id": "v33_04"
+            "id": "v33_04",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_04.mp3"
         },
         {
             "germanTerm": "Besprechung",
@@ -194,7 +206,8 @@
                 "ur": "روزانہ اجلاس 8 بجے شروع ہوتا ہے۔",
                 "tr": "Günlük toplantı saat 8'de başlar."
             },
-            "id": "v33_05"
+            "id": "v33_05",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_05.mp3"
         },
         {
             "germanTerm": "Teambesprechung",
@@ -217,7 +230,8 @@
                 "ur": "ہماری ہفتہ وار ٹیم میٹنگ ہوتی ہے۔",
                 "tr": "Haftalık ekip toplantımız var."
             },
-            "id": "v33_06"
+            "id": "v33_06",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_06.mp3"
         },
         {
             "germanTerm": "Visite",
@@ -240,7 +254,8 @@
                 "ur": "وارڈ راؤنڈ 9 بجے شروع ہوتا ہے۔",
                 "tr": "Vizit saat 9'da başlıyor."
             },
-            "id": "v33_07"
+            "id": "v33_07",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_07.mp3"
         },
         {
             "germanTerm": "Kollege",
@@ -263,7 +278,8 @@
                 "ur": "میں اپنے ساتھیوں کے ساتھ اچھی طرح کام کرتا ہوں۔",
                 "tr": "Meslektaşlarımla iyi çalışıyorum."
             },
-            "id": "v33_08"
+            "id": "v33_08",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_08.mp3"
         },
         {
             "germanTerm": "Oberarzt",
@@ -286,7 +302,8 @@
                 "ur": "سینئر طبیب نے فیصلہ کیا۔",
                 "tr": "Başhekim kararı verdi."
             },
-            "id": "v33_09"
+            "id": "v33_09",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_09.mp3"
         },
         {
             "germanTerm": "Unterarzt",
@@ -309,7 +326,8 @@
                 "ur": "جونیئر ڈاکٹر خون نکالنے کا ذمہ دار ہے۔",
                 "tr": "Asistan doktor kan almaktan sorumludur."
             },
-            "id": "v33_10"
+            "id": "v33_10",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_10.mp3"
         },
         {
             "germanTerm": "Pflegekraft",
@@ -332,7 +350,8 @@
                 "ur": "نرس نے دوا دی۔",
                 "tr": "Hemşire ilacı uyguladı."
             },
-            "id": "v33_11"
+            "id": "v33_11",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_11.mp3"
         },
         {
             "germanTerm": "Gespräch",
@@ -355,7 +374,8 @@
                 "ur": "ہماری مریض کے بارے میں ایک لمبی گفتگو ہوئی۔",
                 "tr": "Hasta hakkında uzun bir konuşma yaptık."
             },
-            "id": "v33_12"
+            "id": "v33_12",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_12.mp3"
         },
         {
             "germanTerm": "Team",
@@ -378,7 +398,8 @@
                 "ur": "ہم ایک مضبوط ٹیم ہیں۔",
                 "tr": "Güçlü bir takımız."
             },
-            "id": "v33_13"
+            "id": "v33_13",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_13.mp3"
         },
         {
             "germanTerm": "Kommunikation",
@@ -401,7 +422,8 @@
                 "ur": "ہسپتال میں اچھی مواصلات اہم ہے۔",
                 "tr": "Hastanede iyi iletişim önemlidir."
             },
-            "id": "v33_14"
+            "id": "v33_14",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_14.mp3"
         },
         {
             "germanTerm": "Patientenakte",
@@ -424,7 +446,8 @@
                 "ur": "معلومات مریض کی فائل میں ہے۔",
                 "tr": "Bilgiler hasta dosyasında bulunmaktadır."
             },
-            "id": "v33_15"
+            "id": "v33_15",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_15.mp3"
         },
         {
             "germanTerm": "Anamnese",
@@ -447,7 +470,8 @@
                 "ur": "طبی تاریخ کو احتیاط سے لیا گیا تھا۔",
                 "tr": "Tıbbi geçmiş dikkatlice alındı."
             },
-            "id": "v33_16"
+            "id": "v33_16",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_16.mp3"
         },
         {
             "germanTerm": "Befund",
@@ -470,7 +494,8 @@
                 "ur": "تلاش غیر معمولی ہے۔",
                 "tr": "Bulgu olağan dışı değil."
             },
-            "id": "v33_17"
+            "id": "v33_17",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_17.mp3"
         },
         {
             "germanTerm": "Therapie",
@@ -493,7 +518,8 @@
                 "ur": "تھراپی مؤثر ہے۔",
                 "tr": "Terapi etkili oluyor."
             },
-            "id": "v33_18"
+            "id": "v33_18",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_18.mp3"
         },
         {
             "germanTerm": "behandeln",
@@ -516,7 +542,8 @@
                 "ur": "ہمیں مریض کا فوری علاج کرنا چاہیے۔",
                 "tr": "Hastayı hızlıca tedavi etmeliyiz."
             },
-            "id": "v33_19"
+            "id": "v33_19",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_19.mp3"
         },
         {
             "germanTerm": "informieren",
@@ -539,7 +566,8 @@
                 "ur": "مجھے مریض کو خطرات سے آگاہ کرنا ہوگا۔",
                 "tr": "Hastayı riskler hakkında bilgilendirmeliyim."
             },
-            "id": "v33_20"
+            "id": "v33_20",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_20.mp3"
         },
         {
             "germanTerm": "dokumentieren",
@@ -562,7 +590,8 @@
                 "ur": "ہمیں ہر چیز کو احتیاط سے دستاویزی شکل دینا ہوگی۔",
                 "tr": "Her şeyi dikkatlice belgelemeliyiz."
             },
-            "id": "v33_21"
+            "id": "v33_21",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_21.mp3"
         },
         {
             "germanTerm": "besprechen",
@@ -585,7 +614,8 @@
                 "ur": "ہمیں ٹیم کے ساتھ اس معاملے پر تبادلہ خیال کرنے کی ضرورت ہے۔",
                 "tr": "Bu vakayı ekiple görüşmemiz gerekiyor."
             },
-            "id": "v33_22"
+            "id": "v33_22",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_22.mp3"
         },
         {
             "germanTerm": "verantwortlich",
@@ -608,7 +638,8 @@
                 "ur": "اس مریض کے لیے کون ذمہ دار ہے؟",
                 "tr": "Bu hastadan kim sorumlu?"
             },
-            "id": "v33_23"
+            "id": "v33_23",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_23.mp3"
         },
         {
             "germanTerm": "wichtig",
@@ -631,7 +662,8 @@
                 "ur": "ہدایات پر عمل کرنا اہم ہے۔",
                 "tr": "Talimatları takip etmek önemlidir."
             },
-            "id": "v33_24"
+            "id": "v33_24",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_24.mp3"
         },
         {
             "germanTerm": "gemeinsam",
@@ -654,7 +686,8 @@
                 "ur": "ہم مل کر حل پر کام کر رہے ہیں۔",
                 "tr": "Çözüm üzerinde birlikte çalışıyoruz."
             },
-            "id": "v33_25"
+            "id": "v33_25",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_25.mp3"
         },
         {
             "germanTerm": "im Dienst sein",
@@ -677,7 +710,8 @@
                 "ur": "میں آج ڈیوٹی پر ہوں۔",
                 "tr": "Bugün görevdeyim."
             },
-            "id": "v33_26"
+            "id": "v33_26",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_26.mp3"
         },
         {
             "germanTerm": "sich austauschen",
@@ -700,7 +734,8 @@
                 "ur": "ہمیں باقاعدگی سے معلومات کا تبادلہ کرنے کی ضرورت ہے۔",
                 "tr": "Düzenli olarak bilgi alışverişinde bulunmalıyız."
             },
-            "id": "v33_27"
+            "id": "v33_27",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_27.mp3"
         },
         {
             "germanTerm": "Kollegialität",
@@ -723,7 +758,8 @@
                 "ur": "ٹیم میں رفاقت بہت اہم ہے۔",
                 "tr": "Ekipte meslektaşlık çok önemlidir."
             },
-            "id": "v33_28"
+            "id": "v33_28",
+            "audioUrl": "assets/audio/sections/section_33/vocabulary/v33_28.mp3"
         }
     ],
     "dialogues": [
@@ -753,7 +789,8 @@
                         "hi": "शुभ प्रभात, सहकर्मी। यहाँ कार्यभार है। कमरा नंबर 3 में रोगी मुलर को 2 घंटे से बुखार है और उसे पेरासिटामोल की आवश्यकता है।",
                         "ur": "صبح بخیر، ساتھی۔ یہ چارج ہے۔ کمرہ نمبر 3 میں مریض ملر کو 2 گھنٹے سے بخار ہے اور اسے پیراسیٹامول کی ضرورت ہے۔",
                         "tr": "Günaydın meslektaşım. İşte devir. 3 numaralı odadaki Müller hastası 2 saattir ateşli ve Parasetamol'e ihtiyacı var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_01_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Meier",
@@ -765,7 +802,8 @@
                         "hi": "समझ गया। क्या कोई अन्य असामान्यताएं थीं?",
                         "ur": "سمجھ گیا۔ کیا کوئی اور غیر معمولی چیزیں تھیں؟",
                         "tr": "Anlaşıldı. Başka anormallikler var mıydı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_01_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -777,7 +815,8 @@
                         "hi": "हाँ, श्रीमती लेहमैन को दर्द निवारक दवा के बावजूद अभी भी दर्द है। मैंने दर्द सेवा के साथ एक परामर्श का आदेश दिया है।",
                         "ur": "جی ہاں، محترمہ لیمان کو درد کی دوا کے باوجود ابھی بھی درد ہے۔ میں نے درد کی سروس کے ساتھ ایک مشاورت کا حکم دیا ہے۔",
                         "tr": "Evet, Bayan Lehmann'ın ağrı kesici ilaca rağmen hala ağrısı var. Ağrı servisi ile bir konsültasyon ayarladım."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_01_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Meier",
@@ -789,7 +828,8 @@
                         "hi": "बहुत अच्छा। जानकारी के लिए धन्यवाद। आपका दिन शुभ हो!",
                         "ur": "بہت خوب۔ معلومات کے لیے شکریہ۔ آپ کا دن اچھا گزرے!",
                         "tr": "Aferin. Bilgi için teşekkürler. İyi günler!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_01_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -801,7 +841,8 @@
                         "hi": "आपका स्वागत है। आपको भी!",
                         "ur": "خوش آمدید۔ آپ کو بھی!",
                         "tr": "Rica ederim. Size de!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_01_line5.mp3"
                 }
             ],
             "id": "d33_01"
@@ -832,7 +873,8 @@
                         "hi": "नमस्ते, डॉ. क्लेन। मुझे श्री स्कोल्ज़ के बारे में एक परामर्श की आवश्यकता है। उपचार के बावजूद उनका घाव खराब तरीके से ठीक हो रहा है।",
                         "ur": "شب بخیر، ڈاکٹر کلین۔ مجھے مسٹر شولز کے حوالے سے ایک مشاورت کی ضرورت ہے۔ علاج کے باوجود ان کا زخم بری طرح ٹھیک ہو رہا ہے۔",
                         "tr": "İyi günler Dr. Klein. Bay Scholz ile ilgili bir konsültasyona ihtiyacım var. Tedaviye rağmen yarası kötü iyileşiyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_02_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -844,7 +886,8 @@
                         "hi": "नमस्ते, सिस्टर वेबर। यह समस्या कब से है?",
                         "ur": "شب بخیر، سسٹر ویبر۔ یہ مسئلہ کب سے ہے؟",
                         "tr": "İyi günler Hemşire Weber. Bu sorun ne zamandır var?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_02_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -856,7 +899,8 @@
                         "hi": "लगभग एक सप्ताह। हमने पहले ही विभिन्न ड्रेसिंग का प्रयास कर लिया है।",
                         "ur": "تقریباً ایک ہفتہ۔ ہم پہلے ہی مختلف ڈریسنگز آزما چکے ہیں۔",
                         "tr": "Yaklaşık bir haftadır. Zaten farklı pansumanlar denedik."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_02_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -868,7 +912,8 @@
                         "hi": "मैं इसे तुरंत देखूंगा। शायद हमें एक अलग थेरेपी की आवश्यकता है।",
                         "ur": "میں اسے فوراً دیکھوں گا۔ شاید ہمیں ایک مختلف تھراپی کی ضرورت ہے۔",
                         "tr": "Hemen bir bakacağım. Belki de farklı bir tedaviye ihtiyacımız var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_02_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -880,7 +925,8 @@
                         "hi": "आपका बहुत-बहुत धन्यवाद, डॉक्टर।",
                         "ur": "آپ کا بہت شکریہ، ڈاکٹر۔",
                         "tr": "Çok teşekkürler Doktor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_02_line5.mp3"
                 }
             ],
             "id": "d33_02"
@@ -911,7 +957,8 @@
                         "hi": "सुप्रभात, सहकर्मी। आइए श्री वेबर के बारे में बात करते हैं। उनके गुर्दे के मूल्य अभी भी खराब हैं।",
                         "ur": "صبح بخیر، ساتھیو۔ آئیے مسٹر ویبر کے بارے میں بات کرتے ہیں۔ ان کی گردے کی قیمتیں اب بھی خراب ہیں۔",
                         "tr": "Günaydın meslektaşlar. Bay Weber hakkında konuşalım. Böbrek değerleri hala kötü."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_03_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Bauer",
@@ -923,7 +970,8 @@
                         "hi": "हमने पहले ही एक नेफ्रोलॉजिस्ट से सलाह ली है। वह बायोप्सी की सिफारिश करते हैं।",
                         "ur": "ہم نے پہلے ہی ایک نیفرولوجسٹ سے مشورہ کر لیا ہے۔ وہ بایپسی کی سفارش کرتے ہیں۔",
                         "tr": "Zaten bir nefroloğa danıştık. Biyopsi öneriyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_03_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -935,7 +983,8 @@
                         "hi": "क्या बायोप्सी वास्तव में आवश्यक है? क्या कोई वैकल्पिक नैदानिक ​​विधियाँ नहीं हैं?",
                         "ur": "کیا بایپسی واقعی ضروری ہے؟ کیا کوئی متبادل تشخیصی طریقے نہیں ہیں؟",
                         "tr": "Biyopsi gerçekten gerekli mi? Başka alternatif teşhis yöntemleri yok mu?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_03_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Hoffmann",
@@ -947,7 +996,8 @@
                         "hi": "नेफ्रोलॉजिस्ट का मानना ​​है कि बायोप्सी कारण जानने का सबसे सुरक्षित तरीका है। हमें इस बारे में मरीज से बात करनी चाहिए।",
                         "ur": "نیفرولوجسٹ کا خیال ہے کہ بایپسی وجہ معلوم کرنے کا سب سے محفوظ طریقہ ہے۔ ہمیں اس بارے میں مریض سے بات کرنی چاہیے۔",
                         "tr": "Nefrolog, biyopsinin nedeni bulmanın en güvenli yolu olduğunu düşünüyor. Bunu hasta ile konuşmalıyız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_03_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Bauer",
@@ -959,7 +1009,8 @@
                         "hi": "सहमत। मैं श्री वेबर के साथ एक जानकारीपूर्ण चर्चा करूंगा।",
                         "ur": "متفق ہوں۔ میں مسٹر ویبر کے ساتھ ایک معلوماتی بحث کروں گا۔",
                         "tr": "Kabul ediyorum. Bay Weber ile bilgilendirici bir görüşme yapacağım."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_03_line5.mp3"
                 }
             ],
             "id": "d33_03"
@@ -990,7 +1041,8 @@
                         "hi": "शुभ संध्या, सभी। मैं आज श्री शुल्ज़ पर पुनर्जीवन प्रयास के बारे में बात करना चाहूंगा।",
                         "ur": "شب بخیر، سب۔ میں آج مسٹر شولز پر بحالی کی کوشش کے بارے میں بات کرنا چاہوں گا۔",
                         "tr": "İyi akşamlar herkese. Bugün Bay Schulz üzerindeki canlandırma girişimi hakkında konuşmak istiyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_04_line1.mp3"
                 },
                 {
                     "speaker": "Schwester Meier",
@@ -1002,7 +1054,8 @@
                         "hi": "यह एक बहुत तनावपूर्ण स्थिति थी।",
                         "ur": "یہ ایک بہت دباؤ والی صورتحال تھی۔",
                         "tr": "Çok stresli bir durumdu."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_04_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -1014,7 +1067,8 @@
                         "hi": "मैं सहमत हूँ। मैं थोड़ा अभिभूत महसूस कर रहा था।",
                         "ur": "میں متفق ہوں۔ میں تھوڑا مغلوب محسوس کر رہا تھا۔",
                         "tr": "Katılıyorum. Biraz bunalmış hissettim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_04_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Lehmann",
@@ -1026,7 +1080,8 @@
                         "hi": "हम बेहतर क्या कर सकते थे? क्या सुधार के लिए कोई सुझाव हैं?",
                         "ur": "ہم بہتر کیا کر سکتے تھے؟ کیا بہتری کے لیے کوئی تجاویز ہیں؟",
                         "tr": "Daha iyisini nasıl yapabilirdik? İyileştirme için herhangi bir öneriniz var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_04_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Meier",
@@ -1038,7 +1093,8 @@
                         "hi": "शायद हम पहले से ही कार्य वितरण की बेहतर योजना बना सकते थे।",
                         "ur": "شاید ہم پہلے سے ہی کام کی تقسیم کی بہتر منصوبہ بندی کر سکتے تھے۔",
                         "tr": "Belki de görev dağılımını önceden daha iyi planlayabilirdik."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_04_line5.mp3"
                 }
             ],
             "id": "d33_04"
@@ -1069,7 +1125,8 @@
                         "hi": "शुभ दिन, डॉ. फिशर। यह सेंट जोसेफ अस्पताल से डॉ. वेबर बोल रहे हैं। मैं सीने में दर्द वाले एक मरीज के बारे में आपसे परामर्श करना चाहूंगा।",
                         "ur": "شب بخیر، ڈاکٹر فشر۔ یہ سینٹ جوزف ہسپتال سے ڈاکٹر ویبر بول رہے ہیں۔ میں سینے میں درد والے مریض کے بارے میں آپ سے مشورہ کرنا چاہوں گا۔",
                         "tr": "İyi günler Dr. Fischer. Ben St. Josef Hastanesi'nden Dr. Weber. Göğüs ağrısı olan bir hasta hakkında size danışmak istiyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_05_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Fischer",
@@ -1081,7 +1138,8 @@
                         "hi": "शुभ दिन, श्री वेबर। क्या हो रहा है?",
                         "ur": "شب بخیر، مسٹر ویبر۔ کیا حال ہے؟",
                         "tr": "İyi günler Bay Weber. Ne var ne yok?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_05_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -1093,7 +1151,8 @@
                         "hi": "रोगी गंभीर सीने में दर्द की शिकायत कर रहा है। ईसीजी स्पष्ट एसटी-सेगमेंट एलिवेशन नहीं दिखाता है।",
                         "ur": "مریض شدید سینے میں درد کی شکایت کر رہا ہے۔ ای سی جی واضح ایس ٹی سیگمنٹ ایلیویشن نہیں دکھاتا ہے۔",
                         "tr": "Hasta şiddetli göğüs ağrısından şikayet ediyor. EKG'de belirgin ST segment yükselmeleri görülmüyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_05_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Fischer",
@@ -1105,7 +1164,8 @@
                         "hi": "फिर भी, मैं तत्काल ट्रोपोनिन माप और रोगी की करीबी निगरानी की सिफारिश करूंगा।",
                         "ur": "اس کے باوجود، میں فوری طور پر ٹروپونن کی پیمائش اور مریض کی قریبی نگرانی کی سفارش کروں گا۔",
                         "tr": "Yine de, acil bir Troponin ölçümü ve hastanın yakından izlenmesini tavsiye ederim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_05_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -1117,7 +1177,8 @@
                         "hi": "आपके मूल्यांकन के लिए बहुत-बहुत धन्यवाद, डॉ. फिशर। मैं उसका प्रबंध करूँगा।",
                         "ur": "آپ کے اندازے کے لیے بہت شکریہ، ڈاکٹر فشر۔ میں اس کا انتظام کروں گا۔",
                         "tr": "Değerlendirmeniz için çok teşekkürler Dr. Fischer. Bunu ayarlayacağım."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_33/dialogues/d33_05_line5.mp3"
                 }
             ],
             "id": "d33_05"

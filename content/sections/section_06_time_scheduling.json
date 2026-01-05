@@ -32,30 +32,12 @@
             "tr": "Bu bölümde, yaygın Alman tıbbi terminolojisini kullanarak iş çizelgelerini ve randevuları nasıl tartışacağınızı öğreneceksiniz. Bu terimleri anlamak, Almanca konuşulan bir sağlık ortamında etkili iletişim için çok önemlidir."
         },
         "grammarFocus": {
-            "en": {
-                "bullet1": "Prepositions of time (e.g., *am*, *um*, *von...bis*).",
-                "bullet2": "Use of the accusative and dative cases with time expressions."
-            },
-            "de": {
-                "bullet1": "Präpositionen der Zeit (z.B. *am*, *um*, *von...bis*).",
-                "bullet2": "Verwendung des Akkusativs und Dativs bei Zeitangaben."
-            },
-            "bn": {
-                "bullet1": "সময়ের প্রস্তাবনা (যেমন, *am*, *um*, *von...bis*)।",
-                "bullet2": "সময়ের অভিব্যক্তি সহ অভিযুক্ত এবং ডেটিভ কেসের ব্যবহার।"
-            },
-            "hi": {
-                "bullet1": "समय के पूर्वसर्ग (जैसे, *am*, *um*, *von...bis*)।",
-                "bullet2": "समय अभिव्यक्तियों के साथ कर्मकारक और डैटिव मामलों का उपयोग।"
-            },
-            "ur": {
-                "bullet1": "وقت کے حروف جار (مثال کے طور پر، *am*, *um*, *von...bis*)।",
-                "bullet2": "وقت کے تاثرات کے ساتھ الزامی اور ڈیٹو کیسز کا استعمال۔"
-            },
-            "tr": {
-                "bullet1": "Zaman edatları (örn. *am*, *um*, *von...bis*).",
-                "bullet2": "Zaman ifadeleriyle akuzatif ve datif hallerin kullanımı."
-            }
+            "en": "**Time Expressions and Scheduling in German Medical Context**\n\nGerman time expressions follow specific patterns essential for scheduling appointments and procedures.\n\n*Asking About Time:*\n- 'Wann ist der Termin?' (When is the appointment?)\n- 'Um wie viel Uhr?' (At what time?)\n- 'Wie spät ist es?' (What time is it?)\n\n**Prepositions with Time:**\n| Preposition | Usage | Example |\n|-------------|-------|---------|\n| um | Specific time | um 14:00 Uhr (at 2 PM) |\n| am | Days/Dates | am Montag (on Monday) |\n| im | Months/Seasons | im Januar (in January) |\n| in | Duration | in einer Stunde (in one hour) |\n\n*Ordinal Numbers for Dates:*\nGerman dates use ordinal numbers with specific endings:\n- 'der erste Januar' (the 1st of January) - 1. → erste\n- 'am dritten März' (on the 3rd of March) - 3. → dritten (dative)\n- 'vom fünften bis zum zehnten' (from the 5th to the 10th)\n\n**Common Time Phrases in Medical Settings:**\n- 'Der Patient kommt um 9 Uhr zur Blutabnahme.' (The patient comes at 9 o'clock for blood draw.)\n- 'Die Operation findet am Dienstag statt.' (The surgery takes place on Tuesday.)\n- 'Die Medikamente werden dreimal täglich gegeben.' (The medications are given three times daily.)\n\n*Frequency Expressions:*\n- einmal täglich (once daily)\n- zweimal pro Woche (twice per week)\n- alle vier Stunden (every four hours)\n- morgens, mittags, abends (in the morning, at noon, in the evening)",
+            "de": "**Zeitangaben und Terminplanung im medizinischen Kontext**\n\nDeutsche Zeitausdrücke folgen spezifischen Mustern, die für die Terminplanung und Verfahren unerlässlich sind.\n\n*Nach der Zeit fragen:*\n- 'Wann ist der Termin?'\n- 'Um wie viel Uhr?'\n- 'Wie spät ist es?'\n\n**Präpositionen mit Zeit:**\n| Präposition | Verwendung | Beispiel |\n|-------------|------------|----------|\n| um | Genaue Uhrzeit | um 14:00 Uhr |\n| am | Tage/Daten | am Montag |\n| im | Monate/Jahreszeiten | im Januar |\n| in | Dauer | in einer Stunde |\n\n*Ordinalzahlen für Daten:*\nDeutsche Daten verwenden Ordinalzahlen mit spezifischen Endungen:\n- 'der erste Januar' - 1. → erste\n- 'am dritten März' - 3. → dritten (Dativ)\n- 'vom fünften bis zum zehnten'\n\n**Häufige Zeitphrasen im medizinischen Bereich:**\n- 'Der Patient kommt um 9 Uhr zur Blutabnahme.'\n- 'Die Operation findet am Dienstag statt.'\n- 'Die Medikamente werden dreimal täglich gegeben.'\n\n*Häufigkeitsangaben:*\n- einmal täglich\n- zweimal pro Woche\n- alle vier Stunden\n- morgens, mittags, abends",
+            "bn": "**Time Expressions and Scheduling in German Medical Context**\n\nGerman time expressions follow specific patterns essential for scheduling appointments and procedures.\n\n*Asking About Time:*\n- 'Wann ist der Termin?' (When is the appointment?)\n- 'Um wie viel Uhr?' (At what time?)\n- 'Wie spät ist es?' (What time is it?)\n\n**Prepositions with Time:**\n| Preposition | Usage | Example |\n|-------------|-------|---------|\n| um | Specific time | um 14:00 Uhr (at 2 PM) |\n| am | Days/Dates | am Montag (on Monday) |\n| im | Months/Seasons | im Januar (in January) |\n| in | Duration | in einer Stunde (in one hour) |\n\n*Ordinal Numbers for Dates:*\nGerman dates use ordinal numbers with specific endings:\n- 'der erste Januar' (the 1st of January) - 1. → erste\n- 'am dritten März' (on the 3rd of March) - 3. → dritten (dative)\n- 'vom fünften bis zum zehnten' (from the 5th to the 10th)\n\n**Common Time Phrases in Medical Settings:**\n- 'Der Patient kommt um 9 Uhr zur Blutabnahme.' (The patient comes at 9 o'clock for blood draw.)\n- 'Die Operation findet am Dienstag statt.' (The surgery takes place on Tuesday.)\n- 'Die Medikamente werden dreimal täglich gegeben.' (The medications are given three times daily.)\n\n*Frequency Expressions:*\n- einmal täglich (once daily)\n- zweimal pro Woche (twice per week)\n- alle vier Stunden (every four hours)\n- morgens, mittags, abends (in the morning, at noon, in the evening)",
+            "hi": "**Time Expressions and Scheduling in German Medical Context**\n\nGerman time expressions follow specific patterns essential for scheduling appointments and procedures.\n\n*Asking About Time:*\n- 'Wann ist der Termin?' (When is the appointment?)\n- 'Um wie viel Uhr?' (At what time?)\n- 'Wie spät ist es?' (What time is it?)\n\n**Prepositions with Time:**\n| Preposition | Usage | Example |\n|-------------|-------|---------|\n| um | Specific time | um 14:00 Uhr (at 2 PM) |\n| am | Days/Dates | am Montag (on Monday) |\n| im | Months/Seasons | im Januar (in January) |\n| in | Duration | in einer Stunde (in one hour) |\n\n*Ordinal Numbers for Dates:*\nGerman dates use ordinal numbers with specific endings:\n- 'der erste Januar' (the 1st of January) - 1. → erste\n- 'am dritten März' (on the 3rd of March) - 3. → dritten (dative)\n- 'vom fünften bis zum zehnten' (from the 5th to the 10th)\n\n**Common Time Phrases in Medical Settings:**\n- 'Der Patient kommt um 9 Uhr zur Blutabnahme.' (The patient comes at 9 o'clock for blood draw.)\n- 'Die Operation findet am Dienstag statt.' (The surgery takes place on Tuesday.)\n- 'Die Medikamente werden dreimal täglich gegeben.' (The medications are given three times daily.)\n\n*Frequency Expressions:*\n- einmal täglich (once daily)\n- zweimal pro Woche (twice per week)\n- alle vier Stunden (every four hours)\n- morgens, mittags, abends (in the morning, at noon, in the evening)",
+            "ur": "**Time Expressions and Scheduling in German Medical Context**\n\nGerman time expressions follow specific patterns essential for scheduling appointments and procedures.\n\n*Asking About Time:*\n- 'Wann ist der Termin?' (When is the appointment?)\n- 'Um wie viel Uhr?' (At what time?)\n- 'Wie spät ist es?' (What time is it?)\n\n**Prepositions with Time:**\n| Preposition | Usage | Example |\n|-------------|-------|---------|\n| um | Specific time | um 14:00 Uhr (at 2 PM) |\n| am | Days/Dates | am Montag (on Monday) |\n| im | Months/Seasons | im Januar (in January) |\n| in | Duration | in einer Stunde (in one hour) |\n\n*Ordinal Numbers for Dates:*\nGerman dates use ordinal numbers with specific endings:\n- 'der erste Januar' (the 1st of January) - 1. → erste\n- 'am dritten März' (on the 3rd of March) - 3. → dritten (dative)\n- 'vom fünften bis zum zehnten' (from the 5th to the 10th)\n\n**Common Time Phrases in Medical Settings:**\n- 'Der Patient kommt um 9 Uhr zur Blutabnahme.' (The patient comes at 9 o'clock for blood draw.)\n- 'Die Operation findet am Dienstag statt.' (The surgery takes place on Tuesday.)\n- 'Die Medikamente werden dreimal täglich gegeben.' (The medications are given three times daily.)\n\n*Frequency Expressions:*\n- einmal täglich (once daily)\n- zweimal pro Woche (twice per week)\n- alle vier Stunden (every four hours)\n- morgens, mittags, abends (in the morning, at noon, in the evening)",
+            "tr": "**Time Expressions and Scheduling in German Medical Context**\n\nGerman time expressions follow specific patterns essential for scheduling appointments and procedures.\n\n*Asking About Time:*\n- 'Wann ist der Termin?' (When is the appointment?)\n- 'Um wie viel Uhr?' (At what time?)\n- 'Wie spät ist es?' (What time is it?)\n\n**Prepositions with Time:**\n| Preposition | Usage | Example |\n|-------------|-------|---------|\n| um | Specific time | um 14:00 Uhr (at 2 PM) |\n| am | Days/Dates | am Montag (on Monday) |\n| im | Months/Seasons | im Januar (in January) |\n| in | Duration | in einer Stunde (in one hour) |\n\n*Ordinal Numbers for Dates:*\nGerman dates use ordinal numbers with specific endings:\n- 'der erste Januar' (the 1st of January) - 1. → erste\n- 'am dritten März' (on the 3rd of March) - 3. → dritten (dative)\n- 'vom fünften bis zum zehnten' (from the 5th to the 10th)\n\n**Common Time Phrases in Medical Settings:**\n- 'Der Patient kommt um 9 Uhr zur Blutabnahme.' (The patient comes at 9 o'clock for blood draw.)\n- 'Die Operation findet am Dienstag statt.' (The surgery takes place on Tuesday.)\n- 'Die Medikamente werden dreimal täglich gegeben.' (The medications are given three times daily.)\n\n*Frequency Expressions:*\n- einmal täglich (once daily)\n- zweimal pro Woche (twice per week)\n- alle vier Stunden (every four hours)\n- morgens, mittags, abends (in the morning, at noon, in the evening)"
         },
         "culturalNotes": {
             "en": "German hospitals often have strict adherence to schedules and punctuality is highly valued.",
@@ -73,12 +55,38 @@
             "ur": "اس ذخیرہ الفاظ میں مہارت حاصل کرنے سے، آپ جرمن طبی ترتیب میں نظام الاوقات اور وقت سے متعلق معاملات کے بارے میں بات چیت کرنے کے لیے بہتر طور پر لیس ہوں گے۔",
             "tr": "Bu kelime dağarcığına hakim olarak, bir Alman tıbbi ortamında programlama ve zamanla ilgili konularda iletişim kurmak için daha donanımlı olacaksınız."
         },
-        "learningObjectives": [
-            "Identify and define common German terms for work shifts.",
-            "Describe appointment times and daily routines in German.",
-            "Utilize correct German grammar for time expressions.",
-            "Demonstrate awareness of cultural expectations related to time in German healthcare."
-        ]
+        "learningObjectives": {
+            "en": [
+                "Identify and define common German terms for work shifts.",
+                "Describe appointment times and daily routines in German.",
+                "Utilize correct German grammar for time expressions.",
+                "Demonstrate awareness of cultural expectations related to time in German healthcare."
+            ],
+            "bn": [
+                "Identify and define common German terms for work shifts.",
+                "Describe appointment times and daily routines in German.",
+                "Utilize correct German grammar for time expressions.",
+                "Demonstrate awareness of cultural expectations related to time in German healthcare."
+            ],
+            "hi": [
+                "Identify and define common German terms for work shifts.",
+                "Describe appointment times and daily routines in German.",
+                "Utilize correct German grammar for time expressions.",
+                "Demonstrate awareness of cultural expectations related to time in German healthcare."
+            ],
+            "ur": [
+                "Identify and define common German terms for work shifts.",
+                "Describe appointment times and daily routines in German.",
+                "Utilize correct German grammar for time expressions.",
+                "Demonstrate awareness of cultural expectations related to time in German healthcare."
+            ],
+            "tr": [
+                "Identify and define common German terms for work shifts.",
+                "Describe appointment times and daily routines in German.",
+                "Utilize correct German grammar for time expressions.",
+                "Demonstrate awareness of cultural expectations related to time in German healthcare."
+            ]
+        }
     },
     "vocabulary": [
         {
@@ -102,7 +110,8 @@
                 "ur": "آج میری صبح کی شفٹ ہے اور مجھے صبح 6 بجے شروع کرنا ہے۔",
                 "tr": "Bugün erken vardiyam var ve sabah 6'da başlamam gerekiyor."
             },
-            "id": "v06_01"
+            "id": "v06_01",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_01.mp3"
         },
         {
             "germanTerm": "Spätschicht",
@@ -125,7 +134,8 @@
                 "ur": "دیر کی شفٹ دوپہر 2 بجے شروع ہوتی ہے۔",
                 "tr": "Geç vardiya saat 14:00'da başlar."
             },
-            "id": "v06_02"
+            "id": "v06_02",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_02.mp3"
         },
         {
             "germanTerm": "Nachtdienst",
@@ -148,7 +158,8 @@
                 "ur": "رات کی ڈیوٹی کے بعد میں بہت تھکا ہوا ہوں۔",
                 "tr": "Gece nöbetinden sonra çok yorgunum."
             },
-            "id": "v06_03"
+            "id": "v06_03",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_03.mp3"
         },
         {
             "germanTerm": "Bereitschaftsdienst",
@@ -171,7 +182,8 @@
                 "ur": "میری اس ہفتے کے آخر میں آن کال ڈیوٹی ہے۔",
                 "tr": "Bu hafta sonu nöbetçi hizmetim var."
             },
-            "id": "v06_04"
+            "id": "v06_04",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_04.mp3"
         },
         {
             "germanTerm": "Termin",
@@ -194,7 +206,8 @@
                 "ur": "مریض کا ڈاکٹر کے ساتھ ایک اپائنٹمنٹ ہے۔",
                 "tr": "Hastanın doktorla randevusu var."
             },
-            "id": "v06_05"
+            "id": "v06_05",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_05.mp3"
         },
         {
             "germanTerm": "Uhrzeit",
@@ -217,7 +230,8 @@
                 "ur": "سرجری کا وقت صبح 9 بجے ہے۔",
                 "tr": "Ameliyatın saati sabah 9."
             },
-            "id": "v06_06"
+            "id": "v06_06",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_06.mp3"
         },
         {
             "germanTerm": "Montag",
@@ -240,7 +254,8 @@
                 "ur": "پیر کو وارڈ راؤنڈ ہے۔",
                 "tr": "Pazartesi günü vizit var."
             },
-            "id": "v06_07"
+            "id": "v06_07",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_07.mp3"
         },
         {
             "germanTerm": "Dienstag",
@@ -263,7 +278,8 @@
                 "ur": "منگل میرا چھٹی کا دن ہے۔",
                 "tr": "Salı benim izin günüm."
             },
-            "id": "v06_08"
+            "id": "v06_08",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_08.mp3"
         },
         {
             "germanTerm": "Mittwoch",
@@ -286,7 +302,8 @@
                 "ur": "ہماری بدھ کو ٹیم کی میٹنگ ہے۔",
                 "tr": "Çarşamba günü takım toplantımız var."
             },
-            "id": "v06_09"
+            "id": "v06_09",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_09.mp3"
         },
         {
             "germanTerm": "Donnerstag",
@@ -309,7 +326,8 @@
                 "ur": "جمعرات کو چیف معالج چھٹی پر ہیں۔",
                 "tr": "Başhekim Perşembe günü tatilde."
             },
-            "id": "v06_10"
+            "id": "v06_10",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_10.mp3"
         },
         {
             "germanTerm": "Freitag",
@@ -332,7 +350,8 @@
                 "ur": "جمعہ کام کے ہفتے کا آخری دن ہے۔",
                 "tr": "Cuma, çalışma haftasının son günüdür."
             },
-            "id": "v06_11"
+            "id": "v06_11",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_11.mp3"
         },
         {
             "germanTerm": "Samstag",
@@ -355,7 +374,8 @@
                 "ur": "ہفتہ کو میری چھٹی ہے۔",
                 "tr": "Cumartesi günü iznim var."
             },
-            "id": "v06_12"
+            "id": "v06_12",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_12.mp3"
         },
         {
             "germanTerm": "Sonntag",
@@ -378,7 +398,8 @@
                 "ur": "اتوار آرام کا دن ہے۔",
                 "tr": "Pazar dinlenme günüdür."
             },
-            "id": "v06_13"
+            "id": "v06_13",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_13.mp3"
         },
         {
             "germanTerm": "Schichtplan",
@@ -401,7 +422,8 @@
                 "ur": "شفٹ شیڈول بلٹین بورڈ پر لگا ہوا ہے۔",
                 "tr": "Vardiya çizelgesi panoya asılmıştır."
             },
-            "id": "v06_14"
+            "id": "v06_14",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_14.mp3"
         },
         {
             "germanTerm": "Dauer",
@@ -424,7 +446,8 @@
                 "ur": "سرجری کی مدت تقریبا 2 گھنٹے ہے۔",
                 "tr": "Ameliyatın süresi yaklaşık 2 saattir."
             },
-            "id": "v06_15"
+            "id": "v06_15",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_15.mp3"
         },
         {
             "germanTerm": "pünktlich",
@@ -447,7 +470,8 @@
                 "ur": "برائے مہربانی اپائنٹمنٹ کے لیے وقت کے پابند رہیں۔",
                 "tr": "Lütfen randevuya zamanında gelin."
             },
-            "id": "v06_16"
+            "id": "v06_16",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_16.mp3"
         },
         {
             "germanTerm": "Verspätung",
@@ -470,7 +494,8 @@
                 "ur": "تاخیر کے لیے معافی چاہتا ہوں۔",
                 "tr": "Gecikme için özür dilerim."
             },
-            "id": "v06_17"
+            "id": "v06_17",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_17.mp3"
         },
         {
             "germanTerm": "verschoben",
@@ -493,7 +518,8 @@
                 "ur": "اپائنٹمنٹ اگلے ہفتے تک ملتوی کر دیا گیا تھا۔",
                 "tr": "Randevu gelecek haftaya ertelendi."
             },
-            "id": "v06_18"
+            "id": "v06_18",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_18.mp3"
         },
         {
             "germanTerm": "vereinbaren",
@@ -516,7 +542,8 @@
                 "ur": "ہمیں ایک نیا اپائنٹمنٹ منظم کرنے کی ضرورت ہے۔",
                 "tr": "Yeni bir randevu ayarlamamız gerekiyor."
             },
-            "id": "v06_19"
+            "id": "v06_19",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_19.mp3"
         },
         {
             "germanTerm": "Wochenende",
@@ -539,7 +566,8 @@
                 "ur": "میرے پاس ہفتے کے آخر میں آن کال ڈیوٹی ہے۔",
                 "tr": "Hafta sonu nöbetçi hizmetim var."
             },
-            "id": "v06_20"
+            "id": "v06_20",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_20.mp3"
         },
         {
             "germanTerm": "planen",
@@ -562,7 +590,8 @@
                 "ur": "ہم اگلے ہفتے کے لیے سرجری کی منصوبہ بندی کر رہے ہیں۔",
                 "tr": "Ameliyatı gelecek hafta için planlıyoruz."
             },
-            "id": "v06_21"
+            "id": "v06_21",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_21.mp3"
         },
         {
             "germanTerm": "Stunde",
@@ -585,7 +614,8 @@
                 "ur": "سرجری میں ایک گھنٹہ لگتا ہے۔",
                 "tr": "Ameliyat bir saat sürer."
             },
-            "id": "v06_22"
+            "id": "v06_22",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_22.mp3"
         },
         {
             "germanTerm": "Minute",
@@ -608,7 +638,8 @@
                 "ur": "براہ کرم ایک منٹ انتظار کریں۔",
                 "tr": "Lütfen bir dakika bekleyin."
             },
-            "id": "v06_23"
+            "id": "v06_23",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_23.mp3"
         },
         {
             "germanTerm": "rechtzeitig",
@@ -631,7 +662,8 @@
                 "ur": "مریض کو امتحان کے لیے وقت پر حاضر ہونا چاہیے۔",
                 "tr": "Hasta muayeneye zamanında gelmelidir."
             },
-            "id": "v06_24"
+            "id": "v06_24",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_24.mp3"
         },
         {
             "germanTerm": "Absprache",
@@ -654,7 +686,8 @@
                 "ur": "ڈاکٹر کے ساتھ معاہدے کے بعد، تھراپی تبدیل کر دی جائے گی۔",
                 "tr": "Doktorla anlaşma sağlandıktan sonra terapi değiştirilecektir."
             },
-            "id": "v06_25"
+            "id": "v06_25",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_25.mp3"
         },
         {
             "germanTerm": "verzögern",
@@ -677,7 +710,8 @@
                 "ur": "خراب موسم آمد میں تاخیر کر سکتا ہے۔",
                 "tr": "Kötü hava koşulları gelişi geciktirebilir."
             },
-            "id": "v06_26"
+            "id": "v06_26",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_26.mp3"
         },
         {
             "germanTerm": "Kalender",
@@ -700,7 +734,8 @@
                 "ur": "برائے مہربانی کیلنڈر میں اپائنٹمنٹ درج کریں۔",
                 "tr": "Lütfen randevuyu takvime kaydedin."
             },
-            "id": "v06_27"
+            "id": "v06_27",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_27.mp3"
         },
         {
             "germanTerm": "abgesagt",
@@ -723,7 +758,8 @@
                 "ur": "اپائنٹمنٹ کو کم وقت کے نوٹس پر منسوخ کر دیا گیا تھا۔",
                 "tr": "Randevu kısa sürede iptal edildi."
             },
-            "id": "v06_28"
+            "id": "v06_28",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_28.mp3"
         },
         {
             "germanTerm": "regulär",
@@ -746,7 +782,8 @@
                 "ur": "مشاورت باقاعدگی سے ہوتی ہے۔",
                 "tr": "Danışma düzenli olarak gerçekleşir."
             },
-            "id": "v06_29"
+            "id": "v06_29",
+            "audioUrl": "assets/audio/sections/section_06/vocabulary/v06_29.mp3"
         }
     ],
     "dialogues": [
@@ -776,7 +813,8 @@
                         "hi": "नर्स वेबर, अगले हफ्ते अर्ली शिफ्ट में कौन है?",
                         "ur": "نرس ویبر، اگلے ہفتے ارلی شفٹ میں کون ہے؟",
                         "tr": "Hemşire Weber, gelecek hafta erken vardiyada kim var?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_01_line1.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -788,7 +826,8 @@
                         "hi": "मेरी सोमवार और मंगलवार को अर्ली शिफ्ट है। श्रीमती क्लाइन के पास बाकी सप्ताह है।",
                         "ur": "میری پیر اور منگل کو ارلی شفٹ ہے۔ مسز کلائن کے پاس باقی ہفتہ ہے۔",
                         "tr": "Pazartesi ve Salı erken vardiyam var. Bayan Klein haftanın geri kalanında var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_01_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -800,7 +839,8 @@
                         "hi": "और सप्ताहांत में रात्रि पाली कौन कर रहा है?",
                         "ur": "اور ویک اینڈ پر نائٹ شفٹ کون کر رہا ہے؟",
                         "tr": "Ve hafta sonu gece vardiyasını kim yapıyor?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_01_line3.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -812,7 +852,8 @@
                         "hi": "श्री मीर शनिवार और रविवार रात को ऑन कॉल हैं।",
                         "ur": "مسٹر مئیر ہفتہ اور اتوار کی رات کو آن کال ہیں۔",
                         "tr": "Bay Meier Cumartesi ve Pazar gecesi nöbetçi."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_01_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -824,7 +865,8 @@
                         "hi": "ठीक है, जानकारी के लिए धन्यवाद। मुझे अब राउंड पर जाना है।",
                         "ur": "ٹھیک ہے، معلومات کے لیے شکریہ۔ مجھے اب راؤنڈ پر جانا ہے۔",
                         "tr": "Güzel, bilgi için teşekkürler. Şimdi viziteye gitmem gerekiyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_01_line5.mp3"
                 }
             ],
             "id": "d06_01"
@@ -855,7 +897,8 @@
                         "hi": "नमस्ते, मेरा नाम मुलर है। मेरा बुधवार को सुबह 10 बजे एक अपॉइंटमेंट है जिसे मुझे पुनर्निर्धारित करना होगा।",
                         "ur": "ہیلو، میرا نام مولر ہے۔ میری بدھ کو صبح 10 بجے ایک ملاقات ہے جسے مجھے دوبارہ شیڈول کرنا پڑے گا۔",
                         "tr": "İyi günler, benim adım Müller. Çarşamba günü saat 10'da yeniden planlamam gereken bir randevum var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_02_line1.mp3"
                 },
                 {
                     "speaker": "Sprechstundenhilfe",
@@ -867,7 +910,8 @@
                         "hi": "एक पल, कृपया। आप अपॉइंटमेंट को किस दिन और किस समय पुनर्निर्धारित करना चाहेंगे?",
                         "ur": "ایک لمحہ، براہ کرم۔ آپ کس دن اور کس وقت اپوائنٹمنٹ دوبارہ شیڈول کرنا چاہیں گے؟",
                         "tr": "Bir dakika lütfen. Randevuyu hangi gün ve saatte yeniden planlamak istersiniz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_02_line2.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -879,7 +923,8 @@
                         "hi": "क्या यह गुरुवार दोपहर को संभव होगा?",
                         "ur": "کیا یہ جمعرات کی سہ پہر کو ممکن ہوگا؟",
                         "tr": "Perşembe öğleden sonra mümkün mü?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_02_line3.mp3"
                 },
                 {
                     "speaker": "Sprechstundenhilfe",
@@ -891,7 +936,8 @@
                         "hi": "मुझे देखने दो… हाँ, गुरुवार को दोपहर 2 बजे अभी भी एक अपॉइंटमेंट उपलब्ध होगा।",
                         "ur": "مجھے دیکھنے دو… ہاں، جمعرات کو دوپہر 2 بجے ابھی بھی ایک اپوائنٹمنٹ دستیاب ہوگی۔",
                         "tr": "Bir bakayım… Evet, Perşembe günü saat 14:00'te hala müsait bir randevu var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_02_line4.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -903,7 +949,8 @@
                         "hi": "उत्तम, यह मुझे बहुत अच्छी तरह से सूट करता है। आपका बहुत बहुत धन्यवाद!",
                         "ur": "بالکل کامل، یہ مجھے بہت اچھی طرح سے سوٹ کرتا ہے۔ آپ کا بہت بہت شکریہ!",
                         "tr": "Mükemmel, bu bana çok uyuyor. Çok teşekkür ederim!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_02_line5.mp3"
                 }
             ],
             "id": "d06_02"
@@ -934,7 +981,8 @@
                         "hi": "प्रिय सहयोगी, मैं शुक्रवार को अनुपलब्ध हूँ। क्या आप संभवतः मेरी लेट शिफ्ट ले सकते हैं?",
                         "ur": "عزیز ساتھی، میں جمعہ کو دستیاب نہیں ہوں۔ کیا آپ ممکنہ طور پر میری لیٹ شفٹ لے سکتے ہیں؟",
                         "tr": "Değerli meslektaşım, Cuma günü müsait değilim. Mümkünse geç vardiyamı devralabilir misiniz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_03_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -946,7 +994,8 @@
                         "hi": "शुक्रवार को? मुझे बस अपनी समय सारणी देखने दो… हाँ, यह काम करेगा। आपकी पाली कितने बजे शुरू होती है?",
                         "ur": "جمعہ کو؟ مجھے صرف اپنی ٹائم ٹیبل دیکھنے دو… ہاں، یہ کام کرے گا۔ آپ کی شفٹ کس وقت شروع ہوتی ہے؟",
                         "tr": "Cuma günü mü? Hemen programıma bir bakayım… Evet, olabilir. Vardiyanız saat kaçta başlıyor?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_03_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Hoffmann",
@@ -958,7 +1007,8 @@
                         "hi": "यह दोपहर 2 बजे शुरू होती है और रात 10 बजे समाप्त होती है।",
                         "ur": "یہ دوپہر 2 بجے شروع ہوتی ہے اور رات 10 بجے ختم ہوتی ہے۔",
                         "tr": "Saat 14:00'te başlıyor ve 22:00'de bitiyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_03_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -970,7 +1020,8 @@
                         "hi": "कोई बात नहीं, मैं खुशी से शिफ्ट ले लूंगा। फिर हम अपनी सेवाओं की अदला-बदली करेंगे।",
                         "ur": "کوئی مسئلہ نہیں، میں خوشی سے شفٹ لے لوں گا۔ پھر ہم اپنی خدمات کا تبادلہ کریں گے۔",
                         "tr": "Sorun değil, vardiyayı memnuniyetle devralırım. O zaman hizmetlerimizi değiştireceğiz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_03_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Hoffmann",
@@ -982,7 +1033,8 @@
                         "hi": "अद्भुत, बहुत बहुत धन्यवाद! मैं आप पर ऋणी हूं।",
                         "ur": "شاندار، بہت بہت شکریہ! میں آپ کا مقروض ہوں۔",
                         "tr": "Harika, çok teşekkür ederim! Size bir borcum var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_03_line5.mp3"
                 }
             ],
             "id": "d06_03"
@@ -1013,7 +1065,8 @@
                         "hi": "शुभ संध्या, नर्स लेहमन। क्या आपने रात की पाली में अच्छी शुरुआत की?",
                         "ur": "شب بخیر، نرس لیمان۔ کیا آپ نے رات کی شفٹ میں اچھی شروعات کی؟",
                         "tr": "İyi akşamlar Hemşire Lehmann. Gece vardiyasına iyi başladınız mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_04_line1.mp3"
                 },
                 {
                     "speaker": "Schwester Lehmann",
@@ -1025,7 +1078,8 @@
                         "hi": "हाँ, धन्यवाद। यह अभी तक शांत है। आपकी लेट शिफ्ट कैसी थी?",
                         "ur": "ہاں شکریہ۔ یہ ابھی تک خاموش ہے۔ آپ کی لیٹ شفٹ کیسی تھی؟",
                         "tr": "Evet, teşekkür ederim. Şu ana kadar sessiz. Geç vardiyan nasıldı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_04_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Schmidt",
@@ -1037,7 +1091,8 @@
                         "hi": "बहुत थकाऊ। हमारे पास कई आपात स्थितियाँ थीं।",
                         "ur": "بہت تھکا دینے والا۔ ہمارے پاس بہت سی ایمرجنسی تھیں۔",
                         "tr": "Çok yorucuydu. Birçok acil durumumuz vardı."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_04_line3.mp3"
                 },
                 {
                     "speaker": "Schwester Lehmann",
@@ -1049,7 +1104,8 @@
                         "hi": "ओह प्रिय, मुझे यह सुनकर दुख हुआ। मुझे उम्मीद है कि आज रात शांत रहेगा।",
                         "ur": "اوہ پیارے، مجھے یہ سن کر افسوس ہوا۔ مجھے امید ہے کہ آج رات خاموش رہے گا۔",
                         "tr": "Ah canım, duyduğuma üzüldüm. Umarım bu gece sessiz kalır."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_04_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Schmidt",
@@ -1061,7 +1117,8 @@
                         "hi": "मैं भी। मेरी शिफ्ट खत्म होने पर मैं खुश हो जाऊंगा। शुभ रात्रि!",
                         "ur": "میں بھی۔ میری شفٹ ختم ہونے پر میں خوش ہو جاؤں گا۔ شب بخیر!",
                         "tr": "Ben de. Vardiyam bittiğinde mutlu olacağım. İyi geceler!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_04_line5.mp3"
                 }
             ],
             "id": "d06_04"
@@ -1092,7 +1149,8 @@
                         "hi": "डॉ. मेयर का अभ्यास, शुभ दिन।",
                         "ur": "ڈاکٹر میئر کی پریکٹس، شب بخیر۔",
                         "tr": "Dr. Meier'in muayenehanesi, iyi günler."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_05_line1.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -1104,7 +1162,8 @@
                         "hi": "शुभ दिन, यह श्मिट है। मैं बस मंगलवार को सुबह 11 बजे अपनी अपॉइंटमेंट की पुष्टि करना चाहता था।",
                         "ur": "شب بخیر، یہ شمٹ ہے۔ میں صرف منگل کو صبح 11 بجے اپنی ملاقات کی تصدیق کرنا چاہتا تھا۔",
                         "tr": "İyi günler, ben Schmidt. Sadece Salı günü saat 11:00'deki randevumu onaylamak istedim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_05_line2.mp3"
                 },
                 {
                     "speaker": "Sprechstundenhilfe",
@@ -1116,7 +1175,8 @@
                         "hi": "हाँ, श्रीमान श्मिट, 15 अगस्त मंगलवार को सुबह 11 बजे आपकी अपॉइंटमेंट नोट की गई है।",
                         "ur": "ہاں، مسٹر شمٹ، 15 اگست بروز منگل صبح 11 بجے آپ کی اپائنٹمنٹ نوٹ کر لی گئی ہے۔",
                         "tr": "Evet, Bay Schmidt, 15 Ağustos Salı günü saat 11:00'deki randevunuz not edildi."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_05_line3.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -1128,7 +1188,8 @@
                         "hi": "अद्भुत, पुष्टि के लिए धन्यवाद।",
                         "ur": "شاندار، تصدیق کے لیے شکریہ۔",
                         "tr": "Harika, onay için teşekkür ederim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_05_line4.mp3"
                 },
                 {
                     "speaker": "Sprechstundenhilfe",
@@ -1140,7 +1201,8 @@
                         "hi": "आपका स्वागत है, अलविदा!",
                         "ur": "آپ کا استقبال ہے، الوداع!",
                         "tr": "Rica ederim, güle güle!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_06/dialogues/d06_05_line5.mp3"
                 }
             ],
             "id": "d06_05"

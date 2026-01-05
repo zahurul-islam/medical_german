@@ -32,30 +32,12 @@
             "de": "In diesem Abschnitt lernen wir das wichtige Vokabular im Zusammenhang mit Pflegepersonal im Deutschen, einschließlich verschiedener Rollen und Verantwortlichkeiten. Wir werden auch die Bedeutung von Teamwork in einem deutschen Krankenhausumfeld untersuchen."
         },
         "grammarFocus": {
-            "en": {
-                "one": "Focus on using proper articles (der, die, das) with nursing-related nouns.",
-                "two": "Practice sentence structures involving 'sich vorstellen' (to introduce oneself) in a professional setting."
-            },
-            "bn": {
-                "one": "নার্সিং সম্পর্কিত বিশেষ্যগুলির সাথে সঠিক আর্টিকেল (der, die, das) ব্যবহারের উপর মনোযোগ দিন।",
-                "two": "পেশাদার পরিবেশে 'sich vorstellen' (নিজের পরিচয় দেওয়া) জড়িত বাক্য গঠন অনুশীলন করুন।"
-            },
-            "hi": {
-                "one": "नर्सिंग से संबंधित संज्ञाओं के साथ उचित लेख (der, die, das) का उपयोग करने पर ध्यान दें।",
-                "two": "एक पेशेवर सेटिंग में 'सिच वॉर्स्टेलन' (खुद को पेश करने के लिए) शामिल वाक्य संरचनाओं का अभ्यास करें।"
-            },
-            "ur": {
-                "one": "نرسنگ سے متعلق اسموں کے ساتھ مناسب مضامین (der, die, das) استعمال کرنے پر توجہ دیں۔",
-                "two": "ایک پیشہ ورانہ ترتیب میں 'sich vorstellen' (اپنا تعارف کروانے کے لیے) شامل جملوں کی ساخت پر عمل کریں۔"
-            },
-            "tr": {
-                "one": "Hemşirelikle ilgili isimlerle uygun makaleler (der, die, das) kullanmaya odaklanın.",
-                "two": "Profesyonel bir ortamda 'sich vorstellen' (kendini tanıtmak) içeren cümle yapılarını uygulayın."
-            },
-            "de": {
-                "one": "Konzentrieren Sie sich auf die Verwendung der richtigen Artikel (der, die, das) bei Nomen im Zusammenhang mit der Pflege.",
-                "two": "Üben Sie Satzstrukturen mit 'sich vorstellen' (sich vorstellen) in einem professionellen Umfeld."
-            }
+            "en": "**Profession Nouns and Gender Distinctions in Healthcare**\n\nGerman profession nouns have gender-specific forms. In healthcare, you must use the correct form.\n\n*Male vs. Female Forms:*\n| Male | Female | English |\n|------|--------|---------|\n| der Arzt | die Ärztin | doctor |\n| der Krankenpfleger | die Krankenschwester/Krankenpflegerin | nurse |\n| der Chirurg | die Chirurgin | surgeon |\n| der Patient | die Patientin | patient |\n\n**Formation Pattern for Feminine Forms:**\nMost feminine profession nouns add '-in':\n- Arzt → Ärzt + in = Ärztin (note umlaut!)\n- Pfleger → Pfleger + in = Pflegerin\n- Therapeut → Therapeut + in = Therapeutin\n\n*Plural Forms:*\n| Singular | Plural |\n|----------|--------|\n| der Arzt / die Ärztin | die Ärzte / die Ärztinnen |\n| der Pfleger / die Pflegerin | die Pfleger / die Pflegerinnen |\n\n*Modern Gender-Inclusive Forms (Increasingly Common):*\n- Ärzt*innen or Ärzt:innen (all genders)\n- Pfleger*innen or Pfleger:innen\n\n*Addressing Healthcare Staff:*\n- 'Herr Doktor' / 'Frau Doktor' (Mr. Doctor / Ms. Doctor)\n- 'Schwester Maria' (Nurse Maria - traditional)\n- 'Pfleger Thomas' (Nurse Thomas)\n\n**Work-Related Verbs:**\n- arbeiten als... (to work as...)\n- 'Ich arbeite als Krankenpfleger.' (I work as a nurse.)\n- 'Sie ist Ärztin von Beruf.' (She is a doctor by profession.)",
+            "de": "**Berufsbezeichnungen und Geschlechtsunterschiede im Gesundheitswesen**\n\nDeutsche Berufsbezeichnungen haben geschlechtsspezifische Formen. Im Gesundheitswesen müssen Sie die richtige Form verwenden.\n\n*Männliche vs. weibliche Formen:*\n| Männlich | Weiblich | Bedeutung |\n|----------|----------|-----------|\n| der Arzt | die Ärztin | Arzt |\n| der Krankenpfleger | die Krankenschwester/Krankenpflegerin | Pfleger |\n| der Chirurg | die Chirurgin | Chirurg |\n| der Patient | die Patientin | Patient |\n\n**Bildungsmuster für weibliche Formen:**\nDie meisten weiblichen Berufsbezeichnungen fügen '-in' hinzu:\n- Arzt → Ärzt + in = Ärztin (beachten Sie den Umlaut!)\n- Pfleger → Pfleger + in = Pflegerin\n- Therapeut → Therapeut + in = Therapeutin\n\n*Pluralformen:*\n| Singular | Plural |\n|----------|--------|\n| der Arzt / die Ärztin | die Ärzte / die Ärztinnen |\n| der Pfleger / die Pflegerin | die Pfleger / die Pflegerinnen |\n\n*Moderne geschlechterinklusive Formen (zunehmend üblich):*\n- Ärzt*innen oder Ärzt:innen\n- Pfleger*innen oder Pfleger:innen\n\n*Anrede des Gesundheitspersonals:*\n- 'Herr Doktor' / 'Frau Doktor'\n- 'Schwester Maria' (traditionell)\n- 'Pfleger Thomas'\n\n**Berufsbezogene Verben:**\n- arbeiten als...\n- 'Ich arbeite als Krankenpfleger.'\n- 'Sie ist Ärztin von Beruf.'",
+            "bn": "**Profession Nouns and Gender Distinctions in Healthcare**\n\nGerman profession nouns have gender-specific forms. In healthcare, you must use the correct form.\n\n*Male vs. Female Forms:*\n| Male | Female | English |\n|------|--------|---------|\n| der Arzt | die Ärztin | doctor |\n| der Krankenpfleger | die Krankenschwester/Krankenpflegerin | nurse |\n| der Chirurg | die Chirurgin | surgeon |\n| der Patient | die Patientin | patient |\n\n**Formation Pattern for Feminine Forms:**\nMost feminine profession nouns add '-in':\n- Arzt → Ärzt + in = Ärztin (note umlaut!)\n- Pfleger → Pfleger + in = Pflegerin\n- Therapeut → Therapeut + in = Therapeutin\n\n*Plural Forms:*\n| Singular | Plural |\n|----------|--------|\n| der Arzt / die Ärztin | die Ärzte / die Ärztinnen |\n| der Pfleger / die Pflegerin | die Pfleger / die Pflegerinnen |\n\n*Modern Gender-Inclusive Forms (Increasingly Common):*\n- Ärzt*innen or Ärzt:innen (all genders)\n- Pfleger*innen or Pfleger:innen\n\n*Addressing Healthcare Staff:*\n- 'Herr Doktor' / 'Frau Doktor' (Mr. Doctor / Ms. Doctor)\n- 'Schwester Maria' (Nurse Maria - traditional)\n- 'Pfleger Thomas' (Nurse Thomas)\n\n**Work-Related Verbs:**\n- arbeiten als... (to work as...)\n- 'Ich arbeite als Krankenpfleger.' (I work as a nurse.)\n- 'Sie ist Ärztin von Beruf.' (She is a doctor by profession.)",
+            "hi": "**Profession Nouns and Gender Distinctions in Healthcare**\n\nGerman profession nouns have gender-specific forms. In healthcare, you must use the correct form.\n\n*Male vs. Female Forms:*\n| Male | Female | English |\n|------|--------|---------|\n| der Arzt | die Ärztin | doctor |\n| der Krankenpfleger | die Krankenschwester/Krankenpflegerin | nurse |\n| der Chirurg | die Chirurgin | surgeon |\n| der Patient | die Patientin | patient |\n\n**Formation Pattern for Feminine Forms:**\nMost feminine profession nouns add '-in':\n- Arzt → Ärzt + in = Ärztin (note umlaut!)\n- Pfleger → Pfleger + in = Pflegerin\n- Therapeut → Therapeut + in = Therapeutin\n\n*Plural Forms:*\n| Singular | Plural |\n|----------|--------|\n| der Arzt / die Ärztin | die Ärzte / die Ärztinnen |\n| der Pfleger / die Pflegerin | die Pfleger / die Pflegerinnen |\n\n*Modern Gender-Inclusive Forms (Increasingly Common):*\n- Ärzt*innen or Ärzt:innen (all genders)\n- Pfleger*innen or Pfleger:innen\n\n*Addressing Healthcare Staff:*\n- 'Herr Doktor' / 'Frau Doktor' (Mr. Doctor / Ms. Doctor)\n- 'Schwester Maria' (Nurse Maria - traditional)\n- 'Pfleger Thomas' (Nurse Thomas)\n\n**Work-Related Verbs:**\n- arbeiten als... (to work as...)\n- 'Ich arbeite als Krankenpfleger.' (I work as a nurse.)\n- 'Sie ist Ärztin von Beruf.' (She is a doctor by profession.)",
+            "ur": "**Profession Nouns and Gender Distinctions in Healthcare**\n\nGerman profession nouns have gender-specific forms. In healthcare, you must use the correct form.\n\n*Male vs. Female Forms:*\n| Male | Female | English |\n|------|--------|---------|\n| der Arzt | die Ärztin | doctor |\n| der Krankenpfleger | die Krankenschwester/Krankenpflegerin | nurse |\n| der Chirurg | die Chirurgin | surgeon |\n| der Patient | die Patientin | patient |\n\n**Formation Pattern for Feminine Forms:**\nMost feminine profession nouns add '-in':\n- Arzt → Ärzt + in = Ärztin (note umlaut!)\n- Pfleger → Pfleger + in = Pflegerin\n- Therapeut → Therapeut + in = Therapeutin\n\n*Plural Forms:*\n| Singular | Plural |\n|----------|--------|\n| der Arzt / die Ärztin | die Ärzte / die Ärztinnen |\n| der Pfleger / die Pflegerin | die Pfleger / die Pflegerinnen |\n\n*Modern Gender-Inclusive Forms (Increasingly Common):*\n- Ärzt*innen or Ärzt:innen (all genders)\n- Pfleger*innen or Pfleger:innen\n\n*Addressing Healthcare Staff:*\n- 'Herr Doktor' / 'Frau Doktor' (Mr. Doctor / Ms. Doctor)\n- 'Schwester Maria' (Nurse Maria - traditional)\n- 'Pfleger Thomas' (Nurse Thomas)\n\n**Work-Related Verbs:**\n- arbeiten als... (to work as...)\n- 'Ich arbeite als Krankenpfleger.' (I work as a nurse.)\n- 'Sie ist Ärztin von Beruf.' (She is a doctor by profession.)",
+            "tr": "**Profession Nouns and Gender Distinctions in Healthcare**\n\nGerman profession nouns have gender-specific forms. In healthcare, you must use the correct form.\n\n*Male vs. Female Forms:*\n| Male | Female | English |\n|------|--------|---------|\n| der Arzt | die Ärztin | doctor |\n| der Krankenpfleger | die Krankenschwester/Krankenpflegerin | nurse |\n| der Chirurg | die Chirurgin | surgeon |\n| der Patient | die Patientin | patient |\n\n**Formation Pattern for Feminine Forms:**\nMost feminine profession nouns add '-in':\n- Arzt → Ärzt + in = Ärztin (note umlaut!)\n- Pfleger → Pfleger + in = Pflegerin\n- Therapeut → Therapeut + in = Therapeutin\n\n*Plural Forms:*\n| Singular | Plural |\n|----------|--------|\n| der Arzt / die Ärztin | die Ärzte / die Ärztinnen |\n| der Pfleger / die Pflegerin | die Pfleger / die Pflegerinnen |\n\n*Modern Gender-Inclusive Forms (Increasingly Common):*\n- Ärzt*innen or Ärzt:innen (all genders)\n- Pfleger*innen or Pfleger:innen\n\n*Addressing Healthcare Staff:*\n- 'Herr Doktor' / 'Frau Doktor' (Mr. Doctor / Ms. Doctor)\n- 'Schwester Maria' (Nurse Maria - traditional)\n- 'Pfleger Thomas' (Nurse Thomas)\n\n**Work-Related Verbs:**\n- arbeiten als... (to work as...)\n- 'Ich arbeite als Krankenpfleger.' (I work as a nurse.)\n- 'Sie ist Ärztin von Beruf.' (She is a doctor by profession.)"
         },
         "culturalNotes": {
             "en": "The German healthcare system places a high value on hierarchical structures and clear lines of communication within nursing teams.",
@@ -73,12 +55,38 @@
             "tr": "Alman sağlık ortamında etkili iletişim ve işbirliği için hemşirelik personeli ile ilgili rolleri ve terminolojiyi anlamak çok önemlidir.",
             "de": "Das Verständnis der Rollen und der Terminologie im Zusammenhang mit Pflegepersonal ist für eine effektive Kommunikation und Zusammenarbeit im deutschen Gesundheitswesen unerlässlich."
         },
-        "learningObjectives": [
-            "Identify and define key German vocabulary related to nursing staff roles.",
-            "Describe the hierarchical structure within German nursing teams.",
-            "Utilize proper grammatical structures when discussing nursing responsibilities.",
-            "Apply cultural awareness when interacting with German nursing professionals."
-        ]
+        "learningObjectives": {
+            "en": [
+                "Identify and define key German vocabulary related to nursing staff roles.",
+                "Describe the hierarchical structure within German nursing teams.",
+                "Utilize proper grammatical structures when discussing nursing responsibilities.",
+                "Apply cultural awareness when interacting with German nursing professionals."
+            ],
+            "bn": [
+                "Identify and define key German vocabulary related to nursing staff roles.",
+                "Describe the hierarchical structure within German nursing teams.",
+                "Utilize proper grammatical structures when discussing nursing responsibilities.",
+                "প্রয়োগ করুন cultural awareness when interacting with German nursing professionals."
+            ],
+            "hi": [
+                "Identify and define key German vocabulary related to nursing staff roles.",
+                "Describe the hierarchical structure within German nursing teams.",
+                "Utilize proper grammatical structures when discussing nursing responsibilities.",
+                "लागू करें cultural awareness when interacting with German nursing professionals."
+            ],
+            "ur": [
+                "Identify and define key German vocabulary related to nursing staff roles.",
+                "Describe the hierarchical structure within German nursing teams.",
+                "Utilize proper grammatical structures when discussing nursing responsibilities.",
+                "لاگو کریں cultural awareness when interacting with German nursing professionals."
+            ],
+            "tr": [
+                "Identify and define key German vocabulary related to nursing staff roles.",
+                "Describe the hierarchical structure within German nursing teams.",
+                "Utilize proper grammatical structures when discussing nursing responsibilities.",
+                "Uygulayın cultural awareness when interacting with German nursing professionals."
+            ]
+        }
     },
     "vocabulary": [
         {
@@ -102,7 +110,8 @@
                 "ur": "نرسنگ سٹاف مریض کو ذاتی صفائی میں مدد کرتا ہے۔",
                 "tr": "Hemşirelik personeli hastaya kişisel hijyen konusunda yardımcı olur."
             },
-            "id": "v08_01"
+            "id": "v08_01",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_01.mp3"
         },
         {
             "germanTerm": "Krankenschwester",
@@ -125,7 +134,8 @@
                 "ur": "نرس مریض کا بلڈ پریشر ماپتی ہے۔",
                 "tr": "Hemşire hastanın tansiyonunu ölçer."
             },
-            "id": "v08_02"
+            "id": "v08_02",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_02.mp3"
         },
         {
             "germanTerm": "Pfleger",
@@ -148,7 +158,8 @@
                 "ur": "مرد نرس مریض کو بستر سے اٹھنے میں مدد کرتا ہے۔",
                 "tr": "Erkek hemşire hastanın yataktan kalkmasına yardımcı olur."
             },
-            "id": "v08_03"
+            "id": "v08_03",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_03.mp3"
         },
         {
             "germanTerm": "Stationsleitung",
@@ -171,7 +182,8 @@
                 "ur": "وارڈ مینیجر نرسنگ سٹاف کی ڈیوٹی روسٹر کا اہتمام کرتا ہے۔",
                 "tr": "Servis yöneticisi hemşirelik personelinin görev çizelgesini düzenler."
             },
-            "id": "v08_04"
+            "id": "v08_04",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_04.mp3"
         },
         {
             "germanTerm": "Pflegedienstleitung",
@@ -194,7 +206,8 @@
                 "ur": "نرسنگ کے سربراہ دیکھ بھال کے معیار کے ذمہ دار ہیں۔",
                 "tr": "Hemşirelik şefi bakım kalitesinden sorumludur."
             },
-            "id": "v08_05"
+            "id": "v08_05",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_05.mp3"
         },
         {
             "germanTerm": "Teamwork",
@@ -217,7 +230,8 @@
                 "ur": "اچھے مریضوں کی دیکھ بھال کے لیے ٹیم ورک ضروری ہے۔",
                 "tr": "İyi hasta bakımı için takım çalışması şarttır."
             },
-            "id": "v08_06"
+            "id": "v08_06",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_06.mp3"
         },
         {
             "germanTerm": "Schichtdienst",
@@ -240,7 +254,8 @@
                 "ur": "نرسنگ سٹاف شفٹوں میں چوبیس گھنٹے کام کرتا ہے۔",
                 "tr": "Hemşirelik personeli vardiyalı olarak gün boyunca çalışır."
             },
-            "id": "v08_07"
+            "id": "v08_07",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_07.mp3"
         },
         {
             "germanTerm": "Visite",
@@ -263,7 +278,8 @@
                 "ur": "نرس ڈاکٹر کے چکر کے لیے مریضوں کو تیار کرتی ہے۔",
                 "tr": "Hemşire doktor viziti için hastaları hazırlar."
             },
-            "id": "v08_08"
+            "id": "v08_08",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_08.mp3"
         },
         {
             "germanTerm": "Dokumentation",
@@ -286,7 +302,8 @@
                 "ur": "درست دستاویزات نرسنگ کے لیے ضروری ہیں۔",
                 "tr": "Doğru belgeleme hemşirelik için esastır."
             },
-            "id": "v08_09"
+            "id": "v08_09",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_09.mp3"
         },
         {
             "germanTerm": "Übergabe",
@@ -309,7 +326,8 @@
                 "ur": "ہر شفٹ کے اختتام پر منتقلی ہوتی ہے۔",
                 "tr": "Devretme her vardiyanın sonunda gerçekleşir."
             },
-            "id": "v08_10"
+            "id": "v08_10",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_10.mp3"
         },
         {
             "germanTerm": "Patientenversorgung",
@@ -332,7 +350,8 @@
                 "ur": "مریض کی دیکھ بھال کام کا مرکز ہے۔",
                 "tr": "Hasta bakımı işin odak noktasıdır."
             },
-            "id": "v08_11"
+            "id": "v08_11",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_11.mp3"
         },
         {
             "germanTerm": "Hygiene",
@@ -355,7 +374,8 @@
                 "ur": "ہسپتال میں صفائی خاص طور پر اہم ہے۔",
                 "tr": "Hastanedeki hijyen özellikle önemlidir."
             },
-            "id": "v08_12"
+            "id": "v08_12",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_12.mp3"
         },
         {
             "germanTerm": "Verband",
@@ -378,7 +398,8 @@
                 "ur": "نرس باقاعدگی سے پٹی تبدیل کرتی ہے۔",
                 "tr": "Hemşire bandajı düzenli olarak değiştirir."
             },
-            "id": "v08_13"
+            "id": "v08_13",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_13.mp3"
         },
         {
             "germanTerm": "Medikament",
@@ -401,7 +422,8 @@
                 "ur": "نرس ڈاکٹر کی ہدایت کے مطابق دوا دیتی ہے۔",
                 "tr": "Hemşire ilacı doktorun talimatlarına göre uygular."
             },
-            "id": "v08_14"
+            "id": "v08_14",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_14.mp3"
         },
         {
             "germanTerm": "Injektion",
@@ -424,7 +446,8 @@
                 "ur": "نرس مریض کو انجکشن لگاتی ہے۔",
                 "tr": "Hemşire hastaya bir enjeksiyon yapar."
             },
-            "id": "v08_15"
+            "id": "v08_15",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_15.mp3"
         },
         {
             "germanTerm": "Blutdruck",
@@ -447,7 +470,8 @@
                 "ur": "نرس باقاعدگی سے مریض کا بلڈ پریشر ماپتی ہے۔",
                 "tr": "Hemşire düzenli olarak hastanın kan basıncını ölçer."
             },
-            "id": "v08_16"
+            "id": "v08_16",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_16.mp3"
         },
         {
             "germanTerm": "Puls",
@@ -470,7 +494,8 @@
                 "ur": "نرس مریض کی نبض کی جانچ کرتی ہے۔",
                 "tr": "Hemşire hastanın nabzını kontrol eder."
             },
-            "id": "v08_17"
+            "id": "v08_17",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_17.mp3"
         },
         {
             "germanTerm": "Atmung",
@@ -493,7 +518,8 @@
                 "ur": "نرس مریض کی سانس لینے کا مشاہدہ کرتی ہے۔",
                 "tr": "Hemşire hastanın solunumunu gözlemler."
             },
-            "id": "v08_18"
+            "id": "v08_18",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_18.mp3"
         },
         {
             "germanTerm": "Lagerung",
@@ -516,7 +542,8 @@
                 "ur": "پریشر سور کی روک تھام کے لیے مریض کی درست پوزیشننگ ضروری ہے۔",
                 "tr": "Bası yarası önleme için hastanın doğru pozisyonu önemlidir."
             },
-            "id": "v08_19"
+            "id": "v08_19",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_19.mp3"
         },
         {
             "germanTerm": "Dekubitus",
@@ -539,7 +566,8 @@
                 "ur": "غلط پوزیشننگ کی وجہ سے پریشر السر بن سکتا ہے۔",
                 "tr": "Yanlış pozisyonlama nedeniyle bası yarası oluşabilir."
             },
-            "id": "v08_20"
+            "id": "v08_20",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_20.mp3"
         },
         {
             "germanTerm": "Wundversorgung",
@@ -562,7 +590,8 @@
                 "ur": "ڈاکٹر کے ہدایات کے مطابق زخم کی دیکھ بھال کی جاتی ہے۔",
                 "tr": "Yara bakımı doktorun talimatlarına göre yapılır."
             },
-            "id": "v08_21"
+            "id": "v08_21",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_21.mp3"
         },
         {
             "germanTerm": "Katheter",
@@ -585,7 +614,8 @@
                 "ur": "نرس مریض میں کیتھیٹر داخل کرتی ہے۔",
                 "tr": "Hemşire hastaya bir kateter takar."
             },
-            "id": "v08_22"
+            "id": "v08_22",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_22.mp3"
         },
         {
             "germanTerm": "Infusion",
@@ -608,7 +638,8 @@
                 "ur": "انفیوژن ایک وریدوی رسائی کے ذریعے چلتا ہے۔",
                 "tr": "İnfüzyon bir venöz erişim yoluyla çalışır."
             },
-            "id": "v08_23"
+            "id": "v08_23",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_23.mp3"
         },
         {
             "germanTerm": "Vitalzeichen",
@@ -631,7 +662,8 @@
                 "ur": "اہم نشانات کی نگرانی نرسنگ کیئر کا ایک اہم حصہ ہے۔",
                 "tr": "Yaşamsal belirtileri izlemek hemşirelik bakımının önemli bir parçasıdır."
             },
-            "id": "v08_24"
+            "id": "v08_24",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_24.mp3"
         },
         {
             "germanTerm": "Reanimation",
@@ -654,7 +686,8 @@
                 "ur": "قلبی گرفتاری کی صورت میں، فوری طور پر بحالی شروع کرنی چاہیے۔",
                 "tr": "Kardiyak arrest durumunda, resüsitasyona hemen başlanmalıdır."
             },
-            "id": "v08_25"
+            "id": "v08_25",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_25.mp3"
         },
         {
             "germanTerm": "Schmerzmittel",
@@ -677,7 +710,8 @@
                 "ur": "نرس مریض کو اس کے درد کے لیے درد کم کرنے والی دوا دیتی ہے۔",
                 "tr": "Hemşire hastaya ağrısı için bir ağrı kesici verir."
             },
-            "id": "v08_26"
+            "id": "v08_26",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_26.mp3"
         },
         {
             "germanTerm": "Pflegeplanung",
@@ -700,7 +734,8 @@
                 "ur": "نگہداشت کی منصوبہ بندی ہر مریض کے لیے انفرادی طور پر بنائی جاتی ہے۔",
                 "tr": "Bakım planlaması her hasta için ayrı ayrı oluşturulur."
             },
-            "id": "v08_27"
+            "id": "v08_27",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_27.mp3"
         },
         {
             "germanTerm": "Anamnese",
@@ -723,7 +758,8 @@
                 "ur": "نرس مریض کی طبی تاریخ لیتی ہے۔",
                 "tr": "Hemşire hastanın tıbbi geçmişini alır."
             },
-            "id": "v08_28"
+            "id": "v08_28",
+            "audioUrl": "assets/audio/sections/section_08/vocabulary/v08_28.mp3"
         }
     ],
     "dialogues": [
@@ -753,7 +789,8 @@
                         "hi": "शुभ प्रभात, डॉ. श्मिट। मेरे पास श्री मुलर के लिए दवा के आदेश के बारे में एक प्रश्न है।",
                         "ur": "صبح بخیر، ڈاکٹر شمٹ۔ میرے پاس مسٹر مولر کے لیے دوا کے آرڈر کے بارے میں ایک سوال ہے۔",
                         "tr": "Günaydın Doktor Schmidt. Bay Müller için ilaç siparişi hakkında bir sorum var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_01_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -765,7 +802,8 @@
                         "hi": "शुभ प्रभात, सिस्टर वेबर। क्या बात है?",
                         "ur": "صبح بخیر، سسٹر ویبر۔ کیا مسئلہ ہے؟",
                         "tr": "Günaydın Hemşire Weber. Sorun nedir?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_01_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -777,7 +815,8 @@
                         "hi": "दर्द निवारक दवा का आदेश थोड़ा अस्पष्ट है। क्या श्री मुलर को यह आवश्यकतानुसार या नियमित रूप से प्राप्त होना चाहिए?",
                         "ur": "درد کی دوا کا آرڈر تھوڑا مبہم ہے۔ کیا مسٹر مولر کو یہ ضرورت کے مطابق یا باقاعدگی سے ملنا چاہیے؟",
                         "tr": "Ağrı kesici ilaç siparişi biraz belirsiz. Bay Müller ilacı gerektiğinde mi yoksa düzenli olarak mı almalı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_01_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -789,7 +828,8 @@
                         "hi": "नियमित रूप से, हर 6 घंटे में। मैं सिस्टम में ऑर्डर समायोजित करूंगा।",
                         "ur": "باقاعدگی سے، ہر 6 گھنٹے میں۔ میں نظام میں آرڈر کو ایڈجسٹ کروں گا۔",
                         "tr": "Düzenli olarak, her 6 saatte bir. Sistemdeki siparişi ayarlayacağım."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_01_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -801,7 +841,8 @@
                         "hi": "आपका बहुत-बहुत धन्यवाद, डॉक्टर। इससे बहुत मदद मिलती है।",
                         "ur": "آپ کا بہت شکریہ، ڈاکٹر۔ اس سے بہت مدد ملتی ہے۔",
                         "tr": "Çok teşekkür ederim Doktor. Bu çok yardımcı oluyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_01_line5.mp3"
                 }
             ],
             "id": "d08_01"
@@ -832,7 +873,8 @@
                         "hi": "सिस्टर जूलिया, हमें श्री श्मिट को गहन चिकित्सा इकाई में स्थानांतरित करने की आवश्यकता है। उनकी हालत बिगड़ गई है।",
                         "ur": "سسٹر جولیا، ہمیں مسٹر شمٹ کو انتہائی نگہداشت یونٹ میں منتقل کرنے کی ضرورت ہے۔ ان کی حالت بگڑ گئی ہے۔",
                         "tr": "Hemşire Julia, Bay Schmidt'i yoğun bakım ünitesine nakletmemiz gerekiyor. Durumu kötüleşti."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_02_line1.mp3"
                 },
                 {
                     "speaker": "Schwester Julia",
@@ -844,7 +886,8 @@
                         "hi": "ठीक है, सुश्री मेयर। मैं परिवहन के लिए सब कुछ तैयार कर लूंगी। क्या हमें अतिरिक्त सहायता की आवश्यकता है?",
                         "ur": "ٹھیک ہے، محترمہ میئر۔ میں نقل و حمل کے لیے سب کچھ تیار کروں گی۔ کیا ہمیں اضافی مدد کی ضرورت ہے؟",
                         "tr": "Tamam, Bayan Meier. Taşıma için her şeyi hazırlayacağım. Ek desteğe ihtiyacımız var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_02_line2.mp3"
                 },
                 {
                     "speaker": "Stationsleitung Frau Meier",
@@ -856,7 +899,8 @@
                         "hi": "हाँ, कृपया नर्स थॉमस को मदद करने के लिए बुलाओ। वह पुन: स्थापित करने में मदद कर सकते हैं।",
                         "ur": "ہاں، براہ کرم نرس تھامس کو مدد کے لیے بلائیں۔ وہ دوبارہ پوزیشن دینے میں مدد کر سکتے ہیں۔",
                         "tr": "Evet, lütfen Hemşire Thomas'ı yardıma çağırın. Yeniden konumlandırmaya yardımcı olabilir."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_02_line3.mp3"
                 },
                 {
                     "speaker": "Schwester Julia",
@@ -868,7 +912,8 @@
                         "hi": "ठीक है, मैं तुरंत नर्स थॉमस को सूचित कर दूँगी।",
                         "ur": "ٹھیک ہے، میں فوری طور پر نرس تھامس کو مطلع کر دوں گی۔",
                         "tr": "Tamam, Hemşire Thomas'ı hemen bilgilendireceğim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_02_line4.mp3"
                 },
                 {
                     "speaker": "Pfleger Thomas",
@@ -880,7 +925,8 @@
                         "hi": "मैं तैयार हूँ। मुझे क्या करना होगा?",
                         "ur": "میں تیار ہوں۔ مجھے کیا کرنے کی ضرورت ہے؟",
                         "tr": "Hazırım. Ne yapmam gerekiyor?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_02_line5.mp3"
                 }
             ],
             "id": "d08_02"
@@ -911,7 +957,8 @@
                         "hi": "शुभ संध्या, सिस्टर अन्ना। यहाँ है हैंडओवर। श्रीमती वेबर का घाव थोड़ा लाल है।",
                         "ur": "شب بخیر، سسٹر انا۔ یہ ہے ہینڈ اوور۔ محترمہ ویبر کا زخم قدرے سرخ ہے۔",
                         "tr": "İyi akşamlar Hemşire Anna. İşte devir. Bayan Weber'in yarası hafifçe kızarmış."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_03_line1.mp3"
                 },
                 {
                     "speaker": "Schwester Anna",
@@ -923,7 +970,8 @@
                         "hi": "धन्यवाद, लिसा। क्या आपने डॉक्टर को सूचित किया?",
                         "ur": "شکریہ، لیزا۔ کیا آپ نے ڈاکٹر کو مطلع کیا؟",
                         "tr": "Teşekkürler Lisa. Doktora haber verdin mi?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_03_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Lisa",
@@ -935,7 +983,8 @@
                         "hi": "हाँ, उन्होंने एक मलहम लिख दिया है। इसे दिन में दो बार लगाना होगा।",
                         "ur": "ہاں، انہوں نے ایک مرہم تجویز کیا ہے۔ اسے دن میں دو بار لگانا ہوگا۔",
                         "tr": "Evet, bir merhem yazdı. Günde iki kez uygulanması gerekiyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_03_line3.mp3"
                 },
                 {
                     "speaker": "Schwester Anna",
@@ -947,7 +996,8 @@
                         "hi": "अच्छा, मैं उस पर ध्यान दूँगी। और कुछ है?",
                         "ur": "اچھا، میں اس پر توجہ دوں گی۔ کیا اور کچھ ہے؟",
                         "tr": "Güzel, ona dikkat edeceğim. Başka bir şey var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_03_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Lisa",
@@ -959,7 +1009,8 @@
                         "hi": "श्री क्लेन ने आज थोड़ा कम खाया। कृपया इसे देखें।",
                         "ur": "مسٹر کلین نے آج تھوڑا کم کھایا۔ براہ کرم اس کا مشاہدہ کریں۔",
                         "tr": "Bay Klein bugün biraz daha az yedi. Lütfen bunu gözlemleyin."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_03_line5.mp3"
                 }
             ],
             "id": "d08_03"
@@ -990,7 +1041,8 @@
                         "hi": "श्री बर्जर ढह गए हैं! जल्दी करो, मदद करो!",
                         "ur": "مسٹر برجر گر گئے ہیں! جلدی کرو، مدد کرو!",
                         "tr": "Bay Berger bayıldı! Çabuk, yardım edin!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_04_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Lehmann",
@@ -1002,7 +1054,8 @@
                         "hi": "क्या हुआ? ऑक्सीजन!",
                         "ur": "کیا ہوا؟ آکسیجن!",
                         "tr": "Ne oldu? Oksijen!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_04_line2.mp3"
                 },
                 {
                     "speaker": "Pfleger Kevin",
@@ -1014,7 +1067,8 @@
                         "hi": "मैं डीफिब्रिलेटर लाता हूँ!",
                         "ur": "میں ڈیفبریلیٹر لاتا ہوں!",
                         "tr": "Defibrilatörü getireceğim!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_04_line3.mp3"
                 },
                 {
                     "speaker": "Schwester Maria",
@@ -1026,7 +1080,8 @@
                         "hi": "उनकी नाड़ी कमजोर है। डॉ. लेहमैन, हमें क्या करना चाहिए?",
                         "ur": "اس کی نبض کمزور ہے۔ ڈاکٹر لیمن، ہمیں کیا کرنا چاہیے؟",
                         "tr": "Nabzı zayıf. Doktor Lehmann, ne yapmalıyız?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_04_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Lehmann",
@@ -1038,7 +1093,8 @@
                         "hi": "पुनर्जीवन शुरू करें! केविन, इंटुबैशन की तैयारी करें।",
                         "ur": "دوبارہ زندگی شروع کریں! کیون، انٹیوبیشن کے لیے تیاری کریں۔",
                         "tr": "Canlandırmaya başlayın! Kevin, entübasyona hazırlanın."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_04_line5.mp3"
                 }
             ],
             "id": "d08_04"
@@ -1069,7 +1125,8 @@
                         "hi": "हमें श्रीमती हार्टमैन के लिए देखभाल योजना को समायोजित करने की आवश्यकता है। वह तेजी से अवसाद के लक्षण दिखा रही हैं।",
                         "ur": "ہمیں محترمہ ہارٹ مین کے لیے نگہداشت کے منصوبے کو ایڈجسٹ کرنے کی ضرورت ہے۔ وہ تیزی سے ڈپریشن کی علامات ظاہر کر رہی ہیں۔",
                         "tr": "Bayan Hartmann için bakım planını ayarlamamız gerekiyor. Giderek depresyon belirtileri gösteriyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_05_line1.mp3"
                 },
                 {
                     "speaker": "Schwester Karin",
@@ -1081,7 +1138,8 @@
                         "hi": "मैंने देखा है कि वह अक्सर पीछे हट जाती है और बहुत कम खाती है।",
                         "ur": "میں نے دیکھا ہے کہ وہ اکثر پیچھے ہٹ جاتی ہے اور بہت کم کھاتی ہے۔",
                         "tr": "Sık sık içine kapandığını ve çok az yediğini fark ettim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_05_line2.mp3"
                 },
                 {
                     "speaker": "Pfleger Michael",
@@ -1093,7 +1151,8 @@
                         "hi": "क्या हम उसकी दैनिक दिनचर्या में अधिक सामाजिक गतिविधियाँ शामिल कर सकते हैं?",
                         "ur": "کیا ہم اس کے روزمرہ کے معمولات میں مزید سماجی سرگرمیاں شامل کر سکتے ہیں؟",
                         "tr": "Günlük rutinine daha fazla sosyal aktivite dahil edebilir miyiz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_05_line3.mp3"
                 },
                 {
                     "speaker": "Pflegedienstleitung Frau Schulz",
@@ -1105,7 +1164,8 @@
                         "hi": "यह एक अच्छा विचार है। और हमें डॉक्टर को परिवर्तनों के बारे में सूचित करना चाहिए। उसे अतिरिक्त सहायता की आवश्यकता हो सकती है।",
                         "ur": "یہ ایک اچھا خیال ہے۔ اور ہمیں ڈاکٹر کو تبدیلیوں کے بارے میں آگاہ کرنا چاہیے۔ اسے اضافی مدد کی ضرورت پڑ سکتی ہے۔",
                         "tr": "Bu iyi bir fikir. Ve doktoru değişiklikler hakkında bilgilendirmeliyiz. Ek desteğe ihtiyacı olabilir."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_05_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Karin",
@@ -1117,7 +1177,8 @@
                         "hi": "मैं डॉक्टर से बातचीत करूँगी।",
                         "ur": "میں ڈاکٹر سے گفتگو کروں گی۔",
                         "tr": "Doktorla görüşeceğim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_08/dialogues/d08_05_line5.mp3"
                 }
             ],
             "id": "d08_05"

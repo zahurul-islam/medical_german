@@ -76,12 +76,12 @@ class AppLocalizationsUr extends AppLocalizations {
 
   @override
   String sectionsCompleted(int count) {
-    return '$count sections completed';
+    return '$count حصے مکمل';
   }
 
   @override
   String level(String level) {
-    return 'Level $level';
+    return 'سطح $level';
   }
 
   @override
@@ -116,7 +116,7 @@ class AppLocalizationsUr extends AppLocalizations {
   String get sections => 'حصے';
 
   @override
-  String get section => 'Section';
+  String get section => 'حصہ';
 
   @override
   String get vocabulary => 'ذخیرہ الفاظ';
@@ -129,7 +129,7 @@ class AppLocalizationsUr extends AppLocalizations {
 
   @override
   String minutes(int min) {
-    return '$min min';
+    return '$min منٹ';
   }
 
   @override
@@ -151,10 +151,10 @@ class AppLocalizationsUr extends AppLocalizations {
   String get flashcards => 'فلیش کارڈز';
 
   @override
-  String get tapToSeeTranslation => 'Tap to see translation';
+  String get tapToSeeTranslation => 'ترجمہ دیکھنے کے لیے ٹیپ کریں';
 
   @override
-  String get tapToSeeGerman => 'Tap to see German';
+  String get tapToSeeGerman => 'جرمن دیکھنے کے لیے ٹیپ کریں';
 
   @override
   String get next => 'اگلا';
@@ -185,7 +185,7 @@ class AppLocalizationsUr extends AppLocalizations {
 
   @override
   String questionsCompleted(int current, int total) {
-    return '$current of $total';
+    return '$total میں سے $current';
   }
 
   @override
@@ -196,7 +196,7 @@ class AppLocalizationsUr extends AppLocalizations {
 
   @override
   String score(int correct, int total) {
-    return 'You got $correct out of $total correct';
+    return 'آپ نے $total میں سے $correct صحیح حاصل کیے';
   }
 
   @override
@@ -215,28 +215,28 @@ class AppLocalizationsUr extends AppLocalizations {
   String get notifications => 'اطلاعات';
 
   @override
-  String get downloads => 'Downloads';
+  String get downloads => 'ڈاؤن لوڈز';
 
   @override
-  String get manageOfflineContent => 'Manage offline content';
+  String get manageOfflineContent => 'آف لائن مواد کا انتظام کریں';
 
   @override
-  String get helpFaq => 'Help & FAQ';
+  String get helpFaq => 'مدد اور سوالات';
 
   @override
-  String get contactUs => 'Contact Us';
+  String get contactUs => 'ہم سے رابطہ کریں';
 
   @override
-  String get privacyPolicy => 'Privacy Policy';
+  String get privacyPolicy => 'رازداری کی پالیسی';
 
   @override
-  String get termsOfService => 'Terms of Service';
+  String get termsOfService => 'سروس کی شرائط';
 
   @override
   String get signOut => 'سائن آؤٹ';
 
   @override
-  String get signOutConfirm => 'Are you sure you want to sign out?';
+  String get signOutConfirm => 'کیا آپ سائن آؤٹ کرنا چاہتے ہیں؟';
 
   @override
   String get cancel => 'منسوخ';
@@ -254,7 +254,7 @@ class AppLocalizationsUr extends AppLocalizations {
   String get loading => 'لوڈ ہو رہا ہے...';
 
   @override
-  String get noInternetConnection => 'No internet connection';
+  String get noInternetConnection => 'انٹرنیٹ کنکشن نہیں ہے';
 
   @override
   String get comingSoon => 'جلد آ رہا ہے';

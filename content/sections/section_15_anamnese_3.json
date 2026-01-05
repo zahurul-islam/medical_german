@@ -32,30 +32,12 @@
             "de": "In diesem Abschnitt lernen wir, wie man nach Vorerkrankungen, Operationen, Allergien, Medikamenten und Impfstatus eines Patienten auf Deutsch fragt und diese dokumentiert. Dieses Wissen ist entscheidend für die Erstellung einer umfassenden Patientenanamnese und die Gewährleistung einer angemessenen Versorgung."
         },
         "grammarFocus": {
-            "en": [
-                "Practice using the correct German cases (Nominativ, Akkusativ, Dativ, Genitiv) with medical terms related to illnesses and medications.",
-                "Focus on forming questions correctly to elicit information about past medical events and current treatments using appropriate verb conjugations and sentence structure."
-            ],
-            "bn": [
-                "অসুস্থতা এবং ওষুধের সাথে সম্পর্কিত চিকিৎসা পরিভাষাগুলির সাথে সঠিক জার্মান কারক (Nominativ, Akkusativ, Dativ, Genitiv) ব্যবহার করার অনুশীলন করুন।",
-                "অতীতের চিকিৎসা ঘটনা এবং বর্তমান চিকিৎসা সম্পর্কে তথ্য পাওয়ার জন্য সঠিক ক্রিয়া সংযোগ এবং বাক্য গঠন ব্যবহার করে সঠিকভাবে প্রশ্ন তৈরি করার উপর মনোযোগ দিন।"
-            ],
-            "hi": [
-                "बीमारियों और दवाओं से संबंधित चिकित्सा शब्दों के साथ सही जर्मन मामलों (Nominativ, Akkusativ, Dativ, Genitiv) का उपयोग करने का अभ्यास करें।",
-                "उचित क्रिया संयुग्मन और वाक्य संरचना का उपयोग करके पिछली चिकित्सा घटनाओं और वर्तमान उपचारों के बारे में जानकारी प्राप्त करने के लिए सही ढंग से प्रश्न बनाने पर ध्यान दें।"
-            ],
-            "ur": [
-                "بیماریوں اور ادویات سے متعلق طبی اصطلاحات کے ساتھ جرمن کے درست مقدمات (Nominativ, Akkusativ, Dativ, Genitiv) استعمال کرنے کی مشق کریں۔",
-                "مناسب فعل کے ملاپ اور جملے کی ساخت کا استعمال کرتے ہوئے طبی واقعات اور موجودہ علاج کے بارے میں معلومات حاصل کرنے کے لیے درست طریقے سے سوالات بنانے پر توجہ دیں۔"
-            ],
-            "tr": [
-                "Hastalıklar ve ilaçlarla ilgili tıbbi terimlerle doğru Almanca durumlarını (Nominativ, Akkusativ, Dativ, Genitiv) kullanma alıştırması yapın.",
-                "Uygun fiil çekimleri ve cümle yapısı kullanarak geçmiş tıbbi olaylar ve mevcut tedaviler hakkında bilgi almak için soruları doğru şekilde oluşturmaya odaklanın."
-            ],
-            "de": [
-                "Üben Sie die korrekte Verwendung der deutschen Fälle (Nominativ, Akkusativ, Dativ, Genitiv) mit medizinischen Fachbegriffen im Zusammenhang mit Krankheiten und Medikamenten.",
-                "Konzentrieren Sie sich auf die korrekte Formulierung von Fragen, um Informationen über vergangene medizinische Ereignisse und aktuelle Behandlungen unter Verwendung geeigneter Verbkonjugationen und Satzstrukturen zu erhalten."
-            ]
+            "en": "**Current Complaints and Symptom Description: Temporal Expressions**\n\nDescribing the timeline of symptoms requires specific temporal prepositions and expressions.\n\n*Key Temporal Prepositions:*\n| Preposition | Case | Usage | Example |\n|-------------|------|-------|---------|\n| seit | Dative | Since (ongoing) | seit einer Woche |\n| vor | Dative | Ago | vor drei Tagen |\n| bis | Accusative | Until | bis heute |\n| während | Genitive | During | während der Nacht |\n\n**Asking About Duration:**\n- 'Seit wann haben Sie die Beschwerden?' (Since when do you have the complaints?)\n- 'Wie lange dauern die Schmerzen schon an?' (How long has the pain been going on?)\n- 'Wann hat es angefangen?' (When did it start?)\n\n*Common Time Expressions:*\n| German | English |\n|--------|---------|\n| seit gestern | since yesterday |\n| seit einer Woche | for a week |\n| vor zwei Tagen | two days ago |\n| heute Morgen | this morning |\n| in der Nacht | at night |\n| den ganzen Tag | all day |\n\n**Frequency Expressions:**\n- 'Wie oft haben Sie die Schmerzen?' (How often do you have the pain?)\n- 'ständig / dauerhaft' (constantly / permanently)\n- 'gelegentlich / manchmal' (occasionally / sometimes)\n- 'selten' (rarely)\n- 'immer wieder' (again and again)\n\n*Pain Progression Questions:*\n- 'Werden die Schmerzen schlimmer oder besser?' (Is the pain getting worse or better?)\n- 'Was verstärkt die Beschwerden?' (What makes the complaints worse?)\n- 'Was lindert die Symptome?' (What relieves the symptoms?)",
+            "de": "**Aktuelle Beschwerden und Symptombeschreibung: Zeitliche Ausdrücke**\n\nDie Beschreibung des zeitlichen Verlaufs von Symptomen erfordert spezifische temporale Präpositionen und Ausdrücke.\n\n*Wichtige temporale Präpositionen:*\n| Präposition | Fall | Verwendung | Beispiel |\n|-------------|------|------------|----------|\n| seit | Dativ | Seit (andauernd) | seit einer Woche |\n| vor | Dativ | Vor | vor drei Tagen |\n| bis | Akkusativ | Bis | bis heute |\n| während | Genitiv | Während | während der Nacht |\n\n**Nach der Dauer fragen:**\n- 'Seit wann haben Sie die Beschwerden?'\n- 'Wie lange dauern die Schmerzen schon an?'\n- 'Wann hat es angefangen?'\n\n*Häufige Zeitausdrücke:*\n| Deutsch | Bedeutung |\n|---------|-----------|\n| seit gestern | seit gestern |\n| seit einer Woche | seit einer Woche |\n| vor zwei Tagen | vor zwei Tagen |\n| heute Morgen | heute Morgen |\n| in der Nacht | in der Nacht |\n| den ganzen Tag | den ganzen Tag |\n\n**Häufigkeitsausdrücke:**\n- 'Wie oft haben Sie die Schmerzen?'\n- 'ständig / dauerhaft'\n- 'gelegentlich / manchmal'\n- 'selten'\n- 'immer wieder'\n\n*Fragen zum Schmerzverlauf:*\n- 'Werden die Schmerzen schlimmer oder besser?'\n- 'Was verstärkt die Beschwerden?'\n- 'Was lindert die Symptome?'",
+            "bn": "**Current Complaints and Symptom Description: Temporal Expressions**\n\nDescribing the timeline of symptoms requires specific temporal prepositions and expressions.\n\n*Key Temporal Prepositions:*\n| Preposition | Case | Usage | Example |\n|-------------|------|-------|---------|\n| seit | Dative | Since (ongoing) | seit einer Woche |\n| vor | Dative | Ago | vor drei Tagen |\n| bis | Accusative | Until | bis heute |\n| während | Genitive | During | während der Nacht |\n\n**Asking About Duration:**\n- 'Seit wann haben Sie die Beschwerden?' (Since when do you have the complaints?)\n- 'Wie lange dauern die Schmerzen schon an?' (How long has the pain been going on?)\n- 'Wann hat es angefangen?' (When did it start?)\n\n*Common Time Expressions:*\n| German | English |\n|--------|---------|\n| seit gestern | since yesterday |\n| seit einer Woche | for a week |\n| vor zwei Tagen | two days ago |\n| heute Morgen | this morning |\n| in der Nacht | at night |\n| den ganzen Tag | all day |\n\n**Frequency Expressions:**\n- 'Wie oft haben Sie die Schmerzen?' (How often do you have the pain?)\n- 'ständig / dauerhaft' (constantly / permanently)\n- 'gelegentlich / manchmal' (occasionally / sometimes)\n- 'selten' (rarely)\n- 'immer wieder' (again and again)\n\n*Pain Progression Questions:*\n- 'Werden die Schmerzen schlimmer oder besser?' (Is the pain getting worse or better?)\n- 'Was verstärkt die Beschwerden?' (What makes the complaints worse?)\n- 'Was lindert die Symptome?' (What relieves the symptoms?)",
+            "hi": "**Current Complaints and Symptom Description: Temporal Expressions**\n\nDescribing the timeline of symptoms requires specific temporal prepositions and expressions.\n\n*Key Temporal Prepositions:*\n| Preposition | Case | Usage | Example |\n|-------------|------|-------|---------|\n| seit | Dative | Since (ongoing) | seit einer Woche |\n| vor | Dative | Ago | vor drei Tagen |\n| bis | Accusative | Until | bis heute |\n| während | Genitive | During | während der Nacht |\n\n**Asking About Duration:**\n- 'Seit wann haben Sie die Beschwerden?' (Since when do you have the complaints?)\n- 'Wie lange dauern die Schmerzen schon an?' (How long has the pain been going on?)\n- 'Wann hat es angefangen?' (When did it start?)\n\n*Common Time Expressions:*\n| German | English |\n|--------|---------|\n| seit gestern | since yesterday |\n| seit einer Woche | for a week |\n| vor zwei Tagen | two days ago |\n| heute Morgen | this morning |\n| in der Nacht | at night |\n| den ganzen Tag | all day |\n\n**Frequency Expressions:**\n- 'Wie oft haben Sie die Schmerzen?' (How often do you have the pain?)\n- 'ständig / dauerhaft' (constantly / permanently)\n- 'gelegentlich / manchmal' (occasionally / sometimes)\n- 'selten' (rarely)\n- 'immer wieder' (again and again)\n\n*Pain Progression Questions:*\n- 'Werden die Schmerzen schlimmer oder besser?' (Is the pain getting worse or better?)\n- 'Was verstärkt die Beschwerden?' (What makes the complaints worse?)\n- 'Was lindert die Symptome?' (What relieves the symptoms?)",
+            "ur": "**Current Complaints and Symptom Description: Temporal Expressions**\n\nDescribing the timeline of symptoms requires specific temporal prepositions and expressions.\n\n*Key Temporal Prepositions:*\n| Preposition | Case | Usage | Example |\n|-------------|------|-------|---------|\n| seit | Dative | Since (ongoing) | seit einer Woche |\n| vor | Dative | Ago | vor drei Tagen |\n| bis | Accusative | Until | bis heute |\n| während | Genitive | During | während der Nacht |\n\n**Asking About Duration:**\n- 'Seit wann haben Sie die Beschwerden?' (Since when do you have the complaints?)\n- 'Wie lange dauern die Schmerzen schon an?' (How long has the pain been going on?)\n- 'Wann hat es angefangen?' (When did it start?)\n\n*Common Time Expressions:*\n| German | English |\n|--------|---------|\n| seit gestern | since yesterday |\n| seit einer Woche | for a week |\n| vor zwei Tagen | two days ago |\n| heute Morgen | this morning |\n| in der Nacht | at night |\n| den ganzen Tag | all day |\n\n**Frequency Expressions:**\n- 'Wie oft haben Sie die Schmerzen?' (How often do you have the pain?)\n- 'ständig / dauerhaft' (constantly / permanently)\n- 'gelegentlich / manchmal' (occasionally / sometimes)\n- 'selten' (rarely)\n- 'immer wieder' (again and again)\n\n*Pain Progression Questions:*\n- 'Werden die Schmerzen schlimmer oder besser?' (Is the pain getting worse or better?)\n- 'Was verstärkt die Beschwerden?' (What makes the complaints worse?)\n- 'Was lindert die Symptome?' (What relieves the symptoms?)",
+            "tr": "**Current Complaints and Symptom Description: Temporal Expressions**\n\nDescribing the timeline of symptoms requires specific temporal prepositions and expressions.\n\n*Key Temporal Prepositions:*\n| Preposition | Case | Usage | Example |\n|-------------|------|-------|---------|\n| seit | Dative | Since (ongoing) | seit einer Woche |\n| vor | Dative | Ago | vor drei Tagen |\n| bis | Accusative | Until | bis heute |\n| während | Genitive | During | während der Nacht |\n\n**Asking About Duration:**\n- 'Seit wann haben Sie die Beschwerden?' (Since when do you have the complaints?)\n- 'Wie lange dauern die Schmerzen schon an?' (How long has the pain been going on?)\n- 'Wann hat es angefangen?' (When did it start?)\n\n*Common Time Expressions:*\n| German | English |\n|--------|---------|\n| seit gestern | since yesterday |\n| seit einer Woche | for a week |\n| vor zwei Tagen | two days ago |\n| heute Morgen | this morning |\n| in der Nacht | at night |\n| den ganzen Tag | all day |\n\n**Frequency Expressions:**\n- 'Wie oft haben Sie die Schmerzen?' (How often do you have the pain?)\n- 'ständig / dauerhaft' (constantly / permanently)\n- 'gelegentlich / manchmal' (occasionally / sometimes)\n- 'selten' (rarely)\n- 'immer wieder' (again and again)\n\n*Pain Progression Questions:*\n- 'Werden die Schmerzen schlimmer oder besser?' (Is the pain getting worse or better?)\n- 'Was verstärkt die Beschwerden?' (What makes the complaints worse?)\n- 'Was lindert die Symptome?' (What relieves the symptoms?)"
         },
         "culturalNotes": {
             "en": "In German-speaking hospitals, it is common for doctors to take a very detailed and thorough medical history, often asking numerous questions, which may sometimes feel intrusive to patients from other cultural backgrounds.",
@@ -73,12 +55,38 @@
             "tr": "Bu bölüm, size tıbbi Almanca'da bir hastanın tıbbi geçmişi, önceden var olan durumları, ameliyatları, alerjileri, ilaçları ve aşıları hakkında etkili bir şekilde sorgulama ve belgeleme için gerekli kelime dağarcığı ve dilbilgisel yapıları sağlamıştır.",
             "de": "Dieser Abschnitt hat Sie mit dem notwendigen Vokabular und den grammatikalischen Strukturen ausgestattet, um effektiv nach der medizinischen Vorgeschichte eines Patienten, einschließlich Vorerkrankungen, Operationen, Allergien, Medikamenten und Impfungen, auf Deutsch zu fragen und diese zu dokumentieren."
         },
-        "learningObjectives": [
-            "Ask patients about their pre-existing conditions using Medical German.",
-            "Document a patient's allergies and medication list in German medical terminology.",
-            "Understand common German terms for surgeries and medical procedures.",
-            "Accurately record a patient's vaccination history using the correct German vocabulary."
-        ]
+        "learningObjectives": {
+            "en": [
+                "Ask patients about their pre-existing conditions using Medical German.",
+                "Document a patient's allergies and medication list in German medical terminology.",
+                "Understand common German terms for surgeries and medical procedures.",
+                "Accurately record a patient's vaccination history using the correct German vocabulary."
+            ],
+            "bn": [
+                "Ask patients about their pre-existing conditions using Medical German.",
+                "Document a patient's allergies and medication list in German medical terminology.",
+                "বুঝুন common German terms for surgeries and medical procedures.",
+                "Accurately record a patient's vaccination history using the correct German vocabulary."
+            ],
+            "hi": [
+                "Ask patients about their pre-existing conditions using Medical German.",
+                "Document a patient's allergies and medication list in German medical terminology.",
+                "समझें common German terms for surgeries and medical procedures.",
+                "Accurately record a patient's vaccination history using the correct German vocabulary."
+            ],
+            "ur": [
+                "Ask patients about their pre-existing conditions using Medical German.",
+                "Document a patient's allergies and medication list in German medical terminology.",
+                "سمجھیں common German terms for surgeries and medical procedures.",
+                "Accurately record a patient's vaccination history using the correct German vocabulary."
+            ],
+            "tr": [
+                "Ask patients about their pre-existing conditions using Medical German.",
+                "Document a patient's allergies and medication list in German medical terminology.",
+                "Anlayın common German terms for surgeries and medical procedures.",
+                "Accurately record a patient's vaccination history using the correct German vocabulary."
+            ]
+        }
     },
     "vocabulary": [
         {
@@ -102,7 +110,8 @@
                 "ur": "کیا مریض کو کوئی ایسی سابقہ ​​حالت ہے جس پر ہمیں غور کرنے کی ضرورت ہے؟",
                 "tr": "Hastanın dikkate almamız gereken bilinen önceden var olan bir durumu var mı?"
             },
-            "id": "v15_01"
+            "id": "v15_01",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_01.mp3"
         },
         {
             "germanTerm": "die Operation",
@@ -125,7 +134,8 @@
                 "ur": "مریض کی آخری سرجری کب ہوئی تھی؟",
                 "tr": "Hastanın son ameliyatı ne zaman yapıldı?"
             },
-            "id": "v15_02"
+            "id": "v15_02",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_02.mp3"
         },
         {
             "germanTerm": "die Allergie",
@@ -148,7 +158,8 @@
                 "ur": "کیا مریض کو ادویات یا کھانے سے الرجی ہے؟",
                 "tr": "Hastanın ilaçlara veya yiyeceklere alerjisi var mı?"
             },
-            "id": "v15_03"
+            "id": "v15_03",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_03.mp3"
         },
         {
             "germanTerm": "das Medikament",
@@ -171,7 +182,8 @@
                 "ur": "مریض کونسی ادویات باقاعدگی سے لیتا ہے؟",
                 "tr": "Hasta düzenli olarak hangi ilaçları alıyor?"
             },
-            "id": "v15_04"
+            "id": "v15_04",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_04.mp3"
         },
         {
             "germanTerm": "die Impfung",
@@ -194,7 +206,8 @@
                 "ur": "کیا مریض موجودہ سفارشات کے مطابق مکمل طور پر ویکسین شدہ ہے؟",
                 "tr": "Hasta mevcut tavsiyelere göre tamamen aşılanmış mı?"
             },
-            "id": "v15_05"
+            "id": "v15_05",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_05.mp3"
         },
         {
             "germanTerm": "die Arzneimittelunverträglichkeit",
@@ -217,7 +230,8 @@
                 "ur": "کیا دوا عدم برداشت کا کوئی ثبوت ہے؟",
                 "tr": "İlaç intoleransına dair herhangi bir kanıt var mı?"
             },
-            "id": "v15_06"
+            "id": "v15_06",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_06.mp3"
         },
         {
             "germanTerm": "der Blutdruck",
@@ -240,7 +254,8 @@
                 "ur": "مریض کا بلڈ پریشر زیادہ ہے۔",
                 "tr": "Hastanın kan basıncı yüksek."
             },
-            "id": "v15_07"
+            "id": "v15_07",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_07.mp3"
         },
         {
             "germanTerm": "die Schilddrüsenerkrankung",
@@ -263,7 +278,8 @@
                 "ur": "کیا مریض کو کبھی تائرواڈ کی بیماری کی تشخیص ہوئی ہے؟",
                 "tr": "Hastaya hiç tiroid hastalığı teşhisi konuldu mu?"
             },
-            "id": "v15_08"
+            "id": "v15_08",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_08.mp3"
         },
         {
             "germanTerm": "die Herzkrankheit",
@@ -286,7 +302,8 @@
                 "ur": "خاندانی تاریخ میں دل کی بیماری کے بہت سے معاملات ہیں۔",
                 "tr": "Aile öyküsünde birçok kalp hastalığı vakası var."
             },
-            "id": "v15_09"
+            "id": "v15_09",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_09.mp3"
         },
         {
             "germanTerm": "die Diabetes",
@@ -309,7 +326,8 @@
                 "ur": "مریض کو ٹائپ 2 ذیابیطس ہے۔",
                 "tr": "Hastanın tip 2 diyabeti var."
             },
-            "id": "v15_10"
+            "id": "v15_10",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_10.mp3"
         },
         {
             "germanTerm": "die Dauermedikation",
@@ -332,7 +350,8 @@
                 "ur": "براہ کرم مریض کی طویل مدتی ادویات کی فہرست دیں۔",
                 "tr": "Lütfen hastanın uzun süreli ilaçlarını listeleyin."
             },
-            "id": "v15_11"
+            "id": "v15_11",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_11.mp3"
         },
         {
             "germanTerm": "operiert werden",
@@ -355,7 +374,8 @@
                 "ur": "مریض کو گھٹنے کی سرجری کروانی پڑی۔",
                 "tr": "Hastanın dizinden ameliyat olması gerekti."
             },
-            "id": "v15_12"
+            "id": "v15_12",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_12.mp3"
         },
         {
             "germanTerm": "allergisch gegen",
@@ -378,7 +398,8 @@
                 "ur": "مریض کو پینسلین سے الرجی ہے۔",
                 "tr": "Hastanın penisiline alerjisi var."
             },
-            "id": "v15_13"
+            "id": "v15_13",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_13.mp3"
         },
         {
             "germanTerm": "einnehmen",
@@ -401,7 +422,8 @@
                 "ur": "مریض باقاعدگی سے درد کش دوا لیتا ہے۔",
                 "tr": "Hasta düzenli olarak ağrı kesici alıyor."
             },
-            "id": "v15_14"
+            "id": "v15_14",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_14.mp3"
         },
         {
             "germanTerm": "geimpft gegen",
@@ -424,7 +446,8 @@
                 "ur": "مریض کو تشنج کے خلاف ویکسین کیا گیا ہے۔",
                 "tr": "Hastaya tetanoza karşı aşı yapılmıştır."
             },
-            "id": "v15_15"
+            "id": "v15_15",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_15.mp3"
         },
         {
             "germanTerm": "die Impfpass",
@@ -447,7 +470,8 @@
                 "ur": "براہ کرم اپنا ویکسینیشن کارڈ اپنے ساتھ لائیں۔",
                 "tr": "Lütfen aşılama kartınızı yanınızda getirin."
             },
-            "id": "v15_16"
+            "id": "v15_16",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_16.mp3"
         },
         {
             "germanTerm": "die Vorgeschichte",
@@ -470,7 +494,8 @@
                 "ur": "مریض کی طبی تاریخ تشخیص کے لیے متعلقہ ہے۔",
                 "tr": "Hastanın tıbbi geçmişi teşhis için önemlidir."
             },
-            "id": "v15_17"
+            "id": "v15_17",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_17.mp3"
         },
         {
             "germanTerm": "die Komplikation",
@@ -493,7 +518,8 @@
                 "ur": "سرجری کے دوران کوئی پیچیدگی نہیں تھی۔",
                 "tr": "Ameliyat sırasında herhangi bir komplikasyon olmadı."
             },
-            "id": "v15_18"
+            "id": "v15_18",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_18.mp3"
         },
         {
             "germanTerm": "die Unverträglichkeit",
@@ -516,7 +542,8 @@
                 "ur": "کیا مریض کو بعض کھانوں سے عدم برداشت ہے؟",
                 "tr": "Hastanın belirli yiyeceklere karşı intoleransı var mı?"
             },
-            "id": "v15_19"
+            "id": "v15_19",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_19.mp3"
         },
         {
             "germanTerm": "die Kontraindikation",
@@ -539,7 +566,8 @@
                 "ur": "کیا اس علاج کے لیے کوئی ممانعت ہے؟",
                 "tr": "Bu tedavi için herhangi bir kontrendikasyon var mı?"
             },
-            "id": "v15_20"
+            "id": "v15_20",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_20.mp3"
         },
         {
             "germanTerm": "die Immunisierung",
@@ -562,7 +590,8 @@
                 "ur": "مریض کی امیونائزیشن عمر کے مطابق ہے۔",
                 "tr": "Hastanın bağışıklaması yaşa uygundur."
             },
-            "id": "v15_21"
+            "id": "v15_21",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_21.mp3"
         },
         {
             "germanTerm": "der Allergietest",
@@ -585,7 +614,8 @@
                 "ur": "ہم جلد کے رد عمل کی وجہ معلوم کرنے کے لیے الرجی ٹیسٹ کر رہے ہیں۔",
                 "tr": "Cilt reaksiyonunun nedenini bulmak için bir alerji testi yapıyoruz."
             },
-            "id": "v15_22"
+            "id": "v15_22",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_22.mp3"
         },
         {
             "germanTerm": "die Anamnese erheben",
@@ -608,7 +638,8 @@
                 "ur": "ڈاکٹر کو مریض کی طبی تاریخ احتیاط سے لینی چاہیے۔",
                 "tr": "Doktor hastanın tıbbi geçmişini dikkatlice almalıdır."
             },
-            "id": "v15_23"
+            "id": "v15_23",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_23.mp3"
         },
         {
             "germanTerm": "leiden an",
@@ -631,7 +662,8 @@
                 "ur": "مریض دائمی کمر درد سے متاثر ہے۔",
                 "tr": "Hasta kronik sırt ağrısından muzdarip."
             },
-            "id": "v15_24"
+            "id": "v15_24",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_24.mp3"
         },
         {
             "germanTerm": "die Begleiterkrankung",
@@ -654,7 +686,8 @@
                 "ur": "ہمراہی امراض علاج کو پیچیدہ بناتے ہیں۔",
                 "tr": "Eşlik eden hastalıklar tedaviyi zorlaştırıyor."
             },
-            "id": "v15_25"
+            "id": "v15_25",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_25.mp3"
         },
         {
             "germanTerm": "die Medikamentenliste",
@@ -677,7 +710,8 @@
                 "ur": "براہ کرم مریض کی ادویات کی فہرست کو احتیاط سے چیک کریں۔",
                 "tr": "Lütfen hastanın ilaç listesini dikkatlice kontrol edin."
             },
-            "id": "v15_26"
+            "id": "v15_26",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_26.mp3"
         },
         {
             "germanTerm": "die Kontrolluntersuchung",
@@ -700,7 +734,8 @@
                 "ur": "مریض کو باقاعدگی سے فالو اپ معائنے کے لیے آنا ہوگا۔",
                 "tr": "Hastanın düzenli takip muayenelerine gelmesi gerekiyor."
             },
-            "id": "v15_27"
+            "id": "v15_27",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_27.mp3"
         },
         {
             "germanTerm": "das Beschwerdebild",
@@ -723,7 +758,8 @@
                 "ur": "مریض کی علامات ایک انفیکشن کی تجویز کرتی ہیں۔",
                 "tr": "Hastanın semptomları bir enfeksiyona işaret ediyor."
             },
-            "id": "v15_28"
+            "id": "v15_28",
+            "audioUrl": "assets/audio/sections/section_15/vocabulary/v15_28.mp3"
         }
     ],
     "dialogues": [
@@ -753,7 +789,8 @@
                         "hi": "शुभ प्रभात, श्रीमान मुलर। क्या आपको कोई एलर्जी है जिसके बारे में आप जानते हैं?",
                         "ur": "صبح بخیر مسٹر مولر۔ کیا آپ کو کوئی الرجی ہے جس کے بارے میں آپ جانتے ہوں؟",
                         "tr": "Günaydın, Bay Müller. Bildiğiniz herhangi bir alerjiniz var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_01_line1.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -765,7 +802,8 @@
                         "hi": "हाँ, मुझे पेनिसिलिन से एलर्जी है और मुझे हे फीवर है।",
                         "ur": "ہاں، مجھے پینسلین سے الرجی ہے اور مجھے گھاس کا بخار ہے۔",
                         "tr": "Evet, penisiline alerjim var ve saman nezlem var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_01_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -777,7 +815,8 @@
                         "hi": "पेनिसिलिन, नोट किया गया। क्या कोई अन्य दवाएं हैं जिनसे आपको प्रतिक्रिया होती है?",
                         "ur": "پینسلین، نوٹ کرلیا گیا۔ کیا کوئی اور دوائیں ہیں جن پر آپ ردعمل ظاہر کرتے ہیں؟",
                         "tr": "Penisilin, not edildi. Tepki verdiğiniz başka ilaçlar var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_01_line3.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -789,7 +828,8 @@
                         "hi": "नहीं, जहाँ तक मुझे पता है, नहीं।",
                         "ur": "نہیں، جہاں تک میں جانتا ہوں، نہیں۔",
                         "tr": "Hayır, bildiğim kadarıyla yok."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_01_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -801,7 +841,8 @@
                         "hi": "अच्छा, तो मैं इसे लिख लेता हूँ। बहुत बहुत धन्यवाद!",
                         "ur": "اچھا، تو میں اسے لکھ لیتا ہوں۔ بہت بہت شکریہ!",
                         "tr": "Güzel, o zaman bunu not edeceğim. Çok teşekkür ederim!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_01_line5.mp3"
                 }
             ],
             "id": "d15_01"
@@ -832,7 +873,8 @@
                         "hi": "शुभ दिन, श्रीमती श्मिट। क्या आप कृपया मुझे बता सकती हैं कि क्या आपने पहले कभी सर्जरी करवाई है?",
                         "ur": "شب بخیر، محترمہ شمٹ۔ کیا آپ براہ کرم مجھے بتا سکتی ہیں کہ کیا آپ نے پہلے کبھی سرجری کروائی ہے؟",
                         "tr": "İyi günler, Bayan Schmidt. Bana daha önce ameliyat olup olmadığınızı söyleyebilir misiniz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_02_line1.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -844,7 +886,8 @@
                         "hi": "हाँ, पांच साल पहले मेरा अपेंडिक्स हटाया गया था।",
                         "ur": "ہاں، پانچ سال پہلے میری اپینڈکس کو ہٹا دیا گیا تھا۔",
                         "tr": "Evet, beş yıl önce apandisim alındı."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_02_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -856,7 +899,8 @@
                         "hi": "ठीक है, पांच साल पहले अपेंडेक्टमी। और कुछ?",
                         "ur": "ٹھیک ہے، پانچ سال پہلے اپینڈیکٹومی۔ اور کچھ؟",
                         "tr": "Tamam, beş yıl önce apandisit ameliyatı. Başka bir şey var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_02_line3.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -868,7 +912,8 @@
                         "hi": "नहीं, बस इतना ही था।",
                         "ur": "نہیں، بس اتنا ہی تھا۔",
                         "tr": "Hayır, hepsi bu kadardı."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_02_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -880,7 +925,8 @@
                         "hi": "आपका बहुत-बहुत धन्यवाद, श्रीमती श्मिट। यह बहुत मददगार है।",
                         "ur": "آپ کا بہت بہت شکریہ، محترمہ شمٹ۔ یہ بہت مددگار ہے۔",
                         "tr": "Çok teşekkür ederim, Bayan Schmidt. Bu çok yardımcı oldu."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_02_line5.mp3"
                 }
             ],
             "id": "d15_02"
@@ -911,7 +957,8 @@
                         "hi": "शुभ संध्या, श्री लेहमन। आप वर्तमान में नियमित रूप से कौन सी दवाएं ले रहे हैं?",
                         "ur": "شب بخیر، مسٹر لیمن۔ آپ اس وقت باقاعدگی سے کون سی دوائیں لے رہے ہیں؟",
                         "tr": "İyi akşamlar, Bay Lehmann. Şu anda düzenli olarak hangi ilaçları alıyorsunuz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_03_line1.mp3"
                 },
                 {
                     "speaker": "Patient Lehmann",
@@ -923,7 +970,8 @@
                         "hi": "मैं प्रतिदिन उच्च रक्तचाप के लिए एक दवा लेता हूं और कभी-कभी दर्द निवारक दवाएं लेता हूं।",
                         "ur": "میں روزانہ ہائی بلڈ پریشر کے لیے ایک دوا لیتا ہوں اور وقتاً فوقتاً درد کم کرنے والی ادویات لیتا ہوں۔",
                         "tr": "Her gün yüksek tansiyon için bir ilaç alıyorum ve ara sıra ağrı kesici kullanıyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_03_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -935,7 +983,8 @@
                         "hi": "क्या आप कृपया मुझे दवाओं के नाम बता सकते हैं?",
                         "ur": "کیا آپ براہ کرم مجھے دواؤں کے نام بتا سکتے ہیں؟",
                         "tr": "Lütfen bana ilaçların isimlerini söyleyebilir misiniz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_03_line3.mp3"
                 },
                 {
                     "speaker": "Patient Lehmann",
@@ -947,7 +996,8 @@
                         "hi": "रक्तचाप की दवा का नाम लिसिनोप्रिल है और दर्द निवारक दवा इबुप्रोफेन है।",
                         "ur": "بلڈ پریشر کی دوا کا نام لیسینوپریل ہے اور درد کم کرنے والی دوا آئبوپروفین ہے۔",
                         "tr": "Tansiyon ilacının adı Lisinopril ve ağrı kesicinin adı Ibuprofen."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_03_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -959,7 +1009,8 @@
                         "hi": "धन्यवाद, श्री लेहमन। यह जानना बहुत महत्वपूर्ण है।",
                         "ur": "شکریہ، مسٹر لیمن۔ یہ جاننا بہت ضروری ہے۔",
                         "tr": "Teşekkür ederim, Bay Lehmann. Bunu bilmek çok önemli."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_03_line5.mp3"
                 }
             ],
             "id": "d15_03"
@@ -990,7 +1041,8 @@
                         "hi": "शुभ प्रभात, श्रीमती मायर। आपको कौन सी पूर्व-मौजूदा स्थितियाँ हैं?",
                         "ur": "شب بخیر، محترمہ میئر۔ آپ کو پہلے سے موجود کیا حالات ہیں؟",
                         "tr": "Günaydın, Bayan Meier. Daha önce geçirdiğiniz hastalıklar nelerdir?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_04_line1.mp3"
                 },
                 {
                     "speaker": "Patient Meier",
@@ -1002,7 +1054,8 @@
                         "hi": "मुझे बचपन में खसरा और चेचक हुआ था। अन्यथा कुछ भी गंभीर नहीं।",
                         "ur": "مجھے بچپن میں خسرہ اور چیچک ہوا تھا۔ ورنہ کچھ بھی سنجیدہ نہیں۔",
                         "tr": "Çocukken kızamık ve suçiçeği geçirmiştim. Başka ciddi bir şey yok."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_04_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Schmidt",
@@ -1014,7 +1067,8 @@
                         "hi": "ठीक है, बचपन में खसरा और चेचक। क्या आपको मधुमेह या हृदय रोग है?",
                         "ur": "ٹھیک ہے، بچپن میں خسرہ اور چیچک۔ کیا آپ کو ذیابیطس یا دل کی بیماری ہے؟",
                         "tr": "Tamam, çocuklukta kızamık ve suçiçeği. Diyabetiniz veya kalp hastalığınız var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_04_line3.mp3"
                 },
                 {
                     "speaker": "Patient Meier",
@@ -1026,7 +1080,8 @@
                         "hi": "नहीं, न तो मधुमेह और न ही हृदय रोग।",
                         "ur": "نہیں، نہ تو ذیابیطس اور نہ ہی دل کی بیماری۔",
                         "tr": "Hayır, ne diyabet ne de kalp hastalığı."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_04_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Schmidt",
@@ -1038,7 +1093,8 @@
                         "hi": "अच्छा, तो सब कुछ नोट कर लिया गया है। धन्यवाद, श्रीमती मायर!",
                         "ur": "اچھا، تو سب کچھ نوٹ کر لیا گیا ہے۔ شکریہ، محترمہ میئر!",
                         "tr": "Güzel, o zaman her şey not edildi. Teşekkür ederim, Bayan Meier!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_04_line5.mp3"
                 }
             ],
             "id": "d15_04"
@@ -1069,7 +1125,8 @@
                         "hi": "शुभ दिन, श्रीमान श्मिट। क्या आप मुझे बता सकते हैं कि आपके पास कौन से टीकाकरण हैं?",
                         "ur": "شب بخیر، مسٹر شمٹ۔ کیا آپ مجھے بتا سکتے ہیں کہ آپ کے پاس کون سی ویکسینیشن ہیں؟",
                         "tr": "İyi günler, Bay Schmidt. Bana hangi aşılarınızın olduğunu söyleyebilir misiniz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_05_line1.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -1081,7 +1138,8 @@
                         "hi": "मुझे टेटनस, पोलियो और फ्लू के खिलाफ टीका लगाया गया है। लेकिन मेरा टीकाकरण कार्ड घर पर है।",
                         "ur": "مجھے تشنج، پولیو اور فلو کے خلاف ٹیکہ لگایا گیا ہے۔ لیکن میرا ویکسینیشن کارڈ گھر پر ہے۔",
                         "tr": "Tetanoz, çocuk felci ve grip aşısı oldum. Ancak aşı kartım evde."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_05_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -1093,7 +1151,8 @@
                         "hi": "कोई दिक्कत नहीं है। क्या आप जानते हैं कि आपको आखिरी टेटनस का शॉट कब लगा था?",
                         "ur": "کوئی مسئلہ نہیں ہے۔ کیا آپ جانتے ہیں کہ آپ نے اپنا آخری تشنج شاٹ کب لیا تھا؟",
                         "tr": "Sorun değil. Son tetanoz aşınızı ne zaman olduğunuzu biliyor musunuz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_05_line3.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -1105,7 +1164,8 @@
                         "hi": "मुझे लगता है कि लगभग आठ साल पहले।",
                         "ur": "میرے خیال میں تقریباً آٹھ سال پہلے۔",
                         "tr": "Sanırım yaklaşık sekiz yıl önce."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_05_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -1117,7 +1177,8 @@
                         "hi": "ठीक है, तो मैं इसे लिख लेता हूँ। धन्यवाद!",
                         "ur": "ٹھیک ہے، تو میں اسے لکھ لیتا ہوں۔ شکریہ!",
                         "tr": "Tamam, o zaman not edeceğim. Teşekkür ederim!"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_15/dialogues/d15_05_line5.mp3"
                 }
             ],
             "id": "d15_05"

@@ -32,30 +32,12 @@
             "de": "In diesem Abschnitt lernen Sie, wie man grundlegende Symptome auf Deutsch beschreibt. Sie erwerben den Wortschatz, der notwendig ist, um effektiv mit deutschsprachigen Patienten über ihre Beschwerden zu kommunizieren."
         },
         "grammarFocus": {
-            "en": [
-                "Use of accusative and dative cases with verbs related to pain (e.g., *Ich habe Schmerzen im Bauch*).",
-                "Adjective endings when describing symptoms (e.g., *starker Husten*, *hohes Fieber*)."
-            ],
-            "bn": [
-                "ব্যথার সাথে সম্পর্কিত ক্রিয়াগুলির সাথে accusative এবং dative cases ব্যবহার (যেমন, *Ich habe Schmerzen im Bauch*)।",
-                "লক্ষণ বর্ণনা করার সময় বিশেষণ শেষ (যেমন, *starker Husten*, *hohes Fieber*)।"
-            ],
-            "hi": [
-                "दर्द से संबंधित क्रियाओं के साथ accusative और dative cases का उपयोग (उदाहरण के लिए, *Ich habe Schmerzen im Bauch*)।",
-                "लक्षणों का वर्णन करते समय विशेषण अंत (उदाहरण के लिए, *starker Husten*, *hohes Fieber*)।"
-            ],
-            "ur": [
-                "درد سے متعلق افعال کے ساتھ accusative اور dative cases کا استعمال (مثال کے طور پر، *Ich habe Schmerzen im Bauch*)۔",
-                "علامات کی وضاحت کرتے وقت صفت کے آخر (مثال کے طور پر، *starker Husten*, *hohes Fieber*)۔"
-            ],
-            "tr": [
-                "Ağrı ile ilgili fiillerle accusative ve dative durumlarının kullanımı (örneğin, *Ich habe Schmerzen im Bauch*).",
-                "Semptomları tanımlarken sıfatların sonları (örneğin, *starker Husten*, *hohes Fieber*)."
-            ],
-            "de": [
-                "Verwendung von Akkusativ und Dativ bei Verben im Zusammenhang mit Schmerzen (z.B. *Ich habe Schmerzen im Bauch*).",
-                "Adjektivendungen bei der Beschreibung von Symptomen (z.B. *starker Husten*, *hohes Fieber*)."
-            ]
+            "en": "**Describing Symptoms: Adjective Endings and Sentence Patterns**\n\nWhen patients describe symptoms, specific grammar patterns are used in German.\n\n*Symptom Description Patterns:*\n- 'Ich habe Schmerzen.' (I have pain.) - noun\n- 'Mir ist schlecht.' (I feel nauseous.) - dative construction\n- 'Es tut weh.' (It hurts.) - verb\n\n**Adjective Endings for Symptoms:**\n| Article Type | Masculine | Feminine | Neuter | Plural |\n|--------------|-----------|----------|--------|--------|\n| Definite | der starke Schmerz | die starke Übelkeit | das starke Fieber | die starken Kopfschmerzen |\n| Indefinite | ein starker Schmerz | eine starke Übelkeit | ein starkes Fieber | starke Kopfschmerzen |\n\n*Body Part + Symptom Construction:*\n- 'Ich habe Kopfschmerzen.' (I have a headache.)\n- 'Ich habe Bauchschmerzen.' (I have stomach pain.)\n- 'Ich habe Rückenschmerzen.' (I have back pain.)\n\n**Important Dative Constructions:**\nThese expressions use dative case for the person:\n- 'Mir ist übel.' (I feel nauseous.) - literally: \"To me is nauseous\"\n- 'Mir ist schwindelig.' (I feel dizzy.)\n- 'Mir ist kalt/warm.' (I am cold/warm.)\n- 'Mir geht es nicht gut.' (I don't feel well.)\n\n*Questions About Symptoms:*\n- 'Was für Beschwerden haben Sie?' (What kind of complaints do you have?)\n- 'Wo tut es weh?' (Where does it hurt?)\n- 'Seit wann haben Sie diese Symptome?' (Since when do you have these symptoms?)\n- 'Wie stark sind die Schmerzen von 1 bis 10?' (How severe is the pain from 1 to 10?)",
+            "de": "**Symptome beschreiben: Adjektivendungen und Satzmuster**\n\nWenn Patienten Symptome beschreiben, werden spezifische Grammatikmuster im Deutschen verwendet.\n\n*Symptombeschreibungsmuster:*\n- 'Ich habe Schmerzen.' - Substantiv\n- 'Mir ist schlecht.' - Dativkonstruktion\n- 'Es tut weh.' - Verb\n\n**Adjektivendungen für Symptome:**\n| Artikelart | Maskulin | Feminin | Neutral | Plural |\n|------------|----------|---------|---------|--------|\n| Bestimmt | der starke Schmerz | die starke Übelkeit | das starke Fieber | die starken Kopfschmerzen |\n| Unbestimmt | ein starker Schmerz | eine starke Übelkeit | ein starkes Fieber | starke Kopfschmerzen |\n\n*Körperteil + Symptom Konstruktion:*\n- 'Ich habe Kopfschmerzen.'\n- 'Ich habe Bauchschmerzen.'\n- 'Ich habe Rückenschmerzen.'\n\n**Wichtige Dativkonstruktionen:**\nDiese Ausdrücke verwenden den Dativ für die Person:\n- 'Mir ist übel.' - wörtlich: \"Mir ist übel\"\n- 'Mir ist schwindelig.'\n- 'Mir ist kalt/warm.'\n- 'Mir geht es nicht gut.'\n\n*Fragen zu Symptomen:*\n- 'Was für Beschwerden haben Sie?'\n- 'Wo tut es weh?'\n- 'Seit wann haben Sie diese Symptome?'\n- 'Wie stark sind die Schmerzen von 1 bis 10?'",
+            "bn": "**Describing Symptoms: Adjective Endings and Sentence Patterns**\n\nWhen patients describe symptoms, specific grammar patterns are used in German.\n\n*Symptom Description Patterns:*\n- 'Ich habe Schmerzen.' (I have pain.) - noun\n- 'Mir ist schlecht.' (I feel nauseous.) - dative construction\n- 'Es tut weh.' (It hurts.) - verb\n\n**Adjective Endings for Symptoms:**\n| Article Type | Masculine | Feminine | Neuter | Plural |\n|--------------|-----------|----------|--------|--------|\n| Definite | der starke Schmerz | die starke Übelkeit | das starke Fieber | die starken Kopfschmerzen |\n| Indefinite | ein starker Schmerz | eine starke Übelkeit | ein starkes Fieber | starke Kopfschmerzen |\n\n*Body Part + Symptom Construction:*\n- 'Ich habe Kopfschmerzen.' (I have a headache.)\n- 'Ich habe Bauchschmerzen.' (I have stomach pain.)\n- 'Ich habe Rückenschmerzen.' (I have back pain.)\n\n**Important Dative Constructions:**\nThese expressions use dative case for the person:\n- 'Mir ist übel.' (I feel nauseous.) - literally: \"To me is nauseous\"\n- 'Mir ist schwindelig.' (I feel dizzy.)\n- 'Mir ist kalt/warm.' (I am cold/warm.)\n- 'Mir geht es nicht gut.' (I don't feel well.)\n\n*Questions About Symptoms:*\n- 'Was für Beschwerden haben Sie?' (What kind of complaints do you have?)\n- 'Wo tut es weh?' (Where does it hurt?)\n- 'Seit wann haben Sie diese Symptome?' (Since when do you have these symptoms?)\n- 'Wie stark sind die Schmerzen von 1 bis 10?' (How severe is the pain from 1 to 10?)",
+            "hi": "**Describing Symptoms: Adjective Endings and Sentence Patterns**\n\nWhen patients describe symptoms, specific grammar patterns are used in German.\n\n*Symptom Description Patterns:*\n- 'Ich habe Schmerzen.' (I have pain.) - noun\n- 'Mir ist schlecht.' (I feel nauseous.) - dative construction\n- 'Es tut weh.' (It hurts.) - verb\n\n**Adjective Endings for Symptoms:**\n| Article Type | Masculine | Feminine | Neuter | Plural |\n|--------------|-----------|----------|--------|--------|\n| Definite | der starke Schmerz | die starke Übelkeit | das starke Fieber | die starken Kopfschmerzen |\n| Indefinite | ein starker Schmerz | eine starke Übelkeit | ein starkes Fieber | starke Kopfschmerzen |\n\n*Body Part + Symptom Construction:*\n- 'Ich habe Kopfschmerzen.' (I have a headache.)\n- 'Ich habe Bauchschmerzen.' (I have stomach pain.)\n- 'Ich habe Rückenschmerzen.' (I have back pain.)\n\n**Important Dative Constructions:**\nThese expressions use dative case for the person:\n- 'Mir ist übel.' (I feel nauseous.) - literally: \"To me is nauseous\"\n- 'Mir ist schwindelig.' (I feel dizzy.)\n- 'Mir ist kalt/warm.' (I am cold/warm.)\n- 'Mir geht es nicht gut.' (I don't feel well.)\n\n*Questions About Symptoms:*\n- 'Was für Beschwerden haben Sie?' (What kind of complaints do you have?)\n- 'Wo tut es weh?' (Where does it hurt?)\n- 'Seit wann haben Sie diese Symptome?' (Since when do you have these symptoms?)\n- 'Wie stark sind die Schmerzen von 1 bis 10?' (How severe is the pain from 1 to 10?)",
+            "ur": "**Describing Symptoms: Adjective Endings and Sentence Patterns**\n\nWhen patients describe symptoms, specific grammar patterns are used in German.\n\n*Symptom Description Patterns:*\n- 'Ich habe Schmerzen.' (I have pain.) - noun\n- 'Mir ist schlecht.' (I feel nauseous.) - dative construction\n- 'Es tut weh.' (It hurts.) - verb\n\n**Adjective Endings for Symptoms:**\n| Article Type | Masculine | Feminine | Neuter | Plural |\n|--------------|-----------|----------|--------|--------|\n| Definite | der starke Schmerz | die starke Übelkeit | das starke Fieber | die starken Kopfschmerzen |\n| Indefinite | ein starker Schmerz | eine starke Übelkeit | ein starkes Fieber | starke Kopfschmerzen |\n\n*Body Part + Symptom Construction:*\n- 'Ich habe Kopfschmerzen.' (I have a headache.)\n- 'Ich habe Bauchschmerzen.' (I have stomach pain.)\n- 'Ich habe Rückenschmerzen.' (I have back pain.)\n\n**Important Dative Constructions:**\nThese expressions use dative case for the person:\n- 'Mir ist übel.' (I feel nauseous.) - literally: \"To me is nauseous\"\n- 'Mir ist schwindelig.' (I feel dizzy.)\n- 'Mir ist kalt/warm.' (I am cold/warm.)\n- 'Mir geht es nicht gut.' (I don't feel well.)\n\n*Questions About Symptoms:*\n- 'Was für Beschwerden haben Sie?' (What kind of complaints do you have?)\n- 'Wo tut es weh?' (Where does it hurt?)\n- 'Seit wann haben Sie diese Symptome?' (Since when do you have these symptoms?)\n- 'Wie stark sind die Schmerzen von 1 bis 10?' (How severe is the pain from 1 to 10?)",
+            "tr": "**Describing Symptoms: Adjective Endings and Sentence Patterns**\n\nWhen patients describe symptoms, specific grammar patterns are used in German.\n\n*Symptom Description Patterns:*\n- 'Ich habe Schmerzen.' (I have pain.) - noun\n- 'Mir ist schlecht.' (I feel nauseous.) - dative construction\n- 'Es tut weh.' (It hurts.) - verb\n\n**Adjective Endings for Symptoms:**\n| Article Type | Masculine | Feminine | Neuter | Plural |\n|--------------|-----------|----------|--------|--------|\n| Definite | der starke Schmerz | die starke Übelkeit | das starke Fieber | die starken Kopfschmerzen |\n| Indefinite | ein starker Schmerz | eine starke Übelkeit | ein starkes Fieber | starke Kopfschmerzen |\n\n*Body Part + Symptom Construction:*\n- 'Ich habe Kopfschmerzen.' (I have a headache.)\n- 'Ich habe Bauchschmerzen.' (I have stomach pain.)\n- 'Ich habe Rückenschmerzen.' (I have back pain.)\n\n**Important Dative Constructions:**\nThese expressions use dative case for the person:\n- 'Mir ist übel.' (I feel nauseous.) - literally: \"To me is nauseous\"\n- 'Mir ist schwindelig.' (I feel dizzy.)\n- 'Mir ist kalt/warm.' (I am cold/warm.)\n- 'Mir geht es nicht gut.' (I don't feel well.)\n\n*Questions About Symptoms:*\n- 'Was für Beschwerden haben Sie?' (What kind of complaints do you have?)\n- 'Wo tut es weh?' (Where does it hurt?)\n- 'Seit wann haben Sie diese Symptome?' (Since when do you have these symptoms?)\n- 'Wie stark sind die Schmerzen von 1 bis 10?' (How severe is the pain from 1 to 10?)"
         },
         "culturalNotes": {
             "en": "In German hospitals, it is common for patients to proactively describe their symptoms in detail to the doctor; direct and specific communication is valued.",
@@ -73,12 +55,38 @@
             "tr": "Bu bölüm size tıbbi bir bağlamda Almanca'da temel semptomları tartışmak için gerekli kelime dağarcığını ve kültürel bilgileri sağlamıştır.",
             "de": "Dieser Abschnitt hat Ihnen das wesentliche Vokabular und kulturelle Einblicke für die Diskussion grundlegender Symptome auf Deutsch im medizinischen Kontext vermittelt."
         },
-        "learningObjectives": [
-            "Identify and understand German vocabulary for common symptoms.",
-            "Formulate simple sentences describing symptoms in German.",
-            "Understand relevant grammatical structures for describing pain and other sensations.",
-            "Apply cultural knowledge to effectively communicate with German-speaking patients."
-        ]
+        "learningObjectives": {
+            "en": [
+                "Identify and understand German vocabulary for common symptoms.",
+                "Formulate simple sentences describing symptoms in German.",
+                "Understand relevant grammatical structures for describing pain and other sensations.",
+                "Apply cultural knowledge to effectively communicate with German-speaking patients."
+            ],
+            "bn": [
+                "Identify and বুঝুন German vocabulary for common symptoms.",
+                "Formulate simple sentences describing symptoms in German.",
+                "বুঝুন relevant grammatical structures for describing pain and other sensations.",
+                "প্রয়োগ করুন cultural knowledge to effectively communicate with German-speaking patients."
+            ],
+            "hi": [
+                "Identify and समझें German vocabulary for common symptoms.",
+                "Formulate simple sentences describing symptoms in German.",
+                "समझें relevant grammatical structures for describing pain and other sensations.",
+                "लागू करें cultural knowledge to effectively communicate with German-speaking patients."
+            ],
+            "ur": [
+                "Identify and سمجھیں German vocabulary for common symptoms.",
+                "Formulate simple sentences describing symptoms in German.",
+                "سمجھیں relevant grammatical structures for describing pain and other sensations.",
+                "لاگو کریں cultural knowledge to effectively communicate with German-speaking patients."
+            ],
+            "tr": [
+                "Identify and Anlayın German vocabulary for common symptoms.",
+                "Formulate simple sentences describing symptoms in German.",
+                "Anlayın relevant grammatical structures for describing pain and other sensations.",
+                "Uygulayın cultural knowledge to effectively communicate with German-speaking patients."
+            ]
+        }
     },
     "vocabulary": [
         {
@@ -102,7 +110,8 @@
                 "ur": "مریض سینے کے علاقے میں شدید درد کی شکایت کر رہا ہے۔",
                 "tr": "Hasta göğüs bölgesinde şiddetli ağrıdan şikayet ediyor."
             },
-            "id": "v10_01"
+            "id": "v10_01",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_01.mp3"
         },
         {
             "germanTerm": "das Fieber",
@@ -125,7 +134,8 @@
                 "ur": "مریض کا بخار 39 ڈگری سینٹی گریڈ ہے۔",
                 "tr": "Hastanın ateşi 39 derece Celcius."
             },
-            "id": "v10_02"
+            "id": "v10_02",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_02.mp3"
         },
         {
             "germanTerm": "der Husten",
@@ -148,7 +158,8 @@
                 "ur": "مریض کو تین دن سے خشک کھانسی ہے۔",
                 "tr": "Hastanın üç gündür kuru öksürüğü var."
             },
-            "id": "v10_03"
+            "id": "v10_03",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_03.mp3"
         },
         {
             "germanTerm": "die Übelkeit",
@@ -171,7 +182,8 @@
                 "ur": "مریض متلی اور قے کی شکایت کر رہا ہے۔",
                 "tr": "Hasta bulantı ve kusmadan şikayet ediyor."
             },
-            "id": "v10_04"
+            "id": "v10_04",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_04.mp3"
         },
         {
             "germanTerm": "das Erbrechen",
@@ -194,7 +206,8 @@
                 "ur": "دوا لینے کے فوراً بعد قے ہوئی۔",
                 "tr": "Kusma, ilacı aldıktan hemen sonra meydana geldi."
             },
-            "id": "v10_05"
+            "id": "v10_05",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_05.mp3"
         },
         {
             "germanTerm": "der Durchfall",
@@ -217,7 +230,8 @@
                 "ur": "مریض کل شام سے شدید اسہال میں مبتلا ہے۔",
                 "tr": "Hasta dün akşamdan beri şiddetli ishalden muzdarip."
             },
-            "id": "v10_06"
+            "id": "v10_06",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_06.mp3"
         },
         {
             "germanTerm": "der Schwindel",
@@ -240,7 +254,8 @@
                 "ur": "مریض چکر آنے کو سر چکرانے کے طور پر بیان کرتا ہے۔",
                 "tr": "Hasta baş dönmesini vertigo olarak tanımlıyor."
             },
-            "id": "v10_07"
+            "id": "v10_07",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_07.mp3"
         },
         {
             "germanTerm": "die Müdigkeit",
@@ -263,7 +278,8 @@
                 "ur": "تھکاوٹ اس بیماری میں ایک عام علامت ہے۔",
                 "tr": "Yorgunluk bu hastalıkta yaygın bir semptomdur."
             },
-            "id": "v10_08"
+            "id": "v10_08",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_08.mp3"
         },
         {
             "germanTerm": "schmerzhaft",
@@ -286,7 +302,8 @@
                 "ur": "زخم بہت دردناک ہے۔",
                 "tr": "Yara çok ağrılı."
             },
-            "id": "v10_09"
+            "id": "v10_09",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_09.mp3"
         },
         {
             "germanTerm": "fiebrig",
@@ -309,7 +326,8 @@
                 "ur": "مریض بخار والا اور کمزور محسوس کر رہا ہے۔",
                 "tr": "Hasta ateşli ve zayıf hissediyor."
             },
-            "id": "v10_10"
+            "id": "v10_10",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_10.mp3"
         },
         {
             "germanTerm": "husten",
@@ -332,7 +350,8 @@
                 "ur": "مریض کو ایک ہفتے سے کھانسی ہو رہی ہے۔",
                 "tr": "Hasta bir haftadır öksürüyor."
             },
-            "id": "v10_11"
+            "id": "v10_11",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_11.mp3"
         },
         {
             "germanTerm": "sich übergeben",
@@ -355,7 +374,8 @@
                 "ur": "مریض نے کئی بار قے کی ہے۔",
                 "tr": "Hasta birkaç kez kustu."
             },
-            "id": "v10_12"
+            "id": "v10_12",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_12.mp3"
         },
         {
             "germanTerm": "Durchfall haben",
@@ -378,7 +398,8 @@
                 "ur": "مریض کو آج صبح سے اسہال ہے۔",
                 "tr": "Hastanın bu sabahtan beri ishali var."
             },
-            "id": "v10_13"
+            "id": "v10_13",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_13.mp3"
         },
         {
             "germanTerm": "schwindlig",
@@ -401,7 +422,8 @@
                 "ur": "جب میں اٹھتا ہوں تو مجھے چکر آتے ہیں۔",
                 "tr": "Kalkınca başım dönüyor."
             },
-            "id": "v10_14"
+            "id": "v10_14",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_14.mp3"
         },
         {
             "germanTerm": "müde",
@@ -424,7 +446,8 @@
                 "ur": "مریض بہت تھکا ہوا اور ختم شدہ محسوس کر رہا ہے۔",
                 "tr": "Hasta çok yorgun ve bitkin hissediyor."
             },
-            "id": "v10_15"
+            "id": "v10_15",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_15.mp3"
         },
         {
             "germanTerm": "der Kopfschmerz",
@@ -447,7 +470,8 @@
                 "ur": "مریض شدید سر درد کی شکایت کرتا ہے۔",
                 "tr": "Hasta şiddetli baş ağrısından şikayet ediyor."
             },
-            "id": "v10_16"
+            "id": "v10_16",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_16.mp3"
         },
         {
             "germanTerm": "der Bauchschmerz",
@@ -470,7 +494,8 @@
                 "ur": "مریض کو کل سے پیٹ درد ہے۔",
                 "tr": "Hastanın dünden beri karın ağrısı var."
             },
-            "id": "v10_17"
+            "id": "v10_17",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_17.mp3"
         },
         {
             "germanTerm": "die Appetitlosigkeit",
@@ -493,7 +518,8 @@
                 "ur": "بھوک کی کمی بہت سی بیماریوں میں ایک عام علامت ہے۔",
                 "tr": "İştahsızlık birçok hastalıkta yaygın bir semptomdur."
             },
-            "id": "v10_18"
+            "id": "v10_18",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_18.mp3"
         },
         {
             "germanTerm": "die Schlaflosigkeit",
@@ -516,7 +542,8 @@
                 "ur": "مریض کئی ہفتوں سے بے خوابی کا شکار ہے۔",
                 "tr": "Hasta birkaç haftadır uykusuzluktan muzdarip."
             },
-            "id": "v10_19"
+            "id": "v10_19",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_19.mp3"
         },
         {
             "germanTerm": "das Unwohlsein",
@@ -539,7 +566,8 @@
                 "ur": "مریض عام بے آرامی کی شکایت کرتا ہے۔",
                 "tr": "Hasta genel bir halsizlikten şikayet ediyor."
             },
-            "id": "v10_20"
+            "id": "v10_20",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_20.mp3"
         },
         {
             "germanTerm": "die Gliederschmerzen",
@@ -562,7 +590,8 @@
                 "ur": "فلو ہونے پر اکثر جسم میں درد ہوتا ہے۔",
                 "tr": "Gripte sıklıkla vücut ağrıları olur."
             },
-            "id": "v10_21"
+            "id": "v10_21",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_21.mp3"
         },
         {
             "germanTerm": "der Nachtschweiß",
@@ -585,7 +614,8 @@
                 "ur": "مریض رات کو شدید پسینے کی شکایت کرتا ہے۔",
                 "tr": "Hasta şiddetli gece terlemesinden bahsediyor."
             },
-            "id": "v10_22"
+            "id": "v10_22",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_22.mp3"
         },
         {
             "germanTerm": "die Atemnot",
@@ -608,7 +638,8 @@
                 "ur": "مریض مشقت کرنے پر سانس کی قلت کی شکایت کرتا ہے۔",
                 "tr": "Hasta efor sarf ettiğinde nefes darlığından şikayet ediyor."
             },
-            "id": "v10_23"
+            "id": "v10_23",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_23.mp3"
         },
         {
             "germanTerm": "das Krankheitsgefühl",
@@ -631,7 +662,8 @@
                 "ur": "مریض بیماری کے ایک عام احساس کو بیان کرتا ہے۔",
                 "tr": "Hasta genel bir hastalık hissi tarif ediyor."
             },
-            "id": "v10_24"
+            "id": "v10_24",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_24.mp3"
         },
         {
             "germanTerm": "die Verstopfung",
@@ -654,7 +686,8 @@
                 "ur": "مریض قبض کا شکار ہے۔",
                 "tr": "Hasta kabızlıktan muzdarip."
             },
-            "id": "v10_25"
+            "id": "v10_25",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_25.mp3"
         },
         {
             "germanTerm": "der Reizhusten",
@@ -677,7 +710,8 @@
                 "ur": "مریض ایک مستقل پریشان کن کھانسی کی شکایت کرتا ہے۔",
                 "tr": "Hasta sürekli rahatsız edici bir öksürükten şikayet ediyor."
             },
-            "id": "v10_26"
+            "id": "v10_26",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_26.mp3"
         },
         {
             "germanTerm": "der Auswurf",
@@ -700,7 +734,8 @@
                 "ur": "براہ کرم مریض کے بلغم کا معائنہ کریں۔",
                 "tr": "Lütfen hastanın balgamını inceleyin."
             },
-            "id": "v10_27"
+            "id": "v10_27",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_27.mp3"
         },
         {
             "germanTerm": "sich fühlen",
@@ -723,7 +758,8 @@
                 "ur": "آج آپ کیسا محسوس کر رہے ہیں؟",
                 "tr": "Bugün nasıl hissediyorsunuz?"
             },
-            "id": "v10_28"
+            "id": "v10_28",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_28.mp3"
         },
         {
             "germanTerm": "die Schwäche",
@@ -746,7 +782,8 @@
                 "ur": "مریض عام کمزوری کی شکایت کرتا ہے۔",
                 "tr": "Hasta genel bir zayıflıktan şikayet ediyor."
             },
-            "id": "v10_29"
+            "id": "v10_29",
+            "audioUrl": "assets/audio/sections/section_10/vocabulary/v10_29.mp3"
         }
     ],
     "dialogues": [
@@ -776,7 +813,8 @@
                         "hi": "सुप्रभात, डॉक्टर। मुझे कल से मेरे पेट में तेज़ दर्द हो रहा है।",
                         "ur": "صبح بخیر ڈاکٹر۔ مجھے کل سے میرے پیٹ میں شدید درد ہو رہا ہے۔",
                         "tr": "Günaydın doktor. Dünden beri karnımda şiddetli ağrılarım var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_01_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -788,7 +826,8 @@
                         "hi": "सुप्रभात, श्री मूलर। क्या आप मुझे अधिक सटीक रूप से बता सकते हैं कि दर्द ठीक कहाँ स्थित है और यह कैसा लगता है?",
                         "ur": "صبح بخیر، مسٹر مولر۔ کیا آپ مجھے زیادہ واضح طور پر بتا سکتے ہیں کہ درد ٹھیک کہاں واقع ہے اور یہ کیسا محسوس ہوتا ہے؟",
                         "tr": "Günaydın Bay Müller. Bana tam olarak ağrının nerede olduğunu ve nasıl hissettirdiğini daha ayrıntılı anlatabilir misiniz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_01_line2.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -800,7 +839,8 @@
                         "hi": "यह निचले पेट में है और ऐंठन जैसा है। और मुझे थोड़ा जी मिचला रहा है।",
                         "ur": "یہ پیٹ کے نچلے حصے میں اور اینٹھن کی طرح ہے۔ اور مجھے تھوڑی متلی ہو رہی ہے۔",
                         "tr": "Daha çok alt karın bölgesinde ve kramp şeklinde. Ve biraz midem bulanıyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_01_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -812,7 +852,8 @@
                         "hi": "क्या आपको बुखार या दस्त भी है?",
                         "ur": "کیا آپ کو بخار یا دست بھی ہے؟",
                         "tr": "Ateşiniz veya ishaliniz de var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_01_line4.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -824,7 +865,8 @@
                         "hi": "नहीं, मुझे बुखार नहीं है, लेकिन मुझे आज सुबह एक बार दस्त हुआ था।",
                         "ur": "نہیں، مجھے بخار نہیں ہے، لیکن مجھے آج صبح ایک بار دست آیا تھا۔",
                         "tr": "Hayır, ateşim yok ama bu sabah bir kez ishal oldum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_01_line5.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -836,7 +878,8 @@
                         "hi": "ठीक है। तो फिर मैं अब आपके पेट की जाँच करूँगा।",
                         "ur": "ٹھیک ہے۔ تو پھر میں اب آپ کے پیٹ کی جانچ کروں گا۔",
                         "tr": "Tamam. O zaman şimdi karnınızı muayene edeceğim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_01_line6.mp3"
                 }
             ],
             "id": "d10_01"
@@ -867,7 +910,8 @@
                         "hi": "शुभ दिन, श्रीमती क्लेन। आज आपको क्या यहाँ लाया है?",
                         "ur": "شب بخیر، محترمہ کلین۔ آپ کو آج یہاں کیا چیز لائی ہے؟",
                         "tr": "İyi günler, Bayan Klein. Bugün sizi buraya getiren nedir?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_02_line1.mp3"
                 },
                 {
                     "speaker": "Patient Klein",
@@ -879,7 +923,8 @@
                         "hi": "मुझे दो दिनों से बुखार और तेज़ खांसी है।",
                         "ur": "مجھے دو دنوں سے بخار اور تیز کھانسی ہے۔",
                         "tr": "İki gündür ateşim ve şiddetli öksürüğüm var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_02_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -891,7 +936,8 @@
                         "hi": "मैं आपका तापमान नापती हूँ। हाँ, 38.5 डिग्री। क्या आपको गले में खराश भी है?",
                         "ur": "میں آپ کا درجہ حرارت ناپتی ہوں۔ ہاں، 38.5 ڈگری۔ کیا آپ کو گلے میں بھی خراش ہے؟",
                         "tr": "Bir ateşinizi ölçeyim. Evet, 38.5 derece. Boğaz ağrınız da var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_02_line3.mp3"
                 },
                 {
                     "speaker": "Patient Klein",
@@ -903,7 +949,8 @@
                         "hi": "हाँ, थोड़ा। और मुझे बहुत थकान महसूस हो रही है।",
                         "ur": "ہاں، تھوڑا سا۔ اور مجھے بہت تھکن محسوس ہو رہی ہے۔",
                         "tr": "Evet, biraz. Ve kendimi çok yorgun hissediyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_02_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -915,7 +962,8 @@
                         "hi": "ठीक है, मैं डॉक्टर को बताती हूँ। कृपया यहाँ प्रतीक्षा करें।",
                         "ur": "ٹھیک ہے، میں ڈاکٹر کو بتاتی ہوں۔ براہ کرم یہاں انتظار کریں۔",
                         "tr": "Tamam, doktoru bilgilendireceğim. Lütfen burada bekleyin."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_02_line5.mp3"
                 }
             ],
             "id": "d10_02"
@@ -946,7 +994,8 @@
                         "hi": "डॉक्टर, मुझे आज सुबह से बहुत जी मिचला रहा है और मुझे कई बार उल्टी करनी पड़ी।",
                         "ur": "ڈاکٹر، مجھے آج صبح سے بہت متلی ہو رہی ہے اور مجھے کئی بار قے کرنی پڑی۔",
                         "tr": "Doktor, bu sabahtan beri midem çok bulanıyor ve birkaç kez kustum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_03_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -958,7 +1007,8 @@
                         "hi": "क्या आपको पेट दर्द या दस्त भी है?",
                         "ur": "کیا آپ کو پیٹ میں درد یا دست بھی ہے؟",
                         "tr": "Karın ağrınız veya ishaliniz de var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_03_line2.mp3"
                 },
                 {
                     "speaker": "Patient Schulz",
@@ -970,7 +1020,8 @@
                         "hi": "नहीं, मुझे पेट दर्द नहीं है, लेकिन मुझे बहुत कमजोरी महसूस हुई है।",
                         "ur": "نہیں، مجھے پیٹ میں درد نہیں ہے، لیکن مجھے بہت کمزوری محسوس ہوئی ہے۔",
                         "tr": "Hayır, karın ağrım yok ama kendimi çok güçsüz hissettim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_03_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -982,7 +1033,8 @@
                         "hi": "क्या आपने कुछ असामान्य खाया है?",
                         "ur": "کیا آپ نے کچھ غیر معمولی کھایا ہے؟",
                         "tr": "Alışılmadık bir şey yedin mi?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_03_line4.mp3"
                 },
                 {
                     "speaker": "Patient Schulz",
@@ -994,7 +1046,8 @@
                         "hi": "वास्तव में नहीं। मैंने बस कल रात एक पिज्जा खाया था।",
                         "ur": "دراصل نہیں۔ میں نے بس کل رات ایک پیزا کھایا تھا۔",
                         "tr": "Aslında değil. Sadece dün gece bir pizza yedim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_03_line5.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -1006,7 +1059,8 @@
                         "hi": "ठीक है, कारण का पता लगाने के लिए हम कुछ परीक्षण करेंगे।",
                         "ur": "ٹھیک ہے، وجہ معلوم کرنے کے لیے ہم کچھ ٹیسٹ کریں گے۔",
                         "tr": "Tamam, nedeni bulmak için bazı testler yapacağız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_03_line6.mp3"
                 }
             ],
             "id": "d10_03"
@@ -1037,7 +1091,8 @@
                         "hi": "शुभ दिन, डॉक्टर। मैं कुछ समय से बहुत चक्कर आना और थका हुआ महसूस कर रहा हूँ।",
                         "ur": "شب بخیر، ڈاکٹر۔ میں کچھ عرصے سے بہت چکر آنا اور تھکا ہوا محسوس کر رہا ہوں۔",
                         "tr": "İyi günler doktor. Bir süredir kendimi çok başım dönüyor ve yorgun hissediyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_04_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Meier",
@@ -1049,7 +1104,8 @@
                         "hi": "शुभ दिन, श्रीमती वेबर। आपको ये लक्षण कब से हैं?",
                         "ur": "شب بخیر، محترمہ ویبر۔ آپ کو یہ علامات کب سے ہیں؟",
                         "tr": "İyi günler Bayan Weber. Bu şikayetleriniz ne zamandır var?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_04_line2.mp3"
                 },
                 {
                     "speaker": "Patient Weber",
@@ -1061,7 +1117,8 @@
                         "hi": "लगभग दो सप्ताह से। यह बदतर होता जा रहा है।",
                         "ur": "تقریباً دو ہفتوں سے۔ یہ بدتر ہوتا جا رہا ہے۔",
                         "tr": "Yaklaşık iki haftadır. Giderek kötüleşiyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_04_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Meier",
@@ -1073,7 +1130,8 @@
                         "hi": "क्या आपको सिरदर्द या दृष्टि संबंधी गड़बड़ी भी है?",
                         "ur": "کیا آپ کو سر درد یا بصارت میں بھی خلل ہے؟",
                         "tr": "Baş ağrınız veya görme bozukluklarınız da var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_04_line4.mp3"
                 },
                 {
                     "speaker": "Patient Weber",
@@ -1085,7 +1143,8 @@
                         "hi": "नहीं, मुझे सिरदर्द नहीं है, लेकिन कभी-कभी मेरी दृष्टि धुंधली हो जाती है।",
                         "ur": "نہیں، مجھے سر درد نہیں ہے، لیکن بعض اوقات میری بینائی دھندلی ہو جاتی ہے۔",
                         "tr": "Hayır, baş ağrım yok ama bazen görüşüm bulanıklaşıyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_04_line5.mp3"
                 },
                 {
                     "speaker": "Dr. Meier",
@@ -1097,7 +1156,8 @@
                         "hi": "कारण का पता लगाने के लिए हम कुछ तंत्रिका संबंधी परीक्षण करेंगे।",
                         "ur": "وجہ معلوم کرنے کے لیے ہم کچھ عصبی ٹیسٹ کریں گے۔",
                         "tr": "Nedeni bulmak için bazı nörolojik testler yapacağız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_04_line6.mp3"
                 }
             ],
             "id": "d10_04"
@@ -1128,7 +1188,8 @@
                         "hi": "शुभ दिन, डॉक्टर। मुझे कुछ दिनों से खांसी है और सांस लेने में कठिनाई हो रही है।",
                         "ur": "شب بخیر، ڈاکٹر۔ مجھے کچھ دنوں سے کھانسی ہے اور مجھے سانس لینے میں دشواری ہو رہی ہے۔",
                         "tr": "İyi günler doktor. Birkaç gündür öksürüyorum ve nefes almakta zorlanıyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_05_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -1140,7 +1201,8 @@
                         "hi": "शुभ दिन, श्री लेहमन। क्या आपको बुखार है या सांस लेने पर दर्द होता है?",
                         "ur": "شب بخیر، مسٹر لیہمن۔ کیا آپ کو بخار ہے یا سانس لینے میں درد ہوتا ہے؟",
                         "tr": "İyi günler Bay Lehmann. Ateşiniz var mı veya nefes alırken ağrı hissediyor musunuz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_05_line2.mp3"
                 },
                 {
                     "speaker": "Patient Lehmann",
@@ -1152,7 +1214,8 @@
                         "hi": "मुझे बुखार नहीं है, लेकिन खांसी होने पर मेरी छाती में थोड़ा दर्द होता है।",
                         "ur": "مجھے بخار نہیں ہے، لیکن کھانستے وقت میرے سینے میں تھوڑا درد ہوتا ہے۔",
                         "tr": "Ateşim yok ama öksürürken göğsümde biraz ağrı oluyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_05_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -1164,7 +1227,8 @@
                         "hi": "ठीक है। मैं आपके फेफड़ों को सुनूंगा और एक ऑक्सीजन संतृप्ति माप लूंगा।",
                         "ur": "ٹھیک ہے۔ میں آپ کے پھیپھڑوں کو سنوں گا اور ایک آکسیجن سیچوریشن پیمائش کروں گا۔",
                         "tr": "Tamam. Akciğerlerinizi dinleyeceğim ve bir oksijen doygunluğu ölçümü yapacağım."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_05_line4.mp3"
                 },
                 {
                     "speaker": "Patient Lehmann",
@@ -1176,7 +1240,8 @@
                         "hi": "अच्छा, धन्यवाद।",
                         "ur": "اچھا، شکریہ۔",
                         "tr": "İyi, teşekkürler."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_05_line5.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -1188,7 +1253,8 @@
                         "hi": "आपका ऑक्सीजन संतृप्ति थोड़ा कम है। हम आपके फेफड़ों का एक एक्स-रे करेंगे।",
                         "ur": "آپ کی آکسیجن سیچوریشن تھوڑی کم ہے۔ ہم آپ کے پھیپھڑوں کا ایک ایکس رے کریں گے۔",
                         "tr": "Oksijen doygunluğunuz biraz düşük. Akciğerlerinizin röntgenini çekeceğiz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_10/dialogues/d10_05_line6.mp3"
                 }
             ],
             "id": "d10_05"

@@ -29,26 +29,12 @@
             "tr": "Bu bölümde, bir Alman hastanesinin temel bölümlerini, isimlerini ve işlevlerini inceleyeceğiz. Bu bölümleri Almanca olarak tanımlamayı ve açıklamayı öğreneceksiniz."
         },
         "grammarFocus": {
-            "en": [
-                "Nominative and accusative cases in describing location (e.g., 'Ich bin in der Notaufnahme.')",
-                "Use of prepositions with dative and accusative cases to indicate position or movement within a department."
-            ],
-            "bn": [
-                "অবস্থান বর্ণনা করার জন্য কর্তৃকারক এবং কর্ম কারকের ব্যবহার (যেমন, 'Ich bin in der Notaufnahme.')",
-                "একটি বিভাগের মধ্যে অবস্থান বা গতিবিধি নির্দেশ করতে কারক বিভক্তিযুক্ত অব্যয়গুলির ব্যবহার।"
-            ],
-            "hi": [
-                "स्थान का वर्णन करने में प्रथमा और द्वितीया विभक्ति (जैसे, 'Ich bin in der Notaufnahme.')",
-                "किसी विभाग के भीतर स्थिति या गति को इंगित करने के लिए कारक विभक्ति के साथ पूर्वसर्गों का उपयोग।"
-            ],
-            "ur": [
-                "مقام کی وضاحت میں فاعلی اور مفعولی حالتیں (مثال کے طور پر، 'Ich bin in der Notaufnahme.')",
-                "کسی شعبے کے اندر پوزیشن یا حرکت کی نشاندہی کرنے کے لیے اضافت کے ساتھ سابقوں کا استعمال۔"
-            ],
-            "tr": [
-                "Konum tarifinde yalın ve belirtme halleri (örneğin, 'Ich bin in der Notaufnahme.')",
-                "Bir bölüm içindeki konumu veya hareketi belirtmek için yönelme ve belirtme halleri ile edatların kullanımı."
-            ]
+            "en": "**Dative and Accusative Cases with Hospital Locations**\n\nGerman uses different cases depending on whether you describe a static location (Dative) or movement toward a location (Accusative).\n\n*Dative Case (Static Location) - answers 'wo?' (where?):*\n- 'Ich bin in der Notaufnahme.' (I am in the emergency room.)\n- 'Der Patient liegt auf der Intensivstation.' (The patient is in the ICU.)\n- 'Sie arbeitet in der Radiologie.' (She works in radiology.)\n\n*Accusative Case (Direction/Movement) - answers 'wohin?' (where to?):*\n- 'Bringen Sie den Patienten in die Notaufnahme.' (Bring the patient to the ER.)\n- 'Wir verlegen ihn auf die Intensivstation.' (We are transferring him to the ICU.)\n- 'Gehen Sie in den OP-Saal.' (Go to the operating room.)\n\n**Preposition 'in' - Two-Way Preposition:**\n| Context | Case | Article Changes | Example |\n|---------|------|-----------------|---------|\n| Location | Dative | der→dem, die→der, das→dem | in dem Krankenhaus (im) |\n| Direction | Accusative | der→den, die→die, das→das | in das Krankenhaus (ins) |\n\n*Common Medical Location Phrases:*\n- 'Auf welcher Station arbeiten Sie?' (Which ward do you work on?)\n- 'Der Patient wurde in die Kardiologie verlegt.' (The patient was transferred to cardiology.)\n- 'Die Untersuchung findet im Röntgenraum statt.' (The examination takes place in the X-ray room.)\n\n**Contractions are Common:**\n- in dem → im (im Krankenhaus)\n- in das → ins (ins Krankenhaus)\n- auf dem → auf der Station\n- auf das → auf die Station",
+            "de": "**Dativ und Akkusativ bei Krankenhausabteilungen**\n\nDeutsch verwendet verschiedene Fälle, je nachdem ob man einen statischen Ort (Dativ) oder eine Bewegung zu einem Ort (Akkusativ) beschreibt.\n\n*Dativ (statischer Ort) - beantwortet 'wo?':*\n- 'Ich bin in der Notaufnahme.'\n- 'Der Patient liegt auf der Intensivstation.'\n- 'Sie arbeitet in der Radiologie.'\n\n*Akkusativ (Richtung/Bewegung) - beantwortet 'wohin?':*\n- 'Bringen Sie den Patienten in die Notaufnahme.'\n- 'Wir verlegen ihn auf die Intensivstation.'\n- 'Gehen Sie in den OP-Saal.'\n\n**Präposition 'in' - Wechselpräposition:**\n| Kontext | Fall | Artikeländerungen | Beispiel |\n|---------|------|-------------------|----------|\n| Ort | Dativ | der→dem, die→der, das→dem | in dem Krankenhaus (im) |\n| Richtung | Akkusativ | der→den, die→die, das→das | in das Krankenhaus (ins) |\n\n*Häufige medizinische Ortsangaben:*\n- 'Auf welcher Station arbeiten Sie?'\n- 'Der Patient wurde in die Kardiologie verlegt.'\n- 'Die Untersuchung findet im Röntgenraum statt.'\n\n**Kontraktionen sind üblich:**\n- in dem → im (im Krankenhaus)\n- in das → ins (ins Krankenhaus)\n- auf dem → auf der Station\n- auf das → auf die Station",
+            "bn": "**Dative and Accusative Cases with Hospital Locations**\n\nGerman uses different cases depending on whether you describe a static location (Dative) or movement toward a location (Accusative).\n\n*Dative Case (Static Location) - answers 'wo?' (where?):*\n- 'Ich bin in der Notaufnahme.' (I am in the emergency room.)\n- 'Der Patient liegt auf der Intensivstation.' (The patient is in the ICU.)\n- 'Sie arbeitet in der Radiologie.' (She works in radiology.)\n\n*Accusative Case (Direction/Movement) - answers 'wohin?' (where to?):*\n- 'Bringen Sie den Patienten in die Notaufnahme.' (Bring the patient to the ER.)\n- 'Wir verlegen ihn auf die Intensivstation.' (We are transferring him to the ICU.)\n- 'Gehen Sie in den OP-Saal.' (Go to the operating room.)\n\n**Preposition 'in' - Two-Way Preposition:**\n| Context | Case | Article Changes | Example |\n|---------|------|-----------------|---------|\n| Location | Dative | der→dem, die→der, das→dem | in dem Krankenhaus (im) |\n| Direction | Accusative | der→den, die→die, das→das | in das Krankenhaus (ins) |\n\n*Common Medical Location Phrases:*\n- 'Auf welcher Station arbeiten Sie?' (Which ward do you work on?)\n- 'Der Patient wurde in die Kardiologie verlegt.' (The patient was transferred to cardiology.)\n- 'Die Untersuchung findet im Röntgenraum statt.' (The examination takes place in the X-ray room.)\n\n**Contractions are Common:**\n- in dem → im (im Krankenhaus)\n- in das → ins (ins Krankenhaus)\n- auf dem → auf der Station\n- auf das → auf die Station",
+            "hi": "**Dative and Accusative Cases with Hospital Locations**\n\nGerman uses different cases depending on whether you describe a static location (Dative) or movement toward a location (Accusative).\n\n*Dative Case (Static Location) - answers 'wo?' (where?):*\n- 'Ich bin in der Notaufnahme.' (I am in the emergency room.)\n- 'Der Patient liegt auf der Intensivstation.' (The patient is in the ICU.)\n- 'Sie arbeitet in der Radiologie.' (She works in radiology.)\n\n*Accusative Case (Direction/Movement) - answers 'wohin?' (where to?):*\n- 'Bringen Sie den Patienten in die Notaufnahme.' (Bring the patient to the ER.)\n- 'Wir verlegen ihn auf die Intensivstation.' (We are transferring him to the ICU.)\n- 'Gehen Sie in den OP-Saal.' (Go to the operating room.)\n\n**Preposition 'in' - Two-Way Preposition:**\n| Context | Case | Article Changes | Example |\n|---------|------|-----------------|---------|\n| Location | Dative | der→dem, die→der, das→dem | in dem Krankenhaus (im) |\n| Direction | Accusative | der→den, die→die, das→das | in das Krankenhaus (ins) |\n\n*Common Medical Location Phrases:*\n- 'Auf welcher Station arbeiten Sie?' (Which ward do you work on?)\n- 'Der Patient wurde in die Kardiologie verlegt.' (The patient was transferred to cardiology.)\n- 'Die Untersuchung findet im Röntgenraum statt.' (The examination takes place in the X-ray room.)\n\n**Contractions are Common:**\n- in dem → im (im Krankenhaus)\n- in das → ins (ins Krankenhaus)\n- auf dem → auf der Station\n- auf das → auf die Station",
+            "ur": "**Dative and Accusative Cases with Hospital Locations**\n\nGerman uses different cases depending on whether you describe a static location (Dative) or movement toward a location (Accusative).\n\n*Dative Case (Static Location) - answers 'wo?' (where?):*\n- 'Ich bin in der Notaufnahme.' (I am in the emergency room.)\n- 'Der Patient liegt auf der Intensivstation.' (The patient is in the ICU.)\n- 'Sie arbeitet in der Radiologie.' (She works in radiology.)\n\n*Accusative Case (Direction/Movement) - answers 'wohin?' (where to?):*\n- 'Bringen Sie den Patienten in die Notaufnahme.' (Bring the patient to the ER.)\n- 'Wir verlegen ihn auf die Intensivstation.' (We are transferring him to the ICU.)\n- 'Gehen Sie in den OP-Saal.' (Go to the operating room.)\n\n**Preposition 'in' - Two-Way Preposition:**\n| Context | Case | Article Changes | Example |\n|---------|------|-----------------|---------|\n| Location | Dative | der→dem, die→der, das→dem | in dem Krankenhaus (im) |\n| Direction | Accusative | der→den, die→die, das→das | in das Krankenhaus (ins) |\n\n*Common Medical Location Phrases:*\n- 'Auf welcher Station arbeiten Sie?' (Which ward do you work on?)\n- 'Der Patient wurde in die Kardiologie verlegt.' (The patient was transferred to cardiology.)\n- 'Die Untersuchung findet im Röntgenraum statt.' (The examination takes place in the X-ray room.)\n\n**Contractions are Common:**\n- in dem → im (im Krankenhaus)\n- in das → ins (ins Krankenhaus)\n- auf dem → auf der Station\n- auf das → auf die Station",
+            "tr": "**Dative and Accusative Cases with Hospital Locations**\n\nGerman uses different cases depending on whether you describe a static location (Dative) or movement toward a location (Accusative).\n\n*Dative Case (Static Location) - answers 'wo?' (where?):*\n- 'Ich bin in der Notaufnahme.' (I am in the emergency room.)\n- 'Der Patient liegt auf der Intensivstation.' (The patient is in the ICU.)\n- 'Sie arbeitet in der Radiologie.' (She works in radiology.)\n\n*Accusative Case (Direction/Movement) - answers 'wohin?' (where to?):*\n- 'Bringen Sie den Patienten in die Notaufnahme.' (Bring the patient to the ER.)\n- 'Wir verlegen ihn auf die Intensivstation.' (We are transferring him to the ICU.)\n- 'Gehen Sie in den OP-Saal.' (Go to the operating room.)\n\n**Preposition 'in' - Two-Way Preposition:**\n| Context | Case | Article Changes | Example |\n|---------|------|-----------------|---------|\n| Location | Dative | der→dem, die→der, das→dem | in dem Krankenhaus (im) |\n| Direction | Accusative | der→den, die→die, das→das | in das Krankenhaus (ins) |\n\n*Common Medical Location Phrases:*\n- 'Auf welcher Station arbeiten Sie?' (Which ward do you work on?)\n- 'Der Patient wurde in die Kardiologie verlegt.' (The patient was transferred to cardiology.)\n- 'Die Untersuchung findet im Röntgenraum statt.' (The examination takes place in the X-ray room.)\n\n**Contractions are Common:**\n- in dem → im (im Krankenhaus)\n- in das → ins (ins Krankenhaus)\n- auf dem → auf der Station\n- auf das → auf die Station"
         },
         "culturalNotes": {
             "en": "German hospitals often have a structured hierarchy, with clear roles and responsibilities for each department.",
@@ -64,12 +50,38 @@
             "ur": "یہ سیکشن ضروری جرمن ہسپتال کے شعبوں اور ان سے متعلقہ الفاظ کی بنیادی سمجھ فراہم کرتا ہے۔",
             "tr": "Bu bölüm, temel Alman hastane bölümleri ve ilgili kelime dağarcığı hakkında temel bir anlayış sağlar."
         },
-        "learningObjectives": [
-            "Identify and name key hospital departments in German.",
-            "Describe the functions of each department.",
-            "Use appropriate grammatical structures to discuss location within a hospital.",
-            "Understand basic cultural aspects of German hospital organization."
-        ]
+        "learningObjectives": {
+            "en": [
+                "Identify and name key hospital departments in German.",
+                "Describe the functions of each department.",
+                "Use appropriate grammatical structures to discuss location within a hospital.",
+                "Understand basic cultural aspects of German hospital organization."
+            ],
+            "bn": [
+                "Identify and name key hospital departments in German.",
+                "Describe the functions of each department.",
+                "ব্যবহার করুন appropriate grammatical structures to discuss location within a hospital.",
+                "বুঝুন basic cultural aspects of German hospital organization."
+            ],
+            "hi": [
+                "Identify and name key hospital departments in German.",
+                "Describe the functions of each department.",
+                "उपयोग करें appropriate grammatical structures to discuss location within a hospital.",
+                "समझें basic cultural aspects of German hospital organization."
+            ],
+            "ur": [
+                "Identify and name key hospital departments in German.",
+                "Describe the functions of each department.",
+                "استعمال کریں appropriate grammatical structures to discuss location within a hospital.",
+                "سمجھیں basic cultural aspects of German hospital organization."
+            ],
+            "tr": [
+                "Identify and name key hospital departments in German.",
+                "Describe the functions of each department.",
+                "Kullanın appropriate grammatical structures to discuss location within a hospital.",
+                "Anlayın basic cultural aspects of German hospital organization."
+            ]
+        }
     },
     "vocabulary": [
         {
@@ -93,7 +105,8 @@
                 "ur": "مریض کو شدید درد کے ساتھ ایمرجنسی روم میں لایا گیا۔",
                 "tr": "Hasta şiddetli ağrı ile acil servise getirildi."
             },
-            "id": "v04_01"
+            "id": "v04_01",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_01.mp3"
         },
         {
             "germanTerm": "die Intensivstation",
@@ -116,7 +129,8 @@
                 "ur": "آپریشن کے بعد، اسے انٹینسو کیئر یونٹ میں منتقل کر دیا گیا۔",
                 "tr": "Ameliyattan sonra yoğun bakım ünitesine alındı."
             },
-            "id": "v04_02"
+            "id": "v04_02",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_02.mp3"
         },
         {
             "germanTerm": "der OP-Saal",
@@ -139,7 +153,8 @@
                 "ur": "مریض کو اب آپریشن تھیٹر میں لے جایا جا رہا ہے۔",
                 "tr": "Hasta şimdi ameliyathaneye götürülüyor."
             },
-            "id": "v04_03"
+            "id": "v04_03",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_03.mp3"
         },
         {
             "germanTerm": "die Station",
@@ -162,7 +177,8 @@
                 "ur": "وہ وارڈ 3 میں نرس کے طور پر کام کرتی ہے۔",
                 "tr": "3 numaralı serviste hemşire olarak çalışıyor."
             },
-            "id": "v04_04"
+            "id": "v04_04",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_04.mp3"
         },
         {
             "germanTerm": "die Ambulanz",
@@ -185,7 +201,8 @@
                 "ur": "مریض کا آؤٹ پیشنٹ کلینک میں معائنہ کیا گیا۔",
                 "tr": "Hasta poliklinikte muayene edildi."
             },
-            "id": "v04_05"
+            "id": "v04_05",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_05.mp3"
         },
         {
             "germanTerm": "die Radiologie",
@@ -208,7 +225,8 @@
                 "ur": "ریڈیالوجی میں ایکسرے لیا گیا۔",
                 "tr": "Radyolojide bir röntgen çekildi."
             },
-            "id": "v04_06"
+            "id": "v04_06",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_06.mp3"
         },
         {
             "germanTerm": "das Labor",
@@ -231,7 +249,8 @@
                 "ur": "خون کو لیبارٹری بھیجا گیا۔",
                 "tr": "Kan laboratuvara gönderildi."
             },
-            "id": "v04_07"
+            "id": "v04_07",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_07.mp3"
         },
         {
             "germanTerm": "die Pathologie",
@@ -254,7 +273,8 @@
                 "ur": "پیتھالوجی ٹشو کے نمونے کی جانچ کرتی ہے۔",
                 "tr": "Patoloji doku örneklerini inceler."
             },
-            "id": "v04_08"
+            "id": "v04_08",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_08.mp3"
         },
         {
             "germanTerm": "der Notarzt",
@@ -277,7 +297,8 @@
                 "ur": "ایمرجنسی معالج تیزی سے جائے حادثہ پر پہنچ گئے۔",
                 "tr": "Acil doktoru hızla kaza yerine geldi."
             },
-            "id": "v04_09"
+            "id": "v04_09",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_09.mp3"
         },
         {
             "germanTerm": "die Röntgenaufnahme",
@@ -300,7 +321,8 @@
                 "ur": "ایکسرے ایک فریکچر دکھاتا ہے۔",
                 "tr": "Röntgen, bir kırık gösteriyor."
             },
-            "id": "v04_10"
+            "id": "v04_10",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_10.mp3"
         },
         {
             "germanTerm": "die Blutuntersuchung",
@@ -323,7 +345,8 @@
                 "ur": "خون کا ٹیسٹ لیبارٹری میں کیا گیا۔",
                 "tr": "Kan testi laboratuvarda yapıldı."
             },
-            "id": "v04_11"
+            "id": "v04_11",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_11.mp3"
         },
         {
             "germanTerm": "der Gewebeprobe",
@@ -346,7 +369,8 @@
                 "ur": "ٹشو نمونہ ہسٹولوجیکل طور پر جانچا جاتا ہے۔",
                 "tr": "Doku örneği histolojik olarak incelenir."
             },
-            "id": "v04_12"
+            "id": "v04_12",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_12.mp3"
         },
         {
             "germanTerm": "das EKG",
@@ -369,7 +393,8 @@
                 "ur": "دل کے فعل کی جانچ کرنے کے لئے ایک ای سی جی کیا گیا تھا۔",
                 "tr": "Kalp fonksiyonunu kontrol etmek için bir EKG çekildi."
             },
-            "id": "v04_13"
+            "id": "v04_13",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_13.mp3"
         },
         {
             "germanTerm": "die Diagnose",
@@ -392,7 +417,8 @@
                 "ur": "متعدد جانچوں کے بعد تشخیص کیا گیا۔",
                 "tr": "Birkaç muayeneden sonra teşhis konuldu."
             },
-            "id": "v04_14"
+            "id": "v04_14",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_14.mp3"
         },
         {
             "germanTerm": "der Patient",
@@ -415,7 +441,8 @@
                 "ur": "مریض نے شدید درد کی شکایت کی۔",
                 "tr": "Hasta şiddetli ağrıdan şikayet etti."
             },
-            "id": "v04_15"
+            "id": "v04_15",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_15.mp3"
         },
         {
             "germanTerm": "die Behandlung",
@@ -438,7 +465,8 @@
                 "ur": "مریض کا علاج تازہ ترین رہنما خطوط کے مطابق کیا جاتا ہے۔",
                 "tr": "Hastanın tedavisi en son yönergelere göre yapılır."
             },
-            "id": "v04_16"
+            "id": "v04_16",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_16.mp3"
         },
         {
             "germanTerm": "die Überwachung",
@@ -461,7 +489,8 @@
                 "ur": "مریض کو گہری نگرانی کی ضرورت ہے۔",
                 "tr": "Hastanın yoğun takibe ihtiyacı var."
             },
-            "id": "v04_17"
+            "id": "v04_17",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_17.mp3"
         },
         {
             "germanTerm": "der Eingriff",
@@ -484,7 +513,8 @@
                 "ur": "طریقہ کار بغیر کسی پیچیدگی کے مکمل ہو گیا۔",
                 "tr": "İşlem sorunsuz geçti."
             },
-            "id": "v04_18"
+            "id": "v04_18",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_18.mp3"
         },
         {
             "germanTerm": "die Narkose",
@@ -507,7 +537,8 @@
                 "ur": "مریض کا بے ہوشی میں آپریشن کیا گیا تھا۔",
                 "tr": "Hasta anestezi altında ameliyat edildi."
             },
-            "id": "v04_19"
+            "id": "v04_19",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_19.mp3"
         },
         {
             "germanTerm": "die Infusion",
@@ -530,7 +561,8 @@
                 "ur": "مریض کو الیکٹرولائٹس کے ساتھ ایک انفیوژن مل رہا ہے۔",
                 "tr": "Hastaya elektrolitlerle bir infüzyon veriliyor."
             },
-            "id": "v04_20"
+            "id": "v04_20",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_20.mp3"
         },
         {
             "germanTerm": "der Verband",
@@ -553,7 +585,8 @@
                 "ur": "پٹی کو روزانہ تبدیل کرنا چاہیے۔",
                 "tr": "Bandajın her gün değiştirilmesi gerekiyor."
             },
-            "id": "v04_21"
+            "id": "v04_21",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_21.mp3"
         },
         {
             "germanTerm": "die Wunde",
@@ -576,7 +609,8 @@
                 "ur": "زخم کو جراثیم سے پاک کرنا ہوگا۔",
                 "tr": "Yaranın dezenfekte edilmesi gerekiyor."
             },
-            "id": "v04_22"
+            "id": "v04_22",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_22.mp3"
         },
         {
             "germanTerm": "die Medikation",
@@ -599,7 +633,8 @@
                 "ur": "مریض کی دوا کو ایڈجسٹ کرنے کی ضرورت ہے۔",
                 "tr": "Hastanın ilaçlarının ayarlanması gerekiyor."
             },
-            "id": "v04_23"
+            "id": "v04_23",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_23.mp3"
         },
         {
             "germanTerm": "die Entlassung",
@@ -622,7 +657,8 @@
                 "ur": "مریض کی چھٹی کل کے لیے طے شدہ ہے۔",
                 "tr": "Hastanın taburcu olması yarına planlandı."
             },
-            "id": "v04_24"
+            "id": "v04_24",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_24.mp3"
         },
         {
             "germanTerm": "die Anamnese",
@@ -645,7 +681,8 @@
                 "ur": "تشخیص کے لیے طبی تاریخ اہم ہے۔",
                 "tr": "Tıbbi geçmiş, teşhis için önemlidir."
             },
-            "id": "v04_25"
+            "id": "v04_25",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_25.mp3"
         },
         {
             "germanTerm": "der Arztbrief",
@@ -668,7 +705,8 @@
                 "ur": "ڈسچارج سمری میں علاج کے بارے میں تمام اہم معلومات شامل ہیں۔",
                 "tr": "Taburcu özetinde tedaviyle ilgili tüm önemli bilgiler yer almaktadır."
             },
-            "id": "v04_26"
+            "id": "v04_26",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_26.mp3"
         },
         {
             "germanTerm": "intubieren",
@@ -691,7 +729,8 @@
                 "ur": "مریض کو انٹیوبیٹ کرنا پڑا۔",
                 "tr": "Hastanın entübe edilmesi gerekti."
             },
-            "id": "v04_27"
+            "id": "v04_27",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_27.mp3"
         },
         {
             "germanTerm": "die Reanimation",
@@ -714,7 +753,8 @@
                 "ur": "احیاء کامیاب رہا۔",
                 "tr": "Canlandırma başarılı oldu."
             },
-            "id": "v04_28"
+            "id": "v04_28",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_28.mp3"
         },
         {
             "germanTerm": "der Befund",
@@ -737,7 +777,8 @@
                 "ur": "امتحان کی تلاش غیر معمولی ہے۔",
                 "tr": "Muayenenin bulgusu olağan dışı değil."
             },
-            "id": "v04_29"
+            "id": "v04_29",
+            "audioUrl": "assets/audio/sections/section_04/vocabulary/v04_29.mp3"
         }
     ],
     "dialogues": [
@@ -767,7 +808,8 @@
                         "hi": "मुझे सीने में बहुत दर्द है! ऐसा लगता है जैसे कुछ दबा रहा है।",
                         "ur": "مجھے سینے میں شدید درد ہے! ایسا لگتا ہے جیسے کچھ دبا رہا ہے۔",
                         "tr": "Göğsümde şiddetli ağrı var! Sanki bir şey baskı yapıyor gibi."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_01_line1.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -779,7 +821,8 @@
                         "hi": "हम अभी इसका ध्यान रखते हैं। कृपया यहाँ स्ट्रेचर पर लेट जाएँ।",
                         "ur": "ہم ابھی اس کا خیال رکھتے ہیں۔ برائے مہربانی یہاں اسٹریچر پر لیٹ جائیں۔",
                         "tr": "Hemen ilgileniyoruz. Lütfen buraya sedyeye uzanın."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_01_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -791,7 +834,8 @@
                         "hi": "शुभ दिन, श्री मूलर। क्या आप मुझे अपने दर्द के बारे में और बता सकते हैं?",
                         "ur": "شب بخیر، مسٹر مولر۔ کیا آپ مجھے اپنے درد کے بارے میں مزید بتا سکتے ہیں؟",
                         "tr": "İyi günler, Bay Müller. Bana ağrılarınız hakkında daha fazla bilgi verebilir misiniz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_01_line3.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -803,7 +847,8 @@
                         "hi": "यह एक चुभने वाला दर्द है जो मेरी बाईं बांह में फैलता है।",
                         "ur": "یہ ایک چھرا گھونپنے والا درد ہے جو میرے بائیں بازو میں پھیل رہا ہے۔",
                         "tr": "Sol koluma yayılan bir bıçak saplanır gibi ağrı var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_01_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -815,7 +860,8 @@
                         "hi": "हम तुरंत एक ईसीजी करेंगे और खून लेंगे। नर्स, कृपया तैयार करें।",
                         "ur": "ہم فوری طور پر ایک ای سی جی کریں گے اور خون لیں گے۔ نرس، براہ کرم تیاری کریں۔",
                         "tr": "Hemen EKG çekip kan alacağız. Hemşire, lütfen hazırlanın."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_01_line5.mp3"
                 }
             ],
             "id": "d04_01"
@@ -846,7 +892,8 @@
                         "hi": "श्री वेबर के महत्वपूर्ण लक्षण कैसे हैं, नर्स?",
                         "ur": "مسٹر ویبر کے اہم علامات کیسے ہیں، نرس؟",
                         "tr": "Bay Weber'in hayati belirtileri nasıl, Hemşire?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_02_line1.mp3"
                 },
                 {
                     "speaker": "Schwester Meier",
@@ -858,7 +905,8 @@
                         "hi": "रक्तचाप 120/80 पर स्थिर है, हृदय गति 75, ऑक्सीजन संतृप्ति 98%।",
                         "ur": "بلڈ پریشر 120/80 پر مستحکم، دل کی دھڑکن 75، آکسیجن کی سطح 98%۔",
                         "tr": "Kan basıncı 120/80'de stabil, kalp atış hızı 75, oksijen saturasyonu %98."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_02_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Lehmann",
@@ -870,7 +918,8 @@
                         "hi": "बहुत अच्छा। क्या उसे दर्द है?",
                         "ur": "بہت اچھے. کیا اسے درد ہے؟",
                         "tr": "Çok iyi. Ağrısı var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_02_line3.mp3"
                 },
                 {
                     "speaker": "Schwester Meier",
@@ -882,7 +931,8 @@
                         "hi": "उसे एक घंटे पहले दर्द निवारक दवा दी गई थी। वर्तमान में शांत।",
                         "ur": "اسے ایک گھنٹہ پہلے درد کم کرنے والی دوا دی گئی تھی۔ فی الحال پرسکون ہے۔",
                         "tr": "Bir saat önce ağrı kesici aldı. Şu anda sakin."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_02_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Lehmann",
@@ -894,7 +944,8 @@
                         "hi": "हम उसे आगे भी बारीकी से निगरानी करते रहेंगे। धन्यवाद, नर्स मेयर।",
                         "ur": "ہم اسے مزید باریک بینی سے نگرانی کرتے رہیں گے۔ شکریہ، نرس میئر۔",
                         "tr": "Onu yakından izlemeye devam edeceğiz. Teşekkürler, Hemşire Meier."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_02_line5.mp3"
                 }
             ],
             "id": "d04_02"
@@ -925,7 +976,8 @@
                         "hi": "शुभ प्रभात, टीम। आज हम श्रीमती शुल्ज़ पर कुल हिप रिप्लेसमेंट कर रहे हैं।",
                         "ur": "صبح بخیر، ٹیم۔ آج ہم محترمہ شلز پر کل ہپ ریپلیسمنٹ کر رہے ہیں۔",
                         "tr": "Günaydın, ekip. Bugün Bayan Schulz'a total kalça protezi uygulayacağız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_03_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Berger",
@@ -937,7 +989,8 @@
                         "hi": "क्या सभी प्रत्यारोपण और उपकरण तैयार हैं?",
                         "ur": "کیا تمام امپلانٹس اور آلات تیار ہیں؟",
                         "tr": "Tüm implantlar ve aletler hazır mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_03_line2.mp3"
                 },
                 {
                     "speaker": "OP-Schwester Anna",
@@ -949,7 +1002,8 @@
                         "hi": "हाँ, डॉ. बर्गर। सब कुछ जांचा गया है और तैयार है।",
                         "ur": "ہاں، ڈاکٹر برجر۔ سب کچھ چیک کیا گیا ہے اور تیار ہے۔",
                         "tr": "Evet, Dr. Berger. Her şey kontrol edildi ve hazır."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_03_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Klein",
@@ -961,7 +1015,8 @@
                         "hi": "अच्छा। तो हम शुरू कर सकते हैं। खून बहने के खतरे पर ध्यान दें।",
                         "ur": "اچھا۔ تو ہم شروع کر سکتے ہیں۔ خون بہنے کے خطرے پر دھیان دیں۔",
                         "tr": "Güzel. O zaman başlayabiliriz. Kanama riskine dikkat edin."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_03_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Berger",
@@ -973,7 +1028,8 @@
                         "hi": "किया जाएगा, डॉ. क्लेन।",
                         "ur": "کیا جائے گا، ڈاکٹر کلین۔",
                         "tr": "Yapılacak, Dr. Klein."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_03_line5.mp3"
                 }
             ],
             "id": "d04_03"
@@ -1004,7 +1060,8 @@
                         "hi": "शुभ प्रभात, श्रीमती लेहमान। यहाँ आपके आज के टेबलेट हैं।",
                         "ur": "شب بخیر، محترمہ لیمن۔ یہاں آپ کی آج کی گولیاں ہیں۔",
                         "tr": "Günaydın, Bayan Lehmann. İşte bugünkü tabletleriniz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_04_line1.mp3"
                 },
                 {
                     "speaker": "Patient Lehmann",
@@ -1016,7 +1073,8 @@
                         "hi": "धन्यवाद, नर्स इंग्रिड। यह किस प्रकार की गोली है?",
                         "ur": "شکریہ، نرس انگریڈ۔ یہ کس قسم کی گولی ہے؟",
                         "tr": "Teşekkürler, Hemşire Ingrid. Bu ne tür bir tablet?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_04_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Ingrid",
@@ -1028,7 +1086,8 @@
                         "hi": "यह एक दर्द निवारक और आपके रक्तचाप के लिए एक दवा है।",
                         "ur": "یہ ایک درد کم کرنے والی دوا اور آپ کے بلڈ پریشر کے لیے ایک دوا ہے۔",
                         "tr": "Bu bir ağrı kesici ve kan basıncınız için bir ilaç."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_04_line3.mp3"
                 },
                 {
                     "speaker": "Patient Lehmann",
@@ -1040,7 +1099,8 @@
                         "hi": "ठीक है, धन्यवाद। मैं उन्हें अभी लेता हूँ।",
                         "ur": "ٹھیک ہے، شکریہ۔ میں انہیں ابھی لیتا ہوں۔",
                         "tr": "Tamam, teşekkürler. Hemen alacağım."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_04_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Ingrid",
@@ -1052,7 +1112,8 @@
                         "hi": "आपका स्वागत है। अगर आपको कुछ चाहिए, तो बस घंटी बजाएं।",
                         "ur": "آپ کا استقبال ہے۔ اگر آپ کو کچھ چاہیے تو بس گھنٹی بجائیں۔",
                         "tr": "Rica ederim. Bir şeye ihtiyacınız olursa, zili çalmanız yeterli."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_04_line5.mp3"
                 }
             ],
             "id": "d04_04"
@@ -1083,7 +1144,8 @@
                         "hi": "शुभ दिन। कृपया यहाँ दीवार के सामने खड़े हो जाइए।",
                         "ur": "شب بخیر۔ براہ کرم یہاں دیوار کے سامنے کھڑے ہو جائیں۔",
                         "tr": "İyi günler. Lütfen burada duvarın önünde durun."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_05_line1.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -1095,7 +1157,8 @@
                         "hi": "ठीक है, ऐसे?",
                         "ur": "ٹھیک ہے، اس طرح؟",
                         "tr": "Tamam, böyle mi?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_05_line2.mp3"
                 },
                 {
                     "speaker": "Radiologieassistentin Julia",
@@ -1107,7 +1170,8 @@
                         "hi": "हाँ, बिलकुल। कृपया गहरी सांस लें और अपनी सांस रोकें।",
                         "ur": "ہاں، بالکل۔ براہ کرم گہری سانس لیں اور اپنی سانس روکیں۔",
                         "tr": "Evet, aynen. Lütfen derin bir nefes alın ve nefesinizi tutun."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_05_line3.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -1119,7 +1183,8 @@
                         "hi": "ठीक है।",
                         "ur": "ٹھیک ہے۔",
                         "tr": "Tamam."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_05_line4.mp3"
                 },
                 {
                     "speaker": "Radiologieassistentin Julia",
@@ -1131,7 +1196,8 @@
                         "hi": "अब आप सांस छोड़ सकते हैं। हो गया।",
                         "ur": "اب آپ سانس چھوڑ سکتے ہیں۔ ہو گیا۔",
                         "tr": "Artık nefes verebilirsiniz. Bitti."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_04/dialogues/d04_05_line5.mp3"
                 }
             ],
             "id": "d04_05"

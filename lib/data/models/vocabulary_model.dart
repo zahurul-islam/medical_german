@@ -41,7 +41,13 @@ class VocabularyModel {
   }
 
   String get fullGermanTerm {
+    // Check if germanTerm already starts with the article to avoid duplication
     if (article.isNotEmpty) {
+      // If germanTerm already starts with the article, don't add it again
+      if (germanTerm.toLowerCase().startsWith('${article.toLowerCase()} ') ||
+          germanTerm.toLowerCase().startsWith(article.toLowerCase())) {
+        return germanTerm;
+      }
       return '$article $germanTerm';
     }
     return germanTerm;

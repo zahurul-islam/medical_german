@@ -8,8 +8,21 @@ const admin = require('firebase-admin');
 const fs = require('fs');
 const path = require('path');
 
+// Find Firebase Admin SDK key
+const projectRoot = path.join(__dirname, '..');
+const keyFiles = fs.readdirSync(projectRoot)
+    .filter(f => f.includes('firebase-adminsdk') && f.endsWith('.json'));
+
+if (keyFiles.length === 0) {
+    console.error('❌ No Firebase Admin SDK key found in project root.');
+    process.exit(1);
+}
+
+const serviceAccount = require(path.join(projectRoot, keyFiles[0]));
+console.log(`Using credentials: ${keyFiles[0]}\n`);
+
 admin.initializeApp({
-    credential: admin.credential.applicationDefault(),
+    credential: admin.credential.cert(serviceAccount),
     storageBucket: 'german-med.firebasestorage.app'
 });
 
@@ -61,13 +74,16 @@ async function uploadDirectory(localDir, remoteDir) {
 async function main() {
     console.log('🎵 Uploading audio files to Firebase Storage\n');
 
-    const audioDir = 'audio';
+    // Look for audio files in assets/audio/sections
+    const audioDir = path.join(__dirname, '..', 'assets', 'audio', 'sections');
     if (!fs.existsSync(audioDir)) {
-        console.error('❌ Audio directory not found. Run generate_audio.js first.');
+        console.error('❌ Audio directory not found at: ' + audioDir);
+        console.error('   Run generate_audio.js first.');
         process.exit(1);
     }
 
-    const result = await uploadDirectory(audioDir, 'audio');
+    console.log(`📁 Uploading from: ${audioDir}\n`);
+    const result = await uploadDirectory(audioDir, 'audio/sections');
 
     console.log(`\n\n✅ Upload complete!`);
     console.log(`   Uploaded: ${result.uploaded} files`);

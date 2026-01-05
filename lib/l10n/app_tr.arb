@@ -22,6 +22,18 @@
   "settings": "Ayarlar",
   "continueLeaning": "Öğrenmeye Devam Et",
   "yourProgress": "İlerlemeniz",
+  "sectionsCompleted": "{count} bölüm tamamlandı",
+  "@sectionsCompleted": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "level": "Seviye {level}",
+  "@level": {
+    "placeholders": {
+      "level": {"type": "String"}
+    }
+  },
   "dayStreak": "Gün Serisi",
   "points": "Puan",
   "learningPhases": "Öğrenme Aşamaları",
@@ -32,15 +44,24 @@
   "phase3Title": "Profesyonel Uzmanlık ve FSP",
   "phase3Desc": "İleri düzey dokümantasyon, uzmanlıklar ve sınav hazırlığı.",
   "sections": "Bölümler",
+  "section": "Bölüm",
   "vocabulary": "Kelime Bilgisi",
   "dialogue": "Diyalog",
   "exercises": "Alıştırmalar",
+  "minutes": "{min} dakika",
+  "@minutes": {
+    "placeholders": {
+      "min": {"type": "int"}
+    }
+  },
   "introduction": "Giriş",
   "grammarFocus": "Gramer Odağı",
   "culturalNotes": "Kültürel Notlar",
   "summary": "Özet",
   "learningObjectives": "Öğrenme Hedefleri",
   "flashcards": "Bilgi Kartları",
+  "tapToSeeTranslation": "Çeviriyi görmek için dokunun",
+  "tapToSeeGerman": "Almanca'yı görmek için dokunun",
   "next": "İleri",
   "previous": "Geri",
   "done": "Bitti",
@@ -50,18 +71,40 @@
   "incorrect": "Yanlış",
   "explanation": "Açıklama",
   "tryAgain": "Tekrar Dene",
+  "questionsCompleted": "{total} üzerinden {current}",
+  "@questionsCompleted": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
   "greatJob": "Harika!",
   "keepPracticing": "Pratik Yapmaya Devam Et!",
+  "score": "{total} üzerinden {correct} doğru",
+  "@score": {
+    "placeholders": {
+      "correct": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
   "levelProgress": "Seviye İlerlemesi",
   "recentActivity": "Son Aktivite",
   "sourceLanguage": "Kaynak Dil",
   "darkMode": "Karanlık Mod",
   "notifications": "Bildirimler",
+  "downloads": "İndirmeler",
+  "manageOfflineContent": "Çevrimdışı içeriği yönet",
+  "helpFaq": "Yardım ve SSS",
+  "contactUs": "Bize Ulaşın",
+  "privacyPolicy": "Gizlilik Politikası",
+  "termsOfService": "Hizmet Şartları",
   "signOut": "Çıkış Yap",
+  "signOutConfirm": "Çıkış yapmak istediğinizden emin misiniz?",
   "cancel": "İptal",
   "close": "Kapat",
   "error": "Hata",
   "retry": "Tekrar Dene",
   "loading": "Yükleniyor...",
+  "noInternetConnection": "İnternet bağlantısı yok",
   "comingSoon": "Yakında"
 }

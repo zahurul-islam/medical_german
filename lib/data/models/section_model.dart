@@ -136,14 +136,14 @@ class SectionTextContent {
   final Map<String, String> grammarFocus;
   final Map<String, String> culturalNotes;
   final Map<String, String> summary;
-  final List<String> learningObjectives;
+  final Map<String, List<String>> learningObjectives;
 
   SectionTextContent({
     required this.introduction,
     required this.grammarFocus,
     required this.culturalNotes,
     required this.summary,
-    this.learningObjectives = const [],
+    this.learningObjectives = const {},
   });
 
   String getIntroduction(String languageCode) {
@@ -160,6 +160,10 @@ class SectionTextContent {
 
   String getSummary(String languageCode) {
     return summary[languageCode] ?? summary['en'] ?? '';
+  }
+
+  List<String> getLearningObjectives(String languageCode) {
+    return learningObjectives[languageCode] ?? learningObjectives['en'] ?? [];
   }
 
   factory SectionTextContent.fromMap(Map<String, dynamic> map) {
@@ -191,12 +195,36 @@ class SectionTextContent {
       return result;
     }
 
+    // Parse learningObjectives - can be a simple list (legacy) or multilingual map
+    Map<String, List<String>> parseLearningObjectives(dynamic field) {
+      if (field == null) return {};
+      
+      // If it's a simple list of strings (legacy format), use as English
+      if (field is List) {
+        return {'en': List<String>.from(field)};
+      }
+      
+      // If it's a map with language codes
+      if (field is Map) {
+        final result = <String, List<String>>{};
+        for (final entry in field.entries) {
+          final key = entry.key.toString();
+          if (entry.value is List) {
+            result[key] = List<String>.from(entry.value);
+          }
+        }
+        return result;
+      }
+      
+      return {};
+    }
+
     return SectionTextContent(
       introduction: parseLocalizedField(map['introduction']),
       grammarFocus: parseLocalizedField(map['grammarFocus']),
       culturalNotes: parseLocalizedField(map['culturalNotes']),
       summary: parseLocalizedField(map['summary']),
-      learningObjectives: List<String>.from(map['learningObjectives'] ?? []),
+      learningObjectives: parseLearningObjectives(map['learningObjectives']),
     );
   }
 

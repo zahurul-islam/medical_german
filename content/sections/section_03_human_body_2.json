@@ -32,30 +32,12 @@
             "de": "In diesem Abschnitt werden wir uns mit dem Aufbau und der Funktion wesentlicher innerer Organe befassen. Sie lernen die deutschen Bezeichnungen für diese Organe und wie sie mit der medizinischen Terminologie zusammenhängen."
         },
         "grammarFocus": {
-            "en": {
-                "point1": "Declension of nouns in the nominative and accusative cases when referring to body parts.",
-                "point2": "Use of possessive pronouns (mein, dein, sein, etc.) when describing symptoms or conditions related to specific organs."
-            },
-            "bn": {
-                "point1": "শরীরের অঙ্গগুলির উল্লেখ করার সময় নমিনেটিভ এবং অভিযুক্ত ক্ষেত্রে বিশেষ্যগুলির বিভক্তি।",
-                "point2": "নির্দিষ্ট অঙ্গগুলির সাথে সম্পর্কিত লক্ষণ বা অবস্থার বর্ণনা করার সময় স্বত্ববাচক সর্বনামের ব্যবহার (mein, dein, sein, ইত্যাদি)।"
-            },
-            "hi": {
-                "point1": "शरीर के अंगों का उल्लेख करते समय नाममात्र और आरोपण मामलों में संज्ञाओं का विभक्ति।",
-                "point2": "विशिष्ट अंगों से संबंधित लक्षणों या स्थितियों का वर्णन करते समय स्वामित्व वाले सर्वनामों (mein, dein, sein, आदि) का उपयोग।"
-            },
-            "ur": {
-                "point1": "جسم کے اعضاء کا ذکر کرتے وقت اسمی اور الزامی معاملات میں اسموں کا انحراف۔",
-                "point2": "مخصوص اعضاء سے متعلق علامات یا حالات بیان کرتے وقت ملکیتی ضمیروں کا استعمال (mein, dein, sein, وغیرہ)۔"
-            },
-            "tr": {
-                "point1": "Vücut parçalarına atıfta bulunurken ismin yalın ve belirtme hallerinde çekimi.",
-                "point2": "Belirli organlarla ilgili semptomları veya durumları tanımlarken iyelik zamirlerinin (mein, dein, sein, vb.) kullanımı."
-            },
-            "de": {
-                "point1": "Deklination von Substantiven im Nominativ und Akkusativ bei Bezug auf Körperteile.",
-                "point2": "Verwendung von Possessivpronomen (mein, dein, sein, usw.) bei der Beschreibung von Symptomen oder Zuständen, die sich auf bestimmte Organe beziehen."
-            }
+            "en": "**Nominative and Accusative Cases with Internal Organs**\n\nWhen discussing internal organs, German requires proper case usage based on grammatical function.\n\n*Nominative Case (Subject) - answers 'who/what?':*\n- 'Das Herz pumpt Blut.' (The heart pumps blood.)\n- 'Die Leber filtert Giftstoffe.' (The liver filters toxins.)\n- 'Die Niere produziert Urin.' (The kidney produces urine.)\n\n*Accusative Case (Direct Object) - answers 'whom/what?':*\n- 'Ich untersuche das Herz.' (I examine the heart.)\n- 'Der Arzt behandelt die Leber.' (The doctor treats the liver.)\n- 'Wir überprüfen die Nieren.' (We check the kidneys.)\n\n**Article Changes in Accusative:**\n| Nominative | Accusative | Example |\n|------------|------------|---------|\n| der Magen | den Magen | Ich palpiere den Magen. |\n| die Lunge | die Lunge | Ich höre die Lunge ab. |\n| das Herz | das Herz | Ich untersuche das Herz. |\n\n**Possessive Pronouns with Organs:**\nUse possessive pronouns to describe symptoms related to specific organs.\n\n*Conjugation by Person:*\n- mein Herz, meine Lunge, mein Magen (my heart, my lung, my stomach)\n- Ihr Herz, Ihre Lunge, Ihr Magen (your heart, your lung, your stomach - formal)\n\n*Examples in Medical Context:*\n- 'Mein Herz schlägt unregelmäßig.' (My heart beats irregularly.)\n- 'Ihr Magen verursacht Schmerzen?' (Your stomach is causing pain?)\n- 'Sein Blutdruck ist erhöht.' (His blood pressure is elevated.)\n\n**Dative Case with Prepositions for Location:**\n- 'Die Schmerzen sind in der Lunge.' (The pain is in the lung.)\n- 'Es gibt eine Entzündung an der Niere.' (There is an inflammation on the kidney.)",
+            "de": "**Nominativ und Akkusativ bei inneren Organen**\n\nBei der Diskussion innerer Organe erfordert Deutsch die korrekte Fallverwendung je nach grammatischer Funktion.\n\n*Nominativ (Subjekt) - beantwortet 'wer/was?':*\n- 'Das Herz pumpt Blut.'\n- 'Die Leber filtert Giftstoffe.'\n- 'Die Niere produziert Urin.'\n\n*Akkusativ (direktes Objekt) - beantwortet 'wen/was?':*\n- 'Ich untersuche das Herz.'\n- 'Der Arzt behandelt die Leber.'\n- 'Wir überprüfen die Nieren.'\n\n**Artikelveränderungen im Akkusativ:**\n| Nominativ | Akkusativ | Beispiel |\n|-----------|-----------|----------|\n| der Magen | den Magen | Ich palpiere den Magen. |\n| die Lunge | die Lunge | Ich höre die Lunge ab. |\n| das Herz | das Herz | Ich untersuche das Herz. |\n\n**Possessivpronomen mit Organen:**\nVerwenden Sie Possessivpronomen zur Beschreibung von Symptomen bestimmter Organe.\n\n*Konjugation nach Person:*\n- mein Herz, meine Lunge, mein Magen\n- Ihr Herz, Ihre Lunge, Ihr Magen (formell)\n\n*Beispiele im medizinischen Kontext:*\n- 'Mein Herz schlägt unregelmäßig.'\n- 'Ihr Magen verursacht Schmerzen?'\n- 'Sein Blutdruck ist erhöht.'\n\n**Dativ mit Präpositionen für Ortsangaben:**\n- 'Die Schmerzen sind in der Lunge.'\n- 'Es gibt eine Entzündung an der Niere.'",
+            "bn": "**Nominative and Accusative Cases with Internal Organs**\n\nWhen discussing internal organs, German requires proper case usage based on grammatical function.\n\n*Nominative Case (Subject) - answers 'who/what?':*\n- 'Das Herz pumpt Blut.' (The heart pumps blood.)\n- 'Die Leber filtert Giftstoffe.' (The liver filters toxins.)\n- 'Die Niere produziert Urin.' (The kidney produces urine.)\n\n*Accusative Case (Direct Object) - answers 'whom/what?':*\n- 'Ich untersuche das Herz.' (I examine the heart.)\n- 'Der Arzt behandelt die Leber.' (The doctor treats the liver.)\n- 'Wir überprüfen die Nieren.' (We check the kidneys.)\n\n**Article Changes in Accusative:**\n| Nominative | Accusative | Example |\n|------------|------------|---------|\n| der Magen | den Magen | Ich palpiere den Magen. |\n| die Lunge | die Lunge | Ich höre die Lunge ab. |\n| das Herz | das Herz | Ich untersuche das Herz. |\n\n**Possessive Pronouns with Organs:**\nUse possessive pronouns to describe symptoms related to specific organs.\n\n*Conjugation by Person:*\n- mein Herz, meine Lunge, mein Magen (my heart, my lung, my stomach)\n- Ihr Herz, Ihre Lunge, Ihr Magen (your heart, your lung, your stomach - formal)\n\n*Examples in Medical Context:*\n- 'Mein Herz schlägt unregelmäßig.' (My heart beats irregularly.)\n- 'Ihr Magen verursacht Schmerzen?' (Your stomach is causing pain?)\n- 'Sein Blutdruck ist erhöht.' (His blood pressure is elevated.)\n\n**Dative Case with Prepositions for Location:**\n- 'Die Schmerzen sind in der Lunge.' (The pain is in the lung.)\n- 'Es gibt eine Entzündung an der Niere.' (There is an inflammation on the kidney.)",
+            "hi": "**Nominative and Accusative Cases with Internal Organs**\n\nWhen discussing internal organs, German requires proper case usage based on grammatical function.\n\n*Nominative Case (Subject) - answers 'who/what?':*\n- 'Das Herz pumpt Blut.' (The heart pumps blood.)\n- 'Die Leber filtert Giftstoffe.' (The liver filters toxins.)\n- 'Die Niere produziert Urin.' (The kidney produces urine.)\n\n*Accusative Case (Direct Object) - answers 'whom/what?':*\n- 'Ich untersuche das Herz.' (I examine the heart.)\n- 'Der Arzt behandelt die Leber.' (The doctor treats the liver.)\n- 'Wir überprüfen die Nieren.' (We check the kidneys.)\n\n**Article Changes in Accusative:**\n| Nominative | Accusative | Example |\n|------------|------------|---------|\n| der Magen | den Magen | Ich palpiere den Magen. |\n| die Lunge | die Lunge | Ich höre die Lunge ab. |\n| das Herz | das Herz | Ich untersuche das Herz. |\n\n**Possessive Pronouns with Organs:**\nUse possessive pronouns to describe symptoms related to specific organs.\n\n*Conjugation by Person:*\n- mein Herz, meine Lunge, mein Magen (my heart, my lung, my stomach)\n- Ihr Herz, Ihre Lunge, Ihr Magen (your heart, your lung, your stomach - formal)\n\n*Examples in Medical Context:*\n- 'Mein Herz schlägt unregelmäßig.' (My heart beats irregularly.)\n- 'Ihr Magen verursacht Schmerzen?' (Your stomach is causing pain?)\n- 'Sein Blutdruck ist erhöht.' (His blood pressure is elevated.)\n\n**Dative Case with Prepositions for Location:**\n- 'Die Schmerzen sind in der Lunge.' (The pain is in the lung.)\n- 'Es gibt eine Entzündung an der Niere.' (There is an inflammation on the kidney.)",
+            "ur": "**Nominative and Accusative Cases with Internal Organs**\n\nWhen discussing internal organs, German requires proper case usage based on grammatical function.\n\n*Nominative Case (Subject) - answers 'who/what?':*\n- 'Das Herz pumpt Blut.' (The heart pumps blood.)\n- 'Die Leber filtert Giftstoffe.' (The liver filters toxins.)\n- 'Die Niere produziert Urin.' (The kidney produces urine.)\n\n*Accusative Case (Direct Object) - answers 'whom/what?':*\n- 'Ich untersuche das Herz.' (I examine the heart.)\n- 'Der Arzt behandelt die Leber.' (The doctor treats the liver.)\n- 'Wir überprüfen die Nieren.' (We check the kidneys.)\n\n**Article Changes in Accusative:**\n| Nominative | Accusative | Example |\n|------------|------------|---------|\n| der Magen | den Magen | Ich palpiere den Magen. |\n| die Lunge | die Lunge | Ich höre die Lunge ab. |\n| das Herz | das Herz | Ich untersuche das Herz. |\n\n**Possessive Pronouns with Organs:**\nUse possessive pronouns to describe symptoms related to specific organs.\n\n*Conjugation by Person:*\n- mein Herz, meine Lunge, mein Magen (my heart, my lung, my stomach)\n- Ihr Herz, Ihre Lunge, Ihr Magen (your heart, your lung, your stomach - formal)\n\n*Examples in Medical Context:*\n- 'Mein Herz schlägt unregelmäßig.' (My heart beats irregularly.)\n- 'Ihr Magen verursacht Schmerzen?' (Your stomach is causing pain?)\n- 'Sein Blutdruck ist erhöht.' (His blood pressure is elevated.)\n\n**Dative Case with Prepositions for Location:**\n- 'Die Schmerzen sind in der Lunge.' (The pain is in the lung.)\n- 'Es gibt eine Entzündung an der Niere.' (There is an inflammation on the kidney.)",
+            "tr": "**Nominative and Accusative Cases with Internal Organs**\n\nWhen discussing internal organs, German requires proper case usage based on grammatical function.\n\n*Nominative Case (Subject) - answers 'who/what?':*\n- 'Das Herz pumpt Blut.' (The heart pumps blood.)\n- 'Die Leber filtert Giftstoffe.' (The liver filters toxins.)\n- 'Die Niere produziert Urin.' (The kidney produces urine.)\n\n*Accusative Case (Direct Object) - answers 'whom/what?':*\n- 'Ich untersuche das Herz.' (I examine the heart.)\n- 'Der Arzt behandelt die Leber.' (The doctor treats the liver.)\n- 'Wir überprüfen die Nieren.' (We check the kidneys.)\n\n**Article Changes in Accusative:**\n| Nominative | Accusative | Example |\n|------------|------------|---------|\n| der Magen | den Magen | Ich palpiere den Magen. |\n| die Lunge | die Lunge | Ich höre die Lunge ab. |\n| das Herz | das Herz | Ich untersuche das Herz. |\n\n**Possessive Pronouns with Organs:**\nUse possessive pronouns to describe symptoms related to specific organs.\n\n*Conjugation by Person:*\n- mein Herz, meine Lunge, mein Magen (my heart, my lung, my stomach)\n- Ihr Herz, Ihre Lunge, Ihr Magen (your heart, your lung, your stomach - formal)\n\n*Examples in Medical Context:*\n- 'Mein Herz schlägt unregelmäßig.' (My heart beats irregularly.)\n- 'Ihr Magen verursacht Schmerzen?' (Your stomach is causing pain?)\n- 'Sein Blutdruck ist erhöht.' (His blood pressure is elevated.)\n\n**Dative Case with Prepositions for Location:**\n- 'Die Schmerzen sind in der Lunge.' (The pain is in the lung.)\n- 'Es gibt eine Entzündung an der Niere.' (There is an inflammation on the kidney.)"
         },
         "culturalNotes": {
             "en": "In German hospitals, a thorough patient history (Anamnese) is crucial, with specific questions about organ-related symptoms and previous illnesses.",
@@ -73,12 +55,38 @@
             "tr": "Bu bölüm, temel iç organlar hakkında temel bir anlayış sağlayarak, sizi Tıbbi Almanca için gerekli kelime bilgisi ve dilbilgisi yapılarıyla donatır.",
             "de": "Dieser Abschnitt vermittelt ein grundlegendes Verständnis der wichtigsten inneren Organe und vermittelt Ihnen den wesentlichen Wortschatz und die grammatikalischen Strukturen für das medizinische Deutsch."
         },
-        "learningObjectives": [
-            "Identify and name major internal organs in German.",
-            "Describe the basic function of each listed organ.",
-            "Apply relevant grammatical structures when discussing organ-related symptoms.",
-            "Understand the importance of a detailed patient history regarding internal organ function."
-        ]
+        "learningObjectives": {
+            "en": [
+                "Identify and name major internal organs in German.",
+                "Describe the basic function of each listed organ.",
+                "Apply relevant grammatical structures when discussing organ-related symptoms.",
+                "Understand the importance of a detailed patient history regarding internal organ function."
+            ],
+            "bn": [
+                "Identify and name major internal organs in German.",
+                "Describe the basic function of each listed organ.",
+                "প্রয়োগ করুন relevant grammatical structures when discussing organ-related symptoms.",
+                "বুঝুন the importance of a detailed patient history regarding internal organ function."
+            ],
+            "hi": [
+                "Identify and name major internal organs in German.",
+                "Describe the basic function of each listed organ.",
+                "लागू करें relevant grammatical structures when discussing organ-related symptoms.",
+                "समझें the importance of a detailed patient history regarding internal organ function."
+            ],
+            "ur": [
+                "Identify and name major internal organs in German.",
+                "Describe the basic function of each listed organ.",
+                "لاگو کریں relevant grammatical structures when discussing organ-related symptoms.",
+                "سمجھیں the importance of a detailed patient history regarding internal organ function."
+            ],
+            "tr": [
+                "Identify and name major internal organs in German.",
+                "Describe the basic function of each listed organ.",
+                "Uygulayın relevant grammatical structures when discussing organ-related symptoms.",
+                "Anlayın the importance of a detailed patient history regarding internal organ function."
+            ]
+        }
     },
     "vocabulary": [
         {
@@ -102,7 +110,8 @@
                 "ur": "مریض دل کے ارد گرد درد کی شکایت کر رہا ہے۔",
                 "tr": "Hasta kalp bölgesinde ağrıdan şikayet ediyor."
             },
-            "id": "v03_01"
+            "id": "v03_01",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_01.mp3"
         },
         {
             "germanTerm": "die Lunge",
@@ -125,7 +134,8 @@
                 "ur": "ایکس رے پھیپھڑے پر ایک سایہ دکھا رہا ہے۔",
                 "tr": "Röntgen filmi akciğerde bir gölge gösteriyor."
             },
-            "id": "v03_02"
+            "id": "v03_02",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_02.mp3"
         },
         {
             "germanTerm": "die Leber",
@@ -148,7 +158,8 @@
                 "ur": "مریض کے جگر کی اقدار بلند ہیں۔",
                 "tr": "Hastanın karaciğer değerleri yüksek."
             },
-            "id": "v03_03"
+            "id": "v03_03",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_03.mp3"
         },
         {
             "germanTerm": "die Niere",
@@ -171,7 +182,8 @@
                 "ur": "مریض کو گردے کی دائمی بیماری ہے۔",
                 "tr": "Hastanın kronik böbrek hastalığı var."
             },
-            "id": "v03_04"
+            "id": "v03_04",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_04.mp3"
         },
         {
             "germanTerm": "der Magen",
@@ -194,7 +206,8 @@
                 "ur": "وہ پیٹ درد اور متلی میں مبتلا ہے۔",
                 "tr": "Mide ağrısı ve mide bulantısından şikayet ediyor."
             },
-            "id": "v03_05"
+            "id": "v03_05",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_05.mp3"
         },
         {
             "germanTerm": "der Darm",
@@ -217,7 +230,8 @@
                 "ur": "اگلے منگل کو کولونوسکوپی کی جائے گی۔",
                 "tr": "Kolonoskopi gelecek Salı yapılacak."
             },
-            "id": "v03_06"
+            "id": "v03_06",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_06.mp3"
         },
         {
             "germanTerm": "das Gehirn",
@@ -240,7 +254,8 @@
                 "ur": "فالج دماغ کو نقصان پہنچا سکتا ہے۔",
                 "tr": "Felç beyin hasarına yol açabilir."
             },
-            "id": "v03_07"
+            "id": "v03_07",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_07.mp3"
         },
         {
             "germanTerm": "die Blase",
@@ -263,7 +278,8 @@
                 "ur": "مریض کو مثانے کی سوزش ہے۔",
                 "tr": "Hastanın mesane iltihabı var."
             },
-            "id": "v03_08"
+            "id": "v03_08",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_08.mp3"
         },
         {
             "germanTerm": "die Aorta",
@@ -286,7 +302,8 @@
                 "ur": "شاہ رگ جسم کی اہم شریان ہے۔",
                 "tr": "Aort vücudun ana atardamarıdır."
             },
-            "id": "v03_09"
+            "id": "v03_09",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_09.mp3"
         },
         {
             "germanTerm": "die Vene",
@@ -309,7 +326,8 @@
                 "ur": "ڈاکٹر نے خون لینے کے لیے ایک رگ کو پنکچر کیا۔",
                 "tr": "Doktor kan almak için bir damarı deldi."
             },
-            "id": "v03_10"
+            "id": "v03_10",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_10.mp3"
         },
         {
             "germanTerm": "das Zwerchfell",
@@ -332,7 +350,8 @@
                 "ur": "حجاب حاجز سانس لینے میں اہم کردار ادا کرتا ہے۔",
                 "tr": "Diyafram nefes almada önemli bir rol oynar."
             },
-            "id": "v03_11"
+            "id": "v03_11",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_11.mp3"
         },
         {
             "germanTerm": "die Gallenblase",
@@ -355,7 +374,8 @@
                 "ur": "پتہ پتھری کی وجہ سے نکال دیا گیا۔",
                 "tr": "Safra kesesi, safra taşları nedeniyle çıkarıldı."
             },
-            "id": "v03_12"
+            "id": "v03_12",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_12.mp3"
         },
         {
             "germanTerm": "die Bauchspeicheldrüse",
@@ -378,7 +398,8 @@
                 "ur": "لبلبہ انسولین پیدا کرتا ہے۔",
                 "tr": "Pankreas insülin üretir."
             },
-            "id": "v03_13"
+            "id": "v03_13",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_13.mp3"
         },
         {
             "germanTerm": "die Milz",
@@ -401,7 +422,8 @@
                 "ur": "تلی بڑھ گئی ہے۔",
                 "tr": "Dalak büyümüş."
             },
-            "id": "v03_14"
+            "id": "v03_14",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_14.mp3"
         },
         {
             "germanTerm": "der Dickdarm",
@@ -424,7 +446,8 @@
                 "ur": "بڑی آنت میں پانی جذب ہوتا ہے۔",
                 "tr": "Kalın bağırsakta su emilimi gerçekleşir."
             },
-            "id": "v03_15"
+            "id": "v03_15",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_15.mp3"
         },
         {
             "germanTerm": "der Dünndarm",
@@ -447,7 +470,8 @@
                 "ur": "چھوٹی آنت غذائی اجزاء کے جذب کے لیے ذمہ دار ہے۔",
                 "tr": "İnce bağırsak, besin emiliminden sorumludur."
             },
-            "id": "v03_16"
+            "id": "v03_16",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_16.mp3"
         },
         {
             "germanTerm": "die Speiseröhre",
@@ -470,7 +494,8 @@
                 "ur": "مریض کو نگلنے میں دشواری ہو رہی ہے، ممکنہ طور پر غذا کی نالی کے تنگ ہونے کی وجہ سے۔",
                 "tr": "Hastanın yutkunma sorunları var, muhtemelen yemek borusunun daralmasından kaynaklanıyor."
             },
-            "id": "v03_17"
+            "id": "v03_17",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_17.mp3"
         },
         {
             "germanTerm": "die Schilddrüse",
@@ -493,7 +518,8 @@
                 "ur": "تائرائڈ غدود ہارمون تیار کرتا ہے جو میٹابولزم کو منظم کرتے ہیں۔",
                 "tr": "Tiroid bezi, metabolizmayı düzenleyen hormonlar üretir."
             },
-            "id": "v03_18"
+            "id": "v03_18",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_18.mp3"
         },
         {
             "germanTerm": "der Kehlkopf",
@@ -516,7 +542,8 @@
                 "ur": "حنجرہ آواز پیدا کرنے کا ذمہ دار ہے۔",
                 "tr": "Gırtlak, ses üretiminden sorumludur."
             },
-            "id": "v03_19"
+            "id": "v03_19",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_19.mp3"
         },
         {
             "germanTerm": "das Rückenmark",
@@ -539,7 +566,8 @@
                 "ur": "ریڑھ کی ہڈی کی چوٹ فالج کا باعث بن سکتی ہے۔",
                 "tr": "Omurilik yaralanması felce yol açabilir."
             },
-            "id": "v03_20"
+            "id": "v03_20",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_20.mp3"
         },
         {
             "germanTerm": "die Nebenniere",
@@ -562,7 +590,8 @@
                 "ur": "ایڈرینل غدود ایڈرینالین اور کورٹیسول جیسے ہارمون تیار کرتے ہیں۔",
                 "tr": "Böbrek üstü bezleri, adrenalin ve kortizol gibi hormonlar üretir."
             },
-            "id": "v03_21"
+            "id": "v03_21",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_21.mp3"
         },
         {
             "germanTerm": "das Herzfrequenz",
@@ -585,7 +614,8 @@
                 "ur": "مریض کی دل کی دھڑکن بڑھ گئی ہے۔",
                 "tr": "Hastanın kalp atış hızı yüksek."
             },
-            "id": "v03_22"
+            "id": "v03_22",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_22.mp3"
         },
         {
             "germanTerm": "das Atemvolumen",
@@ -608,7 +638,8 @@
                 "ur": "وینٹیلیشن کے دوران جوار کے حجم کی نگرانی کی گئی۔",
                 "tr": "Ventilasyon sırasında tidal hacim izlendi."
             },
-            "id": "v03_23"
+            "id": "v03_23",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_23.mp3"
         },
         {
             "germanTerm": "die Peristaltik",
@@ -631,7 +662,8 @@
                 "ur": "آنت کی حرکت دودیہ سست ہو گئی تھی۔",
                 "tr": "Bağırsağın peristaltizmi yavaşlamıştı."
             },
-            "id": "v03_24"
+            "id": "v03_24",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_24.mp3"
         },
         {
             "germanTerm": "das Ventrikelsystem",
@@ -654,7 +686,8 @@
                 "ur": "دماغ کا وینٹریکولر سسٹم پھیل گیا تھا۔",
                 "tr": "Beynin ventriküler sistemi genişlemişti."
             },
-            "id": "v03_25"
+            "id": "v03_25",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_25.mp3"
         },
         {
             "germanTerm": "die Harnleiter",
@@ -677,7 +710,8 @@
                 "ur": "نالی ایک پتھر سے بند ہو گئی تھی۔",
                 "tr": "Üreter bir taşla tıkanmıştı."
             },
-            "id": "v03_26"
+            "id": "v03_26",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_26.mp3"
         },
         {
             "germanTerm": "die Harnröhre",
@@ -700,7 +734,8 @@
                 "ur": "مریض کو پیشاب کی نالی کی سوزش تھی۔",
                 "tr": "Hastanın üretrası iltihaplanmıştı."
             },
-            "id": "v03_27"
+            "id": "v03_27",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_27.mp3"
         },
         {
             "germanTerm": "das Pankreassekret",
@@ -723,7 +758,8 @@
                 "ur": "لبلبے کے اخراج کی مقدار کم ہو گئی تھی۔",
                 "tr": "Pankreas salgısının miktarı azalmıştı."
             },
-            "id": "v03_28"
+            "id": "v03_28",
+            "audioUrl": "assets/audio/sections/section_03/vocabulary/v03_28.mp3"
         }
     ],
     "dialogues": [
@@ -753,7 +789,8 @@
                         "hi": "डॉक्टर, मुझे कल से सीने में तेज दर्द हो रहा है।",
                         "ur": "ڈاکٹر، مجھے کل سے سینے میں تیز درد ہو رہا ہے۔",
                         "tr": "Doktor, dün akşamdan beri göğsümde keskin bir ağrı var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_01_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -765,7 +802,8 @@
                         "hi": "मैं समझता हूँ। हम आपके दिल की जाँच के लिए एक ईसीजी करेंगे। नर्स वेबर, कृपया इसकी तैयारी करें।",
                         "ur": "میں سمجھتا ہوں۔ ہم آپ کے دل کی جانچ کے لیے ایک ای سی جی کریں گے۔ نرس ویبر، براہ کرم اس کی تیاری کریں۔",
                         "tr": "Anlıyorum. Kalbinizi kontrol etmek için bir EKG çekeceğiz. Hemşire Weber, lütfen hazırlayın."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_01_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -777,7 +815,8 @@
                         "hi": "हाँ, डॉक्टर। मैं अभी इसका ध्यान रखती हूँ।",
                         "ur": "ہاں، ڈاکٹر۔ میں ابھی اس کا انتظام کرتی ہوں۔",
                         "tr": "Evet doktor. Hemen ilgileniyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_01_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -789,7 +828,8 @@
                         "hi": "श्री मुलर, क्या आपको कोई और शिकायत है?",
                         "ur": "مسٹر مولر، کیا آپ کو کوئی اور شکایت ہے؟",
                         "tr": "Bay Müller, başka şikayetiniz var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_01_line4.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -801,7 +841,8 @@
                         "hi": "हाँ, मुझे सांस लेने में भी बहुत तकलीफ हो रही है।",
                         "ur": "ہاں، مجھے سانس لینے میں بھی بہت تکلیف ہو رہی ہے۔",
                         "tr": "Evet, nefes darlığı da çekiyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_01_line5.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -813,7 +854,8 @@
                         "hi": "यह फेफड़ों की भागीदारी का संकेत दे सकता है। हम इसकी जांच करेंगे।",
                         "ur": "یہ پھیپھڑوں کی شمولیت کی نشاندہی کر سکتا ہے۔ ہم اس کی تحقیقات کریں گے۔",
                         "tr": "Bu akciğerlerin de işin içinde olduğunu gösterebilir. Bunu araştıracağız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_01_line6.mp3"
                 }
             ],
             "id": "d03_01"
@@ -844,7 +886,8 @@
                         "hi": "मुझे कई दिनों से पेट में तेज दर्द हो रहा है, खासकर पेट के ऊपरी दाहिने हिस्से में।",
                         "ur": "مجھے کئی دنوں سے پیٹ میں تیز درد ہو رہا ہے، خاص طور پر پیٹ کے اوپر دائیں جانب۔",
                         "tr": "Günlerdir şiddetli karın ağrım var, özellikle sağ üst karın bölgemde."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_02_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -856,7 +899,8 @@
                         "hi": "क्या आपने मतली या पीलिया भी देखा है?",
                         "ur": "کیا آپ نے متلی یا یرقان بھی دیکھا ہے؟",
                         "tr": "Mide bulantısı veya sarılık da fark ettiniz mi?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_02_line2.mp3"
                 },
                 {
                     "speaker": "Patient Klein",
@@ -868,7 +912,8 @@
                         "hi": "कुछ मतली, हाँ, लेकिन पीलिया नहीं, जहाँ तक मैं बता सकती हूँ।",
                         "ur": "کچھ متلی، ہاں، لیکن یرقان نہیں، جہاں تک میں بتا سکتی ہوں۔",
                         "tr": "Biraz mide bulantısı evet, ama sarılık yok, görebildiğim kadarıyla."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_02_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -880,7 +925,8 @@
                         "hi": "हम आपके रक्त में जिगर के मूल्यों की जांच करेंगे। यह महत्वपूर्ण है।",
                         "ur": "ہم آپ کے خون میں جگر کی اقدار کی جانچ کریں گے۔ یہ اہم ہے۔",
                         "tr": "Kanınızdaki karaciğer değerlerinizi inceleyeceğiz. Bu önemli."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_02_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -892,7 +938,8 @@
                         "hi": "मैं अभी श्रीमती क्लेन से खून निकाल लूंगी।",
                         "ur": "میں ابھی مسز کلین سے خون نکال لوں گی۔",
                         "tr": "Hemen Bayan Klein'dan kan alacağım."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_02_line5.mp3"
                 }
             ],
             "id": "d03_02"
@@ -923,7 +970,8 @@
                         "hi": "मुझे मेरी पीठ के निचले हिस्से में असहनीय दर्द हो रहा है जो कमर क्षेत्र में जा रहा है।",
                         "ur": "مجھے میری کمر کے نچلے حصے میں ناقابل برداشت درد ہو رہا ہے جو کمر کے علاقے میں جا رہا ہے۔",
                         "tr": "Belimin alt kısmında kasıklara vuran dayanılmaz ağrılarım var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_03_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -935,7 +983,8 @@
                         "hi": "यह रीनल कोलिक जैसा लगता है। क्या आपको पेशाब करने में कठिनाई होती है?",
                         "ur": "یہ گردے کی تکلیف کی طرح لگتا ہے۔ کیا آپ کو پیشاب کرنے میں دشواری ہوتی ہے؟",
                         "tr": "Bu böbrek kolikine benziyor. İdrar yapmakta zorlanıyor musunuz?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_03_line2.mp3"
                 },
                 {
                     "speaker": "Patient Baumann",
@@ -947,7 +996,8 @@
                         "hi": "हाँ, यह बहुत दर्दनाक है और मुझे लगातार टॉयलेट जाना पड़ता है, लेकिन मुश्किल से कुछ निकलता है।",
                         "ur": "ہاں، یہ بہت تکلیف دہ ہے اور مجھے مسلسل ٹوائلٹ جانا پڑتا ہے، لیکن بمشکل ہی کچھ نکلتا ہے۔",
                         "tr": "Evet, çok acı verici ve sürekli tuvalete gitmem gerekiyor ama neredeyse hiçbir şey gelmiyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_03_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -959,7 +1009,8 @@
                         "hi": "हम पत्थरों की तलाश के लिए गुर्दे का अल्ट्रासाउंड करेंगे।",
                         "ur": "ہم پتھروں کی تلاش کے لیے گردوں کا الٹراساؤنڈ کریں گے۔",
                         "tr": "Taş aramak için böbreklerin ultrasonunu çekeceğiz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_03_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -971,7 +1022,8 @@
                         "hi": "मैं अल्ट्रासाउंड कक्ष तैयार करूँगी।",
                         "ur": "میں الٹراساؤنڈ کمرہ تیار کروں گی۔",
                         "tr": "Ultrason odasını hazırlayacağım."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_03_line5.mp3"
                 }
             ],
             "id": "d03_03"
@@ -1002,7 +1054,8 @@
                         "hi": "मुझे हफ्तों से बार-बार पेट में ऐंठन और दस्त हो रहे हैं।",
                         "ur": "مجھے ہفتوں سے بار بار پیٹ میں درد اور اسہال ہو رہا ہے۔",
                         "tr": "Haftalardır tekrar eden mide kramplarım ve ishalim var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_04_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -1014,7 +1067,8 @@
                         "hi": "क्या आपने कुछ असामान्य खाया है या तनाव में रही हैं?",
                         "ur": "کیا آپ نے کچھ غیر معمولی کھایا ہے یا تناؤ میں رہی ہیں؟",
                         "tr": "Alışılmadık bir şey yedin mi veya stres altında mıydın?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_04_line2.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -1026,7 +1080,8 @@
                         "hi": "वास्तव में नहीं। मेरे मल त्याग भी बहुत अनियमित हैं। कभी कब्ज, तो फिर दस्त।",
                         "ur": "دراصل نہیں۔ میرے پاخانے بھی بہت بے قاعدہ ہیں۔ کبھی قبض، تو کبھی اسہال۔",
                         "tr": "Aslında hayır. Bağırsak hareketlerim de çok düzensiz. Bazen kabızlık, sonra tekrar ishal."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_04_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -1038,7 +1093,8 @@
                         "hi": "हमें आपकी आंतों की अधिक बारीकी से जांच करनी चाहिए। एक कोलोनोस्कोपी उपयोगी हो सकती है।",
                         "ur": "ہمیں آپ کی آنتوں کا زیادہ گہرائی سے جائزہ لینا چاہیے۔ ایک کولونوسکوپی کارآمد ثابت ہو سکتی ہے۔",
                         "tr": "Bağırsaklarınızı daha yakından incelemeliyiz. Kolonoskopi yararlı olabilir."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_04_line4.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -1050,7 +1106,8 @@
                         "hi": "ओह, यह सुखद नहीं लगता है।",
                         "ur": "اوہ، یہ خوشگوار نہیں لگتا ہے۔",
                         "tr": "Ah, kulağa hoş gelmiyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_04_line5.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -1062,7 +1119,8 @@
                         "hi": "कारण ढूंढना महत्वपूर्ण है। चिंता न करें, हम आपको इसके लिए अच्छी तरह से तैयार करेंगे।",
                         "ur": "وجہ تلاش کرنا ضروری ہے۔ فکر نہ کرو، ہم آپ کو اس کے لیے اچھی طرح سے تیار کریں گے۔",
                         "tr": "Nedeni bulmak önemlidir. Endişelenmeyin, sizi bunun için iyi hazırlayacağız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_04_line6.mp3"
                 }
             ],
             "id": "d03_04"
@@ -1093,7 +1151,8 @@
                         "hi": "श्री लेहमन भटके हुए लगते हैं और उन्हें आज की तारीख भी मुश्किल से याद है।",
                         "ur": "مسٹر لیمن بھٹکے ہوئے نظر آتے ہیں اور انہیں آج کی تاریخ بھی مشکل سے یاد ہے۔",
                         "tr": "Bay Lehmann kafası karışmış görünüyor ve bugünün tarihini bile zor hatırlıyor."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_05_line1.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -1105,7 +1164,8 @@
                         "hi": "यह चिंताजनक है। क्या उन्हें कोई पूर्व-मौजूदा स्थितियाँ हैं?",
                         "ur": "یہ تشویشناک ہے۔ کیا انہیں کوئی پہلے سے موجودہ حالات ہیں؟",
                         "tr": "Bu endişe verici. Önceden var olan herhangi bir rahatsızlığı var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_05_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -1117,7 +1177,8 @@
                         "hi": "जहाँ तक मुझे पता है, नहीं। केवल हल्का उच्च रक्तचाप।",
                         "ur": "جہاں تک میں جانتا ہوں، نہیں۔ صرف ہلکا ہائی بلڈ پریشر۔",
                         "tr": "Bildiğim kadarıyla hayır. Sadece hafif yüksek tansiyon."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_05_line3.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -1129,7 +1190,8 @@
                         "hi": "हमें मस्तिष्क का सीटी स्कैन चाहिए। नर्स वेबर, कृपया इसे जल्द से जल्द व्यवस्थित करें।",
                         "ur": "ہمیں دماغ کا سی ٹی سکین درکار ہے۔ نرس ویبر، براہ کرم اسے جلد از جلد ترتیب دیں۔",
                         "tr": "Beynin BT taramasına ihtiyacımız var. Hemşire Weber, lütfen bunu en kısa sürede organize edin."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_05_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -1141,7 +1203,8 @@
                         "hi": "समझ गया, डॉक्टर। मैं इसका ध्यान रखूँगी।",
                         "ur": "سمجھ گیا، ڈاکٹر۔ میں اس کا خیال رکھوں گی۔",
                         "tr": "Anlaşıldı doktor. Ben ilgilenirim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_05_line5.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -1153,7 +1216,8 @@
                         "hi": "हमें भ्रम का कारण ढूंढना होगा।",
                         "ur": "ہمیں الجھن کی وجہ تلاش کرنی ہوگی۔",
                         "tr": "Kafa karışıklığının bir nedenini bulmalıyız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_03/dialogues/d03_05_line6.mp3"
                 }
             ],
             "id": "d03_05"

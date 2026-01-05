@@ -43,6 +43,7 @@ dependencies:
   shimmer: ^3.0.0
   percent_indicator: ^4.2.4
   cupertino_icons: ^1.0.8
+  flutter_markdown: ^0.7.6
   
   # Navigation
   go_router: ^14.8.0
@@ -67,5 +68,114 @@ flutter:
   assets:
     - assets/images/
     - assets/icons/
-    - assets/audio/
+    - assets/audio/sections/section_01/vocabulary/
+    - assets/audio/sections/section_01/dialogues/
+    - assets/audio/sections/section_02/vocabulary/
+    - assets/audio/sections/section_02/dialogues/
+    - assets/audio/sections/section_03/vocabulary/
+    - assets/audio/sections/section_03/dialogues/
+    - assets/audio/sections/section_04/vocabulary/
+    - assets/audio/sections/section_04/dialogues/
+    - assets/audio/sections/section_05/vocabulary/
+    - assets/audio/sections/section_05/dialogues/
+    - assets/audio/sections/section_06/vocabulary/
+    - assets/audio/sections/section_06/dialogues/
+    - assets/audio/sections/section_07/vocabulary/
+    - assets/audio/sections/section_07/dialogues/
+    - assets/audio/sections/section_08/vocabulary/
+    - assets/audio/sections/section_08/dialogues/
+    - assets/audio/sections/section_09/vocabulary/
+    - assets/audio/sections/section_09/dialogues/
+    - assets/audio/sections/section_10/vocabulary/
+    - assets/audio/sections/section_10/dialogues/
+    - assets/audio/sections/section_11/vocabulary/
+    - assets/audio/sections/section_11/dialogues/
+    - assets/audio/sections/section_12/vocabulary/
+    - assets/audio/sections/section_12/dialogues/
+    - assets/audio/sections/section_13/vocabulary/
+    - assets/audio/sections/section_13/dialogues/
+    - assets/audio/sections/section_14/vocabulary/
+    - assets/audio/sections/section_14/dialogues/
+    - assets/audio/sections/section_15/vocabulary/
+    - assets/audio/sections/section_15/dialogues/
+    - assets/audio/sections/section_16/vocabulary/
+    - assets/audio/sections/section_16/dialogues/
+    - assets/audio/sections/section_17/vocabulary/
+    - assets/audio/sections/section_17/dialogues/
+    - assets/audio/sections/section_18/vocabulary/
+    - assets/audio/sections/section_18/dialogues/
+    - assets/audio/sections/section_19/vocabulary/
+    - assets/audio/sections/section_19/dialogues/
+    - assets/audio/sections/section_20/vocabulary/
+    - assets/audio/sections/section_20/dialogues/
+    - assets/audio/sections/section_21/vocabulary/
+    - assets/audio/sections/section_21/dialogues/
+    - assets/audio/sections/section_22/vocabulary/
+    - assets/audio/sections/section_22/dialogues/
+    - assets/audio/sections/section_23/vocabulary/
+    - assets/audio/sections/section_23/dialogues/
+    - assets/audio/sections/section_24/vocabulary/
+    - assets/audio/sections/section_24/dialogues/
+    - assets/audio/sections/section_25/vocabulary/
+    - assets/audio/sections/section_25/dialogues/
+    - assets/audio/sections/section_26/vocabulary/
+    - assets/audio/sections/section_26/dialogues/
+    - assets/audio/sections/section_27/vocabulary/
+    - assets/audio/sections/section_27/dialogues/
+    - assets/audio/sections/section_28/vocabulary/
+    - assets/audio/sections/section_28/dialogues/
+    - assets/audio/sections/section_29/vocabulary/
+    - assets/audio/sections/section_29/dialogues/
+    - assets/audio/sections/section_30/vocabulary/
+    - assets/audio/sections/section_30/dialogues/
+    - assets/audio/sections/section_31/vocabulary/
+    - assets/audio/sections/section_31/dialogues/
+    - assets/audio/sections/section_32/vocabulary/
+    - assets/audio/sections/section_32/dialogues/
+    - assets/audio/sections/section_33/vocabulary/
+    - assets/audio/sections/section_33/dialogues/
+    - assets/audio/sections/section_34/vocabulary/
+    - assets/audio/sections/section_34/dialogues/
+    - assets/audio/sections/section_35/vocabulary/
+    - assets/audio/sections/section_35/dialogues/
+    - assets/audio/sections/section_36/vocabulary/
+    - assets/audio/sections/section_36/dialogues/
+    - assets/audio/sections/section_37/vocabulary/
+    - assets/audio/sections/section_37/dialogues/
+    - assets/audio/sections/section_38/vocabulary/
+    - assets/audio/sections/section_38/dialogues/
+    - assets/audio/sections/section_39/vocabulary/
+    - assets/audio/sections/section_39/dialogues/
+    - assets/audio/sections/section_40/vocabulary/
+    - assets/audio/sections/section_40/dialogues/
+    - assets/audio/sections/section_41/vocabulary/
+    - assets/audio/sections/section_41/dialogues/
+    - assets/audio/sections/section_42/vocabulary/
+    - assets/audio/sections/section_42/dialogues/
+    - assets/audio/sections/section_43/vocabulary/
+    - assets/audio/sections/section_43/dialogues/
+    - assets/audio/sections/section_44/vocabulary/
+    - assets/audio/sections/section_44/dialogues/
+    - assets/audio/sections/section_45/vocabulary/
+    - assets/audio/sections/section_45/dialogues/
+    - assets/audio/sections/section_46/vocabulary/
+    - assets/audio/sections/section_46/dialogues/
+    - assets/audio/sections/section_47/vocabulary/
+    - assets/audio/sections/section_47/dialogues/
+    - assets/audio/sections/section_48/vocabulary/
+    - assets/audio/sections/section_48/dialogues/
+    - assets/audio/sections/section_49/vocabulary/
+    - assets/audio/sections/section_49/dialogues/
+    - assets/audio/sections/section_50/vocabulary/
+    - assets/audio/sections/section_50/dialogues/
+    - assets/audio/sections/section_51/vocabulary/
+    - assets/audio/sections/section_51/dialogues/
+    - assets/audio/sections/section_52/vocabulary/
+    - assets/audio/sections/section_52/dialogues/
+    - assets/audio/sections/section_53/vocabulary/
+    - assets/audio/sections/section_53/dialogues/
+    - assets/audio/sections/section_54/vocabulary/
+    - assets/audio/sections/section_54/dialogues/
+    - assets/audio/sections/section_55/vocabulary/
+    - assets/audio/sections/section_55/dialogues/
     - content/sections/

@@ -1,0 +1,1035 @@
+{
+    "id": "section_01a",
+    "phaseId": "phase1",
+    "order": 2,
+    "titleDe": "Die deutschen Artikel",
+    "title": {
+        "en": "German Articles and Their Use",
+        "de": "Die deutschen Artikel und ihre Verwendung",
+        "bn": "জার্মান আর্টিকেল এবং তাদের ব্যবহার",
+        "hi": "जर्मन आर्टिकल्स और उनका उपयोग",
+        "ur": "جرمن آرٹیکلز اور ان کا استعمال",
+        "tr": "Almanca Artikeller ve Kullanımları"
+    },
+    "description": {
+        "en": "Master the German articles (der, die, das) essential for medical communication. Learn definite and indefinite articles, their cases, and medical vocabulary patterns.",
+        "de": "Beherrschen Sie die deutschen Artikel (der, die, das), die für die medizinische Kommunikation unerlässlich sind. Lernen Sie bestimmte und unbestimmte Artikel, ihre Fälle und medizinische Vokabelmuster.",
+        "bn": "চিকিৎসা যোগাযোগের জন্য অপরিহার্য জার্মান আর্টিকেল (der, die, das) আয়ত্ত করুন। নির্দিষ্ট এবং অনির্দিষ্ট আর্টিকেল, তাদের কেস এবং চিকিৎসা শব্দভাণ্ডারের ধরণ শিখুন।",
+        "hi": "चिकित्सा संचार के लिए आवश्यक जर्मन आर्टिकल्स (der, die, das) में महारत हासिल करें। निश्चित और अनिश्चित आर्टिकल्स, उनके केस और चिकित्सा शब्दावली पैटर्न सीखें।",
+        "ur": "طبی مواصلات کے لیے ضروری جرمن آرٹیکلز (der, die, das) میں مہارت حاصل کریں۔ معین اور غیر معین آرٹیکلز، ان کے کیسز اور طبی الفاظ کے پیٹرن سیکھیں۔",
+        "tr": "Tıbbi iletişim için gerekli Almanca artikelleri (der, die, das) öğrenin. Belirli ve belirsiz artikelleri, hallerini ve tıbbi kelime kalıplarını öğrenin."
+    },
+    "level": "A1",
+    "estimatedMinutes": 50,
+    "isPremium": false,
+    "textContent": {
+        "introduction": {
+            "en": "German articles are one of the most important grammatical elements to master for medical communication. Unlike English, which uses only 'the' (definite) and 'a/an' (indefinite), German has three genders (masculine, feminine, neuter), each with its own definite article. Understanding articles is crucial because they affect word endings, adjective forms, and overall sentence structure. In medical German, articles help distinguish between similar terms and are essential for precise documentation.",
+            "de": "Deutsche Artikel gehören zu den wichtigsten grammatikalischen Elementen für die medizinische Kommunikation. Im Gegensatz zum Englischen, das nur 'the' (bestimmt) und 'a/an' (unbestimmt) verwendet, hat das Deutsche drei Geschlechter (männlich, weiblich, sächlich), jedes mit seinem eigenen bestimmten Artikel. Das Verständnis von Artikeln ist entscheidend, da sie Wortendungen, Adjektivformen und die gesamte Satzstruktur beeinflussen.",
+            "bn": "জার্মান আর্টিকেল চিকিৎসা যোগাযোগের জন্য আয়ত্ত করার সবচেয়ে গুরুত্বপূর্ণ ব্যাকরণগত উপাদানগুলির মধ্যে একটি। ইংরেজির বিপরীতে, যা শুধুমাত্র 'the' (নির্দিষ্ট) এবং 'a/an' (অনির্দিষ্ট) ব্যবহার করে, জার্মানে তিনটি লিঙ্গ (পুরুষ, স্ত্রী, নিউট্রাল) রয়েছে, প্রত্যেকটির নিজস্ব নির্দিষ্ট আর্টিকেল রয়েছে। আর্টিকেল বোঝা অত্যন্ত গুরুত্বপূর্ণ কারণ তারা শব্দের শেষাংশ, বিশেষণের ফর্ম এবং সামগ্রিক বাক্য গঠনকে প্রভাবিত করে।",
+            "hi": "जर्मन आर्टिकल्स चिकित्सा संचार के लिए महारत हासिल करने के सबसे महत्वपूर्ण व्याकरणिक तत्वों में से एक हैं। अंग्रेजी के विपरीत, जो केवल 'the' (निश्चित) और 'a/an' (अनिश्चित) का उपयोग करती है, जर्मन में तीन लिंग (पुल्लिंग, स्त्रीलिंग, नपुंसकलिंग) हैं, प्रत्येक का अपना निश्चित आर्टिकल है। आर्टिकल्स को समझना महत्वपूर्ण है क्योंकि वे शब्द अंत, विशेषण रूपों और समग्र वाक्य संरचना को प्रभावित करते हैं।",
+            "ur": "جرمن آرٹیکلز طبی مواصلات کے لیے سیکھنے کے سب سے اہم گرائمر عناصر میں سے ایک ہیں۔ انگریزی کے برعکس، جو صرف 'the' (معین) اور 'a/an' (غیر معین) استعمال کرتی ہے، جرمن میں تین جنسیں (مذکر، مونث، بے جنس) ہیں، ہر ایک کا اپنا معین آرٹیکل ہے۔ آرٹیکلز کو سمجھنا بہت ضروری ہے کیونکہ وہ لفظ کے آخر، صفت کی شکلوں اور مجموعی جملے کی ساخت کو متاثر کرتے ہیں۔",
+            "tr": "Almanca artikeller, tıbbi iletişim için ustalaşılması gereken en önemli dilbilgisi unsurlarından biridir. Yalnızca 'the' (belirli) ve 'a/an' (belirsiz) kullanan İngilizce'nin aksine, Almanca'da her birinin kendi belirli artikeli olan üç cinsiyet (eril, dişil, nötr) vardır. Artikelleri anlamak çok önemlidir çünkü kelime sonlarını, sıfat formlarını ve genel cümle yapısını etkilerler."
+        },
+        "grammarFocus": {
+            "en": "The Three German Definite Articles\n\nGerman has three grammatical genders, each with its own definite article:\n\nMasculine (der): der Arzt (the doctor), der Patient (the patient), der Kopf (the head)\n\nFeminine (die): die Ärztin (the female doctor), die Krankheit (the illness), die Hand (the hand)\n\nNeuter (das): das Krankenhaus (the hospital), das Medikament (the medication), das Herz (the heart)\n\nIndefinite Articles (a/an):\n- ein (masculine/neuter): ein Arzt, ein Krankenhaus\n- eine (feminine): eine Ärztin, eine Krankheit\n\nArticle Changes by Case:\n\nNominative (subject): Der Patient ist krank. (The patient is sick.)\nAccusative (direct object): Ich sehe den Patienten. (I see the patient.)\nDative (indirect object): Ich gebe dem Patienten das Medikament. (I give the patient the medication.)\n\nMedical Gender Patterns:\n- Words ending in -ung are feminine: die Untersuchung (examination), die Behandlung (treatment)\n- Words ending in -ment are neuter: das Medikament, das Dokument\n- Words ending in -er (for people) are often masculine: der Pfleger (male nurse), der Helfer (helper)\n\nPractical Examples:\n- Der Arzt untersucht die Patientin. (The doctor examines the female patient.)\n- Das Rezept ist für den Patienten. (The prescription is for the patient.)\n- Die Schwester gibt dem Kind die Medizin. (The nurse gives the child the medicine.)",
+            "de": "Die drei bestimmten Artikel im Deutschen\n\nDeutsch hat drei grammatische Geschlechter, jedes mit seinem eigenen bestimmten Artikel:\n\nMaskulin (der): der Arzt, der Patient, der Kopf\n\nFeminin (die): die Ärztin, die Krankheit, die Hand\n\nNeutrum (das): das Krankenhaus, das Medikament, das Herz\n\nUnbestimmte Artikel:\n- ein (maskulin/neutrum): ein Arzt, ein Krankenhaus\n- eine (feminin): eine Ärztin, eine Krankheit\n\nArtikeländerungen nach Kasus:\n\nNominativ (Subjekt): Der Patient ist krank.\nAkkusativ (direktes Objekt): Ich sehe den Patienten.\nDativ (indirektes Objekt): Ich gebe dem Patienten das Medikament.\n\nMedizinische Geschlechtsmuster:\n- Wörter auf -ung sind feminin: die Untersuchung, die Behandlung\n- Wörter auf -ment sind neutrum: das Medikament, das Dokument\n- Wörter auf -er (für Personen) sind oft maskulin: der Pfleger, der Helfer\n\nPraktische Beispiele:\n- Der Arzt untersucht die Patientin.\n- Das Rezept ist für den Patienten.\n- Die Schwester gibt dem Kind die Medizin.",
+            "bn": "তিনটি জার্মান নির্দিষ্ট আর্টিকেল\n\nজার্মানে তিনটি ব্যাকরণগত লিঙ্গ আছে, প্রতিটির নিজস্ব নির্দিষ্ট আর্টিকেল:\n\nপুরুষলিঙ্গ (der): der Arzt (ডাক্তার), der Patient (রোগী), der Kopf (মাথা)\n\nস্ত্রীলিঙ্গ (die): die Ärztin (মহিলা ডাক্তার), die Krankheit (অসুস্থতা), die Hand (হাত)\n\nক্লীবলিঙ্গ (das): das Krankenhaus (হাসপাতাল), das Medikament (ওষুধ), das Herz (হৃদয়)\n\nঅনির্দিষ্ট আর্টিকেল:\n- ein (পুরুষ/ক্লীব): ein Arzt, ein Krankenhaus\n- eine (স্ত্রী): eine Ärztin, eine Krankheit\n\nকেস অনুযায়ী আর্টিকেল পরিবর্তন:\n\nনমিনেটিভ (কর্তা): Der Patient ist krank. (রোগী অসুস্থ।)\nঅ্যাকুজেটিভ (কর্ম): Ich sehe den Patienten. (আমি রোগীকে দেখছি।)\nডেটিভ (পরোক্ষ কর্ম): Ich gebe dem Patienten das Medikament. (আমি রোগীকে ওষুধ দিচ্ছি।)\n\nচিকিৎসা লিঙ্গ প্যাটার্ন:\n- -ung দিয়ে শেষ শব্দ স্ত্রীলিঙ্গ: die Untersuchung (পরীক্ষা), die Behandlung (চিকিৎসা)\n- -ment দিয়ে শেষ শব্দ ক্লীবলিঙ্গ: das Medikament, das Dokument\n- -er দিয়ে শেষ শব্দ (ব্যক্তি) প্রায়ই পুরুষলিঙ্গ: der Pfleger (পুরুষ নার্স), der Helfer (সহায়ক)\n\nব্যবহারিক উদাহরণ:\n- Der Arzt untersucht die Patientin. (ডাক্তার মহিলা রোগীকে পরীক্ষা করছেন।)\n- Das Rezept ist für den Patienten. (প্রেসক্রিপশন রোগীর জন্য।)\n- Die Schwester gibt dem Kind die Medizin. (নার্স শিশুকে ওষুধ দিচ্ছেন।)",
+            "hi": "तीन जर्मन निश्चित आर्टिकल\n\nजर्मन में तीन व्याकरणिक लिंग हैं, प्रत्येक का अपना निश्चित आर्टिकल:\n\nपुल्लिंग (der): der Arzt (डॉक्टर), der Patient (रोगी), der Kopf (सिर)\n\nस्त्रीलिंग (die): die Ärztin (महिला डॉक्टर), die Krankheit (बीमारी), die Hand (हाथ)\n\nनपुंसकलिंग (das): das Krankenhaus (अस्पताल), das Medikament (दवा), das Herz (हृदय)\n\nअनिश्चित आर्टिकल:\n- ein (पुल्लिंग/नपुंसकलिंग): ein Arzt, ein Krankenhaus\n- eine (स्त्रीलिंग): eine Ärztin, eine Krankheit\n\nकेस के अनुसार आर्टिकल परिवर्तन:\n\nनॉमिनेटिव (कर्ता): Der Patient ist krank. (रोगी बीमार है।)\nएक्यूसेटिव (कर्म): Ich sehe den Patienten. (मैं रोगी को देखता हूं।)\nडेटिव (अप्रत्यक्ष कर्म): Ich gebe dem Patienten das Medikament. (मैं रोगी को दवा देता हूं।)\n\nचिकित्सा लिंग पैटर्न:\n- -ung से समाप्त शब्द स्त्रीलिंग: die Untersuchung (जांच), die Behandlung (उपचार)\n- -ment से समाप्त शब्द नपुंसकलिंग: das Medikament, das Dokument\n- -er से समाप्त शब्द (व्यक्ति) अक्सर पुल्लिंग: der Pfleger (पुरुष नर्स), der Helfer (सहायक)\n\nव्यावहारिक उदाहरण:\n- Der Arzt untersucht die Patientin. (डॉक्टर महिला रोगी की जांच करता है।)\n- Das Rezept ist für den Patienten. (प्रिस्क्रिप्शन रोगी के लिए है।)\n- Die Schwester gibt dem Kind die Medizin. (नर्स बच्चे को दवा देती है।)",
+            "ur": "تین جرمن معین آرٹیکلز\n\nجرمن میں تین گرائمر جنسیں ہیں، ہر ایک کا اپنا معین آرٹیکل:\n\nمذکر (der): der Arzt (ڈاکٹر)، der Patient (مریض)، der Kopf (سر)\n\nمونث (die): die Ärztin (خاتون ڈاکٹر)، die Krankheit (بیماری)، die Hand (ہاتھ)\n\nبے جنس (das): das Krankenhaus (ہسپتال)، das Medikament (دوائی)، das Herz (دل)\n\nغیر معین آرٹیکلز:\n- ein (مذکر/بے جنس): ein Arzt، ein Krankenhaus\n- eine (مونث): eine Ärztin، eine Krankheit\n\nکیس کے مطابق آرٹیکل تبدیلیاں:\n\nنامینیٹو (فاعل): Der Patient ist krank. (مریض بیمار ہے۔)\nایکوزیٹو (مفعول): Ich sehe den Patienten. (میں مریض کو دیکھتا ہوں۔)\nڈیٹو (بالواسطہ مفعول): Ich gebe dem Patienten das Medikament. (میں مریض کو دوائی دیتا ہوں۔)\n\nطبی جنس پیٹرن:\n- -ung سے ختم ہونے والے الفاظ مونث ہیں: die Untersuchung (معائنہ)، die Behandlung (علاج)\n- -ment سے ختم ہونے والے الفاظ بے جنس ہیں: das Medikament، das Dokument\n- -er سے ختم ہونے والے الفاظ (افراد) اکثر مذکر ہیں: der Pfleger (مرد نرس)، der Helfer (مددگار)\n\nعملی مثالیں:\n- Der Arzt untersucht die Patientin. (ڈاکٹر خاتون مریض کا معائنہ کرتا ہے۔)\n- Das Rezept ist für den Patienten. (نسخہ مریض کے لیے ہے۔)\n- Die Schwester gibt dem Kind die Medizin. (نرس بچے کو دوائی دیتی ہے۔)",
+            "tr": "Üç Almanca Belirli Artikel\n\nAlmanca'da her birinin kendi belirli artikeli olan üç dilbilgisel cinsiyet vardır:\n\nEril (der): der Arzt (doktor), der Patient (hasta), der Kopf (baş)\n\nDişil (die): die Ärztin (kadın doktor), die Krankheit (hastalık), die Hand (el)\n\nNötr (das): das Krankenhaus (hastane), das Medikament (ilaç), das Herz (kalp)\n\nBelirsiz Artikeller:\n- ein (eril/nötr): ein Arzt, ein Krankenhaus\n- eine (dişil): eine Ärztin, eine Krankheit\n\nHallere Göre Artikel Değişiklikleri:\n\nYalın hal (özne): Der Patient ist krank. (Hasta hasta.)\nBelirtme hali (nesne): Ich sehe den Patienten. (Hastayı görüyorum.)\nYönelme hali (dolaylı nesne): Ich gebe dem Patienten das Medikament. (Hastaya ilacı veriyorum.)\n\nTıbbi Cinsiyet Kalıpları:\n- -ung ile biten kelimeler dişildir: die Untersuchung (muayene), die Behandlung (tedavi)\n- -ment ile biten kelimeler nötrdür: das Medikament, das Dokument\n- -er ile biten kelimeler (kişiler) genellikle erildir: der Pfleger (erkek hemşire), der Helfer (yardımcı)\n\nPratik Örnekler:\n- Der Arzt untersucht die Patientin. (Doktor kadın hastayı muayene ediyor.)\n- Das Rezept ist für den Patienten. (Reçete hasta için.)\n- Die Schwester gibt dem Kind die Medizin. (Hemşire çocuğa ilacı veriyor.)"
+        },
+        "culturalNotes": {
+            "en": "Precision in article usage is highly valued in German medical documentation. Using the wrong article can lead to confusion or ambiguity in medical records. German medical professionals pay close attention to grammatical accuracy in patient charts, discharge letters (Arztbriefe), and prescriptions. Additionally, many medical terms have Latin or Greek origins with specific article assignments that must be memorized.",
+            "de": "Präzision bei der Verwendung von Artikeln wird in der deutschen medizinischen Dokumentation sehr geschätzt. Die Verwendung des falschen Artikels kann zu Verwirrung oder Mehrdeutigkeit in medizinischen Aufzeichnungen führen. Deutsche Mediziner achten sehr auf grammatikalische Genauigkeit in Patientenakten, Arztbriefen und Rezepten.",
+            "bn": "জার্মান চিকিৎসা ডকুমেন্টেশনে আর্টিকেল ব্যবহারে নির্ভুলতা অত্যন্ত মূল্যবান। ভুল আর্টিকেল ব্যবহার করলে মেডিকেল রেকর্ডে বিভ্রান্তি বা অস্পষ্টতা হতে পারে। জার্মান চিকিৎসা পেশাদাররা রোগীর চার্ট, ডিসচার্জ লেটার এবং প্রেসক্রিপশনে ব্যাকরণগত নির্ভুলতার প্রতি গভীর মনোযোগ দেন।",
+            "hi": "जर्मन चिकित्सा दस्तावेज़ीकरण में आर्टिकल उपयोग में सटीकता को अत्यधिक महत्व दिया जाता है। गलत आर्टिकल का उपयोग करने से मेडिकल रिकॉर्ड में भ्रम या अस्पष्टता हो सकती है। जर्मन चिकित्सा पेशेवर रोगी चार्ट, डिस्चार्ज पत्रों और प्रिस्क्रिप्शन में व्याकरणिक सटीकता पर बारीकी से ध्यान देते हैं।",
+            "ur": "جرمن طبی دستاویزات میں آرٹیکل کے استعمال میں درستگی کو بہت اہمیت دی جاتی ہے۔ غلط آرٹیکل استعمال کرنے سے طبی ریکارڈز میں الجھن یا ابہام پیدا ہو سکتا ہے۔ جرمن طبی پیشہ ور مریض کے چارٹس، ڈسچارج لیٹرز اور نسخوں میں گرائمر کی درستگی پر بہت توجہ دیتے ہیں۔",
+            "tr": "Alman tıbbi dokümantasyonunda artikel kullanımında hassasiyet çok değerlidir. Yanlış artikel kullanmak tıbbi kayıtlarda karışıklığa veya belirsizliğe yol açabilir. Alman tıp profesyonelleri hasta çizelgeleri, taburcu mektupları ve reçetelerde dilbilgisel doğruluğa çok dikkat ederler."
+        },
+        "summary": {
+            "en": "This section provided a comprehensive understanding of German articles (der, die, das) and their cases. You learned the three genders, how articles change in different grammatical cases, and discovered patterns for determining noun gender in medical vocabulary. Mastering articles is fundamental for all subsequent German medical learning.",
+            "de": "Dieser Abschnitt vermittelte ein umfassendes Verständnis der deutschen Artikel (der, die, das) und ihrer Fälle. Sie haben die drei Geschlechter gelernt, wie sich Artikel in verschiedenen grammatikalischen Fällen ändern, und Muster zur Bestimmung des Substantivgeschlechts im medizinischen Vokabular entdeckt.",
+            "bn": "এই বিভাগটি জার্মান আর্টিকেল (der, die, das) এবং তাদের কেস সম্পর্কে একটি বিস্তৃত বোঝাপড়া প্রদান করেছে। আপনি তিনটি লিঙ্গ শিখেছেন, বিভিন্ন ব্যাকরণগত কেসে কীভাবে আর্টিকেল পরিবর্তন হয় এবং চিকিৎসা শব্দভাণ্ডারে বিশেষ্যের লিঙ্গ নির্ধারণের প্যাটার্ন আবিষ্কার করেছেন।",
+            "hi": "इस खंड ने जर्मन आर्टिकल्स (der, die, das) और उनके केसों की व्यापक समझ प्रदान की। आपने तीन लिंग सीखे, विभिन्न व्याकरणिक केसों में आर्टिकल्स कैसे बदलते हैं, और चिकित्सा शब्दावली में संज्ञा लिंग निर्धारित करने के पैटर्न खोजे।",
+            "ur": "اس حصے نے جرمن آرٹیکلز (der, die, das) اور ان کے کیسز کی جامع تفہیم فراہم کی۔ آپ نے تین جنسیں سیکھیں، مختلف گرائمر کیسز میں آرٹیکلز کیسے بدلتے ہیں، اور طبی الفاظ میں اسم کی جنس کا تعین کرنے کے پیٹرن دریافت کیے۔",
+            "tr": "Bu bölüm, Almanca artikeller (der, die, das) ve halleri hakkında kapsamlı bir anlayış sağladı. Üç cinsiyeti, artikellerin farklı dilbilgisel hallerde nasıl değiştiğini öğrendiniz ve tıbbi kelime dağarcığında isim cinsiyetini belirleme kalıplarını keşfettiniz."
+        },
+        "learningObjectives": {
+            "en": [
+                "Correctly identify and use der, die, das with medical vocabulary",
+                "Apply articles in nominative, accusative, and dative cases",
+                "Recognize gender patterns in German medical terminology",
+                "Use indefinite articles (ein, eine) appropriately in clinical contexts",
+                "Construct grammatically correct sentences with proper article agreement"
+            ],
+            "bn": [
+                "Correctly identify and ব্যবহার করুন der, die, das with medical vocabulary",
+                "প্রয়োগ করুন articles in nominative, accusative, and dative cases",
+                "Recognize gender patterns in German medical terminology",
+                "ব্যবহার করুন indefinite articles (ein, eine) appropriately in clinical contexts",
+                "Construct grammatically correct sentences with proper article agreement"
+            ],
+            "hi": [
+                "Correctly identify and उपयोग करें der, die, das with medical vocabulary",
+                "लागू करें articles in nominative, accusative, and dative cases",
+                "Recognize gender patterns in German medical terminology",
+                "उपयोग करें indefinite articles (ein, eine) appropriately in clinical contexts",
+                "Construct grammatically correct sentences with proper article agreement"
+            ],
+            "ur": [
+                "Correctly identify and استعمال کریں der, die, das with medical vocabulary",
+                "لاگو کریں articles in nominative, accusative, and dative cases",
+                "Recognize gender patterns in German medical terminology",
+                "استعمال کریں indefinite articles (ein, eine) appropriately in clinical contexts",
+                "Construct grammatically correct sentences with proper article agreement"
+            ],
+            "tr": [
+                "Correctly identify and Kullanın der, die, das with medical vocabulary",
+                "Uygulayın articles in nominative, accusative, and dative cases",
+                "Recognize gender patterns in German medical terminology",
+                "Kullanın indefinite articles (ein, eine) appropriately in clinical contexts",
+                "Construct grammatically correct sentences with proper article agreement"
+            ]
+        }
+    },
+    "vocabulary": [
+        {
+            "germanTerm": "der Artikel",
+            "article": "der",
+            "plural": "die Artikel",
+            "pronunciation": "aʁˈtiːkl̩",
+            "category": "noun",
+            "translation": {
+                "en": "the article (grammatical)",
+                "de": "der Artikel",
+                "bn": "আর্টিকেল (ব্যাকরণগত)",
+                "hi": "आर्टिकल (व्याकरणिक)",
+                "ur": "آرٹیکل (گرائمر)",
+                "tr": "artikel (dilbilgisi)"
+            },
+            "exampleSentence": "Der Artikel 'der' wird für männliche Substantive verwendet.",
+            "exampleTranslation": {
+                "en": "The article 'der' is used for masculine nouns.",
+                "bn": "আর্টিকেল 'der' পুরুষবাচক বিশেষ্যের জন্য ব্যবহৃত হয়।",
+                "hi": "आर्टिकल 'der' पुल्लिंग संज्ञाओं के लिए उपयोग किया जाता है।",
+                "ur": "آرٹیکل 'der' مذکر اسم کے لیے استعمال ہوتا ہے۔",
+                "tr": "'der' artikeli eril isimler için kullanılır."
+            },
+            "audioUrl": "assets/audio/sections/section_01a/vocabulary/v01a_01.mp3",
+            "exampleAudioUrl": "audio/sections/section_01a/vocabulary/v01a_01_example.m4a",
+            "id": "v01a_01"
+        },
+        {
+            "germanTerm": "der Patient",
+            "article": "der",
+            "plural": "die Patienten",
+            "pronunciation": "paˈt͡si̯ɛnt",
+            "category": "noun",
+            "translation": {
+                "en": "the patient (male)",
+                "de": "der Patient",
+                "bn": "রোগী (পুরুষ)",
+                "hi": "रोगी (पुरुष)",
+                "ur": "مریض (مرد)",
+                "tr": "hasta (erkek)"
+            },
+            "exampleSentence": "Der Patient wartet im Wartezimmer.",
+            "exampleTranslation": {
+                "en": "The patient is waiting in the waiting room.",
+                "bn": "রোগী ওয়েটিং রুমে অপেক্ষা করছেন।",
+                "hi": "रोगी प्रतीक्षा कक्ष में इंतजार कर रहा है।",
+                "ur": "مریض ویٹنگ روم میں انتظار کر رہا ہے۔",
+                "tr": "Hasta bekleme odasında bekliyor."
+            },
+            "audioUrl": "assets/audio/sections/section_01a/vocabulary/v01a_02.mp3",
+            "exampleAudioUrl": "audio/sections/section_01a/vocabulary/v01a_02_example.m4a",
+            "id": "v01a_02"
+        },
+        {
+            "germanTerm": "die Patientin",
+            "article": "die",
+            "plural": "die Patientinnen",
+            "pronunciation": "paˈt͡si̯ɛntɪn",
+            "category": "noun",
+            "translation": {
+                "en": "the patient (female)",
+                "de": "die Patientin",
+                "bn": "রোগী (মহিলা)",
+                "hi": "रोगी (महिला)",
+                "ur": "مریض (عورت)",
+                "tr": "hasta (kadın)"
+            },
+            "exampleSentence": "Die Patientin hat starke Bauchschmerzen.",
+            "exampleTranslation": {
+                "en": "The patient has severe abdominal pain.",
+                "bn": "রোগীর তীব্র পেট ব্যথা আছে।",
+                "hi": "रोगी को तेज पेट दर्द है।",
+                "ur": "مریضہ کو شدید پیٹ درد ہے۔",
+                "tr": "Hastanın şiddetli karın ağrısı var."
+            },
+            "audioUrl": "assets/audio/sections/section_01a/vocabulary/v01a_03.mp3",
+            "exampleAudioUrl": "audio/sections/section_01a/vocabulary/v01a_03_example.m4a",
+            "id": "v01a_03"
+        },
+        {
+            "germanTerm": "das Medikament",
+            "article": "das",
+            "plural": "die Medikamente",
+            "pronunciation": "medikaˈmɛnt",
+            "category": "noun",
+            "translation": {
+                "en": "the medication",
+                "de": "das Medikament",
+                "bn": "ওষুধ",
+                "hi": "दवाई",
+                "ur": "دوائی",
+                "tr": "ilaç"
+            },
+            "exampleSentence": "Das Medikament muss dreimal täglich eingenommen werden.",
+            "exampleTranslation": {
+                "en": "The medication must be taken three times daily.",
+                "bn": "ওষুধটি দিনে তিনবার খেতে হবে।",
+                "hi": "दवाई दिन में तीन बार लेनी होगी।",
+                "ur": "دوائی دن میں تین بار لینی ہوگی۔",
+                "tr": "İlaç günde üç kez alınmalıdır."
+            },
+            "audioUrl": "assets/audio/sections/section_01a/vocabulary/v01a_04.mp3",
+            "exampleAudioUrl": "audio/sections/section_01a/vocabulary/v01a_04_example.m4a",
+            "id": "v01a_04"
+        },
+        {
+            "germanTerm": "die Untersuchung",
+            "article": "die",
+            "plural": "die Untersuchungen",
+            "pronunciation": "ʊntɐˈzuːxʊŋ",
+            "category": "noun",
+            "translation": {
+                "en": "the examination",
+                "de": "die Untersuchung",
+                "bn": "পরীক্ষা",
+                "hi": "जांच",
+                "ur": "معائنہ",
+                "tr": "muayene"
+            },
+            "exampleSentence": "Die Untersuchung dauert etwa zwanzig Minuten.",
+            "exampleTranslation": {
+                "en": "The examination takes about twenty minutes.",
+                "bn": "পরীক্ষাটি প্রায় বিশ মিনিট সময় নেয়।",
+                "hi": "जांच में लगभग बीस मिनट लगते हैं।",
+                "ur": "معائنہ تقریباً بیس منٹ لیتا ہے۔",
+                "tr": "Muayene yaklaşık yirmi dakika sürer."
+            },
+            "audioUrl": "assets/audio/sections/section_01a/vocabulary/v01a_05.mp3",
+            "exampleAudioUrl": "audio/sections/section_01a/vocabulary/v01a_05_example.m4a",
+            "id": "v01a_05"
+        },
+        {
+            "germanTerm": "das Herz",
+            "article": "das",
+            "plural": "die Herzen",
+            "pronunciation": "hɛʁt͡s",
+            "category": "noun",
+            "translation": {
+                "en": "the heart",
+                "de": "das Herz",
+                "bn": "হৃদয়",
+                "hi": "दिल",
+                "ur": "دل",
+                "tr": "kalp"
+            },
+            "exampleSentence": "Das Herz schlägt regelmäßig.",
+            "exampleTranslation": {
+                "en": "The heart beats regularly.",
+                "bn": "হৃদয় নিয়মিত স্পন্দিত হচ্ছে।",
+                "hi": "दिल नियमित रूप से धड़कता है।",
+                "ur": "دل باقاعدگی سے دھڑکتا ہے۔",
+                "tr": "Kalp düzenli atıyor."
+            },
+            "audioUrl": "assets/audio/sections/section_01a/vocabulary/v01a_06.mp3",
+            "exampleAudioUrl": "audio/sections/section_01a/vocabulary/v01a_06_example.m4a",
+            "id": "v01a_06"
+        },
+        {
+            "germanTerm": "die Lunge",
+            "article": "die",
+            "plural": "die Lungen",
+            "pronunciation": "ˈlʊŋə",
+            "category": "noun",
+            "translation": {
+                "en": "the lung",
+                "de": "die Lunge",
+                "bn": "ফুসফুস",
+                "hi": "फेफड़ा",
+                "ur": "پھیپھڑا",
+                "tr": "akciğer"
+            },
+            "exampleSentence": "Die Lunge des Patienten ist frei von Rasselgeräuschen.",
+            "exampleTranslation": {
+                "en": "The patient's lung is free from crackles.",
+                "bn": "রোগীর ফুসফুসে কোনো র‍্যালস নেই।",
+                "hi": "रोगी का फेफड़ा क्रैकल्स से मुक्त है।",
+                "ur": "مریض کا پھیپھڑا کریکلز سے پاک ہے۔",
+                "tr": "Hastanın akciğeri rallilerden temiz."
+            },
+            "audioUrl": "assets/audio/sections/section_01a/vocabulary/v01a_07.mp3",
+            "exampleAudioUrl": "audio/sections/section_01a/vocabulary/v01a_07_example.m4a",
+            "id": "v01a_07"
+        },
+        {
+            "germanTerm": "der Magen",
+            "article": "der",
+            "plural": "die Mägen",
+            "pronunciation": "ˈmaːɡn̩",
+            "category": "noun",
+            "translation": {
+                "en": "the stomach",
+                "de": "der Magen",
+                "bn": "পাকস্থলী",
+                "hi": "पेट (अंग)",
+                "ur": "معدہ",
+                "tr": "mide"
+            },
+            "exampleSentence": "Der Magen des Patienten ist druckempfindlich.",
+            "exampleTranslation": {
+                "en": "The patient's stomach is tender to palpation.",
+                "bn": "রোগীর পাকস্থলী চাপে সংবেদনশীল।",
+                "hi": "रोगी का पेट छूने पर दर्द करता है।",
+                "ur": "مریض کا معدہ دبانے پر تکلیف دیتا ہے۔",
+                "tr": "Hastanın midesi palpasyonda hassas."
+            },
+            "audioUrl": "assets/audio/sections/section_01a/vocabulary/v01a_08.mp3",
+            "exampleAudioUrl": "audio/sections/section_01a/vocabulary/v01a_08_example.m4a",
+            "id": "v01a_08"
+        },
+        {
+            "germanTerm": "die Diagnose",
+            "article": "die",
+            "plural": "die Diagnosen",
+            "pronunciation": "di̯aˈɡnoːzə",
+            "category": "noun",
+            "translation": {
+                "en": "the diagnosis",
+                "de": "die Diagnose",
+                "bn": "রোগ নির্ণয়",
+                "hi": "निदान",
+                "ur": "تشخیص",
+                "tr": "tanı"
+            },
+            "exampleSentence": "Die Diagnose wurde nach der Blutuntersuchung gestellt.",
+            "exampleTranslation": {
+                "en": "The diagnosis was made after the blood test.",
+                "bn": "রক্ত পরীক্ষার পরে রোগ নির্ণয় করা হয়েছে।",
+                "hi": "रक्त परीक्षण के बाद निदान किया गया।",
+                "ur": "خون کے ٹیسٹ کے بعد تشخیص کی گئی۔",
+                "tr": "Tanı kan testinden sonra konuldu."
+            },
+            "audioUrl": "assets/audio/sections/section_01a/vocabulary/v01a_09.mp3",
+            "exampleAudioUrl": "audio/sections/section_01a/vocabulary/v01a_09_example.m4a",
+            "id": "v01a_09"
+        },
+        {
+            "germanTerm": "das Krankenhaus",
+            "article": "das",
+            "plural": "die Krankenhäuser",
+            "pronunciation": "ˈkʁaŋkn̩ˌhaʊ̯s",
+            "category": "noun",
+            "translation": {
+                "en": "the hospital",
+                "de": "das Krankenhaus",
+                "bn": "হাসপাতাল",
+                "hi": "अस्पताल",
+                "ur": "ہسپتال",
+                "tr": "hastane"
+            },
+            "exampleSentence": "Das Krankenhaus hat eine moderne Notaufnahme.",
+            "exampleTranslation": {
+                "en": "The hospital has a modern emergency room.",
+                "bn": "হাসপাতালে একটি আধুনিক জরুরি বিভাগ আছে।",
+                "hi": "अस्पताल में एक आधुनिक आपातकालीन कक्ष है।",
+                "ur": "ہسپتال میں جدید ایمرجنسی روم ہے۔",
+                "tr": "Hastanenin modern bir acil servisi var."
+            },
+            "audioUrl": "assets/audio/sections/section_01a/vocabulary/v01a_10.mp3",
+            "exampleAudioUrl": "audio/sections/section_01a/vocabulary/v01a_10_example.m4a",
+            "id": "v01a_10"
+        },
+        {
+            "germanTerm": "der Arzt",
+            "article": "der",
+            "plural": "die Ärzte",
+            "pronunciation": "aʁt͡st",
+            "category": "noun",
+            "translation": {
+                "en": "the doctor (male)",
+                "de": "der Arzt",
+                "bn": "ডাক্তার (পুরুষ)",
+                "hi": "डॉक्टर (पुरुष)",
+                "ur": "ڈاکٹر (مرد)",
+                "tr": "doktor (erkek)"
+            },
+            "exampleSentence": "Der Arzt verschreibt ein neues Medikament.",
+            "exampleTranslation": {
+                "en": "The doctor prescribes a new medication.",
+                "bn": "ডাক্তার একটি নতুন ওষুধ লিখে দিচ্ছেন।",
+                "hi": "डॉक्टर एक नई दवाई लिख रहे हैं।",
+                "ur": "ڈاکٹر ایک نئی دوائی لکھ رہا ہے۔",
+                "tr": "Doktor yeni bir ilaç yazıyor."
+            },
+            "audioUrl": "assets/audio/sections/section_01a/vocabulary/v01a_11.mp3",
+            "exampleAudioUrl": "audio/sections/section_01a/vocabulary/v01a_11_example.m4a",
+            "id": "v01a_11"
+        },
+        {
+            "germanTerm": "die Ärztin",
+            "article": "die",
+            "plural": "die Ärztinnen",
+            "pronunciation": "ˈɛʁt͡stɪn",
+            "category": "noun",
+            "translation": {
+                "en": "the doctor (female)",
+                "de": "die Ärztin",
+                "bn": "ডাক্তার (মহিলা)",
+                "hi": "डॉक्टर (महिला)",
+                "ur": "ڈاکٹر (عورت)",
+                "tr": "doktor (kadın)"
+            },
+            "exampleSentence": "Die Ärztin führt die körperliche Untersuchung durch.",
+            "exampleTranslation": {
+                "en": "The doctor performs the physical examination.",
+                "bn": "ডাক্তার শারীরিক পরীক্ষা করছেন।",
+                "hi": "डॉक्टर शारीरिक परीक्षण कर रही हैं।",
+                "ur": "ڈاکٹر جسمانی معائنہ کر رہی ہے۔",
+                "tr": "Doktor fizik muayeneyi yapıyor."
+            },
+            "audioUrl": "assets/audio/sections/section_01a/vocabulary/v01a_12.mp3",
+            "exampleAudioUrl": "audio/sections/section_01a/vocabulary/v01a_12_example.m4a",
+            "id": "v01a_12"
+        },
+        {
+            "germanTerm": "die Therapie",
+            "article": "die",
+            "plural": "die Therapien",
+            "pronunciation": "teʁaˈpiː",
+            "category": "noun",
+            "translation": {
+                "en": "the therapy/treatment",
+                "de": "die Therapie",
+                "bn": "চিকিৎসা",
+                "hi": "चिकित्सा",
+                "ur": "علاج",
+                "tr": "tedavi"
+            },
+            "exampleSentence": "Die Therapie zeigt erste positive Ergebnisse.",
+            "exampleTranslation": {
+                "en": "The therapy shows first positive results.",
+                "bn": "চিকিৎসা প্রথম ইতিবাচক ফলাফল দেখাচ্ছে।",
+                "hi": "चिकित्सा पहले सकारात्मक परिणाम दिखा रही है।",
+                "ur": "علاج پہلے مثبت نتائج دکھا رہا ہے۔",
+                "tr": "Tedavi ilk olumlu sonuçları gösteriyor."
+            },
+            "audioUrl": "assets/audio/sections/section_01a/vocabulary/v01a_13.mp3",
+            "exampleAudioUrl": "audio/sections/section_01a/vocabulary/v01a_13_example.m4a",
+            "id": "v01a_13"
+        },
+        {
+            "germanTerm": "das Rezept",
+            "article": "das",
+            "plural": "die Rezepte",
+            "pronunciation": "ʁeˈt͡sɛpt",
+            "category": "noun",
+            "translation": {
+                "en": "the prescription",
+                "de": "das Rezept",
+                "bn": "প্রেসক্রিপশন",
+                "hi": "पर्चा",
+                "ur": "نسخہ",
+                "tr": "reçete"
+            },
+            "exampleSentence": "Das Rezept ist für sieben Tage gültig.",
+            "exampleTranslation": {
+                "en": "The prescription is valid for seven days.",
+                "bn": "প্রেসক্রিপশন সাত দিনের জন্য বৈধ।",
+                "hi": "पर्चा सात दिनों के लिए वैध है।",
+                "ur": "نسخہ سات دن کے لیے درست ہے۔",
+                "tr": "Reçete yedi gün geçerlidir."
+            },
+            "audioUrl": "assets/audio/sections/section_01a/vocabulary/v01a_14.mp3",
+            "exampleAudioUrl": "audio/sections/section_01a/vocabulary/v01a_14_example.m4a",
+            "id": "v01a_14"
+        },
+        {
+            "germanTerm": "der Befund",
+            "article": "der",
+            "plural": "die Befunde",
+            "pronunciation": "bəˈfʊnt",
+            "category": "noun",
+            "translation": {
+                "en": "the finding/result",
+                "de": "der Befund",
+                "bn": "ফলাফল",
+                "hi": "परिणाम",
+                "ur": "نتیجہ",
+                "tr": "bulgu"
+            },
+            "exampleSentence": "Der Befund der Blutuntersuchung ist unauffällig.",
+            "exampleTranslation": {
+                "en": "The blood test result is unremarkable.",
+                "bn": "রক্ত পরীক্ষার ফলাফল স্বাভাবিক।",
+                "hi": "रक्त परीक्षण का परिणाम सामान्य है।",
+                "ur": "خون کے ٹیسٹ کا نتیجہ معمول کے مطابق ہے۔",
+                "tr": "Kan testi sonucu normal."
+            },
+            "audioUrl": "assets/audio/sections/section_01a/vocabulary/v01a_15.mp3",
+            "exampleAudioUrl": "audio/sections/section_01a/vocabulary/v01a_15_example.m4a",
+            "id": "v01a_15"
+        },
+        {
+            "germanTerm": "einen/eine/ein",
+            "article": null,
+            "plural": null,
+            "pronunciation": "ˈaɪ̯nən/ˈaɪ̯nə/aɪ̯n",
+            "category": "phrase",
+            "translation": {
+                "en": "a/an (accusative forms)",
+                "de": "einen/eine/ein (Akkusativ)",
+                "bn": "একটি (কর্মকারক রূপ)",
+                "hi": "एक (कर्म कारक रूप)",
+                "ur": "ایک (مفعولی شکل)",
+                "tr": "bir (akuzatif şekilleri)"
+            },
+            "exampleSentence": "Ich untersuche einen Patienten, eine Patientin und ein Kind.",
+            "exampleTranslation": {
+                "en": "I am examining a (male) patient, a (female) patient, and a child.",
+                "bn": "আমি একজন (পুরুষ) রোগী, একজন (মহিলা) রোগী এবং একটি শিশুকে পরীক্ষা করছি।",
+                "hi": "मैं एक (पुरुष) रोगी, एक (महिला) रोगी और एक बच्चे की जांच कर रहा हूं।",
+                "ur": "میں ایک (مرد) مریض، ایک (عورت) مریض اور ایک بچے کا معائنہ کر رہا ہوں۔",
+                "tr": "Bir (erkek) hastayı, bir (kadın) hastayı ve bir çocuğu muayene ediyorum."
+            },
+            "audioUrl": "assets/audio/sections/section_01a/vocabulary/v01a_16.mp3",
+            "exampleAudioUrl": "audio/sections/section_01a/vocabulary/v01a_16_example.m4a",
+            "id": "v01a_16"
+        },
+        {
+            "germanTerm": "dem/der/dem",
+            "article": null,
+            "plural": null,
+            "pronunciation": "deːm/deːɐ̯/deːm",
+            "category": "phrase",
+            "translation": {
+                "en": "the (dative forms)",
+                "de": "dem/der/dem (Dativ)",
+                "bn": "দ্য (সম্প্রদান কারক রূপ)",
+                "hi": "द (संप्रदान कारक रूप)",
+                "ur": "دی (حالت مفعول ثانی)",
+                "tr": "the (datif şekilleri)"
+            },
+            "exampleSentence": "Ich gebe dem Patienten das Medikament und erkläre der Patientin die Nebenwirkungen.",
+            "exampleTranslation": {
+                "en": "I give the patient the medication and explain the side effects to the (female) patient.",
+                "bn": "আমি রোগীকে ওষুধ দিচ্ছি এবং (মহিলা) রোগীকে পার্শ্বপ্রতিক্রিয়া ব্যাখ্যা করছি।",
+                "hi": "मैं रोगी को दवाई दे रहा हूं और (महिला) रोगी को साइड इफेक्ट्स समझा रहा हूं।",
+                "ur": "میں مریض کو دوائی دے رہا ہوں اور (عورت) مریض کو ضمنی اثرات سمجھا رہا ہوں۔",
+                "tr": "Hastaya ilacı veriyorum ve (kadın) hastaya yan etkileri açıklıyorum."
+            },
+            "audioUrl": "assets/audio/sections/section_01a/vocabulary/v01a_17.mp3",
+            "exampleAudioUrl": "audio/sections/section_01a/vocabulary/v01a_17_example.m4a",
+            "id": "v01a_17"
+        },
+        {
+            "germanTerm": "den/die/das",
+            "article": null,
+            "plural": null,
+            "pronunciation": "deːn/diː/das",
+            "category": "phrase",
+            "translation": {
+                "en": "the (accusative forms)",
+                "de": "den/die/das (Akkusativ)",
+                "bn": "দ্য (কর্মকারক রূপ)",
+                "hi": "द (कर्म कारक रूप)",
+                "ur": "دی (مفعولی شکل)",
+                "tr": "the (akuzatif şekilleri)"
+            },
+            "exampleSentence": "Ich sehe den Arzt, die Schwester und das Kind auf der Station.",
+            "exampleTranslation": {
+                "en": "I see the doctor, the nurse, and the child on the ward.",
+                "bn": "আমি ওয়ার্ডে ডাক্তার, নার্স এবং শিশুকে দেখছি।",
+                "hi": "मैं वार्ड में डॉक्टर, नर्स और बच्चे को देख रहा हूं।",
+                "ur": "میں وارڈ میں ڈاکٹر، نرس اور بچے کو دیکھ رہا ہوں۔",
+                "tr": "Serviste doktoru, hemşireyi ve çocuğu görüyorum."
+            },
+            "audioUrl": "assets/audio/sections/section_01a/vocabulary/v01a_18.mp3",
+            "exampleAudioUrl": "audio/sections/section_01a/vocabulary/v01a_18_example.m4a",
+            "id": "v01a_18"
+        }
+    ],
+    "dialogues": [
+        {
+            "title": {
+                "en": "Explaining Articles to a Patient",
+                "de": "Artikel einem Patienten erklären",
+                "bn": "রোগীকে আর্টিকেল ব্যাখ্যা করা",
+                "hi": "रोगी को आर्टिकल्स समझाना",
+                "ur": "مریض کو آرٹیکلز سمجھانا",
+                "tr": "Hastaya Artikelleri Açıklamak"
+            },
+            "context": {
+                "en": "Dr. Müller is conducting a consultation and uses proper articles while explaining the diagnosis.",
+                "de": "Dr. Müller führt eine Konsultation durch und verwendet dabei die richtigen Artikel bei der Erklärung der Diagnose.",
+                "bn": "ডাঃ মুলার একটি পরামর্শ পরিচালনা করছেন এবং রোগ নির্ণয় ব্যাখ্যা করার সময় সঠিক আর্টিকেল ব্যবহার করছেন।",
+                "hi": "डॉ. मुलर एक परामर्श कर रहे हैं और निदान समझाते समय उचित आर्टिकल्स का उपयोग कर रहे हैं।",
+                "ur": "ڈاکٹر مولر مشاورت کر رہے ہیں اور تشخیص سمجھاتے ہوئے مناسب آرٹیکلز استعمال کر رہے ہیں۔",
+                "tr": "Dr. Müller bir konsültasyon yapıyor ve tanıyı açıklarken doğru artikelleri kullanıyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Arzt",
+                    "germanText": "Guten Tag, Frau Schmidt. Ich bin der behandelnde Arzt. Bitte setzen Sie sich.",
+                    "translation": {
+                        "en": "Good day, Mrs. Schmidt. I am the treating physician. Please have a seat.",
+                        "bn": "শুভ দিন, শ্রীমতি শ্মিট। আমি চিকিৎসাকারী ডাক্তার। অনুগ্রহ করে বসুন।",
+                        "hi": "शुभ दिन, श्रीमती श्मिट। मैं उपचार करने वाला डॉक्टर हूं। कृपया बैठें।",
+                        "ur": "شب بخیر، محترمہ شمٹ۔ میں علاج کرنے والا ڈاکٹر ہوں۔ براہ کرم بیٹھیں۔",
+                        "tr": "İyi günler, Bayan Schmidt. Ben tedavi eden doktorunuzum. Lütfen oturun."
+                    },
+                    "audioUrl": "assets/audio/sections/section_01a/dialogues/d01a_01_line1.mp3"
+                },
+                {
+                    "speaker": "Patientin",
+                    "speakerRole": "Patientin",
+                    "germanText": "Guten Tag, Herr Doktor. Was ist das Ergebnis der Untersuchung?",
+                    "translation": {
+                        "en": "Good day, Doctor. What is the result of the examination?",
+                        "bn": "শুভ দিন, ডাক্তার। পরীক্ষার ফলাফল কী?",
+                        "hi": "शुभ दिन, डॉक्टर। जांच का परिणाम क्या है?",
+                        "ur": "شب بخیر، ڈاکٹر صاحب۔ معائنے کا نتیجہ کیا ہے؟",
+                        "tr": "İyi günler, Doktor Bey. Muayenenin sonucu nedir?"
+                    },
+                    "audioUrl": "assets/audio/sections/section_01a/dialogues/d01a_01_line2.mp3"
+                },
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Arzt",
+                    "germanText": "Der Befund zeigt, dass die Lunge frei ist. Das Herz schlägt regelmäßig.",
+                    "translation": {
+                        "en": "The finding shows that the lung is clear. The heart beats regularly.",
+                        "bn": "ফলাফল দেখায় যে ফুসফুস পরিষ্কার। হৃদয় নিয়মিত স্পন্দিত হচ্ছে।",
+                        "hi": "परिणाम दिखाता है कि फेफड़ा साफ है। दिल नियमित रूप से धड़कता है।",
+                        "ur": "نتیجہ دکھاتا ہے کہ پھیپھڑا صاف ہے۔ دل باقاعدگی سے دھڑکتا ہے۔",
+                        "tr": "Bulgu, akciğerin temiz olduğunu gösteriyor. Kalp düzenli atıyor."
+                    },
+                    "audioUrl": "assets/audio/sections/section_01a/dialogues/d01a_01_line3.mp3"
+                },
+                {
+                    "speaker": "Patientin",
+                    "speakerRole": "Patientin",
+                    "germanText": "Und der Magen? Ich habe Bauchschmerzen.",
+                    "translation": {
+                        "en": "And the stomach? I have abdominal pain.",
+                        "bn": "আর পাকস্থলী? আমার পেট ব্যথা আছে।",
+                        "hi": "और पेट? मुझे पेट दर्द है।",
+                        "ur": "اور معدہ؟ مجھے پیٹ میں درد ہے۔",
+                        "tr": "Ya mide? Karın ağrım var."
+                    },
+                    "audioUrl": "assets/audio/sections/section_01a/dialogues/d01a_01_line4.mp3"
+                },
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Arzt",
+                    "germanText": "Der Magen ist leicht gereizt. Ich verschreibe Ihnen ein Medikament. Die Therapie sollte helfen.",
+                    "translation": {
+                        "en": "The stomach is slightly irritated. I will prescribe you a medication. The therapy should help.",
+                        "bn": "পাকস্থলী সামান্য জ্বালাযুক্ত। আমি আপনাকে একটি ওষুধ লিখে দিচ্ছি। চিকিৎসা সাহায্য করবে।",
+                        "hi": "पेट में हल्की जलन है। मैं आपको एक दवाई लिख रहा हूं। चिकित्सा से मदद मिलनी चाहिए।",
+                        "ur": "معدہ تھوڑا خراب ہے۔ میں آپ کو دوائی لکھ رہا ہوں۔ علاج سے مدد ملنی چاہیے۔",
+                        "tr": "Mide hafif tahriş olmuş. Size bir ilaç yazıyorum. Tedavi yardımcı olmalı."
+                    },
+                    "audioUrl": "assets/audio/sections/section_01a/dialogues/d01a_01_line5.mp3"
+                },
+                {
+                    "speaker": "Patientin",
+                    "speakerRole": "Patientin",
+                    "germanText": "Wie oft muss ich das Medikament nehmen?",
+                    "translation": {
+                        "en": "How often do I have to take the medication?",
+                        "bn": "আমাকে কতবার ওষুধ খেতে হবে?",
+                        "hi": "मुझे कितनी बार दवाई लेनी होगी?",
+                        "ur": "مجھے دوائی کتنی بار لینی ہوگی؟",
+                        "tr": "İlacı ne sıklıkla almam gerekiyor?"
+                    },
+                    "audioUrl": "assets/audio/sections/section_01a/dialogues/d01a_01_line6.mp3"
+                },
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Arzt",
+                    "germanText": "Nehmen Sie das Medikament dreimal täglich vor dem Essen. Das Rezept gebe ich Ihnen gleich.",
+                    "translation": {
+                        "en": "Take the medication three times daily before meals. I will give you the prescription right away.",
+                        "bn": "খাবার আগে দিনে তিনবার ওষুধ খান। আমি আপনাকে এখনই প্রেসক্রিপশন দিচ্ছি।",
+                        "hi": "भोजन से पहले दिन में तीन बार दवाई लें। मैं आपको अभी पर्चा दे रहा हूं।",
+                        "ur": "کھانے سے پہلے دن میں تین بار دوائی لیں۔ میں آپ کو ابھی نسخہ دے رہا ہوں۔",
+                        "tr": "İlacı yemeklerden önce günde üç kez alın. Reçeteyi hemen veriyorum."
+                    },
+                    "audioUrl": "assets/audio/sections/section_01a/dialogues/d01a_01_line7.mp3"
+                },
+                {
+                    "speaker": "Patientin",
+                    "speakerRole": "Patientin",
+                    "germanText": "Vielen Dank, Herr Doktor. Wann ist die nächste Untersuchung?",
+                    "translation": {
+                        "en": "Thank you very much, Doctor. When is the next examination?",
+                        "bn": "অনেক ধন্যবাদ, ডাক্তার। পরবর্তী পরীক্ষা কখন?",
+                        "hi": "बहुत धन्यवाद, डॉक्टर। अगली जांच कब है?",
+                        "ur": "بہت شکریہ، ڈاکٹر صاحب۔ اگلا معائنہ کب ہے؟",
+                        "tr": "Çok teşekkür ederim, Doktor Bey. Bir sonraki muayene ne zaman?"
+                    },
+                    "audioUrl": "assets/audio/sections/section_01a/dialogues/d01a_01_line8.mp3"
+                },
+                {
+                    "speaker": "Dr. Müller",
+                    "speakerRole": "Arzt",
+                    "germanText": "In zwei Wochen. Die Schwester am Empfang gibt Ihnen einen Termin.",
+                    "translation": {
+                        "en": "In two weeks. The nurse at reception will give you an appointment.",
+                        "bn": "দুই সপ্তাহের মধ্যে। রিসেপশনে নার্স আপনাকে একটি অ্যাপয়েন্টমেন্ট দেবে।",
+                        "hi": "दो हफ्ते में। रिसेप्शन पर नर्स आपको एक अपॉइंटमेंट देगी।",
+                        "ur": "دو ہفتوں میں۔ ریسیپشن پر نرس آپ کو اپائنٹمنٹ دے گی۔",
+                        "tr": "İki hafta içinde. Resepsiyondaki hemşire size randevu verecek."
+                    },
+                    "audioUrl": "assets/audio/sections/section_01a/dialogues/d01a_01_line9.mp3"
+                }
+            ],
+            "id": "d01a_01",
+            "audioUrl": ""
+        },
+        {
+            "title": {
+                "en": "Article Practice in Case Presentation",
+                "de": "Artikelübung bei der Fallvorstellung",
+                "bn": "কেস প্রেজেন্টেশনে আর্টিকেল অনুশীলন",
+                "hi": "केस प्रस्तुति में आर्टिकल अभ्यास",
+                "ur": "کیس پریزنٹیشن میں آرٹیکل مشق",
+                "tr": "Vaka Sunumunda Artikel Pratiği"
+            },
+            "context": {
+                "en": "Dr. Schmidt presents a case to the senior physician, demonstrating proper article usage in medical context.",
+                "de": "Dr. Schmidt präsentiert dem Oberarzt einen Fall und demonstriert dabei die korrekte Verwendung von Artikeln im medizinischen Kontext.",
+                "bn": "ডাঃ শ্মিট সিনিয়র চিকিৎসকের কাছে একটি কেস উপস্থাপন করছেন, চিকিৎসা প্রসঙ্গে সঠিক আর্টিকেল ব্যবহার প্রদর্শন করছেন।",
+                "hi": "डॉ. श्मिट वरिष्ठ चिकित्सक के समक्ष एक केस प्रस्तुत कर रहे हैं, चिकित्सा संदर्भ में उचित आर्टिकल उपयोग प्रदर्शित कर रहे हैं।",
+                "ur": "ڈاکٹر شمٹ سینئر ڈاکٹر کو ایک کیس پیش کر رہے ہیں، طبی سیاق و سباق میں مناسب آرٹیکل استعمال کا مظاہرہ کر رہے ہیں۔",
+                "tr": "Dr. Schmidt kıdemli doktora bir vaka sunarak tıbbi bağlamda doğru artikel kullanımını gösteriyor."
+            },
+            "lines": [
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Herr Oberarzt, ich möchte Ihnen einen Patienten vorstellen. Der Patient ist 56 Jahre alt.",
+                    "translation": {
+                        "en": "Mr. Senior Physician, I would like to present a patient to you. The patient is 56 years old.",
+                        "bn": "জনাব সিনিয়র ফিজিশিয়ান, আমি আপনার কাছে একজন রোগী উপস্থাপন করতে চাই। রোগীর বয়স ৫৬ বছর।",
+                        "hi": "श्रीमान वरिष्ठ चिकित्सक, मैं आपके सामने एक रोगी प्रस्तुत करना चाहता हूं। रोगी की उम्र 56 साल है।",
+                        "ur": "جناب سینئر فزیشن، میں آپ کو ایک مریض پیش کرنا چاہتا ہوں۔ مریض کی عمر 56 سال ہے۔",
+                        "tr": "Sayın Kıdemli Doktor, size bir hasta sunmak istiyorum. Hasta 56 yaşında."
+                    },
+                    "audioUrl": "assets/audio/sections/section_01a/dialogues/d01a_02_line1.mp3"
+                },
+                {
+                    "speaker": "Oberarzt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Gut. Was ist die Hauptbeschwerde des Patienten?",
+                    "translation": {
+                        "en": "Good. What is the patient's chief complaint?",
+                        "bn": "ভালো। রোগীর প্রধান অভিযোগ কী?",
+                        "hi": "अच्छा। रोगी की मुख्य शिकायत क्या है?",
+                        "ur": "اچھا۔ مریض کی بنیادی شکایت کیا ہے؟",
+                        "tr": "İyi. Hastanın ana şikayeti nedir?"
+                    },
+                    "audioUrl": "assets/audio/sections/section_01a/dialogues/d01a_02_line2.mp3"
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Der Patient klagt über Brustschmerzen. Die Schmerzen sind seit drei Tagen vorhanden.",
+                    "translation": {
+                        "en": "The patient complains of chest pain. The pain has been present for three days.",
+                        "bn": "রোগী বুকে ব্যথার অভিযোগ করছেন। ব্যথা তিন দিন ধরে আছে।",
+                        "hi": "रोगी सीने में दर्द की शिकायत कर रहा है। दर्द तीन दिनों से है।",
+                        "ur": "مریض سینے میں درد کی شکایت کر رہا ہے۔ درد تین دن سے موجود ہے۔",
+                        "tr": "Hasta göğüs ağrısından şikayet ediyor. Ağrı üç gündür mevcut."
+                    },
+                    "audioUrl": "assets/audio/sections/section_01a/dialogues/d01a_02_line3.mp3"
+                },
+                {
+                    "speaker": "Oberarzt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Wie ist der Befund der körperlichen Untersuchung?",
+                    "translation": {
+                        "en": "What is the finding of the physical examination?",
+                        "bn": "শারীরিক পরীক্ষার ফলাফল কী?",
+                        "hi": "शारीरिक परीक्षण का परिणाम क्या है?",
+                        "ur": "جسمانی معائنے کا نتیجہ کیا ہے؟",
+                        "tr": "Fizik muayenenin bulgusu nedir?"
+                    },
+                    "audioUrl": "assets/audio/sections/section_01a/dialogues/d01a_02_line4.mp3"
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Das Herz zeigt einen regelmäßigen Rhythmus. Die Lunge ist auskultatorisch frei. Der Blutdruck ist erhöht.",
+                    "translation": {
+                        "en": "The heart shows a regular rhythm. The lung is clear on auscultation. The blood pressure is elevated.",
+                        "bn": "হৃদয় নিয়মিত ছন্দ দেখাচ্ছে। ফুসফুস অস্কাল্টেশনে পরিষ্কার। রক্তচাপ বেড়েছে।",
+                        "hi": "दिल नियमित लय दिखा रहा है। फेफड़ा ऑस्कल्टेशन पर साफ है। रक्तचाप बढ़ा हुआ है।",
+                        "ur": "دل باقاعدہ تال دکھا رہا ہے۔ پھیپھڑا سماعت پر صاف ہے۔ بلڈ پریشر بڑھا ہوا ہے۔",
+                        "tr": "Kalp düzenli ritim gösteriyor. Akciğer oskültasyonda temiz. Kan basıncı yüksek."
+                    },
+                    "audioUrl": "assets/audio/sections/section_01a/dialogues/d01a_02_line5.mp3"
+                },
+                {
+                    "speaker": "Oberarzt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Gut dokumentiert. Was ist Ihre Verdachtsdiagnose?",
+                    "translation": {
+                        "en": "Well documented. What is your suspected diagnosis?",
+                        "bn": "ভালো ডকুমেন্টেড। আপনার সন্দেহজনক রোগ নির্ণয় কী?",
+                        "hi": "अच्छी तरह से दस्तावेज़ीकृत। आपका संदिग्ध निदान क्या है?",
+                        "ur": "اچھی طرح سے دستاویزی۔ آپ کی مشتبہ تشخیص کیا ہے؟",
+                        "tr": "İyi belgelenmiş. Şüpheli tanınız nedir?"
+                    },
+                    "audioUrl": "assets/audio/sections/section_01a/dialogues/d01a_02_line6.mp3"
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Die Verdachtsdiagnose ist eine instabile Angina pectoris. Das EKG zeigt ST-Senkungen.",
+                    "translation": {
+                        "en": "The suspected diagnosis is unstable angina pectoris. The ECG shows ST depressions.",
+                        "bn": "সন্দেহজনক রোগ নির্ণয় হল অস্থির এনজাইনা পেক্টোরিস। ইসিজি ST অবনমন দেখাচ্ছে।",
+                        "hi": "संदिग्ध निदान अस्थिर एनजाइना पेक्टोरिस है। ईसीजी ST डिप्रेशन दिखा रहा है।",
+                        "ur": "مشتبہ تشخیص غیر مستحکم انجائنا پیکٹوریس ہے۔ ای سی جی ST ڈپریشنز دکھا رہا ہے۔",
+                        "tr": "Şüpheli tanı kararsız anjina pektoris. EKG ST çökmesi gösteriyor."
+                    },
+                    "audioUrl": "assets/audio/sections/section_01a/dialogues/d01a_02_line7.mp3"
+                },
+                {
+                    "speaker": "Oberarzt",
+                    "speakerRole": "Oberarzt",
+                    "germanText": "Richtig. Welche Therapie schlagen Sie vor?",
+                    "translation": {
+                        "en": "Correct. What therapy do you suggest?",
+                        "bn": "সঠিক। আপনি কী চিকিৎসা প্রস্তাব করেন?",
+                        "hi": "सही। आप कौन सी चिकित्सा सुझाते हैं?",
+                        "ur": "درست۔ آپ کون سا علاج تجویز کرتے ہیں؟",
+                        "tr": "Doğru. Hangi tedaviyi öneriyorsunuz?"
+                    },
+                    "audioUrl": "assets/audio/sections/section_01a/dialogues/d01a_02_line8.mp3"
+                },
+                {
+                    "speaker": "Dr. Schmidt",
+                    "speakerRole": "Assistenzarzt",
+                    "germanText": "Die Therapie umfasst Aspirin, Heparin und die Aufnahme auf die Intensivstation.",
+                    "translation": {
+                        "en": "The therapy includes aspirin, heparin, and admission to the intensive care unit.",
+                        "bn": "চিকিৎসায় অ্যাসপিরিন, হেপারিন এবং ইনটেনসিভ কেয়ার ইউনিটে ভর্তি অন্তর্ভুক্ত।",
+                        "hi": "चिकित्सा में एस्पिरिन, हेपरिन और गहन चिकित्सा इकाई में भर्ती शामिल है।",
+                        "ur": "علاج میں اسپرین، ہیپارین اور انتہائی نگہداشت یونٹ میں داخلہ شامل ہے۔",
+                        "tr": "Tedavi aspirin, heparin ve yoğun bakım ünitesine yatışı içeriyor."
+                    },
+                    "audioUrl": "assets/audio/sections/section_01a/dialogues/d01a_02_line9.mp3"
+                }
+            ],
+            "id": "d01a_02",
+            "audioUrl": ""
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multipleChoice",
+            "question": {
+                "en": "Which article is correct? ___ Patient wartet im Wartezimmer.",
+                "bn": "কোন আর্টিকেল সঠিক? ___ Patient wartet im Wartezimmer.",
+                "hi": "कौन सा आर्टिकल सही है? ___ Patient wartet im Wartezimmer.",
+                "ur": "کون سا آرٹیکل درست ہے؟ ___ Patient wartet im Wartezimmer.",
+                "tr": "Hangi artikel doğru? ___ Patient wartet im Wartezimmer."
+            },
+            "options": [
+                "Der",
+                "Die",
+                "Das",
+                "Ein"
+            ],
+            "correctAnswer": "Der",
+            "explanation": {
+                "en": "Patient is masculine (der Patient), and as the subject of the sentence, it takes the nominative article 'der'.",
+                "bn": "Patient পুরুষবাচক (der Patient), এবং বাক্যের কর্তা হিসেবে এটি কর্তৃকারক আর্টিকেল 'der' নেয়।",
+                "hi": "Patient पुल्लिंग है (der Patient), और वाक्य के कर्ता के रूप में, यह कर्ता कारक आर्टिकल 'der' लेता है।",
+                "ur": "Patient مذکر ہے (der Patient)، اور جملے کے فاعل کے طور پر، یہ فاعلی آرٹیکل 'der' لیتا ہے۔",
+                "tr": "Patient erildir (der Patient) ve cümlenin öznesi olarak nominatif artikel 'der' alır."
+            },
+            "id": "e01a_01"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "en": "Which article is correct? Ich sehe ___ Ärztin auf der Station.",
+                "bn": "কোন আর্টিকেল সঠিক? Ich sehe ___ Ärztin auf der Station.",
+                "hi": "कौन सा आर्टिकल सही है? Ich sehe ___ Ärztin auf der Station.",
+                "ur": "کون سا آرٹیکل درست ہے؟ Ich sehe ___ Ärztin auf der Station.",
+                "tr": "Hangi artikel doğru? Ich sehe ___ Ärztin auf der Station."
+            },
+            "options": [
+                "der",
+                "die",
+                "den",
+                "das"
+            ],
+            "correctAnswer": "die",
+            "explanation": {
+                "en": "Ärztin is feminine (die Ärztin). In the accusative case, feminine articles remain 'die' (not changed like masculine 'der' to 'den').",
+                "bn": "Ärztin স্ত্রীলিঙ্গ (die Ärztin)। কর্মকারকে, স্ত্রীলিঙ্গ আর্টিকেল 'die' থাকে (পুরুষলিঙ্গ 'der' থেকে 'den'-এ পরিবর্তনের মতো নয়)।",
+                "hi": "Ärztin स्त्रीलिंग है (die Ärztin)। कर्म कारक में, स्त्रीलिंग आर्टिकल 'die' रहता है (पुल्लिंग 'der' से 'den' में बदलाव की तरह नहीं)।",
+                "ur": "Ärztin مونث ہے (die Ärztin)۔ مفعولی حالت میں، مونث آرٹیکل 'die' رہتا ہے (مذکر 'der' سے 'den' میں تبدیلی کی طرح نہیں)۔",
+                "tr": "Ärztin dişildir (die Ärztin). Akuzatif durumda, dişil artikeller 'die' olarak kalır (eril 'der'in 'den'e dönmesi gibi değişmez)."
+            },
+            "id": "e01a_02"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "en": "Which article is correct? Ich gebe ___ Patienten das Medikament.",
+                "bn": "কোন আর্টিকেল সঠিক? Ich gebe ___ Patienten das Medikament.",
+                "hi": "कौन सा आर्टिकल सही है? Ich gebe ___ Patienten das Medikament.",
+                "ur": "کون سا آرٹیکل درست ہے؟ Ich gebe ___ Patienten das Medikament.",
+                "tr": "Hangi artikel doğru? Ich gebe ___ Patienten das Medikament."
+            },
+            "options": [
+                "der",
+                "den",
+                "dem",
+                "das"
+            ],
+            "correctAnswer": "dem",
+            "explanation": {
+                "en": "The patient is the indirect object (dative case - to whom?). In dative, masculine 'der' becomes 'dem'. Ich gebe dem Patienten...",
+                "bn": "রোগী পরোক্ষ কর্ম (সম্প্রদান কারক - কাকে?)। সম্প্রদান কারকে, পুরুষলিঙ্গ 'der' 'dem' হয়ে যায়।",
+                "hi": "रोगी अप्रत्यक्ष कर्म है (संप्रदान कारक - किसे?)। संप्रदान कारक में, पुल्लिंग 'der' 'dem' हो जाता है।",
+                "ur": "مریض بالواسطہ مفعول ہے (حالت مفعول ثانی - کسے?)۔ حالت مفعول ثانی میں، مذکر 'der' 'dem' بن جاتا ہے۔",
+                "tr": "Hasta dolaylı nesnedir (datif hal - kime?). Datifte, eril 'der' 'dem' olur."
+            },
+            "id": "e01a_03"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "en": "Complete: ___ Herz schlägt regelmäßig. (The heart beats regularly.)",
+                "bn": "সম্পূর্ণ করুন: ___ Herz schlägt regelmäßig. (হৃদয় নিয়মিত স্পন্দিত হয়।)",
+                "hi": "पूरा करें: ___ Herz schlägt regelmäßig. (दिल नियमित रूप से धड़कता है।)",
+                "ur": "مکمل کریں: ___ Herz schlägt regelmäßig. (دل باقاعدگی سے دھڑکتا ہے۔)",
+                "tr": "Tamamlayın: ___ Herz schlägt regelmäßig. (Kalp düzenli atıyor.)"
+            },
+            "correctAnswer": "Das",
+            "explanation": {
+                "en": "Herz (heart) is neuter, so it takes the article 'das'. This is one of the important medical exceptions to learn - organs vary in gender.",
+                "bn": "Herz (হৃদয়) ক্লীবলিঙ্গ, তাই এটি আর্টিকেল 'das' নেয়। এটি শেখার গুরুত্বপূর্ণ চিকিৎসা ব্যতিক্রমগুলির মধ্যে একটি - অঙ্গগুলির লিঙ্গ ভিন্ন হয়।",
+                "hi": "Herz (दिल) नपुंसकलिंग है, इसलिए यह आर्टिकल 'das' लेता है। यह सीखने के महत्वपूर्ण चिकित्सा अपवादों में से एक है - अंगों का लिंग भिन्न होता है।",
+                "ur": "Herz (دل) بے جنس ہے، اس لیے یہ آرٹیکل 'das' لیتا ہے۔ یہ سیکھنے کی اہم طبی استثناؤں میں سے ایک ہے - اعضاء کی جنس مختلف ہوتی ہے۔",
+                "tr": "Herz (kalp) nötrdür, bu yüzden 'das' artikelini alır. Bu, öğrenilmesi gereken önemli tıbbi istisnalardan biridir - organların cinsiyeti değişir."
+            },
+            "id": "e01a_04"
+        },
+        {
+            "type": "fillBlank",
+            "question": {
+                "en": "Complete: ___ Diagnose ist noch nicht bestätigt. (The diagnosis is not yet confirmed.)",
+                "bn": "সম্পূর্ণ করুন: ___ Diagnose ist noch nicht bestätigt. (রোগ নির্ণয় এখনও নিশ্চিত নয়।)",
+                "hi": "पूरा करें: ___ Diagnose ist noch nicht bestätigt. (निदान अभी तक पुष्टि नहीं हुआ है।)",
+                "ur": "مکمل کریں: ___ Diagnose ist noch nicht bestätigt. (تشخیص ابھی تک تصدیق نہیں ہوئی۔)",
+                "tr": "Tamamlayın: ___ Diagnose ist noch nicht bestätigt. (Tanı henüz doğrulanmadı.)"
+            },
+            "correctAnswer": "Die",
+            "explanation": {
+                "en": "Diagnose ends in -e and is feminine (die Diagnose). Words ending in -ose (like Diagnose, Thrombose, Sklerose) are typically feminine.",
+                "bn": "Diagnose -e দিয়ে শেষ এবং স্ত্রীলিঙ্গ (die Diagnose)। -ose দিয়ে শেষ শব্দগুলি (যেমন Diagnose, Thrombose, Sklerose) সাধারণত স্ত্রীলিঙ্গ।",
+                "hi": "Diagnose -e पर समाप्त होता है और स्त्रीलिंग है (die Diagnose)। -ose पर समाप्त शब्द (जैसे Diagnose, Thrombose, Sklerose) आमतौर पर स्त्रीलिंग होते हैं।",
+                "ur": "Diagnose -e پر ختم ہوتا ہے اور مونث ہے (die Diagnose)۔ -ose پر ختم ہونے والے الفاظ (جیسے Diagnose, Thrombose, Sklerose) عام طور پر مونث ہیں۔",
+                "tr": "Diagnose -e ile biter ve dişildir (die Diagnose). -ose ile biten kelimeler (Diagnose, Thrombose, Sklerose gibi) genellikle dişildir."
+            },
+            "id": "e01a_05"
+        },
+        {
+            "type": "matching",
+            "question": {
+                "en": "Match each noun with its correct article:",
+                "bn": "প্রতিটি বিশেষ্যকে তার সঠিক আর্টিকেলের সাথে মিলান:",
+                "hi": "प्रत्येक संज्ञा को उसके सही आर्टिकल से मिलाएं:",
+                "ur": "ہر اسم کو اس کے صحیح آرٹیکل سے ملائیں:",
+                "tr": "Her ismi doğru artikeliyle eşleştirin:"
+            },
+            "options": [
+                "Krankenhaus",
+                "Therapie",
+                "Befund",
+                "Untersuchung"
+            ],
+            "correctAnswers": [
+                "das Krankenhaus",
+                "die Therapie",
+                "der Befund",
+                "die Untersuchung"
+            ],
+            "explanation": {
+                "en": "Krankenhaus (neuter - das), Therapie (feminine -ie ending - die), Befund (masculine - der), Untersuchung (feminine -ung ending - die).",
+                "bn": "Krankenhaus (ক্লীব - das), Therapie (স্ত্রী -ie শেষ - die), Befund (পুরুষ - der), Untersuchung (স্ত্রী -ung শেষ - die)।",
+                "hi": "Krankenhaus (नपुंसक - das), Therapie (स्त्री -ie अंत - die), Befund (पुल्लिंग - der), Untersuchung (स्त्री -ung अंत - die)।",
+                "ur": "Krankenhaus (بے جنس - das)، Therapie (مونث -ie ختم - die)، Befund (مذکر - der)، Untersuchung (مونث -ung ختم - die)۔",
+                "tr": "Krankenhaus (nötr - das), Therapie (dişil -ie soneki - die), Befund (eril - der), Untersuchung (dişil -ung soneki - die)."
+            },
+            "id": "e01a_06"
+        },
+        {
+            "type": "translation",
+            "question": {
+                "en": "Translate to German: 'I give the (female) patient the medication.'",
+                "bn": "জার্মানে অনুবাদ করুন: 'আমি (মহিলা) রোগীকে ওষুধ দিই।'",
+                "hi": "जर्मन में अनुवाद करें: 'मैं (महिला) रोगी को दवाई देता हूं।'",
+                "ur": "جرمن میں ترجمہ کریں: 'میں (عورت) مریض کو دوائی دیتا ہوں۔'",
+                "tr": "Almanca'ya çevirin: '(Kadın) hastaya ilacı veriyorum.'"
+            },
+            "correctAnswer": "Ich gebe der Patientin das Medikament.",
+            "explanation": {
+                "en": "Patientin (female patient) is feminine. In dative (indirect object), 'die' becomes 'der'. Medikament is neuter, stays 'das' in accusative.",
+                "bn": "Patientin (মহিলা রোগী) স্ত্রীলিঙ্গ। সম্প্রদান কারকে (পরোক্ষ কর্ম), 'die' 'der' হয়। Medikament ক্লীব, কর্মকারকে 'das' থাকে।",
+                "hi": "Patientin (महिला रोगी) स्त्रीलिंग है। संप्रदान कारक (अप्रत्यक्ष कर्म) में, 'die' 'der' हो जाता है। Medikament नपुंसक है, कर्म कारक में 'das' रहता है।",
+                "ur": "Patientin (عورت مریض) مونث ہے۔ حالت مفعول ثانی (بالواسطہ مفعول) میں، 'die' 'der' بن جاتا ہے۔ Medikament بے جنس ہے، مفعولی میں 'das' رہتا ہے۔",
+                "tr": "Patientin (kadın hasta) dişildir. Datifte (dolaylı nesne), 'die' 'der' olur. Medikament nötrdür, akuzatifte 'das' kalır."
+            },
+            "id": "e01a_07"
+        },
+        {
+            "type": "multipleChoice",
+            "question": {
+                "en": "Words ending in -ung are typically which gender?",
+                "bn": "-ung দিয়ে শেষ শব্দগুলি সাধারণত কোন লিঙ্গ?",
+                "hi": "-ung से समाप्त शब्द आमतौर पर किस लिंग के होते हैं?",
+                "ur": "-ung پر ختم ہونے والے الفاظ عام طور پر کس جنس کے ہوتے ہیں؟",
+                "tr": "-ung ile biten kelimeler genellikle hangi cinsiyettendir?"
+            },
+            "options": [
+                "Masculine (der)",
+                "Feminine (die)",
+                "Neuter (das)",
+                "It varies"
+            ],
+            "correctAnswer": "Feminine (die)",
+            "explanation": {
+                "en": "Words ending in -ung are feminine: die Untersuchung, die Behandlung, die Erkrankung, die Blutung, die Atmung. This is a reliable pattern in German.",
+                "bn": "-ung দিয়ে শেষ শব্দগুলি স্ত্রীলিঙ্গ: die Untersuchung, die Behandlung, die Erkrankung, die Blutung, die Atmung। এটি জার্মানে একটি নির্ভরযোগ্য প্যাটার্ন।",
+                "hi": "-ung से समाप्त शब्द स्त्रीलिंग हैं: die Untersuchung, die Behandlung, die Erkrankung, die Blutung, die Atmung। यह जर्मन में एक विश्वसनीय पैटर्न है।",
+                "ur": "-ung پر ختم ہونے والے الفاظ مونث ہیں: die Untersuchung, die Behandlung, die Erkrankung, die Blutung, die Atmung۔ یہ جرمن میں ایک قابل اعتماد پیٹرن ہے۔",
+                "tr": "-ung ile biten kelimeler dişildir: die Untersuchung, die Behandlung, die Erkrankung, die Blutung, die Atmung. Bu, Almanca'da güvenilir bir kalıptır."
+            },
+            "id": "e01a_08"
+        }
+    ]
+}

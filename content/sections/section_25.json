@@ -32,30 +32,12 @@
             "tr": "Bu bölümde, diabetes mellitus, tiroid bozuklukları ve tedavileri ile ilgili Almanca terminolojiyi öğreneceksiniz. Ayrıca bu durumları Almanca konuşan hastalarla tartışma yeteneğinizi de geliştireceksiniz."
         },
         "grammarFocus": {
-            "en": {
-                "bullet1": "Use of dative and accusative cases with prepositions related to medication dosage (e.g., 'mit Insulin' - with insulin).",
-                "bullet2": "Understanding adjective endings when describing symptoms (e.g., 'hoher Blutzucker' - high blood sugar)."
-            },
-            "de": {
-                "bullet1": "Verwendung von Dativ und Akkusativ bei Präpositionen im Zusammenhang mit der Medikamentendosierung (z.B. 'mit Insulin').",
-                "bullet2": "Verständnis der Adjektivendungen bei der Beschreibung von Symptomen (z.B. 'hoher Blutzucker')."
-            },
-            "bn": {
-                "bullet1": "মেডিকেশন ডোজ সম্পর্কিত প্রিপোজিশনের সাথে ডেটিভ এবং অ্যাকুজেটিভ কেসের ব্যবহার (যেমন, 'mit Insulin' - ইনসুলিনের সাথে)।",
-                "bullet2": "লক্ষণ বর্ণনা করার সময় বিশেষণ শেষ হওয়ার নিয়ম বোঝা (যেমন, 'hoher Blutzucker' - উচ্চ রক্তে চিনি)।"
-            },
-            "hi": {
-                "bullet1": "दवा की खुराक से संबंधित पूर्वसर्गों के साथ कर्म कारक और संप्रदान कारक का उपयोग (जैसे, 'mit Insulin' - इंसुलिन के साथ)।",
-                "bullet2": "लक्षणों का वर्णन करते समय विशेषण अंत को समझना (जैसे, 'hoher Blutzucker' - उच्च रक्त शर्करा)।"
-            },
-            "ur": {
-                "bullet1": "دوا کی خوراک سے متعلق حروف جار کے ساتھ مفعولی اور اضافی حالت کا استعمال (مثال کے طور پر، 'mit Insulin' - انسولین کے ساتھ)۔",
-                "bullet2": "علامات کو بیان کرتے وقت صفت کے خاتمے کو سمجھنا (مثال کے طور پر، 'hoher Blutzucker' - ہائی بلڈ شوگر)۔"
-            },
-            "tr": {
-                "bullet1": "İlaç dozu ile ilgili edatlarda datif ve akuzatif hallerin kullanımı (örneğin, 'mit Insulin' - insülin ile).",
-                "bullet2": "Semptomları tarif ederken sıfat tamlamalarının sonlarını anlamak (örneğin, 'hoher Blutzucker' - yüksek kan şekeri)."
-            }
+            "en": "**Endocrinology: Dative/Accusative with Prepositions and Adjective Endings**\n\nDiscussing endocrine conditions requires mastery of case usage with prepositions.\n\n*Preposition 'mit' + Dative for Treatment:*\n- 'mit Insulin behandeln' (to treat with insulin)\n- 'mit Tabletten einstellen' (to regulate with tablets)\n- 'mit Schilddrüsenhormonen substituieren' (to substitute with thyroid hormones)\n\n**Examples:**\n- 'Der Patient wird mit Metformin behandelt.' (The patient is treated with metformin.)\n- 'Wir beginnen mit einer niedrigen Dosis.' (We start with a low dose.)\n\n*Adjective Endings for Lab Values:*\n| Article Type | Example with Adjective |\n|--------------|------------------------|\n| Definite (der/die/das) | der erhöhte Blutzucker, die normale Schilddrüse, das hohe HbA1c |\n| Indefinite (ein/eine) | ein erhöhter Blutzucker, eine normale Schilddrüse, ein hohes HbA1c |\n| No article | erhöhter Blutzucker, normale Schilddrüse, hohes HbA1c |\n\n**Describing Values:**\n- 'Der Blutzucker ist stark erhöht.' (Blood sugar is significantly elevated.)\n- 'Der HbA1c-Wert liegt bei 8,5%.' (The HbA1c value is at 8.5%.)\n- 'Die Schilddrüsenwerte sind im Normbereich.' (Thyroid values are within normal range.)\n\n*Patient Education Phrases:*\n- 'Sie müssen regelmäßig Ihren Blutzucker messen.' (You must measure your blood sugar regularly.)\n- 'Die Tabletten werden vor dem Essen eingenommen.' (The tablets are taken before meals.)\n- 'Insulin wird subkutan gespritzt.' (Insulin is injected subcutaneously.)",
+            "de": "**Endokrinologie: Dativ/Akkusativ mit Präpositionen und Adjektivendungen**\n\nDie Diskussion endokriner Erkrankungen erfordert die Beherrschung der Kasusverwendung.\n\n*Präposition 'mit' + Dativ für Behandlung:*\n- 'mit Insulin behandeln'\n- 'mit Tabletten einstellen'\n- 'mit Schilddrüsenhormonen substituieren'\n\n**Beispiele:**\n- 'Der Patient wird mit Metformin behandelt.'\n- 'Wir beginnen mit einer niedrigen Dosis.'\n\n*Adjektivendungen bei Laborwerten:*\n| Artikelart | Beispiel mit Adjektiv |\n|------------|----------------------|\n| Bestimmt | der erhöhte Blutzucker |\n| Unbestimmt | ein erhöhter Blutzucker |\n| Ohne Artikel | erhöhter Blutzucker |\n\n**Werte beschreiben:**\n- 'Der Blutzucker ist stark erhöht.'\n- 'Der HbA1c-Wert liegt bei 8,5%.'\n- 'Die Schilddrüsenwerte sind im Normbereich.'\n\n*Patientenschulungsphrasen:*\n- 'Sie müssen regelmäßig Ihren Blutzucker messen.'\n- 'Die Tabletten werden vor dem Essen eingenommen.'\n- 'Insulin wird subkutan gespritzt.'",
+            "bn": "**Endocrinology: Dative/Accusative with Prepositions and Adjective Endings**\n\nDiscussing endocrine conditions requires mastery of case usage with prepositions.\n\n*Preposition 'mit' + Dative for Treatment:*\n- 'mit Insulin behandeln' (to treat with insulin)\n- 'mit Tabletten einstellen' (to regulate with tablets)\n- 'mit Schilddrüsenhormonen substituieren' (to substitute with thyroid hormones)\n\n**Examples:**\n- 'Der Patient wird mit Metformin behandelt.' (The patient is treated with metformin.)\n- 'Wir beginnen mit einer niedrigen Dosis.' (We start with a low dose.)\n\n*Adjective Endings for Lab Values:*\n| Article Type | Example with Adjective |\n|--------------|------------------------|\n| Definite (der/die/das) | der erhöhte Blutzucker, die normale Schilddrüse, das hohe HbA1c |\n| Indefinite (ein/eine) | ein erhöhter Blutzucker, eine normale Schilddrüse, ein hohes HbA1c |\n| No article | erhöhter Blutzucker, normale Schilddrüse, hohes HbA1c |\n\n**Describing Values:**\n- 'Der Blutzucker ist stark erhöht.' (Blood sugar is significantly elevated.)\n- 'Der HbA1c-Wert liegt bei 8,5%.' (The HbA1c value is at 8.5%.)\n- 'Die Schilddrüsenwerte sind im Normbereich.' (Thyroid values are within normal range.)\n\n*Patient Education Phrases:*\n- 'Sie müssen regelmäßig Ihren Blutzucker messen.' (You must measure your blood sugar regularly.)\n- 'Die Tabletten werden vor dem Essen eingenommen.' (The tablets are taken before meals.)\n- 'Insulin wird subkutan gespritzt.' (Insulin is injected subcutaneously.)",
+            "hi": "**Endocrinology: Dative/Accusative with Prepositions and Adjective Endings**\n\nDiscussing endocrine conditions requires mastery of case usage with prepositions.\n\n*Preposition 'mit' + Dative for Treatment:*\n- 'mit Insulin behandeln' (to treat with insulin)\n- 'mit Tabletten einstellen' (to regulate with tablets)\n- 'mit Schilddrüsenhormonen substituieren' (to substitute with thyroid hormones)\n\n**Examples:**\n- 'Der Patient wird mit Metformin behandelt.' (The patient is treated with metformin.)\n- 'Wir beginnen mit einer niedrigen Dosis.' (We start with a low dose.)\n\n*Adjective Endings for Lab Values:*\n| Article Type | Example with Adjective |\n|--------------|------------------------|\n| Definite (der/die/das) | der erhöhte Blutzucker, die normale Schilddrüse, das hohe HbA1c |\n| Indefinite (ein/eine) | ein erhöhter Blutzucker, eine normale Schilddrüse, ein hohes HbA1c |\n| No article | erhöhter Blutzucker, normale Schilddrüse, hohes HbA1c |\n\n**Describing Values:**\n- 'Der Blutzucker ist stark erhöht.' (Blood sugar is significantly elevated.)\n- 'Der HbA1c-Wert liegt bei 8,5%.' (The HbA1c value is at 8.5%.)\n- 'Die Schilddrüsenwerte sind im Normbereich.' (Thyroid values are within normal range.)\n\n*Patient Education Phrases:*\n- 'Sie müssen regelmäßig Ihren Blutzucker messen.' (You must measure your blood sugar regularly.)\n- 'Die Tabletten werden vor dem Essen eingenommen.' (The tablets are taken before meals.)\n- 'Insulin wird subkutan gespritzt.' (Insulin is injected subcutaneously.)",
+            "ur": "**Endocrinology: Dative/Accusative with Prepositions and Adjective Endings**\n\nDiscussing endocrine conditions requires mastery of case usage with prepositions.\n\n*Preposition 'mit' + Dative for Treatment:*\n- 'mit Insulin behandeln' (to treat with insulin)\n- 'mit Tabletten einstellen' (to regulate with tablets)\n- 'mit Schilddrüsenhormonen substituieren' (to substitute with thyroid hormones)\n\n**Examples:**\n- 'Der Patient wird mit Metformin behandelt.' (The patient is treated with metformin.)\n- 'Wir beginnen mit einer niedrigen Dosis.' (We start with a low dose.)\n\n*Adjective Endings for Lab Values:*\n| Article Type | Example with Adjective |\n|--------------|------------------------|\n| Definite (der/die/das) | der erhöhte Blutzucker, die normale Schilddrüse, das hohe HbA1c |\n| Indefinite (ein/eine) | ein erhöhter Blutzucker, eine normale Schilddrüse, ein hohes HbA1c |\n| No article | erhöhter Blutzucker, normale Schilddrüse, hohes HbA1c |\n\n**Describing Values:**\n- 'Der Blutzucker ist stark erhöht.' (Blood sugar is significantly elevated.)\n- 'Der HbA1c-Wert liegt bei 8,5%.' (The HbA1c value is at 8.5%.)\n- 'Die Schilddrüsenwerte sind im Normbereich.' (Thyroid values are within normal range.)\n\n*Patient Education Phrases:*\n- 'Sie müssen regelmäßig Ihren Blutzucker messen.' (You must measure your blood sugar regularly.)\n- 'Die Tabletten werden vor dem Essen eingenommen.' (The tablets are taken before meals.)\n- 'Insulin wird subkutan gespritzt.' (Insulin is injected subcutaneously.)",
+            "tr": "**Endocrinology: Dative/Accusative with Prepositions and Adjective Endings**\n\nDiscussing endocrine conditions requires mastery of case usage with prepositions.\n\n*Preposition 'mit' + Dative for Treatment:*\n- 'mit Insulin behandeln' (to treat with insulin)\n- 'mit Tabletten einstellen' (to regulate with tablets)\n- 'mit Schilddrüsenhormonen substituieren' (to substitute with thyroid hormones)\n\n**Examples:**\n- 'Der Patient wird mit Metformin behandelt.' (The patient is treated with metformin.)\n- 'Wir beginnen mit einer niedrigen Dosis.' (We start with a low dose.)\n\n*Adjective Endings for Lab Values:*\n| Article Type | Example with Adjective |\n|--------------|------------------------|\n| Definite (der/die/das) | der erhöhte Blutzucker, die normale Schilddrüse, das hohe HbA1c |\n| Indefinite (ein/eine) | ein erhöhter Blutzucker, eine normale Schilddrüse, ein hohes HbA1c |\n| No article | erhöhter Blutzucker, normale Schilddrüse, hohes HbA1c |\n\n**Describing Values:**\n- 'Der Blutzucker ist stark erhöht.' (Blood sugar is significantly elevated.)\n- 'Der HbA1c-Wert liegt bei 8,5%.' (The HbA1c value is at 8.5%.)\n- 'Die Schilddrüsenwerte sind im Normbereich.' (Thyroid values are within normal range.)\n\n*Patient Education Phrases:*\n- 'Sie müssen regelmäßig Ihren Blutzucker messen.' (You must measure your blood sugar regularly.)\n- 'Die Tabletten werden vor dem Essen eingenommen.' (The tablets are taken before meals.)\n- 'Insulin wird subkutan gespritzt.' (Insulin is injected subcutaneously.)"
         },
         "culturalNotes": {
             "en": "In German hospitals, patient education regarding diabetes management is highly emphasized, with structured programs often available.",
@@ -73,12 +55,38 @@
             "ur": "اس سیکشن میں عام endocrine امراض سے متعلق کلیدی جرمن طبی اصطلاحات اور متعلقہ تفہیم فراہم کی گئی ہے۔",
             "tr": "Bu bölüm, yaygın endokrin bozukluklarla ilgili temel Almanca tıbbi terminoloji ve bağlamsal anlayış sağlamıştır."
         },
-        "learningObjectives": [
-            "Recognize German medical terms for diabetes mellitus and related conditions.",
-            "Describe the function of the thyroid gland in German.",
-            "Explain the concept and significance of HbA1c to a patient in German.",
-            "Discuss insulin treatment options with patients using appropriate German vocabulary."
-        ]
+        "learningObjectives": {
+            "en": [
+                "Recognize German medical terms for diabetes mellitus and related conditions.",
+                "Describe the function of the thyroid gland in German.",
+                "Explain the concept and significance of HbA1c to a patient in German.",
+                "Discuss insulin treatment options with patients using appropriate German vocabulary."
+            ],
+            "bn": [
+                "Recognize German medical terms for diabetes mellitus and related conditions.",
+                "Describe the function of the thyroid gland in German.",
+                "Explain the concept and significance of HbA1c to a patient in German.",
+                "Discuss insulin treatment options with patients using appropriate German vocabulary."
+            ],
+            "hi": [
+                "Recognize German medical terms for diabetes mellitus and related conditions.",
+                "Describe the function of the thyroid gland in German.",
+                "Explain the concept and significance of HbA1c to a patient in German.",
+                "Discuss insulin treatment options with patients using appropriate German vocabulary."
+            ],
+            "ur": [
+                "Recognize German medical terms for diabetes mellitus and related conditions.",
+                "Describe the function of the thyroid gland in German.",
+                "Explain the concept and significance of HbA1c to a patient in German.",
+                "Discuss insulin treatment options with patients using appropriate German vocabulary."
+            ],
+            "tr": [
+                "Recognize German medical terms for diabetes mellitus and related conditions.",
+                "Describe the function of the thyroid gland in German.",
+                "Explain the concept and significance of HbA1c to a patient in German.",
+                "Discuss insulin treatment options with patients using appropriate German vocabulary."
+            ]
+        }
     },
     "vocabulary": [
         {
@@ -102,7 +110,8 @@
                 "ur": "مریض کو پانچ سال سے ذیابیطس mellitus قسم 2 ہے۔",
                 "tr": "Hastanın beş yıldır tip 2 diabetes mellitus'u var."
             },
-            "id": "v25_01"
+            "id": "v25_01",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_01.mp3"
         },
         {
             "germanTerm": "Schilddrüse",
@@ -125,7 +134,8 @@
                 "ur": "مریض کا تائرواڈ گلینڈ بڑھا ہوا ہے۔",
                 "tr": "Hastanın tiroid bezi büyümüş."
             },
-            "id": "v25_02"
+            "id": "v25_02",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_02.mp3"
         },
         {
             "germanTerm": "Hyperthyreose",
@@ -148,7 +158,8 @@
                 "ur": "مریضہ کو ہائپر تھائیرائڈزم کی تشخیص ہوئی ہے۔",
                 "tr": "Hastaya hipertiroidizm teşhisi kondu."
             },
-            "id": "v25_03"
+            "id": "v25_03",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_03.mp3"
         },
         {
             "germanTerm": "Hypothyreose",
@@ -171,7 +182,8 @@
                 "ur": "ہائپو تھائیرائڈزم کا علاج ایل-تھائروکسین سے کیا جاتا ہے۔",
                 "tr": "Hipotiroidizm L-tiroksin ile tedavi edilir."
             },
-            "id": "v25_04"
+            "id": "v25_04",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_04.mp3"
         },
         {
             "germanTerm": "HbA1c",
@@ -194,7 +206,8 @@
                 "ur": "مریض کی HbA1c قدر 7.5 فیصد ہے۔",
                 "tr": "Hastanın HbA1c değeri %7.5'tir."
             },
-            "id": "v25_05"
+            "id": "v25_05",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_05.mp3"
         },
         {
             "germanTerm": "Insulin",
@@ -217,7 +230,8 @@
                 "ur": "مریض کو خون میں شکر کو قابو کرنے کے لیے انسولین کی ضرورت ہے۔",
                 "tr": "Hastanın kan şekerini kontrol etmek için insüline ihtiyacı var."
             },
-            "id": "v25_06"
+            "id": "v25_06",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_06.mp3"
         },
         {
             "germanTerm": "Glukose",
@@ -240,7 +254,8 @@
                 "ur": "وریدی گلوکوز انتظامی آسانی سے ہو گیا۔",
                 "tr": "İntravenöz glikoz uygulaması sorunsuz gerçekleşti."
             },
-            "id": "v25_07"
+            "id": "v25_07",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_07.mp3"
         },
         {
             "germanTerm": "Blutzucker",
@@ -263,7 +278,8 @@
                 "ur": "خون میں شکر کو باقاعدگی سے ماپا جانا چاہیے۔",
                 "tr": "Kan şekeri düzenli olarak ölçülmelidir."
             },
-            "id": "v25_08"
+            "id": "v25_08",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_08.mp3"
         },
         {
             "germanTerm": "Insulinresistenz",
@@ -286,7 +302,8 @@
                 "ur": "موٹاپا انسولین مزاحمت کا باعث بن سکتا ہے۔",
                 "tr": "Obezite insülin direncine yol açabilir."
             },
-            "id": "v25_09"
+            "id": "v25_09",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_09.mp3"
         },
         {
             "germanTerm": "Autoimmunerkrankung",
@@ -309,7 +326,8 @@
                 "ur": "Hashimoto کی تھائیرائیڈائٹس تھائرواڈ گلینڈ کی ایک خودکار مدافعتی بیماری ہے۔",
                 "tr": "Hashimoto tiroiditi, tiroid bezinin otoimmün bir hastalığıdır."
             },
-            "id": "v25_10"
+            "id": "v25_10",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_10.mp3"
         },
         {
             "germanTerm": "Schilddrüsenhormone",
@@ -332,7 +350,8 @@
                 "ur": "تائرواڈ ہارمونز T3 اور T4 لیبارٹری میں متعین کیے جاتے ہیں۔",
                 "tr": "Tiroid hormonları T3 ve T4 laboratuvarda belirlenir."
             },
-            "id": "v25_11"
+            "id": "v25_11",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_11.mp3"
         },
         {
             "germanTerm": "TSH (Thyreoidea-stimulierendes Hormon)",
@@ -355,7 +374,8 @@
                 "ur": "ٹی ایس ایچ کی بلند سطح ہائپو تھائیرائڈزم کی نشاندہی کر سکتی ہے۔",
                 "tr": "Yüksek bir TSH seviyesi hipotiroidizme işaret edebilir."
             },
-            "id": "v25_12"
+            "id": "v25_12",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_12.mp3"
         },
         {
             "germanTerm": "endokrin",
@@ -378,7 +398,8 @@
                 "ur": "انڈوکرائن اعضاء ہارمونز پیدا کرتے ہیں۔",
                 "tr": "Endokrin organlar hormon üretir."
             },
-            "id": "v25_13"
+            "id": "v25_13",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_13.mp3"
         },
         {
             "germanTerm": "peripher",
@@ -401,7 +422,8 @@
                 "ur": "ذیابیطس میں پیریفرل نیوروپیتھی ہو سکتی ہے۔",
                 "tr": "Diyabette periferik nöropatiler oluşabilir."
             },
-            "id": "v25_14"
+            "id": "v25_14",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_14.mp3"
         },
         {
             "germanTerm": "Nüchternblutzucker",
@@ -424,7 +446,8 @@
                 "ur": "آج صبح روزے کے خون میں شوگر بڑھی ہوئی تھی۔",
                 "tr": "Açlık kan şekeri bu sabah yüksekti."
             },
-            "id": "v25_15"
+            "id": "v25_15",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_15.mp3"
         },
         {
             "germanTerm": "Glukosetoleranztest",
@@ -447,7 +470,8 @@
                 "ur": "ذیابیطس کو خارج کرنے کے لیے گلوکوز رواداری ٹیسٹ کیا گیا تھا۔",
                 "tr": "Diyabeti ekarte etmek için bir glikoz tolerans testi yapıldı."
             },
-            "id": "v25_16"
+            "id": "v25_16",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_16.mp3"
         },
         {
             "germanTerm": "Polyneuropathie",
@@ -470,7 +494,8 @@
                 "ur": "پولی نیوروپیتھی پاؤں میں درد اور بے حسی کا سبب بنتی ہے۔",
                 "tr": "Polinöropati ayaklarda ağrı ve uyuşmaya neden olur."
             },
-            "id": "v25_17"
+            "id": "v25_17",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_17.mp3"
         },
         {
             "germanTerm": "Retinopathie",
@@ -493,7 +518,8 @@
                 "ur": "ذیابیطس ریٹینوپیتھی کو باقاعدگی سے چیک کرنا چاہیے۔",
                 "tr": "Diyabetik retinopati düzenli olarak kontrol edilmelidir."
             },
-            "id": "v25_18"
+            "id": "v25_18",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_18.mp3"
         },
         {
             "germanTerm": "Nephropathie",
@@ -516,7 +542,8 @@
                 "ur": "ذیابیطس نیفروپیتھی گردے کی ناکامی کا سبب بن سکتی ہے۔",
                 "tr": "Diyabetik nefropati böbrek yetmezliğine yol açabilir."
             },
-            "id": "v25_19"
+            "id": "v25_19",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_19.mp3"
         },
         {
             "germanTerm": "Fussulkus",
@@ -539,7 +566,8 @@
                 "ur": "مریض کے بائیں پاؤں پر ذیابیطس پاؤں کا السر ہے۔",
                 "tr": "Hastanın sol ayağında diyabetik ayak ülseri var."
             },
-            "id": "v25_20"
+            "id": "v25_20",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_20.mp3"
         },
         {
             "germanTerm": "Diät",
@@ -562,7 +590,8 @@
                 "ur": "ذیابیطس کے مریضوں کے لیے متوازن غذا اہم ہے۔",
                 "tr": "Dengeli bir diyet diyabetliler için önemlidir."
             },
-            "id": "v25_21"
+            "id": "v25_21",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_21.mp3"
         },
         {
             "germanTerm": "Bewegung",
@@ -585,7 +614,8 @@
                 "ur": "باقاعدہ ورزش خون میں شکر کو قابو کرنے میں مدد کرتی ہے۔",
                 "tr": "Düzenli egzersiz kan şekerini kontrol etmeye yardımcı olur."
             },
-            "id": "v25_22"
+            "id": "v25_22",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_22.mp3"
         },
         {
             "germanTerm": "Thyreostatika",
@@ -608,7 +638,8 @@
                 "ur": "ہائپر تھائیرائڈزم میں تھائروسٹیٹکس استعمال کیے جاتے ہیں۔",
                 "tr": "Hipertiroidizmde tirostatikler kullanılır."
             },
-            "id": "v25_23"
+            "id": "v25_23",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_23.mp3"
         },
         {
             "germanTerm": "L-Thyroxin",
@@ -631,7 +662,8 @@
                 "ur": "مریض روزانہ ایل-تھائروکسین لیتا ہے۔",
                 "tr": "Hasta her gün L-tiroksin alır."
             },
-            "id": "v25_24"
+            "id": "v25_24",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_24.mp3"
         },
         {
             "germanTerm": "Struma",
@@ -654,7 +686,8 @@
                 "ur": "گلہڑ کو جراحی سے ہٹا دیا جاتا ہے۔",
                 "tr": "Guatr cerrahi olarak çıkarılır."
             },
-            "id": "v25_25"
+            "id": "v25_25",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_25.mp3"
         },
         {
             "germanTerm": "Ernährungsberatung",
@@ -677,7 +710,8 @@
                 "ur": "مریض کو ذیابیطس کے علاج کے لیے غذائی مشاورت ملتی ہے۔",
                 "tr": "Hasta, diyabet tedavisi için beslenme danışmanlığı alır."
             },
-            "id": "v25_26"
+            "id": "v25_26",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_26.mp3"
         },
         {
             "germanTerm": "Mikroangiopathie",
@@ -700,7 +734,8 @@
                 "ur": "مائیکروانجیوپیتھی اعضاء کو نقصان پہنچا سکتی ہے۔",
                 "tr": "Mikroanjiyopati organ hasarına yol açabilir."
             },
-            "id": "v25_27"
+            "id": "v25_27",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_27.mp3"
         },
         {
             "germanTerm": "Makroangiopathie",
@@ -723,7 +758,8 @@
                 "ur": "میکروانجیوپیتھی بڑی خون کی نالیوں کو متاثر کرتی ہے۔",
                 "tr": "Makroanjiyopati daha büyük kan damarlarını etkiler."
             },
-            "id": "v25_28"
+            "id": "v25_28",
+            "audioUrl": "assets/audio/sections/section_25/vocabulary/v25_28.mp3"
         }
     ],
     "dialogues": [
@@ -753,7 +789,8 @@
                         "hi": "शुभ दिन, श्री मुलर। दुर्भाग्य से, आपका HbA1c स्तर थोड़ा अधिक है, 7.8% पर।",
                         "ur": "شب بخیر، مسٹر مولر۔ بدقسمتی سے، آپ کا ایچ بی اے 1 سی لیول تھوڑا زیادہ ہے، 7.8٪ پر۔",
                         "tr": "İyi günler Bay Müller. Maalesef HbA1c değeriniz biraz yüksek, %7.8."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_01_line1.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -765,7 +802,8 @@
                         "hi": "ओह, यह अच्छा नहीं है। मैं अपने आहार का पालन करने की कोशिश कर रहा हूँ।",
                         "ur": "اوہ، یہ اچھا نہیں ہے۔ میں اپنی خوراک پر عمل کرنے کی کوشش کر رہا ہوں۔",
                         "tr": "Ah, bu iyi değil. Diyetimi uygulamaya çalışıyorum."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_01_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -777,7 +815,8 @@
                         "hi": "हमें आपकी इंसुलिन की खुराक को समायोजित करना चाहिए। चलो रात के खाने से पहले इसे 2 यूनिट बढ़ाते हैं।",
                         "ur": "ہمیں آپ کی انسولین کی خوراک کو ایڈجسٹ کرنا چاہئے۔ آئیے رات کے کھانے سے پہلے اسے 2 یونٹ بڑھاتے ہیں۔",
                         "tr": "İnsülin dozunuzu ayarlamalıyız. Akşam yemeğinden önce 2 ünite artıralım."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_01_line3.mp3"
                 },
                 {
                     "speaker": "Patient Müller",
@@ -789,7 +828,8 @@
                         "hi": "ठीक है, मैं ऐसा कर सकता हूँ। क्या कुछ और है जिस पर मुझे ध्यान देना चाहिए?",
                         "ur": "ٹھیک ہے، میں یہ کر سکتا ہوں۔ کیا کوئی اور چیز ہے جس پر مجھے توجہ دینی چاہیے؟",
                         "tr": "Tamam, bunu yapabilirim. Dikkat etmem gereken başka bir şey var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_01_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -801,7 +841,8 @@
                         "hi": "नियमित व्यायाम और रक्त शर्करा की निगरानी महत्वपूर्ण है। हम तीन महीने में फिर मिलेंगे।",
                         "ur": "باقاعدگی سے ورزش اور خون میں شوگر کی نگرانی ضروری ہے۔ ہم تین مہینوں میں دوبارہ ملیں گے۔",
                         "tr": "Düzenli egzersiz ve kan şekeri takibi önemlidir. Üç ay sonra tekrar görüşeceğiz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_01_line5.mp3"
                 }
             ],
             "id": "d25_01"
@@ -832,7 +873,8 @@
                         "hi": "सिस्टर श्मिट, कृपया श्रीमती लेहमैन के लिए एक थायराइड अल्ट्रासाउंड का समय निर्धारित करें।",
                         "ur": "نرس شمٹ، براہ کرم محترمہ لیمن کے لئے تھائرائڈ الٹراساؤنڈ کا وقت طے کریں۔",
                         "tr": "Hemşire Schmidt, lütfen Bayan Lehmann için bir tiroid ultrasonu ayarlayın."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_02_line1.mp3"
                 },
                 {
                     "speaker": "Schwester Schmidt",
@@ -844,7 +886,8 @@
                         "hi": "हाँ, डॉक्टर। क्या कोई विशिष्ट प्रश्न है?",
                         "ur": "جی ہاں، ڈاکٹر۔ کیا کوئی خاص سوال ہے؟",
                         "tr": "Evet Doktor. Belirli bir soru var mı?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_02_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -856,7 +899,8 @@
                         "hi": "हाइपोथायरायडिज्म संदिग्ध है, हमें थायराइड का आकार और कोई भी नोड्यूल चाहिए।",
                         "ur": "ہائپوتھائیرائڈزم کا شبہ ہے، ہمیں تائرواڈ کا سائز اور کوئی بھی نوڈولس درکار ہیں۔",
                         "tr": "Hipotiroidizm şüphesi var, tiroid boyutuna ve herhangi bir nodüle ihtiyacımız var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_02_line3.mp3"
                 },
                 {
                     "speaker": "Schwester Schmidt",
@@ -868,7 +912,8 @@
                         "hi": "समझ गया। मैं इसका ख्याल रखूंगा।",
                         "ur": "سمجھ گیا۔ میں اس کا خیال رکھوں گا۔",
                         "tr": "Anlaşıldı. Ben hallederim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_02_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -880,7 +925,8 @@
                         "hi": "धन्यवाद, सिस्टर श्मिट।",
                         "ur": "شکریہ، نرس شمٹ۔",
                         "tr": "Teşekkürler Hemşire Schmidt."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_02_line5.mp3"
                 }
             ],
             "id": "d25_02"
@@ -911,7 +957,8 @@
                         "hi": "श्रीमती वेबर, रक्त परीक्षण हाइपरथायरायडिज्म की पुष्टि करते हैं, जिसका अर्थ है अतिसक्रिय थायराइड।",
                         "ur": "محترمہ ویبر، خون کے ٹیسٹ ہائپر تھائیرائڈزم کی تصدیق کرتے ہیں، جس کا مطلب ہے ایک اوور ایکٹو تائرواڈ۔",
                         "tr": "Bayan Weber, kan testleri hipertiroidizmi doğruluyor, yani aşırı aktif bir tiroidiniz var."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_03_line1.mp3"
                 },
                 {
                     "speaker": "Patient Weber",
@@ -923,7 +970,8 @@
                         "hi": "इसका मेरे लिए क्या मतलब है?",
                         "ur": "اس کا میرے لئے کیا مطلب ہے؟",
                         "tr": "Bu benim için ne anlama geliyor?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_03_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -935,7 +983,8 @@
                         "hi": "आपके कई लक्षण हैं, जैसे कि तेजी से दिल धड़कना और वजन कम होना। हम इसे दवा से ठीक कर सकते हैं।",
                         "ur": "آپ میں مختلف علامات ہیں، جیسے تیز دھڑکن اور وزن میں کمی۔ ہم اس کا علاج دوا سے کر سکتے ہیں۔",
                         "tr": "Hızlı kalp atışı ve kilo kaybı gibi çeşitli belirtileriniz var. Bunu ilaçlarla tedavi edebiliriz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_03_line3.mp3"
                 },
                 {
                     "speaker": "Patient Weber",
@@ -947,7 +996,8 @@
                         "hi": "कौन सी दवाएं होंगी?",
                         "ur": "وہ کونسی دوائیں ہوں گی؟",
                         "tr": "Bu hangi ilaçlar olur?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_03_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Schmidt",
@@ -959,7 +1009,8 @@
                         "hi": "हार्मोन उत्पादन को कम करने के लिए थाइरोस्टैटिक्स। हम अगली नियुक्ति में विवरण पर चर्चा करेंगे।",
                         "ur": "تھائیروسٹیٹکس، ہارمون کی پیداوار کو کم کرنے کے لئے۔ ہم اگلی ملاقات میں تفصیلات پر تبادلہ خیال کریں گے۔",
                         "tr": "Hormon üretimini düşürmek için tiyrostatikler. Ayrıntıları bir sonraki randevuda görüşeceğiz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_03_line5.mp3"
                 }
             ],
             "id": "d25_03"
@@ -990,7 +1041,8 @@
                         "hi": "श्री श्मिट, आज मैं आपको दिखाऊंगा कि ठीक से अपना इंसुलिन कैसे इंजेक्ट करें।",
                         "ur": "مسٹر شمٹ، آج میں آپ کو دکھاؤں گا کہ اپنے انسولین کو صحیح طریقے سے کیسے انجیکٹ کریں۔",
                         "tr": "Bay Schmidt, bugün size insülininizi nasıl doğru şekilde enjekte edeceğinizi göstereceğim."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_04_line1.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -1002,7 +1054,8 @@
                         "hi": "मैं थोड़ा घबराया हुआ हूँ, मैंने यह पहले कभी नहीं किया।",
                         "ur": "میں تھوڑا گھبرایا ہوا ہوں، میں نے یہ پہلے کبھی نہیں کیا۔",
                         "tr": "Biraz gerginim, bunu daha önce hiç yapmadım."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_04_line2.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -1014,7 +1067,8 @@
                         "hi": "चिंता न करें, यह जितना दिखता है उससे आसान है। यहाँ सिरिंज है, और यहाँ इंसुलिन पेन है।",
                         "ur": "پریشان نہ ہوں، یہ جتنا لگتا ہے اس سے آسان ہے۔ یہ سرنج ہے، اور یہ انسولین قلم ہے۔",
                         "tr": "Endişelenmeyin, göründüğünden daha kolay. İşte şırınga ve işte insülin kalemi."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_04_line3.mp3"
                 },
                 {
                     "speaker": "Patient Schmidt",
@@ -1026,7 +1080,8 @@
                         "hi": "ठीक है, और इसे इंजेक्ट करने के लिए सबसे अच्छी जगह कहाँ है?",
                         "ur": "ٹھیک ہے، اور اسے انجیکٹ کرنے کے لیے بہترین جگہ کہاں ہے؟",
                         "tr": "Tamam, ve bunu en iyi nereye enjekte ederim?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_04_line4.mp3"
                 },
                 {
                     "speaker": "Schwester Weber",
@@ -1038,7 +1093,8 @@
                         "hi": "पेट या जांघ में इंजेक्ट करना सबसे अच्छा है। हम आपको सही तकनीक दिखाएंगे।",
                         "ur": "پیٹ یا ران میں انجیکٹ کرنا سب سے اچھا ہے۔ ہم آپ کو صحیح تکنیک دکھائیں گے۔",
                         "tr": "En iyi yer karın veya uyluktur. Size doğru tekniği göstereceğiz."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_04_line5.mp3"
                 }
             ],
             "id": "d25_04"
@@ -1069,7 +1125,8 @@
                         "hi": "श्रीमती लेहमैन, आपके थायराइड का स्तर अभी तक इष्टतम रूप से समायोजित नहीं हुआ है।",
                         "ur": "محترمہ لیمن، آپ کے تائرواڈ کی سطحیں ابھی تک بہترین طور پر ایڈجسٹ نہیں کی گئی ہیں۔",
                         "tr": "Bayan Lehmann, tiroid seviyeleriniz henüz optimum şekilde ayarlanmadı."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_05_line1.mp3"
                 },
                 {
                     "speaker": "Patient Lehmann",
@@ -1081,7 +1138,8 @@
                         "hi": "मुझे अभी भी थकान महसूस होती है और वजन बढ़ गया है।",
                         "ur": "میں اب بھی تھکا ہوا محسوس کرتی ہوں اور وزن بڑھ گیا ہے۔",
                         "tr": "Hala yorgun hissediyorum ve kilo aldım."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_05_line2.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -1093,7 +1151,8 @@
                         "hi": "हम आपकी लेवोथायरोक्सिन की खुराक को प्रतिदिन 25 माइक्रोग्राम बढ़ाएंगे।",
                         "ur": "ہم آپ کی لیووتھائروکسین کی خوراک کو روزانہ 25 مائیکروگرام تک بڑھائیں گے۔",
                         "tr": "Levotiroksin dozunuzu günlük 25 mikrogram artıracağız."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_05_line3.mp3"
                 },
                 {
                     "speaker": "Patient Lehmann",
@@ -1105,7 +1164,8 @@
                         "hi": "ठीक है, मुझे अगले रक्त परीक्षण के लिए कब आना चाहिए?",
                         "ur": "ٹھیک ہے، مجھے اگلے خون کے ٹیسٹ کے لیے کب آنا چاہیے؟",
                         "tr": "Tamam, bir sonraki kan testi için ne zaman gelmeliyim?"
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_05_line4.mp3"
                 },
                 {
                     "speaker": "Dr. Weber",
@@ -1117,7 +1177,8 @@
                         "hi": "छह सप्ताह में। कृपया उपवास करके आएं।",
                         "ur": "چھ ہفتوں میں۔ براہ کرم خالی پیٹ آئیں۔",
                         "tr": "Altı hafta sonra. Lütfen aç karnına gelin."
-                    }
+                    },
+                    "audioUrl": "assets/audio/sections/section_25/dialogues/d25_05_line5.mp3"
                 }
             ],
             "id": "d25_05"
