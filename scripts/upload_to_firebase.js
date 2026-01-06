@@ -15,9 +15,14 @@ const admin = require('firebase-admin');
 const fs = require('fs');
 const path = require('path');
 
-// Initialize Firebase Admin
+// Load service account key
+const projectRoot = path.join(__dirname, '..');
+const serviceAccountPath = path.join(projectRoot, 'german-med-firebase-adminsdk-fbsvc-2fe85ddccb.json');
+const serviceAccount = require(serviceAccountPath);
+
+// Initialize Firebase Admin with explicit credentials
 admin.initializeApp({
-  credential: admin.credential.applicationDefault(),
+  credential: admin.credential.cert(serviceAccount),
   storageBucket: 'german-med.firebasestorage.app'
 });
 

@@ -1292,10 +1292,10 @@
             "correctAnswer": "Atmung prüfen",
             "explanation": {
                 "en": "Checking for breathing is the first priority to ensure the person is getting oxygen.",
-                "bn": "শ্বাস-প্রশ্বাস পরীক্ষা করা হল প্রথম অগ্রাধিকার, এটি নিশ্চিত করা যে ব্যক্তি অক্সিজেন পাচ্ছে।",
-                "hi": "सांस लेने की जाँच करना पहली प्राथमिकता है ताकि यह सुनिश्चित किया जा सके कि व्यक्ति को ऑक्सीजन मिल रही है।",
-                "ur": "سانس لینے کی جانچ کرنا پہلی ترجیح ہے تاکہ یہ یقینی بنایا جاسکے کہ شخص کو آکسیجن مل رہی ہے۔",
-                "tr": "Kişinin oksijen aldığından emin olmak için nefes alıp almadığını kontrol etmek ilk önceliktir."
+                "bn": "শ্বাস-প্রশ্বাস পরীক্ষা করা হল প্রথম অগ্রাধিকার।",
+                "hi": "श्वास जांचना पहली प्राथमिकता है।",
+                "ur": "سانس لینے کی جانچ پہلی ترجیح ہے۔",
+                "tr": "Nefes kontrolü ilk önceliktir."
             },
             "points": 10,
             "id": "e51_01"
@@ -1303,26 +1303,26 @@
         {
             "type": "multipleChoice",
             "question": {
-                "de": "Was bedeutet die Abkürzung 'BLS' im medizinischen Kontext?",
-                "en": "What does the abbreviation 'BLS' mean in a medical context?",
-                "bn": "চিকিৎসা প্রেক্ষাপটে 'BLS' এর মানে কী?",
-                "hi": "चिकित्सा संदर्भ में 'BLS' का क्या अर्थ है?",
-                "ur": "طبی تناظر میں 'BLS' کا کیا مطلب ہے؟",
-                "tr": "Tıbbi bağlamda 'BLS' kısaltması ne anlama gelir?"
+                "de": "Was bedeutet BLS?",
+                "en": "What does BLS stand for?",
+                "bn": "BLS এর অর্থ কী?",
+                "hi": "BLS का क्या अर्थ है?",
+                "ur": "BLS کا کیا مطلب ہے؟",
+                "tr": "BLS ne anlama gelir?"
             },
             "options": [
                 "Basic Life Support",
-                "Blood Level System",
-                "Brain Life Study",
-                "Body Liquid Solution"
+                "Basic Lung Support",
+                "Blood Life System",
+                "Breathing Life Support"
             ],
             "correctAnswer": "Basic Life Support",
             "explanation": {
-                "en": "'BLS' stands for Basic Life Support, which refers to the basic techniques used to keep someone alive in an emergency.",
-                "bn": "'BLS' এর মানে হল বেসিক লাইফ সাপোর্ট, যা জরুরি পরিস্থিতিতে কাউকে বাঁচিয়ে রাখার জন্য ব্যবহৃত মৌলিক কৌশলগুলিকে বোঝায়।",
-                "hi": "'BLS' का अर्थ है बेसिक लाइफ सपोर्ट, जो आपात स्थिति में किसी को जीवित रखने के लिए उपयोग की जाने वाली बुनियादी तकनीकों को संदर्भित करता है।",
-                "ur": "'BLS' کا مطلب بنیادی زندگی کی حمایت ہے، جو ہنگامی صورتحال میں کسی کو زندہ رکھنے کے لیے استعمال کی جانے والی بنیادی تکنیکوں سے مراد ہے۔",
-                "tr": "'BLS', Temel Yaşam Desteği anlamına gelir ve acil bir durumda birini hayatta tutmak için kullanılan temel teknikleri ifade eder."
+                "en": "BLS stands for Basic Life Support, fundamental emergency care.",
+                "bn": "BLS মানে বেসিক লাইফ সাপোর্ট।",
+                "hi": "BLS का मतलब बेसिक लाइफ सपोर्ट है।",
+                "ur": "BLS کا مطلب بیسک لائف سپورٹ ہے۔",
+                "tr": "BLS, Temel Yaşam Desteği anlamına gelir."
             },
             "points": 10,
             "id": "e51_02"
@@ -1330,217 +1330,217 @@
         {
             "type": "multipleChoice",
             "question": {
-                "de": "Welche Maßnahme ist KEIN Teil des ACLS-Algorithmus?",
-                "en": "Which action is NOT part of the ACLS algorithm?",
-                "bn": "কোন পদক্ষেপটি ACLS অ্যালগরিদমের অংশ নয়?",
-                "hi": "कौन सा कार्य ACLS एल्गोरिथम का भाग नहीं है?",
-                "ur": "کون سا عمل ACLS الگورتھم کا حصہ نہیں ہے؟",
-                "tr": "Hangi eylem ACLS algoritmasının bir parçası değildir?",
-                "options": [
-                    "Defibrillation",
-                    "Airway Management",
-                    "Chest Compressions",
-                    "Aspirin Administration"
-                ],
-                "correctAnswer": "Aspirin Administration",
-                "explanation": {
-                    "en": "While aspirin may be used in some emergency situations, it is not a standard part of the ACLS algorithm.",
-                    "bn": "যদিও কিছু জরুরি পরিস্থিতিতে অ্যাসপিরিন ব্যবহার করা যেতে পারে, তবে এটি ACLS অ্যালগরিদমের একটি স্ট্যান্ডার্ড অংশ নয়।",
-                    "hi": "जबकि कुछ आपातकालीन स्थितियों में एस्पिरिन का उपयोग किया जा सकता है, यह ACLS एल्गोरिथम का एक मानक भाग नहीं है।",
-                    "ur": "اگرچہ کچھ ہنگامی صورتحال میں اسپرین کا استعمال کیا جا سکتا ہے، لیکن یہ ACLS الگورتھم کا ایک معیاری حصہ نہیں ہے۔",
-                    "tr": "Aspirin bazı acil durumlarda kullanılabilse de, ACLS algoritmasının standart bir parçası değildir."
-                },
-                "points": 10
+                "de": "Was ist die korrekte Frequenz für Herzdruckmassage bei Erwachsenen?",
+                "en": "What is the correct compression rate for adult CPR?",
+                "bn": "প্রাপ্তবয়স্কদের সিপিআর-এর জন্য সঠিক কম্প্রেশন রেট কী?",
+                "hi": "वयस्क सीपीआर के लिए सही संपीड़न दर क्या है?",
+                "ur": "بالغوں کی سی پی آر کے لیے صحیح کمپریشن ریٹ کیا ہے؟",
+                "tr": "Yetişkin CPR için doğru kompresyon oranı nedir?"
             },
+            "options": [
+                "60-80/min",
+                "80-100/min",
+                "100-120/min",
+                "120-140/min"
+            ],
+            "correctAnswer": "100-120/min",
+            "explanation": {
+                "en": "Current guidelines recommend 100-120 compressions per minute for adult CPR.",
+                "bn": "বর্তমান নির্দেশিকা প্রাপ্তবয়স্কদের সিপিআর-এর জন্য প্রতি মিনিটে 100-120 কম্প্রেশন সুপারিশ করে।",
+                "hi": "वर्तमान दिशानिर्देश वयस्क सीपीआर के लिए प्रति मिनट 100-120 संपीड़न की सिफारिश करते हैं।",
+                "ur": "موجودہ رہنما خطوط بالغوں کی سی پی آر کے لیے فی منٹ 100-120 کمپریشن تجویز کرتے ہیں۔",
+                "tr": "Mevcut kılavuzlar yetişkin CPR için dakikada 100-120 kompresyon önermektedir."
+            },
+            "points": 10,
             "id": "e51_03"
         },
         {
             "type": "multipleChoice",
             "question": {
-                "de": "Was ist ein häufiges Symptom eines anaphylaktischen Schocks?",
-                "en": "What is a common symptom of anaphylactic shock?",
-                "bn": "অ্যানাফিল্যাকটিক শকের একটি সাধারণ লক্ষণ কী?",
-                "hi": "एनाफिलेक्टिक शॉक का एक सामान्य लक्षण क्या है?",
-                "ur": "انا فائلیٹک شاک کی ایک عام علامت کیا ہے؟",
-                "tr": "Anafilaktik şokun yaygın bir belirtisi nedir?",
-                "options": [
-                    "Hoher Blutdruck",
-                    "Hautausschlag und Schwellung",
-                    "Verlangsamter Herzschlag",
-                    "Erhöhte Körpertemperatur"
-                ],
-                "correctAnswer": "Hautausschlag und Schwellung",
-                "explanation": {
-                    "en": "Anaphylactic shock often presents with skin rash, hives, and swelling of the face, tongue, or throat.",
-                    "bn": "অ্যানাফিল্যাকটিক শকের মধ্যে প্রায়শই ত্বকের ফুসকুড়ি, আমবাত এবং মুখ, জিহ্বা বা গলার ফোলাভাব দেখা যায়।",
-                    "hi": "एनाफिलेक्टिक शॉक में अक्सर त्वचा पर चकत्ते, पित्ती और चेहरे, जीभ या गले में सूजन दिखाई देती है।",
-                    "ur": "انا فائلیٹک شاک میں اکثر جلد پر خارش، چھپاکی اور چہرے، زبان یا گلے میں سوجن ظاہر ہوتی ہے۔",
-                    "tr": "Anafilaktik şok genellikle ciltte kızarıklık, kurdeşen ve yüz, dil veya boğazda şişlikle kendini gösterir."
-                },
-                "points": 10
+                "de": "Was bedeutet ACLS?",
+                "en": "What does ACLS stand for?",
+                "bn": "ACLS এর অর্থ কী?",
+                "hi": "ACLS का क्या अर्थ है?",
+                "ur": "ACLS کا کیا مطلب ہے؟",
+                "tr": "ACLS ne anlama gelir?"
             },
+            "options": [
+                "Advanced Cardiac Life Support",
+                "Advanced Critical Life System",
+                "Acute Cardiac Life Support",
+                "Advanced Care Life Support"
+            ],
+            "correctAnswer": "Advanced Cardiac Life Support",
+            "explanation": {
+                "en": "ACLS stands for Advanced Cardiac Life Support, used for advanced resuscitation.",
+                "bn": "ACLS মানে Advanced Cardiac Life Support।",
+                "hi": "ACLS का मतलब Advanced Cardiac Life Support है।",
+                "ur": "ACLS کا مطلب Advanced Cardiac Life Support ہے۔",
+                "tr": "ACLS, İleri Kardiyak Yaşam Desteği anlamına gelir."
+            },
+            "points": 10,
             "id": "e51_04"
         },
         {
             "type": "multipleChoice",
             "question": {
-                "de": "Was ist die häufigste Ursache für einen kardiogenen Schock?",
-                "en": "What is the most common cause of cardiogenic shock?",
-                "bn": "কার্ডিওজেনিক শকের সবচেয়ে সাধারণ কারণ কী?",
-                "hi": "कार्डियोजेनिक शॉक का सबसे आम कारण क्या है?",
-                "ur": "کارڈیوجینک شاک کی سب سے عام وجہ کیا ہے؟",
-                "tr": "Kardiyojenik şokun en sık nedeni nedir?",
-                "options": [
-                    "Schwere Blutungen",
-                    "Herzinfarkt",
-                    "Dehydration",
-                    "Sepsis"
-                ],
-                "correctAnswer": "Herzinfarkt",
-                "explanation": {
-                    "en": "Myocardial infarction (heart attack) is the most common cause of cardiogenic shock because it damages the heart muscle, reducing its ability to pump blood effectively.",
-                    "bn": "মায়োকার্ডিয়াল ইনফার্কশন (হার্ট অ্যাটাক) কার্ডিওজেনিক শকের সবচেয়ে সাধারণ কারণ কারণ এটি হৃদপিণ্ডের পেশীগুলির ক্ষতি করে, যার ফলে রক্ত ​​কার্যকরভাবে পাম্প করার ক্ষমতা হ্রাস পায়।",
-                    "hi": "मायोकार्डियल इंफार्क्शन (दिल का दौरा) कार्डियोजेनिक शॉक का सबसे आम कारण है क्योंकि यह हृदय की मांसपेशियों को नुकसान पहुंचाता है, जिससे रक्त को प्रभावी ढंग से पंप करने की क्षमता कम हो जाती है।",
-                    "ur": "مایو کارڈیل انفکشن (دل کا دورہ) کارڈیوجینک شاک کی سب سے عام وجہ ہے کیونکہ یہ دل کے پٹھوں کو نقصان پہنچاتا ہے، جس سے خون کو مؤثر طریقے سے پمپ کرنے کی صلاحیت کم ہو جاتی ہے۔",
-                    "tr": "Miyokard enfarktüsü (kalp krizi), kardiyojenik şokun en sık nedenidir çünkü kalp kasına zarar verir ve kanı etkili bir şekilde pompalama yeteneğini azaltır."
-                },
-                "points": 10
+                "de": "Was ist ein typisches Zeichen für einen hypovolämischen Schock?",
+                "en": "What is a typical sign of hypovolemic shock?",
+                "bn": "হাইপোভোলেমিক শকের একটি সাধারণ লক্ষণ কী?",
+                "hi": "हाइपोवोलेमिक शॉक का एक विशिष्ट संकेत क्या है?",
+                "ur": "ہائپووولیمک شاک کی ایک عام علامت کیا ہے؟",
+                "tr": "Hipovolemik şokun tipik bir işareti nedir?"
             },
+            "options": [
+                "Bradykardie",
+                "Hypertonie",
+                "Tachykardie",
+                "Fieber"
+            ],
+            "correctAnswer": "Tachykardie",
+            "explanation": {
+                "en": "Tachycardia is a compensatory mechanism in hypovolemic shock.",
+                "bn": "টাকিকার্ডিয়া হাইপোভোলেমিক শকে একটি ক্ষতিপূরণ প্রক্রিয়া।",
+                "hi": "टैकीकार्डिया हाइपोवोलेमिक शॉक में एक प्रतिपूरक तंत्र है।",
+                "ur": "ٹیکی کارڈیا ہائپووولیمک شاک میں ایک معاوضہ میکانزم ہے۔",
+                "tr": "Taşikardi, hipovolemik şokta bir telafi mekanizmasıdır."
+            },
+            "points": 10,
             "id": "e51_05"
         },
         {
             "type": "multipleChoice",
             "question": {
-                "de": "Welche Reihenfolge ist beim ABCDE-Schema korrekt?",
-                "en": "Which sequence is correct in the ABCDE scheme?",
-                "bn": "ABCDE স্কিমে কোন ক্রমটি সঠিক?",
-                "hi": "ABCDE योजना में कौन सा क्रम सही है?",
-                "ur": "ABCDE اسکیم میں کون سا تسلسل درست ہے؟",
-                "tr": "ABCDE şemasında hangi sıra doğrudur?",
-                "options": [
-                    "Breathing, Airway, Circulation, Disability, Exposure",
-                    "Airway, Breathing, Circulation, Disability, Exposure",
-                    "Circulation, Airway, Breathing, Disability, Exposure",
-                    "Disability, Airway, Breathing, Circulation, Exposure"
-                ],
-                "correctAnswer": "Airway, Breathing, Circulation, Disability, Exposure",
-                "explanation": {
-                    "en": "The correct order in the ABCDE scheme is Airway, Breathing, Circulation, Disability, Exposure.",
-                    "bn": "ABCDE স্কিমে সঠিক ক্রম হল Airway, Breathing, Circulation, Disability, Exposure।",
-                    "hi": "ABCDE योजना में सही क्रम Airway, Breathing, Circulation, Disability, Exposure है।",
-                    "ur": "ABCDE اسکیم میں صحیح ترتیب Airway, Breathing, Circulation, Disability, Exposure ہے۔",
-                    "tr": "ABCDE şemasında doğru sıra Airway, Breathing, Circulation, Disability, Exposure şeklindedir."
-                },
-                "points": 10
+                "de": "Welches Medikament wird bei einer Anaphylaxie zuerst gegeben?",
+                "en": "Which medication is given first in anaphylaxis?",
+                "bn": "অ্যানাফিল্যাক্সিসে প্রথমে কোন ওষুধ দেওয়া হয়?",
+                "hi": "एनाफिलेक्सिस में सबसे पहले कौन सी दवा दी जाती है?",
+                "ur": "اینافلیکسس میں سب سے پہلے کون سی دوا دی جاتی ہے؟",
+                "tr": "Anafilakside ilk hangi ilaç verilir?"
             },
+            "options": [
+                "Cortison",
+                "Adrenalin",
+                "Antihistaminikum",
+                "Dopamin"
+            ],
+            "correctAnswer": "Adrenalin",
+            "explanation": {
+                "en": "Adrenaline (Epinephrine) is the first-line treatment for anaphylaxis.",
+                "bn": "অ্যাড্রেনালিন (এপিনেফ্রিন) অ্যানাফিল্যাক্সিসের প্রথম-লাইন চিকিৎসা।",
+                "hi": "एड्रेनालाईन (एपिनेफ्रिन) एनाफिलेक्सिस के लिए प्रथम-पंक्ति उपचार है।",
+                "ur": "ایڈرینالین (ایپینیفرین) اینافلیکسس کا پہلی لائن علاج ہے۔",
+                "tr": "Adrenalin (Epinefrin) anafilaksi için ilk basamak tedavidir."
+            },
+            "points": 10,
             "id": "e51_06"
         },
         {
             "type": "multipleChoice",
             "question": {
-                "de": "Was ist die korrekte Frequenz für Herzdruckmassagen bei einem Erwachsenen?",
-                "en": "What is the correct frequency for chest compressions in an adult?",
-                "bn": "একজন প্রাপ্তবয়স্কের বুকের কম্প্রেশনের জন্য সঠিক ফ্রিকোয়েন্সি কত?",
-                "hi": "एक वयस्क में छाती संकुचन के लिए सही आवृत्ति क्या है?",
-                "ur": "ایک بالغ میں سینے کے کمپریشن کے لیے صحیح فریکوئنسی کیا ہے؟",
-                "tr": "Bir yetişkinde göğüs kompresyonları için doğru frekans nedir?",
-                "options": [
-                    "60-80 pro Minute",
-                    "80-100 pro Minute",
-                    "100-120 pro Minute",
-                    "120-140 pro Minute"
-                ],
-                "correctAnswer": "100-120 pro Minute",
-                "explanation": {
-                    "en": "The correct frequency for chest compressions in an adult is 100-120 per minute.",
-                    "bn": "একজন প্রাপ্তবয়স্কের বুকের কম্প্রেশনের জন্য সঠিক ফ্রিকোয়েন্সি প্রতি মিনিটে 100-120।",
-                    "hi": "एक वयस्क में छाती संकुचन के लिए सही आवृत्ति प्रति मिनट 100-120 है।",
-                    "ur": "ایک بالغ میں سینے کے کمپریشن کے لیے صحیح فریکوئنسی فی منٹ 100-120 ہے۔",
-                    "tr": "Bir yetişkinde göğüs kompresyonları için doğru frekans dakikada 100-120'dir."
-                },
-                "points": 10
+                "de": "Was ist die wichtigste Maßnahme bei Atemwegsverlegung?",
+                "en": "What is the most important measure for airway obstruction?",
+                "bn": "এয়ারওয়ে অবস্ট্রাকশনের জন্য সবচেয়ে গুরুত্বপূর্ণ পদক্ষেপ কী?",
+                "hi": "वायुमार्ग अवरोध के लिए सबसे महत्वपूर्ण उपाय क्या है?",
+                "ur": "ایئر وے رکاوٹ کے لیے سب سے اہم اقدام کیا ہے؟",
+                "tr": "Hava yolu tıkanıklığı için en önemli önlem nedir?"
             },
+            "options": [
+                "Intubation",
+                "Beatmung",
+                "Atemwege freimachen",
+                "Sauerstoff geben"
+            ],
+            "correctAnswer": "Atemwege freimachen",
+            "explanation": {
+                "en": "Clearing the airway is the first and most important step.",
+                "bn": "এয়ারওয়ে পরিষ্কার করা প্রথম এবং সবচেয়ে গুরুত্বপূর্ণ পদক্ষেপ।",
+                "hi": "वायुमार्ग साफ करना पहला और सबसे महत्वपूर्ण कदम है।",
+                "ur": "ایئر وے صاف کرنا پہلا اور سب سے اہم قدم ہے۔",
+                "tr": "Hava yolunu açmak ilk ve en önemli adımdır."
+            },
+            "points": 10,
             "id": "e51_07"
         },
         {
             "type": "multipleChoice",
             "question": {
-                "de": "Was ist die bevorzugte Methode zur Beatmung bei einem Patienten mit vermutetem Trauma der Halswirbelsäule?",
-                "en": "What is the preferred method of ventilation in a patient with suspected cervical spine trauma?",
-                "bn": " suspected সারভাইকাল স্পাইন ট্রমা আক্রান্ত রোগীর ভেন্টিলেশনের জন্য পছন্দের পদ্ধতি কী?",
-                "hi": " संदिग्ध ग्रीवा रीढ़ की हड्डी के आघात वाले रोगी में वेंटिलेशन की पसंदीदा विधि क्या है?",
-                "ur": " مشتبہ گریوا ریڑھ کی ہڈی کے صدمے والے مریض میں وینٹیلیشن کا ترجیحی طریقہ کیا ہے؟",
-                "tr": "Şüpheli servikal omurga travması olan bir hastada ventilasyon için tercih edilen yöntem nedir?",
-                "options": [
-                    "Kopf nach hinten neigen, Kinn anheben",
-                    "Kopf beugen, Kinn anheben",
-                    "Kiefer-Schub-Manöver",
-                    "Mund-zu-Mund-Beatmung"
-                ],
-                "correctAnswer": "Kiefer-Schub-Manöver",
-                "explanation": {
-                    "en": "The jaw-thrust maneuver is preferred to avoid further injury to the cervical spine.",
-                    "bn": "সারভাইকাল স্পাইনের আরও আঘাত এড়াতে চোয়ালের ধাক্কা কৌশলটি পছন্দ করা হয়।",
-                    "hi": "ग्रीवा रीढ़ की हड्डी में आगे की चोट से बचने के लिए जबड़े-थ्रस्ट पैंतरेबाज़ी को प्राथमिकता दी जाती है।",
-                    "ur": "گریوا ریڑھ کی ہڈی میں مزید چوٹ سے بچنے کے لیے جبڑے کی دھکا دینے والی چال کو ترجیح دی جاتی ہے۔",
-                    "tr": "Servikal omurgaya daha fazla zarar vermemek için çene itme manevrası tercih edilir."
-                },
-                "points": 10
+                "de": "Was ist das Verhältnis von Herzdruckmassage zu Beatmung bei Erwachsenen?",
+                "en": "What is the compression to ventilation ratio for adults?",
+                "bn": "প্রাপ্তবয়স্কদের জন্য কম্প্রেশন থেকে ভেন্টিলেশন অনুপাত কী?",
+                "hi": "वयस्कों के लिए संपीड़न से वेंटिलेशन अनुपात क्या है?",
+                "ur": "بالغوں کے لیے کمپریشن سے وینٹیلیشن کا تناسب کیا ہے؟",
+                "tr": "Yetişkinler için kompresyon-ventilasyon oranı nedir?"
             },
+            "options": [
+                "15:2",
+                "30:2",
+                "30:1",
+                "15:1"
+            ],
+            "correctAnswer": "30:2",
+            "explanation": {
+                "en": "The standard ratio for adult CPR is 30 compressions to 2 breaths.",
+                "bn": "প্রাপ্তবয়স্ক সিপিআর-এর জন্য স্ট্যান্ডার্ড অনুপাত হল 30 কম্প্রেশন থেকে 2 শ্বাস।",
+                "hi": "वयस्क सीपीआर के लिए मानक अनुपात 30 संपीड़न से 2 श्वास है।",
+                "ur": "بالغوں کی سی پی آر کے لیے معیاری تناسب 30 کمپریشن سے 2 سانسیں ہے۔",
+                "tr": "Yetişkin CPR için standart oran 30 kompresyona 2 nefestir."
+            },
+            "points": 10,
             "id": "e51_08"
         },
         {
             "type": "multipleChoice",
             "question": {
-                "de": "Was ist das Ziel der Triage in der Notaufnahme?",
-                "en": "What is the goal of triage in the emergency room?",
-                "bn": "জরুরী বিভাগে ট্রায়াজের লক্ষ্য কী?",
-                "hi": "आपातकालीन कक्ष में ट्राइएज का लक्ष्य क्या है?",
-                "ur": "ایمرجنسی روم میں ٹرائج کا مقصد کیا ہے؟",
-                "tr": "Acil serviste triyajın amacı nedir?",
-                "options": [
-                    "Die Reihenfolge der Behandlung nach Ankunftszeit bestimmen",
-                    "Die schwersten Fälle zuerst behandeln",
-                    "Die Patienten nach Versicherungstatus sortieren",
-                    "Die Wartezeiten für alle Patienten verkürzen"
-                ],
-                "correctAnswer": "Die schwersten Fälle zuerst behandeln",
-                "explanation": {
-                    "en": "The goal of triage is to prioritize patients based on the severity of their condition, treating the most critical cases first.",
-                    "bn": "ট্রায়াজের লক্ষ্য হল রোগীদের অবস্থার তীব্রতার উপর ভিত্তি করে অগ্রাধিকার দেওয়া, সবচেয়ে সংকটপূর্ণ ঘটনাগুলির প্রথমে চিকিৎসা করা।",
-                    "hi": "ट्राइएज का लक्ष्य मरीजों की स्थिति की गंभीरता के आधार पर उन्हें प्राथमिकता देना है, सबसे गंभीर मामलों का पहले इलाज करना है।",
-                    "ur": "ٹرائج کا مقصد مریضوں کو ان کی حالت کی شدت کی بنیاد پر ترجیح دینا ہے، سب سے نازک معاملات کا پہلے علاج کرنا ہے۔",
-                    "tr": "Triyajın amacı, hastaları durumlarının ciddiyetine göre önceliklendirmek, en kritik vakaları ilk önce tedavi etmektir."
-                },
-                "points": 10
+                "de": "Was ist eine Indikation für eine Notfall-Intubation?",
+                "en": "What is an indication for emergency intubation?",
+                "bn": "জরুরি ইন্টিউবেশনের জন্য একটি ইঙ্গিত কী?",
+                "hi": "आपातकालीन इंटुबैषेण के लिए एक संकेत क्या है?",
+                "ur": "ایمرجنسی انٹیوبیشن کا اشارہ کیا ہے؟",
+                "tr": "Acil entübasyon için endikasyon nedir?"
             },
+            "options": [
+                "Leichtes Asthma",
+                "Bewusstlosigkeit mit fehlenden Schutzreflexen",
+                "Leichte Dyspnoe",
+                "Husten"
+            ],
+            "correctAnswer": "Bewusstlosigkeit mit fehlenden Schutzreflexen",
+            "explanation": {
+                "en": "Unconsciousness with absent protective reflexes requires intubation to secure the airway.",
+                "bn": "সুরক্ষা রিফ্লেক্স অনুপস্থিত সহ অচেতনতার জন্য এয়ারওয়ে সুরক্ষিত করতে ইন্টিউবেশন প্রয়োজন।",
+                "hi": "सुरक्षात्मक रिफ्लेक्सिस की अनुपस्थिति के साथ बेहोशी के लिए वायुमार्ग सुरक्षित करने के लिए इंटुबैषेण की आवश्यकता होती है।",
+                "ur": "حفاظتی اضطراب کی عدم موجودگی کے ساتھ بے ہوشی کو ایئر وے محفوظ کرنے کے لیے انٹیوبیشن کی ضرورت ہوتی ہے۔",
+                "tr": "Koruyucu reflekslerin yokluğunda bilinçsizlik, hava yolunu güvence altına almak için entübasyon gerektirir."
+            },
+            "points": 10,
             "id": "e51_09"
         },
         {
             "type": "multipleChoice",
             "question": {
-                "de": "Welches Medikament wird häufig bei der Behandlung des anaphylaktischen Schocks eingesetzt?",
-                "en": "Which medication is commonly used in the treatment of anaphylactic shock?",
-                "bn": "অ্যানাফিল্যাকটিক শকের চিকিৎসায় সাধারণত কোন ওষুধ ব্যবহৃত হয়?",
-                "hi": "एनाफिलेक्टिक शॉक के इलाज में आमतौर पर कौन सी दवा का उपयोग किया जाता है?",
-                "ur": "انا فائلیٹک شاک کے علاج میں عام طور پر کون سی دوا استعمال ہوتی ہے؟",
-                "tr": "Anafilaktik şok tedavisinde yaygın olarak hangi ilaç kullanılır?",
-                "options": [
-                    "Paracetamol",
-                    "Ibuprofen",
-                    "Adrenalin (Epinephrin)",
-                    "Aspirin"
-                ],
-                "correctAnswer": "Adrenalin (Epinephrin)",
-                "explanation": {
-                    "en": "Epinephrine (Adrenaline) is the first-line treatment for anaphylactic shock.",
-                    "bn": "এপিনেফ্রিন (অ্যাড্রেনালিন) অ্যানাফিল্যাকটিক শকের জন্য প্রথম সারির চিকিৎসা।",
-                    "hi": "एपिनेफ्रीन (एड्रेनालिन) एनाफिलेक्टिक शॉक के लिए पहली पंक्ति का उपचार है।",
-                    "ur": "ایپینفرین (ایڈرینالین) انا فائلیٹک شاک کے لیے پہلی لائن کا علاج ہے۔",
-                    "tr": "Epinefrin (Adrenalin), anafilaktik şok için ilk basamak tedavidir."
-                },
-                "points": 10
+                "de": "Was ist die Glasgow-Koma-Skala (GCS) Punktzahl für einen komatösen Patienten?",
+                "en": "What is the GCS score for a comatose patient?",
+                "bn": "কোমায় থাকা রোগীর GCS স্কোর কত?",
+                "hi": "कोमाटोस रोगी के लिए GCS स्कोर क्या है?",
+                "ur": "کوماٹوز مریض کے لیے GCS سکور کیا ہے؟",
+                "tr": "Komatöz bir hasta için GCS skoru nedir?"
             },
+            "options": [
+                "15",
+                "8",
+                "3",
+                "10"
+            ],
+            "correctAnswer": "3",
+            "explanation": {
+                "en": "A GCS score of 3 indicates deep coma with no response.",
+                "bn": "GCS স্কোর 3 কোনো প্রতিক্রিয়া ছাড়াই গভীর কোমা নির্দেশ করে।",
+                "hi": "GCS स्कोर 3 बिना किसी प्रतिक्रिया के गहरी कोमा को इंगित करता है।",
+                "ur": "GCS سکور 3 بغیر کسی ردعمل کے گہری کوما کی نشاندہی کرتا ہے۔",
+                "tr": "GCS skoru 3, yanıtsız derin komayı gösterir."
+            },
+            "points": 10,
             "id": "e51_10"
         },
         {

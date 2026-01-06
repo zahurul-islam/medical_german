@@ -221,43 +221,6 @@ class HomeScreen extends ConsumerWidget {
                   child: Text('Error loading phases: $e', style: TextStyle(color: textColor)),
                 ),
               ),
-              const SizedBox(height: 24),
-
-              // Quick actions
-              Text(
-                'Quick Actions',
-                style: AppTextStyles.heading4(isDark: isDarkMode),
-              ),
-              const SizedBox(height: 16),
-              Row(
-                children: [
-                  Expanded(
-                    child: _QuickActionCard(
-                      icon: Icons.quiz_outlined,
-                      title: 'Practice',
-                      subtitle: 'Test your knowledge',
-                      color: AppColors.secondary,
-                      isDarkMode: isDarkMode,
-                      onTap: () {
-                        // TODO: Navigate to practice
-                      },
-                    ),
-                  ),
-                  const SizedBox(width: 12),
-                  Expanded(
-                    child: _QuickActionCard(
-                      icon: Icons.headphones_outlined,
-                      title: 'Audio',
-                      subtitle: 'Listen & learn',
-                      color: AppColors.accent,
-                      isDarkMode: isDarkMode,
-                      onTap: () {
-                        // TODO: Navigate to audio lessons
-                      },
-                    ),
-                  ),
-                ],
-              ),
             ],
           ),
         ),
@@ -405,58 +368,3 @@ class _PhaseCard extends StatelessWidget {
   }
 }
 
-class _QuickActionCard extends StatelessWidget {
-  final IconData icon;
-  final String title;
-  final String subtitle;
-  final Color color;
-  final bool isDarkMode;
-  final VoidCallback onTap;
-
-  const _QuickActionCard({
-    required this.icon,
-    required this.title,
-    required this.subtitle,
-    required this.color,
-    required this.onTap,
-    this.isDarkMode = false,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: onTap,
-      child: Container(
-        padding: const EdgeInsets.all(16),
-        decoration: BoxDecoration(
-          color: Theme.of(context).cardColor,
-          borderRadius: BorderRadius.circular(16),
-          boxShadow: [
-            BoxShadow(
-              color: Colors.black.withOpacity(isDarkMode ? 0.2 : 0.05),
-              blurRadius: 10,
-              offset: const Offset(0, 4),
-            ),
-          ],
-        ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Container(
-              padding: const EdgeInsets.all(10),
-              decoration: BoxDecoration(
-                color: color.withOpacity(isDarkMode ? 0.2 : 0.1),
-                borderRadius: BorderRadius.circular(12),
-              ),
-              child: Icon(icon, color: color, size: 24),
-            ),
-            const SizedBox(height: 12),
-            Text(title, style: AppTextStyles.heading4(isDark: isDarkMode)),
-            const SizedBox(height: 4),
-            Text(subtitle, style: AppTextStyles.bodySmall(isDark: isDarkMode)),
-          ],
-        ),
-      ),
-    );
-  }
-}

@@ -86,21 +86,43 @@ class ExerciseModel {
   }
 
   factory ExerciseModel.fromMap(Map<String, dynamic> map, String docId) {
+    // Safely parse question map - handle null or invalid types
+    Map<String, String> questionMap = {};
+    if (map['question'] is Map) {
+      questionMap = Map<String, String>.from(
+        (map['question'] as Map).map((k, v) => MapEntry(k.toString(), v?.toString() ?? ''))
+      );
+    }
+    
+    // Safely parse explanation map - handle null or invalid types
+    Map<String, String> explanationMap = {};
+    if (map['explanation'] is Map) {
+      explanationMap = Map<String, String>.from(
+        (map['explanation'] as Map).map((k, v) => MapEntry(k.toString(), v?.toString() ?? ''))
+      );
+    }
+    
+    // Safely parse options list
+    List<String>? optionsList;
+    if (map['options'] is List) {
+      optionsList = (map['options'] as List).map((e) => e?.toString() ?? '').toList();
+    }
+    
     return ExerciseModel(
-      id: docId,
-      sectionId: map['sectionId'] ?? '',
+      id: docId.isNotEmpty ? docId : (map['id']?.toString() ?? ''),
+      sectionId: map['sectionId']?.toString() ?? '',
       type: _parseExerciseType(map['type']),
-      question: Map<String, String>.from(map['question'] ?? {}),
-      options: map['options'] != null ? List<String>.from(map['options']) : null,
-      correctAnswer: map['correctAnswer'] ?? '',
+      question: questionMap,
+      options: optionsList,
+      correctAnswer: map['correctAnswer']?.toString() ?? '',
       correctAnswers: map['correctAnswers'] != null 
-          ? List<String>.from(map['correctAnswers']) 
+          ? List<String>.from((map['correctAnswers'] as List).map((e) => e?.toString() ?? '')) 
           : null,
-      explanation: Map<String, String>.from(map['explanation'] ?? {}),
-      audioUrl: map['audioUrl'],
-      imageUrl: map['imageUrl'],
-      order: map['order'] ?? 0,
-      points: map['points'] ?? 10,
+      explanation: explanationMap,
+      audioUrl: map['audioUrl']?.toString(),
+      imageUrl: map['imageUrl']?.toString(),
+      order: (map['order'] is int) ? map['order'] : 0,
+      points: (map['points'] is int) ? map['points'] : 10,
     );
   }
 

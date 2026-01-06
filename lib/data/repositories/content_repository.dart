@@ -831,28 +831,54 @@ class ContentRepository {
     return [];
   }
 
-  /// Get exercises for a section - fast local JSON loading with caching
+  /// Get exercises for a section - tries local JSON first, then Firestore
   Future<List<ExerciseModel>> getExercises(String sectionId) async {
     // Return cache if available
     if (_exercisesCache.containsKey(sectionId)) {
       return _exercisesCache[sectionId]!;
     }
 
-    // Load from local JSON file (fast)
+    // First try: Load from local JSON file (fast)
     try {
       final jsonData = await _loadSectionJson(sectionId);
       if (jsonData != null && jsonData['exercises'] != null) {
         final exerciseList = jsonData['exercises'] as List;
-        final exercises = exerciseList
-            .map((e) => ExerciseModel.fromJson(e as Map<String, dynamic>))
+        if (exerciseList.isNotEmpty) {
+          print('Loaded ${exerciseList.length} exercises from local JSON for $sectionId');
+          final exercises = exerciseList
+              .map((e) => ExerciseModel.fromJson(e as Map<String, dynamic>))
+              .toList();
+          _exercisesCache[sectionId] = exercises;
+          return exercises;
+        }
+      }
+    } catch (e) {
+      print('Error loading exercises from local JSON for $sectionId: $e');
+    }
+
+    // Second try: Load from Firestore
+    try {
+      print('Trying to load exercises from Firestore for $sectionId');
+      final snapshot = await _firestore
+          .collection('sections')
+          .doc(sectionId)
+          .collection('exercises')
+          .get()
+          .timeout(const Duration(seconds: 5));
+      
+      if (snapshot.docs.isNotEmpty) {
+        print('Loaded ${snapshot.docs.length} exercises from Firestore for $sectionId');
+        final exercises = snapshot.docs
+            .map((doc) => ExerciseModel.fromFirestore(doc))
             .toList();
         _exercisesCache[sectionId] = exercises;
         return exercises;
       }
     } catch (e) {
-      print('Error loading exercises for $sectionId: $e');
+      print('Error loading exercises from Firestore for $sectionId: $e');
     }
 
+    print('WARNING: No exercises found for section $sectionId from any source');
     return [];
   }
 
@@ -903,18 +929,22 @@ class ContentRepository {
         if (suffix.isNotEmpty) 'content/sections/section_$paddedNum.json',
       ];
       
+      print('Trying to load JSON for $sectionId with paths: $paths');
+      
       for (final path in paths) {
         try {
           final jsonString = await rootBundle.loadString(path);
           final data = json.decode(jsonString) as Map<String, dynamic>;
           _jsonCache[sectionId] = data;
+          print('Successfully loaded JSON from $path');
           return data;
         } catch (e) {
-          // Continue to next path
+          print('Failed to load from $path: $e');
           continue;
         }
       }
       
+      print('WARNING: Could not load JSON for $sectionId from any path');
       return null;
     } catch (e) {
       print('Error loading JSON for $sectionId: $e');
