@@ -13,13 +13,21 @@ class PhaseListScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final phasesAsync = ref.watch(phasesProvider);
     final userLanguage = ref.watch(userLanguageProvider);
+    final isDarkMode = Theme.of(context).brightness == Brightness.dark;
+    final textColor = isDarkMode ? Colors.white : AppColors.textPrimaryLight;
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Learning Phases'),
+        title: Text('Learning Phases', style: TextStyle(color: textColor)),
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
-          onPressed: () => context.go('/home'),
+          icon: Icon(Icons.arrow_back, color: textColor),
+          onPressed: () {
+            if (Navigator.canPop(context)) {
+              Navigator.pop(context);
+            } else {
+              context.go('/home');
+            }
+          },
         ),
       ),
       body: phasesAsync.when(
@@ -62,9 +70,9 @@ class PhaseListScreen extends ConsumerWidget {
             children: [
               const Icon(Icons.error_outline, size: 48, color: AppColors.error),
               const SizedBox(height: 16),
-              Text('Error loading phases', style: AppTextStyles.heading4()),
+              Text('Error loading phases', style: AppTextStyles.heading4(isDark: isDarkMode)),
               const SizedBox(height: 8),
-              Text(error.toString(), style: AppTextStyles.bodySmall()),
+              Text(error.toString(), style: AppTextStyles.bodySmall(isDark: isDarkMode)),
               const SizedBox(height: 24),
               ElevatedButton(
                 onPressed: () => ref.invalidate(phasesProvider),

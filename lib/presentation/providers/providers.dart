@@ -1,10 +1,16 @@
 /// Riverpod providers for app state management
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import '../../core/services/preferences_service.dart';
 import '../../data/repositories/auth_repository.dart';
 import '../../data/repositories/content_repository.dart';
 import '../../data/repositories/progress_repository.dart';
 import '../../data/models/models.dart';
+
+// Preferences provider
+final preferencesServiceProvider = FutureProvider<PreferencesService>((ref) async {
+  return await PreferencesService.getInstance();
+});
 
 // Repository providers
 final authRepositoryProvider = Provider<AuthRepository>((ref) {
@@ -42,14 +48,100 @@ final currentUserProvider = FutureProvider<UserModel?>((ref) async {
   );
 });
 
-// User language provider
-final userLanguageProvider = StateProvider<String>((ref) {
-  return 'en'; // Default to English
+// User language provider with persistence
+class UserLanguageNotifier extends StateNotifier<String> {
+  final Ref ref;
+  
+  UserLanguageNotifier(this.ref) : super('en') {
+    _loadSavedLanguage();
+  }
+  
+  Future<void> _loadSavedLanguage() async {
+    final prefs = await ref.read(preferencesServiceProvider.future);
+    state = prefs.language;
+  }
+  
+  Future<void> setLanguage(String language) async {
+    state = language;
+    final prefs = await ref.read(preferencesServiceProvider.future);
+    await prefs.setLanguage(language);
+  }
+}
+
+final userLanguageProvider = StateNotifierProvider<UserLanguageNotifier, String>((ref) {
+  return UserLanguageNotifier(ref);
 });
 
-// Theme mode provider  
-final isDarkModeProvider = StateProvider<bool>((ref) {
-  return false;
+// Theme mode provider with persistence
+class DarkModeNotifier extends StateNotifier<bool> {
+  final Ref ref;
+  
+  DarkModeNotifier(this.ref) : super(false) {
+    _loadSavedMode();
+  }
+  
+  Future<void> _loadSavedMode() async {
+    final prefs = await ref.read(preferencesServiceProvider.future);
+    state = prefs.isDarkMode;
+  }
+  
+  Future<void> setDarkMode(bool isDark) async {
+    state = isDark;
+    final prefs = await ref.read(preferencesServiceProvider.future);
+    await prefs.setDarkMode(isDark);
+  }
+}
+
+final isDarkModeProvider = StateNotifierProvider<DarkModeNotifier, bool>((ref) {
+  return DarkModeNotifier(ref);
+});
+
+// Notifications provider
+class NotificationsNotifier extends StateNotifier<bool> {
+  final Ref ref;
+  
+  NotificationsNotifier(this.ref) : super(true) {
+    _loadSavedState();
+  }
+  
+  Future<void> _loadSavedState() async {
+    final prefs = await ref.read(preferencesServiceProvider.future);
+    state = prefs.notificationsEnabled;
+  }
+  
+  Future<void> setEnabled(bool enabled) async {
+    state = enabled;
+    final prefs = await ref.read(preferencesServiceProvider.future);
+    await prefs.setNotificationsEnabled(enabled);
+  }
+}
+
+final notificationsEnabledProvider = StateNotifierProvider<NotificationsNotifier, bool>((ref) {
+  return NotificationsNotifier(ref);
+});
+
+// Offline mode provider
+class OfflineModeNotifier extends StateNotifier<bool> {
+  final Ref ref;
+  
+  OfflineModeNotifier(this.ref) : super(false) {
+    _loadSavedState();
+  }
+  
+  Future<void> _loadSavedState() async {
+    final prefs = await ref.read(preferencesServiceProvider.future);
+    state = prefs.offlineModeEnabled;
+  }
+  
+  Future<void> setEnabled(bool enabled) async {
+    state = enabled;
+    final prefs = await ref.read(preferencesServiceProvider.future);
+    await prefs.setOfflineModeEnabled(enabled);
+  }
+}
+
+final offlineModeProvider = StateNotifierProvider<OfflineModeNotifier, bool>((ref) {
+  return OfflineModeNotifier(ref);
 });
 
 // Phases provider

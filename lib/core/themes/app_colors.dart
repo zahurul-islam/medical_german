@@ -42,10 +42,10 @@ class AppColors {
   static const Color textSecondaryLight = Color(0xFF6B6B80);
   static const Color textHintLight = Color(0xFF9E9EB3);
   
-  // Text Colors - Dark Theme
-  static const Color textPrimaryDark = Color(0xFFF5F5F5);
-  static const Color textSecondaryDark = Color(0xFFB0BEC5);
-  static const Color textHintDark = Color(0xFF78909C);
+  // Text Colors - Dark Theme (all white for better readability)
+  static const Color textPrimaryDark = Color(0xFFFFFFFF);
+  static const Color textSecondaryDark = Color(0xFFE0E0E0);
+  static const Color textHintDark = Color(0xFFBDBDBD);
   
   // Status Colors
   static const Color success = Color(0xFF4CAF50);

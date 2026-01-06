@@ -42,11 +42,13 @@ class _LessonScreenState extends ConsumerState<LessonScreen>
   Widget build(BuildContext context) {
     final sectionAsync = ref.watch(sectionProvider(widget.sectionId));
     final userLanguage = ref.watch(userLanguageProvider);
+    final isDarkMode = Theme.of(context).brightness == Brightness.dark;
+    final textColor = isDarkMode ? Colors.white : AppColors.textPrimaryLight;
 
     return Scaffold(
       appBar: AppBar(
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
+          icon: Icon(Icons.arrow_back, color: textColor),
           onPressed: () {
             if (Navigator.canPop(context)) {
               Navigator.pop(context);
@@ -56,14 +58,14 @@ class _LessonScreenState extends ConsumerState<LessonScreen>
           },
         ),
         title: sectionAsync.when(
-          data: (section) => Text(section?.titleDe ?? 'Lesson'),
-          loading: () => const Text('Loading...'),
-          error: (_, __) => const Text('Lesson'),
+          data: (section) => Text(section?.titleDe ?? 'Lesson', style: TextStyle(color: textColor)),
+          loading: () => Text('Loading...', style: TextStyle(color: textColor)),
+          error: (_, __) => Text('Lesson', style: TextStyle(color: textColor)),
         ),
         bottom: TabBar(
           controller: _tabController,
           labelColor: AppColors.primary,
-          unselectedLabelColor: AppColors.textSecondaryLight,
+          unselectedLabelColor: isDarkMode ? AppColors.textSecondaryDark : AppColors.textSecondaryLight,
           indicatorColor: AppColors.primary,
           tabs: const [
             Tab(icon: Icon(Icons.article_outlined), text: 'Text'),
@@ -115,6 +117,9 @@ class _TextContentTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
+    final isDarkMode = Theme.of(context).brightness == Brightness.dark;
+    final textColor = isDarkMode ? Colors.white : AppColors.textPrimaryLight;
+    final hintColor = isDarkMode ? AppColors.textHintDark : AppColors.textHintLight;
 
     return SingleChildScrollView(
       padding: const EdgeInsets.all(20),
@@ -172,7 +177,7 @@ class _TextContentTab extends StatelessWidget {
             if (section.textContent!.getLearningObjectives(language).isNotEmpty) ...[
               Text(
                 l10n.learningObjectives,
-                style: AppTextStyles.heading4(),
+                style: AppTextStyles.heading4(isDark: isDarkMode),
               ),
               const SizedBox(height: 12),
               ...section.textContent!.getLearningObjectives(language).map(
@@ -185,7 +190,7 @@ class _TextContentTab extends StatelessWidget {
                         color: AppColors.success, size: 20),
                       const SizedBox(width: 12),
                       Expanded(
-                        child: Text(objective, style: AppTextStyles.bodyMedium()),
+                        child: Text(objective, style: AppTextStyles.bodyMedium(isDark: isDarkMode)),
                       ),
                     ],
                   ),
@@ -222,12 +227,11 @@ class _TextContentTab extends StatelessWidget {
                 padding: const EdgeInsets.all(40),
                 child: Column(
                   children: [
-                    Icon(Icons.article_outlined,
-                      size: 64, color: AppColors.textHintLight),
+                    Icon(Icons.article_outlined, size: 64, color: hintColor),
                     const SizedBox(height: 16),
                     Text(
                       l10n.comingSoon,
-                      style: AppTextStyles.bodyLarge(color: AppColors.textSecondaryLight),
+                      style: AppTextStyles.bodyLarge(color: hintColor),
                     ),
                   ],
                 ),
@@ -257,6 +261,12 @@ class _ContentSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     if (content.isEmpty) return const SizedBox();
+    
+    final isDarkMode = Theme.of(context).brightness == Brightness.dark;
+    final textColor = isDarkMode ? Colors.white : AppColors.textPrimaryLight;
+    final secondaryColor = isDarkMode ? AppColors.textSecondaryDark : AppColors.textSecondaryLight;
+    final dividerColor = isDarkMode ? AppColors.dividerDark : AppColors.dividerLight;
+    final surfaceColor = isDarkMode ? AppColors.surfaceDark : AppColors.surfaceLight;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -267,7 +277,7 @@ class _ContentSection extends StatelessWidget {
               Icon(icon, color: iconColor ?? AppColors.primary, size: 24),
               const SizedBox(width: 8),
             ],
-            Text(title, style: AppTextStyles.heading4()),
+            Text(title, style: AppTextStyles.heading4(isDark: isDarkMode)),
           ],
         ),
         const SizedBox(height: 12),
@@ -276,32 +286,33 @@ class _ContentSection extends StatelessWidget {
             data: content,
             selectable: true,
             styleSheet: MarkdownStyleSheet(
-              p: AppTextStyles.bodyMedium(),
-              h1: AppTextStyles.heading2(),
-              h2: AppTextStyles.heading3(),
-              h3: AppTextStyles.heading4(),
-              strong: AppTextStyles.bodyMedium().copyWith(fontWeight: FontWeight.bold),
-              em: AppTextStyles.bodyMedium().copyWith(fontStyle: FontStyle.italic),
-              listBullet: AppTextStyles.bodyMedium(),
-              tableHead: AppTextStyles.labelMedium().copyWith(fontWeight: FontWeight.bold),
-              tableBody: AppTextStyles.bodySmall(),
-              tableBorder: TableBorder.all(color: AppColors.dividerLight, width: 1),
+              p: AppTextStyles.bodyMedium().copyWith(color: textColor),
+              h1: AppTextStyles.heading2().copyWith(color: textColor),
+              h2: AppTextStyles.heading3().copyWith(color: textColor),
+              h3: AppTextStyles.heading4().copyWith(color: textColor),
+              strong: AppTextStyles.bodyMedium().copyWith(fontWeight: FontWeight.bold, color: textColor),
+              em: AppTextStyles.bodyMedium().copyWith(fontStyle: FontStyle.italic, color: textColor),
+              listBullet: AppTextStyles.bodyMedium().copyWith(color: textColor),
+              tableHead: AppTextStyles.labelMedium().copyWith(fontWeight: FontWeight.bold, color: textColor),
+              tableBody: AppTextStyles.bodySmall().copyWith(color: textColor),
+              tableBorder: TableBorder.all(color: dividerColor, width: 1),
               tableColumnWidth: const IntrinsicColumnWidth(),
               tableCellsPadding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
               blockquote: AppTextStyles.bodyMedium().copyWith(
                 fontStyle: FontStyle.italic,
-                color: AppColors.textSecondaryLight,
+                color: secondaryColor,
               ),
               code: AppTextStyles.bodySmall().copyWith(
                 fontFamily: 'monospace',
-                backgroundColor: AppColors.surfaceLight,
+                backgroundColor: surfaceColor,
+                color: textColor,
               ),
             ),
           )
         else
           Text(
             content,
-            style: AppTextStyles.bodyMedium(),
+            style: AppTextStyles.bodyMedium(isDark: isDarkMode),
           ),
       ],
     );
@@ -321,16 +332,18 @@ class _VocabularyTab extends ConsumerWidget {
 
     return vocabAsync.when(
       data: (vocabulary) {
+        final isDarkMode = Theme.of(context).brightness == Brightness.dark;
         if (vocabulary.isEmpty) {
           return Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Icon(Icons.translate, size: 64, color: AppColors.textHintLight),
+                Icon(Icons.translate, size: 64, 
+                  color: isDarkMode ? AppColors.textHintDark : AppColors.textHintLight),
                 const SizedBox(height: 16),
                 Text(
                   l10n.comingSoon,
-                  style: AppTextStyles.bodyLarge(color: AppColors.textSecondaryLight),
+                  style: AppTextStyles.bodyLarge(isDark: isDarkMode),
                 ),
               ],
             ),
@@ -346,7 +359,7 @@ class _VocabularyTab extends ConsumerWidget {
                 children: [
                   Text(
                     '${vocabulary.length} ${l10n.vocabulary.toLowerCase()}',
-                    style: AppTextStyles.bodyMedium(color: AppColors.textSecondaryLight),
+                    style: AppTextStyles.bodyMedium(isDark: isDarkMode),
                   ),
                   ElevatedButton.icon(
                     onPressed: () {
@@ -404,13 +417,14 @@ class _VocabularyCardState extends State<_VocabularyCard> {
 
   @override
   Widget build(BuildContext context) {
+    final isDarkMode = Theme.of(context).brightness == Brightness.dark;
     return Container(
       margin: const EdgeInsets.only(bottom: 12),
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         color: Theme.of(context).cardColor,
         borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: AppColors.dividerLight),
+        border: Border.all(color: isDarkMode ? AppColors.dividerDark : AppColors.dividerLight),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -423,13 +437,13 @@ class _VocabularyCardState extends State<_VocabularyCard> {
                   children: [
                     Text(
                       widget.vocab.fullGermanTerm,
-                      style: AppTextStyles.germanWord(),
+                      style: AppTextStyles.germanWord(isDark: isDarkMode),
                     ),
                     if (widget.vocab.pronunciation.isNotEmpty) ...[
                       const SizedBox(height: 4),
                       Text(
                         widget.vocab.pronunciation,
-                        style: AppTextStyles.pronunciation(),
+                        style: AppTextStyles.pronunciation(isDark: isDarkMode),
                       ),
                     ],
                   ],
@@ -443,17 +457,19 @@ class _VocabularyCardState extends State<_VocabularyCard> {
                 ),
             ],
           ),
-          const Divider(height: 24),
+          Divider(height: 24, color: Theme.of(context).dividerColor),
           Text(
             widget.vocab.getTranslation(widget.language),
-            style: AppTextStyles.bodyLarge(),
+            style: AppTextStyles.bodyLarge(isDark: isDarkMode),
           ),
           if (widget.vocab.exampleSentence.isNotEmpty) ...[
             const SizedBox(height: 12),
             Container(
               padding: const EdgeInsets.all(12),
               decoration: BoxDecoration(
-                color: AppColors.primary.withValues(alpha: 0.05),
+                color: isDarkMode 
+                    ? AppColors.primary.withValues(alpha: 0.15) 
+                    : AppColors.primary.withValues(alpha: 0.05),
                 borderRadius: BorderRadius.circular(8),
               ),
               child: Column(
@@ -461,12 +477,12 @@ class _VocabularyCardState extends State<_VocabularyCard> {
                 children: [
                   Text(
                     widget.vocab.exampleSentence,
-                    style: AppTextStyles.germanPhrase().copyWith(fontSize: 14),
+                    style: AppTextStyles.germanPhrase(isDark: isDarkMode).copyWith(fontSize: 14),
                   ),
                   const SizedBox(height: 4),
                   Text(
                     widget.vocab.getExampleTranslation(widget.language),
-                    style: AppTextStyles.bodySmall(),
+                    style: AppTextStyles.bodySmall(isDark: isDarkMode),
                   ),
                 ],
               ),
@@ -491,16 +507,18 @@ class _DialogueTab extends ConsumerWidget {
 
     return dialoguesAsync.when(
       data: (dialogues) {
+        final isDarkMode = Theme.of(context).brightness == Brightness.dark;
         if (dialogues.isEmpty) {
           return Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Icon(Icons.chat_bubble_outline, size: 64, color: AppColors.textHintLight),
+                Icon(Icons.chat_bubble_outline, size: 64, 
+                  color: isDarkMode ? AppColors.textHintDark : AppColors.textHintLight),
                 const SizedBox(height: 16),
                 Text(
                   l10n.comingSoon,
-                  style: AppTextStyles.bodyLarge(color: AppColors.textSecondaryLight),
+                  style: AppTextStyles.bodyLarge(isDark: isDarkMode),
                 ),
               ],
             ),
@@ -549,6 +567,7 @@ class _DialogueCardState extends State<_DialogueCard> {
 
   @override
   Widget build(BuildContext context) {
+    final isDarkMode = Theme.of(context).brightness == Brightness.dark;
     return Container(
       margin: const EdgeInsets.only(bottom: 16),
       decoration: BoxDecoration(
@@ -556,7 +575,7 @@ class _DialogueCardState extends State<_DialogueCard> {
         borderRadius: BorderRadius.circular(16),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withValues(alpha: 0.05),
+            color: Colors.black.withValues(alpha: isDarkMode ? 0.2 : 0.05),
             blurRadius: 10,
             offset: const Offset(0, 4),
           ),
@@ -569,7 +588,7 @@ class _DialogueCardState extends State<_DialogueCard> {
           Container(
             padding: const EdgeInsets.all(16),
             decoration: BoxDecoration(
-              color: AppColors.secondary.withValues(alpha: 0.1),
+              color: AppColors.secondary.withValues(alpha: isDarkMode ? 0.2 : 0.1),
               borderRadius: const BorderRadius.only(
                 topLeft: Radius.circular(16),
                 topRight: Radius.circular(16),
@@ -585,11 +604,11 @@ class _DialogueCardState extends State<_DialogueCard> {
                     children: [
                       Text(
                         widget.dialogue.getTitle(widget.language),
-                        style: AppTextStyles.heading4(),
+                        style: AppTextStyles.heading4(isDark: isDarkMode),
                       ),
                       Text(
                         widget.dialogue.getContext(widget.language),
-                        style: AppTextStyles.bodySmall(),
+                        style: AppTextStyles.bodySmall(isDark: isDarkMode),
                       ),
                     ],
                   ),
@@ -655,6 +674,7 @@ class _DialogueLineState extends State<_DialogueLine> {
 
   @override
   Widget build(BuildContext context) {
+    final isDarkMode = Theme.of(context).brightness == Brightness.dark;
     return Padding(
       padding: const EdgeInsets.only(bottom: 16),
       child: Row(
@@ -690,7 +710,8 @@ class _DialogueLineState extends State<_DialogueLine> {
                         child: Icon(
                           _isPlaying ? Icons.volume_up : Icons.volume_up_outlined,
                           size: 20,
-                          color: _isPlaying ? AppColors.success : AppColors.textHintLight,
+                          color: _isPlaying ? AppColors.success 
+                              : (isDarkMode ? AppColors.textHintDark : AppColors.textHintLight),
                         ),
                       ),
                   ],
@@ -698,12 +719,12 @@ class _DialogueLineState extends State<_DialogueLine> {
                 const SizedBox(height: 4),
                 Text(
                   widget.line.germanText,
-                  style: AppTextStyles.germanPhrase().copyWith(fontSize: 15),
+                  style: AppTextStyles.germanPhrase(isDark: isDarkMode).copyWith(fontSize: 15),
                 ),
                 const SizedBox(height: 4),
                 Text(
                   widget.line.getTranslation(widget.language),
-                  style: AppTextStyles.bodySmall(),
+                  style: AppTextStyles.bodySmall(isDark: isDarkMode),
                 ),
               ],
             ),
@@ -726,16 +747,18 @@ class _ExerciseTab extends ConsumerWidget {
 
     return exercisesAsync.when(
       data: (exercises) {
+        final isDarkMode = Theme.of(context).brightness == Brightness.dark;
         if (exercises.isEmpty) {
           return Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Icon(Icons.quiz_outlined, size: 64, color: AppColors.textHintLight),
+                Icon(Icons.quiz_outlined, size: 64, 
+                  color: isDarkMode ? AppColors.textHintDark : AppColors.textHintLight),
                 const SizedBox(height: 16),
                 Text(
                   l10n.comingSoon,
-                  style: AppTextStyles.bodyLarge(color: AppColors.textSecondaryLight),
+                  style: AppTextStyles.bodyLarge(isDark: isDarkMode),
                 ),
               ],
             ),
@@ -751,10 +774,10 @@ class _ExerciseTab extends ConsumerWidget {
                 Container(
                   padding: const EdgeInsets.all(24),
                   decoration: BoxDecoration(
-                    color: AppColors.accent.withOpacity(0.1),
+                    color: AppColors.accent.withOpacity(isDarkMode ? 0.2 : 0.1),
                     borderRadius: BorderRadius.circular(20),
                   ),
-                  child: Icon(
+                  child: const Icon(
                     Icons.quiz,
                     size: 64,
                     color: AppColors.accent,
@@ -763,12 +786,12 @@ class _ExerciseTab extends ConsumerWidget {
                 const SizedBox(height: 24),
                 Text(
                   '${exercises.length} ${l10n.exercises}',
-                  style: AppTextStyles.heading3(),
+                  style: AppTextStyles.heading3(isDark: isDarkMode),
                 ),
                 const SizedBox(height: 8),
                 Text(
                   l10n.practice,
-                  style: AppTextStyles.bodyMedium(color: AppColors.textSecondaryLight),
+                  style: AppTextStyles.bodyMedium(isDark: isDarkMode),
                   textAlign: TextAlign.center,
                 ),
                 const SizedBox(height: 32),

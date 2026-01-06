@@ -16,6 +16,9 @@ class HomeScreen extends ConsumerWidget {
     final statsAsync = ref.watch(userStatsProvider);
     final phasesAsync = ref.watch(phasesProvider);
     final userLanguage = ref.watch(userLanguageProvider);
+    final isDarkMode = Theme.of(context).brightness == Brightness.dark;
+    final textColor = isDarkMode ? Colors.white : AppColors.textPrimaryLight;
+    final secondaryColor = isDarkMode ? AppColors.textSecondaryDark : AppColors.textSecondaryLight;
 
     return Scaffold(
       body: SafeArea(
@@ -33,13 +36,13 @@ class HomeScreen extends ConsumerWidget {
                     children: [
                       Text(
                         'Willkommen zurück! 👋',
-                        style: AppTextStyles.bodyMedium(color: AppColors.textSecondaryLight),
+                        style: AppTextStyles.bodyMedium(color: secondaryColor),
                       ),
                       const SizedBox(height: 4),
                       userAsync.when(
                         data: (user) => Text(
                           user?.displayName ?? 'Doctor',
-                          style: AppTextStyles.heading3(),
+                          style: AppTextStyles.heading3(isDark: isDarkMode),
                         ),
                         loading: () => const SizedBox(
                           height: 24,
@@ -48,7 +51,7 @@ class HomeScreen extends ConsumerWidget {
                         ),
                         error: (_, __) => Text(
                           'Doctor',
-                          style: AppTextStyles.heading3(),
+                          style: AppTextStyles.heading3(isDark: isDarkMode),
                         ),
                       ),
                     ],
@@ -57,11 +60,11 @@ class HomeScreen extends ConsumerWidget {
                     children: [
                       IconButton(
                         onPressed: () => context.go('/progress'),
-                        icon: const Icon(Icons.leaderboard_outlined),
+                        icon: Icon(Icons.leaderboard_outlined, color: textColor),
                       ),
                       IconButton(
                         onPressed: () => context.go('/settings'),
-                        icon: const Icon(Icons.settings_outlined),
+                        icon: Icon(Icons.settings_outlined, color: textColor),
                       ),
                     ],
                   ),
@@ -164,6 +167,7 @@ class HomeScreen extends ConsumerWidget {
                       iconColor: AppColors.accent,
                       value: '${stats?.streak ?? 0}',
                       label: 'Day Streak',
+                      isDarkMode: isDarkMode,
                     ),
                     const SizedBox(width: 12),
                     _StatCard(
@@ -171,6 +175,7 @@ class HomeScreen extends ConsumerWidget {
                       iconColor: AppColors.secondary,
                       value: '${stats?.totalPoints ?? 0}',
                       label: 'Points',
+                      isDarkMode: isDarkMode,
                     ),
                   ],
                 ),
@@ -182,7 +187,7 @@ class HomeScreen extends ConsumerWidget {
               // Learning Phases
               Text(
                 'Learning Phases',
-                style: AppTextStyles.heading4(),
+                style: AppTextStyles.heading4(isDark: isDarkMode),
               ),
               const SizedBox(height: 16),
 
@@ -213,7 +218,7 @@ class HomeScreen extends ConsumerWidget {
                   child: CircularProgressIndicator(),
                 ),
                 error: (e, _) => Center(
-                  child: Text('Error loading phases: $e'),
+                  child: Text('Error loading phases: $e', style: TextStyle(color: textColor)),
                 ),
               ),
               const SizedBox(height: 24),
@@ -221,7 +226,7 @@ class HomeScreen extends ConsumerWidget {
               // Quick actions
               Text(
                 'Quick Actions',
-                style: AppTextStyles.heading4(),
+                style: AppTextStyles.heading4(isDark: isDarkMode),
               ),
               const SizedBox(height: 16),
               Row(
@@ -232,6 +237,7 @@ class HomeScreen extends ConsumerWidget {
                       title: 'Practice',
                       subtitle: 'Test your knowledge',
                       color: AppColors.secondary,
+                      isDarkMode: isDarkMode,
                       onTap: () {
                         // TODO: Navigate to practice
                       },
@@ -244,6 +250,7 @@ class HomeScreen extends ConsumerWidget {
                       title: 'Audio',
                       subtitle: 'Listen & learn',
                       color: AppColors.accent,
+                      isDarkMode: isDarkMode,
                       onTap: () {
                         // TODO: Navigate to audio lessons
                       },
@@ -264,12 +271,14 @@ class _StatCard extends StatelessWidget {
   final Color iconColor;
   final String value;
   final String label;
+  final bool isDarkMode;
 
   const _StatCard({
     required this.icon,
     required this.iconColor,
     required this.value,
     required this.label,
+    this.isDarkMode = false,
   });
 
   @override
@@ -282,7 +291,7 @@ class _StatCard extends StatelessWidget {
           borderRadius: BorderRadius.circular(16),
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withOpacity(0.05),
+              color: Colors.black.withOpacity(isDarkMode ? 0.2 : 0.05),
               blurRadius: 10,
               offset: const Offset(0, 4),
             ),
@@ -293,7 +302,7 @@ class _StatCard extends StatelessWidget {
             Container(
               padding: const EdgeInsets.all(10),
               decoration: BoxDecoration(
-                color: iconColor.withOpacity(0.1),
+                color: iconColor.withOpacity(isDarkMode ? 0.2 : 0.1),
                 borderRadius: BorderRadius.circular(12),
               ),
               child: Icon(icon, color: iconColor, size: 24),
@@ -302,8 +311,8 @@ class _StatCard extends StatelessWidget {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(value, style: AppTextStyles.heading4()),
-                Text(label, style: AppTextStyles.bodySmall()),
+                Text(value, style: AppTextStyles.heading4(isDark: isDarkMode)),
+                Text(label, style: AppTextStyles.bodySmall(isDark: isDarkMode)),
               ],
             ),
           ],
@@ -401,6 +410,7 @@ class _QuickActionCard extends StatelessWidget {
   final String title;
   final String subtitle;
   final Color color;
+  final bool isDarkMode;
   final VoidCallback onTap;
 
   const _QuickActionCard({
@@ -409,6 +419,7 @@ class _QuickActionCard extends StatelessWidget {
     required this.subtitle,
     required this.color,
     required this.onTap,
+    this.isDarkMode = false,
   });
 
   @override
@@ -422,7 +433,7 @@ class _QuickActionCard extends StatelessWidget {
           borderRadius: BorderRadius.circular(16),
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withOpacity(0.05),
+              color: Colors.black.withOpacity(isDarkMode ? 0.2 : 0.05),
               blurRadius: 10,
               offset: const Offset(0, 4),
             ),
@@ -434,15 +445,15 @@ class _QuickActionCard extends StatelessWidget {
             Container(
               padding: const EdgeInsets.all(10),
               decoration: BoxDecoration(
-                color: color.withOpacity(0.1),
+                color: color.withOpacity(isDarkMode ? 0.2 : 0.1),
                 borderRadius: BorderRadius.circular(12),
               ),
               child: Icon(icon, color: color, size: 24),
             ),
             const SizedBox(height: 12),
-            Text(title, style: AppTextStyles.heading4()),
+            Text(title, style: AppTextStyles.heading4(isDark: isDarkMode)),
             const SizedBox(height: 4),
-            Text(subtitle, style: AppTextStyles.bodySmall()),
+            Text(subtitle, style: AppTextStyles.bodySmall(isDark: isDarkMode)),
           ],
         ),
       ),

@@ -16,13 +16,21 @@ class SectionListScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final sectionsAsync = ref.watch(sectionsByPhaseProvider(phaseId));
     final userLanguage = ref.watch(userLanguageProvider);
+    final isDarkMode = Theme.of(context).brightness == Brightness.dark;
+    final textColor = isDarkMode ? Colors.white : AppColors.textPrimaryLight;
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Sections'),
+        title: Text('Sections', style: TextStyle(color: textColor)),
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
-          onPressed: () => context.go('/phases'),
+          icon: Icon(Icons.arrow_back, color: textColor),
+          onPressed: () {
+            if (Navigator.canPop(context)) {
+              Navigator.pop(context);
+            } else {
+              context.go('/phases');
+            }
+          },
         ),
       ),
       body: sectionsAsync.when(
@@ -41,6 +49,7 @@ class SectionListScreen extends ConsumerWidget {
                 titleDe: section.titleDe,
                 level: section.level,
                 estimatedMinutes: section.estimatedMinutes,
+                isDarkMode: isDarkMode,
                 progress: progressAsync.when(
                   data: (p) => p?.percentComplete ?? 0,
                   loading: () => 0,
@@ -65,7 +74,7 @@ class SectionListScreen extends ConsumerWidget {
             children: [
               const Icon(Icons.error_outline, size: 48, color: AppColors.error),
               const SizedBox(height: 16),
-              Text('Error loading sections', style: AppTextStyles.heading4()),
+              Text('Error loading sections', style: AppTextStyles.heading4(isDark: isDarkMode)),
               const SizedBox(height: 24),
               ElevatedButton(
                 onPressed: () => ref.invalidate(sectionsByPhaseProvider(phaseId)),
@@ -87,6 +96,7 @@ class _SectionCard extends StatelessWidget {
   final int estimatedMinutes;
   final double progress;
   final bool isCompleted;
+  final bool isDarkMode;
   final VoidCallback onTap;
 
   const _SectionCard({
@@ -98,6 +108,7 @@ class _SectionCard extends StatelessWidget {
     required this.progress,
     required this.isCompleted,
     required this.onTap,
+    this.isDarkMode = false,
   });
 
   Color get _levelColor {
@@ -119,6 +130,9 @@ class _SectionCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final hintColor = isDarkMode ? AppColors.textHintDark : AppColors.textHintLight;
+    final dividerColor = isDarkMode ? AppColors.dividerDark : AppColors.dividerLight;
+    
     return GestureDetector(
       onTap: onTap,
       child: Container(
@@ -131,7 +145,7 @@ class _SectionCard extends StatelessWidget {
               : null,
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withOpacity(0.05),
+              color: Colors.black.withOpacity(isDarkMode ? 0.2 : 0.05),
               blurRadius: 10,
               offset: const Offset(0, 4),
             ),
@@ -145,8 +159,8 @@ class _SectionCard extends StatelessWidget {
               height: 48,
               decoration: BoxDecoration(
                 color: isCompleted
-                    ? AppColors.success.withOpacity(0.1)
-                    : _levelColor.withOpacity(0.1),
+                    ? AppColors.success.withOpacity(isDarkMode ? 0.2 : 0.1)
+                    : _levelColor.withOpacity(isDarkMode ? 0.2 : 0.1),
                 borderRadius: BorderRadius.circular(12),
               ),
               child: Center(
@@ -173,7 +187,7 @@ class _SectionCard extends StatelessWidget {
                           vertical: 2,
                         ),
                         decoration: BoxDecoration(
-                          color: _levelColor.withOpacity(0.1),
+                          color: _levelColor.withOpacity(isDarkMode ? 0.2 : 0.1),
                           borderRadius: BorderRadius.circular(4),
                         ),
                         child: Text(
@@ -185,26 +199,26 @@ class _SectionCard extends StatelessWidget {
                       Icon(
                         Icons.timer_outlined,
                         size: 14,
-                        color: AppColors.textHintLight,
+                        color: hintColor,
                       ),
                       const SizedBox(width: 4),
                       Text(
                         '$estimatedMinutes min',
-                        style: AppTextStyles.labelSmall(),
+                        style: AppTextStyles.labelSmall(isDark: isDarkMode),
                       ),
                     ],
                   ),
                   const SizedBox(height: 8),
                   Text(
                     title,
-                    style: AppTextStyles.bodyLarge(),
+                    style: AppTextStyles.bodyLarge(isDark: isDarkMode),
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                   ),
                   const SizedBox(height: 4),
                   Text(
                     titleDe,
-                    style: AppTextStyles.germanPhrase().copyWith(fontSize: 14),
+                    style: AppTextStyles.germanPhrase(isDark: isDarkMode).copyWith(fontSize: 14),
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                   ),
@@ -214,7 +228,7 @@ class _SectionCard extends StatelessWidget {
                       padding: EdgeInsets.zero,
                       lineHeight: 6,
                       percent: progress / 100,
-                      backgroundColor: AppColors.dividerLight,
+                      backgroundColor: dividerColor,
                       progressColor: isCompleted ? AppColors.success : _levelColor,
                       barRadius: const Radius.circular(3),
                     ),
@@ -223,7 +237,7 @@ class _SectionCard extends StatelessWidget {
               ),
             ),
             const SizedBox(width: 12),
-            const Icon(Icons.chevron_right, color: AppColors.textHintLight),
+            Icon(Icons.chevron_right, color: hintColor),
           ],
         ),
       ),

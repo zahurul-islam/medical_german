@@ -277,8 +277,18 @@ class AppTheme {
     ),
     
     textTheme: GoogleFonts.outfitTextTheme().apply(
-      bodyColor: AppColors.textPrimaryDark,
-      displayColor: AppColors.textPrimaryDark,
+      bodyColor: Colors.white,
+      displayColor: Colors.white,
+    ),
+    
+    // Ensure all text is white in dark mode
+    listTileTheme: const ListTileThemeData(
+      textColor: Colors.white,
+      iconColor: Colors.white70,
+    ),
+    
+    iconTheme: const IconThemeData(
+      color: Colors.white,
     ),
   );
 }

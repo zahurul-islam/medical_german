@@ -120,7 +120,7 @@ class AppTextStyles {
     return GoogleFonts.outfit(
       fontSize: 22,
       fontWeight: FontWeight.w700,
-      color: color ?? AppColors.primary,
+      color: color ?? (isDark ? Colors.white : AppColors.primary),
       height: 1.3,
     );
   }
@@ -135,11 +135,11 @@ class AppTextStyles {
     );
   }
 
-  static TextStyle pronunciation({Color? color}) {
+  static TextStyle pronunciation({Color? color, bool isDark = false}) {
     return GoogleFonts.outfit(
       fontSize: 14,
       fontWeight: FontWeight.w400,
-      color: color ?? AppColors.textSecondaryLight,
+      color: color ?? (isDark ? AppColors.textSecondaryDark : AppColors.textSecondaryLight),
       fontStyle: FontStyle.italic,
     );
   }

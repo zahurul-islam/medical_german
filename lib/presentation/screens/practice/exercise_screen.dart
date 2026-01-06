@@ -123,12 +123,16 @@ class _ExerciseScreenState extends ConsumerState<ExerciseScreen> {
   Widget build(BuildContext context) {
     final exercisesAsync = ref.watch(exercisesProvider(widget.sectionId));
     final userLanguage = ref.watch(userLanguageProvider);
+    final isDarkMode = Theme.of(context).brightness == Brightness.dark;
+    final textColor = isDarkMode ? Colors.white : AppColors.textPrimaryLight;
+    final secondaryColor = isDarkMode ? AppColors.textSecondaryDark : AppColors.textSecondaryLight;
+    final dividerColor = isDarkMode ? AppColors.dividerDark : AppColors.dividerLight;
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Practice'),
+        title: Text('Practice', style: TextStyle(color: textColor)),
         leading: IconButton(
-          icon: const Icon(Icons.close),
+          icon: Icon(Icons.close, color: textColor),
           onPressed: () => context.pop(),
         ),
       ),
@@ -149,7 +153,7 @@ class _ExerciseScreenState extends ConsumerState<ExerciseScreen> {
                   children: [
                     Text(
                       'Question ${_currentIndex + 1}/${exercises.length}',
-                      style: AppTextStyles.bodyMedium(color: AppColors.textSecondaryLight),
+                      style: AppTextStyles.bodyMedium(color: secondaryColor),
                     ),
                     const Spacer(),
                     Text(
@@ -161,7 +165,7 @@ class _ExerciseScreenState extends ConsumerState<ExerciseScreen> {
               ),
               LinearProgressIndicator(
                 value: (_currentIndex + 1) / exercises.length,
-                backgroundColor: AppColors.dividerLight,
+                backgroundColor: dividerColor,
                 valueColor: const AlwaysStoppedAnimation<Color>(AppColors.primary),
               ),
 
@@ -187,7 +191,7 @@ class _ExerciseScreenState extends ConsumerState<ExerciseScreen> {
                                 Container(
                                   padding: const EdgeInsets.all(8),
                                   decoration: BoxDecoration(
-                                    color: AppColors.primary.withOpacity(0.1),
+                                    color: AppColors.primary.withOpacity(isDarkMode ? 0.2 : 0.1),
                                     borderRadius: BorderRadius.circular(8),
                                   ),
                                   child: Icon(
@@ -206,7 +210,7 @@ class _ExerciseScreenState extends ConsumerState<ExerciseScreen> {
                             const SizedBox(height: 16),
                             Text(
                               exercise.getQuestion(userLanguage),
-                              style: AppTextStyles.heading4(),
+                              style: AppTextStyles.heading4(isDark: isDarkMode),
                             ),
                           ],
                         ),
@@ -243,13 +247,13 @@ class _ExerciseScreenState extends ConsumerState<ExerciseScreen> {
                                   : () {
                                       setState(() => _selectedAnswer = option);
                                     },
-                              child: Container(
+                                child: Container(
                                 padding: const EdgeInsets.all(16),
                                 decoration: BoxDecoration(
-                                  color: backgroundColor,
+                                  color: backgroundColor ?? (isDarkMode ? Colors.grey[800] : null),
                                   borderRadius: BorderRadius.circular(12),
                                   border: Border.all(
-                                    color: borderColor ?? AppColors.dividerLight,
+                                    color: borderColor ?? dividerColor,
                                     width: isSelected || (_showResult && isCorrect) ? 2 : 1,
                                   ),
                                 ),
@@ -258,7 +262,7 @@ class _ExerciseScreenState extends ConsumerState<ExerciseScreen> {
                                     Expanded(
                                       child: Text(
                                         option,
-                                        style: AppTextStyles.bodyLarge(),
+                                        style: AppTextStyles.bodyLarge(isDark: isDarkMode),
                                       ),
                                     ),
                                     if (_showResult && isCorrect)
@@ -319,7 +323,7 @@ class _ExerciseScreenState extends ConsumerState<ExerciseScreen> {
                               const SizedBox(height: 8),
                               Text(
                                 exercise.getExplanation(userLanguage),
-                                style: AppTextStyles.bodyMedium(),
+                                style: AppTextStyles.bodyMedium(isDark: isDarkMode),
                               ),
                               if (exercise.type != ExerciseType.multipleChoice) ...[
                                 const SizedBox(height: 12),
@@ -363,7 +367,7 @@ class _ExerciseScreenState extends ConsumerState<ExerciseScreen> {
           );
         },
         loading: () => const Center(child: CircularProgressIndicator()),
-        error: (_, __) => const Center(child: Text('Error loading exercises')),
+        error: (_, __) => Center(child: Text('Error loading exercises', style: TextStyle(color: textColor))),
       ),
     );
   }

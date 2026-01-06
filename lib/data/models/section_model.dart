@@ -150,8 +150,12 @@ class SectionTextContent {
     return introduction[languageCode] ?? introduction['en'] ?? '';
   }
 
+  /// Grammar focus always returns English content since German grammar tables
+  /// should not be translated - students need to learn the original German terms
   String getGrammarFocus(String languageCode) {
-    return grammarFocus[languageCode] ?? grammarFocus['en'] ?? '';
+    // Always use English for grammar content to preserve German grammar terms
+    // This is intentional - grammar tables must show German terms correctly
+    return grammarFocus['en'] ?? grammarFocus['de'] ?? '';
   }
 
   String getCulturalNotes(String languageCode) {

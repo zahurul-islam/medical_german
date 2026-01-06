@@ -9,6 +9,7 @@
     },
     "dependencies": {
         "@google-cloud/text-to-speech": "^6.4.0",
+        "@google-cloud/translate": "^9.3.0",
         "firebase-admin": "^12.7.0"
     }
 }

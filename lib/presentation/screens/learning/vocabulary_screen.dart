@@ -57,12 +57,16 @@ class _VocabularyScreenState extends ConsumerState<VocabularyScreen> {
   Widget build(BuildContext context) {
     final vocabAsync = ref.watch(vocabularyProvider(widget.sectionId));
     final userLanguage = ref.watch(userLanguageProvider);
+    final isDarkMode = Theme.of(context).brightness == Brightness.dark;
+    final textColor = isDarkMode ? Colors.white : AppColors.textPrimaryLight;
+    final secondaryColor = isDarkMode ? AppColors.textSecondaryDark : AppColors.textSecondaryLight;
+    final dividerColor = isDarkMode ? AppColors.dividerDark : AppColors.dividerLight;
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Vocabulary'),
+        title: Text('Vocabulary', style: TextStyle(color: textColor)),
         leading: IconButton(
-          icon: const Icon(Icons.close),
+          icon: Icon(Icons.close, color: textColor),
           onPressed: () => context.pop(),
         ),
       ),
@@ -86,14 +90,14 @@ class _VocabularyScreenState extends ConsumerState<VocabularyScreen> {
                     ),
                     Text(
                       ' / ${vocabulary.length}',
-                      style: AppTextStyles.bodyLarge(color: AppColors.textSecondaryLight),
+                      style: AppTextStyles.bodyLarge(color: secondaryColor),
                     ),
                   ],
                 ),
               ),
               LinearProgressIndicator(
                 value: (_currentIndex + 1) / vocabulary.length,
-                backgroundColor: AppColors.dividerLight,
+                backgroundColor: dividerColor,
                 valueColor: const AlwaysStoppedAnimation<Color>(AppColors.primary),
               ),
               const SizedBox(height: 24),
@@ -151,7 +155,7 @@ class _VocabularyScreenState extends ConsumerState<VocabularyScreen> {
           );
         },
         loading: () => const Center(child: CircularProgressIndicator()),
-        error: (_, __) => const Center(child: Text('Error loading vocabulary')),
+        error: (_, __) => Center(child: Text('Error loading vocabulary', style: TextStyle(color: textColor))),
       ),
     );
   }
