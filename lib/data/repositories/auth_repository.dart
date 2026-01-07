@@ -184,73 +184,41 @@ class AuthRepository {
   }
 
   /// Sign in with Apple
+  ///
+  /// This implementation follows Apple's best practices and Firebase requirements:
+  /// 1. Generates a secure nonce for replay attack prevention
+  /// 2. Requests email and full name scopes
+  /// 3. Uses the identity token with Firebase OAuth
+  /// 4. Handles all authorization error codes properly
   Future<AuthResult> signInWithApple() async {
-    try {
-      // Generate nonce for security
-      final rawNonce = _generateNonce();
-      final nonce = _sha256ofString(rawNonce);
+    // Generate secure nonce - this is critical for security
+    final rawNonce = _generateNonce(32);
+    final hashedNonce = _sha256ofString(rawNonce);
 
-      // Request Apple sign-in
-      final appleCredential = await SignInWithApple.getAppleIDCredential(
+    AuthorizationCredentialAppleID appleCredential;
+
+    try {
+      // Check if Apple Sign In is available on this device
+      final isAvailable = await SignInWithApple.isAvailable();
+      if (!isAvailable) {
+        throw Exception('Apple Sign-In is not available on this device');
+      }
+
+      // Request credentials from Apple
+      appleCredential = await SignInWithApple.getAppleIDCredential(
         scopes: [
           AppleIDAuthorizationScopes.email,
           AppleIDAuthorizationScopes.fullName,
         ],
-        nonce: nonce,
+        nonce: hashedNonce,
       );
-
-      // Verify we got an identity token
-      if (appleCredential.identityToken == null) {
-        throw Exception('Apple Sign-In failed: No identity token received');
-      }
-
-      // Create OAuth credential for Firebase
-      final oauthCredential = OAuthProvider('apple.com').credential(
-        idToken: appleCredential.identityToken!,
-        rawNonce: rawNonce,
-      );
-
-      // Sign in to Firebase
-      final userCredential = await _auth.signInWithCredential(oauthCredential);
-
-      // Update display name if provided by Apple (only on first sign-in)
-      String? displayName;
-      if (appleCredential.givenName != null || appleCredential.familyName != null) {
-        displayName = [
-          appleCredential.givenName,
-          appleCredential.familyName,
-        ].where((name) => name != null).join(' ');
-
-        if (displayName.isNotEmpty) {
-          await userCredential.user!.updateDisplayName(displayName);
-        }
-      }
-
-      // Create or update user document
-      final result = await _createOrUpdateUserDocument(
-        userCredential.user!,
-        authMethod: AuthMethod.apple,
-        displayName: displayName,
-      );
-
-      return AuthResult(
-        user: userCredential.user!,
-        isNewUser: result['isNewUser'] as bool,
-        hasAcceptedTerms: result['hasAcceptedTerms'] as bool,
-      );
-    } on FirebaseAuthException catch (e) {
-      // More detailed Firebase error for Apple Sign-In
-      if (e.code == 'invalid-credential') {
-        throw Exception('Apple Sign-In failed: Invalid credential. Please check Firebase Apple configuration.');
-      }
-      throw _handleAuthException(e);
     } on SignInWithAppleAuthorizationException catch (e) {
-      // Handle Apple Sign-In specific errors
+      // Handle Apple-specific authorization errors
       switch (e.code) {
         case AuthorizationErrorCode.canceled:
           throw Exception('Apple sign-in was cancelled');
         case AuthorizationErrorCode.failed:
-          throw Exception('Apple sign-in failed. Please try again.');
+          throw Exception('Apple sign-in failed: ${e.message}');
         case AuthorizationErrorCode.invalidResponse:
           throw Exception('Invalid response from Apple. Please try again.');
         case AuthorizationErrorCode.notHandled:
@@ -260,13 +228,80 @@ class AuthRepository {
         case AuthorizationErrorCode.unknown:
           throw Exception('Apple sign-in error: ${e.message}');
       }
-    } catch (e) {
-      // Capture the actual error message for debugging
-      final errorMsg = e.toString();
-      if (errorMsg.contains('invalid-credential') || errorMsg.contains('Invalid OAuth')) {
-        throw Exception('Invalid OAuth response from apple.com');
+    }
+
+    // Validate the identity token
+    final identityToken = appleCredential.identityToken;
+    if (identityToken == null || identityToken.isEmpty) {
+      throw Exception('Apple Sign-In failed: No identity token received. Please try again.');
+    }
+
+    try {
+      // Create Firebase OAuth credential
+      // The rawNonce must match the hashed nonce sent to Apple
+      final oauthCredential = OAuthProvider('apple.com').credential(
+        idToken: identityToken,
+        rawNonce: rawNonce,
+        accessToken: appleCredential.authorizationCode,
+      );
+
+      // Sign in to Firebase with the Apple credential
+      final userCredential = await _auth.signInWithCredential(oauthCredential);
+      final user = userCredential.user;
+
+      if (user == null) {
+        throw Exception('Apple Sign-In failed: Firebase authentication returned no user');
       }
-      rethrow;
+
+      // Extract display name from Apple response (only provided on first sign-in)
+      String? displayName;
+      final givenName = appleCredential.givenName;
+      final familyName = appleCredential.familyName;
+
+      if (givenName != null || familyName != null) {
+        displayName = [givenName, familyName]
+            .where((name) => name != null && name.isNotEmpty)
+            .join(' ')
+            .trim();
+
+        // Update Firebase user profile with display name
+        if (displayName.isNotEmpty) {
+          await user.updateDisplayName(displayName);
+          await user.reload();
+        }
+      }
+
+      // Create or update user document in Firestore
+      final result = await _createOrUpdateUserDocument(
+        user,
+        authMethod: AuthMethod.apple,
+        displayName: displayName,
+      );
+
+      return AuthResult(
+        user: user,
+        isNewUser: result['isNewUser'] as bool,
+        hasAcceptedTerms: result['hasAcceptedTerms'] as bool,
+      );
+    } on FirebaseAuthException catch (e) {
+      // Handle Firebase-specific authentication errors
+      switch (e.code) {
+        case 'invalid-credential':
+          throw Exception(
+            'Apple Sign-In failed: Invalid credential. '
+            'Please ensure Apple Sign-In is enabled in Firebase Console '
+            'and the Service ID is correctly configured.',
+          );
+        case 'account-exists-with-different-credential':
+          throw Exception(
+            'An account already exists with this email using a different sign-in method. '
+            'Please sign in with the original method.',
+          );
+        case 'user-disabled':
+          throw Exception('This account has been disabled.');
+        default:
+          throw _handleAuthException(e);
+      }
     }
   }
 

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:url_launcher/url_launcher.dart';
+import '../../../core/localization/settings_strings.dart';
 import '../../../core/themes/app_colors.dart';
 import '../../../core/themes/app_text_styles.dart';
 import '../../../data/repositories/auth_repository.dart';
@@ -19,10 +20,11 @@ class SettingsScreen extends ConsumerWidget {
     final notificationsEnabled = ref.watch(notificationsEnabledProvider);
     final offlineMode = ref.watch(offlineModeProvider);
     final textColor = isDarkMode ? Colors.white : AppColors.textPrimaryLight;
+    final strings = SettingsStrings(userLanguage);
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Settings', style: TextStyle(color: textColor)),
+        title: Text(strings.settings, style: TextStyle(color: textColor)),
         leading: IconButton(
           icon: Icon(Icons.arrow_back, color: textColor),
           onPressed: () {
@@ -66,7 +68,7 @@ class SettingsScreen extends ConsumerWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          user?.displayName ?? 'Doctor',
+                          user?.displayName ?? strings.doctor,
                           style: AppTextStyles.heading4(isDark: isDarkMode),
                         ),
                         Text(
@@ -84,7 +86,7 @@ class SettingsScreen extends ConsumerWidget {
                             borderRadius: BorderRadius.circular(4),
                           ),
                           child: Text(
-                            'Level ${user?.currentLevel ?? "A1"}',
+                            '${strings.level} ${user?.currentLevel ?? "A1"}',
                             style: AppTextStyles.labelSmall(color: AppColors.primary),
                           ),
                         ),
@@ -97,26 +99,35 @@ class SettingsScreen extends ConsumerWidget {
             loading: () => const SizedBox(height: 80),
             error: (_, __) => const SizedBox(height: 80),
           ),
+          const SizedBox(height: 16),
+          
+          // Premium subscription card
+          _PremiumCard(
+            isPremium: ref.watch(isPremiumProvider),
+            isDarkMode: isDarkMode,
+            onTap: () => context.push('/subscription'),
+            strings: strings,
+          ),
           const SizedBox(height: 24),
 
           // Language section
-          Text('Language', style: AppTextStyles.heading4(isDark: isDarkMode)),
+          Text(strings.language, style: AppTextStyles.heading4(isDark: isDarkMode)),
           const SizedBox(height: 12),
           _SettingsTile(
             icon: Icons.language,
-            title: 'Source Language',
+            title: strings.sourceLanguage,
             subtitle: _getLanguageName(userLanguage),
-            onTap: () => _showLanguageDialog(context, ref),
+            onTap: () => _showLanguageDialog(context, ref, strings),
             isDarkMode: isDarkMode,
           ),
           const SizedBox(height: 24),
 
           // Appearance section
-          Text('Appearance', style: AppTextStyles.heading4(isDark: isDarkMode)),
+          Text(strings.appearance, style: AppTextStyles.heading4(isDark: isDarkMode)),
           const SizedBox(height: 12),
           _SettingsTile(
             icon: isDarkMode ? Icons.dark_mode : Icons.light_mode,
-            title: 'Dark Mode',
+            title: strings.darkMode,
             isDarkMode: isDarkMode,
             trailing: Switch(
               value: isDarkMode,
@@ -128,11 +139,11 @@ class SettingsScreen extends ConsumerWidget {
           const SizedBox(height: 24),
 
           // App section
-          Text('App', style: AppTextStyles.heading4(isDark: isDarkMode)),
+          Text(strings.app, style: AppTextStyles.heading4(isDark: isDarkMode)),
           const SizedBox(height: 12),
           _SettingsTile(
             icon: Icons.notifications_outlined,
-            title: 'Notifications',
+            title: strings.notifications,
             isDarkMode: isDarkMode,
             trailing: Switch(
               value: notificationsEnabled,
@@ -143,8 +154,8 @@ class SettingsScreen extends ConsumerWidget {
           ),
           _SettingsTile(
             icon: Icons.offline_bolt_outlined,
-            title: 'Offline Mode',
-            subtitle: 'Download content for offline use',
+            title: strings.offlineMode,
+            subtitle: strings.offlineModeSubtitle,
             isDarkMode: isDarkMode,
             trailing: Switch(
               value: offlineMode,
@@ -152,8 +163,8 @@ class SettingsScreen extends ConsumerWidget {
                 ref.read(offlineModeProvider.notifier).setEnabled(value);
                 if (value) {
                   ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(
-                      content: Text('Offline mode enabled. Content will be cached.'),
+                    SnackBar(
+                      content: Text(strings.offlineModeEnabled),
                     ),
                   );
                 }
@@ -162,51 +173,51 @@ class SettingsScreen extends ConsumerWidget {
           ),
           _SettingsTile(
             icon: Icons.download_outlined,
-            title: 'Downloads',
-            subtitle: 'Manage offline content',
+            title: strings.downloads,
+            subtitle: strings.manageOfflineContent,
             isDarkMode: isDarkMode,
-            onTap: () => _showDownloadsDialog(context),
+            onTap: () => _showDownloadsDialog(context, strings),
           ),
           const SizedBox(height: 24),
 
           // Support section
-          Text('Support', style: AppTextStyles.heading4(isDark: isDarkMode)),
+          Text(strings.support, style: AppTextStyles.heading4(isDark: isDarkMode)),
           const SizedBox(height: 12),
           _SettingsTile(
             icon: Icons.help_outline,
-            title: 'Help & FAQ',
+            title: strings.helpAndFAQ,
             isDarkMode: isDarkMode,
-            onTap: () => _showHelpFAQ(context),
+            onTap: () => _showHelpFAQ(context, strings),
           ),
           _SettingsTile(
             icon: Icons.mail_outline,
-            title: 'Contact Us',
+            title: strings.contactUs,
             subtitle: 'support@meddeutsch.app',
             isDarkMode: isDarkMode,
             onTap: () => _launchEmail(),
           ),
           _SettingsTile(
             icon: Icons.privacy_tip_outlined,
-            title: 'Privacy Policy',
+            title: strings.privacyPolicy,
             isDarkMode: isDarkMode,
-            onTap: () => _showPrivacyPolicy(context),
+            onTap: () => _showPrivacyPolicy(context, strings),
           ),
           _SettingsTile(
             icon: Icons.description_outlined,
-            title: 'Terms of Service',
+            title: strings.termsOfService,
             isDarkMode: isDarkMode,
-            onTap: () => _showTermsOfService(context),
+            onTap: () => _showTermsOfService(context, strings),
           ),
           const SizedBox(height: 24),
 
           // Sign out
           _SettingsTile(
             icon: Icons.logout,
-            title: 'Sign Out',
+            title: strings.signOut,
             iconColor: AppColors.error,
             titleColor: AppColors.error,
             isDarkMode: isDarkMode,
-            onTap: () => _showSignOutDialog(context, ref),
+            onTap: () => _showSignOutDialog(context, ref, strings),
           ),
           const SizedBox(height: 24),
 
@@ -250,11 +261,11 @@ class SettingsScreen extends ConsumerWidget {
     }
   }
 
-  void _showLanguageDialog(BuildContext context, WidgetRef ref) {
+  void _showLanguageDialog(BuildContext context, WidgetRef ref, SettingsStrings strings) {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Select Language'),
+        title: Text(strings.selectLanguage),
         content: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
@@ -309,29 +320,29 @@ class SettingsScreen extends ConsumerWidget {
     );
   }
 
-  void _showDownloadsDialog(BuildContext context) {
+  void _showDownloadsDialog(BuildContext context, SettingsStrings strings) {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Downloads'),
+        title: Text(strings.downloads),
         content: Column(
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text(
-              'Manage your offline content here.',
-              style: TextStyle(fontSize: 14),
+            Text(
+              strings.manageDownloads,
+              style: const TextStyle(fontSize: 14),
             ),
             const SizedBox(height: 16),
             ListTile(
               leading: const Icon(Icons.book, color: AppColors.primary),
-              title: const Text('Learning Content'),
-              subtitle: const Text('All sections cached'),
+              title: Text(strings.learningContent),
+              subtitle: Text(strings.allSectionsCached),
               trailing: const Icon(Icons.check_circle, color: AppColors.success),
             ),
             ListTile(
               leading: const Icon(Icons.audiotrack, color: AppColors.secondary),
-              title: const Text('Audio Files'),
+              title: Text(strings.audioFiles),
               subtitle: const Text('3045 files (125 MB)'),
               trailing: const Icon(Icons.check_circle, color: AppColors.success),
             ),
@@ -340,14 +351,14 @@ class SettingsScreen extends ConsumerWidget {
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context),
-            child: const Text('Close'),
+            child: Text(strings.close),
           ),
         ],
       ),
     );
   }
 
-  void _showHelpFAQ(BuildContext context) {
+  void _showHelpFAQ(BuildContext context, SettingsStrings strings) {
     showModalBottomSheet(
       context: context,
       isScrollControlled: true,
@@ -375,7 +386,7 @@ class SettingsScreen extends ConsumerWidget {
                     children: [
                       const Icon(Icons.help_outline, color: AppColors.primary),
                       const SizedBox(width: 12),
-                      Text('Help & FAQ', style: AppTextStyles.heading4()),
+                      Text(strings.helpAndFAQ, style: AppTextStyles.heading4()),
                       const Spacer(),
                       IconButton(
                         icon: const Icon(Icons.close),
@@ -390,34 +401,34 @@ class SettingsScreen extends ConsumerWidget {
               child: ListView(
                 controller: scrollController,
                 padding: const EdgeInsets.all(16),
-                children: const [
+                children: [
                   _FAQItem(
-                    question: 'How do I start learning German medical terminology?',
-                    answer: 'Begin with Phase 1, which covers essential greetings and basic medical vocabulary. Complete each section sequentially for the best learning experience.',
+                    question: strings.faqStartLearning,
+                    answer: strings.faqStartLearningAnswer,
                   ),
                   _FAQItem(
-                    question: 'Can I use the app offline?',
-                    answer: 'Yes! Enable Offline Mode in Settings to download all content. Audio files and lessons will be available without an internet connection.',
+                    question: strings.faqOffline,
+                    answer: strings.faqOfflineAnswer,
                   ),
                   _FAQItem(
-                    question: 'How do I change the translation language?',
-                    answer: 'Go to Settings > Source Language and select your preferred language (English, Bangla, Hindi, Urdu, or Turkish).',
+                    question: strings.faqChangeLanguage,
+                    answer: strings.faqChangeLanguageAnswer,
                   ),
                   _FAQItem(
-                    question: 'How are the learning phases organized?',
-                    answer: 'Phase 1 covers A1-A2 level basics, Phase 2 covers B1 intermediate medical German, and Phase 3 covers B2-C1 advanced professional communication.',
+                    question: strings.faqPhases,
+                    answer: strings.faqPhasesAnswer,
                   ),
                   _FAQItem(
-                    question: 'How do I practice vocabulary?',
-                    answer: 'Each section includes flashcards and practice exercises. Use the Vocab tab to study terms, and the Practice tab for quizzes.',
+                    question: strings.faqPractice,
+                    answer: strings.faqPracticeAnswer,
                   ),
                   _FAQItem(
-                    question: 'Why is audio not playing?',
-                    answer: 'Ensure your device volume is up and not on silent mode. If issues persist, try re-downloading the audio files in Settings > Downloads.',
+                    question: strings.faqAudio,
+                    answer: strings.faqAudioAnswer,
                   ),
                   _FAQItem(
-                    question: 'How do I contact support?',
-                    answer: 'Email us at support@meddeutsch.app for any questions or technical issues.',
+                    question: strings.faqContact,
+                    answer: strings.faqContactAnswer,
                   ),
                 ],
               ),
@@ -439,7 +450,7 @@ class SettingsScreen extends ConsumerWidget {
     }
   }
 
-  void _showPrivacyPolicy(BuildContext context) {
+  void _showPrivacyPolicy(BuildContext context, SettingsStrings strings) {
     showModalBottomSheet(
       context: context,
       isScrollControlled: true,
@@ -467,7 +478,7 @@ class SettingsScreen extends ConsumerWidget {
                     children: [
                       const Icon(Icons.privacy_tip_outlined, color: AppColors.primary),
                       const SizedBox(width: 12),
-                      Text('Privacy Policy', style: AppTextStyles.heading4()),
+                      Text(strings.privacyPolicy, style: AppTextStyles.heading4()),
                       const Spacer(),
                       IconButton(
                         icon: const Icon(Icons.close),
@@ -485,39 +496,23 @@ class SettingsScreen extends ConsumerWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text('Last Updated: January 2026', style: AppTextStyles.bodySmall()),
+                    Text(strings.lastUpdated, style: AppTextStyles.bodySmall()),
                     const SizedBox(height: 16),
-                    Text('1. Information We Collect', style: AppTextStyles.heading4()),
+                    Text(strings.infoWeCollect, style: AppTextStyles.heading4()),
                     const SizedBox(height: 8),
-                    const Text(
-                      'We collect information you provide directly to us, such as when you create an account, use our services, or contact us for support. This may include:\n\n'
-                      '• Email address for authentication\n'
-                      '• Learning progress and preferences\n'
-                      '• App usage data to improve your experience',
-                    ),
+                    Text(strings.privacyInfoWeCollectContent),
                     const SizedBox(height: 16),
-                    Text('2. How We Use Your Information', style: AppTextStyles.heading4()),
+                    Text(strings.howWeUseInfo, style: AppTextStyles.heading4()),
                     const SizedBox(height: 8),
-                    const Text(
-                      'We use the information we collect to:\n\n'
-                      '• Provide, maintain, and improve our services\n'
-                      '• Track your learning progress\n'
-                      '• Send you notifications about your learning goals\n'
-                      '• Respond to your comments and questions',
-                    ),
+                    Text(strings.privacyHowWeUseContent),
                     const SizedBox(height: 16),
-                    Text('3. Data Security', style: AppTextStyles.heading4()),
+                    Text(strings.dataSecurity, style: AppTextStyles.heading4()),
                     const SizedBox(height: 8),
-                    const Text(
-                      'We implement appropriate security measures to protect your personal information. Your data is stored securely using Firebase services with encryption.',
-                    ),
+                    Text(strings.privacyDataSecurityContent),
                     const SizedBox(height: 16),
-                    Text('4. Contact Us', style: AppTextStyles.heading4()),
+                    Text(strings.contact, style: AppTextStyles.heading4()),
                     const SizedBox(height: 8),
-                    const Text(
-                      'If you have questions about this Privacy Policy, please contact us at:\n\n'
-                      'Email: support@meddeutsch.app',
-                    ),
+                    Text(strings.privacyContactContent),
                   ],
                 ),
               ),
@@ -528,7 +523,7 @@ class SettingsScreen extends ConsumerWidget {
     );
   }
 
-  void _showTermsOfService(BuildContext context) {
+  void _showTermsOfService(BuildContext context, SettingsStrings strings) {
     showModalBottomSheet(
       context: context,
       isScrollControlled: true,
@@ -556,7 +551,7 @@ class SettingsScreen extends ConsumerWidget {
                     children: [
                       const Icon(Icons.description_outlined, color: AppColors.primary),
                       const SizedBox(width: 12),
-                      Text('Terms of Service', style: AppTextStyles.heading4()),
+                      Text(strings.termsOfService, style: AppTextStyles.heading4()),
                       const Spacer(),
                       IconButton(
                         icon: const Icon(Icons.close),
@@ -574,38 +569,27 @@ class SettingsScreen extends ConsumerWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text('Last Updated: January 2026', style: AppTextStyles.bodySmall()),
+                    Text(strings.lastUpdated, style: AppTextStyles.bodySmall()),
                     const SizedBox(height: 16),
-                    Text('1. Acceptance of Terms', style: AppTextStyles.heading4()),
+                    Text(strings.acceptanceOfTerms, style: AppTextStyles.heading4()),
                     const SizedBox(height: 8),
-                    const Text(
-                      'By accessing or using MedDeutsch, you agree to be bound by these Terms of Service and all applicable laws and regulations.',
-                    ),
+                    Text(strings.termsAcceptanceContent),
                     const SizedBox(height: 16),
-                    Text('2. Use of Service', style: AppTextStyles.heading4()),
+                    Text(strings.useOfService, style: AppTextStyles.heading4()),
                     const SizedBox(height: 8),
-                    const Text(
-                      'MedDeutsch is a language learning application designed to help medical professionals learn German medical terminology. The content is for educational purposes only and should not be used as a substitute for professional medical advice.',
-                    ),
+                    Text(strings.termsUseOfServiceContent),
                     const SizedBox(height: 16),
-                    Text('3. User Accounts', style: AppTextStyles.heading4()),
+                    Text(strings.userAccounts, style: AppTextStyles.heading4()),
                     const SizedBox(height: 8),
-                    const Text(
-                      'You are responsible for maintaining the confidentiality of your account credentials. You agree to notify us immediately of any unauthorized use of your account.',
-                    ),
+                    Text(strings.termsUserAccountsContent),
                     const SizedBox(height: 16),
-                    Text('4. Intellectual Property', style: AppTextStyles.heading4()),
+                    Text(strings.intellectualProperty, style: AppTextStyles.heading4()),
                     const SizedBox(height: 8),
-                    const Text(
-                      'All content, features, and functionality of MedDeutsch are owned by us and are protected by international copyright, trademark, and other intellectual property laws.',
-                    ),
+                    Text(strings.termsIntellectualPropertyContent),
                     const SizedBox(height: 16),
-                    Text('5. Contact', style: AppTextStyles.heading4()),
+                    Text(strings.contactTerms, style: AppTextStyles.heading4()),
                     const SizedBox(height: 8),
-                    const Text(
-                      'For questions about these Terms, contact us at:\n\n'
-                      'Email: support@meddeutsch.app',
-                    ),
+                    Text(strings.termsContactContent),
                   ],
                 ),
               ),
@@ -616,16 +600,16 @@ class SettingsScreen extends ConsumerWidget {
     );
   }
 
-  void _showSignOutDialog(BuildContext context, WidgetRef ref) {
+  void _showSignOutDialog(BuildContext context, WidgetRef ref, SettingsStrings strings) {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Sign Out'),
-        content: const Text('Are you sure you want to sign out?'),
+        title: Text(strings.signOut),
+        content: Text(strings.signOutConfirmation),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context),
-            child: const Text('Cancel'),
+            child: Text(strings.cancel),
           ),
           ElevatedButton(
             onPressed: () async {
@@ -639,7 +623,7 @@ class SettingsScreen extends ConsumerWidget {
             style: ElevatedButton.styleFrom(
               backgroundColor: AppColors.error,
             ),
-            child: const Text('Sign Out'),
+            child: Text(strings.signOut),
           ),
         ],
       ),
@@ -731,6 +715,7 @@ class _FAQItem extends StatelessWidget {
   final String answer;
 
   const _FAQItem({
+    super.key,
     required this.question,
     required this.answer,
   });
@@ -748,6 +733,95 @@ class _FAQItem extends StatelessWidget {
           child: Text(answer, style: AppTextStyles.bodyMedium()),
         ),
       ],
+    );
+  }
+}
+
+class _PremiumCard extends StatelessWidget {
+  final bool isPremium;
+  final bool isDarkMode;
+  final VoidCallback onTap;
+  final SettingsStrings strings;
+
+  const _PremiumCard({
+    required this.isPremium,
+    required this.isDarkMode,
+    required this.onTap,
+    required this.strings,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
+        padding: const EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          gradient: isPremium
+              ? const LinearGradient(
+                  colors: [Color(0xFFFFD700), Color(0xFFFFA500)],
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                )
+              : LinearGradient(
+                  colors: [
+                    AppColors.primary,
+                    AppColors.primary.withOpacity(0.8),
+                  ],
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                ),
+          borderRadius: BorderRadius.circular(16),
+          boxShadow: [
+            BoxShadow(
+              color: (isPremium ? const Color(0xFFFFD700) : AppColors.primary).withOpacity(0.3),
+              blurRadius: 12,
+              offset: const Offset(0, 6),
+            ),
+          ],
+        ),
+        child: Row(
+          children: [
+            Container(
+              width: 48,
+              height: 48,
+              decoration: BoxDecoration(
+                color: Colors.white.withOpacity(0.2),
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: Icon(
+                isPremium ? Icons.workspace_premium : Icons.star,
+                color: Colors.white,
+                size: 28,
+              ),
+            ),
+            const SizedBox(width: 16),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    isPremium ? strings.premiumActive : strings.becomePremium,
+                    style: AppTextStyles.heading4(color: Colors.white),
+                  ),
+                  const SizedBox(height: 2),
+                  Text(
+                    isPremium
+                        ? strings.enjoyPremiumFeatures
+                        : strings.unlockAllFeatures,
+                    style: AppTextStyles.bodySmall(color: Colors.white70),
+                  ),
+                ],
+              ),
+            ),
+            Icon(
+              isPremium ? Icons.check_circle : Icons.arrow_forward_ios,
+              color: Colors.white,
+              size: isPremium ? 28 : 20,
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
