@@ -722,16 +722,33 @@ class ContentRepository {
     return _phasesCache!;
   }
 
-  /// Get sections for a specific phase - fast local-first loading
+  /// Get sections for a specific phase - loads localized titles from JSON
   Future<List<SectionModel>> getSectionsByPhase(String phaseId) async {
     // Return cache immediately if available
     if (_sectionsCache.containsKey(phaseId)) {
       return _sectionsCache[phaseId]!;
     }
 
-    // Use default data immediately for fast loading
-    final sections = _defaultSections.where((s) => s.phaseId == phaseId).toList();
-    _sectionsCache[phaseId] = sections;
+    // Get default sections for the phase
+    final defaultSections = _defaultSections.where((s) => s.phaseId == phaseId).toList();
+    
+    // Load localized titles from JSON files for each section
+    final localizedSections = <SectionModel>[];
+    for (final section in defaultSections) {
+      try {
+        final jsonData = await _loadSectionJson(section.id);
+        if (jsonData != null) {
+          localizedSections.add(section.copyWithJsonData(jsonData));
+        } else {
+          localizedSections.add(section);
+        }
+      } catch (e) {
+        // Fall back to default section if JSON load fails
+        localizedSections.add(section);
+      }
+    }
+    
+    _sectionsCache[phaseId] = localizedSections;
 
     // Background Firestore sync (non-blocking)
     if (_firestoreAvailable) {
@@ -750,7 +767,7 @@ class ContentRepository {
       }).catchError((_) {});
     }
 
-    return sections;
+    return localizedSections;
   }
 
   /// Get all sections - returns local data immediately
