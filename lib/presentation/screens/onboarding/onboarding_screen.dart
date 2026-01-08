@@ -24,6 +24,7 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
       title: 'Welcome to MedDeutsch',
       titleDe: 'Willkommen bei MedDeutsch',
       description: 'Your comprehensive guide to medical German for healthcare professionals preparing to work in Germany.',
+      useLogo: true,
     ),
     OnboardingPage(
       icon: Icons.school,
@@ -140,27 +141,38 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          // Icon
-          Container(
-            width: 120,
-            height: 120,
-            decoration: BoxDecoration(
-              gradient: AppColors.primaryGradient,
+          // Icon or Logo
+          if (page.useLogo)
+            ClipRRect(
               borderRadius: BorderRadius.circular(30),
-              boxShadow: [
-                BoxShadow(
-                  color: AppColors.primary.withOpacity(0.3),
-                  blurRadius: 20,
-                  offset: const Offset(0, 10),
-                ),
-              ],
+              child: Image.asset(
+                'assets/images/med_deutsch_logo.jpg',
+                width: 140,
+                height: 140,
+                fit: BoxFit.cover,
+              ),
+            )
+          else
+            Container(
+              width: 120,
+              height: 120,
+              decoration: BoxDecoration(
+                gradient: AppColors.primaryGradient,
+                borderRadius: BorderRadius.circular(30),
+                boxShadow: [
+                  BoxShadow(
+                    color: AppColors.primary.withOpacity(0.3),
+                    blurRadius: 20,
+                    offset: const Offset(0, 10),
+                  ),
+                ],
+              ),
+              child: Icon(
+                page.icon,
+                size: 56,
+                color: Colors.white,
+              ),
             ),
-            child: Icon(
-              page.icon,
-              size: 56,
-              color: Colors.white,
-            ),
-          ),
           const SizedBox(height: 40),
           
           // Title
@@ -250,6 +262,7 @@ class OnboardingPage {
   final String titleDe;
   final String description;
   final bool showLanguageSelector;
+  final bool useLogo;
 
   OnboardingPage({
     required this.icon,
@@ -257,6 +270,7 @@ class OnboardingPage {
     required this.titleDe,
     required this.description,
     this.showLanguageSelector = false,
+    this.useLogo = false,
   });
 }
 
