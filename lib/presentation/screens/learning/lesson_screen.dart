@@ -49,13 +49,7 @@ class _LessonScreenState extends ConsumerState<LessonScreen>
       appBar: AppBar(
         leading: IconButton(
           icon: Icon(Icons.arrow_back, color: textColor),
-          onPressed: () {
-            if (Navigator.canPop(context)) {
-              Navigator.pop(context);
-            } else {
-              context.go('/phases');
-            }
-          },
+          onPressed: () => context.pop(),
         ),
         title: sectionAsync.when(
           data: (section) => Text(section?.titleDe ?? 'Lesson', style: TextStyle(color: textColor)),

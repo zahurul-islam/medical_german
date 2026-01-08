@@ -1,0 +1,427 @@
+{
+  "id": "phase2_fsp",
+  "phaseId": "phase2",
+  "type": "fsp",
+  "title": {
+    "en": "FSP Mock Test - B1-B2 Level",
+    "de": "FSP Probeprüfung - B1-B2 Niveau",
+    "bn": "FSP মক টেস্ট - B1-B2 স্তর",
+    "hi": "FSP मॉक टेस्ट - B1-B2 स्तर",
+    "ur": "FSP ماک ٹیسٹ - B1-B2 سطح",
+    "tr": "FSP Deneme Sınavı - B1-B2 Seviyesi"
+  },
+  "description": {
+    "en": "Test your clinical communication skills in medical German",
+    "de": "Testen Sie Ihre klinischen Kommunikationsfähigkeiten in medizinischem Deutsch",
+    "bn": "চিকিৎসা জার্মানে আপনার ক্লিনিক্যাল যোগাযোগ দক্ষতা পরীক্ষা করুন",
+    "hi": "चिकित्सा जर्मन में अपने क्लिनिकल संचार कौशल का परीक्षण करें",
+    "ur": "طبی جرمن میں اپنی کلینیکل کمیونیکیشن کی مہارت کی جانچ کریں",
+    "tr": "Tıbbi Almanca'da klinik iletişim becerilerinizi test edin"
+  },
+  "level": "B1-B2",
+  "questionCount": 20,
+  "durationMinutes": 45,
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "p2_fsp_01",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Wie beginnen Sie ein Anamnesegespräch?",
+        "en": "How do you start a patient history interview?"
+      },
+      "options": [
+        "Sofort nach den Symptomen fragen",
+        "Sich vorstellen und eine offene Frage stellen",
+        "Die Vitalzeichen messen",
+        "Den Arztbrief vorlesen"
+      ],
+      "correctAnswer": "Sich vorstellen und eine offene Frage stellen",
+      "explanation": {
+        "en": "Always introduce yourself and ask an open question like 'Was führt Sie heute zu uns?'",
+        "de": "Stellen Sie sich immer vor und stellen Sie eine offene Frage wie 'Was führt Sie heute zu uns?'"
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_fsp_02",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was bedeutet 'Hauptbeschwerde'?",
+        "en": "What does 'Hauptbeschwerde' mean?"
+      },
+      "options": [
+        "Das Hauptproblem des Patienten",
+        "Die Nebendiagnose",
+        "Der Behandlungsplan",
+        "Die Krankengeschichte"
+      ],
+      "correctAnswer": "Das Hauptproblem des Patienten",
+      "explanation": {
+        "en": "Hauptbeschwerde is the chief/main complaint that brought the patient to the doctor.",
+        "de": "Hauptbeschwerde ist das Hauptproblem, weswegen der Patient zum Arzt kommt."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_fsp_03",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Wie fragen Sie nach Allergien?",
+        "en": "How do you ask about allergies?"
+      },
+      "options": [
+        "Haben Sie Hunger?",
+        "Haben Sie Allergien oder Unverträglichkeiten?",
+        "Haben Sie Zeit?",
+        "Haben Sie Schmerzen?"
+      ],
+      "correctAnswer": "Haben Sie Allergien oder Unverträglichkeiten?",
+      "explanation": {
+        "en": "Always ask about both allergies and intolerances.",
+        "de": "Fragen Sie immer nach Allergien und Unverträglichkeiten."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_fsp_04",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was bedeutet 'stechender Schmerz'?",
+        "en": "What does 'stechender Schmerz' mean?"
+      },
+      "options": [
+        "Dumpfer Schmerz",
+        "Brennender Schmerz",
+        "Stechender, scharfer Schmerz",
+        "Drückender Schmerz"
+      ],
+      "correctAnswer": "Stechender, scharfer Schmerz",
+      "explanation": {
+        "en": "'Stechend' describes a sharp, stabbing quality of pain.",
+        "de": "'Stechend' beschreibt einen scharfen, stechenden Schmerz wie von einem Messer."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_fsp_05",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist die 'Familienanamnese'?",
+        "en": "What is 'Familienanamnese'?"
+      },
+      "options": [
+        "Die persönliche Krankengeschichte",
+        "Die Krankengeschichte der Familie",
+        "Die aktuelle Medikation",
+        "Der Sozialstatus"
+      ],
+      "correctAnswer": "Die Krankengeschichte der Familie",
+      "explanation": {
+        "en": "Familienanamnese is family medical history - diseases that run in the family.",
+        "de": "Familienanamnese ist die Krankengeschichte der Familie - welche Erkrankungen in der Familie vorkommen."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_fsp_06",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Wie sagt man 'to auscultate' auf Deutsch?",
+        "en": "How do you say 'to auscultate' in German?"
+      },
+      "options": [
+        "Abtasten",
+        "Abhören",
+        "Abklopfen",
+        "Anschauen"
+      ],
+      "correctAnswer": "Abhören",
+      "explanation": {
+        "en": "'Abhören' means to auscultate - to listen with a stethoscope.",
+        "de": "'Abhören' bedeutet mit dem Stethoskop untersuchen."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_fsp_07",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist 'Aufklärung' im medizinischen Kontext?",
+        "en": "What is 'Aufklärung' in medical context?"
+      },
+      "options": [
+        "Die Diagnosestellung",
+        "Die informierte Einwilligung",
+        "Die Behandlung",
+        "Die Entlassung"
+      ],
+      "correctAnswer": "Die informierte Einwilligung",
+      "explanation": {
+        "en": "Aufklärung is the informed consent process before procedures.",
+        "de": "Aufklärung ist der Prozess der informierten Einwilligung vor Eingriffen."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_fsp_08",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was bedeutet 'Röntgen'?",
+        "en": "What does 'Röntgen' mean?"
+      },
+      "options": [
+        "Ultraschall",
+        "Röntgenaufnahme",
+        "CT-Scan",
+        "MRT"
+      ],
+      "correctAnswer": "Röntgenaufnahme",
+      "explanation": {
+        "en": "'Röntgen' means X-ray, named after Wilhelm Röntgen.",
+        "de": "'Röntgen' bedeutet Röntgenaufnahme, benannt nach Wilhelm Röntgen."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_fsp_09",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Wie fragen Sie nach der Schmerzintensität?",
+        "en": "How do you ask about pain intensity?"
+      },
+      "options": [
+        "Wo tut es weh?",
+        "Wie stark sind die Schmerzen auf einer Skala von 0-10?",
+        "Wie lange haben Sie Schmerzen?",
+        "Wann haben die Schmerzen begonnen?"
+      ],
+      "correctAnswer": "Wie stark sind die Schmerzen auf einer Skala von 0-10?",
+      "explanation": {
+        "en": "Use the VAS (Visual Analog Scale) 0-10 to assess pain intensity.",
+        "de": "Verwenden Sie die VAS-Skala von 0-10 zur Schmerzintensitätsbestimmung."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_fsp_10",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was bedeutet 'Vorerkrankungen'?",
+        "en": "What does 'Vorerkrankungen' mean?"
+      },
+      "options": [
+        "Aktuelle Beschwerden",
+        "Frühere Erkrankungen",
+        "Allergien",
+        "Familienerkrankungen"
+      ],
+      "correctAnswer": "Frühere Erkrankungen",
+      "explanation": {
+        "en": "Vorerkrankungen are pre-existing or past medical conditions.",
+        "de": "Vorerkrankungen sind frühere, bereits bekannte Erkrankungen."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_fsp_11",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist 'Blutentnahme'?",
+        "en": "What is 'Blutentnahme'?"
+      },
+      "options": [
+        "Bluttransfusion",
+        "Blutabnahme/Blutprobe",
+        "Blutspende",
+        "Blutdruckmessung"
+      ],
+      "correctAnswer": "Blutabnahme/Blutprobe",
+      "explanation": {
+        "en": "Blutentnahme is blood draw or sampling for laboratory tests.",
+        "de": "Blutentnahme ist die Entnahme von Blut für Laboruntersuchungen."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_fsp_12",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Wie sagt man 'to palpate' auf Deutsch?",
+        "en": "How do you say 'to palpate' in German?"
+      },
+      "options": [
+        "Abhören",
+        "Abtasten",
+        "Abklopfen",
+        "Anschauen"
+      ],
+      "correctAnswer": "Abtasten",
+      "explanation": {
+        "en": "'Abtasten' means to palpate - to feel with the hands.",
+        "de": "'Abtasten' bedeutet mit den Händen untersuchen (Palpation)."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_fsp_13",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was bedeutet 'CRP erhöht'?",
+        "en": "What does 'CRP erhöht' mean?"
+      },
+      "options": [
+        "Niedriger CRP-Wert",
+        "Erhöhter Entzündungsmarker",
+        "Normaler Laborwert",
+        "Niereninsuffizienz"
+      ],
+      "correctAnswer": "Erhöhter Entzündungsmarker",
+      "explanation": {
+        "en": "Elevated CRP indicates inflammation in the body.",
+        "de": "Erhöhtes CRP zeigt eine Entzündungsreaktion im Körper an."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_fsp_14",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist 'Herzinsuffizienz'?",
+        "en": "What is 'Herzinsuffizienz'?"
+      },
+      "options": [
+        "Herzinfarkt",
+        "Herzschwäche",
+        "Herzrhythmusstörung",
+        "Herzklappenfehler"
+      ],
+      "correctAnswer": "Herzschwäche",
+      "explanation": {
+        "en": "Herzinsuffizienz is heart failure - the heart cannot pump effectively.",
+        "de": "Herzinsuffizienz ist eine Herzschwäche - das Herz kann nicht mehr effektiv pumpen."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_fsp_15",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Wie erklären Sie einem Patienten eine Untersuchung?",
+        "en": "How do you explain a procedure to a patient?"
+      },
+      "options": [
+        "Kurz und technisch",
+        "Verständlich erklären und nach Einverständnis fragen",
+        "Ohne Erklärung durchführen",
+        "Nur schriftlich informieren"
+      ],
+      "correctAnswer": "Verständlich erklären und nach Einverständnis fragen",
+      "explanation": {
+        "en": "Always explain in understandable language and obtain consent.",
+        "de": "Erklären Sie immer verständlich und fragen Sie nach dem Einverständnis."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_fsp_16",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was bedeutet 'Atemnot' in der medizinischen Fachsprache?",
+        "en": "What does 'Atemnot' mean in medical terminology?"
+      },
+      "options": [
+        "Bradypnoe",
+        "Dyspnoe",
+        "Apnoe",
+        "Hyperpnoe"
+      ],
+      "correctAnswer": "Dyspnoe",
+      "explanation": {
+        "en": "Atemnot is dyspnea - shortness of breath or difficulty breathing.",
+        "de": "Atemnot ist Dyspnoe - Kurzatmigkeit oder erschwertes Atmen."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_fsp_17",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist Diabetes mellitus Typ 2?",
+        "en": "What is Diabetes mellitus Type 2?"
+      },
+      "options": [
+        "Insulinabhängiger Diabetes",
+        "Nicht-insulinabhängiger Diabetes (Insulinresistenz)",
+        "Schwangerschaftsdiabetes",
+        "Diabetes insipidus"
+      ],
+      "correctAnswer": "Nicht-insulinabhängiger Diabetes (Insulinresistenz)",
+      "explanation": {
+        "en": "Type 2 diabetes is typically associated with insulin resistance.",
+        "de": "Typ-2-Diabetes ist typischerweise mit Insulinresistenz verbunden."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_fsp_18",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was bedeutet 'postoperativ'?",
+        "en": "What does 'postoperativ' mean?"
+      },
+      "options": [
+        "Vor der Operation",
+        "Nach der Operation",
+        "Während der Operation",
+        "Ohne Operation"
+      ],
+      "correctAnswer": "Nach der Operation",
+      "explanation": {
+        "en": "'Postoperativ' means after surgery.",
+        "de": "'Postoperativ' bedeutet nach der Operation."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_fsp_19",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist eine 'Differentialdiagnose'?",
+        "en": "What is a 'Differentialdiagnose'?"
+      },
+      "options": [
+        "Die endgültige Diagnose",
+        "Eine Liste möglicher Diagnosen",
+        "Die ausgeschlossene Diagnose",
+        "Die Nebendiagnose"
+      ],
+      "correctAnswer": "Eine Liste möglicher Diagnosen",
+      "explanation": {
+        "en": "Differential diagnosis is a list of possible conditions to consider.",
+        "de": "Differentialdiagnose ist eine Liste möglicher Diagnosen, die in Betracht gezogen werden."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_fsp_20",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was bedeutet 'nüchtern' vor einer Untersuchung?",
+        "en": "What does 'nüchtern' mean before a procedure?"
+      },
+      "options": [
+        "Wach sein",
+        "Ohne Essen und Trinken",
+        "Ruhig sein",
+        "Medikamente nehmen"
+      ],
+      "correctAnswer": "Ohne Essen und Trinken",
+      "explanation": {
+        "en": "'Nüchtern' means fasting - no food or drink before the examination.",
+        "de": "'Nüchtern' bedeutet ohne Essen und Trinken vor der Untersuchung."
+      },
+      "points": 1
+    }
+  ]
+}

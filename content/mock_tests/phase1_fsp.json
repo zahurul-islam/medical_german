@@ -1,0 +1,427 @@
+{
+  "id": "phase1_fsp",
+  "phaseId": "phase1",
+  "type": "fsp",
+  "title": {
+    "en": "FSP Mock Test - A1-A2 Level",
+    "de": "FSP Probeprüfung - A1-A2 Niveau",
+    "bn": "FSP মক টেস্ট - A1-A2 স্তর",
+    "hi": "FSP मॉक टेस्ट - A1-A2 स्तर",
+    "ur": "FSP ماک ٹیسٹ - A1-A2 سطح",
+    "tr": "FSP Deneme Sınavı - A1-A2 Seviyesi"
+  },
+  "description": {
+    "en": "Test your medical German language skills at the foundation level",
+    "de": "Testen Sie Ihre medizinischen Deutschkenntnisse auf Grundniveau",
+    "bn": "ভিত্তি স্তরে আপনার চিকিৎসা জার্মান ভাষার দক্ষতা পরীক্ষা করুন",
+    "hi": "नींव स्तर पर अपने चिकित्सा जर्मन भाषा कौशल का परीक्षण करें",
+    "ur": "بنیادی سطح پر اپنی طبی جرمن زبان کی مہارت کی جانچ کریں",
+    "tr": "Temel seviyede tıbbi Almanca dil becerilerinizi test edin"
+  },
+  "level": "A1-A2",
+  "questionCount": 20,
+  "durationMinutes": 30,
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "p1_fsp_01",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Wie begrüßen Sie einen Patienten formell am Morgen?",
+        "en": "How do you formally greet a patient in the morning?"
+      },
+      "options": [
+        "Hallo!",
+        "Guten Morgen!",
+        "Tschüss!",
+        "Servus!"
+      ],
+      "correctAnswer": "Guten Morgen!",
+      "explanation": {
+        "en": "'Guten Morgen' is the formal morning greeting in German medical settings.",
+        "de": "'Guten Morgen' ist die formelle Morgenbegrüßung in der Klinik."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_fsp_02",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Welcher Artikel gehört zu 'Krankenhaus'?",
+        "en": "Which article goes with 'Krankenhaus'?"
+      },
+      "options": [
+        "der Krankenhaus",
+        "die Krankenhaus",
+        "das Krankenhaus",
+        "den Krankenhaus"
+      ],
+      "correctAnswer": "das Krankenhaus",
+      "explanation": {
+        "en": "'Krankenhaus' is neuter, so it uses 'das'.",
+        "de": "'Krankenhaus' ist ein Neutrum, daher: das Krankenhaus."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_fsp_03",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist 'die Notaufnahme' auf Englisch?",
+        "en": "What is 'die Notaufnahme' in English?"
+      },
+      "options": [
+        "Operating room",
+        "Emergency room",
+        "Waiting room",
+        "Patient room"
+      ],
+      "correctAnswer": "Emergency room",
+      "explanation": {
+        "en": "'Notaufnahme' means emergency room or emergency department.",
+        "de": "'Notaufnahme' bedeutet Notfallstation oder Notfallabteilung."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_fsp_04",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Wie sagt man 'blood pressure' auf Deutsch?",
+        "en": "How do you say 'blood pressure' in German?"
+      },
+      "options": [
+        "der Blutzucker",
+        "der Blutdruck",
+        "das Blutbild",
+        "die Blutgruppe"
+      ],
+      "correctAnswer": "der Blutdruck",
+      "explanation": {
+        "en": "'Blutdruck' is blood pressure. 'Blutzucker' is blood sugar.",
+        "de": "'Blutdruck' ist der Blutdruck. 'Blutzucker' ist der Blutzucker."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_fsp_05",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was bedeutet 'Fieber'?",
+        "en": "What does 'Fieber' mean?"
+      },
+      "options": [
+        "Headache",
+        "Fever",
+        "Cough",
+        "Pain"
+      ],
+      "correctAnswer": "Fever",
+      "explanation": {
+        "en": "'Fieber' means fever, an elevated body temperature above 38°C.",
+        "de": "'Fieber' bedeutet eine erhöhte Körpertemperatur über 38°C."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_fsp_06",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Welches Organ ist 'das Herz'?",
+        "en": "Which organ is 'das Herz'?"
+      },
+      "options": [
+        "Liver",
+        "Lung",
+        "Heart",
+        "Kidney"
+      ],
+      "correctAnswer": "Heart",
+      "explanation": {
+        "en": "'Das Herz' is the heart, the central organ of circulation.",
+        "de": "'Das Herz' ist das Zentralorgan des Blutkreislaufs."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_fsp_07",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Wie sagt man 'I have pain' auf Deutsch?",
+        "en": "How do you say 'I have pain' in German?"
+      },
+      "options": [
+        "Ich bin Schmerzen",
+        "Ich habe Schmerzen",
+        "Ich mache Schmerzen",
+        "Ich gehe Schmerzen"
+      ],
+      "correctAnswer": "Ich habe Schmerzen",
+      "explanation": {
+        "en": "'Ich habe Schmerzen' means 'I have pain'. Use 'haben' with Schmerzen.",
+        "de": "'Ich habe Schmerzen' ist die korrekte Form. Man verwendet 'haben' mit Schmerzen."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_fsp_08",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist ein 'Stethoskop'?",
+        "en": "What is a 'Stethoskop'?"
+      },
+      "options": [
+        "Ein Gerät zum Blutdruckmessen",
+        "Ein Gerät zum Abhören von Herz und Lunge",
+        "Ein Gerät zum Temperaturmessen",
+        "Ein Gerät zur Blutentnahme"
+      ],
+      "correctAnswer": "Ein Gerät zum Abhören von Herz und Lunge",
+      "explanation": {
+        "en": "A stethoscope is used to listen to heart and lung sounds.",
+        "de": "Ein Stethoskop dient zum Abhören von Herz- und Lungengeräuschen."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_fsp_09",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Welcher Artikel gehört zu 'Lunge'?",
+        "en": "Which article goes with 'Lunge'?"
+      },
+      "options": [
+        "der Lunge",
+        "die Lunge",
+        "das Lunge",
+        "den Lunge"
+      ],
+      "correctAnswer": "die Lunge",
+      "explanation": {
+        "en": "'Lunge' is feminine, so it uses 'die'.",
+        "de": "'Lunge' ist feminin, daher: die Lunge."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_fsp_10",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Wie fragt man nach dem Befinden des Patienten?",
+        "en": "How do you ask about the patient's condition?"
+      },
+      "options": [
+        "Was machen Sie?",
+        "Wie geht es Ihnen?",
+        "Woher kommen Sie?",
+        "Wie heißen Sie?"
+      ],
+      "correctAnswer": "Wie geht es Ihnen?",
+      "explanation": {
+        "en": "'Wie geht es Ihnen?' is the formal way to ask 'How are you?'",
+        "de": "'Wie geht es Ihnen?' ist die formelle Frage nach dem Befinden."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_fsp_11",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was bedeutet 'Kopfschmerzen'?",
+        "en": "What does 'Kopfschmerzen' mean?"
+      },
+      "options": [
+        "Stomach ache",
+        "Back pain",
+        "Headache",
+        "Toothache"
+      ],
+      "correctAnswer": "Headache",
+      "explanation": {
+        "en": "'Kopfschmerzen' means headache (Kopf = head, Schmerzen = pain).",
+        "de": "'Kopfschmerzen' bedeutet Schmerzen im Kopf."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_fsp_12",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Welcher Artikel gehört zu 'Arzt'?",
+        "en": "Which article goes with 'Arzt'?"
+      },
+      "options": [
+        "die Arzt",
+        "das Arzt",
+        "der Arzt",
+        "den Arzt"
+      ],
+      "correctAnswer": "der Arzt",
+      "explanation": {
+        "en": "'Arzt' is masculine, so it uses 'der'.",
+        "de": "'Arzt' ist maskulin, daher: der Arzt."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_fsp_13",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist 'die Krankenschwester' auf Englisch?",
+        "en": "What is 'die Krankenschwester' in English?"
+      },
+      "options": [
+        "Doctor",
+        "Nurse",
+        "Patient",
+        "Pharmacist"
+      ],
+      "correctAnswer": "Nurse",
+      "explanation": {
+        "en": "'Krankenschwester' means nurse (female). 'Krankenpfleger' is male nurse.",
+        "de": "'Krankenschwester' ist die weibliche Bezeichnung für Pflegekraft."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_fsp_14",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Wie sagt man 'Please take a seat' auf Deutsch?",
+        "en": "How do you say 'Please take a seat' in German?"
+      },
+      "options": [
+        "Bitte stehen Sie auf!",
+        "Bitte nehmen Sie Platz!",
+        "Bitte gehen Sie!",
+        "Bitte warten Sie!"
+      ],
+      "correctAnswer": "Bitte nehmen Sie Platz!",
+      "explanation": {
+        "en": "'Bitte nehmen Sie Platz!' is the formal way to ask someone to sit down.",
+        "de": "'Bitte nehmen Sie Platz!' ist die höfliche Aufforderung zum Hinsetzen."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_fsp_15",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was bedeutet 'Übelkeit'?",
+        "en": "What does 'Übelkeit' mean?"
+      },
+      "options": [
+        "Dizziness",
+        "Nausea",
+        "Fatigue",
+        "Weakness"
+      ],
+      "correctAnswer": "Nausea",
+      "explanation": {
+        "en": "'Übelkeit' means nausea, the feeling of needing to vomit.",
+        "de": "'Übelkeit' ist das Gefühl von Brechreiz."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_fsp_16",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Welches Wort ist der Plural von 'das Medikament'?",
+        "en": "What is the plural of 'das Medikament'?"
+      },
+      "options": [
+        "die Medikamenten",
+        "die Medikamente",
+        "das Medikamenter",
+        "der Medikament"
+      ],
+      "correctAnswer": "die Medikamente",
+      "explanation": {
+        "en": "The plural of 'Medikament' is 'Medikamente'.",
+        "de": "Der Plural von 'Medikament' ist 'Medikamente'."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_fsp_17",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Wie fragt man nach Allergien?",
+        "en": "How do you ask about allergies?"
+      },
+      "options": [
+        "Haben Sie Hunger?",
+        "Haben Sie Allergien?",
+        "Haben Sie Zeit?",
+        "Haben Sie Geld?"
+      ],
+      "correctAnswer": "Haben Sie Allergien?",
+      "explanation": {
+        "en": "'Haben Sie Allergien?' asks if the patient has any allergies.",
+        "de": "'Haben Sie Allergien?' fragt nach bekannten Allergien."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_fsp_18",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was bedeutet 'Atemnot'?",
+        "en": "What does 'Atemnot' mean?"
+      },
+      "options": [
+        "Chest pain",
+        "Shortness of breath",
+        "Heart attack",
+        "Cough"
+      ],
+      "correctAnswer": "Shortness of breath",
+      "explanation": {
+        "en": "'Atemnot' means shortness of breath or difficulty breathing.",
+        "de": "'Atemnot' bedeutet Schwierigkeiten beim Atmen, auch Dyspnoe genannt."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_fsp_19",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Welcher Satz ist grammatisch korrekt?",
+        "en": "Which sentence is grammatically correct?"
+      },
+      "options": [
+        "Der Patient hat Schmerzen in der Brust.",
+        "Der Patient haben Schmerzen in der Brust.",
+        "Der Patient habe Schmerzen in der Brust.",
+        "Der Patient habst Schmerzen in der Brust."
+      ],
+      "correctAnswer": "Der Patient hat Schmerzen in der Brust.",
+      "explanation": {
+        "en": "'Der Patient hat' is correct - third person singular uses 'hat'.",
+        "de": "'Der Patient hat' ist korrekt - 3. Person Singular von 'haben' ist 'hat'."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_fsp_20",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist 'der Magen' auf Englisch?",
+        "en": "What is 'der Magen' in English?"
+      },
+      "options": [
+        "Liver",
+        "Intestine",
+        "Stomach",
+        "Pancreas"
+      ],
+      "correctAnswer": "Stomach",
+      "explanation": {
+        "en": "'Der Magen' means stomach, the digestive organ.",
+        "de": "'Der Magen' ist das Verdauungsorgan im Oberbauch."
+      },
+      "points": 1
+    }
+  ]
+}

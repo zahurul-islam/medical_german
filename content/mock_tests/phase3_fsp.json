@@ -1,0 +1,527 @@
+{
+  "id": "phase3_fsp",
+  "phaseId": "phase3",
+  "type": "fsp",
+  "title": {
+    "en": "FSP Mock Test - C1 Level",
+    "de": "FSP Probeprüfung - C1 Niveau",
+    "bn": "FSP মক টেস্ট - C1 স্তর",
+    "hi": "FSP मॉक टेस्ट - C1 स्तर",
+    "ur": "FSP ماک ٹیسٹ - C1 سطح",
+    "tr": "FSP Deneme Sınavı - C1 Seviyesi"
+  },
+  "description": {
+    "en": "Advanced FSP simulation for professional medical communication",
+    "de": "Fortgeschrittene FSP-Simulation für professionelle medizinische Kommunikation",
+    "bn": "পেশাদার চিকিৎসা যোগাযোগের জন্য উন্নত FSP সিমুলেশন",
+    "hi": "पेशेवर चिकित्सा संचार के लिए उन्नत FSP सिमुलेशन",
+    "ur": "پیشہ ورانہ طبی مواصلات کے لیے ایڈوانسڈ FSP سمولیشن",
+    "tr": "Profesyonel tıbbi iletişim için gelişmiş FSP simülasyonu"
+  },
+  "level": "C1",
+  "questionCount": 25,
+  "durationMinutes": 60,
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "p3_fsp_01",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was gehört in einen Arztbrief?",
+        "en": "What belongs in a discharge letter?"
+      },
+      "options": [
+        "Nur Diagnose",
+        "Diagnose, Anamnese, Befund, Therapie, Procedere",
+        "Nur Medikamente",
+        "Nur Unterschrift"
+      ],
+      "correctAnswer": "Diagnose, Anamnese, Befund, Therapie, Procedere",
+      "explanation": {
+        "en": "A complete Arztbrief contains all these elements.",
+        "de": "Ein vollständiger Arztbrief enthält alle diese Elemente."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_fsp_02",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was bedeutet 'Epikrise'?",
+        "en": "What does 'Epikrise' mean?"
+      },
+      "options": [
+        "Diagnose",
+        "Entlassungszusammenfassung",
+        "Behandlungsplan",
+        "Prognose"
+      ],
+      "correctAnswer": "Entlassungszusammenfassung",
+      "explanation": {
+        "en": "Epikrise is the discharge summary or case summary.",
+        "de": "Epikrise ist die Zusammenfassung des Krankheitsverlaufs."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_fsp_03",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Wie beginnt man eine Patientenvorstellung?",
+        "en": "How do you start a case presentation?"
+      },
+      "options": [
+        "Mit den Laborwerten",
+        "Mit Name, Alter, Geschlecht und Aufnahmegrund",
+        "Mit der Therapie",
+        "Mit der Familienanamnese"
+      ],
+      "correctAnswer": "Mit Name, Alter, Geschlecht und Aufnahmegrund",
+      "explanation": {
+        "en": "Start with demographics and chief complaint.",
+        "de": "Beginnen Sie mit demographischen Daten und Aufnahmegrund."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_fsp_04",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist 'Übergabe'?",
+        "en": "What is 'Übergabe'?"
+      },
+      "options": [
+        "Diagnose",
+        "Dienstübergabe",
+        "Behandlung",
+        "Konsultation"
+      ],
+      "correctAnswer": "Dienstübergabe",
+      "explanation": {
+        "en": "Übergabe is the handover between shifts.",
+        "de": "Übergabe ist die Dienstübergabe zwischen Schichten."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_fsp_05",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was bedeutet 'Patientenverfügung'?",
+        "en": "What is 'Patientenverfügung'?"
+      },
+      "options": [
+        "Patientenakte",
+        "Vorausschauende Willensbekundung",
+        "Krankenakte",
+        "Behandlungsplan"
+      ],
+      "correctAnswer": "Vorausschauende Willensbekundung",
+      "explanation": {
+        "en": "Patientenverfügung is an advance directive.",
+        "de": "Patientenverfügung ist eine vorausschauende Willensbekundung."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_fsp_06",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Wie kommuniziert man schlechte Nachrichten?",
+        "en": "How do you communicate bad news?"
+      },
+      "options": [
+        "Schnell und direkt",
+        "Mit Empathie und strukturiert (SPIKES)",
+        "Per Telefon",
+        "Durch Angehörige"
+      ],
+      "correctAnswer": "Mit Empathie und strukturiert (SPIKES)",
+      "explanation": {
+        "en": "Use SPIKES protocol for breaking bad news.",
+        "de": "Verwenden Sie das SPIKES-Protokoll."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_fsp_07",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist 'Approbation'?",
+        "en": "What is 'Approbation'?"
+      },
+      "options": [
+        "Medizinstudium-Diplom",
+        "Deutsche Ärztezulassung",
+        "Facharztanerkennung",
+        "Sprachzertifikat"
+      ],
+      "correctAnswer": "Deutsche Ärztezulassung",
+      "explanation": {
+        "en": "Approbation is the German medical license.",
+        "de": "Approbation ist die deutsche Ärztezulassung."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_fsp_08",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was gehört zur Schweigepflicht?",
+        "en": "What is covered by medical confidentiality?"
+      },
+      "options": [
+        "Nur Diagnose",
+        "Alle patientenbezogenen Informationen",
+        "Nur Name",
+        "Nur Behandlung"
+      ],
+      "correctAnswer": "Alle patientenbezogenen Informationen",
+      "explanation": {
+        "en": "All patient information is confidential.",
+        "de": "Alle patientenbezogenen Informationen sind vertraulich."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_fsp_09",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist 'Weiterbildung' im ärztlichen Kontext?",
+        "en": "What is 'Weiterbildung' in medical context?"
+      },
+      "options": [
+        "Universitätsstudium",
+        "Facharztausbildung",
+        "Fortbildung",
+        "Praktikum"
+      ],
+      "correctAnswer": "Facharztausbildung",
+      "explanation": {
+        "en": "Weiterbildung is specialty training towards Facharzt.",
+        "de": "Weiterbildung ist die Facharztausbildung."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_fsp_10",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was bedeutet 'konsiliarisch'?",
+        "en": "What does 'konsiliarisch' mean?"
+      },
+      "options": [
+        "In der Hausarztpraxis tätig",
+        "Als Konsiliararzt tätig",
+        "Im Notfall tätig",
+        "In der Ambulanz tätig"
+      ],
+      "correctAnswer": "Als Konsiliararzt tätig",
+      "explanation": {
+        "en": "Konsiliarisch means as a consultant.",
+        "de": "Konsiliarisch bedeutet als Konsiliararzt tätig."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_fsp_11",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist der Unterschied zwischen GKV und PKV?",
+        "en": "What is the difference between GKV and PKV?"
+      },
+      "options": [
+        "Kein Unterschied",
+        "Gesetzliche vs. Private Krankenversicherung",
+        "Ambulant vs. Stationär",
+        "Alt vs. Neu"
+      ],
+      "correctAnswer": "Gesetzliche vs. Private Krankenversicherung",
+      "explanation": {
+        "en": "GKV is statutory, PKV is private insurance.",
+        "de": "GKV ist gesetzlich, PKV ist privat versichert."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_fsp_12",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Wie dokumentiert man im Konjunktiv I?",
+        "en": "How do you document using Konjunktiv I?"
+      },
+      "options": [
+        "Der Patient sagt, er hat Schmerzen",
+        "Der Patient sagt, er habe Schmerzen",
+        "Der Patient sagt, er hätte Schmerzen",
+        "Der Patient sagt, er hatte Schmerzen"
+      ],
+      "correctAnswer": "Der Patient sagt, er habe Schmerzen",
+      "explanation": {
+        "en": "Konjunktiv I is used for reported speech.",
+        "de": "Konjunktiv I wird für die indirekte Rede verwendet."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_fsp_13",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was bedeutet 'Therapieeskalation'?",
+        "en": "What does 'Therapieeskalation' mean?"
+      },
+      "options": [
+        "Therapie reduzieren",
+        "Therapie intensivieren",
+        "Therapie beenden",
+        "Therapie beibehalten"
+      ],
+      "correctAnswer": "Therapie intensivieren",
+      "explanation": {
+        "en": "Escalation means intensifying or stepping up treatment.",
+        "de": "Eskalation bedeutet Intensivierung der Behandlung."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_fsp_14",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist 'Procedere'?",
+        "en": "What is 'Procedere'?"
+      },
+      "options": [
+        "Diagnose",
+        "Weiteres geplantes Vorgehen",
+        "Vorgeschichte",
+        "Aktueller Status"
+      ],
+      "correctAnswer": "Weiteres geplantes Vorgehen",
+      "explanation": {
+        "en": "Procedere describes the planned next steps.",
+        "de": "Procedere beschreibt das weitere Vorgehen."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_fsp_15",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was bedeutet 'Entlassung gegen ärztlichen Rat'?",
+        "en": "What is 'Entlassung gegen ärztlichen Rat'?"
+      },
+      "options": [
+        "Normale Entlassung",
+        "Entlassung gegen ärztlichen Rat",
+        "Verlegung",
+        "Tod"
+      ],
+      "correctAnswer": "Entlassung gegen ärztlichen Rat",
+      "explanation": {
+        "en": "Patient leaves against doctor's recommendation.",
+        "de": "Patient verlässt gegen ärztliche Empfehlung."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_fsp_16",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist 'Haftung'?",
+        "en": "What is 'Haftung'?"
+      },
+      "options": [
+        "Behandlung",
+        "Rechtliche Verantwortlichkeit",
+        "Versicherung",
+        "Zahlung"
+      ],
+      "correctAnswer": "Rechtliche Verantwortlichkeit",
+      "explanation": {
+        "en": "Haftung is medical/legal liability.",
+        "de": "Haftung ist die rechtliche Verantwortlichkeit."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_fsp_17",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was gehört in eine Medikamentenanordnung?",
+        "en": "What belongs in a medication order?"
+      },
+      "options": [
+        "Nur Name",
+        "Name, Dosierung, Applikation, Frequenz",
+        "Nur Dosierung",
+        "Nur Unterschrift"
+      ],
+      "correctAnswer": "Name, Dosierung, Applikation, Frequenz",
+      "explanation": {
+        "en": "Complete orders include drug, dose, route, frequency.",
+        "de": "Vollständige Anordnungen enthalten Medikament, Dosis, Art, Häufigkeit."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_fsp_18",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was bedeutet 'palliativ'?",
+        "en": "What does 'palliativ' mean?"
+      },
+      "options": [
+        "Kurativ",
+        "Symptomlinderung/Komfortpflege",
+        "Präventiv",
+        "Diagnostisch"
+      ],
+      "correctAnswer": "Symptomlinderung/Komfortpflege",
+      "explanation": {
+        "en": "Palliative care focuses on symptom relief.",
+        "de": "Palliativmedizin konzentriert sich auf Symptomlinderung."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_fsp_19",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist ein 'Tumorboard'?",
+        "en": "What is a 'Tumorboard'?"
+      },
+      "options": [
+        "Krebsregister",
+        "Interdisziplinäre Tumorkonferenz",
+        "Pathologiebericht",
+        "Chemotherapieplan"
+      ],
+      "correctAnswer": "Interdisziplinäre Tumorkonferenz",
+      "explanation": {
+        "en": "Tumorboard is a multidisciplinary case conference.",
+        "de": "Tumorboard ist eine interdisziplinäre Fallkonferenz."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_fsp_20",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was bedeutet 'Rezidiv'?",
+        "en": "What does 'Rezidiv' mean?"
+      },
+      "options": [
+        "Erstmanifestation",
+        "Wiederauftreten einer Erkrankung",
+        "Komplikation",
+        "Nebenwirkung"
+      ],
+      "correctAnswer": "Wiederauftreten einer Erkrankung",
+      "explanation": {
+        "en": "Rezidiv is recurrence of a disease.",
+        "de": "Rezidiv ist das Wiederauftreten einer Erkrankung."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_fsp_21",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist 'ärztliche Behandlungsfreiheit'?",
+        "en": "What is 'ärztliche Behandlungsfreiheit'?"
+      },
+      "options": [
+        "Kostenlose Behandlung",
+        "Ärztliche Therapiefreiheit",
+        "Patientenrechte",
+        "Versicherungsschutz"
+      ],
+      "correctAnswer": "Ärztliche Therapiefreiheit",
+      "explanation": {
+        "en": "Doctor's autonomy in choosing appropriate treatment.",
+        "de": "Ärztliche Freiheit bei der Wahl der Behandlung."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_fsp_22",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was bedeutet 'Verdachtsdiagnose'?",
+        "en": "What does 'Verdachtsdiagnose' mean?"
+      },
+      "options": [
+        "Bestätigte Diagnose",
+        "Vorläufige/vermutete Diagnose",
+        "Ausgeschlossene Diagnose",
+        "Enddiagnose"
+      ],
+      "correctAnswer": "Vorläufige/vermutete Diagnose",
+      "explanation": {
+        "en": "Verdacht means suspected/working diagnosis.",
+        "de": "Verdachtsdiagnose ist die vorläufige Diagnose."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_fsp_23",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist 'Oberarzt'?",
+        "en": "What is 'Oberarzt'?"
+      },
+      "options": [
+        "Assistenzarzt",
+        "Oberarzt",
+        "Chefarzt",
+        "Pflegekraft"
+      ],
+      "correctAnswer": "Oberarzt",
+      "explanation": {
+        "en": "Oberarzt is a senior attending physician.",
+        "de": "Oberarzt ist ein leitender Arzt."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_fsp_24",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was bedeutet 'elektiv'?",
+        "en": "What does 'elektiv' mean?"
+      },
+      "options": [
+        "Notfall",
+        "Geplant/elektiv",
+        "Dringend",
+        "Lebensbedrohlich"
+      ],
+      "correctAnswer": "Geplant/elektiv",
+      "explanation": {
+        "en": "Elective means planned, non-emergency.",
+        "de": "Elektiv bedeutet geplant, nicht notfallmäßig."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_fsp_25",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist eine 'Fallpauschale' (DRG)?",
+        "en": "What is a 'Fallpauschale' (DRG)?"
+      },
+      "options": [
+        "Tagessatz",
+        "Diagnosebezogene Fallpauschale",
+        "Stundensatz",
+        "Monatspauschale"
+      ],
+      "correctAnswer": "Diagnosebezogene Fallpauschale",
+      "explanation": {
+        "en": "DRG is the diagnosis-related group for hospital reimbursement.",
+        "de": "DRG ist die diagnosebezogene Fallgruppe für Krankenhausvergütung."
+      },
+      "points": 1
+    }
+  ]
+}

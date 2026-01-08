@@ -59,6 +59,27 @@ class _ExerciseScreenState extends ConsumerState<ExerciseScreen> {
   }
 
   void _showResults(int total) {
+    // Add points for correct answers
+    final points = _correctCount * 10;
+    final authState = ref.read(authStateProvider);
+    final progressRepo = ref.read(progressRepositoryProvider);
+    
+    authState.whenData((user) async {
+      if (user != null) {
+        await progressRepo.addPoints(user.uid, points);
+        // Also record exercise progress
+        await progressRepo.recordExerciseResult(
+          userId: user.uid,
+          sectionId: widget.sectionId,
+          exerciseId: 'practice_${DateTime.now().millisecondsSinceEpoch}',
+          score: points,
+        );
+      }
+    });
+    
+    // Refresh stats
+    ref.invalidate(userStatsProvider);
+    
     showDialog(
       context: context,
       barrierDismissible: false,
@@ -78,18 +99,23 @@ class _ExerciseScreenState extends ConsumerState<ExerciseScreen> {
             ),
             const SizedBox(height: 16),
             Text(
-              _correctCount >= total * 0.7 ? 'Great Job!' : 'Keep Practicing!',
+              _correctCount >= total * 0.7 ? 'Toll gemacht!' : 'Weiter üben!',
               style: AppTextStyles.heading3(),
             ),
             const SizedBox(height: 8),
             Text(
-              'You got $_correctCount out of $total correct',
+              'Sie haben $_correctCount von $total richtig',
               style: AppTextStyles.bodyMedium(color: AppColors.textSecondaryLight),
             ),
             const SizedBox(height: 8),
             Text(
               '${((_correctCount / total) * 100).toInt()}%',
               style: AppTextStyles.heading2(color: AppColors.primary),
+            ),
+            const SizedBox(height: 4),
+            Text(
+              '+$points Punkte',
+              style: AppTextStyles.bodyMedium(color: AppColors.success),
             ),
           ],
         ),
@@ -99,7 +125,7 @@ class _ExerciseScreenState extends ConsumerState<ExerciseScreen> {
               Navigator.pop(context);
               context.pop();
             },
-            child: const Text('Close'),
+            child: const Text('Schließen'),
           ),
           ElevatedButton(
             onPressed: () {
@@ -112,7 +138,7 @@ class _ExerciseScreenState extends ConsumerState<ExerciseScreen> {
                 _answerController.clear();
               });
             },
-            child: const Text('Try Again'),
+            child: const Text('Nochmal versuchen'),
           ),
         ],
       ),

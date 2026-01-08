@@ -5,6 +5,7 @@ import 'package:go_router/go_router.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 import '../../../core/themes/app_colors.dart';
 import '../../../core/themes/app_text_styles.dart';
+import '../../../data/models/mock_test_model.dart';
 import '../../providers/providers.dart';
 
 class HomeScreen extends ConsumerWidget {
@@ -93,7 +94,7 @@ class HomeScreen extends ConsumerWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Your Progress',
+                            'Ihr Fortschritt',
                             style: AppTextStyles.bodyMedium(color: Colors.white70),
                           ),
                           const SizedBox(height: 8),
@@ -102,12 +103,12 @@ class HomeScreen extends ConsumerWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Level ${stats?.currentLevel ?? "A1"}',
+                                  'Stufe ${stats?.currentLevel ?? "A1"}',
                                   style: AppTextStyles.heading2(color: Colors.white),
                                 ),
                                 const SizedBox(height: 4),
                                 Text(
-                                  '${stats?.totalSectionsCompleted ?? 0}/55 sections completed',
+                                  '${stats?.totalSectionsCompleted ?? 0}/55 Lektionen abgeschlossen',
                                   style: AppTextStyles.bodySmall(color: Colors.white70),
                                 ),
                               ],
@@ -127,12 +128,12 @@ class HomeScreen extends ConsumerWidget {
                           ),
                           const SizedBox(height: 16),
                           ElevatedButton(
-                            onPressed: () => context.go('/phases'),
+                            onPressed: () => context.push('/phases'),
                             style: ElevatedButton.styleFrom(
                               backgroundColor: Colors.white,
                               foregroundColor: AppColors.primary,
                             ),
-                            child: const Text('Continue Learning'),
+                            child: const Text('Weiterlernen'),
                           ),
                         ],
                       ),
@@ -166,7 +167,7 @@ class HomeScreen extends ConsumerWidget {
                       icon: Icons.local_fire_department,
                       iconColor: AppColors.accent,
                       value: '${stats?.streak ?? 0}',
-                      label: 'Day Streak',
+                      label: 'Tage Serie',
                       isDarkMode: isDarkMode,
                     ),
                     const SizedBox(width: 12),
@@ -174,7 +175,7 @@ class HomeScreen extends ConsumerWidget {
                       icon: Icons.star,
                       iconColor: AppColors.secondary,
                       value: '${stats?.totalPoints ?? 0}',
-                      label: 'Points',
+                      label: 'Punkte',
                       isDarkMode: isDarkMode,
                     ),
                   ],
@@ -186,14 +187,14 @@ class HomeScreen extends ConsumerWidget {
 
               // Learning Phases
               Text(
-                'Learning Phases',
+                'Lernphasen',
                 style: AppTextStyles.heading4(isDark: isDarkMode),
               ),
               const SizedBox(height: 16),
 
               phasesAsync.when(
                 data: (phases) => Column(
-                  children: phases.map((phase) {
+                  children: phases.expand((phase) {
                     final gradients = [
                       AppColors.phase1Gradient,
                       AppColors.phase2Gradient,
@@ -201,17 +202,28 @@ class HomeScreen extends ConsumerWidget {
                     ];
                     final gradient = gradients[(phase.order - 1) % 3];
 
-                    return Padding(
-                      padding: const EdgeInsets.only(bottom: 16),
-                      child: _PhaseCard(
-                        title: phase.getTitle(userLanguage),
-                        titleDe: phase.title['de'] ?? '',
-                        level: phase.level,
-                        sectionCount: phase.sectionCount,
-                        gradient: gradient,
-                        onTap: () => context.go('/phase/${phase.id}'),
+                    return [
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 16),
+                        child: _PhaseCard(
+                          title: phase.getTitle(userLanguage),
+                          titleDe: phase.title['de'] ?? '',
+                          level: phase.level,
+                          sectionCount: phase.sectionCount,
+                          gradient: gradient,
+                          onTap: () => context.push('/phase/${phase.id}'),
+                        ),
                       ),
-                    );
+                      // Mock Tests card after each phase
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 16),
+                        child: _MockTestsCard(
+                          phaseId: phase.id,
+                          level: phase.level,
+                          isDarkMode: isDarkMode,
+                        ),
+                      ),
+                    ];
                   }).toList(),
                 ),
                 loading: () => const Center(
@@ -350,7 +362,7 @@ class _PhaseCard extends StatelessWidget {
                   ],
                   const SizedBox(height: 8),
                   Text(
-                    '$sectionCount sections',
+                    '$sectionCount Lektionen',
                     style: AppTextStyles.bodySmall(color: Colors.white70),
                   ),
                 ],
@@ -360,6 +372,143 @@ class _PhaseCard extends StatelessWidget {
               Icons.arrow_forward_ios,
               color: Colors.white,
               size: 20,
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _MockTestsCard extends StatelessWidget {
+  final String phaseId;
+  final String level;
+  final bool isDarkMode;
+
+  const _MockTestsCard({
+    required this.phaseId,
+    required this.level,
+    required this.isDarkMode,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: isDarkMode ? Colors.white.withOpacity(0.05) : Colors.grey.shade50,
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(
+          color: isDarkMode ? Colors.white24 : Colors.grey.shade200,
+        ),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Container(
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  color: AppColors.accent.withOpacity(0.1),
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: const Icon(
+                  Icons.quiz,
+                  color: AppColors.accent,
+                  size: 20,
+                ),
+              ),
+              const SizedBox(width: 12),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      '$level Mock Tests',
+                      style: AppTextStyles.bodyLarge(isDark: isDarkMode),
+                    ),
+                    Text(
+                      'FSP & KP Prüfungsvorbereitung',
+                      style: AppTextStyles.bodySmall(isDark: isDarkMode),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 12),
+          Row(
+            children: [
+              Expanded(
+                child: _MockTestButton(
+                  title: 'FSP',
+                  subtitle: 'Fachsprachprüfung',
+                  type: MockTestType.fsp,
+                  testId: '${phaseId}_fsp',
+                  isDarkMode: isDarkMode,
+                ),
+              ),
+              const SizedBox(width: 8),
+              Expanded(
+                child: _MockTestButton(
+                  title: 'KP',
+                  subtitle: 'Kenntnisprüfung',
+                  type: MockTestType.kp,
+                  testId: '${phaseId}_kp',
+                  isDarkMode: isDarkMode,
+                ),
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _MockTestButton extends StatelessWidget {
+  final String title;
+  final String subtitle;
+  final MockTestType type;
+  final String testId;
+  final bool isDarkMode;
+
+  const _MockTestButton({
+    required this.title,
+    required this.subtitle,
+    required this.type,
+    required this.testId,
+    required this.isDarkMode,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final color = type == MockTestType.fsp ? AppColors.primary : AppColors.secondary;
+    
+    return InkWell(
+      onTap: () => context.push('/mock-test/$testId'),
+      borderRadius: BorderRadius.circular(10),
+      child: Container(
+        padding: const EdgeInsets.all(12),
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: [color.withOpacity(0.8), color],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          ),
+          borderRadius: BorderRadius.circular(10),
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              title,
+              style: AppTextStyles.bodyLarge(color: Colors.white),
+            ),
+            Text(
+              subtitle,
+              style: AppTextStyles.bodySmall(color: Colors.white70),
             ),
           ],
         ),

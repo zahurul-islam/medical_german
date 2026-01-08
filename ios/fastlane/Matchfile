@@ -1,0 +1,22 @@
+# Matchfile for MedDeutsch iOS Code Signing
+
+app_identifier(["com.meddeutsch.app"])
+type("appstore") # [appstore, development, adhoc, enterprise]
+
+# Git URL for storing certificates and profiles
+git_url("https://github.com/your-org/ios-certificates.git")
+
+# Optional: Specify a specific branch
+# git_branch("main")
+
+# Optional: Use a readonly mode
+# readonly(true)
+
+# Optional: Specify the username for Git authentication
+# git_basic_authorization(
+#   username: "fastlane",
+#   password: "ENV['GIT_PASSWORD']"
+# )
+
+# For more information about Matchfile options, see:
+# https://docs.fastlane.tools/actions/match/

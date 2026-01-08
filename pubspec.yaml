@@ -54,6 +54,11 @@ dependencies:
   path_provider: ^2.1.5
   collection: ^1.19.1
   url_launcher: ^6.3.1
+  
+  # In-App Purchases
+  in_app_purchase: ^3.2.0
+  in_app_purchase_storekit: ^0.3.18
+  in_app_purchase_android: ^0.3.6+12
 
 dev_dependencies:
   flutter_test:
@@ -180,3 +185,4 @@ flutter:
     - assets/audio/sections/section_55/vocabulary/
     - assets/audio/sections/section_55/dialogues/
     - content/sections/
+    - content/mock_tests/

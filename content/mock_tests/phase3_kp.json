@@ -1,0 +1,527 @@
+{
+  "id": "phase3_kp",
+  "phaseId": "phase3",
+  "type": "kp",
+  "title": {
+    "en": "KP Mock Test - C1 Level",
+    "de": "KP Probeprüfung - C1 Niveau",
+    "bn": "KP মক টেস্ট - C1 স্তর",
+    "hi": "KP मॉक टेस्ट - C1 स्तर",
+    "ur": "KP ماک ٹیسٹ - C1 سطح",
+    "tr": "KP Deneme Sınavı - C1 Seviyesi"
+  },
+  "description": {
+    "en": "Advanced medical knowledge test for professional practice",
+    "de": "Fortgeschrittener medizinischer Wissenstest für die Praxis",
+    "bn": "পেশাদার অনুশীলনের জন্য উন্নত চিকিৎসা জ্ঞান পরীক্ষা",
+    "hi": "पेशेवर अभ्यास के लिए उन्नत चिकित्सा ज्ञान परीक्षा",
+    "ur": "پیشہ ورانہ پریکٹس کے لیے ایڈوانسڈ طبی علم کا امتحان",
+    "tr": "Profesyonel pratik için ileri düzey tıbbi bilgi testi"
+  },
+  "level": "C1",
+  "questionCount": 25,
+  "durationMinutes": 60,
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "p3_kp_01",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist das ABCDE-Schema in der Notfallmedizin?",
+        "en": "What is the ABCDE approach in emergency medicine?"
+      },
+      "options": [
+        "Diagnosemethode",
+        "Primäre Untersuchung/Beurteilung",
+        "Behandlungsprotokoll",
+        "Dokumentationssystem"
+      ],
+      "correctAnswer": "Primäre Untersuchung/Beurteilung",
+      "explanation": {
+        "en": "ABCDE is Airway, Breathing, Circulation, Disability, Exposure.",
+        "de": "ABCDE ist Atemweg, Beatmung, Kreislauf, Disability, Exposition."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_kp_02",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist Sepsis nach aktueller Definition?",
+        "en": "What is sepsis by current definition?"
+      },
+      "options": [
+        "Bakteriämie",
+        "Lebensbedrohliche Organdysfunktion durch Infektion",
+        "Hohes Fieber",
+        "Positive Blutkultur"
+      ],
+      "correctAnswer": "Lebensbedrohliche Organdysfunktion durch Infektion",
+      "explanation": {
+        "en": "Sepsis is life-threatening organ dysfunction from infection.",
+        "de": "Sepsis ist lebensbedrohliche Organdysfunktion durch Infektion."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_kp_03",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Welcher Score wird für Schlaganfall-Risiko bei VHF verwendet?",
+        "en": "Which score is used for stroke risk in atrial fibrillation?"
+      },
+      "options": [
+        "APACHE",
+        "CHA2DS2-VASc",
+        "SOFA",
+        "CURB-65"
+      ],
+      "correctAnswer": "CHA2DS2-VASc",
+      "explanation": {
+        "en": "CHA2DS2-VASc assesses stroke risk in AF.",
+        "de": "CHA2DS2-VASc bewertet das Schlaganfallrisiko bei VHF."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_kp_04",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist die Behandlung bei ST-Hebungs-Infarkt?",
+        "en": "What is the treatment for STEMI?"
+      },
+      "options": [
+        "Antibiotika",
+        "Primäre PCI oder Thrombolyse",
+        "Physiotherapie",
+        "Beobachtung"
+      ],
+      "correctAnswer": "Primäre PCI oder Thrombolyse",
+      "explanation": {
+        "en": "STEMI requires urgent reperfusion: PCI or thrombolysis.",
+        "de": "STEMI erfordert dringende Reperfusion: PCI oder Thrombolyse."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_kp_05",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist der qSOFA-Score?",
+        "en": "What is the qSOFA score?"
+      },
+      "options": [
+        "Herzinsuffizienz-Score",
+        "Schneller Sepsis-Screening-Score",
+        "Niereninsuffizienz-Score",
+        "Demenz-Score"
+      ],
+      "correctAnswer": "Schneller Sepsis-Screening-Score",
+      "explanation": {
+        "en": "qSOFA: GCS<15, RR≤100, RF≥22 - quick sepsis screening.",
+        "de": "qSOFA: schnelles Sepsis-Screening."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_kp_06",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist das Leitsymptom einer Lungenembolie?",
+        "en": "What is the cardinal symptom of pulmonary embolism?"
+      },
+      "options": [
+        "Husten",
+        "Plötzliche Atemnot",
+        "Fieber",
+        "Kopfschmerzen"
+      ],
+      "correctAnswer": "Plötzliche Atemnot",
+      "explanation": {
+        "en": "Sudden dyspnea is the hallmark of PE.",
+        "de": "Plötzliche Atemnot ist das Leitsymptom der LE."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_kp_07",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Welches Antibiotikum ist bei MRSA wirksam?",
+        "en": "Which antibiotic is effective against MRSA?"
+      },
+      "options": [
+        "Penicillin",
+        "Vancomycin",
+        "Amoxicillin",
+        "Cephalexin"
+      ],
+      "correctAnswer": "Vancomycin",
+      "explanation": {
+        "en": "Vancomycin is effective against MRSA.",
+        "de": "Vancomycin ist wirksam gegen MRSA."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_kp_08",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist das Cushing-Reflex?",
+        "en": "What is the Cushing reflex?"
+      },
+      "options": [
+        "Hyperglykämie",
+        "Hypertonie und Bradykardie bei erhöhtem Hirndruck",
+        "Hypotonie",
+        "Tachykardie"
+      ],
+      "correctAnswer": "Hypertonie und Bradykardie bei erhöhtem Hirndruck",
+      "explanation": {
+        "en": "Cushing reflex: HTN + bradycardia from raised ICP.",
+        "de": "Cushing-Reflex: Hypertonie + Bradykardie bei erhöhtem ICP."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_kp_09",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist der NYHA-Klassifikation?",
+        "en": "What is NYHA classification?"
+      },
+      "options": [
+        "Krebsstadien",
+        "Herzinsuffizienz-Schweregrad",
+        "Niereninsuffizienz",
+        "Leberzirrhose"
+      ],
+      "correctAnswer": "Herzinsuffizienz-Schweregrad",
+      "explanation": {
+        "en": "NYHA classifies heart failure severity (I-IV).",
+        "de": "NYHA klassifiziert Herzinsuffizienz-Schweregrad (I-IV)."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_kp_10",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist INR?",
+        "en": "What is INR?"
+      },
+      "options": [
+        "Infektionsmarker",
+        "Gerinnungsparameter",
+        "Nierenmarker",
+        "Herzenzym"
+      ],
+      "correctAnswer": "Gerinnungsparameter",
+      "explanation": {
+        "en": "INR measures coagulation, important for anticoagulation.",
+        "de": "INR misst die Gerinnung, wichtig für Antikoagulation."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_kp_11",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist die Antidot bei Paracetamol-Überdosis?",
+        "en": "What is the antidote for paracetamol overdose?"
+      },
+      "options": [
+        "Naloxon",
+        "N-Acetylcystein",
+        "Flumazenil",
+        "Atropin"
+      ],
+      "correctAnswer": "N-Acetylcystein",
+      "explanation": {
+        "en": "NAC is the antidote for paracetamol/acetaminophen OD.",
+        "de": "NAC ist das Antidot bei Paracetamol-Überdosis."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_kp_12",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was bedeutet ARDS?",
+        "en": "What does ARDS stand for?"
+      },
+      "options": [
+        "Akutes respiratorisches Distress-Syndrom",
+        "Arterielle Rhythmusstörung",
+        "Akute renale Dysfunktion",
+        "Allergische Reaktion"
+      ],
+      "correctAnswer": "Akutes respiratorisches Distress-Syndrom",
+      "explanation": {
+        "en": "ARDS is acute respiratory distress syndrome.",
+        "de": "ARDS ist das akute Atemnotsyndrom."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_kp_13",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist die Initialtherapie bei Kammerflimmern?",
+        "en": "What is the initial treatment for ventricular fibrillation?"
+      },
+      "options": [
+        "Medikamente",
+        "Defibrillation",
+        "Nur CPR",
+        "Intubation"
+      ],
+      "correctAnswer": "Defibrillation",
+      "explanation": {
+        "en": "Immediate defibrillation is the treatment for VF.",
+        "de": "Sofortige Defibrillation ist die Behandlung bei VF."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_kp_14",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist Child-Pugh-Score?",
+        "en": "What is Child-Pugh score?"
+      },
+      "options": [
+        "Herzinsuffizienz",
+        "Leberzirrhose-Schweregrad",
+        "Niereninsuffizienz",
+        "Pankreatitis"
+      ],
+      "correctAnswer": "Leberzirrhose-Schweregrad",
+      "explanation": {
+        "en": "Child-Pugh classifies liver cirrhosis severity.",
+        "de": "Child-Pugh klassifiziert den Schweregrad der Leberzirrhose."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_kp_15",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist das Antidot bei Opioid-Überdosis?",
+        "en": "What is the antidote for opioid overdose?"
+      },
+      "options": [
+        "N-Acetylcystein",
+        "Naloxon",
+        "Flumazenil",
+        "Vitamin K"
+      ],
+      "correctAnswer": "Naloxon",
+      "explanation": {
+        "en": "Naloxone reverses opioid effects.",
+        "de": "Naloxon hebt Opioidwirkungen auf."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_kp_16",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist Dekubitus?",
+        "en": "What is decubitus?"
+      },
+      "options": [
+        "Hautkrebs",
+        "Druckgeschwür",
+        "Hautinfektion",
+        "Allergie"
+      ],
+      "correctAnswer": "Druckgeschwür",
+      "explanation": {
+        "en": "Decubitus is a pressure ulcer/bedsore.",
+        "de": "Dekubitus ist ein Druckgeschwür."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_kp_17",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist die ASA-Klassifikation?",
+        "en": "What is ASA classification?"
+      },
+      "options": [
+        "Schmerzskala",
+        "Präoperatives Risikoassessment",
+        "Krebsstadium",
+        "Infektionsgrad"
+      ],
+      "correctAnswer": "Präoperatives Risikoassessment",
+      "explanation": {
+        "en": "ASA classifies preoperative physical status.",
+        "de": "ASA klassifiziert den präoperativen Status."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_kp_18",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was verursacht Hyperkaliämie am EKG?",
+        "en": "What does hyperkalemia cause on ECG?"
+      },
+      "options": [
+        "ST-Senkung",
+        "Hohe spitze T-Wellen",
+        "Delta-Welle",
+        "J-Welle"
+      ],
+      "correctAnswer": "Hohe spitze T-Wellen",
+      "explanation": {
+        "en": "Hyperkalemia causes tall, peaked T waves.",
+        "de": "Hyperkaliämie verursacht hohe, spitze T-Wellen."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_kp_19",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist DIC?",
+        "en": "What is DIC?"
+      },
+      "options": [
+        "Herzerkrankung",
+        "Disseminierte intravasale Gerinnung",
+        "Diabetes-Komplikation",
+        "Demenz-Typ"
+      ],
+      "correctAnswer": "Disseminierte intravasale Gerinnung",
+      "explanation": {
+        "en": "DIC is disseminated intravascular coagulation.",
+        "de": "DIC ist disseminierte intravasale Gerinnung."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_kp_20",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist die Therapie bei schwerer Hypoglykämie?",
+        "en": "What is the treatment for severe hypoglycemia?"
+      },
+      "options": [
+        "Insulin",
+        "Glukose i.v. oder Glukagon",
+        "Diuretika",
+        "Kalium"
+      ],
+      "correctAnswer": "Glukose i.v. oder Glukagon",
+      "explanation": {
+        "en": "IV glucose or glucagon for severe hypoglycemia.",
+        "de": "Glukose i.v. oder Glukagon bei schwerer Hypoglykämie."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_kp_21",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist Rhabdomyolyse?",
+        "en": "What is rhabdomyolysis?"
+      },
+      "options": [
+        "Knochenabbau",
+        "Muskelzerfall",
+        "Nervenerkrankung",
+        "Gelenkerkrankung"
+      ],
+      "correctAnswer": "Muskelzerfall",
+      "explanation": {
+        "en": "Rhabdomyolysis is muscle breakdown.",
+        "de": "Rhabdomyolyse ist der Zerfall von Muskelgewebe."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_kp_22",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist das Antidot bei Benzodiazepin-Überdosis?",
+        "en": "What is the antidote for benzodiazepine overdose?"
+      },
+      "options": [
+        "Naloxon",
+        "Flumazenil",
+        "NAC",
+        "Atropin"
+      ],
+      "correctAnswer": "Flumazenil",
+      "explanation": {
+        "en": "Flumazenil reverses benzodiazepine effects.",
+        "de": "Flumazenil hebt Benzodiazepinwirkungen auf."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_kp_23",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist das Wells-Score?",
+        "en": "What is the Wells score?"
+      },
+      "options": [
+        "Herzinfarkt-Risiko",
+        "Lungenembolie/TVT-Wahrscheinlichkeit",
+        "Niereninsuffizienz",
+        "Demenz-Schwere"
+      ],
+      "correctAnswer": "Lungenembolie/TVT-Wahrscheinlichkeit",
+      "explanation": {
+        "en": "Wells score assesses PE/DVT probability.",
+        "de": "Wells-Score bewertet LE/TVT-Wahrscheinlichkeit."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_kp_24",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist Tensionspneumothorax?",
+        "en": "What is tension pneumothorax?"
+      },
+      "options": [
+        "Lungenödem",
+        "Lebensbedrohlicher Pneumothorax mit Mediastinalverschiebung",
+        "Pleuraerguss",
+        "Lungenentzündung"
+      ],
+      "correctAnswer": "Lebensbedrohlicher Pneumothorax mit Mediastinalverschiebung",
+      "explanation": {
+        "en": "Tension pneumothorax is a life-threatening emergency.",
+        "de": "Tensionspneumothorax ist ein lebensbedrohlicher Notfall."
+      },
+      "points": 1
+    },
+    {
+      "id": "p3_kp_25",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist PEEP in der Beatmung?",
+        "en": "What is PEEP in ventilation?"
+      },
+      "options": [
+        "Spitzendruck",
+        "Positiver endexspiratorischer Druck",
+        "Plateaudruck",
+        "Pulsdruck"
+      ],
+      "correctAnswer": "Positiver endexspiratorischer Druck",
+      "explanation": {
+        "en": "PEEP keeps alveoli open at end of expiration.",
+        "de": "PEEP hält Alveolen am Ende der Ausatmung offen."
+      },
+      "points": 1
+    }
+  ]
+}

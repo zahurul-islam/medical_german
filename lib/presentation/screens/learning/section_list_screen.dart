@@ -5,6 +5,7 @@ import 'package:go_router/go_router.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
 import '../../../core/themes/app_colors.dart';
 import '../../../core/themes/app_text_styles.dart';
+import '../../../l10n/generated/app_localizations.dart';
 import '../../providers/providers.dart';
 
 class SectionListScreen extends ConsumerWidget {
@@ -21,14 +22,14 @@ class SectionListScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Sections', style: TextStyle(color: textColor)),
+        title: Text(AppLocalizations.of(context)?.sections ?? 'Sections', style: TextStyle(color: textColor)),
         leading: IconButton(
           icon: Icon(Icons.arrow_back, color: textColor),
           onPressed: () {
             if (Navigator.canPop(context)) {
               Navigator.pop(context);
             } else {
-              context.go('/phases');
+              context.go('/home');
             }
           },
         ),
@@ -60,7 +61,7 @@ class SectionListScreen extends ConsumerWidget {
                   loading: () => false,
                   error: (_, __) => false,
                 ),
-                onTap: () => context.go('/section/${section.id}'),
+                onTap: () => context.push('/section/${section.id}'),
               ),
             );
           },

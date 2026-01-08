@@ -16,6 +16,8 @@ import '../../presentation/screens/learning/vocabulary_screen.dart';
 import '../../presentation/screens/practice/exercise_screen.dart';
 import '../../presentation/screens/progress/progress_screen.dart';
 import '../../presentation/screens/settings/settings_screen.dart';
+import '../../presentation/screens/mock_test/mock_test_screen.dart';
+import '../../presentation/screens/subscription/subscription_screen.dart';
 
 final routerProvider = Provider<GoRouter>((ref) {
   return GoRouter(
@@ -106,6 +108,19 @@ final routerProvider = Provider<GoRouter>((ref) {
         path: '/settings',
         name: 'settings',
         builder: (context, state) => const SettingsScreen(),
+      ),
+      GoRoute(
+        path: '/mock-test/:testId',
+        name: 'mock-test',
+        builder: (context, state) {
+          final testId = state.pathParameters['testId']!;
+          return MockTestScreen(testId: testId);
+        },
+      ),
+      GoRoute(
+        path: '/subscription',
+        name: 'subscription',
+        builder: (context, state) => const SubscriptionScreen(),
       ),
     ],
     redirect: (context, state) async {

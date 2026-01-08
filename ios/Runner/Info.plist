@@ -45,6 +45,8 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>This app may use audio for medical German learning content.</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>

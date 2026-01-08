@@ -2,6 +2,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/services/preferences_service.dart';
+import '../../core/services/subscription_service.dart';
 import '../../data/repositories/auth_repository.dart';
 import '../../data/repositories/content_repository.dart';
 import '../../data/repositories/progress_repository.dart';
@@ -232,4 +233,21 @@ final sectionProgressProvider = FutureProvider.family<ProgressModel?, String>((r
     loading: () => null,
     error: (_, __) => null,
   );
+});
+
+// Subscription provider
+final subscriptionServiceProvider = Provider<SubscriptionService>((ref) {
+  return SubscriptionService.instance;
+});
+
+// Premium status provider
+final isPremiumProvider = Provider<bool>((ref) {
+  final subscriptionService = ref.watch(subscriptionServiceProvider);
+  return subscriptionService.isPremium;
+});
+
+// Subscription status provider
+final subscriptionStatusProvider = Provider<SubscriptionStatus>((ref) {
+  final subscriptionService = ref.watch(subscriptionServiceProvider);
+  return subscriptionService.status;
 });

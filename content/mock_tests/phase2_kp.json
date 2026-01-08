@@ -1,0 +1,427 @@
+{
+  "id": "phase2_kp",
+  "phaseId": "phase2",
+  "type": "kp",
+  "title": {
+    "en": "KP Mock Test - B1-B2 Level",
+    "de": "KP Probeprüfung - B1-B2 Niveau",
+    "bn": "KP মক টেস্ট - B1-B2 স্তর",
+    "hi": "KP मॉक टेस्ट - B1-B2 स्तर",
+    "ur": "KP ماک ٹیسٹ - B1-B2 سطح",
+    "tr": "KP Deneme Sınavı - B1-B2 Seviyesi"
+  },
+  "description": {
+    "en": "Test your intermediate medical knowledge",
+    "de": "Testen Sie Ihr medizinisches Wissen auf mittlerem Niveau",
+    "bn": "আপনার মধ্যবর্তী স্তরের চিকিৎসা জ্ঞান পরীক্ষা করুন",
+    "hi": "अपने मध्यवर्ती चिकित्सा ज्ञान का परीक्षण करें",
+    "ur": "اپنے درمیانی درجے کے طبی علم کی جانچ کریں",
+    "tr": "Orta düzey tıbbi bilginizi test edin"
+  },
+  "level": "B1-B2",
+  "questionCount": 20,
+  "durationMinutes": 45,
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "p2_kp_01",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist die häufigste Ursache für Myokardinfarkt?",
+        "en": "What is the most common cause of myocardial infarction?"
+      },
+      "options": [
+        "Atherosklerose mit Plaqueruptur",
+        "Virusinfektion",
+        "Autoimmunerkrankung",
+        "Allergische Reaktion"
+      ],
+      "correctAnswer": "Atherosklerose mit Plaqueruptur",
+      "explanation": {
+        "en": "Atherosclerosis and plaque rupture is the main cause of myocardial infarction.",
+        "de": "Atherosklerose und Plaqueruptur sind die Hauptursachen für einen Myokardinfarkt."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_kp_02",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist das klassische EKG-Zeichen beim akuten STEMI?",
+        "en": "What is the classic ECG sign in acute STEMI?"
+      },
+      "options": [
+        "ST-Senkung",
+        "ST-Hebung",
+        "T-Wellen-Inversion",
+        "Verlängertes QT-Intervall"
+      ],
+      "correctAnswer": "ST-Hebung",
+      "explanation": {
+        "en": "ST elevation is the hallmark of STEMI (ST-Elevation Myocardial Infarction).",
+        "de": "Die ST-Hebung ist das Kennzeichen eines STEMI (ST-Hebungsinfarkt)."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_kp_03",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Welches Medikament ist die Erstlinientherapie beim akuten Asthmaanfall?",
+        "en": "Which medication is first-line for acute asthma attack?"
+      },
+      "options": [
+        "Kortikosteroide",
+        "Beta-2-Sympathomimetika (z.B. Salbutamol)",
+        "Theophyllin",
+        "Antibiotika"
+      ],
+      "correctAnswer": "Beta-2-Sympathomimetika (z.B. Salbutamol)",
+      "explanation": {
+        "en": "Beta-2 agonists like Salbutamol are first-line treatment for acute asthma.",
+        "de": "Beta-2-Agonisten wie Salbutamol sind die erste Wahl bei akutem Asthma."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_kp_04",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist Appendizitis?",
+        "en": "What is appendicitis?"
+      },
+      "options": [
+        "Entzündung des Magens",
+        "Entzündung des Blinddarms",
+        "Entzündung der Gallenblase",
+        "Entzündung der Bauchspeicheldrüse"
+      ],
+      "correctAnswer": "Entzündung des Blinddarms",
+      "explanation": {
+        "en": "Appendicitis is inflammation of the appendix (Blinddarm).",
+        "de": "Appendizitis ist die Entzündung des Blinddarms (Appendix vermiformis)."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_kp_05",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Welches klinische Zeichen ist typisch für einen Schlaganfall?",
+        "en": "Which clinical sign is typical for stroke?"
+      },
+      "options": [
+        "Beidseitige Lähmung der Beine",
+        "Halbseitige Lähmung (Hemiparese)",
+        "Symmetrische Muskelschwäche",
+        "Tremor der Hände"
+      ],
+      "correctAnswer": "Halbseitige Lähmung (Hemiparese)",
+      "explanation": {
+        "en": "Hemiparesis (one-sided weakness) is a hallmark of stroke.",
+        "de": "Hemiparese (halbseitige Lähmung) ist ein Kennzeichen des Schlaganfalls."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_kp_06",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist COPD?",
+        "en": "What is COPD?"
+      },
+      "options": [
+        "Akute Lungenentzündung",
+        "Chronisch obstruktive Lungenerkrankung",
+        "Lungenembolie",
+        "Lungenfibrose"
+      ],
+      "correctAnswer": "Chronisch obstruktive Lungenerkrankung",
+      "explanation": {
+        "en": "COPD stands for Chronic Obstructive Pulmonary Disease.",
+        "de": "COPD steht für chronisch obstruktive Lungenerkrankung."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_kp_07",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Welcher Laborwert zeigt die Nierenfunktion an?",
+        "en": "Which lab value indicates kidney function?"
+      },
+      "options": [
+        "Troponin",
+        "Kreatinin",
+        "Bilirubin",
+        "Lipase"
+      ],
+      "correctAnswer": "Kreatinin",
+      "explanation": {
+        "en": "Creatinine and GFR are key indicators of kidney function.",
+        "de": "Kreatinin und GFR sind wichtige Indikatoren für die Nierenfunktion."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_kp_08",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist die Erstbehandlung bei anaphylaktischem Schock?",
+        "en": "What is the first-line treatment for anaphylactic shock?"
+      },
+      "options": [
+        "Antihistaminika",
+        "Adrenalin (Epinephrin) i.m.",
+        "Kortikosteroide",
+        "Volumenersatz"
+      ],
+      "correctAnswer": "Adrenalin (Epinephrin) i.m.",
+      "explanation": {
+        "en": "Intramuscular adrenaline is the first-line treatment for anaphylaxis.",
+        "de": "Intramuskuläres Adrenalin ist die Erstbehandlung bei Anaphylaxie."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_kp_09",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist Pneumonie?",
+        "en": "What is pneumonia?"
+      },
+      "options": [
+        "Entzündung der Bronchien",
+        "Entzündung des Lungengewebes",
+        "Entzündung der Luftröhre",
+        "Entzündung der Pleura"
+      ],
+      "correctAnswer": "Entzündung des Lungengewebes",
+      "explanation": {
+        "en": "Pneumonia is an infection and inflammation of the lung tissue.",
+        "de": "Pneumonie ist eine Infektion und Entzündung des Lungengewebes."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_kp_10",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Welcher Test zeigt die langfristige Blutzuckerkontrolle bei Diabetes?",
+        "en": "Which test shows long-term blood sugar control in diabetes?"
+      },
+      "options": [
+        "Nüchternblutzucker",
+        "HbA1c",
+        "Oraler Glukosetoleranztest",
+        "Urinzucker"
+      ],
+      "correctAnswer": "HbA1c",
+      "explanation": {
+        "en": "HbA1c shows the average blood sugar level over 2-3 months.",
+        "de": "HbA1c zeigt den durchschnittlichen Blutzucker über 2-3 Monate an."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_kp_11",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was sind typische Symptome einer Hyperthyreose?",
+        "en": "What are typical symptoms of hyperthyroidism?"
+      },
+      "options": [
+        "Gewichtszunahme, Müdigkeit, Kälteempfindlichkeit",
+        "Gewichtsverlust, Tachykardie, Nervosität",
+        "Verstopfung, trockene Haut, Haarausfall",
+        "Ödeme, Bradykardie, Heiserkeit"
+      ],
+      "correctAnswer": "Gewichtsverlust, Tachykardie, Nervosität",
+      "explanation": {
+        "en": "Hyperthyroidism causes weight loss, rapid heart rate, and anxiety.",
+        "de": "Hyperthyreose verursacht Gewichtsverlust, Tachykardie und Nervosität."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_kp_12",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was misst die Glasgow Coma Scale (GCS)?",
+        "en": "What does the Glasgow Coma Scale (GCS) measure?"
+      },
+      "options": [
+        "Schmerzintensität",
+        "Bewusstseinslage",
+        "Blutdruck",
+        "Atemfrequenz"
+      ],
+      "correctAnswer": "Bewusstseinslage",
+      "explanation": {
+        "en": "GCS measures level of consciousness on a scale of 3-15.",
+        "de": "Die GCS misst das Bewusstseinsniveau auf einer Skala von 3-15."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_kp_13",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Welche Erkrankung verursacht Ikterus (Gelbsucht)?",
+        "en": "Which condition causes jaundice (Ikterus)?"
+      },
+      "options": [
+        "Nierenerkrankung",
+        "Lebererkrankung",
+        "Herzerkrankung",
+        "Lungenerkrankung"
+      ],
+      "correctAnswer": "Lebererkrankung",
+      "explanation": {
+        "en": "Liver disease causes bilirubin buildup and jaundice.",
+        "de": "Lebererkrankungen verursachen Bilirubinerhöhung und Gelbsucht."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_kp_14",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist der normale pH-Wert des Blutes?",
+        "en": "What is the normal blood pH?"
+      },
+      "options": [
+        "7,00-7,20",
+        "7,35-7,45",
+        "7,50-7,60",
+        "6,80-7,00"
+      ],
+      "correctAnswer": "7,35-7,45",
+      "explanation": {
+        "en": "Normal arterial blood pH is 7.35-7.45.",
+        "de": "Der normale arterielle Blut-pH liegt bei 7,35-7,45."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_kp_15",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist eine tiefe Venenthrombose (TVT)?",
+        "en": "What is deep vein thrombosis (DVT)?"
+      },
+      "options": [
+        "Blutgerinnsel in einer tiefen Vene",
+        "Entzündung einer oberflächlichen Vene",
+        "Verstopfung einer Arterie",
+        "Krampfader"
+      ],
+      "correctAnswer": "Blutgerinnsel in einer tiefen Vene",
+      "explanation": {
+        "en": "DVT is a blood clot in a deep vein, usually in the leg.",
+        "de": "Eine TVT ist ein Blutgerinnsel in einer tiefen Vene, meist im Bein."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_kp_16",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Welches klinische Zeichen ist typisch für Meningitis?",
+        "en": "Which clinical sign is typical for meningitis?"
+      },
+      "options": [
+        "Babinski-Zeichen",
+        "Meningismus (Nackensteifigkeit)",
+        "Romberg-Zeichen",
+        "Trendelenburg-Zeichen"
+      ],
+      "correctAnswer": "Meningismus (Nackensteifigkeit)",
+      "explanation": {
+        "en": "Neck stiffness (meningismus) indicates meningeal irritation.",
+        "de": "Nackensteifigkeit (Meningismus) zeigt eine meningeale Reizung an."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_kp_17",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist Hyponatriämie?",
+        "en": "What is hyponatremia?"
+      },
+      "options": [
+        "Erhöhter Natriumspiegel im Blut",
+        "Erniedrigter Natriumspiegel im Blut",
+        "Erhöhter Kaliumspiegel im Blut",
+        "Erniedrigter Kaliumspiegel im Blut"
+      ],
+      "correctAnswer": "Erniedrigter Natriumspiegel im Blut",
+      "explanation": {
+        "en": "Hyponatremia is low sodium level in the blood (<135 mmol/L).",
+        "de": "Hyponatriämie ist ein niedriger Natriumspiegel im Blut (<135 mmol/L)."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_kp_18",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was sind typische Symptome einer Hypothyreose?",
+        "en": "What are typical symptoms of hypothyroidism?"
+      },
+      "options": [
+        "Gewichtsverlust, Schwitzen, Nervosität",
+        "Gewichtszunahme, Müdigkeit, Kälteempfindlichkeit",
+        "Fieber, Tachykardie, Tremor",
+        "Durchfall, Haarausfall, Exophthalmus"
+      ],
+      "correctAnswer": "Gewichtszunahme, Müdigkeit, Kälteempfindlichkeit",
+      "explanation": {
+        "en": "Hypothyroidism causes weight gain, fatigue, and cold intolerance.",
+        "de": "Hypothyreose verursacht Gewichtszunahme, Müdigkeit und Kälteempfindlichkeit."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_kp_19",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Welche Untersuchung ist der Goldstandard für die Diagnose einer Lungenembolie?",
+        "en": "What is the gold standard test for diagnosing pulmonary embolism?"
+      },
+      "options": [
+        "Röntgen-Thorax",
+        "CT-Angiographie der Pulmonalarterien",
+        "D-Dimer-Test",
+        "EKG"
+      ],
+      "correctAnswer": "CT-Angiographie der Pulmonalarterien",
+      "explanation": {
+        "en": "CT pulmonary angiography is the gold standard for PE diagnosis.",
+        "de": "Die CT-Angiographie ist der Goldstandard für die Diagnose einer Lungenembolie."
+      },
+      "points": 1
+    },
+    {
+      "id": "p2_kp_20",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was zeigt ein erhöhter Troponin-Wert an?",
+        "en": "What does elevated troponin indicate?"
+      },
+      "options": [
+        "Nierenschaden",
+        "Herzmuskelschaden",
+        "Leberschaden",
+        "Muskelerkrankung"
+      ],
+      "correctAnswer": "Herzmuskelschaden",
+      "explanation": {
+        "en": "Elevated troponin indicates cardiac muscle damage, typical in myocardial infarction.",
+        "de": "Erhöhtes Troponin zeigt Herzmuskelschaden an, typisch bei Myokardinfarkt."
+      },
+      "points": 1
+    }
+  ]
+}

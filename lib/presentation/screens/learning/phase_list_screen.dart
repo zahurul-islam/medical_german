@@ -4,6 +4,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import '../../../core/themes/app_colors.dart';
 import '../../../core/themes/app_text_styles.dart';
+import '../../../data/models/mock_test_model.dart';
+import '../../../l10n/generated/app_localizations.dart';
 import '../../providers/providers.dart';
 
 class PhaseListScreen extends ConsumerWidget {
@@ -18,7 +20,7 @@ class PhaseListScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Learning Phases', style: TextStyle(color: textColor)),
+        title: Text(AppLocalizations.of(context)?.learningPhases ?? 'Learning Phases', style: TextStyle(color: textColor)),
         leading: IconButton(
           icon: Icon(Icons.arrow_back, color: textColor),
           onPressed: () {
@@ -33,9 +35,12 @@ class PhaseListScreen extends ConsumerWidget {
       body: phasesAsync.when(
         data: (phases) => ListView.builder(
           padding: const EdgeInsets.all(20),
-          itemCount: phases.length,
+          itemCount: phases.length * 2, // Phase + Mock tests for each
           itemBuilder: (context, index) {
-            final phase = phases[index];
+            final phaseIndex = index ~/ 2;
+            final isMockTest = index % 2 == 1;
+            final phase = phases[phaseIndex];
+            
             final gradients = [
               AppColors.phase1Gradient,
               AppColors.phase2Gradient,
@@ -47,6 +52,18 @@ class PhaseListScreen extends ConsumerWidget {
               Icons.workspace_premium,
             ];
 
+            if (isMockTest) {
+              // Show mock test cards for this phase
+              return Padding(
+                padding: const EdgeInsets.only(bottom: 20),
+                child: _MockTestsCard(
+                  phaseId: phase.id,
+                  level: phase.level,
+                  isDarkMode: isDarkMode,
+                ),
+              );
+            }
+
             return Padding(
               padding: const EdgeInsets.only(bottom: 20),
               child: _PhaseDetailCard(
@@ -54,9 +71,9 @@ class PhaseListScreen extends ConsumerWidget {
                 description: phase.getDescription(userLanguage),
                 level: phase.level,
                 sectionCount: phase.sectionCount,
-                icon: icons[index % 3],
-                gradient: gradients[index % 3],
-                onTap: () => context.go('/phase/${phase.id}'),
+                icon: icons[phaseIndex % 3],
+                gradient: gradients[phaseIndex % 3],
+                onTap: () => context.push('/phase/${phase.id}'),
               ),
             );
           },
@@ -232,6 +249,155 @@ class _PhaseDetailCard extends StatelessWidget {
                   ),
                 ],
               ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _MockTestsCard extends ConsumerWidget {
+  final String phaseId;
+  final String level;
+  final bool isDarkMode;
+
+  const _MockTestsCard({
+    required this.phaseId,
+    required this.level,
+    required this.isDarkMode,
+  });
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    return Container(
+      padding: const EdgeInsets.all(20),
+      decoration: BoxDecoration(
+        color: isDarkMode ? Colors.white.withOpacity(0.05) : Colors.grey.shade50,
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(
+          color: isDarkMode ? Colors.white24 : Colors.grey.shade200,
+        ),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Container(
+                padding: const EdgeInsets.all(10),
+                decoration: BoxDecoration(
+                  color: AppColors.accent.withOpacity(0.1),
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: const Icon(
+                  Icons.quiz,
+                  color: AppColors.accent,
+                  size: 24,
+                ),
+              ),
+              const SizedBox(width: 12),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      '$level Mock Tests',
+                      style: AppTextStyles.heading4(isDark: isDarkMode),
+                    ),
+                    Text(
+                      'FSP & KP Exam Preparation',
+                      style: AppTextStyles.bodySmall(isDark: isDarkMode),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 16),
+          Row(
+            children: [
+              Expanded(
+                child: _MockTestButton(
+                  title: 'FSP',
+                  subtitle: 'Language Exam',
+                  type: MockTestType.fsp,
+                  testId: '${phaseId}_fsp',
+                  isDarkMode: isDarkMode,
+                ),
+              ),
+              const SizedBox(width: 12),
+              Expanded(
+                child: _MockTestButton(
+                  title: 'KP',
+                  subtitle: 'Knowledge Exam',
+                  type: MockTestType.kp,
+                  testId: '${phaseId}_kp',
+                  isDarkMode: isDarkMode,
+                ),
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _MockTestButton extends StatelessWidget {
+  final String title;
+  final String subtitle;
+  final MockTestType type;
+  final String testId;
+  final bool isDarkMode;
+
+  const _MockTestButton({
+    required this.title,
+    required this.subtitle,
+    required this.type,
+    required this.testId,
+    required this.isDarkMode,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final color = type == MockTestType.fsp ? AppColors.primary : AppColors.secondary;
+    
+    return InkWell(
+      onTap: () => context.push('/mock-test/$testId'),
+      borderRadius: BorderRadius.circular(12),
+      child: Container(
+        padding: const EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: [color.withOpacity(0.8), color],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          ),
+          borderRadius: BorderRadius.circular(12),
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              title,
+              style: AppTextStyles.heading4(color: Colors.white),
+            ),
+            const SizedBox(height: 4),
+            Text(
+              subtitle,
+              style: AppTextStyles.bodySmall(color: Colors.white70),
+            ),
+            const SizedBox(height: 8),
+            Row(
+              children: [
+                Text(
+                  'Start Test',
+                  style: AppTextStyles.bodySmall(color: Colors.white),
+                ),
+                const SizedBox(width: 4),
+                const Icon(Icons.arrow_forward, size: 14, color: Colors.white),
+              ],
             ),
           ],
         ),

@@ -6,3 +6,4 @@ export 'vocabulary_model.dart';
 export 'dialogue_model.dart';
 export 'exercise_model.dart';
 export 'progress_model.dart';
+export 'mock_test_model.dart';

@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'app.dart';
 import 'core/firebase/firebase_options.dart';
+import 'core/services/subscription_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -16,6 +17,13 @@ void main() async {
   } catch (e) {
     // Print error and continue without Firebase for debugging
     debugPrint('Firebase initialization failed: $e');
+  }
+  
+  // Initialize subscription service
+  try {
+    await SubscriptionService.instance.initialize();
+  } catch (e) {
+    debugPrint('Subscription service initialization failed: $e');
   }
   
   runApp(

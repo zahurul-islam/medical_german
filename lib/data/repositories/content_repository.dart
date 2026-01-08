@@ -1029,4 +1029,43 @@ class ContentRepository {
 
     return results;
   }
+
+  // Mock test cache
+  final Map<String, MockTestModel> _mockTestCache = {};
+
+  /// Get all mock tests for a phase
+  Future<List<MockTestModel>> getMockTestsByPhase(String phaseId) async {
+    final tests = <MockTestModel>[];
+    
+    // Try to load FSP test
+    final fspTest = await getMockTest('${phaseId}_fsp');
+    if (fspTest != null) tests.add(fspTest);
+    
+    // Try to load KP test
+    final kpTest = await getMockTest('${phaseId}_kp');
+    if (kpTest != null) tests.add(kpTest);
+    
+    return tests;
+  }
+
+  /// Get a specific mock test by ID
+  Future<MockTestModel?> getMockTest(String testId) async {
+    // Return from cache if available
+    if (_mockTestCache.containsKey(testId)) {
+      return _mockTestCache[testId];
+    }
+
+    try {
+      final path = 'content/mock_tests/$testId.json';
+      print('Loading mock test from: $path');
+      final jsonString = await rootBundle.loadString(path);
+      final data = json.decode(jsonString) as Map<String, dynamic>;
+      final test = MockTestModel.fromJson(data);
+      _mockTestCache[testId] = test;
+      return test;
+    } catch (e) {
+      print('Error loading mock test $testId: $e');
+      return null;
+    }
+  }
 }

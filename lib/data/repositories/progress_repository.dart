@@ -222,6 +222,9 @@ class ProgressRepository {
 
   /// Get user statistics
   Future<UserStatsModel> getUserStats(String userId) async {
+    // Update streak first
+    await updateStreak(userId);
+    
     final userDoc = await _firestore.collection('users').doc(userId).get();
     final progressDocs = await _firestore
         .collection('users')
@@ -239,6 +242,10 @@ class ProgressRepository {
     }
 
     final userData = userDoc.data() ?? {};
+    
+    // Also add user-level points if stored separately
+    final userTotalPoints = (userData['totalPoints'] as int?) ?? 0;
+    totalPoints += userTotalPoints;
 
     return UserStatsModel(
       totalSectionsCompleted: completed,
@@ -346,5 +353,69 @@ class ProgressRepository {
     await _firestore.collection('users').doc(userId).update({
       'currentLevel': newLevel,
     });
+  }
+
+  /// Update streak when user opens the app
+  Future<void> updateStreak(String userId) async {
+    final userDoc = await _firestore.collection('users').doc(userId).get();
+    final userData = userDoc.data() ?? {};
+    
+    final lastActiveTimestamp = userData['lastActiveDate'] as Timestamp?;
+    final currentStreak = userData['streak'] as int? ?? 0;
+    
+    final now = DateTime.now();
+    final today = DateTime(now.year, now.month, now.day);
+    
+    if (lastActiveTimestamp != null) {
+      final lastActiveDate = lastActiveTimestamp.toDate();
+      final lastActive = DateTime(lastActiveDate.year, lastActiveDate.month, lastActiveDate.day);
+      final difference = today.difference(lastActive).inDays;
+      
+      if (difference == 0) {
+        // Already active today, no change
+        return;
+      } else if (difference == 1) {
+        // Consecutive day - increment streak
+        await _firestore.collection('users').doc(userId).update({
+          'streak': currentStreak + 1,
+          'lastActiveDate': FieldValue.serverTimestamp(),
+        });
+      } else {
+        // Streak broken - reset to 1
+        await _firestore.collection('users').doc(userId).update({
+          'streak': 1,
+          'lastActiveDate': FieldValue.serverTimestamp(),
+        });
+      }
+    } else {
+      // First time user - start streak at 1
+      await _firestore.collection('users').doc(userId).set({
+        'streak': 1,
+        'lastActiveDate': FieldValue.serverTimestamp(),
+      }, SetOptions(merge: true));
+    }
+  }
+
+  /// Add points to user
+  Future<void> addPoints(String userId, int points) async {
+    await _firestore.collection('users').doc(userId).set({
+      'totalPoints': FieldValue.increment(points),
+    }, SetOptions(merge: true));
+  }
+
+  /// Get total points from all progress
+  Future<int> getTotalPoints(String userId) async {
+    final progressDocs = await _firestore
+        .collection('users')
+        .doc(userId)
+        .collection('progress')
+        .get();
+
+    int totalPoints = 0;
+    for (final doc in progressDocs.docs) {
+      final data = doc.data();
+      totalPoints += (data['totalPoints'] as int?) ?? 0;
+    }
+    return totalPoints;
   }
 }

@@ -1,0 +1,427 @@
+{
+  "id": "phase1_kp",
+  "phaseId": "phase1",
+  "type": "kp",
+  "title": {
+    "en": "KP Mock Test - A1-A2 Level",
+    "de": "KP Probeprüfung - A1-A2 Niveau",
+    "bn": "KP মক টেস্ট - A1-A2 স্তর",
+    "hi": "KP मॉक टेस्ट - A1-A2 स्तर",
+    "ur": "KP ماک ٹیسٹ - A1-A2 سطح",
+    "tr": "KP Deneme Sınavı - A1-A2 Seviyesi"
+  },
+  "description": {
+    "en": "Test your basic medical knowledge at the foundation level",
+    "de": "Testen Sie Ihr medizinisches Grundwissen",
+    "bn": "ভিত্তি স্তরে আপনার মৌলিক চিকিৎসা জ্ঞান পরীক্ষা করুন",
+    "hi": "नींव स्तर पर अपने बुनियादी चिकित्सा ज्ञान का परीक्षण करें",
+    "ur": "بنیادی سطح پر اپنے بنیادی طبی علم کی جانچ کریں",
+    "tr": "Temel seviyede temel tıbbi bilginizi test edin"
+  },
+  "level": "A1-A2",
+  "questionCount": 20,
+  "durationMinutes": 30,
+  "passingScore": 60,
+  "questions": [
+    {
+      "id": "p1_kp_01",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Wie viele Kammern hat das menschliche Herz?",
+        "en": "How many chambers does the human heart have?"
+      },
+      "options": [
+        "2 Kammern",
+        "3 Kammern",
+        "4 Kammern",
+        "5 Kammern"
+      ],
+      "correctAnswer": "4 Kammern",
+      "explanation": {
+        "en": "The heart has 4 chambers: 2 atria and 2 ventricles.",
+        "de": "Das Herz hat 4 Kammern: 2 Vorhöfe und 2 Ventrikel."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_kp_02",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist die normale Körpertemperatur?",
+        "en": "What is the normal body temperature?"
+      },
+      "options": [
+        "35,0-36,0 °C",
+        "36,5-37,5 °C",
+        "38,0-39,0 °C",
+        "34,0-35,0 °C"
+      ],
+      "correctAnswer": "36,5-37,5 °C",
+      "explanation": {
+        "en": "Normal body temperature is approximately 36.5-37.5°C.",
+        "de": "Die normale Körpertemperatur beträgt etwa 36,5-37,5°C."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_kp_03",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Welches Organ produziert Insulin?",
+        "en": "Which organ produces insulin?"
+      },
+      "options": [
+        "die Leber",
+        "die Niere",
+        "die Bauchspeicheldrüse",
+        "die Milz"
+      ],
+      "correctAnswer": "die Bauchspeicheldrüse",
+      "explanation": {
+        "en": "The pancreas (Bauchspeicheldrüse) produces insulin.",
+        "de": "Die Bauchspeicheldrüse produziert Insulin."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_kp_04",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist der normale Blutdruck für einen Erwachsenen?",
+        "en": "What is normal blood pressure for an adult?"
+      },
+      "options": [
+        "90/60 mmHg",
+        "120/80 mmHg",
+        "140/90 mmHg",
+        "160/100 mmHg"
+      ],
+      "correctAnswer": "120/80 mmHg",
+      "explanation": {
+        "en": "Normal blood pressure is around 120/80 mmHg.",
+        "de": "Der normale Blutdruck liegt bei etwa 120/80 mmHg."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_kp_05",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Welches Blutgefäß führt sauerstoffreiches Blut vom Herzen weg?",
+        "en": "Which blood vessel carries oxygen-rich blood away from the heart?"
+      },
+      "options": [
+        "die Vene",
+        "die Arterie",
+        "die Kapillare",
+        "die Lymphbahn"
+      ],
+      "correctAnswer": "die Arterie",
+      "explanation": {
+        "en": "Arteries carry oxygen-rich blood away from the heart.",
+        "de": "Arterien führen sauerstoffreiches Blut vom Herzen weg."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_kp_06",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Wie viele Knochen hat ein erwachsener Mensch?",
+        "en": "How many bones does an adult human have?"
+      },
+      "options": [
+        "etwa 106 Knochen",
+        "etwa 156 Knochen",
+        "etwa 206 Knochen",
+        "etwa 256 Knochen"
+      ],
+      "correctAnswer": "etwa 206 Knochen",
+      "explanation": {
+        "en": "An adult human has 206 bones.",
+        "de": "Ein erwachsener Mensch hat 206 Knochen."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_kp_07",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist die Funktion der roten Blutkörperchen?",
+        "en": "What is the function of red blood cells?"
+      },
+      "options": [
+        "Infektionen bekämpfen",
+        "Sauerstoff transportieren",
+        "Blut gerinnen lassen",
+        "Hormone produzieren"
+      ],
+      "correctAnswer": "Sauerstoff transportieren",
+      "explanation": {
+        "en": "Red blood cells transport oxygen throughout the body.",
+        "de": "Rote Blutkörperchen transportieren Sauerstoff im Körper."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_kp_08",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Welches Organ ist für die Entgiftung zuständig?",
+        "en": "Which organ is responsible for detoxification?"
+      },
+      "options": [
+        "die Lunge",
+        "das Herz",
+        "die Leber",
+        "die Niere"
+      ],
+      "correctAnswer": "die Leber",
+      "explanation": {
+        "en": "The liver is the main organ for detoxification.",
+        "de": "Die Leber ist das Hauptorgan für die Entgiftung."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_kp_09",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist die normale Herzfrequenz in Ruhe?",
+        "en": "What is the normal resting heart rate?"
+      },
+      "options": [
+        "40-60 Schläge pro Minute",
+        "60-100 Schläge pro Minute",
+        "100-120 Schläge pro Minute",
+        "120-140 Schläge pro Minute"
+      ],
+      "correctAnswer": "60-100 Schläge pro Minute",
+      "explanation": {
+        "en": "Normal resting heart rate is 60-100 beats per minute.",
+        "de": "Die normale Ruheherzfrequenz beträgt 60-100 Schläge pro Minute."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_kp_10",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Welcher Teil des Gehirns kontrolliert das Gleichgewicht?",
+        "en": "Which part of the brain controls balance?"
+      },
+      "options": [
+        "das Großhirn",
+        "das Kleinhirn",
+        "der Hirnstamm",
+        "das Zwischenhirn"
+      ],
+      "correctAnswer": "das Kleinhirn",
+      "explanation": {
+        "en": "The cerebellum (Kleinhirn) controls balance and coordination.",
+        "de": "Das Kleinhirn kontrolliert das Gleichgewicht und die Koordination."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_kp_11",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was sind die Symptome einer Hypoglykämie?",
+        "en": "What are symptoms of hypoglycemia?"
+      },
+      "options": [
+        "Zittern, Schwitzen und Verwirrung",
+        "Fieber und Husten",
+        "Hautausschlag und Juckreiz",
+        "Übelkeit und Erbrechen"
+      ],
+      "correctAnswer": "Zittern, Schwitzen und Verwirrung",
+      "explanation": {
+        "en": "Hypoglycemia symptoms include trembling, sweating, and confusion.",
+        "de": "Hypoglykämie-Symptome sind Zittern, Schwitzen und Verwirrung."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_kp_12",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist die Aufgabe der weißen Blutkörperchen?",
+        "en": "What is the function of white blood cells?"
+      },
+      "options": [
+        "Sauerstoff transportieren",
+        "Blut gerinnen lassen",
+        "Infektionen bekämpfen",
+        "Nährstoffe transportieren"
+      ],
+      "correctAnswer": "Infektionen bekämpfen",
+      "explanation": {
+        "en": "White blood cells are part of the immune system and fight infections.",
+        "de": "Weiße Blutkörperchen sind Teil des Immunsystems und bekämpfen Infektionen."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_kp_13",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Wie viele Lungenlappen hat der Mensch?",
+        "en": "How many lung lobes does a human have?"
+      },
+      "options": [
+        "2 Lungenlappen",
+        "3 Lungenlappen",
+        "4 Lungenlappen",
+        "5 Lungenlappen"
+      ],
+      "correctAnswer": "5 Lungenlappen",
+      "explanation": {
+        "en": "Humans have 5 lung lobes: 3 on the right and 2 on the left.",
+        "de": "Der Mensch hat 5 Lungenlappen: 3 rechts und 2 links."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_kp_14",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist Hypertonie?",
+        "en": "What is hypertension?"
+      },
+      "options": [
+        "niedriger Blutdruck",
+        "hoher Blutdruck",
+        "niedriger Blutzucker",
+        "hoher Blutzucker"
+      ],
+      "correctAnswer": "hoher Blutdruck",
+      "explanation": {
+        "en": "Hypertension is high blood pressure.",
+        "de": "Hypertonie ist hoher Blutdruck."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_kp_15",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Welches Hormon reguliert den Blutzucker?",
+        "en": "Which hormone regulates blood sugar?"
+      },
+      "options": [
+        "Adrenalin",
+        "Insulin",
+        "Cortisol",
+        "Thyroxin"
+      ],
+      "correctAnswer": "Insulin",
+      "explanation": {
+        "en": "Insulin regulates blood sugar levels.",
+        "de": "Insulin reguliert den Blutzuckerspiegel."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_kp_16",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Wo findet der Gasaustausch statt?",
+        "en": "Where does gas exchange occur?"
+      },
+      "options": [
+        "in den Bronchien",
+        "in der Luftröhre",
+        "in den Alveolen",
+        "im Kehlkopf"
+      ],
+      "correctAnswer": "in den Alveolen",
+      "explanation": {
+        "en": "Gas exchange occurs in the alveoli of the lungs.",
+        "de": "Der Gasaustausch findet in den Alveolen der Lunge statt."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_kp_17",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist die normale Atemfrequenz bei Erwachsenen?",
+        "en": "What is the normal respiratory rate in adults?"
+      },
+      "options": [
+        "6-10 Atemzüge pro Minute",
+        "12-20 Atemzüge pro Minute",
+        "25-30 Atemzüge pro Minute",
+        "35-40 Atemzüge pro Minute"
+      ],
+      "correctAnswer": "12-20 Atemzüge pro Minute",
+      "explanation": {
+        "en": "Normal adult respiratory rate is 12-20 breaths per minute.",
+        "de": "Die normale Atemfrequenz bei Erwachsenen beträgt 12-20 Atemzüge pro Minute."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_kp_18",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Welche Blutgruppe ist der Universalspender?",
+        "en": "Which blood type is the universal donor?"
+      },
+      "options": [
+        "A negativ",
+        "B negativ",
+        "AB negativ",
+        "0 negativ"
+      ],
+      "correctAnswer": "0 negativ",
+      "explanation": {
+        "en": "Blood type O negative is the universal donor.",
+        "de": "Blutgruppe 0 negativ ist der Universalspender."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_kp_19",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was ist Tachykardie?",
+        "en": "What is tachycardia?"
+      },
+      "options": [
+        "langsamer Herzschlag",
+        "schneller Herzschlag",
+        "unregelmäßiger Herzschlag",
+        "ausbleibender Herzschlag"
+      ],
+      "correctAnswer": "schneller Herzschlag",
+      "explanation": {
+        "en": "Tachycardia is a fast heart rate, typically >100 bpm.",
+        "de": "Tachykardie ist ein schneller Herzschlag, typischerweise über 100 Schläge pro Minute."
+      },
+      "points": 1
+    },
+    {
+      "id": "p1_kp_20",
+      "type": "multipleChoice",
+      "question": {
+        "de": "Was misst die Sauerstoffsättigung im Blut?",
+        "en": "What measures the oxygen saturation in blood?"
+      },
+      "options": [
+        "EKG",
+        "SpO2 (Pulsoximeter)",
+        "Blutdruckmessgerät",
+        "Thermometer"
+      ],
+      "correctAnswer": "SpO2 (Pulsoximeter)",
+      "explanation": {
+        "en": "SpO2 measured by pulse oximeter shows oxygen saturation, normally 95-100%.",
+        "de": "SpO2 wird mit dem Pulsoximeter gemessen und zeigt die Sauerstoffsättigung, normalerweise 95-100%."
+      },
+      "points": 1
+    }
+  ]
+}
