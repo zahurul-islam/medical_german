@@ -1,7 +1,6 @@
 /// Mock Test Screen for FSP and KP exams
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:go_router/go_router.dart';
 import '../../../core/themes/app_colors.dart';
 import '../../../core/themes/app_text_styles.dart';
 import '../../../data/models/mock_test_model.dart';

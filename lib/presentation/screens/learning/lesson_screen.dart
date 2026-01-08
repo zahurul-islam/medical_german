@@ -112,7 +112,6 @@ class _TextContentTab extends StatelessWidget {
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
     final isDarkMode = Theme.of(context).brightness == Brightness.dark;
-    final textColor = isDarkMode ? Colors.white : AppColors.textPrimaryLight;
     final hintColor = isDarkMode ? AppColors.textHintDark : AppColors.textHintLight;
 
     return SingleChildScrollView(

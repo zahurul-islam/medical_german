@@ -161,8 +161,6 @@ class _SubscriptionScreenState extends ConsumerState<SubscriptionScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final isDarkMode = Theme.of(context).brightness == Brightness.dark;
-    final textColor = isDarkMode ? Colors.white : AppColors.textPrimaryLight;
     final plans = _subscriptionService.getSubscriptionPlans();
     final userLanguage = ref.watch(userLanguageProvider);
     final strings = SettingsStrings(userLanguage);

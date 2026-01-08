@@ -6,7 +6,6 @@ import 'package:url_launcher/url_launcher.dart';
 import '../../../core/localization/settings_strings.dart';
 import '../../../core/themes/app_colors.dart';
 import '../../../core/themes/app_text_styles.dart';
-import '../../../data/repositories/auth_repository.dart';
 import '../../providers/providers.dart';
 
 class SettingsScreen extends ConsumerWidget {
