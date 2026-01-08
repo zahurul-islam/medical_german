@@ -140,6 +140,20 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
+              // Logo
+              Center(
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(20),
+                  child: Image.asset(
+                    'assets/images/med_deutsch_logo.jpg',
+                    width: 100,
+                    height: 100,
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              ),
+              const SizedBox(height: 20),
+              
               // Title
               Text(
                 'Create Account',
@@ -314,6 +328,7 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
                     onPressed: _isLoading ? null : _signInWithGoogle,
                     icon: Icons.g_mobiledata,
                     label: 'Google',
+                    isGoogle: true,
                   ),
                   const SizedBox(width: 16),
                   
@@ -357,15 +372,40 @@ class _SocialButton extends StatelessWidget {
   final VoidCallback? onPressed;
   final IconData icon;
   final String label;
+  final bool isGoogle;
 
   const _SocialButton({
     required this.onPressed,
     required this.icon,
     required this.label,
+    this.isGoogle = false,
   });
 
   @override
   Widget build(BuildContext context) {
+    if (isGoogle) {
+      return OutlinedButton(
+        onPressed: onPressed,
+        style: OutlinedButton.styleFrom(
+          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+        ),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            // Colorful Google "G" logo
+            SizedBox(
+              width: 24,
+              height: 24,
+              child: CustomPaint(
+                painter: _GoogleLogoPainter(),
+              ),
+            ),
+            const SizedBox(width: 8),
+            Text(label),
+          ],
+        ),
+      );
+    }
     return OutlinedButton.icon(
       onPressed: onPressed,
       icon: Icon(icon, size: 24),
@@ -375,4 +415,78 @@ class _SocialButton extends StatelessWidget {
       ),
     );
   }
+}
+
+// Custom painter for the colorful Google "G" logo
+class _GoogleLogoPainter extends CustomPainter {
+  @override
+  void paint(Canvas canvas, Size size) {
+    final double s = size.width;
+    final center = Offset(s / 2, s / 2);
+    final radius = s / 2;
+    
+    // Blue arc (right side)
+    final bluePaint = Paint()
+      ..color = const Color(0xFF4285F4)
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = s / 5;
+    canvas.drawArc(
+      Rect.fromCircle(center: center, radius: radius * 0.7),
+      -0.4,
+      1.8,
+      false,
+      bluePaint,
+    );
+    
+    // Green arc (bottom)
+    final greenPaint = Paint()
+      ..color = const Color(0xFF34A853)
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = s / 5;
+    canvas.drawArc(
+      Rect.fromCircle(center: center, radius: radius * 0.7),
+      1.4,
+      1.2,
+      false,
+      greenPaint,
+    );
+    
+    // Yellow arc (left-bottom)
+    final yellowPaint = Paint()
+      ..color = const Color(0xFFFBBC05)
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = s / 5;
+    canvas.drawArc(
+      Rect.fromCircle(center: center, radius: radius * 0.7),
+      2.6,
+      1.0,
+      false,
+      yellowPaint,
+    );
+    
+    // Red arc (top-left)
+    final redPaint = Paint()
+      ..color = const Color(0xFFEA4335)
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = s / 5;
+    canvas.drawArc(
+      Rect.fromCircle(center: center, radius: radius * 0.7),
+      3.6,
+      1.0,
+      false,
+      redPaint,
+    );
+    
+    // Blue bar extending right
+    final barPaint = Paint()
+      ..color = const Color(0xFF4285F4)
+      ..style = PaintingStyle.fill;
+    canvas.drawRect(
+      Rect.fromLTWH(s * 0.5, s * 0.4, s * 0.4, s * 0.2),
+      barPaint,
+    );
+  }
+
+  @override
+  bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
 }
