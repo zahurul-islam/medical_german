@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copyright - MedDeutsch</title>
+    <style>
+        :root {
+            --primary-color: #00897B;
+            --text-color: #333;
+            --bg-color: #f9f9f9;
+            --white: #ffffff;
+            --spacing: 20px;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px var(--spacing);
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .card {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            width: 100%;
+            max-width: 600px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            margin: 0 0 20px 0;
+            font-size: 2.2rem;
+        }
+
+        .copyright-year {
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: #444;
+            margin-bottom: 30px;
+        }
+
+        .legal-text {
+            color: #666;
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+
+        .divider {
+            height: 1px;
+            background: #eee;
+            margin: 30px 0;
+            width: 100%;
+        }
+
+        .contact-info {
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #999;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>MedDeutsch</h1>
+            <div class="copyright-year">
+                &copy; 2026 meddeutsch.app
+            </div>
+
+            <div class="legal-text">
+                <p>All rights reserved.</p>
+                <p>The content, design, graphics, and code of this application and website are protected by copyright
+                    laws. No part of this application may be reproduced, distributed, or transmitted in any form or by
+                    any means, including photocopying, recording, or other electronic or mechanical methods, without the
+                    prior written permission of the copyright holder.</p>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="contact-info">
+                For permission requests or inquiries, please write to us at:<br>
+                <a href="mailto:legal@meddeutsch.app">legal@meddeutsch.app</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Strictly enforced.
+    </footer>
+</body>
+
+</html>

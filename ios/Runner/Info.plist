@@ -47,6 +47,8 @@
 	<true/>
 	<key>NSAppleMusicUsageDescription</key>
 	<string>This app may use audio for medical German learning content.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>MedDeutsch may use the microphone for voice practice features in future updates.</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
